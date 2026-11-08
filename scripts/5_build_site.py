@@ -11,7 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EP_DIR = ROOT / 'site' / 'dist' / 'data' / 'episodes'
 
 # Fields that go into the lightweight inline index (no heavy detail fields)
-LIGHT_FIELDS = {'n', 't', 'd', 's', 'g', 'p', 'sj', 'th', 'f', 'kw', 'xs'}
+LIGHT_FIELDS = {'n', 't', 'd', 's', 'g', 'p', 'sj', 'th', 'f', 'kw', 'xs', 'q', 'r'}
 
 # Fields to strip from the per-episode files when building the inline index
 HEAVY_FIELDS = {'x', 'r', 'id', 'sl', 'q', 'mp3'}
