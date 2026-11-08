@@ -163,9 +163,11 @@ class TestAPIErrors(unittest.TestCase):
 
     def setUp(self):
         self._orig_requests = tr._requests
+        self._orig_elevenlabs = tr._ElevenLabs
 
     def tearDown(self):
         tr._requests = self._orig_requests
+        tr._ElevenLabs = self._orig_elevenlabs
 
     def test_rate_limit_raises(self):
         ep = dict(EP_WITH_PAAS_2G)
@@ -176,7 +178,6 @@ class TestAPIErrors(unittest.TestCase):
 
         rq = _make_requests_mock()
         rq.post.return_value = mock_resp
-        rq.RequestException = Exception
         self._inject_requests(rq)
 
         with self.assertRaises(tr.RateLimitError) as ctx:
@@ -192,8 +193,8 @@ class TestAPIErrors(unittest.TestCase):
 
         rq = _make_requests_mock()
         rq.post.return_value = mock_resp
-        rq.RequestException = Exception
         self._inject_requests(rq)
+        tr._ElevenLabs = None  # ensure SDK unavailable → TranscriptionError
 
         with self.assertRaises(tr.TranscriptionError):
             tr.transcribe_episode(ep, 'fake-key')
@@ -206,20 +207,22 @@ class TestAPIErrors(unittest.TestCase):
         resp_403.status_code = 403
         resp_403.ok = False
 
-        resp_ok = MagicMock()
-        resp_ok.status_code = 200
-        resp_ok.ok = True
-        resp_ok.json.return_value = {'words': words}
-
         resp_dl = MagicMock()
         resp_dl.ok = True
+        resp_dl.headers = {}
         resp_dl.iter_content = lambda chunk_size: iter([b'fakebytes'])
 
         rq = _make_requests_mock()
-        rq.post.side_effect = [resp_403, resp_ok]
+        rq.post.return_value = resp_403
         rq.get.return_value = resp_dl
-        rq.RequestException = Exception
         self._inject_requests(rq)
+
+        # Mock the elevenlabs SDK: client.speech_to_text.convert() returns object with .words
+        mock_tx = MagicMock()
+        mock_tx.words = words
+        mock_sdk_client = MagicMock()
+        mock_sdk_client.speech_to_text.convert.return_value = mock_tx
+        tr._ElevenLabs = MagicMock(return_value=mock_sdk_client)
 
         t = tr.transcribe_episode(ep, 'fake-key')
         self.assertIn('segments', t)

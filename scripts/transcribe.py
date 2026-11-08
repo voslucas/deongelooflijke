@@ -280,13 +280,15 @@ def transcribe_episode(ep, api_key):
             raise RateLimitError(int(resp.headers.get('Retry-After', 60)))
         else:
             print(f'  source_url failed ({resp.status_code}): {resp.text[:120]}')
-    except requests.RequestException as exc:
+    except RateLimitError:
+        raise
+    except Exception as exc:
         print(f'  source_url request error: {exc}')
 
     # 2. File upload via official SDK (handles large uploads without SSL write timeout)
     if words is None:
         if _ElevenLabs is None:
-            sys.exit('elevenlabs package not installed. Run: pip install elevenlabs')
+            raise TranscriptionError('elevenlabs package not installed. Run: pip install elevenlabs')
         mp3_path = MP3_DIR / f'{key}.mp3'
         if mp3_path.exists():
             print(f'  Using cached MP3: {mp3_path.relative_to(ROOT)}')
