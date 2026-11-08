@@ -1,0 +1,75 @@
+/* De Ongelooflijke — generated from tokens.json (plus the three chart/highlight colours the archive adds). */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap");
+
+:root {
+  --parchment: #f0e2cd;  /* Page background. The Substack's web_bg_color; in dark, a warm near-black. */
+  --parchment-2: #e2d4c1;  /* Raised surfaces: cards, search field, table stripes (Substack background_contrast_1). */
+  --parchment-3: #d0c3b1;  /* Hover and pressed surfaces, bar-chart tracks (Substack background_contrast_2). */
+  --rule: #d8cbb9;  /* Hairlines and dividers (Substack color_theme_detail). Never for text. */
+  --ink: #363737;  /* Body text and headings. 9.4:1 on parchment light, 13.9:1 dark. */
+  --ink-muted: #5e5549;  /* Dates, durations, captions. 5.7:1 light, 7.5:1 dark. Replaces Substack's #757575, which is only 3.6:1 on parchment. */
+  --gold: #c2a678;  /* The ground of the saint-with-headphones artwork. Fills, chart bars and badges with ink-engraving text on top; not for text on parchment. */
+  --gold-deep: #7a5c2e;  /* Gold when it must be text or a thin line on parchment (4.9:1 light). */
+  --engraving: #3e2b16;  /* The dark-brown engraving ink of the artwork. Footer and hero ground; text on gold (5.8:1). */
+  --violet: #8720f7;  /* EO / wordmark violet, the one accent: links, focus rings, the active filter, highlighted search hits. 4.6:1 on parchment; lifted to #b88cff in dark (7:1). */
+  --violet-deep: #7a1fe0;  /* Filled violet buttons and chips with white text (6.8:1). */
+  --halo: #ffffff;  /* The white of the halo and headphones; text on violet and engraving. */
+  --teal: #1f6f63;  /* Second guest colour in speaker charts. */
+  --rose: #a3324f;  /* Third guest colour in speaker charts. */
+  --mark: rgba(135,32,247,.16);  /* Search-hit highlight and the active transcript line. */
+  --font-display: "Lora", Georgia, serif;
+  --font-body: "Spectral", Georgia, serif;
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --space-1: 4px;  /* Icon gaps, chip padding top/bottom. */
+  --space-2: 8px;  /* Between label and value. */
+  --space-3: 16px;  /* Card padding on phones; mobile page gutter. */
+  --space-4: 24px;  /* Card padding; grid gap. */
+  --space-5: 48px;  /* Between page sections. */
+  --radius-sm: 4px;  /* Badges, small chips. */
+  --radius-md: 10px;  /* Cards, inputs. */
+  --radius-pill: 999px;  /* Filter chips and the round artwork medallion. */
+}
+
+/* Dark theme "Nacht": follows the OS unless the page forces light. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --parchment: #1c1712;
+    --parchment-2: #262019;
+    --parchment-3: #332b22;
+    --rule: #3d342a;
+    --ink: #f0e2cd;
+    --ink-muted: #b9a68c;
+    --gold: #c2a678;
+    --gold-deep: #d1b382;
+    --engraving: #2b1f10;
+    --violet: #b88cff;
+    --violet-deep: #8720f7;
+    --halo: #ffffff;
+    --teal: #5cc0ad;
+    --rose: #f08aa3;
+    --mark: rgba(184,140,255,.22);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --parchment: #1c1712;
+  --parchment-2: #262019;
+  --parchment-3: #332b22;
+  --rule: #3d342a;
+  --ink: #f0e2cd;
+  --ink-muted: #b9a68c;
+  --gold: #c2a678;
+  --gold-deep: #d1b382;
+  --engraving: #2b1f10;
+  --violet: #b88cff;
+  --violet-deep: #8720f7;
+  --halo: #ffffff;
+  --teal: #5cc0ad;
+  --rose: #f08aa3;
+  --mark: rgba(184,140,255,.22);
+  color-scheme: dark;
+}
+
+body { background: var(--parchment); color: var(--ink); font: 18px/1.6 var(--font-body); }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; }
+a { color: var(--violet); }

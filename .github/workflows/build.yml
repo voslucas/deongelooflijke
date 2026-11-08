@@ -1,0 +1,74 @@
+name: Build & deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Try to fetch latest feed
+        run: |
+          curl -sSf --max-time 30 \
+            -H 'User-Agent: Mozilla/5.0 (compatible; bot)' \
+            -o data/raw/feed.xml \
+            'https://www.omnycontent.com/d/playlist/f1f7a7c5-9bdf-4d4c-b049-ab9200efe28a/feed.rss' \
+          || echo "Feed fetch failed; using committed feed.xml"
+        continue-on-error: true
+
+      - name: Parse feed
+        run: python scripts/1_parse_feed.py data/raw/feed.xml
+
+      - name: Extract guests
+        run: python scripts/2_extract_guests.py
+
+      - name: Build episode data
+        run: python scripts/3_build_episode_data.py
+
+      - name: Split data into per-episode files
+        run: python scripts/4_split_data.py
+
+      - name: Build site
+        run: python scripts/5_build_site.py
+
+      - name: Copy feed for Pages
+        run: cp data/raw/feed.xml site/dist/feed.xml
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

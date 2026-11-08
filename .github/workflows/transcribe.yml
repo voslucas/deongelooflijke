@@ -1,0 +1,53 @@
+name: Transcribe episode
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: 'Episode number, or "all-missing" to transcribe all episodes without a transcript'
+        required: true
+        default: '327'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Split data (ensures per-episode files and index.json exist)
+        run: python scripts/4_split_data.py
+
+      - name: Transcribe
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          if [ "${{ inputs.episode }}" = "all-missing" ]; then
+            python scripts/transcribe.py --all-missing
+          else
+            python scripts/transcribe.py --episode "${{ inputs.episode }}"
+          fi
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: transcripts/ep-${{ inputs.episode }}
+          title: 'Transcriptie: aflevering ${{ inputs.episode }}'
+          body: |
+            Automatisch gegenereerde transcriptie voor aflevering **${{ inputs.episode }}** via ElevenLabs Scribe v2.
+
+            Controleer de sprekertoewijzing in `data/speaker-corrections/` en pas eventueel aan voordat je merget.
+          add-paths: |
+            data/transcripts/
+            data/speaker-corrections/
+          commit-message: 'feat: transcriptie aflevering ${{ inputs.episode }}'
