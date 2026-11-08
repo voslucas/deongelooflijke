@@ -739,7 +739,8 @@ function viewQuiz(){
   const pool=REG.filter(e=>e.g.length===1&&(e.q||[]).length&&!QZ.used.has(e.key));
   if(!pool.length)QZ.used.clear();
   const src=pool.length?pool:REG.filter(e=>e.g.length===1&&(e.q||[]).length);
-  const e=src[Math.floor(Math.random()*src.length)];const q=e.q[Math.floor(Math.random()*e.q.length)];
+  if(!src.length){app.innerHTML='<p class="prose muted" style="padding:40px 0 0">Geen uitspraken beschikbaar.</p>';return;}
+  const e=src[Math.floor(Math.random()*src.length)];const q=(e.q||[])[Math.floor(Math.random()*(e.q||[]).length)]||'';
   const others=GUESTS.filter(p=>p.name!==e.g[0]&&p.eps.length>=1);const opts=[e.g[0],...pickN(Math.random,others.map(p=>p.name),3)].sort(()=>Math.random()-.5);
   QZ.cur={e,q};
   app.innerHTML=`<div class="quiz"><h1>Wie zei het?</h1><p class="prose muted" style="margin:8px 0 6px">Een echte uitspraak uit de afleveringsomschrijvingen. In de aflevering met welke gast viel deze zin?</p>
@@ -1004,7 +1005,7 @@ function viewStats(){
      <div><span class="label">Langste</span><br><a href="${sorted[0].hash}">#${sorted[0].n} ${esc(sorted[0].t)}</a> <span class="muted">· ${fdur(sorted[0].s)}</span></div>
      <div><span class="label">Kortste gesprek</span><br>${(()=>{const e=sorted.filter(e=>e.f==='Gesprek').at(-1);return `<a href="${e.hash}">#${e.n} ${esc(e.t)}</a> <span class="muted">· ${fdur(e.s)}</span>`})()}</div>
      <div><span class="label">Langste omschrijving</span><br>${(()=>{const e=[...REG].sort((a,b)=>(b.x||b.xs||'').length-(a.x||a.xs||'').length)[0];return `<a href="${e.hash}">#${e.n} ${esc(e.t)}</a> <span class="muted">· ${nl((e.x||e.xs||'').split(/\s+/).length)} woorden</span>`})()}</div>
-     <div><span class="label">Meest aangeraden door de makers</span><br>${(()=>{const c={};REG.forEach(e=>(e.r||[]).forEach(n=>c[n]=(c[n]||0)+1));const [n,v]=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];const e=byNum[n];return `<a href="${e.hash}">#${n} ${esc(e.t)}</a> <span class="muted">· ${v}× genoemd</span>`})()}</div>
+     <div><span class="label">Meest aangeraden door de makers</span><br>${(()=>{const c={};REG.forEach(e=>(e.r||[]).forEach(n=>c[n]=(c[n]||0)+1));const top=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];if(!top)return '<span class="muted">—</span>';const [n,v]=top;const e=byNum[n];return e?`<a href="${e.hash}">#${n} ${esc(e.t)}</a> <span class="muted">· ${v}× genoemd</span>`:'—'})()}</div>
    </div></div>
    ${statsTx()}
   </div></section>`;
