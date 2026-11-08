@@ -4,21 +4,35 @@ Usage:
     python scripts/transcribe.py --episode N [--api-key KEY]
     python scripts/transcribe.py --all-missing [--api-key KEY]
 
+Dependencies:
+    pip install requests elevenlabs
+
 API key is read from --api-key, then ELEVENLABS_API_KEY env var, then .env file.
-Output: site/dist/data/transcripts/{key}.json  (transcript-schema.md input shape)
-        data/speaker-corrections/{key}.json     (speaker mapping for review/override)
+Output: data/transcripts/{key}.json  (transcript-schema.md input shape)
+        data/speaker-corrections/{key}.json  (speaker mapping for review/override)
+
+Transcription strategy:
+    1. Try source_url — ElevenLabs fetches the MP3 from NPO directly (no upload).
+    2. If that fails, download the MP3 to data/mp3/{key}.mp3 and upload via the
+       official elevenlabs SDK (avoids Windows SSL write-timeout with raw requests).
 """
-import argparse, datetime, json, os, pathlib, re, sys, tempfile, time, unicodedata
+import argparse, datetime, json, os, pathlib, re, sys, time, unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
 OUT_DIR = ROOT / 'data' / 'transcripts'
+MP3_DIR = ROOT / 'data' / 'mp3'
 
 try:
     import requests as _requests
 except ImportError:
-    _requests = None  # deferred; checked at call time
+    _requests = None
+
+try:
+    from elevenlabs.client import ElevenLabs as _ElevenLabs
+except ImportError:
+    _ElevenLabs = None
 
 
 class RateLimitError(Exception):
@@ -185,71 +199,112 @@ def _words_to_transcript(words, mapping, ep):
     }
 
 
-def transcribe_episode(ep, api_key):
-    """Call ElevenLabs Scribe v2 and return transcript dict."""
-    if _requests is None:
-        sys.exit('requests is not installed. Run: pip install requests')
-    requests = _requests
-    mp3_url = ep.get('mp3', '')
-    num_speakers = 1 + int(bool(ep.get('p'))) + len(ep.get('g', []))
+def _download_mp3(mp3_url, dest_path, requests):
+    """Download mp3_url to dest_path with a simple progress indicator."""
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f'  Downloading {mp3_url} …')
+    dl = requests.get(mp3_url, timeout=(30, 600), stream=True)
+    if not dl.ok:
+        raise TranscriptionError(f'Could not download MP3: HTTP {dl.status_code}')
+    total = int(dl.headers.get('Content-Length', 0))
+    done = 0
+    with open(dest_path, 'wb') as f:
+        for chunk in dl.iter_content(65536):
+            f.write(chunk)
+            done += len(chunk)
+            if total:
+                pct = done * 100 // total
+                print(f'\r  {pct}% ({done // 1_000_000} / {total // 1_000_000} MB)', end='', flush=True)
+    print()
+    print(f'  Saved to {dest_path.relative_to(ROOT)}  ({done // 1_000_000} MB)')
 
+
+def _word_to_dict(w):
+    """Normalise an SDK word object or plain dict to the shape _speaker_map expects."""
+    if isinstance(w, dict):
+        return w
+    try:
+        return w.model_dump()          # Pydantic v2 (elevenlabs ≥ 1.x)
+    except AttributeError:
+        pass
+    try:
+        return w.dict()                # Pydantic v1
+    except AttributeError:
+        pass
+    return {k: getattr(w, k, None)
+            for k in ('text', 'type', 'start', 'end', 'speaker_id', 'value')}
+
+
+def transcribe_episode(ep, api_key):
+    """Transcribe via ElevenLabs Scribe v2.
+
+    Strategy:
+      1. Try source_url — ElevenLabs fetches the MP3 from the CDN directly (no upload).
+      2. If that returns a 4xx, download the MP3 to data/mp3/ and upload via the
+         official elevenlabs SDK (avoids the Windows SSL write-timeout with raw requests).
+    """
+    if _requests is None:
+        sys.exit('requests is not installed. Run: pip install requests elevenlabs')
+    requests = _requests
+
+    mp3_url = ep.get('mp3', '')
+    if not mp3_url:
+        raise TranscriptionError('No mp3 URL for this episode')
+
+    key = _ep_key(ep)
+    num_speakers = max(1, 1 + int(bool(ep.get('p'))) + len(ep.get('g', [])))
     headers = {'xi-api-key': api_key}
-    data = {
+    base_form = {
         'model_id': 'scribe_v2',
         'diarize': 'true',
-        'num_speakers': str(max(1, num_speakers)),
+        'num_speakers': str(num_speakers),
         'language_code': 'nld',
         'tag_audio_events': 'true',
     }
 
-    resp = None
-    # Try audio_url first
-    if mp3_url:
-        try:
-            resp = requests.post(
-                'https://api.elevenlabs.io/v1/speech-to-text',
-                headers=headers,
-                data={**data, 'audio_url': mp3_url},
-                timeout=(30, 1800),
+    words = None
+
+    # 1. source_url: ElevenLabs fetches the audio themselves — nothing to upload
+    print('  Trying source_url (no upload) …')
+    try:
+        resp = requests.post(
+            'https://api.elevenlabs.io/v1/speech-to-text',
+            headers=headers,
+            data={**base_form, 'source_url': mp3_url},
+            timeout=(30, 3600),
+        )
+        if resp.ok:
+            words = resp.json().get('words', [])
+            print(f'  source_url succeeded ({len(words)} words)')
+        elif resp.status_code == 429:
+            raise RateLimitError(int(resp.headers.get('Retry-After', 60)))
+        else:
+            print(f'  source_url failed ({resp.status_code}): {resp.text[:120]}')
+    except requests.RequestException as exc:
+        print(f'  source_url request error: {exc}')
+
+    # 2. File upload via official SDK (handles large uploads without SSL write timeout)
+    if words is None:
+        if _ElevenLabs is None:
+            sys.exit('elevenlabs package not installed. Run: pip install elevenlabs')
+        mp3_path = MP3_DIR / f'{key}.mp3'
+        if mp3_path.exists():
+            print(f'  Using cached MP3: {mp3_path.relative_to(ROOT)}')
+        else:
+            _download_mp3(mp3_url, mp3_path, requests)
+        print(f'  Uploading via SDK ({mp3_path.stat().st_size // 1_000_000} MB) …')
+        client = _ElevenLabs(api_key=api_key)
+        with open(mp3_path, 'rb') as f:
+            tx = client.speech_to_text.convert(
+                file=f,
+                model_id='scribe_v2',
+                diarize=True,
+                num_speakers=num_speakers,
+                language_code='nld',
+                tag_audio_events=True,
             )
-            if resp.status_code in (400, 403, 404):
-                resp = None  # fall through to file upload
-        except requests.RequestException as exc:
-            print(f'  audio_url attempt failed: {exc}; falling back to file upload')
-            resp = None
-
-    # Fallback: download MP3 and upload as file
-    if resp is None:
-        if not mp3_url:
-            raise TranscriptionError('No mp3 URL for this episode')
-        print(f'  Downloading MP3 from {mp3_url} …')
-        dl = requests.get(mp3_url, timeout=(30, 600), stream=True)
-        if not dl.ok:
-            raise TranscriptionError(f'Could not download MP3: HTTP {dl.status_code}')
-        with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp:
-            for chunk in dl.iter_content(65536):
-                tmp.write(chunk)
-            tmp_path = tmp.name
-        try:
-            with open(tmp_path, 'rb') as f:
-                resp = requests.post(
-                    'https://api.elevenlabs.io/v1/speech-to-text',
-                    headers=headers,
-                    data=data,
-                    files={'audio': ('audio.mp3', f, 'audio/mpeg')},
-                    timeout=(30, 1800),
-                )
-        finally:
-            os.unlink(tmp_path)
-
-    if resp.status_code == 429:
-        retry_after = int(resp.headers.get('Retry-After', 60))
-        raise RateLimitError(retry_after)
-    if not resp.ok:
-        raise TranscriptionError(f'ElevenLabs API error: HTTP {resp.status_code}: {resp.text[:200]}')
-
-    result = resp.json()
-    words = result.get('words', [])
+        words = [_word_to_dict(w) for w in (tx.words or [])]
+        print(f'  SDK upload succeeded ({len(words)} words)')
 
     # Map speaker IDs to names
     key = _ep_key(ep)

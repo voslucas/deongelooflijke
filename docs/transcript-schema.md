@@ -2,6 +2,53 @@
 
 The episode pages, person pages, statistics and the Genoemd page already render a full transcript layer. Today `transcriptFor(e)` builds it from the episode description plus a seeded random generator. To go live, produce one JSON file per episode in the shape below, embed or load it, and have `transcriptFor(e)` return the derived object (section 2) from it. No view needs to change.
 
+## 0. Pipeline overview
+
+```
+scripts/transcribe.py   → data/transcripts/{n}.json   (speech + speakers, sections 1a)
+scripts/analyze.py      → fills summary/chapters/highlights/mentions/bible  (section 1b)
+scripts/5_build_site.py → copies transcripts to site/dist/data/transcripts/
+```
+
+**Step 1 — transcribe.py** (ElevenLabs Scribe v2)
+
+Dependencies: `pip install requests elevenlabs`
+
+The script tries two strategies in order:
+1. `source_url` — passes the NPO MP3 URL directly; ElevenLabs fetches it themselves (no upload from your machine, fastest).
+2. File upload via the official `elevenlabs` Python SDK — downloads the MP3 to `data/mp3/{n}.mp3` first, then uploads. The SDK is used (not raw `requests`) because raw multipart uploads of 100+ MB hit a Windows SSL write-timeout.
+
+API key: set `ELEVENLABS_API_KEY` in `.env` at the project root (already in `.gitignore`).
+
+```bash
+python scripts/transcribe.py --episode 327
+python scripts/transcribe.py --all-missing
+```
+
+The output file has real `speakers`, `segments`, and `events`; `summary`, `chapters`, `highlights`, `mentions`, and `bible` are left empty — those require an LLM (Step 2).
+
+**Step 2 — analyze.py** (Claude API)
+
+Reads `data/transcripts/{n}.json`, sends the full transcript text to Claude Opus via tool use
+(structured JSON output), and writes back:
+- `summary.tldr` and `summary.points[]`
+- `chapters[]` with Dutch titles and timestamps
+- `highlights[]` — memorable quotes / moments
+- `mentions[]` — persons, philosophers, books, places extracted from speech
+- `bible[]` — Bible references
+
+Dependencies: `pip install anthropic`
+
+API key: `CLAUDE_API_KEY` or `ANTHROPIC_API_KEY` in `.env` or the environment.
+
+```bash
+python scripts/analyze.py --episode 327
+python scripts/analyze.py --all-missing
+python scripts/analyze.py --episode 327 --force   # re-analyze even if already done
+```
+
+**CI** — `.github/workflows/transcribe.yml` runs `transcribe.py` on demand (GitHub Actions → workflow_dispatch) and opens a PR with the new transcript for speaker-assignment review.
+
 ## 1. Input: what a transcription pipeline should produce
 
 One file per episode, e.g. `data/transcripts/327.json`:
@@ -9,7 +56,7 @@ One file per episode, e.g. `data/transcripts/327.json`:
 ```json
 {
   "episode": 327,
-  "source": { "audio": "https://podcast.npo.nl/file/…/kader-abdolah-….mp3", "model": "whisper-large-v3 + pyannote 3.1", "created": "2026-11-08" },
+  "source": { "audio": "https://podcast.npo.nl/file/…/kader-abdolah-….mp3", "model": "elevenlabs/scribe-v2", "created": "2026-11-08" },
   "speakers": [
     { "id": "S1", "name": "David Boogerd", "role": "Presentator" },
     { "id": "S2", "name": "Stefan Paas", "role": "Vaste gast" },

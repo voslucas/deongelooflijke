@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests elevenlabs anthropic
 
       - name: Split data (ensures per-episode files and index.json exist)
         run: python scripts/4_split_data.py
@@ -38,13 +38,26 @@ jobs:
             python scripts/transcribe.py --episode "${{ inputs.episode }}"
           fi
 
+      - name: Enrich transcript with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          if [ "${{ inputs.episode }}" = "all-missing" ]; then
+            python scripts/analyze.py --all-missing
+          else
+            python scripts/analyze.py --episode "${{ inputs.episode }}"
+          fi
+
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6
         with:
           branch: transcripts/ep-${{ inputs.episode }}
           title: 'Transcriptie: aflevering ${{ inputs.episode }}'
           body: |
-            Automatisch gegenereerde transcriptie voor aflevering **${{ inputs.episode }}** via ElevenLabs Scribe v2.
+            Automatisch gegenereerde transcriptie en analyse voor aflevering **${{ inputs.episode }}**.
+
+            - Transcriptie: ElevenLabs Scribe v2 (sprekers, segmenten, events)
+            - Analyse: Claude Opus (samenvatting, hoofdstukken, hoogtepunten, vermeldingen, Bijbelrefs)
 
             Controleer de sprekertoewijzing in `data/speaker-corrections/` en pas eventueel aan voordat je merget.
           add-paths: |
