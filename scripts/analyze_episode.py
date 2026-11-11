@@ -195,7 +195,7 @@ def analyse_episode(key: str, client, model: str, system_prompt: str) -> dict:
 
     response = client.messages.create(
         model=model,
-        max_tokens=6000,
+        max_tokens=8000,
         system=[{
             'type': 'text',
             'text': system_prompt,

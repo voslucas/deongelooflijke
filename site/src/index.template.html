@@ -524,24 +524,21 @@ const spkName=s=>`<b style="color:${s.c}">${esc(s.name)}</b>`;
 let TXTAB='ov';
 function txBlock(e,T){
   const desc=`<div class="prose">${(e.x||e.xs||'').split('\n').map(p=>`<p>${esc(p)}</p>`).join('')}</div>`;
-  if(e.f==='Trailer'||e.f==='Spin-off')return desc;
+  if(e.f==='Trailer'||e.f==='Spin-off'||!T)return desc;
   const tabs=[['ov','Overzicht'],['ch','Hoofdstukken'],['tr','Transcript'],['an','Analyse']];
-  const demoTag=T._isReal?'':`<span class="demo" title="Tijden, sprekers en cijfers zijn gesimuleerd">Voorbeelddata</span>`;
-  return `<div class="txwrap"><div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button type="button" role="tab" class="tab ${TXTAB===k?'on':''}" data-tab="${k}" aria-selected="${TXTAB===k}">${l}</button>`).join('')}${demoTag}</div>
+  return `<div class="txwrap"><div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button type="button" role="tab" class="tab ${TXTAB===k?'on':''}" data-tab="${k}" aria-selected="${TXTAB===k}">${l}</button>`).join('')}</div>
   <div class="tabp" data-p="ov" ${TXTAB!=='ov'?'hidden':''}>${ovHTML(e,T,desc)}</div>
   <div class="tabp" data-p="ch" ${TXTAB!=='ch'?'hidden':''}>${chHTML(e,T)}</div>
   <div class="tabp" data-p="tr" ${TXTAB!=='tr'?'hidden':''}>${trHTML(e,T)}</div>
   <div class="tabp" data-p="an" ${TXTAB!=='an'?'hidden':''}>${anHTML(e,T)}</div></div>`;
 }
 function ovHTML(e,T,desc){
-  return `${T._isReal?'':`<p class="demonote">Met transcripties worden samenvatting, hoofdstukken en analyse uit het gesprek zelf gehaald. Hier staat voorbeelddata: de tekst komt uit de afleveringsomschrijving, sprekers, tijden en cijfers zijn gesimuleerd.</p>`}
-  <h2>In het kort</h2><p class="tldr">${esc(T.tldr)}</p>
-  ${T.points.length?`<h2>Kernpunten</h2><ul class="points">${T.points.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`:''}
-  <h2>Wie is wanneer aan het woord</h2>${riverHTML(T)}<div class="spk">${T.spk.map(s=>`<span><i style="background:${s.c}"></i>${esc(s.name)} <span class="muted num">${Math.round(s.share*100)}%</span></span>`).join('')}<span><i style="background:var(--halo);box-shadow:0 0 0 1.5px var(--engraving)"></i>gelach</span></div>
-  <h2>Hoogtepunten</h2><ol class="hl">${T.hls.map(h=>`<li>${tbtn(h.t)}<div><span class="label">${esc(h.kind)}${h.who?' · '+esc(h.who.name):''}</span><p>${h.html}</p></div></li>`).join('')}</ol>
-  <h2>Omschrijving van de makers</h2>${desc}`;
+  const summary=T._hasAnalysis?'<h2>In het kort</h2><p class="tldr">'+esc(T.tldr)+'</p>'+(T.points.length?'<h2>Kernpunten</h2><ul class="points">'+T.points.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>':''):'';
+  const hls=T.hls.length?'<h2>Hoogtepunten</h2><ol class="hl">'+T.hls.map(h=>'<li>'+tbtn(h.t)+'<div><span class="label">'+esc(h.kind)+(h.who?' · '+esc(h.who.name):'')+'</span><p>'+h.html+'</p></div></li>').join('')+'</ol>':'';
+  return summary+'<h2>Wie is wanneer aan het woord</h2>'+riverHTML(T)+'<div class="spk">'+T.spk.map(s=>'<span><i style="background:'+s.c+'"></i>'+esc(s.name)+' <span class="muted num">'+Math.round(s.share*100)+'%</span></span>').join('')+'</div>'+hls+'<h2>Omschrijving van de makers</h2>'+desc;
 }
 function chHTML(e,T){
+  if(!T._hasAnalysis||!T._hasChapters)return '<p class="prose muted" style="padding:16px 0">Hoofdstukindeling beschikbaar zodra de analyse van deze aflevering klaar is.</p>';
   return `<ol class="chapters">${T.chapters.map(c=>`<li data-ch="${c.j}"><div class="when"><button class="tbtn" type="button" data-seek="${Math.round(c.start)}">${ts(c.start)}</button><span>${Math.max(1,Math.round((c.end-c.start)/60))} min</span></div><div><h3>${esc(c.title)}</h3><p>${esc(c.sum)}</p><div class="who">${c.who.map(s=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:9px;background:${s.c};margin-right:5px"></i>${esc(s.name)}</span>`).join('')}${T.hls.filter(h=>h.t>=c.start&&h.t<c.end).map(h=>`<span>· ${esc(h.kind)} op ${ts(h.t)}</span>`).join('')}</div></div></li>`).join('')}</ol>`;
 }
 function segsHTML(T,terms){
@@ -550,13 +547,11 @@ function segsHTML(T,terms){
     while(ci<T.chapters.length&&T.chapters[ci].start<=s.start+1){if(!terms.length)out+=`<div class="chh">${esc(T.chapters[ci].title)}</div>`;ci++}
     const hit=!terms.length||terms.every(t=>norm(s.t).includes(t));
     if(hit)out+=`<div class="seg" data-si="${s.i}">${tbtn(s.start)}<div>${spkName(s.sp)}<p>${hl(s.t,terms)}</p></div></div>`;
-    while(li<T.laughs.length&&T.laughs[li].t<s.end){if(!terms.length)out+=`<div class="lgh">[gelach · ${ts(T.laughs[li].t)}]</div>`;li++}
   });
   return out||'<p class="empty">Niets gevonden in dit transcript.</p>';
 }
 function trHTML(e,T){
-  return `${T._isReal?'':`<p class="demonote">Voorbeeld: de zinnen hieronder komen uit de omschrijving en zijn over de sprekers verdeeld. Een echt transcript bevat elk gesproken woord.</p>`}
-  <div class="trctrl"><input type="search" id="tr-q" placeholder="Zoek in dit gesprek" aria-label="Zoek in dit transcript"><label class="check"><input type="checkbox" id="tr-follow" checked> Volg de speler</label></div>
+  return `<div class="trctrl"><input type="search" id="tr-q" placeholder="Zoek in dit gesprek" aria-label="Zoek in dit transcript"><label class="check"><input type="checkbox" id="tr-follow" checked> Volg de speler</label></div>
   <div class="segs" id="segs">${segsHTML(T,[])}</div>`;
 }
 function energySVG(T){
@@ -566,7 +561,6 @@ function energySVG(T){
   T.chapters.forEach(c=>{s+=`<line class="grid" x1="${X(c.start)}" x2="${X(c.start)}" y1="${pt}" y2="${pt+ih}"/>`});
   s+=`<path d="M${pl},${pt+ih} L${pts.map(p=>p.map(n=>n.toFixed(1)).join(',')).join(' L')} L${W-pr},${pt+ih} Z" fill="var(--gold)" fill-opacity=".35"/>`;
   s+=`<polyline class="line" points="${pts.map(p=>p.map(n=>n.toFixed(1)).join(',')).join(' ')}"/>`;
-  T.laughs.forEach(l=>{const i=Math.round(l.t/D*79);s+=`<circle cx="${X(l.t).toFixed(1)}" cy="${Y(T.energy[i]).toFixed(1)}" r="${2+l.size}" fill="var(--halo)" stroke="var(--engraving)" stroke-width="1.5"><title>Gelach ${ts(l.t)}</title></circle>`});
   [0,.25,.5,.75,1].forEach(f=>{s+=`<text x="${X(f*D)}" y="${h-6}" text-anchor="${f===0?'start':f===1?'end':'middle'}">${ts(f*D)}</text>`});
   return s+'</svg>';
 }
@@ -574,15 +568,15 @@ function anHTML(e,T){
   const words=T.spk.reduce((a,s)=>a+s.words,0),wpm=Math.round(words/(T.spk.reduce((a,s)=>a+s.time,0)/60));
   const ticsUsed=TICS.filter(t=>T.spk.some(s=>s.tics[t]>0));
   const bingoRows=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];const bingo=bingoRows.some(r=>r.every(i=>T.bingo[i].hit));
-  return `<div class="tiles"><div><b>${nl(words)}</b><span>woorden gesproken</span></div><div><b>${wpm}</b><span>woorden per minuut gemiddeld</span></div><div><b>${T.spk[0].questions}</b><span>vragen van David</span></div><div><b>${T.laughs.length}</b><span>keer gelach</span></div><div><b>${T.interrupts}</b><span>keer door elkaar gepraat</span></div><div><b>${T.god}×</b><span>het woord ‘God’</span></div></div>
+  return `<div class="tiles"><div><b>${nl(words)}</b><span>woorden gesproken</span></div><div><b>${wpm}</b><span>woorden per minuut gemiddeld</span></div><div><b>${T.spk[0].questions}</b><span>vragen van David</span></div><div><b>${T.god}×</b><span>het woord ‘God’</span></div></div>
   <h2>Spreektijd</h2>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.share*100),href:'#p-'+slug(s.name)})),{fmt:v=>v+'%',max:100})}
   <h2>Spreektempo</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Woorden per minuut in deze aflevering.</p>${hbars(T.spk.map(s=>({l:s.name,v:s.wpm})),{cls:'v',max:200})}
-  <h2>Verloop van het gesprek</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 0">Energie op basis van tempo en volume; witte stippen zijn lachmomenten, lijnen markeren hoofdstukken.</p>${energySVG(T)}
+  <h2>Verloop van het gesprek</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 0">Spreekdichtheid door de aflevering: hoe hoger, hoe meer gesproken woorden per tijdsvenster. Verticale lijnen markeren hoofdstukken.</p>${energySVG(T)}
   <h2>Stopwoordjes</h2><div class="scroll"><table class="tics"><thead><tr><th></th>${T.spk.map(s=>`<th style="color:${s.c}">${esc(s.name.split(' ')[0])}</th>`).join('')}</tr></thead><tbody>${ticsUsed.map(t=>{const mx=Math.max(...T.spk.map(s=>s.tics[t]));return `<tr><td>‘${t}’</td>${T.spk.map(s=>`<td class="${s.tics[t]===mx&&mx>3?'hot':''}">${s.tics[t]||'·'}</td>`).join('')}</tr>`}).join('')}</tbody></table></div>
   <h2>Langste monoloog</h2><div class="mentions">${T.spk.filter(s=>s.longestSeg).map(s=>`<div>${tbtn(s.longestSeg.start)} ${spkName(s)} <span class="muted ui">${Math.max(1,Math.round(s.longest/60))} min aan één stuk</span></div>`).join('')}</div>
   <h2>Woordenschat</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke woorden per 1.000 gesproken woorden. Hoger betekent gevarieerder taalgebruik.</p>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.ttr*1000)})),{max:500})}
-  ${T.bible.length?`<h2>Bijbelverwijzingen</h2><div class="mentions">${T.bible.map(b=>`<div>${tbtn(b.t)} ${esc(b.b)}</div>`).join('')}</div>`:''}
-  <h2>Genoemd in dit gesprek</h2>${CATS.map(([c,l])=>{const ms=T.ment.filter(m=>m.c===c);return ms.length?`<h3 class="label" style="margin:14px 0 8px">${l}</h3><div class="mentions">${ms.map(m=>`<div>${tbtn(m.hits[0].t)} <a href="#m-${slug(m.n)}">${esc(m.n)}</a> <span class="muted ui">${m.x}× genoemd</span></div>`).join('')}</div>`:''}).join('')}
+  ${T.bible.length?`<h2>Bijbelverwijzingen</h2><div class="mentions">${T.bible.map(b=>`<div>${b.t>=0?tbtn(b.t)+' ':''}${esc(b.b)}</div>`).join('')}</div>`:''}
+  ${T.ment.length?'<h2>Genoemd in dit gesprek</h2>'+CATS.map(([c,l])=>{const ms=T.ment.filter(m=>m.c===c);return ms.length?'<h3 class="label" style="margin:14px 0 8px">'+l+'</h3><div class="mentions">'+ms.map(m=>'<div>'+tbtn(m.hits[0].t)+' '+esc(m.n)+' <span class="muted ui">'+m.x+'× genoemd</span></div>').join('')+'</div>':''}).join(''):''}
   <h2>Ongelooflijke bingo</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Vaste ingrediënten van de show. Een gouden vakje viel in deze aflevering; klik op de tijd om het terug te horen.</p>
   <div class="bingo">${T.bingo.map(b=>`<div class="${b.hit?'hit':''}"><span>${esc(b.b)}</span>${b.hit?tbtn(b.t):''}</div>`).join('')}</div>${bingo?'<p class="bingo-yes">Bingo!</p>':''}`;
 }
@@ -620,22 +614,20 @@ function buildTFromRaw(raw,e){
     const mine=segs.filter(x=>x.start>=c.start&&x.start<end);
     return {j,start:c.start,end,title:c.title,sum:c.summary||'',who:[...new Set(mine.map(x=>x.sp))]};
   });
+  const _hasChapters=raw.chapters.length>0;
   if(!chapters.length)chapters.push({j:0,start:0,end:D,title:e.t,sum:'',who:[...new Set(segs.map(x=>x.sp))]});
-  // Laughs / interrupts from events
-  const laughs=raw.events.filter(ev=>ev.type==='laugh').map(ev=>({t:ev.t,who:spkById[ev.speaker]||spk[0],size:ev.size||1}));
-  const interrupts=raw.events.filter(ev=>ev.type==='overlap').length;
-  // Energy (80-point speaking rate proxy from segs)
-  const energy=[...Array(80)].map((_,i)=>{const t0=i/79*D,t1=(i+1)/79*D;const on=segs.filter(x=>x.end>t0&&x.start<t1).reduce((a,x)=>a+Math.min(x.end,t1)-Math.max(x.start,t0),0)/(t1-t0||1);const bump=laughs.reduce((a,l)=>a+Math.max(0,.25-Math.abs(l.t-t0)/D*6)*l.size/2,0);return Math.min(1,Math.max(0.05,on+bump))});
+  const laughs=[];const interrupts=0;
+  // Energy: speech density — fraction of each 1/80th window occupied by speech
+  const energy=[...Array(80)].map((_,i)=>{const t0=i/79*D,t1=(i+1)/79*D;const on=segs.filter(x=>x.end>t0&&x.start<t1).reduce((a,x)=>a+Math.min(x.end,t1)-Math.max(x.start,t0),0)/(t1-t0||1);return Math.min(1,Math.max(0.05,on))});
   // Summary
   const tldr=raw.summary?.tldr||segs.slice(0,2).map(x=>x.t).join(' ');
   const points=raw.summary?.points||[];
   // Highlights
   const hls=raw.highlights.map(h=>({t:h.t,kind:h.kind,html:`‘${esc(h.text)}’`,who:spkById[h.speaker]||null}));
-  const big=[...laughs].sort((a,b)=>b.size-a.size)[0];if(big)hls.push({t:big.t,kind:'Grootste lachsalvo',html:`Gelach aan tafel, ingezet door ${esc(big.who.name)}.`,who:big.who});
   const mono=[...segs].sort((a,b)=>b.dur-a.dur)[0];if(mono)hls.push({t:mono.start,kind:'Langste monoloog',html:`${esc(mono.sp.name)} aan het woord, ${Math.max(1,Math.round(mono.dur/60))} minuten zonder onderbreking.`,who:mono.sp});
   hls.sort((a,b)=>a.t-b.t);
   // Bible
-  const bible=raw.bible.map(b=>({b:b.ref,t:b.t})).sort((a,b)=>a.t-b.t);
+  const bible=raw.bible.map(b=>({b:b.ref,t:b.t!=null?b.t:-1})).sort((a,b)=>a.t<0?1:b.t<0?-1:a.t-b.t);
   // God count
   const godRe=/\bgod\b/gi;const god=segs.reduce((a,x)=>a+(x.t.match(godRe)||[]).length,0);
   // Mentions
@@ -644,18 +636,28 @@ function buildTFromRaw(raw,e){
   // Bingo
   const allText=segs.map(x=>x.t).join(' ');
   const bingo=BINGO.map(b=>{const i=allText.toLowerCase().indexOf(b.toLowerCase().replace(/"/g,''));return {b,hit:i>=0,t:i>=0?segs.find(x=>x.t.toLowerCase().includes(b.toLowerCase().replace(/"/g,'').slice(0,12)))?.start||0:0}});
-  return {D,spk,segs,chapters,laughs,interrupts,energy,tldr,points,hls,bible,god,ment,bingo,_isReal:true};
+  return {D,spk,segs,chapters,laughs,interrupts,energy,tldr,points,hls,bible,god,ment,bingo,_isReal:true,_hasAnalysis:!!(raw._hasAnalysis),_hasChapters};
 }
 async function fetchTranscript(e){
   const k=e.key;
-  if(TX[k])return TX[k];
+  if(k in TX)return TX[k];
+  TX[k]=null;
   try{
     const r=await fetch('data/transcripts/'+k+'.json');
-    if(!r.ok)return transcriptFor(e);
+    if(!r.ok)return null;
     const raw=await r.json();
+    // Overlay analysis data loaded via fetchEpisodeDetail (e.an)
+    const an=e.an;
+    if(an){
+      if(an.summary_tldr||an.summary_points?.length)raw.summary={tldr:an.summary_tldr||'',points:an.summary_points||[]};
+      if(an.chapters?.length)raw.chapters=an.chapters.map(c=>({start:c.start_seconds,title:c.title,summary:c.summary||''}));
+      if(an.highlights?.length){const ni={};raw.speakers.forEach(s=>ni[s.name]=s.id);raw.highlights=an.highlights.map(h=>({t:h.start_seconds,kind:h.note||'Hoogtepunt',speaker:ni[h.speaker]||raw.speakers[0]?.id||'S1',text:h.text}));}
+      if(an.bible_refs?.length)raw.bible=an.bible_refs.map(b=>({ref:b.ref,t:-1}));
+      raw._hasAnalysis=true;
+    }
     TX[k]=buildTFromRaw(raw,e);
     return TX[k];
-  }catch{return transcriptFor(e)}
+  }catch{return null}
 }
 // ---- demo player ----
 let PL=null;
@@ -668,6 +670,7 @@ async function mountTx(e,T){
   if(PL&&PL.raf)cancelAnimationFrame(PL.raf);PL=null;
   if(e.f==='Trailer'||e.f==='Spin-off')return;
   if(!T)T=await fetchTranscript(e);
+  if(!T)return;
   app.classList.add('has-player');app.insertAdjacentHTML('beforeend',playerHTML(e,T));
   PL={e,T,t:0,playing:false,rate:1,last:0,raf:0,seg:-1,ch:-1};
   $('#pl-play').onclick=()=>{PL.playing=!PL.playing;if(PL.playing){if(PL.t>=T.D)PL.t=0;PL.last=performance.now();PL.raf=requestAnimationFrame(tick)}upd()};
@@ -693,7 +696,7 @@ document.addEventListener('click',ev=>{
   const rv=ev.target.closest('[data-river]');if(rv&&PL){const b=rv.getBoundingClientRect();seek((ev.clientX-b.left)/b.width*PL.T.D);return}
   const fa=ev.target.closest('[data-seekafter]');if(fa){PEND=+fa.dataset.seekafter}
 });
-function fragHits(e,terms){if(e.f==='Trailer'||e.f==='Spin-off')return '';const T=transcriptFor(e);const hits=T.segs.filter(s=>terms.every(t=>norm(s.t).includes(t))).slice(0,2);
+function fragHits(e,terms){if(e.f==='Trailer'||e.f==='Spin-off')return '';const T=TX[e.key];if(!T)return '';const hits=T.segs.filter(s=>terms.every(t=>norm(s.t).includes(t))).slice(0,2);
   return hits.map(s=>{const n=norm(s.t),i=n.indexOf(terms[0]),a=Math.max(0,i-60);return `<a class="frag" href="${e.hash}" data-seekafter="${Math.round(s.start)}"><span class="num">▶ ${ts(s.start)}</span><span><b style="color:${s.sp.c}">${esc(s.sp.name)}</b> ${a?'…':''}${hl(s.t.slice(a,a+170),terms)}${a+170<s.t.length?'…':''}</span></a>`}).join('')}
 // ---- aggregates for people and stats ----
 function personTx(p){
@@ -783,36 +786,11 @@ function mentionsFor(e,T,r){
   }
   return out.sort((a,b)=>b.x-a.x);
 }
-let MAGG=null;
-function mentionAgg(){
-  if(MAGG)return MAGG;const M={};
-  REG.forEach(e=>{const T=transcriptFor(e);T.ment.forEach(m=>{const a=M[m.n]=M[m.n]||{n:m.n,c:m.c,k:slug(m.n),x:0,eps:[],sp:{},yr:{}};a.x+=m.x;a.eps.push({e,m});a.yr[e.y]=(a.yr[e.y]||0)+m.x;m.hits.forEach(h=>a.sp[h.sp.name]=(a.sp[h.sp.name]||0)+1)})});
-  Object.values(M).forEach(a=>{a.eps.sort((p,q)=>p.e.d<q.e.d?-1:1);a.top=Object.entries(a.sp).sort((p,q)=>q[1]-p[1])[0]});
-  MAGG={M,list:Object.values(M).filter(a=>a.eps.length>1||a.x>1),byK:Object.fromEntries(Object.values(M).map(a=>[a.k,a]))};return MAGG;
-}
+function mentionAgg(){return {M:{},list:[],byK:{}};}
 function spark(a){const max=Math.max(...YEARS.map(y=>a.yr[y]||0))||1,w=8,g=3,h=26;return `<svg class="c spark" viewBox="0 0 ${YEARS.length*(w+g)} ${h}" width="${YEARS.length*(w+g)}" height="${h}" aria-hidden="true">${YEARS.map((y,i)=>{const v=a.yr[y]||0,bh=Math.max(v?2:1,(h-2)*v/max);return `<rect x="${i*(w+g)}" y="${h-bh}" width="${w}" height="${bh}" rx="1.5" class="${v?'bar':'grid'}" ${v?'':'style="fill:var(--rule)"'}><title>${y}: ${v}×</title></rect>`}).join('')}</svg>`}
 const MS={cat:'',q:'',sort:'x',min:2};
 function viewMentions(){
-  const A=mentionAgg();
-  app.innerHTML=`<div class="sechead" style="border:0;margin:0"><h1>Genoemd</h1><span class="demo">Voorbeelddata</span></div>
-  <p class="prose muted" style="margin:8px 0 6px">Personen, filosofen, boeken en plaatsen die in de gesprekken vallen, en waarnaar vaker dan één keer wordt verwezen. Klik op een naam voor alle momenten waarop die genoemd wordt.</p>
-  <p class="demonote">Met transcripties worden deze namen automatisch herkend in het gesproken woord. Nu zijn de vermeldingen gesimuleerd; namen die ook in de afleveringsomschrijving staan, tellen zwaarder mee.</p>
-  <div id="mtop"></div>
-  <div class="ctrl" style="margin-top:26px"><div class="chips" style="margin:0" id="mcat"></div></div>
-  <div class="ctrl"><input id="mq" type="search" placeholder="Zoek een naam, boek of plaats" aria-label="Zoek in genoemde namen" value="${esc(MS.q)}" style="flex:1 1 220px">
-  <label>In minstens <select id="mmin">${[1,2,3,5,10].map(n=>`<option value="${n}" ${MS.min===n?'selected':''}>${n} ${n===1?'aflevering':'afleveringen'}</option>`).join('')}</select></label>
-  <label>Sorteer <select id="msort"><option value="x">Meest genoemd</option><option value="e">In meeste afleveringen</option><option value="r">Recent genoemd</option><option value="a">A–Z</option></select></label></div>
-  <div id="mlist"></div>`;
-  $('#msort').value=MS.sort;
-  const cnt=c=>A.list.filter(a=>(!c||a.c===c)&&a.eps.length>=MS.min).length;
-  const drawCats=()=>{$('#mcat').innerHTML=[['','Alles'],...CATS].map(([k,l])=>`<button type="button" class="chip ${MS.cat===k?'on':''}" data-mcat="${k}">${l} <span>${cnt(k)}</span></button>`).join('');
-    $('#mcat').querySelectorAll('[data-mcat]').forEach(b=>b.onclick=()=>{MS.cat=b.dataset.mcat;drawCats();drawList()})};
-  const S={x:(a,b)=>b.x-a.x,e:(a,b)=>b.eps.length-a.eps.length||b.x-a.x,r:(a,b)=>a.eps.at(-1).e.d<b.eps.at(-1).e.d?1:-1,a:(a,b)=>a.n.localeCompare(b.n,'nl')};
-  const drawList=()=>{const q=norm(MS.q);const rows=A.list.filter(a=>(!MS.cat||a.c===MS.cat)&&a.eps.length>=MS.min&&(!q||norm(a.n).includes(q))).sort(S[MS.sort]);
-    $('#mtop').innerHTML=(!MS.cat&&!q)?`<div class="mtop">${CATS.map(([c,l])=>{const t=A.list.filter(a=>a.c===c).sort(S.x).slice(0,5);return `<div><h3>${l}</h3><ol>${t.map(a=>`<li><span class="mrow"><a href="#m-${a.k}">${esc(a.n)}</a><span class="num muted">${a.x}×</span></span></li>`).join('')}</ol></div>`}).join('')}</div>`:'';
-    $('#mlist').innerHTML=rows.length?`<div class="scroll"><table class="mtab"><thead><tr><th>Naam</th><th>Soort</th><th class="r">Keer genoemd</th><th class="r">Afleveringen</th><th>${YEARS[0]}–${YEARS.at(-1)}</th><th>Vaakst genoemd door</th></tr></thead><tbody>${rows.map(a=>`<tr><td><a href="#m-${a.k}"><b>${esc(a.n)}</b></a></td><td><span class="mcat mcat-${a.c}">${CAT1[a.c]}</span></td><td class="r num">${a.x}</td><td class="r num">${a.eps.length}</td><td>${spark(a)}</td><td class="muted">${esc(a.top[0])}</td></tr>`).join('')}</tbody></table></div>`:'<p class="empty">Geen namen gevonden. Probeer een ander woord of verlaag het minimum.</p>'};
-  $('#mq').oninput=ev=>{MS.q=ev.target.value;drawList()};$('#msort').onchange=ev=>{MS.sort=ev.target.value;drawList()};$('#mmin').onchange=ev=>{MS.min=+ev.target.value;drawCats();drawList()};
-  drawCats();drawList();
+  app.innerHTML='<div class="sechead" style="border:0;margin:0"><h1>Genoemd</h1></div><p class="prose" style="padding:20px 0">De namenindex wordt automatisch opgebouwd zodra alle transcriptie-analyses zijn verwerkt. Kijk binnenkort opnieuw.</p>';
 }
 function viewMention(a){
   if(!a)return notFound();const A=mentionAgg();
@@ -832,7 +810,7 @@ function viewMention(a){
 }
 
 // ---------- views ----------
-const state={tx:true,q:'',theme:'',fmt:'',y0:YEARS[0],y1:YEARS.at(-1),paas:'',dmin:'',dmax:'',sort:'rel',limit:40};
+const state={tx:false,q:'',theme:'',fmt:'',y0:YEARS[0],y1:YEARS.at(-1),paas:'',dmin:'',dmax:'',sort:'rel',limit:40};
 function parseTerms(q){return norm(q).split(/\s+/).filter(Boolean)}
 function runSearch(){
   const terms=parseTerms(state.q);
@@ -850,7 +828,7 @@ function viewSearch(){
     <fieldset><legend class="label">Vorm</legend><select id="f-fmt">${opt('','Alle vormen',state.fmt)}${FORMATS.map(t=>opt(t,t,state.fmt)).join('')}</select></fieldset>
     <fieldset><legend class="label">Duur in minuten</legend><div class="row2"><input id="f-dmin" type="number" min="0" placeholder="min" value="${state.dmin}" aria-label="Minimale duur"><input id="f-dmax" type="number" min="0" placeholder="max" value="${state.dmax}" aria-label="Maximale duur"></div></fieldset>
     <fieldset><legend class="label">Stefan Paas</legend><select id="f-paas">${opt('','Maakt niet uit',state.paas)}${opt('1','Schuift aan',state.paas)}${opt('0','Niet in deze aflevering',state.paas)}</select></fieldset>
-    <fieldset><legend class="label">Transcripten <span class="demo" style="margin-left:4px">Voorbeeld</span></legend><label class="check"><input type="checkbox" id="f-tx" ${state.tx?'checked':''}> Toon gesproken fragmenten met tijdstip</label></fieldset>
+    <fieldset><legend class="label">Transcripten</legend><label class="check"><input type="checkbox" id="f-tx" ${state.tx?'checked':''}> Toon gesproken fragmenten met tijdstip</label></fieldset>
     <button class="btn" id="f-reset" type="button">Filters wissen</button>
   </aside><div style="min-width:0"><h1 style="margin-bottom:14px">Afleveringen</h1><input class="bigq" id="q2" type="search" value="${esc(state.q)}" placeholder="Titel, gast, woord of afleveringsnummer" aria-label="Zoekterm"><div id="res"></div></div></div>`;
   const bind=(id,k)=>$(id).addEventListener('input',ev=>{state[k]=ev.target.value;if(k==='y0'||k==='y1')state[k]=+state[k];state.limit=40;drawRes()});
@@ -944,7 +922,6 @@ function viewPerson(p){
   ${Object.keys(th).length?`<div class="panel"><h3>Thema's</h3>${hbars(Object.entries(th).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([t,v])=>({l:t,v,href:'#t-'+slug(t)})))}</div>`:''}
   ${coRows.length?`<div class="panel"><h3>Samen aan tafel met</h3>${hbars(coRows.map(([g,v])=>({l:g,v,href:'#p-'+slug(g)})),{cls:'v'})}</div>`:''}
   <div class="panel"><h3>${p.eps.length>20?'Meest gebruikte woorden':'Kenmerkende woorden'}</h3><div class="cloud">${words.map(([w,c])=>`<a href="#zoeken" data-q="${esc(w)}" style="font-size:${(13+13*c/wm).toFixed(1)}px">${esc(w)}</a>`).join('')}</div><p class="ui muted" style="font-size:12px;margin:10px 0 0">Uit titels en omschrijvingen van de afleveringen.</p></div>
-  ${personTx(p)}
   </aside></div>`;
   const ap=$('#allp');if(ap)ap.onclick=()=>{state.q=p.name;$('#q').value=p.name};
 }
@@ -1007,7 +984,6 @@ function viewStats(){
      <div><span class="label">Langste omschrijving</span><br>${(()=>{const e=[...REG].sort((a,b)=>(b.x||b.xs||'').length-(a.x||a.xs||'').length)[0];return `<a href="${e.hash}">#${e.n} ${esc(e.t)}</a> <span class="muted">· ${nl((e.x||e.xs||'').split(/\s+/).length)} woorden</span>`})()}</div>
      <div><span class="label">Meest aangeraden door de makers</span><br>${(()=>{const c={};REG.forEach(e=>(e.r||[]).forEach(n=>c[n]=(c[n]||0)+1));const top=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];if(!top)return '<span class="muted">—</span>';const [n,v]=top;const e=byNum[n];return e?`<a href="${e.hash}">#${n} ${esc(e.t)}</a> <span class="muted">· ${v}× genoemd</span>`:'—'})()}</div>
    </div></div>
-   ${statsTx()}
   </div></section>`;
   drawWords();drawTrend();
 }

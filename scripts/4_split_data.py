@@ -13,7 +13,12 @@ import json, math, pathlib, re, unicodedata
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
+ANALYSIS_DIR = ROOT / 'data' / 'analysis'
 OUT_DIR = ROOT / 'site' / 'dist' / 'data'
+
+# Fields from analysis to include in per-episode site files
+_AN_FIELDS = {'summary_tldr', 'summary_points', 'chapters', 'highlights',
+              'bible_refs', 'themes', 'people', 'books', 'places', 'quotes'}
 
 # ---------------------------------------------------------------------------
 # Stop words — exact copy of the STOP set from index.template.html
@@ -193,13 +198,28 @@ def main():
     # Build lookup for aggregates
     eps_by_key = {ep_key(e): e for e in eps}
 
-    # Write per-episode files (all fields + kw)
+    # Load analysis files (keyed by episode number string)
+    an_by_key = {}
+    if ANALYSIS_DIR.exists():
+        for f in ANALYSIS_DIR.glob('*.json'):
+            try:
+                an = json.loads(f.read_text(encoding='utf-8'))
+                an_by_key[f.stem] = {k: v for k, v in an.items() if k in _AN_FIELDS}
+            except Exception as exc:
+                print(f'  Warning: could not read analysis/{f.name}: {exc}')
+
+    # Write per-episode files (all fields + kw + optional analysis)
     keys = []
+    n_analysis = 0
     for e in eps:
         key = ep_key(e)
         keys.append(key)
         entry = {k: v for k, v in e.items() if not k.startswith('_')}
         entry['kw'] = e['_kw']
+        an = an_by_key.get(key)
+        if an:
+            entry['an'] = an
+            n_analysis += 1
         path = ep_dir / f'{key}.json'
         path.write_text(json.dumps(entry, ensure_ascii=False, separators=(',', ':')),
                         encoding='utf-8')
@@ -237,7 +257,8 @@ def main():
 
     total = len(list(ep_dir.iterdir()))
     print(f'site/dist/data/: {total} episode files, '
-          f'{len(transcripts)} transcripts aggregated')
+          f'{len(transcripts)} transcripts aggregated, '
+          f'{n_analysis} with analysis')
 
 
 if __name__ == '__main__':
