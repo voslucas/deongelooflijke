@@ -49,8 +49,7 @@ def _load_transcript(key: str) -> dict | None:
 
 
 def _transcript_text(tr: dict) -> str:
-    """Convert transcript segments to plain text for the LLM."""
-    # Build speaker id → name mapping
+    """Convert transcript segments to timestamped plain text for the LLM."""
     speaker_map = {}
     for sp in tr.get('speakers', []):
         speaker_map[sp['id']] = sp['name']
@@ -59,8 +58,11 @@ def _transcript_text(tr: dict) -> str:
     for seg in tr.get('segments', []):
         name = speaker_map.get(seg.get('speaker', ''), seg.get('speaker', '?'))
         text = seg.get('text', '').strip()
-        if text:
-            lines.append(f'{name}: {text}')
+        if not text:
+            continue
+        start_s = seg.get('start', 0)
+        mm, ss = divmod(int(start_s), 60)
+        lines.append(f'[{mm:02d}:{ss:02d}] {name}: {text}')
 
     full = '\n'.join(lines)
     if len(full) > MAX_TRANSCRIPT_CHARS:
@@ -72,7 +74,7 @@ def _build_system_prompt(themes: list[dict]) -> str:
     theme_labels = '\n'.join(f'  - {t["label"]} ({t["hint"]})' for t in themes)
     return f"""Je analyseert afleveringen van de Nederlandse podcast 'De Ongelooflijke Podcast'. \
 Presentator is altijd David Boogerd. Vaste gast is theoloog Stefan Paas (aanwezig in de meeste afleveringen). \
-Gasten zijn andere sprekers.
+Gasten zijn andere sprekers. Het transcript heeft tijdstempels in [MM:SS]-formaat voor elk segment.
 
 Extraheer de volgende velden en geef je antwoord als ALLEEN valide JSON — geen markdown-omhulsel, geen uitleg:
 
@@ -84,6 +86,13 @@ Extraheer de volgende velden en geef je antwoord als ALLEEN valide JSON — geen
   "bible_refs": [ {{"ref": "Boek Hoofdstuk:Vers", "note": "context"}} ],
   "places": [ "Plaatsnaam" ],
   "summary_tldr": "2-3 zinnen die de kern van het gesprek beschrijven.",
+  "summary_points": [ "Kernpunt 1", "Kernpunt 2" ],
+  "chapters": [
+    {{"start_seconds": 0, "title": "Hoofdstuktitel", "summary": "Korte beschrijving van dit deel."}}
+  ],
+  "highlights": [
+    {{"start_seconds": 0, "speaker": "Naam", "text": "Treffende uitspraak of moment.", "note": "Waarom dit opvalt."}}
+  ],
   "quotes": [ "citaat" ]
 }}
 
@@ -100,6 +109,14 @@ REGELS:
   Gebruik Nederlandse boeknames (bijv. "Johannes 3:16", "Mattheus 5").
 - places: geografische plaatsen die relevant zijn voor het gesprek.
 - summary_tldr: maximaal 3 zinnen, in het Nederlands.
+- summary_points: 5 tot 10 korte kernpunten die de rode draad van het gesprek beschrijven, in het Nederlands.
+- chapters: verdeel het gesprek in 4 tot 8 logische delen. Gebruik de [MM:SS]-tijdstempels uit het \
+  transcript om start_seconds te bepalen (bijv. [12:34] → 754). Elk hoofdstuk heeft een Nederlandse titel \
+  en een korte samenvatting van 1-2 zinnen.
+- highlights: 3 tot 6 opmerkelijke momenten — een verrassende uitspraak, een emotioneel moment, een \
+  scherpe gedachte. Gebruik start_seconds van het bijbehorende transcript-segment. speaker is de \
+  volledige naam van de spreker. text is de letterlijke of licht samengevatte uitspraak. note legt uit \
+  waarom dit moment opvalt.
 - quotes: maximaal 3 treffende uitspraken; haal ze letterlijk uit de afleveringsbeschrijving \
   (niet uit het transcript). Laat leeg als er geen goede citaten zijn.
 """
@@ -178,7 +195,7 @@ def analyse_episode(key: str, client, model: str, system_prompt: str) -> dict:
 
     response = client.messages.create(
         model=model,
-        max_tokens=4096,
+        max_tokens=6000,
         system=[{
             'type': 'text',
             'text': system_prompt,

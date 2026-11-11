@@ -103,7 +103,12 @@ def _download_mp3(mp3_url, dest_path, requests):
 # ---------------------------------------------------------------------------
 
 def _speaker_map(phrases, ep):
-    """Map Azure speaker integers to canonical names by word-count rank."""
+    """Map Azure speaker integers to canonical names by word-count rank.
+
+    Azure diarization often returns more speaker IDs than actual participants
+    (e.g. intro voices, music fragments).  Cap the mapping to the expected
+    number of speakers derived from the feed data so spurious IDs are excluded.
+    """
     counts: dict[int, int] = {}
     for ph in phrases:
         sid = ph.get('speaker')
@@ -113,6 +118,10 @@ def _speaker_map(phrases, ep):
 
     guests = ep.get('g', [])
     has_paas = ep.get('p', False)
+    expected = 1 + (1 if has_paas else 0) + len(guests)
+    # Only map the top-N speakers; ignore the rest so they fall through to
+    # the fallback label in _azure_to_transcript and can be spotted easily.
+    ranked = ranked[:expected]
 
     mapping: dict[int, tuple[str, str]] = {}
     for i, sid in enumerate(ranked):
