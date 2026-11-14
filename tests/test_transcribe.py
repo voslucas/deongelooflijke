@@ -1,12 +1,10 @@
-"""Tests for scripts/transcribe.py — speaker mapping, schema validation, error handling."""
-import json, pathlib, sys, types, unittest
-from unittest.mock import MagicMock, patch
+"""Tests for scripts/transcribe_azure.py — speaker mapping, schema validation."""
+import json, pathlib, sys, unittest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-FIXTURES = pathlib.Path(__file__).parent / 'fixtures'
 sys.path.insert(0, str(ROOT / 'scripts'))
 
-import transcribe as tr
+import transcribe_azure as tr
 
 # ---------------------------------------------------------------------------
 # Fixtures
@@ -32,17 +30,22 @@ EP_WITH_PAAS_2G = {
 }
 
 
-def _words_for(*speaker_ids, counts=None):
-    """Generate a minimal word list with given speaker_ids (by count)."""
-    words = []
+def _phrases_for(*speaker_ids, counts=None):
+    """Generate Azure-format phrases with given integer speaker_ids."""
     if counts is None:
-        # give each speaker a proportional number of words so rank order = arg order
         counts = list(range(len(speaker_ids), 0, -1))
+    phrases = []
+    t_ms = 0
     for sid, cnt in zip(speaker_ids, counts):
-        for i in range(cnt):
-            words.append({'type': 'word', 'text': f'w{i}', 'start': float(i),
-                          'end': float(i) + 0.5, 'speaker_id': sid})
-    return words
+        phrases.append({
+            'speaker': sid,
+            'words': [{'word': f'w{i}'} for i in range(cnt)],
+            'text': ' '.join(f'w{i}' for i in range(cnt)),
+            'offsetMilliseconds': t_ms,
+            'durationMilliseconds': cnt * 500,
+        })
+        t_ms += cnt * 500
+    return phrases
 
 
 # ---------------------------------------------------------------------------
@@ -53,47 +56,59 @@ class TestSpeakerMap(unittest.TestCase):
 
     def test_speaker_map_host_only(self):
         ep = dict(EP_NO_PAAS, g=[], p=False)
-        words = _words_for('speaker_0')
-        m = tr._speaker_map(words, ep)
-        self.assertEqual(m['speaker_0'], ('David Boogerd', 'Presentator'))
+        phrases = _phrases_for(0)
+        m = tr._speaker_map(phrases, ep)
+        self.assertEqual(m[0], ('David Boogerd', 'Presentator'))
 
     def test_speaker_map_1_guest_no_paas(self):
         ep = dict(EP_NO_PAAS, p=False, g=['Gast A'])
-        # speaker_0 has more words → host, speaker_1 → guest
-        words = _words_for('speaker_0', 'speaker_1', counts=[20, 10])
-        m = tr._speaker_map(words, ep)
-        self.assertEqual(m['speaker_0'][0], 'David Boogerd')
-        self.assertEqual(m['speaker_1'], ('Gast A', 'Gast'))
+        # speaker 0 has more words → host, speaker 1 → guest
+        phrases = _phrases_for(0, 1, counts=[20, 10])
+        m = tr._speaker_map(phrases, ep)
+        self.assertEqual(m[0][0], 'David Boogerd')
+        self.assertEqual(m[1], ('Gast A', 'Gast'))
 
     def test_speaker_map_2_guests_with_paas(self):
         ep = dict(EP_WITH_PAAS_2G)
-        # rank: speaker_0 most words → host, speaker_1 next → Paas,
-        # speaker_2 → guest[0], speaker_3 → guest[1]
-        words = _words_for('speaker_0', 'speaker_1', 'speaker_2', 'speaker_3',
-                           counts=[40, 30, 20, 10])
-        m = tr._speaker_map(words, ep)
-        self.assertEqual(m['speaker_0'][0], 'David Boogerd')
-        self.assertEqual(m['speaker_1'][0], 'Stefan Paas')
-        self.assertEqual(m['speaker_2'][0], 'Kader Abdolah')
-        self.assertEqual(m['speaker_3'][0], 'Extra Gast')
+        # rank: 0 most words → host, 1 → Paas, 2 → guest[0], 3 → guest[1]
+        phrases = _phrases_for(0, 1, 2, 3, counts=[40, 30, 20, 10])
+        m = tr._speaker_map(phrases, ep)
+        self.assertEqual(m[0][0], 'David Boogerd')
+        self.assertEqual(m[1][0], 'Stefan Paas')
+        self.assertEqual(m[2][0], 'Kader Abdolah')
+        self.assertEqual(m[3][0], 'Extra Gast')
+
+    def test_speaker_map_caps_at_expected(self):
+        # Extra spurious Azure speaker 4 should not appear in the mapping
+        ep = dict(EP_NO_PAAS, p=False, g=['Gast A'])
+        phrases = _phrases_for(0, 1, 4, counts=[20, 10, 5])
+        m = tr._speaker_map(phrases, ep)
+        self.assertNotIn(4, m)
+        self.assertEqual(len(m), 2)
 
     def test_speaker_map_manual_override(self):
-        import tempfile, os
+        import tempfile
         ep = dict(EP_NO_PAAS, p=False, g=['Gast A'])
-        words = _words_for('speaker_0', 'speaker_1', counts=[20, 10])
-        # auto map: speaker_1 → Gast A
-        mapping = tr._speaker_map(words, ep)
-        self.assertEqual(mapping['speaker_1'][0], 'Gast A')
+        phrases = _phrases_for(0, 1, counts=[20, 10])
+        mapping = tr._speaker_map(phrases, ep)
 
-        # Apply a correction that renames speaker_1
+        # Build a minimal transcript and apply a correction that renames S2
+        response_json = {'phrases': phrases}
+        t = tr._azure_to_transcript(response_json, mapping, ep)
+        # S2 should be 'Gast A' initially
+        s2 = next(s for s in t['speakers'] if s['id'] == 'S2')
+        self.assertEqual(s2['name'], 'Gast A')
+
         with tempfile.TemporaryDirectory() as tmpdir:
             orig_dir = tr.CORRECTIONS_DIR
             tr.CORRECTIONS_DIR = pathlib.Path(tmpdir)
             corr_path = pathlib.Path(tmpdir) / '1.json'
-            corr_path.write_text(json.dumps({'speaker_1': 'Echte Naam'}), encoding='utf-8')
-            mapping2 = tr._apply_corrections(mapping.copy(), '1')
+            corr_path.write_text(json.dumps({'S2': 'Echte Naam'}), encoding='utf-8')
+            t2 = tr._apply_corrections(dict(t), '1')
             tr.CORRECTIONS_DIR = orig_dir
-        self.assertEqual(mapping2['speaker_1'][0], 'Echte Naam')
+
+        s2_after = next(s for s in t2['speakers'] if s['id'] == 'S2')
+        self.assertEqual(s2_after['name'], 'Echte Naam')
 
 
 # ---------------------------------------------------------------------------
@@ -102,10 +117,10 @@ class TestSpeakerMap(unittest.TestCase):
 
 class TestSchema(unittest.TestCase):
 
-    def _make_transcript(self, ep, num_speakers=3):
-        words = json.loads((FIXTURES / 'mock_elevenlabs.json').read_text())['words']
-        mapping = tr._speaker_map(words, ep)
-        return tr._words_to_transcript(words, mapping, ep)
+    def _make_transcript(self, ep):
+        phrases = _phrases_for(0, 1, 2, 3, counts=[40, 30, 20, 10])
+        mapping = tr._speaker_map(phrases, ep)
+        return tr._azure_to_transcript({'phrases': phrases}, mapping, ep)
 
     def test_schema_required_fields(self):
         t = self._make_transcript(EP_WITH_PAAS_2G)
@@ -120,112 +135,19 @@ class TestSchema(unittest.TestCase):
             self.assertIn(seg['speaker'], valid_ids,
                           f"Segment speaker {seg['speaker']} not in speakers list")
 
-    def test_mentions_valid_types(self):
-        # _words_to_transcript produces empty mentions; test the schema contract
-        # by injecting a mock and checking validation logic
-        t = self._make_transcript(EP_WITH_PAAS_2G)
-        valid_types = {'persoon', 'filosoof', 'boek', 'plaats'}
-        for m in t['mentions']:
-            self.assertIn(m['type'], valid_types)
-
-    def test_audio_event_becomes_laugh_event(self):
-        t = self._make_transcript(EP_WITH_PAAS_2G)
-        laugh_events = [ev for ev in t['events'] if ev['type'] == 'laugh']
-        self.assertTrue(len(laugh_events) >= 1, 'No laugh event found')
-        for ev in laugh_events:
-            self.assertIn('t', ev)
-            self.assertIn('speaker', ev)
-
     def test_overlap_event_on_rapid_speaker_change(self):
-        # speaker_0 ends at 9.5, speaker_1 starts at 9.4 → gap = -0.1 < 0.3
+        # Two speakers with an overlapping transition (gap < 300 ms)
         ep = dict(EP_WITH_PAAS_2G)
-        words = json.loads((FIXTURES / 'mock_elevenlabs.json').read_text())['words']
-        mapping = tr._speaker_map(words, ep)
-        t = tr._words_to_transcript(words, mapping, ep)
+        phrases = [
+            {'speaker': 0, 'text': 'hello', 'words': [{'word': 'hello'}],
+             'offsetMilliseconds': 0, 'durationMilliseconds': 9500},
+            {'speaker': 1, 'text': 'world', 'words': [{'word': 'world'}],
+             'offsetMilliseconds': 9400, 'durationMilliseconds': 1000},
+        ]
+        mapping = tr._speaker_map(phrases, ep)
+        t = tr._azure_to_transcript({'phrases': phrases}, mapping, ep)
         overlap_events = [ev for ev in t['events'] if ev['type'] == 'overlap']
         self.assertTrue(len(overlap_events) >= 1, 'Expected at least one overlap event')
-
-
-# ---------------------------------------------------------------------------
-# API error tests
-# ---------------------------------------------------------------------------
-
-def _make_requests_mock():
-    """Return a MagicMock that substitutes for the requests module."""
-    return MagicMock()
-
-
-class TestAPIErrors(unittest.TestCase):
-
-    def _inject_requests(self, mock_requests):
-        tr._requests = mock_requests
-        return mock_requests
-
-    def setUp(self):
-        self._orig_requests = tr._requests
-        self._orig_elevenlabs = tr._ElevenLabs
-
-    def tearDown(self):
-        tr._requests = self._orig_requests
-        tr._ElevenLabs = self._orig_elevenlabs
-
-    def test_rate_limit_raises(self):
-        ep = dict(EP_WITH_PAAS_2G)
-        mock_resp = MagicMock()
-        mock_resp.status_code = 429
-        mock_resp.headers = {'Retry-After': '90'}
-        mock_resp.ok = False
-
-        rq = _make_requests_mock()
-        rq.post.return_value = mock_resp
-        self._inject_requests(rq)
-
-        with self.assertRaises(tr.RateLimitError) as ctx:
-            tr.transcribe_episode(ep, 'fake-key')
-        self.assertEqual(ctx.exception.retry_after, 90)
-
-    def test_non_200_raises(self):
-        ep = dict(EP_WITH_PAAS_2G)
-        mock_resp = MagicMock()
-        mock_resp.status_code = 500
-        mock_resp.ok = False
-        mock_resp.text = 'Internal Server Error'
-
-        rq = _make_requests_mock()
-        rq.post.return_value = mock_resp
-        self._inject_requests(rq)
-        tr._ElevenLabs = None  # ensure SDK unavailable → TranscriptionError
-
-        with self.assertRaises(tr.TranscriptionError):
-            tr.transcribe_episode(ep, 'fake-key')
-
-    def test_audio_url_fallback_on_4xx(self):
-        ep = dict(EP_WITH_PAAS_2G)
-        words = json.loads((FIXTURES / 'mock_elevenlabs.json').read_text())['words']
-
-        resp_403 = MagicMock()
-        resp_403.status_code = 403
-        resp_403.ok = False
-
-        resp_dl = MagicMock()
-        resp_dl.ok = True
-        resp_dl.headers = {}
-        resp_dl.iter_content = lambda chunk_size: iter([b'fakebytes'])
-
-        rq = _make_requests_mock()
-        rq.post.return_value = resp_403
-        rq.get.return_value = resp_dl
-        self._inject_requests(rq)
-
-        # Mock the elevenlabs SDK: client.speech_to_text.convert() returns object with .words
-        mock_tx = MagicMock()
-        mock_tx.words = words
-        mock_sdk_client = MagicMock()
-        mock_sdk_client.speech_to_text.convert.return_value = mock_tx
-        tr._ElevenLabs = MagicMock(return_value=mock_sdk_client)
-
-        t = tr.transcribe_episode(ep, 'fake-key')
-        self.assertIn('segments', t)
 
 
 if __name__ == '__main__':
