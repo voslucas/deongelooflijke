@@ -45,6 +45,61 @@ docs/
 CLAUDE.md               Design and coding guide for this project
 ```
 
+## Local setup
+
+**Prerequisites:** Python 3.12+, Git.
+
+```bash
+git clone <this-repo>
+cd deongelooflijke
+
+# Create and activate a virtual environment
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+# source .venv/bin/activate   # macOS / Linux
+
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the project root with your credentials:
+
+```
+AZURE_SPEECH_KEY=...
+AZURE_SPEECH_ENDPOINT=https://your-resource.cognitiveservices.azure.com/
+ANTHROPIC_API_KEY=...
+```
+
+To open the site locally without running any scripts:
+
+```bash
+# Just open the pre-built file — no server needed
+start site/dist/index.html   # Windows
+# open site/dist/index.html  # macOS
+```
+
+To rebuild the site from source after data changes:
+
+```bash
+python scripts/4_split_data.py && python scripts/5_build_site.py
+```
+
+### Voice-based speaker identification (optional)
+
+After installing the venv, you can build voice profiles for David and Stefan so future transcriptions are identified automatically:
+
+```bash
+# Build profiles from a correctly identified episode (327 is verified)
+python scripts/build_voice_profiles.py --episode 327
+
+# Check identification quality (dry-run)
+python scripts/identify_speakers.py --episode 327 --dry-run
+
+# Apply to any episode
+python scripts/identify_speakers.py --episode 42 --apply
+```
+
+Profiles are stored in `data/voice-profiles/` as `.npy` files. Pass `--identify` to `transcribe_azure.py` to run identification automatically right after transcription.
+
 ## Transcript format
 
 Each `data/transcripts/{n}.json` follows the schema in `docs/transcript-schema.md`:

@@ -1,0 +1,15 @@
+# Core HTTP (transcription + voice profile downloads)
+httpx>=0.27
+requests>=2.31
+
+# Azure MAI-Transcribe-2 (transcribe_azure.py)
+# No extra package — uses httpx/requests directly
+
+# AI analysis (analyze_episode.py, analyze.py)
+anthropic>=0.26
+
+# Speaker identification (build_voice_profiles.py, identify_speakers.py)
+resemblyzer>=0.1.4
+numpy>=1.20
+# resemblyzer pulls in: librosa, scipy, webrtcvad, torch
+webrtcvad-wheels  # Windows: webrtcvad needs pre-built wheels (pkg_resources missing in py3.12 venvs)

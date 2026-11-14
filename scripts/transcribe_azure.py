@@ -17,7 +17,7 @@ API:
     Auth: Ocp-Apim-Subscription-Key header
     Limits: ≤ 2 hours, ≤ 250 MB per request
 """
-import argparse, datetime, json, os, pathlib, sys, time
+import argparse, datetime, json, os, pathlib, re, sys, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
@@ -138,22 +138,26 @@ def _speaker_map(phrases, ep):
     return mapping
 
 
-def _apply_corrections(mapping, key):
+_SID_RE = re.compile(r'^S\d+$')
+
+
+def _apply_corrections(transcript, key):
+    """Apply S1/S2/... corrections to an already-built transcript object."""
     path = CORRECTIONS_DIR / f'{key}.json'
-    if path.exists():
-        try:
-            corrections = json.loads(path.read_text(encoding='utf-8'))
-            for sid_str, name in corrections.items():
-                try:
-                    sid = int(sid_str)
-                except ValueError:
-                    continue  # skip ElevenLabs-format string IDs
-                if sid in mapping:
-                    role = mapping[sid][1]
-                    mapping[sid] = (name, role)
-        except Exception as exc:
-            print(f'  Warning: could not read corrections for {key}: {exc}')
-    return mapping
+    if not path.exists():
+        return transcript
+    try:
+        corrections = json.loads(path.read_text(encoding='utf-8'))
+        for sid, name in corrections.items():
+            if not _SID_RE.match(sid):
+                continue
+            for spk in transcript.get('speakers', []):
+                if spk['id'] == sid:
+                    spk['name'] = name
+                    break
+    except Exception as exc:
+        print(f'  Warning: could not apply corrections for {key}: {exc}')
+    return transcript
 
 
 # ---------------------------------------------------------------------------
@@ -318,19 +322,20 @@ def transcribe_episode(ep, key, endpoint, requests):
     print(f'  Got {len(phrases)} phrases')
 
     mapping = _speaker_map(phrases, ep)
-    mapping = _apply_corrections(mapping, ep_key)
+    transcript = _azure_to_transcript(data, mapping, ep)
+    transcript = _apply_corrections(transcript, ep_key)
 
-    # Save correction template for review
+    # Save correction template for review (S1/S2/... keys)
     CORRECTIONS_DIR.mkdir(parents=True, exist_ok=True)
     correction_path = CORRECTIONS_DIR / f'{ep_key}.json'
     if not correction_path.exists():
+        s_mapping = {spk['id']: spk['name'] for spk in transcript['speakers']}
         correction_path.write_text(
-            json.dumps({str(sid): name for sid, (name, _) in mapping.items()},
-                       ensure_ascii=False, indent=2),
+            json.dumps(s_mapping, ensure_ascii=False, indent=2),
             encoding='utf-8',
         )
 
-    return _azure_to_transcript(data, mapping, ep)
+    return transcript
 
 
 # ---------------------------------------------------------------------------
@@ -387,6 +392,31 @@ def probe(key, endpoint):
 
 
 # ---------------------------------------------------------------------------
+# Optional speaker identification (requires resemblyzer + stored profiles)
+# ---------------------------------------------------------------------------
+
+def _run_identification(ep_key: str, threshold: float = 0.75) -> None:
+    """Run identify_speakers for ep_key if voice profiles are available."""
+    profiles_dir = ROOT / 'data' / 'voice-profiles'
+    if not profiles_dir.exists() or not any(profiles_dir.glob('*.npy')):
+        print('  --identify: no profiles found in data/voice-profiles/; skipping.')
+        return
+    try:
+        from scripts.identify_speakers import identify_episode  # type: ignore
+    except ImportError:
+        import importlib.util, sys as _sys
+        spec = importlib.util.spec_from_file_location(
+            'identify_speakers',
+            pathlib.Path(__file__).parent / 'identify_speakers.py',
+        )
+        mod = importlib.util.module_from_spec(spec)  # type: ignore[arg-type]
+        spec.loader.exec_module(mod)  # type: ignore[union-attr]
+        identify_episode = mod.identify_episode
+    print(f'  Running speaker identification for #{ep_key} …')
+    identify_episode(ep_key, threshold=threshold, apply=True)
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -404,6 +434,10 @@ def main():
                         help='Azure Speech endpoint, e.g. https://my-resource.cognitiveservices.azure.com/')
     parser.add_argument('--delete-mp3', action='store_true',
                         help='Delete the local MP3 after a successful transcription')
+    parser.add_argument('--identify', action='store_true',
+                        help='Run speaker identification against stored voice profiles after '
+                             'transcription (requires pip install resemblyzer and profiles '
+                             'built with build_voice_profiles.py)')
     args = parser.parse_args()
 
     if not args.episode and not args.all_missing and not args.probe:
@@ -454,6 +488,8 @@ def main():
             )
             print(f'  → {out_path.relative_to(ROOT)}  '
                   f'({len(transcript["segments"])} segments)')
+            if args.identify:
+                _run_identification(ep_key)
             if args.delete_mp3:
                 _delete_mp3(ep_key)
         except RateLimitError as exc:
@@ -468,6 +504,8 @@ def main():
                 )
                 print(f'  → {out_path.relative_to(ROOT)}  '
                       f'({len(transcript["segments"])} segments)')
+                if args.identify:
+                    _run_identification(ep_key)
                 if args.delete_mp3:
                     _delete_mp3(ep_key)
             except Exception as exc2:

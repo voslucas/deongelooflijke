@@ -122,6 +122,12 @@ dl.kv dt{color:var(--ink-muted)} dl.kv dd{margin:0;font-variant-numeric:tabular-
 .cast a.person{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}
 .ini{width:44px;height:44px;border-radius:999px;background:var(--gold);color:#3e2b16;display:grid;place-items:center;font:600 15px var(--ui)}
 .ini.host{background:var(--engraving);color:#fff;box-shadow:inset 0 0 0 1px var(--gold)}
+.pimg{border-radius:999px;object-fit:cover;flex-shrink:0;display:block}
+.pimg.host{box-shadow:inset 0 0 0 1px var(--gold)}
+.socials{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.soc-link{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border:1px solid var(--rule);border-radius:999px;color:var(--ink-muted);text-decoration:none;flex-shrink:0}
+.soc-link:hover{border-color:var(--ink);color:var(--ink)}
+.soc-link svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .person b{font:600 16px/1.2 var(--display);display:block}
 .person span{font:13px/1.3 var(--ui);color:var(--ink-muted)}
 .person:hover b{color:var(--violet)}
@@ -368,6 +374,26 @@ NAMETOK=new Set(PEOPLE.flatMap(p=>p.name.toLowerCase().split(/[\s-]+/)).filter(w
 const GUESTS=PEOPLE.filter(p=>p.role==='Gast');
 const initials=n=>n.split(/\s+/).filter(w=>/^[A-ZÀ-Þ]/.test(w)).map(w=>w[0]).slice(0,2).join('')||n[0];
 const plink=(name,cls='')=>`<a class="${cls}" href="#p-${slug(name)}">${esc(name)}</a>`;
+const IC_LINKEDIN=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="2.5"/><line x1="5" y1="7" x2="5" y2="12"/><circle cx="5" cy="4.5" r=".75" fill="currentColor" stroke="none"/><path d="M8 12V9.5a2 2 0 0 1 4 0V12M8 7v5"/></svg>`;
+const IC_TWITTER=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l11 11M13.5 2.5l-11 11"/></svg>`;
+const IC_BLUESKY=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10C6 8.5 2.5 6 1.5 7.5c-.5.8-.3 2 .5 2.5C3 10.5 5 10 6 10.5 5 11 3 12.5 3.5 14c.4 1 2 1 3-.5L8 11"/><path d="M8 10c2-1.5 5.5-4 6.5-2.5.5.8.3 2-.5 2.5C13 10.5 11 10 10 10.5c1 .5 3 2 2.5 3.5-.4 1-2 1-3-.5L8 11"/></svg>`;
+const IC_WEBSITE=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="6.5"/><path d="M8 1.5C6.2 3.5 6.2 12.5 8 14.5"/><path d="M1.5 8h13"/><path d="M2.2 5.5c1.6.5 3.7.8 5.8.8s4.2-.3 5.8-.8M2.2 10.5c1.6-.5 3.7-.8 5.8-.8s4.2.3 5.8.8" opacity=".6"/></svg>`;
+function socialLinks(socials){
+  if(!socials)return '';
+  const ICONS={linkedin:IC_LINKEDIN,twitter:IC_TWITTER,bluesky:IC_BLUESKY,website:IC_WEBSITE};
+  const LABELS={linkedin:'LinkedIn',twitter:'Twitter / X',bluesky:'Bluesky',website:'Website'};
+  const links=['linkedin','twitter','bluesky','website'].filter(k=>socials[k]).map(k=>`<a class="soc-link" href="${esc(socials[k])}" target="_blank" rel="noopener noreferrer" aria-label="${esc(LABELS[k])}">${ICONS[k]}</a>`).join('');
+  return links?`<div class="socials">${links}</div>`:'';
+}
+function personAvatar(p,size=44){
+  const pd=(D.persons||{})[p.k];
+  const hasImg=pd&&pd.img;
+  const cls=`ini ${p.role!=='Gast'?'host':''}`;
+  const sty=size!==44?`width:${size}px;height:${size}px;font-size:${Math.round(size*24/72)}px;`:'';
+  const iniSpan=`<span class="${cls}" style="${sty}${hasImg?'display:none':''}">${esc(initials(p.name))}</span>`;
+  if(!hasImg)return iniSpan;
+  return `<img src="data/persons/images/${esc(p.k)}.jpg" class="pimg${p.role!=='Gast'?' host':''}" style="width:${size}px;height:${size}px" alt="${esc(p.name)}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">${iniSpan}`;
+}
 
 // ---------- words ----------
 const STOP=new Set(`aan aangezien achter af al alle allemaal alleen alles als altijd ander andere anders behalve beide ben bent beter bij binnen boven bovendien daar daarbij daarin daarna daarom daarover dan dat de deze die dit doch doen door dus echter een eens eerst eerste elk elke en enige enkele enz er erg ergens even ga gaan gaat geen gehad geweest gewoon haar had heb hebben heeft hem het hier hij hoe hoewel hun ik in is ja je jij jou jouw juist kan kon konden kun kunnen maar me meer meeste men met mij mijn misschien moet moeten na naar nadat net niet niets nog nooit nu of om omdat onder ons onze ook op over pas per plaats reeds rond samen sinds sommige steeds te tegen ten ter tijdens toch toe toen tot tussen u uit uw van vanaf veel verder via vol voor vooral vrij waar waarom wanneer want waren was wat we wel welk welke werd werden wie wij wil willen word worden wordt zal ze zelf zich zichzelf zij zijn zo zoals zodat zonder zou zouden zulke bijvoorbeeld eigenlijk echt heel weer gaat komt komen kwam maakt maken laat laten staat staan zegt zeggen zien ziet waarin waarmee waardoor iets iemand jaar jaren keer onze deze dezen hele zeer best goed groot grote kleine klein nieuwe nieuw oude lang lange veel vele weinig andere eigen manier vraag vragen vraagt waarbij hierover welke zowel zult wellicht vaak soms tweede twee drie vier vijf zes zeven acht negen tien honderd duizend daarnaast zelfs bijna helemaal tegelijkertijd terwijl totdat volgens tijdens binnenkort inmiddels ondanks verschillende eerder later vandaag gisteren morgen uiteraard natuurlijk volgens ervan erover ermee erin hierin waarover hebt had heeft zitten zit kunnen krijgen krijgt gaan ging gingen gaat moet mogen mag spreekt spreken sprak praat praten gesprek gesprekken aflevering afleveringen podcast ongelooflijke david boogerd stefan paas vaste gast gasten theoloog hoogleraar universiteit spreekt bespreken bespreekt bespreekt vertelt vertellen waarover samen luister luisteren deel nieuwste vorige volgende waarom hoe wat wie welke anno ging zien doet deed gedaan leven mensen mens dingen ding wereld vindt vinden vond denk denkt dacht nederland nederlandse amsterdam utrecht theologische vrije`.split(/\s+/));
@@ -411,7 +437,7 @@ function epRow(e,terms=[]){
   <div class="meta">${fdate(e.d)}${guests}</div><p class="snip">${snippet(e,terms)}</p>${terms.length&&state.tx?fragHits(e,terms):''}
   <div class="chips">${e.th.map(t=>`<a class="chip" href="#t-${slug(t)}">${esc(t)}</a>`).join('')}</div></div><div class="dur">${fdur(e.s)}</div></article>`;
 }
-const personCard=p=>`<a class="person" href="#p-${p.k}"><span class="ini ${p.role!=='Gast'?'host':''}">${esc(initials(p.name))}</span><span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
+const personCard=p=>`<a class="person" href="#p-${p.k}">${personAvatar(p,44)}<span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
 
 // ---------- charts ----------
 function vbars(data,{h=200,fmt=v=>nl(v),cls='bar',line=null,lineFmt=null}={}){
@@ -661,27 +687,46 @@ async function fetchTranscript(e){
 }
 // ---- demo player ----
 let PL=null;
-function playerHTML(e,T){return `<div class="player" id="player" role="region" aria-label="Voorbeeldspeler"><div class="wrap pl">
+function playerHTML(e,T){return `<div class="player" id="player" role="region" aria-label="${e.mp3?'Audiospeler':'Voorbeeldspeler'}"><div class="wrap pl">
   <button class="pbtn" id="pl-play" type="button" aria-label="Afspelen"><svg viewBox="0 0 24 24" id="pl-ico"><path d="M7 4l13 8-13 8z"/></svg></button>
   <div style="min-width:0"><div class="ptop"><span class="pch" id="pl-ch"></span><span class="pt"><span id="pl-t">0:00</span> / ${ts(T.D)}</span></div>
-  <div class="pscrub">${riverHTML(T,{ticks:true})}<b class="phead" id="pl-head" style="left:0"></b></div><div class="pnote">Voorbeeldspeler zonder geluid · springt naar elk moment in het gesprek</div></div>
-  <button class="prate" id="pl-rate" type="button" aria-label="Afspeelsnelheid">1×</button></div></div>`}
+  <div class="pscrub">${riverHTML(T,{ticks:true})}<b class="phead" id="pl-head" style="left:0"></b></div>${e.mp3?'':'<div class="pnote">Voorbeeldspeler zonder geluid · springt naar elk moment in het gesprek</div>'}</div>
+  <button class="prate" id="pl-rate" type="button" aria-label="Afspeelsnelheid">1×</button></div>
+  <audio id="pl-audio" preload="none"></audio></div>`}
 async function mountTx(e,T){
-  if(PL&&PL.raf)cancelAnimationFrame(PL.raf);PL=null;
+  if(PL&&PL.raf)cancelAnimationFrame(PL.raf);
+  if(PL&&PL.audio){PL.audio.pause();PL.audio.src=''}
+  PL=null;
   if(e.f==='Trailer'||e.f==='Spin-off')return;
   if(!T)T=await fetchTranscript(e);
   if(!T)return;
   app.classList.add('has-player');app.insertAdjacentHTML('beforeend',playerHTML(e,T));
-  PL={e,T,t:0,playing:false,rate:1,last:0,raf:0,seg:-1,ch:-1};
-  $('#pl-play').onclick=()=>{PL.playing=!PL.playing;if(PL.playing){if(PL.t>=T.D)PL.t=0;PL.last=performance.now();PL.raf=requestAnimationFrame(tick)}upd()};
-  const RATES=[1,2,10,60];$('#pl-rate').onclick=ev=>{PL.rate=RATES[(RATES.indexOf(PL.rate)+1)%RATES.length];ev.currentTarget.textContent=PL.rate+'×'};
+  PL={e,T,t:0,playing:false,rate:1,last:0,raf:0,seg:-1,ch:-1,audio:null};
+  if(e.mp3){
+    const au=$('#pl-audio');
+    au.src=e.mp3;au.preload='metadata';au.playbackRate=PL.rate;PL.audio=au;
+    au.addEventListener('ended',()=>{PL.playing=false;upd()});
+    au.addEventListener('error',()=>{if(!PL)return;PL.audio=null;const pn=document.createElement('div');pn.className='pnote';pn.textContent='Audio kon niet worden geladen · springt naar elk moment in het gesprek';document.querySelector('#player .wrap.pl > div')?.append(pn)});
+  }
+  $('#pl-play').onclick=()=>{
+    PL.playing=!PL.playing;
+    if(PL.playing){
+      if(PL.t>=T.D)PL.t=0;
+      if(PL.audio){PL.audio.currentTime=PL.t;const p=PL.audio.play();if(p&&p.catch)p.catch(()=>{PL.playing=false;upd()})}
+      PL.last=performance.now();PL.raf=requestAnimationFrame(tick);
+    } else {
+      if(PL.audio)PL.audio.pause();
+    }
+    upd();
+  };
+  const RATES=[1,1.5,2];$('#pl-rate').onclick=ev=>{PL.rate=RATES[(RATES.indexOf(PL.rate)+1)%RATES.length];if(PL.audio)PL.audio.playbackRate=PL.rate;ev.currentTarget.textContent=PL.rate+'×'};
   const q=$('#tr-q');if(q)q.oninput=()=>{$('#segs').innerHTML=segsHTML(T,parseTerms(q.value));PL.seg=-1;upd()};
   if(PEND!=null){const t=PEND;PEND=null;setTab('tr');seek(t)}else upd();
 }
 let PEND=null;
 function setTab(k){TXTAB=k;document.querySelectorAll('.tab').forEach(b=>{b.classList.toggle('on',b.dataset.tab===k);b.setAttribute('aria-selected',b.dataset.tab===k)});document.querySelectorAll('.tabp').forEach(p=>p.hidden=p.dataset.p!==k);if(PL){PL.seg=-1;upd()}}
-function seek(t){if(!PL)return;PL.t=Math.max(0,Math.min(PL.T.D,t));PL.seg=-1;upd(true)}
-function tick(now){if(!PL||!PL.playing)return;PL.t+=(now-PL.last)/1000*PL.rate;PL.last=now;if(PL.t>=PL.T.D){PL.t=PL.T.D;PL.playing=false}upd();if(PL.playing)PL.raf=requestAnimationFrame(tick)}
+function seek(t){if(!PL)return;PL.t=Math.max(0,Math.min(PL.T.D,t));if(PL.audio)PL.audio.currentTime=PL.t;PL.seg=-1;upd(true)}
+function tick(now){if(!PL||!PL.playing)return;if(PL.audio){PL.t=PL.audio.currentTime}else{PL.t+=(now-PL.last)/1000*PL.rate;PL.last=now;if(PL.t>=PL.T.D){PL.t=PL.T.D;PL.playing=false}}upd();if(PL.playing)PL.raf=requestAnimationFrame(tick)}
 function upd(jump){
   if(!PL)return;const T=PL.T,t=PL.t;
   const head=$('#pl-head');if(!head)return;head.style.left=(t/T.D*100).toFixed(3)+'%';$('#pl-t').textContent=ts(t);
@@ -909,9 +954,10 @@ function viewPerson(p){
   const byYear=YEARS.map(y=>({l:String(y),v:p.eps.filter(e=>e.y===y).length}));
   const avg=p.secs/p.eps.length;const share=(p.eps.length/REG.length*100);
   const isHost=p.role!=='Gast';
+  const pd=(D.persons||{})[p.k];
   app.innerHTML=`<div class="crumb"><a href="#personen">Personen</a> / ${esc(p.name)}</div>
   <div class="detail"><div style="min-width:0">
-  <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px"><span class="ini ${isHost?'host':''}" style="width:72px;height:72px;font-size:24px;flex-shrink:0">${esc(initials(p.name))}</span><div><div class="epno">${p.role}</div><h1>${esc(p.name)}</h1></div></div>
+  <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px">${personAvatar(p,72)}<div><div class="epno">${p.role}</div><h1>${esc(p.name)}</h1>${socialLinks(pd&&pd.socials)}</div></div>
   ${p.bio?`<p class="prose" style="font-size:20px">${esc(p.bio)}</p>`:''}
   <div class="facts" style="grid-template-columns:repeat(4,minmax(0,1fr))"><div><b>${p.eps.length}</b><span>${p.eps.length===1?'aflevering':'afleveringen'}</span></div><div><b>${fhours(p.secs)}</b><span>uur aan tafel</span></div><div><b>${Math.round(avg/60)}′</b><span>gem. duur per aflevering</span></div><div><b>${share<1?share.toFixed(1):Math.round(share)}%</b><span>van alle afleveringen</span></div></div>
   <section style="margin-top:28px"><h2 style="margin-bottom:4px">Tijdlijn</h2>${timeline(p.eps)}</section>
@@ -1015,7 +1061,7 @@ function notFound(){app.innerHTML=`<h1>Niet gevonden</h1><p class="empty">Deze p
 // ---------- router ----------
 const THEME_BY_SLUG=Object.fromEntries(THEMES.map(t=>[slug(t),t]));
 function route(){
-  if(PL&&PL.raf)cancelAnimationFrame(PL.raf);PL=null;app.classList.remove('has-player');
+  if(PL&&PL.raf)cancelAnimationFrame(PL.raf);if(PL&&PL.audio){PL.audio.pause();PL.audio.src=''}PL=null;app.classList.remove('has-player');
   const h=location.hash.slice(1)||'start';let nav='';
   if(h==='start')viewHome();
   else if(h==='zoeken'){viewSearch();nav='zoeken'}

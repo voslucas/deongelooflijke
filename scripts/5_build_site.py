@@ -9,6 +9,9 @@ import base64, json, pathlib, re, shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EP_DIR = ROOT / 'site' / 'dist' / 'data' / 'episodes'
+CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
+
+_SID_RE = re.compile(r'^S\d+$')
 
 # Fields that go into the lightweight inline index (no heavy detail fields)
 LIGHT_FIELDS = {'n', 't', 'd', 's', 'g', 'p', 'sj', 'th', 'f', 'kw', 'xs', 'q', 'r'}
@@ -43,6 +46,33 @@ def build_lightweight_index():
     return entries
 
 
+def load_persons_data(root: pathlib.Path) -> dict:
+    """Read data/persons/*.json, detect images, return {slug: {socials?, img?}}."""
+    persons_dir = root / 'data' / 'persons'
+    img_dir = persons_dir / 'images'
+    result = {}
+    if not persons_dir.exists():
+        return result
+    for f in sorted(persons_dir.glob('*.json')):
+        k = f.stem
+        try:
+            obj = json.loads(f.read_text(encoding='utf-8'))
+        except Exception:
+            continue
+        has_img = any(
+            (img_dir / f'{k}{ext}').exists()
+            for ext in ('.jpg', '.jpeg', '.png', '.webp')
+        )
+        entry: dict = {}
+        if obj.get('socials'):
+            entry['socials'] = obj['socials']
+        if has_img:
+            entry['img'] = True
+        if entry:
+            result[k] = entry
+    return result
+
+
 def main():
     # Read full episodes.json for bios and built date
     full_data = json.loads((ROOT / 'data' / 'episodes.json').read_text(encoding='utf-8'))
@@ -55,6 +85,7 @@ def main():
         'eps': index_eps,
         'bios': full_data['bios'],
         'built': full_data['built'],
+        'persons': load_persons_data(ROOT),
     }
 
     # Read template and replace placeholders
@@ -74,16 +105,51 @@ def main():
     (dist / 'index.html').write_text(out, encoding='utf-8')
     print(f'site/dist/index.html {len(out)} bytes  ({len(index_eps)} episodes in index)')
 
-    # Copy transcripts from data/transcripts/ so the page can fetch them
+    # Copy person images to site/dist/data/persons/images/
+    img_src = ROOT / 'data' / 'persons' / 'images'
+    img_dst = dist / 'data' / 'persons' / 'images'
+    if img_src.exists():
+        img_dst.mkdir(parents=True, exist_ok=True)
+        n_imgs = 0
+        for f in img_src.iterdir():
+            if f.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp'):
+                shutil.copy2(f, img_dst / f.name)
+                n_imgs += 1
+        if n_imgs:
+            print(f'  copied {n_imgs} person image(s) to site/dist/data/persons/images/')
+
+    # Copy transcripts, applying S1/S2/... speaker corrections where available
     tx_src = ROOT / 'data' / 'transcripts'
     tx_dst = dist / 'data' / 'transcripts'
     if tx_src.exists():
         tx_dst.mkdir(parents=True, exist_ok=True)
+        n_tx = n_corrected = 0
         for f in tx_src.glob('*.json'):
-            shutil.copy2(f, tx_dst / f.name)
-        n_tx = len(list(tx_src.glob('*.json')))
+            try:
+                tr = json.loads(f.read_text(encoding='utf-8'))
+                corr_path = CORRECTIONS_DIR / f.name
+                if corr_path.exists():
+                    corr = json.loads(corr_path.read_text(encoding='utf-8'))
+                    for sid, name in corr.items():
+                        if not _SID_RE.match(sid):
+                            continue
+                        for spk in tr.get('speakers', []):
+                            if spk['id'] == sid:
+                                spk['name'] = name
+                                break
+                    n_corrected += 1
+                (tx_dst / f.name).write_text(
+                    json.dumps(tr, ensure_ascii=False, separators=(',', ':')),
+                    encoding='utf-8',
+                )
+                n_tx += 1
+            except Exception as exc:
+                print(f'  Warning: could not process transcript {f.name}: {exc}')
+                shutil.copy2(f, tx_dst / f.name)
+                n_tx += 1
         if n_tx:
-            print(f'  copied {n_tx} transcript(s) to site/dist/data/transcripts/')
+            print(f'  copied {n_tx} transcript(s) to site/dist/data/transcripts/ '
+                  f'({n_corrected} with corrections)')
 
 
 if __name__ == '__main__':

@@ -13,8 +13,11 @@ import json, math, pathlib, re, unicodedata
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
+CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
 ANALYSIS_DIR = ROOT / 'data' / 'analysis'
 OUT_DIR = ROOT / 'site' / 'dist' / 'data'
+
+_SID_RE = re.compile(r'^S\d+$')
 
 # Fields from analysis to include in per-episode site files
 _AN_FIELDS = {'summary_tldr', 'summary_points', 'chapters', 'highlights',
@@ -235,7 +238,21 @@ def main():
     if TRANSCRIPTS_DIR.exists():
         for f in sorted(TRANSCRIPTS_DIR.glob('*.json')):
             try:
-                transcripts.append(json.loads(f.read_text(encoding='utf-8')))
+                tr = json.loads(f.read_text(encoding='utf-8'))
+                corr_path = CORRECTIONS_DIR / f.name
+                if corr_path.exists():
+                    try:
+                        corr = json.loads(corr_path.read_text(encoding='utf-8'))
+                        for sid, name in corr.items():
+                            if not _SID_RE.match(sid):
+                                continue
+                            for spk in tr.get('speakers', []):
+                                if spk['id'] == sid:
+                                    spk['name'] = name
+                                    break
+                    except Exception as exc:
+                        print(f'  Warning: could not apply corrections for {f.name}: {exc}')
+                transcripts.append(tr)
             except Exception as exc:
                 print(f'  Warning: could not read {f.name}: {exc}')
 
