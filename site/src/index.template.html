@@ -314,6 +314,17 @@ table.mtab{border-collapse:collapse;width:100%;font:14px var(--ui);min-width:640
 svg.spark{display:block;width:auto;height:26px}
 .mhits{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .mhits .frag{margin:0}
+/* Bible verse popup */
+.bref{background:none;border:none;padding:0;color:var(--violet);cursor:pointer;font:inherit;text-decoration:underline dotted;text-underline-offset:2px}
+.bref:focus-visible{outline:2px solid var(--violet);border-radius:2px}
+#bpopup{position:fixed;z-index:900;width:min(360px,calc(100vw - 32px));background:var(--parchment-2);border:1px solid var(--rule);border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,.2);padding:14px 16px 12px;font-family:var(--body);font-size:14px;line-height:1.65;color:var(--ink)}
+#bpopup[hidden]{display:none}
+#bpopup .bp-ref{font-family:var(--ui);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:8px}
+#bpopup .bp-vn{color:var(--gold-deep);font-variant-numeric:tabular-nums;font-family:var(--ui);font-size:12px;margin-right:4px;font-style:normal}
+#bpopup .bp-link{display:inline-block;margin-top:10px;font-family:var(--ui);font-size:12px;color:var(--violet);text-decoration:none;padding:4px 10px;border:1px solid var(--violet);border-radius:999px}
+#bpopup .bp-link:hover{background:var(--violet);color:#fff}
+#bpopup .bp-close{position:absolute;top:8px;right:10px;background:none;border:none;cursor:pointer;color:var(--ink-muted);font-size:18px;line-height:1;padding:0}
+#bpopup .bp-empty{color:var(--ink-muted);font-style:italic;font-size:13px}
 </style>
 
 <header class="mast"><div class="wrap">
@@ -335,9 +346,12 @@ svg.spark{display:block;width:auto;height:26px}
 </div></footer>
 
 <script id="data" type="application/json">__DATA__</script>
+<script id="bvdata" type="application/json">__BVDATA__</script>
+<div id="bpopup" hidden role="dialog" aria-modal="false" aria-label="Bijbelvers"></div>
 <script>
 (function(){
 const D=JSON.parse(document.getElementById('data').textContent);
+const BV=JSON.parse(document.getElementById('bvdata').textContent||'{}');
 const $=s=>document.querySelector(s);
 const app=$('#app');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -601,7 +615,7 @@ function anHTML(e,T){
   <h2>Stopwoordjes</h2><div class="scroll"><table class="tics"><thead><tr><th></th>${T.spk.map(s=>`<th style="color:${s.c}">${esc(s.name.split(' ')[0])}</th>`).join('')}</tr></thead><tbody>${ticsUsed.map(t=>{const mx=Math.max(...T.spk.map(s=>s.tics[t]));return `<tr><td>‘${t}’</td>${T.spk.map(s=>`<td class="${s.tics[t]===mx&&mx>3?'hot':''}">${s.tics[t]||'·'}</td>`).join('')}</tr>`}).join('')}</tbody></table></div>
   <h2>Langste monoloog</h2><div class="mentions">${T.spk.filter(s=>s.longestSeg).map(s=>`<div>${tbtn(s.longestSeg.start)} ${spkName(s)} <span class="muted ui">${Math.max(1,Math.round(s.longest/60))} min aan één stuk</span></div>`).join('')}</div>
   <h2>Woordenschat</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke woorden per 1.000 gesproken woorden. Hoger betekent gevarieerder taalgebruik.</p>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.ttr*1000)})),{max:500})}
-  ${T.bible.length?`<h2>Bijbelverwijzingen</h2><div class="mentions">${T.bible.map(b=>`<div>${b.t>=0?tbtn(b.t)+' ':''}${esc(b.b)}</div>`).join('')}</div>`:''}
+  ${T.bible.length?`<h2>Bijbelverwijzingen</h2><div class="mentions">${T.bible.map(b=>`<div>${b.t>=0?tbtn(b.t)+' ':''}<button class="bref" type="button" data-ref="${esc(b.b)}">${esc(b.b)}</button></div>`).join('')}</div>`:''}
   ${T.ment.length?'<h2>Genoemd in dit gesprek</h2>'+CATS.map(([c,l])=>{const ms=T.ment.filter(m=>m.c===c);return ms.length?'<h3 class="label" style="margin:14px 0 8px">'+l+'</h3><div class="mentions">'+ms.map(m=>'<div>'+tbtn(m.hits[0].t)+' '+esc(m.n)+' <span class="muted ui">'+m.x+'× genoemd</span></div>').join('')+'</div>':''}).join(''):''}
   <h2>Ongelooflijke bingo</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Vaste ingrediënten van de show. Een gouden vakje viel in deze aflevering; klik op de tijd om het terug te horen.</p>
   <div class="bingo">${T.bingo.map(b=>`<div class="${b.hit?'hit':''}"><span>${esc(b.b)}</span>${b.hit?tbtn(b.t):''}</div>`).join('')}</div>${bingo?'<p class="bingo-yes">Bingo!</p>':''}`;
@@ -1058,6 +1072,76 @@ function drawTrend(){
 
 function notFound(){app.innerHTML=`<h1>Niet gevonden</h1><p class="empty">Deze pagina bestaat niet in het archief. <a href="#zoeken">Doorzoek alle afleveringen</a>.</p>`}
 
+// ---------- Bible verse popup ----------
+const _DUTCH_OSIS={
+  genesis:'GEN',exodus:'EXO',leviticus:'LEV',numeri:'NUM',deuteronomium:'DEU',
+  jozua:'JOS',rechters:'JDG',ruth:'RUT','1 samuel':'1SA','2 samuel':'2SA',
+  '1 koningen':'1KI','2 koningen':'2KI','1 kronieken':'1CH','2 kronieken':'2CH',
+  ezra:'EZR',nehemia:'NEH',esther:'EST',job:'JOB',psalm:'PSA',psalmen:'PSA',
+  spreuken:'PRO',prediker:'ECC',hooglied:'SNG',jesaja:'ISA',jeremia:'JER',
+  klaagliederen:'LAM','ezechi\xebl':'EZK',ezechiel:'EZK','dani\xebl':'DAN',daniel:'DAN',
+  hosea:'HOS','jo\xebl':'JOL',joel:'JOL',amos:'AMO',obadja:'OBA',jona:'JON',
+  micha:'MIC',nahum:'NAH',habakuk:'HAB',sefanja:'ZEP',haggai:'HAG',zacharia:'ZEC',
+  maleachi:'MAL','matt\xe4\xfcs':'MAT','matteus':'MAT','mattheus':'MAT',
+  marcus:'MRK',lucas:'LUK',johannes:'JHN',handelingen:'ACT',romeinen:'ROM',
+  '1 korintiers':'1CO','1 korintiers':'1CO','1 korinti\xebrs':'1CO',
+  '2 korinti\xebrs':'2CO','2 korintiers':'2CO',galaten:'GAL',
+  'efezi\xebrs':'EPH',efeziers:'EPH',filippenzen:'PHP',kolossenzen:'COL',
+  '1 tessalonicenzen':'1TH','2 tessalonicenzen':'2TH',
+  '1 timote\xfcs':'1TI','1 timoteus':'1TI','2 timote\xfcs':'2TI','2 timoteus':'2TI',
+  titus:'TIT',filemon:'PHM','hebree\xebn':'HEB',hebreeen:'HEB',
+  jakobus:'JAS','1 petrus':'1PE','2 petrus':'2PE',
+  '1 johannes':'1JO','2 johannes':'2JO','3 johannes':'3JO',
+  judas:'JUD',openbaring:'REV'
+};
+function parseBibleRef(s){
+  s=s.replace(/\s*\(.*\)/,'').replace(/(\d+)-\d+/,'$1').trim();
+  const m=s.match(/^((?:\d\s+)?[A-Za-zÀ-ɏ]+(?:\s+[A-Za-zÀ-ɏ]+)*)\s+(\d+)(?::(\d+))?/);
+  if(!m)return null;
+  const book=m[1].trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC');
+  // also try without diacritics for lookup
+  const lookup=s=>_DUTCH_OSIS[s]||_DUTCH_OSIS[s.normalize('NFD').replace(/[̀-ͯ]/g,'').normalize('NFC')];
+  const code=lookup(book)||lookup(m[1].trim().toLowerCase());
+  if(!code)return null;
+  return{code,ch:+m[2],v:m[3]?+m[3]:1};
+}
+const _bpop=document.getElementById('bpopup');
+let _bpopOpen=false;
+function closeBiblePopup(){_bpop.hidden=true;_bpopOpen=false}
+function showBiblePopup(refStr,anchor){
+  const p=parseBibleRef(refStr);
+  const key=p?`${p.code}.${p.ch}.${p.v}`:null;
+  const verses=key&&BV[key];
+  const link=p?`https://nbv21.nl/bijbel/NBV21/${p.code}.${p.ch}/`:'https://nbv21.nl/';
+  let vhtml='';
+  if(verses&&verses.length){
+    vhtml=verses.map(t=>{
+      const mn=t.match(/^(\d+)\s+([\s\S]+)$/);
+      return mn?`<p style="margin:0 0 6px"><em class="bp-vn">${mn[1]}</em>${esc(mn[2])}</p>`
+               :`<p style="margin:0 0 6px">${esc(t)}</p>`;
+    }).join('');
+  }else{
+    vhtml=`<p class="bp-empty">Geen tekst beschikbaar.</p>`;
+  }
+  _bpop.innerHTML=`<div class="bp-ref">${esc(refStr)} · NBV21</div><div class="bp-verses">${vhtml}</div>`+
+    `<a class="bp-link" href="${link}" target="_blank" rel="noopener">Lees in NBV21 →</a>`+
+    `<button class="bp-close" type="button" aria-label="Sluiten">×</button>`;
+  _bpop.hidden=false;
+  _bpopOpen=true;
+  // Position near anchor
+  const rect=anchor.getBoundingClientRect();
+  const vw=window.innerWidth,vh=window.innerHeight;
+  const pw=Math.min(360,vw-32);
+  _bpop.style.width=pw+'px';
+  let left=Math.max(16,Math.min(rect.left,vw-pw-16));
+  _bpop.style.left=left+'px';
+  _bpop.style.top='';_bpop.style.bottom='';
+  // Show below anchor; flip above if not enough room below
+  const ph=_bpop.offsetHeight||220;
+  if(rect.bottom+8+ph<=vh){_bpop.style.top=(rect.bottom+8)+'px'}
+  else{_bpop.style.bottom=(vh-rect.top+8)+'px'}
+}
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&_bpopOpen)closeBiblePopup()});
 // ---------- router ----------
 const THEME_BY_SLUG=Object.fromEntries(THEMES.map(t=>[slug(t),t]));
 function route(){
@@ -1078,7 +1162,12 @@ function route(){
   document.querySelectorAll('nav.main a').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
   window.scrollTo(0,0);
 }
-document.addEventListener('click',ev=>{const a=ev.target.closest('[data-q]');if(a){state.q=a.dataset.q;$('#q').value=state.q;state.limit=40;if(location.hash==='#zoeken'){ev.preventDefault();viewSearch()}}});
+document.addEventListener('click',ev=>{
+  const a=ev.target.closest('[data-q]');if(a){state.q=a.dataset.q;$('#q').value=state.q;state.limit=40;if(location.hash==='#zoeken'){ev.preventDefault();viewSearch()}}
+  const br=ev.target.closest('.bref');if(br){ev.stopPropagation();showBiblePopup(br.dataset.ref,br);return}
+  if(_bpopOpen&&!_bpop.contains(ev.target))closeBiblePopup();
+  if(ev.target.classList.contains('bp-close'))closeBiblePopup();
+});
 $('#qform').addEventListener('submit',ev=>{ev.preventDefault();state.q=$('#q').value;state.limit=40;if(location.hash==='#zoeken')viewSearch();else location.hash='#zoeken'});
 $('#q').addEventListener('input',ev=>{state.q=ev.target.value;state.limit=40;if(location.hash==='#zoeken'){const q2=$('#q2');if(q2)q2.value=state.q;drawRes()}});
 window.addEventListener('hashchange',route);
