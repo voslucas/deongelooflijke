@@ -9,7 +9,6 @@ Credentials are read from --key/--endpoint, then AZURE_SPEECH_KEY / AZURE_SPEECH
 env vars, then .env file.
 
 Output: data/transcripts/{key}.json  (transcript-schema.md input shape)
-        data/speaker-corrections/{key}.json  (speaker mapping for review/override)
 
 API:
     POST https://{resource}.cognitiveservices.azure.com/speechtotext/transcriptions:transcribe?api-version=2025-10-15
@@ -21,7 +20,6 @@ import argparse, datetime, json, os, pathlib, re, sys, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
-CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
 OUT_DIR = ROOT / 'data' / 'transcripts'
 MP3_DIR = ROOT / 'data' / 'mp3'
 
@@ -136,28 +134,6 @@ def _speaker_map(phrases, ep):
             else:
                 mapping[sid] = (f'Spreker {i + 1}', 'Gast')
     return mapping
-
-
-_SID_RE = re.compile(r'^S\d+$')
-
-
-def _apply_corrections(transcript, key):
-    """Apply S1/S2/... corrections to an already-built transcript object."""
-    path = CORRECTIONS_DIR / f'{key}.json'
-    if not path.exists():
-        return transcript
-    try:
-        corrections = json.loads(path.read_text(encoding='utf-8'))
-        for sid, name in corrections.items():
-            if not _SID_RE.match(sid):
-                continue
-            for spk in transcript.get('speakers', []):
-                if spk['id'] == sid:
-                    spk['name'] = name
-                    break
-    except Exception as exc:
-        print(f'  Warning: could not apply corrections for {key}: {exc}')
-    return transcript
 
 
 # ---------------------------------------------------------------------------
@@ -323,18 +299,6 @@ def transcribe_episode(ep, key, endpoint, requests):
 
     mapping = _speaker_map(phrases, ep)
     transcript = _azure_to_transcript(data, mapping, ep)
-    transcript = _apply_corrections(transcript, ep_key)
-
-    # Save correction template for review (S1/S2/... keys)
-    CORRECTIONS_DIR.mkdir(parents=True, exist_ok=True)
-    correction_path = CORRECTIONS_DIR / f'{ep_key}.json'
-    if not correction_path.exists():
-        s_mapping = {spk['id']: spk['name'] for spk in transcript['speakers']}
-        correction_path.write_text(
-            json.dumps(s_mapping, ensure_ascii=False, indent=2),
-            encoding='utf-8',
-        )
-
     return transcript
 
 

@@ -2,7 +2,7 @@
 
 Usage:
     python scripts/identify_speakers.py --episode 327          # dry-run, show confidence table
-    python scripts/identify_speakers.py --episode 327 --apply  # write speaker-corrections file
+    python scripts/identify_speakers.py --episode 327 --apply  # update transcript in place
     python scripts/identify_speakers.py --episode 327 --threshold 0.80
 
 Reads data/transcripts/{N}.json (segments with speaker IDs like S1, S2, …),
@@ -10,9 +10,8 @@ loads data/mp3/{N}.mp3, computes a Resemblyzer embedding per speaker cluster,
 and compares each embedding against every stored profile in data/voice-profiles/.
 
 A match is accepted when cosine similarity >= threshold (default 0.75).
-On --apply the matched names are written to data/speaker-corrections/{N}.json
-using the transcript's internal speaker IDs (S1, S2, …) as keys so the
-corrections file is immediately usable by the transcription pipeline.
+On --apply the matched names are written directly into data/transcripts/{N}.json
+so the transcript is always the single source of truth for speaker names.
 
 Dependencies:
     pip install resemblyzer
@@ -25,7 +24,6 @@ EPISODES_JSON   = ROOT / 'data' / 'episodes.json'
 TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
 MP3_DIR         = ROOT / 'data' / 'mp3'
 PROFILES_DIR    = ROOT / 'data' / 'voice-profiles'
-CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
 
 SAMPLING_RATE   = 16_000
 MIN_SEG_SECS    = 1.0
@@ -225,36 +223,26 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
             corrections[sid] = matched_name
 
     if not corrections:
-        print('\n  No confident matches above threshold. No corrections written.')
+        print('\n  No confident matches above threshold. No changes.')
         return
 
     if not apply:
-        print(f'\n  Dry-run: would write {len(corrections)} correction(s) to '
-              f'data/speaker-corrections/{ep_key}.json')
+        print(f'\n  Dry-run: would apply {len(corrections)} correction(s) to '
+              f'data/transcripts/{ep_key}.json')
         print('  Re-run with --apply to save.')
         return
 
-    # Read existing corrections file; strip any non-S1/S2 entries
-    CORRECTIONS_DIR.mkdir(parents=True, exist_ok=True)
-    corr_path = CORRECTIONS_DIR / f'{ep_key}.json'
-    existing: dict[str, str] = {}
-    if corr_path.exists():
-        try:
-            raw = json.loads(corr_path.read_text(encoding='utf-8'))
-            existing = {k: v for k, v in raw.items() if re.match(r'^S\d+$', k)}
-            removed = len(raw) - len(existing)
-            if removed:
-                print(f'  Removed {removed} incompatible key(s) from {corr_path.name}')
-        except Exception:
-            pass
-
-    # The corrections file uses speaker IDs as keys (S1, S2, …)
-    existing.update(corrections)
-    corr_path.write_text(
-        json.dumps(existing, ensure_ascii=False, indent=2),
+    # Apply corrections directly to the transcript file
+    for sid, new_name in corrections.items():
+        for spk in transcript.get('speakers', []):
+            if spk['id'] == sid:
+                spk['name'] = new_name
+                break
+    transcript_path.write_text(
+        json.dumps(transcript, ensure_ascii=False, indent=2),
         encoding='utf-8',
     )
-    print(f'\n  Wrote {len(corrections)} correction(s) to {corr_path.relative_to(ROOT)}')
+    print(f'\n  Applied {len(corrections)} correction(s) to {transcript_path.relative_to(ROOT)}')
 
 
 def main() -> None:
@@ -265,7 +253,7 @@ def main() -> None:
     parser.add_argument('--dry-run', action='store_true',
                         help='Print results without writing corrections (default behaviour without --apply)')
     parser.add_argument('--apply', action='store_true',
-                        help='Write to speaker-corrections file (default: dry-run)')
+                        help='Write corrections into the transcript file (default: dry-run)')
     parser.add_argument('--threshold', type=float, default=DEFAULT_THRESHOLD,
                         help=f'Minimum cosine similarity to accept a match '
                              f'(default: {DEFAULT_THRESHOLD})')
