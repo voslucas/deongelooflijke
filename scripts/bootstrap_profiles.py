@@ -25,7 +25,6 @@ EPISODES_JSON   = ROOT / 'data' / 'episodes.json'
 TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
 MP3_DIR         = ROOT / 'data' / 'mp3'
 PROFILES_DIR    = ROOT / 'data' / 'voice-profiles'
-CORRECTIONS_DIR = ROOT / 'data' / 'speaker-corrections'
 
 SAMPLING_RATE     = 16_000
 MIN_SEG_SECS      = 1.0
@@ -246,18 +245,14 @@ def _process_episode(ep_key: str, ep_url: str | None,
             new_speaker_sid = sid
 
     if corrections:
-        CORRECTIONS_DIR.mkdir(parents=True, exist_ok=True)
-        corr_path = CORRECTIONS_DIR / f'{ep_key}.json'
-        existing: dict[str, str] = {}
-        if corr_path.exists():
-            try:
-                existing = json.loads(corr_path.read_text(encoding='utf-8'))
-            except Exception:
-                pass
-        existing.update(corrections)
-        corr_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2),
-                             encoding='utf-8')
-        print(f'      Wrote corrections → {corr_path.name}', flush=True)
+        transcript_path = TRANSCRIPTS_DIR / f'{ep_key}.json'
+        for spk in transcript['speakers']:
+            if spk['id'] in corrections:
+                spk['name'] = corrections[spk['id']]
+        transcript_path.write_text(
+            json.dumps(transcript, ensure_ascii=False, indent=2), encoding='utf-8'
+        )
+        print(f'      Corrected transcript → {transcript_path.name}', flush=True)
 
     # Profile for new speaker (only when there is exactly one unknown)
     if known_new_speaker is None:
