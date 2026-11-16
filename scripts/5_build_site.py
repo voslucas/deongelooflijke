@@ -9,6 +9,7 @@ Also inlines a compact verse table (bvdata) from data/bible/*.json covering all
 referenced Bible passages so the popup can show NBV21 text without runtime fetches.
 """
 import base64, json, pathlib, re, shutil
+from utils import truncate_xs
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EP_DIR = ROOT / 'site' / 'dist' / 'data' / 'episodes'
@@ -136,16 +137,6 @@ def build_bible_data() -> dict:
               f'(run scripts/scrape_nbv21.py first)')
     print(f'  Bible verse data: {len(bv)} entries from {len(all_refs)} refs')
     return bv
-
-
-def truncate_xs(text, max_chars=320):
-    """Truncate description at word boundary, ≤320 chars."""
-    if not text:
-        return ''
-    if len(text) <= max_chars:
-        return text
-    cut = text[:max_chars].rsplit(None, 1)[0]
-    return cut if cut else text[:max_chars]
 
 
 def build_lightweight_index():

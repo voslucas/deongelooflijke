@@ -9,6 +9,7 @@ Outputs:
   site/dist/data/people.json           — person mention aggregates ([] if no transcripts)
 """
 import json, math, pathlib, re, unicodedata
+from utils import ep_key, truncate_xs
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
@@ -63,18 +64,6 @@ def norm(s):
 
 def tok(s):
     return [w for w in _TOK_RE.findall(norm(s)) if len(w) > 3 and w not in STOP]
-
-
-def ep_key(e):
-    return str(e['n']) if e['n'] is not None else 'x' + e['id']
-
-
-def truncate_xs(text, max_chars=320):
-    """Truncate at word boundary, no mid-word cuts."""
-    if len(text) <= max_chars:
-        return text
-    cut = text[:max_chars].rsplit(None, 1)[0]
-    return cut if cut else text[:max_chars]
 
 
 def compute_tfidf(eps):

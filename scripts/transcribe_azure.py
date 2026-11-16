@@ -17,6 +17,7 @@ API:
     Limits: ≤ 2 hours, ≤ 250 MB per request
 """
 import argparse, datetime, json, os, pathlib, re, sys, time
+from utils import ep_key as _ep_key
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
@@ -68,14 +69,6 @@ def _transcribe_url(endpoint):
     return f'{base}/speechtotext/transcriptions:transcribe?api-version={API_VERSION}'
 
 
-# ---------------------------------------------------------------------------
-# Episode helpers (same as transcribe.py)
-# ---------------------------------------------------------------------------
-
-def _ep_key(e):
-    return str(e['n']) if e['n'] is not None else 'x' + e['id']
-
-
 def _download_mp3(mp3_url, dest_path, requests):
     dest_path.parent.mkdir(parents=True, exist_ok=True)
     print(f'  Downloading {mp3_url} …')
@@ -121,18 +114,18 @@ def _speaker_map(phrases, ep):
     # the fallback label in _azure_to_transcript and can be spotted easily.
     ranked = ranked[:expected]
 
-    mapping: dict[int, tuple[str, str]] = {}
+    mapping: dict[int, str] = {}
     for i, sid in enumerate(ranked):
         if i == 0:
-            mapping[sid] = ('David Boogerd', 'Presentator')
+            mapping[sid] = 'David Boogerd'
         elif i == 1 and has_paas:
-            mapping[sid] = ('Stefan Paas', 'Vaste gast')
+            mapping[sid] = 'Stefan Paas'
         else:
             guest_idx = i - 1 - (1 if has_paas else 0)
             if 0 <= guest_idx < len(guests):
-                mapping[sid] = (guests[guest_idx], 'Gast')
+                mapping[sid] = guests[guest_idx]
             else:
-                mapping[sid] = (f'Spreker {i + 1}', 'Gast')
+                mapping[sid] = f'Spreker {i + 1}'
     return mapping
 
 
@@ -144,15 +137,12 @@ def _azure_to_transcript(response_json, mapping, ep):
     phrases = response_json.get('phrases', [])
 
     # Build speakers list
-    seen: dict[str, str] = {}
-    for _, (name, role) in mapping.items():
+    seen: list[str] = []
+    for name in mapping.values():
         if name not in seen:
-            seen[name] = role
-    role_order = {'Presentator': 0, 'Vaste gast': 1, 'Gast': 2}
-    spk_list = sorted(seen.items(), key=lambda x: (role_order.get(x[1], 2), x[0]))
-    name_to_id = {name: f'S{i + 1}' for i, (name, _) in enumerate(spk_list)}
-    speakers = [{'id': name_to_id[name], 'name': name, 'role': role}
-                for name, role in spk_list]
+            seen.append(name)
+    name_to_id = {name: f'S{i + 1}' for i, name in enumerate(seen)}
+    speakers = [{'id': name_to_id[name], 'name': name} for name in seen]
 
     segments = []
     events = []
@@ -161,7 +151,7 @@ def _azure_to_transcript(response_json, mapping, ep):
 
     for ph in phrases:
         azure_sid = ph.get('speaker')
-        name, _ = mapping.get(azure_sid, (f'Spreker {azure_sid}', 'Gast'))
+        name = mapping.get(azure_sid, f'Spreker {azure_sid}')
         sid = name_to_id.get(name, 'S1')
         start_s = ph.get('offsetMilliseconds', 0) / 1000
         end_s = start_s + ph.get('durationMilliseconds', 0) / 1000

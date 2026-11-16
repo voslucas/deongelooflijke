@@ -14,6 +14,7 @@ Guests should be added manually to their data/persons/{slug}.json file.
 """
 import html, json, pathlib, re, sys, unicodedata
 from xml.etree import ElementTree as ET
+from utils import slug
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PERSONS_DIR = ROOT / 'data' / 'persons'
@@ -38,12 +39,6 @@ PATTERNS = {
 
 # Strips trailing punctuation that gets swept in by the greedy patterns
 _TRAIL = re.compile(r'[.,;:!?)\]>]+$')
-
-
-def slug(s: str) -> str:
-    s = unicodedata.normalize('NFD', s.lower())
-    s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
-    return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
 
 
 def raw_text(item, ns: dict) -> str:

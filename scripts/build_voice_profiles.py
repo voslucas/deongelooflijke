@@ -19,6 +19,8 @@ Dependencies:
 """
 import argparse, json, pathlib, sys, re
 import numpy as np
+from utils import slug as _slug, ep_key as _ep_key
+from voice_utils import download_mp3 as _download_mp3, load_audio as _load_audio
 
 ROOT         = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
@@ -29,50 +31,6 @@ PROFILES_DIR = ROOT / 'data' / 'voice-profiles'
 SAMPLING_RATE = 16_000      # Resemblyzer expects 16 kHz mono
 MIN_SEG_SECS  = 3.0         # skip segments shorter than this
 MAX_SEGS      = 20          # use at most this many segments per speaker (longest first)
-
-
-def _slug(name: str) -> str:
-    return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
-
-def _ep_key(ep: dict) -> str:
-    return str(ep['n']) if ep['n'] is not None else 'x' + ep['id']
-
-
-def _download_mp3(url: str, dest: pathlib.Path) -> None:
-    try:
-        import httpx as _http
-        client_cls = _http.Client
-        timeout = _http.Timeout(60, read=7200)
-    except ImportError:
-        import requests as _http  # type: ignore
-        client_cls = None
-        timeout = (60, 7200)
-
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    print(f'  Downloading {url} …')
-    if client_cls:
-        with client_cls(timeout=timeout) as client:
-            resp = client.get(url, follow_redirects=True)
-        resp.raise_for_status()
-        dest.write_bytes(resp.content)
-    else:
-        resp = _http.get(url, stream=True, timeout=timeout)
-        resp.raise_for_status()
-        with open(dest, 'wb') as f:
-            for chunk in resp.iter_content(65536):
-                f.write(chunk)
-    print(f'  Saved {dest.stat().st_size // 1_000_000} MB to {dest.relative_to(ROOT)}')
-
-
-def _load_audio(mp3_path: pathlib.Path) -> np.ndarray:
-    """Load MP3 as 16 kHz mono float32 array."""
-    try:
-        import librosa
-    except ImportError:
-        sys.exit('librosa not found. Install resemblyzer: pip install resemblyzer')
-    audio, _ = librosa.load(str(mp3_path), sr=SAMPLING_RATE, mono=True)
-    return audio.astype(np.float32)
 
 
 def _build_profile(audio: np.ndarray, segments: list[dict]) -> np.ndarray | None:

@@ -19,6 +19,10 @@ Usage:
 """
 import argparse, json, pathlib, re, sys
 import numpy as np
+from utils import slug as _slug, name_from_slug as _name_from_slug
+from voice_utils import (download_mp3 as _download_mp3, load_audio as _load_audio,
+                         load_profiles as _load_profiles_base, cosine as _cosine,
+                         embed_cluster as _embed_cluster)
 
 ROOT            = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON   = ROOT / 'data' / 'episodes.json'
@@ -32,83 +36,8 @@ MAX_SEGS          = 20
 DEFAULT_THRESHOLD = 0.75
 
 
-# ---------------------------------------------------------------------------
-# Shared helpers (mirror identify_speakers.py / build_voice_profiles.py)
-# ---------------------------------------------------------------------------
-
-def _slug(name: str) -> str:
-    return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-
-
-def _name_from_slug(slug: str) -> str:
-    return slug.replace('-', ' ').title()
-
-
 def _load_profiles() -> dict[str, np.ndarray]:
-    profiles: dict[str, np.ndarray] = {}
-    if not PROFILES_DIR.exists():
-        return profiles
-    for path in sorted(PROFILES_DIR.glob('*.npy')):
-        profiles[_name_from_slug(path.stem)] = np.load(path).astype(np.float32)
-    return profiles
-
-
-def _download_mp3(url: str, dest: pathlib.Path) -> None:
-    try:
-        import httpx as _http
-        client_cls = _http.Client
-        timeout    = _http.Timeout(60, read=7200)
-    except ImportError:
-        import requests as _http  # type: ignore
-        client_cls = None
-        timeout    = (60, 7200)
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    print(f'      Downloading {dest.name} …', flush=True)
-    if client_cls:
-        with client_cls(timeout=timeout) as client:
-            resp = client.get(url, follow_redirects=True)
-        resp.raise_for_status()
-        dest.write_bytes(resp.content)
-    else:
-        resp = _http.get(url, stream=True, timeout=timeout)
-        resp.raise_for_status()
-        with open(dest, 'wb') as f:
-            for chunk in resp.iter_content(65536):
-                f.write(chunk)
-    print(f'      Saved {dest.stat().st_size // 1_000_000} MB', flush=True)
-
-
-def _load_audio(mp3_path: pathlib.Path) -> np.ndarray:
-    import librosa
-    audio, _ = librosa.load(str(mp3_path), sr=SAMPLING_RATE, mono=True)
-    return audio.astype(np.float32)
-
-
-def _embed_cluster(audio: np.ndarray, segs: list[dict],
-                   encoder, preprocess_wav) -> np.ndarray | None:
-    segs = [s for s in segs if (s['end'] - s['start']) >= MIN_SEG_SECS]
-    segs.sort(key=lambda s: s['end'] - s['start'], reverse=True)
-    segs = segs[:MAX_SEGS]
-    embeddings = []
-    for seg in segs:
-        start_i = int(seg['start'] * SAMPLING_RATE)
-        end_i   = int(seg['end']   * SAMPLING_RATE)
-        clip = audio[start_i:end_i]
-        if len(clip) < SAMPLING_RATE:
-            continue
-        try:
-            wav = preprocess_wav(clip, source_sr=SAMPLING_RATE)
-            embeddings.append(encoder.embed_utterance(wav))
-        except Exception:
-            pass
-    if not embeddings:
-        return None
-    emb = np.mean(embeddings, axis=0).astype(np.float32)
-    return emb / np.linalg.norm(emb)
-
-
-def _cosine(a: np.ndarray, b: np.ndarray) -> float:
-    return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b)))
+    return _load_profiles_base(PROFILES_DIR)
 
 
 def _greedy_assign(cluster_embs: dict[str, np.ndarray | None],
@@ -166,7 +95,7 @@ def _plan_round(transcripts: dict[str, dict],
         if not speakers:
             continue
         ep_names = [s['name'] for s in speakers]
-        unknown  = [n for n in ep_names if n not in profiles]
+        unknown  = [n for n in ep_names if n.lower() not in profiles]
         if len(unknown) == 0:
             fully_known.append(ep_key)
         elif len(unknown) == 1:
@@ -212,16 +141,21 @@ def _process_episode(ep_key: str, ep_url: str | None,
         if sid in by_sid:
             by_sid[sid].append(seg)
 
-    profiles   = _load_profiles()
-    ep_names   = {s['name'] for s in speakers}
-    ep_profiles = {n: e for n, e in profiles.items() if n in ep_names}
+    profiles    = _load_profiles()
+    ep_name_map = {s['name'].lower(): s['name'] for s in speakers}
+    ep_profiles = {
+        ep_name_map[n.lower()]: e
+        for n, e in profiles.items()
+        if n.lower() in ep_name_map
+    }
 
     cluster_embs: dict[str, np.ndarray | None] = {}
     for spk in speakers:
         sid = spk['id']
         print(f'      Encoding {sid} ({spk["name"]}, {len(by_sid[sid])} segs) …',
               flush=True)
-        cluster_embs[sid] = _embed_cluster(audio, by_sid[sid], encoder, preprocess_wav)
+        cluster_embs[sid] = _embed_cluster(audio, by_sid[sid], encoder, preprocess_wav,
+                                            max_segs=MAX_SEGS)
 
     assignments = _greedy_assign(cluster_embs, ep_profiles, speakers, threshold)
 
@@ -278,7 +212,8 @@ def _process_episode(ep_key: str, ep_url: str | None,
               flush=True)
         return False
 
-    emb = _embed_cluster(audio, by_sid.get(new_speaker_sid, []), encoder, preprocess_wav)
+    emb = _embed_cluster(audio, by_sid.get(new_speaker_sid, []), encoder, preprocess_wav,
+                         max_segs=MAX_SEGS)
     if emb is None:
         print(f'      Not enough audio for {known_new_speaker} — no profile built',
               flush=True)
@@ -330,7 +265,7 @@ def main() -> None:
 
     skip: set[str]              = set()   # fully resolved — never re-evaluate
     corrections_done: set[str]  = set()   # 2+-unknown episodes with corrections written
-    sim_profiles: set[str]      = set(_load_profiles())
+    sim_profiles: set[str]      = {n.lower() for n in _load_profiles()}
     total_new: list[str]        = []
 
     for round_num in range(1, args.max_rounds + 1):
@@ -357,7 +292,7 @@ def main() -> None:
         for ep_key, transcript, new_speaker in processable:
             speakers     = transcript.get('speakers', [])
             ep_names     = [s['name'] for s in speakers]
-            known        = [n for n in ep_names if n in sim_profiles]
+            known        = [n for n in ep_names if n.lower() in sim_profiles]
             profile_path = PROFILES_DIR / f'{_slug(new_speaker)}.npy'
             already      = profile_path.exists()
 
@@ -378,7 +313,7 @@ def main() -> None:
                 print(f'         → corrections if needed + {action}')
 
             skip.add(ep_key)
-            sim_profiles.add(new_speaker)
+            sim_profiles.add(new_speaker.lower())
 
         # --- 2+-unknown episodes: correct known speakers, flag unknowns ---
         new_manual = [(k, t, u) for k, t, u in needs_manual if k not in corrections_done]
@@ -388,7 +323,7 @@ def main() -> None:
             for ep_key, transcript, unknowns in new_manual:
                 speakers = transcript.get('speakers', [])
                 ep_names = [s['name'] for s in speakers]
-                known    = [n for n in ep_names if n in sim_profiles]
+                known    = [n for n in ep_names if n.lower() in sim_profiles]
                 print(f'  ep {ep_key:>5}  {len(speakers)} spk: '
                       f'{", ".join(known)} confirmed | '
                       f'[{", ".join(unknowns)}] need manual verification')
@@ -423,7 +358,7 @@ def main() -> None:
         print()
 
     # Final manual verification list — episodes with 2+ unknowns that remain
-    final_profiles = set(_load_profiles()) if args.apply else sim_profiles
+    final_profiles = {n.lower() for n in _load_profiles()} if args.apply else sim_profiles
     manual_final: list[tuple[str, list[str]]] = []
     for ep_key, transcript in sorted(transcripts.items()):
         if ep_key in skip:
@@ -432,7 +367,7 @@ def main() -> None:
         if not speakers:
             continue
         ep_names = [s['name'] for s in speakers]
-        unknown  = [n for n in ep_names if n not in final_profiles]
+        unknown  = [n for n in ep_names if n.lower() not in final_profiles]
         if len(unknown) >= 2:
             manual_final.append((ep_key, unknown))
 

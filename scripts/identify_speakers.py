@@ -18,6 +18,10 @@ Dependencies:
 """
 import argparse, json, pathlib, sys, re
 import numpy as np
+from utils import slug as _slug, name_from_slug as _slug_to_name
+from voice_utils import (download_mp3 as _download_mp3, load_audio as _load_audio,
+                         load_profiles as _load_profiles_base, cosine as _cosine,
+                         embed_cluster as _embed_cluster)
 
 ROOT            = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON   = ROOT / 'data' / 'episodes.json'
@@ -30,89 +34,16 @@ MIN_SEG_SECS    = 1.0
 DEFAULT_THRESHOLD = 0.75
 
 
-def _slug_to_name(slug: str) -> str:
-    return slug.replace('-', ' ').title()
-
-
-def _load_profiles() -> dict[str, np.ndarray]:
-    """Return {speaker_name: embedding} for all stored profiles."""
-    profiles = {}
-    if not PROFILES_DIR.exists():
-        return profiles
-    for path in sorted(PROFILES_DIR.glob('*.npy')):
-        name = _slug_to_name(path.stem)
-        profiles[name] = np.load(path).astype(np.float32)
-    return profiles
-
-
-def _download_mp3(url: str, dest: pathlib.Path) -> None:
-    try:
-        import httpx as _http
-        client_cls = _http.Client
-        timeout = _http.Timeout(60, read=7200)
-    except ImportError:
-        import requests as _http  # type: ignore
-        client_cls = None
-        timeout = (60, 7200)
-
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    print(f'  Downloading {url} …')
-    if client_cls:
-        with client_cls(timeout=timeout) as client:
-            resp = client.get(url, follow_redirects=True)
-        resp.raise_for_status()
-        dest.write_bytes(resp.content)
-    else:
-        resp = _http.get(url, stream=True, timeout=timeout)
-        resp.raise_for_status()
-        with open(dest, 'wb') as f:
-            for chunk in resp.iter_content(65536):
-                f.write(chunk)
-    print(f'  Saved {dest.stat().st_size // 1_000_000} MB')
-
-
-def _load_audio(mp3_path: pathlib.Path) -> np.ndarray:
-    try:
-        import librosa
-    except ImportError:
-        sys.exit('librosa not found. Install resemblyzer: pip install resemblyzer')
-    audio, _ = librosa.load(str(mp3_path), sr=SAMPLING_RATE, mono=True)
-    return audio.astype(np.float32)
-
-
-def _embed_cluster(audio: np.ndarray, segs: list[dict]) -> np.ndarray | None:
-    """Return mean embedding for a speaker cluster (list of {start, end} dicts)."""
+def _get_encoder():
     try:
         from resemblyzer import VoiceEncoder, preprocess_wav
     except ImportError:
         sys.exit('resemblyzer not found. Install it: pip install resemblyzer')
-
-    encoder = VoiceEncoder()
-    segs = [s for s in segs if (s['end'] - s['start']) >= MIN_SEG_SECS]
-    if not segs:
-        return None
-
-    embeddings = []
-    for seg in segs:
-        start_i = int(seg['start'] * SAMPLING_RATE)
-        end_i   = int(seg['end']   * SAMPLING_RATE)
-        clip = audio[start_i:end_i]
-        if len(clip) < SAMPLING_RATE:
-            continue
-        try:
-            wav = preprocess_wav(clip, source_sr=SAMPLING_RATE)
-            embeddings.append(encoder.embed_utterance(wav))
-        except Exception:
-            pass
-
-    if not embeddings:
-        return None
-    emb = np.mean(embeddings, axis=0).astype(np.float32)
-    return emb / np.linalg.norm(emb)
+    return VoiceEncoder(), preprocess_wav
 
 
-def _cosine(a: np.ndarray, b: np.ndarray) -> float:
-    return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b)))
+def _load_profiles() -> dict[str, np.ndarray]:
+    return _load_profiles_base(PROFILES_DIR)
 
 
 def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
@@ -127,9 +58,14 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
     transcript = json.loads(transcript_path.read_text(encoding='utf-8'))
     speakers = transcript.get('speakers', [])
 
-    # Only use profiles for speakers who are actually in this episode
-    episode_names = {s['name'] for s in speakers}
-    profiles = {name: emb for name, emb in all_profiles.items() if name in episode_names}
+    # Only use profiles for speakers who are actually in this episode.
+    # Match case-insensitively; key on the transcript's version of the name.
+    ep_name_map = {s['name'].lower(): s['name'] for s in speakers}
+    profiles = {
+        ep_name_map[name.lower()]: emb
+        for name, emb in all_profiles.items()
+        if name.lower() in ep_name_map
+    }
 
     # Group segments by speaker ID (S1, S2, …)
     by_sid: dict[str, list[dict]] = {s['id']: [] for s in speakers}
@@ -150,6 +86,7 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
 
     print(f'  Loading audio …')
     audio = _load_audio(mp3_path)
+    encoder, preprocess_wav = _get_encoder()
 
     # Compute embeddings per cluster
     cluster_embs: dict[str, np.ndarray | None] = {}
@@ -157,7 +94,7 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
         sid = spk['id']
         segs = by_sid.get(sid, [])
         print(f'  Encoding {sid} ({spk["name"]}, {len(segs)} segments) …')
-        cluster_embs[sid] = _embed_cluster(audio, segs)
+        cluster_embs[sid] = _embed_cluster(audio, segs, encoder, preprocess_wav)
 
     # 1-to-1 assignment: compare every cluster against every episode profile,
     # then greedily assign best-matching pairs (highest sim first) so that each
@@ -184,19 +121,43 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
             assigned_sids.add(sid)
             assigned_names.add(name)
 
-    # Leftover assignment: if exactly one cluster has no profile match and exactly
-    # one episode name has no profile, assign by elimination.
-    unmatched_sids   = [s['id'] for s in speakers if s['id'] not in assigned_sids
-                        and cluster_embs.get(s['id']) is not None]
-    unmatched_names  = [s['name'] for s in speakers if s['name'] not in profiles]
-    if len(unmatched_sids) == 1 and len(unmatched_names) == 1:
-        assignments[unmatched_sids[0]] = (unmatched_names[0], float('nan'))
+    # Unified post-greedy resolution:
+    # A certain elimination requires ALL other speakers to be voice-confirmed —
+    # i.e. exactly 1 unresolved SID and exactly 1 unassigned cast name remain.
+    # Any other situation means at least one unverified original label is being
+    # relied on, which is not safe.  Displaced SIDs (whose label was claimed by a
+    # voice assignment) still get a forced rename to keep names unique, but those
+    # assignments are marked uncertain and never trigger a profile save.
+    assigned_names_set = {name for _, (name, _) in assignments.items()}
+    episode_cast       = {s['name'] for s in speakers}
+    unresolved_all     = [s for s in speakers
+                          if s['id'] not in assignments
+                          and cluster_embs.get(s['id']) is not None]
+    unassigned_all     = [n for n in episode_cast if n not in assigned_names_set]
+
+    uncertain_sids: set[str] = set()
+
+    if len(unresolved_all) == 1 and len(unassigned_all) == 1:
+        # All other speakers confirmed by voice — this last pairing is certain.
+        assignments[unresolved_all[0]['id']] = (unassigned_all[0], float('nan'))
+    elif unresolved_all:
+        # Multiple unknowns remain.  Only rename SIDs whose current label was
+        # already claimed by a voice assignment (prevents duplicate names);
+        # all such renames are uncertain — no profile is saved.
+        displaced    = [s for s in unresolved_all if s['name'] in assigned_names_set]
+        held_by_safe = {s['name'] for s in unresolved_all
+                        if s['name'] not in assigned_names_set}
+        available    = sorted(episode_cast - assigned_names_set - held_by_safe)
+        for spk, name in zip(displaced, available):
+            assignments[spk['id']] = (name, float('nan'))
+            uncertain_sids.add(spk['id'])
 
     print()
     print(f'  {"SID":<5} {"Current name":<20} {"Matched to":<20} {"Sim":>6}  {"Action"}')
     print(f'  {"-"*5} {"-"*20} {"-"*20} {"-"*6}  {"-"*20}')
 
     corrections: dict[str, str] = {}
+    elimination: dict[str, str] = {}  # sid -> name, assigned by certain elimination only
     for spk in speakers:
         sid = spk['id']
         current_name = spk['name']
@@ -213,36 +174,74 @@ def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
         matched_name, sim = assignments[sid]
         sim_str = f'{sim:>6.3f}' if sim == sim else '  —  '  # nan = by elimination
         by_elim = sim != sim
+        uncertain = sid in uncertain_sids
+
+        if by_elim and not uncertain:
+            elimination[sid] = matched_name
 
         if matched_name == current_name:
-            tag = '≡ by elimination' if by_elim else '✓ confirmed'
+            if uncertain:
+                tag = '≡ forced (uncertain, no profile)'
+            elif by_elim:
+                tag = '≡ by elimination'
+            else:
+                tag = '✓ confirmed'
             print(f'  {sid:<5} {current_name:<20} {matched_name:<20} {sim_str}  {tag}')
         else:
-            tag = '✎ rename (by elimination)' if by_elim else f'✎ rename → {matched_name}'
+            if uncertain:
+                tag = '✎ rename (forced, uncertain — no profile)'
+            elif by_elim:
+                tag = '✎ rename (by elimination)'
+            else:
+                tag = f'✎ rename → {matched_name}'
             print(f'  {sid:<5} {current_name:<20} {matched_name:<20} {sim_str}  {tag}')
             corrections[sid] = matched_name
 
-    if not corrections:
-        print('\n  No confident matches above threshold. No changes.')
+    # Determine which certain-elimination speakers need a profile built.
+    # Uncertain forced reassignments are excluded — their identity is not confirmed.
+    new_profiles: list[tuple[str, str]] = [
+        (sid, name) for sid, name in elimination.items()
+        if not (PROFILES_DIR / f'{_slug(name)}.npy').exists()
+    ]
+    if new_profiles and not apply:
+        names = ', '.join(name for _, name in new_profiles)
+        print(f'\n  Would also save voice profile(s) for: {names}')
+
+    if not corrections and not new_profiles:
+        print('\n  No corrections needed and all profiles already exist.')
         return
 
     if not apply:
-        print(f'\n  Dry-run: would apply {len(corrections)} correction(s) to '
+        changes = len(corrections)
+        print(f'\n  Dry-run: would apply {changes} correction(s) to '
               f'data/transcripts/{ep_key}.json')
         print('  Re-run with --apply to save.')
         return
 
-    # Apply corrections directly to the transcript file
-    for sid, new_name in corrections.items():
-        for spk in transcript.get('speakers', []):
-            if spk['id'] == sid:
-                spk['name'] = new_name
-                break
-    transcript_path.write_text(
-        json.dumps(transcript, ensure_ascii=False, indent=2),
-        encoding='utf-8',
-    )
-    print(f'\n  Applied {len(corrections)} correction(s) to {transcript_path.relative_to(ROOT)}')
+    # Apply name corrections to the transcript
+    if corrections:
+        for sid, new_name in corrections.items():
+            for spk in transcript.get('speakers', []):
+                if spk['id'] == sid:
+                    spk['name'] = new_name
+                    break
+        transcript_path.write_text(
+            json.dumps(transcript, ensure_ascii=False, indent=2),
+            encoding='utf-8',
+        )
+        print(f'\n  Applied {len(corrections)} correction(s) to '
+              f'{transcript_path.relative_to(ROOT)}')
+
+    # Save voice profiles for elimination-certain speakers
+    for sid, name in new_profiles:
+        emb = cluster_embs.get(sid)
+        if emb is None:
+            print(f'  No audio for {name} — profile skipped')
+            continue
+        PROFILES_DIR.mkdir(parents=True, exist_ok=True)
+        profile_path = PROFILES_DIR / f'{_slug(name)}.npy'
+        np.save(profile_path, emb)
+        print(f'  Saved voice profile → {profile_path.name}')
 
 
 def main() -> None:
