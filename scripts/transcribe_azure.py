@@ -185,11 +185,6 @@ def _azure_to_transcript(response_json, mapping, ep):
         'speakers': speakers,
         'segments': segments,
         'events': events,
-        'summary': {'tldr': '', 'points': []},
-        'chapters': [],
-        'highlights': [],
-        'mentions': [],
-        'bible': [],
     }
 
 

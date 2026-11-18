@@ -19,7 +19,8 @@ OUT_DIR = ROOT / 'site' / 'dist' / 'data'
 
 # Fields from analysis to include in per-episode site files
 _AN_FIELDS = {'summary_tldr', 'summary_points', 'chapters', 'highlights',
-              'bible_refs', 'themes', 'people', 'books', 'places', 'quotes'}
+              'bible_refs', 'themes', 'guests', 'people', 'books', 'places', 'quotes', 'keywords',
+              'similar'}
 
 # ---------------------------------------------------------------------------
 # Stop words — exact copy of the STOP set from index.template.html
@@ -141,7 +142,7 @@ def build_speaker_aggregate(transcripts, eps_by_key):
         spk_map = {s['id']: s for s in tr.get('speakers', [])}
         for s in tr.get('speakers', []):
             name = s['name']
-            role = s['role']
+            role = s.get('role', 'gast')
             if name not in by_name:
                 by_name[name] = {'name': name, 'role': role,
                                  'eps': 0, 'time': 0.0, 'words': 0, 'turns': 0,
@@ -209,6 +210,11 @@ def main():
         if an:
             entry['an'] = an
             n_analysis += 1
+            # Overlay LLM-extracted guests and themes onto the base episode fields
+            if an.get('guests'):
+                entry['g'] = an['guests']
+            if an.get('themes'):
+                entry['th'] = an['themes']
         path = ep_dir / f'{key}.json'
         path.write_text(json.dumps(entry, ensure_ascii=False, separators=(',', ':')),
                         encoding='utf-8')

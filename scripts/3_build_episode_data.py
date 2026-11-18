@@ -1,11 +1,9 @@
 import json, re, collections
 import pathlib; ROOT=pathlib.Path(__file__).resolve().parent.parent; D=ROOT/'data'/'intermediate'; OUTF=ROOT/'data'/'episodes.json'
 eps=json.load(open(D/'eps1.json'))
-REN={'NCTV Pieter-Jaap Aalbersberg':'Pieter-Jaap Aalbersberg','CDA-lijsttrekker Henri Bontenbal':'Henri Bontenbal','Koos-jan de Jager':'Koos-Jan de Jager'}
+# DROP: strings that regex guest-extraction mis-identifies as people (fallback for un-analyzed episodes)
 DROP={'de Nederlandse','Leo XIV','Charles III','Benedictus XVI','Adrianus VI'}
-SUBJ_EXTRA={'Leo XIV':'Paus Leo XIV','Charles III':'Koning Charles III','Benedictus XVI':'Paus Benedictus XVI','Adrianus VI':'Paus Adrianus VI'}
-MAN={216:["Tim 's Jongers"],79:['Hubert Smeets','Katya Tolstaya'],38:['Typhoon'],78:['Anonieme exorcist']}
-ADD={313:['Typhoon']}
+# Regex theme fallback — overridden by LLM themes for analyzed episodes (see 4_split_data.py)
 THEMES={
  'God & geloof':r'\bgod\b|geloof|gelovig|bidden|gebed|religie|religieus|spiritu',
  'Bijbel & Jezus':r'bijbel|jezus|evangeli|christus|bergrede|apostel|paulus',
@@ -38,16 +36,13 @@ def fmt(t):
 QUOTE=re.compile(r"[‘'“\"]([^‘’'“”\"]{40,220}?)[’'”\"]")
 out=[]
 for e in eps:
-    g=[REN.get(x,x) for x in e['g'] if x not in DROP]
-    subj=e['subj']+[v for k,v in SUBJ_EXTRA.items() if k in e['t']]
-    if e['n'] in MAN: g=MAN[e['n']]
-    g=g+[x for x in ADD.get(e['n'],[]) if x not in g]
+    g=[x for x in e['g'] if x not in DROP]
     txt=(e['t']+' '+e['desc']).lower()
     th=[k for k,r in THEMES.items() if re.search(r,txt)]
     # rank themes by hits, keep top 4
     th=sorted(th,key=lambda k:-len(re.findall(THEMES[k],txt)))[:4]
     qs=[q.strip() for q in QUOTE.findall(e['desc']) if len(q.split())>=6][:3]
-    out.append(dict(n=e['n'],t=e['t'],d=e['date'],s=e['secs'],x=e['desc'],r=e['rel'],id=e['npo'],sl=e['slug'],g=g,p=e['paas'],sj=sorted(set(subj)),th=th,f=fmt(e['title']),q=qs,mp3=e['mp3']))
+    out.append(dict(n=e['n'],t=e['t'],d=e['date'],s=e['secs'],x=e['desc'],r=e['rel'],id=e['npo'],sl=e['slug'],g=g,p=e['paas'],th=th,f=fmt(e['title']),q=qs,mp3=e['mp3']))
 # guest bios: sentence containing "<Name> is"
 bios={}
 for e in out:

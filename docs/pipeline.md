@@ -101,7 +101,7 @@ python scripts/analyze_episode.py --all-missing --model claude-sonnet-5-5 --forc
 | `highlights` | 3–6 notable moments: `{start_seconds, speaker, text, note}` |
 | `bible_refs` | Only actual citations: `{ref, note}` — never general Bible mentions |
 | `themes` | ≤4 theme labels from the fixed 18-theme list |
-| `people` | Discussed persons: `{name, note}` |
+| `people` | Discussed persons: `{name, note, start_seconds}` — enriched with `wiki_*` fields by stage 3b |
 | `books` | Named books with real discussion: `{title, author, note}` |
 | `places` | Relevant geographic places |
 | `quotes` | ≤3 verbatim quotes from the episode description |
@@ -109,6 +109,19 @@ python scripts/analyze_episode.py --all-missing --model claude-sonnet-5-5 --forc
 **Important:** `max_tokens=8000` is required. At 6000, the LLM output gets truncated and `chapters`/`summary_points` are silently dropped.
 
 **Current status:** 1 analysis (episode 327 only).
+
+## Stage 3b — Wikipedia enrichment (optional)
+
+```bash
+python scripts/8_enrich_people_wiki.py --all-missing
+python scripts/8_enrich_people_wiki.py --episode 327
+```
+
+**What it does:** For each person in `data/analysis/{key}.json`, searches nl.wikipedia.org (then en.wikipedia.org), runs one batched LLM call per episode to verify the best match against the episode context, then fetches the page URL and thumbnail. Writes `wiki_url`, `wiki_image`, `wiki_lang`, `wiki_pageid`, `wiki_checked` back into the analysis file.
+
+Re-running without `--force` only retries persons that have `wiki_pageid` but no `wiki_url` (prior pageinfo failures) — the LLM verification step is not repeated for already-checked people.
+
+No API key required for Wikipedia. Rate limit: 200 req/min; the script uses a 1 s delay and exponential backoff on 429 responses.
 
 ## Stage 4 — Build the site
 

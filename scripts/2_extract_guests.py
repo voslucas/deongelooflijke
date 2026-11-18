@@ -6,7 +6,7 @@ W=r"[A-ZÀ-ÖØ-ÞĲ][\w'’]+(?:-[A-Za-zÀ-ÖØ-Þ][\w]+)*"
 NAME=re.compile(rf"(?<![\w-])({W}(?:\s+(?:{P}\s+)*{W}){{1,3}})")
 LEAD={'Met','Vaderlands','Waarom','Hoe','Heeft','Defensie','Over','Dr','Dr.','Theoloog','Wat','Is','Kan','De','Het','Dank','Tot','Geloven','Bestaat','Wordt','Aanval','Verlosser','Topwetenschapper','Schrijver','Journalist','Filosoof','Historicus','Hoogleraar','Psychiater','Cabaretier','Theologe','Socioloog','Bisschop','Rabbijn','Imam','Dominee','Pastor','Ds','Prof','Prof.','Kardinaal','Pater','Zuster','Broeder','Live','Q&A','Een','Deze','Ook','Zo','Als','Nu','Toen','En','Of','Maar','Dat','Die','In','Op','Bij','Na','Voor','Van','Waar','Wie','RTL-Z','Oud-premier','Minister','Premier','Paus','Generaal','Burgemeester','Kamerlid'}
 BAD={'Nederland','Europa','God','Jezus','Bijbel','Trump','Amerika','Rusland','Oekraïne','Israël','Iran','China','Haag','Westen','Ongelooflijke','Best','Café','Tech','Wereldoorlog','Reset','Therapieland','Wereld','Russen','Bourgondiërs','Rotterdam','Europese','Midden-Oosten','Zwarte','Vinkjes','Correspondent','Vaticaan','Orbán','Hongarije','Poetin','Wilders','Islam','Kerk','Kerst','Pasen','Pinksteren','Geschiedenis','Oxford','Delft','JA21','AfD','Luther','Allah','Mohammed','Marx','Boeddha','Koran','Amsterdam','Vlaanderen','België','Duitsland','Frankrijk','Gaza','Palestina','Turkije','Afrika','Syrië','Elizabeth','Oranje','Aquino','Assisi','Franciscus','Biden','Musk','Peterson','Ellul','Nouwen','Kuyper','King','Holocaust','Bergrede','Romeinen','Grieken','Joden','Christus','Maria','Paulus','Mozes','Abraham','Petrus','Satan','Duivel','Hemel','Hel','Genesis','Openbaring','Kamer','Tweede','Eerste','The','Of','Ramadan','Sinterklaas','Nieuwe','Oude','Testament','Heilige',}
-SUBJECT_PAT=['Donald Trump','Joe Biden','Elon Musk','Jordan Peterson','Jacques Ellul','Henri Nouwen','Abraham Kuyper','Thomas van Aquino','Paus Franciscus','Franciscus van Assisi','Queen Elizabeth','Willem van Oranje','Martin Luther King','Poetin','Wilders','Orbán','Vladimir Poetin','Karl Marx','Dietrich Bonhoeffer','C.S. Lewis','Augustinus','Nietzsche','Calvijn','Maarten Luther','Erasmus','Spinoza','Kierkegaard','Dostojevski']
+NOT_GUESTS=['Donald Trump','Joe Biden','Elon Musk','Jordan Peterson','Jacques Ellul','Henri Nouwen','Abraham Kuyper','Thomas van Aquino','Paus Franciscus','Franciscus van Assisi','Queen Elizabeth','Willem van Oranje','Martin Luther King','Poetin','Wilders','Orbán','Vladimir Poetin','Karl Marx','Dietrich Bonhoeffer','C.S. Lewis','Augustinus','Nietzsche','Calvijn','Maarten Luther','Erasmus','Spinoza','Kierkegaard','Dostojevski']
 HOSTS={'David Boogerd'}
 def clean(n):
     toks=n.split()
@@ -15,7 +15,7 @@ def clean(n):
     n=re.sub(r"\s+van De Correspondent$","",n)
     if len(n.split())<2: return None
     if any(t.strip("'’") in BAD for t in n.split()): return None
-    if n in SUBJECT_PAT: return None
+    if n in NOT_GUESTS: return None
     if not re.match(r"^[A-ZÀ-ÖØ-Þ]",n.split()[-1]): return None
     return n
 def names_in(s):
@@ -36,7 +36,6 @@ for e in eps:
         e['gsrc']='desc'
     e['paas']= ('Stefan Paas' in txt) or ('Paas' in e['t'])
     if 'Stefan Paas' in e['g']: e['g'].remove('Stefan Paas')
-    e['subj']=[s for s in SUBJECT_PAT if s in txt]
 zero=[e for e in eps if not e['g']]
 print('zero',len(zero))
 for e in zero: print(e['n'],e['t'][:110],'|',names_in(e['desc'])[:6])

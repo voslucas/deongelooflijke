@@ -39,14 +39,14 @@ jobs:
             python scripts/transcribe_azure.py --episode "${{ inputs.episode }}"
           fi
 
-      - name: Enrich transcript with Claude
+      - name: Analyse episode with Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           if [ "${{ inputs.episode }}" = "all-missing" ]; then
-            python scripts/analyze.py --all-missing
+            python scripts/analyze_episode.py --all-missing
           else
-            python scripts/analyze.py --episode "${{ inputs.episode }}"
+            python scripts/analyze_episode.py --episode "${{ inputs.episode }}"
           fi
 
       - name: Create pull request
@@ -58,10 +58,11 @@ jobs:
             Automatisch gegenereerde transcriptie en analyse voor aflevering **${{ inputs.episode }}**.
 
             - Transcriptie: Microsoft MAI-Transcribe-2 (sprekers, segmenten, events)
-            - Analyse: Claude Opus (samenvatting, hoofdstukken, hoogtepunten, vermeldingen, Bijbelrefs)
+            - Analyse: Claude Haiku (thema's, personen, boeken, Bijbelrefs, samenvatting)
 
             Controleer de sprekertoewijzing in `data/speaker-corrections/` en pas eventueel aan voordat je merget.
           add-paths: |
             data/transcripts/
             data/speaker-corrections/
+            data/analysis/
           commit-message: 'feat: transcriptie aflevering ${{ inputs.episode }}'

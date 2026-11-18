@@ -116,6 +116,7 @@ mark{background:var(--mark);color:inherit;padding:0 1px;border-radius:2px}
 .side{display:grid;gap:22px;align-content:start}
 .panel{background:var(--parchment-2);border-radius:10px;padding:18px 20px}
 .panel h3{font-size:16px;margin-bottom:10px}
+a.wl:hover{text-decoration:underline;color:var(--violet)}
 dl.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font:14px/1.4 var(--ui)}
 dl.kv dt{color:var(--ink-muted)} dl.kv dd{margin:0;font-variant-numeric:tabular-nums}
 .cast{display:grid;gap:10px}
@@ -453,6 +454,42 @@ function epRow(e,terms=[]){
 }
 const personCard=p=>`<a class="person" href="#p-${p.k}">${personAvatar(p,44)}<span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
 
+function peoplePanel(people,e){
+  if(!people||!people.length)return '';
+  const rows=people.map((p,i)=>{
+    const hasImg=p.wiki_image;
+    const ini=initials(p.name);
+    const sep=i<people.length-1?'border-bottom:1px solid var(--rule);margin-bottom:10px;padding-bottom:10px':'';
+    const imgEl=hasImg
+      ?`<img src="${esc(p.wiki_image)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'" style="width:40px;height:40px;border-radius:999px;object-fit:cover;flex-shrink:0"><span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0;display:none">${esc(ini)}</span>`
+      :`<span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0">${esc(ini)}</span>`;
+    const nameEl=p.wiki_url
+      ?`<a href="${esc(p.wiki_url)}" target="_blank" rel="noopener" style="font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35;color:var(--ink);text-decoration:none" class="wl">${esc(p.name)}</a>`
+      :`<span style="font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35">${esc(p.name)}</span>`;
+    const noteEl=p.note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">${esc(p.note)}</div>`:'';
+    const tsbtn=p.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(p.start_seconds)}" style="margin-top:4px">${ts(p.start_seconds)}</button>`:'';
+    return `<div style="display:flex;gap:10px;${sep}">${imgEl}<div style="min-width:0">${nameEl}${noteEl}${tsbtn}</div></div>`;
+  });
+  return `<div class="panel"><h3>Besproken figuren</h3>${rows.join('')}</div>`;
+}
+function bookPanel(books){
+  if(!books||!books.length)return '';
+  const ICON='<svg width="14" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="opacity:.7"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+  const rows=books.map((b,i)=>{
+    const title=esc(b.canonical_title||b.title||'');
+    const author=esc(b.canonical_author||b.author||'');
+    const note=esc(b.note||'');
+    const thumb=(b.thumbnail||'').replace(/^http:/,'https:');
+    const sep=i<books.length-1?'border-bottom:1px solid var(--rule);margin-bottom:10px;padding-bottom:10px':'';
+    const cover=thumb
+      ?`<img src="${thumb}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:38px;border-radius:2px;flex-shrink:0;align-self:flex-start"><span style="display:none"></span>`
+      :`<div style="width:38px;height:52px;background:var(--gold);border-radius:2px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16">${ICON}</div>`;
+    const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="margin-top:4px">${ts(b.start_seconds)}</button>`:'';
+    return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${title}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}${tsbtn}</div></div>`;
+  });
+  return `<div class="panel"><h3>Besproken boeken</h3>${rows.join('')}</div>`;
+}
+
 // ---------- charts ----------
 function vbars(data,{h=200,fmt=v=>nl(v),cls='bar',line=null,lineFmt=null}={}){
   const W=560,pl=36,pr=line?40:8,pt=14,pb=26,iw=W-pl-pr,ih=h-pt-pb;
@@ -611,10 +648,10 @@ function anHTML(e,T){
   return `<div class="tiles"><div><b>${nl(words)}</b><span>woorden gesproken</span></div><div><b>${wpm}</b><span>woorden per minuut gemiddeld</span></div><div><b>${T.spk[0].questions}</b><span>vragen van David</span></div><div><b>${T.god}×</b><span>het woord ‘God’</span></div></div>
   <h2>Spreektijd</h2>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.share*100),href:'#p-'+slug(s.name)})),{fmt:v=>v+'%',max:100})}
   <h2>Spreektempo</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Woorden per minuut in deze aflevering.</p>${hbars(T.spk.map(s=>({l:s.name,v:s.wpm})),{cls:'v',max:200})}
-  <h2>Verloop van het gesprek</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 0">Spreekdichtheid door de aflevering: hoe hoger, hoe meer gesproken woorden per tijdsvenster. Verticale lijnen markeren hoofdstukken.</p>${energySVG(T)}
+  <h2>Verloop van het gesprek</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 0">Woorden per minuut door de aflevering (voortschrijdend gemiddelde). Verticale lijnen markeren hoofdstukken.</p>${energySVG(T)}
   <h2>Stopwoordjes</h2><div class="scroll"><table class="tics"><thead><tr><th></th>${T.spk.map(s=>`<th style="color:${s.c}">${esc(s.name.split(' ')[0])}</th>`).join('')}</tr></thead><tbody>${ticsUsed.map(t=>{const mx=Math.max(...T.spk.map(s=>s.tics[t]));return `<tr><td>‘${t}’</td>${T.spk.map(s=>`<td class="${s.tics[t]===mx&&mx>3?'hot':''}">${s.tics[t]||'·'}</td>`).join('')}</tr>`}).join('')}</tbody></table></div>
   <h2>Langste monoloog</h2><div class="mentions">${T.spk.filter(s=>s.longestSeg).map(s=>`<div>${tbtn(s.longestSeg.start)} ${spkName(s)} <span class="muted ui">${Math.max(1,Math.round(s.longest/60))} min aan één stuk</span></div>`).join('')}</div>
-  <h2>Woordenschat</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke woorden per 1.000 gesproken woorden. Hoger betekent gevarieerder taalgebruik.</p>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.ttr*1000)})),{max:500})}
+  <h2>Woordenschat</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke woorden van alle gesproken woorden. Hoger betekent gevarieerder taalgebruik.</p>${hbars(T.spk.map(s=>({l:s.name,v:Math.round(s.ttr*100)})),{fmt:v=>v+'%',max:100})}
   ${T.bible.length?`<h2>Bijbelverwijzingen</h2><div class="mentions">${T.bible.map(b=>`<div>${b.t>=0?tbtn(b.t)+' ':''}<button class="bref" type="button" data-ref="${esc(b.b)}">${esc(b.b)}</button></div>`).join('')}</div>`:''}
   ${T.ment.length?'<h2>Genoemd in dit gesprek</h2>'+CATS.map(([c,l])=>{const ms=T.ment.filter(m=>m.c===c);return ms.length?'<h3 class="label" style="margin:14px 0 8px">'+l+'</h3><div class="mentions">'+ms.map(m=>'<div>'+tbtn(m.hits[0].t)+' '+esc(m.n)+' <span class="muted ui">'+m.x+'× genoemd</span></div>').join('')+'</div>':''}).join(''):''}
   <h2>Ongelooflijke bingo</h2><p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Vaste ingrediënten van de show. Een gouden vakje viel in deze aflevering; klik op de tijd om het terug te horen.</p>
@@ -624,10 +661,11 @@ function anHTML(e,T){
 function buildTFromRaw(raw,e){
   const D=e.s;
   const idToName={};raw.speakers.forEach(s=>idToName[s.id]=s.name);
-  // Build spk[] with speaker colours by role
+  // Build spk[] with speaker colours by role (fall back to name-based role if role field absent)
   const spk=raw.speakers.map((s,i)=>{
-    let c;if(s.role==='Presentator')c=SPC.host;else if(s.role==='Vaste gast')c=SPC.paas;else c=SPC.g[raw.speakers.filter((x,j)=>j<i&&x.role==='Gast').length]||SPC.g[0];
-    return {name:s.name,role:s.role,c,time:0,share:0,wpm:0,words:0,turns:0,longest:0,longestSeg:null,ttr:0,tics:{},questions:0};
+    const role=s.role||(s.name==='David Boogerd'?'Presentator':s.name==='Stefan Paas'?'Vaste gast':'Gast');
+    let c;if(role==='Presentator')c=SPC.host;else if(role==='Vaste gast')c=SPC.paas;else c=SPC.g[raw.speakers.filter((x,j)=>j<i&&(x.role||( x.name==='David Boogerd'?'Presentator':x.name==='Stefan Paas'?'Vaste gast':'Gast'))==='Gast').length]||SPC.g[0];
+    return {name:s.name,role,c,time:0,share:0,wpm:0,words:0,turns:0,longest:0,longestSeg:null,ttr:0,tics:{},questions:0};
   });
   const spkById={};raw.speakers.forEach((s,i)=>spkById[s.id]=spk[i]);
   // Build segs[]
@@ -644,34 +682,35 @@ function buildTFromRaw(raw,e){
     s.turns=mine.length;
     s.wpm=s.time>0?Math.round(s.words/(s.time/60)):0;
     s.longestSeg=mine.length?[...mine].sort((a,b)=>b.dur-a.dur)[0]:null;s.longest=s.longestSeg?s.longestSeg.dur:0;
-    // TTR on first 1000 words
-    const all_w=mine.flatMap(x=>tok(x.t));const w1k=all_w.slice(0,1000);s.ttr=w1k.length>0?+(new Set(w1k).size/w1k.length).toFixed(2):0;
+    const all_w=mine.flatMap(x=>tok(x.t));s.ttr=all_w.length>0?+(new Set(all_w).size/all_w.length).toFixed(3):0;
     mine.forEach(x=>{TICS.forEach(t=>{const re=new RegExp('\\b'+t+'\\b','gi');s.tics[t]+=(x.t.match(re)||[]).length});if(/\?[''""’‘]?$/.test(x.t))s.questions++});
   });
   // Chapters
-  const chapters=raw.chapters.map((c,j)=>{
-    const next=raw.chapters[j+1];const end=next?next.start:D;
+  const chapters=(raw.chapters||[]).map((c,j)=>{
+    const next=(raw.chapters||[])[j+1];const end=next?next.start:D;
     const mine=segs.filter(x=>x.start>=c.start&&x.start<end);
     return {j,start:c.start,end,title:c.title,sum:c.summary||'',who:[...new Set(mine.map(x=>x.sp))]};
   });
-  const _hasChapters=raw.chapters.length>0;
+  const _hasChapters=(raw.chapters||[]).length>0;
   if(!chapters.length)chapters.push({j:0,start:0,end:D,title:e.t,sum:'',who:[...new Set(segs.map(x=>x.sp))]});
   const laughs=[];const interrupts=0;
-  // Energy: speech density — fraction of each 1/80th window occupied by speech
-  const energy=[...Array(80)].map((_,i)=>{const t0=i/79*D,t1=(i+1)/79*D;const on=segs.filter(x=>x.end>t0&&x.start<t1).reduce((a,x)=>a+Math.min(x.end,t1)-Math.max(x.start,t0),0)/(t1-t0||1);return Math.min(1,Math.max(0.05,on))});
+  // Energy: rolling WPM — words per minute in a sliding window centred on each of 80 time points
+  const WIN=Math.max(60,D/20);
+  const rawE=[...Array(80)].map((_,i)=>{const tc=i/79*D,t0=Math.max(0,tc-WIN),t1=Math.min(D,tc+WIN);const w=segs.reduce((a,x)=>{const ov=Math.min(x.end,t1)-Math.max(x.start,t0);return ov>0?a+x.t.split(/\s+/).length*(ov/(x.end-x.start||1)):a},0);return w/((t1-t0)/60||1)});
+  const maxE=Math.max(...rawE)||1;const energy=rawE.map(v=>Math.min(1,Math.max(0.02,v/maxE)));
   // Summary
   const tldr=raw.summary?.tldr||segs.slice(0,2).map(x=>x.t).join(' ');
   const points=raw.summary?.points||[];
   // Highlights
-  const hls=raw.highlights.map(h=>({t:h.t,kind:h.kind,html:`‘${esc(h.text)}’`,who:spkById[h.speaker]||null}));
+  const hls=(raw.highlights||[]).map(h=>({t:h.t,kind:h.kind,html:`’${esc(h.text)}’`,who:spkById[h.speaker]||null}));
   const mono=[...segs].sort((a,b)=>b.dur-a.dur)[0];if(mono)hls.push({t:mono.start,kind:'Langste monoloog',html:`${esc(mono.sp.name)} aan het woord, ${Math.max(1,Math.round(mono.dur/60))} minuten zonder onderbreking.`,who:mono.sp});
   hls.sort((a,b)=>a.t-b.t);
   // Bible
-  const bible=raw.bible.map(b=>({b:b.ref,t:b.t!=null?b.t:-1})).sort((a,b)=>a.t<0?1:b.t<0?-1:a.t-b.t);
+  const bible=(raw.bible||[]).map(b=>({b:b.ref,t:b.t!=null?b.t:-1})).sort((a,b)=>a.t<0?1:b.t<0?-1:a.t-b.t);
   // God count
   const godRe=/\bgod\b/gi;const god=segs.reduce((a,x)=>a+(x.t.match(godRe)||[]).length,0);
   // Mentions
-  const mentMap={};raw.mentions.forEach(m=>{const k=norm(m.name);if(!mentMap[k])mentMap[k]={n:m.name,c:m.type,x:0,hits:[],real:true};mentMap[k].x++;mentMap[k].hits.push({t:m.t,sp:spkById[m.speaker]||spk[0]})});
+  const mentMap={};(raw.mentions||[]).forEach(m=>{const k=norm(m.name);if(!mentMap[k])mentMap[k]={n:m.name,c:m.type,x:0,hits:[],real:true};mentMap[k].x++;mentMap[k].hits.push({t:m.t,sp:spkById[m.speaker]||spk[0]})});
   const ment=Object.values(mentMap).sort((a,b)=>b.x-a.x);
   // Bingo
   const allText=segs.map(x=>x.t).join(' ');
@@ -693,6 +732,7 @@ async function fetchTranscript(e){
       if(an.chapters?.length)raw.chapters=an.chapters.map(c=>({start:c.start_seconds,title:c.title,summary:c.summary||''}));
       if(an.highlights?.length){const ni={};raw.speakers.forEach(s=>ni[s.name]=s.id);raw.highlights=an.highlights.map(h=>({t:h.start_seconds,kind:h.note||'Hoogtepunt',speaker:ni[h.speaker]||raw.speakers[0]?.id||'S1',text:h.text}));}
       if(an.bible_refs?.length)raw.bible=an.bible_refs.map(b=>({ref:b.ref,t:-1}));
+      if(an.keywords?.length)e.kw=an.keywords;
       raw._hasAnalysis=true;
     }
     TX[k]=buildTFromRaw(raw,e);
@@ -935,7 +975,9 @@ async function viewEpisode(e){
   e.g.forEach(g=>{const p=P[slug(g)];if(!p)return;const i=p.eps.indexOf(e);if(p.eps.length>1)trivia.push(`${i===0?'Eerste':(i+1)+'e'} van ${p.eps.length} optredens van ${g}.`);if(i>0){const days=Math.round((Date.parse(e.d)-Date.parse(p.eps[i-1].d))/864e5);trivia.push(`${g} was ${days} dagen eerder te gast in <a href="${p.eps[i-1].hash}">#${p.eps[i-1].n}</a>.`)}});
   if(!e.p&&e.f==='Gesprek')trivia.push('Een van de zeldzame afleveringen zonder Stefan Paas.');}
   const rel=(e.r||[]).map(n=>byNum[n]).filter(Boolean);
-  const sim=similar(e,6).filter(([o])=>!rel.includes(o)).slice(0,5);
+  let sim,simIsLlm=false;
+  if(e.an?.similar?.length){sim=e.an.similar.map(s=>byNum[s.n]).filter(Boolean);simIsLlm=true;}
+  else{sim=similar(e,6).filter(([o])=>!rel.includes(o)).slice(0,5).map(([o])=>o);}
   const idx=REG.indexOf(e),newer=REG[idx-1],older=REG[idx+1];
   const cast=[{name:'David Boogerd',role:'Presentator'}].concat(e.p?[{name:'Stefan Paas',role:'Vaste gast'}]:[]).concat(e.g.map(g=>({name:g,role:'Gast'})));
   app.innerHTML=`<div class="crumb"><a href="#zoeken">Afleveringen</a> / ${e.n!=null?'#'+e.n:esc(e.f)}</div>
@@ -944,14 +986,15 @@ async function viewEpisode(e){
   <div class="actions">${e.npoUrl?`<a class="btn solid" href="${e.npoUrl}" target="_blank" rel="noopener">Luister op NPO Radio 1</a>`:''}${e.mp3?`<a class="btn" href="${esc(e.mp3)}" target="_blank" rel="noopener">MP3</a>`:''}</div>
   ${txBlock(e,T)}
   ${rel.length?`<h2 style="margin:32px 0 6px">Door de makers aangeraden</h2><div class="eps">${rel.map(o=>epRow(o)).join('')}</div>`:''}
-  <h2 style="margin:32px 0 6px">Lijkt op deze aflevering</h2><p class="ui muted" style="font-size:14px;margin:0">Op basis van overeenkomende woorden in titel en omschrijving.</p><div class="eps">${sim.map(([o])=>epRow(o)).join('')}</div>
+  <h2 style="margin:32px 0 6px">Lijkt op deze aflevering</h2>${simIsLlm?'':'<p class="ui muted" style="font-size:14px;margin:0">Op basis van overeenkomende woorden in titel en omschrijving.</p>'}<div class="eps">${sim.map(o=>epRow(o)).join('')}</div>
   <div class="prevnext">${older?`<a href="${older.hash}">← ${older.n!=null?'#'+older.n:''} ${esc(older.t.slice(0,60))}${older.t.length>60?'…':''}</a>`:'<span></span>'}${newer?`<a href="${newer.hash}">${newer.n!=null?'#'+newer.n:''} ${esc(newer.t.slice(0,60))}${newer.t.length>60?'…':''} →</a>`:''}</div>
   </article><aside class="side">
   <div class="panel"><h3>Aan tafel</h3><div class="cast">${cast.map(c=>personCard(P[slug(c.name)]||{name:c.name,k:slug(c.name),role:c.role,eps:[]}).replace(/<span>(Gast|Presentator|Vaste gast) · /,`<span>${c.role} · `)).join('')}</div></div>
-  <div class="panel"><h3>Gegevens</h3><dl class="kv"><dt>Nummer</dt><dd>${e.n!=null?e.n:'—'}</dd><dt>Datum</dt><dd>${fdate(e.d)}</dd><dt>Dag</dt><dd>${DAYS[new Date(e.d).getDay()]}</dd><dt>Duur</dt><dd>${fdur(e.s)}</dd><dt>Vorm</dt><dd>${esc(e.f)}</dd><dt>Woorden</dt><dd>${nl((e.x||e.xs||'').split(/\s+/).length)} in de omschrijving</dd></dl></div>
+  <div class="panel"><h3>Gegevens</h3><dl class="kv"><dt>Nummer</dt><dd>${e.n!=null?e.n:'—'}</dd><dt>Datum</dt><dd>${fdate(e.d)}</dd><dt>Dag</dt><dd>${DAYS[new Date(e.d).getDay()]}</dd><dt>Duur</dt><dd>${fdur(e.s)}</dd><dt>Vorm</dt><dd>${esc(e.f)}</dd></dl></div>
   ${e.th.length?`<div class="panel"><h3>Thema's</h3><div class="chips" style="margin:0">${e.th.map(t=>`<a class="chip" href="#t-${slug(t)}">${esc(t)}</a>`).join('')}</div></div>`:''}
-  <div class="panel"><h3>Sleutelwoorden</h3><div class="chips" style="margin:0">${e.kw.map(w=>`<a class="chip" href="#zoeken" data-q="${esc(w)}">${esc(w)}</a>`).join('')}</div></div>
-  ${e.sj.length?`<div class="panel"><h3>Besproken figuren</h3><p class="ui" style="font-size:14px;margin:0">${e.sj.map(esc).join(', ')}</p></div>`:''}
+  ${e.kw?.length?`<div class="panel"><h3>Sleutelwoorden</h3><p class="ui" style="font-size:14px;margin:0">${e.kw.map(w=>`<span style="cursor:default">${esc(w)}</span>`).join(', ')}</p></div>`:''}
+  ${peoplePanel(e.an?.people,e)}
+  ${bookPanel(e.an?.books)}
   ${trivia.length?`<div class="panel"><h3>Wist je dat</h3><ul class="trivia">${trivia.map(t=>`<li>${t}</li>`).join('')}</ul></div>`:''}
   </aside></div>`;
   mountTx(e,T);

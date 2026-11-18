@@ -1,7 +1,7 @@
 """Build the app shell: inline a lightweight episode index + logos -> site/dist/index.html.
 
 The inline index contains only the fields needed for search and listing:
-  n t d s g p sj th f kw xs
+  n t d s g p th f kw xs
 Heavy fields (x r id sl q mp3) are absent; they are fetched on demand from
 site/dist/data/episodes/{key}.json when the user opens an episode detail view.
 
@@ -18,7 +18,7 @@ TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
 ANALYSIS_DIR = ROOT / 'data' / 'analysis'
 
 # Fields that go into the lightweight inline index (no heavy detail fields)
-LIGHT_FIELDS = {'n', 't', 'd', 's', 'g', 'p', 'sj', 'th', 'f', 'kw', 'xs', 'q', 'r'}
+LIGHT_FIELDS = {'n', 't', 'd', 's', 'g', 'p', 'th', 'f', 'kw', 'xs', 'q', 'r'}
 
 # Fields to strip from the per-episode files when building the inline index
 HEAVY_FIELDS = {'x', 'r', 'id', 'sl', 'q', 'mp3'}
@@ -170,7 +170,7 @@ def load_persons_data(root: pathlib.Path) -> dict:
             continue
         has_img = any(
             (img_dir / f'{k}{ext}').exists()
-            for ext in ('.jpg', '.jpeg', '.png', '.webp')
+            for ext in ('.jpg', '.jpeg', '.jfif', '.png', '.webp')
         )
         entry: dict = {}
         if obj.get('socials'):
@@ -225,8 +225,11 @@ def main():
         img_dst.mkdir(parents=True, exist_ok=True)
         n_imgs = 0
         for f in img_src.iterdir():
-            if f.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp'):
-                shutil.copy2(f, img_dst / f.name)
+            ext = f.suffix.lower()
+            if ext in ('.jpg', '.jpeg', '.jfif', '.png', '.webp'):
+                # JFIF is JPEG — rename to .jpg so the site's hard-coded URL resolves
+                dst_name = f.stem + '.jpg' if ext == '.jfif' else f.name
+                shutil.copy2(f, img_dst / dst_name)
                 n_imgs += 1
         if n_imgs:
             print(f'  copied {n_imgs} person image(s) to site/dist/data/persons/images/')
