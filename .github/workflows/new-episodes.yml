@@ -1,0 +1,132 @@
+name: Dagelijkse aflevering check
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # Elke dag om 07:00 UTC (09:00 Amsterdam)
+  workflow_dispatch:        # Handmatig starten via GitHub Actions UI
+
+permissions:
+  contents: write           # Nodig voor git push na verwerking
+
+jobs:
+  check-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      # resemblyzer trekt torch/librosa/scipy binnen; cachen scheelt ~2-3 min per dag
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download laatste feed
+        run: |
+          mkdir -p data/raw
+          curl -sSf --max-time 30 \
+            -H 'User-Agent: Mozilla/5.0 (compatible; OngelooflijkArchief/bot)' \
+            -o data/raw/feed.xml \
+            'https://www.omnycontent.com/d/playlist/f1f7a7c5-9bdf-4d4c-b049-ab9200efe28a/feed.rss'
+
+      # Vergelijk data/feed/ vóór en na het parsen om nieuwe nummers te vinden
+      - name: Detecteer nieuwe afleveringen
+        id: detect
+        run: |
+          python - <<'PY'
+          import os, pathlib, subprocess, sys
+
+          feed_dir = pathlib.Path('data/feed')
+          known = {f.stem for f in feed_dir.glob('[0-9]*.json') if f.stem.isdigit()}
+
+          subprocess.run(
+              [sys.executable, 'scripts/1_parse_feed.py', 'data/raw/feed.xml'],
+              check=True,
+          )
+
+          now = {f.stem for f in feed_dir.glob('[0-9]*.json') if f.stem.isdigit()}
+          new = sorted(now - known, key=int)
+
+          out_file = os.environ['GITHUB_OUTPUT']
+          with open(out_file, 'a') as fh:
+              fh.write(f"new_episodes={','.join(new)}\n")
+              fh.write(f"has_new={'true' if new else 'false'}\n")
+
+          if new:
+              print(f"Nieuwe afleveringen gevonden: {new}")
+          else:
+              print("Geen nieuwe afleveringen.")
+          PY
+
+      # Stap 2+3: gasten extraheren en episode-data opbouwen (alleen bij nieuwe afleveringen)
+      - name: Bouw episode-data
+        if: steps.detect.outputs.has_new == 'true'
+        run: |
+          python scripts/2_extract_guests.py
+          python scripts/3_build_episode_data.py
+
+      # Verwerk elke nieuwe aflevering: transcriberen → sprekers → analyse → Wikipedia
+      - name: Verwerk nieuwe afleveringen
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_ENDPOINT: ${{ secrets.AZURE_SPEECH_ENDPOINT }}
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          for EP in $(echo "${{ steps.detect.outputs.new_episodes }}" | tr ',' ' '); do
+            echo "──────────────────────────────────────"
+            echo "Verwerking aflevering $EP"
+            echo "──────────────────────────────────────"
+
+            echo "→ Transcriberen (Azure MAI-Transcribe-2)…"
+            python scripts/transcribe_azure.py --episode "$EP"
+
+            echo "→ Sprekeridentificatie (Resemblyzer)…"
+            # continue-on-error: sprekers worden S1/S2/… als er geen profielen zijn
+            python scripts/identify_speakers.py --episode "$EP" --apply || \
+              echo "  Sprekeridentificatie overgeslagen (geen profiel of fout)"
+
+            echo "→ Analyse (Claude)…"
+            python scripts/analyze_episode.py --episode "$EP"
+
+            echo "→ Wikipedia-verrijking…"
+            python scripts/8_enrich_people_wiki.py --episode "$EP"
+          done
+
+      # Script 4: per-episode bestanden aanmaken voor de site
+      - name: Splits data voor de site
+        if: steps.detect.outputs.has_new == 'true'
+        run: python scripts/4_split_data.py
+
+      # Commit alle gewijzigde databestanden; de push triggert automatisch build.yml
+      - name: Commit en push
+        if: steps.detect.outputs.has_new == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/raw/feed.xml \
+            data/feed/ \
+            data/intermediate/ \
+            data/transcripts/ \
+            data/analysis/ \
+            data/episodes.json \
+            site/dist/data/
+
+          git diff --staged --quiet && echo "Niets te committen." && exit 0
+
+          git commit -m "feat: nieuwe aflevering(en) ${{ steps.detect.outputs.new_episodes }}
+
+          Automatisch verwerkt door de dagelijkse pipeline:
+          - Transcriptie via Azure MAI-Transcribe-2
+          - Sprekeridentificatie via Resemblyzer
+          - Analyse via Claude
+          - Wikipedia-verrijking
+
+          Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+
+          git push

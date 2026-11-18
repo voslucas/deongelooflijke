@@ -133,6 +133,39 @@ REGELS:
 """
 
 
+def _fix_control_chars(text: str) -> str:
+    """Escape unescaped control characters inside JSON string literals."""
+    result = []
+    in_string = False
+    escape = False
+    for ch in text:
+        if escape:
+            result.append(ch)
+            escape = False
+            continue
+        if ch == '\\':
+            result.append(ch)
+            if in_string:
+                escape = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            result.append(ch)
+            continue
+        if in_string and ord(ch) < 0x20:
+            if ch == '\n':
+                result.append('\\n')
+            elif ch == '\r':
+                result.append('\\r')
+            elif ch == '\t':
+                result.append('\\t')
+            else:
+                result.append(f'\\u{ord(ch):04x}')
+        else:
+            result.append(ch)
+    return ''.join(result)
+
+
 def _parse_json_response(text: str) -> dict:
     """Strip markdown fences, fix trailing commas, and parse JSON."""
     text = text.strip()
@@ -140,6 +173,8 @@ def _parse_json_response(text: str) -> dict:
     m = re.search(r'```(?:json)?\s*([\s\S]+?)\s*```', text)
     if m:
         text = m.group(1).strip()
+    # Escape unescaped control characters inside string literals
+    text = _fix_control_chars(text)
     # Remove trailing commas before ] or }
     text = re.sub(r',\s*([\]}])', r'\1', text)
     # If JSON appears cut off (unterminated), try to close open arrays/objects
