@@ -1,21 +1,22 @@
 """Enrich people in analysis files with Wikipedia data.
 
 For each person in `data/analysis/{n}.json`, this script:
-1. Searches nl.wikipedia.org (then en.wikipedia.org) for a matching article.
-2. Calls Claude to verify the top candidates against the episode context.
-3. Fetches the confirmed article's URL and thumbnail image.
-4. Writes wiki_url, wiki_image, wiki_lang, wiki_checked back into the analysis file.
+1. Searches via the Wikimedia Core REST API (api.wikimedia.org) — nl first, then en.
+   Each search result already includes the thumbnail, so no separate pageinfo call is needed.
+2. Calls Claude (Haiku) once per episode batch to verify the best match against context.
+3. Writes wiki_url, wiki_image, wiki_lang, wiki_pageid, wiki_checked into the analysis file.
 
 Usage:
     python scripts/8_enrich_people_wiki.py --episode 327
-    python scripts/8_enrich_people_wiki.py --all-missing          # episodes with people but no wiki_checked
-    python scripts/8_enrich_people_wiki.py --all-missing --force  # re-check everything
+    python scripts/8_enrich_people_wiki.py --all-missing
+    python scripts/8_enrich_people_wiki.py --all-missing --force
 
 Requires:
     pip install anthropic
-    ANTHROPIC_API_KEY env var (or ant auth login profile)
+    ANTHROPIC_API_KEY env var (or .env file)
 
-Wikipedia API: free, no API key required.
+Wikipedia: free, no API key required. Uses api.wikimedia.org/core/v1 (the app-tier REST API)
+which has generous rate limits and returns thumbnails inline with search results.
 """
 import argparse, json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 import pathlib
@@ -26,27 +27,26 @@ DIR_ANALYSIS = ROOT / 'data' / 'analysis'
 
 DEFAULT_MODEL = 'claude-haiku-5-5'
 
+# Wikimedia Core REST API — designed for applications, not the action API
+_BASE = 'https://api.wikimedia.org/core/v1/wikipedia'
+
+# User-Agent is required; format: AppName/version (contact)
 _HEADERS = {
-    'User-Agent': 'OngelooflijkArchief/1.0 podcast-archief-tool',
+    'User-Agent': 'OngelooflijkArchief/1.0 (podcast-archief)',
     'Accept': 'application/json',
 }
 
-WIKI_LANGS = ['nl', 'en']
-SEARCH_LIMIT = 4   # candidates per language
-THUMB_SIZE   = 100  # px
-WIKI_DELAY   = 1.0  # seconds between Wikipedia requests (200 req/min limit for bots)
+WIKI_LANGS   = ['nl', 'en']
+SEARCH_LIMIT = 5    # candidates per language
+WIKI_DELAY   = 0.5  # seconds between requests (REST API has generous limits)
 
 
 # ---------------------------------------------------------------------------
-# Wikipedia helpers
+# Wikimedia Core REST API helpers
 # ---------------------------------------------------------------------------
-
-def _strip_html(text: str) -> str:
-    return re.sub(r'<[^>]+>', '', text).strip()
-
 
 def _wiki_get(url: str, retries: int = 4) -> dict:
-    """GET a Wikipedia API URL with exponential backoff on 429."""
+    """GET with exponential backoff on 429 (2→4→8→16 s)."""
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=_HEADERS)
@@ -54,8 +54,8 @@ def _wiki_get(url: str, retries: int = 4) -> dict:
                 return json.loads(r.read().decode('utf-8'))
         except urllib.error.HTTPError as exc:
             if exc.code == 429 and attempt < retries - 1:
-                wait = 2 ** (attempt + 1)  # 2, 4, 8, 16 s
-                print(f'      Wikipedia 429 — waiting {wait}s …')
+                wait = 2 ** (attempt + 1)
+                print(f'      429 — waiting {wait}s …')
                 time.sleep(wait)
             else:
                 raise
@@ -63,55 +63,41 @@ def _wiki_get(url: str, retries: int = 4) -> dict:
 
 
 def wiki_search(name: str, lang: str = 'nl') -> list[dict]:
-    """Return up to SEARCH_LIMIT Wikipedia search hits for `name`."""
-    params = {
-        'action': 'query',
-        'list': 'search',
-        'srsearch': name,
-        'srlimit': str(SEARCH_LIMIT),
-        'srnamespace': '0',
-        'format': 'json',
-    }
-    url = f'https://{lang}.wikipedia.org/w/api.php?' + urllib.parse.urlencode(params)
+    """Search Wikipedia via the Core REST API.
+
+    Returns candidates as {title, key, pageid, snippet, thumbnail_url, lang}.
+    The thumbnail is already included — no separate pageinfo call needed.
+    """
+    params = urllib.parse.urlencode({'q': name, 'limit': str(SEARCH_LIMIT)})
+    url = f'{_BASE}/{lang}/search/page?{params}'
     try:
         data = _wiki_get(url)
-        results = data.get('query', {}).get('search', [])
-        return [
-            {
-                'title': item['title'],
-                'pageid': item['pageid'],
-                'snippet': _strip_html(item.get('snippet', '')),
-                'lang': lang,
-            }
-            for item in results
-        ]
+        results = []
+        for page in data.get('pages', []):
+            thumb = page.get('thumbnail') or {}
+            # thumbnail.url is protocol-relative (//upload.wikimedia.org/…)
+            img = thumb.get('url', '')
+            if img.startswith('//'):
+                img = 'https:' + img
+            # Bump thumbnail to 240px (pattern: /Npx-filename → /240px-filename)
+            img = re.sub(r'/\d+px-', '/240px-', img).split('?')[0]
+            results.append({
+                'title':         page.get('title', ''),
+                'key':           page.get('key', ''),
+                'pageid':        page.get('id'),
+                'snippet':       re.sub(r'<[^>]+>', '', page.get('excerpt', '')).strip(),
+                'thumbnail_url': img,
+                'lang':          lang,
+            })
+        return results
     except Exception as exc:
         print(f'      wiki_search failed ({lang} "{name}"): {exc}')
         return []
 
 
-def wiki_pageinfo(pageid: int, lang: str = 'nl') -> dict:
-    """Return {url, image} for a Wikipedia page id."""
-    params = {
-        'action': 'query',
-        'prop': 'pageimages|info',
-        'pageids': str(pageid),
-        'pithumbsize': str(THUMB_SIZE),
-        'inprop': 'url',
-        'format': 'json',
-    }
-    url = f'https://{lang}.wikipedia.org/w/api.php?' + urllib.parse.urlencode(params)
-    try:
-        data = _wiki_get(url)
-        pages = data.get('query', {}).get('pages', {})
-        page = next(iter(pages.values()), {})
-        return {
-            'url':   page.get('fullurl', ''),
-            'image': (page.get('thumbnail') or {}).get('source', ''),
-        }
-    except Exception as exc:
-        print(f'      wiki_pageinfo failed (pageid={pageid}, {lang}): {exc}')
-        return {}
+def wiki_page_url(key: str, lang: str = 'nl') -> str:
+    """Construct the canonical Wikipedia page URL from a key."""
+    return f'https://{lang}.wikipedia.org/wiki/{urllib.parse.quote(key, safe=":/")}'
 
 
 # ---------------------------------------------------------------------------
@@ -163,29 +149,13 @@ def _verify_people(client, model: str, people_candidates: list[dict],
         result = _parse_json_response(raw)
         return result if isinstance(result, list) else []
     except Exception as exc:
-        print(f'    People wiki verification LLM call failed: {exc}')
+        print(f'    LLM verification failed: {exc}')
         return []
 
 
 # ---------------------------------------------------------------------------
 # Main enrichment logic
 # ---------------------------------------------------------------------------
-
-def _fetch_pageinfo_for_person(p_obj: dict) -> bool:
-    """Retry wiki_pageinfo for a person that has wiki_pageid but no wiki_url.
-    Returns True if the URL was filled in."""
-    pageid = p_obj.get('wiki_pageid')
-    lang   = p_obj.get('wiki_lang', 'nl')
-    if not pageid:
-        return False
-    info = wiki_pageinfo(int(pageid), lang)
-    if info.get('url'):
-        p_obj['wiki_url'] = info['url']
-        if info.get('image'):
-            p_obj['wiki_image'] = info['image']
-        return True
-    return False
-
 
 def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
     """Enrich people for one episode. Returns True if the file was updated."""
@@ -198,26 +168,39 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
     if not people:
         return False
 
-    # Phase 1: retry pageinfo for people already matched but missing wiki_url
-    pageinfo_retried = 0
+    # Build a name → person-object map for in-place updates
+    name_to_person = {p['name']: p for p in people}
+
+    # Phase 1: re-resolve any person that has wiki_pageid+wiki_lang but no wiki_url
+    # (prior run stored the match but the pageinfo call failed — now we derive the
+    #  URL directly from the key, so we don't need an extra API call at all)
+    pageinfo_fixed = 0
     for p_obj in people:
-        if p_obj.get('wiki_pageid') and not p_obj.get('wiki_url'):
+        if p_obj.get('wiki_pageid') and p_obj.get('wiki_lang') and not p_obj.get('wiki_url'):
+            # We stored pageid but not the page key; fall back to a quick search
+            # to get the key, then construct the URL
+            lang = p_obj['wiki_lang']
             name = p_obj['name']
-            if _fetch_pageinfo_for_person(p_obj):
-                pageinfo_retried += 1
-                print(f'      ✓ {name} (retry) → {p_obj["wiki_url"]}')
+            hits = wiki_search(name, lang)
+            match = next((h for h in hits if h['pageid'] == p_obj['wiki_pageid']), None)
+            if match:
+                p_obj['wiki_url'] = wiki_page_url(match['key'], lang)
+                if match['thumbnail_url'] and not p_obj.get('wiki_image'):
+                    p_obj['wiki_image'] = match['thumbnail_url']
+                pageinfo_fixed += 1
+                print(f'      ✓ {name} (resolved) → {p_obj["wiki_url"]}')
             else:
-                print(f'      ~ {name} (retry): still no page URL')
+                print(f'      ~ {name}: pageid {p_obj["wiki_pageid"]} not in top results')
             time.sleep(WIKI_DELAY)
 
     # Phase 2: LLM verification for people not yet checked
     to_check = people if force else [p for p in people if not p.get('wiki_checked')]
     if not to_check:
-        if pageinfo_retried:
+        if pageinfo_fixed:
             analysis_path.write_text(
                 json.dumps(analysis, ensure_ascii=False, indent=2), encoding='utf-8')
-            print(f'    Saved  ({pageinfo_retried} pageinfo retries)')
-        return bool(pageinfo_retried)
+            print(f'    Saved  ({pageinfo_fixed} resolved)')
+        return bool(pageinfo_fixed)
 
     # Load episode context
     feed_path = DIR_FEED / f'{key}.json'
@@ -225,32 +208,32 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
     episode_context = (
         f"#{feed.get('n', key)}: {feed.get('t', '')}\n"
         f"{(feed.get('desc') or '')[:300]}\n\n"
-        + '\n'.join(
-            f"- {p['name']}: {p.get('note', '')}"
-            for p in to_check
-        )
+        + '\n'.join(f"- {p['name']}: {p.get('note', '')}" for p in to_check)
     )
 
-    # Search Wikipedia for each person (1 req/s to stay within rate limit)
+    # Search Wikipedia for each person — thumbnail already included in results
     people_candidates = []
     for person in to_check:
-        name = person['name']
         candidates = []
         for lang in WIKI_LANGS:
-            hits = wiki_search(name, lang)
+            hits = wiki_search(person['name'], lang)
             candidates.extend(hits)
             time.sleep(WIKI_DELAY)
         people_candidates.append({
-            'person': {'name': name, 'note': person.get('note', '')},
-            'candidates': candidates[:6],
+            'person': {'name': person['name'], 'note': person.get('note', '')},
+            'candidates': candidates[:8],
         })
 
-    # LLM verification (one call for the whole batch)
+    # LLM verification — one call for the whole batch
     print(f'    Verifying {len(to_check)} person(s) …')
     matches = _verify_people(client, model, people_candidates, episode_context)
 
-    # Build a map from name → analysis person object
-    name_to_person = {p['name']: p for p in people}
+    # Build a lookup: pageid → candidate (across all people_candidates)
+    all_candidates: dict[tuple, dict] = {}
+    for pc in people_candidates:
+        for c in pc['candidates']:
+            if c['pageid']:
+                all_candidates[(c['pageid'], c['lang'])] = c
 
     matched_count = 0
     for i, person_input in enumerate(to_check):
@@ -261,33 +244,43 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
         if result.get('matched') and result.get('pageid'):
             pageid = int(result['pageid'])
             lang   = result.get('lang', 'nl')
-            # Always store pageid+lang so a re-run can retry pageinfo on 429
             p_obj['wiki_pageid'] = pageid
             p_obj['wiki_lang']   = lang
-            info = wiki_pageinfo(pageid, lang)
-            if info.get('url'):
-                p_obj['wiki_url'] = info['url']
-                if info.get('image'):
-                    p_obj['wiki_image'] = info['image']
+
+            # Find the candidate to get key and thumbnail (no extra API call)
+            candidate = all_candidates.get((pageid, lang))
+            if candidate:
+                p_obj['wiki_url'] = wiki_page_url(candidate['key'], lang)
+                if candidate['thumbnail_url']:
+                    p_obj['wiki_image'] = candidate['thumbnail_url']
                 matched_count += 1
-                print(f'      ✓ {person_input["name"]} → {info["url"]}')
+                print(f'      ✓ {person_input["name"]} → {p_obj["wiki_url"]}')
             else:
-                print(f'      ~ {person_input["name"]} matched (pageid={pageid}) but pageinfo failed — will retry')
-            time.sleep(WIKI_DELAY)
+                # pageid not in our result set — construct URL and try one search
+                hits = wiki_search(person_input['name'], lang)
+                match = next((h for h in hits if h['pageid'] == pageid), None)
+                if match:
+                    p_obj['wiki_url'] = wiki_page_url(match['key'], lang)
+                    if match['thumbnail_url']:
+                        p_obj['wiki_image'] = match['thumbnail_url']
+                    matched_count += 1
+                    print(f'      ✓ {person_input["name"]} → {p_obj["wiki_url"]}')
+                else:
+                    print(f'      ~ {person_input["name"]}: matched but key not found')
+                time.sleep(WIKI_DELAY)
         else:
             print(f'      – {person_input["name"]}: no match')
 
     analysis_path.write_text(
-        json.dumps(analysis, ensure_ascii=False, indent=2),
-        encoding='utf-8',
-    )
+        json.dumps(analysis, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'    Saved  ({matched_count}/{len(to_check)} matched)')
     return True
 
 
 def _keys_needing_enrichment(force: bool) -> list[str]:
     keys = []
-    for f in sorted(DIR_ANALYSIS.glob('*.json'), key=lambda p: int(p.stem) if p.stem.isdigit() else 0):
+    for f in sorted(DIR_ANALYSIS.glob('*.json'),
+                    key=lambda p: int(p.stem) if p.stem.isdigit() else 0):
         try:
             an = json.loads(f.read_text(encoding='utf-8'))
         except Exception:
@@ -296,8 +289,8 @@ def _keys_needing_enrichment(force: bool) -> list[str]:
         if not people:
             continue
         needs_llm      = any(not p.get('wiki_checked') for p in people)
-        needs_pageinfo = any(p.get('wiki_pageid') and not p.get('wiki_url') for p in people)
-        if force or needs_llm or needs_pageinfo:
+        needs_resolve  = any(p.get('wiki_pageid') and not p.get('wiki_url') for p in people)
+        if force or needs_llm or needs_resolve:
             keys.append(f.stem)
     return keys
 
@@ -307,11 +300,12 @@ def _keys_needing_enrichment(force: bool) -> list[str]:
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description='Enrich analysis people with Wikipedia data.')
+    parser = argparse.ArgumentParser(
+        description='Enrich analysis people with Wikipedia data.')
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--episode', type=str, help='Episode number to enrich')
     group.add_argument('--all-missing', action='store_true',
-                       help='Enrich all episodes that have un-checked people')
+                       help='Enrich all episodes with un-checked or unresolved people')
     parser.add_argument('--model', default=DEFAULT_MODEL,
                         help=f'Claude model (default: {DEFAULT_MODEL})')
     parser.add_argument('--force', action='store_true',
@@ -335,24 +329,22 @@ def main():
     client = anthropic.Anthropic(api_key=api_key) if api_key else anthropic.Anthropic()
 
     keys = [str(args.episode)] if args.episode else _keys_needing_enrichment(args.force)
-
     if not keys:
         print('Nothing to enrich.')
         return
 
     print(f'Enriching {len(keys)} episode(s) with {args.model} …')
-
     for i, key in enumerate(keys, 1):
         print(f'  [{i}/{len(keys)}] #{key}')
         try:
             enrich_episode(key, client, args.model, force=args.force)
         except Exception as exc:
             print(f'    ERROR: {exc}')
-            if '429' in str(exc) or 'rate' in str(exc).lower():
-                print('    Rate limited — waiting 60 s …')
-                time.sleep(60)
+            if '429' in str(exc):
+                print('    Rate limited — waiting 30 s …')
+                time.sleep(30)
         if i < len(keys):
-            time.sleep(0.3)
+            time.sleep(0.5)
 
     print('Done.')
 
