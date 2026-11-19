@@ -8,6 +8,10 @@ requests>=2.31
 # AI analysis (analyze_episode.py, 8_enrich_people_wiki.py)
 anthropic>=0.26
 
+# Word index (9_build_word_index.py)
+# After installing spaCy, also run: python -m spacy download nl_core_news_sm
+spacy>=3.8
+
 # Speaker identification (build_voice_profiles.py, identify_speakers.py)
 resemblyzer>=0.1.4
 numpy>=1.20

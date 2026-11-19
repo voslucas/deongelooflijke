@@ -105,31 +105,129 @@ def compute_tfidf(eps):
 # ---------------------------------------------------------------------------
 
 def build_mention_aggregate(transcripts, eps_by_key):
-    """Build people/books/places aggregates from transcript mention lists."""
+    """Build people/books/places aggregates from transcript mention lists.
+    Stores speaker names (not IDs) and per-episode hit timestamps.
+    """
     by_name = {}
     for tr in transcripts:
         ep_key_val = str(tr.get('episode'))
         ep = eps_by_key.get(ep_key_val)
-        ep_info = {'n': ep['n'], 't': ep['t'], 'd': ep['d']} if ep else {'n': None, 't': '', 'd': ''}
+        if not ep:
+            continue
+        yr = ep['d'][:4]
+        ep_info = {'n': ep['n'], 't': ep['t'], 'd': ep['d']}
+
+        # Build speaker ID -> name map for this transcript
+        spk_names = {s['id']: s['name'] for s in tr.get('speakers', [])}
+
+        # Group mentions by normalised name within this episode
+        ep_ment = {}
         for m in tr.get('mentions', []):
-            name = m['name']
-            typ = m['type']
-            key = norm(name)
-            if key not in by_name:
-                by_name[key] = {'n': name, 'c': typ, 'k': key, 'x': 0,
-                                'eps': [], 'sp': {}, 'yr': {}}
-            entry = by_name[key]
-            entry['x'] += 1
-            yr = str(ep['d'][:4]) if ep else '?'
-            entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
-            spk = m.get('speaker', '')
-            if spk:
-                entry['sp'][spk] = entry['sp'].get(spk, 0) + 1
-            # add ep_info once per episode
-            if not any(e['n'] == ep_info['n'] and e['d'] == ep_info['d']
-                       for e in entry['eps']):
-                entry['eps'].append(ep_info)
+            name = m.get('name', '')
+            if not name:
+                continue
+            typ = m.get('type', 'persoon')
+            sp_name = spk_names.get(m.get('speaker', ''), '')
+            t = m.get('t', -1)
+            nkey = norm(name)
+            if nkey not in ep_ment:
+                ep_ment[nkey] = {'name': name, 'c': typ, 'x': 0, 'hits': []}
+            ep_ment[nkey]['x'] += 1
+            if t >= 0:
+                ep_ment[nkey]['hits'].append({'t': round(float(t), 1), 'sp': sp_name})
+
+        for nkey, em in ep_ment.items():
+            if nkey not in by_name:
+                by_name[nkey] = {'n': em['name'], 'c': em['c'], 'k': nkey,
+                                 'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
+            entry = by_name[nkey]
+            entry['x'] += em['x']
+            entry['yr'][yr] = entry['yr'].get(yr, 0) + em['x']
+            ep_e = dict(ep_info, x=em['x'],
+                        hits=sorted(em['hits'], key=lambda h: h['t']))
+            entry['eps'].append(ep_e)
+            for h in em['hits']:
+                if h['sp']:
+                    entry['sp'][h['sp']] = entry['sp'].get(h['sp'], 0) + 1
+
+    for entry in by_name.values():
+        entry['eps'].sort(key=lambda e: e['d'])
     return sorted(by_name.values(), key=lambda x: x['x'], reverse=True)
+
+
+def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
+    """Build aggregate from analysis people/books/places (no timestamp or speaker data)."""
+    by_name = {}
+    for key, an in an_by_key.items():
+        ep = eps_by_key.get(key)
+        if not ep:
+            continue
+        yr = ep['d'][:4]
+        ep_info = {'n': ep['n'], 't': ep['t'], 'd': ep['d']}
+
+        for p in an.get('people', []):
+            name = p.get('name', '') if isinstance(p, dict) else str(p)
+            if not name:
+                continue
+            nkey = norm(name)
+            if nkey not in by_name:
+                by_name[nkey] = {'n': name, 'c': 'persoon', 'k': nkey,
+                                 'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
+            entry = by_name[nkey]
+            entry['x'] += 1
+            entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
+            entry['eps'].append(dict(ep_info, x=1, hits=[]))
+
+        for b in an.get('books', []):
+            name = b.get('canonical_title') or b.get('title', '')
+            if not name:
+                continue
+            nkey = norm(name)
+            t = b.get('start_seconds')
+            hits = [{'t': float(t), 'sp': ''}] if t is not None and t >= 0 else []
+            if nkey not in by_name:
+                by_name[nkey] = {'n': name, 'c': 'boek', 'k': nkey,
+                                 'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
+            entry = by_name[nkey]
+            entry['x'] += 1
+            entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
+            entry['eps'].append(dict(ep_info, x=1, hits=hits))
+
+        for p in an.get('places', []):
+            name = p if isinstance(p, str) else p.get('name', '')
+            if not name:
+                continue
+            nkey = norm(name)
+            if nkey not in by_name:
+                by_name[nkey] = {'n': name, 'c': 'plaats', 'k': nkey,
+                                 'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
+            entry = by_name[nkey]
+            entry['x'] += 1
+            entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
+            entry['eps'].append(dict(ep_info, x=1, hits=[]))
+
+    for entry in by_name.values():
+        entry['eps'].sort(key=lambda e: e['d'])
+    return sorted(by_name.values(), key=lambda x: x['x'], reverse=True)
+
+
+def merge_mention_aggregates(primary, secondary):
+    """Merge secondary into primary, deduplicating by entity key and episode number."""
+    merged = {e['k']: e for e in primary}
+    for entry in secondary:
+        k = entry['k']
+        if k in merged:
+            existing_ns = {ep['n'] for ep in merged[k]['eps']}
+            new_eps = [ep for ep in entry['eps'] if ep['n'] not in existing_ns]
+            if new_eps:
+                merged[k]['eps'].extend(new_eps)
+                merged[k]['eps'].sort(key=lambda e: e['d'])
+            for yr, cnt in entry['yr'].items():
+                merged[k]['yr'][yr] = merged[k]['yr'].get(yr, 0) + cnt
+            merged[k]['x'] += sum(ep['x'] for ep in new_eps)
+        else:
+            merged[k] = entry
+    return sorted(merged.values(), key=lambda x: x['x'], reverse=True)
 
 
 def build_speaker_aggregate(transcripts, eps_by_key):
@@ -236,13 +334,18 @@ def main():
                 print(f'  Warning: could not read {f.name}: {exc}')
 
     if transcripts:
-        mention_all = build_mention_aggregate(transcripts, eps_by_key)
-        books   = [m for m in mention_all if m['c'] == 'boek']
-        places  = [m for m in mention_all if m['c'] == 'plaats']
-        people  = [m for m in mention_all if m['c'] in ('persoon', 'filosoof')]
+        tx_mentions = build_mention_aggregate(transcripts, eps_by_key)
         speakers = build_speaker_aggregate(transcripts, eps_by_key)
     else:
-        books = places = people = speakers = []
+        tx_mentions = []
+        speakers = []
+
+    an_mentions = build_mention_aggregate_from_analysis(an_by_key, eps_by_key)
+    mention_all = merge_mention_aggregates(tx_mentions, an_mentions)
+
+    books   = [m for m in mention_all if m['c'] == 'boek']
+    places  = [m for m in mention_all if m['c'] == 'plaats']
+    people  = [m for m in mention_all if m['c'] in ('persoon', 'filosoof')]
 
     for name, obj in [('speakers', speakers), ('books', books),
                       ('places', places), ('people', people)]:

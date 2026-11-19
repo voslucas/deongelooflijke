@@ -31,6 +31,7 @@ data/
   persons/{slug}.json   Per-person social-media links (hosts auto-extracted; guests manual)
   persons/images/       Profile photos ({slug}.jpg/png/webp)
   bible/{BOOK}.json     NBV21 verse text keyed by chapter and verse (scraped)
+  word_index.json       Transcript-derived word frequencies per episode (9_build_word_index.py)
   voice-profiles/       Voice embeddings (.npy) used for speaker identification
   themes.json           18 fixed themes used across the archive
   episodes.json         Compiled episode data embedded in the site
@@ -46,6 +47,7 @@ scripts/
   transcribe_azure.py        Transcribe episodes via Azure MAI-Transcribe-2
   analyze_episode.py         Analyse episodes with Claude (entity extraction → data/analysis/)
   8_enrich_people_wiki.py   Enrich people in analysis files with Wikipedia URLs and thumbnails
+  9_build_word_index.py      Build transcript-derived word frequency index → data/word_index.json
   fix_speaker_counts.py      Remove excess Azure diarization speakers (dry-run or --apply)
   build_voice_profiles.py    Build Resemblyzer voice profiles from a known episode
   identify_speakers.py       Apply voice profiles to re-identify speakers in a transcript
@@ -81,18 +83,19 @@ AZURE_SPEECH_ENDPOINT=https://your-resource.cognitiveservices.azure.com/
 ANTHROPIC_API_KEY=...
 ```
 
-To open the site locally without running any scripts:
+To view the site locally, use Python's built-in HTTP server (opening the file directly via `file://` will cause CORS policy errors on Windows):
 
 ```bash
-# Just open the pre-built file — no server needed
-start site/dist/index.html   # Windows
-# open site/dist/index.html  # macOS
+python -m http.server 8000 --directory site/dist
 ```
+
+Then open `http://localhost:8000` in your browser.
 
 To rebuild the site from source after data changes:
 
 ```bash
 python scripts/4_split_data.py && python scripts/5_build_site.py
+# If data/word_index.json is present it is included automatically.
 ```
 
 ### Voice-based speaker identification (optional)
@@ -252,11 +255,32 @@ python scripts/scrape_nbv21.py                     # → data/bible/{BOOK}.json
 
 The script is resumable — chapters already on disk are skipped.
 
-### 7. Build the site
+### 7. Build the word index (optional but recommended)
+
+Extracts NOUN and PROPN tokens from every transcript using spaCy's Dutch model,
+lemmatizes them, and writes per-episode word-frequency data to `data/word_index.json`.
+The site's *Meest gebruikte woorden* chart on Statistieken uses this instead of the
+coarser title/description counts when the file is present.
+
+Requires spaCy and the Dutch model (one-time download, ~13 MB):
+
+```bash
+pip install spacy
+python -m spacy download nl_core_news_sm
+
+python scripts/9_build_word_index.py --dry-run  # preview first transcript
+python scripts/9_build_word_index.py            # full run (~10–20 min for 329 episodes)
+```
+
+The script is incremental: re-running after new transcriptions only processes episodes
+not yet in the index. Use `--rebuild` to reprocess everything.
+
+### 8. Build the site
 
 ```bash
 python scripts/4_split_data.py && python scripts/5_build_site.py
 # → site/dist/index.html
+# (also copies data/word_index.json to site/dist/data/ if present)
 ```
 
 ## Design

@@ -175,6 +175,10 @@ def _parse_json_response(text: str) -> dict:
         text = m.group(1).strip()
     # Escape unescaped control characters inside string literals
     text = _fix_control_chars(text)
+    # Fix Python-style literals the LLM sometimes emits
+    text = re.sub(r'(?<!["\w])None(?!["\w])', 'null', text)
+    text = re.sub(r'(?<!["\w])True(?!["\w])', 'true', text)
+    text = re.sub(r'(?<!["\w])False(?!["\w])', 'false', text)
     # Remove trailing commas before ] or }
     text = re.sub(r',\s*([\]}])', r'\1', text)
     # If JSON appears cut off (unterminated), try to close open arrays/objects
@@ -210,6 +214,22 @@ def _parse_json_response(text: str) -> dict:
                 text += ']'
             depth -= 1
     return json.loads(text)
+
+
+def _repair_json(client, model: str, broken_text: str) -> dict:
+    """Ask the model to return a corrected version of broken JSON."""
+    fix_prompt = (
+        'De volgende tekst is bedoeld als JSON maar bevat fouten. '
+        'Geef ALLEEN de gecorrigeerde, valide JSON terug, zonder uitleg of markdown:\n\n'
+        + broken_text[:6000]
+    )
+    response = client.messages.create(
+        model=model,
+        max_tokens=8000,
+        messages=[{'role': 'user', 'content': fix_prompt}],
+    )
+    raw = next((b.text for b in response.content if b.type == 'text'), '{}')
+    return _parse_json_response(raw)
 
 
 # ---------------------------------------------------------------------------
@@ -454,7 +474,11 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
             raw_text = block.text
             break
 
-    extracted = _parse_json_response(raw_text)
+    try:
+        extracted = _parse_json_response(raw_text)
+    except json.JSONDecodeError:
+        print(f'    JSON parse failed — retrying with repair call …')
+        extracted = _repair_json(client, model, raw_text)
     usage = response.usage
 
     # Enrich books with Google Books metadata + LLM verification
@@ -565,6 +589,7 @@ def main():
             print(f'  [{i}/{len(keys)}] #{key} — skipped (already exists)')
             continue
 
+        print(f'  [{i}/{len(keys)}] #{key} — analysing …', flush=True)
         try:
             data = analyse_episode(key, client, args.model, system_prompt,
                                    all_eps=all_eps,

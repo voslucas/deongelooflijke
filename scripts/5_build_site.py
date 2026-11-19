@@ -234,6 +234,14 @@ def main():
         if n_imgs:
             print(f'  copied {n_imgs} person image(s) to site/dist/data/persons/images/')
 
+    # Copy word index (produced by scripts/9_build_word_index.py)
+    wi_src = ROOT / 'data' / 'word_index.json'
+    if wi_src.exists():
+        (dist / 'data').mkdir(parents=True, exist_ok=True)
+        shutil.copy2(wi_src, dist / 'data' / 'word_index.json')
+        size_kb = wi_src.stat().st_size / 1024
+        print(f'  copied word_index.json ({size_kb:.0f} KB) to site/dist/data/')
+
     # Copy transcripts (speaker names are already correct in the source files)
     tx_src = ROOT / 'data' / 'transcripts'
     tx_dst = dist / 'data' / 'transcripts'
