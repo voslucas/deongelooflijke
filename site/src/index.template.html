@@ -49,10 +49,6 @@ nav.main{display:flex;gap:2px;flex-wrap:wrap;font:500 14.5px/1 var(--ui)}
 nav.main a{color:var(--ink);text-decoration:none;padding:9px 10px;border-radius:999px}
 nav.main a:hover{background:var(--parchment-2)}
 nav.main a.on{background:var(--ink);color:var(--parchment)}
-.qbox{margin-left:auto;flex:1 1 150px;max-width:300px;position:relative}
-.qbox input{width:100%;font:16px var(--ui);padding:10px 14px 10px 38px;border:1px solid var(--rule);background:var(--parchment-2);color:var(--ink);border-radius:999px}
-.qbox svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:16px;height:16px;stroke:var(--ink-muted);fill:none;stroke-width:2}
-@media (max-width:760px){.qbox{max-width:none;margin-left:0;flex-basis:100%;order:3}}
 
 main{padding-block:28px 64px}
 section+section{margin-top:44px}
@@ -347,7 +343,6 @@ svg.spark{display:block;width:auto;height:26px}
     <a href="#themas" data-nav="themas">Thema's</a>
     <a href="#statistieken" data-nav="statistieken">Statistieken</a>
   </nav>
-  <form class="qbox" id="qform" role="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="Zoek afleveringen…" aria-label="Zoek afleveringen" autocomplete="off"></form>
 </div></header>
 <main class="wrap" id="app"></main>
 <footer class="foot"><div class="wrap">
@@ -907,8 +902,8 @@ function viewSearch(){
   </aside><div style="min-width:0"><h1 style="margin-bottom:14px">Afleveringen</h1><input class="bigq" id="q2" type="search" value="${esc(state.q)}" placeholder="Titel, gast, woord of afleveringsnummer" aria-label="Zoekterm"><div id="res"></div></div></div>`;
   const bind=(id,k)=>$(id).addEventListener('input',ev=>{state[k]=ev.target.value;if(k==='y0'||k==='y1')state[k]=+state[k];state.limit=40;drawRes()});
   bind('#f-y0','y0');bind('#f-y1','y1');bind('#f-th','theme');bind('#f-fmt','fmt');bind('#f-dmin','dmin');bind('#f-dmax','dmax');
-  $('#q2').addEventListener('input',ev=>{state.q=ev.target.value;$('#q').value=state.q;state.limit=40;drawRes()});
-  $('#f-reset').onclick=()=>{Object.assign(state,{q:'',theme:'',fmt:'',y0:YEARS[0],y1:YEARS.at(-1),paas:'',dmin:'',dmax:'',limit:40});$('#q').value='';viewSearch()};
+  $('#q2').addEventListener('input',ev=>{state.q=ev.target.value;state.limit=40;drawRes()});
+  $('#f-reset').onclick=()=>{Object.assign(state,{q:'',theme:'',fmt:'',y0:YEARS[0],y1:YEARS.at(-1),paas:'',dmin:'',dmax:'',limit:40});viewSearch()};
   drawRes();
 }
 function drawRes(){
@@ -1002,7 +997,7 @@ function viewGuest(p){
   ${coRows.length?`<div class="panel"><h3>Samen aan tafel met</h3>${hbars(coRows.map(([g,v])=>({l:g,v,href:'#p-'+slug(g)})),{cls:'v'})}</div>`:''}
   <div class="panel"><h3>${p.eps.length>20?'Meest gebruikte woorden':'Kenmerkende woorden'}</h3><div class="cloud">${words.map(([w,c])=>`<a href="#zoeken" data-q="${esc(w)}" style="font-size:${(13+13*c/wm).toFixed(1)}px">${esc(w)}</a>`).join('')}</div><p class="ui muted" style="font-size:12px;margin:10px 0 0">Uit titels en omschrijvingen van de afleveringen.</p></div>
   </aside></div>`;
-  const ap=$('#allp');if(ap)ap.onclick=()=>{state.q=p.name;$('#q').value=p.name};
+  const ap=$('#allp');if(ap)ap.onclick=()=>{state.q=p.name};
 }
 
 async function viewBook(key){
@@ -1405,13 +1400,11 @@ function route(){
   window.scrollTo(0,0);
 }
 document.addEventListener('click',ev=>{
-  const a=ev.target.closest('[data-q]');if(a){state.q=a.dataset.q;$('#q').value=state.q;state.limit=40;if(location.hash==='#zoeken'){ev.preventDefault();viewSearch()}}
+  const a=ev.target.closest('[data-q]');if(a){state.q=a.dataset.q;state.limit=40;if(location.hash==='#zoeken'){ev.preventDefault();viewSearch()}}
   const br=ev.target.closest('.bref');if(br){ev.stopPropagation();showBiblePopup(br.dataset.ref,br);return}
   if(_bpopOpen&&!_bpop.contains(ev.target))closeBiblePopup();
   if(ev.target.classList.contains('bp-close'))closeBiblePopup();
 });
-$('#qform').addEventListener('submit',ev=>{ev.preventDefault();state.q=$('#q').value;state.limit=40;if(location.hash==='#zoeken')viewSearch();else location.hash='#zoeken'});
-$('#q').addEventListener('input',ev=>{state.q=ev.target.value;state.limit=40;if(location.hash==='#zoeken'){const q2=$('#q2');if(q2)q2.value=state.q;drawRes()}});
 window.addEventListener('hashchange',route);
 route();
 })();
