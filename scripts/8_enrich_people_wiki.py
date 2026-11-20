@@ -38,7 +38,7 @@ _HEADERS = {
 
 WIKI_LANGS   = ['nl', 'en']
 SEARCH_LIMIT = 5    # candidates per language
-WIKI_DELAY   = 0.5  # seconds between requests (REST API has generous limits)
+WIKI_DELAY   = 1.0  # seconds between requests
 
 
 # ---------------------------------------------------------------------------
@@ -211,7 +211,7 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
         + '\n'.join(f"- {p['name']}: {p.get('note', '')}" for p in to_check)
     )
 
-    # Search Wikipedia for each person — thumbnail already included in results
+    # Search Wikipedia for each person — nl first, en only as fallback
     people_candidates = []
     for person in to_check:
         candidates = []
@@ -219,6 +219,8 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
             hits = wiki_search(person['name'], lang)
             candidates.extend(hits)
             time.sleep(WIKI_DELAY)
+            if hits:
+                break  # Dutch results found — skip English search
         people_candidates.append({
             'person': {'name': person['name'], 'note': person.get('note', '')},
             'candidates': candidates[:8],

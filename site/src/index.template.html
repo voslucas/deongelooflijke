@@ -505,7 +505,10 @@ function bookPanel(books){
       ?`<img src="${thumb}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:38px;border-radius:2px;flex-shrink:0;align-self:flex-start"><span style="display:none"></span>`
       :`<div style="width:38px;height:52px;background:var(--gold);border-radius:2px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16">${ICON}</div>`;
     const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="margin-top:4px">${ts(b.start_seconds)}</button>`:'';
-    return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${title}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}${tsbtn}</div></div>`;
+    const isbn13=(b.isbn13||'').trim();const volId=(b.volume_id||'').trim();
+    const bkey=isbn13?isbn13:(volId?`vol-${volId}`:'');
+    const titleEl=bkey?`<a href="#b-${bkey}" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)">${title}</a>`:title;
+    return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${titleEl}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}${tsbtn}</div></div>`;
   });
   return `<div class="panel"><h3>Besproken boeken</h3>${rows.join('')}</div>`;
 }
@@ -1062,6 +1065,77 @@ function viewPerson(p){
   const ap=$('#allp');if(ap)ap.onclick=()=>{state.q=p.name;$('#q').value=p.name};
 }
 
+async function viewBook(key){
+  app.innerHTML='<p class="loading">Laden…</p>';
+  const BOOK_ICON='<svg width="48" height="62" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:.7"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+  // Fetch book detail + mention aggregate in parallel
+  const [bd, A] = await Promise.all([
+    fetch(`data/books/${key}.json`).then(r=>r.ok?r.json():null).catch(()=>null),
+    loadMentionAgg(),
+  ]);
+  // Find aggregate entry by book_key or by slug match
+  const agg = A.list.find(a=>a.c==='boek'&&(a.book_key===key||(bd&&slug(a.n)===slug(bd.title||bd.canonical_title||'')))) || null;
+  if(!bd && !agg) return notFound();
+  const title = (bd&&bd.title) || (agg&&agg.n) || '';
+  const author = (bd&&bd.author) || '';
+  const description = (bd&&bd.description) || '';
+  const isbn13 = (bd&&bd.isbn13) || '';
+  const isbn10 = (bd&&bd.isbn10) || '';
+  const thumb = ((bd&&bd.thumbnail_large)||'').replace(/^http:/,'https:');
+  const publisher = (bd&&bd.publisher) || '';
+  const year = (bd&&bd.published_year) || '';
+  const pages = (bd&&bd.page_count) || 0;
+  const lang = (bd&&bd.language) || '';
+  const gbUrl = (bd&&bd.google_books_url) || '';
+  const eps = agg ? [...agg.eps].sort((a,b)=>a.d<b.d?1:-1) : [];
+  const mentionCount = agg ? agg.x : 0;
+  const epCount = agg ? agg.eps.length : 0;
+  const firstEp = agg && agg.eps.length ? agg.eps[0] : null;
+  const lastEp  = agg && agg.eps.length ? agg.eps.at(-1) : null;
+  const coverEl = thumb
+    ? `<img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:90px;border-radius:4px;flex-shrink:0;align-self:flex-start"><div style="display:none"></div>`
+    : `<div style="width:90px;height:124px;background:var(--gold);border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16">${BOOK_ICON}</div>`;
+  const kvRows = [
+    isbn13 ? `<dt>ISBN-13</dt><dd style="font-variant-numeric:tabular-nums">${esc(isbn13)}</dd>` : '',
+    isbn10 ? `<dt>ISBN-10</dt><dd style="font-variant-numeric:tabular-nums">${esc(isbn10)}</dd>` : '',
+    publisher ? `<dt>Uitgever</dt><dd>${esc(publisher)}</dd>` : '',
+    year ? `<dt>Jaar</dt><dd>${esc(year)}</dd>` : '',
+    pages ? `<dt>Pagina's</dt><dd>${pages}</dd>` : '',
+    lang ? `<dt>Taal</dt><dd>${esc(lang)}</dd>` : '',
+    gbUrl ? `<dt>Google Books</dt><dd><a href="${esc(gbUrl)}" target="_blank" rel="noopener" style="font-size:13px">Open →</a></dd>` : '',
+  ].filter(Boolean).join('');
+  const buyIsbn = isbn13 || (agg&&slug(agg.n)) || key;
+  const bolUrl = `https://www.bol.com/nl/nl/s/?searchtext=${encodeURIComponent(buyIsbn)}`;
+  const amzUrl = `https://www.amazon.nl/s?k=${encodeURIComponent(buyIsbn)}`;
+  const moreBooks = A.list.filter(a=>a.c==='boek'&&a!==agg).sort((a,b)=>b.x-a.x).slice(0,10);
+  app.innerHTML=`<div class="crumb"><a href="#genoemd">Genoemd</a> / <a href="#genoemd">Boeken</a> / ${esc(title)}</div>
+  <div class="detail"><div style="min-width:0">
+  <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:16px">${coverEl}<div style="min-width:0"><div class="epno">Boek</div><h1 style="margin:4px 0 6px">${esc(title)}</h1>${author?`<div style="font-size:17px;color:var(--ink-muted)">${esc(author)}</div>`:''}</div></div>
+  ${description?`<p class="prose" style="font-size:16px;margin:0 0 20px">${esc(description)}</p>`:''}
+  <div class="facts" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+    <div><b>${mentionCount}</b><span>keer genoemd</span></div>
+    <div><b>${epCount}</b><span>${epCount===1?'aflevering':'afleveringen'}</span></div>
+    ${firstEp?`<div><b>${fdate(firstEp.d).replace(/^\d+ /,'')}</b><span>voor het eerst</span></div>`:'<div></div>'}
+    ${lastEp&&lastEp!==firstEp?`<div><b>${fdate(lastEp.d).replace(/^\d+ /,'')}</b><span>voor het laatst</span></div>`:'<div></div>'}
+  </div>
+  ${epCount>1?`<section style="margin-top:28px"><h2>Per jaar</h2>${vbars(YEARS.map(y=>({l:String(y),v:(agg&&agg.yr&&agg.yr[y])||0})),{h:160})}</section>`:''}
+  <section style="margin-top:28px"><div class="sechead"><h2>Afleveringen</h2><span class="label">nieuwste eerst</span></div>
+  ${eps.map(ep=>{const e=byNum[ep.n];const hash=e?e.hash:'#e-'+ep.n;const s=e?e.s:0;
+    return `<article class="ep"><div class="no">${ep.n!=null?'#'+ep.n:'—'}</div><div style="min-width:0"><h3><a href="${hash}">${esc(ep.t)}</a></h3><div class="meta">${fdate(ep.d)}</div>${ep.note?`<p class="snip" style="font-style:italic">${esc(ep.note)}</p>`:''}${ep.hits&&ep.hits.length?'<div class="mhits">'+ep.hits.map(h=>`<a class="frag" href="${hash}" data-seekafter="${Math.round(h.t)}"><span class="num">▶ ${ts(h.t)}</span></a>`).join('')+'</div>':''}</div><div class="dur">${fdur(s)}</div></article>`;
+  }).join('')}</section>
+  </div>
+  <aside class="side">
+  ${kvRows?`<div class="panel"><h3>Gegevens</h3><dl class="kv">${kvRows}</dl></div>`:''}
+  <div class="panel"><h3>Kopen <span class="demo" style="font-size:11px;vertical-align:1px">Voorbeelddata</span></h3>
+  <p class="demonote" style="margin:0 0 10px;font-size:13px">Knoppen leiden naar zoekresultaten; directe productpagina's en actuele prijzen volgen zodra affiliate-codes beschikbaar zijn.</p>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <a class="btn solid" href="${bolUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op bol.com</a>
+    <a class="btn" href="${amzUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op Amazon.nl</a>
+  </div></div>
+  ${moreBooks.length?`<div class="panel"><h3>Meer boeken</h3><div class="chips" style="margin:0">${moreBooks.map(a=>{const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#m-${a.slug}`;return `<a class="chip" href="${href}">${esc(a.n)}</a>`}).join('')}</div></div>`:''}
+  </aside></div>`;
+}
+
 function viewPeople(){
   const sorts={n:(a,b)=>b.eps.length-a.eps.length||b.secs-a.secs,a:(a,b)=>surname(a.name).localeCompare(surname(b.name),'nl'),r:(a,b)=>a.eps.at(-1).d<b.eps.at(-1).d?1:-1,t:(a,b)=>b.secs-a.secs};
   function surname(n){const parts=n.split(' ');const i=parts.findIndex((w,k)=>k>0&&/^[A-ZÀ-Þ]/.test(w)&&k===parts.length-1);return parts.slice(-1)[0]}
@@ -1241,6 +1315,7 @@ function route(){
   else if(h.startsWith('e-')){viewEpisode(byKey[h.slice(2)]).catch(()=>notFound());nav='zoeken'}
   else if(h.startsWith('p-')){viewPerson(P[h.slice(2)]);nav='personen'}
   else if(h.startsWith('t-')){viewTheme(THEME_BY_SLUG[h.slice(2)]);nav='themas'}
+  else if(h.startsWith('b-')){viewBook(h.slice(2)).catch(()=>notFound())}
   else notFound();
   document.querySelectorAll('nav.main a').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
   window.scrollTo(0,0);

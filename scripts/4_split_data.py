@@ -15,6 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 TRANSCRIPTS_DIR = ROOT / 'data' / 'transcripts'
 ANALYSIS_DIR = ROOT / 'data' / 'analysis'
+BOOKS_DIR = ROOT / 'data' / 'books'
 OUT_DIR = ROOT / 'site' / 'dist' / 'data'
 
 # Fields from analysis to include in per-episode site files
@@ -185,13 +186,23 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             nkey = norm(name)
             t = b.get('start_seconds')
             hits = [{'t': float(t), 'sp': ''}] if t is not None and t >= 0 else []
+            isbn13 = (b.get('isbn13') or '').strip()
+            volume_id = (b.get('volume_id') or '').strip()
+            book_key = isbn13 if isbn13 else (f'vol-{volume_id}' if volume_id else '')
             if nkey not in by_name:
                 by_name[nkey] = {'n': name, 'c': 'boek', 'k': nkey,
                                  'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
+            if book_key and not entry.get('book_key'):
+                entry['book_key'] = book_key
+            # Also carry the note per episode hit
+            ep_note = b.get('note', '')
             entry['x'] += 1
             entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
-            entry['eps'].append(dict(ep_info, x=1, hits=hits))
+            ep_entry = dict(ep_info, x=1, hits=hits)
+            if ep_note:
+                ep_entry['note'] = ep_note
+            entry['eps'].append(ep_entry)
 
         for p in an.get('places', []):
             name = p if isinstance(p, str) else p.get('name', '')
@@ -354,10 +365,21 @@ def main():
             encoding='utf-8'
         )
 
+    # Copy per-book detail files from data/books/ to site/dist/data/books/
+    n_books_copied = 0
+    if BOOKS_DIR.exists():
+        books_out = OUT_DIR / 'books'
+        books_out.mkdir(parents=True, exist_ok=True)
+        for src in BOOKS_DIR.glob('*.json'):
+            dst = books_out / src.name
+            dst.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')
+            n_books_copied += 1
+
     total = len(list(ep_dir.iterdir()))
     print(f'site/dist/data/: {total} episode files, '
           f'{len(transcripts)} transcripts aggregated, '
-          f'{n_analysis} with analysis')
+          f'{n_analysis} with analysis, '
+          f'{n_books_copied} book detail files')
 
 
 if __name__ == '__main__':
