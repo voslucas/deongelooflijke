@@ -211,6 +211,11 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             # Carry thumbnail from first occurrence that has one
             if not entry.get('bk_thumb') and (b.get('thumbnail') or '').strip():
                 entry['bk_thumb'] = b['thumbnail'].replace('http:', 'https:')
+            # Carry author from first occurrence that has one
+            if not entry.get('author'):
+                a_val = (b.get('canonical_author') or b.get('author') or '').strip()
+                if a_val:
+                    entry['author'] = a_val
             # Also carry the note per episode hit
             ep_note = b.get('note', '')
             entry['x'] += 1

@@ -147,6 +147,11 @@ blockquote.q{font:italic 400 21px/1.4 var(--body);margin:0;padding:4px 0 4px 18p
 .mention-row:hover{color:var(--violet)}
 .mention-name{flex:1 1 0;min-width:0;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mention-count{flex-shrink:0;font-size:13px}
+.pm-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+.pm-card{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 10px;background:var(--parchment-2);border-radius:10px;text-decoration:none;color:var(--ink);text-align:center}
+.pm-card:hover .pm-card-name{color:var(--violet)}
+.pm-card-name{font:600 14px/1.3 var(--display)}
+.pm-card-eps{font:13px/1 var(--ui);color:var(--ink-muted)}
 .alpha{display:flex;flex-wrap:wrap;gap:4px;font:600 14px var(--ui);margin-bottom:12px}
 .alpha a{padding:6px 8px;border-radius:6px;text-decoration:none;color:var(--ink)}
 .alpha a:hover{background:var(--parchment-2)}
@@ -347,7 +352,7 @@ svg.spark{display:block;width:auto;height:26px}
 <main class="wrap" id="app"></main>
 <footer class="foot"><div class="wrap">
   <img src="__WORDMARK__" alt="De Ongelooflijke · EO">
-  <div>Onofficieel archief op basis van de openbare RSS-feed van NPO Luister / EO.<br>Gegevens bijgewerkt tot <span id="upd"></span>. Dit is een initiatief van Lucas Vos || Bitfox</div>
+  <div>Onofficieel archief op basis van de openbare RSS-feed van NPO Luister / EO.<br>Gegevens bijgewerkt tot <span id="upd"></span>. Dit is een initiatief van <a href="https://www.linkedin.com/in/lucasvos/" target="_blank" rel="noopener">Lucas Vos</a></div>
 </div></footer>
 
 <script id="data" type="application/json">__DATA__</script>
@@ -483,16 +488,13 @@ function peoplePanel(people,e){
   const rows=people.map((p,i)=>{
     const hasImg=p.wiki_image;
     const ini=initials(p.name);
-    const sep=i<people.length-1?'border-bottom:1px solid var(--rule);margin-bottom:10px;padding-bottom:10px':'';
+    const sep=i<people.length-1?'border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px':'';
     const imgEl=hasImg
       ?`<img src="${esc(p.wiki_image)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'" style="width:40px;height:40px;border-radius:999px;object-fit:cover;flex-shrink:0"><span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0;display:none">${esc(ini)}</span>`
       :`<span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0">${esc(ini)}</span>`;
-    const nameEl=p.wiki_url
-      ?`<a href="${esc(p.wiki_url)}" target="_blank" rel="noopener" style="font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35;color:var(--ink);text-decoration:none" class="wl">${esc(p.name)}</a>`
-      :`<span style="font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35">${esc(p.name)}</span>`;
-    const noteEl=p.note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">${esc(p.note)}</div>`:'';
-    const tsbtn=p.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(p.start_seconds)}" style="margin-top:4px">${ts(p.start_seconds)}</button>`:'';
-    return `<div style="display:flex;gap:10px;${sep}">${imgEl}<div style="min-width:0">${nameEl}${noteEl}${tsbtn}</div></div>`;
+    const tsbtn=p.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(p.start_seconds)}" style="flex-shrink:0;font-size:11px;padding:3px 7px">${ts(p.start_seconds)}</button>`:'';
+    const noteEl=p.note?`<a href="#pp-${slug(p.name)}" style="display:block;font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:1px;text-decoration:none">${esc(p.note)}</a>`:'';
+    return `<div style="display:flex;gap:10px;align-items:flex-start;${sep}"><a href="#pp-${slug(p.name)}" style="display:contents">${imgEl}</a><div style="min-width:0;flex:1"><div style="display:flex;align-items:baseline;justify-content:space-between;gap:6px"><a href="#pp-${slug(p.name)}" style="font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35;color:var(--ink);text-decoration:none">${esc(p.name)}</a>${tsbtn}</div>${noteEl}</div></div>`;
   });
   return `<div class="panel"><h3>Besproken figuren</h3>${rows.join('')}</div>`;
 }
@@ -955,7 +957,7 @@ async function viewEpisode(e){
   app.innerHTML=`<div class="crumb"><a href="#zoeken">Afleveringen</a> / ${e.n!=null?'#'+e.n:esc(e.f)}</div>
   <div class="detail"><article style="min-width:0"><div class="epno">${e.n!=null?'Aflevering '+e.n:esc(e.f)}${e.f!=='Gesprek'&&e.n!=null?' · '+esc(e.f):''}</div><h1 style="margin:6px 0 10px">${esc(e.t)}</h1>
   <div class="meta ui muted">${fdate(e.d)} · ${fdur(e.s)}</div>
-  <div class="actions">${(e.npoUrl||e.mp3)?`<a class="btn solid" href="${e.npoUrl||esc(e.mp3)}" target="_blank" rel="noopener">Luister</a>`:''}</div>
+  <div class="actions">${(e.npoUrl||e.mp3)?`<button class="btn solid" id="luister-btn" type="button">Luister</button>`:''}</div>
   ${txBlock(e,T)}
   ${rel.length?`<h2 style="margin:32px 0 6px">Door de makers aangeraden</h2><div class="eps">${rel.map(o=>epRow(o)).join('')}</div>`:''}
   <h2 style="margin:32px 0 6px">Lijkt op deze aflevering</h2>${simIsLlm?'':'<p class="ui muted" style="font-size:14px;margin:0">Op basis van overeenkomende woorden in titel en omschrijving.</p>'}<div class="eps">${sim.map(o=>epRow(o)).join('')}</div>
@@ -970,6 +972,8 @@ async function viewEpisode(e){
   ${trivia.length?`<div class="panel"><h3>Wist je dat</h3><ul class="trivia">${trivia.map(t=>`<li>${t}</li>`).join('')}</ul></div>`:''}
   </aside></div>`;
   mountTx(e,T);
+  const lb=$('#luister-btn');
+  if(lb)lb.onclick=()=>{if(PL){$('#pl-play')?.click()}else if(e.npoUrl){window.open(e.npoUrl,'_blank','noopener')}else if(e.mp3){window.open(e.mp3,'_blank','noopener')}};
 }
 
 function viewGuest(p){
@@ -1086,16 +1090,16 @@ async function viewBooks(){
     const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
     const thumb=(a.bk_thumb||'').replace(/^http:/,'https:');
     const cover=thumb
-      ?`<img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:72px;height:100px;border-radius:4px;object-fit:cover;flex-shrink:0;align-self:flex-start"><div style="display:none"></div>`
-      :`<div style="width:72px;height:100px;background:var(--gold);border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16">${BICON}</div>`;
-    const cnt=score(a);
-    return `<a class="book-card" href="${href}" style="display:flex;flex-direction:column;gap:8px;padding:14px;background:var(--parchment-2);border-radius:10px;text-decoration:none;color:var(--ink);border:1px solid var(--rule)">${cover}<span style="display:flex;flex-direction:column;gap:3px;min-width:0"><b style="font-family:Lora,Georgia,serif;font-size:14px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(a.n)}</b>${a.author?`<span style="font-size:12px;color:var(--ink-muted)">${esc(a.author)}</span>`:''}<span class="num muted" style="font-size:12px">${cnt}×</span></span></a>`;
+      ?`<img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:64px;height:90px;border-radius:4px;object-fit:cover"><div style="display:none"></div>`
+      :`<div style="width:64px;height:90px;background:var(--gold);border-radius:4px;display:flex;align-items:center;justify-content:center;color:#3e2b16">${BICON}</div>`;
+    const epc=a.eps.length;
+    return `<a class="pm-card" href="${href}" style="border:1px solid var(--rule)">${cover}<b style="font-family:Lora,Georgia,serif;font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%">${esc(a.n)}</b>${a.author?`<span style="font-size:12px;color:var(--ink-muted);width:100%;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden">${esc(a.author)}</span>`:''}<span class="pm-card-eps">${epc} ${epc===1?'aflevering':'afleveringen'}</span></a>`;
   }
   function draw(){
     const top10=[...books].sort((a,b)=>score(b)-score(a)).filter(a=>score(a)>0).slice(0,10);
     const q=norm($('#bkq').value);
     const list=[...books].filter(a=>!q||(norm(a.n)+' '+(a.author?norm(a.author):'')).includes(q)).sort((a,b)=>score(b)-score(a));
-    $('#bktop').innerHTML=`<div class="people" style="grid-template-columns:repeat(auto-fill,minmax(140px,1fr))">${top10.map(bookCard).join('')}</div>`;
+    $('#bktop').innerHTML=`<div class="pm-cards">${top10.map(bookCard).join('')}</div>`;
     $('#bklist').innerHTML=list.length?list.map(a=>{
       const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
       const thumb=(a.bk_thumb||'').replace(/^http:/,'https:');
@@ -1137,24 +1141,23 @@ async function viewPersonsMentioned(){
     if(!img)return iniAv(a.n,size,fs);
     return `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextSibling.style.display='grid'" style="width:${size}px;height:${size}px;border-radius:999px;object-fit:cover;flex-shrink:0">${iniAv(a.n,size,fs).replace('flex-shrink:0','flex-shrink:0;display:none')}`;
   }
-  function personMentionCard(a){
-    const cnt=score(a);
-    return `<a class="person" href="#pp-${a.slug}">${mentionAvatar(a,44,14)}<span><b>${esc(a.n)}</b><span>${cnt}× · ${a.eps.length} ${a.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
+  function pmCard(a){
+    const epc=a.eps.length;
+    return `<a class="pm-card" href="#pp-${a.slug}">${mentionAvatar(a,52,16)}<span class="pm-card-name">${esc(a.n)}</span><span class="pm-card-eps">${epc} ${epc===1?'aflevering':'afleveringen'}</span></a>`;
   }
   function draw(){
     const top10=[...people].sort((a,b)=>score(b)-score(a)).filter(a=>score(a)>0).slice(0,10);
     const q=norm($('#pmq').value);
     const list=[...people].filter(a=>!q||norm(a.n).includes(q)).sort((a,b)=>score(b)-score(a));
-    $('#pmtop').innerHTML=`<div class="people">${top10.map(personMentionCard).join('')}</div>`;
+    $('#pmtop').innerHTML=`<div class="pm-cards">${top10.map(pmCard).join('')}</div>`;
     $('#pmlist').innerHTML=list.length?list.map(a=>{
-      const cnt=score(a);
-      return `<a class="mention-row" href="#pp-${a.slug}">${mentionAvatar(a,28,9)}<span class="mention-name">${esc(a.n)}</span><span class="mention-count num muted">${cnt}×</span></a>`;
+      const epc=a.eps.length;
+      return `<a class="mention-row" href="#pp-${a.slug}">${mentionAvatar(a,28,9)}<span class="mention-name">${esc(a.n)}</span><span class="mention-count num muted">${epc}</span></a>`;
     }).join(''):'<p class="empty">Geen personen gevonden.</p>';
     $('#pmyears').querySelectorAll('[data-yr]').forEach(b=>b.classList.toggle('on',b.dataset.yr===selYr));
   }
   app.innerHTML=`<h1>Personen</h1>
-  <p class="lede prose muted" style="margin:8px 0 4px">Figuren die in de afleveringen worden genoemd, op basis van AI-analyse. <span class="demo">Voorbeelddata</span></p>
-  <p class="demonote" style="font-size:13px;margin:0 0 20px">Genoemde personen zijn afkomstig uit de AI-analyse van afleveringen; volledigheid is niet gegarandeerd.</p>
+  <p class="lede prose muted" style="margin:8px 0 20px">Figuren die in de afleveringen worden genoemd.</p>
   <div class="ctrl" style="margin-bottom:4px"><div class="chips" style="margin:0" id="pmyears">
     <button type="button" class="chip on" data-yr="">Alle jaren</button>
     ${allYrs.map(y=>`<button type="button" class="chip" data-yr="${y}">${y}</button>`).join('')}
