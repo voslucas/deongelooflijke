@@ -23,6 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 OUT_DIR = ROOT / 'data' / 'transcripts'
 MP3_DIR = ROOT / 'data' / 'mp3'
+CORRECTIONS_DIR = ROOT / 'data' / 'corrections'
 
 API_VERSION = '2025-10-15'
 
@@ -114,18 +115,18 @@ def _speaker_map(phrases, ep):
     # the fallback label in _azure_to_transcript and can be spotted easily.
     ranked = ranked[:expected]
 
-    mapping: dict[int, str] = {}
+    mapping: dict[int, tuple[str, str]] = {}
     for i, sid in enumerate(ranked):
         if i == 0:
-            mapping[sid] = 'David Boogerd'
+            mapping[sid] = ('David Boogerd', 'Presentator')
         elif i == 1 and has_paas:
-            mapping[sid] = 'Stefan Paas'
+            mapping[sid] = ('Stefan Paas', 'Vaste gast')
         else:
             guest_idx = i - 1 - (1 if has_paas else 0)
             if 0 <= guest_idx < len(guests):
-                mapping[sid] = guests[guest_idx]
+                mapping[sid] = (guests[guest_idx], 'Gast')
             else:
-                mapping[sid] = f'Spreker {i + 1}'
+                mapping[sid] = (f'Spreker {i + 1}', 'Gast')
     return mapping
 
 
@@ -137,12 +138,13 @@ def _azure_to_transcript(response_json, mapping, ep):
     phrases = response_json.get('phrases', [])
 
     # Build speakers list
-    seen: list[str] = []
-    for name in mapping.values():
-        if name not in seen:
-            seen.append(name)
-    name_to_id = {name: f'S{i + 1}' for i, name in enumerate(seen)}
-    speakers = [{'id': name_to_id[name], 'name': name} for name in seen]
+    seen: list[tuple[str, str]] = []
+    for entry in mapping.values():
+        if entry not in seen:
+            seen.append(entry)
+    name_to_id = {entry[0]: f'S{i + 1}' for i, entry in enumerate(seen)}
+    speakers = [{'id': name_to_id[entry[0]], 'name': entry[0], 'role': entry[1]}
+                for entry in seen]
 
     segments = []
     events = []
@@ -151,7 +153,8 @@ def _azure_to_transcript(response_json, mapping, ep):
 
     for ph in phrases:
         azure_sid = ph.get('speaker')
-        name = mapping.get(azure_sid, f'Spreker {azure_sid}')
+        entry = mapping.get(azure_sid, (f'Spreker {azure_sid}', 'Gast'))
+        name = entry[0]
         sid = name_to_id.get(name, 'S1')
         start_s = ph.get('offsetMilliseconds', 0) / 1000
         end_s = start_s + ph.get('durationMilliseconds', 0) / 1000
@@ -185,7 +188,40 @@ def _azure_to_transcript(response_json, mapping, ep):
         'speakers': speakers,
         'segments': segments,
         'events': events,
+        'summary': {'tldr': '', 'points': []},
+        'chapters': [],
+        'highlights': [],
+        'mentions': [],
+        'bible': [],
     }
+
+
+# ---------------------------------------------------------------------------
+# Manual speaker corrections
+# ---------------------------------------------------------------------------
+
+def _apply_corrections(transcript, ep_key_str):
+    """Apply manual speaker name corrections from CORRECTIONS_DIR/{ep_key_str}.json.
+
+    The correction file is a dict mapping speaker IDs (e.g. "S2") to the
+    corrected name string.  Returns the (possibly modified) transcript dict.
+    """
+    path = CORRECTIONS_DIR / f'{ep_key_str}.json'
+    if not path.exists():
+        return transcript
+    try:
+        corrections = json.loads(path.read_text(encoding='utf-8'))
+    except Exception:
+        return transcript
+    for sp in transcript.get('speakers', []):
+        if sp['id'] in corrections:
+            new_name = corrections[sp['id']]
+            old_name = sp['name']
+            sp['name'] = new_name
+            for seg in transcript.get('segments', []):
+                pass  # segments use speaker IDs, not names
+            _ = old_name  # name reference kept for potential future use
+    return transcript
 
 
 # ---------------------------------------------------------------------------

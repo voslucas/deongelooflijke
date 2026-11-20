@@ -106,16 +106,22 @@ class TestFullRun(unittest.TestCase):
         self.orig_ep = sd.EPISODES_JSON
         self.orig_out = sd.OUT_DIR
         self.orig_tx = sd.TRANSCRIPTS_DIR
+        self.orig_an = sd.ANALYSIS_DIR
+        self.orig_bk = sd.BOOKS_DIR
         sd.ROOT = self.root
         sd.EPISODES_JSON = self.root / 'data' / 'episodes.json'
         sd.OUT_DIR = self.root / 'site' / 'dist' / 'data'
         sd.TRANSCRIPTS_DIR = self.root / 'data' / 'transcripts'
+        sd.ANALYSIS_DIR = self.root / 'data' / 'analysis'
+        sd.BOOKS_DIR = self.root / 'data' / 'books'
 
     def tearDown(self):
         sd.ROOT = self.orig_root
         sd.EPISODES_JSON = self.orig_ep
         sd.OUT_DIR = self.orig_out
         sd.TRANSCRIPTS_DIR = self.orig_tx
+        sd.ANALYSIS_DIR = self.orig_an
+        sd.BOOKS_DIR = self.orig_bk
         self.tmp.cleanup()
 
     def _run(self):
