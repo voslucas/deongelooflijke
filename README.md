@@ -32,6 +32,7 @@ data/
   persons/images/       Profile photos ({slug}.jpg/png/webp)
   bible/{BOOK}.json     NBV21 verse text keyed by chapter and verse (scraped)
   word_index.json       Transcript-derived word frequencies per episode (9_build_word_index.py)
+  wiki_cache.json       Cross-episode Wikipedia search cache (8_enrich_people_wiki.py)
   voice-profiles/       Voice embeddings (.npy) used for speaker identification
   themes.json           18 fixed themes used across the archive
   episodes.json         Compiled episode data embedded in the site
@@ -220,7 +221,7 @@ Prompt caching is used on the system prompt, so running all episodes in one pass
 
 For each person extracted by `analyze_episode.py`, this script searches Wikipedia (Dutch first, then English), runs one batched LLM call to verify the best match against the episode context, and stores the page URL and thumbnail in `data/analysis/{n}.json`.
 
-No API key is required. Wikipedia allows up to 200 requests/min for bots with a descriptive User-Agent; the script uses a 1-second delay between requests and exponential backoff on 429 responses.
+No API key is required. The script maintains a cross-episode search cache in `data/wiki_cache.json`: each unique person name is fetched from Wikipedia at most once across all episodes. On a first `--all-missing` run the cache is empty; on subsequent runs (or after adding new episodes) only new names hit the network. A 1-second delay between live requests and exponential backoff on 429 responses keep the script well within Wikimedia's rate limits.
 
 ```bash
 python scripts/8_enrich_people_wiki.py --all-missing

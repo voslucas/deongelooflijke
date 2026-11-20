@@ -246,6 +246,18 @@ def main():
         if n_bk:
             print(f'  copied {n_bk} book detail file(s) to site/dist/data/books/')
 
+    # Copy per-person detail files (produced by scripts/10_collect_persons.py)
+    persons_mentioned_src = ROOT / 'data' / 'persons_mentioned'
+    persons_mentioned_dst = dist / 'data' / 'persons_mentioned'
+    if persons_mentioned_src.exists():
+        persons_mentioned_dst.mkdir(parents=True, exist_ok=True)
+        n_pm = 0
+        for f in persons_mentioned_src.glob('*.json'):
+            shutil.copy2(f, persons_mentioned_dst / f.name)
+            n_pm += 1
+        if n_pm:
+            print(f'  copied {n_pm} person detail file(s) to site/dist/data/persons_mentioned/')
+
     # Copy word index (produced by scripts/9_build_word_index.py)
     wi_src = ROOT / 'data' / 'word_index.json'
     if wi_src.exists():

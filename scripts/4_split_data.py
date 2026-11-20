@@ -156,6 +156,14 @@ def build_mention_aggregate(transcripts, eps_by_key):
     return sorted(by_name.values(), key=lambda x: x['x'], reverse=True)
 
 
+def _shift_start_seconds(an: dict, delta: int = -5) -> None:
+    """Shift start_seconds on all timed analysis fields by delta seconds (min 0)."""
+    for field in ('people', 'books', 'chapters', 'highlights'):
+        for item in an.get(field) or []:
+            if isinstance(item, dict) and item.get('start_seconds') is not None:
+                item['start_seconds'] = max(0, item['start_seconds'] + delta)
+
+
 def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
     """Build aggregate from analysis people/books/places (no timestamp or speaker data)."""
     by_name = {}
@@ -178,6 +186,11 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             entry['x'] += 1
             entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
             entry['eps'].append(dict(ep_info, x=1, hits=[]))
+            # Carry wiki image from first occurrence that has one
+            if not entry.get('img') and isinstance(p, dict) and p.get('wiki_pageid') and p.get('wiki_image'):
+                entry['img'] = p['wiki_image']
+                if p.get('wiki_url'):
+                    entry['wiki_url'] = p['wiki_url']
 
         for b in an.get('books', []):
             name = b.get('canonical_title') or b.get('title', '')
@@ -195,6 +208,9 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             entry = by_name[nkey]
             if book_key and not entry.get('book_key'):
                 entry['book_key'] = book_key
+            # Carry thumbnail from first occurrence that has one
+            if not entry.get('bk_thumb') and (b.get('thumbnail') or '').strip():
+                entry['bk_thumb'] = b['thumbnail'].replace('http:', 'https:')
             # Also carry the note per episode hit
             ep_note = b.get('note', '')
             entry['x'] += 1
@@ -236,6 +252,10 @@ def merge_mention_aggregates(primary, secondary):
             for yr, cnt in entry['yr'].items():
                 merged[k]['yr'][yr] = merged[k]['yr'].get(yr, 0) + cnt
             merged[k]['x'] += sum(ep['x'] for ep in new_eps)
+            if not merged[k].get('img') and entry.get('img'):
+                merged[k]['img'] = entry['img']
+            if not merged[k].get('wiki_url') and entry.get('wiki_url'):
+                merged[k]['wiki_url'] = entry['wiki_url']
         else:
             merged[k] = entry
     return sorted(merged.values(), key=lambda x: x['x'], reverse=True)
@@ -303,7 +323,9 @@ def main():
         for f in ANALYSIS_DIR.glob('*.json'):
             try:
                 an = json.loads(f.read_text(encoding='utf-8'))
-                an_by_key[f.stem] = {k: v for k, v in an.items() if k in _AN_FIELDS}
+                an = {k: v for k, v in an.items() if k in _AN_FIELDS}
+                _shift_start_seconds(an, delta=-5)
+                an_by_key[f.stem] = an
             except Exception as exc:
                 print(f'  Warning: could not read analysis/{f.name}: {exc}')
 

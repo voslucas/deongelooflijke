@@ -1,10 +1,12 @@
 """Enrich people in analysis files with Wikipedia data.
 
 For each person in `data/analysis/{n}.json`, this script:
-1. Searches via the Wikimedia Core REST API (api.wikimedia.org) — nl first, then en.
-   Each search result already includes the thumbnail, so no separate pageinfo call is needed.
-2. Calls Claude (Haiku) once per episode batch to verify the best match against context.
-3. Writes wiki_url, wiki_image, wiki_lang, wiki_pageid, wiki_checked into the analysis file.
+1. Looks up `data/wiki_cache.json` — if the name was searched before, reuses that result.
+2. Otherwise searches via the Wikimedia Core REST API (api.wikimedia.org) — nl first, en only
+   as fallback when nl returns nothing. Each result includes the thumbnail inline.
+3. Calls Claude (Haiku) once per episode to verify the best match against episode context.
+4. Writes wiki_url, wiki_image, wiki_lang, wiki_pageid, wiki_checked into the analysis file.
+5. Saves search results to `data/wiki_cache.json` so repeated names are never re-fetched.
 
 Usage:
     python scripts/8_enrich_people_wiki.py --episode 327
@@ -15,30 +17,51 @@ Requires:
     pip install anthropic
     ANTHROPIC_API_KEY env var (or .env file)
 
-Wikipedia: free, no API key required. Uses api.wikimedia.org/core/v1 (the app-tier REST API)
-which has generous rate limits and returns thumbnails inline with search results.
+Wikipedia: free, no API key required. Uses api.wikimedia.org/core/v1 (the app-tier REST API).
+The cross-episode cache (`data/wiki_cache.json`) means each unique person name is fetched at
+most once across all episodes, drastically reducing API calls on `--all-missing` runs.
 """
 import argparse, json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 import pathlib
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT         = pathlib.Path(__file__).resolve().parent.parent
 DIR_FEED     = ROOT / 'data' / 'feed'
 DIR_ANALYSIS = ROOT / 'data' / 'analysis'
+CACHE_PATH   = ROOT / 'data' / 'wiki_cache.json'
 
 DEFAULT_MODEL = 'claude-haiku-5-5'
 
-# Wikimedia Core REST API — designed for applications, not the action API
+# Wikimedia Core REST API — designed for applications, not the action API.
+# User-Agent format per Wikimedia policy: AppName/version (contact-URL-or-email)
 _BASE = 'https://api.wikimedia.org/core/v1/wikipedia'
-
-# User-Agent is required; format: AppName/version (contact)
 _HEADERS = {
-    'User-Agent': 'OngelooflijkArchief/1.0 (podcast-archief)',
+    'User-Agent': 'OngelooflijkArchief/1.0 (https://github.com/deongelooflijke)',
     'Accept': 'application/json',
 }
 
 WIKI_LANGS   = ['nl', 'en']
 SEARCH_LIMIT = 5    # candidates per language
-WIKI_DELAY   = 1.0  # seconds between requests
+WIKI_DELAY   = 1.0  # seconds between live API requests
+
+
+# ---------------------------------------------------------------------------
+# Search cache (data/wiki_cache.json)
+# Keys: "{lang}:{name}" → list of candidate dicts (or [] if no results).
+# A missing key means "never searched". A cached [] means "searched, found nothing".
+# 429 / network failures are NOT cached so the name is retried next run.
+# ---------------------------------------------------------------------------
+
+def _load_cache() -> dict:
+    if CACHE_PATH.exists():
+        try:
+            return json.loads(CACHE_PATH.read_text(encoding='utf-8'))
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_cache(cache: dict) -> None:
+    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False), encoding='utf-8')
 
 
 # ---------------------------------------------------------------------------
@@ -46,7 +69,7 @@ WIKI_DELAY   = 1.0  # seconds between requests
 # ---------------------------------------------------------------------------
 
 def _wiki_get(url: str, retries: int = 4) -> dict:
-    """GET with exponential backoff on 429 (2→4→8→16 s)."""
+    """GET with exponential backoff on 429 (2→4→8→16 s). Raises on final failure."""
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=_HEADERS)
@@ -62,11 +85,12 @@ def _wiki_get(url: str, retries: int = 4) -> dict:
     return {}
 
 
-def wiki_search(name: str, lang: str = 'nl') -> list[dict]:
+def wiki_search(name: str, lang: str = 'nl') -> list[dict] | None:
     """Search Wikipedia via the Core REST API.
 
-    Returns candidates as {title, key, pageid, snippet, thumbnail_url, lang}.
-    The thumbnail is already included — no separate pageinfo call needed.
+    Returns list of candidates {title, key, pageid, snippet, thumbnail_url, lang},
+    [] if the search succeeded but found nothing, or None on network / 429 error
+    (None is never cached so the name is retried next run).
     """
     params = urllib.parse.urlencode({'q': name, 'limit': str(SEARCH_LIMIT)})
     url = f'{_BASE}/{lang}/search/page?{params}'
@@ -75,12 +99,11 @@ def wiki_search(name: str, lang: str = 'nl') -> list[dict]:
         results = []
         for page in data.get('pages', []):
             thumb = page.get('thumbnail') or {}
-            # thumbnail.url is protocol-relative (//upload.wikimedia.org/…)
             img = thumb.get('url', '')
             if img.startswith('//'):
                 img = 'https:' + img
-            # Bump thumbnail to 240px (pattern: /Npx-filename → /240px-filename)
-            img = re.sub(r'/\d+px-', '/240px-', img).split('?')[0]
+            # Bump thumbnail to 250px — a standard Wikimedia size (pattern: /Npx-filename)
+            img = re.sub(r'/\d+px-', '/250px-', img).split('?')[0]
             results.append({
                 'title':         page.get('title', ''),
                 'key':           page.get('key', ''),
@@ -92,11 +115,25 @@ def wiki_search(name: str, lang: str = 'nl') -> list[dict]:
         return results
     except Exception as exc:
         print(f'      wiki_search failed ({lang} "{name}"): {exc}')
-        return []
+        return None  # do not cache failures
+
+
+def wiki_search_cached(name: str, lang: str, cache: dict) -> list[dict]:
+    """Like wiki_search but reads/writes the shared search cache.
+
+    Returns [] on cache-hit with no results, on live empty search, or on failure.
+    """
+    key = f'{lang}:{name}'
+    if key in cache:
+        return cache[key]
+    results = wiki_search(name, lang)
+    if results is not None:
+        cache[key] = results   # cache success (even [])
+        # don't save to disk yet — caller saves after each episode
+    return results if results is not None else []
 
 
 def wiki_page_url(key: str, lang: str = 'nl') -> str:
-    """Construct the canonical Wikipedia page URL from a key."""
     return f'https://{lang}.wikipedia.org/wiki/{urllib.parse.quote(key, safe=":/")}'
 
 
@@ -157,8 +194,9 @@ def _verify_people(client, model: str, people_candidates: list[dict],
 # Main enrichment logic
 # ---------------------------------------------------------------------------
 
-def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
-    """Enrich people for one episode. Returns True if the file was updated."""
+def enrich_episode(key: str, client, model: str, cache: dict,
+                   force: bool = False) -> bool:
+    """Enrich people for one episode. Returns True if the analysis file was updated."""
     analysis_path = DIR_ANALYSIS / f'{key}.json'
     if not analysis_path.exists():
         return False
@@ -168,20 +206,16 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
     if not people:
         return False
 
-    # Build a name → person-object map for in-place updates
     name_to_person = {p['name']: p for p in people}
 
-    # Phase 1: re-resolve any person that has wiki_pageid+wiki_lang but no wiki_url
-    # (prior run stored the match but the pageinfo call failed — now we derive the
-    #  URL directly from the key, so we don't need an extra API call at all)
+    # Phase 1: resolve any person with wiki_pageid+wiki_lang but no wiki_url
+    # (prior run stored the match but url derivation failed).
     pageinfo_fixed = 0
     for p_obj in people:
         if p_obj.get('wiki_pageid') and p_obj.get('wiki_lang') and not p_obj.get('wiki_url'):
-            # We stored pageid but not the page key; fall back to a quick search
-            # to get the key, then construct the URL
             lang = p_obj['wiki_lang']
             name = p_obj['name']
-            hits = wiki_search(name, lang)
+            hits = wiki_search_cached(name, lang, cache)
             match = next((h for h in hits if h['pageid'] == p_obj['wiki_pageid']), None)
             if match:
                 p_obj['wiki_url'] = wiki_page_url(match['key'], lang)
@@ -191,9 +225,12 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
                 print(f'      ✓ {name} (resolved) → {p_obj["wiki_url"]}')
             else:
                 print(f'      ~ {name}: pageid {p_obj["wiki_pageid"]} not in top results')
-            time.sleep(WIKI_DELAY)
+            # only sleep if we actually hit the network (not a cache hit)
+            cache_key = f'{lang}:{name}'
+            if cache_key not in cache:
+                time.sleep(WIKI_DELAY)
 
-    # Phase 2: LLM verification for people not yet checked
+    # Phase 2: search + LLM verify for unchecked people
     to_check = people if force else [p for p in people if not p.get('wiki_checked')]
     if not to_check:
         if pageinfo_fixed:
@@ -202,7 +239,7 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
             print(f'    Saved  ({pageinfo_fixed} resolved)')
         return bool(pageinfo_fixed)
 
-    # Load episode context
+    # Load episode context for LLM
     feed_path = DIR_FEED / f'{key}.json'
     feed = json.loads(feed_path.read_text(encoding='utf-8')) if feed_path.exists() else {}
     episode_context = (
@@ -211,26 +248,36 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
         + '\n'.join(f"- {p['name']}: {p.get('note', '')}" for p in to_check)
     )
 
-    # Search Wikipedia for each person — nl first, en only as fallback
+    # Gather candidates — from cache where possible, live API otherwise.
+    # nl first; en only if nl returns nothing.
+    cache_hits = 0
     people_candidates = []
     for person in to_check:
         candidates = []
         for lang in WIKI_LANGS:
-            hits = wiki_search(person['name'], lang)
+            cache_key = f'{lang}:{person["name"]}'
+            already_cached = cache_key in cache
+            hits = wiki_search_cached(person['name'], lang, cache)
             candidates.extend(hits)
-            time.sleep(WIKI_DELAY)
+            if not already_cached:
+                time.sleep(WIKI_DELAY)  # only throttle live requests
+            else:
+                cache_hits += 1
             if hits:
-                break  # Dutch results found — skip English search
+                break  # nl had results — skip en
         people_candidates.append({
             'person': {'name': person['name'], 'note': person.get('note', '')},
             'candidates': candidates[:8],
         })
 
-    # LLM verification — one call for the whole batch
+    if cache_hits:
+        print(f'    {cache_hits} name(s) served from cache')
+
+    # LLM verification — one call for the whole episode
     print(f'    Verifying {len(to_check)} person(s) …')
     matches = _verify_people(client, model, people_candidates, episode_context)
 
-    # Build a lookup: pageid → candidate (across all people_candidates)
+    # Build pageid → candidate lookup across all people
     all_candidates: dict[tuple, dict] = {}
     for pc in people_candidates:
         for c in pc['candidates']:
@@ -244,12 +291,11 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
         p_obj['wiki_checked'] = True
 
         if result.get('matched') and result.get('pageid'):
-            pageid = int(result['pageid'])
-            lang   = result.get('lang', 'nl')
+            pageid    = int(result['pageid'])
+            lang      = result.get('lang', 'nl')
             p_obj['wiki_pageid'] = pageid
             p_obj['wiki_lang']   = lang
 
-            # Find the candidate to get key and thumbnail (no extra API call)
             candidate = all_candidates.get((pageid, lang))
             if candidate:
                 p_obj['wiki_url'] = wiki_page_url(candidate['key'], lang)
@@ -258,8 +304,8 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
                 matched_count += 1
                 print(f'      ✓ {person_input["name"]} → {p_obj["wiki_url"]}')
             else:
-                # pageid not in our result set — construct URL and try one search
-                hits = wiki_search(person_input['name'], lang)
+                # LLM chose a pageid not in our result set — do one extra search
+                hits = wiki_search_cached(person_input['name'], lang, cache)
                 match = next((h for h in hits if h['pageid'] == pageid), None)
                 if match:
                     p_obj['wiki_url'] = wiki_page_url(match['key'], lang)
@@ -269,7 +315,6 @@ def enrich_episode(key: str, client, model: str, force: bool = False) -> bool:
                     print(f'      ✓ {person_input["name"]} → {p_obj["wiki_url"]}')
                 else:
                     print(f'      ~ {person_input["name"]}: matched but key not found')
-                time.sleep(WIKI_DELAY)
         else:
             print(f'      – {person_input["name"]}: no match')
 
@@ -290,8 +335,8 @@ def _keys_needing_enrichment(force: bool) -> list[str]:
         people = an.get('people', [])
         if not people:
             continue
-        needs_llm      = any(not p.get('wiki_checked') for p in people)
-        needs_resolve  = any(p.get('wiki_pageid') and not p.get('wiki_url') for p in people)
+        needs_llm     = any(not p.get('wiki_checked') for p in people)
+        needs_resolve = any(p.get('wiki_pageid') and not p.get('wiki_url') for p in people)
         if force or needs_llm or needs_resolve:
             keys.append(f.stem)
     return keys
@@ -335,18 +380,22 @@ def main():
         print('Nothing to enrich.')
         return
 
-    print(f'Enriching {len(keys)} episode(s) with {args.model} …')
+    cache = _load_cache()
+    print(f'Enriching {len(keys)} episode(s) with {args.model} '
+          f'({len(cache)} name(s) already cached) …')
+
     for i, key in enumerate(keys, 1):
         print(f'  [{i}/{len(keys)}] #{key}')
         try:
-            enrich_episode(key, client, args.model, force=args.force)
+            enrich_episode(key, client, args.model, cache, force=args.force)
+            _save_cache(cache)   # persist after every episode
         except Exception as exc:
             print(f'    ERROR: {exc}')
             if '429' in str(exc):
-                print('    Rate limited — waiting 30 s …')
-                time.sleep(30)
+                print('    Rate limited — waiting 60 s …')
+                time.sleep(60)
         if i < len(keys):
-            time.sleep(0.5)
+            time.sleep(0.3)  # small gap between episodes (actual throttle is per-request)
 
     print('Done.')
 

@@ -143,6 +143,10 @@ blockquote.q{font:italic 400 21px/1.4 var(--body);margin:0;padding:4px 0 4px 18p
 /* people index */
 .people{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:0 28px}
 .people a.person{padding:10px 0;border-bottom:1px solid var(--rule)}
+.mention-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+.mention-row:hover{color:var(--violet)}
+.mention-name{flex:1 1 0;min-width:0;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mention-count{flex-shrink:0;font-size:13px}
 .alpha{display:flex;flex-wrap:wrap;gap:4px;font:600 14px var(--ui);margin-bottom:12px}
 .alpha a{padding:6px 8px;border-radius:6px;text-decoration:none;color:var(--ink)}
 .alpha a:hover{background:var(--parchment-2)}
@@ -332,11 +336,11 @@ svg.spark{display:block;width:auto;height:26px}
   <a class="brand" href="#start"><img src="__LOGO__" alt="De Ongelooflijke Podcast"><span><b>De Ongelooflijke</b><span>Archief</span></span></a>
   <nav class="main" aria-label="Hoofdmenu">
     <a href="#zoeken" data-nav="zoeken">Afleveringen</a>
+    <a href="#gasten" data-nav="gasten">Gasten</a>
     <a href="#personen" data-nav="personen">Personen</a>
+    <a href="#boeken" data-nav="boeken">Boeken</a>
     <a href="#themas" data-nav="themas">Thema's</a>
     <a href="#statistieken" data-nav="statistieken">Statistieken</a>
-    <a href="#genoemd" data-nav="genoemd">Genoemd</a>
-    <a href="#wie-zei-het" data-nav="quiz">Wie zei het?</a>
   </nav>
   <form class="qbox" id="qform" role="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="Zoek afleveringen…" aria-label="Zoek afleveringen" autocomplete="off"></form>
 </div></header>
@@ -388,7 +392,7 @@ const PEOPLE=Object.values(P);
 NAMETOK=new Set(PEOPLE.flatMap(p=>p.name.toLowerCase().split(/[\s-]+/)).filter(w=>w.length>3));
 const GUESTS=PEOPLE.filter(p=>p.role==='Gast');
 const initials=n=>n.split(/\s+/).filter(w=>/^[A-ZÀ-Þ]/.test(w)).map(w=>w[0]).slice(0,2).join('')||n[0];
-const plink=(name,cls='')=>`<a class="${cls}" href="#p-${slug(name)}">${esc(name)}</a>`;
+const plink=(name,cls='')=>`<a class="${cls}" href="#g-${slug(name)}">${esc(name)}</a>`;
 const IC_LINKEDIN=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="2.5"/><line x1="5" y1="7" x2="5" y2="12"/><circle cx="5" cy="4.5" r=".75" fill="currentColor" stroke="none"/><path d="M8 12V9.5a2 2 0 0 1 4 0V12M8 7v5"/></svg>`;
 const IC_TWITTER=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l11 11M13.5 2.5l-11 11"/></svg>`;
 const IC_BLUESKY=`<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10C6 8.5 2.5 6 1.5 7.5c-.5.8-.3 2 .5 2.5C3 10.5 5 10 6 10.5 5 11 3 12.5 3.5 14c.4 1 2 1 3-.5L8 11"/><path d="M8 10c2-1.5 5.5-4 6.5-2.5.5.8.3 2-.5 2.5C13 10.5 11 10 10 10.5c1 .5 3 2 2.5 3.5-.4 1-2 1-3-.5L8 11"/></svg>`;
@@ -467,12 +471,12 @@ function snippet(e,terms){
 function hl(s,terms){if(!terms.length)return esc(s);const n=norm(s);const marks=[];terms.forEach(t=>{let i=0;while((i=n.indexOf(t,i))>=0){marks.push([i,i+t.length]);i+=t.length}});if(!marks.length)return esc(s);marks.sort((a,b)=>a[0]-b[0]);let out='',p=0;marks.forEach(([a,b])=>{if(a<p)return;out+=esc(s.slice(p,a))+'<mark>'+esc(s.slice(a,b))+'</mark>';p=b});return out+esc(s.slice(p))}
 function epRow(e,terms=[]){
   const badge=e.f!=='Gesprek'?`<span class="badge">${esc(e.f)}</span>`:'';
-  const guests=e.g.length?' · '+e.g.map(g=>`<a href="#p-${slug(g)}">${hl(g,terms)}</a>`).join(', '):'';
+  const guests=e.g.length?' · '+e.g.map(g=>`<a href="#g-${slug(g)}">${hl(g,terms)}</a>`).join(', '):'';
   return `<article class="ep"><div class="no">${e.n!=null?'#'+e.n:'—'}</div><div style="min-width:0"><h3><a href="${e.hash}">${hl(e.t,terms)}</a>${badge}</h3>
   <div class="meta">${fdate(e.d)}${guests}</div><p class="snip">${snippet(e,terms)}</p>${terms.length&&state.tx?fragHits(e,terms):''}
   <div class="chips">${e.th.map(t=>`<a class="chip" href="#t-${slug(t)}">${esc(t)}</a>`).join('')}</div></div><div class="dur">${fdur(e.s)}</div></article>`;
 }
-const personCard=p=>`<a class="person" href="#p-${p.k}">${personAvatar(p,44)}<span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
+const personCard=p=>`<a class="person" href="#g-${p.k}">${personAvatar(p,44)}<span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
 
 function peoplePanel(people,e){
   if(!people||!people.length)return '';
@@ -858,34 +862,7 @@ function statsTx(){
   <div class="chart"><h3>Meest aangehaalde Bijbelboeken</h3><p class="note">Aantal afleveringen met een verwijzing.</p>${hbars(Object.entries(A.bib).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([l,v])=>({l,v})))}</div>
   <div class="chart"><h3>Meest genoemde filosofen</h3><p class="note">Aantal keer dat de naam valt in alle gesprekken. <a href="#genoemd">Alle genoemde namen →</a></p>${hbars(Object.entries(A.thk).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([l,v])=>({l,v,href:'#m-'+slug(l)})),{cls:'v'})}</div>`;
 }
-// ---- quiz: real quotes from descriptions ----
-const QZ={score:0,n:0,cur:null,used:new Set()};
-function viewQuiz(){
-  const pool=REG.filter(e=>e.g.length===1&&(e.q||[]).length&&!QZ.used.has(e.key));
-  if(!pool.length)QZ.used.clear();
-  const src=pool.length?pool:REG.filter(e=>e.g.length===1&&(e.q||[]).length);
-  if(!src.length){app.innerHTML='<p class="prose muted" style="padding:40px 0 0">Geen uitspraken beschikbaar.</p>';return;}
-  const e=src[Math.floor(Math.random()*src.length)];const q=(e.q||[])[Math.floor(Math.random()*(e.q||[]).length)]||'';
-  const others=GUESTS.filter(p=>p.name!==e.g[0]&&p.eps.length>=1);const opts=[e.g[0],...pickN(Math.random,others.map(p=>p.name),3)].sort(()=>Math.random()-.5);
-  QZ.cur={e,q};
-  app.innerHTML=`<div class="quiz"><h1>Wie zei het?</h1><p class="prose muted" style="margin:8px 0 6px">Een echte uitspraak uit de afleveringsomschrijvingen. In de aflevering met welke gast viel deze zin?</p>
-  <div class="qscore"><span>Score ${QZ.score} / ${QZ.n}</span></div>
-  <blockquote class="q">‘${esc(q)}’</blockquote>
-  <div class="qopts">${opts.map(o=>`<button class="qopt" type="button" data-ans="${esc(o)}">${esc(o)}</button>`).join('')}</div>
-  <div id="qres" style="margin-top:22px"></div></div>`;
-  app.querySelectorAll('.qopt').forEach(b=>b.onclick=()=>{
-    const ok=b.dataset.ans===e.g[0];QZ.n++;if(ok)QZ.score++;QZ.used.add(e.key);
-    app.querySelectorAll('.qopt').forEach(x=>{x.disabled=true;if(x.dataset.ans===e.g[0])x.classList.add('ok');else if(x===b)x.classList.add('bad')});
-    $('#qres').innerHTML=`<p style="font-size:19px;margin:0 0 6px"><b>${ok?'Goed!':'Helaas.'}</b> Het komt uit <a href="${e.hash}">#${e.n} ${esc(e.t)}</a>.</p><div class="actions"><button class="btn solid" type="button" id="qnext">Volgende citaat</button><a class="btn" href="#p-${slug(e.g[0])}">Meer over ${esc(e.g[0])}</a></div>`;
-    $('#qnext').onclick=viewQuiz;
-  });
-}
-
-
-// ---------- mentions: persons, philosophers, books, places ----------
-const CATS=[['persoon','Personen','persoon'],['filosoof','Filosofen','filosoof'],['boek','Boeken','boek'],['plaats','Plaatsen','plaats']];
-const CATL=Object.fromEntries(CATS.map(c=>[c[0],c[1]])),CAT1=Object.fromEntries(CATS.map(c=>[c[0],c[2]]));
-function spColor(name){return name==='David Boogerd'?'var(--ink)':name==='Stefan Paas'?'var(--gold-deep)':'var(--violet)'}
+// ---------- mentions: shared fetch cache ----------
 let _MA=null,_MA_P=null;
 async function loadMentionAgg(){
   if(_MA)return _MA;
@@ -905,47 +882,6 @@ async function loadMentionAgg(){
   return _MA_P;
 }
 function mentionAgg(){return _MA||{M:{},list:[],byK:{}}}
-function spark(a){const max=Math.max(...YEARS.map(y=>a.yr[y]||0))||1,w=8,g=3,h=26;return `<svg class="c spark" viewBox="0 0 ${YEARS.length*(w+g)} ${h}" width="${YEARS.length*(w+g)}" height="${h}" aria-hidden="true">${YEARS.map((y,i)=>{const v=a.yr[y]||0,bh=Math.max(v?2:1,(h-2)*v/max);return `<rect x="${i*(w+g)}" y="${h-bh}" width="${w}" height="${bh}" rx="1.5" class="${v?'bar':'grid'}" ${v?'':'style="fill:var(--rule)"'}><title>${y}: ${v}×</title></rect>`}).join('')}</svg>`}
-const MS={cat:'',q:'',sort:'x',min:1};
-async function viewMentions(){
-  app.innerHTML='<p class="loading">Laden…</p>';
-  const A=await loadMentionAgg();
-  if(!A.list.length){app.innerHTML='<div class="sechead" style="border:0;margin:0"><h1>Genoemd</h1></div><p class="prose" style="padding:20px 0">De namenindex wordt opgebouwd zodra meer transcriptie-analyses zijn verwerkt.</p>';return}
-  app.innerHTML=`<div class="sechead" style="border:0;margin:0"><h1>Genoemd</h1></div>
-  <p class="prose muted" style="margin:8px 0 6px">Personen, filosofen, boeken en plaatsen die in de gesprekken vallen. Klik op een naam voor alle momenten waarop die genoemd wordt.</p>
-  <div id="mtop"></div>
-  <div class="ctrl" style="margin-top:26px"><div class="chips" style="margin:0" id="mcat"></div></div>
-  <div class="ctrl"><input id="mq" type="search" placeholder="Zoek een naam, boek of plaats" aria-label="Zoek in genoemde namen" value="${esc(MS.q)}" style="flex:1 1 220px">
-  <label>In minstens <select id="mmin">${[1,2,3,5,10].map(n=>`<option value="${n}" ${MS.min===n?'selected':''}>${n} ${n===1?'aflevering':'afleveringen'}</option>`).join('')}</select></label>
-  <label>Sorteer <select id="msort"><option value="x">Meest genoemd</option><option value="e">In meeste afleveringen</option><option value="r">Recent genoemd</option><option value="a">A–Z</option></select></label></div>
-  <div id="mlist"></div>`;
-  $('#msort').value=MS.sort;
-  const cnt=c=>A.list.filter(a=>(!c||a.c===c)&&a.eps.length>=MS.min).length;
-  const drawCats=()=>{$('#mcat').innerHTML=[['','Alles'],...CATS].map(([k,l])=>`<button type="button" class="chip ${MS.cat===k?'on':''}" data-mcat="${k}">${l} <span>${cnt(k)}</span></button>`).join('');
-    $('#mcat').querySelectorAll('[data-mcat]').forEach(b=>b.onclick=()=>{MS.cat=b.dataset.mcat;drawCats();drawList()})};
-  const S={x:(a,b)=>b.x-a.x,e:(a,b)=>b.eps.length-a.eps.length||b.x-a.x,r:(a,b)=>a.eps.at(-1).d<b.eps.at(-1).d?1:-1,a:(a,b)=>a.n.localeCompare(b.n,'nl')};
-  const drawList=()=>{const q=norm(MS.q);const rows=A.list.filter(a=>(!MS.cat||a.c===MS.cat)&&a.eps.length>=MS.min&&(!q||norm(a.n).includes(q))).sort(S[MS.sort]);
-    const hasSp=rows.some(a=>a.top);
-    $('#mtop').innerHTML=(!MS.cat&&!q)?`<div class="mtop">${CATS.map(([c,l])=>{const t=A.list.filter(a=>a.c===c).sort(S.x).slice(0,5);return t.length?`<div><h3>${l}</h3><ol>${t.map(a=>`<li><a href="#m-${a.slug}">${esc(a.n)}</a><span class="num muted"> ${a.x}\xd7</span></li>`).join('')}</ol></div>`:''}).join('')}</div>`:'';
-    $('#mlist').innerHTML=rows.length?`<div class="scroll"><table class="mtab"><thead><tr><th>Naam</th><th>Soort</th><th class="r">Keer</th><th class="r">Afleveringen</th><th>${YEARS[0]}–${YEARS.at(-1)}</th>${hasSp?'<th>Vaakst door</th>':''}</tr></thead><tbody>${rows.map(a=>`<tr><td><a href="#m-${a.slug}"><b>${esc(a.n)}</b></a></td><td><span class="mcat mcat-${a.c}">${CAT1[a.c]||a.c}</span></td><td class="r num">${a.x}</td><td class="r num">${a.eps.length}</td><td>${spark(a)}</td>${hasSp?`<td class="muted">${a.top?esc(a.top[0]):''}</td>`:''}</tr>`).join('')}</tbody></table></div>`:'<p class="empty">Geen namen gevonden. Probeer een ander woord of verlaag het minimum.</p>'};
-  $('#mq').oninput=ev=>{MS.q=ev.target.value;drawList()};$('#msort').onchange=ev=>{MS.sort=ev.target.value;drawList()};$('#mmin').onchange=ev=>{MS.min=+ev.target.value;drawCats();drawList()};
-  drawCats();drawList();
-}
-async function viewMention(key){
-  app.innerHTML='<p class="loading">Laden…</p>';
-  const A=await loadMentionAgg();
-  const a=A.byK[key];
-  if(!a)return notFound();
-  const eps=[...a.eps].sort((p,q)=>p.d<q.d?1:-1);
-  app.innerHTML=`<div class="crumb"><a href="#genoemd">Genoemd</a> / ${esc(a.n)}</div>
-  <div class="detail"><div style="min-width:0"><div class="epno">${CAT1[a.c]||a.c}</div><div class="sechead" style="border:0;margin:4px 0 0;padding:0"><h1>${esc(a.n)}</h1></div>
-  <div class="facts"><div><b>${a.x}</b><span>keer genoemd</span></div><div><b>${a.eps.length}</b><span>afleveringen</span></div><div><b>${fdate(eps.at(-1).d).replace(/^\d+ /,'')}</b><span>voor het eerst</span></div><div><b>${fdate(eps[0].d).replace(/^\d+ /,'')}</b><span>voor het laatst</span></div></div>
-  <section style="margin-top:28px"><h2>Per jaar</h2><p class="ui muted" style="font-size:13px;margin:4px 0 8px">Aantal keer dat de naam valt.</p>${vbars(YEARS.map(y=>({l:String(y),v:a.yr[y]||0})),{h:170})}</section>
-  <section style="margin-top:28px"><div class="sechead"><h2>Waar het valt</h2><span class="label">nieuwste eerst</span></div>
-  ${eps.map(ep=>{const e=byNum[ep.n];const hash=e?e.hash:'#e-'+ep.n;const s=e?e.s:0;return `<article class="ep"><div class="no">${ep.n!=null?'#'+ep.n:'—'}</div><div style="min-width:0"><h3><a href="${hash}">${esc(ep.t)}</a></h3><div class="meta">${fdate(ep.d)}${ep.x>1?' \xb7 '+ep.x+'\xd7 genoemd':''}</div>${ep.hits&&ep.hits.length?'<div class="mhits">'+ep.hits.map(h=>`<a class="frag" href="${hash}" data-seekafter="${Math.round(h.t)}"><span class="num">▶ ${ts(h.t)}</span>${h.sp?`<span><b style="color:${spColor(h.sp)}">${esc(h.sp)}</b></span>`:''}</a>`).join('')+'</div>':''}</div><div class="dur">${fdur(s)}</div></article>`}).join('')}</section></div>
-  <aside class="side">${Object.keys(a.sp||{}).length?`<div class="panel"><h3>Wie noemt het</h3>${hbars(Object.entries(a.sp).sort((p,q)=>q[1]-p[1]).slice(0,8).map(([l,v])=>({l,v,href:'#p-'+slug(l)})))}</div>`:''}
-  <div class="panel"><h3>Meer ${(CATL[a.c]||a.c).toLowerCase()}</h3><div class="chips" style="margin:0">${A.list.filter(x=>x.c===a.c&&x!==a).sort((p,q)=>q.x-p.x).slice(0,10).map(x=>`<a class="chip" href="#m-${x.slug}">${esc(x.n)}</a>`).join('')}</div></div></aside></div>`;
-}
 
 // ---------- views ----------
 const state={tx:false,q:'',theme:'',fmt:'',y0:YEARS[0],y1:YEARS.at(-1),paas:'',dmin:'',dmax:'',sort:'rel',limit:40};
@@ -994,7 +930,7 @@ function viewHome(){
   <div class="facts"><div><b>${REG.filter(e=>e.n!=null).length}</b><span>afleveringen</span></div><div><b>${nl(Math.round(tot/3600))}</b><span>uur aan gesprekken</span></div><div><b>${GUESTS.length}</b><span>verschillende gasten</span></div><div><b>${Math.round(REG.reduce((a,e)=>a+e.min,0)/REG.length)}′</b><span>gemiddelde duur</span></div></div>
   <section><div class="sechead"><h2>Nieuwste afleveringen</h2><a class="ui" href="#zoeken">Alle afleveringen →</a></div><div class="eps">${latest.slice(0,5).map(e=>epRow(e)).join('')}</div></section>
   ${onthisday.length?`<section><div class="sechead"><h2>Rond deze dag in eerdere jaren</h2><span class="label">${today.getDate()} ${MONTHS[today.getMonth()]}</span></div><div class="eps">${onthisday.slice(0,4).map(e=>epRow(e)).join('')}</div></section>`:''}
-  <section><div class="sechead"><h2>Vaakst te gast</h2><a class="ui" href="#personen">Alle personen →</a></div><div class="people">${topG.map(personCard).join('')}</div></section>
+  <section><div class="sechead"><h2>Vaakst te gast</h2><a class="ui" href="#gasten">Alle gasten →</a></div><div class="people">${topG.map(personCard).join('')}</div></section>
   <section><div class="sechead"><h2>Thema's</h2><a class="ui" href="#themas">Alle thema's →</a></div><div class="chips">${THEMES.map(t=>`<a class="chip" href="#t-${slug(t)}">${esc(t)} <span class="muted">${EP.filter(e=>e.th.includes(t)).length}</span></a>`).join('')}</div></section>`;
   $('#rnd').onclick=()=>{const e=REG[Math.floor(Math.random()*REG.length)];location.hash=e.hash};
 }
@@ -1036,7 +972,7 @@ async function viewEpisode(e){
   mountTx(e,T);
 }
 
-function viewPerson(p){
+function viewGuest(p){
   if(!p)return notFound();
   const eps=[...p.eps].sort((a,b)=>a.d<b.d?1:-1);
   const co={};p.eps.forEach(e=>e.g.forEach(g=>{if(g!==p.name)co[g]=(co[g]||0)+1}));
@@ -1048,7 +984,7 @@ function viewPerson(p){
   const avg=p.secs/p.eps.length;const share=(p.eps.length/REG.length*100);
   const isHost=p.role!=='Gast';
   const pd=(D.persons||{})[p.k];
-  app.innerHTML=`<div class="crumb"><a href="#personen">Personen</a> / ${esc(p.name)}</div>
+  app.innerHTML=`<div class="crumb"><a href="#gasten">Gasten</a> / ${esc(p.name)}</div>
   <div class="detail"><div style="min-width:0">
   <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px">${personAvatar(p,72)}<div><div class="epno">${p.role}</div><h1>${esc(p.name)}</h1>${socialLinks(pd&&pd.socials)}</div></div>
   ${p.bio?`<p class="prose" style="font-size:20px">${esc(p.bio)}</p>`:''}
@@ -1108,7 +1044,7 @@ async function viewBook(key){
   const bolUrl = `https://www.bol.com/nl/nl/s/?searchtext=${encodeURIComponent(buyIsbn)}`;
   const amzUrl = `https://www.amazon.nl/s?k=${encodeURIComponent(buyIsbn)}`;
   const moreBooks = A.list.filter(a=>a.c==='boek'&&a!==agg).sort((a,b)=>b.x-a.x).slice(0,10);
-  app.innerHTML=`<div class="crumb"><a href="#genoemd">Genoemd</a> / <a href="#genoemd">Boeken</a> / ${esc(title)}</div>
+  app.innerHTML=`<div class="crumb"><a href="#boeken">Boeken</a> / ${esc(title)}</div>
   <div class="detail"><div style="min-width:0">
   <div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:16px">${coverEl}<div style="min-width:0"><div class="epno">Boek</div><h1 style="margin:4px 0 6px">${esc(title)}</h1>${author?`<div style="font-size:17px;color:var(--ink-muted)">${esc(author)}</div>`:''}</div></div>
   ${description?`<p class="prose" style="font-size:16px;margin:0 0 20px">${esc(description)}</p>`:''}
@@ -1132,14 +1068,158 @@ async function viewBook(key){
     <a class="btn solid" href="${bolUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op bol.com</a>
     <a class="btn" href="${amzUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op Amazon.nl</a>
   </div></div>
-  ${moreBooks.length?`<div class="panel"><h3>Meer boeken</h3><div class="chips" style="margin:0">${moreBooks.map(a=>{const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#m-${a.slug}`;return `<a class="chip" href="${href}">${esc(a.n)}</a>`}).join('')}</div></div>`:''}
+  ${moreBooks.filter(a=>a.book_key).length?`<div class="panel"><h3>Meer boeken</h3><div class="chips" style="margin:0">${moreBooks.filter(a=>a.book_key).map(a=>`<a class="chip" href="#b-${a.book_key}">${esc(a.n)}</a>`).join('')}</div></div>`:''}
   </aside></div>`;
 }
 
-function viewPeople(){
+// ---------- books overview ----------
+async function viewBooks(){
+  app.innerHTML='<p class="loading">Laden…</p>';
+  const A=await loadMentionAgg();
+  const books=A.list.filter(a=>a.c==='boek');
+  if(!books.length){app.innerHTML=`<h1>Boeken</h1><p class="prose muted" style="padding:20px 0">De boekenindex wordt opgebouwd zodra meer analyse-data beschikbaar is.</p>`;return}
+  const allYrs=YEARS.filter(y=>books.some(a=>a.yr&&a.yr[y]));
+  let selYr='';
+  const BICON='<svg width="38" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:.7"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+  function score(a){return selYr?((a.yr&&a.yr[selYr])||0):a.x}
+  function bookCard(a){
+    const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
+    const thumb=(a.bk_thumb||'').replace(/^http:/,'https:');
+    const cover=thumb
+      ?`<img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:72px;height:100px;border-radius:4px;object-fit:cover;flex-shrink:0;align-self:flex-start"><div style="display:none"></div>`
+      :`<div style="width:72px;height:100px;background:var(--gold);border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16">${BICON}</div>`;
+    const cnt=score(a);
+    return `<a class="book-card" href="${href}" style="display:flex;flex-direction:column;gap:8px;padding:14px;background:var(--parchment-2);border-radius:10px;text-decoration:none;color:var(--ink);border:1px solid var(--rule)">${cover}<span style="display:flex;flex-direction:column;gap:3px;min-width:0"><b style="font-family:Lora,Georgia,serif;font-size:14px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(a.n)}</b>${a.author?`<span style="font-size:12px;color:var(--ink-muted)">${esc(a.author)}</span>`:''}<span class="num muted" style="font-size:12px">${cnt}×</span></span></a>`;
+  }
+  function draw(){
+    const top10=[...books].sort((a,b)=>score(b)-score(a)).filter(a=>score(a)>0).slice(0,10);
+    const q=norm($('#bkq').value);
+    const list=[...books].filter(a=>!q||(norm(a.n)+' '+(a.author?norm(a.author):'')).includes(q)).sort((a,b)=>score(b)-score(a));
+    $('#bktop').innerHTML=`<div class="people" style="grid-template-columns:repeat(auto-fill,minmax(140px,1fr))">${top10.map(bookCard).join('')}</div>`;
+    $('#bklist').innerHTML=list.length?list.map(a=>{
+      const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
+      const thumb=(a.bk_thumb||'').replace(/^http:/,'https:');
+      const cover=thumb
+        ?`<img src="${esc(thumb)}" alt="" loading="lazy" onerror="this.replaceWith(this.nextSibling)" style="width:40px;height:56px;border-radius:3px;object-fit:cover;flex-shrink:0"><div style="display:none"></div>`
+        :`<div style="width:40px;height:56px;background:var(--gold);border-radius:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#3e2b16;font-size:11px">${BICON}</div>`;
+      const cnt=score(a);
+      return `<a class="mention-row" href="${href}" style="align-items:center">${cover}<span class="mention-name" style="flex:1 1 0;min-width:0"><b>${esc(a.n)}</b>${a.author?`<span style="display:block;font-size:12px;color:var(--ink-muted)">${esc(a.author)}</span>`:''}</span><span class="mention-count num muted">${cnt}×</span></a>`;
+    }).join(''):'<p class="empty">Geen boeken gevonden.</p>';
+    $('#bkyears').querySelectorAll('[data-yr]').forEach(b=>b.classList.toggle('on',b.dataset.yr===selYr));
+  }
+  app.innerHTML=`<h1>Boeken</h1>
+  <p class="lede prose muted" style="margin:8px 0 20px">Boeken die in afleveringen worden besproken of aanbevolen.</p>
+  <div class="ctrl" style="margin-bottom:4px"><div class="chips" style="margin:0" id="bkyears">
+    <button type="button" class="chip on" data-yr="">Alle jaren</button>
+    ${allYrs.map(y=>`<button type="button" class="chip" data-yr="${y}">${y}</button>`).join('')}
+  </div></div>
+  <h2 style="margin:20px 0 12px">Meest besproken</h2>
+  <div id="bktop"></div>
+  <div class="ctrl" style="margin:28px 0 10px"><input id="bkq" type="search" placeholder="Zoek een boek of auteur…" aria-label="Zoek een boek" style="flex:1 1 220px"></div>
+  <div id="bklist"></div>`;
+  $('#bkyears').querySelectorAll('[data-yr]').forEach(b=>b.onclick=()=>{selYr=b.dataset.yr;draw()});
+  $('#bkq').oninput=()=>draw();
+  draw();
+}
+
+// ---------- mentioned persons overview ----------
+async function viewPersonsMentioned(){
+  app.innerHTML='<p class="loading">Laden…</p>';
+  const A=await loadMentionAgg();
+  const people=A.list.filter(a=>a.c==='persoon'||a.c==='filosoof');
+  if(!people.length){app.innerHTML=`<h1>Personen</h1><p class="prose muted" style="padding:20px 0">De personenindex wordt opgebouwd zodra meer analyse-data beschikbaar is.</p>`;return}
+  const allYrs=YEARS.filter(y=>people.some(a=>a.yr&&a.yr[y]));
+  let selYr='';
+  function score(a){return selYr?((a.yr&&a.yr[selYr])||0):a.x}
+  function iniAv(n,size,fs){return `<span class="ini" style="width:${size}px;height:${size}px;font-size:${fs}px;flex-shrink:0">${esc(initials(n))}</span>`}
+  function mentionAvatar(a,size,fs){
+    const img=a.img;
+    if(!img)return iniAv(a.n,size,fs);
+    return `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextSibling.style.display='grid'" style="width:${size}px;height:${size}px;border-radius:999px;object-fit:cover;flex-shrink:0">${iniAv(a.n,size,fs).replace('flex-shrink:0','flex-shrink:0;display:none')}`;
+  }
+  function personMentionCard(a){
+    const cnt=score(a);
+    return `<a class="person" href="#pp-${a.slug}">${mentionAvatar(a,44,14)}<span><b>${esc(a.n)}</b><span>${cnt}× · ${a.eps.length} ${a.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
+  }
+  function draw(){
+    const top10=[...people].sort((a,b)=>score(b)-score(a)).filter(a=>score(a)>0).slice(0,10);
+    const q=norm($('#pmq').value);
+    const list=[...people].filter(a=>!q||norm(a.n).includes(q)).sort((a,b)=>score(b)-score(a));
+    $('#pmtop').innerHTML=`<div class="people">${top10.map(personMentionCard).join('')}</div>`;
+    $('#pmlist').innerHTML=list.length?list.map(a=>{
+      const cnt=score(a);
+      return `<a class="mention-row" href="#pp-${a.slug}">${mentionAvatar(a,28,9)}<span class="mention-name">${esc(a.n)}</span><span class="mention-count num muted">${cnt}×</span></a>`;
+    }).join(''):'<p class="empty">Geen personen gevonden.</p>';
+    $('#pmyears').querySelectorAll('[data-yr]').forEach(b=>b.classList.toggle('on',b.dataset.yr===selYr));
+  }
+  app.innerHTML=`<h1>Personen</h1>
+  <p class="lede prose muted" style="margin:8px 0 4px">Figuren die in de afleveringen worden genoemd, op basis van AI-analyse. <span class="demo">Voorbeelddata</span></p>
+  <p class="demonote" style="font-size:13px;margin:0 0 20px">Genoemde personen zijn afkomstig uit de AI-analyse van afleveringen; volledigheid is niet gegarandeerd.</p>
+  <div class="ctrl" style="margin-bottom:4px"><div class="chips" style="margin:0" id="pmyears">
+    <button type="button" class="chip on" data-yr="">Alle jaren</button>
+    ${allYrs.map(y=>`<button type="button" class="chip" data-yr="${y}">${y}</button>`).join('')}
+  </div></div>
+  <h2 style="margin:20px 0 12px">Meest genoemd</h2>
+  <div id="pmtop"></div>
+  <div class="ctrl" style="margin:28px 0 10px"><input id="pmq" type="search" placeholder="Zoek een persoon…" aria-label="Zoek een persoon" style="flex:1 1 220px"></div>
+  <div id="pmlist"></div>`;
+  $('#pmyears').querySelectorAll('[data-yr]').forEach(b=>b.onclick=()=>{selYr=b.dataset.yr;draw()});
+  $('#pmq').oninput=()=>draw();
+  draw();
+}
+
+// ---------- mentioned person detail ----------
+async function viewPersonDetail(sl){
+  app.innerHTML='<p class="loading">Laden…</p>';
+  const[pd,A]=await Promise.all([
+    fetch(`data/persons_mentioned/${sl}.json`).then(r=>r.ok?r.json():null).catch(()=>null),
+    loadMentionAgg(),
+  ]);
+  const agg=A.list.find(a=>(a.c==='persoon'||a.c==='filosoof')&&a.slug===sl)||null;
+  if(!pd&&!agg)return notFound();
+  const name=(pd&&pd.name)||(agg&&agg.n)||'';
+  const img=(pd&&pd.wiki_image)||(agg&&agg.img)||'';
+  const wikiUrl=(pd&&pd.wiki_url)||(agg&&agg.wiki_url)||'';
+  const notes=(pd&&pd.notes)||[];
+  const eps=agg?[...agg.eps].sort((a,b)=>a.d<b.d?1:-1):[];
+  const mentionCount=agg?agg.x:0;
+  const epCount=agg?agg.eps.length:0;
+  const firstEp=agg&&agg.eps.length?agg.eps[0]:null;
+  const lastEp=agg&&agg.eps.length?agg.eps.at(-1):null;
+  const ini=`<span class="ini" style="width:90px;height:90px;font-size:28px;flex-shrink:0">${esc(initials(name))}</span>`;
+  const avatarEl=img
+    ?`<img src="${esc(img)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextSibling.style.display='grid'" style="width:90px;height:90px;border-radius:999px;object-fit:cover;flex-shrink:0">${ini.replace('flex-shrink:0','flex-shrink:0;display:none')}`
+    :ini;
+  app.innerHTML=`<div class="crumb"><a href="#personen">Personen</a> / ${esc(name)}</div>
+  <div class="detail"><div style="min-width:0">
+  <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px">${avatarEl}<div><div class="epno">Figuur</div><h1>${esc(name)}</h1>${wikiUrl?`<a href="${esc(wikiUrl)}" target="_blank" rel="noopener" style="font-size:13px;color:var(--violet)">Wikipedia →</a>`:''}</div></div>
+  <div class="facts" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+    <div><b>${mentionCount}</b><span>keer genoemd</span></div>
+    <div><b>${epCount}</b><span>${epCount===1?'aflevering':'afleveringen'}</span></div>
+    ${firstEp?`<div><b>${fdate(firstEp.d).replace(/^\d+ /,'')}</b><span>voor het eerst</span></div>`:'<div></div>'}
+    ${lastEp&&lastEp!==firstEp?`<div><b>${fdate(lastEp.d).replace(/^\d+ /,'')}</b><span>voor het laatst</span></div>`:'<div></div>'}
+  </div>
+  ${epCount>1?`<section style="margin-top:28px"><h2>Per jaar</h2>${vbars(YEARS.map(y=>({l:String(y),v:(agg&&agg.yr&&agg.yr[y])||0})),{h:160})}</section>`:''}
+  <section style="margin-top:28px"><div class="sechead"><h2>Afleveringen</h2><span class="label">nieuwste eerst</span></div>
+  ${eps.map(ep=>{const e=byNum[ep.n];const hash=e?e.hash:'#e-'+ep.n;const s=e?e.s:0;
+    return `<article class="ep"><div class="no">${ep.n!=null?'#'+ep.n:'—'}</div><div style="min-width:0"><h3><a href="${hash}">${esc(ep.t)}</a></h3><div class="meta">${fdate(ep.d)}</div></div><div class="dur">${fdur(s)}</div></article>`;
+  }).join('')}</section>
+  </div>
+  <aside class="side">
+  <div class="panel"><h3>Gegevens</h3><dl class="kv">
+    ${firstEp?`<dt>Eerste keer</dt><dd><a href="${byNum[firstEp.n]?byNum[firstEp.n].hash:'#e-'+firstEp.n}">${fdate(firstEp.d)}</a></dd>`:''}
+    ${lastEp&&lastEp!==firstEp?`<dt>Laatste keer</dt><dd><a href="${byNum[lastEp.n]?byNum[lastEp.n].hash:'#e-'+lastEp.n}">${fdate(lastEp.d)}</a></dd>`:''}
+    ${wikiUrl?`<dt>Wikipedia</dt><dd><a href="${esc(wikiUrl)}" target="_blank" rel="noopener">Open →</a></dd>`:''}
+  </dl></div>
+  ${notes.length?`<div class="panel"><h3>Omschrijvingen</h3><ul style="margin:0;padding:0 0 0 18px">${notes.map(n=>`<li style="font-size:14px;margin-bottom:6px">${esc(n)}</li>`).join('')}</ul></div>`:''}
+  ${A.list.filter(a=>(a.c==='persoon'||a.c==='filosoof')&&a!==agg).sort((a,b)=>b.x-a.x).slice(0,10).length?`<div class="panel"><h3>Meer personen</h3><div class="chips" style="margin:0">${A.list.filter(a=>(a.c==='persoon'||a.c==='filosoof')&&a!==agg).sort((a,b)=>b.x-a.x).slice(0,10).map(a=>`<a class="chip" href="#pp-${a.slug}">${esc(a.n)}</a>`).join('')}</div></div>`:''}
+  </aside></div>`;
+}
+
+function viewGuests(){
   const sorts={n:(a,b)=>b.eps.length-a.eps.length||b.secs-a.secs,a:(a,b)=>surname(a.name).localeCompare(surname(b.name),'nl'),r:(a,b)=>a.eps.at(-1).d<b.eps.at(-1).d?1:-1,t:(a,b)=>b.secs-a.secs};
   function surname(n){const parts=n.split(' ');const i=parts.findIndex((w,k)=>k>0&&/^[A-ZÀ-Þ]/.test(w)&&k===parts.length-1);return parts.slice(-1)[0]}
-  app.innerHTML=`<h1>Personen</h1><p class="lede prose muted" style="margin:8px 0 18px">De presentator, de vaste gast en ${GUESTS.length} gasten. Kies een naam voor alle afleveringen, statistieken en de woorden die rond die persoon vallen.</p>
+  app.innerHTML=`<h1>Gasten</h1><p class="lede prose muted" style="margin:8px 0 18px">De presentator, de vaste gast en ${GUESTS.length} gasten. Kies een naam voor alle afleveringen, statistieken en de woorden die rond die persoon vallen.</p>
   <div class="ctrl"><input id="pf" type="search" placeholder="Filter op naam" aria-label="Filter op naam" style="flex:1 1 200px"><label>Sorteer <select id="ps"><option value="n">Meeste afleveringen</option><option value="t">Meeste luistertijd</option><option value="r">Recent te gast</option><option value="a">Achternaam A–Z</option></select></label></div>
   <h2 style="margin:18px 0 8px">Vaste gezichten</h2><div class="people">${[P['david-boogerd'],P['stefan-paas']].map(personCard).join('')}</div>
   <h2 style="margin:28px 0 8px">Gasten</h2><div class="people" id="plist"></div>`;
@@ -1306,16 +1386,17 @@ function route(){
   const h=location.hash.slice(1)||'start';let nav='';
   if(h==='start')viewHome();
   else if(h==='zoeken'){viewSearch();nav='zoeken'}
-  else if(h==='personen'){viewPeople();nav='personen'}
+  else if(h==='gasten'){viewGuests();nav='gasten'}
+  else if(h.startsWith('g-')){viewGuest(P[h.slice(2)]);nav='gasten'}
+  else if(h.startsWith('p-')){viewGuest(P[h.slice(2)]);nav='gasten'}
+  else if(h==='personen'){viewPersonsMentioned().catch(()=>notFound());nav='personen'}
+  else if(h.startsWith('pp-')){viewPersonDetail(h.slice(3)).catch(()=>notFound());nav='personen'}
+  else if(h==='boeken'){viewBooks().catch(()=>notFound());nav='boeken'}
+  else if(h.startsWith('b-')){viewBook(h.slice(2)).catch(()=>notFound());nav='boeken'}
   else if(h==='themas'){viewThemes();nav='themas'}
-  else if(h==='statistieken'){viewStats();nav='statistieken'}
-  else if(h==='genoemd'||h==='citaten'){viewMentions().catch(()=>notFound());nav='genoemd'}
-  else if(h.startsWith('m-')){viewMention(h.slice(2)).catch(()=>notFound());nav='genoemd'}
-  else if(h==='wie-zei-het'){viewQuiz();nav='quiz'}
-  else if(h.startsWith('e-')){viewEpisode(byKey[h.slice(2)]).catch(()=>notFound());nav='zoeken'}
-  else if(h.startsWith('p-')){viewPerson(P[h.slice(2)]);nav='personen'}
   else if(h.startsWith('t-')){viewTheme(THEME_BY_SLUG[h.slice(2)]);nav='themas'}
-  else if(h.startsWith('b-')){viewBook(h.slice(2)).catch(()=>notFound())}
+  else if(h==='statistieken'){viewStats();nav='statistieken'}
+  else if(h.startsWith('e-')){viewEpisode(byKey[h.slice(2)]).catch(()=>notFound());nav='zoeken'}
   else notFound();
   document.querySelectorAll('nav.main a').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));
   window.scrollTo(0,0);
