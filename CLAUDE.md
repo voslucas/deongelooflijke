@@ -170,6 +170,34 @@ The minimum rebuild after a code-only change to the template:
 python scripts/4_split_data.py && python scripts/5_build_site.py
 ```
 
+### Full rebuild after adding or re-analysing a single episode
+
+Running only `analyze_episode.py` is **not enough**. The correct order:
+
+```
+# 1. LLM analysis + Google Books matching
+python scripts/analyze_episode.py --episode N
+
+# 2. Wikipedia enrichment for people (adds wiki_url, wiki_image, etc.)
+python scripts/8_enrich_people_wiki.py --episode N
+
+# 3. Full book detail records (needs isbn13/volume_id from step 1)
+python scripts/9_enrich_books_detail.py --all-missing
+
+# 4. Rebuild mentioned-person detail files from all analysis files
+python scripts/10_collect_persons.py
+
+# 5. Generate bios for any new guests (skips guests who already have one)
+python scripts/enrich_guest_bios.py --all-missing
+
+# 6. Split data + build site
+python scripts/4_split_data.py && python scripts/5_build_site.py
+```
+
+Skipping steps 2–4 results in missing person Wikipedia photos/links, missing book
+detail pages, and stale persons_mentioned data. Skipping step 5 leaves new guests
+without a bio on their profile page.
+
 ## 9. Checklist before you ship a change
 
 - [ ] Colours from tokens only; both themes checked.

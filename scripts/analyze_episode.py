@@ -83,7 +83,7 @@ Extraheer de volgende velden en geef je antwoord als ALLEEN valide JSON — geen
 {{
   "themes": [ "Thema 1", "Thema 2" ],
   "guests": [ "Volledige Naam" ],
-  "people": [ {{"name": "Volledige Naam", "note": "korte rol of beschrijving", "start_seconds": 0}} ],
+  "people": [ {{"name": "Volledige Naam", "note": "korte rol of beschrijving", "start_seconds": 0, "mention_count": 1}} ],
   "books": [ {{"title": "Boektitel", "author": "Auteur of leeg", "note": "optioneel", "start_seconds": 0}} ],
   "bible_refs": [ {{"ref": "Boek Hoofdstuk:Vers", "note": "context"}} ],
   "places": [ "Plaatsnaam" ],
@@ -106,7 +106,11 @@ REGELS:
 - people: personen die besproken worden (ook historische figuren, politici, filosofen). \
   Normaliseer namen consistent (bijv. 'Karl Marx', niet 'Marx' of 'Karel Marx'). \
   start_seconds: het tijdstempel (in seconden) waarop deze persoon voor het eerst wordt genoemd; \
-  gebruik de [MM:SS]-tijdstempels uit het transcript (bijv. [12:34] → 754).
+  gebruik de [MM:SS]-tijdstempels uit het transcript (bijv. [12:34] → 754). \
+  mention_count: total number of references to this person in the transcript — \
+  count full name, surname, nickname, unambiguous role references ("de Amerikaanse president", \
+  "de filosoof", "de paus"), and discourse references where context makes clear who is meant. \
+  Do not count bare pronouns unless the referent is unambiguous. Minimum is 1.
 - books: alleen boeken die expliciet bij naam worden genoemd én inhoudelijk worden besproken. \
   Geen titels die slechts terloops voorbijkomen. \
   start_seconds: het tijdstempel (in seconden) waarop het boek voor het eerst inhoudelijk ter sprake komt. \
@@ -239,12 +243,18 @@ def _repair_json(client, model: str, broken_text: str) -> dict:
 GOOGLE_BOOKS_URL = 'https://www.googleapis.com/books/v1/volumes'
 
 
-def _search_google_books(title: str, author: str = '', api_key: str = '') -> list[dict]:
-    """Return up to 5 Google Books candidates for a title (+ optional author)."""
+def _search_google_books(title: str, author: str = '', api_key: str = '',
+                         lang_restrict: str = '') -> list[dict]:
+    """Return up to 5 Google Books candidates for a title (+ optional author).
+
+    When lang_restrict is given (e.g. 'nl'), results are filtered to that language.
+    """
     query = f'intitle:{title}'
     if author:
         query += f'+inauthor:{author}'
     params = {'q': query, 'maxResults': '5', 'printType': 'books'}
+    if lang_restrict:
+        params['langRestrict'] = lang_restrict
     if api_key:
         params['key'] = api_key
     url = GOOGLE_BOOKS_URL + '?' + urllib.parse.urlencode(params)
@@ -268,6 +278,12 @@ def _search_google_books(title: str, author: str = '', api_key: str = '') -> lis
     for item in data.get('items', []):
         vi = item.get('volumeInfo', {})
         ids = {x['type']: x['identifier'] for x in vi.get('industryIdentifiers', [])}
+        ai = item.get('accessInfo', {})
+        is_ebook = (
+            'play.google.com' in (vi.get('infoLink', '') or '')
+            or ai.get('epub', {}).get('isAvailable', False)
+            or ai.get('pdf', {}).get('isAvailable', False)
+        )
         results.append({
             'volume_id': item['id'],
             'title': vi.get('title', ''),
@@ -278,8 +294,30 @@ def _search_google_books(title: str, author: str = '', api_key: str = '') -> lis
             'isbn10': ids.get('ISBN_10'),
             'thumbnail': vi.get('imageLinks', {}).get('thumbnail', ''),
             'published': (vi.get('publishedDate', '') or '')[:4],
+            'language': vi.get('language', ''),
+            'is_ebook': is_ebook,
         })
     return results
+
+
+def _search_google_books_nl_first(title: str, author: str = '',
+                                   api_key: str = '') -> list[dict]:
+    """Search Google Books returning Dutch results first, then others.
+
+    Does two searches (langRestrict=nl + unrestricted) and merges them,
+    deduplicating by volume_id. Dutch editions come first so the LLM matcher
+    can prefer them.
+    """
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for lang in ('nl', ''):
+        for item in _search_google_books(title, author, api_key, lang_restrict=lang):
+            vid = item['volume_id']
+            if vid not in seen:
+                seen.add(vid)
+                merged.append(item)
+        time.sleep(0.1)
+    return merged[:10]
 
 
 def _verify_books(client, model: str, books: list[dict], episode_context: str) -> list[dict]:
@@ -289,10 +327,10 @@ def _verify_books(client, model: str, books: list[dict], episode_context: str) -
 
     book_candidates = []
     for book in books:
-        candidates = _search_google_books(book.get('title', ''), book.get('author', ''),
-                                          os.environ.get('GOOGLE_BOOKS_API_KEY', ''))
+        candidates = _search_google_books_nl_first(
+            book.get('title', ''), book.get('author', ''),
+            os.environ.get('GOOGLE_BOOKS_API_KEY', ''))
         book_candidates.append({'book': book, 'candidates': candidates})
-        time.sleep(0.1)  # stay within Google's free-tier rate limit
 
     if not any(bc['candidates'] for bc in book_candidates):
         return books  # no results at all — return as-is
@@ -305,7 +343,9 @@ def _verify_books(client, model: str, books: list[dict], episode_context: str) -
         + json.dumps(book_candidates, ensure_ascii=False, indent=2)
         + '\n\nBepaal voor elk geëxtraheerd boek welke Google Books kandidaat '
         '(als die er is) het juiste boek is dat in de aflevering wordt besproken. '
-        'Houd rekening met de context van het gesprek, de auteur en de beschrijving.\n\n'
+        'Houd rekening met de context van het gesprek, de auteur en de beschrijving.\n'
+        'VOORKEUR: kies Nederlandstalige edities (language: nl) boven Engelstalige. '
+        'Kies fysieke boeken boven e-books (is_ebook: true = vermijden tenzij er geen alternatief is).\n\n'
         'Geef je antwoord als ALLEEN valide JSON — een array met één object per boek '
         'in DEZELFDE VOLGORDE als de invoer:\n\n'
         '[\n'

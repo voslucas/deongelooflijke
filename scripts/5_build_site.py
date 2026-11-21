@@ -44,7 +44,7 @@ DUTCH_TO_OSIS = {
     '1 timoteüs': '1TI', '1 timoteus': '1TI', '2 timoteüs': '2TI', '2 timoteus': '2TI',
     'titus': 'TIT', 'filemon': 'PHM', 'hebreeën': 'HEB', 'hebreeen': 'HEB',
     'jakobus': 'JAS', '1 petrus': '1PE', '2 petrus': '2PE',
-    '1 johannes': '1JO', '2 johannes': '2JO', '3 johannes': '3JO',
+    '1 johannes': '1JN', '2 johannes': '2JN', '3 johannes': '3JN',
     'judas': 'JUD', 'openbaring': 'REV',
 }
 
@@ -177,6 +177,8 @@ def load_persons_data(root: pathlib.Path) -> dict:
             entry['socials'] = obj['socials']
         if has_img:
             entry['img'] = True
+        if obj.get('bio'):
+            entry['bio'] = obj['bio']
         if entry:
             result[k] = entry
     return result

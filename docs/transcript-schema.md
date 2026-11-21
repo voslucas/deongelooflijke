@@ -58,7 +58,7 @@ Written by `analyze_episode.py`, stored separately. The site's `4_split_data.py`
   "bible_refs": [{ "ref": "Mattheus 7:7", "note": "context" }],
   "themes": ["Bijbel & Jezus", "God & geloof"],
   "guests": ["Kader Abdolah"],
-  "people": [{ "name": "Karl Marx", "note": "filosoof" }],
+  "people": [{ "name": "Karl Marx", "note": "filosoof", "start_seconds": 0, "mention_count": 3 }],
   "books": [{ "title": "Jezus", "author": "Kader Abdolah", "note": "…" }],
   "places": ["Iran", "Nederland"],
   "quotes": ["citaat uit de beschrijving"]

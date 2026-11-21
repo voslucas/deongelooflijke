@@ -18,6 +18,45 @@ Requires:
 """
 import argparse, json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 import pathlib
+from html.parser import HTMLParser
+
+# Tags we keep from Google Books HTML descriptions; everything else is stripped
+# (but its text content is kept).
+_SAFE_TAGS = {'p', 'br', 'b', 'i', 'em', 'strong', 'ul', 'li'}
+
+
+class _SafeHtmlParser(HTMLParser):
+    """Strip all HTML except _SAFE_TAGS (no attributes kept)."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self._parts: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in _SAFE_TAGS:
+            self._parts.append(f'<{tag}>')
+
+    def handle_endtag(self, tag):
+        if tag in _SAFE_TAGS and tag != 'br':
+            self._parts.append(f'</{tag}>')
+
+    def handle_data(self, data):
+        self._parts.append(
+            data.replace('&', '&amp;').replace('<', '&lt;')
+                .replace('>', '&gt;').replace('"', '&quot;')
+        )
+
+    def result(self) -> str:
+        return ''.join(self._parts).strip()
+
+
+def _sanitize_description(html: str) -> str:
+    """Return *html* with only safe tags kept (all attributes stripped)."""
+    if not html:
+        return ''
+    p = _SafeHtmlParser()
+    p.feed(html)
+    return p.result()
+
 
 ROOT         = pathlib.Path(__file__).resolve().parent.parent
 DIR_ANALYSIS = ROOT / 'data' / 'analysis'
@@ -32,11 +71,18 @@ BOOKS_DELAY = 0.2  # seconds between Google Books API calls
 # ---------------------------------------------------------------------------
 
 def _fix_thumbnail(url: str) -> str:
-    """Force HTTPS and strip curl parameters."""
+    """Force HTTPS and normalise to a stable, token-free URL.
+
+    Google's API returns thumbnail URLs with a time-limited imgtk= signed token
+    that expires within hours. Stripping it (and the source= param) leaves a
+    stable public URL that works as long as the book has a public cover.
+    """
     if not url:
         return ''
     url = url.replace('http://', 'https://')
     url = re.sub(r'&?zoom=\d+', '', url)
+    url = re.sub(r'&?imgtk=[^&]+', '', url)
+    url = re.sub(r'&?source=[^&]+', '', url)
     return url.strip('&?')
 
 
@@ -111,6 +157,21 @@ def _build_book_record(volume_id: str, volume_data: dict,
     authors = vi.get('authors', [])
     author = canonical_author or (', '.join(authors) if authors else '')
 
+    # infoLink from Google sometimes points to Play Store instead of Books —
+    # play.google.com links are ebook-only and often broken for print books.
+    info_link = vi.get('infoLink', '') or ''
+    if 'books.google.' not in info_link:
+        info_link = f'https://books.google.nl/books?id={volume_id}'
+
+    # Detect ebook-only entries: Play Store URL or epub/pdf available but no print
+    sale_info   = volume_data.get('saleInfo', {})
+    access_info = volume_data.get('accessInfo', {})
+    is_ebook = (
+        'play.google.com' in (vi.get('infoLink', '') or '')
+        or access_info.get('epub', {}).get('isAvailable', False)
+        or access_info.get('pdf', {}).get('isAvailable', False)
+    )
+
     return {
         'key': key,
         'isbn13': isbn13,
@@ -119,7 +180,7 @@ def _build_book_record(volume_id: str, volume_data: dict,
         'title': canonical_title or vi.get('title', ''),
         'subtitle': vi.get('subtitle', ''),
         'author': author,
-        'description': (vi.get('description', '') or '')[:2000],
+        'description': _sanitize_description((vi.get('description', '') or '')[:2000]),
         'thumbnail': thumbnail,
         'thumbnail_large': thumbnail_large,
         'publisher': vi.get('publisher', ''),
@@ -127,8 +188,8 @@ def _build_book_record(volume_id: str, volume_data: dict,
         'page_count': vi.get('pageCount') or 0,
         'language': vi.get('language', ''),
         'categories': vi.get('categories', []),
-        'google_books_url': vi.get('infoLink', '') or
-                            f'https://books.google.nl/books?id={volume_id}',
+        'google_books_url': info_link,
+        'is_ebook': is_ebook,
     }
 
 
@@ -163,11 +224,64 @@ def _collect_unique_books() -> dict[str, dict]:
 
 
 def _keys_needing_enrichment(all_books: dict[str, dict], force: bool) -> list[str]:
+    # Build a set of volume_ids already covered by an existing book file so that
+    # a vol-X key isn't re-fetched just because the enriched file was saved under
+    # an isbn13 key after Google Books returned one.
+    covered_volume_ids: set[str] = set()
+    if not force and DIR_BOOKS.exists():
+        for f in DIR_BOOKS.glob('*.json'):
+            try:
+                vid = json.loads(f.read_text(encoding='utf-8')).get('volume_id', '')
+                if vid:
+                    covered_volume_ids.add(vid)
+            except Exception:
+                pass
+
     keys = []
-    for key in all_books:
-        if force or not (DIR_BOOKS / f'{key}.json').exists():
+    for key, meta in all_books.items():
+        if force:
+            keys.append(key)
+        elif (DIR_BOOKS / f'{key}.json').exists():
+            pass  # already have it under its own key
+        elif meta.get('volume_id') and meta['volume_id'] in covered_volume_ids:
+            pass  # already enriched under a different (isbn13) key
+        else:
             keys.append(key)
     return keys
+
+
+# ---------------------------------------------------------------------------
+# Dutch-edition fallback search
+# ---------------------------------------------------------------------------
+
+def _fetch_book_by_title_nl(title: str, author: str = '', api_key: str = '') -> dict | None:
+    """Search Google Books restricted to Dutch and return the best physical-book match."""
+    query = f'intitle:{title}'
+    if author:
+        query += f'+inauthor:{author}'
+    params = {'q': query, 'maxResults': '5', 'printType': 'books',
+              'langRestrict': 'nl'}
+    if api_key:
+        params['key'] = api_key
+    url = GOOGLE_BOOKS_URL + '?' + urllib.parse.urlencode(params)
+    try:
+        with urllib.request.urlopen(url, timeout=12) as r:
+            data = json.loads(r.read().decode('utf-8'))
+        for item in data.get('items', []):
+            vi  = item.get('volumeInfo', {})
+            ai  = item.get('accessInfo', {})
+            is_ebook = (
+                'play.google.com' in (vi.get('infoLink', '') or '')
+                or ai.get('epub', {}).get('isAvailable', False)
+            )
+            if not is_ebook:
+                return item
+        # All results were ebooks — return first anyway rather than nothing
+        items = data.get('items', [])
+        return items[0] if items else None
+    except Exception as exc:
+        print(f'    Dutch fallback search failed for "{title}": {exc}')
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -199,6 +313,23 @@ def enrich_book(key: str, book_meta: dict, api_key: str) -> bool:
     if volume_data is None:
         print(f'      – no data found (volume_id={volume_id!r}, isbn13={isbn13!r})')
         return False
+
+    # If the matched edition is not Dutch, try a Dutch-language search as fallback.
+    # Only do this when we don't have a specific volume_id from the analysis (i.e. the
+    # analyst matched a volume and we trust that choice); when we only have an isbn we
+    # accept the first hit regardless.
+    vi_lang = (volume_data.get('volumeInfo', {}).get('language') or '')
+    if vi_lang != 'nl' and not volume_id and book_meta.get('canonical_title'):
+        nl_item = _fetch_book_by_title_nl(
+            book_meta['canonical_title'],
+            book_meta.get('canonical_author', ''),
+            api_key,
+        )
+        if nl_item:
+            print(f'      → Dutch edition found, using that instead')
+            volume_id = nl_item.get('id', '') or volume_id
+            volume_data = nl_item
+        time.sleep(BOOKS_DELAY)
 
     record = _build_book_record(
         volume_id=volume_id or volume_data.get('id', ''),

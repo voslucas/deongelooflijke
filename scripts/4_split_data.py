@@ -181,11 +181,13 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             nkey = norm(name)
             if nkey not in by_name:
                 by_name[nkey] = {'n': name, 'c': 'persoon', 'k': nkey,
-                                 'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
+                                 'x': 0, 'mx': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
+            mc = max(1, int(p.get('mention_count') or 1)) if isinstance(p, dict) else 1
             entry['x'] += 1
+            entry['mx'] += mc
             entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
-            entry['eps'].append(dict(ep_info, x=1, hits=[]))
+            entry['eps'].append(dict(ep_info, x=mc, hits=[]))
             # Carry wiki image from first occurrence that has one
             if not entry.get('img') and isinstance(p, dict) and p.get('wiki_pageid') and p.get('wiki_image'):
                 entry['img'] = p['wiki_image']
@@ -256,13 +258,18 @@ def merge_mention_aggregates(primary, secondary):
                 merged[k]['eps'].sort(key=lambda e: e['d'])
             for yr, cnt in entry['yr'].items():
                 merged[k]['yr'][yr] = merged[k]['yr'].get(yr, 0) + cnt
-            merged[k]['x'] += sum(ep['x'] for ep in new_eps)
+            merged[k]['x'] += len(new_eps)
+            merged[k]['mx'] = merged[k].get('mx', merged[k]['x']) + sum(ep['x'] for ep in new_eps)
             if not merged[k].get('img') and entry.get('img'):
                 merged[k]['img'] = entry['img']
             if not merged[k].get('wiki_url') and entry.get('wiki_url'):
                 merged[k]['wiki_url'] = entry['wiki_url']
         else:
             merged[k] = entry
+    # Ensure every entry has mx (primary-only entries from transcript path may lack it)
+    for entry in merged.values():
+        if 'mx' not in entry:
+            entry['mx'] = sum(ep.get('x', 1) for ep in entry['eps'])
     return sorted(merged.values(), key=lambda x: x['x'], reverse=True)
 
 
