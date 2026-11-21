@@ -629,16 +629,26 @@ def book_panel_html(books):
 def bible_refs_html(refs):
     if not refs: return ''
     items = []
-    for r in refs:
+    for i, r in enumerate(refs):
         ref_text = r.get('ref') or r.get('r') or ''
         note = r.get('note') or ''
         if not ref_text: continue
-        note_el = (f'<span style="color:var(--ink-muted);font-size:12px;margin-left:6px">'
-                   f'— {esc(note)}</span>') if note else ''
-        items.append(f'<li><button class="bref" type="button" data-ref="{esc(ref_text)}">'
-                     f'{esc(ref_text)}</button>{note_el}</li>')
+        sep = ('border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px'
+               if i < len(refs) - 1 else '')
+        note_el = (f'<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">'
+                   f'{esc(note)}</div>') if note else ''
+        ts_btn = ''
+        if r.get('start_seconds') is not None:
+            ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(r["start_seconds"])}">'
+                      f'{ts_fmt(r["start_seconds"])}</button>')
+        items.append(
+            f'<div style="{sep}">'
+            f'<button class="bref" type="button" data-ref="{esc(ref_text)}">{esc(ref_text)}</button>'
+            f'{note_el}'
+            + (f'<div style="margin-top:4px">{ts_btn}</div>' if ts_btn else '')
+            + f'</div>')
     if not items: return ''
-    return f'<div class="panel"><h3>Bijbelverwijzingen</h3><ul class="trivia">{"".join(items)}</ul></div>'
+    return f'<div class="panel"><h3>Bijbelverwijzingen</h3>{"".join(items)}</div>'
 
 
 def facts_html(stats):
@@ -737,6 +747,7 @@ def page_shell(title, content, nav_active='', page_type='', og_meta=None, canoni
             f'family=Lora:ital,wght@0,500;0,600;0,700;1,500'
             f'&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">\n'
             f'<link rel="stylesheet" href="/assets/style.css">\n'
+            f'<script>function bkCover(el){{var fb=el.dataset.fb||\'\';el.dataset.fb=\'\';if(fb){{el.onerror=function(){{bkCover(el)}};el.onload=null;el.src=fb;}}else{{el.style.display=\'none\';var ic=el.nextElementSibling;if(ic)ic.style.display=\'flex\';}}}}</script>\n'
             f'{og_html}{can_html}'
             f'<script async src="https://plausible.docker.bitfox.nl/js/pa-S1epZutFV1HO5WcDqdEub.js"></script>\n'
             f'<script>window.plausible=window.plausible||function(){{(plausible.q=plausible.q||[]).push(arguments)}},plausible.init='
@@ -1804,12 +1815,33 @@ def build_episode_detail(data, ep, out):
                 f'<span>{esc(c["role"])} · {n_ep} {ep_w}</span></span></a>')
 
     # Tabs
-    tldr = esc(an.get('summary_tldr', '') or ep.get('x', '') or ep.get('xs', '') or '')
-    pts_html = ''
-    if an.get('summary_points'):
-        pts_html = ('<ul class="trivia">'
-                    + ''.join(f'<li>{esc(pt)}</li>' for pt in an['summary_points'])
-                    + '</ul>')
+    # Description prose (Omschrijving van de makers)
+    desc = ep.get('x', '') or ep.get('xs', '') or ''
+    desc_html = ('<div class="prose">'
+                 + ''.join(f'<p>{esc(p)}</p>' for p in desc.split('\n') if p.strip())
+                 + '</div>') if desc else ''
+
+    # In het kort (only if analysis exists)
+    has_analysis = bool(an.get('summary_tldr') or an.get('summary_points'))
+    if has_analysis:
+        tldr_html = f'<h2>In het kort</h2><p class="tldr">{esc(an.get("summary_tldr", ""))}</p>'
+        if an.get('summary_points'):
+            tldr_html += ('<h2>Kernpunten</h2><ul class="points">'
+                          + ''.join(f'<li>{esc(pt)}</li>' for pt in an['summary_points'])
+                          + '</ul>')
+    else:
+        tldr_html = ''
+
+    # Wie is wanneer aan het woord - placeholder for river + spk legend (filled by app.js)
+    river_placeholder = (
+        '<h2>Wie is wanneer aan het woord</h2>'
+        '<div class="river" data-river-pending '
+        'style="height:36px;background:var(--parchment-3);border-radius:4px"></div>'
+        '<div class="spk" data-spk-pending style="display:flex;gap:14px;'
+        'flex-wrap:wrap;margin-top:10px;font-size:14px"></div>'
+    )
+
+    # Hoogtepunten
     hl_html = ''
     if an.get('highlights'):
         items = []
@@ -1820,23 +1852,27 @@ def build_episode_detail(data, ep, out):
                           f'data-seek="{round(hl["start_seconds"])}">'
                           f'{ts_fmt(hl["start_seconds"])}</button>')
             speaker = esc(hl.get('speaker', ''))
-            lbl = f'Hoogtepunt{f" · {speaker}" if speaker else ""}'
+            lbl = f'Hoogtepunt{f" \u00b7 {speaker}" if speaker else ""}'
             items.append(f'<li>{ts_btn}<div><span class="label">{lbl}</span>'
                          f'<p>{esc(hl.get("text", ""))}</p></div></li>')
-        hl_html = f'<h2 style="margin:24px 0 8px">Hoogtepunten</h2><ol class="hl">{"".join(items)}</ol>'
-    ov_tab = f'{"<p>" + tldr + "</p>" if tldr else ""}{pts_html}{hl_html}'
+        hl_html = f'<h2>Hoogtepunten</h2><ol class="hl">{"".join(items)}</ol>'
+
+    ov_tab = (tldr_html
+              + river_placeholder
+              + hl_html
+              + (f'<h2>Omschrijving van de makers</h2>{desc_html}' if desc_html else ''))
 
     ch_html = ''
     if an.get('chapters'):
         ch_items = []
         chs = an['chapters']
         for i, ch in enumerate(chs):
-            start = ch.get('start_seconds', 0)
-            end = (chs[i + 1]['start_seconds'] if i + 1 < len(chs) else ep.get('s', 0))
-            dur_s = max(0, (end or 0) - start)
-            dur_str = f'{round(dur_s / 60)} min' if dur_s else ''
-            ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(start)}">'
-                      f'{ts_fmt(start)}</button>')
+            start_s = ch.get('start_seconds', 0)
+            end_s = (chs[i + 1]['start_seconds'] if i + 1 < len(chs) else ep.get('s', 0))
+            dur_s = max(0, (end_s or 0) - start_s)
+            dur_str = f'{round(dur_s / 60)} min' if dur_s else ''
+            ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(start_s)}">'
+                      f'{ts_fmt(start_s)}</button>')
             ch_items.append(
                 f'<li data-ch="{i}">'
                 f'<div class="when">{ts_btn}<span>{dur_str}</span></div>'
@@ -1845,25 +1881,33 @@ def build_episode_detail(data, ep, out):
                 + f'</div></li>')
         ch_html = f'<ol class="chapters">{"".join(ch_items)}</ol>'
 
-    tx_tab = (f'<div data-transcript-placeholder style="min-height:120px">'
-              f'<p class="loading">Transcript wordt geladen…</p></div>')
+    ch_placeholder = ('<p class="prose muted" style="padding:16px 0">Hoofdstukindeling beschikbaar '
+                      'zodra de analyse van deze aflevering klaar is.</p>')
+
+    tx_tab = (
+        '<div class="trctrl">'
+        '<input type="search" id="tr-q" placeholder="Zoek in dit gesprek" '
+        'aria-label="Zoek in dit transcript">'
+        '<label class="check"><input type="checkbox" id="tr-follow" checked> '
+        'Volg de speler</label></div>'
+        '<div class="segs" id="segs">'
+        '<p class="loading" style="padding:16px 0 0">Transcript wordt geladen\u2026</p></div>'
+    )
 
     tabs_html = (
-        f'<div class="tabs" role="tablist" aria-label="Inhoud">'
-        f'<button class="tab on" data-tab="ov" role="tab" aria-selected="true">Overzicht</button>'
-        + (f'<button class="tab" data-tab="ch" role="tab" aria-selected="false">Hoofdstukken</button>'
-           if ch_html else '')
-        + f'<button class="tab" data-tab="tr" role="tab" aria-selected="false">Transcript</button>'
-        f'</div>'
+        '<div class="tabs" role="tablist" aria-label="Inhoud">'
+        '<button class="tab on" data-tab="ov" role="tab" aria-selected="true">Overzicht</button>'
+        '<button class="tab" data-tab="ch" role="tab" aria-selected="false">Hoofdstukken</button>'
+        '<button class="tab" data-tab="tr" role="tab" aria-selected="false">Transcript</button>'
+        '<button class="tab" data-tab="an" role="tab" aria-selected="false">Analyse</button>'
+        '</div>'
         f'<div class="txwrap">'
         f'<div class="tabp" data-p="ov">{ov_tab}</div>'
-        + (f'<div class="tabp" data-p="ch" hidden>{ch_html}</div>' if ch_html else '')
-        + f'<div class="tabp" data-p="tr" hidden>{tx_tab}</div>'
-        f'</div>')
-
-    river_html = ('<div class="river" data-river-pending '
-                  'style="height:36px;background:var(--parchment-3);border-radius:4px"></div>')
-
+        f'<div class="tabp" data-p="ch" hidden>{ch_html or ch_placeholder}</div>'
+        f'<div class="tabp" data-p="tr" hidden>{tx_tab}</div>'
+        f'<div class="tabp" data-p="an" hidden><div data-analyse-pending></div></div>'
+        f'</div>'
+    )
     npo = npo_url(ep)
     mp3 = ep.get('mp3', '')
     listen_btn = ''
@@ -1893,7 +1937,6 @@ def build_episode_detail(data, ep, out):
         f'<div class="meta ui muted">'
         f'{esc(fmt_date(ep.get("d", "")))} · {fmt_dur(ep.get("s", 0))}</div>'
         f'<div class="actions" style="margin:12px 0">{listen_btn}</div>'
-        f'{river_html}'
         f'{tabs_html}'
         + (f'<h2 style="margin:32px 0 6px">Door de makers aangeraden</h2>'
            f'<div class="eps">{"".join(ep_row_html(e) for e in rel_eps)}</div>'

@@ -369,8 +369,16 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 // Book cover fallback: called from onload (tiny image) and onerror (network fail).
 // el: the <img>; tries data-fb (second source) then reveals the sibling gold icon.
 window.bkCover=function bkCover(el){const fb=el.dataset.fb||'';el.dataset.fb='';if(fb){el.onerror=()=>bkCover(el);el.onload=null;el.src=fb;}else{el.style.display='none';const icon=el.nextElementSibling;if(icon)icon.style.display='flex';}}
+// Resolve best available Google Books thumbnail: use storedThumb if present, otherwise
+// construct from volume_id. Always upgrades http→https. Used before every bkImg call.
+function bkThumb(volId,stored){
+  const t=(stored||'').replace(/^http:/,'https:');
+  if(t)return t;
+  const v=(volId||'').trim();
+  return v?`https://books.google.com/books/content?id=${encodeURIComponent(v)}&printsec=frontcover&img=1&zoom=1&source=gbs_api`:'';
+}
 // Unified book-cover element: Open Library first, Google thumb as fallback, gold icon as final.
-// isbn13: 13-digit string for OL (or ''); thumb: Google url; w/h: px (h=0 → natural img height); r: border-radius value.
+// isbn13: 13-digit string for OL (or ''); thumb: resolved Google url (use bkThumb first); w/h: px; r: border-radius.
 function bkImg(isbn13,thumb,w,h,r){
   const IS13=/^\d{13}$/.test((isbn13||'').trim());
   const ol=IS13?`https://covers.openlibrary.org/b/isbn/${(isbn13||'').trim()}${w>=60?'-L':'-M'}.jpg`:'';
@@ -504,14 +512,16 @@ function epRow(e,terms=[]){
 }
 const personCard=p=>`<a class="person" href="#g-${p.k}">${personAvatar(p,44)}<span><b>${esc(p.name)}</b><span>${p.role} · ${p.eps.length} ${p.eps.length===1?'aflevering':'afleveringen'}</span></span></a>`;
 
-function peoplePanel(people,e){
+function wikiThumb(url){return url?url.replace(/\/(\d+)px-/,(_,w)=>`/${Math.max(250,+w)}px-`):url}
+function peoplePanel(people,e,MA){
   if(!people||!people.length)return '';
   const rows=people.map((p,i)=>{
-    const hasImg=p.wiki_image;
+    const agg=MA?.byK?.[slug(p.name)];
+    const imgSrc=wikiThumb((agg?.img)||p.wiki_image||'');
     const ini=initials(p.name);
     const sep=i<people.length-1?'border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px':'';
-    const imgEl=hasImg
-      ?`<img src="${esc(p.wiki_image)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'" style="width:40px;height:40px;border-radius:999px;object-fit:cover;flex-shrink:0"><span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0;display:none">${esc(ini)}</span>`
+    const imgEl=imgSrc
+      ?`<img src="${esc(imgSrc)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'" style="width:40px;height:40px;border-radius:999px;object-fit:cover;flex-shrink:0"><span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0;display:none">${esc(ini)}</span>`
       :`<span class="ini" style="width:40px;height:40px;font-size:14px;flex-shrink:0">${esc(ini)}</span>`;
     const tsbtn=p.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(p.start_seconds)}" style="flex-shrink:0;font-size:11px;padding:3px 7px">${ts(p.start_seconds)}</button>`:'';
     const noteEl=p.note?`<a href="#pp-${slug(p.name)}" style="display:block;font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:1px;text-decoration:none">${esc(p.note)}</a>`:'';
@@ -526,14 +536,25 @@ function bookPanel(books){
     const author=esc(b.canonical_author||b.author||'');
     const note=esc(b.note||'');
     const sep=i<books.length-1?'border-bottom:1px solid var(--rule);margin-bottom:10px;padding-bottom:10px':'';
-    const cover=bkImg(b.isbn13,b.thumbnail,38,0,'2px');
-    const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="margin-top:4px">${ts(b.start_seconds)}</button>`:'';
     const isbn13=(b.isbn13||'').trim();const volId=(b.volume_id||'').trim();
     const bkey=isbn13?isbn13:(volId?`vol-${volId}`:'');
+    const coverImg=bkImg(isbn13,bkThumb(volId,b.thumbnail),38,54,'2px');
+    const cover=bkey?`<a href="#b-${bkey}" style="line-height:0;flex-shrink:0">${coverImg}</a>`:coverImg;
+    const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="margin-top:4px">${ts(b.start_seconds)}</button>`:'';
     const titleEl=bkey?`<a href="#b-${bkey}" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)">${title}</a>`:title;
     return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${titleEl}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}${tsbtn}</div></div>`;
   });
   return `<div class="panel"><h3>Besproken boeken</h3>${rows.join('')}</div>`;
+}
+function biblePanel(refs){
+  if(!refs||!refs.length)return '';
+  const items=refs.map((r,i)=>{
+    const sep=i<refs.length-1?'border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px':'';
+    const note=esc(r.note||'');
+    const tsbtn=r.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(r.start_seconds)}" style="margin-top:4px">${ts(r.start_seconds)}</button>`:'';
+    return `<div style="${sep}"><button class="bref" type="button" data-ref="${esc(r.ref)}">${esc(r.ref)}</button>${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">${note}</div>`:''}${tsbtn}</div>`;
+  });
+  return `<div class="panel"><h3>Bijbelverwijzingen</h3>${items.join('')}</div>`;
 }
 
 // ---------- charts ----------
@@ -777,7 +798,7 @@ async function fetchTranscript(e){
       if(an.summary_tldr||an.summary_points?.length)raw.summary={tldr:an.summary_tldr||'',points:an.summary_points||[]};
       if(an.chapters?.length)raw.chapters=an.chapters.map(c=>({start:c.start_seconds,title:c.title,summary:c.summary||''}));
       if(an.highlights?.length){const ni={};raw.speakers.forEach(s=>ni[s.name]=s.id);raw.highlights=an.highlights.map(h=>({t:h.start_seconds,kind:h.note||'Hoogtepunt',speaker:ni[h.speaker]||raw.speakers[0]?.id||'S1',text:h.text}));}
-      if(an.bible_refs?.length)raw.bible=an.bible_refs.map(b=>({ref:b.ref,t:-1}));
+      if(an.bible_refs?.length)raw.bible=an.bible_refs.map(b=>({ref:b.ref,t:b.start_seconds!=null?b.start_seconds:-1}));
       if(an.keywords?.length)e.kw=an.keywords;
       raw._hasAnalysis=true;
     }
@@ -957,7 +978,7 @@ function viewHome(){
 async function viewEpisode(e){
   if(!e)return notFound();
   app.innerHTML='<p class="loading">Laden…</p>';
-  await fetchEpisodeDetail(e);
+  const[,MA]=await Promise.all([fetchEpisodeDetail(e),loadMentionAgg()]);
   const T=await fetchTranscript(e);
   const yr=REG.filter(o=>o.y===e.y).sort((a,b)=>b.s-a.s);const rank=yr.indexOf(e)+1;
   const trivia=[];
@@ -984,8 +1005,9 @@ async function viewEpisode(e){
   <div class="panel"><h3>Gegevens</h3><dl class="kv"><dt>Nummer</dt><dd>${e.n!=null?e.n:'—'}</dd><dt>Datum</dt><dd>${fdate(e.d)}</dd><dt>Dag</dt><dd>${DAYS[new Date(e.d).getDay()]}</dd><dt>Duur</dt><dd>${fdur(e.s)}</dd><dt>Vorm</dt><dd>${esc(e.f)}</dd></dl></div>
   ${e.th.length?`<div class="panel"><h3>Thema's</h3><div class="chips" style="margin:0">${e.th.map(t=>`<a class="chip" href="#t-${slug(t)}">${esc(t)}</a>`).join('')}</div></div>`:''}
   ${e.kw?.length?`<div class="panel"><h3>Sleutelwoorden</h3><p class="ui" style="font-size:14px;margin:0">${e.kw.map(w=>`<span style="cursor:default">${esc(w)}</span>`).join(', ')}</p></div>`:''}
-  ${peoplePanel(e.an?.people,e)}
+  ${peoplePanel(e.an?.people,e,MA)}
   ${bookPanel(e.an?.books)}
+  ${biblePanel(e.an?.bible_refs)}
   ${trivia.length?`<div class="panel"><h3>Wist je dat</h3><ul class="trivia">${trivia.map(t=>`<li>${t}</li>`).join('')}</ul></div>`:''}
   </aside></div>`;
   mountTx(e,T);
@@ -1037,7 +1059,8 @@ async function viewBook(key){
   const description = (bd&&bd.description) || '';
   const isbn13 = (bd&&bd.isbn13) || '';
   const isbn10 = (bd&&bd.isbn10) || '';
-  const thumb = ((bd&&bd.thumbnail_large)||'').replace(/^http:/,'https:');
+  const volId = (bd&&bd.volume_id) || (key.startsWith('vol-') ? key.slice(4) : '');
+  const thumb = bkThumb(volId, (bd&&bd.thumbnail_large)||(bd&&bd.thumbnail)||(agg&&agg.bk_thumb)||'');
   const publisher = (bd&&bd.publisher) || '';
   const year = (bd&&bd.published_year) || '';
   const pages = (bd&&bd.page_count) || 0;
@@ -1048,7 +1071,7 @@ async function viewBook(key){
   const epCount = agg ? agg.eps.length : 0;
   const firstEp = agg && agg.eps.length ? agg.eps[0] : null;
   const lastEp  = agg && agg.eps.length ? agg.eps.at(-1) : null;
-  const coverEl = bkImg(isbn13, thumb, 90, 0, '4px');
+  const coverEl = bkImg(isbn13, thumb, 90, 123, '4px');
   const kvRows = [
     isbn13 ? `<dt>ISBN-13</dt><dd style="font-variant-numeric:tabular-nums">${esc(isbn13)}</dd>` : '',
     isbn10 ? `<dt>ISBN-10</dt><dd style="font-variant-numeric:tabular-nums">${esc(isbn10)}</dd>` : '',
@@ -1058,7 +1081,8 @@ async function viewBook(key){
     lang ? `<dt>Taal</dt><dd>${esc(lang)}</dd>` : '',
   ].filter(Boolean).join('');
   const buyIsbn = isbn13 || (agg&&slug(agg.n)) || key;
-  const bolUrl = `https://www.bol.com/nl/nl/s/?searchtext=${encodeURIComponent(buyIsbn)}`;
+  const _bolSearch = `https://www.bol.com/nl/nl/s/?searchtext=${encodeURIComponent(buyIsbn)}`;
+  const bolUrl = `https://partner.bol.com/click/click?&t=url&s=1562349&url=${encodeURIComponent(_bolSearch)}&f=txl`;
 
   const _bkEs=new Set(agg?agg.eps.map(e=>e.n):[]);
   const moreBooks=A.list.filter(a=>a.c==='boek'&&a!==agg&&a.book_key).sort((a,b)=>{const ia=a.eps.filter(e=>_bkEs.has(e.n)).length,ib=b.eps.filter(e=>_bkEs.has(e.n)).length,ua=_bkEs.size+a.eps.length-ia,ub=_bkEs.size+b.eps.length-ib,ja=ua?ia/ua:0,jb=ub?ib/ub:0;return jb-ja||b.x-a.x;}).slice(0,10);
@@ -1099,7 +1123,8 @@ async function viewBooks(){
   function score(a){return selYr?((a.yr&&a.yr[selYr])||0):a.x}
   function bookCard(a){
     const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
-    const cover=bkImg(bk,a.bk_thumb,64,90,'4px');
+    const isbn13k=/^\d{13}$/.test(bk)?bk:'';const volIdk=bk.startsWith('vol-')?bk.slice(4):'';
+    const cover=bkImg(isbn13k,bkThumb(volIdk,a.bk_thumb),64,90,'4px');
     const epc=a.eps.length;
     return `<a class="pm-card" href="${href}" style="border:1px solid var(--rule)">${cover}<b style="font-family:Lora,Georgia,serif;font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%">${esc(a.n)}</b>${a.author?`<span style="font-size:12px;color:var(--ink-muted);width:100%;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden">${esc(a.author)}</span>`:''}<span class="pm-card-eps">${epc} ${epc===1?'aflevering':'afleveringen'}</span></a>`;
   }
@@ -1110,7 +1135,8 @@ async function viewBooks(){
     $('#bktop').innerHTML=`<div class="pm-cards">${top10.map(bookCard).join('')}</div>`;
     $('#bklist').innerHTML=list.length?list.map(a=>{
       const bk=a.book_key||'';const href=bk?`#b-${bk}`:`#b-${a.slug}`;
-      const cover=bkImg(bk,a.bk_thumb,40,56,'3px');
+      const isbn13k=/^\d{13}$/.test(bk)?bk:'';const volIdk=bk.startsWith('vol-')?bk.slice(4):'';
+      const cover=bkImg(isbn13k,bkThumb(volIdk,a.bk_thumb),40,56,'3px');
       const cnt=score(a);
       return `<a class="mention-row" href="${href}" style="align-items:center">${cover}<span class="mention-name" style="flex:1 1 0;min-width:0"><b>${esc(a.n)}</b>${a.author?`<span style="display:block;font-size:12px;color:var(--ink-muted)">${esc(a.author)}</span>`:''}</span><span class="mention-count num muted">${cnt}×</span></a>`;
     }).join(''):'<p class="empty">Geen boeken gevonden.</p>';

@@ -99,7 +99,7 @@ python scripts/analyze_episode.py --all-missing --model claude-sonnet-5-5 --forc
 | `summary_points` | 5–10 bullet points (the "Kernpunten" section) |
 | `chapters` | 4–8 chapters: `{start_seconds, title, summary}` |
 | `highlights` | 3–6 notable moments: `{start_seconds, speaker, text, note}` |
-| `bible_refs` | Only actual citations: `{ref, note}` — never general Bible mentions |
+| `bible_refs` | Only actual citations: `{ref, note, start_seconds}` — never general Bible mentions; `start_seconds` is backfilled by `backfill_bible_start_seconds.py` |
 | `themes` | ≤4 theme labels from the fixed 18-theme list |
 | `people` | Discussed persons: `{name, note, start_seconds}` — enriched with `wiki_*` fields by stage 3b |
 | `books` | Named books with real discussion: `{title, author, note}` |

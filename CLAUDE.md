@@ -156,7 +156,8 @@ Run these in order to rebuild the full site from scratch:
 | `9_build_word_index.py` | Build full-text word index → `data/word_index.json` |
 | `9_enrich_books_detail.py` | Enrich book mentions with metadata → `data/books/*.json` |
 | `10_collect_persons.py` | Collect mentioned persons from analysis → `data/persons_mentioned/*.json` |
-| `analyze_episode.py` | Run LLM analysis on a single episode → `data/analysis/<n>.json` |
+| `analyze_episode.py` | Run LLM analysis on a single episode → `data/analysis/<n>.json` (includes `start_seconds` in `bible_refs`) |
+| `backfill_bible_start_seconds.py` | Backfill `start_seconds` for `bible_refs` in existing analysis files using Haiku 5.5 |
 | `transcribe_azure.py` | Transcribe episode audio with Azure → `data/transcripts/<key>.json` |
 | `identify_speakers.py` | Assign speaker IDs using voice profiles |
 | `build_voice_profiles.py` | Build voice profiles from known-speaker segments |

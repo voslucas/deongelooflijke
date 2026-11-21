@@ -85,7 +85,7 @@ Extraheer de volgende velden en geef je antwoord als ALLEEN valide JSON — geen
   "guests": [ "Volledige Naam" ],
   "people": [ {{"name": "Volledige Naam", "note": "korte rol of beschrijving", "start_seconds": 0, "mention_count": 1}} ],
   "books": [ {{"title": "Boektitel", "author": "Auteur of leeg", "note": "optioneel", "start_seconds": 0}} ],
-  "bible_refs": [ {{"ref": "Boek Hoofdstuk:Vers", "note": "context"}} ],
+  "bible_refs": [ {{"ref": "Boek Hoofdstuk:Vers", "note": "context", "start_seconds": 0}} ],
   "places": [ "Plaatsnaam" ],
   "summary_tldr": "2-3 zinnen die de kern van het gesprek beschrijven.",
   "summary_points": [ "Kernpunt 1", "Kernpunt 2" ],
@@ -117,7 +117,10 @@ REGELS:
   Gebruik de [MM:SS]-tijdstempels uit het transcript (bijv. [12:34] → 754).
 - bible_refs: ALLEEN concrete verwijzingen naar bijbelboeken/hoofdstukken/verzen die werkelijk \
   worden aangehaald of geciteerd. NIET de Bijbel in het algemeen. \
-  Gebruik Nederlandse boeknames (bijv. "Johannes 3:16", "Mattheus 5").
+  Gebruik Nederlandse boeknames (bijv. "Johannes 3:16", "Mattheus 5"). \
+  start_seconds: het tijdstempel (in seconden) waarop deze bijbelverwijzing voor het eerst wordt \
+  aangehaald of besproken. Gebruik de [MM:SS]-tijdstempels uit het transcript (bijv. [12:34] → 754). \
+  Laat weg (of zet op null) als het tijdstip niet te bepalen is uit het transcript.
 - places: geografische plaatsen die relevant zijn voor het gesprek.
 - summary_tldr: maximaal 3 zinnen, in het Nederlands.
 - summary_points: 5 tot 10 korte kernpunten die de rode draad van het gesprek beschrijven, in het Nederlands.
