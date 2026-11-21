@@ -1056,11 +1056,10 @@ async function viewBook(key){
     year ? `<dt>Jaar</dt><dd>${esc(year)}</dd>` : '',
     pages ? `<dt>Pagina's</dt><dd>${pages}</dd>` : '',
     lang ? `<dt>Taal</dt><dd>${esc(lang)}</dd>` : '',
-    gbUrl ? `<dt>Google Books</dt><dd><a href="${esc(gbUrl)}" target="_blank" rel="noopener" style="font-size:13px">Open →</a></dd>` : '',
   ].filter(Boolean).join('');
   const buyIsbn = isbn13 || (agg&&slug(agg.n)) || key;
   const bolUrl = `https://www.bol.com/nl/nl/s/?searchtext=${encodeURIComponent(buyIsbn)}`;
-  const amzUrl = `https://www.amazon.nl/s?k=${encodeURIComponent(buyIsbn)}`;
+
   const _bkEs=new Set(agg?agg.eps.map(e=>e.n):[]);
   const moreBooks=A.list.filter(a=>a.c==='boek'&&a!==agg&&a.book_key).sort((a,b)=>{const ia=a.eps.filter(e=>_bkEs.has(e.n)).length,ib=b.eps.filter(e=>_bkEs.has(e.n)).length,ua=_bkEs.size+a.eps.length-ia,ub=_bkEs.size+b.eps.length-ib,ja=ua?ia/ua:0,jb=ub?ib/ub:0;return jb-ja||b.x-a.x;}).slice(0,10);
   app.innerHTML=`<div class="crumb"><a href="#boeken">Boeken</a> / ${esc(title)}</div>
@@ -1081,11 +1080,9 @@ async function viewBook(key){
   </div>
   <aside class="side">
   ${kvRows?`<div class="panel"><h3>Gegevens</h3><dl class="kv">${kvRows}</dl></div>`:''}
-  <div class="panel"><h3>Kopen <span class="demo" style="font-size:11px;vertical-align:1px">Voorbeelddata</span></h3>
-  <p class="demonote" style="margin:0 0 10px;font-size:13px">Knoppen leiden naar zoekresultaten; directe productpagina's en actuele prijzen volgen zodra affiliate-codes beschikbaar zijn.</p>
+  <div class="panel"><h3>Kopen</h3>
   <div style="display:flex;flex-direction:column;gap:8px">
     <a class="btn solid" href="${bolUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op bol.com</a>
-    <a class="btn" href="${amzUrl}" target="_blank" rel="noopener" style="text-align:center">Zoek op Amazon.nl</a>
   </div></div>
   ${moreBooks.length?`<div class="panel"><h3>Meer boeken</h3>${moreBooks.map((a,i)=>{const cover=bkImg(a.book_key,a.bk_thumb,34,0,'2px');const sep=i<moreBooks.length-1?'border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px':'';return `<a href="#b-${a.book_key}" style="display:flex;gap:10px;text-decoration:none;${sep}">${cover}<span style="min-width:0"><span style="display:block;font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35;color:var(--ink)">${esc(a.n)}</span>${a.author?`<span style="display:block;font-size:12px;color:var(--ink-muted);margin-top:2px">${esc(a.author)}</span>`:''}</span></a>`;}).join('')}</div>`:''}
   </aside></div>`;
