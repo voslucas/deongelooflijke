@@ -185,7 +185,7 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             entry = by_name[nkey]
             mc = max(1, int(p.get('mention_count') or 1)) if isinstance(p, dict) else 1
             entry['x'] += 1
-            entry['mx'] += mc
+            entry['mx'] = entry.get('mx', 0) + mc
             entry['yr'][yr] = entry['yr'].get(yr, 0) + 1
             entry['eps'].append(dict(ep_info, x=mc, hits=[]))
             # Carry wiki image from first occurrence that has one
