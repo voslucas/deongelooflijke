@@ -127,7 +127,7 @@ Rules:
 
 | Output | Description |
 | --- | --- |
-| `site/dist/index.html` | The app — inline lightweight index + logos |
+| `site/static/` | Static multi-page site (produced by `5b_build_site.py`) |
 | `site/dist/data/episodes/{key}.json` | Full per-episode data + analysis (lazy-loaded) |
 | `site/dist/data/index.json` | Episode keys list |
 | `site/dist/data/speakers.json` | Aggregated speaker stats from transcripts |
@@ -149,7 +149,7 @@ Run these in order to rebuild the full site from scratch:
 | `2_extract_guests.py` | Extract guest names → `data/episodes.json` |
 | `3_build_episode_data.py` | Merge feed + guest data → `data/episodes.json` (master) |
 | `4_split_data.py` | Split episodes, build aggregates → `site/dist/data/` |
-| `5_build_site.py` | Compile `index.template.html` → `site/dist/index.html` |
+| `5b_build_site.py` | Generate static multi-page site → `site/static/` |
 | `6_extract_person_socials.py` | Scrape social links for guests |
 | `7_fetch_person_images.py` | Download guest profile images → `data/persons/images/` |
 | `8_enrich_people_wiki.py` | Add Wikipedia data to analysis `people[]` entries |
@@ -167,7 +167,7 @@ Shared utilities: `utils.py` (`ep_key`, `truncate_xs`, …) and `voice_utils.py`
 The minimum rebuild after a code-only change to the template:
 
 ```
-python scripts/4_split_data.py && python scripts/5_build_site.py
+python scripts/4_split_data.py && python scripts/5b_build_site.py
 ```
 
 ### Full rebuild after adding or re-analysing a single episode
@@ -191,7 +191,7 @@ python scripts/10_collect_persons.py
 python scripts/enrich_guest_bios.py --all-missing
 
 # 6. Split data + build site
-python scripts/4_split_data.py && python scripts/5_build_site.py
+python scripts/4_split_data.py && python scripts/5b_build_site.py
 ```
 
 Skipping steps 2–4 results in missing person Wikipedia photos/links, missing book

@@ -50,10 +50,10 @@ jobs:
         run: python scripts/4_split_data.py
 
       - name: Build site
-        run: python scripts/5_build_site.py
+        run: python scripts/5b_build_site.py
 
       - name: Copy feed for Pages
-        run: cp data/raw/feed.xml site/dist/feed.xml
+        run: cp data/raw/feed.xml site/static/feed.xml
 
       - name: Run tests
         run: python -m pytest tests/ -v
@@ -61,7 +61,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/dist
+          path: site/static
 
   deploy:
     needs: build
