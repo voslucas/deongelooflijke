@@ -46,6 +46,28 @@ DUTCH_TO_OSIS = {
     'judas': 'JUD', 'openbaring': 'REV',
 }
 
+_REF_RE = re.compile(
+    r'^(?P<book>(?:\d\s+)?[A-Za-zÀ-ɏ]+(?:\s+[A-Za-zÀ-ɏ]+)*)'
+    r'\s+(?P<ch>\d+)(?::(?P<v>\d+)(?:-\d+)?)?')
+
+def parse_ref(ref: str):
+    """Parse Dutch Bible ref → (OSIS_code, chapter, verse) or None."""
+    ref = ref.strip()
+    ref = re.sub(r'\s*\(.*\)', '', ref).strip()
+    ref = re.sub(r'(\d+)-\d+', r'\1', ref)
+    m = _REF_RE.match(ref)
+    if not m:
+        return None
+    book_raw = m.group('book').strip().lower()
+    import unicodedata as _ud
+    book_norm = ''.join(c for c in _ud.normalize('NFD', book_raw) if _ud.category(c) != 'Mn')
+    ch = int(m.group('ch'))
+    v = int(m.group('v')) if m.group('v') else 1
+    code = DUTCH_TO_OSIS.get(book_raw) or DUTCH_TO_OSIS.get(book_norm)
+    if not code:
+        return None
+    return code, ch, v
+
 # Social icon SVG literals (same as template)
 IC_LINKEDIN = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="2.5"/><line x1="5" y1="7" x2="5" y2="12"/><circle cx="5" cy="4.5" r=".75" fill="currentColor" stroke="none"/><path d="M8 12V9.5a2 2 0 0 1 4 0V12M8 7v5"/></svg>'
 IC_TWITTER  = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l11 11M13.5 2.5l-11 11"/></svg>'
@@ -556,15 +578,24 @@ def bk_thumb_url(vol_id, stored_thumb):
     return ''
 
 
-def people_panel_html(people):
+def wiki_thumb(url):
+    """Normalize Wikimedia thumbnail URLs to 250px (sub-250px sizes often fail to serve)."""
+    import re as _re
+    if not url:
+        return url
+    return _re.sub(r'/(\d+)px-', lambda m: f'/{max(250, int(m.group(1)))}px-', url)
+
+
+def people_panel_html(people, people_dict=None):
     if not people: return ''
     rows = []
     for i,p in enumerate(people):
         sep = ('border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px'
                if i < len(people)-1 else '')
         ini = esc(initials(p.get('name','?')))
-        wiki_img = p.get('wiki_image')
         p_slug = slug(p.get('name',''))
+        agg = (people_dict or {}).get(p_slug, {})
+        wiki_img = wiki_thumb(agg.get('img') or p.get('wiki_image') or '')
         if wiki_img:
             img_el = (f'<img src="{esc(wiki_img)}" alt="" loading="lazy" '
                       f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'" '
@@ -579,9 +610,8 @@ def people_panel_html(people):
                    f'{esc(p["note"])}</a>') if p.get('note') else ''
         ts_btn = ''
         if p.get('start_seconds') is not None:
-            ts_btn = (f'<span style="flex-shrink:0;font:600 11px var(--ui);'
-                      f'font-variant-numeric:tabular-nums;color:var(--violet)">'
-                      f'{ts_fmt(p["start_seconds"])}</span>')
+            ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(p["start_seconds"])}">'
+                      f'{ts_fmt(p["start_seconds"])}</button>')
         rows.append(
             f'<div style="display:flex;gap:10px;align-items:flex-start;{sep}">'
             f'<a href="/persoon/{p_slug}/" style="display:contents">{img_el}</a>'
@@ -612,9 +642,8 @@ def book_panel_html(books):
                     f'border-bottom:1px solid var(--rule)">{title}</a>') if bkey else title
         ts_btn = ''
         if b.get('start_seconds') is not None:
-            ts_btn = (f'<span style="display:block;font:600 11px var(--ui);'
-                      f'font-variant-numeric:tabular-nums;color:var(--violet);margin-top:4px">'
-                      f'{ts_fmt(b["start_seconds"])}</span>')
+            ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(b["start_seconds"])}">'
+                      f'{ts_fmt(b["start_seconds"])}</button>')
         rows.append(
             f'<div style="display:flex;gap:10px;{sep}">{cover_el}'
             f'<div style="min-width:0">'
@@ -641,9 +670,14 @@ def bible_refs_html(refs):
         if r.get('start_seconds') is not None:
             ts_btn = (f'<button class="tbtn" type="button" data-seek="{round(r["start_seconds"])}">'
                       f'{ts_fmt(r["start_seconds"])}</button>')
+        parsed = parse_ref(ref_text)
+        bvref_attr = ''
+        if parsed:
+            code, ch, v = parsed
+            bvref_attr = f' data-bvref="{code}.{ch}.{v}"'
         items.append(
             f'<div style="{sep}">'
-            f'<button class="bref" type="button" data-ref="{esc(ref_text)}">{esc(ref_text)}</button>'
+            f'<button class="bref" type="button"{bvref_attr}>{esc(ref_text)}</button>'
             f'{note_el}'
             + (f'<div style="margin-top:4px">{ts_btn}</div>' if ts_btn else '')
             + f'</div>')
@@ -903,22 +937,25 @@ def build_guest_list(data, out):
                     key=lambda g: (-len(g['eps']), -g['secs']))
     host_cards = ''.join(person_card_html(g) for g in hosts)
     guest_cards = ''.join(person_card_html(g) for g in guests)
+    n_total = len(hosts) + len(guests)
     content = (
         f'<h1>Gasten</h1>'
+        f'<p class="lede prose muted" style="margin:8px 0 20px">'
+        f'De presentator, de vaste gast en {len(guests)} gasten. '
+        f'Kies een naam voor alle afleveringen, statistieken en de woorden '
+        f'die rond die persoon vallen.</p>'
         f'<section style="margin-bottom:28px">'
         f'<h2 class="label" style="margin-bottom:12px">Vaste gezichten</h2>'
         f'<div class="people">{host_cards}</div></section>'
         f'<div class="sechead" style="margin-bottom:12px">'
-        f'<h2>Alle gasten <span class="label muted">({len(guests)})</span></h2>'
-        f'<div style="display:flex;gap:8px;align-items:center">'
-        f'<input id="guest-q" type="search" placeholder="Naam zoeken" '
-        f'style="padding:5px 10px;border:1px solid var(--rule);border-radius:4px;font-size:14px" '
-        f'aria-label="Gast zoeken">'
-        f'<select id="guest-sort" style="padding:5px 8px;border:1px solid var(--rule);'
-        f'border-radius:4px;font-size:14px">'
-        f'<option value="count">Meest te gast</option>'
-        f'<option value="alpha">Alfabetisch</option>'
-        f'</select></div></div>'
+        f'<h2>Alle gasten <span class="label muted">({len(guests)})</span></h2></div>'
+        f'<div class="ctrl" style="margin-bottom:16px">'
+        f'<input id="guest-q" type="search" placeholder="Filter op naam" '
+        f'aria-label="Gast zoeken" style="flex:1 1 200px">'
+        f'<label class="ui">Sorteer <select id="guest-sort">'
+        f'<option value="count">Meeste afleveringen</option>'
+        f'<option value="alpha">Achternaam A–Z</option>'
+        f'</select></label></div>'
         f'<div class="people" id="plist">{guest_cards}</div>')
     write_page(out / 'gasten' / 'index.html', 'Gasten', content,
                nav_active='gasten', page_type='guests',
@@ -1841,21 +1878,29 @@ def build_episode_detail(data, ep, out):
         'flex-wrap:wrap;margin-top:10px;font-size:14px"></div>'
     )
 
-    # Hoogtepunten
+    # Hoogtepunten \u2014 sort by start_seconds, use note as label, wrap text in curly quotes
     hl_html = ''
     if an.get('highlights'):
+        sorted_hls = sorted(
+            an['highlights'],
+            key=lambda h: h.get('start_seconds') if h.get('start_seconds') is not None else 999999
+        )[:8]
         items = []
-        for hl in an['highlights'][:8]:
+        for hl in sorted_hls:
             ts_btn = ''
             if hl.get('start_seconds') is not None:
                 ts_btn = (f'<button class="tbtn" type="button" '
                           f'data-seek="{round(hl["start_seconds"])}">'
                           f'{ts_fmt(hl["start_seconds"])}</button>')
             speaker = esc(hl.get('speaker', ''))
-            lbl = f'Hoogtepunt{f" \u00b7 {speaker}" if speaker else ""}'
+            note = esc(hl.get('note', '') or 'Hoogtepunt')
+            lbl = f'{note}{f" \u00b7 {speaker}" if speaker else ""}'
+            text = hl.get('text', '')
+            text_html = f'\u2018{esc(text)}\u2019' if text else ''
             items.append(f'<li>{ts_btn}<div><span class="label">{lbl}</span>'
-                         f'<p>{esc(hl.get("text", ""))}</p></div></li>')
-        hl_html = f'<h2>Hoogtepunten</h2><ol class="hl">{"".join(items)}</ol>'
+                         f'<p>{text_html}</p></div></li>')
+        hl_html = (f'<h2>Hoogtepunten</h2>'
+                   f'<ol class="hl" id="hl-list">{"".join(items)}</ol>')
 
     ov_tab = (tldr_html
               + river_placeholder
@@ -1979,11 +2024,11 @@ def build_episode_detail(data, ep, out):
         + (f'<div class="panel"><h3>Thema\'s</h3>'
            f'<div class="chips" style="margin:0">{theme_chips}</div></div>'
            if theme_chips else '')
-        + (f'<div class="panel"><h3>Sleutelwoorden</h3>'
+        + (lambda kws: f'<div class="panel"><h3>Sleutelwoorden</h3>'
            f'<p class="ui" style="font-size:14px;margin:0">'
-           f'{", ".join(esc(w) for w in ep.get("kw", []))}</p></div>'
-           if ep.get('kw') else '')
-        + people_panel_html(an.get('people', []))
+           f'{", ".join(esc(w) for w in kws)}</p></div>'
+           if kws else '')(an.get('keywords') or ep.get('kw') or [])
+        + people_panel_html(an.get('people', []), data.people_dict)
         + book_panel_html(an.get('books', []))
         + bible_refs_html(an.get('bible_refs', []))
         + (f'<div class="panel"><h3>Wist je dat</h3><ul class="trivia">'
@@ -2052,18 +2097,20 @@ def write_assets(out: pathlib.Path, logo_src: pathlib.Path,
     css += '\n.prevnext a{color:var(--violet);text-decoration:none;'
     css += 'max-width:48%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}'
     css += '\n.tabp[hidden]{display:none}\n'
-    css += '.tabs{display:flex;gap:0;border-bottom:2px solid var(--rule);margin:16px 0 0}'
-    css += '\n.tab{background:none;border:none;padding:8px 14px;cursor:pointer;'
-    css += 'font-size:14px;color:var(--ink-muted);border-bottom:2px solid transparent;'
-    css += 'margin-bottom:-2px}'
-    css += '\n.tab.on{color:var(--violet);border-bottom-color:var(--violet);font-weight:600}'
-    css += '\n.txwrap{padding-top:16px}'
+    css += '.tabs{display:flex;gap:2px;align-items:center;border-bottom:1px solid var(--ink);'
+    css += 'margin-bottom:22px;overflow-x:auto;scrollbar-width:none}'
+    css += '\n.tab{font:600 15px/1 var(--ui);white-space:nowrap;padding:12px 12px;border:0;'
+    css += 'background:none;color:var(--ink-muted);cursor:pointer;'
+    css += 'border-bottom:3px solid transparent;margin-bottom:-2px}'
+    css += '\n.tab:hover{color:var(--ink)}'
+    css += '\n.tab.on{color:var(--ink);border-bottom-color:var(--violet)}'
+    css += '\n.txwrap{margin-top:8px}'
     css += '\n.hl{list-style:none;padding:0;margin:0}'
     css += '\n.hl li{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--rule)}'
     css += '\n.hl li:last-child{border-bottom:none}'
-    css += '\n.tbtn{background:none;border:1px solid var(--rule);border-radius:4px;'
-    css += 'padding:2px 6px;font-size:12px;cursor:pointer;color:var(--violet);'
-    css += 'font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0}'
+    css += '\n.tbtn{font:600 13px/1 var(--ui);font-variant-numeric:tabular-nums;color:var(--violet);'
+    css += 'background:transparent;border:1px solid var(--rule);border-radius:999px;'
+    css += 'padding:6px 9px;cursor:pointer;white-space:nowrap}'
     css += '\n.chapters{list-style:none;padding:0;margin:0}'
     css += '\n.chapters li{display:flex;gap:16px;padding:12px 0;'
     css += 'border-bottom:1px solid var(--rule)}'
@@ -2072,6 +2119,15 @@ def write_assets(out: pathlib.Path, logo_src: pathlib.Path,
     css += '\n.trivia{padding-left:18px;margin:0}'
     css += '\n.trivia li{margin-bottom:6px;font-size:15px}'
     css += '\nbr+br{display:none}'
+    css += '\ntable.tics{border-collapse:collapse;font:14px var(--ui);width:100%}'
+    css += '\ntable.tics th,table.tics td{padding:7px 8px;border-bottom:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums}'
+    css += '\ntable.tics th:first-child,table.tics td:first-child{text-align:left}'
+    css += '\ntable.tics thead th{font-weight:600;color:var(--ink-muted);font-size:12.5px}'
+    css += '\ntable.tics td.hot{color:var(--ink);font-weight:700}'
+    css += '\n.anchart{width:100%;max-width:720px;display:block;margin:12px 0}'
+    css += '\n.anchart .grid{stroke:var(--rule);stroke-width:1}'
+    css += '\n.anchart .line{fill:none;stroke:var(--gold);stroke-width:2}'
+    css += '\n.anchart text{font:12px var(--ui);fill:var(--ink-muted)}'
     (assets / 'style.css').write_text(css, encoding='utf-8')
     if logo_src.exists():
         shutil.copy2(logo_src, assets / 'logo.jpg')
