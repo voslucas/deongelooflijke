@@ -49,7 +49,7 @@
       if (!_bvdata) {
         fetch('/data/bvdata.json').then(function (r) { return r.json(); })
           .then(function (d) { _bvdata = d; showBvPopup(btn, ref, null); })
-          .catch(function () {});
+          .catch(function () { showBvPopup(btn, ref, []); });
       } else {
         showBvPopup(btn, ref, null);
       }
@@ -62,7 +62,6 @@
     var parts = ref.split('.');
     var key = parts[0] + '.' + parts[1] + '.' + parts[2];
     var verses = inlineVerses || (_bvdata && _bvdata[key]) || [];
-    if (!verses.length) return;
     var popup = document.createElement('div');
     popup.id = 'bv-popup';
     popup.style.cssText = 'position:fixed;z-index:9999;max-width:380px;background:var(--parchment-2);'
@@ -71,15 +70,20 @@
     var top = rect.bottom + 8;
     if (top + 160 > window.innerHeight) top = rect.top - 160;
     popup.style.top = Math.max(8, top) + 'px';
-    popup.style.left = Math.min(rect.left, window.innerWidth - 400) + 'px';
+    popup.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - 400)) + 'px';
     var vhtml = verses.map(function (v, i) {
       return '<span style="font-size:12px;color:var(--gold-deep);margin-right:4px">'
-        + (parseInt(parts[2], 10) + i) + '</span>' + v;
+        + (parseInt(parts[2], 10) + i) + '</span>' + esc(v);
     }).join(' ');
     popup.innerHTML = '<p style="margin:0 0 6px;font-size:13px;font-weight:600;'
-      + 'color:var(--ink-muted)">' + anchor.textContent + '</p>'
+      + 'color:var(--ink-muted)">' + esc(anchor.textContent) + '</p>'
       + '<p style="margin:0;font-family:Spectral,Georgia,serif;font-size:15px;'
-      + 'line-height:1.6;font-style:italic">' + vhtml + '</p>';
+      + 'line-height:1.6;font-style:italic">' + (vhtml || 'Voor deze verwijzing is geen tekst beschikbaar.') + '</p>'
+      + '<a class="bv-link" href="https://nbv21.nl/bijbel/NBV21/'
+      + encodeURIComponent(parts[0] + '.' + parts[1]) + '/" target="_blank" rel="noopener"'
+      + ' style="display:inline-block;margin-top:10px;font-family:var(--ui);font-size:12px;'
+      + 'color:var(--violet);text-decoration:none;padding:4px 10px;border:1px solid var(--violet);'
+      + 'border-radius:999px">Lees in NBV21</a>';
     document.body.appendChild(popup);
     setTimeout(function () {
       document.addEventListener('click', function rm(ev) {

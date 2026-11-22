@@ -329,6 +329,7 @@ svg.spark{display:block;width:auto;height:26px}
 /* Bible verse popup */
 .bref{background:none;border:none;padding:0;color:var(--violet);cursor:pointer;font:inherit;text-decoration:underline dotted;text-underline-offset:2px}
 .bref:focus-visible{outline:2px solid var(--violet);border-radius:2px}
+.panel .bref{font-family:Lora,Georgia,serif;font-size:14px;font-weight:600;line-height:1.35;text-align:left}
 #bpopup{position:fixed;z-index:900;width:min(360px,calc(100vw - 32px));background:var(--parchment-2);border:1px solid var(--rule);border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,.2);padding:14px 16px 12px;font-family:var(--body);font-size:14px;line-height:1.65;color:var(--ink)}
 #bpopup[hidden]{display:none}
 #bpopup .bp-ref{font-family:var(--ui);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:8px}
@@ -540,9 +541,9 @@ function bookPanel(books){
     const bkey=isbn13?isbn13:(volId?`vol-${volId}`:'');
     const coverImg=bkImg(isbn13,bkThumb(volId,b.thumbnail),38,54,'2px');
     const cover=bkey?`<a href="#b-${bkey}" style="line-height:0;flex-shrink:0">${coverImg}</a>`:coverImg;
-    const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="margin-top:4px">${ts(b.start_seconds)}</button>`:'';
+    const tsbtn=b.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(b.start_seconds)}" style="flex-shrink:0;font-size:11px;padding:3px 7px">${ts(b.start_seconds)}</button>`:'';
     const titleEl=bkey?`<a href="#b-${bkey}" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)">${title}</a>`:title;
-    return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${titleEl}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}${tsbtn}</div></div>`;
+    return `<div style="display:flex;gap:10px;${sep}">${cover}<div style="min-width:0;flex:1"><div style="display:flex;align-items:baseline;justify-content:space-between;gap:6px"><div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">${titleEl}</div>${tsbtn}</div>${author?`<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">${author}</div>`:''}${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">${note}</div>`:''}</div></div>`;
   });
   return `<div class="panel"><h3>Besproken boeken</h3>${rows.join('')}</div>`;
 }
@@ -551,8 +552,8 @@ function biblePanel(refs){
   const items=refs.map((r,i)=>{
     const sep=i<refs.length-1?'border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px':'';
     const note=esc(r.note||'');
-    const tsbtn=r.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(r.start_seconds)}" style="margin-top:4px">${ts(r.start_seconds)}</button>`:'';
-    return `<div style="${sep}"><button class="bref" type="button" data-ref="${esc(r.ref)}">${esc(r.ref)}</button>${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">${note}</div>`:''}${tsbtn}</div>`;
+    const tsbtn=r.start_seconds!=null?`<button class="tbtn" type="button" data-seek="${Math.round(r.start_seconds)}" style="flex-shrink:0;font-size:11px;padding:3px 7px">${ts(r.start_seconds)}</button>`:'';
+    return `<div style="${sep}"><div style="display:flex;align-items:baseline;justify-content:space-between;gap:6px"><button class="bref" type="button" data-ref="${esc(r.ref)}">${esc(r.ref)}</button>${tsbtn}</div>${note?`<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:2px">${note}</div>`:''}</div>`;
   });
   return `<div class="panel"><h3>Bijbelverwijzingen</h3>${items.join('')}</div>`;
 }

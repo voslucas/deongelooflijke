@@ -644,12 +644,13 @@ def book_panel_html(books):
                       f'{ts_fmt(b["start_seconds"])}</button>')
         rows.append(
             f'<div style="display:flex;gap:10px;{sep}">{cover_el}'
-            f'<div style="min-width:0">'
+            f'<div style="min-width:0;flex:1">'
+            f'<div style="display:flex;align-items:baseline;justify-content:space-between;gap:6px">'
             f'<div style="font-family:Lora,Georgia,serif;font-size:13px;font-weight:600;line-height:1.35">'
-            f'{title_el}</div>'
+            f'{title_el}</div>{ts_btn}</div>'
             + (f'<div style="font-size:12px;color:var(--ink-muted);margin-top:2px">{author}</div>' if author else '')
             + (f'<div style="font-size:12px;color:var(--ink-muted);font-style:italic;margin-top:3px">{note}</div>' if note else '')
-            + f'{ts_btn}</div></div>')
+            + f'</div></div>')
     return f'<div class="panel"><h3>Besproken boeken</h3>{"".join(rows)}</div>'
 
 
@@ -680,10 +681,9 @@ def bible_refs_html(refs):
                 bvv_attr = f' data-vv="{esc(json.dumps(verses, ensure_ascii=False))}"'
         items.append(
             f'<div style="{sep}">'
+            f'<div style="display:flex;align-items:baseline;justify-content:space-between;gap:6px">'
             f'<button class="bref" type="button"{bvref_attr}{bvv_attr}>{esc(ref_text)}</button>'
-            f'{note_el}'
-            + (f'<div style="margin-top:4px">{ts_btn}</div>' if ts_btn else '')
-            + f'</div>')
+            f'{ts_btn}</div>{note_el}</div>')
     if not items: return ''
     return f'<div class="panel"><h3>Bijbelverwijzingen</h3>{"".join(items)}</div>'
 
@@ -1085,6 +1085,7 @@ def build_persons_list(data, out):
         img = p.get('img') or ''
         ini_el = f'<span class="ini" style="width:{size}px;height:{size}px;font-size:{fs}px;flex-shrink:0">{ini}</span>'
         if img and img is not True:
+            img = wiki_thumb(img)
             return (f'<img src="{esc(img)}" alt="" loading="lazy" '
                     f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'" '
                     f'style="width:{size}px;height:{size}px;border-radius:999px;object-fit:cover;flex-shrink:0">'
@@ -1153,7 +1154,7 @@ def build_person_detail(data, p_slug, out):
         return
     name = detail.get('name') or agg.get('n') or p_slug
     note = detail.get('note', '') or ''
-    wiki_img = detail.get('wiki_image', '') or ''
+    wiki_img = wiki_thumb(detail.get('wiki_image') or agg.get('img') or '')
     wiki_url = detail.get('wiki_url', '') or ''
     wiki_sum = detail.get('wiki_summary', '') or ''
     count = agg.get('x', 0)
@@ -1172,12 +1173,15 @@ def build_person_detail(data, p_slug, out):
     ep_objs.sort(key=lambda e: e.get('d', ''), reverse=True)
 
     ini = esc(initials(name))
+    ini_el = (f'<span class="ini" style="width:80px;height:80px;font-size:28px;'
+              f'flex-shrink:0{";display:none" if wiki_img else ""}">{ini}</span>')
     if wiki_img:
         img_el = (f'<img src="{esc(wiki_img)}" alt="{esc(name)}" '
                   f'style="width:80px;height:80px;border-radius:999px;object-fit:cover;flex-shrink:0" '
-                  f'onerror="this.style.display=\'none\'">')
+                  f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'">'
+                  f'{ini_el}')
     else:
-        img_el = f'<span class="ini" style="width:80px;height:80px;font-size:28px">{ini}</span>'
+        img_el = ini_el
 
     wiki_link = ''
     if wiki_url:
@@ -1262,18 +1266,20 @@ def build_person_detail(data, p_slug, out):
                 o_slug = other.get('slug') or slug(other.get('n', ''))
                 o_name = other.get('n', '')
                 o_epc = len(other.get('eps', []))
-                o_img = other.get('img', '') or ''
+                o_img = wiki_thumb(other.get('img') or '')
                 o_ini = esc(initials(o_name))
+                ini_part = (f'<span class="ini" style="width:36px;height:36px;'
+                            f'font-size:13px;flex-shrink:0'
+                            f'{";display:none" if o_img else ""}">{o_ini}</span>')
                 sep = ('border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px'
                        if i < len(top_more) - 1 else '')
                 if o_img:
                     img_part = (f'<img src="{esc(o_img)}" alt="" loading="lazy" '
-                                f'onerror="this.style.display=\'none\'" '
+                                f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'" '
                                 f'style="width:36px;height:36px;border-radius:999px;'
-                                f'object-fit:cover;flex-shrink:0">')
+                                f'object-fit:cover;flex-shrink:0">{ini_part}')
                 else:
-                    img_part = (f'<span class="ini" style="width:36px;height:36px;'
-                                f'font-size:13px;flex-shrink:0">{o_ini}</span>')
+                    img_part = ini_part
                 rows.append(
                     f'<a href="/persoon/{esc(o_slug)}/" '
                     f'style="display:flex;gap:10px;align-items:center;text-decoration:none;{sep}">'
@@ -2203,26 +2209,6 @@ def _build_bvdata(root: pathlib.Path) -> dict:
     def verses_for(code, ch, v):
         ch_data = get_book(code).get(str(ch), {})
         return [ch_data[str(v + i)] for i in range(3) if str(v + i) in ch_data]
-
-    # Reuse DUTCH_TO_OSIS mapping defined earlier in this file
-    REF_RE = re.compile(
-        r'^(?P<book>(?:\d\s+)?[A-Za-zÀ-ɏ]+(?:\s+[A-Za-zÀ-ɏ]+)*)'
-        r'\s+(?P<ch>\d+)(?::(?P<v>\d+)(?:-\d+)?)?')
-
-    def parse_ref(ref):
-        ref = ref.strip()
-        ref = re.sub(r'\s*\(.*\)', '', ref).strip()
-        ref = re.sub(r'(\d+)-\d+', r'\1', ref)
-        m = REF_RE.match(ref)
-        if not m:
-            return None
-        book_raw = m.group('book').strip().lower()
-        ch = int(m.group('ch'))
-        v = int(m.group('v')) if m.group('v') else 1
-        code = DUTCH_TO_OSIS.get(book_raw)
-        if not code:
-            return None
-        return code, ch, v
 
     all_refs = set()
     if analysis_dir.exists():
