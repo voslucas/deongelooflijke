@@ -1,4 +1,4 @@
-import json, re, collections
+import json, re, collections, datetime
 import pathlib; ROOT=pathlib.Path(__file__).resolve().parent.parent; D=ROOT/'data'/'intermediate'; OUTF=ROOT/'data'/'episodes.json'
 eps=json.load(open(D/'eps1.json'))
 # DROP: strings that regex guest-extraction mis-identifies as people (fallback for un-analyzed episodes)
@@ -57,7 +57,7 @@ for e in out:
             if m and len(m.group(1))>6 and not re.search(r'\b(daarover|we|wij|david|gesprek|hij|zij|ze|ook|nu|die|dat|het|een|aflevering)\b',m.group(1)): bios[name]=(m.group(1).strip().capitalize()+'.')
 bios['Stefan Paas']='Theoloog, hoogleraar aan de Vrije Universiteit Amsterdam en de Theologische Universiteit Utrecht, en vaste gast van De Ongelooflijke.'
 bios['David Boogerd']='Journalist en presentator van De Ongelooflijke Podcast sinds de eerste aflevering in april 2019.'
-json.dump(dict(eps=out,bios=bios,built='2026-11-07'),open(OUTF,'w'),ensure_ascii=False,separators=(',',':'))
+json.dump(dict(eps=out,bios=bios,built=datetime.date.today().isoformat()),open(OUTF,'w'),ensure_ascii=False,separators=(',',':'))
 import os; print(os.path.getsize(OUTF), len(bios), collections.Counter(e['f'] for e in out), collections.Counter(t for e in out for t in e['th']).most_common(), sum(len(e['q']) for e in out), sum(e['p'] for e in out))
 for k in list(bios)[:12]: print(k,'::',bios[k][:160])
 D=json.load(open(OUTF))

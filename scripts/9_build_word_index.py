@@ -142,16 +142,21 @@ def main() -> None:
                         help='Ignore existing index; reprocess all transcripts.')
     parser.add_argument('--dry-run', action='store_true',
                         help='Parse one transcript and print top words; skip writing.')
+    parser.add_argument('--episode', help='Index only this episode, preserving other entries')
     args = parser.parse_args()
 
     nlp = load_spacy()
 
     existing: dict = {}
-    if not args.rebuild and OUT.exists():
+    if (not args.rebuild or args.episode) and OUT.exists():
         existing = json.loads(OUT.read_text(encoding='utf-8'))
         print(f'Loaded existing index: {len(existing)} episodes cached')
 
     files = sorted(TX_DIR.glob('*.json'))
+    if args.episode:
+        files = [f for f in files if f.stem == args.episode]
+        if args.rebuild:
+            existing.pop(args.episode, None)
     if not files:
         print(f'No transcript files found in {TX_DIR}')
         return
@@ -172,6 +177,7 @@ def main() -> None:
 
     index = dict(existing)
     new_count = 0
+    errors = []
 
     for i, f in enumerate(files, 1):
         key = f.stem
@@ -200,6 +206,7 @@ def main() -> None:
 
         except Exception as exc:
             print(f'  [{i}/{len(files)}] {key}: ERROR — {exc}')
+            errors.append(key)
 
     # Final write
     OUT.write_text(
@@ -209,6 +216,8 @@ def main() -> None:
     size_kb = OUT.stat().st_size / 1024
     print(f'\nDone.  {new_count} new episode(s) processed.  '
           f'Total in index: {len(index)}  |  {size_kb:.0f} KB → {OUT}')
+    if errors:
+        sys.exit(1)
 
 
 if __name__ == '__main__':

@@ -181,6 +181,10 @@ Each `data/analysis/{n}.json` contains LLM-extracted fields:
 
 ## Pipeline
 
+For the current daily automation, complete enrichment stages, retry behavior and
+local rollout commands, see [Daily episode processing](docs/daily-workflow.md).
+The analyser now defaults to Haiku and sends the complete transcript.
+
 ### 1. Parse the feed
 
 Download the RSS feed and save it as `data/raw/feed.xml`, then:

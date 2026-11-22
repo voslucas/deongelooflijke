@@ -51,6 +51,8 @@ def test_clean_ci_build_publishes_transcripts_word_index_and_person_details(tmp_
         write('site/dist/data/persons_mentioned/karl-marx.json', {'notes': ['Stale detail']})
     (tmp_path / 'site/src').mkdir(parents=True)
     (tmp_path / 'site/src/index.template.html').write_text('<style>body{margin:0}</style>', encoding='utf-8')
+    (tmp_path / 'site/src/over.md').write_text(
+        (ROOT / 'site/src/over.md').read_text(encoding='utf-8'), encoding='utf-8')
     monkeypatch.setattr(site, 'ROOT', tmp_path)
     out = tmp_path / 'site/static'
     monkeypatch.setattr(sys, 'argv', ['5b_build_site.py', '--offline', '--output-dir', str(out)])
@@ -62,3 +64,11 @@ def test_clean_ci_build_publishes_transcripts_word_index_and_person_details(tmp_
     assert 'Distinctive source detail' in person
     assert 'Stale detail' not in person
     assert 'https://nl.wikipedia.org/wiki/Karl_Marx' in person
+    about = (out / 'over/index.html').read_text(encoding='utf-8')
+    assert '<h1>Over</h1>' in about
+    assert '<h2>Nerdhoekje</h2>' in about
+    assert '<code>nl_core_news_sm</code>' in about
+    assert 'href="mailto:deongelooflijkearchief@outlook.com"' in about
+    assert '<a href="/over/" class="on">Over</a>' in about
+    assert '<a href="/over/" class="">Over</a>' in person
+    assert '<loc>https://www.deongelooflijkearchief.nl/over/</loc>' in (out / 'sitemap.xml').read_text(encoding='utf-8')

@@ -121,16 +121,16 @@ def wiki_search(name: str, lang: str = 'nl') -> list[dict] | None:
 def wiki_search_cached(name: str, lang: str, cache: dict) -> list[dict]:
     """Like wiki_search but reads/writes the shared search cache.
 
-    Returns [] on cache-hit with no results, on live empty search, or on failure.
+    Returns [] for a successful empty search; raises on a network failure.
     """
     key = f'{lang}:{name}'
     if key in cache:
         return cache[key]
     results = wiki_search(name, lang)
-    if results is not None:
-        cache[key] = results   # cache success (even [])
-        # don't save to disk yet — caller saves after each episode
-    return results if results is not None else []
+    if results is None:
+        raise RuntimeError(f'Wikipedia search unavailable for {lang}:{name}; retry later')
+    cache[key] = results   # cache success (even [])
+    return results
 
 
 def wiki_page_url(key: str, lang: str = 'nl') -> str:
@@ -178,16 +178,18 @@ def _verify_people(client, model: str, people_candidates: list[dict],
     try:
         response = client.messages.create(
             model=model,
-            max_tokens=1500,
+            max_tokens=max(2000, len(people_candidates) * 100 + 1000),
             output_config={'effort': 'low'},
             messages=[{'role': 'user', 'content': prompt}],
         )
         raw = next((b.text for b in response.content if b.type == 'text'), '[]')
         result = _parse_json_response(raw)
-        return result if isinstance(result, list) else []
+        if response.stop_reason == 'max_tokens' or not isinstance(result, list) or len(result) != len(people_candidates):
+            raise ValueError('Incomplete Wikipedia verification response')
+        return result
     except Exception as exc:
         print(f'    LLM verification failed: {exc}')
-        return []
+        raise
 
 
 # ---------------------------------------------------------------------------
@@ -384,20 +386,25 @@ def main():
     print(f'Enriching {len(keys)} episode(s) with {args.model} '
           f'({len(cache)} name(s) already cached) …')
 
+    errors = []
     for i, key in enumerate(keys, 1):
         print(f'  [{i}/{len(keys)}] #{key}')
         try:
             enrich_episode(key, client, args.model, cache, force=args.force)
-            _save_cache(cache)   # persist after every episode
         except Exception as exc:
             print(f'    ERROR: {exc}')
+            errors.append(key)
             if '429' in str(exc):
                 print('    Rate limited — waiting 60 s …')
                 time.sleep(60)
+        finally:
+            _save_cache(cache)  # retain successful searches even if a later call failed
         if i < len(keys):
             time.sleep(0.3)  # small gap between episodes (actual throttle is per-request)
 
     print('Done.')
+    if errors:
+        sys.exit(1)
 
 
 if __name__ == '__main__':

@@ -29,8 +29,7 @@ DIR_OUT       = ROOT / 'data' / 'analysis'
 THEMES_PATH   = ROOT / 'data' / 'themes.json'
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 
-DEFAULT_MODEL = 'claude-sonnet-5-5'
-MAX_TRANSCRIPT_CHARS = 60_000  # stay comfortably within context
+DEFAULT_MODEL = 'claude-haiku-5-5'
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -66,10 +65,7 @@ def _transcript_text(tr: dict) -> str:
         mm, ss = divmod(int(start_s), 60)
         lines.append(f'[{mm:02d}:{ss:02d}] {name}: {text}')
 
-    full = '\n'.join(lines)
-    if len(full) > MAX_TRANSCRIPT_CHARS:
-        full = full[:MAX_TRANSCRIPT_CHARS] + '\n[... transcript ingekort ...]'
-    return full
+    return '\n'.join(lines)
 
 
 def _build_system_prompt(themes: list[dict]) -> str:
@@ -232,7 +228,7 @@ def _repair_json(client, model: str, broken_text: str) -> dict:
     )
     response = client.messages.create(
         model=model,
-        max_tokens=8000,
+        max_tokens=16000,
         messages=[{'role': 'user', 'content': fix_prompt}],
     )
     raw = next((b.text for b in response.content if b.type == 'text'), '{}')
@@ -370,7 +366,7 @@ def _verify_books(client, model: str, books: list[dict], episode_context: str) -
     try:
         response = client.messages.create(
             model=model,
-            max_tokens=2000,
+            max_tokens=max(4000, len(books) * 200 + 1000),
             output_config={'effort': 'low'},
             messages=[{'role': 'user', 'content': prompt}],
         )
@@ -495,13 +491,13 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
         f"Aflevering #{feed.get('n', key)}: {feed.get('t', '')}\n"
         f"Datum: {feed.get('date', '')}\n\n"
         f"=== BESCHRIJVING ===\n{feed.get('desc', '').strip()}\n\n"
-        f"=== TRANSCRIPT (eerste {len(transcript_text.splitlines())} regels) ===\n"
+        f"=== VOLLEDIG TRANSCRIPT ({len(transcript_text.splitlines())} regels) ===\n"
         f"{transcript_text}"
     )
 
     response = client.messages.create(
         model=model,
-        max_tokens=8000,
+        max_tokens=16000,
         system=[{
             'type': 'text',
             'text': system_prompt,
@@ -510,6 +506,9 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
         output_config={'effort': 'low'},
         messages=[{'role': 'user', 'content': user_content}],
     )
+
+    if response.stop_reason == 'max_tokens':
+        raise ValueError('Analysis output reached max_tokens; refusing to save incomplete extraction')
 
     raw_text = ''
     for block in response.content:
@@ -545,6 +544,11 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
         'episode': feed.get('n', key),
         'analyzed': datetime.date.today().isoformat(),
         'model': model,
+        'transcript_input': {
+            'characters': len(transcript_text),
+            'segments': len(transcript_text.splitlines()),
+            'truncated': False,
+        },
         'usage': {
             'input_tokens': usage.input_tokens,
             'output_tokens': usage.output_tokens,
@@ -623,7 +627,6 @@ def main():
         return
 
     print(f'Analysing {len(keys)} episode(s) with {args.model} …')
-    total_cost_estimate = 0.0
     errors = []
 
     for i, key in enumerate(keys, 1):
@@ -640,9 +643,6 @@ def main():
                                    recommend_similar=not args.no_similar)
             save_analysis(key, data)
             u = data['usage']
-            # Rough cost estimate for sonnet-5-5: $2.00/MTok input, $10.00/MTok output
-            cost = (u['input_tokens'] * 2.00 + u['output_tokens'] * 10.00) / 1_000_000
-            total_cost_estimate += cost
             cache_note = f" (cache_read={u['cache_read_input_tokens']})" if u.get('cache_read_input_tokens') else ''
             print(f'  [{i}/{len(keys)}] #{key} — OK  in={u["input_tokens"]} out={u["output_tokens"]}{cache_note}')
         except Exception as e:
@@ -656,11 +656,12 @@ def main():
         if i < len(keys):
             time.sleep(0.3)
 
-    print(f'\nDone. Estimated cost: ${total_cost_estimate:.4f}')
+    print('\nDone.')
     if errors:
         print(f'Errors ({len(errors)}):')
         for k, msg in errors:
             print(f'  #{k}: {msg}')
+        sys.exit(1)
 
 
 if __name__ == '__main__':

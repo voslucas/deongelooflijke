@@ -64,6 +64,16 @@ def _ep_key(ep: dict) -> str:
     return str(ep['n']) if ep.get('n') is not None else 'x' + ep['id']
 
 
+def _episodes_with_guests() -> list[dict]:
+    """Use verified analysis guest names when available, as the site does."""
+    episodes = json.loads(EPISODES_JSON.read_text(encoding='utf-8'))['eps']
+    for ep in episodes:
+        analysis = _load_json(DIR_ANALYSIS / f'{_ep_key(ep)}.json')
+        if analysis and analysis.get('guests'):
+            ep['g'] = analysis['guests']
+    return episodes
+
+
 def _guest_transcript_segments(tr: dict, guest_name: str) -> str:
     """Return up to MAX_TRANSCRIPT_PER_EP chars of the guest's own speech."""
     # Build speaker-id → name map
@@ -187,7 +197,7 @@ def enrich_guest(client, model: str, guest_name: str, force: bool = False) -> bo
         return False
 
     # Load all episodes for this guest from episodes.json
-    all_eps = json.loads(EPISODES_JSON.read_text(encoding='utf-8'))['eps']
+    all_eps = _episodes_with_guests()
     # Hosts David Boogerd and Stefan Paas appear in every episode; don't use 'g' for them
     is_host = guest_name in ('David Boogerd', 'Stefan Paas')
     if is_host:
@@ -207,8 +217,7 @@ def enrich_guest(client, model: str, guest_name: str, force: bool = False) -> bo
     bio = _call_llm(client, model, prompt)
 
     if not bio:
-        print(f'  ERROR: empty response for {guest_name!r}')
-        return False
+        raise ValueError(f'Empty biography response for {guest_name!r}')
 
     person['bio'] = bio
     _save_person(sl, person)
@@ -224,6 +233,7 @@ def main() -> None:
                        help='Slug or exact name of a single guest to process')
     group.add_argument('--all-missing', action='store_true',
                        help='Process all guests who have no bio in persons/*.json')
+    group.add_argument('--episode', help='Generate missing biographies for this episode cast only')
     group.add_argument('--all', action='store_true',
                        help='Process every guest (implies --force)')
     parser.add_argument('--force', action='store_true',
@@ -250,8 +260,7 @@ def main() -> None:
     client = anthropic.Anthropic(api_key=api_key) if api_key else anthropic.Anthropic()
 
     # Build guest list
-    all_eps_data = json.loads(EPISODES_JSON.read_text(encoding='utf-8'))
-    all_eps = all_eps_data['eps']
+    all_eps = _episodes_with_guests()
 
     # Collect all unique guest names from episode data
     guest_names: set[str] = set()
@@ -277,11 +286,20 @@ def main() -> None:
         process_names = matched
         force = True  # explicit guest always rewrites
 
+    elif args.episode:
+        episode = next((ep for ep in all_eps if _ep_key(ep) == args.episode), None)
+        if episode is None:
+            sys.exit(f'Episode not found: {args.episode}')
+        process_names = sorted(set(episode.get('g', [])) | {'David Boogerd'}
+                               | ({'Stefan Paas'} if episode.get('p') else set()))
+        force = args.force
+
     elif args.all or args.all_missing:
         force = args.force or args.all
         process_names = sorted(guest_names)
 
     written = 0
+    errors = []
     for name in process_names:
         sl = slug(name)
         if args.all_missing and not args.force:
@@ -293,10 +311,13 @@ def main() -> None:
                 written += 1
         except Exception as exc:
             print(f'  ERROR processing {name!r}: {exc}')
+            errors.append(name)
 
     print(f'\nDone — {written} bio(s) written.')
     if written:
         print('Run: python scripts/4_split_data.py && python scripts/5_build_site.py')
+    if errors:
+        sys.exit(1)
 
 
 if __name__ == '__main__':

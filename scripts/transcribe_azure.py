@@ -16,7 +16,7 @@ API:
     Auth: Ocp-Apim-Subscription-Key header
     Limits: ≤ 2 hours, ≤ 250 MB per request
 """
-import argparse, datetime, json, os, pathlib, re, sys, time
+import argparse, datetime, json, os, pathlib, re, sys, time, uuid
 from utils import ep_key as _ep_key
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -239,6 +239,67 @@ def _delete_mp3(ep_key):
 # Main transcription call
 # ---------------------------------------------------------------------------
 
+class _AzureUpload:
+    """Stream a length-delimited multipart body and report bytes after each send.
+
+    Both HTTP clients consume this iterator as they write the request body. The
+    code after each yield runs once the client has sent that chunk, rather than
+    while a multipart encoder is merely reading the file into memory.
+    """
+
+    def __init__(self, audio, filename, definition):
+        self.audio = audio
+        boundary = uuid.uuid4().hex
+        self.content_type = f'multipart/form-data; boundary={boundary}'
+        # Episode filenames are local canonical keys, not arbitrary user input.
+        self.prefix = (
+            f'--{boundary}\r\n'
+            f'Content-Disposition: form-data; name="audio"; filename="{filename}"\r\n'
+            'Content-Type: audio/mpeg\r\n\r\n'
+        ).encode('utf-8')
+        self.suffix = (
+            f'\r\n--{boundary}\r\n'
+            'Content-Disposition: form-data; name="definition"\r\n'
+            'Content-Type: application/json\r\n\r\n'
+            + json.dumps(definition) + f'\r\n--{boundary}--\r\n'
+        ).encode('utf-8')
+        self.total = len(self.prefix) + os.fstat(audio.fileno()).st_size + len(self.suffix)
+
+    def __len__(self):
+        return self.total
+
+    def _chunks(self):
+        self.audio.seek(0)
+        yield self.prefix
+        while chunk := self.audio.read(65536):
+            yield chunk
+        yield self.suffix
+
+    def __iter__(self):
+        started = time.monotonic()
+        sent, last_percent, last_update = 0, 0, started
+        inline = sys.stdout.isatty()
+        print(f'  Upload:   0% (0.0 / {self.total / 1_000_000:.1f} MB)',
+              end='\r' if inline else '\n', flush=True)
+        for chunk in self._chunks():
+            yield chunk
+            sent += len(chunk)
+            now = time.monotonic()
+            percent = sent * 100 // self.total
+            if percent != last_percent or now - last_update >= 2:
+                elapsed = now - started
+                speed = sent / max(elapsed, 0.001) / 1_000_000
+                print(f'  Upload: {percent:3d}% '
+                      f'({sent / 1_000_000:.1f} / {self.total / 1_000_000:.1f} MB) '
+                      f'| {speed:.2f} MB/s | {elapsed:.0f}s elapsed',
+                      end='\r' if inline else '\n', flush=True)
+                last_percent, last_update = percent, now
+        if inline:
+            print(flush=True)
+        print(f'  Upload finished in {time.monotonic() - started:.1f}s; '
+              'waiting for Azure to finish transcription ...', flush=True)
+
+
 def transcribe_episode(ep, key, endpoint, requests):
     mp3_url = ep.get('mp3', '')
     if not mp3_url:
@@ -268,19 +329,22 @@ def transcribe_episode(ep, key, endpoint, requests):
     headers = {'Ocp-Apim-Subscription-Key': key}
 
     mb = mp3_path.stat().st_size // 1_000_000
-    print(f'  Uploading {mb} MB to MAI-Transcribe-2 …')
+    print(f'  Uploading {mb} MB to MAI-Transcribe-2 …', flush=True)
 
     with open(mp3_path, 'rb') as audio_f:
+        upload = _AzureUpload(audio_f, mp3_path.name, definition)
+        upload_headers = {
+            **headers,
+            'Content-Type': upload.content_type,
+            'Content-Length': str(len(upload)),
+        }
         # httpx avoids the Windows SSLWantWriteError on large HTTPS uploads
         if _httpx is not None:
             with _httpx.Client(timeout=_httpx.Timeout(60, read=7200)) as client:
                 resp_raw = client.post(
                     url,
-                    headers=headers,
-                    files={
-                        'audio': (mp3_path.name, audio_f, 'audio/mpeg'),
-                        'definition': (None, json.dumps(definition), 'application/json'),
-                    },
+                    headers=upload_headers,
+                    content=upload,
                 )
             status_code = resp_raw.status_code
             retry_after = resp_raw.headers.get('Retry-After', 60)
@@ -292,11 +356,8 @@ def transcribe_episode(ep, key, endpoint, requests):
         else:
             resp_raw = requests.post(
                 url,
-                headers=headers,
-                files={
-                    'audio': (mp3_path.name, audio_f, 'audio/mpeg'),
-                    'definition': (None, json.dumps(definition), 'application/json'),
-                },
+                headers=upload_headers,
+                data=upload,
                 timeout=(60, 7200),
             )
             status_code = resp_raw.status_code

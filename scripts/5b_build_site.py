@@ -13,6 +13,7 @@ import argparse, json, math, pathlib, re, shutil, unicodedata
 from collections import defaultdict
 from datetime import date as _date
 from html import escape as _esc
+from markdown_it import MarkdownIt
 from book_covers import aliases as cover_aliases, prepare_covers
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -758,6 +759,7 @@ NAV_ITEMS = [
     ('boeken',       'Boeken',       '/boeken/'),
     ('themas',       "Thema’s", '/themas/'),
     ('statistieken', 'Statistieken', '/statistieken/'),
+    ('over',         'Over',         '/over/'),
 ]
 
 
@@ -819,6 +821,17 @@ def write_page(out_path: pathlib.Path, title, content, **kwargs):
 # ============================================================
 # SECTION 6: PAGE GENERATORS
 # ============================================================
+
+def build_over(out):
+    """Render the editable Markdown source with the shared site navigation."""
+    source = (ROOT / 'site' / 'src' / 'over.md').read_text(encoding='utf-8')
+    content = MarkdownIt('commonmark', {'html': False}).render(source)
+    write_page(out / 'over' / 'index.html', 'Over',
+               f'<article class="prose about">{content}</article>',
+               nav_active='over', page_type='about',
+               canonical=f'{_BASE_URL}/over/',
+               og_meta={'description': 'Over het archief van De Ongelooflijke Podcast, de maker en de gebruikte techniek.'})
+
 
 def build_home(data, out):
     reg = data.reg_eps
@@ -2089,6 +2102,8 @@ def write_assets(out: pathlib.Path, logo_src: pathlib.Path,
     # Append static-site specific rules
     css += '\n'
     css += '.hidden{display:none!important}\n'
+    css += '.about{margin-block:32px 48px;overflow-wrap:anywhere}\n'
+    css += '.about h1{margin-bottom:24px}.about h2{margin:32px 0 16px}\n'
     css += '.mention-row{display:flex;align-items:center;padding:7px 0;'
     css += 'border-bottom:1px solid var(--rule)}\n'
     css += '.mention-row a{color:inherit;text-decoration:none}\n'
@@ -2367,6 +2382,9 @@ def main():
 
     build_stats(data, out)
     urls.append(('/statistieken/', today))
+
+    build_over(out)
+    urls.append(('/over/', today))
 
     for ep in data.all_eps:
         build_episode_detail(data, ep, out)

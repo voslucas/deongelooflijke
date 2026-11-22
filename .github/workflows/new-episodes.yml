@@ -2,16 +2,25 @@ name: Dagelijkse aflevering check
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # Elke dag om 07:00 UTC (09:00 Amsterdam)
-  workflow_dispatch:        # Handmatig starten via GitHub Actions UI
+    - cron: '0 7 * * *' # 08:00 Amsterdam in winter, 09:00 in summer
+  workflow_dispatch:
 
 permissions:
-  contents: write           # Nodig voor git push na verwerking
+  contents: write
+  actions: write # Explicit deployment dispatch; bot pushes do not trigger push workflows
+
+concurrency:
+  group: daily-episode-processing
+  cancel-in-progress: false
+
+env:
+  PYTHONUTF8: '1'
+  PYTHONUNBUFFERED: '1'
 
 jobs:
   check-and-process:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -20,117 +29,61 @@ jobs:
           python-version: '3.12'
           cache: pip
 
-      # resemblyzer trekt torch/librosa/scipy binnen; cachen scheelt ~2-3 min per dag
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Download laatste feed
         run: |
-          mkdir -p data/raw
-          curl -sSf --max-time 30 \
-            -H 'User-Agent: Mozilla/5.0 (compatible; OngelooflijkArchief/bot)' \
-            -o data/raw/feed.xml \
-            'https://www.omnycontent.com/d/playlist/f1f7a7c5-9bdf-4d4c-b049-ab9200efe28a/feed.rss'
+          pip install -r requirements.txt pytest
+          python -m spacy download nl_core_news_sm
 
-      # Vergelijk data/feed/ vóór en na het parsen om nieuwe nummers te vinden
-      - name: Detecteer nieuwe afleveringen
-        id: detect
+      - name: Download and validate latest NPO feed
+        run: python scripts/fetch_feed.py
+
+      - name: Build episode records
         run: |
-          python - <<'PY'
-          import os, pathlib, subprocess, sys
-
-          feed_dir = pathlib.Path('data/feed')
-          known = {f.stem for f in feed_dir.glob('[0-9]*.json') if f.stem.isdigit()}
-
-          subprocess.run(
-              [sys.executable, 'scripts/1_parse_feed.py', 'data/raw/feed.xml'],
-              check=True,
-          )
-
-          now = {f.stem for f in feed_dir.glob('[0-9]*.json') if f.stem.isdigit()}
-          new = sorted(now - known, key=int)
-
-          out_file = os.environ['GITHUB_OUTPUT']
-          with open(out_file, 'a') as fh:
-              fh.write(f"new_episodes={','.join(new)}\n")
-              fh.write(f"has_new={'true' if new else 'false'}\n")
-
-          if new:
-              print(f"Nieuwe afleveringen gevonden: {new}")
-          else:
-              print("Geen nieuwe afleveringen.")
-          PY
-
-      # Stap 2+3: gasten extraheren en episode-data opbouwen (alleen bij nieuwe afleveringen)
-      - name: Bouw episode-data
-        if: steps.detect.outputs.has_new == 'true'
-        run: |
+          python scripts/1_parse_feed.py
           python scripts/2_extract_guests.py
           python scripts/3_build_episode_data.py
 
-      # Verwerk elke nieuwe aflevering: transcriberen → sprekers → analyse → Wikipedia
-      - name: Verwerk nieuwe afleveringen
-        if: steps.detect.outputs.has_new == 'true'
+      - name: Find new or unfinished episodes
+        id: detect
+        run: python scripts/process_new_episodes.py --plan
+
+      - name: Process pending episodes and all enrichment stages
+        if: steps.detect.outputs.has_pending == 'true'
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_ENDPOINT: ${{ secrets.AZURE_SPEECH_ENDPOINT }}
           ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-        run: |
-          for EP in $(echo "${{ steps.detect.outputs.new_episodes }}" | tr ',' ' '); do
-            echo "──────────────────────────────────────"
-            echo "Verwerking aflevering $EP"
-            echo "──────────────────────────────────────"
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
+        run: python scripts/process_new_episodes.py --all-pending
 
-            echo "→ Transcriberen (Azure MAI-Transcribe-2)…"
-            python scripts/transcribe_azure.py --episode "$EP"
-
-            echo "→ Sprekeridentificatie (Resemblyzer)…"
-            # continue-on-error: sprekers worden S1/S2/… als er geen profielen zijn
-            python scripts/identify_speakers.py --episode "$EP" --apply || \
-              echo "  Sprekeridentificatie overgeslagen (geen profiel of fout)"
-
-            echo "→ Analyse (Claude)…"
-            python scripts/analyze_episode.py --episode "$EP"
-
-            echo "→ Wikipedia-verrijking…"
-            python scripts/8_enrich_people_wiki.py --episode "$EP"
-          done
-
-      - name: Download ontbrekende boekomslagen
-        if: steps.detect.outputs.has_new == 'true'
+      - name: Download missing book covers
         run: python scripts/book_covers.py
 
-      # Script 4: per-episode bestanden aanmaken voor de site
-      - name: Splits data voor de site
-        if: steps.detect.outputs.has_new == 'true'
-        run: python scripts/4_split_data.py
+      - name: Validate data and static build
+        run: |
+          python scripts/4_split_data.py
+          python scripts/5b_build_site.py
+          python -m pytest tests/ -q
 
-      # Commit alle gewijzigde databestanden; de push triggert automatisch build.yml
-      - name: Commit en push
-        if: steps.detect.outputs.has_new == 'true'
+      # Persist completed stages even after an API/build failure, so the next run
+      # resumes instead of paying for successful transcription/analysis again.
+      - name: Commit processing progress and data
+        id: commit
+        if: always() && steps.detect.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "data: update podcast feed and episode processing"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
-          git add \
-            data/raw/feed.xml \
-            data/feed/ \
-            data/intermediate/ \
-            data/transcripts/ \
-            data/analysis/ \
-            data/episodes.json \
-            data/book_covers/
-
-          git diff --staged --quiet && echo "Niets te committen." && exit 0
-
-          git commit -m "feat: nieuwe aflevering(en) ${{ steps.detect.outputs.new_episodes }}
-
-          Automatisch verwerkt door de dagelijkse pipeline:
-          - Transcriptie via Azure MAI-Transcribe-2
-          - Sprekeridentificatie via Resemblyzer
-          - Analyse via Claude
-          - Wikipedia-verrijking
-
-          Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
-
-          git push
+      - name: Trigger production build explicitly
+        if: success() && steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref "${{ github.ref_name }}"

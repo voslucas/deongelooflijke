@@ -26,15 +26,10 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install requests pytest Pillow
+        run: pip install httpx requests pytest Pillow markdown-it-py
 
       - name: Try to fetch latest feed
-        run: |
-          curl -sSf --max-time 30 \
-            -H 'User-Agent: Mozilla/5.0 (compatible; bot)' \
-            -o data/raw/feed.xml \
-            'https://www.omnycontent.com/d/playlist/f1f7a7c5-9bdf-4d4c-b049-ab9200efe28a/feed.rss' \
-          || echo "Feed fetch failed; using committed feed.xml"
+        run: python scripts/fetch_feed.py
         continue-on-error: true
 
       - name: Parse feed

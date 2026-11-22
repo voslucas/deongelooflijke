@@ -107,10 +107,10 @@ def _fetch_book_by_volume_id(volume_id: str, api_key: str = '') -> dict | None:
                 return None
             else:
                 print(f'    HTTP {exc.code} for volume {volume_id}')
-                return None
+                raise
         except Exception as exc:
             print(f'    Error fetching volume {volume_id}: {exc}')
-            return None
+            raise
     return None
 
 
@@ -127,7 +127,7 @@ def _fetch_book_by_isbn(isbn13: str, api_key: str = '') -> dict | None:
         return items[0] if items else None
     except Exception as exc:
         print(f'    Error searching ISBN {isbn13}: {exc}')
-        return None
+        raise
 
 
 def _build_book_record(volume_id: str, volume_data: dict,
@@ -197,10 +197,12 @@ def _build_book_record(volume_id: str, volume_data: dict,
 # Collect unique books from all analysis files
 # ---------------------------------------------------------------------------
 
-def _collect_unique_books() -> dict[str, dict]:
+def _collect_unique_books(episode: str | None = None) -> dict[str, dict]:
     """Scan all analysis files and return unique books keyed by book_key."""
     books: dict[str, dict] = {}
     for f in sorted(DIR_ANALYSIS.glob('*.json')):
+        if episode is not None and f.stem != episode:
+            continue
         try:
             an = json.loads(f.read_text(encoding='utf-8'))
         except Exception:
@@ -281,7 +283,7 @@ def _fetch_book_by_title_nl(title: str, author: str = '', api_key: str = '') -> 
         return items[0] if items else None
     except Exception as exc:
         print(f'    Dutch fallback search failed for "{title}": {exc}')
-        return None
+        raise
 
 
 # ---------------------------------------------------------------------------
@@ -360,6 +362,7 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--all-missing', action='store_true',
                        help='Enrich all books not yet in data/books/')
+    group.add_argument('--episode', help='Enrich missing books from one episode only')
     group.add_argument('--isbn', type=str, metavar='ISBN13',
                        help='Enrich one book by ISBN-13')
     group.add_argument('--volume-id', type=str, metavar='VOLUME_ID',
@@ -385,9 +388,10 @@ def main():
 
     DIR_BOOKS.mkdir(parents=True, exist_ok=True)
 
-    all_books = _collect_unique_books()
+    all_books = _collect_unique_books(args.episode)
     if not all_books:
-        sys.exit('No books with identifiers found in data/analysis/*.json')
+        print('No books with identifiers to enrich.')
+        return
 
     if args.isbn:
         key = args.isbn.strip()

@@ -79,6 +79,7 @@ def main():
     (OUT_INTERMEDIATE / 'raw.json').write_text(
         json.dumps(eps, ensure_ascii=False, indent=0),
         encoding='utf-8',
+        newline='\n',
     )
     print(f'  → data/intermediate/raw.json')
 
@@ -89,12 +90,18 @@ def main():
     for e in eps:
         key = str(e['n']) if e['n'] is not None else 'x' + e['npo']
         snap = {**e, 'fetched': fetched}
-        (OUT_FEED / f'{key}.json').write_text(
+        snapshot_path = OUT_FEED / f'{key}.json'
+        if snapshot_path.exists():
+            previous = json.loads(snapshot_path.read_text(encoding='utf-8'))
+            if {k: v for k, v in previous.items() if k != 'fetched'} == e:
+                continue  # Keep the original fetched date when nothing changed.
+        snapshot_path.write_text(
             json.dumps(snap, ensure_ascii=False, indent=2),
             encoding='utf-8',
+            newline='\n',
         )
         written += 1
-    print(f'  → data/feed/ ({written} files)')
+    print(f'  → data/feed/ ({written} new or updated files)')
 
 
 if __name__ == '__main__':
