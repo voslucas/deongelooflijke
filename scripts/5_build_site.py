@@ -8,8 +8,9 @@ site/dist/data/episodes/{key}.json when the user opens an episode detail view.
 Also inlines a compact verse table (bvdata) from data/bible/*.json covering all
 referenced Bible passages so the popup can show NBV21 text without runtime fetches.
 """
-import base64, json, pathlib, re, shutil
+import argparse, base64, json, pathlib, re, shutil
 from utils import truncate_xs
+from book_covers import prepare_covers
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EP_DIR = ROOT / 'site' / 'dist' / 'data' / 'episodes'
@@ -185,6 +186,10 @@ def load_persons_data(root: pathlib.Path) -> dict:
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--offline', action='store_true', help='Use cached book covers only')
+    args = parser.parse_args()
+    dist = ROOT / 'site' / 'dist'
     # Read full episodes.json for bios and built date
     full_data = json.loads((ROOT / 'data' / 'episodes.json').read_text(encoding='utf-8'))
 
@@ -197,6 +202,7 @@ def main():
         'bios': full_data['bios'],
         'built': full_data['built'],
         'persons': load_persons_data(ROOT),
+        'covers': prepare_covers(ROOT, dist, offline=args.offline),
     }
 
     # Read template and replace placeholders

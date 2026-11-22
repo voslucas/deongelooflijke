@@ -83,6 +83,59 @@ class TestTfIdf(unittest.TestCase):
         self.assertIn('iran', kw1[:5], "Expected 'iran' in top keywords for ep1")
 
 
+class TestMentionCategories(unittest.TestCase):
+    def setUp(self):
+        self.eps = {'327': dict(SAMPLE_EP)}
+        self.analysis = {'327': {
+            'people': [{'name': 'Jezus', 'mention_count': 12}],
+            'books': [{'title': 'Jezus', 'author': 'Kader Abdolah',
+                       'isbn13': '9789044661736', 'start_seconds': 95}],
+            'places': ['Jezus'],
+        }}
+
+    def test_analysis_namesakes_keep_their_category_and_counts(self):
+        entries = sd.build_mention_aggregate_from_analysis(self.analysis, self.eps)
+        by_category = {e['c']: e for e in entries}
+        self.assertEqual(set(by_category), {'persoon', 'boek', 'plaats'})
+        self.assertTrue(all(e['k'] == 'jezus' for e in entries))
+        self.assertEqual(by_category['persoon']['mx'], 12)
+        book = by_category['boek']
+        self.assertEqual(book['book_key'], '9789044661736')
+        self.assertEqual(book['x'], 1)
+        self.assertEqual(book['eps'][0]['hits'], [{'t': 95.0, 'sp': ''}])
+
+    def test_transcripts_and_merge_preserve_namesake_categories(self):
+        transcripts = [{'episode': 327, 'mentions': [
+            {'name': 'Jezus', 'type': category, 't': i}
+            for i, category in enumerate(('persoon', 'boek', 'plaats'))
+        ]}]
+        primary = sd.build_mention_aggregate(transcripts, self.eps)
+        self.assertEqual(len(primary), 3)
+        secondary = sd.build_mention_aggregate_from_analysis(self.analysis, self.eps)
+        merged = sd.merge_mention_aggregates(primary, secondary)
+        self.assertEqual({e['c'] for e in merged}, {'persoon', 'boek', 'plaats'})
+        self.assertTrue(all(len(e['eps']) == 1 for e in merged))
+        # Philosophers and people retain their existing shared identity.
+        philosopher = dict(secondary[0], c='filosoof')
+        self.assertEqual(len(sd.merge_mention_aggregates([philosopher], [secondary[0]])), 1)
+
+    def test_book_namesake_generates_static_detail_with_episode(self):
+        site = import_module('5b_build_site')
+        entries = sd.build_mention_aggregate_from_analysis(self.analysis, self.eps)
+        books = [e for e in entries if e['c'] == 'boek']
+        self.assertEqual(len(books), 1)
+        data = types.SimpleNamespace(
+            books_list=books, books_detail={}, years=[2026],
+            ep_by_num={327: self.eps['327']})
+        with tempfile.TemporaryDirectory() as directory:
+            out = pathlib.Path(directory)
+            site.build_book_detail(data, books[0], out)
+            html = (out / 'boek/9789044661736/index.html').read_text(encoding='utf-8')
+            self.assertIn('<h1 style="margin:4px 0 6px">Jezus</h1>', html)
+            self.assertIn('Kader Abdolah', html)
+            self.assertIn('/aflevering/327/', html)
+
+
 class TestFullRun(unittest.TestCase):
     """Run split_data against a small synthetic dataset in a temp directory."""
 

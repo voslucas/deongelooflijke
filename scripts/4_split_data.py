@@ -105,6 +105,11 @@ def compute_tfidf(eps):
 # Aggregate helpers (used when transcripts exist)
 # ---------------------------------------------------------------------------
 
+def _mention_key(category, name):
+    """Keep namesakes in separate categories; philosophers are people."""
+    return ('persoon' if category == 'filosoof' else category, norm(name))
+
+
 def build_mention_aggregate(transcripts, eps_by_key):
     """Build people/books/places aggregates from transcript mention lists.
     Stores speaker names (not IDs) and per-episode hit timestamps.
@@ -121,7 +126,7 @@ def build_mention_aggregate(transcripts, eps_by_key):
         # Build speaker ID -> name map for this transcript
         spk_names = {s['id']: s['name'] for s in tr.get('speakers', [])}
 
-        # Group mentions by normalised name within this episode
+        # Group mentions by category and normalised name within this episode
         ep_ment = {}
         for m in tr.get('mentions', []):
             name = m.get('name', '')
@@ -130,7 +135,7 @@ def build_mention_aggregate(transcripts, eps_by_key):
             typ = m.get('type', 'persoon')
             sp_name = spk_names.get(m.get('speaker', ''), '')
             t = m.get('t', -1)
-            nkey = norm(name)
+            nkey = _mention_key(typ, name)
             if nkey not in ep_ment:
                 ep_ment[nkey] = {'name': name, 'c': typ, 'x': 0, 'hits': []}
             ep_ment[nkey]['x'] += 1
@@ -139,7 +144,7 @@ def build_mention_aggregate(transcripts, eps_by_key):
 
         for nkey, em in ep_ment.items():
             if nkey not in by_name:
-                by_name[nkey] = {'n': em['name'], 'c': em['c'], 'k': nkey,
+                by_name[nkey] = {'n': em['name'], 'c': em['c'], 'k': nkey[1],
                                  'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
             entry['x'] += em['x']
@@ -178,9 +183,9 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             name = p.get('name', '') if isinstance(p, dict) else str(p)
             if not name:
                 continue
-            nkey = norm(name)
+            nkey = _mention_key('persoon', name)
             if nkey not in by_name:
-                by_name[nkey] = {'n': name, 'c': 'persoon', 'k': nkey,
+                by_name[nkey] = {'n': name, 'c': 'persoon', 'k': nkey[1],
                                  'x': 0, 'mx': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
             mc = max(1, int(p.get('mention_count') or 1)) if isinstance(p, dict) else 1
@@ -198,14 +203,14 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             name = b.get('canonical_title') or b.get('title', '')
             if not name:
                 continue
-            nkey = norm(name)
+            nkey = _mention_key('boek', name)
             t = b.get('start_seconds')
             hits = [{'t': float(t), 'sp': ''}] if t is not None and t >= 0 else []
             isbn13 = (b.get('isbn13') or '').strip()
             volume_id = (b.get('volume_id') or '').strip()
             book_key = isbn13 if isbn13 else (f'vol-{volume_id}' if volume_id else '')
             if nkey not in by_name:
-                by_name[nkey] = {'n': name, 'c': 'boek', 'k': nkey,
+                by_name[nkey] = {'n': name, 'c': 'boek', 'k': nkey[1],
                                  'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
             if book_key and not entry.get('book_key'):
@@ -231,9 +236,9 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
             name = p if isinstance(p, str) else p.get('name', '')
             if not name:
                 continue
-            nkey = norm(name)
+            nkey = _mention_key('plaats', name)
             if nkey not in by_name:
-                by_name[nkey] = {'n': name, 'c': 'plaats', 'k': nkey,
+                by_name[nkey] = {'n': name, 'c': 'plaats', 'k': nkey[1],
                                  'x': 0, 'eps': [], 'sp': {}, 'yr': {}}
             entry = by_name[nkey]
             entry['x'] += 1
@@ -247,9 +252,9 @@ def build_mention_aggregate_from_analysis(an_by_key, eps_by_key):
 
 def merge_mention_aggregates(primary, secondary):
     """Merge secondary into primary, deduplicating by entity key and episode number."""
-    merged = {e['k']: e for e in primary}
+    merged = {_mention_key(e['c'], e['k']): e for e in primary}
     for entry in secondary:
-        k = entry['k']
+        k = _mention_key(entry['c'], entry['k'])
         if k in merged:
             existing_ns = {ep['n'] for ep in merged[k]['eps']}
             new_eps = [ep for ep in entry['eps'] if ep['n'] not in existing_ns]

@@ -26,7 +26,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install requests pytest
+        run: pip install requests pytest Pillow
 
       - name: Try to fetch latest feed
         run: |

@@ -377,20 +377,20 @@ function bkThumb(volId,stored){
   const v=(volId||'').trim();
   return v?`https://books.google.com/books/content?id=${encodeURIComponent(v)}&printsec=frontcover&img=1&zoom=1&source=gbs_api`:'';
 }
-// Unified book-cover element: Open Library first, Google thumb as fallback, gold icon as final.
-// isbn13: 13-digit string for OL (or ''); thumb: resolved Google url (use bkThumb first); w/h: px; r: border-radius.
+// Provider selection and fallback happen at build time; visitors load local covers only.
 function bkImg(isbn13,thumb,w,h,r){
-  const IS13=/^\d{13}$/.test((isbn13||'').trim());
-  const ol=IS13?`https://covers.openlibrary.org/b/isbn/${(isbn13||'').trim()}${w>=60?'-L':'-M'}.jpg`:'';
-  const t=(thumb||'').replace(/^http:/,'https:');
-  const src=ol||t,fb=ol&&t?t:'';
+  const keys=['isbn:'+(isbn13||'').trim()];
+  if((isbn13||'').startsWith('vol-'))keys.push('vol:'+isbn13.slice(4));
+  try{const u=new URL(thumb);keys.push('vol:'+u.searchParams.get('id'));['imgtk','source','zoom','edge'].forEach(k=>u.searchParams.delete(k));u.protocol='https:';u.hash='';if(['books.google.com','books.google.nl'].includes(u.hostname))u.searchParams.append('zoom','1');keys.push('url:'+u.href)}catch{}
+  const covers=D.covers||{};
+  const src=(keys.map(k=>covers[k]).find(Boolean)||'').replace(/^\//,'');
   const sw=Math.round(w*.5),sh=Math.round(sw*4/3);
   const BK=`<svg width="${sw}" height="${sh}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="opacity:.7"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`;
   const gh=h||Math.round(w*1.37);
   const gold=`<div style="display:none;width:${w}px;height:${gh}px;background:var(--gold);border-radius:${r};flex-shrink:0;align-items:center;justify-content:center;color:#3e2b16">${BK}</div>`;
   if(!src)return gold.replace('display:none;','');
   const imgSt=`width:${w}px;${h?'height:'+h+'px;object-fit:cover;':''}border-radius:${r};flex-shrink:0`;
-  return `<img src="${esc(src)}" data-fb="${esc(fb)}" alt="" loading="lazy" onload="if(this.naturalWidth<2)bkCover(this)" onerror="bkCover(this)" style="${imgSt}">${gold}`;
+  return `<img src="${esc(src)}" alt="" loading="lazy" onerror="bkCover(this)" style="${imgSt}">${gold}`;
 }
 const SAFE_TAGS=new Set(['p','br','b','i','em','strong','ul','li']);
 function safeHtml(html){if(!html)return'';const tmp=document.createElement('div');tmp.innerHTML=html;function walk(n){if(n.nodeType===3)return esc(n.textContent);if(n.nodeType!==1)return'';const tag=n.tagName.toLowerCase();const kids=Array.from(n.childNodes).map(walk).join('');if(!SAFE_TAGS.has(tag))return kids;return tag==='br'?'<br>':'<'+tag+'>'+kids+'</'+tag+'>';}return Array.from(tmp.childNodes).map(walk).join('');}

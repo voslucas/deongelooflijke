@@ -13,6 +13,7 @@ import argparse, json, math, pathlib, re, shutil, unicodedata
 from collections import defaultdict
 from datetime import date as _date
 from html import escape as _esc
+from book_covers import aliases as cover_aliases, prepare_covers
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIST_DATA = ROOT / 'site' / 'dist' / 'data'
@@ -79,6 +80,8 @@ SOCIAL_ICONS = {'linkedin':(IC_LINKEDIN,'LinkedIn'),'twitter':(IC_TWITTER,'Twitt
 # Module-level mutable state (set once during main())
 _BUILT_DATE = ''
 _BASE_URL = 'https://www.deongelooflijkearchief.nl'
+_COVER_URLS = {}
+_BVDATA: dict = {}  # Bible verse data: "CODE.ch.v" → [verse_text, ...]
 
 # ============================================================
 # SECTION 1: UTILITIES
@@ -540,14 +543,10 @@ def ep_row_html(ep, highlight_terms=None):
             f'</article>')
 
 
-def bk_img_html(isbn13, thumb, w, h=0, r='2px'):
-    isbn13 = (isbn13 or '').strip()
-    thumb = (thumb or '').replace('http:','https:')
-    is13 = bool(re.match(r'^\d{13}$', isbn13))
-    suffix = '-L' if w >= 60 else '-M'
-    ol = f'https://covers.openlibrary.org/b/isbn/{isbn13}{suffix}.jpg' if is13 else ''
-    src = ol or thumb
-    fb = thumb if ol and thumb else ''
+def bk_img_html(isbn13, thumb, w, h=0, r='2px', vol_id=''):
+    # All provider fallbacks run at build time. Never expose remote covers to visitors.
+    src = next((_COVER_URLS[key] for key in cover_aliases(isbn13, vol_id, thumb)
+                if key in _COVER_URLS), '')
     sw, sh = round(w*0.5), round(w*0.5*4/3)
     bk_svg = (f'<svg width="{sw}" height="{sh}" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
               f'stroke-width="1.8" style="opacity:.7">'
@@ -560,9 +559,8 @@ def bk_img_html(isbn13, thumb, w, h=0, r='2px'):
     if not src:
         return gold
     img_st = f'width:{w}px;{f"height:{h}px;object-fit:cover;" if h else ""}border-radius:{r};flex-shrink:0'
-    fb_attr = f' data-fb="{esc(fb)}"' if fb else ''
-    return (f'<img src="{esc(src)}"{fb_attr} alt="" loading="lazy" '
-            f'onload="if(this.naturalWidth<2)bkCover(this)" onerror="bkCover(this)" '
+    return (f'<img src="{esc(src)}" alt="" loading="lazy" '
+            f'onerror="bkCover(this)" '
             f'style="{img_st}">{gold}')
 
 
@@ -635,7 +633,7 @@ def book_panel_html(books):
         isbn13 = (b.get('isbn13') or '').strip()
         vol_id = (b.get('volume_id') or '').strip()
         bkey = isbn13 if isbn13 else (f'vol-{vol_id}' if vol_id else '')
-        cover = bk_img_html(isbn13, bk_thumb_url(vol_id, b.get('thumbnail')), 38, 54, '2px')
+        cover = bk_img_html(isbn13, bk_thumb_url(vol_id, b.get('thumbnail')), 38, 54, '2px', vol_id=vol_id)
         cover_el = (f'<a href="/boek/{bkey}/" style="line-height:0;flex-shrink:0">{cover}</a>'
                     if bkey else cover)
         title_el = (f'<a href="/boek/{bkey}/" style="color:inherit;text-decoration:none;'
@@ -672,12 +670,17 @@ def bible_refs_html(refs):
                       f'{ts_fmt(r["start_seconds"])}</button>')
         parsed = parse_ref(ref_text)
         bvref_attr = ''
+        bvv_attr = ''
         if parsed:
             code, ch, v = parsed
-            bvref_attr = f' data-bvref="{code}.{ch}.{v}"'
+            key = f'{code}.{ch}.{v}'
+            bvref_attr = f' data-bvref="{key}"'
+            verses = _BVDATA.get(key, [])
+            if verses:
+                bvv_attr = f' data-vv="{esc(json.dumps(verses, ensure_ascii=False))}"'
         items.append(
             f'<div style="{sep}">'
-            f'<button class="bref" type="button"{bvref_attr}>{esc(ref_text)}</button>'
+            f'<button class="bref" type="button"{bvref_attr}{bvv_attr}>{esc(ref_text)}</button>'
             f'{note_el}'
             + (f'<div style="margin-top:4px">{ts_btn}</div>' if ts_btn else '')
             + f'</div>')
@@ -1327,7 +1330,7 @@ def build_books_list(data, out):
         vol_key = str(bkey)[4:] if str(bkey).startswith('vol-') else ''
         cover = bk_img_html(isbn_key,
                             bk_thumb_url(vol_key, b.get('bk_thumb') or b.get('thumbnail') or ''),
-                            40, 56, '3px')
+                            40, 56, '3px', vol_id=vol_key)
         return (f'<a class="mention-row" href="/boek/{esc(bkey)}/" '
                 f'data-title="{esc(norm(b.get("n", "") or ""))}" '
                 f'style="align-items:center">'
@@ -1344,7 +1347,7 @@ def build_books_list(data, out):
         bkey = b.get('book_key', '') or slug(b.get('n', ''))
         isbn_key = str(bkey) if re.match(r'^\d{13}$', str(bkey)) else ''
         vol_key = str(bkey)[4:] if str(bkey).startswith('vol-') else ''
-        cover = bk_img_html(isbn_key, bk_thumb_url(vol_key, b.get('bk_thumb') or ''), 64, 90, '4px')
+        cover = bk_img_html(isbn_key, bk_thumb_url(vol_key, b.get('bk_thumb') or ''), 64, 90, '4px', vol_id=vol_key)
         title = esc(b.get('n', ''))
         author = esc(b.get('author', ''))
         epc = len(b.get('eps', []))
@@ -1410,7 +1413,7 @@ def build_book_detail(data, book_agg, out):
             ep_objs.append(data.ep_by_num[n])
     ep_objs.sort(key=lambda e: e.get('d', ''), reverse=True)
 
-    cover = bk_img_html(isbn13, thumb, 90, 123, '4px')
+    cover = bk_img_html(isbn13, thumb, 90, 123, '4px', vol_id=vol_id)
     buy_q = isbn13 or bkey or title
     from urllib.parse import quote as _uq
     _bol_search = f'https://www.bol.com/nl/nl/s/?searchtext={_uq(str(buy_q))}'
@@ -1485,7 +1488,7 @@ def build_book_detail(data, book_agg, out):
             o_author = esc(other.get('author', ''))
             o_isbn = str(okey) if re.match(r'^\d{13}$', str(okey)) else ''
             o_vol = str(okey)[4:] if str(okey).startswith('vol-') else ''
-            o_cover = bk_img_html(o_isbn, bk_thumb_url(o_vol, other.get('bk_thumb') or ''), 34, 48, '2px')
+            o_cover = bk_img_html(o_isbn, bk_thumb_url(o_vol, other.get('bk_thumb') or ''), 34, 48, '2px', vol_id=o_vol)
             sep = ('border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px'
                    if i < len(more_books) - 1 else '')
             rows_mb.append(
@@ -2171,7 +2174,9 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
         print(f'  person images: {n} -> {img_dst}')
 
     # Build bvdata.json (Bible verses) — same logic as 5_build_site.py
+    global _BVDATA
     bvdata = _build_bvdata(root)
+    _BVDATA = bvdata
     (out_data / 'bvdata.json').write_text(
         json.dumps(bvdata, ensure_ascii=False, separators=(',', ':')),
         encoding='utf-8')
@@ -2270,7 +2275,7 @@ def write_robots(out: pathlib.Path, base_url: str):
 # ============================================================
 
 def main():
-    global _BUILT_DATE, _BASE_URL
+    global _BUILT_DATE, _BASE_URL, _COVER_URLS
 
     import argparse
     parser = argparse.ArgumentParser(description='Build static multi-page site')
@@ -2280,6 +2285,10 @@ def main():
                         help='Canonical base URL (no trailing slash)')
     parser.add_argument('--clean', action='store_true',
                         help='Delete output directory before building')
+    parser.add_argument('--offline', action='store_true',
+                        help='Use cached book covers without downloading missing images')
+    parser.add_argument('--retry-missing-covers', action='store_true',
+                        help='Retry unavailable covers immediately instead of waiting 24 hours')
     args = parser.parse_args()
 
     out = pathlib.Path(args.output_dir)
@@ -2291,6 +2300,8 @@ def main():
 
     out.mkdir(parents=True, exist_ok=True)
     print("Building static site -> " + str(out))
+    _COVER_URLS = prepare_covers(ROOT, out, offline=args.offline,
+                                retry_missing=args.retry_missing_covers)
 
     # Locate source assets
     logo_src = ROOT / 'design-system' / 'assets' / 'logos' / 'logo360.jpg'

@@ -40,22 +40,28 @@
       var btn = e.target.closest('[data-bvref]');
       if (!btn) return;
       e.preventDefault();
+      // Inline verse data takes priority (no fetch needed)
+      if (btn.dataset.vv) {
+        showBvPopup(btn, btn.dataset.bvref, JSON.parse(btn.dataset.vv));
+        return;
+      }
       var ref = btn.dataset.bvref;
       if (!_bvdata) {
         fetch('/data/bvdata.json').then(function (r) { return r.json(); })
-          .then(function (d) { _bvdata = d; showBvPopup(btn, ref); });
+          .then(function (d) { _bvdata = d; showBvPopup(btn, ref, null); })
+          .catch(function () {});
       } else {
-        showBvPopup(btn, ref);
+        showBvPopup(btn, ref, null);
       }
     });
   }
 
-  function showBvPopup(anchor, ref) {
+  function showBvPopup(anchor, ref, inlineVerses) {
     var old = document.getElementById('bv-popup');
     if (old) old.remove();
     var parts = ref.split('.');
     var key = parts[0] + '.' + parts[1] + '.' + parts[2];
-    var verses = (_bvdata && _bvdata[key]) || [];
+    var verses = inlineVerses || (_bvdata && _bvdata[key]) || [];
     if (!verses.length) return;
     var popup = document.createElement('div');
     popup.id = 'bv-popup';
@@ -253,6 +259,14 @@
     return _colorMap[sp];
   }
 
+  // Match the SPA tok() rules: content words, lowercase, without punctuation.
+  // Keep this list in sync with index.template.html; tests/test_vocabulary.py checks parity.
+  var VOCABULARY_STOP = new Set(`aan aangezien achter af al alle allemaal alleen alles als altijd ander andere anders behalve beide ben bent beter bij binnen boven bovendien daar daarbij daarin daarna daarom daarover dan dat de deze die dit doch doen door dus echter een eens eerst eerste elk elke en enige enkele enz er erg ergens even ga gaan gaat geen gehad geweest gewoon haar had heb hebben heeft hem het hier hij hoe hoewel hun ik in is ja je jij jou jouw juist kan kon konden kun kunnen maar me meer meeste men met mij mijn misschien moet moeten na naar nadat net niet niets nog nooit nu of om omdat onder ons onze ook op over pas per plaats reeds rond samen sinds sommige steeds te tegen ten ter tijdens toch toe toen tot tussen u uit uw van vanaf veel verder via vol voor vooral vrij waar waarom wanneer want waren was wat we wel welk welke werd werden wie wij wil willen word worden wordt zal ze zelf zich zichzelf zij zijn zo zoals zodat zonder zou zouden zulke bijvoorbeeld eigenlijk echt heel weer gaat komt komen kwam maakt maken laat laten staat staan zegt zeggen zien ziet waarin waarmee waardoor iets iemand jaar jaren keer onze deze dezen hele zeer best goed groot grote kleine klein nieuwe nieuw oude lang lange veel vele weinig andere eigen manier vraag vragen vraagt waarbij hierover welke zowel zult wellicht vaak soms tweede twee drie vier vijf zes zeven acht negen tien honderd duizend daarnaast zelfs bijna helemaal tegelijkertijd terwijl totdat volgens tijdens binnenkort inmiddels ondanks verschillende eerder later vandaag gisteren morgen uiteraard natuurlijk volgens ervan erover ermee erin hierin waarover hebt had heeft zitten zit kunnen krijgen krijgt gaan ging gingen gaat moet mogen mag spreekt spreken sprak praat praten gesprek gesprekken aflevering afleveringen podcast ongelooflijke david boogerd stefan paas vaste gast gasten theoloog hoogleraar universiteit spreekt bespreken bespreekt bespreekt vertelt vertellen waarover samen luister luisteren deel nieuwste vorige volgende waarom hoe wat wie welke anno ging zien doet deed gedaan leven mensen mens dingen ding wereld vindt vinden vond denk denkt dacht nederland nederlandse amsterdam utrecht theologische vrije`.split(/\s+/));
+  function vocabularyTokens(text) {
+    return (text.toLowerCase().match(/[a-zà-öø-ÿ]+(?:-[a-zà-öø-ÿ]+)*/g) || [])
+      .filter(function (word) { return word.length > 3 && !VOCABULARY_STOP.has(word); });
+  }
+
   // ── Transcript: parse raw data ──────────────────────────────────────────────
   function parseTranscript(tr, dur) {
     var rawSegs = tr.segments || tr.utterances || [];
@@ -286,9 +300,10 @@
       var mine = parsed.filter(function (seg) { return seg.sp === s.name; });
       var allWords = mine.map(function (seg) { return seg.t.toLowerCase().split(/\s+/); }).reduce(function (a, b) { return a.concat(b); }, []);
       s.wpm = s.time > 0 ? Math.round(allWords.length / (s.time / 60)) : 0;
-      var unique = {};
-      allWords.forEach(function (w) { unique[w] = true; });
-      s.ttr = allWords.length > 0 ? parseFloat((Object.keys(unique).length / allWords.length).toFixed(2)) : 0;
+      var contentWords = mine.map(function (seg) { return vocabularyTokens(seg.t); })
+        .reduce(function (a, b) { return a.concat(b); }, []);
+      s.ttr = contentWords.length > 0
+        ? Number((new Set(contentWords).size / contentWords.length).toFixed(3)) : 0;
       s.tics = {};
       var fullText = mine.map(function (seg) { return seg.t.toLowerCase(); }).join(' ');
       TICS_LIST.forEach(function (tic) {
@@ -586,14 +601,13 @@
     }
 
     // Woordenschat (type-token ratio)
-    var spkTtr = T.spk.filter(function (s) { return s.ttr > 0; });
+    var spkTtr = T.spk;
     if (spkTtr.length) {
       html += '<h2>Woordenschat</h2>'
-        + '<p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke woorden van alle gesproken woorden. Hoger betekent gevarieerder taalgebruik.</p>';
-      var maxTtr = Math.max.apply(null, spkTtr.map(function (s) { return s.ttr; })) || 1;
+        + '<p class="ui muted" style="font-size:13px;margin:-4px 0 10px">Aandeel unieke inhoudswoorden (langer dan drie letters, zonder stopwoorden). Leestekens tellen niet mee. De uitkomst hangt ook af van hoeveel iemand spreekt.</p>';
       spkTtr.forEach(function (s) {
         var pct = Math.round(s.ttr * 100);
-        var barPct = Math.round(s.ttr / maxTtr * 100);
+        var barPct = pct; // Fixed 0–100% scale, matching the SPA.
         html += '<div class="hbar" style="margin-bottom:6px">'
           + '<div class="hbar-l" style="font-size:14px;min-width:120px">' + esc(s.name) + '</div>'
           + '<div class="hbar-b" style="flex:1;height:16px;background:var(--parchment-3);border-radius:4px;position:relative">'

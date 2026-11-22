@@ -81,6 +81,8 @@ Episode pages embed key, duration, MP3 and NPO URL in `#ep-meta`. On page initia
 
 The older app instead loads full episode details before fetching a transcript and overlays `e.an` into the raw transcript before `buildTFromRaw`. Its caches and calculations are independent of `app.js`.
 
+Episode “Woordenschat” uses the same filtered type-token ratio in both versions: lowercase letter tokens (including accented letters and internal hyphens), longer than three letters, excluding the SPA `STOP` list. Divide unique remaining words by all remaining word occurrences per speaker, round to three decimals, then display whole percentages on a fixed 0–100% scale. This is a content-word measure and depends on how much someone speaks. The static tokenizer/list in `app.js` mirrors `tok`/`STOP` in the template; `tests/test_vocabulary.py` verifies parity against available transcripts using Node.js.
+
 ## Data contracts
 
 ### Episode identity and master records
@@ -123,13 +125,13 @@ Mention aggregates combine transcript mentions with analysis people/books/places
 
 ### Books and Bible text
 
-Book detail keys prefer ISBN-13, otherwise `vol-{volume_id}`. Enrichment may discover an ISBN and save under a different key; the static loader also registers volume-ID aliases. Covers try Open Library by ISBN, then Google Books, then a gold icon. Book buying links use an existing bol.com affiliate URL. HTML descriptions are sanitized during enrichment and rendered as plain text by the static builder.
+Book detail keys prefer ISBN-13, otherwise `vol-{volume_id}`. Enrichment may discover an ISBN and save under a different key; the static loader also registers volume-ID aliases. `book_covers.py` downloads covers at build time using Open Library by ISBN, then selected Google Books covers; both renderers use local JPEGs or a gold icon. The JPEGs and identity manifest in `data/book_covers/` are versioned in Git. Builds still find missing covers, and the daily new-episode workflow includes newly downloaded covers in its data commit. See `docs/book-covers.md`. Book buying links use an existing bol.com affiliate URL. HTML descriptions are sanitized during enrichment and rendered as plain text by the static builder.
 
 Bible source files use OSIS book codes and string chapter/verse keys. Builders collect referenced passages into three-verse snippets. The older app embeds these as `bvdata`; the static app fetches `/data/bvdata.json`. Bible reference parsers are duplicated and have differing accent/alias support.
 
 ## Script inventory
 
-All 26 Python scripts were read, including module-level behavior and CLI handling. Number prefixes are not a complete execution order; several numbered scripts are optional enrichment jobs.
+All original 26 Python scripts were read, including module-level behavior and CLI handling. The later cover-cache implementation adds `book_covers.py`. Number prefixes are not a complete execution order; several numbered scripts are optional enrichment jobs.
 
 | Script | Inputs and result | Execution details |
 | --- | --- | --- |
@@ -159,6 +161,7 @@ All 26 Python scripts were read, including module-level behavior and CLI handlin
 | `transcribe_azure.py` | Master episode MP3 URL to diarized transcript | `--episode`, `--all-missing`, `--probe`, credential overrides, `--identify`, `--delete-mp3`; synchronous multipart request, httpx preferred for upload |
 | `utils.py` | Shared slug, reverse slug, episode key and snippet helpers | `truncate_xs` defaults to 320 characters at a word boundary |
 | `voice_utils.py` | Audio download/load, stored profiles, cosine and embeddings | 16 kHz mono; numpy required; librosa and Resemblyzer loaded when needed |
+| `book_covers.py` | Selected book identities in details and analysis to cached JPEGs | Called by both builders; standalone `--offline` and `--retry-missing`; keeps provider requests off visitors' browsers |
 
 ## Build and verification commands
 
@@ -215,11 +218,11 @@ For future site changes, verify the affected build, runtime assets and links, li
 
 | Workflow | Trigger and behavior | Notes for future changes |
 | --- | --- | --- |
-| `build.yml` | Push to main or manual; tries feed download, runs stages 1–4 and 5b, tests, uploads static output, deploys Pages | Installs requests and pytest; currently omits the staging performed by stage 5 |
+| `build.yml` | Push to main or manual; tries feed download, runs stages 1–4 and 5b, tests, uploads static output, deploys Pages | Installs requests, pytest and Pillow, reuses versioned covers and downloads missing ones; currently omits the other runtime staging performed by stage 5 |
 | `new-episodes.yml` | Daily at 07:00 UTC or manual; detects newly numbered feed files, builds master, transcribes, identifies, analyzes, enriches wiki, splits and pushes | 08:00 Amsterdam in winter, 09:00 in summer; only new numbered keys trigger processing |
 | `transcribe.yml` | Manual episode number or `all-missing`; splits, transcribes, analyzes, creates a PR | PR scope includes transcripts, corrections and analysis; no wiki/books/person collection/bio/word-index completion |
 
-The daily workflow omits book detail enrichment, person collection, bios and word indexing. It also tries to stage gitignored `site/dist/data/` with ordinary `git add`; verify that behavior before relying on the automation. Its commit paths omit voice profiles and the Wikipedia cache. Workflow comments describe intended follow-on deployment, which should be checked in actual Actions runs when changing automation.
+The daily workflow omits book detail enrichment, person collection, bios and word indexing. It downloads and commits missing covers from analysis, and excludes generated `site/dist/data/` from its commit paths. Its commit paths omit voice profiles and the Wikipedia cache. Workflow comments describe intended follow-on deployment, which should be checked in actual Actions runs when changing automation.
 
 ## Known implementation gaps and documentation drift
 
@@ -240,7 +243,7 @@ These observations guide future work; no application fixes were included in this
 | Portrait extension mismatch | Both renderers build `.jpg` URLs while copying several original extensions; non-JPEG portraits can fall back to initials despite existing files |
 | Fixed master date | Stage 3 writes `2026-11-07`; static main uses master `built` after initially setting today's date, affecting footer, historical-day content and sitemap metadata |
 | Token duplication | Template CSS duplicates design-system colors; editing `tokens.css` alone does not update generated site CSS |
-| External requests exceed old rule | Current code includes audio, Wikimedia/Open Library/Google book covers and Plausible analytics, beyond the Fonts-only wording in `CLAUDE.md` |
+| External requests exceed old rule | Current code includes audio, Wikimedia portraits and Plausible analytics, beyond the Fonts-only wording in `CLAUDE.md`; book covers are now local in both builds |
 | Historical demo code remains in template | `transcriptFor`, `personTx`, `txAgg` and `statsTx` remain, with references to prototype-only identifiers; current episode views use real `fetchTranscript` and the current router does not invoke those demo aggregate views |
 
 Other areas to inspect when relevant: duplicate parser/helper implementations, mixed count semantics in mention merges, incomplete unnumbered identity handling in transcript aggregates, and the separate elimination logic in `bootstrap_profiles.py` versus `identify_speakers.py`. Avoid assuming a fix in one implementation automatically updates the other.

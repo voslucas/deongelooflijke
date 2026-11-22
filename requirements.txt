@@ -2,6 +2,9 @@
 httpx>=0.27
 requests>=2.31
 
+# Validate and cache book covers for the static site
+Pillow>=10.0
+
 # Azure MAI-Transcribe-2 (transcribe_azure.py)
 # No extra package — uses httpx/requests directly
 

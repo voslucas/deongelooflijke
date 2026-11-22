@@ -286,6 +286,12 @@ python scripts/4_split_data.py && python scripts/5_build_site.py
 
 ## Design
 
+Book covers are downloaded at build time and served locally in both site builds,
+including episode sidebars and related books. Existing covers are cached and new
+books are picked up automatically from episode analysis. See
+[Local book covers](docs/book-covers.md) for source selection, retries, offline
+builds, and CI caching. Site builds require Pillow (`pip install -r requirements.txt`).
+
 The visual language is documented in `design-system/README.md` and encoded as CSS custom properties in `design-system/tokens.css`. In brief: classical serif (Lora + Spectral) on warm parchment, dark-brown ink, gold data marks, and EO violet for interactive elements — old engraving meets modern listening.
 
 ## Sources
