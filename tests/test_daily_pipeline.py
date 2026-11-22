@@ -141,3 +141,67 @@ def test_wikipedia_network_failure_is_retried_not_marked_as_no_match(monkeypatch
     with pytest.raises(RuntimeError, match='retry later'):
         wiki.wiki_search_cached('New person', 'nl', cache)
     assert cache == {}
+
+
+def test_related_episode_retry_handles_truncated_response():
+    client = Mock()
+    matches = [{'n': n, 'reason': 'Gedeeld onderwerp'} for n in (1, 2, 3)]
+    client.messages.create.side_effect = [
+        SimpleNamespace(stop_reason='max_tokens', content=[
+            SimpleNamespace(type='text', text='[{"n": 1, "reason": "unfinished')]),
+        SimpleNamespace(stop_reason='end_turn', content=[
+            SimpleNamespace(type='text', text=json.dumps(matches))]),
+    ]
+    catalogue = [{'n': n, 't': 'Test'} for n in (1, 2, 3, 327)]
+    assert analysis._recommend_similar(client, 'test-model', {'n': 327}, {}, catalogue) == matches
+    assert [call.kwargs['max_tokens'] for call in client.messages.create.call_args_list] == [4000, 8000]
+
+
+def test_related_episode_failure_is_not_silently_returned_as_empty_list():
+    client = Mock()
+    client.messages.create.return_value = SimpleNamespace(
+        stop_reason='end_turn', content=[SimpleNamespace(type='text', text='[{"reason": "broken')])
+    with pytest.raises(ValueError, match='failed after two attempts'):
+        analysis._recommend_similar(client, 'test-model', {'n': 327}, {}, [])
+
+
+def test_main_extraction_is_preserved_when_related_episode_lookup_fails(monkeypatch):
+    monkeypatch.setattr(analysis, '_load_feed', lambda key: {'n': 327})
+    monkeypatch.setattr(analysis, '_load_transcript', lambda key: {'segments': []})
+    monkeypatch.setattr(analysis, '_recommend_similar', Mock(side_effect=RuntimeError('API unavailable')))
+    client = Mock()
+    client.messages.create.return_value = SimpleNamespace(
+        stop_reason='end_turn', content=[SimpleNamespace(type='text', text='{"summary_tldr": "Saved summary"}')],
+        usage=SimpleNamespace(input_tokens=200, output_tokens=100),
+    )
+    result = analysis.analyse_episode('327', client, 'test-model', 'system',
+                                     all_eps=[{'n': 1}], enrich_books=False)
+    assert result['summary_tldr'] == 'Saved summary'
+    assert result['similar_status'] == 'failed'
+    assert result['similar_error'] == 'API unavailable'
+
+
+def test_similar_only_preserves_existing_extraction_and_enrichment(tmp_path, monkeypatch):
+    monkeypatch.setattr(analysis, 'ROOT', tmp_path)
+    monkeypatch.setattr(analysis, 'DIR_OUT', tmp_path / 'analysis')
+    monkeypatch.setattr(analysis, 'DIR_FEED', tmp_path / 'feed')
+    monkeypatch.setattr(analysis, 'EPISODES_JSON', tmp_path / 'episodes.json')
+    monkeypatch.setattr(sys, 'argv', ['analyze_episode.py', '--episode', '327', '--similar-only'])
+    monkeypatch.setitem(sys.modules, 'anthropic', Mock())
+    monkeypatch.setattr(analysis, '_load_transcript', Mock(side_effect=AssertionError('Must not load transcript')))
+    monkeypatch.setattr(analysis, '_verify_books', Mock(side_effect=AssertionError('Must not rematch books')))
+    related = [{'n': 1, 'reason': 'Gedeeld onderwerp'}]
+    monkeypatch.setattr(analysis, '_recommend_similar', Mock(return_value=related))
+    original = {'episode': 327, 'summary_tldr': 'Preserve this', 'model': 'original-model',
+                'usage': {'input_tokens': 50689}, 'books': [{'isbn13': '123'}],
+                'people': [{'name': 'Jezus', 'wiki_checked': True}],
+                'similar': [], 'similar_status': 'failed', 'similar_error': 'old error'}
+    write_json(tmp_path / 'analysis/327.json', original)
+    write_json(tmp_path / 'feed/327.json', {'n': 327})
+    write_json(tmp_path / 'episodes.json', {'eps': [{'n': 1, 't': 'Other episode'}]})
+    analysis.main()
+    repaired = json.loads((tmp_path / 'analysis/327.json').read_text())
+    expected = {**original, 'similar': related, 'similar_status': 'complete',
+                'similar_model': analysis.DEFAULT_MODEL}
+    expected.pop('similar_error')
+    assert repaired == expected

@@ -414,7 +414,7 @@ def _recommend_similar(client, model: str, feed: dict, extracted: dict,
                        all_eps: list[dict]) -> list[dict]:
     """Third LLM call: pick 3–5 thematically similar episodes from the full catalogue."""
     current_n = feed.get('n')
-    known_ns = {e.get('n') for e in all_eps}
+    known_ns = {e['n'] for e in all_eps if type(e.get('n')) is int}
 
     catalog_text = _build_catalog_prompt(all_eps, current_n)
 
@@ -438,10 +438,10 @@ def _recommend_similar(client, model: str, feed: dict, extracted: dict,
         f'Gebruik alleen nummers uit de catalogus. Geen markdown, geen uitleg.'
     )
 
-    try:
+    for attempt, token_budget in enumerate((4000, 8000), 1):
         response = client.messages.create(
             model=model,
-            max_tokens=400,
+            max_tokens=token_budget,
             output_config={'effort': 'low'},
             system=[{
                 'type': 'text',
@@ -450,19 +450,29 @@ def _recommend_similar(client, model: str, feed: dict, extracted: dict,
             }],
             messages=[{'role': 'user', 'content': user_prompt}],
         )
-        raw = next((b.text for b in response.content if b.type == 'text'), '[]')
-        result = _parse_json_response(raw)
-        if not isinstance(result, list):
-            result = []
-        # Validate: only keep entries with known, non-current episode numbers
-        result = [
-            r for r in result
-            if isinstance(r.get('n'), int) and r['n'] in known_ns and r['n'] != current_n
-        ]
-        return result[:5]
-    except Exception as exc:
-        print(f'    Similar episodes LLM call failed: {exc}')
-        return []
+        try:
+            if response.stop_reason == 'max_tokens':
+                raise ValueError(f'Related-episode response reached {token_budget} output tokens')
+            raw = next((b.text for b in response.content if b.type == 'text'), '')
+            result = _parse_json_response(raw)
+            if not isinstance(result, list):
+                raise ValueError('Related-episode response must be a JSON array')
+            valid, seen = [], set()
+            for entry in result:
+                if not isinstance(entry, dict):
+                    continue
+                number, reason = entry.get('n'), entry.get('reason')
+                if (type(number) is int and number in known_ns and number != current_n
+                        and number not in seen and isinstance(reason, str) and reason.strip()):
+                    valid.append({'n': number, 'reason': reason.strip()})
+                    seen.add(number)
+            if len(valid) < min(3, len(known_ns - {current_n})):
+                raise ValueError('Related-episode response contains too few valid catalogue matches')
+            return valid[:5]
+        except (ValueError, TypeError) as exc:
+            if attempt == 2:
+                raise ValueError(f'Related-episode selection failed after two attempts: {exc}') from exc
+            print(f'    Related-episode response incomplete or invalid: {exc}; retrying with more output tokens …')
 
 
 def _all_keys() -> list[str]:
@@ -537,8 +547,17 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
     # Recommend similar episodes via LLM
     if recommend_similar and all_eps:
         print(f'    Finding similar episodes …')
-        extracted['similar'] = _recommend_similar(client, model, feed, extracted, all_eps)
-        print(f'    Similar: {[s["n"] for s in extracted["similar"]]}')
+        try:
+            extracted['similar'] = _recommend_similar(client, model, feed, extracted, all_eps)
+            extracted['similar_status'] = 'complete'
+            extracted['similar_model'] = model
+            print(f'    Similar: {[s["n"] for s in extracted["similar"]]}')
+        except Exception as exc:
+            # Keep the successful, expensive extraction and book verification.
+            extracted['similar'] = []
+            extracted['similar_status'] = 'failed'
+            extracted['similar_error'] = str(exc)
+            print(f'    WARNING: related episodes failed; main analysis will be preserved: {exc}')
 
     result = {
         'episode': feed.get('n', key),
@@ -582,7 +601,11 @@ def main():
                         help='Skip Google Books lookup and LLM book verification')
     parser.add_argument('--no-similar', action='store_true',
                         help='Skip LLM similar-episode recommendation')
+    parser.add_argument('--similar-only', action='store_true',
+                        help='Repair related episodes in an existing analysis, without reanalysing the transcript')
     args = parser.parse_args()
+    if args.similar_only and (not args.episode or args.no_similar):
+        parser.error('--similar-only requires --episode and cannot be combined with --no-similar')
 
     try:
         import anthropic
@@ -602,9 +625,6 @@ def main():
     api_key = os.environ.get('ANTHROPIC_API_KEY') or os.environ.get('CLAUDE_API_KEY')
     client = anthropic.Anthropic(api_key=api_key) if api_key else anthropic.Anthropic()
 
-    themes = json.loads(THEMES_PATH.read_text(encoding='utf-8'))
-    system_prompt = _build_system_prompt(themes)
-
     # Load full episode list for similar-episode recommendations
     all_eps = []
     if not args.no_similar and EPISODES_JSON.exists():
@@ -613,6 +633,28 @@ def main():
             print(f'  Loaded {len(all_eps)} episodes for similarity matching.')
         except Exception as exc:
             print(f'  Warning: could not load episodes.json for similarity: {exc}')
+
+    if args.similar_only:
+        path = DIR_OUT / f'{args.episode}.json'
+        if not path.exists() or not all_eps:
+            sys.exit('Related-episode repair requires an existing analysis and episode catalogue')
+        data = json.loads(path.read_text(encoding='utf-8'))
+        feed = _load_feed(args.episode)
+        if not feed:
+            sys.exit(f'Missing feed for episode {args.episode}')
+        try:
+            data['similar'] = _recommend_similar(client, args.model, feed, data, all_eps)
+        except Exception as exc:
+            sys.exit(f'Related-episode repair failed; saved analysis unchanged: {exc}')
+        data['similar_status'] = 'complete'
+        data['similar_model'] = args.model
+        data.pop('similar_error', None)
+        save_analysis(args.episode, data)
+        print(f'Related episodes repaired: {[s["n"] for s in data["similar"]]}')
+        return
+
+    themes = json.loads(THEMES_PATH.read_text(encoding='utf-8'))
+    system_prompt = _build_system_prompt(themes)
 
     if args.episode:
         keys = [str(args.episode)]
@@ -642,6 +684,10 @@ def main():
                                    enrich_books=not args.no_book_enrichment,
                                    recommend_similar=not args.no_similar)
             save_analysis(key, data)
+            if data.get('similar_status') == 'failed':
+                errors.append((key, data['similar_error']))
+                print(f'  [{i}/{len(keys)}] #{key} — main analysis saved; related episodes need --similar-only')
+                continue
             u = data['usage']
             cache_note = f" (cache_read={u['cache_read_input_tokens']})" if u.get('cache_read_input_tokens') else ''
             print(f'  [{i}/{len(keys)}] #{key} — OK  in={u["input_tokens"]} out={u["output_tokens"]}{cache_note}')

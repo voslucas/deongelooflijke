@@ -81,6 +81,16 @@ Older episodes are **not** automatically reanalysed. A future archive reanalysis
 requires a separate decision and an explicit forced run. A normal pending run
 never replaces an existing analysis just because it lacks the new coverage metadata.
 
+Related-episode selection has a separate output allowance (4,000 tokens, retrying
+invalid or truncated responses once with 8,000). If it still fails, the main
+extraction and book matches are saved with `similar_status: failed`, and the
+command exits unsuccessfully. Daily processing retries only this failed lookup.
+For a manual repair without reanalysing the transcript or rematching books:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/analyze_episode.py --episode 327 --similar-only
+```
+
 See [Anthropic's Haiku documentation](https://platform.claude.com/docs/en/models/haiku-5-5/overview)
 for the model ID and context capacity, and
 [GitHub's workflow trigger documentation](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)

@@ -88,6 +88,8 @@ def process_episode(key):
             run('analyze_episode.py', '--episode', key)
         if not analysis.exists():
             raise RuntimeError(f'Analysis did not produce episode {key}')
+        if read_json(analysis).get('similar_status') == 'failed':
+            run('analyze_episode.py', '--episode', key, '--similar-only')
 
     def index_words():
         run('9_build_word_index.py', '--episode', key)
