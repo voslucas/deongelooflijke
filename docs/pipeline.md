@@ -125,6 +125,14 @@ No API key required for Wikipedia. Rate limit: 200 req/min; the script uses a 1 
 
 ## Stage 4 — Build the site
 
+The production Pages workflow runs `4_split_data.py` followed by
+`5b_build_site.py`, producing `site/static/`. The static builder copies
+`data/transcripts/*.json` and `data/word_index.json` directly into its output,
+and reads mentioned-person details directly from `data/persons_mentioned/`.
+It does not require a prior single-page build to stage those files in
+`site/dist/data/`. The commands below describe the separate older single-page
+build, which remains available.
+
 ```bash
 python scripts/4_split_data.py
 python scripts/5_build_site.py

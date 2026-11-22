@@ -12,7 +12,7 @@ Read this file and `CLAUDE.md`, then inspect the relevant source and current Git
 - For production page markup, edit `scripts/5b_build_site.py`. For production browser behavior, edit `site/src/app.js`.
 - For shared styling, inspect the first `<style>` block in `site/src/index.template.html` and the appended rules in `5b_build_site.py:write_assets`. Editing the template's JavaScript changes the older app only.
 - Keep guest appearances separate from figures mentioned during conversations. They have separate data sources, routes, profiles, and counts.
-- Read the build dependency section before doing a fresh static build. The two-command sequence in `CLAUDE.md` does not stage all runtime data on a clean checkout.
+- The production build uses stages 4 and 5b. Transcripts, the word index and mentioned-person details are read directly from tracked `data/` sources, including on a clean CI checkout.
 - Keep credentials in the local environment or `.env`; do not put their values in documentation or commits. This review did not read `.env`.
 
 ## Local data snapshot
@@ -171,12 +171,11 @@ Run from the repository root. The existing Windows environment is `.venv` with P
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/4_split_data.py
-.\.venv\Scripts\python.exe scripts/5_build_site.py
 .\.venv\Scripts\python.exe scripts/5b_build_site.py
 .\.venv\Scripts\python.exe -m http.server 8787 --directory site/static
 ```
 
-Open `http://localhost:8787/`. The middle step builds the older app as well, but currently provides the implemented staging path for transcripts, mentioned-person details, and word index. Once those files are already current in `site/dist/data`, a static-only markup or `app.js` change needs only `5b_build_site.py`. Re-run stage 4 when analysis or master data changes, and re-stage runtime sources when those change.
+Open `http://localhost:8787/`. A static-only markup or `app.js` change needs only `5b_build_site.py`. Re-run stage 4 when analysis or master data changes. The static builder copies transcripts and the word index directly from tracked `data/` sources and loads mentioned-person detail records there too. The older app can still be built separately with `5_build_site.py`.
 
 `--clean` is unnecessary for routine edits. Before using it, check that the resolved output path is the intended generated directory. Builders otherwise overwrite generated files without comprehensively removing obsolete output.
 
@@ -218,7 +217,7 @@ For future site changes, verify the affected build, runtime assets and links, li
 
 | Workflow | Trigger and behavior | Notes for future changes |
 | --- | --- | --- |
-| `build.yml` | Push to main or manual; tries feed download, runs stages 1–4 and 5b, tests, uploads static output, deploys Pages | Installs requests, pytest and Pillow, reuses versioned covers and downloads missing ones; currently omits the other runtime staging performed by stage 5 |
+| `build.yml` | Push to main or manual; tries feed download, runs stages 1–4 and 5b, tests, uploads static output, deploys Pages | Installs requests, pytest and Pillow, reuses versioned covers and downloads missing ones; static builder reads tracked runtime data directly |
 | `new-episodes.yml` | Daily at 07:00 UTC or manual; detects newly numbered feed files, builds master, transcribes, identifies, analyzes, enriches wiki, splits and pushes | 08:00 Amsterdam in winter, 09:00 in summer; only new numbered keys trigger processing |
 | `transcribe.yml` | Manual episode number or `all-missing`; splits, transcribes, analyzes, creates a PR | PR scope includes transcripts, corrections and analysis; no wiki/books/person collection/bio/word-index completion |
 
@@ -232,7 +231,6 @@ These observations guide future work; no application fixes were included in this
 | --- | --- |
 | Old status counts and stub descriptions | `docs/overview.md`, `docs/features.md`, and `docs/pipeline.md` describe 210 transcripts and one analysis; local coverage is now complete, and analysis mention aggregation is implemented |
 | Two architectures described as one | README, architecture docs and parts of `CLAUDE.md` describe the hash app; production CI builds path-based static pages |
-| Incomplete fresh static staging | Stage 4 copies book details but not transcripts, mentioned-person details or word index; stage 5b reads those from dist, while CI runs only 4 then 5b |
 | Model default differs from prose | Main analysis uses Sonnet; wiki verification, bios and backfills use Haiku strings; older docs assume Haiku for main analysis |
 | Manual correction instructions differ from code | `_apply_corrections` looks in `data/corrections` for S-prefixed keys, while docs use `data/speaker-corrections` and numeric keys; transcription main does not call the helper |
 | Overlap descriptions differ | Docs say events stay empty, but transcription synthesizes rapid-transition overlap events; these are not measured interruptions |

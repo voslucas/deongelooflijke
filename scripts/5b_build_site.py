@@ -269,7 +269,7 @@ def load_data(dist_data: pathlib.Path) -> 'SiteData':
 
     # persons_detail (mentioned persons)
     d.persons_detail = {}
-    pm_dir = dist_data / 'persons_mentioned'
+    pm_dir = ROOT / 'data' / 'persons_mentioned'
     if pm_dir.exists():
         for f in pm_dir.glob('*.json'):
             try:
@@ -2146,7 +2146,9 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
     out_data.mkdir(parents=True, exist_ok=True)
 
     # Transcripts
-    tx_src = dist_data / 'transcripts'
+    # Read tracked sources directly: CI runs stages 4 + 5b without the legacy
+    # builder that used to populate these ignored intermediate directories.
+    tx_src = root / 'data' / 'transcripts'
     tx_dst = out_data / 'transcripts'
     if tx_src.exists():
         tx_dst.mkdir(parents=True, exist_ok=True)
@@ -2155,7 +2157,7 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
         print(f'  transcripts: {n} files -> {tx_dst}')
 
     # Word index
-    wi = dist_data / 'word_index.json'
+    wi = root / 'data' / 'word_index.json'
     if wi.exists():
         shutil.copy2(wi, out_data / 'word_index.json')
         print(f'  word_index.json ({wi.stat().st_size // 1024} KB) -> {out_data}')
