@@ -1,149 +1,191 @@
 {
   "episode": 84,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107461,
+    "segments": 1089,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32008,
-    "output_tokens": 2852,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56909,
+    "output_tokens": 8495,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "God & geloof",
-    "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Zingeving & psyche",
+    "Dood & rouw",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Ernst-Jan Pfauth"
   ],
   "people": [
     {
-      "name": "Ernst-Jan Pfauth",
-      "note": "medeoprichter en tot voor kort directeur van De Correspondent, maker van Podcast Over Media",
-      "start_seconds": 46,
-      "wiki_checked": true,
-      "wiki_pageid": 5157887,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernst-Jan_Pfauth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ernst-Jan_Pfauth.jpg/250px-Ernst-Jan_Pfauth.jpg"
-    },
-    {
-      "name": "Rick Pastoor",
-      "note": "productiviteitsgoeroe, auteur van Grip",
-      "start_seconds": 133,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johan Cruijff",
-      "note": "voetballer, genoemd als vergelijking voor vakmanschap",
-      "start_seconds": 194,
-      "wiki_checked": true,
-      "wiki_pageid": 27702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Cruijff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Johan_Cruyff_in_trainingspak_Nederlands_Elftal_%2C_kop.jpg/250px-Johan_Cruyff_in_trainingspak_Nederlands_Elftal_%2C_kop.jpg"
-    },
-    {
-      "name": "Arjen Lubach",
-      "note": "presentator, verloor als kind zijn moeder, gast in POM",
-      "start_seconds": 702,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
-    },
-    {
-      "name": "David Brooks",
-      "note": "Amerikaanse auteur van The Road to Character en The Second Mountain",
-      "start_seconds": 921,
-      "wiki_checked": true
-    },
-    {
-      "name": "Dirk De Wachter",
-      "note": "psychiater die spreekt over een zingevingscrisis",
-      "start_seconds": 1044,
-      "wiki_checked": true,
-      "wiki_pageid": 3777024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dirk_De_Wachter"
-    },
-    {
-      "name": "Pieter Barnhoorn",
-      "note": "huisarts die veel zingevingsvragen in zijn praktijk ziet",
-      "start_seconds": 1077,
-      "wiki_checked": true
-    },
-    {
-      "name": "Henk Hofland",
-      "note": "journalist bij NRC",
-      "start_seconds": 1183,
-      "wiki_checked": true,
-      "wiki_pageid": 80581,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henk_Hofland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Henk-hofland.jpg/250px-Henk-hofland.jpg"
-    },
-    {
-      "name": "Brené Brown",
-      "note": "Amerikaanse onderzoeker en auteur over kwetsbaarheid",
-      "start_seconds": 1236,
-      "wiki_checked": true,
-      "wiki_pageid": 3195934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bren%C3%A9_Brown",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Bren%C3%A9_Brown_Wikipedia.jpg/250px-Bren%C3%A9_Brown_Wikipedia.jpg"
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "reformator die dankbaarheid centraal stelde in zijn catechismus",
-      "start_seconds": 1672,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Alexander Klöpping",
-      "note": "co-host van POM, noemt Pfauth vaak calvinist",
-      "start_seconds": 1749,
-      "wiki_checked": true,
-      "wiki_pageid": 2068854,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Kl%C3%B6pping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Alexander_Kl%C3%B6pping_%282018%29.jpg/250px-Alexander_Kl%C3%B6pping_%282018%29.jpg"
+      "name": "Calvijn",
+      "note": "16e-eeuwse reformator; volgens Stefan Paas centraal dankbaarheid in zijn catechismus",
+      "start_seconds": 1683,
+      "mention_count": 6
     },
     {
       "name": "Tim Keller",
-      "note": "New Yorkse theoloog en dominee, over wat het christendom biedt",
-      "start_seconds": 2140,
-      "wiki_checked": true,
-      "wiki_pageid": 1671214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Keller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Timothy_Keller.jpg/250px-Timothy_Keller.jpg"
+      "note": "Amerikaanse predikant en theoloog die christendom als antwoord op moderne thema's beschrijft",
+      "start_seconds": 2134,
+      "mention_count": 3
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; vergelijking van geloof dat sleur wordt en de vreemdeling die de weg vraagt",
+      "start_seconds": 2848,
+      "mention_count": 3
+    },
+    {
+      "name": "Brené Brown",
+      "note": "Amerikaanse onderzoeker; auteur van De moed der imperfectie",
+      "start_seconds": 1244,
+      "mention_count": 2
+    },
+    {
+      "name": "David Brooks",
+      "note": "Amerikaanse columnist; schreef Road to Character en The Second Mountain",
+      "start_seconds": 921,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "Filosoof; idee van best accounts van de werkelijkheid",
+      "start_seconds": 2436,
+      "mention_count": 2
+    },
+    {
+      "name": "Yann Martel",
+      "note": "Schrijver van Life of Pi; religie als verhalen",
+      "start_seconds": 2570,
+      "mention_count": 2
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Duitse socioloog; biografische oplossingen voor systeemfouten",
+      "start_seconds": 3163,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Komiek en presentator; ook jong moeder verloren, stelde vragen over God",
+      "start_seconds": 699,
+      "mention_count": 2
+    },
+    {
+      "name": "Rick Pastoor",
+      "note": "Productiviteitsgoeroe, auteur van Grip",
+      "start_seconds": 133,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Cruijff",
+      "note": "Voetballegende; vergelijking door Stefan Paas",
+      "start_seconds": 194,
+      "mention_count": 2
+    },
+    {
+      "name": "Henk Hofland",
+      "note": "Oud-NRC-journalist uit het vorige millennium",
+      "start_seconds": 1183,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk de Wachter",
+      "note": "Psychiater die een zingevingscrisis signaleert",
+      "start_seconds": 1044,
+      "mention_count": 1
+    },
+    {
+      "name": "Damián de Nies",
+      "note": "Psychiater die met Dirk de Wachter in de podcast te gast was",
+      "start_seconds": 1044,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Barnhoorn",
+      "note": "Huisarts die veel patiënten met zingevingsvragen ziet",
+      "start_seconds": 1077,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem-Jan Otten",
+      "note": "Eerdere gast; besproken rond prikkels en sleur",
+      "start_seconds": 3513,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicolas Sintobin",
+      "note": "Jezuïtische priester; levensgebed met dank, alstublieft en sorry",
+      "start_seconds": 3527,
+      "mention_count": 1
+    },
+    {
+      "name": "Ignatius van Loyola",
+      "note": "Stichter van de jezuïeten; oorsprong van het levensgebed",
+      "start_seconds": 3541,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Klupping",
+      "note": "Collega van David Boogerd bij POM; noemt Ernst-Jan calvinist",
+      "start_seconds": 1747,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historicus; eerdere gast die vaak Augustinus noemt",
+      "start_seconds": 2856,
+      "mention_count": 1
+    },
+    {
+      "name": "Aleksandr Schmemann",
+      "note": "Orthodox theoloog; mens als aanbiddend wezen",
+      "start_seconds": 3783,
+      "mention_count": 1
+    },
+    {
+      "name": "Patriarch Kirill",
+      "note": "Patriarch van Moskou; in de tekst als berucht genoemd",
+      "start_seconds": 3774,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Grip",
-      "author": "Rick Pastoor",
-      "note": "bestseller over productiviteit",
-      "start_seconds": 133,
-      "volume_id": "dvZ1zQEACAAJ",
-      "canonical_title": "Grip: het geheim van slim werken",
-      "canonical_author": "Rick Pastoor",
-      "isbn13": "9789082881219",
-      "isbn10": "9082881217",
+      "title": "Dankboek",
+      "author": "Ernst-Jan Pfauth",
+      "note": "Gebruiksvoorwerp met drie dankpunten per dag; centraal in het gesprek",
+      "start_seconds": 1331,
+      "volume_id": "Q0DFswEACAAJ",
+      "canonical_title": "Dankboek",
+      "canonical_author": "Ernst-Jan Pfauth",
+      "isbn13": "9789082520385",
+      "isbn10": "9082520389",
       "thumbnail": ""
     },
     {
-      "title": "The Road to Character",
+      "title": "De moed der imperfectie",
+      "author": "Brené Brown",
+      "note": "Schrikbeeld van op het sterfbed beseffen wat je had",
+      "start_seconds": 1255,
+      "volume_id": "beI0nwEACAAJ",
+      "canonical_title": "De moed van imperfectie",
+      "canonical_author": "Brené C. Brown",
+      "isbn13": "9789400503496",
+      "isbn10": "9400503490",
+      "thumbnail": ""
+    },
+    {
+      "title": "Road to Character",
       "author": "David Brooks",
-      "note": "over karakter en voldoening",
-      "start_seconds": 921,
+      "note": "Over waarden en karakter als bron van voldoening",
+      "start_seconds": 926,
       "volume_id": "mz63BQAAQBAJ",
       "canonical_title": "The Road to Character",
       "canonical_author": "David Brooks",
@@ -154,98 +196,108 @@
     {
       "title": "The Second Mountain",
       "author": "David Brooks",
-      "note": "over jezelf overgeven aan iets groters",
-      "start_seconds": 921,
+      "note": "Over zoeken naar iets groters dan het eigen ego",
+      "start_seconds": 926,
       "volume_id": "qlyDDwAAQBAJ",
-      "canonical_title": "The Second Mountain: The Quest for a Moral Life",
+      "canonical_title": "The Second Mountain",
       "canonical_author": "David Brooks",
       "isbn13": "9780241400692",
       "isbn10": "0241400694",
       "thumbnail": "http://books.google.com/books/content?id=qlyDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "De moed der imperfectie",
-      "author": "Brené Brown",
-      "note": "bracht Pfauth tot nadenken over dankbaarheid",
-      "start_seconds": 1257,
-      "volume_id": "KSc8AQAAQBAJ",
-      "canonical_title": "De moed van imperfectie: laat gaan wie je denkt te moeten zijn",
-      "canonical_author": "Brené Brown",
-      "isbn13": "9789044970715",
-      "isbn10": "9044970712",
-      "thumbnail": "http://books.google.com/books/content?id=KSc8AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Dankboek",
-      "author": "Ernst-Jan Pfauth",
-      "note": "dagboek waarin je dagelijks 3 dingen opschrijft waar je dankbaar voor bent",
-      "start_seconds": 1348,
-      "volume_id": "Q0DFswEACAAJ",
-      "canonical_title": "Dankboek: Dagboek voor een tevredener leven",
-      "canonical_author": "Ernst-Jan Pfauth",
-      "isbn13": "9789082520385",
-      "isbn10": "9082520389",
+      "title": "Grip",
+      "author": "Rick Pastoor",
+      "note": "Productiviteitsboek; aanleiding van het eerdere gesprek over geloof",
+      "start_seconds": 140,
+      "volume_id": "dvZ1zQEACAAJ",
+      "canonical_title": "Grip",
+      "canonical_author": "Rick Pastoor",
+      "isbn13": "9789082881219",
+      "isbn10": "9082881217",
       "thumbnail": ""
     },
     {
       "title": "Op zoek naar het goede leven",
       "author": "Stefan Paas",
-      "note": "boek over het goede leven",
-      "start_seconds": 1560
+      "note": "Boek over het goede leven, vertaald als intentioneel leven",
+      "start_seconds": 1558
+    },
+    {
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "note": "Religie als verhalen; het mooiste verhaal kiezen",
+      "start_seconds": 2570,
+      "volume_id": "OxxhPgAACAAJ",
+      "canonical_title": "Life of Pi",
+      "canonical_author": "Yann Martel",
+      "isbn13": "9781841978734",
+      "isbn10": "1841978736",
+      "thumbnail": "http://books.google.com/books/content?id=OxxhPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Amsterdam",
-    "New York"
+    "New York",
+    "Amerika",
+    "Bangladesh",
+    "Oekraïne",
+    "Moskou"
   ],
-  "summary_tldr": "Ernst-Jan Pfauth vertelt over zijn christelijke opvoeding, het verwateren van zijn geloof en zijn zoektocht naar het goede leven, waarin dankbaarheid centraal staat. Hij is jaloers op christenen omdat zij hun dankbaarheid kunnen richten en weten waarvoor ze leven. Stefan Paas bevraagt het instrumentele karakter van dankbaarheid en wijst op Calvijn en roeping.",
+  "summary_tldr": "Ernst-Jan Pfauth, opgegroeid in een christelijk gezin maar nu niet meer gelovig, vertelt waarom hij het geloof verloor en waarom hij juist daardoor jaloers is op christenen. Hij beschrijft zijn zoektocht naar het goede leven via het dankbaarheidsritueel van zijn Dankboek. Stefan Paas bevraagt dit instrumentele gebruik van dankbaarheid en stelt het tegenover een religieuze, ontvankelijke houding.",
   "summary_points": [
-    "Pfauth groeide christelijk op, met zomerkampen, kerkclub en een Alpha-cursus, maar zijn geloof verwaterde.",
-    "Redenen: een gebrekkig voorstellingsvermogen, de vraag waarom juist het eigen geloof waar zou zijn, en hemel en hel.",
-    "Het wegvallen van de christelijke omgeving doofde het vuur, een bekend patroon bij studenten.",
-    "Zijn jaloezie op christenen betreft dankbaarheid die je op iemand kunt richten en zingeving door overgave aan God.",
-    "Als jonge, succesvolle journalist was hij chronisch ontevreden en verwaarloosde hij gezin en vriendschappen.",
-    "Brené Brown zette hem aan het denken, waarna hij dankbaarheid als ritueel ging beoefenen en het Dankboek maakte.",
-    "Intentioneel leven is bewust kiezen wat voldoening geeft, tegenover sociale media en reclame die afleiden.",
-    "Stefan Paas vraagt of dankbaarheid niet instrumenteel wordt en wijst op Calvijn, voor wie dankbaarheid en roeping centraal stonden.",
-    "Tim Keller noemt dat het christendom antwoorden biedt op identiteit, schuld, dood en dankbaarheid."
+    "Pfauth is christelijk opgevoed, maar verloor zijn geloof door verhuizing, wegvallen van de kerkelijke vriendenkring en rationele bezwaren zoals hemel en hel.",
+    "Hij is jaloers op christenen omdat die hun dankbaarheid op God kunnen richten en hun zingeving al hebben vastgelegd.",
+    "Na een snelle carrière bij NRC ervoer hij chronische ontevredenheid, wat hem tot de zoektocht naar intentioneel leven bracht.",
+    "Het Dankboek met drie dankpunten per dag is zijn ritueel, gebaseerd op positieve psychologie, om zijn blik op wat er al is te richten.",
+    "Paas waarschuwt dat dankbaarheid als middel tot zelfverbetering kan verworden tot een instrument voor meer geluk of succes.",
+    "Calvijn stelde dankbaarheid centraal; de Calvinist-verwijzing wordt als compliment of verwijt gezien en leidt tot discussie over roeping versus prestatie.",
+    "Het gesprek gaat over de zingevingscrisis en over het risico dat individuele dankbaarheid collectieve verantwoordelijkheid verdringt.",
+    "Dankbaarheid kan ook in crisistijd als oorlog of pandemie gelden, al betekent dat niet dat negatieve gevoelens verdwijnen.",
+    "Paas ziet geloof als ontvankelijkheid en het zoeken naar een best account van de werkelijkheid, niet als bewijsvoering.",
+    "Het gesprek eindigt met de vraag of categorieën als gelovig en ongelovig nog zinvol zijn in een post-verzuilde samenleving."
   ],
   "chapters": [
     {
-      "start_seconds": 46,
-      "title": "Introductie van Ernst-Jan Pfauth",
-      "summary": "David stelt de gast voor en vertelt hoe luisteraars van beide podcasts dit gesprek aanraadden."
+      "start_seconds": 0,
+      "title": "Introductie en aanleiding",
+      "summary": "David Boogerd stelt Ernst-Jan Pfauth en zijn dankbaarheidsproject voor, en de luisteraars die om dit gesprek vroegen."
     },
     {
-      "start_seconds": 171,
-      "title": "Christelijke opvoeding en verwaterd geloof",
-      "summary": "Pfauth beschrijft zijn jeugd met zomerkampen en kerkclub en waarom het geloof wegviel."
-    },
-    {
-      "start_seconds": 525,
-      "title": "Voorstellingsvermogen en parkeren van vragen",
-      "summary": "Paas en Pfauth praten over worstelen met geloofsvragen, verbeelding en dankbaarheid richting natuur."
+      "start_seconds": 169,
+      "title": "Christelijke opvoeding en geloofsverlies",
+      "summary": "Pfauth beschrijft zijn christelijke jeugd, het wegvallen van zijn geloof na het studeren en de rationele en existentiële bezwaren."
     },
     {
       "start_seconds": 880,
-      "title": "Jaloers op christenen",
-      "summary": "Pfauth legt uit waarom hij jaloers is op gelovigen, en het gesprek gaat over zingevingscrisis en burn-out."
+      "title": "Waarom jaloers op christenen",
+      "summary": "Pfauth legt uit dat christenen hun dankbaarheid en zingeving op God kunnen richten, terwijl hij zijn eigen zoektocht heeft."
     },
     {
-      "start_seconds": 1120,
-      "title": "Chronische ontevredenheid en intentioneel leven",
-      "summary": "Over zijn snelle carrière, zijn ontevredenheid, Brené Brown en het ontstaan van het Dankboek."
+      "start_seconds": 1385,
+      "title": "Het Dankboek en intentioneel leven",
+      "summary": "Pfauth licht zijn dagelijkse dankritueel toe, de positieve psychologie erachter en de manier waarop het zijn perspectief verschuift."
     },
     {
-      "start_seconds": 1800,
-      "title": "Instrumentele dankbaarheid en Calvijn",
-      "summary": "Paas bevraagt het instrumentele karakter van dankbaarheid en schetst Calvijn, roeping en dankbaarheid."
+      "start_seconds": 1663,
+      "title": "Calvinisme, roeping en dankbaarheid",
+      "summary": "Paas en Pfauth bespreken Calvijn, het verschil tussen hard werken uit roeping en uit schuldgevoel en het risico van instrumentalisering."
     },
     {
-      "start_seconds": 2130,
-      "title": "Tim Keller en wat het christendom biedt",
-      "summary": "David citeert Keller over identiteit, schuld, dood en dankbaarheid als antwoorden van het christendom."
+      "start_seconds": 2436,
+      "title": "Best accounts, verhalen en ontvankelijkheid",
+      "summary": "Paas introduceert Charles Taylor en Life of Pi om geloof als verhalen en ontvankelijkheid te verduidelijken."
+    },
+    {
+      "start_seconds": 3150,
+      "title": "Dankbaarheid, burgerschap en maatschappij",
+      "summary": "Het gesprek gaat over biografische oplossingen voor systeemfouten, dankbaarheid als morele verplichting en de Oekraïne-oorlog."
+    },
+    {
+      "start_seconds": 3700,
+      "title": "Terugkeer naar geloof en de grens tussen gelovig en ongelovig",
+      "summary": "Pfauth ziet voorlopig geen terugkeer naar het geloof, Paas ziet dankbaarheid als religieuze praktijk en pleit voor minder scheidslijnen."
     }
   ],
   "highlights": [
@@ -253,69 +305,76 @@
       "start_seconds": 880,
       "speaker": "Ernst-Jan Pfauth",
       "text": "Ik ben om een aantal redenen jaloers op mensen die geloven.",
-      "note": "Openhartige reden voor zijn hernieuwde interesse in religie."
+      "note": "Openhartige opening van de kern van het gesprek: jaloezie op het geloof zelf."
     },
     {
-      "start_seconds": 1490,
-      "speaker": "Ernst-Jan Pfauth",
-      "text": "Ik zie het als een soort persoonlijke hygiëne voor mezelf.",
-      "note": "Zo ziet hij het instrumentele karakter van dankbaarheid."
-    },
-    {
-      "start_seconds": 1900,
-      "speaker": "Ernst-Jan Pfauth",
-      "text": "We hebben het kind met het badwater weggegooid: waardevolle rituelen zijn we kwijtgeraakt.",
-      "note": "Pleidooi voor het terughalen van religieuze rituelen zonder geloof."
-    },
-    {
-      "start_seconds": 2040,
-      "speaker": "Ernst-Jan Pfauth",
-      "text": "Wat is goede journalistiek als er verderop bommen vallen?",
-      "note": "Laat zien hoe het relativeren zingeving ondermijnt."
-    },
-    {
-      "start_seconds": 2010,
+      "start_seconds": 2028,
       "speaker": "Stefan Paas",
-      "text": "Calvijn was geen calvinist, zoals Jezus geen christen was.",
-      "note": "Scherpe nuancering die Calvijns nadruk op dankbaarheid inleidt."
+      "text": "Het verschil tussen iemand die als een kip zonder kop doorwerkt en iemand die hard werkt en gezond en gelukkig is, is roeping, weten waarom je het doet.",
+      "note": "Scherpe herdefinitie van calvinisme die het stereotype van zelfverbetering omdraait."
+    },
+    {
+      "start_seconds": 1809,
+      "start_seconds_note": "",
+      "speaker": "Stefan Paas",
+      "text": "Het gevaar is dat dankbaarheid instrumenteel wordt ingezet om gelukkiger of succesvoller te worden.",
+      "note": "Kritische vraag die het hele dankboek-concept ter discussie stelt."
+    },
+    {
+      "start_seconds": 3568,
+      "speaker": "David Boogerd",
+      "text": "Allemaal onzin, je hebt geen excuus dat je te druk bent, 2 minuten heeft iedereen.",
+      "note": "Herinnering aan het gebed van Nicolas Sintobin, persoonlijk en toegankelijk."
+    },
+    {
+      "start_seconds": 3704,
+      "speaker": "Ernst-Jan Pfauth",
+      "text": "Nou, zeg nooit nooit. Het lukt me nu gewoon niet rond voor mezelf.",
+      "note": "Eerlijk open einde over een mogelijke terugkeer naar het geloof."
     }
   ],
   "keywords": [
     "dankbaarheid",
     "intentioneel leven",
-    "Dankboek",
+    "goede leven",
     "zingeving",
+    "Dankboek",
     "Calvijn",
     "calvinisme",
-    "burn-out",
     "positieve psychologie",
-    "secularisatie",
-    "Tim Keller",
+    "best account",
+    "verhalen",
+    "geloof",
+    "zingevingscrisis",
     "roeping"
   ],
   "quotes": [
-    "Ernst-Jan is christelijk opgevoed maar heeft het geloof achter zich gelaten. Waarom eigenlijk? En waarom is hij jaloers op christenen?"
+    "Jong en succesvol dus, maar ook gedreven door een chronische ontevredenheid en een constante drang om zichzelf te verbeteren.",
+    "Het bracht hem op een zoektocht naar het goede leven, of wat hij 'intentioneel leven' noemt.",
+    "De sleutel ligt voor hem in dankbaarheid."
   ],
   "similar": [
     {
       "n": 223,
-      "reason": "Ook Ernst-Jan Pfauth: onderzoek naar focus, geluk en het goede leven"
-    },
-    {
-      "n": 33,
-      "reason": "Dirk de Wachter over geluk, geloof en het goede leven"
+      "reason": "Zelfde gast Ernst-Jan Pfauth over een goed, gelukkig leven en zingeving"
     },
     {
       "n": 238,
-      "reason": "Wat maakt gelukkig? Zingeving en filosofie, met geloofsvragen"
+      "reason": "Vraag naar geluk en het goede leven, met geloof en God als thema"
+    },
+    {
+      "n": 265,
+      "reason": "Zoektocht naar wie je werkelijk bent en een zinvol leven"
+    },
+    {
+      "n": 201,
+      "reason": "Gesprek over dood, rouw en zingeving vanuit geloof en bevrijding"
     },
     {
       "n": 171,
-      "reason": "Zingeving maakt gelukkiger; psyche en betekenis centraal"
-    },
-    {
-      "n": 217,
-      "reason": "Zoektocht naar geluk en existentiële vragen met Marjan Slob"
+      "reason": "Zingeving en de betekenis van het leven, met wetenschappelijke invalshoek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

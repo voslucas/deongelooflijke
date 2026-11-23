@@ -1,43 +1,86 @@
 {
   "episode": 145,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 142872,
+    "segments": 1334,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30507,
-    "output_tokens": 1952,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 71536,
+    "output_tokens": 2561,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Klimaat & natuur",
+    "Zingeving & psyche",
     "God & geloof",
-    "Zingeving & psyche"
+    "Klimaat & natuur"
   ],
   "guests": [
     "Paul Schenderling"
   ],
   "people": [
     {
+      "name": "Paul Schenderling",
+      "note": "econoom en schrijver, gast van de aflevering",
+      "start_seconds": 0,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 247,
+      "mention_count": 50
+    },
+    {
+      "name": "Adam Smith",
+      "note": "econoom en grondlegger van het marktdenken, besproken als bron van het homo economicus-beeld",
+      "start_seconds": 2290,
+      "mention_count": 5
+    },
+    {
       "name": "Geert Mak",
-      "note": "schrijver/historicus; vertelde over de Telegraaf-kop 'het kan niet op' van 1 januari 2000",
-      "start_seconds": 503,
-      "wiki_checked": true,
-      "wiki_pageid": 53925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Mak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Geert_Mak.JPG/250px-Geert_Mak.JPG",
+      "note": "schrijver van 'Hoe God verdween uit Jorwerd', aangehaald over verbrokkelende relaties en economie",
+      "start_seconds": 1002,
+      "mention_count": 3
+    },
+    {
+      "name": "Lans Bovenberg",
+      "note": "econoom, CDA-gelieerd, die afstand neemt van het homo economicus-model",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Abraham Heschel",
+      "note": "joods denker, citaat over de diepste menselijke behoefte om nodig te zijn",
+      "start_seconds": 4740,
       "mention_count": 1
     },
     {
-      "name": "Max Havelaar",
-      "note": "boek/figuur voortkomend uit het cultuurstelsel op Java",
-      "start_seconds": 897,
-      "wiki_checked": true,
-      "wiki_pageid": 1082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Havelaar_%28boek%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Omslag_eerste_druk_max_havelaar_1860.jpg/250px-Omslag_eerste_druk_max_havelaar_1860.jpg",
+      "name": "Mark Rutte",
+      "note": "premier, noemde verduurzaming via elektrische auto's i.p.v. minder consumeren",
+      "start_seconds": 3900,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus/schrijver, had moeite met het idee van krimp",
+      "start_seconds": 3920,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "voorbeeld van iemand die Gods nabijheid ervoer in kwetsbaarheid",
+      "start_seconds": 4800,
+      "mention_count": 1
+    },
+    {
+      "name": "Bono",
+      "note": "zanger, citaat over een gebroken hart dat open is",
+      "start_seconds": 4980,
       "mention_count": 1
     }
   ],
@@ -45,109 +88,135 @@
     {
       "title": "Er is leven na de groei",
       "author": "Paul Schenderling",
-      "note": "boek over postgroei, geschreven met een co-auteur",
-      "start_seconds": 631,
+      "note": "boek van Schenderling over postgroei",
+      "start_seconds": 2380,
       "volume_id": "bU2JzwEACAAJ",
       "canonical_title": "Er is leven na de groei: Hoe we onze toekomst realistisch veiligstellen",
       "canonical_author": "Paul Schenderling",
       "isbn13": "9789083256443",
       "isbn10": "9083256448",
       "thumbnail": ""
+    },
+    {
+      "title": "Hoe God verdween uit Jorwerd",
+      "author": "Geert Mak",
+      "note": "aangehaald over verbrokkelende gemeenschappen en onrechtvaardige economie",
+      "start_seconds": 2820,
+      "volume_id": "hC0h0QEACAAJ",
+      "canonical_title": "Hoe God verdween uit Jorwerd: een Nederlands dorp in de twintigste eeuw",
+      "canonical_author": "Geert Mak",
+      "isbn13": "9789045012964",
+      "isbn10": "9045012960",
+      "thumbnail": "http://books.google.com/books/content?id=hC0h0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Mattheus 6:24",
-      "note": "je kunt niet God en de mammon dienen; keuze tussen God en mammon (zonder expliciete verwijzing)",
-      "start_seconds": 2153
+      "note": "'Je kunt niet God en de mammon dienen'",
+      "start_seconds": 1100
+    },
+    {
+      "ref": "Marcus 10:21-30",
+      "note": "Jezus en de rijke jongeling; tien keer zoveel ontvangen",
+      "start_seconds": 3720
+    },
+    {
+      "ref": "Mattheus 13:44",
+      "note": "gelijkenis van de schat in de akker",
+      "start_seconds": 3960
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "Bergrede; armen en zachtmoedigen",
+      "start_seconds": 4140
     }
   ],
   "places": [
-    "Nederland",
-    "Java",
     "Bangladesh",
+    "Java",
+    "Groningen",
+    "Utrecht",
     "Turkije",
-    "Amsterdam",
-    "Utrecht"
+    "Engeland"
   ],
-  "summary_tldr": "Econoom Paul Schenderling legt uit dat we in extreme economische tijden leven met forse koopkrachtdaling, en dat economische en ecologische crisis voortkomen uit de fixatie op groei. Hij pleit voor postgroei en leven van genoeg, en ziet onder de crises een spirituele oorzaak: economie als religie (mammon).",
+  "summary_tldr": "Econoom Paul Schenderling betoogt dat de economische en ecologische crisis samenhangen en dat de dwang tot groei een spirituele kwestie is. Hij pleit voor postgroei en een leven van genoeg, waarin vreugde en gemeenschap centraal staan. Stefan Paas bevraagt hem kritisch op haalbaarheid, verdeling en de rol van religie.",
   "summary_points": [
-    "Inflatie en koopkrachtverlies zijn volgens Schenderling extreem en decennialang niet vertoond",
-    "Leven van genoeg kan juist een oplossing zijn voor inflatie: minder kopen, langer meegaande spullen",
-    "Postgroei richt zich op kwalitatieve groei en stabilisatie van koopkracht, anders dan ontgroei",
-    "Groene groei is wetenschappelijk niet aangetoond: milieuwinst wordt deels teniet gedaan door consumptie (Jevons-paradox)",
-    "Nederlandse consumptie laat ongeveer 10 miljoen mensen in het mondiale zuiden fulltime werken, vaak onderbetaald",
-    "Praktische stappen: verlangens opschrijven, delen, en duurzaam kopen",
-    "Eerlijke verdeling via hogere belasting op consumptie, lagere op arbeid en progressieve vliegbelasting",
-    "Onder de crises ligt een spirituele crisis: economie als religie en mammon als vertrouwen"
+    "Inflatie en koopkrachtverlies maken een leven van genoeg urgenter.",
+    "Consumptiegroei heeft een groot deel van de milieuwinst teniet gedaan (Jevons-paradox).",
+    "Een groot deel van de Nederlandse ecologische en sociale impact ligt buiten Nederland, o.a. bij 10 miljoen arbeiders in het mondiale zuiden.",
+    "Postgroei streeft naar stabilisatie van koopkracht in plaats van krimp.",
+    "Economie als hoogste waarde wordt gezien als een religieuze keuze, vergelijkbaar met mammon.",
+    "Afhankelijkheid van gemeenschap en God wordt als bron van vreugde en zekerheid gepresenteerd.",
+    "Paas wijst op risico's voor kwetsbare groepen en op het belang van verzorgingsstaat en buffers.",
+    "Progressieve vliegbelasting en koppeling van belasting op consumptie aan inkomen worden als voorbeelden genoemd."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Extreme economische tijden",
-      "summary": "Inflatie, koopkrachtverlies en Pauls leven van genoeg."
+      "title": "Inleiding en extreme economische tijden",
+      "summary": "Schenderling beschrijft de gevolgen van inflatie en de collectieve verarming."
     },
     {
-      "start_seconds": 394,
-      "title": "Postgroei versus ontgroei",
-      "summary": "Wat postgroei inhoudt en waarom eindeloze groei niet kan binnen planetaire grenzen."
+      "start_seconds": 597,
+      "title": "Postgroei en planetaire grenzen",
+      "summary": "Het onderscheid tussen ontgroei en postgroei en de vraag of groei en vergroening samengaan."
     },
     {
-      "start_seconds": 767,
-      "title": "Verborgen kant van onze economie",
-      "summary": "Tien miljoen mensen in het mondiale zuiden werken voor Nederlandse consumptie, vergeleken met het cultuurstelsel."
+      "start_seconds": 1000,
+      "title": "Verborgen kosten van de economie",
+      "summary": "Uitbuiting van arbeid in het mondiale zuiden en verborgen ecologische impact."
     },
     {
-      "start_seconds": 1155,
-      "title": "Een omgegooid leven",
-      "summary": "Hoe Paul en zijn vrouw hun impact verkleinden: minder spullen, minder werken, geen kaas."
+      "start_seconds": 1370,
+      "title": "Leven van genoeg in de praktijk",
+      "summary": "Persoonlijke keuzes, spullen bewust kopen en de vreugde die dit oplevert."
     },
     {
-      "start_seconds": 1437,
-      "title": "Jevons-paradox",
-      "summary": "Milieuwinst door technologie wordt ongedaan gemaakt door consumptiegroei, met het autovoorbeeld."
-    },
-    {
-      "start_seconds": 1808,
-      "title": "Eerlijk verdelen",
-      "summary": "Gevolgen voor arm en rijk, consumptiebelasting en progressieve vliegheffing."
-    },
-    {
-      "start_seconds": 2124,
+      "start_seconds": 2290,
       "title": "Economie als religie",
-      "summary": "Schenderling ziet een spirituele crisis en wijst op mammon als vertrouwen."
+      "summary": "Mammon, vertrouwen en het homo economicus-beeld als historische anomalie."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "Afhankelijkheid, eerlijke verdeling en tegenargumenten",
+      "summary": "Paas stelt kritische vragen over armoede, buffers en de haalbaarheid van postgroei."
+    },
+    {
+      "start_seconds": 3960,
+      "title": "De schat in de akker en vreugde",
+      "summary": "Bijbelse gelijkenissen en Schenderlings concept van vreugde door geven en ontvangen."
+    },
+    {
+      "start_seconds": 4800,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Gedeelde conclusie over hoop en de vooruitblik op een volgende aflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2124,
+      "start_seconds": 1140,
       "speaker": "Paul Schenderling",
-      "text": "Ik denk echt dat er een spirituele crisis ten grondslag ligt aan de grote milieucrises waar we nu voor staan.",
-      "note": "Kern van het gesprek: de link tussen economie en religie."
+      "text": "Economie is een religie.",
+      "note": "Een scherpe stelling die het economische denken als geloofskeuze plaatst."
     },
     {
-      "start_seconds": 1437,
-      "speaker": "Paul Schenderling",
-      "text": "55% van alle milieuwinst is ongedaan gemaakt door consumptiegroei.",
-      "note": "Schokkend cijfer dat de Jevons-paradox illustreert."
-    },
-    {
-      "start_seconds": 787,
-      "speaker": "Paul Schenderling",
-      "text": "Er werken 10 miljoen mensen fulltime in het mondiale zuiden voor Nederlandse consumptie.",
-      "note": "Eyeopener die zijn leven veranderde."
-    },
-    {
-      "start_seconds": 1556,
+      "start_seconds": 1200,
       "speaker": "Paul Schenderling",
       "text": "Dweilen met de kraan open.",
-      "note": "Treffend beeld voor technologische winst die door consumptie verloren gaat."
+      "note": "Treffende metafoor voor milieuwinst die door consumptie wordt tenietgedaan."
     },
     {
-      "start_seconds": 365,
+      "start_seconds": 3700,
+      "speaker": "Stefan Paas",
+      "text": "Dit is pijnlijk, Paul.",
+      "note": "Paas erkent de confrontatie met het gebruik van kolonialisme en uitbuiting in de westerse welvaart."
+    },
+    {
+      "start_seconds": 4800,
       "speaker": "Paul Schenderling",
-      "text": "Goedkoop is duurkoop: mijn schoenen zijn twee keer zo duur maar gaan drie keer zo lang mee.",
-      "note": "Tegenintuïtief praktisch voorbeeld van leven van genoeg."
+      "text": "De diepste behoefte van de mens is om nodig te zijn.",
+      "note": "Schenderling koppelt Heschel aan zijn visie op gemeenschap en vreugde."
     }
   ],
   "keywords": [
@@ -155,37 +224,41 @@
     "leven van genoeg",
     "Jevons-paradox",
     "mammon",
-    "inflatie",
+    "homo economicus",
     "planetaire grenzen",
-    "consumptie",
-    "ontgroei",
-    "koopkracht",
-    "spirituele crisis"
+    "vreugde",
+    "gemeenschap",
+    "afhankelijkheid",
+    "kolonialisme",
+    "verzorgingsstaat"
   ],
   "quotes": [
-    "Juist de focus op groei kan je zicht belemmeren op wat écht belangrijk is in het leven.",
-    "Een geheim dat hem vreugde geeft. Een manier van leven die hem ook dichter bij God brengt."
+    "Economie is een religie.",
+    "Dweilen met de kraan open.",
+    "Ik noem zelf altijd moderne dagloners."
   ],
   "similar": [
     {
-      "n": 308,
-      "reason": "Paul Schenderling over vreugde en zingeving in een uitgeputte, door economie gedreven wereld."
+      "n": 174,
+      "reason": "Zelfde gast Paul Schenderling over economische wortels van maatschappelijke onvrede en culturele strijd"
     },
     {
       "n": 268,
-      "reason": "Paul Schenderling over economie, ziel en cultuur: Europa heeft zijn ziel verkocht."
+      "reason": "Paul Schenderling over Europa, economie en de verkochte 'ziel' van de samenleving"
     },
     {
-      "n": 174,
-      "reason": "Paul Schenderling over economische en culturele strijd achter de onvrede in de samenleving."
+      "n": 286,
+      "reason": "Paul Schenderling over economie, politiek en de vraag naar een eigen Europese koers"
     },
     {
-      "n": 235,
-      "reason": "Paul Schenderling over Trump, Musk, eigenbelang en naastenliefde met economische invalshoek."
+      "n": 126,
+      "reason": "Gaat over economische kloof, moraal en grote verhalen die samenlevingen dragen"
     },
     {
-      "n": 85,
-      "reason": "Comeback van religie in de economie, met Paul van Geest en Stefan Paas."
+      "n": 96,
+      "reason": "Economie, middenklasse en egoïsme vanuit een religieus en maatschappelijk perspectief"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

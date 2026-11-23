@@ -1,18 +1,23 @@
 {
   "episode": 3,
-  "analyzed": "2026-11-18",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 80402,
+    "segments": 821,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29756,
-    "output_tokens": 2644,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 40167,
+    "output_tokens": 10040,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Bijbel & Jezus",
     "God & geloof",
+    "Bijbel & Jezus",
     "Kerk & secularisatie",
-    "Geschiedenis"
+    "Wetenschap & kosmos"
   ],
   "guests": [
     "Andries Knevel",
@@ -20,314 +25,322 @@
   ],
   "people": [
     {
-      "name": "Thierry Baudet",
-      "note": "politicus, door Van Rossem genoemd als 'moderne Messias'",
-      "start_seconds": 657,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "name": "Jezus van Nazareth",
+      "note": "Centrale figuur in het gesprek; de historiciteit, zijn leven, kruisdood en opstanding worden besproken",
+      "start_seconds": 0,
+      "mention_count": 45
     },
     {
-      "name": "Karl Marx",
-      "note": "grondlegger van het communisme, als voorbeeld van een geloofsachtig systeem",
-      "start_seconds": 678,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Sigmund Freud",
-      "note": "verklaarde religie psychologisch, van onderop",
-      "start_seconds": 665,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
-    },
-    {
-      "name": "Ludwig Feuerbach",
-      "note": "religiekritisch denker, verklaart religie van onderop",
-      "start_seconds": 665,
-      "wiki_checked": true,
-      "wiki_pageid": 29110,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Feuerbach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ludwig_feuerbach.jpg/250px-Ludwig_feuerbach.jpg"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "religiekritisch filosoof",
-      "start_seconds": 665,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "name": "Stefan Paas",
+      "note": "Theoloog en vaste gast van de podcast; genoemd door Boogerd als bron van de uitspraak over jongeren en geloof",
+      "start_seconds": 514,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "onderwerp van Van Rossems lezingen in kerken",
-      "start_seconds": 234,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president; onderwerp waarover Van Rossem in kerken wordt uitgenodigd te spreken",
+      "start_seconds": 229,
+      "mention_count": 1
     },
     {
-      "name": "Simon Stevin",
-      "note": "Vlaamse wetenschapper, citaat over wonderen",
-      "start_seconds": 830,
-      "wiki_checked": true,
-      "wiki_pageid": 6844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_Stevin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Simon-stevin_%28cropped%29.jpeg/250px-Simon-stevin_%28cropped%29.jpeg"
+      "name": "Thierry Baudet",
+      "note": "Nederlands politicus, door Van Rossem en Knevel genoemd als voorbeeld van een moderne messias",
+      "start_seconds": 655,
+      "mention_count": 1
     },
     {
-      "name": "Jezus van Nazareth",
-      "note": "rondtrekkend prediker; historiciteit en opstanding besproken",
-      "start_seconds": 1110,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
+      "name": "Karl Marx",
+      "note": "Denker wiens werk het communisme inspireerde, gezien als quasi-openbaring",
+      "start_seconds": 678,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; samen met Freud en Feuerbach genoemd als 'van onderop'-denker over religie",
+      "start_seconds": 665,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psychoanalyticus; genoemd als denker die religie psychologisch verklaart",
+      "start_seconds": 665,
+      "mention_count": 1
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "note": "Filosoof die religie verklaart als menselijke projectie",
+      "start_seconds": 665,
+      "mention_count": 1
     },
     {
       "name": "Johannes de Doper",
-      "note": "prediker die Jezus doopte",
-      "start_seconds": 1155,
-      "wiki_checked": true,
-      "wiki_pageid": 9789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_de_Doper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/250px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg"
+      "note": "Prediker en doopsgezind voorloper van Jezus",
+      "start_seconds": 1137,
+      "mention_count": 1
     },
     {
       "name": "Pontius Pilatus",
-      "note": "Romeinse rechter bij het proces tegen Jezus",
+      "note": "Romeins landvoogd die het proces tegen Jezus leidde",
       "start_seconds": 1207,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Simon Stevin",
+      "note": "Vlaams-Nederlands wis- en natuurkundige; zijn uitspraak over wonderen wordt geciteerd",
+      "start_seconds": 830,
+      "mention_count": 1
+    },
+    {
+      "name": "Maria",
+      "note": "Moeder van Jezus; Van Rossem refereert aan middeleeuwse Maria-verering",
+      "start_seconds": 2274,
+      "mention_count": 1
     },
     {
       "name": "Rosalind Picard",
-      "note": "MIT-wetenschapper (AI), van atheïst tot gelovige na bronnenstudie",
+      "note": "Amerikaanse AI-onderzoekster en voormalig atheïste die tot geloof kwam na onderzoek naar de bronnen",
       "start_seconds": 1380,
-      "wiki_checked": true
-    },
-    {
-      "name": "C.S. Lewis",
-      "note": "schrijver, ex-atheïst die christen werd",
-      "start_seconds": 1470,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "mention_count": 6
     },
     {
       "name": "Francis Collins",
-      "note": "leider van het Human Genome Project, gelovig",
-      "start_seconds": 1475,
-      "wiki_checked": true,
-      "wiki_pageid": 5388603,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Collins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Francis_Colloins_in_2026_01.jpg/250px-Francis_Colloins_in_2026_01.jpg"
+      "note": "Genoemd als gelovige ontdekker van het Human Genome Project",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Engels schrijver en christelijk apologeet",
+      "start_seconds": 1380,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, God kun je niet bewijzen",
-      "start_seconds": 1510,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; geciteerd over het feit dat God niet bewezen kan worden",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "Fjodor Dostojevski",
+      "note": "Russisch schrijver; zijn verhaal De grote inquisiteur wordt besproken",
+      "start_seconds": 1818,
+      "mention_count": 4
     },
     {
       "name": "Heino Falcke",
-      "note": "Radboud-hoogleraar en lekenpreker, foto van het zwarte gat",
-      "start_seconds": 1966,
-      "wiki_checked": true,
-      "wiki_pageid": 3906079,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heino_Falcke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Heino_Falcke_-_Buch_Wien_2025.JPG/250px-Heino_Falcke_-_Buch_Wien_2025.JPG"
+      "note": "Radboud-hoogleraar en lekenpredikant; leidde de foto van het zwarte gat",
+      "start_seconds": 1954,
+      "mention_count": 3
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Amerikaans president; door oom Beer als progressief gezien",
+      "start_seconds": 2473,
+      "mention_count": 1
+    },
+    {
+      "name": "Oom Beer",
+      "note": "Familielid van Van Rossem die in de Verenigde Staten een conservatief-religieuze overtuiging ontwikkelde",
+      "start_seconds": 2434,
+      "mention_count": 3
+    },
+    {
+      "name": "Charles Darwin",
+      "note": "Bioloog; de evolutietheorie wordt aangehaald als deel van de 19e-eeuwse wetenschappelijke ontwikkeling",
+      "start_seconds": 2623,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Faraday",
+      "note": "Natuurkundige die elektromagnetische beweging ontdekte; door Van Rossem als held genoemd",
+      "start_seconds": 2676,
+      "mention_count": 1
     },
     {
       "name": "Albert Einstein",
-      "note": "relativiteitstheorie, lichtbuiging bij zwart gat",
-      "start_seconds": 1966,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "note": "Natuurkundige; relativiteitstheorie en de uitspraak God dobbelt niet",
+      "start_seconds": 2807,
+      "mention_count": 4
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "Christelijk minister-president in 1905",
+      "start_seconds": 2813,
+      "mention_count": 2
+    },
+    {
+      "name": "Philip Blom",
+      "note": "Auteur van een boek over de cultuur van de periode 1880-1914",
+      "start_seconds": 2735,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruud Koopmans",
+      "note": "Socioloog genoemd in de vooruitblik op de volgende aflevering",
+      "start_seconds": 3022,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De gebroeders Karamazov",
+      "title": "De Broeders Karamazov",
       "author": "Fjodor Dostojevski",
-      "note": "verhaal van de Grote Inquisiteur van Sevilla",
-      "start_seconds": 1815
+      "note": "Het verhaal De grote inquisiteur uit dit boek wordt uitgebreid nagewerkt",
+      "start_seconds": 1912,
+      "volume_id": "oQarPAAACAAJ",
+      "canonical_title": "Verzamelde werken / 9 De broers Karamazov / druk 1",
+      "canonical_author": "F.M. Dostojevski",
+      "isbn13": "9789028240407",
+      "isbn10": "9028240403",
+      "thumbnail": "http://books.google.com/books/content?id=oQarPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Johannes 18",
-      "note": "oudste papyrusfragment (Rylands) van het Nieuwe Testament",
-      "start_seconds": 2197
+      "note": "Oudste bekende fragment uit het Nieuwe Testament, gevonden bij de Nijl; gebruikt als bewijs voor de vroege verspreiding van het evangelie",
+      "start_seconds": 2196
     }
   ],
   "places": [
     "Barneveld",
-    "Antwerpen",
     "Nazareth",
     "Jeruzalem",
     "Golgotha",
-    "Sevilla",
+    "Antwerpen",
+    "Utrecht",
+    "Amsterdam",
+    "Efeze",
     "Manchester",
     "Egypte",
-    "Efeze",
-    "Boston"
+    "Sevilla",
+    "Boston",
+    "Engeland"
   ],
-  "summary_tldr": "Andries Knevel en Maarten van Rossem bespreken hoe het christelijk Nederland ervoor staat en waarom mensen betekenis zoeken. Ze zijn het eens over de historische Jezus, maar botsen over de opstanding en de betrouwbaarheid van de evangeliën.",
+  "summary_tldr": "Andries Knevel en Maarten van Rossem blikken terug op hun gezamenlijke onderzoek naar christelijk Nederland en discussiëren over de rol van religie als betekenisgevend systeem. Het gesprek loopt vooral vast op de historische betrouwbaarheid van de opstanding van Jezus, waarbij Knevel de bronnen als bewijs aandraagt en Van Rossem de wonderlijkheid ervan betwijfelt. Beide heren erkennen dat ze het over bijna alles eens zijn, behalve over de opstanding.",
   "summary_points": [
-    "Kerken lopen leeg, maar orthodoxe en evangelische gemeenten blijven vol en trekken jongeren.",
-    "Van Rossem noemt de mens een gelovig zoogdier dat altijd betekenis zoekt, ook in ideologieën of brandnetelsoep.",
-    "Knevel wil geloof niet alleen sociologisch verklaren maar als openbaring van boven.",
-    "Beide zijn het eens over Jezus' bestaan, prediking en kruisiging.",
-    "Knevel voert Rosalind Picard op als voorbeeld van een atheïst die door bronnenstudie overtuigd raakte.",
-    "Van Rossem wijst ooggetuigen af als onbetrouwbaar en acht een opstanding biologisch onmogelijk.",
-    "Knevel stelt dat de verschillen tussen de evangeliën juist tegen verzinsel pleiten.",
-    "Het gesprek raakt aan Dostojevski's Grote Inquisiteur en aan wetenschap versus geloof."
+    "Knevel en Van Rossem zijn het eens over vrijwel alle feiten rond het leven van Jezus, behalve over de opstanding.",
+    "Van Rossem noemt zichzelf atheïst en ziet religie als een menselijke behoefte aan betekenis en zekerheid.",
+    "De mens wordt door Van Rossem gezien als een gelovig zoogdier dat, als het geloof verdwijnt, nieuwe ideologieën of pseudo-religies omarmt.",
+    "Knevel definieert het christelijk geloof als een openbaring die van boven komt, terwijl Van Rossem het van onderop verklaart.",
+    "Knevel verwijst naar Rosalind Picard en andere wetenschappers die na historisch onderzoek tot geloof kwamen.",
+    "Van Rossem beschouwt Jezus als een van de vele rondtrekkende predikers in een tijd vol messianistische verwachtingen.",
+    "Discussie over de bronnen: Knevel wijst op vroege datering van de evangeliën en het Johannesfragment; Van Rossem wijst op de onbetrouwbaarheid van ooggetuigen na vele jaren.",
+    "Het gesprek eindigt met een terugblik op wetenschap, de relativiteitstheorie en de wens om historische periodes te bezoeken."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en terugblik",
-      "summary": "Kennismaking en de aanleiding: zeven jaar geleden onderzochten ze samen christelijk Nederland."
+      "title": "Onenigheid over de opstanding",
+      "summary": "Knevel en Van Rossem constateren dat ze het over bijna alle aspecten van het leven van Jezus eens zijn, behalve de opstanding."
     },
     {
-      "start_seconds": 216,
-      "title": "Atheïst of agnost",
-      "summary": "Van Rossem legt uit dat hij gewoon niets gelooft maar religie maatschappelijk belangrijk vindt."
+      "start_seconds": 31,
+      "title": "Kennismaking en aanleiding",
+      "summary": "Boogerd introduceert de gasten en de aanleiding: het onderzoek naar christelijk Nederland uit 2012 voor het blad Maarten."
     },
     {
-      "start_seconds": 394,
-      "title": "Secularisatie en de zoekende mens",
-      "summary": "Cijfers over religiositeit, de mens als gelovig zoogdier en vervangende ideologieën."
+      "start_seconds": 414,
+      "title": "Christelijk Nederland en secularisatie",
+      "summary": "Knevel en Van Rossem bespreken het CBS-cijfer dat meer mensen zich niet religieus noemen, en de groeiende geloofsbetrokkenheid onder jongeren."
     },
     {
-      "start_seconds": 900,
-      "title": "Openbaring versus betekenissysteem",
-      "summary": "Knevel pleit voor geloof als openbaring van buiten; Van Rossem ziet het als menselijke behoefte."
+      "start_seconds": 596,
+      "title": "Religie als betekenisgeving",
+      "summary": "Van Rossem stelt dat de mens een gelovig zoogdier is dat altijd betekenis zoekt; dit leidt tot brandnetelsoep, ideologieën en het communisme."
     },
     {
-      "start_seconds": 1090,
-      "title": "De historische Jezus",
-      "summary": "Eensgezindheid over Jezus' leven en kruisdood, inclusief Golgotha en het busstation."
+      "start_seconds": 1012,
+      "title": "Openbaring versus behoefte",
+      "summary": "Knevel verdedigt het christelijk geloof als een van buiten komende openbaring, terwijl Van Rossem religie van onderop verklaart."
+    },
+    {
+      "start_seconds": 1225,
+      "title": "Jezus historisch: predikers en Golgotha",
+      "summary": "Beide gasten bespreken Jezus als historische prediker, de plek van Golgotha en het paradox van het kruis als symbool van liefde."
     },
     {
       "start_seconds": 1380,
-      "title": "De opstanding en de evangeliën",
-      "summary": "Debat over ooggetuigen, verschillen tussen evangeliën en de onmogelijkheid van een opstanding."
+      "title": "De opstanding en de ooggetuigen",
+      "summary": "Knevel verwijst naar Rosalind Picard en de vroege datering van de evangeliën, terwijl Van Rossem de betrouwbaarheid van ooggetuigen en de onwaarschijnlijkheid van de opstanding betwist."
     },
     {
-      "start_seconds": 1815,
-      "title": "De Grote Inquisiteur en wetenschap",
-      "summary": "Dostojevski's verhaal en discussie of wetenschap en geloof samengaan."
-    },
-    {
-      "start_seconds": 2196,
-      "title": "Vroege verspreiding van het christendom",
-      "summary": "Knevel wijst op vroege handschriften; Van Rossem op de concurrerende mogelijkheden."
+      "start_seconds": 2613,
+      "title": "Tijdreizen en wetenschap",
+      "summary": "In een luchtiger slot kiezen de gasten historische periodes om te bezoeken; Van Rossem kiest de 19e eeuw en Knevel het tijdperk 1880-1914."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 160,
-      "speaker": "Maarten van Rossem",
-      "text": "Zelf zie ik me wel een klein beetje als een seculiere dominee.",
-      "note": "Zelfspot van de atheïstische historicus."
-    },
-    {
-      "start_seconds": 1007,
+      "start_seconds": 566,
       "speaker": "Maarten van Rossem",
       "text": "De mens is een gelovig zoogdier.",
-      "note": "Kernidee over de menselijke zoektocht naar betekenis."
+      "note": "Kernachtige samenvatting van Van Rossems visie dat de mens altijd naar betekenis zoekt, ook zonder God."
     },
     {
-      "start_seconds": 1480,
+      "start_seconds": 1012,
       "speaker": "Andries Knevel",
-      "text": "Op het moment dat je God bewijst, bestaat hij niet.",
-      "note": "Verwijzing naar Augustinus over de grenzen van bewijs."
+      "text": "God heeft zich geopenbaard in Jezus; christenen geloven dat.",
+      "note": "Knevel plaatst het christelijk geloof als een van buitenaf gekomen openbaring tegenover Van Rossems visie van onderop."
     },
     {
-      "start_seconds": 1636,
+      "start_seconds": 1137,
       "speaker": "Maarten van Rossem",
-      "text": "Er is niets zo onbetrouwbaar als ooggetuigen.",
-      "note": "Scherp tegenargument tegen Knevels historische redenering."
+      "text": "Ik geloof gewoon dat het een prediker was.",
+      "note": "Van Rossem ontneemt Jezus zijn goddelijke status en plaatst hem naast vele andere predikers van die tijd."
     },
     {
       "start_seconds": 1722,
       "speaker": "Andries Knevel",
-      "text": "Wie gaat er nou verzinnen dat je gelooft in een lijk wat weer opgestaan is?",
-      "note": "Knevels kernargument voor de historiciteit."
+      "text": "Wie gaat er nou verzinnen dat je gelooft in een lijk dat weer opgestaan is? Belachelijk.",
+      "note": "Knevel gebruikt de bizarheid van de opstanding als argument voor de authenticiteit van het verhaal."
     },
     {
       "start_seconds": 2355,
       "speaker": "Maarten van Rossem",
-      "text": "Mensen zijn in staat werkelijk alles te geloven wat ze graag willen geloven.",
-      "note": "Van Rossems kijk op het geloofsmoment."
+      "text": "Mensen zijn in staat om werkelijk alles te geloven wat ze verteld wordt, mits ze dat graag willen geloven.",
+      "note": "Van Rossem verklaart geloof vanuit verlangen en daarmee de kern van zijn atheïstische visie."
     }
   ],
   "keywords": [
-    "opstanding",
     "Jezus",
+    "opstanding",
+    "historische betrouwbaarheid",
     "evangeliën",
-    "ooggetuigen",
     "openbaring",
     "atheïsme",
-    "secularisatie",
-    "Rosalind Picard",
-    "Grote Inquisiteur",
     "betekenisgeving",
-    "orthodoxe kerk"
+    "secularisatie",
+    "ooggetuigen",
+    "geloof en wetenschap",
+    "Golgotha"
   ],
-  "quotes": [],
+  "quotes": [
+    "Een boeiend en vermakelijk gesprek met twee mastodonten: presentator en theoloog Andries Knevel en historicus en atheïst Maarten van Rossem.",
+    "Ook beargumenteert Knevel waarom Van Rossem juist als historicus in de opstanding van Jezus zou moeten geloven."
+  ],
   "similar": [
     {
-      "n": 305,
-      "reason": "Maarten van Rossem opnieuw te gast over geloof, geschiedenis en zingeving"
-    },
-    {
       "n": 280,
-      "reason": "Betrouwbaarheid van de evangeliën en de historische Jezus onderzocht"
+      "reason": "Historische betrouwbaarheid van bronnen over Jezus, net als de opstandingsdiscussie"
     },
     {
-      "n": 187,
-      "reason": "Historische Jezus en wat hem uniek maakt, met bronnenonderzoek"
+      "n": 305,
+      "reason": "Maarten van Rossem over geloof, kerk en grote verhalen"
+    },
+    {
+      "n": 329,
+      "reason": "Maarten van Rossem over een radicale Jezus en religie in de politiek"
     },
     {
       "n": 18,
       "reason": "Feiten en fabels over de historische Jezus en bronnen"
     },
     {
-      "n": 64,
-      "reason": "Andries Knevel over religie, kerk en secularisatie in Nederland"
+      "n": 316,
+      "reason": "Wetenschappers over God, met Heino Falcke die ook in #3 wordt besproken"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

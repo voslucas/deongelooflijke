@@ -1,17 +1,22 @@
 {
   "episode": 28,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 92751,
+    "segments": 758,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30288,
-    "output_tokens": 2605,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 47019,
+    "output_tokens": 7834,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
-    "Filosofie & ethiek",
+    "God & geloof",
     "Kerk & secularisatie",
+    "Geschiedenis",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -20,162 +25,136 @@
   "people": [
     {
       "name": "Antonio Guterres",
-      "note": "VN-chef die waarschuwde voor een tsunami aan xenofobie",
+      "note": "VN-secretaris-generaal die waarschuwde voor een tsunami aan xenofobie na corona",
       "start_seconds": 334,
-      "wiki_checked": true,
-      "wiki_pageid": 270778,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ant%C3%B3nio_Guterres",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Antonio_Guterres_2025_headshot.jpg/250px-Antonio_Guterres_2025_headshot.jpg"
+      "mention_count": 1
     },
     {
       "name": "Bill Gates",
-      "note": "onderwerp van samenzweringstheorieën rond corona",
-      "start_seconds": 314,
-      "wiki_checked": true,
-      "wiki_pageid": 23889,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Gates",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg/250px-Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "minister-president, volgens Grunberg te terughoudend met morele posities",
-      "start_seconds": 765,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "bondskanselier, nam volgens Grunberg beter een morele positie in",
-      "start_seconds": 765,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Geert Wilders",
-      "note": "politicus, 'minder Marokkanen'-uitspraak",
-      "start_seconds": 1098,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Abel Herzberg",
-      "note": "Joods schrijver die reflecteerde op verleiding en daderschap",
-      "start_seconds": 1405,
-      "wiki_checked": true,
-      "wiki_pageid": 208998,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abel_Herzberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Abel_J._Herzberg.jpg/250px-Abel_J._Herzberg.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "auteur van 'De meeste mensen deugen'",
-      "start_seconds": 1443,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
-    },
-    {
-      "name": "Fjodor Dostojevski",
-      "note": "schrijver van De gebroeders Karamazov",
-      "start_seconds": 1832,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
-    },
-    {
-      "name": "Franz Kafka",
-      "note": "schrijver, citaat over hoop 'maar niet voor ons'",
-      "start_seconds": 1950,
-      "wiki_checked": true,
-      "wiki_pageid": 6355,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franz_Kafka",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kafka1906.jpg/250px-Kafka1906.jpg"
-    },
-    {
-      "name": "Søren Kierkegaard",
-      "note": "filosoof, onderwerp van Grunbergs volgende lezing, ironie",
-      "start_seconds": 2307,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
-    },
-    {
-      "name": "Socrates",
-      "note": "filosoof, 'ik weet dat ik niets weet'",
-      "start_seconds": 2337,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
-    },
-    {
-      "name": "Primo Levi",
-      "note": "Joods schrijver en Auschwitz-overlevende, geciteerd in de lezing",
-      "start_seconds": 2431,
-      "wiki_checked": true,
-      "wiki_pageid": 131246,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Primo_Levi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Primo_Levi.jpg/250px-Primo_Levi.jpg"
+      "note": "Genoemd in corona-samenzweringstheorieën",
+      "start_seconds": 319,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "beëindigde officieel de Afghanistan-oorlog",
+      "note": "Amerikaans president; beëindigde volgens Grunberg de Afghanistan-oorlog",
       "start_seconds": 281,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlands minister-president; volgens Grunberg te terughoudend met morele posities",
+      "start_seconds": 765,
+      "mention_count": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duits bondskanselier; volgens Grunberg beter in het innemen van morele posities",
+      "start_seconds": 765,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider; zijn retoriek over Marokkanen besproken",
+      "start_seconds": 1085,
+      "mention_count": 2
+    },
+    {
+      "name": "Mussert",
+      "note": "Nederlandse NSB-leider; genoemd in de discussie over herdenken van foute groepen",
+      "start_seconds": 840,
+      "mention_count": 1
+    },
+    {
+      "name": "Abel Herzberg",
+      "note": "Joods schrijver en overlevende; zei na de oorlog dat hij nooit in verleiding kon komen",
+      "start_seconds": 1396,
+      "mention_count": 1
+    },
+    {
+      "name": "Primo Levi",
+      "note": "Joods schrijver en Auschwitz-overlevende; citaat over beoordelen van mensen naar hun groep",
+      "start_seconds": 2425,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Auteur van 'De meeste mensen deugen'",
+      "start_seconds": 1443,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Satiricus en presentator; geldt als atheïst met bekeringsdrift",
+      "start_seconds": 2768,
+      "mention_count": 2
+    },
+    {
+      "name": "Franz Kafka",
+      "note": "Schrijver; citaat over hoop die er is 'maar niet voor ons'",
+      "start_seconds": 1947,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "Filosoof; 'ik weet dat ik niets weet' als basis van ironie",
+      "start_seconds": 2342,
+      "mention_count": 1
+    },
+    {
+      "name": "Søren Kierkegaard",
+      "note": "Filosoof; onderwerp van Grunbergs lezing de volgende dag",
+      "start_seconds": 2296,
+      "mention_count": 1
     },
     {
       "name": "Albert Camus",
-      "note": "absurdist die Grunberg bevrijdend vond",
+      "note": "Schrijver en denker van het absurdisme",
       "start_seconds": 2400,
-      "wiki_checked": true,
-      "wiki_pageid": 3570,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Camus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/250px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Eugène Ionesco",
+      "note": "Toneelschrijver van het absurdisme",
+      "start_seconds": 2400,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het Nieuwe Testament; besproken in relatie tot zondaars en vergeving",
+      "start_seconds": 1546,
+      "mention_count": 4
+    },
+    {
+      "name": "Anderson",
+      "note": "Amerikaanse pastoor in Arizona met antisemitische en homofobe uitspraken",
+      "start_seconds": 2833,
+      "mention_count": 3
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; genoemd in verband met de Hitlerputsch in München",
+      "start_seconds": 2574,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De gebroeders Karamazov",
       "author": "Fjodor Dostojevski",
-      "note": "de scène van de Grote Inquisiteur",
-      "start_seconds": 1835,
-      "volume_id": "j003DwAAQBAJ",
-      "canonical_title": "De gebroeders Karamazov",
-      "canonical_author": "Fjodor Dostojevski",
-      "isbn13": "9789020415483",
-      "isbn10": "9020415484",
-      "thumbnail": "http://books.google.com/books/content?id=j003DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Het hoofdstuk van de Grote Inquisiteur wordt besproken als literair hoogtepunt",
+      "start_seconds": 1818,
+      "volume_id": "oQarPAAACAAJ",
+      "canonical_title": "Verzamelde werken / 9 De broers Karamazov / druk 1",
+      "canonical_author": "F.M. Dostojevski",
+      "isbn13": "9789028240407",
+      "isbn10": "9028240403",
+      "thumbnail": "http://books.google.com/books/content?id=oQarPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "De meeste mensen deugen",
       "author": "Rutger Bregman",
-      "note": "Grunberg is kritisch over de titel",
+      "note": "Boek over het mensbeeld; Grunberg bekritiseert de titel",
       "start_seconds": 1443,
       "volume_id": "UbbpxgEACAAJ",
       "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
@@ -183,138 +162,184 @@
       "isbn13": "9789082942187",
       "isbn10": "9082942186",
       "thumbnail": ""
+    },
+    {
+      "title": "Tirza",
+      "author": "Arnon Grunberg",
+      "note": "Stefan Paas noemt het thema van uiteindelijke mildheid en troost",
+      "start_seconds": 1976,
+      "volume_id": "_90AnAEACAAJ",
+      "canonical_title": "Tirza / druk 41",
+      "canonical_author": "Arnon Yasha Yves Grunberg",
+      "isbn13": "9789038898346",
+      "isbn10": "9038898347",
+      "thumbnail": ""
+    },
+    {
+      "title": "Blauwe Maandagen",
+      "author": "Arnon Grunberg",
+      "note": "Stefan Paas noemt het thema van uiteindelijke mildheid en troost",
+      "start_seconds": 1976,
+      "volume_id": "0ouIAAAACAAJ",
+      "canonical_title": "Blauwe maandagen",
+      "canonical_author": "Arnon Yasha Yves Grunberg",
+      "isbn13": "9789055420643",
+      "isbn10": "9055420646",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Exodus 32",
+      "note": "Het gouden kalf dat weer wordt aanbeden; voorbeeld van Gods boosheid op zijn volk",
+      "start_seconds": 1638
+    },
+    {
+      "ref": "Romeinen 12:19",
+      "note": "'De wraak is van mij', door Stefan Paas aangehaald over wraak die bij God wordt gelegd",
+      "start_seconds": 1653
+    },
+    {
+      "ref": "Genesis 4",
+      "note": "Verhaal van Kaïn en Abel, door Grunberg genoemd als basis van de cultuur",
+      "start_seconds": 3460
+    }
+  ],
   "places": [
     "New York",
-    "Manhattan",
-    "Times Square",
     "Amsterdam",
+    "Arizona",
+    "München",
+    "Nürnberg",
+    "Sevilla",
+    "Delft",
+    "Den Bosch",
+    "Emmen",
     "Auschwitz",
     "Sobibor",
-    "Afghanistan",
-    "Duitsland",
-    "Sevilla",
-    "Nederland"
+    "Weimar"
   ],
-  "summary_tldr": "Arnon Grunberg spreekt over zijn 4 mei-lezing, de waarschuwing tegen het aanwijzen van zondebokken en de rol van politici in een geseculariseerde samenleving. Hij vertelt over de gebrokenheid van de mens als uitgangspunt, over troost in acceptatie en ironie, en over zijn afscheid van religie op zijn 15e.",
+  "summary_tldr": "Arnon Grunberg en Stefan Paas bespreken de gebrokenheid van de mens, de rol van secularisatie en de vraag of de afname van religie echt een bevrijding is geweest. Grunberg verbindt dit met de opkomst van vijandbeelden, antisemitisme en politieke retoriek, en met de 4 mei-herdenking. Het gesprek eindigt met zijn pleidooi om de Bijbel en religieuze verhalen als basiskennis te zien.",
   "summary_points": [
-    "Grunberg ziet 9/11 als kantelpunt en vraagt zich af of corona dat ook wordt.",
-    "Zijn 4 mei-lezing was een waarschuwing: het aanwijzen van bevolkingsgroepen als zondebok tast het bestaansrecht van de staat aan.",
-    "Secularisatie heeft autoriteiten weggenomen; politici hebben daardoor extra verantwoordelijkheid voor hun woordkeus.",
-    "De overheid wordt een soort vervanger van God, waardoor burgers boos worden als zij teleurstelt.",
-    "Pseudoreligies zoals samenzweringstheorieën en vijandbeelden hebben dogmatische trekken.",
-    "Gebrokenheid van de mens is voor Grunberg een uitgangspunt; verlossing zit in acceptatie van het tragische.",
-    "De Grote Inquisiteur en Kafka illustreren zijn kijk op vrijheid, hoop en troost.",
-    "Het goede begint met niet zelf bepalen wat goed is en met dingen laten passeren; mededogen is politiek beladen geraakt.",
-    "Ironie en literatuur gaven hem troost en een weg uit eenzaamheid.",
-    "Hij verdedigt individualisme maar erkent de behoefte aan gemeenschap zonder vijandbeelden."
+    "Corona en de lockdown: Grunberg schreef over New York en merkt dat de crisis nieuwe vijandbeelden en samenzweringstheorieën voedt.",
+    "9/11 als kantelpunt: volgens Grunberg begon na 9/11 een normalisering van negatief spreken over bevolkingsgroepen.",
+    "De 4 mei-lezing: Grunberg waarschuwt dat de staat ook een potentieel kwaad is en dat zondebokdenken moet worden voorkomen.",
+    "Secularisatie en autoriteit: met het verdwijnen van de kerk zijn er minder instanties die morele richting geven, en politici krijgen die rol.",
+    "Politisering van herdenkingen: de 4 mei-viering wordt in partijpolitieke kaders geplaatst, wat volgens Paas een vorm van 'ultieme secularisatie' is.",
+    "Gebrokenheid van de mens: Grunberg ziet een fundamentele tragiek in de mens en wijst het optimistische mensbeeld van Bregman af.",
+    "Troost in acceptatie: volgens Grunberg zit verlossing in het aanvaarden van het tragische, met Kafka en de Grote Inquisiteur als referentie.",
+    "Ironie en absurdisme: Grunberg omschrijft ironie als besef van drijfzand en beschouwt literatuur en absurdisme als bevrijdend.",
+    "Individualisme versus gemeenschap: Grunberg verdedigt individualisme, maar erkent dat de behoefte aan gemeenschap onderschat is.",
+    "Religie als cultureel fundament: Grunberg pleit ervoor dat de Bijbel en mythes basiskennis worden om cultuur te begrijpen."
   ],
   "chapters": [
     {
       "start_seconds": 37,
-      "title": "Schrijven in tijden van corona",
-      "summary": "Grunberg vertelt over zijn werk tijdens de crisis, lege straten in New York en 9/11 als kantelpunt."
+      "title": "Corona, inspiratie en schrijverschap",
+      "summary": "Grunberg vertelt hoe de coronacrisis zijn werk beïnvloedt en vergelijkt het met 9/11 als kantelpunt."
     },
     {
-      "start_seconds": 454,
-      "title": "De 4 mei-lezing",
-      "summary": "Gesprek over de waarschuwing in de lezing, zondebokken en de rol van politici bij normalisering van haat."
+      "start_seconds": 444,
+      "title": "De 4 mei-lezing en het waarschuwende verhaal",
+      "summary": "Het fragment over verantwoordelijkheid van politici en het 'Auschwitz begon met verkiezingen' wordt besproken."
     },
     {
-      "start_seconds": 767,
-      "title": "Secularisatie, autoriteit en civil religion",
-      "summary": "Over autoriteit zonder kerk, politisering van 4 mei en de overheid als God."
+      "start_seconds": 651,
+      "title": "Secularisatie, autoriteit en antisemitisme",
+      "summary": "Grunberg verklaart de terugkeer van antisemitisme uit het verdwijnen van het taboe en de verloren autoriteit van kerk en staat."
+    },
+    {
+      "start_seconds": 1031,
+      "title": "De overheid als god en de politieke retoriek",
+      "summary": "Grunberg ziet de overheid als plaatsvervangende God en bekritiseert Wilders en de politieke retoriek over Marokkanen."
     },
     {
       "start_seconds": 1148,
-      "title": "Huiveringwekkende details en culturele wond",
-      "summary": "Waarom Grunberg gruwelijke details noemde en hoe de Holocaust Europa tekent."
+      "title": "Gruwelijkheid van de Holocaust en culturele schuld",
+      "summary": "Grunberg legt uit waarom concrete details belangrijk zijn en waarom Nederland de eigen rol als meeloper moet erkennen."
     },
     {
       "start_seconds": 1443,
-      "title": "Gebrokenheid, deugen en het christendom",
-      "summary": "Kritiek op 'de meeste mensen deugen', wraak, mededogen en pseudoreligies."
+      "title": "Gebrokenheid, troost en de Grote Inquisiteur",
+      "summary": "Het gesprek gaat over het mensbeeld van Bregman, de tragiek van de mens en de verlossing in acceptatie."
     },
     {
-      "start_seconds": 1770,
-      "title": "Verlossing, troost en de Grote Inquisiteur",
-      "summary": "Acceptatie van het tragische, Dostojevski, Kafka en mildheid in zijn boeken."
+      "start_seconds": 2244,
+      "title": "Ironie, individualisme en religieus verlangen",
+      "summary": "Grunberg beschrijft zijn ironische gemeenschap, zijn afscheid van religie op 15-jarige leeftijd en kritiek op agressief atheïsme."
     },
     {
-      "start_seconds": 2176,
-      "title": "Religie afzweren, individualisme en ironie",
-      "summary": "Zijn jeugd, individualisme versus gemeenschap, Kierkegaard, ironie en literatuur als redding."
+      "start_seconds": 3423,
+      "title": "De Bijbel lezen en literaire basiskennis",
+      "summary": "Grunberg adviseert de Bijbel en Griekse mythen te lezen, en ziet onbekendheid ermee als een vorm van armoede."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 467,
+      "start_seconds": 2155,
       "speaker": "Arnon Grunberg",
-      "text": "De staat is noodzakelijk, maar tevens een potentieel kwaad dat bevolkingsgroepen kan vermorzelen.",
-      "note": "Kern van de 4 mei-lezing."
+      "text": "Mededogen is iets links geworden.",
+      "note": "Een korte, scherpe observatie over hoe een christelijke waarde politiek is getrokken."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 1332,
       "speaker": "Arnon Grunberg",
-      "text": "De overheid wordt een soort God, en de burger wordt verleid tot een boze Job.",
-      "note": "Originele koppeling van secularisatie en politiek."
+      "text": "Het is een culturele wond.",
+      "note": "Grunberg typeert de Holocaust als een wond die het Europese geloof in vooruitgang heeft aangetast."
     },
     {
-      "start_seconds": 1499,
+      "start_seconds": 1627,
       "speaker": "Arnon Grunberg",
-      "text": "Ik kom zelden mensen tegen die zeggen: de meeste mensen deugen, behalve ik.",
-      "note": "Scherpe kritiek op Bregmans stelling."
+      "text": "Voor mij zijn dat moderne heksenverbrandingen.",
+      "note": "Een scherpe vergelijking van het publiek vernederen van pedofielen met heksenjachten."
     },
     {
-      "start_seconds": 1950,
+      "start_seconds": 1439,
       "speaker": "Arnon Grunberg",
-      "text": "Kafka: er is hoop, heel veel hoop, maar niet voor ons.",
-      "note": "Troost door acceptatie van gebrokenheid."
-    },
-    {
-      "start_seconds": 2387,
-      "speaker": "Arnon Grunberg",
-      "text": "Literatuur heeft mij gered; zo vond ik een weg uit eenzaamheid.",
-      "note": "Persoonlijk moment over lezen en absurdisme."
+      "text": "Het is te makkelijk om jezelf als slachtoffer te zien.",
+      "note": "Grunberg vraagt lezers zich in te beelden dat zij ook daders of meelopers zouden kunnen zijn."
     }
   ],
   "keywords": [
-    "Arnon Grunberg",
-    "4 mei-lezing",
-    "gebrokenheid",
     "secularisatie",
-    "zondebok",
+    "gebrokenheid",
+    "Holocaust",
     "antisemitisme",
-    "Grote Inquisiteur",
+    "vijandbeeld",
+    "Bijbel",
     "ironie",
-    "mededogen",
-    "Kafka",
-    "Kierkegaard",
-    "pseudoreligie"
+    "individualisme",
+    "troost",
+    "Grote Inquisiteur",
+    "overheid als god",
+    "4 mei-lezing"
   ],
-  "quotes": [],
+  "quotes": [
+    "Grunberg zwoer alle religie af toen hij 15 jaar was, nu benadrukt hij het belang van de Bijbel.",
+    "de goden van deze tijd, de gebrokenheid van de mens en de relevantie van religie."
+  ],
   "similar": [
     {
       "n": 148,
-      "reason": "Opnieuw Arnon Grunberg over geloof, secularisatie en het failliet van het humanisme."
+      "reason": "Arnon Grunberg over humanisme, secularisatie en de asielcrisis; zelfde gast en thema's"
     },
     {
       "n": 65,
-      "reason": "Arnon Grunberg met Stefan Paas over heiligheid, geloof en literatuur."
+      "reason": "Arnon Grunberg opnieuw te gast, over zoektocht naar heiligheid en geloof"
     },
     {
-      "n": 288,
-      "reason": "Arnon Grunberg over geloof, offers en de sprong, met literaire en existentiële thema's."
+      "n": 138,
+      "reason": "Kerk en Tweede Wereldoorlog, antisemitisme en deportaties rond 4 en 5 mei"
     },
     {
-      "n": 53,
-      "reason": "Oorlog, verzet en menselijke gebrokenheid, verwant aan de 4 mei-lezing en Rutger Bregman."
+      "n": 182,
+      "reason": "Anti-religieuze millennials en antisemitisme, met Arnon-achtige kritiek op seculiere cultuur"
     },
     {
-      "n": 221,
-      "reason": "Bas Heijne over Camus, filosofie en politiek in een geseculariseerde tijd."
+      "n": 245,
+      "reason": "Nederlandse oorlogsgeschiedenis rond 4 mei, herdenking en religieuze geschiedenis"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

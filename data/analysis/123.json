@@ -1,190 +1,271 @@
 {
   "episode": 123,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 106429,
+    "segments": 1214,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31664,
-    "output_tokens": 2226,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55204,
+    "output_tokens": 3320,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
+    "Geloof & God",
     "Samenleving & migratie",
-    "God & geloof",
-    "Politiek"
+    "Politiek",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Natacha Harlequin"
   ],
   "people": [
     {
+      "name": "Natacha Harlequin",
+      "note": "strafrechtadvocaat, gast in de aflevering",
+      "start_seconds": 2,
+      "mention_count": 3
+    },
+    {
       "name": "Volkert van der Graaf",
-      "note": "veroordeelde moordenaar van Pim Fortuyn, eerder cliënt van Harlequin",
+      "note": "moordenaar van Pim Fortuyn, zaak waarin Harlequin betrokken was",
       "start_seconds": 109,
-      "wiki_checked": true,
-      "wiki_pageid": 10469,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volkert_van_der_Graaf"
+      "mention_count": 1
     },
     {
-      "name": "Rutger Bregman",
-      "note": "historicus en auteur van 'De meeste mensen deugen', tweemaal gast in de podcast",
-      "start_seconds": 1110,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
-    },
-    {
-      "name": "Ybo Buruma",
-      "note": "hoogleraar strafrecht, signaleerde omslag in het strafrecht naar veiligheid",
-      "start_seconds": 1417,
-      "wiki_checked": true,
-      "wiki_pageid": 776128,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ybo_Buruma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/KlaasdeVries1980.jpg/250px-KlaasdeVries1980.jpg"
+      "name": "Ibo Burema",
+      "note": "hoogleraar strafrecht die schreef over de omslag in het strafrecht",
+      "start_seconds": 1420,
+      "mention_count": 2
     },
     {
       "name": "Geert Wilders",
-      "note": "politicus die pleitte voor hardere straffen maar de rechters bekritiseerde toen hij zelf terechtstond",
-      "start_seconds": 2073,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "politicus die pleitte voor hardere straffen en later zelf voor de rechter stond",
+      "start_seconds": 2040,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader die De Stad van God schreef en kritiek uitte op het Romeinse strafrecht",
+      "start_seconds": 2640,
+      "mention_count": 3
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus die eerder in de podcast te gast was en stelt dat de meeste mensen deugen",
+      "start_seconds": 1110,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Boutellier",
+      "note": "socioloog die over secularisatie en strenger straffen schreef",
+      "start_seconds": 2530,
+      "mention_count": 2
+    },
+    {
+      "name": "Herman Franke",
+      "note": "criminoloog die over strafrecht en religie schreef",
+      "start_seconds": 2920,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk Beunders",
+      "note": "historicus en emeritus hoogleraar, citaat over religie en strafrechtbeleid",
+      "start_seconds": 2950,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Derksen",
+      "note": "tv-presentator, eerder gesprekspartner van Harlequin over racisme",
+      "start_seconds": 4029,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "figuur uit de Bijbel die de vrouw die overspel pleegde niet veroordeelt",
+      "start_seconds": 2220,
+      "mention_count": 3
+    },
+    {
+      "name": "Mo",
+      "note": "minderjarige jongen die naar zijn ID werd gevraagd, voorbeeld van ongelijkheid",
+      "start_seconds": 2170,
+      "mention_count": 2
+    },
+    {
+      "name": "Hans Bouteiller",
+      "note": "socioloog, eerder te gast in de podcast, citaat van zijn vader",
+      "start_seconds": 2510,
+      "mention_count": 1
+    },
+    {
+      "name": "Harlequins moeder",
+      "note": "voorganger in de kerk, bron van haar uitspraak dat je niets meeneemt als je doodgaat",
+      "start_seconds": 1550,
+      "mention_count": 2
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "De Stad van God",
+      "author": "Augustinus",
+      "note": "boek waarin Augustinus kritiek uitte op het Romeinse Rijk",
+      "start_seconds": 2600,
+      "volume_id": "kzknGQAACAAJ",
+      "canonical_title": "De stad van God",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026319952",
+      "isbn10": "9026319959",
+      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Johannes 8",
+      "note": "verhaal van de vrouw gevangen in overspel en de eerste steen",
+      "start_seconds": 2740
+    },
+    {
+      "ref": "Mattheus 13",
+      "note": "gelijkenis van het onkruid tussen het graan",
+      "start_seconds": 2830
+    }
+  ],
   "places": [
-    "Schilderswijk",
     "Den Haag",
+    "Schilderswijk",
+    "Utrecht",
+    "Mallorca",
     "Thailand"
   ],
-  "summary_tldr": "Strafrechtadvocaat Natacha Harlequin vertelt hoe haar werk met zware criminelen haar mensbeeld heeft gevormd: de mens is zondig, ze oordeelt niet en steekt voor niemand haar hand in het vuur. Samen met Stefan Paas bespreekt ze de verharding van de samenleving, de roep om vergelding en de rol van slachtoffers, solidariteit in het kwaad en haar geloof.",
+  "summary_tldr": "Strafrechtadvocaat Natacha Harlequin vertelt over haar werk met zware criminelen en hoe dat haar mensbeeld vormt: ze ziet ieder mens als in staat tot kwaad, maar ook tot verandering. Stefan Paas en David Boogerd zien in de toenemende roep om vergelding een samenhang met secularisatie en een verschuivend mensbeeld. Het gesprek eindigt bij de betekenis van vergeving, een tweede kans en geloof als bron van rust.",
   "summary_points": [
-    "Harlequin oordeelt niet over cliënten: in de toga is ze professional en haar mening doet er niet toe.",
-    "De zaak van een jong echtpaar dat ten onrechte als verdachte werd gezien, raakte haar het meest.",
-    "Ze steekt voor niemand haar hand in het vuur, ook niet voor zichzelf of haar eigen kind.",
-    "Volgens haar is de inborst van de mens slecht, wat ze als bevrijdend ervaart.",
-    "Mensen vinden de samenleving slecht en zichzelf goed, tot het hun eigen kind treft.",
-    "Het strafrecht verschuift van herstel naar bescherming van 'goede burgers' tegen 'rotte appels'.",
-    "Harlequin pleit voor meer ruimte voor ontmoeting tussen dader en slachtoffer, los van de zitting.",
-    "Ongelijkheid speelt een rol: afkomst en wijk bepalen hoe je wordt bejegend.",
-    "Jongeren en mensen met een beperking worden door criminele organisaties gebruikt."
+    "Harlequin benadrukt dat iedereen in het rechtssysteem verdachte kan worden, en dat ze niet oordeelt over cliënten.",
+    "Ze onderscheidt de functie van de advocaat (toga, professionaliteit) van persoonlijk oordeel.",
+    "Paas en Harlequin zien een verschuiving van herstel en vergeving naar vergelding en zwaardere straffen.",
+    "De roep om strengere straffen gaat vaak over 'de ander', terwijl mensen zichzelf als uitzondering zien.",
+    "Augustinus en de Bijbelverhalen over Jezus en de overspelige vrouw en het onkruid illustreren een christelijke kijk op recht en vergeving.",
+    "Beunders en Boutellier koppelen het verdwijnen van religieuze kaders aan minder ruimte voor berouw en vergeving.",
+    "Harlequin noemt het een uitdaging dat de maatschappij individualistischer is en minder gemeenschap kent.",
+    "Haar geloof geeft rust en het besef gedragen te worden, en vormt haar opvatting dat niemand boven een ander staat.",
+    "Het gesprek sluit af met de gedachte dat ook de luisteraar zichzelf als potentiële dader moet zien."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie",
-      "summary": "David introduceert Natacha Harlequin en het thema mensbeeld en strafrecht."
+      "title": "Introductie en bijzondere zaken",
+      "summary": "Harlequin vertelt over de zaak van het jonge echtpaar dat onterecht verdachte werd en wat die haar leerde."
     },
     {
-      "start_seconds": 123,
-      "title": "De zaak die haar het meest raakte",
-      "summary": "Een jong echtpaar wordt na letsel bij hun baby verdacht, terwijl de oorzaak medisch blijkt. Het laat zien hoe iedereen in het systeem kan raken."
+      "start_seconds": 360,
+      "title": "Keuzes, verdachten en het mensbeeld",
+      "summary": "Gesprek over of criminelen een keuze maken en waarom Harlequin niet oordeelt over cliënten."
     },
     {
-      "start_seconds": 296,
-      "title": "Keuzes, ongelijkheid en niet oordelen",
-      "summary": "Over de Schilderswijk, drillrapgroepen en berekenende criminelen. Harlequin legt uit waarom ze in functie niet oordeelt."
+      "start_seconds": 1080,
+      "title": "De mens als slecht of goed",
+      "summary": "Harlequin stelt dat de mens zondig is, terwijl Paas wijst op de neiging om het kwaad bij anderen te leggen."
     },
     {
-      "start_seconds": 463,
-      "title": "Stoornissen en het rechtssysteem",
-      "summary": "Over stelen en pedofilie als stoornis en het rechtssysteem als buffer tegen wraak."
+      "start_seconds": 1560,
+      "title": "Slachtoffers, daders en spreekrecht",
+      "summary": "Bespreking van de positie van slachtoffers en de ruimte voor verzoening in de zittingszaal."
     },
     {
-      "start_seconds": 765,
-      "title": "Waarom strafrecht en een mensbeeld",
-      "summary": "Haar motivatie en haar moeder, die voorganger was. Ook haar waakzaamheid in het dagelijks leven en haar visie dat de mens slecht is."
+      "start_seconds": 2040,
+      "title": "Ongelijkheid en strengere straffen",
+      "summary": "Voorbeelden van ongelijkheid in het rechtssysteem en de trend naar zwaardere straffen."
     },
     {
-      "start_seconds": 1195,
-      "title": "Wij tegen zij: potentiële daders en slachtoffers",
-      "summary": "Mensen willen strenger straffen voor anderen. Buruma's omslag van dader naar slachtoffer en de beroepsethiek."
+      "start_seconds": 2520,
+      "title": "Secularisatie en het christelijke erfgoed",
+      "summary": "Paas, Boutellier en Beunders over de link tussen ontkerkelijking en vergelding, met Augustinus en Bijbelverhalen."
     },
     {
-      "start_seconds": 1476,
-      "title": "Slachtoffers, dader en menselijk contact",
-      "summary": "Harlequin pleit voor aparte ruimte voor ontmoeting en herstel buiten de zittingszaal."
+      "start_seconds": 3240,
+      "title": "Geloof, rust en het persoonlijke",
+      "summary": "Harlequin vertelt over haar geloof, de rust die het geeft en hoe het haar mensbeeld vormt."
     },
     {
-      "start_seconds": 1872,
-      "title": "Verharding en vergelding",
-      "summary": "Over zwaardere straffen, TBS plus gevangenisstraf, Wilders en de beschermingsgedachte."
+      "start_seconds": 4000,
+      "title": "Afsluiting",
+      "summary": "Samenvatting van de boodschap en vooruitblik op de volgende aflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 613,
+      "start_seconds": 1080,
       "speaker": "Natacha Harlequin",
-      "text": "Ik oordeel niet. En ik steek ook voor niemand mijn hand in het vuur.",
-      "note": "Kernpositie van Harlequin, ook voor haar eigen kind."
+      "text": "De mens is zondig.",
+      "note": "Een scherpe kijk op de mens die haar mensbeeld tekent en contrasteert met het optimistische beeld van Bregman."
     },
     {
-      "start_seconds": 1108,
-      "speaker": "Natacha Harlequin",
-      "text": "De inborst van de mens is toch wel slecht.",
-      "note": "Staat haaks op het populaire 'de meeste mensen deugen'."
-    },
-    {
-      "start_seconds": 1180,
-      "speaker": "Natacha Harlequin",
-      "text": "De mens is zondig... ik zie het als een bevrijding.",
-      "note": "Haar religieuze mensbeeld als bevrijdend."
-    },
-    {
-      "start_seconds": 1445,
-      "speaker": "David Boogerd",
-      "text": "Wij beschouwen onszelf niet langer als potentiële daders, maar als potentiële slachtoffers.",
-      "note": "Citaat van Buruma over verschuiving in het strafrecht."
-    },
-    {
-      "start_seconds": 2078,
+      "start_seconds": 2040,
       "speaker": "Stefan Paas",
-      "text": "De nette burgers moeten beschermd worden tegen die rotte appels in de mand.",
-      "note": "Paas schetst de omslag van recht naar bescherming."
+      "text": "Zodra die zelf voor de rechter stond, waren het nep rechters en complot.",
+      "note": "Wijst op de hypocrisie van wie hardere straffen eist voor anderen maar zelf geschokt is als het hem treft."
+    },
+    {
+      "start_seconds": 1485,
+      "speaker": "Natacha Harlequin",
+      "text": "Ik ben ook gewoon een mens... mijn man en ik hadden ook dit jonge echtpaar kunnen zijn.",
+      "note": "Persoonlijke erkenning dat iedereen in het rechtssysteem terecht kan komen."
+    },
+    {
+      "start_seconds": 2800,
+      "speaker": "Stefan Paas",
+      "text": "Laat het maar opgroeien tot de oogst en laat God dan maar beslissen.",
+      "note": "Haalt de gelijkenis van het onkruid aan als pleidooi tegen rigoureuze uitroeiing van het kwaad."
+    },
+    {
+      "start_seconds": 3330,
+      "speaker": "Natacha Harlequin",
+      "text": "Ik heb totale rust... omdat ik weet dat ik word gedragen.",
+      "note": "Het moment waarop haar geloof als bron van rust en vergeving zichtbaar wordt."
     }
   ],
   "keywords": [
-    "strafrecht",
-    "mensbeeld",
     "vergelding",
-    "zondigheid",
-    "slachtoffers",
-    "beroepsethiek",
-    "ongelijkheid",
-    "rechtsstaat",
-    "Natacha Harlequin",
-    "Ybo Buruma",
-    "rotte appels"
+    "vergeving",
+    "mensbeeld",
+    "rotte appel",
+    "secularisatie",
+    "tweede kans",
+    "Augustinus",
+    "strafrecht",
+    "geloof",
+    "slachtoffer"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik oordeel niet. En ik steek ook voor niemand mijn hand in het vuur.",
+    "Het strafproces dient gevoerd te worden in een zittingszaal.",
+    "Als je doodgaat, neem je niks mee."
+  ],
   "similar": [
     {
       "n": 205,
-      "reason": "Johan Bac, strafrechtjurist: misdaad, recht en samenleving, plus geloof en mensbeeld."
+      "reason": "Misdaad en strafrecht als spiegel van de samenleving, met God & geloof en migratie"
     },
     {
       "n": 299,
-      "reason": "Alain Verheij over vergeving, genadeloosheid en onrecht; raakt aan vergelding en mensbeeld."
+      "reason": "Vergeving, genadeloosheid en Bijbelse thema's, sterk verwant aan de tweede kans"
     },
     {
-      "n": 134,
-      "reason": "Misdaadverhalen en true crime, over kwaad, zonde en geloof."
+      "n": 62,
+      "reason": "Seculiere samenleving en mensbeeld met Hans Boutellier, die ook in deze aflevering genoemd wordt"
     },
     {
-      "n": 291,
-      "reason": "Jurriën Hamer over vrijheid, ethiek en maatschappelijke verharding."
+      "n": 11,
+      "reason": "Rutger Bregman over religie en het mensbeeld, eveneens besproken in deze aflevering"
     },
     {
-      "n": 14,
-      "reason": "Veiligheid en het kwaad: omgang van de samenleving met het kwaad."
+      "n": 21,
+      "reason": "Liberale leegte, mensbeeld en polarisatie in een verdeelde samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

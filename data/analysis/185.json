@@ -1,17 +1,22 @@
 {
   "episode": 185,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 124987,
+    "segments": 1367,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31435,
-    "output_tokens": 2480,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 64750,
+    "output_tokens": 3886,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "Zingeving & psyche",
-    "Kerk & secularisatie",
+    "Geschiedenis",
+    "Bijbel & Jezus",
     "Economie & geld"
   ],
   "guests": [
@@ -20,160 +25,221 @@
   "people": [
     {
       "name": "Rutger Bregman",
-      "note": "historicus en schrijver van 'Morele Ambitie' en 'De meeste mensen deugen'",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "historicus en auteur, gast van de aflevering",
+      "start_seconds": 5,
+      "mention_count": 60
+    },
+    {
+      "name": "Thomas Clarkson",
+      "note": "abolitionist, hoofdpersoon uit Morele Ambitie",
+      "start_seconds": 2541,
+      "mention_count": 14
+    },
+    {
+      "name": "William Wilberforce",
+      "note": "parlementariër en leider van de antislavernijbeweging",
+      "start_seconds": 2544,
+      "mention_count": 8
+    },
+    {
+      "name": "Peter Singer",
+      "note": "filosoof, gedachte-experiment over de verdrinkende peuter",
+      "start_seconds": 1998,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 10,
+      "mention_count": 30
     },
     {
       "name": "Augustinus",
       "note": "kerkvader, beschermheilige van de podcast",
       "start_seconds": 104,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "reformator; motto over nuttig zijn",
-      "start_seconds": 244,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Huub Bellemakers",
-      "note": "twitteraar die om 'Bregman-afkeer' vroeg",
-      "start_seconds": 191,
-      "wiki_checked": true
-    },
-    {
-      "name": "Bart Nijman",
-      "note": "oud-baas van GeenStijl, uitgesproken tegenstander van Bregman",
-      "start_seconds": 212,
-      "wiki_checked": true
-    },
-    {
-      "name": "Stine Jensen",
-      "note": "columnist in NRC die Bregman hard aanviel",
-      "start_seconds": 393,
-      "wiki_checked": true,
-      "wiki_pageid": 1230684,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stine_Jensen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Brainwash_Festival_2015_-_Stine_Jensen_%282%29.jpg/250px-Brainwash_Festival_2015_-_Stine_Jensen_%282%29.jpg"
-    },
-    {
-      "name": "Sigrid Kaag",
-      "note": "politica, vergeleken met Bregman qua afkeer",
-      "start_seconds": 384,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
-    },
-    {
-      "name": "Bill Gates",
-      "note": "techmiljardair die malariavaccin-onderzoek vooruithielp",
-      "start_seconds": 952,
-      "wiki_checked": true,
-      "wiki_pageid": 23889,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Gates",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg/250px-Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "David Brooks",
-      "note": "Amerikaanse auteur; cv versus necrologie",
-      "start_seconds": 1273,
-      "wiki_checked": true
-    },
-    {
-      "name": "Max Weber",
-      "note": "socioloog van de protestantse ethiek",
-      "start_seconds": 1382,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
-    },
-    {
-      "name": "Matthieu Ricard",
-      "note": "boeddhistische monnik die 60.000 uur mediteerde",
-      "start_seconds": 1403,
-      "wiki_checked": true,
-      "wiki_pageid": 286036,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Matthieu_Ricard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Portrait_de_Matthieu_Ricard.jpg/250px-Portrait_de_Matthieu_Ricard.jpg"
-    },
-    {
-      "name": "Simon van Teutem",
-      "note": "collega van Bregman; 'Bermuda-driehoek van talent'",
-      "start_seconds": 1144,
-      "wiki_checked": true,
-      "wiki_pageid": 6009308,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_van_Teutem"
-    },
-    {
-      "name": "Claire Elizabeth Williams",
-      "note": "startte cash-transferproject voor daklozen in Vancouver",
-      "start_seconds": 1757,
-      "wiki_checked": true
+      "name": "Calvijn",
+      "note": "reformator, motto over nuttig zijn",
+      "start_seconds": 124,
+      "mention_count": 2
     },
     {
       "name": "Pelagius",
-      "note": "monnik in conflict met Augustinus",
+      "note": "monnik, tegenpool van Augustinus over genade",
       "start_seconds": 1886,
-      "wiki_checked": true,
-      "wiki_pageid": 77931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pelagius_%28monnik%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pelagius.jpg/250px-Pelagius.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Peter Singer",
-      "note": "filosoof, gedachte-experiment van de verdrinkende peuter",
-      "start_seconds": 1976,
-      "wiki_checked": true,
-      "wiki_pageid": 687491,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Singer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Peter_Singer_2017_%28cropped%29.jpg/250px-Peter_Singer_2017_%28cropped%29.jpg"
+      "name": "Immanuel Kant",
+      "note": "filosoof, plichtethiek",
+      "start_seconds": 3335,
+      "mention_count": 3
     },
     {
-      "name": "Lucia Coulter",
+      "name": "Jeremy Bentham",
+      "note": "utilist, pleitbezorger voor dierenrechten",
+      "start_seconds": 3500,
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "voorbeeld van ambitie zonder moraal",
+      "start_seconds": 2470,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "machthebber, genoemd als voorbeeld van ambitie",
+      "start_seconds": 2480,
+      "mention_count": 2
+    },
+    {
+      "name": "Lenin",
+      "note": "utilistisch revolutionair",
+      "start_seconds": 3540,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "burgerrechtenleider",
+      "start_seconds": 3830,
+      "mention_count": 1
+    },
+    {
+      "name": "Rosa Parks",
+      "note": "burgerrechtenactiviste",
+      "start_seconds": 3520,
+      "mention_count": 2
+    },
+    {
+      "name": "George Orwell",
+      "note": "schrijver, essay over Gandhi",
+      "start_seconds": 2270,
+      "mention_count": 2
+    },
+    {
+      "name": "Gandhi",
+      "note": "politiek leider van India, geweldloos verzet",
+      "start_seconds": 2270,
+      "mention_count": 2
+    },
+    {
+      "name": "Macho Ricard",
+      "note": "boeddhistische monnik, 60.000 uur mediteren",
+      "start_seconds": 1420,
+      "mention_count": 3
+    },
+    {
+      "name": "Bill Gates",
+      "note": "techmiljardair, financiert malariavaccin",
+      "start_seconds": 950,
+      "mention_count": 1
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "columniste NRC, kritiek op Bregman",
+      "start_seconds": 400,
+      "mention_count": 2
+    },
+    {
+      "name": "Bart Nijman",
+      "note": "journalist, Twitter-kritiek op Bregman",
+      "start_seconds": 220,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "socioloog, protestantse ethiek",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "David Brooks",
+      "note": "Amerikaans auteur, over necrologie",
+      "start_seconds": 1305,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Paine",
+      "note": "verlichtingsdenker",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Wim Pijbes",
+      "note": "voormalig directeur Rijksmuseum",
+      "start_seconds": 3100,
+      "mention_count": 3
+    },
+    {
+      "name": "Lucia Kolter",
       "note": "oprichter Lead Exposure Elimination Project",
-      "start_seconds": 2072,
-      "wiki_checked": true
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Ralph Nader",
+      "note": "consumentenactivist, talent naar Washington",
+      "start_seconds": 4320,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Philipse",
+      "note": "filosoof, seculier denker",
+      "start_seconds": 3930,
+      "mention_count": 1
     },
     {
       "name": "Voltaire",
-      "note": "genoemd over perfectie als vijand van het goede",
-      "start_seconds": 2092,
-      "wiki_checked": true,
-      "wiki_pageid": 26074,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Voltaire",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/250px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
+      "note": "filosoof, 'perfectie wordt de vijand van het goede'",
+      "start_seconds": 2030,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon van Teutem",
+      "note": "collega van Bregman, Bermuda-driehoek van talent",
+      "start_seconds": 1140,
+      "mention_count": 1
+    },
+    {
+      "name": "Christopher Leslie Brown",
+      "note": "historicus, boek Moral Capital",
+      "start_seconds": 3870,
+      "mention_count": 2
+    },
+    {
+      "name": "Tyler Cowen",
+      "note": "econoom, podcast Conversations with Tyler",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Marjon de Maan",
+      "note": "geschiedenislerares op Twitter",
+      "start_seconds": 2440,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "De meeste mensen deugen",
+      "author": "Rutger Bregman",
+      "note": "eerder boek van Bregman, bestseller",
+      "start_seconds": 980,
+      "volume_id": "UbbpxgEACAAJ",
+      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
+      "canonical_author": "Rutger Bregman",
+      "isbn13": "9789082942187",
+      "isbn10": "9082942186",
+      "thumbnail": ""
+    },
+    {
       "title": "Morele Ambitie",
       "author": "Rutger Bregman",
-      "note": "nieuw boek, koude douche",
-      "start_seconds": 34,
+      "note": "nieuw boek, centrale bespreking van de aflevering",
+      "start_seconds": 2,
       "volume_id": "aOaX0AEACAAJ",
       "canonical_title": "Morele ambitie: Stop met het verspillen van je talent en maak werk van je idealen",
       "canonical_author": "Rutger Bregman",
@@ -182,126 +248,151 @@
       "thumbnail": ""
     },
     {
-      "title": "De meeste mensen deugen",
-      "author": "Rutger Bregman",
-      "note": "eerdere bestseller; mogelijk te geruststellend",
-      "start_seconds": 1000,
-      "volume_id": "UbbpxgEACAAJ",
-      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
-      "canonical_author": "Rutger Bregman",
-      "isbn13": "9789082942187",
-      "isbn10": "9082942186",
-      "thumbnail": ""
+      "title": "Moral Capital",
+      "author": "Christopher Leslie Brown",
+      "note": "standaardwerk over het abolitionisme",
+      "start_seconds": 3870,
+      "volume_id": "TaI--qgb1QcC",
+      "canonical_title": "Moral Capital: Foundations of British Abolitionism",
+      "canonical_author": "Christopher Leslie Brown",
+      "isbn13": "9780807838952",
+      "isbn10": "0807838950",
+      "thumbnail": "http://books.google.com/books/content?id=TaI--qgb1QcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Vrede op aarde",
+      "author": "Stefan Paas",
+      "note": "boek van Paas over slavernij en de Bijbel",
+      "start_seconds": 2890,
+      "volume_id": "WhrMEAAAQBAJ",
+      "canonical_title": "Vrede op aarde: Over heil en redding in deze tijd",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789043540087",
+      "isbn10": "9043540080",
+      "thumbnail": "http://books.google.com/books/content?id=WhrMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Marcus 14:3-9",
+      "note": "vrouw zalft Jezus met kostbare olie; leerlingen verontwaardigd over verspilling",
+      "start_seconds": 3280
+    }
+  ],
   "places": [
     "Utrecht",
-    "Jacobikerk",
-    "Amsterdam",
     "Enschede",
-    "Zuidas",
     "Vancouver",
-    "Sub-Saharisch Afrika"
+    "Waits Mill",
+    "Groot-Brittannië",
+    "Malawi",
+    "Seneca Falls",
+    "Zuidpool",
+    "Amerika"
   ],
-  "summary_tldr": "Rutger Bregman bespreekt zijn boek 'Morele Ambitie', een oproep aan geprivilegeerde mensen om hun talent in te zetten voor de grote problemen van deze tijd. Met Stefan Paas en David Boogerd gaat het over de afkeer die hij oproept, de protestantse ondertoon van zijn werk en de risico's van morele perfectie.",
+  "summary_tldr": "Rutger Bregman bespreekt met David Boogerd en Stefan Paas zijn nieuwe boek Morele Ambitie, een pleidooi om meer te doen met talent en privilege. Het gesprek gaat over de hevige reacties op zijn persoon, de christelijke wortels van morele emancipatie en de ethische spanning tussen utilisme, deugdethiek en ambitie. Bregman kondigt aan een School voor Morele Ambitie op te richten en naar de VS te verhuizen.",
   "summary_points": [
-    "Bregman roept veel afkeer op op Twitter, maar veel lof op LinkedIn",
-    "Stefan Paas noemt hem de 'dominee van dit moment'",
-    "We leven in een gevaarlijke tijd: klimaat, atoomdreiging, pandemieën, AI",
-    "Alledaagse catastrofes zoals malaria worden als achtergrondruis genegeerd",
-    "Het boek is een koude douche voor geprivilegeerden die hun talent verspillen",
-    "Succes herdefiniëren: necrologie boven cv, voorbij de Zuidas-carrière",
-    "Voetafdruk-denken vs. zoveel mogelijk goed doen",
-    "Zijn School voor Morele Ambitie werkt met kringen en pledges, met religieuze ondertonen",
-    "Gevaar van schuldgevoel en effectief altruïsme: het beste als vijand van het goede"
+    "Bregman's boek Morele Ambitie roept op om talent in te zetten voor grote wereldproblemen",
+    "Discussie over de hevige online afkeer en persoonlijke aanvallen op Bregman",
+    "Kritiek van Paas dat ambitie en moraal elkaar kunnen ondermijnen",
+    "Christelijke wortels van abolitionisme en morele emancipatie, met Clarkson en Wilberforce als voorbeelden",
+    "Verschil tussen utilisme en deugdethiek; Bregman noemt zichzelf deugdethicus",
+    "Het gevaar van schuldgevoel als drijfveer versus enthousiasme",
+    "Bregman's School voor Morele Ambitie met fellowships van 12 mensen",
+    "Bregman verhuist naar de VS om de stichting daar op te zetten"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en traditie",
-      "summary": "Opening, Augustinus als beschermheilige en de Jacobikerk als vaste plek."
+      "title": "Welkom en reacties op Bregman",
+      "summary": "Het gesprek opent met de online afkeer die Bregman oproept en de persoonlijke aanvallen die hij ervaart."
     },
     {
-      "start_seconds": 175,
-      "title": "Afkeer op Twitter",
-      "summary": "Waarom Bregman zoveel haat oproept en hoe hij omgaat met valse aantijgingen."
+      "start_seconds": 660,
+      "title": "De grote versnelling en existentiële risico's",
+      "summary": "Bregman schetst de gevaren van de moderne tijd, van klimaat tot biotechnologie, en de alledaagse catastrofes zoals armoede en malaria."
     },
     {
-      "start_seconds": 620,
-      "title": "De dominee van dit moment",
-      "summary": "Stefan Paas legt de link tussen Bregman en de dominee; reacties van ondernemers en Zuidas."
+      "start_seconds": 1290,
+      "title": "Koude douche en de doelgroep van het boek",
+      "summary": "Bregman legt uit dat het boek vooral bedoeld is voor geprivilegeerde mensen en wat ambitie betekent."
     },
     {
-      "start_seconds": 650,
-      "title": "De gevaarlijkste eeuw",
-      "summary": "De grote versnelling, existentiële risico's en vergeten catastrofes zoals malaria."
+      "start_seconds": 1900,
+      "title": "Utilisme, deugdethiek en morele grenzen",
+      "summary": "Discussie over effectief altruïsme, Peter Singer en de vraag of het doel de middelen heiligt."
     },
     {
-      "start_seconds": 1000,
-      "title": "Koude douche en doelgroep",
-      "summary": "Correctie op 'De meeste mensen deugen', verspild talent en voor wie het boek bedoeld is."
+      "start_seconds": 2530,
+      "title": "Thomas Clarkson en de christelijke abolitionisten",
+      "summary": "Het verhaal van Clarkson als voorbeeld van ambitie die verandert in morele toewijding, met christelijke inspiratie."
     },
     {
-      "start_seconds": 1380,
-      "title": "Protestantse ethiek en impact",
-      "summary": "Calvijn, Weber, Ricard en Bregmans eigen zoektocht naar concrete impact."
+      "start_seconds": 3350,
+      "title": "Kant, utilisme en de Bijbel",
+      "summary": "Vergelijking van ethische theorieën en de kritiek dat Bregman anekdotes kiest; Paas verwijst naar de zalving van Jezus."
     },
     {
-      "start_seconds": 1800,
-      "title": "Pelagianisme en morele burn-out",
-      "summary": "De School voor morele ambitie, schuldgevoel en effectief altruïsme."
+      "start_seconds": 3960,
+      "title": "Coalities, kunst en het verschil met Paas",
+      "summary": "Bregman bespreekt coalitievorming en Wim Pijbes; de gespreksleiders overwegen gedeelde thema's."
+    },
+    {
+      "start_seconds": 4380,
+      "title": "School voor Morele Ambitie en toekomstplannen",
+      "summary": "Bregman presenteert zijn stichting, fellowships en verhuisplannen naar de VS, plus een aankondiging van de 5-jarige podcast."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 630,
-      "speaker": "Stefan Paas",
-      "text": "Jij bent misschien wel de dominee van dit moment.",
-      "note": "Kernframing van de aflevering"
-    },
-    {
-      "start_seconds": 1050,
-      "speaker": "Stefan Paas",
-      "text": "Het is beter om eerst iemand een schop onder zijn hol te geven en dan een warme knuffel.",
-      "note": "Humoristische opvoedtip"
-    },
-    {
-      "start_seconds": 820,
+      "start_seconds": 2155,
       "speaker": "Rutger Bregman",
-      "text": "Evenveel als Amerikanen besteden aan het bleken van hun tanden.",
-      "note": "Schokkende vergelijking met onderzoeksgeld voor infectieziekten"
+      "text": "Perfectie wordt de vijand van het goede.",
+      "note": "Een korte, pakkende samenvatting van de spanning tussen ambitie en tevredenheid."
     },
     {
-      "start_seconds": 1385,
-      "speaker": "Stefan Paas",
-      "text": "Je bent protestanter dan de meeste protestanten.",
-      "note": "Scherpe typering van Bregmans boek"
+      "start_seconds": 3870,
+      "speaker": "Rutger Bregman",
+      "text": "Het abolitionisme was knetterchristelijk.",
+      "note": "Bregman stelt dat seculiere lezers de christelijke wortels van de afschaffing van de slavernij vaak onderschatten."
     },
     {
-      "start_seconds": 1886,
+      "start_seconds": 2950,
       "speaker": "Stefan Paas",
-      "text": "Ietwat Pelagiaanse ondertonen inderdaad.",
-      "note": "Theologische duiding van Bregmans aanpak"
+      "text": "Ambitie is een gevaarlijk goedje en macht corrompeert.",
+      "note": "Hij hangt de discussie op aan de morele risico's van ambitie, zelfs in goede zaken."
+    },
+    {
+      "start_seconds": 1960,
+      "speaker": "Rutger Bregman",
+      "text": "Utilisme is hoogmoed. Denken dat je alles kan doorrekenen.",
+      "note": "Een scherpe kritiek op zijn eigen utilistische neigingen."
+    },
+    {
+      "start_seconds": 1330,
+      "speaker": "Rutger Bregman",
+      "text": "Dat mens zijn ook bestaat uit de bereidheid om te zondigen in de naam van loyaliteit.",
+      "note": "Verwijst naar Orwell en laat zien dat persoonlijke band en moraal kunnen botsen."
     }
   ],
   "keywords": [
-    "Morele ambitie",
-    "Rutger Bregman",
-    "Protestantisme",
-    "Calvijn",
-    "Augustinus",
-    "Pelagius",
-    "Effectief altruïsme",
-    "Privilege",
-    "Talent",
-    "Malaria",
-    "Dominee",
-    "Bekering"
+    "morele ambitie",
+    "abolitionisme",
+    "utilisme",
+    "deugdethiek",
+    "effectief altruïsme",
+    "christelijke wortels",
+    "ambitie en moraal",
+    "Thomas Clarkson",
+    "Wilberforce",
+    "secularisatie",
+    "Peter Singer",
+    "Morele Ambitie"
   ],
   "quotes": [
-    "Hij wil mensen wakker schudden en - op een bepaalde manier - bekeren.",
-    "Want bij Rutger is de dominee nooit ver weg."
+    "Het is een waanzinnig goede vraag.",
+    "Ambitie is een gevaarlijk goedje en macht corrompeert.",
+    "Ik heb het ook een beetje voor jou geschreven en voor mezelf natuurlijk."
   ],
   "similar": [
     {
@@ -309,20 +400,18 @@
       "reason": "Eerdere aflevering met Rutger Bregman over religie en de deugende mens"
     },
     {
+      "n": 22,
+      "reason": "Christelijke wortels van het Westen en morele vooruitgang, vergelijkbaar met Bregmans stelling"
+    },
+    {
+      "n": 118,
+      "reason": "Slavernij, abolitionisme en de rol van religie, verwant aan Wilberforce en Clarkson"
+    },
+    {
       "n": 53,
-      "reason": "Rutger Bregman over moraal, verzet en genade, met Beatrice de Graaf"
-    },
-    {
-      "n": 291,
-      "reason": "Filosoof pleit voor strenger liberalisme: vrijheid en morele verantwoordelijkheid"
-    },
-    {
-      "n": 67,
-      "reason": "Mythe van de hardwerkende calvinistische Nederlander; protestantse ondertoon en werkethiek"
-    },
-    {
-      "n": 200,
-      "reason": "Augustinus-aflevering; Augustinus en Pelagius als overlappende figuren"
+      "reason": "Bregman over morele helden, verzet en genade in de geschiedenis"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

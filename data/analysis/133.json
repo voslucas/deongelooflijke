@@ -1,18 +1,23 @@
 {
   "episode": 133,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 108786,
+    "segments": 1252,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31525,
-    "output_tokens": 2485,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56869,
+    "output_tokens": 7479,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
+    "God & geloof",
     "Politiek",
-    "Geopolitiek & oorlog",
-    "God & geloof"
+    "Samenleving & migratie",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Rik Peels"
@@ -20,314 +25,303 @@
   "people": [
     {
       "name": "Rik Peels",
-      "note": "filosoof en theoloog aan de VU, onderzoeker van extreme overtuigingen",
+      "note": "filosoof en theoloog, gast; onderzoekt extreme overtuigingen",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 3805611,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rik_Peels",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/RikPeels_FLB_20250115_O8A9742-Edit.jpg/250px-RikPeels_FLB_20250115_O8A9742-Edit.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
       "name": "Caroline van der Plas",
       "note": "leider van BBB",
-      "start_seconds": 779,
-      "wiki_checked": true,
-      "wiki_pageid": 5503682,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Caroline_van_der_Plas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caroline_van_der_Plas.jpg/250px-Caroline_van_der_Plas.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "politicus, voorbeeld van een partij die uit het niets veel stemmen kreeg",
-      "start_seconds": 803,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, motieven deels ideologisch en religieus getint",
-      "start_seconds": 501,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "voorbeeld van radicale overtuiging die geen extremisme is",
-      "start_seconds": 921,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
-      "name": "Nelson Mandela",
-      "note": "voorbeeld in het debat over geweld en extremisme",
-      "start_seconds": 922,
-      "wiki_checked": true,
-      "wiki_pageid": 1179,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nelson_Mandela",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nelson_Mandela-2008_%28edit%29.jpg/250px-Nelson_Mandela-2008_%28edit%29.jpg"
-    },
-    {
-      "name": "Dietrich Bonhoeffer",
-      "note": "theoloog die een aanslag op Hitler steunde",
-      "start_seconds": 958,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
-    },
-    {
-      "name": "Jan-Willem van Prooijen",
-      "note": "VU-onderzoeker naar complotdenken",
-      "start_seconds": 1037,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "leider van Forum voor Democratie, verwees naar reptielen-complot",
-      "start_seconds": 1134,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "David Icke",
-      "note": "bedenker van de reptilian-theorie",
-      "start_seconds": 1131,
-      "wiki_checked": true,
-      "wiki_pageid": 418349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Icke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/David_Icke_in_2013.jpg/250px-David_Icke_in_2013.jpg"
-    },
-    {
-      "name": "Colin Powell",
-      "note": "presenteerde de massavernietigingswapens-claim over Irak",
-      "start_seconds": 1223,
-      "wiki_checked": true,
-      "wiki_pageid": 30396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Colin_Powell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Colin_Powell_official_Secretary_of_State_photo.jpg/250px-Colin_Powell_official_Secretary_of_State_photo.jpg"
-    },
-    {
-      "name": "Beatrice de Graaf",
-      "note": "onderzoeker naar Syriëgangers, radicaal verlossingsmodel",
-      "start_seconds": 1586,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
-    },
-    {
-      "name": "Paul Cliteur",
-      "note": "hoogleraar en Forum-politicus",
-      "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 30587,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Cliteur",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_Cliteur_%282025%29_%281%29_%28cropped%29.jpg/250px-Paul_Cliteur_%282025%29_%281%29_%28cropped%29.jpg"
+      "start_seconds": 776,
+      "mention_count": 3
     },
     {
       "name": "Gideon van Meijeren",
-      "note": "Forum voor Democratie-Kamerlid",
+      "note": "FvD-politicus die complotgedachten verspreidt",
       "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 5503423,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gideon_van_Meijeren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/GideonvanMeijerenHeijmans.jpg/250px-GideonvanMeijerenHeijmans.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Cliteur",
+      "note": "hoogleraar rechtsfilosofie aan de Universiteit Leiden, waarschuwt voor religieus intolerantie",
+      "start_seconds": 1735,
+      "mention_count": 3
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "FvD-leider; verwees naar de reptielenthese",
+      "start_seconds": 1134,
+      "mention_count": 1
+    },
+    {
+      "name": "Poetin",
+      "note": "Russische president; Oekraïne-oorlog",
+      "start_seconds": 501,
+      "mention_count": 3
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; centrale figuur in QAnon-verhaal",
+      "start_seconds": 1129,
+      "mention_count": 4
+    },
+    {
+      "name": "Joe Biden",
+      "note": "opvolger van Trump als Amerikaans president",
+      "start_seconds": 3174,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "burgerrechtenleider; voorbeeld van radicaal maar geweldloos engagement",
+      "start_seconds": 918,
+      "mention_count": 2
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "anti-apartheidsstrijder; voorbeeld van de context-kwestie bij extremisme",
+      "start_seconds": 922,
+      "mention_count": 2
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "theoloog die betrokken was bij een aanslag op Hitler",
+      "start_seconds": 958,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "nazi-leider; gebruikte de Protocollen van de Wijzen van Zion",
+      "start_seconds": 1045,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader uit de 5e eeuw; onderwerp van Stefan Paas' werk",
+      "start_seconds": 454,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan-Willem van Prooijen",
+      "note": "collega van Peels aan de VU; complotdenkonderzoeker",
+      "start_seconds": 1021,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "historicus die onderzoek deed naar jihadisten die naar Syrië vertrokken",
+      "start_seconds": 1574,
+      "mention_count": 3
+    },
+    {
+      "name": "Jaron Harambam",
+      "note": "onderzoeker naar complotdenkers, portretten van gelovigen in complottheorieën",
+      "start_seconds": 2548,
+      "mention_count": 1
+    },
+    {
+      "name": "Ayaan Lubach",
+      "note": "satirisch programmamaker; item over katten als natuurverwoesters",
+      "start_seconds": 275,
+      "mention_count": 1
+    },
+    {
+      "name": "Colin Powell",
+      "note": "Amerikaans minister van Buitenlandse Zaken; verdediging van de Irak-oorlog",
+      "start_seconds": 1221,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus; begin van het patroon van plotselinge partijgroei",
+      "start_seconds": 803,
+      "mention_count": 1
     },
     {
       "name": "Richard Dawkins",
-      "note": "nieuw atheïst",
+      "note": "een van de 'nieuwe atheïsten'",
       "start_seconds": 2100,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Dennett",
+      "note": "een van de 'nieuwe atheïsten'",
+      "start_seconds": 2100,
+      "mention_count": 1
     },
     {
       "name": "Sam Harris",
-      "note": "nieuw atheïst",
+      "note": "een van de 'nieuwe atheïsten'",
       "start_seconds": 2100,
-      "wiki_checked": true,
-      "wiki_pageid": 1218911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Harris_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sam_Harris_01.jpg/250px-Sam_Harris_01.jpg"
+      "mention_count": 1
     },
     {
       "name": "Christopher Hitchens",
-      "note": "nieuw atheïst",
+      "note": "een van de 'nieuwe atheïsten'",
       "start_seconds": 2100,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "David Icke",
+      "note": "auteur van de reptielenthese",
+      "start_seconds": 1088,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "God bewijzen",
-      "author": "Rik Peels en Stefan Paas",
-      "note": "samen geschreven in 2013",
-      "start_seconds": 118,
-      "volume_id": "YIJgBgAAQBAJ",
-      "canonical_title": "God bewijzen: argumenten voor en tegen geloven",
-      "canonical_author": "Rik Peels, Stefan Paas",
-      "isbn13": "9789460037252",
-      "isbn10": "9460037259",
-      "thumbnail": "http://books.google.com/books/content?id=YIJgBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "De Protocollen van de Wijzen van Zion",
+      "author": "",
+      "note": "vervalst document over een Joodse wereldsamenzwering; sinds de late 19e eeuw gebruikt in antisemitische propaganda",
+      "start_seconds": 1037,
+      "volume_id": "1SzJSAAACAAJ",
+      "canonical_title": "De zeven levens van de Protocollen van de Wijzen van Zion",
+      "canonical_author": "Klaas Antonius Donato Smelik",
+      "isbn13": "9789059114036",
+      "isbn10": "9059114035",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Amsterdam",
     "Haarlem",
-    "Oekraïne",
-    "Rusland",
+    "Den Haag",
+    "Utrecht",
     "Syrië",
+    "Oekraïne",
     "Brazilië",
     "Nevada",
-    "Den Haag",
+    "Groningen",
     "Irak",
-    "Groningen"
+    "Rusland"
   ],
-  "summary_tldr": "Filosoof Rik Peels legt uit hoe extreme overtuigingen, complotdenken en fundamentalisme ontstaan en waarom je mensen als gesprekspartners moet blijven zien. Het gesprek gaat ook over de BBB-winst, polarisatie, de rol van religie en het fundamentalisme van harde atheïsten.",
+  "summary_tldr": "Filosoof Rik Peels legt uit dat extremisme en complotdenken niet alleen door armoede of isolatie worden verklaard, maar ook door zingeving, verhalen en groepsbinding. Hij en Stefan Paas bespreken of BBB en Forum voor Democratie extreem zijn, of religie zelf een complottheorie is en of extremisme te temperen is. Hun slotconclusie is voorzichtig hoopvol: door in gesprek te blijven, te luisteren en een positief verhaal te bieden kan radicalisering worden tegengegaan.",
   "summary_points": [
-    "Peels onderzoekt de interne beweegredenen van mensen met extreme overtuigingen, niet alleen sociale factoren.",
-    "Extremisme is lastig te definiëren en hangt af van perspectief; criteria zijn o.a. geweld en openheid voor gesprek.",
-    "BBB is volgens Peels niet extreem, maar uitdrukking van onvrede van mensen die zich niet gehoord voelen.",
-    "Forum voor Democratie is wel radicaler geworden.",
-    "Complotdenken is van alle tijden maar neemt toe in crisistijd door controleverlies en angst.",
-    "Sociale media en deepfakes versnellen verspreiding.",
-    "Affectieve polarisatie neemt toe doordat groepen elkaar minder ontmoeten.",
-    "Mensen worden niet louter verleid of besmet; narratief, gemeenschap en zingeving spelen een rol.",
-    "Contact houden en dialoog is beter dan mensen uitsluiten, zoals het verhaal van de imam laat zien.",
-    "Harde atheïsten en scientisten vertonen kenmerken van fundamentalisme."
+    "Peels onderzoekt de interne beweegredenen van extremisten in plaats van alleen sociaaleconomische verklaringen.",
+    "Wat 'extreem' is hangt af van het gezelschap; de ketterij van de een is de orthodoxie van de ander.",
+    "Complotdenken neemt vooral toe in crisistijd, waarbij sociale media het verspreiden versnellen.",
+    "Radicalisering draait om een narratief van verlossing, zingeving, gemeenschap en een gevoel van onrecht.",
+    "Het 'virusmodel' van besmetting wordt verworpen; mensen zijn verantwoordelijke gesprekspartners.",
+    "Het nieuwe atheïsme vertoont volgens Peels zelf fundamentalistische trekken.",
+    "Religie kan complottheorieën zowel versterken als dempen, afhankelijk van de stroming.",
+    "Diversiteit en contact tussen verschillende groepen werken radicalisering tegen.",
+    "Hoop ligt in fact-checking, luisteren naar complotdenkers en het bieden van een positief gemeenschappelijk verhaal."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en extreme opvattingen",
-      "summary": "David introduceert Rik Peels en zijn onderzoek; luchtig gesprek over eigen extreme opvattingen."
+      "title": "Opening en kennismaking",
+      "summary": "Boogerd introduceert Peels als de filosoof die in het hoofd van fundamentalisten kruipt, met een luchtige opening over christenen en katten."
     },
     {
-      "start_seconds": 394,
-      "title": "Actualiteit van extremisme",
-      "summary": "Peels' project viel samen met corona; voorbeelden als Poetin, Capitool en Brazilië, en polarisatie."
+      "start_seconds": 150,
+      "title": "Waarom mensen extreme overtuigingen krijgen",
+      "summary": "Peels legt uit dat hij de interne beweegredenen van extremisten wil begrijpen, en bespreekt het risico van het 'in de fuik' raken als onderzoeker."
     },
     {
       "start_seconds": 704,
-      "title": "BBB en Forum voor Democratie",
-      "summary": "Is BBB extreem? Peels zegt van niet; Forum wel radicaler."
+      "title": "Wat is extreem? BBB en FvD",
+      "summary": "Het gesprek gaat over of BBB en FvD extreem zijn, en over het relatieve karakter van extremisme en het effect van oorlogsretoriek op debat."
     },
     {
-      "start_seconds": 885,
-      "title": "Wat is extreem?",
-      "summary": "Perspectiefkwestie en definities, met Luther King, Mandela en Bonhoeffer."
+      "start_seconds": 1020,
+      "title": "Complotdenken, crisis en sociale media",
+      "summary": "Complotdenken neemt in crisistijd toe, en sociale media versnellen de verspreiding, terwijl het ook een oud verschijnsel is."
     },
     {
-      "start_seconds": 1037,
-      "title": "Complotdenken door de eeuwen heen",
-      "summary": "Historische complotten, crisis en controleverlies, QAnon, sociale media."
+      "start_seconds": 1503,
+      "title": "Verleiding, radicalisering en de rol van zingeving",
+      "summary": "Het virusmodel wordt verworpen; de gesprekspartners bespreken narratieven van verlossing, gemeenschap en verslavende complotwereld."
     },
     {
-      "start_seconds": 1504,
-      "title": "Hoe komen mensen tot extreme overtuigingen?",
-      "summary": "Verleiding versus agency, radicaal verlossingsmodel, de imam, verslaving en thrill seeking."
+      "start_seconds": 2100,
+      "title": "Religie, het nieuwe atheïsme en religie als complot",
+      "summary": "Het nieuwe atheïsme wordt als fundamentalistisch bekritiseerd, en de vraag of religie zelf een complottheorie is wordt beantwoord met genuanceerde argumenten."
     },
     {
-      "start_seconds": 1900,
-      "title": "Zingeving, gemeenschap en religie",
-      "summary": "Narratief en gemeenschap als drijfveren; extremisme is niet alleen religieus; nieuw atheïsme als fundamentalisme."
+      "start_seconds": 3195,
+      "title": "Is extremisme te temperen? Hoop en dialoog",
+      "summary": "Fact-checking, luisteren en een positief verhaal worden genoemd als manieren om extremisme te keren, met een voorzichtig hoopvol slot."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1646,
+      "start_seconds": 3051,
       "speaker": "Rik Peels",
-      "text": "Een imam wees jongens die radicaliseerden de deur; ze reisden af en kwamen deels nooit terug.",
-      "note": "Ontroerend voorbeeld van het belang van contact houden."
+      "text": "Wij zijn betekenisgevende wezens.",
+      "note": "Korte samenvatting van de kern van het verhaal: de zoektocht naar zingeving drijft mensen naar extreme narratieven."
     },
     {
-      "start_seconds": 2115,
-      "speaker": "Rik Peels",
-      "text": "Harde atheïsten en scientisten hebben alle trekken van fundamentalisme.",
-      "note": "Verrassende omkering van het gangbare beeld."
-    },
-    {
-      "start_seconds": 1783,
+      "start_seconds": 2683,
       "speaker": "Stefan Paas",
-      "text": "Dit is gewoon verslaafd gedrag; het voelt lekker om de wereld helemaal door te hebben.",
-      "note": "Scherpe psychologische duiding van complotdenken."
+      "text": "Radicaliseren is veel makkelijker dan niet radicaliseren.",
+      "note": "Een scherpe observatie die de inspanning benadrukt die nodig is om in gesprek te blijven met mensen die anders denken."
     },
     {
-      "start_seconds": 1160,
-      "speaker": "Stefan Paas",
-      "text": "Een politiek leider die hardop fantaseert over reptielen die de wereld regeren, dat is next level.",
-      "note": "Wijst op normalisering van complotdenken."
-    },
-    {
-      "start_seconds": 905,
+      "start_seconds": 2134,
       "speaker": "Rik Peels",
-      "text": "One person's terrorist is another person's freedom fighter.",
-      "note": "Illustreert de definitieproblemen."
+      "text": "Het heeft alle trekken van fundamentalisme, namelijk openbaring, moreel dualisme en het letterlijk nemen van heilige geschriften.",
+      "note": "Ironische wending: harde atheïsten en scientisten vertonen volgens Peels kenmerken van fundamentalisme."
+    },
+    {
+      "start_seconds": 3508,
+      "speaker": "Rik Peels",
+      "text": "Het samen oplossen van gemeenschappelijke problemen is een van de beste manieren.",
+      "note": "Verwijst naar het experiment met scoutingsgroepen; een praktische hoop voor het tegengaan van polarisatie."
+    },
+    {
+      "start_seconds": 3609,
+      "speaker": "Stefan Paas",
+      "text": "Die gebeden waren eigenlijk een oefening in het luisteren naar elkaars pijn.",
+      "note": "Een emotioneel en concreet voorbeeld uit de kerk van een gemeenschap die tegenstellingen naast elkaar laat bestaan."
     }
   ],
   "keywords": [
     "extremisme",
     "complotdenken",
     "fundamentalisme",
+    "radicalisering",
+    "zingeving",
+    "polarisatie",
     "BBB",
     "Forum voor Democratie",
-    "polarisatie",
-    "radicalisering",
     "nieuw atheïsme",
-    "zingeving",
+    "affectieve polarisatie",
     "QAnon",
-    "affectieve polarisatie"
+    "dialoog"
   ],
-  "quotes": [],
+  "quotes": [
+    "'De filosoof die in het hoofd kruipt van fundamentalisten'",
+    "Het is overal, maar is het nog te stoppen? En hoe dan?"
+  ],
   "similar": [
     {
       "n": 255,
-      "reason": "Rik Peels over waarheid, fake news, complotten en oorlogsretoriek; zelfde gast en filosoof."
-    },
-    {
-      "n": 136,
-      "reason": "Duiding van BBB-winst en politieke verschuivingen met Stefan Paas."
+      "reason": "Zelfde gast Rik Peels en Stefan Paas over complotten, fake news en waarheid"
     },
     {
       "n": 37,
-      "reason": "Complottheorieën als nieuwe religie, met Beatrice de Graaf en Stefan Paas."
+      "reason": "Complottheorieën en religie als vergelijkbaar zingevingsmechanisme, met Beatrice de Graaf"
     },
     {
-      "n": 146,
-      "reason": "Rik Peels over atheïsme; sluit aan bij fundamentalisme van harde atheïsten."
+      "n": 60,
+      "reason": "Extremisme en radicalisering vanuit religieus perspectief, verlossingsdenken centraal"
     },
     {
-      "n": 4,
-      "reason": "Religieus fundamentalisme en radicalisering, met Stefan Paas."
+      "n": 136,
+      "reason": "Gaat over BBB en de politieke verschuivingen die deze partij teweegbrengt"
+    },
+    {
+      "n": 68,
+      "reason": "Complotdenken en eindtijdnarratieven als sociale en religieuze verschijnselen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

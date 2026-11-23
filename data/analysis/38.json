@@ -1,11 +1,16 @@
 {
   "episode": 38,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 55026,
+    "segments": 433,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 28042,
-    "output_tokens": 2146,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 28046,
+    "output_tokens": 2876,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,191 +25,184 @@
   "people": [
     {
       "name": "Typhoon",
-      "note": "rapper en zanger (Glenn de Randamie), gast van de aflevering",
-      "start_seconds": 3,
-      "wiki_checked": true,
-      "wiki_pageid": 207588,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Typhoon_%28rapper%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/2016Winternachten7.jpg/250px-2016Winternachten7.jpg"
-    },
-    {
-      "name": "Cindy Mezas",
-      "note": "predikante en vriendin die Typhoon hhielp en hem doopte",
-      "start_seconds": 1549,
-      "wiki_checked": true
+      "note": "Gast; rapper en zanger, eigenlijk Glenn de Randamie",
+      "start_seconds": 0,
+      "mention_count": 60
     },
     {
       "name": "Thijs van der Brink",
-      "note": "collega-presentator van Adieu God, waar Typhoon eerder te gast was",
-      "start_seconds": 688,
-      "wiki_checked": true
+      "note": "Collega van David Boogerd; presentator van Adieu God",
+      "start_seconds": 679,
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "centrale figuur in Typhoons geloof",
-      "start_seconds": 274,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Cindy Mezas",
+      "note": "Predikante die Typhoon hielp en hem liet dopen",
+      "start_seconds": 1545,
+      "mention_count": 2
     },
     {
       "name": "Arie Boomsma",
-      "note": "presentator van de podcast Goed Werk (reclame aan het eind)",
-      "start_seconds": 2878,
-      "wiki_checked": true,
-      "wiki_pageid": 419740,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arie_Boomsma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Feest_der_Letteren_2015-02-28_006.jpg/250px-Feest_der_Letteren_2015-02-28_006.jpg"
+      "note": "Presentator van de podcast Goed Werk (advertentie aan het eind)",
+      "start_seconds": 2868,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Bijbel",
+      "author": "",
+      "note": "Verwezen naar als bron van de uitspraak over Christus en gelijkheid",
+      "start_seconds": 2733
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "Galaten 3:28",
-      "note": "geen man of vrouw, slaaf of vrij, Griek of jood; in de aflevering genoemd als 'Efeze'",
-      "start_seconds": 2715
+      "ref": "Efeziërs 2:28",
+      "note": "Paragraaf over dat in Christus ras, nationaliteit en gender er niet meer toe doen (Galaten 3:28 wordt geciteerd door David: geen man of vrouw, slaaf of vrij, Griek of Jood)",
+      "start_seconds": 2700
     },
     {
-      "ref": "Mattheüs 6:34",
-      "note": "maak je geen zorgen over morgen, elke dag heeft genoeg aan zijn eigen kwaad",
-      "start_seconds": 2028
+      "ref": "Mattheus 6:34",
+      "note": "Jezus' uitspraak over zorgen maken voor morgen",
+      "start_seconds": 1993
     }
   ],
   "places": [
     "Zwolle",
     "Hedon",
-    "Harde",
-    "Veluwe",
-    "Amsterdam",
+    "Het Harde",
     "Vlieland",
-    "Ridderzaal"
+    "Amsterdam"
   ],
-  "summary_tldr": "David Boogerd spreekt met rapper Typhoon over zijn lichte vriendschap met God sinds zijn jeugd, zijn zoektocht, burn-out en zijn terugkeer tot het geloof. Ook komen zijn doop, omgaan met bekendheid en openheid over geloof, en racisme en identiteit aan bod.",
+  "summary_tldr": "Typhoon vertelt over zijn lange zoektocht naar God, die begon met een vanzelfsprekende kinderlijke vriendschap met God, via een periode van vervreemding en een burn-out naar een hernieuwde, persoonlijke band met God. Hij spreekt openhartig over geloof, het mijden van het woord God, de rol van zijn omgeving en zijn ervaringen met racisme. Het gesprek draait om het verschil tussen zoeken en vinden, en om de vrijmoedigheid om over geloof te spreken in een seculiere samenleving.",
   "summary_points": [
-    "Typhoon ervaarde God als kind als een beste vriend: 'chillen met God'.",
-    "Hij noemt zichzelf niet religieus; religie is volgens hem slechts een middel, geen doel.",
-    "Zijn zoektocht werd een soort verslaving, omdat vinden verantwoordelijkheid en keuzes met zich meebrengt.",
-    "Tijdens een burn-out schreef hij 'God SOS' en ervoer hij een zalvend antwoord dat hem behoedde.",
-    "Hij onderscheidt de stem van God aan rust en liefde, en gebruikt tools om negatieve gedachten te ontmantelen.",
-    "Hij liet zich dopen in zijn badkuip na hulp van predikante Cindy Mezas en gaat weer naar de kerk in de protestantse traditie.",
-    "Hij spreekt vrijmoedig over geloof in de media, ondanks de Nederlandse terughoudendheid.",
-    "Racisme en etnisch profileren roepen woede en verdriet op, maar zijn nieuwe identiteit in Christus ontstijgt afkomst.",
-    "Liefde is voor hem de kern, ook in zijn relatie en verloving."
+    "Typhoon groeide op met een vanzelfsprekende, intieme band met God en wilde als kind dominee worden",
+    "Hij studeerde religiewetenschap en noemt zichzelf niet religieus, maar gelovig met een persoonlijke relatie",
+    "Een periode van zoektocht, waarin hij het woord God vermeed en synoniemen zocht zoals 'liefste'",
+    "Een diepe burn-out en wanhoop leidden tot het gebed 'God SOS', dat hij als zalvend antwoord ervoer",
+    "Hij herkent 'demonen' als negatieve gedachten die hij met vragen ontmantelt",
+    "Zoeken werd voor hem lange tijd een veilige manier om keuzes te vermijden; vinden vraagt verantwoordelijkheid",
+    "Hij sprak vrijmoedig over zijn geloof in De Wereld Draait Door en Zomergasten, ondanks negatieve reacties",
+    "Hij vertelt over etnisch profileren, woede en de wens geweldloos te blijven",
+    "Het nummer 'Boteman' gaat volgens hem over kracht en zelfbepaling als zwarte man",
+    "Het gesprek eindigt met de gedachte dat hij in zekere zin toch dominee is geworden op zijn eigen manier"
   ],
   "chapters": [
     {
-      "start_seconds": 64,
-      "title": "Intro en verlangen naar het podium",
-      "summary": "Introductie van Typhoon in Hedon in Zwolle; hij mist het optreden en de verbinding met publiek door corona."
+      "start_seconds": 0,
+      "title": "Intro en Hedon",
+      "summary": "Typhoon en David praten in de kleedkamer van Hedon in Zwolle over het ontbreken van optredens door corona en de band met het podium."
     },
     {
-      "start_seconds": 214,
-      "title": "Chillen met God",
-      "summary": "Typhoon vertelt over zijn jeugd in Harde, zijn vriendschap met God en zijn wens dominee te worden."
+      "start_seconds": 180,
+      "title": "Kindertijd en vriendschap met God",
+      "summary": "Typhoon beschrijft zijn protestants-hervormde opvoeding en de vanzelfsprekende band met God en Jezus, en zijn wens dominee te worden."
     },
     {
-      "start_seconds": 695,
-      "title": "Religie, zoeken en vinden",
-      "summary": "Over niet-religieus zijn, religie als tool, het kwijtraken van God, zijn doop en de verslaving aan zoeken."
+      "start_seconds": 660,
+      "title": "Religiewetenschap en 'niet religieus'",
+      "summary": "Hij legt uit waarom hij zichzelf niet religieus noemt en hoe religie een middel kan worden in plaats van een doel."
     },
     {
-      "start_seconds": 1200,
-      "title": "Burn-out en God SOS",
-      "summary": "Over zijn diepe burn-out, het nummer 'God SOS' en het zalvende antwoord dat hem hielp."
+      "start_seconds": 900,
+      "title": "Zoektocht en het woord God",
+      "summary": "Typhoon vertelt over zijn spirituele zoektocht, het vermijden van het woord God en de dopen in bad."
     },
     {
-      "start_seconds": 1549,
-      "title": "Hulp, doop en kerk",
-      "summary": "Cindy Mezas helpt hem, hij wordt thuis in bad gedoopt en vindt zijn plek in de protestantse traditie."
+      "start_seconds": 1320,
+      "title": "Burn-out en 'God SOS'",
+      "summary": "Hij vertelt over zijn diepe wanhoop, het opschrijven van 'God SOS' en de ervaring van troost en hulp."
     },
     {
-      "start_seconds": 1870,
-      "title": "Demonen, vertrouwen en bekendheid",
-      "summary": "Omgaan met negatieve gedachten, vertrouwen, succes en openlijk spreken over geloof bij DWDD en Zomergasten."
+      "start_seconds": 1900,
+      "title": "Demonen, vertrouwen en kunstenaarschap",
+      "summary": "Over negatieve gedachten, vertrouwen in God en de druk van bekendheid en blootstelling als artiest."
     },
     {
-      "start_seconds": 2491,
-      "title": "Racisme en identiteit",
-      "summary": "Over Boteman, etnisch profileren, woede en een nieuwe identiteit in Christus."
+      "start_seconds": 2280,
+      "title": "Vrijmoedig geloven in de media",
+      "summary": "Typhoon reflecteert op reacties op zijn geloofsuitingen en de spanning tussen geloof en een seculiere samenleving."
+    },
+    {
+      "start_seconds": 2520,
+      "title": "Racisme, identiteit en geloof",
+      "summary": "Hij bespreekt etnisch profileren, de track 'Boteman' en hoe geloof en identiteit in Christus zich verhouden tot afkomst."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 58,
+      "start_seconds": 3,
       "speaker": "Typhoon",
       "text": "Gooi alles overboord wat je van me denkt te weten en leer me gewoon opnieuw kennen.",
-      "note": "Wat God volgens hem zei tijdens zijn doop."
+      "note": "Het moment waarop hij beschrijft hoe God hem zijn oude beelden liet loslaten."
     },
     {
-      "start_seconds": 999,
+      "start_seconds": 1140,
       "speaker": "Typhoon",
-      "text": "Ik was verslaafd aan het zoeken.",
-      "note": "Een scherpe observatie over zoeken als vermijding van kiezen."
+      "text": "Het was alsof ik God voor me zag of Jezus voor me zag. Als ik aan het fietsen was, dan waren we samen aan het fietsen.",
+      "note": "Een tastbare, bijna alledaagse beschrijving van een intieme godsrelatie."
     },
     {
-      "start_seconds": 1290,
+      "start_seconds": 1020,
       "speaker": "Typhoon",
-      "text": "Er was voor mij maar 1 oplossing, en ik ben blij dat ik daar niet voor heb gekozen.",
-      "note": "Openhartig over zijn suïcidale periode."
+      "text": "Hij zei dat de ene stem antwoord geeft maar meer vragen oproept, en de andere stem duidelijk is maar rust geeft.",
+      "note": "Een scherp onderscheid tussen twijfelende en zalvende innerlijke stemmen."
     },
     {
-      "start_seconds": 1769,
-      "speaker": "Typhoon",
-      "text": "Ik zit bij mijn demonen op de sofa, ze vragen: wil je thee?",
-      "note": "Typerende beeldspraak voor omgaan met innerlijke strijd."
-    },
-    {
-      "start_seconds": 2386,
+      "start_seconds": 2000,
       "speaker": "Typhoon",
       "text": "Zorgen maken is negatieve meditatie.",
-      "note": "Citaat van een predikant dat hij meeneemt."
+      "note": "Een origineel en pakkend inzicht uit een preek die hij ter harte nam."
     },
     {
-      "start_seconds": 2793,
+      "start_seconds": 2640,
       "speaker": "Typhoon",
-      "text": "Het was alsof God mij met zijn ogen liet kijken: je houdt echt van iedereen.",
-      "note": "Ervaring op Vlieland die zijn blik op liefde en identiteit raakt."
+      "text": "Geweld is een uitingsvorm van onmacht, en ik zal nooit voor geweld kiezen, maar ik wil eerlijk zijn over mijn boosheid.",
+      "note": "Een eerlijke en kwetsbare reflectie op racisme en woede."
     }
   ],
   "keywords": [
-    "Typhoon",
-    "Lichthuis",
-    "Lobi da Basi",
+    "God",
+    "geloof",
+    "zoektocht",
     "burn-out",
     "God SOS",
-    "doop",
+    "dopen",
     "religiewetenschap",
     "racisme",
-    "identiteit",
-    "liefde",
-    "zoektocht",
-    "vertrouwen"
+    "etnisch profileren",
+    "zingeving",
+    "vrijmoedigheid",
+    "Boteman"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik was verslaafd aan het zoeken, ben er denk ik nooit geweest, maar vandaag met een kroon om mijn hoofd, ik leef.",
+    "Ik ben niet alleen maar die liefdevolle verbinder die het grotere plaatje ziet. Ik heb ook verdriet ervan. Ik heb ook woede.",
+    "Als je zoekende bent, vinden mensen dat oké, maar als je vol vreugde meldt dat je het gevonden hebt, vinden mensen dat opeens eng."
+  ],
   "similar": [
     {
-      "n": 313,
-      "reason": "Typhoon is zelf gast; gesprekken over geloven in God met bekende Nederlanders."
-    },
-    {
-      "n": 244,
-      "reason": "Artiest met onverwachte godservaring; zoektocht naar God vanuit atheïsme."
+      "n": 190,
+      "reason": "Zoektocht van atheïst naar God, kunst en geloof, vergelijkbaar met Typhoons weg."
     },
     {
       "n": 319,
-      "reason": "Schrijver over zijn bekering, twijfel en zoektocht naar God."
+      "reason": "Bekering, twijfel en geloofsverhaal van een Vlaamse schrijver, sterk verwant aan Typhoons zoektocht."
     },
     {
-      "n": 154,
-      "reason": "Probeerde niet te geloven maar het lukte niet; persoonlijke geloofsweg."
+      "n": 109,
+      "reason": "Zingevingscrisis en de sprong naar geloof, thematisch sterk overlappend met het gesprek."
     },
     {
-      "n": 61,
-      "reason": "Tim Hofman over zin en onzin van religie; bekende Nederlander en geloof."
+      "n": 97,
+      "reason": "Leegte, zingeving en geloof in een seculiere samenleving, plus migratie-ervaring als thema."
+    },
+    {
+      "n": 198,
+      "reason": "Zingeving, nihilisme en geloof gecombineerd met kunst en cultuur, zoals in deze aflevering."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

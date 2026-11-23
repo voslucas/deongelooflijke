@@ -1,351 +1,386 @@
 {
   "episode": 171,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107073,
+    "segments": 1147,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31453,
-    "output_tokens": 2825,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56104,
+    "output_tokens": 8101,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
-    "Geschiedenis",
     "Dood & rouw",
-    "Samenleving & migratie"
+    "Geschiedenis",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Rens Bod"
   ],
   "people": [
     {
+      "name": "Rens Bod",
+      "note": "Hoogleraar digitale geesteswetenschappen, auteur van 'Waarom ben ik hier?', gast",
+      "start_seconds": 99,
+      "mention_count": 3
+    },
+    {
       "name": "Wilhelm Dilthey",
-      "note": "Duitse filosoof die het begrip 'verstehen' introduceerde",
-      "start_seconds": 488,
-      "wiki_checked": true,
-      "wiki_pageid": 128565,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wilhelm_Dilthey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Dilthey1-4.jpg/250px-Dilthey1-4.jpg"
+      "note": "Duitse filosoof, begrip 'verstehen'",
+      "start_seconds": 483,
+      "mention_count": 1
     },
     {
-      "name": "Isaac Newton",
-      "note": "wetenschapper die zich decennialang met alchemie bezighield",
-      "start_seconds": 1272,
-      "wiki_checked": true,
-      "wiki_pageid": 786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isaac_Newton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/250px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg"
+      "name": "Arjen van Velen",
+      "note": "Journalist die stelt dat er weinig aanbod van zingeving is",
+      "start_seconds": 692,
+      "mention_count": 1
     },
     {
-      "name": "Yuval Noah Harari",
-      "note": "denker die zich bezighoudt met transhumanisme en levensverlenging",
-      "start_seconds": 1358,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "name": "Josse de Voogd",
+      "note": "Genoemd als bron uit vorige aflevering over politiek en onvrede",
+      "start_seconds": 914,
+      "mention_count": 1
     },
     {
       "name": "Pythagoras",
-      "note": "Griekse denker; Newton meende dat alle kennis bij hem lag",
-      "start_seconds": 1289,
-      "wiki_checked": true,
-      "wiki_pageid": 1306,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pythagoras",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg/250px-Kapitolinischer_Pythagoras_adjusted.jpg"
+      "note": "Volgens Newton de bron van alle oude kennis over alchemie",
+      "start_seconds": 1274,
+      "mention_count": 1
     },
     {
-      "name": "Karl Jaspers",
-      "note": "filosoof van de Axiale tijd",
-      "start_seconds": 1437,
-      "wiki_checked": true,
-      "wiki_pageid": 664104,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Jaspers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Karl_Jaspers_1910.jpg/250px-Karl_Jaspers_1910.jpg"
+      "name": "Isaac Newton",
+      "note": "Natuurwetenschapper die jaren aan alchemie besteedde",
+      "start_seconds": 1258,
+      "mention_count": 2
+    },
+    {
+      "name": "Gilgamesh",
+      "note": "Held uit het Gilgamesh-epos, zoekt het levenselixer",
+      "start_seconds": 1200,
+      "mention_count": 1
+    },
+    {
+      "name": "Confucius",
+      "note": "Chinese filosoof uit de Axiale tijd",
+      "start_seconds": 1456,
+      "mention_count": 2
     },
     {
       "name": "Socrates",
       "note": "Griekse filosoof uit de Axiale tijd",
       "start_seconds": 1456,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
+      "mention_count": 1
     },
     {
       "name": "Plato",
       "note": "Griekse filosoof uit de Axiale tijd",
       "start_seconds": 1456,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Confucius",
-      "note": "Chinese wijsgeer uit de Axiale tijd",
-      "start_seconds": 1456,
-      "wiki_checked": true,
-      "wiki_pageid": 107410,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Confucius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Confuciustombqufu.jpg/250px-Confuciustombqufu.jpg"
+      "mention_count": 1
     },
     {
       "name": "Boeddha",
-      "note": "stichter van het boeddhisme, uit de Axiale tijd",
+      "note": "Stichter van het boeddhisme, genoemd als bron van zingeving",
       "start_seconds": 1456,
-      "wiki_checked": true,
-      "wiki_pageid": 110806,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gautama_Boeddha",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG/250px-Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG"
+      "mention_count": 2
     },
     {
       "name": "Orunmila",
-      "note": "Yoruba-filosoof uit Nigeria",
+      "note": "Yoruba-filosoof uit het hedendaagse Nigeria",
       "start_seconds": 1470,
-      "wiki_checked": true,
-      "wiki_pageid": 5422097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Orunmila",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Clevelandart_1994.200.jpg/250px-Clevelandart_1994.200.jpg"
+      "mention_count": 3
     },
     {
       "name": "Aristoteles",
-      "note": "Griekse filosoof; tegenovergestelde opvatting over eer en zelfliefde",
+      "note": "Griekse filosoof, standpunt over eer en zelfliefde",
       "start_seconds": 1531,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Zera Yacob",
-      "note": "Ethiopische filosoof, 'Afrikaanse Descartes'",
-      "start_seconds": 1775,
-      "wiki_checked": true
+      "name": "Yuval Noah Harari",
+      "note": "Denker die serieus bezig is met transhumanisme",
+      "start_seconds": 1358,
+      "mention_count": 1
     },
     {
-      "name": "René Descartes",
-      "note": "Europese filosoof van het systematische scepticisme",
-      "start_seconds": 1775,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "name": "Albert Camus",
+      "note": "Filosoof die zegt dat het leven absurd is",
+      "start_seconds": 2605,
+      "mention_count": 1
+    },
+    {
+      "name": "Søren Kierkegaard",
+      "note": "Deense filosoof, de 'sprong in het duister'",
+      "start_seconds": 3051,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Frankl",
+      "note": "Psychiater, overlevende van concentratiekamp, zocht zingeving",
+      "start_seconds": 2682,
+      "mention_count": 1
+    },
+    {
+      "name": "Primo Levi",
+      "note": "Overlevende van Auschwitz, schrijver van 'Is dat een mens?'",
+      "start_seconds": 2682,
+      "mention_count": 2
+    },
+    {
+      "name": "Elie Wiesel",
+      "note": "Overlevende van concentratiekamp en schrijver",
+      "start_seconds": 2694,
+      "mention_count": 1
+    },
+    {
+      "name": "André Schwarz-Bart",
+      "note": "Auteur van de roman 'De rechtvaardigen'",
+      "start_seconds": 2760,
+      "mention_count": 1
     },
     {
       "name": "David Brooks",
-      "note": "auteur van 'The Second Mountain'",
+      "note": "Auteur die de 'tweede berg' beschrijft",
       "start_seconds": 1118,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog: biografische oplossingen voor systeemfouten",
+      "start_seconds": 2290,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk de Wachter",
+      "note": "Psychiater die het 'gewoon zijn' als troost benoemt",
+      "start_seconds": 2420,
+      "mention_count": 1
     },
     {
       "name": "Herman Paul",
-      "note": "collega in Leiden die onderzoek doet naar secularisering",
-      "start_seconds": 1731,
-      "wiki_checked": true
+      "note": "Historicus/theoloog, eerder in de podcast over verlangens",
+      "start_seconds": 3086,
+      "mention_count": 2
     },
     {
-      "name": "Josse de Voogd",
-      "note": "genoemd in de vorige aflevering over stemgedrag",
-      "start_seconds": 915,
-      "wiki_checked": true,
-      "wiki_pageid": 5875717,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Josse_de_Voogd",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Josse_de_Voogd_-_2023.jpg/250px-Josse_de_Voogd_-_2023.jpg"
+      "name": "Karl Jaspers",
+      "note": "Filosoof die het begrip Axiale tijd introduceerde",
+      "start_seconds": 1428,
+      "mention_count": 1
     },
     {
-      "name": "Arjen van Veelen",
-      "note": "journalist die schrijft over behoefte aan zingeving",
-      "start_seconds": 657,
-      "wiki_checked": true,
-      "wiki_pageid": 4409842,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_van_Veelen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Arjen_van_Veelen-2018.jpg/250px-Arjen_van_Veelen-2018.jpg"
+      "name": "Zera Yacob",
+      "note": "Ethiopische filosoof, vergeleken met Descartes",
+      "start_seconds": 1770,
+      "mention_count": 2
+    },
+    {
+      "name": "René Descartes",
+      "note": "Franse filosoof en wiskundige, systematische scepsis",
+      "start_seconds": 1770,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Waarom ben ik hier?",
       "author": "Rens Bod",
-      "note": "geschiedenis van zingeving wereldwijd, met ongeveer 180 zingevingsvormen",
-      "start_seconds": 107,
-      "volume_id": "W-7nEAAAQBAJ",
-      "canonical_title": "Waarom ben ik hier?",
+      "note": "Besproken boek over geschiedenis van zingeving",
+      "start_seconds": 99,
+      "volume_id": "pZdC0AEACAAJ",
+      "canonical_title": "Waarom ben ik hier? Een kleine wereld van zingeving",
       "canonical_author": "Rens Bod",
-      "isbn13": "9789044652246",
-      "isbn10": "9044652249",
-      "thumbnail": "http://books.google.com/books/content?id=W-7nEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044652239",
+      "isbn10": "9044652230",
+      "thumbnail": ""
     },
     {
-      "title": "De Second Mountain",
-      "author": "David Brooks",
-      "note": "over de tweede berg in het leven na een crisis",
-      "start_seconds": 1118,
-      "volume_id": "y07ODwAAQBAJ",
-      "canonical_title": "De tweede berg: De zoektocht naar een zinvol leven",
-      "canonical_author": "David Brooks",
-      "isbn13": "9789000371853",
-      "isbn10": "9000371856",
-      "thumbnail": "http://books.google.com/books/content?id=y07ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Wereldvol patronen",
+      "author": "Rens Bod",
+      "note": "Eerder boek over geschiedenis van de wetenschappen, door Stefan Paas aangeprezen",
+      "start_seconds": 402
+    },
+    {
+      "title": "Is dat een mens?",
+      "author": "Primo Levi",
+      "note": "Over overleven in Auschwitz en menselijke waardigheid",
+      "start_seconds": 2682,
+      "volume_id": "ip2ODwAAQBAJ",
+      "canonical_title": "Is dit een mens & Het respijt",
+      "canonical_author": "Primo Levi",
+      "isbn13": "9789402313437",
+      "isbn10": "9402313435",
+      "thumbnail": "http://books.google.com/books/content?id=ip2ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De rechtvaardigen",
+      "author": "André Schwarz-Bart",
+      "note": "Historische fictie, slotscène in de gaskamer met liefdesgedicht",
+      "start_seconds": 2760,
+      "volume_id": "Q9ncGAAACAAJ",
+      "canonical_title": "De laatste der rechtvaardigen",
+      "canonical_author": "André Schwarz-Bart",
+      "isbn13": "9789029078931",
+      "isbn10": "9029078936",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheus 5",
-      "note": "Bergrede; keer ook de andere wang toe",
-      "start_seconds": 1601
+      "ref": "Mattheus 22:39",
+      "note": "Heb je naaste lief als jezelf, gekoppeld aan de Bergrede",
+      "start_seconds": 1600
     },
     {
-      "ref": "Mattheus 22:39",
-      "note": "heb je naaste lief als jezelf",
-      "start_seconds": 1606
+      "ref": "Mattheus 5:39",
+      "note": "Keer de andere wang toe, besproken als parallel met zelfliefde en liefde voor anderen",
+      "start_seconds": 1688
     }
   ],
   "places": [
     "Malakka",
     "Maleisië",
+    "Turijn",
+    "Auschwitz",
     "Nigeria",
     "India",
-    "China",
-    "Groningen",
-    "Amsterdam",
-    "Leiden"
+    "Japan",
+    "Leiden",
+    "Groningen"
   ],
-  "summary_tldr": "Rens Bod bespreekt zijn boek 'Waarom ben ik hier?', een wereldwijde geschiedenis van zingeving, en laat zien dat zingeving mensen gezonder, gelukkiger en aantrekkelijker maakt. Samen met Stefan Paas verkent hij de zingevingscrisis onder jongeren, de rol van sterfelijkheid en niet-westerse zingevingsvormen. Ook vertelt hij hoe zijn eigen post-covid-periode zijn zingeving op de proef stelde.",
+  "summary_tldr": "Rens Bod, hoogleraar digitale geesteswetenschappen, bespreekt zijn boek 'Waarom ben ik hier?', een historisch overzicht van honderden vormen van zingeving wereldwijd. Hij betoogt dat de meeste zingeving over het leven gaat in plaats van over de dood, en dat zingeving samenhangt met gezondheid en geluk. Samen met Stefan Paas bespreekt hij of zingeving te kiezen is, en wat de risico's zijn van zingeving als consumptieproduct.",
   "summary_points": [
-    "Rens Bod kreeg post-covid met hersenmist, waardoor zijn eigen zingeving onder druk kwam te staan",
-    "Zingeving maakt mensen gezonder, gelukkiger en aantrekkelijker als partner",
-    "Bijna de helft van de jongeren heeft mentale problemen en een kwart ziet het leven als uitzichtloos",
-    "Er bestond nog geen historisch overzicht van zingeving; Bod vond ongeveer 180 vormen",
-    "Een leven zonder zin is erger dan de dood zelf",
-    "Mensen zoeken al eeuwen naar onsterfelijkheid, van Gilgamesj tot transhumanisme, maar levensverlenging lost het zinloosheidsprobleem niet op",
-    "Niet-westerse bronnen als Orunmila en Zera Yacob verdienen erkenning en kunnen een geseculariseerd publiek aanspreken",
-    "Punan van de Semai laat zien dat een minder competitieve samenleving denkbaar is",
-    "Zelfliefde en liefde voor anderen moeten in evenwicht zijn"
+    "Rens Bod ervoer na COVID maandenlang hersenmist, wat zijn eigen zingeving op de proef stelde.",
+    "Zingeving blijkt samen te hangen met gezondheid, geluk en aantrekkelijkheid, volgens psychologisch en sociologisch onderzoek.",
+    "Onderzoek onder jongeren toont veel mentale problemen en levensmoeheid; er zou weinig aanbod van zingeving zijn.",
+    "Bod heeft ongeveer 180 zingevingsvormen verzameld, uit diverse culturen en tijdperken, en groepeert ze in thema's.",
+    "Zingeving begint volgens Bod bij het besef van sterfelijkheid, maar de angst voor een zinloos leven is groter dan die voor de dood.",
+    "Stefan Paas bekritiseert de neiging zingeving instrumenteel of als consumptieproduct te behandelen.",
+    "Voorbeelden als de Jaïnisten, Punan en Ubuntu tonen andere waarden zoals non-competitiviteit en harmonie met de natuur.",
+    "Bod wijst op Nederlandse secularisatie en de druk om zelf zingeving te vinden zonder gemeenschap.",
+    "Beide gesprekspartners benadrukken het belang van verbinding met anderen als bron van zingeving en troost.",
+    "Het gesprek eindigt met de vraag of zingeving te kiezen is, en Bods volgende boek over identiteit en wat mensen verbindt."
   ],
   "chapters": [
     {
-      "start_seconds": 107,
-      "title": "Post-covid en hersenmist",
-      "summary": "Bod vertelt hoe long covid zijn boek vertraagde en zijn eigen zingeving op de proef stelde."
+      "start_seconds": 0,
+      "title": "Inleiding en de vraag naar zingeving",
+      "summary": "De presentator introduceert het thema en de gast, en de vraag waarom mensen zingeving zoeken."
     },
     {
-      "start_seconds": 275,
-      "title": "Punan: niets opleggen aan anderen",
-      "summary": "De zingevingsvorm van de Semai helpt Bod om zijn ziekte te aanvaarden."
+      "start_seconds": 99,
+      "title": "Persoonlijke crisis door COVID",
+      "summary": "Bod vertelt over zijn langdurige post-COVID-klachten en hoe hij zijn eigen zingeving daardoor moest heroverwegen."
     },
     {
-      "start_seconds": 395,
-      "title": "Waarom dit boek?",
-      "summary": "Van geesteswetenschap naar zingeving: onderzoek toont dat zingeving gezond en aantrekkelijk maakt."
+      "start_seconds": 483,
+      "title": "Geesteswetenschap en het boek",
+      "summary": "Bod legt uit waarom hij vanuit de geesteswetenschappen naar zingeving kijkt en waarom er geen overzichtswerk bestond."
     },
     {
-      "start_seconds": 585,
-      "title": "Zingevingscrisis onder jongeren",
-      "summary": "Cijfers over mentale problemen, eenzaamheid, secularisering en het gebrek aan aanbod van zingeving."
-    },
-    {
-      "start_seconds": 1010,
+      "start_seconds": 1000,
       "title": "Wat is zingeving?",
-      "summary": "Definitie van zingeving, het levensnarratief en de tweede berg."
+      "summary": "Stefan Paas vraagt naar de definitie; zingeving wordt gezien als het geven van doel en betekenis aan het leven, van religie tot werk en macht."
     },
     {
       "start_seconds": 1154,
-      "title": "Sterfelijkheid en onsterfelijkheid",
-      "summary": "Gilgamesj, alchemie, Newton en transhumanisme: de dood is erg, maar een zinloos leven erger."
+      "title": "Sterfelijkheid en het zoeken naar eeuwig leven",
+      "summary": "Van het Gilgamesh-epos tot alchemie en transhumanisme: de mens zoekt al eeuwen naar onsterfelijkheid, maar een leven zonder zin is erger dan de dood."
     },
     {
-      "start_seconds": 1420,
-      "title": "Niet-westerse denkers en de Axiale tijd",
-      "summary": "Orunmila, Confucius, Zera Yacob en de vraag wat wij hiermee kunnen, ook strategisch voor een geseculariseerd publiek."
+      "start_seconds": 1421,
+      "title": "Oude culturen en Afrikaanse filosofie",
+      "summary": "Bod bespreekt de Axiale tijd en filosofen als Confucius en Orunmila, en de mogelijke toegankelijkheid van die denkers voor westerlingen."
     },
     {
-      "start_seconds": 1840,
-      "title": "Minder competitie en duurzaamheid",
-      "summary": "De Semai en de Jaïnisten als inspiratie voor een minder competitieve en duurzamere samenleving."
+      "start_seconds": 1957,
+      "title": "Competitie, delen en duurzaamheid",
+      "summary": "Voorbeelden van de Punan en de Jaïnisten illustreren non-competitiviteit en harmonie met de natuur, als alternatief voor de westerse samenleving."
+    },
+    {
+      "start_seconds": 3015,
+      "title": "Kun je zingeving kiezen?",
+      "summary": "Het gesprek gaat over keuze, bekering en het risico van zingeving als consumptieproduct, en over het belang van gemeenschap en verbinding."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1168,
+      "start_seconds": 367,
+      "speaker": "Rens Bod",
+      "text": "Ik wilde in ieder geval een glimlachende, zwijgende zieke zijn.",
+      "note": "Een humoristisch en persoonlijk moment waarin Bod zijn eigen worsteling met machteloosheid en stoïcijns acceptatie toont."
+    },
+    {
+      "start_seconds": 1188,
       "speaker": "Rens Bod",
       "text": "De dood is erg, maar een leven zonder zin is nog veel erger.",
-      "note": "Kernstelling van het boek."
+      "note": "De kern van Bods betoog: het gevreesde niet is de dood maar de zinloosheid."
     },
     {
       "start_seconds": 1388,
       "speaker": "Stefan Paas",
-      "text": "Als je leven in essentie zinloos is, dan is het alleen maar erger als je langer leeft.",
-      "note": "Scherpe reactie op levensverlenging."
+      "text": "Als je leven in essentieel zinloos is, dan maakt het alleen maar erger als je langer leeft.",
+      "note": "Een scherpe kritiek op de droom van levensverlenging, die het probleem van zinloosheid niet oplost."
     },
     {
-      "start_seconds": 1290,
-      "speaker": "Rens Bod",
-      "text": "Newtons hondje liet papieren in het vuur vallen, waarmee de alchemistische kennis definitief verloren ging.",
-      "note": "Smeuïg verhaal over Newton."
-    },
-    {
-      "start_seconds": 1743,
+      "start_seconds": 2457,
       "speaker": "Stefan Paas",
-      "text": "Zodra je zegt dat het van Jezus komt, zegt iedereen 'hoeft niet', maar bij een Chinese wijsgeer is het ineens geweldig.",
-      "note": "Ironisch inzicht over secularisering."
+      "text": "Getrouwde mannen zijn gelukkiger, maar als je gaat daten omdat het gelukkiger maakt, gebruik je de partner instrumenteel.",
+      "note": "Laat zien dat zingeving paradoxaal is: het werkt pas als je het niet direct najaagt."
     },
     {
-      "start_seconds": 1900,
-      "speaker": "Rens Bod",
-      "text": "De Semai halen bij tennis alle competitieve elementen weg: geen punten, de bal zo fijn mogelijk terugspelen.",
-      "note": "Prikkelend voorbeeld van non-competitie."
+      "start_seconds": 3184,
+      "speaker": "Stefan Paas",
+      "text": "Dat maakt zingeving op een bepaalde manier klein, het gaat dan om het beheer van je emotionele leven.",
+      "note": "Een fundamentele kritiek op een individualistische, consumptieve benadering van zingeving."
     }
   ],
   "keywords": [
     "zingeving",
     "sterfelijkheid",
-    "Rens Bod",
-    "punan",
-    "Semai",
+    "geluk",
+    "mentale gezondheid",
     "Axiale tijd",
-    "alchemie",
-    "transhumanisme",
-    "zingevingscrisis",
-    "secularisering",
-    "competitiviteit",
-    "levensnarratief"
+    "Jaïnisme",
+    "Punan",
+    "levensverhaal",
+    "secularisatie",
+    "individualisering",
+    "consumentisme",
+    "transhumanisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Waarom ben ik hier? Wat heeft het leven voor zin?",
+    "zingeving mensen gezonder, gelukkiger en aantrekkelijker maakt",
+    "Hoogleraar Digitale Geesteswetenschappen Rens Bod beschrijft in zijn boek 'Waarom ben ik hier?' een geschiedenis van zingeving"
+  ],
   "similar": [
     {
-      "n": 287,
-      "reason": "Zingevingscrisis onder jongeren, eenzaamheid en individualisme, met Stefan Paas"
-    },
-    {
-      "n": 249,
-      "reason": "Mentale gezondheid en psyche, uitweg uit de mentale epidemie"
-    },
-    {
-      "n": 274,
-      "reason": "Sterfelijkheid herwaarderen en zingeving rond de dood, met Stefan Paas"
-    },
-    {
       "n": 314,
-      "reason": "Zingevingscrisis van het moderne leven, leegte en psyche"
+      "reason": "Zingeving-crisis en leegte van het moderne leven, zoals ook in deze aflevering"
     },
     {
-      "n": 265,
-      "reason": "Moderne levensstijl, psyche en lange geschiedenis van de mens, met Paas"
+      "n": 33,
+      "reason": "Geluk en het goede leven met Dirk de Wachter, die ook in deze aflevering figureert"
+    },
+    {
+      "n": 223,
+      "reason": "Een goed en gelukkiger leven; onderzoek naar focus, geluk en zingeving"
+    },
+    {
+      "n": 217,
+      "reason": "Existentiële eenzaamheid en de zoektocht naar geluk, vanuit de filosofie"
+    },
+    {
+      "n": 308,
+      "reason": "Betekenisloosheid en zoektocht naar vreugde, met zingevingsthema's en God"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

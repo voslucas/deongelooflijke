@@ -1,268 +1,467 @@
 {
   "episode": 303,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 205224,
+    "segments": 1817,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31173,
-    "output_tokens": 2389,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 104571,
+    "output_tokens": 4560,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
-    "Technologie & AI",
     "Geopolitiek & oorlog",
-    "Filosofie & ethiek"
+    "Technologie & AI",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Pieter Omtzigt"
   ],
   "people": [
     {
-      "name": "Liz Truss",
-      "note": "Britse premier met zeer kort premierschap",
-      "start_seconds": 406,
-      "wiki_checked": true,
-      "wiki_pageid": 4594608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Liz_Truss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Liz_Truss_%2854346036307%29_%28cropped%29.jpg/250px-Liz_Truss_%2854346036307%29_%28cropped%29.jpg"
+      "name": "Pieter Omtzigt",
+      "note": "gast; voormalig Kamerlid (CDA, Groep Omtzigt, NSC)",
+      "start_seconds": 12,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 244,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, deal met de belastingdienst",
+      "note": "Amerikaans president; besproken om machtsconcentratie en AI-regelgeving",
       "start_seconds": 420,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Jimmy Carter",
-      "note": "oud-president die zijn pindaboerderij verkocht vanwege belangenverstrengeling",
-      "start_seconds": 490,
-      "wiki_checked": true,
-      "wiki_pageid": 3643,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jimmy_Carter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/250px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg"
-    },
-    {
-      "name": "Edward Snowden",
-      "note": "klokkenluider, Omtzigt hield in 2014 een hoorzitting met hem",
-      "start_seconds": 785,
-      "wiki_checked": true,
-      "wiki_pageid": 3621920,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edward_Snowden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Libreplanet_2016_-_Edward_Snowden_Keynote.png/250px-Libreplanet_2016_-_Edward_Snowden_Keynote.png"
-    },
-    {
-      "name": "Julian Assange",
-      "note": "oprichter WikiLeaks, door Omtzigt bezocht in de ambassade",
-      "start_seconds": 2171,
-      "wiki_checked": true,
-      "wiki_pageid": 1938263,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julian_Assange",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Julian_Assange_August_2014.jpg/250px-Julian_Assange_August_2014.jpg"
-    },
-    {
-      "name": "Daphne Caruana Galizia",
-      "note": "vermoorde Maltese journalist, Omtzigt deed het onderzoek",
-      "start_seconds": 2187,
-      "wiki_checked": true,
-      "wiki_pageid": 5038954,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daphne_Caruana_Galizia",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/MDLXV_Statue_in_2020.01.jpg/250px-MDLXV_Statue_in_2020.01.jpg"
-    },
-    {
-      "name": "Dick Marty",
-      "note": "rapporteur over de geheime CIA-gevangenissen",
-      "start_seconds": 1985,
-      "wiki_checked": true,
-      "wiki_pageid": 344480,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Marty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dick_Marty_%282007%29.jpg/250px-Dick_Marty_%282007%29.jpg"
+      "mention_count": 6
     },
     {
       "name": "Adolf Hitler",
-      "note": "nam in 1933 de macht over met de Ermächtigungsgesetz",
+      "note": "Duitse dictator; Ermächtigungsgesetz 1933",
       "start_seconds": 908,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Jan Peter Balkenende",
-      "note": "CDA-premier die de VUT niet houdbaar noemde",
-      "start_seconds": 1474,
-      "wiki_checked": true,
-      "wiki_pageid": 159,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Peter_Balkenende",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Jan_Peter_Balkenende_2006.jpg/250px-Jan_Peter_Balkenende_2006.jpg"
+      "name": "Edward Snowden",
+      "note": "klokkenluider over NSA-massasurveillance",
+      "start_seconds": 1107,
+      "mention_count": 2
+    },
+    {
+      "name": "Julian Assange",
+      "note": "oprichter WikiLeaks; bezocht door Omtzigt",
+      "start_seconds": 2190,
+      "mention_count": 1
+    },
+    {
+      "name": "Daphne Caruana Galizia",
+      "note": "Maltese journaliste, vermoord; onderzoek door Omtzigt",
+      "start_seconds": 2190,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Marty",
+      "note": "Zwitserse parlementariër; rapport over geheime CIA-gevangenissen",
+      "start_seconds": 1960,
+      "mention_count": 1
+    },
+    {
+      "name": "Thorbjørn Jagland",
+      "note": "secretaris-generaal Raad van Europa; Nobelcomité-voorzitter",
+      "start_seconds": 2490,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "note": "veroordeelde zedendelinquent; contacten met Jagland",
+      "start_seconds": 2490,
+      "mention_count": 2
+    },
+    {
+      "name": "Bill Gates",
+      "note": "ondernemer; bezoek aan Jagland",
+      "start_seconds": 2500,
+      "mention_count": 1
     },
     {
       "name": "Bashar al-Assad",
-      "note": "Syrische dictator, bezocht door de voorzitter van de Raad van Europa-assemblee",
-      "start_seconds": 2429,
-      "wiki_checked": true,
-      "wiki_pageid": 40568,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bashar_al-Assad",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg/250px-Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg"
+      "note": "Syrische dictator; bezocht door Russische vliegtuig met Raad van Europa-voorzitter",
+      "start_seconds": 2430,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutte",
+      "note": "voormalig premier; kabinetten en Catshuisregeling",
+      "start_seconds": 1290,
+      "mention_count": 3
+    },
+    {
+      "name": "Hugo de Jonge",
+      "note": "CDA-politicus; leiderschapsverkiezing 2020",
+      "start_seconds": 3540,
+      "mention_count": 3
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "CDA-politicus, lijsttrekker na De Jonge",
+      "start_seconds": 3780,
+      "mention_count": 2
+    },
+    {
+      "name": "Erik Wiebes",
+      "note": "oud-staatssecretaris; trad af na toeslagenschandaal",
+      "start_seconds": 4170,
+      "mention_count": 1
+    },
+    {
+      "name": "Renske Leijten",
+      "note": "Kamerlid, medestrijder in toeslagenschandaal",
+      "start_seconds": 3540,
+      "mention_count": 2
+    },
+    {
+      "name": "Frank Schwabe",
+      "note": "Duitse sociaaldemocraat; steun in Raad van Europa",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "GroenLinks-PvdA lijsttrekker; debat met Wilders",
+      "start_seconds": 5580,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider",
+      "start_seconds": 5490,
+      "mention_count": 2
+    },
+    {
+      "name": "Liz Truss",
+      "note": "korte Britse premier",
+      "start_seconds": 400,
+      "mention_count": 1
     },
     {
       "name": "Markus Sauer",
-      "note": "politicus, uitspraken over Gaza",
-      "start_seconds": 1266,
-      "wiki_checked": true
+      "note": "politicus; uitspraken over Gaza",
+      "start_seconds": 1260,
+      "mention_count": 1
+    },
+    {
+      "name": "Balkenende",
+      "note": "CDA-premier; pensioenbeleid",
+      "start_seconds": 1480,
+      "mention_count": 2
+    },
+    {
+      "name": "Dirk Schoof",
+      "note": "premier van kabinet-Schoof",
+      "start_seconds": 6060,
+      "mention_count": 3
+    },
+    {
+      "name": "Karl Marx",
+      "note": "filosoof; genoemd bij Mao-context",
+      "start_seconds": 5690,
+      "mention_count": 0
+    },
+    {
+      "name": "Mao Zedong",
+      "note": "Chinese leider; genoemd in context van politieke idolen",
+      "start_seconds": 5690,
+      "mention_count": 1
+    },
+    {
+      "name": "Rafael Lemkin",
+      "note": "Joodse jurist die het begrip genocide introduceerde",
+      "start_seconds": 5000,
+      "mention_count": 1
+    },
+    {
+      "name": "Jimmy Carter",
+      "note": "oud-president VS; pindaboerderij-voorbeeld",
+      "start_seconds": 470,
+      "mention_count": 1
+    },
+    {
+      "name": "Rockefeller",
+      "note": "industrieel; bedrijf ontmanteld",
+      "start_seconds": 750,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus; migratiedebat op de kaart gezet",
+      "start_seconds": 6240,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president; inval Krim, Sotsji",
+      "start_seconds": 2700,
+      "mention_count": 3
+    },
+    {
+      "name": "Nebukadnezar",
+      "note": "Bijbelse koning; grap over democratie",
+      "start_seconds": 70,
+      "mention_count": 3
+    },
+    {
+      "name": "Gert Koopmans",
+      "note": "auteur rapport over arbeidsmigratie uit 2010",
+      "start_seconds": 5940,
+      "mention_count": 1
+    },
+    {
+      "name": "Roemer",
+      "note": "Rapport-Roemer over arbeidsmigratie",
+      "start_seconds": 5960,
+      "mention_count": 2
+    },
+    {
+      "name": "Sybrand Buma",
+      "note": "voormalig CDA-leider",
+      "start_seconds": 5160,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander van Huffelen",
+      "note": "staatssecretaris; telefoontje over compensatie",
+      "start_seconds": 4020,
+      "mention_count": 1
+    },
+    {
+      "name": "Ugo de Jonge",
+      "note": "zie Hugo de Jonge",
+      "start_seconds": 3540,
+      "mention_count": 0
+    },
+    {
+      "name": "Joe Biden",
+      "note": "oud-president VS; debat",
+      "start_seconds": 5640,
+      "mention_count": 1
+    },
+    {
+      "name": "Fleur Agema",
+      "note": "PVV-politica; rechtsstaatsdebat",
+      "start_seconds": 6540,
+      "mention_count": 1
+    },
+    {
+      "name": "Jetten",
+      "note": "D66-leider; 10 steden-plan",
+      "start_seconds": 7080,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; genoemd door Paas",
+      "start_seconds": 5620,
+      "mention_count": 1
+    },
+    {
+      "name": "Anne Frank",
+      "note": "Joodse onderduikster; genoemd door Paas",
+      "start_seconds": 2110,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Omtzigt boek over Syrisch-orthodoxe kerk (titel niet genoemd)",
+      "author": "Pieter Omtzigt",
+      "note": "boek over Syrisch-orthodox christendom; titel niet genoemd in transcript",
+      "start_seconds": 7980
+    },
+    {
+      "title": "From the Holy Mountain",
+      "author": "William Dalrymple",
+      "note": "beschrijft oosters christendom; genoemd door Paas",
+      "start_seconds": 8100,
+      "volume_id": "aFWNYgEACAAJ",
+      "canonical_title": "From the Holy Mountain: A Journey Among the Christians of the Middle East",
+      "canonical_author": "William Dalrymple",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Project 2025",
+      "author": "Heritage Foundation",
+      "note": "Trump-beleidsplan",
+      "start_seconds": 7000
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Daniël 3",
+      "note": "Nebukadnezar en beeld; Paas noemt Nebukadnezar in grap",
+      "start_seconds": 70
+    }
+  ],
   "places": [
     "Den Haag",
     "Twente",
     "Frankrijk",
     "Groot-Brittannië",
     "Verenigde Staten",
-    "China",
     "Polen",
+    "China",
+    "Rusland",
+    "Italië",
+    "Oekraïne",
+    "Straatsburg",
     "Malta",
     "Azerbeidzjan",
     "Armenië",
     "Nagorno-Karabach",
-    "Italië",
-    "Guantanamo Bay",
-    "Roemenië",
-    "Litouwen",
     "Syrië",
-    "Rusland"
+    "Turkije",
+    "Albanië",
+    "Servië",
+    "Loosdrecht",
+    "Leiden",
+    "Damascus",
+    "Constantinopel",
+    "Twente"
   ],
-  "summary_tldr": "Pieter Omtzigt blikt voor het eerst terug op zijn vertrek uit de politiek en op 22 jaar Kamerlidmaatschap en 21 jaar Raad van Europa. Hij schetst een westerse democratie die problemen niet meer oplost en een dystopische AI-wereld van surveillance en machtsconcentratie. Ook vertelt hij over corruptie in de Raad van Europa, met Azerbeidzjan als voorbeeld.",
+  "summary_tldr": "Pieter Omtzigt blikt terug op ruim twintig jaar Kamerlidmaatschap, zijn strijd tegen corruptie in de Raad van Europa en het toeslagenschandaal, en zijn burn-out en vertrek uit de politiek. Hij schetst een beeld van een verstarrende democratie, toenemende technologische machtsconcentratie en een Nederland met existentiële en spirituele leegte. Hij pleit voor een bezielder maatschappijdebat en een grondwettelijk hof.",
   "summary_points": [
-    "Omtzigt voelt zich na ruim een jaar buiten Den Haag beter en volgt de politiek bewust op afstand.",
-    "Westerse democratieën (Frankrijk, VK, VS) hebben steeds meer moeite problemen op te lossen en moeilijke besluiten te nemen.",
-    "Politici spreken elkaar nauwelijks meer en kiezers zijn vluchtig, wat polarisatie en onbestuurbaarheid voedt.",
-    "Hij noemt de AI-machtsconcentratie bij Nvidia, Microsoft en OpenAI zorgwekkend en vergelijkt dit met Rockefeller.",
-    "In China zag hij bij Cloudwalk gezichtsherkenning en crowd control, wat hij dystopisch noemt.",
-    "Autocratie vraagt een surveillanceapparaat, en dat is door technologie veel makkelijker geworden.",
-    "Hij koos vanuit een roeping voor de politiek en het CDA vanwege het middenveld en verantwoord pensioenbeleid.",
-    "Als Kamerlid kreeg hij tijd om te groeien, anders dan nieuwe Kamerleden nu.",
-    "In de Raad van Europa onderzocht hij corruptie rond Azerbeidzjan, waardoor een tiental politici werd geschorst.",
-    "Hij wil een kiesstelsel met meer binding tussen kiezer en gekozene."
+    "Omtzigt ziet westerse democratieën moeite hebben met het oplossen van problemen, zoals in Frankrijk, het VK en de VS.",
+    "Zijn ervaringen in de Raad van Europa met steekpenningen en corruptie rond Azerbeidzjan maakten hem wantrouwiger.",
+    "Het toeslagenschandaal wordt gezien als voorbeeld van overheidsmacht die kan ontsporen, ondanks goede bedoelingen.",
+    "Zijn burn-out ontstond na de CDA-leiderschapskwestie en de 'sensibiliseer'-kwestie rond het kabinet.",
+    "Na zijn vertrek bij het CDA richtte hij NSC op, dat later deelnam aan het kabinet-Schoof met de PVV.",
+    "Omtzigt waarschuwt voor AI-machtsconcentratie en overheidssurveillance, met het voorbeeld van China.",
+    "Hij constateert een existentiële leegte in Nederland en pleit voor een breder maatschappelijk gesprek over identiteit en toekomst.",
+    "Hij ziet de Syrisch-orthodoxe kerk als belangrijk voor zijn persoonlijke geloofsbeleving en wijst op vervolging van christenen.",
+    "Hij pleit voor een grondwettelijk hof en een versterking van checks and balances."
   ],
   "chapters": [
     {
-      "start_seconds": 60,
-      "title": "Een leven na Den Haag",
-      "summary": "Omtzigt vertelt hoe het hem gaat en waarom hij nu pas een interview geeft."
+      "start_seconds": 0,
+      "title": "Introductie en dystopische wereld",
+      "summary": "Omtzigt over zijn vertrek uit Den Haag en het beeld van een verstarrende democratie in het Westen."
     },
     {
-      "start_seconds": 328,
-      "title": "Afglijdende democratieën",
-      "summary": "Over Frankrijk, Groot-Brittannië en Trump, en het onvermogen van politiek om problemen op te lossen."
+      "start_seconds": 1180,
+      "title": "Westerse democratieën en AI-macht",
+      "summary": "Bespreking van machtsconcentratie in techbedrijven en surveillance in China."
     },
     {
-      "start_seconds": 702,
-      "title": "AI en de dystopische wereld",
-      "summary": "Machtsconcentratie bij techbedrijven, surveillance in China en de dreiging van AI zoals Mythos."
+      "start_seconds": 1980,
+      "title": "Politieke loopbaan en CDA",
+      "summary": "Omtzigts keuze voor het CDA, zijn pensioenstandpunten en zijn dossiervreterimago."
     },
     {
-      "start_seconds": 1200,
-      "title": "Nederland en de coalitie",
-      "summary": "Over de Nederlandse politiek, minderheidscoalities en begrotingsproblemen."
-    },
-    {
-      "start_seconds": 1345,
-      "title": "Van academicus naar Kamerlid",
-      "summary": "Zijn promotie, de keuze voor politiek en het CDA, en pensioenhervormingen."
-    },
-    {
-      "start_seconds": 1605,
-      "title": "Dossiervreter en kiesstelsel",
-      "summary": "Zijn imago, de verkiezingen van 2012 en zijn pleidooi voor een ander kiesstelsel."
-    },
-    {
-      "start_seconds": 1893,
+      "start_seconds": 2300,
       "title": "Raad van Europa en corruptie",
-      "summary": "Mensenrechten, geheime gevangenissen, Azerbeidzjan en de corruptie in de assemblee."
+      "summary": "Omtzigts onderzoek naar steekpenningen en mensenrechtenschendingen in Europa."
+    },
+    {
+      "start_seconds": 3500,
+      "title": "Toeslagenschandaal en burn-out",
+      "summary": "Omtzigts rol in het toeslagenschandaal, de CDA-leiderschapsstrijd en zijn burn-out."
+    },
+    {
+      "start_seconds": 4960,
+      "title": "NSC en het kabinet-Schoof",
+      "summary": "Oprichting van NSC, verwachtingen rond de partij en deelname aan het kabinet met de PVV."
+    },
+    {
+      "start_seconds": 6600,
+      "title": "Existentiële leegte en samenleving",
+      "summary": "Omtzigts analyse van een samenleving zonder ziel en het belang van idealen."
+    },
+    {
+      "start_seconds": 7900,
+      "title": "Geloof, Syrisch-orthodoxe kerk en slot",
+      "summary": "Persoonlijke geloofsreis, vervolging van christenen en Omtzigts toekomstplannen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 866,
+      "start_seconds": 1000,
       "speaker": "Pieter Omtzigt",
       "text": "We zijn in een dystopische wereld beland met die AI.",
-      "note": "Kernstelling van het gesprek."
+      "note": "Kernuitspraak die de toon van het gesprek zet."
     },
     {
-      "start_seconds": 1952,
+      "start_seconds": 2490,
       "speaker": "Pieter Omtzigt",
-      "text": "Nee, het was erger.",
-      "note": "Reactie op David die vraagt of hij de corruptie en moorden te zwaar aanzet."
+      "text": "De stilte was oorverdovend.",
+      "note": "Scherpe kritiek op westerse stilte bij de verdrijving van christenen uit Nagorno-Karabach."
     },
     {
-      "start_seconds": 2257,
+      "start_seconds": 5340,
       "speaker": "Pieter Omtzigt",
-      "text": "Collega's namen kaviaar en grote sommen geld aan voor hun stemgedrag.",
-      "note": "Concreet beeld van corruptie in de Raad van Europa."
+      "text": "Politiek is geen idols.",
+      "note": "Scherpe kritiek op het behandelen van politiek als reclame."
     },
     {
-      "start_seconds": 2060,
+      "start_seconds": 6960,
       "speaker": "Pieter Omtzigt",
-      "text": "Politiek is geen Idols.",
-      "note": "Kritiek op de personalisering van de politiek."
+      "text": "Als je het grote verhaal niet op orde hebt, dan ga je als afleiding elk ding aangrijpen.",
+      "note": "Analyse van waarom politieke ophef de existentiële leegte verbergt."
     },
     {
-      "start_seconds": 427,
+      "start_seconds": 7860,
       "speaker": "Pieter Omtzigt",
-      "text": "Dat klinkt als een soort autokraat.",
-      "note": "Over de immuniteitsdeal van Trump en het uithollen van de rechtsstaat."
+      "text": "Dit papier heeft als gevolg...",
+      "note": "Omtzigt over rechtsstaatverklaring als kader voor onderhandelingen."
     }
   ],
   "keywords": [
-    "Pieter Omtzigt",
-    "dystopie",
-    "AI",
-    "democratie",
-    "rechtsstaat",
+    "toeslagenschandaal",
     "Raad van Europa",
     "corruptie",
-    "Azerbeidzjan",
-    "surveillance",
-    "toeslagenschandaal",
     "NSC",
-    "polarisatie"
+    "kabinet-Schoof",
+    "AI-machtsconcentratie",
+    "existentiële leegte",
+    "grondwettelijk hof",
+    "burn-out",
+    "Syrisch-orthodoxe kerk",
+    "christenvervolging",
+    "rechtsstaat"
   ],
-  "quotes": [],
+  "quotes": [
+    "Politiek is geen idols.",
+    "Als burger heb ik maar 1 overheid.",
+    "Ik ben noch heilige, noch misdadiger."
+  ],
   "similar": [
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over de crisis van het Westen, politiek en een kantelpunt in de democratie"
+      "n": 306,
+      "reason": "AI, machtsconcentratie en het verhaal van de Kerk, net als de technologiekritiek in deze aflevering"
     },
     {
       "n": 298,
-      "reason": "Marietje Schaake over AI, macht van Big Tech en politieke gevolgen"
-    },
-    {
-      "n": 295,
-      "reason": "Joris Luyendijk stopt als journalist en pleit voor mobilisering; existentiële strijd om democratie"
+      "reason": "Gesprek over AI-gevaren, geopolitiek en Trump, sterk overlappend met de technologiethema's"
     },
     {
       "n": 292,
-      "reason": "Duistere denkbeelden achter Big Tech, machtsconcentratie en AI"
+      "reason": "Denkers achter Big Tech en hun politieke invloed, aansluitend bij de technologische machtsconcentratie"
     },
     {
-      "n": 252,
-      "reason": "Diepere verklaring voor politiek zonder ziel, een Haagse politieke crisis"
+      "n": 301,
+      "reason": "Losgezongen elite en de vraag van wie de staat is, dicht bij Omtzigts democratiekritiek"
+    },
+    {
+      "n": 267,
+      "reason": "Onbehagen en het falen van de politiek om antwoorden te geven, zoals Omtzigt beschrijft"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

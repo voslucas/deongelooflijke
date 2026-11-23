@@ -1,17 +1,22 @@
 {
   "episode": 31,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 97454,
+    "segments": 880,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30491,
-    "output_tokens": 2600,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49606,
+    "output_tokens": 7654,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
     "Samenleving & migratie",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Filosofie & ethiek"
   ],
   "guests": [
@@ -19,321 +24,323 @@
   ],
   "people": [
     {
-      "name": "Winston Churchill",
-      "note": "Brits premier, standbeeld beklad",
-      "start_seconds": 47,
-      "wiki_checked": true,
-      "wiki_pageid": 13978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winston_Churchill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sir_Winston_Churchill.jpg/250px-Sir_Winston_Churchill.jpg"
-    },
-    {
-      "name": "Mahatma Gandhi",
-      "note": "Indiase vrijheidsleider, standbeeld beklad",
-      "start_seconds": 47,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
-    },
-    {
-      "name": "Christoffel Columbus",
-      "note": "ontdekkingsreiziger, beelden omver gehaald",
-      "start_seconds": 479,
-      "wiki_checked": true,
-      "wiki_pageid": 5600,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christoffel_Columbus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Christopher_Columbus.PNG/250px-Christopher_Columbus.PNG"
+      "name": "Leopold II",
+      "note": "Belgische koning, verantwoordelijk voor het wrede regime in Congo-Vrijstaat",
+      "start_seconds": 496,
+      "mention_count": 7
     },
     {
       "name": "Jan Pieterszoon Coen",
-      "note": "VOC-gouverneur-generaal, standbeeld in Hoorn omstreden",
+      "note": "VOC-gouverneur-generaal; standbeeld in Hoorn omstreden",
       "start_seconds": 489,
-      "wiki_checked": true,
-      "wiki_pageid": 43906,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg/250px-Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
+      "mention_count": 6
     },
     {
       "name": "Michiel de Ruyter",
-      "note": "Nederlands zeeheld, onderwerp van discussie",
+      "note": "Nederlandse zeeheld uit de Gouden Eeuw; standbeeld blijft volgens Stefan Paas staan",
       "start_seconds": 489,
-      "wiki_checked": true,
-      "wiki_pageid": 17801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michiel_de_Ruyter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bol%2C_Michiel_de_Ruyter.jpg/250px-Bol%2C_Michiel_de_Ruyter.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Leopold II",
-      "note": "Belgische koning, eigenaar van Congo-Vrijstaat",
-      "start_seconds": 497,
-      "wiki_checked": true,
-      "wiki_pageid": 18097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leopold_II_van_Belgi%C3%AB",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Leopold_II%2C_King_of_the_Belgians_by_Alexander_Bassano_%281889%29.jpg/250px-Leopold_II%2C_King_of_the_Belgians_by_Alexander_Bassano_%281889%29.jpg"
+      "name": "Winston Churchill",
+      "note": "Brits premier; standbeeld beklad",
+      "start_seconds": 486,
+      "mention_count": 3
     },
     {
-      "name": "Echnaton",
-      "note": "farao, naam uitgewist door opvolgers",
-      "start_seconds": 591,
-      "wiki_checked": true,
-      "wiki_pageid": 3602,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Achnaton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/GD-EG-Caire-Mus%C3%A9e061.JPG/250px-GD-EG-Caire-Mus%C3%A9e061.JPG"
-    },
-    {
-      "name": "Toetanchamon",
-      "note": "farao die zijn naam veranderde",
-      "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 11651,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Toetanchamon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/250px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
-    },
-    {
-      "name": "Benedetto Croce",
-      "note": "Italiaanse denker: elke generatie herschrijft de geschiedenis",
-      "start_seconds": 757,
-      "wiki_checked": true,
-      "wiki_pageid": 54583,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedetto_Croce",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/B.Croce.jpg/250px-B.Croce.jpg"
-    },
-    {
-      "name": "Louis Major",
-      "note": "Belgisch socialistisch vakbondsleider met standbeeld in Antwerpen",
-      "start_seconds": 1235,
-      "wiki_checked": true,
-      "wiki_pageid": 756861,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Louis_Major",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Antwerpen_Stadspark_Standbeeld_Major_-_222256_-_onroerenderfgoed.jpg/250px-Antwerpen_Stadspark_Standbeeld_Major_-_222256_-_onroerenderfgoed.jpg"
-    },
-    {
-      "name": "Joseph Stalin",
-      "note": "voorbeeld van omstreden figuur met nationale trots",
-      "start_seconds": 1202,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
-    },
-    {
-      "name": "Donald Trump",
-      "note": "genoemd als cynicus, niet hypocriet",
-      "start_seconds": 1355,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Anton de Kom",
-      "note": "Surinaams verzetsheld, mogelijk standbeeld",
-      "start_seconds": 1530,
-      "wiki_checked": true,
-      "wiki_pageid": 57768,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anton_de_Kom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/DeKom1924_%28cropped%2C_altered%29.jpg/250px-DeKom1924_%28cropped%2C_altered%29.jpg"
-    },
-    {
-      "name": "Van Heutsz",
-      "note": "gouverneur van Aceh, omstreden monument in Amsterdam",
-      "start_seconds": 1537,
-      "wiki_checked": true,
-      "wiki_pageid": 120601,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jo_van_Heutsz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Joannes_Benedictus_van_Heutsz_Hannke_1908.jpg/250px-Joannes_Benedictus_van_Heutsz_Hannke_1908.jpg"
-    },
-    {
-      "name": "Nehemia",
-      "note": "bijbelse figuur die zonden van de vaderen belijdt",
-      "start_seconds": 1994,
-      "wiki_checked": true,
-      "wiki_pageid": 573355,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nehemia_%28persoon%29"
+      "name": "Mahatma Gandhi",
+      "note": "Indiase vrijheidsstrijder; standbeeld beklad",
+      "start_seconds": 2059,
+      "mention_count": 4
     },
     {
       "name": "Nelson Mandela",
-      "note": "voorbeeld van doorbreken van wraakspiraal",
-      "start_seconds": 2077,
-      "wiki_checked": true,
-      "wiki_pageid": 1179,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nelson_Mandela",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nelson_Mandela-2008_%28edit%29.jpg/250px-Nelson_Mandela-2008_%28edit%29.jpg"
+      "note": "Zuid-Afrikaanse vredesstrijder als voorbeeld van vergeving",
+      "start_seconds": 2059,
+      "mention_count": 1
+    },
+    {
+      "name": "Van Heutsz",
+      "note": "Gouverneur-generaal van Nederlands-Indië; omstreden monument in Amsterdam",
+      "start_seconds": 1520,
+      "mention_count": 4
+    },
+    {
+      "name": "Anton de Kom",
+      "note": "Surinaamse verzetsheld; mogelijke nieuwe standbeeldkandidaat",
+      "start_seconds": 1532,
+      "mention_count": 1
+    },
+    {
+      "name": "Louis Major",
+      "note": "Belgische socialistische vakbondsleider en parlementsvoorzitter; uitspraak over vrouwen omstreden",
+      "start_seconds": 1205,
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider; standbeelden in het gewezen Sovjetimperium",
+      "start_seconds": 1180,
+      "mention_count": 1
+    },
+    {
+      "name": "Echnaton",
+      "note": "Egyptische farao, vaak genoemd als eerste monotheïst",
+      "start_seconds": 591,
+      "mention_count": 2
+    },
+    {
+      "name": "Tutankhamon",
+      "note": "Egyptische farao die de naam van Echnaton liet uitwissen",
+      "start_seconds": 612,
+      "mention_count": 1
+    },
+    {
+      "name": "Benedetto Croce",
+      "note": "Italiaans denker die stelt dat alle geschiedenis hedendaagse geschiedenis is",
+      "start_seconds": 757,
+      "mention_count": 1
+    },
+    {
+      "name": "Douglas Murray",
+      "note": "Brits publicist en criticus van de woke-cultuur",
+      "start_seconds": 2716,
+      "mention_count": 1
     },
     {
       "name": "Jordan Peterson",
-      "note": "professor die van zijn voetstuk werd gehaald",
-      "start_seconds": 2527,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
+      "note": "Canadese psycholoog die van een voetstuk is gehaald",
+      "start_seconds": 2504,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaanse burgerrechtenleider; radicale volgelingen als afleiding",
+      "start_seconds": 2794,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; als cynicus geschetst",
+      "start_seconds": 1356,
+      "mention_count": 1
     },
     {
       "name": "Lucetta Scarafia",
-      "note": "Italiaanse historica, kritisch over kerk tijdens corona",
+      "note": "Italiaanse historica, collega van Rik Torfs",
       "start_seconds": 386,
-      "wiki_checked": true
-    }
-  ],
-  "books": [],
-  "bible_refs": [
+      "mention_count": 1
+    },
     {
-      "ref": "Nehemia 9",
-      "note": "belijdenis van de zonden van de vaderen",
-      "start_seconds": 1995
+      "name": "Horatius",
+      "note": "Romeinse dichter die geen standbeeld wilde",
+      "start_seconds": 3457,
+      "mention_count": 1
+    },
+    {
+      "name": "Nehemia",
+      "note": "Bijbelse figuur die God bidt over de zonden van de vaderen",
+      "start_seconds": 1994,
+      "mention_count": 1
+    },
+    {
+      "name": "Spinoza",
+      "note": "Verlichtingsfilosoof die als heilige van het ander nationaal verhaal wordt gezien",
+      "start_seconds": 3022,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; als theologisch voorbeeld voor een standbeeld genoemd",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Christoffel Columbus",
+      "note": "Ontdekkingsreiziger; standbeelden gesneuveld",
+      "start_seconds": 479,
+      "mention_count": 1
     }
   ],
+  "books": [
+    {
+      "title": "The Second Mountain",
+      "author": "David Brooks",
+      "note": "Boek dat Rik Torfs eerder aanbeval; inmiddels vertaald in het Nederlands",
+      "start_seconds": 3823,
+      "volume_id": "qlyDDwAAQBAJ",
+      "canonical_title": "The Second Mountain: The Quest for a Moral Life",
+      "canonical_author": "David Brooks",
+      "isbn13": "9780241400692",
+      "isbn10": "0241400694",
+      "thumbnail": "http://books.google.com/books/content?id=qlyDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De kerk is fantastisch!",
+      "author": "Rik Torfs",
+      "note": "Komend boek van Rik Torfs, verschijnt in september",
+      "start_seconds": 3893,
+      "volume_id": "m2j-DwAAQBAJ",
+      "canonical_title": "De kerk is fantastisch!",
+      "canonical_author": "Rik Torfs",
+      "isbn13": "9789043534789",
+      "isbn10": "9043534781",
+      "thumbnail": "http://books.google.com/books/content?id=m2j-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ],
+  "bible_refs": [],
   "places": [
-    "Vlaanderen",
-    "Nederland",
-    "België",
-    "Congo",
     "Hoorn",
     "Amsterdam",
-    "Aceh",
-    "Nederlands-Indië",
-    "Italië",
-    "Biafra",
-    "Egypte",
-    "Byzantijnse Rijk",
+    "Congo",
     "Antwerpen",
-    "Frans-Vlaanderen"
+    "Straatsburg",
+    "Parijs",
+    "Vlaanderen",
+    "Frankrijk",
+    "Drenthe",
+    "Engeland",
+    "Italië",
+    "Nederlands-Indië",
+    "Aceh",
+    "Biafra",
+    "Amerika",
+    "Sovjet-Unie"
   ],
-  "summary_tldr": "David Boogerd praat met Rik Torfs en Stefan Paas over de huidige beeldenstorm rond omstreden standbeelden. Ze bespreken hoe elke generatie het verleden herinnert en herschrijft, de rol van schuld en vergeving, en het belang van vertrouwen in een gepolariseerde samenleving.",
+  "summary_tldr": "Rik Torfs en Stefan Paas bespreken de huidige beeldenstorm, waarin standbeelden van koloniale figuren en omstreden helden van hun sokkel worden getrokken. Ze betogen dat elke generatie het verleden opnieuw herinterpreteert en dat standbeelden vooral laten zien hoe een tijd zichzelf verbeeldt, en pleiten voor een diversere publieke ruimte. Ook komen schuld, vergeving en moralisme aan bod als tegenwicht tegen eenzijdige oordelen.",
   "summary_points": [
-    "Beeldenstormen zijn zo oud als de mensheid, van het oude Egypte tot 1566.",
-    "Standbeelden zeggen meer over de makers en hun tijd dan over de afgebeelde persoon.",
-    "De huidige discussie gaat vooral over de vraag wie erbij hoort, met name rond de koloniale erfenis.",
-    "Torfs vindt dat je niet te veel standbeelden moet oprichten en pleit voor straatnamen.",
-    "Omstreden monumenten kunnen van betekenis veranderen, zoals het Van Heutsz-monument.",
-    "Er is een nieuw moreel puritanisme, dat hypocrisie in de hand kan werken.",
-    "Schuld is geen goed vertrekpunt; verantwoordelijkheid, dankbaarheid en vergeving zijn beter.",
-    "Het christendom doorbreekt de spiraal van vergelding via berouw en vergeving.",
-    "Vertrouwen en fysieke ontmoeting ontbreken op sociale media en versterken polarisatie."
+    "De beeldenstorm is een terugkerend fenomeen; van Echnaton en Byzantijnse iconen tot de Nederlandse beeldenstorm van 1566.",
+    "Standbeelden zeggen vaak meer over de tijd waarin ze zijn opgericht dan over de afgebeelde persoon.",
+    "Het onderscheid tussen het verleden zelf en de herinnering eraan is cruciaal: het gaat om hoe we herinneren.",
+    "De huidige discussie gaat vooral over de koloniale erfenis en de vraag wie zich in de natie herkent.",
+    "Paas ziet de oproep 'wij willen ook aan tafel' als legitiem, al is er ook extremisme.",
+    "Torfs waarschuwt voor moreel puritanisme en voor de verkramping die ontstaat door constante morele alertheid.",
+    "Schuld versus vergeving: beide gasten zien vergeving en dankbaarheid als sterkere uitgangspunten dan collectieve schuld.",
+    "Torfs stelt dat geschiedenis niet vaststaat en dat elke generatie haar opnieuw interpreteert.",
+    "Beide gasten zien secularisatie en het verlies van religieuze identiteit als mogelijke factor achter identiteitsgerichte polarisatie.",
+    "Een publieke ruimte met meerdere verhalen en symbolen, zoals wijken of bomen, is volgens Torfs een alternatief voor standbeelden."
   ],
   "chapters": [
     {
-      "start_seconds": 47,
-      "title": "Inleiding en corona",
-      "summary": "Introductie van het onderwerp en gesprek over het gebrek aan aandacht voor religieuze vragen tijdens de coronacrisis."
+      "start_seconds": 0,
+      "title": "Opening en corona-existentiële vragen",
+      "summary": "Torfs en Paas bespreken hoe religieuze en existentiële vragen tijdens corona weinig aandacht kregen in de media."
     },
     {
-      "start_seconds": 420,
-      "title": "Beeldenstormen door de eeuwen heen",
-      "summary": "Van Leopold II en Echnaton tot de Byzantijnse iconenstrijd en de beeldenstorm van 1566."
+      "start_seconds": 427,
+      "title": "Een oude traditie van beeldenstormen",
+      "summary": "Van Columbus en Leopold II tot Egypte, Byzantium en de Nederlandse beeldenstorm van 1566."
     },
     {
-      "start_seconds": 810,
-      "title": "Wat doen standbeelden eigenlijk?",
-      "summary": "Over herinnering, het herschrijven van geschiedenis en de vraag wie erbij hoort."
+      "start_seconds": 891,
+      "title": "Verleden, herinnering en het standbeeld",
+      "summary": "Paas maakt het onderscheid tussen het verleden zelf en de manier waarop het herinnerd wordt, met Van Heutsz als voorbeeld."
     },
     {
-      "start_seconds": 1290,
-      "title": "Moralisme en hypocrisie",
-      "summary": "Een nieuw fatsoen, hogere morele eisen en omgekeerde zending na de dekolonisatie."
+      "start_seconds": 1283,
+      "title": "Moreel puritanisme en hypocrisie",
+      "summary": "Torfs signaleert een comeback van fatsoen en moralisme, en de spanning tussen publieke deugd en privé-overtuiging."
     },
     {
-      "start_seconds": 1530,
-      "title": "Het Van Heutsz-monument en oplossingen",
-      "summary": "Voorbeelden van hoe monumenten kunnen veranderen of aangevuld worden."
+      "start_seconds": 1821,
+      "title": "Schuld, vergeving en christelijk perspectief",
+      "summary": "Discussie over collectieve schuld, de erfzonde-achtige gedachte, en vergeving als doorbreking van wraakspiralen."
     },
     {
-      "start_seconds": 1740,
-      "title": "Schuld, zonde en vergeving",
-      "summary": "Is schuldgevoel christelijk? Over erfzonde, Nehemia, vergelding en vergeving."
+      "start_seconds": 2839,
+      "title": "Golfbewegingen, identiteit en secularisatie",
+      "summary": "De snelheid van veranderingen, de rol van een verloren religieuze identiteit en humor als relativering."
     },
     {
-      "start_seconds": 2160,
-      "title": "Cancel culture, vertrouwen en polarisatie",
-      "summary": "Over lichtheid van leven, basisvertrouwen en de rol van sociale media."
+      "start_seconds": 3100,
+      "title": "Individu, groepsdenken en het standbeeld van de toekomst",
+      "summary": "Torfs pleit voor het individu boven groepskenmerken; beide gasten bespreken welke figuren een standbeeld zouden verdienen."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Vakantietips en boekentips",
+      "summary": "Afsluiting met vakantieplannen, boekentips en de aankondiging van Torfs' nieuwe boek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 9,
+      "start_seconds": 3100,
       "speaker": "Rik Torfs",
-      "text": "Later zullen mensen ons beschimpen om onze kortzichtigheid.",
-      "note": "Morele superioriteit tegenover het verleden is zelf een teken van zwakte."
+      "text": "Je ziet nooit de tijd waarin je zelf leeft, maar je kan er zeker van zijn dat later mensen ons zullen beschimpen om onze kortzichtigheid.",
+      "note": "Een relativerende gedachte die de eigen tijd ook als historisch tijdelijk ziet."
     },
     {
-      "start_seconds": 757,
-      "speaker": "Rik Torfs",
-      "text": "Elke generatie heeft het recht de geschiedenis te herschrijven.",
-      "note": "Verwijst naar Croce: alle geschiedenis is hedendaagse geschiedenis."
-    },
-    {
-      "start_seconds": 838,
-      "speaker": "Rik Torfs",
-      "text": "Geef straatnamen als Distelvinkstraat en Groenvinkstraat in plaats van standbeelden.",
-      "note": "Spitsvondig alternatief voor omstreden standbeelden."
-    },
-    {
-      "start_seconds": 1347,
+      "start_seconds": 1501,
       "speaker": "Stefan Paas",
-      "text": "Alleen culturen met hoge idealen hebben hypocrieten.",
-      "note": "Scherpe observatie over moraal en hypocrisie."
+      "text": "Wij willen ook aan tafel: wij horen ook bij deze natie en willen symbolen die tonen wie wij als natie zijn.",
+      "note": "Verwoordt de kern van de legitieme kant van de beeldenstorm."
     },
     {
-      "start_seconds": 2100,
+      "start_seconds": 1821,
+      "text": "Een leraar zei in het middelbaar: wij zijn allemaal schuldig, wat Torfs als te goedkope instrumentalisering van schuld ervoer.",
+      "speaker": "Stefan Paas",
+      "note": "Persoonlijke anekdote die laat zien hoe schuld ook pedagogisch misbruikt kan worden."
+    },
+    {
+      "start_seconds": 1352,
       "speaker": "Rik Torfs",
-      "text": "Wie vergeeft bevrijdt niet alleen de schuldige maar vooral ook zichzelf.",
-      "note": "Kern van het gesprek over vergeving en wrok."
+      "text": "Hoe hoger de idealen, hoe schitterender de hypocrisie kan worden uitgewerkt.",
+      "note": "Scherpe, typisch Torfs-achtige observatie over moralisme."
+    },
+    {
+      "start_seconds": 2093,
+      "speaker": "Rik Torfs",
+      "text": "Degene die de grootheid heeft om te vergeven, bevrijdt niet alleen de schuldige, maar vooral ook zichzelf.",
+      "note": "Emotioneel en persoonlijk moment over vergeving als bevrijding."
+    },
+    {
+      "start_seconds": 3600,
+      "speaker": "Stefan Paas",
+      "text": "Het is een theatrale samenleving.",
+      "note": "Korte, treffende diagnose van de hedendaagse mediacultuur."
     }
   ],
   "keywords": [
     "beeldenstorm",
-    "standbeeld",
-    "kolonialisme",
-    "slavernijverleden",
+    "koloniale erfenis",
+    "standbeelden",
     "schuld",
     "vergeving",
-    "herinneringscultuur",
     "moralisme",
-    "cancel culture",
-    "polarisatie",
-    "vertrouwen",
-    "Leopold II"
+    "identiteit",
+    "secularisatie",
+    "Leopold II",
+    "herinnering",
+    "groepsdenken",
+    "Black Lives Matter"
   ],
-  "quotes": [],
+  "quotes": [
+    "een garantie voor memorabele en spitsvondige uitspraken",
+    "hoort hoe religie kan relativeren",
+    "Moeten die standbeelden inderdaad verdwijnen of is het doorgeschoten moralisme?"
+  ],
   "similar": [
     {
-      "n": 30,
-      "reason": "Racismedebat en religie, zelfde periode en maatschappelijke polarisatie rond erfenis van het verleden."
-    },
-    {
       "n": 118,
-      "reason": "Geschiedenis van slavernij, excuses en schuld; raakt aan omstreden koloniaal verleden."
-    },
-    {
-      "n": 277,
-      "reason": "Jerry Afriyie en Zwarte Piet: debat over omstreden erfgoed en veranderende cultuur."
+      "reason": "Geschiedenis van slavernij en religie, koloniaal verleden en excuses van de overheid"
     },
     {
       "n": 256,
-      "reason": "Nederlands zelfbeeld en geschiedschrijving kritisch tegen het licht gehouden, met Stefan Paas."
+      "reason": "Nederlands zelfbeeld en geschiedenis, met kritische blik op de eigen identiteit"
     },
     {
-      "n": 245,
-      "reason": "Verzwegen koloniale oorlog in Indonesië; omgang met schuld en herinnering."
+      "n": 113,
+      "reason": "Herinterpretatie van het verleden en het idee van vrijheid, met Beatrice de Graaf"
+    },
+    {
+      "n": 9,
+      "reason": "Gesprek met Rik Torfs over kunst, cultuur en de rol van de kerk"
+    },
+    {
+      "n": 112,
+      "reason": "Historische figuur uit de Nederlandse geschiedenis, zoals Willem van Oranje, als nationaal symbool"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

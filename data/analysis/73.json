@@ -1,18 +1,23 @@
 {
   "episode": 73,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101728,
+    "segments": 850,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29757,
-    "output_tokens": 2439,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50439,
+    "output_tokens": 2655,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
-    "Samenleving & migratie",
     "God & geloof",
-    "Filosofie & ethiek"
+    "Samenleving & migratie",
+    "Zingeving & psyche",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Boris van der Ham"
@@ -20,226 +25,225 @@
   "people": [
     {
       "name": "Boris van der Ham",
-      "note": "oud-Tweede Kamerlid voor D66, humanist, voorzitter Humanistisch Verbond en bestuurslid Humanist International",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 119145,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_van_der_Ham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Boris_van_der_Ham_kenniseconomie_monitor_2010.jpg/250px-Boris_van_der_Ham_kenniseconomie_monitor_2010.jpg"
+      "note": "gast; voormalig D66-Tweede Kamerlid en voorzitter Humanistisch Verbond",
+      "start_seconds": 105,
+      "mention_count": 30
     },
     {
-      "name": "Tom Holland",
-      "note": "historicus die eerder in de podcast de christelijke oorsprong van 'seculier' noemde",
-      "start_seconds": 390,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "name": "Stefan Paas",
+      "note": "vaste gast; theoloog",
+      "start_seconds": 33,
+      "mention_count": 30
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president; zijn verbond met de Russische orthodoxie benadeelt baptisten",
-      "start_seconds": 671,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Piet Hein Donner",
-      "note": "toenmalig minister van Justitie die de godslasteringswet wilde oppoetsen na de aanslag op Theo van Gogh",
-      "start_seconds": 723,
-      "wiki_checked": true,
-      "wiki_pageid": 5276,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Piet_Hein_Donner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Piet-hein-donner-portret.jpg/250px-Piet-hein-donner-portret.jpg"
-    },
-    {
-      "name": "Theo van Gogh",
-      "note": "filmmaker, vermoord door een extremistische moslim",
-      "start_seconds": 730,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
-    },
-    {
-      "name": "Asia Bibi",
-      "note": "Pakistaanse christelijke vrouw, bekend slachtoffer van een blasfemiewet",
-      "start_seconds": 747,
-      "wiki_checked": true,
-      "wiki_pageid": 2082094,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Zaak-Asia_Bibi"
+      "name": "David Boogerd",
+      "note": "presentator",
+      "start_seconds": 30,
+      "mention_count": 20
     },
     {
       "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-politicus die de godslasteringswet wilde handhaven",
-      "start_seconds": 767,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "note": "ChristenUnie-politicus die de blasfemiewet nuanceerde",
+      "start_seconds": 766,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "politicus (Forum voor Democratie), genoemd als voorbeeld van bezielende beweging",
+      "start_seconds": 1380,
+      "mention_count": 2
     },
     {
       "name": "Abraham Kuyper",
-      "note": "voorman van de verzuiling, pleitte voor 'soevereiniteit in eigen kring'",
-      "start_seconds": 936,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
-    },
-    {
-      "name": "Rashid Ben Ammou",
-      "note": "co-auteur van het boek over 12 ex-moslims",
-      "start_seconds": 1204,
-      "wiki_checked": true
+      "note": "protestants theoloog en politicus; groepsidentiteit en eigen kring",
+      "start_seconds": 915,
+      "mention_count": 1
     },
     {
       "name": "Nelson Mandela",
-      "note": "voorbeeld van een boegbeeld waaraan mensen zich optrekken",
-      "start_seconds": 2338,
-      "wiki_checked": true,
-      "wiki_pageid": 1179,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nelson_Mandela",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nelson_Mandela-2008_%28edit%29.jpg/250px-Nelson_Mandela-2008_%28edit%29.jpg"
+      "note": "voorbeeld van boegbeeld dat mensen aanspreekt",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Schiller",
+      "note": "auteur van Don Carlos, geciteerd door Van der Ham",
+      "start_seconds": 2715,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "historicus die over het begrip seculier sprak",
+      "start_seconds": 406,
+      "mention_count": 1
+    },
+    {
+      "name": "Troy Toebers",
+      "note": "auteur van boek over mensen met dementie",
+      "start_seconds": 2795,
+      "mention_count": 1
+    },
+    {
+      "name": "Donner",
+      "note": "politicus (CDA) die reageerde op het wetsvoorstel over godslastering",
+      "start_seconds": 715,
+      "mention_count": 1
+    },
+    {
+      "name": "Razia Bibi",
+      "note": "Pakistaans christelijk slachtoffer van blasfemiewetgeving",
+      "start_seconds": 745,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [
-    "Frankrijk",
-    "Nederland",
-    "België",
-    "Rusland",
-    "India",
-    "Pakistan",
-    "Filipijnen",
-    "Washington",
-    "Londen",
-    "China",
-    "Amerika",
-    "Maastricht"
+  "books": [
+    {
+      "title": "Ex-moslims in Nederland (boek van Van der Ham en Rashid Ben Amou)",
+      "author": "Boris van der Ham en Rashid Ben Amou",
+      "note": "boek met 12 ex-moslims over het verlaten van hun geloof",
+      "start_seconds": 1080,
+      "volume_id": "pglZDwAAQBAJ",
+      "canonical_title": "Nieuwe vrijdenkers: 12 voormalige moslims vertellen hun verhaal",
+      "canonical_author": "Rachid Benhammou, Boris van der Ham",
+      "isbn13": "9789044636857",
+      "isbn10": "9044636855",
+      "thumbnail": "http://books.google.com/books/content?id=pglZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
   ],
-  "summary_tldr": "Humanist en oud-politicus Boris van der Ham bespreekt met David Boogerd en Stefan Paas wat een seculiere staat is en waarom hij het individu als uitgangspunt neemt. Paas houdt een pleidooi voor gemeenschap en de balans tussen individu en groep. Van der Ham wijst op de waarde van verenigingen, kunst en cultuur als bindmiddel in een minder kerkelijke samenleving.",
+  "bible_refs": [
+    {
+      "ref": "Leviticus",
+      "note": "genoemd in verband met uitsluiting in orthodoxe kringen",
+      "start_seconds": 3615
+    }
+  ],
+  "places": [
+    "Maastricht",
+    "Rotterdam",
+    "Londen",
+    "Washington",
+    "Urk",
+    "Frankrijk",
+    "Pakistan",
+    "India",
+    "Rusland",
+    "Filipijnen"
+  ],
+  "summary_tldr": "Boris van der Ham, voormalig D66-politicus en humanist, bespreekt met Stefan Paas of een seculiere samenleving de goede kanten van religie kan behouden zonder geloof in God. Het gesprek draait om individualisering versus gemeenschap, de rol van de overheid en de vraag of humanisme een eigen zingevend verhaal kan bieden. Van der Ham ziet kunst, cultuur en verenigingen als bindmiddel, terwijl Paas twijfelt of dat zonder religieus kader lukt.",
   "summary_points": [
-    "Seculier is oorspronkelijk een theologische term (seculum = tijd/eeuw) en betekent niet automatisch areligieus.",
-    "Een seculiere staat behandelt religies gelijk en is niet atheïstisch; volgens Van der Ham is een staat nooit echt neutraal.",
-    "Religieuze minderheden profiteren meestal het meest van een seculiere staat, zoals katholieken en joden in de 19e eeuw.",
-    "Godsdienstvrijheid is een individueel recht, maar sociale druk in families kan die vrijheid in de praktijk beperken.",
-    "Paas waarschuwt dat te veel nadruk op het individu kan leiden tot atomisering, zoals in de toeslagenaffaire.",
-    "Van der Ham pleit ervoor dat lid worden van een vereniging weer een deugd wordt, als oefening in samenleven.",
-    "Kunst en cultuur zijn volgens hem belangrijke bindmiddelen en geen linkse hobby.",
-    "Wereldwijd groeit de groep non-affiliated en gedragen ook religieuze mensen zich minder gebonden aan instituties.",
-    "Als humanist wil Van der Ham het goede van religie behouden zonder God; Paas stelt daar vragen bij."
+    "Van der Ham ziet de seculiere staat als gelijke behandeling van alle levensbeschouwingen, niet als neutraliteit.",
+    "Het individu als uitgangspunt van godsdienstvrijheid heeft volgens hem voordelen, maar de juridische vrijheid staat los van de sociale werkelijkheid.",
+    "Paas waarschuwt dat een te sterk individualisme leidt tot losse eilandjes en een gebrek aan samenhang.",
+    "Van der Ham pleit voor het vrijwilligerswerk en het lidmaatschap van verenigingen als deugd.",
+    "Beide gasten zien zingeving bij jongeren als een serieus probleem, dat soms medisch wordt.",
+    "Religie wordt door Van der Ham als 'te bijzonder' gezien; verenigingen zoals studentenverenigingen hebben vergelijkbare functies.",
+    "Paas stelt dat religie historisch succesvoller is in het vormen van morele gemeenschappen dan seculiere pogingen.",
+    "Het gesprek eindigt met de conclusie dat de mens niet alleen van brood leeft, een gedeeld uitgangspunt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Intro en kennismaking",
-      "summary": "Het nieuwe wekelijkse seizoen begint en Boris van der Ham stelt zich voor als 'lapjeskat': politicus, acteur en bestuurder."
+      "title": "Introductie en voorstelling",
+      "summary": "Van der Ham wordt voorgesteld als seculier humanist en lapjeskat met een gevarieerde loopbaan."
     },
     {
-      "start_seconds": 373,
+      "start_seconds": 406,
       "title": "Wat betekent seculier?",
-      "summary": "Paas legt de theologische herkomst van het woord uit en Van der Ham schetst zijn visie op een staat die religies gelijk behandelt."
+      "summary": "Het begrip seculier wordt theologisch en politiek verkend, met de scheiding van kerk en staat als kern."
     },
     {
-      "start_seconds": 570,
-      "title": "Religievrijheid en botsende praktijken",
-      "summary": "Over ritueel slachten, besnijdenis, coronaregels voor kerken en waarom minderheden een seculiere staat nodig hebben."
+      "start_seconds": 900,
+      "title": "Godsdienstvrijheid en het individu",
+      "summary": "Discussie over of godsdienstvrijheid een individueel of groepsrecht is, en over besnijdenis en ritueel slachten."
     },
     {
-      "start_seconds": 885,
+      "start_seconds": 1500,
       "title": "Individu versus gemeenschap",
-      "summary": "Discussie over godsdienstvrijheid als individueel recht, groepsdruk, verplichtingen en de ex-moslims uit Van der Hams boek."
+      "summary": "Paas pleit voor balans tussen individu en gemeenschap, Van der Ham ziet vrijwilligerswerk en verenigingen als bindmiddel."
     },
     {
-      "start_seconds": 1280,
-      "title": "Schaduwzijden van individualisering",
-      "summary": "Paas vraagt of de nadruk op het individu de samenleving uiteen doet vallen, Van der Ham wijst op verenigingen, kunst en cultuur en beide bespreken de toeslagenaffaire."
+      "start_seconds": 2100,
+      "title": "Ontkerkelijking en religieuze toekomst",
+      "summary": "Gesprek over cijfers over religieuze afiliatie en de toekomst van religie in Nederland."
     },
     {
-      "start_seconds": 2053,
-      "title": "De toekomst van religie",
-      "summary": "Over wereldwijde cijfers, non-affiliated mensen, de behoefte aan verhalen en de uitdaging voor het humanisme."
+      "start_seconds": 2700,
+      "title": "Humanisme zonder God?",
+      "summary": "Kan een horizontaal humanistisch verhaal bezielend genoeg zijn? Paas en Boogerd betwijfelen het."
+    },
+    {
+      "start_seconds": 3150,
+      "title": "Religie als unieke gemeenschap",
+      "summary": "Vergelijking tussen religie en studentenverenigingen; Paas ziet een uniek element in geloof in God."
+    },
+    {
+      "start_seconds": 3750,
+      "title": "Kunst, cultuur en afsluiting",
+      "summary": "Van der Ham pleit voor kunst en geestelijke verzorging; het gesprek eindigt met de mens die niet van brood alleen leeft."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 145,
+      "start_seconds": 3150,
       "speaker": "Boris van der Ham",
-      "text": "Ik ben zeker een atheïst, ik ben ook een humanist, en daarin ben ik ook weer vrijzinnig.",
-      "note": "Plaatst zijn eigen positie met enige nuance."
+      "text": "Jullie maken religie echt te bijzonder.",
+      "note": "Van der Ham relativeert het unieke karakter van religie door het te vergelijken met verenigingen."
     },
     {
-      "start_seconds": 1217,
-      "speaker": "Boris van der Ham",
-      "text": "Ik wil mensen overtuigen dat ze verjaardagen met elkaar blijven vieren.",
-      "note": "Pakkend antwoord op het verwijt dat hij iedereen atheïst wil maken."
-    },
-    {
-      "start_seconds": 1735,
-      "speaker": "Boris van der Ham",
-      "text": "Ik geloof niet in een leven na de dood, dus we hebben haast om wat te maken van individuele levens.",
-      "note": "Verbindt zijn nadruk op het individu aan zijn levensbeschouwing."
-    },
-    {
-      "start_seconds": 1760,
-      "speaker": "Boris van der Ham",
-      "text": "Kunst en cultuur zijn geen linkse hobby.",
-      "note": "Pleidooi voor cultuur als bindmiddel, ook richting rechtse partijen."
-    },
-    {
-      "start_seconds": 1951,
+      "start_seconds": 3660,
       "speaker": "Stefan Paas",
-      "text": "Een overheid die niet te nadrukkelijk kiest voor het individu of voor de gemeenschap, maar steeds de balans zoekt.",
-      "note": "Kern van Paas' tegengeluid."
+      "text": "De geschiedenis heeft nog niet echt laten zien dat het lukt zonder religieus kader; we leven in een experiment.",
+      "note": "Paas formuleert de kern van de spanning in het gesprek."
+    },
+    {
+      "start_seconds": 2340,
+      "speaker": "Boris van der Ham",
+      "text": "Ik ben geen pleitbezorger van een wereld zonder God, maar wel van een gemeenschap zonder godsgeloof.",
+      "note": "Samenvatting van zijn standpunt over humanisme en gemeenschap."
+    },
+    {
+      "start_seconds": 3900,
+      "speaker": "Boris van der Ham",
+      "text": "De mens leeft niet bij brood alleen.",
+      "note": "Gedeeld slotakkoord dat beide gasten bindt."
     }
   ],
   "keywords": [
-    "seculiere staat",
-    "individualisering",
+    "seculier",
     "humanisme",
-    "gemeenschap",
     "godsdienstvrijheid",
-    "toeslagenaffaire",
-    "maatschappelijk middenveld",
-    "non-affiliated",
-    "kunst en cultuur",
+    "individualisme",
+    "gemeenschap",
+    "blasfemieverbod",
     "ontkerkelijking",
-    "D66"
+    "zingeving",
+    "vrijwilligerswerk",
+    "scheiding kerk en staat",
+    "horizontaal en verticaal"
   ],
   "quotes": [],
   "similar": [
     {
+      "n": 54,
+      "reason": "Spiritualiteit in een seculiere tijd, zoals de vraag naar zingeving zonder religieus kader"
+    },
+    {
       "n": 62,
-      "reason": "Boutellier over het seculiere experiment van het Westen, gemeenschap en samenleving zonder God."
+      "reason": "Het seculiere experiment van het Westen en de vraag naar een samenleving zonder God"
     },
     {
-      "n": 301,
-      "reason": "Paul Frissen over de seculiere staat, elite en volk; zelfde seculiere/politieke thematiek."
-    },
-    {
-      "n": 218,
-      "reason": "Kees van Ekris over mythes van secularisatie, filosofie en politiek met Paas."
-    },
-    {
-      "n": 7,
-      "reason": "Cultuurchristendom en de rol van religie in de seculiere samenleving."
+      "n": 15,
+      "reason": "Verweesde samenleving die snakt naar bindmiddel, met Gert-Jan Segers die ook in #73 figureert"
     },
     {
       "n": 21,
-      "reason": "Bas Heijne over de liberale leegte, individu en samenleving, filosofie."
+      "reason": "Liberale leegte en de vraag hoe mens te zijn in een verdeelde, seculiere samenleving"
+    },
+    {
+      "n": 19,
+      "reason": "Seculiere spiritualiteit en atheïsme als alternatief voor traditioneel geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

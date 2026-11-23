@@ -1,17 +1,22 @@
 {
   "episode": 32,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 87059,
+    "segments": 808,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30671,
-    "output_tokens": 2538,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 44558,
+    "output_tokens": 3017,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
     "Kerk & secularisatie",
-    "Kunst & cultuur",
+    "Zingeving & psyche",
     "Gezin & relaties"
   ],
   "guests": [
@@ -19,286 +24,263 @@
   ],
   "people": [
     {
-      "name": "Arjen Lubach",
-      "note": "eerdere gast, ongelovig geworden",
-      "start_seconds": 165,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
+      "name": "Stephan Sanders",
+      "note": "gast, journalist en schrijver die van agnosticisme tot geloof kwam",
+      "start_seconds": 3,
+      "mention_count": 30
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog en vaste gast",
+      "start_seconds": 17,
+      "mention_count": 40
+    },
+    {
+      "name": "David Boogerd",
+      "note": "presentator",
+      "start_seconds": 45,
+      "mention_count": 10
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "filosoof wiens ideeën over slavenmoraal en zwakte besproken worden",
+      "start_seconds": 1871,
+      "mention_count": 5
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse schrijver en historicus, zocht zijn weg naar het christendom",
+      "start_seconds": 1905,
+      "mention_count": 2
+    },
+    {
+      "name": "Willem Jan Otten",
+      "note": "schrijver die voorbad voor Sanders in de kerk",
+      "start_seconds": 1680,
+      "mention_count": 2
     },
     {
       "name": "Gerard Reve",
-      "note": "schrijver, katholiek geworden; liefde van Sanders en zijn moeder",
-      "start_seconds": 553,
-      "wiki_checked": true,
-      "wiki_pageid": 5121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerard_Reve",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gerard_Reve_1969-crop.jpg/250px-Gerard_Reve_1969-crop.jpg"
-    },
-    {
-      "name": "Johann Sebastian Bach",
-      "note": "componist van Matthäus- en Johannes-Passion",
-      "start_seconds": 671,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "note": "schrijver, door moeder van Sanders bewonderd",
+      "start_seconds": 613,
+      "mention_count": 2
     },
     {
       "name": "Georg Friedrich Händel",
-      "note": "componist, Messiah",
-      "start_seconds": 706,
-      "wiki_checked": true,
-      "wiki_pageid": 12358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Friedrich_H%C3%A4ndel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/250px-George_Frideric_Handel_by_Balthasar_Denner.jpg"
+      "note": "componist van het Messiah-oratorium",
+      "start_seconds": 713,
+      "mention_count": 2
     },
     {
-      "name": "Maarten van Rossem",
-      "note": "hoogleraar, bekritiseerd om uitspraken over de Bijbel",
-      "start_seconds": 1385,
-      "wiki_checked": true,
-      "wiki_pageid": 48665,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_van_Rossem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg/250px-Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg"
+      "name": "Johann Sebastian Bach",
+      "note": "componist van de Matthäus- en Johannespassie",
+      "start_seconds": 660,
+      "mention_count": 2
+    },
+    {
+      "name": "Herman Finkers",
+      "note": "cabaretier die de Missa in Mysterium schreef",
+      "start_seconds": 2100,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten van Rossum",
+      "note": "hoogleraar die de Bijbel als sprookjesboek afdeed",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "eerdere gast in de podcast, ooit ongelovig geworden",
+      "start_seconds": 45,
+      "mention_count": 1
+    },
+    {
+      "name": "A.A. van Ruler",
+      "note": "hervormd dominee en dogmaticus, schreef '21 redenen om naar de kerk te gaan'",
+      "start_seconds": 2850,
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
       "note": "kerkvader, Belijdenissen",
-      "start_seconds": 1401,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Willem Jan Otten",
-      "note": "schrijver, bad voor twijfelaars in de kerk",
-      "start_seconds": 1681,
-      "wiki_checked": true,
-      "wiki_pageid": 179839,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Jan_Otten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg/250px-Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg"
-    },
-    {
-      "name": "Vonne van der Meer",
-      "note": "schrijfster, vrouw van Otten",
-      "start_seconds": 1715,
-      "wiki_checked": true,
-      "wiki_pageid": 861610,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vonne_van_der_Meer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/VonnevanderMeer1986.jpg/250px-VonnevanderMeer1986.jpg"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "filosoof, kritiek op slavenmoraal en christendom",
-      "start_seconds": 1873,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "historicus, eerdere gast",
-      "start_seconds": 1910,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
-    },
-    {
-      "name": "Herman Finkers",
-      "note": "cabaretier, Missa in Mysterium",
-      "start_seconds": 2056,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
+      "start_seconds": 1400,
+      "mention_count": 1
     },
     {
       "name": "Maria",
-      "note": "moeder van Jezus, ook als moeder van Sanders",
-      "start_seconds": 2481,
-      "wiki_checked": true,
-      "wiki_pageid": 37948,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_%28moeder_van_Jezus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg/250px-L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg"
+      "note": "moeder van Jezus, door Sanders als moeder gezien",
+      "start_seconds": 2340,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Belijdenissen",
       "author": "Augustinus",
-      "note": "gelezen door Sanders' ouders en voor een radioprogramma",
-      "start_seconds": 1401,
+      "note": "kerkvader; Sanders moest het voor een radioprogramma lezen",
+      "start_seconds": 1400,
       "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
+      "canonical_title": "Belijdenissen / druk 14",
       "canonical_author": "Aurelius Augustinus",
       "isbn13": "9789026321023",
       "isbn10": "9026321023",
       "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "21 redenen om naar de kerk te gaan",
+      "author": "A.A. van Ruler",
+      "note": "boek van de hervormde dominee",
+      "start_seconds": 2850
     }
   ],
   "bible_refs": [
     {
-      "ref": "Lucas 2:41-52",
-      "note": "twaalfjarige Jezus in de tempel; Sanders wilde 'het huis van zijn vader' zoeken",
-      "start_seconds": 501
+      "ref": "Lucas 2:41-50",
+      "note": "Jezus in de tempel als twaalfjarige, verhaal uit de kinderbijbel",
+      "start_seconds": 500
     },
     {
       "ref": "1 Korintiërs 15:55",
-      "note": "'O death, where is thy sting' in Händels Messiah",
-      "start_seconds": 753
+      "note": "'O death, where is thy sting?' uit het Messiah-oratorium",
+      "start_seconds": 755
     }
   ],
   "places": [
     "Amsterdam",
-    "Amstel",
     "Twente",
-    "Drenthe",
-    "Emmen",
     "Staphorst",
     "Barneveld",
     "Amersfoort",
-    "Jeruzalem",
-    "Zuid-Afrika"
+    "Emmen",
+    "Drenthe",
+    "Suriname",
+    "Paramaribo"
   ],
-  "summary_tldr": "Journalist en schrijver Stephan Sanders vertelt hoe hij na jaren agnosticisme via proefgeloven, muziek en de dood van zijn moeder katholiek werd. Samen met Stefan Paas bespreken ze secularisatie, het verlies van culturele traditie, het gekruisigde als hart van het christendom en Sanders' worsteling met de houding van de kerk tegenover homoseksualiteit.",
+  "summary_tldr": "Stephan Sanders vertelt hoe hij van agnost en seculier Amsterdammer via 'proefgeloven' en de herinnering aan zijn moeder tot geloof kwam, met muziek en kerkgemeenschap als belangrijke beginpunten. Stefan Paas reflecteert met hem op secularisatie, verlies van culturele tradities en de betekenis van kerkgang in een geconsumeerde, online tijd. Het gesprek raakt ook aan homoseksualiteit in de katholieke kerk en de spanning tussen autonomie en overgave.",
   "summary_points": [
-    "Sanders groeide op in een licht katholiek gezin in Twente met veel muziek en een kinderbijbel.",
-    "Zijn geloof 'appte weg' geleidelijk in de jaren 70, in lijn met de massale ontkerkelijking.",
-    "Amsterdam wordt gezien als seculiere stad waar gelovigen nauwelijks zichtbaar zijn.",
-    "Sanders is ontroerd door gewone kerkgangers die 2000 jaar oude tradities doorgeven; die erfenis verdwijnt snel.",
-    "De begrafenis van zijn moeder was een kantelpunt: waarom zou hij niet kunnen geloven?",
-    "Proefgeloven betekent een praxis aangaan; geloof is uiteindelijk genade.",
-    "Het kruis als zwakste moment en de mensgod zijn voor hem filosofisch diep, tegenover Nietzsches kritiek.",
-    "Als adoptiekind voelt hij zich opgenomen in een eeuwenoude familie van levenden en doden.",
-    "Hij worstelt met de hypocrisie van de katholieke kerk rond homoseksualiteit en celibaat."
+    "Sanders groeide op met katholieke en muzikale invloeden, maar verloor zijn geloof geleidelijk in de jaren 70.",
+    "Na het begraven van zijn moeder besloot hij te 'proefgeloven' en naar de kerk te gaan.",
+    "Geloof wordt door beiden gezien als genade, niet als een wilsbesluit of autonome keuze.",
+    "Secularisatie in Amsterdam is sterk; veel mensen hebben nauwelijks contact met gelovigen.",
+    "Het verlies van de christelijke culturele erfenis wordt als kwetsbaar en onherstelbaar ervaren.",
+    "Muziek, zoals Bach en Händel, kan een geloofsoverbrenger zijn volgens Sanders.",
+    "Sanders zet vraagtekens bij de houding van de katholieke kerk ten opzichte van homoseksuelen.",
+    "Kerkgemeenschap en fysieke aanwezigheid worden belangrijk geacht, tegenover online kerkbezoek tijdens corona.",
+    "Nietzsche's kritiek op het christendom wordt door Sanders afgewezen als verschrikkelijk gedachtegoed.",
+    "Het beeld van adoptie en de katholieke traditie van de heiligen geeft Sanders een gevoel van verbondenheid."
   ],
   "chapters": [
     {
-      "start_seconds": 45,
-      "title": "Kennismaking en vroege roeping",
-      "summary": "Introductie van de gasten en Sanders' korte jeugdwens om theologie te studeren."
+      "start_seconds": 0,
+      "title": "Introductie en kennismaking",
+      "summary": "David Boogerd stelt de gasten voor en de twee Stefans worden onderscheiden."
     },
     {
-      "start_seconds": 244,
-      "title": "Secularisatie in Amsterdam en katholiek Nederland",
-      "summary": "Over het seculiere Amsterdam en de snelle teloorgang van het katholieke leven."
+      "start_seconds": 180,
+      "title": "Jeugd en eerste geloofservaringen",
+      "summary": "Sanders vertelt over zijn kinderbijbel, zijn adoptiemoeder en de muziek in het katholieke klooster."
     },
     {
-      "start_seconds": 500,
-      "title": "Jeugd, muziek en pril geloof",
-      "summary": "Kinderbijbel, adoptie, Gerard Reve, kloostermuziek en de religieuze kracht van Bach en Händel."
+      "start_seconds": 960,
+      "title": "Van geloof naar afval en seculiere omgeving",
+      "summary": "De secularisatie in Twente en Amsterdam komt aan bod, evenals het wegebben van de kerkgang."
     },
     {
-      "start_seconds": 955,
-      "title": "Geloof dat wegebde",
-      "summary": "Geleidelijk verlies van kerkgang en de waarde van overgeleverde traditie."
+      "start_seconds": 1500,
+      "tijd": null,
+      "title": "Nietzsche, de paradox van het kruis en opstanding",
+      "summary": "Discussie over het christendom als cultuur en over Nietzsche's kritiek en het kruis als icoon."
     },
     {
-      "start_seconds": 1497,
-      "title": "Weg terug: begrafenis en proefgeloven",
-      "summary": "De begrafenis van zijn moeder en het besluit te gaan proefgeloven."
+      "start_seconds": 2100,
+      "title": "Terugkeer naar de kerk en proefgeloven",
+      "summary": "Het begraven van de moeder en het proefgeloven als weg terug naar geloof."
     },
     {
-      "start_seconds": 1769,
-      "title": "Kruis, Nietzsche en mysterie",
-      "summary": "Het christelijk paradox van het zwakke, kritiek op Nietzsche en het belang van mysterie."
+      "start_seconds": 2700,
+      "title": "Adoptie, familie en homoseksualiteit in de kerk",
+      "summary": "Sanders over zijn plaats in de kerkelijke familie en de moeizame houding van de katholieke kerk."
     },
     {
-      "start_seconds": 2306,
-      "title": "Eeuwenoude familie en adoptie",
-      "summary": "Sanders voelt zich als adoptiekind opgenomen in de katholieke gemeenschap der heiligen."
-    },
-    {
-      "start_seconds": 2574,
-      "title": "Homoseksualiteit en de kerk",
-      "summary": "Zijn kritiek op de rooms-katholieke kerk en toch blijven."
+      "start_seconds": 3300,
+      "title": "Corona, online kerk en autonomie",
+      "summary": "Reflectie op kerkgang tijdens de coronacrisis en het verschil tussen online en fysiek geloven."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 18,
+      "start_seconds": 1200,
       "speaker": "Stephan Sanders",
-      "text": "Een diepe rijkdom die in 1 generatie zo ongeveer is doorgeknipt.",
-      "note": "Kernzorg over verlies van christelijke traditie."
+      "text": "Die katholieke kerk heeft veel mannen aangetrokken die nog niet zeker waren van hun seksuele oriëntatie... en daarna volledig verketteren.",
+      "note": "Scherpe kritiek op hypocrisie van de katholieke kerk ten opzichte van homoseksualiteit."
     },
     {
-      "start_seconds": 1565,
+      "start_seconds": 1600,
       "speaker": "Stephan Sanders",
-      "text": "Jij kan toch geloven? Je bent haar zoon, waarom kan jij niet geloven?",
-      "note": "Kantelmoment bij het begraven van zijn moeder."
+      "text": "Ik ben niet mijn eigen product.",
+      "note": "Kernachtige uitspraak over geloof als genade en niet als zelfgemaakte identiteit."
     },
     {
-      "start_seconds": 1627,
+      "start_seconds": 2600,
       "speaker": "Stephan Sanders",
-      "text": "Het is een narcistische vraag. Ik moet een handeling verrichten, een praxis uitoefenen.",
-      "note": "Uitleg van proefgeloven."
+      "text": "Het kruis: op het allerzwakste moment maak je daar een icoon van.",
+      "note": "Paradox van het christendom die Sanders filosofisch diepgaand vindt."
     },
     {
-      "start_seconds": 1769,
-      "speaker": "Stephan Sanders",
-      "text": "Welk bedrijf adverteert nu met het allerzwakste moment?",
-      "note": "Scherpe observatie over het kruis."
+      "start_seconds": 3000,
+      "speaker": "Stefan Paas",
+      "text": "Dan ben je 2000 jaar cultuur kwijt. Zo simpel is het eigenlijk.",
+      "note": "Pessimistische maar scherpe analyse van het verlies van de christelijke traditie."
     },
     {
-      "start_seconds": 2237,
+      "start_seconds": 2300,
       "speaker": "Stephan Sanders",
-      "text": "Geloof is een genade, Gods. Ik ben niet mijn eigen product.",
-      "note": "Persoonlijke reflectie op autonomie en adoptie."
+      "text": "Muziek is een geloofsoverbrenger par excellence.",
+      "note": "Persoonlijke erkenning van muziek als begin van zijn geloofservaring."
     }
   ],
   "keywords": [
-    "Proefgeloven",
-    "Secularisatie",
-    "Katholicisme",
-    "Adoptie",
-    "Muziek",
-    "Bach",
+    "proefgeloven",
+    "secularisatie",
+    "kerkgang",
+    "katholicisme",
     "Nietzsche",
-    "Kruis",
-    "Mysterie",
-    "Homoseksualiteit",
-    "Traditie"
+    "adoptie",
+    "homoseksualiteit",
+    "Bach",
+    "kruis",
+    "autonomie",
+    "corona",
+    "geloofsreservoir"
   ],
   "quotes": [
-    "Wat mij altijd diep ontroert, is dat mensen die metselaar zijn, of bakker, elke zondag geconfronteerd worden met begrippen en noties die 2000 jaar oud zijn."
+    "Ik ben niet mijn eigen product.",
+    "Ik moet mij iedere dag bekeren.",
+    "Je wordt weer aangenomen, hè."
   ],
   "similar": [
     {
       "n": 99,
-      "reason": "Zelfde gast Stephan Sanders; geloof, homoseksualiteit en de kerk"
+      "reason": "Zelfde gast Stephan Sanders; homoseksualiteit en geloof in de kerk"
     },
     {
       "n": 190,
-      "reason": "Schrijver komt tot God na ongeloof; Vekeman, bekering en twijfel"
-    },
-    {
-      "n": 70,
-      "reason": "Schrijver gaat als seculiere naar de kerk; religieuze coming-out"
+      "reason": "Van atheïst tot geloof: zoektocht naar waarheid en bekering"
     },
     {
       "n": 154,
-      "reason": "Schrijver die niet kon ontsnappen aan geloof; Reve/Otten-achtige literaire zoektocht"
+      "reason": "Ongelovig willen zijn maar niet kunnen: tot geloof komen"
     },
     {
-      "n": 181,
-      "reason": "Willem Jan Otten, kunst, geloof en muziek (Bach)"
+      "n": 109,
+      "reason": "Zingevingscrisis en de sprong naar geloof, kerk en secularisatie"
+    },
+    {
+      "n": 319,
+      "reason": "Bekering tot geloof, twijfel en de rol van de kerk"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 229,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 122061,
+    "segments": 1409,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31624,
-    "output_tokens": 2335,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 63907,
+    "output_tokens": 6551,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "God & geloof",
     "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Zingeving & psyche",
+    "Gezin & relaties"
   ],
   "guests": [
     "Claartje Kruijff"
@@ -20,200 +25,247 @@
   "people": [
     {
       "name": "John Mark Comer",
-      "note": "Amerikaanse schrijver over 'the ruthless elimination of hurry'",
+      "note": "Amerikaans schrijver die haast als vijand van spiritualiteit beschrijft",
       "start_seconds": 122,
-      "wiki_checked": true,
-      "mention_count": 1
+      "mention_count": 2
     },
     {
       "name": "Flannery O'Connor",
-      "note": "Amerikaanse katholieke schrijver; citaat over tegen de tijdgeest aanduwen",
-      "start_seconds": 726,
-      "wiki_checked": true,
-      "wiki_pageid": 591957,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Flannery_O%27Connor",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Flannery-O%27Connor_1947.jpg/250px-Flannery-O%27Connor_1947.jpg",
-      "mention_count": 1
+      "note": "schrijver die zegt dat we net zo hard tegen de tijdgeest moeten duwen als die tegen ons",
+      "start_seconds": 715,
+      "mention_count": 2
     },
     {
       "name": "Marco Borsato",
-      "note": "Zanger, voorbeeld van cancelcultuur en MeToo-aantijgingen",
-      "start_seconds": 897,
-      "wiki_checked": true,
-      "wiki_pageid": 16572,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marco_Borsato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Marco_Borsato_2016.tif/lossy-page1-60px-Marco_Borsato_2016.tif.jpg",
-      "mention_count": 2
+      "note": "zanger wiens carrière is geschaad door een onbewezen aantijging",
+      "start_seconds": 888,
+      "mention_count": 3
     },
     {
-      "name": "Joris Luyendijk",
-      "note": "Schrijver/journalist die dook in de Londense City",
+      "name": "Joris Luijendijk",
+      "note": "journalist die ook in de financiële wereld van Londen is ingedoken",
       "start_seconds": 1271,
-      "wiki_checked": true,
-      "wiki_pageid": 443247,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joris_Luyendijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Joris_Luyendijk_2019.jpg/250px-Joris_Luyendijk_2019.jpg",
       "mention_count": 1
     },
     {
-      "name": "Menno de Bree",
-      "note": "Filosoof, eerder gast; over vrije opvoeding als morele verwaarlozing",
+      "name": "Menno de Pree",
+      "note": "filosoof die spreekt over opvoeding en morele verwaarlozing door te veel vrijheid",
       "start_seconds": 1977,
-      "wiki_checked": true,
+      "mention_count": 3
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "filosoof die stelt dat het emancipatieverhaal een generatie lang bezieling geeft",
+      "start_seconds": 2586,
       "mention_count": 2
+    },
+    {
+      "name": "Julian Barnes",
+      "note": "schrijver met de uitspraak 'I don't believe in God, but I do miss him'",
+      "start_seconds": 2247,
+      "mention_count": 1
+    },
+    {
+      "name": "Nick Cave",
+      "note": "muzikant die God ziet als work in progress en de zoektocht",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; zegt dat God gezocht moet worden omdat hij verborgen en onmetelijk is",
+      "start_seconds": 3115,
+      "mention_count": 3
+    },
+    {
+      "name": "Typhoon",
+      "note": "rapper die zei verslaafd te zijn aan het zoeken en later christen werd",
+      "start_seconds": 3342,
+      "mention_count": 2
+    },
+    {
+      "name": "Monseigneur Beer",
+      "note": "voormalig katholiek bisschop die Kruijff en haar partner trouwde",
+      "start_seconds": 2916,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "Een God die in mij gelooft",
       "author": "Claartje Kruijff",
-      "note": "Richting en rust in een wereld zonder zekerheid",
+      "note": "Boek over richting en rust in een wereld zonder zekerheid; ondertitel 'Richting en rust in een wereld zonder zekerheid'",
       "start_seconds": 36,
-      "volume_id": "TtH9EAAAQBAJ",
+      "volume_id": "hfLm0AEACAAJ",
       "canonical_title": "Een God die in mij gelooft",
       "canonical_author": "Claartje Kruijff",
-      "isbn13": "9789025912871",
-      "isbn10": "9025912877",
-      "thumbnail": "http://books.google.com/books/content?id=TtH9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789025912864",
+      "isbn10": "9025912869",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Ruthless Elimination of Hurry",
+      "author": "John Mark Comer",
+      "note": "Boek waarin haast als vijand van liefde en spiritualiteit wordt gezien",
+      "start_seconds": 122,
+      "volume_id": "WTSGDwAAQBAJ",
+      "canonical_title": "The Ruthless Elimination of Hurry",
+      "canonical_author": "John Mark Comer",
+      "isbn13": "9780525653103",
+      "isbn10": "0525653104",
+      "thumbnail": "http://books.google.com/books/content?id=WTSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Londen",
     "Amsterdam",
-    "Amerika",
-    "Wimbledon",
-    "Chicago",
     "Zuid-Limburg",
+    "Oostenrijk",
     "Schiermonnikoog",
-    "Oostenrijk"
+    "Wenen",
+    "Chicago",
+    "Wimbledon"
   ],
-  "summary_tldr": "Claartje Kruijff vertelt over haar weg van seculier D66-milieu en een carrière in Londen naar predikant en theoloog. Het gesprek gaat over haast als vijand van spiritualiteit en liefde, over de rol van de kerk als publieke ruimte, en over vastlopen in grenzeloze vrijheid. Ze verbindt secularisatie met haast, planbaarheid en het ontbreken van kaderende verhalen.",
+  "summary_tldr": "Claartje Kruijff, predikant en voormalig theoloog des Vaderlands, vertelt hoe zij van een seculier opgroeien en een carrière als adviseur in Londen uitkwam bij de kerk. Het gesprek gaat over haast als oorzaak van vervreemding van God en de medemens, over secularisatie en het gemis van kaderende verhalen. Kruijff reflecteert ook op zoeken, vrijheid, schuld en het omarmen van een positie als grensganger.",
   "summary_points": [
-    "Haast maakt de ander instrumenteel en is volgens John Mark Comer de vijand van spiritualiteit.",
-    "Onderbrekingen, zoals een ontmoeting met een dementerende man, blijken vaak de waardevolste momenten.",
-    "Stefan Paas oppert dat secularisatie deels samenhangt met efficiëntiedenken en haast.",
-    "De kerk is een plek zonder klok, met oude stilte, waar je tegen de tijdgeest aanduwt.",
-    "Cancelcultuur en MeToo: ze juicht MeToo toe maar vreest onzorgvuldigheid, zoals bij Marco Borsato.",
-    "Het vlakke, volgebouwde Nederlandse landschap versterkt mogelijk het gevoel dat we alles zelf beheersen.",
-    "Opgegroeid in een vrij, academisch D66-milieu in Nederland en Amerika, met een gevoeligheid voor religie.",
-    "In Londen voelde ze door het commerciële werk en existentiële vragen een leegte; een kerkelijk huwelijk bracht haar in een kerk.",
-    "Te veel vrijheid zonder kader kan een last zijn; verbondenheid en gemeenschap bieden richting."
+    "Haast maakt mensen minder liefdevol en ontvankelijk voor de ander en voor het goddelijke",
+    "Planbaarheid en efficiëntie verdringen stilte, rust en het onverwachte",
+    "Secularisatie kan deels verklaard worden door een te snel en te gehaast leven",
+    "Kruijff groeide op in een seculier, progressief milieu zonder religieus kader",
+    "Haar carrière als adviseur in Londen bracht veel druk, en zij voelde een leegte",
+    "Via een katholieke priester en haar huwelijk kwam zij in contact met de kerk",
+    "Theologie studeren bij de VU leverde ruimte op, maar ook het gevoel achter te lopen",
+    "Vrijheid zonder kader kan leiden tot verdwalen en een gevoel van onmacht",
+    "Het geloof als zoektocht blijft doorgaan, ook na het vinden",
+    "Kruijff ziet zich als grensganger tussen kerk en seculiere wereld en zoekt naar verbinding"
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Haast en liefde",
-      "summary": "Kruijff over Comer's stelling dat haastige mensen geen liefhebbende mensen kunnen zijn, en David over haast als vader."
+      "start_seconds": 0,
+      "title": "Inleiding en introductie",
+      "summary": "Kruijff vertelt over vragen over kerkbezoek en de presentator stelt haar voor met haar boek en achtergrond."
     },
     {
-      "start_seconds": 370,
-      "title": "De dementerende man en de bloem",
-      "summary": "Een onverwachte ontmoeting tijdens een wandeling laat zien wat haast kost en wat aandacht oplevert."
+      "start_seconds": 122,
+      "title": "Haast en liefde",
+      "summary": "Het gesprek opent met de stelling van John Mark Comer dat haastige mensen geen liefhebbende mensen kunnen zijn."
     },
     {
       "start_seconds": 582,
-      "title": "Haast en secularisatie",
-      "summary": "Stefan Paas legt een link tussen efficiëntiedenken en ontkerkelijking; kerken als plek van stilte en traagheid."
-    },
-    {
-      "start_seconds": 768,
-      "title": "Cancelcultuur, MeToo en het landschap",
-      "summary": "Over onzorgvuldigheid, het geval Borsato en de invloed van het platte landschap op religieus besef."
+      "title": "Haast, planbaarheid en secularisatie",
+      "summary": "Stefan Paas stelt dat haast een mogelijke verklaring is voor secularisatie en dat de wereld dan niet meer kan terugspreken."
     },
     {
       "start_seconds": 1043,
-      "title": "Opgroeien in een D66-milieu",
-      "summary": "Kruijffs seculiere opvoeding, jeugd in Amerika en haar vroege gevoeligheid voor religie."
+      "title": "Persoonlijke route en carrière in Londen",
+      "summary": "Kruijff beschrijft haar studie psychologie, haar baan in Londen, het commerciële werkklimaat en het gevoel van leegte."
     },
     {
-      "start_seconds": 1207,
-      "title": "Londen en de leegte",
-      "summary": "Haar carrière in adviesbureau en City, de wrijving met commercieel werk en existentiële vragen."
+      "start_seconds": 1908,
+      "title": "Opvoeding, vrijheid en gebrek aan kader",
+      "summary": "Het gesprek gaat over de vrijheid die zij kreeg, het gemis van een kader en de ideeën van Menno de Pree."
     },
     {
-      "start_seconds": 1562,
-      "title": "Naar de kerk",
-      "summary": "Via haar katholieke man ontdekt ze de kerk als publieke ruimte waar levensvragen besproken kunnen worden."
+      "start_seconds": 2368,
+      "title": "Deconstructie en moderne spiritualiteit",
+      "summary": "De gesprekspartners bespreken het afbouwen van grote verhalen, fragmentarische spiritualiteit en de rol van Charles Taylor."
     },
     {
-      "start_seconds": 1830,
-      "title": "Vastlopen in vrijheid",
-      "summary": "Over het gebrek aan kader, autonome opvoeding en de druk van het zelf-moeten-doen."
+      "start_seconds": 2650,
+      "title": "Van zoekende naar predikant",
+      "summary": "Kruijff vertelt hoe een katholieke priester, haar huwelijk en theologie haar naar de kerk brachten."
+    },
+    {
+      "start_seconds": 3595,
+      "title": "Zoekers, sterfbedden en zonde",
+      "summary": "Het gesprek gaat over zoekers, ervaringen rond sterfbedden, schuld en de betekenis van zonde en het kruis."
+    },
+    {
+      "start_seconds": 4311,
+      "title": "Terugblik en afsluiting",
+      "summary": "Kruijff reflecteert op haar tijd in Londen en het verlangen daarnaar, waarna de aflevering eindigt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 122,
+      "start_seconds": 129,
       "speaker": "Claartje Kruijff",
       "text": "Haastige mensen kunnen geen liefhebbende mensen zijn; haast is de vijand van spiritualiteit.",
-      "note": "Centrale gedachte van het gesprek, ontleend aan John Mark Comer."
+      "note": "Centrale stelling die het hele gesprek structureert en haast koppelt aan liefde."
     },
     {
-      "start_seconds": 409,
-      "speaker": "Claartje Kruijff",
-      "text": "Ik zie nu steeds die bloem en denk aan die dementerende meneer: was het het waard? Meer dan waard.",
-      "note": "Kwetsbaar persoonlijk verhaal dat de kern van aandacht illustreert."
+      "start_seconds": 480,
+      "speaker": "Stefan Paas",
+      "text": "Zodra je de gave krijgt om de haast wat los te laten, dan kan die wereld wat terugzeggen.",
+      "note": "Verbindt planbaarheid met een open ontvankelijkheid voor het transcendente."
     },
     {
-      "start_seconds": 726,
+      "start_seconds": 2247,
       "speaker": "Claartje Kruijff",
-      "text": "We moeten net zo hard tegen de tijdgeest aanduwen als de tijdgeest tegen ons.",
-      "note": "Citaat van Flannery O'Connor over de rol van de kerk."
+      "text": "I don't believe in God, but I do miss him.",
+      "note": "Julian Barnes-citaat dat het verlangen naar God onder seculiere mensen blootlegt."
     },
     {
-      "start_seconds": 1708,
-      "speaker": "Claartje Kruijff",
-      "text": "Ik vraag de zaal wie nog naar kerk, moskee of synagoge gaat, en dan vraag ik: wat is er voor in de plaats gekomen? Dan wordt het vaak heel stil.",
-      "note": "Scherpe tegenvraag aan een geseculariseerd publiek."
+      "start_seconds": 2586,
+      "speaker": "David Boogerd",
+      "text": "Een paar generaties lang kan het emancipatieverhaal het vuur geven dat religies vroeger gaven, maar het is parasitair.",
+      "note": "Charles Taylor-gedachte die de energie van bevrijdingsverhalen als geleend beschrijft."
     },
     {
-      "start_seconds": 1815,
+      "start_seconds": 3604,
       "speaker": "Claartje Kruijff",
-      "text": "Ik zocht een kader om vanuit te leven; mijn weg ging alle kanten op.",
-      "note": "Beschrijft vastlopen in grenzeloze vrijheid."
+      "text": "Een vrouw van 95 zei op haar sterfbed: ik heb nooit geweten of ik goed genoeg ben.",
+      "note": "Emotioneel moment dat laat zien hoe diepe jeugdlijnen ook op het einde van het leven blijven spelen."
+    },
+    {
+      "start_seconds": 4186,
+      "speaker": "Claartje Kruijff",
+      "text": "Er is er één die dat allemaal draagt en die voor ons is gestorven.",
+      "note": "Persoonlijke geloofsbelijdenis die het kruis als verbindend verhaal voor de wereld in chaos plaatst."
     }
   ],
   "keywords": [
     "haast",
+    "planbaarheid",
     "secularisatie",
-    "Claartje Kruijff",
-    "John Mark Comer",
-    "kerk",
     "zingeving",
     "vrijheid",
     "kader",
-    "gemeenschap",
-    "MeToo",
-    "cancelcultuur",
-    "existentiële vragen"
+    "deconstructie",
+    "spiritualiteit",
+    "zoeker",
+    "zonde",
+    "grensganger",
+    "kruis"
   ],
   "quotes": [
-    "Volgens Trouw schrijft ze met de onbevangenheid van een nieuweling en de subtiliteit van een psycholoog."
+    "Richting en rust in een wereld zonder zekerheid",
+    "Ze had eigenlijk alles, maar toch knaagde er iets.",
+    "met de onbevangenheid van een nieuweling en de subtiliteit van een psycholoog"
   ],
   "similar": [
     {
-      "n": 297,
-      "reason": "Schrijfster over geloof, cultuur met burn-out en kerk; seculiere achtergrond naar geloof"
-    },
-    {
       "n": 212,
-      "reason": "Menno de Bree besproken; dood van God en zingeving bij jongeren"
+      "reason": "Gedeelde gast Menno de Bree; thema's dood van God, secularisatie en zingeving onder jongeren"
     },
     {
-      "n": 294,
-      "reason": "Seculier milieu, nihilisme en teleurstelling, kerk als alternatief"
+      "n": 109,
+      "reason": "Zingeving en psyche, en de sprong van ongeloof naar geloof, zoals bij Kruijff"
     },
     {
-      "n": 70,
-      "reason": "Seculiere, linkse schrijfster die later naar de kerk gaat"
+      "n": 111,
+      "reason": "Seculiere donderpreek over zingeving, God en het individu in een post-gemeenschappelijke tijd"
     },
     {
-      "n": 179,
-      "reason": "D66'er die naar de kerk gaat"
+      "n": 38,
+      "reason": "Persoonlijk zoeken en vinden van God, gedeeld thema met Kruijffs zoektocht"
+    },
+    {
+      "n": 200,
+      "reason": "Augustinus centraal, een van de figuren die in deze aflevering wordt besproken"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

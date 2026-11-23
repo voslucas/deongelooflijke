@@ -1,111 +1,124 @@
 {
   "episode": 137,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 98191,
+    "segments": 1054,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31644,
-    "output_tokens": 2419,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51609,
+    "output_tokens": 2914,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Islam & jodendom",
     "Samenleving & migratie",
-    "God & geloof",
-    "Bijbel & Jezus"
+    "Politiek"
   ],
   "guests": [
     "Dilara Bilgic"
   ],
   "people": [
     {
+      "name": "Dilara Bilgic",
+      "note": "gast, schrijver en filosoof, 20 jaar",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
       "name": "Mark Rutte",
       "note": "premier die Dilara uitnodigde in het Torentje",
-      "start_seconds": 24,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "start_seconds": 331,
+      "mention_count": 2
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
       "name": "Spinoza",
-      "note": "filosoof, vergelijking met jong schrijverschap",
+      "note": "filosoof, vergeleken met Dilara's jonge boekdebuut",
       "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Joris Luyendijk",
-      "note": "eerdere spreker van de Amersfoortse Bergrede, aangevallen om zijn 'vinkjes'",
-      "start_seconds": 414,
-      "wiki_checked": true,
-      "wiki_pageid": 443247,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joris_Luyendijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Joris_Luyendijk_2019.jpg/250px-Joris_Luyendijk_2019.jpg"
+      "name": "Joris Luijendijk",
+      "note": "eerdere spreker in de Amersfoortse Bergrede, aangevallen rond de vinkjes-discussie",
+      "start_seconds": 475,
+      "mention_count": 1
     },
     {
       "name": "Sander Schimmelpenninck",
-      "note": "ondernemer en schrijver, volgens Dilara bij voorbaat ongeloofwaardig geacht vanwege adel",
-      "start_seconds": 557,
-      "wiki_checked": true,
-      "wiki_pageid": 4937539,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sander_Schimmelpenninck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sander_Schimmelpenninck_%282017%29.jpg/250px-Sander_Schimmelpenninck_%282017%29.jpg"
+      "note": "genoemd als voorbeeld van iemand van adel die volgens Dilara ongeloofwaardig is",
+      "start_seconds": 568,
+      "mention_count": 1
     },
     {
       "name": "Gandhi",
-      "note": "las dagelijks de Bergrede",
-      "start_seconds": 1022,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
+      "note": "las de Bergrede dagelijks",
+      "start_seconds": 1020,
+      "mention_count": 1
     },
     {
-      "name": "David Bosch",
-      "note": "Zuid-Afrikaanse theoloog over de Bergrede",
-      "start_seconds": 1032,
-      "wiki_checked": true
+      "name": "Graham Greene",
+      "note": "katholieke schrijver; 'twijfel aan mijn twijfel'",
+      "start_seconds": 1756,
+      "mention_count": 1
     },
     {
-      "name": "Recep Tayyip Erdoğan",
-      "note": "Turkse president, product van de seculiere coups",
-      "start_seconds": 2219,
-      "wiki_checked": true,
-      "wiki_pageid": 114344,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/250px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"
+      "name": "Erdogan",
+      "note": "Turkse president, product van de seculiere geschiedenis",
+      "start_seconds": 2220,
+      "mention_count": 1
     },
     {
-      "name": "Joosje de Voogt",
-      "note": "eerdere gast over zich niet erkend voelen in de samenleving",
-      "start_seconds": 1424,
-      "wiki_checked": true
+      "name": "Emmy Naour",
+      "note": "columnist bij Trouw, talkshowgast met Dilara",
+      "start_seconds": 1770,
+      "mention_count": 1
     },
     {
-      "name": "Ebru Umar",
-      "note": "columnist die zware haatreacties kreeg",
-      "start_seconds": 1776,
-      "wiki_checked": true,
-      "wiki_pageid": 292005,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ebru_Umar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/EbruUmar.jpg/250px-EbruUmar.jpg"
+      "name": "Losfi El Hamidi",
+      "note": "genoemd over de PVV als zegen voor de islam",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Josse de Voogt",
+      "note": "gast in een vorige aflevering over niet-erkende groepen",
+      "start_seconds": 1420,
+      "mention_count": 1
+    },
+    {
+      "name": "David Boss",
+      "note": "Zuid-Afrikaanse theoloog; kerkgeschiedenis als pogingen de Bergrede te ontlopen",
+      "start_seconds": 1048,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "De Gelabelde",
+      "author": "Dilara Bilgic",
+      "note": "tweede boek, pleidooi voor een genuanceerde wereldbeschouwing",
+      "start_seconds": 1080,
+      "volume_id": "aBHMzgEACAAJ",
+      "canonical_title": "De gelabelde. Pleidooi voor een genuanceerde wereldbeschouwing",
+      "canonical_author": "Dilara Bilgiç",
+      "isbn13": "9789493256446",
+      "isbn10": "9493256448",
+      "thumbnail": ""
+    },
+    {
       "title": "Black Box Democratie",
       "author": "Dilara Bilgic",
-      "note": "politiek-filosofisch debuut dat leidde tot uitnodiging bij Rutte",
+      "note": "eerste boek, politiek-filosofisch, geschreven op 18-jarige leeftijd",
       "start_seconds": 331,
       "volume_id": "fE000AEACAAJ",
       "canonical_title": "De Black Box Democratie",
@@ -113,156 +126,147 @@
       "isbn13": "9789024433094",
       "isbn10": "9024433096",
       "thumbnail": ""
-    },
-    {
-      "title": "De Gelabelde: Pleidooi voor een genuanceerde wereldbeschouwing",
-      "author": "Dilara Bilgic",
-      "note": "tweede boek over hokjesdenken en labels",
-      "start_seconds": 1073,
-      "volume_id": "aBHMzgEACAAJ",
-      "canonical_title": "De gelabelde. Pleidooi voor een genuanceerde wereldbeschouwing",
-      "canonical_author": "Dilara Bilgiç",
-      "isbn13": "9789493256446",
-      "isbn10": "9493256448",
-      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Lucas 6:41",
-      "note": "de splinter en de balk in het oog",
-      "start_seconds": 589
+      "note": "splinter en balk, basis van de Amersfoortse Bergrede",
+      "start_seconds": 603
     },
     {
       "ref": "Mattheus 5",
-      "note": "de Bergrede, o.a. de andere wang toekeren",
-      "start_seconds": 415
+      "note": "de Bergrede",
+      "start_seconds": 414
     }
   ],
   "places": [
     "Amersfoort",
-    "Turkije",
     "Alphen aan den Rijn",
     "Adıyaman",
-    "Nederland",
-    "Amsterdam",
-    "Kampen"
+    "Turkije",
+    "Utrecht",
+    "Iran"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met de 20-jarige filosoof en schrijver Dilara Bilgic over haar Amersfoortse Bergrede over de splinter en de balk, en over het gevaar van labels en hokjesdenken. Ze vertelt over haar beslissing de hoofddoek af te doen, de haatreacties die ze kreeg en de achtergrond van haar ouders die na de Turkse 'postmoderne coup' van 1997 vluchtten.",
+  "summary_tldr": "Dilara Bilgic, de 20-jarige 'jongste filosoof van Nederland', spreekt over haar keuze om haar hoofddoek af te doen, haar geloofstwijfels en de ruimte voor twijfel binnen de islam. Ze bespreekt ook haar Amersfoortse Bergrede over splinter en balk en het gevaar van hokjesdenken en labels. Stefan Paas reageert kritisch en nuancerend op haar standpunten.",
   "summary_points": [
-    "Dilara put motivatie voor haar werk uit frustratie over maatschappelijke thema's.",
-    "In haar Bergrede waarschuwt ze dat diversiteitsdebatten te veel over symboliek en 'vinkjes' gaan in plaats van over een onrechtvaardig systeem.",
-    "De splinter en de balk: we wijzen naar de ander en zien onze eigen vooroordelen niet.",
-    "Labelen is menselijk, maar problematisch als je mensen alleen nog door het label ziet.",
-    "Door onder standpunten te luisteren naar universele behoeften, zoals veiligheid, kan het gesprek met bijvoorbeeld PVV-stemmers veranderen.",
-    "Machthebbers zetten minderheden tegen elkaar op; Dilara pleit voor solidariteit en aandacht voor het systeem.",
-    "Ze draagt geen hoofddoek meer omdat die niet meer overeenstemde met haar opvattingen; ze kreeg als draagster haat en bedreigingen.",
-    "Haar ouders vluchtten uit Turkije na de seculiere coup van 1997 vanwege beperkingen op hun religieuze praktijk."
+    "Dilara's ouders zijn gevlucht uit Turkije vanwege de seculiere coup van 1997, omdat hun geloofsuitoefening niet kon.",
+    "Dilara heeft na 8 jaar de hoofddoek afgedaan, omdat het niet meer met haar overtuigingen overeenstemde.",
+    "Ze ziet geloofstwijfel als een eerlijke positie, en ervaart reacties die dat wegwuiven als frustrerend.",
+    "In haar Bergrede pleit ze voor het zien van het eigen aandeel (de balk) voordat men over anderen oordeelt.",
+    "Ze kritiseert de focus op symboliek en diversiteit aan de top, en pleit voor het afbouwen van het onrechtvaardige systeem.",
+    "Labels en hokjesdenken maken het moeilijk mensen echt te zien; ze pleit voor gesprek voorbij labels.",
+    "Stefan Paas betwijfelt of gesprek alleen iets verandert en wijst op machtsmechanismen die minderheden tegen elkaar opzetten.",
+    "Over de islam: er is geen centraal leergezag, en twijfel komt wel voor in de Koran, maar kritiek op het eigen geloof is politiek beladen in Nederland.",
+    "De PVV wordt door Dilara als bedreiging ervaren, terwijl gesprek met kiezers haar begrip oplevert."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie van de jongste filosoof",
-      "summary": "David introduceert Dilara en bespreekt haar jonge carrière, ouders en frustratie als motor."
+      "title": "Introductie en achtergrond",
+      "summary": "Dilara wordt voorgesteld; het gesprek gaat over haar drive, opvoeding door theologen-ouders en boekenpassie."
     },
     {
       "start_seconds": 331,
-      "title": "Black Box Democratie en het Torentje",
-      "summary": "Over haar debuut en het gesprek met Mark Rutte over segregatie en polarisatie."
+      "title": "Bergrede en hokjesdenken",
+      "summary": "Dilara's Amersfoortse Bergrede over diversiteit, inclusie en de splinter en balk uit Lucas."
     },
     {
-      "start_seconds": 414,
-      "title": "De Amersfoortse Bergrede",
-      "summary": "Dilara's kritiek op het diversiteitsdebat en de link met de splinter en de balk."
+      "start_seconds": 1080,
+      "title": "Labels, PVV en verzoening",
+      "summary": "Het gesprek over labels, vooroordelen en gesprekken met PVV-kiezers, en de rol van machthebbers."
     },
     {
-      "start_seconds": 1073,
-      "title": "De Gelabelde en hokjesdenken",
-      "summary": "Waarom labels problematisch zijn en hoe gesprekken met PVV-stemmers inzichten opleveren."
+      "start_seconds": 1680,
+      "title": "Hoofddoek en de keuze om hem af te doen",
+      "summary": "Ervaringen met discriminatie, de hoofddoek als politiek statement en de reden om hem af te doen."
     },
     {
-      "start_seconds": 1420,
-      "title": "Minderheden en solidariteit",
-      "summary": "Over het tegen elkaar opzetten van minderheden en de roep om solidariteit."
+      "start_seconds": 2160,
+      "title": "Turkse geschiedenis en de coup van 1997",
+      "summary": "Uitleg over de seculiere coup die de ouders deed vluchten en de invloed daarvan op Turkije en Nederland."
     },
     {
-      "start_seconds": 1626,
-      "title": "De hoofddoek en haatreacties",
-      "summary": "Dilara vertelt over haar ervaringen met de hoofddoek en de keuze om hem af te doen."
+      "start_seconds": 2820,
+      "title": "Geloofstwijfel en de islam",
+      "summary": "Dilara's twijfel, het verschil tussen geloof en twijfel, en de ruimte voor kritiek binnen de islam."
     },
     {
-      "start_seconds": 2180,
-      "title": "Turkije en de coup van 1997",
-      "summary": "Waarom haar ouders vluchtten uit het seculiere Turkije en de rol van Erdoğan."
+      "start_seconds": 3540,
+      "title": "Familie, liefde en secularisatie",
+      "summary": "Spanning tussen persoonlijke keuzes en familieliefde, en de vraag naar secularisatie onder moslims."
+    },
+    {
+      "start_seconds": 4380,
+      "title": "Studie, politiek en afsluiting",
+      "summary": "Dilara's ervaring met psychologie, Stefan's advies over theologie, en vooruitblik naar het café-evenement."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 3,
+      "start_seconds": 1,
       "speaker": "Dilara Bilgic",
       "text": "Ik geloof dat ik twijfel.",
-      "note": "Openende uitspraak over haar geloofstwijfels."
-    },
-    {
-      "start_seconds": 1032,
-      "speaker": "Stefan Paas",
-      "text": "De hele kerkgeschiedenis is een 2000-jarige reeks pogingen om de Bergrede te ontlopen.",
-      "note": "Citaat van David Bosch over de radicaliteit van de Bergrede."
-    },
-    {
-      "start_seconds": 1740,
-      "speaker": "Dilara Bilgic",
-      "text": "Een auto riep dat ik de hoofddoek moest afdoen toen ik door rood fietste.",
-      "note": "Illustreert hoe een hoofddoek je tot representant van een groep maakt."
-    },
-    {
-      "start_seconds": 1931,
-      "speaker": "Dilara Bilgic",
-      "text": "In Turkije bleek het afdoen van de hoofddoek veel normaler en minder gepolariseerd.",
-      "note": "Verrassend contrast met de Nederlandse situatie."
+      "note": "Kernuitspraak die haar positie samenvat en tot discussie over twijfel leidt."
     },
     {
       "start_seconds": 2250,
       "speaker": "Dilara Bilgic",
-      "text": "Het was gewoon echt dictatoriaal, die zogenaamde postmoderne coup.",
-      "note": "Scherpe typering van de coup van 1997."
+      "text": "Ik zeg altijd, Erdogan is wel een product van die geschiedenis.",
+      "note": "Scherpe analyse dat het seculiere leger zelf de reactie van Erdogan voedde."
+    },
+    {
+      "start_seconds": 2650,
+      "speaker": "Dilara Bilgic",
+      "text": "Dat er een soort wij-zij cultuur ontstaat door het gepolariseerde debat.",
+      "note": "Laat zien hoe migratie en debat de identiteit van groepen verscherpen."
+    },
+    {
+      "start_seconds": 3030,
+      "speaker": "Stefan Paas",
+      "text": "Twijfel aan mijn twijfel.",
+      "note": "Graham Greene's uitdrukking als bron van creativiteit in geloof."
+    },
+    {
+      "start_seconds": 2800,
+      "speaker": "Dilara Bilgic",
+      "text": "Het brein reageert op een andere overtuiging als op een beer in het bos.",
+      "note": "Opvallende vergelijking over hoe mensen reageren op uitdagingen van hun overtuigingen."
     }
   ],
   "keywords": [
-    "Dilara Bilgic",
+    "geloofstwijfel",
     "hoofddoek",
+    "islam",
     "Bergrede",
     "splinter en balk",
     "hokjesdenken",
-    "Black Box Democratie",
-    "De Gelabelde",
+    "labels",
+    "PVV",
     "Turkije",
-    "polarisatie",
-    "islam",
-    "geloofstwijfel",
-    "Erdoğan"
+    "seculiere coup",
+    "klassenmigrant",
+    "twijfel"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 194,
-      "reason": "Lale Gül: religieverlater uit islamitisch milieu, haatreacties en de macht van het woord"
-    },
-    {
-      "n": 40,
-      "reason": "Gesprek met imam Yassin Elforkani over islam, radicalisering en geloof in Nederland"
+      "reason": "Religieverlater over geloofstwijfel, islam en politiek; sterk thematisch verwant"
     },
     {
       "n": 110,
-      "reason": "Lotfi El Hamidi over islamdebat en moslimperspectief in Nederland na 9/11"
+      "reason": "Islamdebat en samenleving na 9/11; Lotfi El Hamidi wordt ook in #137 genoemd"
     },
     {
-      "n": 327,
-      "reason": "Kader Abdolah: opgegroeid in islamitisch Iran, persoonlijke zoektocht en geloofsverandering"
+      "n": 44,
+      "reason": "Geloof, identiteitsdenken en islam in een samenleving met migratie"
     },
     {
-      "n": 88,
-      "reason": "Joris Luyendijk besproken; Zeven Vinkjes over geloof, ongeloof en privilege"
+      "n": 40,
+      "reason": "Gesprek over islam en radicalisering met een Amsterdamse imam"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

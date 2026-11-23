@@ -1,17 +1,22 @@
 {
   "episode": 6,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 91810,
+    "segments": 682,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29923,
-    "output_tokens": 2524,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 45759,
+    "output_tokens": 8261,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Filosofie & ethiek",
     "Wetenschap & kosmos",
+    "Filosofie & ethiek",
     "Bijbel & Jezus"
   ],
   "guests": [
@@ -19,154 +24,146 @@
   ],
   "people": [
     {
-      "name": "Emanuel Rutten",
-      "note": "filosoof aan de Vrije Universiteit, verdediger van het theïsme",
-      "start_seconds": 4,
-      "wiki_checked": true,
-      "wiki_pageid": 4109284,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Emanuel_Rutten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Emanuel_Rutten_2014.png/250px-Emanuel_Rutten_2014.png"
-    },
-    {
       "name": "Augustinus",
-      "note": "kerkvader uit de vierde eeuw, schreef Belijdenissen",
-      "start_seconds": 375,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Alain Badiou",
-      "note": "Franse filosoof, begrip 'waarheidsevenement'",
-      "start_seconds": 399,
-      "wiki_checked": true,
-      "wiki_pageid": 232007,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alain_Badiou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Alain_Badiou-2.jpg/250px-Alain_Badiou-2.jpg"
+      "note": "Kerkvader uit de vierde eeuw; schrijver van de Bekentenissen, die Rutten tot het christendom bracht",
+      "start_seconds": 360,
+      "mention_count": 4
     },
     {
       "name": "Jezus van Nazareth",
-      "note": "fascinatie die Rutten tot het christendom bracht",
+      "note": "Centrale figuur in het christelijk geloof; die Rutten persoonlijk raakte",
       "start_seconds": 411,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Roger Penrose",
-      "note": "natuurkundige, rekende multiversum door in The Road to Reality",
-      "start_seconds": 1059,
-      "wiki_checked": true,
-      "wiki_pageid": 113254,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roger_Penrose",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Roger_Penrose-6Nov2005.jpg/250px-Roger_Penrose-6Nov2005.jpg"
-    },
-    {
-      "name": "Arjen Lubach",
-      "note": "presentator die in aflevering 1 over fine-tuning sprak en met Rutten debatteerde",
-      "start_seconds": 1168,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
+      "mention_count": 8
     },
     {
       "name": "Aristoteles",
-      "note": "filosoof, causaliteitsargument voor een eerste begin",
+      "note": "Klassieke filosoof; gebruikt voor het causale argument voor een eerste oorzaak",
+      "start_seconds": 600,
+      "mention_count": 3
+    },
+    {
+      "name": "Plato",
+      "note": "Klassieke filosoof die Rutten gelezen had",
+      "start_seconds": 600,
+      "mention_count": 1
+    },
+    {
+      "name": "Leibniz",
+      "note": "Filosoof; Rutten noemt zichzelf een Leibniziaan in een tweet",
       "start_seconds": 1416,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "mention_count": 2
     },
     {
       "name": "Thomas van Aquino",
-      "note": "theoloog, God is de grond van de wereld, geen ding in de wereld",
+      "note": "Middeleeuwse theoloog-filosoof; verdedigde godsargumenten",
       "start_seconds": 1416,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Thales",
+      "note": "Eerste Griekse filosoof, bij wie de westerse filosofische traditie begint volgens Rutten",
+      "start_seconds": 1360,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; over verzet tegen het christendom als kwestie van smaak",
+      "start_seconds": 436,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "Filosoof; genoemd als inspiratie voor postmoderne taal over God",
+      "start_seconds": 3834,
+      "mention_count": 1
+    },
+    {
+      "name": "Jean-Louis Chrétien",
+      "note": "Franse filosoof; over de taal van gebed als relatie tot God",
+      "start_seconds": 3862,
+      "mention_count": 1
+    },
+    {
+      "name": "Roger Penrose",
+      "note": "Kosmoloog; boek The Road to Reality over multiversum en kwantummechanica",
+      "start_seconds": 1059,
+      "mention_count": 1
     },
     {
       "name": "Alexander Vilenkin",
-      "note": "kosmoloog: 'There is no escape' van een kosmisch begin",
-      "start_seconds": 1625,
-      "wiki_checked": true,
-      "wiki_pageid": 2885980,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Alexander_Vilenkin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/AlexanderVilenkin.JPG/250px-AlexanderVilenkin.JPG"
+      "note": "Kosmoloog; zegt dat kosmologen een kosmisch begin niet kunnen ontlopen",
+      "start_seconds": 1605,
+      "mention_count": 1
+    },
+    {
+      "name": "Stephen Hawking",
+      "note": "Natuurkundige; Vilenkins uitspraak werd op zijn verjaardag gedaan",
+      "start_seconds": 1605,
+      "mention_count": 1
     },
     {
       "name": "Alvin Plantinga",
-      "note": "filosoof, Free Will Defense",
-      "start_seconds": 2064,
-      "wiki_checked": true,
-      "wiki_pageid": 175924,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alvin_Plantinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/AlvinPlantinga.JPG/250px-AlvinPlantinga.JPG"
-    },
-    {
-      "name": "Herman Philipse",
-      "note": "bekende atheïstische filosoof",
-      "start_seconds": 2617,
-      "wiki_checked": true,
-      "wiki_pageid": 145409,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Philipse",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Herman_Philipse-crop.jpg/250px-Herman_Philipse-crop.jpg"
-    },
-    {
-      "name": "Joshua Rasmussen",
-      "note": "filosoof in de revival van godsargumenten",
-      "start_seconds": 2562,
-      "wiki_checked": true
-    },
-    {
-      "name": "Robert Koons",
-      "note": "filosoof in de revival van godsargumenten",
-      "start_seconds": 2562,
-      "wiki_checked": true
+      "note": "Filosoof; ontwikkelde de Free Will Defense en leidde de revival van godsargumenten",
+      "start_seconds": 2108,
+      "mention_count": 2
     },
     {
       "name": "Alexander Pruss",
-      "note": "filosoof in de revival van godsargumenten",
-      "start_seconds": 2562,
-      "wiki_checked": true
+      "note": "Filosoof in de analytische godsfilosofie",
+      "start_seconds": 2567,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Philipsen",
+      "note": "Bekende atheïst; debatpartner van Rutten",
+      "start_seconds": 2617,
+      "mention_count": 3
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Presentator die in de eerste aflevering over fine-tuning sprak met Paas",
+      "start_seconds": 1168,
+      "mention_count": 1
+    },
+    {
+      "name": "René van Woudenberg",
+      "note": "Filosoof; Rutten promoveerde bij hem (genoemd als René van Baunenberg in transcript) en schreef een NRC-stuk over godsbewijzen",
+      "start_seconds": 636,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Cruijff",
+      "note": "Voetballegende; gebruikt als vergelijking voor de christelijke godsdienstfilosofie",
+      "start_seconds": 3432,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Neeskens",
+      "note": "Voetballer; gebruikt als vergelijking voor de christelijke godsdienstfilosofie",
+      "start_seconds": 3432,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Belijdenissen",
+      "title": "Bekentenissen",
       "author": "Augustinus",
-      "note": "las Rutten tijdens zijn studie aan de VU",
+      "note": "Tekst die Rutten als student aan de VU las en die hem diep raakte",
       "start_seconds": 377,
-      "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
-      "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026321023",
-      "isbn10": "9026321023",
-      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "volume_id": "W4QItwAACAAJ",
+      "canonical_title": "Bekentenissen van Augustinus",
+      "canonical_author": "Aurelius Augustinus, Walraven Francken (Az.)",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "The Road to Reality",
       "author": "Roger Penrose",
-      "note": "argument tegen het multiversum",
+      "note": "Gebruikt om het multiversum-argument te weerleggen via kansrekening",
       "start_seconds": 1059,
       "volume_id": "pniMEAAAQBAJ",
-      "canonical_title": "The Road to Reality",
+      "canonical_title": "The Road to Reality: A Complete Guide to the Laws of the Universe",
       "canonical_author": "Roger Penrose",
       "isbn13": "9780099440680",
       "isbn10": "0099440687",
@@ -177,128 +174,138 @@
   "places": [
     "Delft",
     "Amsterdam",
-    "Auschwitz",
+    "Utrecht",
     "Amerika",
-    "Engeland"
+    "Engeland",
+    "Nederland"
   ],
-  "summary_tldr": "Filosoof Emanuel Rutten vertelt hoe hij van areligieuze wiskundige christen en verdediger van godsargumenten werd. Hij legt het fine-tuning argument en het kosmologisch argument uit, bespreekt het probleem van het lijden en stelt dat het atheïsme filosofisch zwak staat.",
+  "summary_tldr": "Filosoof Emanuel Rutten, die vroeger religie onzin vond, verdedigt nu het bestaan van God met rationele argumenten zoals het fine-tuning- en het kosmologisch godsargument. Hij stelt dat het atheïsme filosofisch zwak staat en dat er ook aan atheïstische kant een bewijslast rust. Stefan Paas nuanceert dat argumenten vaak voortkomen uit wat mensen al willen geloven en dat God als object van debat misschien niet meer de levende God is.",
   "summary_points": [
-    "Rutten was als wiskundige areligieus en vond God een kwestie van onzin.",
-    "Zingevingsvragen en Augustinus leidden hem via de filosofie naar Jezus en het christendom.",
-    "Het fine-tuning argument: natuurconstanten zijn zo afgesteld dat leven mogelijk is, wat volgens hem wijst op een buitenkosmisch bewustzijn.",
-    "Toeval, noodzakelijkheid en het multiversum acht hij geen redelijke verklaringen.",
-    "Het kosmologisch argument gebruikt de Big Bang: een begin van het heelal vraagt een tijdloze, immateriële oorzaak.",
-    "Conflict tussen geloof en wetenschap noemt hij een mythe.",
-    "Het lijden is een serieus emotioneel probleem, maar geen argument voor atheïsme.",
-    "Zijn eigen modaal-epistemisch godsargument bedacht hij tijdens het tandenpoetsen.",
-    "Hij ziet een revival van godsargumenten in de analytische filosofie en stelt dat ook de atheïst een bewijslast heeft."
+    "Rutten was in zijn jeugd areligieus en zag geloof als onzin, gedreven door zijn fascinatie voor wiskunde en natuurwetenschap.",
+    "Via filosofie en de lezing van Augustinus kwam hij bij Jezus en besloot hij zichzelf christen te noemen, eerst existentieel en daarna rationeel.",
+    "Het fine-tuning-argument stelt dat natuurconstanten zo precies zijn afgesteld dat leven mogelijk is, wat volgens Rutten om een verklaring vraagt die bij toeval of multiversum niet past.",
+    "Het kosmologisch godsargument combineert het begin van het universum met het principe dat alles wat begint een oorzaak heeft, wat leidt tot een immateriële oorzaak.",
+    "Rutten's modaal epistemisch godsargument, bedacht tijdens het tandenpoetsen, stelt dat als alles kenbaar is, God niet onkenbaar kan zijn.",
+    "Het lijden in de wereld ziet Rutten als het sterkste argument tegen Gods goedheid, maar niet als bewijs tegen Gods bestaan.",
+    "Rutten meent dat atheïsten ook een bewijslast hebben en dat er volgens hem een revival van godsargumenten in de analytische filosofie gaande is.",
+    "Paas wijst erop dat overtuigingen vaak voortkomen uit verlangen en aantrekkingskracht, en dat emotionele ervaringen vaak zwaarder wegen dan argumenten.",
+    "Paas stelt dat rationele godsargumenten slechts een dunne God opleveren, en dat de levende God van de theologie daarmee niet wordt geraakt."
   ],
   "chapters": [
     {
-      "start_seconds": 38,
-      "title": "Van areligieus wiskundige naar christen",
-      "summary": "Rutten vertelt over zijn areligieuze periode, zijn zoektocht naar zin, Augustinus en Jezus."
+      "start_seconds": 0,
+      "title": "Inleiding en vraag der vragen",
+      "summary": "Boogerd introduceert de aflevering over godsargumenten en het idee dat atheïsme filosofisch zwak zou staan."
     },
     {
-      "start_seconds": 656,
-      "title": "Rationele argumenten voor God",
-      "summary": "Hij wilde zijn wereldbeeld ook rationeel onderbouwen en promoveerde op godsargumenten."
+      "start_seconds": 78,
+      "title": "Van areligieus wiskundige tot christen",
+      "summary": "Rutten vertelt hoe hij als wiskundige religie afwees, via filosofie bij Augustinus en Jezus uitkwam, en zichzelf christen noemde."
     },
     {
-      "start_seconds": 711,
-      "title": "Het fine-tuning argument",
-      "summary": "Uitleg over natuurconstanten, en waarom toeval, multiversum en noodzakelijkheid volgens hem falen."
+      "start_seconds": 360,
+      "title": "Augustinus, Jezus en de weg naar redelijk geloof",
+      "summary": "De lezing van Augustinus en de Bijbel leidde tot een existentiële overtuiging die Rutten daarna rationeel wilde onderbouwen."
     },
     {
-      "start_seconds": 1479,
-      "title": "Wetenschap, Big Bang en kosmologisch argument",
-      "summary": "Het begin van het heelal leidt volgens Rutten tot een tijdloze, immateriële oorzaak; wie ontwierp de ontwerper?"
+      "start_seconds": 660,
+      "title": "Het fine-tuning-argument",
+      "summary": "Rutten legt uit waarom de natuurconstanten zo precies zijn afgesteld, met de vuurpeloton-analogie als toelichting, en Paas bevraagt de houdbaarheid ervan."
+    },
+    {
+      "start_seconds": 1500,
+      "title": "Kosmologisch argument en de Big Bang",
+      "summary": "Het begin van het heelal wordt gebruikt als premisse voor een oorzaak buiten tijd en ruimte, en het multiversum wordt afgewezen."
     },
     {
       "start_seconds": 1834,
-      "title": "Argumenten tegen God en het lijden",
-      "summary": "Rutten vindt geen sterke argumenten voor atheïsme; het lijden is wel een serieuze uitdaging voor Gods goedheid."
+      "title": "Het beste argument tegen God",
+      "summary": "Rutten vindt geen sluitende tegenargumenten; het lijden in de wereld is voor hem het sterkste emotionele probleem, maar geen logisch bewijs tegen God."
     },
     {
-      "start_seconds": 2118,
-      "title": "Het modaal-epistemisch godsargument",
-      "summary": "Hoe hij zijn eigen argument bedacht en aanscherpte."
+      "start_seconds": 2532,
+      "title": "Modaal epistemisch argument en kentering in de filosofie",
+      "summary": "Rutten vertelt over zijn eigen argument, de revival van godsargumenten in de analytische filosofie en de bewijslast van atheïsten."
     },
     {
-      "start_seconds": 2425,
-      "title": "Kentering in de filosofie",
-      "summary": "Rutten ziet een revival van het theïsme in de academische filosofie en bespreekt de bewijslast van atheïsten."
+      "start_seconds": 3130,
+      "title": "Waarom mensen geloven en de taal van God",
+      "summary": "Paas en Boogerd bespreken dat argumenten zelden bekeren, dat geloof emotioneel is en dat de dunne God van argumenten verschilt van de levende God van de theologie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 4,
+      "start_seconds": 660,
       "speaker": "Emanuel Rutten",
-      "text": "Ik raakte buitengewoon geïrriteerd: waarom zijn deze argumenten zo goed verborgen gehouden?",
-      "note": "Persoonlijke reactie op het ontdekken van godsargumenten."
-    },
-    {
-      "start_seconds": 888,
-      "speaker": "Emanuel Rutten",
-      "text": "We are living on a razor's edge.",
-      "note": "Kernbeeld van het fine-tuning argument."
+      "text": "Waarom heb ik deze argumenten niet eerder gezien? Waarom zijn deze argumenten zo goed verborgen gehouden?",
+      "note": "Laat zien hoe verrast Rutten was dat sterke godsargumenten zo weinig bekend zijn, wat zijn overtuiging voedt."
     },
     {
       "start_seconds": 1235,
       "speaker": "Emanuel Rutten",
-      "text": "Het vuurpeloton: dat ze allemaal gemist hebben is evident, maar de vraag is waarom.",
-      "note": "Sterke analogie tegen het 'wij zijn er immers'-bezwaar."
+      "text": "Stel, je staat voor een vuurpeloton en duizenden schutters leggen aan, en ze hebben allemaal gemist.",
+      "note": "Een scherpe analogie die de vraag 'waarom' bij fine-tuning concreet maakt."
     },
     {
-      "start_seconds": 2118,
+      "start_seconds": 2048,
       "speaker": "Emanuel Rutten",
-      "text": "Ik stond voor die spiegel en kreeg die inval.",
-      "note": "Het ontstaan van zijn eigen godsargument tijdens het tandenpoetsen."
+      "text": "Het christendom is nooit voor het lijden weggelopen. Het is een centraal thema in het christendom.",
+      "note": "Een ontwapenende erkenning dat het lijden de christelijke traditie centraal raakt."
     },
     {
-      "start_seconds": 2425,
-      "speaker": "Emanuel Rutten",
-      "text": "Er is bijna een schandaal: er is gewoon geen steekhoudend argument voor de claim dat er geen God is.",
-      "note": "Stellige uitspraak over de stand van het atheïsme."
+      "start_seconds": 3193,
+      "speaker": "Stefan Paas",
+      "text": "Geloven we wat we graag willen geloven, waar we door aangetrokken worden.",
+      "note": "Paas laat zien dat argumenten vaak achteraf komen en dat verlangen ons overtuigingen stuurt."
+    },
+    {
+      "start_seconds": 3814,
+      "speaker": "Stefan Paas",
+      "text": "Zodra je over God gaat debatteren, is wat je debatteert niet God meer.",
+      "note": "Een theologische paradox die het hele genre van godsbewijzen op de proef stelt."
     }
   ],
   "keywords": [
-    "godsbewijs",
+    "godsargumenten",
     "fine-tuning",
-    "kosmologisch argument",
-    "Big Bang",
-    "multiversum",
+    "kosmologisch godsargument",
+    "modaal epistemisch godsargument",
     "atheïsme",
-    "theïsme",
-    "Augustinus",
-    "lijden",
-    "Alvin Plantinga",
     "bewijslast",
-    "modaal-epistemisch argument"
+    "multiversum",
+    "theodicee",
+    "Augustinus",
+    "Big Bang",
+    "theïsme",
+    "godsdienstfilosofie"
   ],
   "quotes": [
-    "Het atheïsme ligt volgens hem filosofisch gezien op de grond."
+    "Filosoof Emanuel Rutten vond religie ooit totale onzin, nu verdedigt hij het bestaan van God.",
+    "Het atheïsme ligt volgens hem filosofisch gezien op de grond.",
+    "Deze aflevering gaat over de vraag der vragen: bestaat God?"
   ],
   "similar": [
     {
       "n": 189,
-      "reason": "Emanuel Rutten over de argumenten voor het bestaan van God, filosofie en wetenschap"
+      "reason": "Emanuel Rutten over de argumenten voor het bestaan van God; vrijwel identiek thema en gast"
     },
     {
       "n": 98,
-      "reason": "Debat Bestaat God? met Emanuel Rutten en Stine Jensen"
-    },
-    {
-      "n": 316,
-      "reason": "Best of: topwetenschappers over God, met Rutten en Ard Louis"
+      "reason": "Live debat 'Bestaat God?' met Emanuel Rutten over dezelfde godsbewijzen"
     },
     {
       "n": 238,
-      "reason": "Thomas van Aquino, bestaan van God en oorsprong van het universum"
+      "reason": "Bestaat God? Thomas van Aquino, een klassieke bron voor godsbewijzen"
     },
     {
-      "n": 157,
-      "reason": "Natuurkundige Ard Louis stuit op mysteries, schoonheid en God"
+      "n": 316,
+      "reason": "Bestaat God? Topwetenschappers over God, inclusief Heino Falcke en kosmologie"
+    },
+    {
+      "n": 207,
+      "reason": "Debat over God en atheïsme met Stine Jensen en Rik Peels, filosofisch"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

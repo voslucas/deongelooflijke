@@ -1,18 +1,23 @@
 {
   "episode": 30,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 126695,
+    "segments": 918,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30213,
-    "output_tokens": 2720,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62705,
+    "output_tokens": 2678,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
-    "Politiek",
     "Bijbel & Jezus",
-    "Geschiedenis"
+    "God & geloof",
+    "Amerika & Trump"
   ],
   "guests": [
     "Talitha Muusse",
@@ -20,211 +25,225 @@
   ],
   "people": [
     {
-      "name": "George Floyd",
-      "note": "Zwarte Amerikaan wiens dood door politiegeweld de recente protesten ontketende",
-      "start_seconds": 165,
-      "wiki_checked": true,
-      "mention_count": 3
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "vermoorde politicus; Talitha huilde bij zijn dood",
-      "start_seconds": 169,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg",
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 266,
       "mention_count": 1
     },
     {
+      "name": "George Floyd",
+      "note": "Afro-Amerikaan wiens dood in 2020 de Black Lives Matter-beweging opnieuw aanwakkerde",
+      "start_seconds": 145,
+      "mention_count": 2
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus die het debat over multiculturele samenleving aanzwengelde",
+      "start_seconds": 165,
+      "mention_count": 2
+    },
+    {
       "name": "Johan Derksen",
-      "note": "voetbalcommentator die een omstreden grap maakte over Akwasi",
-      "start_seconds": 1484,
-      "wiki_checked": true,
-      "wiki_pageid": 151270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Derksen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Portret_Johan_Derksen_2014.jpg/250px-Portret_Johan_Derksen_2014.jpg",
+      "note": "voetbalcommentator wiens grap over Akwasi als Zwarte Piet de discussie aanwakkerde",
+      "start_seconds": 2684,
       "mention_count": 2
     },
     {
       "name": "Akwasi",
-      "note": "activist, onderwerp van de grap van Derksen",
-      "start_seconds": 1484,
-      "wiki_checked": true,
-      "wiki_pageid": 4656696,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Akwasi_%28artiest%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Akwasi_-_op_de_Dam_%282025%29.jpg/250px-Akwasi_-_op_de_Dam_%282025%29.jpg",
+      "note": "presentator die als Zwarte Piet werd afgebeeld in de grap van Johan Derksen",
+      "start_seconds": 2684,
       "mention_count": 2
     },
     {
       "name": "Martin Luther King",
-      "note": "burgerrechtenleider die pleitte voor passief protest",
-      "start_seconds": 1510,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg",
+      "note": "predikant en burgerrechtenactivist",
+      "start_seconds": 1551,
+      "mention_count": 3
+    },
+    {
+      "name": "William Wilberforce",
+      "note": "christelijk parlementslid die pleitte voor afschaffing van slavernij",
+      "start_seconds": 4515,
       "mention_count": 1
     },
     {
-      "name": "Henk ten Cate",
-      "note": "voetbaltrainer die zei bang te zijn geweest zich uit te spreken over racisme",
-      "start_seconds": 2095,
-      "wiki_checked": true,
-      "wiki_pageid": 330181,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henk_ten_Cate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Henk_ten_Cate_in_Tabriz.jpg/250px-Henk_ten_Cate_in_Tabriz.jpg",
+      "name": "James Baldwin",
+      "note": "Amerikaans schrijver die over racisme en geloof schreef",
+      "start_seconds": 4620,
+      "mention_count": 3
+    },
+    {
+      "name": "Joris Luijendijk",
+      "note": "schrijver die onderzoek doet naar privilege",
+      "start_seconds": 3120,
+      "mention_count": 1
+    },
+    {
+      "name": "Roderick Velow",
+      "note": "columnist die de antiracismebeweging een nieuwe religie noemde",
+      "start_seconds": 3180,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk den Kaat",
+      "note": "voetbalcommentator die in een tv-programma over racisme sprak",
+      "start_seconds": 2100,
       "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Why I Don't Talk to White People Anymore",
+      "author": "",
+      "note": "boek over racisme en witte mensen, genoemd als voorbeeld van identiteitspolitiek",
+      "start_seconds": 3200
+    },
+    {
+      "title": "Slavenbijbel",
+      "author": "",
+      "note": "versie van de Bijbel waarin hoofdstukken over bevrijding waren weggelaten",
+      "start_seconds": 2580
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "Genesis 1:27",
-      "note": "De mens geschapen naar het evenbeeld van God; Don Ceder noemt dit als basis voor gelijkwaardigheid",
-      "start_seconds": 2348
+      "ref": "Galaten 3:28",
+      "note": "impliciet verwezen door 'in het evenbeeld van God' en gelijkheid; niet expliciet geciteerd",
+      "start_seconds": 2370
     }
   ],
   "places": [
     "Amsterdam",
-    "Amsterdam Zuidoost",
     "Rotterdam",
-    "Verenigde Staten",
-    "Nederland",
-    "Qatar",
-    "Leiden",
-    "Haarlem"
+    "Drenthe",
+    "Curaçao",
+    "Suriname",
+    "Peru",
+    "Ethiopië",
+    "Qatar"
   ],
-  "summary_tldr": "David Boogerd praat met Talitha Muusse, Don Ceder en Stefan Paas over de recente racismediscussie na de dood van George Floyd. Ze bespreken institutioneel racisme in Nederland aan de hand van cijfers over wonen, werk en onderwijs, de rol van symbolen als Zwarte Piet, en de vraag of schuldbekentenis nodig of wenselijk is. Daarnaast komt de persoonlijke verantwoordelijkheid, het moreel kader en het christelijke mensbeeld ter sprake.",
+  "summary_tldr": "David Boogerd bespreekt met Talitha Muusse, Don Ceder en Stefan Paas het racismedebat in Nederland, na de dood van George Floyd. De gasten zijn het erover eens dat discriminatie op wonen, onderwijs en werk reëel is, maar verschillen over de aanpak: symbolen versus structurele maatregelen, wetgeving versus verandering van harten. Het gesprek eindigt bij de rol van religie, het christendom en de kerk in het racismedebat.",
   "summary_points": [
-    "De dood van George Floyd raakte alle gasten en bracht persoonlijke ervaringen met discriminatie naar boven.",
-    "Talitha en Don schetsen alledaagse uitsluiting: afwijzing bij werk, stage en uitgaan, en 'het gesprek' dat zwarte ouders met hun kinderen voeren.",
-    "Don Ceder wijst op onderzoeken naar discriminatie bij uitzendbureaus, makelaars, stages en sollicitaties als bewijs van institutioneel racisme.",
-    "Het debat gaat te veel over symbolen en anekdotes, en te weinig over de onderliggende structurele problemen.",
-    "Stefan Paas waarschuwt dat de identiteitsstrijd partijen als PVV en FVD voedt.",
-    "Talitha is sceptisch over een algemene schuldbekentenis en pleit voor concrete maatregelen zoals anoniem solliciteren en onderzoek naar etnisch profileren.",
-    "Wetten alleen veranderen mensen niet; er is persoonlijke zelfkennis, moed en een moreel kader nodig.",
-    "Gemengd onderwijs en ontmoeting helpen, maar vragen ook om persoonlijke overtuiging.",
-    "Don Ceder noemt het christelijke mensbeeld (evenbeeld van God) als reden om niemand op te geven."
+    "Discriminatie op wonen, werk en onderwijs wordt onderbouwd met onderzoeksdata",
+    "Debat over Zwarte Piet en symbolen versus focus op structurele ongelijkheid",
+    "Discussie over institutioneel racisme en of wit privilege een zinnig begrip is",
+    "Witte schuld versus verzoening en vergeving als christelijk perspectief",
+    "Vergelijking van anti-racismebeweging met een religie of nieuwe moraal",
+    "Rol van de kerk: zowel probleem als mogelijke oplossing",
+    "Witte Jezusbeelden en de koloniale nalatenschap in religieuze kunst",
+    "Opvoeding, onderwijs en mengen van bevolkingsgroepen als lange-termijnaanpak",
+    "Praktische adviezen: zelfkennis, gesprek voeren en diversiteit in leiderschapsposities"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en introductie",
-      "summary": "Aankondiging van het thema racisme en religie en kennismaking met de gasten."
+      "title": "Inleiding en de dood van George Floyd",
+      "summary": "De gasten delen hoe de moord op George Floyd hen raakte en hoe discriminatie hen persoonlijk raakt."
     },
     {
-      "start_seconds": 146,
-      "title": "De impact van de dood van George Floyd",
-      "summary": "De gasten vertellen hoe het nieuws binnenkwam en delen persoonlijke ervaringen met discriminatie."
+      "start_seconds": 420,
+      "title": "Persoonlijke ervaringen met discriminatie",
+      "summary": "Muusse en Ceder vertellen over uitsluiting en het 'gesprek' dat zwarte ouders met kinderen voeren."
     },
     {
-      "start_seconds": 622,
+      "start_seconds": 900,
       "title": "Cijfers over institutioneel racisme",
-      "summary": "Don Ceder noemt onderzoeken over uitzendbureaus, makelaars, stages en sollicitaties die uitsluiting aantonen."
+      "summary": "Ceder noemt onderzoeken naar huisvesting, stages en sollicitaties als bewijs van structurele uitsluiting."
     },
     {
-      "start_seconds": 996,
-      "title": "Symbolen versus structurele problemen",
-      "summary": "Gesprek over Zwarte Piet en standbeelden en het risico dat het een identiteitsstrijd wordt."
-    },
-    {
-      "start_seconds": 1227,
-      "title": "Schuldbekentenis en wereldgeschiedenis",
-      "summary": "Talitha twijfelt of een witte schuldbekentenis nodig is gezien de gemengde en complexe geschiedenis."
-    },
-    {
-      "start_seconds": 1585,
-      "title": "Concrete oplossingen voor de overheid",
-      "summary": "Voorstellen als anoniem solliciteren, onderzoek naar etnisch profileren en een nationale aanpak."
-    },
-    {
-      "start_seconds": 1788,
-      "title": "Moreel kader en persoonlijke verandering",
-      "summary": "Wetten volstaan niet; leiderschap in kleine kring, gemengd onderwijs en zelfkennis zijn nodig."
+      "start_seconds": 1500,
+      "title": "Symbolen versus structurele aanpak",
+      "summary": "Discussie over Zwarte Piet, standbeelden en de vraag wat werkelijk moet veranderen."
     },
     {
       "start_seconds": 2100,
-      "title": "Nieuwe generatie en christelijk mensbeeld",
-      "summary": "Over de rol van jongeren en diversiteit, en Dons geloof dat ook oudere mensen kunnen veranderen."
+      "title": "Wit privilege en schuld",
+      "summary": "Muusse en Ceder bespreken het begrip wit privilege en het gevaar van erfzonde-retoriek."
+    },
+    {
+      "start_seconds": 3000,
+      "title": "Anti-racisme als religie",
+      "summary": "Een column die de beweging als religie typeert; Muusse ziet dat als compliment, Ceder vanuit het christelijk geloof."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Christendom, kolonialisme en kunst",
+      "summary": "Het witte Jezusbeeld, de geschiedenis van het christendom in Afrika en de rol van de kerk."
+    },
+    {
+      "start_seconds": 5100,
+      "title": "Praktische stappen",
+      "summary": "Advies van Paas en Ceder: zelfkennis, gesprek voeren en diverse mensen in leiderschapsposities benoemen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 169,
+      "start_seconds": 165,
       "speaker": "Talitha Muusse",
-      "text": "Ik huil niet snel bij het nieuws, alleen bij de moord op Pim Fortuyn, bij 9/11 en nu.",
-      "note": "Persoonlijk en emotioneel moment dat de impact laat zien."
+      "text": "Ze huilde alleen bij de moord op Pim Fortuyn, bij 9/11 en nu.",
+      "note": "Een persoonlijk moment dat het gewicht van de gebeurtenis laat zien."
     },
     {
-      "start_seconds": 656,
+      "start_seconds": 1020,
       "speaker": "Don Ceder",
-      "text": "Mijn moeder gaf mij 'het gesprek' over hoe huidskleur bepaalt hoe je behandeld wordt.",
-      "note": "Maakt zichtbaar wat zwarte ouders hun kinderen meegeven."
+      "text": "Ik ken bijna niemand die het gesprek niet heeft gehad: je wordt voorbereid op mogelijke sociale uitsluiting.",
+      "note": "Maakt zichtbaar hoe normaal uitsluiting in het dagelijks leven is."
     },
     {
-      "start_seconds": 802,
-      "speaker": "Don Ceder",
-      "text": "40% van de uitzendbureaus ging akkoord met een verzoek om geen mensen van buitenlandse afkomst te sturen.",
-      "note": "Harde data tegenover anekdotisch debat."
-    },
-    {
-      "start_seconds": 1706,
+      "start_seconds": 3230,
       "speaker": "Talitha Muusse",
-      "text": "Je zou als overheid bijna een outbreak management team voor racisme moeten hebben.",
-      "note": "Opvallend concreet en origineel voorstel."
+      "text": "Ik zie dan bijna geuzen in het woord religie als het gaat om gelijkwaardigheid.",
+      "note": "Een verrassende omarming van het religie-verwijt."
     },
     {
-      "start_seconds": 1840,
-      "speaker": "Don Ceder",
-      "text": "Wetten veranderen mensen niet; het is harten veranderen.",
-      "note": "Kern van zijn pleidooi voor persoonlijke verandering."
+      "start_seconds": 4620,
+      "speaker": "Talitha Muusse",
+      "text": "James Baldwin schreef dat God niet hem kon helpen, want God is wit.",
+      "note": "Een emotioneel moment over geloof en racisme."
     },
     {
-      "start_seconds": 2348,
+      "start_seconds": 4290,
       "speaker": "Don Ceder",
-      "text": "Als christen geloof ik dat de mens naar Gods evenbeeld is gemaakt, dus ik wil ook een 62-jarige man in de Bible Belt niet opgeven.",
-      "note": "Verbindt het racismedebat met geloof."
+      "text": "Racisme is eigenlijk een aanklacht tegen Gods evenbeeld.",
+      "note": "Theologische onderbouwing die het debat in een andere richting stuurt."
     }
   ],
   "keywords": [
     "racisme",
     "institutioneel racisme",
-    "discriminatie",
-    "George Floyd",
+    "wit privilege",
     "Zwarte Piet",
-    "witte schuld",
-    "identiteit",
     "Black Lives Matter",
+    "erfzonde",
+    "verzoening",
     "evenbeeld van God",
-    "diversiteit"
+    "kolonialisme",
+    "anti-racismebeweging",
+    "identiteitspolitiek"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 277,
-      "reason": "Zwarte Piet, racismediscussie en activist Jerry Afriyie; Nederland veranderd"
+      "n": 105,
+      "reason": "Racisme-achtige discussie over migratie en de rol van kerk en theologie"
     },
     {
-      "n": 118,
-      "reason": "Slavernijverleden, schuld en excuses, rol van religie in de geschiedenis"
+      "n": 17,
+      "reason": "Samenleving en migratie met theologen, zoals in de racismeaflevering"
     },
     {
-      "n": 63,
-      "reason": "Zelfde gast Talitha Muusse, kerk en samenleving"
+      "n": 57,
+      "reason": "Zihni Özdil over Jezus, identiteit en progressief denken, verwant aan het racismedebat"
     },
     {
-      "n": 256,
-      "reason": "Nederlands superieur zelfbeeld, tolerantie en racisme in historisch perspectief"
+      "n": 36,
+      "reason": "Religie en politiek in de VS, met aandacht voor Amerikaanse raciale en politieke spanningen"
     },
     {
-      "n": 220,
-      "reason": "Polarisatie en discriminatie in Nederland, maatschappelijke spanningen rond identiteit"
+      "n": 20,
+      "reason": "Amerikaanse christenen en Trump, aansluitend bij de Amerikaanse context van George Floyd"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

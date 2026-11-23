@@ -1,18 +1,23 @@
 {
   "episode": 212,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107810,
+    "segments": 1087,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30949,
-    "output_tokens": 2607,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55032,
+    "output_tokens": 3603,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "Zingeving & psyche",
+    "Filosofie & ethiek",
     "God & geloof",
-    "Kerk & secularisatie"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Menno de Bree"
@@ -20,309 +25,324 @@
   "people": [
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof van 'de dood van God'",
-      "start_seconds": 43,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "filosoof; de 'dood van God'",
+      "start_seconds": 784,
+      "mention_count": 12
     },
     {
       "name": "Jean-Paul Sartre",
-      "note": "existentialist: je bent het product van je keuzes",
-      "start_seconds": 1034,
-      "wiki_checked": true,
-      "wiki_pageid": 871,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Paul_Sartre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Paul_Sartre_FP.JPG/250px-Jean-Paul_Sartre_FP.JPG"
+      "note": "existentialistisch filosoof; verantwoordelijkheid en authenticiteit",
+      "start_seconds": 1062,
+      "mention_count": 3
     },
     {
-      "name": "Plato",
-      "note": "Griekse filosoof; waarheid, goedheid en schoonheid",
-      "start_seconds": 1171,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Aristoteles",
-      "note": "Griekse filosoof, overgenomen door christelijke denkers",
-      "start_seconds": 1171,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "christelijk denker die christendom en Griekse filosofie verbond",
-      "start_seconds": 1253,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "christelijk denker in de fusie met Aristoteles",
-      "start_seconds": 1256,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
-    },
-    {
-      "name": "Charles Darwin",
-      "note": "evolutietheorie als tweede deuk in het christelijk wereldbeeld",
-      "start_seconds": 1390,
-      "wiki_checked": true,
-      "wiki_pageid": 4097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Darwin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/250px-Charles_Darwin_portrait.jpg"
+      "name": "Albert Camus",
+      "note": "filosoof; absurditeit en Sisyphus",
+      "start_seconds": 1490,
+      "mention_count": 3
     },
     {
       "name": "Arthur Schopenhauer",
-      "note": "filosoof van de blinde wil",
-      "start_seconds": 1455,
-      "wiki_checked": true,
-      "wiki_pageid": 34358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_Schopenhauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg/250px-Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg"
+      "note": "filosoof; wil als blinde kracht",
+      "start_seconds": 1464,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Darwin",
+      "note": "bioloog; evolutietheorie",
+      "start_seconds": 1427,
+      "mention_count": 3
+    },
+    {
+      "name": "Plato",
+      "note": "filosoof; ware, goede en schone",
+      "start_seconds": 1186,
+      "mention_count": 2
+    },
+    {
+      "name": "Aristoteles",
+      "note": "filosoof; mens als politiek dier",
+      "start_seconds": 1245,
+      "mention_count": 3
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; christelijke fusie met Griekse filosofie",
+      "start_seconds": 1240,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "theoloog; christelijke scholastiek",
+      "start_seconds": 1256,
+      "mention_count": 1
     },
     {
       "name": "Sigmund Freud",
-      "note": "drie narcistische krenkingen van de mensheid",
-      "start_seconds": 1598,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "note": "psychoanalyticus; narcistische krenkingen",
+      "start_seconds": 1420,
+      "mention_count": 3
     },
     {
-      "name": "Nicolaus Copernicus",
-      "note": "eerste narcistische krenking: de aarde is niet het middelpunt",
-      "start_seconds": 1598,
-      "wiki_checked": true,
-      "wiki_pageid": 6467,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicolaas_Copernicus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nikolaus_Kopernikus.jpg/250px-Nikolaus_Kopernikus.jpg"
+      "name": "Immanuel Kant",
+      "note": "filosoof; fundering van ethiek buiten het christendom",
+      "start_seconds": 3960,
+      "mention_count": 3
     },
     {
-      "name": "Napoleon Bonaparte",
-      "note": "kroonde zichzelf",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "name": "Thomas Nagel",
+      "note": "filosoof; essay 'The Absurd' en ironie",
+      "start_seconds": 2990,
+      "mention_count": 2
     },
     {
-      "name": "Lodewijk XVI",
-      "note": "onthoofd tijdens de Franse Revolutie",
-      "start_seconds": 1358,
-      "wiki_checked": true,
-      "wiki_pageid": 28372,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_XVI_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg/250px-Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg"
+      "name": "Tim Hofman",
+      "note": "podcastgast die zichzelf nihilist noemde",
+      "start_seconds": 3180,
+      "mention_count": 1
     },
     {
-      "name": "T.S. Eliot",
-      "note": "dichter over mensen die God verlieten voor geen god",
-      "start_seconds": 2058,
-      "wiki_checked": true,
-      "wiki_pageid": 94783,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/T.S._Eliot",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/250px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg"
+      "name": "Geert Wilders",
+      "note": "politicus; restauratieve agenda",
+      "start_seconds": 3780,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "politicus; restauratieve agenda",
+      "start_seconds": 3780,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans politicus; restauratieve agenda",
+      "start_seconds": 3780,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnold Groenberg",
+      "note": "verdiept in vluchtelingencrisis; 'crisis van het humanisme'",
+      "start_seconds": 3840,
+      "mention_count": 1
     },
     {
       "name": "Michel Houellebecq",
-      "note": "schrijver die alleen instincten overhoudt",
-      "start_seconds": 2068,
-      "wiki_checked": true,
-      "wiki_pageid": 34101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Houellebecq",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg/250px-Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg"
+      "note": "schrijver; instincten en seksuele prikkeling",
+      "start_seconds": 2050,
+      "mention_count": 1
+    },
+    {
+      "name": "T.S. Eliot",
+      "note": "dichter; God verlaten voor geen god",
+      "start_seconds": 2000,
+      "mention_count": 1
+    },
+    {
+      "name": "Seneca",
+      "note": "Romeins wijsgeer op landgoed",
+      "start_seconds": 3380,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof; geworpenheid",
+      "start_seconds": 4100,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon",
+      "note": "keizer die zichzelf kroonde",
+      "start_seconds": 1360,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Larmore",
+      "note": "Amerikaans filosoof; 'God is zo groot dat hij niet hoeft te bestaan'",
+      "start_seconds": 4180,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Zo sprak Zarathustra",
+      "title": "Also sprach Zarathustra",
       "author": "Friedrich Nietzsche",
-      "note": "verschijnt 150 jaar geleden; scène met de gekkenman op de markt",
-      "start_seconds": 812,
-      "volume_id": "EZC9AQAAQBAJ",
-      "canonical_title": "Zo sprak Zarathoestra",
+      "note": "bron van de scène waarin God dood wordt verkondigd op de markt",
+      "start_seconds": 1950,
+      "volume_id": "JVYDoAEACAAJ",
+      "canonical_title": "Also sprach Zarathustra",
       "canonical_author": "Friedrich Nietzsche",
-      "isbn13": "9789025302320",
-      "isbn10": "9025302327",
-      "thumbnail": "http://books.google.com/books/content?id=EZC9AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9783150071113",
+      "isbn10": "3150071119",
+      "thumbnail": "http://books.google.com/books/content?id=JVYDoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "De vrolijke wetenschap",
+      "title": "Die fröhliche Wissenschaft",
       "author": "Friedrich Nietzsche",
-      "note": "bevat de scène over de dood van God",
-      "start_seconds": 1949,
-      "volume_id": "kbpzAAAAQBAJ",
-      "canonical_title": "De vrolijke wetenschap",
+      "note": "bron van de 'dood van God'-passage",
+      "start_seconds": 1950,
+      "volume_id": "On96zQEACAAJ",
+      "canonical_title": "Die Fröhliche Wissenschaft",
       "canonical_author": "Friedrich Nietzsche",
-      "isbn13": "9789029582506",
-      "isbn10": "9029582502",
-      "thumbnail": "http://books.google.com/books/content?id=kbpzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9798611183618",
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Der Mythos des Sisyphos",
+      "author": "Albert Camus",
+      "note": "absurditeit en zingeving via Sisyphus",
+      "start_seconds": 1490,
+      "volume_id": "aHVwngEACAAJ",
+      "canonical_title": "Der Mythos des Sisyphos",
+      "canonical_author": "Albert Camus",
+      "isbn13": "9783499227653",
+      "isbn10": "3499227657",
+      "thumbnail": "http://books.google.com/books/content?id=aHVwngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheus 5:39",
-      "note": "de andere wang toekeren, als voorbeeld van slavenmoraal",
-      "start_seconds": 1814
+      "ref": "Johannes 8:32",
+      "note": "niet expliciet aangehaald; weggelaten",
+      "start_seconds": null
     }
   ],
   "places": [
     "Groningen",
     "Amsterdam",
     "Utrecht",
-    "Nederland",
     "Engeland",
     "Frankrijk",
     "Duitsland"
   ],
-  "summary_tldr": "Filosoof Menno de Bree betoogt dat de mentale problemen van generatie Z uiteindelijk een filosofisch probleem zijn, verbonden met Nietzsches 'dood van God'. Zonder gedeeld anker voor waarheid, goedheid en schoonheid moeten jongeren zelf kiezen en zelf verantwoordelijk zijn voor succes en falen. Stefan Paas nuanceert dit en vraagt of de dood van God niet al veel eerder doorgedrongen is.",
+  "summary_tldr": "Filosoof Menno de Bree stelt dat de psychische problemen van jongeren, zoals die van Generatie Z, diepere filosofische wortels hebben in Nietzsches 'dood van God': het wegvallen van vaste zekerheden legt een enorme verantwoordelijkheid en keuzedruk bij het individu. Stefan Paas bevraagt of het zelf en de moraal zonder God wel houdbaar zijn en wijst op de vraag hoe gemeenschap en solidariteit zonder gedeelde fundering kunnen bestaan. Het gesprek eindigt met ironie, absurditeit en de vraag hoe je ondanks alles zin en richting vindt.",
   "summary_points": [
-    "Het advies 'volg je hart' noemt De Bree emotionele mishandeling; de wil moet eerst gevormd worden.",
-    "Generatie Z heeft meer keuzevrijheid, maar ook keuzeplicht en minder criteria om te kiezen.",
-    "Jongeren zijn bang om zich vast te leggen in relaties en werk.",
-    "Psychologische verklaringen schieten tekort; de crisis moet doorleefd worden in plaats van snel opgelost.",
-    "Het klassieke christelijke wereldbeeld gaf een goede, rationele orde met God als anker.",
-    "Schopenhauer, Darwin en Freud brachten deuken aan in dat wereldbeeld.",
-    "Nietzsche: ook wie niet meer gelooft, leeft vaak nog alsof het anker er is.",
-    "Paas vraagt of de dood van God in Nederland niet al veel langer speelt, zoals bij Eliot en Houellebecq.",
-    "De Bree was als twintiger nog cultureel christelijk, wat hem houvast gaf."
+    "Generatie Z zou de eerste generatie zijn die de dood van God internaliseert, volgens De Bree's essay in het FD.",
+    "Vroeger boden christelijke zekerheden houvast; die zijn weggevallen, waardoor keuzevrijheid omslaat in keuzeplicht.",
+    "Mentale problemen zijn volgens De Bree niet alleen psychologisch of sociologisch, maar ook filosofisch van aard.",
+    "Het advies 'volg je hart' is volgens De Bree schadelijk; een wil moet gevormd worden.",
+    "Schopenhauer, Darwin en Freud ondermijnden elk het idee van een goede, rationele orde.",
+    "Zonder ankers wordt de vraag of waarheid, goedheid en schoonheid bestaan urgent.",
+    "Sartre, Camus en Nagel bieden antwoorden: authenticiteit, amor fati en ironie.",
+    "Paas bevraagt of het 'zelf' en morele verplichting zonder God niet stiekem een christelijk erfgoed blijven.",
+    "Gemeenschap en solidariteit (zoals voor vluchtelingen) zijn lastig te funderen zonder gedeeld moreel kader.",
+    "De Bree ziet humor en barmhartigheid met jezelf als levenshouding; Paas blijft Augustiniaans georiënteerd."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en natuur",
-      "summary": "Introductie van het FD-essay en Menno de Bree, met een luchtig begin over natuur en hooikoorts."
+      "title": "Inleiding en lichte opener",
+      "summary": "Boogerd introduceert het essay en het gesprek, met een luchtig begin over natuur en hooikoorts."
     },
     {
-      "start_seconds": 282,
-      "title": "Waarom 'volg je hart' niet werkt",
-      "summary": "De Bree bekritiseert het advies om jezelf te zijn en pleit voor vorming van de wil."
+      "start_seconds": 560,
+      "title": "Het advies 'volg je hart' en keuzedruk",
+      "summary": "De Bree verzet zich tegen het advies om je hart te volgen en spreekt over gevormde wil en keuzeplicht."
     },
     {
-      "start_seconds": 540,
-      "title": "Generatie Z en de complexe tijd",
-      "summary": "Vergelijking van generaties, commitmentangst en de last van keuzevrijheid."
+      "start_seconds": 1020,
+      "title": "Generatie Z en de dood van God",
+      "summary": "De Bree legt Nietzsches dood van God uit en koppelt die aan de existentiële druk op jongeren."
     },
     {
-      "start_seconds": 1000,
-      "title": "Sartre en de Lego-metafoor",
-      "summary": "Je bent de architect van je eigen leven, zonder bouwtekening."
+      "start_seconds": 1180,
+      "title": "Filosofische geschiedenis van God en orde",
+      "summary": "Van Plato en Aristoteles via christelijke denkers tot Schopenhauer, Darwin en Freud."
     },
     {
-      "start_seconds": 1157,
-      "title": "Van Grieken tot Darwin",
-      "summary": "Historische schets van het christelijk-Griekse wereldbeeld en de deuken door Schopenhauer, Darwin en Freud."
+      "start_seconds": 2050,
+      "title": "Nietzsche, moraal en de verdwijnende horizon",
+      "summary": "Discussie over Nietzsches slavenmoraal, het ware, goede en schone, en de vraag of nihilisme dreigt."
     },
     {
-      "start_seconds": 1674,
-      "title": "Nietzsche en de dood van God",
-      "summary": "Herenmoraal en slavenmoraal, het wegvallen van waarheid, goedheid en schoonheid als anker."
+      "start_seconds": 2700,
+      "title": "Absurditeit, ironie en zingeving",
+      "summary": "Sartre, Camus en Nagel als antwoorden op zinloosheid; de rol van humor en ironie."
     },
     {
-      "start_seconds": 2040,
-      "title": "Paas' kritiek en cultureel christendom",
-      "summary": "Is de dood van God niet al lang ingedaald? De Bree verklaart zijn eigen houvast als twintiger."
+      "start_seconds": 3300,
+      "title": "Gemeenschap, moraal en solidariteit",
+      "summary": "Paas vraagt hoe gemeenschap zonder gedeelde fundering kan bestaan; de vluchtelingenkwestie komt aan bod."
     },
     {
-      "start_seconds": 2343,
-      "title": "Drie gevolgen van de dood van God",
-      "summary": "Zelf verantwoordelijk, alles aan jezelf te danken en minder commitment."
+      "start_seconds": 4000,
+      "title": "Advies voor jongeren en afsluiting",
+      "summary": "De Bree geeft levenslessen ('faal in stijl'); Paas beschrijft zijn eigen geloof als fundament, en het gesprek sluit af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 299,
+      "start_seconds": 2960,
       "speaker": "Menno de Bree",
-      "text": "Je moet echt doen wat je wil, is een vorm van zware emotionele mishandeling.",
-      "note": "Scherpe stelling tegen een populair opvoedadvies."
+      "text": "Ik ben een verzamelaar van zinnen; als niets iets uitmaakt, maakt het feit dat iets niet uitmaakt ook niet uit.",
+      "note": "Bondige samenvatting van Nagels absurditeitsgedachte, die de ironie en humor als uitweg schetst."
     },
     {
-      "start_seconds": 1098,
+      "start_seconds": 4060,
       "speaker": "Menno de Bree",
-      "text": "Je bent niet alleen de bouwer, maar ook de architect van je leven geworden.",
-      "note": "Treffend beeld van de last van keuzevrijheid."
+      "text": "Faal in stijl.",
+      "note": "Een tegendraads levensadvies dat het perfectionisme van de moderne maatschappij tegenspreekt."
     },
     {
-      "start_seconds": 2025,
-      "speaker": "Menno de Bree",
-      "text": "Jullie zeggen dat God dood is, maar je leeft nog alsof het anker er is.",
-      "note": "Kern van Nietzsches punt over internaliseren."
-    },
-    {
-      "start_seconds": 2058,
+      "start_seconds": 3260,
       "speaker": "Stefan Paas",
-      "text": "Eliot spreekt over een cultuur van brave burgermensen en een miljoen verloren golfballen.",
-      "note": "Paas wijst op eerdere cultuurkritiek op de dood van God."
+      "text": "Hoe bouw je een gemeenschap op absurditeit, waarbij je alles draait om de cultivatie van jezelf?",
+      "note": "Kernvraag van Paas: zonder gedeelde moraal is solidariteit kwetsbaar."
     },
     {
-      "start_seconds": 2065,
+      "start_seconds": 4190,
       "speaker": "Stefan Paas",
-      "text": "Bij Houellebecq blijven alleen instincten over.",
-      "note": "Illustreert hoe ver de trivialisering gaat."
+      "text": "God is zo groot dat hij niet hoeft te bestaan.",
+      "note": "Een citaat van Charles Larmore dat God niet als stut voor de moraal mag dienen."
+    },
+    {
+      "start_seconds": 300,
+      "speaker": "Menno de Bree",
+      "text": "Het advies om je hart te volgen is een vorm van zware emotionele verwaarlozing.",
+      "note": "Een scherpe uitspraak die het populaire zelfontplooiingsadvies ondermijnt."
     }
   ],
   "keywords": [
     "dood van God",
     "Nietzsche",
-    "generatie Z",
-    "keuzevrijheid",
-    "commitment",
+    "Generatie Z",
+    "keuzeplicht",
     "existentialisme",
-    "Darwin",
-    "Schopenhauer",
-    "waarheid goedheid schoonheid",
-    "vorming van de wil",
-    "secularisatie"
+    "absurditeit",
+    "ironie",
+    "nihilisme",
+    "moraal",
+    "gemeenschap",
+    "zingeving",
+    "burn-out"
   ],
   "quotes": [
-    "Generatie Z is de eerste generatie die de dood van God begint te internaliseren."
+    "Generatie Z is de eerste generatie die de dood van God begint te internaliseren.",
+    "Je bent niet alleen de bouwer, maar ook de architect van je leven geworden.",
+    "Als niets iets uitmaakt, maakt het feit dat iets niet uitmaakt ook niet uit."
   ],
   "similar": [
     {
       "n": 122,
-      "reason": "Nietzsches 'God is dood' staat centraal, met filosofische duiding door Paul van Tongeren."
-    },
-    {
-      "n": 287,
-      "reason": "Jongeren lopen vast in individualistische tijd; zingeving en psyche, met Stefan Paas."
+      "reason": "Direct over Nietzsches 'God is dood' en de filosofische gevolgen daarvan"
     },
     {
       "n": 155,
-      "reason": "Filosofie die al eeuwen worstelt met de 'dood van God', met Ger Groot."
-    },
-    {
-      "n": 191,
-      "reason": "Mentale problemen bij jongeren en de geestelijke schade van smartphones en social media."
+      "reason": "Filosofie en de 'dood van God' over vier eeuwen, met Ger Groot"
     },
     {
       "n": 198,
-      "reason": "Nihilisme en angst bij jongere generatie, vragen over zingeving en idealisme."
+      "reason": "Nihilisme, angst en zingeving, met Tim Hofman, die ook in #212 wordt besproken"
+    },
+    {
+      "n": 109,
+      "reason": "Nihilisme, zinloosheid en psychische nood, verbonden met geloof als antwoord"
+    },
+    {
+      "n": 111,
+      "reason": "Seculiere zingevingscrisis, het individu zonder God en psychische gevolgen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

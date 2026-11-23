@@ -1,17 +1,22 @@
 {
   "episode": 144,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115851,
+    "segments": 1418,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31930,
-    "output_tokens": 2266,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61629,
+    "output_tokens": 7243,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Zingeving & psyche",
     "God & geloof",
+    "Filosofie & ethiek",
     "Wetenschap & kosmos"
   ],
   "guests": [
@@ -20,228 +25,257 @@
   "people": [
     {
       "name": "Elon Musk",
-      "note": "eigenaar van Twitter en Tesla; pleit voor een pauze in AI-ontwikkeling",
+      "note": "Ondernemer die samen met andere deskundigen pleit voor een pauze in AI-ontwikkeling",
       "start_seconds": 29,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "mention_count": 9
     },
     {
       "name": "Steve Wozniak",
-      "note": "medeoprichter van Apple; ondertekenaar van de brief voor een AI-pauze",
+      "note": "Medeoprichter van Apple, pleitte voor een pauze in AI-ontwikkeling",
       "start_seconds": 29,
-      "wiki_checked": true,
-      "wiki_pageid": 82935,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steve_Wozniak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg/250px-Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Isaac Asimov",
-      "note": "sciencefictionschrijver; verhaal over een suïcidale computer",
+      "note": "Auteur van sciencefictionverhalen over een computer die suïcidaal wordt",
       "start_seconds": 404,
-      "wiki_checked": true,
-      "wiki_pageid": 801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isaac_Asimov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/250px-Isaac.Asimov01.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Philip Freriks",
-      "note": "presentator waarmee ChatGPT David Boogerd verwarde",
-      "start_seconds": 1046,
-      "wiki_checked": true,
-      "wiki_pageid": 110606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Philip_Freriks",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Philip_Freriks_-_2025.jpg/250px-Philip_Freriks_-_2025.jpg"
+      "name": "René Descartes",
+      "note": "Filosoof wiens dualistische mensbeeld als oorsprong van het technocratische wereldbeeld wordt gezien",
+      "start_seconds": 2321,
+      "mention_count": 3
     },
     {
-      "name": "Maxime Februari",
-      "note": "eerdere gast in de podcast (2019); bezorgd over het tempo van technologie",
-      "start_seconds": 1694,
-      "wiki_checked": true,
-      "wiki_pageid": 1798859,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maxim_Februari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Maxim_Februari_-_WikiconNL_2025_%28006%29.jpg/250px-Maxim_Februari_-_WikiconNL_2025_%28006%29.jpg"
+      "name": "Egbert Schuurman",
+      "note": "Filosoof die stelt dat techniek thuishoort in de menswetenschappen",
+      "start_seconds": 2717,
+      "mention_count": 2
     },
     {
       "name": "Yuval Noah Harari",
-      "note": "auteur die jagers-verzamelaars als gezonder en gelukkiger voorstelt",
-      "start_seconds": 1570,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "note": "Historicus die stelt dat mensen in de prehistorie gezonder en gelukkiger waren",
+      "start_seconds": 1569,
+      "mention_count": 1
     },
     {
       "name": "Rutger Bregman",
-      "note": "auteur die een soortgelijk beeld van jagers-verzamelaars schetst",
-      "start_seconds": 1570,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "Historicus en auteur die vergelijkbare ideeën over het jagersleven uitdraagt",
+      "start_seconds": 1569,
+      "mention_count": 1
+    },
+    {
+      "name": "Maxime Februari",
+      "note": "Filosoof die in 2019 in de Ongelooflijke Podcast waarschuwde dat technologie sneller gaat dan we aankunnen",
+      "start_seconds": 1694,
+      "mention_count": 2
+    },
+    {
+      "name": "Jaap van der Herik",
+      "note": "Hoogleraar IT die voorspelde dat een schaakcomputer de wereldkampioen zou verslaan",
+      "start_seconds": 2839,
+      "mention_count": 1
+    },
+    {
+      "name": "Garri Kasparov",
+      "note": "Schaakwereldkampioen die in 1997 verloor van Deep Blue",
+      "start_seconds": 2852,
+      "mention_count": 2
+    },
+    {
+      "name": "Sam Altman",
+      "note": "Oprichter van OpenAI, beschrijft AI als een papegaai en mensen ook",
+      "start_seconds": 3651,
+      "mention_count": 1
+    },
+    {
+      "name": "David Gunkel",
+      "note": "Filosoof die spreekt over een relational turn in de omgang met AI",
+      "start_seconds": 3618,
+      "mention_count": 1
     },
     {
       "name": "Hannah Arendt",
-      "note": "filosoof; denken als gesprek met jezelf",
-      "start_seconds": 2160,
-      "wiki_checked": true,
-      "wiki_pageid": 77407,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hannah_Arendt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg/250px-Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg"
+      "note": "Filosofe die denken omschrijft als een gesprek met onszelf",
+      "start_seconds": 2162,
+      "mention_count": 1
+    },
+    {
+      "name": "Heino Falcke",
+      "note": "Sterrenkundige die de zwarte gatfoto mede maakte",
+      "start_seconds": 3956,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees Dekker",
+      "note": "Natuurkundige en nanobioloog die spreekt over het ontstaan van leven",
+      "start_seconds": 3967,
+      "mention_count": 1
+    },
+    {
+      "name": "Philip Freriks",
+      "note": "Journalist die ChatGPT als voorbeeld foutief noemde als collega van David Boogerd",
+      "start_seconds": 1046,
+      "mention_count": 1
+    },
+    {
+      "name": "Michelangelo",
+      "note": "Kunstenaar van het Sixtijnse Kapel-fresco van de vingers van God en Adam",
+      "start_seconds": 2998,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Dank God voor techniek",
       "author": "Maaike Harmsen",
-      "note": "boek van de gast over techniek en geloof",
-      "start_seconds": 0,
-      "volume_id": "4fJ3EAAAQBAJ",
-      "canonical_title": "Dank God voor techniek: Bijbelstudies over ruimtereizigers",
+      "note": "Boek van de gast over het verhouding tussen techniek, mens en geloof",
+      "start_seconds": 2964,
+      "volume_id": "3odNzwEACAAJ",
+      "canonical_title": "Dank God voor techniek: Bijbelstudies voor ruimtereizigers",
       "canonical_author": "Maaike Harmsen",
-      "isbn13": "9789043538336",
-      "isbn10": "9043538337",
-      "thumbnail": "http://books.google.com/books/content?id=4fJ3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789043538329",
+      "isbn10": "9043538329",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Papoea",
-    "China",
-    "Noord-Korea",
+    "Papua",
     "Pyongyang",
+    "Noord-Korea",
+    "China",
     "Mars",
-    "Engeland",
     "Rusland",
-    "Amsterdam",
-    "Utrecht"
+    "Enschede",
+    "Italië",
+    "Delft",
+    "Santiago de Compostela"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en theoloog Maaike Harmsen bespreken of de angst voor AI terecht is. Harmsen legt de nadruk op de gevolgen die al gaande zijn, zoals desinformatie, verslaving en depressiviteit door algoritmes. Ze waarschuwt ook voor een reductionistisch mensbeeld waarin de mens een slechte computer wordt.",
+  "summary_tldr": "Theoloog Maaike Harmsen bespreekt met David Boogerd en Stefan Paas de angst voor AI, en stelt dat de echte risico's vooral liggen in het reduceren van mensen tot data en rekenmachines. Ze betoogt dat AI een hulpmiddel is en geen natuurverschijnsel, en dat wijsheid, morele afweging en menselijke relaties centraal moeten blijven. Het gesprek eindigt bij de vraag naar buitenaards leven en een eventuele kolonisatie van Mars.",
   "summary_points": [
-    "Experts als Elon Musk bepleiten een AI-pauze, vaak vanuit longtermism en met commerciële belangen.",
-    "Harmsen: AI is geen natuurverschijnsel maar een product van mensen en bedrijven met eigen doelen.",
-    "ChatGPT is een taalmodel dat statistisch voorspelt en kan hallucineren, wat blijkt uit foute 'feiten' over Stefan en David.",
-    "Stefan Paas vreest vooral militaire toepassingen en autonome wapensystemen in een wapenwedloop.",
-    "Harmsen pleit voor effectrapportages voor software, net als milieu-effectrapportages voor fabrieken.",
-    "Leven zonder techniek in Papoea bleek allesbehalve idyllisch: hoge kindersterfte, zwaar leven voor vrouwen, korte levensduur.",
-    "Sociale media en algoritmes leiden al tot depressiviteit, social contagion en vervreemding, vooral bij jongeren.",
-    "Het grootste gevaar is een materialistisch, reductionistisch mensbeeld dat de mens tot data en rekenmachine reduceert.",
-    "Mens-zijn vraagt om de ander en echte relaties, iets wat een chatbot niet kan bieden."
+    "De angst voor AI draait deels om verlies van controle, banen en misinformatie, niet alleen om science fiction-scenario's.",
+    "AI wordt vaak als natuurverschijnsel gezien, maar is het product van commerciële bedrijven en menselijke keuzes.",
+    "Militaire toepassingen van AI roepen zorgen op over autonome besluitvorming en het wegnemen van menselijke tussenkomst.",
+    "ChatGPT hallucineert en zegt zelfverzekerd onjuiste dingen, wat blijkt uit de test met biografische gegevens over Stefan Paas en David Boogerd.",
+    "Sociale media en algoritmes beïnvloeden vooral jongeren, met gevolgen voor zelfbeeld, mentale gezondheid en kritisch denken.",
+    "Het reductionistische mensbeeld, waarin de mens als slechte computer wordt gezien, vormt volgens Harmsen een groter gevaar dan de technologie zelf.",
+    "Harmsen pleit voor een rijk mensbeeld waarin wijsheid, liefde en morele afweging centraal staan, en AI als hulpmiddel dient.",
+    "Het gesprek raakt aan transhumanisme en de christelijke waardering van het lichaam als tegenpool van het idee van digitale onsterfelijkheid.",
+    "Harmsen was in Papua zonder technologie en gaf les in Noord-Korea, wat haar perspectief op techniek en samenleving vormgeeft.",
+    "De aflevering eindigt met de vraag of buitenaards leven dichtbij is en of Harmsen zou willen meegaan naar Mars."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een AI-intro en de vergelijking",
-      "summary": "David leest een door ChatGPT geschreven intro voor en de gasten beoordelen die als pathos zonder inhoud."
+      "title": "Een AI-geschreven intro",
+      "summary": "De presentatie opent met een door ChatGPT geschreven intro, waarover de gasten grappen maken over de kwaliteit ervan."
     },
     {
-      "start_seconds": 239,
-      "title": "Waar komt de angst voor AI vandaan?",
-      "summary": "Verlies van controle, banen en longtermism; AI is geen natuurverschijnsel maar commercieel product."
-    },
-    {
-      "start_seconds": 584,
-      "title": "Wapenwedloop en menselijke controle",
-      "summary": "Stefan noemt militaire AI en hypersonische raketten; Harmsen benadrukt dat de mens als hulpmiddel-gebruiker nodig blijft."
-    },
-    {
-      "start_seconds": 856,
-      "title": "Hallucinerende ChatGPT",
-      "summary": "ChatGPT verzint feiten over Stefan en David, wat de beperkingen van een taalmodel laat zien."
+      "start_seconds": 241,
+      "title": "Angst voor AI: banen, controle en militaire toepassingen",
+      "summary": "Het gesprek gaat over de vrees voor verlies van werk, verlies van controle en autonome wapens, en over de vraag of menselijke tussenkomst behouden blijft."
     },
     {
       "start_seconds": 1165,
-      "title": "Noord-Korea en Papoea",
-      "summary": "Harmsen vertelt over haar lessen ethisch leiderschap in Pyongyang en haar leven zonder technologie in Papoea."
+      "title": "Leven zonder techniek in Papua en Noord-Korea",
+      "summary": "Harmsen vertelt over haar tijd in de jungle van Papua en haar lessen in Noord-Korea, en over hoe techniekloos leven niet idyllisch is."
     },
     {
-      "start_seconds": 1740,
-      "title": "Reële gevaren nu al",
-      "summary": "Desinformatie, algoritmes, Instagram, TikTok en depressiviteit bij jongeren."
+      "start_seconds": 1784,
+      "title": "Algoritmes, social media en het verlies van kritisch denken",
+      "summary": "Het gesprek behandelt de invloed van algoritmes en schermen op jongeren, zoals depressie en social contagion, en het belang van fysiek contact."
     },
     {
-      "start_seconds": 2060,
-      "title": "Mensbeeld en reductionisme",
-      "summary": "Het gevaar van het reduceren van de mens tot een computer of nummer, en het belang van de ander."
+      "start_seconds": 2136,
+      "title": "Het reductionistische mensbeeld en technocratie",
+      "summary": "Harmsen waarschuwt dat mensen tot data en cijfers worden gereduceerd, en Stefan Paas plaatst dit in de traditie van Descartes en het technocratische denken."
+    },
+    {
+      "start_seconds": 2969,
+      "title": "Religie, lichaam en transhumanisme",
+      "summary": "De gesprekspartners bespreken AI als religieus visioen, transhumanistische fantasieën over het uploaden van bewustzijn en de christelijke waardering van het lichaam."
+    },
+    {
+      "start_seconds": 3846,
+      "title": "Buitenaards leven en Mars",
+      "summary": "Harmsen deelt haar visie op exoplaneten, leven buiten de aarde en de mogelijkheid van een kolonie op Mars, en wordt gevraagd of zij zou willen meegaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
+      "start_seconds": 808,
       "speaker": "Maaike Harmsen",
       "text": "ChatGPT is niks anders dan een rekenmachine met een taal.",
-      "note": "Nuchtere typering van de technologie.",
-      "_": ""
+      "note": "Harmsen verwoordt kernachtig dat AI geen denken is maar statistisch voorspellen."
     },
     {
-      "start_seconds": 1305,
+      "start_seconds": 1284,
       "speaker": "Maaike Harmsen",
-      "text": "Een spion stond op en zei: 'We are always happy.'",
-      "note": "Anekdote uit Noord-Korea."
+      "text": "Een spion zei: we are always happy.",
+      "note": "Een tekenend moment uit Noord-Korea waarbij de zelfkritiek van Harmsen wordt afgewezen."
     },
     {
-      "start_seconds": 2004,
+      "start_seconds": 2157,
       "speaker": "Maaike Harmsen",
-      "text": "Neuronen fantaseren niet, wij fantaseren.",
-      "note": "Pleidooi tegen reductionistisch mensbeeld."
+      "text": "Neuronen fantaseren niet. Wij fantaseren, wij denken, wij voelen.",
+      "note": "Ze verzet zich tegen een louter neurologisch mensbeeld."
     },
     {
-      "start_seconds": 970,
+      "start_seconds": 2316,
+      "speaker": "Maaike Harmsen",
+      "text": "Als je mensen reduceert tot computers, dan wuif je al de witte vlag van overgave.",
+      "note": "Scherpe stelling die het gevaar van reductionisme samenvat."
+    },
+    {
+      "start_seconds": 3764,
       "speaker": "Stefan Paas",
-      "text": "ChatGPT dichtte mij een passie voor natuurkunde toe: 'dat is zelfs voor mij nieuw'.",
-      "note": "Grappig voorbeeld van hallucinatie."
-    },
-    {
-      "start_seconds": 1757,
-      "speaker": "Maaike Harmsen",
-      "text": "Mensen zeggen dat de elite met AI bezig is, terwijl ze gedachteloos het YouTube-algoritme volgen.",
-      "note": "Scherpe observatie over kritiekloos volgen."
+      "text": "Het is een procedure, en niemand denkt zo intuïtief.",
+      "note": "Paas laat zien hoe abstracte wetenschappelijke modellen worden verward met de werkelijkheid."
     }
   ],
   "keywords": [
     "kunstmatige intelligentie",
-    "ChatGPT",
-    "Elon Musk",
-    "longtermism",
-    "hallucinatie",
-    "algoritme",
+    "technofobie",
     "reductionisme",
     "mensbeeld",
-    "Papoea",
-    "Noord-Korea",
-    "sociale media",
-    "desinformatie"
+    "algoritme",
+    "transhumanisme",
+    "incarnatie",
+    "technocratie",
+    "social media",
+    "wijsheid",
+    "buitenaards leven",
+    "Descartes"
   ],
-  "quotes": [],
+  "quotes": [
+    "We moeten tijdelijk stoppen met de ontwikkeling van kunstmatige intelligentie, oftewel AI.",
+    "Is deze angst terecht? Of hebben we last van technofobie?",
+    "Maaike Harmsen is ook de enige Nederlandse theoloog die ooit geciteerd is door de NASA."
+  ],
   "similar": [
     {
       "n": 306,
-      "reason": "Zelfde gast Maaike Harmsen; AI, Elon Musk en het mensbeeld."
-    },
-    {
-      "n": 298,
-      "reason": "Gevaren en kansen van AI, met Marietje Schaake en Stefan Paas."
-    },
-    {
-      "n": 247,
-      "reason": "Smartphones, social media en AI die ons geestelijk schaden, met Jonathan Haidt."
-    },
-    {
-      "n": 292,
-      "reason": "Denkbeelden achter Big Tech en AI, filosofische en religieuze duiding."
+      "reason": "Zelfde gast Maaike Harmsen, over AI, Elon Musk en menselijke waardigheid"
     },
     {
       "n": 257,
-      "reason": "AI, techniek en de aanval op de ziel; kritiek op technologie."
+      "reason": "Over AI, techniek en de aanval op de ziel, vergelijkbare vraagstelling"
+    },
+    {
+      "n": 298,
+      "reason": "Gaat over de gevaren en kansen van AI, met dezelfde gespreksleider"
+    },
+    {
+      "n": 292,
+      "reason": "Denkers achter Big Tech en de ideeën over technologie en macht"
+    },
+    {
+      "n": 322,
+      "reason": "Behandelt Heino Falcke, die ook in deze aflevering wordt besproken, over wetenschap en kosmos"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

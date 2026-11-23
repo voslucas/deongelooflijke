@@ -1,361 +1,318 @@
 {
   "episode": 304,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 78062,
+    "segments": 463,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30193,
-    "output_tokens": 2861,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 38978,
+    "output_tokens": 3201,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "Filosofie & ethiek",
-    "Technologie & AI",
-    "Kerk & secularisatie"
+    "Geschiedenis",
+    "Technologie & AI"
   ],
   "guests": [
     "Arnold Huijgen"
   ],
   "people": [
     {
-      "name": "Pieter Omtzigt",
-      "note": "oud-politicus die pleitte voor terugkeer van bezieling in Nederland",
-      "start_seconds": 49,
-      "wiki_checked": true,
-      "wiki_pageid": 308004,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_Omtzigt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Omtzigt%2C_De_Balie%2C_2021.png/250px-Pieter_Omtzigt%2C_De_Balie%2C_2021.png"
-    },
-    {
       "name": "Plato",
-      "note": "Griekse filosoof; ziel is onsterfelijk, dualisme van ziel en lichaam",
+      "note": "Griekse filosoof; ziel als onsterfelijk, lichaam als grafteken",
       "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "mention_count": 3
     },
     {
       "name": "Aristoteles",
-      "note": "Griekse filosoof; de ziel is de vorm van het lichaam",
-      "start_seconds": 581,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "noemde het lichaam een zak met maden",
-      "start_seconds": 547,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Franciscus van Assisi",
-      "note": "sprak over 'broeder Ezel' voor het lichaam",
-      "start_seconds": 555,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "note": "Filosoof; ziel als vorm van het lichaam",
+      "start_seconds": 615,
+      "mention_count": 3
     },
     {
       "name": "Thomas van Aquino",
-      "note": "middeleeuwse theoloog die Aristoteles volgde, geen scherp dualisme",
-      "start_seconds": 659,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "Middeleeuwse filosoof en theoloog die Aristoteles volgt",
+      "start_seconds": 679,
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader op wie Thomas putte",
-      "start_seconds": 670,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; christelijke visie op ziel en hel",
+      "start_seconds": 1005,
+      "mention_count": 4
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator; sprak over het lichaam als zak met maden",
+      "start_seconds": 547,
+      "mention_count": 1
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "Heilige; sprak over broeder Ezel (lichaam)",
+      "start_seconds": 559,
+      "mention_count": 1
     },
     {
       "name": "René Descartes",
-      "note": "filosoof van het moderne dualisme (res cogitans en res extensa)",
-      "start_seconds": 725,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "William Wordsworth",
-      "note": "dichter: 'We murder to dissect'",
-      "start_seconds": 887,
-      "wiki_checked": true,
-      "wiki_pageid": 55958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Wordsworth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/William_Wordsworth.png/250px-William_Wordsworth.png"
-    },
-    {
-      "name": "Rainer Maria Rilke",
-      "note": "dichter: 'Ihr bringt mir die Dinge um'",
-      "start_seconds": 908,
-      "wiki_checked": true,
-      "wiki_pageid": 192695,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rainer_Maria_Rilke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Rainer_Maria_Rilke_1900.jpg/250px-Rainer_Maria_Rilke_1900.jpg"
+      "note": "Filosoof; dualisme res cogitans en res extensa",
+      "start_seconds": 745,
+      "mention_count": 3
     },
     {
       "name": "Sigmund Freud",
-      "note": "grondlegger van de psychoanalyse, psychologisering van de ziel",
-      "start_seconds": 1037,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
-    },
-    {
-      "name": "Dick Swaab",
-      "note": "hersenwetenschapper, auteur van 'Wij zijn ons brein'",
-      "start_seconds": 1411,
-      "wiki_checked": true,
-      "wiki_pageid": 249290,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Swaab",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dick_Swaab.jpg/250px-Dick_Swaab.jpg"
+      "note": "Grondlegger van de psychoanalyse",
+      "start_seconds": 1061,
+      "mention_count": 3
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "verwierp de ziel; wil tot macht",
-      "start_seconds": 1457,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Arthur Schopenhauer",
-      "note": "filosoof van de wil",
-      "start_seconds": 1510,
-      "wiki_checked": true,
-      "wiki_pageid": 34358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_Schopenhauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg/250px-Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg"
+      "note": "Filosoof; wil tot macht, kritiek op moraal en ziel",
+      "start_seconds": 1485,
+      "mention_count": 3
     },
     {
       "name": "Max Weber",
-      "note": "socioloog, ontgoocheling van de wereld en bureaucratisering",
-      "start_seconds": 1508,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
-    },
-    {
-      "name": "Niels Bohr",
-      "note": "kernfysicus over kinderspel en begrijpen",
-      "start_seconds": 1775,
-      "wiki_checked": true,
-      "wiki_pageid": 5113,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Niels_Bohr",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/250px-Niels_Bohr.jpg"
+      "note": "Socioloog; secularisatie en bureaucratisering",
+      "start_seconds": 1566,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "voorbeeld van een leider zonder ander moreel kompas dan zijn eigen wil",
-      "start_seconds": 2109,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president; 'ik heb geen ander moreel kompas'",
+      "start_seconds": 2115,
+      "mention_count": 2
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Politicus; pleitte eerder voor terugkeer van bezieling",
+      "start_seconds": 420,
+      "mention_count": 3
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duits bondskanselier; advies om naar de kerk te gaan",
+      "start_seconds": 3180,
+      "mention_count": 1
     },
     {
       "name": "Gerard Visser",
-      "note": "filosoof met anekdote over 'zak moleculen' of Marjolein",
-      "start_seconds": 2548,
-      "wiki_checked": true
+      "note": "Filosoof; anekdote over materialistische collega",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "William Wordsworth",
+      "note": "Dichter; 'We murder to dissect'",
+      "start_seconds": 887,
+      "mention_count": 1
+    },
+    {
+      "name": "Rainer Maria Rilke",
+      "note": "Dichter; 'Ihr bringt mir die Dinge um'",
+      "start_seconds": 951,
+      "mention_count": 1
+    },
+    {
+      "name": "Niels Bohr",
+      "note": "Kernfysicus; uitspraak over kinderspel",
+      "start_seconds": 1775,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Swaab",
+      "note": "Hersenwetenschapper; boek 'Wij zijn ons brein'",
+      "start_seconds": 1281,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "Zie boven",
+      "start_seconds": 1566,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "Wij zijn ons brein",
       "author": "Dick Swaab",
-      "note": "voorbeeld van het monisme: bewustzijn als hersenactiviteit",
-      "start_seconds": 1411,
-      "volume_id": "NyEwAgAAQBAJ",
+      "note": "Besproken als voorbeeld van monistisch brein-denken",
+      "start_seconds": 1281,
+      "volume_id": "7xb_zgEACAAJ",
       "canonical_title": "Wij zijn ons brein: van baarmoeder tot Alzheimer",
-      "canonical_author": "Dick Swaab",
-      "isbn13": "9789025436308",
-      "isbn10": "9025436307",
-      "thumbnail": "http://books.google.com/books/content?id=NyEwAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Dick Frans Swaab",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Inferno",
+      "author": "Arnold Huijgen",
+      "note": "Nieuw boek over de hel, aangekondigd",
+      "start_seconds": 3240,
+      "volume_id": "YMA00gEACAAJ",
+      "canonical_title": "Inferno: de ontdekking van de hel",
+      "canonical_author": "Arnold Huijgen",
+      "isbn13": "9789043543415",
+      "isbn10": "9043543411",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Genesis 2",
-      "note": "adem van God, mens geschapen naar Gods beeld",
-      "start_seconds": 2038
+      "ref": "Genesis 2:7",
+      "note": "Adem van God; mens als levende ziel",
+      "start_seconds": 2025
     },
     {
-      "ref": "Psalm 86:11",
-      "note": "Maak mijn hart één om uw naam te vrezen; eenheid van het leven",
-      "start_seconds": 2501
+      "ref": "Psalm 86",
+      "note": "'Maak mijn hart één om uw naam te vrezen'",
+      "start_seconds": 2520
     }
   ],
   "places": [
     "Biddinghuizen",
     "Kampen",
-    "Loosdrecht",
     "Gouda",
-    "Den Haag",
     "Apeldoorn",
     "Hilversum",
-    "Auschwitz",
-    "Iran"
+    "Loosdrecht",
+    "Ter Apel"
   ],
-  "summary_tldr": "Arnold Huijgen geeft een mini-college over de geschiedenis van de ziel, van Plato en Aristoteles via Descartes en Freud tot hersenwetenschap en AI. Samen met Stefan Paas betoogt hij dat de reductie van de mens tot brein of data samenhangt met de leegte en technocratie in de samenleving. Het christelijke idee van de ziel als godsrelatie en het 'volle leven' kan helpen bezieling terug te vinden.",
+  "summary_tldr": "Arnold Huijgen en Stefan Paas bespreken in een mini-college de geschiedenis van de ziel, van Plato en Aristoteles via Descartes en Freud tot hersenwetenschap en AI. Ze stellen dat de ziel en het religieuze steeds verder uit het publieke leven zijn verdwenen, wat bijdraagt aan een gevoel van leegte en technocratie. De christelijke traditie, met de ziel als relatie met God en het 'volle leven', biedt volgens hen een tegenwicht.",
   "summary_points": [
-    "Veel mensen en de samenleving raken door hun reserves heen ('diepgaan') en zoeken hoop.",
-    "Plato zag de ziel als onsterfelijk en het lichaam als gevangenis; Aristoteles zag de ziel als vorm van het lichaam.",
-    "Descartes' dualisme en de opkomst van techniek maakten de buitenwereld tot dode materie en de ziel tot privé-binnenwereld.",
-    "Freud rationaliseerde ook de binnenwereld; het monisme ('wij zijn ons brein') schaft ziel en God af.",
-    "Rationalisering van de ziel loopt parallel aan bureaucratisering en technocratie in de samenleving.",
-    "AI dwingt tot de vraag wat uniek menselijk is; kennen is meer dan weten.",
-    "Zonder ziel als godsrelatie dreigt een strijd van allen tegen allen en hyperkapitalisme.",
-    "Zowel Extinction Rebellion als AZC-protesten verraden een verlangen naar een groot verhaal.",
-    "Het christelijke 'volle leven' en de eenheid van het leven bieden een alternatief."
+    "De ziel is van Plato (onsterfelijk, lichaam als grafteken) via Aristoteles (vorm van het lichaam) naar Thomas van Aquino gegaan",
+    "Descartes introduceerde een scherp dualisme tussen denkende ziel en uitgebreide materie",
+    "Freud psychologiseerde de ziel en haalde het mysterie eraf",
+    "Het monisme stelt dat we ons brein zijn; daarmee verdwijnt volgens de gasten de ruimte voor God en ziel",
+    "Rationalisering en bureaucratisering van de samenleving volgen dezelfde blik als de wetenschap",
+    "Het gevoel van leegte uit zich in technocratie en het zoeken naar groot verhaal aan de flanken",
+    "Asielprotesten en 'wij zijn Nederland' tonen de behoefte aan saamhorigheid en een wij-gevoel",
+    "Christelijke ziel als relatie met God en mens; kennen is meer dan weten",
+    "AI roept de vraag op wat de mens uniek maakt; praktijkkennis en het volle leven blijven belangrijk",
+    "Aankondiging: live gesprek over Inferno (de hel) op 10 juni in Hilversum"
   ],
   "chapters": [
     {
-      "start_seconds": 49,
-      "title": "Raakt Nederland zijn ziel kwijt?",
-      "summary": "Inleiding met Omtzigts oproep tot bezieling en Arnold Huijgens jaarthema 'diepgaan'."
+      "start_seconds": 0,
+      "title": "Inleiding en vraag naar bezieling",
+      "summary": "David Boogerd introduceert het thema van leegte en zingeving, en Huijgen en Paas duiden de spanning tussen individu en samenleving."
     },
     {
-      "start_seconds": 295,
-      "title": "Bezieling en de staat van de samenleving",
-      "summary": "Verlangen naar een verbindend verhaal, technocratie in het midden en bezieling aan de randen."
+      "start_seconds": 480,
+      "title": "Geschiedenis van de ziel: Oudheid en Middeleeuwen",
+      "summary": "Plato, Aristoteles en Thomas van Aquino over de verhouding tussen ziel en lichaam."
     },
     {
-      "start_seconds": 493,
-      "title": "Plato, Aristoteles en Thomas",
-      "summary": "De antieke en middeleeuwse opvattingen over ziel en lichaam."
+      "start_seconds": 745,
+      "title": "Descartes, dualisme en de wetenschappelijke revolutie",
+      "summary": "Het scheidingsdenken tussen subject en object en de opkomst van techniek en machines."
     },
     {
-      "start_seconds": 725,
-      "title": "Descartes en de wetenschappelijke revolutie",
-      "summary": "Het dualisme, de machinemetafoor en de terugtrekking van het religieuze naar de binnenwereld."
+      "start_seconds": 1061,
+      "title": "Freud, psychologisering en monisme",
+      "summary": "Freud analyseert de binnenwereld; het monisme maakt de mens tot zijn brein."
     },
     {
-      "start_seconds": 1037,
-      "title": "Freud, brein en Nietzsche",
-      "summary": "Psychologisering van de ziel, monisme en de strijd tegen ziel en God."
+      "start_seconds": 1485,
+      "title": "Nietzsche, secularisatie en bureaucratisering",
+      "summary": "Parallel tussen secularisering van binnen- en buitenwereld en de technocratische samenleving."
     },
     {
-      "start_seconds": 1568,
-      "title": "Meten, AI en wat mensen uniek maakt",
-      "summary": "Bureaucratisering, dataficatie en de vraag wat AI overlaat van het menszijn."
+      "start_seconds": 1800,
+      "title": "AI en wat de mens uniek maakt",
+      "summary": "Vragen over vervangbaarheid, praktijkkennis en het volle leven in het licht van AI."
     },
     {
-      "start_seconds": 2025,
-      "title": "De christelijke visie: ziel als godsrelatie",
-      "summary": "Mens als beeld van God, kennen versus weten en het volle leven."
+      "start_seconds": 2300,
+      "title": "Samenleving, wij-gevoel en asielprotesten",
+      "summary": "Analyse van 'wij zijn Nederland', migratie, woningmarkt en de rol van de islam en de kerk."
     },
     {
-      "start_seconds": 2380,
-      "title": "Leegte, festivals en politiek",
-      "summary": "Verlangen naar een groot verhaal in links en rechts protest en de eenheid van het leven."
+      "start_seconds": 3200,
+      "title": "Hel, Inferno en aankondiging 10 juni",
+      "summary": "Afsluiting met het nieuwe boek over de hel en de live-aankondiging in Hilversum."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 2525,
       "speaker": "Arnold Huijgen",
-      "text": "Wij zijn Nederland: 3 woorden en elk van die woorden verdient een analyse.",
-      "note": "Koppelt AZC-protesten aan de vraag naar identiteit."
+      "text": "Naast wie heb jij vannacht gelegen? Naast Marjolein of naast een zak moleculen?",
+      "note": "Scherpe illustratie van de grens van de materialistische blik op de mens."
     },
     {
-      "start_seconds": 887,
+      "start_seconds": 1775,
       "speaker": "Stefan Paas",
-      "text": "We murder to dissect: om te ontleden moet je het eerst doodmaken.",
-      "note": "Kernbeeld van de analyserende blik."
+      "text": "Het begrijpen van kernfysica is kinderspel vergeleken bij het begrijpen van kinderspel.",
+      "note": "Een pointe over observeren versus begrijpen, relevant voor AI."
     },
     {
-      "start_seconds": 2109,
-      "speaker": "Arnold Huijgen",
-      "text": "De lijn loopt direct naar Trump: zonder ziel als godsrelatie is er alleen eigen grillen.",
-      "note": "Verbindt filosofie met actuele politiek."
-    },
-    {
-      "start_seconds": 2548,
-      "speaker": "Arnold Huijgen",
-      "text": "Naast wie heb je gelegen: Marjolein of een zak moleculen?",
-      "note": "Pakkende anekdote tegen materialisme."
-    },
-    {
-      "start_seconds": 2220,
+      "start_seconds": 1510,
       "speaker": "Stefan Paas",
-      "text": "Je volgende date opzetten als een functioneringsgesprek.",
-      "note": "Humoristisch beeld van overdreven rationalisering."
+      "text": "We murder to dissect.",
+      "note": "Wordsworth: analyseren betekent doden, en relaties verliezen hun resonantie."
+    },
+    {
+      "start_seconds": 3180,
+      "speaker": "Arnold Huijgen",
+      "text": "Als je je zorgen maakt over de groei van de islam, ga gewoon naar de kerk.",
+      "note": "Provocatieve paraphrase van Merkel die de discussie over identiteit scherp maakt."
+    },
+    {
+      "start_seconds": 2100,
+      "speaker": "Arnold Huijgen",
+      "text": "Dan is dat hyperkapitalisme, een eerlijke consequentie van het afschaffen van de ziel en God.",
+      "note": "Scherpe stelling over de samenhang tussen ziel, God en moraal."
     }
   ],
   "keywords": [
     "ziel",
-    "bezieling",
     "dualisme",
-    "monisme",
     "Descartes",
-    "Freud",
+    "Aristoteles",
+    "secularisatie",
     "technocratie",
     "AI",
+    "zingeving",
+    "monisme",
     "volle leven",
-    "Nietzsche",
-    "diepgaan",
-    "kennen"
+    "wij-gevoel",
+    "hel"
   ],
   "quotes": [
-    "Raakt Nederland zijn ziel kwijt? Veel mensen voelen een leegte.",
-    "Als wij steeds vaker worden begrepen als brein, data of materie - wat raken we dan kwijt?"
+    "Het is geen jenever wat erin zit.",
+    "Wij zijn Nederland.",
+    "Maak mijn hart één om uw naam te vrezen."
   ],
   "similar": [
     {
-      "n": 282,
-      "reason": "Zijn wij ons brein? Hersenwetenschap, ziel en religie, ook met Stefan Paas."
-    },
-    {
       "n": 318,
-      "reason": "Westerse crisis van het brein en reductie van de mens; zingeving en God."
+      "reason": "Westerse crisis, overmatige meetbaarheid en verlies van wezenlijke betekenis, zoals in de ziel-aflevering"
     },
     {
-      "n": 303,
-      "reason": "Omtzigt over een land zonder ziel en dystopische tijd; zelfde persoon besproken."
+      "n": 111,
+      "reason": "Seculiere donderpreek over zingeving, individualisering en het verlies van het transcendente"
     },
     {
-      "n": 155,
-      "reason": "Filosofie en de 'dood van God', Nietzsche, Descartes-achtige denklijn."
+      "n": 191,
+      "reason": "Zingeving, technologie en geestelijke leegte door smartphones en sociale media"
     },
     {
-      "n": 308,
-      "reason": "Betekenisloosheid en bezieling in een uitgeputte wereld."
+      "n": 206,
+      "reason": "Technologie en rationele intelligentie als bedreiging voor menselijke betekenis, met Ellul"
+    },
+    {
+      "n": 328,
+      "reason": "Culturele en politieke vastlopen en de leegte van de 'laatste mens'"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

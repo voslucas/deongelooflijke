@@ -1,364 +1,424 @@
 {
   "episode": 187,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 139156,
+    "segments": 1694,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31960,
-    "output_tokens": 2948,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 72870,
+    "output_tokens": 4396,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Bijbel & Jezus",
-    "Geschiedenis",
     "God & geloof",
-    "Politiek"
+    "Geschiedenis",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Geurt Henk van Kooten"
   ],
   "people": [
     {
+      "name": "Geurt Henk van Kooten",
+      "note": "Gast; hoogleraar Nieuwe Testament in Cambridge, theoloog en predikant",
+      "start_seconds": 5,
+      "mention_count": 60
+    },
+    {
       "name": "Erasmus",
-      "note": "humanist; eerste Nederlander op de Lady Margaret's Chair in Cambridge (1511-1514)",
-      "start_seconds": 200,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
-    },
-    {
-      "name": "Lady Margaret Beaufort",
-      "note": "grootmoeder van Hendrik VIII; stichtster van de leerstoel",
-      "start_seconds": 305,
-      "wiki_checked": true,
-      "wiki_pageid": 1090763,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Margaret_Beaufort",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/MargaretBeaufort2.jpg/250px-MargaretBeaufort2.jpg"
-    },
-    {
-      "name": "Hendrik VIII",
-      "note": "Engelse koning, kerkscheuring",
-      "start_seconds": 310,
-      "wiki_checked": true,
-      "wiki_pageid": 35700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hendrik_VIII_van_Engeland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hans_Holbein_d._J._049.jpg/250px-Hans_Holbein_d._J._049.jpg"
-    },
-    {
-      "name": "Thomas à Kempis",
-      "note": "auteur van De navolging van Christus",
-      "start_seconds": 325,
-      "wiki_checked": true,
-      "wiki_pageid": 64786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_a_Kempis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg/250px-Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg"
-    },
-    {
-      "name": "Thallus",
-      "note": "Griekse chronograaf, schreef over de zonsverduistering bij de kruisiging",
-      "start_seconds": 746,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mara Bar Serapion",
-      "note": "Syrische stoïcijnse filosoof die Jezus met Socrates vergeleek",
-      "start_seconds": 764,
-      "wiki_checked": true
+      "note": "Humanist; vorige bekleder van de leerstoel in Cambridge",
+      "start_seconds": 380,
+      "mention_count": 3
     },
     {
       "name": "Tacitus",
-      "note": "Romeins geschiedschrijver, noemt Christus en Pontius Pilatus",
-      "start_seconds": 793,
-      "wiki_checked": true,
-      "wiki_pageid": 4128,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Publius_Cornelius_Tacitus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tacitus_portrait.jpg/250px-Tacitus_portrait.jpg"
-    },
-    {
-      "name": "Pontius Pilatus",
-      "note": "Romeins prefect die Jezus veroordeelde",
-      "start_seconds": 807,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
-    },
-    {
-      "name": "Nero",
-      "note": "Romeinse keizer ten tijde van de brand van Rome",
-      "start_seconds": 800,
-      "wiki_checked": true,
-      "wiki_pageid": 8457,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nero_%28keizer%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Nero_Glyptothek_Munich_321.jpg/250px-Nero_Glyptothek_Munich_321.jpg"
-    },
-    {
-      "name": "Tiberius",
-      "note": "keizer onder wie Jezus werd gekruisigd",
-      "start_seconds": 760,
-      "wiki_checked": true,
-      "wiki_pageid": 957458,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tiberius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%28Venice%29_Tiberius_Portrait_of_the_%27Imperium_Maius%27_type_in_Museo_Archeologico_Nazionale.jpg/250px-%28Venice%29_Tiberius_Portrait_of_the_%27Imperium_Maius%27_type_in_Museo_Archeologico_Nazionale.jpg"
-    },
-    {
-      "name": "Constantijn",
-      "note": "eerste christelijke keizer",
-      "start_seconds": 1140,
-      "wiki_checked": true,
-      "wiki_pageid": 319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Constantijn_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/250px-Constantine_Chiaramonti_Inv1749.jpg"
-    },
-    {
-      "name": "Montesquieu",
-      "note": "scheiding der machten, De geest der wetten (1748)",
-      "start_seconds": 1365,
-      "wiki_checked": true,
-      "wiki_pageid": 27534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Montesquieu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Montesquieu_1.png/250px-Montesquieu_1.png"
-    },
-    {
-      "name": "René Girard",
-      "note": "Frans filosoof over offer en zondebok",
-      "start_seconds": 1671,
-      "wiki_checked": true,
-      "wiki_pageid": 171520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Girard_%28menswetenschapper%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ren%C3%A9_Girard.jpg/250px-Ren%C3%A9_Girard.jpg"
-    },
-    {
-      "name": "Socrates",
-      "note": "filosoof die zich van de politiek distantieerde",
-      "start_seconds": 1739,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
-    },
-    {
-      "name": "Plinius",
-      "note": "Romeins schrijver, leegstaande offerdierboerderijen rond 110",
-      "start_seconds": 1819,
-      "wiki_checked": true,
-      "wiki_pageid": 101858,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plinius_de_Jongere",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Pline_le_Jeune%2C_Caius_Plinius_Caecilius_Secundus_%2861-114%29_CIPB1135.jpg/250px-Pline_le_Jeune%2C_Caius_Plinius_Caecilius_Secundus_%2861-114%29_CIPB1135.jpg"
+      "note": "Romeins geschiedschrijver die over christenen en Christus schrijft",
+      "start_seconds": 765,
+      "mention_count": 4
     },
     {
       "name": "Plato",
-      "note": "filosoof; Symposium over Eros en goddelijkheid",
-      "start_seconds": 1947,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof; besproken over goddelijke liefde (Symposium)",
+      "start_seconds": 1920,
+      "mention_count": 3
     },
     {
-      "name": "James Frazer",
-      "note": "auteur van The Golden Bough, sterf-en-opstaande goden",
-      "start_seconds": 2028,
-      "wiki_checked": true,
-      "wiki_pageid": 565558,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Frazer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/JamesGeorgeFrazer.jpg/250px-JamesGeorgeFrazer.jpg"
+      "name": "Socrates",
+      "note": "Griekse filosoof die geen geschriften naliet",
+      "start_seconds": 1740,
+      "mention_count": 3
     },
     {
-      "name": "Tal Bekhand",
-      "note": "cabaretier die de internettheorie over Jezus als gelijke van andere goden uitlegde",
-      "start_seconds": 2046,
-      "wiki_checked": true
+      "name": "Paulus",
+      "note": "Apostel; brieven uit ca. 50 na Christus",
+      "start_seconds": 3090,
+      "mention_count": 5
+    },
+    {
+      "name": "Johannes",
+      "note": "Auteur/evangelie van Johannes, besproken als oudste evangelie volgens Van Kooten",
+      "start_seconds": 2640,
+      "mention_count": 10
+    },
+    {
+      "name": "Chesterton",
+      "note": "Britse schrijver over God die machteloos wordt",
+      "start_seconds": 2180,
+      "mention_count": 3
+    },
+    {
+      "name": "Tolkien",
+      "note": "Schrijver; Lord of the Rings, invloed op C.S. Lewis",
+      "start_seconds": 2100,
+      "mention_count": 2
     },
     {
       "name": "C.S. Lewis",
-      "note": "schrijver, beïnvloed door Frazer",
-      "start_seconds": 2128,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Schrijver die zijn geloof verloor door de sterven-en-opstaan-theorie",
+      "start_seconds": 2010,
+      "mention_count": 2
+    },
+    {
+      "name": "Frazer",
+      "note": "Auteur van The Golden Bough over stervende goden",
+      "start_seconds": 1990,
+      "mention_count": 2
+    },
+    {
+      "name": "René Girard",
+      "note": "Franse filosoof over offer en slachtoffer",
+      "start_seconds": 1680,
+      "mention_count": 1
+    },
+    {
+      "name": "Simone Weil",
+      "note": "Franse filosofe over het evangelie en de antieke vragen",
+      "start_seconds": 2370,
+      "mention_count": 2
+    },
+    {
+      "name": "Montesquieu",
+      "note": "Filosoof; scheiding van machten in De geest der wetten",
+      "start_seconds": 1370,
+      "mention_count": 1
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe; over vergeving als uitvinding van Jezus",
+      "start_seconds": 2490,
+      "mention_count": 1
+    },
+    {
+      "name": "Fukuyama",
+      "note": "Auteur van het einde van de geschiedenis",
+      "start_seconds": 4020,
+      "mention_count": 1
+    },
+    {
+      "name": "Racine",
+      "note": "17e-eeuwse Franse toneelschrijver die tot geloof kwam",
+      "start_seconds": 4750,
+      "mention_count": 2
+    },
+    {
+      "name": "Schleiermacher",
+      "note": "Filosoof die het evangelie van Johannes als ooggetuigenverslag las",
+      "start_seconds": 2180,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Wright",
+      "note": "Theoloog N.T. Wright die naar het werk van Van Kooten verwees",
+      "start_seconds": 4380,
+      "mention_count": 1
+    },
+    {
+      "name": "Herodes de Grote",
+      "note": "Koning die het badcomplex in Jeruzalem bouwde",
+      "start_seconds": 2730,
+      "mention_count": 1
+    },
+    {
+      "name": "Constantijn",
+      "note": "Eerste christelijke keizer van Rome",
+      "start_seconds": 1140,
+      "mention_count": 2
+    },
+    {
+      "name": "Tiberius",
+      "note": "Romeinse keizer onder wie Jezus gekruisigd werd",
+      "start_seconds": 755,
+      "mention_count": 2
+    },
+    {
+      "name": "Pontius Pilatus",
+      "note": "Romeins landvoogd die Jezus veroordeelde",
+      "start_seconds": 785,
+      "mention_count": 2
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Vaste gast; theoloog",
+      "start_seconds": 230,
+      "mention_count": 50
+    },
+    {
+      "name": "Tal Bekkand",
+      "note": "Cabaretier met podcast over stervende goden-theorie (naam in transcript 'Tal Beckhand')",
+      "start_seconds": 2034,
+      "mention_count": 2
+    },
+    {
+      "name": "David Gurevich",
+      "note": "Archeoloog Universiteit van Haifa betrokken bij badhuis-opgraving",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Diederik Smit",
+      "note": "Cabaretier die optreedt bij het jubileum",
+      "start_seconds": 320,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historicus die meewerkt aan het jubileum",
+      "start_seconds": 4850,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Het evangelie van Johannes",
+      "author": "Johannes",
+      "note": "Centraal besproken; Van Kooten's ontdekking over het badhuis en vroege datering",
+      "start_seconds": 2580,
+      "volume_id": "U-xwnQEACAAJ",
+      "canonical_title": "Het evangelie naar Johannes",
+      "canonical_author": "onbekend",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Het evangelie van Marcus",
+      "author": "Marcus",
+      "note": "Besproken als biografie gericht aan Romeinen tijdens Joodse opstand",
+      "start_seconds": 1410,
+      "volume_id": "haIp0AEACAAJ",
+      "canonical_title": "Het evangelie van Jezus Christus volgens Marcus",
+      "canonical_author": "Marcus",
+      "isbn13": "9789026484087",
+      "isbn10": "9026484089",
+      "thumbnail": ""
+    },
+    {
+      "title": "De Da Vinci-code",
+      "author": "Dan Brown",
+      "note": "Genoemd als populaire fictie met theorieën over Jezus",
+      "start_seconds": 2490,
+      "volume_id": "NHqDtwAACAAJ",
+      "canonical_title": "De Da Vinci code",
+      "canonical_author": "Dan Brown, Josephine Ruitenberg",
+      "isbn13": "9789046301333",
+      "isbn10": "9046301338",
+      "thumbnail": ""
+    },
+    {
+      "title": "De navolging van Christus",
+      "author": "Thomas à Kempis",
+      "note": "Vertaald door Lady Margaret",
+      "start_seconds": 330,
+      "volume_id": "itkdtwAACAAJ",
+      "canonical_title": "De navolging van Christus van Thomas a Kempis",
+      "canonical_author": "Thomas à Kempis, Johannes Petrus Hasebroek",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
       "title": "The Golden Bough",
       "author": "James Frazer",
-      "note": "theorie dat Jezus een van vele sterf-en-opstaande goden is",
-      "start_seconds": 2028,
-      "volume_id": "p-ZC_SaaDCgC",
+      "note": "19e-eeuws werk over stervende goden",
+      "start_seconds": 1990,
+      "volume_id": "3aY7PgAACAAJ",
       "canonical_title": "The Golden Bough: A Study in Magic and Religion",
-      "canonical_author": "James George Frazer",
-      "isbn13": "9781596056855",
-      "isbn10": "1596056851",
-      "thumbnail": "http://books.google.com/books/content?id=p-ZC_SaaDCgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Sir James George Frazer",
+      "isbn13": "9780199538829",
+      "isbn10": "0199538824",
+      "thumbnail": "http://books.google.com/books/content?id=3aY7PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Geest der wetten",
+      "author": "Montesquieu",
+      "note": "Over scheiding van machten",
+      "start_seconds": 1370,
+      "volume_id": "Fj66MgEACAAJ",
+      "canonical_title": "Over de geest van de wetten",
+      "canonical_author": "Charles-Louis de Secondat Montesquieu, Jeanne Holierhoek",
+      "isbn13": "9789085066699",
+      "isbn10": "9085066697",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Marcus 12:17",
-      "note": "Geef de keizer wat de keizer toekomt en God wat God toekomt",
-      "start_seconds": 1277
+      "ref": "Johannes 5:1",
+      "note": "Badhuis met vijf zuilengangen in Jeruzalem; kernargument over tegenwoordige tijd",
+      "start_seconds": 2580
     },
     {
-      "ref": "Johannes 1:1",
-      "note": "Christus als het Woord, de Logos",
-      "start_seconds": 1088
+      "ref": "Marcus 2:1-12",
+      "note": "Genezing van verlamde man door het dak; Jezus vergeeft zonden",
+      "start_seconds": 3570
     },
     {
-      "ref": "1 Johannes 4:8",
-      "note": "God is liefde",
-      "start_seconds": 1938
+      "ref": "Exodus 3",
+      "note": "'Ik ben' als verwijzing naar de godsnaam",
+      "start_seconds": 3660
+    },
+    {
+      "ref": "Johannes 13",
+      "note": "Voetwassing bij het laatste avondmaal als dieptepunt/verhoging",
+      "start_seconds": 3300
     }
   ],
   "places": [
     "Cambridge",
+    "Groningen",
+    "Jeruzalem",
     "Utrecht",
-    "Judea",
-    "Syrië",
-    "Rome",
+    "Parijs",
+    "Haifa",
+    "Wales",
+    "Galilea",
+    "Tiberias",
     "Troje",
-    "Engeland",
-    "Nederland"
+    "Judea",
+    "Rome"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met Cambridge-hoogleraar Geurt Henk van Kooten over de historische Jezus. Hij betoogt dat de evangeliën Griekse biografieën zijn en dat Jezus uniek was door de scheiding van religie en politiek, de nadruk op het innerlijk en het idee dat God echt mens werd. De aangekondigde ontdekking over Jezus' goddelijkheid in de oudste bronnen komt in het gedeelte hier niet aan bod.",
+  "summary_tldr": "Historicus Geurt Henk van Kooten bespreekt zijn nog ongepubliceerde ontdekking dat het Johannes-evangelie, met zijn beschrijving van het badhuis bij de Schaapspoort in de tegenwoordige tijd, vóór de Joodse opstand van 70 na Christus is geschreven en dus het oudste evangelie kan zijn, met een vroege god-zijn van Jezus. Het gesprek gaat ook over wat Jezus historisch uniek maakte, zoals de scheiding van religie en politiek, de nadruk op het innerlijk en het offer van God zelf. Van Kooten en Stefan Paas bespreken daarnaast hoe de evangelieën als antieke literatuur gelezen kunnen worden.",
   "summary_points": [
-    "Van Kooten bekleedt de Lady Margaret's Chair of Divinity in Cambridge, eerder Erasmus' stad.",
-    "Culturele verschillen tussen Nederlandse directheid en Engelse beleefdheid en academische vrijheid.",
-    "Niet-christelijke bronnen (Thallus, Mara Bar Serapion, Tacitus) bevestigen Jezus' historiciteit.",
-    "De evangeliën zijn te lezen als Griekse biografieën, niet als losstaande heilige literatuur.",
-    "Het christendom groeide vóór Constantijn door overtuigingskracht, niet door gezag van de Bijbel.",
-    "Jezus onderscheidt religie en politiek ('geef de keizer wat des keizers is'), wat absolute staatsmacht begrenst.",
-    "Nadruk op innerlijke zuivering in plaats van offers; Girard over het laatste offer.",
-    "Een God die echt mens wordt en bloedt is nieuw tegenover Griekse goden met schijnlichaam.",
-    "Kritiek op de internettheorie dat Jezus een kopie is van andere sterf-en-opstaande goden."
+    "Van Kooten's ontdekking: het badhuis bij de Schaapspoort wordt in Johannes 5:1 in de tegenwoordige tijd beschreven, wat wijst op een datering vóór 70 na Christus.",
+    "Het argument berust op de historische presens: in Griekse teksten wordt die formule alleen gebruikt voor zaken die op het moment van schrijven bestaan.",
+    "Als Johannes het oudste evangelie is, wordt het idee dat Jezus God was niet pas later door kerkvaders bedacht, maar gaat het terug tot de eerste generatie.",
+    "Van Kooten leest het Nieuwe Testament als antieke Grieks-Romeinse literatuur, en de evangelieën als biografieën.",
+    "Jezus scheidde volgens Van Kooten religie en politiek, zoals blijkt uit het 'geef aan God wat Gods is' en de nadruk op het innerlijk.",
+    "Het offer van God zelf, in plaats van dierenoffers, markeert een nieuwe gedachte die weinig parallellen kent in de oudheid.",
+    "Vergelijkingen met stervende goden zoals Osiris en Mithras worden als minder sterk gezien, omdat die goden niet aan een historisch moment gebonden zijn.",
+    "Van Kooten, die later predikant werd, wil de teksten als 'verhaal dat staat' benaderen, los van geloofsplicht.",
+    "Het gesprek eindigt met de aankondiging van het vijfjarig jubileum van De Ongelooflijke Podcast."
   ],
   "chapters": [
     {
-      "start_seconds": 217,
-      "title": "De leerstoel in Cambridge",
-      "summary": "Over de eeuwenoude Lady Margaret's Chair, Erasmus en het academische leven in Cambridge."
+      "start_seconds": 0,
+      "title": "Introductie en Cambridge",
+      "summary": "Presentatie van Van Kooten, zijn leerstoel in Cambridge en de Engelse academische cultuur."
     },
     {
-      "start_seconds": 420,
-      "title": "Cultuurverschillen Nederland en Engeland",
-      "summary": "Duitse en Nederlandse eerlijkheid tegenover Engelse beleefdheid en het 'elephant in the room'."
+      "start_seconds": 720,
+      "title": "Bronnen over Jezus",
+      "summary": "Antieke bronnen zoals Tacitus en Mara bar Serapion, en de status van de evangelieën als historische bron."
     },
     {
-      "start_seconds": 700,
-      "title": "Historische bronnen over Jezus",
-      "summary": "Thallus, Mara Bar Serapion en Tacitus als niet-christelijke getuigen van Jezus."
-    },
-    {
-      "start_seconds": 895,
-      "title": "Evangeliën als biografieën",
-      "summary": "Waarom de evangeliën als Griekse literatuur gelezen moeten worden en niet als apart heilig boek."
-    },
-    {
-      "start_seconds": 1260,
+      "start_seconds": 1290,
       "title": "Religie en politiek gescheiden",
-      "summary": "Jezus' uitspraak over de belasting als begin van de scheiding tussen kerk en staat."
+      "summary": "Jezus maakt een onderscheid tussen politiek en religie, wat de basis legt voor de scheiding van kerk en staat."
     },
     {
-      "start_seconds": 1650,
-      "title": "Innerlijk en het laatste offer",
-      "summary": "Focus op het geweten en innerlijke zuivering, met Girard en Plinius."
+      "start_seconds": 1800,
+      "title": "Offer en goddelijkheid",
+      "summary": "Vergelijking met goden in de Griekse mythologie en de unieke incarnatie en zelfoffer van God."
     },
     {
-      "start_seconds": 1780,
-      "title": "God wordt mens",
-      "summary": "Verschil tussen Griekse goden met schijnlichaam en de incarnatie in Jezus."
+      "start_seconds": 2550,
+      "title": "De ontdekking over het badhuis",
+      "summary": "Van Kooten legt uit hoe de tegenwoordige tijd in Johannes 5 wijst op een vroege datering."
     },
     {
-      "start_seconds": 2000,
-      "title": "De internettheorie over sterf-en-opstaande goden",
-      "summary": "Kritiek op Frazer, Mithras en de populaire idee dat Jezus een kopie is."
+      "start_seconds": 3240,
+      "title": "Verschillende evangelieën en Johannes vs Paulus",
+      "summary": "De vier evangeliën als verschillende perspectieven en de verschillen in accent tussen Johannes en Paulus."
+    },
+    {
+      "start_seconds": 4000,
+      "title": "Persoonlijk pad en secularisme",
+      "summary": "Van Kooten over zijn latere predikantschap, de psalmenvesper en het lezen van teksten als literatuur."
+    },
+    {
+      "start_seconds": 4620,
+      "title": "Jubileum en afsluiting",
+      "summary": "Aankondiging van het jubileum van De Ongelooflijke en de podcast Dit is de Bijbel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 866,
+      "start_seconds": 2650,
       "speaker": "Geurt Henk van Kooten",
-      "text": "De evangeliën zijn niet waar omdat ze in de Bijbel staan, maar ze staan in de Bijbel omdat ze historisch zo relevant zijn.",
-      "note": "Draait de gebruikelijke redenering om."
-    },
-    {
-      "start_seconds": 1060,
-      "speaker": "Geurt Henk van Kooten",
-      "text": "Ik beantwoord 'this is the word of God' bij het Nieuwe Testament niet bevestigend.",
-      "note": "Verrassende persoonlijke positie van een christelijke hoogleraar."
+      "text": "Als je in een niet-gedateerde tekst leest dat er in New York twee torens staan, weet je dat de tekst voor 2001 is geschreven.",
+      "note": "Een heldere analogie die de kern van de tegenwoordige-tijd-argumentatie samenvat."
     },
     {
       "start_seconds": 1290,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Jezus is in de oudheid de eerste die religie en politiek van elkaar onderscheidt.",
-      "note": "Kernclaim over Jezus' uniciteit."
+      "text": "Jezus is degene die het politieke en het religieuze van elkaar scheidt.",
+      "note": "Een stelling die de scheiding van kerk en staat tot Jezus herleidt en een onverwachte historische claim is."
     },
     {
-      "start_seconds": 1555,
+      "start_seconds": 3240,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Een dictator kan geen absoluut gezag eisen, want dan loopt hij aan tegen de grenzen van de religieuze sfeer.",
-      "note": "Politieke consequentie van Jezus' onderscheid."
+      "text": "Johannes is zo'n optimist dat hij de kruisiging niet als dieptepunt ziet, maar als onderdeel van een verhoging.",
+      "note": "Laat zien hoe evangelisten dezelfde gebeurtenis verschillend interpreteren."
     },
     {
-      "start_seconds": 1990,
+      "start_seconds": 4680,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Als God doorstoken wordt in de Griekse mythe bloedt hij godenbloed; Jezus bloedt mensenbloed.",
-      "note": "Beeldend verschil tussen schijnlichaam en incarnatie."
+      "text": "Het wordt van een meervoud in het Grieks een enkelvoud; de Bijbel als 'Biblia' wordt in het Latijn een vrouwelijk enkelvoud.",
+      "note": "Verrassende taalhistorische notitie over de vorming van de Bijbel als boek."
+    },
+    {
+      "start_seconds": 3960,
+      "speaker": "Geurt Henk van Kooten",
+      "text": "Ik zeg niet 'affirmative' als in de Engelse liturgie wordt gezegd: this is the word of God.",
+      "note": "Een persoonlijk en provocerend standpunt over het gezag van het Nieuwe Testament."
     }
   ],
   "keywords": [
     "historische Jezus",
-    "Evangelie",
-    "Biografie",
-    "Scheiding van kerk en staat",
-    "Incarnatie",
-    "Tacitus",
-    "Erasmus",
-    "Cambridge",
-    "René Girard",
-    "Frazer",
-    "Mysteriereligies",
-    "Constantijn"
+    "Johannes-evangelie",
+    "historische presens",
+    "badhuis Jeruzalem",
+    "evangeliën als biografie",
+    "religie en politiek",
+    "incarnatie",
+    "stervende goden",
+    "Paulus",
+    "vroege datering"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 280,
-      "reason": "Zelfde gast Geurt Henk van Kooten; betrouwbaarheid van de historische bronnen over Jezus"
+      "reason": "Zelfde gast Geurt Henk van Kooten over de historische betrouwbaarheid van bronnen over Jezus"
     },
     {
       "n": 18,
-      "reason": "Historische Jezus, oude bronnen en feiten en fabels met Lietaert Peerbolte"
+      "reason": "Historische Jezus, bronnen en feiten versus fabels, met Lietaert Peerbolte"
     },
     {
-      "n": 135,
-      "reason": "Hoe het ontstaan van het christendom de wereld veranderde"
+      "n": 184,
+      "reason": "Bijbelse thema's en Romeinse context, met Beatrice de Graaf en Stefan Paas"
     },
     {
-      "n": 22,
-      "reason": "Tom Holland over hoe het christendom het Westen vormde"
-    },
-    {
-      "n": 57,
-      "reason": "Atheïst met passie voor Jezus; Jezus in geschiedenis en politiek"
+      "n": 165,
+      "reason": "Bijbelse en theologische vraagstukken over Jezus en de betekenis van het geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

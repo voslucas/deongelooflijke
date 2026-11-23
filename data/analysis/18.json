@@ -1,200 +1,179 @@
 {
   "episode": 18,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116714,
+    "segments": 1068,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30682,
-    "output_tokens": 3221,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 2684
+    "input_tokens": 59986,
+    "output_tokens": 8470,
+    "cache_read_input_tokens": 2942,
+    "cache_creation_input_tokens": 0
   },
   "themes": [
     "Bijbel & Jezus",
     "Geschiedenis",
-    "Wetenschap & kosmos",
-    "God & geloof"
+    "God & geloof",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Bert Jan Lietaert Peerbolte"
   ],
   "people": [
     {
-      "name": "Jezus",
-      "note": "historische figuur uit Nazareth, centraal onderwerp van het gesprek",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 847,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28historisch%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg/250px-Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg"
+      "name": "Jezus van Nazareth",
+      "note": "Centrale figuur van het gesprek; historiciteit, kruisiging en leven",
+      "start_seconds": 145,
+      "mention_count": 90
     },
     {
       "name": "Paulus",
-      "note": "apostel wiens brieven de oudste getuigenissen over Jezus bevatten",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "Jacobus",
-      "note": "broer van Jezus, genoemd door Paulus; ook het vervalste knekelkistje",
-      "start_seconds": 280,
-      "wiki_checked": true
+      "note": "Apostel en briefschrijver; vroege bron over opstandingservaring en contact met Jakobus",
+      "start_seconds": 9,
+      "mention_count": 12
     },
     {
       "name": "Flavius Josephus",
-      "note": "Joods historicus uit de eerste eeuw die Jezus beschrijft",
-      "start_seconds": 412,
-      "wiki_checked": true,
-      "wiki_pageid": 53064,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Flavius_Josephus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Josephusbust.jpg/250px-Josephusbust.jpg"
+      "note": "Joods-Romeins historicus eind eerste eeuw; beschrijft Jezus",
+      "start_seconds": 407,
+      "mention_count": 8
     },
     {
       "name": "Tacitus",
-      "note": "Romeins historicus die de kruisiging onder Tiberius noemt",
+      "note": "Romeins historicus; noemt de kruisiging onder Tiberius",
       "start_seconds": 500,
-      "wiki_checked": true,
-      "wiki_pageid": 4128,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Publius_Cornelius_Tacitus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tacitus_portrait.jpg/250px-Tacitus_portrait.jpg"
+      "mention_count": 6
     },
     {
       "name": "Alexander de Grote",
-      "note": "vergelijking voor de bronnenlast over oudheidfiguren",
+      "note": "Macedonische veroveraar; vergelijkingsobject voor bronnen over historische personen",
       "start_seconds": 580,
-      "wiki_checked": true,
-      "wiki_pageid": 11302,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Marble_portrait_of_Alexander_the_Great%2C_Hellenistic_Greek%2C_2nd-1st_century_BC%2C_said_to_be_from_Alexandria%2C_Egypt%2C_British_Museum_%2813738844563%29.jpg/250px-Marble_portrait_of_Alexander_the_Great%2C_Hellenistic_Greek%2C_2nd-1st_century_BC%2C_said_to_be_from_Alexandria%2C_Egypt%2C_British_Museum_%2813738844563%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Hannibal",
-      "note": "Carthaagse veldheer, vergelijking voor schaarse bronnen",
+      "note": "Carthaagse veldheer; voorbeeld van schaarse bronnen uit de oudheid",
       "start_seconds": 646,
-      "wiki_checked": true,
-      "wiki_pageid": 1598396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hannibal_Barkas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mommsen_p265.jpg/250px-Mommsen_p265.jpg"
-    },
-    {
-      "name": "John Dickson",
-      "note": "Australische historicus die een wedstrijd uitschreef over de ontkenning van Jezus' bestaan",
-      "start_seconds": 792,
-      "wiki_checked": true
-    },
-    {
-      "name": "Nero",
-      "note": "keizer die christenen vervolgde na de brand van Rome",
-      "start_seconds": 912,
-      "wiki_checked": true,
-      "wiki_pageid": 8457,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nero_%28keizer%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Nero_Glyptothek_Munich_321.jpg/250px-Nero_Glyptothek_Munich_321.jpg"
+      "mention_count": 3
     },
     {
       "name": "Dionysius Exiguus",
-      "note": "monnik die rond 520 de christelijke jaartelling invoerde",
+      "note": "Monnik die rond 520 de christelijke jaartelling introduceerde",
       "start_seconds": 1130,
-      "wiki_checked": true,
-      "wiki_pageid": 17184,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dionysius_Exiguus"
+      "mention_count": 3
     },
     {
       "name": "Herodes de Grote",
-      "note": "koning ten tijde van Jezus' geboorte; zijn sterfjaar toont de rekenfout in de jaartelling",
+      "note": "Koning in Judea; volgens evangeliën tijdens Jezus' geboorte; stierf volgens jaartelling in 4 v.Chr.",
       "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 35716,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herodes_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/HerodtheGreat2.jpg/250px-HerodtheGreat2.jpg"
-    },
-    {
-      "name": "Diocletianus",
-      "note": "Romeins keizer en christenvervolger, naar wie de oudere jaartelling was vernoemd",
-      "start_seconds": 1149,
-      "wiki_checked": true,
-      "wiki_pageid": 51499,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diocletianus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/DiocletianusFollis-transparent.png/250px-DiocletianusFollis-transparent.png"
-    },
-    {
-      "name": "Albert Schweitzer",
-      "note": "vatte het onderzoek naar de historische Jezus samen",
-      "start_seconds": 1557,
-      "wiki_checked": true,
-      "wiki_pageid": 1568,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Schweitzer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Bundesarchiv_Bild_183-D0116-0041-019%2C_Albert_Schweitzer.jpg/250px-Bundesarchiv_Bild_183-D0116-0041-019%2C_Albert_Schweitzer.jpg"
-    },
-    {
-      "name": "Martin Hengel",
-      "note": "Duitse historicus die over de kruisiging schreef",
-      "start_seconds": 1669,
-      "wiki_checked": true,
-      "wiki_pageid": 1672413,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Hengel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Martin_Hengel.jpg/250px-Martin_Hengel.jpg"
+      "mention_count": 3
     },
     {
       "name": "Johannes de Doper",
-      "note": "doper van Jezus, volgens de bronnen een concurrent",
-      "start_seconds": 1769,
-      "wiki_checked": true,
-      "wiki_pageid": 9789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_de_Doper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/250px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg"
+      "note": "Profeet die Jezus zou hebben gedoopt",
+      "start_seconds": 1767,
+      "mention_count": 3
     },
     {
-      "name": "E.P. Sanders",
-      "note": "agnostische historicus over de Jezus-verschijningen",
-      "start_seconds": 1948,
-      "wiki_checked": true,
-      "wiki_pageid": 2699200,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/E.P._Sanders"
+      "name": "Augustus",
+      "note": "Romeinse keizer; volgens Lucas oorzaak van de volkstelling",
+      "start_seconds": 3716,
+      "mention_count": 3
+    },
+    {
+      "name": "Quirinius",
+      "note": "Romeins bestuurder; volkstelling in het kerstverhaal van Lucas",
+      "start_seconds": 3722,
+      "mention_count": 3
+    },
+    {
+      "name": "Albert Schweitzer",
+      "note": "Theoloog die het 19e-eeuwse onderzoek naar de historische Jezus samenvatte",
+      "start_seconds": 1574,
+      "mention_count": 2
+    },
+    {
+      "name": "Erasmus",
+      "note": "Humanist die in 1516 de eerste editie van het Nieuwe Testament uitgaf",
+      "start_seconds": 2420,
+      "mention_count": 3
+    },
+    {
+      "name": "Constantin von Tischendorf",
+      "note": "19e-eeuwse tekstcriticus die de Codex Sinaiticus ontdekte",
+      "start_seconds": 2793,
+      "mention_count": 4
+    },
+    {
+      "name": "Simonides",
+      "note": "Griekse vervalser die beweerde de Codex Sinaiticus geschreven te hebben",
+      "start_seconds": 2833,
+      "mention_count": 3
+    },
+    {
+      "name": "Dan Brown",
+      "note": "Auteur van De Da Vinci Code; voorbeeld van populaire alternatieve Jezusverhalen",
+      "start_seconds": 3245,
+      "mention_count": 4
     },
     {
       "name": "Tom Holland",
-      "note": "historicus en auteur van Dominion",
-      "start_seconds": 2130,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "note": "Britse classicus en historicus; schreef Dominion over de oorsprong van het christendom",
+      "start_seconds": 2124,
+      "mention_count": 2
     },
     {
-      "name": "Constantijn",
-      "note": "keizer na wie het christendom werd toegestaan en Sol Invictus gekerstend werd",
-      "start_seconds": 1229,
-      "wiki_checked": true,
-      "wiki_pageid": 319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Constantijn_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/250px-Constantine_Chiaramonti_Inv1749.jpg"
+      "name": "Martin Hengel",
+      "note": "Duitse historicus; schreef over de kruisiging in de oudheid",
+      "start_seconds": 1670,
+      "mention_count": 1
+    },
+    {
+      "name": "E.P. Sanders",
+      "note": "Agnostische historicus over de historische Jezus",
+      "start_seconds": 1943,
+      "mention_count": 2
+    },
+    {
+      "name": "John Dixon",
+      "note": "Australische classicus die een weddenschap uitdaagde over Jezus' historiciteit",
+      "start_seconds": 792,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Reformator; zou de kerstboom als christelijk symbool hebben geïntroduceerd",
+      "start_seconds": 4093,
+      "mention_count": 2
+    },
+    {
+      "name": "Otto Heldring",
+      "note": "19e-eeuwse dominee die de kerstboom in Nederland introduceerde",
+      "start_seconds": 4127,
+      "mention_count": 2
     }
   ],
   "books": [
     {
+      "title": "Dominion",
+      "author": "Tom Holland",
+      "note": "Boek over de oorsprong van het christendom; Holland ontdekte via Paulus' brieven de nabijheid van Jezus",
+      "start_seconds": 2150,
+      "volume_id": "kqWlzQEACAAJ",
+      "canonical_title": "Dominion: How the Christian Revolution Remade the World",
+      "canonical_author": "Tom Holland",
+      "isbn13": "9781541675599",
+      "isbn10": "1541675592",
+      "thumbnail": "http://books.google.com/books/content?id=kqWlzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
       "title": "Geschichte der Leben-Jesu-Forschung",
       "author": "Albert Schweitzer",
-      "note": "overzicht van onderzoek naar de historische Jezus; elk boek is een spiegel van de auteur",
-      "start_seconds": 1557,
+      "note": "Overzicht van het 19e-eeuwse onderzoek naar de historische Jezus; toonde dat auteurs vooral zichzelf weerspiegelen",
+      "start_seconds": 1574,
       "volume_id": "UNLKwAEACAAJ",
       "canonical_title": "Geschichte der Leben-Jesu-Forschung",
       "canonical_author": "Albert Schweitzer",
@@ -203,33 +182,55 @@
       "thumbnail": "http://books.google.com/books/content?id=UNLKwAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Dominion",
-      "author": "Tom Holland",
-      "note": "over de oorsprong en invloed van het christendom",
-      "start_seconds": 2130,
-      "volume_id": "0Tg0DwAAQBAJ",
-      "canonical_title": "Dominion: The Making of the Western Mind",
-      "canonical_author": "Tom Holland",
-      "isbn13": "9781408706978",
-      "isbn10": "1408706970",
-      "thumbnail": "http://books.google.com/books/content?id=0Tg0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Het evangelie van Thomas",
+      "author": "",
+      "note": "Gnostische tekst met uitspraken van Jezus; besproken om Logion 114 over Maria Magdalena",
+      "start_seconds": 3181,
+      "volume_id": "Hg0EuQAACAAJ",
+      "canonical_title": "Het Evangelie van Thomas",
+      "canonical_author": "Gilles Quispel, Cis van Heertum, Thomas (Apostolus)",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De Da Vinci Code",
+      "author": "Dan Brown",
+      "note": "Bestseller met alternatief beeld van Jezus en Maria Magdalena; als voorbeeld van onderdrukte-waarheid-verhalen",
+      "start_seconds": 3245,
+      "volume_id": "NHqDtwAACAAJ",
+      "canonical_title": "De Da Vinci code",
+      "canonical_author": "Dan Brown, Josephine Ruitenberg",
+      "isbn13": "9789046301333",
+      "isbn10": "9046301338",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "1 Korintiërs 15",
-      "note": "Paulus noemt getuigen van de opgestane Jezus, onder wie 500 mensen",
-      "start_seconds": 1922
-    },
-    {
-      "ref": "1 Tessalonicenzen",
-      "note": "oudste brief van Paulus, gedateerd rond 48",
-      "start_seconds": 1912
-    },
-    {
       "ref": "Johannes 1:46",
-      "note": "'Kan uit Nazareth iets goeds komen?'",
-      "start_seconds": 1831
+      "note": "Nazareth als geboorteplaats waar niets goeds vandaan kan komen",
+      "start_seconds": 1830
+    },
+    {
+      "ref": "Lucas 2:1-7",
+      "note": "Volkstelling door keizer Augustus en geboorte in Bethlehem",
+      "start_seconds": 3715
+    },
+    {
+      "ref": "Mattheüs 2",
+      "note": "Wijzen uit het oosten bij de geboorte van Jezus",
+      "start_seconds": 3800
+    },
+    {
+      "ref": "Lucas 1:52",
+      "note": "Lofzang van Maria over heersers die van hun troon gestoten worden",
+      "start_seconds": 3970
+    },
+    {
+      "ref": "Johannes 1:9",
+      "note": "Licht der wereld als verklaring voor de kerstboom volgens Luther",
+      "start_seconds": 4097
     }
   ],
   "places": [
@@ -237,132 +238,130 @@
     "Bethlehem",
     "Jeruzalem",
     "Rome",
-    "Israël",
-    "India",
-    "Amsterdam",
-    "Kampen"
+    "Sinaï",
+    "Nag Hammadi",
+    "Oxyrhynchus",
+    "Basel",
+    "Herculaneum",
+    "Oostenrijk"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Bert Jan Lietaert Peerbolte en Stefan Paas wat historisch te zeggen valt over Jezus. Zij betogen dat zijn bestaan en kruisiging historisch zeer zeker zijn en dat de bronnen over hem relatief rijk zijn vergeleken met andere figuren uit de oudheid. Ook bespreken ze de jaartelling, de oorsprong van kerst en de aard van oude geschiedschrijving.",
+  "summary_tldr": "Bert Jan Lietaert Peerbolte en Stefan Paas bespreken wat historisch wetenschappelijk over Jezus van Nazareth te zeggen is en concluderen dat zijn historiciteit zeer waarschijnlijk is. Ze behandelen de bronnen buiten en binnen het christendom, de betrouwbaarheid van de overgeleverde tekst en spectaculaire vondsten en complottheorieën. Het gesprek eindigt bij de vraag hoe het historische zich verhoudt tot het geloof en bij de oorsprong van kerstgebruiken.",
   "summary_points": [
-    "Het is hoogst onwaarschijnlijk dat Jezus niet bestaan heeft; geen serieuze historicus betwijfelt dit.",
-    "Spectaculaire nieuwsberichten over Jezus zijn vaak sensatie of vervalsing, zoals het knekelkistje van Jacobus.",
-    "Niet-christelijke bronnen als Josephus en Tacitus zijn beperkt en mogelijk niet onafhankelijk.",
-    "Vergeleken met Alexander de Grote en Hannibal is er over Jezus relatief veel bronnenmateriaal.",
-    "De kruisiging en de doop door Johannes de Doper worden als historisch beschouwd omdat ze schandelijk of onwelkom waren voor de eerste christenen.",
-    "Paulus' brieven liggen dicht bij Jezus' leven en getuigen van een snel opstandingsgeloof.",
-    "De jaartelling van Dionysius Exiguus bevat een rekenfout en 25 december is waarschijnlijk niet Jezus' geboortedag.",
-    "Kerst is ontstaan als kerstening van het feest van Sol Invictus.",
-    "Bijbelwetenschappers kijken kritischer naar hun bronnen dan oud-historici; geen enkele geschiedschrijving is neutraal."
+    "Historici beschouwen het bestaan van Jezus als zeer waarschijnlijk; ontkenning berust vaak op agenda's of drijfzand.",
+    "Niet-christelijke bronnen zoals Tacitus en Josephus vermelden Jezus, al zijn ze beperkt of mogelijk beïnvloed door christenen.",
+    "De kruisiging geldt als historisch vrijwel zeker, omdat christenen zo'n schandelijke dood niet zouden verzinnen.",
+    "Vergelijking met andere oudheidfiguren als Alexander de Grote en Hannibal toont dat bronnen over Jezus relatief rijk zijn.",
+    "De christelijke jaartelling bevat een rekenfout; Jezus is waarschijnlijk vóór 4 v.Chr. geboren en 25 december is traditioneel en niet historisch.",
+    "Het Nieuwe Testament is via duizenden handschriften goed overgeleverd, met vroege papyri en een gedegen tekstkritische traditie.",
+    "Spectaculaire vondsten zoals het evangelie van Jezus' vrouw blijken vaak vervalsingen; echte vondsten zoals Nag Hammadi zijn controleerbaar.",
+    "Het evangelie van Thomas kan historisch waardevol zijn, maar verboden zijn betekent niet automatisch dat een tekst de waarheid bevat.",
+    "Historisch onderzoek blijft een interpretatie; geschiedschrijving in de oudheid is meer schilderij dan foto.",
+    "Voor de gelovige sprokkelt het geloof uit getuigenissen en verhalen die historische claims doen maar niet louter historisch zijn."
   ],
   "chapters": [
     {
-      "start_seconds": 27,
-      "title": "Inleiding en de namen",
-      "summary": "David introduceert het onderwerp en de gasten en praat over hun achternamen."
+      "start_seconds": 0,
+      "title": "Introductie en Jezus als historisch persoon",
+      "summary": "Presentator David Boogerd stelt de gasten voor en introduceert de vraag naar de historische Jezus."
     },
     {
-      "start_seconds": 142,
-      "title": "Sensatienieuws en vervalsingen",
-      "summary": "Waarom er steeds opzienbarend nieuws over Jezus verschijnt, met het vervalste knekelkistje als voorbeeld."
+      "start_seconds": 145,
+      "title": "Bestaat Jezus echt?",
+      "summary": "De gasten concluderen dat historische ontkenning van Jezus weinig houdbaar is en bespreken de vervalsingen en complottheorieën."
     },
     {
-      "start_seconds": 380,
-      "title": "Bronnen over Jezus' bestaan",
-      "summary": "Josephus, Tacitus en vergelijkingen met Alexander de Grote en Hannibal laten zien dat de bronnen relatief goed zijn."
+      "start_seconds": 407,
+      "title": "Bronnen buiten en binnen het christendom",
+      "summary": "Josephus, Tacitus en vergelijkingen met Alexander en Hannibal laten zien welke bronnen er over Jezus bestaan."
     },
     {
-      "start_seconds": 712,
-      "title": "Ontkenners en complottheorieën",
-      "summary": "Het patroon van de ontkenners van Jezus' historiciteit en de rol van anti-religieuze vooroordelen."
+      "start_seconds": 1170,
+      "title": "Jaartelling, kerst en geboortedatum",
+      "summary": "De fout in de jaartelling van Dionysius Exiguus en de herkomst van 25 december worden toegelicht."
     },
     {
-      "start_seconds": 1050,
-      "title": "Jaartelling en kerst",
-      "summary": "Dionysius Exiguus, de rekenfout in de jaartelling en de heidense oorsprong van het kerstfeest."
+      "start_seconds": 1580,
+      "title": "Methode: bronnen, agenda's en reconstructie",
+      "summary": "Bijbelwetenschappers en oudhistorici benaderen bronnen verschillend; Schweitzer en het criterium van dissimilariteit komen aan bod."
     },
     {
-      "start_seconds": 1272,
-      "title": "De historische bril",
-      "summary": "Verschillen tussen bijbelwetenschappers en oud-historici, en de vraag of geschiedschrijving neutraal kan zijn."
+      "start_seconds": 2400,
+      "title": "Handschriften en tekstoverlevering",
+      "summary": "Het Nieuwe Testament is rijk overgeleverd, met de editie van Erasmus en de vroege papyri als voorbeelden."
     },
     {
-      "start_seconds": 1617,
-      "title": "Het basisstramien van Jezus' leven",
-      "summary": "Kruisiging, doop, tempelincident en het vroege opstandingsgeloof als historisch betrouwbare punten."
+      "start_seconds": 2930,
+      "title": "Vervalsingen, vondsten en het evangelie van Thomas",
+      "summary": "Codex Sinaiticus, Nag Hammadi en het Thomas-evangelie laten zien hoe vondsten en interpretatie samenkomen."
     },
     {
-      "start_seconds": 1975,
-      "title": "Paulus en de nabijheid van Jezus",
-      "summary": "Paulus' brieven en zijn visioen, en hoe dicht de bronnen bij Jezus' leven liggen."
+      "start_seconds": 3570,
+      "title": "Geloof, geschiedenis en het kerstverhaal",
+      "summary": "De gasten bespreken hoe het historische zich verhoudt tot het geloof en hoe het kerstverhaal is samengesteld."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 392,
+      "start_seconds": 719,
       "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Als er één ding is wat je niet verzint, dan is het dat je een religieuze held gaat propageren en verzint dat die gekruisigd wordt.",
-      "note": "Sterk argument voor de historiciteit van de kruisiging."
+      "text": "Het patroon is: alles wat christenen schrijven is onbetrouwbaar, de enige informatie komt van christenen, Jezus wordt als godheid gezien, dus conclusie: gelogen.",
+      "note": "Scherpe ontleding van de redeneerfout achter de ontkenning van Jezus' historiciteit."
     },
     {
-      "start_seconds": 792,
-      "speaker": "David Boogerd",
-      "text": "Dixon beloofde een bladzijde van zijn Bijbel op te eten als iemand één universitaire historicus kon noemen die Jezus' bestaan ontkent; de Bijbel is nog intact.",
-      "note": "Illustreert dat de ontkenning van Jezus' bestaan in de wetenschap niet serieus genomen wordt."
-    },
-    {
-      "start_seconds": 2183,
-      "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Via Paulus en die broer, in moderne termen, two handshakes away from Jesus.",
-      "note": "Maakt invoelbaar hoe dicht de bronnen bij Jezus liggen."
-    },
-    {
-      "start_seconds": 1217,
-      "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "De kans dat Jezus op 25 december geboren is, is een kans van 1 op 366.",
-      "note": "Humoristische relativering van de kerstdatum."
-    },
-    {
-      "start_seconds": 1465,
+      "start_seconds": 962,
       "speaker": "Stefan Paas",
-      "text": "Geschiedschrijving uit de oudheid en de Bijbel is meer een schilderij van een zonnebloem dan een foto ervan.",
-      "note": "Helder beeld van het verschil tussen impressie en feitelijke registratie."
+      "text": "Het zit heel dichtbij, wat mij betreft: er is een anti-religieuze bias, en religie is onzin, dus religieuze figuren hebben niet bestaan. Dat is historisch een denkfout.",
+      "note": "Verbindt de ontkenning van Jezus met een bredere culturele weerzin tegen religie."
+    },
+    {
+      "start_seconds": 2210,
+      "speaker": "Stefan Paas",
+      "text": "Het is een kritiek van de verschroeide aarde: dan blijft er van de oudheid echt niks over.",
+      "note": "Een scherpe ironische tegenwerping tegen extreme bronkritiek."
+    },
+    {
+      "start_seconds": 3655,
+      "speaker": "Stefan Paas",
+      "text": "Ik zie het als getuigende geschriften. Het zijn meer schilderijen dan foto's.",
+      "note": "Een treffende metafoor voor de aard van bijbelse geschiedschrijving en het geloof dat erachter zit."
     }
   ],
   "keywords": [
     "historische Jezus",
-    "kruisiging",
-    "Paulus",
-    "Flavius Josephus",
-    "Tacitus",
-    "jaartelling",
-    "kerst",
-    "Sol Invictus",
-    "opstanding",
-    "Albert Schweitzer",
     "bronnenkritiek",
+    "Josephus",
+    "Tacitus",
+    "kruisiging",
+    "jaartelling",
+    "tekstoverlevering",
+    "Codex Sinaiticus",
+    "evangelie van Thomas",
+    "Nag Hammadi",
+    "kerstverhaal",
     "complottheorie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat valt er eigenlijk historisch-wetenschappelijk te zeggen over de man wiens geboorte zo bepalend was dat wij er letterlijk onze jaartelling op baseren?",
+    "Heeft hij überhaupt wel bestaan? Is hij gekruisigd? En hoe betrouwbaar is de informatie die we over hem hebben?"
+  ],
   "similar": [
     {
       "n": 280,
-      "reason": "Betrouwbaarheid van historische bronnen over Jezus in de evangeliën; vergelijkbaar onderwerp en aanpak."
+      "reason": "Betrouwbaarheid van historische bronnen over Jezus, als detective door de evangeliën"
     },
     {
       "n": 187,
-      "reason": "Geurt Henk van Kooten over wat Jezus uniek maakt en historisch onderzoek naar hem."
-    },
-    {
-      "n": 77,
-      "reason": "Zelfde gast Bert Jan Lietaert Peerbolte, over Jezus en martelaren in de oudheid."
-    },
-    {
-      "n": 22,
-      "reason": "Tom Holland (ook in #18 genoemd) over de historische invloed van het christendom."
+      "reason": "Historische Jezus-onderzoek met Geurt Henk van Kooten, over wat Jezus uniek maakt"
     },
     {
       "n": 135,
-      "reason": "Het ontstaan van het christendom en de historische betekenis van Pasen."
+      "reason": "Historische ontstaansgeschiedenis van het christendom en de betekenis van Pasen"
+    },
+    {
+      "n": 127,
+      "reason": "Bijbel en Jezus in de Nederlandse geschiedenis en cultuur"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

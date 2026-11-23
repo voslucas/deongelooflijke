@@ -1,17 +1,22 @@
 {
   "episode": 167,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93462,
+    "segments": 984,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31146,
-    "output_tokens": 3039,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 48241,
+    "output_tokens": 10382,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
-    "Geschiedenis",
     "Kerk & secularisatie",
+    "Geschiedenis",
     "God & geloof"
   ],
   "guests": [
@@ -19,167 +24,287 @@
   ],
   "people": [
     {
-      "name": "Rob Wijnberg",
-      "note": "filosoof en oprichter van De Correspondent; zijn uitspraak was de aanleiding voor de aflevering",
-      "start_seconds": 45,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thomas Huxley",
-      "note": "evangelist van Darwin, bron van de 'oorlogsformulering'",
-      "start_seconds": 194,
-      "wiki_checked": true
-    },
-    {
       "name": "Charles Darwin",
-      "note": "bioloog, evolutietheorie",
+      "note": "Bioloog, evolutietheorie; centrale figuur in het debat over geloof en wetenschap",
       "start_seconds": 194,
-      "wiki_checked": true
-    },
-    {
-      "name": "Andrew Dickson White",
-      "note": "president van Cornell University, auteur van History of the Warfare Between Science and Theology in Christendom",
-      "start_seconds": 203,
-      "wiki_checked": true
-    },
-    {
-      "name": "Reijer Hooykaas",
-      "note": "leermeester van Cohen, eerste hoogleraar geschiedenis van de natuurwetenschap in Nederland; ontkrachtte een vals Calvijn-citaat",
-      "start_seconds": 277,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "hervormer, aan wie ten onrechte een anti-Copernicus-citaat werd toegeschreven",
-      "start_seconds": 290,
-      "wiki_checked": true
-    },
-    {
-      "name": "Richard Dawkins",
-      "note": "nieuw-atheïst die Newtons geloof wegwuifde",
-      "start_seconds": 303,
-      "wiki_checked": true
-    },
-    {
-      "name": "Isaac Newton",
-      "note": "wetenschapper en ketters christen die de drie-eenheid verwierp",
-      "start_seconds": 548,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Kepler",
-      "note": "astronoom, ellipsbanen, zeer gelovig",
-      "start_seconds": 965,
-      "wiki_checked": true
+      "mention_count": 20
     },
     {
       "name": "Galileo Galilei",
-      "note": "astronoom en wiskundige, veroordeeld door de Inquisitie in 1633",
+      "note": "Italiaans wetenschapper; veroordeeld door de Inquisitie om zijn heliocentrische standpunt",
+      "start_seconds": 961,
+      "mention_count": 40
+    },
+    {
+      "name": "Nicolaas Copernicus",
+      "note": "Astronoom die het heliocentrische wereldbeeld uitwerkte",
+      "start_seconds": 977,
+      "mention_count": 15
+    },
+    {
+      "name": "Johannes Kepler",
+      "note": "Astronoom die de ellipsbanen van planeten formuleerde",
       "start_seconds": 965,
-      "wiki_checked": true
+      "mention_count": 8
     },
     {
-      "name": "Nicolaus Copernicus",
-      "note": "stelde de zon centraal in zijn boek uit 1543",
-      "start_seconds": 1209,
-      "wiki_checked": true
+      "name": "Isaac Newton",
+      "note": "Natuurwetenschapper die volgens Cohen een ketters maar overtuigd christen was",
+      "start_seconds": 548,
+      "mention_count": 5
     },
     {
-      "name": "Claudius Ptolemaeus",
-      "note": "Grieks-Romeinse astronoom met geocentrisch model",
-      "start_seconds": 1220,
-      "wiki_checked": true
+      "name": "Richard Dawkins",
+      "note": "Nieuwe atheïst; volgens Cohen kritisch over gelovige wetenschappers",
+      "start_seconds": 485,
+      "mention_count": 6
     },
     {
-      "name": "Roberto Bellarmino",
-      "note": "kardinaal en theoloog die om bewijs vroeg",
-      "start_seconds": 1585,
-      "wiki_checked": true
-    },
-    {
-      "name": "Paulus V",
-      "note": "paus die in 1616 een commissie instelde",
-      "start_seconds": 1695,
-      "wiki_checked": true
-    },
-    {
-      "name": "Urbanus VIII",
-      "note": "paus en bewonderaar van Galilei, gekozen in 1623",
-      "start_seconds": 1763,
-      "wiki_checked": true
+      "name": "Albert Einstein",
+      "note": "Natuurkundige; sprak over 'kosmische religie'",
+      "start_seconds": 3240,
+      "mention_count": 6
     },
     {
       "name": "Giordano Bruno",
-      "note": "in 1600 verbrand wegens ketterij",
-      "start_seconds": 2180,
-      "wiki_checked": true
+      "note": "Filosoof die in 1600 op de brandstapel eindigde wegens ketterij",
+      "start_seconds": 2171,
+      "mention_count": 5
     },
     {
-      "name": "Nicolaas van Cusa",
-      "note": "kardinaal die een oneindig heelal verdedigde",
-      "start_seconds": 2241,
-      "wiki_checked": true
+      "name": "Robert Bellarmino",
+      "note": "Kardinaal en theoloog die om bewijs vroeg voor het heliocentrisme",
+      "start_seconds": 1585,
+      "mention_count": 3
     },
     {
-      "name": "Antoine Lavoisier",
-      "note": "vader van de moderne scheikunde, onder de guillotine",
-      "start_seconds": 2371,
-      "wiki_checked": true
+      "name": "Paulus V",
+      "note": "Paus die Galilei's zaak behandelde",
+      "start_seconds": 1684,
+      "mention_count": 3
+    },
+    {
+      "name": "Urbanus VIII",
+      "note": "Paus, bewonderaar van Galilei, gekozen in 1623",
+      "start_seconds": 1787,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator die volgens White zou hebben gesproken tegen Copernicus",
+      "start_seconds": 289,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Huxley",
+      "note": "Darwinist die de oorlogsmetafoor populair maakte",
+      "start_seconds": 194,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Dickson White",
+      "note": "Auteur van 'History of the Warfare Between Science and Theology'",
+      "start_seconds": 208,
+      "mention_count": 1
+    },
+    {
+      "name": "Reijer Hooijkaas",
+      "note": "Eerste hoogleraar geschiedenis van de natuurwetenschap in Nederland; Cohens leermeester",
+      "start_seconds": 270,
+      "mention_count": 4
+    },
+    {
+      "name": "Rob Wijnberg",
+      "note": "Filosoof en oprichter van De Correspondent; aanleiding van de aflevering",
+      "start_seconds": 45,
+      "mention_count": 5
+    },
+    {
+      "name": "Ptolemaeus",
+      "note": "Grieks-Romeins astronoom met geocentrisch model",
+      "start_seconds": 1240,
+      "mention_count": 4
+    },
+    {
+      "name": "Pierre Lemaître",
+      "note": "Belgische priester en grondlegger van de oerknaltheorie",
+      "start_seconds": 2654,
+      "mention_count": 2
+    },
+    {
+      "name": "Pius XII",
+      "note": "Paus die de oerknal als bewijs voor Genesis zou hebben gezien",
+      "start_seconds": 2679,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Harrison",
+      "note": "Wetenschapshistoricus; theologische verklaring voor experimentele wetenschap",
+      "start_seconds": 2762,
+      "mention_count": 2
+    },
+    {
+      "name": "Francis Bacon",
+      "note": "Filosoof die experimenten zag als middel tegen de gevolgen van de zondeval",
+      "start_seconds": 977,
+      "mention_count": 2
     },
     {
       "name": "Rens Bot",
-      "note": "auteur van Een wereld vol patronen",
-      "start_seconds": 1017,
-      "wiki_checked": true
+      "note": "Wetenschapshistoricus, auteur van 'Een wereld vol patronen'",
+      "start_seconds": 1020,
+      "mention_count": 2
     },
     {
-      "name": "Job Cohen",
-      "note": "broer van Floris Cohen",
-      "start_seconds": 804,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "Kerkvader; vaak verkeerd geciteerd",
+      "start_seconds": 3376,
+      "mention_count": 2
+    },
+    {
+      "name": "Antoine Lavoisier",
+      "note": "Vader van de moderne scheikunde; geëxecuteerd tijdens de Franse Revolutie",
+      "start_seconds": 2363,
+      "mention_count": 1
+    },
+    {
+      "name": "Stalin",
+      "note": "Bevorderde pseudowetenschappelijke landbouwtheorieën met dodelijke gevolgen",
+      "start_seconds": 2389,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernst Haeckel",
+      "note": "Duitse bioloog die eugenetica positief beschreef",
+      "start_seconds": 3069,
+      "mention_count": 1
+    },
+    {
+      "name": "William Jennings Bryan",
+      "note": "Amerikaans politicus die de evolutieleer wilde verbieden in de Scopes-zaak",
+      "start_seconds": 3069,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Carnegie",
+      "note": "Industrieel die survival of the fittest-denken volgens Paas aanhing",
+      "start_seconds": 3069,
+      "mention_count": 1
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Filosoof die volgens Cohen de grenzen van wetenschap helder uitlegde",
+      "start_seconds": 3161,
+      "mention_count": 2
+    },
+    {
+      "name": "Isaac Ray",
+      "note": "Amerikaanse botanicus en gelovig Calvinist die Darwin waardeerde",
+      "start_seconds": 3022,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicolaas van Cusa",
+      "note": "Kardinaal die de oneindigheid van het heelal verdedigde",
+      "start_seconds": 2241,
+      "mention_count": 1
+    },
+    {
+      "name": "Christoph Clavius",
+      "note": "Jezuïet en astronoom aan het Vaticaan",
+      "start_seconds": 2046,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Filosoof wiens idee van een noodzakelijk bestaande wereld werd bekritiseerd",
+      "start_seconds": 2560,
+      "mention_count": 1
+    },
+    {
+      "name": "Christopher Columbus",
+      "note": "Ontdekkingsreiziger, voorbeeld van een hardnekkige schoolmythe",
+      "start_seconds": 3677,
+      "mention_count": 2
     },
     {
       "name": "Claudio Monteverdi",
-      "note": "componist van de Maria Vespers",
+      "note": "Componist van de Maria Vespers; Cohen wordt er emotioneel van",
       "start_seconds": 764,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Johann Sebastian Bach",
-      "note": "componist, Toccata en Fuga in F",
+      "note": "Componist; Toccata en Fuga in F groot die Cohen op het orgel speelde",
       "start_seconds": 848,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Job Cohen",
+      "note": "Broer van Floris Cohen",
+      "start_seconds": 807,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus, door Paas vergeleken met Giordano Bruno",
+      "start_seconds": 2207,
+      "mention_count": 2
+    },
+    {
+      "name": "Christiaan Huygens",
+      "note": "Wetenschapper die in de jaren 30 de oorlogsmythe bestreed",
+      "start_seconds": 3664,
+      "mention_count": 1
+    },
+    {
+      "name": "Sepp Falk",
+      "note": "Auteur van 'De Verlichte Middeleeuwen'",
+      "start_seconds": 2491,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Het knagende weten",
-      "author": "Floris Cohen",
-      "note": "over wetenschap en religie",
-      "start_seconds": 81,
-      "volume_id": "HzD5DQAAQBAJ",
-      "canonical_title": "Het knagende weten",
-      "canonical_author": "Floris Cohen",
-      "isbn13": "9789035144323",
-      "isbn10": "9035144325",
-      "thumbnail": "http://books.google.com/books/content?id=HzD5DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "History of the Warfare Between Science and Theology in Christendom",
       "author": "Andrew Dickson White",
-      "note": "bron van de oorlogsmythe",
-      "start_seconds": 203,
-      "volume_id": "lQ7bbBloPcYC",
-      "canonical_title": "History of the Warfare of Science with Theology in Christendom",
+      "note": "Bron van de populaire oorlogsmythe tussen wetenschap en religie",
+      "start_seconds": 208,
+      "volume_id": "_lQzygEACAAJ",
+      "canonical_title": "A History of the Warfare of Science with Theology in Christendom. Volume 1",
       "canonical_author": "Andrew Dickson White",
-      "isbn13": "9781465581617",
-      "isbn10": "1465581618",
-      "thumbnail": "http://books.google.com/books/content?id=lQ7bbBloPcYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781697488753",
+      "isbn10": "1697488757",
+      "thumbnail": "http://books.google.com/books/content?id=_lQzygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Het Knagende Weten",
+      "author": "Floris Cohen",
+      "note": "Boek van Cohen (2016) over het spanningsveld tussen wetenschap en religie",
+      "start_seconds": 675,
+      "volume_id": "cPerjgEACAAJ",
+      "canonical_title": "Het knagende weten",
+      "canonical_author": "Floris Cohen",
+      "isbn13": "9789035143364",
+      "isbn10": "9035143361",
+      "thumbnail": ""
+    },
+    {
+      "title": "Een wereld vol patronen",
+      "author": "Rens Bot",
+      "note": "Betoogt dat wetenschappelijk denken voortkomt uit tekststudie",
+      "start_seconds": 1020,
+      "volume_id": "K7WODwAAQBAJ",
+      "canonical_title": "Een wereld vol patronen: De geschiedenis van kennis",
+      "canonical_author": "Rens Bod",
+      "isbn13": "9789035145252",
+      "isbn10": "9035145259",
+      "thumbnail": "http://books.google.com/books/content?id=K7WODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "De Sterrenbode",
       "author": "Galileo Galilei",
-      "note": "boekje over telescoopwaarnemingen",
+      "note": "Boek over telescopische waarnemingen waarmee Galilei aan het hof aanzien kreeg",
       "start_seconds": 1350,
       "volume_id": "18kNHQAACAAJ",
       "canonical_title": "De sterrenbode van Galileo Galileï",
@@ -189,155 +314,168 @@
       "thumbnail": ""
     },
     {
-      "title": "Dialoog over de twee grote wereldsystemen",
+      "title": "Dialogo sopra i due massimi sistemi del mondo",
       "author": "Galileo Galilei",
-      "note": "partijdige dialoog met Simplicio",
-      "start_seconds": 1840,
-      "volume_id": "u2-FMAEACAAJ",
-      "canonical_title": "Dialoog over de twee voornaamste wereldsystemen",
+      "note": "Dialoog over de twee wereldsystemen; het lievelingsargument van de paus wordt belachelijk gemaakt",
+      "start_seconds": 1831,
+      "volume_id": "2YfHsgEACAAJ",
+      "canonical_title": "Dialogo Sopra I Due Massimi Sistemi Del Mondo Tolemaico e Copernicano",
       "canonical_author": "Galileo Galilei",
-      "isbn13": "9789025369989",
-      "isbn10": "9025369987",
-      "thumbnail": ""
+      "isbn13": "9781512384987",
+      "isbn10": "1512384984",
+      "thumbnail": "http://books.google.com/books/content?id=2YfHsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Een wereld vol patronen",
-      "author": "Rens Bot",
-      "note": "over wat wetenschap is",
-      "start_seconds": 1017,
-      "volume_id": "K7WODwAAQBAJ",
-      "canonical_title": "Een wereld vol patronen: De geschiedenis van kennis",
-      "canonical_author": "Rens Bod",
-      "isbn13": "9789035145252",
-      "isbn10": "9035145259",
-      "thumbnail": "http://books.google.com/books/content?id=K7WODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "De Verlichte Middeleeuwen",
+      "author": "Sepp Falk",
+      "note": "Boek over middeleeuwse wetenschap en astronomie",
+      "start_seconds": 2491
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Utrecht",
-    "Amsterdam",
-    "Cornell University",
-    "Westminster Abbey",
-    "Leiden",
-    "Padua",
-    "Toscane",
-    "Florence",
-    "Rome",
-    "Middelburg",
-    "Vaticaan"
+  "bible_refs": [
+    {
+      "ref": "Genesis 1",
+      "note": "Schepping; het idee dat de wereld een begin heeft, en de claim van paus Pius XII over de oerknal",
+      "start_seconds": 2617
+    }
   ],
-  "summary_tldr": "Wetenschapshistoricus Floris Cohen ontkracht de mythe van een permanente oorlog tussen wetenschap en geloof, die teruggaat op negentiende-eeuwse polemiek. De zaak-Galilei blijkt een complex conflict van persoonlijkheden, politiek en onvoldoende bewijs, en ook Giordano Bruno ligt genuanceerder.",
+  "places": [
+    "Padua",
+    "Firenze",
+    "Rome",
+    "Leiden",
+    "Middelburg",
+    "Toscane",
+    "Oxford",
+    "Cambridge",
+    "Bologna",
+    "Parijs",
+    "Namibië",
+    "Westminster Abbey",
+    "Utrecht"
+  ],
+  "summary_tldr": "Floris Cohen, wetenschapshistoricus, weerlegt de populaire mythe dat wetenschap en christendom in een permanente oorlog verkeren en dat het christendom wetenschap eeuwenlang verbood. Aan de hand van Galilei, Darwin en Einstein laat hij zien dat de geschiedenis complexer is, met veel gelovige wetenschappers en vaak politieke of sociale motieven achter conflicten. De oorlogsmetafoor blijkt grotendeels een 19e-eeuwse constructie.",
   "summary_points": [
-    "De 'oorlog tussen wetenschap en geloof' gaat terug op Huxley en A.D. White en barst van de historische onzin.",
-    "Een vals Calvijn-citaat toont hoe mythes ontstaan; Hooykaas ontdekte dit via de voetnoot.",
-    "Vrijwel alle grote wetenschappers van de 17e eeuw waren gelovig, zoals Kepler, Newton en Galilei.",
-    "Dawkins wuift gelovige wetenschappers weg, wat een zichzelf bevestigende redenering is.",
-    "Galilei miste diplomatie en had geen sluitend bewijs; de eb-en-vloedargumentatie klopte niet.",
-    "Kardinaal Bellarmino vroeg redelijkerwijs om bewijs, en de kerk handelde overhaast in 1616.",
-    "Galilei beledigde de paus met Simplicio in zijn Dialoog en kreeg huisarrest, geen brandstapel.",
-    "Bruno werd waarschijnlijk veroordeeld om theologische ketterij, niet om zijn kosmologie.",
-    "Ook seculiere regimes (Lavoisier, Stalin) tonen dat het conflict niet simpel aan religie te koppelen is."
+    "De 'oorlog' tussen wetenschap en geloof is een mythe, grotendeels ontstaan in de 19e eeuw met Andrew Dickson White's boek uit 1896.",
+    "Vrijwel alle natuurwetenschappers in de 17e en een deel van de 18e eeuw waren zelf gelovig, zoals Kepler, Newton en Galilei.",
+    "De zaak Galilei was een gelaagd conflict: Galilei was niet diplomatiek, de Kerk reageerde overhaast, en de bewijslast was onduidelijk.",
+    "Giordano Bruno werd veroordeeld om vooral theologische ketterij; zijn wetenschappelijke opvattingen speelden een kleinere rol.",
+    "Darwins evolutietheorie werd door de receptie in politiek en sociaal debat (survival of the fittest, eugenetica) veel meer belast dan door Darwin zelf.",
+    "Einstein sprak over een 'kosmische religie' en de uitspraak 'wetenschap zonder religie is lam'; veel citaten van hem zijn echter verzonnen.",
+    "Theologische ideeën, zoals de zondeval volgens Peter Harrison, kunnen wetenschappelijke methoden hebben gestimuleerd.",
+    "De relatie tussen kerk en wetenschap was ook constructief: kerken en kloosters financierden astronomie en stichtten universiteiten.",
+    "Dat Joodse wetenschappers oververtegenwoordigd zijn in de Nobelprijzen wordt toegeschreven aan een lange traditie van tekststudie en intellectuele activiteit.",
+    "Secularisatie helpt volgens Stefan Paas om de 19e-eeuwse mythes te bezweren, omdat er minder behoefte is het kerkelijk gezag te bestrijden."
   ],
   "chapters": [
     {
-      "start_seconds": 45,
-      "title": "Inleiding en aanleiding",
-      "summary": "De uitspraak van Rob Wijnberg leidt tot de vraag of wetenschap en geloof vijanden zijn."
+      "start_seconds": 0,
+      "title": "Inleiding en de mythe van de oorlog",
+      "summary": "Cohen bekritiseert de vraagstelling en laat zien hoe Andrew Dickson White's boek de mythe van een oorlog tussen wetenschap en geloof populair maakte."
     },
     {
-      "start_seconds": 164,
-      "title": "Herkomst van de oorlogsmythe",
-      "summary": "Huxley, White en het vervalste Calvijn-citaat dat Hooykaas ontmaskerde."
+      "start_seconds": 548,
+      "title": "Newton, Dawkins en gelovige wetenschappers",
+      "summary": "Het gesprek gaat over gelovige natuurwetenschappers uit het verleden en de selectieve argumentatie van nieuwe atheïsten als Dawkins."
     },
     {
-      "start_seconds": 480,
-      "title": "Dawkins, Newton en levensbeschouwing",
-      "summary": "Hoe nieuw-atheïsten gelovige wetenschappers wegredeneren; Cohens eigen positie en liefde voor muziek."
+      "start_seconds": 1000,
+      "title": "Galilei en het conflict met het Vaticaan",
+      "summary": "Uitleg van het heliocentrische model, de rol van Copernicus en Kepler, en hoe Galilei in conflict kwam met de Kerk."
     },
     {
-      "start_seconds": 900,
-      "title": "Onzin van 'het christendom verbood wetenschap'",
-      "summary": "Cohen wijst op de gelovigheid van vrijwel alle vroege wetenschappers."
+      "start_seconds": 1963,
+      "title": "Veroordeling en nuancering",
+      "summary": "Galilei's veroordeling, huisarrest en de vraag wie er verkeerd handelde; beide partijen maakten fouten."
     },
     {
-      "start_seconds": 1160,
-      "title": "De zaak Galilei",
-      "summary": "Van Copernicus en Kepler naar Galilei's conflict met Bellarmino, de pausen en de Inquisitie."
+      "start_seconds": 2171,
+      "title": "Bruno, Lavoisier en de middeleeuwen",
+      "summary": "Vergelijking met Giordano Bruno, de Franse Revolutie en de rol van de middeleeuwse kerk in het ontstaan van universiteiten."
     },
     {
-      "start_seconds": 2160,
-      "title": "Giordano Bruno en nuancering",
-      "summary": "Paas bespreekt Bruno's ketterij; vergelijkingen met Lavoisier en Stalin."
+      "start_seconds": 2600,
+      "title": "Wetenschappelijke revolutie en theologie",
+      "summary": "De theologische wortels van experimenteel onderzoek, de oerknal en het idee van een begin van het heelal."
+    },
+    {
+      "start_seconds": 3000,
+      "title": "Darwin en de receptie van de evolutietheorie",
+      "summary": "Darwins persoonlijke worstelingen en de politieke en sociale misbruiken van zijn theorie, zoals eugenetica."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "Einstein, Joodse wetenschap en de mythe ontkracht",
+      "summary": "Einstein's kosmische religie, verzonnen citaten, de Joodse traditie van tekststudie en de vraag of de mythe ooit verdwijnt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 19,
-      "speaker": "Floris Cohen",
-      "text": "Mensen leggen mij de zaak Galilei uit; ik blijf maar vriendelijk glimlachen en het uitzitten.",
-      "note": "Humoristische opening over 'mansplaining'."
-    },
-    {
       "start_seconds": 940,
       "speaker": "Floris Cohen",
       "text": "Onzin.",
-      "note": "Korte reactie op de stelling dat het christendom wetenschap verbood."
+      "note": "Cohen wijst de stelling dat het christendom wetenschap eeuwenlang verbood direct en stellig af."
     },
     {
-      "start_seconds": 556,
+      "start_seconds": 533,
       "speaker": "Floris Cohen",
       "text": "Newton indeed claimed to be religious.",
-      "note": "Illustreert hoe Dawkins gelovige wetenschappers wegredeneert."
+      "note": "Een korte zin die laat zien hoe Dawkins' beeld van de geschiedenis gecorrigeerd moet worden."
     },
     {
-      "start_seconds": 1650,
-      "speaker": "Floris Cohen",
-      "text": "Galilei was de ideale talkshowgast, maar bewijzen had hij niet.",
-      "note": "Scherp portret van Galilei."
-    },
-    {
-      "start_seconds": 2200,
+      "start_seconds": 2645,
       "speaker": "Stefan Paas",
-      "text": "Bruno was de Thierry Baudet van zijn tijd; hij had een talent voor ruzie.",
-      "note": "Pakkende vergelijking."
+      "text": "Er is nooit één verhaal te vertellen.",
+      "note": "Paas waarschuwt zowel voor het polemische verhaal als voor een harmonieuze apologetiek."
+    },
+    {
+      "start_seconds": 3366,
+      "speaker": "Floris Cohen",
+      "text": "Het merendeel van wat rondgaat als citaten van Einstein heeft iemand zelf verzonnen.",
+      "note": "Een ironisch inzicht in hoe mythes over wetenschappers blijven bestaan online."
     }
   ],
   "keywords": [
+    "wetenschapsgeschiedenis",
     "Galilei",
-    "wetenschap en religie",
-    "Copernicus",
-    "Kepler",
+    "heliocentrisme",
     "Inquisitie",
-    "Giordano Bruno",
-    "Newton",
-    "Dawkins",
     "oorlogsmythe",
-    "Reformatie",
-    "Floris Cohen",
-    "heliocentrisme"
+    "evolutietheorie",
+    "Darwin",
+    "Einstein",
+    "secularisatie",
+    "Copernicus",
+    "theologie en wetenschap",
+    "Joodse intellectuele traditie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Galileo kwam als wetenschapper hard in aanraking met het Vaticaan en de Inquisitie, mede omdat hij stelde dat de aarde om de zon draait in plaats van andersom.",
+    "Is dit voorbeeld niet al genoeg om de clash tussen religie en wetenschap te onderstrepen?",
+    "Het gesprek daarover ging viral en riep veel vragen op."
+  ],
   "similar": [
     {
       "n": 150,
-      "reason": "Rosanne Hertzberger over het einde van de gedachte dat wetenschap God dood verklaarde"
+      "reason": "Gaat over wetenschap en geloof, en de vraag of wetenschap God heeft weerlegd."
     },
     {
       "n": 233,
-      "reason": "Geloof en wetenschap, met natuurkundige Carlo Beenakker over kwantumcomputers"
+      "reason": "Behandelt geloof en wetenschap samen, met thema's kerk en secularisatie."
+    },
+    {
+      "n": 195,
+      "reason": "Christelijke wetenschapper over wetenschap en het mysterie van het ontstaan van leven."
     },
     {
       "n": 157,
-      "reason": "Oxford-natuurkundige Ard Louis over wetenschap, schoonheid en God"
+      "reason": "Oxford-natuurkundige over wetenschap, schoonheid en mogelijk God; vergelijkbaar met de wetenschapsthematiek."
     },
     {
-      "n": 322,
-      "reason": "Topwetenschapper Heino Falcke over God, kosmos en wetenschap"
-    },
-    {
-      "n": 238,
-      "reason": "Thomas van Aquino over God, het universum en wetenschappelijk denken"
+      "n": 316,
+      "reason": "Topwetenschappers die vanuit wetenschap geloven in God; sluit aan bij wetenschap en geloof."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

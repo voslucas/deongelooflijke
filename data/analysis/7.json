@@ -1,328 +1,393 @@
 {
   "episode": 7,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 77578,
+    "segments": 604,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30282,
-    "output_tokens": 2431,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 39296,
+    "output_tokens": 8666,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Kerk & secularisatie",
-    "Geschiedenis",
-    "Samenleving & migratie",
-    "Politiek"
+    "Politiek",
+    "Geschiedenis"
   ],
   "guests": [
     "Yvonne Zonderop"
   ],
   "people": [
     {
-      "name": "Yvonne Zonderop",
-      "note": "journalist en auteur van 'Ongelooflijk'",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 4752120,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yvonne_Zonderop",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nederlandse_Unesco-dag_%2852134796295%29_%28cropped%29.jpg/250px-Nederlandse_Unesco-dag_%2852134796295%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Leonardo da Vinci",
-      "note": "schilder van de Annunciatie in Florence",
-      "start_seconds": 219,
-      "wiki_checked": true,
-      "wiki_pageid": 10234,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leonardo_da_Vinci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/250px-Francesco_Melzi_-_Portrait_of_Leonardo.png"
-    },
-    {
-      "name": "El Greco",
-      "note": "schilder van de ontkleding van Jezus",
-      "start_seconds": 227,
-      "wiki_checked": true,
-      "wiki_pageid": 68246,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/El_Greco",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/El_Greco_-_Portrait_of_a_Man_-_WGA10554.jpg/250px-El_Greco_-_Portrait_of_a_Man_-_WGA10554.jpg"
-    },
-    {
-      "name": "Ruben van Zwieten",
-      "note": "dominee van Nieuwe Poort",
-      "start_seconds": 319,
-      "wiki_checked": true,
-      "wiki_pageid": 4577163,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruben_van_Zwieten"
-    },
-    {
-      "name": "David Brooks",
-      "note": "columnist van de New York Times, auteur van The Second Mountain",
-      "start_seconds": 472,
-      "wiki_checked": true
+      "name": "Geert Wilders",
+      "note": "PVV-politicus, over zijn gebruik van joods-christelijke waarden",
+      "start_seconds": 767,
+      "mention_count": 7
     },
     {
       "name": "Thierry Baudet",
-      "note": "politicus, claimt het cultuurchristendom",
-      "start_seconds": 638,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Politicus (Forum voor Democratie), volgens Zonderop geen alleenrecht op cultuurchristendom",
+      "start_seconds": 621,
+      "mention_count": 8
     },
     {
-      "name": "Geert Wilders",
-      "note": "politicus, gebruikt joods-christelijke waarden vooral tegen de islam",
-      "start_seconds": 772,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Jordan Peterson",
-      "note": "Canadese psycholoog, rechtse goeroe",
-      "start_seconds": 877,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
+      "name": "David Brooks",
+      "note": "Columnist New York Times, auteur van The Second Mountain",
+      "start_seconds": 465,
+      "mention_count": 4
     },
     {
       "name": "Kees van der Staaij",
-      "note": "SGP-leider die Wilders om een definitie vroeg",
-      "start_seconds": 1017,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "note": "SGP-politicus die Wilders naar joods-christelijke waarden vroeg",
+      "start_seconds": 1177,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruben van Zwieten",
+      "note": "Dominee met wie Zonderop in Nieuwe Poort samenwerkte",
+      "start_seconds": 319,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "Journalist die de stap naar de kerk zette, correspondentie met Zonderop",
+      "start_seconds": 357,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "note": "Kunstenaar; zijn Annunciatie in Florence raakte Zonderop",
+      "start_seconds": 199,
+      "mention_count": 1
+    },
+    {
+      "name": "El Greco",
+      "note": "Schilder van de Ontkleding van Jezus, gezien in Boedapest",
+      "start_seconds": 219,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Premier, aangehaald als tekenend voor de liberale generatie",
+      "start_seconds": 845,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeroen Pauw",
+      "note": "Televisiepresentator, als tekenend voor de generatie na de verzuiling",
+      "start_seconds": 858,
+      "mention_count": 2
+    },
+    {
+      "name": "Matthijs van Nieuwkerk",
+      "note": "Televisiepresentator, genoemd in verband met debat over geloof",
+      "start_seconds": 2902,
+      "mention_count": 2
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Canadese psycholoog en 'rechtse goeroe'",
+      "start_seconds": 877,
+      "mention_count": 1
     },
     {
       "name": "Pim Fortuyn",
-      "note": "politicus rond de tijd van 9/11",
+      "note": "Politicus die de 'puinhopen van Paars' aankaartte",
       "start_seconds": 1415,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "mention_count": 2
     },
     {
       "name": "Joop den Uyl",
-      "note": "PvdA-leider die dichtbundels las",
-      "start_seconds": 1490,
-      "wiki_checked": true,
-      "wiki_pageid": 831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Joop_den_Uyl_1975.jpg/250px-Joop_den_Uyl_1975.jpg"
+      "note": "PvdA-premier, las dichtbundels",
+      "start_seconds": 1454,
+      "mention_count": 1
     },
     {
-      "name": "John Gray",
-      "note": "atheïstisch filosoof, critici van moderne politieke programma's",
-      "start_seconds": 1830,
-      "wiki_checked": true,
-      "wiki_pageid": 1277325,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Gray_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Brainwash_Festival_2015_-_John_Gray_%283%29.jpg/250px-Brainwash_Festival_2015_-_John_Gray_%283%29.jpg"
-    },
-    {
-      "name": "Larry Siedentop",
-      "note": "schrijver over individualisering als christelijke vrucht",
-      "start_seconds": 2040,
-      "wiki_checked": true,
-      "wiki_pageid": 2157259,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Larry_Siedentop",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Larry_Siedentop_IEIS_Conference_Arno_J_Mayer-003.jpg/250px-Larry_Siedentop_IEIS_Conference_Arno_J_Mayer-003.jpg"
+      "name": "Josse de Voogt",
+      "note": "Sociaal geograaf die Zonderop wees op Wilders' succes in katholieke gebieden",
+      "start_seconds": 1339,
+      "mention_count": 1
     },
     {
       "name": "Maarten Boudry",
-      "note": "Vlaamse filosoof",
+      "note": "Vlaamse filosoof, schreef in NSC over de verlichting",
       "start_seconds": 2080,
-      "wiki_checked": true,
-      "wiki_pageid": 2764322,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Boudry",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Maarten_Boudry.jpg/250px-Maarten_Boudry.jpg"
+      "mention_count": 1
     },
     {
       "name": "Erasmus",
-      "note": "vertaalde de Bijbel",
-      "start_seconds": 2095,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
+      "note": "Humanist die de Bijbel vertaalde",
+      "start_seconds": 2101,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Hervormer, genoemd in verband met de Reformatie",
+      "start_seconds": 2101,
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof die godsbewijzen schreef",
+      "start_seconds": 2135,
+      "mention_count": 1
+    },
+    {
+      "name": "Baruch Spinoza",
+      "note": "Verlichtingsdenker met een godsbeleving",
+      "start_seconds": 2146,
+      "mention_count": 1
+    },
+    {
+      "name": "Voltaire",
+      "note": "Verlichtingsfilosoof, genoemd als niet-atheïst",
+      "start_seconds": 2146,
+      "mention_count": 1
+    },
+    {
+      "name": "Pierre Bayle",
+      "note": "Verlichtingsdenker die in Rotterdam uitweek",
+      "start_seconds": 2135,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Filosoof die slaven als huisraad zag",
+      "start_seconds": 1727,
+      "mention_count": 1
+    },
+    {
+      "name": "John Gray",
+      "note": "Atheïstisch filosoof, kritiek op moderne politiek zonder toekomstverwachting",
+      "start_seconds": 1829,
+      "mention_count": 1
+    },
+    {
+      "name": "Fokke Opma",
+      "note": "Journalist wiens serie in de Volkskrant veel gelezen werd",
+      "start_seconds": 2609,
+      "mention_count": 2
+    },
+    {
+      "name": "Pieter Heerma",
+      "note": "CDA-politicus, zei dat C vooral conservatief betekent",
+      "start_seconds": 2422,
+      "mention_count": 1
     },
     {
       "name": "Rory Stewart",
-      "note": "Britse politicus, kandidaat-opvolger Boris Johnson",
-      "start_seconds": 2447,
-      "wiki_checked": true,
-      "wiki_pageid": 1619132,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rory_Stewart",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Rory_Stewart_2023_%28cropped%29.jpg/250px-Rory_Stewart_2023_%28cropped%29.jpg"
+      "note": "Brits politicus die een denktank over Brexit wilde",
+      "start_seconds": 2473,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historica die openlijk over haar christelijk geloof sprak",
+      "start_seconds": 2882,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten van der Graaf",
+      "note": "Schrijver die christelijk-literair werk maakt",
+      "start_seconds": 2980,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten 't Hart",
+      "note": "Schrijver en voormalig kerkverlater",
+      "start_seconds": 2965,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Siebelink",
+      "note": "Schrijver met een streng gereformeerde achtergrond",
+      "start_seconds": 2969,
+      "mention_count": 1
+    },
+    {
+      "name": "Frank Catrieur",
+      "note": "Schrijver met kerkelijke achtergrond",
+      "start_seconds": 2965,
+      "mention_count": 1
+    },
+    {
+      "name": "Willemijn Ottens",
+      "note": "Schrijver die christelijk-literair werk maakt",
+      "start_seconds": 2969,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Ongelofelijk",
+      "author": "Yvonne Zonderop",
+      "note": "Boek waarin Zonderop pleit voor herwaardering van het christendom",
+      "start_seconds": 0,
+      "volume_id": "ZAVJvwEACAAJ",
+      "canonical_title": "Ongelofelijk: over de verrassende comeback van religie",
+      "canonical_author": "Yvonne Zonderop",
+      "isbn13": "9789044640274",
+      "isbn10": "9044640275",
+      "thumbnail": ""
+    },
+    {
       "title": "The Second Mountain",
       "author": "David Brooks",
-      "note": "over roeping, huwelijk, religie en gemeenschap",
-      "start_seconds": 472,
+      "note": "Boek dat Stefan Paas net had gelezen over zingeving en religie",
+      "start_seconds": 465,
       "volume_id": "qlyDDwAAQBAJ",
       "canonical_title": "The Second Mountain: The Quest for a Moral Life",
       "canonical_author": "David Brooks",
       "isbn13": "9780241400692",
       "isbn10": "0241400694",
       "thumbnail": "http://books.google.com/books/content?id=qlyDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Ongelooflijk",
-      "author": "Yvonne Zonderop",
-      "note": "pleidooi voor herwaardering van het christendom",
-      "start_seconds": 106
     }
   ],
   "bible_refs": [],
   "places": [
     "Florence",
     "Boedapest",
-    "Nederland",
+    "Nijmegen",
+    "Tilburg",
     "Limburg",
     "Brabant",
     "Spanje",
-    "Engeland",
-    "Athene",
     "India",
+    "Athene",
     "Japan",
-    "Frankrijk"
+    "Rotterdam",
+    "Engeland"
   ],
-  "summary_tldr": "Yvonne Zonderop, zelf cultuurchristen zonder geloof in God, legt uit waarom het christendom volgens haar van ons allemaal is. Met Stefan Paas bespreekt ze joods-christelijke waarden, de rol van Wilders en Baudet, de links-religieuze spanning en de christelijke wortels van de Verlichting. Ook gaat het over de vraag of waarden blijven bestaan bij voortschrijdende secularisatie.",
+  "summary_tldr": "Journalist Yvonne Zonderop en theoloog Stefan Paas bespreken waarom het cultuurchristendom en de joods-christelijke waarden zo actueel zijn in de politiek. Zonderop pleit ervoor de christelijke erfenis te herwaarderen, terwijl Paas benadrukt dat christelijke wortels diep in de Verlichting en de rechtsstaat zitten. Het gesprek gaat ook over het ontbreken van een publieke taal over geloof en de vraag wat het verlies van de verzuiling heeft achtergelaten.",
   "summary_points": [
-    "Zonderop werd geraakt door christelijke kunst en onderzocht dat als journalist",
-    "Cultuurchristendom: christelijke waarden zitten in onze cultuur en dus in ons allemaal",
-    "Na de verzuiling en liberalisering is een leegte ontstaan, vooral zichtbaar bij jongeren",
-    "Cultuur is een doorlopend gesprek en geen bevroren etnisch bezit",
-    "Rechtse politici gebruiken het christendom vaak als stok tegen de islam",
-    "Links heeft moeite met religie vanwege emancipatiegeschiedenis en marxisme",
-    "Christendom laat zich moeilijk vertalen naar politieke programma's",
-    "De Verlichting heeft diepe christelijke wortels en kwam niet uit de lucht vallen",
-    "Cultuurvorming vraagt jarenlang werk, en de toekomst van de waarden is onzeker"
+    "Cultuurchristendom is populair geworden door secularisatie, immigratie en de vraag wie we als cultuur zijn.",
+    "Zonderop ziet cultuurchristendom als erkenning dat christelijke waarden als gelijkheid en verbetering van het leven in onze cultuur zitten.",
+    "Paas waarschuwt dat cultuur een doorlopend gesprek is en dat 'joods-christelijk' vaak een etnische, bevroren opvatting van cultuur verbergt.",
+    "Beide gasten betwisten dat de Verlichting los staat van het christendom; veel verlichtingsdenkers waren christen of religieus.",
+    "De democratische rechtsstaat en het idee van individuele rechten worden historisch teruggevoerd op middeleeuwse theologische debatten.",
+    "Het ontbreken van een publieke taal over geloof en zingeving na de verzuiling laat een leegte achter, vooral bij jongeren.",
+    "Politici als Wilders en Baudet grijpen in op een verloren gemeenschapsgevoel, vooral in voormalig katholieke gebieden.",
+    "Links heeft zich volgens het gesprek vaak van religie afgekeerd vanuit een emancipatoir verhaal, wat de ruimte voor christelijke waarden beperkt.",
+    "Christelijke organisaties en kerken zouden hun schaamte moeten afleggen en de christelijke erfenis actiever moeten dragen.",
+    "Zonderop ziet een comeback van belangstelling voor zingeving, maar niet in de oude verzuilde vorm."
   ],
   "chapters": [
     {
-      "start_seconds": 100,
-      "title": "Persoonlijke achtergrond en fascinatie",
-      "summary": "Zonderop vertelt over haar katholieke opvoeding en haar ontroering door christelijke schilderkunst."
+      "start_seconds": 0,
+      "title": "Persoonlijke achtergrond van Zonderop",
+      "summary": "Zonderop vertelt over haar katholieke opvoeding, haar cultuurchristelijke positie en de schilderijen die haar raakten."
     },
     {
-      "start_seconds": 415,
-      "title": "Waarom nu het cultuurchristendom?",
-      "summary": "Secularisatie, immigratie en de zoektocht naar het goede leven maken de term populair."
+      "start_seconds": 421,
+      "title": "Waarom cultuurchristendom nu populair is",
+      "summary": "Paas en Zonderop verkennen secularisatie, immigratie en de vraag naar Nederlandse identiteit als oorzaken."
     },
     {
-      "start_seconds": 605,
-      "title": "Verzuiling, leegte en jongeren",
-      "summary": "De verzuiling gaf een reactie van privatisering van geloof, met een leegte als gevolg."
+      "start_seconds": 1015,
+      "title": "Wat is cultuurchristendom?",
+      "summary": "Zonderop definieert het als erkenning van christelijke waarden in de cultuur, terwijl Paas waarschuwt voor een etnische opvatting van cultuur."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 1177,
       "title": "Joods-christelijke waarden en politiek",
-      "summary": "Over Wilders, Baudet, het begrip cultuur en de ongemakkelijke verhouding van links tot religie."
+      "summary": "De gesprekspartners bespreken het politieke gebruik van de term door Wilders en Baudet en het verschil tussen links en rechts."
     },
     {
-      "start_seconds": 1700,
-      "title": "Christendom en politiek",
-      "summary": "Paas schetst de eerste christenen en waarom het christendom moeilijk in een partijprogramma past."
+      "start_seconds": 1891,
+      "title": "Democratie, rechtsstaat en de Verlichting",
+      "summary": "Er wordt gediscussieerd of gelijkheid en vrijheid uit het christendom of de Verlichting komen, met historische voorbeelden."
     },
     {
-      "start_seconds": 1895,
-      "title": "Democratie, rechtsstaat en Verlichting",
-      "summary": "De christelijke wortels van rechtsstaat en Verlichting worden besproken."
+      "start_seconds": 2214,
+      "title": "Secularisatie en de toekomst van het geloof",
+      "summary": "Zonderop en Paas onderzoeken of de christelijke erfenis kan blijven bestaan en wijzen op nieuwe belangstelling voor zingeving."
     },
     {
-      "start_seconds": 2195,
-      "title": "Toekomst van de waarden",
-      "summary": "Kunnen waarden blijven bestaan bij voortgaande secularisatie, en welke nieuwe vormen ontstaan?"
+      "start_seconds": 2796,
+      "title": "Kerk, schaamte en het publieke debat",
+      "summary": "Tips voor kerken, het gebrek aan publieke intellectuelen over geloof en de rol van de schaamte bij christenen."
+    },
+    {
+      "start_seconds": 3003,
+      "title": "Persoonlijk geloof van Zonderop",
+      "summary": "Zonderop reflecteert op haar gevoeligheid voor geloof zonder persoonlijk contact met God."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 185,
+      "start_seconds": 243,
       "speaker": "Yvonne Zonderop",
-      "text": "Ik bid niet tot God en toch voel ik die lijn.",
-      "note": "Vat haar positie als cultuurchristen samen."
+      "text": "Die soldaat kijkt je aan, en je ziet hem denken: zo is de mensheid.",
+      "note": "Zonderop laat zien hoe een schilderij voor haar een verhaal over menselijkheid wordt, zonder dat ze zelf gelooft."
     },
     {
       "start_seconds": 839,
       "speaker": "Yvonne Zonderop",
       "text": "Wij hebben gewoon een leegte laten ontstaan.",
-      "note": "Scherpe diagnose van de secularisatie."
+      "note": "Een scherpe diagnose van wat er na de ontzuiling achterbleef, vooral voor jongeren."
     },
     {
-      "start_seconds": 1380,
+      "start_seconds": 1269,
       "speaker": "Stefan Paas",
-      "text": "Bij Wilders gaat het uiteindelijk altijd om islam.",
-      "note": "Kritiek op het gebruik van joods-christelijke waarden."
+      "text": "Cultuur is iets wat altijd in beweging is, een doorlopend gesprek.",
+      "note": "Paas keert zich tegen een bevroren, etnische opvatting van de Nederlandse cultuur."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 1891,
       "speaker": "Stefan Paas",
-      "text": "Het communisme is een soort verloren zoon van het christendom.",
-      "note": "Verrassende historische vergelijking."
+      "text": "Politiek gaat niet over liefde.",
+      "note": "Een ongemakkelijke gedachte over de kloof tussen christelijke ethiek en politieke programma's."
     },
     {
-      "start_seconds": 1960,
-      "speaker": "Stefan Paas",
-      "text": "Je kunt het zo gek niet bedenken of er zitten hele dikke christelijke wortels onder.",
-      "note": "Pleidooi tegen het idee dat de Verlichting los staat van het christendom."
+      "start_seconds": 3011,
+      "speaker": "Yvonne Zonderop",
+      "text": "Ik ben een gevoeliger. Ik heb meer toegegeven aan mijn gevoeligheid.",
+      "note": "Zonderop omschrijft haar geloof als gevoeligheid in plaats van een persoonlijke band met God."
     }
   ],
   "keywords": [
     "cultuurchristendom",
     "joods-christelijke waarden",
-    "verzuiling",
-    "Verlichting",
+    "verlichting",
     "secularisatie",
-    "Thierry Baudet",
-    "Geert Wilders",
-    "rechtsstaat",
-    "gelijkheid",
-    "christelijke kunst",
-    "links en religie"
+    "verzuiling",
+    "Wilders",
+    "Baudet",
+    "democratische rechtsstaat",
+    "zingeving",
+    "christelijke erfenis"
   ],
-  "quotes": [],
+  "quotes": [
+    "de christelijke erfenis is van ons allemaal en niet alleen van christenen zelf",
+    "een herwaardering van het christendom"
+  ],
   "similar": [
     {
-      "n": 192,
-      "reason": "Cultuurchristendom en Europa, politiek en samenleving; zelfde thema met Hendrie van Maanen"
-    },
-    {
-      "n": 226,
-      "reason": "Cultuurchristendom, Wilders en politiek; vooruitblik met René Cuperus"
-    },
-    {
-      "n": 279,
-      "reason": "Opkomen voor de christelijke cultuur; discussie links en rechts, geschiedenis en migratie"
+      "n": 45,
+      "reason": "Politiek en secularisatie met een historische blik, sluit aan bij het cultuurchristendom"
     },
     {
       "n": 222,
-      "reason": "Joods-christelijke rechtsstaat en polarisatie met Kees van der Staaij, die ook besproken wordt"
+      "reason": "Joods-christelijke rechtsstaat, populisme en Kees van der Staaij, die ook in deze aflevering genoemd wordt"
     },
     {
-      "n": 218,
-      "reason": "Secularisatie en cultuurchristendom als mythe; Kerk, politiek en filosofie"
+      "n": 2,
+      "reason": "Baudet, populisme en de rol van de kerk in de politiek"
+    },
+    {
+      "n": 41,
+      "reason": "Abraham Kuyper over christelijke politiek en verzuiling, historisch verwant aan de besproken erfenis"
+    },
+    {
+      "n": 132,
+      "reason": "Erasmus, een denker die ook in deze aflevering wordt genoemd, over christelijk humanisme"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

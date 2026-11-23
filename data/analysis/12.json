@@ -1,16 +1,21 @@
 {
   "episode": 12,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 72153,
+    "segments": 601,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30192,
-    "output_tokens": 2964,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 36216,
+    "output_tokens": 3108,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "Bijbel & Jezus",
+    "Politiek",
     "Amerika & Trump",
     "Technologie & AI"
   ],
@@ -20,163 +25,131 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, voorbeeld van omgang met waarheid en leugens",
-      "start_seconds": 508,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president, voorbeeld van leugens en post-truth",
+      "start_seconds": 8,
+      "mention_count": 9
     },
     {
-      "name": "Harry Frankfurt",
-      "note": "Amerikaanse filosoof, schreef over 'bullshit' als iets anders dan liegen",
-      "start_seconds": 549,
-      "wiki_checked": true,
-      "wiki_pageid": 3773582,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harry_Frankfurt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Harry_Frankfurt_at_2017_ACLS_Annual_Meeting.jpg/250px-Harry_Frankfurt_at_2017_ACLS_Annual_Meeting.jpg"
+      "name": "Stefan Paas",
+      "note": "Theoloog des Vaderlands, vaste gast",
+      "start_seconds": 0,
+      "mention_count": 3
     },
     {
-      "name": "Pontius Pilatus",
-      "note": "Romeinse stadhouder die Jezus verhoorde: 'Wat is waarheid?'",
-      "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
+      "name": "Daan Roovers",
+      "note": "Denker des Vaderlands, filosoof, gast",
+      "start_seconds": 178,
+      "mention_count": 3
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeinse stadhouder die Jezus ondervroeg",
+      "start_seconds": 590,
+      "mention_count": 3
     },
     {
       "name": "Jezus",
-      "note": "Zegt 'Ik ben de weg, de waarheid en het leven'",
-      "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
+      "note": "Centrale figuur in het christendom, uitspraak 'ik ben de weg, de waarheid en het leven'",
+      "start_seconds": 603,
+      "mention_count": 6
+    },
+    {
+      "name": "Harry Frankfurt",
+      "note": "Amerikaans filosoof, schreef over bullshit",
+      "start_seconds": 530,
+      "mention_count": 1
     },
     {
       "name": "Aristoteles",
-      "note": "Beschreef al de moeizame verhouding tussen politiek en waarheid",
+      "note": "Oud-Griekse filosoof over politiek en waarheid",
       "start_seconds": 630,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "mention_count": 1
     },
     {
       "name": "Hannah Arendt",
-      "note": "Filosoof: 'liegen is handelen'",
+      "note": "Filosofe, citaat 'liegen is handelen'",
       "start_seconds": 714,
-      "wiki_checked": true,
-      "wiki_pageid": 77407,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hannah_Arendt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg/250px-Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Michel Foucault",
-      "note": "Filosoof, waarachtigheid als je eigen uitspraken ondertekenen",
-      "start_seconds": 891,
-      "wiki_checked": true,
-      "wiki_pageid": 28088,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Foucault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michel_Foucault_1974_Brasil.jpg/250px-Michel_Foucault_1974_Brasil.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "Historicus en auteur van Dominion, agnost",
-      "start_seconds": 1712,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "name": "Foucault",
+      "note": "Franse filosoof over het ondertekenen van uitspraken",
+      "start_seconds": 890,
+      "mention_count": 1
     },
     {
       "name": "Alexis de Tocqueville",
-      "note": "Franse aristocraat die Amerika bezocht en de democratie beschreef",
+      "note": "Franse denker over Amerikaanse democratie",
       "start_seconds": 1992,
-      "wiki_checked": true,
-      "wiki_pageid": 810131,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexis_de_Tocqueville",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Alexis_de_tocqueville.jpg/250px-Alexis_de_tocqueville.jpg"
-    },
-    {
-      "name": "Alessandro Baricco",
-      "note": "Schrijver van The Game over de digitale revolutie",
-      "start_seconds": 2125,
-      "wiki_checked": true,
-      "wiki_pageid": 1889942,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alessandro_Baricco",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Alessandro_Baricco.jpg/250px-Alessandro_Baricco.jpg"
+      "mention_count": 1
     },
     {
       "name": "Charles Taylor",
-      "note": "Filosoof, morele hiërarchie en hypergoods",
-      "start_seconds": 2391,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg"
+      "note": "Filosoof, begrip morele hypergoods",
+      "start_seconds": 2390,
+      "mention_count": 2
+    },
+    {
+      "name": "Zygmunt Bauman",
+      "note": "Socioloog, citaat over vrijheid en machteloosheid",
+      "start_seconds": 2642,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Historicus, boek Dominion over christelijke cultuur",
+      "start_seconds": 1740,
+      "mention_count": 2
+    },
+    {
+      "name": "Alessandro Baricco",
+      "note": "Schrijver van The Game over digitale revolutie",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Nietzsche",
+      "note": "Filosoof, genoemd in context van betekenis",
+      "start_seconds": 1950,
+      "mention_count": 1
+    },
+    {
+      "name": "Kierkegaard",
+      "note": "Filosoof, genoemd in context van betekenis",
+      "start_seconds": 1950,
+      "mention_count": 1
     },
     {
       "name": "Paus Franciscus",
-      "note": "Wast voeten, navolging van Jezus",
-      "start_seconds": 2318,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "Paus, voorbeeld van voeten wassen en dienstbaarheid",
+      "start_seconds": 2300,
+      "mention_count": 1
     },
     {
-      "name": "Friedrich Nietzsche",
-      "note": "Filosoof, gebruikt door Roovers in voordracht voor jongeren",
-      "start_seconds": 1588,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Søren Kierkegaard",
-      "note": "Filosoof, gebruikt door Roovers in voordracht voor jongeren",
-      "start_seconds": 1588,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
+      "name": "Obama",
+      "note": "Voorbeeld in deepfake-discussie",
+      "start_seconds": 2725,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Dominion",
       "author": "Tom Holland",
-      "note": "Over de christelijke wortels van het Westen",
-      "start_seconds": 1712,
-      "volume_id": "0Tg0DwAAQBAJ",
-      "canonical_title": "Dominion: The Making of the Western Mind",
+      "note": "Boek over christelijke culturen van het Westen",
+      "start_seconds": 1740,
+      "volume_id": "mPxWzAEACAAJ",
+      "canonical_title": "Dominion: How the Christian Revolution Remade the World",
       "canonical_author": "Tom Holland",
-      "isbn13": "9781408706978",
-      "isbn10": "1408706970",
-      "thumbnail": "http://books.google.com/books/content?id=0Tg0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781541617964",
+      "isbn10": "1541617967",
+      "thumbnail": "http://books.google.com/books/content?id=mPxWzAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "The Game",
       "author": "Alessandro Baricco",
-      "note": "Over de digitale revolutie en het internet",
-      "start_seconds": 2125,
+      "note": "Boek over de digitale revolutie",
+      "start_seconds": 2100,
       "volume_id": "eFbWxQEACAAJ",
       "canonical_title": "The Game",
       "canonical_author": "Alessandro Baricco",
@@ -188,164 +161,147 @@
   "bible_refs": [
     {
       "ref": "Johannes 14:6",
-      "note": "Ik ben de weg, de waarheid en het leven",
-      "start_seconds": 964
+      "note": "Jezus zegt: ik ben de weg, de waarheid en het leven",
+      "start_seconds": 603
     },
     {
       "ref": "Johannes 13",
-      "note": "De voetwassing, direct voorafgaand aan Johannes 14",
-      "start_seconds": 996
-    },
-    {
-      "ref": "Johannes 18",
-      "note": "Verhoor door Pilatus: 'Wat is waarheid?'",
-      "start_seconds": 576
+      "note": "Voetwassing, context van Johannes 14",
+      "start_seconds": 960
     },
     {
       "ref": "Psalm 119",
-      "note": "Weg, waarheid en leven als termen voor de wet van God",
-      "start_seconds": 1185
+      "note": "Gebruik van weg, waarheid en leven om Gods wet te bezingen",
+      "start_seconds": 1184
+    },
+    {
+      "ref": "Johannes 18",
+      "note": "Verhoor van Jezus door Pilatus, 'wat is waarheid?'",
+      "start_seconds": 590
     }
   ],
   "places": [
-    "Verenigde Staten",
     "Italië",
     "Spanje",
     "Nederland",
+    "Verenigde Staten",
+    "Nieuwkoop",
+    "Shanghai",
     "India",
-    "China",
-    "Japan",
-    "Afrika",
-    "Zuid-Amerika",
-    "Shanghai"
+    "China"
   ],
-  "summary_tldr": "Stefan Paas en denker des vaderlands Daan Roovers bespreken of de waarheid onder druk staat in tijden van nepnieuws en informatie-overload. Ze verkennen verschillende waarheidsbegrippen, de rol van Trump, en het Bijbelse idee dat waarheid verbonden is met trouw en de persoon. Ook gaat het over de behoefte aan grote verhalen en morele tradities in een geseculariseerde samenleving.",
+  "summary_tldr": "Stefan Paas en Daan Roovers bespreken hoe waarheid onder druk staat in tijden van nepnieuws, post-truth en de overvloed aan informatie. Ze onderzoeken of waarheid ook een morele dimensie heeft en of religie of filosofie houvast kan bieden. Het gesprek eindigt met een voorzichtig optimisme over de toekomst.",
   "summary_points": [
-    "Informatie-overload leidt tot een gefragmenteerd beeld van de werkelijkheid, ondanks goede kennissystemen.",
-    "Waarheid heeft ook een morele dimensie: het maakt uit wie iets zegt.",
-    "Trump hanteert volgens Roovers eerder 'bullshit' (Frankfurt) dan leugens; politiek en waarheid hadden altijd een gespannen relatie.",
-    "Vier waarheidsopvattingen: overeenstemming met feiten, consensus, consistentie en waarachtigheid.",
-    "Jezus' woorden 'ik ben de weg, de waarheid en het leven' volgen op de voetwassing en verwijzen naar trouw en dienstbaarheid.",
-    "Roovers groeide op in een katholieke gemeenschap zonder geloof en ziet kerk als cultuur en troost.",
-    "Bijbelverhalen en literatuur bieden universele kracht, mits de 'korst' eraf wordt gekrabd.",
-    "Internet heeft tussenlagen en autoriteiten weggehaald; kennis opzoeken is niet hetzelfde als belichaamde kennis.",
-    "Een goed leven vraagt om morele tradities en een eigen morele hiërarchie (Charles Taylor)."
+    "Informatie verdubbelt snel, maar dat leidt niet automatisch tot een eenduidig beeld van de werkelijkheid.",
+    "Wantrouwen tegen waarheid hangt samen met een dun waarheidsbegrip waarin morele integriteit van de spreker wegvalt.",
+    "Trump wordt gezien als voorbeeld van post-truth; waarheid is daarbij ondergeschikt aan appèl en persoonlijke macht.",
+    "Verschillende waarheidsbegrippen worden besproken: overeenstemming met feiten, consensus, consistentie en waarachtigheid.",
+    "Waarachtigheid vraagt om een track record en persoonlijke betrokkenheid, niet alleen om beeldvorming.",
+    "Bijbelse waarheid (Johannes 14) wordt uitgelegd als trouw en levenswijze, niet als abstracte formule.",
+    "Mensen hebben behoefte aan een groter verhaal en een morele hiërarchie, ook zonder geloof.",
+    "De globalisering maakt het moeilijk grote verhalen te delen; de samenleving is verbrokkeld.",
+    "Internet heeft tussenlagen als autoriteiten en uitgevers weggehaald, maar kennis vraagt nog steeds om ervaring en incorporatie.",
+    "Beide gasten zijn voorzichtig optimistisch, met vertrouwen in kleine gemeenschappen en face-to-face contact."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en doel van de serie",
-      "summary": "David introduceert het thema en de serie over de grote dilemma's van deze tijd. Stefan legt uit waarom hij zoekt naar het goede leven."
+      "title": "Inleiding en de serie",
+      "summary": "Stefan Paas introduceert de serie over het goede leven en de vraag naar de waarde van Bijbelverhalen."
     },
     {
-      "start_seconds": 180,
-      "title": "Staat de waarheid onder druk?",
-      "summary": "Roovers en Paas bespreken informatie-overload, wantrouwen tegen waarheid en de morele dimensie van waarheid."
+      "start_seconds": 178,
+      "title": "Wat is de denker en theoloog des vaderlands",
+      "summary": "De gasten worden voorgesteld en praten over hun benoeming en ontmoetingen."
     },
     {
-      "start_seconds": 488,
-      "title": "Trump, macht en waarheid",
-      "summary": "Over post-truth, Pilatus, Aristoteles, Arendt en de vier waarheidsopvattingen inclusief waarachtigheid."
+      "start_seconds": 260,
+      "title": "Waarheid onder druk",
+      "summary": "Discussie over het wantrouwen tegen waarheid, post-truth en de rol van Trump."
     },
     {
-      "start_seconds": 956,
-      "title": "Ik ben de weg, de waarheid en het leven",
-      "summary": "Paas legt Johannes 14 uit in het licht van de voetwassing; Roovers reflecteert op de tekst."
+      "start_seconds": 590,
+      "title": "Waarheid, macht en Pilatus",
+      "summary": "Bijbelse en filosofische perspectieven op waarheid en macht, en de uitspraak van Jezus in Johannes 14."
     },
     {
-      "start_seconds": 1266,
-      "title": "Opgroeien in de kerk en zingeving",
-      "summary": "Roovers vertelt over haar katholieke jeugd zonder geloof en haar zoektocht naar betekenis als niet-gelovige."
+      "start_seconds": 1200,
+      "title": "Persoonlijke achtergrond van Daan Roovers",
+      "summary": "Roovers vertelt over zijn katholieke jeugd, zijn ongelovigheid en zijn gevoel voor religie."
     },
     {
-      "start_seconds": 1603,
-      "title": "Grote verhalen in een geseculariseerde tijd",
-      "summary": "Over de kracht van Bijbelverhalen, Tom Holland, individualisering en globalisering."
+      "start_seconds": 1800,
+      "title": "Grote verhalen en betekenis",
+      "summary": "Het gesprek gaat over de behoefte aan betekenis en over de kracht van verhalen in een postchristelijke samenleving."
     },
     {
-      "start_seconds": 1972,
-      "title": "Internet, kennis en autoriteit",
-      "summary": "Tocqueville, het wegvallen van tussenlagen, Baricco's The Game en het verschil tussen opzoeken en belichaamde kennis."
+      "start_seconds": 2400,
+      "title": "Morele hiërarchie en keuzes",
+      "summary": "Bespreking van Charles Taylor, morele hiërarchie en universele menselijke behoeften."
     },
     {
-      "start_seconds": 2276,
-      "title": "Morele tradities en het goede leven",
-      "summary": "Het belang van belichaamde waarheid, morele tradities en Charles Taylors morele hiërarchie."
+      "start_seconds": 2750,
+      "title": "Pessimisme en optimisme",
+      "summary": "De gasten reflecteren op deepfakes en de toekomst, en sluiten af met optimisme."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 575,
+      "start_seconds": 603,
       "speaker": "Stefan Paas",
-      "text": "Pilatus kon 'wat is waarheid?' zeggen, want hij had soldaten.",
-      "note": "Scherpe duiding van macht en waarheid."
+      "text": "Ik ben de weg, de waarheid en het leven, uitgesproken na het voeten wassen.",
+      "note": "Laat zien dat de uitspraak volgens Paas eerder dienstbaarheid dan arrogantie uitdrukt."
     },
     {
-      "start_seconds": 549,
-      "speaker": "Daan Roovers",
-      "text": "Volgens Harry Frankfurt is het allemaal bullshit; het staat naast het vocabulaire van waar en onwaar.",
-      "note": "Nuanceert het idee dat Trump 'liegt'."
-    },
-    {
-      "start_seconds": 1037,
-      "speaker": "Stefan Paas",
-      "text": "Als Jezus zegt dat hij de weg, de waarheid en het leven is, zijn zijn handen nog nat van het voeten wassen.",
-      "note": "Nieuwe lezing van een beroemde tekst."
-    },
-    {
-      "start_seconds": 1345,
+      "start_seconds": 1000,
       "speaker": "Daan Roovers",
       "text": "Het is een soort religie, maar zonder enig geloof.",
-      "note": "Persoonlijk beeld van haar katholieke achtergrond."
+      "note": "Treffende beschrijving van zijn kerkelijke verbondenheid zonder persoonlijk geloof."
     },
     {
-      "start_seconds": 2252,
+      "start_seconds": 2642,
       "speaker": "Daan Roovers",
-      "text": "Dat staat op het internet, maar dat weten we niet; dat is wat anders.",
-      "note": "Onderscheid tussen informatie en kennis."
+      "text": "We zijn nog nooit zo vrij geweest en we hebben ons tegelijkertijd nog nooit zo machteloos gevoeld.",
+      "note": "Citaat van Zygmunt Bauman dat de spanning tussen vrijheid en betekenis samenvat."
     },
     {
-      "start_seconds": 2263,
+      "start_seconds": 2900,
       "speaker": "Stefan Paas",
-      "text": "De waarheid kun je niet in pacht hebben, je moet hem op een bepaalde manier zijn.",
-      "note": "Kern van het gesprek."
+      "text": "Waarheid komt van onderaf, niet van bovenaf.",
+      "note": "Scherpe gedachte die waarheid koppelt aan dienstbaarheid en de zwakken."
     }
   ],
   "keywords": [
-    "waarheid",
     "nepnieuws",
-    "post truth",
-    "Donald Trump",
+    "post-truth",
+    "waarheidsbegrip",
     "waarachtigheid",
-    "Pilatus",
     "Johannes 14",
-    "voetwassing",
+    "morele hiërarchie",
     "grote verhalen",
-    "morele traditie",
-    "Charles Taylor",
-    "informatie-overload"
+    "Donald Trump",
+    "secularisatie",
+    "deepfakes"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 255,
-      "reason": "Strijd om de waarheid: nepnieuws, complotten en oorlogsretoriek, met filosoof Rik Peels"
+      "reason": "Zelfde thema: waarheid, fake news en complotten, met Rik Peels"
     },
     {
       "n": 160,
-      "reason": "Waarheid onder druk, filosofie en vooruitgangsgeloof met Rob Wijnberg"
+      "reason": "Gaat over onder druk staande waarheid en kennis in het informatietijdperk"
     },
     {
-      "n": 247,
-      "reason": "Technologie, social media en AI die ons denken en de waarheid beïnvloeden"
-    },
-    {
-      "n": 289,
-      "reason": "Wereldbeeld achter Epstein-files, complotdenken en waarheid, filosofie en ethiek"
+      "n": 298,
+      "reason": "Behandelt AI-misinformatie en een Trump-gerelateerde nepcontent-kwestie"
     },
     {
       "n": 37,
-      "reason": "Complottheorieën als nieuwe religie, thema waarheid en geloof"
+      "reason": "Verkent complottheorieën en hun functie als alternatieve waarheid"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

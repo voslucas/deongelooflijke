@@ -1,18 +1,23 @@
 {
   "episode": 289,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115345,
+    "segments": 1275,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31077,
-    "output_tokens": 2871,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59826,
+    "output_tokens": 8106,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
+    "Amerika & Trump",
     "Filosofie & ethiek",
-    "Geschiedenis",
-    "Politiek"
+    "Politiek",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,155 +25,239 @@
   "people": [
     {
       "name": "Jeffrey Epstein",
-      "note": "Amerikaanse financier, veroordeeld zedendelinquent, centrale figuur in de Epstein-files",
-      "start_seconds": 5,
-      "wiki_checked": true
+      "note": "Financier die werd veroordeeld voor seksuele misdrijven met minderjarigen; centrale figuur in de Epstein-files",
+      "start_seconds": 285,
+      "mention_count": 60
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, komt voor in de files en blokkeert verdere openheid",
-      "start_seconds": 254,
-      "wiki_checked": true
+      "note": "Amerikaans president; verscheen in Epstein-documenten, het verjaardagsboek en werd gekritiseerd om selectieve openbaarmaking",
+      "start_seconds": 250,
+      "mention_count": 15
     },
     {
-      "name": "Andrew Mountbatten-Windsor",
-      "note": "voormalig Brits prins, gearresteerd",
-      "start_seconds": 392,
-      "wiki_checked": true
+      "name": "Noam Chomsky",
+      "note": "Linkse intellectueel en activist die contact had met Epstein en mailde over eugenetica",
+      "start_seconds": 612,
+      "mention_count": 10
+    },
+    {
+      "name": "Steve Bannon",
+      "note": "Voormalig adviseur van Trump, populistisch systeemcriticus; had denigrerende mails naar Epstein",
+      "start_seconds": 848,
+      "mention_count": 6
+    },
+    {
+      "name": "Marquis de Sade",
+      "note": "18e-eeuwse Franse schrijver en libertijn, bron van het woord sadisme",
+      "start_seconds": 1694,
+      "mention_count": 10
     },
     {
       "name": "Peter Mandelson",
-      "note": "Britse Labour-politicus, rechterhand van Keir Starmer, moest terugtreden",
-      "start_seconds": 415,
-      "wiki_checked": true
+      "note": "Britse politicus en rechterhand van Keir Starmer; moest terugtreden vanwege nauwe banden met Epstein",
+      "start_seconds": 413,
+      "mention_count": 3
     },
     {
       "name": "Keir Starmer",
       "note": "Britse premier",
       "start_seconds": 401,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
-      "name": "Noam Chomsky",
-      "note": "linkse denker die mailde met Epstein over genetische manipulatie",
-      "start_seconds": 619,
-      "wiki_checked": true
-    },
-    {
-      "name": "Steve Bannon",
-      "note": "uiterst rechtse strateeg, noemde Trump-kiezers 'crackers'",
-      "start_seconds": 848,
-      "wiki_checked": true
+      "name": "Prins Andrew",
+      "note": "Broer van koning Charles, gearresteerd in verband met Epstein-zaak",
+      "start_seconds": 384,
+      "mention_count": 3
     },
     {
       "name": "Bill Gates",
-      "note": "werd door Epstein geprobeerd te chanteren",
-      "start_seconds": 576,
-      "wiki_checked": true
-    },
-    {
-      "name": "Elon Musk",
-      "note": "mailde met Epstein over feestjes op het eiland",
-      "start_seconds": 928,
-      "wiki_checked": true
+      "note": "Ondernemer die volgens de bespreking door Epstein zou zijn geprobeerd te chanteren",
+      "start_seconds": 573,
+      "mention_count": 1
     },
     {
       "name": "Steven Pinker",
-      "note": "wetenschapper die bij Epstein op bezoek was",
+      "note": "Psycholoog en wetenschapper die bij Epstein op bezoek is geweest",
       "start_seconds": 650,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Stephen Hawking",
-      "note": "natuurkundige, genoemd als bezoeker",
-      "start_seconds": 655,
-      "wiki_checked": true
+      "note": "Natuurkundige die volgens de bespreking bij Epstein langs is geweest",
+      "start_seconds": 654,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer die mailde met Epstein, ook na diens veroordeling",
+      "start_seconds": 917,
+      "mention_count": 2
     },
     {
       "name": "Marjorie Taylor Greene",
-      "note": "Republikeins politica die met Trump brak over de Epstein-files",
-      "start_seconds": 1519,
-      "wiki_checked": true
+      "note": "Republikeins politica uit de QAnon-kringen die met Trump brak over de Epstein-files",
+      "start_seconds": 1510,
+      "mention_count": 2
+    },
+    {
+      "name": "Arjen van Veen",
+      "note": "Columnist die schreef dat complotdenkers gelijk hadden",
+      "start_seconds": 1148,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; schreef over macht, recht en de libido dominandi",
+      "start_seconds": 2335,
+      "mention_count": 8
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur uit het christelijk geloof; waarschuwde tegen machtsmisbruik van heersers",
+      "start_seconds": 2270,
+      "mention_count": 4
     },
     {
       "name": "C.S. Lewis",
-      "note": "schrijver van het essay 'The Inner Ring'",
-      "start_seconds": 1066,
-      "wiki_checked": true
-    },
-    {
-      "name": "Markies de Sade",
-      "note": "18e-eeuwse schrijver, historische parallel met Epstein",
-      "start_seconds": 1710,
-      "wiki_checked": true
+      "note": "Schrijver die in The Inner Ring schreef over netwerken van macht en over technocratische dromen",
+      "start_seconds": 1087,
+      "mention_count": 2
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof, 'wil tot macht'",
-      "start_seconds": 1836,
-      "wiki_checked": true
+      "note": "Filosoof; zijn wil tot macht werd genoemd in verband met Epstein en De Sade",
+      "start_seconds": 1845,
+      "mention_count": 1
     },
     {
       "name": "John Milton",
-      "note": "dichter van Paradise Lost, geciteerd door Epstein",
-      "start_seconds": 2036,
-      "wiki_checked": true
+      "note": "Dichter van Paradise Lost, geciteerd door Epstein",
+      "start_seconds": 2043,
+      "mention_count": 1
     },
     {
-      "name": "Richard Dawkins",
-      "note": "atheïst in de files",
-      "start_seconds": 2102,
-      "wiki_checked": true
+      "name": "Matthias Spector",
+      "note": "Auteur van een artikel in Foreign Affairs over westerse hypocrisie",
+      "start_seconds": 2897,
+      "mention_count": 1
     },
     {
-      "name": "Sam Harris",
-      "note": "atheïst in de files",
-      "start_seconds": 2104,
-      "wiki_checked": true
+      "name": "Mark Carney",
+      "note": "Canadese premier die in Davos sprak over hypocrisie van westerse landen",
+      "start_seconds": 2930,
+      "mention_count": 1
+    },
+    {
+      "name": "Frank Mulder",
+      "note": "Journalist die een pacifistisch essay schreef op de Substack",
+      "start_seconds": 3940,
+      "mention_count": 2
+    },
+    {
+      "name": "Ezra Klein",
+      "note": "Journalist die een podcast maakte over Epstein",
+      "start_seconds": 2164,
+      "mention_count": 1
     },
     {
       "name": "Deepak Chopra",
-      "note": "New Age-auteur in Epsteins netwerk",
-      "start_seconds": 2114,
-      "wiki_checked": true
+      "note": "New-Age-auteur die contact had met Epstein",
+      "start_seconds": 2113,
+      "mention_count": 1
     },
     {
-      "name": "Martin Nowak",
-      "note": "Harvard-hoogleraar wiskunde en biologie",
-      "start_seconds": 1020,
-      "wiki_checked": true
+      "name": "Richard Dawkins",
+      "note": "Prominente atheïst die bij Epstein-netwerk genoemd wordt",
+      "start_seconds": 2102,
+      "mention_count": 1
+    },
+    {
+      "name": "Sam Harris",
+      "note": "Prominente atheïst die bij Epstein-netwerk genoemd wordt",
+      "start_seconds": 2103,
+      "mention_count": 1
+    },
+    {
+      "name": "Robespierre",
+      "note": "Leider van de Franse Revolutie die een zuiverheidsideaal nastreefde",
+      "start_seconds": 3493,
+      "mention_count": 1
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russisch president; genoemd in verband met oorlog in Oekraïne en Russische inlichtingen",
+      "start_seconds": 2569,
+      "mention_count": 3
+    },
+    {
+      "name": "Napoleon",
+      "note": "Franse keizer die De Sade veroordeelde",
+      "start_seconds": 2021,
+      "mention_count": 1
     },
     {
       "name": "Hillary Clinton",
-      "note": "genoemd in complottheorieën en files",
-      "start_seconds": 1170,
-      "wiki_checked": true
+      "note": "Politica die in complotkringen werd genoemd",
+      "start_seconds": 1169,
+      "mention_count": 1
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier die in complotkringen werd genoemd",
+      "start_seconds": 1165,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "Filosoof die veroordeeld werd wegens het corrumperen van de jeugd",
+      "start_seconds": 3166,
+      "mention_count": 1
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeins landvoogd uit het Nieuwe Testament; symbool van cynisme ('Wat is waarheid?')",
+      "start_seconds": 2569,
+      "mention_count": 1
+    },
+    {
+      "name": "Koning David",
+      "note": "Bijbelse koning die volgens Beatrice de Graaf de tempel niet mocht bouwen vanwege bloedvergieten",
+      "start_seconds": 4036,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Justine",
-      "author": "Markies de Sade",
-      "note": "",
-      "start_seconds": 1740
+      "author": "Marquis de Sade",
+      "note": "Roman van De Sade over extreme machtsfantasieën en het botvieren van driften",
+      "start_seconds": 1743,
+      "volume_id": "TsNatgEACAAJ",
+      "canonical_title": "Three by Marquis de Sade: Justine, the 120 Days of Sodom, Florville and Courval",
+      "canonical_author": "Marquis De Sade",
+      "isbn13": "9781515435815",
+      "isbn10": "1515435814",
+      "thumbnail": "http://books.google.com/books/content?id=TsNatgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "De 120 dagen van Sodom",
-      "author": "Markies de Sade",
-      "note": "",
-      "start_seconds": 1740,
-      "volume_id": "TXP_DwAAQBAJ",
-      "canonical_title": "120 dagen van Sodom",
-      "canonical_author": "Markies de Sade",
-      "isbn13": "9789044646764",
-      "isbn10": "9044646761",
-      "thumbnail": "http://books.google.com/books/content?id=TXP_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "author": "Marquis de Sade",
+      "note": "Werk van De Sade dat als antwoord op de verlichting wordt gezien",
+      "start_seconds": 1743,
+      "volume_id": "iVxlAAAAMAAJ",
+      "canonical_title": "The Marquis de Sade: The 120 Days of Sodom, and Other Writings",
+      "canonical_author": "marquis de Sade",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=iVxlAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Paradise Lost",
       "author": "John Milton",
-      "note": "Epstein citeerde 'Better to reign in hell than serve in heaven'",
-      "start_seconds": 2036,
+      "note": "Epstein citeerde de regel 'Better to reign in hell than serve in heaven'",
+      "start_seconds": 2043,
       "volume_id": "4ROTZyL7ClIC",
       "canonical_title": "Paradise Lost",
       "canonical_author": "John Milton",
@@ -179,68 +268,107 @@
     {
       "title": "The Inner Ring",
       "author": "C.S. Lewis",
-      "note": "essay uit 1944 over informele netwerken",
-      "start_seconds": 1322
+      "note": "Essay uit 1944 over informele netwerken van macht en invloed",
+      "start_seconds": 1323,
+      "volume_id": "-buxASKSnUkC",
+      "canonical_title": "Weight of Glory",
+      "canonical_author": "C. S. Lewis",
+      "isbn13": "9780061950285",
+      "isbn10": "0061950289",
+      "thumbnail": "http://books.google.com/books/content?id=-buxASKSnUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De Agone Christiano",
+      "author": "Augustinus",
+      "note": "Preken over de strijd van de christen tegen het kwaad in zichzelf",
+      "start_seconds": 3643,
+      "volume_id": "BzfBswEACAAJ",
+      "canonical_title": "De agone christiano",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Manhattan",
-    "Verenigde Staten",
-    "Engeland",
-    "Rusland",
-    "Polen",
-    "Frankrijk",
-    "Utrecht",
-    "Harvard"
+  "bible_refs": [
+    {
+      "ref": "Mattheus 13:24-30",
+      "note": "Gelijkenis van het onkruid tussen het graan, gebruikt tegen zuiverheidsidealen",
+      "start_seconds": 3731
+    },
+    {
+      "ref": "Genesis 3:16",
+      "note": "Na de zondeval zal de mens over de ander heersen",
+      "start_seconds": 2367
+    },
+    {
+      "ref": "1 Kronieken 22:8",
+      "note": "Koning David mag de tempel niet bouwen omdat hij bloed heeft vergoten",
+      "start_seconds": 4036
+    }
   ],
-  "summary_tldr": "David Boogerd, Beatrice de Graaf en Stefan Paas bespreken wat de Epstein-files zeggen over de elite en haar wereldbeeld van almachtsfantasieën, eugenetica en misprijzen voor gelijkwaardigheid. Ze trekken historische en theologische parallellen met Markies de Sade en bespreken hoe elites elkaar beschermen en hoe je de voorbeelden kunt nuanceren zonder cynisch te worden.",
+  "places": [
+    "Utrecht",
+    "Amsterdam",
+    "Manhattan",
+    "Paraguay",
+    "Amersfoort",
+    "Davos",
+    "Oekraïne"
+  ],
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de Epstein-files als voorbeeld van een diepe, brede hypocrisie onder de elite, die ook door een breed politiek spectrum heen loopt. Ze analyseren de ideeën achter Epstein via De Sade en de christelijke traditie en pleiten voor een sceptische, niet-cynische houding. Hypocrisie wordt daarbij gezien als teken dat er nog idealen bestaan.",
   "summary_points": [
-    "De Epstein-files tonen een breed netwerk van machtige mensen dat na zijn veroordeling in 2008 met hem bleef omgaan",
-    "Namen in de files betekenen niet automatisch strafbaar gedrag; wel is er sprake van enabling",
-    "Epstein hing eugenetische, raciale en transhumanistische ideeën aan en besprak die met wetenschappers",
-    "Het contrast tussen publiek imago en gedrag achter de schermen raakt links en rechts",
-    "Complotdenkers hadden deels gelijk, maar de QAnon-verhaallijn rond Trump als verlosser klopt niet",
-    "Parallel met Markies de Sade: de sterkste heeft het recht zijn driften uit te leven",
-    "Epstein spotte met religie en naastenliefde en zag zichzelf als duivelse heerser",
-    "Stefan Paas noemt het een almachtsfantasie: de man waande zich aan God",
-    "Checks and balances zijn nodig omdat slimme mensen zichzelf alles kunnen wegredeneren"
+    "De Epstein-files tonen een breed netwerk van prominente politici, wetenschappers en zakenmensen die contact hadden met Epstein, ook na zijn veroordeling in 2008.",
+    "Epstein omringde zich met wetenschappers en ideeën over eugenetica, transhumanisme en 'designer babies', wat een almachtsfantasie verraadt.",
+    "Het netwerk loopt van uiterst links tot uiterst rechts; achter publieke persona's bleken figuren als Chomsky en Bannon minder consequent.",
+    "Complotdenkers hadden deels gelijk dat machtige elites zich misdragen, maar de pedo-netwerk-verhalen zijn niet bewezen voor alle genoemde namen.",
+    "Marquis de Sade fungeert als historische parallel: een cynische almachtsfantasie die morele idealen omkeert.",
+    "Stefan Paas stelt dat de christelijke traditie macht altijd sceptisch benadert, zonder in cynisme te vervallen.",
+    "Cynisme wordt gezien als teleurgestelde idealisme en als voedingsbodem voor autocratie; sceptisch blijven is iets anders.",
+    "Hypocrisie is een signaal dat idealen nog bestaan; het opgeven ervan leidt tot naakte machtspolitiek.",
+    "Corruptie begrijpen als historisch begrip toont dat morele normen recent zijn, en Nederland zakte op de corruptieindex.",
+    "Zowel Augustinus als het onkruid-gelijkenis waarschuwen tegen utopische zuiverheidsidealen die vaak nieuwe hypocrisie voortbrengen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en context",
-      "summary": "Introductie van het onderwerp en de vraag of complotdenkers gelijk hadden."
+      "title": "Inleiding en context van de Epstein-files",
+      "summary": "De gespreksleiders introduceren het onderwerp en de gasten, en bespreken de actualiteit van de Epstein-files."
     },
     {
-      "start_seconds": 264,
-      "title": "Wie was Epstein?",
-      "summary": "Achtergrond van Epstein, de veroordelingen en de internationale gevolgen zoals de arrestatie van Andrew en het vertrek van Mandelson."
+      "start_seconds": 240,
+      "title": "Wie was Epstein en wat komt er naar boven",
+      "summary": "Het verhaal van Epstein, zijn veroordeling, de betrokken elite en de Russische connectie wordt uiteengezet."
     },
     {
-      "start_seconds": 580,
-      "title": "Een elite met dezelfde interesses",
-      "summary": "Links en rechts, van Chomsky tot Bannon, blijken achter de schermen met Epstein om te gaan."
+      "start_seconds": 612,
+      "title": "Netwerken, eugenetica en de wetenschapselite",
+      "summary": "Chomsky, Pinker en andere wetenschappers blijken contact te hebben gehad; Epstein's ideeën over genetische verbetering worden besproken."
     },
     {
-      "start_seconds": 620,
-      "title": "Eugenetica en almachtsfantasieën",
-      "summary": "Epsteins ideeën over designerbaby's en genetische manipulatie en de rol van wetenschappers."
+      "start_seconds": 848,
+      "title": "Van links tot rechts: het hoefijzer van de elite",
+      "summary": "Het gesprek gaat over het brede politieke spectrum van het netwerk, met Bannon, Trump en de complotdenkers."
     },
     {
-      "start_seconds": 1100,
-      "title": "Complotdenkers en Trump",
-      "summary": "Wat klopt er aan complotdenken, de rol van Trump en de breuk met Marjorie Taylor Greene."
+      "start_seconds": 1694,
+      "title": "Marquis de Sade en de almachtsfantasie",
+      "summary": "De Sade wordt als historisch voorbeeld gebruikt van een cynische moraal en het recht van de sterkste."
     },
     {
-      "start_seconds": 1690,
-      "title": "Parallel met Markies de Sade",
-      "summary": "Beatrice de Graaf laat zien hoe Epsteins denken lijkt op dat van De Sade en het antichristelijke mensbeeld."
+      "start_seconds": 2335,
+      "title": "Christelijke kijk op macht en cynisme",
+      "summary": "Augustinus, Jezus en het begrip libido dominandi illustreren een sceptische houding tegenover macht."
     },
     {
-      "start_seconds": 2100,
-      "title": "Religie, enabling en verantwoordelijkheid",
-      "summary": "Epsteins houding tegenover religie en de vraag hoe contacten zijn reputatie opbouwden."
+      "start_seconds": 3100,
+      "title": "Hypocrisie, corruptie en de waarde van idealen",
+      "summary": "Hypocrisie wordt herwaardeerd als teken van idealen; corruptie in Nederland en het ontstaan van het begrip worden toegelicht."
+    },
+    {
+      "start_seconds": 3731,
+      "title": "Zuiverheidsidealen en hoopvol doormodderen",
+      "summary": "Het onkruid-verhaal en het gevaar van utopieën leiden tot een pleidooi voor een nederig, realistisch wereldbeeld."
     }
   ],
   "highlights": [
@@ -248,68 +376,74 @@
       "start_seconds": 23,
       "speaker": "Stefan Paas",
       "text": "De man waande zich aan God.",
-      "note": "Theologische typering van Epsteins almachtsfantasie."
+      "note": "Een theologische duiding van Epsteins almachtsfantasie die de kern van het gesprek samenvat."
     },
     {
-      "start_seconds": 582,
+      "start_seconds": 2726,
       "speaker": "Stefan Paas",
-      "text": "Het is alsof je in een grot kijkt waar champignons gekweekt worden.",
-      "note": "Plastisch beeld voor een beerput waar duisternis nodig is."
+      "text": "De cynicus is een teleurgestelde idealist.",
+      "note": "Een scherpe omschrijving die cynisme niet als afzijdigheid maar als gefrustreerd idealisme ziet."
     },
     {
-      "start_seconds": 1066,
+      "start_seconds": 3101,
       "speaker": "Beatrice de Graaf",
-      "text": "C.S. Lewis schreef in 1944 al over 'inner rings': onvermijdelijk, maar de vraag is hoe je ermee omgaat.",
-      "note": "Historisch perspectief op elitenetwerken."
+      "text": "Omarm de hypocrisie.",
+      "note": "Een provocerende stelling die hypocrisie als teken van nog bestaande idealen herwaardeert."
     },
     {
-      "start_seconds": 2036,
-      "speaker": "Beatrice de Graaf",
-      "text": "Epstein citeerde Milton: 'Better to reign in hell than serve in heaven'.",
-      "note": "Hij zag zichzelf eerder als duivel dan als god."
-    },
-    {
-      "start_seconds": 2160,
+      "start_seconds": 3103,
       "speaker": "Stefan Paas",
-      "text": "Elk contact bouwt mee aan zijn reputatie; veel mensen moeten serieus in de spiegel kijken.",
-      "note": "Benadrukt het enabling-mechanisme."
+      "text": "Hypocrisie is een signaal dat er nog idealen zijn.",
+      "note": "Het centrale argument van het gesprek: hypocrisie verwijst naar een norm waaraan macht zich nog moet houden."
+    },
+    {
+      "start_seconds": 3784,
+      "speaker": "Stefan Paas",
+      "text": "Het medicijn is meestal erger dan de ziekte.",
+      "note": "Een waarschuwing tegen utopische zuiveringsplannen die vaak meer schade aanrichten dan het kwaad zelf."
     }
   ],
   "keywords": [
-    "Epstein",
-    "elite",
-    "complotdenken",
+    "Epstein-files",
     "hypocrisie",
+    "cynisme",
+    "scepticisme",
     "eugenetica",
-    "transhumanisme",
-    "Markies de Sade",
     "almachtsfantasie",
-    "enabling",
-    "Nietzsche",
-    "naastenliefde",
-    "QAnon"
+    "Marquis de Sade",
+    "Augustinus",
+    "libido dominandi",
+    "corruptie",
+    "complotdenken",
+    "elite"
   ],
-  "quotes": [],
+  "quotes": [
+    "Hoe word je niet cynisch? En kan hypocrisie ook iets goeds zijn?",
+    "De maskers vallen af – zo klinkt het – wie kan je nog vertrouwen?",
+    "Mensen die hoge idealen prediken, maar ondertussen dubieuze dingen doen op een privé-eiland, elkaar bevoordelen… of, hier in Nederland op kleinere schaal, politici die liegen over hun cv."
+  ],
   "similar": [
     {
-      "n": 228,
-      "reason": "Beatrice de Graaf en Stefan Paas over wereldbeeld van Musk en superrijke techelite"
-    },
-    {
-      "n": 292,
-      "reason": "Duistere denkbeelden achter Big Tech-elite, filosofie en ethiek"
-    },
-    {
-      "n": 301,
-      "reason": "Losgezongen seculiere elite, macht en wereldbeeld"
-    },
-    {
       "n": 241,
-      "reason": "De Graaf en Paas over de denkers en ideologieën achter Trump"
+      "reason": "Denkers en ideologieën achter Trump, met filosofische en historische analyse van machtsdenken"
+    },
+    {
+      "n": 228,
+      "reason": "Wereldbeeld van superrijke techgiganten als Musk, vergelijkbaar met elitekritiek rond Epstein"
     },
     {
       "n": 309,
-      "reason": "Trump, Poetin en machtsmisbruik door sterke mannen, met De Graaf"
+      "reason": "Chaosstrategie van Trump, Poetin en tirannen, met Beatrice de Graaf en Stefan Paas"
+    },
+    {
+      "n": 235,
+      "reason": "Trump en Musk, eigenbelang versus naastenliefde, ethische kritiek op de machtselite"
+    },
+    {
+      "n": 330,
+      "reason": "Amerikaanse Trump-regering geanalyseerd vanuit christendom en cultuur, met Bijbelse invalshoek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

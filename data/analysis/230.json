@@ -1,18 +1,23 @@
 {
   "episode": 230,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 103469,
+    "segments": 1234,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32309,
-    "output_tokens": 2776,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55412,
+    "output_tokens": 8334,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Amerika & Trump",
-    "Politiek",
-    "Technologie & AI"
+    "Technologie & AI",
+    "God & geloof"
   ],
   "guests": [
     "Rob de Wijk"
@@ -20,339 +25,288 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, inauguratie centraal in het gesprek",
+      "note": "Amerikaanse president; centrale figuur in de 'Bokito-wereldorde' en plannen rond Groenland, Panama en Canada",
       "start_seconds": 28,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 45
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president, streeft naar invloedssferen",
-      "start_seconds": 275,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; vergeleken met Trump wat betreft invloedssferen en oorlog in Oekraïne",
+      "start_seconds": 857,
+      "mention_count": 12
     },
     {
       "name": "Joe Biden",
-      "note": "voormalig Amerikaans president, volgens De Wijk effectief en continu met Trump",
+      "note": "Voormalig Amerikaanse president; door Rob de Wijk gezien als voortzetting van Trumps China-beleid",
       "start_seconds": 303,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
-    },
-    {
-      "name": "Xi Jinping",
-      "note": "Chinese leider, als autocraat genoemd (China)",
-      "start_seconds": 657,
-      "wiki_checked": true,
-      "wiki_pageid": 2193479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Xi_Jinping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg/250px-Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "techondernemer, algoritmen van X als vorm van censuur",
-      "start_seconds": 705,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "JD Vance",
-      "note": "Amerikaans vicepresident, dreigde met defensie en Big Tech",
-      "start_seconds": 1558,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Alexander Lukashenko",
-      "note": "president van Belarus, sloot akkoord met Poetin",
-      "start_seconds": 1670,
-      "wiki_checked": true,
-      "wiki_pageid": 95965,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aleksandr_Loekasjenko",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Alexander_Lukashenko_%282020-09-03%29_01.jpg/250px-Alexander_Lukashenko_%282020-09-03%29_01.jpg"
+      "mention_count": 15
     },
     {
       "name": "Sergej Sjojgoe",
-      "note": "toenmalig Russisch minister van Defensie",
+      "note": "Russische minister van Defensie tijdens een veiligheidsconferentie in Moskou",
       "start_seconds": 1066,
-      "wiki_checked": true,
-      "wiki_pageid": 885383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sergej_Sjojgoe",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Official_portrait_of_Sergey_Shoigu.jpg/250px-Official_portrait_of_Sergey_Shoigu.jpg"
-    },
-    {
-      "name": "Sergej Lavrov",
-      "note": "Russisch minister van Buitenlandse Zaken",
-      "start_seconds": 1066,
-      "wiki_checked": true,
-      "wiki_pageid": 1388627,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sergej_Lavrov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9B%D0%B0%D0%B2%D1%80%D0%BE%D0%B2_%2814-02-2022%29_%28cropped%29.jpg/250px-%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9B%D0%B0%D0%B2%D1%80%D0%BE%D0%B2_%2814-02-2022%29_%28cropped%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Valeri Gerasimov",
-      "note": "Russisch generaal",
+      "note": "Russische militaire leider die op de veiligheidsconferentie in Moskou aanwezig was",
       "start_seconds": 1066,
-      "wiki_checked": true,
-      "wiki_pageid": 5629232,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Valeri_Gerasimov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Valery_Gerasimov_official_photo_version_2022-10-03.jpg/250px-Valery_Gerasimov_official_photo_version_2022-10-03.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Ruben Brekelmans",
-      "note": "Nederlands minister van Defensie, kreeg strategische monitor aangeboden",
-      "start_seconds": 1251,
-      "wiki_checked": true,
-      "wiki_pageid": 5509525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruben_Brekelmans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Minister_van_Defensie_Ruben_Pieter_Brekelmans.jpg/250px-Minister_van_Defensie_Ruben_Pieter_Brekelmans.jpg"
-    },
-    {
-      "name": "Keith Kellogg",
-      "note": "gezant van Trump voor Oekraïne",
-      "start_seconds": 1867,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mike Waltz",
-      "note": "veiligheidsadviseur van Trump",
-      "start_seconds": 1861,
-      "wiki_checked": true,
-      "wiki_pageid": 5942903,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mike_Waltz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Michael_Waltz_%2854351608590%29_%28cropped%29.jpg/250px-Michael_Waltz_%2854351608590%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Marco Rubio",
-      "note": "Amerikaanse minister van Buitenlandse Zaken",
-      "start_seconds": 1943,
-      "wiki_checked": true,
-      "wiki_pageid": 2854274,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marco_Rubio",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg/250px-Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg"
-    },
-    {
-      "name": "Itamar Ben-Gvir",
-      "note": "Israëlische minister, stapte uit het kabinet",
-      "start_seconds": 2128,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bezalel Smotrich",
-      "note": "Israëlische minister, extreemrechts",
-      "start_seconds": 2135,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
+      "name": "Sergej Lavrov",
+      "note": "Russische minister van Buitenlandse Zaken",
+      "start_seconds": 1066,
+      "mention_count": 1
     },
     {
       "name": "Josef Stalin",
-      "note": "genoemd bij Yalta",
+      "note": "Sovjetleider; genoemd in de context van de conferentie van Jalta",
       "start_seconds": 1029,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
+      "mention_count": 1
     },
     {
       "name": "Winston Churchill",
-      "note": "genoemd bij Yalta",
+      "note": "Brits premier; deelnemer aan de conferentie van Jalta",
       "start_seconds": 1029,
-      "wiki_checked": true,
-      "wiki_pageid": 13978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winston_Churchill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sir_Winston_Churchill.jpg/250px-Sir_Winston_Churchill.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Franklin Roosevelt",
-      "note": "genoemd bij Yalta",
+      "name": "Franklin D. Roosevelt",
+      "note": "Amerikaans president; deelnemer aan de conferentie van Jalta",
       "start_seconds": 1029,
-      "wiki_checked": true,
-      "wiki_pageid": 36850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/FDR_1944_Color_Portrait_%28cropped%29.jpg/250px-FDR_1944_Color_Portrait_%28cropped%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Techondernemer; volgens Rob de Wijk achter de invloed van sociale media-algoritmes",
+      "start_seconds": 692,
+      "mention_count": 1
+    },
+    {
+      "name": "Aleksandr Loekasjenko",
+      "note": "President van Belarus; opgenomen in Russische invloedssfeer",
+      "start_seconds": 1670,
+      "mention_count": 2
+    },
+    {
+      "name": "Mike Waltz",
+      "note": "Amerikaanse veiligheidsadviseur van Trump; sprak over onderhandelingen over Oekraïne",
+      "start_seconds": 1861,
+      "mention_count": 3
+    },
+    {
+      "name": "Keith Kellogg",
+      "note": "Amerikaanse generaal en gezant voor Oekraïne onder Trump",
+      "start_seconds": 1867,
+      "mention_count": 1
+    },
+    {
+      "name": "Marco Rubio",
+      "note": "Amerikaans minister van Buitenlandse Zaken onder Trump",
+      "start_seconds": 1969,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruben Brekelmans",
+      "note": "Nederlands minister van Defensie aan wie een strategische monitor werd aangeboden",
+      "start_seconds": 1238,
+      "mention_count": 1
+    },
+    {
+      "name": "Gijs Tuinman",
+      "note": "Nederlands staatssecretaris van Defensie; sprak over werving bij de krijgsmacht",
+      "start_seconds": 2901,
+      "mention_count": 1
+    },
+    {
+      "name": "Kajsa Ollongren",
+      "note": "Voormalig Nederlands minister van Defensie; in eerdere aflevering besproken",
+      "start_seconds": 2790,
+      "mention_count": 1
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "Schrijfster en publiciste die pleit voor religie als bindmiddel voor het Westen",
+      "start_seconds": 2704,
+      "mention_count": 2
+    },
+    {
+      "name": "Itamar Ben-Gvir",
+      "note": "Israëlische minister die uit het kabinet stapte over Gaza-beleid",
+      "start_seconds": 2128,
+      "mention_count": 2
+    },
+    {
+      "name": "Bezalel Smotrich",
+      "note": "Israëlische minister; genoemd naast Ben-Gvir",
+      "start_seconds": 2137,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Zwijs",
+      "note": "Onderzoeker bij het HCSS die berekende dat veel staakt-het-vuren niet standhoudt",
+      "start_seconds": 2022,
+      "mention_count": 1
+    },
+    {
+      "name": "Petrus",
+      "note": "Apostel; eerste paus volgens de traditie, besproken bij de pauzenlijst in Rome",
+      "start_seconds": 3388,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [],
   "places": [
-    "Oekraïne",
-    "Rusland",
-    "Groenland",
-    "Canada",
-    "Panama",
-    "Gaza",
-    "Israël",
-    "China",
-    "Taiwan",
-    "Zuid-Chinese Zee",
+    "Den Haag",
+    "Leiden",
     "Moskou",
-    "Baltische staten",
+    "Oekraïne",
+    "Groenland",
+    "Panama",
+    "Canada",
     "Litouwen",
     "Estland",
+    "Rusland",
+    "China",
+    "Taiwan",
+    "Gaza",
+    "Israël",
+    "Syrië",
+    "Aleppo",
+    "Joegoslavië",
+    "Kosovo",
+    "Afghanistan",
     "Belarus",
+    "Qatar",
+    "Jalta",
+    "Rome",
+    "Vlissingen",
     "Armenië",
-    "Kazachstan",
-    "Finland",
-    "Zweden",
-    "Yalta",
-    "Verenigde Staten",
-    "Europa",
-    "Afghanistan"
+    "Kazachstan"
   ],
-  "summary_tldr": "Rob de Wijk schetst een 'Bokito-wereldorde' waarin grootmachten als Trump, Poetin en Xi terugkeren naar invloedssferen en landjepik. Europa moet zich verenigen en investeren in defensie om geen speelbal te worden. De Wijk verwacht dat Rusland door overstretch en sancties de grote verliezer van de oorlog in Oekraïne kan worden.",
+  "summary_tldr": "Rob de Wijk stelt dat de wereldorde sinds Trumps inauguratie terugkeert naar een 19e-eeuwse 'Bokito-wereldorde' van grootmachten die invloedssferen opeisen. Hij ziet een gelijkenis tussen Trumps aanspraken en Poetins optreden in Oekraïne, en waarschuwt dat Europa verdeeld en kwetsbaar is. Het gesprek gaat ook over de rol van religie, waarden en sociale media in geopolitiek en samenleving.",
   "summary_points": [
-    "Sinds Trumps inauguratie is er volgens De Wijk een nieuwe, maar eigenlijk 19e-eeuwse wereldorde van machtspolitiek.",
-    "Biden en Trump vertonen veel continuïteit; Trump is alleen rauwer en luidruchtiger.",
-    "Trump en Poetin hanteren dezelfde logica van invloedssferen; het Westen heeft minder geloofwaardigheid om dit te bekritiseren.",
-    "Rusland voert hybride oorlog tegen Europa om NAVO en EU uit elkaar te spelen; Trump doet dat deels ook.",
-    "Sociale media en algoritmen beperken volgens De Wijk de vrijheid van denken en bedreigen democratieën.",
-    "Europa moet investeren in defensie en samenwerken om geen speelbal of vazalstaat te worden.",
-    "Rusland verliest invloed in zijn periferie en dreigt economisch oververhit te raken door oorlogsuitgaven.",
-    "Een vredesakkoord in Oekraïne is mogelijk dit jaar; Trumps team lijkt realistischer.",
-    "Het staakt-het-vuren in Gaza is kwetsbaar; een ideologie kun je niet wegbombarderen."
+    "Rob de Wijk beschrijft een 'Bokito-wereldorde' waarin autocratische leiders als Trump, Poetin en Xi om grondgebied en invloed strijden.",
+    "Volgens De Wijk is Trumps beleid een rauwere voortzetting van Bidens beleid, met vergelijkbare doelen rond China en onderhandelingen over Oekraïne.",
+    "Trumps uitspraken over Groenland, Panama en Canada worden vergeleken met Poetins claims op voormalige Sovjetstaten; het mechanisme is volgens De Wijk hetzelfde.",
+    "De Wijk verwacht een terugkeer van invloedssferen en geopolitieke blokken, met een gevaar dat Europa uit elkaar wordt gespeeld.",
+    "Rusland wordt volgens De Wijk de grote verliezer van de oorlog in Oekraïne, door overstretch, sancties en een oorlogseconomie.",
+    "Hybride oorlogsvoering door Rusland in Europa (sabotage, cyberaanvallen) wordt gezien als een reële vorm van oorlog die Europa moet erkennen.",
+    "Sociale media-algoritmes worden door beide gesprekspartners gezien als een beperking van vrijheid en een bron van polarisatie.",
+    "Religie speelt volgens De Wijk weinig rol in de geopolitiek zelf, maar wel in het denken van mensen en op lokaal en regionaal niveau.",
+    "Waarden zijn volgens De Wijk geen exportartikel meer; ze fungeren als input voor beleid, en belangen wegen zwaarder in internationale betrekkingen.",
+    "De Wijk benadrukt dat burgers recht hebben op geïnformeerde besluitvorming, en zijn drijfveer is het bestrijden van onwetendheid in het debat."
   ],
   "chapters": [
     {
+      "start_seconds": 0,
+      "title": "Introductie en YouTube-kanaal",
+      "summary": "David Boogerd introduceert de aflevering en vraagt luisteraars het nieuwe YouTube-kanaal te steunen."
+    },
+    {
       "start_seconds": 129,
-      "title": "Podcasten over de oorlog",
-      "summary": "Kennismaking en gesprek over de duizenden afleveringen van Boekestijn en De Wijk en het werken op afstand."
+      "title": "Een nieuwe Bokito-wereldorde",
+      "summary": "Rob de Wijk schetst de nieuwe wereldorde sinds Trumps inauguratie en vergelijkt die met Bidens beleid."
     },
     {
-      "start_seconds": 282,
-      "title": "Trump, Biden en een kantelpunt",
-      "summary": "De Wijk betoogt dat Biden en Trump veel continuïteit tonen, maar dat Trump de wereld rauwer maakt."
+      "start_seconds": 600,
+      "title": "Democratie, censuur en sociale media",
+      "summary": "Het gesprek gaat over afnemende democratie en de rol van algoritmes in het denken van mensen."
     },
     {
-      "start_seconds": 638,
-      "title": "Bokito-wereld en algoritmen",
-      "summary": "Autocraten domineren en sociale media beperken volgens De Wijk de vrijheid van denken."
+      "start_seconds": 857,
+      "title": "Invloedssferen en Poetin",
+      "summary": "De Wijk vergelijkt Trumps claims met Poetins invloedssfeer en beschrijft een Moskou-ervaring met de Russische elite."
     },
     {
-      "start_seconds": 875,
-      "title": "Invloedssferen en landjepik",
-      "summary": "Trump en Poetin claimen gebieden; De Wijk vertelt over zijn bezoek aan Moskou en de roep om Yalta."
+      "start_seconds": 1165,
+      "title": "Hybride oorlog en Europese defensie",
+      "summary": "Discussie over Russische hybride aanvallen, de afhankelijkheid van de VS en de noodzaak van Europese defensie."
     },
     {
-      "start_seconds": 1170,
-      "title": "Hybride oorlog en Europese zwakte",
-      "summary": "Rusland voert hybride aanvallen uit; het grootste probleem is volgens De Wijk Europa's eigen verdeeldheid."
+      "start_seconds": 2001,
+      "title": "Oorlog in Oekraïne en Gaza",
+      "summary": "Verwachtingen over vredesonderhandelingen en de kwetsbaarheid van staakt-het-vuren in Gaza."
     },
     {
-      "start_seconds": 1423,
-      "title": "Waarom investeren in defensie?",
-      "summary": "Om geen speelbal of vazalstaat te worden en onafhankelijker van de VS te zijn."
+      "start_seconds": 2261,
+      "title": "De rol van religie",
+      "summary": "Religie speelt volgens De Wijk geopolitiek nauwelijks een rol, maar wel in identiteit en conflicten; Stefan Paas reflecteert op religieus-nationalisme."
     },
     {
-      "start_seconds": 1597,
-      "title": "Rusland als verliezer",
-      "summary": "Verlies van invloedssfeer, overstretch en sancties maken Rusland kwetsbaar; vredesakkoord mogelijk."
-    },
-    {
-      "start_seconds": 1990,
-      "title": "Gaza en het staakt-het-vuren",
-      "summary": "Kans dat de wapenstilstand niet standhoudt; guerrillastrijd en extremisme."
+      "start_seconds": 3255,
+      "title": "Persoonlijke drijfveren",
+      "summary": "De Wijk vertelt over zijn niet-religieuze achtergrond en zijn drijfveer om besluitvorming te informeren."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 637,
+      "start_seconds": 394,
       "speaker": "Rob de Wijk",
-      "text": "Ik noem het een Bokito-wereld, waarbij de Bokito's strijden om de hoogste plek op de apenrots.",
-      "note": "Kernmetafoor van de aflevering."
+      "text": "Het is een van de meest effectieve presidenten geweest die er is.",
+      "note": "Een opvallende verdediging van Biden die tegen de heersende publieke opinie ingaat."
     },
     {
-      "start_seconds": 1344,
+      "start_seconds": 1376,
       "speaker": "Rob de Wijk",
-      "text": "Het probleem heet niet Trump, het probleem heet niet Poetin, het probleem zijn wijzelf.",
-      "note": "Scherp oordeel over Europese verdeeldheid."
+      "text": "Het probleem is helemaal niet de buitenwereld, het probleem heet niet Trump, het probleem heet niet Poetin, het probleem zijn wijzelf.",
+      "note": "Een scherpe conclusie die de verantwoordelijkheid bij Europa zelf legt."
     },
     {
-      "start_seconds": 1451,
+      "start_seconds": 1447,
       "speaker": "Rob de Wijk",
       "text": "Wil je speler of speelbal zijn?",
-      "note": "Kort antwoord op de vraag waarom Europa moet investeren in defensie."
+      "note": "Een korte, kernachtige formulering van het dilemma voor kleine landen als Nederland."
     },
     {
-      "start_seconds": 2210,
+      "start_seconds": 2208,
       "speaker": "Rob de Wijk",
-      "text": "Ik sta er als een chirurg die opereert; ik heb nog nooit een minuut wakker gelegen.",
-      "note": "Persoonlijk inkijkje in zijn analytische houding."
-    },
-    {
-      "start_seconds": 2092,
-      "speaker": "David Boogerd",
-      "text": "Je kan een ideologie niet wegbombarderen.",
-      "note": "Beknopt inzicht over Gaza."
+      "text": "Ik heb nog nooit één minuut hiervan wakker gelegen.",
+      "note": "Een nuchtere distantie die contrasteert met de emotionele betrokkenheid van de presentator."
     }
   ],
   "keywords": [
     "Bokito-wereldorde",
-    "invloedssfeer",
+    "invloedssferen",
+    "geopolitiek",
+    "hybride oorlog",
+    "Oekraïne",
     "Trump",
     "Poetin",
-    "hybride oorlogvoering",
-    "Oekraïne",
-    "NAVO",
-    "algoritme",
+    "algoritmes",
     "defensie",
-    "Yalta",
-    "Gaza",
-    "autocratie"
+    "waarden en belangen",
+    "religie",
+    "Jalta"
   ],
-  "quotes": [],
+  "quotes": [
+    "We bevinden ons in een nieuwe wereldorde sinds de inauguratie van Trump.",
+    "Een 'Bokito-wereldorde', dat zegt buitenlandexpert Rob de Wijk."
+  ],
   "similar": [
     {
       "n": 315,
-      "reason": "Rob de Wijk over de nieuwe wereldorde, Trump en grootmachten"
+      "reason": "Nieuwe wereldorde met Rob de Wijk, dezelfde gast en hetzelfde geopolitieke thema"
     },
     {
       "n": 284,
-      "reason": "Brute machtspolitiek, Groenland, Trump en Poetin; Europa moet reageren"
-    },
-    {
-      "n": 248,
-      "reason": "Wie bepaalt de nieuwe wereldorde? Amerika, Trump en geopolitiek"
-    },
-    {
-      "n": 239,
-      "reason": "VS heeft Europa verraden; Europa moet serieus worden en zich verdedigen"
+      "reason": "Brute machtspolitiek, Trump en Poetin, Groenland en Europa: sterk overlappend onderwerp"
     },
     {
       "n": 309,
-      "reason": "Chaosstrategie van Trump, Poetin en Xi als sterke mannen"
+      "reason": "Chaosstrategie van Trump en Poetin, zelfde geopolitieke spanningen en Beatrice de Graaf"
+    },
+    {
+      "n": 248,
+      "reason": "Wie bepaalt de nieuwe wereldorde? Zelfde kernvraag over grootmachten en macht"
+    },
+    {
+      "n": 326,
+      "reason": "Geopolitieke dreiging, Trump en een kwetsbaar Westen, met Europese veiligheid centraal"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

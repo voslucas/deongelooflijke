@@ -1,18 +1,23 @@
 {
   "episode": 201,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112947,
+    "segments": 1188,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30840,
-    "output_tokens": 2317,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58087,
+    "output_tokens": 3213,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Dood & rouw",
     "Zingeving & psyche",
-    "Wetenschap & kosmos",
-    "Samenleving & migratie"
+    "Dood & rouw",
+    "God & geloof",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Christiaan Rhodius"
@@ -20,77 +25,124 @@
   "people": [
     {
       "name": "Christiaan Rhodius",
-      "note": "arts palliatieve geneeskunde, werkzaam in hospice Bardo, auteur van 'Omdat we leven'",
-      "start_seconds": 5,
-      "wiki_checked": true
+      "note": "arts palliatieve geneeskunde en gast, werkzaam in hospice Bardo",
+      "start_seconds": 13,
+      "mention_count": 60
     },
     {
-      "name": "Hanneke",
-      "note": "echtgenote van Christiaan Rhodius, onderzoekster in Oslo",
-      "start_seconds": 132,
-      "wiki_checked": true
-    },
-    {
-      "name": "Els van Wijngaarden",
-      "note": "gast uit eerdere aflevering over voltooid leven",
-      "start_seconds": 557,
-      "wiki_checked": true
-    },
-    {
-      "name": "Geert Wilders",
-      "note": "politicus, als voorbeeld van iemand die door iets onzichtbaars gedreven wordt",
-      "start_seconds": 699,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 129,
+      "mention_count": 50
     },
     {
       "name": "Ellie",
-      "note": "eerste patiënt van Christiaan in het ziekenhuis, kankerpatiënte die luisterend gehoor kreeg",
-      "start_seconds": 813,
-      "wiki_checked": true
-    },
-    {
-      "name": "Luc Deliens",
-      "note": "Belgische hoogleraar, sterven als sociaal fenomeen met een medische component",
-      "start_seconds": 2064,
-      "wiki_checked": true,
-      "wiki_pageid": 2302349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Luc_Deliens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Luc_deliens-1519092662.JPG/250px-Luc_deliens-1519092662.JPG"
+      "note": "patiënte met uitgezaaide kanker die Rhodius als consulent ontmoette",
+      "start_seconds": 797,
+      "mention_count": 8
     },
     {
       "name": "John Bowlby",
-      "note": "grondlegger van de hechtingstheorie",
-      "start_seconds": 2125,
-      "wiki_checked": true,
-      "wiki_pageid": 599470,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Bowlby"
+      "note": "psychiater en grondlegger van de hechtingstheorie",
+      "start_seconds": 2100,
+      "mention_count": 2
+    },
+    {
+      "name": "Luc Deliens",
+      "note": "Belgisch professor die over sterven als sociaal fenomeen sprak",
+      "start_seconds": 2025,
+      "mention_count": 1
+    },
+    {
+      "name": "Sylvia Bromet",
+      "note": "journalist die de podcast Aangekondigd Einde maakte",
+      "start_seconds": 2725,
+      "mention_count": 2
+    },
+    {
+      "name": "Tim Overdiek",
+      "note": "coach die vraagt naar wat op iemands grafsteen moet staan",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; Stefan Paas noemt zijn spreuk 'si fallor sum'",
+      "start_seconds": 4010,
+      "mention_count": 2
+    },
+    {
+      "name": "Descartes",
+      "note": "filosoof, vergeleken met Augustinus' spreuk",
+      "start_seconds": 4020,
+      "mention_count": 1
+    },
+    {
+      "name": "Els van Enghagen",
+      "note": "gast in eerdere aflevering over voltooid leven",
+      "start_seconds": 560,
+      "mention_count": 1
+    },
+    {
+      "name": "Valerie",
+      "note": "patiënte in het hospice in de podcast Aangekondigd Einde",
+      "start_seconds": 2840,
+      "mention_count": 4
+    },
+    {
+      "name": "Saskia",
+      "note": "ongeneeslijk zieke vrouw uit het boek, wier ziekenhuisopname niemand bespreekt",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "Wilders",
+      "note": "politicus, als voorbeeld van iemand die gedreven wordt door onzichtbare motieven",
+      "start_seconds": 700,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "figuur uit de evangeliën; genezingsverhalen als voorbeeld van luisteren",
+      "start_seconds": 3560,
+      "mention_count": 4
     }
   ],
   "books": [
     {
       "title": "Omdat we leven",
       "author": "Christiaan Rhodius",
-      "note": "lustrumbundel van hospice Bardo met verhalen uit het hospice",
-      "start_seconds": 1112,
+      "note": "boek over het werk in het hospice Bardo",
+      "start_seconds": 1110,
       "volume_id": "curozgEACAAJ",
       "canonical_title": "Omdat we leven: met zicht op het einde",
       "canonical_author": "Christiaan Rhodius",
       "isbn13": "9789492495938",
       "isbn10": "9492495937",
       "thumbnail": ""
+    },
+    {
+      "title": "Aangekondigd einde",
+      "author": "Sylvia Bromet",
+      "note": "podcastdrieluik over het hospice",
+      "start_seconds": 2725
     }
   ],
   "bible_refs": [
     {
       "ref": "Prediker 12",
-      "note": "poëtische beschrijving van het binnenkruipen van de dood in het leven (ouderdom, kapperbes)",
-      "start_seconds": 420
+      "note": "dood als kracht die langzaam binnenkruipt in het leven; ogen, oren en stem worden minder",
+      "start_seconds": 372
+    },
+    {
+      "ref": "Marcus 3:1-5",
+      "note": "genezing van de man met de verschrompelde hand in de synagoge op sabbat",
+      "start_seconds": 3540
+    },
+    {
+      "ref": "Johannes 5:1-9",
+      "note": "Jezus vraagt de man die 38 jaar ziek is of hij beter wil worden bij het badhuis van Betesda",
+      "start_seconds": 3650
     }
   ],
   "places": [
@@ -98,120 +150,133 @@
     "Oslo",
     "Amsterdam",
     "Groningen",
-    "Utrecht"
+    "België"
   ],
-  "summary_tldr": "David Boogerd praat met arts palliatieve geneeskunde Christiaan Rhodius en Stefan Paas over de dood als onderdeel van het leven. Rhodius pleit ervoor de dood te normaliseren in plaats van te problematiseren en benadrukt dat sterven vooral een sociaal proces van verbondenheid is. Zijn eigen hersentumor en zijn ervaringen in het hospice onderstrepen dat goed luisteren en nabijheid centraal staan.",
+  "summary_tldr": "Christiaan Rhodius, palliatief arts in hospice Bardo, pleit ervoor de dood te normaliseren in plaats van te problematiseren. Volgens hem doen we het leven tekort als we de dood negeren, en is verbondenheid met elkaar essentieel in het sterfproces en in het leven. Stefan Paas en David Boogerd denken mee over sterfkunst, geloof en het luisteren naar de ander.",
   "summary_points": [
-    "De dood wordt in onze cultuur geproblematiseerd; Rhodius wil haar normaliseren als onderdeel van het leven.",
-    "De dood is universeel en tegelijk hoogstpersoonlijk, een thema waarop ieder zijn eigen improvisatie maakt.",
-    "Een gesprek over de dood kan helpen om elkaar ook in andere polariserende kwesties beter te verstaan.",
-    "Het verhaal van Ellie laat zien dat luisteren naar wat iemand drijft belangrijker kan zijn dan medisch ingrijpen.",
-    "Palliatieve zorg begint al bij de diagnose van een ongeneeslijke ziekte en gaat over het welzijn van de patiënt tot het einde.",
-    "Rhodius' hersentumor op 32-jarige leeftijd maakte de dood voor hem concreet en niet langer theoretisch.",
-    "Gewenning aan de dood bestaat, maar het verdriet en de rouw blijven.",
-    "Volgens Luc Deliens is sterven een sociaal fenomeen met een medische component.",
-    "Bowlby's hechtingstheorie verklaart waarom verbondenheid op het sterfbed tegenwicht biedt aan paniek.",
-    "Stefan Paas vraagt wat leven eigenlijk is: biologisch of relationeel."
+    "Rhodius vindt dat we het leven tekort doen als we de dood negeren en pleit voor normalisering van het gesprek erover",
+    "De dood wordt te vaak geproblematiseerd als probleem met oplossing, terwijl het onderdeel van het leven is",
+    "Palliatieve zorg gaat over welzijn en luisteren naar de persoonlijke verhalen van patiënten",
+    "Rhodius' eigen hersentumor in 2010 maakte de dood concreet, al zag hij hem niet per se als vijand",
+    "Sterven is een sociaal proces; hechtingstheorie van Bowlby laat zien dat verbondenheid ook bij de dood cruciaal is",
+    "Het relationele aspect van het leven wordt vaak ondergesneeuwd door werk en verplichtingen",
+    "Het luisteren naar het 'ongeziene' achter het gedrag van anderen kan ook maatschappelijk verbinden",
+    "Geloof speelt volgens de gasten een rol, maar bepaalt niet automatisch een vredige sterfdood",
+    "Stefan Paas' grafsteen-tekst 'hij ging voor bloei' en zijn uitvaartkeuze (Psalm 43) illustreren het thema"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Waarom praten over de dood",
-      "summary": "Opening en kennismaking met Christiaan Rhodius, zijn leven in Noorwegen en zijn urgentie om over de dood te spreken."
+      "title": "Inleiding en kennismaking",
+      "summary": "Boogerd introduceert het thema en gast Rhodius, die in Noorwegen woont, en er wordt luchtig gesproken over Noorse cultuur."
     },
     {
-      "start_seconds": 424,
-      "title": "Normaliseren in plaats van problematiseren",
-      "summary": "Rhodius legt uit dat de dood geen probleem met oplossing is en dat praten erover ook maatschappelijk verbindt, met Prediker 12 als beeld."
+      "start_seconds": 300,
+      "title": "Waarom over de dood praten?",
+      "summary": "Rhodius legt uit waarom hij vindt dat we de dood moeten bespreken en dat het leven anders verarmt als we dat niet doen."
     },
     {
-      "start_seconds": 793,
+      "start_seconds": 780,
       "title": "Het verhaal van Ellie",
-      "summary": "Een eerste patiënt laat zien dat luisteren en noteren wat iemand dwarszit meer waard kan zijn dan medisch handelen."
+      "summary": "Rhodius vertelt over zijn eerste patiënte, die vooral geluisterd wilde worden, en wat dit zijn medische denken veranderde."
     },
     {
-      "start_seconds": 1020,
-      "title": "Palliatieve zorg en het hospice",
-      "summary": "Wat palliatieve zorg inhoudt, het hospice als leefhuis en de vraag of het werk zwaar is."
+      "start_seconds": 1080,
+      "title": "Palliatieve zorg en het eigen verhaal",
+      "summary": "Rhodius beschrijft het verschil tussen palliatieve zorg en het stervensproces en hoe zijn eigen hersentumor hem raakte."
     },
     {
-      "start_seconds": 1467,
-      "title": "De hersentumor en gewenning",
-      "summary": "Rhodius vertelt over zijn eigen diagnose op 32-jarige leeftijd, het onwerkelijke gevoel daarna en de vraag of je went aan de dood."
-    },
-    {
-      "start_seconds": 1917,
+      "start_seconds": 1980,
       "title": "Sterven als sociaal proces",
-      "summary": "Waarom stervenden niet in paniek lijken: Deliens' stelling en Bowlby's hechtingstheorie over verbondenheid tot het einde."
+      "summary": "Via hechtingstheorie van Bowlby betogen de gasten dat verbondenheid in het sterven en het leven essentieel is."
+    },
+    {
+      "start_seconds": 2700,
+      "title": "Angst, luisteren en fragment uit Aangekondigd Einde",
+      "summary": "Een fragment van de podcast over Valerie roept vragen op over angst, geloof en de rol van de luisterende zorgverlener."
+    },
+    {
+      "start_seconds": 3500,
+      "title": "Geloof, goed sterven en Jezus-verhalen",
+      "summary": "De gesprekspartners bespreken of geloof verschil maakt op het sterfbed en wat Jezus-verhalen leren over luisteren."
+    },
+    {
+      "start_seconds": 3950,
+      "title": "Grafsteen, uitvaart en afsluiting",
+      "summary": "De gasten reflecteren op wat er op hun grafsteen zou moeten staan en sluiten af met de kern van verbondenheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 13,
+      "start_seconds": 797,
+      "speaker": "Christiaan Rhodius",
+      "text": "Ellie zei: je bent de eerste dokter die naar me heeft geluisterd.",
+      "note": "Laat zien hoe weinig ruimte patiënten vaak krijgen om gehoord te worden."
+    },
+    {
+      "start_seconds": 1540,
       "speaker": "Christiaan Rhodius",
       "text": "Als we de dood negeren, doen we het leven tekort.",
-      "note": "Kernstelling van de aflevering."
+      "note": "Kernstelling van het gesprek die de urgentie van het onderwerp verklaart."
     },
     {
-      "start_seconds": 1110,
-      "speaker": "Christiaan Rhodius",
-      "text": "Je bent de eerste dokter die het zo belangrijk vond wat ik zei, dat hij het heeft genoteerd.",
-      "note": "Ontroerende reactie van Ellie die laat zien wat luisteren doet."
+      "start_seconds": 2100,
+      "speaker": "Stefan Paas",
+      "text": "Besef van eigen sterfelijkheid geeft vrijmoedigheid. Het maakt het mogelijk voor de zorgverlener zich op te stellen als leerling.",
+      "note": "Een verrassende omkering: sterfelijkheid als bron van nederigheid in de zorg."
     },
     {
-      "start_seconds": 1666,
-      "speaker": "Christiaan Rhodius",
-      "text": "Het blijft rouw met AU en het levert rouw met OU.",
-      "note": "Nuchtere, eerlijke omschrijving van de intensiteit van het werk."
+      "start_seconds": 2880,
+      "speaker": "David Boogerd",
+      "text": "Ik zat toevallig jouw boek te lezen terwijl mijn dochter aan het spelen was, en dat je word zo verscheurd.",
+      "note": "Persoonlijk en emotioneel moment dat de confrontatie met sterfelijkheid concreet maakt."
     },
     {
-      "start_seconds": 1673,
-      "speaker": "Christiaan Rhodius",
-      "text": "Je loopt het ziekenhuis uit met je diagnose en de tram rijdt gewoon nog steeds voorbij.",
-      "note": "Herkenbaar beeld van het stilstaan van je wereld."
-    },
-    {
-      "start_seconds": 2125,
-      "speaker": "Christiaan Rhodius",
-      "text": "Sterven is een sociaal fenomeen met een medische component.",
-      "note": "Draait het gangbare denken over sterven om."
+      "start_seconds": 3960,
+      "speaker": "Stefan Paas",
+      "text": "Bij mij op mijn grafsteen staat: hij ging voor bloei.",
+      "note": "Een persoonlijke en hoopvolle keuze die het relationele thema samenvat."
     }
   ],
   "keywords": [
-    "dood",
     "palliatieve zorg",
-    "hospice",
-    "sterven",
-    "rouw",
-    "hechtingstheorie",
-    "John Bowlby",
-    "luisteren",
+    "sterfelijkheid",
     "verbondenheid",
-    "Omdat we leven",
-    "improvisatie",
-    "sterfelijkheid"
+    "hechtingstheorie",
+    "sterfkunst",
+    "hospice",
+    "luisteren",
+    "uitvaart",
+    "geloof",
+    "zingeving"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik heb een diepe overtuiging dat als we de dood negeren, dat we het leven tekort doen.",
+    "Het wordt een ontmoeting van stervelingen.",
+    "Als we elkaar kunnen helpen om woorden te geven aan de onderlinge verbondenheid, zit daar zoveel kracht in."
+  ],
   "similar": [
     {
       "n": 274,
-      "reason": "Manu Keirse en Stefan Paas over de dood herwaarderen en normaliseren in de samenleving"
+      "reason": "Herwaardering van de dood, met Manu Keirse; sterk thematisch verwant aan normaliseren van de dood"
     },
     {
       "n": 158,
-      "reason": "Els van Wijngaarden over de dood, voltooid leven en euthanasie; ook besproken persoon"
+      "reason": "Dood, voltooid leven en euthanasie; sterfelijkheid en zingeving in de zorg"
     },
     {
       "n": 87,
-      "reason": "Gesprek over de dood: 'praat erover, niet eroverheen', met Thomas Quartier"
-    },
-    {
-      "n": 320,
-      "reason": "Rouw en omgaan met verlies, persoonlijk verhaal over de dood van naaste"
+      "reason": "Gesprek over de dood en (on)geloof, met Thomas Quartier; zelfde thematiek"
     },
     {
       "n": 244,
-      "reason": "Ongeneeslijk ziek zijn en de angst voor de dood kwijtraken (Lieke Marsman)"
+      "reason": "Lieke Marsman over ongeneeslijke ziekte en de dood; persoonlijke sterfervaring"
+    },
+    {
+      "n": 320,
+      "reason": "Diepe rouw, troost en geloof na het verlies van een dierbare"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

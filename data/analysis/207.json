@@ -1,18 +1,23 @@
 {
   "episode": 207,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109633,
+    "segments": 994,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30827,
-    "output_tokens": 2780,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55669,
+    "output_tokens": 3938,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Filosofie & ethiek",
+    "Zingeving & psyche",
     "Wetenschap & kosmos",
-    "Zingeving & psyche"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Stine Jensen",
@@ -21,199 +26,191 @@
   "people": [
     {
       "name": "Richard Dawkins",
-      "note": "Brits bioloog en prominent nieuw atheïst, een van de Four Horsemen",
+      "note": "Brits bioloog en vertegenwoordiger van het nieuwe atheïsme, een van de Four Horsemen",
       "start_seconds": 176,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 4
     },
     {
       "name": "Christopher Hitchens",
-      "note": "Nieuw atheïst, door Stine bewonderd als held",
+      "note": "Brits-Amerikaans schrijver en een van de Four Horsemen van het atheïsme; held van Stine Jensen",
       "start_seconds": 176,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
+      "mention_count": 2
     },
     {
       "name": "Sam Harris",
-      "note": "Nieuw atheïst die later spiritueler werd en mediteert",
+      "note": "Amerikaans auteur en een van de Four Horsemen; later meer spiritueel, mediteert",
       "start_seconds": 176,
-      "wiki_checked": true,
-      "wiki_pageid": 1218911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Harris_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sam_Harris_01.jpg/250px-Sam_Harris_01.jpg"
+      "mention_count": 2
     },
     {
       "name": "Daniel Dennett",
-      "note": "Filosoof en nieuw atheïst, een van de Four Horsemen",
+      "note": "Amerikaans filosoof en een van de Four Horsemen van het atheïsme",
       "start_seconds": 176,
-      "wiki_checked": true,
-      "wiki_pageid": 140634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daniel_Dennett",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Daniel_Dennett_in_Venice_2006.png/250px-Daniel_Dennett_in_Venice_2006.png"
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader; 'wij zijn de tijden zelf'",
+      "note": "Kerkvader die zegt dat wij de tijden zelf zijn",
       "start_seconds": 222,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Stefan Paas",
-      "note": "Theoloog; schreef in 2013 samen met Rik Peels een boek over godsbewijzen",
-      "start_seconds": 162,
-      "wiki_checked": true,
-      "wiki_pageid": 1686536,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stefan_Paas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Stefan_Paas_Zwolle_2025.png/250px-Stefan_Paas_Zwolle_2025.png"
+      "mention_count": 1
     },
     {
       "name": "Herman Philipse",
-      "note": "Atheïstisch filosoof, promotor van Rik Peels",
-      "start_seconds": 615,
-      "wiki_checked": true,
-      "wiki_pageid": 145409,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Philipse",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Herman_Philipse-crop.jpg/250px-Herman_Philipse-crop.jpg"
-    },
-    {
-      "name": "Albert Camus",
-      "note": "Franse existentialist, gelezen door Rik in zijn tienerjaren",
-      "start_seconds": 655,
-      "wiki_checked": true,
-      "wiki_pageid": 3570,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Camus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/250px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
-    },
-    {
-      "name": "Jean-Paul Sartre",
-      "note": "Franse existentialist",
-      "start_seconds": 655,
-      "wiki_checked": true,
-      "wiki_pageid": 871,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Paul_Sartre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Paul_Sartre_FP.JPG/250px-Jean-Paul_Sartre_FP.JPG"
-    },
-    {
-      "name": "Simone de Beauvoir",
-      "note": "Franse existentialist",
-      "start_seconds": 655,
-      "wiki_checked": true,
-      "wiki_pageid": 28711,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simone_de_Beauvoir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Simone_de_Beauvoir2.png/250px-Simone_de_Beauvoir2.png"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "Filosoof van 'God is dood', onderwerp van Stines essay",
-      "start_seconds": 808,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "Nederlandse filosoof en opperatheïst, promotor van Stine Jensen en Rik Peels",
+      "start_seconds": 620,
+      "mention_count": 3
     },
     {
       "name": "Redmond O'Hanlon",
-      "note": "Britse reisschrijver en atheïst, wonend in Drenthe",
-      "start_seconds": 1294,
-      "wiki_checked": true,
-      "wiki_pageid": 263940,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Redmond_O%27Hanlon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/RedmondO%27Hanlon_cropped.png/250px-RedmondO%27Hanlon_cropped.png"
+      "note": "Brits reisschrijver en atheïst, citaat uit interview",
+      "start_seconds": 1316,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Darwin",
+      "note": "Naturalist, evolutietheorie; herhaald in het gesprek over de Beagle-reis",
+      "start_seconds": 1316,
+      "mention_count": 1
     },
     {
       "name": "Sigmund Freud",
-      "note": "Verklaarde geloof als projectie van vaderverlangens",
-      "start_seconds": 1382,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "note": "Psychoanalyticus, auteur van De toekomst van een illusie",
+      "start_seconds": 1435,
+      "mention_count": 1
     },
     {
       "name": "Alain de Botton",
-      "note": "Britse filosoof, schreef Religie voor atheïsten",
-      "start_seconds": 2303,
-      "wiki_checked": true,
-      "wiki_pageid": 337751,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alain_de_Botton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Alain_de_Botton.jpg/250px-Alain_de_Botton.jpg"
+      "note": "Brits filosoof, auteur van Religie voor atheïsten",
+      "start_seconds": 2274,
+      "mention_count": 2
+    },
+    {
+      "name": "John Gray",
+      "note": "Brits filosoof die humanisme bekritiseert",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnold Grubben",
+      "note": "Nederlands filosoof die humanisme 'christendom zonder God' noemt",
+      "start_seconds": 2451,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog met de vijf wegen naar het bestaan van God",
+      "start_seconds": 3885,
+      "mention_count": 1
     },
     {
       "name": "Salman Rushdie",
-      "note": "Schrijver met atheïstische thematiek",
-      "start_seconds": 1840,
-      "wiki_checked": true,
-      "wiki_pageid": 79014,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Salman_Rushdie",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Salman_Rushdie_2011_Shankbone.JPG/250px-Salman_Rushdie_2011_Shankbone.JPG"
+      "note": "Schrijver met atheïstische personages; sprak na aanslag over ongeloof",
+      "start_seconds": 1990,
+      "mention_count": 2
     },
     {
       "name": "Ian McEwan",
-      "note": "Schrijver met atheïstische personages",
-      "start_seconds": 1840,
-      "wiki_checked": true,
-      "wiki_pageid": 957455,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ian_McEwan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/IanMcEwan_EIBF2025_i481.jpg/250px-IanMcEwan_EIBF2025_i481.jpg"
+      "note": "Brits schrijver, atheïstische personages in literatuur",
+      "start_seconds": 1830,
+      "mention_count": 1
     },
     {
       "name": "Arundhati Roy",
-      "note": "Schrijfster van The God of Small Things",
-      "start_seconds": 1849,
-      "wiki_checked": true,
-      "wiki_pageid": 1988784,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arundhati_Roy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Arundhati_Roy_W.jpg/250px-Arundhati_Roy_W.jpg"
+      "note": "Indiase schrijfster, The God of Small Things",
+      "start_seconds": 1850,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Cabaretier en satiricus die sceptisch is over god-discussies",
+      "start_seconds": 3564,
+      "mention_count": 3
+    },
+    {
+      "name": "Frans de Waal",
+      "note": "Primatoloog die religie als antropologisch verschijnsel serieus neemt",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast, afwezig; citaat over straling",
+      "start_seconds": 3630,
+      "mention_count": 3
     },
     {
       "name": "Kees Dekker",
-      "note": "Christelijk onderzoeker die evolutietheorie gebruikt in zijn werk",
-      "start_seconds": 2207,
-      "wiki_checked": true
+      "note": "Christelijk bioloog die evolutietheorie bevestigt",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Colin Campbell",
+      "note": "Auteur die zegt dat het Westen naar het Oosten keek",
+      "start_seconds": 3945,
+      "mention_count": 1
+    },
+    {
+      "name": "Helene Bathol",
+      "note": "Oprichter van School of Life",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Graham Greene",
+      "note": "Schrijver, citaat uit The End of the Affair",
+      "start_seconds": 2585,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof, 'God is dood'; inspiratie voor Stine's nieuwe essay",
+      "start_seconds": 810,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Leven zonder God",
       "author": "Rik Peels",
-      "note": "Wat je kunt leren van atheïsten",
-      "start_seconds": 142,
-      "volume_id": "MJAeEQAAQBAJ",
-      "canonical_title": "Leven zonder God: Wat je kunt leren van atheïsten",
+      "note": "Nieuw boek over atheïsme en wat christenen ervan kunnen leren",
+      "start_seconds": 152,
+      "volume_id": "m5G50AEACAAJ",
+      "canonical_title": "Leven zonder God",
       "canonical_author": "Rik Peels",
-      "isbn13": "9789043540902",
-      "isbn10": "9043540900",
-      "thumbnail": "http://books.google.com/books/content?id=MJAeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789043540896",
+      "isbn10": "9043540897",
+      "thumbnail": ""
     },
     {
-      "title": "Oxford Handbook of Atheism",
+      "title": "God bewijzen",
+      "author": "Rik Peels en Stefan Paas",
+      "note": "Boek uit 2013 over het nieuwe atheïsme",
+      "start_seconds": 162,
+      "volume_id": "YIJgBgAAQBAJ",
+      "canonical_title": "God bewijzen",
+      "canonical_author": "Rik Peels, Stefan Paas",
+      "isbn13": "9789460037252",
+      "isbn10": "9460037259",
+      "thumbnail": "http://books.google.com/books/content?id=YIJgBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Religie voor atheïsten",
+      "author": "Alain de Botton",
+      "note": "Pleit ervoor dat atheïsten van religieuze rituelen kunnen leren",
+      "start_seconds": 2274,
+      "volume_id": "WoAvAgAAQBAJ",
+      "canonical_title": "Religie voor atheïsten",
+      "canonical_author": "Alain de Botton",
+      "isbn13": "9789045019949",
+      "isbn10": "9045019949",
+      "thumbnail": "http://books.google.com/books/content?id=WoAvAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "The Oxford Handbook of Atheism",
       "author": "",
-      "note": "Onderscheidt acht soorten atheïsme",
-      "start_seconds": 1515,
+      "note": "Handboek met acht soorten atheïsten",
+      "start_seconds": 1525,
       "volume_id": "jbIVAgAAQBAJ",
       "canonical_title": "The Oxford Handbook of Atheism",
       "canonical_author": "Stephen Bullivant, Michael Ruse",
@@ -222,157 +219,194 @@
       "thumbnail": "http://books.google.com/books/content?id=jbIVAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Religie voor atheïsten",
-      "author": "Alain de Botton",
-      "note": "Atheïst die waarde ziet in religieuze rituelen",
-      "start_seconds": 2303,
-      "volume_id": "WoAvAgAAQBAJ",
-      "canonical_title": "Religie voor atheïsten: een heidense gebruikersgids",
-      "canonical_author": "Alain de Botton",
-      "isbn13": "9789045019949",
-      "isbn10": "9045019949",
-      "thumbnail": "http://books.google.com/books/content?id=WoAvAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "De toekomst van een illusie",
       "author": "Sigmund Freud",
-      "note": "Geloof als projectie",
-      "start_seconds": 1382,
+      "note": "Freud's kritiek op religie als projectie van vaderverlangen",
+      "start_seconds": 1435,
       "volume_id": "laJULwEACAAJ",
       "canonical_title": "De toekomst van een illusie",
-      "canonical_author": "Sigmund Freud",
+      "canonical_author": "Sigmund Schlomo Freud",
       "isbn13": "9789461059505",
       "isbn10": "9461059507",
+      "thumbnail": ""
+    },
+    {
+      "title": "The End of the Affair",
+      "author": "Graham Greene",
+      "note": "Citaat 'I hated God as though he existed'",
+      "start_seconds": 2585,
+      "volume_id": "0qNaAAAAMAAJ",
+      "canonical_title": "The End of the Affair",
+      "canonical_author": "Graham Greene",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=0qNaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Mes: gedachten over een poging tot moord",
+      "author": "Salman Rushdie",
+      "note": "Rushdie legt uit waarom hij atheïst is",
+      "start_seconds": 3100,
+      "volume_id": "UWGq0AEACAAJ",
+      "canonical_title": "Mes",
+      "canonical_author": "Salman Rushdie",
+      "isbn13": "9789493339248",
+      "isbn10": "9493339246",
+      "thumbnail": ""
+    },
+    {
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "note": "Roman met atheïstische personages",
+      "start_seconds": 1850,
+      "volume_id": "xNzLkQEACAAJ",
+      "canonical_title": "The God of Small Things",
+      "canonical_author": "Arundhati Roy",
+      "isbn13": "9780007143320",
+      "isbn10": "000714332X",
       "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Rome",
-    "Amsterdam",
     "Apeldoorn",
-    "Scandinavië",
-    "Tsjechië",
-    "China",
+    "Amsterdam",
+    "Rome",
+    "Overtoom",
     "Iran",
-    "Drenthe",
-    "Amerika"
+    "India",
+    "Tsjechië",
+    "Scandinavië",
+    "Oost-Nederland",
+    "Israël",
+    "Gaza",
+    "Oekraïne",
+    "Rusland",
+    "China",
+    "Congo",
+    "Borneo",
+    "Drenthe"
   ],
-  "summary_tldr": "Filosofen Stine Jensen (atheïst) en Rik Peels (christen) bespreken hoe het debat over God en atheïsme is verschoven van strijdbaar naar persoonlijker en verdiepender. Ze praten over biografie en drijfveren achter (on)geloof, het gebrek aan vrouwelijke atheïsten, evolutie, lijden en de zoektocht naar zingeving zonder God.",
+  "summary_tldr": "Filosofen Stine Jensen (atheïst) en Rik Peels (christen) bespreken hoe het debat over geloof en ongeloof verandert, van fel strijdbaar atheïsme naar een meer open zoektocht naar zingeving. Ze onderzoeken biografische drijfveren, de rol van argumenten, de zingevingscrisis en de vraag of de toekomst atheïstisch is. Het gesprek is een voorbeeld van hoe een constructief gesprek tussen gelovigen en ongelovigen kan verlopen.",
   "summary_points": [
-    "Het felle nieuwe atheïsme van Dawkins en Hitchens maakt plaats voor een menselijker gesprek",
-    "Argumenten doen ertoe, maar biografie en ervaring spelen een grote rol in (on)geloof",
-    "Atheïsme zoekt naar een positieve invulling: wat bezielt de atheïst?",
-    "Stine groeide Scandinavisch op zonder God en Bijbel; haar atheïsme begon als afkeer van kerkelijk conservatisme",
-    "Atheïsme is een divers palet: existentialisten, humanisten, marxisten en religieuze atheïsten",
-    "Atheïsme is overwegend mannelijk, mede door het beeld van de Four Horsemen",
-    "Rik ziet evolutie als waar en verenigbaar met geloof, Stine niet",
-    "Lijden en kwaad vormen een gedeelde uitdaging voor gelovigen en atheïsten",
-    "Atheïsme moet inclusiever en niet anti-religieus worden"
+    "Het religiedebat is minder verhit dan tien jaar geleden, toen het nieuwe atheïsme op zijn hoogtepunt was.",
+    "Jensen ziet een verschuiving van strijdbaar atheïsme naar een zoektocht naar positieve zingeving zonder God.",
+    "Beide gasten benadrukken dat biografie en opvoeding een grote rol spelen in geloof en ongeloof, naast argumenten.",
+    "Het atheïsme is vrijwel altijd mannelijk; de vraag waarom weinig vrouwen atheïst worden blijft onopgelost.",
+    "Atheïsme wordt door Peels bekritiseerd als ontkenning zonder positieve invulling, en door Jensen verdedigd als open en inclusief.",
+    "De zingevingscrisis onder jongeren wordt besproken, met de vraag wat atheïsme en religie hieraan kunnen bieden.",
+    "Beide gasten verwerpen het idee van een seculiere toekomst als vanzelfsprekend; de secularisatiethese is achterhaald.",
+    "Religiekritiek staat onder druk door polarisatie; kritiek op de islam wordt door rechts gebruikt, terwijl religieus identitair links Islamkritiek als racisme afdoet.",
+    "Jensen pleit voor een 'baldadig teder atheïsme' met cultuur, kunst en gemeenschap als positieve invulling.",
+    "Het gesprek vergelijkt het debat over God met andere verhitte debatten zoals Israël/Palestina en gender."
   ],
   "chapters": [
     {
-      "start_seconds": 35,
-      "title": "Inleiding en veranderende tijden",
-      "summary": "David introduceert de gasten en hun nieuwe kijk op het religiedebat na het hoogtepunt van het nieuwe atheïsme."
+      "start_seconds": 0,
+      "title": "Introductie en het veranderende debat",
+      "summary": "Presentator David Boogerd stelt de gasten voor en de vraag of het religiedebat is veranderd."
     },
     {
       "start_seconds": 300,
-      "title": "Van strijdbaar naar zoekend atheïsme",
-      "summary": "Stine vertelt over haar fascinatie voor Hitchens en hoe haar atheïsme verschuift naar de vraag wat de atheïst bezielt."
+      "title": "Van strijdbaar atheïsme naar zingeving",
+      "summary": "Jensen en Peels reflecteren op het nieuwe atheïsme en hun eigen veranderingen."
     },
     {
-      "start_seconds": 615,
-      "title": "Rik en zijn fascinatie voor atheïsme",
-      "summary": "Rik vertelt over zijn promotie bij Philipse, zijn twijfels en zijn verhuizing naar Amsterdam."
+      "start_seconds": 620,
+      "title": "Biografie en opvoeding als drijfveer",
+      "summary": "Beide gasten vertellen over hun opvoeding en waarom ze gelovig of atheïst zijn geworden."
     },
     {
-      "start_seconds": 840,
-      "title": "Opvoeding en biografie",
-      "summary": "Stine beschrijft haar Deense opvoeding zonder God; ze bespreken de afkeer van kerkelijke uitingsvormen."
+      "start_seconds": 1420,
+      "title": "Morele en intellectuele vragen",
+      "summary": "Het gesprek gaat over lijden, evolutie, moraal zonder God en de rol van argumenten."
     },
     {
-      "start_seconds": 1290,
-      "title": "Soorten atheïsten en gebrek aan vrouwen",
-      "summary": "Bespreking van het Oxford Handbook of Atheism, cultuuratheïsme en waarom weinig vrouwen zich atheïst noemen."
+      "start_seconds": 2300,
+      "title": "Zingevingscrisis en de rol van gemeenschap",
+      "summary": "Discussie over eenzaamheid, rituelen en wat atheïsme te bieden heeft."
     },
     {
-      "start_seconds": 1920,
-      "title": "Onwaar of onzin, en evolutie",
-      "summary": "Ze bespreken het verschil tussen onwaar en onzin en of evolutie met geloof samengaat."
+      "start_seconds": 3000,
+      "title": "Polarisatie en religiekritiek",
+      "summary": "Bespreking van spanningen rond islamkritiek, politiek en het publieke debat."
     },
     {
-      "start_seconds": 2200,
-      "title": "Lijden en omgaan met het kwaad",
-      "summary": "Lijden als gedeelde uitdaging, met de benaderingen van De Botton en Sam Harris."
+      "start_seconds": 3560,
+      "title": "Arjen Lubach en het 'straling'-debat",
+      "summary": "Discussie over een metafoor van Lubach en de vraag of argumenten nog relevant zijn."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Toekomst en slotbeschouwing",
+      "summary": "De gasten denken na over een atheïstische toekomst en de ervaring van het gesprek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 182,
-      "speaker": "Rik Peels",
-      "text": "Dawkins noemde religie als het pokkenvirus, maar moeilijker uit te roeien.",
-      "note": "Illustreert de felheid van het nieuwe atheïsme."
-    },
-    {
-      "start_seconds": 260,
-      "speaker": "Stine Jensen",
-      "text": "Mensen zijn niet een brein op pootjes.",
-      "note": "Kernpunt van het vermenselijken van het debat."
-    },
-    {
       "start_seconds": 1000,
       "speaker": "Stine Jensen",
-      "text": "Mijn afkeer was eerder van conservatisme dan van religie.",
-      "note": "Inzicht dat Riks boek haar gaf."
+      "text": "Atheïsme is niet meer anti-religie; het is opener geworden.",
+      "note": "Laat zien hoe het debat is verschoven van bestrijding naar zingeving."
     },
     {
-      "start_seconds": 1770,
+      "start_seconds": 2950,
       "speaker": "Stine Jensen",
-      "text": "Ik had soms het gevoel dat ik een schaakclub binnenliep vol heren.",
-      "note": "Verklaring voor het gebrek aan vrouwelijke atheïsten."
+      "text": "Het humanisme heeft een te dogmatische, ideologische afslag genomen.",
+      "note": "Kritische zelfreflectie op de eigen beweging."
     },
     {
-      "start_seconds": 1953,
+      "start_seconds": 3980,
       "speaker": "Rik Peels",
-      "text": "Ik zie een groot verschil tussen onwaar en onzin.",
-      "note": "Scherp onderscheid voor respectvol gesprek."
+      "text": "Ik geloof dat er een God is, die ons lief heeft, die de kosmos gemaakt heeft, die mij kent.",
+      "note": "Persoonlijke geloofsbelijdenis die het gesprek verdiept."
+    },
+    {
+      "start_seconds": 3920,
+      "speaker": "Stine Jensen",
+      "text": "Ik noem het een teder baldadig atheïsme, om naar Nietzsche te verwijzen.",
+      "note": "Een creatieve positieve invulling van atheïsme."
+    },
+    {
+      "start_seconds": 1850,
+      "speaker": "Rik Peels",
+      "text": "Argumenten doen ertoe, maar er is zoveel meer.",
+      "note": "Samenvatting van de kern van Peels' boek."
     }
   ],
   "keywords": [
     "atheïsme",
-    "nieuw atheïsme",
     "zingeving",
-    "Leven zonder God",
-    "evolutie",
-    "lijden",
-    "Four Horsemen",
+    "secularisatie",
+    "nieuw atheïsme",
+    "religiedebat",
+    "humanisme",
     "cultuuratheïsme",
-    "existentialisme",
-    "biografie",
-    "scientisme"
+    "moraal",
+    "evolutietheorie",
+    "polarisatie",
+    "religiekritiek",
+    "Leven zonder God"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 98,
-      "reason": "Live debat tussen Stine Jensen en Emanuel Rutten over het bestaan van God"
-    },
-    {
-      "n": 146,
-      "reason": "Rik Peels over atheïsme en geloof, met Stefan Paas"
+      "reason": "Live debat over Gods bestaan met Stine Jensen en Emanuel Rutten, zelfde gesprekspartners en thema."
     },
     {
       "n": 189,
-      "reason": "Filosofisch debat over God en atheïsme, argumenten voor Gods bestaan"
+      "reason": "Emanuel Rutten over de sterkte van argumenten voor Gods bestaan, aansluitend bij het debat over argumenten."
     },
     {
-      "n": 19,
-      "reason": "Stine Jensen over atheïsme, yoga en zingeving zonder God"
+      "n": 314,
+      "reason": "Zingevingscrisis en de zoektocht naar betekenis, met Stine Jensen-achtige thema's van zingeving en moderniteit."
     },
     {
-      "n": 150,
-      "reason": "Wetenschap en God: het atheïsme-debat is aan het verschuiven"
+      "n": 218,
+      "reason": "Kees van Ekris over secularisatiemythes en het veranderende beeld van geloof en ongeloof in Nederland."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

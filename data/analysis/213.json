@@ -1,17 +1,22 @@
 {
   "episode": 213,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125377,
+    "segments": 1600,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31736,
-    "output_tokens": 1967,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65970,
+    "output_tokens": 2992,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "God & geloof",
     "Samenleving & migratie",
+    "God & geloof",
     "Geschiedenis"
   ],
   "guests": [
@@ -20,79 +25,99 @@
   "people": [
     {
       "name": "Bea ten Tusscher",
-      "note": "Speciaal Gezant voor religie en levensovertuiging, diplomaat",
-      "start_seconds": 0,
-      "wiki_checked": true
-    },
-    {
-      "name": "James Kennedy",
-      "note": "historicus en Amerikanist, schreef over de jaren zestig in Nederland",
-      "start_seconds": 311,
-      "wiki_checked": true,
-      "wiki_pageid": 754275,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/James-kennedy.jpg/250px-James-kennedy.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader, aan wie een apocrief citaat over hoop wordt toegeschreven",
-      "start_seconds": 797,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "burgerrechtenleider, boog van het universum naar gerechtigheid",
-      "start_seconds": 1034,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
-      "name": "Geert Mak",
-      "note": "schrijver, beschreef de periode 1989-2001",
-      "start_seconds": 1266,
-      "wiki_checked": true,
-      "wiki_pageid": 53925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Mak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Geert_Mak.JPG/250px-Geert_Mak.JPG"
+      "note": "gast; Speciaal Gezant voor religie en levensovertuiging, oud-ambassadeur",
+      "start_seconds": 115,
+      "mention_count": 30
     },
     {
       "name": "Ivan Krastev",
-      "note": "Bulgaarse politiek filosoof, over copycat-houding van Oost-Europa",
-      "start_seconds": 1322,
-      "wiki_checked": true,
-      "wiki_pageid": 5074596,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ivan_Krastev",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ivan_Krastev_2025_BHO-4473.jpg/250px-Ivan_Krastev_2025_BHO-4473.jpg"
+      "note": "Bulgaarse filosoof die over Oost-Europa en kopiëren van het Westen schrijft",
+      "start_seconds": 1320,
+      "mention_count": 1
     },
     {
-      "name": "Franklin D. Roosevelt",
-      "note": "bedenker van de vier vrijheden",
-      "start_seconds": 1586,
-      "wiki_checked": true,
-      "wiki_pageid": 36850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/FDR_1944_Color_Portrait_%28cropped%29.jpg/250px-FDR_1944_Color_Portrait_%28cropped%29.jpg"
+      "name": "Geert Mak",
+      "note": "schrijver en historicus, eerder te gast bij de podcast",
+      "start_seconds": 1410,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "burgerrechtenleider; aangehaald over gerechtigheid en inspiratie",
+      "start_seconds": 1041,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; hoop-citaat dat hem onterecht wordt toegeschreven",
+      "start_seconds": 854,
+      "mention_count": 4
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president; gebruikt religie als wapen in cultuurstrijd",
+      "start_seconds": 2220,
+      "mention_count": 2
+    },
+    {
+      "name": "Erin Wilson",
+      "note": "hoogleraar Groningen over religie en buitenlandse politiek",
+      "start_seconds": 2175,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Dirk Snel",
+      "note": "historicus; citaat over waarom we mensenrechten nodig hebben",
+      "start_seconds": 2800,
+      "mention_count": 1
     },
     {
       "name": "Wim Kok",
-      "note": "sociaaldemocratische premier, omarmde de vrije markt",
-      "start_seconds": 1500,
-      "wiki_checked": true,
-      "wiki_pageid": 1894,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wim_Kok",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wim_Kok_1994.jpg/250px-Wim_Kok_1994.jpg"
+      "note": "voormalig Nederlands premier",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Tony Blair",
+      "note": "voormalig Brits premier",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "voormalig Amerikaans president",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Franklin D. Roosevelt",
+      "note": "Amerikaans president; 4 vrijheden",
+      "start_seconds": 1586,
+      "mention_count": 1
+    },
+    {
+      "name": "Oscar Romero",
+      "note": "bisschop in El Salvador, verzetsfiguur",
+      "start_seconds": 2270,
+      "mention_count": 1
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaans president en verzetsstrijder",
+      "start_seconds": 2275,
+      "mention_count": 1
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Zuid-Afrikaans aartsbisschop en verzoeningsfiguur",
+      "start_seconds": 2280,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Mandaville",
+      "note": "Amerikaans wetenschapper; right sizing van religie",
+      "start_seconds": 2140,
+      "mention_count": 1
     }
   ],
   "books": [],
@@ -103,116 +128,143 @@
     "Noorwegen",
     "Bulgarije",
     "Indonesië",
-    "Praag",
-    "Mexico",
-    "Irak",
+    "Georgië",
+    "Nigeria",
+    "Somalië",
+    "Turkije",
+    "Vaticaanstad",
+    "Oekraïne",
+    "Israël",
+    "Gaza",
     "Afghanistan",
-    "Egypte",
-    "Nederland"
+    "Irak",
+    "Angola",
+    "Praag",
+    "Sofia"
   ],
-  "summary_tldr": "Religiegezant Bea ten Tusscher blikt terug op 40 jaar diplomatie en vertelt over haar optimisme, de veranderende wereld sinds 1989 en de vier vrijheden van Roosevelt. Ze legt uit wat haar mandaat als religiegezant inhoudt, inclusief het wegwerken van de blinde vlek voor religie in Nederland.",
+  "summary_tldr": "Bea ten Tusscher, Speciaal Gezant voor religie en levensovertuiging en oud-diplomaat, deelt haar ervaringen uit ruim 40 jaar buitenland en haar optimistische kijk op de wereld. Zij pleit voor religieuze geletterdheid in Nederland, dat volgens haar een blinde vlek heeft voor religie. Het gesprek met Stefan Paas verkent de spanning tussen godsdienstvrijheid, mensenrechten en seculiere samenleving.",
   "summary_points": [
-    "Ten Tusscher werkte als ambassadeur in onder meer Guatemala, Noorwegen, Bulgarije en Bangladesh.",
-    "Nederland is angstiger en controlegerichter geworden, terwijl in andere landen mensen flexibeler met onzekerheid omgaan.",
-    "Ze blijft optimistisch door de veerkracht van mensen te zien, vooral bij jongeren en vrouwen.",
-    "Na 1989 heerste westers overmoedig optimisme; 9/11, Irak en de Arabische lente maakten dat teniet.",
-    "Krastev: Oost-Europa kopieerde het Westen en verwaarloosde de eigen geschiedenis.",
-    "De vier vrijheden van Roosevelt vormen de universele basis van menselijke waardigheid.",
-    "Het globale zuiden emancipeert en het Westen is niet meer de maat der dingen.",
-    "Het mandaat van de religiegezant omvat vrijheid van religie, religieuze geletterdheid en het gesprek met landen.",
-    "Slechts 42% van de Nederlanders is religieus tegenover 85% wereldwijd."
+    "Bea ten Tusscher ziet ondanks tegenslag veerkracht bij mensen wereldwijd en blijft optimistisch.",
+    "Nederland is volgens haar door zijn planmatigheid en controledrang veranderd, met groeiende angst voor de toekomst.",
+    "De Speciaal Gezant voor religie moet diplomaten religieuze geletterdheid bijbrengen en het gesprek met landen over godsdienstvrijheid voeren.",
+    "Religie wordt volgens haar vaak verkeerd begrepen; 'right sizing' helpt om de rol ervan in context te plaatsen.",
+    "Christenvervolging en vervolging van minderheden in islamitische en andere landen vormen een groot aandachtspunt.",
+    "Het einde van de Koude Oorlog leidde tot westers optimisme dat later werd doorbroken door 9/11 en latere conflicten.",
+    "Het gesprek verkent rechten van religieuze minderheden in Nederland, zoals de casus van de christelijke leraar en Paarse Vrijdag.",
+    "Stefan Paas wijst op de spanning tussen rechten beschermen en ongemakkelijke religieuze praktijken, zoals rituele besnijdenis.",
+    "Bea ten Tusscher noemt de PVV-regering niet direct een bedreiging, maar signaleert minder aandacht voor mensenrechten in het regeerprogramma."
   ],
   "chapters": [
     {
-      "start_seconds": 100,
-      "title": "Guatemala en drijfveer",
-      "summary": "Ten Tusscher vertelt over haar eerste ambassadeurspost en haar drijfveer: mensen en menselijke waardigheid."
+      "start_seconds": 0,
+      "title": "Inleiding en Guatemala",
+      "summary": "Bea stelt zich voor en vertelt over haar eerste ambassadeursplek in Guatemala."
     },
     {
-      "start_seconds": 264,
-      "title": "Nederland met andere ogen",
-      "summary": "Terugkeer in Nederland: angst voor de toekomst, controledrang en planmatigheid versus flexibiliteit elders."
+      "start_seconds": 300,
+      "title": "Terugkeer naar Nederland en een veranderend land",
+      "summary": "Bea vergelijkt Noorwegen, Bulgarije en Nederland, en het verschil in angst voor de toekomst en controledrang."
     },
     {
-      "start_seconds": 740,
-      "title": "Optimisme en veerkracht",
-      "summary": "Over hoop, het citaat van Augustinus en de echternachtse processie."
+      "start_seconds": 960,
+      "title": "Veerkracht en hoop",
+      "summary": "Bea spreekt over veerkracht bij mensen wereldwijd, Augustinus-citaat en de 'nachtse processie' van vooruitgang."
     },
     {
-      "start_seconds": 1150,
-      "title": "Van de val van de muur naar nu",
-      "summary": "Het optimisme van de jaren negentig, 9/11, Krastev en het opkomende globale zuiden."
+      "start_seconds": 1260,
+      "title": "Wereldorde na de val van de muur",
+      "summary": "Het optimisme na 1989, 9/11 en de Arabische Lente, en het emancipatieproces in het globale zuiden."
     },
     {
-      "start_seconds": 1586,
-      "title": "De vier vrijheden",
-      "summary": "Roosevelts vier vrijheden als universele basis en de rol van jongeren en vrouwen."
+      "start_seconds": 1650,
+      "title": "Mensenrechten en de vier vrijheden",
+      "summary": "Bea en Stefan bespreken de universele basisrechten en of het Westen de rest van de wereld moet adviseren."
     },
     {
-      "start_seconds": 1980,
-      "title": "De religiegezant",
-      "summary": "Ontstaan en mandaat van de speciaal gezant en de blinde vlek voor religie."
+      "start_seconds": 1950,
+      "title": "Het mandaat van de religiegezant",
+      "summary": "Uitleg over de functie, religieuze geletterdheid en het moeilijke gesprek met landen als Georgië en Egypte."
+    },
+    {
+      "start_seconds": 2550,
+      "title": "Vrijheid van religie in Nederland",
+      "summary": "Discussie over rituele slacht, de casus van de christelijke leraar en seculiere intolerantie."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Politiek, mensenrechten en afsluiting",
+      "summary": "Vragen over het effect van de nieuwe regering op het buitenlandbeleid en persoonlijke terugblik."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 834,
-      "speaker": "Bea ten Tusscher",
-      "text": "Hoop heeft twee dochters: woede over wat niet zo zou moeten zijn en moed om aan te pakken wat anders kan.",
-      "note": "Mooi citaat, dat Stefan Paas als apocrief ontmaskert."
+      "start_seconds": 2640,
+      "speaker": "Stefan Paas",
+      "text": "Die rechten zijn er nou juist om die ongemakkelijke praktijken en opvattingen te beschermen.",
+      "note": "Scherpe stelling over de functie van grondrechten, die het gesprek over religie in Nederland verdiept."
     },
     {
-      "start_seconds": 955,
+      "start_seconds": 1370,
       "speaker": "Bea ten Tusscher",
-      "text": "Een echternachtse processie: drie stappen vooruit, twee terug, dus nog steeds winst.",
-      "note": "Beeld van haar realistische optimisme."
+      "text": "Wij zijn de minderheid, niet zij.",
+      "note": "Opvallende omkering: in Nederland is religie een minderheid, wereldwijd niet."
     },
     {
-      "start_seconds": 1646,
+      "start_seconds": 1505,
       "speaker": "Bea ten Tusscher",
-      "text": "Als je die vier vrijheden vasthoudt, heb je de basis van het mens zijn te pakken.",
-      "note": "Kern van haar mensenrechtenvisie."
+      "text": "Ik ben een aardsoptimist.",
+      "note": "Persoonlijke kern van haar optimisme, ondanks 40 jaar diplomatie."
     },
     {
-      "start_seconds": 2085,
+      "start_seconds": 1915,
       "speaker": "Bea ten Tusscher",
-      "text": "42% van de Nederlanders is religieus, wereldwijd is dat 85%: wij zijn de minderheid.",
-      "note": "Illustreert de blinde vlek voor religie."
+      "text": "Dan zie ik dat Oekraïne en de Russische retoriek over aberratie.",
+      "note": "Laat zien hoe religie en politiek in Georgië en Rusland verweven raken."
+    },
+    {
+      "start_seconds": 3340,
+      "speaker": "Bea ten Tusscher",
+      "text": "Als we nou eens gewoon wat minder praten en wat meer doen.",
+      "note": "Nuchtere kritiek op de politieke retoriek over mensenrechten."
     }
   ],
   "keywords": [
-    "religiegezant",
-    "diplomatie",
-    "godsdienstvrijheid",
-    "mensenrechten",
-    "vier vrijheden",
-    "Ivan Krastev",
-    "veerkracht",
-    "hoop",
-    "globale zuiden",
-    "religieuze geletterdheid"
+    "Religiegezant",
+    "Godsdienstvrijheid",
+    "Mensenrechten",
+    "Christenvervolging",
+    "Seculier Nederland",
+    "Religieuze geletterdheid",
+    "Emancipatie globale zuiden",
+    "Vier vrijheden",
+    "Hoop",
+    "Right sizing",
+    "Seculiere intolerantie",
+    "Rituele slacht"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 317,
-      "reason": "Religie in wereldpolitiek en geopolitiek, met historische duiding"
-    },
-    {
-      "n": 293,
-      "reason": "Historische tijden, wat er toe doet; Augustinus-achtige reflectie en geloof"
+      "n": 35,
+      "reason": "Geert Mak over Europa en religie; gedeelde figuur en geopolitiek-religieus thema"
     },
     {
       "n": 196,
-      "reason": "Geert Mak: Europa, nieuwe wereldbeeld en geloof"
+      "reason": "Geert Mak over Europa, het nieuwe wereldbeeld en geloof"
     },
     {
-      "n": 259,
-      "reason": "Nederlandse diplomatie/veiligheid, kwetsbaarheid in verschuivende wereldorde"
+      "n": 178,
+      "reason": "Geopolitiek, migratie en God in een wake-up call voor het Westen"
     },
     {
-      "n": 248,
-      "reason": "Wereldorde, geopolitiek en religie met Beatrice de Graaf"
+      "n": 17,
+      "reason": "Migratie, grenzen en religie met Samuel Lee, gekoppeld aan Theoloog des Vaderlands"
+    },
+    {
+      "n": 92,
+      "reason": "Geschiedenis van Europese waarden in relatie tot religie en geopolitiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

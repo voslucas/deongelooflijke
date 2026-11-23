@@ -1,11 +1,16 @@
 {
   "episode": 109,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 90104,
+    "segments": 1042,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31719,
-    "output_tokens": 2228,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 47619,
+    "output_tokens": 5416,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -19,158 +24,152 @@
   ],
   "people": [
     {
-      "name": "Aafke Romeijn",
-      "note": "muzikant, schrijver en journalist; vertelt over haar depressie en haar fascinatie voor religie",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 4449223,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aafke_Romeijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Aafke_Romeijn_%282017%29.jpg/250px-Aafke_Romeijn_%282017%29.jpg"
-    },
-    {
-      "name": "Tim Hofman",
-      "note": "presentator die in de podcast zei nihilist te zijn en zich toch inzet voor mensen in nood",
-      "start_seconds": 761,
-      "wiki_checked": true,
-      "wiki_pageid": 3025374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Hofman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tim_Hofman_%282018%29.jpg/250px-Tim_Hofman_%282018%29.jpg"
-    },
-    {
       "name": "Charles Taylor",
-      "note": "filosoof; schreef over secularisatie, atheïsme en identiteit",
+      "note": "Filosoof; over secularisatie en identiteit (wie wil je zijn)",
       "start_seconds": 839,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Arjen Lubach",
-      "note": "presentator, genoemd als voorbeeld van een scherpe kritiek op religie",
+      "note": "Cabaretier en satiricus; kritisch over religie in zijn programma's",
       "start_seconds": 1105,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
+      "mention_count": 5
+    },
+    {
+      "name": "Tim Hofman",
+      "note": "Zanger/presentator die zichzelf nihilist noemt; eerder te gast in de podcast",
+      "start_seconds": 761,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het christelijk geloof; Romeijn leest zijn verhaal als pleidooi voor gelijkwaardigheid",
+      "start_seconds": 2381,
+      "mention_count": 3
+    },
+    {
+      "name": "Swinburne",
+      "note": "Gelovige Engelse filosoof; over zekerheid en diachronische kennis",
+      "start_seconds": 2796,
+      "mention_count": 1
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof; verwijzing naar de heroïek van het atheïsme",
+      "note": "Filosoof; genoemd bij het heldhaftige nihilisme",
       "start_seconds": 1004,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Elizabeth II",
+      "note": "Britse koningin; haar uitvaart als voorbeeld van ritueel dat Romeijn raakt",
+      "start_seconds": 1940,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Ga gewoon wat leuks doen",
       "author": "Aafke Romeijn",
-      "note": "boek over depressie; de titel verwijst naar goedbedoelde maar simpele adviezen",
-      "start_seconds": 225,
-      "volume_id": "-FU6EQAAQBAJ",
-      "canonical_title": "Ga gewoon wat leuks doen: Leven met depressie",
+      "note": "Boek (en CD Godzilla) over depressie; de titel is bedacht door een medewerkster van de uitgever",
+      "start_seconds": 227,
+      "volume_id": "oaE_zwEACAAJ",
+      "canonical_title": "Ga gewoon wat leuks doen: leven met depressie",
       "canonical_author": "Aafke Romeijn",
-      "isbn13": "9789463493871",
-      "isbn10": "9463493875",
-      "thumbnail": "http://books.google.com/books/content?id=-FU6EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789463493215",
+      "isbn10": "9463493212",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Bible Belt"
+    "Canada",
+    "Nederland"
   ],
-  "summary_tldr": "Aafke Romeijn vertelt hoe haar depressies het leven zinloos laten lijken en hoe ze daarmee omgaat. Samen met Stefan Paas bespreken ze nihilisme, militant atheïsme en secularisatie. Ze vertelt ook hoe ze, vanuit een atheïstisch nest, gefascineerd raakte door de Bijbel, rituelen en de kerk.",
+  "summary_tldr": "Aafke Romeijn vertelt hoe haar depressies haar zinloosheid laten ervaren en hoe zij daar met gewone dagelijkse routines en verantwoordelijkheid mee omgaat. Vanuit een atheïstische opvoeding ontdekte zij een aantrekkingskracht tot religie, vooral via ritueel en bidden. Het gesprek verbindt depressie met secularisatie als lens op de westerse cultuur.",
   "summary_points": [
-    "Depressie voelt als constante angst zonder aanleiding en een verstoorde relatie met de werkelijkheid.",
-    "In een depressie lijkt zinloosheid de waarheid en lijken anderen zichzelf voor de gek te houden.",
-    "Nihilisme is een consistent wereldbeeld, maar Aafke accepteert dat nihilisme en zingeving naast elkaar kunnen bestaan.",
-    "Verantwoordelijkheid voor haar dochter houdt haar in leven.",
-    "Aafke ergert zich aan militant atheïsme dat zich vooral afzet tegen religie, en Paas herkent dat ook bij fundamentalistisch geloof.",
-    "Atheïsme kan zelf een heroïsche vorm van zingeving worden (Taylor).",
-    "Vriendschappen met gelovigen lieten haar zien hoe eenzaam religie in een seculiere samenleving kan zijn.",
-    "Haar studie Nederlands wekte fascinatie voor de Bijbel; rituelen, symbolen en muziek raken haar.",
-    "Religie biedt de mogelijkheid jezelf ondergeschikt te maken aan iets groters, wat verlichting geeft."
+    "Romeijn beschrijft depressie als een fysieke ziekte met een verstoorde relatie tot de werkelijkheid, waarin angst zich constant opdringt.",
+    "In een depressie voelt het leven als objectief zinloos, terwijl anderen zichzelf volgens haar iets wijs maken.",
+    "Nihilisme en zingeving sluiten elkaar volgens Romeijn niet per se uit; accepteren van beide is een weg uit depressie.",
+    "Romeijn houdt zichzelf soms bewust 'oogkleppen' voor en voert dagelijkse handelingen uit, vooral uit verantwoordelijkheid voor haar dochter.",
+    "Het gesprek koppelt atheïsme aan identiteit en autonomie; militant atheïsme ontleent volgens Taylor zijn energie aan wat het bestrijdt.",
+    "Romeijn groeide op in een atheïstische omgeving maar voelde altijd fascinatie voor de katholieke kerk, rituelen en symbolen.",
+    "Vriendschap met gelovigen en studie van de Bijbel brachten haar tot een open houding tegenover religie als praktijk.",
+    "Stefan Paas stelt dat geloof begint met bidden en praktijk; denken volgt daarna (lex orandi, lex credendi).",
+    "Het gesprek eindigt met de gedachte van een 'protestantse depressie': zekerheid over de waarheid kan zowel superioriteit als depressie voortbrengen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en aanleiding",
-      "summary": "David introduceert Aafke en haar werk. Stefan vertelt waarom het interview in De Nieuwe Koers hem trof."
+      "title": "Introductie en het boek over depressie",
+      "summary": "Presentator David Boogerd stelt Aafke Romeijn voor en haar werk over depressie, waaronder het boek Ga gewoon wat leuks doen. Stefan Paas brengt de lens van secularisatie als depressie van de cultuur in."
     },
     {
-      "start_seconds": 225,
-      "title": "Wat is depressie?",
-      "summary": "Aafke legt de titel van haar boek uit en beschrijft depressie als fysieke ziekte, angst en verstoord realiteitsbesef."
+      "start_seconds": 300,
+      "title": "Wat depressie met het lichaam en het hoofd doet",
+      "summary": "Romeijn beschrijft slaapverlies, constante angst en de verstoorde relatie met de werkelijkheid tijdens een depressie."
     },
     {
-      "start_seconds": 507,
-      "title": "Zinloosheid en nihilisme",
-      "summary": "Depressie voelt als een echter beeld van de werkelijkheid. Het gesprek gaat over nihilisme als consistent wereldbeeld en over zingeving."
+      "start_seconds": 720,
+      "title": "Zinloosheid, nihilisme en zingeving",
+      "summary": "De gesprekspartners verkennen of het leven objectief zinloos is en hoe nihilisme zich verhoudt tot zingeving en het idee van identiteit."
     },
     {
-      "start_seconds": 839,
-      "title": "Militant atheïsme en identiteit",
-      "summary": "Bespreking van Taylor, heroïek en fanatisme bij atheïsten en gelovigen."
+      "start_seconds": 1360,
+      "title": "Oogkleppen en verantwoordelijkheid",
+      "summary": "Romeijn vertelt hoe zij het dagelijks leven volhoudt door een bewuste keuze, mede uit verantwoordelijkheid voor haar dochter."
     },
     {
-      "start_seconds": 1217,
-      "title": "Oogkleppen op en doorgaan",
-      "summary": "Hoe Aafke zichzelf traint om het leven weer aan te kunnen en de rol van haar dochter."
+      "start_seconds": 1860,
+      "title": "Atheïstische bubbel en fanatisme",
+      "summary": "Romeijn bespreekt haar seculiere opvoeding, de irritatie over militant atheïsme en de sociale spanning rond geloof."
     },
     {
-      "start_seconds": 1620,
-      "title": "Gelovige vrienden en eenzaamheid",
-      "summary": "Over vriendschappen met gelovigen en hoe eenzaam geloven in een seculiere samenleving kan zijn."
+      "start_seconds": 2160,
+      "title": "Van fascinatie naar bidden",
+      "summary": "Romeijn beschrijft haar fascinatie voor de katholieke kerk en de Bijbel; Paas reageert met de nadruk op praktijk boven overtuiging."
     },
     {
-      "start_seconds": 1783,
-      "title": "Fascinatie voor Bijbel, kerk en ritueel",
-      "summary": "Aafke vertelt over haar katholieke omgeving, haar studie, rituelen, muziek en de aantrekkingskracht van overgave."
-    },
-    {
-      "start_seconds": 2231,
-      "title": "Geloven als praktijk",
-      "summary": "Stefan en Aafke verbinden protestants begrijpen en controle met depressie, tegenover religie als praktijk en gebed."
+      "start_seconds": 3000,
+      "title": "Kritiek op religie en afsluiting",
+      "summary": "Het gesprek gaat over de keerzijde van religie en de vraag naar haar sociale omgeving; het eindigt met de protestantse depressie als conclusie."
     }
   ],
   "highlights": [
     {
+      "start_seconds": 190,
+      "speaker": "Stefan Paas",
+      "text": "Secularisatie is een beetje als de depressie van de cultuur.",
+      "note": "Deze metafoor vormt de rode draad van het hele gesprek."
+    },
+    {
       "start_seconds": 364,
       "speaker": "Aafke Romeijn",
-      "text": "Depressie is als wakker worden met iemand met een keukenmes op twee centimeter van je hoofd, maar die man is er niet, de angst wel.",
-      "note": "Treffend beeld van depressieve angst."
+      "text": "Het is alsof iemand met een keukenmes naast je bed staat, maar die man is er niet; de angst wel.",
+      "note": "Een sterk beeld dat laat zien hoe angst zonder externe oorzaak voelt."
     },
     {
-      "start_seconds": 531,
+      "start_seconds": 699,
       "speaker": "Aafke Romeijn",
-      "text": "Als je depressief bent, heb je het idee dat je in een veel echtere staat van zijn verkeert.",
-      "note": "Verbindt depressie met secularisatie."
+      "text": "Ik denk omdat ik mezelf graag heel belangrijk maak.",
+      "note": "Een eerlijke zelfreflectie over de relatie tussen ambitie en het gevoel dat het leven zinloos is."
     },
     {
-      "start_seconds": 1427,
+      "start_seconds": 784,
       "speaker": "Aafke Romeijn",
-      "text": "Ik heb een dochter op de wereld gezet; die verantwoordelijkheid is sterker gebleken dan mijn wil om te ontsnappen.",
-      "note": "Emotioneel moment over wat haar in leven houdt."
+      "text": "Een weg uit depressie is accepteren dat nihilisme bestaat, maar dat zingeving ook bestaat.",
+      "note": "Romeijn zet nihilisme en zingeving niet tegenover elkaar, wat in het debat vaak wel gebeurt."
     },
     {
-      "start_seconds": 1100,
+      "start_seconds": 1048,
       "speaker": "Aafke Romeijn",
-      "text": "Als Arjen Lubach een kwartier staat te ranten over religieuze mensen is dat grappig, maar fanatisme in de geloofshoek wordt veroordeeld.",
-      "note": "Scherpe observatie over dubbele standaard."
+      "text": "Het is altijd je afzetten tegen iets, in plaats van kijken wat er wel is of wat wel mogelijk is.",
+      "note": "Een scherpe kritiek op militant atheïsme als negatief project."
     },
     {
-      "start_seconds": 1985,
-      "speaker": "Aafke Romeijn",
-      "text": "Ik voel me dan heel klein, heel nederig, maar op een hele prettige manier.",
-      "note": "Verklaart haar aantrekkingskracht tot rituelen."
+      "start_seconds": 3297,
+      "speaker": "Stefan Paas",
+      "text": "Een protestantse depressie: het idee dat je alles zeker weet en grip hebt op de waarheid, kan leiden tot superioriteit en tot depressie.",
+      "note": "De samenvattende gedachte die het gesprek een eigen wending geeft."
     }
   ],
   "keywords": [
@@ -179,33 +178,40 @@
     "zingeving",
     "secularisatie",
     "atheïsme",
-    "Charles Taylor",
-    "ritueel",
+    "bidden",
+    "lex orandi lex credendi",
+    "protestantisme",
     "katholicisme",
-    "gebed",
-    "eenzaamheid"
+    "Charles Taylor",
+    "identiteit"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat als je zo depressief bent dat het leven zinloos lijkt?",
+    "Ze wordt dan depressief en slaapt soms twintig uur op een dag.",
+    "De depressies gaven haar ook verrassende inzichten over religie en zelfs secularisatie."
+  ],
   "similar": [
     {
       "n": 198,
-      "reason": "Tim Hofman over angst, idealisme en nihilisme; zelfde thema's en gedeelde persoon."
+      "reason": "Nihilisme, zingeving en idealisme; Tim Hofman wordt ook besproken in de huidige aflevering."
     },
     {
-      "n": 264,
-      "reason": "Arjen Lubach over depressie en (on)geloof; gedeelde figuur en thema."
+      "n": 314,
+      "reason": "Zingevingscrisis en de leegte van het moderne leven, met geloofsthema's."
     },
     {
-      "n": 212,
-      "reason": "Impact van 'de dood van God' en nihilisme op jongeren; Nietzsche-thema."
+      "n": 249,
+      "reason": "Psychische klachten als mentale epidemie, met een uitweg; sterke overlap met depressie."
     },
     {
-      "n": 61,
-      "reason": "Tim Hofman over zin en onzin van religie; seculiere zoeker."
+      "n": 111,
+      "reason": "Psychiater over zingeving, seculiere samenleving en het individu zonder God."
     },
     {
-      "n": 311,
-      "reason": "Depressie en geloof, in gesprek over de stem van God."
+      "n": 278,
+      "reason": "Therapiecultuur als 'opium van het volk' en de link met zingeving en geloof."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

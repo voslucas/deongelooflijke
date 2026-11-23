@@ -1,18 +1,23 @@
 {
   "episode": 36,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109814,
+    "segments": 1136,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30818,
-    "output_tokens": 2448,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55880,
+    "output_tokens": 7538,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Politiek",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Bertine Moenaff",
@@ -21,274 +26,349 @@
   "people": [
     {
       "name": "Joe Biden",
-      "note": "Democratische presidentskandidaat, katholiek met rozenkrans in zijn zak",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "note": "Democratische presidentskandidaat in 2020",
+      "start_seconds": 21,
+      "mention_count": 25
     },
     {
       "name": "Donald Trump",
-      "note": "zittend president, geliefd bij veel evangelicals",
+      "note": "Republikeins president en kandidaat voor herverkiezing in 2020",
       "start_seconds": 50,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 40
     },
     {
       "name": "Barack Obama",
-      "note": "oud-president, diep gelovig volgens zijn vrouw",
-      "start_seconds": 37,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "note": "Democratische president (2009-2017), wiens zorghervorming en religiositeit besproken worden",
+      "start_seconds": 24,
+      "mention_count": 15
     },
     {
       "name": "Hillary Clinton",
-      "note": "Democratische kandidaat in 2016",
-      "start_seconds": 546,
-      "wiki_checked": true,
-      "wiki_pageid": 92599,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hillary_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Hillary_Clinton_by_Gage_Skidmore_4.jpg/250px-Hillary_Clinton_by_Gage_Skidmore_4.jpg"
+      "note": "Democratische kandidaat die in 2016 verloor van Trump",
+      "start_seconds": 536,
+      "mention_count": 8
     },
     {
       "name": "Anthony Weiner",
       "note": "Democratisch congreslid voor wie Bertine Moenaff werkte",
-      "start_seconds": 682,
-      "wiki_checked": true,
-      "wiki_pageid": 2198666,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anthony_Weiner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Anthony_Weiner%2C_official_portrait%2C_112th_Congress.jpg/250px-Anthony_Weiner%2C_official_portrait%2C_112th_Congress.jpg"
-    },
-    {
-      "name": "James Comey",
-      "note": "FBI-directeur, October surprise in 2016",
-      "start_seconds": 1161,
-      "wiki_checked": true,
-      "wiki_pageid": 4606567,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Comey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/James_Comey_official_portrait.jpg/250px-James_Comey_official_portrait.jpg"
-    },
-    {
-      "name": "Joshua Dubois",
-      "note": "spiritueel adviseur van Obama, auteur van The President's Devotional",
-      "start_seconds": 1227,
-      "wiki_checked": true
+      "start_seconds": 681,
+      "mention_count": 5
     },
     {
       "name": "Michelle Obama",
-      "note": "schreef over de bidmomenten van haar man",
+      "note": "Echtgenote van Barack Obama, schreef in haar dagboek over zijn gebed",
       "start_seconds": 1490,
-      "wiki_checked": true,
-      "wiki_pageid": 1225359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michelle_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Michelle_Obama_at_Martha%27s_Vineyard_2025_%28cropped%29.jpg/250px-Michelle_Obama_at_Martha%27s_Vineyard_2025_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Jan Peter Balkenende",
-      "note": "Nederlandse premier die openlijk over zijn geloof sprak",
+      "note": "Nederlands politicus (CDA) die zei dat hij niet zonder God kon functioneren",
       "start_seconds": 1415,
-      "wiki_checked": true,
-      "wiki_pageid": 159,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Peter_Balkenende",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Jan_Peter_Balkenende_2006.jpg/250px-Jan_Peter_Balkenende_2006.jpg"
-    },
-    {
-      "name": "Bart Stupak",
-      "note": "katholiek Democratisch congreslid, anti-abortus amendement in Obamacare",
-      "start_seconds": 1782,
-      "wiki_checked": true
-    },
-    {
-      "name": "Wayne Grudem",
-      "note": "conservatief evangelicaal theoloog die Trump steunt",
-      "start_seconds": 2027,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Ronald Reagan",
-      "note": "president uit de jaren 80",
+      "note": "Republikeins president in de jaren 80",
       "start_seconds": 244,
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Jimmy Carter",
+      "note": "Democratisch president vóór Reagan",
+      "start_seconds": 244,
+      "mention_count": 1
+    },
+    {
+      "name": "James Comey",
+      "note": "FBI-directeur die in oktober 2016 de e-mailkwestie rond Clinton heropende",
+      "start_seconds": 1158,
+      "mention_count": 2
+    },
+    {
+      "name": "Bart Stupak",
+      "note": "Katholieke Democratisch congreslid die abortusbeperkingen in Obamacare regelde",
+      "start_seconds": 1821,
+      "mention_count": 1
+    },
+    {
+      "name": "Wayne Grudem",
+      "note": "Conservatief evangelisch theoloog die uitlegde waarom hij op Trump stemde",
+      "start_seconds": 2027,
+      "mention_count": 1
     },
     {
       "name": "Ralph Reed",
-      "note": "christelijk activist die Trump-mailings verstuurde",
+      "note": "Christelijk politiek strateeg die Trump-brieven uitzond",
       "start_seconds": 1959,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Joshua DuBois",
+      "note": "Spiritueel adviseur van president Obama",
+      "start_seconds": 1220,
+      "mention_count": 1
+    },
+    {
+      "name": "George Barna",
+      "note": "Onderzoeker die al lang geleden een snelle daling van kerkelijkheid voorspelde",
+      "start_seconds": 2599,
+      "mention_count": 1
     },
     {
       "name": "Thijs van der Brink",
-      "note": "eerdere gast over God, Jezus en Trump",
+      "note": "Journalist die eerder in de Ongelooflijke Podcast over Trump sprak",
       "start_seconds": 1583,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "Schrijver die in een eerdere aflevering besproken werd over predikanten die linkser zijn dan hun gemeente",
+      "start_seconds": 3618,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Nederlands politicus (Forum voor Democratie)",
+      "start_seconds": 2760,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus (PVV)",
+      "start_seconds": 2760,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Nederlands Kamerlid die bedreigd werd",
+      "start_seconds": 1097,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Lincoln",
+      "note": "Republikeins president wiens kabinetsaanpak besproken wordt",
+      "start_seconds": 4133,
+      "mention_count": 1
+    },
+    {
+      "name": "John Wayne",
+      "note": "Acteur en symbool van mannelijkheid in Amerikaanse cultuur",
+      "start_seconds": 3251,
+      "mention_count": 1
+    },
+    {
+      "name": "Mel Gibson",
+      "note": "Acteur en regisseur van de film Braveheart",
+      "start_seconds": 3355,
+      "mention_count": 1
+    },
+    {
+      "name": "Koning Cyrus",
+      "note": "Perzische koning die de Israëlieten hielp terugkeren en de tempel laten herbouwen",
+      "start_seconds": 3139,
+      "mention_count": 2
+    },
+    {
+      "name": "Koning David",
+      "note": "Bijbelse koning die volgens Bertine ook foute dingen deed",
+      "start_seconds": 3139,
+      "mention_count": 1
+    },
+    {
+      "name": "Dwight Eisenhower",
+      "note": "Republikeins president die 'one nation under God' toevoegde",
+      "start_seconds": 2540,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The President's Devotional",
-      "author": "Joshua Dubois",
-      "note": "dagelijkse bijbelteksten voor Obama",
-      "start_seconds": 1227,
+      "author": "",
+      "note": "Bijbelteksten die Obama dagelijks kreeg toegestuurd van zijn spirituele adviseur Joshua DuBois",
+      "start_seconds": 1220,
       "volume_id": "lxOIv1ACwv8C",
       "canonical_title": "The President's Devotional",
       "canonical_author": "Joshua DuBois",
       "isbn13": "9780062265302",
       "isbn10": "006226530X",
       "thumbnail": "http://books.google.com/books/content?id=lxOIv1ACwv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Team of Rivals",
+      "author": "",
+      "note": "Boek over Abraham Lincoln en zijn aanpak van tegengestelde krachten in zijn kabinet",
+      "start_seconds": 4133,
+      "volume_id": "ONhhui9SRsMC",
+      "canonical_title": "Team of Rivals: The Political Genius of Abraham Lincoln",
+      "canonical_author": "Doris Kearns Goodwin",
+      "isbn13": "9780743270755",
+      "isbn10": "0743270754",
+      "thumbnail": "http://books.google.com/books/content?id=ONhhui9SRsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Jakobus 2:17",
-      "note": "Biden verwees naar 'geloof zonder werken is dood' in zijn speech over George Floyd",
-      "start_seconds": 1455
+      "ref": "Jakobus 2:26",
+      "note": "Biden citeerde 'geloof zonder werken is dood' in zijn toespraak bij George Floyd",
+      "start_seconds": 1464
+    },
+    {
+      "ref": "Ezra 1:1-4",
+      "note": "Koning Cyrus helpt de Israëlieten terug te keren en de tempel te herbouwen",
+      "start_seconds": 3142
+    },
+    {
+      "ref": "2 Samuël 11",
+      "note": "Koning David en zijn foute daden, aangehaald door Bertine Moenaff",
+      "start_seconds": 3139
     }
   ],
   "places": [
-    "Verenigde Staten",
     "Amsterdam",
     "Washington D.C.",
-    "Capitol Hill",
+    "Virginia",
+    "Richmond",
     "Wisconsin",
     "Michigan",
-    "Virginia",
     "Alabama",
-    "Puerto Rico",
-    "Cuba"
+    "Polen",
+    "Noord-Ierland",
+    "Perzië"
   ],
-  "summary_tldr": "Het gesprek gaat over de rol van religie in de Amerikaanse presidentsverkiezingen van 2020, met aandacht voor het geloof van Democraten als Biden en Obama. De gasten nuanceren het beeld dat Republikeinen christelijk en Democraten goddeloos zijn, en bespreken polarisatie, abortus als lakmoesproef en snelle secularisatie.",
+  "summary_tldr": "Bertine Moenaff en James Kennedy bespreken met David Boogerd en Stefan Paas hoe religie een rol speelt in de Amerikaanse presidentsverkiezingen van 2020. Ze nuanceren het beeld dat christenen vooral Republikeins zijn en dat Democraten seculier zijn, en wijzen op de groeiende kloof tussen beide partijen en de snelle ontkerkelijking in de VS. Het gesprek eindigt met zorgen over polarisatie, geweld en de vraag hoe een nieuwe regering het land kan verbinden.",
   "summary_points": [
-    "De verkiezingen zijn grimmiger en meer gepolariseerd, en zelfs het proces wordt aangevallen",
-    "Biden staat goed in de polls, maar de voorspellingen van 2016 maken voorzichtig",
-    "Moenaff zag Obamacare ontstaan; wat toen extreem links was, is nu mainstream",
-    "Democraten zijn religieuzer dan Nederlanders denken: Biden en Obama zijn gelovig",
-    "Het aandeel christenen is bij Republikeinen ongeveer 80% en bij Democraten ongeveer 52%",
-    "Veel evangelicals stemmen Trump vanwege een kleine overheid, lage belastingen en cultuur, niet puur vanwege geloof",
-    "Abortus fungeert als lakmoesproef voor een breder pakket aan standpunten",
-    "Zwarte protestanten zijn ethisch conservatief maar stemmen massaal Democratisch",
-    "Secularisatie in de VS gaat razendsnel, vooral onder jongeren (nones)"
+    "Het idee dat Republikeinen christelijk zijn en Democraten goddeloos is te simplistisch; Amerika blijft een diep religieus land.",
+    "Religie speelt ook bij Democraten een rol, zoals Obama's gebedsleven en Biden's bijbelcitaten, maar geloof wordt meer als privézaak gezien.",
+    "Sinds het begin van de eeuw zijn Republikeinen veel sterker geassocieerd met christenen dan Democraten.",
+    "Abortus fungeert als lakmoesproef voor bredere standpunten, maar voor veel kiezers is het niet het belangrijkste thema.",
+    "Evangelicals steunen Trump om andere redenen: vrees voor verlies van culturele en economische zekerheid en de wens naar een sterke leider.",
+    "Secularisatie in de VS verloopt anders dan in Europa, met een markt van kerken en een snelle daling sinds ongeveer 2008.",
+    "Polarisatie wordt versterkt door sociale segregatie per wijk en door mediabubbels zoals Fox News.",
+    "Het gebruik van geweld voor politieke doeleinden lijkt in drie jaar tijd sterk te zijn toegenomen, aan beide kanten.",
+    "Na de verkiezingen wordt een moeilijke klus verwacht voor Biden, vooral om het land te verenigen en de zorgwetgeving te verdedigen."
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Het grimmige verkiezingscircus",
-      "summary": "Inleiding en gesprek over de polarisatie, twijfel aan het verkiezingsproces en de opkomst."
+      "start_seconds": 0,
+      "title": "Inleiding en verkiezingssfeer",
+      "summary": "De gasten en presentator bespreken hoe de Amerikaanse verkiezingen steeds grimmiger en polariserender zijn geworden."
     },
     {
       "start_seconds": 503,
-      "title": "Polls en de lessen van 2016",
-      "summary": "Biden staat voor in de peilingen, maar 2016 maakt iedereen voorzichtig."
+      "title": "De Democraten en Bertine's ervaring in Washington",
+      "summary": "Bertine vertelt over haar werk voor Anthony Weiner en over de zorgdebatten en de hoop van de Obama-jaren."
     },
     {
-      "start_seconds": 661,
-      "title": "Werken voor Anthony Weiner en Obamacare",
-      "summary": "Moenaff vertelt over haar tijd op Capitol Hill, Obamacare en de opkomst van de Tea Party."
+      "start_seconds": 860,
+      "title": "Obama, verwachtingen en de Tea Party",
+      "summary": "Het gesprek gaat over Obama's charisma, de teleurstelling die volgde en de opkomst van de Tea Party."
     },
     {
-      "start_seconds": 1179,
-      "title": "Religie bij de Democraten",
-      "summary": "Het geloof van Biden en Obama en het verschil in christelijke zelfidentificatie tussen de partijen."
+      "start_seconds": 1194,
+      "title": "Religie bij Republikeinen en Democraten",
+      "summary": "De gasten nuanceren het beeld van religieuze Republikeinen en seculiere Democraten en bespreken de kerkelijke verschuivingen tussen de partijen."
     },
     {
-      "start_seconds": 1538,
-      "title": "Evangelicals, Trump en abortus",
-      "summary": "Waarom evangelicals op Trump stemmen en of abortus echt doorslaggevend is."
-    },
-    {
-      "start_seconds": 2100,
-      "title": "Zwarte christenen en partijvoorkeur",
-      "summary": "Waarom zwarte protestanten ondanks hun conservatisme Democratisch stemmen."
+      "start_seconds": 1912,
+      "title": "Abortus en het evangelicale stemgedrag",
+      "summary": "Abortus wordt besproken als lakmoesproef, en er wordt gekeken naar waarom evangelicals op Trump stemmen en naar de rol van mannelijkheidsidealen."
     },
     {
       "start_seconds": 2415,
-      "title": "Secularisatie in Amerika",
-      "summary": "De snelle ontkerkelijking en de groei van de nones."
+      "title": "Secularisatie in de VS",
+      "summary": "Het gesprek behandelt de oorzaken van ontkerkelijking, zoals het einde van de Koude Oorlog, individualisering en de kerk als religieuze markt."
+    },
+    {
+      "start_seconds": 3120,
+      "title": "Trump-steun, gelovigen en de rol van de media",
+      "summary": "Er wordt gesproken over de verschillende motieven van Trump-kiezers, over predikanten die onder druk staan en over de invloed van Fox News."
+    },
+    {
+      "start_seconds": 3790,
+      "title": "Polarisatie, geweld en de toekomst na de verkiezingen",
+      "summary": "De gasten bespreken de toenemende acceptatie van politiek geweld, de verwachte impact van een Biden-regering en de uitdagingen voor het land."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1415,
+      "start_seconds": 1205,
       "speaker": "Bertine Moenaff",
-      "text": "In Nederland lachten we Balkenende uit om zijn geloof, terwijl Amerikaanse politici bijbelteksten aanhalen.",
-      "note": "Scherp cultuurverschil tussen Nederland en de VS."
+      "text": "Amerika is best wel een diep religieus land, en dat geldt voor heel veel mensen.",
+      "note": "Ze weerlegt het Nederlandse hokjesdenken over religieuze Republikeinen en seculiere Democraten."
     },
     {
-      "start_seconds": 1490,
-      "speaker": "Bertine Moenaff",
-      "text": "Michelle Obama zag haar man midden in de nacht bidden tijdens een politieke crisis.",
-      "note": "Onverwacht beeld van Obama."
-    },
-    {
-      "start_seconds": 1050,
-      "speaker": "Bertine Moenaff",
-      "text": "Obama's public option was ooit extreem; nu is het een saai verkiezingsplatform van Biden.",
-      "note": "Laat zien hoe de Democratische Partij opschoof."
-    },
-    {
-      "start_seconds": 1969,
-      "speaker": "Stefan Paas",
-      "text": "Wayne Grudem noemde als eerste redenen voor Trump originalism en een hoger defensiebudget.",
-      "note": "Toont dat christelijke legitimatie vaak politiek is."
-    },
-    {
-      "start_seconds": 1059,
+      "start_seconds": 1292,
       "speaker": "James Kennedy",
-      "text": "Abortus is een lakmoesproef die staat voor een reeks andere standpunten.",
-      "note": "Verklaart waarom abortus zo zwaar weegt."
+      "text": "De Republikeinen zijn de partij van christenen en de Democratische Partij veel minder; rond 80% van de Republikeinen identificeert zich als christen tegenover ruim de helft van de Democraten.",
+      "note": "Het cijfer laat zien hoe sterk de religieuze kloof tussen de partijen in twintig jaar is gegroeid."
+    },
+    {
+      "start_seconds": 1553,
+      "speaker": "Stefan Paas",
+      "text": "Dat hij de held wordt van christenen tegenover iemand die veel belijdender christen is, dat blijft het fascinerende.",
+      "note": "Hij benadrukt de paradox dat Trump, die weinig bijbelkennis toont, bij christenen zo populair is."
+    },
+    {
+      "start_seconds": 3406,
+      "speaker": "Bertine Moenaff",
+      "text": "Republikeinen, Oude Testament; Democraten, Nieuwe Testament.",
+      "note": "Een scherpe, speelse zwart-wit typering die toch de polarisatie in religieuze stijl blootlegt."
+    },
+    {
+      "start_seconds": 3723,
+      "speaker": "James Kennedy",
+      "text": "Ik denk niet dat de rechtsstaat eraan gaat als Trump herkozen wordt, omdat de instanties sterk genoeg zijn; maar de normloosheid neemt toe.",
+      "note": "Een genuanceerde blik die de zorg over instituties en normen verwoordt."
+    },
+    {
+      "start_seconds": 3790,
+      "speaker": "David Boogerd",
+      "text": "In drie jaar tijd steeg het percentage dat geweld voor politieke doeleinden goedkeurt van 8% naar meer dan 30%.",
+      "note": "Een verontrustend cijfer dat laat zien hoe snel de politieke cultuur verhardt."
     }
   ],
   "keywords": [
-    "Joe Biden",
+    "Amerikaanse presidentsverkiezingen",
     "Donald Trump",
+    "Joe Biden",
     "evangelicals",
-    "Obama",
-    "Obamacare",
-    "Tea Party",
     "secularisatie",
-    "polarisatie",
+    "ontkerkelijking",
     "abortus",
-    "nones",
-    "zwarte kerk",
-    "Democraten"
+    "polarisatie",
+    "Tea Party",
+    "Obamacare",
+    "civil religion",
+    "Koude Oorlog"
   ],
-  "quotes": [],
+  "quotes": [
+    "Donald Trump krijgt veel steun van christelijke kiezers",
+    "het grootste politieke circus op aarde: de Amerikaanse presidentsverkiezingen",
+    "de secularisatie die zich in de VS in een duizelingwekkend tempo voltrekt"
+  ],
   "similar": [
     {
-      "n": 20,
-      "reason": "Christelijke Trump-stemmers en religie in de Amerikaanse politiek, met Tijs van den Brink"
+      "n": 219,
+      "reason": "Culturele en religieuze duiding van Trumps herverkiezing met James Kennedy"
     },
     {
-      "n": 219,
-      "reason": "Trumps overwinning religieus geduid door James Kennedy"
+      "n": 20,
+      "reason": "Christelijke stemmers in de VS en hun steun voor Trump"
     },
     {
       "n": 203,
-      "reason": "James Kennedy over Trump en een veranderend, minder religieus Amerika"
+      "reason": "Trump als symbool van een minder religieus Amerika, met James Kennedy"
     },
     {
-      "n": 2,
-      "reason": "James Kennedy over populisme, Trump en de rol van de kerk"
+      "n": 330,
+      "reason": "Analyse van de Trump-regering en het christendom in de VS"
     },
     {
-      "n": 56,
-      "reason": "Orthodoxe christenen en rechts-populisten in Amerikaanse politiek"
+      "n": 241,
+      "reason": "Ideologische denkers achter Trump en hun invloed op Amerikaanse politiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

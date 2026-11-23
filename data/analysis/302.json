@@ -1,73 +1,95 @@
 {
   "episode": 302,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107238,
+    "segments": 1251,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32731,
-    "output_tokens": 2291,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57554,
+    "output_tokens": 7490,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
     "Kerk & secularisatie",
-    "Gezin & relaties",
-    "Zingeving & psyche"
+    "Dood & rouw",
+    "Gezin & relaties"
   ],
   "guests": [
     "Josha Zwaan"
   ],
   "people": [
     {
-      "name": "Jona Valken",
-      "note": "niet-gelovige schrijver die onderzoek deed in reformatorische kringen",
-      "start_seconds": 189,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "Kerkvader; citaat over slechte tijden ('Wij zijn de tijden') en over God zoeken",
+      "start_seconds": 3776,
+      "mention_count": 9
     },
     {
-      "name": "Stefan Sanders",
-      "note": "auteur van 'Gods schaamte', keek om zich heen als hij de kerk binnenging",
-      "start_seconds": 761,
-      "wiki_checked": true
+      "name": "Hildegard von Bingen",
+      "note": "Middeleeuwse mystica, geleerde en componiste; Zwaan's voorkeur voor een vrouwelijke godsbeeld",
+      "start_seconds": 2590,
+      "mention_count": 4
+    },
+    {
+      "name": "Jona Valken",
+      "note": "Niet-gelovige schrijver die onderzoek deed in reformatorische kringen",
+      "start_seconds": 151,
+      "mention_count": 2
     },
     {
       "name": "Lieke Marsman",
-      "note": "schrijver wiens boek Josha las; eerder te gast in de podcast",
-      "start_seconds": 955,
-      "wiki_checked": true,
-      "wiki_pageid": 4016174,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lieke_Marsman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lieke_Marsman_%2814670029546%29_%28cropped%29.jpg/250px-Lieke_Marsman_%2814670029546%29_%28cropped%29.jpg"
+      "note": "Schrijfster wier boek Zwaan las bij haar zoektocht naar geloof",
+      "start_seconds": 953,
+      "mention_count": 1
     },
     {
-      "name": "Arnold Huijgen",
-      "note": "theoloog die David zaterdag op Opwekking spreekt",
-      "start_seconds": 108,
-      "wiki_checked": true,
-      "wiki_pageid": 4895065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnold_Huijgen"
+      "name": "Stefan Sanders",
+      "note": "Auteur van het boek Gods schaamte",
+      "start_seconds": 749,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnold Huigen",
+      "note": "Theoloog die op Opwekking wordt besproken",
+      "start_seconds": 128,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Frisse",
+      "note": "Eerdere gast die sprak over de ontoverde politiek",
+      "start_seconds": 3324,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Finkers",
+      "note": "Cabaretier die films maakte over Hildegard von Bingen",
+      "start_seconds": 2638,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Wolkers",
+      "note": "Schrijver van harde, rauwe literatuur over seksualiteit en leven",
+      "start_seconds": 3680,
+      "mention_count": 1
+    },
+    {
+      "name": "Franka Treur",
+      "note": "Schrijfster van romans over het zware leven",
+      "start_seconds": 3680,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Parnassia",
-      "author": "Josha Zwaan",
-      "note": "bestseller van Zwaan",
-      "start_seconds": 39,
-      "volume_id": "cLKyuAAACAAJ",
-      "canonical_title": "Parnassia",
-      "canonical_author": "Josha Zwaan",
-      "isbn13": "9789047203117",
-      "isbn10": "9047203119",
-      "thumbnail": ""
-    },
-    {
       "title": "Wilgenkind",
       "author": "Josha Zwaan",
-      "note": "nieuwe roman over mantelzorg voor een ouder die niet goed voor je zorgde",
-      "start_seconds": 975,
+      "note": "Nieuwe roman over mantelzorg voor een ouder die niet goed voor je zorgde",
+      "start_seconds": 1184,
       "volume_id": "_7nu0QEACAAJ",
       "canonical_title": "Wilgenkind",
       "canonical_author": "Josha Zwaan",
@@ -78,144 +100,156 @@
     {
       "title": "Zevonk",
       "author": "Josha Zwaan",
-      "note": "roman over de geschiedenis van het schip Willem Ruys/Achille Lauro en Nederlands-Indië",
+      "note": "Tweede roman over de geschiedenis van het schip Achille Lauro en de familiegeschiedenis",
       "start_seconds": 1092
     },
     {
       "title": "Gods schaamte",
       "author": "Stefan Sanders",
-      "note": "over de schroom om als zoekende de kerk binnen te gaan",
-      "start_seconds": 761
+      "note": "Boek over zoeken naar geloof; de auteur keek schuw over zijn schouder bij het kerkbinnengaan",
+      "start_seconds": 749
+    },
+    {
+      "title": "Commentaar op het Johannesevangelie",
+      "author": "Augustinus",
+      "note": "Bron van het citaat over God zoeken, omdat hij verborgen en onmetelijk is",
+      "start_seconds": 3776
     }
   ],
   "bible_refs": [],
   "places": [
     "Nieuw-Zeeland",
-    "Nederland",
     "Indonesië",
-    "Nederlands-Indië",
-    "Suezkanaal",
+    "Engeland",
     "Ermelo",
-    "Veluwe",
-    "Rotterdam",
-    "Engeland"
+    "Zutphen",
+    "Amsterdam",
+    "Utrecht",
+    "Zeeland",
+    "Veluwe"
   ],
-  "summary_tldr": "Schrijver Josha Zwaan vertelt over haar essay in Trouw, een coming-out als gelovige, en over de zoektocht die eraan voorafging. Ook bespreekt ze haar roman Wilgenkind en haar eigen ervaring met mantelzorg voor haar ouders, met wie ze een moeizame relatie had. Geloof, zorg en verzoening komen samen in het gesprek.",
+  "summary_tldr": "Schrijfster Josha Zwaan vertelt in deze aflevering over haar essay in Trouw waarin ze zich openlijk als gelovige bekent, na jaren van zoeken. Het gesprek gaat over het verschil tussen discipline en geloof, over de betekenis van een gevoel dat niet rationeel te vangen is, en over haar moeizame relatie met haar ouders. Via haar nieuwe roman Wilgenkind komt ook de vraag naar voren hoe ver je moet gaan in het zorgen voor ouders die je zelf verwaarloosden.",
   "summary_points": [
-    "Zwaan vergelijkt de sportschool met de kerk: in de sportschool ben je met jezelf bezig, in de kerk zoek je samen.",
-    "Haar essay in Trouw is een coming-out als gelovige na ongeveer 15 jaar aarzeling.",
-    "Geloof is voor haar vooral een gevoel en een besluit, niet rationeel te bewijzen.",
-    "Ze kreeg veel positieve reacties, maar ook nare reacties van atheïstische vrienden bij andere mensen.",
-    "Wilgenkind stelt de vraag of je moet zorgen voor iemand die niet goed voor jou zorgde.",
-    "Zwaan had als kind al veel voor haar depressieve moeder gezorgd; haar ouders waren oorlogskinderen met beschadigingen.",
-    "Ze zorgde bijna drie jaar voor haar moeder, wat verrassend helend werkte.",
-    "Haar vader, een predikant, was altijd voor anderen bezig; haar moeder was een 'Indische gelovige'.",
-    "Ze bespreekt de zorgcrisis en alternatieven zoals hofjes en robots."
+    "Zwaan noemt haar essay in Trouw haar coming-out als gelovige, na een lange zoektocht die ze als besluit en gevoel beschrijft.",
+    "Vergelijking tussen sportschool, vasten en kerkdiensten als vormen van zelfdiscipline en zingeving.",
+    "Het geloof is voor Zwaan een gevoel dat ze niet in woorden kan vatten, en dat ze nooit is kwijtgeraakt.",
+    "Haar jeugd als dochter van een predikant: een vader die altijd bezig was met anderen en een moeder die depressief was en lichamelijk ziek.",
+    "Mantelzorg voor haar ouders, met name voor haar moeder, en de vraag in Wilgenkind of je verplicht bent te zorgen voor wie je niet goed heeft behandeld.",
+    "Het sterven van haar ouders, die zeiden dat ze naar het licht gingen, en de ervaring van de ziel als meer dan het lichaam.",
+    "Jonge mensen die zich weer bij kerken aansluiten, en de vraag wat die zoektocht betekent in een geseculariseerde samenleving.",
+    "Rationaliteit versus betovering: Stefan Paas en Zwaan bespreken dat het rationele niet alles kan verklaren en dat verlangen naar betekenis terugkeert.",
+    "Augustinus' citaat over slechte tijden en de oproep om zelf goed te leven, als troost en morele aansporing."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en aankondiging",
-      "summary": "David introduceert Josha Zwaan, haar essay in Trouw en haar nieuwe roman Wilgenkind."
+      "title": "Intro en de sportschool als metafoor",
+      "summary": "Zwaan vergelijkt sportschool, challenges en vasten met de kerk als plaatsen van discipline en zingeving."
     },
     {
-      "start_seconds": 151,
-      "title": "Sportschool en kerk",
-      "summary": "Zwaan vergelijkt zelfopgelegde disciplines in de sportschool met het gemeenschappelijke zoeken in de kerk."
+      "start_seconds": 519,
+      "title": "Het essay en de coming-out",
+      "summary": "Zwaan vertelt waarom ze het essay schreef, hoe reacties uitvielen en hoe ze haar geloof eerder als zoeken omschreef."
     },
     {
-      "start_seconds": 516,
-      "title": "De coming-out als gelovige",
-      "summary": "Over de drempel om te zeggen dat je gelooft, de reacties op haar essay en geloof als gevoel en besluit."
+      "start_seconds": 975,
+      "title": "Jeugd, Nieuw-Zeeland en de achtergrond",
+      "summary": "Geboorte in Nieuw-Zeeland, de boottocht terug naar Nederland en de familiegeschiedenis die in Zevonk en Wilgenkind terugkomt."
     },
     {
-      "start_seconds": 964,
-      "title": "Jeugd en Nieuw-Zeeland",
-      "summary": "Zwaan vertelt over haar geboorte in Nieuw-Zeeland, de scheepsreis langs het Suezkanaal en haar roman Zevonk."
+      "start_seconds": 1233,
+      "title": "Mantelzorg en de moeizame relatie met de ouders",
+      "summary": "Zwaan vertelt over haar ouders, haar rol als parentificeerd kind en de drie jaar mantelzorg voor haar moeder na het overlijden van haar vader."
     },
     {
-      "start_seconds": 1214,
-      "title": "Moeizame relatie met haar ouders",
-      "summary": "Over zorgen als kind, haar oorlogsbeschadigde ouders en haar vader als predikant."
+      "start_seconds": 2419,
+      "title": "Geloof, gemeenschap en Hildegard",
+      "summary": "Het geloof dat altijd bleef, het zoeken naar een kerkgemeenschap en de mystica Hildegard von Bingen als voorbeeld."
     },
     {
-      "start_seconds": 1566,
-      "title": "Mantelzorg voor vader en moeder",
-      "summary": "Over de laatste weken van haar vader en de drie jaar zorg voor haar moeder, inclusief de omhelzingen."
+      "start_seconds": 3147,
+      "title": "Sterven, de ziel en betovering",
+      "summary": "Zwaan beschrijft het sterven van haar ouders en de gedachte dat de mens meer is dan het lichaam, met Stefan Paas over rationaliteit en verlangen."
     },
     {
-      "start_seconds": 1871,
-      "title": "Wilgenkind en de grote zorgvraag",
-      "summary": "Over de vraag of je moet zorgen voor wie niet goed voor je zorgde, en over de vergrijzing en zorgtekorten."
+      "start_seconds": 3736,
+      "title": "Augustinus, roeping en slot",
+      "summary": "Het citaat van Augustinus over goed leven en de tijd, en de vraag hoe geloof en zoeken zich tot elkaar verhouden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 16,
+      "start_seconds": 3176,
       "speaker": "Josha Zwaan",
-      "text": "Ik heb 2 keer mensen, mijn vader en mijn moeder, zien sterven en ze zeiden allebei: ik ga naar het licht.",
-      "note": "Indringend moment over de dood van haar ouders."
+      "text": "Mijn vader en mijn moeder zeiden allebei: ik ga naar het licht. En dat was ook echt heel duidelijk.",
+      "note": "Een persoonlijk en emotioneel moment over het sterven van haar ouders, dat de vraag naar de ziel openmaakt."
     },
     {
-      "start_seconds": 1659,
+      "start_seconds": 1241,
+      "title": "",
       "speaker": "Josha Zwaan",
-      "text": "Mijn moeder viel me in de armen en heeft me bij het komen en gaan omhelsd, 3 jaar lang, en dat heb ik zo gemist toen ze dood was.",
-      "note": "Ontroerend moment van verzoening door zorg."
+      "text": "Ik heb drie jaar voor mijn moeder gemantelzorgd, en het is eigenlijk een beetje omgedraaid ten opzichte van het boek.",
+      "note": "Zwaan koppelt haar eigen ervaring aan de roman en laat zien hoe fictie en leven elkaar raken."
     },
     {
-      "start_seconds": 724,
-      "speaker": "Josha Zwaan",
-      "text": "Ik zei 'ik ben een zoekend mens' en dacht daarna: laffe, dat is een dooddoener.",
-      "note": "Eerlijk over de schroom om gelovig te zijn."
+      "start_seconds": 3360,
+      "speaker": "Stefan Paas",
+      "text": "Waarom willen we rationeel zijn? Het antwoord daarop is meestal niet rationeel.",
+      "note": "Een scherpe gedachte die laat zien dat ook de rationaliteit zelf op verlangens en verhalen rust."
     },
     {
-      "start_seconds": 2044,
-      "speaker": "Josha Zwaan",
-      "text": "Ik dacht: nu is het normaal, de rollen zijn eindelijk goed.",
-      "note": "Inzicht over de omgekeerde rol als kind en mantelzorger."
+      "start_seconds": 4020,
+      "speaker": "David Boogerd",
+      "text": "Wij zijn de tijden. Dus leef goed, zegt Augustinus eigenlijk.",
+      "note": "Het Augustinus-citaat wordt een morele oproep om zelf verantwoordelijkheid te nemen in slechte tijden."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 3764,
       "speaker": "Josha Zwaan",
-      "text": "Mijn moeder zei altijd: ik ben een Indische gelovige.",
-      "note": "Kleurrijk beeld van haar moeders geloof met engelen en geesten."
+      "text": "Ik wil het gevoel niet langer verstoppen achter het zoekende mens, maar hardop zeggen: als ik mijn gevoel volg, dan geloof ik.",
+      "note": "Een uitspraak die haar besluit om openlijk te geloven samenvat."
     }
   ],
   "keywords": [
-    "coming-out",
     "geloof",
-    "mantelzorg",
-    "Wilgenkind",
-    "Parnassia",
-    "predikant",
-    "oorlogskind",
-    "Nederlands-Indië",
-    "vergeving",
     "zoektocht",
-    "kerk",
-    "ouderzorg"
+    "mantelzorg",
+    "ziel",
+    "coming-out",
+    "Augustinus",
+    "Hildegard von Bingen",
+    "rationaliteit",
+    "ouderschap",
+    "kerkgemeenschap",
+    "Wilgenkind",
+    "sterven"
   ],
-  "quotes": [],
+  "quotes": [
+    "Dit is mijn coming-out als gelovige",
+    "Gaandeweg haar leven ontdekte ze dat er iets nodig is wat groter is dan zijzelf om overeind te blijven."
+  ],
   "similar": [
     {
       "n": 244,
-      "reason": "Schrijfster Lieke Marsman: atheïsme op z'n kop door godservaring; zelfde besproken persoon, persoonlijke geloofsreis"
-    },
-    {
-      "n": 319,
-      "reason": "Schrijver Christophe Vekeman over bekering en twijfel; literair persoonlijk getuigenis van geloof"
-    },
-    {
-      "n": 70,
-      "reason": "Schrijfster Kristien Hemmerechts gaat naar de kerk: een 'religieuze coming out'"
+      "reason": "Godservaring en geloofsomslag, besproken door Lieke Marsman, die ook in #302 voorkomt"
     },
     {
       "n": 32,
-      "reason": "Stephan Sanders over tot geloof komen in een ongelovige tijd; schrijver"
+      "reason": "Gesprek over tot geloof komen in een ongelovige tijd, met Stephan Sanders"
     },
     {
-      "n": 154,
-      "reason": "Schrijfster Esther Gerritsen kon niet ongelovig zijn; persoonlijke geloofsgeschiedenis"
+      "n": 319,
+      "reason": "Persoonlijke bekering en twijfel van een schrijver, vergelijkbaar met Zwaans geloofsverhaal"
+    },
+    {
+      "n": 320,
+      "reason": "Rouw, troost en geloof na verlies, met overlappende thema's Dood & rouw en God & geloof"
+    },
+    {
+      "n": 229,
+      "reason": "Van seculier naar geloof, met thema's zingeving, rouw en kerk"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

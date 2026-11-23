@@ -1,18 +1,23 @@
 {
   "episode": 62,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115267,
+    "segments": 1414,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31144,
-    "output_tokens": 2875,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59417,
+    "output_tokens": 8088,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Kerk & secularisatie",
-    "Samenleving & migratie",
     "Politiek",
-    "Filosofie & ethiek"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Hans Boutellier"
@@ -20,142 +25,116 @@
   "people": [
     {
       "name": "Mark Rutte",
-      "note": "demissionair premier, door Boutellier 'vleesgeworden pragmacratie'",
-      "start_seconds": 18,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "historicus, eerder te gast in de podcast",
-      "start_seconds": 404,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
-    },
-    {
-      "name": "Peter van Rooden",
-      "note": "historicus, schreef 'Het vreemde versterven van het Nederlandse christendom'",
-      "start_seconds": 753,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten 't Hart",
-      "note": "schrijver die het geloof de rug toekeerde",
-      "start_seconds": 723,
-      "wiki_checked": true,
-      "wiki_pageid": 35393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_%27t_Hart",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Maarten_t_Hart_01.jpg/250px-Maarten_t_Hart_01.jpg"
-    },
-    {
-      "name": "Arjen Lubach",
-      "note": "presentator, voorbeeld van expliciete afvalligheid",
-      "start_seconds": 723,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
+      "note": "Nederlands premier; door Boutellier als vleesgeworden pragmacratie genoemd",
+      "start_seconds": 1107,
+      "mention_count": 2
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "denker over het ontbreken van God en de 'laatste mensen'",
+      "note": "filosoof; over de 'laatste mensen' en het wegvallen van God",
       "start_seconds": 986,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "mention_count": 3
     },
     {
       "name": "Fjodor Dostojevski",
-      "note": "schrijver, genoemd als denker die een zootje voorzag zonder God",
+      "note": "schrijver; genoemd als denker over God en de moderne mens",
       "start_seconds": 987,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
+      "mention_count": 1
     },
     {
       "name": "Immanuel Kant",
-      "note": "filosoof; zijn knecht Lampe moest een God hebben",
-      "start_seconds": 988,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "note": "filosoof; huisknecht Lampe zou voor hem een God moeten hebben",
+      "start_seconds": 987,
+      "mention_count": 1
     },
     {
       "name": "Charles Taylor",
-      "note": "filosoof van 'A Secular Age'",
+      "note": "filosoof; auteur van het begrip 'secular age'",
       "start_seconds": 1005,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Francis Fukuyama",
-      "note": "socioloog/politicoloog van 'het einde van de geschiedenis'",
+      "note": "politicoloog; 'einde van de geschiedenis' na de val van de Muur",
       "start_seconds": 2099,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Thierry Baudet",
-      "note": "Forum voor Democratie, genoemd bij extreem nationalisme",
-      "start_seconds": 1787,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "politicus (Forum voor Democratie); voorbeeld van extreem nationalisme",
+      "start_seconds": 1784,
+      "mention_count": 1
     },
     {
-      "name": "J.R.R. Tolkien",
-      "note": "door aanhangers als profeet gezien in Tolkien-religie",
-      "start_seconds": 914,
-      "wiki_checked": true,
-      "wiki_pageid": 12634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.R.R._Tolkien",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/250px-J._R._R._Tolkien%2C_ca._1925.jpg"
+      "name": "Maarten Thart",
+      "note": "bekende figuur die openlijk uit de kerk stapte",
+      "start_seconds": 719,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "comedian die openlijk uit de kerk stapte",
+      "start_seconds": 723,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter van Rooden",
+      "note": "historicus; schreef over het versterven van het Nederlandse christendom",
+      "start_seconds": 733,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "priesterhistoricus; sprak over het afkalven van morele gemeenschappelijkheid",
+      "start_seconds": 400,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "burgemeester van Amsterdam; bood excuses aan voor het slavernijverleden",
+      "start_seconds": 3437,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; over de stad van God en de heidense staat van eer",
+      "start_seconds": 3465,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof; citaat 'alleen een God kan ons redden'",
+      "start_seconds": 4167,
+      "mention_count": 1
+    },
+    {
+      "name": "Christoffel Columbus",
+      "note": "ontdekkingsreiziger; begin van westerse wereldheerschappij vanaf 1492",
+      "start_seconds": 3202,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het seculiere experiment",
       "author": "Hans Boutellier",
-      "note": "over de westerse pragmacratie na de secularisatie",
-      "start_seconds": 502,
-      "volume_id": "LXb9xwEACAAJ",
-      "canonical_title": "Het seculiere experiment: over westerse waarden in radicale tijden",
+      "note": "vorig boek; beschrijft de pragmacratie als antwoord op secularisatie",
+      "start_seconds": 488,
+      "volume_id": "TnHVsgEACAAJ",
+      "canonical_title": "Het seculiere experiment",
       "canonical_author": "Hans Boutellier",
-      "isbn13": "9789462369122",
-      "isbn10": "9462369127",
+      "isbn13": "9789089536211",
+      "isbn10": "9089536213",
       "thumbnail": ""
     },
     {
       "title": "Het nieuwe Westen",
       "author": "Hans Boutellier",
-      "note": "pragmacratie brokkelt af, identitaire strijd",
-      "start_seconds": 484,
+      "note": "nieuw boek; over het afbrokkelen van de pragmacratie en het nieuwe grote verhaal",
+      "start_seconds": 481,
       "volume_id": "p9-IzgEACAAJ",
-      "canonical_title": "Het nieuwe westen: de identitaire strijd om de sociale verbeelding",
-      "canonical_author": "Hans Boutellier",
+      "canonical_title": "Het nieuwe Westen",
+      "canonical_author": "Johannes Cornelis Joseph Boutellier",
       "isbn13": "9789461645326",
       "isbn10": "9461645325",
       "thumbnail": ""
@@ -163,10 +142,10 @@
     {
       "title": "Solidariteit en slachtofferschap",
       "author": "Hans Boutellier",
-      "note": "proefschrift over het afwijzen van wat niet deugt",
-      "start_seconds": 390,
+      "note": "proefschrift; basisstelling over gedeeld afwijzen van wat niet deugt",
+      "start_seconds": 383,
       "volume_id": "Bl1msEuC2HAC",
-      "canonical_title": "Solidariteit en Slachtofferschap: De morele betekenis van criminaliteit in een postmoderne Cultuur",
+      "canonical_title": "Solidariteit en Slachtofferschap",
       "canonical_author": "Hans Boutellier",
       "isbn13": "9789053564097",
       "isbn10": "9053564098",
@@ -175,141 +154,153 @@
     {
       "title": "Het vreemde versterven van het Nederlandse christendom",
       "author": "Peter van Rooden",
-      "note": "artikel over geleidelijke secularisatie",
-      "start_seconds": 753
+      "note": "artikel; interviews over de ontkerkelijking",
+      "start_seconds": 733
     }
   ],
   "bible_refs": [],
   "places": [
     "Nederland",
+    "Frankrijk",
     "Afghanistan",
     "China",
-    "Utrecht",
-    "Oost-Europa"
+    "Verenigde Staten",
+    "Filipijnen",
+    "Utrecht"
   ],
-  "summary_tldr": "Hans Boutellier legt uit dat het seculiere experiment van het Westen geen 'zooitje' opleverde, maar een pragmacratie die draait om efficiëntie. Die pragmacratie biedt echter weinig inspiratie en brokkelt af door hyperindividualisme en een strijd om erkenning. Samen met Stefan Paas verkent hij de vraag of er een nieuw gemeenschappelijk verhaal mogelijk is.",
+  "summary_tldr": "Hans Boutellier bespreekt met David Boogerd en Stefan Paas hoe de secularisatie na de jaren zestig leidde tot een seculier experiment waarin de pragmacratie centraal staat. Hij ziet die pragmacratie nu afbrokkelen door gebrek aan gemeenschappelijkheid, erkenning en een groot verhaal. Het gesprek eindigt met de vraag wat het 'nieuwe Westen' kan bieden en hoe hoop zich verhoudt tot zorgen over de toekomst.",
   "summary_points": [
-    "Boutelliers vader voorspelde rond 1970: als niemand meer in God gelooft, wordt het een zootje.",
-    "De secularisatie verliep voor de meeste mensen geleidelijk, zonder harde breuk of expliciete verwerping.",
-    "Zonder gemeenschappelijke grote verhalen kun je overal in geloven, maar je moet wel iets geloven.",
-    "De pragmacratie (Rutte) regelt de samenleving goed, maar biedt geen troost, enthousiasme of zingeving.",
-    "Criminaliteit is onder controle en de MeToo-beweging werkt als morele correctie, maar klimaat en consumentisme blijven problemen.",
-    "Hyperindividualisme en neoliberalisme laten thymos, de strijd om erkenning, opkomen in identitaire bewegingen.",
-    "Boutellier maakt onderscheid tussen inclusieve (Black Lives Matter) en uitsluitende (extreem nationalisme) identiteitspolitiek.",
-    "Fukuyama had ongelijk, maar de alternatieven (islamisme, nationalisme, Chinees imperialisme) zijn verontrustend."
+    "Boutellier beschrijft zijn tijd als katholieke jongen die de snelle secularisatie rond 1969-1970 meemaakte.",
+    "De vader-uitspraak 'Als niemand meer in God gelooft, wordt het een zootje' vormt de rode draad van zijn werk.",
+    "Het seculiere experiment: na de ontzuiling ontstond de pragmacratie, gericht op efficiëntie en de vrije markt, met Rutte als voorbeeld.",
+    "Volgens Boutellier kan men zonder gemeenschappelijk geloof overal in geloven, waardoor iedereen moet geloven in iets.",
+    "Onze tijd is volgens hem 'hypermoraal': mensen nemen elkaar constant de maat via sociale media en talkshows.",
+    "De pragmacratie brokkelt af door gebrek aan gemeenschappelijkheid en een hyperindividualisme waarin de drang naar erkenning (thymos) naar boven komt.",
+    "Identitaire strijd leidt tot polarisatie en vijandschap; het verschil tussen inclusieve en exclusieve bewegingen wordt benadrukt.",
+    "Boutellier pleit voor wederkerigheid als basis van samenleven en voor trots op de democratische rechtsstaat.",
+    "Het Westen moet zijn koloniale verleden erkennen, maar ook trots kunnen zijn op zijn verworvenheden.",
+    "Paas en Boutellier zien religie in een geïndividualiseerde, vloeibare vorm terugkeren; het nieuwe grote verhaal moet dun maar bindend zijn.",
+    "Beiden tonen zorg over klimaat, geopolitiek en interne verdeeldheid, met hoop als 'punt op de horizon'."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Hypermorele tijd en kennismaking",
-      "summary": "Inleiding op Boutellier en het idee dat we in een hypermorele tijd leven. Hij vertelt over zijn werk als criminoloog en hoogleraar polarisatie."
+      "title": "Hypermoraal en de vraag naar gemeenschappelijkheid",
+      "summary": "Boutellier introduceert het begrip hypermoraliteit en de gedachte dat iedereen iets moet geloven."
     },
     {
-      "start_seconds": 240,
-      "title": "Wat niet deugt als bindmiddel",
-      "summary": "Boutelliers proefschrift over solidariteit en slachtofferschap: overeenstemming over wat we afwijzen."
+      "start_seconds": 481,
+      "title": "Het seculiere experiment en de ontzuiling",
+      "summary": "Boutellier beschrijft de snelle omslag van de jaren zestig en de vraag wat er na de ontzuiling kwam."
     },
     {
-      "start_seconds": 502,
-      "title": "Het seculiere experiment",
-      "summary": "Boutellier beschrijft de snelle omslag in de jaren zestig en zijn katholieke opvoeding. Stefan Paas wijst op het geleidelijke karakter van secularisatie."
+      "start_seconds": 953,
+      "title": "De vaderuitspraak en het secularisatieproces",
+      "summary": "De gesprekspartners bespreken hoe mensen geleidelijk seculier werden en of de vader van Boutellier gelijk had."
     },
     {
-      "start_seconds": 893,
-      "title": "Moeten we iets geloven?",
-      "summary": "Zonder grote verhalen kun je alles geloven, maar we moeten wel iets geloven. De uitspraak van zijn vader en denkers als Kant en Nietzsche."
+      "start_seconds": 1086,
+      "title": "Pragmacratie: is het een zootje geworden?",
+      "summary": "Discussie over criminaliteit, veiligheid en de norm waarmee je het succes van de samenleving meet."
     },
     {
-      "start_seconds": 1088,
-      "title": "Pragmacratie en de balans",
-      "summary": "Is de samenleving een zootje geworden? Discussie over criminaliteit, pornificatie, MeToo, klimaat en consumentisme."
+      "start_seconds": 1490,
+      "title": "Thymos, erkenning en identitaire strijd",
+      "summary": "Boutellier verbindt het afbrokkelen van de pragmacratie aan de zoektocht naar erkenning en identitaire bewegingen."
     },
     {
-      "start_seconds": 1493,
-      "title": "Het afbrokkelen van de pragmacratie",
-      "summary": "Hyperindividualisme, thymos en identitaire strijd van Black Lives Matter tot nationalisme en islamisme."
+      "start_seconds": 2614,
+      "title": "Wederkerigheid en het nationale verhaal",
+      "summary": "Wederkerigheid wordt als basis voor samenleven gepresenteerd en gekoppeld aan nationale trots op de democratische rechtsstaat."
     },
     {
-      "start_seconds": 2064,
-      "title": "Na Fukuyama: welk alternatief?",
-      "summary": "Is de westerse democratie het eindmodel? Gesprek over Afghanistan, China en de vraag naar een stevig nationalistisch verhaal in een superdiverse samenleving."
+      "start_seconds": 3131,
+      "title": "Het Westen op de knieën en religie in het nieuwe Westen",
+      "summary": "Boutellier bespreekt het koloniale verleden en de vraag of religie of een nieuw verhaal een rol kan spelen."
+    },
+    {
+      "start_seconds": 3795,
+      "title": "Pessimisme, hoop en het punt op de horizon",
+      "summary": "Afsluiting over zorgen over de toekomst, de rol van hoop en het idee van waarheid als horizon."
     }
   ],
   "highlights": [
     {
       "start_seconds": 3,
       "speaker": "Hans Boutellier",
-      "text": "Ik zou liever willen spreken van een hypermorele tijd.",
-      "note": "Scherpe typering van onze tijd: we lezen elkaar permanent de les."
+      "text": "Op het moment dat we geen gemeenschappelijke geloven meer hebben en we overal in kunnen geloven, moeten we wel iets geloven.",
+      "note": "Kernstelling van het hele gesprek over hypermoraliteit."
     },
     {
-      "start_seconds": 964,
+      "start_seconds": 953,
       "speaker": "Hans Boutellier",
       "text": "Als niemand meer in God gelooft, wordt het een zootje jongen.",
-      "note": "De uitspraak van zijn vader die zijn denken stuurde."
+      "note": "De vaderuitspraak die Boutellier zijn hele werk heeft gevormd."
     },
     {
-      "start_seconds": 1106,
+      "start_seconds": 1751,
       "speaker": "Hans Boutellier",
-      "text": "Rutte is de vleesgeworden pragmacratie.",
-      "note": "Pakkende typering van het regeren zonder visie, op basis van effectiviteit en efficiëntie."
+      "text": "Die strijd om erkenning... wordt datgene wat ik ben, mijn heilige overtuiging. Die strijd is gaande.",
+      "note": "Verbindt identiteit en religieuze taal aan politieke polarisatie."
     },
     {
-      "start_seconds": 1186,
+      "start_seconds": 3043,
       "speaker": "Stefan Paas",
-      "text": "Welke norm hanteer je? Iemand die zegt dat het slecht gaat kan genoeg redenen verzinnen.",
-      "note": "Kritische kanttekening bij de conclusie dat Nederland geen zooitje is geworden."
+      "text": "De hypermoraliteit is misschien een manier om je te verheffen boven de ander en de ander neer te trappen.",
+      "note": "Scherpe kritiek op moralisme als concurrentie in plaats van echte moraal."
     },
     {
-      "start_seconds": 1871,
+      "start_seconds": 3144,
       "speaker": "Hans Boutellier",
-      "text": "Of je jezelf in wil sluiten, dat vind ik echt iets anders dan dat je een ander wil uitsluiten.",
-      "note": "Onderscheid tussen Black Lives Matter en extreem nationalisme."
+      "text": "Ten einde overeind te blijven, moet het Westen op de knieën.",
+      "note": "Omstreden uitspraak die verwees naar schuld en religieuze taal en tot kritiek leidde."
     },
     {
-      "start_seconds": 2196,
+      "start_seconds": 3993,
       "speaker": "Hans Boutellier",
-      "text": "Ik snap dat Fukuyama niet gelijk heeft, maar wat dan wel?",
-      "note": "Kernzorg van het boek: geen aantrekkelijk alternatief."
+      "text": "Ook al weet je dat je het nooit gaat halen. Een punt op de horizon is onbereikbaar, maar je ziet hem wel staan.",
+      "note": "Een hoopvol slot dat richting geeft ondanks pessimisme."
     }
   ],
   "keywords": [
+    "seculiere experiment",
     "secularisatie",
     "pragmacratie",
-    "Het seculiere experiment",
-    "Het nieuwe Westen",
+    "hypermoraliteit",
     "thymos",
-    "identiteitspolitiek",
-    "hyperindividualisme",
-    "Fukuyama",
+    "identitaire strijd",
+    "wederkerigheid",
     "ontzuiling",
+    "democratische rechtsstaat",
     "polarisatie",
-    "neoliberalisme"
+    "zingeving"
   ],
   "quotes": [
-    "Als er niemand meer in God gelooft, dan wordt het een zooitje jongen.",
+    "Als niemand meer in God gelooft, dan wordt het een zooitje jongen.",
     "Ik had nooit het gevoel dat het mis kon gaan, maar dat is nu veranderd."
   ],
   "similar": [
     {
-      "n": 209,
-      "reason": "Zoektocht naar een gemeenschappelijk groot verhaal voor onze tijd, met Paas en De Graaf"
-    },
-    {
       "n": 21,
-      "reason": "De liberale leegte en polarisatie; beide gaan over het liberale Westen zonder inspiratie"
+      "reason": "Over de liberale leegte in een polariserende samenleving, sluit aan bij de pragmacratie-analyse."
     },
     {
-      "n": 285,
-      "reason": "Crisis van het Westen en onbehagen, filosofisch en politiek geduid"
-    },
-    {
-      "n": 301,
-      "reason": "Seculiere elite, staat en volk; filosofische kijk op het seculiere Westen"
+      "n": 209,
+      "reason": "Gaat over het ontbreken van een groot verhaal, een kernthema van deze aflevering."
     },
     {
       "n": 263,
-      "reason": "Afbrokkelende oude verhalen en culturele verdwazing in een seculiere tijd"
+      "reason": "Behandelt cultureel verdwaald zijn, afbrokkelende verhalen en secularisatie in het Westen."
+    },
+    {
+      "n": 202,
+      "reason": "Bespreekt het failliet van het vooruitgangsgeloof en de wankele westerse wereld."
+    },
+    {
+      "n": 192,
+      "reason": "Gaat over de waarde van cultuurchristendom voor Europa en de Nederlandse identiteit."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

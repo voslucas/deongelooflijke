@@ -1,18 +1,23 @@
 {
   "episode": 19,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107280,
+    "segments": 1075,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30848,
-    "output_tokens": 2359,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55140,
+    "output_tokens": 9508,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "God & geloof",
+    "Zingeving & psyche",
     "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Economie & geld"
   ],
   "guests": [
     "Stine Jensen"
@@ -20,275 +25,330 @@
   "people": [
     {
       "name": "Christopher Hitchens",
-      "note": "prominent atheïst, 'nieuwe atheïsme'",
-      "start_seconds": 229,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
+      "note": "Atheïstische denker en een van de 'four horsemen' van het nieuwe atheïsme",
+      "start_seconds": 224,
+      "mention_count": 3
     },
     {
       "name": "Richard Dawkins",
-      "note": "atheïstisch denker, een van de 'horsemen'",
+      "note": "Biologist en atheïst, een van de 'four horsemen'",
       "start_seconds": 235,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Stephen Hawking",
+      "note": "Natuurkundige, genoemd als een van de 'four horsemen'",
+      "start_seconds": 235,
+      "mention_count": 1
     },
     {
       "name": "Daniel Dennett",
-      "note": "atheïstisch filosoof",
+      "note": "Filosoof, genoemd als een van de 'four horsemen'",
       "start_seconds": 235,
-      "wiki_checked": true,
-      "wiki_pageid": 140634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daniel_Dennett",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Daniel_Dennett_in_Venice_2006.png/250px-Daniel_Dennett_in_Venice_2006.png"
+      "mention_count": 1
     },
     {
       "name": "Sam Harris",
-      "note": "atheïstisch auteur",
-      "start_seconds": 242,
-      "wiki_checked": true,
-      "wiki_pageid": 1218911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Harris_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sam_Harris_01.jpg/250px-Sam_Harris_01.jpg"
+      "note": "Schrijver en atheïst, genoemd als verwant aan het nieuwe atheïsme",
+      "start_seconds": 241,
+      "mention_count": 1
     },
     {
       "name": "Theo van Gogh",
-      "note": "vermoord in 2004, aanleiding voor Jensens atheïstisch activisme",
+      "note": "Filmmaker, vermoord in 2004; aanleiding voor Stine's activisme",
+      "start_seconds": 527,
+      "mention_count": 2
+    },
+    {
+      "name": "Theodor Holman",
+      "note": "Journalist en vriend van Theo van Gogh, werkte bij Human",
       "start_seconds": 540,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Teeuwen",
+      "note": "Cabaretier die meedeed aan de videoboodschappen van Human",
+      "start_seconds": 618,
+      "mention_count": 1
     },
     {
       "name": "Ayaan Hirsi Ali",
-      "note": "maakte de film Submission",
-      "start_seconds": 625,
-      "wiki_checked": true,
-      "wiki_pageid": 7672,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayaan_Hirsi_Ali",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg/250px-Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg"
+      "note": "Politica en schrijver, maker van de film Submission",
+      "start_seconds": 640,
+      "mention_count": 1
     },
     {
-      "name": "Rutger Bregman",
-      "note": "voormalig fel atheïst, eerder te gast",
-      "start_seconds": 845,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "name": "Einstein",
+      "note": "Wetenschapper, genoemd als tegenvoorbeeld van de idee dat denkers niet kunnen geloven",
+      "start_seconds": 434,
+      "mention_count": 1
     },
     {
       "name": "Graham Greene",
-      "note": "schrijver van The End of the Affair",
-      "start_seconds": 1018,
-      "wiki_checked": true,
-      "wiki_pageid": 67885,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Graham_Greene_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Graham_Greene%27s_Birthplace_blue_plaque_crop.jpg/250px-Graham_Greene%27s_Birthplace_blue_plaque_crop.jpg"
+      "note": "Schrijver van de roman The End of the Affair",
+      "start_seconds": 1004,
+      "mention_count": 1
     },
     {
-      "name": "Ulrich Beck",
-      "note": "socioloog: spiritualiteit als biografische oplossing voor systeemfouten",
-      "start_seconds": 1698,
-      "wiki_checked": true,
-      "wiki_pageid": 657335,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ulrich_Beck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ulrich_Beck%2C_2012.png/250px-Ulrich_Beck%2C_2012.png"
+      "name": "Lodewijk Asscher",
+      "note": "Politicus, werkte eerder als econoom; genoemd in de biografie van de yogaleraar",
+      "start_seconds": 1075,
+      "mention_count": 1
     },
     {
-      "name": "Koen Simon",
-      "note": "schrijver van een artikel in Trouw over moderne spiritualiteit",
-      "start_seconds": 1577,
-      "wiki_checked": true
-    },
-    {
-      "name": "Stef Aupers",
-      "note": "onderzoeker naar moderne spiritualiteit",
-      "start_seconds": 2028,
-      "wiki_checked": true
+      "name": "Rutger Bregman",
+      "note": "Historicus en schrijver, eerder te gast in de podcast, ook van fel atheïsme naar milder",
+      "start_seconds": 839,
+      "mention_count": 2
     },
     {
       "name": "Bhagwan Shree Rajneesh",
-      "note": "goeroe, voorbeeld van sectarische spiritualiteit",
+      "note": "Spirituele leider (Bhagwan), met sectarische en autoritaire trekken",
       "start_seconds": 1892,
-      "wiki_checked": true,
-      "wiki_pageid": 79254,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bhagwan_Sri_Rajneesh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Bhagwan_beweging_gekwetst_door_reclame-affiche_van_het_NRC_met_de_tekst_profeet%2C_Bestanddeelnr_933-0734-cropped.jpg/250px-Bhagwan_beweging_gekwetst_door_reclame-affiche_van_het_NRC_met_de_tekst_profeet%2C_Bestanddeelnr_933-0734-cropped.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "Yogi Bhajan",
+      "note": "Oprichter van de Kundalini yoga, bedacht het concept 'koude depressie'",
+      "start_seconds": 3499,
+      "mention_count": 2
+    },
+    {
+      "name": "Ellen Heimerix",
+      "note": "Ex-lid van de sectarische Noorse Broeders, die later openlijk sprak over de gevaren",
+      "start_seconds": 2581,
+      "mention_count": 1
+    },
+    {
+      "name": "Koen Simon",
+      "note": "Auteur van een Trouw-artikel over moderne spiritualiteit en de markt",
+      "start_seconds": 1518,
+      "mention_count": 2
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog, zei dat laatmoderne spiritualiteit biografische oplossingen voor systeemfouten is",
+      "start_seconds": 1690,
+      "mention_count": 1
+    },
+    {
+      "name": "Stef Aupers",
+      "note": "Collega van Stefan Paas, onderzoeker van moderne spiritualiteit",
+      "start_seconds": 2028,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Versteeg",
+      "note": "Collega van Stefan Paas, onderzoeker van moderne spiritualiteit",
+      "start_seconds": 2028,
+      "mention_count": 1
+    },
+    {
+      "name": "Esma Alarajci",
+      "note": "Lid van de groep Halal, debatteerde met Stine over geloof",
+      "start_seconds": 3198,
+      "mention_count": 2
+    },
+    {
+      "name": "Elma Draaier",
+      "note": "Deelnemer aan een tv-debat over mindfulness",
+      "start_seconds": 3882,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Politicus, genoemd in verband met ontkerkelijkte kiezers",
+      "start_seconds": 3930,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Go East",
+      "author": "Stine Jensen",
+      "note": "Boek uit 2015 over oosterse spiritualiteit, positief en wervend",
+      "start_seconds": 2214,
+      "volume_id": "UX04vgAACAAJ",
+      "canonical_title": "Go East",
+      "canonical_author": "Stine Jensen",
+      "isbn13": "9789049805227",
+      "isbn10": "9049805221",
+      "thumbnail": ""
+    },
+    {
+      "title": "Goeroes",
+      "author": "Stine Jensen",
+      "note": "Boek uit 2019 met waarschuwing over de schaduwzijde en gevaren van oosterse spiritualiteit",
+      "start_seconds": 2222,
+      "volume_id": "iwGEDwAAQBAJ",
+      "canonical_title": "Goeroes",
+      "canonical_author": "Stine Jensen",
+      "isbn13": "9789048838486",
+      "isbn10": "9048838487",
+      "thumbnail": "http://books.google.com/books/content?id=iwGEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "The End of the Affair",
       "author": "Graham Greene",
-      "note": "citaat 'I hated God as though he existed'",
-      "start_seconds": 1018,
+      "note": "Roman waarin een man schrijft: 'I hated God as though he existed'",
+      "start_seconds": 1019,
       "volume_id": "0qNaAAAAMAAJ",
       "canonical_title": "The End of the Affair",
       "canonical_author": "Graham Greene",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": "http://books.google.com/books/content?id=0qNaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
-      "title": "Go East",
-      "author": "Stine Jensen",
-      "note": "positief boek over oosterse spiritualiteit (2015)",
-      "start_seconds": 2214,
-      "volume_id": "EtpICgAAQBAJ",
-      "canonical_title": "Go east! een filosoof reist door de wereld van yoga, mindfulness en spiritualiteit",
-      "canonical_author": "Stine Jensen",
-      "isbn13": "9789026329555",
-      "isbn10": "9026329555",
-      "thumbnail": "http://books.google.com/books/content?id=EtpICgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Goeroes",
-      "author": "Stine Jensen",
-      "note": "waarschuwend boek over de schaduwzijde van spiritualiteit",
-      "start_seconds": 2222,
-      "volume_id": "iwGEDwAAQBAJ",
-      "canonical_title": "Goeroes: Mijn zoektocht naar de verleidingen en gevaren van moderne spiritualiteit",
-      "canonical_author": "Stine Jensen",
-      "isbn13": "9789048838486",
-      "isbn10": "9048838487",
-      "thumbnail": "http://books.google.com/books/content?id=iwGEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "1 Korintiërs 1:22-24",
+      "note": "Paas verwijst naar de wijsheid van de Grieken, de religie van de Joden en de politiek van de Romeinen en het kruis van Jezus",
+      "start_seconds": 1953
+    },
+    {
+      "ref": "2 Korintiërs 11:14",
+      "note": "Paas citeert de tekst dat de Satan zich als een engel van het licht kan voordoen",
+      "start_seconds": 3125
+    }
+  ],
   "places": [
     "Azerbeidzjan",
     "Rome",
     "Amsterdam",
+    "Schilderswijk",
+    "Rwanda",
     "India",
-    "Denemarken",
-    "Amerika"
+    "Verenigde Staten",
+    "Denemarken"
   ],
-  "summary_tldr": "Stine Jensen vertelt hoe ze van activistisch atheïst een 'spirituele atheïst' werd via yoga. Samen met Stefan Paas onderzoekt ze de aantrekkingskracht én de schaduwkanten van oosterse spiritualiteit, zoals commercialisering en sektarische groepsdruk.",
+  "summary_tldr": "Stine Jensen en Stefan Paas bespreken de opkomst van oosterse spiritualiteit, yoga en mindfulness als alternatief voor een ontkerkelijkt Nederland. Jensen vertelt over haar overgang van fel atheïsme naar een milde, spirituele atheïst, en over haar eigen yogapraktijk. Paas en Jensen debatteren over de markt, de schaduwzijde van guru's en de vraag of spiritualiteit maatschappelijke verandering kan brengen.",
   "summary_points": [
-    "Jensen was een felle, activistische atheïst geïnspireerd door Hitchens en Dawkins.",
-    "Een lichamelijke burn-out-achtige crisis leidde haar naar kundalini yoga.",
-    "Ze is nog steeds atheïst maar waardeert de spirituele ruimte en rituelen.",
-    "Het nieuwe atheïsme was volgens haar een tijdsverschijnsel met iets adolescents.",
-    "Paas wijst op de omslag van zingeving naar zinmaking en de commerciële kant van spiritualiteit.",
-    "Beck: laatmoderne spiritualiteit biedt biografische oplossingen voor systeemfouten.",
-    "Jensen noemt de tegenstelling individu versus systeem een valse oppositie.",
-    "Gemeenschap is volgens Paas een onderontwikkeld aspect van moderne spiritualiteit.",
-    "In haar boek Goeroes waarschuwt Jensen voor manipulatie en groepsdenken."
+    "Jensen was vroeger een fel, activistisch atheïst, mede beïnvloed door het nieuwe atheïsme en de moord op Theo van Gogh.",
+    "Haar overgang naar spirituele atheïst begon met een lichamelijke burn-out en een yogaopleiding.",
+    "Kundalini yoga biedt volgens Jensen ruimte voor vitaliteit, ritueel en zingeving zonder een strikt religieus kader.",
+    "Paas ziet moderne spiritualiteit als een product van de markt en de prestatiemaatschappij, met het risico van individualisering.",
+    "Ulrich Beck's idee van biografische oplossingen voor systeemfouten wordt besproken als kritiek op laatmoderne spiritualiteit.",
+    "De grens tussen gezonde en gevaarlijke spiritualiteit is moeilijk te trekken; Jensen onderzocht dit in het boek Goeroes.",
+    "Institutionele controle en gemeenschap zijn volgens Paas essentieel om misbruik van gezag te voorkomen.",
+    "Gemeenschap die mensen van verschillende klassen en achtergronden bij elkaar brengt, lijkt in moderne spiritualiteit te ontbreken.",
+    "Het gesprek eindigt met de paradox van zin ontvangen versus zin maken in een universum dat mogelijk betekenisloos is."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en Wie is de Mol",
-      "summary": "Introductie van de gasten en een luchtig gesprek over Jensens deelname aan Wie is de Mol."
+      "title": "Introductie en voorstellen",
+      "summary": "David Boogerd introduceert Stine Jensen en Stefan Paas en het thema van oosterse spiritualiteit."
     },
     {
-      "start_seconds": 211,
-      "title": "Van fel atheïsme naar mildheid",
-      "summary": "Jensen vertelt over haar activistische atheïsme, de invloed van Theo van Gogh's moord en haar verandering."
+      "start_seconds": 224,
+      "title": "Van fel atheïsme naar spirituele atheïst",
+      "summary": "Jensen vertelt over haar atheïstische periode, geïnspireerd door Hitchens en het nieuwe atheïsme."
     },
     {
-      "start_seconds": 1018,
-      "title": "Het nieuwe atheïsme en Graham Greene",
-      "summary": "Reflectie op het nieuwe atheïsme als tijdsverschijnsel en het citaat 'I hated God as though he existed'."
+      "start_seconds": 527,
+      "title": "Activisme en de moord op Theo van Gogh",
+      "summary": "Jensen beschrijft haar activisme voor het recht om niet te geloven en de videoboodschappen die zij maakte."
     },
     {
       "start_seconds": 1061,
-      "title": "Yoga als weg",
-      "summary": "Jensens lichamelijke crisis leidde tot kundalini yoga, rituelen en een verwantschap met sikhisme."
+      "title": "Burn-out, yoga en ritueel",
+      "summary": "Jensen legt uit hoe een burn-out haar naar yoga leidde en hoe ze rituelen in haar leven integreert."
     },
     {
-      "start_seconds": 1437,
-      "title": "Spiritualiteit als product",
-      "summary": "Paas bespreekt zinmaking, marktdenken en kritiek van Beck; Jensen nuanceert met individu en systeem."
+      "start_seconds": 1518,
+      "title": "Markt, zingeving en laatmoderne spiritualiteit",
+      "summary": "Paas analyseert spiritualiteit als product van de markt en de prestatiemaatschappij, en het risico van individualisering."
     },
     {
-      "start_seconds": 2214,
-      "title": "Go East en Goeroes",
-      "summary": "Over de schaduwzijde van spiritualiteit, Jensens negatieve ervaring met nootmuskaatkoekjes en groepsdruk."
+      "start_seconds": 2222,
+      "title": "Schaduwzijde en gevaren van guru's",
+      "summary": "Het gesprek gaat over sectarische bewegingen, de bad trip op een meditatieweek en de grens tussen gezond en ongezond."
+    },
+    {
+      "start_seconds": 3588,
+      "title": "Gemeenschap, klasse en institutionaliteit",
+      "summary": "Paas en Jensen bespreken het gebrek aan gemeenschap die klassen verbindt en het belang van instituties."
+    },
+    {
+      "start_seconds": 4023,
+      "title": "Zin, willekeur en paradox",
+      "summary": "Het gesprek sluit af met de vraag of zin gemaakt of ontvangen wordt, en de paradox van een betekenisloos universum."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 779,
+      "speaker": "Stine Jensen",
+      "text": "Ik geloof niet in God. Ik geloof dat er werkelijk niets is en ik ben nog steeds een darwinist.",
+      "note": "Ondanks haar spirituele ontwikkeling houdt Jensen vast aan atheïsme, wat de paradox van het gesprek benadrukt."
+    },
+    {
+      "start_seconds": 1690,
       "speaker": "Stefan Paas",
-      "text": "Voelt wel wat ongemakkelijk als Stine naast me zit en nu moet ik het gaan verklaren.",
-      "note": "Humoristisch moment over de rolverdeling tussen ervaringsdeskundige en deskundige."
+      "text": "Veel laatmoderne spiritualiteit is biografische oplossingen voor systeemfouten.",
+      "note": "Een scherpe kritiek op spiritualiteit als aanpassing aan een ziekmakende samenleving in plaats van als alternatief."
     },
     {
-      "start_seconds": 1033,
-      "speaker": "Stine Jensen",
-      "text": "I hated God as though he existed.",
-      "note": "Treffend citaat uit Greene dat haar eigen felle atheïsme duidt."
-    },
-    {
-      "start_seconds": 1698,
+      "start_seconds": 3125,
       "speaker": "Stefan Paas",
-      "text": "Veel laatmoderne spiritualiteit zijn biografische oplossingen voor systeemfouten.",
-      "note": "Scherpe kritiek op spiritualiteit die mensen aanpast aan een ziekmakende samenleving."
+      "text": "De Satan komt als een engel van het licht; in de prachtigste verschijningsvormen kan het kwaad zich schuilhouden.",
+      "note": "Paas waarschuwt dat ook de meest aantrekkelijke spirituele groepen gevaarlijk kunnen zijn."
     },
     {
-      "start_seconds": 2256,
+      "start_seconds": 3310,
       "speaker": "Stine Jensen",
-      "text": "Koekjes met een grote hoeveelheid nootmuskaat: ik kreeg een bad trip en ben weggegaan, maar 60 mensen bleven.",
-      "note": "Persoonlijke ervaring die haar boek Goeroes inspireerde."
+      "text": "Het leven is willekeur. Daar kun je niks van maken.",
+      "note": "Een eerlijke en onthullende visie op zingeving die het gesprek over zin en betekenis verdiept."
     },
     {
-      "start_seconds": 1295,
+      "start_seconds": 3499,
       "speaker": "Stine Jensen",
-      "text": "Zin ontvang je door te zijn, niet door te doen.",
-      "note": "Kernverschil tussen zinmaking en oosterse ontvankelijkheid."
+      "text": "Koude depressie: je staat niet meer in contact met je gevoel, levenslust is weg.",
+      "note": "Een treffend begrip van moderne lusteloosheid dat Jensen overneemt van Yogi Bhajan."
     }
   ],
   "keywords": [
+    "spirituele atheïst",
     "oosterse spiritualiteit",
     "yoga",
-    "kundalini",
-    "atheïsme",
-    "nieuwe atheïsme",
-    "zinmaking",
+    "Kundalini yoga",
     "mindfulness",
-    "goeroe",
-    "Christopher Hitchens",
-    "prestatiemaatschappij",
-    "sikhisme",
-    "Graham Greene"
+    "secularisatie",
+    "zingeving",
+    "gemeenschap",
+    "sekte",
+    "koude depressie",
+    "laatmoderne spiritualiteit",
+    "guru"
   ],
-  "quotes": [],
+  "quotes": [
+    "Yoga en mindfulness zijn populair en boeddhabeeldes lijken niet aan te slepen.",
+    "Stine Jensen was ooit zo fel atheïstisch dat ze spontaan onwel werd als ze een kerk binnenliep.",
+    "Wat is de aantrekkingskracht van oosterse spiritualiteit?"
+  ],
   "similar": [
     {
+      "n": 54,
+      "reason": "Spiritualiteit in een seculiere tijd, sterk verwant aan oosterse spiritualiteit en zingeving."
+    },
+    {
       "n": 207,
-      "reason": "Stine Jensen opnieuw te gast: atheïsme, zingeving en het veranderende debat over God"
+      "reason": "Stine Jensen over God, atheïsme en zingeving, met een verschuivend debat over ongeloof."
     },
     {
       "n": 98,
-      "reason": "Stine Jensen in debat over het bestaan van God met Emanuel Rutten"
+      "reason": "Debat tussen Stine Jensen en Emanuel Rutten over het bestaan van God."
     },
     {
-      "n": 73,
-      "reason": "Religie zonder God en seculiere spiritualiteit, met Boris van der Ham"
-    },
-    {
-      "n": 54,
-      "reason": "Spiritualiteit in een seculiere tijd, met Nikolaas Sintobin"
+      "n": 278,
+      "reason": "Therapiecultuur als nieuwe opium, vergelijkbaar met de markt van yoga en mindfulness."
     },
     {
       "n": 146,
-      "reason": "Nieuwe kijk op atheïsme, in de lijn van Dawkins en Hitchens"
+      "reason": "Atheïsme als levensbeschouwing, met Rik Peels; raakt aan Jensens atheïstische overgang."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

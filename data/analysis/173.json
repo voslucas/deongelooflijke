@@ -1,11 +1,16 @@
 {
   "episode": 173,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 136364,
+    "segments": 1333,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30921,
-    "output_tokens": 2635,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69501,
+    "output_tokens": 9047,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -21,131 +26,143 @@
   "people": [
     {
       "name": "Augustinus",
-      "note": "kerkvader, voorbeeld van theoloog, filosoof en historicus ineen",
+      "note": "Kerkvader en filosoof; zijn bekeringsverhaal en het perendiefstal-verhaal in de Belijdenissen worden besproken",
       "start_seconds": 271,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Keizer Augustus",
-      "note": "man van de Pax Romana in het kerstverhaal",
-      "start_seconds": 778,
-      "wiki_checked": true,
-      "wiki_pageid": 864376,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustus_%28keizer%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg/250px-Augustus_Bevilacqua_Glyptothek_Munich_317.jpg"
-    },
-    {
-      "name": "Karel de Grote",
-      "note": "op kerstdag 800 tot keizer gekroond",
-      "start_seconds": 942,
-      "wiki_checked": true,
-      "wiki_pageid": 5337,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/250px-Charlemagne_denier_Mayence_812_814.jpg"
-    },
-    {
-      "name": "Napoleon Bonaparte",
-      "note": "liet zich rond kerst kronen; viel volgens 1815-denken buiten de christelijke beschaving",
-      "start_seconds": 942,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
-    },
-    {
-      "name": "Thomas Hobbes",
-      "note": "'de mens is de mens een wolf'",
-      "start_seconds": 1115,
-      "wiki_checked": true,
-      "wiki_pageid": 14520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Hobbes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Thomas_Hobbes_%28portrait%29.jpg/250px-Thomas_Hobbes_%28portrait%29.jpg"
-    },
-    {
-      "name": "Frans de Waal",
-      "note": "primatoloog die de verniste-theorie van beschaving verwerpt",
-      "start_seconds": 1061,
-      "wiki_checked": true,
-      "wiki_pageid": 267944,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_de_Waal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Frans_de_Waal.jpg/250px-Frans_de_Waal.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "genoemd in de context van de mens als van nature sociaal",
-      "start_seconds": 1088,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
-    },
-    {
-      "name": "William James",
-      "note": "psycholoog die religieuze ervaringen bij adolescenten beschreef",
-      "start_seconds": 1468,
-      "wiki_checked": true,
-      "wiki_pageid": 1911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_James",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/William_James_b1842c.jpg/250px-William_James_b1842c.jpg"
-    },
-    {
-      "name": "Giotto",
-      "note": "schilder van het fresco op de omslag van het boek",
-      "start_seconds": 869,
-      "wiki_checked": true,
-      "wiki_pageid": 10649,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giotto_di_Bondone",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Giotto_-_Tableau_repr%C3%A9sentant_cinq_ma%C3%AEtres_de_la_Renaissance_florentine_%28d%C3%A9but_XVIe_si%C3%A8cle_%3F%29.JPG/250px-Giotto_-_Tableau_repr%C3%A9sentant_cinq_ma%C3%AEtres_de_la_Renaissance_florentine_%28d%C3%A9but_XVIe_si%C3%A8cle_%3F%29.JPG"
+      "mention_count": 9
     },
     {
       "name": "Barack Obama",
-      "note": "zong Amazing Grace bij de uitvaart in Charleston, 2015",
+      "note": "Zingt 'Amazing Grace' na de aanslag in Charleston (2015)",
       "start_seconds": 2232,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Frans de Waal",
+      "note": "Primatoloog die de vernistheorie over de oorlogzuchtige mens weerlegt",
+      "start_seconds": 1061,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Hobbes",
+      "note": "Filosoof met de uitspraak 'de mens is de mens een wolf'",
+      "start_seconds": 1088,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Visioen van verzoening tussen voormalige slavenhouders en slaafgemaakten",
+      "start_seconds": 4524,
+      "mention_count": 1
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Citaat over missionarissen die de Bijbel brachten en het land namen",
+      "start_seconds": 3526,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "Citaat dat alleen een God ons kan helpen",
+      "start_seconds": 4410,
+      "mention_count": 1
+    },
+    {
+      "name": "Anselmus van Canterbury",
+      "note": "Middeleeuws theoloog; tractaat Cur Deus Homo over de satisfactieleer",
+      "start_seconds": 2473,
+      "mention_count": 1
+    },
+    {
+      "name": "Gustave Aulén",
+      "note": "Theoloog die het Christus-Victor-model in de jaren 30 nieuw leven inblies",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Abelardus",
+      "note": "Vertegenwoordiger van de subjectieve (morele beïnvloedings)verzoeningsleer",
+      "start_seconds": 2498,
+      "mention_count": 1
+    },
+    {
+      "name": "William James",
+      "note": "Psycholoog die bekeringservaringen bij adolescenten beschreef",
+      "start_seconds": 1468,
+      "mention_count": 1
     },
     {
       "name": "Blaise Pascal",
-      "note": "voorbeeld van iemand met een bekeringservaring",
+      "note": "Denker met een bekeringservaring, genoemd als voorbeeld",
       "start_seconds": 1208,
-      "wiki_checked": true,
-      "wiki_pageid": 200,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Blaise_Pascal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blaise_Pascal_Versailles.JPG/250px-Blaise_Pascal_Versailles.JPG"
+      "mention_count": 1
     },
     {
-      "name": "John Newton",
-      "note": "slavenhaler die abolitionist werd en Amazing Grace schreef (niet bij naam genoemd)",
-      "start_seconds": 2328,
-      "wiki_checked": true,
-      "wiki_pageid": 1757045,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Newton_%28abolitionist%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Stained-Glass_Image_of_John_Newton_-_Amazing_Grace_Writer_-_St._Peter_and_Paul_Church_-_Olney_-_Buckinghamshire_-_England_-_02_%2827656254594%29.jpg/250px-Stained-Glass_Image_of_John_Newton_-_Amazing_Grace_Writer_-_St._Peter_and_Paul_Church_-_Olney_-_Buckinghamshire_-_England_-_02_%2827656254594%29.jpg"
+      "name": "Napoleon Bonaparte",
+      "note": "Keizer; liet zich kronen rond kerst; buiten de christelijke beschaving geplaatst na het Verdrag van Münster",
+      "start_seconds": 930,
+      "mention_count": 3
+    },
+    {
+      "name": "Karel de Grote",
+      "note": "Keizer die met kerst werd gekroond (800)",
+      "start_seconds": 930,
+      "mention_count": 1
+    },
+    {
+      "name": "Reiza Blommenstein",
+      "note": "Voorbeeld in Stefans gedachte-experiment over verzoening",
+      "start_seconds": 4279,
+      "mention_count": 2
+    },
+    {
+      "name": "Silvana Simons",
+      "note": "Voorbeeld in Stefans gedachte-experiment over verzoening",
+      "start_seconds": 4279,
+      "mention_count": 2
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "Voormalig uitgesproken atheïst die zich bekeerde tot het christelijk geloof",
+      "start_seconds": 4924,
+      "mention_count": 2
+    },
+    {
+      "name": "Robert Long",
+      "note": "Zanger van een jaren-70-lied over schuldcomplexen door de kerk",
+      "start_seconds": 2754,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Siebelink",
+      "note": "Schrijver; genoemd als voorbeeld van extreme pietistische geloofspraktijk",
+      "start_seconds": 2551,
+      "mention_count": 1
+    },
+    {
+      "name": "Rico Voorberg",
+      "note": "Voorganger in Amsterdam die het Onze Vader liet aanpassen",
+      "start_seconds": 2947,
+      "mention_count": 1
+    },
+    {
+      "name": "Marlene Dietrich",
+      "note": "Genoemd in een grap over Augustinus-stukjes",
+      "start_seconds": 295,
+      "mention_count": 1
+    },
+    {
+      "name": "Godfried Bomans",
+      "note": "Schrijver die de uitspraak over Dietrich aanhaalde",
+      "start_seconds": 295,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Vrede op Aarde",
       "author": "Stefan Paas",
-      "note": "zoektocht naar een nieuw christelijk verhaal voor vrede",
-      "start_seconds": 123,
+      "note": "Het besproken boek over een nieuw christelijk verhaal van vrede",
+      "start_seconds": 50,
       "volume_id": "WhrMEAAAQBAJ",
       "canonical_title": "Vrede op aarde: Over heil en redding in deze tijd",
       "canonical_author": "Stefan Paas",
@@ -154,156 +171,193 @@
       "thumbnail": "http://books.google.com/books/content?id=WhrMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Vrede stichten",
+      "title": "Vrede Stichten",
       "author": "Stefan Paas",
-      "note": "eerder boek uit 2007 over politiek als vredestichtende actie",
-      "start_seconds": 654,
+      "note": "Boek uit 2007 over politiek als vredestichtende actie",
+      "start_seconds": 694,
       "volume_id": "VLGbGAAACAAJ",
-      "canonical_title": "Vrede stichten: politieke meditaties",
+      "canonical_title": "Vrede stichten: Politieke meditaties",
       "canonical_author": "Stefan Paas",
       "isbn13": "9789023921752",
       "isbn10": "9023921755",
       "thumbnail": ""
+    },
+    {
+      "title": "Uncle Tom's Cabin",
+      "author": "Harriet Beecher Stowe",
+      "note": "Roman uit de Amerikaanse slavernijcultuur, besproken als context van de tweede slavernij",
+      "start_seconds": 3619,
+      "volume_id": "92cyAQAAMAAJ",
+      "canonical_title": "Uncle Tom's Cabin: Authoritative Text, Backgrounds and Contexts, Criticism",
+      "canonical_author": "Harriet Beecher Stowe",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=92cyAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Lukas 2",
-      "note": "kerstverhaal: Augustus en de engelen die vrede op aarde zingen",
-      "start_seconds": 768
+      "note": "Kerstverhaal: keizer Augustus, de engelenzang 'vrede op aarde' en de herders en wijzen",
+      "start_seconds": 766
     },
     {
       "ref": "Zacharia 8",
-      "note": "Jezus als vredevorst op een ezel (zoals op de omslag)",
+      "note": "Profetische tekst over de vredevorst die op een ezel Jeruzalem binnenkomt; afgebeeld op de cover",
       "start_seconds": 869
+    },
+    {
+      "ref": "1 Thessalonicensen 5:3",
+      "note": "'Vrede en veiligheid' als valse vrede, herhaald in de Bijbel",
+      "start_seconds": 3339
+    },
+    {
+      "ref": "2 Korintiërs 5:18",
+      "note": "Paulus die zijn werk samenvat als de bediening van de verzoening",
+      "start_seconds": 4514
     }
   ],
   "places": [
+    "Münster",
     "Padua",
     "Jeruzalem",
-    "Münster",
+    "Lissabon",
     "Charleston",
-    "Gaza",
-    "Oekraïne",
     "Utrecht",
-    "Amsterdam"
+    "Oost-Afrika",
+    "Israël",
+    "Palestina",
+    "Oekraïne",
+    "Gaza"
   ],
-  "summary_tldr": "Stefan Paas wordt als hoofdgast ondervraagd door Beatrice de Graaf en Rik Peels over zijn boek 'Vrede op Aarde'. Hij vertelt over zijn godservaring op zijn 18e en pleit voor een breder christelijk verhaal dan het individuele 'pietistische bekeringsdrama'. Vrede wordt besproken als theologisch, historisch en persoonlijk thema.",
+  "summary_tldr": "In deze kersaflevering wordt Stefan Paas ondervraagd over zijn boek 'Vrede op Aarde', waarin hij zoekt naar een nieuw christelijk verhaal. Hij analyseert het dominante pietistische bekeringsdrama, dat volgens hem te dun is geworden, en pleit voor een breder verhaal van verzoening, recht en shalom. Beatrice de Graaf en Rik Peels nuanceren dit en wijzen op de waarde van schuld, gemeenschap, gezin en dagelijkse vredesrituelen.",
   "summary_points": [
-    "Stefan Paas is voor het eerst zelf hoofdgast over zijn boek 'Vrede op Aarde'.",
-    "Vrede is een diep christelijk thema dat verder gaat dan politiek en omvat gezinnen, straten en harten.",
-    "In Lukas 2 staan de Pax Romana en de kwetsbare vrede rond de kribbe tegenover elkaar.",
-    "Het Verdrag van Münster (1648) maakte vrede het uitgangspunt van de christelijke beschaving.",
-    "Paas vertelt over zijn overweldigende godservaring op zijn 18e, waar hij twintig jaar niet over sprak.",
-    "Hij bekritiseert het 'pietistische bekeringsdrama': individueel, ervaringsgericht, gericht op hemel en hel.",
-    "Dit verhaal ontstond om de christelijke beschaving te redden en is nu een kerkelijke subcultuur geworden.",
-    "Rik Peels vraagt hoe wijdverbreid dit drama werkelijk was, naast katholieke en vrijzinnige tradities.",
-    "Amazing Grace illustreert het bekeringsdrama, en de schrijver was een slavenhaler die abolitionist werd."
+    "Vrede wordt in de geschiedenis vaak alleen politiek en tussen staten gedacht, terwijl het ook in gezin, straat en hart speelt",
+    "Het kerstverhaal stelt de Romeinse politieke vrede tegenover een vrede die ontstaat rond een kwetsbaar kind",
+    "Het Verdrag van Münster (1648) maakte vrede tot uitgangspunt van de christelijke beschaving",
+    "Stefan Paas beschrijft zijn eigen godservaring op zijn achttiende en waarom hij die lang niet deelde",
+    "Het pietistische bekeringsdrama (verloren, schuld, bekering, gered) werd dominant in de 18e en 19e eeuw en is volgens Paas op zijn laatste benen",
+    "Rik Peels pleit ervoor schuld en verzoening juist nieuw leven in te blazen, ook als antwoord op cancelcultuur",
+    "De koppeling van zielenredding aan slavernij laat zien hoe een individueel heilsverhaal maatschappelijk misbruikt kan worden",
+    "Volgens Paas lopen secularisatie, zingevingscrisis, ecologische crisis en koloniaal verleden samen aan de wortel",
+    "Beatrice de Graaf benadrukt het belang van gemeenschap, gezin en kleine vredesrituelen zoals samen eten en zingen",
+    "De aflevering eindigt met een kerstlied en de wens dat het christelijk verhaal van verzoening de polarisatie kan helpen overstijgen"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en Stefan als gast",
-      "summary": "David introduceert de bijzondere aflevering waarin Stefan zelf ondervraagd wordt door Beatrice en Rik."
+      "title": "Intro en voorstelling van het boek",
+      "summary": "David Boogerd stelt de gasten voor en verkent de titel 'Vrede op Aarde' in een tijd van oorlog en polarisatie."
     },
     {
-      "start_seconds": 467,
-      "title": "Waarom 'Vrede op Aarde'?",
-      "summary": "Over vrede als begrip in geschiedenis, politiek en persoonlijk leven, en het vredesgat in onze cultuur."
+      "start_seconds": 483,
+      "title": "Vrede als politiek en persoonlijk begrip",
+      "summary": "Beatrice de Graaf stelt dat vrede vooral als staatszaak wordt gezien, terwijl het menselijke niveau verwaarloosd wordt. Stefan Paas verbindt vrede met het Bijbelse shalom."
     },
     {
-      "start_seconds": 767,
-      "title": "Vrede en kerst",
-      "summary": "Het kerstverhaal in Lukas 2, de Pax Romana, de vredevorst, kerstbestanden en het Verdrag van Münster."
+      "start_seconds": 766,
+      "title": "Kerst en vrede in Bijbel en geschiedenis",
+      "summary": "Het kerstverhaal van Lukas 2 en het Verdrag van Münster worden besproken als bronnen van het idee dat vrede de natuurlijke toestand hoort te zijn."
     },
     {
-      "start_seconds": 1140,
-      "title": "De godservaring op 18-jarige leeftijd",
-      "summary": "Stefan vertelt over zijn overweldigende ervaring en waarom hij er zo lang over zweeg."
+      "start_seconds": 1144,
+      "title": "De persoonlijke godservaring van Stefan Paas",
+      "summary": "Paas vertelt over zijn overweldigende godservaring op zijn achttiende en waarom hij er jarenlang over zweeg."
     },
     {
-      "start_seconds": 1500,
+      "start_seconds": 1538,
       "title": "Het pietistische bekeringsdrama",
-      "summary": "Uitleg van het dominante christelijke verhaal van hemel en hel, kruisdood en individuele bekering, en de historische achtergrond."
+      "summary": "Paas analyseert het bekeringsdrama als dominant verhaal van de Westerse christenheid. Rik Peels nuanceert en wijst op de verschillende verzoeningsmodellen."
     },
     {
-      "start_seconds": 1840,
-      "title": "Kritiek en nuance van Beatrice en Rik",
-      "summary": "Discussie over het woord 'drama' en hoe breed dit verhaal werkelijk gedeeld werd."
+      "start_seconds": 3561,
+      "title": "Schuld, verzoening en de kwalijke kant van zielenredding",
+      "summary": "De koppeling van zielenredding aan slavernij in het Amerikaanse Zuiden wordt besproken, evenals het belang van verzoening in een cancelcultuur."
     },
     {
-      "start_seconds": 2220,
-      "title": "Amazing Grace",
-      "summary": "Het lied als voorbeeld van het bekeringsdrama en de verrassende geschiedenis van de schrijver."
+      "start_seconds": 4727,
+      "title": "Naar een verhaal van verzoening en vredesrituelen",
+      "summary": "Paas schetst het christelijk verhaal als een beweging van shalom, recht en verzoening. Beatrice pleit voor kleine rituelen in gezin en school."
+    },
+    {
+      "start_seconds": 5100,
+      "title": "Afsluiting met kerstmuziek",
+      "summary": "De gasten reflecteren op de hunkering naar verbinding met kerst en eindigen met een kerstlied."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1169,
+      "start_seconds": 3176,
       "speaker": "Stefan Paas",
-      "text": "Daar kwam God mij tegemoet: een overweldigende ervaring van vreugde die een aantal uren duurde.",
-      "note": "Voor het eerst vertelt Stefan zo openlijk over zijn godservaring."
+      "text": "Een Maasai-oudste vraagt de zendeling waarom hij hun gemeenschap probeert te verdelen en verklaart namens het dorp: 'wij geloven'.",
+      "note": "Laat zien dat geloof ook een gemeenschappelijke, sociale daad kan zijn en niet alleen een individuele ervaring."
     },
     {
-      "start_seconds": 637,
-      "speaker": "Stefan Paas",
-      "text": "Vrede stichten moeten we leren; oorlog voeren kan iedereen.",
-      "note": "Scherpe observatie over de Gotische Bijbelvertaling zonder de boeken der Koningen."
-    },
-    {
-      "start_seconds": 530,
+      "start_seconds": 3339,
       "speaker": "Beatrice de Graaf",
-      "text": "Niemand demonstreert voor vrede in ons eigen hart, in onze eigen straat.",
-      "note": "Maakt het 'vredesvormige gat' in onze cultuur concreet."
+      "text": "Als je mensen alleen maar voorspiegelt dat alles goed komt, is dat valse vrede.",
+      "note": "Scherpe kritiek op een vredesboodschap die confrontatie met schuld en onrecht vermijdt."
     },
     {
-      "start_seconds": 1111,
+      "start_seconds": 3840,
+      "speaker": "Rik Peels",
+      "text": "Wij zijn wezens die betekenis kunnen verlenen en een soort ziel hebben, als echokamer van het goddelijke.",
+      "note": "Verdedigt de ziel als wezenlijk menselijk tegenover reductionistische verklaringen als 'wij zijn onze darmbacteriën'."
+    },
+    {
+      "start_seconds": 4584,
       "speaker": "Stefan Paas",
-      "text": "Zodra je erover gaat praten, praat je het dood.",
-      "note": "Over de onuitspreekbaarheid van diepe ervaringen."
+      "text": "De dode plekken zijn de plekken waar je overrompeld wordt door de schoonheid van het visioen en tegelijk je eigen onmacht ziet.",
+      "note": "Een treffende beschrijving van het spanningsveld tussen ideaal en werkelijkheid in het christelijk geloof."
     },
     {
-      "start_seconds": 2328,
+      "start_seconds": 4781,
       "speaker": "Beatrice de Graaf",
-      "text": "Het lied is geschreven door iemand die actief was in de slavenhandel en later abolitionist werd.",
-      "note": "Verrassende ironie rond Amazing Grace."
+      "text": "We moeten kleine vredesrituelen ontwikkelen, zoals een psalmvers uit je hoofd leren, samen kerstliedjes zingen of kaarsjes aansteken.",
+      "note": "Pleit voor het lichamelijk oefenen van vrede, tegenover een tijd waarin dit verloren is gegaan."
     }
   ],
   "keywords": [
     "vrede",
-    "Vrede op Aarde",
+    "shalom",
     "pietistisch bekeringsdrama",
     "godservaring",
-    "Pax Romana",
-    "Vredevorst",
+    "verzoening",
+    "schuld",
+    "zielenredding",
+    "secularisatie",
+    "slavernij",
+    "vredesrituelen",
     "christelijke beschaving",
-    "Amazing Grace",
-    "Verdrag van Münster",
-    "individualisme",
-    "kerstverhaal",
-    "Augustinus"
+    "bekering"
   ],
-  "quotes": [],
+  "quotes": [
+    "Waarin hij op zoek gaat naar een nieuw verhaal dat ons weer kan bezielen.",
+    "Waartoe is het christendom eigenlijk op aarde?",
+    "Grof geschut en daarom is deze aflevering wat langer dan normaal."
+  ],
   "similar": [
     {
-      "n": 200,
-      "reason": "Augustinus-aflevering met Beatrice de Graaf; geschiedenis, kerk en geloof."
+      "n": 270,
+      "reason": "Vrede als centraal thema, met Beatrice de Graaf en Stefan Paas"
     },
     {
       "n": 200,
-      "reason": "dup"
+      "reason": "Gedeelde figuur Augustinus; Beatrice de Graaf en Stefan Paas als gasten"
     },
     {
-      "n": 113,
-      "reason": "De Graaf en Paas over vrijheid, geschiedenis en Bijbel; grote cultuurhistorische verhalen."
+      "n": 240,
+      "reason": "Hoop en vrede vanuit christelijk perspectief, met Bijbel en kerkthema's"
+    },
+    {
+      "n": 242,
+      "reason": "Paasverdieping, kerk en vrede in een woelige wereld"
     },
     {
       "n": 184,
-      "reason": "De Graaf en Paas over waarde van de mens, Bijbel, Romeinen en geschiedenis."
-    },
-    {
-      "n": 146,
-      "reason": "Rik Peels en Paas over geloof, geschiedenis en cultuur."
+      "reason": "Bijbelse waarde van de mens, Beatrice de Graaf, geschiedenis en christelijke ethiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

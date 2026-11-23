@@ -1,18 +1,23 @@
 {
   "episode": 112,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118142,
+    "segments": 1219,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31342,
-    "output_tokens": 2816,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60847,
+    "output_tokens": 7141,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
     "God & geloof",
-    "Politiek"
+    "Politiek",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Jos Wienen"
@@ -20,282 +25,257 @@
   "people": [
     {
       "name": "Willem van Oranje",
-      "note": "Prins van Oranje, leider van de Nederlandse Opstand, Vader des Vaderlands",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 96424,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_van_Oranje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/WilliamOfOrange1580.jpg/250px-WilliamOfOrange1580.jpg"
+      "note": "Prins van Oranje, leider van de Nederlandse Opstand en stadhouder; de 'Vader des Vaderlands'",
+      "start_seconds": 3,
+      "mention_count": 90
     },
     {
       "name": "Filips II",
-      "note": "Koning van Spanje en landsheer van de Nederlanden, fel katholiek",
-      "start_seconds": 158,
-      "wiki_checked": true,
-      "wiki_pageid": 29393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Filips_II_van_Spanje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg/250px-Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+      "note": "Koning van Spanje, heerser over de Nederlanden, streng katholiek",
+      "start_seconds": 149,
+      "mention_count": 40
     },
     {
       "name": "Karel V",
-      "note": "Keizer die aftrad en Willem als jonge opperbevelhebber vertrouwde",
-      "start_seconds": 633,
-      "wiki_checked": true,
-      "wiki_pageid": 5197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Keizer_Karel_V",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg/250px-Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg"
+      "note": "Keizer, oom van Willem van Oranje; trad af en gaf zijn rijk door aan Filips II",
+      "start_seconds": 630,
+      "mention_count": 12
+    },
+    {
+      "name": "Hertog van Alva",
+      "note": "Spaans generaal die de opstand moest neerslaan en de Raad van Beroerten leidde",
+      "start_seconds": 1793,
+      "mention_count": 8
+    },
+    {
+      "name": "Balthasar Gerards",
+      "note": "Franse katholieke fanaticus die Willem van Oranje in 1584 vermoordde",
+      "start_seconds": 3416,
+      "mention_count": 6
     },
     {
       "name": "Martin Luther",
-      "note": "Reformator; Willems ouders hadden Lutherse sympathie",
-      "start_seconds": 698,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "René van Chalon",
-      "note": "Neef van Willem wiens vroege dood de erfenis aan Willem liet toekomen",
-      "start_seconds": 643,
-      "wiki_checked": true,
-      "wiki_pageid": 175598,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_van_Chalon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Possibly_copy_after_Jan_van_Scorel_-_Ren%C3%A9_de_Ch%C3%A2lon_%28ca_1518-44%29.jpg/250px-Possibly_copy_after_Jan_van_Scorel_-_Ren%C3%A9_de_Ch%C3%A2lon_%28ca_1518-44%29.jpg"
-    },
-    {
-      "name": "Willem de Rijke van Nassau",
-      "note": "Vader van Willem van Oranje, koos voor het protestantisme",
-      "start_seconds": 772,
-      "wiki_checked": true,
-      "wiki_pageid": 94545,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_I_van_Nassau-Dillenburg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Portret_van_Willem_I%2C_graaf_van_Nassau-Dillenburg.jpg/250px-Portret_van_Willem_I%2C_graaf_van_Nassau-Dillenburg.jpg"
-    },
-    {
-      "name": "Maria Tudor",
-      "note": "Koningin van Engeland, tweede vrouw van Filips II",
-      "start_seconds": 1263,
-      "wiki_checked": true,
-      "wiki_pageid": 36726,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_I_van_Engeland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Mary_I_of_England.jpg/250px-Mary_I_of_England.jpg"
+      "note": "Hervormer wiens stellingen de Reformatie inluidden",
+      "start_seconds": 700,
+      "mention_count": 3
     },
     {
       "name": "Margaretha van Parma",
       "note": "Landvoogdes van de Nederlanden, halfzus van Filips II",
-      "start_seconds": 2074,
-      "wiki_checked": true,
-      "wiki_pageid": 29520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Margaretha_van_Parma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/MargarethevonParma02.jpg/250px-MargarethevonParma02.jpg"
+      "start_seconds": 1473,
+      "mention_count": 3
     },
     {
-      "name": "Kardinaal Granvelle",
-      "note": "Invloedrijke adviseur van de koning, impopulair bij de adel",
+      "name": "Granvelle",
+      "note": "Kardinaal, invloedrijk adviseur van Filips II in de Nederlanden",
       "start_seconds": 1486,
-      "wiki_checked": true,
-      "wiki_pageid": 8355,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Antoine_Perrenot_de_Granvelle",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Antoine_Perrenot_de_Granvelle%2C_Anthonis_Mor_van_Dashorst%2C_GG_1035%2C_Kunsthistorisches_Museum_Wien.jpg/250px-Antoine_Perrenot_de_Granvelle%2C_Anthonis_Mor_van_Dashorst%2C_GG_1035%2C_Kunsthistorisches_Museum_Wien.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Hertog van Alva",
-      "note": "Spaanse generaal gestuurd om de opstand hard te straffen",
-      "start_seconds": 1797,
-      "wiki_checked": true,
-      "wiki_pageid": 29259,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fernando_%C3%81lvarez_de_Toledo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Willem_Key_-_Don_Fernando_%C3%81lvarez_de_Toledo%2C_III_duque_de_Alba%2C_Fundaci%C3%B3n_Casa_de_Alba.jpg/250px-Willem_Key_-_Don_Fernando_%C3%81lvarez_de_Toledo%2C_III_duque_de_Alba%2C_Fundaci%C3%B3n_Casa_de_Alba.jpg"
-    },
-    {
-      "name": "Graaf van Egmont",
-      "note": "Edelman die werd onthoofd",
-      "start_seconds": 2237,
-      "wiki_checked": true,
-      "wiki_pageid": 29281,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lamoraal_van_Egmont",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Lamoral_d%27Egmont.jpg/250px-Lamoral_d%27Egmont.jpg"
-    },
-    {
-      "name": "Graaf van Hoorn",
-      "note": "Edelman die werd onthoofd",
-      "start_seconds": 2237,
-      "wiki_checked": true,
-      "wiki_pageid": 29302,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Filips_van_Montmorency",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Philip_de_Montmorency.jpg/250px-Philip_de_Montmorency.jpg"
-    },
-    {
-      "name": "Justus Lipsius",
-      "note": "Humanistisch geleerde die pleitte voor één godsdienst per land",
-      "start_seconds": 1989,
-      "wiki_checked": true,
-      "wiki_pageid": 82972,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Justus_Lipsius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Justus_Lipsius_by_Peter_Paul_Rubens.jpg/250px-Justus_Lipsius_by_Peter_Paul_Rubens.jpg"
-    },
-    {
-      "name": "Anna van Saksen",
-      "note": "Eerste protestantse vrouw van Willem, ongelukkig huwelijk",
+      "name": "Anna van Saxen",
+      "note": "Duitse echtgenote van Willem van Oranje (tweede huwelijk)",
       "start_seconds": 2459,
-      "wiki_checked": true,
-      "wiki_pageid": 51604,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anna_van_Saksen_%281544-1577%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/After_Anthony_Mor_-_Portrait_of_Anna_of_Saxony.jpg/250px-After_Anthony_Mor_-_Portrait_of_Anna_of_Saxony.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Mary Tudor",
+      "note": "Koningin van Engeland, tweede echtgenote van Filips II",
+      "start_seconds": 1263,
+      "mention_count": 1
+    },
+    {
+      "name": "Prins Maurits",
+      "note": "Zoon van Willem van Oranje, later stadhouder",
+      "start_seconds": 3597,
+      "mention_count": 1
+    },
+    {
+      "name": "Lipsius",
+      "note": "Humanistisch geleerde die verdeeldheid in godsdienst afwees",
+      "start_seconds": 2008,
+      "mention_count": 1
+    },
+    {
+      "name": "Marnix van Sint Aldegonde",
+      "note": "Calvinistische medewerker van Willem van Oranje",
+      "start_seconds": 4217,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "Eerder besproken in de rubriek 'mensen die je moet kennen'",
+      "start_seconds": 423,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Voorbeeld van een door geloof gedreven leider met een complex leven",
+      "start_seconds": 4344,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Premier, genoemd als voorbeeld van politicus dichtbij het volk",
+      "start_seconds": 4872,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeroen Krabbé",
+      "note": "Acteur in een film over de jeugd van Willem van Oranje",
+      "start_seconds": 4472,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Le problème de l'incroyance au seizième siècle",
+      "author": "Lucien Febvre",
+      "note": "Historisch werk over ongeloof in de 16e eeuw, aangehaald als tegenargument",
+      "start_seconds": 1012,
+      "volume_id": "-csz0AEACAAJ",
+      "canonical_title": "Le Problème de l'incroyance au XVIe siècle",
+      "canonical_author": "Lucien Febvre",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Haarlem",
     "Dillenburg",
     "Ridderkerk",
-    "Nederlanden",
-    "Oranje",
-    "Spanje",
-    "Duitsland",
-    "Engeland",
-    "Frankrijk",
-    "Vlaanderen",
+    "Naarden",
+    "Alkmaar",
+    "Leiden",
     "Gorinchem",
-    "Franche-Comté"
+    "Zutphen",
+    "Den Bosch",
+    "Brussel",
+    "Spanje",
+    "Duitsland"
   ],
-  "summary_tldr": "Jos Wienen, historicus, theoloog en burgemeester van Haarlem, vertelt met Stefan Paas over Willem van Oranje: zijn jeugd aan het Habsburgse hof, zijn groeiende conflict met Filips II en zijn principiële pleidooi voor gewetensvrijheid. Het gesprek laat zien hoe religie, politiek en persoonlijke tragiek samenkwamen in de Nederlandse Opstand.",
+  "summary_tldr": "In deze aflevering in het stadhuis van Haarlem spreken David Boogerd en Stefan Paas met historicus en theoloog Jos Wienen over Willem van Oranje. Het gesprek schetst zijn leven van adellijke erfenis en loyale dienst aan Filips II tot zijn breuk met Spanje, de Opstand en zijn moord in 1584. Religie, geweten en verdraagzaamheid komen daarbij centraal te staan, met de vraag wat hij vandaag nog kan betekenen.",
   "summary_points": [
-    "Willem werd in 1533 in Dillenburg geboren in een Lutherse familie en erfde op 11-jarige leeftijd Oranje en enorme bezittingen.",
-    "Op verzoek van Karel V werd hij katholiek opgevoed aan het Brusselse hof als trouwe Habsburgse dienaar.",
-    "Karel V steunde bij zijn aftreden op de schouder van de 22-jarige Willem, die al opperbevelhebber was.",
-    "Spanningen ontstonden door Filips' centralisatiepolitiek, belastingen, Spaanse troepen en vervolging van protestanten.",
-    "De Beeldenstorm leidde tot de komst van Alva, de Bloedraad en de onthoofding van Egmont en Hoorn.",
-    "Willem verklaarde in 1564 dat hij geen koning kon goedkeuren die over gewetens wil heersen, een principiële lijn die hij ook tegenover calvinisten volhield.",
-    "Hij weigerde de nieuwe eed van onvoorwaardelijke gehoorzaamheid en trok zich terug naar Dillenburg.",
-    "De ontvoering van zijn zoon naar Spanje en de confiscatie van zijn bezit brachten hem ertoe de strijd aan te gaan.",
-    "Vanuit Duitsland voerde hij propaganda met pamfletten, liederen en een uitgebreid netwerk en inlichtingendienst."
+    "Willem van Oranje groeide op als protestants opgevoede prins, maar moest aan het hof van Karel V katholiek worden opgevoed om zijn enorme erfenis te krijgen.",
+    "Hij was jong een loyaal dienaar van de Habsburgse vorsten en kreeg hoge functies, maar keerde zich af van Filips II door zijn politieke en religieuze bezwaren.",
+    "Filips II wilde een sterk centraal gezag en een eenheidskerk; dit leidde tot weerstand in gewesten die zichzelf niet als één land zagen.",
+    "De beeldenstorm van 1566 en de harde reactie van Alva maakten de tegenstelling tussen koning en opstandelingen onherstelbaar.",
+    "Willem weigerde een eed van onvoorwaardelijke gehoorzaamheid, omdat hij vond dat koningen niet over het geweten van hun onderdanen mogen heersen.",
+    "Vanuit Duitsland organiseerde hij militaire pogingen en propaganda; uiteindelijk slaagde de opstand mede dankzij de watergeuzen en de verdediging van steden als Haarlem en Alkmaar.",
+    "Het gesprek benadrukt de rol van religie in zijn leven en de Opstand, tegenover historici die vooral economische of politieke oorzaken noemen.",
+    "Willem van Oranje wordt beschreven als complex: standvastig in principes, maar ook een charmante diplomaat met persoonlijke tegenstrijdigheden.",
+    "Zijn moord in 1584 door Balthasar Gerards bleef in de herinnering een religieus geladen gebeurtenis, met verschillende verhalen over zijn laatste woorden.",
+    "Jos Wienen ziet in Willems standvastigheid en verdraagzaamheid een inspiratie voor de hedendaagse polarisatie en politiek."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een safehouse en een prent van de moord",
-      "summary": "Opening met Wienens anekdote over de moordprent in zijn safehouse en introductie van de gast en het Haarlemse stadhuis."
+      "title": "Welkom in het stadhuis van Haarlem",
+      "summary": "De gasten en de locatie worden geïntroduceerd, met de belofte om Willem van Oranje als 'mens die je moet kennen' te bespreken."
     },
     {
-      "start_seconds": 207,
-      "title": "Fascinatie voor de prins",
-      "summary": "Wienen vertelt over zijn jeugdfascinatie voor Willem, ontstaan in Dillenburg, en waarom diens leven zo boeiend is."
+      "start_seconds": 221,
+      "title": "Fascinatie vanuit de jeugd",
+      "summary": "Jos Wienen vertelt hoe zijn interesse begon bij een jeugdvakantie in Dillenburg en waarom de prins zo boeiend is."
     },
     {
-      "start_seconds": 512,
-      "title": "Een Duitser in de Nederlanden",
-      "summary": "Over Willems afkomst, taal, Oranje, de erfenis en de Lutherse achtergrond."
+      "start_seconds": 605,
+      "title": "Erfenis, opvoeding en vroege carrière",
+      "summary": "Het gesprek behandelt de enorme erfenis van de jonge Willem, zijn katholieke opvoeding aan het hof en zijn snelle opmars onder Karel V."
     },
     {
-      "start_seconds": 780,
-      "title": "Opvoeding aan het hof en carrière onder Karel V",
-      "summary": "Willem wordt katholiek opgevoed, benoemd tot bevelhebber en staat naast Karel V bij diens aftreden."
+      "start_seconds": 1260,
+      "title": "Van loyale dienaar naar opstandeling",
+      "summary": "De spanningen tussen Filips II, de gewesten en de adel nemen toe, met belastingen, centralisatie en religieuze vervolging als oorzaken."
     },
     {
-      "start_seconds": 1230,
-      "title": "Groeiende onvrede onder Filips II",
-      "summary": "Centralisatie, belastingen, Granvelle en de vervolging van protestanten voeden de weerstand."
+      "start_seconds": 1800,
+      "title": "Beeldenstorm, Alva en de weigering van de eed",
+      "summary": "De beeldenstorm leidt tot harde repressie door Alva. Willem weigert een nieuwe eed en vertrekt naar Duitsland."
     },
     {
-      "start_seconds": 1665,
-      "title": "Beeldenstorm en Alva",
-      "summary": "De Beeldenstorm schokt Filips II en Alva wordt gestuurd; Willem pleit voor gewetensvrijheid."
+      "start_seconds": 2820,
+      "title": "Propaganda, verzet en de strijd om Holland",
+      "summary": "Vanuit Duitsland organiseert Willem verzet, propaganda en netwerken; het beleg van Haarlem en de strijd in Alkmaar en Leiden worden besproken."
     },
     {
-      "start_seconds": 2115,
-      "title": "Weigering van de eed en vlucht",
-      "summary": "Willem weigert de nieuwe eed, vertrekt naar Dillenburg en zijn zoon wordt ontvoerd, waarna hij de strijd aangaat."
+      "start_seconds": 3416,
+      "title": "De moord op Willem van Oranje",
+      "summary": "Het verhaal van Balthasar Gerards, de moord in 1584 en de nasleep met verschillende overleveringen over zijn laatste woorden."
     },
     {
-      "start_seconds": 2300,
-      "title": "Propaganda en netwerk",
-      "summary": "Vanuit Duitsland bespeelt Willem de publieke opinie met pamfletten en liederen en bouwt hij bondgenootschappen."
+      "start_seconds": 4200,
+      "title": "Lessen voor vandaag",
+      "summary": "Verdraagzaamheid, standvastigheid en nabijheid bij het volk worden gezien als lessen voor de huidige politiek en samenleving."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 22,
       "speaker": "Jos Wienen",
-      "text": "Sommige dingen zijn van zo grote betekenis, dan mag je geen duimbreed toegeven, wat ook de consequenties zijn.",
-      "note": "Verklaart waarom een prent van Willems moord in een safehouse hing."
+      "text": "Sommige dingen zijn van zo grote betekenis dat je geen duimbreed mag toegeven, wat ook de consequenties zijn.",
+      "note": "Een kernuitspraak over standvastigheid die het hele gesprek en de keuze voor het prentje in de safehouse samenvat."
+    },
+    {
+      "start_seconds": 720,
+      "speaker": "Jos Wienen",
+      "text": "Wij hebben de neiging vanuit het latere perspectief in te delen in Luther en katholiek, terwijl veel mensen in verwarring waren.",
+      "note": "Een scherpe historische nuance die het simplistische beeld van de Reformatie ter discussie stelt."
     },
     {
       "start_seconds": 1862,
       "speaker": "Stefan Paas",
-      "text": "Willem zei: ik ben zelf katholiek, maar ik kan niet goedkeuren dat koningen willen heersen over de gewetens van hun onderdanen.",
-      "note": "Een principiële uitspraak, riskant tegenover de katholieke koning."
+      "text": "Ik kan niet goedkeuren dat koningen willen heersen over de gewetens van hun onderdanen.",
+      "note": "Het bekende citaat van Willem van Oranje dat volgens Paas een principieel en geen louter tactisch standpunt was."
     },
     {
-      "start_seconds": 2160,
+      "start_seconds": 4621,
       "speaker": "Stefan Paas",
-      "text": "Willem weigerde een absolute eed van gehoorzaamheid omdat het niet goed is iets te doen wat tegen je geweten ingaat.",
-      "note": "Toont zijn moderne denken over geweten."
-    },
-    {
-      "start_seconds": 2279,
-      "speaker": "Stefan Paas",
-      "text": "Toen zijn zoon naar Spanje werd ontvoerd, ging bij Willem de wissel om.",
-      "note": "Persoonlijke tragiek als keerpunt in de opstand."
-    },
-    {
-      "start_seconds": 2413,
-      "speaker": "Stefan Paas",
-      "text": "Fake news gebeurde over en weer, maar Willem slaagde erin met een overvloed aan pamfletten en liedjes de publieke opinie te winnen.",
-      "note": "Parallel met moderne beïnvloeding."
+      "text": "Het is afgrijselijk dat in de Tweede Kamer gezegd wordt dat je het heilige boek van moslims moet verbieden.",
+      "note": "Paas trekt de lijn van verdraagzaamheid uit de 16e eeuw door naar het hedendaagse debat."
     }
   ],
   "keywords": [
     "Willem van Oranje",
-    "Filips II",
-    "Karel V",
-    "Beeldenstorm",
-    "Hertog van Alva",
-    "gewetensvrijheid",
     "Opstand",
-    "Wilhelmus",
-    "Lutheranisme",
-    "calvinisme",
-    "Dillenburg",
-    "propaganda"
+    "Filips II",
+    "Beeldenstorm",
+    "Reformatie",
+    "Geweten",
+    "Verdraagzaamheid",
+    "Calvinisme",
+    "Tachtigjarige Oorlog",
+    "Watergeuzen",
+    "Vader des Vaderlands",
+    "Standvastigheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Een charismatische en briljante diplomaat die de basis legt voor het Nederland zoals we het nu graag omschrijven: een vrij, verdraagzaam en calvinistisch landje.",
+    "Willem van Oranje is ook de reden dat we in het Oranje voetballen en het Wilhelmus zingen, wiens rare verzen je na deze podcast ineens veel beter begrijpt."
+  ],
   "similar": [
     {
       "n": 89,
-      "reason": "God, Nederland en Oranje: religie, natie en de Oranjes in de Nederlandse geschiedenis, met Stefan Paas."
-    },
-    {
-      "n": 132,
-      "reason": "Erasmus: humanistisch denker uit dezelfde tijd, over geloofsstrijd en politiek, met Ronald van Raak."
-    },
-    {
-      "n": 183,
-      "reason": "Spinoza en de Nederlandse Gouden Eeuw: vrijheid van denken en geloof, historisch perspectief."
-    },
-    {
-      "n": 245,
-      "reason": "Nederlandse koloniale geschiedenis en religie, vergeten hoofdstuk, met Stefan Paas."
+      "reason": "Oranje, religie en nationale identiteit; sterke overlap in thema en historische context"
     },
     {
       "n": 211,
-      "reason": "Bourgondiërs en de vergeten geschiedenis van de Nederlanden, de Habsburgse context van Willem."
+      "reason": "Habsburgse Nederlanden en Bourgondische geschiedenis; directe context van Filips II en Opstand"
+    },
+    {
+      "n": 132,
+      "reason": "Erasmus als Reformatie-denker; overlap in religie, politiek en 16e-eeuwse context"
+    },
+    {
+      "n": 41,
+      "reason": "Abraham Kuyper als gedeelde figuur; politiek-religieuze geschiedenis van Nederland"
+    },
+    {
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden; religie, geschiedenis en politieke identiteit"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

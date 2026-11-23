@@ -1,17 +1,22 @@
 {
   "episode": 277,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 143455,
+    "segments": 1626,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32756,
-    "output_tokens": 2122,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 76262,
+    "output_tokens": 2799,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
     "Geschiedenis",
-    "Filosofie & ethiek",
+    "Gezin & relaties",
     "Zingeving & psyche"
   ],
   "guests": [
@@ -20,172 +25,212 @@
   "people": [
     {
       "name": "Jerry Afriyie",
-      "note": "activist en dichter, oprichter van Kick Out Zwarte Piet en stichting Nederland Wordt Beter",
-      "start_seconds": 46,
-      "wiki_checked": true,
-      "wiki_pageid": 5274362,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jerry_Afriyie",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/JerryAfriyie2019.jpg/250px-JerryAfriyie2019.jpg"
+      "note": "activist en dichter, gast; oprichter/leider Kick Out Zwarte Piet",
+      "start_seconds": 5,
+      "mention_count": 1
     },
     {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier; voorbeeld van iemand die Afriyie niet als monster wil zien",
-      "start_seconds": 648,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast (niet als gast geteld)",
+      "start_seconds": 32,
+      "mention_count": 1
     },
     {
       "name": "Jan Schenkman",
-      "note": "onderwijzer die in 1850 het Sinterklaasboek met zwarte knecht schreef",
-      "start_seconds": 1982,
-      "wiki_checked": true,
-      "wiki_pageid": 1372648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Schenkman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Jan_Schenkman.jpg/250px-Jan_Schenkman.jpg"
+      "note": "prentenboekenschrijver die in 1850 de zwarte knecht van Zwarte Piet introduceerde",
+      "start_seconds": 2000,
+      "mention_count": 2
     },
     {
-      "name": "Clarence Seedorf",
-      "note": "voetballer; voorbeeld van voorwaardelijk Nederlanderschap na gemiste penalty",
-      "start_seconds": 1757,
-      "wiki_checked": true,
-      "wiki_pageid": 65506,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Clarence_Seedorf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Clarence_Seedorf_2021.jpg/250px-Clarence_Seedorf_2021.jpg"
+      "name": "Gerda Havertong",
+      "note": "media-figuur die in 1987 in Sesamstraat kritiek op Zwarte Piet uitte",
+      "start_seconds": 2490,
+      "mention_count": 3
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaanse dominee en burgerrechtenactivist; verzette zich tegen blackface",
+      "start_seconds": 2760,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "voormalig premier, reageerde op de Zwarte Piet-protesten",
+      "start_seconds": 3990,
+      "mention_count": 3
+    },
+    {
+      "name": "Dick Schoof",
+      "note": "premier; leider van het kabinet dat Kick Out Zwarte Piet in het terrorismerapport plaatste",
+      "start_seconds": 4020,
+      "mention_count": 2
+    },
+    {
+      "name": "Netanyahu",
+      "note": "Israëlische premier, genoemd als voorbeeld van een 'monster' in de denkwijze van Afriyie",
+      "start_seconds": 648,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Bosma",
+      "note": "PVV-politicus die in 2014 een motie over Zwarte Piet indiende",
+      "start_seconds": 2940,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; Paas noemt hem over zoektocht naar het diepste zelf",
+      "start_seconds": 5160,
+      "mention_count": 1
+    },
+    {
+      "name": "Seedorf",
+      "note": "voetballer die een penalty miste voor Oranje",
+      "start_seconds": 1470,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "voormalig fractievoorzitter ChristenUnie, sprak eerder in de podcast over Zwarte Piet",
+      "start_seconds": 4680,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [],
   "places": [
     "Ghana",
-    "Bijlmer",
     "Utrecht",
-    "Hoograven",
-    "Suriname",
+    "Bijlmer",
     "Amsterdam",
-    "Nederland"
+    "Dordrecht",
+    "Deventer",
+    "Gouda",
+    "Rotterdam",
+    "Sittard",
+    "Staphorst"
   ],
-  "summary_tldr": "Activist Jerry Afriyie legt op 5 december 2025 zijn stichting Nederland Wordt Beter, inclusief Kick Out Zwarte Piet, neer omdat de drie doelen zijn bereikt. Hij blikt terug op zijn jeugd in Ghana en Nederland, zijn rechtvaardigheidsgevoel en zijn geloof in de mens. Met Stefan Paas bespreekt hij empathie, de herkomst van Zwarte Piet en wat de strijd zegt over Nederland.",
+  "summary_tldr": "Jerry Afriyie blikt terug op vijftien jaar activisme via Kick Out Zwarte Piet en de stichting Nederland Wordt Beter, die op 5 december 2025 stopt omdat de drie gestelde doelen zijn behaald. Het gesprek gaat over de geschiedenis van Zwarte Piet, de reacties en het geweld tegen activisten, en over wat de strijd zegt over Nederland en menselijkheid. Afriyie beschrijft zijn vreedzame aanpak en zijn idee dat mensen elkaars spiegelbeeld zijn.",
   "summary_points": [
-    "Afriyie stopt na 15 jaar omdat de drie doelen zijn gehaald: meer onderwijs over slavernijverleden, een Nationale Herdenking en het einde van Zwarte Piet.",
-    "De Nationale Herdenking Slavernijverleden krijgt nu structureel 8 miljoen euro per jaar.",
-    "Onderwijs over koloniaal verleden en racisme is verplicht gemaakt via een motie van de organisatie Zet Je In.",
-    "Zijn motivatie is een diep rechtvaardigheidsgevoel en geloof in de mens: iedereen heeft een donkere kant, mensen zijn spiegelbeelden.",
-    "Eerdere generaties vochten voor hun plek in Nederland, deze generatie vocht voor veiligheid in het eigen huis.",
-    "Hij groeide op in Ghana met geïdealiseerde beelden van Nederland en kwam op zijn 11e naar Utrecht en later de Bijlmer.",
-    "De Dag van Empathie op 3 mei blijft als enige project bestaan.",
-    "Hij legt de oorsprong van Zwarte Piet uit via Jan Schenkman (1850) en vertelt over de pijn bij zwarte Nederlanders in de sinterklaastijd.",
-    "Zijn moeder maakte zich zorgen over zijn veiligheid door bedreigingen."
+    "Afriyie stopt op 5 december 2025 met de stichting omdat de drie doelen zijn behaald: educatie over slavernij en racisme, een Nationale Herdenking Slavernijverleden en het verdwijnen van Zwarte Piet.",
+    "De strijd begon meer dan honderd jaar eerder; kritiek op Zwarte Piet dateert al van 1927 en 1987.",
+    "Afriyie beschrijft zijn jeugd in Ghana, zijn komst naar Nederland op elfjarige leeftijd en de ervaring van uitsluiting.",
+    "De campagne kreeg te maken met intimidatie, bedreigingen, arrestaties en een ontslag, maar bleef vreedzaam.",
+    "Afriyie benadrukt dat mensen elkaars spiegelbeeld zijn en dat je ook jezelf moet onderzoeken.",
+    "Huiskamergesprekken en dialoog waren volgens hem de kern van de aanpak; hij ziet verandering in de meerderheid van Nederland.",
+    "Paas en Boogerd bespreken het religieuze en identitaire karakter van de discussie en de rol van religie in Afriyie's denken.",
+    "Afriyie ziet zichzelf niet als vast gelovige maar zoekt houvast in het goede in de mens."
   ],
   "chapters": [
     {
-      "start_seconds": 46,
-      "title": "Waarom Afriyie stopt",
-      "summary": "Introductie van de gast en uitleg waarom de stichting na 15 jaar wordt opgeheven."
+      "start_seconds": 0,
+      "title": "Introductie en stoppen met de stichting",
+      "summary": "Boogerd kondigt het gesprek aan en vraagt waarom Afriyie stopt met de stichting na vijftien jaar."
     },
     {
-      "start_seconds": 240,
-      "title": "De drie doelen bereikt",
-      "summary": "Onderwijs, Nationale Herdenking en Zwarte Piet; de scepsis van familie en de Bijlmer."
+      "start_seconds": 480,
+      "title": "De drie doelen en de deadline",
+      "summary": "Afriyie licht de drie doelen toe: educatie, Nationale Herdenking en het einde van Zwarte Piet."
     },
     {
-      "start_seconds": 573,
-      "title": "Geloof in de mens",
-      "summary": "Afriyie ziet mensen als spiegelbeelden en weigert goed en kwaad scherp te scheiden."
+      "start_seconds": 960,
+      "title": "Jeugd in Ghana en Nederland",
+      "summary": "Afriyie vertelt over zijn komst naar Nederland, de Utrechtse wijk en zijn eerste ervaringen met Zwarte Piet."
     },
     {
-      "start_seconds": 876,
-      "title": "Aankomst in Nederland",
-      "summary": "Van Ghana naar Utrecht en de Bijlmer, het gouden-straten-beeld en de buren in Hoograven."
+      "start_seconds": 1800,
+      "title": "Geschiedenis van Zwarte Piet",
+      "summary": "Paas en Afriyie bespreken de herkomst van Zwarte Piet, Jan Schenkman en eerdere protesten."
     },
     {
-      "start_seconds": 1350,
-      "title": "Dag van Empathie en zelfonderzoek",
-      "summary": "Het project dat blijft en het belang van persoonlijke groei en overeenkomsten."
+      "start_seconds": 2700,
+      "title": "Protesten, geweld en tegenstand",
+      "summary": "Er wordt gesproken over demonstraties in Dordrecht, arrestaties, bedreigingen en het Terrorisme-rapport."
     },
     {
-      "start_seconds": 1528,
-      "title": "Rechtvaardigheid en vroege ervaringen",
-      "summary": "Armoede, vrouwenrechten, zorgen van zijn moeder en uitgescholden worden voor Zwarte Piet."
+      "start_seconds": 4200,
+      "title": "Religie, houvast en menselijkheid",
+      "summary": "Afriyie reflecteert op geloof, de 10 geboden en zijn zoektocht naar houvast; Paas verbindt dit met Augustinus."
     },
     {
-      "start_seconds": 1892,
-      "title": "Herkomst van Zwarte Piet",
-      "summary": "Jan Schenkman, 1850, de schoorsteenmythe en de pijn van oudere zwarte Nederlanders."
+      "start_seconds": 5700,
+      "title": "Sinterklaas en afsluiting",
+      "summary": "Het gesprek eindigt met vragen over Sinterklaas vieren en de toekomst van Afriyie na 5 december."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 23,
+      "start_seconds": 3020,
       "speaker": "Jerry Afriyie",
-      "text": "Ondanks alles heb ik mijn liefde voor de medemens niet kwijt.",
-      "note": "Opent de aflevering met zijn kernmotivatie."
+      "text": "Het alternatief is ondraaglijk.",
+      "note": "Afriyie verklaart waarom hij niet stopt ondanks bedreigingen en persoonlijke offers."
     },
     {
-      "start_seconds": 782,
+      "start_seconds": 2200,
       "speaker": "Jerry Afriyie",
-      "text": "Wij vochten niet om onze plek hier te krijgen, wij vochten om onze plek veilig te krijgen.",
-      "note": "Verschil tussen generaties activisten."
+      "text": "Het gaat erom dat je genoeg mensen je kant op krijgt om samen een vuist te maken voor een nieuw morgen.",
+      "note": "Hij relativeert het idee dat je iedereen moet overtuigen."
     },
     {
-      "start_seconds": 1505,
+      "start_seconds": 330,
       "speaker": "Jerry Afriyie",
-      "text": "Er is geen andere, want de andere ben jij ook.",
-      "note": "Samenvatting van zijn mensbeeld."
+      "text": "Ik heb een onuitlegbare relatie met de mens.",
+      "note": "Een persoonlijke kern van zijn activisme: mensen zijn spiegelbeelden van elkaar."
     },
     {
-      "start_seconds": 2270,
+      "start_seconds": 5010,
       "speaker": "Jerry Afriyie",
-      "text": "Oudere mensen bedanken me en vertellen dat ze in november en december alleen naar werk en boodschappen durfden.",
-      "note": "Emotioneel moment dat de impact van Zwarte Piet toont."
+      "text": "Huidskleur is cadeaupapier.",
+      "note": "Een treffende metafoor die laat zien hoe hij identiteit en binnenwereld onderscheidt."
     },
     {
-      "start_seconds": 2395,
+      "start_seconds": 5330,
       "speaker": "Stefan Paas",
-      "text": "Je wil eigenlijk geloven dat het gewoon een schoorsteenveger is, net als met Sinterklaas zelf.",
-      "note": "Paas legt een link tussen geloof en de mythe."
+      "text": "Je hebt Nederland toch wel veranderd.",
+      "note": "Paas benoemt de impact van de beweging op de samenleving."
     }
   ],
   "keywords": [
     "Zwarte Piet",
     "Kick Out Zwarte Piet",
-    "Nederland Wordt Beter",
-    "activisme",
     "racisme",
-    "slavernijverleden",
-    "Keti Koti",
-    "Dag van Empathie",
-    "Jan Schenkman",
-    "empathie",
+    "activisme",
+    "vreedzaam protest",
+    "Sinterklaas",
     "Bijlmer",
-    "Ghana"
+    "slavernij",
+    "empathie",
+    "menselijkheid",
+    "houvast",
+    "huiskamergesprek"
   ],
-  "quotes": [],
+  "quotes": [
+    "Nederland is veranderd",
+    "Ik heb een onuitlegbare relatie met de mens.",
+    "Het gaat erom dat je genoeg mensen je kant op krijgt om samen een vuist te maken voor een nieuw morgen."
+  ],
   "similar": [
     {
-      "n": 30,
-      "reason": "Racisme en religie met Talitha Muusse en Don Ceder; direct raakvlak met discriminatie en Nederland"
-    },
-    {
       "n": 118,
-      "reason": "Geschiedenis van slavernij en excuses van het kabinet, verwant aan Zwarte Piet-debat"
+      "reason": "Behandelt slavernij en koloniale geschiedenis, nauw verwant aan het Zwarte Piet-debat."
     },
     {
-      "n": 256,
-      "reason": "Nederlands superieure zelfbeeld en tolerantiemythe, met Stefan Paas"
-    },
-    {
-      "n": 31,
-      "reason": "De nieuwe beeldenstorm: kritischer kijken naar het verleden en erfgoed"
+      "n": 30,
+      "reason": "Gaat direct over racismedebat en de vragen die daarachter liggen."
     },
     {
       "n": 97,
-      "reason": "Kiza Magendane: Afrikaanse achtergrond, vluchteling in Nederland, identiteit en zingeving"
+      "reason": "Vluchteling over zingeving en leegte in Nederland, thematisch sterk verwant aan Afriyie."
+    },
+    {
+      "n": 105,
+      "reason": "Gaat over maatschappelijke onverschilligheid en migratie, past bij menselijkheid-thema."
+    },
+    {
+      "n": 128,
+      "reason": "Gaat over zingeving, druk op mannen en identiteit in de samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

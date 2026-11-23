@@ -1,18 +1,23 @@
 {
   "episode": 295,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 140142,
+    "segments": 961,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30138,
-    "output_tokens": 2491,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69818,
+    "output_tokens": 6627,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Amerika & Trump",
-    "Technologie & AI",
-    "Politiek"
+    "Politiek",
+    "God & geloof"
   ],
   "guests": [
     "Joris Luyendijk",
@@ -21,247 +26,309 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, centraal in de zorgen over de Amerikaanse bondgenoot",
-      "start_seconds": 402,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president; centrale figuur in het gesprek over Amerika als bondgenoot",
+      "start_seconds": 422,
+      "mention_count": 25
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president, krijgt zelfvertrouwen als Oekraïne valt",
-      "start_seconds": 481,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "NAVO-chef die volgens Luyendijk steeds door de knieën moet",
+      "note": "Russische president; dreiging voor Oekraïne en Europa",
       "start_seconds": 500,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 8
     },
     {
       "name": "Volodymyr Zelensky",
-      "note": "Oekraïense president, een jaar geleden door Trump weggezet",
-      "start_seconds": 2289,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "note": "Oekraïense president",
+      "start_seconds": 2281,
+      "mention_count": 5
     },
     {
-      "name": "Donald Tusk",
-      "note": "Poolse leider: 600 miljoen Europeanen vragen hulp aan 350 miljoen Amerikanen",
-      "start_seconds": 1386,
-      "wiki_checked": true,
-      "wiki_pageid": 1079817,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Tusk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Donald_Tusk_KPRM_HQ_2023.jpg/250px-Donald_Tusk_KPRM_HQ_2023.jpg"
+      "name": "Mark Rutte",
+      "note": "NAVO-secretaris-generaal; moet volgens Luyendijk door de knieën",
+      "start_seconds": 500,
+      "mention_count": 3
     },
     {
       "name": "Keir Starmer",
-      "note": "Britse premier: 'it's not our war'",
-      "start_seconds": 1287,
-      "wiki_checked": true,
-      "wiki_pageid": 5254334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Keir_Starmer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Prime_Minister_Sir_Keir_Starmer_Official_Portrait_%28cropped%29.jpg/250px-Prime_Minister_Sir_Keir_Starmer_Official_Portrait_%28cropped%29.jpg"
+      "note": "Brits premier; zou hebben gezegd 'it's not our war'",
+      "start_seconds": 1307,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Tusk",
+      "note": "Pools premier; vroeg waarom 600 miljoen Europeanen hulp vragen aan 350 miljoen Amerikanen",
+      "start_seconds": 1386,
+      "mention_count": 1
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, loyaliteit wordt door Luyendijk in twijfel getrokken",
-      "start_seconds": 2013,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "Nederlands politicus; kritiek op zijn loyaliteit",
+      "start_seconds": 2036,
+      "mention_count": 2
     },
     {
-      "name": "Rob Jetten",
-      "note": "Premier van het nieuwe kabinet, eerste bezoek naar Oekraïne",
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlisch premier; genoemd als figuur die Poetin, Trump en Wilders steunen",
       "start_seconds": 2037,
-      "wiki_checked": true,
-      "wiki_pageid": 4797135,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Jetten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Rob_Jetten%2C_March_2026_-_01.jpg/250px-Rob_Jetten%2C_March_2026_-_01.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaanse president; voorbeeld van leider die zelf gelooft in wat hij zegt",
+      "start_seconds": 205,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer; genoemd in verband met elektrische auto's",
+      "start_seconds": 1033,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexei Navalny",
+      "note": "Russische oppositieleider; biografie 'Patriot' besproken",
+      "start_seconds": 5221,
+      "mention_count": 4
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Politicus; steunde de Oekraïne-actie en werd geciteerd over Zomergasten",
+      "start_seconds": 3697,
+      "mention_count": 1
+    },
+    {
+      "name": "Caroline van der Plas",
+      "note": "Politica (BBB); genoemd als talkshowgast",
+      "start_seconds": 2095,
+      "mention_count": 2
     },
     {
       "name": "Bert Hubert",
-      "note": "Digitaliseringsexpert, positief over het regeerakkoord",
+      "note": "Expert digitalisering overheid; positief over regeerakkoord",
       "start_seconds": 2082,
-      "wiki_checked": true,
-      "wiki_pageid": 5975186,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bert_Hubert",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bert_hubert-1758492605.jpg/250px-Bert_hubert-1758492605.jpg"
+      "mention_count": 1
     },
     {
       "name": "Mietta Groenewegen",
-      "note": "Kolonel bij de NAVO, over fusie van hightech en defensie",
+      "note": "Kolonel bij de NAVO; over fusie van hightech en defensie",
       "start_seconds": 2412,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Kamala Harris",
-      "note": "Hypothetisch gewonnen verkiezingen",
-      "start_seconds": 659,
-      "wiki_checked": true,
-      "wiki_pageid": 3880143,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kamala_Harris",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/250px-Kamala_Harris_Vice_Presidential_Portrait.jpg"
+      "name": "Jona van Loenen",
+      "note": "Journalist; zei dat Polen nu rijker is dan Japan",
+      "start_seconds": 3401,
+      "mention_count": 1
+    },
+    {
+      "name": "Lodewijk Asscher",
+      "note": "Politicus; citaat dat elk compromis vies is",
+      "start_seconds": 5590,
+      "mention_count": 1
+    },
+    {
+      "name": "Nigel Farage",
+      "note": "Brits politicus van Reform UK",
+      "start_seconds": 5870,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Tech-investeerder; genoemd in verband met Farage",
+      "start_seconds": 5901,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; zijn uitspraak over koninkrijken zonder rechtvaardigheid",
+      "start_seconds": 5723,
+      "mention_count": 3
+    },
+    {
+      "name": "Gerben Huisman",
+      "note": "Voorzitter Hope for Ukraine",
+      "start_seconds": 4059,
+      "mention_count": 6
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast",
+      "start_seconds": 1,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Patriot",
+      "author": "Alexei Navalny",
+      "note": "Dagboek/biografie van Navalny, besproken door Stefan Paas",
+      "start_seconds": 5221,
+      "volume_id": "3ozt0QEACAAJ",
+      "canonical_title": "Patriot. La mia storia",
+      "canonical_author": "Alexei Navalny",
+      "isbn13": "9788804800880",
+      "isbn10": "8804800887",
+      "thumbnail": "http://books.google.com/books/content?id=3ozt0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "De 7 vinkjes",
+      "author": "Joris Luyendijk",
+      "note": "Eerder boek van Luyendijk over mannen die zich nooit opgedrongen voelen",
+      "start_seconds": 4947
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Matteüs 5:6",
+      "note": "Bergrede: zalig die hongeren en dorsten naar gerechtigheid; geciteerd uit Navalny's pleidooi",
+      "start_seconds": 5317
+    }
+  ],
   "places": [
     "Amersfoort",
+    "Theater Flint",
     "Oekraïne",
+    "Kiev",
+    "Irpin",
     "Rusland",
+    "Sint-Petersburg",
+    "Moskou",
+    "Rotterdam",
+    "Polen",
     "Groenland",
     "Iran",
     "Venezuela",
-    "Straat van Hormuz",
-    "Verenigde Staten",
-    "Europa",
-    "Sint-Petersburg",
-    "Polen",
+    "Silicon Valley",
     "Litouwen",
-    "Brussel",
-    "China"
+    "Schleswig-Holstein"
   ],
-  "summary_tldr": "Joris Luyendijk blikt een jaar na zijn befaamde noodklok terug: Nederland doet meer achter de schermen, maar de bevolking leeft nog in een consumptiewaas. Samen met Stefan Paas bespreekt hij Europese onafhankelijkheid van Amerika, het dilemma tussen rechtsstaat en daadkracht, en de rol van Oekraïne. Het gesprek zoekt naar concrete handvatten om te mobiliseren.",
+  "summary_tldr": "Joris Luyendijk stelt dat Nederland en Europa niet langer kunnen rekenen op Amerika en zelf moeten mobiliseren, mede omdat de Russische dreiging en de hybride oorlog de democratie bedreigen. Hij heeft daarom besloten te stoppen als journalist en zich actief in te zetten voor Oekraïne via een inzamelingsactie. Het gesprek met Stefan Paas en Gerben Huisman van Hope for Ukraine gaat over dilemma's, solidariteit, betekenis en gemeenschap.",
   "summary_points": [
-    "Een jaar na de noodklok: veel mensen zijn overgestapt van 'het valt wel mee' naar 'oh jee'",
-    "Achter de schermen wordt bij Defensie en inlichtingendiensten serieus gepland, maar de bevolking merkt weinig",
-    "Europa zit diep 'locked in' bij Amerikaanse tech en wapens; Trump is een kans om los te komen",
-    "Vier jaar later kan er weer een Trump komen: vertrouwen in Amerika is blijvend beschadigd",
-    "Luyendijk wil successen vieren, zoals het EU-Australië-handelsverdrag, om verlamming te voorkomen",
-    "Dilemma: rechtsstaat en privacy beschermen versus snel genoeg handelen tegen autocratieën",
-    "Hybride oorlog en cyberaanvallen vragen om nieuwe woorden en een publiek debat",
-    "Oekraïense drones tonen dat defensie en hightech samensmelten; opschaalkracht is cruciaal",
-    "Stefan Paas wijst op olieafhankelijkheid en de energietransitie als strategisch punt"
+    "Luyendijk ziet dat Nederland en Europa achter de schermen al meer doen, maar dat de bevolking en het publieke debat nog in een 'consumptiewaas' zitten",
+    "Europa is afhankelijk van Amerikaanse defensie en technologie; dat moet een wake-up call zijn voor soevereiniteit",
+    "Hybride oorlog via cyber, desinformatie en beïnvloeding vraagt om nieuwe begrippen en een bredere maatschappelijke discussie",
+    "Dilemma's rond rechtsstaat, privacy, AI en defensie vragen om een breed draagvlak en eerlijke debatten",
+    "Oekraïne staat in de media minder op de voorgrond, maar het conflict is volgens Luyendijk de existentiële strijd van onze tijd",
+    "Luyendijk stopt als journalist en kiest voor partijdigheid en actie, met een crowdfundingactie voor generatoren en babyzorg in Oekraïne",
+    "Hope for Ukraine, een christelijke stichting, bouwt huizen en brengt materiaal naar Oekraïne, gedreven door geloof in solidariteit",
+    "Het gesprek gaat ook over gemeenschap en zingeving: verbondenheid met anderen blijkt belangrijker dan individualisme",
+    "Navalny's verhaal over gerechtigheid en waarheid dient als morele boodschap voor politici en burgers"
   ],
   "chapters": [
     {
       "start_seconds": 33,
-      "title": "Een jaar na de noodklok",
-      "summary": "Joris verklaart het succes van de vorige aflevering en kijkt terug op wat er sindsdien is gebeurd."
+      "title": "Terugblik op de vorige aflevering",
+      "summary": "David Boogerd introduceert de aflevering en blikt terug op de impact van Luyendijks eerdere optreden en de sindsdien veranderde wereld."
     },
     {
-      "start_seconds": 296,
-      "title": "Nederland tussen voorbereiding en consumptiewaas",
-      "summary": "Achter de schermen wordt voorbereid, terwijl politici en bedrijven om Trump heen moeten laveren."
+      "start_seconds": 316,
+      "title": "Hoe staan we ervoor?",
+      "summary": "Luyendijk schetst de spagaat tussen achter de schermen voorbereiding en een publiek dat nog weinig beseft van de dreiging."
     },
     {
-      "start_seconds": 584,
-      "title": "Lock-in en Europese onafhankelijkheid",
-      "summary": "Over Amerikaanse afhankelijkheid in tech en defensie en de kans die Trump biedt."
+      "start_seconds": 805,
+      "title": "Energie, AI en technologische afhankelijkheid",
+      "summary": "Gesprek over olieafhankelijkheid, energietransitie, en de Europese afhankelijkheid van Amerikaanse tech."
     },
     {
-      "start_seconds": 812,
-      "title": "Olie, energie en vieren van successen",
-      "summary": "Paas over olieverslaving en Hormuz; Luyendijk over het belang van succes vieren zoals de handelsdeal."
+      "start_seconds": 1529,
+      "title": "Europese dilemma's: rechtsstaat, privacy en defensie",
+      "summary": "Discussie over hoeveel de rechtsstaat mag inleveren om zichzelf te verdedigen, en de keuze tussen privacy en technologische concurrentie."
     },
     {
-      "start_seconds": 1356,
-      "title": "Zelfbeeld van Europa en het dilemma van de rechtsstaat",
-      "summary": "Is Europa te zwak of te bescheiden, en hoeveel rechtsstaat en privacy mogen we opofferen?"
+      "start_seconds": 2237,
+      "title": "Oekraïne, de media en de strijd",
+      "summary": "Luyendijk betoogt dat de media het beeld van de wereld vertekenen en dat Oekraïne een existentiële strijd voor Europa is."
     },
     {
-      "start_seconds": 1976,
-      "title": "Nieuw kabinet en hybride oorlog",
-      "summary": "Beoordeling van het nieuwe kabinet en het gebrek aan woorden voor hybride oorlog."
+      "start_seconds": 3607,
+      "title": "Hope for Ukraine en de actie",
+      "summary": "Luyendijk beschrijft zijn inzamelingsactie en Gerben Huisman vertelt over de werkwijze en het geloof achter Hope for Ukraine."
     },
     {
-      "start_seconds": 2196,
-      "title": "Oekraïne, drones en defensie",
-      "summary": "Oekraïense dronetechnologie, de fusie van hightech en defensie, en kritiek op militarisering."
+      "start_seconds": 4632,
+      "title": "Gemeenschap, zingeving en individualisme",
+      "summary": "Luyendijk reflecteert op zijn persoonlijke verandering van individualist naar verbonden mens, met aandacht voor zingeving."
+    },
+    {
+      "start_seconds": 5221,
+      "title": "Morele boodschap en vragen uit de zaal",
+      "summary": "Paas citeert Navalny over gerechtigheid en waarheid; het publiek stelt vragen over politiek, kernwapens en de toekomst van Europa."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
+      "start_seconds": 3417,
       "speaker": "Joris Luyendijk",
-      "text": "We zijn in fucking halve oorlog.",
-      "note": "Scherpe reactie op de vraag over ongemakkelijke kwesties."
+      "text": "Dit is een existentiële strijd... Poetin is heel geïnteresseerd in ons. Die strijd moeten we winnen.",
+      "note": "Het moment waarop Luyendijk zijn keuze om te stoppen als journalist motiveert met de urgentie van de oorlog."
     },
     {
-      "start_seconds": 492,
-      "speaker": "Joris Luyendijk",
-      "text": "Als Oekraïne valt, krijgen de Russen er een land bij met 35 miljoen mensen en alle technologie.",
-      "note": "Verklaart waarom Europa zo afhankelijk is."
-    },
-    {
-      "start_seconds": 1386,
-      "speaker": "Joris Luyendijk",
-      "text": "Waarom vragen 600 miljoen Europeanen hulp aan 350 miljoen Amerikanen bij een strijd tegen 150 miljoen Russen?",
-      "note": "Citaat van Tusk dat Europees zelfbeeld in twijfel trekt."
-    },
-    {
-      "start_seconds": 2330,
+      "start_seconds": 5221,
       "speaker": "Stefan Paas",
-      "text": "10 Oekraïners in een schuurtje schakelden 2 NAVO-bataljons uit in 1 middag.",
-      "note": "Illustreert de dronerevolutie."
+      "text": "Waarheid en gerechtigheid doen ertoe, mensen.",
+      "note": "Paas koppelt Navalny's laatste pleidooi aan een oproep om cynisme te weerstaan."
     },
     {
-      "start_seconds": 365,
+      "start_seconds": 4092,
+      "speaker": "Stefan Paas",
+      "text": "Oksane zei: hier zitten mensen wiens gezin is vermoord... en toch zongen ze: U bent mijn God, ik vertrouw op u.",
+      "note": "Een indringend beeld van geloof en veerkracht in een kerk in Irpin."
+    },
+    {
+      "start_seconds": 939,
       "speaker": "Joris Luyendijk",
-      "text": "Defensie plant al voor honderden lijkzakken per week en waar de diensten moeten worden gehouden.",
-      "note": "Confronterend beeld van voorbereiding."
+      "text": "ASML schiet 10.000 tinnen balletjes per seconde af... dat kunnen wij, maar we kunnen niet van de olie af.",
+      "note": "Scherpe vergelijking die de onwil in de energietransitie blootlegt."
+    },
+    {
+      "start_seconds": 4631,
+      "speaker": "Joris Luyendijk",
+      "text": "Het wij-gevoel... dat is ongeveer hetgene wat mensen het meest missen.",
+      "note": "Een persoonlijke erkenning dat verbinding en gemeenschap betekenis geven."
     }
   ],
   "keywords": [
-    "Joris Luyendijk",
-    "Oekraïne",
-    "Europese soevereiniteit",
-    "Trump",
-    "hybride oorlog",
-    "rechtsstaat",
-    "drones",
-    "lock-in",
-    "consumptiewaas",
+    "existentiële strijd",
     "mobilisering",
-    "energietransitie",
-    "Hope4Ukraine"
+    "soevereiniteit Europa",
+    "hybride oorlog",
+    "Oekraïne",
+    "Hope for Ukraine",
+    "consumptiewaas",
+    "rechtsstaat",
+    "zingeving",
+    "solidariteit",
+    "Navalny",
+    "journalistiek"
   ],
   "quotes": [
-    "De tijd van alleen maar wakker schudden is voorbij. Het is tijd om te mobiliseren, om actief te worden."
+    "Joris luidde de noodklok: schrijf Amerika af als bondgenoot, want Nederland en Europa moeten zélf opstaan.",
+    "Want dit zijn serieuze tijden, zei hij toen.",
+    "Dit wordt geen doemdenkerige aflevering, we gaan ook op zoek naar concrete handvatten om in beweging te komen."
   ],
   "similar": [
     {
       "n": 239,
-      "reason": "Joris Luyendijk over het verraad van de VS en Europa die serieus moet worden"
+      "reason": "Zelfde gast Joris Luyendijk over de VS, Europese vrijheid en noodzaak tot actie"
     },
     {
       "n": 271,
-      "reason": "Joris Luyendijk over belangrijke verkiezingen, Oekraïne en populisme"
+      "reason": "Joris Luyendijk over Oekraïne, populisme en politieke keuzes voor Nederland"
     },
     {
       "n": 326,
-      "reason": "Is Nederland klaar voor oorlog? Rusland, drones en Trump"
+      "reason": "Defensie, Rusland, hybride dreiging en een Westen dat zelf moet mobiliseren"
     },
     {
-      "n": 286,
-      "reason": "Kan Europa zonder de VS? Politiek en Europese onafhankelijkheid"
+      "n": 275,
+      "reason": "Russische dreiging in Europa, drones en de Nederlandse kwetsbaarheid"
     },
     {
-      "n": 284,
-      "reason": "Brute machtspolitiek, Trump, Poetin en de positie van Europa"
+      "n": 309,
+      "reason": "Trump, Poetin en de geopolitieke machtspolitiek die democratieën onder druk zet"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

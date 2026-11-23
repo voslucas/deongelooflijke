@@ -1,18 +1,23 @@
 {
   "episode": 15,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 66473,
+    "segments": 493,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30018,
-    "output_tokens": 2444,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 33101,
+    "output_tokens": 10344,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "God & geloof",
     "Kerk & secularisatie",
-    "Zingeving & psyche"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Gert-Jan Segers"
@@ -20,119 +25,106 @@
   "people": [
     {
       "name": "Pim Fortuyn",
-      "note": "Politicus en auteur van 'De verweesde samenleving', bron van het begrip",
+      "note": "Politicus; schreef in de jaren 90 'De Verweeste Samenleving', waar Segers de term van leent",
       "start_seconds": 182,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Dirk De Wachter",
-      "note": "Psychiater, auteur van 'Borderline Times'",
+      "name": "Dirk de Wachter",
+      "note": "Psychiater en schrijver; auteur van 'Borderliner Times'",
       "start_seconds": 182,
-      "wiki_checked": true,
-      "wiki_pageid": 3777024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dirk_De_Wachter"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "Leider Forum voor Democratie, spreekt over secularisatie; volgens Segers een tragische figuur",
-      "start_seconds": 820,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Geert Wilders",
-      "note": "PVV-leider, 'eigen volk eerst' als christelijk aspect",
-      "start_seconds": 882,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 2
     },
     {
       "name": "Frits Bolkestein",
-      "note": "Liberale politicus die bronnen van moraal benadrukte",
+      "note": "VVD-politicus; sprak over morele bronnen die het liberalisme niet kan leveren",
       "start_seconds": 855,
-      "wiki_checked": true,
-      "wiki_pageid": 486,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frits_Bolkestein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frits_Bolkestein_1988_%281%29.jpg/250px-Frits_Bolkestein_1988_%281%29.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Augustinus",
-      "note": "Kerkvader: 'onrustig is ons hart'",
-      "start_seconds": 1084,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "name": "Thierry Baudet",
+      "note": "Politicus (Forum voor Democratie); schreef essay over secularisatie en werd als messiaanse figuur gezien",
+      "start_seconds": 882,
+      "mention_count": 4
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Politicus (PVV); genoemd als messiaanse leider en in de discussie over het christendom",
+      "start_seconds": 882,
+      "mention_count": 2
     },
     {
       "name": "Kees van der Staaij",
-      "note": "SGP-leider die Wilders vroeg naar het christendom",
-      "start_seconds": 1382,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "note": "Collega-politicus (SGP); stelde Wilders de vraag wat hij aan het christendom mooi vindt",
+      "start_seconds": 1352,
+      "mention_count": 1
     },
     {
-      "name": "Paul Blokhuis",
-      "note": "Staatssecretaris ChristenUnie, vroeger collega van Segers",
-      "start_seconds": 1700,
-      "wiki_checked": true,
-      "wiki_pageid": 1771803,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Blokhuis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Staatssecretaris_Paul_Blokhuis.jpg/250px-Staatssecretaris_Paul_Blokhuis.jpg"
+      "name": "Augustinus",
+      "note": "Kerkvader; citaat over het onrustige hart dat pas rust vindt bij God",
+      "start_seconds": 1084,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator; zei dat geloof een onrustig bezit is",
+      "start_seconds": 2234,
+      "mention_count": 1
     },
     {
       "name": "Jesse Klaver",
-      "note": "GroenLinks-leider, voorbeeld van messiaanse verwachtingen links",
-      "start_seconds": 890,
-      "wiki_checked": true,
-      "wiki_pageid": 1725801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesse_Klaver",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jesse_Klaver_2020_%286%29_%28cropped%29.jpg/250px-Jesse_Klaver_2020_%286%29_%28cropped%29.jpg"
+      "note": "Politicus (GroenLinks); genoemd als linkse politieke held",
+      "start_seconds": 919,
+      "mention_count": 1
     },
     {
-      "name": "Maarten Luther",
-      "note": "Reformator: geloof als onrustig bezit",
-      "start_seconds": 2234,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "name": "Job Cohen",
+      "note": "Politicus (PvdA); genoemd als linkse politieke held",
+      "start_seconds": 919,
+      "mention_count": 1
     },
     {
-      "name": "Michel Houellebecq",
-      "note": "Schrijver, aanleiding voor essay van Baudet",
-      "start_seconds": 1212,
-      "wiki_checked": true,
-      "wiki_pageid": 34101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Houellebecq",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg/250px-Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg"
+      "name": "Emile Roemer",
+      "note": "Politicus (SP); genoemd als linkse politieke held",
+      "start_seconds": 919,
+      "mention_count": 1
+    },
+    {
+      "name": "Diederik Samsom",
+      "note": "Politicus (PvdA); genoemd als linkse politieke held",
+      "start_seconds": 919,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Blokhuis",
+      "note": "Staatssecretaris (ChristenUnie); oud-medewerker van Segers in de jaren 90",
+      "start_seconds": 1700,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Premier en VVD-leider; genoemd in de kritiek op het neoliberalisme",
+      "start_seconds": 652,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Cabaretier en satiricus; maakte grap over Segers' verhaal over Egypte",
+      "start_seconds": 2499,
+      "mention_count": 1
+    },
+    {
+      "name": "Jaap Jansen",
+      "note": "Presentator van een lange interviewpodcast waarin Segers te gast was",
+      "start_seconds": 112,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De Verloren Zoon en het verhaal van Nederland",
       "author": "Gert-Jan Segers",
-      "note": "Essay/pamflet over de verweesde samenleving",
+      "note": "Nieuw essay/pamflet van ongeveer 120 pagina's over een verweesde samenleving",
       "start_seconds": 156,
       "volume_id": "Beq9DwAAQBAJ",
       "canonical_title": "De verloren zoon: en het verhaal van Nederland",
@@ -142,49 +134,49 @@
       "thumbnail": "http://books.google.com/books/content?id=Beq9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "De Verweesde Samenleving",
+      "title": "De Verweeste Samenleving",
       "author": "Pim Fortuyn",
-      "note": "Bron van het begrip verweesdheid",
+      "note": "Boek uit de jaren 90 waar de term 'verweesde samenleving' vandaan komt",
       "start_seconds": 182,
-      "volume_id": "_w5Nn0ql7cQC",
-      "canonical_title": "De verweesde samenleving",
+      "volume_id": "BnHrAQAACAAJ",
+      "canonical_title": "De verweesde samenleving: een religieus-sociologisch traktaat",
       "canonical_author": "Pim Fortuyn",
-      "isbn13": "9789045203171",
-      "isbn10": "9045203170",
-      "thumbnail": "http://books.google.com/books/content?id=_w5Nn0ql7cQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789061129318",
+      "isbn10": "9061129311",
+      "thumbnail": ""
     },
     {
-      "title": "Borderline Times",
-      "author": "Dirk De Wachter",
-      "note": "Cultuur als borderliner-cultuur",
+      "title": "Borderliner Times",
+      "author": "Dirk de Wachter",
+      "note": "Analyse waarin de cultuur wordt beschouwd als borderline-cultuur",
       "start_seconds": 182,
-      "volume_id": "LSEDAAAAQBAJ",
+      "volume_id": "Z1gI0AEACAAJ",
       "canonical_title": "Borderline times: het einde van de normaliteit",
-      "canonical_author": "Dirk de Wachter",
-      "isbn13": "9789401407304",
-      "isbn10": "9401407304",
-      "thumbnail": "http://books.google.com/books/content?id=LSEDAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Dirk August Jozef De Wachter",
+      "isbn13": "9789401493154",
+      "isbn10": "9401493154",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Lucas 15:11-32",
-      "note": "Gelijkenis van de verloren zoon, kern van het boek",
+      "note": "Gelijkenis van de verloren zoon, centraal in het boek en de vergelijking met Nederland",
       "start_seconds": 182
     },
     {
-      "ref": "Lucas 10:25-37",
-      "note": "Barmhartige Samaritaan, door Baudet anders uitgelegd",
-      "start_seconds": 1339
-    },
-    {
-      "ref": "Mattheüs 4:4",
-      "note": "De mens leeft niet van brood alleen",
+      "ref": "Mattheus 4:4",
+      "note": "'Niet van brood alleen leeft de mens', aangehaald over de zin van het leven",
       "start_seconds": 292
     },
     {
+      "ref": "Lucas 10:25-37",
+      "note": "Gelijkenis van de barmhartige Samaritaan, door Kees van der Staaij en Thierry Baudet anders uitgelegd",
+      "start_seconds": 1338
+    },
+    {
       "ref": "Exodus 20:13",
-      "note": "Gij zult niet doden, bij voltooid leven",
+      "note": "'Gij zult niet doden', aangehaald in de discussie over voltooid leven",
       "start_seconds": 2110
     }
   ],
@@ -192,102 +184,109 @@
     "Binnenhof",
     "Egypte",
     "West-Afrika",
-    "Nederland"
+    "Hillesluis",
+    "Rotterdam"
   ],
-  "summary_tldr": "ChristenUnie-leider Gert-Jan Segers bespreekt zijn boek over Nederland als verweesde samenleving die snakt naar een vader. Hij gaat in op het gelijk van links en rechts, politieke verafgoding en de spanning tussen christen en politicus. Ook vertelt hij openhartig over zijn geloofstwijfels.",
+  "summary_tldr": "Gert-Jan Segers bespreekt zijn boek over een verweesde Nederlandse samenleving die verlangt naar een vader, een verlangen dat volgens hem zowel in de politiek als in consumptie en prestaties tot uiting komt. Hij pleit voor een middenweg tussen het gelijk van links (ongelijkheid) en het gelijk van rechts (cultuur en gemeenschap). Daarnaast vertelt hij over zijn geloofstwijfels, zijn drang om als christelijke politicus relevant te blijven en zijn wens om overheid en samenleving meer aandacht te laten geven.",
   "summary_points": [
-    "Nederland is verweesd: afscheid van God, kerk en wortels laat een leegte achter",
-    "Rechts heeft een blinde vlek voor ongelijkheid, links voor cultuur en religie",
-    "Het neoliberalisme loopt op zijn eind en het mensbeeld van de sterke individu klopt niet",
-    "Mensen projecteren messiaanse verwachtingen op politici en de overheid als surrogaatvaders",
-    "Cultuurchristendom van Wilders en Baudet is iets anders dan navolging van Christus",
-    "Segers weigert standpunten over leven los te laten voor zetels",
-    "Hij worstelt tussen evangelist en politicus voor heel Nederland",
-    "Zijn geloof verdween ooit plotseling en keerde terug; hij ziet geloof als cadeau",
-    "Hij wil persoonlijke verhalen niet instrumenteel inzetten"
+    "Segers leent het begrip 'verweesde samenleving' van Pim Fortuyn en koppelt dit aan de gelijkenis van de verloren zoon.",
+    "Volgens Segers is er een diep verlangen naar een vader, dat zich uit in consumentisme, prestatiedrang en identiteitspolitiek.",
+    "Links heeft oog voor sociaal-economische ongelijkheid, rechts voor culturele ontworteling; Segers ziet die twee als met elkaar verweven.",
+    "Het neoliberale mensbeeld van het sterke individu klopt volgens hem niet; mensen zijn gemeenschapswezens.",
+    "Politieke leiders worden vaak als messiaanse verlossers gezien, maar een aardse verlosser kan volgens Segers nooit echt verlossen.",
+    "Segers ziet een tragische paradox: een land dat verlangt naar een christelijke cultuur, keert zelf niet terug naar de kerk.",
+    "Hij reageert kritisch op een cultuurchristendom en op het gebruik van het christendom voor nationalistische doeleinden.",
+    "Segers vertelt over zijn eigen geloofscrisis en over zijn omgang met twijfel en kwetsbaarheid in het publieke debat.",
+    "Hij pleit voor een overheid met meer aandacht en minder protocollen, en voor een samenleving waarin mensen gezien worden."
   ],
   "chapters": [
     {
-      "start_seconds": 38,
-      "title": "Inleiding en het boek",
-      "summary": "Introductie van Segers en zijn essay, en wat een pamflet is."
+      "start_seconds": 0,
+      "title": "Persoonlijke opening en introductie",
+      "summary": "Segers vertelt over een plotselinge geloofscrisis op zijn studentenkamer, waarna Boogerd het gesprek opent op het Binnenhof."
     },
     {
-      "start_seconds": 162,
+      "start_seconds": 156,
       "title": "De verweesde samenleving",
-      "summary": "Uitleg van verweestheid, leegte en surrogaatvaders, met Zwarte Piet als voorbeeld."
+      "summary": "Segers legt uit wat hij met de verweesde samenleving bedoelt, met verwijzing naar Fortuyn, Dirk de Wachter en de verloren zoon."
     },
     {
-      "start_seconds": 467,
+      "start_seconds": 411,
       "title": "Het gelijk van links en rechts",
-      "summary": "Ongelijkheid en neoliberalisme versus culturele ontworteling."
+      "summary": "Segers bespreekt de Zwarte Piet-discussie als symptoom van verweesdheid en stelt dat links ongelijkheid en rechts cultuur onderschat."
     },
     {
-      "start_seconds": 828,
-      "title": "Messiaanse verwachtingen in de politiek",
-      "summary": "Politici en overheid als verlossers en vaders."
+      "start_seconds": 733,
+      "title": "Secularisatie, ontheemding en het onrustige hart",
+      "summary": "Segers reflecteert op de rol van secularisatie in ontheemding, op echtscheidingen in de kerk en op Augustinus' onrustige hart."
     },
     {
-      "start_seconds": 1187,
-      "title": "Baudet, Wilders en cultuurchristendom",
-      "summary": "Heimwee naar een christelijke cultuur en het verschil met navolging van Christus."
+      "start_seconds": 1306,
+      "title": "Cultuurchristendom en het evangelie",
+      "summary": "Er wordt gesproken over Baudet, Wilders en de barmhartige Samaritaan, en over het verschil tussen cultuurchristendom en een persoonlijke relatie met Christus."
     },
     {
-      "start_seconds": 1620,
-      "title": "Christen en politicus",
-      "summary": "Standpunten, relevantie en de spanning tussen evangelist en politicus."
+      "start_seconds": 1735,
+      "title": "Christen zijn in de politiek",
+      "summary": "Segers bespreekt de relevantie van de ChristenUnie, het niet loslaten van principes zoals het recht op leven, en de spanning tussen rechtsstaat en evangelie."
     },
     {
-      "start_seconds": 2167,
-      "title": "Geloofstwijfel en kwetsbaarheid",
-      "summary": "Segers' verloren geloof en zijn omgang met persoonlijke verhalen."
+      "start_seconds": 2269,
+      "title": "Geloofstwijfels en kwetsbaarheid",
+      "summary": "Segers deelt hoe zijn geloof wegviel en hoe hij met aanvechtingen en publieke kwetsbaarheid omgaat, met verwijzing naar Luther."
+    },
+    {
+      "start_seconds": 2519,
+      "title": "Samenleving met aandacht en de overheid als vader",
+      "summary": "Segers pleit voor een menselijke overheid, illustreert dat met het voorbeeld van de stadsmarinier in Hillesluis en vergelijkt God als vader met de overheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2278,
+      "start_seconds": 20,
       "speaker": "Gert-Jan Segers",
-      "text": "Een soort omgekeerde bekering: het gleed door mijn vingers en was weg.",
-      "note": "Openhartig over verlies van geloof bij een documentaire over dementie."
+      "text": "Ineens was het licht uit mijn leven; ik had geen idee meer van God en eeuwigheid.",
+      "note": "Een openhartig en plotseling verhaal over een geloofscrisis die hij zelf als omgekeerde bekering beschrijft."
     },
     {
-      "start_seconds": 1003,
+      "start_seconds": 352,
+      "speaker": "Gert-Jan Segers",
+      "text": "Wij kopen dingen die we vaak niet nodig hebben om indruk te maken op mensen die we helemaal niet zo leuk vinden.",
+      "note": "Een scherpe analyse van consumentisme als surrogaat voor erkenning en liefde."
+    },
+    {
+      "start_seconds": 959,
+      "start_seconds_note": "",
       "speaker": "Gert-Jan Segers",
       "text": "Een aardse verlosser kan nooit een echte verlosser zijn.",
-      "note": "Kernzin over politieke afgoderij."
+      "note": "Segers distantieert zich van politieke messiasfiguren en wijst op een beperking van politiek."
     },
     {
-      "start_seconds": 1423,
+      "start_seconds": 2234,
       "speaker": "Gert-Jan Segers",
-      "text": "Waar staat dat dan in de Bijbel? Eigen volk eerst.",
-      "note": "Scherpe kritiek op Wilders' lezing van het christendom."
+      "text": "Geloof is een onrustig bezit, zei Luther; het is vaak juist het begin van tobberijen.",
+      "note": "Een eerlijke erkenning dat geloof geen einde aan twijfel betekent."
     },
     {
-      "start_seconds": 2460,
+      "start_seconds": 2699,
       "speaker": "Gert-Jan Segers",
-      "text": "Dan voelt het heel vies: een persoonlijk verhaal instrumenteel inzetten.",
-      "note": "Zelfkritiek over politieke kwetsbaarheid."
-    },
-    {
-      "start_seconds": 1708,
-      "speaker": "Gert-Jan Segers",
-      "text": "Als het me 2 zetels kost, dan kost het maar 2 zetels.",
-      "note": "Weigert principes over leven op te geven."
+      "text": "Als God zich een vader noemt, dan is niet het gedrag maatgevend, maar wie je bent.",
+      "note": "Een persoonlijke vergelijking met het vaderschap die het idee van genade concreet maakt."
     }
   ],
   "keywords": [
     "verweesde samenleving",
     "verloren zoon",
-    "surrogaatvader",
+    "secularisatie",
+    "cultuurchristendom",
+    "messiaans verlangen",
+    "politieke verafgoding",
+    "onrustig hart",
     "ChristenUnie",
     "Pim Fortuyn",
     "neoliberalisme",
-    "ongelijkheid",
-    "cultuurchristendom",
-    "Thierry Baudet",
     "geloofstwijfel",
-    "secularisatie",
-    "politieke afgoderij"
+    "samenleving met aandacht"
   ],
   "quotes": [
     "Onze samenleving is verweesd en snakt naar een Vader."
@@ -295,23 +294,25 @@
   "similar": [
     {
       "n": 152,
-      "reason": "Gert-Jan Segers zelf in gesprek over politiek, kerk en ideologische strijd"
+      "reason": "Gert-Jan Segers' politiek-kerkelijke thema's met Klaas Dijkhoff, ook over politiek en kerk"
     },
     {
       "n": 156,
-      "reason": "Christendemocratische politicus Bontenbal over politiek en geloof; Segers' partijgenoot-thema"
+      "reason": "Christendemocratie en CDA, sluit aan bij Segers' christelijke politieke positie"
     },
     {
       "n": 222,
-      "reason": "Kees van der Staaij over populisme, polarisatie en christelijke politiek"
+      "reason": "Van der Staaij over populisme, polarisatie en de joods-christelijke rechtsstaat"
     },
     {
-      "n": 45,
-      "reason": "Christelijke politiek, ongeloof in Den Haag en secularisatie"
+      "n": 179,
+      "reason": "Politiek, corruptie en kerk, met een christelijke politicus als gesprekspartner"
     },
     {
-      "n": 21,
-      "reason": "Bas Heijne over liberale leegte, polarisatie en populisme"
+      "n": 170,
+      "reason": "Verrechtsing en Wilders, overlap met politieke thema's en figuren uit aflevering 15"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

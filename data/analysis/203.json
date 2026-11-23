@@ -1,18 +1,23 @@
 {
   "episode": 203,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 81600,
+    "segments": 659,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30486,
-    "output_tokens": 2702,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 41078,
+    "output_tokens": 8099,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
-    "Geopolitiek & oorlog",
     "God & geloof",
-    "Politiek"
+    "Politiek",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "James Kennedy",
@@ -21,348 +26,328 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Republikeins presidentskandidaat, overleefde een moordaanslag",
+      "note": "Voormalig en mogelijk toekomstig Amerikaans president; doelwit van de moordaanslag",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Joe Biden",
-      "note": "zittend president en Democratisch kandidaat, onder druk om terug te treden",
-      "start_seconds": 20,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "vermoorde Nederlandse politicus, vergelijking met het frame van een aanslag",
-      "start_seconds": 299,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
-      "name": "Matthew Crooks",
-      "note": "schutter bij de aanslag op Trump",
-      "start_seconds": 723,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gretchen Whitmer",
-      "note": "gouverneur van Michigan, doelwit van een ontvoeringscomplot",
-      "start_seconds": 517,
-      "wiki_checked": true,
-      "wiki_pageid": 5159823,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gretchen_Whitmer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/2025_Gretchen_Whitmer_%28cropped%29.jpg/250px-2025_Gretchen_Whitmer_%28cropped%29.jpg"
-    },
-    {
-      "name": "Brett Kavanaugh",
-      "note": "conservatieve rechter, doelwit van een aanslag",
-      "start_seconds": 517,
-      "wiki_checked": true,
-      "wiki_pageid": 4452022,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Brett_Kavanaugh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Associate_Justice_Brett_Kavanaugh_Official_Portrait_%28full_length%29.jpg/250px-Associate_Justice_Brett_Kavanaugh_Official_Portrait_%28full_length%29.jpg"
-    },
-    {
-      "name": "Nancy Pelosi",
-      "note": "Democratisch politica, haar echtgenoot werd aangevallen",
-      "start_seconds": 527,
-      "wiki_checked": true,
-      "wiki_pageid": 668112,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nancy_Pelosi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg/250px-Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
-    },
-    {
-      "name": "Jo Cox",
-      "note": "Britse parlementariër, vermoord in 2016",
-      "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 4584836,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jo_Cox"
-    },
-    {
-      "name": "Robert Fico",
-      "note": "Slowaakse premier, doelwit van een aanslag",
-      "start_seconds": 808,
-      "wiki_checked": true,
-      "wiki_pageid": 875167,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Fico",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Robert_Fico%2C_April_2024.jpg/250px-Robert_Fico%2C_April_2024.jpg"
-    },
-    {
-      "name": "Huey Long",
-      "note": "populistische gouverneur van Louisiana in de jaren 30, doodgeschoten",
-      "start_seconds": 880,
-      "wiki_checked": true,
-      "wiki_pageid": 579092,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Huey_Long_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/HueyPLongGesture.jpg/250px-HueyPLongGesture.jpg"
-    },
-    {
-      "name": "Barack Obama",
-      "note": "president met bijna messiaanse verwachtingen",
-      "start_seconds": 951,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "overleefde aanslagen en zag dat als goddelijke voorzienigheid",
-      "start_seconds": 987,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Claus von Stauffenberg",
-      "note": "pleegde de aanslag op Hitler op 20 juli 1944",
-      "start_seconds": 999,
-      "wiki_checked": true,
-      "wiki_pageid": 28930,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Claus_Schenk_von_Stauffenberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/VStauffenberg_vQuirnheim.jpg/250px-VStauffenberg_vQuirnheim.jpg"
-    },
-    {
-      "name": "Dietrich Bonhoeffer",
-      "note": "theoloog, op afstand betrokken bij het verzet",
-      "start_seconds": 1021,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
+      "mention_count": 90
     },
     {
       "name": "J.D. Vance",
-      "note": "vicepresidentskandidaat van Trump, auteur van Hillbilly Elegy",
+      "note": "Senator en vicepresidentskandidaat van Trump; auteur van Hillbilly Elegy",
       "start_seconds": 1511,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "mention_count": 30
     },
     {
-      "name": "Pete Buttigieg",
-      "note": "Democratisch minister, bekritiseert Vance als opportunist",
-      "start_seconds": 2186,
-      "wiki_checked": true,
-      "wiki_pageid": 5188413,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pete_Buttigieg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pete_Buttigieg%2C_Secretary_of_Transportation_%28cropped%29.jpg/250px-Pete_Buttigieg%2C_Secretary_of_Transportation_%28cropped%29.jpg"
+      "name": "Joe Biden",
+      "note": "Zittende Amerikaanse president en Democratische kandidaat die mogelijk terugtreedt",
+      "start_seconds": 140,
+      "mention_count": 15
     },
     {
-      "name": "Peter Thiel",
-      "note": "Silicon Valley-investeerder, katholiek, bevriend met Vance",
-      "start_seconds": 2244,
-      "wiki_checked": true,
-      "wiki_pageid": 4611632,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/250px-Peter_Thiel_%282014%29.jpg"
+      "name": "Augustinus",
+      "note": "Kerkvader; op het logo van de podcast en volgens David Boogerd gelinkt aan het Trumpisme",
+      "start_seconds": 2698,
+      "mention_count": 2
     },
     {
-      "name": "Elon Musk",
-      "note": "techondernemer die Trump steunt",
-      "start_seconds": 2250,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "name": "Pim Fortuyn",
+      "note": "Nederlandse politicus, vermoord in 2002; vergelijking met de reactie op de aanslag op Trump",
+      "start_seconds": 299,
+      "mention_count": 3
     },
     {
-      "name": "Josh Hawley",
-      "note": "Republikeins senator uit Missouri met een arbeidersgerichte lijn",
-      "start_seconds": 2336,
-      "wiki_checked": true,
-      "wiki_pageid": 6062042,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Josh_Hawley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg/250px-Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg"
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; overleefde meerdere aanslagen, die hij als teken van Gods hand zag",
+      "start_seconds": 974,
+      "mention_count": 4
     },
     {
-      "name": "Elizabeth Warren",
-      "note": "linkse Democratische senator die met Vance samenwerkte",
-      "start_seconds": 2372,
-      "wiki_checked": true,
-      "wiki_pageid": 2906786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elizabeth_Warren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Elizabeth-warren-2022_%28cropped%29.jpg/250px-Elizabeth-warren-2022_%28cropped%29.jpg"
+      "name": "Claus von Stauffenberg",
+      "note": "Officier die de aanslag op Hitler van 20 juli 1944 pleegde",
+      "start_seconds": 999,
+      "mention_count": 1
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "Duitse theoloog; betrokkenheid bij het verzet tegen Hitler, volgens Boogerd op afstand",
+      "start_seconds": 1019,
+      "mention_count": 1
+    },
+    {
+      "name": "Huey Long",
+      "note": "Populistische gouverneur van Louisiana in de jaren 30 met messiaanse trekken",
+      "start_seconds": 880,
+      "mention_count": 2
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Voormalig Amerikaans president die een aanslag overleefde terwijl hij al in functie was",
+      "start_seconds": 873,
+      "mention_count": 2
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaans president; werd als bijna messiaanse, transformationele leider gezien",
+      "start_seconds": 942,
+      "mention_count": 4
     },
     {
       "name": "Nikki Haley",
-      "note": "gematigde Republikeinse politica",
-      "start_seconds": 2481,
-      "wiki_checked": true,
-      "wiki_pageid": 2307932,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nikki_Haley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nikki_Haley_by_Gage_Skidmore_5.jpg/250px-Nikki_Haley_by_Gage_Skidmore_5.jpg"
+      "note": "Gematigde Republikeinse politica die volgens Beatrice de Graaf een alternatief was geweest",
+      "start_seconds": 2468,
+      "mention_count": 1
+    },
+    {
+      "name": "Elizabeth Warren",
+      "note": "Linkse Democratische senator; samenwerking met Vance op bankenbeleid",
+      "start_seconds": 2365,
+      "mention_count": 2
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Techondernemer en vriend van Vance; financieel ondersteuner",
+      "start_seconds": 2185,
+      "mention_count": 2
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Techondernemer die Trump steunt",
+      "start_seconds": 2250,
+      "mention_count": 1
+    },
+    {
+      "name": "Pete Buttigieg",
+      "note": "Democratisch minister in de regering-Biden; bekritiseerde Vance als opportunist",
+      "start_seconds": 2185,
+      "mention_count": 2
+    },
+    {
+      "name": "Robert Fico",
+      "note": "Slowaakse premier die na een aanslag werd neergeschoten",
+      "start_seconds": 808,
+      "mention_count": 1
+    },
+    {
+      "name": "Mike Pence",
+      "note": "Vicepresident in Trumps eerste termijn",
+      "start_seconds": 2679,
+      "mention_count": 1
+    },
+    {
+      "name": "Nancy Pelosi",
+      "note": "Democratisch politica; haar echtgenoot werd met een hamer aangevallen",
+      "start_seconds": 489,
+      "mention_count": 2
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "note": "Gouverneur van Michigan; doelwit van een ontvoeringscomplot",
+      "start_seconds": 489,
+      "mention_count": 1
+    },
+    {
+      "name": "Brett Kavanaugh",
+      "note": "Conservatieve rechter van het Amerikaanse Hooggerechtshof; doelwit van een aanslag",
+      "start_seconds": 489,
+      "mention_count": 1
+    },
+    {
+      "name": "Josh Hawley",
+      "note": "Republikeinse senator uit Missouri die kritisch is op corporate America",
+      "start_seconds": 2336,
+      "mention_count": 1
+    },
+    {
+      "name": "Hulk Hogan",
+      "note": "Worstelaar die sprak op de Republikeinse conventie",
+      "start_seconds": 1277,
+      "mention_count": 2
+    },
+    {
+      "name": "Matthew Crooks",
+      "note": "Dader van de aanslag op Trump in Pennsylvania",
+      "start_seconds": 723,
+      "mention_count": 2
+    },
+    {
+      "name": "Bas Blokker",
+      "note": "Nederlandse journalist (NRC) die stelt dat alle christenen Trump stemmen",
+      "start_seconds": 2751,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Paul",
+      "note": "Historicus en auteur van Secularisering van het hart",
+      "start_seconds": 3143,
+      "mention_count": 1
+    },
+    {
+      "name": "John Horgan",
+      "note": "Terrorismeonderzoeker die in de Washington Post sprak over extremisme",
+      "start_seconds": 3360,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Hillbilly Elegy",
       "author": "J.D. Vance",
-      "note": "memoires over zijn jeugd in Appalachia, ook als sociologische studie",
-      "start_seconds": 1511,
-      "volume_id": "bKmpCgAAQBAJ",
-      "canonical_title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+      "note": "Memoires over jeugd in Appalachia; besproken als sociologische studie en als mogelijk opportunistisch ticket",
+      "start_seconds": 1748,
+      "volume_id": "YNkEzgEACAAJ",
+      "canonical_title": "Hillbilly Elegy",
       "canonical_author": "J. D. Vance",
-      "isbn13": "9780062300560",
-      "isbn10": "0062300563",
-      "thumbnail": "http://books.google.com/books/content?id=bKmpCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780063045989",
+      "isbn10": "0063045982",
+      "thumbnail": "http://books.google.com/books/content?id=YNkEzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Secularisering van het hart",
+      "author": "Herman Paul",
+      "note": "Nederlands boek over subjectieve, geseculariseerde geloofsbeleving",
+      "start_seconds": 3143,
+      "volume_id": "LUKhtAEACAAJ",
+      "canonical_title": "De slag om het hart",
+      "canonical_author": "Herman Paul",
+      "isbn13": "9789023950189",
+      "isbn10": "9023950186",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Verenigde Staten",
     "Pennsylvania",
-    "Appalachia",
     "Michigan",
     "Louisiana",
-    "Slowakije",
-    "Wolfsschanze",
-    "Yale",
+    "Missouri",
+    "Appalachen",
     "Washington",
     "Irak",
-    "Rust Belt",
-    "Missouri"
+    "Oekraïne",
+    "Slowakije",
+    "Oost-Europa",
+    "Wolfsschanze",
+    "Utrecht"
   ],
-  "summary_tldr": "Een week na de aanslag op Trump bespreken James Kennedy en Beatrice de Graaf hoe Trump bijna messiaanse trekken krijgt en hoe politiek geweld toeneemt. Ze duiken in J.D. Vance, zijn memoires Hillbilly Elegy, zijn individualistische katholieke geloof en de verschuivingen binnen de Republikeinse partij.",
+  "summary_tldr": "Na de mislukte moordaanslag op Trump bespreken de historici James Kennedy en Beatrice de Graaf hoe het Trumpisme zichzelf in een quasi-religieus frame plaatst, met Trump als verlosser. Het gesprek behandelt ook de rol van JD Vance, de veranderende rol van religie en het verschil tussen geloofsbeleving en kerkelijkheid in de VS. Tot slot komen de gevolgen voor geopolitiek en de Republikeinse partij aan bod.",
   "summary_points": [
-    "De aanslag op Trump past in een wereldwijde toename van politiek geweld.",
-    "Het frame van de aanslag (God heeft Trump gered, 'fight, fight, fight') versterkt zijn messiaanse uitstraling.",
-    "Historische parallellen: Huey Long, Obama en Hitler na de aanslagen op hem.",
-    "Trump mobiliseert vooral zijn eigen achterban; de meeste Amerikanen vinden hem nog steeds niet populair.",
-    "Trump viel na 25 minuten terug in zijn oude stijl en liet de nieuwe toon los.",
-    "J.D. Vance combineert een succesverhaal met ressentiment tegenover elites.",
-    "Vance's religie is subjectief en individualistisch, in een geseculariseerd Amerika.",
-    "De Republikeinse partij beweegt richting nationalisme en arbeidersretoriek, maar sociaal-economisch blijft het beleid pro-rijk."
+    "De aanslag op Trump werd door zijn achterban gelezen als een goddelijk teken, met het 'fight, fight, fight'-frame als mobiliserende slogan.",
+    "Politieke geweldsdaden zijn wereldwijd toegenomen; in de VS is het aantal bedreigingen en aanslagen sterk gestegen.",
+    "Historische parallellen met Hitler, Huey Long, Reagan en Obama laten zien hoe leiders een messiaanse status kunnen krijgen.",
+    "JD Vance wordt gezien als de intellectuele versie van Trump; zijn Hillbilly Elegy wordt zowel als authentiek als als opportunistisch gelezen.",
+    "Religie in de VS is sterk geïndividualiseerd; geloof wordt subjectief en transactioneel ingevuld, en 'evangelical' is steeds meer een politieke term geworden.",
+    "De Republikeinse partij lijkt te veranderen: meer economisch protectionisme en minder nadruk op abortus, met een opkomend christelijk nationalisme.",
+    "Vance kreeg kritiek van een katholieke bisschop vanwege zijn abortusstandpunt, wat de complexiteit van religieuze loyaliteit illustreert.",
+    "Politiek zelf lijkt een nieuwe religieuze identiteit te worden, waarin de leider de rol van verlosser krijgt toebedeeld."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een week na de aanslag",
-      "summary": "Eerste reacties op de moordaanslag op Trump en de context van toenemend politiek geweld."
+      "title": "Inleiding en de moordaanslag",
+      "summary": "De presentator en gasten bespreken de aanslag op Trump, de reacties en de vraag of Amerika aan een burgeroorlog is ontsnapt."
     },
     {
-      "start_seconds": 420,
-      "title": "De dader en de beveiliging",
-      "summary": "Vragen over de beveiligingsfouten en het onduidelijke motief van de schutter."
+      "start_seconds": 640,
+      "title": "Politiek geweld en veiligheid",
+      "summary": "Kennedy en De Graaf analyseren de stijging van politiek geweld, de dader en de tekortkomingen in de veiligheid."
     },
     {
-      "start_seconds": 798,
-      "title": "Trump als verlosser",
-      "summary": "Het messiaanse frame en historische parallellen met Huey Long, Obama en Hitler."
+      "start_seconds": 858,
+      "title": "Trump als verlosser en historische parallellen",
+      "summary": "Het verlosserframe wordt besproken, met vergelijkingen met Huey Long, Reagan, Obama en Hitler."
     },
     {
-      "start_seconds": 1075,
-      "title": "Trumps campagne en populariteit",
-      "summary": "Mobilisatie van de achterban, memes en de vraag of Trump veranderd is."
+      "start_seconds": 1511,
+      "title": "JD Vance en zijn achtergrond",
+      "summary": "Vance wordt geportretteerd als figuur met een populistisch verhaal; zijn boek en zijn opportunisme worden besproken."
     },
     {
-      "start_seconds": 1459,
-      "title": "J.D. Vance en Hillbilly Elegy",
-      "summary": "Achtergrond van Vance, zijn memoires, zijn oma en zijn religieuze zoektocht."
+      "start_seconds": 1905,
+      "title": "Religie en individualisme",
+      "summary": "Vances religieuze reis, van hillbilly-geloof tot katholicisme, wordt gebruikt om subjectieve geloofsbeleving te duiden."
     },
     {
-      "start_seconds": 2186,
-      "title": "Republikeinse partij tussen arbeiders en groot geld",
-      "summary": "Vance als opportunist of authentiek, populisme, protectionisme en de rol van techgiganten."
+      "start_seconds": 2297,
+      "title": "Economie, handel en de Republikeinse kentering",
+      "summary": "De gesprekspartners bespreken de verschuiving van de Republikeinse partij richting protectionisme en de rol van big tech."
+    },
+    {
+      "start_seconds": 2742,
+      "title": "Christelijkheid en secularisatie in de VS",
+      "summary": "Cijfers over kerkgang en christelijke identiteit worden genuanceerd; 'evangelical' blijkt vooral een politieke term."
+    },
+    {
+      "start_seconds": 3251,
+      "title": "Christelijk nationalisme en politieke religie",
+      "summary": "Het gesprek eindigt bij christelijk nationalisme, de Trump-Bijbel en de vraag of politiek een nieuwe religie wordt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 340,
+      "start_seconds": 402,
       "speaker": "Beatrice de Graaf",
-      "text": "Het verhaal is nu raar genoeg heel positief: God heeft Trump gered.",
-      "note": "Laat zien hoe snel het frame van een aanslag wordt bepaald."
+      "text": "Een commentator noemde de Republican National Convention de 'Traveling Trump Salvation Show'.",
+      "note": "Laat zien hoe sterk de aanslag als religieus verhaal werd ingekleurd."
     },
     {
-      "start_seconds": 987,
+      "start_seconds": 1748,
       "speaker": "Beatrice de Graaf",
-      "text": "Ook Hitler gebruikte overleefde aanslagen als bewijs van Gods hand.",
-      "note": "Scherpe historische parallel op 20 juli."
+      "text": "Vance schreef dat hillbillies voortdurend hun mond vol hebben over God, maar nooit naar de kerk gaan.",
+      "note": "Illustreert het verschil tussen religieuze taal en daadwerkelijke kerkelijkheid."
     },
     {
-      "start_seconds": 1085,
+      "start_seconds": 3019,
       "speaker": "James Kennedy",
-      "text": "Trump speelde de nieuwe rol precies 25 minuten; daarna was het weer de oude Trump.",
-      "note": "Nuchtere kanttekening bij het idee van een veranderde Trump."
+      "text": "De hele cultuur is minder vroom dan voorheen.",
+      "note": "Een korte, scherpe observatie over de secularisering van de Republikeinse partij."
     },
     {
-      "start_seconds": 2002,
-      "speaker": "Beatrice de Graaf",
-      "text": "Vance's religie is individualistisch en fluïde, hij liet zich als katholiek dopen met een Hindoestaanse vrouw.",
-      "note": "Toont de geseculariseerde, subjectieve omgang met religie in Amerika."
-    },
-    {
-      "start_seconds": 2255,
-      "speaker": "Beatrice de Graaf",
-      "text": "Republikeinen spreken de middenklasse cultureel aan, maar helpen hen sociaal-economisch niet.",
-      "note": "Kritische analyse van de Republikeinse koers."
+      "start_seconds": 3293,
+      "speaker": "David Boogerd",
+      "text": "Het is bijna politiek wat de nieuwe religie wordt in plaats van de religie zelf.",
+      "note": "Een treffende samenvatting van de centrale stelling van het gesprek."
     }
   ],
   "keywords": [
-    "Donald Trump",
-    "J.D. Vance",
-    "Hillbilly Elegy",
-    "moordaanslag",
-    "messias",
-    "populisme",
-    "Republikeinse conventie",
-    "secularisatie",
+    "Trumpisme",
+    "verlosser",
+    "messianisme",
     "politiek geweld",
-    "witte arbeidersklasse",
-    "Amerika"
+    "christelijk nationalisme",
+    "secularisering",
+    "evangelicals",
+    "JD Vance",
+    "individualisering",
+    "protectionisme",
+    "geloofsbeleving",
+    "accelerationisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Trump krijgt voor sommige Amerikanen haast messiaanse trekken, terwijl Biden elk moment kan terugtreden als kandidaat.",
+    "Is Trump nu zelf de verlosser?",
+    "Hoe kan dat onze eigen Augustinus inspiratiebron is van het Trumpisme?"
+  ],
   "similar": [
     {
       "n": 219,
-      "reason": "Trumps herverkiezing met religieuze duiding door James Kennedy, ook over Republikeinse partij."
-    },
-    {
-      "n": 241,
-      "reason": "Denkers en ideologieën achter Trump, o.a. Vance, Thiel; De Graaf als gast."
-    },
-    {
-      "n": 228,
-      "reason": "Wereldbeeld van Musk en techmiljardairen rond Trump, met Beatrice de Graaf."
+      "reason": "Zelfde gast James Kennedy over Trumps religieuze en culturele duiding na verkiezing"
     },
     {
       "n": 36,
-      "reason": "Rol van religie in Amerikaanse politiek, Trump en Biden, met James Kennedy."
+      "reason": "Kennedy over religie in Amerikaanse politiek, Trump en Biden"
     },
     {
-      "n": 236,
-      "reason": "Amerika glijdt af; Trump, politiek en religie met De Graaf."
+      "n": 241,
+      "reason": "Denkers en ideologieën achter Trump, met Beatrice de Graaf"
+    },
+    {
+      "n": 330,
+      "reason": "Trump-regering als heidens en quasi-religieus fenomeen, Amerikaanse christendomcontext"
+    },
+    {
+      "n": 20,
+      "reason": "Christelijke Trump-stemmers en de religieuze lading van zijn aanhang"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

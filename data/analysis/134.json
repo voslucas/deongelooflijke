@@ -1,326 +1,408 @@
 {
   "episode": 134,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 123339,
+    "segments": 1235,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31190,
-    "output_tokens": 2571,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 63387,
+    "output_tokens": 3892,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
-    "Geschiedenis",
+    "Kerk & secularisatie",
     "Bijbel & Jezus",
-    "Filosofie & ethiek"
+    "Geschiedenis",
+    "Kunst & cultuur"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Sophocles",
-      "note": "Griekse tragediedichter, schrijver van Oedipus Rex",
-      "start_seconds": 413,
-      "wiki_checked": true,
-      "wiki_pageid": 58783,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sophocles_%28tragicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rubens_Sophocle_1638.jpg/250px-Rubens_Sophocle_1638.jpg"
+      "name": "Beatrice de Graaf",
+      "note": "historicus, hoogleraar Universiteit Utrecht, gast",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
-      "name": "Edgar Allan Poe",
-      "note": "schrijver van gotische detectives",
-      "start_seconds": 490,
-      "wiki_checked": true,
-      "wiki_pageid": 24481,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edgar_Allan_Poe",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg/250px-Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg"
-    },
-    {
-      "name": "Mary Shelley",
-      "note": "schrijfster van Frankenstein",
-      "start_seconds": 503,
-      "wiki_checked": true,
-      "wiki_pageid": 47909,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mary_Shelley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mary_Shelley.jpeg/250px-Mary_Shelley.jpeg"
+      "name": "Gilbert Keith Chesterton",
+      "note": "detectiveschrijver en christen; stelde detectiveregels op",
+      "start_seconds": 793,
+      "mention_count": 7
     },
     {
       "name": "Agatha Christie",
-      "note": "detectiveschrijfster uit het interbellum, vroom christen",
-      "start_seconds": 441,
-      "wiki_checked": true,
-      "wiki_pageid": 14276,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Agatha_Christie",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg/250px-Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg"
-    },
-    {
-      "name": "G.K. Chesterton",
-      "note": "christelijk detectiveschrijver, richtte de Detection Society op",
-      "start_seconds": 847,
-      "wiki_checked": true,
-      "wiki_pageid": 613082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gilbert_Keith_Chesterton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Gilbert_Keith_Chesterton01.jpg/250px-Gilbert_Keith_Chesterton01.jpg"
-    },
-    {
-      "name": "Ronald Knox",
-      "note": "katholiek priester en detectiveschrijver, stelde regels op in 1928",
-      "start_seconds": 585,
-      "wiki_checked": true
+      "note": "detectiveschrijfster, christelijk geïnspireerd",
+      "start_seconds": 467,
+      "mention_count": 9
     },
     {
       "name": "Dorothy Sayers",
-      "note": "detectiveschrijfster, lid van de Inklings, heldin van Beatrice de Graaf",
-      "start_seconds": 1491,
-      "wiki_checked": true,
-      "wiki_pageid": 14303,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dorothy_L._Sayers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dorothy_L._Sayers.jpg/250px-Dorothy_L._Sayers.jpg"
+      "note": "detectiveschrijfster en theologe, Beatrice's heldin",
+      "start_seconds": 1281,
+      "mention_count": 8
     },
     {
-      "name": "Jeffrey Dahmer",
-      "note": "seriemoordenaar, onderwerp van true-crimeserie",
-      "start_seconds": 1034,
-      "wiki_checked": true,
-      "wiki_pageid": 99209,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeffrey_Dahmer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Jeffrey_Dahmer_HS_Yearbook.jpg/250px-Jeffrey_Dahmer_HS_Yearbook.jpg"
+      "name": "Edgar Allan Poe",
+      "note": "schrijver van gotische detectiveverhalen",
+      "start_seconds": 448,
+      "mention_count": 2
     },
     {
-      "name": "Salomo",
-      "note": "wijze rechter uit de Bijbel",
-      "start_seconds": 1255,
-      "wiki_checked": true,
-      "wiki_pageid": 11922,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Salomo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Workshop_of_Peter_Paul_Rubens_-The_Judgement_of_Solomon.jpg/250px-Workshop_of_Peter_Paul_Rubens_-The_Judgement_of_Solomon.jpg"
+      "name": "Sophocles",
+      "note": "Griekse tragediedichter, Oedipus Rex",
+      "start_seconds": 413,
+      "mention_count": 1
     },
     {
-      "name": "Daniël",
-      "note": "ontmaskert de oude mannen in het verhaal van Susanna",
-      "start_seconds": 1176,
-      "wiki_checked": true
+      "name": "Robert Knox",
+      "note": "katholieke priester en detectiveschrijver, regels 1928",
+      "start_seconds": 945,
+      "mention_count": 1
+    },
+    {
+      "name": "Umberto Eco",
+      "note": "semiotiekhoogleraar, schrijver De naam van de roos",
+      "start_seconds": 3180,
+      "mention_count": 2
+    },
+    {
+      "name": "Colin Dexter",
+      "note": "schrijver van Inspector Morse",
+      "start_seconds": 1900,
+      "mention_count": 2
+    },
+    {
+      "name": "Arthur Conan Doyle",
+      "note": "schepper van Sherlock Holmes",
+      "start_seconds": 2100,
+      "mention_count": 0
     },
     {
       "name": "Sherlock Holmes",
-      "note": "klassieke detective",
+      "note": "fictieve detective van Conan Doyle",
       "start_seconds": 638,
-      "wiki_checked": true,
-      "wiki_pageid": 44320,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sherlock_Holmes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sherlock_Holmes_Portrait_Paget.jpg/250px-Sherlock_Holmes_Portrait_Paget.jpg"
+      "mention_count": 6
+    },
+    {
+      "name": "Robert van Gulik",
+      "note": "Nederlandse schrijver van Rechter Ti-verhalen",
+      "start_seconds": 4020,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeffrey Dahmer",
+      "note": "seriemoordenaar, onderwerp van true crime-serie",
+      "start_seconds": 1010,
+      "mention_count": 3
+    },
+    {
+      "name": "Charles Williams",
+      "note": "schrijver christelijke detectives",
+      "start_seconds": 1640,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus de Zesde",
+      "note": "paus die Latijnse mis herstelde na brief van schrijvers",
+      "start_seconds": 3560,
+      "mention_count": 1
+    },
+    {
+      "name": "Salomo",
+      "note": "koning en wijze rechter uit de Bijbel",
+      "start_seconds": 1240,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernst Bloch",
+      "note": "filosoof die over detectives schreef",
+      "start_seconds": 3140,
+      "mention_count": 1
+    },
+    {
+      "name": "Harriet Vane",
+      "note": "personage uit Dorothy Sayers' romans",
+      "start_seconds": 2190,
+      "mention_count": 1
+    },
+    {
+      "name": "Lord Peter Wimsey",
+      "note": "detective-personage van Dorothy Sayers",
+      "start_seconds": 2170,
+      "mention_count": 2
     },
     {
       "name": "Miss Marple",
-      "note": "detective van Agatha Christie",
+      "note": "detective-personage van Agatha Christie",
       "start_seconds": 1580,
-      "wiki_checked": true,
-      "wiki_pageid": 90815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Miss_Marple"
+      "mention_count": 3
+    },
+    {
+      "name": "Hercule Poirot",
+      "note": "detective-personage van Agatha Christie",
+      "start_seconds": 1580,
+      "mention_count": 1
+    },
+    {
+      "name": "Philip Marlowe",
+      "note": "hard-boiled detective-personage",
+      "start_seconds": 2940,
+      "mention_count": 1
+    },
+    {
+      "name": "Moriarty",
+      "note": "kwaadaardige tegenspeler van Sherlock Holmes",
+      "start_seconds": 3680,
+      "mention_count": 3
+    },
+    {
+      "name": "Jezus",
+      "note": "centrale figuur in evangelie als detectiveverhaal",
+      "start_seconds": 1430,
+      "mention_count": 3
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeins landvoogd in lijdensverhaal",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Oedipus",
+      "note": "tragisch personage in Sophocles",
+      "start_seconds": 413,
+      "mention_count": 2
+    },
+    {
+      "name": "Cormoran Strike",
+      "note": "detective-personage van J.K. Rowling",
+      "start_seconds": 1980,
+      "mention_count": 2
+    },
+    {
+      "name": "Inspector Morse",
+      "note": "detective-personage van Colin Dexter",
+      "start_seconds": 1100,
+      "mention_count": 3
+    },
+    {
+      "name": "Endeavour Morse",
+      "note": "jonge versie van Inspector Morse",
+      "start_seconds": 1930,
+      "mention_count": 2
+    },
+    {
+      "name": "Tolkien",
+      "note": "schrijver, lid van de Inklings",
+      "start_seconds": 2080,
+      "mention_count": 2
     },
     {
       "name": "C.S. Lewis",
       "note": "schrijver, lid van de Inklings",
-      "start_seconds": 2065,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "start_seconds": 2080,
+      "mention_count": 2
     },
     {
-      "name": "J.R.R. Tolkien",
-      "note": "schrijver, lid van de Inklings",
-      "start_seconds": 2065,
-      "wiki_checked": true,
-      "wiki_pageid": 12634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.R.R._Tolkien",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/250px-J._R._R._Tolkien%2C_ca._1925.jpg"
+      "name": "Daniël",
+      "note": "bijbelse figuur in verhaal van Susanna",
+      "start_seconds": 1180,
+      "mention_count": 2
+    },
+    {
+      "name": "Susanna",
+      "note": "bijbelse figuur in verhaal van Daniël",
+      "start_seconds": 1180,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "Oedipus Rex",
-      "author": "Sophocles",
-      "note": "vroege vorm van een detectiveverhaal",
-      "start_seconds": 413,
-      "volume_id": "TGDcDAAAQBAJ",
-      "canonical_title": "Oedipus Rex",
-      "canonical_author": "Sophocles",
-      "isbn13": "9780486268774",
-      "isbn10": "0486268772",
-      "thumbnail": "http://books.google.com/books/content?id=TGDcDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "The Mind of the Maker",
+      "author": "Dorothy Sayers",
+      "note": "theologisch boek over God als kunstenaar",
+      "start_seconds": 2270,
+      "volume_id": "ttmmzgEACAAJ",
+      "canonical_title": "The Mind of the Maker",
+      "canonical_author": "Dorothy L. Sayers",
+      "isbn13": "9798723544529",
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
-      "title": "Susanna (Daniël 13)",
-      "author": "",
-      "note": "apocrief verhaal als vroeg speurdersverhaal",
-      "start_seconds": 1176
+      "title": "In de naam van de roos",
+      "author": "Umberto Eco",
+      "note": "postmoderne detectiveroman met semiotische laag",
+      "start_seconds": 3180,
+      "volume_id": "BNEtHQAACAAJ",
+      "canonical_title": "De naam van de roos",
+      "canonical_author": "Umberto Eco",
+      "isbn13": "9789060199947",
+      "isbn10": "9060199944",
+      "thumbnail": ""
     },
     {
-      "title": "Het evangelie naar Marcus",
-      "author": "",
-      "note": "vergeleken met een detective: wie is Jezus?",
-      "start_seconds": 1421
+      "title": "Gold Knight",
+      "author": "Dorothy Sayers",
+      "note": "aanbevolen roman door Beatrice",
+      "start_seconds": 2040
     }
   ],
   "bible_refs": [
     {
       "ref": "Daniël 13",
-      "note": "verhaal van Susanna en de twee oudsten als vroeg speurdersverhaal",
-      "start_seconds": 1175
+      "note": "verhaal van Susanna en de oudsten, ondervraging afzonderlijk",
+      "start_seconds": 1180
     },
     {
-      "ref": "1 Koningen 3",
-      "note": "Salomo als wijze rechter en het verhaal van de twee moeders",
-      "start_seconds": 1250
+      "ref": "Efeziërs 1:18",
+      "note": "verlichte ogen van het verstand, vergeleken met detectiveverhaal",
+      "start_seconds": 1540
     },
     {
-      "ref": "Marcus 15",
-      "note": "de Romeinse hoofdman onder het kruis: dit was een zoon van God",
-      "start_seconds": 1422
-    },
-    {
-      "ref": "Efeziërs 1",
-      "note": "verlichte ogen van het verstand, vergeleken met Chestertons licht",
-      "start_seconds": 1527
+      "ref": "Marcus",
+      "note": "evangelie als detectiveverhaal, geheimhouding van wonderen",
+      "start_seconds": 1420
     }
   ],
   "places": [
     "Utrecht",
-    "Cornwall",
     "Oxford",
+    "Cornwall",
+    "Canterbury",
     "Londen",
-    "Engeland"
+    "Amsterdam",
+    "Kampen"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de geschiedenis en betekenis van detectiveverhalen en true crime, van Sophocles en Poe tot Agatha Christie en moderne Scandinavische thrillers. Ze belichten de christelijke wortels van het genre, de zoektocht naar orde en licht, en de link met theodicee en het kwaad.",
+  "summary_tldr": "Historicus Beatrice de Graaf en theoloog Stefan Paas bespreken waarom detectives en true crime zo populair zijn, en wat dat zegt over de samenleving. Ze laten zien hoe het genre ontstond uit verlichtingsidealen en christelijke morele vragen, en hoe het kwaad in detectives vaak wordt overwonnen. Ze onderzoeken ook of de huidige gruwelijkheid van true crime afstompt.",
   "summary_points": [
-    "Detectiveverhalen gaan terug tot de oudheid, zoals Oedipus Rex.",
-    "De moderne detective is een product van de Verlichting, politie en strafproces in de 19e eeuw.",
-    "Het genre schommelt tussen orde en ratio enerzijds en gruwel anderzijds.",
-    "Het interbellum was de hoogtijdag, met Christie, Chesterton en Sayers.",
-    "Regels van Chesterton en Knox: geen bovennatuurlijke oplossing, geen stereotiepe buitenlander als boef.",
-    "In de Bijbel zijn speurdersverhalen te vinden: Susanna, Salomo, Marcus.",
-    "Veel klassieke detectiveschrijvers waren christelijk; elk mensenleven telt en licht overwint duisternis.",
-    "De detective is een geseculariseerde theodicee en vaak een profetische of messiaanse figuur.",
-    "Moderne detectives zijn gebrekkig en eenzaam, het kwaad is grijzer; true crime is eerder geweldsporno."
+    "Detectiveverhalen gaan terug tot de Oudheid (Oedipus) en de moderne roman ontstond pas in de 19e eeuw.",
+    "Het detectiveverhaal ontstond mede door de verlichting: rationeel onderzoek verving bekentenissen en marteling.",
+    "Interbellum gold als hoogtepunt; Chesterton schreef detectives uit financiële nood.",
+    "Chesterton en Dorothy Sayers zagen detectives als uitdrukking van een christelijk licht-donker-denken.",
+    "Bijbelse verhalen zoals Daniël 13 en het Marcus-evangelie vertonen detective-trekken.",
+    "Het detectiveverhaal kan gezien worden als een geseculariseerde theodicee.",
+    "Moderne detectives zijn vaak gebroken figuren, als 'moderne profeten'.",
+    "Gruwelijke true crime kan afstompen, maar dit hangt af van de integriteit van de maker.",
+    "Het kwaad moet niet verheerlijkt maar overwonnen worden, aldus de gasten.",
+    "Detectiveverhalen spiegelen de samenleving, en andersom beïnvloeden ze haar ook."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Waarom detectives?",
-      "summary": "Beatrice legt uit waarom ze detectives leest en wat ze over een cultuur zeggen."
+      "start_seconds": 0,
+      "title": "Introductie en waarom detectives ontspannen",
+      "summary": "Beatrice de Graaf vertelt waarom zij detectives leest en hoe het genre haar ontspant."
     },
     {
-      "start_seconds": 396,
-      "title": "Van Oedipus tot Poe",
-      "summary": "De geschiedenis van het genre, van de oudheid via de Verlichting naar gotische en Victoriaanse verhalen."
+      "start_seconds": 413,
+      "title": "Oorsprong van het detectiveverhaal",
+      "summary": "Van Oedipus bij de Grieken tot de Gothic novel en de 19e-eeuwse verlichting."
     },
     {
-      "start_seconds": 780,
-      "title": "Het interbellum en de regels",
-      "summary": "Na de Eerste Wereldoorlog bloeit de detective op; Chesterton en Knox stellen regels op."
+      "start_seconds": 1100,
+      "title": "Interbellum en de regels van het genre",
+      "summary": "De hoogtijdagen tussen de wereldoorlogen, Chesterton en de regels van 1928."
     },
     {
-      "start_seconds": 1034,
-      "title": "True crime versus puzzel",
-      "summary": "Het verschil tussen een puzzel met één dode en geweldsporno."
+      "start_seconds": 1180,
+      "title": "Bijbelse detectives en het goddelijk mysterie",
+      "summary": "Daniël 13, Salomo en de vraag waarom de Bijbel geen detective is."
     },
     {
-      "start_seconds": 1160,
-      "title": "Detectives in de Bijbel",
-      "summary": "Susanna, Salomo en Marcus als speurdersverhalen en het verschil met een menselijk mysterie."
+      "start_seconds": 2040,
+      "title": "Dorothy Sayers en religieuze lagen",
+      "summary": "Sayers als heldin, haar christelijke ontwikkeling en het boek The Mind of the Maker."
     },
     {
-      "start_seconds": 1476,
-      "title": "Christelijke wortels en theodicee",
-      "summary": "Licht en donker, erfzonde en de detective als geseculariseerde theodicee en profeet."
+      "start_seconds": 2760,
+      "title": "Waarom true crime zo populair is en het kwaad",
+      "summary": "Afstomping, cultuur, geweldsporno en de vraag naar hoop in verhalen."
     },
     {
-      "start_seconds": 2065,
-      "title": "Dorothy Sayers",
-      "summary": "Het leven en werk van Sayers, lid van de Inklings."
+      "start_seconds": 3500,
+      "title": "Vragen uit de zaal en afsluiting",
+      "summary": "Invloed van detectives op de maatschappij, niet-westerse detectives en persoonlijke verhalen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 193,
-      "speaker": "Beatrice de Graaf",
-      "text": "Je denkt: ha, stiekem is alles gewoon weer zwart-wit en opgelost.",
-      "note": "Verklaart waarom een historicus ontspant bij detectives."
-    },
-    {
-      "start_seconds": 1034,
-      "speaker": "Stefan Paas",
-      "text": "Dat is geweldsporno, dat heeft niet zoveel met het oplossen van een puzzel te maken.",
-      "note": "Scherp onderscheid tussen detective en true crime."
-    },
-    {
-      "start_seconds": 1749,
+      "start_seconds": 1281,
       "speaker": "Beatrice de Graaf",
       "text": "Een detective is een soort geseculariseerde vorm van de theodicee.",
-      "note": "Kernidee van het gesprek."
+      "note": "Koppelt het genre aan een klassiek filosofisch-theologisch vraagstuk."
     },
     {
-      "start_seconds": 1176,
+      "start_seconds": 3400,
       "speaker": "Stefan Paas",
-      "text": "Een van de oudste detectiveverhalen staat in de Bijbel: Susanna en de twee oudsten.",
-      "note": "Verrassende link tussen Bijbel en misdaadgenre."
+      "text": "Ook dat soort boeken zouden in de middeleeuwen niet geschreven worden; je kunt zulke fantasieën alleen uitleven in een tamelijk veilige samenleving.",
+      "note": "Verbindt de populariteit van gruwelijke verhalen met de veiligheid van de moderne samenleving."
     },
     {
-      "start_seconds": 1932,
+      "start_seconds": 2600,
       "speaker": "Beatrice de Graaf",
-      "text": "Endeavour blijft als eenzame torenwachter achter om het kwaad tegen te houden; bijna een messiaanse figuur.",
-      "note": "Detective als profeet of messias."
+      "text": "Het kwaad is overwonnen, en dat wordt in een detective ook overwonnen.",
+      "note": "Christelijke hoop als kern van het genre."
+    },
+    {
+      "start_seconds": 3780,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het evangelie is eigenlijk een detectiveverhaal: wie heeft Jezus gedood? De lezer is de dader.",
+      "note": "Verplaatst schuld naar de lezer zelf."
+    },
+    {
+      "start_seconds": 2960,
+      "speaker": "Stefan Paas",
+      "text": "Wij leven in de veiligste samenlevingen sinds mensenheugenis.",
+      "note": "Scherpe observatie over waarom we griezelen."
     }
   ],
   "keywords": [
-    "detective",
+    "detectiveverhaal",
     "true crime",
-    "theodicee",
-    "erfzonde",
     "Agatha Christie",
-    "G.K. Chesterton",
+    "Chesterton",
     "Dorothy Sayers",
-    "interbellum",
-    "Verlichting",
-    "Susanna",
-    "kwaad",
-    "Oedipus"
+    "theodicee",
+    "goed en kwaad",
+    "hoop",
+    "verlichting",
+    "geweldsporno",
+    "Bijbel als detective",
+    "Inklings"
   ],
-  "quotes": [],
+  "quotes": [
+    "The first and fundamental principle is that the aim of a mystery story is not darkness, but light.",
+    "Een detective is een soort geseculariseerde vorm van de theodicee.",
+    "Omarm de burgerlijkheid."
+  ],
   "similar": [
     {
-      "n": 119,
-      "reason": "Anton de Wit over Tolkien, C.S. Lewis en mythes; ook Chesterton en christelijke verbeelding"
+      "n": 280,
+      "reason": "Detectiveachtige speurtocht door de evangeliën, sluit aan bij detectiveverhalen en Jezus-thema"
     },
     {
-      "n": 208,
-      "reason": "Chesterton en zijn paradoxale christendom, kunst en cultuur"
-    },
-    {
-      "n": 14,
-      "reason": "Beatrice de Graaf en Paas over veiligheid, het kwaad en de Bijbel"
+      "n": 281,
+      "reason": "Forensisch patholoog over moord, dood en Bijbel, sterk verwant aan true crime"
     },
     {
       "n": 205,
-      "reason": "Misdaad als seismograaf van de samenleving, kwaad en geloof"
+      "reason": "Misdaad als spiegel van de samenleving, direct verwant aan het true crime-thema"
     },
     {
       "n": 123,
-      "reason": "Advocaat over moordenaars en zedendelinquenten; mensbeeld, kwaad en geloof"
+      "reason": "Omgang met moordenaars en zedendelinquenten, relevant voor misdaadfascinatie en morele vragen"
+    },
+    {
+      "n": 208,
+      "reason": "Chesterton, een van de figuren uit het gesprek, en paradoxaal christendom"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,315 +1,356 @@
 {
   "episode": 166,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 111643,
+    "segments": 1435,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32077,
-    "output_tokens": 2605,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59129,
+    "output_tokens": 9107,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Zingeving & psyche",
-    "Samenleving & migratie",
-    "Islam & jodendom"
+    "Islam & jodendom",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Bart Wallet",
-      "note": "Hoogleraar Joodse studies aan de UvA, genoemd als genuanceerde duider in de media",
-      "start_seconds": 270,
-      "wiki_checked": true,
-      "wiki_pageid": 5617403,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_Wallet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bart_Wallet_in_Woerden_%285%29_%28cropped%29.jpg/250px-Bart_Wallet_in_Woerden_%285%29_%28cropped%29.jpg"
+      "name": "Netanyahu",
+      "note": "Israelische premier, bekritiseerd om zijn uitspraak over Amalek",
+      "start_seconds": 1001,
+      "mention_count": 12
     },
     {
-      "name": "Robert Habeck",
-      "note": "Duitse vicekanselier (de Groenen) met een moreel statement over Duitse verantwoordelijkheid voor Israël",
-      "start_seconds": 462,
-      "wiki_checked": true,
-      "wiki_pageid": 5411272,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Habeck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2021-12-07_Unterzeichnung_des_Koalitionsvertrages_der_20._Wahlperiode_des_Bundestages_by_Sandro_Halank%E2%80%93018_%28cropped%29.jpg/250px-2021-12-07_Unterzeichnung_des_Koalitionsvertrages_der_20._Wahlperiode_des_Bundestages_by_Sandro_Halank%E2%80%93018_%28cropped%29.jpg"
+      "name": "Yasser Arafat",
+      "note": "PLO-leider, later gesprekspartner in het vredesproces",
+      "start_seconds": 2080,
+      "mention_count": 3
     },
     {
-      "name": "Fritz Heider",
-      "note": "Sociaal psycholoog, theorie van de morele balans",
-      "start_seconds": 817,
-      "wiki_checked": true,
-      "wiki_pageid": 533124,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fritz_Heider"
-    },
-    {
-      "name": "Ernest Becker",
-      "note": "Sociaal psycholoog, grondlegger van de terror management theory",
-      "start_seconds": 1189,
-      "wiki_checked": true
-    },
-    {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, citeerde Amalek na 7 oktober",
-      "start_seconds": 1006,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
-    },
-    {
-      "name": "Yoav Gallant",
-      "note": "Israëlische minister van Defensie, sprak over 'ongedierte'",
-      "start_seconds": 1405,
-      "wiki_checked": true,
-      "wiki_pageid": 5800019,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yoav_Gallant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Yoav_Galant_1.jpg/250px-Yoav_Galant_1.jpg"
-    },
-    {
-      "name": "Isaac Herzog",
-      "note": "Israëlische president, uitspraak over de verantwoordelijkheid van Gazanen",
-      "start_seconds": 1405,
-      "wiki_checked": true,
-      "wiki_pageid": 4313324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Herzog",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Isaac_Herzog%2C_July_2021_%28D1233-049%29.JPG/250px-Isaac_Herzog%2C_July_2021_%28D1233-049%29.JPG"
-    },
-    {
-      "name": "Itamar Ben-Gvir",
-      "note": "Israëlische minister, bewapent kolonisten",
-      "start_seconds": 1463,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bezalel Smotrich",
-      "note": "Israëlische minister, bewapent kolonisten",
-      "start_seconds": 1463,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
-    },
-    {
-      "name": "Hassan Nasrallah",
-      "note": "Leider van Hezbollah, hield een speech zonder directe steunbelofte",
-      "start_seconds": 1574,
-      "wiki_checked": true,
-      "wiki_pageid": 565329,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hassan_Nasrallah",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Sayyid_Nasrallah.jpg/250px-Sayyid_Nasrallah.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, onderhandelt met Hamas",
-      "start_seconds": 1635,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaanse leider, als voorbeeld van verzoening",
+      "start_seconds": 2207,
+      "mention_count": 3
     },
     {
       "name": "Haman",
-      "note": "Bijbelse vijand van de Joden in het boek Esther, Agagiet",
+      "note": "Vijand van Israël in het boek Esther, gedacht tijdens Purim",
       "start_seconds": 1734,
-      "wiki_checked": true,
-      "wiki_pageid": 302942,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Haman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Michelangelo_Sistine_Chapel_ceiling_-_Punishment_of_Haman_restored.jpg/250px-Michelangelo_Sistine_Chapel_ceiling_-_Punishment_of_Haman_restored.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Esther",
-      "note": "Bijbelse koningin die het Joodse volk redde",
-      "start_seconds": 1760,
-      "wiki_checked": true,
-      "wiki_pageid": 4561065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ester_%28Bijbel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Esther_IMG_28102.png/250px-Esther_IMG_28102.png"
+      "name": "Mahmoud Abbas",
+      "note": "Palestijns president op de Westoever",
+      "start_seconds": 2256,
+      "mention_count": 2
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "note": "Israelische premier, bij de Oslo-akkoorden",
+      "start_seconds": 2171,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Amerikaanse president die de Oslo-akkoorden faciliteerde",
+      "start_seconds": 2171,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president, onderhandelt volgens David nog met Hamas",
+      "start_seconds": 1634,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Oud-Amerikaans president, gezien als dealmaker",
+      "start_seconds": 2343,
+      "mention_count": 2
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaans president, peilingen voor herverkiezing",
+      "start_seconds": 2331,
+      "mention_count": 1
+    },
+    {
+      "name": "Hassan Nasrallah",
+      "note": "Leider van Hezbollah, hield een speech over het conflict",
+      "start_seconds": 1565,
+      "mention_count": 2
+    },
+    {
+      "name": "Yoav Gallant",
+      "note": "Israelische minister van Defensie, uitspraken na 7 oktober",
+      "start_seconds": 1405,
+      "mention_count": 2
+    },
+    {
+      "name": "Isaac Herzog",
+      "note": "Israelische president, uitspraken na 7 oktober",
+      "start_seconds": 1405,
+      "mention_count": 2
+    },
+    {
+      "name": "Itamar Ben-Gvir",
+      "note": "Israelische minister die bewapening van kolonisten zou steunen",
+      "start_seconds": 1463,
+      "mention_count": 1
+    },
+    {
+      "name": "Bezalel Smotrich",
+      "note": "Israelische minister die bewapening van kolonisten zou steunen",
+      "start_seconds": 1463,
+      "mention_count": 1
+    },
+    {
+      "name": "Robert Habeck",
+      "note": "Duitse vice-kanselier (Groenen), sprak over Duitse verantwoordelijkheid voor Israël",
+      "start_seconds": 453,
+      "mention_count": 1
+    },
+    {
+      "name": "Bart Valet",
+      "note": "Leraar Joodse studies aan de UvA, gebalanceerd in de media",
+      "start_seconds": 266,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernst Becker",
+      "note": "Sociaal psycholoog, theorie van terror management",
+      "start_seconds": 1189,
+      "mention_count": 2
     },
     {
       "name": "Muzafer Sherif",
-      "note": "Sociaal psycholoog, bedenker van het Robbers Cave Experiment",
-      "start_seconds": 1915,
-      "wiki_checked": true,
-      "wiki_pageid": 1638837,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Muzafer_Sherif"
+      "note": "Sociaal psycholoog, Robbers Cave-experiment",
+      "start_seconds": 1905,
+      "mention_count": 2
     },
     {
       "name": "Rutger Bregman",
-      "note": "Auteur, herhaalde de Robbers Cave-studie",
-      "start_seconds": 1950,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "Historicus en auteur, herhaalde het Robbers Cave-experiment",
+      "start_seconds": 1941,
+      "mention_count": 1
+    },
+    {
+      "name": "Joris Luidek",
+      "note": "Expert over omgaan met emoties op scholen, wordt later besproken",
+      "start_seconds": 3125,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van der Bosch",
+      "note": "Sociaal psycholoog, samenwerkingspartner van Stefan Paas",
+      "start_seconds": 2556,
+      "mention_count": 2
+    },
+    {
+      "name": "Abraham Soetendorp",
+      "note": "Rabbijn die op televisie de hand schudt met een imam",
+      "start_seconds": 2818,
+      "mention_count": 2
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psychoanalyticus, referentiepunt voor Ernst Becker",
+      "start_seconds": 1189,
+      "mention_count": 1
+    },
+    {
+      "name": "Joseph Stalin",
+      "note": "Sovjetleider, gebruikt als historische vergelijking door een Hamas-official",
+      "start_seconds": 1486,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider, voorbeeld van trauma en radicalisering",
+      "start_seconds": 584,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Franse keizer, voorbeeld van collectief trauma na oorlogen",
+      "start_seconds": 574,
+      "mention_count": 1
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "note": "Indiase vredesleider, genoemd als voorbeeld",
+      "start_seconds": 2218,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Paty",
+      "note": "Franse lerares, vermoord in 2020, aanleiding voor schoolprogramma",
+      "start_seconds": 173,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel, geciteerd over vrede houden (Romeinen 12)",
+      "start_seconds": 3448,
+      "mention_count": 2
     }
   ],
   "books": [],
   "bible_refs": [
     {
-      "ref": "Deuteronomium 25",
-      "note": "Netanyahu citeerde 'gedenk wat Amalek jullie heeft aangedaan'",
-      "start_seconds": 1686
+      "ref": "Deuteronomium 25:17-19",
+      "note": "Tekst over Amalek die Israël in de woestijn aanviel; door Netanyahu aangehaald",
+      "start_seconds": 1685
     },
     {
       "ref": "Esther",
-      "note": "Haman als Agagiet, Purimfeest",
-      "start_seconds": 1726
+      "note": "Haman wordt genoemd als afstammeling van Agag, koning der Amalekieten; Purimfeest",
+      "start_seconds": 1734
     },
     {
-      "ref": "Samuël",
-      "note": "Opdracht om Amalek uit te roeien",
-      "start_seconds": 1709
+      "ref": "Romeinen 12:18-19",
+      "note": "Paulus: waar mogelijk, houd vrede met alle mensen",
+      "start_seconds": 3448
     }
   ],
   "places": [
     "Israël",
-    "Gaza",
-    "Westbank",
+    "Gazastrook",
+    "Westoever",
     "Libanon",
     "Qatar",
-    "Iran",
-    "Oekraïne",
-    "Duitsland",
-    "Den Haag",
+    "Saoedi-Arabië",
     "Oklahoma",
-    "Zuid-Afrika"
+    "München",
+    "Oslo",
+    "Den Haag"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken waarom de oorlog tussen Israël en Hamas zo sterk polariseert, ook in Nederland. Ze gebruiken psychologische theorieën (morele balans, terror management, Robbers Cave) om te verklaren hoe trauma en angst tot tribalisme en radicalisering leiden. Ook duiden ze de Amalek-uitspraak van Netanyahu.",
+  "summary_tldr": "Historicus Beatrice de Graaf en theoloog Stefan Paas bespreken waarom het conflict tussen Israël en Hamas ook in Nederland zoveel emoties en polarisatie oproept. Met psychologische theorieën zoals terror management, morele balans en trauma verklaren zij het verharden van standpunten en het vereenvoudigen van de wereld tot goed en fout. Ze pleiten voor vrede stichten, kritische loyaliteit en een derde partij die verzoening mogelijk maakt.",
   "summary_points": [
-    "Beatrice de Graaf sprak lang niet in de media en werkte achter de schermen aan lesmateriaal voor scholen.",
-    "Het conflict wordt geïmporteerd: scholieren en Joodse kinderen voelen de spanning.",
-    "De Palestijnse kwestie dient wereldwijd als projectiescherm voor identiteit en onderdrukking.",
-    "Twee getraumatiseerde volken lijken op partners in een vechtscheiding, met eisen van loyaliteit.",
-    "De theorie van de morele balans verklaart de drang om goed en fout te bepalen.",
-    "Mensen blijven verantwoordelijk voor hun keuzes, ook als ze getraumatiseerd zijn.",
-    "Terror management theory: confrontatie met de dood leidt tot rally around the flag en radicalisering.",
-    "De Amalek-uitspraak van Netanyahu is een standaardfrase en geen oproep tot genocide, al is hij zelf een opportunist.",
-    "Het Robbers Cave Experiment biedt een aanzet tot een oplossing voor groepsconflicten."
+    "Het conflict roept in Nederland sterke emoties en polarisatie op, mede doordat het als identiteitsstrijd wordt gevoerd.",
+    "Scholen en docenten staan in de frontlinie; kinderen identificeren zich met Palestijnen of Joodse kinderen en voelen zich alleen.",
+    "Palestijnen fungeren wereldwijd als symbool van onderdrukking, terwijl Israël vaak als koloniale staat wordt gezien.",
+    "Stefan Paas vergelijkt het conflict met een vechtscheiding waarin getraumatiseerde volken alleen nog loyaliteit eisen.",
+    "Beatrice de Graaf verklaart polarisatie met de morele balans-theorie en de terror management theory.",
+    "Netanyahu's Amalek-uitspraak blijkt een gangbare frase in Joodse context en niet per se een oproep tot genocide.",
+    "Radicalisering vindt aan beide kanten plaats, onder meer via uitspraken van Hamas-leiders en Israelische ministers.",
+    "Het Robbers Cave-experiment toont dat competitie wordt doorbroken door een gezamenlijk hoger doel van een derde partij.",
+    "Vrijheid van meningsuiting moet samengaan met rechtsstaat en het zorgvuldig gebruiken van begrippen als genocide.",
+    "Concrete handelingsopties zijn kritische vriendschap, compassie voor alle slachtoffers en het zoeken naar oprechte vredesinitiatieven."
   ],
   "chapters": [
     {
-      "start_seconds": 26,
-      "title": "Eerste media-optreden en scholenproject",
-      "summary": "Beatrice legt uit waarom ze zweeg en vertelt over het lesmateriaal voor scholen."
+      "start_seconds": 0,
+      "title": "Inleiding en waarom Beatrice nu spreekt",
+      "summary": "David opent met de vraag waarom dit de eerste media-optreden van De Graaf is sinds de oorlog. Zij legt uit dat ze eerst het overzicht wilde krijgen en druk was met schoolprojecten."
     },
     {
-      "start_seconds": 343,
-      "title": "Waarom dit conflict zo polariseert",
-      "summary": "Identiteitsprojectie, de Palestijnen als symbool en Europese schuld rond de Holocaust."
+      "start_seconds": 140,
+      "title": "Scholen, identiteit en de import van het conflict",
+      "summary": "Het gesprek gaat over kinderen en docenten die met de pijn van het conflict worden geconfronteerd. Het conflict wordt als identiteitsstrijd gezien, waarbij Palestijnen en Israël als symbolen functioneren."
     },
     {
-      "start_seconds": 518,
-      "title": "Getraumatiseerde volken en vechtscheiding",
-      "summary": "Trauma verhardt en dwingt loyaliteit af, ook bij omstanders."
+      "start_seconds": 540,
+      "title": "Getraumatiseerde volken en de vechtscheiding",
+      "summary": "Paas en De Graaf beschrijven het conflict als een vechtscheiding tussen getraumatiseerde volken. Ze wijzen op historische voorbeelden zoals Napoleon en de Eerste Wereldoorlog."
     },
     {
-      "start_seconds": 817,
-      "title": "Morele balans en agency",
-      "summary": "De theorie van Heider en het gevaar van het afnemen van verantwoordelijkheid."
+      "start_seconds": 1080,
+      "title": "Morele balans en terror management",
+      "summary": "De morele balans-theorie en de terror management theory verklaren waarom mensen zich in tribale kampen terugtrekken en de wereld vereenvoudigen. De Graaf noemt dit een voedingsbodem voor radicalisering."
     },
     {
-      "start_seconds": 1160,
-      "title": "Terror management en radicalisering",
-      "summary": "Angst voor de dood leidt tot tribalisme, radicalisering bij Hamas en Israël, Hezbollah."
+      "start_seconds": 1620,
+      "title": "Radicalisering en de Amalek-uitspraak",
+      "summary": "Er wordt gesproken over radicalisering aan beide kanten, inclusief uitspraken van Israelische ministers en Hamas-leiders. De Netanyahu-uitspraak over Amalek wordt uitgelegd als gangbare Joodse frase."
     },
     {
-      "start_seconds": 1626,
-      "title": "De Amalek-uitspraak van Netanyahu",
-      "summary": "Stefan duidt de bijbelse achtergrond en het gebruik van de frase."
+      "start_seconds": 2040,
+      "title": "Robbers Cave en de rol van een derde partij",
+      "summary": "Het Robbers Cave-experiment laat zien dat groepen samenwerken als er een hoger gemeenschappelijk doel is. Oslo en het voorbeeld van Mandela dienen als hoopvolle historische lessen."
     },
     {
-      "start_seconds": 1895,
-      "title": "Robbers Cave Experiment",
-      "summary": "Sherifs experiment als aanzet tot een oplossing voor groepsconflict."
+      "start_seconds": 2700,
+      "title": "Wat kunnen we doen? Vrede, vrijheid en kritische vriendschap",
+      "summary": "De gesprekspartners bespreken vrijheid van meningsuiting, het gebruik van het begrip genocide en symbolische daden. Ze sluiten af met het belang van compassie, zelfreflectie en kritische vriendschap."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 303,
+      "start_seconds": 499,
       "speaker": "Stefan Paas",
-      "text": "Het lijkt een vechtscheiding van twee totaal verbitterde mensen die volkomen loyaliteit eisen.",
-      "note": "Treffend beeld voor de polarisatie."
+      "text": "Het is een soort vechtscheiding van twee mensen die totaal verbitterd tegenover elkaar staan en alleen nog volkomen loyaliteit eisen.",
+      "note": "Treffende metafoor die de polarisatie en het gebrek aan middenruimte duidelijk maakt."
     },
     {
-      "start_seconds": 955,
-      "speaker": "Stefan Paas",
-      "text": "Zelfs als je verbitterd en uitzichtloos bent, heb je nog steeds handelingsopties.",
-      "note": "Verzet tegen het ontmenselijken van getraumatiseerden."
-    },
-    {
-      "start_seconds": 1153,
+      "start_seconds": 2610,
       "speaker": "Beatrice de Graaf",
-      "text": "Ik doe al mijn hele leven oorlog en terrorisme en ik vond het altijd enig. En nu niet meer.",
-      "note": "Persoonlijk en kwetsbaar moment."
+      "text": "Je kijkt het monster in de bek en je zegt: ik kan er niks aan doen.",
+      "note": "Verklaart waarom machteloosheid psychologisch zo moeilijk te dragen is en waarom mensen een dader zoeken."
     },
     {
-      "start_seconds": 1740,
+      "start_seconds": 2455,
       "speaker": "Stefan Paas",
-      "text": "Pas op met bijbelteksten op de klank af te nemen. Hun betekenis ligt in hun gebruik.",
-      "note": "Nuchtere duiding van de Amalek-uitspraak."
+      "text": "Het risico is dat we onze menselijkheid verliezen, en dat we triomfantelijk de slachtoffers van de ene kant laten zien om de andere kant te laten falen.",
+      "note": "Waarschuwt voor politisering van slachtofferschap en het verlies van compassie."
     },
     {
-      "start_seconds": 2000,
-      "speaker": "David Boogerd",
-      "text": "Ik kon van deze oorlog echt slecht slapen.",
-      "note": "Persoonlijke reflectie als vader."
+      "start_seconds": 3243,
+      "speaker": "Stefan Paas",
+      "text": "Het is niet zo dat die mensen aan de andere kant geen pijn hebben.",
+      "note": "Pleit voor begrip voor trauma's aan beide zijden, zonder sympathie te ontkennen."
     }
   ],
   "keywords": [
-    "Israël",
-    "Hamas",
     "polarisatie",
     "trauma",
-    "morele balans",
     "terror management theory",
+    "morele balans",
     "radicalisering",
     "Amalek",
     "Netanyahu",
     "Robbers Cave",
-    "Beatrice de Graaf",
+    "vrijheid van meningsuiting",
+    "vredesstichting",
+    "kritische vriendschap",
     "identiteit"
   ],
-  "quotes": [],
+  "quotes": [
+    "Waarom roept de oorlog tussen Israël en Hamas ook in Nederland zoveel emoties op?",
+    "Hoe doorbreek je een spiraal van haat en geweld?",
+    "Hoe bestrijd je de polarisatie in een conflict dat zo verhit is, en ook nog eens bol staat van historische en religieuze strijd?"
+  ],
   "similar": [
     {
       "n": 163,
-      "reason": "Zelfde oorlog Israël-Hamas, ideologie van Hamas en tegenaanval van Israël"
+      "reason": "Zelfde conflict; Hamas-ideologie en Israëls tegenaanval, met Geopolitiek en Bijbel-thema's."
     },
     {
       "n": 254,
-      "reason": "Beatrice de Graaf en Stefan Paas over oorlog in Israël, Iran en Gaza"
-    },
-    {
-      "n": 261,
-      "reason": "Israël in Gaza, verwarring en propaganda rond het conflict"
+      "reason": "Zelfde gast Beatrice de Graaf en vergelijkbaar onderwerp: oorlog in Israël en Gaza."
     },
     {
       "n": 214,
-      "reason": "Een jaar na 7 oktober, Bart Wallet over Israël en kantelpunt"
+      "reason": "Analyse een jaar na de aanval op Israël, met gedeeld thema Islam en jodendom."
     },
     {
-      "n": 220,
-      "reason": "Polarisatie rond Israël-Gaza in Nederland, antisemitisme en islam/jodendom"
+      "n": 161,
+      "reason": "Behandelt direct de aanval op Israël door Hamas, met geopolitieke en religieuze duiding."
+    },
+    {
+      "n": 215,
+      "reason": "Gaat over het conflict met de Palestijnen, dat de polarisatie rond Gaza raakt."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

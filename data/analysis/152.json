@@ -1,18 +1,23 @@
 {
   "episode": 152,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 130577,
+    "segments": 1406,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32381,
-    "output_tokens": 2446,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69118,
+    "output_tokens": 3280,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
-    "Kerk & secularisatie",
     "God & geloof",
-    "Samenleving & migratie"
+    "Kerk & secularisatie",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Klaas Dijkhoff",
@@ -20,114 +25,142 @@
   ],
   "people": [
     {
-      "name": "Geert Wilders",
-      "note": "PVV-leider die permanent beveiligd moet worden",
-      "start_seconds": 762,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "name": "Mark Rutte",
+      "note": "Voormalig premier, besproken als 'tijdperk Rutte' en als manager van coalities",
+      "start_seconds": 2270,
+      "mention_count": 9
     },
     {
       "name": "Lodewijk Asscher",
-      "note": "Oud-PvdA-politicus, genoemd als mogelijke podcastpartner",
+      "note": "PvdA-politicus, genoemd als lijstje-kandidaat voor de podcast en met zijn 'ik ga u teleurstellen'-uitspraak",
       "start_seconds": 300,
-      "wiki_checked": true,
-      "wiki_pageid": 397997,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_Asscher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg/250px-Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Jeroen Dijsselbloem",
-      "note": "Oud-PvdA-politicus, nu burgemeester van Eindhoven",
+      "note": "Oud-minister van Financiën, later burgemeester van Eindhoven; genoemd op het gastenlijstje",
       "start_seconds": 300,
-      "wiki_checked": true,
-      "wiki_pageid": 316447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeroen_Dijsselbloem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Burgemeester_Jeroen_Dijsselbloem_%282026%29.jpg/250px-Burgemeester_Jeroen_Dijsselbloem_%282026%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Hugo de Jonge",
-      "note": "Politicus die in de coronatijd werd bedreigd",
-      "start_seconds": 967,
-      "wiki_checked": true,
-      "wiki_pageid": 2288921,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_de_Jonge",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hugo_de_Jonge%2C_February_2023.jpg/250px-Hugo_de_Jonge%2C_February_2023.jpg"
+      "note": "Voormalig minister van VWS, geïnterviewd door Boogerd en bedreigd tijdens corona",
+      "start_seconds": 980,
+      "mention_count": 2
     },
     {
-      "name": "Ulysse Ellian",
-      "note": "VVD-Kamerlid dat wordt beveiligd na bedreigingen",
-      "start_seconds": 726,
-      "wiki_checked": true,
-      "wiki_pageid": 5472562,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ulysse_Ellian",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ulysse_Ellian.png/250px-Ulysse_Ellian.png"
+      "name": "Geert Wilders",
+      "note": "PVV-leider, besproken als politicus die met bedreigingen moet leven",
+      "start_seconds": 720,
+      "mention_count": 2
     },
     {
-      "name": "Willem Eijk",
-      "note": "Kardinaal die liberalen de schuld gaf van de ontkerkelijking",
-      "start_seconds": 1037,
-      "wiki_checked": true,
-      "wiki_pageid": 238714,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wim_Eijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Willem_Jacobus_Eijk_%282017%29.jpg/250px-Willem_Jacobus_Eijk_%282017%29.jpg"
+      "name": "Julissa Ellian",
+      "note": "PVV-woordvoerder justitie, beveiligd na bedreigingen",
+      "start_seconds": 725,
+      "mention_count": 2
     },
     {
-      "name": "Peter Brown",
-      "note": "Historicus over de kerstening van Europa",
-      "start_seconds": 1563,
-      "wiki_checked": true,
-      "wiki_pageid": 1624064,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Brown_%28historicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Peter_Brown_Balzan_Prize_Ceremony_2011.JPG/250px-Peter_Brown_Balzan_Prize_Ceremony_2011.JPG"
-    },
-    {
-      "name": "Rishi Sunak",
-      "note": "Hindoeïstische Britse premier die in de kerk een Bijbeltekst voorlas",
-      "start_seconds": 2065,
-      "wiki_checked": true,
-      "wiki_pageid": 5322433,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rishi_Sunak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg/250px-Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg"
+      "name": "Eik",
+      "note": "Kardinaal, kritiseerde liberalen in een interview; Segers schreef een reactie",
+      "start_seconds": 1080,
+      "mention_count": 3
     },
     {
       "name": "Frans Timmermans",
-      "note": "Hield een toespraak na de ramp met MH17",
-      "start_seconds": 2013,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "note": "GroenLinks-PvdA politicus, genoemd in verband met MH17-toespraak en groen sociaal evangelie",
+      "start_seconds": 1990,
+      "mention_count": 3
     },
     {
-      "name": "Mark Rutte",
-      "note": "Premier die na MH17 de woorden vond",
-      "start_seconds": 2013,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "name": "Bas Heijne",
+      "note": "Schrijver/columnist, bedenker van het beeld van de naaktslak",
+      "start_seconds": 3420,
+      "mention_count": 3
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historica, gesprekspartner van Boogerd over het tijdperk Rutte",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus, door Segers en Stefan Paas gezien als 'verlosser' die het beloofde land beloofde",
+      "start_seconds": 3010,
+      "mention_count": 2
+    },
+    {
+      "name": "Wim Kok",
+      "note": "Voormalig PvdA-premier, herinnerd bij Fortuyn-tijd",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Forum voor Democratie-leider, 'messiaanse' aspiraties",
+      "start_seconds": 3000,
+      "mention_count": 2
+    },
+    {
+      "name": "Jesse Klaver",
+      "note": "GroenLinks-leider, genoemd als voorbeeld van messiaanse politieke uitstraling",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Rishi Sunak",
+      "note": "Britse premier, las bijbelgedeelte voor in dienst",
+      "start_seconds": 2050,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Brown",
+      "note": "Historicus, beschreef de kerstening van Europa als familiekerk die ambtelijk werd",
+      "start_seconds": 1570,
+      "mention_count": 1
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Politiek filosoof, geciteerd over gezin en democratie",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaans president, genoemd bij de vraag over Paas' toekomst",
+      "start_seconds": 4620,
+      "mention_count": 1
+    },
+    {
+      "name": "Art van der Steur",
+      "note": "Oud-minister, onderzoek naar misbruik in de kerk",
+      "start_seconds": 1170,
+      "mention_count": 1
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof, niet expliciet genoemd; communisme als voorbeeld besproken",
+      "start_seconds": 3540,
+      "mention_count": 1
     },
     {
       "name": "Peerke Donders",
-      "note": "Brabantse katholieke figuur, verbonden aan de familierituelen van Segers' oma",
-      "start_seconds": 1402,
-      "wiki_checked": true,
-      "wiki_pageid": 66453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peerke_Donders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Peerke_Donders.jpg/250px-Peerke_Donders.jpg"
+      "note": "Priester uit Tilburg, rituelen met oma",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Paulus II",
+      "note": "Paus, genoemd bij geloofsbelijdenis",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Rinoj Kan",
+      "note": "D66-politicus, genoemd als verwondering over electorale tegenvaller",
+      "start_seconds": 2950,
+      "mention_count": 1
     }
   ],
   "books": [],
@@ -136,128 +169,133 @@
     "Binnenhof",
     "Brabant",
     "Tilburg",
-    "Rome",
     "Volendam",
     "Eindhoven",
     "Lelystad",
-    "Engeland"
+    "Zuid-Amerika",
+    "Duitsland",
+    "Engeland",
+    "Rome",
+    "Europa"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met oud-politici Klaas Dijkhoff (VVD) en Gert-Jan Segers (ChristenUnie) over het leven na de politiek, de dreiging en haat waarmee politici te maken krijgen, en hun podcast. Een groot deel gaat over Dijkhoffs uitschrijving uit de katholieke kerk, het verlies van rituelen en gemeenschap, en de rol van instituties zoals de kerk.",
+  "summary_tldr": "Klaas Dijkhoff (VVD) en Gert-Jan Segers (ChristenUnie) bespreken hun overgang van politiek naar podcast, hun kerkelijke achtergrond en het liberalisme als oorzaak van ontheemding. Het gesprek verbindt persoonlijke geloofservaringen met de lokroep van politieke verlossers in een versplinterd politiek landschap.",
   "summary_points": [
-    "Dijkhoff en Segers maken samen de podcast 'Dijkhoff en Segers' om fatsoenlijk te discussiëren ondanks meningsverschillen.",
-    "Ze zijn voorzichtig om hun opvolgers in de fractie niet voor de voeten te lopen.",
-    "Bedreigingen, trollen en beveiliging maken de politiek zwaar voor politici en hun gezinnen.",
-    "Segers stopte mede omdat hij sneller boos werd en minder lachte.",
-    "Dijkhoff schreef zich in 2018 uit de katholieke kerk na kritiek van kardinaal Eijk op liberalen als 'hyperindividualisten'.",
-    "Hij had moeite met de strengere koers van de kerk en met misbruikverhalen, maar bleef gehecht aan rituelen en familieherinneringen.",
-    "Segers houdt van de kerk als gemeenschap en ritme, maar vindt dat mensen in de kerk teleurstellen, niet God.",
-    "Paas benoemt de spanning tussen warme gemeenschap en geprofessionaliseerde instituties die kunnen vervreemden.",
-    "Bij nationale rampen als MH17 en Volendam mist men een gemeenschappelijke rituele taal."
+    "Dijkhoff en Segers reflecteren op hun podcast en het verschil tussen denkwerk en praktisch politiek bedrijven",
+    "Bedreigingen en de keerzijde van politieke macht, zoals beveiliging en online intimidatie",
+    "Segers' uitschrijving uit de katholieke kerk en de kritiek op een te strenge, gesloten kerk",
+    "Kerkverlies als verlies van gemeenschap; institutionalisering en vervreemding volgens Paas",
+    "Politieke verlossers als religieuze lokroep: Fortuyn, Baudet, Klaver",
+    "Het 'tijdperk Rutte' als managementpolitiek met weinig langetermijnvisie",
+    "Het liberalisme en de vraag of individualisering ontheemding veroorzaakt",
+    "Meritocratie en de schaduwkant van het idee dat succes een keuze is",
+    "Verschil tussen politiek liberalisme en liberalisme als mensbeeld"
   ],
   "chapters": [
     {
-      "start_seconds": 32,
+      "start_seconds": 0,
       "title": "Introductie en podcastmakers",
-      "summary": "David introduceert de gasten en de aflevering; ze praten over het Binnenhof en hun nieuwe rol als podcastmakers."
+      "summary": "Het gesprek opent met de overgang van politiek naar podcast en het samenwerken met tegenstanders."
     },
     {
-      "start_seconds": 238,
-      "title": "Samenwerken ondanks verschil",
-      "summary": "Over het ontstaan van hun podcast, het kinderpardon en Lelystad, en de kunst van democratisch discussiëren."
+      "start_seconds": 480,
+      "title": "Bedreigingen en het politieke leven",
+      "summary": "Segers en Dijkhoff vertellen over intimidatie, beveiliging en de impact op hun gezin en gezondheid."
     },
     {
-      "start_seconds": 523,
-      "title": "Terugtreden en blijven meepraten",
-      "summary": "Over het niet voor de voeten lopen van de fracties en het recht van spreken als oud-politicus."
+      "start_seconds": 1020,
+      "title": "Segers' uitschrijving uit de kerk",
+      "summary": "Segers legt uit waarom hij uit de katholieke kerk stapte en hoe zijn oma en de kardinaal reageerden."
     },
     {
-      "start_seconds": 646,
-      "title": "Bedreigingen en de prijs van politiek",
-      "summary": "Over beveiliging, haat online, bedreigingen thuis en waarom Dijkhoff besloot te stoppen."
+      "start_seconds": 1680,
+      "title": "Kerk, gemeenschap en vervreemding",
+      "summary": "Dijkhoff en Paas bespreken de kerk als warme gemeenschap, de keerzijde van instituties en persoonlijk verlies."
     },
     {
-      "start_seconds": 1049,
-      "title": "Uitschrijving uit de katholieke kerk",
-      "summary": "Dijkhoff vertelt over zijn open brief aan kardinaal Eijk, de strengere kerk en het gesprek daarna."
+      "start_seconds": 2270,
+      "title": "Het tijdperk Rutte en politieke verlossers",
+      "summary": "De discussie gaat over managementpolitiek, ideologie en de messiaanse verlangens die politici oproepen."
     },
     {
-      "start_seconds": 1523,
-      "title": "Religie, instituties en vervreemding",
-      "summary": "Over religie als rituele warmte versus machtsstructuren, en het gevoel van vervreemding bij instituten."
+      "start_seconds": 3420,
+      "title": "Liberalisme en individualisering",
+      "summary": "Het naaktslak-beeld van Bas Heijne leidt tot debat over liberalisme, meritocratie en het mensbeeld."
     },
     {
-      "start_seconds": 1818,
-      "title": "Verlies van gemeenschap en rituelen",
-      "summary": "Persoonlijke verhalen over geloof en de kerk, en het gemis van een gemeenschappelijke taal bij rampen en in het publieke leven."
+      "start_seconds": 4620,
+      "title": "Vooruitblik en afsluiting",
+      "summary": "De gasten denken na over hun toekomst; het gesprek sluit af met een luchtige noot."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1202,
+      "start_seconds": 2270,
+      "speaker": "Klaas Dijkhoff",
+      "text": "Dan krijg je messiaans verlangen. Die gaat er niet komen. En als iemand belooft dat wel te doen, dan zou ik zeggen, geloof hem niet.",
+      "note": "Scherpe waarschuwing tegen politieke verlossers, gekoppeld aan religieuze verlangens."
+    },
+    {
+      "start_seconds": 3420,
+      "speaker": "Klaas Dijkhoff",
+      "text": "Dan sta je dus als individu vrij naakt in die samenleving.",
+      "note": "Beeld van de ontheemde burger die door individualisering weerloos is geworden."
+    },
+    {
+      "start_seconds": 1980,
       "speaker": "Gert-Jan Segers",
-      "text": "Kardinaal Eijk noemde hem een 'kleinzielige hyperindividualist'.",
-      "note": "De aanleiding voor Dijkhoffs publieke uitschrijving."
+      "text": "Ik ben Lodewijk Asscher en ik ga u teleurstellen.",
+      "note": "Ironische aanhaling die illustreert hoe politiek ook een kunst van het teleurstellen is."
     },
     {
-      "start_seconds": 1824,
+      "start_seconds": 1020,
+      "speaker": "Gert-Jan Segers",
+      "text": "Ik heb nooit de Bijbel letterlijk kunnen nemen.",
+      "note": "Openhartige geloofsbelijdenis die zijn distantie tot de kerk verklaart."
+    },
+    {
+      "start_seconds": 2100,
       "speaker": "Klaas Dijkhoff",
-      "text": "De kerk heeft mij overeind gehouden in tien jaar hectiek van de politiek.",
-      "note": "Persoonlijke band met de kerk ondanks zijn uitschrijving."
-    },
-    {
-      "start_seconds": 1845,
-      "speaker": "Klaas Dijkhoff",
-      "text": "Zijn vader overleed mede dankzij de kerk, maar hij koos ervoor geen bitterheid te ontwikkelen.",
-      "note": "Emotioneel persoonlijk verhaal."
-    },
-    {
-      "start_seconds": 964,
-      "speaker": "Klaas Dijkhoff",
-      "text": "Zijn vrouw zei dat hij sneller kwaad werd en minder lachte, dus was het tijd om te stoppen.",
-      "note": "Eerlijk inkijkje in de reden van zijn vertrek."
-    },
-    {
-      "start_seconds": 1967,
-      "speaker": "Stefan Paas",
-      "text": "De ongecontroleerde zoektocht naar het hogere kan ook hilarisch uitpakken.",
-      "note": "Humoristische kanttekening bij moderne spiritualiteit."
+      "text": "Ik hou heel erg van de kerk.",
+      "note": "Verrassend warme erkenning van de kerk, ondanks alle kritiek."
     }
   ],
   "keywords": [
-    "Dijkhoff en Segers",
-    "VVD",
-    "ChristenUnie",
     "liberalisme",
-    "katholieke kerk",
-    "kardinaal Eijk",
-    "individualisme",
-    "bedreigingen",
-    "rituelen",
-    "Brabants katholicisme",
+    "individualisering",
+    "politieke verlossers",
+    "katholicisme",
     "secularisatie",
-    "instituties"
+    "meritocratie",
+    "gemeenschap",
+    "messiaans verlangen",
+    "Mark Rutte",
+    "coalitievorming",
+    "zingeving",
+    "kerkverlating"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 156,
-      "reason": "Politiek en christendemocratie met Henri Bontenbal, raakt aan Segers' wereld en kerk in de politiek"
-    },
-    {
-      "n": 222,
-      "reason": "Oud-Kamerlid Kees van der Staaij over polarisatie, populisme en bedreiging in de politiek"
-    },
-    {
       "n": 15,
-      "reason": "Gert-Jan Segers zelf te gast over samenleving, geloof en politiek"
+      "reason": "Zelfde gast Gert-Jan Segers over een verweesde samenleving en politiek verlangen naar vaderschap"
     },
     {
-      "n": 45,
-      "reason": "Politiek die steeds ongeloviger wordt; rol van christelijke partijen en kerk"
+      "n": 156,
+      "reason": "Christelijke politiek en CDA-denken, sterk verwant aan het kerk-politiek-gesprek"
+    },
+    {
+      "n": 149,
+      "reason": "Politieke tijdperken en wereldbeeld achter het tijdperk-Rutte, met Bas Heijne over liberalisme"
     },
     {
       "n": 179,
-      "reason": "Oud-politicus Lousewies van der Laan over politiek, kerk en secularisatie"
+      "reason": "Politiek, kerk en secularisatie met een voormalig politicus over christelijke politiek"
+    },
+    {
+      "n": 252,
+      "reason": "Politiek en ziel van de politiek, met Wilders en de val van het kabinet"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

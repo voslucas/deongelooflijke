@@ -1,163 +1,210 @@
 {
   "episode": 78,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101648,
+    "segments": 1059,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31092,
-    "output_tokens": 1903,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 52058,
+    "output_tokens": 6173,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
+    "Bijbel & Jezus",
     "Kerk & secularisatie",
-    "Zingeving & psyche",
-    "Bijbel & Jezus"
+    "Zingeving & psyche"
   ],
   "guests": [
     "Anonieme exorcist"
   ],
   "people": [
     {
+      "name": "Jezus",
+      "note": "In de evangeliën drijft Jezus boze geesten uit; volgens de exorcist het voorbeeld voor exorcisme.",
+      "start_seconds": 960,
+      "mention_count": 4
+    },
+    {
       "name": "Catharina van Siena",
-      "note": "heilige die volgens de exorcist tijdens het gebed zweefde",
-      "start_seconds": 554,
-      "wiki_checked": true,
-      "wiki_pageid": 104584,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Catharina_van_Siena",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Santa_Catalina_de_Siena%2C_Pedro_de_Villegas_Marmolejo.jpg/250px-Santa_Catalina_de_Siena%2C_Pedro_de_Villegas_Marmolejo.jpg",
+      "note": "Heilige die volgens de exorcist tijdens het gebed zweefde.",
+      "start_seconds": 544,
       "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "dreef volgens de evangeliën als eerste boze geesten uit",
-      "start_seconds": 976,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG",
+      "name": "Anneliese Michel",
+      "note": "Duits meisje (1976) dat na tientallen exorcismen overleed.",
+      "start_seconds": 2675,
       "mention_count": 2
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Schrijver die zei dat de duivel twee fouten veroorzaakt: te veel of helemaal geen aandacht.",
+      "start_seconds": 3076,
+      "mention_count": 1
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "note": "Filosoof van het atheïsme; 'alles is projectie'.",
+      "start_seconds": 3339,
+      "mention_count": 3
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof van het atheïsme; religie als kreet van de onderdrukten.",
+      "start_seconds": 3339,
+      "mention_count": 4
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psycholoog; religie verklaard uit onderbewuste emoties.",
+      "start_seconds": 3339,
+      "mention_count": 3
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "DSM-5",
+      "author": "American Psychiatric Association",
+      "note": "Psychiatrisch handboek met beschrijving van symptoomclusters; besproken als contrast met exorcistische diagnose.",
+      "start_seconds": 1849,
+      "volume_id": "u7gs0QEACAAJ",
+      "canonical_title": "Diagnostic and Statistical Manual of Mental Disorders: DSM-5",
+      "canonical_author": "American Psychiatric Association",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Rome",
-    "Vaticaan",
+    "Nederland",
+    "Duitsland",
     "Italië",
-    "Nederland"
+    "Suriname",
+    "Mozambique"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met een anonieme, officieel opgeleide exorcist uit de Rooms-Katholieke Kerk. Hij legt uit hoe hij te werk gaat, hoe hij onderscheid maakt tussen psychische problemen en bezetenheid, en waarom hij gelooft dat het kwaad werkelijk bestaat. Hij benadrukt dat de aanpak pastoraal is en dat bevrijding van God komt, niet van de priester.",
+  "summary_tldr": "Een anonieme, officiële exorcist van de Rooms-Katholieke Kerk in Nederland vertelt hoe exorcisme in zijn werk gaat: van pastorale gesprekken en onderscheid tussen psychische en geestelijke oorzaken tot gebed, weiwater en handoplegging. Het gesprek gaat ook over het verschil tussen films en de praktijk, de risico's van het werk, en de vraag hoe het kwaad zich verhoudt tot secularisatie en rationele verklaringen.",
   "summary_points": [
-    "De exorcist blijft anoniem om te voorkomen dat hij overspoeld wordt met hulpvragen.",
-    "Er zijn ongeveer 8 of 9 katholieke exorcisten in Nederland; het is een taak naast het gewone priesterschap.",
-    "Hij wordt door de bisschop gevraagd en kreeg training in Rome, onder meer over satanisme.",
-    "Hij gaat er in principe van uit dat iemand niet bezeten is en zoekt eerst een natuurlijke verklaring.",
-    "Hij luistert eerst pastoraal en oordeelt niet; vaak helpen zegen, handoplegging, gebed of biecht al.",
-    "De verschijnselen in films als The Exorcist komen volgens hem overeen met de oude rituelen, maar zijn uitvergroot.",
-    "Hij begint met gewijd water en let op reacties zoals ineenkrimpen; hij onderscheidt echte verschijnselen van nabootsing.",
-    "Hij benadrukt dat God bevrijding schenkt en dat hij geen witte magiër is; soms komt er geen bevrijding.",
-    "Stefan Paas stelt kritische vragen over psychiatrische diagnoses en het risico dat lijden erger wordt."
+    "Exorcisme bestaat nog steeds binnen de katholieke kerk; in Nederland zijn ongeveer 8 à 9 officiële exorcisten, aangesteld door de bisschop.",
+    "De exorcist is anoniem omdat veel mensen hem zouden benaderen in plaats van via de gebruikelijke weg (parochiepriester, pastoraat).",
+    "Het begint met pastorale zorg en luisteren; de exorcist gaat ervan uit dat er een natuurlijke oorzaak is, totdat het tegendeel blijkt.",
+    "Bevrijding richt zich op God, niet op de priester; de exorcist ziet zichzelf niet als 'witte tovenaar'.",
+    "Methoden zijn onder meer gewijd water, handoplegging, gebed, vasten, biecht en vergeving; sommige fenomenen verdwijnen na gebed.",
+    "Films als The Exorcist worden grotendeels herkend, maar het spektakel is uitvergroot; in de praktijk is het vooral een zoektocht naar hulp.",
+    "Stefan Paas wijst op het belang van medische en psychiatrische zorg en op het risico dat psychisch lijden verergert door bezetenheidsideeën.",
+    "Het gesprek gaat over het kwaad in de wereld en de vraag of dat ook zonder religie verklaarbaar is.",
+    "Secularisatie en 'leegte' in de westerse samenleving zouden volgens de exorcist de vraag naar bevrijding doen toenemen.",
+    "Een voorbeeld uit Duitsland (Afrikaanse predikanten die 'Marx, Feuerbach en Freud' uitdrijven) illustreert hoe wereldbeelden elkaar kunnen raken.",
+    "Het gesprek eindigt met de boodschap dat het goede onverwoestbaar is, en dat men bij hulp niet hoeft te betalen."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Introductie en anonimiteit",
-      "summary": "David introduceert de exorcist en die legt uit waarom hij anoniem blijft en hoeveel exorcisten er in Nederland zijn."
+      "start_seconds": 0,
+      "title": "Introductie: exorcisme in de 21e eeuw",
+      "summary": "De presentator stelt het onderwerp voor: exorcisten bestaan echt, en de gast blijft anoniem. Eerste beeld van weiwater en het ineenkrimpen van de bezetene."
+    },
+    {
+      "start_seconds": 125,
+      "title": "Waarom anoniem en wat is een exorcist",
+      "summary": "De exorcist legt uit waarom hij anoniem blijft en wat het ambt inhoudt: een priester die in opdracht van de bisschop werkt."
     },
     {
       "start_seconds": 236,
-      "title": "Wat is een exorcist en de rol van Hollywood",
-      "summary": "Uitleg over het ambt, de reactie van Stefan Paas en de vraag hoeveel de films met de werkelijkheid te maken hebben."
+      "title": "Opleiding en selectie",
+      "summary": "Hoe word je exorcist: via de bisschop, met een cursus in Rome, en met aandacht voor wie zich goed kan onderscheiden."
     },
     {
-      "start_seconds": 574,
-      "title": "Opleiding en pastorale bewogenheid",
-      "summary": "Hoe iemand exorcist wordt, de training in Rome, het risico voor de priester en de rol van een biddende gemeenschap."
+      "start_seconds": 428,
+      "title": "Films en het beeld van exorcisme",
+      "summary": "Stefan Paas en David Boogerd bespreken de films; de exorcist zegt dat de fenomenen uit films niet ver van de praktijk liggen, maar wel uitvergroot zijn."
     },
     {
-      "start_seconds": 955,
-      "title": "Psychiatrie of bezetenheid?",
-      "summary": "Hoe wordt het onderscheid gemaakt, hoe gaat de screening en wat is de zorg over mensen die al psychisch lijden."
+      "start_seconds": 993,
+      "title": "Screening: psyche of bezetenheid",
+      "summary": "De exorcist beschrijft hoe hij onderscheid maakt tussen natuurlijke oorzaken en bezetenheid, en hoe hij verwijst naar psychiaters."
     },
     {
-      "start_seconds": 1647,
-      "title": "Spookhuizen en geestelijke krachten",
-      "summary": "Voorbeelden van vreemde verschijnselen in een huis, seances en de overtuiging dat het kwaad werkelijk bestaat."
+      "start_seconds": 2007,
+      "title": "Het ritueel: weiwater, gebed en handoplegging",
+      "summary": "Stap voor stap: gewijd water, gebed, vasten en eucharistie; de exorcist benadrukt dat God bevrijdt, niet de priester."
     },
     {
-      "start_seconds": 1990,
-      "title": "Het ritueel in de praktijk",
-      "summary": "Gewijd water, reacties op religieuze symbolen, het onderscheiden van nabootsing en de rol van gebed, biecht en vergeving."
+      "start_seconds": 2630,
+      "title": "Gevaren, geld en medisch toezicht",
+      "summary": "Het gesprek gaat over de risico's voor priesters en bezetenen, het voorbeeld van Anneliese Michel, en het gratis aanbieden van de hulp."
+    },
+    {
+      "start_seconds": 3213,
+      "title": "Kwaad, secularisatie en wereldbeelden",
+      "summary": "Discussie over het kwaad in de wereld, secularisatie, en een Duits voorbeeld van wereldbeelden die op elkaar botsen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 518,
+      "start_seconds": 2028,
       "speaker": "Anonieme exorcist",
-      "text": "De fenomenen uit films als The Exorcist staan er keurig op een rij; zo gek is het niet.",
-      "note": "Verrassend dat een officiële exorcist Hollywood niet als fictie afdoet."
+      "text": "Gewijd water: de persoon krimpt ineen van de pijn, alsof het brandt.",
+      "note": "Een fysieke reactie op een religieus symbool die voor de exorcist een teken is dat er iets niet klopt."
     },
     {
-      "start_seconds": 976,
+      "start_seconds": 1815,
       "speaker": "Anonieme exorcist",
-      "text": "Als je ziet wat Jezus doet, dan is het eerste wat hij doet de boze geesten uitdrijven, maar daar lezen wij allemaal overheen.",
-      "note": "Verbindt exorcisme met de kern van de evangeliën."
+      "text": "90% hebben we aan onszelf te danken.",
+      "note": "Opvallende relativering: de exorcist stelt dat de meeste problemen door mensen zelf worden veroorzaakt."
     },
     {
-      "start_seconds": 1060,
-      "speaker": "Anonieme exorcist",
-      "text": "Ik ga er in principe van uit dat iemand niet bezeten is totdat ik het tegendeel vind.",
-      "note": "Laat een nuchtere, sceptische basishouding zien."
+      "start_seconds": 3429,
+      "speaker": "David Boogerd",
+      "text": "Een beetje exorcisme kan Duitsland wel gebruiken.",
+      "note": "Het antwoord van de Duitse hoogleraar filosofie op de exorcistische ritus tegen Marx, Feuerbach en Freud is scherp en ironisch."
     },
     {
-      "start_seconds": 1544,
+      "start_seconds": 3715,
       "speaker": "Anonieme exorcist",
-      "text": "Ik ben geen witte tovenaar; onze kracht ligt in de aanwezigheid van God.",
-      "note": "Benadrukt het verschil tussen exorcisme en magie."
-    },
-    {
-      "start_seconds": 1823,
-      "speaker": "Anonieme exorcist",
-      "text": "Negentig procent hebben we aan onszelf te danken, door niet te vergeven en geen goed leven te leiden.",
-      "note": "Relativeert de rol van boze machten sterk."
+      "text": "Het goede wat in het hart van de mens ligt, is onverwoesbaar.",
+      "note": "Een hoopvolle slotgedachte: het kwaad is er, maar het is niet allesbeheersend."
     }
   ],
   "keywords": [
     "exorcisme",
     "bezetenheid",
-    "Rooms-Katholieke Kerk",
+    "weiwater",
+    "handoplegging",
     "bevrijding",
-    "gebed",
+    "bisdom",
     "psychiatrie",
-    "pastoraat",
-    "The Exorcist",
-    "gewijd water",
-    "biecht"
+    "kwaad",
+    "secularisatie",
+    "Vaticaan"
   ],
-  "quotes": [],
+  "quotes": [
+    "Dat is niet alleen iets uit enge Hollywoodfilms, ze bestaan echt!",
+    "Weten we niet beter inmiddels?"
+  ],
   "similar": [
     {
       "n": 165,
-      "reason": "Over de hel en het kwaad; Arnold Huijgen over een terugkerend, ongemakkelijk geloofsthema."
+      "reason": "Gaat over de hel en het kwaad, nauw verwant aan exorcisme en het demonische."
     },
     {
-      "n": 140,
-      "reason": "Wonderbaarlijke genezingen: arts onderzoekt bovennatuurlijke fenomenen en geloof, grens met psychische/medische verklaringen."
+      "n": 111,
+      "reason": "Psychiatrie in verhouding tot geloof en secularisatie, zoals het onderscheid psychisch versus geestelijk."
     },
     {
-      "n": 14,
-      "reason": "Veiligheid en het kwaad: bestaat het kwaad werkelijk, met Bijbelse en psychische invalshoek."
+      "n": 119,
+      "reason": "Behandelt C.S. Lewis en het mythische en bovennatuurlijke, deels gedeelde figuur."
     },
     {
-      "n": 311,
-      "reason": "Predikant over depressie en de stem van God: grens tussen psyche en geloof."
-    },
-    {
-      "n": 262,
-      "reason": "Bijna-doodervaring en bovennatuurlijke ervaringen, de grens tussen wetenschap en geloof."
+      "n": 33,
+      "reason": "Verbindt psychiatrie met geloof en zingeving in een seculiere context."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

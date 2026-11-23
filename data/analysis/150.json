@@ -1,18 +1,23 @@
 {
   "episode": 150,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 111162,
+    "segments": 1368,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32070,
-    "output_tokens": 2541,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58798,
+    "output_tokens": 6926,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
     "God & geloof",
-    "Islam & jodendom",
-    "Samenleving & migratie"
+    "Kerk & secularisatie",
+    "Islam & jodendom"
   ],
   "guests": [
     "Rosanne Hertzberger"
@@ -20,72 +25,119 @@
   "people": [
     {
       "name": "Rosanne Hertzberger",
-      "note": "microbioloog, schrijver en NRC-columnist; gast in deze aflevering",
-      "start_seconds": 36,
-      "wiki_checked": true,
-      "wiki_pageid": 4803591,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rosanne_Hertzberger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Rosanne_Hertzberger.jpg/250px-Rosanne_Hertzberger.jpg"
+      "note": "gast; microbioloog, schrijver en NRC-columnist",
+      "start_seconds": 3,
+      "mention_count": 3
     },
     {
-      "name": "Maarten Keulemans",
-      "note": "wetenschapsjournalist bij de Volkskrant, schreef over schermtijd en kinderogen",
-      "start_seconds": 549,
-      "wiki_checked": true,
-      "wiki_pageid": 5640241,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Keulemans"
-    },
-    {
-      "name": "Robbert Dijkgraaf",
-      "note": "minister van Onderwijs, wil smartphones uit de klas weren",
-      "start_seconds": 581,
-      "wiki_checked": true,
-      "wiki_pageid": 176287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robbert_Dijkgraaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/220107Robbert_Dijkgraaf32.jpg/250px-220107Robbert_Dijkgraaf32.jpg"
-    },
-    {
-      "name": "Jacobine Geel",
-      "note": "presentator van een programma waar gasten over geloof praten",
-      "start_seconds": 683,
-      "wiki_checked": true,
-      "wiki_pageid": 295642,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacobine_Geel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Jacobine_Geel%2C_voorzitter_GGZ_Nederland%2C_bij_de_bijeenkomst_%22Meer_Zorg_met_minder_regels%22.jpg/250px-Jacobine_Geel%2C_voorzitter_GGZ_Nederland%2C_bij_de_bijeenkomst_%22Meer_Zorg_met_minder_regels%22.jpg"
-    },
-    {
-      "name": "Thijs van der Brink",
-      "note": "presentator van een programma waar gasten over geloof praten",
-      "start_seconds": 683,
-      "wiki_checked": true
+      "name": "Jezus",
+      "note": "centrale figuur in het christelijk geloof; ter sprake bij de geboorte en de historiciteit",
+      "start_seconds": 513,
+      "mention_count": 5
     },
     {
       "name": "Janine Abbring",
-      "note": "presentatrice van Zomergasten (2017), stelde Hertzberger vragen over haar geloofsbeleving",
+      "note": "presentator van Zomergasten; stelde Hertzberger in 2017 de vraag naar haar geloof",
       "start_seconds": 814,
-      "wiki_checked": true,
-      "wiki_pageid": 944851,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Janine_Abbring",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Janine_Abbring_%282017%29.jpg/250px-Janine_Abbring_%282017%29.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Ersin Kuyucu",
-      "note": "auteur van het dankbaarheidsboek, eerder gast in de podcast",
+      "name": "Richard Dawkins",
+      "note": "Britse atheïstische bioloog en publicist",
+      "start_seconds": 3248,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Swaab",
+      "note": "Nederlandse neurobioloog; genoemd als prominente stem tegen religie",
+      "start_seconds": 3252,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Philipse",
+      "note": "Nederlandse filosoof; genoemd als prominente stem tegen religie",
+      "start_seconds": 3256,
+      "mention_count": 1
+    },
+    {
+      "name": "Ronald Plasterk",
+      "note": "Nederlands bioloog en politicus; genoemd als prominente stem in het publieke debat",
+      "start_seconds": 3259,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "filosoof; sprak over de oorsprong van de kosmos",
+      "start_seconds": 2643,
+      "mention_count": 2
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "theoloog; bedacht de term 'god van de gaten'",
+      "start_seconds": 2583,
+      "mention_count": 1
+    },
+    {
+      "name": "Wouter van Noort",
+      "note": "christelijke natuurkundige; eerdere gast van de podcast",
+      "start_seconds": 2518,
+      "mention_count": 1
+    },
+    {
+      "name": "Sees Dekker",
+      "note": "TU Delft-wetenschapper; eerdere gast van de podcast",
+      "start_seconds": 2531,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen van Veen",
+      "note": "echtgenoot van Hertzberger; eerdere gast van de podcast",
+      "start_seconds": 3581,
+      "mention_count": 1
+    },
+    {
+      "name": "Ersel Vout",
+      "note": "eerdere gast van de podcast; schreef over dankbaarheid",
       "start_seconds": 1932,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Robbert Dijkgraaf",
+      "note": "minister van Onderwijs; wil schermen uit de klas weren",
+      "start_seconds": 581,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Keulemans",
+      "note": "wetenschapsjournalist; schreef over schermen en slaap",
+      "start_seconds": 549,
+      "mention_count": 1
+    },
+    {
+      "name": "Jack Dorsey",
+      "note": "oprichter van Twitter; bezocht meditatieretraites in Thailand",
+      "start_seconds": 3502,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacobine Geel",
+      "note": "presentator van programma's over religie",
+      "start_seconds": 691,
+      "mention_count": 1
+    },
+    {
+      "name": "Thijs van der Brink",
+      "note": "presentator van programma's over religie",
+      "start_seconds": 691,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het Grote Niets",
       "author": "Rosanne Hertzberger",
-      "note": "over de evidence-based claims rond mindfulness en mentale gezondheid",
-      "start_seconds": 1680,
+      "note": "kritische analyse van mindfulness en evidence-based spiritualiteit",
+      "start_seconds": 1689,
       "volume_id": "fbaWDwAAQBAJ",
       "canonical_title": "Het grote niets: Waarom we te veel vertrouwen hebben in de wetenschap",
       "canonical_author": "Rosanne Hertzberger",
@@ -97,130 +149,137 @@
   "bible_refs": [],
   "places": [
     "Rotterdam",
-    "Nederland",
-    "Israël",
-    "Amsterdam",
-    "Utrecht",
-    "Nieuw-Zeeland"
+    "Nieuw-Zeeland",
+    "Thailand"
   ],
-  "summary_tldr": "Microbioloog en NRC-columnist Rosanne Hertzberger vertelt waarom ze zo lang aarzelde om over geloof te praten en wat het betekent om joods te zijn in een christelijk gekleurde wereld. Ze waarschuwt tegen overmatig vertrouwen in de wetenschap, die vaak wordt misbruikt als vervanging van ideologie en religie. Samen met Stefan Paas verkennen ze hoe wetenschap, moraal en zingeving samenhangen.",
+  "summary_tldr": "Microbioloog Rosanne Hertzberger betoogt dat wetenschap te veel gezag heeft gekregen en dat ze als wetenschapper ruimte ziet voor spiritualiteit en betekenis. Ze vertelt waarom ze als joods-religieuze vrouw in een christelijk georiënteerd Nederland geen persoonlijke geloofsvragen wil beantwoorden. Stefan Paas reageert vanuit de theologie op de grenzen van wetenschap en op de opkomst van spiritualiteit.",
   "summary_points": [
-    "Hertzberger weigerde jarenlang uitnodigingen omdat geloof in programma's te veel wordt gereduceerd tot iets persoonlijks en intiems.",
-    "Jodendom is volgens haar een 'doe-religie': praxis telt meer dan wat iemand gelooft.",
-    "Ze leeft als jood in een christelijke wereld; vragen als 'geloof je in God?' komen uit een christelijk paradigma.",
-    "Als een van de weinige joden in Nederland wordt ze vaak als object of vertegenwoordiger gezien in debatten over antisemitisme.",
-    "Wetenschap verdient vertrouwen vanwege haar sterkste resultaten, maar dat vertrouwen wordt onterecht geëxtrapoleerd naar alle wetenschap.",
-    "Wetenschappelijke hypes (genetica, chemie, mindfulness) beloven telkens te verklaren wie we zijn en stellen vaak teleur.",
-    "Ideologie wordt in de politiek vervangen door 'evidence based' beleid, zoals bij het universeel basisinkomen, terwijl het eigenlijk om morele vragen gaat.",
-    "Wetenschap wordt gebruikt om een willekeurige levensstijl geloofwaardig te maken; het dankbaarheidsboek is een voorbeeld van wetenschap als religievervanger.",
-    "Wetenschapsjournalistiek is volgens haar te fanmatig en controleert te weinig."
+    "Hertzberger ziet een overschatting van wat wetenschap kan meten en weten, en van het vertrouwen dat het publiek erin stelt.",
+    "Wetenschap wordt volgens haar steeds vaker ingezet als vervanging van ideologie, bijvoorbeeld bij het basisinkomen en bij gezondheidsadviezen.",
+    "Ze bekritiseert de uitspraak dat wetenschap God heeft ontkracht en noemt die zelfverzekerdheid misplaatst.",
+    "Paas stelt dat wetenschap en geloof verschillende domeinen zijn, en waarschuwt voor de 'god van de gaten'.",
+    "Hertzberger vindt dat ze als Joods mens in een christelijk georiënteerde wereld leeft, waarin religie vooral christelijk wordt gedacht.",
+    "Ze weigert persoonlijke geloofsvragen te beantwoorden omdat ze die te intiem vindt, en wijst op het doe-karakter van het jodendom.",
+    "Zij bekritiseert het vaccinatievertrouwen en het gebruik van coronatoegangsbewijzen als oorzaak van dalende vaccinatiegraden.",
+    "Over moderne spiritualiteit en mindfulness is Hertzberger kritisch: ze ziet individualisme en een verarming van rituelen.",
+    "Paas nuanceert het succes van spiritualiteit en verwijst naar SCP-onderzoek dat spiritualiteit grotendeels overlapt met religie."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Wetenschapper in de ongelooflijke podcast",
-      "summary": "Introductie van Rosanne Hertzberger en haar onderzoek naar melkzuurbacteriën, inclusief vaginale microbiomen en menselijke evolutie."
+      "start_seconds": 0,
+      "title": "Wetenschap, bacteriën en de vagina",
+      "summary": "Hertzberger introduceert zichzelf als microbioloog en bespreekt haar onderzoek naar melkzuurbacteriën. Stefan Paas en David Boogerd reageren met humor en speculatie."
     },
     {
-      "start_seconds": 517,
-      "title": "Wetenschap, mythes en moraal",
-      "summary": "Over schermtijd, depressie en hoe wetenschap deels moreel en ideologisch is."
+      "start_seconds": 729,
+      "title": "Waarom geen persoonlijke geloofsvragen",
+      "summary": "Boogerd vraagt naar Hertzbergers terughoudendheid over haar geloof. Zij noemt zulke vragen te intiem en verwijst naar haar Zomergasten-ervaring."
     },
     {
-      "start_seconds": 670,
-      "title": "Waarom vier jaar nee zeggen",
-      "summary": "Hertzberger legt uit waarom ze geloof te intiem vindt om over te praten, met verwijzing naar Zomergasten."
+      "start_seconds": 976,
+      "title": "Joods zijn in een christelijke wereld",
+      "summary": "Hertzberger beschrijft hoe jodendom als doe-religie werkt en hoe antisemitisme en identiteit in Nederland spelen. Paas reageert op de christelijke blik van de vragen."
     },
     {
-      "start_seconds": 970,
-      "title": "Joods in een christelijke wereld",
-      "summary": "Over jodendom als doe-religie, christelijke vooronderstellingen, het kleine aantal joden en antisemitisme."
+      "start_seconds": 1766,
+      "title": "Wetenschap als vervanging van ideologie",
+      "summary": "De gesprekspartners bespreken hoe personalisering, experimenten en evidence-based beleid politieke en morele vragen verdringen. Het basisinkomen en het humaan genoom komen aan bod."
     },
     {
-      "start_seconds": 1200,
-      "title": "Hypes en de grenzen van de wetenschap",
-      "summary": "Over individualisering, gepersonaliseerde voeding, de teleurstelling van het humaan genoom en wetenschap als ambacht."
+      "start_seconds": 2130,
+      "title": "Vertrouwen in wetenschap en vaccinatie",
+      "summary": "Hertzberger legt uit waarom het publiek veel vertrouwen in wetenschap heeft en waarom dat misbruikt kan worden. Ze bespreekt ook de dalende vaccinatiegraad en het coronatoegangsbewijs."
     },
     {
-      "start_seconds": 1540,
-      "title": "Misbruik van wetenschap",
-      "summary": "Sponsoring, mindfulness, het universeel basisinkomen en de vraag hoe wetenschap ideologie vervangt."
+      "start_seconds": 2552,
+      "title": "God van de gaten en de oorsprong van de kosmos",
+      "summary": "Paas bespreekt de 'god van de gaten' en de grenzen van wetenschap. Hertzberger verwijst naar de uniformiteit van het leven en de vraag naar de oorsprong van het universum."
     },
     {
-      "start_seconds": 1930,
-      "title": "Wetenschap als vervanging van religie",
-      "summary": "Het dankbaarheidsboek, vertrouwen in wetenschap en de rol van wetenschapsjournalistiek."
+      "start_seconds": 3438,
+      "title": "Spiritualiteit, mindfulness en de cijfers",
+      "summary": "Hertzberger is kritisch over mindfulness en de evidence-based wending van dankbaarheid en meditatie. Paas en Boogerd bespreken of spiritualiteit daadwerkelijk groeit, aan de hand van SCP-cijfers."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 653,
       "speaker": "Rosanne Hertzberger",
-      "text": "Ik denk dat er ook wel een tijd is geweest dat ik dacht: God is wel echt doodverklaard door de wetenschap. Zonder te weten hoe dogmatisch dat allemaal wel niet was.",
-      "note": "Opent de aflevering en vat haar kritiek op wetenschappelijk zelfvertrouwen samen."
+      "text": "Ik denk dat we overschatten wat we kunnen meten en wat we kunnen weten.",
+      "note": "Een korte samenvatting van haar kernkritiek op het vertrouwen in wetenschap."
     },
     {
-      "start_seconds": 987,
+      "start_seconds": 811,
       "speaker": "Rosanne Hertzberger",
-      "text": "Je leeft in een christelijke wereld, wat een wezenlijk andere manier is van naar geloof kijken.",
-      "note": "Scherpe spiegel voor christelijke en seculiere gesprekspartners."
+      "text": "Ik vind sommige dingen gewoon te intiem eigenlijk.",
+      "note": "Verklaart waarom ze persoonlijke geloofsvragen weigert, ondanks de wens van de presentator."
     },
     {
-      "start_seconds": 1318,
-      "speaker": "Rosanne Hertzberger",
-      "text": "Mevrouw, uw kind is een heel uniform lid van de kudde die Homo sapiens heet. Niets bijzonders.",
-      "note": "Humoristische kritiek op individualisme en gepersonaliseerde geneeskunde."
-    },
-    {
-      "start_seconds": 1832,
+      "start_seconds": 1306,
       "speaker": "Stefan Paas",
-      "text": "Je komt nooit om de moraal heen.",
-      "note": "Kernpunt: experimenten kunnen morele vragen niet beantwoorden."
+      "text": "We zijn allemaal uniek, Rosanne.",
+      "note": "Een speelse maar scherpe tegenwerping die de spanning tussen individualisme en wetenschappelijke generalisatie blootlegt."
     },
     {
-      "start_seconds": 1960,
+      "start_seconds": 2454,
       "speaker": "Rosanne Hertzberger",
-      "text": "Je moet het universum dankbaar zijn.",
-      "note": "Illustreert hoe dankbaarheidswetenschap bijna religieus wordt."
+      "text": "Dat zelfvertrouwen is echt, echt, echt misplaatst.",
+      "note": "Scherpe uitspraak over het idee dat wetenschap God heeft weerlegd."
+    },
+    {
+      "start_seconds": 2583,
+      "speaker": "Stefan Paas",
+      "text": "Dan stoppen we daar God in... dat is een hele gevaarlijke strategie.",
+      "note": "De 'god van de gaten' wordt hier als theologische valkuil gepresenteerd."
+    },
+    {
+      "start_seconds": 3533,
+      "speaker": "Rosanne Hertzberger",
+      "text": "We hebben alles weggehakt tot een puur what's in it for me.",
+      "note": "Kritische kern van haar bezwaar tegen individualistische mindfulness-praktijken."
     }
   ],
   "keywords": [
-    "Rosanne Hertzberger",
     "wetenschap",
-    "jodendom",
-    "microbioloog",
     "secularisatie",
-    "vertrouwen",
-    "evidence based",
-    "mindfulness",
-    "universeel basisinkomen",
-    "antisemitisme",
+    "god van de gaten",
+    "evidence-based",
     "spiritualiteit",
-    "dankbaarheid"
+    "mindfulness",
+    "jodendom",
+    "vertrouwen in wetenschap",
+    "individualisme",
+    "vaccinatie",
+    "basisinkomen",
+    "Het Grote Niets"
   ],
   "quotes": [
-    "Dat er überhaupt in de maatschappij het idee heerst dat we er wel zo'n beetje uit zijn over hoe de structuur van de werkelijkheid in elkaar zit, is gewoon onwaar."
+    "Het was vier jaar wachten waard, vonden we.",
+    "Volgens haar hebben we een verkeerd en te rooskleurig beeld van haar eigen vakgebied.",
+    "Terwijl diezelfde wetenschap haar ook laat zien dat er ruimte is 'om te zweven'"
   ],
   "similar": [
     {
       "n": 316,
-      "reason": "Rosanne Hertzberger is zelf te gast; topwetenschappers over God en wetenschap."
-    },
-    {
-      "n": 129,
-      "reason": "Nieuwe wetenschappelijke ontdekkingen tonen dat er méér is; wetenschap, geloof en zingeving."
-    },
-    {
-      "n": 167,
-      "reason": "De zogenaamde clash tussen wetenschap en geloof, met Floris Cohen."
-    },
-    {
-      "n": 322,
-      "reason": "Topwetenschapper Heino Falcke over God, kosmos en wetenschap."
+      "reason": "Topwetenschappers over God, met Rosanne Hertzberger als gast; zelfde thema's"
     },
     {
       "n": 157,
-      "reason": "Natuurkundige Ard Louis stuit via wetenschap op mysteries en misschien God."
+      "reason": "Oxford-natuurkundige over mysteries van de wetenschap en mogelijk God"
+    },
+    {
+      "n": 195,
+      "reason": "Christelijke wetenschapper Cees Dekker over wetenschap, ontstaan van leven en geloof"
+    },
+    {
+      "n": 189,
+      "reason": "Filosoof Emanuel Rutten over wetenschap en argumenten voor Gods bestaan"
+    },
+    {
+      "n": 233,
+      "reason": "Kwantumfysicus Carlo Beenakker over de verhouding tussen geloof en wetenschap"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

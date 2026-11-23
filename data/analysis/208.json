@@ -1,18 +1,23 @@
 {
   "episode": 208,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 137085,
+    "segments": 1525,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31357,
-    "output_tokens": 2956,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 70756,
+    "output_tokens": 8363,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Bijbel & Jezus",
     "God & geloof",
+    "Politiek",
     "Kunst & cultuur",
-    "Politiek"
+    "Geschiedenis"
   ],
   "guests": [
     "Anton de Wit"
@@ -20,351 +25,413 @@
   "people": [
     {
       "name": "G.K. Chesterton",
-      "note": "Engelse schrijver, columnist en katholiek apologeet (1874-1936)",
+      "note": "Engels schrijver, journalist en apologeet; centrale figuur van de aflevering",
       "start_seconds": 59,
-      "wiki_checked": true,
-      "wiki_pageid": 613082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gilbert_Keith_Chesterton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Gilbert_Keith_Chesterton01.jpg/250px-Gilbert_Keith_Chesterton01.jpg"
-    },
-    {
-      "name": "J.R.R. Tolkien",
-      "note": "Schrijver van The Lord of the Rings, beïnvloed door Chesterton",
-      "start_seconds": 99,
-      "wiki_checked": true,
-      "wiki_pageid": 12634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.R.R._Tolkien",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/250px-J._R._R._Tolkien%2C_ca._1925.jpg"
-    },
-    {
-      "name": "C.S. Lewis",
-      "note": "Schrijver, beïnvloed door Chesterton",
-      "start_seconds": 99,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
-    },
-    {
-      "name": "J.K. Rowling",
-      "note": "Schrijfster van Harry Potter, beïnvloed door Chesterton",
-      "start_seconds": 99,
-      "wiki_checked": true,
-      "wiki_pageid": 29089,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.K._Rowling",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/250px-J._K._Rowling_2010.jpg"
-    },
-    {
-      "name": "William Shakespeare",
-      "note": "Vergelijking qua geciteerdheid",
-      "start_seconds": 99,
-      "wiki_checked": true,
-      "wiki_pageid": 7192,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Shakespeare",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/250px-Shakespeare.jpg"
+      "mention_count": 60
     },
     {
       "name": "George Bernard Shaw",
-      "note": "Vriend en tegenstander van Chesterton, nihilist van Nietzscheaanse soort",
-      "start_seconds": 790,
-      "wiki_checked": true,
-      "wiki_pageid": 6876,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Bernard_Shaw",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/George_bernard_shaw.jpg/250px-George_bernard_shaw.jpg"
+      "note": "Ierse toneelschrijver en debatpartner van Chesterton",
+      "start_seconds": 792,
+      "mention_count": 4
     },
     {
       "name": "Bertrand Russell",
-      "note": "Prominente atheïst en vriend van Chesterton",
-      "start_seconds": 833,
-      "wiki_checked": true,
-      "wiki_pageid": 17936,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bertrand_Russell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bertrand_Russell_photo.jpg/250px-Bertrand_Russell_photo.jpg"
+      "note": "Prominente atheïst en bevriend met Chesterton",
+      "start_seconds": 832,
+      "mention_count": 2
     },
     {
       "name": "Mahatma Gandhi",
-      "note": "Zou door Chesterton beïnvloed zijn",
+      "note": "Indiase leider die Chesterton zou hebben gelezen",
+      "start_seconds": 1656,
+      "mention_count": 3
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "note": "Schrijver van The Lord of the Rings, door Chesterton beïnvloed",
       "start_seconds": 416,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Schrijver, door Chesterton beïnvloed",
+      "start_seconds": 416,
+      "mention_count": 1
+    },
+    {
+      "name": "J.K. Rowling",
+      "note": "Schrijfster van Harry Potter, door Chesterton beïnvloed",
+      "start_seconds": 424,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader en zoeker, vergeleken met Chesterton",
+      "start_seconds": 1545,
+      "mention_count": 3
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse denker over wie Chesterton een biografie schreef",
+      "start_seconds": 3902,
+      "mention_count": 3
+    },
+    {
+      "name": "Madame Blavatsky",
+      "note": "Theosofe en occultist die Chesterton fascineerde",
+      "start_seconds": 1474,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Finkers",
+      "note": "Katholieke cabaretier, gezien als hedendaagse erfgenaam van Chesterton",
+      "start_seconds": 2043,
+      "mention_count": 3
+    },
+    {
+      "name": "Willem Jan Otten",
+      "note": "Schrijver die door Chesterton is beïnvloed",
+      "start_seconds": 1952,
+      "mention_count": 2
+    },
+    {
+      "name": "Karel van het Reve",
+      "note": "Nederlands essayist, vergeleken met Chesterton",
+      "start_seconds": 1940,
+      "mention_count": 1
+    },
+    {
+      "name": "Godfried Bomans",
+      "note": "Nederlands stukjesschrijver, vergeleken met Chesterton",
+      "start_seconds": 1940,
+      "mention_count": 1
+    },
+    {
+      "name": "Lord Acton",
+      "note": "Engels historicus die over conservatisme schreef",
+      "start_seconds": 2430,
+      "mention_count": 1
+    },
+    {
+      "name": "Cecil Chesterton",
+      "note": "Broer van G.K. Chesterton, mede-ontwikkelaar van het distributisme",
+      "start_seconds": 2241,
+      "mention_count": 1
+    },
+    {
+      "name": "Tony Blair",
+      "note": "Britse premier; 'Third Way' als vergelijking met distributisme",
+      "start_seconds": 2241,
+      "mention_count": 1
     },
     {
       "name": "Winston Churchill",
       "note": "Geboren in hetzelfde jaar als Chesterton",
       "start_seconds": 1434,
-      "wiki_checked": true,
-      "wiki_pageid": 13978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winston_Churchill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sir_Winston_Churchill.jpg/250px-Sir_Winston_Churchill.jpg"
-    },
-    {
-      "name": "Helena Blavatsky",
-      "note": "Occultiste uit de late 19e eeuw",
-      "start_seconds": 1488,
-      "wiki_checked": true,
-      "wiki_pageid": 77572,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Helena_Blavatsky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Helena_Petrovna_Blavatsky.jpg/250px-Helena_Petrovna_Blavatsky.jpg"
+      "mention_count": 1
     },
     {
       "name": "Charles Dickens",
-      "note": "Favoriete schrijver van Chesterton",
-      "start_seconds": 1452,
-      "wiki_checked": true,
-      "wiki_pageid": 34853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Dickens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Dickens_by_Rischgitz_c1860s.jpg/250px-Charles_Dickens_by_Rischgitz_c1860s.jpg"
+      "note": "Victoriaans schrijver die Chesterton bewonderde",
+      "start_seconds": 1444,
+      "mention_count": 1
     },
     {
-      "name": "Augustinus",
-      "note": "Kerkvader, vergeleken met Chesterton als zoeker",
-      "start_seconds": 1545,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "name": "Peter Harrison",
+      "note": "Wetenschapshistoricus; auteur van Some New World",
+      "start_seconds": 4178,
+      "mention_count": 2
     },
     {
-      "name": "Godfried Bomans",
-      "note": "Nederlandse stukjesschrijver, vergelijking met Chesterton",
-      "start_seconds": 1940,
-      "wiki_checked": true,
-      "wiki_pageid": 59111,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Godfried_Bomans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Godfried_Bomans_%281965%29.jpg/250px-Godfried_Bomans_%281965%29.jpg"
+      "name": "Tom Holland",
+      "note": "Historicus die de wortels van het atheïsme bij de Reformatie legt",
+      "start_seconds": 4150,
+      "mention_count": 1
     },
     {
-      "name": "Karel van het Reve",
-      "note": "Nederlandse essayist, vergelijking met Chesterton",
-      "start_seconds": 1940,
-      "wiki_checked": true,
-      "wiki_pageid": 918,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_van_het_Reve",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Karel_van_het_Reve_1985.jpg/250px-Karel_van_het_Reve_1985.jpg"
+      "name": "Johannes Calvijn",
+      "note": "Hervormer, bekritiseerd om zijn pessimisme",
+      "start_seconds": 4106,
+      "mention_count": 2
     },
     {
-      "name": "Willem Jan Otten",
-      "note": "Nederlandse schrijver, beïnvloed door Chesterton",
-      "start_seconds": 1960,
-      "wiki_checked": true,
-      "wiki_pageid": 179839,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Jan_Otten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg/250px-Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg"
+      "name": "Thierry Baudet",
+      "note": "Politicus; zijn uitspraak over de andere wang wordt aangehaald",
+      "start_seconds": 3754,
+      "mention_count": 1
     },
     {
-      "name": "Herman Finkers",
-      "note": "Katholiek cabaretier, erfgenaam van Chesterton qua humor en geloof",
-      "start_seconds": 2047,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
+      "name": "Paus Franciscus",
+      "note": "Paus die naar verluid lid was van het Argentijnse Chestertongenootschap",
+      "start_seconds": 4576,
+      "mention_count": 1
     },
     {
-      "name": "Benedictus XVI",
+      "name": "Paus Benedictus XVI",
       "note": "Eerste paus die Engeland bezocht",
-      "start_seconds": 2089,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
+      "start_seconds": 2081,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; Chesterton keerde zich tegen het nazisme",
+      "start_seconds": 4669,
+      "mention_count": 1
+    },
+    {
+      "name": "Roald Dahl",
+      "note": "Kinderboekenschrijver wiens teksten gekuist worden",
+      "start_seconds": 4710,
+      "mention_count": 1
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "note": "Ronald Tolkien; ook betrokken bij het debat over zijn uitspraken",
+      "start_seconds": 4656,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "Controversiële online-figuur, ter vergelijking met bekeerlingen",
+      "start_seconds": 2112,
+      "mention_count": 1
     }
   ],
   "books": [
+    {
+      "title": "Orthodoxie",
+      "author": "G.K. Chesterton",
+      "note": "Bekeringsverhaal van Chesterton, vaak als meesterwerk genoemd",
+      "start_seconds": 996,
+      "volume_id": "KrZFmwEACAAJ",
+      "canonical_title": "Orthodoxie",
+      "canonical_author": "G.K. Chesterton, P. Kerstens",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "The Man Who Was Thursday",
+      "author": "G.K. Chesterton",
+      "note": "Roman over een geheim genootschap van infiltrerende agenten",
+      "start_seconds": 603,
+      "volume_id": "hzsgzgEACAAJ",
+      "canonical_title": "The Man Who Was Thursday",
+      "canonical_author": "G.K. Chesterton",
+      "isbn13": "9798559427096",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=hzsgzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Ketters (Heretics)",
+      "author": "G.K. Chesterton",
+      "note": "Essaybundel waarin Chesterton moderne ketterijen bestrijdt",
+      "start_seconds": 1070,
+      "volume_id": "iwI0tAEACAAJ",
+      "canonical_title": "Heretics",
+      "canonical_author": "G.K. Chesterton",
+      "isbn13": "9781981610495",
+      "isbn10": "1981610499",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Everlasting Man",
+      "author": "G.K. Chesterton",
+      "note": "Werk over de mens en Christus als reactie op rationalistische claims",
+      "start_seconds": 1870,
+      "volume_id": "q-vroAEACAAJ",
+      "canonical_title": "The Everlasting Man",
+      "canonical_author": "G.K. Chesterton",
+      "isbn13": "9781499279931",
+      "isbn10": "1499279930",
+      "thumbnail": ""
+    },
     {
       "title": "De kracht van verwondering",
       "author": "G.K. Chesterton",
       "note": "Bundel essays samengesteld door Anton de Wit",
       "start_seconds": 496,
       "volume_id": "p-XMEAAAQBAJ",
-      "canonical_title": "De kracht van verwondering: De beste essays",
-      "canonical_author": "G. K. Chesterton",
+      "canonical_title": "De kracht van verwondering",
+      "canonical_author": "G.K. Chesterton",
       "isbn13": "9789043540018",
       "isbn10": "9043540013",
       "thumbnail": "http://books.google.com/books/content?id=p-XMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "The Man Who Was Thursday",
-      "author": "G.K. Chesterton",
-      "note": "Roman over anarchisten en geheime agenten",
-      "start_seconds": 603,
-      "volume_id": "IhkCuAEACAAJ",
-      "canonical_title": "The Man Who Was Thursday",
-      "canonical_author": "G. K. Chesterton",
-      "isbn13": "9781720390138",
-      "isbn10": "1720390134",
-      "thumbnail": "http://books.google.com/books/content?id=IhkCuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "title": "Some New World",
+      "author": "Peter Harrison",
+      "note": "Nieuw boek over de wortels van moderne godsdienstkritiek",
+      "start_seconds": 4186,
+      "volume_id": "Qv_5EAAAQBAJ",
+      "canonical_title": "Some New World: Myths of Supernatural Belief in a Secular Age",
+      "canonical_author": "Peter Harrison",
+      "isbn13": "9781009477222",
+      "isbn10": "1009477226",
+      "thumbnail": "http://books.google.com/books/content?id=Qv_5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Orthodoxie",
+      "title": "Father Brown",
       "author": "G.K. Chesterton",
-      "note": "Zijn bekeringsverhaal en afrekening met het cliché van geloof in jezelf",
-      "start_seconds": 996,
-      "volume_id": "FEi8EAAAQBAJ",
-      "canonical_title": "Orthodoxie: Christelijke Klassiekers",
-      "canonical_author": "G. K. Chesterton",
-      "isbn13": "9789043539739",
-      "isbn10": "9043539732",
-      "thumbnail": "http://books.google.com/books/content?id=FEi8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Ketters",
-      "author": "G.K. Chesterton",
-      "note": "Voorganger van Orthodoxie, over moderne ketterijen",
-      "start_seconds": 1070
-    },
-    {
-      "title": "The Everlasting Man",
-      "author": "G.K. Chesterton",
-      "note": "Over 'de mens is maar een dier' en 'Christus is maar een mens'",
-      "start_seconds": 1870,
-      "volume_id": "q-vroAEACAAJ",
-      "canonical_title": "The Everlasting Man",
-      "canonical_author": "G. K. Chesterton",
-      "isbn13": "9781499279931",
-      "isbn10": "1499279930",
+      "note": "Detectiveserie, onlangs door de BBC herhaald",
+      "start_seconds": 1724,
+      "volume_id": "byj1twEACAAJ",
+      "canonical_title": "The Complete Father Brown Mysteries",
+      "canonical_author": "G.K. Chesterton",
+      "isbn13": "9781719443654",
+      "isbn10": "1719443653",
       "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Engeland",
     "Londen",
-    "Kensington Gardens"
+    "Engeland",
+    "België",
+    "Mechelen",
+    "Schotland",
+    "Japan",
+    "Argentinië",
+    "Libië",
+    "Nederland",
+    "Kensington Gardens",
+    "Fleet Street",
+    "India"
   ],
-  "summary_tldr": "David Boogerd, Anton de Wit en Stefan Paas bespreken G.K. Chesterton, die 150 jaar geleden werd geboren. Zijn humor, verwondering en paradoxale kijk op geloof en moderniteit blijven relevant. Ook zijn leven, zijn schrijverschap en de vraag of hij een conservatief boegbeeld is komen aan bod.",
+  "summary_tldr": "Anton de Wit en Stefan Paas bespreken met David Boogerd het leven en werk van G.K. Chesterton, een vergeten maar invloedrijke Engelse schrijver die 150 jaar geleden werd geboren. Centraal staan zijn verwondering, humor, paradoxale christendom en zijn positie als politiek denker tussen conservatisme en distributisme. Het gesprek eindigt met de vraag waarom er tegenwoordig zo weinig humor is in het publieke debat en wat we van Chesterton kunnen leren.",
   "summary_points": [
-    "Chesterton was een vrolijke optimist die verwondering centraal stelde.",
-    "Hij voerde debatten met tegenstanders als Shaw en Russell, maar bleef goedmoedig en bevriend.",
-    "Hij verdedigde een betoverd wereldbeeld tegen rationalisme en naturalisme.",
-    "Complotdenken ziet hij als logische volkomenheid met geestelijke inkrimping.",
-    "Zijn werk Orthodoxie, Ketters en The Everlasting Man blijft invloedrijk.",
-    "Hij was een kleurrijke, verstrooide en kinderlijke man met een enorme productie.",
-    "Zijn bekering tot het katholicisme was wereldnieuws en gold als aanstootgevend.",
-    "Humor en het sacrale liggen bij hem dicht bij elkaar, zoals ook bij Herman Finkers.",
-    "Of Chesterton een conservatief boegbeeld voor het huidige kabinet kan zijn wordt door De Wit ontkend."
+    "Chesterton was een optimist die vond dat de werkelijkheid vol wonderen zit, en die lachte om mislukkingen.",
+    "Zijn essays gaan over alles, van kaas tot politiek, en worden gekenmerkt door verwondering en originaliteit.",
+    "Hij bekeerde zich na een atheïstische periode tot het katholicisme, mede door het lezen van atheïstische critici.",
+    "Chesterton bekritiseerde het rationalisme en complotdenken en riep op de echte, rommelige wereld serieus te nemen.",
+    "Hij stond niet in een politiek hokje: een conservatief van common sense, maar ook de bedenker van het distributisme.",
+    "Volgens het gesprek is humor en het sacrale nauw verwant, en is secularisatie mede een verlies van humor.",
+    "Het paradoxale karakter van het christendom, als zowel rationeel als mysterieus, is een kernthema.",
+    "De heiligverklaring van Chesterton lijkt onwaarschijnlijk vanwege zijn uitlatingen over Joden en anderen.",
+    "Het gesprek eindigt met de wens voor meer humor en zelfrelativering in het debat, ook bij progressieven."
   ],
   "chapters": [
     {
+      "start_seconds": 0,
+      "title": "Humor, optimisme en stuntelig geloof",
+      "summary": "De gesprekspartners openen met een discussie over humor, secularisatie en het optimisme van Chesterton."
+    },
+    {
       "start_seconds": 59,
-      "title": "Introductie van Chesterton",
-      "summary": "David introduceert Chesterton en Anton de Wit. Aandacht voor humor en optimisme."
+      "title": "Wie was Chesterton?",
+      "summary": "David Boogerd introduceert Chesterton als invloedrijke, kleurrijke en vergeten schrijver, en Anton de Wit geeft aan waarom hij hem zo bewondert."
     },
     {
-      "start_seconds": 410,
-      "title": "Waarom Chesterton bijzonder is",
-      "summary": "Zijn invloed, oorspronkelijkheid en essays; Stefan bespreekt The Man Who Was Thursday."
+      "start_seconds": 780,
+      "title": "Publieke figuur in een gepolariseerde tijd",
+      "summary": "Chesterton als columnist in het Londen voor de Eerste Wereldoorlog, zijn debatten met Shaw en Russell en zijn kritiek op rationalisme en complotdenken."
     },
     {
-      "start_seconds": 740,
-      "title": "Relevantie voor onze tijd",
-      "summary": "Chesterton als toonbeeld van goedhartig debat in een gepolariseerde tijd, tegen rationalisme en naturalisme."
+      "start_seconds": 1500,
+      "title": "Leven, eigenaardigheden en kinderlijkheid",
+      "summary": "Anekdotes over Chesterton's postuur, verstrooidheid, creativiteit, kinderlijkheid en zijn schrijfdiscipline."
     },
     {
-      "start_seconds": 1000,
-      "title": "Ketters, Orthodoxie en complotdenken",
-      "summary": "De gek die alles kwijt is behalve zijn verstand en de parallellen met onze tijd."
+      "start_seconds": 2160,
+      "title": "Politiek, conservatisme en distributisme",
+      "summary": "Discussie over of Chesterton een conservatief was, zijn distributistische ideeën en de vraag of hij te plaatsen is bij het huidige rechtse kabinet."
     },
     {
-      "start_seconds": 1370,
-      "title": "De man zelf",
-      "summary": "Zijn omvang, cape, jeugd, occultisme, kinderloosheid en verstrooidheid."
+      "start_seconds": 2730,
+      "title": "Humor, secularisatie en de ernst van de wereld",
+      "summary": "Anton en Stefan debatteren of secularisatie humor doet verdwijnen en of een humoristische houding in ernstige tijden gepast is."
     },
     {
-      "start_seconds": 1750,
-      "title": "Werk en nalatenschap",
-      "summary": "Zijn productie, Everlasting Man en vergelijking met Nederlandse auteurs."
+      "start_seconds": 3300,
+      "title": "Bekering en het paradoxale christendom",
+      "summary": "Chesterton's weg naar het geloof via de kritiek op atheïsten en zijn paradoxale denkwijze over het christendom."
     },
     {
-      "start_seconds": 1980,
-      "title": "Katholicisme, humor en conservatisme",
-      "summary": "Zijn bekering, de link tussen humor en geloof, en de vraag of hij conservatief was."
+      "start_seconds": 4500,
+      "title": "Heiligverklaring, donkere kanten en slot",
+      "summary": "De kwestie van een mogelijke heiligverklaring, zijn antisemitische uitspraken en tot slot de aanbevelingen voor het lezen van zijn werk."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 10,
-      "speaker": "Anton de Wit",
-      "text": "Secularisering is het verlies van humor, het verlies van het sacrale.",
-      "note": "Stelling die het gesprek opent."
-    },
-    {
-      "start_seconds": 917,
-      "speaker": "Stefan Paas",
-      "text": "De echte wereld is eigenlijk veel gekker. Een giraf is veel gekker dan een draak.",
-      "note": "Kern van Chestertons verwondering."
-    },
-    {
-      "start_seconds": 1295,
-      "speaker": "Stefan Paas",
-      "text": "Mensen, de echte wereld is veel interessanter dan u ervan maakt.",
-      "note": "Advies aan complotdenkers."
-    },
-    {
-      "start_seconds": 1418,
+      "start_seconds": 246,
       "speaker": "David Boogerd",
-      "text": "Shaw zei: als ik jou zie, Chesterton, zie je wie de hongersnood veroorzaakt heeft.",
-      "note": "Humoristische wisselwerking."
+      "text": "Chesterton vond pessimisme ongeveer de grootste zonde die er was.",
+      "note": "Zet de toon voor een gesprek over optimisme en humor."
     },
     {
-      "start_seconds": 2147,
+      "start_seconds": 323,
+      "speaker": "Anton de Wit",
+      "text": "Chesterton werd pas echt vrolijk als dingen niet liepen zoals hij ze verwacht had.",
+      "note": "Een paradoxale kijk op mislukking als bron van inspiratie."
+    },
+    {
+      "start_seconds": 1335,
       "speaker": "Stefan Paas",
-      "text": "Hij was veel meer een clown van het geloof, een hofnar.",
-      "note": "Contrast met hedendaagse verbitterde bekeerlingen."
+      "text": "De echte wereld is veel interessanter dan u ervan maakt.",
+      "note": "Een scherp advies aan complotdenkers, afgeleid van Chesterton."
+    },
+    {
+      "start_seconds": 2730,
+      "speaker": "Anton de Wit",
+      "text": "Secularisering is het verlies van humor, omdat het sacrale en de humor dicht bij elkaar liggen.",
+      "note": "Een opvallende koppeling tussen geloof en humor."
+    },
+    {
+      "start_seconds": 3475,
+      "speaker": "Anton de Wit",
+      "text": "Maar wat geloofde die nou zelf?",
+      "note": "De kern van Chesterton's bekering: niet alleen kritiek, maar een eigen geloof."
+    },
+    {
+      "start_seconds": 3893,
+      "speaker": "Anton de Wit",
+      "text": "Het christendom is volledig mysterieus en tegelijk volledig rationeel: het is allebei tegelijk.",
+      "note": "Samenvatting van de paradox die Chesterton zo fascineerde."
     }
   ],
   "keywords": [
     "Chesterton",
+    "paradox",
     "verwondering",
     "humor",
-    "paradox",
     "conservatisme",
+    "distributisme",
+    "secularisatie",
+    "rationalisme",
+    "complotdenken",
     "katholicisme",
     "Orthodoxie",
-    "complotdenken",
-    "rationalisme",
-    "apologetiek"
+    "bekering"
   ],
-  "quotes": [],
+  "quotes": [
+    "Hij was larger than life, letterlijk en figuurlijk.",
+    "De gemene deler was: verwondering.",
+    "Hij schreef over geloof op een volstrekt unieke manier, met allerlei fascinerende paradoxen."
+  ],
   "similar": [
     {
       "n": 119,
-      "reason": "Anton de Wit over Tolkien en C.S. Lewis, mythes en sprookjes; zelfde gast en figuren"
+      "reason": "Zelfde gast Anton de Wit; Tolkien en C.S. Lewis, die ook in Chesterton-gesprek voorkomen"
     },
     {
       "n": 94,
-      "reason": "Anton de Wit over heiligen en heidendom, bekeerling met Nietzsche-achtergrond"
+      "reason": "Anton de Wit over het christelijk geloof, heiligheid en Nietzsche; past bij paradoxaal christendom"
     },
     {
       "n": 323,
-      "reason": "Anton de Wit over Franciscus van Assisi: radicale figuur, humor en verwondering"
+      "reason": "Anton de Wit over Franciscus, een radicale en paradoxale christelijke figuur; verwondering en politiek"
     },
     {
-      "n": 83,
-      "reason": "Willem Jan Otten over kerk als kunstwerk; Otten ook besproken in deze aflevering"
+      "n": 225,
+      "reason": "Antoine Bodar over kunst, schoonheid en geloof rond Kerst; sluit aan bij verwondering"
     },
     {
-      "n": 190,
-      "reason": "Schrijver die via twijfel en waarheidszoeken tot God kwam, zoals Chesterton"
+      "n": 116,
+      "reason": "Antoine Bodar over het mysterie van het geloof; overlap in paradoxale en verwonderlijke christelijke thematiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

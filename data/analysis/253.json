@@ -1,17 +1,22 @@
 {
   "episode": 253,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 131763,
+    "segments": 1472,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32063,
-    "output_tokens": 1972,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69654,
+    "output_tokens": 7212,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
-    "Technologie & AI",
+    "Kerk & secularisatie",
+    "Zingeving & psyche",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -20,148 +25,304 @@
   ],
   "people": [
     {
+      "name": "Romy Kersten",
+      "note": "gast; 20-jarige theologiestudent in Leuven en TikTok-influencer, bekeerd tot het katholicisme",
+      "start_seconds": 24,
+      "mention_count": 40
+    },
+    {
+      "name": "Tim Kuijsten",
+      "note": "gast; politicus ChristenUnie, opgegroeid in de vrijgemaakte kerk, actief in een Pinksterkerk in Amsterdam",
+      "start_seconds": 5,
+      "mention_count": 40
+    },
+    {
+      "name": "Ruben van der Kaap",
+      "note": "eerdere gast in De Ongelooflijke Podcast over de orthodoxe kerk",
+      "start_seconds": 2242,
+      "mention_count": 3
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse historicus, niet-gelovig maar sympathiserend met het geloof; zegt dat kerken 'weird' moeten zijn",
+      "start_seconds": 2371,
+      "mention_count": 4
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "publicist die haar bekering tot het christendom bekendmaakte",
+      "start_seconds": 3103,
+      "mention_count": 2
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Canadese psycholoog en auteur, populair onder jonge mannen",
+      "start_seconds": 3153,
+      "mention_count": 3
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "influencer die veroordeeld is wegens menshandel; genoemd als contrast met Peterson",
+      "start_seconds": 3153,
+      "mention_count": 2
+    },
+    {
+      "name": "Wes Huff",
+      "note": "Canadese bijbelwetenschapper en populaire online debater",
+      "start_seconds": 4597,
+      "mention_count": 3
+    },
+    {
+      "name": "Joe Rogan",
+      "note": "Amerikaanse podcastpresentator waar Wes Huff te gast was",
+      "start_seconds": 4606,
+      "mention_count": 2
+    },
+    {
       "name": "Cody Gakpo",
-      "note": "voetballer van het Nederlands elftal en Liverpool, uitgesproken christen",
-      "start_seconds": 1988,
-      "wiki_checked": true,
-      "wiki_pageid": 4782214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cody_Gakpo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Cody_Gakpo_Liverpool_FC_20261103_%281%29.JPG/250px-Cody_Gakpo_Liverpool_FC_20261103_%281%29.JPG",
-      "mention_count": 1
+      "note": "voetballer van het Nederlands elftal, die openlijk christen is",
+      "start_seconds": 1989,
+      "mention_count": 2
     },
     {
       "name": "Jojen Timber",
-      "note": "voetballer, vroeger kerkgenoot van Tim Kuijsten",
+      "note": "voetballer die openlijk christen is, speelt voor Feyenoord",
       "start_seconds": 2001,
-      "wiki_checked": true,
-      "mention_count": 3
+      "mention_count": 2
     },
     {
       "name": "Quinten Timber",
-      "note": "voetballer, vroeger kerkgenoot van Tim Kuijsten",
+      "note": "voetballer, broer van Jojen, speelt voor Arsenal",
       "start_seconds": 2001,
-      "wiki_checked": true,
-      "wiki_pageid": 5116238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Quinten_Timber",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Quinten_Timber.jpg/250px-Quinten_Timber.jpg",
-      "mention_count": 3
+      "mention_count": 2
     },
     {
       "name": "Saar Goedemans",
-      "note": "influencer die openlijk over haar geloof spreekt",
-      "start_seconds": 2085,
-      "wiki_checked": true,
+      "note": "Nederlandse influencer die gelovig is",
+      "start_seconds": 2102,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Groot Wassink",
+      "note": "GroenLinks-wethouder in Amsterdam, in aanvaring met Tim Kuijsten over een bestemmingsplan",
+      "start_seconds": 3785,
+      "mention_count": 2
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "burgemeester van Amsterdam (in het transcript 'Alsma' genoemd)",
+      "start_seconds": 4082,
+      "mention_count": 2
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "homoseksuele katholiek die zich heeft bekeerd tot het katholieke geloof",
+      "start_seconds": 2867,
+      "mention_count": 1
+    },
+    {
+      "name": "Antoine Baudar",
+      "note": "katholiek priester, eerder gast in de podcast",
+      "start_seconds": 2860,
+      "mention_count": 1
+    },
+    {
+      "name": "David Martin",
+      "note": "Britse godsdienstsocioloog die onderscheid maakt tussen sociale en natuurwetten",
+      "start_seconds": 4741,
+      "mention_count": 2
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; Tim Kuijsten noemt hem een favoriet, met een uitspraak over Gods dwaasheid",
+      "start_seconds": 2620,
+      "mention_count": 4
+    },
+    {
+      "name": "Simson",
+      "note": "bijbelse rechter die Filistijnen versloeg; genoemd als voorbeeld van assertiviteit",
+      "start_seconds": 4120,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes de Doper",
+      "note": "bijbelse figuur die de confrontatie aanging",
+      "start_seconds": 4140,
       "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Handelingen 2",
+      "note": "Pinksteren, de uitstorting van de Heilige Geest als verrassend fenomeen",
+      "start_seconds": 906
+    },
+    {
+      "ref": "Genesis 1",
+      "note": "Romy begon met lezen van de Bijbel bij Genesis tijdens corona",
+      "start_seconds": 1256
+    },
+    {
+      "ref": "1 Korinthe 1:18-25",
+      "note": "Paulus over Gods dwaasheid tegenover de wijsheid van de wereld",
+      "start_seconds": 2610
+    },
+    {
+      "ref": "Kolossenzen 4",
+      "note": "Tim Kuijsten haalt aan: vriendelijk maar beslist reageren als gelovige",
+      "start_seconds": 2973
+    },
+    {
+      "ref": "Richteren 15",
+      "note": "Simson die Filistijnen versloeg, genoemd als voorbeeld van assertiviteit",
+      "start_seconds": 4120
+    }
+  ],
   "places": [
-    "Nederland",
     "Amsterdam",
+    "Utrecht",
+    "Leuven",
     "Frankrijk",
-    "Engeland",
     "Finland",
     "Zweden",
     "Noorwegen",
-    "Leuven",
-    "Utrecht",
+    "Engeland",
+    "Ghana",
     "Liberia",
     "Durham",
-    "Liverpool"
+    "Vlaanderen",
+    "Den Haag",
+    "Rotterdam",
+    "Almere",
+    "Amerika"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Stefan Paas, Romy Kersten en Tim Kuijsten of er sprake is van een religieuze revival in het Westen, vooral onder jongeren. Romy vertelt hoe ze tot geloof kwam via sociale media en Tim wijst op de rol van migrantengemeenschappen en kerkinnovatie. Stefan Paas geeft de onderzoeksmatige context en pleit voor voorzichtigheid bij de cijfers.",
+  "summary_tldr": "De aflevering onderzoekt of het Westen na decennia van secularisatie weer religieuzer wordt, vooral onder jongeren. Theoloog Stefan Paas wijst op een mogelijke trendbreuk, terwijl de gasten Romy Kersten en Tim Kuijsten uit eigen ervaring vertellen over bekering, kerkkeuze en de rol van sociale media. Het gesprek eindigt met de conclusie dat sociale trends, anders dan natuurwetten, kunnen veranderen en dat het onderzoek nog maar net begonnen is.",
   "summary_points": [
-    "Onderzoek uit meerdere westerse landen wijst op een trendbreuk: jongeren zijn geloviger dan de generatie boven hen.",
-    "In Frankrijk steeg het aantal volwassen dopelingen tot 17.000, waarvan veel jongeren en een derde uit niet-christelijke gezinnen.",
-    "Voor het eerst lijken jonge mannen geloviger dan jonge vrouwen.",
-    "Stefan Paas waarschuwt dat veel cijfers, zoals die uit Engeland, nog anekdotisch en voorzichtig te lezen zijn.",
-    "Romy Kersten kwam tot geloof na een diepe crisis, via een YouTuber en TikTok, en voelde zich door God gehoord.",
-    "Sociale media spelen een grote rol: 78% van de Franse bekeerlingen noemt ze belangrijk.",
-    "Tim Kuijsten wijst op migrantenkerken, de rol van corona en de behoefte aan zingeving en waarheid.",
-    "Het culturele klimaat verandert: geloven is minder vreemd en soms zelfs cool door rolmodellen en influencers.",
-    "Tim pleit ervoor ook God als mogelijke verklaring serieus te nemen."
+    "Onderzoek in Engeland, Frankrijk, Finland, Nederland en andere landen wijst op een trendbreuk: jongeren zijn gelovig en actief in de kerk, iets wat eerder niet voorkwam.",
+    "Bij jonge mannen lijkt het geloof sterker te groeien dan bij jonge vrouwen, wat een omkering is van het oude patroon.",
+    "Romy Kersten vertelt hoe ze na een psychische crisis via een TikTok-video met geloof in aanraking kwam en het gevoel had gehoord te worden.",
+    "Sociale media, met name TikTok en influencers, spelen een grote rol bij het ontdekken en verdiepen van het geloof.",
+    "Tim Kuijsten ziet in zijn omgeving in Amsterdam veel groei in migrantenkerken, die in het seculiere beeld vaak onzichtbaar blijven.",
+    "Kerken die duidelijk en 'weird' zijn, zoals de katholieke, orthodoxe en Pinksterkerken, lijken het beter te doen dan kerken die zich aanpassen aan de samenleving.",
+    "Er is discussie over de vraag of de hernieuwde interesse conservatief is, en over hoe gelovigen met seculiere en progressieve standpunten kunnen omgaan.",
+    "Paas benadrukt dat dit nog een pril onderzoeksveld is en dat veel cijfers anekdotisch zijn, omdat minderheidsgroepen moeilijk in onderzoek terugkomen.",
+    "Tim Kuijsten pleit voor assertief en liefdevol geloof uitstralen, en voor een beter gesprek tussen christenen en seculiere samenleving."
   ],
   "chapters": [
     {
-      "start_seconds": 48,
-      "title": "Introductie van de religieuze revival",
-      "summary": "David introduceert het thema en de gasten Romy Kersten en Tim Kuijsten."
+      "start_seconds": 0,
+      "title": "Intro: keert het tij?",
+      "summary": "David Boogerd stelt de vraag of het Westen na decennia van secularisatie weer geloviger wordt, en introduceert de gasten."
     },
     {
-      "start_seconds": 218,
-      "title": "Wat zeggen de cijfers?",
-      "summary": "Stefan Paas bespreekt onderzoek uit Frankrijk, Engeland en Nederland en waarschuwt voor voorzichtigheid."
+      "start_seconds": 300,
+      "title": "Het onderzoek naar een trendbreuk",
+      "summary": "Stefan Paas bespreekt onderzoek uit diverse landen en wijst op de voorzichtigheid die nodig is bij nog pril wetenschappelijk materiaal."
     },
     {
-      "start_seconds": 585,
-      "title": "Kritiek van Tim Kuijsten",
-      "summary": "Tim vindt het gesprek over secularisatie te fatalistisch en wijst op groei in zijn eigen omgeving en op God als verklaring."
+      "start_seconds": 900,
+      "title": "Het verhaal van Romy Kersten",
+      "summary": "Romy vertelt over haar niet-gelovige opvoeding, haar topsportcarrière, haar crisis en hoe ze via TikTok en de kerk tot geloof kwam."
     },
     {
-      "start_seconds": 935,
-      "title": "Het bekeringsverhaal van Romy",
-      "summary": "Romy vertelt over haar niet-gelovige opvoeding, topsport, diepe dal en weg naar het katholicisme."
+      "start_seconds": 1800,
+      "title": "Waarom jongeren gelovig worden",
+      "summary": "Gemeenschap, persoonlijke relatie met God, online invloed en de rol van corona en rolmodellen komen aan bod."
     },
     {
-      "start_seconds": 1650,
-      "title": "Sociale media en jongeren",
-      "summary": "Het gesprek gaat over TikTok, influencers en cijfers over de rol van sociale media bij bekeringen."
+      "start_seconds": 2400,
+      "title": "Weird kerken en behoudendheid",
+      "summary": "Tom Holland's uitspraak dat kerken 'weird' moeten zijn wordt besproken, evenals de vraag of de beweging conservatief is."
     },
     {
-      "start_seconds": 1740,
-      "title": "Waarom jongeren gaan geloven",
-      "summary": "Verklaringen: gemeenschap, corona, zingeving, multiculturele samenleving, rolmodellen en een veranderend cultureel klimaat."
+      "start_seconds": 3300,
+      "title": "Jonge mannen, vrouwen en LBTI-vragen",
+      "summary": "Het gesprek gaat over de verschuiving in geslachtsverdeling, Jordan Peterson en Andrew Tate, en de omgang met kwetsbare groepen."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Migrantenkerken en de Amsterdamse kerkgebouwen",
+      "summary": "Tim Kuijsten vertelt over migrantenkerken in Amsterdam, het conflict met de wethouder en de rol van de overheid bij kerkgebouwen."
+    },
+    {
+      "start_seconds": 4380,
+      "title": "Sociale media en slotwoorden",
+      "summary": "Online debatten, Wes Huff en Joe Rogan, en de scepsis over cijfers. Paas besluit met het onderscheid tussen sociale en natuurwetten."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1088,
-      "speaker": "Romy Kersten",
-      "text": "Ik ben echt gek geworden, ik praat tegen mijn plafond.",
-      "note": "Eerlijk en ontwapenend moment van haar eerste gebed."
-    },
-    {
       "start_seconds": 1139,
       "speaker": "Romy Kersten",
       "text": "Bij God had ik voor het eerst het gevoel: deze persoon hoort mij echt.",
-      "note": "Raakt aan de behoefte aan gehoord worden in een prestatiegedreven tijd."
+      "note": "Een persoonlijk en kwetsbaar moment dat laat zien waarom geloof voor sommige jongeren aantrekkelijk is."
     },
     {
-      "start_seconds": 885,
+      "start_seconds": 1425,
+      "speaker": "Romy Kersten",
+      "text": "Die beginvreugde van een bekeerling, dat is echt een vreugde om God te mogen kennen.",
+      "note": "Romy ziet de vreugde van bekeerlingen als iets wat gelovigen kunnen leren."
+    },
+    {
+      "start_seconds": 4709,
       "speaker": "Tim Kuijsten",
-      "text": "Ik vind het ernstig als christenen moeite hebben om te zeggen dat God misschien echt aan het werk is.",
-      "note": "Scherpe kritiek op louter rationele verklaringen."
+      "text": "Het verschil maakt hoe je je geloof uitstraalt, ook als je zelf soms moeite hebt om het te geloven.",
+      "note": "Een oproep aan christenen die wijst op de kracht van uitstraling en authenticiteit."
     },
     {
-      "start_seconds": 1296,
-      "speaker": "Romy Kersten",
-      "text": "Ik was zo happy, die beginvreugde van een bekeerling.",
-      "note": "Illustreert de vreugde van bekeerlingen."
+      "start_seconds": 4741,
+      "speaker": "Stefan Paas",
+      "text": "Sociale wetten, zoals secularisatie, zijn de optelsom van miljoenen individuele beslissingen en dus te veranderen. Dat is geen zwaartekracht.",
+      "note": "Een scherpe conceptuele wending die laat zien dat de huidige trend niet onafwendbaar is."
     },
     {
-      "start_seconds": 2102,
-      "speaker": "Romy Kersten",
-      "text": "Vroeger werd er heel anders gekeken als ik zei dat ik naar de kerk ging dan nu.",
-      "note": "Laat de veranderde culturele houding zien."
+      "start_seconds": 3801,
+      "speaker": "Tim Kuijsten",
+      "text": "Als de overheid geen plekken reserveert voor religie, komt er ook geen kerkgebouw. Religie hoort bij het maatschappelijk weefsel.",
+      "note": "Een politiek standpunt dat de spanning tussen seculiere overheid en religieuze gemeenschappen blootlegt."
     }
   ],
   "keywords": [
-    "revival",
     "secularisatie",
-    "Gen Z",
-    "bekeerling",
+    "religieuze revival",
+    "bekering",
+    "jonge mannen",
     "sociale media",
-    "TikTok",
+    "migrantenkerken",
+    "Pinksterkerk",
     "katholieke kerk",
-    "migrantenkerk",
     "zingeving",
-    "corona",
-    "influencer",
-    "trendbreuk"
+    "gemeenschap",
+    "trendbreuk",
+    "weird kerken"
   ],
-  "quotes": [],
-  "similar": []
+  "quotes": [
+    "Nederland – en het Westen – wordt steeds minder religieus.",
+    "Is er sprake van een religieuze revival? En waar komt die vandaan?"
+  ],
+  "similar": [
+    {
+      "n": 231,
+      "reason": "Groei van de orthodoxe kerk en populariteit bij influencers zoals Jordan Peterson"
+    },
+    {
+      "n": 294,
+      "reason": "Seculiere millennials, teleurstelling en de kerk; sluit aan bij jongeren die weer geloven"
+    },
+    {
+      "n": 22,
+      "reason": "Tom Holland over hoe het christendom het Westen vormde; genoemd in deze aflevering"
+    },
+    {
+      "n": 109,
+      "reason": "Bekering vanuit nihilisme en zingeving, met de sprong naar geloof"
+    },
+    {
+      "n": 191,
+      "reason": "Social media en smartphones als factor in zingevingsproblemen van jongeren"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

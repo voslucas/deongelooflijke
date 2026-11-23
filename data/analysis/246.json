@@ -1,18 +1,23 @@
 {
   "episode": 246,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 106738,
+    "segments": 1313,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31889,
-    "output_tokens": 2516,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56067,
+    "output_tokens": 7427,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
     "Amerika & Trump",
-    "Geschiedenis",
-    "God & geloof"
+    "God & geloof",
+    "Geschiedenis"
   ],
   "guests": [
     "Anton de Wit",
@@ -21,269 +26,276 @@
   ],
   "people": [
     {
-      "name": "Leo XIV",
-      "note": "nieuwe paus, geboren als Robert Francis Prevost, eerste Amerikaanse paus",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 5726260,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_XIV",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Leo_XIV_%2813_October_2025%29.jpg/250px-Leo_XIV_%2813_October_2025%29.jpg"
+      "name": "Robert Francis Prevost (Leo XIV)",
+      "note": "Nieuw gekozen paus, eerste Amerikaanse paus, voorheen prefect van de dicasterie voor de bisschoppen en augustijner",
+      "start_seconds": 44,
+      "mention_count": 28
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, tegenpool van de nieuwe paus",
-      "start_seconds": 78,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president, wiens beleid en migratiepolitiek naast het pausschap wordt gezet",
+      "start_seconds": 44,
+      "mention_count": 14
     },
     {
-      "name": "Paus Franciscus",
-      "note": "vorige paus, wiens lijn Leo XIV lijkt voort te zetten",
-      "start_seconds": 100,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Franciscus",
+      "note": "Vorige paus (2013-2025), wiens lijn de nieuwe paus lijkt voort te zetten",
+      "start_seconds": 661,
+      "mention_count": 30
     },
     {
       "name": "Leo XIII",
-      "note": "paus van de encycliek Rerum Novarum en de katholieke sociale leer",
-      "start_seconds": 565,
-      "wiki_checked": true,
-      "wiki_pageid": 150833,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_XIII",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Papa_Leone_XIII.jpeg/250px-Papa_Leone_XIII.jpeg"
-    },
-    {
-      "name": "JD Vance",
-      "note": "Amerikaanse vicepresident, katholiek, bekritiseerd om zijn visie op naastenliefde",
-      "start_seconds": 631,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Timothy Dolan",
-      "note": "kardinaal van New York, conservatieve Amerikaanse kandidaat",
-      "start_seconds": 737,
-      "wiki_checked": true,
-      "wiki_pageid": 1562108,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Timothy_Michael_Dolan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Timothy_Dolan_%28cropped%29.jpg/250px-Timothy_Dolan_%28cropped%29.jpg"
+      "note": "Paus uit de 19e eeuw, auteur van de encycliek Rerum novarum en grondlegger van de katholieke sociale leer",
+      "start_seconds": 570,
+      "mention_count": 6
     },
     {
       "name": "Benedictus XVI",
-      "note": "voormalig paus, in Amerika wel eens communist genoemd",
-      "start_seconds": 829,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
+      "note": "Vorige paus voor Franciscus, theologisch conservatiever en bekend van de rode schoentjes en stola",
+      "start_seconds": 826,
+      "mention_count": 5
     },
     {
-      "name": "Rob de Wijk",
-      "note": "geopolitiek deskundige, noemde onze tijd een Bokito-tijdperk",
-      "start_seconds": 695,
-      "wiki_checked": true,
-      "wiki_pageid": 991157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_de_Wijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rob_de_Wijk.jpg/250px-Rob_de_Wijk.jpg"
+      "name": "Johannes Paulus II",
+      "note": "Paus met grote mediabeleving, gezien als sleutelfiguur in het televisietijdperk",
+      "start_seconds": 2570,
+      "mention_count": 3
     },
     {
-      "name": "John Allen",
-      "note": "Vaticanist",
-      "start_seconds": 984,
-      "wiki_checked": true
+      "name": "Johannes XXIII",
+      "note": "Paus die tijdens de Cubacrisis de media gebruikte",
+      "start_seconds": 2573,
+      "mention_count": 1
     },
     {
-      "name": "Franciscus van Assisi",
-      "note": "heilige naar wie Franciscus zich noemde; zijn vriend was broeder Leo",
-      "start_seconds": 1592,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident en katholiek; citaat over naastenliefde werd bekritiseerd",
+      "start_seconds": 631,
+      "mention_count": 4
+    },
+    {
+      "name": "Timothy Dolan",
+      "note": "Kardinaal en aartsbisschop van New York, als alternatief Amerikaans kandidaat genoemd",
+      "start_seconds": 737,
+      "mention_count": 3
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, Leo XIV noemde zich zijn kind",
+      "note": "Kerkvader en inspiratiebron van de augustijnen, waar de nieuwe paus lid van is",
       "start_seconds": 320,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Augustijner monnik en hervormer, had te maken met een paus genaamd Leo",
+      "start_seconds": 3690,
+      "mention_count": 1
+    },
+    {
+      "name": "Petrus",
+      "note": "Eerste paus volgens de traditie, gekruisigd in Rome",
+      "start_seconds": 2478,
+      "mention_count": 3
+    },
+    {
+      "name": "Rob de Wijk",
+      "note": "Politicoloog die de huidige wereldpolitiek het Bokito-tijdperk noemde",
+      "start_seconds": 695,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus, als stijlvergelijking met Franciscus genoemd",
+      "start_seconds": 1700,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Schoof",
+      "note": "Nederlands premier, als stijlvergelijking met de nieuwe paus genoemd",
+      "start_seconds": 1708,
+      "mention_count": 1
+    },
+    {
+      "name": "Adrianus IV",
+      "note": "Enige Engelstalige paus, uit Engeland afkomstig",
+      "start_seconds": 3461,
+      "mention_count": 2
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïens president, aanwezig bij de uitvaart van Franciscus naast Trump",
+      "start_seconds": 2667,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Rerum Novarum",
+      "title": "Rerum novarum",
       "author": "Leo XIII",
-      "note": "encycliek uit 1891 over arbeiders en sociale kwesties",
-      "start_seconds": 576,
-      "volume_id": "-4Tundo_Nz4C",
-      "canonical_title": "Rerum Novarum: encycliek van Z.H. Paus Leo XIII over den toestand der werklieden",
-      "canonical_author": "Leo XIII (Paus)",
+      "note": "Encycliek uit 1891 en startpunt van de katholieke sociale leer; de nieuwe paus zou een vervolg kunnen schrijven",
+      "start_seconds": 570,
+      "volume_id": "4RxVxwEACAAJ",
+      "canonical_title": "Rerum novarum: encycliek van Paus Leo XIII van 15 mei 1891 over de toestand der arbeiders",
+      "canonical_author": "Leo XIII",
       "isbn13": null,
       "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=-4Tundo_Nz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "thumbnail": ""
     },
     {
-      "title": "Fioretti",
+      "title": "De Fioretti",
       "author": "",
-      "note": "levensbeschrijvingen van Franciscus van Assisi met broeder Leo",
-      "start_seconds": 1608,
-      "volume_id": "t30AhSd502oC",
-      "canonical_title": "Fioretti, of, Bloemen van den Heiligen Franciscus van Assisië: een geschiedschrift uit de Middeleeuwen",
-      "canonical_author": "Franciscus (van Assisi)",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=t30AhSd502oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Levensbeschrijvingen van Franciscus van Assisi, waarin broeder Leo een prominente rol speelt",
+      "start_seconds": 1607,
+      "volume_id": "RBEAPQAACAAJ",
+      "canonical_title": "De Fioretti: verhalen over Sint-Franciscus",
+      "canonical_author": "Linda Ninette Pennings, Gerard Pieter Freeman",
+      "isbn13": "9789025731724",
+      "isbn10": "9025731724",
+      "thumbnail": "http://books.google.com/books/content?id=RBEAPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Rome",
-    "Vaticaan",
-    "Sint-Pietersplein",
-    "Peru",
-    "Verenigde Staten",
-    "Latijns-Amerika",
-    "Buenos Aires",
+    "Vaticaanstad",
     "Hilversum",
-    "New York"
+    "Peru",
+    "Buenos Aires",
+    "Leuven",
+    "Kenia",
+    "Chicago",
+    "New York",
+    "Pennsylvania",
+    "Engeland"
   ],
-  "summary_tldr": "Na de verkiezing van Leo XIV, de eerste Amerikaanse paus, bespreken David Boogerd, Stefan Paas, Anton de Wit en Aafke Romeijn wie hij is en wat dit betekent voor de kerk en de wereld. Zijn naamkeuze verwijst naar de sociale leer van Leo XIII en lijkt een signaal richting Trump. Hij lijkt de lijn van Franciscus voort te zetten, maar is bestuurlijker en traditioneler van stijl.",
+  "summary_tldr": "Robert Francis Prevost is gekozen als Leo XIV, de eerste paus uit de Verenigde Staten, en de gesprekspartners zien in zijn naamkeuze en achtergrond een signaal richting Trump en een voortzetting van de lijn van Franciscus. Er wordt gesproken over zijn ervaring in Latijns-Amerika, zijn augustijnse achtergrond en zijn stijl, die meer bestuurlijk en bescheiden lijkt dan die van zijn voorganger. Daarnaast komt de rol van het pausschap als morele, mediagevoelige macht aan bod, en de vraag of de kerk in Nederland en wereldwijd weer aantrekkingskracht krijgt.",
   "summary_points": [
-    "Leo XIV is de eerste Amerikaanse paus, maar heeft lang in Peru gewerkt en ook een Peruaans paspoort.",
-    "De naam Leo verwijst naar Leo XIII en Rerum Novarum, de katholieke sociale leer en aandacht voor armen.",
-    "Dit wordt gezien als een impliciet signaal richting Trump en Vance, al kan Trump het ook voor zichzelf gebruiken.",
-    "Het conclaaf was snel (vierde stemronde), ondanks de omvang en diversiteit van het college.",
-    "Hij is jurist en wiskundige, een bestuurder: meer 'Schoof' dan 'Wilders' in stijl.",
-    "Hij koos voor de traditionele kledij en sprak Italiaans als bisschop van Rome.",
-    "Over heikele thema's als LHBTI en vrouwelijke diakens houdt hij de kaarten tegen de borst.",
-    "Aafke Romeijn hoopt dat hij de progressieve lijn van Franciscus consolideert."
+    "De nieuwe paus Leo XIV is de eerste Amerikaanse paus, met ook Peruaanse wortels en een lange periode in Latijns-Amerika.",
+    "De naam Leo verwijst naar Leo XIII en Rerum novarum, wat wordt gezien als signaal voor sociale gerechtigheid en tegen het beleid van Trump.",
+    "De nieuwe paus wordt vergeleken met Franciscus: inhoudelijk in lijn, maar stilistisch bestuurlijker, berekender en minder charismatisch.",
+    "Zijn eerste toespraak in het Italiaans benadrukt zijn rol als bisschop van Rome, een belangrijk symbool binnen de traditie.",
+    "Het conclaaf werd door velen met grote belangstelling gevolgd, mede via social media en online communities.",
+    "Het traditionele versus progressieve schema past slecht op de katholieke kerk; de paus wordt progressief geacht op sociale thema's en conservatief op seksuele ethiek.",
+    "Het pausschap heeft zich ontwikkeld van wereldlijke macht naar morele en mediagevoelige invloed, mede dankzij Johannes Paulus II en Franciscus.",
+    "Er zijn tekenen van een mogelijke ommekeer in religieuze belangstelling, vooral onder jongeren, maar het is nog onduidelijk of dat leidt tot kerkgang.",
+    "De gesprekspartners verwachten vooral spanning rond de eerste encycliek en de omgang met geopolitieke en morele kwesties."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Pausduider bij de NOS",
-      "summary": "Anton de Wit vertelt over het meemaken van de witte rook in de studio en over de snelheid van het conclaaf."
+      "title": "Habemus papam: opening en de witte rook",
+      "summary": "Anton de Wit blikt terug op zijn live-verslaggeving bij de NOS en op het moment van de witte rook. Stefan Paas reageert vanuit zijn protestantse achtergrond."
     },
     {
-      "start_seconds": 280,
-      "title": "Protestants perspectief op de show",
-      "summary": "Stefan Paas reflecteert als protestant op de pracht van het Vaticaan en de Augustijner achtergrond van de paus."
+      "start_seconds": 325,
+      "title": "Een protestants blik op het pausschap",
+      "summary": "De gesprekspartners bespreken het Sint-Pietersplein, de vorm en inhoud van de kerkelijke rituelen en de ecumenische spanning."
     },
     {
       "start_seconds": 540,
-      "title": "De naam Leo en het signaal aan Trump",
-      "summary": "De betekenis van Leo XIII en de sociale leer, en de verhouding tot Trump en Vance."
+      "title": "De naam Leo, sociale leer en Trump",
+      "summary": "De naamkeuze wordt verbonden met Leo XIII en Rerum novarum, en gezien als signaal richting de Amerikaanse politiek en Trump en Vance."
     },
     {
-      "start_seconds": 880,
-      "title": "Waarom juist hij gekozen werd",
-      "summary": "Over zijn rol bij bisschopsbenoemingen, zijn karakter en de emotie op het balkon."
+      "start_seconds": 1180,
+      "title": "Italiaans, Latijns-Amerika en stijl",
+      "summary": "De eerste toespraak in het Italiaans wordt verklaard als rol van bisschop van Rome. Ook worden de stijlverschillen met Franciscus besproken, en de vergelijking met Nederlandse politici."
     },
     {
-      "start_seconds": 1130,
-      "title": "Italiaans, traditie en vorm",
-      "summary": "Discussie over taalkeuze, kledij en de verhouding tussen vorm en inhoud."
+      "start_seconds": 1680,
+      "title": "Aafke Romeijn over haar katholieke weg en de nieuwe paus",
+      "summary": "Aafke Romeijn vertelt over haar bekering, haar voorspelling dat een Amerikaanse paus zou komen en haar zorgen over het standpunt over homoseksualiteit."
     },
     {
-      "start_seconds": 1470,
-      "title": "Stijl en continuïteit met Franciscus",
-      "summary": "De nieuwe paus als bestuurder die de lijn van Franciscus gematigder voortzet."
+      "start_seconds": 2220,
+      "title": "Progressief of conservatief?",
+      "summary": "De gesprekspartners bespreken waarom de polarisatie van de kerk niet past bij het links-rechtsschema, en wat de paus kan betekenen voor de verdeelde bisschoppen."
     },
     {
-      "start_seconds": 1760,
-      "title": "Aafke Romeijn over de nieuwe paus",
-      "summary": "Zij vertelt over haar weg naar het katholicisme, haar gok op Prevost en haar zorgen over LHBTI-standpunten."
+      "start_seconds": 2600,
+      "title": "Het pausschap als morele macht",
+      "summary": "Het pausschap wordt beschreven als gewijzigd van wereldlijke macht naar morele en mediagevoelige invloed, met Johannes Paulus II als voorbeeld."
     },
     {
-      "start_seconds": 2100,
-      "title": "Conservatief of progressief?",
-      "summary": "Anton de Wit bespreekt zijn zwijgzaamheid over hete hangijzers en zijn ervaringen in het gepolariseerde Peru."
+      "start_seconds": 2760,
+      "title": "Secularisatie, God in Nederland en Paul van Geest",
+      "summary": "Er wordt gesproken over tekenen van een herleving van geloof, en over het telefoongesprek met Paul van Geest, die de paus persoonlijk ontmoette en de Augustijnse achtergrond toelichtte."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 311,
+      "start_seconds": 371,
       "speaker": "Stefan Paas",
-      "text": "Petrus en Paulus zouden met milde verwondering naar het plein kijken: tjonge, het is wel doorontwikkeld.",
-      "note": "Speelse protestantse kanttekening bij de pracht van het Vaticaan."
+      "text": "Als Petrus of Paulus met een tijdmachine naar het plein teruggeflitst waren, zouden ze met milde verwondering kijken: tjonge, het is wel doorontwikkeld.",
+      "note": "Een droge, typisch protestantse blik op de pracht van het Vaticaan die het gesprek ontspant."
     },
     {
-      "start_seconds": 589,
+      "start_seconds": 545,
       "speaker": "Anton de Wit",
-      "text": "De naam Leo is meteen een signaal naar Trump.",
-      "note": "Duidt de politieke lading van de naamkeuze."
+      "text": "Ik vond Leo de Veertiende, daar dacht ik echt van: wauw, dit is geschiedenis.",
+      "note": "Een persoonlijk emotioneel moment dat laat zien hoe zwaar de naamkeuze voor de gelovige kijker weegt."
     },
     {
-      "start_seconds": 1688,
-      "speaker": "Stefan Paas",
-      "text": "Bergoglio was meer het type Wilders, deze nieuwe is meer het type Schoof.",
-      "note": "Prikkelende vergelijking van leiderschapsstijlen."
-    },
-    {
-      "start_seconds": 1965,
+      "start_seconds": 1964,
       "speaker": "Aafke Romeijn",
-      "text": "Ik had als enige op deze paus gegokt in onze appgroep.",
-      "note": "Persoonlijk en verrassend moment."
+      "text": "Ik had op deze paus gegokt als enige, en ik vond het aantrekkelijk om voor een Amerikaanse paus te gaan.",
+      "note": "Een opvallende voorspelling die de geopolitieke verwachtingen van die tijd laat zien."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 2357,
       "speaker": "Anton de Wit",
-      "text": "Het kamertje van de tranen: dan besef je het volle gewicht van de verantwoordelijkheid.",
-      "note": "Illustreert de emotie van het moment."
+      "text": "Ik denk dat we een saaie paus gaan krijgen, en dat is niet altijd verkeerd.",
+      "note": "Een nuchtere kijk die afwijkt van de verwachting van een spektakel."
+    },
+    {
+      "start_seconds": 2955,
+      "speaker": "Stefan Paas",
+      "text": "Een pausschap dat steeds meer een morele influencer is geworden.",
+      "note": "Een scherpe samenvatting van de verschuiving van macht naar invloed en media."
+    },
+    {
+      "start_seconds": 3393,
+      "speaker": "Paul van Geest",
+      "text": "Als hij Trump behandelt als een kind dat af en toe opgevoed moet worden, dan komen we een heel eind.",
+      "note": "Een speelse maar scherpe uitspraak over de mogelijke confrontatie tussen paus en president."
     }
   ],
   "keywords": [
     "Leo XIV",
     "conclaaf",
-    "paus",
-    "Rerum Novarum",
+    "pausschap",
     "katholieke sociale leer",
+    "Rerum novarum",
     "Franciscus",
+    "augustijnen",
+    "secularisatie",
+    "morele macht",
+    "progressief versus conservatief",
     "Trump",
-    "Augustijnen",
-    "Peru",
-    "bevrijdingstheologie",
-    "Vaticaan"
+    "God in Nederland"
   ],
-  "quotes": [],
+  "quotes": [
+    "Habemus papam! Er is een nieuwe paus: Leo XIV, geboortenaam Robert Francis Prevost.",
+    "Voor het eerst is het een Amerikaan – en dat is saillant, zeker in het licht van die andere Amerikaanse wereldleider: Donald Trump."
+  ],
   "similar": [
     {
       "n": 243,
-      "reason": "Over paus Franciscus' overlijden, invloed en opvolging, met Anton de Wit"
+      "reason": "Overlijden van paus Franciscus, zijn leven, invloed en opvolging"
     },
     {
       "n": 121,
-      "reason": "Erfenis van paus Benedictus XVI, met Paul van Geest"
-    },
-    {
-      "n": 323,
-      "reason": "Franciscus van Assisi en paus Franciscus, met Anton de Wit"
-    },
-    {
-      "n": 200,
-      "reason": "Augustinus-aflevering met Paul van Geest"
+      "reason": "Erfenis van paus Benedictus XVI en de veranderende kerk"
     },
     {
       "n": 102,
-      "reason": "Paus Adrianus VI, met Anton de Wit over de pauselijke geschiedenis"
+      "reason": "Paus Adrianus VI als machtige Nederlandse paus, met Anton de Wit"
+    },
+    {
+      "n": 236,
+      "reason": "Amerika glijdt af, Trump en de positie van Europa en christendom"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,375 +1,365 @@
 {
   "episode": 255,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 106231,
+    "segments": 949,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30816,
-    "output_tokens": 3166,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53889,
+    "output_tokens": 3831,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
-    "Amerika & Trump",
+    "Politiek",
     "Geopolitiek & oorlog",
-    "Technologie & AI"
+    "Amerika & Trump",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Rik Peels"
   ],
   "people": [
     {
+      "name": "Rik Peels",
+      "note": "Hoogleraar godsdienstfilosofie aan de VU, gast en co-auteur van 'Wat is nou waar?'",
+      "start_seconds": 5,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog en hoogleraar aan de VU en Theologische Universiteit Utrecht",
+      "start_seconds": 9,
+      "mention_count": 80
+    },
+    {
       "name": "Donald Trump",
-      "note": "Amerikaans president, voorbeeld van 'alternatieve feiten' en 'flooding the zone'",
-      "start_seconds": 793,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Pontius Pilatus",
-      "note": "Romeins stadhouder die Jezus vroeg 'Wat is waarheid?'",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
-    },
-    {
-      "name": "Jezus",
-      "note": "getuigde voor Pilatus van de waarheid",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
-    },
-    {
-      "name": "Richard Rorty",
-      "note": "Amerikaans pragmatisch filosoof: 'Truth is what your peers will let you get away with'",
-      "start_seconds": 704,
-      "wiki_checked": true,
-      "wiki_pageid": 352805,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Rorty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Richard_Rorty_in_1959.png/250px-Richard_Rorty_in_1959.png"
+      "note": "Amerikaans president; zijn inauguratie-claims, communicatie en complottheorie-deling besproken",
+      "start_seconds": 915,
+      "mention_count": 25
     },
     {
       "name": "Kellyanne Conway",
-      "note": "adviseur van Trump, introduceerde 'alternative facts'",
-      "start_seconds": 932,
-      "wiki_checked": true,
-      "wiki_pageid": 4779319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kellyanne_Conway",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kellyanne_Conway_by_Gage_Skidmore.jpg/250px-Kellyanne_Conway_by_Gage_Skidmore.jpg"
-    },
-    {
-      "name": "Sean Spicer",
-      "note": "woordvoerder van het Witte Huis in 2017",
-      "start_seconds": 955,
-      "wiki_checked": true
+      "note": "Adviseur van Trump die de term 'alternative facts' introduceerde",
+      "start_seconds": 930,
+      "mention_count": 3
     },
     {
       "name": "Steve Bannon",
-      "note": "adviseur van Trump, bedenker van 'flood the zone'",
-      "start_seconds": 1227,
-      "wiki_checked": true,
-      "wiki_pageid": 4739148,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steve_Bannon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg/250px-Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "eigenaar van X, community notes in plaats van fact-checking",
-      "start_seconds": 1180,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president met coherente maar onware wereldbeschouwing",
-      "start_seconds": 457,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Peter Pomerantsev",
-      "note": "Oekraïens-Britse journalist over Russische desinformatiestrategieën",
-      "start_seconds": 1464,
-      "wiki_checked": true
-    },
-    {
-      "name": "Timothy Snyder",
-      "note": "historicus over autocraten en miljardairs in Rusland",
-      "start_seconds": 1541,
-      "wiki_checked": true,
-      "wiki_pageid": 2104366,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Timothy_Snyder",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Timothy_Snyder%2C_2016_%28cropped%29.jpg/250px-Timothy_Snyder%2C_2016_%28cropped%29.jpg"
+      "note": "Prominente adviseur van Trump; strategie 'flood the zone'",
+      "start_seconds": 1210,
+      "mention_count": 4
     },
     {
       "name": "Colin Powell",
-      "note": "Amerikaans minister van Buitenlandse Zaken, presenteerde in 2003 bewijs over Iraakse massavernietigingswapens",
-      "start_seconds": 1939,
-      "wiki_checked": true,
-      "wiki_pageid": 30396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Colin_Powell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Colin_Powell_official_Secretary_of_State_photo.jpg/250px-Colin_Powell_official_Secretary_of_State_photo.jpg"
+      "note": "Amerikaans minister van Buitenlandse Zaken die in 2003 de VN-presentatie over Irak gaf",
+      "start_seconds": 1920,
+      "mention_count": 8
     },
     {
-      "name": "Saddam Hoessein",
-      "note": "Iraaks dictator, ten onrechte beschuldigd van massavernietigingswapens",
-      "start_seconds": 1939,
-      "wiki_checked": true,
-      "wiki_pageid": 1674,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Saddam_Hoessein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Saddam_Hussein_in_1998.png/250px-Saddam_Hussein_in_1998.png"
-    },
-    {
-      "name": "Rafid Ahmed Alwan al-Janabi",
-      "note": "Iraakse vluchteling en enige getuige, gaf later toe te hebben gelogen",
-      "start_seconds": 2203,
-      "wiki_checked": true
+      "name": "Saddam Hussein",
+      "note": "Irakese dictator; regime gerechtvaardigd met massavernietigingswapens",
+      "start_seconds": 1990,
+      "mention_count": 5
     },
     {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlisch premier, waarschuwde herhaaldelijk voor Iraanse atoombom",
-      "start_seconds": 2321,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "note": "Israëlische premier; eerder fragment over Iraanse atoombom",
+      "start_seconds": 2320,
+      "mention_count": 4
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeins bestuurder die Jezus ondervraagt en vraagt 'Wat is waarheid?'",
+      "start_seconds": 475,
+      "mention_count": 3
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in de Bijbel; spreekt over waarheid",
+      "start_seconds": 490,
+      "mention_count": 4
+    },
+    {
+      "name": "Marjolein Faber",
+      "note": "PVV-politica en voormalig minister van Asiel; omstreden tweet",
+      "start_seconds": 2625,
+      "mention_count": 5
+    },
+    {
+      "name": "Jaap van Dissel",
+      "note": "Voormalig baas van het RIVM tijdens corona",
+      "start_seconds": 2880,
+      "mention_count": 3
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; gebruik van desinformatie en valse wereldbeschouwing",
+      "start_seconds": 1690,
+      "mention_count": 4
+    },
+    {
+      "name": "Richard Rorty",
+      "note": "Amerikaans filosoof; pragmatische waarheidstheorie",
+      "start_seconds": 725,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; 'hoogmoed is de moeder van alle ketterijen'",
+      "start_seconds": 3705,
+      "mention_count": 2
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Eigenaar van X; community notes en democratisering van platform",
+      "start_seconds": 1180,
+      "mention_count": 3
+    },
+    {
+      "name": "Timothy Snyder",
+      "note": "Historicus die schrijft over Moskou en autocratie",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Pomerantsev",
+      "note": "Journalist die over Russische desinformatiestrategieën schreef",
+      "start_seconds": 1490,
+      "mention_count": 1
+    },
+    {
+      "name": "Halbe Zijlstra",
+      "note": "Voormalig Nederlands politicus; voorbeeld van moeilijk toegeven van fouten",
+      "start_seconds": 2850,
+      "mention_count": 1
+    },
+    {
+      "name": "Rafid Ahmed Alwan Al Janabi",
+      "note": "Iraakse vluchteling die valse getuigenis gaf over nucleaire faciliteiten",
+      "start_seconds": 2170,
+      "mention_count": 2
     },
     {
       "name": "Roxana van Yperen",
-      "note": "auteur van 'Eigen Planeet Eerst' over omkering van de werkelijkheid",
-      "start_seconds": 1706,
-      "wiki_checked": true
+      "note": "Auteur van 'Eigen Planeet Eerst'",
+      "start_seconds": 1710,
+      "mention_count": 1
     },
     {
-      "name": "Volodymyr Zelensky",
-      "note": "Oekraïens president, joods, ondanks Russische 'nazi'-beschuldiging",
-      "start_seconds": 1728,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "name": "Sean Spicer",
+      "note": "Voormalig persvoorlichter van het Witte Huis",
+      "start_seconds": 980,
+      "mention_count": 1
     },
     {
-      "name": "George Orwell",
-      "note": "schrijver van 1984",
-      "start_seconds": 1216,
-      "wiki_checked": true,
-      "wiki_pageid": 7028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Orwell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg"
-    },
-    {
-      "name": "J.D. Vance",
-      "note": "Amerikaans vicepresident, Irak-veteraan en tegenstander van oorlogen",
-      "start_seconds": 2068,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bill Clinton",
-      "note": "oud-president die tegen de Irak-oorlog was",
-      "start_seconds": 2121,
-      "wiki_checked": true,
-      "wiki_pageid": 10212,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/250px-Bill_Clinton.jpg"
+      "name": "Jeroen de Ridder",
+      "note": "Filosoof en medeauteur van 'Wat is nou waar?'",
+      "start_seconds": 125,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Wat is nou waar?",
-      "author": "Rik Peels en Jeroen de Ridder",
-      "note": "zeven regels om helder te denken in verwarrende tijden",
-      "start_seconds": 209,
-      "volume_id": "ieRPEQAAQBAJ",
+      "author": "Rik Peels & Jeroen de Ridder",
+      "note": "Boek met zeven regels om helder te denken",
+      "start_seconds": 2540,
+      "volume_id": "knO2zwEACAAJ",
       "canonical_title": "Wat is nou waar? Zeven regels om helder te denken in verwarrende tijden",
-      "canonical_author": "Rik Peels, Jeroen de Ridder",
-      "isbn13": "9789463824408",
-      "isbn10": "9463824405",
-      "thumbnail": "http://books.google.com/books/content?id=ieRPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Eigen Planeet Eerst",
-      "author": "Roxana van Yperen",
-      "note": "over omkering van waarheid in extreemrechtse retoriek",
-      "start_seconds": 1706
+      "canonical_author": "Rik Peels & Jeroen de Ridder",
+      "isbn13": "9789463822688",
+      "isbn10": "9463822682",
+      "thumbnail": ""
     },
     {
       "title": "1984",
       "author": "George Orwell",
-      "note": "verkoop steeg sterk na 'alternative facts'",
-      "start_seconds": 1216,
-      "volume_id": "B2OBEQAAQBAJ",
+      "note": "Verkoop steeg sterk tijdens Trump-periode; 'newspeak'",
+      "start_seconds": 1080,
+      "volume_id": "hejOzgEACAAJ",
       "canonical_title": "1984",
       "canonical_author": "George Orwell",
-      "isbn13": "9789403816791",
-      "isbn10": "9403816791",
-      "thumbnail": "http://books.google.com/books/content?id=B2OBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9798490929895",
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Eigen Planeet Eerst",
+      "author": "Roxana van Yperen",
+      "note": "Beschrijft omkering van werkelijkheid door extreemrechts",
+      "start_seconds": 1710
     }
   ],
   "bible_refs": [
     {
-      "ref": "Johannes 18:37-38",
-      "note": "Jezus voor Pilatus: 'ik ben gekomen om van de waarheid te getuigen' en Pilatus' vraag 'Wat is waarheid?'",
-      "start_seconds": 488
+      "ref": "Johannes 18:38",
+      "note": "Pilatus vraagt 'Wat is waarheid?'",
+      "start_seconds": 475
+    },
+    {
+      "ref": "Zacharia 8",
+      "note": "Spreek de waarheid; verbinding waarheid en recht",
+      "start_seconds": 3900
+    },
+    {
+      "ref": "Johannes 14:6",
+      "note": "Jezus: ik ben de weg, de waarheid en het leven",
+      "start_seconds": 4000
+    },
+    {
+      "ref": "Psalm 119",
+      "note": "Loflied op de Torah; weg, waarheid en leven",
+      "start_seconds": 4050
+    },
+    {
+      "ref": "Johannes 13",
+      "note": "Jezus wast de voeten van zijn leerlingen",
+      "start_seconds": 4000
     }
   ],
   "places": [
     "Zwolle",
     "Parijs",
-    "Irak",
-    "Iran",
-    "Israël",
     "Moskou",
+    "Irak",
     "Oekraïne",
-    "Rusland",
-    "Verenigde Staten",
-    "Duitsland"
+    "Iran",
+    "Almere",
+    "Amerika",
+    "Sicilië"
   ],
-  "summary_tldr": "Live in Zwolle bespreken David Boogerd, Rik Peels en Stefan Paas hoe de waarheid onder druk staat door fake news, 'alternatieve feiten' en bewuste desinformatie. Aan de hand van Trump, Bannon, Russische strategieën en de Irak-oorlog onderzoeken ze hoe waarheid wordt bestreden en hoe je kritisch kunt blijven denken.",
+  "summary_tldr": "In een live-aflevering in Zwolle onderzoeken Rik Peels en Stefan Paas hoe waarheid te vinden is in tijden van fake news, complottheorieën en politieke leugens. Aan de hand van voorbeelden als de Irak-presentatie van Colin Powell, de Trump-administratie en de tabaksindustrie wordt besproken hoe desinformatie werkt en hoe je helder kunt denken. Het gesprek eindigt met bijbelse en filosofische perspectieven op waarheid, zoals waarachtigheid, relationaliteit en de moed tot nuance.",
   "summary_points": [
-    "Na het relativisme van de jaren 90 is de waarheidsvraag terug van weggeweest.",
-    "Drie waarheidstheorieën: correspondentie, coherentie en pragmatisme; Peels onderscheidt waarheden buiten ons, geconstrueerde waarheden en waarheden daartussenin.",
-    "Pilatus' vraag 'Wat is waarheid?' hangt samen met macht en cynisme.",
-    "'Alternatieve feiten' zijn volgens Peels een tribalisering van de waarheid, geen relativisme.",
-    "Bannons 'flood the zone' overspoelt media en publiek zodat niemand de waarheid meer kan vinden; de techniek stamt mede uit Rusland.",
-    "Factchecken overtuigt de tegenpartij niet, maar helpt twijfelaars; leugens zijn sneller dan weerleggingen.",
-    "Omkering van termen (Truth Social, Pravda, 'nazi's' in Oekraïne) is een veelgebruikte truc.",
-    "De Irak-oorlog van 2003 rustte op één onbetrouwbare getuige, met honderdduizenden doden als gevolg.",
-    "Peels' advies: negeer het dagelijkse nieuws, lees kwaliteitskranten en let op langetermijntrends."
+    "Waarheid staat onder druk door fake news, 'alternative facts' en bewuste desinformatie",
+    "Drie waarheidstheorieën (correspondentie, coherentie, pragmatisch) als basis voor het gesprek",
+    "Strategie 'flood the zone' van Steve Bannon: overspoelen met informatie om verwarring te zaaien",
+    "De Irak-presentatie van Colin Powell als voorbeeld van hoe een op één getuige gebaseerde leugen oorlog legitimeert",
+    "Experts beoordelen op track record, consensus en het erkennen van eigen grenzen",
+    "Complotdenken komt voor bij heel diverse mensen; serieus nemen maar tegenspraak bieden",
+    "Tabaksindustrie als voorbeeld van agnotologie: 'doubt is our product'",
+    "Bijbels perspectief: waarheid is verbonden met recht doen en betrouwbaarheid (waarachtigheid)",
+    "Tips: negeer het dagelijkse nieuws, lees kwaliteitskranten en blijf van mening veranderen",
+    "Pleidooi voor de moed tot nuance, niet als compromis maar als open blijven staan voor de ander"
   ],
   "chapters": [
     {
-      "start_seconds": 32,
-      "title": "Opening en introductie",
-      "summary": "David stelt de gasten voor en schetst de strijd om de waarheid in tijden van fake news."
+      "start_seconds": 0,
+      "title": "Inleiding en welkom in Zwolle",
+      "summary": "Presentator David Boogerd introduceert de gasten en het thema van waarheid in verwarrende tijden."
     },
     {
-      "start_seconds": 240,
-      "title": "De waarheid is terug",
-      "summary": "Van het relativisme van de jaren 90 naar de huidige waarheidsclaims, met het voorbeeld van de Olympische Spelen in Parijs."
+      "start_seconds": 225,
+      "title": "Wat is waarheid? Bijbel en filosofie",
+      "summary": "Pilatus' vraag 'Wat is waarheid?' en de drie waarheidstheorieën worden besproken."
     },
     {
-      "start_seconds": 495,
-      "title": "Pilatus en de theorieën over waarheid",
-      "summary": "Pilatus' vraag in Johannes en Peels' mini-college over correspondentie-, coherentie- en pragmatische waarheid."
+      "start_seconds": 915,
+      "title": "Alternative facts en de strijd om de waarheid",
+      "summary": "Trump-adviseurs, de tribalisering van waarheid en de strategie 'flood the zone'."
     },
     {
-      "start_seconds": 913,
-      "title": "Alternatieve feiten en tribalisering",
-      "summary": "Het Conway-interview en Peels' analyse van tribalisering van de waarheid en de rol van factchecken."
+      "start_seconds": 1800,
+      "title": "Irak 2003: een leugen met gevolgen",
+      "summary": "De VN-presentatie van Colin Powell en de rol van onafhankelijke experts."
     },
     {
-      "start_seconds": 1227,
-      "title": "Flooding the zone",
-      "summary": "Bannons strategie, het vijandbeeld, Russische desinformatie en Peels' regel 'negeer het nieuws'."
+      "start_seconds": 2600,
+      "title": "Nederlandse voorbeelden en lessen",
+      "summary": "Marjolein Faber, corona en de moeite van politici om fouten toe te geven."
     },
     {
-      "start_seconds": 1706,
-      "title": "Omkering van de werkelijkheid",
-      "summary": "Truth Social, Pravda en de vraag of Trump extreemrechts genoemd kan worden."
+      "start_seconds": 3150,
+      "title": "Complotdenken en agnotologie",
+      "summary": "Enquête onder de zaal, aard van complotdenkers en de tabaksindustrie als voorbeeld."
     },
     {
-      "start_seconds": 1897,
-      "title": "Irak 2003 en de gevolgen van een hoax",
-      "summary": "Colin Powells presentatie, de ene getuige, de gevolgen en de parallel met Netanyahu en Iran."
+      "start_seconds": 3700,
+      "title": "Bijbelse waarachtigheid en Johannes 14",
+      "summary": "Stefan Paas duidt waarheid als recht doen en betrouwbaarheid, met verwijzingen naar Zacharia en Johannes."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Afsluiting: de moed tot nuance",
+      "summary": "Rik Peels' Scylla-en-Charybdis-beeld en het pleidooi voor nuance zonder midden-positie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1281,
-      "speaker": "Steve Bannon",
-      "text": "We hoeven alleen maar de zone te overspoelen; de media zijn dom en lui.",
-      "note": "Openhartige uitleg van een bewuste desinformatiestrategie."
-    },
-    {
-      "start_seconds": 1297,
-      "speaker": "Rik Peels",
-      "text": "Het is alsof je 10 miljoen sleutels in een kamer leegstort zodat niemand de ene sleutel kan vinden.",
-      "note": "Treffende metafoor voor hoe overdaad aan onzin de waarheid verbergt."
-    },
-    {
-      "start_seconds": 1057,
-      "speaker": "Rik Peels",
-      "text": "Alternatieve feiten zijn geen relativisme maar een tribalisering van de waarheid.",
-      "note": "Scherpe heroverweging van een bekend begrip."
-    },
-    {
-      "start_seconds": 2243,
-      "speaker": "Rik Peels",
-      "text": "De hele invasie van Irak rustte op één getuige die later toegaf alles verzonnen te hebben.",
-      "note": "Schokkend moment over de gevolgen van één leugen."
-    },
-    {
-      "start_seconds": 2330,
+      "start_seconds": 3010,
       "speaker": "Stefan Paas",
-      "text": "Sinds 2000 heeft Netanyahu al tien keer gezegd dat Iran bijna een atoombom heeft.",
-      "note": "Actuele parallel met de Irak-casus."
+      "text": "Je kunt met feiten die feitelijk kloppen toch liegen en onwaarachtig zijn.",
+      "note": "Scherpe onderscheiding tussen feitelijke juistheid en waarachtigheid."
+    },
+    {
+      "start_seconds": 2270,
+      "speaker": "Rik Peels",
+      "text": "In iedere oorlog is waarheid het eerste wat sterft.",
+      "note": "Pakkende samenvatting van de verhouding tussen oorlog en waarheid."
+    },
+    {
+      "start_seconds": 1580,
+      "speaker": "Rik Peels",
+      "text": "Het is een tribalisering van de waarheid: je maakt er een stammenstrijd van.",
+      "note": "Verschuiving van waarheidsrelativisme naar identitaire schotten."
+    },
+    {
+      "start_seconds": 3290,
+      "speaker": "Rik Peels",
+      "text": "Doubt is our product: de tabaksindustrie zaaide bewust twijfel.",
+      "note": "Illustreert hoe twijfel als strategie werkt."
+    },
+    {
+      "start_seconds": 4620,
+      "speaker": "Rik Peels",
+      "text": "Nuance vergt in onze tijd moed, want de flanken trekken aan ons.",
+      "note": "Afsluitend pleidooi dat nuance geen midden-positie is."
     }
   ],
   "keywords": [
     "waarheid",
     "fake news",
-    "alternatieve feiten",
-    "flooding the zone",
+    "alternative facts",
+    "complotdenken",
     "desinformatie",
-    "tribalisering",
     "Irak-oorlog",
-    "Colin Powell",
-    "Steve Bannon",
-    "factchecken",
-    "extremisme",
-    "Wat is nou waar?"
+    "flood the zone",
+    "agnotologie",
+    "waarachtigheid",
+    "nuance",
+    "correspondentietheorie",
+    "experts"
   ],
-  "quotes": [],
+  "quotes": [
+    "Alternatieve feiten zijn geen feiten, het zijn gewoon leugens.",
+    "In iedere oorlog is waarheid het eerste wat sterft.",
+    "Hou je oog op de bal en niet op de persoon."
+  ],
   "similar": [
     {
-      "n": 160,
-      "reason": "Rob Wijnberg over waarheid onder druk en filosofie; raakt aan fake news."
+      "n": 12,
+      "reason": "Gaat over waarheid en nepnieuws, het kernthema van deze aflevering"
     },
     {
-      "n": 133,
-      "reason": "Rik Peels over extreme opvattingen, complotten en politiek (BBB)."
+      "n": 160,
+      "reason": "Behandelt de onder druk staande waarheid en kennis in de huidige tijd"
     },
     {
       "n": 37,
-      "reason": "Complottheorieën als nieuwe religie, met Beatrice de Graaf en Stefan Paas."
+      "reason": "Analyseert complottheorieën en hun religieuze functie, zoals hier besproken"
+    },
+    {
+      "n": 133,
+      "reason": "Gast Rik Peels over complotten en extreme opvattingen, bijna identiek thema"
     },
     {
       "n": 309,
-      "reason": "Chaosstrategie van Trump en Poetin; machtspolitiek en desinformatie."
-    },
-    {
-      "n": 12,
-      "reason": "Waarheid in tijden van nepnieuws met Daan Roovers."
+      "reason": "Behandelt Trump, Poetin en politieke leugens en machtsstrategieën"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

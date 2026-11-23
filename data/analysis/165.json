@@ -1,18 +1,23 @@
 {
   "episode": 165,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 113457,
+    "segments": 1009,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31431,
-    "output_tokens": 2997,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58838,
+    "output_tokens": 3619,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "God & geloof",
-    "Bijbel & Jezus",
+    "Zingeving & psyche",
     "Geschiedenis",
-    "Filosofie & ethiek"
+    "Dood & rouw",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Arnold Huijgen"
@@ -20,345 +25,328 @@
   "people": [
     {
       "name": "Arnold Huijgen",
-      "note": "theoloog en professor aan de Protestantse Theologische Universiteit, auteur van het essay over de hel",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 4895065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnold_Huijgen"
-    },
-    {
-      "name": "Martin Luther",
-      "note": "reformator, spijkerde stellingen tegen de aflaat op 31 oktober",
-      "start_seconds": 192,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Franciscus van Assisi",
-      "note": "heilige, sterfdag is Dierendag",
-      "start_seconds": 231,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
-    },
-    {
-      "name": "António Guterres",
-      "note": "VN-secretaris-generaal die sprak over de 'klimaathel'",
-      "start_seconds": 303,
-      "wiki_checked": true,
-      "wiki_pageid": 270778,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ant%C3%B3nio_Guterres",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Antonio_Guterres_2025_headshot.jpg/250px-Antonio_Guterres_2025_headshot.jpg"
-    },
-    {
-      "name": "Stromae",
-      "note": "zanger van het nummer 'L'enfer' over mentale nood",
-      "start_seconds": 327,
-      "wiki_checked": true,
-      "wiki_pageid": 1885410,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stromae",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Stromae_2011_cropped.jpg/250px-Stromae_2011_cropped.jpg"
-    },
-    {
-      "name": "Godfried Bomans",
-      "note": "schrijver die in 1966 de Sinterklaasintocht als religieus hoogtepunt noemde",
-      "start_seconds": 796,
-      "wiki_checked": true,
-      "wiki_pageid": 59111,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Godfried_Bomans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Godfried_Bomans_%281965%29.jpg/250px-Godfried_Bomans_%281965%29.jpg"
+      "note": "theoloog en gast, professor aan de Protestantse Theologische Universiteit, auteur van het essay over de hel",
+      "start_seconds": 43,
+      "mention_count": 60
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof die het hiernamaals-verhaal gebruikte om mensen te disciplineren",
-      "start_seconds": 1131,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Hannah Arendt",
-      "note": "filosofe, bron van Huijgens uitleg over Plato",
-      "start_seconds": 1197,
-      "wiki_checked": true,
-      "wiki_pageid": 77407,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hannah_Arendt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg/250px-Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader die de hel als eeuwige pijniging uitwerkte",
-      "start_seconds": 1448,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Griekse filosoof; zijn verhaal van de soldaat uit het hiernamaals wordt besproken",
+      "start_seconds": 1134,
+      "mention_count": 3
     },
     {
       "name": "Dante Alighieri",
-      "note": "dichter van de Goddelijke Komedie",
+      "note": "Italiaanse dichter uit de 13e eeuw, auteur van De goddelijke Comedie",
       "start_seconds": 1417,
-      "wiki_checked": true,
-      "wiki_pageid": 3885,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dante_Alighieri",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/250px-Portrait_de_Dante.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Vergilius",
-      "note": "gids van Dante door de hel",
-      "start_seconds": 1435,
-      "wiki_checked": true,
-      "wiki_pageid": 25353,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vergilius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Testa_di_Virgilio_di_profilo.jpg/250px-Testa_di_Virgilio_di_profilo.jpg"
+      "name": "Augustinus",
+      "note": "kerkvader die het idee van de hel als altijddurende pijniging vormgaf",
+      "start_seconds": 1438,
+      "mention_count": 3
     },
     {
-      "name": "Michelangelo",
-      "note": "schilder van de Sixtijnse Kapel, plaatste een criticus in de hel",
-      "start_seconds": 1590,
-      "wiki_checked": true,
-      "wiki_pageid": 1050,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michelangelo_Buonarroti",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Michelango_Portrait_by_Volterra.jpg/250px-Michelango_Portrait_by_Volterra.jpg"
+      "name": "Calvijn",
+      "note": "reformator die de nederdaling in de hel als existentiële strijd aan het kruis uitlegde",
+      "start_seconds": 1860,
+      "mention_count": 4
     },
     {
-      "name": "Jeroen Bosch",
-      "note": "schilder van helse taferelen",
-      "start_seconds": 1571,
-      "wiki_checked": true,
-      "wiki_pageid": 24761,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jheronimus_Bosch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jheronimus_Bosch_%28cropped%29.jpg/250px-Jheronimus_Bosch_%28cropped%29.jpg"
+      "name": "C. S. Lewis",
+      "note": "christelijk schrijver die de hel beschreef als een state of mind",
+      "start_seconds": 2211,
+      "mention_count": 5
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "zag de hel als existentiële categorie: Christus' angst en eenzaamheid aan het kruis",
-      "start_seconds": 1857,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Hannah Arendt",
+      "note": "filosofe die verband legde tussen middeleeuwse hel-beelden en Auschwitz",
+      "start_seconds": 2986,
+      "mention_count": 2
+    },
+    {
+      "name": "Godfried Bomans",
+      "note": "Nederlandse schrijver die de Sinterklaasintocht als hoogtepunt van 1966 noemde",
+      "start_seconds": 800,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "reformator die de stellingen aan de deur spijkerde, in discussie over aflaten",
+      "start_seconds": 189,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; voorbeeld van iemand die volgens het gesprek niet ontkomt aan oordeel",
+      "start_seconds": 2630,
+      "mention_count": 3
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "voorbeeld van ultiem kwaad; genoemd bij de vraag wie in de hel zou komen",
+      "start_seconds": 3250,
+      "mention_count": 2
     },
     {
       "name": "Jonathan Edwards",
-      "note": "Amerikaanse opwekkingsprediker uit de 18e eeuw",
-      "start_seconds": 2118,
-      "wiki_checked": true,
-      "wiki_pageid": 865231,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Edwards_%28theoloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Jonathan_Edwards.jpg/250px-Jonathan_Edwards.jpg"
+      "note": "18e-eeuwse opwekkingsprediker met de preek Sinners in the Hand of an Angry God",
+      "start_seconds": 2131,
+      "mention_count": 2
     },
     {
-      "name": "C.S. Lewis",
-      "note": "schrijver die de hel beschrijft als state of mind",
-      "start_seconds": 2231,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "name": "Origenes",
+      "note": "kerkvader die alverzoening leerde en veroordeeld werd",
+      "start_seconds": 3960,
+      "mention_count": 2
     },
     {
-      "name": "Bas Heijne",
-      "note": "schrijver, geciteerd over het Nederlandse protestantisme",
-      "start_seconds": 1709,
-      "wiki_checked": true,
-      "wiki_pageid": 426466,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bas_Heijne",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bas_Heijne_%282011%29.jpg/250px-Bas_Heijne_%282011%29.jpg"
+      "name": "Hans Urs von Balthasar",
+      "note": "rooms-katholiek theoloog; 'verplicht te geloven dat de hel bestaat, niet dat hij bevolkt is'",
+      "start_seconds": 3998,
+      "mention_count": 2
+    },
+    {
+      "name": "Abel Herzberg",
+      "note": "Joods jurist en auteur die stelde dat elke straf een nederlaag is",
+      "start_seconds": 3800,
+      "mention_count": 2
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 49,
+      "mention_count": 50
+    },
+    {
+      "name": "Erasmus",
+      "note": "humanist; zei dat theologen over de hel schrijven alsof ze er geweest zijn",
+      "start_seconds": 3350,
+      "mention_count": 1
+    },
+    {
+      "name": "Stromae",
+      "note": "Belgische artiest; lied L'enfer over mentale nood",
+      "start_seconds": 327,
+      "mention_count": 2
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "heilige wiens sterfdag op dierendag wordt gevierd",
+      "start_seconds": 231,
+      "mention_count": 2
+    },
+    {
+      "name": "Guterres",
+      "note": "VN-secretaris-generaal die waarschuwde voor de klimaathel",
+      "start_seconds": 183,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeroen Bosch",
+      "note": "schilder van hel-voorstellingen",
+      "start_seconds": 1580,
+      "mention_count": 2
+    },
+    {
+      "name": "Michelangelo",
+      "note": "kunstenaar van de Sixtijnse Kapel met persoonlijke afrekening in de hel",
+      "start_seconds": 1600,
+      "mention_count": 2
+    },
+    {
+      "name": "Hilbrand Roosma",
+      "note": "ND-columnist die schreef over Gemur",
+      "start_seconds": 3290,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Waarom de wereld een hel nodig heeft",
       "author": "Arnold Huijgen",
-      "note": "essay over de herwaardering van de hel",
-      "start_seconds": 300,
-      "volume_id": "YhrMEAAAQBAJ",
+      "note": "nieuw essay over de herwaardering van de hel",
+      "start_seconds": 5,
+      "volume_id": "b7Bd0AEACAAJ",
       "canonical_title": "Waarom de wereld een hel nodig heeft",
       "canonical_author": "Arnold Huijgen",
-      "isbn13": "9789043540353",
-      "isbn10": "9043540358",
-      "thumbnail": "http://books.google.com/books/content?id=YhrMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789043540346",
+      "isbn10": "904354034X",
+      "thumbnail": ""
     },
     {
-      "title": "De goddelijke komedie",
+      "title": "De goddelijke Comedie",
       "author": "Dante Alighieri",
-      "note": "reis door de hel met Vergilius als gids",
-      "start_seconds": 1417,
-      "volume_id": "aTlyAAAAQBAJ",
+      "note": "reis door de hel met rondleiding van Vergilius",
+      "start_seconds": 1385,
+      "volume_id": "ZCJIvwEACAAJ",
       "canonical_title": "De goddelijke komedie",
       "canonical_author": "Dante Alighieri",
-      "isbn13": "9789025364588",
-      "isbn10": "9025364586",
-      "thumbnail": "http://books.google.com/books/content?id=aTlyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Jesaja 66:24",
-      "note": "de worm die niet sterft en het vuur dat niet wordt uitgeblust",
-      "start_seconds": 1365
+      "ref": "Matteüs 5",
+      "note": "Bergrede; omzien naar de ander, de weg naar ondergang",
+      "start_seconds": 2420
     },
     {
-      "ref": "Mattheus 5",
-      "note": "Bergrede, de ander zien en de extra mijl gaan",
-      "start_seconds": 2401
+      "ref": "Jesaja 66:24",
+      "note": "worm die niet sterft en vuur dat niet wordt gebluscht, verwijzing naar lijken",
+      "start_seconds": 1290
+    },
+    {
+      "ref": "2 Tessalonicenzen 1:9",
+      "note": "ver weg van de Heer zijn als hel",
+      "start_seconds": 3440
+    },
+    {
+      "ref": "Mattheüs 27:46",
+      "note": "Jezus' roep van godverlatenheid aan het kruis",
+      "start_seconds": 3540
+    },
+    {
+      "ref": "Openbaring",
+      "note": "vuurpoel waarin al het kwaad wordt gegooid",
+      "start_seconds": 3300
     }
   ],
   "places": [
     "Utrecht",
-    "Gehenna",
     "Jeruzalem",
-    "Israël",
-    "Gaza",
     "Auschwitz",
     "Butscha",
+    "Gaza",
+    "Israël",
+    "Oekraïne",
+    "Syrië",
     "Harlingen",
+    "Aberdeen",
     "Rome",
-    "Singapore",
-    "Verenigde Staten",
-    "Afrika"
+    "Singapore"
   ],
-  "summary_tldr": "Theoloog Arnold Huijgen betoogt dat de hel een comeback maakt in de seculiere cultuur en dat we haar juist nu nodig hebben, omdat ze gaat over het einde van het kwaad en over uitsluiting. Samen met David Boogerd en Stefan Paas bespreekt hij de geschiedenis van de hel van Plato en Augustinus tot Dante, Calvijn en C.S. Lewis. Huijgen leest de hel vooral als een existentiële toestand van zelfopsluiting en ontmenselijking.",
+  "summary_tldr": "Theoloog Arnold Huijgen stelt dat de hel terugkeert in seculiere cultuur, juist omdat het idee van kwaad en oordeel nog steeds herkenbaar is. Hij ziet de hel niet primair als fysieke plek van eeuwige marteling, maar als een state of mind van uitsluiting en egoïsme, en als belofte dat het kwaad uiteindelijk wordt overwonnen. Stefan Paas bevraagt de historische en pedagogische functie van de hel en de risico's van angst en machtsmisbruik.",
   "summary_points": [
-    "De hel keert terug in populaire cultuur en taal, onder meer bij Guterres, Stromae en Netflix-series.",
-    "Huijgens stelling: hel hangt samen met uitsluiting en ontmenselijking van de ander.",
-    "Het verlangen naar een hel is een verlangen dat het kwaad niet blijft bestaan; het laatste oordeel is aan God.",
-    "Gelovigen in het Westen hebben moeite met de hel, mede door een liefdevoller Godsbeeld en een zachtere cultuur.",
-    "De beelden van kwelling komen meer uit de Griekse oudheid dan uit de Bijbel; Plato gebruikte ze pedagogisch.",
-    "Augustinus maakte de eeuwige pijniging dominant in het Westen; Dante plaatste tijdgenoten in de hel.",
-    "Calvijn zag de hel als existentiële ervaring van Christus aan het kruis; de Oosterse kerk kent een louterende hel.",
-    "C.S. Lewis beschrijft de hel als een state of mind van egoïsme en isolement.",
-    "Jezus' beelden van vuur, duisternis en Gehenna zijn beeldspraak, niet letterlijk bedoeld."
+    "De hel keert terug in seculiere kringen, terwijl gelovigen er juist minder over spreken",
+    "Verklaringen: verandering van God-beeld, minder straf en autoriteit, en culturele verschuivingen",
+    "Historische wortels van de hel liggen deels bij Plato en de Griekse mythen, met pedagogische functie",
+    "Augustinus en Dante vormden het westerse beeld van eeuwige pijniging; Calvijn zag de hel als existentiële godverlatenheid",
+    "Huijgen beschrijft de hel als state of mind en als resultaat van ontmenselijking en uitsluiting",
+    "Een geseculariseerde hel kan op aarde ontstaan, zoals in Auschwitz",
+    "De hel biedt volgens Huijgen hoop op een ultieme afrekening met het kwaad",
+    "Vragen over straf, universalisme en de mogelijkheid van een tweede kans blijven open",
+    "Het publiek vraagt naar uitsluiting en de rol van de duivel in het kwaad"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Halloween, Allerheiligen en Hervormingsdag",
-      "summary": "Introductie van de gast en de kalenderachtergrond van Halloween, Allerheiligen, Luther en de aflaat."
+      "title": "Inleiding en Halloween",
+      "summary": "Presentatie van de gasten en het thema, met een uitweiding over Allerheiligen en Hervormingsdag."
     },
     {
       "start_seconds": 300,
-      "title": "De comeback van de hel",
-      "summary": "Voorbeelden van de hel in klimaatdebat, muziek en series, en de link met ontmenselijking in Israël en Gaza."
+      "title": "Is de hel terug?",
+      "summary": "Huijgen onderbouwt de comeback van de hel met klimaatretoriek, Stromae, Squid Game en The Good Place."
     },
     {
-      "start_seconds": 670,
-      "title": "Waarom gelovigen de hel afschaffen",
-      "summary": "Een liefdevoller God, een zachtere cultuur en zelfdisciplinering als verklaring voor de verlegenheid."
+      "start_seconds": 1100,
+      "title": "Geschiedenis van de hel",
+      "summary": "Van Plato en Griekse mythen naar Jezus, Dante, Augustinus en het middeleeuwse vagevuur."
     },
     {
-      "start_seconds": 1110,
-      "title": "Plato en de Griekse oorsprong",
-      "summary": "Sisyphus, Tantalus en Plato's hiernamaalsverhaal als pedagogisch instrument."
+      "start_seconds": 2000,
+      "title": "Calvijn, protestantisme en angst",
+      "summary": "De rol van protestantse bangmakerij, opwekking en de vraag of hel als pedagogiek nog past."
     },
     {
-      "start_seconds": 1380,
-      "title": "Augustinus, Dante en de kunst",
-      "summary": "De eeuwige pijniging, Dantes hel, Michelangelo's persoonlijke afrekening en de rangorde van zonden."
+      "start_seconds": 2700,
+      "title": "Hel als state of mind",
+      "summary": "Huijgen presenteert zijn beeld van de hel als uitsluiting, met C.S. Lewis en de Bijbelse beelden."
     },
     {
-      "start_seconds": 1700,
-      "title": "Protestantisme, Calvijn en het vagevuur",
-      "summary": "Aflaten, Calvijns existentiële hel, de Oosterse kerk en de angst bij protestanten en Jonathan Edwards."
+      "start_seconds": 3500,
+      "title": "Straf, universalisme en het kwaad",
+      "summary": "Discussie over straf, alverzoening en de vraag of het kwaad uiteindelijk wordt overwonnen."
     },
     {
-      "start_seconds": 2170,
-      "title": "Wat is de hel eigenlijk?",
-      "summary": "Huijgen met C.S. Lewis: de hel als state of mind, en een lezing van Jezus' beelden en Gehenna."
+      "start_seconds": 4400,
+      "title": "Publieksvragen",
+      "summary": "Vragen over Jezus in de hel, een tweede kans, evangeliseren en de duivel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 300,
+      "start_seconds": 2420,
       "speaker": "Arnold Huijgen",
-      "text": "De hel is de plek waar het kwaad blijft.",
-      "note": "Kernidee dat de hel niet een bangmakerij is maar gaat over het lot van het kwaad."
+      "text": "Elke straf is een nederlaag.",
+      "note": "Scherpe gedachte van Abel Herzberg die de ethiek van straf op zijn kop zet."
     },
     {
-      "start_seconds": 496,
+      "start_seconds": 2690,
       "speaker": "Arnold Huijgen",
-      "text": "Uitsluiting heeft ermee te maken dat je die ander ontmenselijkt.",
-      "note": "Koppelt hel aan de actualiteit van 7 oktober en Gaza."
+      "text": "Zelfs Poetin is een mens.",
+      "note": "Huijgen waarschuwt dat het veroordelen van de ander zelf tot ontmenselijking leidt."
     },
     {
-      "start_seconds": 800,
+      "start_seconds": 1990,
       "speaker": "Arnold Huijgen",
-      "text": "Sinterklaas gooide zijn zak overboord, een religieus gebaar dat Bomans toejuichte.",
-      "note": "Anekdote over God die lief werd en niet meer straft."
+      "text": "Een geseculariseerde hel: wij mensen zijn er ontzettend goed in om een hel op aarde te maken voor elkaar.",
+      "note": "Koppeling tussen hel-denken en concrete geschiedenis zoals Auschwitz."
     },
     {
-      "start_seconds": 1590,
+      "start_seconds": 2220,
       "speaker": "Arnold Huijgen",
-      "text": "Michelangelo gaf de criticus het hoofd van Minos, met een slang in zijn edele delen.",
-      "note": "Grappige persoonlijke afrekening in de Sixtijnse Kapel."
+      "text": "Je wordt je eigen hel.",
+      "note": "Het beeld van de hel als eigen keuze, een omkering van het klassieke straffende God-beeld."
     },
     {
-      "start_seconds": 2231,
+      "start_seconds": 3840,
       "speaker": "Arnold Huijgen",
-      "text": "C.S. Lewis beschrijft de hel als een state of mind: laat mij alsjeblieft alleen.",
-      "note": "Centrale herinterpretatie van de hel als zelfopsluiting."
+      "text": "De zondaar scheiden van de zonde, dat kan alleen God.",
+      "note": "Pleidooi tegen menselijk oordelen, relevant voor de discussie over uitsluiting."
     }
   ],
   "keywords": [
     "hel",
+    "state of mind",
     "uitsluiting",
     "ontmenselijking",
-    "Dante",
+    "vagevuur",
     "Augustinus",
     "Calvijn",
     "C.S. Lewis",
-    "vagevuur",
-    "aflaat",
-    "Gehenna",
-    "Plato",
-    "Halloween"
+    "laatste oordeel",
+    "alverzoening",
+    "Dante",
+    "pedagogiek van angst"
   ],
-  "quotes": [
-    "'De hel is helemaal terug', stelt theoloog Arnold Huijgen.",
-    "Juist nú hebben we de hel nodig."
-  ],
+  "quotes": [],
   "similar": [
     {
       "n": 304,
-      "reason": "Zelfde gast Arnold Huijgen, over bijbelse thema's en bezieling in de cultuur"
+      "reason": "Zelfde gast Arnold Huijgen; over zingeving, ziel en het kwaad"
     },
     {
-      "n": 200,
-      "reason": "Augustinus centraal, theologie en geschiedenis van christelijke denkbeelden"
+      "n": 299,
+      "reason": "Bijbel, vergeving en oordeel sluiten aan bij het thema van de hel"
     },
     {
-      "n": 122,
-      "reason": "Filosofische worsteling met God en het kwaad, Nietzsche en de dood van God"
+      "n": 274,
+      "reason": "Dood en het herwaarderen van de dood, met God en zingeving"
     },
     {
-      "n": 155,
-      "reason": "Filosofiegeschiedenis rond God, dood en ongeloof met Ger Groot"
+      "n": 212,
+      "reason": "Dood van God en de betekenis van geloof voor jongeren"
     },
     {
-      "n": 14,
-      "reason": "Het kwaad als thema, bijbels en historisch benaderd"
+      "n": 201,
+      "reason": "Gesprek over angst voor de dood en wat er na de dood komt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

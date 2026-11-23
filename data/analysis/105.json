@@ -1,279 +1,336 @@
 {
   "episode": 105,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 105476,
+    "segments": 1067,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31500,
-    "output_tokens": 3195,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 54669,
+    "output_tokens": 8211,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
     "Politiek",
-    "God & geloof",
-    "Kerk & secularisatie"
+    "Geschiedenis",
+    "God & geloof"
   ],
   "guests": [
     "Rikko Voorberg"
   ],
   "people": [
     {
-      "name": "Rikko Voorberg",
-      "note": "kunstenaar, activist en 'theoloog in het wild'",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "name": "Mark Rutte",
+      "note": "Nederlands premier; zei dat landen aan de Middellandse Zee 'geografisch pech' hebben",
+      "start_seconds": 799,
+      "mention_count": 3
     },
     {
       "name": "Thierry Baudet",
-      "note": "leider van Forum voor Democratie, genoemd als gesprekspartner",
+      "note": "Leider van Forum voor Democratie; Stefan Paas heeft gesprekken met hem gehad",
       "start_seconds": 26,
-      "wiki_checked": true
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president, grappend genoemd",
-      "start_seconds": 115,
-      "wiki_checked": true
-    },
-    {
-      "name": "Roos",
-      "note": "medewerker van Migrati die in Ter Apel spullen distribueert",
-      "start_seconds": 420,
-      "wiki_checked": true
-    },
-    {
-      "name": "Wopke Hoekstra",
-      "note": "CDA-politicus, genoemd in een grap over heldendom",
-      "start_seconds": 456,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thomas Quartier",
-      "note": "theoloog des Vaderlands, pleit voor open grenzen",
-      "start_seconds": 822,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten van Rossum",
-      "note": "radiogesprek over opvang",
-      "start_seconds": 838,
-      "wiki_checked": true
-    },
-    {
-      "name": "Danny Goossen",
-      "note": "bezocht Ter Apel en sprak met boze burgers en een vluchteling",
-      "start_seconds": 894,
-      "wiki_checked": true
-    },
-    {
-      "name": "Herman Tjeenk Willink",
-      "note": "oud-vicepresident Raad van State, over de rechtsstaat en de toeslagenaffaire",
-      "start_seconds": 1109,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Annabel Nanninga",
-      "note": "JA21, sprak over 'maatschappelijke werkelijkheid' bij gezinshereniging",
+      "note": "JA21-politica; uitspraak over 'maatschappelijke werkelijkheid' bij het gezinsherenigingsbeleid",
       "start_seconds": 1174,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "premier, 'geografisch pech' over Zuid-Europese landen",
-      "start_seconds": 799,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, schoof het politieke midden naar rechts",
-      "start_seconds": 1411,
-      "wiki_checked": true
+      "note": "PVV-leider; zou alles links van zijn partij als links bestempelen",
+      "start_seconds": 1387,
+      "mention_count": 1
     },
     {
-      "name": "Adolf Hitler",
-      "note": "voorbeeld van rationele ideologie zonder grenzen; aanleiding voor mensenrechten",
-      "start_seconds": 1520,
-      "wiki_checked": true
+      "name": "Gideon van Meijeren",
+      "note": "Forum voor Democratie-politicus; vergeleken met Voorberg",
+      "start_seconds": 3187,
+      "mention_count": 2
     },
     {
-      "name": "Geert Mak",
-      "note": "historicus, over Europa als slagveld",
-      "start_seconds": 1599,
-      "wiki_checked": true
-    },
-    {
-      "name": "Nicki Pouw-Verweij",
-      "note": "JA21, eerdere gast met argumenten over opvang in de regio",
+      "name": "Nicky Pauw",
+      "note": "JA21-politica die eerder te gast was in de podcast",
       "start_seconds": 1635,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Hans Reinders",
-      "note": "emeritus hoogleraar VU, over mensenrechten en mensbeeld",
-      "start_seconds": 2183,
-      "wiki_checked": true
+      "name": "Thomas Quartier",
+      "note": "Theoloog des Vaderlands; pleit voor minder grenzen",
+      "start_seconds": 821,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten van Rossum",
+      "note": "Schrijver/columnist die vergelijkbaar pleit voor open opvang",
+      "start_seconds": 821,
+      "mention_count": 1
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaars premier",
-      "start_seconds": 2205,
-      "wiki_checked": true
+      "note": "Hongaars premier; gesteund door gelovige kiezers",
+      "start_seconds": 2211,
+      "mention_count": 1
     },
     {
-      "name": "Yuval Noah Harari",
-      "note": "schrijver, over de religieuze oorsprong van mensenrechten",
-      "start_seconds": 2113,
-      "wiki_checked": true
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; voorbeeld van rationaliserende ontmenselijking",
+      "start_seconds": 1520,
+      "mention_count": 1
     },
     {
-      "name": "Tom Holland",
-      "note": "historicus, idem",
-      "start_seconds": 2113,
-      "wiki_checked": true
+      "name": "Danny Goossen",
+      "note": "Journalist die in Ter Apel met boze burgers en vluchtelingen sprak",
+      "start_seconds": 891,
+      "mention_count": 1
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "CDA-politicus; genoemd in een grap over 'helden'",
+      "start_seconds": 451,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk-Jan Prossman",
+      "note": "FVD-dominee die kerkelijke vluchtelingensteun steunt",
+      "start_seconds": 3400,
+      "mention_count": 1
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof, genoemd als vroege denker over de religieuze basis van waarden",
-      "start_seconds": 2113,
-      "wiki_checked": true
+      "note": "Filosoof; zou al vroeg de universele mensenrechten hebben bekritiseerd",
+      "start_seconds": 2089,
+      "mention_count": 1
+    },
+    {
+      "name": "Yuval Noah Harari",
+      "note": "Historicus en schrijver; ziet mensenrechten als menselijke afspraak",
+      "start_seconds": 2089,
+      "mention_count": 2
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Historicus; ziet mensenrechten als joods-christelijke erfenis",
+      "start_seconds": 2089,
+      "mention_count": 1
+    },
+    {
+      "name": "Jonathan Sacks",
+      "note": "Brits rabbijn; schreef over spanning tussen menselijke waardigheid en reductionisme",
+      "start_seconds": 2442,
+      "mention_count": 2
+    },
+    {
+      "name": "Hans Reijnders",
+      "note": "Emeritus hoogleraar politieke theologie aan de VU",
+      "start_seconds": 2183,
+      "mention_count": 2
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe; over de zin van politiek handelen",
+      "start_seconds": 2694,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Merton",
+      "note": "Trappistenmonnik; schreef brief aan jonge activist over hoop op resultaat",
+      "start_seconds": 2723,
+      "mention_count": 1
+    },
+    {
+      "name": "Martha Nussbaum",
+      "note": "Filosofe; schreef over waardegebaseerde rationaliteit en compassie",
+      "start_seconds": 2593,
+      "mention_count": 1
+    },
+    {
+      "name": "Antonio Damasio",
+      "note": "Neurowetenschapper; onderzoek naar het belang van emoties",
+      "start_seconds": 2625,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "Schrijver en historicus; over Europa als slagveld",
+      "start_seconds": 1591,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Bouteiller",
+      "note": "Socioloog; eerder te gast; over voltooide secularisatie",
+      "start_seconds": 2905,
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof; 'meesters en bezitters van de natuur'",
+      "start_seconds": 2321,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Onzeker weten",
+      "author": "Rikko Voorberg",
+      "note": "Boek over handelen zonder zekerheid over resultaten",
+      "start_seconds": 2796,
+      "volume_id": "9BsCzwEACAAJ",
+      "canonical_title": "Onzeker weten. Een inleiding in de radicale theologie",
+      "canonical_author": "Rikko Voorberg",
+      "isbn13": "9789043537933",
+      "isbn10": "9043537934",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Ter Apel",
+    "Den Haag",
     "Bosnië",
     "Lesbos",
-    "Amsterdam",
     "Griekenland",
     "Italië",
-    "Hongarije",
     "Polen",
+    "Hongarije",
+    "Aleppo",
     "Libanon",
     "Syrië",
     "Afghanistan",
-    "Den Haag",
-    "Oekraïne",
-    "Zweden"
+    "Jemen",
+    "Zweden",
+    "Rotterdam",
+    "Amsterdam",
+    "Jordaan",
+    "Europa"
   ],
-  "summary_tldr": "Rikko Voorberg vertelt over de schaamte die hij voelt bij het werken met vluchtelingen aan de Europese grenzen en in Ter Apel, en over het afbrokkelende draagvlak voor vluchtelingenrecht. Samen met Stefan Paas bespreekt hij hoe populisme, vergeten oorlogstrauma en secularisatie van de politiek het idee van de heilige, onschendbare mens uithollen.",
+  "summary_tldr": "Rikko Voorberg, kunstenaar en 'theoloog in het wild', vertelt over zijn schaamte over het Nederlandse asielbeleid en zijn werk met vluchtelingen aan de grens. Samen met Stefan Paas bespreekt hij hoe het draagvlak voor vluchtelingen afbrokkelt en wat secularisatie van de politiek hiermee te maken heeft. Het gesprek eindigt bij het idee van grenspastoraat en de vraag hoe hoop te behouden.",
   "summary_points": [
-    "Voorberg voelt schaamte over het beleid en over zijn eigen rol als hulpverlener die 'Sinterklaas' speelt.",
-    "Die schaamte is volgens Paas een teken van verbondenheid en essentieel om het werk goed te doen.",
-    "Kwetsbare groepen (woningzoekenden en vluchtelingen) worden tegen elkaar uitgespeeld; de verantwoordelijkheid ligt bij Den Haag.",
-    "Het politieke midden is naar rechts opgeschoven; de rechtsstaat wordt op losse schroeven gezet onder het mom van 'realisme'.",
-    "Mensenrechten en vluchtelingenrecht ontstonden uit het trauma van de Tweede Wereldoorlog, dat nu uitgewerkt lijkt.",
-    "Argumenten als opvang in de regio en culturele nabijheid (Oekraïners) worden door Voorberg weerlegd; regels zijn er juist tegen onze onderbuikgevoelens.",
-    "Ook romantiseren van vluchtelingen is een valkuil.",
-    "Mensenrechten hebben een mens- en wereldbeeld nodig; het monotheïsme bood de voedingsbodem voor universele menswaardigheid."
+    "Voorberg voelt schaamte over het asielbeleid en over zijn eigen rol als onderdeel van het systeem",
+    "Hulp aan vluchtelingen bij de grens kan gevaarlijk gaan voelen als het gaat om eigen heldenstatus",
+    "Verdeeldheid tussen kwetsbare groepen wordt door machthebbers gebruikt",
+    "Het draagvlak voor vluchtelingenrecht is sterk verschoven naar rechts, ook bij middenpartijen",
+    "Mensenrechten hebben volgens de gasten een religieuze voedingsbodem nodig om stand te houden",
+    "Secularisatie van de politiek maakt het beleid technocratisch en verarmt de bezielde taal",
+    "Voorberg pleit voor een overheid die mensen als mens behandelt, zonder dat die in God hoeft te geloven",
+    "Volgens Voorberg is het grenspastoraat een manier om ontmenselijking tegen te gaan door menselijk contact",
+    "Hoop ligt volgens Voorberg juist in de pijn en het lijden waar men zich aan blootstelt"
   ],
   "chapters": [
     {
-      "start_seconds": 0,
-      "title": "Theoloog in het wild",
-      "summary": "Kennismaking met Rikko Voorberg en zijn rol buiten de kerkelijke instituten."
+      "start_seconds": 34,
+      "title": "Introductie en het thema asiel",
+      "summary": "David Boogerd introduceert Voorberg en het urgente thema van vluchtelingen en secularisatie."
     },
     {
       "start_seconds": 265,
-      "title": "Schaamte aan de grens",
-      "summary": "Voorberg over schaamte bij hulpverlening in Bosnië, Lesbos en Ter Apel en wat die emotie betekent."
+      "title": "Schaamte en verbondenheid",
+      "summary": "Voorberg beschrijft zijn schaamte over het beleid en de gênante rol van hulpverleners aan de grens."
     },
     {
-      "start_seconds": 585,
-      "title": "Gelukzoekers, woningnood en gewenning",
-      "summary": "Over vooroordelen, de wooncrisis en het uitspelen van kwetsbare groepen tegen elkaar."
+      "start_seconds": 780,
+      "title": "Draagvlak, woningnood en verdeeldheid",
+      "summary": "Het gesprek gaat over tegenargumenten, woningnood en hoe kwetsbare groepen tegen elkaar worden uitgespeeld."
     },
     {
-      "start_seconds": 1050,
-      "title": "Rechtsstaat en realisme",
-      "summary": "Kritiek op politici die juridische regels opzijschuiven en het opschuivende politieke midden."
+      "start_seconds": 2089,
+      "start_seconds_note": "",
+      "title": "Mensenrechten en heiligheid",
+      "summary": "Discussie over de religieuze wortels van mensenrechten en de vraag of de mens inherent waardevol is."
     },
     {
-      "start_seconds": 1480,
-      "title": "Trauma en mensenrechten",
-      "summary": "Hoe de Tweede Wereldoorlog mensenrechten voortbracht en waarom dat trauma vervaagt."
+      "start_seconds": 2880,
+      "title": "Secularisatie van de politiek",
+      "summary": "Stefan Paas en Voorberg analyseren hoe politiek technocratisch en zinloos is geworden."
     },
     {
-      "start_seconds": 1635,
-      "title": "Opvang in de regio en culturele nabijheid",
-      "summary": "Bespreking van argumenten van JA21 en het verschil in opvang van Oekraïners en anderen."
+      "start_seconds": 3368,
+      "title": "Christelijke overheid en de staat",
+      "summary": "Debat over de rol van christelijke partijen en de verhouding tussen geloof en overheid."
     },
     {
-      "start_seconds": 2000,
-      "title": "Heilige mens en secularisatie van de politiek",
-      "summary": "Of mensenrechten een religieuze voedingsbodem hebben en wat er gebeurt als het heilige ontzag verdwijnt."
+      "start_seconds": 3680,
+      "title": "Grenspastoraat",
+      "summary": "Voorberg licht zijn idee van grenspastoraat toe als vorm van menselijk contact met vluchtelingen."
+    },
+    {
+      "start_seconds": 3941,
+      "title": "Hoop in het donker",
+      "summary": "Het gesprek eindigt met de vraag hoe Voorberg hoopvol blijft."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 320,
+      "start_seconds": 282,
       "speaker": "Rikko Voorberg",
-      "text": "Je bent een soort Sinterklaas die dingen uitdeelt die mensen eigenlijk niet nodig zouden hebben als ze gewoon mochten werken.",
-      "note": "Confronterend zelfbeeld van een hulpverlener."
+      "text": "Schaamte is de basisemotie van iedereen die mensen spreekt die als gevolg van ons beleid buiten wonen.",
+      "note": "Maakt de persoonlijke en morele lading van het asielbeleid zichtbaar."
     },
     {
-      "start_seconds": 480,
+      "start_seconds": 561,
+      "speaker": "Rikko Voorberg",
+      "text": "Ik ben onderdeel van dit probleem.",
+      "note": "Scherpe zelfkritiek die de verantwoordelijkheid bij de burger legt, niet alleen bij Den Haag."
+    },
+    {
+      "start_seconds": 2905,
       "speaker": "Stefan Paas",
-      "text": "Op het moment dat je trots gaat zijn op het feit dat je slaapmatjes uitdeelt, ben je verloren.",
-      "note": "Scherpe waarschuwing tegen koloniale hulpverlening."
+      "text": "Secularisatie is pas echt voltooid als ook alle verhalen die religie vervangen, op een eind zijn.",
+      "note": "Originele stelling van Hans Bouteiller, die de politiek in een nieuw licht plaatst."
     },
     {
-      "start_seconds": 1030,
+      "start_seconds": 2752,
       "speaker": "Rikko Voorberg",
-      "text": "Realisme is vaak gewoon ongeloof of een gebrek aan respect voor wat we met elkaar hebben afgesproken.",
-      "note": "Herdefinieert 'realisme' als een geloofskwestie."
-    },
-    {
-      "start_seconds": 1950,
-      "speaker": "Rikko Voorberg",
-      "text": "We hebben regels omdat we onze gut feeling niet kunnen vertrouwen; vrouwe Justitia is blind.",
-      "note": "Vergelijking met consent om selectieve empathie te bekritiseren."
-    },
-    {
-      "start_seconds": 2025,
-      "speaker": "Rikko Voorberg",
-      "text": "Een installatie met mensenrechten in steen die als een Mozes-scène kapotvallen.",
-      "note": "Kunstwerk als kritiek op christelijke partijen."
+      "text": "Maak jezelf niet afhankelijk van de hoop op resultaten.",
+      "note": "Advies van Thomas Merton dat Voorberg zijn werk laat zien als een daad zonder garantie op effect."
     }
   ],
   "keywords": [
-    "vluchteling",
-    "asielcrisis",
-    "schaamte",
-    "mensenrechten",
-    "rechtsstaat",
-    "populisme",
+    "asielbeleid",
     "secularisatie",
-    "Ter Apel",
-    "gezinshereniging",
-    "menswaardigheid",
-    "Tweede Wereldoorlog"
+    "mensenrechten",
+    "schaamte",
+    "grenspastoraat",
+    "technocratie",
+    "draagvlak",
+    "populisme",
+    "heiligheid",
+    "vluchtelingenrecht",
+    "hoop",
+    "politieke theologie"
   ],
   "quotes": [
     "Wat we zien is secularisatie van de politiek",
-    "Is ieder mens heilig en intrinsiek van waarde of is dat idee steeds meer aan het afbrokkelen?"
+    "Voorberg voelt zich het meest pastor in een vluchtelingenkamp, maar daar zijn brengt hem ook veel schaamte.",
+    "En de gevolgen zijn misschien wel groter dan we denken."
   ],
   "similar": [
     {
-      "n": 197,
-      "reason": "Migratie als politiek en cultureel hoofdthema, met mythes en populisme"
+      "n": 148,
+      "reason": "Asielcrisis als onderwerp, met kerkelijke en christelijke politieke achtergrond"
     },
     {
-      "n": 148,
-      "reason": "Asielcrisis, kabinetsval en het failliet van het humanisme"
+      "n": 197,
+      "reason": "Migratie als centraal politiek thema, met inzicht in mythes rond asiel"
     },
     {
       "n": 17,
-      "reason": "Migratie, grenzen en geloof, met Theoloog des Vaderlands"
+      "reason": "Migratie, grenzen en de rol van theologen, sluit aan bij grenspastoraat"
     },
     {
-      "n": 304,
-      "reason": "Zielloos Nederland, AZC-protesten en verlangen naar bezieling"
+      "n": 192,
+      "reason": "Samenleving en migratie in Europa, met aandacht voor cultuurchristendom en politiek"
     },
     {
-      "n": 103,
-      "reason": "Politiek, migratie en secularisatie met Nicki Pouw-Verweij"
+      "n": 15,
+      "reason": "Verweesde samenleving en politiek, met migratie en geloof als thema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

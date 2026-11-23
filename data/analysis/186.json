@@ -1,250 +1,283 @@
 {
   "episode": 186,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 92544,
+    "segments": 1063,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31406,
-    "output_tokens": 2233,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 48017,
+    "output_tokens": 2851,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
-    "Kunst & cultuur",
+    "Islam & jodendom",
     "Geopolitiek & oorlog",
-    "Islam & jodendom"
+    "Politiek",
+    "Geschiedenis"
   ],
   "guests": [
     "Abdelkader Benali"
   ],
   "people": [
     {
-      "name": "Geert Wilders",
-      "note": "PVV-leider, winnaar van de verkiezingen van november 2023",
-      "start_seconds": 289,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "name": "Abdelkader Benali",
+      "note": "gast; schrijver en columnist van Trouw",
+      "start_seconds": 5,
+      "mention_count": 30
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast; theoloog, VU en Theologische Universiteit Utrecht",
+      "start_seconds": 475,
+      "mention_count": 30
     },
     {
       "name": "Johann Sebastian Bach",
-      "note": "componist van de Matthäus-Passion, door Benali bewonderd",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "note": "componist, kapelmeester in Leipzig; centraal onderwerp",
+      "start_seconds": 1920,
+      "mention_count": 25
     },
     {
-      "name": "Isaac Herzog",
-      "note": "president van Israël, sprak bij het Nationaal Holocaustmuseum",
-      "start_seconds": 761,
-      "wiki_checked": true,
-      "wiki_pageid": 4313324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Herzog",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Isaac_Herzog%2C_July_2021_%28D1233-049%29.JPG/250px-Isaac_Herzog%2C_July_2021_%28D1233-049%29.JPG"
+      "name": "Geert Wilders",
+      "note": "PVV-leider; winst november 2023 besproken",
+      "start_seconds": 290,
+      "mention_count": 10
+    },
+    {
+      "name": "Herzog",
+      "note": "Israëlische president; sprak bij het Holocaustmuseum",
+      "start_seconds": 760,
+      "mention_count": 3
     },
     {
       "name": "Pontius Pilatus",
-      "note": "figuur uit de Matthäus-Passion, vraagt het volk wie vrijgelaten moet worden",
-      "start_seconds": 882,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
-    },
-    {
-      "name": "Petrus",
-      "note": "apostel die Jezus verloochent, thema van Erbarme dich",
-      "start_seconds": 2220,
-      "wiki_checked": true,
-      "wiki_pageid": 10525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Petrus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pope-peter_pprubens.jpg/250px-Pope-peter_pprubens.jpg"
+      "note": "Romeins stadhouder in de lijdensverhaal van Jezus",
+      "start_seconds": 870,
+      "mention_count": 1
     },
     {
       "name": "Rutger Bregman",
-      "note": "schrijver, noemde het begrip 'morele ambitie'",
+      "note": "historicus en auteur; morele ambitie",
       "start_seconds": 1805,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "centrale figuur in het lijdensverhaal van de Matthäus-Passion",
-      "start_seconds": 882,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Freek de Jonge",
+      "note": "cabaretier; adviseerde over theatermonoloog",
+      "start_seconds": 3110,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Scorsese",
+      "note": "regisseur van de film The Passion-achtige verfilming",
+      "start_seconds": 3330,
+      "mention_count": 1
+    },
+    {
+      "name": "Petrus",
+      "note": "apostel die Jezus verloochent; in Erbarme dich",
+      "start_seconds": 2260,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten Hartt",
+      "note": "Nederlandse dirigent; naam in grap genoemd",
+      "start_seconds": 1925,
+      "mention_count": 1
     },
     {
       "name": "James Joyce",
-      "note": "schrijver van Ulysses, genoemd als cultuurmonument",
-      "start_seconds": 1952,
-      "wiki_checked": true,
-      "wiki_pageid": 6125,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Joyce",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Revolutionary_Joyce_Better_Contrast.jpg/250px-Revolutionary_Joyce_Better_Contrast.jpg"
+      "note": "schrijver van Ulysses; genoemd als cultuurmonument",
+      "start_seconds": 1980,
+      "mention_count": 1
     },
     {
-      "name": "William Shakespeare",
-      "note": "genoemd als cultuurmonument van het theater",
-      "start_seconds": 1982,
-      "wiki_checked": true,
-      "wiki_pageid": 7192,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Shakespeare",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/250px-Shakespeare.jpg"
+      "name": "Shakespeare",
+      "note": "toneelschrijver; cultuurmonument",
+      "start_seconds": 1985,
+      "mention_count": 1
     },
     {
-      "name": "Karim Benali",
-      "note": "overleden broer van Abdelkader Benali",
-      "start_seconds": 270,
-      "wiki_checked": true
+      "name": "Mengelberg",
+      "note": "dirigent van Matthäus-uitvoeringen",
+      "start_seconds": 1900,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Matthäus-Passion",
+      "author": "Johann Sebastian Bach",
+      "note": "Centraal werk van het gesprek; lijdensverhaal",
+      "start_seconds": 1690,
+      "volume_id": "gQY5twAACAAJ",
+      "canonical_title": "Matthäus Passion van Johann Sebastian Bach",
+      "canonical_author": "Johann Sebastian Bach, S. F. Henrici, Jan Engelman, Wouter Paap",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "note": "genoemd als cultuurmonument van de literatuur",
+      "start_seconds": 1980,
+      "volume_id": "AANAQwAACAAJ",
+      "canonical_title": "Ulysses",
+      "canonical_author": "James Joyce",
+      "isbn13": "9781449560256",
+      "isbn10": "1449560253",
+      "thumbnail": "http://books.google.com/books/content?id=AANAQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Matthäus 26",
+      "note": "Lijdensverhaal van Jezus; Petrus verloochent Jezus, besproken via Erbarme dich",
+      "start_seconds": 2260
+    },
+    {
+      "ref": "Matthäus 27",
+      "note": "Pilatus, het volk eist Jezus' kruisiging; Barabbas-passage",
+      "start_seconds": 870
+    }
+  ],
   "places": [
     "Gaza",
-    "Nederland",
+    "Leipzig",
     "Marokko",
     "Rotterdam",
-    "Amsterdam Nieuw-West",
+    "Amsterdam",
+    "Nieuw-West",
     "Dubai",
     "Eindhoven",
-    "Israël"
+    "Lüneburg"
   ],
-  "summary_tldr": "Schrijver Abdelkader Benali spreekt over zijn rouw om zijn plotseling overleden broer tijdens de ramadan, over de spanning tussen moslims en Nederland na de winst van Wilders en de oorlog in Gaza. Daarnaast vertelt hij hoe de Matthäus-Passion van Bach hem raakte en hoop biedt. Het gesprek draait om het blijven praten met elkaar en menselijkheid.",
+  "summary_tldr": "Abdelkader Benali spreekt met David Boogerd en Stefan Paas over de rouw om zijn broer, de politieke spanningen rond Wilders en Gaza, en de betekenis van Bachs Matthäus-Passion. Hij ziet in de muziek troost, menselijkheid en een blijvend thema van zondebok en morele verantwoordelijkheid. Het gesprek eindigt met hoop: zolang Bach met Pasen wordt gespeeld, is er hoop.",
   "summary_points": [
-    "Benali beleeft de ramadan met verdriet door het overlijden van zijn broer Karim, 6 weken eerder.",
-    "Veel moslims voelen zich sinds de winst van Wilders en door Gaza minder welkom en overwegen te emigreren.",
-    "Stefan Paas speelt advocaat van de duivel en wijst op polarisatie aan beide kanten, ook onder joodse Nederlanders.",
-    "De demonstratie bij het Holocaustmuseum tijdens het bezoek van Herzog illustreert de woede en het ongemak.",
-    "Benali pleit voor het uitnodigen van ongemak en het erkennen van de woede van de ander.",
-    "Bij de begrafenis van zijn broer ervoer hij verbondenheid, bijvoorbeeld door de komst van een Hollandse veeboer naar de moskee.",
-    "Nederland is vlak en klein, waardoor mensen elkaar niet kunnen ontlopen en moeten blijven praten.",
-    "Bach is voor Benali cultureel behang; Erbarme dich raakt hem nog steeds als een mokerslag.",
-    "Zolang Bach met Pasen wordt gespeeld, is er hoop."
+    "Benali verliest zes weken eerder zijn jongere broer; de Ramadan voelt daardoor confronterend.",
+    "Moslims in Nederland voelen zich na de verkiezingswinst van Wilders minder welkom en overwegen soms te emigreren.",
+    "Gaza en het zwijgen van het Westen verscherpen de spanning tussen moslims en de liberale democratie.",
+    "Benali pleit voor gesprek met mensen van andere kampen en het erkennen van elkaars woede.",
+    "Een herdenkingsbijeenkomst na de begrafenis toont verbondenheid tussen moslims en Nederlanders.",
+    "Bach werd in Leipzig gevraagd muziek te schrijven voor terechtstellingen; dat roept morele vragen op.",
+    "De Matthäus-Passion draait om de zondebok en het offer, wat volgens Benali actueler is dan ooit.",
+    "Muziek biedt troost en verbindt mensen over grenzen heen, ook wanneer politiek dat niet lukt.",
+    "Kunst moet volgens Benali geen politieke agenda dragen maar iets geven aan de luisteraar."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Ramadan en rouw om zijn broer",
-      "summary": "Benali vertelt over de ramadan met het gemis van zijn overleden broer Karim."
+      "title": "Inleiding en persoonlijke Ramadan",
+      "summary": "Benali vertelt over de Ramadan en het verlies van zijn broer Karim."
     },
     {
-      "start_seconds": 289,
-      "title": "Wilders, Gaza en vervreemding",
-      "summary": "Over moslims die zich niet meer welkom voelen, emigratieplannen en de rol van 7 oktober en Gaza."
+      "start_seconds": 420,
+      "title": "Wilders, Gaza en het gevoel van thuis",
+      "summary": "Het gesprek gaat over de vervreemding van moslims in Nederland na de verkiezingen en het conflict in Gaza."
     },
     {
-      "start_seconds": 761,
-      "title": "Demonstratie bij het Holocaustmuseum",
-      "summary": "Gesprek over Herzog, woede en het kwijtraken van het gesprek."
+      "start_seconds": 1200,
+      "title": "Woede, dialoog en de demonstratie bij het Holocaustmuseum",
+      "summary": "Benali en Paas bespreken hoe je met woede en verschillende standpunten omgaat."
     },
     {
-      "start_seconds": 1110,
-      "title": "Wat is er met Nederland gebeurd?",
-      "summary": "Zorgen over ASML, migratie, nostalgie en onbehagen."
+      "start_seconds": 1800,
+      "title": "Nederland als dorp en sociale cohesie",
+      "summary": "Het platte landschap en de Nederlandse ruzie-en-verzoening worden besproken."
     },
     {
-      "start_seconds": 1420,
-      "title": "Menselijkheid bij de begrafenis",
-      "summary": "Het verhaal over de moskee in Schiebroek en de Hollandse veeboer."
+      "start_seconds": 1900,
+      "title": "Bach, de Matthäus en de eerste kennismaking",
+      "summary": "Benali vertelt hoe hij als jongere voor het eerst naar de Matthäus-Passion luisterde."
     },
     {
-      "start_seconds": 1540,
-      "title": "Nederland als vlak land",
-      "summary": "Waarom Nederlanders ruzie kunnen maken en toch moeten samenleven, en het belang van de woede van de ander erkennen."
+      "start_seconds": 2300,
+      "title": "Erbarme dich en Petrus",
+      "summary": "Het koor Erbarme dich en het verraad van Petrus worden besproken als spiegel voor vriendschap en vergeving."
     },
     {
-      "start_seconds": 1915,
-      "title": "Bach en de Matthäus-Passion",
-      "summary": "Benali vertelt over zijn eerste concert, Erbarme dich en Petrus' verloochening."
+      "start_seconds": 2500,
+      "title": "Executies in Leipzig en de zondebok",
+      "summary": "Bach's betrokkenheid bij terechtstellingen leidt tot reflectie over zondebokken en lijden."
+    },
+    {
+      "start_seconds": 3500,
+      "title": "Stille Zaterdag en slot",
+      "summary": "Het gesprek eindigt bij de stilte na de Matthäus en de hoop die daarin besloten ligt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2149,
+      "start_seconds": 1020,
       "speaker": "Abdelkader Benali",
       "text": "Zolang Bach wordt gespeeld met Pasen is er hoop.",
-      "note": "Kernboodschap van de aflevering."
+      "note": "Samenvattende boodschap van de aflevering, die de hoop in de muziek koppelt aan de actualiteit."
     },
     {
-      "start_seconds": 1501,
+      "start_seconds": 1700,
       "speaker": "Abdelkader Benali",
-      "text": "Toen dacht ik: het komt wel goed, meid.",
-      "note": "Emotioneel moment bij de begrafenis van zijn broer."
+      "text": "Zodra jij die politieke taal gebruikt, dan word jij een politicus.",
+      "note": "Freek de Jonge's advies illustreert waarom kunst geen politieke agenda moet dragen."
     },
     {
-      "start_seconds": 1096,
-      "speaker": "Stefan Paas",
-      "text": "Ik denk, wat is er gebeurd met Nederland?",
-      "note": "Persoonlijke reactie op de vervreemding bij moslims en joden."
-    },
-    {
-      "start_seconds": 1137,
+      "start_seconds": 2560,
       "speaker": "Abdelkader Benali",
-      "text": "Ik vond Wilders in de campagnetijd geweldig; had hij in het theater gestaan, dan had ik een kaartje gekocht.",
-      "note": "Onverwachte opmerking over Wilders."
+      "text": "Daarom is Bach en vooral de Matthäus actueler dan ooit.",
+      "note": "Benali legt de link tussen het verlangen naar een zondebok en de hedendaagse samenleving."
     },
     {
-      "start_seconds": 2248,
+      "start_seconds": 1080,
       "speaker": "Abdelkader Benali",
-      "text": "Het kan de beste overkomen: Petrus verloochent zijn beste vriend.",
-      "note": "Hoe Bach menselijk falen laat zien."
+      "text": "Ik vertegenwoordig mijn karakters.",
+      "note": "Benali weigert zich als stem van een groep te laten zien en benadrukt de literaire vrijheid."
     }
   ],
   "keywords": [
     "Matthäus-Passion",
     "Bach",
     "Ramadan",
-    "Wilders",
     "Gaza",
-    "polarisatie",
-    "rouw",
-    "Erbarme dich",
-    "lijdenstijd",
-    "Abdelkader Benali",
+    "Wilders",
+    "zondebok",
+    "morele verantwoordelijkheid",
+    "verlies",
     "dialoog",
-    "hoop"
+    "islam",
+    "lijden",
+    "Pasen"
   ],
   "quotes": [
-    "Maar waar Bach wordt gespeeld met Pasen, is er hoop."
+    "Zolang Bach wordt gespeeld met Pasen is er hoop.",
+    "Bach is actueler dan ooit.",
+    "Deze muziek is hoopgevende muziek voor de volgende generatie."
   ],
   "similar": [
     {
-      "n": 220,
-      "reason": "Spanning moslims/joden en Nederland na geweld; polarisatie en menselijkheid in gesprek blijven"
+      "n": 215,
+      "reason": "Gaza-conflict en onrecht tegen Palestijnen, met Islam & jodendom als gedeeld thema"
+    },
+    {
+      "n": 214,
+      "reason": "Een jaar na de aanval op Israël; Gaza-oorlog en Islam & jodendom"
+    },
+    {
+      "n": 242,
+      "reason": "Seculiere Matthäus-Passion en de verdieping van Pasen, zoals in de huidige aflevering"
     },
     {
       "n": 296,
-      "reason": "Matthäus-Passion van Bach en troost bij lijden"
-    },
-    {
-      "n": 215,
-      "reason": "Gaza, onrecht en islamitisch perspectief in Nederland"
-    },
-    {
-      "n": 170,
-      "reason": "Wilders' verkiezingswinst en gevolgen voor Nederland"
+      "reason": "Bach-muziek en luisteren naar lijden, net als de Matthäus-Passion-thematiek"
     },
     {
       "n": 166,
-      "reason": "Oorlog Israël-Hamas en polarisatie in Nederland"
+      "reason": "Polarisatie rond de oorlog tussen Israël en Hamas en de Nederlandse reacties"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

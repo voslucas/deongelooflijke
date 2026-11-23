@@ -1,320 +1,373 @@
 {
   "episode": 285,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 143303,
+    "segments": 1502,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32464,
-    "output_tokens": 2619,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 75783,
+    "output_tokens": 3642,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Geopolitiek & oorlog",
     "Samenleving & migratie",
     "Politiek",
-    "Filosofie & ethiek",
-    "Kerk & secularisatie"
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Ad Verbrugge"
   ],
   "people": [
     {
-      "name": "Martin Luther",
-      "note": "Reformator, vergeleken met de huidige kanteling",
+      "name": "Ad Verbrugge",
+      "note": "filosoof, gast; oprichter van De Nieuwe Wereld",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "mention_count": 60
     },
     {
-      "name": "Willem Engel",
-      "note": "Gast bij De Nieuwe Wereld, uitzending later verwijderd",
-      "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 5427117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Engel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/WillemEngelSept2020.jpg/250px-WillemEngelSept2020.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast van de podcast",
+      "start_seconds": 0,
+      "mention_count": 30
     },
     {
-      "name": "Jelle van Baardewijk",
-      "note": "Filosoof, mede-bestuurder van De Nieuwe Wereld",
-      "start_seconds": 209,
-      "wiki_checked": true
+      "name": "Martin Luther",
+      "note": "hervormer; vergelijking met huidige kantelpunt",
+      "start_seconds": 305,
+      "mention_count": 2
     },
     {
-      "name": "Marlies Dekkers",
-      "note": "Lingerieontwerper en gespreksvoerder bij De Nieuwe Wereld",
-      "start_seconds": 218,
-      "wiki_checked": true,
-      "wiki_pageid": 578996,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marlies_Dekkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Marlies-dekkers-1330447516.jpg/250px-Marlies-dekkers-1330447516.jpg"
+      "name": "Pim Fortuyn",
+      "note": "politicus; opkomst in 2002 als symbool van cultuurverlies",
+      "start_seconds": 3570,
+      "mention_count": 8
     },
     {
-      "name": "Paul van Liemd",
-      "note": "Medeoprichter van het initiatief destijds",
-      "start_seconds": 245,
-      "wiki_checked": true
-    },
-    {
-      "name": "Clairy Polak",
-      "note": "Presentatrice van het Filosofisch Kwintet",
-      "start_seconds": 281,
-      "wiki_checked": true,
-      "wiki_pageid": 121240,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Clairy_Polak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Clairy_Polak-1_%28cropped%29.jpg/250px-Clairy_Polak-1_%28cropped%29.jpg"
-    },
-    {
-      "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "Filosoof, onderwerp van Verbrugges colleges",
-      "start_seconds": 331,
-      "wiki_checked": true,
-      "wiki_pageid": 16725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/250px-Hegel_portrait_by_Schlesinger_1831.jpg"
-    },
-    {
-      "name": "Joris Luyendijk",
-      "note": "Auteur over hoe journalisten aan informatie komen",
-      "start_seconds": 403,
-      "wiki_checked": true,
-      "wiki_pageid": 443247,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joris_Luyendijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Joris_Luyendijk_2019.jpg/250px-Joris_Luyendijk_2019.jpg"
-    },
-    {
-      "name": "John Ioannidis",
-      "note": "Wetenschapper die onheus bejegend werd tijdens corona",
-      "start_seconds": 776,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gabriël van den Brink",
-      "note": "Collega-socioloog met andere kijk op corona",
-      "start_seconds": 807,
-      "wiki_checked": true
-    },
-    {
-      "name": "Els van Veen",
-      "note": "Huisarts die als gast complotideeën over corona uitte",
-      "start_seconds": 960,
-      "wiki_checked": true
+      "name": "Francis Fukuyama",
+      "note": "auteur van 'het einde van de geschiedenis'",
+      "start_seconds": 3540,
+      "mention_count": 3
     },
     {
       "name": "Karl Marx",
-      "note": "Klassiek denker over kapitaalmacht",
-      "start_seconds": 1467,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Ewald Engelen",
-      "note": "Schrijft over financiële belangen",
-      "start_seconds": 1580,
-      "wiki_checked": true,
-      "wiki_pageid": 3603831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ewald_Engelen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Ewald_Engelen_Breda.jpg/250px-Ewald_Engelen_Breda.jpg"
-    },
-    {
-      "name": "Jeroen Dijsselbloem",
-      "note": "Rapport Tijd voor Onderwijs",
-      "start_seconds": 1695,
-      "wiki_checked": true,
-      "wiki_pageid": 316447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeroen_Dijsselbloem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Burgemeester_Jeroen_Dijsselbloem_%282026%29.jpg/250px-Burgemeester_Jeroen_Dijsselbloem_%282026%29.jpg"
+      "note": "klassieke denker over kapitaalmacht",
+      "start_seconds": 1464,
+      "mention_count": 1
     },
     {
       "name": "Noam Chomsky",
-      "note": "Mediakritiek en reclame",
-      "start_seconds": 1909,
-      "wiki_checked": true,
-      "wiki_pageid": 15107,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Noam_Chomsky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Noam_Chomsky%2C_2004.jpg/250px-Noam_Chomsky%2C_2004.jpg"
+      "note": "kritiek op reguliere media",
+      "start_seconds": 1910,
+      "mention_count": 1
     },
     {
-      "name": "Jan Roos",
-      "note": "Omstreden gast bij De Nieuwe Wereld",
-      "start_seconds": 2050,
-      "wiki_checked": true,
-      "wiki_pageid": 1947041,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Roos_%28mediapersoonlijkheid%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Jan_Roos.JPG/250px-Jan_Roos.JPG"
+      "name": "Friedrich Nietzsche",
+      "note": "citaat over rijden op de rug van een tijger",
+      "start_seconds": 3818,
+      "mention_count": 1
     },
     {
       "name": "Søren Kierkegaard",
-      "note": "Filosoof, begrip van herhaling in het geloof van Verbrugges vader",
-      "start_seconds": 2430,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
+      "note": "begrip 'vire holung' en geloofservaring",
+      "start_seconds": 2440,
+      "mention_count": 2
+    },
+    {
+      "name": "Mikhail Gorbatsjov",
+      "note": "Sovjetleider die het Oostblok liet openbreken",
+      "start_seconds": 4420,
+      "mention_count": 3
+    },
+    {
+      "name": "Ad Melkert",
+      "note": "PvdA-leider, symbool van de gevestigde orde in 2002",
+      "start_seconds": 4000,
+      "mention_count": 4
+    },
+    {
+      "name": "Willem Engel",
+      "note": "gast die eerder in de podcast/uitzending verscheen",
+      "start_seconds": 870,
+      "mention_count": 3
+    },
+    {
+      "name": "Jeroen Dijsselbloem",
+      "note": "auteur van rapport 'Tijd voor Onderwijs'",
+      "start_seconds": 1700,
+      "mention_count": 1
+    },
+    {
+      "name": "Plasterk",
+      "note": "minister die in de anekdote werd genoemd",
+      "start_seconds": 1716,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; vergeleken met AfD-leiders",
+      "start_seconds": 5000,
+      "mention_count": 3
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; gezagscrisis en Westerse orde",
+      "start_seconds": 4450,
+      "mention_count": 3
+    },
+    {
+      "name": "Gabriel van den Brink",
+      "note": "collega-hoogleraar, gesprekspartner over corona",
+      "start_seconds": 800,
+      "mention_count": 1
+    },
+    {
+      "name": "Joris Luijendijk",
+      "note": "auteur over journalistiek",
+      "start_seconds": 410,
+      "mention_count": 1
+    },
+    {
+      "name": "Ewald Engelen",
+      "note": "econoom die over financiële belangen schrijft",
+      "start_seconds": 1600,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Pomerantsev",
+      "note": "auteur over Moskou in de jaren 90",
+      "start_seconds": 4890,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Merz",
+      "note": "Duitse bondskanselier",
+      "start_seconds": 5050,
+      "mention_count": 1
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "filosoof; Hegel-colleges van Verbrugge",
+      "start_seconds": 300,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof; promotieonderwerp Verbrugge",
+      "start_seconds": 2520,
+      "mention_count": 2
+    },
+    {
+      "name": "Aristoteles",
+      "note": "belangrijke inspiratiebron voor Verbrugge",
+      "start_seconds": 2700,
+      "mention_count": 3
+    },
+    {
+      "name": "Friedrich Hayek",
+      "note": "economisch denker, neoliberalisme",
+      "start_seconds": 2600,
+      "mention_count": 1
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaanse president; Irak en Afghanistan",
+      "start_seconds": 4700,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Bond",
+      "note": "genoemde figuur in corona-discussie",
+      "start_seconds": 950,
+      "mention_count": 1
+    },
+    {
+      "name": "Els van Veen",
+      "note": "huisarts die omstreden corona-uitspraken deed",
+      "start_seconds": 960,
+      "mention_count": 2
+    },
+    {
+      "name": "Elon Musk",
+      "note": "ondernemer, big tech",
+      "start_seconds": 5000,
+      "mention_count": 1
+    },
+    {
+      "name": "Erich Honecker",
+      "note": "laatste leider van Oost-Duitsland",
+      "start_seconds": 4990,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Tijd van onbehagen",
+      "title": "Tijd van Onbehagen",
       "author": "Ad Verbrugge",
-      "note": "Doorbraakboek uit 2004, cultuur op drift",
-      "start_seconds": 2105,
+      "note": "boek uit 2004 over cultuur op drift en het autonome individu",
+      "start_seconds": 2100,
       "volume_id": "O_XwwAEACAAJ",
-      "canonical_title": "Tijd van onbehagen: filosofische essays over een cultuur op drift",
+      "canonical_title": "Tijd van onbehagen",
       "canonical_author": "Ad Verbrugge",
       "isbn13": "9789058751294",
       "isbn10": "9058751295",
       "thumbnail": ""
     },
     {
-      "title": "Fenomenologie van de geest",
-      "author": "Hegel",
-      "note": "Onderwerp van driedurige colleges",
-      "start_seconds": 339,
-      "volume_id": "LHmwzwEACAAJ",
-      "canonical_title": "Fenomenologie van de geest",
-      "canonical_author": "Georg Wilhelm Friedrich Hegel",
-      "isbn13": "9789024446377",
-      "isbn10": "9024446376",
+      "title": "Filosofisch essay over een wankele orde (De gezagscrisis)",
+      "author": "Ad Verbrugge",
+      "note": "boek uit 2023 over de gezagscrisis",
+      "start_seconds": 4290,
+      "volume_id": "lMa0zwEACAAJ",
+      "canonical_title": "De gezagscrisis. Filosofisch essay over een wankele orde",
+      "canonical_author": "Ad Verbrugge",
+      "isbn13": "9789024456253",
+      "isbn10": "9024456258",
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Amsterdam",
-    "Utrecht"
+  "bible_refs": [
+    {
+      "ref": "Genesis 6",
+      "note": "Ark en zondvloed als beeld van bronnen van leven",
+      "start_seconds": 6180
+    }
   ],
-  "summary_tldr": "Filosoof Ad Verbrugge legt uit waarom hij denkt dat het Westen voor een groot kantelpunt staat, vergelijkbaar met de Reformatie. Hij bespreekt de gezagscrisis, de vermenging van partij-, bestuurs-, expert-, kapitaal- en mediamacht, en zijn kanaal De Nieuwe Wereld. Stefan Paas bevraagt hem kritisch op het uitnodigingsbeleid en complotdenken.",
+  "places": [
+    "Vrije Universiteit Amsterdam",
+    "Oost-Duitsland",
+    "Oekraïne",
+    "Zeeland",
+    "Irak",
+    "Afghanistan",
+    "Venezuela",
+    "Groenland",
+    "Moskou",
+    "Engeland"
+  ],
+  "summary_tldr": "Ad Verbrugge stelt dat we aan een historisch kantelpunt staan, vergelijkbaar met de Reformatie of de val van de Berlijnse Muur, en dat de gezagscrisis voortkomt uit een cultuur op drift waarin het autonome individu en markt- en netwerkmacht de samenleving ontwortelen. Stefan Paas onderzoekt kritisch zowel Verbrugges mediakeuzes en corona-kritiek als zijn analyse van machten en sferen. Het gesprek eindigt met de vraag naar hoop, zin en bronnen van leven te midden van cynisme.",
   "summary_points": [
-    "Verbrugge ziet een kantelpunt vergelijkbaar met de Reformatie of de val van de Muur",
-    "De Nieuwe Wereld is ontstaan uit ergernis over de reguliere media en wil diepgang bieden",
-    "Corona was voor hem het keerpunt: politiek en wetenschap raakten vermengd en politiek werd gedepolitiseerd",
-    "Hij onderscheidt partij-, bestuurs-, expert-, kapitaal- en mediamacht in de netwerksamenleving",
-    "Polarisatie zoals rond woke kan afleiden van andere agenda's",
-    "Paas bevraagt de gastenkeuze, onder wie Willem Engel en Els van Veen, en de grens aan openheid",
-    "Verbrugge sluit uitzendingen soms uit, maar geeft gespreksvoerders veel vrijheid",
-    "Tijd van onbehagen kwam voort uit een gevoel dat er iets niet klopt, mede door secularisering en het leeglopen van kerken"
+    "Verbrugge ziet een kantelpunt vergelijkbaar met de Reformatie en de val van de Muur",
+    "De Nieuwe Wereld wil alternatief zijn voor reguliere media, met ruimte voor lange gesprekken",
+    "Kritiek op corona-communicatie: verpolitisering van wetenschap en gebrek aan twijfel",
+    "Paas bevraagt het uitnodigingsbeleid en het risico van complotdenken op het platform",
+    "Verbrugge analyseert de samenleving via partij-, bestuurs-, expert-, kapitaal- en mediamacht",
+    "De gezagscrisis: burgers voelen zich niet meer aangesproken door traditionele elites",
+    "Het autonome individu en consumptiecultuur worden als illusie gezien; 'sferen' en 'machten' bepalen mede ons gedrag",
+    "Vergelijking tussen de val van de Muur en de huidige westerse orde, met Trump als katalysator",
+    "Paas waarschuwt voor cynisme aan de uiteinden van het spectrum en wijst op de waarde van Europese rechtsstaten",
+    "Slotvraag: hoe blijf je hoopvol, met een beroep op gemeenschap, zin en het bewaren van bronnen van leven"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kantelpunt en inleiding",
-      "summary": "Verbrugge vergelijkt deze tijd met de Reformatie en David introduceert hem en De Nieuwe Wereld."
+      "title": "Introductie en De Nieuwe Wereld",
+      "summary": "Verbrugge beschrijft het kanaal, zijn achtergrond en het verschil met reguliere media."
     },
     {
-      "start_seconds": 120,
-      "title": "Opzet van De Nieuwe Wereld",
-      "summary": "Over de studio, de gespreksvoerders en het verlangen naar ruimte en diepgang buiten de reguliere media."
+      "start_seconds": 400,
+      "title": "Corona en wetenschap",
+      "summary": "Discussie over twijfel in de wetenschap, de corona-maatregelen en het uitnodigingsbeleid van het kanaal."
     },
     {
-      "start_seconds": 390,
-      "title": "Bronnen, wetenschap en corona",
-      "summary": "Verbrugge over informatie vergaren, twijfel in de wetenschap en kritiek op de coronamaatregelen."
+      "start_seconds": 1200,
+      "title": "Macht en expertocratie",
+      "summary": "Verbrugge analyseert partij-, bestuurs-, expert-, kapitaal- en mediamacht en de rol van woke-debatten."
     },
     {
-      "start_seconds": 880,
-      "title": "Gastenbeleid en complotdenken",
-      "summary": "Paas bevraagt gasten als Willem Engel en Els van Veen en de grens aan openheid."
+      "start_seconds": 2000,
+      "title": "Tijd van Onbehagen",
+      "summary": "Het onbehagen, secularisatie, de kerk en het autonome individu als fictie."
     },
     {
-      "start_seconds": 1150,
-      "title": "De naam en de gezagscrisis",
-      "summary": "Waarom 'Nieuwe Wereld' en de verschillende vormen van macht in de netwerksamenleving."
+      "start_seconds": 3300,
+      "title": "Fortuyn en de gezagscrisis",
+      "summary": "De opkomst van Fortuyn, het paarse tijdperk en de verschuiving van cultuur en gezag."
     },
     {
-      "start_seconds": 1560,
-      "title": "Afleiding en medialogica",
-      "summary": "Over polarisatie als afleiding, het Dijsselbloem-rapport en Mein Kampf, en financiering en kijkcijfers."
+      "start_seconds": 4200,
+      "title": "1989 en de wankele orde",
+      "summary": "Vergelijking van de val van de Muur met het huidige westerse kantelpunt; Trump en Europa."
     },
     {
-      "start_seconds": 2100,
-      "title": "Tijd van onbehagen",
-      "summary": "Verbrugges doorbraak, het gevoel dat er iets niet klopt en zijn ervaring met secularisering en kerk."
+      "start_seconds": 5400,
+      "title": "Reformatie, hoop en cynisme",
+      "summary": "Analogie met de Reformatie, de vraag naar zin en het tegengaan van cynisme."
     }
   ],
   "highlights": [
     {
       "start_seconds": 5,
       "speaker": "Ad Verbrugge",
-      "text": "Wat we nu meemaken is van dezelfde orde als de verschuiving ten tijde van Martin Luther.",
-      "note": "Stelt de toon met een groot historisch vergelijk."
+      "text": "De verschuiving die we nu meemaken is van dezelfde orde als die ten tijde van Martin Luther.",
+      "note": "Zeer verstrekkende historische vergelijking die het gesprek een andere richting geeft."
     },
     {
-      "start_seconds": 1050,
+      "start_seconds": 2340,
       "speaker": "Stefan Paas",
-      "text": "Wat schiet het volk daarmee op, Ad?",
-      "note": "Scherpe vraag over complotgasten."
+      "text": "Je rijdt op de rug van een tijger.",
+      "note": "Nietzsche-citaat dat de beperkte controle van de mens over machten samenvat."
     },
     {
-      "start_seconds": 1810,
-      "speaker": "Ad Verbrugge",
-      "text": "Het Mein Kampf-bericht was volgens hem een strategie om het onderwijsrapport te laten verdwijnen.",
-      "note": "Concreet voorbeeld van zijn kijk op mediamanipulatie, zonder bewijs."
+      "start_seconds": 5520,
+      "speaker": "Stefan Paas",
+      "text": "Die mens, die roest vast.",
+      "note": "Scherpe typering van de mens die zichzelf als Godheid waant en niet meer open staat."
     },
     {
-      "start_seconds": 2300,
+      "start_seconds": 6180,
       "speaker": "Ad Verbrugge",
-      "text": "Mijn vader zegt het Onze Vader nog steeds alsof het de eerste diepe geloofservaring is.",
-      "note": "Persoonlijk en ontroerend moment."
+      "text": "Mensen moeten ark bouwen voor de zondvloed.",
+      "note": "Beeld van het bewaren van bronnen van leven te midden van een cultuur die verdrinkt."
     },
     {
-      "start_seconds": 1000,
-      "speaker": "Ad Verbrugge",
-      "text": "Dat is de prijs die je betaalt voor openheid.",
-      "note": "Kern van zijn verdediging van het gastenbeleid."
+      "start_seconds": 5450,
+      "speaker": "David Boogerd",
+      "text": "Nederlanders zijn gemiddeld banger voor Trump dan voor Poetin.",
+      "note": "Verrassend onderzoeksresultaat dat het geopolitieke narratief belicht."
     }
   ],
   "keywords": [
-    "Ad Verbrugge",
-    "De Nieuwe Wereld",
-    "kantelpunt",
     "gezagscrisis",
-    "onbehagen",
-    "Reformatie",
-    "corona",
+    "cultuur op drift",
+    "autonome individu",
     "expertocratie",
-    "secularisering",
-    "mainstream media",
-    "Hegel",
-    "complotdenken"
+    "sferen en machten",
+    "Reformatie",
+    "Tijd van Onbehagen",
+    "Pim Fortuyn",
+    "secularisatie",
+    "corona-beleid",
+    "De Nieuwe Wereld",
+    "Aristoteles"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 301,
-      "reason": "Elite losgezongen van het volk, gezagscrisis en seculiere macht; Paul Frissen en Paas."
+      "n": 295,
+      "reason": "Joris Luyendijk over existentiële strijd, Westerse politiek en mobilisering; sterke thematische overlap"
     },
     {
-      "n": 291,
-      "reason": "Filosofische kritiek op het liberalisme en de crisis van het Westen."
+      "n": 239,
+      "reason": "Luyendijk over verraad door de VS en Europese vrijheid; zelfde geopolitieke en filosofische thematiek"
+    },
+    {
+      "n": 326,
+      "reason": "Crisis van het Westen en een Westen zonder verhaal; geopolitiek en culturele kantelpunten"
+    },
+    {
+      "n": 236,
+      "reason": "Afglijdend Amerika en een opstaand Europa; past bij het Westerse crisisthema"
     },
     {
       "n": 293,
-      "reason": "Historische tijden, kantelpunt, wat er echt toe doet; filosofie en secularisatie."
-    },
-    {
-      "n": 160,
-      "reason": "Rob Wijnberg over waarheid onder druk, vooruitgangsgeloof en filosofie."
-    },
-    {
-      "n": 265,
-      "reason": "Gabriël van den Brink over moderne levensstijl en crisis van de moderniteit."
+      "reason": "Historische tijd en wat er echt toe doet; filosofische duiding van een kantelmoment"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,11 +1,16 @@
 {
   "episode": 321,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120897,
+    "segments": 1186,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31144,
-    "output_tokens": 2790,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62363,
+    "output_tokens": 8709,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,301 +25,310 @@
   "people": [
     {
       "name": "Ulrich Siegmund",
-      "note": "lijsttrekker van de AfD in Saksen-Anhalt, de 'parfumverkoper op zijn brommertje'",
+      "note": "AfD-lijsttrekker in Saksen-Anhalt, bekend om zijn brommer-campagne",
       "start_seconds": 915,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "reformator uit Wittenberg en Eisleben",
-      "start_seconds": 1893,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "mention_count": 12
     },
     {
       "name": "Friedrich Merz",
-      "note": "Duits bondskanselier en CDU-leider",
+      "note": "Duitse kanselier en CDU/CSU-leider",
       "start_seconds": 336,
-      "wiki_checked": true,
-      "wiki_pageid": 5475018,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Merz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg/250px-2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg"
-    },
-    {
-      "name": "Sahra Wagenknecht",
-      "note": "leider van het BSW, mogelijke coalitiepartner",
-      "start_seconds": 330,
-      "wiki_checked": true,
-      "wiki_pageid": 5179183,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sahra_Wagenknecht",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025-04-29-Sahra_Wagenknecht-Maischberger-3041.jpg/250px-2025-04-29-Sahra_Wagenknecht-Maischberger-3041.jpg"
-    },
-    {
-      "name": "Björn Höcke",
-      "note": "AfD-leider in Thüringen",
-      "start_seconds": 856,
-      "wiki_checked": true,
-      "wiki_pageid": 5933091,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Bj%C3%B6rn_H%C3%B6cke_%28cropped%29.jpg/250px-Bj%C3%B6rn_H%C3%B6cke_%28cropped%29.jpg"
+      "mention_count": 6
     },
     {
       "name": "Alice Weidel",
-      "note": "landelijk AfD-leider, gezien als kil",
-      "start_seconds": 1733,
-      "wiki_checked": true,
-      "wiki_pageid": 4882349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alice_Weidel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg/250px-2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg"
+      "note": "Landelijke AfD-leider",
+      "start_seconds": 1197,
+      "mention_count": 2
+    },
+    {
+      "name": "Björn Höcke",
+      "note": "AfD-politicus uit Thüringen, geldt als extreemrechts",
+      "start_seconds": 815,
+      "mention_count": 2
+    },
+    {
+      "name": "Sahra Wagenknecht",
+      "note": "Leider van de Bündnis Sahra Wagenknecht (BSW)",
+      "start_seconds": 331,
+      "mention_count": 2
     },
     {
       "name": "Alexander Gauland",
-      "note": "voormalig AfD-voorzitter, 'vogelpoepje'-uitspraak",
+      "note": "Voormalig AfD-partijvoorzitter, sprak over 'vogelpoep' in de Duitse geschiedenis",
       "start_seconds": 1136,
-      "wiki_checked": true,
-      "wiki_pageid": 4956713,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Gauland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2019-04-11_Pressekonferenz_der_AfD_by_Olaf_Kosinsky-8116_%28cropped%29.jpg/250px-2019-04-11_Pressekonferenz_der_AfD_by_Olaf_Kosinsky-8116_%28cropped%29.jpg"
-    },
-    {
-      "name": "Prins Heinrich XIII Reuss",
-      "note": "beoogd coupleider uit de Reichsbürger-scene",
-      "start_seconds": 1061,
-      "wiki_checked": true,
-      "wiki_pageid": 5709526,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heinrich_Reuss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Gera_Flame_of_Peace_2018-12-21_%2848%29a.jpg/250px-Gera_Flame_of_Peace_2018-12-21_%2848%29a.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "vergeleken vanwege zijn provocerende groet op het podium",
-      "start_seconds": 1206,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "note": "afgebeeld op een BSW-poster als Joodse karikatuur",
-      "start_seconds": 396,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "AfD-vragen als 'wensenlijstje van Poetin'",
-      "start_seconds": 22,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "mention_count": 1
     },
     {
       "name": "Sergej Lavrov",
-      "note": "Russische minister, speelt informatie door via Hongarije",
+      "note": "Russische minister van Buitenlandse Zaken",
       "start_seconds": 499,
-      "wiki_checked": true,
-      "wiki_pageid": 1388627,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sergej_Lavrov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9B%D0%B0%D0%B2%D1%80%D0%BE%D0%B2_%2814-02-2022%29_%28cropped%29.jpg/250px-%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9B%D0%B0%D0%B2%D1%80%D0%BE%D0%B2_%2814-02-2022%29_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Johan Hinrich Wichern",
-      "note": "19e-eeuwse evangelist die kerkgang in Oost-Duitsland beschreef",
-      "start_seconds": 1952,
-      "wiki_checked": true
+      "name": "Vladimir Poetin",
+      "note": "Russische president",
+      "start_seconds": 22,
+      "mention_count": 2
     },
     {
-      "name": "Harry Jekkers",
-      "note": "zanger van Klein Orkest, 'Over de Muur'",
-      "start_seconds": 2109,
-      "wiki_checked": true,
-      "wiki_pageid": 21672,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harrie_Jekkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Harrie_Jekkers_%282018%29.jpg/250px-Harrie_Jekkers_%282018%29.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, vergeleken met Duitse grondwet en First Amendment",
+      "start_seconds": 1024,
+      "mention_count": 2
     },
     {
-      "name": "Otto von Bismarck",
-      "note": "genoemd als glorieuzer geschiedbeeld van de AfD",
-      "start_seconds": 1135,
-      "wiki_checked": true,
-      "wiki_pageid": 43572,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Otto_von_Bismarck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Bismarckottovon.jpg/250px-Bismarckottovon.jpg"
+      "name": "Martin Luther",
+      "note": "Reformator, verbonden met Wittenberg en Saksen-Anhalt",
+      "start_seconds": 76,
+      "mention_count": 5
     },
     {
-      "name": "Joseph Stalin",
-      "note": "Sovjetleider ten tijde van de oprichting van de DDR",
-      "start_seconds": 2160,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider, referentie in AfD-retoriek en DDR-geschiedenis",
+      "start_seconds": 51,
+      "mention_count": 6
+    },
+    {
+      "name": "Jozef Stalin",
+      "note": "Sovjetleider, begon harde ontkerkelijkingscampagne in Oost-Duitsland",
+      "start_seconds": 2315,
+      "mention_count": 3
+    },
+    {
+      "name": "Walter Ulbricht",
+      "note": "DDR-leider die besloot de kerk niet uit te roeien",
+      "start_seconds": 2323,
+      "mention_count": 2
+    },
+    {
+      "name": "Erich Honecker",
+      "note": "DDR-leider die de kerk langzaam inlijfde",
+      "start_seconds": 2323,
+      "mention_count": 1
+    },
+    {
+      "name": "Manfred Stolpe",
+      "note": "Bisschop die later minister-president van Brandenburg werd, achteraf Stasi-agent",
+      "start_seconds": 2462,
+      "mention_count": 1
+    },
+    {
+      "name": "Werner Krusche",
+      "note": "Bisschop die dissidenten beschermde in Magdeburg",
+      "start_seconds": 2603,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans-Thomas Tillschneider",
+      "note": "AfD-ideoloog in Saksen-Anhalt, islamoloog, pleit voor afschaffing kerkbelasting",
+      "start_seconds": 3178,
+      "mention_count": 4
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer, vergeleken met AfD om provocerend gebaar op podium",
+      "start_seconds": 1225,
+      "mention_count": 1
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president, afgebeeld op BSW-poster",
+      "start_seconds": 379,
+      "mention_count": 1
+    },
+    {
+      "name": "Heinrich XIII Prinz Reuss",
+      "note": "Adellijke figuur betrokken bij gefaalde staatsgreep-plannen",
+      "start_seconds": 1061,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom-Jan Meeus",
+      "note": "Journalist die de regio vergeleek met Flevoland",
+      "start_seconds": 233,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Spekman",
+      "note": "Vakbondsbestuurder die met bus door steden reist",
+      "start_seconds": 4242,
+      "mention_count": 2
+    },
+    {
+      "name": "Leonard Jäger",
+      "note": "Online christelijke influencer, 'ketter der Neuzeit'",
+      "start_seconds": 3437,
+      "mention_count": 1
+    },
+    {
+      "name": "Yasmin Friesen",
+      "note": "Christelijke YouTuber met rechts-conservatieve lijn",
+      "start_seconds": 3457,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Over de Muur",
+      "title": "De DDR, de Nederlandse kerken en de vredesbeweging",
       "author": "Beatrice de Graaf",
-      "note": "proefschrift over de DDR, de Nederlandse kerken en de vredesbeweging",
-      "start_seconds": 2094,
+      "note": "Proefschrift van Beatrice de Graaf over Nederlandse kerkcontacten met de DDR",
+      "start_seconds": 2095,
       "volume_id": "op_SwAEACAAJ",
       "canonical_title": "Over de muur: de DDR, de Nederlandse kerken en de vredesbeweging",
       "canonical_author": "Beatrice de Graaf",
       "isbn13": "9789085060246",
       "isbn10": "9085060249",
       "thumbnail": ""
+    },
+    {
+      "title": "Gottespolitik. Die Rückkehr der Religion in der Außenpolitik seit 1979",
+      "author": "Beatrice de Graaf",
+      "note": "Aankomend boek waar De Graaf aan werkt tijdens haar verblijf in Duitsland",
+      "start_seconds": 4382
     }
   ],
   "bible_refs": [],
   "places": [
     "Saksen-Anhalt",
-    "Mecklenburg-Vorpommern",
-    "Berlijn",
     "Wittenberg",
-    "Eisleben",
-    "Thüringen",
+    "Magdeburg",
+    "Berlijn",
     "Oost-Duitsland",
-    "Duitsland",
-    "Oekraïne",
-    "Rusland",
-    "Hongarije",
-    "Pruisen",
+    "Eisleben",
+    "Dresden",
+    "Leipzig",
+    "Thüringen",
+    "Mecklenburg-Vorpommern",
     "Rotterdam",
-    "Nederland",
-    "Oostenrijk",
-    "Frankrijk"
+    "Utrecht",
+    "Nieuwegein",
+    "Pruisen"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de opmars van de extreemrechtse AfD in Oost-Duitsland, met bijna 44 procent in Saksen-Anhalt. Ze belichten de oorzaken, van de Treuhand en het uitgeholde maatschappelijk middenveld tot de charismatische lijsttrekker en de extreme ontkerkelijking. Ook gaat het over het christendom als politieke identiteit zonder kerken.",
+  "summary_tldr": "De AfD boekt in Saksen-Anhalt een historische zege van bijna 44 procent, en Beatrice de Graaf en Stefan Paas bespreken waarom dat gevaarlijk is voor Duitsland en Europa. Ze schetsen een multicausaal beeld van de DDR-erfenis, de verdwenen maatschappelijke verbanden en de ontkerkelijking van de deelstaat, en laten zien hoe de AfD het christendom als culturele identiteit inzet. Het gesprek eindigt met de vraag hoe gemeenschap van onderop kan worden opgebouwd.",
   "summary_points": [
-    "De AfD haalde bijna 44% in Saksen-Anhalt en kan mogelijk een regering vormen, een dijkdoorbraak.",
-    "Door het Einstimmigkeitsprincipe kan een deelstaat ook nationaal en Europees dwarsliggen, bijvoorbeeld bij militaire doorvoer naar Oekraïne.",
-    "De AfD stelt gedetailleerde vragen over infrastructuur en defensie, wat als 'boodschappenlijstje' voor Rusland wordt gezien.",
-    "Veiligheidsdiensten classificeren de regionale AfD als bewezen extreemrechts; 'remigratie' botst met artikel 1 van de grondwet.",
-    "Veel AfD-kiezers stemmen uit protest en zijn niet per se antidemocratisch.",
-    "De oorzaken zijn multicausaal: armoede, Treuhand, brain drain, en een weggevallen maatschappelijk middenveld.",
-    "Siegmund won met een gezellige campagne met barbecues, bierzelten en TikTok, terwijl andere partijen afwezig waren.",
-    "Saksen-Anhalt is het meest ontkerkelijkte gebied van Duitsland, met transgenerationele secularisatie en verhaalloosheid.",
-    "De DDR was een experiment waarin de staat de kerk probeerde in te lijven."
+    "De AfD-zege in Saksen-Anhalt is een mogelijke dijkdoorbraak, met gevolgen voor Duitsland en de EU, mede vanwege steun aan Oekraïne.",
+    "Door het Einstimmigkeitsprinzip kunnen deelstaten nationaal beleid blokkeren; de AfD zou zo Duitse besluitvorming kunnen frustreren.",
+    "De AfD-leden stellen gedetailleerde vragen over infrastructuur en veiligheid, wat zorgen oproept over doorlekken naar Rusland.",
+    "De partij wordt door Duitse veiligheidsdiensten als verdacht extreemrechts aangemerkt; criteria draaien om de grondwet en de menselijke waardigheid.",
+    "Kiezers zijn niet automatisch extremistisch; veel stemmen uit protest tegen de gevestigde orde, asielbeleid en de regering.",
+    "Oorzaken zijn multicausaal: lange-termijn armoede, de DDR-tijd, een harde transformatie na 1990 en erosie van het maatschappelijk middenveld.",
+    "Saksen-Anhalt is een van de minst kerkelijke regio's van Europa; de kerk werd in de DDR eerst vervolgd en daarna ingekapseld.",
+    "Transgenerationele secularisatie betekent dat meerdere generaties zonder religieus referentiekader zijn opgegroeid.",
+    "De AfD gebruikt christelijke cultuur vooral als identiteitsmarker tegen islam, migratie en LHBT-rechten, niet als geloofsinhoud.",
+    "De Duitse volkskerken hebben een establishmentpositie, terwijl vrije kerken soms sympathie tonen voor de AfD.",
+    "Weerbaarheid moet van bovenaf worden gefaciliteerd, maar groeit van onderop via vrijwilligerswerk en verenigingen."
   ],
   "chapters": [
     {
       "start_seconds": 76,
-      "title": "Een politieke aardverschuiving",
-      "summary": "Inleiding op de verkiezingen en de betekenis van de AfD-winst voor Duitsland en Europa."
+      "title": "Inleiding: een politieke aardverschuiving",
+      "summary": "David Boogerd introduceert de AfD-zege in Saksen-Anhalt en de context van Luther en de Reformatie."
     },
     {
-      "start_seconds": 204,
-      "title": "Deelstaatmacht, veto en Russische belangen",
-      "summary": "Uitleg over het Einstimmigkeitsprincipe, de brandmauer en de AfD-vragen die Rusland kunnen helpen."
+      "start_seconds": 177,
+      "title": "Waarom Duitsland ertoe doet",
+      "summary": "De Graaf legt uit waarom Duitsland een kernland van Europa is en hoe deelstaten via het Einstimmigkeitsprinzip macht hebben."
     },
     {
-      "start_seconds": 775,
-      "title": "Hoe extreemrechts is de AfD?",
-      "summary": "Criteria van de veiligheidsdienst, remigratie, militante democratie, en het onderscheid tussen partij en kiezers."
+      "start_seconds": 520,
+      "title": "Veiligheidsrisico's en Rusland",
+      "summary": "Het gesprek gaat over parlementaire vragen van de AfD die mogelijk Russische belangen dienen, en de vraag hoe toegang tot geheime informatie wordt beperkt."
     },
     {
-      "start_seconds": 1260,
-      "title": "Waarom Oost-Duitsland? De piramide van oorzaken",
-      "summary": "Van armoede en Treuhand tot erosie van het middenveld en de aantrekkelijke lijsttrekker Siegmund."
+      "start_seconds": 815,
+      "title": "Is de AfD extreemrechts?",
+      "summary": "De Graaf en Paas bespreken de criteria van de Duitse grondwet, militant democracy en de banden met extreemrechtse groepen."
     },
     {
-      "start_seconds": 1890,
-      "title": "Het land van Luther zonder kerk",
-      "summary": "Diepe wortels van de ontkerkelijking, volkskerkcultuur en de verhaalloosheid van Oost-Duitsland."
+      "start_seconds": 1302,
+      "title": "Waarom stemmen mensen op de AfD?",
+      "summary": "Een gelaagde analyse van lange-termijn oorzaken, de DDR-transformatie en de rol van Siegmunds campagne."
     },
     {
-      "start_seconds": 2094,
-      "title": "De DDR en de kerk",
-      "summary": "Beatrice de Graaf over haar proefschrift en de DDR als experiment met het inlijven van de kerk."
+      "start_seconds": 2113,
+      "title": "Kerk en DDR: ontkerkelijking en inkapseling",
+      "summary": "De DDR-kerkgeschiedenis, de rol van de Stasi en de transgenerationele secularisatie in Oost-Duitsland."
+    },
+    {
+      "start_seconds": 2945,
+      "title": "Christendom als politieke identiteit",
+      "summary": "Het AfD-programma, vrije kerken, kerkbelasting en de vraag hoe christelijke identiteit politiek wordt ingezet."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1060,
-      "speaker": "Beatrice de Graaf",
-      "text": "Dat kan best carnavalesk zijn, maar dan wel een carnavalsklauw met een kalasjnikov.",
-      "note": "Scherpe typering van de coupplannen die werden weggezet als onschuldig."
+      "start_seconds": 1242,
+      "speaker": "Stefan Paas",
+      "text": "De provocerende gebaren van AfD-politici getuigen van een volstrekt gebrek aan moreel kompas.",
+      "note": "Paas koppelt het gedrag van de partij aan de historische verantwoordelijkheid van de oorlog."
     },
     {
-      "start_seconds": 51,
+      "start_seconds": 2227,
+      "speaker": "Beatrice de Graaf",
+      "text": "Er zijn nu drie tot zes generaties opgegroeid zonder religieus referentiekader, zonder doop of kerkelijke feestdagen.",
+      "note": "Het cijfer toont hoe diep de ontkerkelijking in deze regio is ingesleten."
+    },
+    {
+      "start_seconds": 2739,
+      "speaker": "Beatrice de Graaf",
+      "text": "Hitler was een West-Duitser; dat was het motto van de Oost-Duitsers.",
+      "note": "Het DDR-narratief schoof de nazi-schuld af en ontsnapte aan rekenschap."
+    },
+    {
+      "start_seconds": 3827,
+      "speaker": "Beatrice de Graaf",
+      "text": "Dan wordt het christendom een hondenfluitje voor wit, racistisch, xenofob, homofob beleid.",
+      "note": "Een scherpe analyse van hoe christelijke identiteit als politiek signaal wordt misbruikt."
+    },
+    {
+      "start_seconds": 3947,
       "speaker": "Stefan Paas",
       "text": "Een christelijke cultuur bij voorkeur zonder kerken en zonder christenen.",
-      "note": "Vat de paradox van de AfD en het christendom samen."
-    },
-    {
-      "start_seconds": 1281,
-      "speaker": "Stefan Paas",
-      "text": "Je hebt het dan over moordenaars in zwarte uniformen. Dat omarm je.",
-      "note": "Scherpe afwijzing van het 'geuzenbegrip'."
-    },
-    {
-      "start_seconds": 1100,
-      "speaker": "Beatrice de Graaf",
-      "text": "Gauland noemde de nazitijd slechts een vogelpoepje in duizend jaar Duitse geschiedenis.",
-      "note": "Illustreert het geschiedrevisionisme."
-    },
-    {
-      "start_seconds": 1605,
-      "speaker": "David Boogerd",
-      "text": "Extreem rechts stond met de mensen te barbecueën, terwijl de andere partijen alleen 'foei' zeiden.",
-      "note": "Verklaart het succes van de campagne."
+      "note": "Een treffende samenvatting van de paradox van de AfD-retoriek."
     }
   ],
   "keywords": [
     "AfD",
     "Saksen-Anhalt",
-    "Ulrich Siegmund",
-    "ontkerkelijking",
     "Reformatie",
     "DDR",
-    "Treuhandanstalt",
-    "brandmauer",
-    "remigratie",
-    "maatschappelijk middenveld",
-    "Oost-Duitsland",
-    "christelijke cultuur"
+    "Ontkerkelijking",
+    "Transgenerationele secularisatie",
+    "Volkskerk",
+    "Vrije kerken",
+    "Militant democracy",
+    "Extreemrechts",
+    "Kerk in het socialisme",
+    "Christelijke identiteit"
   ],
-  "quotes": [],
+  "quotes": [
+    "Vindt er in Duitsland – en daarmee ook in Europa – een politieke aardverschuiving plaats?",
+    "Tegenwoordig behoort het juist tot de minst kerkelijke gebieden van Europa.",
+    "Hoe kan het dat het geloof er bijna verdwenen is, maar het christendom als politieke identiteit weer opduikt?"
+  ],
   "similar": [
     {
       "n": 232,
-      "reason": "Opmars extreemrechts in Duitsland (AfD), met Beatrice de Graaf en Stefan Paas"
+      "reason": "Extreemrechts in Duitsland en een existentiële democratiecrisis, met Beatrice de Graaf"
     },
     {
-      "n": 300,
-      "reason": "Afglijden naar fascisme en democratie, politiek en geschiedenis met De Graaf en Paas"
+      "n": 56,
+      "reason": "Christelijke orthodoxie en radicale populisten; religie als politiek instrument"
     },
     {
-      "n": 309,
-      "reason": "Autoritaire leiders als Poetin en Trump, De Graaf en Paas"
+      "n": 2,
+      "reason": "Populisme, de kerk en de rol van christelijke identiteit in de politiek"
     },
     {
-      "n": 307,
-      "reason": "Nationalisme en natiestaat, geschiedenis en geopolitiek met Paas"
+      "n": 170,
+      "reason": "Verrechtsing van Nederland en het electorale succes van populistische partijen"
     },
     {
       "n": 317,
-      "reason": "Religie en identiteit in de politiek, Poetin, De Graaf en Paas"
+      "reason": "Religie en relikwieën in de wereldpolitiek, met Beatrice de Graaf en Stefan Paas"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

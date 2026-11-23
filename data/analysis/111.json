@@ -1,17 +1,22 @@
 {
   "episode": 111,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 103513,
+    "segments": 1130,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30876,
-    "output_tokens": 1862,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 52942,
+    "output_tokens": 8132,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "God & geloof",
-    "Filosofie & ethiek",
+    "Bijbel & Jezus",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -19,157 +24,233 @@
   ],
   "people": [
     {
-      "name": "Thierry Baudet",
-      "note": "politicus; opmerkingen over kwaadaardige reptielen met antisemitische wortels",
-      "start_seconds": 494,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "name": "Dirk de Wachter",
+      "note": "Psychiater, auteur van 'Borderline Times' (2011), genoemd als voorbeeld van een psychiatrische blik op de samenleving",
+      "start_seconds": 639,
+      "mention_count": 6
     },
     {
-      "name": "Dirk de Wachter",
-      "note": "Belgische psychiater, auteur van Borderline Times",
-      "start_seconds": 624,
-      "wiki_checked": true,
-      "wiki_pageid": 3777024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dirk_De_Wachter"
+      "name": "Dick Swaab",
+      "note": "Neurowetenschapper, wiens slotwoord het boek afsluit met hoop op menselijk herstel",
+      "start_seconds": 788,
+      "mention_count": 3
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus (Forum voor Democratie) wiens uitspraken over reptielen besproken worden",
+      "start_seconds": 485,
+      "mention_count": 3
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog wiens latere terugblik op de individualisering wordt aangehaald",
+      "start_seconds": 1693,
+      "mention_count": 2
+    },
+    {
+      "name": "Joost Röselaars",
+      "note": "Predikant die het eerste exemplaar van het boek krijgt",
+      "start_seconds": 3126,
+      "mention_count": 2
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Filosoof en theoloog; zijn idee over de Bijbel als relationeel begrip wordt besproken",
+      "start_seconds": 3628,
+      "mention_count": 3
+    },
+    {
+      "name": "Damiaan Denys",
+      "note": "Psychiater die de samenleving als ziek beschouwt vanwege het hoge percentage psychische klachten",
+      "start_seconds": 1904,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Verhagen",
+      "note": "Psychiater die boeken over de samenleving schreef",
+      "start_seconds": 1903,
+      "mention_count": 1
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Cultuurcriticus die zijn colleges met bijbelse lessen verrijkt",
+      "start_seconds": 3465,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Genoemd als gebruiker van dehumaniserende metaforen in 'Mein Kampf'",
+      "start_seconds": 564,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Het verlaten individu",
+      "author": "Esther van Fenema",
+      "note": "Nieuw boek van de gast over de zeven hoofdzonden plus leegte als achtste hoofdzonde; gitzwart en dystopisch",
+      "start_seconds": 26,
+      "volume_id": "Zc1DzwEACAAJ",
+      "canonical_title": "Het verlaten individu. Waarom voelen we ons zo leeg?",
+      "canonical_author": "Esther van Fenema",
+      "isbn13": "9789044651591",
+      "isbn10": "9044651595",
+      "thumbnail": ""
+    },
+    {
+      "title": "Borderline Times",
+      "author": "Dirk de Wachter",
+      "note": "Boek uit 2011 over de samenleving als borderline; referentiepunt voor het gesprek",
+      "start_seconds": 639,
+      "volume_id": "Z1gI0AEACAAJ",
+      "canonical_title": "Borderline times: het einde van de normaliteit",
+      "canonical_author": "Dirk August Jozef De Wachter",
+      "isbn13": "9789401493154",
+      "isbn10": "9401493154",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
       "ref": "Psalm 22",
-      "note": "'Mijn God, mijn God, waarom hebt Gij mij verlaten?', geciteerd door Jezus aan het kruis",
+      "note": "Jezus citeert 'Mijn God, mijn God, waarom hebt Gij mij verlaten?' aan het kruis; startpunt van het boek",
       "start_seconds": 844
     },
     {
       "ref": "Genesis 3",
-      "note": "Adam, Eva, de slang en de appel; kennis van goed en kwaad",
+      "note": "Adam en Eva en de slang met de appel als begin van de menselijke keuze voor goed en kwaad",
       "start_seconds": 1061
     }
   ],
   "places": [
-    "Berlijn"
+    "Berlijn",
+    "Urk",
+    "Alblasserwaard"
   ],
-  "summary_tldr": "Psychiater Esther van Fenema bespreekt haar boek 'Het verlaten individu', een gitzwarte analyse van onze tijd aan de hand van de zeven hoofdzonden plus leegte. Volgens haar is het individu losgeraakt van groep en moraal en zichzelf tot God gemaakt. Stefan Paas noemt het een donderpreek en vraagt wat er nieuw is aan deze oude zonden.",
+  "summary_tldr": "Psychiater en violiste Esther van Fenema bespreekt haar boek 'Het verlaten individu', waarin ze de moderne samenleving beschrijft als een plek waar het individu, losgemaakt van de groep, zichzelf als God wil zien en leegte ervaart. Theoloog Stefan Paas noemt haar betoog een donderpreek en vraagt of er ook een oplossing moet komen. Het gesprek eindigt met de vraag of eerst de diagnose moet doordringen voordat men naar oplossingen zoekt.",
   "summary_points": [
-    "Het individu is losgeweekt van de groep en staat moederziel alleen.",
-    "De mens heeft zichzelf tot God gemaakt: een tweede appel waarbij goed en kwaad zelf bepaald worden.",
-    "De zeven hoofdzonden krijgen vrij spel, aangevuld met een achtste: leegte.",
-    "De Holocaust als onverwerkt trauma leidde tot afkeer van gezag en groep, een hypercorrectie.",
-    "Commercie en systemen maken gebruik van hebzucht en afgunst; je kunt er niet meer uit.",
-    "Tevredenheid is een beter streven dan geluk, dat een illusie en verdienmodel is.",
-    "Psychiatriseren van Thierry Baudet ontslaat hem van morele verantwoordelijkheid.",
-    "Onderzoek naar zingeving en psychische klachten spreekt elkaar tegen; het hangt af van hoe je meet."
+    "Van Fenema beschrijft de moderne mens als losgezongen individu dat zichzelf God waant en de zeven hoofdzonden vrij spel geeft.",
+    "Zij voegt leegte toe als achtste hoofdzonde en ziet die als gevolg van het wegvallen van gemeenschap en houvast.",
+    "De Holocaust en het wantrouwen tegen gezag en groepen worden gezien als keerpunt waarna te veel werd weggegooid zonder vervanging.",
+    "Hebzucht en consumptie worden versterkt door een commercieel systeem waarin mensen gevangen zitten, bijvoorbeeld via online winkelen en bankrekeningen.",
+    "Overprikkeling en erkenningsbehoefte via social media maken luiheid en onverschilligheid hedendaagse vormen van oude zonden.",
+    "Stefan Paas wijst op de paradox dat individualisering wordt bekritiseerd, terwijl mensen wel zelf hun probleem moeten doorzien.",
+    "Van Fenema beschouwt psychische klachten als samenhangend met zingeving en discipline, maar Paas betwijfelt of de cijfers het zingevingstekort bevestigen.",
+    "Het gesprek over de Bijbel toont dat Van Fenema de Bijbel als bron van wijsheid waardeert, ook zonder geloof.",
+    "Beide gesprekspartners zijn het erover eens dat eerst inzicht in het probleem nodig is voordat een oplossing kan werken.",
+    "De aflevering eindigt zonder concrete oplossing, met de afspraak dat die in een vervolg kan komen."
   ],
   "chapters": [
     {
-      "start_seconds": 26,
-      "title": "Introductie en achtergrond",
-      "summary": "David introduceert Esther van Fenema, psychiater en violist, en haar keuze voor de psychiatrie."
+      "start_seconds": 0,
+      "title": "Introductie van het boek",
+      "summary": "David Boogerd stelt het boek 'Het verlaten individu' en het thema van de donderpreek voor."
     },
     {
-      "start_seconds": 340,
-      "title": "Psychiatrie en samenleving",
-      "summary": "Over de interactie tussen individu en samenleving en het gevaar van het psychiatriseren van Thierry Baudet."
+      "start_seconds": 98,
+      "title": "Achtergrond van Van Fenema",
+      "summary": "Van Fenema vertelt over haar werk als psychiater, haar viool en haar keuze voor de psychiatrie."
     },
     {
-      "start_seconds": 624,
-      "title": "Een gitzwart, dystopisch boek",
-      "summary": "Het boek als donderpreek en het verschil met Dirk de Wachters Borderline Times."
+      "start_seconds": 352,
+      "title": "Psychiatrie en de samenleving",
+      "summary": "Het gesprek gaat over de wisselwerking tussen individu en samenleving en over het stellen van diagnoses van publieke figuren."
     },
     {
-      "start_seconds": 844,
-      "title": "Verlatenheid en het individu als God",
-      "summary": "Psalm 22, Adam en Eva en het individu dat zichzelf tot God maakt."
+      "start_seconds": 843,
+      "title": "Het verlaten individu en de zeven hoofdzonden",
+      "summary": "Van Fenema legt uit hoe de Bijbel en de klassieke hoofdzonden het kader vormen en waarom het individu zich verlaten voelt."
     },
     {
-      "start_seconds": 1084,
-      "title": "Hoofdzonden toen en nu",
-      "summary": "Wat is er veranderd aan oude zonden: het wegvallen van de groep, commercie en systeemdwang."
+      "start_seconds": 1793,
+      "title": "Doemdenken, geluk en zingeving",
+      "summary": "Paas en Van Fenema bespreken of het boek te somber is, het verschil tussen tevredenheid en geluk, en de cijfers over psychische klachten."
     },
     {
-      "start_seconds": 1440,
-      "title": "Holocaust en hypercorrectie",
-      "summary": "Hoe de afkeer van gezag en groep is doorgeschoten."
+      "start_seconds": 2583,
+      "title": "Diagnose eerst, oplossing later",
+      "summary": "Het gesprek gaat over de vraag of eerst de diagnose moet bezinken voordat oplossingen worden aangedragen, en over de rol van de kerk."
     },
     {
-      "start_seconds": 1800,
-      "title": "Te somber? Tevredenheid boven geluk",
-      "summary": "Reflectie op doemdenken, tevredenheid en de zingevingscrisis."
+      "start_seconds": 3239,
+      "title": "Bijbel als wijsheid en relationeel begrip",
+      "summary": "Van Fenema en Paas bespreken de Bijbel als bron van wijsheid en de manier waarop teksten serieus genomen moeten worden, met verwijzing naar Pascal."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 556,
+      "start_seconds": 957,
       "speaker": "Esther van Fenema",
-      "text": "Als je iemand psychiatriseert, ontsla je hem van zijn morele verantwoordelijkheid.",
-      "note": "Scherpe stellingname over Baudet en dehumanisering."
+      "text": "Het individu heeft zich losgemaakt en is gaan geloven in de illusie dat het individu zelf God mag zijn.",
+      "note": "Kernthese van het boek, die de hele aflevering structureert."
     },
     {
-      "start_seconds": 1073,
+      "start_seconds": 1061,
       "speaker": "Esther van Fenema",
-      "text": "We zijn een tweede appel gaan eten: dat we zelf God zijn en goed en kwaad niet meer bestaat.",
-      "note": "Kernmetafoor van het boek."
+      "text": "Dat we zelf God zijn en dat goed en kwaad überhaupt niet meer bestaat, omdat je dat zelf bepaalt.",
+      "note": "Zij verbindt de moderne mens direct met de appel uit Genesis 3."
     },
     {
-      "start_seconds": 1470,
+      "start_seconds": 1384,
       "speaker": "Esther van Fenema",
-      "text": "Hebben we de Holocaust als trauma wel voldoende opgeruimd, of alleen gedacht: dit nooit meer?",
-      "note": "Psychiatrische blik op de geschiedenis."
+      "text": "We zijn allemaal geïnfecteerd met die hebzucht. We zijn onderdeel van een hebzuchtig systeem waar je niet meer uit kunt.",
+      "note": "Beschrijft hebzucht als systeem en niet alleen als persoonlijke zwakte."
     },
     {
-      "start_seconds": 1815,
-      "speaker": "Esther van Fenema",
-      "text": "Geluk is een illusie die ik graag wil afschieten; tevreden is al heel mooi.",
-      "note": "Tegendraads advies."
+      "start_seconds": 2764,
+      "start_seconds_note": null,
+      "speaker": "Stefan Paas",
+      "text": "Nu ben je ook een dominee, maar een donderpreek zonder oplossing. Dan zit de hele kerk nu te snikken.",
+      "note": "Humoristische kritiek die de spanning tussen diagnose en oplossing blootlegt."
     },
     {
-      "start_seconds": 2190,
-      "speaker": "Esther van Fenema",
-      "text": "Als jij voor een paar tientjes naar Berlijn kunt vliegen, moet ergens die rekening betaald worden.",
-      "note": "Concreet beeld van morele rekening."
+      "start_seconds": 2927,
+      "speaker": "Stefan Paas",
+      "text": "Heel veel mensen in traditionele gemeenschappen hadden helemaal niet zoveel inzicht, maar die hingen in het vangnet.",
+      "note": "Scherpe paradox: individualisering bekritiseren terwijl individueel inzicht wordt gevraagd."
     }
   ],
   "keywords": [
-    "Het verlaten individu",
-    "hoofdzonden",
+    "verlaten individu",
+    "zeven hoofdzonden",
     "leegte",
     "individualisering",
     "zingeving",
-    "Holocaust",
-    "Dirk de Wachter",
-    "donderpreek",
-    "tevredenheid",
     "psychiatrie",
-    "Thierry Baudet"
+    "hebzucht",
+    "Psalm 22",
+    "donderpreek",
+    "consumptie",
+    "psychose",
+    "gemeenschap"
   ],
   "quotes": [
-    "We zijn in een volstrekt nieuwe fase van de geschiedenis terechtgekomen. De groep is weggevallen en het individu staat moederziel alleen."
+    "We zijn in een volstrekt nieuwe fase van de geschiedenis terechtgekomen.",
+    "Een donderpreek, zo noemt vaste gast en theoloog Stefan Paas het betoog van Esther van Fenema.",
+    "Moeten we ook in die richting zoeken voor de oplossing voor het verlaten individu?"
   ],
   "similar": [
     {
-      "n": 191,
-      "reason": "Zelfde gast Esther van Fenema; zingeving, jongeren en psychische schade van moderne tijd"
+      "n": 314,
+      "reason": "Zingevingscrisis en moderne leegte, met Dirk de Wachter en Esther van Fenema"
     },
     {
-      "n": 33,
-      "reason": "Dirk de Wachter over geluk, het goede leven en de verweesde moderne mens"
+      "n": 191,
+      "reason": "Esther van Fenema over geestelijke schade, zingeving en jongeren in de moderne samenleving"
     },
     {
       "n": 287,
-      "reason": "Individualisme en eenzaamheid: waarom de zelfredzame mens vastloopt"
+      "reason": "Individualisme, eenzaamheid en jongeren die vastlopen in een individualistische tijd"
     },
     {
-      "n": 314,
-      "reason": "Zingevingscrisis met Dirk de Wachter en Esther van Fenema over leegte van modern leven"
+      "n": 33,
+      "reason": "Dirk de Wachter over geluk, zingeving en het goede leven"
     },
     {
-      "n": 278,
-      "reason": "Psychische nood, therapie en geloof; kritiek op de moderne psyche-cultuur"
+      "n": 249,
+      "reason": "Psychische klachten als mentale epidemie, met zoektocht naar uitweg en zingeving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

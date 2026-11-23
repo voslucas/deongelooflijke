@@ -1,17 +1,22 @@
 {
   "episode": 74,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 103345,
+    "segments": 1214,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31710,
-    "output_tokens": 2749,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53924,
+    "output_tokens": 6129,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
+    "God & geloof",
     "Filosofie & ethiek",
-    "Zingeving & psyche",
     "Dood & rouw"
   ],
   "guests": [
@@ -19,84 +24,80 @@
   ],
   "people": [
     {
-      "name": "Bernardo Kastrup",
-      "note": "filosoof en computerwetenschapper, verdedigt het idealisme tegenover het materialisme",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 5954804,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bernardo_Kastrup",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bernardo_Kastrup_-_2021_%28cropped%29.jpg/250px-Bernardo_Kastrup_-_2021_%28cropped%29.jpg"
-    },
-    {
-      "name": "Dick Swaab",
-      "note": "hersenwetenschapper van 'wij zijn ons brein'",
-      "start_seconds": 285,
-      "wiki_checked": true,
-      "wiki_pageid": 249290,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Swaab",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dick_Swaab.jpg/250px-Dick_Swaab.jpg"
+      "name": "Dick Zwaap",
+      "note": "Hersenwetenschapper; genoemd als voorstander van de stelling dat wij ons brein zijn",
+      "start_seconds": 243,
+      "mention_count": 1
     },
     {
       "name": "Isaac Newton",
-      "note": "dacht dat God de planeetbanen af en toe bijstuurde",
-      "start_seconds": 1097,
-      "wiki_checked": true,
-      "wiki_pageid": 786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isaac_Newton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/250px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg"
+      "note": "Natuurkundige die volgens Paas dacht dat God af en toe ingreep in de baan van de aarde",
+      "start_seconds": 1091,
+      "mention_count": 1
     },
     {
       "name": "Immanuel Kant",
-      "note": "stelde dat we niets kunnen weten over de wereld achter de verschijning",
-      "start_seconds": 1871,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "note": "Filosoof die stelde dat we de werkelijkheid achter de waarneming niet kunnen kennen",
+      "start_seconds": 1860,
+      "mention_count": 3
     },
     {
       "name": "Arthur Schopenhauer",
-      "note": "stelde dat we onszelf direct kennen als 'wil', ofwel bewust innerlijk leven",
-      "start_seconds": 1871,
-      "wiki_checked": true,
-      "wiki_pageid": 34358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_Schopenhauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg/250px-Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg"
+      "note": "Filosoof die stelde dat we ons eigen innerlijke bewustzijn direct kennen als wil",
+      "start_seconds": 1860,
+      "mention_count": 4
     },
     {
       "name": "Plato",
-      "note": "grotvergelijking als beeld voor schaduwen van de werkelijkheid",
-      "start_seconds": 1950,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Filosoof; de grotmetafoor past bij de discussie over schijn en werkelijkheid",
+      "start_seconds": 1951,
+      "mention_count": 2
     },
     {
-      "name": "Friedrich Nietzsche",
-      "note": "verwezen via de uitspraak 'God is dood'",
-      "start_seconds": 710,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "name": "Plotinus",
+      "note": "Neoplatoonse denker; beschreef de 'grote geest' die zich afsplitst in geest en ziel",
+      "start_seconds": 3246,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader die in zijn jonge jaren sterk door Plotinus werd beïnvloed",
+      "start_seconds": 3474,
+      "mention_count": 1
+    },
+    {
+      "name": "Dionysius de Areopagiet",
+      "note": "Mystiek theoloog in de christelijke traditie met neoplatoonse invloeden",
+      "start_seconds": 3474,
+      "mention_count": 1
+    },
+    {
+      "name": "Meester Eckhart",
+      "note": "Middeleeuwse mysticus die in de christelijke mystiek geest als wezenlijk ziet",
+      "start_seconds": 3474,
+      "mention_count": 1
+    },
+    {
+      "name": "Yolande Schlumf",
+      "note": "Onderzoeker naar dissociatieve identiteitsstoornis in Nederland",
+      "start_seconds": 3156,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "Filosoof aan de Vrije Universiteit die dualist is en eerder in de podcast te gast was",
+      "start_seconds": 4125,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "Why Materialism Is Baloney",
+      "title": "Why Materialism is Baloney",
       "author": "Bernardo Kastrup",
-      "note": "kritiek op het metafysisch materialisme",
-      "start_seconds": 1190,
+      "note": "Boek waarin Kastrup argumenteert dat materialisme niet klopt",
+      "start_seconds": 1184,
       "volume_id": "iXd8AwAAQBAJ",
-      "canonical_title": "Why Materialism Is Baloney: How True Skeptics Know There Is No Death and Fathom Answers to life, the Universe, and Everything",
+      "canonical_title": "Why Materialism Is Baloney: How true Skeptics Know There Is No Death and Fathom Answers to Life, the Universe, and Everything",
       "canonical_author": "Bernardo Kastrup",
       "isbn13": "9781782793618",
       "isbn10": "1782793615",
@@ -105,131 +106,143 @@
   ],
   "bible_refs": [],
   "places": [
-    "Brazilië",
-    "Zwitserland",
     "Nederland",
-    "Denemarken",
-    "Portugal",
+    "Zwitserland",
+    "Brazilië",
     "Eindhoven",
+    "Nijmegen",
+    "Delft",
     "Hilversum",
-    "Australië",
-    "CERN"
+    "Australië"
   ],
-  "summary_tldr": "Filosoof Bernardo Kastrup legt uit waarom hij het materialisme onhoudbaar vindt, mede op basis van kwantumfysica. Met beelden als het vliegtuigdashboard en twee televisies betoogt hij dat de fysieke wereld een verschijningsvorm is van een onderliggende, mentale werkelijkheid. Samen met David Boogerd en Stefan Paas bespreekt hij ook de gevolgen van het materialisme voor zingeving en angst voor de dood.",
+  "summary_tldr": "Filosoof en computerwetenschapper Bernardo Kastrup stelt dat het materialisme onhoudbaar is en dat bewustzijn niet uit materie voortkomt, mede op basis van inzichten uit de kwantumfysica. Hij gebruikt metaforen als het dashboard van een vliegtuig en de tv-wedstrijd om uit te leggen dat de fysische wereld een verschijningsvorm is van een onderliggende, geestelijke werkelijkheid. Stefan Paas bevraagt hem kritisch op de gevolgen voor zingeving, het lichamelijke leven en de verhouding tot het christelijk geloof.",
   "summary_points": [
-    "Het materialisme zegt dat alleen materie bestaat. Kastrup noemt dat dominant in de cultuur sinds de 19e eeuw.",
-    "Volgens hem leidt het materialisme tot een leven gericht op het verzamelen van objecten en tot een gebrek aan zingeving.",
-    "Het materialisme bood aanvankelijk geruststelling: na de dood is er niets om bang voor te zijn. Nu voelt dat totale einde juist beangstigend.",
-    "Wetenschap beschrijft hoe de natuur zich gedraagt, niet wat de natuur is. Dat laatste is metafysica.",
-    "In de kwantumfysica hebben deeltjes geen vaste eigenschappen vóór een meting. Dat botst met onze materialistische intuïtie.",
-    "Via het dashboardbeeld en de twee televisies betoogt Kastrup dat de fysieke wereld een weergave is van de echte werkelijkheid.",
-    "Hij sluit aan bij Kant en Schopenhauer: we kennen onszelf direct, als bewust innerlijk leven.",
-    "Hij ziet de hersenen als verschijningsvorm van innerlijke ervaring en niet als de oorzaak ervan.",
-    "Dualisme (de radiometafoor) wijst hij af als onvolledig. Hij pleit voor een idealisme waarin alleen het mentale bestaat."
+    "Kastrup stelt dat materialisme, het idee dat alleen materie bestaat, niet klopt en in de filosofie nauwelijks meer wordt verdedigd.",
+    "Materialisme is volgens hem deels ontstaan als troost tegen de angst voor de dood, maar leidt tot een gebrek aan zingeving.",
+    "Volgens Kastrup laat kwantumfysica zien dat eigenschappen van deeltjes pas bestaan na meting, wat in strijd is met materialistische intuïties.",
+    "De verstrengeling van dobbelstenen en de tv-metafoor illustreren dat er een onderliggende werkelijkheid is achter de waarneomingen.",
+    "Het dashboard-beeld (vliegtuig) stelt dat materie de verschijningsvorm is van geestelijke processen, niet de oorzaak van bewustzijn.",
+    "Kastrup ziet hersenafwijkingen en medicijnen als veranderingen in de verschijningsvorm van geest, niet als bewijs dat we ons brein zijn.",
+    "Stefan Paas toetst dit aan de christelijke traditie en wijst op de spanning tussen mystiek en de opstanding van het vlees.",
+    "Paas waarschuwt dat een nadruk op de geest het lichamelijke leven en de medemens kan onderwaarderen.",
+    "Kastrup noemt zichzelf diep religieus omdat zijn leven niet om hemzelf draait, maar laat specifieke religieuze invulling aan de luisteraar.",
+    "Kastrup zegt dat materialisme in de academische filosofie moeilijk te verdedigen is, al publiceert hij zelf in gerenommeerde tijdschriften."
   ],
   "chapters": [
     {
       "start_seconds": 0,
+      "title": "Intro en het materialisme",
+      "summary": "Kastrup en Paas openen met de stelling dat materialisme in de filosofie nauwelijks meer wordt verdedigd."
+    },
+    {
+      "start_seconds": 95,
       "title": "Kennismaking met Bernardo Kastrup",
-      "summary": "Kastrups achtergrond: Brazilië, CERN, Philips en twee promoties. Hij ziet zichzelf tegenwoordig als filosoof."
+      "summary": "Kastrup vertelt over zijn achtergrond, werk bij CERN en promoties in Eindhoven."
     },
     {
       "start_seconds": 243,
-      "title": "Wat is het materialisme?",
-      "summary": "Definitie van het materialisme en hoe het ons dagelijks leven en onze cultuur kleurt. Het materialisme zou een cultuur van consumptie en zingevingsverlies voeden."
+      "title": "Materialisme en de angst voor de dood",
+      "summary": "Kastrup verklaart het succes van materialisme uit de angst voor de dood en het verlangen naar zingeving."
     },
     {
-      "start_seconds": 426,
-      "title": "Angst voor de dood en zingeving",
-      "summary": "Waarom het materialisme aantrekkelijk was en hoe het zingeving verving door alternatieven als nationalisme en wetenschap. Stefan Paas herkent de dominantie, maar wijst op hardnekkige religieuze intuïties."
+      "start_seconds": 634,
+      "title": "Compensatie en het verlies van zingeving",
+      "summary": "Het gesprek gaat over alternatieve bronnen van zingeving, zoals nationalisme, wetenschap en activisme."
     },
     {
-      "start_seconds": 925,
-      "title": "Wetenschap versus metafysica",
-      "summary": "Kastrup stelt dat wetenschap gedrag voorspelt en niet zegt wat de natuur is. Daarbij ontstaat discussie over Newton en over wat metafysica eigenlijk is."
+      "start_seconds": 1218,
+      "title": "Kwantumfysica en de dobbelstenen",
+      "summary": "Kastrup legt uit dat deeltjes geen vaste eigenschappen hebben voor meting en gebruikt de dobbelsteenmetafoor."
     },
     {
-      "start_seconds": 1210,
-      "title": "Kwantumfysica en het dashboard",
-      "summary": "Uitleg over meting en kwantumverstrengeling met dobbelstenen, een vliegtuigdashboard en twee televisies. De fysieke wereld is volgens hem het dashboard, niet de echte werkelijkheid."
+      "start_seconds": 2105,
+      "title": "Het dashboard en het bewustzijn",
+      "summary": "Via het dashboard-beeld en de tv-metafoor betoogt Kastrup dat materie een verschijningsvorm van geest is."
     },
     {
-      "start_seconds": 1871,
-      "title": "Kant, Schopenhauer en het zelf",
-      "summary": "Over de grens van onze kennis volgens Kant en Schopenhauers antwoord: we kennen onszelf van binnenuit. Het bewuste innerlijk leven is wat we werkelijk zijn."
+      "start_seconds": 3227,
+      "title": "Religie, mystiek en het christendom",
+      "summary": "Paas en Kastrup bespreken neoplatonisme, mystiek en de verhouding tot het christelijk geloof en de opstanding van het vlees."
     },
     {
-      "start_seconds": 2132,
-      "title": "Bewustzijn, hersenen en idealisme",
-      "summary": "Hersenen als verschijningsvorm van innerlijk leven en kritiek op de radiometafoor en op het dualisme. Kastrup pleit voor een visie waarin alleen het geestelijke bestaat."
+      "start_seconds": 3547,
+      "title": "Persoonlijk geloof en de gevolgen voor het leven",
+      "summary": "Kastrup reflecteert op zijn eigen religiositeit en de risico's van een te geestelijk wereldbeeld, en de discussie over reacties in de academische wereld sluit af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 3,
+      "start_seconds": 426,
       "speaker": "Bernardo Kastrup",
-      "text": "In de filosofie wordt materialisme al ongeveer 10 jaar niet echt meer verdedigd.",
-      "note": "Gewaagde openingsstelling die de toon zet voor het gesprek."
+      "text": "De grootste angst in de geschiedenis van de mens is: wat gaan we ervaren na de dood?",
+      "note": "Kastrup verbindt het materialisme direct aan existentiële angst, wat het verklaart waarom het populair werd."
     },
     {
-      "start_seconds": 466,
+      "start_seconds": 399,
       "speaker": "Bernardo Kastrup",
-      "text": "De dood is het einde van al jouw problemen.",
-      "note": "Legt uit waarom het materialisme psychologisch aantrekkelijk was."
+      "text": "We verzamelen inzichten niet. We verzamelen objecten. En dat is een tragedie.",
+      "note": "Een scherpe kritiek op een cultuur die materiële bezittingen boven betekenis stelt."
     },
     {
-      "start_seconds": 1544,
+      "start_seconds": 1537,
       "speaker": "Bernardo Kastrup",
-      "text": "De fysische wereld is het dashboard, het resultaat van een meting.",
-      "note": "Kernmetafoor die ingewikkelde kwantumfysica toegankelijk maakt."
+      "text": "De fysische wereld is de dashboard.",
+      "note": "Kernmetafoor van Kastrup: wat wij meten is een verschijningsvorm, niet de werkelijkheid zelf."
     },
     {
-      "start_seconds": 1706,
+      "start_seconds": 3566,
       "speaker": "Bernardo Kastrup",
-      "text": "De tijdreiziger denkt dat de beelden op de televisie zelfstandig bestaan.",
-      "note": "Verhelderend beeld voor kwantumverstrengeling."
+      "text": "Mijn leven is dus vol van zingeving, juist omdat het niet om mij gaat.",
+      "note": "Een verrassende verklaring van religiositeit die zelfopoffering en dienst als kern neemt."
     },
     {
-      "start_seconds": 2203,
+      "start_seconds": 4211,
       "speaker": "Bernardo Kastrup",
-      "text": "De hersenen zijn niet de oorzaak van mijn innerlijk leven, maar het beeld ervan.",
-      "note": "Vat zijn visie op bewustzijn en hersenen samen."
+      "text": "Het is bijna onmogelijk geworden om materialisme te verdedigen.",
+      "note": "Een stellige uitspraak over de stand van de filosofie die door de discussie wordt uitgedaagd."
     }
   ],
   "keywords": [
     "materialisme",
-    "kwantumfysica",
     "bewustzijn",
-    "idealisme",
-    "metafysica",
-    "zingeving",
+    "kwantumfysica",
+    "dashboard-metafoor",
     "dualisme",
-    "Schopenhauer",
-    "Kant",
+    "monisme",
+    "zingeving",
     "dood",
-    "kwantumverstrengeling"
+    "religieuze intuïtie",
+    "metafysica",
+    "idealisme",
+    "neoplatonisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "De man die ons wereldbeeld op zijn kop zet",
+    "een filosoof en computerwetenschapper die internationaal furore maakt door te stellen dat het materialisme niet klopt",
+    "Kastrup heeft de gave om moeilijke materie uit te leggen met heldere voorbeelden"
+  ],
   "similar": [
     {
-      "n": 282,
-      "reason": "Hersenwetenschapper over brein, bewustzijn en materialisme; bijna-doodervaringen en religie als hersenspinsel."
+      "n": 164,
+      "reason": "Zelfde kernvraag: bewustzijn, de verhouding tussen wetenschap en geloof"
     },
     {
-      "n": 164,
-      "reason": "Bewustzijn als groot wetenschappelijk mysterie, met Jacob Jolij en Stefan Paas."
+      "n": 282,
+      "reason": "Brein versus religie, vrije wil en bijna-doodervaringen, met Stefan Paas"
     },
     {
       "n": 233,
-      "reason": "Kwantumfysica en geloof: wat kwantumtechnologie betekent voor ons wereldbeeld."
+      "reason": "Kwantumfysica en de verhouding tussen geloof en wetenschap"
+    },
+    {
+      "n": 262,
+      "reason": "Bijna-doodervaring en de vraag naar leven na de dood"
     },
     {
       "n": 318,
-      "reason": "McGilchrist bekritiseert het materialistische wereldbeeld; brein, zingeving en crisis van het Westen."
-    },
-    {
-      "n": 157,
-      "reason": "Natuurkundige stuit op diepe mysteries van de werkelijkheid en misschien God."
+      "reason": "Brein, materialisme en de diepere zingevingscrisis van het Westen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

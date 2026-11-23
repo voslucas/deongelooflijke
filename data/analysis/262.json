@@ -1,295 +1,383 @@
 {
   "episode": 262,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 170929,
+    "segments": 1967,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31478,
-    "output_tokens": 3014,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 90046,
+    "output_tokens": 8137,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Dood & rouw",
     "God & geloof",
-    "Wetenschap & kosmos",
-    "Zingeving & psyche"
+    "Bijbel & Jezus",
+    "Wetenschap & kosmos"
   ],
   "guests": [
     "Reinier Sonneveld"
   ],
   "people": [
     {
-      "name": "Reinier Sonneveld",
-      "note": "theoloog en schrijver, had als kind een bijna-doodervaring na een adderbeet",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 2130126,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Reinier_Sonneveld",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Reinier_Sonneveld_%28uitgesneden%29.jpg/250px-Reinier_Sonneveld_%28uitgesneden%29.jpg"
-    },
-    {
       "name": "Pim van Lommel",
-      "note": "cardioloog die in Nederland onderzoek deed naar bijna-doodervaringen, auteur van Eindeloos bewustzijn",
-      "start_seconds": 585,
-      "wiki_checked": true,
-      "wiki_pageid": 1751462,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_van_Lommel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pim_van_Lommel-1_%28cropped%29.jpg/250px-Pim_van_Lommel-1_%28cropped%29.jpg"
-    },
-    {
-      "name": "Cleopatra",
-      "note": "volgens overlevering gestorven aan een aspisadder",
-      "start_seconds": 218,
-      "wiki_checked": true,
-      "wiki_pageid": 22484,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cleopatra_VII",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Cleopatra_VII%2C_dalla_via_appia_tra_ariccia_e_genzano%2C_40-30_ac_ca._01.JPG/250px-Cleopatra_VII%2C_dalla_via_appia_tra_ariccia_e_genzano%2C_40-30_ac_ca._01.JPG"
-    },
-    {
-      "name": "Harry Potter",
-      "note": "filmpersonage met een soortgelijke lichte, witte wereld bij zijn sterven",
-      "start_seconds": 281,
-      "wiki_checked": true,
-      "wiki_pageid": 238450,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harry_Potter_%28personage%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Harry_James_Potter_by_Reilly_Brown_%28cropped%29.jpg/250px-Harry_James_Potter_by_Reilly_Brown_%28cropped%29.jpg"
+      "note": "Nederlandse cardioloog en onderzoeker naar bijna-doodervaringen, auteur van Eindeloos bewustzijn",
+      "start_seconds": 581,
+      "mention_count": 4
     },
     {
       "name": "Fred",
-      "note": "overleden vriend van Reinier, vluchteling uit Nigeria, dichter, leefde op straat en had schizofrenie",
+      "note": "Overleden vriend van Reinier Sonneveld, een Nigeriaanse vluchteling en dichter met schizofrenie",
       "start_seconds": 754,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jeroen Bosch",
-      "note": "schilder van de tunnel van licht",
-      "start_seconds": 1296,
-      "wiki_checked": true,
-      "wiki_pageid": 24761,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jheronimus_Bosch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jheronimus_Bosch_%28cropped%29.jpg/250px-Jheronimus_Bosch_%28cropped%29.jpg"
+      "mention_count": 6
     },
     {
       "name": "Plato",
-      "note": "filosoof wiens beschrijvingen lijken op bijna-doodervaringen",
-      "start_seconds": 1413,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof die schreef over een wereld achter de zintuiglijke werkelijkheid en over de hel",
+      "start_seconds": 1410,
+      "mention_count": 5
+    },
+    {
+      "name": "Jeroen Bosch",
+      "note": "Schilder die de tunnel van licht afbeeldde",
+      "start_seconds": 1294,
+      "mention_count": 1
     },
     {
       "name": "Howard",
-      "note": "Amerikaanse atheïst met een helse bijna-doodervaring die later pastor werd",
+      "note": "Amerikaanse man met een helse bijna-doodervaring, later predikant",
       "start_seconds": 1981,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
-      "name": "Krishna",
-      "note": "lichtwezen dat hindoes zien tijdens een bijna-doodervaring",
-      "start_seconds": 1342,
-      "wiki_checked": true,
-      "wiki_pageid": 71517,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Krishna_%28hindoe%C3%AFsme%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Krishna_meets_parents.jpg/250px-Krishna_meets_parents.jpg"
+      "name": "Hitler",
+      "note": "Voorbeeld van een dader van grote gruweldaden in het gesprek over eeuwige straf",
+      "start_seconds": 3145,
+      "mention_count": 3
     },
     {
-      "name": "Jezus",
-      "note": "lichtwezen dat christenen zien tijdens een bijna-doodervaring",
-      "start_seconds": 1342,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Dante Alighieri",
+      "note": "Auteur van de Divina Commedia met de negen kringen van de hel",
+      "start_seconds": 3329,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Christelijk schrijver die de hel ziet als een door mensen zelf afgesloten plek",
+      "start_seconds": 3680,
+      "mention_count": 3
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator; beeld van de mens die naar zichzelf toegebogen is",
+      "start_seconds": 3714,
+      "mention_count": 1
+    },
+    {
+      "name": "Lilianne Ploumen",
+      "note": "Politica die zei blij te zijn dat er een hel is",
+      "start_seconds": 3247,
+      "mention_count": 1
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Aartsbisschop, voorzitter van de Waarheids- en Verzoeningscommissie in Zuid-Afrika",
+      "start_seconds": 3034,
+      "mention_count": 2
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Joodse filosofe over totalitaire systemen; argument dat afschaffen van de hel een hel op aarde kan scheppen",
+      "start_seconds": 4010,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader die een eeuwige hel verdedigde en de Griekse tekst niet goed beheerste",
+      "start_seconds": 4317,
+      "mention_count": 4
+    },
+    {
+      "name": "Tertullianus",
+      "note": "Vroege kerkvader met een eeuwige hel-opvatting",
+      "start_seconds": 4321,
+      "mention_count": 1
+    },
+    {
+      "name": "Gregorius van Nyssa",
+      "note": "Vierde-eeuwse kerkvader en universalist",
+      "start_seconds": 4196,
+      "mention_count": 2
+    },
+    {
+      "name": "Origenes",
+      "note": "Vroege kerkvader en universalist",
+      "start_seconds": 4196,
+      "mention_count": 1
+    },
+    {
+      "name": "Hieronymus",
+      "note": "Bijbelvertaler die Grieks beheerste",
+      "start_seconds": 4823,
+      "mention_count": 2
+    },
+    {
+      "name": "Helene Keizer",
+      "note": "Onderzoeker die een proefschrift schreef over het Griekse woord aion",
+      "start_seconds": 4899,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruben van Wingerden",
+      "note": "Docent Nieuwe Testament die Sonnevelds visie op aionios bespreekt",
+      "start_seconds": 5014,
+      "mention_count": 2
+    },
+    {
+      "name": "David Bentley Hart",
+      "note": "Grieks-kenner die een argument over de hel gebruikt in zijn boek",
+      "start_seconds": 4795,
+      "mention_count": 1
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Wiskundige die de weddenschap formuleerde",
+      "start_seconds": 5985,
+      "mention_count": 1
+    },
+    {
+      "name": "Magnus Carlsen",
+      "note": "Schaakgrootmeester; gebruikt als beeld voor de overmacht van God",
+      "start_seconds": 3852,
+      "mention_count": 1
+    },
+    {
+      "name": "Cleopatra",
+      "note": "Volgens overlevering gestorven aan een aspisadder",
+      "start_seconds": 218,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Het einde van de hel: waarom niemand wordt afgeschreven",
-      "author": "Reinier Sonneveld",
-      "note": "nieuwste boek van Reinier, waarin hij beargumenteert dat iedereen uiteindelijk naar de hemel gaat",
-      "start_seconds": 45,
-      "volume_id": "gTU_EQAAQBAJ",
-      "canonical_title": "Het einde van de hel",
-      "canonical_author": "Reinier Sonneveld",
-      "isbn13": "9789043542333",
-      "isbn10": "9043542334",
-      "thumbnail": "http://books.google.com/books/content?id=gTU_EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "Eindeloos bewustzijn",
       "author": "Pim van Lommel",
-      "note": "boek dat bijna-doodervaringen in Nederland op de kaart zette",
-      "start_seconds": 585,
-      "volume_id": "_2qhub0410oC",
-      "canonical_title": "Eindeloos bewustzijn",
+      "note": "Boek over bijna-doodervaringen dat in Nederland veel aandacht kreeg",
+      "start_seconds": 581,
+      "volume_id": "Ix54tAEACAAJ",
+      "canonical_title": "Eindeloos bewustzijn: Een wetenschappelijke visie op de bijna-dood ervaring",
       "canonical_author": "Pim van Lommel",
-      "isbn13": "9789025957780",
-      "isbn10": "9025957781",
-      "thumbnail": "http://books.google.com/books/content?id=_2qhub0410oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789049806088",
+      "isbn10": "9049806082",
+      "thumbnail": ""
+    },
+    {
+      "title": "Het einde van de hel: waarom niemand wordt afgeschreven",
+      "author": "Reinier Sonneveld",
+      "note": "Nieuwste boek van de gast, over universalisme en de hel",
+      "start_seconds": 2746,
+      "volume_id": "HWIy0QEACAAJ",
+      "canonical_title": "Het einde van de hel: waarom niemand wordt afgeschreven",
+      "canonical_author": "Dirk Reinier Sonneveld",
+      "isbn13": "9789043542326",
+      "isbn10": "9043542326",
+      "thumbnail": ""
     },
     {
       "title": "Stilte van God",
       "author": "Reinier Sonneveld",
-      "note": "boek over de vraag waarom God lijden toelaat",
+      "note": "Boek over het lijden en de vraag waarom God het toelaat",
       "start_seconds": 956,
       "volume_id": "EP6RMQEACAAJ",
       "canonical_title": "De stilte van God: waarom geloven moeilijk is",
-      "canonical_author": "Reinier Sonneveld",
+      "canonical_author": "Dirk Reinier Sonneveld",
       "isbn13": "9789058816900",
       "isbn10": "9058816907",
       "thumbnail": ""
+    },
+    {
+      "title": "De Weg van Vrede",
+      "author": "Reinier Sonneveld",
+      "note": "Boek waarin het argument van de eeuwige hel en proportionaliteit wordt besproken",
+      "start_seconds": 3954
+    },
+    {
+      "title": "Divina Commedia",
+      "author": "Dante Alighieri",
+      "note": "Middeleeuws epos over de hel, het vagevuur en de hemel",
+      "start_seconds": 3329,
+      "volume_id": "_Nr8vQEACAAJ",
+      "canonical_title": "Divina commedia: hel - louteringsberg - paradijs",
+      "canonical_author": "Dante Alighieri; H.J. Boeken",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Enchiridion",
+      "author": "Augustinus",
+      "note": "Handboekje waarin Augustinus schrijft dat velen niet in een eeuwige hel geloven",
+      "start_seconds": 5420,
+      "volume_id": "8h8VF7y4tR8C",
+      "canonical_title": "Enchiridion de fide, spe et caritate",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=8h8VF7y4tR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Matteüs 25",
+      "note": "Oordeelsgelijkenis over de schapen en de bokken; eeuwige bestraffing en eeuwig leven",
+      "start_seconds": 4474
+    },
+    {
+      "ref": "Lukas 23:34",
+      "note": "Jezus vraagt vergeving voor zijn beulen aan het kruis, aangehaald als voorbeeld van vergeving",
+      "start_seconds": 5743
+    }
+  ],
   "places": [
     "Frankrijk",
     "Rotterdam",
     "Nigeria",
-    "Nederland",
-    "India",
+    "Rwanda",
+    "Zuid-Afrika",
     "Amsterdam",
-    "Utrecht"
+    "Tilburg"
   ],
-  "summary_tldr": "Reinier Sonneveld vertelt over zijn bijna-doodervaring als kind na een adderbeet en over het uitgebreide wetenschappelijke onderzoek naar bijna-doodervaringen. Samen met Stefan Paas bespreekt hij wat deze ervaringen zeggen over leven na de dood, over helse ervaringen en over zijn overtuiging dat iedereen uiteindelijk naar de hemel gaat. Daarbij komt ook zijn eigen verlangen naar een hiernamaals en de kritiek van wensdenken aan bod.",
+  "summary_tldr": "Reinier Sonneveld vertelt over zijn bijna-doodervaring als tienjarige na een slangenbeet en over de wetenschappelijke onderzoeken naar dit fenomeen. Hij beargumenteert in zijn boek Het einde van de hel dat niemand definitief verloren gaat en dat herstel en verzoening uiteindelijk het laatste woord hebben. Stefan Paas toetst deze visie aan bewijskracht, theologische tradities en de bijbelse tekst, zonder de vraag naar onrecht en vergeving uit het oog te verliezen.",
   "summary_points": [
-    "Reinier kreeg als tienjarige een bijna-doodervaring na een beet van een aspisadder in Frankrijk",
-    "Tijdens een operatie zweefde hij boven zijn lichaam en zag hij details die hij niet kon weten",
-    "Er zijn 300 à 400 deugdelijke wetenschappelijke onderzoeken naar bijna-doodervaringen, en 4 tot 20% van de mensen maakt zoiets mee",
-    "Bijna-doodervaringen komen in alle culturen en bij alle soorten mensen voor, anders dan reïncarnatieverhalen",
-    "Veelvoorkomende elementen zijn de tunnel van licht, de levensoverzicht, lichtwezens en hyperrealiteit; mensen zijn daarna minder bang voor de dood",
-    "Hallucinaties door drugs zoals DMT lijken er maar beperkt op (gemiddeld 2 op een schaal van 10)",
-    "Een kleine groep van 5 tot 10% heeft een helse ervaring, maar die eindigt vaak toch in het licht, wat een eeuwige hel minder waarschijnlijk maakt",
-    "Reinier verlangt naar een hiernamaals vanwege onafgemaakte levens en onrecht, zoals bij zijn vriend Fred",
-    "Stefan Paas wijst op het gevaar van wensdenken en op de beperkte bewijskracht van deze ervaringen"
+    "Reinier Sonneveld beschrijft zijn bijna-doodervaring als tienjarige na een aspisadderbeet en een ervaring tijdens een operatie",
+    "Wetenschappelijke onderzoeken tonen dat bijna-doodervaringen wereldwijd en in alle groepen voorkomen",
+    "Alternatieve verklaringen zoals zuurstofgebrek, drugs en endorfine worden besproken en deels als plausibel gezien",
+    "Sonneveld verlangt naar een hiernamaals vanwege onrecht en onafgerond leven, zoals bij de dood van vriend Fred",
+    "Het gesprek gaat over de vraag of God lijden toelaat en wat een eeuwige hel betekent voor rechtvaardigheid",
+    "Universalisme wordt uitgelegd als een tijdelijke, proportionele hel met herstel en verzoening, geïnspireerd op herstelrecht",
+    "Stefan Paas wijst op het belang van de eeuwige hel als bescherming tegen straffeloosheid en op de complexiteit van de bijbelse tekst",
+    "De discussie over het Griekse woord aion en de vertaling van aionios in Matteüs 25 vormt een centraal, specialistisch punt",
+    "Het gesprek eindigt met een reflectie op rouw, de angst voor verlies en de hoop dat het onafgemaakte leven ooit wordt voltooid"
   ],
   "chapters": [
     {
-      "start_seconds": 45,
-      "title": "De adderbeet en de bijna-doodervaring",
-      "summary": "Reinier vertelt over de beet van een aspisadder op een Franse parkeerplaats en de zachte witte wereld waarin hij terechtkwam."
+      "start_seconds": 0,
+      "title": "Inleiding en de bijna-doodervaring",
+      "summary": "Reinier vertelt over zijn slangenbeet, de vreemde ervaring tijdens de operatie en de reactie van zijn omgeving."
     },
     {
-      "start_seconds": 330,
-      "title": "Zweven boven de operatietafel",
-      "summary": "Tijdens de operatie in het Havenziekenhuis zag Reinier details die hij niet kon weten. De dominee wimpelde het weg."
-    },
-    {
-      "start_seconds": 525,
-      "title": "Onderzoek en taboe",
-      "summary": "Over de omvang van het fenomeen, het werk van Pim van Lommel en de schroom om erover te praten."
+      "start_seconds": 540,
+      "title": "Onderzoek naar bijna-doodervaringen",
+      "summary": "Stefan Paas en Reinier bespreken Pim van Lommel, de omvang van het fenomeen en de rationele benadering van de gast."
     },
     {
       "start_seconds": 754,
-      "title": "Verlangen naar een hiernamaals",
-      "summary": "Over het overlijden van Fred, onafgemaakte levens, onrecht en het probleem van lijden bij een goede God."
+      "title": "Onrecht, verlangen en de dood van Fred",
+      "summary": "Reinier koppelt zijn verlangen naar een hiernamaals aan het onafgemaakte leven van zijn vriend Fred en aan onrecht in de wereld."
     },
     {
-      "start_seconds": 1010,
-      "title": "Wensdenken en scepsis",
-      "summary": "Stefan Paas confronteert Reinier met de mogelijkheid van wensdenken en zijn eigen bias."
+      "start_seconds": 1260,
+      "title": "Kenmerken en verklaringen van de ervaring",
+      "summary": "De tunnel van licht, de levensfilm en de overeenkomsten met drugservaringen worden besproken, samen met alternatieve verklaringen."
     },
     {
-      "start_seconds": 1093,
-      "title": "Wat het onderzoek laat zien",
-      "summary": "Bijna-doodervaringen komen in alle culturen voor en verschillen van reïncarnatieverhalen en drughallucinaties."
+      "start_seconds": 2310,
+      "title": "Hel-ervaringen en wat het zegt",
+      "summary": "Het gesprek gaat over helse bijna-doodervaringen, de invloed op levens en de vraag of iedereen in de hemel komt."
     },
     {
-      "start_seconds": 1800,
-      "title": "Helse bijna-doodervaringen",
-      "summary": "Over de 5 tot 10% met angstige ervaringen, die vaak toch eindigen in het licht, en wat dat zegt over een eeuwige hel."
+      "start_seconds": 2880,
+      "title": "Universalisme en herstelrecht",
+      "summary": "Sonneveld legt uit dat verzoening centraal staat en vergelijkt dit met herstelrecht in Zuid-Afrika en Rwanda."
     },
     {
-      "start_seconds": 2070,
-      "title": "Wat bewijst het?",
-      "summary": "Stefan Paas bespreekt of dit echt leven na de dood bewijst en hoe religies met zulke ervaringen omgaan."
+      "start_seconds": 3540,
+      "title": "Eeuwige hel en rechtvaardigheid",
+      "summary": "Hitler, de proportionaliteit van straf, C.S. Lewis en de vraag wat een eeuwige hel betekent voor God en slachtoffers worden besproken."
+    },
+    {
+      "start_seconds": 4330,
+      "title": "Bijbelse vertaling en het woord aion",
+      "summary": "De vertaling van aionios, de rol van kerkvaders en de kritiek van specialisten vormen het meest technische deel van het gesprek."
+    },
+    {
+      "start_seconds": 5760,
+      "title": "Hoop, rouw en slot",
+      "summary": "Reinier reflecteert op rouw en de Pascal-weddenschap, en de luisteraars worden uitgenodigd om te reageren."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 304,
+      "start_seconds": 301,
       "speaker": "Reinier Sonneveld",
-      "text": "Ik hoorde mijn moeder van achter de horizon op hoge toon eisen dat ik terug zou keren.",
-      "note": "Humoristisch en ontroerend moment uit zijn eigen ervaring."
+      "text": "Ik had een heel vredig gevoel.",
+      "note": "Beschrijving van de rust die hij ervoer tijdens zijn bijna-doodervaring als kind."
     },
     {
-      "start_seconds": 775,
+      "start_seconds": 823,
       "speaker": "Reinier Sonneveld",
-      "text": "Bij de begrafenis van Fred stonden drie zorgverleners en ons gezin.",
-      "note": "Persoonlijk en emotioneel; illustreert zijn verlangen naar een hiernamaals."
+      "text": "Het is onaf en er is heel veel onaf in dit leven.",
+      "note": "Een persoonlijke kijk op het onrecht en het onafgemaakte leven van zijn vriend Fred."
     },
     {
-      "start_seconds": 1034,
+      "start_seconds": 1000,
       "speaker": "Reinier Sonneveld",
-      "text": "Ik heb major bias, zeker, maar waarom zou de waarheid niet voor een keertje mooi zijn?",
-      "note": "Eerlijk over zijn eigen wensdenken."
+      "text": "Ik heb major bias, om het maar in het Engels te zeggen.",
+      "note": "Eerlijke erkenning van zijn eigen verlangen en mogelijke vooringenomenheid, aangewezen door Stefan Paas."
     },
     {
-      "start_seconds": 1306,
-      "speaker": "Reinier Sonneveld",
-      "text": "Mensen nemen hun hele leven in één keer waar en voelen ook wat anderen hebben gevoeld.",
-      "note": "Opmerkelijk detail over het levensoverzicht."
+      "start_seconds": 3267,
+      "speaker": "Stefan Paas",
+      "text": "Zonder hel heeft de beul een eeuwige voorsprong op het slachtoffer.",
+      "note": "Een scherpe formulering van het argument voor een eeuwige hel, die het universalisme uitdaagt."
     },
     {
-      "start_seconds": 1558,
+      "start_seconds": 5985,
       "speaker": "Reinier Sonneveld",
-      "text": "Veel mensen komen terug met het gevoel dat dit leven de droom is en het daar echter dan echt was.",
-      "note": "Zeer Platonische observatie."
-    },
-    {
-      "start_seconds": 1840,
-      "speaker": "Reinier Sonneveld",
-      "text": "Er zijn heiligen met helse ervaringen en criminelen met hemelse.",
-      "note": "Doorbreekt de verwachting dat levensstijl bepaalt wat je meemaakt."
+      "text": "Ik ben een gelovig jongen en dan speelt ook de vraag: wat doet God met al dat onrecht?",
+      "note": "Een openhartig moment waarin het persoonlijke geloof en de theodicee samenkomen."
     }
   ],
   "keywords": [
     "bijna-doodervaring",
     "hiernamaals",
-    "hemel",
-    "hel",
+    "universalisme",
+    "eeuwige hel",
+    "verzoening",
+    "herstelrecht",
+    "theodicee",
+    "aionios",
     "Pim van Lommel",
-    "lichtwezen",
-    "onrecht",
-    "wensdenken",
-    "DMT",
-    "Plato",
-    "reïncarnatie",
-    "lijden"
+    "tunnel van licht",
+    "rouw"
   ],
   "quotes": [
     "Misschien is het wel de grootste vraag die er is: is er leven na de dood?",
-    "Hij is ervan overtuigd dat er leven na de dood is en – niet onbelangrijk – dat iedereen uiteindelijk naar de hemel gaat.",
-    "Dat klinkt prachtig, maar is het ook niet te mooi om waar te zijn?"
+    "Dat klinkt prachtig, maar is het ook niet te mooi om waar te zijn?",
+    "iedereen uiteindelijk naar de hemel gaat"
   ],
   "similar": [
     {
       "n": 282,
-      "reason": "Bespreekt bijna-doodervaringen en of religie een hersenspinsel is, met Stefan Paas."
-    },
-    {
-      "n": 244,
-      "reason": "Lieke Marsman over de dood, haar angst ervoor en een godservaring."
+      "reason": "Bijna-doodervaringen en de vraag of religie een hersenspinsel is"
     },
     {
       "n": 165,
-      "reason": "Gaat over de hel en het hiernamaals, met Stefan Paas."
-    },
-    {
-      "n": 281,
-      "reason": "Gaat over het mysterie rondom de dood, met Bijbel en wetenschap."
+      "reason": "Theologische vraag naar de hel en het bijbelse hellebeeld"
     },
     {
       "n": 201,
-      "reason": "Gesprek over de dood en angst ervoor, met Stefan Paas."
+      "reason": "Gesprek over de dood, angst ervoor en geloof in een hiernamaals"
+    },
+    {
+      "n": 274,
+      "reason": "Herwaardering van de dood vanuit geloof en zingeving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 190,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104892,
+    "segments": 1154,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31038,
-    "output_tokens": 2470,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53835,
+    "output_tokens": 3519,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Bijbel & Jezus",
     "God & geloof",
-    "Kunst & cultuur",
     "Kerk & secularisatie",
-    "Bijbel & Jezus"
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Christophe Vekeman"
@@ -20,151 +25,173 @@
   "people": [
     {
       "name": "C.S. Lewis",
-      "note": "Britse schrijver en apologeet; Vekeman maakte een bedevaart naar zijn Oxford",
-      "start_seconds": 29,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Britse schrijver en idool van Vekeman; Oxford-ervaring",
+      "start_seconds": 1520,
+      "mention_count": 12
     },
     {
       "name": "Johnny Cash",
-      "note": "countryzanger en gospelzanger",
-      "start_seconds": 2018,
-      "wiki_checked": true,
-      "wiki_pageid": 22426,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johnny_Cash",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/J_Cash.jpg/250px-J_Cash.jpg"
-    },
-    {
-      "name": "Nick Cave",
-      "note": "muzikant met bijbelse teksten",
-      "start_seconds": 1394,
-      "wiki_checked": true,
-      "wiki_pageid": 7553,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nick_Cave",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nick_Cave_in_New_York_City_2009_portrait_by_DS.jpg/250px-Nick_Cave_in_New_York_City_2009_portrait_by_DS.jpg"
-    },
-    {
-      "name": "Bob Dylan",
-      "note": "muzikant met gospelplaten",
-      "start_seconds": 1394,
-      "wiki_checked": true,
-      "wiki_pageid": 21148,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bob_Dylan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bob_Dylan_1991.jpeg/250px-Bob_Dylan_1991.jpeg"
-    },
-    {
-      "name": "David Bowie",
-      "note": "muzikant, groot idool van Vekeman in zijn jeugd",
-      "start_seconds": 1374,
-      "wiki_checked": true,
-      "wiki_pageid": 20693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Bowie",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg/250px-David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+      "note": "Countryzanger en gospelzanger, belangrijke rol in het boek",
+      "start_seconds": 2016,
+      "mention_count": 12
     },
     {
       "name": "Anton Tsjechov",
-      "note": "schrijver; citaat over het leven van mens en plant",
-      "start_seconds": 1163,
-      "wiki_checked": true,
-      "wiki_pageid": 16511,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anton_Tsjechov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Anton_Pavlovich_Chekhov.jpg/250px-Anton_Pavlovich_Chekhov.jpg"
+      "note": "Schrijver; citaat over mens en plant",
+      "start_seconds": 1200,
+      "mention_count": 2
     },
     {
-      "name": "Albert Camus",
-      "note": "schrijver waarmee Vekeman dweepte",
-      "start_seconds": 1220,
-      "wiki_checked": true,
-      "wiki_pageid": 3570,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Camus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/250px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
+      "name": "Nick Cave",
+      "note": "Australische zanger met bijbelse teksten",
+      "start_seconds": 2820,
+      "mention_count": 4
     },
     {
-      "name": "Hugo Claus",
-      "note": "Vlaamse schrijver",
-      "start_seconds": 1220,
-      "wiki_checked": true,
-      "wiki_pageid": 15396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_Claus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Hugo_Claus_%281986%29.jpg/250px-Hugo_Claus_%281986%29.jpg"
+      "name": "Bob Dylan",
+      "note": "Zanger met gospelplaten",
+      "start_seconds": 1380,
+      "mention_count": 3
+    },
+    {
+      "name": "David Bowie",
+      "note": "Muzikaal idool van Vekeman",
+      "start_seconds": 1368,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Frederik Hermans",
+      "note": "Schrijver; figuur in het boek",
+      "start_seconds": 3780,
+      "mention_count": 2
     },
     {
       "name": "Michel Houellebecq",
-      "note": "Franse schrijver, via rechtse ideeën naar het katholicisme",
-      "start_seconds": 2368,
-      "wiki_checked": true,
-      "wiki_pageid": 34101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Houellebecq",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg/250px-Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg"
-    },
-    {
-      "name": "Gerard Reve",
-      "note": "schrijver met christelijke doordesemdheid",
-      "start_seconds": 1363,
-      "wiki_checked": true,
-      "wiki_pageid": 5121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerard_Reve",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gerard_Reve_1969-crop.jpg/250px-Gerard_Reve_1969-crop.jpg"
-    },
-    {
-      "name": "Joris-Karl Huysmans",
-      "note": "schrijver met christelijke thematiek",
-      "start_seconds": 1363,
-      "wiki_checked": true,
-      "wiki_pageid": 52996,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joris-Karl_Huysmans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Joris-Karl_Huysmans_photographed_by_Dornac.jpg/250px-Joris-Karl_Huysmans_photographed_by_Dornac.jpg"
-    },
-    {
-      "name": "Graham Greene",
-      "note": "schrijver",
-      "start_seconds": 1363,
-      "wiki_checked": true,
-      "wiki_pageid": 67885,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Graham_Greene_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Graham_Greene%27s_Birthplace_blue_plaque_crop.jpg/250px-Graham_Greene%27s_Birthplace_blue_plaque_crop.jpg"
-    },
-    {
-      "name": "Flannery O'Connor",
-      "note": "schrijfster",
-      "start_seconds": 1373,
-      "wiki_checked": true,
-      "wiki_pageid": 591957,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Flannery_O%27Connor",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Flannery-O%27Connor_1947.jpg/250px-Flannery-O%27Connor_1947.jpg"
+      "note": "Franse schrijver, komt dichter bij katholicisme",
+      "start_seconds": 2370,
+      "mention_count": 2
     },
     {
       "name": "Paulus",
-      "note": "apostel, brief aan de Galaten over gelijkwaardigheid",
-      "start_seconds": 2395,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "Apostel; citaten uit brieven",
+      "start_seconds": 2760,
+      "mention_count": 3
+    },
+    {
+      "name": "Bono",
+      "note": "U2-zanger; ontmoeting met Johnny Cash",
+      "start_seconds": 3360,
+      "mention_count": 3
+    },
+    {
+      "name": "Billy Graham",
+      "note": "Evangelist; prijst Cash' boek over Paulus",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Christine Hemmerechts",
+      "note": "Vlaamse schrijfster met katholieke bekering",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Elvis Presley",
+      "note": "Zanger, genoemd in rouwcontext",
+      "start_seconds": 2220,
+      "mention_count": 2
+    },
+    {
+      "name": "Tim Keller",
+      "note": "Christelijk auteur",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Wright",
+      "note": "Theoloog en auteur",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "John Lennox",
+      "note": "Christelijk wetenschapper en auteur",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "Norman Geisler",
+      "note": "Christelijk theoloog",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonard Cohen",
+      "note": "Zanger met religieuze thema's",
+      "start_seconds": 3090,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "Schrijver die Vekeman beïnvloedde",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Albert Camus",
+      "note": "Filosoof/schrijver, atheïstische invloed",
+      "start_seconds": 1230,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo Claus",
+      "note": "Vlaams schrijver, invloed",
+      "start_seconds": 1230,
+      "mention_count": 1
+    },
+    {
+      "name": "Joris Karel Wismans",
+      "note": "Schrijver die Vekeman las",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Flannery O'Connor",
+      "note": "Amerikaanse schrijfster",
+      "start_seconds": 1320,
+      "mention_count": 1
+    },
+    {
+      "name": "Graham Greene",
+      "note": "Engelse schrijver",
+      "start_seconds": 1320,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Terien",
+      "note": "Collega en vriend van Vekeman",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Dolly Parton",
+      "note": "Zangeres die 'He's Alive' coverde",
+      "start_seconds": 1620,
+      "mention_count": 2
+    },
+    {
+      "name": "June Carter",
+      "note": "Zangeres, bijrol in gospelnummer",
+      "start_seconds": 3300,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Tot God",
       "author": "Christophe Vekeman",
-      "note": "non-fictief autobiografisch gospelboek met dagboek, poëzie, preken en reisverslagen",
-      "start_seconds": 608,
+      "note": "Het besproken non-fictieboek over zijn bekering",
+      "start_seconds": 0,
       "volume_id": "T5sDEQAAQBAJ",
       "canonical_title": "Tot God",
       "canonical_author": "Christophe Vekeman",
@@ -173,168 +200,178 @@
       "thumbnail": "http://books.google.com/books/content?id=T5sDEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "De Kronieken van Narnia",
-      "author": "C.S. Lewis",
-      "note": "thema van de bevroren wereld en kwade betovering",
-      "start_seconds": 2113,
-      "volume_id": "0iikCgAAQBAJ",
-      "canonical_title": "Het betoverde land achter de kleerkast",
-      "canonical_author": "C.S. Lewis",
-      "isbn13": "9789026621369",
-      "isbn10": "9026621361",
-      "thumbnail": "http://books.google.com/books/content?id=0iikCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Man in White",
+      "author": "Johnny Cash",
+      "note": "Roman over apostel Paulus",
+      "start_seconds": 3480,
+      "volume_id": "slvhAAAAMAAJ",
+      "canonical_title": "Man in White",
+      "canonical_author": "Johnny Cash",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=slvhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 6:34",
-      "note": "'Elke dag zijn eigen leed' op een kerkaffiche",
-      "start_seconds": 1234
+      "ref": "Matteüs 6:34",
+      "note": "Elke dag zijn eigen leed; citaat op kerkaffiche",
+      "start_seconds": 1260
     },
     {
       "ref": "Johannes 1:1",
       "note": "In den beginne was het Woord",
-      "start_seconds": 1670
+      "start_seconds": 1680
     },
     {
       "ref": "Psalm 33",
-      "note": "God sprak en het gebeurde",
-      "start_seconds": 1678
+      "note": "Uit het woord is alles ontstaan",
+      "start_seconds": 1700
+    },
+    {
+      "ref": "Matteüs 22:37",
+      "note": "Bemin de Heer met heel je hart, ziel en verstand",
+      "start_seconds": 1900
+    },
+    {
+      "ref": "1 Korintiërs 15",
+      "note": "Zonder verrijzenis valt het geloof in duigen",
+      "start_seconds": 2760
     },
     {
       "ref": "Galaten 3:28",
-      "note": "geen Jood of Griek, man of vrouw: allen één",
+      "note": "Geen mannen of vrouwen, Joden of Grieken meer",
       "start_seconds": 2400
-    },
-    {
-      "ref": "Marcus 12:30",
-      "note": "God liefhebben met heel uw verstand",
-      "start_seconds": 1601
     }
   ],
   "places": [
     "Gent",
     "Brugge",
     "Oxford",
-    "Vlaanderen",
-    "Frankrijk",
-    "Holy Trinity Church"
+    "Hevesum",
+    "Las Vegas",
+    "Hendersonville",
+    "Tennessee",
+    "Blankenberge"
   ],
-  "summary_tldr": "Schrijver Christophe Vekeman vertelt hoe hij van fervent atheïst via literatuur en muziek tot het christelijk geloof kwam. Hij sprak over zijn afscheid van fictie, de zoektocht naar waarheid en een mystieke ervaring in Oxford. Het gesprek gaat ook over taal, romantiek en de plaats van de kerk in een snel veranderende samenleving.",
+  "summary_tldr": "Christophe Vekeman bespreekt zijn boek 'Tot God', waarin hij beschrijft hoe hij na een leven als fervent atheïst christen werd. Hij zocht daarbij de waarheid, weg van fictie, en beschrijft een mystieke ervaring in Oxford bij C.S. Lewis' kerk. Het gesprek gaat ook over moraal, cultuur, de katholieke literaire revival en de invloed van muzikanten als Johnny Cash.",
   "summary_points": [
-    "Vekeman stopte met fictie omdat hij de vrijheid ervan bedreigd voelde en fictie te vrijblijvend vond.",
-    "Zijn boek Tot God mengt dagboek, poëzie, preken en reisverslag tot een eigen genre.",
-    "Hij groeide op tussen kroeg en kerk, zonder religieus trauma.",
-    "Op zijn 23e raakte hij getroffen door 'Elke dag zijn eigen leed'.",
-    "Literatuur en muziek van Dylan, Cave en Bowie toonden hem de christelijke doordesemdheid van cultuur.",
-    "In de Holy Trinity Church in Oxford had hij een mystieke, woordeloze ervaring.",
-    "Hij ziet taal als afspiegeling van het goddelijke Woord en taalverloedering als blasfemie.",
-    "Zijn romantische vluchtzucht ziet hij als wijzen naar een andere werkelijkheid, in lijn met C.S. Lewis.",
-    "Hij ziet het christendom politiek als links-conservatief."
+    "Vekeman heeft afscheid genomen van fictie omdat hij de vrijheid van het schrijven aangetast vond door maatschappelijke gevoeligheden.",
+    "Hij zoekt sinds enkele jaren naar de waarheid, mede geprikkeld door morele contradicties in de samenleving.",
+    "Zijn bekering begon bij een citaat op een kerkaffiche en werd gevoed door literatuur en muziek.",
+    "In Oxford, bij de Holy Trinity Church van C.S. Lewis, had hij een mystieke ervaring.",
+    "Het boek is een genre-mengsel van dagboek, poëzie, reisverslag en fictieve preken.",
+    "Vekeman ziet het christendom als links-conservatief: gelijkwaardigheid met een universele moraal.",
+    "Johnny Cash en andere gelovige muzikanten vormen een belangrijke inspiratie.",
+    "Er is volgens hem een literaire katholieke revival, al ziet hij die als intensivering in plaats van bekering.",
+    "Wetenschappelijke en wereldwijde cijfers tonen dat christenen een grote groep vormen, wat atheïsme relativeert."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Gent en het schrijversleven",
-      "summary": "Kennismaking en schrijfgewoonten, vroeg schrijven vóór het ontbijt."
+      "title": "Inleiding en schrijfgewoonten",
+      "summary": "Vekeman en Boogerd praten luchtig over schrijven, Gent versus Brugge en inspiratie."
     },
     {
-      "start_seconds": 399,
+      "start_seconds": 480,
       "title": "Afscheid van fictie",
-      "summary": "Vekeman legt uit waarom hij geen romans meer schrijft en op zoek gaat naar waarheid."
+      "summary": "Vekeman legt uit waarom hij stopt met romans door druk van sensitivity readers en de zoektocht naar waarheid."
     },
     {
-      "start_seconds": 880,
-      "title": "Een boek van vele genres",
-      "summary": "Over het uitbundige, genre-overstijgende karakter van Tot God."
+      "start_seconds": 960,
+      "title": "Achtergrond en jeugd",
+      "summary": "Opgegroeid tussen kroeg en kerk; atheïstische puberteit en de kerkaffiche die alles veranderde."
     },
     {
-      "start_seconds": 970,
-      "title": "Kroeg en kerk: achtergrond",
-      "summary": "Zijn opvoeding, puberale atheïsme en de zin op het affiche."
+      "start_seconds": 1560,
+      "title": "Mystieke ervaring in Oxford",
+      "summary": "Bij C.S. Lewis' kerk in Oxford beleefde Vekeman een woordeloze, mystieke ervaring."
     },
     {
-      "start_seconds": 1540,
-      "title": "Oxford en de woordeloze ervaring",
-      "summary": "De bedevaart naar C.S. Lewis en de mystieke ervaring."
+      "start_seconds": 2400,
+      "title": "Moraal, politiek en christendom",
+      "summary": "Vekeman bespreekt de kerk als links-conservatief en de tegenstrijdigheden in moraal."
     },
     {
-      "start_seconds": 1910,
-      "title": "Romantiek, vluchtzucht en Lewis",
-      "summary": "Verlangen naar een andere werkelijkheid en Lewis' betovering."
+      "start_seconds": 3000,
+      "title": "Johnny Cash en gospelmuziek",
+      "summary": "Bespreking van 'He's Alive' en de dubbelheid van Johnny Cash, inclusief de Bono-anekdote."
     },
     {
-      "start_seconds": 2230,
-      "title": "Moraal, dood en politiek",
-      "summary": "Contradicties in de moderne moraal en de kerk tussen links en conservatief."
+      "start_seconds": 3900,
+      "title": "Katholieke revival en afsluiting",
+      "summary": "Discussie over bekeringen onder schrijvers, en Vekeman's huwelijk in Las Vegas."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 300,
+      "start_seconds": 1260,
       "speaker": "Christophe Vekeman",
-      "text": "Ik schrijf liefst vroeg, voordat mijn bewustzijn bezoedeld is.",
-      "note": "Eigenzinnig schrijfritueel."
+      "text": "Elke dag zijn eigen leed: de zin op het kerkaffiche die hem deed afstappen van zijn fiets.",
+      "note": "Het begin van zijn bekering, een dubbelzinnige mix van pessimisme en troost."
     },
     {
       "start_seconds": 1620,
       "speaker": "Christophe Vekeman",
-      "text": "Het was een mystieke ervaring, een woordeloze werkelijkheid.",
-      "note": "Ironisch bij een woordkunstenaar."
+      "text": "Het schrijven van Tot God was voor mij een godservaring van meer doorslaggevende aard dan wat er in Oxford gebeurde.",
+      "note": "Verrassende relativering van zijn mystieke ervaring."
     },
     {
-      "start_seconds": 1900,
+      "start_seconds": 2400,
       "speaker": "Christophe Vekeman",
-      "text": "Het schrijven van Tot God was een godservaring van meer doorslaggevende aard.",
-      "note": "Het boek zelf als bekeringsmoment."
+      "text": "Het christendom pretendeert een universele moraal die niet met de mode verandert.",
+      "note": "Scherpe verdediging van het conservatisme van de kerk."
     },
     {
-      "start_seconds": 1728,
+      "start_seconds": 2880,
       "speaker": "Christophe Vekeman",
       "text": "Taalverloedering is een vorm van blasfemie.",
-      "note": "Scherpe stelling."
+      "note": "Opvallende koppeling van taal en heiligheid."
     },
     {
-      "start_seconds": 2256,
+      "start_seconds": 3360,
       "speaker": "Christophe Vekeman",
-      "text": "Mensen zeggen dood is dood, maar schrijven 'rest in peace'.",
-      "note": "Aanleiding voor zijn zoektocht."
+      "text": "Er zijn 2 soorten mensen: heiligen en schijnheiligen.",
+      "note": "Zelfreflectieve observatie over menselijke tegenstellingen."
     }
   ],
   "keywords": [
-    "Tot God",
-    "Christophe Vekeman",
-    "C.S. Lewis",
-    "waarheid",
-    "fictie",
-    "mystieke ervaring",
-    "taal",
-    "romantiek",
     "bekering",
+    "waarheid",
+    "C.S. Lewis",
+    "Johnny Cash",
+    "fictie versus non-fictie",
+    "mystieke ervaring",
+    "moraal",
+    "katholieke revival",
+    "gospelmuziek",
     "Oxford",
-    "gospelmuziek"
+    "Petrus",
+    "verrijzenis"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 319,
-      "reason": "Zelfde gast Christophe Vekeman: bekering, twijfel en schrijverschap, vervolg op deze aflevering."
+      "reason": "Zelfde gast Christophe Vekeman over zijn bekering, twijfel en zoektocht naar God."
     },
     {
       "n": 154,
-      "reason": "Schrijver Esther Gerritsen kon niet ongelovig blijven; literatuur en geloof."
-    },
-    {
-      "n": 108,
-      "reason": "Jonge intellectueel twijfelt aan zijn ongeloof; atheïst op zoek naar waarheid."
+      "reason": "Schrijver die probeert niet te geloven en ondanks atheïsme toch gelooft; sterk verwant."
     },
     {
       "n": 49,
-      "reason": "Gepassioneerd atheïst die van zijn ongeloof viel."
+      "reason": "Atheïst die van zijn ongeloof 'afvalt'; bekeringsverhaal met gelijkende thema's."
     },
     {
-      "n": 181,
-      "reason": "Willem Jan Otten over literatuur, kunst en geloof; vergelijkbaar schrijversperspectief."
+      "n": 244,
+      "reason": "Schrijver met atheïsme dat wordt omgebogen door een godservaring; gelijke thematiek."
+    },
+    {
+      "n": 146,
+      "reason": "Gesprek over atheïsme en geloof, met Rik Peels; overlappende onderwerpen en filosofische insteek."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

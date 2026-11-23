@@ -1,18 +1,23 @@
 {
   "episode": 309,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 167459,
+    "segments": 1667,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31030,
-    "output_tokens": 3073,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 85696,
+    "output_tokens": 7206,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Politiek",
-    "Amerika & Trump",
-    "Geschiedenis"
+    "Geschiedenis",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,154 +25,142 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, centraal in het gesprek over radicalisering en tirannie",
+      "note": "Russische president; centrale tiran in het gesprek, wiens radicalisering wordt geanalyseerd",
       "start_seconds": 49,
-      "wiki_checked": true
+      "mention_count": 45
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president, bijt zich stuk op Iran",
+      "note": "Amerikaanse president; voorbeeld van de sterke man en de chaosparadox",
       "start_seconds": 49,
-      "wiki_checked": true
+      "mention_count": 40
     },
     {
       "name": "Xi Jinping",
-      "note": "Chinese leider, genoemd als sterke man",
+      "note": "Chinese leider, genoemd als voorbeeld van een sterke man",
       "start_seconds": 49,
-      "wiki_checked": true
-    },
-    {
-      "name": "Noah Smith",
-      "note": "Substacker met het stuk 'Tyrants are losing wars'",
-      "start_seconds": 139,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Bashar al-Assad",
-      "note": "Syrische tiran die ten val kwam",
-      "start_seconds": 169,
-      "wiki_checked": true
+      "note": "Syrische leider die ten val kwam",
+      "start_seconds": 168,
+      "mention_count": 2
     },
     {
       "name": "Ivan de Verschrikkelijke",
-      "note": "Russische tsaar die Poetin citeert",
-      "start_seconds": 469,
-      "wiki_checked": true
-    },
-    {
-      "name": "Niels Drost",
-      "note": "Medeauteur van Poetins tsaristische droom",
-      "start_seconds": 436,
-      "wiki_checked": true
-    },
-    {
-      "name": "Boris Jeltsin",
-      "note": "Russisch president die Poetin naar voren schoof",
-      "start_seconds": 575,
-      "wiki_checked": true
-    },
-    {
-      "name": "Alexander I",
-      "note": "Tsaar van het Concert van Europa",
-      "start_seconds": 637,
-      "wiki_checked": true
-    },
-    {
-      "name": "Anna Politkovskaja",
-      "note": "Russische journalist, in 2006 doodgeschoten",
-      "start_seconds": 762,
-      "wiki_checked": true
+      "note": "Tsaar die na de Tijd van de Troebelen orde herstelde; door Poetin aangehaald",
+      "start_seconds": 455,
+      "mention_count": 4
     },
     {
       "name": "Boris Nemtsov",
-      "note": "Russisch oppositieleider, vermoord",
-      "start_seconds": 762,
-      "wiki_checked": true
+      "note": "Russische oppositiepoliticus, in 2015 vermoord",
+      "start_seconds": 784,
+      "mention_count": 2
     },
     {
-      "name": "Alexei Navalny",
-      "note": "Russisch oppositieleider",
-      "start_seconds": 762,
-      "wiki_checked": true
-    },
-    {
-      "name": "Alexander Dugin",
-      "note": "Russische rechtse ideoloog",
-      "start_seconds": 987,
-      "wiki_checked": true
-    },
-    {
-      "name": "Muammar Gaddafi",
-      "note": "Libische leider, gelyncht in 2011",
-      "start_seconds": 1183,
-      "wiki_checked": true
-    },
-    {
-      "name": "Sergej Lavrov",
-      "note": "Russisch minister van Buitenlandse Zaken, spreekt over satanisten",
-      "start_seconds": 1343,
-      "wiki_checked": true
+      "name": "Aleksej Navalny",
+      "note": "Russische oppositieleider",
+      "start_seconds": 790,
+      "mention_count": 3
     },
     {
       "name": "Anne Applebaum",
-      "note": "Auteur van Twilight of Democracy, bron van de chaosparadox",
+      "note": "Amerikaanse journaliste en auteur van Twilight of Democracy",
       "start_seconds": 1461,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
-      "name": "Thierry Baudet",
-      "note": "Nederlands politicus met een renaissance-toespraak",
-      "start_seconds": 1663,
-      "wiki_checked": true
+      "name": "Muammar Gaddafi",
+      "note": "Libische leider, gedood tijdens de Arabische Lente",
+      "start_seconds": 1173,
+      "mention_count": 3
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "Voorbeeld van een leider die in beweging moest blijven",
-      "start_seconds": 1794,
-      "wiki_checked": true
+      "note": "Franse keizer; voorbeeld van een leider die niet kon stoppen",
+      "start_seconds": 1813,
+      "mention_count": 3
     },
     {
       "name": "Adolf Hitler",
-      "note": "Voorbeeld van een leider die gedijt bij chaos",
+      "note": "Duitse dictator; vergelijkingspunt voor tirannie",
       "start_seconds": 1818,
-      "wiki_checked": true
+      "mention_count": 4
     },
     {
-      "name": "Benito Mussolini",
-      "note": "Italiaanse fascistische leider",
-      "start_seconds": 2094,
-      "wiki_checked": true
+      "name": "Johannes Calvijn",
+      "note": "Reformator; tekst over macht, tirannie en het ambt van de vorst",
+      "start_seconds": 2763,
+      "mention_count": 12
     },
     {
-      "name": "George Lakoff",
-      "note": "Taalkundige met het strict father-model",
-      "start_seconds": 1997,
-      "wiki_checked": true
+      "name": "Martin Luther",
+      "note": "Reformator; vergelijkbare kritiek op vorsten",
+      "start_seconds": 2890,
+      "mention_count": 2
     },
     {
-      "name": "Giorgia Meloni",
-      "note": "Italiaanse premier, voorbeeld van een sterke leider",
-      "start_seconds": 2013,
-      "wiki_checked": true
+      "name": "Machiavelli",
+      "note": "Auteur van De Vorst; realistische visie op macht",
+      "start_seconds": 2932,
+      "mention_count": 2
+    },
+    {
+      "name": "Daniel Patrick Moynihan",
+      "note": "Amerikaanse senator en politicoloog die over zwakke checks and balances schreef",
+      "start_seconds": 3862,
+      "mention_count": 1
+    },
+    {
+      "name": "Erich Honecker",
+      "note": "DDR-leider; vergeleken met Hitler qua macht en repressie",
+      "start_seconds": 4324,
+      "mention_count": 5
+    },
+    {
+      "name": "Michail Gorbatsjov",
+      "note": "Sovjetleider die naast Honecker stond in 1989",
+      "start_seconds": 4421,
+      "mention_count": 2
+    },
+    {
+      "name": "Nebukadnessar",
+      "note": "Babylonische koning uit Daniël; droom van het beeld op lemen voeten",
+      "start_seconds": 5925,
+      "mention_count": 2
+    },
+    {
+      "name": "Julius Caesar",
+      "note": "Romeinse leider die werd vermoord omdat men hem tiran noemde",
+      "start_seconds": 2080,
+      "mention_count": 2
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Politicus; in het gesprek niet expliciet genoemd",
+      "start_seconds": 0,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "Poetins tsaristische droom",
-      "author": "Beatrice de Graaf en Niels Drost",
+      "author": "Beatrice de Graaf & Niels Drost",
       "note": "Historisch verslag van Poetins radicalisering",
-      "start_seconds": 435,
-      "volume_id": "ZCrPEQAAQBAJ",
-      "canonical_title": "Poetins tsaristische droom: Geschiedenis als wapen in de Russische politiek",
-      "canonical_author": "Beatrice de Graaf, Niels Drost",
-      "isbn13": "9789044658460",
-      "isbn10": "9044658468",
-      "thumbnail": "http://books.google.com/books/content?id=ZCrPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "start_seconds": 438,
+      "volume_id": "wm7y0QEACAAJ",
+      "canonical_title": "Poetins tsaristische droom",
+      "canonical_author": "Beatrice de Graaf & Niels Drost",
+      "isbn13": "9789044658453",
+      "isbn10": "904465845X",
+      "thumbnail": ""
     },
     {
       "title": "Twilight of Democracy",
       "author": "Anne Applebaum",
-      "note": "Over de autoritaire verleiding en de chaosparadox",
+      "note": "Boek over autoritaire verleiding en de chaosparadox",
       "start_seconds": 1461,
       "volume_id": "qkm5DwAAQBAJ",
       "canonical_title": "Twilight of Democracy: The Seductive Lure of Authoritarianism",
@@ -175,159 +168,226 @@
       "isbn13": "9780385545815",
       "isbn10": "0385545819",
       "thumbnail": "http://books.google.com/books/content?id=qkm5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Institutie der christelijke religie",
+      "author": "Johannes Calvijn",
+      "note": "Laatste editie (1559); over macht en het ambt van de vorst",
+      "start_seconds": 2763,
+      "volume_id": "LAuF0AEACAAJ",
+      "canonical_title": "Institutie ofte onderwijsingh in de christelicke religie",
+      "canonical_author": "Jean Calvin",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Vindiciae contra tyrannos",
+      "author": "Junius Brutus (pseudoniem)",
+      "note": "Calvinistisch verdedigingsgeschrift tegen tirannen",
+      "start_seconds": 2583,
+      "volume_id": "CJ_J0QEACAAJ",
+      "canonical_title": "A Defence of Liberty Against Tyrants",
+      "canonical_author": "M. Junius Brutus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De Vorst (Il Principe)",
+      "author": "Niccolò Machiavelli",
+      "note": "Cynische visie op macht die Calvijn bestreed",
+      "start_seconds": 2932,
+      "volume_id": "XSXzuAAACAAJ",
+      "canonical_title": "De Vorst. Machiavelli, sleutel van onze tijd",
+      "canonical_author": "Niccolò Machiavelli & Johannes Franciscus Otten",
+      "isbn13": "9789062658046",
+      "isbn10": "9062658040",
+      "thumbnail": ""
+    },
+    {
+      "title": "Tyranny of the Majority",
+      "author": "",
+      "note": "Thema uit de Amerikaanse democratiekritiek, door Beatrice de Graaf genoemd",
+      "start_seconds": 3978
     }
   ],
   "bible_refs": [
     {
-      "ref": "Johannes 15:13",
-      "note": "Poetin citeert 'Niemand heeft grotere liefde dan wie zijn leven geeft voor zijn vrienden'",
-      "start_seconds": 1363
+      "ref": "1 Petrus 5:8",
+      "note": "De duivel als briesende leeuw; Poetin leent deze taal voor zichzelf",
+      "start_seconds": 1304
     },
     {
-      "ref": "1 Petrus 5:8",
-      "note": "De duivel gaat rond als een briesende leeuw",
-      "start_seconds": 1291
+      "ref": "Johannes 15:13",
+      "note": "Poetin citeert deze tekst in een toespraak om Russen te laten sterven",
+      "start_seconds": 1381
+    },
+    {
+      "ref": "Marcus 10",
+      "note": "Jezus over heersers die hun macht misbruiken",
+      "start_seconds": 2823
+    },
+    {
+      "ref": "Openbaring",
+      "note": "Apocalyptische tekst gericht tegen tirannen zoals Nero",
+      "start_seconds": 2321
+    },
+    {
+      "ref": "2 Koningen 11",
+      "note": "Atalja die de koninklijke familie laat vermoorden; Joas wordt gered",
+      "start_seconds": 3490
+    },
+    {
+      "ref": "Daniël 2",
+      "note": "Droom van Nebukadnessar over een beeld op lemen voeten",
+      "start_seconds": 5925
     }
   ],
   "places": [
-    "Oekraïne",
-    "Rusland",
-    "Iran",
-    "China",
-    "Syrië",
-    "Georgië",
     "Moskou",
+    "Oekraïne",
     "Krim",
     "Dresden",
-    "Libië",
-    "Venezuela",
-    "Groenland",
-    "Byzantium",
     "Constantinopel",
     "Athene",
-    "Polen",
-    "Hongarije",
-    "Berg Athos"
+    "Georgië",
+    "Syrië",
+    "Oost-Duitsland",
+    "Verenigde Staten",
+    "Iran",
+    "Venezuela",
+    "Groenland",
+    "Utrecht"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Beatrice de Graaf en Stefan Paas of de 'sterke man' als Poetin, Trump en Xi werkelijk zo sterk is. De Graaf schetst Poetins radicalisering tot tiran en legt de 'chaosparadox' uit: leiders die chaos opblazen en nodig hebben om aan de macht te blijven. Ook komen de religieuze en eschatologische symboliek van autocraten en de veerkracht van democratieën aan bod.",
+  "summary_tldr": "Historica Beatrice de Graaf en theoloog Stefan Paas bespreken waarom tirannen opkomen en waarom hun macht broos kan zijn. Aan de hand van Poetins radicalisering, Anne Applebaums chaosparadox en het calvinistische verzet tegen tirannie betogen ze dat democratieën, met hun checks and balances en deugden, verrassend veerkrachtig zijn. Het gesprek eindigt met het beeld van de reus op lemen voeten.",
   "summary_points": [
-    "Het begrip tiran komt uit het oude Griekenland en staat voor machtsgreep, wreedheid en grensoverschrijding.",
-    "Trump is formeel wettig gekozen, maar er is sprake van autoritaire ondermijning.",
-    "Poetin radicaliseerde stapsgewijs, en had op diverse momenten anders kunnen kiezen.",
-    "Poetin vreest democratische besmetting en machtsverlies in eigen land meer dan de NAVO.",
-    "Hij beroept zich op Ivan de Verschrikkelijke, Byzantijns erfgoed en de katechon-ideologie.",
-    "De chaosparadox: de leider vergroot de chaos en presenteert zich als enige redder, maar heeft die chaos nodig.",
-    "Snelheid, prikkels en sociale media smoren kritiek en verantwoording.",
-    "Terror salience en het strict father-model verklaren waarom mensen sterke leiders kiezen.",
-    "Populisten spreken in metafysische termen van goed en kwaad en schetsen zichzelf als verlosser."
+    "Het begrip tiran komt uit het oude Griekenland en betekent oorspronkelijk een usurpator die zijn mandaat overschrijdt.",
+    "Poetin beriep zich aanvankelijk op een Europees 'concert van Europa', maar radicaliseerde na 2003 toen democratische bewegingen in zijn omgeving opkwamen.",
+    "Poetin herschrijft de geschiedenis, citeert Ivan de Verschrikkelijke en presenteert de Krim en de oorlog als heilige strijd tegen het kwaad.",
+    "Anne Applebaums chaosparadox beschrijft hoe leiders crises existentieel maken en zichzelf als enige redder presenteren, met een eindeloze cyclus van nieuwe chaos.",
+    "Apocalyptische teksten waren oorspronkelijk troostliteratuur voor onderdrukten, maar tirannen eigenen ze zich toe en plaatsen zichzelf in de rol van verlosser.",
+    "De Amerikaanse Republiek en de Nederlandse Opstand ontstonden beide uit verzet tegen tirannie, met calvinistische juridische argumenten.",
+    "Calvijn verwierp de macht van vorsten als personen, maar bepleitte spreiding van macht en het respecteren van het ambt.",
+    "Trump en het Hooggerechtshof illustreren hoe checks and balances onder druk staan, en hoe het Amerikaanse tweepartijenstelsel dat risico vergroot.",
+    "Sterke leiders zijn kwetsbaar: door ja-knikkers en een gebrek aan kritiek verliezen ze zelfcorrigerend vermogen.",
+    "Vertrouwen is volgens De Graaf geen meetbare consumentenvoorkeur maar een democratische deugd die gecombineerd moet worden met constructief wantrouwen."
   ],
   "chapters": [
     {
-      "start_seconds": 49,
-      "title": "Zijn sterke mannen wel zo sterk?",
-      "summary": "Inleiding op het thema en Noah Smiths stelling dat tirannen oorlogen verliezen."
+      "start_seconds": 0,
+      "title": "Inleiding en het tijdperk van de sterke man",
+      "summary": "Presentator David Boogerd introduceert de vraag of sterke mannen wel zo sterk zijn als ze lijken."
     },
     {
-      "start_seconds": 264,
+      "start_seconds": 339,
       "title": "Wat is een tiran?",
-      "summary": "Etymologie van het begrip, van het Wilhelmus tot het oude Griekenland, en de vraag of Trump een tiran is."
+      "summary": "Stefan Paas schetst de etymologie en betekenis van tirannie, van de Griekse usurpator tot het Wilhelmus en Romeinse keizers."
     },
     {
-      "start_seconds": 421,
-      "title": "Poetins weg naar tirannie",
-      "summary": "Van de vriendelijke Poetin van 2001 tot de radicalisering na de kleurenrevoluties."
+      "start_seconds": 435,
+      "title": "Poetins weg naar de macht",
+      "summary": "De Graaf beschrijft hoe Poetin in 1999 opkwam, het Westen zijn democratische mogelijkheden liet liggen en de Rusland-Oekraïne-verhouding verslechterde."
     },
     {
-      "start_seconds": 990,
-      "title": "Byzantium, de katechon en de heilige oorlog",
-      "summary": "Poetins gebruik van religieuze en historische symboliek en het satanisme in de wet."
+      "start_seconds": 1304,
+      "title": "Radicalisering: Byzantium, eschatologie en heilige oorlog",
+      "summary": "Poetin stapt van het concert van Europa naar het Byzantijnse erfgoed en de katechon, en presenteert de oorlog als kosmische strijd tegen het satanische."
     },
     {
-      "start_seconds": 1441,
+      "start_seconds": 1438,
       "title": "De chaosparadox",
-      "summary": "Applebaums theorie over hoe leiders chaos opblazen en in stand houden om macht te behouden."
+      "summary": "Applebaums model van de autoritaire verleiding wordt uiteengezet: existentiële chaos, de leider als verlosser en de eindeloze herhaling van crisis."
     },
     {
-      "start_seconds": 1811,
-      "title": "Snelheid, prikkels en angst",
-      "summary": "Hoe sociale media, terror salience en het strict father-model autoritaire leiders helpen."
+      "start_seconds": 2321,
+      "title": "Apocalyptiek en verzet tegen tirannen",
+      "summary": "Apocalyptische literatuur blijkt oorspronkelijk troost voor onderdrukten, en het calvinistische verzet ontleent er juridische argumenten aan."
     },
     {
-      "start_seconds": 2138,
-      "title": "De leider als verlosser",
-      "summary": "Het metafysische kwaad en de eschatologische framing door populisten."
+      "start_seconds": 2763,
+      "title": "Calvijn, macht en de Bijbelse traditie",
+      "summary": "Calvijn en Luther over vorsten en macht, het verhaal van Atalja en de verspreiding van macht als basis voor checks and balances."
+    },
+    {
+      "start_seconds": 3643,
+      "title": "De VS, Trump en de zwakte van de sterke man",
+      "summary": "Gesprek over Trumps machtsuitbreiding, de Amerikaanse constitutie en de vraag hoe sterk een tiran werkelijk is, met het beeld van de reus op lemen voeten als slot."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1343,
+      "start_seconds": 1775,
       "speaker": "Beatrice de Graaf",
-      "text": "Inmiddels is het satanisme ook als strafrechtscategorie in de Russische wet opgenomen.",
-      "note": "Laat zien hoe religieuze retoriek concrete juridische gevolgen krijgt."
+      "text": "Je kiest iemand die belooft de chaos te bezweren, maar in feite heeft hij de chaos nodig en zal alleen maar nieuwe chaos produceren.",
+      "note": "Samenvatting van de chaosparadox en waarom populisten hun eigen crisis in stand houden."
     },
     {
-      "start_seconds": 1383,
+      "start_seconds": 1502,
       "speaker": "Beatrice de Graaf",
-      "text": "Poetin citeert Johannes 15 maar geeft zijn eigen leven niet, dat moeten de Russen doen.",
-      "note": "Scherpe duiding van het misbruik van een Bijbeltekst."
+      "text": "Niemand wordt als tirannetje geboren.",
+      "note": "Scherpe stelling dat tirannie een keuzeproces is, niet een aangeboren eigenschap."
     },
     {
-      "start_seconds": 1951,
-      "speaker": "Beatrice de Graaf",
-      "text": "Je kiest iemand die belooft de chaos te bezweren, maar in feite heeft hij de chaos nodig.",
-      "note": "Kern van de chaosparadox."
-    },
-    {
-      "start_seconds": 1810,
-      "speaker": "Beatrice de Graaf",
-      "text": "Als de stof zou neerdalen, zou je zien dat de keizer helemaal geen kleren aan heeft.",
-      "note": "Verklaart waarom Napoleon en Hitler niet konden stoppen."
-    },
-    {
-      "start_seconds": 1852,
+      "start_seconds": 3833,
       "speaker": "Stefan Paas",
-      "text": "Trump kan ons elke dag zoveel prikkels geven dat weldenkende mensen niet meer weten waar ze moeten beginnen.",
-      "note": "Wijst op overstelping met prikkels als machtsmiddel."
+      "text": "Politiek is geen therapie.",
+      "note": "Korte, pakkende kritiek op een overheid die vooral luistert en peilt in plaats van beslist."
+    },
+    {
+      "start_seconds": 5128,
+      "speaker": "Stefan Paas",
+      "text": "Vertrouwen is een deugd, een democratische deugd, en niet iets wat je meet als prestatiecurve.",
+      "note": "Scherpe reflectie die vertrouwen herdefinieert van meetbare maat naar levenshouding."
+    },
+    {
+      "start_seconds": 5954,
+      "speaker": "Stefan Paas",
+      "text": "Het ziet er soms indrukwekkend majestueus uit, maar het staat meestal veel zwakker dan je denkt.",
+      "note": "Slotbeeld van de reus op lemen voeten, dat de zwakte van tirannen samenvat."
     }
   ],
   "keywords": [
     "tirannie",
     "chaosparadox",
-    "Poetin",
-    "Trump",
-    "katechon",
-    "Byzantium",
     "autoritaire verleiding",
-    "Anne Applebaum",
-    "eschatologie",
-    "terror salience",
-    "populisme",
-    "democratie"
+    "Poetin",
+    "Calvijn",
+    "checks and balances",
+    "apocalyptiek",
+    "katechon",
+    "verzet tegen tirannie",
+    "vertrouwen",
+    "deugd",
+    "Vindiciae contra tyrannos"
   ],
   "quotes": [
+    "Misschien laat onze tijd niet alleen de terugkeer van de sterke man zien, maar ook zijn zwakte.",
     "Misschien hebben tirannen wel niet het laatste woord.",
-    "Misschien laat onze tijd niet alleen de terugkeer van de sterke man zien, maar ook zijn zwakte."
+    "Een visioen over reuzen op lemen voeten."
   ],
   "similar": [
     {
       "n": 284,
-      "reason": "Beatrice de Graaf en Paas over brute machtspolitiek, Trump, Poetin en Groenland"
+      "reason": "Brute machtspolitiek, Trump en Poetin, met Beatrice de Graaf en Stefan Paas"
     },
     {
       "n": 230,
-      "reason": "Poetin en Trump die Europa uit elkaar spelen in nieuwe wereldorde"
+      "reason": "Wereldorde tussen Poetin en Trump, met Stefan Paas"
     },
     {
       "n": 317,
-      "reason": "De Graaf over religieuze symboliek in wereldpolitiek, Poetin en autocraten"
+      "reason": "Geopolitiek en de terugkeer van goden, met Beatrice de Graaf"
     },
     {
-      "n": 275,
-      "reason": "Rusland, Poetin en dreiging voor Europa met De Graaf en Paas"
+      "n": 236,
+      "reason": "Amerika's afglijden en Europa's positie, met Beatrice de Graaf"
     },
     {
-      "n": 241,
-      "reason": "De denkers en ideologieën achter Trump met De Graaf"
+      "n": 248,
+      "reason": "Wie bepaalt de nieuwe wereldorde, met Beatrice de Graaf"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

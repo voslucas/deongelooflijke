@@ -1,18 +1,23 @@
 {
   "episode": 308,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 132883,
+    "segments": 1096,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29912,
-    "output_tokens": 2967,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65551,
+    "output_tokens": 3611,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Zingeving & psyche",
     "Economie & geld",
-    "Wetenschap & kosmos",
-    "God & geloof"
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Paul Schenderling"
@@ -20,165 +25,143 @@
   "people": [
     {
       "name": "Aldous Huxley",
-      "note": "Britse schrijver van Brave New World en Island; evolueerde van betekenisloosheid naar mystiek",
-      "start_seconds": 156,
-      "wiki_checked": true,
-      "wiki_pageid": 111500,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aldous_Huxley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Aldous_Huxley_1927.png/250px-Aldous_Huxley_1927.png"
-    },
-    {
-      "name": "Henry Ford",
-      "note": "autofabrikant, 'de Elon Musk van een eeuw geleden', symbool van productie en consumptie",
-      "start_seconds": 602,
-      "wiki_checked": true,
-      "wiki_pageid": 24410,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Ford",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Henry_ford_1919.jpg/250px-Henry_ford_1919.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "techondernemer, vergeleken met Henry Ford",
-      "start_seconds": 605,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "meester in het bespelen van verlangens via propaganda, volgens Huxley",
-      "start_seconds": 1193,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Mahatma Gandhi",
-      "note": "voorbeeld van geweldloos verzet tegen militarisme",
-      "start_seconds": 899,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
-    },
-    {
-      "name": "Lev Tolstoj",
-      "note": "voorbeeld van geweldloos verzet tegen militarisme",
-      "start_seconds": 899,
-      "wiki_checked": true,
-      "wiki_pageid": 37862,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lev_Tolstoj",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/250px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+      "note": "Britse schrijver, auteur van Brave New World en Island",
+      "start_seconds": 137,
+      "mention_count": 30
     },
     {
       "name": "C.S. Lewis",
-      "note": "schrijver die over vreugde schreef (Surprised by Joy); overleed op dezelfde dag als Huxley",
-      "start_seconds": 1033,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Britse schrijver en theoloog, overleden op dezelfde dag als Huxley",
+      "start_seconds": 1026,
+      "mention_count": 4
     },
     {
       "name": "John F. Kennedy",
-      "note": "Amerikaanse president, vermoord op 22 november 1963",
+      "note": "Amerikaanse president, overleden op 22 november 1963",
       "start_seconds": 1040,
-      "wiki_checked": true,
-      "wiki_pageid": 3817,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_F._Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/250px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+      "mention_count": 1
     },
     {
       "name": "Tim Jackson",
-      "note": "econoom en toneelschrijver, pionier van postgroei-economie",
-      "start_seconds": 1093,
-      "wiki_checked": true,
-      "wiki_pageid": 5168150,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Jackson_%28econoom%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Tim_Jackson.jpg/250px-Tim_Jackson.jpg"
-    },
-    {
-      "name": "Rogier Hoenders",
-      "note": "psychiater, eerder gast in de podcast, over prikkels en zingeving",
-      "start_seconds": 1631,
-      "wiki_checked": true
+      "note": "Britse econoom en pionier van postgroei-economie",
+      "start_seconds": 1100,
+      "mention_count": 6
     },
     {
       "name": "Thomas Piketty",
-      "note": "econoom die postgroei heeft omarmd",
+      "note": "Franse econoom die postgroei heeft omarmd",
       "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 3993723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Piketty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Piketty_in_Cambridge_3_crop.jpg/250px-Piketty_in_Cambridge_3_crop.jpg"
+      "mention_count": 2
     },
     {
       "name": "William James",
-      "note": "grondlegger van de psychologie, begon als neurofysioloog, schreef over bewustzijn",
-      "start_seconds": 2222,
-      "wiki_checked": true,
-      "wiki_pageid": 1911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_James",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/William_James_b1842c.jpg/250px-William_James_b1842c.jpg"
+      "note": "Psycholoog en filosoof, grondlegger van de psychologie",
+      "start_seconds": 2220,
+      "mention_count": 6
     },
     {
-      "name": "Jacob Jolij",
-      "note": "eerdere gast, hersenwetenschapper",
-      "start_seconds": 2334,
-      "wiki_checked": true
+      "name": "Erich Fromm",
+      "note": "Psychoanalyticus, auteur van To Have or To Be",
+      "start_seconds": 3540,
+      "mention_count": 2
     },
     {
-      "name": "André Aleman",
-      "note": "hoogleraar en hersenwetenschapper, eerdere gast over bewustzijn",
-      "start_seconds": 2340,
-      "wiki_checked": true,
-      "wiki_pageid": 4948191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andr%C3%A9_Aleman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/AndreAleman2010.jpg/250px-AndreAleman2010.jpg"
+      "name": "Simone Weil",
+      "note": "Filosofe die stelt dat geest aandacht is",
+      "start_seconds": 4980,
+      "mention_count": 1
+    },
+    {
+      "name": "Henry Ford",
+      "note": "Industrieel, ideoloog van het Fordisme",
+      "start_seconds": 600,
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider, volgens Huxley meester in het bespelen van verlangens",
+      "start_seconds": 1200,
+      "mention_count": 2
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "note": "Verdediger van geweldloos verzet",
+      "start_seconds": 900,
+      "mention_count": 1
+    },
+    {
+      "name": "Lev Tolstoj",
+      "note": "Schrijver en geweldloosheidsdenker",
+      "start_seconds": 900,
+      "mention_count": 1
     },
     {
       "name": "Socrates",
-      "note": "oude denker over geluk versus je gelukkig voelen",
+      "note": "Oud-Griekse filosoof over geluk",
       "start_seconds": 680,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Sandel",
+      "note": "Filosoof over wat wel en niet te koop hoort te zijn",
+      "start_seconds": 5220,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer, als hedendaagse Henry Ford genoemd",
+      "start_seconds": 600,
+      "mention_count": 2
+    },
+    {
+      "name": "Jezus",
+      "note": "Bergrede: zalig zijn de armen van geest",
+      "start_seconds": 4500,
+      "mention_count": 2
+    },
+    {
+      "name": "Rogier Hoenders",
+      "note": "Psychiater en humanist, eerder te gast",
+      "start_seconds": 1640,
+      "mention_count": 1
+    },
+    {
+      "name": "André Aleman",
+      "note": "Hoogleraar hersenwetenschap, eerder te gast over bewustzijn",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacob Jolij",
+      "note": "Hersenwetenschapper, eerder te gast",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Heino Falcke",
+      "note": "Sterrenkundige en lekenpredikant, aankondiging live-avond",
+      "start_seconds": 5520,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Brave New World",
       "author": "Aldous Huxley",
-      "note": "dystopie van chemisch geluk en consumptie",
-      "start_seconds": 200,
-      "volume_id": "kKh5Dyqxx-QC",
+      "note": "Dystopie over consumptie en chemisch geluk",
+      "start_seconds": 137,
+      "volume_id": "JcrvzgEACAAJ",
       "canonical_title": "Brave New World",
       "canonical_author": "Aldous Huxley",
-      "isbn13": "9781407021010",
-      "isbn10": "140702101X",
-      "thumbnail": "http://books.google.com/books/content?id=kKh5Dyqxx-QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "Ends and Means",
       "author": "Aldous Huxley",
-      "note": "1937, bekentenis over betekenisloosheid als bevrijding",
-      "start_seconds": 306,
+      "note": "Over doelen en middelen, het boek met de betekenisloosheid-bekentenis",
+      "start_seconds": 285,
       "volume_id": "KcUckgEACAAJ",
       "canonical_title": "Ends and Means: An Inquiry Into the Nature of Ideals and Into the Methods Employed for Their Realization",
       "canonical_author": "Aldous Huxley",
@@ -189,192 +172,246 @@
     {
       "title": "Island",
       "author": "Aldous Huxley",
-      "note": "utopie vlak voor zijn dood gepubliceerd",
-      "start_seconds": 832,
-      "volume_id": "1t6zMAUt_g4C",
+      "note": "Utopie geschreven vlak voor zijn dood",
+      "start_seconds": 790,
+      "volume_id": "RLhYSQAACAAJ",
       "canonical_title": "Island",
       "canonical_author": "Aldous Huxley",
-      "isbn13": "9781407020730",
-      "isbn10": "1407020730",
-      "thumbnail": "http://books.google.com/books/content?id=1t6zMAUt_g4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780140021936",
+      "isbn10": "0140021930",
+      "thumbnail": ""
     },
     {
       "title": "The Perennial Philosophy",
       "author": "Aldous Huxley",
-      "note": "één God in alle godsdiensten, 1944",
-      "start_seconds": 986,
-      "volume_id": "l1fs25HbCY0C",
-      "canonical_title": "The Perennial Philosophy: An Interpretation of the Great Mystics, East and West",
+      "note": "Eén God in alle religies",
+      "start_seconds": 980,
+      "volume_id": "jUBPtAEACAAJ",
+      "canonical_title": "The Perennial Philosophy",
       "canonical_author": "Aldous Huxley",
-      "isbn13": "9780061893315",
-      "isbn10": "0061893315",
-      "thumbnail": "http://books.google.com/books/content?id=l1fs25HbCY0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Brave New World Revisited",
-      "author": "Aldous Huxley",
-      "note": "reflectie op propaganda en manipulatie",
-      "start_seconds": 1193,
-      "volume_id": "QIJ5EAAAQBAJ",
-      "canonical_title": "Brave New World Revisited",
-      "canonical_author": "Aldous Huxley",
-      "isbn13": "9780795311697",
-      "isbn10": "0795311699",
-      "thumbnail": "http://books.google.com/books/content?id=QIJ5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Surprised by Joy",
-      "author": "C.S. Lewis",
-      "note": "over vreugde als diep verlangen",
-      "start_seconds": 1049,
-      "volume_id": "rHDQjwEACAAJ",
-      "canonical_title": "Surprised by Joy: The Shape of My Early Life",
-      "canonical_author": "C. S. Lewis",
-      "isbn13": "9780062565433",
-      "isbn10": "0062565435",
-      "thumbnail": "http://books.google.com/books/content?id=rHDQjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9781376198942",
+      "isbn10": "1376198940",
+      "thumbnail": "http://books.google.com/books/content?id=jUBPtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Immortality",
       "author": "William James",
-      "note": "over bewustzijn met een andere oorsprong dan het materiële",
-      "start_seconds": 2266,
-      "volume_id": "9Px7g1JVhR4C",
+      "note": "Over bewustzijn als andere oorsprong dan materie",
+      "start_seconds": 2220,
+      "volume_id": "QujwswEACAAJ",
       "canonical_title": "Human Immortality: Two Supposed Objections to the Doctrine",
       "canonical_author": "William James",
-      "isbn13": "9781602060449",
-      "isbn10": "1602060444",
-      "thumbnail": "http://books.google.com/books/content?id=9Px7g1JVhR4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9783337369705",
+      "isbn10": "3337369707",
+      "thumbnail": "http://books.google.com/books/content?id=QujwswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "To Have or To Be",
+      "author": "Erich Fromm",
+      "note": "Houding van hebben versus zijn",
+      "start_seconds": 3540,
+      "volume_id": "oZB-AAAAMAAJ",
+      "canonical_title": "To Have Or to Be?",
+      "canonical_author": "Erich Fromm",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=oZB-AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Varieties of Religious Experience",
+      "author": "William James",
+      "note": "Religieuze ervaringen in kaart gebracht",
+      "start_seconds": 2820,
+      "volume_id": "OjjcAQAACAAJ",
+      "canonical_title": "The Varieties of Religious Experience",
+      "canonical_author": "William James",
+      "isbn13": "9781542781954",
+      "isbn10": "1542781957",
+      "thumbnail": "http://books.google.com/books/content?id=OjjcAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Surprised by Joy",
+      "author": "C.S. Lewis",
+      "note": "Vreugde als diep verlangen",
+      "start_seconds": 1030,
+      "volume_id": "8ZidPwAACAAJ",
+      "canonical_title": "Surprised by Joy: The Shape of My Early Life",
+      "canonical_author": "C.S. Lewis",
+      "isbn13": "9780754031734",
+      "isbn10": "075403173X",
+      "thumbnail": ""
+    },
+    {
+      "title": "De Weg van Vrede",
+      "author": "Stefan Paas",
+      "note": "Boek van Stefan Paas over machten",
+      "start_seconds": 3790,
+      "volume_id": "4QdLEQAAQBAJ",
+      "canonical_title": "De weg van vrede: Een rondleiding door het christelijk geloof",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789043542487",
+      "isbn10": "9043542482",
+      "thumbnail": "http://books.google.com/books/content?id=4QdLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Continent van de kwaliteit",
+      "author": "Paul Schenderling",
+      "note": "Eigen boek van Schenderling",
+      "start_seconds": 0
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Hollywood",
-    "Parijs",
-    "Nederland",
-    "Verenigde Staten"
+  "bible_refs": [
+    {
+      "ref": "Matteus 5",
+      "note": "Bergrede: zalig zijn de armen van geest",
+      "start_seconds": 4500
+    },
+    {
+      "ref": "Psalmen",
+      "note": "Armen die gelukkig worden geprezen",
+      "start_seconds": 4500
+    },
+    {
+      "ref": "Genesis 2:7",
+      "note": "Adem die in de mens wordt geblazen",
+      "start_seconds": 2490
+    }
   ],
-  "summary_tldr": "Econoom Paul Schenderling bespreekt zijn essay over vreugde in een materialistische wereld, aan de hand van Aldous Huxley. Hij betoogt dat we niet alleen materialistisch leven maar ook kijken, en dat onze immateriële verlangens alleen vervuld kunnen worden als we een geestelijke werkelijkheid serieus nemen. Het gesprek raakt consumptie, marketing, postgroei en het raadsel van bewustzijn.",
+  "places": [
+    "Parijs",
+    "Ede",
+    "Nederland",
+    "Oost-Azië",
+    "Hollywood"
+  ],
+  "summary_tldr": "Paul Schenderling betoogt dat we leven in een materialistisch wereldbeeld dat ons gevangen houdt in consumptie en betekenisloosheid, terwijl er een immateriële geestelijke werkelijkheid bestaat die vreugde kan geven. Aan de hand van Aldous Huxley, William James en Tim Jackson verkent hij waarom mensen blijven zoeken naar vervulling op verkeerde plekken. Stefan Paas en David Boogerd toetsen dit aan machten, overheidsrol en de praktijk van rust en gemeenschap.",
   "summary_points": [
-    "Huxley koos eerst voor betekenisloosheid als bevrijding en zag later de gevaren ervan.",
-    "Betekenisloosheid vult zich volgens Huxley met nationalisme, militarisme en fascisme.",
-    "Brave New World toont een zacht despotisme van chemisch geluk en consumptie.",
-    "Geluk voelen is niet hetzelfde als gelukkig zijn.",
-    "Marketing speelt in op immateriële verlangens, zoals gemeenschap en goed ouderschap, met materiële producten.",
-    "Meer consumptie geeft vanaf een punt geen geluk meer en leidt zelfs tot eenzaamheid, vooral bij de rijksten.",
-    "Het verlangen naar 'meer' is niet verkeerd, de vraag is waar we het zoeken.",
-    "Een materialistisch wereldbeeld maakt ook geluk en muziek uiteindelijk betekenisloos.",
-    "Bewustzijn en het 'harde probleem' wijzen volgens Schenderling op een immateriële werkelijkheid; Paas waarschuwt voor voorzichtigheid."
+    "Huxley's erkenning dat betekenisloosheid een bevrijdingsinstrument was, en zijn latere mystieke wending",
+    "Brave New World als dystopie van chemisch geluk en consumptie",
+    "Het onderscheid tussen geluk (genot) en vreugde (dieper, bestendig)",
+    "Materialistisch wereldbeeld: bewustzijn als product van het brein versus bewustzijn als filter (William James)",
+    "Het 'harde probleem' van bewustzijn blijft onopgelost volgens Paas",
+    "Marketing speelt in op immateriële verlangens, niet alleen materiële",
+    "Postgroei-economie en de grens van rijkdom die eenzaamheid oplevert",
+    "Houding van hebben versus zijn (Fromm) en ontvankelijkheid",
+    "Gemeenschap en aandacht als vreugdebronnen; het Sabbatideaal als praktijk",
+    "Rol van de overheid: beperking van economie en ruimte scheppen voor het immateriële"
   ],
   "chapters": [
     {
-      "start_seconds": 51,
-      "title": "Inleiding: op zoek naar de verborgen schat",
-      "summary": "David introduceert het essay over vreugde en het materialistische wereldbeeld."
+      "start_seconds": 0,
+      "title": "Inleiding en Huxley",
+      "summary": "Introductie van Aldous Huxley en zijn betekenisloosheid-bekentenis in Ends and Means."
     },
     {
-      "start_seconds": 156,
-      "title": "Aldous Huxley en de bekentenis uit 1937",
-      "summary": "Huxleys levensreis en zijn erkenning dat betekenisloosheid vooral bevrijding was."
+      "start_seconds": 600,
+      "title": "Dystopie, utopie en Vedanta",
+      "summary": "Brave New World als waarschuwing, Island als utopie en Huxley's weg naar mystiek."
     },
     {
-      "start_seconds": 540,
-      "title": "Brave New World en het zachte despotisme",
-      "summary": "De dystopie van consumptie en chemisch geluk, en het verschil tussen gelukkig voelen en zijn."
-    },
-    {
-      "start_seconds": 832,
-      "title": "Island en Huxleys mystieke wending",
-      "summary": "Huxley zoekt het tegengif in geweldloosheid, mystiek en de Perennial Philosophy."
-    },
-    {
-      "start_seconds": 1033,
-      "title": "Verlangen, vreugde en Tim Jackson",
-      "summary": "Over C.S. Lewis, onverzadigbaar verlangen en consumentisme als materiële vervulling van een immaterieel verlangen."
-    },
-    {
-      "start_seconds": 1344,
+      "start_seconds": 1500,
       "title": "Marketing en immateriële verlangens",
-      "summary": "Hoe reclame inspeelt op gemeenschap, gezin en erkenning."
+      "summary": "Hoe reclame inspeelt op diepere verlangens en de rol van Tim Jackson."
     },
     {
-      "start_seconds": 1799,
-      "title": "Rijkdom, eenzaamheid en materialistisch wereldbeeld",
-      "summary": "Waarom meer consumptie schaadt en hoe wereldbeeld en leefstijl elkaar versterken."
+      "start_seconds": 2220,
+      "title": "Materialisme en bewustzijn",
+      "summary": "William James, het harde probleem en de trompet-metafoor van bewustzijn."
     },
     {
-      "start_seconds": 2160,
-      "title": "Bewustzijn als spoor naar het immateriële",
-      "summary": "William James, het harde probleem van bewustzijn en Paas' voorzichtigheid."
+      "start_seconds": 3000,
+      "title": "Vreugde, ervaring en ontvankelijkheid",
+      "summary": "Persoonlijke voorbeelden van vreugde, Fromm's hebben versus zijn, en gemeenschap."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Paradox van armoede en het goede leven",
+      "summary": "Bergrede, Beata Vita en het verschil tussen gelukkig voelen en gelukkig zijn."
+    },
+    {
+      "start_seconds": 4800,
+      "title": "Machten, overheid en sabbat",
+      "summary": "Definieermacht, de rol van de overheid en praktische tips zoals de sabbat."
+    },
+    {
+      "start_seconds": 5520,
+      "title": "Afsluiting en aankondiging",
+      "summary": "Slotwoorden en aankondiging van live-avond met Heino Falcke."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 1510,
       "speaker": "Paul Schenderling",
       "text": "In onze tijd kiezen we niet voor een wereldbeeld van betekenisloosheid. We zwemmen er al in.",
-      "note": "Kernstelling van het essay."
+      "note": "Kernzin die het verschil met Huxley's tijd scherp maakt."
     },
     {
-      "start_seconds": 307,
+      "start_seconds": 2600,
       "speaker": "Paul Schenderling",
-      "text": "Voor mij was de filosofie van betekenisloosheid in wezen een instrument voor bevrijding.",
-      "note": "Huxleys verrassende, eerlijke bekentenis."
+      "text": "Het brein produceert niet bewustzijn, het brein filtert bewustzijn.",
+      "note": "William James-gedachte via de trompet-metafoor, centraal in het betoog."
     },
     {
-      "start_seconds": 685,
+      "start_seconds": 2960,
+      "speaker": "Paul Schenderling",
+      "text": "Het verlangen is een immaterieel verlangen en we zoeken daar een materiële vervulling voor.",
+      "note": "Tim Jacksons inzicht dat verklaart waarom consumptie niet vervult."
+    },
+    {
+      "start_seconds": 4400,
       "speaker": "Stefan Paas",
       "text": "Gelukkig voelen is nog niet hetzelfde als gelukkig zijn.",
-      "note": "Scherp onderscheid met een lange filosofische traditie."
+      "note": "Oude traditie die het verschil tussen gevoel en het goede leven benoemt."
     },
     {
-      "start_seconds": 1727,
-      "speaker": "Paul Schenderling",
-      "text": "Als ik dat punt bereikt heb, waar is de rest van mijn leven dan nog voor?",
-      "note": "Pijnlijke reactie van een vriendin op onderzoek naar consumptie en geluk."
-    },
-    {
-      "start_seconds": 1796,
-      "speaker": "Paul Schenderling",
-      "text": "Niet jouw verlangen is verkeerd, maar er wordt jou een oplossing aangereikt die dat verlangen niet gaat vervullen.",
-      "note": "Mild en hoopvol uitgangspunt."
+      "start_seconds": 3350,
+      "speaker": "David Boogerd",
+      "text": "Jij gelooft in een immaterieel wereldbeeld omdat jij graag wil dat er meer is dan materie.",
+      "note": "Scherpe wishful thinking-vraag die het betoog op de proef stelt."
     }
   ],
   "keywords": [
-    "vreugde",
+    "Huxley",
     "betekenisloosheid",
+    "vreugde",
     "materialisme",
-    "Aldous Huxley",
-    "Brave New World",
-    "consumentisme",
-    "postgroei",
     "bewustzijn",
-    "immaterieel",
-    "mystiek",
-    "marketing",
-    "William James"
+    "consumptie",
+    "postgroei",
+    "Brave New World",
+    "William James",
+    "gemeenschap",
+    "sabbat",
+    "machten"
   ],
-  "quotes": [],
+  "quotes": [
+    "We zwemmen in betekenisloosheid, maar er is méér",
+    "Hoe houd je stand tegen de 'machten' van deze tijd?",
+    "Volgens Paul leven we niet alleen materialistisch, we kíjken ook materialistisch naar de wereld."
+  ],
   "similar": [
     {
       "n": 145,
-      "reason": "Paul Schenderling over vreugde en God vinden in extreme economische tijden"
+      "reason": "Zelfde gast Paul Schenderling over vreugde, God en economische onzekerheid"
     },
     {
       "n": 268,
-      "reason": "Paul Schenderling over economie, cultuur en een verkochte ziel van Europa"
+      "reason": "Schenderling over economie, geloof en de ziel van Europa"
     },
     {
-      "n": 282,
-      "reason": "André Aleman over brein, bewustzijn en religie; raakt het raadsel van bewustzijn"
-    },
-    {
-      "n": 164,
-      "reason": "Jacob Jolij over het mysterie van bewustzijn"
+      "n": 174,
+      "reason": "Schenderling over economische en culturele onvrede in de samenleving"
     },
     {
       "n": 249,
-      "reason": "Rogier Hoenders over mentale epidemie en uitweg, zingeving"
+      "reason": "Psychiater Rogier Hoenders, besproken in deze aflevering, over mentale crisis en uitweg"
+    },
+    {
+      "n": 228,
+      "reason": "Superrijke techgiganten en Elon Musk, ook besproken in deze aflevering"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

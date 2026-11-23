@@ -1,345 +1,391 @@
 {
   "episode": 226,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 153639,
+    "segments": 2001,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31873,
-    "output_tokens": 2616,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 80092,
+    "output_tokens": 8392,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Politiek",
     "Amerika & Trump",
     "Geopolitiek & oorlog",
-    "Kerk & secularisatie",
-    "Politiek"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "René Cuperus"
   ],
   "people": [
     {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; centrale figuur in het gesprek over democratie en internationale verhoudingen",
+      "start_seconds": 1620,
+      "mention_count": 35
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider; grootste partij in Nederland, besproken als populistische figuur",
+      "start_seconds": 1733,
+      "mention_count": 8
+    },
+    {
       "name": "Wim Kok",
-      "note": "voormalig PvdA-premier, schreef het voorwoord van de bundel uit 1995",
+      "note": "Premier van het paarse kabinet; schreef het voorwoord van de bundel uit 1995",
       "start_seconds": 205,
-      "wiki_checked": true,
-      "wiki_pageid": 1894,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wim_Kok",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wim_Kok_1994.jpg/250px-Wim_Kok_1994.jpg"
-    },
-    {
-      "name": "Femke Halsema",
-      "note": "destijds jonge medeorganisator van de WBS Academie",
-      "start_seconds": 192,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
-    },
-    {
-      "name": "Menno Hurenkamp",
-      "note": "hoogleraar humanistiek, medeorganisator van de bundel",
-      "start_seconds": 197,
-      "wiki_checked": true
-    },
-    {
-      "name": "Francis Fukuyama",
-      "note": "auteur van 'het einde van de geschiedenis'",
-      "start_seconds": 541,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "populistisch politicus, volgens Cuperus voorbereid door Paars",
-      "start_seconds": 723,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "technocratische premier zonder visie",
-      "start_seconds": 789,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "pragmatische Duitse bondskanselier, Cuperus sprak haar recent",
-      "start_seconds": 813,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Jordan Peterson",
-      "note": "psycholoog die de Bijbel Jungiaans leest; trekt veel bekijkers",
-      "start_seconds": 1163,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
-    },
-    {
-      "name": "Andrew Tate",
-      "note": "online influencer, genoemd als voorbeeld van kaping van het christendom",
-      "start_seconds": 1178,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "mention_count": 4
     },
     {
       "name": "Vladimir Poetin",
-      "note": "presenteert zichzelf als christelijk leider",
-      "start_seconds": 1329,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; genoemd als politiek leider die het christendom instrumentaliseert",
+      "start_seconds": 1324,
+      "mention_count": 8
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaarse premier, christelijk-nationalistisch",
-      "start_seconds": 1331,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
-    },
-    {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, centraal thema voor 2025",
-      "start_seconds": 1620,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Hongaarse premier; pro-Poetin en partner van Trump",
+      "start_seconds": 1329,
+      "mention_count": 3
     },
     {
       "name": "Thierry Baudet",
-      "note": "gebruikt het christendom in de culture war",
-      "start_seconds": 1349,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Forum voor Democratie-leider; genoemd om twijfel aan verkiezingen",
+      "start_seconds": 1350,
+      "mention_count": 4
     },
     {
-      "name": "Giorgia Meloni",
-      "note": "Italiaanse premier, bondgenoot van Trump",
-      "start_seconds": 1685,
-      "wiki_checked": true,
-      "wiki_pageid": 5414878,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giorgia_Meloni",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg/250px-Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg"
-    },
-    {
-      "name": "Mario Draghi",
-      "note": "schreef rapport over Europese concurrentiekracht",
-      "start_seconds": 1938,
-      "wiki_checked": true,
-      "wiki_pageid": 2179389,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mario_Draghi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mario_Draghi%2C_2022.03.07_%28cropped%29.jpg/250px-Mario_Draghi%2C_2022.03.07_%28cropped%29.jpg"
+      "name": "Pim Fortuyn",
+      "note": "Politicus die volgens het gesprek voorbereid werd door het verdwijnen van links-rechts",
+      "start_seconds": 722,
+      "mention_count": 2
     },
     {
       "name": "Kamala Harris",
-      "note": "Democratische presidentskandidaat",
-      "start_seconds": 1719,
-      "wiki_checked": true,
-      "wiki_pageid": 3880143,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kamala_Harris",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/250px-Kamala_Harris_Vice_Presidential_Portrait.jpg"
+      "note": "Democratische kandidaat in de Amerikaanse verkiezingen van 2024",
+      "start_seconds": 1714,
+      "mention_count": 5
     },
     {
-      "name": "Bart Tromp",
-      "note": "politicoloog, analyse over verdwijnende links-rechtstegenstelling",
-      "start_seconds": 702,
-      "wiki_checked": true,
-      "wiki_pageid": 669708,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_Tromp",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bart_Tromp_%281982%29.jpg/250px-Bart_Tromp_%281982%29.jpg"
+      "name": "Elon Musk",
+      "note": "Techondernemer; genoemd als voorbeeld van macht die belangrijker wordt dan instituties",
+      "start_seconds": 1179,
+      "mention_count": 4
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Canadese psycholoog die de Bijbel populair maakt via internet",
+      "start_seconds": 1157,
+      "mention_count": 3
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "Controversiële internetpersoonlijkheid, genoemd als voorbeeld van online mafkezen",
+      "start_seconds": 1172,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Premier; genoemd als technocratische politicus zonder grote visie",
+      "start_seconds": 787,
+      "mention_count": 3
+    },
+    {
+      "name": "Joop den Uyl",
+      "note": "PvdA-premier; geïdealiseerd als ideologische politicus",
+      "start_seconds": 804,
+      "mention_count": 2
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Amerikaanse president; neoliberale jaren tachtig",
+      "start_seconds": 564,
+      "mention_count": 2
+    },
+    {
+      "name": "Margaret Thatcher",
+      "note": "Britse premier; symbool van neoliberalisme",
+      "start_seconds": 565,
+      "mention_count": 2
+    },
+    {
+      "name": "Helmut Kohl",
+      "note": "Duitse bondskanselier in de jaren negentig",
+      "start_seconds": 568,
+      "mention_count": 1
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Auteur van het 'einde van de geschiedenis'-idee",
+      "start_seconds": 541,
+      "mention_count": 1
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier; pragmatische politicus",
+      "start_seconds": 813,
+      "mention_count": 2
     },
     {
       "name": "Olaf Scholz",
-      "note": "Duitse bondskanselier die belt met Poetin",
+      "note": "Duitse bondskanselier; belde met Poetin",
       "start_seconds": 1830,
-      "wiki_checked": true,
-      "wiki_pageid": 4956432,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Olaf_Scholz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg/250px-Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlische premier; genoemd in de context van Gaza",
+      "start_seconds": 1738,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Politica; deed mee aan de prijsvraag van 1995",
+      "start_seconds": 192,
+      "mention_count": 1
+    },
+    {
+      "name": "Menno Hurekamp",
+      "note": "Hoogleraar humanistiek; organiseerde de WBS-academie",
+      "start_seconds": 194,
+      "mention_count": 2
+    },
+    {
+      "name": "Josse de Voogt",
+      "note": "Co-auteur van Afgehaakt Nederland",
+      "start_seconds": 2325,
+      "mention_count": 3
+    },
+    {
+      "name": "Bart Tromp",
+      "note": "Politicoloog; analyse over het verdwijnen van links-rechts",
+      "start_seconds": 702,
+      "mention_count": 1
+    },
+    {
+      "name": "Alvin Toffler",
+      "note": "Futuroloog; criticus-doelwit van Cuperus",
+      "start_seconds": 407,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Rotmans",
+      "note": "Transitiekundige; volgende week te gast",
+      "start_seconds": 4205,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Bovens",
+      "note": "Onderzoeker; sprak over nieuwe verzuiling tussen hoog- en laagopgeleiden",
+      "start_seconds": 4174,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Kanne",
+      "note": "Onderzoeker van Ipsos; opiniestuk over Europa als decadent continent",
+      "start_seconds": 2037,
+      "mention_count": 1
+    },
+    {
+      "name": "Carl Jung",
+      "note": "Psycholoog; inspiratie voor Peterson's Bijbellezing",
+      "start_seconds": 1295,
+      "mention_count": 2
+    },
+    {
+      "name": "Marjolein Faber",
+      "note": "Minister van Asiel en Migratie; genoemd in migratiedebat",
+      "start_seconds": 4723,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigrid Kaag",
+      "note": "Voormalig minister; genoemd door Stefan Paas",
+      "start_seconds": 3608,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Nederland in 2025 (bundel prijsvraag Intermediair)",
-      "author": "René Cuperus e.a.",
-      "note": "bundel uit 1995 met voorspellingen voor 2025",
-      "start_seconds": 174
+      "title": "Een fantastisch vergezicht: Nederland in 2025",
+      "author": "Diverse auteurs (uitgegeven na prijsvraag)",
+      "note": "Bundel uit 1995 met voorspellingen voor 2025, voortgekomen uit een essayprijsvraag van Intermediair en de WBS-academie",
+      "start_seconds": 165
     },
     {
       "title": "The Magical Return of the Social Democracy",
       "author": "René Cuperus",
-      "note": "eigen boekje uit begin jaren 90",
+      "note": "Boek van Cuperus uit het begin van de jaren negentig over de terugkeer van sociaaldemocratie",
       "start_seconds": 597
+    },
+    {
+      "title": "Afgehaakt Nederland",
+      "author": "René Cuperus en Josse de Voogt",
+      "note": "Rapport over mensen die het vertrouwen in politiek zijn kwijtgeraakt; Cuperus stelt het is een waarschuwing aan het kabinet",
+      "start_seconds": 2335,
+      "volume_id": "P9v1zgEACAAJ",
+      "canonical_title": "Atlas van afgehaakt Nederland: over buitenstaanders en gevestigden",
+      "canonical_author": "Josse de Voogd, René Cuperus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
-    "Europa",
+    "Amsterdam",
+    "Den Haag",
+    "Utrecht",
+    "Friesland",
+    "Groningen",
+    "Drenthe",
+    "Dokkum",
+    "Kollum",
+    "Roosendaal",
+    "Westland",
+    "Limburg",
+    "Rotterdam",
+    "Ter Apel",
     "Oekraïne",
     "Gaza",
+    "Duitsland",
     "Frankrijk",
     "Hongarije",
-    "Slowakije",
     "Polen",
+    "Italië",
+    "Albanië",
+    "Venezuela",
     "Groenland",
     "Panamakanaal",
-    "Canada",
-    "Amsterdam",
-    "Rusland",
-    "China",
-    "Verenigde Staten",
-    "Duitsland",
-    "Italië"
+    "Brussel"
   ],
-  "summary_tldr": "Historicus René Cuperus blikt terug op de voorspellingen uit 1995 over 2025 en kijkt vooruit naar het nieuwe jaar. Samen met Stefan Paas bespreken ze het neoliberalisme, de opkomst van populisme, de chaotisering van religie en de politieke inzet van het christendom. Trump en de zwakke, verdeelde positie van Europa staan centraal.",
+  "summary_tldr": "In deze aflevering blikt historicus René Cuperus terug op een bundel met voorspellingen voor 2025 uit 1995 en bespreekt hij wat er is uitgekomen. Samen met Stefan Paas analyseert hij de huidige crisis van het politieke midden, populisme, de terugkeer van oorlog en de dreiging voor westerse democratieën onder Trump. Ook de chaotisering van religie, het verdwijnen van het cultuurchristendom en de vraag hoe Nederland met de islam omgaat komen aan bod.",
   "summary_points": [
-    "De bundel uit 1995 was sociologisch en minder technologisch dan gewone toekomstvoorspellingen",
-    "De jaren 90 waren pessimistischer dan het beeld van 'het einde van de geschiedenis'",
-    "Paars en de technocratische politiek worden gezien als voedingsbodem voor populisme",
-    "Onvoorziene ontwikkelingen: oorlog in Europa, antisemitisme, islam, energieonzekerheid",
-    "Stefan Paas ziet een 'chaotisering van religie': minder kerkgang maar meer Bijbelverkoop en online religie",
-    "Autoritaire leiders gebruiken het christendom in een culture war",
-    "Cuperus heeft een haat-liefdeverhouding met het christendom en de islam vindt hij problematisch",
-    "Trump is de grote onzekerheid voor 2025: game changer maar ook gevaarlijk transactioneel",
-    "Europa is slecht voorbereid, verdeeld en verliest concurrentiekracht"
+    "De bundel uit 1995 voorspelde vooral sociologische trends en nauwelijks de terugkeer van oorlog, antisemitisme of energieonzekerheid.",
+    "Het neoliberale tijdperk en het Paarse kabinet markeerden het einde van het christelijke middenpartij-model en de opkomst van technocratische politiek.",
+    "Het verdwijnen van links-rechts leidde tot een nieuwe tegenstelling tussen volk en elite, die populisme voedt.",
+    "Afgehaakt Nederland, vooral praktisch opgeleiden en regio's, voelt zich niet gerespecteerd door een losgezongen bestuurlijke elite.",
+    "Trump wordt gezien als een game changer met gevaarlijke gevolgen voor democratie, instituties en Europese eenheid.",
+    "Europa is slecht voorbereid op een Amerikaanse koerswijziging en verdeeld door eigen populisten zoals Orbán en Wilders.",
+    "Stefan Paas ziet de chaotisering van religie: dalende kerkgang, stijgende Bijbelverkoop en onbeheerste online radicalisering.",
+    "Cuperus ziet een 'opstand in het paradijs' waarin materiële welvaart niet tegen onzekerheid over identiteit en waardigheid opweegt.",
+    "Beide gasten benadrukken dat de kloof tussen bestuur en samenleving hersteld moet worden door ontmoeting en empathie.",
+    "Het gesprek eindigt met de vraag naar de rol van religie, islam en christendom in een seculier Nederland."
   ],
   "chapters": [
     {
-      "start_seconds": 32,
-      "title": "De bundel uit 1995",
-      "summary": "Cuperus vertelt over de prijsvraag en de bundel over Nederland in 2025, en wat daarin klopte of ontbrak."
+      "start_seconds": 0,
+      "title": "Intro en de bundel uit 1995",
+      "summary": "Boogerd introduceert de aflevering en de voorspellingenbundel van 1995, met de eerste reflecties van Cuperus."
     },
     {
-      "start_seconds": 480,
-      "title": "Pessimisme en de woestijnjaren van links",
-      "summary": "Het gesprek over de jaren 90, de PvdA, Paars en de opkomst van technocratie en populisme."
+      "start_seconds": 541,
+      "title": "Neoliberalisme, Paars en de jaren negentig",
+      "summary": "De gasten bespreken de optimistische en tegelijk pessimistische mood van de jaren negentig, het Paarse kabinet en het einde van het CDA."
     },
     {
-      "start_seconds": 885,
-      "title": "Wat niemand zag aankomen",
-      "summary": "Oorlog in Europa, antisemitisme, energieonzekerheid en de kerstboodschap van de koning."
-    },
-    {
-      "start_seconds": 1050,
-      "title": "De chaotisering van religie",
-      "summary": "Paas over kerkgang, Bijbelverkoop, internetreligie, gezagscrisis en Jordan Peterson."
-    },
-    {
-      "start_seconds": 1320,
-      "title": "Christendom als politiek wapen",
-      "summary": "Poetin, Orbán en Trump gebruiken het christendom; Cuperus over zijn haat-liefdeverhouding met religie."
+      "start_seconds": 1042,
+      "title": "Chaotisering van religie",
+      "summary": "Stefan Paas schetst tegenstrijdige religieuze trends, zoals dalende kerkgang en stijgende Bijbelverkoop, en de rol van internet en Jordan Peterson."
     },
     {
       "start_seconds": 1620,
-      "title": "Trump en Europa in 2025",
-      "summary": "Hoe Trump de internationale verhoudingen kan veranderen en hoe verdeeld en zwak Europa ervoor staat."
+      "title": "Trump en de geopolitieke onzekerheid",
+      "summary": "Cuperus ziet Trump als het grootste aandachtspunt voor 2025; de gasten bespreken Europese verdeeldheid, Poetin en de dreiging van grootmachtpolitiek."
+    },
+    {
+      "start_seconds": 2335,
+      "title": "Afgehaakt Nederland en het kabinet",
+      "summary": "Cuperus licht het rapport Afgehaakt Nederland toe en analyseert waarom praktisch opgeleiden en regio's zich afgewezen voelen."
+    },
+    {
+      "start_seconds": 2708,
+      "title": "Opstand in het paradijs",
+      "summary": "De term 'opstand in het paradijs' wordt uitgewerkt: onzekerheid over toekomst, waardigheid en erkenning in een rijk land."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Democratie onder druk",
+      "summary": "De gasten bespreken personalisering van macht, electorale integriteit en de vraag of partijen als die van Wilders verboden moeten worden."
+    },
+    {
+      "start_seconds": 4538,
+      "title": "Cultuurchristendom, islam en migratie",
+      "summary": "Cuperus reflecteert op zijn cultuurchristelijke achtergrond, de geschiedenisontkenning van elites en de toekomst van de islam in Nederland."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 491,
-      "speaker": "David Boogerd",
-      "text": "De mensen in 1995 waren veel pessimistischer dan ik had gedacht.",
-      "note": "Ontkracht de mythe van de euforische jaren 90."
+      "start_seconds": 2708,
+      "speaker": "René Cuperus",
+      "text": "Dit is een opstand in het paradijs, hè.",
+      "note": "De kernterm die de hele analyse van populisme en onzekerheid samenvat."
     },
     {
-      "start_seconds": 1090,
+      "start_seconds": 2602,
       "speaker": "Stefan Paas",
-      "text": "Ik noem het wel eens de chaotisering van religie.",
-      "note": "Kernbegrip van de aflevering."
+      "text": "Ik vind het echt een stel amateurs.",
+      "note": "Een scherpe, persoonlijke kritiek op het huidige kabinet die het debat over vertrouwen in politiek concreet maakt."
     },
     {
-      "start_seconds": 1380,
+      "start_seconds": 2812,
       "speaker": "René Cuperus",
-      "text": "Jullie mooie, heilige christendom wordt politiek ingezet in een mondiale culture war.",
-      "note": "Scherpe duiding van politiek misbruik van religie."
+      "text": "Er wordt eigenlijk bestuurd zonder wijsheid, zonder maatschappelijke wijsheid.",
+      "note": "Een fundamentele kritiek op een technocratische bestuurscultuur die de ervaring van burgers mist."
     },
     {
-      "start_seconds": 1715,
+      "start_seconds": 3337,
       "speaker": "René Cuperus",
-      "text": "Ik had bijna liever Trump dan Harris, omdat hij een game changer kan zijn.",
-      "note": "Opmerkelijk dissidente stellingname."
-    },
-    {
-      "start_seconds": 1815,
-      "speaker": "René Cuperus",
-      "text": "Je komt terug in de 19e eeuw, de tijd van de grootmachten die over de kleine landen heen regeren.",
-      "note": "Waarschuwing voor de wereldorde onder Trump."
+      "text": "Bij Musk zie je dat Musk belangrijker is dan al zijn bedrijven. Gevaarlijk.",
+      "note": "Waarschuwing dat personen belangrijker worden dan instituties, een centraal punt voor democratie."
     }
   ],
   "keywords": [
-    "Trump",
-    "Cuperus",
-    "Paars",
     "populisme",
-    "neoliberalisme",
-    "chaotisering van religie",
+    "Trump",
+    "Afgehaakt Nederland",
+    "opstand in het paradijs",
     "cultuurchristendom",
-    "culture war",
-    "Europa",
-    "Oekraïne",
     "secularisatie",
-    "Wim Kok"
+    "neoliberalisme",
+    "democratie",
+    "technocratie",
+    "islam",
+    "chaotisering van religie",
+    "verzorgingsstaat"
   ],
-  "quotes": [],
+  "quotes": [
+    "We staan aan de vooravond van 2025 - wat staat ons te wachten?",
+    "Een gesprek – en soms ook debat – over een opstand in het paradijs, Trump, Wilders, de islam, cultuurchristendom, de chaotisering van religie en wat deze tijd zo interessant, maar ook gevaarlijk maakt.",
+    "Onze gast van vandaag dacht hier al 30 jaar geleden over na!"
+  ],
   "similar": [
     {
-      "n": 284,
-      "reason": "Trump, Poetin, Europa en machtspolitiek met Stefan Paas; zelfde thema's en actuele duiding"
-    },
-    {
-      "n": 309,
-      "reason": "Trump, Poetin en sterke leiders; politiek en geopolitiek met geloofsduiding"
-    },
-    {
-      "n": 239,
-      "reason": "Europa zonder de VS en Trump, geopolitieke wake-up call"
+      "n": 329,
+      "reason": "Populisme, kantelend Amerika en politiek midden, net als in deze aflevering"
     },
     {
       "n": 170,
-      "reason": "Verrechtsing en Wilders, politieke duiding met Stefan Paas"
+      "reason": "Wilders' verkiezingswinst en de verrechtsing van Nederland, met Josse de Voogd"
     },
     {
-      "n": 230,
-      "reason": "Trump, Poetin en zwakke Europese positie in nieuwe wereldorde"
+      "n": 326,
+      "reason": "Trump, geopolitieke dreiging voor het Westen en de Kerk als thema"
+    },
+    {
+      "n": 309,
+      "reason": "Trump, Poetin en de chaos van machtspolitiek met Beatrice de Graaf"
+    },
+    {
+      "n": 321,
+      "reason": "Politieke aardverschuiving in Europa en de kerk in een politiek kantelpunt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

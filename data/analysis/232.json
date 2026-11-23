@@ -1,298 +1,337 @@
 {
   "episode": 232,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125127,
+    "segments": 1220,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31075,
-    "output_tokens": 2584,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 64019,
+    "output_tokens": 3177,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Geopolitiek & oorlog",
     "Politiek",
     "Geschiedenis",
-    "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Friedrich Merz",
-      "note": "CDU/CSU-lijsttrekker en kanselierskandidaat die de Brandmauer onder druk zette",
-      "start_seconds": 1117,
-      "wiki_checked": true,
-      "wiki_pageid": 5475018,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Merz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg/250px-2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "voormalig Duits bondskanselier, keerde zich tegen Merz",
-      "start_seconds": 590,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "name": "Beatrice de Graaf",
+      "note": "historicus, gast",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
       "name": "Alice Weidel",
       "note": "voorvrouw van de AfD",
-      "start_seconds": 800,
-      "wiki_checked": true,
-      "wiki_pageid": 4882349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alice_Weidel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg/250px-2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg"
+      "start_seconds": 780,
+      "mention_count": 2
     },
     {
       "name": "Björn Höcke",
-      "note": "AfD-leider op de extreemrechtse vleugel",
-      "start_seconds": 821,
-      "wiki_checked": true,
-      "wiki_pageid": 5933091,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Bj%C3%B6rn_H%C3%B6cke_%28cropped%29.jpg/250px-Bj%C3%B6rn_H%C3%B6cke_%28cropped%29.jpg"
+      "note": "AfD-politicus, tot de rechtse flank gerekend",
+      "start_seconds": 820,
+      "mention_count": 1
     },
     {
-      "name": "Elon Musk",
-      "note": "trad op met de AfD in de verkiezingscampagne",
-      "start_seconds": 842,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "name": "Friedrich Merz",
+      "note": "CDU-kanselierskandidaat",
+      "start_seconds": 1020,
+      "mention_count": 9
     },
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president met autocratische impulsen",
-      "start_seconds": 1655,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "historische vergelijking met 1933",
-      "start_seconds": 1711,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Daniel Ziblatt",
-      "note": "Amerikaanse politicoloog, auteur van How Democracies Die",
-      "start_seconds": 2094,
-      "wiki_checked": true,
-      "wiki_pageid": 5907775,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daniel_Ziblatt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Daniel_Ziblatt_2023_2.jpg/250px-Daniel_Ziblatt_2023_2.jpg"
-    },
-    {
-      "name": "Dilan Yeşilgöz",
-      "note": "VVD-leider die de PVV niet meer uitsloot",
-      "start_seconds": 1254,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
+      "name": "Angela Merkel",
+      "note": "voormalig Duits bondskanselier",
+      "start_seconds": 590,
+      "mention_count": 7
     },
     {
       "name": "Mark Rutte",
-      "note": "oud-premier met een goede band met Merkel",
-      "start_seconds": 624,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "voormalig Nederlands premier",
+      "start_seconds": 610,
+      "mention_count": 3
     },
     {
-      "name": "Olaf Scholz",
-      "note": "Duits bondskanselier (SPD)",
-      "start_seconds": 1440,
-      "wiki_checked": true,
-      "wiki_pageid": 4956432,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Olaf_Scholz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg/250px-Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaans president",
+      "start_seconds": 1500,
+      "mention_count": 5
+    },
+    {
+      "name": "Elon Musk",
+      "note": "ondernemer, betrokken bij Trump-beleid en AfD-campagne",
+      "start_seconds": 840,
+      "mention_count": 5
+    },
+    {
+      "name": "Daniel Ziblatt",
+      "note": "politicoloog, auteur How Democracies Die",
+      "start_seconds": 2090,
+      "mention_count": 2
+    },
+    {
+      "name": "Ernst-Wolfgang Böckenförde",
+      "note": "Duits rechtsgeleerde en rechter",
+      "start_seconds": 2940,
+      "mention_count": 3
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "politicoloog",
+      "start_seconds": 3060,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Marx",
+      "note": "filosoof",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "theoloog uit de Bekennende Kirche",
+      "start_seconds": 2700,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader, over het volk",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Mannheim",
+      "note": "socioloog, concept weerbare democratie",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Bastiaan Rijpkema",
+      "note": "politiek filosoof, boek Weerbare democratie",
+      "start_seconds": 3540,
+      "mention_count": 2
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "filosofe, waarschuwde voor atomisering",
+      "start_seconds": 3220,
+      "mention_count": 1
+    },
+    {
+      "name": "Jürgen Habermas",
+      "note": "filosoof, publieke ruimte",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Kurt Schumacher",
+      "note": "oprichter SPD na de Tweede Wereldoorlog",
+      "start_seconds": 3200,
+      "mention_count": 1
+    },
+    {
+      "name": "Markus Söder",
+      "note": "leider CSU",
+      "start_seconds": 2620,
+      "mention_count": 1
+    },
+    {
+      "name": "Carola Rackete",
+      "note": "niet genoemd; placeholder verwijderd",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider",
+      "start_seconds": 870,
+      "mention_count": 2
     },
     {
       "name": "Caroline van der Plas",
-      "note": "BBB-leider, populistische reactie op de stikstofcrisis",
-      "start_seconds": 269,
-      "wiki_checked": true,
-      "wiki_pageid": 5503682,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Caroline_van_der_Plas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caroline_van_der_Plas.jpg/250px-Caroline_van_der_Plas.jpg"
+      "note": "BBB-leider",
+      "start_seconds": 1880,
+      "mention_count": 2
     },
     {
-      "name": "Prins Heinrich",
-      "note": "leider van de Reichsbürger-couppoging",
-      "start_seconds": 1045,
-      "wiki_checked": true,
-      "wiki_pageid": 5709526,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heinrich_Reuss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Gera_Flame_of_Peace_2018-12-21_%2848%29a.jpg/250px-Gera_Flame_of_Peace_2018-12-21_%2848%29a.jpg"
+      "name": "Yesilgöz",
+      "note": "VVD-politica",
+      "start_seconds": 1260,
+      "mention_count": 2
+    },
+    {
+      "name": "Daniel Schoolmeesters",
+      "note": "niet genoemd; placeholder verwijderd",
+      "start_seconds": 0,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "How Democracies Die",
       "author": "Steven Levitsky en Daniel Ziblatt",
-      "note": "Ziblatt over doorgeschoten democratisering en transparantie als voedingsbodem voor populisme",
-      "start_seconds": 2094,
-      "volume_id": "GmkwDwAAQBAJ",
+      "note": "Ziblatt wijt populisme aan doorgeschoten democratisering",
+      "start_seconds": 2090,
+      "volume_id": "se7iswEACAAJ",
       "canonical_title": "How Democracies Die",
       "canonical_author": "Steven Levitsky, Daniel Ziblatt",
-      "isbn13": "9780241317990",
-      "isbn10": "0241317991",
-      "thumbnail": "http://books.google.com/books/content?id=GmkwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780525574538",
+      "isbn10": "0525574530",
+      "thumbnail": "http://books.google.com/books/content?id=se7iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Weerbare democratie",
+      "author": "Bastiaan Rijpkema",
+      "note": "over partijverbod en weerbare democratie",
+      "start_seconds": 3540,
+      "volume_id": "51gqCgAAQBAJ",
+      "canonical_title": "Weerbare democratie: de grenzen van democratische tolerantie",
+      "canonical_author": "Bastiaan Rijpkema",
+      "isbn13": "9789046820056",
+      "isbn10": "904682005X",
+      "thumbnail": "http://books.google.com/books/content?id=51gqCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Duitsland",
-    "Nederland",
-    "Amerika",
+    "Berlijn",
     "Magdeburg",
     "Beieren",
-    "Berlijn",
-    "Bonn",
     "Dresden",
     "Leipzig",
+    "Ede",
+    "Zwolle",
+    "Keulen",
     "Hamburg",
-    "Flensburg",
-    "Ede"
+    "Oostenrijk",
+    "Nederland"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Beatrice de Graaf en Stefan Paas of de democratie in een existentiële crisis verkeert, met Duitsland en de opmars van de AfD als hoofdvoorbeeld. Ze bespreken de Brandmauer, de historische wortels van extreemrechts, bureaucratisch falen en de aantrekkingskracht van de sterke leider.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de opmars van de AfD in Duitsland en het gevaar voor de democratie vóór de verkiezingen. Ze analyseren de rol van de Brandmauer, de naoorlogse kerken en de prepolitieke grondwaarden als bescherming tegen autocratische reflexen. Ze pleiten voor weerbaarheid naast liefde voor de democratische rechtsstaat.",
   "summary_points": [
-    "Een kwart tot een derde van de Nederlanders steunt autocratische bestuursvormen; in Duitsland wil 24% een Führer en 40% één partij voor het hele volk.",
-    "Er is een verschil tussen democratie (stemmen) en rechtsstaat (machtenscheiding, minderheidsbescherming), en vooral die tweede staat onder druk.",
-    "Duitsland is cruciaal voor Nederland: handelspartner, hoeksteen van de Europese samenwerking en ideologisch het dichtstbijzijnde land.",
-    "De AfD staat in een historische lijn met het Keizerrijk en het Derde Rijk, anders dan de Nederlandse PVV, die geen lijn heeft met de NSB.",
-    "De Brandmauer, het Duitse cordon sanitaire, werd door Merz doorbroken; Merkel keerde zich tegen hem en zijn wet mislukte.",
-    "Het overnemen van extreemrechtse thema's door gematigde partijen versterkt het origineel, zoals bij Yeşilgöz en de PVV.",
-    "Incidenten zoals Magdeburg waren vooral bureaucratisch falen in een complex systeem met 16 deelstaten, niet alleen een migratieprobleem.",
-    "De aantrekkingskracht van de sterke leider en het afhakken van bureaucratie lijkt op 1933 en Trump; de zwakkeren lijden daar uiteindelijk onder."
+    "De AfD groeit in Duitsland en wordt deels als radicaal rechts of extreemrechts beschouwd",
+    "De Brandmauer houdt samenwerking met de AfD tegen; Merz' migratievoorstel met AfD-steun liep uit de hand",
+    "Mensen die dit steunen zijn vaak welgestelde ouderen, niet de echt benadeelden",
+    "Bureaucratische complexiteit en falende uitvoering voeden het gevoel dat de politiek niet levert",
+    "Duitse kerken en christendemocratische partijen droegen historisch bij aan het dempen van nationalisme",
+    "Secularisatie verzwakt prepolitieke bronnen zoals gezin, kerk en vakbond",
+    "Böckenförde: de liberale staat leunt op voorwaarden die hij zelf niet kan garanderen",
+    "Weerbare democratie (partijverbod, kiesdrempel) versus vrije marktplaats van ideeën",
+    "Augustinus: een volk is verenigd in wat het liefheeft; liefde voor rechtsstaat en menselijke waardigheid"
   ],
   "chapters": [
     {
-      "start_seconds": 158,
-      "title": "Een existentiële crisis voor de democratie",
-      "summary": "Steun voor autocratische bestuursvormen in Nederland en Duitsland, en het verschil tussen democratie en rechtsstaat."
+      "start_seconds": 0,
+      "title": "Inleiding en Duitsland als kantelpunt",
+      "summary": "De aflevering opent met de vraag of de democratie in crisis is en waarom Duitsland nu centraal staat."
     },
     {
-      "start_seconds": 567,
-      "title": "Waarom Duitsland ertoe doet",
-      "summary": "Duitsland als handelspartner, voorbeeld en ideologisch naaste buur van Nederland."
+      "start_seconds": 180,
+      "title": "Autoritaire reflexen en steun voor de sterke man",
+      "summary": "Peilingen tonen dat een deel van Duitsers en Nederlanders sterke leiders steunt."
     },
     {
-      "start_seconds": 749,
-      "title": "De AfD en het kantelpunt",
-      "summary": "De opkomst van de AfD, haar extreemrechtse segmenten en de historische wortels in het nationaalsocialisme."
+      "start_seconds": 540,
+      "title": "Duitsland als belangrijkste partner en de AfD",
+      "summary": "De nauwe banden met Duitsland en de radicaal rechtse koers van de AfD worden besproken."
     },
     {
-      "start_seconds": 1086,
-      "title": "De Brandmauer en Merz",
-      "summary": "Merz die de Brandmauer doorbrak, de rol van Merkel en de vergelijking met Yeşilgöz en de PVV."
+      "start_seconds": 1020,
+      "title": "De Brandmauer en het Merz-dilemma",
+      "summary": "Merz' migratiewet met AfD-steun, de interne opstand en Merkels tussenkomst."
     },
     {
-      "start_seconds": 1393,
-      "title": "Migratie en bureaucratisch falen",
-      "summary": "Aanslagen in Magdeburg en Beieren als falen van complexe diensten en de vraag of migratie het echte probleem is."
+      "start_seconds": 1800,
+      "title": "Bureaucratie, migratie en de verleiding van de sterke leider",
+      "summary": "Complexiteit van het Duitse bestel en de historische parallel met 1933."
     },
     {
-      "start_seconds": 1647,
-      "title": "De verleiding van de sterke leider",
-      "summary": "Parallellen met 1933, Trump en Musk, en waarom de zwakken onder autocratie lijden."
+      "start_seconds": 2550,
+      "title": "Kerken, christendemocratie en Duitse schuldverwerking",
+      "summary": "De rol van de kerken en de Stuttgarter Schuldbekenntnis in de naoorlogse democratie."
     },
     {
-      "start_seconds": 2084,
-      "title": "Doorgeschoten democratisering",
-      "summary": "Ziblatts analyse over transparantie en inspraak als voedingsbodem voor populisme."
+      "start_seconds": 2940,
+      "title": "Prepolitieke waarden en weerbare democratie",
+      "summary": "Böckenförde, Fukuyama en de vraag naar partijverbod en weerbaarheid."
+    },
+    {
+      "start_seconds": 3960,
+      "title": "Liefde voor de democratie en luchtige afsluiting",
+      "summary": "Augustinus over het volk, de combinatie van weerbaarheid en liefde, en aankondiging van live-optredens."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1862,
+      "start_seconds": 1080,
       "speaker": "Beatrice de Graaf",
-      "text": "Ik ben altijd huiverig voor mannen die zich opwerpen als redder of verlosser.",
-      "note": "Persoonlijke en historisch gefundeerde kanttekening bij sterke leiders."
+      "text": "Merz heeft ineens een thema bezet dat eigenlijk van de AfD is, waar hij nooit op kan scoren.",
+      "note": "Scherpe analyse van het risico dat grote partijen extreemrechtse thema's overnemen."
     },
     {
-      "start_seconds": 1236,
+      "start_seconds": 1900,
+      "text": "Ik heb te veel sterke mannelijke leiders in mijn omgeving gezien, daar heb ik nooit veel baat bij gehad.",
+      "speaker": "Beatrice de Graaf",
+      "note": "Persoonlijke onderbouwing van wantrouwen tegenover redders en sterke leiders."
+    },
+    {
+      "start_seconds": 3720,
       "speaker": "Stefan Paas",
-      "text": "Je zou het een Yeşilgöz-momentje kunnen noemen: de deur openzetten voor extreemrechts.",
-      "note": "Trekt een scherpe parallel tussen Nederland en Duitsland."
+      "text": "Als die prepolitieke waarden wegvallen, krijg je een autocratische reflex, want dan moet je gaan dwingen.",
+      "note": "Böckenfördes paradox die de liberale staat zichzelf laat opheffen."
     },
     {
-      "start_seconds": 1111,
-      "speaker": "Beatrice de Graaf",
-      "text": "Merkel kwam uit de coulisse tevoorschijn als een soort wraakgodin.",
-      "note": "Beeldende duiding van het dramatische moment rond de Brandmauer."
-    },
-    {
-      "start_seconds": 1936,
+      "start_seconds": 3960,
       "speaker": "Stefan Paas",
-      "text": "Een goede dictator, daar droomt elke generatie wel een keer van.",
-      "note": "Benoemt de populistische reflex in ieder van ons."
-    },
-    {
-      "start_seconds": 1711,
-      "speaker": "Beatrice de Graaf",
-      "text": "Hitler zei: Wir kennen keine Kompromisse, wij hakken door het kreupelhout van de bureaucratie.",
-      "note": "Historische echo van de huidige aantrekkingskracht van doorhakken."
+      "text": "Een volk is een gezelschap van redelijke wezens die verenigd zijn in wat zij liefhebben.",
+      "note": "Augustinus als tegenwicht tegen populistische massa's."
     }
   ],
   "keywords": [
     "AfD",
     "Brandmauer",
-    "extreemrechts",
+    "weerbare democratie",
+    "prepolitieke waarden",
+    "secularisatie",
+    "Stuttgarter Schuldbekenntnis",
+    "Böckenförde",
+    "partijverbod",
     "populisme",
-    "rechtsstaat",
-    "autocratie",
-    "Duitsland",
-    "Friedrich Merz",
-    "Angela Merkel",
-    "Weimarrepubliek",
-    "bureaucratie",
-    "migratie"
+    "Merz",
+    "Augustinus",
+    "rechtsstaat"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 321,
-      "reason": "Zelfde duo over de opmars van de AfD in Duitsland en politieke aardverschuiving"
-    },
-    {
-      "n": 309,
-      "reason": "De Graaf en Paas over sterke leiders, Trump en autocratische tendensen"
+      "reason": "Opmars van de AfD in Duitsland en politieke verschuiving, met Beatrice de Graaf"
     },
     {
       "n": 300,
-      "reason": "De Graaf over afglijden naar fascisme, geschiedenis en democratie in Nederland en Hongarije"
+      "reason": "Hoe democratieën afglijden naar fascisme, met Beatrice de Graaf en kerkelijke rol"
     },
     {
-      "n": 169,
-      "reason": "De Graaf en Paas over extreemrechtse verkiezingswinst en verlangen naar grote leiders"
+      "n": 309,
+      "reason": "Sterke leiders, autocratie en bedreigingen voor de democratische orde, met Beatrice de Graaf"
     },
     {
-      "n": 284,
-      "reason": "Brute machtspolitiek, Trump en Poetin met De Graaf en Paas"
+      "n": 170,
+      "reason": "Verrechtsing van Nederland en het electorale succes van Wilders"
+    },
+    {
+      "n": 237,
+      "reason": "Verschuiving naar autocratische en conservatieve opvattingen in politiek en samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,303 +1,309 @@
 {
   "episode": 168,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101926,
+    "segments": 973,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30571,
-    "output_tokens": 2757,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51750,
+    "output_tokens": 3423,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "Islam & jodendom",
     "Politiek",
-    "Technologie & AI"
+    "Islam & jodendom",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Joris Luyendijk"
   ],
   "people": [
     {
+      "name": "Joris Luyendijk",
+      "note": "journalist, schrijver, voormalig Midden-Oosten-correspondent, gast",
+      "start_seconds": 2,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast (gespreksleider mede-host)",
+      "start_seconds": 11,
+      "mention_count": 30
+    },
+    {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlisch premier, volgens Luyendijk altijd gekozen op de belofte de tweestatenoplossing onmogelijk te maken",
-      "start_seconds": 350,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "note": "Israëlische premier, besproken als leider van rechts Israël",
+      "start_seconds": 283,
+      "mention_count": 8
     },
     {
-      "name": "David Ben-Gurion",
-      "note": "eerste premier van Israël; zei dat Israël nooit rustig kan slapen omdat het land is afgepakt",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 56353,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Ben-Gurion",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/David_Ben_Gurion.jpg/250px-David_Ben_Gurion.jpg"
-    },
-    {
-      "name": "Donald Trump",
-      "note": "Amerikaanse ex-president, genoemd als voorbeeld van een leider die zegt wat hij gaat doen",
-      "start_seconds": 350,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Yasser Arafat",
-      "note": "PLO-leider, volgens Luyendijk een opportunist die calculeerde",
-      "start_seconds": 921,
-      "wiki_checked": true,
-      "wiki_pageid": 1955,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yasser_Arafat",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Arafat_by_Yaakov_Saar.jpg/250px-Arafat_by_Yaakov_Saar.jpg"
-    },
-    {
-      "name": "Yitzhak Rabin",
-      "note": "Israëlisch premier, vermoord door een rechtse Israëli",
-      "start_seconds": 1037,
-      "wiki_checked": true,
-      "wiki_pageid": 53608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Rabin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg/250px-Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg"
-    },
-    {
-      "name": "Harold Doornbos",
-      "note": "oorlogsverslaggever met een Twitter-thread over een alternatieve reactie op 7 oktober",
-      "start_seconds": 837,
-      "wiki_checked": true
-    },
-    {
-      "name": "Noam Chomsky",
-      "note": "denker achter 'manufacturing consent'",
-      "start_seconds": 1688,
-      "wiki_checked": true,
-      "wiki_pageid": 15107,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Noam_Chomsky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Noam_Chomsky%2C_2004.jpg/250px-Noam_Chomsky%2C_2004.jpg"
-    },
-    {
-      "name": "Beatrice de Graaf",
-      "note": "gast in een eerdere aflevering over dezelfde oorlog",
-      "start_seconds": 234,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
+      "name": "Hamas",
+      "note": "Palestijnse islamistische beweging, betrokken bij de oorlog",
+      "start_seconds": 10,
+      "mention_count": 25
     },
     {
       "name": "Geert Wilders",
-      "note": "stapte uit de VVD vanwege Turkije en de EU",
-      "start_seconds": 2174,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider, besproken over coalitie en islam-standpunten",
+      "start_seconds": 2890,
+      "mention_count": 8
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "NSC-leider, besproken over coalitiemogelijkheden",
+      "start_seconds": 2880,
+      "mention_count": 5
+    },
+    {
+      "name": "David Ben-Gurion",
+      "note": "eerste Israëlische premier, geciteerd over vijandigheid",
+      "start_seconds": 288,
+      "mention_count": 1
+    },
+    {
+      "name": "Yasser Arafat",
+      "note": "PLO-leider, besproken als opportunistische onderhandelaar",
+      "start_seconds": 910,
+      "mention_count": 2
     },
     {
       "name": "Margaret Thatcher",
-      "note": "doelwit van een IRA-aanslag, vergeleken met Hamas",
-      "start_seconds": 628,
-      "wiki_checked": true,
-      "wiki_pageid": 14914,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Margaret_Thatcher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg/250px-Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg"
+      "note": "Britse premier, doelwit van IRA-aanslag",
+      "start_seconds": 620,
+      "mention_count": 2
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "note": "Israëlische premier, vermoord door extremist",
+      "start_seconds": 1040,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans oud-president, besproken over Midden-Oosten-beleid",
+      "start_seconds": 365,
+      "mention_count": 3
+    },
+    {
+      "name": "Harold Doorenbos",
+      "note": "oorlogsverslaggever, plan voor Gaza op Twitter",
+      "start_seconds": 830,
+      "mention_count": 1
+    },
+    {
+      "name": "Noam Chomsky",
+      "note": "linguïst en media-criticus, 'manufacturing consent'",
+      "start_seconds": 1650,
+      "mention_count": 2
+    },
+    {
+      "name": "Saddam Hussein",
+      "note": "Iraakse dictator, besproken over mediabeperking",
+      "start_seconds": 2490,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "historicus, eerder gast in dezelfde week",
+      "start_seconds": 240,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "FVD-leider, geciteerd over 'ik weet het niet'",
+      "start_seconds": 3780,
+      "mention_count": 1
+    },
+    {
+      "name": "Wim Kok",
+      "note": "oud-premier, laatste PvdA-winnaar van verkiezingen",
+      "start_seconds": 3290,
+      "mention_count": 1
     },
     {
       "name": "Jan Keulen",
-      "note": "voormalig Volkskrant-correspondent, pro-Palestijns",
-      "start_seconds": 1423,
-      "wiki_checked": true
+      "note": "Volkskrant-correspondent",
+      "start_seconds": 1420,
+      "mention_count": 1
     },
     {
-      "name": "Edo Roosendaal",
-      "note": "voormalig correspondent met kinderen in het Israëlische leger",
-      "start_seconds": 1423,
-      "wiki_checked": true
+      "name": "Kauni Roelands",
+      "note": "NRC-redacteur, Midden-Oosten-analist",
+      "start_seconds": 1440,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het zijn net mensen",
       "author": "Joris Luyendijk",
-      "note": "over zijn ervaringen als Midden-Oosten-correspondent",
-      "start_seconds": 1520,
-      "volume_id": "4AsZDgAAQBAJ",
+      "note": "boek over zijn ervaringen als Midden-Oosten-correspondent",
+      "start_seconds": 1500,
+      "volume_id": "ltygzwEACAAJ",
       "canonical_title": "Het zijn net mensen: beelden uit het Midden-Oosten",
       "canonical_author": "Joris Luyendijk",
-      "isbn13": "9789057598548",
-      "isbn10": "905759854X",
-      "thumbnail": "http://books.google.com/books/content?id=4AsZDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789493304512",
+      "isbn10": "9493304515",
+      "thumbnail": ""
     },
     {
       "title": "Manufacturing Consent",
-      "author": "Noam Chomsky en Edward Herman",
-      "note": "over hoe media consensus vormgeven",
-      "start_seconds": 1688,
-      "volume_id": "18IWX4hxHNUC",
-      "canonical_title": "Manufacturing Consent: The Political Economy of the Mass Media",
+      "author": "Noam Chomsky",
+      "note": "over mediafilters en consensusvorming",
+      "start_seconds": 1650,
+      "volume_id": "yHQ-0QEACAAJ",
+      "canonical_title": "Manufacturing consent: de politieke economie van de massamedia",
       "canonical_author": "Edward S. Herman, Noam Chomsky",
-      "isbn13": "9780307801623",
-      "isbn10": "0307801624",
-      "thumbnail": "http://books.google.com/books/content?id=18IWX4hxHNUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "De Zeven Vinkjes",
-      "author": "Joris Luyendijk",
-      "note": "besproken in een eerdere aflevering",
-      "start_seconds": 120,
-      "volume_id": "kKDXzwEACAAJ",
-      "canonical_title": "De zeven vinkjes: hoe mannen zoals ik de baas spelen",
-      "canonical_author": "Joris Luyendijk",
-      "isbn13": "9789493256484",
-      "isbn10": "9493256480",
+      "isbn13": "9789462674820",
+      "isbn10": "9462674825",
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5",
+      "note": "Bergrede, citaat over vijandsliefde door christelijke Palestijn",
+      "start_seconds": 2650
+    }
+  ],
   "places": [
     "Gaza",
     "Israël",
-    "Westelijke Jordaanoever",
+    "Palestijnse gebieden",
     "Oost-Jeruzalem",
     "Tel Aviv",
     "Libanon",
-    "Noord-Ierland",
-    "Egypte",
-    "Qatar",
-    "Beirut",
-    "Jordanië",
-    "Oekraïne"
+    "Jemen",
+    "Congo",
+    "Syrië",
+    "Oekraïne",
+    "Den Haag",
+    "Westelijke Jordaanoever"
   ],
-  "summary_tldr": "Joris Luyendijk analyseert als oud-correspondent de oorlog tussen Israël en Hamas: de schaal is nieuw, de escalatieladder heeft nog treden, en het echte conflict loopt volgens hem tussen voor- en tegenstanders van co-existentie. Hij legt uit hoe correspondenten proberen confirmation bias te vermijden en hoe media en frames het conflict mede bepalen. Ook gaat het kort over de Tweede Kamerverkiezingen.",
+  "summary_tldr": "Joris Luyendijk, ex-correspondent in het Midden-Oosten, analyseert de oorlog tussen Israël en Hamas vanuit een nuchtere, calculerende blik en waarschuwt voor escalatie en eenzijdige mediaverhalen. Het gesprek verbindt dit met polarisatie in Nederland en de naderende Tweede Kamerverkiezingen, waar hij de kwaliteit van het debat en de aandacht voor buitenlandse politiek kritisch bekijkt.",
   "summary_points": [
-    "De oorlog is van een andere orde dan de eerdere geweldsescalaties die Luyendijk als correspondent meemaakte.",
-    "7 oktober raakt het Holocaust-trauma en de angst dat vrede leidt tot afslachting.",
-    "Geweld en repressie leveren steeds ergere tegenkrachten op, van PLO naar Hezbollah en van Fatah naar Hamas.",
-    "Netanyahu en Hamas horen volgens Luyendijk in hetzelfde kamp: beiden geloven niet in co-existentie.",
-    "Vredesprocessen komen door veranderde calculaties tot stand, niet door slimme bemiddelaars.",
-    "Een correspondent werkt als een dokter: hypotheses opstellen, oordelen uitstellen en emoties buiten de analyse houden.",
-    "Het midden kiezen is niet laf; activisten en neutrale waarnemers zijn allebei nodig in een democratie.",
-    "Frames en sociale media sturen de publieke opinie in een mediaoorlog.",
-    "Vergelijkingen met Noord-Ierland en Frankrijk-Duitsland laten zien dat verzoening mogelijk is, maar het leiderschap ontbreekt."
+    "Luyendijk ziet de oorlog als een kwalitatieve escalatie, na 7 oktober, met een bijzondere schok voor Joodse Israëliërs en Nederlanders.",
+    "Hij beschrijft het conflict als calculaties van spelers: Netanyahu en Hamas delen volgens hem de overtuiging dat co-existentie onmogelijk is.",
+    "Terreur en repressie voeden elkaar; vredesinitiatieven werden telkens door geweld of politieke ingrepen gesaboteerd.",
+    "Correspondenten moeten confirmation bias vermijden en informatie als waarschijnlijkheidshypotheses behandelen.",
+    "Media en sociale media vormen het frame van het conflict; beelden en termen als holocaust of genocide beïnvloeden het oordeel.",
+    "Westerse aandacht voor Israël/Palestina staat in schril contrast met grotere geweldsbronnen als Congo, Jemen en Syrië.",
+    "Stefan Paas wijst op het dilemma tussen rationele analyse en het chaotische, onbegrijpelijke karakter van menselijk geweld.",
+    "Luyendijk kritiseert de normalisering van PVV en de bedreiging van moslims en Joden in Nederland.",
+    "In de verkiezingscampagne ontbreken volgens hem Europa, defensie en Oekraïne, en wordt het debat gedomineerd door bestaanszekerheid.",
+    "Het gesprek eindigt met de stelling dat niet-weten soms waardevol is om nieuwsgierigheid te voeden."
   ],
   "chapters": [
     {
-      "start_seconds": 49,
-      "title": "Terug bij De Ongelooflijke",
-      "summary": "Introductie van Joris Luyendijk en het gevoel dat deze oorlog van een andere schaal is dan wat hij als correspondent meemaakte."
+      "start_seconds": 0,
+      "title": "Inleiding en terugkeer van Luyendijk",
+      "summary": "Presentator David Boogerd introduceert Luyendijk en diens ervaring als Midden-Oosten-correspondent. Luyendijk beschrijft hoe het huidige geweld zwaarder weegt dan eerdere escalaties."
     },
     {
-      "start_seconds": 228,
-      "title": "7 oktober en het Holocaust-trauma",
-      "summary": "Over de angst bij Israëli's en Joodse Nederlanders en de bloeddrempel in eerdere oorlogen."
+      "start_seconds": 510,
+      "title": "Escalatieladder en de Hamas-aanslag",
+      "summary": "Luyendijk schetst de historische escalatiecyclus van terreur en repressie, en de schijnveiligheid van mei 2023."
     },
     {
-      "start_seconds": 442,
-      "title": "Escalatie en schijnveiligheid",
-      "summary": "Luyendijks bezoek aan Israël in mei, de muur en de escalatieladder die nog treden heeft."
+      "start_seconds": 1100,
+      "title": "Correspondentenblik en oplossingen",
+      "summary": "Luyendijk bespreekt de calculaties van partijen, het Oslo-akkoord en waarom een politiek proces mogelijk was geweest."
     },
     {
-      "start_seconds": 777,
-      "title": "Calculaties en vredesprocessen",
-      "summary": "Over Oslo, Netanyahu en Hamas, en waarom vrede draait om veranderende calculaties."
+      "start_seconds": 1800,
+      "title": "Media, propaganda en framing",
+      "summary": "Gesprek over mediaoorlog, Chomsky's manufacturing consent en het effect van beelden en termen op het publieke oordeel."
     },
     {
-      "start_seconds": 1120,
-      "title": "De blik van de correspondent",
-      "summary": "Hoe je confirmation bias vermijdt, waarom het midden niet laf is en of neutraliteit geprivilegieerd is."
+      "start_seconds": 2400,
+      "title": "Antisemitisme, islamofobie en Nederland",
+      "summary": "Luyendijk spreekt over discriminatie van moslims en Joden in Nederland en de normalisering van de PVV."
     },
     {
-      "start_seconds": 1520,
-      "title": "Mediaoorlog en framing",
-      "summary": "Het boek Het zijn net mensen, Chomsky's manufacturing consent, sociale media en de macht van woorden."
+      "start_seconds": 3100,
+      "title": "Verkiezingen en de kinderboerderij",
+      "summary": "Bespreking van de verkiezingscampagne, het ontbreken van buitenlandbeleid en de kwaliteit van verkiezingsdebatten."
     },
     {
-      "start_seconds": 1864,
-      "title": "Verzoening elders en pessimisme",
-      "summary": "Vergelijking met Noord-Ierland en Duitsland-Frankrijk en waarom Luyendijk toch pessimistisch is."
+      "start_seconds": 3600,
+      "title": "Afsluiting: niet weten",
+      "summary": "Gedeelde conclusie dat niet-weten nieuwsgierigheid kan voeden; afsluiting van de aflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1017,
+      "start_seconds": 1020,
       "speaker": "Joris Luyendijk",
-      "text": "Netanyahu en Hamas horen in hetzelfde kamp.",
-      "note": "Scherpe stelling die het conflict anders framet."
+      "text": "Netanyahu en Hamas horen in hetzelfde kamp; ze hebben dezelfde calculatie: co-existentie is niet mogelijk.",
+      "note": "Scherpe stelling die beide zijden gelijkstelt en het conflict als wederzijds bedreigend framet."
     },
     {
-      "start_seconds": 1385,
+      "start_seconds": 1380,
       "speaker": "Joris Luyendijk",
-      "text": "Het midden is niet laf; partij kiezen maakt je het denken vanaf.",
-      "note": "Verdediging van de correspondentenhouding."
+      "text": "Als dit 1800 voor Christus was geweest, hadden we er nooit meer van gehoord.",
+      "note": "Ironische maar treffende illustratie van hoe mediawerking het conflict bepaalt."
     },
     {
-      "start_seconds": 411,
+      "start_seconds": 2420,
       "speaker": "Joris Luyendijk",
-      "text": "Voor een dode Israëliër vielen er ongeveer 27 Palestijnse doden: de bloeddrempel.",
-      "note": "Cynisch inzicht in diplomatieke logica."
+      "text": "Het menselijk brein vindt 5 doden bij een terroristische aanslag veel erger dan 500 doden bij een checkpoint waar geen beelden van zijn.",
+      "note": "Confronterende observatie over selectieve verontwaardiging."
     },
     {
-      "start_seconds": 2018,
+      "start_seconds": 2640,
       "speaker": "Joris Luyendijk",
-      "text": "Goddank werd in 1945 niet gedacht dat er geen kans op vrede was.",
-      "note": "Hoopvol tegenwicht in een pessimistisch gesprek."
+      "text": "Mijn vriend heeft een Arabische naam en sorteert nu al voor op islamofobie over een paar jaar.",
+      "note": "Persoonlijk moment dat de gevolgen van polarisatie concreet maakt."
     },
     {
-      "start_seconds": 0,
+      "start_seconds": 3520,
       "speaker": "Joris Luyendijk",
-      "text": "We kunnen ook een volksdanscompetitie houden en wie het beste danst, wordt leider.",
-      "note": "Felle kritiek op verkiezingsdebatten."
+      "text": "Waar zijn nog serieuze programma's op televisie?",
+      "note": "Kritische noot over het verdwijnen van diepgaande journalistiek en de wensen van de publieke omroep."
     }
   ],
   "keywords": [
-    "Israël-Hamas",
-    "Joris Luyendijk",
-    "correspondent",
-    "tweestatenoplossing",
-    "Netanyahu",
-    "Het zijn net mensen",
-    "confirmation bias",
-    "framing",
-    "Holocaust-trauma",
+    "Israël-Hamas-oorlog",
     "escalatie",
-    "verkiezingen",
-    "manufacturing consent"
+    "correspondent",
+    "mediaoorlog",
+    "confirmation bias",
+    "manufacturing consent",
+    "islamofobie",
+    "antisemitisme",
+    "tweestatenoplossing",
+    "polarisatie",
+    "verkiezingsdebat",
+    "Tweede Kamerverkiezingen"
   ],
-  "quotes": [
-    "Anderhalf jaar geleden spraken we met hem over zijn boek 'De Zeven Vinkjes' en nu is hij weer terug: Joris Luyendijk!"
-  ],
+  "quotes": [],
   "similar": [
     {
+      "n": 271,
+      "reason": "Joris Luyendijk over verkiezingen, populisme en Israël-Gaza; sterke thematische overlap"
+    },
+    {
+      "n": 295,
+      "reason": "Zelfde gast Joris Luyendijk over existentiële strijd, politiek en geopolitieke oorlog"
+    },
+    {
       "n": 166,
-      "reason": "Oorlog Israël-Hamas en polarisatie, met Beatrice de Graaf, in dezelfde periode"
+      "reason": "Polarisatie rond de oorlog tussen Israël en Hamas, ook in Nederland"
     },
     {
       "n": 163,
-      "reason": "Tegenaanval van Israël en ideologie van Hamas, kort na de aanval"
+      "reason": "Analyse van Israëls tegenaanval en de ideologie van Hamas"
     },
     {
-      "n": 271,
-      "reason": "Joris Luyendijk over Israël-Gaza, populisme en Tweede Kamerverkiezingen"
-    },
-    {
-      "n": 170,
-      "reason": "Verkiezingsuitslag Wilders en verrechtsing van Nederland, zelfde verkiezingsperiode"
-    },
-    {
-      "n": 143,
-      "reason": "Achtergrond van Israël en het conflict met de Palestijnen"
+      "n": 239,
+      "reason": "Joris Luyendijk over Amerikaanse politiek en de gevolgen voor Europa"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

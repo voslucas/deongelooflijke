@@ -1,222 +1,205 @@
 {
   "episode": 50,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95337,
+    "segments": 945,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30329,
-    "output_tokens": 3078,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 48495,
+    "output_tokens": 10062,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
+    "Bijbel & Jezus",
     "Filosofie & ethiek",
-    "Kerk & secularisatie",
-    "Geschiedenis",
-    "Bijbel & Jezus"
+    "Politiek"
   ],
   "guests": [
     "Andreas Kinneging"
   ],
   "people": [
     {
-      "name": "Andreas Kinneging",
-      "note": "hoogleraar rechtsfilosofie, auteur van De Onzichtbare Maat",
-      "start_seconds": 36,
-      "wiki_checked": true,
-      "wiki_pageid": 219403,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andreas_Kinneging",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Andreas_Kinneging_-_%28cropped%29.jpg/250px-Andreas_Kinneging_-_%28cropped%29.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "politicus, door NRC genoemd als beïnvloed door Kinneging",
-      "start_seconds": 36,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
       "name": "Plato",
-      "note": "Griekse filosoof, grondlegger van de Europese traditie",
-      "start_seconds": 36,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof; centrale figuur in Kinnegings 'Europese traditie'",
+      "start_seconds": 665,
+      "mention_count": 9
     },
     {
       "name": "Aristoteles",
-      "note": "Griekse filosoof",
-      "start_seconds": 660,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "note": "Griekse filosoof, behoort tot de klassieke traditie",
+      "start_seconds": 665,
+      "mention_count": 4
+    },
+    {
+      "name": "Socrates",
+      "note": "Griekse filosoof, genoemd naast Plato",
+      "start_seconds": 1765,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, platonist en christen",
-      "start_seconds": 660,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader en platonist-christen; door Kinneging als belangrijkste denker geprezen",
+      "start_seconds": 1857,
+      "mention_count": 12
     },
     {
       "name": "Thomas van Aquino",
-      "note": "middeleeuws theoloog; liefde als hoogste deugd",
-      "start_seconds": 660,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "Middeleeuws theoloog; Kinnegings voorkeur voor het middeleeuwse christendom",
+      "start_seconds": 1857,
+      "mention_count": 7
     },
     {
       "name": "Francis Bacon",
-      "note": "verlichtingsdenker die een nieuwe mens- en maatschappijwetenschap programmeerde",
+      "note": "Vroeg verlichtingsdenker die een nieuwe mens- en maatschappijwetenschap programmeerde",
       "start_seconds": 648,
-      "wiki_checked": true,
-      "wiki_pageid": 70918,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Bacon_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/250px-Somer_Francis_Bacon.jpg"
+      "mention_count": 1
     },
     {
       "name": "Thomas Hobbes",
-      "note": "verlichtingsdenker; mens gedreven door begeertes",
+      "note": "Verlichtingsdenker; zag de mens als begeertewezen",
       "start_seconds": 648,
-      "wiki_checked": true,
-      "wiki_pageid": 14520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Hobbes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Thomas_Hobbes_%28portrait%29.jpg/250px-Thomas_Hobbes_%28portrait%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Baruch Spinoza",
-      "note": "verlichtingsdenker",
+      "note": "Verlichtingsdenker genoemd als programmeur van nieuwe mensweten­schap",
       "start_seconds": 648,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
+      "mention_count": 1
     },
     {
       "name": "René Descartes",
-      "note": "verlichtingsdenker",
-      "start_seconds": 658,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "note": "Verlichtingsdenker; ook als voorbeeld van vergeten of gelijk-tijdig marginale denkers",
+      "start_seconds": 657,
+      "mention_count": 3
     },
     {
       "name": "Galileo Galilei",
-      "note": "wetenschappelijke revolutie",
-      "start_seconds": 590,
-      "wiki_checked": true,
-      "wiki_pageid": 6464,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Galileo_Galilei",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Galileo_by_leoni.jpg/250px-Galileo_by_leoni.jpg"
+      "note": "Wetenschappelijke revolutie; grondlegger van nieuwe natuurwetenschap",
+      "start_seconds": 616,
+      "mention_count": 1
     },
     {
       "name": "Isaac Newton",
-      "note": "wetenschappelijke revolutie",
-      "start_seconds": 590,
-      "wiki_checked": true,
-      "wiki_pageid": 786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isaac_Newton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/250px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg"
-    },
-    {
-      "name": "Karl Marx",
-      "note": "bekritiseerde gelijkheid voor de wet",
-      "start_seconds": 1010,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Wetenschappelijke revolutie; nieuw wereldbeeld",
+      "start_seconds": 616,
+      "mention_count": 1
     },
     {
       "name": "Adam Smith",
-      "note": "marktdenken, concurrentie van handelaren",
+      "note": "Econoom; markt als mechanisme om concurrentie en welvaart te brengen",
       "start_seconds": 1447,
-      "wiki_checked": true,
-      "wiki_pageid": 24034,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adam_Smith",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/250px-Adam_Smith_The_Muir_portrait.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof; kritiek op gelijkheid voor de wet als onvoldoende",
+      "start_seconds": 1010,
+      "mention_count": 2
     },
     {
       "name": "Cicero",
-      "note": "Romeins denker die Kinneging 'bekeerde' van de verlichting",
-      "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 40452,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marcus_Tullius_Cicero",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/CiceroBust.jpg/250px-CiceroBust.jpg"
+      "note": "Romeinse denker; door hem bekeerde Kinneging zich tot de traditie",
+      "start_seconds": 1690,
+      "mention_count": 2
     },
     {
-      "name": "Tom Holland",
-      "note": "Britse historicus, eerder te gast, over verschil christendom en klassieke oudheid",
-      "start_seconds": 2261,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "name": "Jezus",
+      "note": "Centrale figuur van het christendom; historiciteit besproken",
+      "start_seconds": 2906,
+      "mention_count": 14
     },
     {
       "name": "Paulus",
-      "note": "apostel, kruis als verborgen voor de wijzen",
-      "start_seconds": 2330,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "Apostel; citeert Psalm 118 over de hoeksteen en het kruis",
+      "start_seconds": 2309,
+      "mention_count": 3
     },
     {
-      "name": "Plotinus",
-      "note": "neoplatonist, door Augustinus genoemd",
-      "start_seconds": 2330,
-      "wiki_checked": true,
-      "wiki_pageid": 60857,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plotinus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Plotinos.jpg/250px-Plotinos.jpg"
+      "name": "Martin Luther",
+      "note": "Reformator; literalistische schriftuitleg kritisch besproken",
+      "start_seconds": 2732,
+      "mention_count": 3
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator; zelfde literalistische lijn als Luther",
+      "start_seconds": 2784,
+      "mention_count": 1
+    },
+    {
+      "name": "Eric Voegelin",
+      "note": "Politiek filosoof; bron van de term 'middeleeuws christen'",
+      "start_seconds": 2643,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse historicus over de Griekse oudheid en het christendom",
+      "start_seconds": 2261,
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus van Forum voor Democratie; kinnegings werk wordt aan hem gekoppeld",
+      "start_seconds": 2815,
+      "mention_count": 3
     },
     {
       "name": "Ed Nijpels",
-      "note": "VVD-politicus, slogan 'gewoon jezelf kunnen zijn'",
+      "note": "VVD-politicus; bedenker van de slogan 'jezelf kunnen zijn'",
       "start_seconds": 1533,
-      "wiki_checked": true,
-      "wiki_pageid": 15383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ed_Nijpels",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/VVD_bijeen_te_Utrecht_i.v.m._Urgentieprogramma_1982_Ed_Nijpels_%2C_kop%2C_Bestanddeelnr_932-2429.jpg/250px-VVD_bijeen_te_Utrecht_i.v.m._Urgentieprogramma_1982_Ed_Nijpels_%2C_kop%2C_Bestanddeelnr_932-2429.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Albert Schweitzer",
+      "note": "Theoloog; Leben-Jesu-Forschung in besproken context",
+      "start_seconds": 3121,
+      "mention_count": 1
+    },
+    {
+      "name": "Albert Zwartser",
+      "note": "Auteur van een groot boek over het 19e-eeuwse onderzoek naar Jezus",
+      "start_seconds": 3121,
+      "mention_count": 2
+    },
+    {
+      "name": "Bart Ehrman",
+      "note": "Bijbelwetenschapper, agnostisch; genoemd als expert over de historische Jezus",
+      "start_seconds": 3149,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Sanders",
+      "note": "Historicus van het vroege christendom; genoemd als expert over de historische Jezus",
+      "start_seconds": 3149,
+      "mention_count": 1
+    },
+    {
+      "name": "Jo van Dolen",
+      "note": "Gesprekspartner voor later vervolg over de historische Jezus",
+      "start_seconds": 3149,
+      "mention_count": 1
+    },
+    {
+      "name": "Wallace",
+      "note": "Amerikaanse literator; bron van de grap over de twee vissen",
+      "start_seconds": 372,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De Onzichtbare Maat",
+      "title": "De onzichtbare maat",
       "author": "Andreas Kinneging",
-      "note": "cultuurkritiek op verlichting en romantiek, pleidooi voor de Europese traditie",
-      "start_seconds": 36,
+      "note": "Cultuurkritiek op verlichting en romantiek; pleidooi voor de Europese traditie",
+      "start_seconds": 233,
       "volume_id": "WNBjLwEACAAJ",
-      "canonical_title": "Onzichtbare maat: god, natuurrecht en staat",
+      "canonical_title": "De onzichtbare maat: god, natuurrecht en staat",
       "canonical_author": "Andreas Kinneging",
       "isbn13": "9789035138797",
       "isbn10": "9035138791",
@@ -225,164 +208,196 @@
     {
       "title": "Confessiones",
       "author": "Augustinus",
-      "note": "boek 7: platonisme en christendom komen samen",
-      "start_seconds": 2330,
-      "volume_id": "-KtQPwAACAAJ",
+      "note": "Boek 7 besproken als voorbeeld van de verbinding van platonisme en christendom",
+      "start_seconds": 2309,
+      "volume_id": "pi3rtAEACAAJ",
       "canonical_title": "Confessiones",
-      "canonical_author": "Aurelius Augustinus, Pius Knoell",
+      "canonical_author": "Aurelius Augustinus",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "Bhagavad Gita",
+      "author": "",
+      "note": "Hindoeïstische tekst die Kinneging met een leesclub bestudeerde; overlap met platonisme",
+      "start_seconds": 3433,
+      "volume_id": "_RlzypAX2LUC",
+      "canonical_title": "The Bhagavad Gita: The Ethics of Decision-making",
+      "canonical_author": "Swami Tripurari",
+      "isbn13": "9780892540907",
+      "isbn10": "0892540907",
+      "thumbnail": "http://books.google.com/books/content?id=_RlzypAX2LUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Oorlog en Vrede",
+      "author": "Lev Tolstoj",
+      "note": "Voorbeeld van hoogstaande literatuur tegenover Harry Potter",
+      "start_seconds": 3637,
+      "volume_id": "_KkargEACAAJ",
+      "canonical_title": "Oorlog en vrede",
+      "canonical_author": "Lev Tolstoj",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "note": "Voorbeeld van populaire literatuur tegenover grote wereldliteratuur",
+      "start_seconds": 3637
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 3",
-      "note": "zondeval: Adam en Eva willen zelf beslissen, vrijheid en gelijkheid",
-      "start_seconds": 1595
+      "note": "Zondeval: Adam en Eva plukken van de boom; vrijheid en gelijkheid als begeerte",
+      "start_seconds": 1598
     },
     {
       "ref": "Psalm 118",
-      "note": "de hoeksteen die nergens paste, door Paulus aangehaald",
-      "start_seconds": 2310
+      "note": "Hoeksteen die niet paste; door Paulus aangehaald",
+      "start_seconds": 2309
     },
     {
       "ref": "Johannes 1",
-      "note": "Logos vlees geworden, incarnatie (Johannes-evangelie en Griekse filosofie)",
-      "start_seconds": 2310
+      "note": "Logos wordt vlees; incarnatie als centraal christelijk gegeven",
+      "start_seconds": 3060
     }
   ],
   "places": [
     "Athene",
     "Jeruzalem",
-    "Californië",
-    "Amsterdam",
     "Leiden",
-    "Kampen"
+    "Amsterdam",
+    "Kampen",
+    "Californië"
   ],
-  "summary_tldr": "Andreas Kinneging legt uit waarom volgens hem de Europese traditie van Griekse filosofie en christendom op sterven na dood is en vervangen door verlichtings- en romantisch denken. Met David Boogerd en Stefan Paas bespreekt hij vrijheid en gelijkheid als 'afgoden', zonde en liefde als christelijke aanvulling op Plato, en de vraag of het christendom een voortzetting of een breuk is met de Griekse traditie.",
+  "summary_tldr": "Rechtsfilosoof Andreas Kinneging betoogt dat de Europese traditie van Griekse filosofie en het middeleeuwse christendom op sterven na dood is en dat de verlichting en romantiek de moderne cultuur hebben gevormd met vrijheid en gelijkheid als afgoden. Samen met theoloog Stefan Paas bespreekt hij of het christendom een verlengde of breuk is van de klassieke traditie, en of cultuurchristendom een zinvolle term is. Het gesprek eindigt bij de vraag naar de historische Jezus en objectieve schoonheid.",
   "summary_points": [
-    "Kinneging stelt dat de 2500 jaar oude Europese traditie op haar einde loopt, symbolisch rond 1968.",
-    "Verlichting en romantiek bepalen volgens hem de moderne cultuur; rechts is verlichtend, links romantisch.",
-    "Vrijheid en gelijkheid worden verafgood; gelijkheid leidt tot centralisatie en gelijkheid van uitkomsten.",
-    "Het marktdenken van Adam Smith sloeg door in consumentisme en 'toeristificatie' van de wereld.",
-    "Kinneging kwam via Cicero van zijn verlichtingsideaal af en 'bekeerde' zich tot de traditie.",
-    "Het christelijke mensbeeld is realistischer dankzij zonde en liefde als aanvulling op Plato.",
-    "Paas benadrukt ook de breuk: gekruisigde Messias, incarnatie en profetische rechtvaardigheid.",
-    "Kinneging ziet continuïteit tussen christendom en Griekse filosofie, al in Johannes en Paulus.",
-    "Kinneging verdedigt beginselen, niet het historische verleden zoals adelsheerschappij."
+    "Kinneging stelt dat de Europese traditie van Athene en Jeruzalem na ongeveer 2500 jaar teloorgaat.",
+    "Verlichting en romantiek worden gezien als twee pijlers van de moderne cultuur, respectievelijk 'rechts' en 'links'.",
+    "Vrijheid en gelijkheid worden als moderne afgoden gezien; gelijkheid leidt volgens hem tot centralisatie.",
+    "Het verlichtingsmensbeeld ziet de mens als begeertewezen; de klassieke traditie vraagt om kritische zelfreflectie en deugd.",
+    "Kinneging ziet het christendom als realistischer mensbeeld, met zonde en liefde als belangrijkste aanvullingen op Plato.",
+    "Paas nuanceert: Augustinus was zowel platonist als christen, en het christendom kent ook breuken zoals incarnatie en kruis.",
+    "Kinneging wijst cultuurchristendom als te instrumenteel af; de traditie moet als waarheid gedragen worden.",
+    "Het gesprek gaat over de historische Jezus, waarbij Paas de consensus onder vakhistorici verdedigt tegen Kinnegings twijfel.",
+    "Objectieve schoonheid wordt besproken: Bach, Vermeer en Tolstoj boven populaire kunst."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Inleiding en gewichtheffen",
-      "summary": "Introductie van Kinneging en zijn verleden als Nederlands kampioen gewichtheffen."
+      "start_seconds": 0,
+      "title": "Introductie en persoonlijke achtergrond",
+      "summary": "Kinneging wordt voorgesteld als rechtsfilosoof en voormalig gewichtheffer; de gesprekspartners bespreken balans tussen geest en lichaam."
     },
     {
       "start_seconds": 233,
       "title": "Het einde van een tijdperk",
-      "summary": "Kinneging legt uit waarom de Europese traditie verdwijnt en waarom mensen dat nauwelijks zien."
+      "summary": "Kinneging stelt dat de Europese traditie na 2500 jaar wegvalt en dat weinig mensen dit zien, vergelijkbaar met vissen die het water niet opmerken."
     },
     {
-      "start_seconds": 525,
-      "title": "Verlichting en romantiek",
-      "summary": "Uitleg van beide stromingen, hun mensbeeld en hun gedeelde afgoden vrijheid en gelijkheid."
+      "start_seconds": 616,
+      "title": "Verlichting versus romantiek",
+      "summary": "Kinneging schetst de verlichting als materialistisch, na de wetenschappelijke revolutie, en de romantiek als zoektocht naar het authentieke zelf."
     },
     {
-      "start_seconds": 1020,
-      "title": "Gelijkheid, geschiedenis en kritiek",
-      "summary": "Discussie over gelijkheid voor de wet, kansen en uitkomsten, en de vraag of ideeën los staan van historische context."
+      "start_seconds": 843,
+      "title": "Vrijheid, gelijkheid en de markt",
+      "summary": "Vrijheid en gelijkheid worden als afgoden besproken; het gesprek gaat over gelijkheid voor de wet, kansen, uitkomsten en de markt."
     },
     {
-      "start_seconds": 1380,
-      "title": "Consumptie, politiek en zondeval",
-      "summary": "Kritiek op marktdenken, de verkiezingsuitslag en Genesis 3 als bewijs van de aantrekkingskracht van vrijheid en gelijkheid."
+      "start_seconds": 1598,
+      "title": "Realisme van het christelijke mensbeeld",
+      "summary": "Kinneging verwijst naar Genesis 3 en het christelijke begrip van zonde; Paas vult aan met Plato, zonde en liefde als 'updates'."
     },
     {
-      "start_seconds": 1680,
-      "title": "Kinnegings bekering tot de traditie",
-      "summary": "Hoe studie en Cicero zijn verlichtingsideaal deden afbrokkelen."
+      "start_seconds": 1777,
+      "title": "Athene en Jeruzalem",
+      "summary": "De metafoor 'Athene en Jeruzalem' wordt besproken; het christendom als continuïteit en breuk met de Griekse traditie, mede via Augustinus."
     },
     {
-      "start_seconds": 1780,
-      "title": "Athene en Jeruzalem: zonde en liefde",
-      "summary": "Het christelijke mensbeeld als realistischer en vollediger dan dat van Plato."
+      "start_seconds": 2806,
+      "title": "Kerkgeschiedenis en cultuurchristendom",
+      "summary": "Reformatie, literalisme en cultuurchristendom worden besproken; Kinneging wijst de term af als te instrumenteel."
     },
     {
-      "start_seconds": 2260,
-      "title": "Continuïteit of breuk",
-      "summary": "Verhouding tussen christendom en Grieks denken, met Augustinus, Paulus en Tom Holland."
+      "start_seconds": 3121,
+      "title": "De historische Jezus en objectieve schoonheid",
+      "summary": "Het gesprek gaat over de historiciteit van Jezus, waarover Paas en Kinneging verschillen, en eindigt bij objectieve schoonheid en muziek van Bach."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 386,
+      "start_seconds": 270,
       "speaker": "Andreas Kinneging",
-      "text": "Het verhaal van de twee visjes: 'water, water, waar heeft die man het over?'",
-      "note": "Beeldende uitleg waarom we het einde van een tijdperk niet zien."
+      "text": "Het is een breukvlak waarbij zelfs de Reformatie maar een lichte rimpeling was; de Europese traditie is op sterven na dood.",
+      "note": "Een dramatische stelling die de ernst van zijn cultuurkritiek markeert."
     },
     {
-      "start_seconds": 1735,
+      "start_seconds": 372,
       "speaker": "Andreas Kinneging",
-      "text": "Dat Cicero mij bekeerd heeft.",
-      "note": "Persoonlijke omslag van verlichtingsverdediger naar pleitbezorger van de traditie."
+      "text": "Water, water, waar heeft die man het over? (de grap van de twee visjes)",
+      "note": "Een treffende metafoor: we zien onze eigen tijd en waarden niet omdat ze vanzelfsprekend zijn."
     },
     {
-      "start_seconds": 1598,
-      "speaker": "Andreas Kinneging",
-      "text": "Bij de zondeval erkent de auteur hoe aantrekkelijk vrijheid en gelijkheid zijn voor de mens.",
-      "note": "Verrassende lezing van Genesis 3."
+      "start_seconds": 2015,
+      "speaker": "David Boogerd",
+      "text": "Het ik is de nieuwe God.",
+      "note": "Samenvatting van Kinnegings kritiek op de romantiek: het individuele zelf als norm."
     },
     {
-      "start_seconds": 1938,
-      "speaker": "Andreas Kinneging",
-      "text": "Ik denk dat het christelijke mens- en wereldbeeld het meest realistische wereldbeeld is.",
-      "note": "Kernstelling van het gesprek."
-    },
-    {
-      "start_seconds": 2640,
+      "start_seconds": 3149,
       "speaker": "Stefan Paas",
-      "text": "Gekruisigde Messias, incarnatie en particulariteit zijn minder klassiek.",
-      "note": "Paas nuanceert de continuïteitsthese."
+      "text": "Jezus heeft historisch bestaan, dat leidt geen twijfel; de mainstream van de wetenschap is hier unaniem.",
+      "note": "Een scherpe correctie op Kinnegings twijfel, met verwijzing naar agnostische vakgenoten."
+    },
+    {
+      "start_seconds": 3549,
+      "speaker": "David Boogerd",
+      "text": "Jij zegt dat een hoboconcert van Bach hoger staat dan een popsong; er is zoiets als objectieve schoonheid.",
+      "note": "Het gesprek sluit af met de stelling dat smaak niet louter subjectief is."
     }
   ],
   "keywords": [
     "Europese traditie",
-    "verlichting",
-    "romantiek",
-    "Plato",
+    "Verlichting",
+    "Romantiek",
+    "Athene en Jeruzalem",
     "Augustinus",
-    "Thomas van Aquino",
-    "zonde",
-    "vrijheid en gelijkheid",
-    "De Onzichtbare Maat",
-    "cultuurchristendom",
-    "Athene en Jeruzalem"
+    "Plato",
+    "Historische Jezus",
+    "Cultuurchristendom",
+    "Zonde",
+    "Objectieve schoonheid"
   ],
   "quotes": [
     "We staan aan het einde van een tijdperk dat ongeveer tweeënhalf millennia geleden begon.",
-    "De wereldbeschouwelijke Traditie die Europa sinds de Oudheid heeft gedomineerd is op sterven na dood."
+    "De wereldbeschouwelijke Traditie die Europa sinds de Oudheid heeft gedomineerd is op sterven na dood.",
+    "vrijheid en gelijkheid als nieuwe afgoden"
   ],
   "similar": [
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over crisis van het Westen, filosofie en geschiedenis van Europees denken."
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden, christendom en Europese geschiedenis, sterk aansluitend bij het hoofdthema"
     },
     {
-      "n": 122,
-      "reason": "Nietzsche en de dood van God: filosofische analyse van christendom en moderniteit."
+      "n": 200,
+      "reason": "Augustinus centraal, een figuur die ook in deze aflevering wordt besproken; theologie en filosofie"
     },
     {
-      "n": 132,
-      "reason": "Erasmus als Europese denker; filosofie, kerk en geschiedenis."
+      "n": 7,
+      "reason": "Gesprek over cultuurchristendom, de term die ook in deze aflevering ter discussie staat"
     },
     {
-      "n": 183,
-      "reason": "Spinoza besproken, Europese filosofische traditie en geloof."
+      "n": 280,
+      "reason": "Betrouwbaarheid van bronnen over Jezus, sluit aan bij de vraag naar de historische Jezus"
     },
     {
-      "n": 22,
-      "reason": "Tom Holland over hoe het christendom het Westen vormde."
+      "n": 238,
+      "reason": "Thomas van Aquino, klassieke filosofie en christelijke traditie, die hier ook terugkomen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

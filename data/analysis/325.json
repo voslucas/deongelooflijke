@@ -1,17 +1,22 @@
 {
   "episode": 325,
-  "analyzed": "2026-11-17",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 129639,
+    "segments": 1398,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31907,
-    "output_tokens": 2432,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 2496
+    "input_tokens": 67943,
+    "output_tokens": 8538,
+    "cache_read_input_tokens": 2942,
+    "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
-    "Filosofie & ethiek",
     "Technologie & AI",
+    "Filosofie & ethiek",
     "Gezin & relaties"
   ],
   "guests": [
@@ -19,149 +24,216 @@
   ],
   "people": [
     {
-      "name": "He Jiankui",
-      "note": "Chinese onderzoeker die genetisch bewerkte embryo's tot baby's liet uitgroeien; kreeg 3 jaar gevangenisstraf (in het gesprek niet bij naam genoemd)",
-      "wiki_checked": true
-    },
-    {
       "name": "Cathy Tai",
-      "note": "Ex-vrouw van de Chinese onderzoeker en medeoprichter van Origin Genomics",
-      "wiki_checked": true
+      "note": "Oprichter van Origin Genomics, ex-vrouw van de Chinese onderzoeker; wil erfelijke borstkanker via embryo-DNA-aanpassing voorkomen",
+      "start_seconds": 1156,
+      "mention_count": 6
     },
     {
       "name": "Brian Armstrong",
-      "note": "Bitcoin-miljardair en investeerder in Preventive; spreekt over de IVF-kliniek van de toekomst",
-      "wiki_checked": true
+      "note": "Bitcoin-miljardair en investeerder in Preventive; schetst de 'IVF-kliniek van de toekomst' (Cattaca stack)",
+      "start_seconds": 2397,
+      "mention_count": 8
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Oprichter van PayPal en Palantir, invloedrijke tech-investeerder; mentor van Cathy Tai",
+      "start_seconds": 4172,
+      "mention_count": 8
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Tech-ondernemer met meerdere kinderen, genoemd als voorbeeld van embryoselectie",
+      "start_seconds": 2826,
+      "mention_count": 2
+    },
+    {
+      "name": "Sam Altman",
+      "note": "Tech-ondernemer die volgens Wendy zegt dat deze technologie onvermijdelijk is",
+      "start_seconds": 4357,
+      "mention_count": 1
     },
     {
       "name": "Lucas Harrington",
-      "note": "Gene-editing-wetenschapper, oprichter van Preventive",
-      "wiki_checked": true
+      "note": "Oprichter van Preventive, gene-editing wetenschapper",
+      "start_seconds": 2424,
+      "mention_count": 1
     },
     {
       "name": "Jan Paternotte",
-      "note": "D66-Kamerlid, initiatiefnemer van de wijziging van de Embryowet",
-      "wiki_checked": true,
-      "wiki_pageid": 3996985,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Paternotte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/JanPaternotte.jpg/250px-JanPaternotte.jpg"
+      "note": "D66-Tweede Kamerlid en initiatiefnemer van de verruiming van de Embryowet",
+      "start_seconds": 2077,
+      "mention_count": 2
     },
     {
-      "name": "Sebastiaan Mastenbroek",
-      "note": "Embryoloog die Nederland een 'Gallisch dorp' noemde in de Tweede Kamer",
-      "wiki_checked": true
+      "name": "Mastenbroek",
+      "note": "Embryoloog, sprak in een rondetafelgesprek van de Tweede Kamer over Nederland als 'Gallisch dorp'",
+      "start_seconds": 2303,
+      "mention_count": 1
+    },
+    {
+      "name": "De paus",
+      "note": "Katholieke kerkleider; verzet zich via X en een encycliek tegen dit wereldbeeld",
+      "start_seconds": 1453,
+      "mention_count": 3
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident; gelinkt aan Peter Thiel",
+      "start_seconds": 4217,
+      "mention_count": 2
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Schrijver die waarschuwde dat een kleine groep voor anderen bepaalt wat 'betere mensen' zijn",
+      "start_seconds": 4368,
+      "mention_count": 1
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "Schrijver die spreekt over de 'madman' die superslim maar vervreemd van het leven is",
+      "start_seconds": 4603,
+      "mention_count": 1
+    },
+    {
+      "name": "Galileo Galilei",
+      "note": "Wetenschapper die volgens Cathy Tai in dezelfde lijn staat als zijzelf",
+      "start_seconds": 4131,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicole de Jong",
+      "note": "Collega-journalist en presentator van de podcast 'Zieke erfenis'",
+      "start_seconds": 5390,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [],
   "places": [
     "New York",
-    "China",
-    "Nederland",
-    "Amerika",
     "Silicon Valley",
-    "Engeland",
-    "België",
-    "Zweden",
-    "Japan",
+    "China",
     "Amsterdam",
-    "Radboud ziekenhuis"
+    "Nederland"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met Wendy Geuverink over embryoselectie, het bewerken van embryo-DNA en de aangepaste Embryowet. Geuverink is zelf drager van een BRCA-mutatie en brengt ervaring, onderzoek en de DNA Dialogen in. De vraag is waar genezen ophoudt en ontwerpen begint.",
+  "summary_tldr": "Wendy Geuverink bespreekt de nieuwe technieken rond embryoselectie en DNA-aanpassing, zoals CRISPR, en de ethische vragen die dat oproept. Ze wijst op de commerciële ambities van tech-miljardairs, de Nederlandse Embryowet en de vraag waar genezen overgaat in verbeteren. Vanuit haar eigen ervaring als drager van een erfelijk borstkankergen pleit ze voor waarborgen en voor het serieus meewegen van menselijke waardigheid.",
   "summary_points": [
-    "In de New Yorkse metro hangen reclames voor het selecteren van embryo's op IQ, lengte en andere eigenschappen.",
-    "Polygene risicoscores zijn wetenschappelijk dubieus: de verschillen tussen embryo's zijn klein en het zijn statistische voorspellingen.",
-    "De Chinese onderzoeker die in 2018 twee meisjes genetisch aanpaste voor HIV-immuniteit kwam in de gevangenis en werkt nu aan Alzheimer.",
-    "Aanpassen van embryo-DNA is wereldwijd nergens expliciet toegestaan, onderzoek ernaar wel in enkele landen.",
-    "De Nederlandse wet maakt het kweken van embryo's voor onderzoek mogelijk; critici vrezen instrumentalisering van menselijk leven en een 'deur op een kier'.",
-    "Voorstanders willen met de wet vooral ivf verbeteren en noemen Nederland een onafhankelijk 'Gallisch dorp' in onderzoek.",
-    "De DNA Dialogen bevroegen burgers: verminderen van lijden telt zwaar, maar er zijn zorgen over discriminatie, verzekeringen en compassie.",
-    "Geuverink vertelt over haar BRCA-mutatie en preventieve operaties, en over de impact op haar familie.",
-    "Techmiljardairs als Brian Armstrong dromen van de 'Gattaca stack', terwijl de film juist een waarschuwing is."
+    "Embryoselectie op basis van polygene risicoscores wordt commercieel aangeboden, bijvoorbeeld in New York, maar is wetenschappelijk dubieus.",
+    "CRISPR maakt DNA-aanpassing mogelijk; in China werden tweelingmeisjes bewerkt, wat leidde tot een gevangenisstraf van de onderzoeker.",
+    "De Nederlandse Embryowet wordt verruimd zodat embryo's voor onderzoek gekweekt mogen worden, wat een instrumenteel gebruik van menselijk leven betekent.",
+    "Tech-investeerders zoals Brian Armstrong en Cathy Tai schetsen een toekomst met kunstmatige baarmoeders en het 'perfecte' kind.",
+    "Het onderscheid tussen genezen en verbeteren is moeilijk te trekken; wie bepaalt wat een ernstige ziekte is?",
+    "Wendy's eigen BRCA-mutatie en de familiegeschiedenis maken het dilemma persoonlijk.",
+    "Er bestaat angst voor een tweedeling, perfectionisme en een maakbare samenleving waarin het lot niet meer de schuld kan krijgen.",
+    "Stefan Paas wijst op de fundamentele vraag of men deze weg überhaupt moet inslaan, en op de kwetsbaarheid van kleine landen tegenover machtige tech-spelers.",
+    "De gesprekspartners zetten een christelijk en joods mensbeeld van onvoorwaardelijke waardigheid tegenover een maakbaarheidsdenken."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Designerbaby's op reclameborden",
-      "summary": "Introductie en de New Yorkse metroreclames voor embryoselectie op IQ en lengte, met uitleg over polygene risicoscores."
+      "title": "Inleiding en de belofte van DNA-technologie",
+      "summary": "David Boogerd introduceert het onderwerp en de rol van de Chinese CRISPR-zaak en de WHO-oproep voor publieke dialoog."
     },
     {
-      "start_seconds": 497,
-      "title": "Van selecteren naar aanpassen",
-      "summary": "Verschil tussen selecteren en DNA aanpassen, en risico's voor volgende generaties en onvoorziene gevolgen."
+      "start_seconds": 169,
+      "title": "Designerbaby's en reclame in New York",
+      "summary": "Wendy beschrijft de reclameborden met 'Have your best baby' en het verschil tussen embryoselectie en DNA-aanpassing."
     },
     {
       "start_seconds": 795,
-      "title": "CRISPR-Cas en de Chinese tweeling",
-      "summary": "Uitleg over CRISPR-Cas en het verhaal van de Chinese onderzoeker, de gevangenisstraf en zijn huidige werk."
+      "title": "CRISPR en de Chinese tweelingzaak",
+      "summary": "Uitleg over hoe CRISPR werkt en over de Chinese onderzoeker die HIV-immuniteit probeerde te creëren, met verontrustende gevolgen."
     },
     {
-      "start_seconds": 1231,
-      "title": "De DNA Dialogen",
-      "summary": "Het publieke debat en de zorgen van burgers over discriminatie, compassie en het wegorganiseren van kwetsbaarheid."
+      "start_seconds": 1453,
+      "title": "Wetgeving en het Nederlandse debat",
+      "summary": "De Embryowet, het Gallische dorp-argument en de vraag of onderzoek op embryo's instrumenteel gebruik van leven betekent."
     },
     {
       "start_seconds": 1481,
-      "title": "Persoonlijk verhaal over BRCA",
-      "summary": "Geuverink vertelt over de ontdekking van de BRCA-mutatie in haar familie en haar preventieve keuzes."
+      "title": "Persoonlijk: Wendy als drager van een erfelijk gen",
+      "summary": "Wendy vertelt over haar BRCA-mutatie, de familiegeschiedenis en de keuzes die zij heeft moeten maken."
     },
     {
-      "start_seconds": 1971,
-      "title": "De Embryowet en de ethische vragen",
-      "summary": "Wat de wet wijzigt, het kweken van embryo's voor onderzoek, instrumenteel gebruik en het 'Gallisch dorp'-argument."
+      "start_seconds": 2388,
+      "title": "Big tech, Silicon Valley en het mensbeeld",
+      "summary": "Brian Armstrong, Peter Thiel en Cathy Tai worden besproken, met hun visie op maakbaarheid en vrijheid voor pioniers."
     },
     {
-      "start_seconds": 2364,
-      "title": "Techmiljardairs en Gattaca",
-      "summary": "Brian Armstrong, Preventive en de Gattaca-film als waarschuwing voor een samenleving van geselecteerden en niet-geselecteerden."
+      "start_seconds": 4380,
+      "title": "Waardigheid, perfectionisme en de grenzen van ethiek",
+      "summary": "Het gesprek draait om onvoorwaardelijke menselijke waardigheid, de prestatiemaatschappij en de vraag naar wat we nog accepteren."
+    },
+    {
+      "start_seconds": 4799,
+      "title": "Geloof en slotbeschouwing",
+      "summary": "Wendy vertelt over haar christelijk geloof en joodse voorouders, en over wat zij de Eerste Kamer zou willen meegeven."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1090,
-      "speaker": "Wendy Geuverink",
-      "text": "Een Chinese onderzoeker post: 'Hey bitches, let's gene edit some children today.'",
-      "note": "Illustreert de megalomane toon rond gene editing."
+      "start_seconds": 1453,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt alle kwetsbaarheden uit het leven organiseren, maar vervolgens merk je dat je de gemeenschap kwijt bent.",
+      "note": "Een scherpe samenvatting van het spanningsveld tussen het wegnemen van lijden en het verlies van menselijke verbondenheid."
     },
     {
-      "start_seconds": 752,
+      "start_seconds": 4109,
+      "speaker": "Wendy Geuverink",
+      "text": "De mens is een software-pakketje en daar ga je gewoon aan sleutelen.",
+      "note": "Typeert het mensbeeld van sommige tech-pioniers: lijden en ziekte worden technisch oplosbare bugs."
+    },
+    {
+      "start_seconds": 4399,
       "speaker": "David Boogerd",
-      "text": "In Silicon Valley gaan mensen weer roken omdat ze denken dat AI kanker binnen tien jaar oplost.",
-      "note": "Laat zien hoe technologische beloften risicogedrag uitlokken."
+      "text": "Ieder mens heeft waardigheid, of je nu slim, knap, sportief of gezond bent.",
+      "note": "Zet het christelijk-joodse uitgangspunt van onvoorwaardelijke waardigheid scherp tegenover het maakbaarheidsdenken."
     },
     {
-      "start_seconds": 2198,
-      "speaker": "Wendy Geuverink",
-      "text": "Brian Armstrong noemt de IVF-kliniek van de toekomst de 'Gattaca stack', een verwijzing naar een film die juist waarschuwt.",
-      "note": "Scherpe ironie: sciencefictionwaarschuwing wordt als blauwdruk gebruikt."
-    },
-    {
-      "start_seconds": 1618,
-      "speaker": "Wendy Geuverink",
-      "text": "Zussen lieten zich een week na elkaar testen, om te voorkomen dat de een blij en de ander verdrietig tegelijk zou zijn.",
-      "note": "Een persoonlijk en ontroerend moment over de omgang met de uitslag."
-    },
-    {
-      "start_seconds": 2559,
-      "speaker": "Wendy Geuverink",
-      "text": "De film Gattaca opent met: 'Ik zal nooit begrijpen wat mijn moeder bezield heeft om haar vertrouwen te stellen op God in plaats van op de lokale klinisch geneticus.'",
-      "note": "Raakt direct aan geloof versus genetische controle."
+      "start_seconds": 4621,
+      "speaker": "Stefan Paas",
+      "text": "Mensen die super slim kunnen zijn, maar totaal vervreemd van het leven zijn geraakt.",
+      "note": "Een kritische typering van de tech-denkers, verwijzend naar Chesterton."
     }
   ],
   "keywords": [
-    "CRISPR-Cas",
-    "Embryowet",
-    "designerbaby",
+    "designerbaby's",
+    "embryoselectie",
+    "CRISPR",
     "polygene risicoscores",
-    "IVF",
+    "Embryowet",
     "BRCA-mutatie",
-    "DNA Dialogen",
-    "Gattaca",
-    "gene editing",
-    "instrumentalisering",
-    "Preventive",
-    "erfelijke ziekte"
+    "maakbaarheid",
+    "menselijke waardigheid",
+    "eugenetica",
+    "transhumanisme",
+    "IVF",
+    "DNA-dialogen"
   ],
-  "quotes": []
+  "quotes": [
+    "Zijn er in de toekomst alleen nog maar knappe, slimme, sportieve en gezonde mensen?",
+    "In de metro van New York hangen nu al reclameborden met de oproep ‘Have your best baby’.",
+    "Waar eindigt genezen en waar begint verbeteren?"
+  ],
+  "similar": [
+    {
+      "n": 306,
+      "reason": "Tech-ethiek over AI, Elon Musk en menselijke waardigheid, vergelijkbaar met de biotechnologische ethiek hier."
+    },
+    {
+      "n": 228,
+      "reason": "Wereldbeeld van Elon Musk en superrijke techgiganten, zoals de tech-miljardairs in deze aflevering."
+    },
+    {
+      "n": 292,
+      "reason": "Duistere denkbeelden achter Big Tech, sluit aan bij de commerciële ambities van tech-miljardairs."
+    },
+    {
+      "n": 76,
+      "reason": "Seksuele revolutie, gezin en relaties, met wetenschappelijke en ethische vragen over voortplanting en seks."
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

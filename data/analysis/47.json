@@ -1,18 +1,23 @@
 {
   "episode": 47,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 126414,
+    "segments": 1195,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30647,
-    "output_tokens": 2460,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 2684
+    "input_tokens": 63673,
+    "output_tokens": 7934,
+    "cache_read_input_tokens": 2942,
+    "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
     "God & geloof",
-    "Technologie & AI",
-    "Samenleving & migratie"
+    "Zingeving & psyche",
+    "Geschiedenis"
   ],
   "guests": [
     "Almatine Leene",
@@ -21,193 +26,297 @@
   "people": [
     {
       "name": "Augustinus",
-      "note": "kerkvader, veelgeciteerd; werkte de drie-eenheid uit als psycholoog (verstand, wil, geheugen)",
-      "start_seconds": 202,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader en theoloog; in het gesprek als meest geciteerde kerkvader",
+      "start_seconds": 196,
+      "mention_count": 9
     },
     {
-      "name": "Alexander VI",
-      "note": "Renaissancepaus uit het geslacht Borgia, voorbeeld van een zondige paus",
-      "start_seconds": 432,
-      "wiki_checked": true,
-      "wiki_pageid": 45548,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Alexander_VI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pope_Alexander_Vi.jpg/250px-Pope_Alexander_Vi.jpg"
-    },
-    {
-      "name": "Gerard de Korte",
-      "note": "bisschop van Den Bosch die dagelijks de mis leest in de Sint-Jan",
-      "start_seconds": 1415,
-      "wiki_checked": true,
-      "wiki_pageid": 604604,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerard_de_Korte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2015-BISSCHOP-DE-KORTE-5.jpg/250px-2015-BISSCHOP-DE-KORTE-5.jpg"
+      "name": "Paus Franciscus",
+      "note": "Paus sinds 2013; het 'Franciscus-effect' op de katholieke kerk",
+      "start_seconds": 3437,
+      "mention_count": 5
     },
     {
       "name": "Paulus VI",
-      "note": "paus ten tijde van de secularisatie in Nederland; zag lijden als zuivering van de kerk",
+      "note": "Paus tijdens de secularisatie in Nederland; sprak over zuivering van de kerk",
       "start_seconds": 1698,
-      "wiki_checked": true,
-      "wiki_pageid": 81527,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Paulus_VI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg/250px-Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg"
+      "mention_count": 1
     },
     {
       "name": "Matteo Ricci",
-      "note": "jezuïtische missionaris en astronoom in China, kleedde zich als mandarijn",
+      "note": "Jezuïtische missionaris in China die zich aanpaste aan de Chinese cultuur",
       "start_seconds": 1779,
-      "wiki_checked": true,
-      "wiki_pageid": 17770,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Matteo_Ricci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E5%88%A9%E7%8E%9B%E7%AA%A6%E5%83%8F%EF%BC%8C%E6%B8%B8%E6%96%87%E8%BE%89%E7%BB%98.jpg/250px-%E5%88%A9%E7%8E%9B%E7%AA%A6%E5%83%8F%EF%BC%8C%E6%B8%B8%E6%96%87%E8%BE%89%E7%BB%98.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "Filosoof die de fasen van secularisatie beschreef",
+      "start_seconds": 2645,
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof; 'ik denk dus ik besta' als uitgangspunt van het individualisme",
+      "start_seconds": 2645,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Larmore",
+      "note": "Amerikaanse filosoof; de uitspraak dat God zo groot is dat hij niet hoeft te bestaan",
+      "start_seconds": 2740,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Historicus en schrijver over het christelijke erfgoed van het Westen",
+      "start_seconds": 3067,
+      "mention_count": 2
+    },
+    {
+      "name": "Alec Ryrie",
+      "note": "Historicus die scenario's voor de toekomst van het christendom schetst",
+      "start_seconds": 3183,
+      "mention_count": 1
+    },
+    {
+      "name": "Desiderius Erasmus",
+      "note": "Humanist die terugkeer naar de bronnen (ad fontes) bepleitte",
+      "start_seconds": 3398,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Hervormer; genoemd in verband met nepotisme in de curie",
+      "start_seconds": 3412,
+      "mention_count": 2
+    },
+    {
+      "name": "Gerard de Korte",
+      "note": "Bisschop van Den Bosch die dagelijks de mis leest",
+      "start_seconds": 1405,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historica en vaste gast van de podcast; eerder besproken over vroegchristelijke zorg tijdens pandemieën",
+      "start_seconds": 203,
+      "mention_count": 2
+    },
+    {
+      "name": "Johannes Chrysostomus",
+      "note": "Kerkvader wiens liturgie in de Russisch-orthodoxe traditie wordt gevierd",
+      "start_seconds": 2288,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog; over de mens die zichzelf in relatie constitueert",
+      "start_seconds": 2823,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Levinas",
+      "note": "Filosoof van de ander en de relatie",
+      "start_seconds": 2823,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Profeet; in Paul's citaat over de nieuwe tijden die al begonnen zijn",
+      "start_seconds": 3102,
+      "mention_count": 1
+    },
+    {
+      "name": "Susan Howatch",
+      "note": "Auteur van de Starbridge-serie over theologen",
+      "start_seconds": 4162,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Starbridge Cathedral (serie)",
+      "author": "Susan Howatch",
+      "note": "Zevendelige romanreeks over theologen en de Amerikaanse kerk; door Stefan Paas aanbevolen als leestip",
+      "start_seconds": 4162,
+      "volume_id": "c7Z4t_aVOgYC",
+      "canonical_title": "Glamorous Powers",
+      "canonical_author": "Susan Howatch",
+      "isbn13": "9780007396382",
+      "isbn10": "0007396384",
+      "thumbnail": "http://books.google.com/books/content?id=c7Z4t_aVOgYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Vreemdelingen en priesters",
+      "author": "Stefan Paas",
+      "note": "Boek waarin Paas betoogt dat christenen als kleine minderheid een waardevolle rol voor de samenleving kunnen spelen",
+      "start_seconds": 3673,
+      "volume_id": "7K-lCgAAQBAJ",
+      "canonical_title": "Vreemdelingen en priesters: Christelijke missie in een postchristelijke omgeving",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789023979340",
+      "isbn10": "9023979346",
+      "thumbnail": "http://books.google.com/books/content?id=7K-lCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Lucas 15",
+      "note": "Gelijkenis van de verloren zoon; de christelijke boodschap als verlossend voor wie in de problemen zit",
+      "start_seconds": 2243
+    },
+    {
+      "ref": "Lucas 10",
+      "note": "Gelijkenis van de barmhartige Samaritaan; voorbeeld van verpleging en liefde",
+      "start_seconds": 2250
+    },
+    {
+      "ref": "Mattheus 5:13",
+      "note": "Christenen als 'het zout der aarde'; gebruikt in het debat over minderheid en invloed",
+      "start_seconds": 3249
+    },
+    {
+      "ref": "Jesaja",
+      "note": "Paul van Geest citeert een profetische tekst over nieuwe tijden die al zijn begonnen",
+      "start_seconds": 3102
+    }
+  ],
   "places": [
     "Hattem",
-    "Stellenbosch",
-    "Zuid-Afrika",
-    "Berkel-Enschot",
+    "Berkel en Rodenrijs",
     "Vaals",
+    "Rotterdam",
+    "Zuid-Afrika",
+    "Stellenbosch",
+    "Ommoord",
+    "Alexanderpolder",
+    "Roermond",
+    "Den Bosch",
     "Rome",
     "China",
-    "Den Bosch",
-    "Tilburg",
-    "Rotterdam",
-    "Amsterdam",
-    "Kampen"
+    "Brabant",
+    "Limburg"
   ],
-  "summary_tldr": "Drie theologen des vaderlands bespreken nieuw onderzoek volgens hetwelk 16% van de kerkgangers tijdens corona stopte met kerkdiensten volgen en 15% verwacht minder te gaan. Ze relativeren de cijfers vanuit kerkgeschiedenis en sociologie, maar maken zich ook zorgen over online 'winkelen', individualisering en het verlies van gemeenschap. Verschillen tussen katholieke en protestantse beleving van kerk en liturgie komen nadrukkelijk aan bod.",
+  "summary_tldr": "In deze aflevering bespreken drie theologen of de coronacrisis de secularisatie versnelt, na onderzoek waaruit blijkt dat 16% van de kerkgangers tijdens de lockdown is gestopt en 15% verwacht na corona minder te gaan. De gasten zien de online kerk als kans en risico tegelijk, en benadrukken dat de christelijke inhoud, gemeenschap en zingeving onverminderd relevant blijven. Het gesprek eindigt met de vraag of secularisatie echt een probleem is en met leestips en een oproep aan kerken om hun gebouwen open te stellen.",
   "summary_points": [
-    "Onderzoek van EO en Nederlands Dagblad: 16% stopte met kerkdiensten volgen, 15% verwacht minder te gaan.",
-    "Leene relativeert de cijfers: het is een verwachting en 32% kijkt juist meerdere diensten.",
-    "Van Geest vreest dat corona de ontkerkelijking in de katholieke kerk met ongeveer 10 jaar versnelt, vooral doordat oudere kerkgangers wegblijven.",
-    "Katholieke beleving (gebouw, eucharistie) is lastiger online te volgen dan protestantse preekdiensten, al zijn er positieve uitzonderingen zoals de abdij van Vaals.",
-    "Protestantse kerken bleken beter in het onderhouden van contact via hechte gemeenschapsbanden.",
-    "Online kerkdiensten leiden tot een 'Netflixizering': mensen kiezen en doorspoelen naar eigen smaak.",
-    "Jongeren die zeggen minder te gaan is deels normaal voor die levensfase; veel keren terug bij het krijgen van kinderen.",
-    "Historische oorzaken van de katholieke teruggang: volkskerk, triomfalisme, moralisme en weinig inhoudelijke investering.",
-    "Individualisering en een 24-uurseconomie ddringen kerk en gemeenschap terug, terwijl het christelijke verhaal ook confronterend is.",
-    "Er is hoop: de christelijke traditie is rijk aan schatten die een breed publiek nog kunnen aanspreken."
+    "Onderzoek van EO en Nederlands Dagblad: 16% van de kerkgangers is tijdens corona gestopt, 15% verwacht na corona minder te gaan.",
+    "De grootste klappen vallen bij katholieken en gereformeerden; jongeren tussen 18 en 35 zeggen relatief vaak minder te gaan.",
+    "Gemeenschap is een belangrijke reden om naar de kerk te gaan, en die wordt door de lockdown zwaar onder druk gezet.",
+    "Online diensten bieden gemak en nieuwe kijkers, maar leiden ook tot 'winkelen' en een Netflix-achtige keuze van diensten.",
+    "Katholieke liturgie, met de nadruk op de eucharistie, is moeilijker online te beleven dan een preek; protestanten hebben meer gemeenschapsbanden.",
+    "Secularisatie wordt historisch verklaard vanuit de volkskerk, moralisme en het gebrek aan inhoudelijke uitleg van het geloof.",
+    "Secularisatie is volgens de gasten mede door het christendom zelf voortgebracht, wat een paradox oplevert voor de toekomst.",
+    "Gesprek over het Westen als postchristelijke 'gidsland' en de mogelijke toekomst van het christendom als kleine minderheid.",
+    "Corona bracht ook zingevingsvragen en gebed naar boven, al is het onduidelijk of dit tot kerkgroei leidt.",
+    "Tips voor de tussentijd: boeken, stilte en werk combineren, en het kerkgebouw openstellen voor vaccinatie."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en kennismaking",
-      "summary": "David introduceert het onderzoek en de gasten; er wordt gekscherend gesproken over Augustinus en het ambt van theoloog des vaderlands."
+      "title": "Inleiding en voorstelling",
+      "summary": "De presentator stelt de gasten voor en het thema: brengt corona de secularisatie in een stroomversnelling?"
     },
     {
-      "start_seconds": 238,
-      "title": "De cijfers en hun relativering",
-      "summary": "Leene en Van Geest bespreken hoe schokkend de cijfers zijn en hoe de kerkgeschiedenis ze relativeert."
+      "start_seconds": 300,
+      "title": "Onderzoek en eerste reacties",
+      "summary": "De cijfers van het onderzoek worden besproken en gasten reageren op de mate van zorg en nuance."
     },
     {
-      "start_seconds": 570,
-      "title": "Gemeenschap, streams en jongeren",
-      "summary": "Het gemeenschapsaspect, het gemak van livestreams en het afhaken van jongeren komen aan bod."
+      "start_seconds": 1440,
+      "title": "Online kerk, gemeenschap en de katholieke beleving",
+      "summary": "Gesprek over livestreams, de rol van gemeenschap, het katholieke sacrament en het verschil met het protestantse model."
     },
     {
-      "start_seconds": 773,
-      "title": "Stoutmoedigheid en solidariteit tijdens de lockdown",
-      "summary": "Discussie over of kerken hadden moeten protesteren tegen de regels of juist solidair moesten zijn met de samenleving."
+      "start_seconds": 2580,
+      "title": "Oorzaken van secularisatie en christelijk erfgoed",
+      "summary": "Historische oorzaken van de ontkerkelijking en de vraag of secularisatie zelf uit het christendom voortkomt."
     },
     {
-      "start_seconds": 1159,
-      "title": "Katholiek en protestants online",
-      "summary": "Verschillen in beleving van gebouw, eucharistie en gemeenschap; Van Geest kijkt de Latijnse mis uit Vaals."
+      "start_seconds": 3060,
+      "title": "Minderheid, gidsland en toekomst van het christendom",
+      "summary": "Scenario's voor de toekomst van het christendom in Nederland en de rol van een kleine, bewuste minderheid."
     },
     {
-      "start_seconds": 1491,
-      "title": "Netflixizering van de kerk",
-      "summary": "Online kerkdiensten maken doorspoelen en kiezen mogelijk; vergelijking met studenten die colleges streamen."
+      "start_seconds": 3780,
+      "title": "Corona als kans, zingeving en God in de crisis",
+      "summary": "Gasten bespreken zingevingsvragen tijdens de pandemie en waar God te vinden was in de zorg."
     },
     {
-      "start_seconds": 1611,
-      "title": "Waarom de katholieke kerk zo snel leegloopt",
-      "summary": "Van Geest wijst op volkskerk, moralisme en gebrek aan inhoud; Leene en Paas wijzen op economie en individualisme."
-    },
-    {
-      "start_seconds": 2038,
-      "title": "Het inhoudelijke verhaal en de relevantie van de kerk",
-      "summary": "De gasten pleiten voor aandacht voor de inhoud van het geloof, het goede dat kerken doen en het confronterende van de boodschap."
+      "start_seconds": 4160,
+      "title": "Tips voor de tussentijd en afsluiting",
+      "summary": "Leestips, advies over stilte en werk, en de oproep aan kerken om hun gebouwen beschikbaar te stellen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 437,
-      "speaker": "Paul van Geest",
-      "text": "Dat kerk blijft bestaan met zulke pausen is volgens een cynische kerkhistoricus het bewijs dat God met die kerk bezig is.",
-      "note": "Droge humor die de huidige crisis historisch relativeert."
+      "start_seconds": 30,
+      "speaker": "Almatine Leene",
+      "text": "Secularisatie is een soort verdoven: je hebt een potje met geld en voetbal waar je naar kunt kijken, terwijl je pijn en verzoening eigenlijk nodig hebt.",
+      "note": "Scherpe kanttekening die secularisatie koppelt aan geestelijke leegte en verdoving."
     },
     {
-      "start_seconds": 2220,
+      "start_seconds": 432,
+      "speaker": "Paul van Geest",
+      "text": "Een cynische kerkhistoricus zei dat de Renaissancepausen bewijzen zijn dat God met de kerk bezig is, omdat de kerk toch blijft bestaan.",
+      "note": "Humoristische en tegelijk diepe blik op de veerkracht van de kerk door de eeuwen heen."
+    },
+    {
+      "start_seconds": 2250,
+      "speaker": "Paul van Geest",
+      "text": "Hoe verlossend, hoe bevrijdend kan die christelijke boodschap zijn voor wie zelf in de puree zit?",
+      "note": "Pleidooi voor de praktische en troostende kracht van de parabels in een geseculariseerde samenleving."
+    },
+    {
+      "start_seconds": 3651,
       "speaker": "Stefan Paas",
-      "text": "Het is een beetje de Netflixizering van de kerk.",
-      "note": "Treffende typering van het online selecteren van diensten."
+      "text": "Als je de vraag naar God niet meer stelt, dan is de secularisatie eigenlijk voltooid; dan ben je Jezus al kwijt.",
+      "note": "Kernachtige stelling die het geloof als inhoudelijk verhaal verdedigt tegen louter overlevingsstrategie."
     },
     {
-      "start_seconds": 1698,
-      "speaker": "Paul van Geest",
-      "text": "Paulus VI zei dat het lijden van de kerk ook een zuivering is; een leeglopende kerk is standard procedure.",
-      "note": "Geeft een historisch en theologisch perspectief op secularisatie."
-    },
-    {
-      "start_seconds": 1050,
-      "speaker": "Almatine Leene",
-      "text": "Uit solidariteit met de samenleving hielden wij de kerk dicht, ook al kunnen er 900 mensen in.",
-      "note": "Principiële keuze met een missionair motief."
-    },
-    {
-      "start_seconds": 2195,
-      "speaker": "Almatine Leene",
-      "text": "De christelijke boodschap is confronterend; ze doet een beroep op je om voor je naaste te zorgen, en dat is niet populair.",
-      "note": "Verklaart waarom het geloof moeilijk past bij individualisering."
+      "start_seconds": 4125,
+      "speaker": "Stefan Paas",
+      "text": "Waar was God te vinden in de coronacrisis? Dan denk ik op de IC, waar mensen zich kapotwerken om levens te redden.",
+      "note": "Concreet antwoord op de theologische vraag naar God in crisistijd, dichtbij de zorgpraktijk."
     }
   ],
   "keywords": [
     "secularisatie",
     "ontkerkelijking",
-    "coronacrisis",
-    "livestream",
-    "eucharistie",
+    "corona",
+    "online kerkdiensten",
     "gemeenschap",
-    "Augustinus",
-    "individualisering",
-    "Theoloog des Vaderlands",
-    "Netflixizering",
+    "katholieke eucharistie",
     "volkskerk",
-    "liturgie"
+    "postchristelijk",
+    "zingeving",
+    "Augustinus"
   ],
-  "quotes": [],
+  "quotes": [
+    "Is dit een genadeklap voor de kerken die het toch al moeilijk hadden, of gloort er nog ergens hoop?",
+    "16% van de kerkgangers tijdens de coronacrisis gestopt is met het volgen van diensten, en 15% verwacht ook na de coronacrisis minder naar de kerk te gaan."
+  ],
   "similar": [
     {
-      "n": 39,
-      "reason": "Gesprek met Almatine Leene over christendom en kerk, Kerk & secularisatie"
-    },
-    {
-      "n": 121,
-      "reason": "Paul van Geest over de kerk, paus Benedictus XVI en veranderende kerk"
+      "n": 27,
+      "reason": "Corona en geloof, het 'nieuwe normaal' en de zingeving van kerkgangers"
     },
     {
       "n": 85,
-      "reason": "Live met Paul van Geest en Stefan Paas over kerk en samenleving"
+      "reason": "Gast Paul van Geest over religie en kerk in een crisistijd"
     },
     {
-      "n": 253,
-      "reason": "Kerk & secularisatie: wordt Nederland weer christelijker en hoe staat het met kerkgang"
+      "n": 39,
+      "reason": "Gast Almatine Leene over het christendom en kerkverlating"
     },
     {
-      "n": 51,
-      "reason": "Hoe kerken (refo's) de secularisatie weerstaan; ledenaantallen en gemeenschap"
+      "n": 26,
+      "reason": "Corona-impact, geloof en moraal in een crisisperiode"
+    },
+    {
+      "n": 121,
+      "reason": "Gast Paul van Geest over de kerk en grote kerkelijke veranderingen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

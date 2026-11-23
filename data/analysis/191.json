@@ -1,18 +1,23 @@
 {
   "episode": 191,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107555,
+    "segments": 1216,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31078,
-    "output_tokens": 2262,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55183,
+    "output_tokens": 2474,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Technologie & AI",
     "Zingeving & psyche",
+    "Technologie & AI",
     "Gezin & relaties",
-    "Wetenschap & kosmos"
+    "God & geloof"
   ],
   "guests": [
     "Esther van Fenema"
@@ -22,189 +27,198 @@
       "name": "Jonathan Haidt",
       "note": "Amerikaanse sociaal-psycholoog, auteur van The Anxious Generation",
       "start_seconds": 28,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
+      "mention_count": 30
     },
     {
-      "name": "Louise Perry",
-      "note": "Auteur van een boek over de seksuele revolutie en de invloed van porno",
-      "start_seconds": 1810,
-      "wiki_checked": true
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 3
     },
     {
       "name": "Andrew Tate",
-      "note": "Online influencer die jongens macho wil maken",
-      "start_seconds": 1974,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "note": "Online influencer die macho-idealen promoot",
+      "start_seconds": 1968,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Terlouw",
+      "note": "Schrijver en politicus; besproken in het boek van Van Fenema en Reuzelaars",
+      "start_seconds": 2196,
+      "mention_count": 1
+    },
+    {
+      "name": "Wanda de Kanter",
+      "note": "Longarts die pleit voor een rookvrije generatie",
+      "start_seconds": 2855,
+      "mention_count": 1
+    },
+    {
+      "name": "Louisa Perry",
+      "note": "Auteur van Sexual Revolution",
+      "start_seconds": 1810,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Anxious Generation",
       "author": "Jonathan Haidt",
-      "note": "Nederlandse titel: Generatie Angststoornis; over de geestelijke gezondheidscrisis onder jongeren sinds 2012",
-      "start_seconds": 28,
-      "volume_id": "uCvAEAAAQBAJ",
-      "canonical_title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+      "note": "Nederlandse titel: Generatie Angststoornis; besproken als hoofdthema van de aflevering",
+      "start_seconds": 190,
+      "volume_id": "Iwxg0QEACAAJ",
+      "canonical_title": "The Anxious Generation",
       "canonical_author": "Jonathan Haidt",
-      "isbn13": "9781802063288",
-      "isbn10": "1802063285",
-      "thumbnail": "http://books.google.com/books/content?id=uCvAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "Het verlaten individu",
       "author": "Esther van Fenema",
-      "note": "Over eenzaamheid en losgezongen zijn van de moderne mens",
+      "note": "Eerder boek van Van Fenema, genoemd in het gesprek",
       "start_seconds": 1186,
-      "volume_id": "yS-YEAAAQBAJ",
-      "canonical_title": "Het verlaten individu",
+      "volume_id": "Zc1DzwEACAAJ",
+      "canonical_title": "Het verlaten individu. Waarom voelen we ons zo leeg?",
       "canonical_author": "Esther van Fenema",
-      "isbn13": "9789044651607",
-      "isbn10": "9044651609",
-      "thumbnail": "http://books.google.com/books/content?id=yS-YEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044651591",
+      "isbn10": "9044651595",
+      "thumbnail": ""
     },
     {
-      "title": "The Sexual Revolution",
-      "author": "Louise Perry",
+      "title": "Sexual Revolution",
+      "author": "Louisa Perry",
       "note": "Over porno en de relatie tussen jongens en meisjes",
-      "start_seconds": 1815,
-      "volume_id": "vphwEAAAQBAJ",
-      "canonical_title": "The Case Against the Sexual Revolution",
-      "canonical_author": "Louise Perry",
-      "isbn13": "9781509550005",
-      "isbn10": "1509550003",
-      "thumbnail": "http://books.google.com/books/content?id=vphwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "start_seconds": 1810
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Romeinen 7:19",
+      "note": "Paas citeert Paulus: het goede dat ik wil doe ik niet, het kwade dat ik niet wil doe ik wel",
+      "start_seconds": 2690
+    }
+  ],
   "places": [
-    "Verenigde Staten",
+    "Amerika",
     "Engeland",
     "Nederland",
-    "Amsterdam",
     "Utrecht",
-    "Silicon Valley",
-    "Japan"
+    "Afrika"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas bespreken met psychiater Esther van Fenema het boek The Anxious Generation van Jonathan Haidt. Haidt legt een verband tussen de komst van de smartphone en social media rond 2012 en een sterke toename van angst, depressie en betekenisloosheid onder jongeren. Het gesprek gaat over verslaving, overbescherming in de fysieke wereld, verschillen tussen meisjes en jongens en het verlies van gemeenschap en zingeving.",
+  "summary_tldr": "David Boogerd, Esther van Fenema en Stefan Paas bespreken het boek The Anxious Generation van Jonathan Haidt, dat stelt dat de smartphone en social media rond 2012 hebben bijgedragen aan een geestelijke gezondheidscrisis onder jongeren. Het gesprek gaat over de gevolgen voor jongeren, de verschillen tussen jongens en meisjes, en de rol van gemeenschap en religie als bescherming. De gasten erkennen dat causaliteit nog niet hard bewezen is, maar vinden de zorgen serieus genoeg om het gesprek te voeren.",
   "summary_points": [
-    "Sinds ca. 2012 stijgen angst, depressie en suïcidaliteit onder jongeren sterk, volgens Haidt als een hockeystick.",
-    "De smartphone en social media zijn verslavend en werken op het beloningssysteem, vergelijkbaar met cocaïne, gamen of porno.",
-    "Paradox: jongeren zijn offline overbeschermd (curlingouders, rubberen tegels) maar online vogelvrij.",
-    "Kinderen hebben risico en fysiek contact nodig voor hersenontwikkeling en sociale vaardigheden, zeker in de puberteit.",
-    "Meisjes lijden vooral onder visuele social media als Instagram en TikTok; jongens onder gamen en porno (failure to launch, hikikomori).",
-    "Smartphonegebruik kan ook een symptoom zijn van diepere oorzaken zoals eenzaamheid, competitie en verlies van gemeenschap.",
-    "Voor minderheden kan online contact juist steunend zijn; de vraag is of dat opweegt tegen de nadelen.",
-    "Big tech maakt bewust verslavende producten; jouw aandacht is het product.",
-    "Jongeren ervaren het leven als betekenislozer; gebrek aan zingeving en verbondenheid speelt een grote rol.",
-    "Stefan Paas hoopt dat jongere generaties zelf manieren ontwikkelen om gezond met technologie om te gaan."
+    "Haidt stelt dat jongeren sinds ca. 2012 angstiger, depressiever en eenzamer zijn, samenhangend met de smartphone en social media.",
+    "Van Fenema ziet in haar praktijk veel angst, depressie, suïcidaliteit en leegte bij jongeren geboren rond 2000.",
+    "Smartphones fungeren als verslavend beloningssysteem; Van Fenema vergelijkt het met cocaïne.",
+    "Ouders zijn overbeschermend in de fysieke wereld, terwijl online bescherming nagenoeg afwezig is.",
+    "Jongens en meisjes worden verschillend getroffen: meisjes door visuele social media, jongens door gamen en porno.",
+    "Haidt benadrukt het verlies van gemeenschap, fysiek contact en zingeving als oorzaak van toenemende betekenisloosheid.",
+    "Religie en gemeenschap kunnen beschermen door ritme, betekenis en sociale verbondenheid te bieden.",
+    "De gasten benadrukken dat causaliteit nog niet hard bewezen is en dat smartphones ook positieve effecten hebben voor minderheden.",
+    "Haidt-oplossingen: geen smartphones voor de middelbare school, geen eigen social media-accounts onder 16, telefoonvrije scholen en meer vrij spel.",
+    "Van Fenema vergelijkt de smartphone-discussie met de strijd tegen roken en pleit voor een nuchtere diagnose en gesprek."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en de mentale gezondheidscrisis",
-      "summary": "David introduceert het boek van Haidt en Esther vertelt wat zij als psychiater ziet aan psychisch lijden bij jongeren."
+      "title": "Inleiding en de crisis onder jongeren",
+      "summary": "Presentatie van het boek en de stelling dat jongeren in een geestelijke gezondheidscrisis verkeren."
     },
     {
-      "start_seconds": 240,
-      "title": "De hockeystick rond 2012",
-      "summary": "Haidts these: de smartphone, social media, likes en beloningssystemen veroorzaken de stijging van mentale problemen bij generatie Z."
+      "start_seconds": 300,
+      "title": "Haidt's hockeystick en de rol van de smartphone",
+      "summary": "Bespreking van de stijging in mentale klachten rond 2012 en de verslavende werking van smartphones."
     },
     {
-      "start_seconds": 540,
-      "title": "Gevolgen en overbescherming",
-      "summary": "Slaaptekort, concentratieverlies, eenzaamheid en de paradox van overbeschermde kinderen offline en onbeschermde kinderen online."
+      "start_seconds": 660,
+      "title": "Overbescherming en gebrek aan risico",
+      "summary": "Gesprek over ouders die fysiek overbeschermen maar online niets controleren, met persoonlijke anekdotes."
     },
     {
       "start_seconds": 1140,
-      "title": "Symptoom of oorzaak? Verslaving en big tech",
-      "summary": "Is de smartphone de oorzaak of een vlucht uit dieper liggende problemen? Verslavingsmechanismen en de rol van big tech."
+      "title": "Verschillen tussen jongens en meisjes",
+      "summary": "Haidt's analyse van de andere impact van social media op meisjes (visueel, vergelijking) en jongens (gamen, porno)."
     },
     {
-      "start_seconds": 1480,
-      "title": "Meisjes en jongens",
-      "summary": "Verschillen in impact: meisjes en social media, jongens en gamen en porno, failure to launch."
+      "start_seconds": 2100,
+      "title": "Zingeving, gemeenschap en religie",
+      "summary": "Betekenisloosheid, gemeenschap en ritme als beschermende factoren; religie als mogelijk schild."
     },
     {
-      "start_seconds": 2000,
-      "title": "Gemeenschap, asynchroniciteit en zingeving",
-      "summary": "Het verlies van gedeelde ervaringen en de toename van betekenisloosheid, die het gesprek naar religie en zingeving leidt."
+      "start_seconds": 2700,
+      "title": "Oplossingen en tegenargumenten",
+      "summary": "Haidt's voorstellen, de roken-vergelijking en kritiek op causaliteit en methodologie."
+    },
+    {
+      "start_seconds": 3500,
+      "title": "Slot en persoonlijke reflectie",
+      "summary": "Persoonlijke gevolgen voor de presentator en afsluiting met Romeinen 7."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 430,
+      "start_seconds": 710,
       "speaker": "Esther van Fenema",
-      "text": "Het is eigenlijk alsof je een generatie laat opgroeien met cocaïne in je zak.",
-      "note": "Scherpe vergelijking van smartphone met een verslavend middel."
+      "text": "Het is alsof je een generatie laat opgroeien met cocaïne in je zak.",
+      "note": "Krachtige metafoor die de verslavende werking van smartphones benadrukt."
     },
     {
-      "start_seconds": 671,
+      "start_seconds": 2170,
+      "speaker": "Esther van Fenema",
+      "text": "Eerste tien minuten als ik 's morgens wakker word, dan scroll ik en zie ik al die succesvolle mensen; dan moet ik nog met mijn miezerige leventje beginnen.",
+      "note": "Illustreert hoe social media zingeving ondermijnt door constante vergelijking."
+    },
+    {
+      "start_seconds": 2860,
+      "speaker": "Esther van Fenema",
+      "text": "Social media is gewoon cocaïne voor je beloningssysteem.",
+      "note": "Scherpe uitspraak die het debat over verslaving aanscherpt."
+    },
+    {
+      "start_seconds": 3470,
       "speaker": "David Boogerd",
-      "text": "In de fysieke wereld worden jongeren beter beschermd dan ooit, maar online zijn ze vogelvrij.",
-      "note": "Kernparadox van Haidts betoog."
-    },
-    {
-      "start_seconds": 1345,
-      "speaker": "Esther van Fenema",
-      "text": "Al die dingen zijn gemaakt om je verslaafd te maken. En jij bent het product.",
-      "note": "Verwijst naar klokkenluiders uit Silicon Valley."
-    },
-    {
-      "start_seconds": 2123,
-      "speaker": "Esther van Fenema",
-      "text": "De eerste 10 minuten als ik wakker word scroll ik en zie ik al die succesvolle mensen; dan moet ik nog met mijn miezerige leventje beginnen.",
-      "note": "Aangrijpend voorbeeld van betekenisloosheid bij een jongere."
-    },
-    {
-      "start_seconds": 2017,
-      "speaker": "Stefan Paas",
-      "text": "Geef je om die kwetsbare groep of niet? Zelfs als 80% er geen last van heeft.",
-      "note": "Ethische kijk op het argument dat het meeste jongeren goed gaat."
+      "text": "Is jouw telefoon interessanter dan ik ben?",
+      "note": "Persoonlijke confrontatie die de ouderlijke rol in het gebruik van smartphones blootlegt."
     }
   ],
   "keywords": [
-    "Jonathan Haidt",
-    "The Anxious Generation",
     "smartphone",
     "social media",
-    "verslaving",
-    "generatie Z",
+    "Jonathan Haidt",
     "geestelijke gezondheid",
+    "verslaving",
     "zingeving",
+    "gemeenschap",
     "overbescherming",
-    "eenzaamheid",
-    "gamen",
+    "jongens en meisjes",
+    "religie",
+    "causaliteit",
     "porno"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 247,
-      "reason": "Jonathan Haidt zelf over smartphones, social media en AI die ons geestelijk schaden"
-    },
-    {
-      "n": 287,
-      "reason": "Jongeren die vastlopen: angst, eenzaamheid en individualisme, met Stefan Paas"
-    },
-    {
-      "n": 249,
-      "reason": "Psychiater Rogier Hoenders over mentale epidemie, vooral onder jongeren"
+      "reason": "Zelfde thema: smartphones, social media en geestelijke schade, met Jonathan Haidt als gast."
     },
     {
       "n": 111,
-      "reason": "Psychiater Esther van Fenema, ook gast, over individu en zingeving"
+      "reason": "Esther van Fenema over psyche en de gevolgen van individualisme, met dezelfde gast."
     },
     {
-      "n": 206,
-      "reason": "Impact van technologie op ons leven en welzijn, met Frank Mulder"
+      "n": 287,
+      "reason": "Jongeren, eenzaamheid en overprikkeling in een individualistische tijd, met gemeenschap als thema."
+    },
+    {
+      "n": 249,
+      "reason": "Mentale gezondheidscrisis, vooral onder jongeren, met zingeving en psyche als kern."
+    },
+    {
+      "n": 314,
+      "reason": "Zingevingscrisis in het moderne leven, met Esther van Fenema als gast."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

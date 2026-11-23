@@ -1,228 +1,240 @@
 {
   "episode": 258,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95939,
+    "segments": 1121,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31697,
-    "output_tokens": 2262,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50211,
+    "output_tokens": 6215,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Wetenschap & kosmos",
-    "Technologie & AI",
-    "God & geloof"
+    "God & geloof",
+    "Technologie & AI"
   ],
   "guests": [
     "Shar Timman"
   ],
   "people": [
     {
-      "name": "Shar Timman",
-      "note": "luitenant-kolonel bij de Koninklijke Luchtmacht, ruimtevaartingenieur, werkt bij het NATO Space Centre of Excellence",
-      "start_seconds": 49,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gene Kranz",
-      "note": "flight director van Mission Control tijdens Apollo 13, held van Timman",
-      "start_seconds": 867,
-      "wiki_checked": true,
-      "wiki_pageid": 1131283,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gene_Kranz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gene_kranz2.jpg/250px-Gene_kranz2.jpg"
-    },
-    {
-      "name": "André Kuipers",
-      "note": "Nederlandse astronaut die maanden in de ruimte verbleef",
-      "start_seconds": 649,
-      "wiki_checked": true,
-      "wiki_pageid": 42269,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andr%C3%A9_Kuipers_%28ruimtevaarder%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Andr%C3%A9_Kuipers_2011.jpg/250px-Andr%C3%A9_Kuipers_2011.jpg"
-    },
-    {
       "name": "Elon Musk",
-      "note": "oprichter van SpaceX en Starlink; Starlink was belangrijk voor Oekraïne",
-      "start_seconds": 1648,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Jeff Bezos",
-      "note": "ondernemer met eigen ruimtevluchten",
-      "start_seconds": 1525,
-      "wiki_checked": true,
-      "wiki_pageid": 3898797,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeff_Bezos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/250px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
+      "note": "Oprichter van SpaceX en Starlink; sterk invloed op de commerciële ruimtevaart",
+      "start_seconds": 1647,
+      "mention_count": 5
     },
     {
       "name": "Donald Trump",
-      "note": "richtte tijdens zijn eerste termijn de Amerikaanse Space Force op",
+      "note": "Amerikaanse president; plan voor een raketafweersysteem vanuit de ruimte (Golden Dome)",
       "start_seconds": 514,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Eerder idee van een raketafweersysteem, later door Trump opgepakt",
+      "start_seconds": 2277,
+      "mention_count": 1
+    },
+    {
+      "name": "Gene Kranz",
+      "note": "Leider van het missiecontrolecentrum tijdens Apollo 13",
+      "start_seconds": 867,
+      "mention_count": 1
+    },
+    {
+      "name": "André Kuiper",
+      "note": "Nederlandse ESA-astronaut die maanden in de ruimte verbleef",
+      "start_seconds": 649,
+      "mention_count": 3
     },
     {
       "name": "Heino Falcke",
-      "note": "astronoom, eerder gast in de podcast, over het overzichtseffect",
-      "start_seconds": 1062,
-      "wiki_checked": true,
-      "wiki_pageid": 3906079,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heino_Falcke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Heino_Falcke_-_Buch_Wien_2025.JPG/250px-Heino_Falcke_-_Buch_Wien_2025.JPG"
+      "note": "Astronoom in een eerdere aflevering over het overzichtseffect",
+      "start_seconds": 1063,
+      "mention_count": 2
     },
     {
       "name": "Marjolein Heemstra",
-      "note": "ruimtevaartjournalist, eerder gast in de podcast",
-      "start_seconds": 1062,
-      "wiki_checked": true
+      "note": "Ruimtevaartjournalist in een eerdere aflevering",
+      "start_seconds": 1063,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees Dekker",
+      "note": "Natuurkundige die eerder in de podcast sprak over het ontstaan van leven",
+      "start_seconds": 3081,
+      "mention_count": 1
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "17e-eeuwse wetenschapper en denker die zich klein voelde bij het zien van de sterren",
+      "start_seconds": 2951,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; Shar Timman en Stefan Paas grappen dat je in de ruimte Augustinus zou lezen",
+      "start_seconds": 3234,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeff Bezos",
+      "note": "Oprichter van Blue Origin; commerciële ruimtevluchten",
+      "start_seconds": 1535,
+      "mention_count": 1
+    },
+    {
+      "name": "Katy Perry",
+      "note": "Artiest die meevloog op een commerciële ruimtevlucht",
+      "start_seconds": 1539,
+      "mention_count": 1
+    },
+    {
+      "name": "Matt Damon",
+      "note": "Acteur uit de film The Martian; overleven op Mars",
+      "start_seconds": 3270,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [],
   "places": [
     "Hilversum",
-    "Maan",
-    "Mars",
-    "Dolomieten",
-    "Lanzarote",
     "Leiden",
-    "Oekraïne",
-    "Rusland",
-    "China",
-    "Verenigde Staten",
-    "Noorwegen"
+    "Delft",
+    "Toulouse",
+    "Lanzarote",
+    "Dolomieten"
   ],
-  "summary_tldr": "Luitenant-kolonel Shar Timman vertelt over de nieuwe ruimtewedloop en de omdoping van de Nederlandse luchtmacht tot Lucht- en Ruimtestrijdkrachten. Ze bespreekt haar jeugddroom door Apollo 13, het nut van ruimtevaart, satellieten als ogen en oren van defensie en de militarisering van de ruimte. Daarbij komen ook ethiek en AI ter sprake.",
+  "summary_tldr": "Shar Timman, luitenant-kolonel bij de nieuwe Nederlandse lucht- en ruimtestrijdkrachten, vertelt hoe zij van jongs af aan droomde van de ruimtevaart en hoe zij daarvan haar werk maakte. Het gesprek gaat over de nieuwe ruimtewedloop, waarin landen satellieten en militaire ruimtecapaciteit inzetten voor informatie, defensie en mogelijk offensieve operaties. Ook komen de verhouding tussen geloof en wetenschap aan bod, alsmede de vraag naar het nut van ruimtevaart en de toekomst van bemande missies naar Mars.",
   "summary_points": [
-    "Nederland heeft de luchtmacht omgedoopt tot Commando Lucht- en Ruimtestrijdkrachten, naast airpower nu ook space power.",
-    "Timmans droom om naar de maan te gaan begon bij de film Apollo 13 en het teamwerk in Mission Control.",
-    "Sinds de maanlandingen is er geen mens meer op de maan geweest, vooral om budgettaire redenen.",
-    "Ruimtevaart levert veel op voor de samenleving: GPS, tijdsprecisie, betalen en medisch onderzoek in microzwaartekracht.",
-    "De nieuwe space race gaat niet om wie de eerste is, maar om wie het meeste vanuit de ruimte kan.",
-    "Satellieten zijn kleiner en goedkoper geworden, waardoor ook private partijen en kleine landen meedoen.",
-    "Nederland heeft inmiddels vier satellieten, beginnend met BRIC-2 in 2021.",
-    "Oorlog is niet meer denkbaar zonder ruimte, zoals de rol van Starlink in Oekraïne laat zien.",
-    "Het gaat vooral om informatie en data, maar offensieve ruimteoperaties zoals verblinden van satellieten bestaan al.",
-    "Ethische vragen over AI en menselijke controle worden volgens Timman door experts meegenomen."
+    "Er is een nieuwe ruimtewedloop gaande waarin grootmachten en private partijen de ruimte opnieuw inzetten voor satellieten, informatie en mogelijk bewapening.",
+    "Nederland heeft de Luchtmacht omgedoopt tot Commando Lucht- en Ruimtestrijdkrachten en bouwt sinds 2021 zelf militaire satellieten.",
+    "Satellieten zijn kleiner, goedkoper en toegankelijker geworden, mede dankzij SpaceX en Starlink.",
+    "De ruimte is van niemand, wat juridisch en militair nieuwe vragen oproept.",
+    "Ruimtevaart levert volgens Shar Timman veel terug aan de samenleving, zoals GPS, medisch onderzoek en technologie.",
+    "De oorlog in Oekraïne toont hoe afhankelijk militaire operaties zijn geworden van satellietcommunicatie.",
+    "Shar Timman ziet haar geloof en wetenschap niet als strijdig, maar ervaart het heelal als mysterieus en nog niet volledig begrepen.",
+    "Het gesprek noemt ook de ethische vragen rond AI en autonome besluitvorming in militaire ruimtevaart.",
+    "Mars-missies blijven technisch en logistiek zeer uitdagend, vooral de terugreis.",
+    "Samenwerking in de ruimte, zoals bij het ISS, blijft bestaan ondanks geopolitieke spanningen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Droom van de maan",
-      "summary": "Introductie van Shar Timman, haar bereidheid om de ruimte in te gaan en haar astronautentraining in geologie."
+      "title": "Ruimtereis, Mars en een mysterieus telefoontje",
+      "summary": "David Boogerd opent met een hypothetische Mars-reis en de vraag of Shar Timman meteen ja zou zeggen."
     },
     {
-      "start_seconds": 370,
-      "title": "Waarom geen maanlandingen meer?",
-      "summary": "Over budget, de opbrengst van ruimtevaart voor de samenleving en het belang van onderzoek."
+      "start_seconds": 220,
+      "title": "Van meisjesdroom naar astronautentraining",
+      "summary": "Shar vertelt over haar ESA-loopbaan, geologietraining en de fascinatie die zij van kinds af aan had."
     },
     {
-      "start_seconds": 805,
-      "title": "Apollo 13 en een meisjesdroom",
-      "summary": "Hoe de film Apollo 13 haar passie wekte en over het overzichtseffect van astronauten."
+      "start_seconds": 600,
+      "title": "Waarom stilviel de maanlanding en wat levert ruimtevaart op",
+      "summary": "Het gesprek gaat over budgetten, de opbrengsten van ruimtevaart en de rol van André Kuiper en Apollo 13."
     },
     {
-      "start_seconds": 1150,
-      "title": "Van ESA naar Defensie",
-      "summary": "Haar maanmissiewerk bij ESA, de stap naar het uniform en de eerste Nederlandse satellieten."
+      "start_seconds": 1440,
+      "title": "De nieuwe space race en de ruimtestrijdkrachten",
+      "summary": "Er wordt uitgelegd wat de ruimtestrijdkrachten doen, hoe commerciële partijen de ruimte veranderen en waarom militaire aanwezigheid belangrijk is."
     },
     {
-      "start_seconds": 1430,
-      "title": "De nieuwe space race",
-      "summary": "Waarom de ruimtewedloop veranderd is: kleinere satellieten, private spelers en niemand die de ruimte bezit."
+      "start_seconds": 2220,
+      "title": "Oorlog, Oekraïne en ethiek",
+      "summary": "Shar blikt terug op haar start bij Defensie tijdens het begin van de oorlog in Oekraïne, en er wordt gesproken over AI en ethiek."
     },
     {
-      "start_seconds": 1790,
-      "title": "Wat doen ruimtestrijdkrachten?",
-      "summary": "Informatie als wapen, Starlink in Oekraïne, historische plannen voor wapens in de ruimte en offensieve operaties."
+      "start_seconds": 2880,
+      "title": "Geloof, heelal en het mysterie van het bestaan",
+      "summary": "Shar en Stefan Paas bespreken de verhouding tussen geloof en wetenschap, de Big Bang en de vraag wat de ruimte met mensen doet."
     },
     {
-      "start_seconds": 2130,
-      "title": "AI, controle en ethiek",
-      "summary": "Zorgen over technologie die uit de hand loopt en de rol van ethische experts."
+      "start_seconds": 3240,
+      "title": "Mars, Augustinus en afsluiting",
+      "summary": "Het gesprek eindigt met de vraag of mensen ooit op Mars landen en een reflectie op de ruimte als thuis."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 16,
+      "start_seconds": 174,
       "speaker": "Shar Timman",
-      "text": "Ik zou nooit nee zeggen op een ruimtereis.",
-      "note": "Toont haar onverschrokken droom; ze mag zonder overleg ja zeggen."
+      "text": "Ik vind het niet eng. Overal zit een risico aan vast.",
+      "note": "Laat zien hoe zij risico's benadert: met vertrouwen in het proces in plaats van angst."
     },
     {
-      "start_seconds": 891,
+      "start_seconds": 604,
       "speaker": "Shar Timman",
-      "text": "Met een groep mensen die allemaal hetzelfde geloven kun je het onmogelijke mogelijk maken.",
-      "note": "De kern van wat Apollo 13 haar leerde."
+      "text": "Het budget is gewoon verplaatst naar een ander doeleinde.",
+      "note": "Een nuchter antwoord op de vraag waarom er al vijftig jaar niemand op de maan is geweest."
     },
     {
-      "start_seconds": 1560,
+      "start_seconds": 2397,
       "speaker": "Shar Timman",
-      "text": "Niemand bezit een stukje ruimte.",
-      "note": "Verklaart waarom de ruimte militair zo interessant en bijzonder is."
+      "text": "Heeft er iemand spijt van zijn keuze?",
+      "note": "Het moment dat haar instructeurs na het uitbreken van de oorlog in Oekraïne de cadetten deze vraag stelden, maakte diepe indruk."
     },
     {
-      "start_seconds": 1970,
+      "start_seconds": 2988,
       "speaker": "Shar Timman",
-      "text": "Het is geen Star Wars; het gaat om data, nullen en enen.",
-      "note": "Corrigeert het karikatuurbeeld van ruimtestrijdkrachten."
+      "text": "Ik ben een wetenschapper en ik ben ook gelovig en ik zie daar absoluut geen strijd in.",
+      "note": "Een heldere positie in het debat tussen geloof en wetenschap."
     },
     {
-      "start_seconds": 2095,
-      "speaker": "Stefan Paas",
-      "text": "Alles wat je kunt bedenken wordt op een dag een keer uitgevonden.",
-      "note": "Kritische noot bij de gedachte dat het bij informatie blijft."
+      "start_seconds": 3421,
+      "speaker": "Shar Timman",
+      "text": "Als u genoeg geld en middelen tegenaan gooit, zou ik niet weten waarom.",
+      "note": "Een nuchtere, bijna lichtvoetige uitspraak over de technische haalbaarheid van een Mars-missie."
     }
   ],
   "keywords": [
     "ruimtewedloop",
     "ruimtestrijdkrachten",
-    "Apollo 13",
     "satelliet",
     "Starlink",
+    "Oekraïne",
+    "geloof en wetenschap",
+    "Big Bang",
+    "Mars",
+    "SpaceX",
+    "defensie",
     "NAVO",
-    "ESA",
-    "maanlanding",
-    "militarisering",
-    "overzichtseffect",
-    "ethiek",
-    "Elon Musk"
+    "overzichtseffect"
   ],
-  "quotes": [],
+  "quotes": [
+    "Niet iedereen heeft het door, maar we zitten midden in een nieuwe ruimtewedloop — een nieuwe ‘space race’.",
+    "Klinkt als sciencefiction, maar dat is het niet.",
+    "En — ook interessant voor onze podcast — ze is gelovig, christelijk."
+  ],
   "similar": [
     {
       "n": 322,
-      "reason": "Heino Falcke over kosmos, wetenschap en God; ook besproken persoon in huidige aflevering"
-    },
-    {
-      "n": 326,
-      "reason": "Moderne oorlogvoering, drones en defensie met militaire expert; Geopolitiek & oorlog"
+      "reason": "Kosmos, technologie en God-thematiek met Heino Falcke, die ook in deze aflevering genoemd wordt"
     },
     {
       "n": 69,
-      "reason": "Religieuze reis door de ruimte met Heino Falcke en Marjolijn van Heemstra"
+      "reason": "Religieuze reis door de ruimte met Heino Falcke over ruimtevaart en geloof"
     },
     {
-      "n": 199,
-      "reason": "Defensie en vechten voor een groter doel, met minister van Defensie"
+      "n": 228,
+      "reason": "Wereldbeeld van Elon Musk en techgiganten, zoals ook in deze aflevering besproken"
     },
     {
-      "n": 230,
-      "reason": "Nieuwe wereldorde met Trump en machtspolitiek, geopolitiek en oorlog"
+      "n": 306,
+      "reason": "AI, Elon Musk en geopolitieke machtsstrijd, overlappend met techniek en militaire thema's"
+    },
+    {
+      "n": 326,
+      "reason": "Militaire paraatheid, drones en oorlogsscenario's, sterk verwant aan het defensie-onderwerp"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

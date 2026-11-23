@@ -1,295 +1,426 @@
 {
   "episode": 293,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 124348,
+    "segments": 973,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30240,
-    "output_tokens": 2484,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61892,
+    "output_tokens": 8976,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "Geschiedenis",
     "Politiek",
+    "Klimaat & natuur",
     "Economie & geld"
   ],
   "guests": [
-    "David Van Reybrouck"
+    "David Van Reybrouck",
+    "Beatrice de Graaf"
   ],
   "people": [
     {
       "name": "David Van Reybrouck",
-      "note": "historicus, schrijver en Denker der Nederlanden",
-      "start_seconds": 41,
-      "wiki_checked": true,
-      "wiki_pageid": 933938,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Van_Reybrouck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/David_Van_Reybrouck_at_Frankfurter_Buchmesse_2022.jpg/250px-David_Van_Reybrouck_at_Frankfurter_Buchmesse_2022.jpg"
+      "note": "Historicus en Denker der Nederlanden, gast in de aflevering",
+      "start_seconds": 120,
+      "mention_count": 12
     },
     {
       "name": "Beatrice de Graaf",
-      "note": "huishistoricus van De Ongelooflijke Podcast",
-      "start_seconds": 41,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
-    },
-    {
-      "name": "Viktor Orbán",
-      "note": "Hongaars premier, voorbeeld van autocratisering",
-      "start_seconds": 322,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Historica, huis-historicus van De Ongelooflijke Podcast, gast in de aflevering",
+      "start_seconds": 386,
+      "mention_count": 10
     },
     {
       "name": "Hippocrates",
-      "note": "antieke arts, naamgever van de artseneed",
+      "note": "Oudgriekse arts; zijn eed wordt herzien",
       "start_seconds": 221,
-      "wiki_checked": true,
-      "wiki_pageid": 742,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hippocrates_van_Kos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bust_of_Hippocrates_%28cropped%29.jpg/250px-Bust_of_Hippocrates_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Hans-Dietrich Genscher",
-      "note": "Duits minister van Buitenlandse Zaken, 'Wandel durch Handel'",
-      "start_seconds": 739,
-      "wiki_checked": true,
-      "wiki_pageid": 210406,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans-Dietrich_Genscher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hans-Dietrich_Genscher_%281989%29.jpg/250px-Hans-Dietrich_Genscher_%281989%29.jpg"
+      "name": "Juriaan Penders",
+      "note": "Voorzitter van het artsensyndicaat",
+      "start_seconds": 202,
+      "mention_count": 1
+    },
+    {
+      "name": "Mohammad Reza Pahlavi",
+      "note": "Shah van Iran, omver geworpen in 1979",
+      "start_seconds": 542,
+      "mention_count": 2
     },
     {
       "name": "Jimmy Carter",
-      "note": "Amerikaans president tijdens de gijzeling in Teheran",
-      "start_seconds": 559,
-      "wiki_checked": true,
-      "wiki_pageid": 3643,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jimmy_Carter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/250px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg"
+      "note": "Amerikaans president tijdens de gijzeling van de ambassade in Teheran",
+      "start_seconds": 550,
+      "mention_count": 1
     },
     {
-      "name": "Helmut Kohl",
-      "note": "Duits bondskanselier tijdens de Duitse eenwording",
-      "start_seconds": 1851,
-      "wiki_checked": true,
-      "wiki_pageid": 46681,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Helmut_Kohl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bundesarchiv_B_145_Bild-F074398-0021_Kohl_%28cropped%29.jpg/250px-Bundesarchiv_B_145_Bild-F074398-0021_Kohl_%28cropped%29.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president, claimt de hele Donbas",
-      "start_seconds": 2116,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "note": "Oekraïens president",
-      "start_seconds": 2267,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
-    },
-    {
-      "name": "Thomas Piketty",
-      "note": "econoom, werkte samen met Lucas Chancel",
-      "start_seconds": 1023,
-      "wiki_checked": true,
-      "wiki_pageid": 3993723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Piketty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Piketty_in_Cambridge_3_crop.jpg/250px-Piketty_in_Cambridge_3_crop.jpg"
-    },
-    {
-      "name": "Lucas Chancel",
-      "note": "onderzoeker World Inequality Database",
-      "start_seconds": 1023,
-      "wiki_checked": true
-    },
-    {
-      "name": "Barbara Adam",
-      "note": "denker van het 'tijdschap'",
-      "start_seconds": 1125,
-      "wiki_checked": true
-    },
-    {
-      "name": "Heather Grabbe",
-      "note": "analist bij denktank Bruegel",
-      "start_seconds": 1974,
-      "wiki_checked": true
-    },
-    {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlisch premier, overtuigde Trump",
-      "start_seconds": 2459,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "name": "Hans-Dietrich Genscher",
+      "note": "Duits minister van Buitenlandse Zaken, 1974-1992",
+      "start_seconds": 739,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president",
+      "note": "Amerikaans president; Amerikaans optreden in het Midden-Oosten",
+      "start_seconds": 434,
+      "mention_count": 5
+    },
+    {
+      "name": "Lucas Chancel",
+      "note": "Franse econoom, medewerker van de World Inequality Database",
+      "start_seconds": 1018,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Piketty",
+      "note": "Franse econoom, werkte samen met Chancel",
+      "start_seconds": 1018,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeff Bezos",
+      "note": "Miljardair; voorbeeld van welvaartsconcentratie",
+      "start_seconds": 1018,
+      "mention_count": 1
+    },
+    {
+      "name": "Barbara Adam",
+      "note": "Filosofe; concept van het tijdschap",
+      "start_seconds": 1125,
+      "mention_count": 2
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Amerikaans president; 'New World Order' en het einde van de geschiedenis",
+      "start_seconds": 1180,
+      "mention_count": 1
+    },
+    {
+      "name": "Helmut Kohl",
+      "note": "Duits bondskanselier tijdens de Duitse hereniging",
+      "start_seconds": 1851,
+      "mention_count": 2
+    },
+    {
+      "name": "Peter Vermeersch",
+      "note": "Hoogleraar in Leuven en vriend van Stefan Paas",
+      "start_seconds": 1966,
+      "mention_count": 1
+    },
+    {
+      "name": "Heather Grabbe",
+      "note": "Analiste bij de Bruegel-denktank",
+      "start_seconds": 1966,
+      "mention_count": 1
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "President van Oekraïne",
+      "start_seconds": 2263,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "President van Rusland; Russische inval in Oekraïne",
+      "start_seconds": 2131,
+      "mention_count": 5
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaars premier; autocratisering van de democratie",
+      "start_seconds": 320,
+      "mention_count": 3
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlische premier",
       "start_seconds": 2459,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Kaja Kallas",
+      "note": "EU-commissaris voor buitenlands beleid",
+      "start_seconds": 2634,
+      "mention_count": 2
+    },
+    {
+      "name": "Narendra Modi",
+      "note": "Indiase premier",
+      "start_seconds": 3055,
+      "mention_count": 1
+    },
+    {
+      "name": "Prabowo Subianto",
+      "note": "President van Indonesië, uit het militaire apparaat",
+      "start_seconds": 3015,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Münkler",
+      "note": "Duitse politicoloog; theorie van de biljartballen",
+      "start_seconds": 3229,
+      "mention_count": 2
+    },
+    {
+      "name": "Lynn White",
+      "note": "Amerikaans historicus; these over christendom en ecologische crisis",
+      "start_seconds": 4144,
+      "mention_count": 3
+    },
+    {
+      "name": "Franciscus",
+      "note": "Paus; schreef de encycliek Laudato Si",
+      "start_seconds": 4281,
+      "mention_count": 4
+    },
+    {
+      "name": "Guido Gezelle",
+      "note": "Vlaamse dichter uit de 19e eeuw",
+      "start_seconds": 4444,
+      "mention_count": 2
+    },
+    {
+      "name": "Multatuli",
+      "note": "Nederlandse non-fictieschrijver uit de 19e eeuw",
+      "start_seconds": 4444,
+      "mention_count": 1
+    },
+    {
+      "name": "Franklin Delano Roosevelt",
+      "note": "Amerikaans president; fireside chats met kaarten",
+      "start_seconds": 3638,
+      "mention_count": 2
+    },
+    {
+      "name": "Paolo Giordano",
+      "note": "Italiaans schrijver",
+      "start_seconds": 4814,
+      "mention_count": 1
+    },
+    {
+      "name": "Paolo Cognetti",
+      "note": "Italiaans schrijver",
+      "start_seconds": 4814,
+      "mention_count": 1
+    },
+    {
+      "name": "Roberto Saviano",
+      "note": "Italiaans schrijver van Gomorra",
+      "start_seconds": 4884,
+      "mention_count": 1
+    },
+    {
+      "name": "Ken Loach",
+      "note": "Brits cineast met aandacht voor armoede",
+      "start_seconds": 4857,
+      "mention_count": 1
+    },
+    {
+      "name": "Andres Serrano",
+      "note": "Amerikaans kunstenaar van het werk Piss Christ",
+      "start_seconds": 5013,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "De Wereld en de Aarde",
+      "author": "David Van Reybrouck",
+      "note": "Essay over planetair denken; de trektocht door de Pyreneeën",
+      "start_seconds": 3524,
+      "volume_id": "TI9REQAAQBAJ",
+      "canonical_title": "De wereld en de aarde: Hoe houden we het veilig?",
+      "canonical_author": "David van Reybrouck",
+      "isbn13": "9789403137667",
+      "isbn10": "9403137665",
+      "thumbnail": "http://books.google.com/books/content?id=TI9REQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Tegen de terreur",
+      "author": "Beatrice de Graaf",
+      "note": "Over hoe Europa na Napoleon veiliger werd, gebaseerd op archiefonderzoek",
+      "start_seconds": 5124,
+      "volume_id": "EFJczQEACAAJ",
+      "canonical_title": "Tegen de terreur: hoe Europa veilig werd na Napoleon",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9789035135666",
+      "isbn10": "9035135660",
+      "thumbnail": ""
+    },
+    {
+      "title": "Congo",
+      "author": "David Van Reybrouck",
+      "note": "Boek over de koloniale geschiedenis van Congo",
+      "start_seconds": 2773,
+      "volume_id": "csqRMAEACAAJ",
+      "canonical_title": "Congo: een geschiedenis",
+      "canonical_author": "David Van Reybrouck",
+      "isbn13": "9789023472797",
+      "isbn10": "9023472799",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1:28",
+      "note": "'Gaat heen en vermenigvuldigt u, onderwerpt de aarde'; wordt genoemd als bron van het rentmeesterschapsdenken en de kritiek van Lynn White",
+      "start_seconds": 4171
+    }
+  ],
   "places": [
     "Berlijn",
     "Iran",
     "Teheran",
-    "Hongarije",
     "Oekraïne",
-    "Donbas",
+    "Brussel",
+    "Brugge",
     "Vlaanderen",
-    "Antwerpen",
+    "Congo",
+    "Indonesië",
     "Straat van Hormuz",
+    "Pyreneeën",
+    "Gaza",
+    "Hongarije",
+    "Rome",
+    "Orval",
+    "Venetië",
+    "Dubai",
+    "Seefhoek",
     "Korea",
-    "Midden-Oosten",
-    "Duitsland"
+    "Donbas",
+    "Krim"
   ],
-  "summary_tldr": "David Boogerd spreekt met de historici David Van Reybrouck en Beatrice de Graaf over wat er in deze woelige tijd echt toe doet. Ze bespreken de druk op de democratie, de Europese reactie op Iran en Oekraïne en het idee van een nieuwe 'Berlijnse muur'. Daarbij trekken ze lijnen naar de naoorlogse welvaart, fossiele brandstoffen en het neoliberalisme.",
+  "summary_tldr": "David Van Reybrouck en Beatrice de Graaf bespreken, zonder Stefan Paas, hoe je in historische crisistijden de hoofdzaak van de bijzaak onderscheidt. Ze koppelen de huidige crises aan historische continuïteiten, zoals de Iraanse revolutie van 1979, de naoorlogse welvaart en het einde van de Koude Oorlog. Het gesprek eindigt bij de vraag hoe klimaatverandering, zingeving en rechtvaardigheid samenhangen.",
   "summary_points": [
-    "Beatrice de Graaf onderzocht in een Berlijns archief hoe Europa in 1979 reageerde op de Iraanse revolutie.",
-    "Duitsland koos toen voor handelsbelangen boven mensenrechten ('Wandel durch Handel').",
-    "De naoorlogse welvaart, gebaseerd op fossiele brandstoffen, temde extremisme.",
-    "Jongere generaties ervaren relatieve deprivatie en groeiende ongelijkheid.",
-    "Het neoliberale geloof in privatisering sinds de jaren 80 blijkt niet houdbaar.",
-    "Van Reybrouck bouwt aan een Europees netwerk voor democratische weerbaarheid.",
-    "Het idee van een bevroren front in Oekraïne, als een nieuwe 'Berlijnse muur', vereist een Europese troepenmacht.",
-    "Europa is alleen eensgezind op handel en mist een eigen geopolitieke strategie."
+    "Historische tijden vragen om het onderscheiden van hoofdzaak en bijzaak, met het besef dat presentisme het oordeel vertroebelt.",
+    "De Iraanse revolutie van 1979 laat zien hoe Europa koos voor handelsbelangen boven democratisering, met het motto 'Wandel durch Handel'.",
+    "De naoorlogse welvaart, mede dankzij fossiele brandstoffen, leek extremisme te smoren, maar de generatieverschillen en onzekerheid zijn nu groter.",
+    "De neoliberale omslag na de oliecrisis van 1975 maakte publieke voorzieningen duurder en leidde tot privatisering.",
+    "Europa wordt in crisistijd sterker, maar mist een gezamenlijke diplomatieke en militaire strategie, met voorstellen voor een coalitie van de willing.",
+    "De wereld verschuift naar meerdere machtsblokken, wat multilateralisme onder druk zet; Europa moet een biljartbal blijven die samenwerking zoekt.",
+    "De klimaatcrisis is volgens het gesprek het grootste veiligheidsvraagstuk, maar krijgt te weinig aandacht ten opzichte van geopolitiek.",
+    "Secularisatie leidde tot innerlijke leegte, die door consumptie wordt opgevuld; religieuze tradities bieden hier wijsheid.",
+    "Klimaatbeleid moet ook rechtvaardigheid zijn, omdat de armsten het hardst getroffen worden.",
+    "Met hoop en wijsheid van religies en seculiere tradities kan de wereld de huidige crises te boven komen."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Denker der Nederlanden",
-      "summary": "Van Reybrouck vertelt over zijn rol en zijn project voor democratische weerbaarheid in Europa."
+      "start_seconds": 0,
+      "title": "Intro en presentatie van de gasten",
+      "summary": "Boogerd introduceert het essay van Van Reybrouck over historische tijden en de gastrol van De Graaf. Ook wordt Stefan Paas' afwezigheid besproken."
     },
     {
       "start_seconds": 386,
-      "title": "Het Berlijnse archief en Iran 1979",
-      "summary": "De Graaf legt uit hoe Europa in 1979 voor handelsbelangen koos tegenover het nieuwe regime in Iran."
+      "title": "Berlijn, archief en Iran 1979",
+      "summary": "De Graaf vertelt over haar archiefonderzoek in Berlijn naar de Iraanse revolutie en de Europese reactie. Economische belangen wogen zwaarder dan democratisering."
     },
     {
-      "start_seconds": 771,
-      "title": "Fossiele welvaart en democratie",
-      "summary": "De oliecrisis en de Trente Glorieuses als fundament van de Europese democratisering."
+      "start_seconds": 912,
+      "title": "Welvaart, generaties en ongelijkheid",
+      "summary": "Het gesprek gaat over de Trente Glorieuses, de generatieverschillen en het gevoel van precariteit. De Graaf nuanceert met het tijdschap-concept van Barbara Adam."
     },
     {
-      "start_seconds": 1000,
-      "title": "Generaties, ongelijkheid en populisme",
-      "summary": "Over ongelijkheid, 'tijdschap' en de opkomst van extreem rechts, onder meer in Vlaanderen."
+      "start_seconds": 1429,
+      "title": "Neoliberalisme en Zwarte Zondag",
+      "summary": "Van Reybrouck schetst de deindustrialisatie, de opkomst van extreem rechts in Vlaanderen en de privatisering van publieke diensten."
     },
     {
-      "start_seconds": 1500,
-      "title": "Neoliberalisme en de breuk van nu",
-      "summary": "Privatisering sinds de jaren 80 en de erosie van de naoorlogse orde, plus de Duitse eenwording."
+      "start_seconds": 1955,
+      "title": "Berlijnse muur en het front in Oekraïne",
+      "summary": "Paas en gasten bespreken of het conflict in Oekraïne bevroren moet worden, met Korea als voorbeeld. De Graaf wijst op het gebrek aan Europese handhaving."
     },
     {
-      "start_seconds": 1960,
-      "title": "Een nieuwe Berlijnse muur voor Oekraïne",
-      "summary": "Het idee om het front te bevriezen en de vraag of Europa een troepenmacht wil sturen."
+      "start_seconds": 2510,
+      "title": "Europa, diplomatie en de biljartballen",
+      "summary": "Het gesprek gaat over Europa's zwakke buitenlandse beleid en de vraag of Europa een eigen strategische rol moet spelen. Het beeld van de biljartballen van Münkler wordt uitgewerkt."
     },
     {
-      "start_seconds": 2330,
-      "title": "Wat kan Europa nog?",
-      "summary": "Europa mist een geopolitieke strategie en kan zich via diplomatie en sancties profileren in het Midden-Oosten."
+      "start_seconds": 3524,
+      "title": "Klimaat, aarde en planetaire grenzen",
+      "summary": "Van Reybrouck bespreekt zijn trektocht door de Pyreneeën en de planetaire grenzen. Hij stelt dat de aardepolitiek belangrijker is dan geopolitiek."
+    },
+    {
+      "start_seconds": 4088,
+      "title": "Zingeving, rentmeesterschap en de paus",
+      "summary": "Het gesprek eindigt bij innerlijke leegte, de kritiek van Lynn White, Laudato Si en het belang van rechtvaardigheid. Van Reybrouck beschrijft een audiëntie in het Vaticaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1112,
+      "start_seconds": 3927,
+      "speaker": "David Van Reybrouck",
+      "text": "Het grootste veiligheidsvraagstuk van onze tijd is niet de geopolitiek, het is de aardepolitiek.",
+      "note": "Deze stelling keert het gangbare beeld van veiligheid om en koppelt het aan de planeet."
+    },
+    {
+      "start_seconds": 4088,
+      "speaker": "David Van Reybrouck",
+      "text": "De innerlijke leegte die met de secularisering bij velen heeft toegeslaan, wordt dankzij Temu moeiteloos opgevuld.",
+      "note": "Een scherpe en ironische analyse van consumptie als compensatie voor zingevingsverlies."
+    },
+    {
+      "start_seconds": 4036,
+      "speaker": "David Van Reybrouck",
+      "text": "Mijn eigen vader is gestorven in een hittegolf.",
+      "note": "Een persoonlijk en emotioneel moment dat klimaatschade concreet maakt."
+    },
+    {
+      "start_seconds": 4976,
+      "speaker": "David Van Reybrouck",
+      "text": "In al het werk wat u doet, in al de zichtbaarheid die u geeft, in al de successen die u vergaart, vergeet toch niet de armste.",
+      "note": "De boodschap van paus Franciscus aan kunstenaars laat zien hoe spiritualiteit en sociale rechtvaardigheid samenkomen."
+    },
+    {
+      "start_seconds": 2510,
       "speaker": "Beatrice de Graaf",
-      "text": "Vanaf 2010 zegt meer dan de helft van mijn studenten dat het slechter gaat met de geschiedenis.",
-      "note": "Laat zien hoe het toekomstbeeld van jongeren is omgeslagen."
-    },
-    {
-      "start_seconds": 915,
-      "speaker": "David Van Reybrouck",
-      "text": "We gaan het extremisme verdrinken in de overvloed.",
-      "note": "Vat de logica van de naoorlogse welvaart samen."
-    },
-    {
-      "start_seconds": 2267,
-      "speaker": "David Van Reybrouck",
-      "text": "Oekraïne zal zich ooit tot Europa wenden: jullie hebben ons in de steek gelaten.",
-      "note": "Scherpe kritiek op de Europese druppelsteun."
-    },
-    {
-      "start_seconds": 1973,
-      "speaker": "David Van Reybrouck",
-      "text": "Moet het conflict in Oekraïne niet bevroren worden, zoals in Korea?",
-      "note": "Het gewaagde idee van een nieuwe 'Berlijnse muur'."
-    },
-    {
-      "start_seconds": 2340,
-      "speaker": "Beatrice de Graaf",
-      "text": "Europa komt alleen op het gebied van handel tot een gemeenschappelijke positie.",
-      "note": "Kernanalyse van de Europese onmacht."
+      "text": "Je wordt nu gedwongen en in een oorlog gezogen, niet op je eigen voorwaarden.",
+      "note": "Ze stelt dat Europa passief blijft terwijl het gedwongen wordt mee te doen aan conflicten in het Midden-Oosten."
     }
   ],
   "keywords": [
-    "Berlijnse muur",
-    "democratie",
-    "Europa",
-    "Iran",
-    "Oekraïne",
+    "historische tijd",
+    "Iraanse revolutie",
     "Trente Glorieuses",
-    "fossiele brandstoffen",
-    "neoliberalisme",
-    "ongelijkheid",
-    "populisme",
-    "Zeitenwende",
-    "diplomatie"
+    "tijdschap",
+    "biljartballen",
+    "planetaire grenzen",
+    "rentmeesterschap",
+    "Laudato Si",
+    "innerlijke leegte",
+    "Europese defensie"
   ],
   "quotes": [
     "We leven in absoluut historische tijden, zo woelig en intens dat we hoofdzaak en bijzaak soms niet meer van elkaar kunnen onderscheiden."
   ],
   "similar": [
     {
+      "n": 309,
+      "reason": "Geopolitieke machtspolitiek met Beatrice de Graaf over Trump, Poetin en autocraten"
+    },
+    {
       "n": 284,
-      "reason": "Beatrice de Graaf over machtspolitiek, Europa, Trump en Poetin in woelige tijden"
-    },
-    {
-      "n": 285,
-      "reason": "Ad Verbrugge over kantelpunt, crisis van het Westen, economie en geschiedenis"
-    },
-    {
-      "n": 239,
-      "reason": "Europa, Amerika en vrijheid in gevaar; historische omslag in de geopolitiek"
-    },
-    {
-      "n": 275,
-      "reason": "Beatrice de Graaf over Rusland, Oekraïne en Europese dreiging"
+      "reason": "Terugkeer van brute machtspolitiek, Europa en Poetin, met Beatrice de Graaf"
     },
     {
       "n": 248,
-      "reason": "Beatrice de Graaf over de nieuwe wereldorde en geopolitiek"
+      "reason": "Wereldorde en wie die bepaalt, met Beatrice de Graaf"
+    },
+    {
+      "n": 276,
+      "reason": "Klimaatbeleid en politiek, het klimaat als urgent maatschappelijk vraagstuk"
+    },
+    {
+      "n": 227,
+      "reason": "Grote maatschappelijke transitie en klimaatverandering, met een historische blik"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,329 +1,312 @@
 {
   "episode": 85,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 88666,
+    "segments": 883,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30276,
-    "output_tokens": 2808,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 44578,
+    "output_tokens": 9457,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "Economie & geld",
-    "Bijbel & Jezus",
-    "Geschiedenis"
+    "God & geloof",
+    "Kerk & secularisatie",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Paul van Geest"
   ],
   "people": [
     {
-      "name": "Paul van Geest",
-      "note": "kerkhistoricus, hoogleraar Theologie en Economisch Denken aan de Erasmus Universiteit en adviseur van de paus",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 1800198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_van_Geest",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/PaulvanGeest2019.jpg/250px-PaulvanGeest2019.jpg"
+      "name": "Augustinus",
+      "note": "Kerkvader; wanhoop als doodzonde, mensbeeld, vrije wil en matigheid als economisch principe",
+      "start_seconds": 1069,
+      "mention_count": 9
     },
     {
       "name": "Paus Franciscus",
-      "note": "huidige paus, door Van Geest ontmoet en beschreven als empathisch",
-      "start_seconds": 120,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
-    },
-    {
-      "name": "Jaime de Bourbon",
-      "note": "toenmalig Nederlands ambassadeur bij de Heilige Stoel",
-      "start_seconds": 248,
-      "wiki_checked": true,
-      "wiki_pageid": 51475,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jaime_de_Bourbon_de_Parme",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Portrait_Jaime_de_Bourbon_2026.jpg/250px-Portrait_Jaime_de_Bourbon_2026.jpg"
-    },
-    {
-      "name": "Richard van Lieshout",
-      "note": "franciscaan en classicus, leraar van Van Geest op het jezuïetencollege",
-      "start_seconds": 655,
-      "wiki_checked": true
-    },
-    {
-      "name": "Matteo Ricci",
-      "note": "jezuïet-missionaris in China",
-      "start_seconds": 1002,
-      "wiki_checked": true,
-      "wiki_pageid": 17770,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Matteo_Ricci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%E5%88%A9%E7%8E%9B%E7%AA%A6%E5%83%8F%EF%BC%8C%E6%B8%B8%E6%96%87%E8%BE%89%E7%BB%98.jpg/250px-%E5%88%A9%E7%8E%9B%E7%AA%A6%E5%83%8F%EF%BC%8C%E6%B8%B8%E6%96%87%E8%BE%89%E7%BB%98.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader; denker over wanhoop, vrije wil, matigheid en rijkdom",
-      "start_seconds": 1069,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Onno Ruding",
-      "note": "oud-minister van Financiën, verbaasd over de benoeming van Van Geest in Rotterdam",
-      "start_seconds": 1233,
-      "wiki_checked": true,
-      "wiki_pageid": 175919,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Onno_Ruding",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Onno_Ruding_1985_%281%29.jpg/250px-Onno_Ruding_1985_%281%29.jpg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "middeleeuws theoloog die rente afwees",
-      "start_seconds": 1926,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "hervormer die rente onder voorwaarden toestond",
-      "start_seconds": 1993,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "note": "Huidige paus; encyclieken Laudato si en Fratelli tutti, benoemt kardinalen",
+      "start_seconds": 111,
+      "mention_count": 25
     },
     {
       "name": "Jezus",
-      "note": "besproken in relatie tot bezit en rijkdom, tempelreiniging",
+      "note": "Bijbelse figuur; uitspraken over rijkdom en de tempel, mogelijk eigen bezit",
       "start_seconds": 2230,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
+      "mention_count": 5
     },
     {
-      "name": "Jonathan Cornillon",
-      "note": "auteur van een studie waarin Jezus mogelijk bezit had",
-      "start_seconds": 2272,
-      "wiki_checked": true
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog die rente afwees en arbeid en kapitaal verbond",
+      "start_seconds": 1921,
+      "mention_count": 5
     },
     {
-      "name": "Paulus",
-      "note": "tentenmaker, vergeleken met een ondernemer",
-      "start_seconds": 2299,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Calvijn",
+      "note": "Reformator die woekerrente verbood maar leningen onder voorwaarden toestond",
+      "start_seconds": 1993,
+      "mention_count": 4
     },
     {
-      "name": "Lans Bovenberg",
-      "note": "econoom, coauteur van Kruis en munt",
-      "start_seconds": 1885,
-      "wiki_checked": true,
-      "wiki_pageid": 482415,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lans_Bovenberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Lans_Bovenberg_-_2014.jpg/250px-Lans_Bovenberg_-_2014.jpg"
+      "name": "Charles von Bell",
+      "note": "Jezuïet die in China de keizer benaderde en zich als mandarijn kleedde",
+      "start_seconds": 1002,
+      "mention_count": 3
+    },
+    {
+      "name": "Descartes",
+      "note": "Filosoof die 'ik denk, dus ik besta' formuleerde; leerling van jezuïeten",
+      "start_seconds": 3018,
+      "mention_count": 2
+    },
+    {
+      "name": "Onno Ruding",
+      "note": "Oud-minister van Financiën, katholiek, economist uit Rotterdam",
+      "start_seconds": 1234,
+      "mention_count": 2
     },
     {
       "name": "Judas",
-      "note": "volgens Augustinus verdoemd door wanhoop, niet door verraad",
+      "note": "Bijbelse figuur; Augustinus over wanhoop als oorzaak van zijn val",
       "start_seconds": 1077,
-      "wiki_checked": true,
-      "wiki_pageid": 13806,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Judas_Iskariot",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg/250px-Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Kees van der Kooij",
+      "note": "Protestants theoloog, mede-auteur van Christelijke Dogmatiek",
+      "start_seconds": 3131,
+      "mention_count": 2
+    },
+    {
+      "name": "Lans Bovenberg",
+      "note": "Econoom, co-auteur van Kruis en munt",
+      "start_seconds": 1878,
+      "mention_count": 2
+    },
+    {
+      "name": "Matteo Ricci",
+      "note": "Jezuïtische missionaris in China",
+      "start_seconds": 1002,
+      "mention_count": 1
+    },
+    {
+      "name": "Jonathan Cornillon",
+      "note": "Auteur van studie die stelt dat Jezus bezit had",
+      "start_seconds": 2252,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Groot",
+      "note": "Theoloog en jurist die een rechtssysteem ontwikkelde (Etsi Deus non daretur)",
+      "start_seconds": 2865,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Citaat over Nederland dat zichzelf schiep",
+      "start_seconds": 2846,
+      "mention_count": 1
+    },
+    {
+      "name": "Benedictus XVI",
+      "note": "Vorige paus; als kardinaal aandacht voor drijfveren in economie",
+      "start_seconds": 2530,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel en tentenmaker; ondernemer met eigen missiereis",
+      "start_seconds": 2299,
+      "mention_count": 1
+    },
+    {
+      "name": "Dalai Lama",
+      "note": "Religieuze leider die zich inzet voor duurzaamheid",
+      "start_seconds": 2671,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Kruis en munt",
       "author": "Paul van Geest en Lans Bovenberg",
-      "note": "over de christelijke wortels van economisch denken",
-      "start_seconds": 1881,
-      "volume_id": "_HwlEAAAQBAJ",
-      "canonical_title": "Kruis en munt: De raakvlakken van economie en theologie",
-      "canonical_author": "Lans Bovenberg, Paul van Geest",
-      "isbn13": "9789043533843",
-      "isbn10": "904353384X",
-      "thumbnail": "http://books.google.com/books/content?id=_HwlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Summa Theologiae",
-      "author": "Thomas van Aquino",
-      "note": "bron voor zijn visie op arbeid, kapitaal en rente",
-      "start_seconds": 1950,
-      "volume_id": "ExosAQAAMAAJ",
-      "canonical_title": "S. Thomae de Aquino Summa theologiae",
-      "canonical_author": "Thomas van Aquino",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=ExosAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "note": "Boek over de verbreding van het mensbeeld in de economie vanuit theologie",
+      "start_seconds": 1878,
+      "volume_id": "RUtdzgEACAAJ",
+      "canonical_title": "Kruis en munt: De raakvlakken van theologie en economie",
+      "canonical_author": "Paul van Geest en Lans Bovenberg",
+      "isbn13": "9789043533829",
+      "isbn10": "9043533823",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Johannes 2",
-      "note": "Jezus maakt een zweep en jaagt de handelaren uit de tempel",
-      "start_seconds": 2215
+      "ref": "Genesis 4",
+      "note": "Verhaal van Kaïn en Abel als begin van economische keuzes die niet rationeel zijn",
+      "start_seconds": 1420
     },
     {
-      "ref": "Mattheus 19:24",
-      "note": "een kameel door het oog van de naald en een rijke in het koninkrijk",
-      "start_seconds": 2245
+      "ref": "Johannes 2:15",
+      "note": "Jezus jaagt handelaren uit de tempel met een zweep die hij zelf maakte",
+      "start_seconds": 2234
     },
     {
       "ref": "Mattheus 8:20",
-      "note": "de Mensenzoon heeft geen plaats om het hoofd neer te leggen",
-      "start_seconds": 2289
+      "note": "De Mensenzoon heeft geen plek om het hoofd neer te leggen",
+      "start_seconds": 2288
     },
     {
-      "ref": "Genesis 4",
-      "note": "Kaïn en Abel als voorbeeld van niet-rationele economische keuzes",
-      "start_seconds": 1354
+      "ref": "Mattheus 19:24",
+      "note": "Kameel en het oog van de naald; over rijkdom en het koninkrijk",
+      "start_seconds": 2245
     }
   ],
   "places": [
-    "Rome",
     "Rotterdam",
-    "Nederland",
+    "Utrecht",
+    "Rome",
     "China",
-    "Berkel en Rodenrijs",
-    "Argentinië",
     "Italië",
-    "Utrecht"
+    "Argentinië",
+    "Oxford",
+    "Venetië",
+    "Haïti",
+    "Congo",
+    "Brazilië",
+    "Rusland",
+    "Verenigde Staten",
+    "Nederland"
   ],
-  "summary_tldr": "David Boogerd spreekt live op het EO Ondernemers Event met Paul van Geest en Stefan Paas over de cijfers van het SCP over ontkerkelijking en over de terugkeer van religie in de economie. Het gaat over het mensbeeld van de homo economicus, rente en matigheid bij Thomas, Calvijn en Augustinus, en Jezus' houding tegenover bezit.",
+  "summary_tldr": "Paul van Geest, kerkhistoricus en hoogleraar Theologie en Economisch Denken in Rotterdam, en Stefan Paas bespreken de ontkerkelijking in Nederland en de vraag of religie een comeback maakt in de economie. Het gesprek gaat over het achterhaalde mensbeeld van de homo economicus en hoe theologische teksten daar een aanvulling op kunnen zijn. Ook komen de radicale uitspraken van Jezus over rijkdom en de verhouding tot het kapitalisme aan bod.",
   "summary_points": [
-    "Het SCP-rapport laat zien dat Nederland nog ongeloviger wordt; buiten de kerk blijft weinig religiositeit over.",
-    "Paul van Geest is als hoogleraar in Rotterdam en pauselijk theoloog een man van primeurs, maar relativeert zijn invloed.",
-    "Religie kan alleen worden doorgegeven in een interpretatie- en communicatiegemeenschap.",
-    "Economen zoeken theologen om het mensbeeld van de homo economicus te verbreden.",
-    "Een relationele economie met gezichten kan de anonieme transactionele economie aanvullen.",
-    "Augustinus' inzichten over vrije wil en liefde lijken op moderne psychologie en neurologie.",
-    "Thomas van Aquino verbood rente, Calvijn stond haar toe zolang er geen woeker is.",
-    "Augustinus pleit voor matigheid: te arm en te rijk zijn beide slecht.",
-    "Jezus had mogelijk bezit en veroordeelt rijkdom niet als zodanig, maar waarschuwt wel voor de gevaren ervan."
+    "Het SCP-rapport toont dat minder dan een derde van de Nederlanders in een persoonlijke God gelooft; Paas ziet dit als bevestiging van wat hij al jaren stelt.",
+    "Religiositeit buiten de kerk blijkt vooral aanwezig bij ouderen met een religieuze achtergrond; zonder gemeenschap en traditie verdampt geloof.",
+    "Van Geest stelt dat christendom een interpretatie- en communicatiegemeenschap is die verhalen doorgeeft; zonder die gemeenschap raakt de overdracht verloren.",
+    "Van Geest werd als katholiek theoloog hoogleraar aan een economische faculteit om het dominante mensbeeld van de homo economicus te verbreden.",
+    "Economische keuzes zijn volgens de theologen niet puur rationeel; denk aan trouw en het krijgen van kinderen.",
+    "Relationele economie, waarin waarden als respect en liefde centraal staan, wordt als alternatief voor transactionele economie gezien.",
+    "Kerkvaders als Augustinus en middeleeuwse denkers als Thomas van Aquino en Calvijn hadden al nagedacht over rente, rijkdom en matigheid.",
+    "De paus spreekt over structurele onrechtvaardigheid in het kapitalisme, terwijl kapitalisme op zich als neutraal instrument kan gelden.",
+    "Welvaart en secularisatie: landen met een gelijkmatiger verdeelde welvaart laten sterkere afname van geloof zien.",
+    "Het christelijk geloof bevordert individualisering en zelfstandig denken, wat paradoxaal genoeg ook secularisatie voedt."
   ],
   "chapters": [
     {
-      "start_seconds": 34,
-      "title": "Adviseur van de paus",
-      "summary": "Van Geest legt uit wat zijn rol in de Pauselijke Academie voor Theologie inhoudt en vertelt over zijn ontmoeting met de paus."
+      "start_seconds": 0,
+      "title": "Intro en de pauselijke adviseur",
+      "summary": "David Boogerd introduceert Van Geest, die als eerste Nederlander adviseur is van de paus, en vertelt over zijn werk in de Pauselijke Academie voor Theologie."
     },
     {
       "start_seconds": 526,
-      "title": "Het SCP-rapport en ontkerkelijking",
-      "summary": "Reflectie op de secularisatiecijfers, de verdwenen katholieke zuil en het gebrek aan spiritualiteit buiten de kerk."
+      "title": "Het SCP-rapport over ontkerkelijking",
+      "summary": "Het rapport over dalende geloofsovertuiging wordt besproken; Van Geest blikt terug op zijn katholieke jeugd en Paas duidt de cijfers wetenschappelijk."
     },
     {
-      "start_seconds": 955,
-      "title": "Doorgeven van geloof en de jezuïeten in China",
-      "summary": "Over gemeenschappen die verhalen doorgeven, charismatische leiders en Augustinus over wanhoop."
+      "start_seconds": 1179,
+      "title": "Van religie naar economie",
+      "summary": "Van Geest werd hoogleraar aan de Erasmus Universiteit en legt uit waarom het mensbeeld van de homo economicus herzien moet worden."
     },
     {
-      "start_seconds": 1200,
-      "title": "Theologie aan de Erasmus Universiteit",
-      "summary": "Waarom economen een theoloog zoeken en hoe het mensbeeld van de homo economicus wordt verbreed."
+      "start_seconds": 1878,
+      "title": "Theologie en het economisch denken",
+      "summary": "Het boek Kruis en munt en de vroege christelijke en middeleeuwse economische denkers, zoals Augustinus en Thomas van Aquino, komen aan bod."
     },
     {
-      "start_seconds": 1500,
-      "title": "Relationele economie en Augustinus",
-      "summary": "Van transactionele naar relationele economie en de vrije wil bij Augustinus versus de neurologie."
+      "start_seconds": 2213,
+      "title": "Kapitalisme en de radicaliteit van Jezus",
+      "summary": "De gespreksdeelnemers bespreken of de radicale teksten van Jezus samengaan met het kapitalisme en hoe duurzaamheid economisch beloond kan worden."
     },
     {
-      "start_seconds": 1881,
-      "title": "Rente, matigheid en rijkdom",
-      "summary": "Thomas van Aquino, Calvijn en Augustinus over rente en matigheid, en angst bij de superrijken."
+      "start_seconds": 2828,
+      "title": "Welvaart, gelijkheid en secularisatie",
+      "summary": "Een gelijkmatig verdeelde welvaart blijkt samen te gaan met afnemend geloof, terwijl het christendom zelf een bron van secularisatie is."
     },
     {
-      "start_seconds": 2210,
-      "title": "Jezus en bezit",
-      "summary": "Hoe radicaal zijn de teksten van Jezus over rijkdom en had Jezus zelf bezit?"
+      "start_seconds": 3185,
+      "title": "De paus en de toekomst van de kerk",
+      "summary": "Het gesprek richt zich op de hervormingen van paus Franciscus, zijn benoemingen van kardinalen en de vraag naar de toekomst van de Rooms-Katholieke Kerk."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 3,
+      "start_seconds": 667,
       "speaker": "Paul van Geest",
-      "text": "De bisschop van Utrecht hief in de middeleeuwen belasting op lucht bij de molenaars.",
-      "note": "Humoristische opening over religie en economie."
+      "text": "Je moet levensvragen nooit beantwoorden, maar je moet ze zo beantwoorden dat er weer 2 nieuwe vragen ontstaan.",
+      "note": "Verwoordt zijn kijk op geloof als voortdurend zoeken en stellen van nieuwe vragen."
     },
     {
-      "start_seconds": 664,
-      "speaker": "Paul van Geest",
-      "text": "Je moet levensvragen nooit beantwoorden, maar zo beantwoorden dat er weer twee nieuwe vragen ontstaan, en zo vormt zich een gelovige ziel.",
-      "note": "Kernachtige visie op geloof en theologie."
+      "start_seconds": 823,
+      "speaker": "Stefan Paas",
+      "text": "Als wetenschapper ervoer ik een klein moment van triomf, want dit rapport onderzoekt de ongelovigen, de mensen die zichzelf seculier noemen.",
+      "note": "Paas maakt het onderscheid tussen zijn rol als wetenschapper en als gelovige."
     },
     {
       "start_seconds": 1069,
       "speaker": "Paul van Geest",
-      "text": "Wanhoop is een doodzonde, zegt Augustinus; Judas ging de hel in omdat hij wanhoopte.",
-      "note": "Verrassende theologische duiding."
+      "text": "Wanhoop is een doodzonde, zegt Augustinus. Judas is niet naar de hel gegaan omdat hij de Heer verraden heeft, maar omdat hij wanhoopte.",
+      "note": "Een verrassende theologische draai over de oorzaak van Judas' ondergang."
     },
     {
-      "start_seconds": 1380,
-      "speaker": "Paul van Geest",
-      "text": "Als ik met iemand trouw, is dat een economische keuze die juist niet rationeel is genomen.",
-      "note": "Illustreert de beperking van de homo economicus."
+      "start_seconds": 1131,
+      "speaker": "Stefan Paas",
+      "text": "Het is niet de wereld die seculariseert. Het wordt steeds lastiger om te communiceren met een groot deel van de wereldbevolking.",
+      "note": "Scherpe observatie over de isolatie van Nederland ten opzichte van de rest van de wereld."
     },
     {
-      "start_seconds": 2272,
+      "start_seconds": 3018,
       "speaker": "Paul van Geest",
-      "text": "Jezus had waarschijnlijk zelf bezit, een pand dat hij ter beschikking stelde.",
-      "note": "Verrassend nieuw perspectief op Jezus en rijkdom."
+      "text": "De secularisatie is uit het christendom voortgekomen, dus Descartes was een leerling van jezuïeten.",
+      "note": "Paradoxale stelling dat de seculiere moderniteit haar wortels in het christendom heeft."
     }
   ],
   "keywords": [
     "homo economicus",
-    "relationele economie",
+    "secularisatie",
     "ontkerkelijking",
     "Augustinus",
+    "rente",
+    "kapitalisme",
+    "mensbeeld",
     "Thomas van Aquino",
     "Calvijn",
-    "rente",
-    "matigheid",
-    "Pauselijke Academie",
-    "katholieke zuil",
-    "rijkdom"
+    "relationele economie",
+    "paus Franciscus",
+    "Kruis en munt"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het sloeg in als een bom voor veel gelovigen",
+    "Kortom, religie lijkt op zijn retour",
+    "Maar dat geldt opvallend genoeg niet voor de economie. Daar maakt religie juist een comeback"
+  ],
   "similar": [
     {
       "n": 272,
-      "reason": "Geld, geloof en economie, met gast Isabella Wijnberg en Stefan Paas"
-    },
-    {
-      "n": 323,
-      "reason": "Franciscus van Assisi over geld en macht; Kerk en economie"
+      "reason": "Gaat over geld, geloof en ethiek; overlapt met vrijwel alle thema's van deze aflevering"
     },
     {
       "n": 200,
-      "reason": "Augustinus-aflevering met Paul van Geest en Stefan Paas"
-    },
-    {
-      "n": 238,
-      "reason": "Thomas van Aquino en de vraag wat gelukkig maakt"
+      "reason": "Zelfde gast Paul van Geest en besproken figuur Augustinus; kerkhistorisch en theologisch"
     },
     {
       "n": 268,
-      "reason": "Economie, cultuur en religie met Paul Schenderling over de verkochte ziel van Europa"
+      "reason": "Economie en God als centrale thema's, met een kritische blik op Europese waarden"
+    },
+    {
+      "n": 145,
+      "reason": "Economische tijden en de zoektocht naar God; sterk overlappend thema"
+    },
+    {
+      "n": 126,
+      "reason": "Economie, moraal en grote verhalen; filosofische verdieping van dezelfde vragen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

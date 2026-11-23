@@ -1,11 +1,16 @@
 {
   "episode": 233,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110502,
+    "segments": 1164,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31385,
-    "output_tokens": 2423,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57202,
+    "output_tokens": 5663,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -19,194 +24,184 @@
   ],
   "people": [
     {
-      "name": "Carlo Beenakker",
-      "note": "hoogleraar kwantumfysica in Leiden en gelovige",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 1652063,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carlo_Beenakker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Carlo_Beenakker.jpg/250px-Carlo_Beenakker.jpg"
-    },
-    {
-      "name": "Robbert Dijkgraaf",
-      "note": "noemde Beenakker een van de beste natuurkundigen van Nederland",
-      "start_seconds": 84,
-      "wiki_checked": true,
-      "wiki_pageid": 176287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robbert_Dijkgraaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/220107Robbert_Dijkgraaf32.jpg/250px-220107Robbert_Dijkgraaf32.jpg"
+      "name": "Albert Einstein",
+      "note": "natuurkundige; had moeite met verstrengeling, noemde het 'spookachtig'; geloofde in God vanwege de complexiteit van het heelal",
+      "start_seconds": 1120,
+      "mention_count": 3
     },
     {
       "name": "Heike Kamerlingh Onnes",
-      "note": "Leidse natuurkundige die supergeleiding ontdekte",
+      "note": "Leidse natuurkundige die supergeleiding ontdekte bij kwik",
       "start_seconds": 1079,
-      "wiki_checked": true,
-      "wiki_pageid": 3836,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heike_Kamerlingh_Onnes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Kamerlingh_Onnes.jpg/250px-Kamerlingh_Onnes.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Albert Einstein",
-      "note": "noemde verstrengeling 'spookachtig'; worstelde met supergeleiding en kwantumtheorie",
-      "start_seconds": 1120,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "name": "Roger Penrose",
+      "note": "Nobelprijswinnaar die stelt dat kwantumverschijnselen in de hersenen bewustzijn verklaren",
+      "start_seconds": 2226,
+      "mention_count": 1
     },
     {
-      "name": "Bernard de Castrup",
-      "note": "eerdere gast in de podcast, bezig met kwantum en bewustzijn",
-      "start_seconds": 1303,
-      "wiki_checked": true
+      "name": "Bernard de Castrum",
+      "note": "eerdere gast in De Ongelooflijke over kwantumfysica en bewustzijn",
+      "start_seconds": 1302,
+      "mention_count": 1
     },
     {
       "name": "Jacob Jolij",
-      "note": "eerdere gast in de podcast, onderzoeker naar bewustzijn",
-      "start_seconds": 1303,
-      "wiki_checked": true
+      "note": "eerdere gast in De Ongelooflijke over kwantumfysica en bewustzijn",
+      "start_seconds": 1302,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "ondernemer wiens satellieten als voorbeeld van afhankelijkheid van communicatie worden genoemd",
+      "start_seconds": 2178,
+      "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1",
+      "note": "scheppingsverhaal in zeven dagen; Beenakker stelt dat de Bijbel niet bedoeld is als wetenschappelijk boek",
+      "start_seconds": 2903
+    }
+  ],
   "places": [
     "Leiden",
-    "Nederland",
-    "Europa",
-    "China",
-    "Amerika"
+    "Delft",
+    "Den Haag",
+    "Rotterdam",
+    "Ede",
+    "Afrika"
   ],
-  "summary_tldr": "Kwantumfysicus Carlo Beenakker legt uit wat kwantumcomputers kunnen en waarom ze de wereld kunnen veranderen, van geneesmiddelen tot klimaat. Samen met David Boogerd en Stefan Paas bespreekt hij superpositie en verstrengeling, intuïtie, en de relatie tussen wetenschap en geloof. Beenakker wijst een 'God van de gaten' af, maar ziet een analogie tussen het ontwikkelen van kwantumintuïtie en religieuze intuïtie.",
+  "summary_tldr": "Kwantumfysicus Carlo Beenakker legt uit waarom kwantumcomputers grote verwachtingen wekken, zoals voor geneesmiddelen en klimaat, en hoe vreemd de kwantumwereld met superpositie en verstrengeling is. Samen met Stefan Paas bespreekt hij de gevaren van technologie, de vraag of bewustzijn uit complexiteit kan ontstaan, en hoe zijn geloof en wetenschap samengaan.",
   "summary_points": [
-    "2025 is uitgeroepen tot het internationale kwantumjaar, honderd jaar na de basis van de kwantumfysica.",
-    "Kwantumcomputers zijn geen universele supercomputers, maar sterk in het simuleren van atomen en moleculen, bijvoorbeeld voor geneesmiddelen.",
-    "De prototypes zijn nog klein en crashen na ongeveer een miljoenste seconde; ze moeten heel koud worden gehouden.",
-    "Doorbraken kunnen lang op zich laten wachten en dan plots losbarsten, zoals bij AI en ChatGPT.",
-    "Superpositie en verstrengeling zijn contra-intuïtief, maar met wiskunde kun je er intuïtie voor ontwikkelen.",
-    "Wetenschappelijke inzichten komen vaak als ingeving, die Beenakker als geschenk en met dankbaarheid ervaart.",
-    "Beenakker ziet geen rol voor God in de natuurkunde, maar gebruikt kwantum als metafoor voor het leven na de dood.",
-    "Net als bij kwantumfysica moet je ook voor God intuïtie ontwikkelen; theologie is een wetenschap met eigen regels.",
-    "Kwantumonderwijs moet breder worden, ook voor alfa- en gammawetenschappers en op scholen."
+    "2025 is het kwantumjaar; kwantumfysica bestaat al een eeuw, maar kwantumcomputers zijn pas recent praktisch in beeld gekomen",
+    "Kwantumcomputers zijn niet universeel, maar kunnen vooral moleculen en atomen simuleren, wat relevant is voor geneesmiddelen",
+    "Zeldzame ziekten krijgen weinig onderzoek omdat medicijnontwikkeling duur is; kwantumberekeningen kunnen dat versnellen",
+    "Kwantumwereld kent superpositie en verstrengeling, die tegen onze intuïtie ingaan maar wiskundig beschreven kunnen worden",
+    "Technologische doorbraken zijn moeilijk te voorspellen; prototypes blijven lang onder de radar en schieten dan ineens op",
+    "Paas waarschuwt dat technologie door economische belangen en militaire toepassingen uit de hand kan lopen",
+    "Beenakker ziet technologie niet als intrinsiek slecht; het gaat om hoe mensen die gebruiken",
+    "Beenakker vraagt zich af of bewustzijn een kwestie van complexiteit is en niet van een ziel, en benadrukt dat mensen controle moeten houden",
+    "Beenakker gaat dagelijks naar de kerk als anker tegenover nieuwsstress en ervaart God als iemand die hem kent",
+    "Zowel Beenakker als Paas zien een parallel tussen intuïtie in de natuurkunde en intuïtie voor geloof en theologie",
+    "Beenakker stelt dat klimaatproblemen niet door technologie opgelost worden maar door menselijk gedrag te veranderen"
   ],
   "chapters": [
     {
-      "start_seconds": 24,
-      "title": "Q-Day en de belofte van kwantumcomputers",
-      "summary": "Introductie van Beenakker en uitleg over het kwantumjaar 2025 en wat kwantumcomputers wel en niet kunnen."
+      "start_seconds": 0,
+      "title": "Intro en het kwantumjaar",
+      "summary": "Boogerd introduceert Beenakker en de hoge verwachtingen rond kwantumcomputers; Beenakker plaatst de kwantumfysica in de historische context van een eeuw."
     },
     {
-      "start_seconds": 271,
-      "title": "Geneesmiddelen en kwantumtaal",
-      "summary": "Over medicijnen voor zeldzame ziektes en waarom gewone computers de kwantumtaal van atomen niet spreken."
+      "start_seconds": 188,
+      "title": "Wat kunnen kwantumcomputers?",
+      "summary": "Kwantumcomputers zijn geschikt voor het simuleren van moleculen en kunnen medicijnen en klimaatoplossingen versnellen, maar lossen niet alles op."
     },
     {
-      "start_seconds": 544,
-      "title": "Hoe snel komt de doorbraak?",
-      "summary": "Over investeringen, tijdlijnen en de vergelijking met AI en ChatGPT."
-    },
-    {
-      "start_seconds": 835,
-      "title": "Ingeving en creativiteit in de wetenschap",
-      "summary": "Over verbeelding, puzzelen en ingevingen als geschenk waar Beenakker dankbaar voor is."
+      "start_seconds": 424,
+      "title": "De vreemde kwantumwereld",
+      "summary": "Superpositie en qubits worden uitgelegd, en het verschil met de klassieke logica van gewone computers."
     },
     {
       "start_seconds": 1033,
-      "title": "Honderd jaar kwantum en supergeleiding",
-      "summary": "Geschiedenis vanaf spectraallijnen tot Kamerlingh Onnes, en de technische beperkingen van huidige kwantumcomputers."
+      "title": "Supergeleiding en de kou",
+      "summary": "Het ontstaan van kwantumfysica in Leiden, de ontdekking van supergeleiding, en de technische uitdagingen van kwantumcomputers zoals kou en instabiliteit."
     },
     {
-      "start_seconds": 1299,
-      "title": "Superpositie, verstrengeling en intuïtie",
-      "summary": "Over de mysterieuze kwantumverschijnselen en hoe wiskunde helpt intuïtie te ontwikkelen."
+      "start_seconds": 1759,
+      "title": "Verstrengeling, intuïtie en God",
+      "summary": "Verstrengeling en teleportatie worden besproken, en het gesprek gaat over of de kwantumwereld ruimte laat voor religie of juist niet."
     },
     {
-      "start_seconds": 1660,
-      "title": "Kwantum, mystiek en geloof",
-      "summary": "Beenakker over leven na de dood als metafoor, geen God van de gaten en intuïtie voor het religieuze."
+      "start_seconds": 2284,
+      "title": "Gevaren en bewustzijn van AI",
+      "summary": "Paas uit zorgen over economische en militaire misbruik; Beenakker verdedigt technologie en bespreekt of bewustzijn uit complexiteit kan ontstaan."
     },
     {
-      "start_seconds": 1990,
-      "title": "Verandert kwantum ons wereldbeeld?",
-      "summary": "Over kwantumonderwijs voor iedereen en het kwantuminternet met teleportatie van informatie."
+      "start_seconds": 2694,
+      "title": "Geloof, kerk en persoonlijke ervaring",
+      "summary": "Beenakker vertelt over zijn dagelijkse kerkbezoek, zijn godservaring en hoe hij geloof ziet als anker in een onzekere wereld."
+    },
+    {
+      "start_seconds": 3806,
+      "title": "Afsluiting en aankondigingen",
+      "summary": "Boogerd vraagt naar de kwantumtoepassing die Beenakker het meest verwacht, waarna de aflevering eindigt met informatie over een live-evenement in Ede."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
-      "speaker": "Carlo Beenakker",
-      "text": "Er zijn visionairs die zeggen: dit wordt de doorbraak van de 21e eeuw.",
-      "note": "Opent de aflevering met de hoge verwachtingen."
-    },
-    {
-      "start_seconds": 858,
-      "speaker": "Carlo Beenakker",
-      "text": "Ik heb het altijd als een soort geschenk ervaren, iets waar je dankjewel voor zegt.",
-      "note": "Persoonlijke kijk op wetenschappelijke ingevingen."
-    },
-    {
-      "start_seconds": 858,
+      "start_seconds": 284,
       "speaker": "Stefan Paas",
-      "text": "Het is een beetje zoals veel mensen over God denken. Heel veel invloed, maar je denkt er nooit aan.",
-      "note": "Vergelijking tussen kwantum en God."
+      "text": "Dit kan toch ook gigantisch uit de hand lopen.",
+      "note": "Paas plaatst een kritische noot tegenover het enthousiasme over kwantumtechnologie en verwijst naar de verwachtingen die bij sociale media niet uitkwamen."
     },
     {
-      "start_seconds": 1708,
+      "start_seconds": 1120,
       "speaker": "Carlo Beenakker",
-      "text": "Ik heb een soort hoop dat als ik dood ben, dat er wel iets is, en dat ik dan denk: natuurlijk kan het.",
-      "note": "Kwantum als metafoor voor leven na de dood."
+      "text": "Het verhaal wat we vroeger hadden, van ja, de dingen die dit moet of dit mag niet... het heeft totaal geen zin.",
+      "note": "Beenakker wijst traditionele morele verhalen af en ziet het centrale geloof als 'God bestaat en hij houdt van je'."
     },
     {
-      "start_seconds": 1749,
+      "start_seconds": 2507,
       "speaker": "Carlo Beenakker",
-      "text": "Die wereld van de natuurkunde is gewoon een doos, die is afgerond. Daar heb je geen God voor nodig.",
-      "note": "Duidelijke afwijzing van een God van de gaten."
+      "text": "Bewustzijn is een mate van complexiteit van een systeem.",
+      "note": "Een scherpe stelling die bewustzijn niet als ziel ziet maar als graad van complexiteit, wat het debat over AI verandert."
     },
     {
-      "start_seconds": 1834,
+      "start_seconds": 3003,
       "speaker": "Carlo Beenakker",
-      "text": "Voor God moet je ook intuïtie ontwikkelen.",
-      "note": "Analogie tussen kwantumintuïtie en religieuze intuïtie."
+      "text": "Je kunt God niet in een formule vangen.",
+      "note": "Beenakker combineert wetenschappelijke nuchterheid met een overtuiging dat God niet te berekenen is."
+    },
+    {
+      "start_seconds": 3343,
+      "speaker": "Carlo Beenakker",
+      "text": "Ik ben echt nieuwsverslaafd... ik ben blij dat ik naar de kerk kan als een soort anker.",
+      "note": "Een persoonlijk en herkenbaar moment waarin wetenschapper en gelovige samenkomen."
     }
   ],
   "keywords": [
     "kwantumcomputer",
     "kwantumfysica",
-    "verstrengeling",
     "superpositie",
+    "verstrengeling",
     "qubit",
     "supergeleiding",
+    "bewustzijn",
     "intuïtie",
-    "Kamerlingh Onnes",
-    "Einstein",
-    "kwantuminternet",
     "geloof en wetenschap",
-    "God van de gaten"
+    "technologische risico's"
   ],
-  "quotes": [],
+  "quotes": [
+    "Een man van de wetenschap dus, maar ook een man van de kerk.",
+    "Grote beloftes... en dat komt allemaal door die mysterieuze kwantumwereld waarin alles anders werkt dan we gewend zijn."
+  ],
   "similar": [
     {
-      "n": 74,
-      "reason": "Kwantumfysica en geloof met Bernardo Kastrup, ook in de besproken personen genoemd"
-    },
-    {
       "n": 164,
-      "reason": "Jacob Jolij over bewustzijn als wetenschappelijk mysterie en geloof"
+      "reason": "Gaat over bewustzijn en de vraag of het uit de hersenen ontstaat, net als in 233"
     },
     {
       "n": 157,
-      "reason": "Natuurkundige Ard Louis over diepe mysteries, schoonheid en God"
+      "reason": "Oxford-natuurkundige over mysteries van de natuur, schoonheid en geloof, zoals Beenakker"
     },
     {
-      "n": 322,
-      "reason": "Topwetenschapper Heino Falcke over kosmos, God en wetenschap"
+      "n": 282,
+      "reason": "Hersenwetenschapper over brein, vrije wil en religie, met Stefan Paas"
     },
     {
-      "n": 167,
-      "reason": "De relatie tussen wetenschap en geloof, met Einstein en Galileo"
+      "n": 195,
+      "reason": "Onderzoek naar het ontstaan van leven, waarbij wetenschap en geloof samenkomen"
+    },
+    {
+      "n": 318,
+      "reason": "Over technologie, het brein en de crisis van het Westen, met een geloofsdimensie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

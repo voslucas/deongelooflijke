@@ -1,18 +1,23 @@
 {
   "episode": 238,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118781,
+    "segments": 915,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30885,
-    "output_tokens": 2393,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60443,
+    "output_tokens": 7525,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "God & geloof",
+    "Filosofie & ethiek",
     "Geschiedenis",
-    "Kerk & secularisatie"
+    "Zingeving & psyche"
   ],
   "guests": [
     "Niko Schonebaum"
@@ -20,279 +25,299 @@
   "people": [
     {
       "name": "Thomas van Aquino",
-      "note": "middeleeuwse filosoof en theoloog, 800 jaar geleden geboren",
+      "note": "Middeleeuwse theoloog en filosoof, centraal onderwerp van de aflevering; auteur van de Summa Theologica",
       "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
-    },
-    {
-      "name": "J.D. Vance",
-      "note": "Amerikaanse vicepresident die Thomas aanhaalde over de volgorde van liefde",
-      "start_seconds": 249,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "mention_count": 60
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof",
-      "start_seconds": 301,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Socrates",
-      "note": "Griekse filosoof",
-      "start_seconds": 301,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
+      "note": "Griekse filosoof, wiens dialogen Schonebaum met studenten leest",
+      "start_seconds": 31,
+      "mention_count": 8
     },
     {
       "name": "Aristoteles",
-      "note": "Griekse filosoof, door Thomas geïntegreerd in de theologie",
-      "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "note": "Griekse filosoof, belangrijke bron voor Thomas' filosofie",
+      "start_seconds": 320,
+      "mention_count": 5
+    },
+    {
+      "name": "Socrates",
+      "note": "Griekse filosoof, voorbeeld van het gesprek met jonge mensen",
+      "start_seconds": 31,
+      "mention_count": 3
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader",
-      "start_seconds": 566,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Dalai Lama",
-      "note": "Tibetaans geestelijk leider, door Niko bezocht in India",
-      "start_seconds": 820,
-      "wiki_checked": true,
-      "wiki_pageid": 7690,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tenzin_Gyatso_%28dalai_lama%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Tenzin_Gyatso_-_Trento_2013_01.JPG/250px-Tenzin_Gyatso_-_Trento_2013_01.JPG"
-    },
-    {
-      "name": "Paulus",
-      "note": "apostel, in Handelingen in Athene",
-      "start_seconds": 1010,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "Spinoza",
-      "note": "filosoof en atheïst, onderwerp van Nikos lezing",
-      "start_seconds": 1531,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
-    },
-    {
-      "name": "Franciscus van Assisi",
-      "note": "stichter van de Franciscanen, bedelorde",
-      "start_seconds": 1865,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "note": "Kerkvader, na de Bijbel de meest geciteerde auteur bij Thomas",
+      "start_seconds": 2691,
+      "mention_count": 6
     },
     {
       "name": "Albertus de Grote",
-      "note": "leraar van Thomas, grootste geleerde van zijn tijd",
-      "start_seconds": 2133,
-      "wiki_checked": true,
-      "wiki_pageid": 188489,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albertus_Magnus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Alberto_Magn_%28Alberto_Magno%29_-_Studiolo_di_Federico_da_Montefeltro.jpg/250px-Alberto_Magn_%28Alberto_Magno%29_-_Studiolo_di_Federico_da_Montefeltro.jpg"
+      "note": "Leraar van Thomas in Keulen en Parijs, beroemd geleerde",
+      "start_seconds": 2123,
+      "mention_count": 5
+    },
+    {
+      "name": "Dalai Lama",
+      "note": "Tibetaans boeddhistisch leider, die Schonebaum tijdens zijn reis wilde bezoeken",
+      "start_seconds": 811,
+      "mention_count": 3
+    },
+    {
+      "name": "J.D. Vance",
+      "note": "Amerikaanse vicepresident die Thomas van Aquino aanhaalde",
+      "start_seconds": 240,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Atheïstische auteur van The God Delusion, bekritiseerd om zijn weergave van de godsbewijzen",
+      "start_seconds": 3316,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "Filosoof, eerder te gast in de podcast over de vraag of God bestaat",
+      "start_seconds": 3359,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Hervormer die zich verzette tegen de scholastiek",
+      "start_seconds": 2797,
+      "mention_count": 1
+    },
+    {
+      "name": "Spinoza",
+      "note": "Atheïstische filosoof waarmee Schonebaum zich in het studentenhuis bezighield",
+      "start_seconds": 1520,
+      "mention_count": 2
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "Stichter van de Franciscanen, voorbeeld van bedelorden",
+      "start_seconds": 1880,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel, citeerde over werk als stro en over Handelingen",
+      "start_seconds": 1012,
+      "mention_count": 4
+    },
+    {
+      "name": "Avicenna",
+      "note": "Arabische filosoof die Thomas kende",
+      "start_seconds": 2498,
+      "mention_count": 1
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "Britse schrijver die over Thomas' levitatie schreef",
+      "start_seconds": 3608,
+      "mention_count": 1
     },
     {
       "name": "Lodewijk IX",
-      "note": "koning van Frankrijk bij wie Thomas aan tafel zat",
-      "start_seconds": 199,
-      "wiki_checked": true,
-      "wiki_pageid": 54365,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_IX_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/El_Greco_-_Saint_Louis_roi_de_France_et_un_page_02.jpg/250px-El_Greco_-_Saint_Louis_roi_de_France_et_un_page_02.jpg"
+      "note": "Franse koning bij wie Thomas aan tafel zou hebben gezeten",
+      "start_seconds": 184,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Summa Theologica",
       "author": "Thomas van Aquino",
-      "note": "meesterwerk, systematisch opgezet met argumenten voor en tegen, onvoltooid",
-      "start_seconds": 2191,
+      "note": "Meesterwerk van Thomas, een systematisch overzicht van de theologie in ongeveer 2300 artikelen",
+      "start_seconds": 2183,
       "volume_id": "AHhVSwAACAAJ",
       "canonical_title": "Theologische Summa van den Heiligen Thomas van Aquino",
       "canonical_author": "Thomas van Aquino",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "The God Delusion",
+      "author": "Richard Dawkins",
+      "note": "Boek waarin Dawkins de godsbewijzen bekritiseert, volgens Stefan Paas gebaseerd op Wikipedia",
+      "start_seconds": 3316,
+      "volume_id": "grccDzrTWLUC",
+      "canonical_title": "The God Delusion",
+      "canonical_author": "Richard Dawkins",
+      "isbn13": "9781409091585",
+      "isbn10": "1409091589",
+      "thumbnail": "http://books.google.com/books/content?id=grccDzrTWLUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Belijdenissen",
+      "author": "Augustinus",
+      "note": "Werk van Augustinus dat Schonebaum moeilijk vond om te lezen",
+      "start_seconds": 2836,
+      "volume_id": "AZBJGQAACAAJ",
+      "canonical_title": "Belijdenissen / druk 14",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026321023",
+      "isbn10": "9026321023",
+      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Handelingen 17",
-      "note": "Paulus in Athene tussen de filosofen, aangeraden door de non in de trein",
-      "start_seconds": 908
+      "ref": "Genesis 5",
+      "note": "Schonebaum begon in het vliegtuig te lezen en haakte af bij de geslachtslijsten",
+      "start_seconds": 897
     },
     {
-      "ref": "Genesis 5",
-      "note": "geslachtslijsten waar Niko in vastliep bij het lezen",
-      "start_seconds": 908
+      "ref": "Handelingen",
+      "note": "Het boek dat de non hem aanraadde, dat een belangrijk moment in zijn bekering werd",
+      "start_seconds": 1012
+    },
+    {
+      "ref": "1 Korintiërs 3:12-13",
+      "note": "Stefan Paas verwijst naar het beeld van werk als stro en goud, dat Thomas toepast op zijn eigen werk",
+      "start_seconds": 3569
     }
   ],
   "places": [
-    "Aquino",
-    "Napels",
-    "Montecassino",
-    "Parijs",
-    "Keulen",
     "Toulouse",
     "Utrecht",
     "Amsterdam",
-    "India",
-    "Athene"
+    "Parijs",
+    "Keulen",
+    "Napels",
+    "Aquino",
+    "Athene",
+    "India"
   ],
-  "summary_tldr": "Niko Schonebaum vertelt over Thomas van Aquino, 800 jaar na zijn geboorte, en over zijn eigen weg van seculiere atheïst naar de katholieke kerk. Het gesprek gaat over het nut van klassieke denkers, Thomas' radicale roeping en de opzet van de Summa Theologica.",
+  "summary_tldr": "In deze aflevering bespreken David Boogerd, Stefan Paas en Niko Schonebaum het leven en werk van Thomas van Aquino, die 800 jaar geleden werd geboren. Schonebaum, die van atheïst tot christen werd, legt uit waarom Thomas' rationele en tegelijk nederige benadering van geloof nog steeds relevant is. Het gesprek gaat over zijn godsbewijzen, zijn mystieke ervaring aan het einde van zijn leven en zijn vraag wat gelukkig maakt.",
   "summary_points": [
-    "Thomas' schedel toert door Europa vanwege zijn 800e verjaardag",
-    "Klassieke denkers geven rust en verankering tegenover de waan van de dag",
-    "Niko's studenten kiezen vrijwillig voor het lezen van oude teksten",
-    "Niko was als tiener atheïst en schreef ongenuanceerd tegen het christendom",
-    "Een ervaring van Gods aanwezigheid en de levensvreugde van gelovigen leidden tot zijn bekering",
-    "Niko zegt dat God hem zocht, niet andersom, en dat het denken niet alles is",
-    "Thomas koos tegen de wil van zijn adellijke familie voor de Dominicanen",
-    "Albertus de Grote herkende het intellect van de 'zwijgzame os'",
-    "De Summa Theologica is een systematisch bouwwerk als een kathedraal"
+    "Thomas van Aquino wordt 800 jaar na zijn geboorte herdacht, en zijn schedel reist op tournee door Europa.",
+    "Schonebaum leert studenten al jaren klassieke teksten lezen als tegenwicht tegen de snelheid van social media.",
+    "Als jongere was Schonebaum atheïst en schreef hij een werkstuk waarin hij het christelijk standpunt afwees.",
+    "Zijn bekering kwam via een studentenhuis met katholieke bewoners, een gevoel van Gods aanwezigheid en een gesprek met een priester.",
+    "Thomas koos tegen de wil van zijn familie in voor de Dominicanen en leefde in armoede.",
+    "Zijn Summa Theologica is een systematisch werk met vraag-en-antwoordartikelen die filosofie en theologie integreren.",
+    "Thomas gebruikt rationele argumenten, zoals het eerste-oorzaakargument, om het bestaan van God aannemelijk te maken.",
+    "Op 6 december 1273 had Thomas een mystieke ervaring waarna hij zijn werk als stro beschouwde.",
+    "Volgens Schonebaum is het vragen naar wat gelukkig maakt een tijdloze vraag, en wijst Thomas geld, roem en genot af als bron van geluk.",
+    "De aflevering eindigt met de vraag hoe jongeren weer grote levensvragen kunnen gaan verkennen."
   ],
   "chapters": [
     {
-      "start_seconds": 31,
-      "title": "Thomas op tournee",
-      "summary": "Inleiding over Thomas' 800e verjaardag, zijn schedel die door Europa reist en anekdotes over zijn hyperfocus."
+      "start_seconds": 0,
+      "title": "Introductie en de schedel op tournee",
+      "summary": "Boogerd en Paas introduceren Thomas van Aquino en zijn schedel die door Europa reist. Ook wordt Schonebaums werk met studenten besproken."
     },
     {
-      "start_seconds": 329,
-      "title": "Oude denkers in een gejaagde tijd",
-      "summary": "Niko over lesgeven in Plato en Thomas en waarom studenten geraakt worden door rustig lezen."
+      "start_seconds": 733,
+      "title": "Schonebaums weg naar het geloof",
+      "summary": "Schonebaum vertelt over zijn seculiere opvoeding, zijn atheïsme en de gebeurtenissen die leidden tot zijn bekering."
     },
     {
-      "start_seconds": 709,
-      "title": "Van atheïst tot gelovige",
-      "summary": "Niko's opvoeding, het creationisme-werkstuk, India, de non in de trein en Handelingen."
+      "start_seconds": 1769,
+      "title": "Het leven van Thomas van Aquino",
+      "summary": "Thomas' adellijke afkomst, zijn keuze voor de Dominicanen en het verzet van zijn familie komen aan bod."
     },
     {
-      "start_seconds": 1035,
-      "title": "Het katholieke studentenhuis en bekering",
-      "summary": "Het gevoel van Gods aanwezigheid, de levensvreugde van huisgenoten en het gesprek met de priester in Amsterdam."
-    },
-    {
-      "start_seconds": 1470,
-      "title": "Rationaliseren en de grenzen van het denken",
-      "summary": "Waarom Niko zijn ervaring niet kon wegrationaliseren en hoe God naar hem toe kwam."
-    },
-    {
-      "start_seconds": 1768,
-      "title": "Het leven van Thomas",
-      "summary": "Adellijke afkomst, Montecassino, de Dominicanen, ontvoering door zijn broers en studie bij Albertus."
-    },
-    {
-      "start_seconds": 2191,
+      "start_seconds": 2183,
       "title": "De Summa Theologica",
-      "summary": "Opzet van het werk als systematisch bouwwerk met argumenten voor en tegen, vergeleken met een kathedraal."
+      "summary": "Het werk wordt beschreven als een systematisch bouwwerk dat filosofie en theologie integreert, vergelijkbaar met een kathedraal."
+    },
+    {
+      "start_seconds": 2967,
+      "title": "Bestaat God? De godsbewijzen",
+      "summary": "Thomas' eerste-oorzaakargument en de kritiek van Dawkins worden besproken, evenals de rationele aard van zijn redenering."
+    },
+    {
+      "start_seconds": 3416,
+      "title": "De mystieke ervaring en het stro",
+      "summary": "Het verhaal over Thomas' mystieke ervaring en zijn uitspraak dat zijn werk als stro is, wordt besproken."
+    },
+    {
+      "start_seconds": 3844,
+      "title": "Wat maakt gelukkig?",
+      "summary": "Thomas' reflectie op geld, roem en genot als bronnen van geluk wordt toegelicht, en de relevantie voor jongeren."
+    },
+    {
+      "start_seconds": 4359,
+      "title": "Lezen, begeleiding en slot",
+      "summary": "Schonebaum bespreekt hoe studenten teksten leren lezen en welke grote vragen hij als startpunt aanraadt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 15,
+      "start_seconds": 2123,
       "speaker": "Niko Schonebaum",
-      "text": "Zijn broers ontvoerden hem en stuurden een prostituee naar zijn kamer.",
-      "note": "Schokkend verhaal over de weerstand van Thomas' familie tegen zijn roeping."
+      "text": "Albertus de Grote zei over Thomas: wacht maar af, deze os zal nog eens beginnen te loeien, zodat de eeuwen ervan weerklinken.",
+      "note": "Een treffende voorspelling over Thomas' latere invloed, die zich in 800 jaar heeft bewaarheid."
     },
     {
-      "start_seconds": 1993,
+      "start_seconds": 3416,
+      "text": "Thomas zou vergeleken met zijn ervaring in het gebed zijn eigen werk als stro hebben beschouwd.",
       "speaker": "Niko Schonebaum",
-      "text": "Thomas joeg de vrouw weg met een brandend stuk hout en kerfde een askruis op de deur.",
-      "note": "Kleurrijke middeleeuwse anekdote die Thomas minder tot kamergeleerde maakt."
+      "note": "Een paradox: iemand die miljoenen woorden schreef, ervaart dat het wezenlijke niet in woorden te vatten is."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 1646,
       "speaker": "Niko Schonebaum",
-      "text": "Ik zat in de trein en een non gaf me een zakevangelie: God wil dat ik dat aan jou geef.",
-      "note": "Opmerkelijk moment in Niko's bekering."
+      "text": "Ik ben niet op zoek gegaan naar God omdat ik het gevoel had dat er iets ontbrak in mijn leven. God is naar mij toegekomen.",
+      "note": "Een persoonlijke getuigenis die de bekering omkeert: niet de zoeker, maar de gevonden."
     },
     {
-      "start_seconds": 1073,
+      "start_seconds": 2659,
       "speaker": "Niko Schonebaum",
-      "text": "Het gevoel dat iemand achter me stond die wilde dat ik omkeek.",
-      "note": "Beeldende beschrijving van zijn ervaring van Gods aanwezigheid."
+      "text": "Een mysterie is niet iets wat je niet kunt begrijpen, maar iets wat je altijd beter kunt begrijpen.",
+      "note": "Een scherpe definitie die laat zien hoe rede en geloof bij Thomas samengaan."
     },
     {
-      "start_seconds": 2160,
+      "start_seconds": 4512,
       "speaker": "Niko Schonebaum",
-      "text": "Albertus zei: deze os zal nog eens beginnen te loeien, dat de eeuwen ervan weer klinken.",
-      "note": "Profetische uitspraak die Thomas' blijvende invloed typeert."
+      "text": "Wat maakt gelukkig? God.",
+      "note": "Het korte antwoord op de centrale vraag van de aflevering, dat direct ter discussie staat."
     }
   ],
   "keywords": [
     "Thomas van Aquino",
     "Summa Theologica",
+    "godsbewijzen",
+    "geluk",
+    "deugden",
     "scholastiek",
     "bekering",
-    "katholieke kerk",
-    "Dominicanen",
-    "Albertus de Grote",
-    "Aristoteles",
-    "klassieke denkers",
-    "Spinoza",
-    "geluk",
-    "Plato"
+    "mysterie",
+    "rede en geloof",
+    "klassieke teksten"
   ],
-  "quotes": [],
+  "quotes": [
+    "Thomas van Aquino is een van die historische figuren die je eigenlijk wel moet kennen, hij is één van de grootste Europese denkers ooit.",
+    "Hij is seculier opgevoed, was atheïst maar kwam op een bijzondere manier toch bij het christendom terecht.",
+    "Wat kunnen we leren van deze grote denker?"
+  ],
   "similar": [
     {
-      "n": 200,
-      "reason": "Ook een klassieke denker (Augustinus) uitgelicht, met geschiedenis, geloof en kerk."
-    },
-    {
-      "n": 190,
-      "reason": "Schrijver die van atheïst tot geloof kwam, en zoekt naar waarheid en God."
-    },
-    {
       "n": 189,
-      "reason": "Filosofische argumenten voor het bestaan van God, net als Thomas' Summa."
+      "reason": "Filosofische argumenten voor het bestaan van God, net als de godsbewijzen van Thomas"
     },
     {
-      "n": 208,
-      "reason": "Anton de Wit over een christelijke denker, Chesterton, met geloof en cultuur."
+      "n": 6,
+      "reason": "Gesprek over godsbewijzen en de vraag of God bestaat, met dezelfde filosoof"
     },
     {
-      "n": 49,
-      "reason": "Filosoof die van atheïsme tot geloof kwam, met geschiedenis en kerk."
+      "n": 200,
+      "reason": "Grote aflevering over Augustinus, een van de kerkvaders die ook in 238 besproken wordt"
+    },
+    {
+      "n": 217,
+      "reason": "Filosofie over existentiële eenzaamheid en het zoeken naar geluk, zoals in 238"
+    },
+    {
+      "n": 171,
+      "reason": "Zingeving en geluk vanuit een wetenschappelijk perspectief, aansluitend bij de vraag wat gelukkig maakt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 142,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115084,
+    "segments": 1140,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30818,
-    "output_tokens": 2416,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58604,
+    "output_tokens": 3200,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
-    "God & geloof",
-    "Filosofie & ethiek",
-    "Kunst & cultuur"
+    "Dood & rouw",
+    "Klimaat & natuur",
+    "God & geloof"
   ],
   "guests": [
     "Marianne Thieme"
@@ -20,69 +25,119 @@
   "people": [
     {
       "name": "Marianne Thieme",
-      "note": "medeoprichter en voormalig leider van de Partij voor de Dieren, theologiestudent en essayist",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 24815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marianne_Thieme",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Marianne_Thieme_Partij_voor_de_Dieren_PvdD.jpg/250px-Marianne_Thieme_Partij_voor_de_Dieren_PvdD.jpg"
+      "note": "gast; oprichter en voormalig leider Partij voor de Dieren, theologe",
+      "start_seconds": 105,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 40
     },
     {
       "name": "Sally Rooney",
-      "note": "Ierse schrijfster, stem van de millennials",
-      "start_seconds": 561,
-      "wiki_checked": true,
-      "wiki_pageid": 5164690,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sally_Rooney",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sally_Rooney.png/250px-Sally_Rooney.png"
-    },
-    {
-      "name": "Jezus",
-      "note": "revolutionair die de tafels van de geldwisselaars omver gooide",
-      "start_seconds": 385,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
+      "note": "Ierse schrijfster van 'Prachtige wereld, waar ben je?'",
+      "start_seconds": 560,
+      "mention_count": 20
     },
     {
       "name": "René Descartes",
-      "note": "filosoof van het verlichtingsdenken en rationalisering",
-      "start_seconds": 824,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "note": "filosoof, verlichtingsdenken en rationalisering",
+      "start_seconds": 820,
+      "mention_count": 3
     },
     {
       "name": "Paul Kingsnorth",
-      "note": "milieuactivist en christen die het vooruitgangsverhaal bekritiseert",
+      "note": "milieuactivist en christen, orthodox christen geworden",
       "start_seconds": 1290,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Edna O'Brien",
-      "note": "Ierse schrijfster uit de jaren 60 (emancipatie)",
-      "start_seconds": 1400,
-      "wiki_checked": true
+      "note": "Ierse schrijfster, 'De plattelandsmeisjes'",
+      "start_seconds": 1380,
+      "mention_count": 1
     },
     {
-      "name": "Simon",
-      "note": "gelovig personage in het boek van Sally Rooney",
-      "start_seconds": 1531,
-      "wiki_checked": true
+      "name": "Milton Friedman",
+      "note": "economen, winstmaximalisatie",
+      "start_seconds": 3600,
+      "mention_count": 1
+    },
+    {
+      "name": "Theodor Adorno",
+      "note": "filosoof van de Frankfurter Schule, kritiek op instrumentele rationaliteit",
+      "start_seconds": 2010,
+      "mention_count": 2
+    },
+    {
+      "name": "Max Horkheimer",
+      "note": "filosoof van de Frankfurter Schule",
+      "start_seconds": 2010,
+      "mention_count": 2
+    },
+    {
+      "name": "Jürgen Habermas",
+      "note": "filosoof, instrumentele rationaliteit",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "Ian McGilchrist",
+      "note": "filosoof, beeld van muziek en hersenhelften",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Dante Alighieri",
+      "note": "Italiaanse dichter, 'liefde beweegt de zon en de sterren'",
+      "start_seconds": 2790,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Keller",
+      "note": "prediker en theoloog uit New York, recent overleden",
+      "start_seconds": 4080,
+      "mention_count": 2
+    },
+    {
+      "name": "Bob Goudswaard",
+      "note": "oudere theoloog/econoom, medeauteur 'Beyond the Modern Age'",
+      "start_seconds": 4020,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Schendelen",
+      "note": "auteur van 'Leven na de groei'",
+      "start_seconds": 3840,
+      "mention_count": 2
+    },
+    {
+      "name": "Trace van Montfort",
+      "note": "auteur 'Groene Theologie'",
+      "start_seconds": 4260,
+      "mention_count": 1
+    },
+    {
+      "name": "Willis Jenkins",
+      "note": "auteur 'Ecologies of Grace'",
+      "start_seconds": 4270,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "tafels omgegooid in de tempel als voorbeeld",
+      "start_seconds": 378,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Prachtige wereld, waar ben je?",
       "author": "Sally Rooney",
-      "note": "centraal in Thiemes essay: leegte van de moderne tijd en verlangen naar liefde en betekenis",
-      "start_seconds": 541,
+      "note": "centraal boek in het essay van Thieme over leegte en zingeving",
+      "start_seconds": 560,
       "volume_id": "37wyEAAAQBAJ",
       "canonical_title": "Prachtige wereld, waar ben je",
       "canonical_author": "Sally Rooney",
@@ -91,150 +146,185 @@
       "thumbnail": "http://books.google.com/books/content?id=37wyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Terug naar de traditie",
-      "author": "Marianne Thieme",
-      "note": "theologisch essay in de Groene Amsterdammer",
-      "start_seconds": 5
+      "title": "Conversations with Friends",
+      "author": "Sally Rooney",
+      "note": "eerder werk van Rooney, kort genoemd",
+      "start_seconds": 580,
+      "volume_id": "DE9JvwEACAAJ",
+      "canonical_title": "Conversations with Friends",
+      "canonical_author": "Sally Rooney",
+      "isbn13": "9781785414831",
+      "isbn10": "1785414836",
+      "thumbnail": ""
+    },
+    {
+      "title": "Leven na de groei",
+      "author": "Paul Schnabel",
+      "note": "boek over economische groei, aanbevolen door publiek",
+      "start_seconds": 3840
+    },
+    {
+      "title": "Beyond the Modern Age",
+      "author": "Bob Goudswaard en Greg Bartholomew",
+      "note": "over wereldbeeld en vooruitgangsgeloof",
+      "start_seconds": 4020
+    },
+    {
+      "title": "Groene Theologie",
+      "author": "Trace van Montfort",
+      "note": "overzicht theologische tradities rond schepping",
+      "start_seconds": 4260
+    },
+    {
+      "title": "Ecologies of Grace",
+      "author": "Willis Jenkins",
+      "note": "bronnen voor scheppingsvriendelijk leven",
+      "start_seconds": 4270,
+      "volume_id": "5Irj1a0ID4wC",
+      "canonical_title": "Ecologies of Grace",
+      "canonical_author": "Willis Jenkins",
+      "isbn13": "9780198043980",
+      "isbn10": "0198043988",
+      "thumbnail": "http://books.google.com/books/content?id=5Irj1a0ID4wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Psalmen 104",
-      "note": "God stuurt zijn adem uit en alles wordt geschapen: afhankelijkheid en kwetsbaarheid van leven",
-      "start_seconds": 2297
+      "ref": "Psalm 104",
+      "note": "Adem van God en kwetsbare schepping",
+      "start_seconds": 2300
     }
   ],
   "places": [
     "Biddinghuizen",
-    "Amsterdam",
-    "Utrecht",
-    "Ierland",
     "Dublin",
+    "Ierland",
     "Amerika",
     "New York",
-    "Noordpool"
+    "Malawi"
   ],
-  "summary_tldr": "Op het Opwekkingsfestival spreken David Boogerd en Stefan Paas met Marianne Thieme over haar theologische essay 'Terug naar de traditie', gebaseerd op Sally Rooneys roman. Ze bespreken de leegte en richtingloosheid van de moderne, instrumentele cultuur en waarom veel mensen sympathie voelen voor geloof maar de sprong niet durven te wagen. Thieme pleit voor een revolutionair, liefdevol christendom dat ook oog heeft voor de hele schepping.",
+  "summary_tldr": "Marianne Thieme, oud-leider van de Partij voor de Dieren en bijna-theologe, bespreekt live op het Opwekkingsfestival haar essay 'Terug naar de traditie' waarin de leegte van de moderne tijd en het verlangen naar een prachtige wereld centraal staan. Aan de hand van Sally Rooney's roman betogen zij en Stefan Paas dat het instrumentele rationaliteitsdenken de betekenis uit de wereld heeft gehaald. Zij zoeken naar hoop en overgave als tegenwicht.",
   "summary_points": [
-    "Marianne Thieme studeert af als theoloog en ziet dit als een vervolg op haar politieke idealisme.",
-    "Millennials ervaren wanhoop, depressiviteit en de angst dat de wereld ten einde loopt.",
-    "De instrumentele rationaliteit sinds Descartes reduceert mens en natuur tot nut.",
-    "Sally Rooneys personages zoeken betekenis in liefde en relaties, maar zetten de stap naar geloof niet.",
-    "Christelijke taal is voor veel mensen besmet door kerkelijke dogma's, onderdrukking en schandalen.",
-    "Overgave en controleverlies zijn drempels, zowel in de liefde als in het geloof.",
-    "Het christendom is volgens Thieme niet conservatief maar revolutionair.",
-    "Het mensgerichte denken en de bio-industrie ondermijnen de geloofwaardigheid van het christendom.",
-    "Schoonheid en kwetsbaarheid van de schepping kunnen leiden tot verwondering en mededogen."
+    "Thieme studeert af als theoloog en koesterde deze wens al lang.",
+    "Sally Rooney's roman beschrijft de leegte en wanhoop van millennials.",
+    "Het verlichtingsdenken en instrumentele rationaliteit hebben betekenis gereduceerd tot nut.",
+    "Natuur en mens worden geïnstrumentaliseerd, met ecologische en sociale gevolgen.",
+    "Vooruitgangsbelofte blijkt een illusie voor velen; de vooruitgang stokt in het Westen.",
+    "Geloof vraagt overgave en vertrouwen, een sprong die veel mensen niet durven.",
+    "Schoonheid, eerbied en kwetsbaarheid worden als tegenwicht genoemd.",
+    "Het klimaatprobleem is volgens Paas ook een religieus probleem van verstoorde verhoudingen.",
+    "Hoop wordt gezien als plicht en als overgave aan een groter verhaal."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening op het Opwekkingsfestival",
-      "summary": "Introductie van Marianne Thieme en Stefan Paas en eerste indrukken van het festival."
+      "title": "Welkom en voorstelling",
+      "summary": "Boogerd introduceert Thieme en Paas en de live-setting op Opwekking."
     },
     {
-      "start_seconds": 210,
-      "title": "Waarom een politica theologie studeert",
-      "summary": "Thieme legt uit dat theologie een lang gekoesterde wens was en een vervolg op haar politieke werk."
+      "start_seconds": 300,
+      "title": "Thieme's weg naar de theologie",
+      "summary": "Thieme vertelt waarom ze theologie studeert na jaren in de politiek."
     },
     {
-      "start_seconds": 541,
-      "title": "Sally Rooney en de millennials",
-      "summary": "Het boek 'Prachtige wereld, waar ben je?' en het gevoel van wanhoop en leegte bij jongeren."
+      "start_seconds": 560,
+      "title": "Sally Rooney en de millennial-leegte",
+      "summary": "Bespreking van Rooney's roman en het gevoel van een verloren belofte van vooruitgang."
     },
     {
-      "start_seconds": 824,
-      "title": "Moderniteit en instrumentele rationaliteit",
-      "summary": "Over Descartes, verlichting, nutsdenken en het verlies van betekenis en vrijheid."
+      "start_seconds": 820,
+      "title": "Verlichting, rationaliteit en betekenisverlies",
+      "summary": "Descartes, instrumentele rede en het verlies van zin en waarde in de natuur."
     },
     {
-      "start_seconds": 1290,
-      "title": "Vooruitgang die stokt",
-      "summary": "Het vooruitgangsverhaal verbrokkelt; Kingsnorth en de terugkeer naar het platteland en relaties."
+      "start_seconds": 1800,
+      "title": "Christendom, kritiek en revolutie",
+      "summary": "Discussie over of het christendom conservatief of revolutionair is en hoe het zich aanpaste."
     },
     {
-      "start_seconds": 1531,
-      "title": "De sprong naar geloof",
-      "summary": "Waarom Rooneys personages het geloof benijden maar niet durven: overgave, dogma's en besmette taal."
+      "start_seconds": 2700,
+      "title": "Schoonheid, eerbied en de klimaatcrisis",
+      "summary": "Schoonheid en rentmeesterschap als religieuze bronnen voor ecologische verantwoordelijkheid."
     },
     {
-      "start_seconds": 1985,
-      "title": "Een revolutionair christendom",
-      "summary": "Het christendom als niet-conservatief, de kroon-op-de-schepping-gedachte en Thiemes missie naar seculieren en christenen."
-    },
-    {
-      "start_seconds": 2284,
-      "title": "Schoonheid en kwetsbaarheid",
-      "summary": "Over schoonheid, verwondering en overgave als weg naar mededogen."
+      "start_seconds": 3300,
+      "title": "Publieksvragen en boekentips",
+      "summary": "Vragen over de oorzaak van de verwarring, hoop en aanbevolen literatuur."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 663,
+      "start_seconds": 1210,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt schoonheid nooit vinden door het steeds verder uit elkaar te sleutelen. Het moet weer in mekaar.",
+      "note": "Beeld van de muziek die gespeeld moet worden, samenvatting van de kritiek op analyse zonder overgave."
+    },
+    {
+      "start_seconds": 1530,
       "speaker": "Marianne Thieme",
-      "text": "We lijken wel in de laatste verlichte kamer te staan, waarna het licht uitgaat.",
-      "note": "Rooney-citaat dat het doembeeld van millennials samenvat."
+      "text": "Het christendom is niet conservatief, want de naamgever van het geloof was allesbehalve conservatief. Die was een revolutionair.",
+      "note": "Scherpe tegenwerping tegen het conservatieve imago van geloof."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 1080,
       "speaker": "Stefan Paas",
-      "text": "Als je alleen nog naar de ander kijkt om die te gebruiken, sterft die ander een beetje af; de enige die je kunt ontleden is een lijk.",
-      "note": "Scherpe beeldspraak over nutsdenken."
+      "text": "Het klimaatprobleem is in feite een religieus probleem.",
+      "note": "Verrassende stelling uit een NRC-stuk, toegelicht als verstoorde verhouding tot de schepping."
     },
     {
-      "start_seconds": 1685,
-      "speaker": "Stefan Paas",
-      "text": "Ik wil je vriendschap niet verliezen, laten we daarom geen relatie beginnen: een metafoor voor hoe mensen naar God kijken.",
-      "note": "Origineel inzicht over angst voor overgave."
-    },
-    {
-      "start_seconds": 1988,
+      "start_seconds": 1000,
       "speaker": "Marianne Thieme",
-      "text": "Als iets niet conservatief moet zijn, is het christendom, want de naamgever was een revolutionair.",
-      "note": "Antwoord op de centrale vraag van de aflevering."
+      "text": "Zoals Sally Rooney zegt, we lijken in de laatste verlichte kamer te staan, waarna het licht uitgaat.",
+      "note": "Sterk beeld van het gevoel van ondergang bij jonge generaties."
     },
     {
-      "start_seconds": 2056,
-      "speaker": "Stefan Paas",
-      "text": "Een crisis van onze cultuur is een religieuze crisis, bij uitstek ook een crisis van de religies.",
-      "note": "Nuanceert dat het niet alleen om ongelovigen gaat."
+      "start_seconds": 3520,
+      "speaker": "Marianne Thieme",
+      "text": "Ik hoop dat jij je stem vaak laat horen, waar je ook maar bent.",
+      "note": "Oproep aan de luisteraar om emoties om te zetten in actie."
     }
   ],
   "keywords": [
-    "Marianne Thieme",
-    "Sally Rooney",
-    "Partij voor de Dieren",
-    "millennials",
-    "zingevingscrisis",
     "instrumentele rationaliteit",
     "verlichting",
-    "overgave",
+    "zingeving",
+    "leegte",
+    "Sally Rooney",
     "schoonheid",
-    "schepping",
-    "Descartes",
-    "revolutionair christendom"
+    "rentmeesterschap",
+    "secularisatie",
+    "klimaatcrisis",
+    "overgave",
+    "hoop",
+    "Opwekking"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik denk dat het in de lucht hangt.",
+    "Het is liefde die de zon en de sterren beweegt.",
+    "Theologie kan nooit buiten de wereld staan."
+  ],
   "similar": [
     {
       "n": 55,
-      "reason": "Eerdere aflevering met Marianne Thieme over klimaat, religie en liefde voor de natuur"
-    },
-    {
-      "n": 308,
-      "reason": "Betekenisloosheid in een uitgeputte wereld en zoektocht naar vreugde en geloof"
-    },
-    {
-      "n": 297,
-      "reason": "Cultuur met burn-out; boek over geloof, leegte en verlangen naar bezieling"
+      "reason": "Zelfde gast Marianne Thieme en Stefan Paas; over klimaat, religie en liefde voor de natuur."
     },
     {
       "n": 314,
-      "reason": "Waarom het moderne leven leeg voelt: zingevingscrisis en geloof"
+      "reason": "Zelfde thema's: de leegte van het moderne leven en de zingevingscrisis."
     },
     {
-      "n": 109,
-      "reason": "Nihilisme en zinloosheid, de sprong naar geloof"
+      "n": 265,
+      "reason": "Kritiek op de moderne levensstijl en het verlangen naar wie we werkelijk zijn."
+    },
+    {
+      "n": 318,
+      "reason": "Kritiek op de moderne rationaliteit; gaat in op Ian McGilchrist, die ook in #142 wordt besproken."
+    },
+    {
+      "n": 274,
+      "reason": "Gaat over dood, zingeving en het herwaarderen van het menselijk bestaan in de moderne samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

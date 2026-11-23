@@ -1,18 +1,23 @@
 {
   "episode": 61,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115172,
+    "segments": 1332,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31969,
-    "output_tokens": 1974,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60851,
+    "output_tokens": 2588,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Kerk & secularisatie",
-    "Zingeving & psyche",
-    "Filosofie & ethiek"
+    "Bijbel & Jezus",
+    "Samenleving & migratie",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Tim Hofman"
@@ -20,185 +25,227 @@
   "people": [
     {
       "name": "Tim Hofman",
-      "note": "presentator BNNVARA, nihilist, gast",
+      "note": "presentator BNNVARA, gast in aflevering",
+      "start_seconds": 3,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 3025374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Hofman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tim_Hofman_%282018%29.jpg/250px-Tim_Hofman_%282018%29.jpg"
-    },
-    {
-      "name": "Dominee de Geus",
-      "note": "predikant uit Vlaardingen uit Tims jeugd, nu helper van daklozen en verslaafden",
-      "start_seconds": 316,
-      "wiki_checked": true
-    },
-    {
-      "name": "Freek de Jonge",
-      "note": "cabaretier, genoemd als voorbeeld van iemand die met religie bezig is",
-      "start_seconds": 758,
-      "wiki_checked": true,
-      "wiki_pageid": 48168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Freek_de_Jonge_%28cabaretier%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Freek_de_Jonge_in_2018_door_Dirk_Annemans.jpg/250px-Freek_de_Jonge_in_2018_door_Dirk_Annemans.jpg"
-    },
-    {
-      "name": "Thijs van den Brink",
-      "note": "presentator van een ander programma waar Tim zijn verhaal vertelde",
-      "start_seconds": 990,
-      "wiki_checked": true
-    },
-    {
-      "name": "Kees Torn",
-      "note": "citaat: niet ik viel van mijn geloof, maar mijn geloof viel van mij",
-      "start_seconds": 1043,
-      "wiki_checked": true,
-      "wiki_pageid": 81465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_Torn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kees_Torn%2C_1991.jpg/250px-Kees_Torn%2C_1991.jpg"
-    },
-    {
-      "name": "René Descartes",
-      "note": "filosoof, ontologisch godsbewijs",
-      "start_seconds": 1177,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "mention_count": 50
     },
     {
       "name": "Jezus",
-      "note": "in de beschrijving gezien als 'leukste man ooit'; Tim ziet hem als linkse, gezellige man",
-      "start_seconds": 17,
-      "wiki_checked": true,
-      "wiki_pageid": 847,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28historisch%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg/250px-Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg"
+      "note": "centrale figuur in het gesprek; 'de leukste man ooit'",
+      "start_seconds": 1059,
+      "mention_count": 12
+    },
+    {
+      "name": "Descartes",
+      "note": "filosoof; zijn godsbewijs besproken als cirkelredenering",
+      "start_seconds": 1140,
+      "mention_count": 2
+    },
+    {
+      "name": "Kees Thorne",
+      "note": "zei dat zijn geloof van hem viel",
+      "start_seconds": 1000,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "hyperrationeel gesprekspartner die toch christen werd",
+      "start_seconds": 3250,
+      "mention_count": 3
+    },
+    {
+      "name": "Tom de Nooijer",
+      "note": "SGP-raadslid, gesprek met Tim over claim op waarheid",
+      "start_seconds": 2200,
+      "mention_count": 2
+    },
+    {
+      "name": "Arie Slob",
+      "note": "politicus (ChristenUnie), Tim noemt hem op Twitter",
+      "start_seconds": 3540,
+      "mention_count": 1
+    },
+    {
+      "name": "Anja Lubach",
+      "note": "eerdere gast; zei dat geloof toeval is van opvoeding",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Thijs van den Brink",
+      "note": "presentator, programma waarin Tim zijn bekeringsverhaal vertelde",
+      "start_seconds": 900,
+      "mention_count": 1
+    },
+    {
+      "name": "Freek de Jonge",
+      "note": "cabaretier; Stefan noemde hem eerder",
+      "start_seconds": 760,
+      "mention_count": 1
+    },
+    {
+      "name": "David Boogerd",
+      "note": "presentator podcast",
+      "start_seconds": 45,
+      "mention_count": 30
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Het Seculiere Experiment",
+      "author": "Hans Boutelier",
+      "note": "genoemd als vooruitblik op volgende aflevering",
+      "start_seconds": 4300,
+      "volume_id": "TnHVsgEACAAJ",
+      "canonical_title": "Het seculiere experiment: hoe we van God los samenleven",
+      "canonical_author": "Hans Boutellier",
+      "isbn13": "9789089536211",
+      "isbn10": "9089536213",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Oude Testament",
+      "note": "Tim noemt dat een predikant een Oud Testament pakt om dogmatiek te onderbouwen",
+      "start_seconds": 4000
+    }
+  ],
   "places": [
     "Vlaardingen",
+    "Rotterdam",
     "Maassluis",
     "Westland",
-    "Rotterdam",
     "Amsterdam"
   ],
-  "summary_tldr": "Tim Hofman vertelt over zijn warme christelijke jeugd, zijn twijfel vanaf zijn elfde en waarom hij zich belazerd voelde. Hij noemt zich nihilist die vanuit gevoel en overlevingsinstinct zin opbouwt, terwijl Stefan Paas uitlegt dat geloof voor hem gegrepen-zijn is en geen uitkomst van logica. Ze bespreken de diversiteit van mensen, rationaliteit en de uitzonderingspositie van religie.",
+  "summary_tldr": "Tim Hofman vertelt over zijn christelijke jeugd, de teleurstelling die leidde tot zijn afscheid van het geloof, en zijn huidige nihilistische, gevoelsmatige levensbeschouwing. Stefan Paas reageert vanuit zijn geloof als existentiële keuze en pleit voor grondrechten en radicale diversiteit. David Boogerd stelt vragen over rationaliteit, geloof en de figuur Jezus.",
   "summary_points": [
-    "Tim groeide op met een christelijke basisschool, bijbelclub en een fijne dominee in Vlaardingen",
-    "Op zijn elfde begon hij te twijfelen en voelde hij zich belazerd; hij werd toch gedoopt op zijn twaalfde",
-    "Een aanrijding op zijn veertiende was een omgekeerde bekeringservaring: God bestaat niet",
-    "Ervaringen met conservatieve evangelische kringen en hel-preken versterkten zijn aversie",
-    "Tim benadert geloof als rekensom en noemt zichzelf geen atheïst of agnost, maar nihilist",
-    "Hij bouwt zin op vanuit gevoel, muziek, kunst en overlevingsinstinct",
-    "Stefan stelt dat geloof een diepere keuze en gegrepen zijn is, niet het resultaat van argumenten",
-    "Stefan pleit voor nederigheid tegenover de diversiteit van mensen en voor het belang van grondrechten",
-    "Tim mist soms de saamhorigheid en het sentiment van de kerk"
+    "Tim Hofman werd op zijn twaalfde gedoopt, terwijl hij al twijfelde aan God",
+    "Na een ongeluk op zijn veertiende vond hij het geloof voorgoed afgerond",
+    "Tim noemt zichzelf nihilist maar leeft vanuit gevoel en overlevingsinstinct",
+    "Stefan Paas ziet geloof als basic trust en existentiële keuze, niet als rationele conclusie",
+    "Discussie over artikel 6 van de grondwet en de positie van religie tegenover andere levensovertuigingen",
+    "Tim vindt dat religie niet verheven moet worden boven andere overtuigingen",
+    "Het gesprek gaat over de diversiteit van mensen en het onvermogen elkaar rationeel te overtuigen",
+    "Tim ziet Jezus als een warm, liefdevol personage, los van dogma",
+    "Tim is vriendelijker geworden naar gelovigen door meer respect voor voortschrijdend inzicht"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en de radiodiscussie",
-      "summary": "Opening, de eerdere discussie over religie en artikel 6 op Radio 1 en de kapel als locatie."
+      "title": "Inleiding en kerkherinneringen",
+      "summary": "Tim en Stefan blikken terug op het eerdere radiodebat en Tim vertelt over zijn christelijke basisschool en doop."
     },
     {
-      "start_seconds": 290,
-      "title": "Tims kerkelijke jeugd",
-      "summary": "Christelijke school, dominee de Geus, doop met tegenzin en het warme gevoel."
+      "start_seconds": 900,
+      "title": "Het verlies van het geloof",
+      "summary": "Tim beschrijft hoe hij op zijn veertiende het geloof verloor, mede na een ongeluk op de fiets."
     },
     {
-      "start_seconds": 510,
-      "title": "Evangelische ervaringen en verlangen naar gemeenschap",
-      "summary": "Negatieve ervaringen met conservatieve kerken en Tims gemis aan saamhorigheid."
+      "start_seconds": 1500,
+      "title": "Rationaliteit versus gevoel",
+      "summary": "Discussie over of geloof op logica of op basic trust rust, met Descartes als voorbeeld."
     },
     {
-      "start_seconds": 760,
-      "title": "Belazerd en 'Adieu God'",
-      "summary": "Waarom Tim het geloof losliet, de aanrijding en de rationele rekensom."
-    },
-    {
-      "start_seconds": 1370,
-      "title": "Geloof, logica en diversiteit",
-      "summary": "Stefan en Tim over gegrepen worden, rationaliteit en de vraag waarom slimme mensen verschillend denken."
-    },
-    {
-      "start_seconds": 1870,
+      "start_seconds": 2400,
       "title": "Nihilisme en zingeving",
-      "summary": "Tim leeft vanuit gevoel en overlevingsinstinct; Stefan wijst op nederigheid en grondrechten."
+      "summary": "Tim noemt zichzelf nihilist en legt uit hoe hij toch een zinvol leven opbouwt vanuit gevoel."
+    },
+    {
+      "start_seconds": 3000,
+      "title": "Grondrechten en artikel 6",
+      "summary": "Het gesprek gaat over de grondwet, gewetensvrijheid en de positie van religie in de samenleving."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Respect en vriendelijkheid",
+      "summary": "Tim legt uit waarom hij milder is geworden in zijn kritiek op religie."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Jezus als leukste man ooit",
+      "summary": "Tim en David bespreken Jezus als historische en inspirerende figuur, los van het dogma."
     }
   ],
   "highlights": [
     {
       "start_seconds": 1000,
       "speaker": "Tim Hofman",
-      "text": "Oh, God bestaat niet, anders flik je me dit niet.",
-      "note": "Puberale reactie na een aanrijding, een omgekeerde bekeringservaring."
+      "text": "Mijn geloof viel niet van mij af, maar mijn geloof viel van mij.",
+      "note": "Citaat van Kees Thorne dat Tim treffend vindt voor zijn ervaring."
     },
     {
-      "start_seconds": 1043,
-      "speaker": "Tim Hofman",
-      "text": "Niet ik viel van mijn geloof, maar mijn geloof viel van mij.",
-      "note": "Treffend beeld van ongeloof als iets dat je overkomt."
-    },
-    {
-      "start_seconds": 1100,
-      "speaker": "Tim Hofman",
-      "text": "Voor mij was het een rekensom: ja of nee.",
-      "note": "Verklaart zijn rationele benadering van geloof."
-    },
-    {
-      "start_seconds": 1805,
+      "start_seconds": 2050,
       "speaker": "Stefan Paas",
-      "text": "Ik geloof niet in de mens als een logisch wezen.",
-      "note": "Kern van Stefans verdediging van geloof als gegrepen zijn."
+      "text": "Ik denk dat wij mensen ten diepste gedreven worden niet door rationele overwegingen.",
+      "note": "Kernpunt van Stefans visie op geloof als existentiële keuze."
     },
     {
-      "start_seconds": 1990,
+      "start_seconds": 3300,
       "speaker": "Tim Hofman",
-      "text": "Ik geloof eigenlijk in één instinct, een overlevingsinstinct.",
-      "note": "Hoe een nihilist toch zin vindt."
+      "text": "Je kan dus niet gewoon een christen zijn omdat je dat zegt; het is niet iets waarmee je geboren wordt.",
+      "note": "Scherpe gedachte over identiteit en keuze bij religie."
+    },
+    {
+      "start_seconds": 4200,
+      "speaker": "Tim Hofman",
+      "text": "Jezus is echt de leukste man ooit.",
+      "note": "Verrassende warme uitspraak van een niet-gelovige over Jezus."
+    },
+    {
+      "start_seconds": 2700,
+      "speaker": "Stefan Paas",
+      "text": "Waar ik moeite mee heb, is mensen die van zichzelf zo overtuigd zijn dat ze zeggen: al de rest houdt zich voor de gek.",
+      "note": "Pleidooi tegen fundamentalistische rationaliteit, van welke kant ook."
     }
   ],
   "keywords": [
-    "Tim Hofman",
+    "geloof",
     "nihilisme",
-    "religie",
     "zingeving",
-    "grondrechten",
-    "Descartes",
+    "basic trust",
+    "grondwet artikel 6",
+    "gewetensvrijheid",
+    "diversiteit",
+    "rationaliteit",
+    "Jezus",
+    "secularisatie",
     "doop",
-    "evangelische kerk",
-    "gegrepen zijn",
-    "rationaliteit"
+    "existentiële keuze"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het is niet alsof ik van mijn geloof viel, maar mijn geloof viel van mij.",
+    "Jezus is echt de leukste man ooit.",
+    "Ik ben David Bogert en praat elke week met experts over de mooie, moeilijke en merkwaardige kanten van de Bijbel."
+  ],
   "similar": [
     {
       "n": 198,
-      "reason": "Tim Hofman opnieuw te gast: nihilisme, angst en zingeving met Stefan Paas"
+      "reason": "Tim Hofman opnieuw te gast; thema's nihilisme, idealisme en geloof sluiten direct aan."
     },
     {
-      "n": 264,
-      "reason": "Bekende ongelovige gast over twijfel, ongeloof en geloof, met Paas"
+      "n": 109,
+      "reason": "Nihilisme, zinloosheid en de stap naar geloof, net als in deze aflevering."
     },
     {
-      "n": 190,
-      "reason": "Gast over de weg van ongeloof naar geloof en de zoektocht naar waarheid"
+      "n": 111,
+      "reason": "Seculiere zingevingskritiek, de 'dood van God' en het individu zonder groep."
     },
     {
-      "n": 314,
-      "reason": "Zingevingscrisis en leegte van het moderne leven, met Tim Hofman"
+      "n": 33,
+      "reason": "Zingeving, geluk en het goede leven vanuit een seculiere én geloofsinvalshoek."
     },
     {
-      "n": 154,
-      "reason": "Gast die ongelovig wilde zijn, maar het lukte niet; twijfel en geloof"
+      "n": 97,
+      "reason": "Leegte en zingeving in een land dat God dood heeft verklaard."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

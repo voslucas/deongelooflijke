@@ -1,17 +1,22 @@
 {
   "episode": 225,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 90180,
+    "segments": 1037,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31998,
-    "output_tokens": 2716,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 47736,
+    "output_tokens": 3209,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
     "God & geloof",
-    "Kerk & secularisatie",
+    "Kunst & cultuur",
+    "Gezin & relaties",
     "Zingeving & psyche"
   ],
   "guests": [
@@ -20,134 +25,110 @@
   "people": [
     {
       "name": "Antoine Bodar",
-      "note": "priester en kunsthistoricus, wordt 80 jaar",
-      "start_seconds": 40,
-      "wiki_checked": true,
-      "wiki_pageid": 85996,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Antoine_Bodar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Antoine_Bodar_2.jpg/250px-Antoine_Bodar_2.jpg"
+      "note": "priester en kunsthistoricus, gast van de aflevering",
+      "start_seconds": 11,
+      "mention_count": 1
     },
     {
       "name": "Herodes",
-      "note": "koning die de kindermoord van Bethlehem beval",
-      "start_seconds": 139,
-      "wiki_checked": true,
-      "wiki_pageid": 35716,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herodes_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/HerodtheGreat2.jpg/250px-HerodtheGreat2.jpg"
+      "note": "koning die de kindermoord in Bethlehem liet plegen",
+      "start_seconds": 149,
+      "mention_count": 2
+    },
+    {
+      "name": "Stephanus",
+      "note": "eerste christelijke martelaar, gestenigd vanwege zijn geloof",
+      "start_seconds": 195,
+      "mention_count": 1
     },
     {
       "name": "Dante Alighieri",
-      "note": "schrijver van de Divina Commedia",
-      "start_seconds": 338,
-      "wiki_checked": true,
-      "wiki_pageid": 3885,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dante_Alighieri",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/250px-Portrait_de_Dante.jpg"
+      "note": "dichter van De Goddelijke Comedie",
+      "start_seconds": 330,
+      "mention_count": 3
     },
     {
       "name": "Fra Angelico",
-      "note": "15e-eeuwse schilder van de Annunciatie, zalig verklaard",
-      "start_seconds": 1508,
-      "wiki_checked": true,
-      "wiki_pageid": 138821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fra_Angelico_%28schilder-frater%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Fra_Angelico_portrait.jpg/250px-Fra_Angelico_portrait.jpg"
+      "note": "renaissanceschilder van de Annunciatie, later zalig verklaard",
+      "start_seconds": 488,
+      "mention_count": 4
     },
     {
       "name": "Johannes Paulus II",
       "note": "paus die Fra Angelico zalig verklaarde",
       "start_seconds": 1529,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Piero della Francesca",
-      "note": "schilder van de Madonna del Parto, werkte vanuit de wiskunde",
+      "note": "renaissanceschilder van de Madonna del Parto",
       "start_seconds": 1962,
-      "wiki_checked": true,
-      "wiki_pageid": 158022,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Piero_della_Francesca",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Santi_di_Tito_-_Portrait_of_Piero_della_Francesca.jpg/250px-Santi_di_Tito_-_Portrait_of_Piero_della_Francesca.jpg"
+      "mention_count": 3
     },
     {
       "name": "Rembrandt van Rijn",
-      "note": "Nederlandse schilder, o.a. de Nachtwacht",
-      "start_seconds": 1239,
-      "wiki_checked": true,
-      "wiki_pageid": 1564,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rembrandt_van_Rijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rembrandt_Self-portrait_%28Kenwood%29.jpg/250px-Rembrandt_Self-portrait_%28Kenwood%29.jpg"
+      "note": "schilder van De aanbidding van de herders",
+      "start_seconds": 2400,
+      "mention_count": 4
+    },
+    {
+      "name": "Johannes Vermeer",
+      "note": "Nederlandse schilder die Bodar hoger waardeert dan Rembrandt",
+      "start_seconds": 2540,
+      "mention_count": 2
+    },
+    {
+      "name": "David Hume",
+      "note": "18e-eeuwse verlichtingsfilosoof over smaak",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Vincent van Gogh",
+      "note": "schilder die Bodar niet waardeert",
+      "start_seconds": 3230,
+      "mention_count": 1
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "filosoof die over de idee van het kunstwerk schreef",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeins stadhouder die vraagt 'wat is waarheid?'",
+      "start_seconds": 3110,
+      "mention_count": 1
     },
     {
       "name": "Paul Ricoeur",
-      "note": "filosoof, bekend van het idee van de tweede naïviteit",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 188766,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Ric%C5%93ur",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Paul_Ricoeur_Balzan.png/250px-Paul_Ricoeur_Balzan.png"
+      "note": "filosoof en zijn idee van de 'tweede naïviteit'",
+      "start_seconds": 1870,
+      "mention_count": 1
     },
     {
-      "name": "Stefanus",
-      "note": "eerste martelaar, gevierd op 26 december",
-      "start_seconds": 203,
-      "wiki_checked": true,
-      "wiki_pageid": 80133,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stefanus_%28martelaar%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Stefanus.jpg/250px-Stefanus.jpg"
+      "name": "Dionysius de Areopagiet",
+      "note": "schrijver die zich voordeed als leerling van Paulus",
+      "start_seconds": 2970,
+      "mention_count": 1
     },
     {
       "name": "Wilhelmina",
-      "note": "voormalig koningin, bron van de uitspraak 'Eenzaam, maar niet alleen'",
-      "start_seconds": 810,
-      "wiki_checked": true,
-      "wiki_pageid": 13534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wilhelmina_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wilhelmina_der_NederlandenI71849.jpg/250px-Wilhelmina_der_NederlandenI71849.jpg"
-    },
-    {
-      "name": "Michelangelo",
-      "note": "renaissancekunstenaar, begin van het geniebegrip",
-      "start_seconds": 2306,
-      "wiki_checked": true,
-      "wiki_pageid": 1050,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michelangelo_Buonarroti",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Michelango_Portrait_by_Volterra.jpg/250px-Michelango_Portrait_by_Volterra.jpg"
-    },
-    {
-      "name": "Rafaël",
-      "note": "renaissanceschilder, na hem werd de kunst pronkzuchtiger",
-      "start_seconds": 2306,
-      "wiki_checked": true,
-      "wiki_pageid": 10933,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rafa%C3%ABl_%28kunstenaar%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/250px-Raffaello_Sanzio.jpg"
+      "note": "koningin van Nederland, titel 'Eenzaam, maar niet alleen'",
+      "start_seconds": 800,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Divina Commedia",
+      "title": "De Goddelijke Comedie",
       "author": "Dante Alighieri",
-      "note": "Bodar las het met studenten in Leiden; hel, vagevuur en hemel",
-      "start_seconds": 338,
-      "volume_id": "_Nr8vQEACAAJ",
-      "canonical_title": "Dante Alighieri Divina commedia: hel - louteringsberg - paradijs",
-      "canonical_author": "Dante Alighieri; H.J. Boeken",
+      "note": "over reis door hel, vagevuur en hemel",
+      "start_seconds": 330,
+      "volume_id": "ZCJIvwEACAAJ",
+      "canonical_title": "De goddelijke komedie",
+      "canonical_author": "Dante Alighieri",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
@@ -155,8 +136,8 @@
     {
       "title": "Romeins Verblijf",
       "author": "Antoine Bodar",
-      "note": "recent boek met gedachten over uiteenlopende onderwerpen",
-      "start_seconds": 516,
+      "note": "boek van Bodar met overpeinzingen van de laatste jaren",
+      "start_seconds": 1000,
       "volume_id": "QxAPEQAAQBAJ",
       "canonical_title": "Romeins verblijf",
       "canonical_author": "Antoine Bodar",
@@ -167,154 +148,159 @@
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 2",
-      "note": "de wijzen bij Herodes en de kindermoord van Bethlehem",
-      "start_seconds": 140
+      "ref": "Psalm 2:7",
+      "note": "tekst van de intredezang van de kerstnachtmis: 'Gij zijt mijn zoon'",
+      "start_seconds": 3500
     },
     {
-      "ref": "Lucas 1:26-38",
-      "note": "annunciatie: Gabriël en Maria, de Heilige Geest zal u overschaduwen",
-      "start_seconds": 1604
+      "ref": "Jesaja 9:6",
+      "note": "tekst van de Gregoriaanse intredezang op eerste kerstdag: 'Een kind is ons geboren'",
+      "start_seconds": 3650
     },
     {
-      "ref": "2 Korintiërs 13:13",
-      "note": "liturgische groet 'de genade van onze Heer Jezus Christus' (woorden van Paulus)",
-      "start_seconds": 1193
+      "ref": "Johannes 14:6",
+      "note": "Jezus: 'Ik ben de weg, de waarheid en het leven'",
+      "start_seconds": 3180
+    },
+    {
+      "ref": "Johannes 18:38",
+      "note": "Pilatus vraagt 'wat is waarheid?'",
+      "start_seconds": 3310
     }
   ],
   "places": [
     "Bethlehem",
     "Rome",
-    "Santa Maria dell'Anima",
     "Monterchi",
-    "Toscane",
-    "Parijs",
-    "Notre-Dame",
     "Leiden",
     "Amsterdam",
-    "'s-Hertogenbosch",
-    "Santa Maria sopra Minerva"
+    "Parijs",
+    "Athene",
+    "Toscane"
   ],
-  "summary_tldr": "Priester en kunsthistoricus Antoine Bodar wordt 80 en vertelt over Kerstmis, ouder worden en zijn liefde voor schoonheid. Hij bespreekt twee middeleeuwse en renaissance-schilderingen, de Annunciatie van Fra Angelico en de Madonna del Parto van Piero della Francesca. Centraal staan kinderlijkheid, dienstbaarheid en de vraag wat kunst met God te maken heeft.",
+  "summary_tldr": "In deze kerstaflevering bespreken David Boogerd, Antoine Bodar en Stefan Paas de schoonheid van kunst in relatie tot kerst en geloof. Aan de hand van drie werken van Fra Angelico, Piero della Francesca en Rembrandt wordt gesproken over dienstbaarheid, harmonie en de verhouding tussen subject en object. Bodar reflecteert ook op zijn leeftijd van 80 jaar, eenzaamheid en de kerstviering.",
   "summary_points": [
-    "Bodar vindt 28 december, de dag van de onnozele kinderen en zijn verjaardag, passend bij zijn verlangen naar zuiverheid en kinderlijkheid.",
-    "Hij ziet 80 worden als afscheid van het leven en kijkt uit naar het vagevuur uit Dante.",
-    "Hij houdt van de advent en een sobere kerst; Kerstmis is volgens hem een dikbukig consumentenfeest geworden.",
-    "Zijn liefde voor kunst begon als kind via liturgie, muziek en glas-in-lood.",
-    "Tijdens zijn depressie wekte zijn psychiater de herinnering aan zijn overweldigende kinderervaring in Notre-Dame.",
-    "Fra Angelico's Annunciatie spreekt hem aan door naïviteit, dienstbaarheid en de verbinding tussen Eva en Maria.",
-    "De Madonna del Parto toont een zwangere Maria op een oude vruchtbaarheidsplek, met wiskundige harmonie.",
-    "Bodar verkiest de dienstbare 14e- en 15e-eeuwse kunst boven het latere geniebegrip na Michelangelo."
+    "Bodar ziet kerst en de geboorte van Jezus in verband met de kindermoord door Herodes en viert 28 december als onnozele kinderen",
+    "Bodar beschrijft zijn voorliefde voor verwachting en advent boven het consumentenfeest van kerst",
+    "Reflectie op ouder worden, kinderlijkheid en het naderen van de dood",
+    "Kunst en schoonheid hangen voor Bodar samen met het geloof en de liturgie waarin hij opgroeide",
+    "Bespreking van Fra Angelico's Annunciatie als voorbeeld van dienstbare, naïeve kunst",
+    "Piero della Francesca's zwangere Madonna en de harmonie die uit wiskunde voortkomt",
+    "Rembrandt's Aanbidding van de herders en het licht dat van het kind uitgaat",
+    "Discussie over smaak: is er een objectieve schoonheid of is smaak subjectief",
+    "Bodar pleit voor dienstbaarheid van de kunstenaar en het ego te temperen"
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Kerst en de onnozele kinderen",
-      "summary": "Bodar vertelt over de kindermoord, zijn verjaardag op 28 december en zijn verlangen naar zuiverheid."
+      "start_seconds": 0,
+      "title": "Inleiding en 80 jaar worden",
+      "summary": "Bodar praat over zijn 80e verjaardag op 28 december en de kindermoord als achtergrond."
     },
     {
-      "start_seconds": 280,
-      "title": "Dante en het vagevuur",
-      "summary": "Over het naderende einde, de Divina Commedia en de aantrekkingskracht van de hel."
+      "start_seconds": 400,
+      "title": "Dante, vagevuur en kerst in Rome",
+      "summary": "Gesprek over Dante's Goddelijke Comedie en de kerstviering van Bodar in Rome."
     },
     {
-      "start_seconds": 445,
-      "title": "Advent en een sobere kerst",
-      "summary": "Bodar over verwachting, zijn kerst in Rome en de consumptiecultuur."
+      "start_seconds": 960,
+      "title": "Advent, kerst als consumentenfeest en eenzaamheid",
+      "summary": "Bodar en Boogerd bespreken advent, de sobere kerst en het ouder worden."
     },
     {
-      "start_seconds": 800,
-      "title": "Oud worden en hoffelijkheid",
-      "summary": "Over jong blijven, plots oud zijn en de aardigheid van individuele Nederlanders."
+      "start_seconds": 1300,
+      "title": "Jeugd, liturgie en een persoonlijke ervaring",
+      "summary": "Bodar vertelt hoe de liturgie zijn ontvankelijkheid voor kunst aanwakkerde en hoe een depressie hem bewust maakte van zijn gevoeligheid."
     },
     {
-      "start_seconds": 1130,
-      "title": "Hoe liefde voor kunst ontstond",
-      "summary": "Liturgie, het Rijksmuseum en de herinnering aan Notre-Dame tijdens zijn depressie."
-    },
-    {
-      "start_seconds": 1508,
-      "title": "Annunciatie van Fra Angelico",
-      "summary": "Beschrijving van de schildering en de symboliek van Adam, Eva en de Heilige Geest."
+      "start_seconds": 1500,
+      "title": "Fra Angelico en de Annunciatie",
+      "summary": "Analyse van de Annunciatie: Maria, Gabriel, Eva en Adam, de Heilige Geest als kindje en de dienstbaarheid van de kunstenaar."
     },
     {
       "start_seconds": 1950,
-      "title": "Madonna del Parto",
-      "summary": "Piero della Francesca's zwangere Maria in Monterchi en de overname van heidense plaatsen."
+      "title": "Piero della Francesca en de zwangere Madonna",
+      "summary": "Bespreking van de Madonna del Parto in Monterchi en de symmetrie in het werk."
     },
     {
-      "start_seconds": 2285,
-      "title": "Dienstbaarheid in de kunst",
-      "summary": "Verschil tussen middeleeuwse iconische kunst en het latere geniebegrip."
+      "start_seconds": 2400,
+      "title": "Rembrandt, Vermeer en de smaakdiscussie",
+      "summary": "Vergelijking van Rembrandt's Aanbidding met Vermeer; Hume, smaak en de vraag of schoonheid objectief is."
+    },
+    {
+      "start_seconds": 3150,
+      "title": "Waarheid, schoonheid en Gregoriaanse muziek",
+      "summary": "Bodar koppelt schoonheid aan waarheid en God; het gesprek eindigt met Gregoriaanse kerstmuziek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 16,
+      "start_seconds": 2990,
       "speaker": "Antoine Bodar",
-      "text": "Voor mij gaat het altijd om wat er achter die kunst is.",
-      "note": "Kernvisie: kunst als bemiddeling naar het goddelijke."
+      "text": "Het leven is dienen in de eerste plaats.",
+      "note": "Kernboodschap van Bodar over dienstbaarheid als basis van kunst en leven."
     },
     {
-      "start_seconds": 1266,
+      "start_seconds": 3170,
       "speaker": "Antoine Bodar",
-      "text": "Tijdens zijn depressie herinnerde zijn psychiater hem aan het jongetje dat overweldigd werd in Notre-Dame.",
-      "note": "Persoonlijk en kwetsbaar moment."
+      "text": "Wat is waarheid? Dat is typisch onze tijd.",
+      "note": "Bodar verbindt Pilatus' vraag met de hedendaagse relativering van waarheid en smaak."
     },
     {
-      "start_seconds": 815,
+      "start_seconds": 1000,
       "speaker": "Antoine Bodar",
-      "text": "Eenzaam, maar niet alleen.",
-      "note": "Treffend antwoord op de vraag of hij eenzaam is met kerst."
+      "text": "De burgerlijkheid is ook in de katholieke kerk zeer doorgedrongen.",
+      "note": "Scherpe opmerking over het verschuiven van de kerstnachtmis naar een vroeger tijdstip."
     },
     {
-      "start_seconds": 2370,
+      "start_seconds": 1290,
       "speaker": "Antoine Bodar",
-      "text": "Dienen is de eerste eigenschap die elk mens zich zou moeten gewaarworden.",
-      "note": "Scherpe stelling tegen het geniebegrip."
+      "text": "Ik heb ernstig depressief geweest; een psychiater vertelde over een jongetje dat in de Notre-Dame overweldigd werd door muziek.",
+      "note": "Persoonlijk moment waarin kunst hem hielp zijn diepste identiteit terug te vinden."
     },
     {
-      "start_seconds": 2105,
+      "start_seconds": 2330,
       "speaker": "Antoine Bodar",
-      "text": "De katholieke kerk heeft heel veel overgenomen, zoals een tempel van Minerva.",
-      "note": "Inzicht in de kerstening van heidense plaatsen."
+      "text": "Zwangere vrouwen en de zwangere Madonna werden lange tijd niet afgebeeld; het is een wonder.",
+      "note": "Bodar ziet in het schilderij een wonder, geen gewoonte."
     }
   ],
   "keywords": [
-    "Antoine Bodar",
-    "Kerst",
-    "Advent",
-    "Schoonheid",
+    "kerst",
+    "schoonheid",
+    "kunst",
+    "dienstbaarheid",
     "Fra Angelico",
+    "Rembrandt",
     "Piero della Francesca",
-    "Annunciatie",
-    "Madonna del Parto",
-    "Dante",
-    "Dienstbaarheid",
-    "Kinderlijkheid",
-    "Liturgie"
+    "smaak",
+    "waarheid",
+    "liturgie",
+    "vagevuur",
+    "advent"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 116,
-      "reason": "Opnieuw Antoine Bodar over mysterie, schoonheid en geloof in een seculiere tijd"
+      "reason": "Zelfde gast Antoine Bodar over geloof en het mysterie van de kerk"
     },
     {
       "n": 83,
-      "reason": "Willem Jan Otten over de kerk als groots kunstwerk en schoonheid"
-    },
-    {
-      "n": 181,
-      "reason": "Otten over kunst, schilderijen en geloof, met Dood & rouw en muziek"
+      "reason": "Willem Jan Otten over de kerk als kunstwerk en de Westerse cultuur"
     },
     {
       "n": 172,
-      "reason": "Kerstaflevering over kunst, muziek en geschiedenis van Kerst"
+      "reason": "Kerstmuziek, geschiedenis en geloof, verbonden met de kerstthema's van deze aflevering"
     },
     {
-      "n": 296,
-      "reason": "Govert Jan Bach over hemelse schoonheid en lijden in kunst en muziek"
+      "n": 181,
+      "reason": "Kunst en geloof: een schilderij dat geloof op de proef stelt, en Willem Jan Otten"
+    },
+    {
+      "n": 119,
+      "reason": "Kunst, verhalen en geloof rond kerst, met Anton de Wit en Stefan Paas"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

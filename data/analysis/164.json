@@ -1,82 +1,95 @@
 {
   "episode": 164,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 108708,
+    "segments": 1362,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31941,
-    "output_tokens": 2493,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57678,
+    "output_tokens": 2407,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
-    "Filosofie & ethiek",
+    "Zingeving & psyche",
     "God & geloof",
-    "Zingeving & psyche"
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Jacob Jolij"
   ],
   "people": [
     {
-      "name": "Dick Bierman",
-      "note": "hoogleraar en voormalig mentor van Jolij; deed in de jaren 90 onderzoek naar presentiment (voorgevoel)",
-      "start_seconds": 226,
-      "wiki_checked": true,
-      "wiki_pageid": 5638240,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Bierman"
-    },
-    {
-      "name": "Wouter van Noort",
-      "note": "NRC-journalist, eerder gast die over bewustzijn sprak",
-      "start_seconds": 1022,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jason Walters",
-      "note": "filosoof en voormalig terrorist, eerder gast",
-      "start_seconds": 1022,
-      "wiki_checked": true,
-      "wiki_pageid": 509934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jason_Walters"
-    },
-    {
-      "name": "Simon van Teutem",
-      "note": "politiek commentator voor De Correspondent, eerder gast",
-      "start_seconds": 1031,
-      "wiki_checked": true,
-      "wiki_pageid": 6009308,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_van_Teutem"
+      "name": "Jacob Jolij",
+      "note": "cognitief neurowetenschapper en gast, auteur van het boek over bewustzijn",
+      "start_seconds": 102,
+      "mention_count": 60
     },
     {
       "name": "Dick Swaab",
-      "note": "neurowetenschapper, bekend van 'Wij zijn ons brein'",
-      "start_seconds": 2095,
-      "wiki_checked": true,
-      "wiki_pageid": 249290,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Swaab",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dick_Swaab.jpg/250px-Dick_Swaab.jpg"
+      "note": "hersenonderzoeker, oude mentor van Jolij",
+      "start_seconds": 225,
+      "mention_count": 1
+    },
+    {
+      "name": "Daryl Bierman",
+      "note": "onderzoeker naar presentiment in de jaren 90 (in transcript 'professor Bierman')",
+      "start_seconds": 227,
+      "mention_count": 3
     },
     {
       "name": "Victor Lamme",
-      "note": "neurowetenschapper, schreef 'De vrije wil bestaat niet'; Jolij begon bij hem met onderzoek",
-      "start_seconds": 2105,
-      "wiki_checked": true,
-      "wiki_pageid": 5414026,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Victor_Lamme"
+      "note": "neurowetenschapper bij wie Jolij onderzoek deed",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "John Eccles",
+      "note": "Nobelprijswinnende hersenwetenschapper met dualistische theorieën",
+      "start_seconds": 2400,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "filosoof; doeloorzaken werden aangehaald",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Wouter van Noort",
+      "note": "NRC-journalist die eerder over bewustzijn sprak",
+      "start_seconds": 1020,
+      "mention_count": 1
+    },
+    {
+      "name": "Jason Walters",
+      "note": "filosoof die eerder over bewustzijn sprak",
+      "start_seconds": 1020,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon van Teutem",
+      "note": "politiek commentator (De Correspondent), studeert in Oxford",
+      "start_seconds": 1033,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Hanks",
+      "note": "acteur uit de film Castaway",
+      "start_seconds": 2870,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Wat is bewustzijn nou eigenlijk?",
       "author": "Jacob Jolij",
-      "note": "speurtocht naar bewustzijn op het snijvlak van wetenschap en geloof",
-      "start_seconds": 822,
+      "note": "boek van de gast over bewustzijn",
+      "start_seconds": 2180,
       "volume_id": "jHADEAAAQBAJ",
       "canonical_title": "Wat is bewustzijn nou eigenlijk?",
       "canonical_author": "Jacob Jolij",
@@ -87,141 +100,139 @@
     {
       "title": "De vrije wil bestaat niet",
       "author": "Victor Lamme",
-      "note": "genoemd als voorbeeld van de 'wij zijn ons brein'-school",
-      "start_seconds": 2108,
-      "volume_id": "_cSU0fWSAVkC",
+      "note": "boek over het brein en vrije wil",
+      "start_seconds": 2100,
+      "volume_id": "w-_4pwAACAAJ",
       "canonical_title": "De vrije wil bestaat niet",
       "canonical_author": "Victor Lamme",
-      "isbn13": "9789035137066",
-      "isbn10": "903513706X",
-      "thumbnail": "http://books.google.com/books/content?id=_cSU0fWSAVkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789035137349",
+      "isbn10": "9035137345",
+      "thumbnail": ""
+    },
+    {
+      "title": "Castaway",
+      "author": "",
+      "note": "film met Tom Hanks en volleybal Wilson",
+      "start_seconds": 2870
     }
   ],
   "bible_refs": [],
   "places": [
     "Groningen",
+    "Hilversum",
     "Zwitserland",
-    "Amsterdam",
-    "Utrecht",
-    "Oxford",
     "Lowlands"
   ],
-  "summary_tldr": "Cognitief neurowetenschapper Jacob Jolij vertelt over de onverklaarbare resultaten in zijn experimenten (voorgevoel, kwantumdobbelstenen) en waarom bewustzijn zich niet laat verklaren als louter hersenactiviteit. Samen met Stefan Paas bespreekt hij de filosofische aanname 'wij zijn ons brein', de rol van de waarnemer in de kwantummechanica en de raakvlakken met spiritualiteit en geloof.",
+  "summary_tldr": "Cognitief neurowetenschapper Jacob Jolij bespreekt met David Boogerd en Stefan Paas het mysterie van bewustzijn en de vraag of bewustzijn meer is dan hersenactiviteit. Hij vertelt over onverklaarbare experimenten met voorgevoelens en kwantumdobbelstenen die hem aan het denken zetten over materialisme en alternatieve visies. Het gesprek raakt aan de grens tussen wetenschap en geloof.",
   "summary_points": [
-    "Een computerprogramma kon aan hersengolven voorspellen welk plaatje iemand zou zien, nog voordat het getoond werd.",
-    "Dit lijkt op het presentiment-onderzoek van Dick Bierman; zelfs na uitsluiten van alle fouten bleef 1% onverklaarbaar.",
-    "Jolij blijft als wetenschapper voorzichtig: de lat voor bewijs ligt hoog en er zijn alternatieve verklaringen zoals selectief geheugen.",
-    "Bewustzijn is de ervaring zelf (bijvoorbeeld blauw zien of een ik-gevoel), en die is niet te meten in hersenscans.",
-    "'Wij zijn ons brein' is een filosofische aanname, geen bewezen feit, en maakt gewone ik-jij-relaties tot illusie.",
-    "Het meetprobleem in de kwantummechanica suggereert dat waarneming een rol speelt bij het ontstaan van deeltjes.",
-    "Als bewustzijn invloed heeft op kwantumprocessen, kan het brein bewustzijn niet louter oorzakelijk voortbrengen; eerder andersom.",
-    "Onderzoek naar bewustzijn nam sinds de jaren 90 sterk toe door hersenscans en snellere computers."
+    "Jolij's experimenten met hersengolven leken voorspellingen van beelden te doen, een halve seconde vooraf.",
+    "Pogingen om het effect te verklaren via fouten of toeval lieten 1% onverklaarbaar overeind.",
+    "Bewustzijn is volgens Jolij moeilijk meetbaar; psychologie heeft daar weinig grip op.",
+    "Het idee dat 'wij zijn ons brein' is een filosofische aanname die getoetst zou moeten worden.",
+    "De kwantummechanica en het meetprobleem roepen de vraag op of waarneming de werkelijkheid beïnvloedt.",
+    "Drie hoofdopties: materialisme, dualisme en monisme; panpsychisme wordt als alternatief besproken.",
+    "De Chinese kamer illustreert dat begrip mogelijk op systeemniveau ontstaat en van buitenaf waargenomen wordt.",
+    "Paas koppelt het gesprek aan theologische taal zoals sacramentele deelname aan een werkelijkheid buiten ons.",
+    "Jolij beschrijft zichzelf als agnost en benadrukt openheid zonder de wetenschap te verlaten."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Vreemde experimenten",
-      "summary": "Jolij vertelt over het computerprogramma dat hersengolven las en het onverklaarbare voorspellende effect."
+      "title": "Inleiding en vreemde experimenten",
+      "summary": "Jolij introduceert zijn experimenten waarin hersenactiviteit een beeld voorspelde voordat het getoond werd."
     },
     {
-      "start_seconds": 226,
-      "title": "Presentiment en de lat voor bewijs",
-      "summary": "Het onderzoek van Bierman, het afname-effect en de kwantumdobbelsteen uit Zwitserland die het effect niet wegnam."
+      "start_seconds": 960,
+      "title": "Waarom bewustzijn fascineert",
+      "summary": "Het gesprek gaat over het mysterie van het ik en de ervaring van wakker worden en slapen."
     },
     {
-      "start_seconds": 540,
-      "title": "Voorgevoelens in het dagelijks leven",
-      "summary": "David en Stefan delen eigen ervaringen met aanvoelen; Jolij geeft alternatieve verklaringen."
-    },
-    {
-      "start_seconds": 700,
-      "title": "Wat is bewustzijn?",
-      "summary": "Jolij's weg van AI naar psychologie, en het bewustzijn als ervaring en ik-gevoel, inclusief non-duale meditatie."
-    },
-    {
-      "start_seconds": 1000,
-      "title": "Het mysterie van bewustzijn en brein",
-      "summary": "Waarom bewustzijn fascineert en waarom hersenactiviteit het niet verklaart; 'wij zijn ons brein' als filosofische aanname."
-    },
-    {
-      "start_seconds": 1540,
-      "title": "Kwantummechanica en de waarnemer",
-      "summary": "Het meetprobleem en de mogelijke rol van bewustzijn in het ontstaan van deeltjes."
+      "start_seconds": 1500,
+      "title": "Hersenonderzoek en het meetprobleem",
+      "summary": "Jolij bespreekt hersenwetenschap, correlaties en de rol van de waarnemer in de kwantummechanica."
     },
     {
       "start_seconds": 2040,
-      "title": "Einde van 'wij zijn ons brein'?",
-      "summary": "Jolij twijfelt of de laatste stap van correlatie naar causaliteit te zetten is en bespreekt de reacties van collega's."
+      "title": "Wij zijn ons brein? Drie visies",
+      "summary": "Materialisme, dualisme en monisme worden afgewogen, met panpsychisme als alternatief."
+    },
+    {
+      "start_seconds": 2640,
+      "title": "Bezieling, ziel en psychologie",
+      "summary": "Paas en Jolij praten over de zielkunde, bezieling en het zoeken naar betekenis."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "De Chinese kamer en God",
+      "summary": "Het gedachte-experiment wordt gebruikt om bewustzijn als relationeel fenomeen te verkennen."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Wetenschap, geloof en openheid",
+      "summary": "Jolij reflecteert op zijn agnostische houding en de grens tussen wetenschap en geloof."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 193,
+      "start_seconds": 480,
+      "speaker": "Jacob Jolij",
+      "text": "Uiteindelijk was nog steeds 1% onverklaarbaar.",
+      "note": "Een klein maar hardnekkig resultaat dat de wereldbeeld-vragen oproept."
+    },
+    {
+      "start_seconds": 1960,
+      "speaker": "Jacob Jolij",
+      "text": "Het mysterie wordt alleen maar groter naarmate we dieper kijken.",
+      "note": "Een verrassende stelling van een wetenschapper over bewustzijnsonderzoek."
+    },
+    {
+      "start_seconds": 3240,
       "speaker": "Stefan Paas",
-      "text": "Dus die kijkt in het hoofd van iemand en kan voorspellen wat die persoon gaat zien over een halve seconde.",
-      "note": "Scherpe samenvatting van het verbazingwekkende experiment."
+      "text": "Het geheel genereert begrijpelijke communicatie in het Chinees.",
+      "note": "De Chinese kamer maakt zichtbaar hoe begrip op systeemniveau kan ontstaan."
     },
     {
-      "start_seconds": 528,
+      "start_seconds": 3660,
       "speaker": "Jacob Jolij",
-      "text": "Toen we echt alles hadden uitgesloten, was nog steeds 1% onverklaarbaar.",
-      "note": "Kern van de verrassing in zijn onderzoek."
-    },
-    {
-      "start_seconds": 1311,
-      "speaker": "Stefan Paas",
-      "text": "Dan zie je alleen maar oorzaken en geen redenen meer.",
-      "note": "Raak beeld van wat 'wij zijn ons brein' met menselijke omgang doet."
-    },
-    {
-      "start_seconds": 1757,
-      "speaker": "Jacob Jolij",
-      "text": "Degene die achterhaalt hoe de deeltje weet dat er gekeken wordt, daar staat een Nobelprijs op te wachten.",
-      "note": "Illustreert het onopgeloste meetprobleem."
-    },
-    {
-      "start_seconds": 2012,
-      "speaker": "Jacob Jolij",
-      "text": "Een theorie die veronderstelt dat wij ons brein zijn, kan dit per definitie niet verklaren.",
-      "note": "Centrale stelling van Jolij over bewustzijn en kwantumfysica."
+      "text": "Ik ben begonnen als atheïst, inmiddels agnostisch geworden.",
+      "note": "Persoonlijke geloofsverschuiving van een wetenschapper."
     }
   ],
   "keywords": [
     "bewustzijn",
-    "presentiment",
+    "hersenonderzoek",
     "kwantummechanica",
     "meetprobleem",
-    "Wij zijn ons brein",
-    "hersenactiviteit",
-    "ik-gevoel",
-    "waarnemer",
-    "kwantumdobbelsteen",
-    "spiritualiteit",
-    "Dick Bierman"
+    "panpsychisme",
+    "dualisme",
+    "Chinese kamer",
+    "ziel",
+    "agnosticisme",
+    "wetenschap en geloof"
   ],
-  "quotes": [
-    "Hij schrijft over bewustzijn als een onderwerp dat 'zo ongrijpbaar is en tegelijkertijd zo dicht bij onszelf, dat de grens tussen wetenschap en geloof er flinterdun is'."
-  ],
+  "quotes": [],
   "similar": [
     {
       "n": 282,
-      "reason": "Hersenwetenschapper over 'wij zijn ons brein', bewustzijn, vrije wil en religie"
-    },
-    {
-      "n": 74,
-      "reason": "Kwantumfysica, bewustzijn en de grenzen van het materialistisch wereldbeeld met Kastrup"
+      "reason": "Hersenwetenschapper over vrije wil, het brein en religie als hersenspinsel"
     },
     {
       "n": 318,
-      "reason": "McGilchrist over het brein, bewustzijn en wetenschap versus geloof"
+      "reason": "Neurowetenschapper over het brein, zingeving en de crisis van het Westen"
     },
     {
-      "n": 129,
-      "reason": "Wouter van Noort over wetenschappelijke ontdekkingen die laten zien dat er méér is"
+      "n": 74,
+      "reason": "Kwantumfysica en filosofie over meer dan materie, geest en werkelijkheid"
     },
     {
-      "n": 262,
-      "reason": "Bijna-doodervaring en bewustzijn; wetenschap raakt aan leven na de dood"
+      "n": 233,
+      "reason": "Kwantumtechnologie en de verhouding tussen geloof en wetenschap"
+    },
+    {
+      "n": 195,
+      "reason": "Wetenschappelijk mysterie van het ontstaan van leven met een gelovige wetenschapper"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

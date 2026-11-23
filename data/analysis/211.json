@@ -1,18 +1,23 @@
 {
   "episode": 211,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 114944,
+    "segments": 1044,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31102,
-    "output_tokens": 3459,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58925,
+    "output_tokens": 3971,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
     "Kunst & cultuur",
-    "Samenleving & migratie",
-    "Kerk & secularisatie"
+    "God & geloof",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Bart Van Loo"
@@ -20,193 +25,137 @@
   "people": [
     {
       "name": "Philips de Stoute",
-      "note": "hertog van Bourgondië, stichter van de Bourgondische dynastie in de Nederlanden",
-      "start_seconds": 890,
-      "wiki_checked": true,
-      "wiki_pageid": 47904,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Filips_de_Stoute",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Philippe_le_Hardi_mg_1694.jpg/250px-Philippe_le_Hardi_mg_1694.jpg"
+      "note": "Hertog van Bourgondië, stamvader van de Bourgondische dynastie in de Nederlanden door huwelijk met Margaretha van Male",
+      "start_seconds": 954,
+      "mention_count": 12
     },
     {
-      "name": "Willem van Oranje",
-      "note": "Nederlandse historische figuur; volgens Van Loo begint de geschiedenisles in Nederland te vaak bij hem",
-      "start_seconds": 171,
-      "wiki_checked": true,
-      "wiki_pageid": 96424,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_van_Oranje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/WilliamOfOrange1580.jpg/250px-WilliamOfOrange1580.jpg"
+      "name": "Philips de Goede",
+      "note": "Hertog van Bourgondië, bekend om zijn pracht, bastaardzonen en katholiek geloof",
+      "start_seconds": 2922,
+      "mention_count": 9
     },
     {
       "name": "Karel de Stoute",
-      "note": "laatste Bourgondische hertog, dood gevonden in de sneeuw",
-      "start_seconds": 359,
-      "wiki_checked": true,
-      "wiki_pageid": 19161,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Stoute",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/250px-Charles_the_Bold_1460.jpg"
+      "note": "Laatste hertog van Bourgondië, gesneuveld in 1477 bij Nancy",
+      "start_seconds": 360,
+      "mention_count": 7
     },
     {
-      "name": "Karel de Grote",
-      "note": "Frankisch keizer; vanaf hem tot Willem van Oranje gaapt volgens Van Loo een gat in de geschiedschrijving",
-      "start_seconds": 318,
-      "wiki_checked": true,
-      "wiki_pageid": 5337,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/250px-Charlemagne_denier_Mayence_812_814.jpg"
+      "name": "Willem van Oranje",
+      "note": "Vader des Vaderlands; Bourgondische erfenis en latere Opstand",
+      "start_seconds": 178,
+      "mention_count": 6
+    },
+    {
+      "name": "Jan van Eyck",
+      "note": "Kunstenaar die zijn werken signeerde; Lam Gods",
+      "start_seconds": 2950,
+      "mention_count": 4
+    },
+    {
+      "name": "Johan Maalwael",
+      "note": "Hofschilder uit Nijmegen aan het Bourgondische hof",
+      "start_seconds": 1290,
+      "mention_count": 3
+    },
+    {
+      "name": "Karel de Vijfde",
+      "note": "Keizer, laatste Bourgondiër die in 1555 troonsafstand deed",
+      "start_seconds": 2570,
+      "mention_count": 3
+    },
+    {
+      "name": "Maximiliaan van Oostenrijk",
+      "note": "Schoonzoon van Karel de Stoute, streed tegen de Nederlanden",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "Engelbrecht II van Nassau",
+      "note": "Voorvader van Willem van Oranje, opdrachtgever van praalgraven in Breda",
+      "start_seconds": 2490,
+      "mention_count": 2
     },
     {
       "name": "Thea Beckman",
-      "note": "schrijfster van jeugdboeken over de Honderdjarige Oorlog, inspiratiebron voor Van Loo",
-      "start_seconds": 370,
-      "wiki_checked": true,
-      "wiki_pageid": 58676,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thea_Beckman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Thea_Beckman.jpg/250px-Thea_Beckman.jpg"
-    },
-    {
-      "name": "Margaretha van Male",
-      "note": "Vlaamse erfgename, trouwde met Philips de Stoute in 1369",
-      "start_seconds": 950,
-      "wiki_checked": true,
-      "wiki_pageid": 72841,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Margaretha_van_Male",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Lille_Margueritte_de_Flandre.JPG/250px-Lille_Margueritte_de_Flandre.JPG"
+      "note": "Schrijfster van jeugdboeken over de Honderdjarige Oorlog",
+      "start_seconds": 300,
+      "mention_count": 2
     },
     {
       "name": "Jan de Goede",
       "note": "Franse koning, vader van Philips de Stoute",
-      "start_seconds": 958,
-      "wiki_checked": true,
-      "wiki_pageid": 54302,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_II_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/JeanIIdFrance.jpg/250px-JeanIIdFrance.jpg"
+      "start_seconds": 950,
+      "mention_count": 2
     },
     {
-      "name": "Jan zonder Vrees",
-      "note": "zoon van Philips de Stoute, trouwde met Holland, Zeeland en Henegouwen",
-      "start_seconds": 1465,
-      "wiki_checked": true,
-      "wiki_pageid": 4619815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_zonder_Vrees_%28hertog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/John_II%2C_Duke_of_Burgundy.jpg/250px-John_II%2C_Duke_of_Burgundy.jpg"
-    },
-    {
-      "name": "Philips de Goede",
-      "note": "Bourgondische hertog onder wie de Nederlanden staatkundig werden verenigd",
-      "start_seconds": 1557,
-      "wiki_checked": true,
-      "wiki_pageid": 19301,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Filips_de_Goede",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Philip_the_good.jpg/250px-Philip_the_good.jpg"
-    },
-    {
-      "name": "Jacoba van Beieren",
-      "note": "gravin van Holland, nog een beetje bekend bij het grote publiek",
-      "start_seconds": 541,
-      "wiki_checked": true,
-      "wiki_pageid": 59146,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacoba_van_Beieren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Jacoba_van_Beieren_door_Hollandse_school_ca_1600.jpg/250px-Jacoba_van_Beieren_door_Hollandse_school_ca_1600.jpg"
+      "name": "Jeanne d'Arc",
+      "note": "Franse heldin, ter sprake gebracht in verband met Philips de Goede",
+      "start_seconds": 3210,
+      "mention_count": 2
     },
     {
       "name": "Johan Huizinga",
-      "note": "historicus van de 'historische sensatie'",
-      "start_seconds": 921,
-      "wiki_checked": true,
-      "wiki_pageid": 29681,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Huizinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/250px-Johan-huizinga1.jpg"
+      "note": "Historicus; historische sensatie",
+      "start_seconds": 2025,
+      "mention_count": 1
     },
     {
-      "name": "Martin Luther",
-      "note": "reformator, 1517 Wittenberg",
-      "start_seconds": 2113,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "name": "Guillaume Dufay",
+      "note": "Vlaamse componist aan het Bourgondische hof",
+      "start_seconds": 3500,
+      "mention_count": 3
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "reformator, grondlegger van het calvinisme",
-      "start_seconds": 2113,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Maria van Bourgondië",
+      "note": "Dochter van Karel de Stoute, moest toegevingen doen in 1477",
+      "start_seconds": 3900,
+      "mention_count": 2
     },
     {
-      "name": "Jacques Brel",
-      "note": "zanger, citaat over dromen voor je twintigste",
-      "start_seconds": 348,
-      "wiki_checked": true,
-      "wiki_pageid": 20211,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacques_Brel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/250px-Jacques_Brel_1963.jpg"
+      "name": "Thomas de Kempis",
+      "note": "Auteur van De navolging van Christus",
+      "start_seconds": 2950,
+      "mention_count": 1
+    },
+    {
+      "name": "Luther",
+      "note": "Hervormer; begin van verinnerlijking en individualisering",
+      "start_seconds": 2700,
+      "mention_count": 2
     },
     {
       "name": "Milan Kundera",
-      "note": "schrijver van 'Het leven is elders'",
-      "start_seconds": 259,
-      "wiki_checked": true,
-      "wiki_pageid": 1134,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Milan_Kundera",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Milan_Kundera_redux.jpg/250px-Milan_Kundera_redux.jpg"
+      "note": "Schrijver van La vie est ailleurs",
+      "start_seconds": 240,
+      "mention_count": 1
     },
     {
       "name": "Plinius de Oudere",
-      "note": "Romeins schrijver die over Friesland en terpen schreef",
-      "start_seconds": 2195,
-      "wiki_checked": true,
-      "wiki_pageid": 55313,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plinius_de_Oudere",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Plinyelder.jpg/250px-Plinyelder.jpg"
+      "note": "Romeinse schrijver over Friesland en terpen",
+      "start_seconds": 2160,
+      "mention_count": 1
     },
     {
-      "name": "Bart De Wever",
-      "note": "Belgisch politicus, fan van het Bourgondische verhaal",
-      "start_seconds": 701,
-      "wiki_checked": true,
-      "wiki_pageid": 61038,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_De_Wever",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Bart_De_Wever%2C_2025.06.26_%2802%29.jpg/250px-Bart_De_Wever%2C_2025.06.26_%2802%29.jpg"
+      "name": "Bart de Wever",
+      "note": "Vlaams politicus (N-VA), gaf steun aan de voorstelling",
+      "start_seconds": 700,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans politicus, genoemd in verband met sociale media",
+      "start_seconds": 4500,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Stoute Schoenen",
-      "author": "Bart Van Loo",
-      "note": "tweede boek over de Bourgondiërs, historische tijdreis langs de plekken",
-      "start_seconds": 185,
-      "volume_id": "hJ_-EAAAQBAJ",
-      "canonical_title": "Stoute schoenen: In de voetsporen van de Bourgondiërs",
-      "canonical_author": "Bart van Loo",
-      "isbn13": "9789403133461",
-      "isbn10": "9403133465",
-      "thumbnail": "http://books.google.com/books/content?id=hJ_-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "De Bourgondiërs",
       "author": "Bart Van Loo",
-      "note": "eerste boek, wetenschappelijk epos, 400.000 exemplaren verkocht",
-      "start_seconds": 891,
+      "note": "Eerste boek over de Bourgondiërs, 400.000 exemplaren verkocht",
+      "start_seconds": 10,
       "volume_id": "6dokvwEACAAJ",
       "canonical_title": "De Bourgondiërs. Aartsvaders van de Lage Landen",
       "canonical_author": "Bart Van Loo",
@@ -215,184 +164,217 @@
       "thumbnail": ""
     },
     {
+      "title": "Stoute Schoenen",
+      "author": "Bart Van Loo",
+      "note": "Tweede boek over de Bourgondiërs, historische tijdreis",
+      "start_seconds": 870,
+      "volume_id": "hJ_-EAAAQBAJ",
+      "canonical_title": "Stoute schoenen. In de voetsporen van de Bourgondiërs",
+      "canonical_author": "Bart van Loo",
+      "isbn13": "9789403133461",
+      "isbn10": "9403133465",
+      "thumbnail": "http://books.google.com/books/content?id=hJ_-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "Geef me de ruimte",
       "author": "Thea Beckman",
-      "note": "jeugdboek over de Honderdjarige Oorlog",
-      "start_seconds": 378,
+      "note": "Jeugdboek over de Honderdjarige Oorlog",
+      "start_seconds": 372,
       "volume_id": "kQM4YgEACAAJ",
-      "canonical_title": "Geef me de ruimte: roman over de Honderdjarige Oorlog",
+      "canonical_title": "Geef me de ruimte. Roman over de Honderdjarige Oorlog",
       "canonical_author": "Thea Beckman",
       "isbn13": "9789052512549",
       "isbn10": "905251254X",
       "thumbnail": ""
     },
     {
+      "title": "Triomf van de verschroeide aarde",
+      "author": "Thea Beckman",
+      "note": "Deel uit het drieluik over de Honderdjarige Oorlog",
+      "start_seconds": 374,
+      "volume_id": "cQJb0AEACAAJ",
+      "canonical_title": "Triomf van de verschroeide aarde",
+      "canonical_author": "Thea Beckman",
+      "isbn13": "9789047750574",
+      "isbn10": "9047750578",
+      "thumbnail": ""
+    },
+    {
       "title": "Rad van Fortuin",
       "author": "Thea Beckman",
-      "note": "jeugdboek over de Honderdjarige Oorlog",
+      "note": "Deel uit het drieluik over de Honderdjarige Oorlog",
       "start_seconds": 378,
-      "volume_id": "aKI-A85T5nAC",
-      "canonical_title": "Rad van fortuin",
+      "volume_id": "g1XjzQEACAAJ",
+      "canonical_title": "Het rad van fortuin",
       "canonical_author": "Thea Beckman",
-      "isbn13": "9789056377311",
-      "isbn10": "9056377310",
-      "thumbnail": "http://books.google.com/books/content?id=aKI-A85T5nAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "La vie est ailleurs",
+      "author": "Milan Kundera",
+      "note": "Het leven is elders; inspiratie in jonge jaren",
+      "start_seconds": 240
+    },
+    {
+      "title": "De navolging van Christus",
+      "author": "Thomas à Kempis",
+      "note": "Grote bestseller uit de devotio moderna",
+      "start_seconds": 2950,
+      "volume_id": "3h040AEACAAJ",
+      "canonical_title": "De navolging van Christus door Thomas à Kempis. Vier boeken",
+      "canonical_author": "Thomas a Kempis",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Gelre",
-    "Nijmegen",
     "Dijon",
     "Gent",
-    "Vlaanderen",
-    "Holland",
     "Brugge",
-    "Ieper",
-    "Amsterdam",
-    "Rijsel",
-    "Calais",
+    "Nijmegen",
+    "Breda",
     "Utrecht",
-    "Atrecht",
-    "Haarlem",
-    "Zutphen",
-    "Antwerpen",
-    "Oostende",
-    "Poitiers",
-    "Hilversum",
-    "Wittenberg",
+    "Gelre",
+    "Rijsel",
+    "Constantinopel",
     "Chaumont",
-    "Alkmaar"
+    "Vlaanderen",
+    "Brabant",
+    "Holland",
+    "Bergen op Zoom",
+    "Gouda",
+    "Brussel",
+    "Amsterdam",
+    "Antwerpen",
+    "Nancy",
+    "Poitiers"
   ],
-  "summary_tldr": "Bart Van Loo vertelt over de vergeten Bourgondische periode waarin de Nederlanden ontstonden, te beginnen met het huwelijk van Philips de Stoute en Margaretha van Male in 1369. Hij beschrijft hoe kunst, huwelijkspolitiek en propaganda de basis legden voor een gedeelde identiteit. Ook bespreken ze het contrast tussen Bourgondische uitbundigheid en calvinistische nuchterheid.",
+  "summary_tldr": "Bart Van Loo vertelt over de Bourgondische hertogen die in de late middeleeuwen de contouren van de Lage Landen legden, met huwelijken, kunst en diplomatie als motoren. Stefan Paas en David Boogerd bevragen de rol van kunst, geloof en propaganda in die periode en de vraag hoe sterk de Bourgondische erfenis in het huidige Nederland en België nog doorwerkt. Het gesprek eindigt bij de verdwenen sporen van die tijd en de vraag waarom de periode zo weinig aandacht krijgt.",
   "summary_points": [
-    "Tussen Karel de Grote en Willem van Oranje gaapt volgens Van Loo een gat in de Nederlandse geschiedschrijving",
-    "De Nederlanden ontstonden tussen Frankrijk en het Heilige Roomse Rijk dankzij de Bourgondische hertogen",
-    "Het huwelijk van Philips de Stoute met Margaretha van Male in 1369 is het nulpunt van het ontstaansverhaal",
-    "Vlaanderen was in de late middeleeuwen een rijk economisch centrum, veel groter dan Amsterdam",
-    "Het Kartuizerklooster bij Dijon was een kunstproject waar kunstenaars uit de Lage Landen samenwerkten",
-    "Huwelijkspolitiek was belangrijker dan oorlog voor de opbouw van het Bourgondische rijk",
-    "De extravagante banketten dienden als propaganda om koninklijke status uit te stralen",
-    "Het Bourgondische verhaal werkt verbindend in een tijd van debat over identiteit",
-    "Nederlanders hadden door waterbeheer al een calvinistische ingenieursmentaliteit voor de Reformatie"
+    "De Lage Landen ontstonden in de late middeleeuwen door de Bourgondische hertogen, vooral via huwelijkspolitiek.",
+    "Philips de Stoute trouwde met Margaretha van Male, waardoor Vlaanderen aan Bourgondië kwam.",
+    "Het Kartuizerklooster van Champmol bij Dijon werd als kunst- en gebedscentrum gebouwd.",
+    "Bourgondische vorsten gebruikten pracht en banketten als politieke propaganda.",
+    "Kunstenaars als Jan van Eyck en Johan Maalwael vormden een Europese schilderkunst vanuit de Nederlanden.",
+    "Het calvinisme wordt niet als vanzelfsprekend voorafgaand gezien; de Nederlanden waren katholiek maar met nuchtere pragmatiek.",
+    "Brabant en Utrecht kenden een verschillende katholieke en calvinistische geschiedenis, met repressie en ondergrondse voortzetting.",
+    "Het geloof verschoof van collectief naar persoonlijk, met privé-devotie en draagbare religieuze voorwerpen.",
+    "De Bourgondische erfenis wordt in Nederlands onderwijs nauwelijks behandeld, in tegenstelling tot Vlaanderen.",
+    "Het verhaal van de Lage Landen is volgens Van Loo verbindend en meerlagig, en wordt door nationalisten misbruikt.",
+    "Karel de Stoute stierf in 1477 in de sneeuw bij Nancy; de Bourgondische staat viel uiteen.",
+    "Het gesprek eindigt met de wens voor een serie of film over de Bourgondiërs."
   ],
   "chapters": [
     {
-      "start_seconds": 51,
-      "title": "Introductie en de missie van Van Loo",
-      "summary": "David Boogerd introduceert Bart Van Loo en zijn twee boeken over de Bourgondiërs. Van Loo vertelt over zijn schrijfproces."
+      "start_seconds": 0,
+      "title": "Intro en de Bourgondische missie",
+      "summary": "Van Loo stelt zijn boeken voor en legt uit waarom hij de vergeten Bourgondische periode wil herontdekken."
     },
     {
-      "start_seconds": 227,
-      "title": "Het zwarte gat in de geschiedenis",
-      "summary": "Van Loo legt uit waarom hij zijn eigen wortels ging onderzoeken en hoe Thea Beckman hem inspireerde. Hij wijst op het gat tussen Karel de Grote en Willem van Oranje."
+      "start_seconds": 330,
+      "title": "Jeugd, Frankrijk en wortels",
+      "summary": "Van Loo vertelt over zijn Franse jeugdliefde en hoe hij zijn eigen Vlaamse wortels ontdekte."
     },
     {
-      "start_seconds": 417,
-      "title": "Hoe de Nederlanden ontstonden",
-      "summary": "Tussen Frankrijk en het Heilige Roomse Rijk ontstond een nieuwe staatkundige eenheid dankzij de Bourgondiërs."
+      "start_seconds": 900,
+      "title": "Philips de Stoute en het huwelijk met Vlaanderen",
+      "summary": "Het begin van de Bourgondische dynastie, het huwelijk in Gent en het economische belang van Vlaanderen."
     },
     {
-      "start_seconds": 567,
-      "title": "Identiteit en een verbindend verhaal",
-      "summary": "Het gesprek gaat over de zoektocht naar identiteit en hoe het Bourgondische verhaal nationalisten en anderen verbindt."
+      "start_seconds": 1700,
+      "title": "Kunst en het Kartuizerklooster",
+      "summary": "Het klooster bij Dijon als mausoleum en kunstproject; de kunstenaars als ambassadeurs van de noordelijke gewesten."
     },
     {
-      "start_seconds": 890,
-      "title": "Het huwelijk van 1369 en Vlaanderen",
-      "summary": "Philips de Stoute trouwt met Margaretha van Male en Vlaanderen wordt gekoppeld aan Bourgondië. Vlaanderen blijkt het Silicon Valley van de tijd."
+      "start_seconds": 2200,
+      "title": "Banketten, propaganda en calvinistische mentaliteit",
+      "summary": "De pracht van de Bourgondische banketten als politiek middel en de vraag naar calvinistische voorlopers."
     },
     {
-      "start_seconds": 1318,
-      "title": "Een klooster als kunstproject",
-      "summary": "Van Loo's interpretatie dat de Nederlanden zijn geboren in het Kartuizerklooster bij Dijon, waar kunstenaars uit de Lage Landen samenwerkten."
+      "start_seconds": 2900,
+      "title": "Geloof, individualisering en Jan van Eyck",
+      "summary": "Verinnerlijking van het geloof, privé-devotie en het ontstaan van het individu in de kunst."
     },
     {
-      "start_seconds": 1740,
-      "title": "Bourgondische banketten en propaganda",
-      "summary": "De uitbundige feesten bleken politieke propaganda om koninklijke allure uit te stralen."
+      "start_seconds": 3500,
+      "title": "Dufay, Constantinopel en de val van Bourgondië",
+      "summary": "Muziek aan het hof, de val van Constantinopel en het einde van de Bourgondische staat in 1477 en 1555."
     },
     {
-      "start_seconds": 2100,
-      "title": "Calvinisme voor Calvijn",
-      "summary": "Waterbeheer en polderen vormden een nuchtere mentaliteit die botste met Bourgondische verspilzucht, en de vraag waarom Bourgondië in Nederland vergeten is."
+      "start_seconds": 4300,
+      "title": "Sporen, Gelre en afsluiting",
+      "summary": "Reisadvies langs Bourgondische plekken, de vergeten rol van Gelre en de wens voor een serie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 318,
+      "start_seconds": 2470,
       "speaker": "Bart Van Loo",
-      "text": "Tussen Karel de Grote en Willem van Oranje gaapt één zwart, donker, obscuur gat.",
-      "note": "Vat de missie van Van Loo samen."
+      "text": "Het verhaal van de Lage Landen begint met een klooster en kunst, niet met politiek.",
+      "note": "Een verrassende interpretatie die het gangbare ontstaansverhaal omdraait."
     },
     {
-      "start_seconds": 1559,
+      "start_seconds": 3750,
       "speaker": "Bart Van Loo",
-      "text": "Wij zijn geboren in de schone kunsten; in onze geschiedenis gaat kunst de staatkunde vooraf.",
-      "note": "Zijn originele interpretatie van het ontstaan van de Nederlanden."
+      "text": "Een romantisch historisch gevoel is alleen mogelijk als je veel kennis hebt.",
+      "note": "Een scherpe gedachte over de relatie tussen kennis en historische sensatie."
     },
     {
-      "start_seconds": 1894,
+      "start_seconds": 4050,
       "speaker": "Bart Van Loo",
-      "text": "Het banket met de gebraden kapoen in wapenuitrusting op een varken, gedragen door vier Hongaarse dwergen.",
-      "note": "Kleurrijk voorbeeld van Bourgondische excessen."
+      "text": "Ik vind het een veilige vorm van nationalisme om een vlag van een land te zwaaien dat niet meer bestaat.",
+      "note": "Opvallende afweging over identiteit zonder politieke misbruik."
     },
     {
-      "start_seconds": 2038,
+      "start_seconds": 1290,
       "speaker": "Stefan Paas",
-      "text": "Fake it till you make it.",
-      "note": "Pakkende duiding van de Bourgondische propaganda."
+      "text": "Wat is christelijk maken? Kun je zulke machthebbers überhaupt christelijk maken?",
+      "note": "Een theologische vraag over de betekenis van geloof in een gewelddadige tijd."
     },
     {
-      "start_seconds": 1382,
-      "speaker": "Stefan Paas",
-      "text": "De rijkste man van zijn tijd liet zich begraven in een arm klooster zodat strenge monniken hem sneller door het vagevuur zouden bidden.",
-      "note": "Laat de religieuze logica achter het kloosterproject zien."
-    },
-    {
-      "start_seconds": 1272,
+      "start_seconds": 2330,
       "speaker": "Bart Van Loo",
-      "text": "Het was het Manhattan van de Lage Landen: in Gent woonden 70.000 mensen, in Amsterdam slechts 1000.",
-      "note": "Verrassend contrast met de latere machtsverhoudingen."
+      "text": "Geschiedenis is allemaal lagen, en soms schuiven die lagen zo dat de gaatjes onder elkaar liggen.",
+      "note": "Een poëtische beschrijving van historische sensatie."
     }
   ],
   "keywords": [
     "Bourgondiërs",
-    "Philips de Stoute",
-    "Stoute Schoenen",
     "Lage Landen",
-    "Vlaanderen",
-    "Kartuizerklooster",
+    "Philips de Stoute",
+    "Kartuizers",
+    "Jan van Eyck",
+    "calvinisme",
+    "katholicisme",
     "Honderdjarige Oorlog",
     "identiteit",
-    "calvinisme",
-    "propaganda",
-    "Margaretha van Male"
+    "Bourgondische banketten",
+    "historische sensatie",
+    "verinnerlijking geloof"
   ],
-  "quotes": [
-    "Er is leven vóór Willem van Oranje.",
-    "Het verhaal van de Bourgondiërs vertellen is als het openen van een schatkist vol meesterwerken."
-  ],
+  "quotes": [],
   "similar": [
     {
       "n": 112,
-      "reason": "Willem van Oranje en de Nederlandse geschiedenis, met focus op religie en identiteit"
+      "reason": "Lage Landen-geschiedenis met Willem van Oranje; overlap in politieke en religieuze context"
     },
     {
-      "n": 260,
-      "reason": "Schoonheid, geschiedenis en cultuur van Nederland met Hilbrand Rozema"
+      "n": 52,
+      "reason": "Late middeleeuwen, kathedralen, kunst en geloof sluiten thematisch aan"
     },
     {
-      "n": 256,
-      "reason": "Nederlands zelfbeeld, calvinistische erfenis en geschiedenis"
-    },
-    {
-      "n": 67,
-      "reason": "Mythe van de calvinistische Nederlander, geschiedenis en identiteit"
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden; middeleeuwse wortels en geschiedenis van het Westen"
     },
     {
       "n": 89,
-      "reason": "God, Nederland en Oranje: natie, religie en geschiedenis"
+      "reason": "Nationale identiteit, Oranje en de verwevenheid van religie en macht"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

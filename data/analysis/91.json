@@ -1,91 +1,106 @@
 {
   "episode": 91,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 102814,
+    "segments": 1089,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31148,
-    "output_tokens": 2343,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 52495,
+    "output_tokens": 8098,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
-    "Samenleving & migratie",
-    "Geopolitiek & oorlog",
-    "Kerk & secularisatie"
+    "Kerk & secularisatie",
+    "Geschiedenis",
+    "Klimaat & natuur",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Floris Alkemade"
   ],
   "people": [
     {
+      "name": "Floris Alkemade",
+      "note": "gast; architect en oud-Rijksbouwmeester",
+      "start_seconds": 32,
+      "mention_count": 1
+    },
+    {
       "name": "Rem Koolhaas",
-      "note": "befaamde architect met wie Alkemade 18 jaar samenwerkte",
+      "note": "architect, met wie Alkemade 18 jaar samenwerkte",
       "start_seconds": 513,
-      "wiki_checked": true,
-      "wiki_pageid": 1551,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rem_Koolhaas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Rem_Koolhaas_2013.jpg/250px-Rem_Koolhaas_2013.jpg"
+      "mention_count": 1
     },
     {
       "name": "Dom van der Laan",
-      "note": "monnik en architect, ontwikkelde het plastisch getal",
+      "note": "benedictijner monnik en architect; ontwierp kerken en kloosters op basis van het plastisch getal",
       "start_seconds": 849,
-      "wiki_checked": true,
-      "wiki_pageid": 309204,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_van_der_Laan_%28architect%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Dom_van_der_Laan.jpg/250px-Dom_van_der_Laan.jpg"
+      "mention_count": 2
     },
     {
       "name": "Paul de Jong",
-      "note": "Bossche schoolarchitect, ontwierp de kerk in Odiliapeel",
+      "note": "Bossche schoolarchitect; ontwierp de naoorlogse kerk in Odiliapil",
       "start_seconds": 830,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Pierre Cuypers",
-      "note": "neogotisch architect van onder meer het Rijksmuseum en de Vondelkerk",
+      "note": "katholiek architect van het Rijksmuseum; neogotische kerkenbouwer",
       "start_seconds": 896,
-      "wiki_checked": true,
-      "wiki_pageid": 41228,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pierre_Cuypers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/PJHCuypers1905.gif/250px-PJHCuypers1905.gif"
+      "mention_count": 3
     },
     {
       "name": "Graham Ward",
-      "note": "Engelse filosoof/theoloog die schreef over steden en hogere idealen",
+      "note": "Engelse filosoof; schreef over het levensbeschouwelijke karakter van steden",
       "start_seconds": 1541,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gustav Mahler",
-      "note": "componist, over schoonheid en lelijkheid in een symfonie",
-      "start_seconds": 1722,
-      "wiki_checked": true,
-      "wiki_pageid": 14795,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gustav_Mahler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Gustav_Mahler_1909.jpg/250px-Gustav_Mahler_1909.jpg"
+      "mention_count": 1
     },
     {
       "name": "Simone de Beauvoir",
-      "note": "schrijfster van La Vieillesse; een cultuur herken je aan hoe ze met de kwetsbaren omgaat",
+      "note": "Franse filosofe; haar uitspraak over de omgang met kwetsbaren",
       "start_seconds": 2329,
-      "wiki_checked": true,
-      "wiki_pageid": 28711,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simone_de_Beauvoir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Simone_de_Beauvoir2.png/250px-Simone_de_Beauvoir2.png"
+      "mention_count": 1
+    },
+    {
+      "name": "Gustav Mahler",
+      "note": "componist; pleit voor contrast tussen schoonheid en lelijkheid in kunst",
+      "start_seconds": 1707,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; de mens als liefhebbend wezen",
+      "start_seconds": 3118,
+      "mention_count": 1
+    },
+    {
+      "name": "Roger Scruton",
+      "note": "Britse conservatieve filosoof die over architectuur schreef",
+      "start_seconds": 3652,
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Nederlandse politicus die moderne architectuur als teken van decadentie bekritiseert",
+      "start_seconds": 3569,
+      "mention_count": 1
+    },
+    {
+      "name": "Eva",
+      "note": "bijbelse figuur uit Genesis; Alkemade prijst haar moed om van de boom te eten",
+      "start_seconds": 2931,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "La Vieillesse",
+      "title": "La Vieillesse (Over de ouderdom)",
       "author": "Simone de Beauvoir",
-      "note": "boek over de ouderdom, geciteerd over omgang met kwetsbaren",
+      "note": "Alkemade haalt een quote aan over hoe een cultuur met kwetsbaren omgaat",
       "start_seconds": 2329,
       "volume_id": "T2WvAAAAIAAJ",
       "canonical_title": "La vieillesse",
@@ -95,118 +110,146 @@
       "thumbnail": "http://books.google.com/books/content?id=T2WvAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 3",
+      "note": "Het verhaal van de zondeval; Alkemade ziet de moed van Eva en de kennis van goed en kwaad als kernbegrippen",
+      "start_seconds": 2931
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "De Bergrede en de zaligsprekingen, die Alkemade koppelt aan gerechtigheid en begeerte",
+      "start_seconds": 2879
+    }
+  ],
   "places": [
     "Almere",
     "Amsterdam",
     "Charkiv",
-    "Oekraïne",
-    "Den Bosch",
-    "Zeche Zollverein",
-    "Lille",
     "Rotterdam",
-    "Odiliapeel",
+    "Odiliapil",
+    "Lille",
+    "Hilversum",
     "Parijs",
-    "Los Angeles",
     "Incheon",
+    "Seoul",
+    "Los Angeles",
+    "Berlijn",
     "Eindhoven",
-    "Binnenhof",
-    "Brabant"
+    "Helmond",
+    "Amersfoort",
+    "Binnenhof"
   ],
-  "summary_tldr": "Oud-Rijksbouwmeester Floris Alkemade vertelt hoe steden en gebouwen weerspiegelen wie wij zijn en wat we belangrijk vinden. Hij pleit voor waarachtigheid, een open publiek domein en verdichting in bestaande wijken. Ook vertelt hij over zijn betrokkenheid bij de wederopbouw van Oekraïne.",
+  "summary_tldr": "Architect Floris Alkemade, oud-Rijksbouwmeester, praat met David Boogerd en Stefan Paas over hoe steden en gebouwen de cultuur en waarden van een samenleving weerspiegelen. Hij pleit voor waarachtige architectuur, zoals in Almere, voor het verdichten van bestaande wijken als antwoord op de woningbouwopgave, en voor het herwaarderen van openbare ruimte en het verbinden van mensen. Het gesprek eindigt bij de wederopbouw van Charkiv en de vraag hoe een generatie verantwoordelijkheid neemt voor iets dat groter is dan zijzelf.",
   "summary_points": [
-    "Het Rijksbouwmeesterschap omvat paleizen, het Binnenhof en opvang voor vluchtelingen.",
-    "Alkemade wordt gevraagd mee te denken over wederopbouw van Charkiv, met snelle houten woningen.",
-    "Almere is volgens hem het ware gezicht van Amsterdam en heeft waarachtigheid.",
-    "Een eerlijk gebouw laat zien wat erin gebeurt; Amsterdams stadscentrum riskeert façadearchitectuur.",
-    "Nieuwe architectuur wordt vaak eerst verketterd en krijgt pas later waardering, zoals bij kerken van Dom van der Laan.",
-    "De miljoen woningen kunnen grotendeels door verdichting van bestaande wijken, deels met houten, verplaatsbare bouw.",
-    "Steden zouden niet alleen op commercie en vermaak gericht moeten zijn; ook het ziekenhuis hoort erbij.",
-    "Openbare ruimte en poortjes bij stations raken aan vertrouwen, democratie en angst voor de ander.",
-    "Middeleeuwse woonvormen zoals hofjes bieden inspiratie voor andere manieren van wonen."
+    "Steden en dorpen zijn een spiegel van wie we zijn en wat we willen, met culturele en soms religieuze lagen.",
+    "Almere wordt verdedigd als een stad van waarachtigheid: wat je ziet is wat je krijgt, in tegenstelling tot historische 'facadearchitectuur' in Amsterdam.",
+    "De woningbouwopgave van een miljoen woningen kan deels worden opgelost door bestaande wijken te verdichten en houtbouw toe te passen.",
+    "Openbare ruimte, zoals stations zonder poortjes, is een belangrijke bron van verbinding en vertrouwen; angst leidt tot uitsluiting.",
+    "Secularisatie en de functionalisering van de samenleving komen terug in de verkilling van de architectuur en de nadruk op rationele systemen.",
+    "Leegstaande kerken en cultuurgebouwen vragen om nieuwe functies en nieuwe verhalen, los van puur commerciële verdienmodellen.",
+    "Alkemade verbindt de Bijbelse zondeval en de Bergrede met verleiding en begeerte als motor voor positieve verandering, zoals klimaatbeleid.",
+    "De wederopbouw van Charkiv roept de vraag op of een stad het geheugen van de oorlog moet bewaren of die moet uitwissen.",
+    "Het gesprek sluit af met een optimistische visie: de huidige generatie krijgt grote vragen die ook grote kansen bieden, vergelijkbaar met het bouwen van een kathedraal."
   ],
   "chapters": [
     {
-      "start_seconds": 51,
-      "title": "Rijksbouwmeester en Oekraïne",
-      "summary": "Wat het ambt inhoudt en hoe Alkemade meedenkt over wederopbouw van Oekraïense steden en opvang van vluchtelingen."
+      "start_seconds": 0,
+      "title": "Inleiding: architectuur als spiegel van de cultuur",
+      "summary": "Boogerd en Paas leiden in met de vraag wat architectuur over ons zegt en hoe het voelt om de wereld vorm te geven."
     },
     {
-      "start_seconds": 393,
-      "title": "Binnenhof en politieke cultuur",
-      "summary": "Over de spanning tussen verbeelding van architecten en de angstige politieke cultuur rond de renovatie."
+      "start_seconds": 126,
+      "title": "Rijksbouwmeester en wederopbouw Oekraïne",
+      "summary": "Alkemade vertelt over zijn functie als Rijksbouwmeester, het werk aan het Binnenhof, woningmodellen voor vluchtelingen en advies over de wederopbouw van Charkiv."
     },
     {
-      "start_seconds": 513,
-      "title": "Almere en waarachtigheid",
-      "summary": "Alkemade verdedigt Almere als gezicht van onze tijd en legt uit wat een eerlijk gebouw is."
+      "start_seconds": 572,
+      "title": "Almere en de waarachtigheid van architectuur",
+      "summary": "Almere wordt verdedigd als het 'ware gezicht' van Nederland, waarbij waarachtigheid belangrijker is dan subtiele schoonheid."
     },
     {
-      "start_seconds": 767,
-      "title": "Kerkarchitectuur en tijd",
-      "summary": "Over kerken, neogotiek, Dom van der Laan en het feit dat nieuwe gebouwen pas later gewaardeerd worden."
+      "start_seconds": 830,
+      "title": "Kerkenbouw, schoonheid en secularisatie",
+      "summary": "De gesprekspartners vergelijken middeleeuwse en naoorlogse kerken en bespreken het culturele en religieuze karakter van gebouwen."
     },
     {
-      "start_seconds": 1245,
-      "title": "Een miljoen woningen",
-      "summary": "Waarom er zoveel woningen nodig zijn en hoe verdichting, hout en hofjes kunnen helpen."
+      "start_seconds": 1266,
+      "title": "Volkshuisvesting en het miljoen woningen",
+      "summary": "Verdichting, woonhofjes en houtbouw worden besproken als antwoord op de woningopgave en de veranderende huishoudens."
     },
     {
-      "start_seconds": 1541,
-      "title": "Stad en levensbeschouwing",
-      "summary": "Over steden als spiegel van idealen, commercialisering en het belang van openbare ruimte."
+      "start_seconds": 1857,
+      "title": "Stadsontwerp, openbare ruimte en vertrouwen",
+      "summary": "Een stad ontwerpen vanuit openbare ruimte, met kritiek op stationspoortjes en de angst voor de ander."
     },
     {
-      "start_seconds": 1900,
-      "title": "Poortjes, vertrouwen en droomstad",
-      "summary": "Over stationspoortjes, angst versus vertrouwen en wat Alkemade van de middeleeuwen en Rome wil leren."
+      "start_seconds": 2386,
+      "title": "Kloosterjeugd en de Bergrede",
+      "summary": "Alkemade vertelt over zijn kloosterschool en de fascinatie voor de Bijbel, met een koppeling aan verleiding, begeerte en gerechtigheid."
+    },
+    {
+      "start_seconds": 3290,
+      "title": "Leegstaande kerken, kathedralen en verantwoordelijkheid",
+      "summary": "Gesprek over sublieme architectuur, het hergebruik van kerken en het besef dat je bouwt voor generaties die je niet meer ziet."
+    },
+    {
+      "start_seconds": 3800,
+      "title": "Oorlog, wederopbouw en optimisme",
+      "summary": "Discussie over Thierry Baudet, Scruton, het omgaan met de geschiedenis van Berlijn en Charkiv, en een optimistische slotvisie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1297,
+      "start_seconds": 724,
       "speaker": "Floris Alkemade",
       "text": "Almere, het ware gezicht van Amsterdam.",
-      "note": "Prikkelende omkering van het gangbare beeld van de slaapstad."
+      "note": "Een provocerende omkering die het vooroordeel over Almere op zijn kop zet."
     },
     {
-      "start_seconds": 1006,
+      "start_seconds": 992,
       "speaker": "Floris Alkemade",
-      "text": "Almere valt niet op door subtiele schoonheid, maar heeft in overweldigende mate waarachtigheid.",
-      "note": "Kernidee over eerlijkheid in architectuur."
+      "text": "Almere valt niet op door een subtiele schoonheid, maar wat Almere in overweldigende mate heeft, is waarachtigheid.",
+      "note": "Alkemade definieert schoonheid als eerlijkheid van het gebouw over zichzelf."
     },
     {
-      "start_seconds": 1990,
+      "start_seconds": 2343,
       "speaker": "Floris Alkemade",
-      "text": "Je mag geen cultuur bouwen op angst voor je medemens.",
-      "note": "Scherp pleidooi tegen stationspoortjes en wantrouwen."
+      "text": "Als je wilt weten wat het ware gezicht van een cultuur is, kijk dan hoe ze met de meest kwetsbaren omgaan.",
+      "note": "Een ethische toetssteen die architectuur en samenleving verbindt, via Simone de Beauvoir."
     },
     {
-      "start_seconds": 1722,
+      "start_seconds": 2979,
       "speaker": "Floris Alkemade",
-      "text": "Mahler zei: een symfonie moet momenten van ultieme schoonheid hebben, maar ook lelijkheid.",
-      "note": "Illustreert zijn kritiek op gladgestreken, commerciële steden."
+      "text": "De krachtigste motor om mensen tot verandering te brengen, is ze in verleiding te brengen om te verlangen naar die verandering.",
+      "note": "Alkemade herinterpreteert begeerte van zonde naar motor voor duurzame verandering."
     },
     {
-      "start_seconds": 1305,
+      "start_seconds": 3548,
       "speaker": "Floris Alkemade",
-      "text": "Als we onze woonwijken met 10% verdichten, hebben we al bijna die miljoen woningen.",
-      "note": "Concrete oplossing voor de woningnood."
+      "text": "Het idee dat je verantwoordelijkheid neemt voor iets wat veel groter is dan jezelf en wat voorbij het eigen belang gaat.",
+      "note": "De kathedraal als metafoor voor klimaatverantwoordelijkheid."
+    },
+    {
+      "start_seconds": 3867,
+      "speaker": "Floris Alkemade",
+      "text": "Geschiedenis wordt niet bepaald door de catastrofe, maar door onze reactie op de catastrofe.",
+      "note": "Een hoopvolle slotgedachte over de oorlog in Oekraïne en de wederopbouw."
     }
   ],
   "keywords": [
     "architectuur",
-    "Rijksbouwmeester",
-    "Almere",
+    "schoonheid",
     "waarachtigheid",
+    "wederopbouw",
+    "volkshuisvesting",
     "openbare ruimte",
-    "woningbouw",
-    "verdichting",
-    "Dom van der Laan",
-    "neogotiek",
-    "wederopbouw Oekraïne",
     "secularisatie",
-    "Floris Alkemade"
+    "Bergrede",
+    "begeerte",
+    "kathedraal",
+    "Rijksbouwmeester",
+    "Almere"
   ],
   "quotes": [
     "Hoe bouw je iets met eeuwigheidswaarde? Iets wat waarachtig is?"
@@ -214,23 +257,21 @@
   "similar": [
     {
       "n": 210,
-      "reason": "Ook over gebouwen en architectuur die ons vormen, van kathedralen tot datacenters."
+      "reason": "Gaat over hoe gebouwen en steden ons vormen, en over kathedralen versus moderne architectuur."
     },
     {
       "n": 260,
-      "reason": "Schoonheid van Nederland, landschap en cultuur, met aandacht voor dorpen en steden."
-    },
-    {
-      "n": 83,
-      "reason": "Over de kerk als kunstwerk en de betekenis van schoonheid en gebouwen."
-    },
-    {
-      "n": 225,
-      "reason": "Schoonheid van kunst en cultuur, met aandacht voor kerkelijk erfgoed."
+      "reason": "Gaat over de schoonheid van Nederland en de rafelranden van het landschap."
     },
     {
       "n": 52,
-      "reason": "Kathedralen en de Middeleeuwen: religieuze bouwkunst en haar cultuurhistorische betekenis."
+      "reason": "Behandelt kathedralen, religieuze bouwkunst en de geschiedenis van de Middeleeuwen."
+    },
+    {
+      "n": 225,
+      "reason": "Gaat over schoonheid, kunst en de culturele betekenis van religie en Kerst."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

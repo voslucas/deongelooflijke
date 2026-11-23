@@ -1,18 +1,23 @@
 {
   "episode": 16,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 76294,
+    "segments": 677,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29599,
-    "output_tokens": 2365,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 37605,
+    "output_tokens": 5814,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Filosofie & ethiek",
     "God & geloof",
-    "Samenleving & migratie"
+    "Filosofie & ethiek",
+    "Politiek"
   ],
   "guests": [
     "Maxim Februari"
@@ -20,252 +25,231 @@
   "people": [
     {
       "name": "Elon Musk",
-      "note": "techondernemer die waarschuwt voor de gevaren van AI",
+      "note": "Techondernemer (Tesla) die waarschuwt dat AI gevaarlijker is dan kernwapens",
       "start_seconds": 905,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "C.S. Lewis",
-      "note": "christelijk schrijver van The Abolition of Man",
-      "start_seconds": 549,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
-    },
-    {
-      "name": "Yuval Noah Harari",
-      "note": "Israëlische schrijver over transhumanisme",
-      "start_seconds": 1558,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
-    },
-    {
-      "name": "Rosa Parks",
-      "note": "burgerrechtenactiviste die een regel overtrad in de bus",
-      "start_seconds": 1422,
-      "wiki_checked": true,
-      "wiki_pageid": 98781,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rosa_Parks",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Rosa_Parks_1997.jpg/250px-Rosa_Parks_1997.jpg"
+      "mention_count": 3
     },
     {
       "name": "Jezus",
-      "note": "sprak de Samaritaanse vrouw aan, in strijd met de regels",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "note": "Bijbelse figuur die in het gesprek met de Samaritaanse vrouw de regels overtreedt",
+      "start_seconds": 1350,
+      "mention_count": 2
+    },
+    {
+      "name": "Rosa Parks",
+      "note": "Amerikaanse burgerrechtenactiviste die de buspolitiek van segregatie doorbrak",
+      "start_seconds": 1419,
+      "mention_count": 1
     },
     {
       "name": "Anne Frank",
-      "note": "voorbeeld van onderduiken, dat nu kansloos zou zijn",
+      "note": "Joods meisje dat zich in een achterhuis verborg tijdens de Tweede Wereldoorlog",
       "start_seconds": 1177,
-      "wiki_checked": true,
-      "wiki_pageid": 10573,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anne_Frank",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/AnneFrankSchoolPhoto.jpg/250px-AnneFrankSchoolPhoto.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Harold Kushner",
-      "note": "rabbijn die zegt dat we God het kwaad moeten vergeven",
-      "start_seconds": 2085,
-      "wiki_checked": true,
-      "wiki_pageid": 104228,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harold_Kushner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Harold_Kushner.gif/250px-Harold_Kushner.gif"
+      "name": "C.S. Lewis",
+      "note": "Christelijke schrijver, auteur van The Abolition of Man",
+      "start_seconds": 1449,
+      "mention_count": 1
     },
     {
-      "name": "Gerard Reve",
-      "note": "schrijver, genoemd in verband met het gedicht over zuster Immaculata",
-      "start_seconds": 2230,
-      "wiki_checked": true,
-      "wiki_pageid": 5121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerard_Reve",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gerard_Reve_1969-crop.jpg/250px-Gerard_Reve_1969-crop.jpg"
-    },
-    {
-      "name": "Samuel Lee",
-      "note": "nieuwe Theoloog des Vaderlands, opvolger van Stefan Paas",
-      "start_seconds": 180,
-      "wiki_checked": true,
-      "wiki_pageid": 5389379,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Samuel_Lee_%28theoloog%29"
+      "name": "Yuval Noah Harari",
+      "note": "Israëlische schrijver die over transhumanisme en de toekomst van de mens schrijft",
+      "start_seconds": 1551,
+      "mention_count": 1
     },
     {
       "name": "Jared Diamond",
-      "note": "Amerikaanse schrijver die zei dat de natuur van diversiteit houdt",
-      "start_seconds": 1630,
-      "wiki_checked": true,
-      "wiki_pageid": 86185,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jared_Diamond",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/JaredDiamond.jpg/250px-JaredDiamond.jpg"
+      "note": "Amerikaanse schrijver die stelt dat de natuur van variëteit houdt en de maatschappij niet",
+      "start_seconds": 1610,
+      "mention_count": 1
+    },
+    {
+      "name": "Harold Kushner",
+      "note": "Rabbijn wiens opvatting over God en het kwaad wordt aangehaald",
+      "start_seconds": 2075,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "Schrijver wiens werk en uitspraken over God en recht worden aangehaald",
+      "start_seconds": 2243,
+      "mention_count": 3
+    },
+    {
+      "name": "John Stuart Mill",
+      "note": "Filosoof die Bentham bekritiseert als 'the completeness of limited man'",
+      "start_seconds": 2777,
+      "mention_count": 3
+    },
+    {
+      "name": "Jeremy Bentham",
+      "note": "Utilistisch denker over wie John Stuart Mill kritisch is",
+      "start_seconds": 2790,
+      "mention_count": 2
+    },
+    {
+      "name": "Heino Valken",
+      "note": "Sterrenkundige die als gelovig wordt genoemd",
+      "start_seconds": 2757,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Abolition of Man",
       "author": "C.S. Lewis",
-      "note": "over conditionering van mensen door een technocratische elite",
+      "note": "Filosofisch boekje over conditionering van mensen en het gevaar van technocratische macht",
       "start_seconds": 1449,
-      "volume_id": "ST87o-KSzp0C",
+      "volume_id": "pGl4zgEACAAJ",
       "canonical_title": "The Abolition of Man",
       "canonical_author": "C. S. Lewis",
-      "isbn13": "9780061949135",
-      "isbn10": "0061949132",
-      "thumbnail": "http://books.google.com/books/content?id=ST87o-KSzp0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9798587278479",
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Psalm 139",
-      "note": "God doorgrondt en kent de mens; wordt gelezen als troost, niet als bedreiging",
-      "start_seconds": 2376
+      "ref": "Johannes 4",
+      "note": "Jezus spreekt een Samaritaanse vrouw aan, wat volgens Februari een regel overtreedt",
+      "start_seconds": 1317
     },
     {
-      "ref": "Johannes 4",
-      "note": "Jezus en de Samaritaanse vrouw, regelovertreding",
-      "start_seconds": 1318
+      "ref": "Psalm 139",
+      "note": "Tekst over God die alles doorgrondt en kent, besproken als beeld van alziend oog",
+      "start_seconds": 2375
     }
   ],
   "places": [
     "Hilversum",
     "Utrecht",
-    "San Francisco",
     "China",
+    "San Francisco",
     "Nederland"
   ],
-  "summary_tldr": "David Boogerd praat met Maxim Februari en Stefan Paas over technologie als nieuwe religie. Ze bespreken hoe algoritmes, surveillance en de cloud de democratie en menselijke vrijheid aantasten, en vergelijken dit met oude theologische vragen over de almacht en het alziend oog van God.",
+  "summary_tldr": "Maxim Februari en Stefan Paas bespreken hoe technologie macht naar bedrijven verschuift, burgers stuurt en oude democratische en religieuze vragen opnieuw oproept. Ze vergelijken de almacht van algoritmes en de cloud met het oude godsgeloof en pleiten voor kritisch nadenken, het behoud van rechtsbeginselen en ruimte voor fouten. Het gesprek eindigt met de vraag of er hoop is om de technologische ontwikkeling in goede banen te leiden.",
   "summary_points": [
-    "Technologie neemt steeds meer beslissingen over ons over, waardoor het democratische gesprek verdwijnt.",
-    "Navigatie, zoekmachines en algoritmes sturen ons onzichtbaar, met commerciële belangen erachter.",
-    "Het theodicee-probleem keert terug: willen we vrijheid met kwaad, of een perfecte wereld zonder vrijheid?",
-    "Regels kunnen overtreden is nodig voor maatschappelijke vooruitgang, zoals bij Jezus en Rosa Parks.",
-    "C.S. Lewis waarschuwt dat een technocratische elite bepaalt hoe mensen worden gemaakt, zoals bij embryoselectie en optimalisering.",
-    "De cloud lijkt op de wolk tussen God en mens: een alwetend, ongrijpbaar systeem waaraan we ons overgeven.",
-    "De technologische god mist de barmhartigheid en rechtvaardigheid van de bijbelse God, die ook het lijden omarmde.",
-    "Het alziend oog in de Bijbel gaat over recht doen en troost, terwijl surveillance vaak om controle of besparing gaat."
+    "Technologie kan macht en beslissingen van de democratie naar bedrijven verschuiven, bijvoorbeeld via navigatie, zoekmachines en gegevensdeling.",
+    "Algoritmes worden te snel als perfect vertrouwd, terwijl ze vooroordelen kunnen bevatten.",
+    "Surveillance met camera's en dataverzameling roept de vraag op of mensen nog ruimte hebben voor verzet en regelovertreding.",
+    "Regelovertreding is volgens Februari nodig om samenlevingen te verbeteren, zoals Rosa Parks en Jezus laten zien.",
+    "Optimalisering en transhumanisme roepen de vraag op wie bepaalt wat het 'optimum' van de mens is.",
+    "De cloud fungeert als nieuwe wolk tussen mens en het 'hogere', vergelijkbaar met het oude godsbeeld.",
+    "Oude theologische vragen over almacht en kwaad zijn opnieuw actueel bij technologie.",
+    "Paas wijst erop dat het Bijbelse alziende oog van God gaat over rechtvaardigheid en niet over blinde surveillance.",
+    "Beide gasten zien ruimte voor hoop, mits men kritisch blijft en oude rechtsbeginselen handhaaft.",
+    "Paas adviseert nuchterheid, fouten toestaan en af en toe digitaal detoxen."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Introductie en terugblik",
-      "summary": "David introduceert de gasten en het thema. Stefan Paas is geen Theoloog des Vaderlands meer."
+      "start_seconds": 0,
+      "title": "Inleiding: privacy en camera's",
+      "summary": "David Boogerd en Maxim Februari openen met gezichtsherkenning en de vraag hoeveel privacy we al hebben ingeleverd."
     },
     {
-      "start_seconds": 205,
-      "title": "Technologie die ons overneemt",
-      "summary": "De golem-mythe en de verschuiving van democratisch overleg naar beslissende systemen, met voorbeelden van navigatie en Google."
+      "start_seconds": 209,
+      "title": "Technologie, macht en democratie",
+      "summary": "Februari en Paas bespreken hoe navigatie, zoekmachines en bedrijven beslissingen en meningsvorming beïnvloeden."
     },
     {
-      "start_seconds": 560,
-      "title": "Controle, fraude en theodicee",
-      "summary": "Over de toeslagenaffaire-achtige hardheid van de overheid en het theodicee-probleem in technologisch perspectief."
+      "start_seconds": 711,
+      "title": "Fraude, vertrouwen en de overheid",
+      "summary": "Het gesprek gaat over de Bulgarenfraude en de vraag of overheden burgers te wantrouwend bejegenen."
     },
     {
-      "start_seconds": 905,
-      "title": "Gevaren van AI en surveillance",
-      "summary": "Elon Musk over AI, gezichtsherkenning, China en de onmogelijkheid om nog ongezien te leven."
+      "start_seconds": 934,
+      "title": "AI-gevaar en surveillance",
+      "summary": "Elon Musk wordt aangehaald over AI, gevolgd door de Chinese surveillance en de situatie in Nederland."
     },
     {
-      "start_seconds": 1290,
-      "title": "Regels overtreden en menselijke vrijheid",
-      "summary": "De Samaritaanse vrouw, Rosa Parks en C.S. Lewis over de noodzaak van regelovertreding en gevaren van optimalisering."
+      "start_seconds": 1350,
+      "title": "Regelovertreding en vrijheid",
+      "summary": "Februari pleit voor het recht op regelovertreding aan de hand van Jezus, Rosa Parks en C.S. Lewis."
     },
     {
-      "start_seconds": 1740,
-      "title": "Technologie als nieuwe religie",
-      "summary": "De cloud als wolk tussen God en mens en vergelijking van technologische en bijbelse eigenschappen van almacht."
+      "start_seconds": 1551,
+      "title": "Mens, optimalisering en transhumanisme",
+      "summary": "Het gesprek gaat over Harari, verbetering van de mens en de vraag wie het optimum bepaalt."
     },
     {
-      "start_seconds": 2270,
-      "title": "Het alziend oog en Psalm 139",
-      "summary": "Stefan Paas legt uit dat Gods oog in de Bijbel om recht en troost gaat, en bespreekt het psychologische effect van in de gaten gehouden worden."
+      "start_seconds": 1858,
+      "title": "Technologie als nieuwe God",
+      "summary": "Februari en Paas vergelijken de cloud en de almacht van technologie met het oude godsgeloof en het alziend oog."
+    },
+    {
+      "start_seconds": 3014,
+      "title": "Hoop en praktische tips",
+      "summary": "De gasten sluiten af met hoop, nadenken over waarden en praktische tips zoals digitaal detoxen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2019,
-      "speaker": "Maxim Februari",
-      "text": "Die wolk is er weer tussen: de cloud.",
-      "note": "Treffende vergelijking tussen de wolk van God en de cloud."
-    },
-    {
-      "start_seconds": 2085,
-      "speaker": "Maxim Februari",
-      "text": "Als God het kwaad toestaat, moeten we hem dat maar vergeven, en onszelf ook.",
-      "note": "Brengt het theodicee-probleem naar het technologiedebat."
-    },
-    {
-      "start_seconds": 2230,
-      "speaker": "Stefan Paas",
-      "text": "Het alziend oog in de Bijbel gaat om recht doen, niet om blind surveilleren.",
-      "note": "Theologisch onderscheid tussen Gods blik en moderne surveillance."
-    },
-    {
-      "start_seconds": 1422,
-      "speaker": "Maxim Februari",
-      "text": "Stel dat Rosa Parks de bus niet in had kunnen stappen; dan geen rechtszaak en geen einde van de rassensegregatie.",
-      "note": "Illustreert het gevaar van onmogelijk gemaakte regelovertreding."
-    },
-    {
-      "start_seconds": 935,
+      "start_seconds": 934,
       "speaker": "Elon Musk",
       "text": "AI is far more dangerous than nukes.",
-      "note": "Waarschuwing van een techgigant zelf."
+      "note": "Een techgigant die waarschuwt dat AI gevaarlijker is dan kernwapens, wat de discussie kracht bijzet."
+    },
+    {
+      "start_seconds": 853,
+      "speaker": "Maxim Februari",
+      "text": "Nu moeten we onszelf verexcuseren als er kwaad is, van waarom laten wij dat toe?",
+      "note": "Een scherpe omkering: vroeger verontschuldigde men God, nu verwijt men zichzelf het kwaad."
+    },
+    {
+      "start_seconds": 1858,
+      "speaker": "Maxim Februari",
+      "text": "Het lijkt wel alsof er nu een nieuw geloof is ontstaan in een systeem dat perfect is, dat alwetend is, alomtegenwoordig, almachtig.",
+      "note": "Februari herkent geloofskenmerken in het vertrouwen in technologie."
+    },
+    {
+      "start_seconds": 2375,
+      "speaker": "Stefan Paas",
+      "text": "Het alziend oog van God gaat in de Bijbel over recht en niet over blinde surveillance.",
+      "note": "Paas laat zien dat het Bijbelse beeld van constante observatie een andere betekenis heeft dan moderne surveillance."
     }
   ],
   "keywords": [
-    "technologie",
-    "cloud",
-    "AI",
-    "privacy",
     "surveillance",
     "algoritme",
+    "democratie",
+    "almacht",
+    "cloud",
     "theodicee",
-    "C.S. Lewis",
     "optimalisering",
-    "Psalm 139",
+    "regelovertreding",
+    "transhumanisme",
     "alziend oog",
-    "democratie"
+    "privacy",
+    "rechtsbescherming"
   ],
-  "quotes": [],
+  "quotes": [
+    "Is technologie een nieuwe religie aan het worden? Met de cloud als nieuwe God?",
+    "En hebben wij met de alsmaar door denderende technologische vooruitgang een monster gecreëerd dat we nauwelijks nog onder controle hebben?"
+  ],
   "similar": [
     {
       "n": 206,
-      "reason": "Frank Mulder over Jacques Ellul en de impact van technologie op ons leven en geloof."
+      "reason": "Behandelt technologie als vervanging van God en de filosofie van Jacques Ellul"
     },
     {
       "n": 292,
-      "reason": "Denkbeelden achter Big Tech, Technologie & AI met God en filosofie."
+      "reason": "Gaat over de denkbeelden en macht achter Big Tech, zoals in deze aflevering"
     },
     {
       "n": 144,
-      "reason": "Gevaar van AI en hoe het ons beïnvloedt, ethiek en geloof."
+      "reason": "AI-gevaren en de invloed van algoritmes op het dagelijks leven en filosofie"
     },
     {
-      "n": 257,
-      "reason": "Techniek, AI en de aanval op de ziel; sociaal experiment."
+      "n": 228,
+      "reason": "Focust op techgiganten zoals Elon Musk en hun wereldbeeld en macht"
     },
     {
-      "n": 298,
-      "reason": "Marietje Schaake over AI, macht en democratie."
+      "n": 247,
+      "reason": "Over smartphones, social media en AI als bedreiging voor de samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

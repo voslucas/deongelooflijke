@@ -1,18 +1,23 @@
 {
   "episode": 197,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 142142,
+    "segments": 1351,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30469,
-    "output_tokens": 2442,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 71076,
+    "output_tokens": 2776,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
     "Politiek",
     "Economie & geld",
-    "Islam & jodendom"
+    "God & geloof"
   ],
   "guests": [
     "Hein de Haas"
@@ -20,102 +25,109 @@
   "people": [
     {
       "name": "Hein de Haas",
-      "note": "migratieprofessor en auteur van 'Hoe migratie echt werkt'",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 5861393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hein_de_Haas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/HeindeHaasportretshootboek-1_%281%29.jpg/250px-HeindeHaasportretshootboek-1_%281%29.jpg"
+      "note": "migratieprofessor, gast en auteur van 'Hoe migratie echt werkt'",
+      "start_seconds": 2,
+      "mention_count": 1
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, aanwezig bij de formatiegesprekken",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider, besproken in formatiecontext en campagne",
+      "start_seconds": 8,
+      "mention_count": 12
     },
     {
-      "name": "Dilan Yeşilgöz",
-      "note": "VVD-leider, aanwezig bij de formatiegesprekken",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
-    },
-    {
-      "name": "Pieter Omtzigt",
-      "note": "NSC-leider, aanwezig bij de formatiegesprekken",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 308004,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_Omtzigt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Omtzigt%2C_De_Balie%2C_2021.png/250px-Pieter_Omtzigt%2C_De_Balie%2C_2021.png"
+      "name": "Yesilgöz",
+      "note": "VVD-politica, genoemd bij formatieonderhandelingen",
+      "start_seconds": 8,
+      "mention_count": 3
     },
     {
       "name": "Max Frisch",
-      "note": "Zwitserse schrijver, citaat 'Wir riefen Arbeitskräfte, und es kamen Menschen'",
-      "start_seconds": 1279,
-      "wiki_checked": true,
-      "wiki_pageid": 164911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Frisch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/ETH-BIB-Max_Frisch-Com_C20-015-023-001.tif/lossy-page1-60px-ETH-BIB-Max_Frisch-Com_C20-015-023-001.tif.jpg"
-    },
-    {
-      "name": "Ruud Lubbers",
-      "note": "voormalig premier, noemde Nederland 'ziek' in de jaren 80",
-      "start_seconds": 1605,
-      "wiki_checked": true,
-      "wiki_pageid": 1020,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruud_Lubbers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ruud_Lubbers_1985.jpg/250px-Ruud_Lubbers_1985.jpg"
+      "note": "Zwitserse schrijver, geciteerd over gastarbeiders ('wir riefen Arbeitskräfte und es kamen Menschen')",
+      "start_seconds": 1290,
+      "mention_count": 2
     },
     {
       "name": "Jean-Marie Le Pen",
-      "note": "oprichter Front National, over kopiëren van extreemrechts narratief",
-      "start_seconds": 1933,
-      "wiki_checked": true,
-      "wiki_pageid": 187082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Marie_Le_Pen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Le_Pen_Jean-Marie_1999.jpg/250px-Le_Pen_Jean-Marie_1999.jpg"
+      "note": "oprichter Front National, citaat over het kopiëren van narratieven",
+      "start_seconds": 1930,
+      "mention_count": 1
+    },
+    {
+      "name": "Lodewijk Asscher",
+      "note": "PvdA-politicus, zou arbeidsmigranten-bashing hebben gedaan",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Arno Grunberg",
+      "note": "schrijver, diagnose van het failliet van het humanisme in de asielcrisis",
+      "start_seconds": 4650,
+      "mention_count": 3
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus, sprak over de 'verweesde samenleving'",
+      "start_seconds": 3120,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 1,
+      "mention_count": 30
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president, migratiebeleid besproken",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, migratiebeleid en families aan de grens",
+      "start_seconds": 2460,
+      "mention_count": 3
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Amerikaanse president, migratiebeleid genoemd",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Giorgia Meloni",
+      "note": "Italiaanse premier, migratiebeleid",
+      "start_seconds": 3720,
+      "mention_count": 1
     },
     {
       "name": "Prins Charles",
-      "note": "promootte 'Pick for Britain' campagne",
-      "start_seconds": 993,
-      "wiki_checked": true,
-      "wiki_pageid": 27335,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_III_van_het_Verenigd_Koninkrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/P20260428DT-3982_%28Charles_III%29.jpg/250px-P20260428DT-3982_%28Charles_III%29.jpg"
+      "note": "Brits royal, reclame voor werken in kassen",
+      "start_seconds": 980,
+      "mention_count": 1
     },
     {
       "name": "Van Zwol",
-      "note": "voorzitter van rapport over migratie en arbeidsmarkt",
-      "start_seconds": 1022,
-      "wiki_checked": true,
-      "wiki_pageid": 795236,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_van_Zwol"
+      "note": "leider van rapport over migratie, aan formatietafel",
+      "start_seconds": 1020,
+      "mention_count": 2
+    },
+    {
+      "name": "Dick Schoof",
+      "note": "secretaris-generaal van Justitie en Veiligheid (genoemd als 'Dick So')",
+      "start_seconds": 3520,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Hoe migratie echt werkt",
       "author": "Hein de Haas",
-      "note": "bestseller die migratiemythen ontkracht",
+      "note": "boek van 500 pagina's over migratiemythes",
       "start_seconds": 150,
       "volume_id": "9EfYEAAAQBAJ",
-      "canonical_title": "Hoe migratie echt werkt: Het ware verhaal over migratie aan de hand van 22 mythen",
+      "canonical_title": "Hoe migratie echt werkt",
       "canonical_author": "Hein de Haas",
       "isbn13": "9789000386864",
       "isbn10": "9000386861",
@@ -124,141 +136,134 @@
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
+    "Bolsward",
     "Ter Apel",
     "Westland",
-    "Den Haag",
+    "Lelystad",
     "Oxford",
-    "Verenigd Koninkrijk",
-    "Zwitserland",
-    "Europa",
-    "Afrika",
-    "Verenigde Staten",
-    "Polen"
+    "Marokko",
+    "Spanje",
+    "Amsterdam",
+    "Friesland",
+    "Oekraïne"
   ],
-  "summary_tldr": "Migratieprofessor Hein de Haas legt uit dat veel mythen over migratie, links en rechts, niet kloppen. Asiel is slechts een klein deel van de migratie, terwijl arbeidsmigratie de motor is, en politici gebruiken asielzoekers als zondebok. Het gesprek gaat over de formatiegesprekken, de wooncrisis, hypocrisie rond ongedocumenteerden en het gevaar van normalisering van extreemrechts.",
+  "summary_tldr": "Migratieprofessor Hein de Haas ontkracht in deze aflevering veelgehoorde mythes over migratie, zowel van links als rechts. Volgens hem is arbeidsmigratie de grootste motor, is asiel een kleine component en is migratie een symptoom van bredere economische en maatschappelijke vraagstukken. Hij bekritiseert politici om hun zondebokpolitiek en het verhullen van de arbeidsvraag.",
   "summary_points": [
-    "Asiel is slechts ca. 11% van de instroom en 20% van het saldo; arbeids- en gezinsmigratie vormen de rest",
-    "Hoge immigratie is een teken van economisch succes; minder immigratie vergt een slechtere economie",
-    "Politici van links tot rechts misleiden het publiek met een kloof tussen woorden en daden",
-    "VVD en BBB zitten in een spagaat tussen hard migratiebeleid en behoefte aan arbeidsmigranten",
-    "Asielzoekers zijn een zondebok, bijvoorbeeld voor de wooncrisis die vooral door beleid is veroorzaakt",
-    "Lusten en lasten van migratie zijn ongelijk verdeeld: de middenklasse profiteert, achterstandswijken dragen de lasten",
-    "Multiculturalisme in de jaren 80 kwam voort uit de illusie dat gastarbeiders zouden terugkeren",
-    "Conservatieve partijen die extreemrechtse taal overnemen schaden zichzelf en normaliseren de PVV",
-    "Ter Apel is politiek theater en een managementprobleem, geen onbeheersbare massagolf"
+    "Migratie in Nederland wordt vooral gedreven door arbeidsmigratie, niet door asiel (asiel ongeveer 11% van de instroom).",
+    "Hoge migratie is een teken van een welvarende economie; minder migratie vraagt om economische regulering.",
+    "Politieke partijen gebruiken asiel als zondebok om tegenstrijdige belangen te verhullen.",
+    "De lusten en lasten van migratie zijn ongelijk verdeeld; lagere inkomens dragen de kosten.",
+    "Het formatieakkoord wordt bekritiseerd vanwege taalgebruik en het ontbreken van een echte aanpak van arbeidsmigratie.",
+    "Onbehagen over migratie hangt samen met bredere verlies van zekerheden, verbureaucratisering en woningnood.",
+    "Religie en kerkgang lijken een matigende invloed te hebben op anti-migratiesentiment.",
+    "Pro-anti denken werkt niet; een nieuwe maatschappijvisie en eerlijke dialoog zijn nodig."
   ],
   "chapters": [
     {
-      "start_seconds": 44,
-      "title": "Een bestseller over migratie",
-      "summary": "Introductie van Hein de Haas en zijn boek, en waarom migratie nu zo'n groot thema is."
+      "start_seconds": 1,
+      "title": "Inleiding en het boek van Hein de Haas",
+      "summary": "Hein de Haas introduceert zijn boek over migratiemythes en zijn rol bij de formatieonderhandelingen."
     },
     {
-      "start_seconds": 370,
-      "title": "Adviseren bij de formatie",
-      "summary": "De Haas vertelt over zijn twijfels en ervaringen als expert bij de formatietafel."
+      "start_seconds": 400,
+      "title": "Politieke rol en verkiezingsthema asiel",
+      "summary": "Bespreking van het asielthema in de verkiezingen en de kritiek op de formatieakkoorden."
     },
     {
-      "start_seconds": 477,
-      "title": "Arbeidsmigratie en de spagaat van rechts",
-      "summary": "Waarom alle ballen op asiel een afleidingsmanoeuvre is terwijl arbeidsmigratie de grootste factor is."
+      "start_seconds": 1020,
+      "title": "Arbeidsmigratie als motor van migratie",
+      "summary": "De economische drijfveren van migratie en de rol van werkgevers en de arbeidsmarkt."
     },
     {
-      "start_seconds": 720,
-      "title": "Cijfers en soorten migratie",
-      "summary": "Uitleg over de verhouding tussen asiel-, arbeids- en gezinsmigratie en de rol van de arbeidsmarkt."
+      "start_seconds": 1600,
+      "title": "Lusten en lasten en de gastarbeiderjaren",
+      "summary": "Hoe de voordelen en nadelen van migratie ongelijk verdeeld zijn, met historische context."
     },
     {
-      "start_seconds": 1000,
-      "title": "Ongedocumenteerden en politieke hypocrisie",
-      "summary": "Over werkgevers, huishoudelijk werk en de lage pakkans van illegale arbeid."
+      "start_seconds": 2700,
+      "title": "Zondebokpolitiek en het onbehagen",
+      "summary": "Waarom politici asiel als zondebok gebruiken en welke bredere oorzaken onder het onbehagen liggen."
     },
     {
-      "start_seconds": 1279,
-      "title": "Lusten, lasten en gastarbeiders",
-      "summary": "Over Max Frisch, ongelijke verdeling van de gevolgen en het mislukte integratiebeleid."
+      "start_seconds": 3900,
+      "title": "Religie, kerken en humanisme",
+      "summary": "De rol van religie en secularisatie in houdingen tegenover migranten en vluchtelingen."
     },
     {
-      "start_seconds": 1660,
-      "title": "Zondebokpolitiek en normalisering",
-      "summary": "De wooncrisis, de taal van het hoofdlijnakkoord en het risico voor conservatieve partijen."
-    },
-    {
-      "start_seconds": 2050,
-      "title": "Ter Apel en massamigratie als mythe",
-      "summary": "Ter Apel als politiek theater en de mythe van ongekende massamigratie."
+      "start_seconds": 4900,
+      "title": "Toekomst en slotgedachten",
+      "summary": "Vooruitblik op een ander migratiedebat en afsluiting van de aflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 2200,
       "speaker": "Hein de Haas",
-      "text": "Als je echt veel minder immigratie wil, moet je je economie naar de knoppen helpen.",
-      "note": "Scherpe samenvatting van de kernboodschap."
+      "text": "Je kunt niet en die open, welvarende economie willen zijn en veel minder immigratie willen hebben. Die 2 dingen gaan niet samen.",
+      "note": "Een scherpe kernstelling die de spanning tussen economische groei en migratiebeleid blootlegt."
     },
     {
-      "start_seconds": 35,
+      "start_seconds": 2680,
       "speaker": "Hein de Haas",
-      "text": "Ambtenaren zeggen dat hij gelijk heeft, maar het zou politieke zelfmoord zijn.",
-      "note": "Toont de kloof tussen kennis en politiek."
+      "text": "Het is perfecte zondebok.",
+      "note": "Hij beschrijft asielzoekers als handig middel voor partijen met tegenstrijdige belangen."
     },
     {
-      "start_seconds": 1281,
+      "start_seconds": 3500,
       "speaker": "Hein de Haas",
-      "text": "Wir riefen Arbeitskräfte und es kamen Menschen.",
-      "note": "Treffende samenvatting van de gastarbeiderperiode."
+      "text": "Als politici krokodillentranen huilen over het omkomen van migranten aan de grens, noem ik dat krokodillentranen.",
+      "note": "Scherpe kritiek op politieke hypocrisie."
     },
     {
-      "start_seconds": 1667,
+      "start_seconds": 4240,
       "speaker": "Stefan Paas",
-      "text": "Asielzoekers zijn een gemeenschappelijke groep waarop je streng kunt overkomen zonder veel te veranderen.",
-      "note": "Cynische analyse van de politieke logica."
+      "text": "Als alleen nog maar kerkgangers mochten stemmen, dan zou de PVV 5 tot 10 zetels hebben.",
+      "note": "Opvallend inzicht over het verband tussen kerkgang en stemgedrag."
     },
     {
-      "start_seconds": 1802,
+      "start_seconds": 4680,
       "speaker": "Hein de Haas",
-      "text": "Het woord 'bestrijden' staat letterlijk in de asielparagraaf, alsof vluchtelingen een plaag zijn.",
-      "note": "Kritiek op de taal van het hoofdlijnakkoord."
+      "text": "Het vacuüm op politiek terrein waar politici een ander verhaal over migratie kunnen vertellen.",
+      "note": "Pleidooi voor een genuanceerder politiek verhaal voorbij pro en anti."
     }
   ],
   "keywords": [
     "migratie",
-    "Hein de Haas",
     "arbeidsmigratie",
     "asiel",
-    "zondebok",
-    "gastarbeiders",
+    "zondebokpolitiek",
     "formatie",
-    "PVV",
-    "VVD",
-    "ongedocumenteerden",
-    "wooncrisis",
-    "multiculturalisme"
+    "gastarbeiders",
+    "secularisatie",
+    "kerkgang",
+    "humanisme",
+    "woningnood",
+    "onbehagen",
+    "cordon sanitaire"
   ],
-  "quotes": [
-    "Veel van wat je hoort over migratie - of het nou van de linker- of rechterkant van de politiek komt - is gewoon niet waar."
-  ],
+  "quotes": [],
   "similar": [
     {
       "n": 105,
-      "reason": "Rikko Voorberg over de asielcrisis en migratie in Nederland, politiek en samenleving."
+      "reason": "Asielcrisis en migratie als politiek-maatschappelijk thema, met Samenleving & migratie en Politiek"
+    },
+    {
+      "n": 174,
+      "reason": "Economische en culturele onvrede, met Economie, Politiek en Samenleving & migratie"
+    },
+    {
+      "n": 268,
+      "reason": "Europese economie en migratie, met overlap in thema's Economie en Samenleving & migratie"
+    },
+    {
+      "n": 192,
+      "reason": "Europa, migratie en politiek, met thema's Politiek en Samenleving & migratie"
     },
     {
       "n": 148,
-      "reason": "Asielcrisis en het kabinet dat erover viel, met Arnon Grunberg."
-    },
-    {
-      "n": 170,
-      "reason": "Josse de Voogd over Wilders' winst en de verrechtsing van Nederland."
-    },
-    {
-      "n": 304,
-      "reason": "AZC-protesten en migratie als symptoom van onbehagen in Nederland."
-    },
-    {
-      "n": 273,
-      "reason": "Politieke analyse na verkiezingen: PVV, D66, CDA, formatie en onbehagen."
+      "reason": "Asielcrisis als politiek dossier, met kabinetsval en migratiediscussie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

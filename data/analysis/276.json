@@ -1,161 +1,178 @@
 {
   "episode": 276,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 126976,
+    "segments": 1400,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31115,
-    "output_tokens": 2743,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65202,
+    "output_tokens": 8380,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Klimaat & natuur",
-    "Technologie & AI",
     "Politiek",
-    "Economie & geld"
+    "Economie & geld",
+    "Technologie & AI"
   ],
   "guests": [
     "Diederik Samsom"
   ],
   "people": [
     {
-      "name": "Diederik Samsom",
-      "note": "oud-PvdA-leider, stafchef van Frans Timmermans en architect van de Europese Green Deal, auteur van Groene Supermacht",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 259086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diederik_Samsom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/01._Diederik_Samsom.jpg/250px-01._Diederik_Samsom.jpg"
-    },
-    {
       "name": "Mark Rutte",
-      "note": "oud-premier en VVD-leider, coalitiepartner van de PvdA",
+      "note": "VVD-leider die Samsom in 2012 versloeg; later coalitiepartner; sprak over windmolens die op subsidie draaien",
       "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 5
     },
     {
       "name": "Frans Timmermans",
-      "note": "voormalig eurocommissaris voor de Green Deal",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "note": "Eurocommissaris; Samsom was zijn stafchef en architect van de Green Deal",
+      "start_seconds": 499,
+      "mention_count": 7
     },
     {
       "name": "Bill Gates",
-      "note": "miljardair en klimaatinvesteerder die klimaatdoemscenario's de ijskast in wil zetten",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 23889,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Gates",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg/250px-Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg"
+      "note": "Miljardair en klimaatinvesteerder; zei dat klimaatdoemscenario's de ijskast in kunnen",
+      "start_seconds": 993,
+      "mention_count": 9
     },
     {
       "name": "Al Gore",
-      "note": "maker van de film An Inconvenient Truth",
+      "note": "Presentator van de film An Inconvenient Truth, die Europa aanzette tot klimaatbeleid",
       "start_seconds": 368,
-      "wiki_checked": true,
-      "wiki_pageid": 10216,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Al_Gore",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/President_Joe_Biden_presents_the_Medal_of_Freedom_to_Al_Gore_%28cropped%29.jpg/250px-President_Joe_Biden_presents_the_Medal_of_Freedom_to_Al_Gore_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Greta Thunberg",
-      "note": "Zweedse klimaatactiviste, oprichter van Fridays for Future",
+      "note": "Zweeds klimaatactiviste; startte de schoolstakingen die Fridays for Future werden",
       "start_seconds": 413,
-      "wiki_checked": true,
-      "wiki_pageid": 5142949,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Greta_Thunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg/250px-Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg"
-    },
-    {
-      "name": "Anuna de Wever",
-      "note": "Vlaamse klimaatactiviste",
-      "start_seconds": 449,
-      "wiki_checked": true,
-      "wiki_pageid": 5163121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anuna_De_Wever",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Anuna_De_Wever_%282020%29_C.jpg/250px-Anuna_De_Wever_%282020%29_C.jpg"
+      "mention_count": 3
     },
     {
       "name": "Ursula von der Leyen",
-      "note": "voorzitter van de Europese Commissie",
+      "note": "Voorzitter van de Europese Commissie",
       "start_seconds": 499,
-      "wiki_checked": true,
-      "wiki_pageid": 1926494,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ursula_von_der_Leyen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ursula_von_der_Leyen_2024.jpg/250px-Ursula_von_der_Leyen_2024.jpg"
-    },
-    {
-      "name": "Lodewijk Asscher",
-      "note": "won de PvdA-leiderschapsverkiezing van Samsom",
-      "start_seconds": 852,
-      "wiki_checked": true,
-      "wiki_pageid": 397997,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_Asscher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg/250px-Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Henk Kamp",
-      "note": "VVD-minister van Economische Zaken, sloot het energieakkoord",
-      "start_seconds": 852,
-      "wiki_checked": true,
-      "wiki_pageid": 12955,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henk_Kamp",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Henk_Kamp_2011_%281%29.jpg/250px-Henk_Kamp_2011_%281%29.jpg"
+      "note": "VVD-minister van Economische Zaken; stuurde Samsom een sms over het lage tarief voor offshore wind",
+      "start_seconds": 861,
+      "mention_count": 4
     },
     {
-      "name": "Jan Peter Balkenende",
-      "note": "oud-premier, ontving Al Gore",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 159,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Peter_Balkenende",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Jan_Peter_Balkenende_2006.jpg/250px-Jan_Peter_Balkenende_2006.jpg"
+      "name": "Lodewijk Asscher",
+      "note": "PvdA-politicus die in de leiderschapsverkiezing won van Samsom",
+      "start_seconds": 852,
+      "mention_count": 2
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "Eurocommissaris die Timmermans opvolgde en minder doorzettingsmacht had",
+      "start_seconds": 2465,
+      "mention_count": 9
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; invloed op het klimaatbeleid van Amerikaanse techbedrijven en Gates",
+      "start_seconds": 1126,
+      "mention_count": 2
     },
     {
       "name": "Tony Blair",
-      "note": "Britse oud-premier, schreef samen met Balkenende over klimaat",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 16954,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tony_Blair",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Presidente_Bernardo_Ar%C3%A9valo_se_re%C3%BAne_con_Tony_Blair%2C_ex_primer_ministro_del_Reino_Unido_-_54169169198_%28cropped%29.jpg/250px-Presidente_Bernardo_Ar%C3%A9valo_se_re%C3%BAne_con_Tony_Blair%2C_ex_primer_ministro_del_Reino_Unido_-_54169169198_%28cropped%29.jpg"
+      "note": "Britse premier die samen met Balkenende klimaatafspraken maakte",
+      "start_seconds": 382,
+      "mention_count": 1
     },
     {
-      "name": "Matthijs Bouwman",
-      "note": "econoom, medepresentator van Samsoms podcast Wat nu",
-      "start_seconds": 669,
-      "wiki_checked": true
+      "name": "Jan Peter Balkenende",
+      "note": "Nederlandse premier die na Gore's film de klimaatambitie steunde",
+      "start_seconds": 382,
+      "mention_count": 2
+    },
+    {
+      "name": "Anuna De Wever",
+      "note": "Vlaamse klimaatactiviste die meeliep in de Brusselse klimaatbeweging",
+      "start_seconds": 449,
+      "mention_count": 1
+    },
+    {
+      "name": "Adélaïde Charlier",
+      "note": "Waalse klimaatactiviste, genoemd als 'de Waalse Greta Thunberg'",
+      "start_seconds": 449,
+      "mention_count": 1
     },
     {
       "name": "Joan Rotmans",
-      "note": "eerdere gast over klimaat",
+      "note": "Eerder gast in de podcast over klimaat",
       "start_seconds": 589,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Matthijs Bouwman",
+      "note": "Econoom die met Samsom een podcast maakt",
+      "start_seconds": 669,
+      "mention_count": 1
+    },
+    {
+      "name": "Pedro Sánchez",
+      "note": "Linkse premier van Spanje, genoemd als voorbeeld van progressief beleid",
+      "start_seconds": 3531,
+      "mention_count": 2
+    },
+    {
+      "name": "Zohran Mamdani",
+      "note": "Burgemeester van New York met een links, op gevoel gebaseerde campagne",
+      "start_seconds": 3870,
+      "mention_count": 2
+    },
+    {
+      "name": "Jesse Klaver",
+      "note": "GroenLinks-Partijleider die de Sagrada Família als beeld gebruikte",
+      "start_seconds": 3902,
+      "mention_count": 1
+    },
+    {
+      "name": "Antoni Gaudí",
+      "note": "Architect van de Sagrada Família in Barcelona",
+      "start_seconds": 3919,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Malthus",
+      "note": "Achttiende-eeuwse econoom die hongersnood voorspelde",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "note": "Citaat: er is genoeg voor iedereen, maar niet voor ieders hebzucht",
+      "start_seconds": 3210,
+      "mention_count": 1
+    },
+    {
+      "name": "Thea Beckman",
+      "note": "Schrijfster van het kinderboek waarmee Samsom zijn boek opent",
+      "start_seconds": 3764,
+      "mention_count": 2
+    },
+    {
+      "name": "Drew Westen",
+      "note": "Politicoloog, auteur van The Political Brain",
+      "start_seconds": 3839,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Groene Supermacht",
       "author": "Diederik Samsom",
-      "note": "over de Europese Green Deal en de klimaattransitie",
+      "note": "Nieuw boek over de Europese klimaataanpak en de Green Deal",
       "start_seconds": 39,
       "volume_id": "dJSs0QEACAAJ",
       "canonical_title": "Groene supermacht: hoe Europa de wereld kan verduurzamen",
@@ -163,144 +180,188 @@
       "isbn13": "9789493254725",
       "isbn10": "9493254720",
       "thumbnail": ""
+    },
+    {
+      "title": "An Inconvenient Truth",
+      "author": "Al Gore",
+      "note": "Film die Europa in 2006 klimaatbewust maakte",
+      "start_seconds": 375,
+      "volume_id": "93M6C24ac9MC",
+      "canonical_title": "An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It",
+      "canonical_author": "Al Gore",
+      "isbn13": "9781594865671",
+      "isbn10": "1594865671",
+      "thumbnail": "http://books.google.com/books/content?id=93M6C24ac9MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Grens aan de groei",
+      "author": "",
+      "note": "Rapport uit 1973 over de grenzen aan economische groei",
+      "start_seconds": 2789,
+      "volume_id": "TUIUtwAACAAJ",
+      "canonical_title": "De grenzen aan de groei",
+      "canonical_author": "Dennis L. Meadows, Club van Rome",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "The Political Brain",
+      "author": "Drew Westen",
+      "note": "Boek over het belang van emotie in politieke campagnes",
+      "start_seconds": 3839,
+      "volume_id": "Mp04DgAAQBAJ",
+      "canonical_title": "The Political Brain: The Role of Emotion in Deciding the Fate of the Nation",
+      "canonical_author": "Drew Westen",
+      "isbn13": "9781586485993",
+      "isbn10": "1586485997",
+      "thumbnail": "http://books.google.com/books/content?id=Mp04DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Brussel",
     "Den Haag",
-    "Europa",
-    "Amerika",
-    "Himalaya",
-    "India",
-    "Amazone",
-    "Teheran",
-    "Iran",
-    "Valencia",
-    "Duitsland",
-    "België",
-    "Limburg",
     "Nederland",
-    "Australië"
+    "Amerika",
+    "Spanje",
+    "Egypte",
+    "Marokko",
+    "Noord-Afrika",
+    "Teheran",
+    "India",
+    "Iran",
+    "Limburg",
+    "Barcelona",
+    "New York",
+    "Oekraïne",
+    "Tanzania",
+    "Valencia"
   ],
-  "summary_tldr": "Diederik Samsom vertelt over zijn weg van Greenpeace via de Tweede Kamer naar Brussel, waar hij de Europese Green Deal mee vormgaf. Hij legt uit waarom hij ondanks kantelpunten en urgentie optimistisch is over de exponentiële groei van groene technologie. Biodiversiteit en gedragsverandering blijven volgens hem de lastigste opgaven.",
+  "summary_tldr": "Diederik Samsom, oud-PvdA-leider en architect van de Europese Green Deal, betoogt dat het klimaatprobleem nog te keren is dankzij exponentiële groei van groene technologie. Hij waarschuwt dat kantelpunten en biodiversiteitsverlies urgent zijn en dat technologie alleen niet genoeg is zonder gedragsverandering. Hij pleit voor een gematigde groei en een eerlijke, optimistische politiek, en neemt afstand van Bill Gates' relativering van het klimaat.",
   "summary_points": [
-    "Samsom ging van Greenpeace via de politiek naar Brussel omdat je daar bij klimaat en energie het grootste verschil maakt.",
-    "Klimaataandacht volgt een maatschappelijke conjunctuur: Kyoto, Al Gore, Greta Thunberg en Fridays for Future.",
-    "Het moment voor de Green Deal ontstond door klimaatprotest en de politieke samenstelling van de Europese Commissie.",
-    "Dat klimaat geen verkiezingsthema was, hielp bij het sluiten van het energieakkoord met de VVD in 2012.",
-    "Bill Gates vergist zich: de wereld steunt af op 2,5 graad opwarming, maar die laatste graad is het moeilijkst.",
-    "Kantelpunten zoals de Golfstroom, permafrost, gletsjers en Amazone maken haast noodzakelijk.",
-    "Zon, wind, batterijen en waterstof groeien exponentieel; Nederland is wereldkampioen zon op daken.",
-    "Biodiversiteit is minstens zo groot een probleem en vraagt gedragsverandering, naast mogelijke verdienmodellen voor natuur.",
-    "Ecomodernisten vertrouwen puur op technologie, maar Samsom denkt dat er ook gedragsverandering nodig is."
+    "Samsom schetst zijn carrière van Greenpeace-activist naar politicus en ambtenaar in Brussel, waar hij meer invloed dacht te hebben.",
+    "De Green Deal ontstond door een combinatie van een golf van klimaatactivisme, een eerdere Europese politieke schuifbeweging en het momentum van een nieuwe Commissie.",
+    "Samsom wijst op het energieakkoord met de VVD en de groei van wind op zee en zonnepanelen als bewijs dat politieke besluiten werken.",
+    "Hij beargumenteert dat klimaatverandering urgent blijft door kantelpunten zoals het afsmelten van gletsjers, de Golfstroom en permafrost.",
+    "Technologie, met name batterijen en waterstof, groeit exponentieel, maar bepaalde industrieprocessen blijven moleculen nodig hebben.",
+    "Biodiversiteitsverlies wordt door Samsom als minstens zo ernstig gezien als klimaatverandering; ook daarvoor is gedragsverandering nodig.",
+    "Samsom beschrijft hoe een wetenschappelijk scenario met minder vlees en minder vliegen goedkoper en gezonder was, maar politiek niet haalbaar bleek.",
+    "Het gesprek gaat over het verschil tussen techno-optimisme van ecomodernisten en de noodzaak van moraal en verantwoordelijkheid aan de keukentafel.",
+    "Degrowth wordt besproken: Samsom ziet de grenzen van groei, maar wijst op armoede in het Globale Zuiden en het belang van gematigde groei.",
+    "De discussie eindigt bij links-rechts en bezieling in de politiek, en de vraag of progressieve politiek een overtuigend verhaal mist."
   ],
   "chapters": [
     {
-      "start_seconds": 39,
-      "title": "Introductie en van Greenpeace naar Brussel",
-      "summary": "Inleiding op Samsom en zijn boek, en waarom hij de stap van activisme via Den Haag naar Brussel zette."
+      "start_seconds": 0,
+      "title": "Inleiding en overstap naar Brussel",
+      "summary": "Samsom vertelt over zijn Greenpeace-verleden en waarom hij naar Brussel verhuisde om meer invloed te hebben op klimaatbeleid."
     },
     {
-      "start_seconds": 295,
-      "title": "De golven van klimaaturgentie",
-      "summary": "Van Kyoto en Al Gore tot Greta Thunberg en het ontstaan van de Green Deal."
+      "start_seconds": 300,
+      "title": "Green Deal en de klimaatgolf",
+      "summary": "De opkomst van Gore, Greta Thunberg en de Brusselse klimaatbeweging legden de basis voor de Green Deal."
     },
     {
-      "start_seconds": 640,
-      "title": "Klimaat als thema en het energieakkoord",
-      "summary": "Waarom het helpt als klimaat geen campagnethema is, en hoe het akkoord met Rutte en Henk Kamp tot stand kwam."
+      "start_seconds": 720,
+      "title": "Coalitie, energieakkoord en Rutte",
+      "summary": "Samsom beschrijft hoe het energieakkoord met de VVD leidde tot de groei van wind op zee en zonnepanelen."
     },
     {
-      "start_seconds": 996,
-      "title": "Bill Gates en de urgentie",
-      "summary": "Samsom weerlegt Gates' stelling en bespreekt kantelpunten als Golfstroom, permafrost en Amazone."
+      "start_seconds": 993,
+      "title": "Urgentie, Bill Gates en kantelpunten",
+      "summary": "Samsom bespreekt de discussie over Gates' relativering van het klimaat en de kantelpunten die niet terug te draaien zijn."
     },
     {
-      "start_seconds": 1465,
-      "title": "Exponentiële groene technologie",
-      "summary": "Zonnepanelen, windmolens, batterijen en waterstof, plus de salderingsregeling."
+      "start_seconds": 1440,
+      "title": "Exponentiële technologie en energie",
+      "summary": "Zonnepanelen, batterijen en waterstof groeien snel, maar industriële processen vragen nog om moleculen."
     },
     {
-      "start_seconds": 1790,
-      "title": "Biodiversiteit en verdienmodellen",
-      "summary": "Over de natuurcrisis, water en het idee om natuur en CO2-opslag een economische waarde te geven."
+      "start_seconds": 1800,
+      "title": "Biodiversiteit, dieet en gedragsverandering",
+      "summary": "Samsom bespreekt emissiehandel, het dieetscenario en de noodzaak van gedragsverandering en moraliteit aan de keukentafel."
     },
     {
-      "start_seconds": 2020,
-      "title": "Techniek versus moraliteit",
-      "summary": "Discussie over ecomodernisme, kweekvlees en de noodzaak van gedragsverandering."
+      "start_seconds": 2760,
+      "title": "Degrowth en groei",
+      "summary": "Discussie over ontgroeien, het Jevons-paradox en de rol van groei voor armere landen."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Links, rechts, Europa en afsluiting",
+      "summary": "Gesprek over bezieling in de politiek, Europese integratie, Noord-Afrika en de vraag of Samsom ooit weer minister wordt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 858,
+      "start_seconds": 1433,
       "speaker": "Diederik Samsom",
-      "text": "Dat sms'je van Henk Kamp: 'ongeveer 5,45 cent. Groet, Henk.'",
-      "note": "Persoonlijk en symbolisch moment: de subsidie voor windenergie was enorm gedaald, op de avond van Samsoms nederlaag."
+      "text": "De mens is best een opportunistische diersoort, dus ik denk wel dat we dan echt wel gaan handelen.",
+      "note": "Samsom gebruikt een nuchtere observatie om zijn optimisme te onderbouwen."
     },
     {
-      "start_seconds": 1020,
-      "speaker": "Diederik Samsom",
-      "text": "We stevenden af op 4 tot 6 graden; nu zitten we op 2,5 graad, maar die laatste graad is het moeilijkst.",
-      "note": "Scherpe weerlegging van Gates' 'doemscenario's de ijskast in'."
+      "start_seconds": 1261,
+      "speaker": "Stefan Paas",
+      "text": "De wereld is niet een klokje dat je terugdraait.",
+      "note": "Paas benadrukt dat schade aan klimaatsystemen niet zomaar ongedaan te maken is."
     },
     {
-      "start_seconds": 1815,
+      "start_seconds": 2160,
       "speaker": "Diederik Samsom",
-      "text": "Nu zijn wij zelf de meteoriet als mensheid, wij vertrappen de natuur.",
-      "note": "Krachtig beeld voor de zesde massa-uitsterving."
+      "text": "Ik noem mezelf veel meer een verbeten optimist.",
+      "note": "Samsom beschrijft zijn houding als optimistisch met een gevoel van urgentie."
     },
     {
-      "start_seconds": 1735,
+      "start_seconds": 2202,
       "speaker": "Diederik Samsom",
-      "text": "Batterijen zijn de snelst groeiende technologie die de mensheid ooit heeft gezien.",
-      "note": "Illustreert zijn optimisme over exponentiële groei."
+      "text": "Hun kinderen vroegen hun: zeg pap, wat doe jij eigenlijk om mijn toekomst veilig te maken?",
+      "note": "Een persoonlijk beeld van hoe de klimaatbeweging ouders en CEO's raakte."
     },
     {
-      "start_seconds": 1125,
+      "start_seconds": 4434,
       "speaker": "Diederik Samsom",
-      "text": "Je moet in Amerika niet meer aankomen met klimaat; Gates zette het in de ijskast.",
-      "note": "Laat de invloed van Trump-Amerika op klimaatbeleid zien."
+      "text": "Ik ben bevlogen, maar ik ben niet gelovig.",
+      "note": "Een korte, eerlijke zelfkarakterisering die het gesprek over zingeving afsluit."
     }
   ],
   "keywords": [
+    "klimaatverandering",
     "Green Deal",
-    "klimaat",
-    "Groene Supermacht",
-    "kantelpunt",
-    "biodiversiteit",
-    "exponentiële groei",
+    "Europese Commissie",
+    "energietransitie",
+    "kantelpunten",
+    "degrowth",
+    "gedragsverandering",
     "ecomodernisme",
-    "energieakkoord",
-    "Bill Gates",
-    "zonnepanelen",
-    "waterstof",
-    "gedragsverandering"
+    "biodiversiteit",
+    "emissiehandel",
+    "bezieling",
+    "exponentiële groei"
   ],
   "quotes": [
-    "Vergeet het vuur, het wiel of zelfs de drie eerdere industriële revoluties. Wat nu wordt gepresteerd, is nog nooit vertoond. De mens blijkt – alsnog – tot iets magisch in staat."
+    "Wat nu wordt gepresteerd, is nog nooit vertoond. De mens blijkt – alsnog – tot iets magisch in staat.",
+    "Gaan we het dan tóch nog redden?",
+    "Hoe urgent is de situatie echt?"
   ],
   "similar": [
     {
       "n": 227,
-      "reason": "Jan Rotmans over de grootste transitie ooit; klimaat, verandering en Joan/Jan Rotmans-thema."
+      "reason": "Jan Rotmans over de grootste transitie; klimaat, maatschappelijke verandering en transitiedenken."
     },
     {
       "n": 48,
-      "reason": "Politicus Carola Schouten over maakbaarheid, klimaat en beleid, vergelijkbaar met Samsoms politieke route."
+      "reason": "Carola Schouten over maakbaarheid van de samenleving; klimaat- en beleidsthema's sluiten aan."
+    },
+    {
+      "n": 325,
+      "reason": "Technologische ontwikkelingen, economie en politiek rond een grote maatschappelijke verandering."
     },
     {
       "n": 55,
-      "reason": "Marianne Thieme over klimaat, politiek en natuur; klimaatactivisme."
-    },
-    {
-      "n": 130,
-      "reason": "Klimaatactivisme en politiek, vanuit actievoerder-perspectief zoals Greenpeace-achtergrond."
-    },
-    {
-      "n": 195,
-      "reason": "Technologische doorbraak en wetenschap als hoopvolle kracht, passend bij optimisme over groene technologie."
+      "reason": "Marianne Thieme over klimaatverandering als belangrijkste thema van deze tijd."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

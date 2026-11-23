@@ -1,11 +1,16 @@
 {
   "episode": 239,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 146889,
+    "segments": 1275,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30181,
-    "output_tokens": 2535,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 73761,
+    "output_tokens": 11506,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,304 +25,412 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, volgens Luyendijk bezig de rechtsstaat af te breken",
-      "start_seconds": 166,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Garry Kasparov",
-      "note": "Russische schaker en dissident, verwacht dat Trump de macht niet meer afstaat",
-      "start_seconds": 169,
-      "wiki_checked": true,
-      "wiki_pageid": 25787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Garri_Kasparov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Garri_kasparow_20070318.jpg/250px-Garri_kasparow_20070318.jpg"
-    },
-    {
-      "name": "John Bolton",
-      "note": "voormalig adviseur van Trump, beveiliging ingetrokken",
-      "start_seconds": 200,
-      "wiki_checked": true,
-      "wiki_pageid": 227208,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Bolton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/05.01_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E7%BE%8E%E5%9C%8B%E5%89%8D%E7%99%BD%E5%AE%AE%E5%9C%8B%E5%AE%89%E9%A1%A7%E5%95%8F%E5%8D%9A%E9%A8%B0%E5%A4%A7%E4%BD%BF%E3%80%8D_%2852860612496%29_%28cropped%29.jpg/250px-05.01_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E7%BE%8E%E5%9C%8B%E5%89%8D%E7%99%BD%E5%AE%AE%E5%9C%8B%E5%AE%89%E9%A1%A7%E5%95%8F%E5%8D%9A%E9%A8%B0%E5%A4%A7%E4%BD%BF%E3%80%8D_%2852860612496%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Anthony Fauci",
-      "note": "voormalig COVID-adviseur, beveiliging ingetrokken",
-      "start_seconds": 226,
-      "wiki_checked": true,
-      "wiki_pageid": 5340481,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anthony_Fauci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Anthony_Fauci_in_2023_02_%28cropped%29.jpg/250px-Anthony_Fauci_in_2023_02_%28cropped%29.jpg"
-    },
-    {
-      "name": "Barack Obama",
-      "note": "voormalig president, volgens Luyendijk opvallend stil",
-      "start_seconds": 234,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "baas van X, naast Trump, bekritiseert rechters",
-      "start_seconds": 760,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "note": "Amerikaanse president; centrale figuur in het gesprek over de VS als dreiging voor Europa",
+      "start_seconds": 157,
+      "mention_count": 55
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president, profiteert van Trumps beleid",
-      "start_seconds": 861,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; wordt gezien als winnaar van Trumps beleid en als dreiging voor Europa",
+      "start_seconds": 1461,
+      "mention_count": 22
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider; krijgt kritiek als machtige figuur zonder echte partijstructuur",
+      "start_seconds": 263,
+      "mention_count": 12
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Techondernemer; verspreidt volgens het gesprek anti-rechterlijke en anti-Europese boodschappen op X",
+      "start_seconds": 753,
+      "mention_count": 7
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident; spreekt kritisch over Europa",
+      "start_seconds": 1920,
+      "mention_count": 7
+    },
+    {
+      "name": "John Bolton",
+      "note": "Voormalig adviseur van Trump; architect van de Irakoorlog, nu tegenstander van Trump",
+      "start_seconds": 186,
+      "mention_count": 5
     },
     {
       "name": "Mark Rutte",
-      "note": "NAVO-baas, als premier niet waarschuwend over defensie",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Voormalig Nederlands premier, nu NAVO-secretaris-generaal; wordt verweten Nederland niet gewaarschuwd te hebben",
+      "start_seconds": 1265,
+      "mention_count": 4
     },
     {
-      "name": "Huib Modderkolk",
-      "note": "onderzoeksjournalist, schreef over Russische malware",
-      "start_seconds": 1240,
-      "wiki_checked": true,
-      "wiki_pageid": 5093559,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Huib_Modderkolk"
+      "name": "Joe Biden",
+      "note": "Voormalig Amerikaans president; genoemd als zwakke Democratische leider",
+      "start_seconds": 978,
+      "mention_count": 4
     },
     {
-      "name": "Gijs Tuinman",
-      "note": "staatssecretaris van Defensie",
-      "start_seconds": 1351,
-      "wiki_checked": true,
-      "wiki_pageid": 4074918,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gijs_Tuinman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Staatssecretaris_van_Defensie_Gijs_Pepijn_Tuinman.jpg/250px-Staatssecretaris_van_Defensie_Gijs_Pepijn_Tuinman.jpg"
+      "name": "Friedrich Merz",
+      "note": "Duitse bondskanselier; vroeg kritisch over Europese zelfstandigheid",
+      "start_seconds": 2472,
+      "mention_count": 4
     },
     {
-      "name": "Steve Witkoff",
-      "note": "Trumps onderhandelaar met Rusland",
-      "start_seconds": 1485,
-      "wiki_checked": true,
-      "wiki_pageid": 5942606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steve_Witkoff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/A_swearing-in_ceremony_for_Senior_Adviser_and_Special_Envoy_Steve_Witkoff%2C_May_6%2C_2025_%28cropped%29.jpg/250px-A_swearing-in_ceremony_for_Senior_Adviser_and_Special_Envoy_Steve_Witkoff%2C_May_6%2C_2025_%28cropped%29.jpg"
+      "name": "Dilan Yeşilgöz",
+      "note": "VVD-leider; profileert zich met steun aan Oekraïne",
+      "start_seconds": 3599,
+      "mention_count": 4
     },
     {
       "name": "Tucker Carlson",
-      "note": "Amerikaanse presentator, Poetin-fan",
+      "note": "Amerikaans presentator; interview met Witkoff over Poetin",
       "start_seconds": 1493,
-      "wiki_checked": true,
-      "wiki_pageid": 5129125,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tucker_Carlson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg/250px-Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Donald Tusk",
-      "note": "Poolse premier, tweet over Europese afhankelijkheid van Amerika",
-      "start_seconds": 1575,
-      "wiki_checked": true,
-      "wiki_pageid": 1079817,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Tusk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Donald_Tusk_KPRM_HQ_2023.jpg/250px-Donald_Tusk_KPRM_HQ_2023.jpg"
+      "name": "Giorgia Meloni",
+      "note": "Italiaanse premier; citeerde over zelfverdediging en afhankelijkheid",
+      "start_seconds": 3070,
+      "mention_count": 3
     },
     {
-      "name": "J.D. Vance",
-      "note": "Amerikaanse vicepresident",
-      "start_seconds": 1920,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "name": "Dick Schoof",
+      "note": "Nederlands premier; achtergrond in de inlichtingendienst",
+      "start_seconds": 3570,
+      "mention_count": 3
+    },
+    {
+      "name": "Radek Sikorski",
+      "note": "Pools minister van Buitenlandse Zaken; uitte zorgen over Europese verdeeldheid",
+      "start_seconds": 4627,
+      "mention_count": 3
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïens president; werd door Vance en Trump publiekelijk onder druk gezet",
+      "start_seconds": 2524,
+      "mention_count": 3
+    },
+    {
+      "name": "Obama",
+      "note": "Voormalig Amerikaans president; zou zich volgens Luyendijk te weinig uitspreken",
+      "start_seconds": 234,
+      "mention_count": 3
+    },
+    {
+      "name": "Steve Witkoff",
+      "note": "Amerikaans onderhandelaar en golfmaatje van Trump; gesprekken met Russische kant",
+      "start_seconds": 1485,
+      "mention_count": 2
     },
     {
       "name": "Pete Hegseth",
-      "note": "Amerikaanse minister van Defensie, Signal-lek",
-      "start_seconds": 2300,
-      "wiki_checked": true,
-      "wiki_pageid": 5908720,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pete_Hegseth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/29th_United_States_Secretary_of_Defense_Pete_Hegseth_Official_Portrait_2025.jpg/250px-29th_United_States_Secretary_of_Defense_Pete_Hegseth_Official_Portrait_2025.jpg"
+      "note": "Amerikaans minister van Defensie; betrokken bij Signal-lek",
+      "start_seconds": 2281,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Tusk",
+      "note": "Pools premier; plaatste kritische tweet over Europese afhankelijkheid van de VS",
+      "start_seconds": 1570,
+      "mention_count": 2
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese leider; genoemd als mogelijke navolger van Trumps machtspolitiek",
+      "start_seconds": 4770,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Carney",
+      "note": "Canadese premier; verklaarde dat de vriendschap met de VS ten einde is",
+      "start_seconds": 3208,
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; historische vergelijking met Anschluss en kartonnen tanks",
+      "start_seconds": 3686,
+      "mention_count": 2
+    },
+    {
+      "name": "Éric Zemmour",
+      "note": "Frans extreemrechts politicus; citaat over Europese cultuur en Christus",
+      "start_seconds": 5158,
+      "mention_count": 2
+    },
+    {
+      "name": "David French",
+      "note": "Amerikaans columnist (New York Times); analyseerde de Signal-affaire",
+      "start_seconds": 3377,
+      "mention_count": 2
+    },
+    {
+      "name": "Henry Bontenbal",
+      "note": "CDA-lijsttrekker; voorbeeld van een politicus die vooral in de media goed scoort",
+      "start_seconds": 2850,
+      "mention_count": 2
+    },
+    {
+      "name": "Huib Modelkolk",
+      "note": "Onderzoeksjournalist; schreef over Russische malware in de Oosterscheldedam",
+      "start_seconds": 1240,
+      "mention_count": 2
+    },
+    {
+      "name": "Garry Kasparov",
+      "note": "Russische schaakkampioen en politiek activist; uitgeweken naar de VS",
+      "start_seconds": 167,
+      "mention_count": 1
+    },
+    {
+      "name": "Anthony Fauci",
+      "note": "Amerikaans immunoloog; beveiliging ingetrokken na bedreigingen",
+      "start_seconds": 226,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Voormalig Amerikaans president; genoemd als zwijgende oud-president",
+      "start_seconds": 234,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Amsterdams burgemeester; doelwit van reputatieaanvallen",
+      "start_seconds": 810,
+      "mention_count": 1
+    },
+    {
+      "name": "Gijs Tuinman",
+      "note": "Staatssecretaris van Defensie; sprak over 200.000 militairen",
+      "start_seconds": 1350,
+      "mention_count": 1
     },
     {
       "name": "Derk Sauer",
-      "note": "schreef in Het Parool over Trump en Rusland",
+      "note": "Journalist (Parool); analyseerde Russische psychologische beïnvloeding van Trump",
       "start_seconds": 1462,
-      "wiki_checked": true,
-      "wiki_pageid": 432576,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Derk_Sauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Derk_Sauer_%282017%29.jpg/250px-Derk_Sauer_%282017%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "Europees politicus; door Stefan Paas genoemd als mogelijke vicepremier",
+      "start_seconds": 3655,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Politicus; Schoof stelde zich in gesprekken als leider op tegen hem",
+      "start_seconds": 3597,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Franse keizer; Trump zou hem geciteerd hebben",
+      "start_seconds": 769,
+      "mention_count": 1
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof; vergeleken met het gebruik van Jezus-citaten door influencers",
+      "start_seconds": 5200,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Techondernemer; genoemd als zwaar gelovige invloedrijke figuur achter Trump",
+      "start_seconds": 5321,
+      "mention_count": 1
+    },
+    {
+      "name": "Lou de Jong",
+      "note": "Historicus; onderzoeker naar Nederland in de Tweede Wereldoorlog",
+      "start_seconds": 3686,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk Hofland",
+      "note": "Journalist; gesprekspartner van Lou de Jong in het interview",
+      "start_seconds": 3686,
+      "mention_count": 1
+    },
+    {
+      "name": "Michel Scholten",
+      "note": "Auteur; beschreef hoe Amerikaanse bedrijven overnames doen",
+      "start_seconds": 2107,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman van Rompuy",
+      "note": "Voormalig voorzitter van de Europese Raad; door Amerikanen bespot",
+      "start_seconds": 2194,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het is al jaren oorlog",
-      "author": "Huib Modderkolk",
-      "note": "over Russische malware en hybride oorlog",
-      "start_seconds": 1240
+      "author": "Huib Modelkolk",
+      "note": "Boek over Russische hybride oorlogsvoering en malware in Nederlandse infrastructuur",
+      "start_seconds": 1248
     }
   ],
   "bible_refs": [],
   "places": [
     "Verenigde Staten",
-    "Europa",
     "Groenland",
-    "Rusland",
     "Oekraïne",
-    "Nederland",
-    "Egypte",
+    "Rusland",
+    "Rotterdam",
+    "Nederlands-Indië",
+    "Srebrenica",
     "Oosterscheldedam",
+    "Duitsland",
     "Polen",
-    "Griekenland",
-    "Kansas"
+    "Italië",
+    "Canada",
+    "Taiwan",
+    "Indonesië",
+    "Panama",
+    "Egypte",
+    "Irak",
+    "Venezuela",
+    "Brussel",
+    "Engeland",
+    "Oostenrijk",
+    "Kansas",
+    "Den Haag",
+    "Zwolle",
+    "Ede"
   ],
-  "summary_tldr": "Joris Luyendijk stelt dat de VS verandert van beschermer in bedreiging voor Europa en dat Trump de Amerikaanse rechtsstaat afbreekt. Europa en Nederland onderschatten structureel grote risico's en moeten zich psychologisch, militair en economisch voorbereiden. Tegelijk ziet hij kansen om zelfstandiger en zelfverzekerder te worden.",
+  "summary_tldr": "Joris Luyendijk waarschuwt dat de VS, die sinds 1945 Europa beschermt, zich ontwikkelt van bondgenoot tot dreiging, en dat Europese vrijheid daardoor in gevaar komt. Hij analyseert Trumps autoritaire trekken, de Europese kwetsbaarheid en de Nederlandse historische neiging tot wensdenken, en pleit voor strategisch leiderschap en voorbereiding. Stefan Paas nuanceert en wijst op de rol van partijdigheid, polarisatie en religie.",
   "summary_points": [
-    "De VS garandeert sinds 1945 onze veiligheid, maar keert zich nu af van Europa.",
-    "Luyendijk ziet in Trumps handelen een dictatoriaal draaiboek: aanvallen op pers, rechters en wetenschap.",
-    "Hij vergelijkt het met zijn ervaringen in Egypte en met het fascistische playbook.",
-    "Mensen doorlopen een soort rouwproces bij het verlies van de oude wereldorde.",
-    "Nederland heeft historisch een patroon van het onderschatten van externe dreigingen.",
-    "Hybride oorlogsvoering, zoals Russische malware in de Oosterscheldedam, is al gaande.",
-    "Europa heeft de overtuiging geïnternaliseerd dat het zichzelf niet kan verdedigen.",
-    "Er is een kans: eigen defensie-industrie, talent en een eigen Europese stem in de media.",
-    "Amerika kijkt neer op Europa door provincialisme en gebrek aan kennis."
+    "Luyendijk stelt dat de VS van grote beschermer van Europa verandert in een mogelijke vijand, wat een grotere verandering is dan de val van de Muur.",
+    "Hij ziet Trumps regeerstijl als dictatoriaal: decreten, aantasting van de pers, wetenschap en rechtspraak, en vervolging van critici.",
+    "Europa is volgens hem kwetsbaar door jarenlange onderinvestering in defensie, afhankelijkheid van Amerika en verkochte industrie.",
+    "Luyendijk beschrijft een historisch Nederlands patroon van onderschatting van buitenlandse risico's, van 1940 tot Srebrenica en Covid.",
+    "Paas wijst op de gevaren van overschatting en onderschatting van Amerika en benadrukt dat Europa ook kansen ziet in de nieuwe situatie.",
+    "Het gesprek gaat over hybride dreiging van Rusland, zoals malware in infrastructuur, en de noodzaak van voorbereiding in bedrijven en gezinnen.",
+    "Beide gesprekspartners zien tekenen van Europese daadkracht bij Duitsland, Polen en Nederlandse bedrijven, maar vinden de politiek en media nog traag.",
+    "De culturele en religieuze kloof tussen Europa en de MAGA-beweging komt aan bod, inclusief evangelicalen en het idee van een christelijk kalifaat.",
+    "Luyendijk pleit voor een serieuzer publiek debat, betere informatievoorziening en strategisch denken in plaats van tactisch wensdenken."
   ],
   "chapters": [
     {
-      "start_seconds": 43,
-      "title": "De grootste verandering in ons leven",
-      "summary": "Luyendijk legt uit waarom de omslag in de VS groter is dan de val van de Muur."
+      "start_seconds": 0,
+      "title": "Introductie en de grote verandering",
+      "summary": "Luyendijk stelt dat de VS van beschermer naar mogelijke vijand verandert en dat dit een grotere omwenteling is dan de val van de Muur."
     },
     {
-      "start_seconds": 166,
-      "title": "Trump en de afbraak van de rechtsstaat",
-      "summary": "Voorbeelden van ingetrokken beveiliging, decreten, uitzettingen en het fascistische playbook."
+      "start_seconds": 120,
+      "title": "Van rechtsstaat naar dictatuur",
+      "summary": "Luyendijk en Paas bespreken Trumps machtsconcentratie, het negeren van rechters en de vervolging van critici, en vergelijken dit met een dictatuur."
     },
     {
-      "start_seconds": 840,
-      "title": "Rouwproces en voorbereiding",
-      "summary": "Over psychologische voorbereiding, noodpakketten en leiderschap in organisaties."
+      "start_seconds": 293,
+      "title": "Historische blinde vlek van Nederland",
+      "summary": "Luyendijk wijst op een patroon van Nederlandse onderschatting van buitenlandse risico's, van 1940 tot Covid, en op de rol van media en onderwijs."
     },
     {
-      "start_seconds": 1000,
-      "title": "Het Nederlandse patroon van onderschatting",
-      "summary": "Van 1940 tot Srebrenica en COVID: Nederland ziet gevaren van buiten laat."
+      "start_seconds": 1032,
+      "title": "Hybride dreiging en Russische kwetsbaarheid",
+      "summary": "Het gesprek gaat over Russische malware in infrastructuur, de noodzaak van persoonlijke voorbereiding en het verschil tussen militaire en hybride dreiging."
     },
     {
-      "start_seconds": 1230,
-      "title": "Hybride oorlog en defensie",
-      "summary": "Russische malware, Rutte en de verhoging van de krijgsmacht."
+      "start_seconds": 1200,
+      "title": "Poetin, Trump en de Russische invloed",
+      "summary": "Paas en Luyendijk analyseren de rol van Witkoff, Tucker Carlson en de psychologische beïnvloeding van Trump, en de vraag of het om ideologie of amateurisme gaat."
     },
     {
-      "start_seconds": 1500,
-      "title": "Trump, Poetin en de Europese kans",
-      "summary": "Over Witkoff, Poetins invloed en Europa's potentieel zoals ASML."
+      "start_seconds": 2472,
+      "title": "Europa ontwaakt: Merz, Defensie en Duitsland",
+      "summary": "Er wordt besproken hoe Duitsland, Polen en Scandinavische landen hun defensie versterken en hoe Europa haar eigen stem moet ontwikkelen."
     },
     {
-      "start_seconds": 1760,
-      "title": "Hoe Amerika naar Europa kijkt",
-      "summary": "Provincialisme, minachting voor Europa en de noodzaak van een eigen Europese stem."
+      "start_seconds": 2840,
+      "title": "Nederlandse politiek en verkiezingen",
+      "summary": "Luyendijk kritiseert het gebrek aan inhoud in de Nederlandse verkiezingscampagnes en de rol van Wilders, en pleit voor strategische oplossingsrichtingen."
+    },
+    {
+      "start_seconds": 4983,
+      "title": "Polarisatie, religie en cultuur",
+      "summary": "Het gesprek eindigt bij de religieuze en culturele dimensie van rechts-populisme, zoals evangelicalen, Zemmour en de vraag naar het verband met het christelijk geloof."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 15,
+      "start_seconds": 124,
       "speaker": "Joris Luyendijk",
-      "text": "Wij zijn echt niet goed in het inschatten van grote risico's van buiten het land.",
-      "note": "Kern van zijn historische analyse."
+      "text": "Het land dat sinds 1945 onze veiligheid garandeert, niet alleen dat niet meer doet, maar ook hardop zegt dat het eigenlijk niet langer ons beschouwt als een bondgenoot.",
+      "note": "Kernuitspraak die de urgentie van het hele gesprek samenvat."
     },
     {
-      "start_seconds": 258,
+      "start_seconds": 420,
       "speaker": "Joris Luyendijk",
-      "text": "Je zit midden in een neofascistische staatsgreep en je gaat tweeten over je presidentiële library.",
-      "note": "Scherpe kritiek op de Democraten."
+      "text": "Een dictatuur is dat je consequent alle rivaliserende machtscentra kapot maakt.",
+      "note": "Scherpe definitie die de wetenschap, pers en rechtspraak als doelwit van macht benoemt."
     },
     {
-      "start_seconds": 847,
+      "start_seconds": 1265,
       "speaker": "Joris Luyendijk",
-      "text": "Mensen hebben begeleiding nodig bij het rouwproces over de wereld die er niet meer is.",
-      "note": "Opvallende psychologische invalshoek."
+      "text": "Hij heeft ons niet gewaarschuwd.",
+      "note": "Felle kritiek op Rutte, die volgens hem Europa niet heeft voorbereid terwijl hij het land leidde."
     },
     {
-      "start_seconds": 1575,
+      "start_seconds": 3279,
       "speaker": "Joris Luyendijk",
-      "text": "Waarom vragen 500 miljoen Europeanen hulp aan 350 miljoen Amerikanen in een strijd met 150 miljoen Russen?",
-      "note": "Citaat van Tusk dat Europese onderschatting van zichzelf blootlegt."
+      "text": "Democratie is georganiseerde frustratie.",
+      "note": "Opvallende omkering: frustratie is volgens hem juist een teken dat leiders maximaal informatie krijgen."
     },
     {
-      "start_seconds": 2171,
+      "start_seconds": 4026,
       "speaker": "Joris Luyendijk",
-      "text": "Er staat op dit moment 1 democratie op instorten en het is niet de Europese.",
-      "note": "Keert het Amerikaanse narratief om."
+      "text": "In groepsverband zijn mensen gewoon echt geneigd tot het kwade.",
+      "note": "Pessimistische observatie die het gesprek over leiderschap en groepsdynamiek afrondt."
     }
   ],
   "keywords": [
+    "Amerikaanse dreiging",
     "Trump",
-    "transatlantische band",
-    "rechtsstaat",
-    "fascisme",
-    "hybride oorlog",
-    "defensie",
-    "Europese autonomie",
+    "autoritarisme",
     "NAVO",
-    "Rusland",
-    "propaganda",
-    "rouwproces",
-    "Joris Luyendijk"
+    "hybride oorlog",
+    "Europese defensie",
+    "Russische beïnvloeding",
+    "transatlantische relatie",
+    "polarisatie",
+    "populisme",
+    "leiderschap"
   ],
   "quotes": [
-    "Wat we nu meemaken is de grootste verandering uit jouw en mijn leven, want onze vrijheid is in direct gevaar."
+    "Wat we nu meemaken is de grootste verandering uit jouw en mijn leven, want onze vrijheid is in direct gevaar.",
+    "steeds meer veranderen van 'grote beschermer' naar 'grote dreiging' voor Europa."
   ],
   "similar": [
     {
-      "n": 295,
-      "reason": "Joris Luyendijk over existentiële strijd, Trump, Amerika en mobilisering van Europa"
-    },
-    {
-      "n": 271,
-      "reason": "Joris Luyendijk over populisme, Oekraïne en Amerika; Nederlandse politiek op scherp"
+      "n": 236,
+      "reason": "Amerika glijdt af en Europa moet opstaan; zelfde thema's en Beatrice de Graaf"
     },
     {
       "n": 284,
-      "reason": "Machtspolitiek, Trump, Poetin en Europa in een nieuwe wereldorde"
+      "reason": "Brute machtspolitiek, Trump, Poetin en Europa; sterke geopolitieke overlap"
     },
     {
-      "n": 230,
-      "reason": "Trump en Poetin spelen Europa uit elkaar; Europa moet zich voorbereiden"
+      "n": 295,
+      "reason": "Joris Luyendijk pleit voor mobilisering tegen existentiële dreiging uit Amerika"
     },
     {
-      "n": 236,
-      "reason": "Amerika glijdt af en Europa staat op; zelfde Trump-Europa-thematiek"
+      "n": 271,
+      "reason": "Joris Luyendijk over populisme, geopolitiek en belangrijke Nederlandse verkiezingen"
+    },
+    {
+      "n": 309,
+      "reason": "Chaosstrategie van Trump en Poetin; autoritaire leiders en geopolitieke onzekerheid"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

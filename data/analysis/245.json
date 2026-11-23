@@ -1,225 +1,390 @@
 {
   "episode": 245,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 168167,
+    "segments": 1871,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31552,
-    "output_tokens": 2033,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 87925,
+    "output_tokens": 7925,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
     "Geopolitiek & oorlog",
-    "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "God & geloof",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Koos-Jan de Jager"
   ],
   "people": [
     {
-      "name": "Joop Hüting",
-      "note": "veteraan die in 1969 op tv oorlogsmisdaden onthulde",
-      "start_seconds": 393,
-      "wiki_checked": true
+      "name": "Sukarno",
+      "note": "Indonesische nationalistische leider die op 17 augustus 1945 de onafhankelijkheid uitriep",
+      "start_seconds": 1151,
+      "mention_count": 9
     },
     {
-      "name": "Sukarno",
-      "note": "Indonesische leider die op 17 augustus 1945 de onafhankelijkheid uitriep",
-      "start_seconds": 1151,
-      "wiki_checked": true,
-      "wiki_pageid": 77399,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Soekarno",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/250px-Presiden_Sukarno.jpg"
+      "name": "Joop Hütting",
+      "note": "Veteraan die in 1969 op televisie over oorlogsmisdaden in Indonesië vertelde",
+      "start_seconds": 380,
+      "mention_count": 3
+    },
+    {
+      "name": "Raymond Westerling",
+      "note": "Beruchte Nederlandse gezagvoerder in Indonesië, verantwoordelijk voor grootschalig geweld en nooit vervolgd",
+      "start_seconds": 2732,
+      "mention_count": 6
     },
     {
       "name": "Simon Spoor",
-      "note": "Nederlandse legercommandant in Indonesië, wilde militair doorstoten",
+      "note": "Nederlands legercommandant in Indonesië die optimistisch bleef over een militaire overwinning",
       "start_seconds": 2018,
-      "wiki_checked": true,
-      "wiki_pageid": 328562,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_Spoor",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Simon_Spoor_%281948%29.jpg/250px-Simon_Spoor_%281948%29.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "Henk Silvis Smit",
+      "note": "Hoofdvlootpredikant die mee landde bij de amfibische operatie van 1947",
+      "start_seconds": 3019,
+      "mention_count": 3
+    },
+    {
+      "name": "Frits Slomp",
+      "note": "Verzetspredikant die later als legerpredikant naar Indonesië ging",
+      "start_seconds": 3504,
+      "mention_count": 4
+    },
+    {
+      "name": "Hendrik Kraemer",
+      "note": "Zendingspredikant met kritische positie op het Nederlandse optreden",
+      "start_seconds": 4029,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Herman Bavinck",
+      "note": "Zendingspredikant die de taal sprak en kritisch was over het Nederlandse optreden",
+      "start_seconds": 4029,
+      "mention_count": 2
+    },
+    {
+      "name": "Jacob Kuyl",
+      "note": "Zendingspredikant die kritisch was over het Nederlandse optreden",
+      "start_seconds": 4029,
+      "mention_count": 2
+    },
+    {
+      "name": "Hildering",
+      "note": "Zendingsdominee op Oost-Java die een rapport over een bloedbad publiceerde",
+      "start_seconds": 4319,
+      "mention_count": 4
+    },
+    {
+      "name": "Kronenberg",
+      "note": "Krijgsmachtpredikant die tegenstanders van de oorlog fel bestreed",
+      "start_seconds": 4261,
+      "mention_count": 2
+    },
+    {
+      "name": "Krijn Strijd",
+      "note": "Pacifistische predikant die zich tegen de oorlog uitsprak",
+      "start_seconds": 4237,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Buskes",
+      "note": "Predikant en pacifist die zich als legerpredikant wilde aanmelden maar werd geweigerd",
+      "start_seconds": 4249,
+      "mention_count": 3
     },
     {
       "name": "Prins Bernhard",
-      "note": "zou betrokken zijn bij een vermeend complot tegen het akkoord",
-      "start_seconds": 508,
-      "wiki_checked": true,
-      "wiki_pageid": 20944,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bernhard_van_Lippe-Biesterfeld",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Prince_Bernhard_1942.jpg/250px-Prince_Bernhard_1942.jpg"
+      "note": "Lid van het koningshuis die volgens geruchten betrokken was bij een coupplan",
+      "start_seconds": 510,
+      "mention_count": 2
+    },
+    {
+      "name": "Mohammed Hatta",
+      "note": "Indonesische onderhandelaar tijdens de overdracht in Nederland",
+      "start_seconds": 5038,
+      "mention_count": 1
     },
     {
       "name": "Abraham Kuyper",
-      "note": "schreef de ethische politiek in het ARP-partijprogramma",
-      "start_seconds": 913,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
+      "note": "Oprichter van de ARP die de ethische politiek formuleerde",
+      "start_seconds": 909,
+      "mention_count": 2
     },
     {
-      "name": "Frans Timmermans",
-      "note": "minister die in 2012 een groot onderzoeksproject afwees",
-      "start_seconds": 597,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "name": "George Harink",
+      "note": "Promotor van de Jager",
+      "start_seconds": 2850,
+      "mention_count": 1
     },
     {
-      "name": "Koningin Beatrix",
-      "note": "wilde in 1995 naar Indonesië, werd door het kabinet tegengehouden",
-      "start_seconds": 483,
-      "wiki_checked": true,
-      "wiki_pageid": 5326,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrix_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Prinses_Beatrix.jpg/250px-Prinses_Beatrix.jpg"
+      "name": "Bart Valet",
+      "note": "Begeleider van het onderzoek van de Jager",
+      "start_seconds": 2850,
+      "mention_count": 1
     },
     {
-      "name": "Willem Drees",
-      "note": "premier tijdens de onderhandelingen en politionele acties",
-      "start_seconds": 2123,
-      "wiki_checked": true,
-      "wiki_pageid": 10747,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Drees",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Willem_Drees_1958.jpg/250px-Willem_Drees_1958.jpg"
+      "name": "Marten Kruijf",
+      "note": "Generaal buitendienst die over het gedrag van militairen in loopgraven sprak",
+      "start_seconds": 4139,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Premier die in 2023 erkende dat de Indonesische staat in 1945 ontstond",
+      "start_seconds": 5386,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; zijn term speciale militaire operatie wordt vergeleken met de politionele acties",
+      "start_seconds": 2632,
+      "mention_count": 3
+    },
+    {
+      "name": "Anton Mussert",
+      "note": "NSB-leider, vergeleken met Sukarno als landverrader",
+      "start_seconds": 1194,
+      "mention_count": 1
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider, genoemd als voorbeeld van steun die later als fout werd gezien",
+      "start_seconds": 3726,
+      "mention_count": 1
+    },
+    {
+      "name": "Castro",
+      "note": "Cubaanse leider, genoemd als voorbeeld van steun die later als fout werd gezien",
+      "start_seconds": 3726,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "Historica die eerder in de podcast de Europese wapeninvesteringen uitlegde",
+      "start_seconds": 4688,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "Schrijver van De eeuw van mijn vader, die de vader van Geert Makkink beschrijft",
+      "start_seconds": 3194,
+      "mention_count": 1
     },
     {
       "name": "Koningin Wilhelmina",
-      "note": "deed in 1942 een vage belofte van zelfbestuur",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 13534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wilhelmina_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wilhelmina_der_NederlandenI71849.jpg/250px-Wilhelmina_der_NederlandenI71849.jpg"
+      "note": "Koningin die in een troonrede de koloniale oorlog als onvermijdelijk presenteerde",
+      "start_seconds": 1016,
+      "mention_count": 2
+    },
+    {
+      "name": "Koningin Juliana",
+      "note": "Koningin die in 1949 de soevereiniteitsoverdracht ondertekende",
+      "start_seconds": 5120,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Oorlog zonder genade",
       "author": "Koos-Jan de Jager",
-      "note": "boek over de oorlog in Indonesië en de rol van geestelijken",
-      "start_seconds": 1952,
+      "note": "Proefschrift en boek over de Nederlandse oorlog in Indonesië en de rol van geestelijken",
+      "start_seconds": 32,
       "volume_id": "PJIM0QEACAAJ",
-      "canonical_title": "Oorlog zonder genade: Nederlandse militaire geestelijken in Indonesië, 1945-1949",
+      "canonical_title": "Oorlog zonder genade",
       "canonical_author": "Koos-jan de Jager",
       "isbn13": "9789024470358",
       "isbn10": "9024470358",
       "thumbnail": ""
+    },
+    {
+      "title": "De eeuw van mijn vader",
+      "author": "Geert Mak",
+      "note": "Beschrijft de vader van Geert Makkink als legerpredikant",
+      "start_seconds": 3194,
+      "volume_id": "Y--cAAAACAAJ",
+      "canonical_title": "De eeuw van mijn vader",
+      "canonical_author": "Geert Mak",
+      "isbn13": "9789025428006",
+      "isbn10": "9025428002",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 28",
+      "note": "Preek van Henk Silvis Smit over Jakob en de belofte 'God gaat met je mee' voor de landing",
+      "start_seconds": 3042
+    },
+    {
+      "ref": "Psalm 121",
+      "note": "Gezongen voor de landing als bemoediging",
+      "start_seconds": 3042
+    },
+    {
+      "ref": "Romeinen 13",
+      "note": "Gebruikt als argument dat de overheid gezag heeft en verzet niet mag",
+      "start_seconds": 3609
+    },
+    {
+      "ref": "Johannes 15:13",
+      "note": "Poetin citeert de uitspraak over liefde die zijn leven geeft voor zijn vrienden",
+      "start_seconds": 2951
+    }
+  ],
   "places": [
-    "Indonesië",
     "Nederlands-Indië",
+    "Indonesië",
+    "Java",
     "Batavia",
     "Surabaya",
     "Yogyakarta",
     "Bali",
+    "Sulawesi",
+    "Oost-Java",
     "Singapore",
+    "Pearl Harbor",
     "Hiroshima",
     "Nagasaki",
-    "Banda-eilanden"
+    "Putten",
+    "Londen",
+    "Normandië",
+    "Den Haag",
+    "Linggadjati",
+    "Aalten"
   ],
-  "summary_tldr": "Historicus Koos-Jan de Jager vertelt over de Nederlandse oorlog tegen het onafhankelijke Indonesië (1945-1949), lang verzwegen en 'politionele acties' genoemd. Het gesprek schetst de koloniale context, het Nederlandse zelfbeeld en de veranderde geschiedschrijving: geen excessen maar structureel geweld.",
+  "summary_tldr": "In deze aflevering van De Ongelooflijke Podcast bespreekt historicus Koos-Jan de Jager de Nederlandse oorlog tegen Indonesië (1945-1949), die in Nederland 'politionele acties' werd genoemd en lange tijd verzwegen werd. Hij belicht de koloniale achtergrond, het geweld van het Nederlandse leger en de rol van legerpredikanten die het optreden religieus rechtvaardigden. Stefan Paas en David Boogerd reflecteren op de parallellen met vandaag, zoals het gebruik van taal over vrede en het gevaar van polarisatie.",
   "summary_points": [
-    "De oorlog werd in Nederland nooit 'oorlog' genoemd, maar 'politionele acties'.",
-    "Veteranen kregen te horen te zwijgen; Joop Hüting werd in 1969 als verrader gezien.",
-    "De excessennota (1969) sprak van incidenten, maar recent onderzoek spreekt van structureel beleid.",
-    "Pas in 2012 won Indonesische weduwen een rechtszaak tegen de Nederlandse staat.",
-    "Nederland was voor 1942 het grootste islamitische rijk ter wereld.",
-    "De ethische politiek combineerde beschavings- en kersteningsidealen met koloniaal geweld.",
-    "Na de Japanse capitulatie riep Sukarno de onafhankelijkheid uit, wat Nederland niet serieus nam.",
-    "Economische belangen (Operatie Product) en wederopbouw dreven de militaire acties.",
-    "Racistische beeldvorming zorgde voor onderschatting van het Indonesische nationalisme."
+    "De oorlog in Indonesië werd in Nederland geen oorlog genoemd maar 'politionele acties', om internationale reacties en de VN te ontlopen.",
+    "Veteranen kregen na 1945 de boodschap om er niet over te praten, en pas in 1969 kwam het debat echt op gang.",
+    "De excessennota van 1969 presenteerde het geweld als incidenten; latere onderzoeken, waaronder het overheidsrapport van 2017, concludeerden dat het structureel en beleidsmatig was.",
+    "Nederland zag Indonesië als onmondig, en het koloniale denken van 'ethische politiek' combineerde beschaving en christendom met geweld.",
+    "Japanse bezetting, de onafhankelijkheidsverklaring van 17 augustus 1945 en de Bersiap-periode vormden de achtergrond van het conflict.",
+    "Het Nederlandse leger pleegde systematisch geweld, waaronder executies, martelingen en 'op de vlucht gedood'-verhullingen, met weinig vervolging.",
+    "Legerpredikanten legitimeerden de oorlog religieus, met teksten als Genesis 28 en Romeinen 13, en identificeerden zich sterk met de militairen.",
+    "Zendingspredikanten en enkele pacifisten waren kritischer, maar hun stem bleef beperkt; Hildering werd onder druk gezet na zijn rapport over een bloedbad.",
+    "Pas in 2012 volgde een rechtszaak van Indonesische weduwen, en in 2023 erkende premier Rutte dat de Indonesische staat al in 1945 ontstond.",
+    "De vraag naar excuses, de rol van het zelfbeeld en de waarde van zelfkritiek bleven centraal."
   ],
   "chapters": [
     {
-      "start_seconds": 0,
-      "title": "Dodenherdenking en persoonlijke herinneringen",
-      "summary": "Gasten delen waar ze aan denken tijdens de twee minuten stilte."
+      "start_seconds": 32,
+      "title": "Dodenherdenking en de vergeten oorlog",
+      "summary": "David Boogerd opent met een persoonlijke reflectie op 4 mei en introduceert de oorlog in Indonesië als verzwegen geschiedenis."
     },
     {
       "start_seconds": 307,
-      "title": "Waarom een verzwegen oorlog?",
-      "summary": "Over de term 'politionele acties', zwijgende veteranen, de excessennota en recent onderzoek."
+      "title": "Waarom de oorlog verzwegen werd",
+      "summary": "De Jager schetst hoe veteranen tot zwijgen werden gebracht en hoe de excessennota en latere onderzoeken het beeld veranderden."
     },
     {
       "start_seconds": 755,
       "title": "Indonesië en het koloniale verleden",
-      "summary": "Van VOC tot ethische politiek en de beschavingsmissie."
+      "summary": "Context over de omvang van Indonesië, de VOC, de handel in specerijen en de opkomst van de ethische politiek."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 1151,
       "title": "Japanse bezetting en onafhankelijkheid",
-      "summary": "Japan verovert Indië, Sukarno roept de republiek uit en de Bersiap-periode."
+      "summary": "Japan verdrijft de Nederlanders, Sukarno roept de onafhankelijkheid uit en de Bersiap-periode van geweld breekt los."
     },
     {
-      "start_seconds": 1740,
-      "title": "Onderhandelingen en Linggadjati",
-      "summary": "Internationale druk, het akkoord en de verdeelde Nederlandse en Indonesische politiek."
+      "start_seconds": 2018,
+      "title": "De politionele acties en het militaire optreden",
+      "summary": "Militaire opbouw, de operaties van 1947 en 1948, en de druk van de VN en de Verenigde Staten op Nederland."
     },
     {
-      "start_seconds": 1950,
-      "title": "Troepenopbouw en politionele acties",
-      "summary": "Generaal Spoor, Operatie Product en de economische motieven."
+      "start_seconds": 2344,
+      "title": "Geweld, straffeloosheid en propaganda",
+      "summary": "Beschrijving van executies, martelingen en de censuur van nieuws, en de rol van Westerling."
+    },
+    {
+      "start_seconds": 2828,
+      "title": "Legerpredikanten en religieuze legitimatie",
+      "summary": "De rol van dominees en priesters die de oorlog als Gods wil en christelijke strijd presenteerden, en hun loyaliteit aan de troepen."
+    },
+    {
+      "start_seconds": 4680,
+      "title": "Parallellen met vandaag en slot",
+      "summary": "Reflectie op pacifisme, polarisatie, nationalisme en het gebruik van religieuze taal, en de erkenning van de oorlog door de Nederlandse staat."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 125,
+      "start_seconds": 2936,
+      "speaker": "Koos-Jan de Jager",
+      "text": "Het is eigenlijk 2 zijden van dezelfde medaille voor hen: militaire waarden en christelijke waarden.",
+      "note": "Laat zien hoe militaire en christelijke waarden in elkaar overliepen."
+    },
+    {
+      "start_seconds": 3783,
       "speaker": "Stefan Paas",
-      "text": "Verhalen over opa's en neven die door Duitsers werden doodgeschoten.",
-      "note": "Persoonlijk en emotioneel begin."
+      "text": "Het is een heilige oorlog, vrienden.",
+      "note": "Een ironische samenvatting van de religieuze legitimatie van de oorlog."
     },
     {
-      "start_seconds": 314,
-      "speaker": "Stefan Paas",
-      "text": "Een bijzondere militaire operatie.",
-      "note": "Directe parallel met Rusland."
-    },
-    {
-      "start_seconds": 631,
+      "start_seconds": 2377,
       "speaker": "Koos-Jan de Jager",
-      "text": "Het was beleid, het werd niet bestraft en veel is doodgezwegen.",
-      "note": "Kern van de herziene geschiedschrijving."
+      "text": "Nou, we hebben maandenlang God gebeden dat jullie eindelijk mochten optreden.",
+      "note": "Toont hoe kerkelijke netwerken het militaire optreden steunden."
     },
     {
-      "start_seconds": 785,
+      "start_seconds": 5683,
       "speaker": "Koos-Jan de Jager",
-      "text": "Voor 1942 was Nederland het grootste islamitische rijk ter wereld.",
-      "note": "Verrassend feit."
+      "text": "Waarheid is ook een heel christelijk begrip en het is nu echt tijd om dat ook gewoon boven tafel te krijgen.",
+      "note": "Een persoonlijke motivatie om de ongemakkelijke waarheid te vertellen."
     },
     {
-      "start_seconds": 2072,
-      "speaker": "Koos-Jan de Jager",
-      "text": "Operatie Product: die producten moeten we weer hebben.",
-      "note": "Toont economisch motief."
+      "start_seconds": 2632,
+      "speaker": "David Boogerd",
+      "text": "Speciale militaire operatie is het woord dat Poetin gebruikt voor de oorlog in Oekraïne.",
+      "note": "Trekt de parallel tussen de politionele acties en de Russische retoriek van vandaag."
     }
   ],
   "keywords": [
-    "Indonesië",
     "politionele acties",
-    "kolonialisme",
-    "ethische politiek",
-    "Sukarno",
-    "Bersiap",
+    "Indonesië",
+    "dekolonisatie",
+    "legerpredikanten",
     "excessennota",
-    "veteranen",
-    "Oorlog zonder genade",
-    "Nederlands-Indië"
+    "Bersiap",
+    "Westerling",
+    "ethische politiek",
+    "zelfbeeld",
+    "religieuze legitimatie",
+    "pacifisme",
+    "straffeloosheid"
   ],
-  "quotes": [],
-  "similar": []
+  "quotes": [
+    "Het officiële verhaal was dat we slechts de orde herstelden in 'onze' kolonie.",
+    "En waren wij in Nederland vooral slachtoffers in die oorlog — of ook daders?",
+    "Het is belangrijk om het hier eens over te hebben."
+  ],
+  "similar": [
+    {
+      "n": 138,
+      "reason": "Kerk en Tweede Wereldoorlog, met George Harinck; sterke overlap met de rol van religie in oorlog"
+    },
+    {
+      "n": 118,
+      "reason": "Koloniale geschiedenis en de rol van religie, zoals bij de Indonesische oorlog"
+    },
+    {
+      "n": 53,
+      "reason": "Oorlog, verzet en geschiedenis met Beatrice de Graaf; overlap in geschiedenis en geopolitiek"
+    },
+    {
+      "n": 215,
+      "reason": "Onrecht en geweld in een gewelddadig conflict, met religieuze dimensie en historische duiding"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 93,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 114279,
+    "segments": 1104,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31024,
-    "output_tokens": 2594,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58752,
+    "output_tokens": 3283,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Samenleving & migratie",
     "Gezin & relaties",
     "Kerk & secularisatie",
-    "Filosofie & ethiek",
-    "Amerika & Trump"
+    "Geschiedenis"
   ],
   "guests": [
     "Heleen Zorgdrager"
@@ -20,280 +25,266 @@
   "people": [
     {
       "name": "Heleen Zorgdrager",
-      "note": "feministisch theoloog, hoogleraar Systematische Theologie (PThU Amsterdam, Lviv)",
-      "start_seconds": 133,
-      "wiki_checked": true
+      "note": "Gast; hoogleraar systematische theologie, feministisch theoloog",
+      "start_seconds": 2,
+      "mention_count": 1
     },
     {
-      "name": "Nicki Pouw-Verweij",
-      "note": "JA21-parlementariër, genoemd als vroom katholiek",
-      "start_seconds": 394,
-      "wiki_checked": true,
-      "wiki_pageid": 5222640,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicki_Pouw-Verweij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Nicki_Pouw-Verweij.jpg/250px-Nicki_Pouw-Verweij.jpg"
+      "name": "Stefan Paas",
+      "note": "Vaste gast; theoloog",
+      "start_seconds": 1,
+      "mention_count": 1
     },
     {
-      "name": "Donald Trump",
-      "note": "benoemde rechters in het Hoge Rechtshof",
-      "start_seconds": 657,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische oligarchen in zijn omgeving steunen pro-familieorganisaties",
-      "start_seconds": 941,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Rebecca Todd Peters",
+      "note": "Feministisch theoloog, auteur van 'Trust Women'",
+      "start_seconds": 1386,
+      "mention_count": 2
     },
     {
       "name": "Basilius van Caesarea",
-      "note": "kerkvader uit de vierde eeuw die abortus als moord en zelfmoord zag",
-      "start_seconds": 1470,
-      "wiki_checked": true,
-      "wiki_pageid": 178437,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Basilius_van_Caesarea",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Basil_of_Caesarea.jpg/250px-Basil_of_Caesarea.jpg"
+      "note": "Kerkvader uit de vierde eeuw die abortus verwerpt",
+      "start_seconds": 1464,
+      "mention_count": 1
     },
     {
       "name": "Plato",
-      "note": "filosoof die abortus en kindermoord door de staat toeliet",
-      "start_seconds": 1497,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof; beschrijft in de Republiek een staat die reguleert wie kinderen krijgt",
+      "start_seconds": 1498,
+      "mention_count": 1
     },
     {
       "name": "Aristoteles",
-      "note": "filosoof; bevolkingspolitiek en quickening",
-      "start_seconds": 1497,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
-    },
-    {
-      "name": "Ovidius",
-      "note": "Romeinse dichter, genoemd over abortus in het Romeinse Rijk",
-      "start_seconds": 1525,
-      "wiki_checked": true,
-      "wiki_pageid": 65738,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ovidius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Ovid_18th_century_engraving_%28cropped%29.jpg/250px-Ovid_18th_century_engraving_%28cropped%29.jpg"
-    },
-    {
-      "name": "Paulus VI",
-      "note": "paus die in 1968 de encycliek Humanae Vitae uitbracht",
-      "start_seconds": 2395,
-      "wiki_checked": true,
-      "wiki_pageid": 81527,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Paulus_VI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg/250px-Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg"
+      "note": "Griekse filosoof; invloed op kerkvaders over quickening en bevolkingspolitiek",
+      "start_seconds": 1498,
+      "mention_count": 3
     },
     {
       "name": "Thomas van Aquino",
-      "note": "middeleeuws theoloog die geleidelijke bezieling aannam",
-      "start_seconds": 2500,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "Middeleeuwse theoloog; zag de ziel als geleidelijk ingaand",
+      "start_seconds": 2505,
+      "mention_count": 2
+    },
+    {
+      "name": "Paus Paulus VI",
+      "note": "Paus die in 1968 de encycliek Humanae Vitae uitbracht",
+      "start_seconds": 2387,
+      "mention_count": 2
+    },
+    {
+      "name": "Gerrit de Kruif",
+      "note": "Ethicus in Leiden, overleden; pleitte tegen het idee van heilig leven",
+      "start_seconds": 4019,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Singer",
+      "note": "Filosoof (Princeton) die ethisch pleit voor abortus tot na de geboorte",
+      "start_seconds": 4494,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Voormalig Amerikaans president; benoemde rechters in het Hooggerechtshof",
+      "start_seconds": 655,
+      "mention_count": 1
+    },
+    {
+      "name": "Hillary Clinton",
+      "note": "Amerikaans politica; formuleerde 'safe, legal and rare'",
+      "start_seconds": 4555,
+      "mention_count": 1
+    },
+    {
+      "name": "Rebecca Gomperts",
+      "note": "Oprichter Women on Waves, abortusboot",
+      "start_seconds": 2830,
+      "mention_count": 1
+    },
+    {
+      "name": "Anne Fru Rady",
+      "note": "Genoemd als pleitbezorger van abortus na de geboorte",
+      "start_seconds": 3200,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicky Pauw",
+      "note": "JA21-politicus, katholiek, tegen abortus",
+      "start_seconds": 380,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Genoemd in de opsomming van 'leven'",
+      "start_seconds": 4040,
+      "mention_count": 1
+    },
+    {
+      "name": "Moeder Teresa",
+      "note": "Genoemd in de opsomming van 'leven'",
+      "start_seconds": 4040,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig premier, genoemd als voorbeeld van leven",
+      "start_seconds": 4040,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Humanae Vitae",
-      "author": "Paulus VI",
-      "note": "encycliek uit 1968 over geboorteregeling en absolute beschermwaardigheid van het leven",
-      "start_seconds": 2395,
-      "volume_id": "LrTUSAAACAAJ",
-      "canonical_title": "Humanae vitae: encycliek van Paus Paulus VI van 25 juli 1968 over de geboorteregeling aan de bisschoppen, de geestelijkheid en de gelovigen van heel de katholieke wereld en aan alle mensen van goede wil",
-      "canonical_author": "Paulus VI (paus)",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": ""
-    },
-    {
-      "title": "De Republiek",
-      "author": "Plato",
-      "note": "over de ideale staat en gereguleerde voortplanting",
-      "start_seconds": 1500,
-      "volume_id": "g24PAAAAQAAJ",
-      "canonical_title": "De Republiek van Plato",
-      "canonical_author": "Plato, Dionys Burger",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=g24PAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Didache",
-      "author": "",
-      "note": "vroegchristelijk geschrift over de twee wegen: leven en dood",
-      "start_seconds": 1681,
-      "volume_id": "tn7-DwAAQBAJ",
-      "canonical_title": "De Didache: Het onderwijs van de apostelen",
-      "canonical_author": "Arjan de Kok",
-      "isbn13": "9789082186932",
-      "isbn10": "9082186934",
-      "thumbnail": "http://books.google.com/books/content?id=tn7-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Trust Women",
+      "author": "Rebecca Todd Peters",
+      "note": "Pro-choice christelijk standpunt over abortus",
+      "start_seconds": 1386,
+      "volume_id": "MvdQDwAAQBAJ",
+      "canonical_title": "Trust Women: A Progressive Christian Argument for Reproductive Justice",
+      "canonical_author": "Rebecca Todd Peters",
+      "isbn13": "9780807069981",
+      "isbn10": "0807069981",
+      "thumbnail": "http://books.google.com/books/content?id=MvdQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Genesis 1:28",
-      "note": "'wees vruchtbaar en vermenigvuldig u' als argument tegen abortus",
-      "start_seconds": 1727
+      "ref": "Exodus 21",
+      "note": "Wetgeving over een vrouw die per ongeluk een vrucht verliest; geen moord, wel boete",
+      "start_seconds": 4140
     }
   ],
   "places": [
-    "Amerika",
-    "Nederland",
     "Oekraïne",
     "Lviv",
+    "Amsterdam",
+    "Utrecht",
+    "Verenigde Staten",
     "Polen",
     "Hongarije",
     "Alabama",
     "Californië",
     "New York",
-    "Europa",
-    "Mississippi",
-    "Utrecht"
+    "India",
+    "Rusland"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met feministisch theoloog Heleen Zorgdrager over abortus, naar aanleiding van het dreigende terugdraaien van Roe versus Wade in Amerika. Ze bespreken de christelijke geschiedenis van het abortusdenken, de rol van allianties en politiek, en de morele status van de foetus. Zorgdrager benadrukt de morele keuze en relationele positie van de vrouw.",
+  "summary_tldr": "In deze aflevering bespreken David Boogerd en Stefan Paas met Heleen Zorgdrager hoe christelijke tradities over abortus denken, van kerkvaders tot Humanae Vitae, en hoe dat zich verhoudt tot het huidige debat. Zorgdrager pleit vanuit een relationele ethiek voor vertrouwen in vrouwen en een pro-choice standpunt, terwijl Paas de noodzaak van een wettelijke balans benadrukt. Het gesprek raakt ook aan de Amerikaanse terugdraai van Roe v. Wade en het risico van politieke allianties rond het thema.",
   "summary_points": [
-    "Roe versus Wade lijkt teruggedraaid te worden; abortusrecht wordt per staat bepaald.",
-    "Zorgdrager ziet allianties tussen conservatieve christenen en seculiere rechtse groepen, zoals Agenda Europa.",
-    "Paas vindt de zorg over Nederland overdreven; abortus staat hier nauwelijks onder druk.",
-    "Zij verkiest de term pro-choice boven pro-life, omdat pro-life eenzijdig is.",
-    "De christelijke traditie keurde abortus af, maar kende ook mildheid en onderscheid tussen vroege en late abortus.",
-    "De absolute beschermwaardigheid vanaf conceptie werd pas in 1968 met Humanae Vitae pauselijk leerstuk.",
-    "Zorgdrager ziet de foetus als waardevol en potentieel mens, maar niet als persoon.",
-    "De vrouw maakt een morele, relationele afweging; adoptie is volgens haar geen echt alternatief.",
-    "Paas: het draait uiteindelijk om de vraag hoe beschermwaardig menselijk leven is."
+    "Het Amerikaanse Hooggerechtshof lijkt Roe v. Wade terug te draaien, waardoor abortus per staat anders geregeld wordt.",
+    "Zorgdrager ziet in Europa een netwerk van pro-familieorganisaties waarin anti-abortus samengaat met anti-migratie en anti-LHBTI-standpunten.",
+    "Paas relativeert de Europese dreiging en wijst op de stabiele Nederlandse abortuswet uit 1984.",
+    "Historisch was de christelijke lijn tegen abortus, maar met nuances: quickening en verschil tussen vroeg en laat.",
+    "Humanae Vitae (1968) introduceerde de absolute beschermwaardigheid van het leven vanaf de conceptie.",
+    "Zorgdrager ziet het embryo als potentie tot mens en benadrukt de relationele band met de moeder.",
+    "Paas beargumenteert dat de wet een compromis is tussen keuzevrijheid en beschermwaardigheid.",
+    "Financiële noden spelen een grote rol bij abortusbeslissingen; beide kanten erkennen dat.",
+    "Het gesprek eindigt met een pleidooi om eerst naar vrouwenverhalen te luisteren."
   ],
   "chapters": [
     {
-      "start_seconds": 133,
-      "title": "Kennismaking en Oekraïne",
-      "summary": "Zorgdrager vertelt over haar werk en de oorlog in Oekraïne, waar ze ook hoogleraar is."
+      "start_seconds": 0,
+      "title": "Introductie en gasten",
+      "summary": "Boogerd stelt Zorgdrager voor en schetst het thema abortus en de verhouding tussen geloof en pro-choice."
     },
     {
-      "start_seconds": 330,
-      "title": "Abortus als scheidslijn tussen gelovigen en niet-gelovigen",
-      "summary": "Is het debat echt gelovig versus ongelovig? Zorgdrager wijst op allianties met seculiere conservatieven."
+      "start_seconds": 130,
+      "title": "Allianties en de Amerikaanse ommezwaai",
+      "summary": "Discussie over conservatieve allianties, Roe v. Wade en de gevolgen van benoemingen in het Hooggerechtshof."
     },
     {
-      "start_seconds": 600,
-      "title": "Roe versus Wade en de Amerikaanse situatie",
-      "summary": "Het uitgelekte Hoge Rechtshof-stuk en de gevolgen voor staten."
+      "start_seconds": 960,
+      "title": "Europa en de pro-family netwerken",
+      "summary": "Zorgdrager waarschuwt voor Europese netwerken; Paas nuanceert de Nederlandse situatie."
     },
     {
-      "start_seconds": 780,
-      "title": "Europa, Agenda Europa en politieke allianties",
-      "summary": "Zorgdrager waarschuwt voor netwerken; Paas zet daar nuchtere kanttekeningen bij."
+      "start_seconds": 1440,
+      "title": "Christelijke geschiedenis van abortus",
+      "summary": "Kerkvaders, Plato en Aristoteles, en de lijn van quickening en de biechtboeken."
     },
     {
-      "start_seconds": 1274,
-      "title": "Nederlandse wetgeving en quickening",
-      "summary": "Zorgdrager verdedigt de huidige wet en bespreekt de historische grens van quickening."
+      "start_seconds": 2380,
+      "title": "Humanae Vitae en moderne beschermwaardigheid",
+      "summary": "De encycliek van 1968, Thomas van Aquino en de Southern Baptists en Roe v. Wade."
     },
     {
-      "start_seconds": 1415,
-      "title": "Christelijke traditie en abortus",
-      "summary": "Kerkvaders, de Didache, Plato en Aristoteles, en de mildheid in boetehandboeken."
+      "start_seconds": 3000,
+      "title": "Vrouwen, keuze en morele afweging",
+      "summary": "Zorgdrager beschrijft de relationele ethiek en haar pastorale ervaring met een abortus."
     },
     {
-      "start_seconds": 1840,
-      "title": "Status van de foetus en keuze van de vrouw",
-      "summary": "Foetus als potentieel mens, relationele afweging, verlies en opluchting."
+      "start_seconds": 3900,
+      "title": "Wanneer wordt iets een persoon?",
+      "summary": "Debat over het begrip mens, heilige waarde van leven, Exodus 21 en levensvatbaarheid."
     },
     {
-      "start_seconds": 2395,
-      "title": "Humanae Vitae en 1968",
-      "summary": "De pauselijke encycliek als omslagpunt naar absolute beschermwaardigheid."
+      "start_seconds": 4620,
+      "title": "Compromis, cijfers en de derde weg",
+      "summary": "Over de wettelijke balans, financiële redenen, en het belang van luisteren naar vrouwen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 3,
+      "start_seconds": 3480,
       "speaker": "Heleen Zorgdrager",
-      "text": "Vertrouw vrouwen.",
-      "note": "Kernboodschap van haar visie."
+      "text": "Het christelijke standpunt is niet het leven is heilig. Het leven heeft een relatieve heiligheid.",
+      "note": "Een scherpe theologische nuance die het gangbare christelijke discours tegenspreekt."
     },
     {
-      "start_seconds": 1100,
+      "start_seconds": 1960,
+      "speaker": "Heleen Zorgdrager",
+      "text": "Ik ben zelf 2 keer gelukkig zwanger geweest... Ik heb een vrouw geholpen naar de abortuskliniek te gaan.",
+      "note": "Persoonlijke openheid van een predikant over een eigen pastorale ervaring, zelden zo direct gedeeld."
+    },
+    {
+      "start_seconds": 2850,
       "speaker": "Stefan Paas",
-      "text": "Ik begrijp de paniek nooit zo goed; het zijn toch randgroepjes.",
-      "note": "Scherpe pushback op de alarmerende toon."
+      "text": "Wat wat wat vind je daar fout aan? ... Is dan jouw probleem dat ze niet open zijn over hun doelstellingen, of is jouw probleem dat ze het überhaupt doen?",
+      "note": "Een scherpe vraag die de kern van het verschil in positie blootlegt."
     },
     {
-      "start_seconds": 1862,
-      "speaker": "Heleen Zorgdrager",
-      "text": "Een vrouw kan abortus ervaren als verlies, geen spijt hebben en opgelucht zijn.",
-      "note": "Toont de complexiteit van vrouwelijke ervaringen."
+      "start_seconds": 4680,
+      "speaker": "David Boogerd",
+      "text": "Er wordt heel vaak over de extreme gesproken.",
+      "note": "Pleidooi om het debat voorbij de uitersten te voeren, naar de gedeelde middenpositie."
     },
     {
-      "start_seconds": 2280,
-      "speaker": "Heleen Zorgdrager",
-      "text": "Moeders die gedwongen waren hun kind af te staan, leefden decennia met de gedachte dat er ergens een kind van hen rondloopt.",
-      "note": "Persoonlijk pastoraal getuigenis tegen adoptie als eenvoudig alternatief."
-    },
-    {
-      "start_seconds": 2395,
-      "speaker": "Heleen Zorgdrager",
-      "text": "De absolute beschermwaardigheid begon met Humanae Vitae in 1968.",
-      "note": "Verrassend historisch inzicht."
+      "start_seconds": 4140,
+      "speaker": "Stefan Paas",
+      "text": "Het blijft een patriarchale samenleving, laat dat heel duidelijk zijn.",
+      "note": "Paas erkent de patriarchale context van de bijbelse wetgeving, wat kritisch is op de traditie."
     }
   ],
   "keywords": [
     "abortus",
     "pro-choice",
     "pro-life",
-    "Roe versus Wade",
-    "Humanae Vitae",
+    "Roe v. Wade",
     "beschermwaardigheid",
-    "feministische theologie",
-    "Agenda Europa",
-    "quickening",
+    "relationele ethiek",
     "kerkvaders",
-    "keuzevrijheid"
+    "Humanae Vitae",
+    "quickening",
+    "levensvatbaarheid",
+    "feministische theologie"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 283,
-      "reason": "Feministisch perspectief op seksualiteit en lichaam, met Jezus en ethiek van vrouwen"
+      "n": 158,
+      "reason": "Zelfde ethische thematiek: levenseinde, euthanasie en christelijke positie in de samenleving"
     },
     {
       "n": 76,
-      "reason": "Seks, relaties en ethiek vanuit christelijk en wetenschappelijk perspectief"
+      "reason": "Seksualiteit, seksuele revolutie en christelijke ethiek over gezin en relaties"
     },
     {
-      "n": 39,
-      "reason": "Vrouwen en christendom, gesprek met een feministische theoloog"
+      "n": 184,
+      "reason": "Bespreekt euthanasie en abortus als heikele ethische vragen over de waarde van de mens"
     },
     {
-      "n": 274,
-      "reason": "Ethiek rond leven en dood, bijvoorbeeld de morele status van het leven"
-    },
-    {
-      "n": 158,
-      "reason": "Medisch-ethisch debat over leven en dood, kerk en politiek"
+      "n": 283,
+      "reason": "Gesprek over seksualiteit, wetgeving en feminisme, met een kritische blik op normen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

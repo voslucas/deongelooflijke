@@ -1,18 +1,23 @@
 {
   "episode": 251,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104213,
+    "segments": 1134,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31013,
-    "output_tokens": 2348,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53408,
+    "output_tokens": 2927,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Wetenschap & kosmos",
-    "Filosofie & ethiek",
-    "Samenleving & migratie",
-    "Amerika & Trump"
+    "God & geloof",
+    "Geopolitiek & oorlog",
+    "Amerika & Trump",
+    "Gezin & relaties"
   ],
   "guests": [
     "Martin den Heijer"
@@ -20,63 +25,44 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president die wettelijk wil vastleggen dat er twee geslachten bestaan",
+      "note": "Amerikaanse president; uitspraak dat er maar twee geslachten zijn",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-      "mention_count": 2
-    },
-    {
-      "name": "Alex Bakker",
-      "note": "Historicus, schreef het boek over een halve eeuw transgenderzorg aan de VU",
-      "start_seconds": 340,
-      "wiki_checked": true,
-      "wiki_pageid": 6035140,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alex_Bakker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Alex_Bakker_-_historien_n%C3%A9erlandais.jpg/250px-Alex_Bakker_-_historien_n%C3%A9erlandais.jpg",
-      "mention_count": 2
+      "mention_count": 5
     },
     {
       "name": "Bruce Reimer",
-      "note": "Amerikaans jongetje dat na een mislukte operatie als meisje (Brenda) werd opgevoed, maar zich als jongen bleek te voelen; pleegde later zelfmoord",
-      "start_seconds": 1143,
-      "wiki_checked": true,
-      "wiki_pageid": 1726919,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Reimer",
-      "mention_count": 4
+      "note": "Amerikaans jongetje dat na een mislukte operatie als meisje werd opgevoed; tragisch verhaal",
+      "start_seconds": 1140,
+      "mention_count": 2
     },
     {
       "name": "John Money",
-      "note": "Psycholoog die adviseerde het jongetje als meisje op te voeden",
-      "start_seconds": 1169,
-      "wiki_checked": true,
-      "wiki_pageid": 5801461,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Money",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/John_Money_%281996%29_%28cropped%29.jpg/250px-John_Money_%281996%29_%28cropped%29.jpg",
+      "note": "psycholoog die de opvoeding als meisje adviseerde",
+      "start_seconds": 1152,
       "mention_count": 1
     },
     {
-      "name": "Maxime Februari",
-      "note": "Eerdere gast die over het effect van testosteron vertelde",
-      "start_seconds": 235,
-      "wiki_checked": true,
-      "wiki_pageid": 1798859,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maxim_Februari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Maxim_Februari_-_WikiconNL_2025_%28006%29.jpg/250px-Maxim_Februari_-_WikiconNL_2025_%28006%29.jpg",
+      "name": "Alex Bakker",
+      "note": "historicus, schreef boek over halve eeuw transgenderzorg aan de VU",
+      "start_seconds": 326,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "controversiële online influencer, genoemd als extreem voorbeeld",
+      "start_seconds": 4006,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "grondlegger van de Gereformeerde Universiteit (VU)",
+      "start_seconds": 3457,
       "mention_count": 1
     },
     {
       "name": "Monir Samwel",
-      "note": "Eerdere gast, sprak over dit onderwerp in de podcast",
+      "note": "eerder gast in de podcast, sprak over transgenderervaringen",
       "start_seconds": 235,
-      "wiki_checked": true,
       "mention_count": 1
     }
   ],
@@ -84,8 +70,8 @@
     {
       "title": "Een halve eeuw transgenderzorg aan de VU",
       "author": "Alex Bakker",
-      "note": "Over de geschiedenis van transgenderzorg aan het VU-ziekenhuis",
-      "start_seconds": 333,
+      "note": "geschiedenis van transgenderzorg aan de VU",
+      "start_seconds": 326,
       "volume_id": "kNYvzgEACAAJ",
       "canonical_title": "Een halve eeuw transgenderzorg aan de VU",
       "canonical_author": "Alex Bakker",
@@ -94,136 +80,167 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1:27",
+      "note": "God schiep de mens naar zijn evenbeeld, man en vrouw; besproken als scheppingsorde",
+      "start_seconds": 3550
+    },
+    {
+      "ref": "Jesaja 56",
+      "note": "belofte voor eunuchen, een beter plaats dan die van de kinderen",
+      "start_seconds": 3800
+    },
+    {
+      "ref": "Handelingen 8",
+      "note": "Filippus doopt de Ethiopische eunuch die in Jesaja las",
+      "start_seconds": 3720
+    },
+    {
+      "ref": "Prediker",
+      "note": "bijbels voorbeeld van onderdompeling en tegelijk observeren",
+      "start_seconds": 3480
+    },
+    {
+      "ref": "Galaten 3:28",
+      "note": "in Christus is geen man of vrouw; genoemd door Stefan Paas",
+      "start_seconds": 3945
+    }
+  ],
   "places": [
     "Amsterdam",
     "Verenigde Staten",
     "Verenigd Koninkrijk",
+    "Engeland",
     "Finland",
-    "Zweden",
-    "Bible Belt"
+    "Zweden"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met endocrinoloog Martin den Heijer, die al ruim 14 jaar in de transgenderzorg werkt en reformatorisch christen is. Ze bespreken wat genderdysforie is, de biologische en psychologische factoren, hormoonbehandelingen en puberteitsremmers, en de kritiek van het Cass Review.",
+  "summary_tldr": "Arts-endocrinoloog Martin den Heijer bespreekt met David Boogerd en Stefan Paas de medische, wetenschappelijke en maatschappelijke kanten van genderdysforie en transgenderzorg, vanuit zijn ervaring aan Amsterdam UMC en zijn reformatorische geloof. Hij pleit voor nuance tussen biologisch determinisme en het idee van gender als pure keuze, en voor zorgvuldigheid bij puberteitsremmers.",
   "summary_points": [
-    "Den Heijer combineert zijn reformatorische geloof met werk in de transgenderzorg; barmhartigheid is een christelijke drijfveer van de VU-zorg",
-    "De transgenderzorg aan de VU begon in de jaren 70, de puberteitsremmers in Amsterdam in de jaren 90",
-    "Geslacht is gelaagd (chromosomen, hormonen, geslachtsorganen, brein), gender gaat meer over psychologie en identiteit",
-    "Genderdysforie is een spectrum met zowel biologische als sociale en psychologische oorzaken",
-    "De geslachtelijke ontwikkelingshypothese verklaart genderdysforie als mismatch tussen lichaam en brein",
-    "Het verhaal van Bruce/Brenda Reimer toont dat genderidentiteit sterk verankerd ligt en niet weg te praten is",
-    "Wachtlijsten zijn sterk gegroeid; mogelijk door een tekort aan laagdrempelige zorg bij verkenning van gendervragen",
-    "Het Cass Review is gedegen en pleit voor zorgvuldigheid; Nederland werkt volgens het Dutch Protocol met psychologische begeleiding",
-    "Het ontbreken van bewijs voor veiligheid is niet hetzelfde als bewijs voor schade; vraag blijft of minderjarigen over vruchtbaarheid kunnen beslissen"
+    "Genderdysforie is een spectrum en kan biologische, psychologische en sociale oorzaken hebben.",
+    "Geslacht is gelaagd: chromosomen, hormonen, geslachtsorganen, brein en identiteit.",
+    "De transgenderzorg in Amsterdam begon in de jaren 70 aan de VU, voortkomend uit christelijke barmhartigheid.",
+    "Het CASS-rapport in Engeland is kritisch over puberteitsremmers; Den Heijer vindt het gedegen maar pleit voor zorgvuldigheid en nuance.",
+    "Gebrek aan bewijs is niet hetzelfde als bewijs van schade; er is onderzoek nodig naar veiligheid op lange termijn.",
+    "Den Heijer waarschuwt voor zowel stellige afwijzing zonder contact als voor het zien van gender als pure keuze.",
+    "Stijging van het aantal aanmeldingen en de rol van sociale media worden besproken, zonder eenduidige conclusie.",
+    "De Bijbel kent geen expliciet concept van genderdysforie, maar wel teksten die stereotiepe indelingen doorbreken, zoals Jesaja 56 en de eunuch.",
+    "Stefan Paas waarschuwt voor polarisatie en cultuurstrijd die christendom reduceert tot een traditionele positie.",
+    "Hoffelijkheid en respect voor hoe mensen aangesproken willen worden zijn belangrijk, zonder dat de hele taal of samenleving daarop omgegooid hoeft te worden."
   ],
   "chapters": [
     {
-      "start_seconds": 5,
-      "title": "Trump en de nuance",
-      "summary": "Opening over Trumps uitspraak over twee geslachten en introductie van de gast."
+      "start_seconds": 0,
+      "title": "Inleiding en voorstelling",
+      "summary": "Boogerd introduceert het thema gender en de gasten, en Den Heijer's achtergrond als arts en reformatorisch christen."
     },
     {
-      "start_seconds": 121,
-      "title": "15 jaar genderzorg en de VU",
-      "summary": "Den Heijer vertelt over zijn weg naar de genderzorg en de christelijke oorsprong van de zorg aan de VU."
+      "start_seconds": 326,
+      "title": "Geschiedenis van de transgenderzorg aan de VU",
+      "summary": "Den Heijer schetst de historie vanaf de jaren 70 en de christelijke oorsprong van de VU."
     },
     {
-      "start_seconds": 543,
-      "title": "Genderdysforie, geslacht en gender",
-      "summary": "Uitleg over genderdysforie en het verschil tussen geslacht en gender."
+      "start_seconds": 540,
+      "title": "Wat is genderdysforie en geslacht",
+      "summary": "Begripsbepaling: spectrum, verschil tussen geslacht en gender, en biologische hypothesen zoals DSD."
     },
     {
-      "start_seconds": 887,
-      "title": "Biologie, DSD en Bruce Reimer",
-      "summary": "De geslachtelijke ontwikkelingshypothese, DSD en het tragische verhaal van Bruce Reimer."
+      "start_seconds": 1140,
+      "title": "Het verhaal van Bruce Reimer",
+      "summary": "Een aangrijpend voorbeeld dat identiteit sterk verankerd kan zijn, ondanks opvoeding."
     },
     {
-      "start_seconds": 1321,
-      "title": "Aantallen en wachtlijsten",
-      "summary": "Hoe vaak komt genderdysforie voor en waarom stijgt de vraag naar zorg."
-    },
-    {
-      "start_seconds": 1493,
-      "title": "Hormoonbehandelingen en puberteitsremmers",
-      "summary": "Hoe hormonen werken en hoe puberteitsremmers het keuzemoment kunnen uitstellen."
-    },
-    {
-      "start_seconds": 1900,
-      "title": "Het Cass Review en het Dutch Protocol",
-      "summary": "Discussie over kritiek op puberteitsremmers, bewijs en zorgvuldigheid in Nederland."
+      "start_seconds": 1500,
+      "title": "Behandelingen en puberteitsremmers",
+      "summary": "Hormoonbehandelingen, omkeerbaarheid van puberteitsremming en de discussie rond het CASS-rapport."
     },
     {
       "start_seconds": 2200,
-      "title": "Kunnen kinderen dit overzien?",
-      "summary": "Debat over instemming van minderjarigen, vruchtbaarheid en spijt."
+      "title": "Spijt, discriminatie en maatschappelijke polarisatie",
+      "summary": "Discussie over spijtcijfers, geweld tegen trans mensen en de rol van sociale beïnvloeding."
+    },
+    {
+      "start_seconds": 3150,
+      "title": "Trump, taal en cultuurstrijd",
+      "summary": "Nuance ten aanzien van Trumps uitspraak, het genderkoekje en de verschuivende taal."
+    },
+    {
+      "start_seconds": 3450,
+      "title": "Geloof, Bijbel en slot",
+      "summary": "Bijbelse perspectieven op man en vrouw, eunuchen, en Den Heijers persoonlijke geloofsreis."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 17,
-      "speaker": "Martin den Heijer",
-      "text": "Ik zou daar wel aandacht willen vragen voor meer nuance.",
-      "note": "Zijn reactie op Trumps uitspraak zet de toon van het gesprek."
-    },
-    {
-      "start_seconds": 1143,
-      "speaker": "David Boogerd",
-      "text": "Het verhaal van Bruce Reimer, het jongetje dat als meisje werd opgevoed.",
-      "note": "Aangrijpend voorbeeld dat genderidentiteit sterk verankerd is."
-    },
-    {
-      "start_seconds": 1740,
-      "speaker": "Stefan Paas",
-      "text": "Het is eigenlijk een wonder dat er niet vaker dingen uit elkaar gaan lopen.",
-      "note": "Verwondering over de complexiteit van de lichamelijke ontwikkeling."
-    },
-    {
-      "start_seconds": 2183,
+      "start_seconds": 1260,
       "speaker": "Martin den Heijer",
       "text": "Het ontbreken van bewijs wil niet zeggen dat er bewijs is voor een negatief effect.",
-      "note": "Scherpe wetenschappelijke nuance in het debat over puberteitsremmers."
+      "note": "Scherpe nuance in het debat over veiligheid van behandelingen."
     },
     {
-      "start_seconds": 2310,
+      "start_seconds": 3240,
+      "speaker": "Martin den Heijer",
+      "text": "Theologisch kun je niet zeggen dat mannen van Mars komen en vrouwen van Venus.",
+      "note": "Pakkende zin die biologische polarisatie en Bijbels beeld verbindt."
+    },
+    {
+      "start_seconds": 2880,
       "speaker": "Stefan Paas",
-      "text": "Kan een 14-jarige echt overzien hoe zijn leven er over 20 jaar uitziet?",
-      "note": "Kritische vraag over instemming en vruchtbaarheid."
+      "text": "Het klopt gewoon niet dat christendom wordt vereenzelvigd met een traditionele opvatting.",
+      "note": "Kritiek op een verengde weergave van het christelijk geloof in de cultuurstrijd."
+    },
+    {
+      "start_seconds": 2000,
+      "speaker": "Martin den Heijer",
+      "text": "Dat die genderidentiteit best sterk verankerd ligt.",
+      "note": "Het verhaal van Bruce Reimer laat zien dat identiteit niet zomaar te veranderen is."
+    },
+    {
+      "start_seconds": 3080,
+      "speaker": "Martin den Heijer",
+      "text": "Het idee dat gender een keuze is, vind ik een schadelijke voorstelling.",
+      "note": "Duidelijk standpunt tegen de constructivistische lezing, zonder de andere uiterste kant te steunen."
     }
   ],
   "keywords": [
     "genderdysforie",
     "transgenderzorg",
     "puberteitsremmers",
-    "Cass Review",
-    "Dutch Protocol",
-    "hormonen",
-    "geslacht",
-    "gender",
-    "barmhartigheid",
-    "reformatorisch",
+    "geslacht en gender",
     "Bruce Reimer",
-    "Amsterdam UMC"
+    "CASS-rapport",
+    "Amsterdam UMC",
+    "VU",
+    "Bijbel en eunuchen",
+    "cultuurstrijd",
+    "polarisatie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het ontbreken van bewijs wil niet zeggen dat er bewijs is voor een negatief effect.",
+    "Het is niet een iets wat je als het ware even doet. Het is een ingrijpende behandeling."
+  ],
   "similar": [
     {
+      "n": 76,
+      "reason": "Seksuele revolutie en gender-ethiek, met geloof en seksualiteit centraal"
+    },
+    {
+      "n": 93,
+      "reason": "Medisch-ethisch debat over abortus, religie en Amerikaanse politiek"
+    },
+    {
       "n": 283,
-      "reason": "Seksualiteit, wetenschap en ethiek; feministische en maatschappelijke kijk op gevoelig thema"
+      "reason": "Seksualiteit, maatschappelijke normen en een kritische blik op Bijbel en Jezus"
     },
     {
-      "n": 282,
-      "reason": "Biologie en brein, wetenschapper en geloof, filosofische vragen over mens-zijn"
-    },
-    {
-      "n": 99,
-      "reason": "Gevoelig onderwerp seksuele identiteit en geloof, kerk en genderdiscussie"
+      "n": 158,
+      "reason": "Medisch-ethische grensvraag met christelijke en politieke dimensies"
     },
     {
       "n": 278,
-      "reason": "Psychische zorg, therapie en kritische blik op hulpverlening met Stefan Paas"
-    },
-    {
-      "n": 249,
-      "reason": "Psychiater over geestelijke gezondheid, zorg en maatschappelijke ontwikkelingen"
+      "reason": "Zorg, psychologie en de rol van therapie in het geloof van Nederland"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 177,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 123682,
+    "segments": 1517,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32497,
-    "output_tokens": 2966,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 66766,
+    "output_tokens": 6958,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
-    "Filosofie & ethiek",
-    "Geschiedenis",
-    "God & geloof"
+    "God & geloof",
+    "Economie & geld",
+    "Klimaat & natuur"
   ],
   "guests": [
     "Roderick Nieuwenhuis"
@@ -20,184 +25,125 @@
   "people": [
     {
       "name": "Henry David Thoreau",
-      "note": "Amerikaanse schrijver van Walden, leefde twee jaar in een hutje bij Walden Pond",
-      "start_seconds": 142,
-      "wiki_checked": true,
-      "wiki_pageid": 104515,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_David_Thoreau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Henry_David_Thoreau.jpg/250px-Henry_David_Thoreau.jpg"
-    },
-    {
-      "name": "John Thoreau",
-      "note": "broer van Thoreau, overleed aan tetanus op 26-jarige leeftijd",
-      "start_seconds": 166,
-      "wiki_checked": true
+      "note": "Amerikaans schrijver, auteur van Walden; centrale figuur in het gesprek",
+      "start_seconds": 39,
+      "mention_count": 45
     },
     {
       "name": "Christopher McCandless",
-      "note": "Amerikaanse avonturier die in Alaska om het leven kwam, geïnspireerd door Thoreau",
-      "start_seconds": 531,
-      "wiki_checked": true,
-      "wiki_pageid": 1209679,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Chris_McCandless"
+      "note": "jonge Amerikaan die in 1992 de wildernis van Alaska introk en omkwam; door Thoreau geïnspireerd",
+      "start_seconds": 526,
+      "mention_count": 8
     },
     {
-      "name": "Jon Krakauer",
-      "note": "schrijver van het boek over McCandless",
+      "name": "John Krakauer",
+      "note": "journalist en schrijver die het verhaal van McCandless beschreef",
       "start_seconds": 577,
-      "wiki_checked": true,
-      "wiki_pageid": 1629949,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jon_Krakauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Jon_Krakauer_speaking_in_2009.jpg/250px-Jon_Krakauer_speaking_in_2009.jpg"
-    },
-    {
-      "name": "Leo Tolstoj",
-      "note": "Russische schrijver, eenvoudzoeker die McCandless las",
-      "start_seconds": 604,
-      "wiki_checked": true,
-      "wiki_pageid": 37862,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lev_Tolstoj",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/250px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+      "mention_count": 3
     },
     {
       "name": "David Brooks",
-      "note": "Amerikaanse columnist van de New York Times, schrijft over de narcismegrens",
-      "start_seconds": 865,
-      "wiki_checked": true
-    },
-    {
-      "name": "Diogenes van Sinope",
-      "note": "Griekse cynicus uit de vierde eeuw voor Christus die in een wijnvat woonde",
-      "start_seconds": 1345,
-      "wiki_checked": true,
-      "wiki_pageid": 47440,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diogenes_van_Sinope",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Diogenes_-_Walters_37131.jpg/250px-Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Diogenes_-_Walters_37131.jpg"
+      "note": "columnist van de New York Times; over meritocratie, individualisme en innerlijke leegte",
+      "start_seconds": 858,
+      "mention_count": 8
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, gaf zijn carrière op voor een kloostergemeenschap na de ontmoeting met een bedelaar",
+      "note": "kerkvader en bisschop van Hippo; zijn Belijdenissen en zoektocht naar eenvoud en God",
       "start_seconds": 1430,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "mention_count": 10
     },
     {
-      "name": "Boeddha",
-      "note": "prins die eenvoud zocht om tot verlichting te komen",
-      "start_seconds": 1532,
-      "wiki_checked": true,
-      "wiki_pageid": 110806,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gautama_Boeddha",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG/250px-Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG"
-    },
-    {
-      "name": "Jezus",
-      "note": "veertig dagen in de woestijn",
-      "start_seconds": 1543,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Johannes de Doper",
-      "note": "leefde in de woestijn en at sprinkhanen en wilde honing",
-      "start_seconds": 1553,
-      "wiki_checked": true,
-      "wiki_pageid": 9789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_de_Doper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/250px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg"
-    },
-    {
-      "name": "David Graeber",
-      "note": "schrijver over bullshit jobs",
-      "start_seconds": 1672,
-      "wiki_checked": true,
-      "wiki_pageid": 4728518,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Graeber",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/David_Graeber_2015-03-07_%2816741093492%29_%28cropped%29.jpg/250px-David_Graeber_2015-03-07_%2816741093492%29_%28cropped%29.jpg"
+      "name": "Diogenes van Sinope",
+      "note": "Griekse cynicus uit de 4e eeuw v.Chr. die in een wijnvat woonde",
+      "start_seconds": 1345,
+      "mention_count": 4
     },
     {
       "name": "Jean-Jacques Rousseau",
-      "note": "Franse filosoof, bedenker van het terug-naar-de-natuur-idee",
-      "start_seconds": 1729,
-      "wiki_checked": true,
-      "wiki_pageid": 36778,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Jacques_Rousseau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/250px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+      "note": "18e-eeuwse Franse filosoof; bedenker van het 'terug naar de natuur'-idee",
+      "start_seconds": 1716,
+      "mention_count": 12
     },
     {
-      "name": "Denis Diderot",
-      "note": "Franse filosoof, zat gevangen toen Rousseau hem bezocht",
-      "start_seconds": 1810,
-      "wiki_checked": true,
-      "wiki_pageid": 18068,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Denis_Diderot",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Denis_Diderot_by_Louis-Michel_van_Loo.jpg/250px-Denis_Diderot_by_Louis-Michel_van_Loo.jpg"
-    },
-    {
-      "name": "Sigmund Freud",
-      "note": "psychoanalyticus, terloops genoemd in relatie tot Rousseau",
-      "start_seconds": 1754,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "name": "Charles Taylor",
+      "note": "filosoof die authenticiteit als kenmerk van de seculiere tijd beschreef",
+      "start_seconds": 2107,
+      "mention_count": 3
     },
     {
       "name": "Rutger Bregman",
-      "note": "auteur van De meeste mensen deugen, baseert zich op Rousseau",
-      "start_seconds": 1922,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "historicus en auteur van De meeste mensen deugen; sluit aan bij Rousseau",
+      "start_seconds": 1917,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "psychoanalyticus; vergelijking met Rousseau over vroege kinderervaringen",
+      "start_seconds": 1743,
+      "mention_count": 4
     },
     {
       "name": "William Wordsworth",
-      "note": "Engelse dichter, vond de stad inauthentiek",
-      "start_seconds": 2013,
-      "wiki_checked": true,
-      "wiki_pageid": 55958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Wordsworth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/William_Wordsworth.png/250px-William_Wordsworth.png"
+      "note": "Engelse romantische dichter; kritisch op de stad en de reclame",
+      "start_seconds": 2014,
+      "mention_count": 3
+    },
+    {
+      "name": "Jezus",
+      "note": "bijbelse figuur; 40 dagen in de woestijn en de verloren zoon",
+      "start_seconds": 1537,
+      "mention_count": 5
+    },
+    {
+      "name": "Boeddha",
+      "note": "stichter van het boeddhisme; prins die eenvoud zocht tot verlichting",
+      "start_seconds": 1525,
+      "mention_count": 2
+    },
+    {
+      "name": "Johannes de Doper",
+      "note": "bijbelse profeet die in de woestijn leefde",
+      "start_seconds": 1553,
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "filosoof; dualisme van geest en lichaam waar Thoreau tegen inging",
+      "start_seconds": 1644,
+      "mention_count": 1
+    },
+    {
+      "name": "Margaret Thatcher",
+      "note": "Britse premier; neoliberalisme als achtergrond van statusdrang",
+      "start_seconds": 933,
+      "mention_count": 1
+    },
+    {
+      "name": "Bas Heinen",
+      "note": "journalist en gast in de podcast; beschreef minimalistisch wonen in Parijs",
+      "start_seconds": 3672,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Walden",
       "author": "Henry David Thoreau",
-      "note": "verslag van twee jaar in een hutje in de bossen",
+      "note": "boek over twee jaar in een hutje bij Walden Pond; kernwerk van het gesprek",
       "start_seconds": 142,
-      "volume_id": "MASyAr4vzpAC",
-      "canonical_title": "Walden and Civil Disobedience",
+      "volume_id": "KhA-tAEACAAJ",
+      "canonical_title": "Walden, or Life in the Woods",
       "canonical_author": "Henry David Thoreau",
-      "isbn13": "9780743487726",
-      "isbn10": "0743487729",
-      "thumbnail": "http://books.google.com/books/content?id=MASyAr4vzpAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781984033321",
+      "isbn10": "1984033328",
+      "thumbnail": "http://books.google.com/books/content?id=KhA-tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Een simpel leven",
       "author": "Roderick Nieuwenhuis",
-      "note": "boek over eenvoud en denkers uit het verleden",
-      "start_seconds": 139,
+      "note": "het boek over eenvoud waarover het gesprek gaat",
+      "start_seconds": 39,
       "volume_id": "DStjEAAAQBAJ",
       "canonical_title": "Een simpel leven: Waarom ons verlangen naar eenvoud complexer is dan we denken",
       "canonical_author": "Roderick Nieuwenhuis",
@@ -208,8 +154,8 @@
     {
       "title": "Belijdenissen",
       "author": "Augustinus",
-      "note": "beschrijft de dronken bedelaar in boek 6",
-      "start_seconds": 1473,
+      "note": "autobiografische tekst over zijn carrière en zijn zoektocht naar rust",
+      "start_seconds": 1445,
       "volume_id": "AZBJGQAACAAJ",
       "canonical_title": "Belijdenissen",
       "canonical_author": "Aurelius Augustinus",
@@ -220,8 +166,8 @@
     {
       "title": "Bekentenissen",
       "author": "Jean-Jacques Rousseau",
-      "note": "knipoog naar Augustinus",
-      "start_seconds": 1737,
+      "note": "openhartig autobiografisch werk, een knipoog naar Augustinus",
+      "start_seconds": 1731,
       "volume_id": "HYAZEQAAQBAJ",
       "canonical_title": "Bekentenissen",
       "canonical_author": "Jean-Jacques Rousseau",
@@ -230,10 +176,22 @@
       "thumbnail": "http://books.google.com/books/content?id=HYAZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
+      "title": "Bullshit Jobs",
+      "author": "David Graeber",
+      "note": "over zinloos werk; 40% van de Nederlanders zou er een hebben",
+      "start_seconds": 1668,
+      "volume_id": "Lsc8DwAAQBAJ",
+      "canonical_title": "Bullshit Jobs: A Theory",
+      "canonical_author": "David Graeber",
+      "isbn13": "9780241267363",
+      "isbn10": "0241267366",
+      "thumbnail": "http://books.google.com/books/content?id=Lsc8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "De meeste mensen deugen",
       "author": "Rutger Bregman",
-      "note": "baseert zich op Rousseau",
-      "start_seconds": 1922,
+      "note": "beroept zich op Rousseau over de invloed van de maatschappij",
+      "start_seconds": 1917,
       "volume_id": "UbbpxgEACAAJ",
       "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
       "canonical_author": "Rutger Bregman",
@@ -242,146 +200,169 @@
       "thumbnail": ""
     },
     {
-      "title": "Bullshit Jobs",
-      "author": "David Graeber",
-      "note": "40% van de Nederlanders heeft volgens het boek een bullshit job",
-      "start_seconds": 1672,
-      "volume_id": "Lsc8DwAAQBAJ",
-      "canonical_title": "Bullshit Jobs: A Theory",
-      "canonical_author": "David Graeber",
-      "isbn13": "9780241267363",
-      "isbn10": "0241267366",
-      "thumbnail": "http://books.google.com/books/content?id=Lsc8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "The Good Life",
+      "author": "Robert Waldinger en Marc Schulz",
+      "note": "Harvard-onderzoek naar wat mensen gelukkig maakt",
+      "start_seconds": 2185,
+      "volume_id": "PsbzzwEACAAJ",
+      "canonical_title": "The Good Life: Lessons from the World's Longest Study on Happiness",
+      "canonical_author": "Robert J. Waldinger, Marc S. Schulz",
+      "isbn13": "9781846046773",
+      "isbn10": "1846046777",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Lukas 15:11-32",
+      "note": "gelijkenis van de verloren zoon; Roderick raakt er emotioneel door geraakt",
+      "start_seconds": 3106
+    },
+    {
+      "ref": "Mattheus 4:1-11",
+      "note": "Jezus die 40 dagen in de woestijn verblijft",
+      "start_seconds": 1543
+    },
+    {
+      "ref": "Mattheus 3:4",
+      "note": "Johannes de Doper die in de woestijn leeft van springhanen en wilde honing",
+      "start_seconds": 1553
+    }
+  ],
   "places": [
-    "Walden Pond",
+    "Walden",
     "Concord",
-    "Schotland",
-    "Alaska",
     "Maine",
+    "Alaska",
+    "Schotland",
     "Athene",
     "Milaan",
     "Zandvoort",
-    "Parijs",
-    "Harvard"
+    "Deventer",
+    "Parijs"
   ],
-  "summary_tldr": "Roderick Nieuwenhuis bespreekt zijn boek Een simpel leven en de hunkering naar eenvoud en authenticiteit, van Diogenes en Augustinus tot Thoreau en Rousseau. Hij schetst hoe die zoektocht vaak ook pijn en angst verbergt en dat de werkelijkheid van de eenvoud tegenvalt, zoals hij zelf in Schotland ervoer.",
+  "summary_tldr": "Roderick Nieuwenhuis bespreekt zijn boek Een simpel leven, waarin hij de hunkering naar eenvoud onderzoekt aan de hand van Thoreau, Diogenes, Augustinus en Rousseau. Het gesprek laat zien dat de zoektocht naar eenvoud vaak voortkomt uit stress, status en angst voor de prestatiemaatschappij. Daarnaast gaat het over authenticiteit, de vraag wat geloven precies is, en waarom Roderick, ondanks dat hij zichzelf niet-gelovig noemt, al jaren naar de kerk gaat.",
   "summary_points": [
-    "Thoreau trok zich na de dood van zijn broer terug in een hutje bij Walden Pond, maar leefde allesbehalve afgezonderd.",
-    "Walden is een ecologische klassieker die oproept tot bescheidenheid tegenover de natuur.",
-    "Christopher McCandless kwam om in Alaska; zijn bus werd een bedevaartsoord en is later weggehaald.",
-    "De behoefte aan eenvoud komt voort uit prikkels, statusconcurrentie, consumentisme en social media.",
-    "Nieuwenhuis' eigen verblijf in een Schotse hut maakte hem eenzaam en liet hem liefde en vriendschap missen.",
-    "Het verlangen naar eenvoud is van alle tijden: Diogenes, Boeddha, Jezus, Augustinus en de kloosters.",
-    "Handwerk en eerlijk werk staan tegenover bullshit jobs.",
-    "Rousseau bedacht het primitivisme en het idee dat de maatschappij de mens verdorven maakt; dat leeft voort in het romantiseren van de authentieke boer."
+    "Thoreau trok zich na de dood van zijn broer terug in een hutje bij Walden Pond, maar leefde niet zo afgezonderd als het beeld suggereert.",
+    "Het Walden-verhaal werd een inspiratiebron voor eenvoudzoekers, zoals McCandless, wiens zoektocht tragisch eindigde.",
+    "De zoektocht naar eenvoud kan voortkomen uit angst, depressie of statusdruk, en is vaak ook een luxe.",
+    "Rousseau zag beschaving als bron van ongelijkheid en nijd, en verheerlijkte de 'authentieke' primitieve mens.",
+    "Charles Taylor en David Brooks beschrijven een cultuur van authenticiteit en meritocratie die mensen eenzaam en voorwaardelijk liefgehad maakt.",
+    "Roderick vergelijkt de moderne mens met een kopmens die zijn lichaam en gevoel verwaarloost.",
+    "Stefan Paas stelt dat authenticiteit niet betekent dat je alle beschaving moet afpellen; er is een moreel landschap dat we niet zelf maken.",
+    "Roderick gaat al ruim 15 jaar naar de kerk, aangetrokken door de ruimte om na te denken over een goed leven en door onvoorwaardelijke liefde.",
+    "Het gesprek eindigt met de vraag of geloven ook een lichamelijke, ontroerde ervaring kan zijn in plaats van een cognitief standpunt."
   ],
   "chapters": [
     {
-      "start_seconds": 142,
-      "title": "Thoreau en Walden",
-      "summary": "Het leven van Thoreau, de dood van zijn broer en de totstandkoming van Walden."
+      "start_seconds": 0,
+      "title": "Inleiding en Thoreau's Walden",
+      "summary": "Roderick introduceert Thoreau, zijn rouw om zijn broer en het hutje bij Walden Pond."
     },
     {
-      "start_seconds": 318,
-      "title": "Het mythische hutje",
-      "summary": "Thoreau leefde dicht bij de bewoonde wereld; de trein en de industrialisatie waren dichtbij."
+      "start_seconds": 330,
+      "title": "Mythe en werkelijkheid van de wildernis",
+      "summary": "De gesprekspartners bespreken hoe Thoreau eenvoud idealiseerde, en hoe McCandless en de bus in Alaska daarvan de tragische keerzijde vormen."
     },
     {
-      "start_seconds": 531,
-      "title": "McCandless en de bus in Alaska",
-      "summary": "Het verhaal van Christopher McCandless en de bus die bedevaartsoord werd."
+      "start_seconds": 1000,
+      "title": "Status, consumptie en de authentieke mens",
+      "summary": "Via David Brooks en Rousseau wordt besproken hoe statusdrang, media en de zoektocht naar het echte zelf samenhangen."
     },
     {
-      "start_seconds": 671,
-      "title": "Waarom eenvoud nu actueel is",
-      "summary": "Ecologie, status, consumentisme en sensorische overbelasting maken eenvoud aantrekkelijk."
+      "start_seconds": 1440,
+      "title": "Eenvoud door de eeuwen heen",
+      "summary": "Diogenes, Augustinus, Boeddha en Jezus illustreren dat de zoektocht naar eenvoud van alle tijden is."
     },
     {
-      "start_seconds": 1090,
-      "title": "Eigen ervaringen: Schotland en de wisenten",
-      "summary": "Nieuwenhuis vertelt over zijn teleurstellende verblijf in een Schotse hut en de ontmoeting met wisenten."
+      "start_seconds": 2200,
+      "title": "Authenticiteit, moraal en de vraag naar het goede leven",
+      "summary": "Stefan en Roderick discussiëren over de grenzen van authenticiteit en het belang van een moreel kader."
     },
     {
-      "start_seconds": 1345,
-      "title": "Diogenes, Augustinus en de kloosters",
-      "summary": "Eenvoud als terugkerend motief van de Oudheid tot de kloostertraditie."
+      "start_seconds": 2900,
+      "title": "Waarom Roderick naar de kerk gaat",
+      "summary": "Roderick vertelt over zijn band met de kerk, onvoorwaardelijke liefde en zijn aarzeling om te geloven."
     },
     {
-      "start_seconds": 1729,
-      "title": "Rousseau en de authentieke mens",
-      "summary": "Rousseau's primitivisme, het romantische ideaal van de authentieke boer en Wordsworth."
+      "start_seconds": 3700,
+      "title": "Lichaam, geloof en afsluiting",
+      "summary": "Het gesprek eindigt met de vraag wat geloven is, de rol van het lichaam en een praktische tip over wandelen en eenvoud."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 742,
+      "start_seconds": 2050,
       "speaker": "Roderick Nieuwenhuis",
-      "text": "Ik ging naar de bossen omdat ik een essentieel leven wilde leven.",
-      "note": "Thoreau's beroemdste uitspraak raakte hem bij het bezoek aan Walden Pond."
+      "text": "Eenvoud is echt een luxe en eenvoud is heel duur als je het Thoreau-model zoekt.",
+      "note": "Een scherpe relativering van het ideaal van eenvoud, die laat zien dat het voor velen niet bereikbaar is."
     },
     {
-      "start_seconds": 1163,
+      "start_seconds": 3106,
       "speaker": "Roderick Nieuwenhuis",
-      "text": "Ik vond het eenzaam en stom.",
-      "note": "Eerlijke ontmaskering van het eenvoudideaal vanuit eigen ervaring."
+      "text": "Hij barstte gewoon in huilen uit toen hij het verhaal van de verloren zoon vertelde tijdens de coronacrisis.",
+      "note": "Een persoonlijk en emotioneel moment dat laat zien hoe het verlangen naar onvoorwaardelijke liefde hem raakt."
     },
     {
-      "start_seconds": 1272,
+      "start_seconds": 2950,
       "speaker": "Roderick Nieuwenhuis",
-      "text": "We kunnen altijd nog in die boom klimmen als het uit de hand loopt.",
-      "note": "Humoristisch moment bij de wisenten."
+      "text": "Als ik mijn succes kan overdragen aan iemand groter, dan treedt er toch een soort rust in.",
+      "note": "Een treffende verbinding tussen meritocratische druk en de troost van geborgenheid."
     },
     {
-      "start_seconds": 1473,
+      "start_seconds": 1790,
       "speaker": "Stefan Paas",
-      "text": "De dronken bedelaar had al wat Augustinus met zijn hele carrière zocht.",
-      "note": "Illustreert het eeuwenoude verlangen naar rust en genoeg."
+      "text": "Het is meer als een ui; je kunt er steeds schillen afhalen, maar uiteindelijk vind je geen pit.",
+      "note": "Een beeld dat het idee van een onbedorven authentiek zelf bekritiseert."
     },
     {
-      "start_seconds": 1779,
-      "speaker": "Roderick Nieuwenhuis",
-      "text": "Rousseau ziet als seculiere oerzonde het moment dat de mens een paal in de grond slaat en zegt: dit is van mij.",
-      "note": "Scherpe duiding van eigendom als bron van nijd."
+      "start_seconds": 2460,
+      "speaker": "Stefan Paas",
+      "text": "Hoe meer van die lagen erop liggen, hoe onechter we zijn geworden.",
+      "note": "Een kernachtige samenvatting van de romantische kritiek op beschaving die in het gesprek terugkomt."
     }
   ],
   "keywords": [
-    "eenvoud",
     "Thoreau",
     "Walden",
+    "eenvoud",
     "authenticiteit",
     "Rousseau",
     "Augustinus",
-    "kloosterleven",
-    "consumentisme",
-    "natuur",
-    "McCandless",
+    "meritocratie",
+    "onvoorwaardelijke liefde",
+    "wildernis",
     "status",
-    "bullshit jobs"
+    "geloof",
+    "verloren zoon"
   ],
-  "quotes": [],
+  "quotes": [
+    "Monniken trekken zich terug in kloosters op zoek naar God, de moderne mens trekt zich terug in de natuur, op zoek naar zichzelf.",
+    "Roderick ziet zichzelf als niet-gelovig maar gaat al wel ruim 15 jaar naar de kerk.",
+    "Wie snakt er in deze gehaaste, complexe wereld niet naar een eenvoudiger, simpel leven?"
+  ],
   "similar": [
     {
       "n": 257,
-      "reason": "Zelfde gast Roderick Nieuwenhuis, over techniek, de ziel en moderne levensstijl."
+      "reason": "Zelfde gast Roderick Nieuwenhuis over techniek, ziel en de moderne levensstijl"
     },
     {
       "n": 265,
-      "reason": "Moderne levensstijl botst met wie we zijn; natuur, geschiedenis en zingeving."
+      "reason": "Moderne levensstijl die botst met wie we werkelijk zijn; zingeving en natuur"
     },
     {
-      "n": 308,
-      "reason": "Zoektocht naar vreugde en betekenis in een uitgeputte, betekenisloze wereld."
+      "n": 13,
+      "reason": "Prestatiemaatschappij, burn-out en werk als identiteit, sluit aan bij stress en status"
     },
     {
-      "n": 223,
-      "reason": "Leven met meer focus en geluk; het goede leven en zingeving."
+      "n": 117,
+      "reason": "Zingeving en religieuze betekenis van werk, verbonden met economie en prestatiedruk"
     },
     {
-      "n": 84,
-      "reason": "Het goede leven en verhalen om in te wonen, Pfauth."
+      "n": 145,
+      "reason": "Vreugde en God vinden in economisch moeilijke tijden, thema's van economie en zingeving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

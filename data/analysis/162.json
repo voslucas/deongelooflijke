@@ -1,286 +1,375 @@
 {
   "episode": 162,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 108707,
+    "segments": 1290,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31677,
-    "output_tokens": 3101,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56866,
+    "output_tokens": 8765,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Geschiedenis",
-    "Samenleving & migratie",
-    "Klimaat & natuur"
+    "Klimaat & natuur",
+    "Amerika & Trump"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Beatrice de Graaf",
-      "note": "hoogleraar internationale en politieke geschiedenis, Universiteit Utrecht",
-      "start_seconds": 0,
-      "wiki_checked": true
-    },
-    {
-      "name": "Lysistrate",
-      "note": "Atheense vrouw die in Aristofanes' komedie de vrouwen leidt in een zitblokkade tegen de oorlog met Sparta",
-      "start_seconds": 1427,
-      "wiki_checked": true
-    },
-    {
       "name": "Martin Luther King",
-      "note": "icoon van geweldloze burgerlijke ongehoorzaamheid in de VS",
-      "start_seconds": 427,
-      "wiki_checked": true
+      "note": "Amerikaans burgerrechtenleider, voorbeeld van geweldloze burgerlijke ongehoorzaamheid",
+      "start_seconds": 660,
+      "mention_count": 4
     },
     {
       "name": "Mahatma Gandhi",
-      "note": "introduceerde satyagraha, liefdeskracht of zielenkracht",
-      "start_seconds": 427,
-      "wiki_checked": true
+      "note": "Indiaas leider; introduceerde satyagraha en 'soul force' als geweldloos verzet",
+      "start_seconds": 660,
+      "mention_count": 4
     },
     {
       "name": "Rosa Parks",
-      "note": "weigerde in de bus op te staan voor een witte passagier",
-      "start_seconds": 876,
-      "wiki_checked": true
-    },
-    {
-      "name": "Malcolm X",
-      "note": "pleitte voor zelfverdediging en terugvechten",
-      "start_seconds": 925,
-      "wiki_checked": true
+      "note": "Weigerde in 1955 haar plaats in de bus af te staan; inspiratiebron voor King",
+      "start_seconds": 871,
+      "mention_count": 3
     },
     {
       "name": "Henry David Thoreau",
-      "note": "bedenker van de term burgerlijke ongehoorzaamheid, weigerde belasting te betalen vanwege slavernij",
+      "note": "Negentiende-eeuwse Amerikaanse denker, bedenker van de term burgerlijke ongehoorzaamheid (1849)",
       "start_seconds": 946,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
-      "name": "Alexander Hamilton",
-      "note": "Amerikaanse grondlegger, genoemd als bron van het idee van de staat als optelsom van individuen (in het transcript 'Andrew Hamilton')",
-      "start_seconds": 1010,
-      "wiki_checked": true
+      "name": "Andrew Hamilton",
+      "note": "Grondlegger van de Amerikaanse Republiek; zijn ideeën over het individu als basis van de staat werden door Thoreau aangehaald",
+      "start_seconds": 1001,
+      "mention_count": 1
     },
     {
-      "name": "Sifra en Pua",
-      "note": "Egyptische vroedvrouwen uit Exodus die weigerden Israëlitische jongetjes te doden",
-      "start_seconds": 1293,
-      "wiki_checked": true
-    },
-    {
-      "name": "Antigone",
-      "note": "begroef haar broer tegen het bevel van Creon in",
-      "start_seconds": 1604,
-      "wiki_checked": true
-    },
-    {
-      "name": "Creon",
-      "note": "oom van Antigone en heerser in het toneelstuk",
-      "start_seconds": 1604,
-      "wiki_checked": true
-    },
-    {
-      "name": "Aristofanes",
-      "note": "Griekse komedieschrijver die over Lysistrate schreef",
-      "start_seconds": 1469,
-      "wiki_checked": true
-    },
-    {
-      "name": "Willem van Oranje",
-      "note": "leider van de Opstand, aarzelde lang over verzet",
-      "start_seconds": 1565,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "Reformator die geen verzet tegen paus of keizer wilde",
-      "start_seconds": 1565,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes van Salisbury",
-      "note": "middeleeuwse denker met een vroege rechtvaardiging van verzet tegen een tiran",
-      "start_seconds": 1630,
-      "wiki_checked": true
-    },
-    {
-      "name": "Karel V",
-      "note": "keizer tegen wie Luther in verzet kwam",
-      "start_seconds": 1680,
-      "wiki_checked": true
-    },
-    {
-      "name": "Kees Schuyt",
-      "note": "Nederlandse socioloog: burgerlijke ongehoorzaamheid moet overwogen zijn",
-      "start_seconds": 1937,
-      "wiki_checked": true
-    },
-    {
-      "name": "Bas Kromhout",
-      "note": "historicus die actief is op social media",
-      "start_seconds": 773,
-      "wiki_checked": true
+      "name": "Malcolm X",
+      "note": "Afro-Amerikaans activist die zei dat men zich moest bewapenen",
+      "start_seconds": 920,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse ex-president, aanhangers bestormden het Capitool",
-      "start_seconds": 504,
-      "wiki_checked": true
+      "note": "Voormalig Amerikaans president; aanhangers bestormden het Capitool na zijn verlies",
+      "start_seconds": 485,
+      "mention_count": 3
     },
     {
       "name": "Joe Biden",
-      "note": "Amerikaanse president",
-      "start_seconds": 504,
-      "wiki_checked": true
+      "note": "Amerikaans president en Trumps opvolger",
+      "start_seconds": 485,
+      "mention_count": 1
+    },
+    {
+      "name": "Sifra",
+      "note": "Hebreeuwse vroedvrouw in Egypte die weigerde Israëlitische jongetjes te doden",
+      "start_seconds": 1296,
+      "mention_count": 2
+    },
+    {
+      "name": "Puah",
+      "note": "Hebreeuwse vroedvrouw in Egypte die weigerde Israëlitische jongetjes te doden",
+      "start_seconds": 1296,
+      "mention_count": 2
+    },
+    {
+      "name": "Lysistrata",
+      "note": "Figuur uit Aristophanes' komedie die Athener vrouwen aanvoert in een blokkade tegen de oorlog met Sparta",
+      "start_seconds": 1415,
+      "mention_count": 2
+    },
+    {
+      "name": "Aristophanes",
+      "note": "Griekse komedieschrijver die de blokkade van Lysistrata beschreef",
+      "start_seconds": 1469,
+      "mention_count": 1
+    },
+    {
+      "name": "Antigone",
+      "note": "Figuur uit de Griekse tragedie die zich verzet tegen haar oom Creon",
+      "start_seconds": 1520,
+      "mention_count": 1
+    },
+    {
+      "name": "Creon",
+      "note": "Koning in de Griekse tragedie Antigone",
+      "start_seconds": 1520,
+      "mention_count": 1
+    },
+    {
+      "name": "John of Salisbury",
+      "note": "Middeleeuwse denker die een tiran als onwettig vorst beschouwde",
+      "start_seconds": 1630,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator; riep op tot vrijheid van de christen om de ander te dienen",
+      "start_seconds": 1564,
+      "mention_count": 4
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator; sprak over beperkt verzet door lagere magistraten",
+      "start_seconds": 1630,
+      "mention_count": 2
+    },
+    {
+      "name": "Willem van Oranje",
+      "note": "Leider van de opstand tegen Spanje in de Tachtigjarige Oorlog",
+      "start_seconds": 1564,
+      "mention_count": 3
+    },
+    {
+      "name": "Karel de Vijfde",
+      "note": "Keizer van het Habsburgse Rijk; Luther moest overtuigd worden dat hij geen legitiem vorst was",
+      "start_seconds": 1680,
+      "mention_count": 1
+    },
+    {
+      "name": "William van Ockham",
+      "note": "Veertiende-eeuwse denker die waarschuwde voor verblinding van dissidenten",
+      "start_seconds": 2571,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees Schuit",
+      "note": "Nederlandse socioloog; stelde dat burgerlijke ongehoorzaamheid goed overwogen moet zijn",
+      "start_seconds": 1928,
+      "mention_count": 2
+    },
+    {
+      "name": "Bas Kromhout",
+      "note": "Historicus die zich kritisch uitliet over een waterkanon",
+      "start_seconds": 773,
+      "mention_count": 1
+    },
+    {
+      "name": "Rosemarie van het Einde",
+      "note": "Theoloog en activist van Extinction Rebellion",
+      "start_seconds": 2299,
+      "mention_count": 2
+    },
+    {
+      "name": "Janmaat",
+      "note": "Extreemrechts politicus wiens woning werd aangevallen",
+      "start_seconds": 2533,
+      "mention_count": 2
+    },
+    {
+      "name": "Kosto",
+      "note": "Politicus wiens huis werd aangevallen door extreemlinkse activisten",
+      "start_seconds": 2533,
+      "mention_count": 1
+    },
+    {
+      "name": "Giorgia Meloni",
+      "note": "Italiaans premier, genoemd als voorbeeld van democratisch gekozen zorgen over migratie",
+      "start_seconds": 2806,
+      "mention_count": 1
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "CDA-politicus en minister die van klimaatstandpunt veranderde",
+      "start_seconds": 3028,
+      "mention_count": 4
+    },
+    {
+      "name": "Diederik Samsom",
+      "note": "PvdA-politicus die Hoekstra zou hebben bijgepraat",
+      "start_seconds": 3044,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Timmermans",
+      "note": "Europees politicus, genoemd in verband met de klimaatomslag van Hoekstra",
+      "start_seconds": 3044,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel die tot geloof kwam; door David vergeleken met Hoekstra's klimaatbekering",
+      "start_seconds": 3032,
+      "mention_count": 2
+    },
+    {
+      "name": "Ananias",
+      "note": "Bijbelse figuur die Paulus begeleidde na zijn bekering",
+      "start_seconds": 3054,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig premier, genoemd als verantwoordelijk voor het beleid",
+      "start_seconds": 3107,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "Exodus 1",
-      "note": "de vroedvrouwen Sifra en Pua weigeren de Israëlitische jongetjes te doden",
-      "start_seconds": 1284
+      "note": "Sifra en Puah weigeren de Israëlitische jongetjes te doden",
+      "start_seconds": 1293
     },
     {
-      "ref": "Lucas 18:1-8",
-      "note": "gelijkenis van de onrechtvaardige rechter en de weduwe, genoemd door Stefan Paas",
+      "ref": "Lukas 18:1-8",
+      "note": "Gelijkenis van de onrechtvaardige rechter en de volhardende weduwe",
       "start_seconds": 1515
+    },
+    {
+      "ref": "Handelingen 5:29",
+      "note": "'Men moet God meer gehoorzamen dan mensen', de apostelen na het verbod van de overheid",
+      "start_seconds": 3270
     }
   ],
   "places": [
-    "A12",
-    "Den Haag",
     "Athene",
-    "Parthenon",
     "Sparta",
-    "Egypte",
-    "Verenigde Staten",
-    "Capitool",
+    "Parthenon",
+    "Den Haag",
     "Woudenberg",
-    "Malieveld"
+    "Egypte",
+    "Italië",
+    "Verenigde Staten",
+    "Utrecht"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken wat burgerlijke ongehoorzaamheid precies is, in welke historische en religieuze bronnen ze wortelt en hoe ze verschilt van legaal demonstreren en gewelddadig verzet. Aanleiding zijn de recente acties van Extinction Rebellion, boeren en coronademonstranten. De aflevering is opgenomen vóór de Hamas-aanval op Israël.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de geschiedenis en actualiteit van burgerlijke ongehoorzaamheid, zoals blokkades van Extinction Rebellion en boerenprotesten. Ze definiëren het begrip als het bewust en zichtbaar overtreden van de wet met een hoger, niet-eigenbelangelijk doel, zonder geweld en met bereidheid tot straf. Ook bespreken ze de historische en religieuze bronnen ervan en de spanning tussen activisme, democratie en radicalisering.",
   "summary_points": [
-    "Burgerlijke ongehoorzaamheid is bewuste, openlijke wetsovertreding voor een hoger, niet-eigenbelang, geweldloos en met aanvaarding van straf.",
-    "Het verschilt van legaal demonstreren, verzet en een staatsgreep, zoals de bestorming van het Capitool.",
-    "Dalend vertrouwen in de politiek, vooral door uitgestelde besluiten en crisisretoriek, vormt de achtergrond van de huidige acties.",
-    "King, Rosa Parks, Gandhi en Thoreau zijn de kernfiguren van de moderne traditie.",
-    "Gandhi voegt met satyagraha een religieus element toe: de tegenstander de kans geven zich te bekeren.",
-    "Voorbeelden uit de oudheid zijn de vroedvrouwen in Exodus, Lysistrate en Antigone.",
-    "Rechtvaardigingen van verzet komen uit Romeins recht, bijbels-christelijke argumenten, Germaanse tradities en middeleeuwse denkers.",
-    "Het onderscheid blijft subjectief en rommelig, een grijs gebied van de democratie."
+    "Burgerlijke ongehoorzaamheid wordt vaak door elkaar gehaald met legale demonstraties, verzet en revolutie; een heldere definitie is nodig.",
+    "Volgens De Graaf kenmerkt burgerlijke ongehoorzaamheid zich door geweldloosheid, symboliek, een direct verband met een hoger doel en het accepteren van de straf.",
+    "Dalend vertrouwen in de politiek en het gevoel dat de overheid knopen doorschuift, zijn volgens de gesprekspartners een voedingsbodem voor actiebewegingen.",
+    "Historische voorbeelden lopen van de Egyptische vroedvrouwen Sifra en Puah tot de vrouwenstaking van Lysistrata, Thoreau, Gandhi, Martin Luther King en Rosa Parks.",
+    "Middeleeuwse en Reformatorische denkers ontwikkelden argumenten over het afzetten van vorsten en het geweten als grondslag voor verzet.",
+    "Stefan Paas toont begrip voor klimaatactivisme, maar waarschuwt dat mogelijk radicalisering aan de randen van zulke bewegingen optreedt.",
+    "De Graaf wijst op het risico dat geweld tegen dingen een grens overschrijdt en overgaat in verzet of terrorisme.",
+    "Het gesprek eindigt met de vraag hoeveel burgerlijke ongehoorzaamheid christelijk geïnspireerd is; het antwoord is een kronkelige, gemengde soep met belangrijke christelijke impulsen."
   ],
   "chapters": [
     {
+      "start_seconds": 0,
+      "title": "Inleiding en aanleiding",
+      "summary": "David Boogerd licht de bonusaflevering toe, die vóór de aanval op Israël was opgenomen, en introduceert de gasten."
+    },
+    {
       "start_seconds": 158,
-      "title": "Vertrouwen in de overheid en de crisiscultuur",
-      "summary": "Waarom burgerlijke ongehoorzaamheid nu speelt: wantrouwen in de politiek, gefragmenteerd landschap, uitstel en noodrecht."
+      "title": "Vertrouwen in overheid en politiek",
+      "summary": "De Graaf en Paas bespreken het dalende vertrouwen in politiek, de crisisretoriek en de vicieuze cirkel van uitstel en noodmaatregelen."
     },
     {
-      "start_seconds": 484,
-      "title": "Verzet versus burgerlijke ongehoorzaamheid",
-      "summary": "Het Capitool en Trump-aanhangers als voorbeeld van verzet, tegenover de criteria voor burgerlijke ongehoorzaamheid."
+      "start_seconds": 579,
+      "title": "Wat is burgerlijke ongehoorzaamheid?",
+      "summary": "Definitie en criteria: geweldloos, symbolisch, met hoger doel, zichtbaar en met aanvaarding van straf, geschetst aan de hand van Amerikaanse voorbeelden."
     },
     {
-      "start_seconds": 856,
-      "title": "King, Rosa Parks en Thoreau",
-      "summary": "De Amerikaanse traditie van Thoreau tot de burgerrechtenbeweging en het natuurrecht als bron."
+      "start_seconds": 1293,
+      "title": "Historische voorbeelden uit Bijbel en Oudheid",
+      "summary": "Sifra en Puah, de Athener vrouwen van Lysistrata en Antigone illustreren vroege vormen van verzet."
     },
     {
-      "start_seconds": 1140,
-      "title": "Gandhi en soul force",
-      "summary": "Gandhi's satyagraha en het idee de machthebber te bewegen het goede te doen."
+      "start_seconds": 1612,
+      "title": "Verzetsrecht in de middeleeuwen en Reformatie",
+      "summary": "Argumenten over het afzetten van vorsten ontwikkelden zich van John of Salisbury tot Luther en de Opstand tegen Spanje."
     },
     {
-      "start_seconds": 1275,
-      "title": "Voorbeelden uit de oudheid en de Bijbel",
-      "summary": "Sifra en Pua, Lysistrate, Antigone en de onrechtvaardige rechter als voorlopers."
+      "start_seconds": 2161,
+      "title": "Klimaatactivisme, grenzen en radicalisering",
+      "summary": "Discussie over geweld tegen eigendom, de rol van de overheid en het risico dat frustratie tot radicalisering leidt."
     },
     {
-      "start_seconds": 1570,
-      "title": "Reformatie, middeleeuwen en Germanen",
-      "summary": "Rechtvaardigingen van verzet tegen heersers: Luther, Willem van Oranje, Johannes van Salisbury en het Germaanse ding."
+      "start_seconds": 3028,
+      "title": "Politiek, Hoekstra en de bekering",
+      "summary": "Het gesprek komt op Wopke Hoekstra en zijn klimaatomslag, en op de vraag of persoonlijke bekering politiek telt."
     },
     {
-      "start_seconds": 1900,
-      "title": "Overwogen actie en demonstratierecht",
-      "summary": "Activisten die twee walletjes willen eten, en het verschil tussen demonstreren en burgerlijk ongehoorzaam zijn."
+      "start_seconds": 3151,
+      "title": "Religieuze wortels van verzet",
+      "summary": "Paas en De Graaf bespreken de christelijke en gewetensmatige bronnen van burgerlijke ongehoorzaamheid, met Luther en Handelingen als voorbeeld."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 3,
       "speaker": "Beatrice de Graaf",
       "text": "In 411 voor Christus vond al een zitblokkade plaats van de toegangsweg naar het Parthenon.",
-      "note": "Verrassende historische parallel met de A12-blokkades."
+      "note": "Ontkracht het idee dat blokkades modern zijn; de vrouwen van Athene blokkeerden de toegang tegen de oorlog met Sparta."
     },
     {
-      "start_seconds": 658,
+      "start_seconds": 670,
       "speaker": "Beatrice de Graaf",
-      "text": "Het doel heiligt niet de middelen, het middel moet het doel heiligen.",
-      "note": "Kernprincipe van King en Gandhi."
+      "text": "Het middel moet het doel heiligen, niet het doel de middelen.",
+      "note": "Kernprincipe uit de traditie van Gandhi en King: geweld past niet bij een legitiem doel."
     },
     {
-      "start_seconds": 1160,
+      "start_seconds": 1937,
+      "speaker": "Stefan Paas",
+      "text": "Anders brandt de soep aan.",
+      "note": "Treffende metafoor voor het risico dat de begrippen door elkaar lopen en de discussie ontspoort."
+    },
+    {
+      "start_seconds": 2613,
+      "speaker": "Stefan Paas",
+      "text": "We hebben met een soort Titanic te maken die op een ijsberg afvaart.",
+      "note": "Scherpe beeldspraak die de dringende, bijna paniekerige urgentie van klimaatactivisme verklaart."
+    },
+    {
+      "start_seconds": 3328,
       "speaker": "Beatrice de Graaf",
-      "text": "Je doet het ook om het hart van degene die dat recht maakt te bekeren.",
-      "note": "Gandhi's religieuze dimensie van ongehoorzaamheid."
-    },
-    {
-      "start_seconds": 1383,
-      "speaker": "David Boogerd",
-      "text": "De namen van Sifra en Pua worden genoemd, de naam van de farao kennen we niet.",
-      "note": "Mooie observatie over wie herinnerd wordt."
-    },
-    {
-      "start_seconds": 773,
-      "speaker": "Beatrice de Graaf",
-      "text": "Niet miepen over een waterkanon: wie kiest voor burgerlijke ongehoorzaamheid, kiest voor de gevolgen.",
-      "note": "Scherpe stelling over het aanvaarden van straf."
+      "text": "De vrijheid van een christenmens is dat hij niemand onderdanig is, om eenieder te dienen.",
+      "note": "Luther als religieuze bron: vrijheid is niet ego-vrijheid, maar dienstbaarheid aan de ander."
     }
   ],
   "keywords": [
     "burgerlijke ongehoorzaamheid",
-    "verzet",
-    "Extinction Rebellion",
-    "Martin Luther King",
+    "geweldloosheid",
+    "verzetsrecht",
+    "democratie",
+    "rechtsstaat",
+    "natuurrecht",
     "Gandhi",
     "Thoreau",
-    "natuurrecht",
-    "rechtsstaat",
-    "geweldloosheid",
-    "vertrouwen in de politiek",
-    "Lysistrate",
+    "Martin Luther King",
+    "Extinction Rebellion",
+    "radicalisering",
     "Reformatie"
   ],
   "quotes": [
-    "Wanneer kom je in opstand? En wat is een goede, legitieme reden om burgerlijk ongehoorzaam te zijn?"
+    "Wanneer kom je in opstand? En wat is een goede, legitieme reden om burgerlijk ongehoorzaam te zijn?",
+    "We openen weer de schatkist van de geschiedenis én religie."
   ],
   "similar": [
     {
       "n": 130,
-      "reason": "Klimaatactivisme en arrestaties; burgerlijke ongehoorzaamheid vanuit geloof, over Extinction Rebellion-achtige acties"
+      "reason": "Klimaatactivisme en burgerlijke ongehoorzaamheid; gaat over arrestatie en Rozemarijn van 't Einde, die ook in deze aflevering voorkomt."
     },
     {
-      "n": 114,
-      "reason": "Boerenprotesten als culturele en religieuze spiegel; demonstraties en onvrede"
+      "n": 276,
+      "reason": "Klimaatbeweging en politiek; Diederik Samsom wordt ook in deze aflevering besproken."
     },
     {
-      "n": 113,
-      "reason": "Beatrice de Graaf over vrijheid, geschiedenis en Bijbelse wortels van vrijheidsidee"
+      "n": 55,
+      "reason": "Klimaatactivisme, religie en natuur met Marianne Thieme, een bekende activistische politica."
+    },
+    {
+      "n": 89,
+      "reason": "Nederlandse geschiedenis van verzet en Oranje; sluit aan bij historische verzetsbronnen en Willem van Oranje."
     },
     {
       "n": 112,
-      "reason": "Willem van Oranje en opstand tegen gezag, historische wortels van verzet"
-    },
-    {
-      "n": 53,
-      "reason": "Verzet, oorlog en genade met De Graaf; wanneer is verzet gerechtvaardigd"
+      "reason": "Willem van Oranje als verzetsfiguur; overlapt met de historische figuren in deze aflevering."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

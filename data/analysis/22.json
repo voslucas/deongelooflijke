@@ -1,18 +1,23 @@
 {
   "episode": 22,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 79610,
+    "segments": 671,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 23477,
-    "output_tokens": 2677,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 31180,
+    "output_tokens": 7725,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Bijbel & Jezus",
     "Geschiedenis",
-    "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "God & geloof",
+    "Bijbel & Jezus",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Tom Holland"
@@ -20,163 +25,155 @@
   "people": [
     {
       "name": "Tom Holland",
-      "note": "Britse historicus en auteur van Heerschappij (Dominion)",
-      "start_seconds": 2,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "note": "gast en auteur van 'Heerschappij'; historicus die over het christendom schrijft",
+      "start_seconds": 3,
+      "mention_count": 3
     },
     {
       "name": "Julius Caesar",
-      "note": "Romeins veldheer, veroveraar van Gallië",
-      "start_seconds": 282,
-      "wiki_checked": true,
-      "wiki_pageid": 6606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julius_Caesar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg/250px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg"
+      "note": "Romeins veldheer; zijn verovering van Gallië en propaganda worden besproken",
+      "start_seconds": 272,
+      "mention_count": 4
     },
     {
-      "name": "Virgilius",
-      "note": "Romeins dichter, door christenen als profeet gezien",
-      "start_seconds": 183,
-      "wiki_checked": true,
-      "wiki_pageid": 25353,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vergilius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Testa_di_Virgilio_di_profilo.jpg/250px-Testa_di_Virgilio_di_profilo.jpg"
+      "name": "Vergilius",
+      "note": "Romeinse dichter wiens profetische regels door christenen werden opgepikt",
+      "start_seconds": 203,
+      "mention_count": 3
     },
     {
       "name": "Dante Alighieri",
-      "note": "Dichter die Virgilius als gids opvoert",
+      "note": "dichter die Vergilius als gids in de Goddelijke Komedie opneemt",
       "start_seconds": 214,
-      "wiki_checked": true,
-      "wiki_pageid": 3885,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dante_Alighieri",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/250px-Portrait_de_Dante.jpg"
+      "mention_count": 1
     },
     {
       "name": "Pontius Pilatus",
-      "note": "Romeinse prefect bij de kruisiging",
+      "note": "Romeins stadhouder die Jezus veroordeelde",
       "start_seconds": 450,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Friedrich Nietzsche",
-      "note": "Filosoof die het schandalige van het kruis herkende",
-      "start_seconds": 563,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Edward Gibbon",
-      "note": "Historicus die christendom de schuld van Roms val gaf",
-      "start_seconds": 584,
-      "wiki_checked": true,
-      "wiki_pageid": 269234,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edward_Gibbon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Edward_Gibbon_by_Henry_Walton_cleaned.jpg/250px-Edward_Gibbon_by_Henry_Walton_cleaned.jpg"
+      "name": "Jezus",
+      "note": "centrale figuur van het christendom; kruisiging als kern van de geloofsgeschiedenis",
+      "start_seconds": 450,
+      "mention_count": 8
     },
     {
       "name": "Paulus",
-      "note": "Apostel, kruis als steen des aanstoots",
-      "start_seconds": 932,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "apostel wiens idee van het kruis als 'struikelblok' centraal staat",
+      "start_seconds": 926,
+      "mention_count": 5
+    },
+    {
+      "name": "Edward Gibbon",
+      "note": "18e-eeuwse historicus die het ondergang-van-Rome-verhaal populair maakte",
+      "start_seconds": 586,
+      "mention_count": 4
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "filosoof die het christendom bekritiseert maar de kern ervan scherp ziet",
+      "start_seconds": 563,
+      "mention_count": 7
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader, schrijver van De stad van God",
+      "note": "kerkvader; schreef 'De stad van God' als reactie op de val van Rome",
       "start_seconds": 1450,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Bartolomé de las Casas",
-      "note": "Dominicaan die rechten van indianen bepleitte",
-      "start_seconds": 2098,
-      "wiki_checked": true,
-      "wiki_pageid": 21456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bartolom%C3%A9_de_las_Casas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Fray_Bartolom%C3%A9_de_las_Casas.jpg/250px-Fray_Bartolom%C3%A9_de_las_Casas.jpg"
-    },
-    {
-      "name": "Maximilien Robespierre",
-      "note": "Revolutionair die het christendom onderdrukte",
-      "start_seconds": 2455,
-      "wiki_checked": true,
-      "wiki_pageid": 196213,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maximilien_de_Robespierre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robespierre.jpg/250px-Robespierre.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "Baptistenpredikant en leider van de burgerrechtenbeweging",
-      "start_seconds": 2620,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "Macrina",
-      "note": "Cappadocische heilige die achtergelaten baby's redde",
-      "start_seconds": 2860,
-      "wiki_checked": true,
-      "wiki_pageid": 5396051,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Macrina_de_Jongere",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Macrina_the_Younger.jpg/250px-Macrina_the_Younger.jpg"
+      "note": "4e-eeuwse Kappadokische heilige die verlaten baby's redde",
+      "start_seconds": 2826,
+      "mention_count": 1
+    },
+    {
+      "name": "Bartolomé de Las Casas",
+      "note": "dominicaan die in de 16e eeuw rechten voor inheemse volken verdedigde",
+      "start_seconds": 2098,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "baptistenpredikant en leider van de Amerikaanse burgerrechtenbeweging",
+      "start_seconds": 2583,
+      "mention_count": 3
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Engelse atheïst en schrijver; voorbeeld van 'protestantse' seculiere denkers",
+      "start_seconds": 3281,
+      "mention_count": 1
+    },
+    {
+      "name": "Christopher Hitchens",
+      "note": "Engelse atheïst en essayist",
+      "start_seconds": 3281,
+      "mention_count": 1
+    },
+    {
+      "name": "Douglas Adams",
+      "note": "auteur van The Hitchhiker's Guide to the Galaxy; genoemd voor het beeld van paradoxen",
+      "start_seconds": 3008,
+      "mention_count": 1
+    },
+    {
+      "name": "Margaret Atwood",
+      "note": "auteur van The Handmaid's Tale",
+      "start_seconds": 2946,
+      "mention_count": 1
     },
     {
       "name": "Harvey Weinstein",
-      "note": "Filmproducent, aanleiding voor #MeToo",
-      "start_seconds": 2888,
-      "wiki_checked": true,
-      "wiki_pageid": 4462591,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harvey_Weinstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Harvey_Weinstein_2010_Time_100_Shankbone.jpg/250px-Harvey_Weinstein_2010_Time_100_Shankbone.jpg"
+      "note": "filmproducent wiens zaak de #MeToo-beweging aanwakkerde",
+      "start_seconds": 2892,
+      "mention_count": 1
+    },
+    {
+      "name": "Erdogan",
+      "note": "Turkse president; voorbeeld van niet-westerse seculariteit",
+      "start_seconds": 1987,
+      "mention_count": 1
+    },
+    {
+      "name": "Modi",
+      "note": "Indiase premier; voorbeeld van niet-westerse seculariteit",
+      "start_seconds": 1987,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "nazileider; als symbool van moreel kwaad",
+      "start_seconds": 3499,
+      "mention_count": 3
+    },
+    {
+      "name": "B.S. Balagangadhara",
+      "note": "Indiase wetenschapper die christianisering via bekering en seculiarisering beschrijft",
+      "start_seconds": 1797,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Heerschappij: hoe het christendom het Westen vormde",
       "author": "Tom Holland",
-      "note": "Over de christelijke wortels van het Westen",
+      "note": "centraal boek van de aflevering (Engelse titel: Dominion)",
       "start_seconds": 137,
-      "volume_id": "Ch3RDwAAQBAJ",
-      "canonical_title": "Heerschappij: Hoe het christendom het Westen vormde",
+      "volume_id": "24Vg0AEACAAJ",
+      "canonical_title": "Heerschappij: hoe het christendom het Westen vormde",
       "canonical_author": "Tom Holland",
-      "isbn13": "9789025305864",
-      "isbn10": "9025305865",
-      "thumbnail": "http://books.google.com/books/content?id=Ch3RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789025312770",
+      "isbn10": "9025312772",
+      "thumbnail": ""
     },
     {
       "title": "Rubicon",
       "author": "Tom Holland",
-      "note": "Over de ondergang van de Romeinse Republiek",
-      "start_seconds": 169,
+      "note": "eerste geschiedwerk van Holland over de Romeinse Republiek",
+      "start_seconds": 153,
       "volume_id": "eQJxAAAAQBAJ",
       "canonical_title": "Rubicon: het einde van de Romeinse Republiek",
       "canonical_author": "Tom Holland",
@@ -187,155 +184,199 @@
     {
       "title": "De stad van God",
       "author": "Augustinus",
-      "note": "Werk tegen de beschuldiging dat christenen Rome ten val brachten",
-      "start_seconds": 1491,
-      "volume_id": "kzknGQAACAAJ",
-      "canonical_title": "De stad van God",
+      "note": "Augustinus' antwoord op de val van Rome; over 'religio' en de tijdelijke stad",
+      "start_seconds": 1488,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God",
       "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026319952",
-      "isbn10": "9026319959",
-      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "note": "satire die volgens Holland put uit het puritanisme van New England",
+      "start_seconds": 2946,
+      "volume_id": "ZRFmAAAAMAAJ",
+      "canonical_title": "The Handmaid's Tale",
+      "canonical_author": "Margaret Atwood",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=ZRFmAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "note": "gebruikt als beeld voor het paradoxale karakter van het christendom",
+      "start_seconds": 3008,
+      "volume_id": "c-cMzQEACAAJ",
+      "canonical_title": "The Hitchhiker's Guide to the Galaxy",
+      "canonical_author": "Douglas Adams",
+      "isbn13": "9780434009206",
+      "isbn10": "0434009202",
+      "thumbnail": "http://books.google.com/books/content?id=c-cMzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "1 Korintiërs 1:23",
-      "note": "Het kruis als struikelblok voor joden en dwaasheid voor heidenen",
+      "note": "Paulus over het kruis als struikelblok voor Joden en dwaasheid voor heidenen",
       "start_seconds": 933
     },
     {
+      "ref": "Mattheus 8:5",
+      "note": "de centurio en zijn knecht; een van de weinige punten waar het Romeinse gezag in de evangeliën oplicht",
+      "start_seconds": 525
+    },
+    {
       "ref": "Galaten 3:28",
-      "note": "Geen jood of Griek; door Martin Luther King gebruikt",
-      "start_seconds": 2621
+      "note": "'geen Jood of Griek'; Martin Luther King past dit toe op burgerrechten",
+      "start_seconds": 2641
+    },
+    {
+      "ref": "Mattheus 20:16",
+      "note": "'de eersten zullen de laatsten zijn'; door Holland gezien als kern van de revolutionaire christelijke gedachte",
+      "start_seconds": 3362
     }
   ],
   "places": [
     "Amsterdam",
-    "Newcastle",
     "Rome",
     "Gallië",
     "Sinjar",
     "Koerdistan",
+    "Kiev",
     "India",
+    "Leiden",
+    "New England",
+    "Jeruzalem",
     "Frankrijk",
-    "Verenigde Staten",
-    "Jeruzalem"
+    "Newcastle",
+    "Stoke"
   ],
-  "summary_tldr": "Historicus Tom Holland vertelt als niet-gelovige waarom hij een boek schreef over de christelijke wortels van het Westen. Hij betoogt dat ideeën als het seculiere, mensenrechten en moderne morele revoluties diep christelijk zijn. Samen met Stefan Paas bespreekt hij het kruis, de Reformatie, de Verlichting en hedendaagse conflicten in Amerika.",
+  "summary_tldr": "Tom Holland, historicus en niet-gelovige, bespreekt zijn boek 'Heerschappij' waarin hij betoogt dat het christendom ons denken over moraal, mensenrechten, tijd en seculariteit nog steeds bepaalt. Hij laat zien hoe ideeën als reformatio, religie en het 'seculiere' zijn ontstaan in de christelijke geschiedenis. Ook de huidige culturele strijd, van de burgerrechtenbeweging tot #MeToo, ziet hij als voortkomend uit christelijke noties.",
   "summary_points": [
-    "Holland voelde als kind de aantrekkingskracht van het brute Rome en zag het christendom als spelbreker.",
-    "Schrijven over Rome en islam deed hem de christelijke vorm van Westerse aannames herkennen.",
-    "Een bezoek aan Sinjar maakte de gruwel van de kruisiging en de omkering van het kruissymbool voelbaar.",
-    "Het lineaire tijdsbesef is christelijk en ligt aan de basis van o.a. paleontologie.",
-    "Begrippen als religie en seculier zijn niet neutraal en zijn door het Westen geëxporteerd, bijvoorbeeld naar India.",
-    "Mensenrechten komen voort uit middeleeuwse kerkelijke reformatio en kerkrecht.",
-    "Reformatie, Verlichting en Franse Revolutie hergebruiken dezelfde hervormingsdrang.",
-    "Hedendaagse strijd tussen conservatieven en progressieven is een strijd tussen christelijke ideeën, zoals bij abortus en #MeToo."
+    "Holland's interesse in het christendom ontstond uit zijn studie van Rome, waar hij het christelijke 'breekpunt' als opluchting ervoer.",
+    "Het kruis is voor Holland het 'gesmolten hart' van het christendom; de verwerping van Romeins machtsvertoon is een radicale omkering.",
+    "Het christelijke idee van lineaire tijd, met begin en einde, legde de basis voor wetenschappen als paleontologie en evolutie.",
+    "De begrippen 'religie' en 'seculier' zijn volgens Holland niet neutraal maar gevormd door christelijke theologie en Europese expansie.",
+    "De 11e-eeuwse 'reformatio' en het idee dat de samenleving hervormd kan worden, leidde tot kruistochten, Reformatie en de Verlichting.",
+    "Mensenrechten en de gedachte dat de sterkste de zwakste moet beschermen hebben volgens Holland christelijke wortels.",
+    "Stefan Paas wijst op de grenzen van Hollands verhaal, zoals de rol van de Oosters-orthodoxe wereld en de missiegebieden.",
+    "Holland ziet het fascisme als de eerste ideologie die bewust met christelijke waarden brak, en Hitler als moreel anker in de westerse cultuur.",
+    "De huidige polarisatie in de VS ziet Holland als een strijd tussen verschillende christelijke theologische posities.",
+    "Holland eindigt met een persoonlijke reflectie: hij voelt zich cultureel christelijk en zoekt een 'post-protestants' pad naar geloof."
   ],
   "chapters": [
     {
-      "start_seconds": 77,
+      "start_seconds": 0,
+      "title": "Introductie en Hollands achtergrond",
+      "summary": "De presentator stelt de gast voor, een Engelstalige primeur. Holland vertelt over zijn familienaam en zijn eerdere werk over Rome."
+    },
+    {
+      "start_seconds": 137,
       "title": "Van Rome naar het christendom",
-      "summary": "Holland vertelt hoe Rubicon en zijn fascinatie voor Rome hem naar het christendom brachten."
+      "summary": "Holland legt uit hoe zijn werk over de Romeinse Republiek hem naar het christendom leidde en hoe Vergilius en Gibbon zijn denken vormden."
     },
     {
-      "start_seconds": 465,
-      "title": "Gibbon en de verloren glamour",
-      "summary": "Over Romeinse en Griekse glamour en Gibbons verhaal dat christenen het feest bedierven."
+      "start_seconds": 450,
+      "title": "Kruis, Pilatus en het geweld van Rome",
+      "summary": "Het gesprek gaat over de fascinatie voor Rome, de kruisiging en de confrontatie met geweld in Koerdistan."
     },
     {
-      "start_seconds": 684,
-      "title": "Sinjar en het kruis",
-      "summary": "De ervaring in Koerdistan en het kruis als hart van het christendom, met Paulus en Nietzsche als boekensteunen."
+      "start_seconds": 1154,
+      "title": "Seculier, religie en tijd",
+      "summary": "Holland betoogt dat begrippen als 'religie' en 'seculier' christelijk van oorsprong zijn, en dat ook het lineaire tijdsbegrip hieruit voortkomt."
     },
     {
-      "start_seconds": 986,
-      "title": "Tijd, het seculiere en religie",
-      "summary": "Lineaire tijd, het ontstaan van het seculiere en hoe religie als begrip zich verspreidde, onder meer naar India."
+      "start_seconds": 1450,
+      "title": "Van Augustinus tot de 11e eeuw",
+      "summary": "De ontwikkeling van de kerk als soevereine instelling, universiteiten en mensenrechten krijgt aandacht."
     },
     {
-      "start_seconds": 1760,
-      "title": "Mensenrechten en reformatio",
-      "summary": "De elfde eeuw als smeltkroes: kerkrecht, universiteiten en rechten van de armen en indianen."
+      "start_seconds": 2583,
+      "title": "Burgerrechten, de jaren zestig en #MeToo",
+      "summary": "Holland analyseert hoe de burgerrechtenbeweging, seksuele revolutie en #MeToo alle christelijke wortels hebben."
     },
     {
-      "start_seconds": 2160,
-      "title": "Reformatie, Verlichting en revolutie",
-      "summary": "Hoe steeds nieuwe golven van zuivering voortkomen uit dezelfde christelijke impuls."
+      "start_seconds": 3223,
+      "title": "Nietzsche, fascisme en het lege morele anker",
+      "summary": "Nietzsche en de opkomst van het fascisme worden besproken als breuk met christelijke waarden, en Hitler als moreel referentiepunt."
     },
     {
-      "start_seconds": 2570,
-      "title": "Amerika, de jaren zestig en #MeToo",
-      "summary": "Burgerrechten, seksuele revolutie en hedendaagse twistpunten als christelijke theologische conflicten."
+      "start_seconds": 3775,
+      "title": "Afsluiting: cultureel christelijk, op zoek naar geloof",
+      "summary": "Holland reflecteert op zijn eigen traject, zijn gevoel van cultureel christelijk zijn en zijn zoektocht naar geloof."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1,
+      "start_seconds": 828,
       "speaker": "Tom Holland",
-      "text": "We leven door een verbazingwekkende periode van verandering, maar die lijkt nog steeds gedreven door impulsen uit het christelijke verleden.",
-      "note": "Kernthese van de aflevering."
+      "text": "Hij beschrijft het bezoek aan Sinjar, waar mensen gekruisigd waren, als een visceraal besef van de horror van de kruisiging.",
+      "note": "Een persoonlijk moment dat laat zien hoe de geschiedenis voor hem concreet werd."
     },
     {
-      "start_seconds": 284,
+      "start_seconds": 1088,
       "speaker": "Tom Holland",
-      "text": "Romeinse brutaliteit was voor Caesar propaganda: hij pochte op de miljoen Galliërs die hij zou hebben gedood.",
-      "note": "Maakt de vreemdheid van de Romeinse wereld concreet."
+      "text": "Het christelijke idee van tijd is dat er een begin en een einde is.",
+      "note": "Opvallend omdat de presentator dit als vanzelfsprekend ervaart, terwijl Holland het als christelijke erfenis ziet."
     },
     {
-      "start_seconds": 820,
+      "start_seconds": 3506,
       "speaker": "Tom Holland",
-      "text": "Staan in Sinjar gaf me een visceraal gevoel van de gruwel van de kruisiging.",
-      "note": "Persoonlijk en emotioneel moment."
+      "text": "Onze morele lodestar is nu de figuur die het morele kwaad belichaamt: Hitler.",
+      "note": "Een scherpe stelling over hoe het westen moraal definieert via het tegenbeeld van het kwaad."
     },
     {
-      "start_seconds": 1740,
+      "start_seconds": 3786,
       "speaker": "Tom Holland",
-      "text": "Christianisering verspreidt zich via bekering én via secularisatie.",
-      "note": "Paradoxale uitspraak over het seculiere."
-    },
-    {
-      "start_seconds": 2888,
-      "speaker": "Tom Holland",
-      "text": "Niemand vroeg bij Weinstein wat er mis is met een machtige man die zijn ondergeschikten misbruikt; de Romeinen hadden daar geen probleem mee gehad.",
-      "note": "Toont christelijke wortels van hedendaagse moraal."
+      "text": "Hoe meer ik schreef, hoe meer cultureel christelijk ik me ging voelen.",
+      "note": "Een persoonlijke erkenning die de kern van het boek raakt."
     }
   ],
   "keywords": [
-    "Tom Holland",
-    "Heerschappij",
-    "kruis",
-    "Rome",
-    "secularisme",
+    "christendom",
+    "seculier",
     "reformatio",
-    "mensenrechten",
+    "kruis",
+    "Paulus",
     "Augustinus",
+    "mensenrechten",
     "Nietzsche",
-    "Verlichting",
-    "burgerrechtenbeweging",
-    "#MeToo"
+    "fascisme",
+    "Westen",
+    "secularisatie",
+    "tijdsbegrip"
   ],
-  "quotes": [],
+  "quotes": [
+    "Een primeur in De Ongelooflijke Podcast, we hebben namelijk voor het eerst een Engelstalige gast.",
+    "Tom Holland is een historicus en schreef bestsellers over de Romeinen, de Grieken, de Perzen, de islam, maar nu heeft hij zich als niet-gelovige op het christendom gestort.",
+    "Een prikkelend en fascinerend boek waarin Holland beschrijft wat de impact van het christendom is geweest op het Westen, en ook op hemzelf."
+  ],
   "similar": [
     {
-      "n": 50,
-      "reason": "Andreas Kinneging over christendom, Europese traditie en Westerse beschaving, met Stefan Paas"
-    },
-    {
-      "n": 327,
-      "reason": "Kader Abdolah over Jezus en Westerse cultuur; Bijbel, kerk en secularisatie"
-    },
-    {
-      "n": 187,
-      "reason": "Geurt Henk van Kooten over Jezus en de historische bronnen van het christendom"
-    },
-    {
       "n": 135,
-      "reason": "Hoe het ontstaan van het christendom de wereld veranderde, met historische invalshoek"
+      "reason": "Behandelt het ontstaan van het christendom en hoe het de wereld veranderde, net als Holland."
     },
     {
-      "n": 122,
-      "reason": "Nietzsche en de dood van God; gedeelde figuur en filosofische thematiek"
+      "n": 11,
+      "reason": "Rutger Bregman over religie en de morele invloed van het christendom op het Westen."
+    },
+    {
+      "n": 185,
+      "reason": "Bregman over het christelijke erfgoed en de rol van de kerk in de geschiedenis."
+    },
+    {
+      "n": 50,
+      "reason": "Gaat over het einde van de Europese traditie en de christelijke wortels daarvan."
+    },
+    {
+      "n": 118,
+      "reason": "Onderzoekt de immense rol van religie en kerk in de geschiedenis van slavernij."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

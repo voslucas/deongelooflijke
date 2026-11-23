@@ -1,17 +1,22 @@
 {
   "episode": 119,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118305,
+    "segments": 1433,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31926,
-    "output_tokens": 2683,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61883,
+    "output_tokens": 7740,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
     "God & geloof",
     "Bijbel & Jezus",
+    "Kunst & cultuur",
     "Geschiedenis"
   ],
   "guests": [
@@ -20,330 +25,355 @@
   "people": [
     {
       "name": "J.R.R. Tolkien",
-      "note": "schrijver van The Hobbit en The Lord of the Rings, katholiek, professor in Oxford",
-      "start_seconds": 62,
-      "wiki_checked": true,
-      "wiki_pageid": 12634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.R.R._Tolkien",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/250px-J._R._R._Tolkien%2C_ca._1925.jpg"
+      "note": "Engelse schrijver en hoogleraar, auteur van The Lord of the Rings en The Hobbit; katholiek",
+      "start_seconds": 61,
+      "mention_count": 45
     },
     {
       "name": "C.S. Lewis",
-      "note": "schrijver van Narnia en christelijk apologeet, vriend van Tolkien",
-      "start_seconds": 62,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Engelse schrijver en apologeet, auteur van Narnia; vriend van Tolkien, bekeerde zich tot het christendom",
+      "start_seconds": 61,
+      "mention_count": 35
     },
     {
       "name": "Peter Jackson",
-      "note": "regisseur van de Lord of the Rings-films",
-      "start_seconds": 269,
-      "wiki_checked": true,
-      "wiki_pageid": 21812,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Jackson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Peter_Jackson01.jpg/250px-Peter_Jackson01.jpg"
-    },
-    {
-      "name": "Max Weber",
-      "note": "socioloog die sprak over rationalisering en de 'ijzeren kooi'",
-      "start_seconds": 502,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
-    },
-    {
-      "name": "Karl Barth",
-      "note": "theoloog, groot christelijk denker maar met kleiner bereik dan Lewis",
-      "start_seconds": 563,
-      "wiki_checked": true,
-      "wiki_pageid": 64348,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Barth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Karl_Barth_Bundesarchiv_Bild.png/250px-Karl_Barth_Bundesarchiv_Bild.png"
-    },
-    {
-      "name": "Francis Morgan",
-      "note": "priester in Birmingham die Tolkien na het overlijden van zijn moeder opving",
-      "start_seconds": 816,
-      "wiki_checked": true
-    },
-    {
-      "name": "George Orwell",
-      "note": "schrijver van 1984, vergeleken met Sauron en de controlestaat",
-      "start_seconds": 1248,
-      "wiki_checked": true,
-      "wiki_pageid": 7028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Orwell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg"
-    },
-    {
-      "name": "Greta Thunberg",
-      "note": "klimaatactiviste, vergeleken met Tolkiens behoud van de natuur",
-      "start_seconds": 1082,
-      "wiki_checked": true,
-      "wiki_pageid": 5142949,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Greta_Thunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg/250px-Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg"
-    },
-    {
-      "name": "James Frazer",
-      "note": "schrijver van The Golden Bough over stervende en opstaande goden",
-      "start_seconds": 1700,
-      "wiki_checked": true,
-      "wiki_pageid": 565558,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Frazer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/JamesGeorgeFrazer.jpg/250px-JamesGeorgeFrazer.jpg"
+      "note": "Regisseur van de filmtrilogie van The Lord of the Rings",
+      "start_seconds": 281,
+      "mention_count": 2
     },
     {
       "name": "Hugo Dyson",
-      "note": "derde vriend bij het nachtelijke gesprek dat Lewis' bekering inluidde",
-      "start_seconds": 1911,
-      "wiki_checked": true,
-      "wiki_pageid": 528157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_Dyson"
+      "note": "Derde vriend van Tolkien en Lewis in de Inklings, aanwezig bij het bekeringsgesprek",
+      "start_seconds": 1906,
+      "mention_count": 1
     },
     {
-      "name": "William Wordsworth",
-      "note": "dichter, 'We murder to dissect'",
-      "start_seconds": 1871,
-      "wiki_checked": true,
-      "wiki_pageid": 55958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Wordsworth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/William_Wordsworth.png/250px-William_Wordsworth.png"
+      "name": "Francis Morgan",
+      "note": "Priester in Birmingham die Tolkien na de dood van zijn ouders opving",
+      "start_seconds": 807,
+      "mention_count": 1
     },
     {
-      "name": "Saruman",
-      "note": "schurk in Lord of the Rings die de Gouw overneemt",
-      "start_seconds": 1141,
-      "wiki_checked": true,
-      "wiki_pageid": 61441,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Saruman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Curun%C3%ADr.jpg/250px-Curun%C3%ADr.jpg"
+      "name": "Max Weber",
+      "note": "Sociologe die over rationalisering en de 'ijzeren kooi' schreef",
+      "start_seconds": 510,
+      "mention_count": 1
     },
     {
-      "name": "Samwise Gamgee",
-      "note": "tuinman van Frodo, eigenlijke held volgens Anton",
-      "start_seconds": 1357,
-      "wiki_checked": true,
-      "wiki_pageid": 40360,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Gewissies"
+      "name": "Karl Barth",
+      "note": "Theoloog, door Stefan Paas genoemd als grote christelijke denker met beperkter bereik",
+      "start_seconds": 563,
+      "mention_count": 1
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "Klimaatactiviste, vergeleken met Tolkiens pleidooi voor natuurbehoud",
+      "start_seconds": 1076,
+      "mention_count": 1
+    },
+    {
+      "name": "George Orwell",
+      "note": "Schrijver van 1984; het 'Big Brother'-idee wordt vergeleken met Sauron",
+      "start_seconds": 1248,
+      "mention_count": 1
+    },
+    {
+      "name": "Wordsworth",
+      "note": "19e-eeuwse Britse dichter; schreef 'We murder to dissect'",
+      "start_seconds": 1872,
+      "mention_count": 2
+    },
+    {
+      "name": "James Frazer",
+      "note": "Antropoloog, auteur van The Golden Bough over stervende en opstaande goden",
+      "start_seconds": 1692,
+      "mention_count": 1
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "Britse schrijver, grote invloed op Tolkien en Lewis; auteur van Orthodoxy en The Everlasting Man",
+      "start_seconds": 2743,
+      "mention_count": 5
+    },
+    {
+      "name": "Descartes",
+      "note": "Filosoof die de mens als 'meester en bezitter van de natuur' zag",
+      "start_seconds": 2659,
+      "mention_count": 1
+    },
+    {
+      "name": "Hartmut Rosa",
+      "note": "Duitse socioloog die schrijft over gebrek aan resonantie",
+      "start_seconds": 2563,
+      "mention_count": 1
+    },
+    {
+      "name": "W.H. Auden",
+      "note": "Dichter uit dezelfde kring als Tolkien en Lewis",
+      "start_seconds": 2610,
+      "mention_count": 1
+    },
+    {
+      "name": "Dorothy Sayers",
+      "note": "Schrijfster uit de Oxford-kring van Tolkien en Lewis",
+      "start_seconds": 2610,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; Tolkien bestudeerde zijn werk over het kwaad",
+      "start_seconds": 3448,
+      "mention_count": 1
+    },
+    {
+      "name": "John Milton",
+      "note": "Auteur van Paradise Lost; Lucifer-figuur vergeleken met Melkor",
+      "start_seconds": 3475,
+      "mention_count": 1
+    },
+    {
+      "name": "Dante",
+      "note": "Italiaanse dichter; citeert de liefde die de zon en sterren beweegt",
+      "start_seconds": 3548,
+      "mention_count": 1
+    },
+    {
+      "name": "Pontius Pilatus",
+      "note": "Romeins landvoogd onder wie Jezus gekruisigd werd, historische verankering van het kerstverhaal",
+      "start_seconds": 1817,
+      "mention_count": 2
+    },
+    {
+      "name": "Herodes",
+      "note": "Koning die volgens het verhaal kinderen liet doden",
+      "start_seconds": 1821,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
-      "note": "mythe over macht, industrialisering en de val",
-      "start_seconds": 221,
-      "volume_id": "yl4dILkcqm4C",
-      "canonical_title": "The Lord Of The Rings: One Volume",
-      "canonical_author": "J.R.R. Tolkien",
-      "isbn13": "9780547951942",
-      "isbn10": "0547951949",
-      "thumbnail": "http://books.google.com/books/content?id=yl4dILkcqm4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "note": "Centrale mythe van de 20e eeuw; besproken als verhaal over industrialisatie, kwaad en christelijk wereldbeeld",
+      "start_seconds": 61
+    },
+    {
+      "title": "De Kronieken van Narnia",
+      "author": "C.S. Lewis",
+      "note": "Expliciet christelijke allegorie, met Aslan als figuur van Jezus",
+      "start_seconds": 61
     },
     {
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "note": "kinderboek uit 1937 dat voorloper werd van LOTR",
-      "start_seconds": 379,
-      "volume_id": "U799AY3yfqcC",
-      "canonical_title": "The Hobbit",
-      "canonical_author": "J. R. R. Tolkien",
-      "isbn13": "9780007322602",
-      "isbn10": "0007322607",
-      "thumbnail": "http://books.google.com/books/content?id=U799AY3yfqcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Kinderboek uit 1937 dat leidde tot Lord of the Rings",
+      "start_seconds": 376
     },
     {
-      "title": "De Silmarillion",
+      "title": "The Silmarillion",
       "author": "J.R.R. Tolkien",
-      "note": "postuum uitgegeven mythologie",
-      "start_seconds": 408,
-      "volume_id": "c3GpCwAAQBAJ",
-      "canonical_title": "De silmarillion",
-      "canonical_author": "J.R.R. Tolkien",
-      "isbn13": "9789402307092",
-      "isbn10": "9402307095",
-      "thumbnail": "http://books.google.com/books/content?id=c3GpCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "On Fairy Stories",
-      "author": "J.R.R. Tolkien",
-      "note": "essay over subcreatie en escapisme",
-      "start_seconds": 1967,
-      "volume_id": "JW-cQ-cypwwC",
-      "canonical_title": "Tree and Leaf: Including MYTHOPOEIA",
-      "canonical_author": "J. R. R. Tolkien",
-      "isbn13": "9780007388097",
-      "isbn10": "0007388098",
-      "thumbnail": "http://books.google.com/books/content?id=JW-cQ-cypwwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Mythologie die Tolkien al vroeg begon, postuum uitgegeven",
+      "start_seconds": 408
     },
     {
       "title": "Mythopoeia",
       "author": "J.R.R. Tolkien",
-      "note": "gedicht als reactie op een gesprek met Lewis",
-      "start_seconds": 1021,
-      "volume_id": "JW-cQ-cypwwC",
-      "canonical_title": "Tree and Leaf: Including MYTHOPOEIA",
-      "canonical_author": "J. R. R. Tolkien",
-      "isbn13": "9780007388097",
-      "isbn10": "0007388098",
-      "thumbnail": "http://books.google.com/books/content?id=JW-cQ-cypwwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Gedicht als reactie op Lewis' kritiek op mythen",
+      "start_seconds": 1023
     },
     {
-      "title": "The Golden Bough",
-      "author": "James Frazer",
-      "note": "studie van mythen over stervende en opstaande goden",
-      "start_seconds": 1700,
-      "volume_id": "1ow8PgAACAAJ",
-      "canonical_title": "The Golden Bough: A Study in Magic and Religion",
-      "canonical_author": "James George Frazer",
-      "isbn13": "9781615340200",
-      "isbn10": "1615340203",
-      "thumbnail": "http://books.google.com/books/content?id=1ow8PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "title": "Myth Became Fact",
+      "author": "C.S. Lewis",
+      "note": "Essay over de christelijke mythe die geschiedenis wordt",
+      "start_seconds": 1796
+    },
+    {
+      "title": "On Fairy Stories",
+      "author": "J.R.R. Tolkien",
+      "note": "Essay over sprookjes, secundaire wereld en escapisme",
+      "start_seconds": 1964
+    },
+    {
+      "title": "Mere Christianity",
+      "author": "C.S. Lewis",
+      "note": "Apologetisch werk van Lewis, genoemd als klassieker",
+      "start_seconds": 2423
+    },
+    {
+      "title": "Surprised by Joy",
+      "author": "C.S. Lewis",
+      "note": "Lewis' bekeringsverhaal, met het gesprek met Tolkien over Balder en Jezus",
+      "start_seconds": 2426
+    },
+    {
+      "title": "Orthodoxy",
+      "author": "G.K. Chesterton",
+      "note": "Chesterton over de zon die als kind elke ochtend opstaat",
+      "start_seconds": 2625
+    },
+    {
+      "title": "The Everlasting Man",
+      "author": "G.K. Chesterton",
+      "note": "Chesterton's hervertelling van het kerstverhaal, bron van Antons inzicht",
+      "start_seconds": 2882
+    },
+    {
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "note": "Vergeleken met Melkor als gevallen engel",
+      "start_seconds": 3475
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Oxford",
-    "Birmingham",
-    "Sarehole",
-    "Zuid-Afrika",
-    "Somme",
-    "Isengard",
-    "Bethlehem",
-    "Nazareth"
+  "bible_refs": [
+    {
+      "ref": "Mattheüs 2",
+      "note": "Kerstverhaal met bezoek van wijzen en kindermoord door Herodes; genoemd als bron van het kerstverhaal",
+      "start_seconds": 3057
+    },
+    {
+      "ref": "Lucas 2",
+      "note": "Kerstverhaal met geboorte in Bethlehem; genoemd naast Mattheüs als bron",
+      "start_seconds": 3057
+    }
   ],
-  "summary_tldr": "Anton de Wit en Stefan Paas bespreken Tolkien en Lewis en wat hun werk zegt over mythe, sprookje en Kerst. Ze behandelen Tolkiens leven, de Eerste Wereldoorlog, industrialisering en de gesprekken die Lewis tot het christelijk geloof brachten. De kernvraag: wat gebeurt er als de mythe de geschiedenis binnenkomt?",
+  "places": [
+    "Birmingham",
+    "Oxford",
+    "Sarehole",
+    "Engeland",
+    "Zuid-Afrika",
+    "Bethlehem",
+    "Nazareth",
+    "Isengard",
+    "Mordor"
+  ],
+  "summary_tldr": "In de laatste aflevering van 2022 bespreken David Boogerd, Anton de Wit en Stefan Paas hoe J.R.R. Tolkien en C.S. Lewis mythen en het kerstverhaal met elkaar verbinden. Tolkien zag in mythen een manier om diepe waarheden te vertellen, en Lewis kwam via dat inzicht tot het christelijk geloof. Het kerstverhaal is volgens hen daarom geen sprookje of escapisme, maar een mythe die geschiedenis is geworden.",
   "summary_points": [
-    "Tolkien en Lewis zijn invloedrijke schrijvers wier werk ook voor niet-fans relevant is.",
-    "Tolkiens werk ontstond uit taalfascinatie; de talen kwamen eerst, daarna de mythologie.",
-    "Tolkien groeide op in armoede in Birmingham en verloor jong zijn ouders.",
-    "De Eerste Wereldoorlog en industrialisering vormen de achtergrond van de kritiek op techniek en vooruitgang.",
-    "Lord of the Rings is geen escapisme maar een werkelijkheidsvisie over macht, verleiding en het kwaad.",
-    "Sam staat voor tevredenheid en de gewone man als held.",
-    "Tolkien en Lewis voerden een beslissend gesprek over mythe en het evangelie.",
-    "Volgens Lewis is Christus 'myth became fact': een mythe die de geschiedenis binnenkomt.",
-    "De mythe houdt ervaring en analyse bij elkaar."
+    "Tolkien groeide op in armoede in Birmingham na het katholiek worden van zijn moeder, en zijn idyllische jeugdlandschap werd het model voor de Gouw in Lord of the Rings",
+    "Tolkien's werk ontstond uit taalkundige fascinatie; de talen kwamen eerst, de mythologie daarna",
+    "Beide schrijvers verwerkten de trauma's van de Eerste Wereldoorlog, industrialisatie en het verlies van de natuur",
+    "Lewis was aanvankelijk agnost; in gesprek met Tolkien en Dyson kwam hij tot het besef dat de christelijke mythe historisch is geworden",
+    "Lewis stelde dat de christelijke mythe uniek is omdat de mythische structuur zich in de geschiedenis voltrekt",
+    "Mythen spreken de hele mens aan, niet alleen het verstand; ze overbruggen de kloof tussen ervaring en analyse",
+    "Het moderne wereldbeeld heeft de werkelijkheid onttoverd, waardoor geloof naar een feitelijke of puur subjectieve kant verschuift",
+    "Het kerstverhaal is volgens Anton de Wit ten onrechte zoetsappig gemaakt; het is in wezen een gruwelijk en subversief verhaal",
+    "Het kwaad is in Tolkiens werk geen gelijkwaardige kracht maar een gevolg van hoogmoed en vervreemding",
+    "Een goede mythe, zo stellen ze, maakt de werkelijkheid zichtbaarder en is daarmee niet minder waar dan de wetenschap"
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Inleiding en waarom Tolkien en Lewis",
-      "summary": "Introductie van het thema Kerst en mythe, en waarom deze schrijvers relevant zijn."
+      "start_seconds": 0,
+      "title": "Welkom en kerstsfeer",
+      "summary": "De presentator introduceert Anton de Wit en het thema van de aflevering: Kerst, mythen en sprookjes in het werk van Tolkien en Lewis."
     },
     {
-      "start_seconds": 221,
-      "title": "Liefde en haat voor Tolkien",
-      "summary": "Discussie over de verdeeldheid rond Lord of the Rings en Tolkiens taalfascinatie."
+      "start_seconds": 200,
+      "title": "Waarom Tolkien en Lewis",
+      "summary": "De gasten bespreken de populariteit en het controversiële karakter van Lord of the Rings en waarom Stefan Paas juist Lewis verkiest."
     },
     {
-      "start_seconds": 644,
-      "title": "De mensen Tolkien en Lewis",
-      "summary": "Tolkiens jeugd in Birmingham, armoede, katholiek geloof en de Inklings."
+      "start_seconds": 654,
+      "title": "Tolkiens jeugd en de oorlog",
+      "summary": "Tolkiens jeugd in Sarehole en Birmingham, zijn katholieke opvoeding en zijn ervaringen aan het front in de Eerste Wereldoorlog."
     },
     {
-      "start_seconds": 874,
-      "title": "Eerste Wereldoorlog en industrialisering",
-      "summary": "Tolkiens oorlogservaring en zijn kritiek op techniek en vooruitgang, terug te zien in Isengard."
+      "start_seconds": 1020,
+      "title": "Industrialisatie en het kwaad",
+      "summary": "Lord of the Rings als kritiek op technologische vooruitgang, industriële oorlogsvoering en de natuur die verloren gaat."
     },
     {
-      "start_seconds": 1200,
-      "title": "Het kwaad, de ring en Sam",
-      "summary": "De complexiteit van het kwaad, de macht van de ring en Sam als eigenlijke held."
+      "start_seconds": 1800,
+      "title": "Van mythe naar feit",
+      "summary": "Lewis' inzicht dat de christelijke mythe in de geschiedenis is binnengetreden, en het idee dat mythen de ervaring en analyse samenbrengen."
     },
     {
-      "start_seconds": 1616,
-      "title": "De wandeling: mythe en evangelie",
-      "summary": "Het gesprek tussen Tolkien en Lewis en het idee van 'myth became fact'."
+      "start_seconds": 2400,
+      "title": "Onttovering en secularisatie",
+      "summary": "De koppeling tussen een onttoverde wereld, geloof dat in twee hokjes valt, en de rol die mythen kunnen spelen in het hervinden van verbinding."
     },
     {
-      "start_seconds": 1952,
-      "title": "Subcreatie en escapisme",
-      "summary": "Tolkiens essay On Fairy Stories en het onderscheid tussen gevangene en deserteur."
+      "start_seconds": 2880,
+      "title": "Het kerstverhaal opnieuw bekeken",
+      "summary": "Anton de Wit vertelt hoe Chesterton en Tolkien hem het kerstverhaal als gruwelijk en betekenisvol lieten zien, en hoe de gasten dit verbinden met het geloof."
+    },
+    {
+      "start_seconds": 3420,
+      "title": "Kwaad, liefde en afsluiting",
+      "summary": "Gesprek over het kwaad, het offer en de liefde als drijvende kracht, gevolgd door filmtips en de vooruitblik op de podcast in 2023."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1021,
-      "speaker": "Anton de Wit",
-      "text": "Tolkien: ik zal niet knielen voor de ijzeren kroon.",
-      "note": "Vat Tolkiens afkeer van het mechanische tijdperk samen."
-    },
-    {
-      "start_seconds": 1281,
-      "speaker": "Stefan Paas",
-      "text": "Sam wil niks veranderen; hij wil zijn pijpje roken, zijn tuintje bewerken en zijn kinderen opvoeden.",
-      "note": "Typeert Tolkiens ideaal van tevredenheid."
-    },
-    {
       "start_seconds": 1796,
       "speaker": "Stefan Paas",
-      "text": "Myth became fact: de mythe neemt een historische structuur aan.",
-      "note": "Kern van Lewis' visie op het christelijke verhaal."
+      "text": "Myth became fact: de christelijke mythe krijgt een plek in de geschiedenis, met Pontius Pilatus als historisch anker.",
+      "note": "Dit is het kernidee van Lewis' bekering en verklaart waarom de christelijke mythe volgens de gasten uniek is."
     },
     {
-      "start_seconds": 1871,
+      "start_seconds": 1872,
       "speaker": "Stefan Paas",
-      "text": "Wordsworth: 'We murder to dissect.'",
-      "note": "Verklaart waarom mythe ervaring en analyse samenhoudt."
+      "text": "We murder to dissect: wie God wil ontleden, zet hem eerst op afstand.",
+      "note": "Een scherpe kritiek op de analytische benadering van geloof die de werkelijkheid doodmaakt."
     },
     {
-      "start_seconds": 2080,
-      "speaker": "Stefan Paas",
-      "text": "Er is verschil tussen de gevangene die ontsnapt en de deserteur die de werkelijkheid verlaat.",
-      "note": "Sterk beeld tegen de beschuldiging van escapisme."
+      "start_seconds": 2772,
+      "speaker": "Anton de Wit",
+      "text": "Wij hebben het sprookje naar de kinderkamer verbannen, omdat we er zelf te moe van geworden zijn.",
+      "note": "Een treffende analyse van hoe de moderne samenleving verhalen als kinderspel afdoet."
+    },
+    {
+      "start_seconds": 2956,
+      "speaker": "Anton de Wit",
+      "text": "We hebben de mensgeworden god in de kou laten staan en de deur van de herberg voor hem dichtgeslagen.",
+      "note": "Het kerstverhaal wordt hier niet zoetsappig maar confronterend en gruwelijk weergegeven."
+    },
+    {
+      "start_seconds": 3219,
+      "speaker": "Anton de Wit",
+      "text": "Als het puur gaat om hoeveel korting je je boodschappenmand kunt vullen op Black Friday, is dat ook een soort mythisch denken, maar dan op een verkeerde manier.",
+      "note": "Een scherpe observatie die consumentisme als valse mythe ontmaskert."
     }
   ],
   "keywords": [
     "Tolkien",
     "C.S. Lewis",
-    "mythe",
-    "sprookje",
-    "Kerst",
-    "Lord of the Rings",
-    "subcreatie",
-    "escapisme",
-    "industrialisering",
-    "Inklings",
-    "zondeval",
-    "Eerste Wereldoorlog"
+    "Mythe",
+    "Sprookje",
+    "Kerstverhaal",
+    "Christusmythe",
+    "Secularisatie",
+    "Onttovering",
+    "Industrialisatie",
+    "Subcreatie",
+    "Escapisme",
+    "Inklings"
   ],
-  "quotes": [],
+  "quotes": [
+    "Alles wat je moet weten wordt uitgelegd en het werpt een nieuw licht op de verhouding tussen het Kerstverhaal en de mythen waar Lewis en Tolkien zo van hielden.",
+    "Wees gerust, ook al ben je niet bekend met hun werk dan nog is deze aflevering zeer relevant."
+  ],
   "similar": [
     {
-      "n": 208,
-      "reason": "Anton de Wit over G.K. Chesterton: christelijke verwondering, sprookjes en cultuur, verwant aan Tolkien en Lewis."
+      "n": 18,
+      "reason": "Feiten en fabels over de historische Jezus, met een kerstgerichte invalshoek en mythen versus geschiedenis."
     },
     {
-      "n": 323,
-      "reason": "Anton de Wit over Franciscus van Assisi: een historische figuur wiens leven als een verhaal leest."
-    },
-    {
-      "n": 172,
-      "reason": "Kerst, kunst en geschiedenis, met Stefan Paas."
+      "n": 280,
+      "reason": "Betrouwbaarheid van bronnen over Jezus; verhouding tussen verhaal, geschiedenis en geloof."
     },
     {
       "n": 225,
-      "reason": "Kerst, schoonheid en kunst in relatie tot geloof, met Antoine Bodar."
+      "reason": "Schoonheid van kunst en Kerst; verbinding van cultuur en christelijk verhaal."
     },
     {
-      "n": 181,
-      "reason": "Literatuur, kunst en geloof met Willem Jan Otten, over de kracht van verhalen."
+      "n": 172,
+      "reason": "Geschiedenis van kerstmuziek; kerstverhaal, kunst en geloof samen besproken."
+    },
+    {
+      "n": 187,
+      "reason": "Historische benadering van Jezus en wat hem uniek maakt, met Geurt Henk van Kooten."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

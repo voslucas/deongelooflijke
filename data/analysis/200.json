@@ -1,17 +1,22 @@
 {
   "episode": 200,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 187685,
+    "segments": 2202,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31819,
-    "output_tokens": 2423,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 97437,
+    "output_tokens": 4551,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "God & geloof",
     "Filosofie & ethiek",
+    "Bijbel & Jezus",
     "Geopolitiek & oorlog"
   ],
   "guests": [
@@ -21,108 +26,215 @@
   "people": [
     {
       "name": "Augustinus",
-      "note": "bisschop, filosoof en schrijver (354-430), centrale figuur van de aflevering",
-      "start_seconds": 38,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Bisschop van Hippo, filosoof en schrijver; hoofdpersoon van de aflevering",
+      "start_seconds": 5,
+      "mention_count": 90
     },
     {
-      "name": "Plato",
-      "note": "filosoof; alle filosofie als voetnoot bij hem",
-      "start_seconds": 351,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Jean Calvijn",
-      "note": "reformator, genoemd als alternatief voor Augustinus",
-      "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "reformator, genoemd als alternatief voor Augustinus",
-      "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "middeleeuws theoloog",
-      "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
-    },
-    {
-      "name": "Diederik Smit",
-      "note": "genoemd bij het vijfjarig jubileum van de podcast",
-      "start_seconds": 486,
-      "wiki_checked": true,
-      "wiki_pageid": 4378488,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diederik_Smit",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Diederik_Smit_van_De_Speld_bij_de_D66_uitslagenavond_Europese_verkiezingen_2014_in_Nijmegen_%2814064326479%29.jpg/250px-Diederik_Smit_van_De_Speld_bij_de_D66_uitslagenavond_Europese_verkiezingen_2014_in_Nijmegen_%2814064326479%29.jpg"
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog",
+      "start_seconds": 2,
+      "mention_count": 3
     },
     {
       "name": "Monica",
-      "note": "moeder van Augustinus, Berberse christin",
-      "start_seconds": 1318,
-      "wiki_checked": true
+      "note": "Moeder van Augustinus, christelijke Berberse vrouw",
+      "start_seconds": 1,
+      "mention_count": 12
+    },
+    {
+      "name": "Ambrosius",
+      "note": "Bisschop van Milaan die Augustinus tot het christendom bracht",
+      "start_seconds": 2350,
+      "mention_count": 10
     },
     {
       "name": "Adeodatus",
-      "note": "zoon van Augustinus en zijn concubine, jong overleden",
-      "start_seconds": 1684,
-      "wiki_checked": true
-    },
-    {
-      "name": "Romanianus",
-      "note": "rijke verre verwant die Augustinus' opleiding financierde",
-      "start_seconds": 1583,
-      "wiki_checked": true
+      "note": "Zoon van Augustinus, overleden op jonge leeftijd",
+      "start_seconds": 1670,
+      "mention_count": 2
     },
     {
       "name": "Possidius",
-      "note": "vriend en biograaf van Augustinus",
-      "start_seconds": 1416,
-      "wiki_checked": true,
-      "wiki_pageid": 5323124,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Possidius_van_Calama"
+      "note": "Biograaf en vriend van Augustinus",
+      "start_seconds": 1420,
+      "mention_count": 3
     },
     {
-      "name": "Paus Zosimus",
-      "note": "bisschop van Rome met wie Augustinus correspondeerde",
-      "start_seconds": 1449,
-      "wiki_checked": true,
-      "wiki_pageid": 194261,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Zosimus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Zosimus.jpg/250px-Zosimus.jpg"
+      "name": "Plato",
+      "note": "Griekse filosoof, de Politeia als vergelijkingspunt",
+      "start_seconds": 3650,
+      "mention_count": 2
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president die bij inauguratie uit Augustinus citeerde",
+      "start_seconds": 1950,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Brown",
+      "note": "Historicus en auteur van beroemde Augustinus-biografie",
+      "start_seconds": 3540,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Auteur van De meeste mensen deugen",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Pelagius",
+      "note": "Theoloog die de vrije wil benadrukte, tegenstander van Augustinus",
+      "start_seconds": 5410,
+      "mention_count": 1
+    },
+    {
+      "name": "Boëthius",
+      "note": "Auteur van De troost van de filosofie, begraven naast Augustinus",
+      "start_seconds": 5150,
+      "mention_count": 2
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe, banaliteit van het kwaad",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Schrijver die over kinderlijk kwaad sprak",
+      "start_seconds": 2130,
+      "mention_count": 1
+    },
+    {
+      "name": "Diocletianus",
+      "note": "Romeinse keizer tijdens de grote christenvervolging",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Thoreau",
+      "note": "Schrijver van Walden, vergelijking met terugtrekking",
+      "start_seconds": 2780,
+      "mention_count": 1
+    },
+    {
+      "name": "Fukuyama",
+      "note": "Auteur van het einde van de geschiedenis",
+      "start_seconds": 3710,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Sosimus",
+      "note": "Bisschop van Rome aan wie Augustinus schreef",
+      "start_seconds": 1230,
+      "mention_count": 1
+    },
+    {
+      "name": "Arie Slob",
+      "note": "CDA-politicus die uit Laudato Si citeerde",
+      "start_seconds": 4850,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "Auteur van encycliek Laudato Si",
+      "start_seconds": 4840,
+      "mention_count": 1
+    },
+    {
+      "name": "Diederik Smit",
+      "note": "Gast bij het vijfjarig jubileum van de podcast",
+      "start_seconds": 500,
+      "mention_count": 1
+    },
+    {
+      "name": "Calvijn",
+      "note": "Reformator, genoemd als alternatief denker",
+      "start_seconds": 330,
+      "mention_count": 1
+    },
+    {
+      "name": "Luther",
+      "note": "Reformator, genoemd als alternatief denker",
+      "start_seconds": 330,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuws theoloog, genoemd als alternatief denker",
+      "start_seconds": 330,
+      "mention_count": 1
+    },
+    {
+      "name": "Cicero",
+      "note": "Romeinse denker, invloed op Augustinus",
+      "start_seconds": 5690,
+      "mention_count": 1
+    },
+    {
+      "name": "Hildegard van Bingen",
+      "note": "Middeleeuwse abdis en denker",
+      "start_seconds": 5500,
+      "mention_count": 1
+    },
+    {
+      "name": "Eusebius",
+      "note": "Kerkhistoricus over het christelijke Rome",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Romanianus",
+      "note": "Rijke verwant die Augustinus financieel steunde",
+      "start_seconds": 1580,
+      "mention_count": 1
+    },
+    {
+      "name": "Alipius",
+      "note": "Vriend van Augustinus, aanwezig bij bekering",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Navigius",
+      "note": "Broer van Augustinus",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Kiril",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk",
+      "start_seconds": 5630,
+      "mention_count": 1
+    },
+    {
+      "name": "Poetin",
+      "note": "Russische president",
+      "start_seconds": 5630,
+      "mention_count": 1
+    },
+    {
+      "name": "Faber",
+      "note": "Potentieel minister, genoemd bij migratiediscussie",
+      "start_seconds": 4550,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel de Waal",
+      "note": "Gast in eerdere aflevering over seksualiteit",
+      "start_seconds": 2190,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Belijdenissen (Confessiones)",
       "author": "Augustinus",
-      "note": "zijn autobiografie, gelezen door David",
-      "start_seconds": 820,
+      "note": "Eerste autobiografie, bekeringsverhaal",
+      "start_seconds": 790,
       "volume_id": "72aKngEACAAJ",
       "canonical_title": "Belijdenissen van Augustinus",
       "canonical_author": "Aurelius Augustinus, Wim Sleddens",
@@ -133,156 +245,252 @@
     {
       "title": "De Stad van God (De civitate Dei)",
       "author": "Augustinus",
-      "note": "22 boeken, over de val van Rome en de rechtvaardige oorlog",
-      "start_seconds": 329,
-      "volume_id": "kzknGQAACAAJ",
-      "canonical_title": "De stad van God",
+      "note": "Reflectie op de val van Rome, leer van de rechtvaardige oorlog",
+      "start_seconds": 1810,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God vertaald en toegankelijk gemaakt door Chris Dijkhuis",
       "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026319952",
-      "isbn10": "9026319959",
-      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
     },
     {
-      "title": "Retractationes",
+      "title": "De strijd van de christen",
       "author": "Augustinus",
-      "note": "Augustinus' herziening van eigen werk",
-      "start_seconds": 1465,
-      "volume_id": "TGGV0gEACAAJ",
-      "canonical_title": "Sancti Aurelii Augustini retractationum libri 2",
+      "note": "Preken over de donatisten en innerlijke strijd",
+      "start_seconds": 3960,
+      "volume_id": "bcmCMwEACAAJ",
+      "canonical_title": "Met zachte hand: Augustinus over dwang in kerk en maatschappij (epistula 185)",
+      "canonical_author": "Paul van Geest, Aurelius Augustinus",
+      "isbn13": "9789460360640",
+      "isbn10": "9460360645",
+      "thumbnail": ""
+    },
+    {
+      "title": "De beata vita",
+      "author": "Augustinus",
+      "note": "Traktaat over het gelukkige leven",
+      "start_seconds": 2260,
+      "volume_id": "4yPJtQEACAAJ",
+      "canonical_title": "Augustinus' De beata vita ingeleid en toegelicht",
+      "canonical_author": "Augustinus, E.B.P. Postma",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De Trinitate",
+      "author": "Augustinus",
+      "note": "Over de drie-eenheid",
+      "start_seconds": 5880,
+      "volume_id": "ijHttAEACAAJ",
+      "canonical_title": "Augustinus De trinitate",
+      "canonical_author": "Saint Augustinus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De doctrina christiana",
+      "author": "Augustinus",
+      "note": "Over Bijbelinterpretatie",
+      "start_seconds": 6080,
+      "volume_id": "I9o1LEqDBTcC",
+      "canonical_title": "De doctrina Christiana, libri qvattvor",
       "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9782503035727",
-      "isbn10": "2503035728",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=I9o1LEqDBTcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Het leven van Antonius",
+      "author": "Athanasius",
+      "note": "Bestseller die monastieke ideaal beïnvloedde",
+      "start_seconds": 2750,
+      "volume_id": "KWC7PAAACAAJ",
+      "canonical_title": "Verleidingen in de woestijn: het leven van de heilige Antonius",
+      "canonical_author": "Athanasius (Alexandrinus), Vincent Jan Christiaan Hunink",
+      "isbn13": "9789025301859",
+      "isbn10": "9025301851",
+      "thumbnail": ""
+    },
+    {
+      "title": "De meeste mensen deugen",
+      "author": "Rutger Bregman",
+      "note": "Kritisch over het Augustijnse mensbeeld",
+      "start_seconds": 5300,
+      "volume_id": "UbbpxgEACAAJ",
+      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
+      "canonical_author": "Rutger Bregman",
+      "isbn13": "9789082942187",
+      "isbn10": "9082942186",
+      "thumbnail": ""
+    },
+    {
+      "title": "De troost van de filosofie",
+      "author": "Boëthius",
+      "note": "Boek waarvan Boëthius' graf naast Augustinus ligt",
+      "start_seconds": 5150,
+      "volume_id": "dIiCtwAACAAJ",
+      "canonical_title": "De consolatione philosophiae",
+      "canonical_author": "Anitius Manlius Torquatus Severinus Boëthius",
+      "isbn13": null,
+      "isbn10": null,
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Romeinen 13",
+      "note": "De tekst die Augustinus in de tuin van Milaan bekeerde",
+      "start_seconds": 2820
+    },
+    {
+      "ref": "Psalm 51",
+      "note": "Boetepsalm die Augustinus op zijn sterfbed liet aanbrengen",
+      "start_seconds": 5000
+    }
+  ],
   "places": [
     "Tagaste",
-    "Algerije",
-    "Tunesië",
     "Carthago",
-    "Rome",
     "Milaan",
     "Hippo",
+    "Rome",
+    "Cassiacum",
+    "Pavia",
     "Noord-Afrika",
-    "Souk Ahras"
+    "Algerije",
+    "Tunesië"
   ],
-  "summary_tldr": "In de 200e aflevering staat Augustinus centraal, met Augustinuskenner Paul van Geest, historicus Beatrice de Graaf en theoloog Stefan Paas. Ze bespreken zijn leven, zijn Belijdenissen, zijn preken en zijn invloed op denken over de wil, tijd, psychologie, politiek en rechtvaardige oorlog. Ook zijn jeugd, zijn moeder Monica, zijn concubine en zijn zelfpresentatie komen aan bod.",
+  "summary_tldr": "In deze jubileumaflevering bespreken David Boogerd, Paul van Geest, Beatrice de Graaf en Stefan Paas het leven en werk van Augustinus van Hippo. Ze behandelen zijn jeugd en carrière, zijn bekering in Milaan, zijn bisschopschap en zijn invloed op politiek, oorlog, psychologie en theologie. Het gesprek eindigt met de vraag wat zijn denken vandaag nog betekent.",
   "summary_points": [
-    "Augustinus is de meest genoemde denker in de podcast en staat op het logo",
-    "Hij leefde van 354 tot 430 en maakte de neergang van het Romeinse Rijk mee",
-    "De Stad van God schreef hij als reactie op de verwijten aan christenen na de plundering van Rome in 410",
-    "Hij bracht als eerste systematisch wil, geheugen en verstand in kaart",
-    "De Belijdenissen zijn nog steeds goed leesbaar en werken met vragen in plaats van antwoorden",
-    "Zijn preken waren levendig, visueel en interactief met het publiek",
-    "Hij kwam uit Noord-Afrika, maar was cultureel door en door Romein",
-    "Zijn jeugd met moeder Monica, de concubine en zoon Adeodatus kleurt zijn zelfbeeld",
-    "De Belijdenissen zijn ook een vorm van zelfpresentatie en marketing"
+    "Augustinus werd in 354 geboren in Tagaste (Noord-Afrika) en klom op tot de elite van het Romeinse Rijk.",
+    "Zijn Belijdenissen gelden als een van de eerste autobiografieën, met nadruk op zelfreflectie en de wil.",
+    "Na een carrièrecrisis in Milaan kwam zijn bekering in 386-387, mede door Ambrosius en zijn moeder Monica.",
+    "Als bisschop van Hippo schreef hij De Stad van God als reactie op de val van Rome in 410.",
+    "Zijn leer van de rechtvaardige oorlog en het onderscheid tussen aardse en hemelse stad beïnvloedt nog steeds het denken over veiligheid.",
+    "De strijd tegen de donatisten laat zien dat hij de strijd vooral in het eigen hart legde.",
+    "Het gesprek verbindt zijn ideeën over deugden, liefde en rechtvaardigheid met hedendaagse politiek.",
+    "Augustinus' mensbeeld rond erfzonde en seksualiteit wordt besproken en genuanceerd.",
+    "De orthodoxe traditie heeft Augustinus nauwelijks overgenomen, wat de westerse leer van de rechtvaardige oorlog verklaart.",
+    "De aflevering eindigt met het idee 'Ordo quia caritas': orde ontstaat uit liefde."
   ],
   "chapters": [
     {
-      "start_seconds": 38,
-      "title": "Inleiding en jubileum",
-      "summary": "David introduceert aflevering 200 en de gasten; er wordt gegrapt over hoe vaak Augustinus in de podcast genoemd wordt."
+      "start_seconds": 0,
+      "title": "Jubileum en inleiding",
+      "summary": "De gasten worden voorgesteld en het grapje over Augustinus' frequente vermelding komt aan bod."
     },
     {
-      "start_seconds": 311,
-      "title": "Waarom Augustinus?",
-      "summary": "Beatrice vertelt hoe ze via rechtvaardige oorlog en veiligheid bij Augustinus uitkwam."
+      "start_seconds": 330,
+      "title": "Waarom Augustinus blijft fascineren",
+      "summary": "Beatrice en Paul leggen uit waarom Augustinus relevant is voor oorlog, veiligheid en de Stad van God."
     },
     {
-      "start_seconds": 525,
-      "title": "Rome in verval",
-      "summary": "De levensdata van Augustinus en de val van Rome in 410 als aanleiding voor De Stad van God."
+      "start_seconds": 790,
+      "title": "Jeugd, familie en opleiding",
+      "summary": "Herkomst uit Noord-Afrika, ouders Monica en Patricius, en zijn briljante opleiding in Carthago."
     },
     {
-      "start_seconds": 644,
-      "title": "Een genie van de wil en het geheugen",
-      "summary": "Paul legt uit waarom Augustinus de grootste denker is: wil, geheugen, verstand en zelfreflectie."
+      "start_seconds": 1800,
+      "title": "Carrière in Milaan en de zoektocht",
+      "summary": "Zijn ambities aan het keizerlijk hof, zijn burn-out en het zoeken naar geluk."
     },
     {
-      "start_seconds": 820,
-      "title": "De Belijdenissen en de preken",
-      "summary": "Over de leesbaarheid van de Belijdenissen, de beeldspraak en de levendige preken."
+      "start_seconds": 2340,
+      "title": "Bekering en doop",
+      "summary": "De invloed van Ambrosius, de tuinscène met Romeinen 13 en de doop in 387."
     },
     {
-      "start_seconds": 1236,
-      "title": "Afkomst en familie",
-      "summary": "Tagaste, Romeinse en Berberse achtergrond, vader Patricius en moeder Monica."
+      "start_seconds": 3000,
+      "title": "Bisschop van Hippo en de val van Rome",
+      "summary": "Zijn werk als bisschop, rechtspraak, preken en het schrijven van De Stad van God."
     },
     {
-      "start_seconds": 1636,
-      "title": "Jeugd, concubine en ambitie",
-      "summary": "Carthago, zoon Adeodatus, de concubine, de manicheeërs en de vraag hoe authentiek de Belijdenissen zijn."
+      "start_seconds": 3600,
+      "title": "Politiek, rechtvaardigheid en de donatisten",
+      "summary": "De staat als roversbende zonder recht, de strijd tegen de donatisten en de lessen voor het hedendaagse beleid."
+    },
+    {
+      "start_seconds": 5000,
+      "title": "Dood, nalatenschap en controverses",
+      "summary": "Zijn sterven in Hippo, het graf in Pavia, erfzonde, seksualiteit en de invloed op de orthodoxie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 251,
-      "speaker": "Paul van Geest",
-      "text": "Veel dingen in het leven staan niet vast, maar wat wel vast staat is dat Augustinus altijd een keer genoemd wordt.",
-      "note": "Humoristische opening over Augustinus in de podcast."
+      "start_seconds": 2820,
+      "speaker": "Stefan Paas",
+      "text": "Hij zat er helemaal doorheen en las Romeinen 13 als een bliksemstraal die het antwoord op al zijn zoeken bracht.",
+      "note": "Het bekeringsmoment wordt als keerpunt in zijn leven beschreven."
     },
     {
-      "start_seconds": 341,
+      "start_seconds": 3720,
       "speaker": "Beatrice de Graaf",
-      "text": "Je kunt wel in Augustinus inchecken, maar je kunt eigenlijk nooit meer uitchecken.",
-      "note": "Treffend beeld van zijn aantrekkingskracht."
+      "text": "Wat is een staat zonder recht en orde? Dat is een roversbende.",
+      "note": "Augustinus' scherpe kritiek op macht zonder rechtvaardigheid is nog steeds actueel."
     },
     {
-      "start_seconds": 944,
+      "start_seconds": 5690,
       "speaker": "Beatrice de Graaf",
-      "text": "Preek over de vis die blij in het aas hapt en van binnen kapotgetrokken wordt.",
-      "note": "Voorbeeld van zijn beeldende taal over tijdelijk geluk."
+      "text": "De Russisch-Orthodoxe Kerk heeft geen leer van de rechtvaardige oorlog, dus als Poetin iets zegt, moet Kiril dat overnemen.",
+      "note": "Een verrassende verbinding tussen Augustinus' nalatenschap en de huidige oorlog."
     },
     {
-      "start_seconds": 1990,
-      "speaker": "Beatrice de Graaf",
-      "text": "Augustinus is een ontzettend gelaagde persoon die altijd op meerdere borden tegelijk schaakt.",
-      "note": "Nuanceert het beeld van de Belijdenissen als puur authentiek."
+      "start_seconds": 6090,
+      "speaker": "Stefan Paas",
+      "text": "Een volk is een genootschap van mensen die verenigd worden door de dingen die ze liefhebben.",
+      "note": "Augustinus' definitie van een volk wordt als actueel voor de migratiediscussie gezien."
     },
     {
-      "start_seconds": 1840,
-      "speaker": "Paul van Geest",
-      "text": "Het is echt heel leesbaar; hij denkt in de Belijdenissen in vragen.",
-      "note": "Verklaart waarom de tekst tijdloos blijft."
+      "start_seconds": 6200,
+      "speaker": "Stefan Paas",
+      "text": "Laat heb ik u lief gekregen, o schoonheid zo oud en zo nieuw.",
+      "note": "Een ontroerend citaat over de liefde als drijfveer van het zoeken naar God."
     }
   ],
   "keywords": [
     "Augustinus",
     "Belijdenissen",
-    "De Stad van God",
-    "rechtvaardige oorlog",
-    "vrije wil",
-    "Monica",
-    "Romeinse Rijk",
-    "zelfreflectie",
-    "preken",
-    "manicheïsme",
-    "Adeodatus",
-    "autobiografie"
+    "Stad van God",
+    "Rechtvaardige oorlog",
+    "Bekering",
+    "Ambrosius",
+    "Donatisten",
+    "Erfzonde",
+    "Liefde",
+    "Tranquillitas ordinata",
+    "Hippo",
+    "Monica"
   ],
-  "quotes": [],
+  "quotes": [
+    "Laat heb ik u lief gekregen, o schoonheid zo oud en zo nieuw.",
+    "Wat is een staat zonder recht en orde? Dat is een roversbende.",
+    "Ordo quia caritas. Er is orde omdat er liefde is."
+  ],
   "similar": [
     {
-      "n": 250,
-      "reason": "Debat over Augustinus met Paul van Geest; filosofie, kerk en geschiedenis"
+      "n": 92,
+      "reason": "Europese waardenoorsprong via christendom en geschiedenis, met Beatrice de Graaf"
     },
     {
-      "n": 238,
-      "reason": "Thomas van Aquino, God, geluk en filosofie; ook in Augustinus-aflevering genoemd"
+      "n": 22,
+      "reason": "Tom Holland over hoe het christendom het Westen vormde, historisch en theologisch"
     },
     {
-      "n": 173,
-      "reason": "Beatrice de Graaf, Rik Peels en Stefan Paas over vrede; verwant aan rechtvaardige oorlog"
+      "n": 50,
+      "reason": "Christendom en het einde van de Europese traditie, filosofisch-historisch perspectief"
     },
     {
-      "n": 121,
-      "reason": "Paul van Geest over kerkgeschiedenis en theologie met Stefan Paas"
+      "n": 122,
+      "reason": "Nietzsche over God en filosofie, met Denker des Vaderlands Paul van Tongeren"
     },
     {
-      "n": 132,
-      "reason": "Erasmus als grote denker uit kerkgeschiedenis; filosofie, God en politiek"
+      "n": 18,
+      "reason": "Historische Jezus en bronnen, aansluitend bij het Bijbel- en geschiedenisthema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

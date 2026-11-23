@@ -1,16 +1,21 @@
 {
   "episode": 180,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101060,
+    "segments": 829,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30456,
-    "output_tokens": 2612,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50578,
+    "output_tokens": 7225,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Economie & geld",
     "Politiek",
+    "Economie & geld",
     "Geopolitiek & oorlog",
     "Filosofie & ethiek"
   ],
@@ -21,166 +26,178 @@
   "people": [
     {
       "name": "Dries van Agt",
-      "note": "oud-premier, onlangs overleden; herinnerd om zijn taalgebruik en humor",
+      "note": "Oud-premier, overleden kort na de opname",
       "start_seconds": 142,
-      "wiki_checked": true,
-      "wiki_pageid": 10739,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dries_van_Agt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Dries_van_Agt_%281980%29.jpg/250px-Dries_van_Agt_%281980%29.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Loes Ypma",
-      "note": "voormalig D66-leider, vorige week te gast; sprak over normen en waarden",
-      "start_seconds": 412,
-      "wiki_checked": true,
-      "wiki_pageid": 2969105,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Loes_Ypma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Loes_Ypma_-_TK2021_%2851015441671%29.jpg/250px-Loes_Ypma_-_TK2021_%2851015441671%29.jpg"
+      "name": "Wim Kan",
+      "note": "Cabaretier; bekend om de uitspraak over buigen voor links en rechts",
+      "start_seconds": 206,
+      "mention_count": 1
+    },
+    {
+      "name": "Lousewies van der Laan",
+      "note": "Oud-leider van D66, besproken vanwege normen en waarden",
+      "start_seconds": 402,
+      "mention_count": 3
     },
     {
       "name": "Pim Fortuyn",
-      "note": "populistisch politicus (LPF), auteur van De verweesde samenleving",
-      "start_seconds": 1034,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "note": "Politicus, eerste populistische oprisping in 2002 volgens het gesprek",
+      "start_seconds": 1035,
+      "mention_count": 3
     },
     {
       "name": "Geert Wilders",
-      "note": "grootste partij bij de Tweede Kamerverkiezingen",
+      "note": "Politicus, grootste partij bij de Tweede Kamerverkiezingen",
       "start_seconds": 933,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "vertelde zijn verhaal in interview met Tucker Carlson",
-      "start_seconds": 1785,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Paul Polman",
+      "note": "Oud-CEO van Unilever, voorbeeld van nieuwe generatie CEO's",
+      "start_seconds": 826,
+      "mention_count": 1
     },
     {
-      "name": "Tucker Carlson",
-      "note": "Amerikaanse presentator die Poetin interviewde",
-      "start_seconds": 1788,
-      "wiki_checked": true,
-      "wiki_pageid": 5129125,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tucker_Carlson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg/250px-Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Geert Noels",
-      "note": "Belgische econoom, auteur van Gigantisme",
-      "start_seconds": 1521,
-      "wiki_checked": true,
-      "wiki_pageid": 2745882,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Noels",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Econopolis_-_3005-155_%28cropped%29.jpg/250px-Econopolis_-_3005-155_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bartolomé de las Casas",
-      "note": "priester die pleitte voor de menselijkheid van indianen, begin van de mensenrechtentraditie",
-      "start_seconds": 2220,
-      "wiki_checked": true,
-      "wiki_pageid": 21456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bartolom%C3%A9_de_las_Casas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Fray_Bartolom%C3%A9_de_las_Casas.jpg/250px-Fray_Bartolom%C3%A9_de_las_Casas.jpg"
-    },
-    {
-      "name": "Jacques Delors",
-      "note": "voorzitter Europese Commissie, riep op tot een ziel voor Europa",
-      "start_seconds": 2127,
-      "wiki_checked": true,
-      "wiki_pageid": 108490,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacques_Delors",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Jacques_Delors_in_1993.jpg/250px-Jacques_Delors_in_1993.jpg"
-    },
-    {
-      "name": "David Livingstone",
-      "note": "zendeling, voorbeeld van handel, beschaving en christendom",
-      "start_seconds": 2166,
-      "wiki_checked": true,
-      "wiki_pageid": 39438,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Livingstone",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/David_Livingstone_by_Thomas_Annan.jpg/250px-David_Livingstone_by_Thomas_Annan.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "noemde imperia een roversbende",
-      "start_seconds": 1852,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Jan Pieterszoon Coen",
-      "note": "onderwerp van kolonisatiediscussie",
-      "start_seconds": 1842,
-      "wiki_checked": true,
-      "wiki_pageid": 43906,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg/250px-Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
-    },
-    {
-      "name": "Franciscus van Assisi",
-      "note": "voorbeeld van aandacht voor de natuur in de Europese traditie",
-      "start_seconds": 1911,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
-    },
-    {
-      "name": "Hildegard van Bingen",
-      "note": "voorbeeld van aandacht voor de natuur in de Europese traditie",
-      "start_seconds": 1911,
-      "wiki_checked": true,
-      "wiki_pageid": 150619,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hildegard_van_Bingen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hildegard_von_Bingen._Line_engraving_by_W._Marshall_%283x4_cropped%29.jpg/250px-Hildegard_von_Bingen._Line_engraving_by_W._Marshall_%283x4_cropped%29.jpg"
+      "name": "Paul Schendeling",
+      "note": "Econoom, eerder te gast in de podcast",
+      "start_seconds": 692,
+      "mention_count": 1
     },
     {
       "name": "Rudy Verburg",
-      "note": "medewerker aan project over biografieën van economen",
-      "start_seconds": 858,
-      "wiki_checked": true
+      "note": "Onderzoeker die biografieën van economen schrijft",
+      "start_seconds": 855,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Noels",
+      "note": "Belgische econoom, schreef over gigantisme van grote bedrijven",
+      "start_seconds": 1521,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; zijn verhaal over Rusland wordt besproken",
+      "start_seconds": 1783,
+      "mention_count": 4
+    },
+    {
+      "name": "Tucker Carlson",
+      "note": "Amerikaanse presentator die een interview met Poetin uitzond",
+      "start_seconds": 1788,
+      "mention_count": 2
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese leider, genoemd als autocratisch voorbeeld",
+      "start_seconds": 2313,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, genoemd bij de verkiezingen en het Amerikaanse verhaal",
+      "start_seconds": 3267,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Fukuyama",
+      "note": "Politiek filosoof, schreef The End of History en Trust",
+      "start_seconds": 2407,
+      "mention_count": 3
+    },
+    {
+      "name": "Jan Pieterszoon Coen",
+      "note": "Gouverneur-generaal van de VOC, besproken vanwege koloniaal verleden",
+      "start_seconds": 1839,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader die imperia vergeleek met roversbenden",
+      "start_seconds": 1845,
+      "mention_count": 1
+    },
+    {
+      "name": "Bartolomé de las Casas",
+      "note": "Spaanse priester die in 1525 de menselijkheid van inheemsen verdedigde",
+      "start_seconds": 2220,
+      "mention_count": 2
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Verlichtingsfilosoof, genoemd in verband met mensenrechten",
+      "start_seconds": 2244,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacques Delors",
+      "note": "Voormalig voorzitter van de Europese Commissie, pleitte voor een ziel van Europa",
+      "start_seconds": 2125,
+      "mention_count": 2
     },
     {
       "name": "Angela Merkel",
-      "note": "sprak over de ziel van Europa",
+      "note": "Oud-bondskanselier van Duitsland, sprak over de ziel van Europa",
       "start_seconds": 2119,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "Schrijver en activiste, verwoordde het westerse verhaal als christendom",
+      "start_seconds": 2536,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "note": "Oprichter van Meta/Facebook, riep in Brussel om regulering",
+      "start_seconds": 3108,
+      "mention_count": 1
+    },
+    {
+      "name": "David Livingstone",
+      "note": "Missionaris en ontdekkingsreiziger, voorbeeld van 'christendom, beschaving en handel'",
+      "start_seconds": 2163,
+      "mention_count": 1
+    },
+    {
+      "name": "Shmuel Eisenstadt",
+      "note": "Socioloog, bedenker van multiple modernities",
+      "start_seconds": 2671,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "Filosoof, schreef A Secular Age",
+      "start_seconds": 2847,
+      "mention_count": 1
+    },
+    {
+      "name": "Al Gore",
+      "note": "Amerikaans politicus, film An Inconvenient Truth",
+      "start_seconds": 3501,
+      "mention_count": 1
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "Heilige, voorbeeld van verdrongen ecologische waarden",
+      "start_seconds": 1911,
+      "mention_count": 1
+    },
+    {
+      "name": "Hildegard van Bingen",
+      "note": "Middeleeuwse mystica en natuurdenker",
+      "start_seconds": 1911,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Capitalism Reconnected",
       "author": "Jan Peter Balkenende en Govert Buijs",
-      "note": "centraal boek over een nieuw verhaal voor economie en Europa",
+      "note": "Het boek waar het gesprek over gaat; zoekt naar een nieuw groot verhaal voor economie en Europa",
       "start_seconds": 56,
       "volume_id": "1MBE0AEACAAJ",
       "canonical_title": "Capitalism Reconnected: Toward a Sustainable, Inclusive and Innovative Market Economy in Europe",
@@ -190,159 +207,206 @@
       "thumbnail": ""
     },
     {
-      "title": "De verweesde samenleving",
+      "title": "De Verwezen Samenleving",
       "author": "Pim Fortuyn",
-      "note": "besproken als analytisch boek",
-      "start_seconds": 1049,
-      "volume_id": "_w5Nn0ql7cQC",
-      "canonical_title": "De verweesde samenleving",
+      "note": "Analyse die Buijs als interessant maar niet fundamenteel slecht beschouwt",
+      "start_seconds": 1040,
+      "volume_id": "BnHrAQAACAAJ",
+      "canonical_title": "De verweesde samenleving: een religieus-sociologisch traktaat",
       "canonical_author": "Pim Fortuyn",
-      "isbn13": "9789045203171",
-      "isbn10": "9045203170",
-      "thumbnail": "http://books.google.com/books/content?id=_w5Nn0ql7cQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789061129318",
+      "isbn10": "9061129311",
+      "thumbnail": ""
     },
     {
       "title": "Gigantisme",
       "author": "Geert Noels",
-      "note": "over de macht van grote bedrijven",
+      "note": "Beschrijft hoe grote spelers macht concentreren en scheefgroei veroorzaken",
       "start_seconds": 1521,
-      "volume_id": "Jq2LDwAAQBAJ",
-      "canonical_title": "Gigantisme: Van too big to fail naar trager, kleiner en menselijker",
+      "volume_id": "kzKhzgEACAAJ",
+      "canonical_title": "Gigantisme. Van woekerkapitalisme naar economie op mensenmaat",
       "canonical_author": "Geert Noels",
-      "isbn13": "9789401462037",
-      "isbn10": "9401462038",
-      "thumbnail": "http://books.google.com/books/content?id=Jq2LDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789077445389",
+      "isbn10": "9077445382",
+      "thumbnail": ""
+    },
+    {
+      "title": "Trust",
+      "author": "Frans Fukuyama",
+      "note": "Boek over vertrouwen uit 1995, verbonden met het belang van samenwerking",
+      "start_seconds": 2951
+    },
+    {
+      "title": "The End of History",
+      "author": "Frans Fukuyama",
+      "note": "Paper uit 1989 over de overwinning van de liberale democratie",
+      "start_seconds": 2407
+    },
+    {
+      "title": "Laudato si",
+      "author": "Paus Franciscus",
+      "note": "Encycliek over het gemeenschappelijk huis en de zorg voor de schepping",
+      "start_seconds": 1698,
+      "volume_id": "AA0OkAEACAAJ",
+      "canonical_title": "Laudato si': encycliek van Paus Franciscus over de zorg voor het gemeenschappelijke huis",
+      "canonical_author": "Franciscus (Paus)",
+      "isbn13": "9789492093202",
+      "isbn10": "9492093200",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Brussels Effect",
+      "author": "Anu Bradford",
+      "note": "Boek over hoe Europese regelgeving wereldwijd standaarden zet",
+      "start_seconds": 3157,
+      "volume_id": "HMXLDwAAQBAJ",
+      "canonical_title": "The Brussels Effect: How the European Union Rules the World",
+      "canonical_author": "Anu Bradford",
+      "isbn13": "9780190088606",
+      "isbn10": "0190088605",
+      "thumbnail": "http://books.google.com/books/content?id=HMXLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Den Haag",
-    "Europa",
+    "Utrecht",
+    "Amsterdam",
+    "Rotterdam",
+    "Parijs",
+    "Londen",
+    "Brussel",
     "Oekraïne",
     "Rusland",
     "China",
     "Verenigde Staten",
     "Midden-Oosten",
-    "Londen",
-    "Parijs",
     "Afrika"
   ],
-  "summary_tldr": "Oud-premier Jan Peter Balkenende en filosoof Govert Buijs bespreken hun boek Capitalism Reconnected, waarin zij een nieuw verhaal zoeken voor een eerlijkere economie en voor Europa. Ze bespreken ongelijkheid, wantrouwen, geopolitiek en vier Europese kernwaarden. Het gesprek gaat ook over het donkere en lichte Europese verhaal en de terugkeer van waarden.",
+  "summary_tldr": "Oud-premier Jan Peter Balkenende en filosoof Govert Buijs presenteren hun boek Capitalism Reconnected, waarin zij betogen dat het kapitalisme uit de hand is gelopen en dat Europa een nieuw, waardengedreven verhaal nodig heeft. Het gesprek gaat over ongelijkheid, wantrouwen tegen elites, geopolitieke verschuivingen en de rol van christelijke en humanistische tradities. Stefan Paas stelt kritische vragen over de haalbaarheid van zo'n verhaal in een geseculariseerd en verdeeld Europa.",
   "summary_points": [
-    "Balkenende doet zelden interviews maar maakt een uitzondering voor het boek.",
-    "Waarden en normen komen terug in het publieke debat.",
-    "Economieonderwijs is nog sterk neoklassiek; ethiek en maatschappij krijgen te weinig aandacht.",
-    "De netelige driehoek: vernieuwing van de economie, de bevolking meenemen en geopolitiek.",
-    "Ongelijkheid en macht van big tech voeden wantrouwen in overheid en elite.",
-    "Populisten benoemen problemen maar bieden weinig hoopvol perspectief.",
-    "Staat, markt en civil society zijn alle drie nodig.",
-    "Europa heeft een nieuw verhaal nodig met vier waarden: menselijke waardigheid, inclusiviteit, regeneratief en co-creatief.",
-    "Het Europese verhaal kent een donkere kant (kolonialisme) en een kant van interne kritiek en mensenrechten."
+    "Het kapitalisme is volgens de auteurs uit de hand gelopen en vraagt om een eerlijker en humaner economisch model",
+    "Economie wordt te veel als wiskunde behandeld; de vraag naar het goede leven ontbreekt",
+    "Ongelijkheid en gevoelens van uitsluiting voeden maatschappelijk onbehagen en wantrouwen tegen overheid en bedrijfsleven",
+    "Het boek pleit voor een samenspel van staat, markt en middenveld, verbonden door een gemeenschappelijke agenda",
+    "De SDG's van de VN worden gezien als hoopvol perspectief voor de mondiale samenleving",
+    "Geopolitiek verschuift: Rusland, China en de BRICS-landen dagen de westerse orde uit, wat de Oekraïne-oorlog versnelde",
+    "Europa wordt gezien als een gelaagd verhaal met zowel donkere (kolonialisme) als verlichte (mensenrechten, democratie) kanten",
+    "Balkenende en Buijs zien christelijke sociale leer en joods-christelijke moraal als bronnen die ook in een geseculariseerd Europa doorwerken",
+    "Hoop wordt onderscheiden van optimisme: eerlijk erkennen van problemen maar met een perspectief",
+    "Langetermijndenken wordt bemoeilijkt door korte verkiezingscycli en zwevende kiezers",
+    "Consumenten kunnen via hun keuzes en het aanspreken van instanties druk uitoefenen"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en afscheid van Dries van Agt",
-      "summary": "David introduceert de gasten en ze herinneren Dries van Agt."
+      "title": "Terugblik op Dries van Agt en normen en waarden",
+      "summary": "De gesprekspartners herdenken Dries van Agt en blikken terug op het thema normen en waarden, dat volgens hen aan betekenis wint."
     },
     {
-      "start_seconds": 241,
-      "title": "Waarom nu een boek",
-      "summary": "Balkenende legt uit waarom hij zich lang stil hield en waarom hij nu spreekt."
+      "start_seconds": 296,
+      "title": "Waarom nu weer het woord nemen?",
+      "summary": "Balkenende verklaart zijn terughoudendheid na zijn premierschap en waarom het boek nu past bij een onzekere tijd."
     },
     {
-      "start_seconds": 442,
-      "title": "Terugkeer van normen en waarden",
-      "summary": "Reflectie op het gelach van destijds en de huidige aandacht voor waarden."
+      "start_seconds": 480,
+      "title": "Het ontstaan van het boek",
+      "summary": "Buijs vertelt hoe een conferentie met economiestudenten en een toespraak van Balkenende leidde tot het boek en een consultatieronde."
     },
     {
-      "start_seconds": 511,
-      "title": "Het ontstaan van het boek en de economie",
-      "summary": "Govert vertelt over het idee en over economieonderwijs en ethiek."
+      "start_seconds": 700,
+      "title": "Economie, waarden en het falende verhaal",
+      "summary": "Het gesprek gaat over neoclassieke economie, de financiële crisis, ongelijkheid en de rol van grote bedrijven en wantrouwen in de overheid."
     },
     {
-      "start_seconds": 905,
-      "title": "Populisme en de thorny triangle",
-      "summary": "Over verkiezingen, populisme, langetermijndenken en de doornige driehoek."
+      "start_seconds": 1500,
+      "title": "Populisme, geopolitiek en de Europese droom",
+      "summary": "De auteurs bespreken Fortuyn, Wilders, de verschuiving van wereldmacht en de noodzaak van een Europees verhaal met waarden zoals menselijke waardigheid en inclusiviteit."
     },
     {
-      "start_seconds": 1410,
-      "title": "Wantrouwen, big tech en geopolitiek",
-      "summary": "Macht van grote bedrijven, Rusland, BRICS en een wereld die uiteenvalt."
+      "start_seconds": 2100,
+      "title": "Europa's gelaagde geschiedenis en christelijke wortels",
+      "summary": "Paas en de gasten discussiëren over kolonialisme, mensenrechten, de rol van de kerk en of een geseculariseerd Europa nog een gedeeld verhaal kan dragen."
     },
     {
-      "start_seconds": 1770,
-      "title": "Een nieuw verhaal voor Europa",
-      "summary": "De vier waarden en het donkere en lichte Europese verhaal."
+      "start_seconds": 3150,
+      "title": "Federaal Europa, leger en praktische stappen",
+      "summary": "Het gesprek eindigt met de vraag naar de toekomst van Europa, het Brussels effect en wat burgers zelf kunnen doen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1034,
-      "speaker": "Govert Buijs",
-      "text": "Het boek van Pim Fortuyn was geen slecht boek.",
-      "note": "Genuanceerd oordeel over een populist."
-    },
-    {
-      "start_seconds": 990,
-      "speaker": "Govert Buijs",
-      "text": "Optimisme is makkelijk; hoop is eerlijker, want je weet dat het niet makkelijk is.",
-      "note": "Kernonderscheid in het boek."
-    },
-    {
-      "start_seconds": 1785,
+      "start_seconds": 1790,
       "speaker": "Jan Peter Balkenende",
-      "text": "Je kunt niet zonder verhaal; als je het niet expliciteert, krijg je een ander verhaal.",
-      "note": "Kern van het betoog, met Poetin als voorbeeld."
-    },
-    {
-      "start_seconds": 1649,
-      "speaker": "Govert Buijs",
-      "text": "Onze economie lijkt een patiënt aan het infuus: Arabische olie, Chinese artikelen, Russisch gas.",
-      "note": "Beeldende duiding van afhankelijkheid."
+      "text": "Je kunt niet zonder verhaal. Als je het niet expliciteert, krijg je een ander verhaal, bij wijze van spreken.",
+      "note": "Hij stelt dat Poetin een krachtig verhaal heeft en dat Europa zijn eigen verhaal moet formuleren."
     },
     {
       "start_seconds": 2220,
       "speaker": "Jan Peter Balkenende",
-      "text": "Het begin van onze mensenrechtentraditie is voor een belangrijk deel Bartolomé de las Casas.",
-      "note": "Verbindt Europese mensenrechten met koloniale geschiedenis."
+      "text": "Het begin van onze mensenrechtentraditie is voor een belangrijk deel Bartolomé de las Casas in 1525.",
+      "note": "Een onverwachte historische verbinding tussen Europa's koloniale verleden en het mensenrechtendenken."
+    },
+    {
+      "start_seconds": 2950,
+      "speaker": "Stefan Paas",
+      "text": "Het is een gelaagder verhaal, en een moeilijker verhaal dan Poetin kan vertellen, want Rusland heeft geen zwarte pagina's, min of meer.",
+      "note": "Paas plaatst Europa's verhaal tegenover de eenzijdigheid van autocraten en benadrukt de morele complexiteit."
+    },
+    {
+      "start_seconds": 3108,
+      "speaker": "Jan Peter Balkenende",
+      "text": "De kassabon is een stembiljet.",
+      "note": "Een scherpe en toegankelijke manier om consumentengedrag als politieke keuze te zien."
+    },
+    {
+      "start_seconds": 2480,
+      "speaker": "Govert Buijs",
+      "text": "Geloven doe je maar op zondag en dat soort zaken.",
+      "note": "Hij constateert dat waarden in organisaties weer terugkeren, ook al werden ze lang als privé gezien."
     }
   ],
   "keywords": [
-    "Capitalism Reconnected",
     "kapitalisme",
-    "Europa",
+    "Europese identiteit",
     "waarden",
-    "narratief",
-    "ongelijkheid",
-    "populisme",
-    "Sustainable Development Goals",
-    "thorny triangle",
-    "big tech",
+    "verantwoordelijkheid",
+    "middenveld",
+    "SDG's",
     "geopolitiek",
-    "menselijke waardigheid"
+    "populisme",
+    "christelijke sociale leer",
+    "Brussels effect",
+    "hoop",
+    "goede leven"
   ],
-  "quotes": [],
+  "quotes": [
+    "Kapitalisme is uit de hand gelopen",
+    "wat ís nou ons verhaal?",
+    "een bezield verhaal voor Europa"
+  ],
   "similar": [
     {
       "n": 268,
-      "reason": "Paul Schenderling over Europa, economie en waarden; 'Europa heeft zijn ziel verkocht'."
+      "reason": "Europa, economie en waarden; Paul Schenderling over het verlies van Europa's ziel"
+    },
+    {
+      "n": 192,
+      "reason": "Europese identiteit, cultuurchristendom en geopolitieke uitdagingen voor Europa"
     },
     {
       "n": 285,
-      "reason": "Ad Verbrugge over crisis van het Westen, economie en een nieuw verhaal."
-    },
-    {
-      "n": 286,
-      "reason": "Europa, economie en politiek; Schenderling over Europa zonder de VS."
+      "reason": "Crisis van het Westen, filosofie en economie, sterk overlappende thema's"
     },
     {
       "n": 174,
-      "reason": "Schenderling over economische en culturele strijd achter onvrede in de samenleving."
+      "reason": "Economische onvrede en politieke verschuivingen, met Paul Schenderling als gast"
     },
     {
-      "n": 126,
-      "reason": "Sander Schimmelpenninck over kloof, moraal en grote verhalen in de economie."
+      "n": 179,
+      "reason": "Politiek en Europese partijpolitiek, gedeelde besproken persoon Lousewies van der Laan"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

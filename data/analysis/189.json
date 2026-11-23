@@ -1,280 +1,436 @@
 {
   "episode": 189,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 135460,
+    "segments": 1455,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31592,
-    "output_tokens": 2955,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 70697,
+    "output_tokens": 12044,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Filosofie & ethiek",
     "Wetenschap & kosmos",
-    "Kerk & secularisatie"
+    "Filosofie & ethiek",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Emanuel Rutten"
   ],
   "people": [
     {
-      "name": "Emanuel Rutten",
-      "note": "filosoof aan de Vrije Universiteit Amsterdam, auteur van 'Datgene waarboven niets groters gedacht kan worden'",
-      "start_seconds": 37,
-      "wiki_checked": true
+      "name": "Immanuel Kant",
+      "note": "filosoof; bekritiseerde het ontologische godsargument en stelde dat bestaan geen eigenschap is",
+      "start_seconds": 397,
+      "mention_count": 4
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "filosoof; ontwikkelde het idee dat het onvolmaakte deel uitmaakt van Gods natuur",
+      "start_seconds": 392,
+      "mention_count": 2
+    },
+    {
+      "name": "Aristoteles",
+      "note": "oudgriekse filosoof, genoemd als voorbeeld van filosofen die naar het absolute zochten",
+      "start_seconds": 398,
+      "mention_count": 1
+    },
+    {
+      "name": "Plato",
+      "note": "oudgriekse filosoof; zijn ideeënleer krijgt volgens Rutten gelijk",
+      "start_seconds": 398,
+      "mention_count": 3
+    },
+    {
+      "name": "Bertrand Russell",
+      "note": "filosoof, genoemd als vertegenwoordiger van het midden-20e-eeuwse atheïsme",
+      "start_seconds": 855,
+      "mention_count": 1
+    },
+    {
+      "name": "Alfred Ayer",
+      "note": "filosoof, genoemd naast Russell als vertegenwoordiger van het midden-20e-eeuwse atheïsme",
+      "start_seconds": 855,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Dennett",
+      "note": "filosoof, een serieuze figuur binnen het nieuwe atheïsme",
+      "start_seconds": 712,
+      "mention_count": 2
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "bioloog en auteur van The God Delusion; vertegenwoordiger van het nieuwe atheïsme",
+      "start_seconds": 712,
+      "mention_count": 3
+    },
+    {
+      "name": "Christopher Hitchens",
+      "note": "auteur, een van de Four Horsemen van het nieuwe atheïsme",
+      "start_seconds": 722,
+      "mention_count": 1
+    },
+    {
+      "name": "Sam Harris",
+      "note": "auteur, een van de Four Horsemen van het nieuwe atheïsme",
+      "start_seconds": 725,
+      "mention_count": 1
+    },
+    {
+      "name": "Alvin Plantinga",
+      "note": "Amerikaans godsdienstfilosoof; mede-herlever van de godsdienstfilosofie vanaf de jaren 60-70",
+      "start_seconds": 911,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicholas Wolterstorff",
+      "note": "Amerikaans godsdienstfilosoof; mede-herlever van de godsdienstfilosofie",
+      "start_seconds": 911,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Cruijff",
+      "note": "voetballer; door Paas als metafoor gebruikt voor de herleving van de godsdienstfilosofie",
+      "start_seconds": 911,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Neeskens",
+      "note": "voetballer; door Paas als metafoor gebruikt voor de herleving van de godsdienstfilosofie",
+      "start_seconds": 911,
+      "mention_count": 1
+    },
+    {
+      "name": "Frenkie de Jong",
+      "note": "voetballer; door David Boogerd als metafoor voor Rutten gebruikt",
+      "start_seconds": 994,
+      "mention_count": 1
     },
     {
       "name": "Alexander Pruss",
       "note": "Amerikaans filosoof die nieuwe godsargumenten ontwikkelde",
-      "start_seconds": 644,
-      "wiki_checked": true
+      "start_seconds": 664,
+      "mention_count": 1
     },
     {
       "name": "Joshua Rasmussen",
-      "note": "Amerikaans filosoof, nieuwe godsargumenten",
-      "start_seconds": 644,
-      "wiki_checked": true
+      "note": "Amerikaans filosoof die nieuwe godsargumenten ontwikkelde",
+      "start_seconds": 664,
+      "mention_count": 1
     },
     {
-      "name": "Daniel Dennett",
-      "note": "filosoof en een van de Four Horsemen van het nieuwe atheïsme",
-      "start_seconds": 722,
-      "wiki_checked": true
+      "name": "Bernardo Kastrup",
+      "note": "filosoof en voorstander van idealisme; eerder te gast in de podcast",
+      "start_seconds": 1076,
+      "mention_count": 1
     },
     {
-      "name": "Richard Dawkins",
-      "note": "nieuwe atheïst",
-      "start_seconds": 722,
-      "wiki_checked": true
+      "name": "Rosanne Hertzberger",
+      "note": "wetenschapper; eerder te gast in de podcast",
+      "start_seconds": 1076,
+      "mention_count": 1
     },
     {
-      "name": "Christopher Hitchens",
-      "note": "nieuwe atheïst",
-      "start_seconds": 722,
-      "wiki_checked": true
+      "name": "Jacob Barandes",
+      "note": "natuurkundige/filosoof die vergelijkbare ontwikkelingen in de fysica beschrijft",
+      "start_seconds": 1076,
+      "mention_count": 1
     },
     {
-      "name": "Sam Harris",
-      "note": "nieuwe atheïst",
-      "start_seconds": 725,
-      "wiki_checked": true
+      "name": "Ard Louis",
+      "note": "Oxford-wetenschapper die vergelijkbare ontwikkelingen in de fysica beschrijft",
+      "start_seconds": 1076,
+      "mention_count": 1
     },
     {
-      "name": "Alvin Plantinga",
-      "note": "Amerikaans godsdienstfilosoof die de herleving inluidde",
-      "start_seconds": 922,
-      "wiki_checked": true
+      "name": "Wouter van Noort",
+      "note": "wetenschapsjournalist; eerder te gast in de podcast",
+      "start_seconds": 1495,
+      "mention_count": 1
     },
     {
-      "name": "Nicholas Wolterstorff",
-      "note": "godsdienstfilosoof",
-      "start_seconds": 922,
-      "wiki_checked": true
+      "name": "Roger Penrose",
+      "note": "Nobelprijswinnende natuurkundige die volgens David Boogerd anders is gaan denken over deze thema's",
+      "start_seconds": 1500,
+      "mention_count": 2
     },
     {
       "name": "Dick Swaab",
       "note": "hersenwetenschapper die stelt dat wij ons brein zijn",
       "start_seconds": 1358,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
-      "name": "Roger Penrose",
-      "note": "Nobelprijswinnaar natuurkunde, staat open voor bewustzijn in de fysica",
-      "start_seconds": 1505,
-      "wiki_checked": true
+      "name": "Stephen Hawking",
+      "note": "natuurkundige; zocht naar een theorie van alles, verbeeld in de film The Theory of Everything",
+      "start_seconds": 3868,
+      "mention_count": 3
     },
     {
-      "name": "Bertrand Russell",
-      "note": "atheïstisch filosoof midden 20e eeuw",
-      "start_seconds": 871,
-      "wiki_checked": true
+      "name": "Alex Rosenberg",
+      "note": "filosoof die semantisch nihilisme verdedigt en een atheïstische levensbeschouwing probeert op te zetten",
+      "start_seconds": 3817,
+      "mention_count": 2
     },
     {
-      "name": "Alfred Ayer",
-      "note": "atheïstisch filosoof midden 20e eeuw",
-      "start_seconds": 871,
-      "wiki_checked": true
+      "name": "René Descartes",
+      "note": "filosoof; in discussie met Kant over het ontologische godsargument",
+      "start_seconds": 3748,
+      "mention_count": 2
     },
     {
-      "name": "Plato",
-      "note": "Griekse filosoof",
-      "start_seconds": 398,
-      "wiki_checked": true
+      "name": "Anselmus van Canterbury",
+      "note": "middeleeuws theoloog; ontwikkelde het ontologische godsargument",
+      "start_seconds": 3760,
+      "mention_count": 1
     },
     {
-      "name": "Aristoteles",
-      "note": "Griekse filosoof",
-      "start_seconds": 398,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "kerkvader; schreef Confessiones als gebed, eerder genoemd als belangrijke invloed van Rutten",
+      "start_seconds": 2972,
+      "mention_count": 2
     },
     {
-      "name": "Immanuel Kant",
-      "note": "filosoof",
-      "start_seconds": 397,
-      "wiki_checked": true
+      "name": "Blaise Pascal",
+      "note": "filosoof en theoloog; 'de God van de filosofen en die van Abraham, Isaak en Jakob'",
+      "start_seconds": 4403,
+      "mention_count": 1
     },
     {
-      "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "filosoof",
-      "start_seconds": 397,
-      "wiki_checked": true
+      "name": "G.K. Chesterton",
+      "note": "schrijver; Paas citeert zijn gedachte over God en het onvolmaakte",
+      "start_seconds": 4195,
+      "mention_count": 1
     },
     {
-      "name": "Bernardo Kastrup",
-      "note": "eerdere gast, bewustzijnsdenker",
-      "start_seconds": 1076,
-      "wiki_checked": true
+      "name": "Joe Biden",
+      "note": "Amerikaans president; voorbeeld in de uitleg over verwijzingsverzamelingen",
+      "start_seconds": 3278,
+      "mention_count": 1
     },
     {
-      "name": "Rosanne Hertzberger",
-      "note": "eerdere gast",
-      "start_seconds": 1076,
-      "wiki_checked": true
+      "name": "Rik Peels",
+      "note": "filosoof; schreef samen met Stefan Paas het boek God Beweisen",
+      "start_seconds": 4506,
+      "mention_count": 1
     },
     {
-      "name": "Wouter van Noort",
-      "note": "wetenschapsjournalist, eerdere gast",
-      "start_seconds": 1495,
-      "wiki_checked": true
+      "name": "Diederik Smit",
+      "note": "Ongelooflijke-jubileum roast; genoemd door Rutten",
+      "start_seconds": 5455,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Datgene waarboven niets groters gedacht kan worden",
       "author": "Emanuel Rutten",
-      "note": "nieuw boek met meerdere godsargumenten, genomineerd voor de Socratesbeker",
-      "start_seconds": 37,
-      "volume_id": "jpfMEAAAQBAJ",
-      "canonical_title": "Datgene waarboven niets groters gedacht kan worden: Acht nieuwe argumenten voor het bestaan van God",
+      "note": "nieuw boek met acht nieuwe argumenten voor het bestaan van God; genomineerd voor de Socratesbeker",
+      "start_seconds": 2820,
+      "volume_id": "tC1u0AEACAAJ",
+      "canonical_title": "Datgene waarboven niets groters gedacht kan worden",
       "canonical_author": "Emanuel Rutten",
-      "isbn13": "9789043540292",
-      "isbn10": "9043540293",
-      "thumbnail": "http://books.google.com/books/content?id=jpfMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789043540285",
+      "isbn10": "9043540285",
+      "thumbnail": ""
+    },
+    {
+      "title": "God Beweisen",
+      "author": "Stefan Paas en Rik Peels",
+      "note": "eerder boek over godsargumenten, genoemd door Rutten",
+      "start_seconds": 4506
+    },
+    {
+      "title": "Confessiones",
+      "author": "Augustinus",
+      "note": "geschreven als gebed; door Paas gebruikt als voorbeeld van relationele taal over God",
+      "start_seconds": 4636,
+      "volume_id": "7CZ_0QEACAAJ",
+      "canonical_title": "Confessiones",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9781024689181",
+      "isbn10": "1024689182",
+      "thumbnail": "http://books.google.com/books/content?id=7CZ_0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "The God Delusion",
+      "author": "Richard Dawkins",
+      "note": "genoemd als voorbeeld van een boek dat twijfel bij studenten voedde",
+      "start_seconds": 5039,
+      "volume_id": "grccDzrTWLUC",
+      "canonical_title": "The God Delusion",
+      "canonical_author": "Richard Dawkins",
+      "isbn13": "9781409091585",
+      "isbn10": "1409091589",
+      "thumbnail": "http://books.google.com/books/content?id=grccDzrTWLUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Vrije Universiteit Amsterdam",
-    "Oxford",
-    "Amerika"
+  "bible_refs": [
+    {
+      "ref": "Genesis 1:31",
+      "note": "Paas haalt 'God zag dat het goed was' aan in het gesprek over kwaad en het goede",
+      "start_seconds": 4084
+    },
+    {
+      "ref": "Johannes 1:1",
+      "note": "Rutten haalt aan dat God de eerste oorzaak van de werkelijkheid is: 'In den beginne was het Woord'",
+      "start_seconds": 4404
+    },
+    {
+      "ref": "Romeinen 11:36",
+      "note": "Rutten citeert 'alles is door hem, uit hem en tot hem' als bewijs van God als oorsprong",
+      "start_seconds": 4404
+    },
+    {
+      "ref": "Job",
+      "note": "Rutten verwijst naar Job als voorbeeld van een God die alles weet",
+      "start_seconds": 4467
+    }
   ],
-  "summary_tldr": "Filosoof Emanuel Rutten legt uit waarom hij vindt dat de argumenten voor het bestaan van God beter zijn dan ooit, mede door inzichten uit de kwantummechanica en de kosmologie. Hij zet zijn argument vanuit het bewustzijn uiteen: het natuurlijke bewustzijn heeft een begin en dus een oorzaak, die een bovennatuurlijk bewustzijn moet zijn. Daarnaast bespreken ze het verdwijnen van het nieuwe atheïsme en de herleving van de godsdienstfilosofie.",
+  "places": [
+    "Amsterdam",
+    "Utrecht",
+    "Canada",
+    "Oekraïne"
+  ],
+  "summary_tldr": "Emanuel Rutten betoogt dat de godsvraag in de filosofie terugkeert en dat de argumenten voor het bestaan van God sterker zijn dan ooit, mede dankzij inzichten uit de kwantumfysica. Hij presenteert zijn argument vanuit bewustzijn, het fine-tuning-argument en zijn semantische argument, en legt uit waarom hij die drie als sterk ziet. Stefan Paas plaatst kanttekeningen bij de rationele benadering van God en pleit voor een relationele taal van geloof.",
   "summary_points": [
-    "De godsvraag zit volgens Rutten ingebakken in de filosofische zoektocht naar een ultieme grond (arche).",
-    "Het nieuwe atheïsme is academisch verdwenen en maakte plaats voor een meer open houding.",
-    "De godsdienstfilosofie leeft sinds de jaren 60 op, onder invloed van onder anderen Plantinga en Wolterstorff.",
-    "In de kwantummechanica wordt bewustzijn serieuzer genomen, onder meer bij de ineenstorting van de golffunctie.",
-    "Rutten is dualist: geest en materie zijn verschillende dingen die op elkaar inwerken.",
-    "Zijn argument vanuit bewustzijn: gelijkstelling aan het brein en emergentie uit materie vallen af, dus is er een bovennatuurlijke bewuste oorzaak.",
-    "Het universum heeft volgens de gangbare fysica een begin, dus ook het natuurlijke bewustzijn.",
-    "Rutten claimt geen dwingend bewijs maar redelijke argumenten; Paas waarschuwt voor een te triomfantelijke apologetiek.",
-    "Het gesprek gaat verder met de fijnafstemming van het universum."
+    "De godsvraag is volgens Rutten inherent aan het filosofische zoeken naar de ultieme oorsprong (arche).",
+    "Er is volgens Rutten een revival van de metafysica en godsfilosofie sinds de jaren 60, na de populaire golf van het nieuwe atheïsme.",
+    "Paas vergelijkt de herleving van de godsfilosofie met de opkomst van het Nederlands elftal in 1974.",
+    "Rutten stelt dat bewustzijn in de kwantummechanica serieuzer wordt genomen dan in het materialistische wereldbeeld.",
+    "Zijn argument vanuit bewustzijn: natuurlijk bewustzijn heeft een begin, dus heeft het een bovennatuurlijke oorzaak; emergentie en identiteit vallen volgens hem af.",
+    "Het fine-tuning-argument: kleine afwijkingen in natuurconstanten zouden leven onmogelijk maken, en toeval is volgens Rutten irrationeel.",
+    "Het semantische argument: uit de analyse van verwijzingsverzamelingen volgt dat er geen universele eigenschappen zijn, wat materialisme en idealisme weerlegt.",
+    "Rutten zegt dat zijn argumenten leiden tot een God die het hoogste goed is, en dat er in God iets transgressiefs zit, met verwijzing naar Hegel.",
+    "Paas stelt dat God niet als onderwerp van analyse benaderd kan worden, omdat God altijd de eerste is en wij in God zijn.",
+    "Rutten ziet geen spanning tussen het bijbelse en het filosofische spreken over God; beide vullen elkaar aan.",
+    "Beiden erkennen dat een rationele weg naar God altijd een sprong vereist naar het vertrouwen in God.",
+    "Paas wijst op het thema chaos en de context van oorlog en armoede, waarin orde meer betekent dan creatieve chaos."
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Inleiding en terugblik",
-      "summary": "David introduceert Emanuel Rutten en zijn nieuwe boek, en kijkt terug op zijn eerste verschijning in de podcast."
+      "start_seconds": 0,
+      "title": "Inleiding en de godsvraag in de filosofie",
+      "summary": "David Boogerd introduceert Rutten, zijn nieuwe boek en de maand van de filosofie; Rutten stelt dat de godsvraag altijd in het filosofische denken besloten ligt."
     },
     {
-      "start_seconds": 177,
-      "title": "Waarom de godsvraag filosofisch telt",
-      "summary": "Rutten legt uit dat de vraag naar God besloten ligt in het zoeken naar een ultieme grond, en waarom absolute zekerheid niet nodig of mogelijk is."
+      "start_seconds": 275,
+      "title": "Waarom de godsvraag relevant is",
+      "summary": "Paas vraagt waarom filosofie over God interessant is; Rutten verbindt de vraag naar God met de vraag naar de oorsprong en met het belang voor moraal en zingeving."
     },
     {
-      "start_seconds": 584,
-      "title": "Een revival in de filosofie",
-      "summary": "Over het einde van het nieuwe atheïsme en de herleving van de godsdienstfilosofie sinds de jaren 60."
+      "start_seconds": 600,
+      "title": "Revival en het nieuwe atheïsme",
+      "summary": "Rutten en Paas bespreken de herleving van de godsfilosofie sinds de jaren 60 en het verval van het nieuwe atheïsme, en wat dat betekent voor studenten en de academie."
     },
     {
-      "start_seconds": 1063,
-      "title": "Wetenschap, kwantummechanica en bewustzijn",
-      "summary": "Hoe de moderne natuurkunde bewustzijn serieuzer neemt en wat dat betekent voor materialisme en dualisme."
+      "start_seconds": 1050,
+      "title": "Wetenschap, bewustzijn en kwantumfysica",
+      "summary": "Rutten legt uit hoe de kwantummechanica bewustzijn serieuzer neemt dan het materialisme, en hoe Dick Swaab's identiteitsdenken daartegenover staat."
     },
     {
-      "start_seconds": 1620,
-      "title": "Het argument vanuit bewustzijn",
-      "summary": "Rutten zet stap voor stap uiteen waarom het natuurlijke bewustzijn een bovennatuurlijke, bewuste oorzaak moet hebben."
+      "start_seconds": 1617,
+      "title": "Het argument vanuit bewustzijn en fine-tuning",
+      "summary": "Rutten zet zijn argument uit bewustzijn uiteen, bespreekt emergentie als onwaarschijnlijk, en licht het fine-tuning-argument toe met de metafoor van blauwe auto's."
     },
     {
-      "start_seconds": 2100,
-      "title": "Tegenwerpingen en het begin van het heelal",
-      "summary": "Paas werpt op dat bewustzijn er altijd kan zijn geweest; Rutten antwoordt met het begin van de kosmos en vat samen dat geest een teken van het goddelijke is."
+      "start_seconds": 2820,
+      "title": "Het semantische argument",
+      "summary": "Rutten introduceert het begrip verwijzingsverzameling en argumenteert dat er geen universele eigenschappen zijn, wat volgens hem tot een God als geestelijke grond leidt."
     },
     {
-      "start_seconds": 2350,
-      "title": "Fijnafstemming van het universum",
-      "summary": "David brengt de fijnafstemming ter sprake uit de eerdere aflevering en Rutten begint die toe te lichten."
+      "start_seconds": 4380,
+      "title": "God van de filosofen en de Bijbel, en het geloof",
+      "summary": "Rutten en Paas bespreken het verschil tussen de God van filosofen en de God van de Bijbel, de rol van taal en gebed, en hoe rationaliteit en geloof zich verhouden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 410,
+      "start_seconds": 3553,
       "speaker": "Emanuel Rutten",
-      "text": "Je moet als het ware uiteindelijk blijven dansen om die open plaats.",
-      "note": "Mooi beeld van filosofie als een beweging rond het absolute zonder het te willen bezetten."
+      "text": "Het is bijna, mensen, een theorie van alles.",
+      "note": "Rutten presenteert zijn semantische argument als een mogelijke theorie van alles, en legt daarmee de link met Stephen Hawkings zoektocht."
     },
     {
-      "start_seconds": 447,
-      "speaker": "Emanuel Rutten",
-      "text": "We hebben goede redenen om te geloven, maar het blijven wel redenen om te geloven.",
-      "note": "Rutten erkent dat zijn argumenten geen onfeilbare zekerheid geven."
+      "start_seconds": 1926,
+      "speaker": "Stefan Paas",
+      "text": "Iemand observeren is iets anders dan iemand kennen.",
+      "note": "Een korte, scherpe tegenwerping die het verschil tussen objectief waarnemen en persoonlijk kennen van bewustzijn samenvat."
     },
     {
-      "start_seconds": 1868,
+      "start_seconds": 2574,
       "speaker": "Emanuel Rutten",
-      "text": "Je kunt een ton met miljarden knikkers schudden, maar ontstaat daar een geestelijke binnenwereld? Natuurlijk niet.",
-      "note": "Heldere metafoor tegen het idee dat geest uit materie ontstaat."
+      "text": "Stel dat jij en ik langs de kant van de weg gaan staan en alleen maar blauwe auto's zien, duizend jaar lang.",
+      "note": "De blauwe-autoanalogie maakt het fine-tuning-argument concreet en toegankelijk voor luisteraars."
     },
     {
-      "start_seconds": 1950,
-      "speaker": "Emanuel Rutten",
-      "text": "Ons geestelijk leven zou dan nergens de oorzaak van zijn.",
-      "note": "Argument tegen epifenomenalisme met de tijger en de dorst als voorbeelden."
+      "start_seconds": 4560,
+      "speaker": "Stefan Paas",
+      "text": "Zodra ik met Gods argumenten aan de slag ga, word ik ongeloviger; het wordt kil en analytisch.",
+      "note": "Paas citeert een collega en stelt dat de taal van de analytische filosofie niet past bij het spreken over God."
     },
     {
-      "start_seconds": 2276,
+      "start_seconds": 5301,
       "speaker": "Emanuel Rutten",
-      "text": "Geest wordt dan een teken van het goddelijke.",
-      "note": "Kern van zijn bewustzijnsargument: wat ons het meest nabij is, verwijst naar God."
+      "text": "Ik heb niet echt van die existentiële fases van: oh mijn hemel, zou het wel waar zijn? Dat heb ik gewoon niet.",
+      "note": "Rutten erkent dat zijn geloof stevig is en dat hij geen existentiële twijfel kent, wat het gesprek over twijfel persoonlijk maakt."
+    },
+    {
+      "start_seconds": 5037,
+      "speaker": "Stefan Paas",
+      "text": "Waar komt God vandaan?",
+      "note": "De klassieke tegenwerping die volgens Rutten studenten aan het twijfelen bracht, en die hij met argumenten probeert te beantwoorden."
     }
   ],
   "keywords": [
-    "Emanuel Rutten",
-    "godsargument",
+    "godsargumenten",
     "bewustzijn",
-    "dualisme",
-    "kwantummechanica",
-    "nieuw atheïsme",
-    "godsdienstfilosofie",
+    "fine-tuning",
+    "semantisch argument",
+    "verwijzingsverzameling",
     "metafysica",
-    "emergentie",
-    "fijnafstemming",
-    "Big Bang",
-    "Alvin Plantinga"
+    "nieuw atheïsme",
+    "kwantummechanica",
+    "dualisme",
+    "summum bonum",
+    "godsdienstfilosofie",
+    "Hegel"
   ],
-  "quotes": [],
+  "quotes": [
+    "De argumenten voor het bestaan van God zijn beter dan ooit.",
+    "Volgens Emanuel maakt God een comeback in de filosofie en zijn de argumenten voor zijn bestaan beter dan ooit, mede dankzij nieuwe wetenschappelijke inzichten.",
+    "Aan branie geen gebrek."
+  ],
   "similar": [
     {
       "n": 6,
-      "reason": "Eerdere aflevering met Emanuel Rutten over godsbewijzen en de vraag of God bestaat."
+      "reason": "Gasten Emanuel Rutten en Stefan Paas over godsbewijzen en de vraag of God bestaat"
     },
     {
       "n": 98,
-      "reason": "Live debat tussen Emanuel Rutten en Stine Jensen over het bestaan van God."
+      "reason": "Live debat over het bestaan van God met Emanuel Rutten"
     },
     {
       "n": 316,
-      "reason": "Topwetenschappers, onder wie Rutten en Hertzberger, geloven in God; filosofie en wetenschap komen samen."
+      "reason": "Best Of-aflevering met Rutten, Ard Louis en Heino Falcke over het bestaan van God"
     },
     {
       "n": 74,
-      "reason": "Bernardo Kastrup over kwantumfysica, bewustzijn en filosofische argumenten voor meer tussen hemel en aarde."
+      "reason": "Kwantumfysica en de vraag of er meer is tussen hemel en aarde"
     },
     {
-      "n": 150,
-      "reason": "Rosanne Hertzberger over wetenschap en God: de tijd van 'wetenschap heeft God dood verklaard' is voorbij."
+      "n": 157,
+      "reason": "Oxford-natuurkundige Ard Louis over wetenschap, mysterie en mogelijk God"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

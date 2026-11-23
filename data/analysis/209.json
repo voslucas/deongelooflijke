@@ -1,79 +1,335 @@
 {
   "episode": 209,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120666,
+    "segments": 1398,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31548,
-    "output_tokens": 294,
-    "cache_read_input_tokens": 2684,
-    "cache_creation_input_tokens": 0
+    "input_tokens": 62786,
+    "output_tokens": 7897,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2942
   },
   "themes": [
     "Geschiedenis",
-    "Filosofie & ethiek",
     "Geopolitiek & oorlog",
-    "Samenleving & migratie"
+    "God & geloof",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Thomas Jolly",
-      "note": "artistiek directeur van de openingsceremonie van de Olympische Spelen in Parijs",
-      "start_seconds": 278,
-      "wiki_checked": true
+      "name": "Vladimir Poetin",
+      "note": "Russische president; voorbeeld van een groot nationaal verhaal dat oorlog mobiliseert",
+      "start_seconds": 39,
+      "mention_count": 14
     },
     {
-      "name": "Leonardo da Vinci",
-      "note": "schilder van Het Laatste Avondmaal",
-      "start_seconds": 293,
-      "wiki_checked": true,
-      "wiki_pageid": 10234,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leonardo_da_Vinci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/250px-Francesco_Melzi_-_Portrait_of_Leonardo.png"
+      "name": "Augustinus",
+      "note": "Kerkvader; De stad van God, над mythes, verhalen en samenlevingen",
+      "start_seconds": 336,
+      "mention_count": 15
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; kritiek op monumentale en kritische geschiedschrijving",
+      "start_seconds": 976,
+      "mention_count": 5
+    },
+    {
+      "name": "Hayden White",
+      "note": "Geschiedfilosoof; verhaalplots als tragedie, romance, satire en comedy",
+      "start_seconds": 1234,
+      "mention_count": 3
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psycholoog; ontwikkelingspsychologie en verhaallijnen van mensen",
+      "start_seconds": 1303,
+      "mention_count": 2
+    },
+    {
+      "name": "Christian Smith",
+      "note": "Socioloog; boek Moral Believing Animals",
+      "start_seconds": 1408,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Huizinga",
+      "note": "Nederlands historicus; laatste boek De geschonden wereld over genade en verlossing",
+      "start_seconds": 3286,
+      "mention_count": 3
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans politicus; genoemd als voorbeeld van een versmald christelijk verhaal",
+      "start_seconds": 2348,
+      "mention_count": 3
+    },
+    {
+      "name": "Kamala Harris",
+      "note": "Amerikaans politicus; hoopvol verhaal op de Democratische Conventie",
+      "start_seconds": 2841,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Historicus en columnist; pleit voor een hoopvol verhaal",
+      "start_seconds": 2859,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Jolly",
+      "note": "Artistiek directeur Olympische Spelen Parijs; tableau vivant dat ophef veroorzaakte",
+      "start_seconds": 272,
+      "mention_count": 1
     },
     {
       "name": "Andrew Tate",
-      "note": "influencer die zich mengde in de ophef over de openingsceremonie",
-      "start_seconds": null,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "note": "Controversiële influencer; genoemd in verband met de ophef over het tableau",
+      "start_seconds": 333,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "note": "Kunstenaar van Het Laatste Avondmaal, waarnaar het tableau verwees",
+      "start_seconds": 278,
+      "mention_count": 1
+    },
+    {
+      "name": "Kaisa Ollongren",
+      "note": "Voormalig minister van Defensie; over het verhaal achter werven voor Defensie",
+      "start_seconds": 858,
+      "mention_count": 1
+    },
+    {
+      "name": "Björn Höcke",
+      "note": "AfD-politicus in Duitsland; gebruikt aanslagen in verkiezingscampagne",
+      "start_seconds": 1746,
+      "mention_count": 1
+    },
+    {
+      "name": "Tucker Carlson",
+      "note": "Amerikaans journalist; interview met Poetin over geschiedenis",
+      "start_seconds": 911,
+      "mention_count": 1
+    },
+    {
+      "name": "Mozes",
+      "note": "Bijbelse leider; het Exodusverhaal als bevrijdings- en volksvormingsverhaal",
+      "start_seconds": 1647,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Darwin",
+      "note": "Bioloog; genoemd in verband met vooruitgangsgedachte van de soort",
+      "start_seconds": 2761,
+      "mention_count": 1
+    },
+    {
+      "name": "A.Th. van Deursen",
+      "note": "Historicus; over de last van veel geluk",
+      "start_seconds": 849,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert Oostindie",
+      "note": "Historicus; kritisch over de Nederlandse geschiedenis en koloniaal verleden",
+      "start_seconds": 2805,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [],
-  "summary_tldr": "",
-  "summary_points": [],
-  "chapters": [],
-  "highlights": [],
-  "keywords": [],
-  "quotes": [],
+  "books": [
+    {
+      "title": "De stad van God (Civitate Dei)",
+      "author": "Augustinus",
+      "note": "Boek 3 over mythes en samenlevingen",
+      "start_seconds": 1448,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God",
+      "canonical_author": "Aurelius Augustinus (vert. Chris Dijkhuis)",
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
+    },
+    {
+      "title": "Moral Believing Animals",
+      "author": "Christian Smith",
+      "note": "Stelt dat mensen morele gelovige dieren zijn die verhalen nodig hebben",
+      "start_seconds": 1408,
+      "volume_id": "6mufwgEACAAJ",
+      "canonical_title": "Moral, Believing Animals: Human Personhood and Culture",
+      "canonical_author": "Christian Smith",
+      "isbn13": "9780199849673",
+      "isbn10": "0199849676",
+      "thumbnail": ""
+    },
+    {
+      "title": "De geschonden wereld",
+      "author": "Johan Huizinga",
+      "note": "Laatste boek, geschreven in 1944; pleit voor verlossing en genade als basis van een verhaal",
+      "start_seconds": 3286,
+      "volume_id": "dH7yzgEACAAJ",
+      "canonical_title": "Geschonden wereld: een beschouwing over de kansen op herstel van onze beschaving",
+      "canonical_author": "Johan Huizinga",
+      "isbn13": "9789492954701",
+      "isbn10": "9492954702",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Exodus",
+      "note": "Het bevrijdingsverhaal van Mozes en de uittocht uit Egypte als grondverhaal voor een volk",
+      "start_seconds": 1620
+    },
+    {
+      "ref": "Psalm 85",
+      "note": "Citaat over barmhartigheid, gerechtigheid en vrede die elkaar kussen",
+      "start_seconds": 3271
+    }
+  ],
+  "places": [
+    "Parijs",
+    "Provence",
+    "Arnhem",
+    "Solingen",
+    "Bodegraven",
+    "Nijmegen",
+    "Israël"
+  ],
+  "summary_tldr": "David Boogerd, Beatrice de Graaf en Stefan Paas onderzoeken of Nederland nog een groot verhaal heeft dat ons bindt. Ze stellen dat grote verhalen onvermijdelijk zijn, maar dat ze verrijkt moeten worden door recht, verzoening en vreugde en gedragen moeten worden door instituties. Het gesprek eindigt met de vraag wat een hoopvol, gelaagd verhaal voor deze tijd zou kunnen zijn.",
+  "summary_points": [
+    "Het grote verhaal wordt gemist, maar het gesprek laat zien dat mensen altijd in verhalen denken en dat een groot verhaal zingeving en richting geeft.",
+    "Het Olympische tableau vivant laat zien hoe symbolen en verhalen tot felle ophef leiden tussen religieuze, culturele en progressieve groepen.",
+    "Poetins verhaal van Russische grootsheid is een coherent, mobiliserend en gevaarlijk nationaal verhaal, tegenover een Westen dat het niet serieus nam.",
+    "Historici hebben nationale mythes als de Gouden Eeuw en de Tweede Wereldoorlog ontmaskerd, wat de samenleving minder gemeenschappelijk verhaal heeft gegeven.",
+    "Met Nietzsche en Hayden White wordt onderscheid gemaakt tussen monumentale, antiquarische en kritische geschiedenis en tussen plotlijnen als tragedie, romance en satire.",
+    "Augustinus laat zien dat mythes nuttig maar ook misbruikt kunnen worden om een vijand te schetsen en oorlog te rechtvaardigen.",
+    "Het conflict tussen Israël en Palestina toont hoe botsende verhalen en verabsoluteerde waarden elkaar versterken en een dialoog blokkeren.",
+    "Instituties zoals kerken en onderwijs zijn nodig om verhalen te rijpen, te verrijken en ruimte te geven aan kritische tegenstemmen.",
+    "Huizinga en Psalm 85 leveren het pleidooi voor een gelaagd verhaal van recht, verzoening en vreugde, waarin ook verlossing en vergeving een plek hebben."
+  ],
+  "chapters": [
+    {
+      "start_seconds": 0,
+      "title": "Het verlies van het grote verhaal",
+      "summary": "David introduceert de vraag of Nederland nog een groot verhaal heeft en stelt die aan Beatrice de Graaf en Stefan Paas."
+    },
+    {
+      "start_seconds": 272,
+      "title": "Het Olympische tableau en botsende verhalen",
+      "summary": "De ophef over het tableau vivant in Parijs laat zien hoe verhalen heilig worden en kunnen botsen."
+    },
+    {
+      "start_seconds": 722,
+      "title": "Poetin en het verhaal als wapen",
+      "summary": "Het grote verhaal van Poetin wordt besproken als coherent, radicaal en mobiliserend, met de Russische geschiedenis als wapen."
+    },
+    {
+      "start_seconds": 1234,
+      "title": "Wat is een groot verhaal en waarom hebben we het nodig",
+      "summary": "Nietzsche, Hayden White en Freud verklaren waarom mensen verhalen nodig hebben voor richting, zingeving en omgang met tegenslag."
+    },
+    {
+      "start_seconds": 1620,
+      "title": "Bijbelse verhalen en de vorming van een volk",
+      "summary": "Het Exodusverhaal en Augustinus laten zien hoe grondverhalen mensen tot een volk vormen, maar ook hoe ze anderen kunnen uitsluiten."
+    },
+    {
+      "start_seconds": 1980,
+      "title": "Israël, Palestina en de uitdaging van gelaagde verhalen",
+      "summary": "Het conflict laat zien hoe twee legitieme verhalen niet verzoenbaar lijken en hoe waarden absolutistisch worden."
+    },
+    {
+      "start_seconds": 3271,
+      "title": "Huizinga, vrede en een hoopvol verhaal",
+      "summary": "Huizinga en Psalm 85 leiden tot een pleidooi voor recht, verzoening en vreugde als basis voor een gelaagd groot verhaal."
+    }
+  ],
+  "highlights": [
+    {
+      "start_seconds": 802,
+      "speaker": "Stefan Paas",
+      "text": "Zo'n verhaal wordt een soort glijbaan, hè. Je kunt niet meer omhoog.",
+      "note": "Beeldend over hoe een nationaal verhaal zich naar radicalisering kan ontwikkelen zonder terugweg."
+    },
+    {
+      "start_seconds": 922,
+      "speaker": "Beatrice de Graaf",
+      "text": "Poetin zei dat een oorlog niet alleen met wapens gewonnen wordt, maar ook met geschiedenisdocenten.",
+      "note": "Laat zien hoe sterk Poetin de geschiedenis als politiek instrument inzet."
+    },
+    {
+      "start_seconds": 2029,
+      "speaker": "Beatrice de Graaf",
+      "text": "Die verhalen zijn niet met elkaar verzoenbaar.",
+      "note": "Vat het Israël-Palestina-conflict samen als een botsing van verhalen met heilig verklaarde waarden."
+    },
+    {
+      "start_seconds": 3256,
+      "speaker": "Beatrice de Graaf",
+      "text": "De nieuwe bezieling die de mensheid nodig heeft, zal enkel gevonden kunnen worden in de sferen waar de barmhartigheid de waarde tegemoet komt en waar de gerechtigheid de vrede kust.",
+      "note": "Huizinga's laatste gedachte geeft het gesprek een hoopvolle, religieus geladen slotgedachte."
+    },
+    {
+      "start_seconds": 3411,
+      "speaker": "Stefan Paas",
+      "text": "Er kan geen vrede zijn zonder recht, maar recht doen moet altijd openstaan naar verzoening.",
+      "note": "Vat het pleidooi voor gelaagdheid samen: recht en verzoening horen bij elkaar."
+    },
+    {
+      "start_seconds": 3523,
+      "speaker": "Stefan Paas",
+      "text": "Als je vrede wil, moet je je voorbereiden op vrede.",
+      "note": "Een scherpe omkering van het bekende spreekwoord, die de gespreksdynamiek samenvat."
+    }
+  ],
+  "keywords": [
+    "groot verhaal",
+    "zingeving",
+    "Augustinus",
+    "mythe",
+    "Nietzsche",
+    "geschiedschrijving",
+    "verzoening",
+    "instituties",
+    "Huizinga",
+    "Poetin",
+    "secularisatie",
+    "waarden"
+  ],
+  "quotes": [
+    "Poetin, rechtsextremisten, jihadisten en communisten hebben allemaal een groot verhaal.",
+    "Maar wat zou nou óns verhaal kunnen zijn?"
+  ],
   "similar": [
     {
       "n": 293,
-      "reason": "Zoektocht naar wat er toe doet in historische tijd, met Beatrice de Graaf"
+      "reason": "Zelfde vraag naar wat ertoe doet in deze historische tijd, met Beatrice de Graaf."
     },
     {
-      "n": 113,
-      "reason": "De Graaf en Paas over geschiedenis, cultuur en grote ideeën zoals vrijheid"
+      "n": 263,
+      "reason": "Afbrokkelende oude verhalen en het ontstaan van nieuwe verhalen, zoals in 209."
+    },
+    {
+      "n": 305,
+      "reason": "Gesprek met Maarten van Rossem over grote verhalen en de zin van het leven."
     },
     {
       "n": 106,
-      "reason": "De Graaf en Paas duiden de crises van deze tijd historisch"
+      "reason": "Geschiedenis en geloof achter de crises van deze tijd, met Beatrice de Graaf."
     },
     {
-      "n": 66,
-      "reason": "Het einde van een tijdperk, met De Graaf en Paas"
-    },
-    {
-      "n": 284,
-      "reason": "De Graaf en Paas over machtspolitiek en geopolitiek in woelige tijden"
+      "n": 122,
+      "reason": "Nietzsche en de erfenis van 'God is dood', een gedeelde figuur en filosofisch thema."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

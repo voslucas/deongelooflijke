@@ -1,17 +1,22 @@
 {
   "episode": 124,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95125,
+    "segments": 995,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30977,
-    "output_tokens": 2664,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49004,
+    "output_tokens": 7332,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Zingeving & psyche",
     "Kerk & secularisatie",
+    "Zingeving & psyche",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -19,78 +24,60 @@
   ],
   "people": [
     {
-      "name": "Arjen van Veelen",
-      "note": "journalist en schrijver van 'Rotterdam, een ode aan inefficiëntie'",
-      "start_seconds": 25,
-      "wiki_checked": true,
-      "wiki_pageid": 4409842,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_van_Veelen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Arjen_van_Veelen-2018.jpg/250px-Arjen_van_Veelen-2018.jpg"
-    },
-    {
       "name": "Desiderius Erasmus",
-      "note": "humanist, naamgever van o.a. de Erasmusbrug; vertrok als kind uit Rotterdam",
-      "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "volgens de mythe zou hij de Laurenskerk hebben gespaard",
-      "start_seconds": 227,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "note": "Humanistische denker; standbeeld bij de Laurenskerk en naamgever van Rotterdamse instellingen",
+      "start_seconds": 363,
+      "mention_count": 8
     },
     {
       "name": "Mark Rutte",
-      "note": "premier, door Van Veelen gezien als personificatie van het efficiëntiedenken",
-      "start_seconds": 1265,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Donald Trump",
-      "note": "volgens Van Veelen mede een gevolg van het efficiëntiegeloof en weggesaneerde industriearbeiders",
-      "start_seconds": 1389,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Nederlands premier; gezien als personificatie van het efficiëntiedenken, ex-manager bij Unilever",
+      "start_seconds": 1258,
+      "mention_count": 3
     },
     {
       "name": "Hartmut Rosa",
-      "note": "Duitse socioloog; seculiere mensen streven naar eeuwig leven vóór de dood",
-      "start_seconds": 1696,
-      "wiki_checked": true
+      "note": "Duitse socioloog; stelt dat seculiere mensen streven naar eeuwig leven in dit leven",
+      "start_seconds": 1693,
+      "mention_count": 2
     },
     {
-      "name": "Bordewijk",
-      "note": "schrijver die Amsterdam de nationale en Rotterdam de internationale stad noemde",
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; volgens de mythe zou hij de Laurenskerk hebben laten sparen",
+      "start_seconds": 211,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; volgens Van Veelen een gevolg van het efficiëntiegeloof en industriële onvrede",
+      "start_seconds": 1389,
+      "mention_count": 2
+    },
+    {
+      "name": "Erich Auerbach",
+      "note": "Literatuurwetenschapper; schreef over de uitgebeende vertelkunst van het Oude Testament",
+      "start_seconds": 2304,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Terlouw",
+      "note": "Politicus en schrijver; wil de Waddenzee een rechtspersoon laten worden",
+      "start_seconds": 3497,
+      "mention_count": 1
+    },
+    {
+      "name": "Ferdinand Bordewijk",
+      "note": "Schrijver; zijn uitspraak over Amsterdam als nationale en Rotterdam als internationale stad wordt geciteerd",
       "start_seconds": 686,
-      "wiki_checked": true,
-      "wiki_pageid": 77995,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/F._Bordewijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/F.Bordewijk1954.jpg/250px-F.Bordewijk1954.jpg"
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Rotterdam, een ode aan inefficiëntie",
       "author": "Arjen van Veelen",
-      "note": "Rotterdam als prisma op de dominantie van efficiëntiedenken",
-      "start_seconds": 85,
+      "note": "Het besproken boek waarin Van Veelen Rotterdam gebruikt als prisma voor het efficiëntiegeloof",
+      "start_seconds": 79,
       "volume_id": "1l-HzwEACAAJ",
       "canonical_title": "Rotterdam: een ode aan inefficiëntie",
       "canonical_author": "Arjen van Veelen",
@@ -99,149 +86,160 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1",
+      "note": "Van Veelen noemt Genesis als voorbeeld van compacte, briljante vertelkunst die op één pagina past",
+      "start_seconds": 2302
+    },
+    {
+      "ref": "1 Tessalonicenzen 5:21",
+      "note": "Van Veelen citeert Paulus: 'onderzoekt alles en behoudt het goede', uit de context gehaald",
+      "start_seconds": 2440
+    }
+  ],
   "places": [
     "Rotterdam",
     "Maasvlakte",
     "Warschau",
     "Middelburg",
     "Chicago",
-    "New York",
+    "Liberal (Missouri)",
+    "Waalwijk",
     "Antwerpen",
-    "Suezkanaal",
-    "Japan",
-    "China"
+    "Japan"
   ],
-  "summary_tldr": "Arjen van Veelen laat aan de hand van Rotterdam, de haven en de zeecontainer zien hoe efficiëntie de dominante religie van onze tijd is geworden. Samen met Stefan Paas bespreken ze de gevolgen: eenzaamheid, drukte, kwetsbare systemen en groeidwang. Daartegenover staat de inefficiëntie van het christelijke geloof uit Van Veelens jeugd, met de zondagse rust als strekdam.",
+  "summary_tldr": "Arjen van Veelen beschrijft in zijn boek over Rotterdam hoe het efficiëntiedenken, verbeeld door de zeecontainer, een dominante levensovertuiging is geworden die zowel de stad als de samenleving doordrenkt. Hij laat zien hoe de herbouw van Rotterdam na de oorlog, het lean-denken van Toyota en de logistieke inrichting van zorg en leven leiden tot stress, eenzaamheid en een gebrek aan menselijke ontmoeting. Het gesprek eindigt hoopvol met het idee dat het containertijdperk op zijn einde loopt en er ruimte ontstaat voor meer inefficiëntie en gemeenschap.",
   "summary_points": [
-    "Rotterdam is niet alleen door het bombardement modern: de gemeente onteigende en sloopte de binnenstad bewust, naar Amerikaans voorbeeld.",
-    "Havenarbeiders en zeelieden zijn onzichtbaar door de robotisering en de ligging van de haven op de Maasvlakte.",
-    "Efficiëntie is volgens Van Veelen een religie die het hele leven doordringt, van agenda's tot ziekenhuizen.",
-    "De Toyota-managementfilosofie (lean, just in time) maakt systemen kwetsbaar, zoals de coronacrisis liet zien met IC-bedden en mondkapjes.",
-    "Efficiëntie baart groei: goedkoper vervoer leidt tot meer consumptie, en mensen werken harder in plaats van minder.",
-    "Eenzaamheid en individualisering hangen samen met efficiëntiedenken, omdat gemeenschappen inefficiënt zijn en voorzieningen zijn wegbezuinigd.",
-    "Volgens Rosa streven seculiere mensen naar eeuwig leven voor de dood, wat de druk verhoogt om alles uit het leven te halen.",
-    "Het gereformeerde geloof van Van Veelens jeugd bood een contrast: je hoeft niets te presteren en de zondag is een rustpunt.",
-    "Paas waardeert het wekelijkse inefficiënte uurtje in de kerk als herinnering dat de agenda niet heilig is."
+    "Rotterdam werd na de oorlog bewust platgelegd voor een Amerikaans-georiënteerde, economische stad; veel oude bebouwing was nog te redden.",
+    "Efficiëntie wordt gezien als de nieuwe dominante religie: het leven wordt een logistiek proces waarin alles wat niet produceert verdwijnt.",
+    "De zeecontainer en de Maasvlakte symboliseren een geautomatiseerde, menselijke maat-loze wereld.",
+    "Het efficiëntiedenken is terug te zien in agenda's, ziekenhuizen (lean, geen buffers) en het denken in hokjes van mensen.",
+    "Toyota's lean-filosofie vertaalt zich in de praktijk vaak naar druk op werknemers, ontslag en kwetsbare ketens, zoals bleek bij corona.",
+    "Efficiëntie leidt paradoxaal tot meer consumptie en groei, en de hemel van rust blijft steeds verder weg.",
+    "Individualisering, eenzaamheid en het wegbezuinigen van ontmoetingsplekken hangen samen met het efficiëntiegeloof.",
+    "Van Veelen vergelijkt zijn orthodox-gereformeerde jeugd met de huidige cultuur: beide kennen regels en uitsluiting, maar de kerk bood ook gemeenschap en rust.",
+    "Paas stelt dat rationalisering ook religieuze gemeenschappen heeft ondermijnd en dat een kerkdienst als 'strekdam' tegen het efficiëntiedenken kan werken.",
+    "Het voorbeeld van Liberal (Missouri) laat zien hoe een atheïstische utopie zelf weer een fanatieke religie werd.",
+    "Hyperinclusiviteit blijkt in de praktijk beperkt: wie afwijkt van de heersende opinie wordt snel uitgesloten.",
+    "Het containertijdperk loopt op zijn einde; verwacht wordt meer lokale productie en hechtere gemeenschappen.",
+    "Van Veelen's droom is een beschermd nieuw waddeneiland naast de haven, als symbool dat economie niet altijd voorrang hoeft te krijgen."
   ],
   "chapters": [
     {
-      "start_seconds": 85,
-      "title": "Mythes over Rotterdam",
-      "summary": "Het bombardement, de sloop van de binnenstad en de Laurenskerk worden besproken, waarmee de mythe van de verwoeste stad wordt ontkracht."
+      "start_seconds": 25,
+      "title": "Inleiding: de revolutie van de zeecontainer",
+      "summary": "Boogerd introduceert het gesprek over efficiëntie als nieuwe religie en de boeken van Van Veelen."
     },
     {
-      "start_seconds": 366,
-      "title": "Erasmus en de stad van daden",
-      "summary": "Rotterdam koestert Erasmus, maar die vertrok als kind. De stad staat bekend om bouwen en daden, niet om woorden."
+      "start_seconds": 79,
+      "title": "Mythes over Rotterdam ontkracht",
+      "summary": "Van Veelen weerlegt het beeld dat Rotterdam alleen door bombardementen is herbouwd en laat zien dat de stad bewust werd platgewalst voor een economische herinrichting."
     },
     {
-      "start_seconds": 485,
-      "title": "De onzichtbare haven",
-      "summary": "Zeelieden en havenarbeiders zijn onzichtbaar door de ligging en robotisering van de haven. Van Veelen werkte er zelf."
+      "start_seconds": 362,
+      "title": "Erasmus en de havenarbeiders",
+      "summary": "Het Erasmus-mythe en het onzichtbare bestaan van zeelieden op de Maasvlakte worden besproken."
     },
     {
-      "start_seconds": 760,
+      "start_seconds": 732,
       "title": "Efficiëntie als religie",
-      "summary": "Van Veelen beschrijft het vierkante denken, van containers tot Google Calendar, en het verdozen van zijn eigen hoofd."
+      "summary": "Van Veelen en Paas stellen dat het nastreven van efficiëntie een dominante levensovertuiging is, verbeeld in containers en agenda's."
     },
     {
-      "start_seconds": 1050,
-      "title": "Lean, Toyota en de gevolgen",
-      "summary": "Gevolgen van lean denken in zorg en politiek, de groeidwang achter efficiëntie en de rol van Rutte."
+      "start_seconds": 1028,
+      "title": "Gevolgen: eenzaamheid, Trump en de zorg",
+      "summary": "Het efficiëntiegeloof leidt tot eenzaamheid, politieke onvrede en kwetsbare zorg, mede door lean-denken als bij Toyota en Mark Rutte."
     },
     {
-      "start_seconds": 1380,
-      "title": "Eenzaamheid en individualisering",
-      "summary": "Over Trump, eenzaamheid, het wegbezuinigen van buurtvoorzieningen en de vraag in wiens belang dit is."
+      "start_seconds": 1972,
+      "title": "Het geloof van de jeugd als tegenwicht",
+      "summary": "Van Veelen vergelijkt zijn strenge kerkgemeenschap met de huidige druk om productief te zijn, en Paas wijst op het waarde van ritme en inefficiëntie."
     },
     {
-      "start_seconds": 1670,
-      "title": "Secularisatie en het hiernamaals",
-      "summary": "Rosa's idee van eeuwig leven vóór de dood en de vraag welke religie de plaats van het christendom heeft ingenomen."
+      "start_seconds": 2503,
+      "title": "Liberal en de nieuwe hyperinclusiviteit",
+      "summary": "Het verhaal van het atheïstische utopia Liberal leidt naar de vraag waarom vrijdenken nieuwe regels en uitsluiting voortbrengt."
     },
     {
-      "start_seconds": 1800,
-      "title": "Het geloof van vroeger als tegenwicht",
-      "summary": "Van Veelen en Paas reflecteren op de zondag, genade en gemeenschap als tegenwicht tegen het efficiëntiegeloof."
+      "start_seconds": 3150,
+      "title": "Hoop, het einde van de container en een waddeneiland",
+      "summary": "Van Veelen ziet het containertijdperk kraken en droomt van een beschermd nieuw eiland bij Rotterdam als symbool voor minder efficiëntie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1058,
+      "start_seconds": 748,
       "speaker": "Arjen van Veelen",
-      "text": "Als efficiëntie een religie is, dan is de managementfilosofie van Toyota het heilige boek.",
-      "note": "Scherpe religieuze metafoor voor modern management."
+      "text": "Het is een echte religie in deze tijd om efficiëntie na te jagen, om het alles uit je leven halen als hoogste goed te zien.",
+      "note": "Kernstelling van het gesprek die efficiëntie als religie neerzet."
     },
     {
-      "start_seconds": 856,
-      "speaker": "Arjen van Veelen",
-      "text": "Jonge mensen zijn doodsbenauwd voor een wit blok in hun agenda.",
-      "note": "Maakt de efficiëntiedruk concreet en confronterend."
+      "start_seconds": 894,
+      "speaker": "Stefan Paas",
+      "text": "Ware het niet dat er volgens mij nauwelijks een religie te bedenken is die ooit zo'n grip op het leven van mensen heeft gehad als deze.",
+      "note": "Paas stelt dat het efficiëntiegeloof een bijna 24/7 controle uitoefent, sterker dan vrijwel elke religie."
     },
     {
-      "start_seconds": 1327,
+      "start_seconds": 1932,
       "speaker": "Arjen van Veelen",
-      "text": "Efficiëntie baart groei.",
-      "note": "Kernwet van het boek, geïllustreerd met de boldercar en containerschepen."
+      "text": "Je hebt een soort steeds verder vooruit schuivende hemel die je nooit bereikt.",
+      "note": "Beeldende omschrijving van de eeuwige belofte van rust en controle die nooit komt."
     },
     {
-      "start_seconds": 1769,
+      "start_seconds": 1753,
       "speaker": "Stefan Paas",
       "text": "Religie laat zich alleen bestrijden met religie.",
-      "note": "Scherpe stelling over wat het efficiëntiegeloof kan doorbreken."
+      "note": "Een scherpe gedachte die het idee van een seculiere wereld zonder religie op de helling zet."
     },
     {
-      "start_seconds": 1867,
+      "start_seconds": 3494,
       "speaker": "Arjen van Veelen",
-      "text": "Het geloof waar ik nu in vast zit, is veel absurder.",
-      "note": "Van Veelen vergelijkt zijn gereformeerde jeugd met het efficiëntiegeloof."
-    },
-    {
-      "start_seconds": 1952,
-      "speaker": "Arjen van Veelen",
-      "text": "Een steeds verder vooruit schuivende hemel die je nooit bereikt.",
-      "note": "Treffend beeld van de belofte van rust in de toekomst."
+      "text": "Het moeilijkste om dit eiland te realiseren is het moeilijkste doen dat ooit in de geschiedenis van Rotterdam is gedaan, namelijk helemaal niets doen. Let it be in plaats van make it happen.",
+      "note": "Een tegenbeweging tegen de maakbaarheidsideologie van Rotterdam, verpakt in een ironische droom."
     }
   ],
   "keywords": [
-    "efficiëntie",
+    "efficiëntiegeloof",
     "zeecontainer",
     "Rotterdam",
-    "lean",
-    "Toyota",
-    "eenzaamheid",
+    "lean-management",
     "secularisatie",
-    "neoliberalisme",
-    "groei",
-    "strekdam",
-    "gemeenschap",
-    "Hartmut Rosa"
+    "hyperinclusiviteit",
+    "eenzaamheid",
+    "zingeving",
+    "inefficiëntie",
+    "Liberal Missouri",
+    "hiernamaals",
+    "gemeenschap"
   ],
   "quotes": [
-    "Het staat symbool voor een nieuwe manier van denken of zelfs een nieuwe religie.",
-    "Als je het eenmaal ziet, zie je het overal."
+    "Je wist het misschien nog niet maar er is een revolutie gaande. De revolutie van de zeecontainer.",
+    "Als je het eenmaal ziet, zie je het overal.",
+    "Een religie die volgens hem onze samenleving helemaal doordrenkt."
   ],
   "similar": [
     {
-      "n": 268,
-      "reason": "Paul Schenderling over economie, ziel en cultuur; kritiek op economisch denken als leidend principe."
+      "n": 265,
+      "reason": "Moderne levensstijl en zingeving, het spanningsveld tussen efficiëntie en menselijke maat"
+    },
+    {
+      "n": 177,
+      "reason": "Zoektocht naar eenvoudiger leven als tegenwicht tegen gehaaste, geoptimaliseerde moderniteit"
+    },
+    {
+      "n": 314,
+      "reason": "Zingevingscrisis en leegte van het moderne leven, thematisch nauw verwant"
     },
     {
       "n": 117,
-      "reason": "Zingeving en de quasi-religieuze rol van werk in een seculiere tijd."
+      "reason": "Zingeving in werk en de religieuze betekenis van arbeid en prestatie"
     },
     {
-      "n": 265,
-      "reason": "Moderne levensstijl botst met wie we zijn; kritiek op prestatiedruk en tempo."
-    },
-    {
-      "n": 287,
-      "reason": "Individualisme, eenzaamheid en overprikkeling als gevolg van de moderne tijd."
-    },
-    {
-      "n": 101,
-      "reason": "Het winkelcentrum als nieuwe kerk: consumptie en economie als religie."
+      "n": 268,
+      "reason": "Economie, Europese cultuur en de vraag naar wat er verloren gaat"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

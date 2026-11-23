@@ -1,291 +1,343 @@
 {
   "episode": 106,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112516,
+    "segments": 1393,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31548,
-    "output_tokens": 2337,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59066,
+    "output_tokens": 7597,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
     "God & geloof",
-    "Samenleving & migratie"
+    "Politiek",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Beatrice de Graaf",
-      "note": "historicus, auteur van het essay 'Crisis!' voor de Maand van de Geschiedenis",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
+      "name": "Koningin Juliana",
+      "note": "Sprak na de Watersnoodramp van 1953 over het lot en een beproeving",
+      "start_seconds": 382,
+      "mention_count": 4
     },
     {
-      "name": "James Kennedy",
-      "note": "voorganger als schrijver van het essay voor de Maand van de Geschiedenis",
-      "start_seconds": 158,
-      "wiki_checked": true,
-      "wiki_pageid": 754275,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/James-kennedy.jpg/250px-James-kennedy.jpg"
+      "name": "Koningin Elizabeth",
+      "note": "Overleden Britse koningin; haar uitvaart werd op de opnamedag gehouden",
+      "start_seconds": 330,
+      "mention_count": 4
     },
     {
       "name": "Uri Rosenthal",
-      "note": "crisisonderzoeker en voormalig minister van Buitenlandse Zaken",
-      "start_seconds": 264,
-      "wiki_checked": true,
-      "wiki_pageid": 259302,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Uri_Rosenthal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Uri_Rosenthal_2011.jpg/250px-Uri_Rosenthal_2011.jpg"
-    },
-    {
-      "name": "Koningin Juliana",
-      "note": "hield een christelijke toespraak na de watersnoodramp van 1953",
-      "start_seconds": 382,
-      "wiki_checked": true,
-      "wiki_pageid": 6237,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Juliana_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Portrait_of_Queen_Juliana%2C_1973.jpg/250px-Portrait_of_Queen_Juliana%2C_1973.jpg"
-    },
-    {
-      "name": "Leopold von Ranke",
-      "note": "historicus: elke periode staat 'unmittelbar zu Gott'",
-      "start_seconds": 869,
-      "wiki_checked": true,
-      "wiki_pageid": 29767,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leopold_von_Ranke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Jebens%2C_Adolf_-_Leopold_von_Ranke_%28detail%29_-_1875.jpg/250px-Jebens%2C_Adolf_-_Leopold_von_Ranke_%28detail%29_-_1875.jpg"
-    },
-    {
-      "name": "Ulrich Beck",
-      "note": "socioloog van de risicomaatschappij",
-      "start_seconds": 1085,
-      "wiki_checked": true,
-      "wiki_pageid": 657335,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ulrich_Beck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ulrich_Beck%2C_2012.png/250px-Ulrich_Beck%2C_2012.png"
-    },
-    {
-      "name": "Cyprianus van Carthago",
-      "note": "kerkvader die in de derde eeuw reageerde op een pestepidemie",
-      "start_seconds": 1310,
-      "wiki_checked": true,
-      "wiki_pageid": 179362,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cyprianus_van_Carthago",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Heiliger_Cyprianus.jpg/250px-Heiliger_Cyprianus.jpg"
+      "note": "Crisisonderzoeker en voormalig minister van Buitenlandse Zaken",
+      "start_seconds": 260,
+      "mention_count": 2
     },
     {
       "name": "Karel de Grote",
-      "note": "vorst die crises beantwoordde met praktische en religieuze maatregelen",
+      "note": "Keizer die na crises om boete en meer aalmoezen vroeg",
       "start_seconds": 1479,
-      "wiki_checked": true,
-      "wiki_pageid": 5337,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/250px-Charlemagne_denier_Mayence_812_814.jpg"
-    },
-    {
-      "name": "Justinianus",
-      "note": "keizer ten tijde van de eerste grote pestepidemie, voerde quarantainemaatregelen in",
-      "start_seconds": 1613,
-      "wiki_checked": true,
-      "wiki_pageid": 878,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Justinianus_I",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_%28Ravenna%29.jpg/250px-Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_%28Ravenna%29.jpg"
-    },
-    {
-      "name": "Willem Bilderdijk",
-      "note": "dichter die schreef over de ramp van het Leidse kruitschip",
-      "start_seconds": 1745,
-      "wiki_checked": true,
-      "wiki_pageid": 47374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Bilderdijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Willem_Bilderdijk_%281756-1831%29%2C_by_Charles_Howard_Hodges.jpg/250px-Willem_Bilderdijk_%281756-1831%29%2C_by_Charles_Howard_Hodges.jpg"
-    },
-    {
-      "name": "Lodewijk Napoleon",
-      "note": "koning van Holland, bezocht Leiden na de ramp en zette een nationale collecte op",
-      "start_seconds": 1785,
-      "wiki_checked": true,
-      "wiki_pageid": 35154,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_Napoleon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/LouisBonaparte_Holland.jpg/250px-LouisBonaparte_Holland.jpg"
+      "mention_count": 3
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "keizer, centraliseerde de staat",
+      "note": "Keizer van Frankrijk; zijn centralisatie van de staat wordt besproken",
       "start_seconds": 1786,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "mention_count": 4
+    },
+    {
+      "name": "Lodewijk Napoleon",
+      "note": "Koning van Holland die na de kruidramp in Leiden het eerste crisisbesluit nam",
+      "start_seconds": 1782,
+      "mention_count": 5
+    },
+    {
+      "name": "Willem Bilderdijk",
+      "note": "Dichter die gedichten schreef over de kruidramp in Leiden",
+      "start_seconds": 1743,
+      "mention_count": 2
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog van de risicomaatschappij",
+      "start_seconds": 1085,
+      "mention_count": 3
+    },
+    {
+      "name": "Karl Barth",
+      "note": "Theoloog en grondlegger van de crisistheologie",
+      "start_seconds": 2675,
+      "mention_count": 3
+    },
+    {
+      "name": "Justin Welby",
+      "note": "Aartsbisschop van Canterbury die de uitvaartpreek hield",
+      "start_seconds": 2499,
+      "mention_count": 2
+    },
+    {
+      "name": "Cyprianus van Carthago",
+      "note": "Kerkvader die in de derde eeuw over een pestepidemie schreef",
+      "start_seconds": 1305,
+      "mention_count": 3
+    },
+    {
+      "name": "Justinianus",
+      "note": "Byzantijnse keizer die quarantainemaatregelen tijdens de pest uitvaardigde",
+      "start_seconds": 1613,
+      "mention_count": 1
+    },
+    {
+      "name": "Bram van de Beek",
+      "note": "Nederlands theoloog met een profetische visie op crisis als oordeel",
+      "start_seconds": 3457,
+      "mention_count": 3
     },
     {
       "name": "Simon van Teutem",
-      "note": "journalist die schreef over wanneer iets een crisis wordt",
+      "note": "Journalist die crisis analyseerde als politieke patstelling",
       "start_seconds": 691,
-      "wiki_checked": true,
-      "wiki_pageid": 6009308,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_van_Teutem"
+      "mention_count": 1
+    },
+    {
+      "name": "Rob van Gijzel",
+      "note": "Kamerlid die een enquête over de Bijlmerramp eiste",
+      "start_seconds": 2054,
+      "mention_count": 2
+    },
+    {
+      "name": "Hanja Maij-Weggen",
+      "note": "Minister die tijdens de Bijlmerhoorzittingen emotioneel reageerde",
+      "start_seconds": 2148,
+      "mention_count": 1
+    },
+    {
+      "name": "Rico Voorberg",
+      "note": "Onderzoeker die eerder in de podcast over asiel sprak",
+      "start_seconds": 3151,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "Filosoof die wordt aangehaald over God als enige redding",
+      "start_seconds": 2784,
+      "mention_count": 1
+    },
+    {
+      "name": "Lotte Jensen",
+      "note": "Collega van Beatrice de Graaf die oude rampliederen onderzoekt",
+      "start_seconds": 2892,
+      "mention_count": 1
+    },
+    {
+      "name": "Gideon",
+      "note": "Bijbelse rechter die het volk Israël uit de crisis leidde",
+      "start_seconds": 1552,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Benschop",
+      "note": "Voormalig minister van Landbouw, genoemd bij de stikstofcrisis",
+      "start_seconds": 664,
+      "mention_count": 1
+    },
+    {
+      "name": "Leopold von Ranke",
+      "note": "Historicus die stelde dat elke periode direct tot God staat",
+      "start_seconds": 870,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Crisis!",
+      "author": "Beatrice de Graaf",
+      "note": "Essay voor de Maand van de Geschiedenis over rampen en crisis",
+      "start_seconds": 21,
+      "volume_id": "qtqPEAAAQBAJ",
+      "canonical_title": "Crisis!",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9789044652468",
+      "isbn10": "904465246X",
+      "thumbnail": "http://books.google.com/books/content?id=qtqPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "Risikogesellschaft",
       "author": "Ulrich Beck",
-      "note": "postmodern risicobesef en de kwetsbaarheidsparadox",
+      "note": "Theorie over de risicomaatschappij en de kwetsbaarheidsparadox",
       "start_seconds": 1085,
       "volume_id": "3Ey6AAAAIAAJ",
-      "canonical_title": "Risikogesellschaft: auf dem Weg in eine andere Moderne",
+      "canonical_title": "Risikogesellschaft: Auf dem Weg in eine andere Moderne",
       "canonical_author": "Ulrich Beck",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": "http://books.google.com/books/content?id=3Ey6AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Richteren 6",
+      "note": "Gideon en het volk Israël dat door de Filistijnen wordt aangevallen",
+      "start_seconds": 1552
+    },
+    {
+      "ref": "Johannes 12:24",
+      "note": "Het graankorrel-beeld: het graan moet sterven om vrucht te dragen",
+      "start_seconds": 2606
+    }
+  ],
   "places": [
     "Hilversum",
-    "Oekraïne",
-    "Zeeland",
     "Leiden",
     "Carthago",
-    "Utrecht",
-    "Schiphol"
+    "Zeeland",
+    "Enschede",
+    "Bijlmer",
+    "Schiphol",
+    "Canterbury",
+    "Utrecht"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken wat een crisis eigenlijk is, waarom we er nu zoveel zien en hoe vroegere tijden met rampen omgingen. Het grote verschil is het verdwijnen van de theodicee: crisis is een menselijk drama met zondebokken en complotten geworden.",
+  "summary_tldr": "Historicus Beatrice de Graaf en theoloog Stefan Paas onderzoeken waarom er tegenwoordig zoveel crises worden benoemd en hoe de omgang met rampen is veranderd. Waar rampen vroeger als lot of straf van God werden gezien, zoeken we nu vooral naar schuldigen en technische oplossingen. Het gesprek eindigt bij de vraag hoe je hoopvol kunt blijven werken zonder alles te kunnen oplossen.",
   "summary_points": [
-    "Het woord crisis wordt sinds de jaren 90 veel vaker gebruikt, wat leidt tot crisisinflatie.",
-    "Een crisis vraagt om vitale belangen, erkenning door bestuurders, onzekerheid en tijdsdruk.",
-    "Versplinterde politiek stelt problemen uit totdat ze een crisis worden.",
-    "De watersnoodramp van 1953 werd als lot en beproeving van God ervaren, hoewel ze voorspeld was.",
-    "Met secularisatie verdween de metafysische duiding en komt er een afrekencultuur met zondebokken en complottheorieën.",
-    "Ulrich Becks risicomaatschappij en de kwetsbaarheidsparadox: welvaart maakt gevoelig voor elk schokje.",
-    "Historische voorbeelden als Karel de Grote en Cyprianus combineren praktische maatregelen met geloof.",
-    "De ramp met het Leidse kruitschip leidde tot de eerste moderne crisiswetgeving."
+    "Het crisisbegrip is sinds de jaren negentig sterk toegenomen, mede door het beleidstaalgebruik van politici.",
+    "Een crisis is volgens De Graaf een gebeurtenis die vitale belangen schaadt, door elites als zodanig wordt erkend en onder onzekerheid en tijdsdruk vraagt om beslissingen.",
+    "De Watersnoodramp van 1953 werd door koningin Juliana als lot en beproeving gezien, terwijl de waarschuwingen al lang bestonden.",
+    "Vroeger werd de oorzaak van rampen vaak bij God of het noodlot gelegd; in de moderne tijd zoekt men naar schuldigen.",
+    "Met de secularisatie kwam een technocratisch vertrouwen in techniek en wetenschap, dat tegelijk nieuwe risico's creëert (Ulrich Beck).",
+    "De kwetsbaarheidsparadox: hoe welvarender we zijn, hoe heftiger we op kleine schokken reageren.",
+    "Huidige crises, zoals stikstof en woningnood, zijn versplinterd doordat partijen het niet eens zijn over wat het vitale belang is.",
+    "Crisistheologie (Karl Barth) waarschuwt tegen het God voor het karretje spannen en benadrukt dat God niet grijpbaar is.",
+    "Bram van de Beek onderscheidt een probleem, dat je kunt oplossen, van een crisis, die je als oordeel moet ondergaan.",
+    "Theologie kan de vraag verschuiven van hoe we het oplossen naar hoe we hoopvol kunnen blijven werken zonder alles te kunnen beheersen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en het essay Crisis!",
-      "summary": "David introduceert de crises van nu en Beatrice vertelt over haar essay en theatershow."
+      "title": "Inleiding en de vraag naar uitzonderlijkheid",
+      "summary": "David Boogerd introduceert het gesprek over de vele crises en de vraag of deze tijd echt uitzonderlijk is."
     },
     {
-      "start_seconds": 240,
-      "title": "Crisis als vakgebied",
-      "summary": "Opkomst van crisisonderzoek en crisismanagement in de jaren 90."
+      "start_seconds": 351,
+      "title": "De Watersnoodramp en het lotsbesef",
+      "summary": "De Graaf beschrijft hoe de Watersnoodramp van 1953 werd gezien als lot en beproeving, terwijl waarschuwingen waren genegeerd."
     },
     {
-      "start_seconds": 330,
-      "title": "De watersnoodramp van 1953",
-      "summary": "Een voorspelbare ramp werd gepresenteerd als lot en beproeving."
+      "start_seconds": 660,
+      "title": "Crisis nu en de versplinterde politiek",
+      "summary": "Het gesprek gaat over het crisisbegrip, de definitie van De Graaf en waarom politieke verdeeldheid problemen tot crisis laat uitgroeien."
     },
     {
-      "start_seconds": 525,
-      "title": "Wat is een crisis?",
-      "summary": "Definitie van crisis en de rol van politieke versplintering."
+      "start_seconds": 1035,
+      "title": "Metafysica, theodicee en risicodenken",
+      "summary": "Er wordt gesproken over het verlies van de theodicee, Ulrich Beck, de kwetsbaarheidsparadox en de zoektocht naar zondebokken."
     },
     {
-      "start_seconds": 1005,
-      "title": "Theodicee en secularisatie",
-      "summary": "Van beproeving door God naar technocratie, risico en zondebokken."
+      "start_seconds": 1480,
+      "title": "Historische voorbeelden: Karel de Grote en Leiden",
+      "summary": "Karel de Grote en de kruidramp in Leiden illustreren hoe overheden vroeger en later op rampen reageerden."
     },
     {
-      "start_seconds": 1470,
-      "title": "Geloof en praktische maatregelen",
-      "summary": "Karel de Grote, Cyprianus en Justinianus als voorbeelden."
+      "start_seconds": 2010,
+      "title": "Bijlmerramp en dramacratie",
+      "summary": "De Bijlmerramp en de enquête laten zien hoe media en politiek van een ramp een spektakel en complot maken."
     },
     {
-      "start_seconds": 1700,
-      "title": "Leiden 1807 en de moderne staat",
-      "summary": "De kruitschipramp en het ontstaan van crisiswetgeving en staatszorg."
+      "start_seconds": 2656,
+      "title": "Crisistheologie en de Bijbel",
+      "summary": "Stefan Paas bespreekt crisistheologie van Karl Barth, de ballingschap en klaagpsalmen als theologische reacties op crisis."
+    },
+    {
+      "start_seconds": 3030,
+      "title": "Ontzag, dodendans en afsluiting",
+      "summary": "Het gesprek eindigt bij ontzag voor het onkenbare, Bram van de Beek, de dodendans en een vooruitblik naar een theatershow."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 387,
+      "start_seconds": 393,
       "speaker": "Beatrice de Graaf",
-      "text": "Koningin Juliana noemde de ramp een beproeving, niet een straf van God.",
-      "note": "Diep christelijke toespraak, terwijl de ramp voorspeld was."
+      "text": "Koningin Juliana zei dat we het kind van God zijn en dat het een beproeving is, geen straf.",
+      "note": "Laat zien hoe een ramp in 1953 nog religieus werd geduid, in contrast met het huidige denken."
+    },
+    {
+      "start_seconds": 594,
+      "speaker": "Beatrice de Graaf",
+      "text": "Een crisis is een gebeurtenis die diep ingrijpt en waarbij vitale belangen worden geschaad en elites dat erkennen.",
+      "note": "Een helder en werkbaar criterium om crisis van gewone problemen te onderscheiden."
+    },
+    {
+      "start_seconds": 751,
+      "speaker": "Stefan Paas",
+      "text": "Het huidige politieke klimaat werkt in de hand dat problemen crisis worden.",
+      "note": "Laat zien hoe gebrek aan daadkracht problemen pas urgent maakt als het bijna te laat is."
     },
     {
       "start_seconds": 1197,
       "speaker": "Beatrice de Graaf",
-      "text": "Er is niks zo erg als dat iets je overkomt en je hebt er geen verhaal bij.",
-      "note": "Kern van haar analyse van crisis en zingeving."
+      "text": "We zijn veilig en rijk, maar juist daardoor voelen we elke schok heftig.",
+      "note": "De kwetsbaarheidsparadox verklaart waarom de huidige paniek zo groot lijkt."
     },
     {
-      "start_seconds": 1310,
+      "start_seconds": 1370,
       "speaker": "Stefan Paas",
-      "text": "Crisis komt uit de medische wereld: de koorts kan breken of de patiënt sterft.",
-      "note": "Verheldert de oorspronkelijke betekenis van het woord."
+      "text": "Een crisis laat zien uit welk hout we gesneden zijn: we kunnen in elkaar klappen of iets edels tonen.",
+      "note": "Een diagnostische kijk op crisis als moment van keuze."
     },
     {
-      "start_seconds": 856,
+      "start_seconds": 3485,
       "speaker": "Stefan Paas",
-      "text": "Een huis met verouderde elektriciteitsleidingen waar vier bewoners het oneens zijn totdat het brandt.",
-      "note": "Treffend beeld voor uitgestelde problemen."
-    },
-    {
-      "start_seconds": 1000,
-      "speaker": "Beatrice de Graaf",
-      "text": "De krakersrellen van 1980 waren een ergere crisis dan nu, met tanks en scherpschutters.",
-      "note": "Zet het gevoel van uitzonderlijkheid in perspectief."
+      "text": "Een probleem kun je fixen, maar een crisis is een oordeel dat scheiding aanbrengt tussen het beste en het slechtste van ons.",
+      "note": "Een scherpe omkering van het moderne denken over crisis, geïnspireerd op Bram van de Beek."
     }
   ],
   "keywords": [
     "crisis",
+    "crisistheologie",
     "theodicee",
-    "secularisatie",
-    "watersnoodramp",
-    "Ulrich Beck",
+    "Watersnoodramp",
+    "risicomaatschappij",
     "kwetsbaarheidsparadox",
+    "technocratie",
+    "secularisatie",
     "zondebok",
-    "complottheorie",
-    "Karel de Grote",
-    "verzorgingsstaat",
+    "dramacratie",
+    "Bijlmerramp",
     "beproeving"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat is er allemaal aan de hand en wat is een goede manier om naar crisis te kijken?",
+    "Misschien is het grootste verschil wel de rol van God en geloof, en juist daar valt wellicht ook wat te leren."
+  ],
   "similar": [
     {
+      "n": 202,
+      "reason": "Crisistijd en calamiteiten; zelfde gesprekspartner Stefan Paas, thema's geloof en vooruitgang"
+    },
+    {
       "n": 25,
-      "reason": "Beatrice de Graaf en Paas over pandemieën en rampen door de geschiedenis, met religieuze duiding"
-    },
-    {
-      "n": 75,
-      "reason": "Crisis als omslagpunt in de geschiedenis; religieuze revolutie na corona, zelfde duo"
-    },
-    {
-      "n": 37,
-      "reason": "Complottheorieën als nieuwe religie, zondebokken en complotten, zelfde duo"
-    },
-    {
-      "n": 68,
-      "reason": "Complotdenken en eindtijd tijdens crisis, met Beatrice de Graaf en Paas"
+      "reason": "Pandemieën en plagen in de geschiedenis; rampen gezien vanuit geloof en Beatrice de Graaf"
     },
     {
       "n": 293,
-      "reason": "Historische tijden en wat er toe doet, met De Graaf, geschiedenis en secularisatie"
+      "reason": "Historische tijden en wat er echt toe doet; geschiedenis, zingeving en Beatrice de Graaf"
+    },
+    {
+      "n": 209,
+      "reason": "Zoektocht naar het grote verhaal voor onze tijd; geschiedenis, geloof en zingeving"
+    },
+    {
+      "n": 24,
+      "reason": "Angst en zingeving in crisistijd; overlap in psychische en geloofsthema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,116 +1,143 @@
 {
   "episode": 26,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 113418,
+    "segments": 972,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29885,
-    "output_tokens": 2122,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56549,
+    "output_tokens": 2990,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Samenleving & migratie",
+    "Zingeving & psyche",
     "God & geloof",
-    "Zingeving & psyche"
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Martin Visser"
   ],
   "people": [
     {
-      "name": "Mark Rutte",
-      "note": "premier, sprak over het 'nieuwe normaal'",
-      "start_seconds": 111,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "name": "Martin Visser",
+      "note": "econoom en journalist van De Telegraaf, gast",
+      "start_seconds": 6,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "hoogleraar theologie (vaste gast) — niet als gast opgenomen maar wel sprekend",
+      "start_seconds": 684,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Piketty",
+      "note": "Franse econoom, schreef boeken over ongelijkheid",
+      "start_seconds": 1281,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk Bezemer",
+      "note": "econoom die in De Groene schreef over de coronacrisis",
+      "start_seconds": 1158,
+      "mention_count": 2
     },
     {
       "name": "Jort Kelder",
-      "note": "opiniemaker die de economische kosten van de maatregelen benadrukte",
-      "start_seconds": 955,
-      "wiki_checked": true,
-      "wiki_pageid": 223315,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jort_Kelder",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jort_Kelder_%282021%29_%28cropped%29.jpg/250px-Jort_Kelder_%282021%29_%28cropped%29.jpg"
+      "note": "ondernemer die zich uitsprak over maatregelen en ondernemers",
+      "start_seconds": 1000,
+      "mention_count": 2
     },
     {
-      "name": "Marianne Zwagerman",
-      "note": "opiniemaker, sprak over 'dorre hout'",
-      "start_seconds": 1100,
-      "wiki_checked": true,
-      "wiki_pageid": 4405876,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marianne_Zwagerman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Marianne_Zwagerman_2011.jpg/250px-Marianne_Zwagerman_2011.jpg"
-    },
-    {
-      "name": "Hans de Boer",
-      "note": "werkgeversvoorman",
-      "start_seconds": 1121,
-      "wiki_checked": true,
-      "wiki_pageid": 225022,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_de_Boer_%28bestuurder%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Hans_de_Boer_at_Jong_Management%2C_symposium_100_jarig_jubileum_-_1.jpg/250px-Hans_de_Boer_at_Jong_Management%2C_symposium_100_jarig_jubileum_-_1.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "Duitse bondskanselier, stelde team samen voor exitstrategie met o.a. theologen",
-      "start_seconds": 1245,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Maurice de Hond",
-      "note": "peiler, wilde plek in het Outbreak Management Team",
-      "start_seconds": 1302,
-      "wiki_checked": true,
-      "wiki_pageid": 228374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maurice_de_Hond",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Maurice_de_Hond_%282018%29.jpg/250px-Maurice_de_Hond_%282018%29.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "schrijver van 'De meeste mensen deugen'",
-      "start_seconds": 1730,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
-    },
-    {
-      "name": "Arnold Heertje",
-      "note": "overleden econoom, pleitte voor brede welvaart",
-      "start_seconds": 2096,
-      "wiki_checked": true,
-      "wiki_pageid": 317910,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnold_Heertje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Arnold_Heertje.jpg/250px-Arnold_Heertje.jpg"
+      "name": "Marian Zwagerman",
+      "note": "opiniemaker die de term 'dorre hout' gebruikte",
+      "start_seconds": 1098,
+      "mention_count": 1
     },
     {
       "name": "Damian de Nies",
-      "note": "eerdere gast die de maatregelen kritisch besprak",
+      "note": "ondernemer die eerder in de podcast kritiek uitte op de maatregelen",
       "start_seconds": 1030,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Hans de Boer",
+      "note": "werkgeversvoorman (VNO-NCW)",
+      "start_seconds": 1130,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "premier die sprak over het 'nieuwe normaal'",
+      "start_seconds": 1137,
+      "mention_count": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier die een exit-team samenstelde",
+      "start_seconds": 1248,
+      "mention_count": 1
+    },
+    {
+      "name": "Jair Bolsonaro",
+      "note": "Braziliaanse president, bekritiseerd om lockdown-beleid",
+      "start_seconds": 2573,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "auteur die stelt dat de meeste mensen deugen",
+      "start_seconds": 1690,
+      "mention_count": 2
+    },
+    {
+      "name": "Maurice de Hond",
+      "note": "peiler die zou hebben gesolliciteerd naar een plek in het OMT",
+      "start_seconds": 1281,
+      "mention_count": 1
+    },
+    {
+      "name": "Heertje",
+      "note": "econoom die pleitte voor brede welvaart (overleden)",
+      "start_seconds": 2045,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "historica die sprak over pandemieën en globalisering",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Lee",
+      "note": "theoloog die migrantenkerken onderzoekt",
+      "start_seconds": 3730,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De meeste mensen deugen",
+      "title": "Kapitaal in de 21e eeuw",
+      "author": "Thomas Piketty",
+      "note": "over toenemende ongelijkheid; Piketty schreef meerdere dikke boeken hierover",
+      "start_seconds": 1281,
+      "volume_id": "ORIUBAAAQBAJ",
+      "canonical_title": "Kapitaal in de 21ste eeuw",
+      "canonical_author": "Thomas Piketty",
+      "isbn13": "9789023489290",
+      "isbn10": "9023489292",
+      "thumbnail": "http://books.google.com/books/content?id=ORIUBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Rutger Bregmans boek over het deugen van de mens",
       "author": "Rutger Bregman",
-      "note": "Visser: bij een dodelijker virus had Bregman zijn boek weg kunnen gooien",
-      "start_seconds": 1735,
+      "note": "Bregman's stelling dat de meeste mensen deugen, besproken in relatie tot de crisis",
+      "start_seconds": 1690,
       "volume_id": "UbbpxgEACAAJ",
       "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
       "canonical_author": "Rutger Bregman",
@@ -119,130 +146,146 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 2:15",
+      "note": "samen met God de aarde bewerken; werk als menselijke waardigheid",
+      "start_seconds": 2270
+    },
+    {
+      "ref": "Mattheus 19:24",
+      "note": "het moeilijk zijn voor een rijke om in de hemel te komen",
+      "start_seconds": 2420
+    }
+  ],
   "places": [
-    "Amsterdam",
     "Nederland",
-    "Verenigde Staten",
+    "Amerika",
+    "Brazilië",
     "Duitsland",
     "Brabant",
-    "Griekenland"
+    "Amsterdam",
+    "Ankeveense Plas",
+    "Limburg",
+    "Frankrijk",
+    "Kaapstad"
   ],
-  "summary_tldr": "David Boogerd praat met econoom Martin Visser en Stefan Paas over de economische gevolgen van de coronacrisis. Ze bespreken steunmaatregelen, de anderhalvemetereconomie, ongelijkheid en de vraag of de crisis saamhorigheid of egoïsme naar boven haalt. Ook komt de rol van de kerkgemeenschap tijdens de crisis aan bod.",
+  "summary_tldr": "Econoom Martin Visser en theoloog Stefan Paas bespreken de economische gevolgen van de coronacrisis, die volgens hen een ongekende en snelle schok is. Ze debatteren over de vraag of de welvaart structureel zal dalen en over de risico's voor ongelijkheid en kwetsbare groepen. Daarnaast reflecteren ze op de sociale en geestelijke impact van afstand houden en op wat het christelijk geloof te zeggen heeft over economie.",
   "summary_points": [
-    "De coronacrisis is ook een acute economische crisis die sneller gaat dan de statistieken",
-    "Overheidssteun houdt de werkloosheid in Nederland voorlopig gedempt",
-    "Er is geen tegenstelling tussen gezondheid en economie: de economie moet verantwoord weer open",
-    "De anderhalvemetereconomie is lastig, onder meer door het openbaar vervoer en de rendabiliteit",
-    "Een lagere groei vergroot het risico op meer ongelijkheid; kwetsbare groepen worden het hardst getroffen",
-    "Visser is sceptisch over de saamhorigheid en vraagt zich af hoe mensen zich bij een dodelijker virus hadden gedragen",
-    "Kerk en gemeenschap ontbubbelen en bieden verbinding tijdens de crisis",
-    "Fysiek contact wordt door beiden gemist",
-    "Brede welvaart is belangrijk, maar moet wel betaald worden"
+    "De economische crisis treft door de snelheid en omvang vooral zzp'ers, flexwerkers en laagopgeleiden.",
+    "Steunmaatregelen dempen de werkloosheid, maar de vraag is hoe lang dat houdbaar is.",
+    "Visser ziet het grootste risico in toenemende ongelijkheid bij een structureel lager groeipad.",
+    "Paas benadrukt dat de gezondheid nu voorop staat en dat ondernemers een gevoelige steun verdienen.",
+    "Over de exit-strategie: het wordt geen snel einde maar een langdurig 'doormodderen' met anderhalve meter.",
+    "Beide gasten zien de crisis als bevestiging van bestaande kwetsbaarheden, zoals hypermobiliteit en belastingconstructies.",
+    "Visser en Paas benadrukken het belang van fysiek contact en de kerkelijke gemeenschap voor het sociale welzijn.",
+    "De Bijbel biedt volgens hen geen economisch handboek, maar wel morele appellen over rijkdom, werk en sociale rechtvaardigheid."
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Hoe gaat het met je in coronatijd?",
-      "summary": "Persoonlijke ervaringen met thuiswerken, afstand en gemis van fysiek contact en de kerkdienst."
+      "start_seconds": 0,
+      "title": "Persoonlijke opening en coronatijd",
+      "summary": "Gasten vertellen hoe ze de afstand, thuiswerk en het missen van contact ervaren."
     },
     {
-      "start_seconds": 340,
-      "title": "Een economische ramp?",
-      "summary": "Visser schetst de snelheid van de crisis, de Amerikaanse werkloosheid en de Nederlandse steunmaatregelen."
+      "start_seconds": 300,
+      "title": "Economische ramp of tijdelijke dip?",
+      "summary": "Visser schetst de snelle economische klap en de rol van steunmaatregelen."
     },
     {
-      "start_seconds": 955,
-      "title": "Gezondheid versus economie",
-      "summary": "Discussie over Jort Kelder, ondernemers en het idee dat de economie weer open moet."
+      "start_seconds": 960,
+      "title": "Gezondheid tegenover economie",
+      "summary": "Discussie over ondernemers, uitspraken van Jort Kelder en de balans tussen gezondheid en economie."
     },
     {
-      "start_seconds": 1245,
-      "title": "Exitstrategie en de rol van theologen",
-      "summary": "Over Merkels team met theologen en wat kerk en pastoraat kunnen bijdragen."
+      "start_seconds": 1290,
+      "title": "Exit-strategie en anderhalve meter samenleving",
+      "summary": "Hoe het land weer opengaat, welke sectoren kunnen, en de rol van experts en theologen."
     },
     {
-      "start_seconds": 1460,
-      "title": "De anderhalvemetereconomie",
-      "summary": "Praktische en financiële problemen van afstand houden in openbaar vervoer, horeca en winkels."
+      "start_seconds": 1800,
+      "title": "Welvaart, ongelijkheid en globalisering",
+      "summary": "Of welvaart structureel daalt, en wie de kosten van de crisis het zwaarst draagt."
     },
     {
-      "start_seconds": 1660,
-      "title": "Saamhorigheid of egoïsme?",
-      "summary": "Over mensbeeld, Bregman en wat crisis met mensen doet."
+      "start_seconds": 2600,
+      "title": "Bedrijven, belastingen en klimaat",
+      "summary": "Discussie over steun aan bedrijven zoals Booking.com en KLM en de rol van de overheid."
     },
     {
-      "start_seconds": 1840,
-      "title": "Welvaart, groei en ongelijkheid",
-      "summary": "Of we soberder gaan leven en waarom lage groei kwetsbare groepen raakt."
+      "start_seconds": 3300,
+      "title": "Geloof en economie",
+      "summary": "Visser en Paas bespreken wat de Bijbel zegt over rijkdom, werk en sociale rechtvaardigheid."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Geloof in coronatijd en menselijk contact",
+      "summary": "Reflectie op Pasen zonder kerkdienst en het belang van fysieke nabijheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1100,
+      "start_seconds": 2010,
       "speaker": "Martin Visser",
-      "text": "Bij 'het dorre hout' lopen er rillingen over mijn rug.",
-      "note": "Persoonlijke reactie op het frame van economie tegenover ouderen."
+      "text": "Ik ben er niet van overtuigd dat de crisis de ongelijkheid vermindert; ik zie nog niet hoe deze pandemiecrisis de financiële gelijkheid zal vergroten.",
+      "note": "Scherpe tegenspraak tegen het idee dat een crisis iedereen gelijk maakt."
     },
     {
-      "start_seconds": 1739,
-      "speaker": "Martin Visser",
-      "text": "Bij een veel dodelijker virus had Rutger Bregman zijn boek bij het oud papier kunnen gooien.",
-      "note": "Scherpe kritiek op het optimistische mensbeeld."
-    },
-    {
-      "start_seconds": 1240,
-      "speaker": "David Boogerd",
-      "text": "Merkel heeft een team samengesteld voor de exitstrategie waar zelfs theologen in zitten.",
-      "note": "Verrassend moment dat theologie verbindt met crisisbeleid."
-    },
-    {
-      "start_seconds": 1995,
-      "speaker": "Martin Visser",
-      "text": "Mijn grootste zorg is dat de ongelijkheid toeneemt als de koek kleiner wordt.",
-      "note": "Kern van zijn economische analyse."
-    },
-    {
-      "start_seconds": 1435,
+      "start_seconds": 2265,
       "speaker": "Stefan Paas",
-      "text": "Een kerk ontbubbelt je enorm.",
-      "note": "Treffende observatie over de kerk als gemeenschap."
+      "text": "Het is geen economisch handboek.",
+      "note": "Compacte samenvatting van hoe de Bijbel zich tot economie verhoudt."
+    },
+    {
+      "start_seconds": 1700,
+      "speaker": "Martin Visser",
+      "text": "Als de sterftecijfers een paar factoren hoger waren geweest, had Rutger Bregman zijn boek bij het oud papier kunnen gooien.",
+      "note": "Provocerende gedachte over menselijk gedrag in crisistijd."
+    },
+    {
+      "start_seconds": 3750,
+      "speaker": "Martin Visser",
+      "text": "We zijn ontzettend sociale wezens en dat wisten we al, maar dat heb ik nu keihard ondervonden.",
+      "note": "Emotioneel moment over het missen van contact."
     }
   ],
   "keywords": [
     "coronacrisis",
     "economische crisis",
-    "steunmaatregelen",
-    "anderhalvemetereconomie",
+    "werkloosheid",
     "ongelijkheid",
-    "economische groei",
-    "brede welvaart",
-    "saamhorigheid",
-    "mensbeeld",
-    "kerkgemeenschap",
-    "Rutger Bregman"
+    "steunmaatregelen",
+    "welvaart",
+    "ondernemers",
+    "Bijbel en economie",
+    "rechtvaardigheid",
+    "anderhalve meter samenleving",
+    "exit-strategie",
+    "globalisering"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 27,
-      "reason": "Ook corona, 'nieuwe normaal', geloof en hoop met Stefan Paas in dezelfde periode."
+      "n": 145,
+      "reason": "Economische tijden, geloof en vreugde; gedeeld economisch en geloofsthema"
     },
     {
       "n": 25,
-      "reason": "Coronacrisis in historisch en religieus perspectief, met Stefan Paas."
+      "reason": "Pandemieën en crisis vanuit geschiedenis en geloof; gedeelde figuur Beatrice de Graaf"
+    },
+    {
+      "n": 27,
+      "reason": "Corona-tijd, hoop en geloof in het 'nieuwe normaal'; zingeving en crisis"
     },
     {
       "n": 24,
-      "reason": "Coronacrisis, impact op samenleving en zingeving, met Stefan Paas."
+      "reason": "Corona-angst en omgaan met onzekerheid; zingeving en geloof in crisistijd"
     },
     {
-      "n": 145,
-      "reason": "Economie en geloof in extreme economische tijden, met Stefan Paas."
-    },
-    {
-      "n": 126,
-      "reason": "Economie, moraal, kloof en grote verhalen met Stefan Paas."
+      "n": 47,
+      "reason": "Coronacrisis en de gevolgen voor geloof en kerk; maatschappelijke impact"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

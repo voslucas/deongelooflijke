@@ -1,18 +1,23 @@
 {
   "episode": 291,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 168843,
+    "segments": 1637,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31993,
-    "output_tokens": 2125,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 87227,
+    "output_tokens": 8109,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
     "Politiek",
-    "Zingeving & psyche",
-    "Kerk & secularisatie"
+    "God & geloof",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Jurriën Hamer"
@@ -20,199 +25,305 @@
   "people": [
     {
       "name": "Jurriën Hamer",
-      "note": "filosoof, docent ethiek en politieke filosofie aan de Universiteit Utrecht, auteur van Wat vrijheid van je vraagt",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "note": "Gast; filosoof, docent ethiek en politieke filosofie aan de Universiteit Utrecht, auteur van 'Wat vrijheid van je vraagt'",
+      "start_seconds": 147,
+      "mention_count": 40
     },
     {
-      "name": "Éric Zemmour",
-      "note": "Franse rechts-nationalistische denker die een 'katholiek Frankrijk' bepleit",
-      "start_seconds": 682,
-      "wiki_checked": true,
-      "wiki_pageid": 2135948,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/%C3%89ric_Zemmour",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Portrait_d%27%C3%89ric_Zemmour%2C_avril_2022.jpg/250px-Portrait_d%27%C3%89ric_Zemmour%2C_avril_2022.jpg"
+      "name": "Stefan Paas",
+      "note": "Vaste gast; theoloog, hoogleraar aan de VU en de Theologische Universiteit Utrecht",
+      "start_seconds": 0,
+      "mention_count": 30
+    },
+    {
+      "name": "Jezus",
+      "note": "Verwijzing naar de Bergrede en de bijbelse traditie van vergeving en gelijkwaardigheid",
+      "start_seconds": 5322,
+      "mention_count": 4
     },
     {
       "name": "Mark Rutte",
-      "note": "voormalig premier, citaat over beslissen met 50% van de informatie tijdens corona",
+      "note": "Voormalig premier; genoemd in verband met het nemen van beslissingen tijdens corona",
       "start_seconds": 1908,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Henri Bontenbal",
-      "note": "CDA-leider, debatteerde met Yeşilgöz over liberale democratie",
-      "start_seconds": 504,
-      "wiki_checked": true,
-      "wiki_pageid": 5530732,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henri_Bontenbal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Henri_Bontenbal.jpg/250px-Henri_Bontenbal.jpg"
+      "name": "Geert Wilders",
+      "note": "PVV-leider; genoemd als politicus die migratie en 'honger in Afrika' inzet",
+      "start_seconds": 2892,
+      "mention_count": 3
     },
     {
-      "name": "Dilan Yeşilgöz",
-      "note": "VVD-leider",
-      "start_seconds": 504,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
+      "name": "Rutger Bregman",
+      "note": "Historicus en publicist; bevriend met Hamer, beschreven als 'linkse dominee'",
+      "start_seconds": 4574,
+      "mention_count": 4
     },
     {
-      "name": "Jesse Klaver",
-      "note": "GroenLinks-PvdA-leider",
-      "start_seconds": 517,
-      "wiki_checked": true,
-      "wiki_pageid": 1725801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesse_Klaver",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jesse_Klaver_2020_%286%29_%28cropped%29.jpg/250px-Jesse_Klaver_2020_%286%29_%28cropped%29.jpg"
+      "name": "Tom Holland",
+      "note": "Britse historicus; betoogt dat het liberalisme voortkomt uit het christendom",
+      "start_seconds": 5056,
+      "mention_count": 4
+    },
+    {
+      "name": "Éric Zemmour",
+      "note": "Frans politicus en denker; genoemd in verband met katholiek nationalisme",
+      "start_seconds": 660,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Premier van Hongarije; gebruikte de term 'illiberale democratie'",
+      "start_seconds": 4070,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; genoemd in verband met de tegenreactie op woke en het liberalisme",
+      "start_seconds": 4088,
+      "mention_count": 2
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer; genoemd als voorbeeld van rijke en machtige mensen die hun positie verdedigen",
+      "start_seconds": 4750,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Boven",
+      "note": "Auteur van 'De Diplomademocratie'; het boek wordt gebruikt om de diplomakloof te bespreken",
+      "start_seconds": 3819,
+      "mention_count": 2
+    },
+    {
+      "name": "Hein de Haas",
+      "note": "Migratieonderzoeker; eerder te gast in de podcast, besproken over lusten en lasten van migratie",
+      "start_seconds": 4185,
+      "mention_count": 1
+    },
+    {
+      "name": "John Locke",
+      "note": "Filosoof; genoemd als vroege bron van het liberale denken",
+      "start_seconds": 5412,
+      "mention_count": 1
+    },
+    {
+      "name": "Yeşilgöz",
+      "note": "Politica (VVD); genoemd in een denkbeeldige discussie met Bontenbal over liberalisme",
+      "start_seconds": 496,
+      "mention_count": 1
+    },
+    {
+      "name": "Bontenbal",
+      "note": "Politicus (CDA); genoemd in discussie met Yeşilgöz over de liberale democratie",
+      "start_seconds": 496,
+      "mention_count": 1
+    },
+    {
+      "name": "Klaver",
+      "note": "Politicus (GroenLinks); genoemd in verband met liberale opmerkingen namens GroenLinks",
+      "start_seconds": 514,
+      "mention_count": 1
+    },
+    {
+      "name": "Andreas Bernier",
+      "note": "Schrijver; geciteerd over gevoelige zielen die atheïst worden",
+      "start_seconds": 6042,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Wat vrijheid van je vraagt: Filosofie voor een bloedserieuze tijd",
+      "title": "Wat vrijheid van je vraagt – Filosofie voor een bloedserieuze tijd",
       "author": "Jurriën Hamer",
-      "note": "pleidooi voor een strenger liberalisme met aandacht voor plichten en dienstbaarheid",
-      "start_seconds": 162,
+      "note": "Het boek waarover het gesprek gaat; pleit voor een strenger, dienstbaar liberalisme",
+      "start_seconds": 147,
       "volume_id": "tLQzEQAAQBAJ",
-      "canonical_title": "Wat vrijheid van je vraagt: Filosofie voor een bloedserieuze tijd",
+      "canonical_title": "Wat vrijheid van je vraagt – Filosofie voor een bloedserieuze tijd",
       "canonical_author": "Jurriën Hamer",
       "isbn13": "9789403135847",
       "isbn10": "9403135840",
       "thumbnail": "http://books.google.com/books/content?id=tLQzEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De Diplomademocratie",
+      "author": "Mark Boven",
+      "note": "Gebruikt als onderbouwing voor de diplomakloof in het publieke debat",
+      "start_seconds": 3918,
+      "volume_id": "-I8-bwAACAAJ",
+      "canonical_title": "Diplomademocratie over de spanning tussen meritocratie en democratie",
+      "canonical_author": "Mark Bovens, Anchrit C. Wille",
+      "isbn13": "9789035136069",
+      "isbn10": "9035136063",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5",
+      "note": "De Bergrede: radicalisering van wetten en de wending naar vergeving",
+      "start_seconds": 5641
+    },
+    {
+      "ref": "Genesis 1:27",
+      "note": "Mens geschapen naar het evenbeeld van God; argument voor gelijkwaardigheid",
+      "start_seconds": 5322
+    },
+    {
+      "ref": "Psalm 88",
+      "note": "Psalm waarin de dichter twijfelt of God er nog is; voorbeeld van geloofstwijfel in de Bijbel",
+      "start_seconds": 5289
+    },
+    {
+      "ref": "Psalm 44",
+      "note": "Klaagpsalm waarin twijfel aan Gods nabijheid wordt uitgesproken",
+      "start_seconds": 5296
+    }
+  ],
   "places": [
     "Utrecht",
+    "Den Haag",
     "Lyon",
     "Frankrijk",
+    "Hongarije",
+    "Verenigde Staten",
     "Iran",
-    "Den Haag",
-    "Amsterdam",
-    "Australië",
-    "Nieuw-Zeeland"
+    "Engeland"
   ],
-  "summary_tldr": "Filosoof Jurriën Hamer vertelt over zijn drie hartstilstanden en over zijn boek Wat vrijheid van je vraagt. Hij pleit voor een sociaal en strenger liberalisme waarin vrijheid ook plichten en dienstbaarheid inhoudt. Met Stefan Paas bespreekt hij hoe ver de overheid mag gaan, bijvoorbeeld bij corona, roken en suiker.",
+  "summary_tldr": "Filosoof Jurriën Hamer, die drie hartstilstanden overleefde, pleit voor een strenger liberalisme dat naast rechten ook plichten en dienstbaarheid centraal stelt. In het gesprek met David Boogerd en Stefan Paas komen de grenzen van vrijheid aan bod, zoals verslaving, corona en de verdeling van de lasten van migratie. Ook de rol van christelijke morele taal en de vraag hoe een moreel verantwoorde gemeenschap weer opgebouwd kan worden, komen uitgebreid aan bod.",
   "summary_points": [
-    "Hamer overleefde drie hartstilstanden en draagt nu een defibrillator.",
-    "De ervaring maakte hem milder en dankbaarder, en relativeert zijn politieke verontwaardiging.",
-    "Zijn vrouw kreeg PTSS door het meemaken van de hartstilstand.",
-    "Liberalisme gaat over vrijheid én morele gelijkheid; het is meer dan eigendomsrecht.",
-    "Hij noemt zichzelf sociaal liberaal en betwijfelt of de VVD echt liberaal is.",
-    "Verslaving en ziekte zijn bedreigingen van vrijheid, dus overheidsingrijpen kan liberaal zijn.",
-    "Een suikertaks en een rookverbod per geboortejaar vindt hij verdedigbaar.",
-    "Liberalisme is ook een levensfilosofie: rechten van anderen vragen om dienstbaarheid.",
-    "Stefan Paas bevraagt de klassieke liberale vrees voor een overheid die zich overal mee bemoeit."
+    "Hamer stelt dat we het liberalisme 'hoogstens voor de helft' hebben gerealiseerd: rechten zijn bekend, plichten zijn vergeten.",
+    "Hij pleit voor een 'strenger liberalisme' dat dienstbaarheid, sociale voorzieningen en plichten van rijke en machtige mensen centraal stelt.",
+    "Paas wijst op het spanningsveld tussen positieve rechten die de overheid moet afdwingen en het klassiek liberale gevaar van een te grote staat.",
+    "Het gesprek gaat over verslaving: sigaretten en suikertaks worden gezien als legitieme ingrepen om echte vrijheid te beschermen.",
+    "Over corona en de maatregelen van de overheid bestaat verschil van inzicht, maar beide heren erkennen het liberale dilemma van hoe ver de staat mag gaan.",
+    "Het debat over migratie en de diplomakloof: volgens Hamer is migratie de motor die het liberale gedachtegoed onder druk zet.",
+    "Religieuze vrijheid versus de rechten van individuen komt aan bod, onder meer rond reformatorische scholen en de vrijheid van geweten.",
+    "Hamer ziet in christelijke morele taal (zonde, vergeving, verlossing) een bron die het liberalisme kan versterken en de gemeenschap kan dienen.",
+    "Paas en Hamer bespreken of het christendom zelf de bron is van zowel liberale als conservatieve bewegingen.",
+    "Persoonlijk vertelt Hamer hoe zijn ervaringen met kwetsbaarheid hem milder maar ook vastberaden hebben gemaakt."
   ],
   "chapters": [
     {
-      "start_seconds": 162,
-      "title": "Een bloedserieuze tijd",
-      "summary": "Introductie van Hamers boek en de vraag of dit gouden tijden zijn voor liberalen."
+      "start_seconds": 0,
+      "title": "Intro en het boek",
+      "summary": "Boogerd introduceert Hamer, zijn boek en de vraag wat deze 'bloedserieuze tijd' betekent. Ook de vergelijking met het huidige liberale kabinet komt aan bod."
     },
     {
-      "start_seconds": 180,
+      "start_seconds": 147,
       "title": "Wat is liberalisme?",
-      "summary": "Vrijheid en morele gelijkheid; kritiek op de VVD en op identiteitspolitiek zoals het 'katholieke Frankrijk'."
+      "summary": "Hamer en Paas discussiëren over het verschil tussen neoliberalisme en sociaal liberalisme, en over de vrijheid als het centrale politieke begrip."
     },
     {
       "start_seconds": 760,
-      "title": "De hartstilstanden",
-      "summary": "Hamer vertelt over de reanimatie, het coma, het kastje en de gevolgen voor zijn gezin."
+      "title": "De hartstilstand",
+      "summary": "Hamer vertelt hoe hij thuis een hartstilstand kreeg, hoe zijn vrouw en omstanders hem redden en hoe de ervaring zijn leven en denken heeft veranderd."
     },
     {
-      "start_seconds": 1200,
-      "title": "Kwetsbaarheid en dienstbaarheid",
-      "summary": "Wat de ervaring met hem deed: milder, dankbaarder en zich bewust van afhankelijkheid van anderen."
+      "start_seconds": 1684,
+      "title": "Positieve rechten en de staat",
+      "summary": "Paas en Hamer bespreken de spanning tussen negatieve grondrechten en positieve rechten zoals gezondheidszorg en een leefbaar milieu."
     },
     {
-      "start_seconds": 1660,
-      "title": "Positieve rechten en de overheid",
-      "summary": "Over grondrechten, de grenzen van overheidsingrijpen en de coronamaatregelen."
+      "start_seconds": 1853,
+      "title": "Corona, verslaving en de suikertaks",
+      "summary": "Het gesprek gaat over de overheid tijdens corona, over de grenzen van paternalisme en over verslaving als bedreiging van vrijheid."
     },
     {
-      "start_seconds": 2040,
-      "title": "Verslaving, roken en suiker",
-      "summary": "Hoe ver mag de overheid gaan bij verslavende producten, en wat betekent een strenger liberalisme."
+      "start_seconds": 3785,
+      "title": "Diplomakloof en migratie",
+      "summary": "Paas bespreekt de kloof tussen hoog- en laagopgeleiden in het debat. Hamer analyseert migratie als motor van illiberale bewegingen."
+    },
+    {
+      "start_seconds": 4272,
+      "title": "Plichten, religie en gemeenschap",
+      "summary": "Hamer en Boogerd praten over het belang van plichten, de christelijke morele traditie en het verlies van gemeenschappen zoals zuilen en gezinnen."
+    },
+    {
+      "start_seconds": 5583,
+      "title": "Geloof, vergeving en de toekomst",
+      "summary": "Het gesprek eindigt bij Hamers eigen geloof, de Bergrede als bron van vergeving en de vraag hoe mensen in de kerk met twijfel omgaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2820,
+      "start_seconds": 760,
       "speaker": "Jurriën Hamer",
-      "text": "Liberalisme is niet alleen een politieke filosofie, het is ook een levensfilosofie.",
-      "note": "Kern van zijn pleidooi voor plichten naast rechten."
+      "text": "Ik zat thuis op de bank en toen kreeg ik een hartstilstand.",
+      "note": "Een nuchtere opening die laat zien hoe dichtbij de dood was en hoe toevallig zijn redding verliep."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 217,
       "speaker": "Jurriën Hamer",
-      "text": "Je voelt de absentie; er zaten dagen tussen die ik gewoon kwijt ben.",
-      "note": "Nuchtere beschrijving van de periode zonder bewustzijn."
+      "text": "Ik zou bezwaar maken tegen het VVD en de VVD nog omschrijven als een liberale partij.",
+      "note": "Een scherpe stelling die het liberalisme van de gevestigde partijen ter discussie stelt."
     },
     {
-      "start_seconds": 1500,
+      "start_seconds": 1354,
       "speaker": "Jurriën Hamer",
-      "text": "Mijn reservoirtje van verontwaardiging is wel leeg.",
-      "note": "Laat zien hoe de ervaring hem milder maakte."
+      "text": "Zo ziet kwetsbaarheid er dus echt uit: dat je zo afhankelijk bent van andere mensen.",
+      "note": "Zijn ervaring in het ziekenhuis verbindt het persoonlijke met zijn filosofie van dienstbaarheid."
     },
     {
-      "start_seconds": 1080,
+      "start_seconds": 4112,
       "speaker": "Jurriën Hamer",
-      "text": "Als iemand vrolijk door het leven wandelt dankzij moderne technologie, dan ben ik het.",
-      "note": "Dankbaarheid voor de defibrillator."
+      "text": "De allergrootste zwakte van mensen is onze xenofobie.",
+      "note": "Een provocerende uitspraak die het migratiedebat op een fundamenteel menselijk niveau plaatst."
     },
     {
-      "start_seconds": 1390,
+      "start_seconds": 4301,
       "speaker": "Jurriën Hamer",
-      "text": "Mijn vrouw heeft PTSS gekregen.",
-      "note": "Raakt de impact op naasten."
+      "text": "Als je rechten hebt, heb je ook plichten. Dat is een vrij logisch verband.",
+      "note": "De kern van zijn betoog: we eisen rechten op, maar vergeten de plichten die erbij horen."
+    },
+    {
+      "start_seconds": 5021,
+      "speaker": "Stefan Paas",
+      "text": "Het christendom zelf is de boezem van zeer veel buitengewoon tegenstrijdige bewegingen.",
+      "note": "Paas laat zien dat zowel het progressieve als het conservatieve kamp hun wortels in het christendom hebben."
     }
   ],
   "keywords": [
     "liberalisme",
     "vrijheid",
     "plichten",
+    "sociaal liberalisme",
     "dienstbaarheid",
     "hartstilstand",
-    "kwetsbaarheid",
-    "grondrechten",
-    "sociaal liberalisme",
     "verslaving",
-    "overheid",
-    "gelijkheid"
+    "migratie",
+    "vergeving",
+    "morele gemeenschap",
+    "Bergrede",
+    "diplomakloof"
   ],
   "quotes": [
     "Rechten kennen we inmiddels wel, zegt hij. Maar plichten? Die zijn we vergeten.",
-    "Volgens Hamer hebben we het liberalisme hoogstens voor de helft gerealiseerd."
+    "Volgens Hamer hebben we het liberalisme hoogstens voor de helft gerealiseerd.",
+    "Daarom pleit hij voor iets opvallends: een strenger liberalisme."
   ],
   "similar": [
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over de crisis van het liberale Westen, filosofie en politiek"
+      "n": 21,
+      "reason": "Bas Heijne over de liberale leegte en hoe mens zijn in polariserende samenleving."
+    },
+    {
+      "n": 197,
+      "reason": "Hein de Haas, bekend uit deze aflevering, over migratie als politiek en cultureel thema."
     },
     {
       "n": 301,
-      "reason": "Paul Frissen met Paas over de staat, het volk en seculiere elite"
+      "reason": "Paul Frissen over de losgezongen elite en de verhouding tot het volk."
     },
     {
-      "n": 221,
-      "reason": "Bas Heijne over politiek, vrijheid en Camus; filosofische duiding"
+      "n": 15,
+      "reason": "Gert-Jan Segers over een verweesde samenleving die een morele vader zoekt."
     },
     {
-      "n": 21,
-      "reason": "Bas Heijne over de liberale leegte en samenleving"
-    },
-    {
-      "n": 113,
-      "reason": "Het idee van vrijheid komt niet overeen met de werkelijkheid; De Graaf en Paas"
+      "n": 149,
+      "reason": "Het wereldbeeld achter het tijdperk-Rutte, met politiek, filosofie en geloof."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

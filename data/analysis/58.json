@@ -1,18 +1,23 @@
 {
   "episode": 58,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 96978,
+    "segments": 935,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30714,
-    "output_tokens": 2547,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49765,
+    "output_tokens": 3359,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
-    "God & geloof",
-    "Geschiedenis",
-    "Samenleving & migratie"
+    "Bijbel & Jezus (Bijbel, Jezus, evangeliën, Christus, Bergrede, apostelen, Paulus)",
+    "Kerk & secularisatie (Kerk, ontkerkelijking, secularisatie, paus, katholiek, protestant, dominee, priester, klooster)",
+    "Geopolitiek & oorlog (Oorlog, Rusland, Poetin, Oekraïne, NAVO, defensie, Israël, Gaza, Midden-Oosten, China, geopolitiek, terrorisme)",
+    "Samenleving & migratie (Migratie, vluchtelingen, racisme, identiteit, polarisatie, woke, samenleving, integratie)"
   ],
   "guests": [
     "Andrea Vreede"
@@ -20,234 +25,246 @@
   "people": [
     {
       "name": "Paus Franciscus",
-      "note": "huidige paus, milieubewust en gericht op sociale rechtvaardigheid",
-      "start_seconds": 433,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "Huidige paus, gekozen in 2013; milieubewust en sociaal engagement",
+      "start_seconds": 18,
+      "mention_count": 30
     },
     {
       "name": "Johannes Paulus II",
-      "note": "voormalig paus, bezocht Nederland in de jaren 80, encycliek Redemptoris Missio",
-      "start_seconds": 706,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "note": "Paus tot 2005; pausbezoek aan Nederland in de jaren 80",
+      "start_seconds": 1990,
+      "mention_count": 6
     },
     {
       "name": "Benedictus XVI",
-      "note": "voormalig paus (Joseph Ratzinger), wilde Europa herchristianiseren",
-      "start_seconds": 706,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
-    },
-    {
-      "name": "Benedictus van Nursia",
-      "note": "grondlegger van het kloosterwezen en patroonheilige van Europa",
-      "start_seconds": 748,
-      "wiki_checked": true,
-      "wiki_pageid": 103988,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_van_Nursia",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pietro_Perugino_cat48l.jpg/250px-Pietro_Perugino_cat48l.jpg"
+      "note": "Voorganger van Franciscus; Jozef Ratzinger, koos de naam Benedictus om Europa te kerstenen",
+      "start_seconds": 732,
+      "mention_count": 7
     },
     {
       "name": "Philip Jenkins",
-      "note": "religiewetenschapper die onderzoek deed naar het christendom in het Zuiden",
-      "start_seconds": 885,
-      "wiki_checked": true
+      "note": "Religiewetenschapper die onderzoek deed naar christendom in het zuiden van de wereld",
+      "start_seconds": 890,
+      "mention_count": 1
     },
     {
       "name": "Silvio Berlusconi",
-      "note": "voormalig Italiaans premier, reageerde op de rechtszaak over het kruisbeeld in klaslokalen",
-      "start_seconds": 1476,
-      "wiki_checked": true,
-      "wiki_pageid": 15543,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Silvio_Berlusconi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Silvio_Berlusconi_2018.jpg/250px-Silvio_Berlusconi_2018.jpg"
-    },
-    {
-      "name": "Constantijn de Grote",
-      "note": "Romeinse keizer die christen werd",
-      "start_seconds": 1656,
-      "wiki_checked": true,
-      "wiki_pageid": 319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Constantijn_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/250px-Constantine_Chiaramonti_Inv1749.jpg"
+      "note": "Toenmalig Italiaans premier; reageerde op de rechtszaak over kruisbeelden in klaslokalen",
+      "start_seconds": 1480,
+      "mention_count": 1
     },
     {
       "name": "Giuseppe Conte",
-      "note": "Italiaans premier tijdens de coronacrisis",
-      "start_seconds": 2202,
-      "wiki_checked": true,
-      "wiki_pageid": 5064700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giuseppe_Conte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Giuseppe_Conte_Official.jpg/250px-Giuseppe_Conte_Official.jpg"
+      "note": "Italiaans premier tijdens de coronapandemie (Vijfsterrenbeweging)",
+      "start_seconds": 2200,
+      "mention_count": 1
     },
     {
-      "name": "Franz Joseph I",
-      "note": "keizer van Oostenrijk-Hongarije met vetorecht bij het conclaaf",
+      "name": "Joe Biden",
+      "note": "Amerikaanse president; genoemd als vergelijking met de werklast van de paus",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Luis Antonio Tagle",
+      "note": "Filipijnse kardinaal en mogelijke kandidaat voor opvolging van de paus",
+      "start_seconds": 3540,
+      "mention_count": 2
+    },
+    {
+      "name": "Hadrianus VI",
+      "note": "Enige Nederlandse paus (1522-1523)",
+      "start_seconds": 3660,
+      "mention_count": 2
+    },
+    {
+      "name": "Frans Jozef",
+      "note": "Keizer van Oostenrijk-Hongarije; had tot 1915 vetorecht bij pauskeuze",
       "start_seconds": 418,
-      "wiki_checked": true,
-      "wiki_pageid": 39986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Jozef_I_van_Oostenrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Emperor_Francis_Joseph.jpg/250px-Emperor_Francis_Joseph.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Petrus",
-      "note": "eerste paus volgens de traditie, relevant voor de archeologie",
-      "start_seconds": 376,
-      "wiki_checked": true,
-      "wiki_pageid": 10525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Petrus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pope-peter_pprubens.jpg/250px-Pope-peter_pprubens.jpg"
+      "name": "Benedictus van Nursia",
+      "note": "Grondlegger van het kloosterwezen en patroonheilige van Europa",
+      "start_seconds": 755,
+      "mention_count": 2
+    },
+    {
+      "name": "Constantijn de Grote",
+      "note": "Romeinse keizer die in 312 christen werd",
+      "start_seconds": 1644,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Redemptoris Missio",
+      "author": "Johannes Paulus II",
+      "note": "Encycliek uit 1990 over Europa als zendingsveld",
+      "start_seconds": 725,
+      "volume_id": "fRykAAAACAAJ",
+      "canonical_title": "Encycliek Redemptoris missio van Paus Johannes Paulus II",
+      "canonical_author": "Joannes Paulus II (paus)",
+      "isbn13": "9789072263223",
+      "isbn10": "9072263227",
+      "thumbnail": ""
+    },
+    {
+      "title": "Laudato Si",
+      "author": "Paus Franciscus",
+      "note": "Encycliek over natuur, schepping en zorg voor de planeet en de armen",
+      "start_seconds": 512,
+      "volume_id": "AA0OkAEACAAJ",
+      "canonical_title": "Laudato si'",
+      "canonical_author": "Franciscus (Paus)",
+      "isbn13": "9789492093202",
+      "isbn10": "9492093200",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Genesis 6",
+      "note": "Verhaal van Noach, ark en zondvloed, genoemd als voorbeeld van kinderbijbelverhalen die jongeren niet aanspreken",
+      "start_seconds": 2820
+    }
+  ],
   "places": [
     "Rome",
     "Vaticaan",
     "Italië",
     "Nederland",
+    "Manila",
     "Bergamo",
     "Trastevere",
     "Glasgow",
-    "Manilla",
     "Parijs",
-    "Sicilië"
+    "San Marino",
+    "Milaan",
+    "China"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met Vaticaan-correspondent Andrea Vreede, die zelf niet gelovig is, over de wereldkerk, paus Franciscus en het katholieke Italië. Ze bespreken waarom Italianen bijna allemaal katholiek zijn zonder dat het conflicteert met modern zijn, en waarom Nederland religieus gezien een uniek land is met weinig kennis over de katholieke kerk.",
+  "summary_tldr": "Andrea Vreede, Vaticaan-correspondent in Rome en niet-gelovig, bespreekt met David Boogerd en Stefan Paas de betekenis van het Vaticaan en de wereldkerk van ruim 1,3 miljard katholieken. Ze vergelijkt het sterk katholieke Italië, waar veel mensen cultureel katholiek zijn, met het seculiere Nederland, en pleit voor meer begrip voor religie. Ook de rol van paus Franciscus, de opvolging en het Nederlandse beeld van de katholieke kerk komen aan bod.",
   "summary_points": [
-    "Het Vaticaan en de katholieke kerk (1,3 miljard leden) blijven wereldwijd van grote invloed, ook op klimaat en diplomatie.",
-    "Paus Franciscus legt de nadruk op milieu, sociale rechtvaardigheid en barmhartigheid in plaats van zieltjeswinst.",
-    "De zwaartepunten van de kerk verschuiven naar Afrika en Azië; Nederland speelt voor de paus een bescheiden rol.",
-    "Nederlanders tonen vaak desinteresse of spot over de katholieke kerk, terwijl andere religies met meer respect worden benaderd.",
-    "Jongeren in Nederland missen vaak elke kennis van religie, zoals de vraag 'wat is een priester?' laat zien.",
-    "Italië kent veel cultuurkatholicisme: de kerk is verweven met rituelen als doop, vormsel, huwelijk en uitvaart.",
-    "Italianen hebben geen conflictmodel tussen religie en moderniteit; ze zijn katholiek ondanks onenigheid met de kerkleer.",
-    "Tijdens corona werkte het katholieke geloof verbindend en versterkte het de gemeenschapszin.",
-    "Volksgeloof in Italië draait vaak om Maria en de heilige familie, meer dan om God de Vader."
+    "Het Vaticaan en de katholieke kerk hebben wereldwijd grote invloed, vooral in Afrika, Azië en Latijns-Amerika waar het ledental groeit",
+    "Paus Franciscus speelt een morele rol in klimaatbeleid en schaduwdiplomatie, met de encycliek Laudato Si als voorbeeld",
+    "Italië is grotendeels cultureel katholiek; geloof is verweven met familie, rituelen en sociale zorg",
+    "Nederland kijkt vaak lacherig of onwetend naar de katholieke kerk, terwijl religie wereldwijd groeit",
+    "Het pausbezoek aan Nederland in de jaren 80 wordt beschreven als een diep trauma in de betrekkingen",
+    "Franciscus streeft naar een cultuuromslag en synodaliteit in de kerk, met de synode van oktober 2023",
+    "Speculatie over de opvolging: een Aziatische paus, zoals kardinaal Tagle, zou mogelijk zijn",
+    "Vreede benadrukt dat zij zelf niet gelovig is maar de noodzaak van spiritualiteit erkent",
+    "Italiaanse kerkelijke politiek en wetgeving (echtscheiding, abortus, partnerschap) kenden sterke invloed van de katholieke stem"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Rome en de weg naar het Vaticaan",
-      "summary": "Kennismaking met Andrea Vreede, haar leven in Rome en haar achtergrond in archeologie en toerisme."
+      "title": "Introductie en Rome",
+      "summary": "Vreede stelt zich voor vanuit Rome en vertelt over haar achtergrond in archeologie en toerisme."
     },
     {
       "start_seconds": 300,
-      "title": "Waarom het Vaticaan nog relevant is",
-      "summary": "Over de macht en geschiedenis van de kerk en de invloed van paus Franciscus op klimaat en diplomatie."
+      "title": "Waarom het Vaticaan relevant is",
+      "summary": "Bespreking van de wereldwijde invloed van de kerk, de klimaatpolitiek van Franciscus en het seksueel misbruik als thema."
     },
     {
-      "start_seconds": 660,
-      "title": "Franciscus versus zijn voorgangers",
-      "summary": "Vergelijking van de missie van Franciscus met die van Johannes Paulus II en Benedictus XVI, en zijn Latijns-Amerikaanse wortels."
+      "start_seconds": 890,
+      "title": "Nederlandse versus Italiaanse blik op religie",
+      "summary": "Discussie over de Nederlandse desinteresse, het Nederlandse katholicisme en de jeugd die niets meer weet van religie."
     },
     {
-      "start_seconds": 845,
-      "title": "Nederland kijkt naar de kerk",
-      "summary": "Over de Nederlandse onwetendheid en spot over het katholicisme en de verhalen van scholieren zonder religieuze kennis."
+      "start_seconds": 1500,
+      "title": "Cultuurcatholicisme in Italië",
+      "summary": "Italianen blijven katholiek als identiteit, met rituelen, sociale zorg en een sterke gemeenschapszin."
     },
     {
-      "start_seconds": 1333,
-      "title": "Cultuurkatholicisme in Italië",
-      "summary": "Hoe katholicisme in Italië verweven is met het dagelijks leven, met het kruisbeeld in klaslokalen, Maria en de familie als voorbeelden."
+      "start_seconds": 2300,
+      "title": "Corona en de kerk in Italië",
+      "summary": "De pandemie maakte de kerk een bindende kracht; Franciscus' Urbi et Orbi-zegen trok veel aandacht."
     },
     {
-      "start_seconds": 1900,
-      "title": "Italië tijdens corona",
-      "summary": "Hoe geloof en gemeenschapszin Italianen steun gaven tijdens de pandemie en de rol van Franciscus en premier Conte."
+      "start_seconds": 2900,
+      "title": "Franciscus, hervorming en opvolging",
+      "summary": "Vreede bespreekt de hervormingen van de paus, mogelijke opvolgers en de vraag of hij lang aanblijft."
     },
     {
-      "start_seconds": 2250,
-      "title": "Imago, populariteit en kerkbezoek",
-      "summary": "Over het imago van het katholicisme in Nederland en Italië, de populariteit van Franciscus en jonge kerkgangers."
+      "start_seconds": 3600,
+      "title": "Afsluiting",
+      "summary": "Afronding met de Hadrianus-herdenking en vooruitblik op de zomer en vakantie in Italië."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1265,
+      "start_seconds": 1,
       "speaker": "Andrea Vreede",
-      "text": "Een 17-jarige vroeg bij een kerkelijke kledingwinkel: 'wat is een priester?'",
-      "note": "Illustreert de afwezigheid van religieuze kennis bij Nederlandse jongeren."
+      "text": "Nederland is een ongelooflijk uniek landje; veel mensen vinden religie iets van vroeger, maar Nederland ziet dat fout.",
+      "note": "Scherpe stelling die de Nederlandse seculiere houding kritisch tegenspreekt."
     },
     {
-      "start_seconds": 1104,
+      "start_seconds": 2820,
       "speaker": "Andrea Vreede",
-      "text": "Nederlandse collega's reageren vaak lacherig op de kerk: 'middeleeuwsachtig gedoe'.",
-      "note": "Laat de Nederlandse houding tegenover de katholieke kerk zien."
+      "text": "Ze vertelt over een 17-jarige jongen die vroeg wat een priester is, en beseft dat de dimensie van spiritualiteit bij jongeren is ontwaakt of ontbreekt.",
+      "note": "Een persoonlijk moment dat laat zien hoe ver jongeren af staan van religieuze taal."
     },
     {
-      "start_seconds": 1119,
+      "start_seconds": 2200,
+      "speaker": "Andrea Vreede",
+      "text": "Italianen weten dat de kerk niet in alles meegaat, maar dat geeft niet; het gaat om de identiteit en de gemeenschap.",
+      "note": "Verklaart het fenomeen cultuurcatholicisme en het pragmatische Italiaanse geloof."
+    },
+    {
+      "start_seconds": 3540,
+      "speaker": "Andrea Vreede",
+      "text": "Een Nederlandse journalist werd bij zijn accreditatie in 2002 meteen weggestuurd omdat hij niet katholiek was en uit Nederland kwam.",
+      "note": "Illustreert de dubbele vooroordelen tussen Vaticaan en Nederland."
+    },
+    {
+      "start_seconds": 3000,
       "speaker": "Stefan Paas",
-      "text": "Mensen schamen zich voor onzin over boeddhisme, maar uiten wel de grootste nonsens over de katholieke kerk.",
-      "note": "Scherpe observatie over de ongelijke maatstaf in Nederland."
-    },
-    {
-      "start_seconds": 1480,
-      "speaker": "Andrea Vreede",
-      "text": "Italiaanse katholieken zijn gewoon Italianen en toevallig ook nog katholiek.",
-      "note": "Vat het verschil met Nederlandse katholieken samen."
-    },
-    {
-      "start_seconds": 1990,
-      "speaker": "Andrea Vreede",
-      "text": "Franciscus bad alleen in de stromende regen op het plein voor het einde van de pandemie.",
-      "note": "Indrukwekkend beeld dat Italianen verbond."
+      "text": "Die man heeft meer aan zijn hoofd dan president Biden; daar kunnen we echt geen voorstelling van maken.",
+      "note": "Maakt de enorme verantwoordelijkheid van de paus concreet."
     }
   ],
   "keywords": [
     "Vaticaan",
-    "Paus Franciscus",
-    "Katholicisme",
-    "Italië",
-    "Secularisatie",
-    "Cultuurkatholicisme",
-    "Wereldkerk",
-    "Maria",
-    "Corona",
+    "paus Franciscus",
+    "wereldkerk",
+    "cultuurcatholicisme",
+    "secularisatie",
+    "synodaliteit",
     "Laudato Si",
-    "Volksgeloof",
-    "Rome"
+    "Italië",
+    "Nederlands katholicisme",
+    "pauselijke opvolging",
+    "gemeenschapszin",
+    "spiritualiteit"
   ],
   "quotes": [
-    "Nederland ziet dat fout.",
-    "Wat doet het met haar om al bijna 30 jaar te wonen in het met religie doordrenkte Italië?"
+    "Nederland is een ongelooflijk uniek landje.",
+    "Religie in de wereld groeit alleen maar. We zijn een steeds religieuzere planeet aan het worden.",
+    "Ik ben niet gelovig opgevoed."
   ],
   "similar": [
     {
-      "n": 246,
-      "reason": "Over de nieuwe paus Leo XIV en het Vaticaan, met Anton de Wit"
+      "n": 243,
+      "reason": "Paus Franciscus, zijn invloed en opvolging, direct verbonden met het Vaticaan-gesprek"
     },
     {
-      "n": 243,
-      "reason": "Gaat over paus Franciscus, zijn leven, invloed en opvolging"
+      "n": 246,
+      "reason": "Nieuwe paus Leo XIV en het Vaticaan, vervolg op de opvolgingsthematiek"
     },
     {
       "n": 121,
-      "reason": "Over de erfenis van paus Benedictus XVI en de wereldkerk"
-    },
-    {
-      "n": 116,
-      "reason": "Antoine Bodar over het katholieke geloof, mysterie en de kerk"
+      "reason": "Erfenis van paus Benedictus XVI en de veranderende katholieke kerk"
     },
     {
       "n": 102,
-      "reason": "Over paus Adrianus VI, kerkgeschiedenis en het pausdom"
+      "reason": "Paus Adrianus VI en de machtspositie van het pausdom in Rome"
+    },
+    {
+      "n": 116,
+      "reason": "Katholieke priester Antoine Bodar over de kerk en het mysterie van het geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

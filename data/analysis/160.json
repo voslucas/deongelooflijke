@@ -1,18 +1,23 @@
 {
   "episode": 160,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116080,
+    "segments": 1114,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31204,
-    "output_tokens": 3132,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59814,
+    "output_tokens": 4110,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "Geschiedenis",
-    "Technologie & AI",
-    "Amerika & Trump"
+    "Filosofie & ethiek",
+    "Samenleving & migratie",
+    "Economie & geld"
   ],
   "guests": [
     "Rob Wijnberg"
@@ -20,139 +25,155 @@
   "people": [
     {
       "name": "Rob Wijnberg",
-      "note": "filosoof, oprichter van De Correspondent en auteur van 'Voor ieder wat waars'",
+      "note": "filosoof en oprichter van De Correspondent, gast en auteur van 'Voor ieder wat waars'",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 1546133,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Wijnberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rob_Wijnberg_-_2021.jpg/250px-Rob_Wijnberg_-_2021.jpg"
+      "mention_count": 60
     },
     {
-      "name": "Yuval Noah Harari",
-      "note": "historicus en auteur van Sapiens, over ficties die samenwerking mogelijk maken",
-      "start_seconds": 406,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
-    },
-    {
-      "name": "Leonard Read",
-      "note": "auteur van het essay 'I, Pencil'",
-      "start_seconds": 314,
-      "wiki_checked": true
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast van De Ongelooflijke Podcast",
+      "start_seconds": 1,
+      "mention_count": 30
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof, onderscheid tussen schijnwerkelijkheid en pure werkelijkheid",
-      "start_seconds": 742,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof die een onderscheid maakte tussen aardse schijnwerkelijkheid en een werkelijke, onstoffelijke wereld",
+      "start_seconds": 720,
+      "mention_count": 5
     },
     {
-      "name": "Pontius Pilatus",
-      "note": "stelde Jezus de vraag 'Wat is waarheid?'",
-      "start_seconds": 707,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
+      "name": "Pilatus",
+      "note": "Romeins landvoogd die Jezus de vraag 'Wat is waarheid?' stelde",
+      "start_seconds": 712,
+      "mention_count": 2
+    },
+    {
+      "name": "Jezus",
+      "note": "stichter van het christendom; besproken in verband met de vraag naar waarheid en de opdracht aan de apostelen",
+      "start_seconds": 712,
+      "mention_count": 3
+    },
+    {
+      "name": "Yuval Harari",
+      "note": "historicus en auteur van Sapiens; besproken over fictie en samenwerking",
+      "start_seconds": 387,
+      "mention_count": 3
     },
     {
       "name": "Donald Trump",
-      "note": "voorbeeld van een politicus die aantoonbaar liegt en toch populair blijft",
-      "start_seconds": 1088,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans oud-president; besproken als voorbeeld van politicus die liegt en toch steun krijgt",
+      "start_seconds": 1098,
+      "mention_count": 6
     },
     {
-      "name": "Gregorius de Grote",
-      "note": "paus rond 600, voorbeeld van een premoderne notie van vooruitgang",
-      "start_seconds": 1470,
-      "wiki_checked": true,
-      "wiki_pageid": 39155,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Gregorius_I",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Gregorythegreat.jpg/250px-Gregorythegreat.jpg"
-    },
-    {
-      "name": "Immanuel Kant",
-      "note": "moderne denker die geschiedenis als gericht op een eindpunt zag",
-      "start_seconds": 1433,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
-    },
-    {
-      "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "moderne denker met een gerichte geschiedenisopvatting",
-      "start_seconds": 1433,
-      "wiki_checked": true,
-      "wiki_pageid": 16725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/250px-Hegel_portrait_by_Schlesinger_1831.jpg"
+      "name": "Rutger Bregman",
+      "note": "historicus en auteur van 'De meeste mensen deugen'",
+      "start_seconds": 1488,
+      "mention_count": 5
     },
     {
       "name": "Karl Marx",
-      "note": "moderne denker met een gerichte geschiedenisopvatting",
-      "start_seconds": 1433,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "filosoof die de geschiedenis als op een eindpunt gericht zag",
+      "start_seconds": 1460,
+      "mention_count": 1
     },
     {
-      "name": "Socrates",
-      "note": "werd vervolgd omdat hij de verkeerde goden aanhing",
-      "start_seconds": 1990,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
+      "name": "Immanuel Kant",
+      "note": "moderne denker die geschiedenis als voortgang naar een eindpunt zag",
+      "start_seconds": 1440,
+      "mention_count": 1
     },
     {
-      "name": "Lynn Berger",
-      "note": "collega bij De Correspondent, schreef 'Zorg' over onbetaald werk",
-      "start_seconds": 2295,
-      "wiki_checked": true
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "moderne denker over geschiedenis als voortgang",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "psycholoog die de mens als door seksuele driften geregeerd beschouwde",
+      "start_seconds": 1100,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader die de zondige mens benadrukte",
+      "start_seconds": 3240,
+      "mention_count": 1
     },
     {
       "name": "David Graeber",
-      "note": "socioloog, sprak van 'alledaags communisme'",
-      "start_seconds": 2353,
-      "wiki_checked": true,
-      "wiki_pageid": 4728518,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Graeber",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/David_Graeber_2015-03-07_%2816741093492%29_%28cropped%29.jpg/250px-David_Graeber_2015-03-07_%2816741093492%29_%28cropped%29.jpg"
+      "note": "socioloog die menselijke samenleving 'alledaags communisme' noemde",
+      "start_seconds": 2331,
+      "mention_count": 1
     },
     {
-      "name": "Sander Frequin",
-      "note": "wetenschaps- en kunsthistoricus, eerder te gast over de middeleeuwen",
-      "start_seconds": 1953,
-      "wiki_checked": true
+      "name": "Gregorius de Grote",
+      "note": "paus die rond 600 een brief schreef over geleidelijke beschaving van de Britten",
+      "start_seconds": 1530,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "voorbeeld van iemand die in een slecht systeem goed handelde",
+      "start_seconds": 4350,
+      "mention_count": 1
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "voorbeeld van iemand die vriendelijk was tegen zijn gevangenisbewakers",
+      "start_seconds": 4320,
+      "mention_count": 1
+    },
+    {
+      "name": "Heidegger",
+      "note": "filosoof die sympathiseerde met het nazisme",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonard Read",
+      "note": "auteur van het essay 'I, Pencil' over het potlood",
+      "start_seconds": 285,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesse Frederik",
+      "note": "journalist en correspondent",
+      "start_seconds": 4410,
+      "mention_count": 2
+    },
+    {
+      "name": "Lynn Berger",
+      "note": "collega van Wijnberg, auteur van 'Zorg' over onbetaald werk",
+      "start_seconds": 2265,
+      "mention_count": 1
+    },
+    {
+      "name": "Sander Fraterman",
+      "note": "wetenschapshistoricus in aflevering over de middeleeuwen",
+      "start_seconds": 1965,
+      "mention_count": 1
+    },
+    {
+      "name": "Sinan Can",
+      "note": "journalist en documentairemaker, eerder te gast",
+      "start_seconds": 2950,
+      "mention_count": 1
+    },
+    {
+      "name": "Joma Mommers",
+      "note": "correspondent genoemd als bijdrager aan het wereldbeeld",
+      "start_seconds": 4470,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Voor ieder wat waars",
       "author": "Rob Wijnberg",
-      "note": "centraal in het gesprek: waarheid, vooruitgang en een positief mensbeeld",
-      "start_seconds": 451,
+      "note": "hoofdonderwerp van het gesprek, hoopgevend boek over waarheid en vooruitgang",
+      "start_seconds": 5,
       "volume_id": "4vQr0AEACAAJ",
       "canonical_title": "Voor ieder wat waars: hoe waarheid ons verdeelt en ons weer kan samenbrengen",
       "canonical_author": "Rob Wijnberg",
@@ -162,33 +183,33 @@
     },
     {
       "title": "Sapiens",
-      "author": "Yuval Noah Harari",
-      "note": "over ficties waardoor mensen op grote schaal samenwerken",
-      "start_seconds": 406,
-      "volume_id": "1EiJAwAAQBAJ",
+      "author": "Yuval Harari",
+      "note": "besproken over fictie en menselijke samenwerking",
+      "start_seconds": 387,
+      "volume_id": "zfuOEAAAQBAJ",
       "canonical_title": "Sapiens: A Brief History of Humankind",
       "canonical_author": "Yuval Noah Harari",
-      "isbn13": "9781448190690",
-      "isbn10": "144819069X",
-      "thumbnail": "http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780771038518",
+      "isbn10": "0771038518",
+      "thumbnail": "http://books.google.com/books/content?id=zfuOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "I, Pencil",
-      "author": "Leonard Read",
-      "note": "essay over de miljoenen mensen die nodig zijn voor één potlood",
-      "start_seconds": 314,
-      "volume_id": "ExMK0AEACAAJ",
-      "canonical_title": "I, Pencil: My Family Tree",
-      "canonical_author": "Leonard Edward Read",
-      "isbn13": "9781630697006",
-      "isbn10": "1630697001",
+      "title": "De meeste mensen deugen",
+      "author": "Rutger Bregman",
+      "note": "besproken als vergelijkbaar positief mensbeeld",
+      "start_seconds": 1488,
+      "volume_id": "UbbpxgEACAAJ",
+      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
+      "canonical_author": "Rutger Bregman",
+      "isbn13": "9789082942187",
+      "isbn10": "9082942186",
       "thumbnail": ""
     },
     {
       "title": "Zorg",
       "author": "Lynn Berger",
-      "note": "over onbetaald zorgwerk dat andere arbeid mogelijk maakt",
-      "start_seconds": 2295,
+      "note": "over onbetaald werk dat de samenleving mogelijk maakt",
+      "start_seconds": 2265,
       "volume_id": "iwBbzwEACAAJ",
       "canonical_title": "Zorg: een betere kijk op de mens",
       "canonical_author": "Lynn Berger",
@@ -197,133 +218,154 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Johannes 18:38",
+      "note": "Pilatus stelt Jezus de vraag 'Wat is waarheid?'",
+      "start_seconds": 712
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "Bergrede, besproken als kern van Jezus' boodschap",
+      "start_seconds": null
+    }
+  ],
   "places": [
     "Utrecht",
-    "Amsterdam",
-    "Kroatië",
-    "Verenigde Staten",
-    "Groot-Brittannië"
+    "Dordrecht",
+    "Amerika",
+    "Jemen",
+    "Syrië",
+    "Oekraïne"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met Rob Wijnberg over zijn boek 'Voor ieder wat waars', over waarheid die onder druk staat en over zijn pleidooi voor een nieuw vooruitgangsgeloof gebaseerd op een positief mensbeeld. Er is stevige discussie over zijn schematische schets van het premoderne tijdperk en de bewering dat het christendom eeuwenlang wetenschap verbood.",
+  "summary_tldr": "Rob Wijnberg bespreekt zijn boek 'Voor ieder wat waars', waarin hij stelt dat waarheid onder druk staat in een geïndividualiseerde postmoderne tijd en pleit voor een positief vooruitgangsgeloof. Stefan Paas en David Boogerd bevragen zijn lezing van de geschiedenis, met name de stelling dat het christendom wetenschap tegenhield, en zijn optimisme over het mensbeeld. Het gesprek eindigt met de vraag of een positief mensbeeld houdbaar is in tijden van polarisatie.",
   "summary_points": [
-    "Wijnberg ziet een paradox: we hebben het beter dan ooit, maar de bron van die welvaart (fossiele energie) bedreigt ons.",
-    "Waarheid is volgens hem geïndividualiseerd in de postmoderne tijd, wat collectieve oplossingen bemoeilijkt.",
-    "Hij onderscheidt premoderne, moderne en postmoderne waarheidsopvattingen met elk een eigen maatschappelijke gemoedstoestand.",
-    "Politici als Trump kunnen liegen omdat hun nostalgische verhaal aantrekkingskracht heeft, terwijl progressieven geen aantrekkelijk verhaal hebben.",
-    "Het potlood illustreert hoe de mens als coöperatieve soort samenwerkt in ficties zoals landen en religies.",
-    "Paas en Boogerd bekritiseren de karikatuur van de premoderne mens en het idee dat vooruitgang pas in de moderne tijd bestond.",
-    "Boogerd stelt dat de bewering dat het christendom wetenschap verbood door wetenschapshistorici is achterhaald; Wijnberg meent het niet onrecht te doen.",
-    "Wijnberg pleit voor 'waarheid als weefsel': samenhang, onderlinge afhankelijkheid en een positief mensbeeld.",
-    "Vertrouwen en wantrouwen worden gekweekt en kunnen werkelijkheid worden als de samenleving erop wordt ingericht."
+    "Wijnberg ziet een paradox: we leven welvarend, maar de bronnen daarvan (fossiele economie) vormen nu een bedreiging.",
+    "Waarheid wordt volgens hem geïndividualiseerd in de postmoderne tijd, wat collectieve oplossingen bemoeilijkt.",
+    "Hij onderscheidt premoderne, moderne en postmoderne waarheidsopvattingen met elk een eigen functie.",
+    "Nostalgische nationalisten en populisten winnen het verhaal, ook als de feiten tegen hen zijn.",
+    "Paas en Boogerd betwisten dat het christendom wetenschap verbood; de middeleeuwen kenden veel wetenschappelijke ontwikkeling.",
+    "Wijnberg pleit voor 'waarheid als weefsel', een ecologische blik op samenwerking en onderlinge afhankelijkheid.",
+    "Algoritmen en media versterken polarisatie, terwijl mensen onderliggend steeds meer overeenstemming hebben.",
+    "Het positieve mensbeeld wordt bevraagd: de mens is ook tribaal en in staat tot grote verschrikkingen.",
+    "Hernieuwbare energie daalt snel in prijs, wat Wijnberg als reden voor hoop ziet.",
+    "Paas benadrukt dat een realistisch mensbeeld zowel goed als kwaad omvat, en dat leiderschap in het goede helpt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en introductie van Rob Wijnberg",
-      "summary": "Boogerd introduceert Wijnberg en zijn hoopgevende boek en praat over zijn leeftijd en carrière."
+      "title": "Introductie en positief verhaal",
+      "summary": "Boogerd stelt Wijnberg voor en bespreekt het bijzondere optimistische karakter van het boek."
     },
     {
-      "start_seconds": 165,
-      "title": "Positief verhaal en het potlood",
-      "summary": "Wijnberg legt uit waarom hij optimistisch is, met het potlood en Harari's ficties als illustratie van menselijke samenwerking."
+      "start_seconds": 285,
+      "title": "Het potlood en menselijke samenwerking",
+      "summary": "Wijnberg illustreert met het potlood hoe mensen wereldwijd samenwerken, en verbindt dit met Harari's theorie over fictie."
     },
     {
-      "start_seconds": 451,
-      "title": "Staat de waarheid onder druk?",
-      "summary": "Over de paradox van welvaart en klimaatcrisis, geïndividualiseerde waarheid en de drie tijdperken van waarheid."
+      "start_seconds": 420,
+      "title": "De paradox en de strijd om waarheid",
+      "summary": "Wijnberg schetst de welvaartsberg en de postmoderne individualisering van waarheid, en de definitievraag over waarheid."
     },
     {
-      "start_seconds": 1050,
-      "title": "Leugens in de politiek en het gebrek aan een progressief verhaal",
-      "summary": "Waarom Trump en andere nostalgische nationalisten aanslaan en progressieven geen aantrekkelijk verhaal hebben."
+      "start_seconds": 1020,
+      "title": "Populisme en het verhaal",
+      "summary": "Het gesprek gaat over nostalgische nationalisme, Trump en Brexit, en waarom verhalen zwaarder wegen dan feiten."
     },
     {
-      "start_seconds": 1260,
-      "title": "Premoderne tijd en vooruitgang: kritiek op de schematisering",
-      "summary": "Boogerd en Paas bevragen het beeld van de premoderne tijd als passief en zonder vooruitgangsidee."
+      "start_seconds": 1380,
+      "title": "Premoderne en moderne geschiedenis",
+      "summary": "Wijnberg en Boogerd debatteren over vooruitgang in de oudheid en middeleeuwen en over de claim dat het christendom wetenschap verbood."
     },
     {
-      "start_seconds": 1780,
-      "title": "Verbood het christendom de wetenschap?",
-      "summary": "Felle discussie over Wijnbergs bewering en wat wetenschapshistorici daarover zeggen."
+      "start_seconds": 2160,
+      "title": "Vooruitgang, vertrouwen en mensbeeld",
+      "summary": "Wijnberg pleit voor een vergezicht en vertrouwen; het gesprek bevraagt het positieve mensbeeld tegen de achtergrond van tribalisme en het kwaad."
     },
     {
-      "start_seconds": 2100,
-      "title": "Vooruitgangsgeloof en waarheid als weefsel",
-      "summary": "Wijnberg bepleit een nieuw verhaal gebaseerd op een positief mensbeeld, samenwerking en vertrouwen."
+      "start_seconds": 3420,
+      "title": "Publieksvragen",
+      "summary": "Vragen uit de zaal gaan over journalistiek, filosofie-onderwijs, de relatie tussen feiten en verhaal, en het behoud van hoop."
+    },
+    {
+      "start_seconds": 4680,
+      "title": "Afsluiting en nieuwheid van het boek",
+      "summary": "Wijnberg en Paas bespreken wat nieuw is aan het waarheidsbegrip; de aflevering sluit af met dank en een vooruitblik."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 314,
+      "start_seconds": 285,
       "speaker": "Rob Wijnberg",
-      "text": "Er zijn tientallen miljoenen mensen nodig om één potlood te maken.",
-      "note": "Verrassend beeld dat zijn optimisme over menselijke samenwerking onderbouwt."
+      "text": "Een potlood vereist tientallen miljoenen mensen om te maken.",
+      "note": "Concrete metafoor voor de verborgen samenwerking die de moderne welvaart mogelijk maakt."
     },
     {
-      "start_seconds": 1088,
+      "start_seconds": 1930,
+      "speaker": "Rob Wijnberg",
+      "text": "Sorry Rob, maar dat is gewoon echt niet waar.",
+      "note": "Boogerd weerlegt de claim dat het christendom de wetenschap verbood; het gesprek wordt hier scherp."
+    },
+    {
+      "start_seconds": 2470,
       "speaker": "David Boogerd",
-      "text": "Trump heeft aantoonbaar gelogen en toch is hij favoriet bij de Republikeinen.",
-      "note": "Raakt de kern van de vraag waarom feiten het verliezen van verhalen."
+      "text": "Een klein beetje kwaad is genoeg om heel veel goed ongedaan te maken.",
+      "note": "Scherpe asymmetrie-gedachte: het potlood kan door één persoon kapotgestampt worden."
     },
     {
-      "start_seconds": 1214,
-      "speaker": "Rob Wijnberg",
-      "text": "Progressieven hebben de feiten aan hun zijde, maar geen aantrekkelijk verhaal: doen of doodgaan.",
-      "note": "Scherpe analyse van het communicatieprobleem van klimaatbewegingen."
+      "start_seconds": 4170,
+      "speaker": "Stefan Paas",
+      "text": "Feiten hebben geen betekenis zonder een verhaal.",
+      "note": "Paas ontwikkelt het centrale spanningsveld tussen feit en verhaal in het waarheidsdebat."
     },
     {
-      "start_seconds": 1776,
-      "speaker": "David Boogerd",
-      "text": "Het christendom verbood eeuwenlang wetenschap: dat is echt achterhaald, kijk even in de wetenschapsgeschiedenis.",
-      "note": "Hoogtepunt van de inhoudelijke botsing in het gesprek."
-    },
-    {
-      "start_seconds": 2353,
-      "speaker": "Rob Wijnberg",
-      "text": "Graeber noemde de samenleving 'alledaags communisme': mensen doen van alles voor elkaar zonder iets terug te verwachten.",
-      "note": "Kernidee voor zijn positieve mensbeeld."
+      "start_seconds": 4500,
+      "speaker": "Stefan Paas",
+      "text": "Wij zijn er in geslaagd niet cynisch te worden in een wereld die heel veel redenen geeft om cynisch te zijn.",
+      "note": "Persoonlijk en emotioneel moment over hoop tegenover de wereldwijde vertrouwenscrisis."
     }
   ],
   "keywords": [
     "waarheid",
     "vooruitgangsgeloof",
-    "Rob Wijnberg",
-    "De Correspondent",
     "postmodernisme",
-    "premoderne tijd",
-    "nostalgisch nationalisme",
-    "wetenschapsgeschiedenis",
+    "populisme",
     "mensbeeld",
+    "tribalisme",
+    "wetenschapsgeschiedenis",
+    "christendom",
     "vertrouwen",
-    "Harari",
-    "samenwerking"
+    "polarisatie",
+    "verhaal en feit",
+    "hernieuwbare energie"
   ],
   "quotes": [
-    "We hebben meer kennis dan ooit, maar steeds minder waarheid.",
-    "Hij wil dan ook het vooruitgangsgeloof nieuw leven inblazen, en eindigt zijn boek - geheel tegen de traditie in van deze podcast - haast euforisch positief."
+    "Dus wij zijn niet sneller dan een luipaard en we zijn vaak ook niet eens per se individueel veel slimmer dan andere diersoorten, maar wij zijn een ongelooflijk coöperatieve soort.",
+    "Waarheid wordt werkelijk als we erin geloven.",
+    "Ik denk dat wij een enorm gebrek aan verbeeldingskracht hebben op dit moment."
   ],
   "similar": [
     {
-      "n": 255,
-      "reason": "Strijd om de waarheid, fake news en complotten; filosofische benadering met Stefan Paas"
-    },
-    {
-      "n": 167,
-      "reason": "Clash wetenschap en geloof; discussie of christendom wetenschap verbood"
-    },
-    {
-      "n": 202,
-      "reason": "Failliet van het vooruitgangsgeloof; kritiek op moderniteit en vooruitgang"
-    },
-    {
       "n": 12,
-      "reason": "Waarheid in tijden van nepnieuws met filosoof Daan Roovers"
+      "reason": "Waarheid in tijden van nepnieuws; sluit direct aan bij de stelling dat waarheid onder druk staat."
     },
     {
-      "n": 292,
-      "reason": "Denkbeelden achter Big Tech; filosofie, technologie en wereldbeeld"
+      "n": 209,
+      "reason": "Zoekt een groot verhaal voor onze tijd; overlapt met het vooruitgangsgeloof en de geschiedenisduiding."
+    },
+    {
+      "n": 285,
+      "reason": "Crisis van het Westen en filosofische en economische kanttekeningen bij de moderne samenleving."
+    },
+    {
+      "n": 126,
+      "reason": "Gaat over moraal, grote verhalen en economische kloven, met dezelfde thema's als deze aflevering."
+    },
+    {
+      "n": 11,
+      "reason": "Rutger Bregman over religie en de deugende mens; deelt het optimistische mensbeeld en de figuur Bregman."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

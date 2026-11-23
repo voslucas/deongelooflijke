@@ -1,18 +1,23 @@
 {
   "episode": 214,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 80303,
+    "segments": 721,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31829,
-    "output_tokens": 2394,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 42307,
+    "output_tokens": 5644,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Islam & jodendom",
-    "Geschiedenis",
-    "Samenleving & migratie"
+    "God & geloof",
+    "Politiek"
   ],
   "guests": [
     "Bart Wallet"
@@ -20,69 +25,51 @@
   "people": [
     {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, centraal in de analyse van het beleid en de 'Messias-complex'-opmerking",
+      "note": "Israëlische premier; wordt bekritiseerd om zijn Gaza-strategie en zijn rol in het uitstel van het onderzoek naar 7 oktober",
       "start_seconds": 414,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "mention_count": 12
     },
     {
       "name": "Hassan Nasrallah",
-      "note": "leider van Hezbollah, uitgeschakeld",
+      "note": "Leider van Hezbollah, gedood na Israëlische aanvallen",
       "start_seconds": 686,
-      "wiki_checked": true,
-      "wiki_pageid": 565329,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hassan_Nasrallah",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Sayyid_Nasrallah.jpg/250px-Sayyid_Nasrallah.jpg"
+      "mention_count": 3
     },
     {
       "name": "Ismail Haniyeh",
-      "note": "Hamas-leider, gedood in Iran",
+      "note": "Politiek leider van Hamas, gedood in Iran",
       "start_seconds": 1446,
-      "wiki_checked": true,
-      "wiki_pageid": 384093,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ismail_Haniya",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/03-03-2020_Ismail_Haniyeh_%28cropped%29.jpg/250px-03-03-2020_Ismail_Haniyeh_%28cropped%29.jpg"
-    },
-    {
-      "name": "Marten Kruijf",
-      "note": "generaal buiten dienst, vorig jaar gast in dezelfde uitzending",
-      "start_seconds": 394,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Itamar Ben-Gvir",
-      "note": "Israëlisch extreemrechts minister, kolonistenpartij",
+      "note": "Extreemrechtse Israëlische minister, genoemd als voorbeeld van agressieve krachten in de regering",
       "start_seconds": 2146,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Bezalel Smotrich",
-      "note": "Israëlisch extreemrechts minister, kolonistenpartij",
+      "note": "Israëlische minister met radicale standpunten over de Westbank, genoemd bij Ben-Gvir",
       "start_seconds": 2146,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
+      "mention_count": 1
     },
     {
       "name": "Yuval Noah Harari",
-      "note": "schrijver van een stuk na 7 oktober over een plek waar Israëli's en Palestijnen weer samen kunnen komen",
-      "start_seconds": 2565,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "note": "Israëlische historicus wiens tekst over de oorlog Wallet aanhaalt",
+      "start_seconds": 2545,
+      "mention_count": 1
+    },
+    {
+      "name": "Marten Kruijf",
+      "note": "Generaal buitendienst, gast in de uitzending van een jaar eerder",
+      "start_seconds": 375,
+      "mention_count": 1
+    },
+    {
+      "name": "Kifah Allush",
+      "note": "Palestijns-Nederlandse presentator en journalist, aangekondigd als gast van de volgende week",
+      "start_seconds": 1304,
+      "mention_count": 3
     }
   ],
   "books": [],
@@ -91,139 +78,154 @@
     "Israël",
     "Gaza",
     "Libanon",
+    "Zuid-Libanon",
     "Iran",
-    "Westelijke Jordaanoever",
-    "Golanhoogte",
-    "Jemen",
     "Irak",
-    "Saudi-Arabië",
+    "Jemen",
+    "Syrië",
+    "Golanhoogte",
+    "Westelijke Jordaanoever",
+    "Jericho",
+    "Saoedi-Arabië",
     "Egypte",
-    "Litani-rivier",
+    "Qatar",
+    "Jordanië",
     "Bekaa-vallei",
+    "Litaniërivier",
     "Bulgarije",
     "Hongarije",
-    "Jericho",
-    "Qatar"
+    "Denemarken",
+    "Utrecht"
   ],
-  "summary_tldr": "Een jaar na de aanval van Hamas op 7 oktober analyseren Bart Wallet en Stefan Paas de stand van het conflict. Israël boekt militaire successen tegen Hezbollah, maar mist een strategisch eindplan en een 'day after'-plan voor Gaza. Ook komen de rol van ideologie en religie, de Iraanse dreiging en de verdeeldheid in Israël en Nederland aan bod.",
+  "summary_tldr": "Een jaar na de Hamas-aanval op Israël bespreken Bart Wallet en Stefan Paas of het conflict is gekanteld en waarom Israël militair de overhand lijkt te hebben zonder duidelijk eindspel. Het gesprek behandelt de uitbreiding naar Hezbollah, Iran en de regio, het ontbreken van een 'day after'-plan en de groeiende religieuze lading van het conflict. Ook de gevolgen in Nederland, zoals stijgend antisemitisme en verschillende opvattingen onder jongeren en ouderen, komen aan bod.",
   "summary_points": [
-    "7 oktober is nog steeds een open wond in Israël, zolang de gijzelaars niet terug zijn",
-    "Het conflict is uitgebreid naar Libanon, Jemen, Irak en Iran via proxies",
-    "Israël boekt grote successen tegen Hezbollah (pagers, uitschakeling van de top), waardoor de afschrikking wordt hersteld",
-    "In Gaza blijft de situatie uitzichtloos door het ontbreken van een day-after-plan en een geloofwaardige partner",
-    "Netanyahu's strategie van Hamas laten zitten bleek een foute rekening; zijn kamp verliest in de peilingen",
-    "Ideologie en politieke religie, vooral in Iran, maken het conflict irrationeler en gevaarlijker",
-    "Diplomatie en een staakt-het-vuren zijn nodig voor duurzame oplossingen, via Verenigde Staten, Qatar en Egypte",
-    "De Palestijnse burgers zijn een speelbal tussen Hamas, de corrupte Palestijnse Autoriteit en Israëlische hardliners",
-    "De meeste Nederlanders staan niet in een kamp en willen meer achtergrond; Wallet pleit voor multiperspectivisme"
+    "Israël heeft militair tactisch succes geboekt tegen Hamas en Hezbollah, maar het strategisch doel blijft onduidelijk.",
+    "De aanval van 7 oktober is nog steeds een open wond en de gijzelaars zijn een achilleshiel voor Netanyahu.",
+    "Het conflict heeft zich uitgebreid tot een regionale strijd tussen Iran en Israël via proxy's als Hezbollah, Houthi's en Hamas.",
+    "Er ontbreekt een 'day after'-plan voor Gaza, waardoor Hamas kan terugkeren en de humanitaire ramp groot is.",
+    "Netanyahu wordt gezien als iemand met een messiaans complex, al blijft zijn kamp politiek sterk.",
+    "Ideologie en religie, zowel bij Iran als bij settlers en radicale groeperingen, maken het conflict moeilijker te onderhandelen.",
+    "Het conflict begon seculier, maar is steeds religieuzer geworden met maximalistische posities aan beide kanten.",
+    "Wallet pleit voor een multiperspectivistische benadering en voor religieuze gematigde stemmen als tegenwicht.",
+    "In Nederland neemt antisemitisme toe en zoeken Joodse gemeenschappen meer steun bij elkaar.",
+    "Het publieke beeld, mede via social media, is sterk verkleurd en de Nederlandse opvattingen zijn minder gepolariseerd dan verwacht."
   ],
   "chapters": [
     {
-      "start_seconds": 52,
+      "start_seconds": 0,
       "title": "Een jaar na 7 oktober",
-      "summary": "Wallet en Paas blikken terug op een jaar oorlog, de open wond in Israël en de vraag naar Israëls eindspel."
+      "summary": "Wallet en Paas blikken terug op het afgelopen jaar en constateren dat het einde van de oorlog nog niet in zicht is."
     },
     {
-      "start_seconds": 394,
-      "title": "Het falen van Netanyahu's strategie",
-      "summary": "Hoe Hamas zich kon bewapenen, de uitgebleven staatscommissie en Netanyahu's psychologie."
+      "start_seconds": 360,
+      "title": "Gaza, Netanyahu en de overrompeling",
+      "summary": "De strategie van Netanyahu ten aanzien van Hamas wordt besproken, evenals de vraag waarom Israël zo verrast werd."
     },
     {
-      "start_seconds": 597,
-      "title": "Het kantelpunt: Hezbollah en Libanon",
-      "summary": "De pageroperatie, het uitschakelen van de Hezbollah-top en het verschil met Gaza."
+      "start_seconds": 624,
+      "title": "Hezbollah en de pagers-operatie",
+      "summary": "De aanvallen op Hezbollah, de pagers-operatie en de uitschakeling van de top worden geanalyseerd, inclusief militair-juridische discussie."
     },
     {
-      "start_seconds": 1002,
-      "title": "De day after en onderhandelingen",
-      "summary": "Het gebrek aan een plan voor Gaza, de rol van de Palestijnse Autoriteit en de moeizame diplomatie."
+      "start_seconds": 1304,
+      "title": "Iran en de regionale machtsstrijd",
+      "summary": "De Koude Oorlog in het Midden-Oosten, de rol van Iran en de proxy's en de vraag of Israël een regionale oorlog dreigt te veroorzaken."
     },
     {
-      "start_seconds": 1354,
-      "title": "Iran, ideologie en religie",
-      "summary": "De Iraanse aanval, de 'koude oorlog' in het Midden-Oosten en de apocalyptische ideologie van het regime."
-    },
-    {
-      "start_seconds": 1850,
-      "title": "Burgerslachtoffers en Israëlische binnenlandse verdeeldheid",
-      "summary": "Waarom Israël zo hard optreedt, de humanitaire ramp in Gaza en de politieke verdeeldheid."
+      "start_seconds": 1886,
+      "title": "Burgerslachtoffers en de Palestijnse samenleving",
+      "summary": "De verwoesting in Gaza en de verdeeldheid onder Palestijnen en Israëli's komen aan bod, met de vraag wat er voor de bevolking nog hoop is."
     },
     {
       "start_seconds": 2342,
-      "title": "Nederlandse opinie en multiperspectivisme",
-      "summary": "Onderzoek toont dat de meeste Nederlanders geen kamp kiezen; Wallet pleit voor het horen van beide verhalen."
+      "title": "Nederlandse opvattingen en antisemitisme",
+      "summary": "Een peiling van de EO wordt besproken, samen met de stijging van antisemitisme en de groeiende verbondenheid binnen de Joodse gemeenschap in Nederland."
+    },
+    {
+      "start_seconds": 2842,
+      "title": "Religie als brandstof en als tegengif",
+      "summary": "Het gesprek richt zich op de rol van religie: messianisme, politieke religie en de noodzaak van religieuze gematigde stemmen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 557,
-      "speaker": "Bart Wallet",
-      "text": "Netanyahu heeft iets van een Messias-complex.",
-      "note": "Scherpe psychologische duiding van de Israëlische premier."
-    },
-    {
-      "start_seconds": 1050,
-      "speaker": "Bart Wallet",
-      "text": "Israël maakt dezelfde fout als de Amerikanen na 9/11: geen plan voor de day after.",
-      "note": "Vergelijking met Irak als kern van de strategische kritiek."
-    },
-    {
-      "start_seconds": 1636,
-      "speaker": "Bart Wallet",
-      "text": "Het Iraanse wereldbeeld is manicheïstisch en bijna apocalyptisch.",
-      "note": "Verklaart waarom ideologie en religie het conflict irrationeel kunnen maken."
-    },
-    {
-      "start_seconds": 2148,
+      "start_seconds": 232,
       "speaker": "Stefan Paas",
-      "text": "De Palestijnen zitten beklemd tussen Hamas, een corrupte Autoriteit en een onverzoenlijke Israëlische regering.",
-      "note": "Beschrijft het uitzichtloze lot van gewone Palestijnen."
+      "text": "7 oktober is nog steeds een open wond in de Israëlische samenleving; op het vliegveld lopen bezoekers langs portretten van de gijzelaars.",
+      "note": "Laat zien hoe diep het trauma nog zit, ook in het dagelijkse leven."
     },
     {
-      "start_seconds": 1170,
+      "start_seconds": 543,
       "speaker": "Bart Wallet",
-      "text": "Israël kan nu tijd kopen, maar je hebt er alleen iets aan als je ook een plan voor daarna hebt.",
-      "note": "Vat de kern van de analyse samen."
+      "text": "Netanyahu heeft een soort Messias-complex; hij gelooft dat hij degene is die tussen Israël en het kwaad staat.",
+      "note": "Een scherpe psychologische duiding van de Israëlische leider."
+    },
+    {
+      "start_seconds": 1603,
+      "speaker": "Bart Wallet",
+      "text": "Ideologie is een politieke religie geworden, met een manicheïstisch wereldbeeld van het goede Iran tegenover het duivelse Westen en Israël.",
+      "note": "Verbindt religie en politiek en verklaart de apocalyptische mindset."
+    },
+    {
+      "start_seconds": 2456,
+      "speaker": "Stefan Paas",
+      "text": "Dit conflict lijdt misschien wel onder een teveel aan geschiedenis; iedereen heeft zijn eigen verhaal en die staan soms recht tegenover elkaar.",
+      "note": "Een kritische blik op de rol van historische narratieven."
+    },
+    {
+      "start_seconds": 2545,
+      "speaker": "Bart Wallet",
+      "text": "Wees het midden waar wij elkaar weer kunnen ontmoeten; exporteer de oorlog niet naar eigen gebied.",
+      "note": "Een oproep om het conflict in Nederland niet te polariseren."
+    },
+    {
+      "start_seconds": 3135,
+      "speaker": "Stefan Paas",
+      "text": "Gelovigen moeten de moed hebben om toxische vormen van religie aan te wijzen en te bestrijden, ook binnen het christendom.",
+      "note": "Een zelfkritische oproep vanuit een theoloog."
     }
   ],
   "keywords": [
-    "7 oktober",
     "Hamas",
     "Hezbollah",
+    "Gaza",
     "Netanyahu",
     "Iran",
-    "Gaza",
     "gijzelaars",
-    "ideologie",
     "afschrikking",
-    "day after",
-    "staakt-het-vuren",
-    "multiperspectivisme"
+    "messianisme",
+    "politieke religie",
+    "antisemitisme",
+    "proxy's",
+    "day after"
   ],
   "quotes": [
-    "Volgens Israël-kenner en historicus Bart Wallet is er de afgelopen weken iets aan het kantelen in het conflict.",
-    "En hoe kan het dat een conflict dat grotendeels seculier begon, steeds religieuzer wordt?"
+    "Er is iets aan het kantelen",
+    "Bevinden we ons in een neerwaartse spiraal waar niet uit te ontsnappen valt?",
+    "Of gloort er nog ergens hoop?"
   ],
   "similar": [
     {
+      "n": 215,
+      "reason": "Zelfde conflict; bespreekt Kefah Allush, die in #214 ook genoemd wordt."
+    },
+    {
       "n": 161,
-      "reason": "Zelfde gast Bart Wallet; aanval van Hamas op Israël en directe nasleep"
+      "reason": "Gast Bart Wallet; analyseert de Hamas-aanval op Israël die deze aflevering terugkijkt."
     },
     {
       "n": 290,
-      "reason": "Bart Wallet over Israëlisch-Amerikaanse aanval op Iran; Iraanse dreiging"
+      "reason": "Gast Bart Wallet; over de escalatie met Iran en de nieuwe regionale dynamiek."
+    },
+    {
+      "n": 254,
+      "reason": "Behandelt de samenhangende oorlog tussen Israël, Iran en Gaza en de religieuze lading."
     },
     {
       "n": 163,
-      "reason": "Israëlische tegenaanval en ideologie van Hamas, kort na 7 oktober"
-    },
-    {
-      "n": 166,
-      "reason": "Polarisatie in Nederland over de oorlog tussen Israël en Hamas"
-    },
-    {
-      "n": 261,
-      "reason": "Israël in Gaza en de wereld; zelfde duiding van het conflict"
+      "reason": "Analyseert de Israëlische tegenaanval en de ideologie van Hamas, zoals in #214."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

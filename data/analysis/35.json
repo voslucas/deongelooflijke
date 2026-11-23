@@ -1,264 +1,241 @@
 {
   "episode": 35,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 64378,
+    "segments": 479,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30028,
-    "output_tokens": 2450,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 32152,
+    "output_tokens": 6009,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Kerk & secularisatie",
-    "Geschiedenis",
-    "Samenleving & migratie"
+    "Politiek",
+    "Economie & geld"
   ],
   "guests": [
     "Geert Mak"
   ],
   "people": [
     {
-      "name": "Philipp Blom",
-      "note": "Weense denker en historicus, gebruikt het beeld van resonantie bij een samenleving",
-      "start_seconds": 1795,
-      "wiki_checked": true,
-      "wiki_pageid": 4837086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Philipp_Blom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Philipp_Blom_-_Buch_Wien_2024.JPG/250px-Philipp_Blom_-_Buch_Wien_2024.JPG"
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier; voorbeeld van principieel politiek leiderschap",
+      "start_seconds": 2710,
+      "mention_count": 3
     },
     {
-      "name": "Angela Merkel",
-      "note": "Duitse bondskanselier, voorbeeld van principieel leiderschap",
-      "start_seconds": 2710,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "name": "Philip Blom",
+      "note": "Weens-Europees denker, half Nederlandse afkomst; gebruikt het beeld van de resonantie van aardewerk",
+      "start_seconds": 1795,
+      "mention_count": 2
     },
     {
       "name": "Tom Holland",
-      "note": "Britse historicus over secularisatie en christelijke wortels van waarden",
-      "start_seconds": 1665,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "note": "Britse historicus; betoogt dat secularisatie normen en waarden onder druk zet",
+      "start_seconds": 1664,
+      "mention_count": 2
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaarse premier die christelijke identiteit politiek inzet",
+      "note": "Hongaarse premier; speelt in op nationalistische en christelijke sentimenten",
       "start_seconds": 1609,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Franklin D. Roosevelt",
+      "note": "Amerikaanse president; New Deal als inspiratiebron voor herstel na crisis",
+      "start_seconds": 2864,
+      "mention_count": 2
     },
     {
       "name": "Ilja Leonard Pfeijffer",
-      "note": "Schrijver en mede-auteur, beschrijft Europa als bejaardenhuis",
-      "start_seconds": 1240,
-      "wiki_checked": true,
-      "wiki_pageid": 143708,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ilja_Leonard_Pfeijffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Nacht_van_de_Po%C3%ABzie_2015_-_Ilja_Leonard_Pfeijffer-1_%28cropped%29.jpg/250px-Nacht_van_de_Po%C3%ABzie_2015_-_Ilja_Leonard_Pfeijffer-1_%28cropped%29.jpg"
+      "note": "Literair auteur; volgens Mak een discussiepartner die Europa als groot bejaardenhuis beschrijft (transcriptnaam: Ilja Vijver)",
+      "start_seconds": 1140,
+      "mention_count": 3
     },
     {
-      "name": "Jan Jacob Slauerhoff",
-      "note": "Dichter die vaak in de pastorie van Jorwerd kwam",
-      "start_seconds": 152,
-      "wiki_checked": true,
-      "wiki_pageid": 66507,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J._Slauerhoff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Slauerhoff.jpg/250px-Slauerhoff.jpg"
+      "name": "Slauerhoff",
+      "note": "Dichter die in Jorwerd kind aan huis was",
+      "start_seconds": 136,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Grote Verwachtingen",
-      "author": "Geert Mak",
-      "note": "Geschiedenis van Europa in de afgelopen 20 jaar",
-      "start_seconds": 1058,
-      "volume_id": "6mhHEAAAQBAJ",
-      "canonical_title": "Grote verwachtingen: In Europa - 1999-2021",
-      "canonical_author": "Geert Mak",
-      "isbn13": "9789045046143",
-      "isbn10": "9045046148",
-      "thumbnail": "http://books.google.com/books/content?id=6mhHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "Hoe God verdween uit Jorwerd",
       "author": "Geert Mak",
-      "note": "Chronicle van secularisatie in een Fries dorp",
+      "note": "Boek over secularisatie en dorpsontwikkelingen in Jorwerd",
       "start_seconds": 172,
-      "volume_id": "BS8yAgAAQBAJ",
-      "canonical_title": "Hoe God verdween uit Jorwerd: een Nederlands dorp in de twintigste eeuw",
+      "volume_id": "hC0h0QEACAAJ",
+      "canonical_title": "Hoe God verdween uit Jorwerd. Een Nederlands dorp in de twintigste eeuw",
       "canonical_author": "Geert Mak",
-      "isbn13": "9789045020396",
-      "isbn10": "9045020394",
-      "thumbnail": "http://books.google.com/books/content?id=BS8yAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789045012964",
+      "isbn10": "9045012960",
+      "thumbnail": "http://books.google.com/books/content?id=hC0h0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "In Europa",
+      "title": "Grote verwachtingen",
       "author": "Geert Mak",
-      "note": "Reisverslag door Europa in 1999",
-      "start_seconds": 35,
-      "volume_id": "5EIwAgAAQBAJ",
-      "canonical_title": "In Europa: reizen door de Twintigste Eeuw",
+      "note": "Geschiedenis van het Europa van de afgelopen twintig jaar",
+      "start_seconds": 1115,
+      "volume_id": "KmTjzQEACAAJ",
+      "canonical_title": "Grote verwachtingen. In Europa 1999-2020",
       "canonical_author": "Geert Mak",
-      "isbn13": "9789045016405",
-      "isbn10": "9045016400",
-      "thumbnail": "http://books.google.com/books/content?id=5EIwAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9789045042978",
+      "isbn10": "9045042975",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [
-    {
-      "ref": "Mattheus 5",
-      "note": "Bergrede, genoemd als bron van waarden als barmhartigheid, gerechtigheid en vrede",
-      "start_seconds": 1950
-    }
-  ],
+  "bible_refs": [],
   "places": [
     "Jorwerd",
+    "Friesland",
     "Leeuwarden",
     "Amsterdam",
-    "China",
     "Polen",
-    "Noord-Ierland",
     "Bosnië",
-    "Leeds",
-    "Duitsland",
-    "Brabant",
-    "Europa",
-    "Amerika",
+    "Noord-Ierland",
     "Servië",
-    "Staphorst"
+    "China",
+    "Duitsland",
+    "Staphorst",
+    "Leeds",
+    "Stadskanaal",
+    "Stalingrad"
   ],
-  "summary_tldr": "Geert Mak legt uit waarom we in een historische overgangsfase zitten met een verschuiving van macht naar het oosten, instabiele veiligheidssystemen en het internet als nieuwe boekdrukkunst. Hij pleit voor een gezamenlijk Europees project en voor een morele stem van de kerken. Samen met Stefan Paas bespreekt hij secularisatie, christelijke identiteit en politieke principes.",
+  "summary_tldr": "Geert Mak beschrijft het huidige moment als een historische overgangsfase, met een verschuiving van de westerse naar de Aziatische machtsbalans, verzwakkende internationale verdragen en een zwarte horizon. Hij pleit voor Europese samenwerking, een herwaardering van gedeelde waarden en een actieve rol voor kerken en gemeenschappen. Stefan Paas nuanceert vooral de religieuze en politieke dimensies van Europa als christelijk continent.",
   "summary_points": [
-    "Mak ziet een paradigmawisseling vergelijkbaar met de 16e eeuw: machtsverschuiving naar Azië, afbrokkelende verdragen en internet.",
-    "De Amerikaanse stabiliserende rol vervaagt, wat de instabiliteit vergroot.",
-    "Voor China is de huidige opkomst een herstel van oude verhoudingen.",
-    "Europa moet het gezamenlijke project steunen om zijn lot nog zelf te kunnen bepalen.",
-    "Europa is niet simpelweg christelijk: het christendom is divers en Europa ook humanistisch en verlicht.",
-    "Waarden als rentmeesterschap, barmhartigheid, gerechtigheid en vrede kunnen een gemeenschappelijk kompas vormen.",
-    "Neoliberalisme heeft de samenleving geïndividualiseerd en morele keuzes verhuld als onvermijdelijk.",
-    "Kerken kunnen een moreel geluid laten horen, maar Paas wijst op hun interne verdeeldheid.",
-    "Politici moeten principes hebben en kiezers overtuigen; Merkel en de CDU zijn het voorbeeld.",
-    "Collectieve actie is nodig tegen individualisering en voor het klimaat."
+    "Mak ziet een machtsverschuiving van west naar oost (China, India) en een verzwakking van de Amerikaanse betrokkenheid bij Europa.",
+    "De internationale veiligheidsstructuren uit de Tweede Wereldoorlog komen onder druk te staan.",
+    "Internet wordt vergeleken met de boekdrukkunst als factor van grote maatschappelijke verandering.",
+    "Paas wijst op versplintering en toenemende kloven, waardoor het lastig wordt gezamenlijke oplossingen te vinden.",
+    "Europa wordt door Mak en Paas als een gemengd en divers project gezien, niet als een christelijk blok.",
+    "Secularisatie verschilt per land: sterk in Nederland, nauw verbonden met nationalisme in Polen.",
+    "Mak betoogt dat het neoliberalisme keuzes als onvermijdelijk voorstelde, terwijl het morele en politieke keuzes waren.",
+    "Mak roept kerken en politici op om principieel en moreel zichtbaar te zijn, met kanttekeningen van Paas over interne verdeeldheid.",
+    "Het ontbreken van een gedeeld verhaal en gemeenschappelijke waarden wordt als probleem gezien.",
+    "Mak sluit af met hoop via collectieve actie en een lessen uit de New Deal voor de toekomst."
   ],
   "chapters": [
     {
-      "start_seconds": 0,
-      "title": "Pastorie en kerkklok in Jorwerd",
-      "summary": "Mak vertelt over zijn woonplek in een oude pastorie en zijn rol als reserveklokkenluider."
+      "start_seconds": 35,
+      "title": "Jorwerd en de klokken",
+      "summary": "Mak vertelt over zijn pastorie in Jorwerd, zijn rol als reserveklokkenluider en het kwartier klokgelui tijdens de coronacrisis."
     },
     {
-      "start_seconds": 386,
-      "title": "De zwarte horizon",
-      "summary": "Over de Prinsjesdaglezing en de historische overgangsfase: machtsverschuiving, wankele verdragen en internet."
+      "start_seconds": 412,
+      "title": "Zwarte horizon en historische overgang",
+      "summary": "Mak licht zijn Prinsjesdaglezing toe: machtsverschuivingen, verdwijnende verdragen en technologische omwentelingen."
     },
     {
-      "start_seconds": 1058,
+      "start_seconds": 602,
+      "title": "Golfbeweging of fundamentele verandering",
+      "summary": "Paas vraagt of het gaat om een golfbeweging zoals het Amerikaanse isolationisme; Mak ziet iets fundamenters en verwijst naar de 16e eeuw."
+    },
+    {
+      "start_seconds": 1118,
       "title": "Liefde voor Europa",
-      "summary": "Mak en Paas spreken over de schoonheid en dynamiek van Europa en Maks reisjaar in 1999."
+      "summary": "Mak en Paas spreken over hun verbondenheid met Europa en de contrast met Amerika en China."
     },
     {
-      "start_seconds": 1280,
-      "title": "Secularisatie en christelijk Europa",
-      "summary": "Verschillen tussen landen en de vraag of Europa christelijk is."
+      "start_seconds": 1401,
+      "title": "Is Europa christelijk?",
+      "summary": "Het gesprek gaat over de vraag of Europa een christelijk continent is, met aandacht voor diversiteit en het gevaar van uitsluiting."
     },
     {
       "start_seconds": 1778,
-      "title": "Gemeenschappelijk verhaal en neoliberalisme",
-      "summary": "Resonantie, humanisme, emoties versus waarden en de gevolgen van neoliberalisme."
+      "title": "Secularisatie en het ontbrekende gemeenschappelijke verhaal",
+      "summary": "Mak bespreekt het verlies van gedeelde waarden, emotiecultuur en de rol van humanisme en christendom."
     },
     {
-      "start_seconds": 2100,
-      "title": "Collectieve actie en de rol van de kerken",
-      "summary": "Hoe burgers en kerken hun stem kunnen verheffen en de spanning rond kerkelijke eensgezindheid."
+      "start_seconds": 2043,
+      "title": "Neoliberalisme en politieke keuzes",
+      "summary": "Mak stelt dat het neoliberalisme keuzes als onvermijdelijk voorstelde; Paas koppelt dit aan de klimaatcrisis en individualisering."
     },
     {
-      "start_seconds": 2600,
-      "title": "Politiek met principes",
-      "summary": "Over christelijke partijen, Merkel en het isoleren van extreem rechts."
+      "start_seconds": 2359,
+      "title": "Kerk, politiek en principes",
+      "summary": "Het gesprek gaat over de politieke rol van kerken, het CDA en het voorbeeld van Merkel, en eindigt met Mak's New Deal-plannen."
     }
   ],
   "highlights": [
     {
+      "start_seconds": 412,
+      "speaker": "Geert Mak",
+      "text": "De horizon tekent zwart.",
+      "note": "Kernuitspraak die de urgentie van de aflevering samenvat."
+    },
+    {
       "start_seconds": 331,
       "speaker": "Geert Mak",
-      "text": "Die klok heeft alles doorstaan en wij, misschien niet als individu, maar als mensen, zullen dat ook doorstaan.",
-      "note": "Troostrijk beeld van de eeuwenoude kerkklok."
+      "text": "Die heeft alles meegemaakt, die heeft alles doorstaan.",
+      "note": "Het beeld van de 14e-eeuwse klok werkt als troostrijke metafoor voor de coronatijd."
     },
     {
-      "start_seconds": 391,
-      "speaker": "Geert Mak",
-      "text": "Er zit een hoeveelheid storm en beweging in de lucht die me totaal niet bevalt.",
-      "note": "Scherpe waarschuwing."
-    },
-    {
-      "start_seconds": 1795,
-      "speaker": "Geert Mak",
-      "text": "Een samenleving hoort bij zo'n ingreep als een pandemie te resoneren, zoals een heel stuk porselein gaat zingen.",
-      "note": "Treffend beeld van Philipp Blom."
-    },
-    {
-      "start_seconds": 1740,
+      "start_seconds": 754,
       "speaker": "Stefan Paas",
-      "text": "Een Servische baptist zei: mijn collega's noemen zich christen, maar ze vloeken, zuipen en schieten mensen dood, en ze vinden mij geen echte christen.",
-      "note": "Illustreert lege christelijke identiteit."
+      "text": "De kloven worden steeds groter, ook in het Westen tussen bevolkingsgroepen.",
+      "note": "Paas wijst op de versplintering die oplossingen bemoeilijkt en de analyse van het probleem tot hetzelfde leidt."
     },
     {
-      "start_seconds": 2298,
+      "start_seconds": 1489,
       "speaker": "Geert Mak",
-      "text": "Als je zo'n politicus hoort zeggen: daarvoor ben ik de politiek niet ingegaan.",
-      "note": "Pleidooi voor principes in de politiek."
+      "text": "Het christelijke etiket is een gevaarlijke discussie, omdat je allerlei andere groepen daarmee uitsluit.",
+      "note": "Mak wijst het idee van een christelijk Europa af vanwege de uitsluitende werking."
+    },
+    {
+      "start_seconds": 2115,
+      "speaker": "Geert Mak",
+      "text": "Er is geen alternatief, de markt zegt het.",
+      "note": "Scherpe kritiek op de ontkenning van politieke en morele keuzes binnen het neoliberalisme."
     }
   ],
   "keywords": [
     "Europa",
     "secularisatie",
-    "paradigmawisseling",
     "Prinsjesdaglezing",
+    "machtsverschuiving",
     "neoliberalisme",
-    "kerken",
+    "christelijke waarden",
+    "gemeenschappelijk verhaal",
+    "kerk en politiek",
     "rentmeesterschap",
-    "China",
-    "Angela Merkel",
-    "individualisering",
-    "Jorwerd",
-    "Grote Verwachtingen"
+    "New Deal",
+    "geopolitiek",
+    "internet"
   ],
   "quotes": [
-    "We gaan zware tijden tegemoet. Wat er zal gaan gebeuren, geen mens die het weet, maar de horizon tekent zwart."
+    "We gaan zware tijden tegemoet. Wat er zal gaan gebeuren, geen mens die het weet, maar de horizon tekent zwart.",
+    "Geert Mak over het Europa dat hem zo lief is, maar tegelijkertijd ook zo worstelt met zichzelf."
   ],
   "similar": [
     {
       "n": 196,
-      "reason": "Ook Geert Mak met Stefan Paas over Europa, nieuw wereldbeeld en geloof"
+      "reason": "Zelfde gast Geert Mak over Europa, nieuw wereldbeeld en de rol van geloof"
     },
     {
-      "n": 192,
-      "reason": "Europa, cultuurchristendom, Orbán-achtige politiek en geopolitiek met Paas"
-    },
-    {
-      "n": 284,
-      "reason": "Machtspolitiek, Europa en wereldorde met De Graaf en Paas"
-    },
-    {
-      "n": 293,
-      "reason": "Historische tijden, Europa en wat ertoe doet; geschiedenis en secularisatie"
+      "n": 92,
+      "reason": "Europese waarden en christelijke oorsprong, met Geopolitiek en Kerk als thema's"
     },
     {
       "n": 285,
-      "reason": "Kantelpunt en crisis van het Westen, Europese geschiedenis en politiek"
+      "reason": "Crisis van het Westen, politiek en economie, zoals in deze aflevering besproken"
+    },
+    {
+      "n": 300,
+      "reason": "Europese geschiedenis, Orbán en de rol van Kerk en politiek"
+    },
+    {
+      "n": 22,
+      "reason": "Tom Holland over het christendom als vormende kracht van het Westen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

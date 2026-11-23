@@ -1,170 +1,245 @@
 {
   "episode": 288,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 121982,
+    "segments": 1021,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30723,
-    "output_tokens": 2471,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62264,
+    "output_tokens": 4106,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "God & geloof",
     "Geopolitiek & oorlog",
-    "Filosofie & ethiek",
-    "Bijbel & Jezus"
+    "God & geloof",
+    "Bijbel & Jezus",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Arnon Grunberg"
   ],
   "people": [
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, besproken in context van binnenlands gevaar en persoonlijke politiek",
-      "start_seconds": 191,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast (medegespreksleider)",
+      "start_seconds": 10,
+      "mention_count": 1
     },
     {
-      "name": "Zohran Mamdani",
-      "note": "burgemeester van New York",
-      "start_seconds": 431,
-      "wiki_checked": true,
-      "wiki_pageid": 5955786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Zohran_Mamdani",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Zohran_Mamdani_05.25.25_%28b%29_%28cropped%29.jpg/250px-Zohran_Mamdani_05.25.25_%28b%29_%28cropped%29.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, besproken als bron van politieke onrust en vriend-vijanddenken",
+      "start_seconds": 180,
+      "mention_count": 22
     },
     {
       "name": "Mark Rutte",
-      "note": "NAVO-secretaris-generaal, bekend om zijn omgang met Trump",
-      "start_seconds": 462,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "secretaris-generaal van de NAVO, eerder premier",
+      "start_seconds": 450,
+      "mention_count": 9
+    },
+    {
+      "name": "Mamdani",
+      "note": "burgemeester van New York",
+      "start_seconds": 426,
+      "mention_count": 2
     },
     {
       "name": "Angela Merkel",
-      "note": "voormalig Duits bondskanselier, door Grunberg geïnterviewd",
-      "start_seconds": 569,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "note": "voormalig Duits bondskanselier",
+      "start_seconds": 570,
+      "mention_count": 2
     },
     {
-      "name": "Jan Peter Balkenende",
-      "note": "voormalig premier, vergeleken met Rutte door Merkel",
-      "start_seconds": 582,
-      "wiki_checked": true,
-      "wiki_pageid": 159,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Peter_Balkenende",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Jan_Peter_Balkenende_2006.jpg/250px-Jan_Peter_Balkenende_2006.jpg"
-    },
-    {
-      "name": "Abraham",
-      "note": "bijbelse figuur, gevraagd zijn zoon te offeren",
-      "start_seconds": 970,
-      "wiki_checked": true,
-      "wiki_pageid": 20447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Abram_%28Biblical%29.jpg/250px-Abram_%28Biblical%29.jpg"
-    },
-    {
-      "name": "Isaac",
-      "note": "zoon van Abraham in het offerverhaal",
-      "start_seconds": 970,
-      "wiki_checked": true
-    },
-    {
-      "name": "Job",
-      "note": "bijbelse figuur die op de proef wordt gesteld",
-      "start_seconds": 970,
-      "wiki_checked": true
-    },
-    {
-      "name": "Erich Auerbach",
-      "note": "literatuurwetenschapper, schreef Mimesis",
-      "start_seconds": 1303,
-      "wiki_checked": true,
-      "wiki_pageid": 766496,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Erich_Auerbach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Erich_Auerbach_um_1930.jpg/250px-Erich_Auerbach_um_1930.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader die het offerverhaal christelijk uitlegt",
-      "start_seconds": 1325,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "auteur van De meeste mensen deugen",
-      "start_seconds": 1927,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "name": "Balkenende",
+      "note": "voormalig Nederlands premier",
+      "start_seconds": 600,
+      "mention_count": 2
     },
     {
       "name": "Søren Kierkegaard",
       "note": "Deense filosoof, concept van de sprong",
-      "start_seconds": 2425,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
+      "start_seconds": 2440,
+      "mention_count": 14
     },
     {
       "name": "Albert Camus",
-      "note": "Franse filosoof en schrijver, aangehaald in het essay",
-      "start_seconds": 2425,
-      "wiki_checked": true,
-      "wiki_pageid": 3570,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Camus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/250px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
+      "note": "Franse filosoof, het absurde en opstand",
+      "start_seconds": 2860,
+      "mention_count": 9
+    },
+    {
+      "name": "Abraham",
+      "note": "bijbelse aartsvader, centrale figuur in offerverhaal",
+      "start_seconds": 960,
+      "mention_count": 12
+    },
+    {
+      "name": "Isaac",
+      "note": "zoon van Abraham, te offeren volgens Genesis",
+      "start_seconds": 990,
+      "mention_count": 6
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader, interpretatie van het offerverhaal",
+      "start_seconds": 1320,
+      "mention_count": 2
+    },
+    {
+      "name": "Reinhold Niebuhr",
+      "note": "theoloog, citaat over vervolging van groepen",
+      "start_seconds": 380,
+      "mention_count": 1
+    },
+    {
+      "name": "Erich Auerbach",
+      "note": "literatuurwetenschapper, Mimesis",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernst Jünger",
+      "note": "Duitse schrijver, ervaring aan het front",
+      "start_seconds": 3830,
+      "mention_count": 1
+    },
+    {
+      "name": "Joseph Stalin",
+      "note": "Sovjetleider, massamoordenaar",
+      "start_seconds": 1270,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president, oorlog tegen Oekraïne",
+      "start_seconds": 1480,
+      "mention_count": 7
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Duits dictator",
+      "start_seconds": 3140,
+      "mention_count": 2
+    },
+    {
+      "name": "Adam Smith",
+      "note": "econoom en filosoof",
+      "start_seconds": 3660,
+      "mention_count": 1
+    },
+    {
+      "name": "Erich Maria Remarque",
+      "note": "auteur van Im Westen nichts Neues",
+      "start_seconds": 2990,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus en auteur van De meeste mensen deugen",
+      "start_seconds": 1920,
+      "mention_count": 1
     },
     {
       "name": "Peter Kanninga",
-      "note": "opiniemaker met een boek over verwend Nederland",
-      "start_seconds": 1720,
-      "wiki_checked": true
+      "note": "opiniepijler, uitspraken over Nederlanders en militaire dienst",
+      "start_seconds": 1690,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof, verveling als basis van filosofie",
+      "start_seconds": 4010,
+      "mention_count": 1
+    },
+    {
+      "name": "Madeleine Albright",
+      "note": "voormalig Amerikaans minister van Buitenlandse Zaken",
+      "start_seconds": 780,
+      "mention_count": 1
+    },
+    {
+      "name": "John Kelly",
+      "note": "Amerikaans militair, Vietnam-veteraan",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Regine Olsen",
+      "note": "verloofde van Kierkegaard",
+      "start_seconds": 2420,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Vrees en Beven",
+      "author": "Søren Kierkegaard",
+      "note": "werk waarin het concept van de sprong wordt uitgewerkt",
+      "start_seconds": 2490,
+      "volume_id": "wc-30AEACAAJ",
+      "canonical_title": "Vrees en beven",
+      "canonical_author": "Søren Kierkegaard",
+      "isbn13": "9789463403030",
+      "isbn10": "9463403035",
+      "thumbnail": ""
+    },
+    {
+      "title": "De Mens in opstand",
+      "author": "Albert Camus",
+      "note": "over opstand en de grens van revolutie",
+      "start_seconds": 2800,
+      "volume_id": "3tph0AEACAAJ",
+      "canonical_title": "De mens in opstand",
+      "canonical_author": "Albert Camus",
+      "isbn13": "9789046708040",
+      "isbn10": "9046708047",
+      "thumbnail": ""
+    },
+    {
+      "title": "De Pest",
+      "author": "Albert Camus",
+      "note": "roman over toewijding aan de zieke medemens",
+      "start_seconds": 4420,
+      "volume_id": "SJ9kPwAACAAJ",
+      "canonical_title": "De pest",
+      "canonical_author": "Albert Camus, Jan Pieter van der Sterre",
+      "isbn13": "9789023424697",
+      "isbn10": "9023424697",
+      "thumbnail": ""
+    },
+    {
+      "title": "Im Westen nichts Neues",
+      "author": "Erich Maria Remarque",
+      "note": "roman over de Eerste Wereldoorlog",
+      "start_seconds": 2990,
+      "volume_id": "rm4rwQEACAAJ",
+      "canonical_title": "Im Westen Nichts Neues",
+      "canonical_author": "Erich Maria Remarque",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
       "title": "Mimesis",
       "author": "Erich Auerbach",
-      "note": "over vertelkunst, het offerverhaal als meesterwerkje",
-      "start_seconds": 1303,
-      "volume_id": "IXEPAAAAQBAJ",
-      "canonical_title": "Mimesis: The Representation of Reality in Western Literature - New and Expanded Edition",
-      "canonical_author": "Erich Auerbach, Edward W. Said",
-      "isbn13": "9781400847952",
-      "isbn10": "1400847958",
-      "thumbnail": "http://books.google.com/books/content?id=IXEPAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "over vertelkunst in het Oude Oosten en Griekenland",
+      "start_seconds": 1290,
+      "volume_id": "ENluzgEACAAJ",
+      "canonical_title": "Mimesis",
+      "canonical_author": "Erich Auerbach",
+      "isbn13": "9783772087271",
+      "isbn10": "3772087272",
+      "thumbnail": ""
     },
     {
       "title": "De meeste mensen deugen",
       "author": "Rutger Bregman",
-      "note": "soldaten die expres missschieten",
-      "start_seconds": 1927,
+      "note": "besproken in verband met soldaten die expres misschieten",
+      "start_seconds": 1920,
       "volume_id": "UbbpxgEACAAJ",
       "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
       "canonical_author": "Rutger Bregman",
@@ -173,157 +248,164 @@
       "thumbnail": ""
     },
     {
-      "title": "De moeite van het sterven waard",
-      "author": "Arnon Grunberg",
-      "note": "exclusief essay voor De Ongelooflijke",
-      "start_seconds": 1737
+      "title": "De mythe van Sisyphus",
+      "author": "Albert Camus",
+      "note": "citaat over de ongeconsumeerde liefde",
+      "start_seconds": 4260,
+      "volume_id": "zb9IzQEACAAJ",
+      "canonical_title": "De mythe van Sisyphus",
+      "canonical_author": "Albert Camus",
+      "isbn13": "9789086841806",
+      "isbn10": "9086841805",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 22",
-      "note": "het offer van Abraham en Isaac",
-      "start_seconds": 957
+      "note": "Abraham en Isaac: het offer op de berg Moria",
+      "start_seconds": 990
     },
     {
-      "ref": "Job 1",
+      "ref": "Job",
       "note": "Job wordt op de proef gesteld",
-      "start_seconds": 1559
+      "start_seconds": 1560
     }
   ],
   "places": [
     "Gouda",
     "New York",
-    "Amerika",
-    "Rusland",
     "Oekraïne",
-    "Minneapolis",
-    "Wenen",
+    "Rusland",
     "Bulgarije",
-    "Groenland",
+    "Afghanistan",
+    "Vietnam",
+    "Kopenhagen",
+    "Berlijn",
+    "Wenen",
+    "Minneapolis",
     "Gaza",
-    "Israël",
+    "Amersfoort",
     "Sobibor"
   ],
-  "summary_tldr": "In Museum Gouda spreken David Boogerd en Stefan Paas met Arnon Grunberg over geloof als nadenken over het offer, aan de hand van het verhaal van Abraham en Isaac. Het gesprek verbindt dit met actuele vragen over Trump, Europa, Rusland, sneuvelbereidheid en bezuinigingen.",
+  "summary_tldr": "In Museum Gouda bespreekt Arnon Grunberg met David Boogerd en Stefan Paas het offer als kern van geloof, aan de hand van het bijbelse verhaal van Abraham en Isaac. Het gesprek verbindt dit met actuele vragen over oorlog, Rusland, bezuinigingen en klimaat, en met filosofen als Kierkegaard en Camus. De centrale vraag is of een moderne, welvarende samenleving nog offers kan brengen en waarvoor.",
   "summary_points": [
-    "Grunberg ziet New York en de Amerikaanse staat als potentieel gevaarlijk, vooral binnenlands.",
-    "Mark Rutte's pragmatische omgang met Trump wordt verdedigd.",
-    "Europa moet zich na 1945 opnieuw uitvinden zonder Amerikaanse bescherming.",
-    "De internationale rechtsorde en het universalisme staan onder druk.",
-    "Het verhaal van Abraham en Isaac fascineert vanwege de literaire kracht en tegenstrijdigheid.",
-    "Stefan Paas legt het verhaal uit, ook in christelijke traditie via Augustinus.",
-    "Offers kun je alleen van jezelf vragen, niet van anderen.",
-    "Welvarende samenlevingen zijn minder bereid tot offers, maar niemand brengt ze graag.",
-    "Kierkegaard en Camus worden aangehaald over de sprong en zingeving."
+    "Het offerverhaal van Abraham en Isaac wordt besproken als literair meesterwerk en theologisch raadsel.",
+    "Augustinus zag in het geofferde schaap een voorafbeelding van Jezus; het offer wordt zo door God zelf gebracht.",
+    "Grunberg stelt dat geloven nadenken over het offer is en dat geweld altijd met offers te maken heeft.",
+    "De vraag of Europa en Nederland nog bereid zijn offers te brengen, bijvoorbeeld voor defensie, wordt uitgediept.",
+    "Kierkegaards sprong in het absurde en Camus' opstand worden als tegenpolen besproken.",
+    "Grunberg vindt het klimaatoffer van individuele keuzes een 'sprong in een pierenbadje' vergeleken met echte offers.",
+    "Verveling en welvaartsziekte worden gezien als voedingsbodem voor populisme en het verlangen naar chaos.",
+    "Het gesprek kijkt kritisch naar Trump, de VS en de houding van Europa tegenover migranten en internationaal recht.",
+    "Zingeving wordt verbonden met hartstocht en het risico om het leven te verliezen, tegenover een rationele en gematigde levensstijl."
   ],
   "chapters": [
     {
-      "start_seconds": 30,
-      "title": "Introductie in Museum Gouda",
-      "summary": "David introduceert de tentoonstelling, het thema offer en het essay van Grunberg."
+      "start_seconds": 0,
+      "title": "Welkom en de VS als vijandgebied",
+      "summary": "Grunberg praat over zijn leven tussen New York en Nederland en over de politiek van Trump en Rutte."
     },
     {
-      "start_seconds": 173,
-      "title": "Leven in Amerika",
-      "summary": "Grunberg over New York, Trump, de staat en mensenrechten."
+      "start_seconds": 600,
+      "title": "Europa en het imperium",
+      "summary": "Het gesprek gaat over het Europese vredesproject, imperiumverval en de rechtsorde na 1945."
     },
     {
-      "start_seconds": 420,
-      "title": "Rutte, Trump en Europa",
-      "summary": "Over Ruttes aanpak, de NAVO en de positie van Europa na 1945."
+      "start_seconds": 960,
+      "title": "Het offer van Abraham en Isaac",
+      "summary": "Het bijbelverhaal wordt verteld en uitgelegd, met aandacht voor de tekst en het beeldhouwwerk in Museum Gouda."
     },
     {
-      "start_seconds": 925,
-      "title": "De tentoonstelling en Abraham en Isaac",
-      "summary": "Waarom Grunberg dit verhaal koos en wat het beeldje toont."
-    },
-    {
-      "start_seconds": 1290,
-      "title": "Theologische lezing van het offer",
-      "summary": "Paas over vertelkunst, Augustinus, de belofte en God die op de proef stelt."
-    },
-    {
-      "start_seconds": 1680,
-      "title": "Offerbereidheid in onze tijd",
-      "summary": "Over sneuvelbereidheid, Rusland, geweld, comfort en wie de offers brengt."
+      "start_seconds": 1800,
+      "title": "Geweld, offers en sneuvelbereidheid",
+      "summary": "Discussie over of mensen nog offers willen brengen, met voorbeelden uit oorlog, Rusland en Oekraïne."
     },
     {
       "start_seconds": 2400,
-      "title": "Kierkegaard en Camus",
-      "summary": "De sprong en zingeving in het essay."
+      "title": "Kierkegaard en de sprong",
+      "summary": "De sprong in het absurde en het geloof als vertrouwen worden uitgelegd en vergeleken met Camus."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Klimaat, welvaart en het pierenbadje",
+      "summary": "Offers voor het klimaat en de vraag of zingeving daarmee volstaat, met het beeld van het pierenbadje."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Ironie, absurditeit en afsluiting",
+      "summary": "Gesprek over zelfrelativering, ironie en Camus, gevolgd door de afsluiting en mededelingen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1,
+      "start_seconds": 3250,
       "speaker": "Arnon Grunberg",
-      "text": "Velen zijn uit verveling zonder het te weten pyromanen geworden.",
-      "note": "Scherpe observatie over verveling en oorlog."
+      "text": "Een sprong in een pierenbadje, waarin ook nog eens water ontbreekt om uitglijden te voorkomen.",
+      "note": "Beeldende kritiek op offers die te klein zijn om de naam offer te verdienen."
     },
     {
-      "start_seconds": 1722,
+      "start_seconds": 2400,
       "speaker": "Arnon Grunberg",
-      "text": "Jeugd, ga sterf. En dan doen alsof je zelf moreel heldhaftig bent dat je dat roept.",
-      "note": "Kritiek op opiniemakers die offers van anderen eisen."
+      "text": "Geloven is nadenken over het offer.",
+      "note": "Kernstelling van het essay die de hele discussie verbindt."
     },
     {
-      "start_seconds": 1068,
+      "start_seconds": 3850,
       "speaker": "Arnon Grunberg",
-      "text": "Het is een bewijs dat je zoveel kan zeggen in zo weinig woorden.",
-      "note": "Literaire bewondering voor het offerverhaal."
+      "text": "Er zijn veel pyromanen geworden uit verveling.",
+      "note": "Scherpe diagnose van de verveling als voedingsbodem voor destructie."
     },
     {
-      "start_seconds": 1625,
+      "start_seconds": 2100,
       "speaker": "Stefan Paas",
-      "text": "Eén daad van geweld maakt meer kapot dan honderd goede daden kunnen repareren.",
-      "note": "Treffende gedachte over ongelijkheid van geweld."
+      "text": "Geweld maakt meer kapot dan honderd goede daden kunnen repareren.",
+      "note": "Ongelijkheid tussen opbouw en vernietiging als morele observatie."
     },
     {
-      "start_seconds": 2380,
-      "speaker": "Arnon Grunberg",
-      "text": "Je kunt dat alleen van jezelf vragen.",
-      "note": "Ethisch standpunt over offers."
+      "start_seconds": 1310,
+      "speaker": "Stefan Paas",
+      "text": "Het verhaal is een meesterwerkje omdat er niets wordt verteld van emoties of gedachten; je ziet alleen handeling.",
+      "note": "Literaire analyse die de kracht van het verhaal verklaart."
     }
   ],
   "keywords": [
     "offer",
+    "geloof",
     "Abraham en Isaac",
-    "Arnon Grunberg",
     "Kierkegaard",
     "Camus",
+    "sprong",
+    "absurditeit",
     "sneuvelbereidheid",
-    "Trump",
-    "NAVO",
-    "geweld",
-    "geloof",
-    "Europa",
-    "moral injury"
+    "verveling",
+    "zingeving",
+    "rechtsorde",
+    "klimaat"
   ],
   "quotes": [
     "Geloven is nadenken over het offer.",
-    "Wat gebeurt er met offers en zingeving als God steeds meer ontbreekt in onze samenleving?"
+    "Wat gebeurt er met offers en zingeving als God steeds meer ontbreekt in onze samenleving?",
+    "Een sprong in een pierenbadje, waarin ook nog eens water ontbreekt om uitglijden te voorkomen."
   ],
   "similar": [
     {
-      "n": 65,
-      "reason": "Arnon Grunberg opnieuw: zoektocht naar heiligheid, Bijbel en kunst"
-    },
-    {
-      "n": 28,
-      "reason": "Arnon Grunberg over gebrokenheid en geloof, Bijbelse thema's"
-    },
-    {
-      "n": 148,
-      "reason": "Arnon Grunberg over geloof, humanisme en actuele politiek"
-    },
-    {
-      "n": 199,
-      "reason": "Waar vechten we voor? Sneuvelbereidheid en offers met minister van Defensie"
-    },
-    {
       "n": 77,
-      "reason": "Bereid te sterven voor geloof of principes: martelaren en offer"
+      "reason": "Martelaren en bereidheid te sterven voor geloof, sluit aan bij het offerthema"
+    },
+    {
+      "n": 184,
+      "reason": "Waarde van de mens, Bijbel, Romeinen en Poetin; geopolitiek met bijbelse achtergrond"
+    },
+    {
+      "n": 95,
+      "reason": "Religieuze oorlog en vergeving, filosofische en geopolitieke invalshoek"
+    },
+    {
+      "n": 173,
+      "reason": "Vrede, geschiedenis en geloof, met Stefan Paas en Beatrice de Graaf"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

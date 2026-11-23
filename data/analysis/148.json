@@ -1,233 +1,289 @@
 {
   "episode": 148,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118966,
+    "segments": 1177,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31267,
-    "output_tokens": 2267,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61029,
+    "output_tokens": 7464,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
-    "Politiek",
     "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Politiek",
+    "God & geloof"
   ],
   "guests": [
     "Arnon Grunberg"
   ],
   "people": [
     {
-      "name": "Menno de Bruin",
-      "note": "voorzitter van de SGP",
-      "start_seconds": 467,
-      "wiki_checked": true
-    },
-    {
       "name": "Kees van der Staaij",
-      "note": "voormalig SGP-leider",
+      "note": "partijleider van de SGP; wordt genoemd als vertegenwoordiger van de partij en over diens motie van wantrouwen tegen Rutte",
       "start_seconds": 673,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "mention_count": 6
     },
     {
-      "name": "Friedrich Nietzsche",
-      "note": "filosoof, vergeleken met het pessimisme van de SGP",
-      "start_seconds": 459,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Beatrice de Graaf",
-      "note": "historica, lezing over de reactie op de watersnoodramp van 1953",
-      "start_seconds": 1152,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
+      "name": "Menno de Bruin",
+      "note": "voorzitter van de SGP; zijn uitspraak over wereldverbeteraars en lachen wordt aangehaald",
+      "start_seconds": 472,
+      "mention_count": 2
     },
     {
       "name": "Mark Rutte",
-      "note": "demissionair premier",
-      "start_seconds": 605,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "voormalig minister-president; genoemd in verband met moties van wantrouwen en zijn lange politieke carrière",
+      "start_seconds": 611,
+      "mention_count": 6
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, haalt vaak het woord asielzoeker erbij",
-      "start_seconds": 1519,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider; wordt genoemd als politicus die asielzoekers te pas en te onpas ter sprake brengt",
+      "start_seconds": 1514,
+      "mention_count": 2
     },
     {
-      "name": "Thierry Baudet",
-      "note": "politicus, geluiden in de SGP-jongerenorganisatie gingen die richting op",
-      "start_seconds": 667,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "name": "Friedrich Nietzsche",
+      "note": "filosoof; wordt vergeleken met het pessimisme van de SGP en genoemd in de discussie over vrijdenkers",
+      "start_seconds": 443,
+      "mention_count": 2
+    },
+    {
+      "name": "Fjodor Dostojevski",
+      "note": "schrijver; zijn figuur de Grote Inquisiteur wordt aangehaald over het juk van het christendom en de mensen die brood en idolen verkiezen",
+      "start_seconds": 2438,
+      "mention_count": 3
     },
     {
       "name": "Jan Wolkers",
-      "note": "schrijver, gevormd door de Bijbel",
-      "start_seconds": 925,
-      "wiki_checked": true,
-      "wiki_pageid": 14051,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Wolkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jan_Wolkers.jpg/250px-Jan_Wolkers.jpg"
+      "note": "schrijver; zei dat hij gevormd is door de Bijbel",
+      "start_seconds": 923,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "historica; haar lezing over de reactie op de watersnoodramp van 1953 wordt besproken",
+      "start_seconds": 1147,
+      "mention_count": 1
+    },
+    {
+      "name": "Marten Kruijf",
+      "note": "militair en auteur; zijn stelling over ongelijkheid tussen Afrika en het Westen en migratie wordt aangehaald",
+      "start_seconds": 3956,
+      "mention_count": 1
+    },
+    {
+      "name": "Yuval Noah Harari",
+      "note": "historicus en denker; stelt dat mensenrechten een geloof zijn",
+      "start_seconds": 3410,
+      "mention_count": 1
+    },
+    {
+      "name": "Hanno Sauer",
+      "note": "Duitse filosoof; beschrijft moraal als evolutionair ontstaan, besproken in een stuk van Grunberg",
+      "start_seconds": 3444,
+      "mention_count": 1
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "filosoof; het principe dat ieder mens een doel op zich is",
+      "start_seconds": 3183,
+      "mention_count": 1
+    },
+    {
+      "name": "Aad Kosto",
+      "note": "PvdA-politicus; slachtoffer van een bomaanslag door Rara",
+      "start_seconds": 2636,
+      "mention_count": 1
+    },
+    {
+      "name": "Van den Burg",
+      "note": "staatssecretaris van Asiel; voerde gesprek met Grunberg en zei dat hij over asielzoekers gewoon zijn ding doet",
+      "start_seconds": 2395,
+      "mention_count": 2
+    },
+    {
+      "name": "Margaret Thatcher",
+      "note": "Britse premier; was tegen de Duitse hereniging",
+      "start_seconds": 3900,
+      "mention_count": 1
+    },
+    {
+      "name": "François Mitterrand",
+      "note": "Franse president; was tegen de Duitse hereniging",
+      "start_seconds": 3900,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruud Lubbers",
+      "note": "voormalig premier; zijn uitspraak over Duitsland en het bestaan van twee Duitslanden wordt aangehaald",
+      "start_seconds": 3913,
+      "mention_count": 1
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russische president; genoemd in verband met Russen die voor hem vluchten naar Georgië",
+      "start_seconds": 3830,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "God, de grote romanschrijver",
       "author": "Arnon Grunberg",
-      "note": "over zijn stage bij de SGP",
-      "start_seconds": 1107,
+      "note": "boek over Grunbergs stage bij de SGP; het startpunt van het gesprek",
+      "start_seconds": 42,
       "volume_id": "_mKyzwEACAAJ",
-      "canonical_title": "God, de grote romanschrijver: twee weken bij de SGP",
+      "canonical_title": "God, de grote romanschrijver",
       "canonical_author": "Arnon Grunberg",
       "isbn13": "9789077767979",
       "isbn10": "9077767975",
       "thumbnail": ""
     },
     {
-      "title": "De Vluchteling, de grenswacht en de rijke jood",
+      "title": "De vluchteling, de grenswacht en de rijke jood",
       "author": "Arnon Grunberg",
-      "note": "over de asielcrisis als crisis van het humanisme",
-      "start_seconds": 1401,
+      "note": "non-fictieboek over de asielcrisis en het failliet van het humanisme",
+      "start_seconds": 168,
       "volume_id": "535azwEACAAJ",
       "canonical_title": "De vluchteling, de grenswacht en de rijke Jood",
       "canonical_author": "Arnon Grunberg",
       "isbn13": "9789493304048",
       "isbn10": "9493304043",
       "thumbnail": ""
+    },
+    {
+      "title": "De grote inquisiteur",
+      "author": "Fjodor Dostojevski",
+      "note": "episode uit De gebroeders Karamazov; gebruikt als metafoor voor de weerzin tegen het rijk van de liefde",
+      "start_seconds": 2438,
+      "volume_id": "k6dXAAAACAAJ",
+      "canonical_title": "De legende van Christus en de groot-inquisiteur",
+      "canonical_author": "Fjodor Dostojevski",
+      "isbn13": "9789070338091",
+      "isbn10": "9070338092",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Exodus 20:4",
+      "note": "Stefan Paas citeert 'Voor beelden dienst zult gij u wachten' over het ontbreken van beeldende kunst bij de SGP",
+      "start_seconds": 285
+    }
+  ],
   "places": [
     "Urk",
     "Zierikzee",
     "Ter Apel",
-    "Oekraïne",
-    "Afghanistan",
-    "Congo",
+    "Den Haag",
     "Évian-les-Bains",
-    "Italië",
-    "Pennsylvania",
-    "Middellandse Zee",
-    "Den Haag"
+    "Griekenland",
+    "Polen",
+    "Georgië",
+    "Somalië",
+    "Congo",
+    "Afghanistan",
+    "Oekraïne",
+    "Zeeland"
   ],
-  "summary_tldr": "Arnon Grunberg vertelt over zijn stage bij de SGP, waar hij een stabiele, gemoedelijke en pessimistisch-blijmoedige zuil aantrof. Daarna gaat het over zijn boek over de asielcrisis, waarin hij cijfers rechtzet en de crisis ziet als een failliet van het geseculariseerde en gebureaucratiseerde humanisme.",
+  "summary_tldr": "Arnon Grunberg vertelt over zijn stage bij de SGP en zijn boek 'God, de grote romanschrijver', waarin hij een stabiele, sympathieke maar conservatieve zuil beschrijft. Het gesprek verschuift naar zijn boek over de asielcrisis, waarin hij die ziet als een crisis van het humanisme dat door secularisatie en bureaucratisering zijn grondslag verliest. Grunberg en Paas zoeken naar een manier om solidariteit en menselijke waardigheid te verdedigen zonder naar louter nut te kijken.",
   "summary_points": [
-    "Grunberg liep stage bij de SGP en zag daar een stabiele laatste politieke zuil.",
-    "De SGP combineert een conservatief wereldbeeld met gemoedelijkheid, respect voor woorden en weinig verplichte verontwaardiging.",
-    "De titel God, de grote romanschrijver verwijst naar vrijheid binnen een plot dat in Gods hand ligt.",
-    "Op Urk voelde Grunberg zich aangekeken als symbool van de joden als oogappel van God.",
-    "Slechts ongeveer 10% van de migranten in Nederland zijn asielzoekers, en maar een fractie komt uit veilige landen.",
-    "Veel mensen kunnen alleen via asiel binnenkomen, wat mensensmokkel lucratief maakt; Grunberg pleit voor andere legale migratieroutes.",
-    "Humanisme ziet hij als geseculariseerd christendom dat is gebureaucratiseerd.",
-    "De ambtenaren in het asielsysteem zijn geen schurken; het probleem is structureel.",
-    "Meer opvangcapaciteit is nodig maar volgens hem slechts een paracetamolletje."
+    "Grunberg liep stage bij de SGP en beschrijft de partij als sympathiek, gemoedelijk en zonder verplichte verontwaardiging.",
+    "De SGP wordt gezien als een van de laatste stabiele politieke zuilen, met een fatsoenlijk maar conservatief wereldbeeld.",
+    "Grunberg wijst op de kleine omvang van de asielstroom: ongeveer 10% van de migratie naar Nederland betreft asielzoekers.",
+    "Hij stelt dat de asielcrisis een crisis van het humanisme is, dat bureaucratisch en efficiëntiegericht is geworden.",
+    "Secularisatie heeft het gezag en de vanzelfsprekendheid van humanistische waarden uitgehold, volgens Grunberg.",
+    "Paas en Grunberg bespreken of mensenrechten en menselijke waardigheid een geloof of evolutionair product zijn.",
+    "Het gesprek behandelt het onderscheid tussen nationaal privilege en menselijke gelijkwaardigheid, en pleit voor legale migratieroutes.",
+    "De discussie eindigt bij de vraag of solidariteit kan worden gegrond in welbegrepen eigenbelang of in een ideaal van menselijkheid."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en gespreksstijl",
-      "summary": "David introduceert Grunberg en zijn twee boeken; het gesprek dwaalt zoals altijd af."
+      "title": "Opening en aankondiging",
+      "summary": "De presentator stelt Grunberg voor en kondigt het onderwerp aan: de asielcrisis en het humanisme."
     },
     {
-      "start_seconds": 135,
+      "start_seconds": 180,
       "title": "Stage bij de SGP",
-      "summary": "Grunberg vertelt hoe hij bij de SGP binnenkwam en wat hij aantrof: taart, humor en pessimisme."
+      "summary": "Grunberg vertelt hoe hij bij de SGP terechtkwam en wat hij er zag, inclusief de taart en het gebrek aan somberheid."
     },
     {
-      "start_seconds": 660,
-      "title": "Urk, joden en christelijk zionisme",
-      "summary": "Over de nieuwe theologie na de oorlog en Grunbergs ongemak als jood tussen SGP'ers."
+      "start_seconds": 420,
+      "title": "Wereldverbeteraars en zuilen",
+      "summary": "Het gesprek gaat over lachen en somberheid in de politiek, de stabiliteit van de zuil en de rol van de SGP in het politieke landschap."
     },
     {
-      "start_seconds": 1050,
-      "title": "God als romanschrijver en gezag",
-      "summary": "De titel van het boek, gelatenheid na de watersnoodramp en verantwoording van gezagsdragers."
+      "start_seconds": 1100,
+      "title": "Politiek en vertrouwen in gezag",
+      "summary": "De discussie gaat over moties van wantrouwen, de inflatie van schaamte in het debat en de watersnoodramp als voorbeeld van fatalisme."
     },
     {
-      "start_seconds": 1400,
-      "title": "De asielcijfers",
-      "summary": "Over De Vluchteling, de grenswacht en de rijke jood, de feiten over asielzoekers en demografie."
+      "start_seconds": 1440,
+      "title": "Asielcijfers en het asielsysteem",
+      "summary": "Grunberg onderbouwt met cijfers dat asielzoekers een klein deel van de migratie vormen en bespreekt bureaucratie, opvang en mensensmokkel."
     },
     {
-      "start_seconds": 1800,
-      "title": "Mensensmokkel en legale migratie",
-      "summary": "Over de rol van smokkelaars en het idee van andere legale routes."
+      "start_seconds": 2150,
+      "title": "Het failliet van het humanisme",
+      "summary": "Grunberg en Paas bespreken hoe humanistische idealen na de oorlog zijn ontstaan, hoe ze zijn gebureaucratiseerd en hoe secularisatie hen ondermijnt."
     },
     {
-      "start_seconds": 1830,
-      "title": "Failliet van het humanisme",
-      "summary": "Humanisme als geseculariseerd en gebureaucratiseerd christendom, en de beperkte oplossing van meer bedden."
+      "start_seconds": 3050,
+      "title": "Mensenrechten als geloof en nut",
+      "summary": "Het gesprek draait om de vraag of mensenrechten een geloof zijn en of barmhartigheid te verdedigen is vanuit eigenbelang of vanuit een ideaal."
+    },
+    {
+      "start_seconds": 3800,
+      "title": "Migratie, geschiedenis en slot",
+      "summary": "Grunberg pleit voor andere migratievormen en historisch perspectief; de presentator kondigt volgende aflevering aan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 379,
+      "start_seconds": 472,
       "speaker": "Arnon Grunberg",
-      "text": "Je kunt heel goed samenleven met mensen die naar de hel gaan.",
-      "note": "Pragmatische SGP-wijsheid over tolerantie."
+      "text": "Mensen die de wereld weer willen verbeteren, die hebben weinig om te lachen, want het lukt niet.",
+      "note": "Een scherpe en ironische typering van de SGP-houding ten opzichte van politieke verandering."
     },
     {
-      "start_seconds": 467,
+      "start_seconds": 1454,
       "speaker": "Arnon Grunberg",
-      "text": "Mensen die de wereld willen verbeteren hebben weinig te lachen, want het lukt niet.",
-      "note": "Uitspraak van Menno de Bruin over links en de SGP."
+      "text": "Ongeveer 10% van alle mensen die Nederland binnenkomen zijn asielzoekers.",
+      "note": "Een feitelijke ontkrachting van de gangbare schatting, die door de meeste mensen veel hoger wordt ingeschat."
     },
     {
-      "start_seconds": 1374,
+      "start_seconds": 2789,
       "speaker": "Arnon Grunberg",
-      "text": "Een SGP'er zei: als wij 76 zetels halen, ben ik de eerste die de partij verlaat.",
-      "note": "Zelfspot over het zijn van een minderheid."
+      "text": "Migratie hoort bij onze geschiedenis; wij migreren allemaal.",
+      "note": "Grunberg relativeert de scheidslijn tussen 'eigen' en 'vreemd' door migratie als universeel te benoemen."
     },
     {
-      "start_seconds": 1470,
+      "start_seconds": 3807,
       "speaker": "Arnon Grunberg",
-      "text": "Slechts 10% van de mensen die Nederland binnenkomen zijn asielzoekers.",
-      "note": "Cijfer dat het debat in perspectief zet."
-    },
-    {
-      "start_seconds": 1997,
-      "speaker": "Arnon Grunberg",
-      "text": "Humanisme is een christendom zonder God, dat ook nog gebureaucratiseerd is.",
-      "note": "Kern van zijn diagnose."
+      "text": "Misschien moeten we allemaal iets anders gaan doen.",
+      "note": "Een ontmoedigde maar hoopvolle reactie van een advocaat in Polen, die het morele kompas van het hele systeem raakt."
     }
   ],
   "keywords": [
     "SGP",
     "asielcrisis",
     "humanisme",
-    "Arnon Grunberg",
     "secularisatie",
-    "IND",
     "migratie",
-    "politieke zuil",
-    "Urk",
-    "mensensmokkel",
-    "christelijk zionisme"
+    "menselijke waardigheid",
+    "nationaal humanisme",
+    "zuil",
+    "bureaucratie",
+    "mensenrechten",
+    "solidariteit",
+    "natiestaatprivilege"
   ],
   "quotes": [
     "Als de secularisatie iets heeft aangetoond, is het dat mensen de retoriek van het Rijk van de Liefde niet meer verdragen."
@@ -235,23 +291,25 @@
   "similar": [
     {
       "n": 105,
-      "reason": "Asielcrisis, kerk en politiek met Rikko Voorberg; zelfde kernonderwerp."
-    },
-    {
-      "n": 222,
-      "reason": "Kees van der Staaij over SGP-achtergrond, populisme en politiek."
-    },
-    {
-      "n": 288,
-      "reason": "Arnon Grunberg over geloof en offers; zelfde gast."
-    },
-    {
-      "n": 304,
-      "reason": "Asielprotesten, bezieling en verlies van ziel in Nederland."
+      "reason": "Asielcrisis en kerk, samenleving en politiek, net als deze aflevering."
     },
     {
       "n": 28,
-      "reason": "Gesprek met Arnon Grunberg over geloof en gebrokenheid."
+      "reason": "Zelfde gast, Arnon Grunberg, over geloof en gebrokenheid."
+    },
+    {
+      "n": 222,
+      "reason": "Kees van der Staaij over politiek, polarisatie en de joods-christelijke rechtsstaat."
+    },
+    {
+      "n": 65,
+      "reason": "Zelfde gast, Arnon Grunberg, over heiligheid en religieuze zoektocht."
+    },
+    {
+      "n": 21,
+      "reason": "Liberale leegte en menselijke waardigheid in een polariserende samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

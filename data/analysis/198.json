@@ -1,18 +1,23 @@
 {
   "episode": 198,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107179,
+    "segments": 1181,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31305,
-    "output_tokens": 2264,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55631,
+    "output_tokens": 7314,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "Economie & geld",
     "Filosofie & ethiek",
-    "Samenleving & migratie"
+    "Politiek"
   ],
   "guests": [
     "Tim Hofman"
@@ -20,118 +25,130 @@
   "people": [
     {
       "name": "John de Mol",
-      "note": "televisieproducent, geïnterviewd door Tim Hofman na de uitzending over The Voice",
+      "note": "Televisiemaker, gesprekspartner van Tim Hofman na de The Voice-uitzending",
       "start_seconds": 369,
-      "wiki_checked": true,
-      "wiki_pageid": 120305,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_de_Mol_jr.",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/John_de_Mol_jr.jpg/250px-John_de_Mol_jr.jpg"
+      "mention_count": 8
+    },
+    {
+      "name": "Ali B",
+      "note": "Betrokken in de zedenzaak rond de misstanden bij The Voice of Holland",
+      "start_seconds": 263,
+      "mention_count": 2
     },
     {
       "name": "Johan Rietberg",
-      "note": "pianist, zaak geseponeerd",
-      "start_seconds": 283,
-      "wiki_checked": true
+      "note": "Pianist; zaak tegen hem is geseponeerd",
+      "start_seconds": 279,
+      "mention_count": 2
+    },
+    {
+      "name": "Damien Denis",
+      "note": "Belgische psychiater die stelt dat angst alleen bestaat dankzij fantasie",
+      "start_seconds": 1057,
+      "mention_count": 2
     },
     {
       "name": "Jezus",
-      "note": "bron van de gulden regel (Mattheüs 7:12)",
-      "start_seconds": 506,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Damien Denys",
-      "note": "Belgische psychiater, citaat over angst en fantasie",
-      "start_seconds": 1066,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jonathan Haidt",
-      "note": "Amerikaanse sociaal psycholoog, 'generatie angststoornis'",
-      "start_seconds": 1270,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
+      "note": "Bron van de gulden regel: behandel anderen zoals je zelf behandeld wilt worden",
+      "start_seconds": 504,
+      "mention_count": 4
     },
     {
       "name": "Slavoj Žižek",
-      "note": "filosoof, quote over einde van de wereld en kapitalisme",
+      "note": "Filosoof; zei dat we eerder aan het einde van de wereld denken dan aan het einde van het kapitalisme",
       "start_seconds": 1824,
-      "wiki_checked": true,
-      "wiki_pageid": 293589,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Slavoj_%C5%BDi%C5%BEek_2015_%28cropped%29.jpg/250px-Slavoj_%C5%BDi%C5%BEek_2015_%28cropped%29.jpg"
-    },
-    {
-      "name": "Paul Schenderling",
-      "note": "econoom met filosofische achtergrond, eerder te gast",
-      "start_seconds": 1868,
-      "wiki_checked": true
-    },
-    {
-      "name": "Adam Smith",
-      "note": "liberale econoom, onzichtbare hand",
-      "start_seconds": 2110,
-      "wiki_checked": true,
-      "wiki_pageid": 24034,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adam_Smith",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/250px-Adam_Smith_The_Muir_portrait.jpg"
+      "mention_count": 2
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof, achtergrond van neoliberaal denken",
-      "start_seconds": 1968,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "Filosoof; beschreef het dilemma van de dood van God als bron van moraal",
+      "start_seconds": 1960,
+      "mention_count": 2
     },
     {
       "name": "Ayn Rand",
-      "note": "schrijfster, individualistisch vrijheidsdenken",
+      "note": "Schrijver van individualistische vrijheidsfilosofie, genoemd in verband met neoliberaal denken",
       "start_seconds": 1968,
-      "wiki_checked": true,
-      "wiki_pageid": 131086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayn_Rand",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ayn_Rand_%281943_Talbot_portrait%29.jpg/250px-Ayn_Rand_%281943_Talbot_portrait%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Adam Smith",
+      "note": "Economisch denker over de onzichtbare hand en de rol van de staat",
+      "start_seconds": 2083,
+      "mention_count": 2
     },
     {
       "name": "Andrew Tate",
-      "note": "influencer, genoemd door Paas als voorbeeld van hetzelfde verhaal vanuit rechts",
-      "start_seconds": 2166,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "note": "Influencer; als voorbeeld van een boek over harde mannelijkheid",
+      "start_seconds": 2162,
+      "mention_count": 6
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Psycholoog; betoogt dat het patriarchaat niet klopt en wijst op zelfmoordcijfers onder mannen",
+      "start_seconds": 2387,
+      "mention_count": 2
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "Politicus (ex-CU) met een absoluut idee van goed en kwaad vanuit zijn geloof",
+      "start_seconds": 3052,
+      "mention_count": 6
+    },
+    {
+      "name": "Mirjam Bikker",
+      "note": "Politica (CU), genoemd in grap over lijstplaatsen",
+      "start_seconds": 3097,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Schendeling",
+      "note": "Econoom met filosofische achtergrond; besproken over neoliberalisme en alternatieven",
+      "start_seconds": 1868,
+      "mention_count": 3
     },
     {
       "name": "Frans Timmermans",
-      "note": "politicus, waagt zich niet aan kapitalismekritiek",
-      "start_seconds": 1927,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "note": "Politicus; wordt genoemd als iemand die het grote kapitalismegesprek niet aangaat",
+      "start_seconds": 1921,
+      "mention_count": 2
+    },
+    {
+      "name": "Yuval Noah Harari",
+      "note": "Historicus; zegt dat mensenrechten moeilijk wetenschappelijk of filosofisch te funderen zijn",
+      "start_seconds": 3645,
+      "mention_count": 1
+    },
+    {
+      "name": "Jonathan Haidt",
+      "note": "Sociaal psycholoog; spreekt over de generatie angststoornis",
+      "start_seconds": 1270,
+      "mention_count": 1
+    },
+    {
+      "name": "Kim Jong Un",
+      "note": "Noord-Koreaans leider; voorbeeld van McCarthyisme-achtige framing",
+      "start_seconds": 1628,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus; genoemd bij cultureel christendom",
+      "start_seconds": 3847,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Bioloog en atheïst; genoemd bij cultureel christendom",
+      "start_seconds": 3851,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Goede moed, een pleidooi voor een minder bang bestaan",
       "author": "Tim Hofman",
-      "note": "nieuw boek over angst in de samenleving",
+      "note": "Nieuw boek over angst en de samenleving",
       "start_seconds": 376,
       "volume_id": "Qpz8EAAAQBAJ",
       "canonical_title": "Goede moed: Pleidooi voor een minder bang bestaan",
@@ -143,132 +160,145 @@
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 7:12",
-      "note": "behandel anderen zoals je zelf behandeld wilt worden; Tim past het om op zichzelf",
-      "start_seconds": 507
+      "ref": "Mattheus 7:12",
+      "note": "Gulden regel: behandel anderen zoals je zelf behandeld wilt worden; Tim gebruikt dit als 'beste vrienden toets'",
+      "start_seconds": 518
     }
   ],
   "places": [
     "Amsterdam",
-    "Utrecht",
     "Nebraska",
-    "Grand Canyon"
+    "Grand Canyon",
+    "Duitsland"
   ],
-  "summary_tldr": "Tim Hofman vertelt over zijn eigen angststoornis en hypochondrie en hoe hij daar mee leerde omgaan, en over zijn boek Goede moed. Het gesprek verbreedt zich naar angst in de samenleving, prestatiedruk, kapitalisme en vrijheid. Stefan Paas stelt kritische vragen over de liberale kant van het bevrijden van angst.",
+  "summary_tldr": "Tim Hofman bespreekt zijn boek Goede moed over angst, zijn eigen worsteling met faalangst, hypochondrie en angstaanvallen, en hoe hij daar van af kwam. Het gesprek verschuift naar kapitalisme, prestatiedrang en de vraag of moraal absoluut is of door de samenleving bepaald moet worden. Hofman pleit voor een fluïde morele consensus, waar Paas en Boogerd de fundering van moraal en mensenrechten tegenover stellen.",
   "summary_points": [
-    "Na de The Voice-uitzending veranderde er veel voor Tim, zowel zakelijk als privé",
-    "Voor het interview met John de Mol verdronk hij in faalangst; hij paste de 'beste vriendentoets' toe",
-    "Hij had jarenlang tot tien angstaanvallen per dag door hypochondrie",
-    "Herstel kwam door hulp zoeken, angst accepteren en de vraag 'wat is het ergste dat kan gebeuren?'",
-    "Angst is soms terecht; het boek maakt kosten-batenplaatjes van angst in 18 maatschappelijke kwesties",
-    "Prestatiedruk en 'je mag er zijn' raken aan zingeving en het neoliberale kapitalisme",
-    "Vrijheid kost soms vrijheid van anderen, zoals bij corona en artikel 23",
-    "Paas vraagt of het bevrijden van angst zelf een liberaal verhaal is; Tim reageert met zijn 'machtstoets'"
+    "Tim Hofman schrijft in Goede moed over de rol van angst in de samenleving.",
+    "Hofman beschrijft zijn faalangst voor het John de Mol-interview en de 'beste vrienden toets' als tegenmiddel.",
+    "Hij vertelt over hypochondrie, dagelijkse angstaanvallen en hoe hij leerde angst te accepteren en er niet meer in mee te gaan.",
+    "Angst wordt als lens besproken: niet alle maatschappelijke problemen zijn terug te voeren op angst, maar angst speelt wel een rol.",
+    "Het gesprek gaat over prestatiedwang, workaholisme en de vraag waarom stilstaan als onproductief wordt gezien.",
+    "Hofman verbindt het kapitalisme met een verlies aan zingeving en morele uitholling.",
+    "Er ontstaat discussie over vrijheid versus gemeenschap, zoals bij artikel 23 van de Grondwet over onderwijsvrijheid.",
+    "Hofman pleit voor een morele consensus die fluïde is en niet van bovenaf wordt opgelegd.",
+    "Paas en Boogerd vragen waar mensenrechten en goed en kwaad op gefundeerd kunnen worden, zonder religie.",
+    "Het gesprek eindigt met de vraag of Hofman's nihilisme eerder een startpunt dan een eindpunt is."
   ],
   "chapters": [
     {
-      "start_seconds": 95,
-      "title": "Leven na The Voice",
-      "summary": "Tim over de impact van de uitzending op zijn werk en privéleven en over grensoverschrijdend gedrag."
+      "start_seconds": 0,
+      "title": "Intro en The Voice-uitzending",
+      "summary": "Boogerd introduceert Hofman en de Ongelooflijke-aflevering; ze blikken terug op de impact van de Boos-uitzending over The Voice of Holland."
     },
     {
-      "start_seconds": 365,
-      "title": "Verdrinken in faalangst",
-      "summary": "Het gesprek met John de Mol en de beste vriendentoets met verwijzing naar Mattheüs 7:12."
+      "start_seconds": 376,
+      "title": "Faalangst en de spiegelmoment",
+      "summary": "Hofman beschrijft hoe faalangst hem verlamde vlak voor het gesprek met John de Mol en hoe hij zichzelf zachter toesprak."
     },
     {
-      "start_seconds": 625,
-      "title": "Tien angstaanvallen per dag",
-      "summary": "Tim beschrijft hypochondrie, drank en zijn herstel."
+      "start_seconds": 647,
+      "title": "Leven met hypochondrie",
+      "summary": "Hofman vertelt over zijn angststoornis, de hypochondrie en hoe hij met hulp en acceptatie uit de spiraal kwam."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 1033,
       "title": "Angst als lens voor de samenleving",
-      "summary": "Kosten-batenplaatjes, Damien Denys en de vraag of alles terug te voeren is op angst."
+      "summary": "Het gesprek gaat over de vraag of angst ten grondslag ligt aan maatschappelijke problemen en wat de rol van rationele kosten-batenanalyse is."
     },
     {
-      "start_seconds": 1250,
-      "title": "Prestatiedruk en je mag er zijn",
-      "summary": "Generatie angststoornis, workaholisme en de vraag naar waarde zonder prestatie."
+      "start_seconds": 1285,
+      "title": "Prestatiedwang en stilstaan",
+      "summary": "Hofman en Boogerd bespreken workaholisme, de generatie angst en de waarde van mensen die niet presteren."
     },
     {
-      "start_seconds": 1620,
+      "start_seconds": 1607,
       "title": "Kapitalisme en zingeving",
-      "summary": "Žižek, neoliberalisme en de filosofische wortels van het vrijheidsdenken."
+      "summary": "Hofman koppelt het kapitalisme aan een verlies van zingeving, mede aan de hand van het voorbeeld van zijn vader."
     },
     {
-      "start_seconds": 2050,
-      "title": "Vrijheid en de machtstoets",
-      "summary": "Artikel 23, corona en Paas' kritiek dat het boek ook een liberaliseringsverhaal is."
+      "start_seconds": 2162,
+      "title": "Machtsladder, vrijheid en gemeenschap",
+      "summary": "Paas en Hofman discussiëren over verantwoordelijkheid van machtige groepen, artikel 23 en de spanning tussen individuele vrijheid en gemeenschap."
+    },
+    {
+      "start_seconds": 2841,
+      "title": "Nihilisme, goed en kwaad en de fundering van moraal",
+      "summary": "Boogerd confronteert Hofman met de paradox van zijn nihilisme en activisme; ze debatteren over absolute moraal, mensenrechten en morele consensus."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 394,
+      "start_seconds": 536,
       "speaker": "Tim Hofman",
-      "text": "Ik verdronk er echt even.",
-      "note": "Openhartige onthulling over faalangst voor het John de Mol-interview."
+      "text": "Ik vertel mezelf wat ik mijn beste vriend op dit moment zou vertellen.",
+      "note": "Een concrete, toegankelijke techniek tegen zelfkritiek en faalangst."
+    },
+    {
+      "start_seconds": 778,
+      "speaker": "Tim Hofman",
+      "text": "Ik denk dat het heel normaal en misschien zelfs gezond is als je angst voelt als mens.",
+      "note": "Hofman keert zich tegen het idee dat angst altijd overwonnen moet worden."
     },
     {
       "start_seconds": 838,
       "speaker": "Tim Hofman",
       "text": "Mijn vader zei: nou en? Laat het even gebeuren.",
-      "note": "Eenvoudige reactie die hielp bij paniekaanvallen."
+      "note": "Een eenvoudige reactie van zijn vader die volgens Hofman enorm hielp."
     },
     {
-      "start_seconds": 1017,
+      "start_seconds": 1732,
       "speaker": "Tim Hofman",
-      "text": "Ik geef die plant geen water.",
-      "note": "Beeld voor hoe hij hypochondrie klein houdt."
+      "text": "Mijn vader is niet succesvol, want hij is niet miljonair geworden; mijn bedrijf is dit gezin.",
+      "note": "Een persoonlijke kritiek op het idee dat succes alleen financieel is."
     },
     {
-      "start_seconds": 1584,
+      "start_seconds": 3104,
       "speaker": "Tim Hofman",
-      "text": "Je mag gewoon zijn als mens.",
-      "note": "Kritiek op nuttigheidsdenken."
-    },
-    {
-      "start_seconds": 2166,
-      "speaker": "Stefan Paas",
-      "text": "Als Andrew Tate zo'n boek zou schrijven, zou hij het ook kunnen doen.",
-      "note": "Scherpe kritiek op het angstbevrijdingsverhaal."
+      "text": "Ik geloof eigenlijk helemaal niet in een absolute vorm van goed en kwaad, maar in morele kaders die fluïde zijn.",
+      "note": "Het centrale filosofische standpunt van Hofman, dat botst met het absolute moraal-denken van Paas en Boogerd."
     }
   ],
   "keywords": [
     "angst",
-    "hypochondrie",
     "faalangst",
-    "kapitalisme",
-    "neoliberalisme",
-    "zingeving",
-    "vrijheid",
-    "The Voice",
-    "Goede moed",
-    "prestatiedruk",
+    "hypochondrie",
     "nihilisme",
-    "machtstoets"
+    "goed en kwaad",
+    "morele consensus",
+    "kapitalisme",
+    "zingeving",
+    "maakbaarheidsdenken",
+    "machtsladder",
+    "vrijheid",
+    "artikel 23"
   ],
-  "quotes": [],
+  "quotes": [
+    "Goede moed, een pleidooi voor een minder bang bestaan",
+    "wat is goed en kwaad eigenlijk?",
+    "soms had hij wel tien angstaanvallen op een dag"
+  ],
   "similar": [
     {
       "n": 61,
-      "reason": "Tim Hofman is opnieuw gast; gesprek over zin en onzin van religie en leegte."
-    },
-    {
-      "n": 191,
-      "reason": "Jonathan Haidt-thema: angst en psychische schade bij jongeren, met Esther van Fenema."
+      "reason": "Zelfde gast Tim Hofman, over zin en onzin van religie"
     },
     {
       "n": 249,
-      "reason": "Psychiater over mentale epidemie, angst en uitwegen."
-    },
-    {
-      "n": 24,
-      "reason": "Angst in tijden van corona met psychiater Damiaan Denys."
+      "reason": "Psychiater over mentale epidemie en psychische klachten, zoals angst"
     },
     {
       "n": 174,
-      "reason": "Paul Schenderling over economische en culturele strijd achter onvrede en kapitalisme."
+      "reason": "Economische en culturele onvrede, met Paul Schenderling, die ook in deze aflevering wordt genoemd"
+    },
+    {
+      "n": 291,
+      "reason": "Filosoof over vrijheid en liberalisme, met moraal en politieke kanttekeningen"
+    },
+    {
+      "n": 217,
+      "reason": "Denker des Vaderlands over existentiële eenzaamheid, zoektocht naar geluk en zingeving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

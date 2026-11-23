@@ -1,190 +1,119 @@
 {
   "episode": 250,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 60105,
+    "segments": 519,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30832,
-    "output_tokens": 2629,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 30884,
+    "output_tokens": 10351,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kunst & cultuur",
+    "God & geloof",
     "Filosofie & ethiek",
     "Gezin & relaties"
   ],
   "guests": [
-    "Paul van Geest",
-    "Rik Peels"
+    "Rik Peels",
+    "Paul van Geest"
   ],
   "people": [
     {
       "name": "Augustinus",
-      "note": "kerkvader en filosoof, onderwerp van het debat",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Paul van Geest",
-      "note": "hoogleraar kerkgeschiedenis, Augustinuskenner",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 1800198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_van_Geest",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/PaulvanGeest2019.jpg/250px-PaulvanGeest2019.jpg"
-    },
-    {
-      "name": "Rik Peels",
-      "note": "hoogleraar godsdienstfilosofie aan de VU",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 3805611,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rik_Peels",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/RikPeels_FLB_20250115_O8A9742-Edit.jpg/250px-RikPeels_FLB_20250115_O8A9742-Edit.jpg"
-    },
-    {
-      "name": "Conchita Wurst",
-      "note": "Oostenrijkse songfestivalwinnares 2014, dragqueen met baard",
-      "start_seconds": 467,
-      "wiki_checked": true,
-      "wiki_pageid": 3789851,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Neuwirth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pride_Amsterdam_2019_Conchita_Wurst.jpg/250px-Pride_Amsterdam_2019_Conchita_Wurst.jpg"
-    },
-    {
-      "name": "Bernard ten Hove",
-      "note": "gepromoveerd op Augustinus, stuurde een mail over de baard",
-      "start_seconds": 633,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "reformator met baard",
-      "start_seconds": 433,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "reformator zonder baard; 'hier sta ik'",
-      "start_seconds": 433,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Philipp Melanchthon",
-      "note": "reformator, wisselend afgebeeld met en zonder baard",
-      "start_seconds": 433,
-      "wiki_checked": true,
-      "wiki_pageid": 176358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Philipp_Melanchthon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Philipp-Melanchthon-1543.jpg/250px-Philipp-Melanchthon-1543.jpg"
-    },
-    {
-      "name": "Plutarchus",
-      "note": "klassiek schrijver over het gevaar van baarden in de strijd",
-      "start_seconds": 772,
-      "wiki_checked": true,
-      "wiki_pageid": 61268,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plutarchus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Plutarch_of_Chaeronea-03-removebg-preview_%28cropped%29.png/250px-Plutarch_of_Chaeronea-03-removebg-preview_%28cropped%29.png"
-    },
-    {
-      "name": "Keizer Augustus",
-      "note": "glad geschoren Romeinse keizer",
-      "start_seconds": 826,
-      "wiki_checked": true,
-      "wiki_pageid": 864376,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustus_%28keizer%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg/250px-Augustus_Bevilacqua_Glyptothek_Munich_317.jpg"
+      "note": "Kerkvader en filosoof; centrale figuur van het debat over zijn baard",
+      "start_seconds": 30,
+      "mention_count": 60
     },
     {
       "name": "Ambrosius",
-      "note": "bisschop van Milaan, voorbeeld van Augustinus, afgebeeld met baard",
-      "start_seconds": 2203,
-      "wiki_checked": true,
-      "wiki_pageid": 108734,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ambrosius_van_Milaan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/AmbroseOfMilan.jpg/250px-AmbroseOfMilan.jpg"
+      "note": "Bisschop van Milaan en groot voorbeeld van Augustinus; mozaïek met baard besproken",
+      "start_seconds": 2189,
+      "mention_count": 8
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "Reformator; genoemd als bron van de uitspraak 'waardeloze Augustijn'",
+      "start_seconds": 1969,
+      "mention_count": 3
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator die een baard droeg",
+      "start_seconds": 425,
+      "mention_count": 1
+    },
+    {
+      "name": "Philipp Melanchthon",
+      "note": "Reformator; op sommige schilderijen met baard",
+      "start_seconds": 425,
+      "mention_count": 1
     },
     {
       "name": "Epictetus",
-      "note": "Stoïsch denker die de baard prijst",
-      "start_seconds": 1998,
-      "wiki_checked": true,
-      "wiki_pageid": 61396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Epictetus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Epictetus_from_L._Annaei_Senecae_philosophi_Opera%2C_1605%2C_title_page_detail.png/250px-Epictetus_from_L._Annaei_Senecae_philosophi_Opera%2C_1605%2C_title_page_detail.png"
+      "note": "Stoïcijns filosoof uit de eerste en tweede eeuw; citaat over de baard",
+      "start_seconds": 1991,
+      "mention_count": 2
     },
     {
-      "name": "Paulus",
-      "note": "apostel, beroepsgrond tegen lang haar bij mannen",
-      "start_seconds": 1525,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Plutarchus",
+      "note": "Antieke schrijver; zou hebben beschreven dat een baard in de strijd gevaarlijk was",
+      "start_seconds": 767,
+      "mention_count": 1
+    },
+    {
+      "name": "Conchita Wurst",
+      "note": "Artiestennaam van Tom Neuwirt; Oostenrijkse dragqueen met baard op het Songfestival 2014",
+      "start_seconds": 466,
+      "mention_count": 2
+    },
+    {
+      "name": "Bernard ten Hove",
+      "note": "Theoloog die bij Paul van Geest promoveerde; stelde dat Augustinus een baard had",
+      "start_seconds": 631,
+      "mention_count": 3
+    },
+    {
+      "name": "Keizer Augustus",
+      "note": "Romeinse keizer; beeld toont hem glad geschoren",
+      "start_seconds": 826,
+      "mention_count": 2
+    },
+    {
+      "name": "Paus Leo XIV",
+      "note": "Paus die verwijzingen maakte naar Augustinus' vredestafel",
+      "start_seconds": 1898,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "Controversiële online figuur; genoemd in verband met mannelijkheid van jongeren",
+      "start_seconds": 239,
+      "mention_count": 1
     },
     {
       "name": "Aäron",
-      "note": "bijbelse figuur met baard, allegorisch uitgelegd",
+      "note": "Bijbelse figuur; de baard van Aäron verwijst volgens Augustinus naar moed",
       "start_seconds": 1560,
-      "wiki_checked": true,
-      "wiki_pageid": 13259,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/A%C3%A4ron",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jacques_Berg%C3%A9%2C_Aaron-_Aaron%2C_KBS-FRB.jpg/250px-Jacques_Berg%C3%A9%2C_Aaron-_Aaron%2C_KBS-FRB.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; genoemd in verband met een 'Nietziaanse' snor",
+      "start_seconds": 228,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De opere monachorum",
-      "author": "Augustinus",
-      "note": "kritiek op lange haren van monniken",
-      "start_seconds": 1221,
-      "volume_id": "bGMhHAAACAAJ",
-      "canonical_title": "De opere monachorum",
-      "canonical_author": "Augustinus",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": ""
-    },
-    {
-      "title": "De stad van God",
-      "author": "Augustinus",
-      "note": "vredestafel in boek 19",
-      "start_seconds": 1860,
-      "volume_id": "kzknGQAACAAJ",
-      "canonical_title": "De stad van God / druk 7",
-      "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026319952",
-      "isbn10": "9026319959",
-      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
       "title": "God bewijzen",
-      "author": "Stefan Paas en Rik Peels",
-      "note": "boom als metafoor voor geloof",
+      "author": "",
+      "note": "Boek van twee Nederlandse theologen (onder wie Stefan Paas) met een boom op de cover; Rik Peels gebruikt de boommetafoor voor de baard",
       "start_seconds": 1362,
       "volume_id": "YIJgBgAAQBAJ",
       "canonical_title": "God bewijzen: argumenten voor en tegen geloven",
@@ -194,156 +123,191 @@
       "thumbnail": "http://books.google.com/books/content?id=YIJgBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Enarrationes in Psalmos",
+      "title": "De civitate Dei (De Stad Gods)",
       "author": "Augustinus",
-      "note": "commentaar op Psalm 133 over de baard van Aäron",
+      "note": "Negentiende boek bevat de 'vredestafel' waarin Augustinus over lichamelijke en geestelijke vrede schrijft",
+      "start_seconds": 1881,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God vertaald en toegankelijk gemaakt door Chris Dijkhuis",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
+    },
+    {
+      "title": "De opere monachorum (Over het monnikenwerk)",
+      "author": "Augustinus",
+      "note": "Traktaat over of monniken moeten werken of alleen bidden; kritiek op lang haar van monniken",
+      "start_seconds": 1213,
+      "volume_id": "8vXFtgAACAAJ",
+      "canonical_title": "De opere Monachorum liber unus",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Enarrationes in Psalmos 133 (Commentaar op Psalm 133)",
+      "author": "Augustinus",
+      "note": "Commentaar waarin de baard van Aäron verwijst naar moed en volwassenheid",
       "start_seconds": 1560,
-      "volume_id": "eCwvtAEACAAJ",
-      "canonical_title": "Augustinus: Enarrationes in Psalmos 110-118",
-      "canonical_author": "Augustinus",
-      "isbn13": "9783110411737",
-      "isbn10": "3110411733",
-      "thumbnail": "http://books.google.com/books/content?id=eCwvtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "volume_id": "gWVC0AEACAAJ",
+      "canonical_title": "Enarrationes in psalmos 119-133 (Tractatus canticorum graduum quindecim)",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Preek 346",
+      "author": "Augustinus",
+      "note": "Preek over lichaamsdelen van de mens, waaronder de baard als schoonheid zonder nut",
+      "start_seconds": 1588
     }
   ],
   "bible_refs": [
     {
       "ref": "Psalm 133",
-      "note": "baard van Aäron, door Augustinus allegorisch uitgelegd",
+      "note": "Augustinus' commentaar hierop verbindt de baard van Aäron met moed en volwassenheid",
       "start_seconds": 1560
     }
   ],
   "places": [
     "Rome",
     "Milaan",
-    "Oostenrijk",
-    "Sint-Jan van Lateranen",
-    "Basiliek van Sant'Ambrogio",
-    "Constantinopel"
+    "Amsterdam",
+    "Tilburg",
+    "Rotterdam",
+    "Utrecht",
+    "Oostenrijk"
   ],
-  "summary_tldr": "In deze humoristische jubileumaflevering debatteren Paul van Geest en Rik Peels over de vraag of Augustinus een baard had, met Stefan Paas als jurylid. Ze wegen fresco's, Romeinse mode, Augustinus' geschriften en theologische allegorieën af. Paas oordeelt voorlopig dat Augustinus waarschijnlijk wel een baard had.",
+  "summary_tldr": "In deze jubileumaflevering debatteren Rik Peels en Paul van Geest over de vraag of Augustinus een baard had, een discussie die ontstond na Van Geests uitspraak in aflevering 200. Van Geest onderbouwt zijn standpunt met de oudste fresco, Romeinse baardmode, hygiëne en het nut van de baard, terwijl Peels pleit voor een baard op basis van theologische en symbolische argumenten. Stefan Paas oordeelt voorlopig in het voordeel van Peels, omdat Ambrosius, Augustinus' voorbeeld, wel een baard had.",
   "summary_points": [
-    "Van Geest beweerde eerder dat Augustinus waarschijnlijk geen baard had; Peels reageerde op LinkedIn",
-    "Peels koppelt de baard aan radicalisering, stereotypen en het genderdebat",
-    "Het oudste portret in het Lateraan toont mogelijk een baardloze Augustinus; Peels ziet een dunne witte baard van een oude man",
-    "Romeinse mode rond baarden is onbeslist, volgens Paas",
-    "Augustinus' kritiek op lang haar van monniken suggereert kort haar, maar zegt niets over baarden",
-    "Peels' allegorische argumenten: baard als metafoor voor geloof en de privatio boni",
-    "Van Geest beroept zich op Augustinus' hygiëne en nuttigheidsdenken",
-    "Paas oordeelt voorlopig voor Peels op basis van het mozaïek van Ambrosius met baard",
-    "Plannen voor een boek 'De theologie van de baard'"
+    "Aanleiding: Paul van Geest zei in aflevering 200 dat Augustinus waarschijnlijk geen baard had, wat op LinkedIn tot een fel debat leidde.",
+    "Rik Peels koppelt de baard aan radicalisering en het stereotype van de geradicaliseerde man met baard, en aan het genderdebat.",
+    "Van Geest wijst het argument van radicalisering af als anachronistisch en verwijst naar Romeinse normen van netheid.",
+    "De oudste fresco van Augustinus in Rome toont een baardeloze man; Peels stelt dat de dunne baard te wijten is aan ouderdom.",
+    "Stefan Paas onderzoekt de baardmode in de late oudheid: het was niet eenduidig, en contextuele argumenten zijn niet beslissend.",
+    "Van Geest wijst op Augustinus' kritiek op lang haar van monniken en op de hygiëne in zijn klooster.",
+    "Peels gebruikt Augustinus' theologie: de baard als schoonheid, de privatio boni-leer van het kwaad, en symbolische verwijzingen naar schepping en verlossing.",
+    "Paas oordeelt voorlopig in het voordeel van Peels, mede omdat Ambrosius, het grote voorbeeld van Augustinus, een verzorgde baard had.",
+    "Het debat laat zien hoe historische kennis, theologie en symboliek door elkaar lopen; een vervolgdiscussie over Ambrosius lijkt te ontstaan."
   ],
   "chapters": [
     {
-      "start_seconds": 39,
-      "title": "Inleiding op het grote debat",
-      "summary": "David introduceert het debat, de aanleiding in aflevering 200 en de rol van Stefan als jury."
+      "start_seconds": 0,
+      "title": "Introductie en opzet van het debat",
+      "summary": "David Boogerd stelt de aanleiding en de debaters voor: Rik Peels tegen Paul van Geest, met Stefan Paas als theologische scheidsrechter."
     },
     {
-      "start_seconds": 341,
+      "start_seconds": 339,
       "title": "Waarom de baard ertoe doet",
-      "summary": "Peels en Van Geest betogen het morele, culturele en politieke belang: radicalisering, stereotypen en gender."
+      "summary": "Peels licht zijn twee bezwaren toe: het stereotype van de geradicaliseerde baarddrager en de koppeling van de baard aan mannelijkheid en gender."
     },
     {
-      "start_seconds": 633,
-      "title": "De fresco en de Romeinse mode",
-      "summary": "Bespreking van de Lateraanse afbeelding en de vraag of Romeinen baarden droegen."
+      "start_seconds": 516,
+      "title": "Anachronisme en aanleiding",
+      "summary": "Van Geest stelt dat radicalisering een anachronistisch argument is, en Boogerd bespreekt de reacties op de uitspraak uit aflevering 200."
     },
     {
-      "start_seconds": 1221,
-      "title": "Augustinus' geschriften over haar en lichaam",
-      "summary": "Het lange haar van monniken, preek 346 en de hygiëne van Augustinus komen aan bod."
+      "start_seconds": 767,
+      "title": "Romeinse baardmode en de fresco",
+      "summary": "Paas bespreekt de wisselende baardmode in de oudheid, Plutarchus over baarden in de strijd, en de oude fresco in Rome als bewijs."
     },
     {
-      "start_seconds": 1362,
-      "title": "Peels' theologische argumenten",
-      "summary": "Baard als metafoor voor geloof, scheren als schepping en verlossing, en de privatio boni."
+      "start_seconds": 1213,
+      "title": "Monniken, lang haar en theologische argumenten",
+      "summary": "Van Geest haalt Augustinus' kritiek op lang haar van monniken aan, waarna Peels reageert en zijn theologische argumenten presenteert."
     },
     {
-      "start_seconds": 1860,
-      "title": "Van Geests antwoord en Epictetus",
-      "summary": "Van Geest verwijst naar de vredestafel in De stad van God; Peels citeert Epictetus."
+      "start_seconds": 1632,
+      "title": "Hygiëne, nut en de Stad Gods",
+      "summary": "Van Geest voert hygiëne en het nutsprincipe aan tegen de baard, en verwijst naar de vredestafel uit de Stad Gods."
     },
     {
       "start_seconds": 2096,
-      "title": "Het oordeel van de jury",
-      "summary": "Paas oordeelt voorlopig voor Peels op basis van het Ambrosius-mozaïek; Van Geest protesteert."
-    },
-    {
-      "start_seconds": 2380,
-      "title": "Afsluiting en pogonofilie",
-      "summary": "Plannen voor een boek, terugblik op de stijlen van beide debaters en het woord pogonofilie."
+      "title": "Voorlopig oordeel van de jury en Ambrosius",
+      "summary": "Paas geeft een voorlopig oordeel in het voordeel van Peels op basis van de baard van Ambrosius; het debat wordt afgesloten met een knipoog naar een vervolg."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1440,
-      "speaker": "Rik Peels",
-      "text": "In de geest van Augustinus scheidt de baard het natte van het droge, een verwijzing naar de schepping.",
-      "note": "Absurdistische allegorie in Augustinische stijl."
-    },
-    {
-      "start_seconds": 1800,
-      "speaker": "Rik Peels",
-      "text": "Als een baard iets goeds is en het kwaad de afwezigheid van het goede, dan is het niet dragen van een baard het kwade.",
-      "note": "Een logisch geldig maar komisch argument op basis van privatio boni."
-    },
-    {
-      "start_seconds": 1990,
-      "speaker": "Paul van Geest",
-      "text": "Ik zou hem zo graag gelijk geven, maar hier sta ik, ik kan niet anders.",
-      "note": "Knipoog naar Luther."
-    },
-    {
-      "start_seconds": 2203,
+      "start_seconds": 168,
       "speaker": "Stefan Paas",
-      "text": "Ambrosius had een baard, dus voorlopig geef ik Rick gelijk.",
-      "note": "De jury brengt een eigen beslissend argument in."
+      "text": "We leven in een tijd van wankelende mannelijkheid, en het feit dat sommige mannen weelderige baarden kunnen groeien en anderen daar moeite mee hebben.",
+      "note": "Opent het debat met een persoonlijke en humoristische verbinding tussen baard en mannelijkheid."
     },
     {
-      "start_seconds": 2477,
+      "start_seconds": 348,
+      "speaker": "Rik Peels",
+      "text": "Sinds 11 september 2001 is het stereotype ontstaan dat een geradicaliseerde man een baard draagt, maar we hebben ook radicaal rechtse mensen die keurig in pak en glad geschoren zijn.",
+      "note": "Doorbreekt het stereotype en legt een link met hedendaags extremisme."
+    },
+    {
+      "start_seconds": 1442,
+      "speaker": "Rik Peels",
+      "text": "In de geest van Augustinus scheidt de baard het natte van het droge, en dat verwijst naar de schepping; het scheerapparaat verwijst naar het immateriële, dus naar de verlossing.",
+      "note": "Een zeer eigenzinnige allegorische lezing die het debat op een speelse manier verdiept."
+    },
+    {
+      "start_seconds": 1966,
+      "speaker": "Paul van Geest",
+      "text": "Ik zou hem zo graag gelijk geven, maar ik kan niet anders. Wie zei dat ook alweer? Ook zo'n waardeloze Augustijn.",
+      "note": "Een ironische verwijzing naar Luther die laat zien hoe het debat met humor wordt afgesloten."
+    },
+    {
+      "start_seconds": 2263,
+      "speaker": "Stefan Paas",
+      "text": "Augustinus heeft waarschijnlijk wel een baard gedragen; Ambrosius, zijn grote voorbeeld, had een baard.",
+      "note": "Het voorlopige oordeel van de jury, gebaseerd op een eigen argument uit de context."
+    },
+    {
+      "start_seconds": 2471,
       "speaker": "Rik Peels",
       "text": "Er is een woord voor: pogonofilie, de liefde voor de baard.",
-      "note": "Grappige afsluiting."
+      "note": "Een luchtige afsluiting die het debat met een grappige term besluit."
     }
   ],
   "keywords": [
     "Augustinus",
     "baard",
-    "fresco",
-    "Ambrosius",
-    "privatio boni",
-    "allegorie",
+    "mannelijkheid",
     "radicalisering",
-    "gender",
-    "De stad van God",
-    "Epictetus",
+    "anachronisme",
+    "Romeinse baardmode",
+    "fresco",
+    "privatio boni",
+    "Stad Gods",
+    "Ambrosius",
+    "kerkgeschiedenis",
     "pogonofilie"
   ],
   "quotes": [
     "Had Augustinus een baard?",
-    "Want democratie is een groot goed!"
+    "Wie heeft er gelijk? Laat het ons weten!"
   ],
   "similar": [
     {
       "n": 200,
-      "reason": "Augustinus-show met Paul van Geest; jubileumaflevering, ook rond Augustinus"
+      "reason": "Zelfde onderwerp Augustinus, met Paul van Geest als gast"
     },
     {
-      "n": 173,
-      "reason": "Speciale, luchtige aflevering met Rik Peels en Stefan Paas"
+      "n": 246,
+      "reason": "Kerkgeschiedenis en paus; Paul van Geest als gast"
+    },
+    {
+      "n": 122,
+      "reason": "Filosofische en theologische discussie, Nietzsche als gedeelde figuur"
     },
     {
       "n": 146,
-      "reason": "Rik Peels en Paas over atheïsme; filosofisch debat met humor"
+      "reason": "Debat met Rik Peels over geloof en filosofische argumenten"
     },
     {
       "n": 121,
-      "reason": "Paul van Geest en Paas over kerkgeschiedenis en een kerkelijke figuur"
-    },
-    {
-      "n": 207,
-      "reason": "Rik Peels in gesprek, filosofisch en luchtig van toon"
+      "reason": "Kerkhistorische duiding met Paul van Geest over theoloog"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

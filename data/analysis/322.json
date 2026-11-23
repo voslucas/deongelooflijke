@@ -1,128 +1,107 @@
 {
   "episode": 322,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 141085,
+    "segments": 1451,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31416,
-    "output_tokens": 2363,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 72381,
+    "output_tokens": 2697,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
     "God & geloof",
-    "Technologie & AI",
-    "Klimaat & natuur"
+    "Geschiedenis",
+    "Technologie & AI"
   ],
   "guests": [
     "Heino Falcke"
   ],
   "people": [
     {
+      "name": "Heino Falcke",
+      "note": "sterrenkundige en lekenpredikant, gast in de aflevering",
+      "start_seconds": 19,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 24,
+      "mention_count": 50
+    },
+    {
       "name": "Georges Lemaître",
-      "note": "Belgisch priester en natuurkundige, ontdekker van de oerknaltheorie",
+      "note": "priester en natuurkundige die het idee van de oerknal ontwikkelde",
       "start_seconds": 480,
-      "wiki_checked": true,
-      "wiki_pageid": 95534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georges_Lema%C3%AEtre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/GLemaitre30.jpg/250px-GLemaitre30.jpg"
+      "mention_count": 25
     },
     {
       "name": "Albert Einstein",
-      "note": "Natuurkundige; wees Lemaîtres natuurkunde aanvankelijk af",
-      "start_seconds": 526,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "note": "natuurkundige wiens vergelijkingen Lemaître toepaste",
+      "start_seconds": 556,
+      "mention_count": 4
     },
     {
       "name": "Max Planck",
-      "note": "Bedenker van de kwantumtheorie; kreeg te horen dat de natuurkunde al af was",
+      "note": "grondlegger van de kwantumtheorie",
       "start_seconds": 719,
-      "wiki_checked": true,
-      "wiki_pageid": 1057,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Planck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg/250px-Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg"
+      "mention_count": 3
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader die schreef over de tijd en het begin van de schepping",
-      "start_seconds": 822,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader die over het begin van de tijd schreef",
+      "start_seconds": 2562,
+      "mention_count": 3
     },
     {
-      "name": "Aristoteles",
-      "note": "Griekse filosof, ging uit van de eeuwigheid van de materie",
-      "start_seconds": 824,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "name": "Elon Musk",
+      "note": "ondernemer; Starlink en plannen voor Mars",
+      "start_seconds": 5200,
+      "mention_count": 3
     },
     {
       "name": "Peter Cook",
-      "note": "Cabaretier, geciteerd door Stefan Paas over de nietigheid van sterren",
-      "start_seconds": 309,
-      "wiki_checked": true,
-      "wiki_pageid": 5500108,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Cook",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Peter_Cook_1974_%28cropped%29.JPG/250px-Peter_Cook_1974_%28cropped%29.JPG"
+      "note": "cabaretier wiens quote Stefan Paas aanhaalde",
+      "start_seconds": 310,
+      "mention_count": 1
     },
     {
-      "name": "Mozes",
-      "note": "Vergeleken met Falckes ervaring bij Lemaîtres kladpapiertje (brandende doornstruik)",
-      "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "name": "Johan",
+      "note": "vraagsteller uit het publiek over de vernietiging van de aarde",
+      "start_seconds": 3790,
+      "mention_count": 1
     },
     {
-      "name": "William Shakespeare",
-      "note": "Genoemd in het aapjes-op-een-typemachine-voorbeeld",
-      "start_seconds": 2043,
-      "wiki_checked": true,
-      "wiki_pageid": 7192,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Shakespeare",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/250px-Shakespeare.jpg"
-    },
-    {
-      "name": "Arno Penzias en Robert Wilson",
-      "note": "Ontdekkers van de kosmische achtergrondstraling",
-      "start_seconds": 982,
-      "wiki_checked": true
+      "name": "Chrysostomus",
+      "note": "kerkvader die letterlijke lezing van Genesis afwees",
+      "start_seconds": 4780,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Tussen oerknal en apocalyps",
       "author": "Heino Falcke",
-      "note": "Het boek van Falcke over de geschiedenis van kosmos en mens",
-      "start_seconds": 206,
-      "volume_id": "rbcIEgAAQBAJ",
+      "note": "boek van de gast waarover uitgebreid wordt gesproken",
+      "start_seconds": 200,
+      "volume_id": "ghR-0gEACAAJ",
       "canonical_title": "Tussen oerknal en apocalyps",
       "canonical_author": "Heino Falcke",
-      "isbn13": "9789044661750",
-      "isbn10": "9044661752",
-      "thumbnail": "http://books.google.com/books/content?id=rbcIEgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044661743",
+      "isbn10": "9044661744",
+      "thumbnail": ""
     },
     {
       "title": "De Ongelooflijke Geschiedenis",
-      "author": "David Boogerd, Stefan Paas en Beatrice de Graaf",
-      "note": "Boek van de podcastmakers over 2000 jaar geschiedenis, terloops genoemd",
-      "start_seconds": 206,
+      "author": "David Boogerd, Beatrice de Graaf, Stefan Paas",
+      "note": "eerder boek van de presentator en gasten, terloops genoemd",
+      "start_seconds": 214,
       "volume_id": "yRILEgAAQBAJ",
       "canonical_title": "De ongelooflijke geschiedenis",
       "canonical_author": "Beatrice de Graaf, Stefan Paas, David Boogerd",
@@ -134,131 +113,154 @@
   "bible_refs": [
     {
       "ref": "Genesis 1",
-      "note": "God spreekt en er gebeurt iets nieuw; vergeleken met natuurwetten",
-      "start_seconds": 1939
+      "note": "scheppingsverhaal; God spreekt en het licht ontstaat, vergeleken met natuurwetten",
+      "start_seconds": 4550
     },
     {
-      "ref": "Exodus 3",
-      "note": "Mozes bij de brandende doornstruik, vergeleken met Falckes moment bij het kladpapiertje van Lemaître",
-      "start_seconds": 576
+      "ref": "Genesis 2",
+      "note": "God vormt de mens uit stof; Paas bespreekt de letterlijke lezing",
+      "start_seconds": 4740
+    },
+    {
+      "ref": "Openbaring",
+      "note": "'ik maak alles nieuw' als bron van hoop",
+      "start_seconds": 5790
     }
   ],
   "places": [
     "Ede",
-    "Leuven",
-    "Princeton",
-    "CERN",
     "Nijmegen",
-    "Duitsland"
+    "Leuven",
+    "Nieuwegein",
+    "Duitsland",
+    "Zuidpool"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met sterrenkundige en lekenpredikant Heino Falcke over de reis van oerknal tot apocalyps. Ze bespreken Lemaître en de oerknal, de sluier voor het begin, fine tuning, het multiversum en de godsvraag, en de eerste foto van een zwart gat.",
+  "summary_tldr": "Heino Falcke, sterrenkundige en lekenpredikant, bespreekt met David Boogerd en Stefan Paas van de oerknal tot de apocalyps. Het gesprek gaat over de geschiedenis van de oerknaltheorie, de fine tuning van het universum, het bestaan van God en het verband tussen wetenschap en geloof. Ook komen klimaatverandering, technologie en de hoop voor de toekomst van de mensheid aan bod.",
   "summary_points": [
-    "Lemaître, priester en natuurkundige, ontdekte de oerknal; zijn t=0 was aanvankelijk omstreden, ook bij Einstein.",
-    "Oerknaltheorie werd in de jaren 50 bevestigd door de kosmische achtergrondstraling.",
-    "Lemaître schrapte een theologische slotalinea en sprak van een sluier over de schepping: de wetenschap is begrensd.",
-    "Een lichte asymmetrie tussen materie en antimaterie (1 op een miljard) maakte ons bestaan mogelijk.",
-    "Het universum lijkt fijn afgesteld, wat volgens Falcke geen bewijs voor God is maar wel een aanwijzing om door te vragen.",
-    "Een multiversum verschuift het probleem alleen, want natuurwetten en een oertoestand blijven onverklaard.",
-    "Falcke ziet natuurwetten als christen als woorden van God en vindt dat doorvragen de godsvraag niet ontloopt.",
-    "De foto van het zwart gat uit 2019 noemt hij een blik op de poorten van de hel, het einde van ruimtetijd."
+    "Lemaître ontwikkelde het idee van een begin van het universum, en zijn kladpapiertje met de t=0 is iconisch",
+    "De kosmische achtergrondstraling bevestigde de oerknaltheorie; Lemaître schrapte een theologische slotalinea uit zijn artikel",
+    "De fine tuning van natuurconstanten roept vragen op, maar is volgens Falcke geen bewijs voor God",
+    "Toeval en natuurwetten: een mogelijke aanwijzing voor een schepper, maar niet natuurkundig te bewijzen",
+    "Falcke vergelijkt de Genesis met moderne kosmologie; Paas benadrukt dat Genesis geen krantenverslag is",
+    "De mens verschijnt pas laat in de kosmische tijdlijn, maar is juist bijzonder door bewustzijn",
+    "Klimaatverandering is uniek door de snelheid en de menselijke oorzaak",
+    "Technologie is geen verlosser; controle ligt bij enkele techbedrijven",
+    "Falcke ziet hoop in het overleven van het leven en de mens, gegrond in geloof",
+    "Buitenaards leven is mogelijk, maar nog niet waargenomen"
   ],
   "chapters": [
     {
-      "start_seconds": 56,
-      "title": "Inleiding en reis door de kosmos",
-      "summary": "David introduceert Falcke en zijn boek, en bespreekt de ambitie om 13,8 miljard jaar geschiedenis en de toekomst te beschrijven."
-    },
-    {
-      "start_seconds": 300,
-      "title": "Kind van de kosmos",
-      "summary": "Stefan Paas is niet geïnteresseerd in de sterren, Falcke legt uit dat elk deeltje in ons uit de oerknal stamt."
+      "start_seconds": 0,
+      "title": "Inleiding en kosmische reis",
+      "summary": "Boogerd introduceert de aflevering, Falcke en de zwarte-gat-foto, en de gasten."
     },
     {
       "start_seconds": 480,
-      "title": "De ongelooflijke Lemaître",
-      "summary": "Over de priester-natuurkundige die de oerknal bedacht, het kladpapiertje en de weerstand van Einstein en anderen."
+      "title": "Lemaître en de oerknal",
+      "summary": "De ontdekking van de oerknal door Lemaître, het kladpapiertje en de reacties van wetenschap en kerk."
     },
     {
-      "start_seconds": 1200,
-      "title": "De twee oerknallen en de sluier",
-      "summary": "Falcke beschrijft het vroege heelal, de materie-antimaterie-asymmetrie en de zwaartekracht, en waarom de sporen van het begin zijn gewist."
+      "start_seconds": 1140,
+      "title": "Uit de oerknal naar sterren",
+      "summary": "Falcke beschrijft de eerste minuten van het heelal, deeltjes, en de rol van zwaartekracht."
     },
     {
-      "start_seconds": 1608,
-      "title": "Fine tuning, multiversum en de godsvraag",
-      "summary": "Gesprek over precies afgestelde constanten, het multiversum, natuurwetten en de vraag wie of wat God is."
+      "start_seconds": 1800,
+      "title": "Sluiers, fine tuning en multiversum",
+      "summary": "Discussie over grenzen van wetenschap, fine tuning, multiversum en natuurwetten."
     },
     {
-      "start_seconds": 2262,
-      "title": "De foto van het zwart gat",
-      "summary": "Over de iconische foto uit 2019, de betekenis van zwarte gaten en de gekozen rode kleur."
+      "start_seconds": 2880,
+      "title": "Zwart gat en Falcke's persoonlijke verhaal",
+      "summary": "De zwart-gat-foto, de betekenis ervan en Falcke's ziekte en hartoperatie."
+    },
+    {
+      "start_seconds": 3420,
+      "title": "Kosmische seconde en klimaat",
+      "summary": "De mens als laat verschijnsel, klimaatverandering en verantwoordelijkheid."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Schepping, evolutie en Genesis",
+      "summary": "Falcke en Paas bespreken de verhouding tussen evolutie en het scheppingsverhaal."
+    },
+    {
+      "start_seconds": 5160,
+      "title": "Technologie, AI en apocalyps",
+      "summary": "Gesprek over Big Tech, AI, transhumanisme en de hoop op een nieuwe toekomst."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 395,
+      "start_seconds": 1180,
       "speaker": "Heino Falcke",
-      "text": "Je bent een kind van de kosmos.",
-      "note": "Kernidee: de hele kosmische geschiedenis zit in ons."
+      "text": "Elk deeltje in jouw hand is in de oerknal gemaakt.",
+      "note": "Maakt de kosmische geschiedenis direct persoonlijk en verrassend."
     },
     {
-      "start_seconds": 575,
+      "start_seconds": 2640,
       "speaker": "Heino Falcke",
-      "text": "Als Mozes voor de brandende doornstruik stond ik daar.",
-      "note": "Zijn ervaring bij Lemaîtres kladpapiertje."
+      "text": "Ik denk dat we ons leven moeten leven alsof er altijd een morgen is.",
+      "note": "Een praktische en hoopvolle levenshouding tegenover de apocalyps."
     },
     {
-      "start_seconds": 1638,
+      "start_seconds": 3150,
       "speaker": "Heino Falcke",
-      "text": "Bestaat God? Mijn antwoord was: ja. Daarmee was de podcast afgelopen.",
-      "note": "Humoristisch over een Duitse podcast."
+      "text": "De mensheid is een puber.",
+      "note": "Een beeldende manier om de huidige fase van de mens te duiden."
     },
     {
-      "start_seconds": 1062,
-      "speaker": "Heino Falcke",
-      "text": "Er is een sluier over de schepping.",
-      "note": "Lemaîtres geschrapte slotalinea."
+      "start_seconds": 4960,
+      "speaker": "Stefan Paas",
+      "text": "Genesis is geen krantenverslag uit 6006 voor Christus.",
+      "note": "Scherpe nuancering van letterlijke lezing van het scheppingsverhaal."
     },
     {
-      "start_seconds": 1307,
+      "start_seconds": 5260,
       "speaker": "Heino Falcke",
-      "text": "Eén van die deeltjes zit nu in jou.",
-      "note": "Eén overgebleven deeltje op een miljard antideeltjes."
+      "text": "Technologie is geen verlosser.",
+      "note": "Kritische blik op Big Tech en de macht van enkelen."
     }
   ],
   "keywords": [
     "oerknal",
-    "Georges Lemaître",
-    "zwart gat",
+    "Lemaître",
     "fine tuning",
-    "multiversum",
-    "sluier",
-    "schepping",
-    "godsvraag",
-    "natuurwetten",
+    "zwart gat",
+    "kosmische seconde",
+    "Genesis",
+    "evolutie",
+    "klimaatverandering",
+    "transhumanisme",
     "apocalyps"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik denk, we staan gewoon aan het begin.",
+    "Ik denk dat de schepper, die zo'n fantastische wereld heeft gemaakt, nog een verrassing heeft voor ons.",
+    "Ik vertrouw erop dat die er is."
+  ],
   "similar": [
     {
       "n": 69,
-      "reason": "Heino Falcke zelf, reis door het heelal en God, wetenschap en religie"
-    },
-    {
-      "n": 157,
-      "reason": "Oxford-natuurkundige Ard Louis over mysteries, schoonheid en God, fine tuning-thema"
+      "reason": "Heino Falcke over het heelal, geloof en religieuze verkenning van de ruimte"
     },
     {
       "n": 316,
-      "reason": "Topwetenschappers incl. Falcke en Ard Louis over het bestaan van God"
+      "reason": "Best Of over bestaan van God met topwetenschappers, waaronder Heino Falcke"
     },
     {
-      "n": 167,
-      "reason": "Botsing tussen wetenschap en geloof: Galileo, Einstein, Darwin"
+      "n": 157,
+      "reason": "Oxford-natuurkundige over mysteries van de natuur en mogelijk God"
     },
     {
       "n": 233,
-      "reason": "Wetenschappelijke doorbraak (kwantum), geloof en wetenschap, kosmos"
+      "reason": "Wetenschap en geloof met Carlo Beenakker over kwantum en God"
+    },
+    {
+      "n": 238,
+      "reason": "Bestaat God en oorsprong van het universum volgens Thomas van Aquino"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

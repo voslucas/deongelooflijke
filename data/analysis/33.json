@@ -1,18 +1,23 @@
 {
   "episode": 33,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 71960,
+    "segments": 686,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30924,
-    "output_tokens": 2476,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 37044,
+    "output_tokens": 2578,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "God & geloof",
     "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Dirk de Wachter"
@@ -20,264 +25,225 @@
   "people": [
     {
       "name": "Dirk de Wachter",
-      "note": "Vlaamse psychiater, schrijver en hoogleraar aan de KU Leuven",
-      "start_seconds": 78,
-      "wiki_checked": true,
-      "wiki_pageid": 3777024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dirk_De_Wachter"
+      "note": "Vlaamse psychiater, schrijver en hoogleraar KU Leuven; gast",
+      "start_seconds": 4,
+      "mention_count": 3
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof van de 'dood van God'",
-      "start_seconds": 11,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Damiaan Denys",
-      "note": "Vlaamse psychiater, eerder gast in de podcast",
-      "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 2728028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Damiaan_Denys",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DamiaanDenys2013.jpg/250px-DamiaanDenys2013.jpg"
-    },
-    {
-      "name": "Paul Verhaeghe",
-      "note": "Vlaamse psychiater, ook een 'popster van de psychiatrie'",
-      "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 3001311,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Verhaeghe"
+      "note": "filosoof; 'dood van God' besproken",
+      "start_seconds": 40,
+      "mention_count": 1
     },
     {
       "name": "Michel Foucault",
-      "note": "filosoof die de psychiatrie als middel tot onderdrukking van afwijkende stemmen zag",
-      "start_seconds": 729,
-      "wiki_checked": true,
-      "wiki_pageid": 28088,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Foucault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michel_Foucault_1974_Brasil.jpg/250px-Michel_Foucault_1974_Brasil.jpg"
+      "note": "filosoof die kritiek uitte op psychiatrische diagnostiek",
+      "start_seconds": 712,
+      "mention_count": 1
     },
     {
       "name": "Emmanuel Levinas",
-      "note": "filosoof van het gelaat van de ander, inspiratie voor De Wachters zingevingsvisie",
-      "start_seconds": 1533,
-      "wiki_checked": true,
-      "wiki_pageid": 204704,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Emmanuel_Levinas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Emmanuel_Levinas.jpg/250px-Emmanuel_Levinas.jpg"
+      "note": "filosoof; ethiek van de blik van de ander",
+      "start_seconds": 1495,
+      "mention_count": 2
     },
     {
       "name": "Baruch Spinoza",
-      "note": "filosoof; De Wachter heeft een 'Spinozaans godsbeeld'",
-      "start_seconds": 2081,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
-    },
-    {
-      "name": "James Kennedy",
-      "note": "historicus over gelovigen en ongelovigen in Nederland",
-      "start_seconds": 2159,
-      "wiki_checked": true,
-      "wiki_pageid": 754275,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/James-kennedy.jpg/250px-James-kennedy.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "historicus over de invloed van het christendom op de westerse cultuur",
-      "start_seconds": 2429,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
-    },
-    {
-      "name": "Etienne Vermeersch",
-      "note": "Vlaams moraalfilosoof, boegbeeld van de antitheïsten en voormalig jezuïet",
-      "start_seconds": 2590,
-      "wiki_checked": true,
-      "wiki_pageid": 77823,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Etienne_Vermeersch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Etienne_Vermeersch_675.jpg/250px-Etienne_Vermeersch_675.jpg"
+      "note": "filosoof; Spinozaans godsbeeld",
+      "start_seconds": 2034,
+      "mention_count": 1
     },
     {
       "name": "Leo Apostel",
-      "note": "Vlaams filosoof, bedenker van de term 'christelijk non-theïst'",
-      "start_seconds": 2671,
-      "wiki_checked": true,
-      "wiki_pageid": 68801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leo_Apostel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/L_Apostel_1980.jpg/250px-L_Apostel_1980.jpg"
+      "note": "Vlaams filosoof; bedenker van 'christelijk non-theïst'",
+      "start_seconds": 2665,
+      "mention_count": 1
+    },
+    {
+      "name": "Etienne Vermeersch",
+      "note": "Vlaams moraalfilosoof, oud-jezuïet en antitheïst",
+      "start_seconds": 2590,
+      "mention_count": 1
+    },
+    {
+      "name": "Damiaan Denys",
+      "note": "Vlaamse psychiater, eerder in podcast",
+      "start_seconds": 362,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Verhagen",
+      "note": "Vlaamse psychiater, eerder genoemd als 'psychiatrische topper'",
+      "start_seconds": 374,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "historicus; boek over christelijke invloed op westerse cultuur",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "James Kennedy",
+      "note": "historicus; uitspraak over Nederlandse (on)geloof",
+      "start_seconds": 2148,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "eerdere podcastgast, weer katholiek geworden",
+      "start_seconds": 2255,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Borderline Times",
       "author": "Dirk de Wachter",
-      "note": "kritiek op de psychiatrische diagnostiek en op de samenleving",
-      "start_seconds": 627,
-      "volume_id": "LSEDAAAAQBAJ",
+      "note": "boek over borderline-diagnostiek als kritiek op de samenleving",
+      "start_seconds": 647,
+      "volume_id": "Z1gI0AEACAAJ",
       "canonical_title": "Borderline times: het einde van de normaliteit",
-      "canonical_author": "Dirk de Wachter",
-      "isbn13": "9789401407304",
-      "isbn10": "9401407304",
-      "thumbnail": "http://books.google.com/books/content?id=LSEDAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Dirk August Jozef De Wachter",
+      "isbn13": "9789401493154",
+      "isbn10": "9401493154",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Psalm 130",
-      "note": "'Uit de diepten roep ik tot U', gezongen door gelovige studenten in Leiden en op de muur van De Wachters spreekkamer",
-      "start_seconds": 2202
+      "note": "'Aus der Tiefen rufe ich zu dir' gezongen door jonge gelovigen in Leiden",
+      "start_seconds": 2230
     }
   ],
   "places": [
-    "Antwerpen",
     "Hilversum",
-    "Vlaanderen",
-    "Nederland",
-    "Leuven",
+    "Antwerpen",
     "Leiden",
-    "Brussel"
+    "Leuven",
+    "Vlaanderen",
+    "Nederland"
   ],
-  "summary_tldr": "Psychiater Dirk de Wachter betoogt dat onze samenleving worstelt met een zingevingsprobleem en borderline-achtige kenmerken vertoont. Hij pleit ervoor de zorgzaamheid en medemenselijkheid uit de christelijke traditie niet weg te gooien, ook al is hij zelf een seculiere 'christelijke non-theïst'. Met Stefan Paas spreekt hij over geluk versus zin, secularisatie en het doorgeven van waarden.",
+  "summary_tldr": "Psychiater Dirk de Wachter stelt dat de westerse samenleving kampt met een zingevingsprobleem, zichtbaar in leegte en zinloosheid die hij ook bij zichzelf herkent. Hij pleit ervoor de joods-christelijke traditie van zorg, medemenselijkheid en zin niet weg te gooien, ook al is hij zelf een seculiere, christelijke non-theïst. Stefan Paas en David Boogerd bevragen zijn visie en de rol van religie in het goede leven.",
   "summary_points": [
-    "De Wachter ziet zingeving als de rode draad onder psychische klachten",
-    "Patiënten zijn 'kanaries in de kolenmijn' die iets zeggen over de samenleving",
-    "Borderline Times keerde de diagnostiek om en plaatste de patiënt in het hart van de samenleving",
-    "Met het afstoten van 2000 jaar kerk dreigen zorg en barmhartigheid verloren te gaan",
-    "Waar geluk meer is dan 'leukigheid': zin zit in zorg voor de ander (Levinas)",
-    "Hij noemt zichzelf een christelijk non-theïst met een Spinozaans godsbeeld",
-    "Mindfulness is volgens een pastor eigenlijk gewoon bidden",
-    "Het verschil tussen Vlaanderen (verdampend geloof) en Nederland (polarisatie)",
-    "Wortels doorsnijden is ongezond; men moet zich in een traditie kunnen inschrijven"
+    "Dirk de Wachter ziet een zingevingsprobleem als rode draad door psychische klachten",
+    "Borderline Times: de borderline-diagnose als kritiek op de samenleving zelf",
+    "Geluk versus zin: ware geluk gaat volgens De Wachter over zorg en betekenis, niet plezier",
+    "Waarschuwing dat met het religieuze ook zorg en barmhartigheid verloren dreigen te gaan",
+    "Levinas: God verschijnt in de blik van de zorgvragende ander",
+    "Christelijk non-theïst en Spinozaans godsbeeld",
+    "Generatiekloof: kan de christelijke erfenis overleven zonder geloof?",
+    "Verschil tussen Vlaanderen en Nederland in kerkelijkheid en geloofsbeleving",
+    "Corona als geen scharnierpunt: volgens De Wachter keert alles terug naar het oude",
+    "Verwachte toename van psychiatrische problemen na de crisis"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Popster van de psychiatrie",
-      "summary": "Kennismaking, coronatijd in Antwerpen en De Wachters beeld als popster en seculiere dominee."
+      "title": "Introductie en corona-setting",
+      "summary": "Gesprek begint online vanwege corona; De Wachter vertelt over zijn situatie en over zijn status als 'popster'."
     },
     {
-      "start_seconds": 386,
+      "start_seconds": 390,
+      "title": "Psychiater als maatschappelijk kanaarie",
+      "summary": "Waarom psychiaters de maatschappelijke alarmbel luiden en wat dat zegt over de samenleving."
+    },
+    {
+      "start_seconds": 647,
       "title": "Borderline Times en de zieke samenleving",
-      "summary": "De Wachter legt uit hoe zijn boek de diagnostiek omdraaide en de patiënt een stem gaf."
+      "summary": "De Wachter legt uit hoe zijn kritiek op diagnostiek uitgroeide tot kritiek op de samenleving."
     },
     {
-      "start_seconds": 1047,
-      "title": "Het gat van 2000 jaar geloof",
-      "summary": "Over zinloosheid, de dood van God en de vraag of we het kind met het badwater weggooien."
+      "start_seconds": 1080,
+      "title": "Zinloosheid en het verlies van religie",
+      "summary": "De vraag of het wegvallen van het religieuze en 2000 jaar zingeving een leegte heeft achtergelaten."
     },
     {
-      "start_seconds": 1245,
-      "title": "Moraliseren en zoeken naar zin",
-      "summary": "Het verwijt van 'terug naar de jaren 50', mindfulness en Levinas' visie op zorg voor de ander."
+      "start_seconds": 1800,
+      "title": "Zin, geluk en Levinas",
+      "summary": "Het goede leven als zorg voor de ander; onderscheid tussen plezier en werkelijk geluk."
     },
     {
-      "start_seconds": 1737,
-      "title": "Geluk versus zin",
-      "summary": "Het ware geluk als betekenis en zorgzaamheid, en De Wachters persoonlijke omgang met leegte en mediaroem."
+      "start_seconds": 2200,
+      "title": "Christelijk non-theïsme en Nederland versus Vlaanderen",
+      "summary": "De Wachter over zijn godsbeeld, de verschillen tussen landen en de generatiekloof in erfenis."
     },
     {
-      "start_seconds": 2053,
-      "title": "Christelijk non-theïst",
-      "summary": "De Wachter over zijn eigen geloofspositie en het verschil tussen Vlaanderen en Nederland."
-    },
-    {
-      "start_seconds": 2306,
-      "title": "Erfenis doorgeven",
-      "summary": "Kan medemenselijkheid overleven zonder religieuze wortel? Over Tom Holland, wortels en Vermeersch."
+      "start_seconds": 2950,
+      "title": "Corona als scharnierpunt en online contact",
+      "summary": "Of de crisis de samenleving verandert, en de impact van online ontmoeting en psychische gezondheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 386,
+      "start_seconds": 1495,
       "speaker": "Dirk de Wachter",
-      "text": "De patiënt vertelt iets over de context.",
-      "note": "Kern van zijn systeemvisie: psychisch lijden is een maatschappelijk signaal."
+      "text": "God verschijnt in de blik van de zorgvragende ander.",
+      "note": "Samenvatting van zijn Levinasiaanse visie op het spirituele, die religie herdefinieert als ethiek."
     },
     {
-      "start_seconds": 1493,
+      "start_seconds": 1290,
       "speaker": "Dirk de Wachter",
-      "text": "Mindfulness is eigenlijk gewoon bidden, zei de pastor.",
-      "note": "Scherpe observatie over het vergeten van de eigen religieuze traditie."
+      "text": "Ik zeg aan mijn assistenten: luister goed naar uw patiënten, want ge gaat veel leren over uzelf.",
+      "note": "Laat zien hoe psychische kwetsbaarheid de samenleving een spiegel voorhoudt."
     },
     {
-      "start_seconds": 1749,
+      "start_seconds": 2880,
       "speaker": "Dirk de Wachter",
-      "text": "Het ware geluk heeft meer te maken met zin en betekenis dan met leukigheid.",
-      "note": "Onderscheid tussen geluk en zin."
+      "text": "Ik denk dat de mens fundamenteel religieus is.",
+      "note": "Een opvallende stelling van een seculiere psychiater."
     },
     {
-      "start_seconds": 2203,
+      "start_seconds": 2990,
       "speaker": "Dirk de Wachter",
-      "text": "Jonge mensen zongen Psalm 130, die op mijn spreekkamermuur staat.",
-      "note": "Ontroerend persoonlijk moment."
+      "text": "Ik zie geen scharnierpunt door de coronacrisis; alles keert snel terug naar hetzelfde.",
+      "note": "Tegenstelling met de verwachting dat crisis tot bezinning leidt."
     },
     {
-      "start_seconds": 2053,
+      "start_seconds": 3030,
       "speaker": "Dirk de Wachter",
-      "text": "Ik ben een christelijk non-theïst.",
-      "note": "Eerlijke zelfpositionering."
-    },
-    {
-      "start_seconds": 2528,
-      "speaker": "Dirk de Wachter",
-      "text": "Het is niet gezond om je wortels door te snijden.",
-      "note": "Psychiatrisch argument voor omgang met de christelijke traditie."
+      "text": "Virtueel contact dreigt ontmenselijkend te zijn.",
+      "note": "Pleidooi voor fysieke nabijheid als fundament van menselijkheid."
     }
   ],
   "keywords": [
     "zingeving",
-    "Dirk de Wachter",
-    "borderline",
-    "secularisatie",
-    "Levinas",
-    "medemenselijkheid",
     "geluk",
-    "christelijk non-theïsme",
-    "mindfulness",
+    "zorg",
+    "medemenselijkheid",
+    "seculier christendom",
+    "borderline",
+    "Levinas",
+    "non-theïsme",
+    "Spinoza",
+    "secularisatie",
     "psychiatrie",
-    "joods-christelijke traditie"
+    "goed leven"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 314,
-      "reason": "Zingevingscrisis met Dirk de Wachter zelf; leegte van het moderne leven"
+      "reason": "Dirk de Wachter over de zingevingscrisis en leegte van het moderne leven"
     },
     {
-      "n": 212,
-      "reason": "Dood van God, Nietzsche en gevolgen voor zingeving en jongeren"
+      "n": 171,
+      "reason": "Zingeving en welzijn, geluk en de religieuze betekenis van zin"
     },
     {
-      "n": 278,
-      "reason": "Zingeving, psyche en geloof; kritiek op therapiecultuur met Stefan Paas"
+      "n": 223,
+      "reason": "Een goed leven en geluk, met focus op zingeving en levenskeuzes"
     },
     {
-      "n": 287,
-      "reason": "Individualisme, zingeving en psychische nood bij jongeren, met Stefan Paas"
+      "n": 308,
+      "reason": "Betekenisloosheid, vreugde en de zoektocht naar zin in een uitgeputte wereld"
     },
     {
-      "n": 24,
-      "reason": "Psychiater Damiaan Denys over angst en zingeving, met Stefan Paas"
+      "n": 111,
+      "reason": "Seculiere donderpreek over zingeving, individualisering en psychische leegte"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

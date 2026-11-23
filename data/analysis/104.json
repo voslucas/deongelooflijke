@@ -1,338 +1,298 @@
 {
   "episode": 104,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 106680,
+    "segments": 1403,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31704,
-    "output_tokens": 2527,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56425,
+    "output_tokens": 7387,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
     "God & geloof",
     "Geschiedenis",
-    "Zingeving & psyche"
+    "Dood & rouw"
   ],
   "guests": [
-    "Joost Röselaers",
-    "Beatrice de Graaf"
+    "Beatrice de Graaf",
+    "Joost Röselaers"
   ],
   "people": [
     {
       "name": "Elizabeth II",
-      "note": "Britse koningin, overleden op 8 september 2022, Supreme Governor van de Church of England",
+      "note": "Britse koningin, overleden; Supreme Governor van de Church of England",
       "start_seconds": 3,
-      "wiki_checked": true,
-      "wiki_pageid": 9818,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elizabeth_II_van_het_Verenigd_Koninkrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg/250px-Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg"
-    },
-    {
-      "name": "Beatrice de Graaf",
-      "note": "historicus, op dat moment in Londen",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
-    },
-    {
-      "name": "Joost Röselaers",
-      "note": "voormalig predikant van de Nederlandse kerk in Londen en hofpredikant",
-      "start_seconds": 454,
-      "wiki_checked": true,
-      "wiki_pageid": 4915693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joost_R%C3%B6selaers"
+      "mention_count": 40
     },
     {
       "name": "Winston Churchill",
-      "note": "eerste premier onder Elizabeth",
-      "start_seconds": 521,
-      "wiki_checked": true,
-      "wiki_pageid": 13978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winston_Churchill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sir_Winston_Churchill.jpg/250px-Sir_Winston_Churchill.jpg"
-    },
-    {
-      "name": "Nelson Mandela",
-      "note": "vergeleken met Elizabeth als 'heilige' figuur",
-      "start_seconds": 749,
-      "wiki_checked": true,
-      "wiki_pageid": 1179,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nelson_Mandela",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nelson_Mandela-2008_%28edit%29.jpg/250px-Nelson_Mandela-2008_%28edit%29.jpg"
-    },
-    {
-      "name": "Desmond Tutu",
-      "note": "aangehaald als voorbeeld van een heilige figuur",
-      "start_seconds": 764,
-      "wiki_checked": true,
-      "wiki_pageid": 46451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desmond_Tutu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Desmond_Tutu_2013-10-23_001.jpg/250px-Desmond_Tutu_2013-10-23_001.jpg"
-    },
-    {
-      "name": "Diana",
-      "note": "prinses van Wales; haar overlijden leidde tot kritiek op de koningin",
-      "start_seconds": 793,
-      "wiki_checked": true,
-      "wiki_pageid": 11743,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diana_Spencer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Diana%2C_Princess_of_Wales_1997_%282%29.jpg/250px-Diana%2C_Princess_of_Wales_1997_%282%29.jpg"
-    },
-    {
-      "name": "Charles III",
-      "note": "zoon en opvolger van Elizabeth",
-      "start_seconds": 1271,
-      "wiki_checked": true,
-      "wiki_pageid": 27335,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_III_van_het_Verenigd_Koninkrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/P20260428DT-3982_%28Charles_III%29.jpg/250px-P20260428DT-3982_%28Charles_III%29.jpg"
-    },
-    {
-      "name": "Prins Philip",
-      "note": "echtgenoot van Elizabeth",
-      "start_seconds": 1214,
-      "wiki_checked": true,
-      "wiki_pageid": 65895,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Philip_Mountbatten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Duke_of_Edinburgh_33_Allan_Warren.jpg/250px-Duke_of_Edinburgh_33_Allan_Warren.jpg"
-    },
-    {
-      "name": "Boris Johnson",
-      "note": "voormalig premier, contrast met Elizabeth",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 1089858,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Johnson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Remembrance_Sunday_in_Whitehall_2024-11-10-11-26-D_%28cropped%29.jpg/250px-Remembrance_Sunday_in_Whitehall_2024-11-10-11-26-D_%28cropped%29.jpg"
-    },
-    {
-      "name": "Liz Truss",
-      "note": "nieuwe premier, Anglicaan",
-      "start_seconds": 2029,
-      "wiki_checked": true,
-      "wiki_pageid": 4594608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Liz_Truss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Liz_Truss_%2854346036307%29_%28cropped%29.jpg/250px-Liz_Truss_%2854346036307%29_%28cropped%29.jpg"
+      "note": "Britse premier die Elizabeth bevestigde als koningin",
+      "start_seconds": 516,
+      "mention_count": 2
     },
     {
       "name": "Hendrik VIII",
-      "note": "koning die de Church of England oprichtte",
-      "start_seconds": 1624,
-      "wiki_checked": true,
-      "wiki_pageid": 35700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hendrik_VIII_van_Engeland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hans_Holbein_d._J._049.jpg/250px-Hans_Holbein_d._J._049.jpg"
+      "note": "Engelse koning die de Anglicaanse kerk stichtte na zijn scheiding",
+      "start_seconds": 1607,
+      "mention_count": 6
     },
     {
-      "name": "Maarten Luther",
-      "note": "reformator, aanleiding voor Hendriks boek",
+      "name": "Martin Luther",
+      "note": "Reformator, aanleiding voor de Reformatie waarop Hendrik VIII reageerde",
       "start_seconds": 1624,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas More",
+      "note": "Theoloog/humanist die mogelijk het verdedigingsboek van Hendrik VIII schreef",
+      "start_seconds": 1624,
+      "mention_count": 1
     },
     {
       "name": "Billy Graham",
-      "note": "Amerikaanse evangelist die Elizabeth bezocht",
+      "note": "Amerikaanse evangelist die de koningin bezocht",
       "start_seconds": 1493,
-      "wiki_checked": true,
-      "wiki_pageid": 385426,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Billy_Graham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Reverend_Billy_Graham_Delivering_The_Prayer_At_the_Inauguration_of_Bill_Clinton_%28cropped%29.jpg/250px-Reverend_Billy_Graham_Delivering_The_Prayer_At_the_Inauguration_of_Bill_Clinton_%28cropped%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaanse vrijheidsstrijder, door Joost als 'heilige' ervaren",
+      "start_seconds": 739,
+      "mention_count": 2
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Zuid-Afrikaanse aartsbisschop, overleden, beschreven als heilige",
+      "start_seconds": 764,
+      "mention_count": 2
+    },
+    {
+      "name": "Boris Johnson",
+      "note": "Voormalig Britse premier, contrast met de koningin",
+      "start_seconds": 1340,
+      "mention_count": 8
+    },
+    {
+      "name": "Liz Truss",
+      "note": "Britse premier die zich als Anglicaan presenteerde",
+      "start_seconds": 2026,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles III",
+      "note": "Zoon van Elizabeth II, nieuwe koning",
+      "start_seconds": 632,
+      "mention_count": 15
+    },
+    {
+      "name": "Diana",
+      "note": "Prinses van Wales, ex-echtgenote van Charles; publieke rouw bij haar overlijden",
+      "start_seconds": 793,
+      "mention_count": 6
+    },
+    {
+      "name": "Prins Philip",
+      "note": "Echtgenoot van Elizabeth II, overleden",
+      "start_seconds": 1208,
+      "mention_count": 5
+    },
+    {
+      "name": "Justin Welby",
+      "note": "Aartsbisschop van Canterbury",
+      "start_seconds": 2898,
+      "mention_count": 5
     },
     {
       "name": "Stephen Hawking",
-      "note": "atheïstische wetenschapper met staatsuitvaart in Westminster",
-      "start_seconds": 1845,
-      "wiki_checked": true,
-      "wiki_pageid": 26659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stephen_Hawking",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/250px-Stephen_Hawking.StarChild.jpg"
+      "note": "Atheïstische wetenschapper met staatsuitvaart in Westminster",
+      "start_seconds": 1842,
+      "mention_count": 2
     },
     {
-      "name": "Horatio Nelson",
-      "note": "admiraal, begraven in St Paul's",
-      "start_seconds": 1809,
-      "wiki_checked": true,
-      "wiki_pageid": 42021,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Horatio_Nelson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/HoratioNelson1.jpg/250px-HoratioNelson1.jpg"
+      "name": "Rowan Williams",
+      "note": "Voormalig aartsbisschop van Canterbury, intellectueel",
+      "start_seconds": 2933,
+      "mention_count": 2
     },
     {
-      "name": "Alfred de Grote",
-      "note": "vroegmiddeleeuwse Engelse koning",
-      "start_seconds": 1581,
-      "wiki_checked": true,
-      "wiki_pageid": 49336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alfred_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Alfred_the_Great.jpg/250px-Alfred_the_Great.jpg"
+      "name": "Stephen Fry",
+      "note": "Brits acteur die opperde dat premiers het hoofd moeten buigen voor de vorst",
+      "start_seconds": 2479,
+      "mention_count": 1
     },
     {
-      "name": "Koningin Victoria",
-      "note": "negentiende-eeuwse monarch",
-      "start_seconds": 263,
-      "wiki_checked": true,
-      "wiki_pageid": 48255,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Victoria_van_het_Verenigd_Koninkrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/250px-Queen_Victoria_by_Bassano.jpg"
+      "name": "Wilhelmina",
+      "note": "Nederlandse koningin, vergeleken met Elizabeth II",
+      "start_seconds": 1246,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrix",
+      "note": "Nederlandse koningin, vergeleken met Elizabeth II",
+      "start_seconds": 1260,
+      "mention_count": 2
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 20:28",
+      "note": "Christus die wilde dienen maar niet gediend wilde worden, als voorbeeld voor de vorstelijke plicht van Elizabeth",
+      "start_seconds": 895
+    },
+    {
+      "ref": "Lukas 10:25-37",
+      "note": "Verhaal van de barmhartige Samaritaan, door Elizabeth genoemd in haar kerstboodschappen",
+      "start_seconds": 2110
+    }
+  ],
   "places": [
     "Londen",
     "Engeland",
-    "St Paul's Cathedral",
-    "Westminster",
+    "Windsor",
     "Canterbury",
+    "Schotland",
+    "Wales",
     "Nigeria",
     "Zuid-Afrika",
+    "Kenia",
+    "Guildford",
     "Hilversum",
-    "Kenia"
+    "Trafalgar"
   ],
-  "summary_tldr": "Na het overlijden van Queen Elizabeth II bespreken David Boogerd, Joost Röselaers en Stefan Paas haar diepe, ingetogen geloof en haar rol als Supreme Governor van de Church of England. Ook komen de ontstaansgeschiedenis van de anglicaanse kerk en de Britse omgang met religie aan bod.",
+  "summary_tldr": "In deze extra aflevering over het overlijden van Elizabeth II spreken David Boogerd, Joost Röselaers en Stefan Paas over de religieuze betekenis van de koningin als Supreme Governor van de Church of England. Het gesprek gaat over haar vroomheid als dienstbare, statige plichtsvervulling, haar afstandelijkheid en de vraag of zij een soort heilige was. Ook wordt de ontstaansgeschiedenis van de Anglicaanse kerk onder Hendrik VIII en de verweving van kerk, staat en samenleving besproken.",
   "summary_points": [
-    "Beatrice de Graaf beschrijft het rouwende Londen en de historische betekenis van Elizabeths dood.",
-    "Elizabeth werd een bijna heilige figuur door wat ze belichaamde, niet door wat ze deed.",
-    "Haar geloof was sober en plechtig, gericht op offer en dienstbaarheid naar het voorbeeld van Christus.",
-    "Haar plichtsbesef ging ten koste van emotie en persoonlijke relaties, wat tot eenzaamheid leidde.",
-    "Het contrast met Boris Johnson laat zien hoe uitzonderlijk haar integriteit was.",
-    "Hendrik VIII richtte de Church of England op vanwege zijn scheiding; de titel Defensor Fidei bleef bij de vorst.",
-    "De Britse kerk is nauw verweven met staat en samenleving, ook al gaan weinig mensen naar de kerk.",
-    "Britse religiositeit is vaag en rituelen worden breed geaccepteerd, ook door atheïsten en moslims.",
-    "Joost Röselaers is ambivalent: hij waardeert het ritueel maar vraagt zich af hoe lang dit nog standhoudt."
+    "Elizabeth II wordt gezien als een vrome vorst die haar koningschap als roeping opvatte, met Jezus als voorbeeld van dienstbaarheid.",
+    "Haar geloof was statig en plichtsgetrouw, meer gemeenschaps- dan individugericht, in de traditie van christelijke vorsten.",
+    "Haar afstandelijkheid en zwijgzaamheid maakten haar in de ogen van de gesprekspartners tot een bijna heilige, instituutsfiguur.",
+    "Het koningschap vroeg om zelfverloochening: persoonlijke gevoelens en wensen moesten wijken voor de plicht.",
+    "De Anglicaanse kerk ontstond in de 16e eeuw doordat Hendrik VIII met de paus brak en zichzelf tot kerkhoofd maakte.",
+    "De Church of England is verweven met staat en samenleving, met staatsuitvaarten, parlementsgebeden en symbolische rituelen.",
+    "De titel Defensor Fidei is blijven bestaan, al heeft Charles aangegeven zich vooral als beschermer van alle geloven te willen opstellen.",
+    "De gesprekspartners zien een spanning tussen traditie, rituele verheerlijking en de individualistische moderne beleving van geloof.",
+    "Met de troonsopvolging door Charles komt een nieuwe, meer activistische en seculierdere koning, met aandacht voor duurzaamheid en christenvervolging."
   ],
   "chapters": [
     {
-      "start_seconds": 86,
-      "title": "Londen in rouw",
-      "summary": "Beatrice de Graaf vertelt vanuit Londen over de sfeer na het overlijden en de historische betekenis."
+      "start_seconds": 0,
+      "title": "Openingsschakel vanuit Londen",
+      "summary": "Historicus Beatrice de Graaf beschrijft de rouw en stilte in Londen na het overlijden van de koningin."
     },
     {
       "start_seconds": 456,
-      "title": "Eerste reacties en het hofpredikantschap",
-      "summary": "Joost en Stefan reageren op het nieuws en Joost legt uit hoe hij hofpredikant werd."
+      "title": "Eerste reacties in de studio",
+      "summary": "Joost Röselaers en Stefan Paas delen hun reactie op het overlijden en de persoonlijke afstand van de koningin."
     },
     {
       "start_seconds": 660,
-      "title": "Een heilige aura",
-      "summary": "Over de aura van Elizabeth en vergelijkingen met Mandela en Tutu, en de kritiek rond Diana."
+      "title": "Een heilige zonder woorden",
+      "summary": "Het gesprek gaat over de aura van de koningin, haar zwijgen en vergelijkingen met Mandela en Tutu."
     },
     {
-      "start_seconds": 837,
-      "title": "Vroomheid, plicht en eenzaamheid",
-      "summary": "Het sobere geloof van Elizabeth, het offer van het koningschap en de keerzijde ervan."
+      "start_seconds": 858,
+      "title": "Vroomheid als plicht",
+      "summary": "De kersttoespraken en het geloof van de koningin worden besproken als statige, offergerichte vroomheid."
     },
     {
-      "start_seconds": 1346,
-      "title": "Contrast met Boris Johnson",
-      "summary": "Elizabeths integriteit tegenover het gedrag van Johnson."
+      "start_seconds": 1109,
+      "title": "Eenzaamheid van het koningschap",
+      "summary": "De gesprekspartners bespreken de persoonlijke offers, de eenzaamheid en het verschil met Charles en Diana."
     },
     {
-      "start_seconds": 1423,
-      "title": "De Church of England",
-      "summary": "Het verschil tussen Church of England en wereldwijde anglicaanse kerk, high en low church."
+      "start_seconds": 1569,
+      "title": "Ontstaan van de Anglicaanse kerk",
+      "summary": "Stefan Paas schetst hoe Hendrik VIII de Church of England stichtte en de titel Defensor Fidei kreeg."
     },
     {
-      "start_seconds": 1624,
-      "title": "Hendrik VIII en Defensor Fidei",
-      "summary": "De ontstaansgeschiedenis van de anglicaanse kerk en de titel van de vorst."
+      "start_seconds": 2579,
+      "title": "Staatskerk, uitvaart en traditie",
+      "summary": "De verweving van kerk en staat, de uitvaart van Philip en de vraag of rituelen echt oud zijn komen aan bod."
     },
     {
-      "start_seconds": 1734,
-      "title": "Kerk, staat en Britse religiositeit",
-      "summary": "De verwevenheid van kerk en staat, rituelen en de vaagheid van Brits geloof."
+      "start_seconds": 3342,
+      "title": "Afsluiting en anglofilie",
+      "summary": "De afsluiting bevat reflecties op Engelse kathedralen en de persoonlijke band van Stefan met Engeland."
     }
   ],
   "highlights": [
     {
       "start_seconds": 694,
       "speaker": "Joost Röselaers",
-      "text": "Het was alsof je een heilige in je midden had, voor een moment.",
-      "note": "Persoonlijke ervaring van Elizabeths aura in St Paul's."
+      "text": "Het was alsof je een heilige in je midden had.",
+      "note": "Beschrijft de aura en stilte die de koningin om zich heen creëerde bij een bezoek aan St. Paul's."
     },
     {
       "start_seconds": 889,
       "speaker": "Stefan Paas",
-      "text": "Haar vroomheid was geen sentimentele vroomheid, maar gericht op dienen en zich offeren.",
-      "note": "Typeert haar geloof."
+      "text": "Ook haar vroomheid was geen sentimentele vroomheid.",
+      "note": "Onderscheidt haar statige, offergerichte geloof van een warme, persoonlijke religiositeit."
     },
     {
-      "start_seconds": 1171,
+      "start_seconds": 1170,
       "speaker": "Joost Röselaers",
       "text": "Diepe eenzaamheid, denk ik.",
-      "note": "Tragische keerzijde van haar rol."
+      "note": "Het gesprek brengt een tragische kant van het koningschap naar voren."
     },
     {
-      "start_seconds": 1372,
-      "speaker": "Stefan Paas",
-      "text": "Hij moet voor alles gestaan hebben wat zij diep verachten.",
-      "note": "Scherp over Boris Johnson."
+      "start_seconds": 1950,
+      "speaker": "Joost Röselaers",
+      "text": "Ik ben toch te protestants om in mijn geloof aan te verbinden.",
+      "note": "Een eerlijke ambivalentie: bewondering voor het ritueel, maar afstand van de staatskerk."
     },
     {
-      "start_seconds": 1893,
+      "start_seconds": 2683,
       "speaker": "Stefan Paas",
-      "text": "We live in a lovely haze: we houden het allemaal graag een beetje vaag.",
-      "note": "Typeert Britse religiositeit."
+      "text": "Dat is die persoonsverheerlijking.",
+      "note": "Verwijst naar de emotionele uitvaart van Diana en het contrast met de terughoudende uitvaart van de koningin."
     }
   ],
   "keywords": [
-    "Elizabeth II",
+    "Anglicaanse kerk",
     "Church of England",
+    "Supreme Governor",
     "Defensor Fidei",
     "Hendrik VIII",
-    "anglicaanse kerk",
-    "staatskerk",
-    "monarchie",
-    "heiligheid",
-    "eenzaamheid",
-    "plicht",
-    "ritueel",
-    "hofpredikant"
+    "Reformatie",
+    "Vroomheid",
+    "Koningschap",
+    "Staatskerk",
+    "Secularisatie",
+    "Traditie",
+    "Heiligheid",
+    "Uitvaart"
   ],
-  "quotes": [],
+  "quotes": [
+    "Supreme Governor van de Church of England en 'Defender of the Faith' was haar rol als staatshoofd altijd verweven met het religieuze.",
+    "Haar eigen leven was dat ook, en dat had grote invloed op de manier waarop ze het koningschap invulde."
+  ],
   "similar": [
     {
       "n": 139,
-      "reason": "Kroning van Charles III, met Beatrice de Graaf en Stefan Paas over monarchie en religie"
+      "reason": "Kroning van Charles III: monarchie, religieuze betekenis en Church of England, zelfde onderwerp."
+    },
+    {
+      "n": 89,
+      "reason": "Verweving van God, natie en Oranje; religie en vorstelijk gezag, sterk thematisch verwant."
     },
     {
       "n": 243,
-      "reason": "Overlijden van paus Franciscus: leven, invloed en opvolging, rond kerk en dood"
-    },
-    {
-      "n": 121,
-      "reason": "Overlijden van paus Benedictus XVI en zijn erfenis voor de kerk"
+      "reason": "Overlijden van paus Franciscus: rouw om religieus leider en kerkelijke opvolging."
     },
     {
       "n": 112,
-      "reason": "Historische figuur Willem van Oranje, over macht, geloof en geschiedenis"
+      "reason": "Willem van Oranje als vader des vaderlands; religie en vorstenhuis in de geschiedenis."
     },
     {
-      "n": 22,
-      "reason": "Tom Holland over hoe het christendom het Westen vormde, met Britse invalshoek"
+      "n": 121,
+      "reason": "Overlijden van Benedictus XVI: speciale uitzending over rouw en erfenis van kerkleider."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,103 +1,126 @@
 {
   "episode": 268,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125294,
+    "segments": 1022,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29349,
-    "output_tokens": 2599,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61032,
+    "output_tokens": 8671,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Samenleving & migratie",
+    "Politiek",
     "Amerika & Trump",
-    "Geopolitiek & oorlog"
+    "Klimaat & natuur"
   ],
   "guests": [
     "Paul Schenderling"
   ],
   "people": [
     {
-      "name": "Tim Jongers",
-      "note": "directeur wetenschappelijk bureau PvdA, eerder te gast; groeide op in armoede",
-      "start_seconds": 429,
-      "wiki_checked": true
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; importheffingen en protectionisme als contrast met de voorgestelde grensheffing",
+      "start_seconds": 1189,
+      "mention_count": 14
     },
     {
       "name": "John Maynard Keynes",
-      "note": "econoom die in de jaren 30 pleitte voor gereguleerde handel",
-      "start_seconds": 1265,
-      "wiki_checked": true,
-      "wiki_pageid": 43772,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Maynard_Keynes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/John_Maynard_Keynes_%281929%29.jpg/250px-John_Maynard_Keynes_%281929%29.jpg"
+      "note": "Econoom; pleitte al in de jaren 30 voor het reguleren van handel",
+      "start_seconds": 1253,
+      "mention_count": 6
     },
     {
       "name": "Dani Rodrik",
-      "note": "Harvard-econoom, bedenker van het begrip hyperglobalisering",
-      "start_seconds": 1800,
-      "wiki_checked": true,
-      "wiki_pageid": 4031994,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dani_Rodrik",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dani_Rodrik_AB_02.jpg/250px-Dani_Rodrik_AB_02.jpg"
+      "note": "Harvard-econoom; bedacht de term hyperglobalisering en 'globalisering met gezond verstand'",
+      "start_seconds": 1796,
+      "mention_count": 4
     },
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, voert importheffingen in",
-      "start_seconds": 1189,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "name": "Paul Collier",
+      "note": "Oxford-ontwikkelingseconoom; betoogt dat hyperglobalisering armere landen belemmert in industriepolitiek",
+      "start_seconds": 2482,
+      "mention_count": 2
     },
     {
-      "name": "Jesaja",
-      "note": "profeet uit het Oude Testament met een visioen van een rechtvaardige koning",
-      "start_seconds": 734,
-      "wiki_checked": true,
-      "wiki_pageid": 453779,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesaja_%28profeet%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Isaiah-Michelangelo.jpg/250px-Isaiah-Michelangelo.jpg"
+      "name": "Peter Thiel",
+      "note": "Techondernemer; genoemd bij het argument dat weinig regels meer innovatie opleveren",
+      "start_seconds": 2709,
+      "mention_count": 2
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident",
+      "start_seconds": 2716,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Friedman",
+      "note": "Auteur van 'The World Is Flat'; idee van een vlakke wereld zonder grenzen",
+      "start_seconds": 2377,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Jongers",
+      "note": "Directeur wetenschappelijk bureau PvdA; opgegroeid in armoede, benoemt het verschil in waardering voor schoonmakers",
+      "start_seconds": 429,
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "oud-premier, betrokken bij de Unilever-affaire",
-      "start_seconds": 1481,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Voormalig premier; Unilever zou hebben gedreigd het hoofdkantoor te verplaatsen bij belastingwetgeving",
+      "start_seconds": 1480,
+      "mention_count": 4
+    },
+    {
+      "name": "Henri Bontenbal",
+      "note": "Partijleider CDA; wordt genoemd in het debat over verkiezingsprogramma's",
+      "start_seconds": 3398,
+      "mention_count": 3
+    },
+    {
+      "name": "Jimmy Dijk",
+      "note": "SP-politicus; een van de weinige politici die kritisch is op hyperglobalisering",
+      "start_seconds": 3618,
+      "mention_count": 2
+    },
+    {
+      "name": "Tom van der Meer",
+      "note": "Politicoloog; stelt dat kiezers al 40 jaar hetzelfde economische beleid krijgen",
+      "start_seconds": 3434,
+      "mention_count": 2
     },
     {
       "name": "Ruud Lubbers",
-      "note": "oud-premier, zette in tegen 'Nederland ziek'",
+      "note": "Voormalig premier; zorgde voor bezuinigingen op uitkeringen en sprak over 'ziek Nederland'",
       "start_seconds": 2237,
-      "wiki_checked": true,
-      "wiki_pageid": 1020,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruud_Lubbers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ruud_Lubbers_1985.jpg/250px-Ruud_Lubbers_1985.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Wim Kok",
+      "note": "Voormalig premier; sociaaldemocratische visie op handel voordat die verdween",
+      "start_seconds": 3565,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Continent van de kwaliteit",
       "author": "Paul Schenderling",
-      "note": "nieuw boek over economie, cultuur en de ziel van Europa",
-      "start_seconds": 104
+      "note": "Nieuw boek van de gast; analyseert de Europese economie en cultuur en biedt oplossingen",
+      "start_seconds": 121
     }
   ],
   "bible_refs": [
     {
-      "ref": "Jesaja 11",
-      "note": "visioen van een rechtvaardige koning die omkijkt naar armen en zwakkeren, als eerste sociale toekomstvisie",
-      "start_seconds": 725
+      "ref": "Jesaja",
+      "note": "Eerste sociale visie op de toekomst: een rechtvaardige koning die omziet naar zwakken en armen; als basis van het Europese streven naar betere samenleving",
+      "start_seconds": 724
     }
   ],
   "places": [
@@ -105,131 +128,129 @@
     "Verenigde Staten",
     "China",
     "Rusland",
+    "Duitsland",
     "Vietnam",
+    "Tanzania",
     "Engeland",
     "Rotterdam",
-    "Tanzania"
+    "Silicon Valley"
   ],
-  "summary_tldr": "Econoom Paul Schenderling stelt dat Europa zijn ziel heeft verkocht voor goedkope producten en dat de economie de samenleving is gaan overheersen. Hij pleit voor 'globalisering met gezond verstand', met grensheffingen die Europese waarden als vrijheid, vrede, rechtvaardigheid en naastenliefde beschermen. Daarmee kan een ander vooruitgangsverhaal ontstaan.",
+  "summary_tldr": "Econoom Paul Schenderling stelt dat Europa zijn kernwaarden (vrijheid, vrede, rechtvaardigheid en naastenliefde) ondergeschikt heeft gemaakt aan economische groei en goedkope import. Hij pleit voor 'globalisering met gezond verstand', met grensheffingen, sociale en ecologische normen en quota. Paul Schenderling en Stefan Paas bespreken ook de rol van cultuur en religie en de noodzaak van een breder gesprek over het goede leven.",
   "summary_points": [
-    "Het boek Continent van de kwaliteit komt voort uit liefde voor Europa, dat onder druk staat van Rusland, China en de VS.",
-    "Zichtbare dreigingen zoals hybride oorlogsvoering staan naast een onzichtbare afbrokkeling van Europese waarden die al 40 jaar duurt.",
-    "Werk heeft waardigheid en beroepseer verloren door uitbesteding, zoals bij schoonmakers en receptionisten.",
-    "De economie hoort de samenleving te dienen, maar dat is de afgelopen 40 jaar omgedraaid.",
-    "Vier waarden staan centraal: vrijheid, vrede, rechtvaardigheid en naastenliefde.",
-    "Een goedkope fietslamp zonder CE-keurmerk illustreert vijf crises van de internationale handel: uitbuiting, verlies van beroepseer, milieuschade, een verzwakt MKB en een uitgehold democratisch bestel.",
-    "Grensheffingen verschillen van Trumps importheffingen doordat ze gericht zijn op dumping en precies de vermeden sociale en ecologische kosten compenseren.",
-    "Dogmatische vrijhandel (hyperglobalisering) voedt populisme en protectionisme, terwijl genormeerde handel het draagvlak vergroot.",
-    "Een kwaliteitsdividend uit de heffingen kan kwetsbare burgers helpen de hogere prijzen te dragen."
+    "Europa heeft volgens Schenderling zijn 'ziel' verkocht: waarden zoals vrijheid, vrede, rechtvaardigheid en naastenliefde wijken voor goedkope producten",
+    "Goedkope import via webshops omzeilt Europese eisen zoals het CE-keurmerk, arbeidsnormen en milieuwetgeving",
+    "Dumping (sociaal, ecologisch en via staatssteun) geeft oneerlijke concurrentie voor Europese industrie en MKB",
+    "Schenderling pleit voor een grensheffing die sociale en ecologische kosten compenseert, en onderscheidt die van Trumps willekeurige importheffingen",
+    "Hyperglobalisering ondermijnt volgens hem het draagvlak voor handel en de democratie; het wordt gezien als dogma van economen",
+    "Economie moet dienstbaar zijn aan het goede leven en aan de samenleving, niet andersom",
+    "Het hele politieke spectrum lijkt de noodzaak van verandering te voelen, maar analyse en concrete oplossingen ontbreken",
+    "Voorgestelde oplossingen: een nieuw fundament van Europese waarden, een sociale vloer en een ecologisch plafond met quota op grondstoffen",
+    "Het gesprek eindigt bij de culturele en religieuze vraag naar wat het goede leven is, en bij het actieplan van een boektour en netwerken"
   ],
   "chapters": [
     {
-      "start_seconds": 44,
-      "title": "Een continent in een storm",
-      "summary": "Schenderling legt uit waarom Europa nu urgent aandacht nodig heeft en schetst zijn beeld van Europa als lange tafel."
+      "start_seconds": 0,
+      "title": "Intro en de ziel van Europa",
+      "summary": "Schenderling introduceert zijn boek en de urgentie; de Europese waarden staan onder druk, maar er is hoop."
     },
     {
-      "start_seconds": 258,
-      "title": "Verlies van waardigheid in werk",
-      "summary": "Over schoonmakers en receptionisten die door inhuur hun beroepseer en gemeenschap zijn kwijtgeraakt."
-    },
-    {
-      "start_seconds": 514,
-      "title": "De ziel van Europa",
-      "summary": "Waarom de samenleving de economie moet kunnen sturen en welke vier waarden de ziel van Europa vormen, met wortels in Jesaja."
+      "start_seconds": 253,
+      "title": "Onzichtbare erosie en het verlies van waardigheid",
+      "summary": "Het gesprek gaat over schoonmakers en receptionisten die hun beroepseer en band met het bedrijf verliezen."
     },
     {
       "start_seconds": 776,
-      "title": "De fietslamp en de vijf crises",
-      "summary": "Een niet-waterdichte fietslamp zonder CE-keurmerk als symbool voor uitbuiting, milieuschade, een verzwakt MKB en een ondermijnde democratie."
+      "title": "De fietslamp als symbool",
+      "summary": "Een goedkope, niet-waterdichte fietslamp zonder CE-keurmerk wordt een voorbeeld van omzeild Europees recht en de vijf crises van internationale handel."
     },
     {
-      "start_seconds": 1130,
-      "title": "Grensheffingen en dumping",
-      "summary": "Het verschil tussen Trumps importheffingen en Schenderlings grensheffingen, met verwijzing naar Keynes en economische, sociale en ecologische dumping."
+      "start_seconds": 1192,
+      "title": "Grensheffing, hyperglobalisering en innovatie",
+      "summary": "Het verschil tussen Trumps importheffingen en een grensheffing, en de discussie over dumping, Keynes, China en innovatie zonder normen."
     },
     {
-      "start_seconds": 1500,
-      "title": "Wordt alles niet te duur?",
-      "summary": "Reacties op het bezwaar van hogere prijzen: de prijs van beschaving, lagere levensduurkosten en een kwaliteitsdividend."
+      "start_seconds": 3214,
+      "title": "Politiek en de hypotheekrenteaftrek",
+      "summary": "Waarom debatten vooral over de hypotheekrenteaftrek gaan terwijl politici weinig speelruimte hebben en de neoliberale consensus blijft bestaan."
     },
     {
-      "start_seconds": 1800,
-      "title": "Globalisering met gezond verstand",
-      "summary": "Met Rodrik: hyperglobalisering voedt populisme, een gematigde middenweg vergroot het draagvlak voor handel en de vraag of dit een morele of financiële keuze is."
+      "start_seconds": 3796,
+      "title": "Economie ten dienste van het goede leven",
+      "summary": "De vraag wordt gesteld of het doel van de samenleving economische groei is, en dat cultuur en religie de discussie zouden moeten leiden."
+    },
+    {
+      "start_seconds": 4396,
+      "title": "Oplossingen: fundament, deuren en ecologisch plafond",
+      "summary": "Schenderling schetst een pragmatisch huis met een nieuw fundament, grenscontrole, een sociale vloer en quota op grondstoffen."
+    },
+    {
+      "start_seconds": 4740,
+      "title": "Actieplan en hoop",
+      "summary": "De boektour, netwerken en gesprekken met politieke partijen worden aangekondigd als concrete acties voor verandering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1062,
+      "start_seconds": 719,
       "speaker": "Paul Schenderling",
-      "text": "Voor goedkope spullen verkopen we letterlijk al die belangrijke dingen: mensen, beroepseer, milieu, MKB en democratie.",
-      "note": "Verklaart de titel 'Europa heeft zijn ziel verkocht'."
+      "text": "Een ziel is juist niet terugkijken. Een ziel is vooruitkijken.",
+      "note": "Schenderling herdefinieert de 'ziel van Europa' als een toekomstvisie, in tegenstelling tot nostalgie."
     },
     {
-      "start_seconds": 618,
+      "start_seconds": 1530,
       "speaker": "Paul Schenderling",
-      "text": "Het is de grote omkering: de samenleving is ten dienste van de economie gaan staan in plaats van andersom.",
-      "note": "Kernanalyse van het boek."
+      "text": "Ben je bereid om die 5 dingen daarvoor op te geven?",
+      "note": "Een scherpe vraag die de keuze voor goedkoop confronteert met wat we daarvoor opgeven."
     },
     {
-      "start_seconds": 15,
+      "start_seconds": 3307,
       "speaker": "Paul Schenderling",
-      "text": "Op mijn zestiende hield ik al een spreekbeurt over het afschaffen van de hypotheekrenteaftrek.",
-      "note": "Grappige persoonlijke bekentenis aan het begin."
+      "text": "Het is een subsidie op rentenieren. Mensen die al bezit hebben worden slapend rijk.",
+      "note": "Een felle kritiek op de hypotheekrenteaftrek, die in het debat veel aandacht krijgt."
     },
     {
-      "start_seconds": 1986,
+      "start_seconds": 3853,
       "speaker": "Paul Schenderling",
-      "text": "Dogmatisch voor vrijhandel zijn betekent uiteindelijk dat de grenzen sluiten.",
-      "note": "Paradox waarmee hij het dogma van economen aanvalt."
-    },
-    {
-      "start_seconds": 1608,
-      "speaker": "Stefan Paas",
-      "text": "Trump heeft ergens een punt, maar jij gebruikt andere argumenten: ecologische schade en het lot van werknemers.",
-      "note": "Scherpe vergelijking tussen Trumps protectionisme en Schenderlings voorstel."
+      "text": "We hebben middel tot doel verheven.",
+      "note": "De kern van zijn kritiek: economie is een middel, maar is het doel geworden."
     }
   ],
   "keywords": [
-    "Europa",
-    "ziel van Europa",
+    "Europese waarden",
     "hyperglobalisering",
     "grensheffing",
-    "Keynes",
-    "Dani Rodrik",
-    "beroepseer",
-    "neoliberalisme",
     "dumping",
-    "kwaliteitsdividend",
-    "vrijhandel",
-    "Trump"
+    "globalisering met gezond verstand",
+    "Keynes",
+    "goede leven",
+    "ecologisch plafond",
+    "quotum",
+    "CE-keurmerk",
+    "hypotheekrenteaftrek",
+    "beroepseer"
   ],
   "quotes": [
-    "‘We hebben als Europa onze ziel verkocht’, met de nadruk op verkocht.",
-    "Volgens Schenderling is er een grondige verbouwing nodig van onze economie en samenleving.",
-    "Is de ziel van Europa nog te redden?"
+    "We hebben als Europa onze ziel verkocht",
+    "Gesprekken met hem zijn altijd ontzettend inzichtgevend en interessant"
   ],
   "similar": [
     {
       "n": 174,
-      "reason": "Paul Schenderling over economische en culturele strijd achter de onvrede in de samenleving"
-    },
-    {
-      "n": 145,
-      "reason": "Paul Schenderling over God en vreugde in extreme economische tijden"
+      "reason": "Zelfde gast Paul Schenderling over economische en culturele onvrede in de samenleving"
     },
     {
       "n": 286,
-      "reason": "Paul Schenderling over Europa, de VS, economie en politiek"
+      "reason": "Schenderling over Europa, Amerika/Trump en economie in politiek perspectief"
     },
     {
-      "n": 216,
-      "reason": "Tim 's Jongers over armoede en economie, ook besproken persoon"
+      "n": 145,
+      "reason": "Schenderling over economische tijden en de zoektocht naar betekenis"
     },
     {
-      "n": 235,
-      "reason": "Paul Schenderling over Trump, Musk en naastenliefde versus eigenbelang"
+      "n": 252,
+      "reason": "Politiek, klimaat en Tom van der Meer, die ook in deze aflevering wordt besproken"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

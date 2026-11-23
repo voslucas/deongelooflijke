@@ -1,17 +1,22 @@
 {
   "episode": 25,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 91476,
+    "segments": 567,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29743,
-    "output_tokens": 2776,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 45150,
+    "output_tokens": 8549,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
     "God & geloof",
+    "Dood & rouw",
     "Wetenschap & kosmos"
   ],
   "guests": [
@@ -20,282 +25,277 @@
   "people": [
     {
       "name": "Karel de Grote",
-      "note": "Frankische keizer die de ossenpest bestreed met gebed én praktische maatregelen",
-      "start_seconds": 565,
-      "wiki_checked": true,
-      "wiki_pageid": 5337,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/250px-Charlemagne_denier_Mayence_812_814.jpg"
-    },
-    {
-      "name": "Perikles",
-      "note": "Atheense aanvoerder die omkwam tijdens de pestepidemie in de Peloponnesische oorlog",
-      "start_seconds": 495,
-      "wiki_checked": true,
-      "wiki_pageid": 39768,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Perikles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/112307-BritishMuseum-Perikles.jpg/250px-112307-BritishMuseum-Perikles.jpg"
+      "note": "Middeleeuwse keizer die de pest en hongersnood aanpakte met gebed én praktische maatregelen",
+      "start_seconds": 553,
+      "mention_count": 8
     },
     {
       "name": "Maarten Luther",
-      "note": "Reformator die tijdens de pest in Wittenberg bleef en de zieken hielp",
-      "start_seconds": 1147,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "note": "Reformator die in Wittenberg de pest beschreef en zelf naar de lazaretten ging",
+      "start_seconds": 1743,
+      "mention_count": 12
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader die schreef over plagen, de Romeinse goden en barmhartigheid",
-      "start_seconds": 1770,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader die plagen in Rome besprak en christenen verweet op bescherming van God te rekenen",
+      "start_seconds": 1743,
+      "mention_count": 6
     },
     {
       "name": "Johannes Calvijn",
-      "note": "Reformator die waarschuwde voor het napluizen van Gods bestuur",
-      "start_seconds": 1584,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "note": "Reformator die stelde dat God de geschiedenis regeert, maar dat we Gods weg niet moeten nareken",
+      "start_seconds": 1573,
+      "mention_count": 2
     },
     {
       "name": "Ignaz Semmelweis",
-      "note": "Hongaarse arts die handen wassen introduceerde tegen kraamvrouwenkoorts",
+      "note": "Hongaarse arts die ontdekte dat handen wassen kraamvrouwenkoorts verminderde",
       "start_seconds": 1206,
-      "wiki_checked": true,
-      "wiki_pageid": 24936,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ignaz_Semmelweis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg/250px-Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg"
+      "mention_count": 2
     },
     {
       "name": "John Snow",
-      "note": "Londense arts die de cholera-uitbraak herleidde tot de waterpomp in Broad Street",
+      "note": "Londense arts die de cholerabron aanwees via een waterpomp in Broad Street",
       "start_seconds": 1253,
-      "wiki_checked": true,
-      "wiki_pageid": 135848,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Snow",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dr._John_Snow.jpg/250px-Dr._John_Snow.jpg"
+      "mention_count": 3
     },
     {
       "name": "Robert Koch",
-      "note": "Duitse arts die in de jaren 1880 bacteriën ontdekte",
-      "start_seconds": 1296,
-      "wiki_checked": true,
-      "wiki_pageid": 96571,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Koch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/RobertKoch.jpg/250px-RobertKoch.jpg"
+      "note": "Duitse arts in Berlijn die eind 19e eeuw bacteriën ontdekte",
+      "start_seconds": 1272,
+      "mention_count": 1
+    },
+    {
+      "name": "Perikles",
+      "note": "Athense leider die volgens de Peloponnesische oorlogen aan de plaag overleed",
+      "start_seconds": 492,
+      "mention_count": 1
+    },
+    {
+      "name": "Rodney Stark",
+      "note": "Amerikaanse socioloog die de groei van het christendom verklaart uit de epidemie rond 250",
+      "start_seconds": 2733,
+      "mention_count": 2
+    },
+    {
+      "name": "Dionysius van Alexandrië",
+      "note": "Kerkvader die als ooggetuige beschreef hoe christenen zieken verzorgden tijdens de plaag",
+      "start_seconds": 2772,
+      "mention_count": 2
+    },
+    {
+      "name": "Cyprianus van Carthago",
+      "note": "Kerkvader die als ooggetuige de plaag rond 250 beschreef",
+      "start_seconds": 2772,
+      "mention_count": 1
     },
     {
       "name": "Thomas van Aquino",
-      "note": "Theoloog van eerste en tweede oorzaken",
-      "start_seconds": 2450,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "Middeleeuwse theoloog die onderscheid maakte tussen eerste en tweede oorzaak",
+      "start_seconds": 2451,
+      "mention_count": 1
     },
     {
-      "name": "Livius",
-      "note": "Romeins geschiedschrijver, door Augustinus aangehaald",
-      "start_seconds": 1770,
-      "wiki_checked": true,
-      "wiki_pageid": 114855,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Titus_Livius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Livius%2C_Titus_%2859_-_17.%29.jpg/250px-Livius%2C_Titus_%2859_-_17.%29.jpg"
+      "name": "Justin Welby",
+      "note": "Huidige aartsbisschop van Canterbury die een preek hield over bezinning en gebed",
+      "start_seconds": 3277,
+      "mention_count": 1
     },
     {
-      "name": "Asclepius",
-      "note": "Griekse god van de genezing",
-      "start_seconds": 1572,
-      "wiki_checked": true,
-      "wiki_pageid": 20362,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Asklepios",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Asclepius_Louvre_engraving_c1860.jpg/250px-Asclepius_Louvre_engraving_c1860.jpg"
+      "name": "Rowan Williams",
+      "note": "Voormalig aartsbisschop van Canterbury die na 9/11 schreef over Writing in the Dust",
+      "start_seconds": 3274,
+      "mention_count": 1
+    },
+    {
+      "name": "N.T. Wright",
+      "note": "Theoloog die in Time Magazine schreef dat het christendom geen verklaring heeft voor het virus",
+      "start_seconds": 3157,
+      "mention_count": 3
+    },
+    {
+      "name": "Lotte Jensen",
+      "note": "Collega van De Graaf die onderzoek doet naar gedrag van mensen in tijden van nood",
+      "start_seconds": 3682,
+      "mention_count": 1
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "Minister van Financiën die in de discussie over Nederlandse bijdrage aan de EU werd genoemd",
+      "start_seconds": 1505,
+      "mention_count": 1
     },
     {
       "name": "Jona",
-      "note": "Profeet die naar Nineve ging, voorbeeld van waarschuwing met kans op inkeer",
-      "start_seconds": 2196,
-      "wiki_checked": true,
-      "wiki_pageid": 1963554,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jona_%28profeet%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Jonah.jpg/250px-Jonah.jpg"
-    },
-    {
-      "name": "Arie de Reuver",
-      "note": "Schreef in het Reformatorisch Dagblad over Luther en Gods toorn",
-      "start_seconds": 1952,
-      "wiki_checked": true
+      "note": "Bijbelse profeet die naar Ninevé werd gestuurd om te waarschuwen voor Gods toorn",
+      "start_seconds": 2193,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "La nature et le roi",
-      "author": "Pierre Riché? Nee: Frans historicus (Devroey)",
-      "note": "Over het stapeleffect van hongersnood, oorlog en ziekte onder Karel de Grote",
+      "author": "de Vrouille",
+      "note": "Boek van de Franse historicus over het stapeleffect van plagen rond Karel de Grote",
       "start_seconds": 1386
+    },
+    {
+      "title": "Writing in the Dust",
+      "author": "Rowan Williams",
+      "note": "Boek geschreven na de aanslag van 9/11 over reactie op onheil",
+      "start_seconds": 3274,
+      "volume_id": "0kjhHAAACAAJ",
+      "canonical_title": "Writing in the Dust: Reflections on 11th September and Its Aftermath",
+      "canonical_author": "Rowan Williams",
+      "isbn13": "9780340787199",
+      "isbn10": "0340787198",
+      "thumbnail": "http://books.google.com/books/content?id=0kjhHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Wittenberg",
-    "Londen",
-    "Broad Street",
-    "Athene",
-    "Rome",
-    "Brazilië",
-    "Berlijn",
-    "Bologna",
-    "Nederland",
-    "België",
-    "Korea",
-    "Donaubekken",
-    "Midden-Zeegebied"
+  "bible_refs": [
+    {
+      "ref": "Jona",
+      "note": "Jona die naar Ninevé ging; voorbeeld van mogelijke inkeer na waarschuwing voor Gods toorn",
+      "start_seconds": 2193
+    }
   ],
-  "summary_tldr": "Historicus Beatrice de Graaf en theoloog Stefan Paas bespreken de geschiedenis van pandemieën, van de ossenpest onder Karel de Grote en de Zwarte Dood tot de Spaanse griep, en vergelijken die met corona. Ze gaan ook in op de religieuze duiding van plagen, zoals Gods toorn bij Augustinus en Luther, en op het zoeken naar zondebokken.",
+  "places": [
+    "Londen",
+    "Wittenberg",
+    "Rome",
+    "Bologna",
+    "Berlijn",
+    "Brazilië",
+    "Liberia",
+    "Ninevé"
+  ],
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe pandemieën door de geschiedenis heen zijn verlopen, van de pest tot de Spaanse griep, en hoe mensen er praktisch en religieus mee omgingen. Zij betogen dat het duiden van plagen als straf van God vaak voorkwam, maar dat kerkvaders en reformatoren de toorn van God vooral als oproep tot boetedoening, barmhartigheid en naastenliefde zagen. Het gesprek eindigt met de vraag hoe christenen en samenlevingen nu verantwoordelijkheid kunnen nemen voor eerlijke verdeling van het leed.",
   "summary_points": [
-    "Plagen horen bij de beschaving en ontstaan waar mensen, dieren, handel en oorlog samenkomen.",
-    "Globalisering is niet nieuw; ziektes volgden handelsroutes zoals de zijderoute.",
-    "Quarantaine, afstand houden en gezondheidspaspoorten bestonden al eeuwen voor het begrip van bacteriën.",
-    "De sterfte van de Zwarte Dood en de Spaanse griep is niet te vergelijken met corona; sterke staten vangen de gevolgen nu beter op.",
-    "Karel de Grote combineerde gebed en boete met praktische maatregelen en rechtvaardigheid.",
-    "Augustinus en Luther gebruikten Gods toorn als troost en oproep tot barmhartigheid, niet als donderpreek.",
-    "Luther bleef in Wittenberg en hielp de zieken, in plaats van te vluchten.",
-    "Zondebokken zoeken, zoals de joden vroeger en religieuze groepen nu, is een terugkerend mechanisme.",
-    "Gods werk in de geschiedenis loopt volgens Paas via natuurwetten en menselijk gedrag, en moet niet voor eigen agenda worden ingezet."
+    "Pandemieën zijn al zo oud als de beschaving en nemen toe bij globalisering, handel en oorlog.",
+    "In de middeleeuwen werd de pest vaak gezien als straf van God; Karel de Grote reageerde met zowel gebed als praktische maatregelen.",
+    "Quarantaine en gezondheidspaspoorten bestonden al lang voor de ontdekking van bacteriën.",
+    "Pas in de 19e eeuw begrepen artsen als Semmelweis, Snow en Koch hoe ziektes zich verspreiden.",
+    "Theologen als Augustinus en Luther verbonden de toorn van God met troost, boetedoening en de plicht tot naastenliefde.",
+    "Zondebokdenken, zoals tegenover joden, komt door de geschiedenis heen terug bij plagen.",
+    "Vroege christenen werden geroemd om hun zorg voor zieken tijdens de plaag rond 250.",
+    "Religieuze gemeenschappen blijven in arme landen vaak de laatste structuren die hulp bieden.",
+    "Volgens De Graaf is het belangrijk dat het leed eerlijk wordt verdeeld en dat rechtvaardigheid centraal staat."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Thuiswerken in coronatijd",
-      "summary": "Introductie en korte check-in over hoe de gasten de lockdown ervaren."
+      "title": "Welkom en persoonlijke situatie",
+      "summary": "De gasten vertellen hoe ze het thuis en op hun werk ervaren tijdens de coronacrisis."
     },
     {
-      "start_seconds": 254,
-      "title": "Veiligheid en gezondheidspaspoorten",
-      "summary": "De Graaf vertelt over haar onderzoek naar quarantaine en pestpaspoorten na 1815."
+      "start_seconds": 418,
+      "title": "Plagen zo oud als de mensheid",
+      "summary": "De Graaf schetst dat plagen samenhangen met het ontstaan van steden, handel en oorlog."
     },
     {
-      "start_seconds": 424,
-      "title": "Plagen door de eeuwen heen",
-      "summary": "Pandemieën horen bij de beschaving en volgen golven van globalisering; Karel de Grote als voorbeeld van aanpak."
+      "start_seconds": 553,
+      "title": "Karel de Grote en de middeleeuwse pest",
+      "summary": "Het voorbeeld van Karel de Grote laat zien hoe gebed en praktische maatregelen samengingen."
     },
     {
-      "start_seconds": 732,
-      "title": "Middeleeuwse geneeskunde en de Zwarte Dood",
-      "summary": "Pestdokters, miasma, quarantaine en de enorme sterfte, vergeleken met corona."
-    },
-    {
-      "start_seconds": 1140,
-      "title": "Ontdekking van bacteriën en vaccins",
-      "summary": "Semmelweis, John Snow en Koch; de Spaanse griep als vergelijking."
+      "start_seconds": 1206,
+      "title": "Van miasma naar bacteriën",
+      "summary": "Het verhaal van quarantaine, pestdokters en de ontdekking van handen wassen en besmettingsbronnen."
     },
     {
       "start_seconds": 1536,
-      "title": "Religieuze duiding en zondebokken",
-      "summary": "Paas over Gods ingrijpen, Calvijn en het zoeken van zondebokken door de eeuwen heen."
+      "title": "Religieuze duiding van plagen",
+      "summary": "Stefan Paas beschrijft hoe plagen door de eeuwen heen als oordeel van God werden gezien, en het gevaar van zondebokken."
     },
     {
-      "start_seconds": 1770,
-      "title": "Augustinus en Luther over Gods toorn",
-      "summary": "Toorn als troost en oproep tot barmhartigheid; Luther in Wittenberg."
+      "start_seconds": 1743,
+      "title": "Augustinus en Luther over de toorn van God",
+      "summary": "De Graaf betoogt dat toorn bij kerkvaders en Luther eerder tot troost, inkeer en naastenliefde leidde."
     },
     {
-      "start_seconds": 2310,
-      "title": "Recht, natuur en Gods handelen",
-      "summary": "Paas over recht als beter begrip, globalisering, natuur en God die door natuurwetten werkt."
+      "start_seconds": 2704,
+      "title": "De vroege kerk en de plaag van 250",
+      "summary": "Bronnen van kerkvaders beschrijven hoe christenen zieken verzorgden; Stark en het onderzoek worden besproken."
+    },
+    {
+      "start_seconds": 3157,
+      "title": "Religieuze gemeenschappen nu en reflectie",
+      "summary": "Het gesprek gaat over de rol van kerken in het heden, de vraag naar verklaringen en de eerlijke verdeling van het leed."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1018,
+      "start_seconds": 424,
       "speaker": "Beatrice de Graaf",
-      "text": "Hij laat de klokken luiden, roept op tot gebed en boetedoening, maar legt ook graanschuren aan en verhoogt de lonen.",
-      "note": "Karel de Grote verenigt geloof en pragmatisme."
+      "text": "Plagen horen bij de beschaving.",
+      "note": "Een korte stelling die de lange historische lijn van pandemieën samenvat."
     },
     {
-      "start_seconds": 1932,
+      "start_seconds": 1988,
       "speaker": "Beatrice de Graaf",
-      "text": "Luther maakte zijn handen letterlijk vuil en ging de lazarets in.",
-      "note": "Luther als voorbeeld van naastenliefde tijdens de pest."
+      "text": "Luther gaf zelf het voorbeeld; hij ging de lazaretten in en hielp de zieken.",
+      "note": "Toont een concreet, dapper voorbeeld van christelijke naastenliefde tijdens de pest."
     },
     {
-      "start_seconds": 1840,
-      "speaker": "Beatrice de Graaf",
-      "text": "Augustinus verwijt christenen een soort gezondheidsgeloof, net als de Romeinen.",
-      "note": "Relevant voor christenen die denken niet ziek te kunnen worden."
-    },
-    {
-      "start_seconds": 2053,
+      "start_seconds": 2043,
       "speaker": "Stefan Paas",
-      "text": "Toorn is altijd bedoeld om te herstellen, nooit een emotionele uitbarsting.",
-      "note": "Corrigeert het moderne beeld van Gods toorn."
+      "text": "Begrippen als toorn en wraak hebben tegenwoordig een heel andere gevoelswaarde dan vroeger.",
+      "note": "Een scherpe observatie over hoe theologische taal in onze cultuur kan misverstaan worden."
     },
     {
-      "start_seconds": 2220,
-      "speaker": "Beatrice de Graaf",
-      "text": "Wie Gods toorn gebruikt om anderen de les te lezen en niet zichzelf, perverteert het.",
-      "note": "Scherpe kritiek op hedendaagse duidingen."
-    },
-    {
-      "start_seconds": 2450,
+      "start_seconds": 2439,
       "speaker": "Stefan Paas",
-      "text": "God is de eerste oorzaak die alle andere oorzaken zichzelf laat zijn.",
-      "note": "Verzoent geloof met natuurwetten via Thomas van Aquino."
+      "text": "God regeert door wetmatigheden die er gewoon zijn; handel heeft consequenties.",
+      "note": "Verbindt geloof en natuurwetenschap in één gedachte over oorzaak en gevolg."
+    },
+    {
+      "start_seconds": 3567,
+      "speaker": "Beatrice de Graaf",
+      "text": "Waarom zouden alleen maar de zwakkeren moeten sterven?",
+      "note": "Een scherpe vraag over rechtvaardigheid en de verdeling van schaarse zorg in crisistijd."
     }
   ],
   "keywords": [
     "pandemie",
-    "Zwarte Dood",
-    "Spaanse griep",
+    "pest",
+    "zwarte dood",
     "quarantaine",
-    "Karel de Grote",
+    "toorn van God",
     "Maarten Luther",
     "Augustinus",
-    "toorn van God",
+    "naastenliefde",
     "zondebok",
-    "builenpest",
-    "globalisering",
-    "Semmelweis"
+    "vroege kerk",
+    "Karel de Grote",
+    "miasma"
   ],
-  "quotes": [],
+  "quotes": [
+    "Pandemieën zoals de corona-uitbraak zijn bijna zo oud als de mensheid zelf.",
+    "Niet zelden werden dergelijke uitbraken voorzien van een religieuze betekenis: is dit soms een straf van God?",
+    "Wat kunnen we leren van de plagen uit het verleden?"
+  ],
   "similar": [
     {
-      "n": 75,
-      "reason": "Beatrice de Graaf en Paas over de coronacrisis en historische crises als aanleiding voor revolutie"
-    },
-    {
       "n": 34,
-      "reason": "Rampspoed en religie door de geschiedenis heen, tijdens de coronatijd"
+      "reason": "Corona, historische rampspoed en religie in oude teksten, met Stefan Paas"
     },
     {
-      "n": 68,
-      "reason": "Corona, eindtijd en complotdenken, met dezelfde gasten en religieuze duiding"
+      "n": 75,
+      "reason": "Corona-einde, geschiedenis van crises en religieuze revolutie, met Beatrice de Graaf"
     },
     {
       "n": 47,
-      "reason": "Coronacrisis en kerk, met geschiedenis en secularisatie"
+      "reason": "Coronacrisis en de religieuze gevolgen voor kerken, met Stefan Paas"
     },
     {
-      "n": 106,
-      "reason": "Geschiedenis en geloof achter de crises van deze tijd, dezelfde gasten"
+      "n": 68,
+      "reason": "Eindtijd, complotdenken en antivaxers in historisch perspectief, met Beatrice de Graaf"
+    },
+    {
+      "n": 27,
+      "reason": "Geloof, hoop en zingeving tijdens de coronaperiode, met Stefan Paas"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

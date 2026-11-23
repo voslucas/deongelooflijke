@@ -1,18 +1,23 @@
 {
   "episode": 63,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 148701,
+    "segments": 1617,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30812,
-    "output_tokens": 2394,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 76189,
+    "output_tokens": 3391,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
     "Zingeving & psyche",
-    "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "Samenleving & migratie",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Talitha Muusse"
@@ -20,235 +25,259 @@
   "people": [
     {
       "name": "Henri Nouwen",
-      "note": "Nederlandse katholieke priester, hoogleraar en spiritueel schrijver (1932-1996)",
-      "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 259952,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henri_Nouwen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/HenriNouwen.JPG/250px-HenriNouwen.JPG"
+      "note": "Nederlandse priester, hoogleraar en schrijver; hoofdonderwerp van de aflevering",
+      "start_seconds": 54,
+      "mention_count": 60
     },
     {
-      "name": "Oprah Winfrey",
-      "note": "Amerikaanse presentatrice en bewonderaar van Nouwen",
-      "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 38975,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oprah_Winfrey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg/250px-Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Desmond Tutu",
-      "note": "Zuid-Afrikaanse aartsbisschop en bewonderaar van Nouwen",
-      "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 46451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desmond_Tutu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Desmond_Tutu_2013-10-23_001.jpg/250px-Desmond_Tutu_2013-10-23_001.jpg"
-    },
-    {
-      "name": "Hillary Clinton",
-      "note": "Amerikaanse politica en bewonderaar van Nouwen",
-      "start_seconds": 31,
-      "wiki_checked": true,
-      "wiki_pageid": 92599,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hillary_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Hillary_Clinton_by_Gage_Skidmore_4.jpg/250px-Hillary_Clinton_by_Gage_Skidmore_4.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 436,
+      "mention_count": 3
     },
     {
       "name": "Martin Luther King",
-      "note": "Burgerrechtenleider; Nouwen liep in 1965 mee in de mars naar Selma",
-      "start_seconds": 1187,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "note": "Amerikaanse burgerrechtenleider; Nouwen liep mee in de mars naar Selma",
+      "start_seconds": 1190,
+      "mention_count": 3
+    },
+    {
+      "name": "Oprah Winfrey",
+      "note": "tv-presentatrice, bewonderaar van Nouwen",
+      "start_seconds": 1170,
+      "mention_count": 1
+    },
+    {
+      "name": "Hillary Clinton",
+      "note": "politica, bewonderaar van Nouwen",
+      "start_seconds": 1171,
+      "mention_count": 1
     },
     {
       "name": "Rembrandt van Rijn",
-      "note": "Schilder van De terugkeer van de verloren zoon, de omslag van Eindelijk thuis",
-      "start_seconds": 485,
-      "wiki_checked": true,
-      "wiki_pageid": 1564,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rembrandt_van_Rijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rembrandt_Self-portrait_%28Kenwood%29.jpg/250px-Rembrandt_Self-portrait_%28Kenwood%29.jpg"
+      "note": "schilder van 'De terugkeer van de verloren zoon'",
+      "start_seconds": 490,
+      "mention_count": 3
     },
     {
-      "name": "Adam Arnett",
-      "note": "Verstandelijk gehandicapte man voor wie Nouwen zorgde in de L'Arche-gemeenschap",
-      "start_seconds": 1359,
-      "wiki_checked": true
+      "name": "Joris Luijendijk",
+      "note": "journalist die de bankencrisis onderzocht",
+      "start_seconds": 2230,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Frankl",
+      "note": "psychiater uit de concentratiekampen; genoemd als 'Franco'",
+      "start_seconds": 2619,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick de Wachter",
+      "note": "psychiater, verwijzing naar 'de dikte wachters' (kunst van het ongelukkig zijn)",
+      "start_seconds": 2757,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerrit Achterberg",
+      "note": "Nederlands dichter, door Paas geciteerd",
+      "start_seconds": 4260,
+      "mention_count": 1
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "aartsbisschop en bewonderaar van Nouwen",
+      "start_seconds": 1170,
+      "mention_count": 1
+    },
+    {
+      "name": "Adam",
+      "note": "verstandelijk gehandicapte jongen voor wie Nouwen zorgde",
+      "start_seconds": 2370,
+      "mention_count": 1
     },
     {
       "name": "Tim Hofman",
-      "note": "Presentator, eerder te gast in de podcast",
+      "note": "eerdere gast/onderwerp in de podcast over het individualistische mensbeeld",
       "start_seconds": 1981,
-      "wiki_checked": true,
-      "wiki_pageid": 3025374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Hofman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tim_Hofman_%282018%29.jpg/250px-Tim_Hofman_%282018%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Thijs van den Brink",
-      "note": "Ook afkomstig uit Nijkerk",
-      "start_seconds": 1049,
-      "wiki_checked": true
+      "name": "Sjoerd van Lienden",
+      "note": "genoemd als voorbeeld van publieke veroordeling",
+      "start_seconds": 4344,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicolas Sintobin",
+      "note": "genoemd als andere spirituele podcast-gast",
+      "start_seconds": 4776,
+      "mention_count": 1
+    },
+    {
+      "name": "Abdelkader Benali",
+      "note": "spreker van de komende Henri Nouwen-lezing",
+      "start_seconds": 5370,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Eindelijk thuis",
+      "title": "Eindelijk Thuis",
       "author": "Henri Nouwen",
-      "note": "Meditatie over de gelijkenis van de verloren zoon en Rembrandts schilderij; Muusse schreef het voorwoord van de nieuwe uitgave",
-      "start_seconds": 285,
-      "volume_id": "7zG0EAAAQBAJ",
-      "canonical_title": "Eindelijk thuis: Gedachten bij Rembrandts 'De terugkeer van de verloren zoon'",
-      "canonical_author": "Henri Nouwen",
-      "isbn13": "9789401494274",
-      "isbn10": "9401494274",
-      "thumbnail": "http://books.google.com/books/content?id=7zG0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Nouwens meest bekende werk over de verloren zoon, gebaseerd op Rembrandt; Muusse schreef het voorwoord voor de nieuwe uitgave",
+      "start_seconds": 330,
+      "volume_id": "pm1LzQEACAAJ",
+      "canonical_title": "Eindelijk thuis: gedachten bij Rembrandts 'De terugkeer van de verloren zoon'",
+      "canonical_author": "Henri Joseph Michiel Nouwen",
+      "isbn13": "9789401466851",
+      "isbn10": "9401466858",
+      "thumbnail": ""
     },
     {
-      "title": "De gewonde genezer",
+      "title": "Gewonden Genezer",
       "author": "Henri Nouwen",
-      "note": "Zijn eerste boek, over genezen via de eigen wonden",
-      "start_seconds": 1003
+      "note": "titel van zijn eerste boek; over genezen via eigen wonden",
+      "start_seconds": 2000
     }
   ],
   "bible_refs": [
     {
-      "ref": "Lucas 15:11-32",
-      "note": "Gelijkenis van de verloren zoon, uitgangspunt van Eindelijk thuis",
-      "start_seconds": 55
+      "ref": "Lucas 15",
+      "note": "Gelijkenis van de verloren zoon (verloren zoon, oudste zoon en vader)",
+      "start_seconds": 3050
     }
   ],
   "places": [
     "Nijkerk",
     "Hilversum",
-    "Amerika",
     "Selma",
-    "Harvard",
-    "Yale",
+    "Sint-Petersburg",
     "Utrecht",
-    "Nederland"
+    "Yale",
+    "Harvard"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en Talitha Muusse bespreken waarom Henri Nouwen 25 jaar na zijn dood nog steeds relevant is. Muusse vertelt hoe zijn werk haar hielp tijdens een burn-out, en samen onderzoeken ze zijn nadruk op kwetsbaarheid en afhankelijkheid tegenover het moderne ideaal van autonomie en succes.",
+  "summary_tldr": "David Boogerd, Talitha Muusse en Stefan Paas bespreken het werk van de Nederlandse priester Henri Nouwen, die 25 jaar geleden overleed en vooral in Amerika beroemd is. Muusse, die het voorwoord schreef voor 'Eindelijk Thuis', vertelt hoe Nouwens gedachten over kwetsbaarheid en onvoorwaardelijke liefde haar hielpen tijdens haar burn-out. Het gesprek gaat over het individualistische en meritocratische mensbeeld en de vraag hoe een gelovig mensbeeld daar tegenover kan staan.",
   "summary_points": [
-    "Nouwen is in Nederland grotendeels vergeten maar in Amerika wereldberoemd",
-    "Muusse kreeg zijn werk tijdens een burn-out en vond herkenning in zijn gebrokenheid",
-    "Zijn kwetsbaarheid als geestelijke maakte het delen van zwakte bespreekbaar",
-    "Nouwen combineerde psychologie en theologie, onder meer in Eindelijk thuis",
-    "Hij combineerde contemplatie met activisme, zoals de mars in Selma met Martin Luther King",
-    "Hij gaf zijn academische carrière op om te leven met mensen met een verstandelijke beperking",
-    "Hij ontsnapte aan het Nederlandse secularisatiedebat en koos voor 'show, don't tell'",
-    "Zijn mensbeeld van afhankelijkheid staat haaks op het individualistische, autonome ideaal",
-    "Gelovig opvoeden voelt voor Muusse als kinderen in een buitenstaanderspositie plaatsen"
+    "Nouwen wordt in Nederland vergeten, maar is in Amerika zeer invloedrijk en relevant voor jongeren met burn-outs en existentiële vragen.",
+    "Muusse schreef het voorwoord voor 'Eindelijk Thuis' en ervoer dat als een grote eer en uitdaging.",
+    "Nouwen schreef over eigen kwetsbaarheid en gebrokenheid; zwakheid is volgens hem een bron van verbinding, niet een probleem om op te lossen.",
+    "Nouwen combineerde psychologie, theologie en activisme, met onder meer zijn deelname aan de mars naar Selma en zijn leven met verstandelijk gehandicapten.",
+    "Het liberale, individualistische mensbeeld en het meritocratische ideaal maken dat zwakte en afhankelijkheid als falen worden gezien.",
+    "De kern van Nouwen is dat men onvoorwaardelijk geliefd is, tegenover de 'stemmen van de wereld' die voorwaardelijke liefde aanbieden.",
+    "Het verhaal van de verloren zoon wordt besproken als spiegel voor de jongste zoon, de oudste zoon en de vader.",
+    "Secularisatie wordt door Paas geduid als het dichtslibben van de kanalen waarlangs God gehoord kan worden, niet als weerlegging van God.",
+    "Muusse vertelt over haar ervaring met Op1 en de druk van kijkcijfers, en hoe zij met een lijst van 15 onvoorwaardelijke stemmen die druk hanteerde."
   ],
   "chapters": [
     {
-      "start_seconds": 158,
-      "title": "Waarom Nouwen nu relevant is",
-      "summary": "Muusse legt uit waarom jongeren met burn-outs en existentiële vragen baat hebben bij Nouwen."
+      "start_seconds": 0,
+      "title": "Inleiding en voorstelling",
+      "summary": "Boogerd introduceert Nouwen en het voorwoord van Muusse; Paas deelt zijn eigen band met Nouwen."
     },
     {
-      "start_seconds": 343,
-      "title": "Het voorwoord en Stefans band met Nouwen",
-      "summary": "Muusse over het schrijven van het voorwoord bij Eindelijk thuis; Paas over zijn eigen leesgeschiedenis."
+      "start_seconds": 540,
+      "title": "Muusse's persoonlijke band met Nouwen",
+      "summary": "Muusse vertelt over haar burn-out, het boek 365 dagen en de herkenning van 'gebroken riet'."
     },
     {
-      "start_seconds": 623,
-      "title": "Burn-out en gebroken riet",
-      "summary": "Hoe Nouwens woorden Muusse hielpen om kwetsbaarheid te delen, en het contrast met de domineesrol."
-    },
-    {
-      "start_seconds": 1026,
+      "start_seconds": 1020,
       "title": "Wie was Henri Nouwen?",
-      "summary": "Biografie: Nijkerk, katholieke priester, psychologie, Harvard en Yale, Amerika, Selma en het leven met gehandicapten."
+      "summary": "Biografische schets: priester, psycholoog, werk in Amerika, Selma en zijn leven met gehandicapten."
     },
     {
-      "start_seconds": 1377,
-      "title": "Ontsnapt aan de secularisatie",
-      "summary": "Nouwen verliet Nederland tijdens de ontkerkelijking en voerde nooit het debat over Gods bestaan."
+      "start_seconds": 1800,
+      "title": "Secularisatie en het individualistische mensbeeld",
+      "summary": "Discussie over de jaren zestig, het liberale mensbeeld en waarom geloof moeilijk past in de moderne samenleving."
     },
     {
-      "start_seconds": 1556,
-      "title": "Individualisme versus religieus mensbeeld",
-      "summary": "Over het liberale ideaal van autonomie en hoe Nouwens focus op zwakte en afhankelijkheid daar haaks op staat."
+      "start_seconds": 2880,
+      "title": "Meritocratie, zwakte en de verloren zoon",
+      "summary": "Paas en Muusse analyseren het meritocratische ideaal en lezen het verhaal van de verloren zoon als spiegel."
+    },
+    {
+      "start_seconds": 3840,
+      "title": "Onvoorwaardelijke liefde en de stem van God",
+      "summary": "Het gesprek gaat over onvoorwaardelijke liefde, hechting en de zachte stem van God in de samenleving."
+    },
+    {
+      "start_seconds": 4680,
+      "title": "Persoonlijke ervaringen met Op1 en slot",
+      "summary": "Muusse vertelt over druk en kijkcijfers bij Op1 en hoe Nouwen haar hielp; afsluiting met vooruitblik."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 263,
-      "speaker": "Talitha Muusse",
-      "text": "Op een dag ga ik dood. Ja, en wat dan?",
-      "note": "Beschrijft de existentiële crisis rond je dertigste."
-    },
-    {
-      "start_seconds": 691,
-      "speaker": "Talitha Muusse",
-      "text": "Rillend als een rietje op de bank, alleen al naar de supermarkt gaan was te veel.",
-      "note": "Open beschrijving van haar burn-out."
-    },
-    {
-      "start_seconds": 1560,
-      "speaker": "Talitha Muusse",
-      "text": "Ik zou ze graag gelovig opvoeden, maar het voelt alsof ik ze opvoed tot paria.",
-      "note": "Laat zien hoe ongemakkelijk geloof in de huidige samenleving voelt."
-    },
-    {
-      "start_seconds": 1479,
+      "start_seconds": 1290,
       "speaker": "Stefan Paas",
-      "text": "Er zijn verschillende manieren om te reageren op secularisatie: argumenteren, of show, don't tell.",
-      "note": "Verklaart Nouwens aanpak."
+      "text": "Een lezing is een intellectueel avontuur, een preek is veel existentiëler.",
+      "note": "Scherpe onderscheiding die laat zien hoe persoonlijk schrijven over geloof is."
     },
     {
-      "start_seconds": 1840,
+      "start_seconds": 2370,
       "speaker": "Stefan Paas",
-      "text": "Hij draait het om: als je daar bent, ga je leren wat echt mens zijn is.",
-      "note": "Vat Nouwens revolutionaire perspectief samen."
+      "text": "Een meritocratische samenleving is per definitie een onveilig hechtende samenleving.",
+      "note": "Koppelt maatschappelijke structuur direct aan persoonlijke hechting en onzekerheid."
+    },
+    {
+      "start_seconds": 3960,
+      "speaker": "Stefan Paas",
+      "text": "God is ons zo nabij dat we hem vaak niet merken, net zoals je ademhaling.",
+      "note": "Beeld dat het probleem van secularisatie herformuleert als verlies van gehoor, niet van bestaan."
+    },
+    {
+      "start_seconds": 3180,
+      "speaker": "Talitha Muusse",
+      "text": "Ik geef ze iets mee wat niet herkend wordt als waardevol, sterker nog, wat wordt gezien als een soort van bedreiging.",
+      "note": "Eerlijke worsteling over het doorgeven van geloof aan kinderen in een liberale cultuur."
+    },
+    {
+      "start_seconds": 4290,
+      "speaker": "Talitha Muusse",
+      "text": "Zelfs als ik geen dag meer werk, dan is het waar dat het fijn is dat ik er ben op deze wereld.",
+      "note": "Ontroerend moment waarin het meritocratische ideaal wordt losgelaten."
     }
   ],
   "keywords": [
     "Henri Nouwen",
-    "Eindelijk thuis",
-    "kwetsbaarheid",
-    "burn-out",
-    "zelfacceptatie",
     "verloren zoon",
+    "onvoorwaardelijke liefde",
+    "zelfacceptatie",
+    "burn-out",
+    "meritocratie",
     "individualisme",
     "secularisatie",
-    "gewonde genezer",
+    "kwetsbaarheid",
     "gastvrijheid",
-    "autonomie",
-    "Martin Luther King"
+    "Rembrandt",
+    "geestelijke begeleiding"
   ],
-  "quotes": [],
+  "quotes": [
+    "Dat moet u niet alleen met uw oren horen, maar ook met uw hart.",
+    "Ik ben door Nouwen beter gaan opletten van waar ik voel dat ik word afgewezen om wie ik ben.",
+    "Wat is de waarheid over jezelf? Dat je geliefd bent."
+  ],
   "similar": [
     {
-      "n": 30,
-      "reason": "Zelfde gast Talitha Muusse, thema's God & geloof en samenleving"
+      "n": 287,
+      "reason": "Individualisme en zelfredzaamheid in een individualistische tijd, met Stefan Paas"
     },
     {
       "n": 13,
-      "reason": "Burn-out, werk en identiteit in prestatiemaatschappij; zingeving & psyche"
+      "reason": "Burn-out, prestatiemaatschappij en identiteit, met Ben Tiggelaar en Stefan Paas"
     },
     {
       "n": 33,
-      "reason": "Geluk, kwetsbaarheid en het goede leven met psychiater Dirk de Wachter"
+      "reason": "Zingeving, geluk en geloof in de seculiere samenleving, met Dirk de Wachter"
     },
     {
-      "n": 287,
-      "reason": "Mythe van zelfredzaamheid en individualisme tegenover afhankelijkheid en kwetsbaarheid"
+      "n": 111,
+      "reason": "Individu in een groepsloze tijd, zingeving en psyche, met Esther van Fenema"
     },
     {
-      "n": 71,
-      "reason": "Spiritualiteit en God zoeken in het klooster; Theoloog des Vaderlands"
+      "n": 97,
+      "reason": "Leegte ondanks succes, zingeving en geloof, met Kiza Magendane"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

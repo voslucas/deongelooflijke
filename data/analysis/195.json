@@ -1,17 +1,22 @@
 {
   "episode": 195,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 108274,
+    "segments": 1136,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31048,
-    "output_tokens": 2733,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55450,
+    "output_tokens": 3601,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Wetenschap & kosmos",
+    "Geopolitiek & oorlog",
     "God & geloof",
-    "Technologie & AI",
+    "Wetenschap & kosmos",
     "Filosofie & ethiek"
   ],
   "guests": [
@@ -20,123 +25,143 @@
   "people": [
     {
       "name": "Cees Dekker",
-      "note": "hoogleraar biofysica aan de TU Delft, leider van het onderzoeksconsortium",
-      "start_seconds": 50,
-      "wiki_checked": true,
-      "wiki_pageid": 281114,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cees_Dekker_%28natuurkundige%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Cees_dekker-1452443040.jpg/250px-Cees_dekker-1452443040.jpg"
+      "note": "Hoogleraar biofysica TU Delft, gast en hoofdonderzoeker van het synthetische-levenonderzoek",
+      "start_seconds": 42,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast van de podcast",
+      "start_seconds": 9,
+      "mention_count": 3
     },
     {
       "name": "Nicolaus Copernicus",
-      "note": "astronoom wiens ontdekking het wereldbeeld veranderde",
+      "note": "Astronoom die het heliocentrische wereldbeeld onderbouwde",
       "start_seconds": 9,
-      "wiki_checked": true,
-      "wiki_pageid": 6467,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicolaas_Copernicus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nikolaus_Kopernikus.jpg/250px-Nikolaus_Kopernikus.jpg"
-    },
-    {
-      "name": "Robert Dijkgraaf",
-      "note": "minister van Onderwijs en Wetenschap, initiator van het grote wetenschapsprogramma",
-      "start_seconds": 928,
-      "wiki_checked": true,
-      "wiki_pageid": 176287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robbert_Dijkgraaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/220107Robbert_Dijkgraaf32.jpg/250px-220107Robbert_Dijkgraaf32.jpg"
-    },
-    {
-      "name": "Gijsje Koenderink",
-      "note": "collega en mede-aanvrager van het project",
-      "start_seconds": 1344,
-      "wiki_checked": true
-    },
-    {
-      "name": "Willem Huck",
-      "note": "onderzoeker in Nijmegen, toonde het gebruik van machine learning bij mengsels",
-      "start_seconds": 1243,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Richard Feynman",
-      "note": "Nobelprijswinnend fysicus: 'What I cannot create, I do not understand'",
-      "start_seconds": 1405,
-      "wiki_checked": true,
-      "wiki_pageid": 1522,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Feynman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Feynman_at_Los_Alamos.jpg/250px-Feynman_at_Los_Alamos.jpg"
+      "note": "Natuurkundige; 'What I cannot create, I do not understand'",
+      "start_seconds": 1375,
+      "mention_count": 1
     },
     {
-      "name": "Stanley Miller en Harold Urey",
-      "note": "deden in de jaren 50 experimenten naar de bouwstenen van leven",
+      "name": "Stanley Miller",
+      "note": "Chemicus die in de jaren 50 aminozuren in het laboratorium maakte (Miller-Urey)",
       "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 126719,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harold_Urey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Urey.jpg/250px-Urey.jpg"
-    },
-    {
-      "name": "Theo Boer",
-      "note": "ethicus, schreef met Dekker een essay over mensverbetering",
-      "start_seconds": 1884,
-      "wiki_checked": true,
-      "wiki_pageid": 5154010,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_Boer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/T.A._Boer.jpg/250px-T.A._Boer.jpg"
-    },
-    {
-      "name": "Yuval Noah Harari",
-      "note": "schrijver die een tweedeling door genetische verbetering vreest",
-      "start_seconds": 1929,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
-    },
-    {
-      "name": "Richard Dawkins",
-      "note": "atheïstisch bioloog en auteur van The Blind Watchmaker en The God Delusion",
-      "start_seconds": 2220,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 1
     },
     {
       "name": "Charles Darwin",
-      "note": "genoemd als grote wetenschappelijke doorbraak",
-      "start_seconds": 1334,
-      "wiki_checked": true,
-      "wiki_pageid": 4097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Darwin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/250px-Charles_Darwin_portrait.jpg"
+      "note": "Grondlegger van de evolutietheorie",
+      "start_seconds": 2690,
+      "mention_count": 2
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Bioloog en atheïstisch auteur (The God Delusion)",
+      "start_seconds": 2280,
+      "mention_count": 2
+    },
+    {
+      "name": "Yuval Noah Harari",
+      "note": "Historicus en auteur die scenario's over biotechnologie en ongelijkheid schetst",
+      "start_seconds": 1930,
+      "mention_count": 1
+    },
+    {
+      "name": "Robert Dijkgraaf",
+      "note": "Minister van Onderwijs, Cultuur en Wetenschap",
+      "start_seconds": 948,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Historicus en schrijver; verloor volgens zijn verhaal zijn geloof door de evolutietheorie",
+      "start_seconds": 2685,
+      "mention_count": 3
+    },
+    {
+      "name": "Frans de Waal",
+      "note": "Primatoloog, kritisch op Dawkins",
+      "start_seconds": 3580,
+      "mention_count": 1
     },
     {
       "name": "J. Robert Oppenheimer",
-      "note": "vergelijking met de atoombom en dual-use onderzoek",
-      "start_seconds": 1504,
-      "wiki_checked": true,
-      "wiki_pageid": 60704,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Oppenheimer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Oppenheimer_%28cropped%29.jpg/250px-Oppenheimer_%28cropped%29.jpg"
+      "note": "Fysicus, vergeleken met synthetische biologie qua ethische verantwoordelijkheid",
+      "start_seconds": 1510,
+      "mention_count": 1
+    },
+    {
+      "name": "Gijsje Koenderink",
+      "note": "Collega-onderzoeker, medeleider van het consortium",
+      "start_seconds": 1464,
+      "mention_count": 1
+    },
+    {
+      "name": "Theo Boer",
+      "note": "Ethicus; schreef essay met Dekker over mensverbetering",
+      "start_seconds": 1871,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Denton",
+      "note": "Auteur over het ontstaan van leven en ontwerpargumenten",
+      "start_seconds": 2570,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Chrysostomus",
+      "note": "Kerkvader die Genesis niet letterlijk las",
+      "start_seconds": 3120,
+      "mention_count": 1
+    },
+    {
+      "name": "John Walton",
+      "note": "Bijbelwetenschapper die oudoosterse teksten gebruikt om Genesis te duiden",
+      "start_seconds": 3180,
+      "mention_count": 1
+    },
+    {
+      "name": "Bas Haring",
+      "note": "Filosoof die een hoorcollege over evolutie gaf",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten 't Hart",
+      "note": "Schrijver uit de generatie met kerkfrustratie",
+      "start_seconds": 3500,
+      "mention_count": 1
+    },
+    {
+      "name": "Ronald Plasterk",
+      "note": "Bioloog en opiniemaker over wetenschap en religie",
+      "start_seconds": 3430,
+      "mention_count": 2
+    },
+    {
+      "name": "Piet Borger",
+      "note": "Columnist die wetenschap en atheïsme polemisch verbond",
+      "start_seconds": 3440,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Huck",
+      "note": "Onderzoeker in Nijmegen die machine learning inzette op chemische mengsels",
+      "start_seconds": 1240,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Blind Watchmaker",
       "author": "Richard Dawkins",
-      "note": "maakte indruk op Dekker, atheïstische visie op evolutie",
-      "start_seconds": 2240,
+      "note": "Evolutieboek dat Dekker beïnvloedde",
+      "start_seconds": 1400,
       "volume_id": "vZw8PgAACAAJ",
       "canonical_title": "The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe Without Design",
       "canonical_author": "Richard Dawkins",
@@ -147,8 +172,8 @@
     {
       "title": "The God Delusion",
       "author": "Richard Dawkins",
-      "note": "atheïstisch pleidooi dat Dekker aan het denken zette",
-      "start_seconds": 2240,
+      "note": "Atheïstisch boek dat Dekker in zijn twijfelfase las",
+      "start_seconds": 2290,
       "volume_id": "grccDzrTWLUC",
       "canonical_title": "The God Delusion",
       "canonical_author": "Richard Dawkins",
@@ -160,13 +185,23 @@
   "bible_refs": [
     {
       "ref": "Genesis 1",
-      "note": "de mens als beeld van God en de opdracht de schepping te beheren",
-      "start_seconds": 1729
+      "note": "Aarde brengt leven voort, een schijnbaar autonoom proces",
+      "start_seconds": 2600
     },
     {
-      "ref": "Genesis 11",
-      "note": "de toren van Babel als beeld van menselijke hoogmoed",
-      "start_seconds": 1791
+      "ref": "Genesis 2",
+      "note": "God blaast het leven in de mens",
+      "start_seconds": 2610
+    },
+    {
+      "ref": "Genesis 1:26",
+      "note": "Mens geschapen naar het beeld van God; opdracht de schepping te beheren",
+      "start_seconds": 1150
+    },
+    {
+      "ref": "Psalm 104",
+      "note": "Water stroomt van de bergen; God werkt door natuurlijke processen",
+      "start_seconds": 2640
     }
   ],
   "places": [
@@ -176,125 +211,127 @@
     "Wageningen",
     "Amsterdam",
     "Utrecht",
+    "Amersfoort",
     "India",
     "China"
   ],
-  "summary_tldr": "Cees Dekker leidt een consortium van ongeveer honderd wetenschappers dat met 40 miljoen euro van NWO met hulp van AI een levend systeem uit levenloze moleculen wil bouwen. Het gesprek gaat over de wetenschappelijke ambitie, ethische risico's en de vraag of dit 'voor God spelen' is. Dekker ziet geen strijd met zijn christelijk geloof en wijst een 'God van de gaten' af.",
+  "summary_tldr": "Cees Dekker leidt een consortium van ongeveer 100 wetenschappers dat met 40 miljoen euro van NWO probeert uit levenloze moleculen een levend systeem te bouwen, met behulp van AI en directed evolution. Het gesprek gaat over de ethische en religieuze implicaties hiervan, zoals de vraag of dit voor God spelen is. Dekker ziet geen principiële ethische grens en beschouwt zijn onderzoek als een theologisch verantwoordelijkheid, terwijl Paas waarschuwt voor de gevolgen en de vraag of God niet kleiner wordt.",
   "summary_points": [
-    "Hoe leven uit dode materie ontstond is nog een groot mysterie; Dekker wil de bouwprincipes van levende systemen achterhalen.",
-    "Het team bouwt van onderaf (bottom-up) met minimale modules en zet AI en directed evolution in.",
-    "Het project is het grootste NWO-programma (40 miljoen euro, 10 jaar, meer dan 100 onderzoekers).",
-    "Succes zou kunnen wijzen op een continuüm tussen levenloos en levend, vergelijkbaar met Copernicus' impact op het wereldbeeld.",
-    "Ethici en filosofen in het consortium denken na over een definitie van leven en over controle, zoals kill switches.",
-    "Stefan Paas wijst op dual-use risico's zoals bij Oppenheimer; Dekker vindt de gevaren op korte termijn beperkt.",
-    "Dekker ziet 'voor God spelen' positief als verantwoordelijkheid van de mens als beeld van God, en negatief als hoogmoed.",
-    "Mensverbetering en transhumanisme zijn volgens Dekker overschat; het diepste probleem van de mens is moreel.",
-    "Dekker verwerpt een 'God van de gaten' en ziet God achter alle processen, ook het ontstaan van leven."
+    "Het project van Dekker wil de bouwprincipes van leven begrijpen door minimale cellen te construeren.",
+    "NWO investeert 40 miljoen euro in het consortium, dat met AI en machine learning werkt.",
+    "Dekker citeert Feynman: wat je niet kunt bouwen, begrijp je niet echt.",
+    "Ethische zorgen: kill switches, biowarfare en het 'deurtje' dat wetenschap opent, vergeleken met Oppenheimer.",
+    "Dekker ziet in het Bijbelse scheppingsmandaat een verantwoordelijkheid om 'voor God te spelen' in positieve zin.",
+    "Paas stelt dat het aantonen van leven door intelligent ontwerp niets zegt over spontane ontstaan en wijst op het antropisch principe.",
+    "Dekker beschrijft zijn weg van twijfel door Dawkins naar een christelijk wereldbeeld waarin geloof en wetenschap niet botsen.",
+    "Paas waarschuwt dat God niet als 'stopgat' in wetenschappelijke kennis moet fungeren.",
+    "Discussie over Genesis: Paas en Boogerd pleiten voor een lezing die noch creationistisch noch evolutionistisch is.",
+    "Gesprek over bezuinigingen op wetenschap en het belang van fundamenteel onderzoek."
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Kennismaking met Cees Dekker",
-      "summary": "David introduceert Dekker en zijn vele activiteiten en vraagt waar zijn energie vandaan komt."
+      "start_seconds": 0,
+      "title": "Intro en het grote project",
+      "summary": "Boogerd en gasten introduceren het synthetische-levenonderzoek en de vergelijking met Copernicus en de oerknal."
     },
     {
-      "start_seconds": 303,
-      "title": "Het mysterie van het ontstaan van leven",
-      "summary": "Dekker legt uit dat we niet weten hoe leven uit moleculen ontstond en hoe zijn aanpak verschilt van prebiotisch onderzoek."
+      "start_seconds": 500,
+      "title": "Hoe ontstaat leven?",
+      "summary": "Dekker legt uit dat de overgang van moleculen naar cel onbekend is en hoe het team top-down en bottom-up werkt."
     },
     {
-      "start_seconds": 820,
-      "title": "Een nieuw wereldbeeld",
-      "summary": "Vergelijking met Copernicus: een continuüm tussen levenloos en levend zou ons beeld veranderen."
+      "start_seconds": 1000,
+      "title": "Opzet van het consortium en de wetenschap",
+      "summary": "Over de financiering, de schaal van nanotechnologie en het gebruik van AI bij het ontwerpen van synthetische cellen."
     },
     {
-      "start_seconds": 935,
-      "title": "Het consortium en de techniek",
-      "summary": "Over de 40 miljoen, de nanoschaal, de cel als stad en het gebruik van AI en machine learning."
+      "start_seconds": 1800,
+      "title": "Ethiek en voor God spelen",
+      "summary": "Discussie over kill switches, biowarfare, mensverbetering en de verantwoordelijkheid van wetenschappers."
     },
     {
-      "start_seconds": 1470,
-      "title": "Ethiek en gevaren",
-      "summary": "Discussie over ethische grenzen, Oppenheimer, kill switches en biowarfare."
+      "start_seconds": 2200,
+      "title": "Geloof, wetenschap en wereldbeeld",
+      "summary": "Dekker vertelt over zijn geloofsreis; Paas bespreekt God als stopgat en het antropisch principe."
     },
     {
-      "start_seconds": 1711,
-      "title": "Voor God spelen?",
-      "summary": "Dekker over de mens als beeld van God, hoogmoed en Babel, en over mensverbetering en transhumanisme."
+      "start_seconds": 2600,
+      "title": "Evolutie, Genesis en Bregman",
+      "summary": "Gesprek over evolutie, de lezing van Genesis en het verlies van geloof bij Rutger Bregman."
     },
     {
-      "start_seconds": 2000,
-      "title": "Geloof en wetenschap",
-      "summary": "Stefan Paas en Dekker over de 'God van de gaten' en Dekkers persoonlijke weg met Dawkins en zijn geloof."
+      "start_seconds": 3300,
+      "title": "Debatcultuur en toepassingen",
+      "summary": "Over de verandering van toon in het debat, mogelijke toepassingen in de biotechnologie en bezuinigingen op wetenschap."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 704,
+      "start_seconds": 2330,
       "speaker": "Cees Dekker",
-      "text": "Stel dat het ons lukt in 10 jaar een levend systeem te bouwen uit levenloze moleculen, dan doet dat een nieuw besef opreizen dat de levenloze en levende wereld verbonden zijn.",
-      "note": "Koppelt het project aan een Copernicaanse verschuiving van het wereldbeeld."
+      "text": "Als de wetenschap iets verklaart, verdwijnt God dan? Nee, God is de Almachtige achter de oerknal en de evolutie.",
+      "note": "Dekker verwoordt zijn kernovertuiging dat God niet klein wordt door wetenschap."
     },
     {
-      "start_seconds": 1405,
-      "speaker": "Cees Dekker",
-      "text": "What I cannot create, I do not understand (Feynman).",
-      "note": "Verwoordt de drijfveer van het bouwen van leven."
+      "start_seconds": 1290,
+      "speaker": "Stefan Paas",
+      "text": "Het deurtje dat je openzet voor gruwelijke toepassingen, dat zet je nu open.",
+      "note": "Paas legt de verantwoordelijkheid van wetenschappers scherp bij Dekker."
     },
     {
-      "start_seconds": 1711,
+      "start_seconds": 2210,
       "speaker": "Cees Dekker",
-      "text": "Ik voel zelfs een zekere verantwoordelijkheid om voor God te spelen, in de positieve zin.",
-      "note": "Kantelt de kritiek door te verwijzen naar de mens als beeld van God."
+      "text": "Als dat voor God spelen is, dan is het absoluut afkeurenswaardig en walgelijk.",
+      "note": "Een scherpe grens, maar tegelijk een positieve lezing van de scheppingsopdracht."
     },
     {
-      "start_seconds": 2085,
-      "speaker": "Cees Dekker",
-      "text": "Als we het dan vinden, hebben we God niet meer nodig? Dan maak je God heel klein.",
-      "note": "Wijst de God-van-de-gaten-benadering af."
-    },
-    {
-      "start_seconds": 1648,
-      "speaker": "Cees Dekker",
-      "text": "Als ik die generaal was, zou ik mijn geld niet in synthetisch celonderzoek steken maar virussen modificeren.",
-      "note": "Nuchter antwoord op het gevaarscenario van Paas."
+      "start_seconds": 2690,
+      "speaker": "Stefan Paas",
+      "text": "God is te groot om nodig te zijn.",
+      "note": "Een beeldende formulering van het idee dat God geen stopgat is."
     }
   ],
   "keywords": [
-    "oorsprong van leven",
-    "synthetische cel",
+    "synthetisch leven",
+    "abiogenese",
     "kunstmatige intelligentie",
-    "Cees Dekker",
-    "NWO",
-    "nanobiologie",
-    "God van de gaten",
-    "ethiek",
-    "Copernicus",
-    "Richard Dawkins",
+    "scheppingsverhaal",
+    "evolutie",
+    "God als stopgat",
+    "antropisch principe",
+    "biowarfare",
     "transhumanisme",
-    "schepping"
+    "geloof en wetenschap",
+    "Genesis",
+    "nanobiologie"
   ],
-  "quotes": [],
+  "quotes": [
+    "What I cannot create, I do not understand.",
+    "God is te groot om nodig te zijn.",
+    "Als dat voor God spelen is, dan is het absoluut afkeurenswaardig en walgelijk."
+  ],
   "similar": [
     {
-      "n": 325,
-      "reason": "DNA-technologie, ethische grenzen van wetenschap en 'voor God spelen' bij het ontwerpen van mensen"
+      "n": 157,
+      "reason": "Oxford-natuurkundige over wetenschap, mysterie en God, sterk verwant aan dit gesprek"
+    },
+    {
+      "n": 306,
+      "reason": "AI, transhumanisme en ethische vragen over wat mensen mogen maken, met Stefan Paas"
+    },
+    {
+      "n": 316,
+      "reason": "Topwetenschappers over of God bestaat, met Ard Louis en Heino Falcke"
     },
     {
       "n": 322,
-      "reason": "Topwetenschapper Heino Falcke over God, mens en kosmos; wetenschap en geloof verenigd"
+      "reason": "Heino Falcke over God, de mens en de kosmos, met wetenschap en geloof"
     },
     {
-      "n": 157,
-      "reason": "Natuurkundige die in wetenschap diepe mysteries en mogelijk God ziet"
-    },
-    {
-      "n": 167,
-      "reason": "Clash tussen wetenschap en geloof: Darwin, Galileo, Einstein"
-    },
-    {
-      "n": 150,
-      "reason": "Wetenschapper (Hertzberger) over God en wetenschap: tijd van 'God dood verklaard' voorbij"
+      "n": 144,
+      "reason": "Gevaren van AI en de ethische vragen die de technologie oproept"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

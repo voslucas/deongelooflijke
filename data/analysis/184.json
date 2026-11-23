@@ -1,363 +1,400 @@
 {
   "episode": 184,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 128218,
+    "segments": 1296,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30612,
-    "output_tokens": 2994,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 64956,
+    "output_tokens": 4619,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
+    "God & geloof",
     "Geschiedenis",
-    "Bijbel & Jezus",
-    "Geopolitiek & oorlog"
+    "Politiek"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president; stelt het volk boven het individu",
-      "start_seconds": 173,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Wladimir Poetin",
+      "note": "Russische president; zijn toespraken over het Russische volk als collectief worden besproken",
+      "start_seconds": 0,
+      "mention_count": 6
     },
     {
       "name": "Yuval Noah Harari",
-      "note": "Historicus en auteur; noemt mensenrechten een fictief verhaal",
-      "start_seconds": 571,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "note": "historicus en auteur van Sapiens en Homo Deus; fragment over mensenrechten als fictie",
+      "start_seconds": 569,
+      "mention_count": 9
     },
     {
-      "name": "Cicero",
-      "note": "Romeins denker; schreef over plichten en menselijke waardigheid",
-      "start_seconds": 770,
-      "wiki_checked": true,
-      "wiki_pageid": 40452,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marcus_Tullius_Cicero",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/CiceroBust.jpg/250px-CiceroBust.jpg"
+      "name": "Marcus Tullius Cicero",
+      "note": "Romeins filosoof en staatsman; schreef over morele aanleg en waardigheid van de vrije man",
+      "start_seconds": 752,
+      "mention_count": 6
     },
     {
       "name": "Seneca",
-      "note": "Stoïcijns filosoof; schreef over de rede en slaven",
-      "start_seconds": 770,
-      "wiki_checked": true,
-      "wiki_pageid": 47401,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lucius_Annaeus_Seneca",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/250px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
-    },
-    {
-      "name": "Immanuel Kant",
-      "note": "Filosoof; menselijke waardigheid gegrond in autonome rede",
-      "start_seconds": 840,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "note": "Romeins stoïcijns filosoof; uitgewerkte idee van menselijke waardigheid, ook voor slaven",
+      "start_seconds": 769,
+      "mention_count": 6
     },
     {
       "name": "Julius Caesar",
-      "note": "Romeinse leider die de Rubicon overstak",
+      "note": "Romeinse staatsman; overschreed de Rubicon en verspeelde volgens de bespreking zijn waardigheid",
       "start_seconds": 886,
-      "wiki_checked": true,
-      "wiki_pageid": 6606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julius_Caesar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg/250px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Voltaire",
-      "note": "Prees Cicero's boek over de plichten",
-      "start_seconds": 942,
-      "wiki_checked": true,
-      "wiki_pageid": 26074,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Voltaire",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/250px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
-    },
-    {
-      "name": "Mary Wollstonecraft",
-      "note": "Pleitte eind 18e eeuw voor de waardigheid van de vrouw",
-      "start_seconds": 1257,
-      "wiki_checked": true,
-      "wiki_pageid": 56338,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mary_Wollstonecraft",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg/250px-Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg"
+      "name": "Immanuel Kant",
+      "note": "filosoof; mens als doel, nooit middel, en autonomie",
+      "start_seconds": 840,
+      "mention_count": 6
     },
     {
       "name": "Gregorius van Nyssa",
-      "note": "Vierde-eeuwse kerkvader; armen als beelddragers van God",
-      "start_seconds": 1373,
-      "wiki_checked": true,
-      "wiki_pageid": 279369,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gregorius_van_Nyssa",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Gregorius_von_Nyssa.jpeg/250px-Gregorius_von_Nyssa.jpeg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "Middeleeuwse theoloog; onderscheidde drie vormen van waardigheid",
-      "start_seconds": 1418,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "christelijk denker uit de vierde eeuw; armen als beelddragers van God",
+      "start_seconds": 1376,
+      "mention_count": 1
     },
     {
       "name": "Tertullianus",
-      "note": "Vroegchristelijk schrijver, fan van Seneca",
+      "note": "vroegchristelijk denker; Christus als de ware mens",
       "start_seconds": 1420,
-      "wiki_checked": true,
-      "wiki_pageid": 64352,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tertullianus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Tertullian.jpg/250px-Tertullian.jpg"
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader; mens superieur als beeld van God",
-      "start_seconds": 1556,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader; superioriteit van de mens als beeld van God",
+      "start_seconds": 1560,
+      "mention_count": 1
     },
     {
-      "name": "Paulus",
-      "note": "Apostel; schreef dat in Christus geen slaaf of vrije, man of vrouw is",
-      "start_seconds": 1807,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Thomas van Aquino",
+      "note": "middeleeuws theoloog; drie vormen van menselijke waardigheid",
+      "start_seconds": 1310,
+      "mention_count": 2
     },
     {
-      "name": "Pico della Mirandola",
-      "note": "Renaissancehumanist; schreef Over de waardigheid van de mens",
+      "name": "Giovanni Pico della Mirandola",
+      "note": "Italiaanse humanist; schreef Over de waardigheid van de mens (1486)",
       "start_seconds": 2024,
-      "wiki_checked": true,
-      "wiki_pageid": 245398,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pico1.jpg/250px-Pico1.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "Historicus die de joods-christelijke wortels van gelijkwaardigheid benadrukt",
-      "start_seconds": 1989,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "mention_count": 4
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "Filosoof; plaatst gelijkwaardigheid in de joods-christelijke traditie",
-      "start_seconds": 1989,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "filosoof; wil tot macht en dood van God",
+      "start_seconds": 2465,
+      "mention_count": 5
+    },
+    {
+      "name": "Mary Wollstonecraft",
+      "note": "achttiende-eeuwse schrijfster; pleitte voor waardigheid van de vrouw",
+      "start_seconds": 1260,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacques Maritain",
+      "note": "katholiek denker; betrokken bij de Universele Verklaring van de Rechten van de Mens",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Markies de Sade",
+      "note": "achttiende-eeuwse schrijver; radicale consequentie van individualisme en instincten",
+      "start_seconds": 2274,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Jefferson",
+      "note": "een van de Founding Fathers; concepttekst onafhankelijkheidsverklaring",
+      "start_seconds": 3210,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Franklin",
+      "note": "Founding Father; paste de tekst van de onafhankelijkheidsverklaring aan",
+      "start_seconds": 3210,
+      "mention_count": 2
+    },
+    {
+      "name": "Tom Holland",
+      "note": "historicus; over het joods-christelijke fundament van mensenrechten",
+      "start_seconds": 2010,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus en auteur; volgende gast, oud-student van Beatrice de Graaf",
+      "start_seconds": 4620,
+      "mention_count": 3
+    },
+    {
+      "name": "Elon Musk",
+      "note": "ondernemer; voorbeeld van waardigheid gebaseerd op aanzien",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Zelensky",
+      "note": "Oekraïens president; voorbeeld van offers in oorlogstijd",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; 'in Christus is geen man of vrouw, Jood of Griek'",
+      "start_seconds": 1830,
+      "mention_count": 2
+    },
+    {
+      "name": "Petrus",
+      "note": "apostel; sprak slaafgemaakten aan als volwaardige mensen",
+      "start_seconds": 1790,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "de barmhartige Samaritaan; naastenliefde voorbij volksgrenzen",
+      "start_seconds": 1740,
+      "mention_count": 2
+    },
+    {
+      "name": "Cain",
+      "note": "bijbelse figuur; 'ben ik mijn broeders hoeder?'",
+      "start_seconds": 4090,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus VI",
+      "note": "paus; encycliek Dignitatis humanae (1965)",
+      "start_seconds": 4500,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Over de plichten (De officiis)",
-      "author": "Cicero",
-      "note": "Na de Bijbel een van de eerst gedrukte boeken",
-      "start_seconds": 942,
-      "volume_id": "zA-9ncxL-UQC",
-      "canonical_title": "De Officiis Or on Duties on Obligations",
-      "canonical_author": "Marcus Tullius Cicero",
-      "isbn13": "9781425004613",
-      "isbn10": "142500461X",
-      "thumbnail": "http://books.google.com/books/content?id=zA-9ncxL-UQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "note": "bestseller van Harari, genoemd als bron van zijn gedachtegoed",
+      "start_seconds": 560,
+      "volume_id": "zfuOEAAAQBAJ",
+      "canonical_title": "Sapiens: A Brief History of Humankind",
+      "canonical_author": "Yuval Noah Harari",
+      "isbn13": "9780771038518",
+      "isbn10": "0771038518",
+      "thumbnail": "http://books.google.com/books/content?id=zfuOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Over de waardigheid van de mens",
-      "author": "Pico della Mirandola",
-      "note": "Redevoering gericht aan Adam",
-      "start_seconds": 2024
+      "title": "Homo Deus",
+      "author": "Yuval Noah Harari",
+      "note": "bestseller van Harari",
+      "start_seconds": 560,
+      "volume_id": "0_uOEAAAQBAJ",
+      "canonical_title": "Homo Deus: A Brief History of Tomorrow",
+      "canonical_author": "Yuval Noah Harari",
+      "isbn13": "9780771038709",
+      "isbn10": "0771038704",
+      "thumbnail": "http://books.google.com/books/content?id=0_uOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Vrede op Waarde",
+      "author": "Stefan Paas",
+      "note": "boek over slavernij en christelijke ethiek",
+      "start_seconds": 2390,
+      "volume_id": "WhrMEAAAQBAJ",
+      "canonical_title": "Vrede op aarde: Over heil en redding in deze tijd",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789043540087",
+      "isbn10": "9043540080",
+      "thumbnail": "http://books.google.com/books/content?id=WhrMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Over de plichten (De officiis)",
+      "author": "Cicero",
+      "note": "invloedrijk werk over morele plichten en waardigheid",
+      "start_seconds": 960,
+      "volume_id": "IGfVjgEACAAJ",
+      "canonical_title": "De Officiis",
+      "canonical_author": "Marcus Tullius Cicero",
+      "isbn13": "9780674990333",
+      "isbn10": "0674990331",
+      "thumbnail": "http://books.google.com/books/content?id=IGfVjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Galaten 3:28",
-      "note": "Geen Jood of Griek, slaaf of vrije, man of vrouw: allen één in Christus",
-      "start_seconds": 1830
-    },
-    {
-      "ref": "Genesis 1:27",
-      "note": "De mens geschapen naar het beeld van God",
-      "start_seconds": 1320
+      "ref": "Johannes 15:13",
+      "note": "'geen groter goed dan je leven te geven voor je vrienden', door Poetin geciteerd",
+      "start_seconds": 222
     },
     {
       "ref": "Genesis 9:6",
-      "note": "Wie mensenbloed vergiet, heeft het beeld van God gedood",
-      "start_seconds": 1360
+      "note": "wie een mens doodt, zijn bloed moet vergoten worden, want hij is beeld van God",
+      "start_seconds": 1320
+    },
+    {
+      "ref": "Galaten 3:28",
+      "note": "in Christus geen Jood of Griek, slaaf of vrije, man of vrouw",
+      "start_seconds": 1840
     },
     {
       "ref": "Lucas 10:25-37",
-      "note": "De barmhartige Samaritaan en de vraag wie je naaste is",
-      "start_seconds": 1730
+      "note": "gelijkenis van de barmhartige Samaritaan",
+      "start_seconds": 1740
     },
     {
-      "ref": "Johannes 15:13",
-      "note": "Geen groter goed dan je leven geven voor je vrienden; door Poetin geciteerd",
-      "start_seconds": 222
+      "ref": "Genesis 4:9",
+      "note": "Kaïn: 'ben ik mijn broeders hoeder?'",
+      "start_seconds": 4090
     }
   ],
   "places": [
-    "Rusland",
-    "Oekraïne",
-    "Moskou",
     "Utrecht",
-    "Rome",
-    "Jacobikerk Utrecht"
+    "Moskou",
+    "Oekraïne",
+    "Rusland",
+    "Duitsland",
+    "Dachau",
+    "Auschwitz",
+    "Karlsruhe",
+    "Mexico",
+    "Groot-Brittannië",
+    "Amerika",
+    "Nederland",
+    "China"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken waar de waarde van de mens op gefundeerd is, van Poetins collectivisme tot de Romeinse, christelijke en moderne ideeën over menselijke waardigheid. Ze zetten de geschiedenis van het begrip uiteen en reageren op Harari's stelling dat mensenrechten fictie zijn.",
+  "summary_tldr": "David Boogerd, Beatrice de Graaf en Stefan Paas onderzoeken waarom menselijke waardigheid en gelijkwaardigheid vaak zonder fundament worden verdedigd. Ze volgen de geschiedenis van het begrip van de Romeinen en het vroege christendom tot de mensenrechtenverdragen van na 1948. Het gesprek eindigt met de vraag of het begrip zonder een externe grondslag houdbaar is.",
   "summary_points": [
-    "Poetin ziet het individu als niets en het volk als alles, wat haaks staat op menselijke waardigheid.",
-    "In de verkiezingsprogramma's wordt de waarde van de mens nauwelijks onderbouwd.",
-    "Harari noemt mensenrechten een fictief verhaal; De Graaf en Paas vinden die reductie tot biologie onzin.",
-    "Cicero en Seneca grondden waardigheid in de rede, maar vooral voor vrije mannen.",
-    "De vraag blijft wat dit betekent voor mensen die niet kunnen redeneren, en waarom mensen dan méér waard zijn dan dieren.",
-    "Het christendom grondde waardigheid in het beeld van God en breidde haar uit naar armen, kinderen en slaven.",
-    "Galaten 3:28 bevat revolutionair potentieel, al werd dat lang niet altijd ingelost.",
-    "Universalisme en mensenrechten als individuele rechten zijn moderne, historische begrippen.",
-    "Pico della Mirandola verbindt waardigheid aan grensverlegging, met een link naar kolonisering."
+    "Veel actuele debatten (oorlog, migratie, euthanasie, abortus) draaien om de vraag wat de waarde van de mens is en waarop die rust.",
+    "Harari stelt dat mensenrechten fictie zijn; de gesprekspartners wijzen dit af als reductie tot biologie.",
+    "Romeinen als Cicero en Seneca dachten al over menselijke waardigheid, maar die gold voornamelijk voor vrije mannen.",
+    "Het christelijk denken over de mens als beeld van God legde de basis voor universele waardigheid, ook voor armen en slaven.",
+    "Renaissance en Verlichting verschoven de grondslag naar rede en autonomie, met als schaduwkant het individualisme van De Sade.",
+    "De Amerikaanse onafhankelijkheidsverklaring en de Duitse grondwet van 1949 verankerden de onaantastbaarheid van de mens, met christelijke inspiratie.",
+    "Het fundament van waardigheid op rede of prestatie is kwetsbaar, want wie niet kan redeneren of presteren zou dan minder waard zijn.",
+    "Waardigheid die niet extern verankerd is, kan door staat, markt of nationalisme worden opgeofferd.",
+    "Waardigheid vraagt om concrete maatregelen, zoals minimumloon, bescherming en staatloosheid voorkomen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Poetin en de waarde van het individu",
-      "summary": "Opening, aankondiging van het jubileum en Poetins collectivistische mensbeeld."
+      "title": "Inleiding: de vraag naar menselijke waardigheid",
+      "summary": "Boogerd introduceert het thema en de relevantie voor politiek en maatschappij. Poetins nationalisme wordt als voorbeeld genoemd."
     },
     {
-      "start_seconds": 280,
-      "title": "Waarom deze vraag nu urgent is",
-      "summary": "Verkiezingsprogramma's, rechtsstaat en het cynisme in het debat over waardigheid."
+      "start_seconds": 290,
+      "title": "Politieke urgentie en verkiezingsprogramma's",
+      "summary": "De Graaf stelt dat partijprogramma's de waarde van de mens nauwelijks onderbouwen."
     },
     {
-      "start_seconds": 570,
-      "title": "Harari: mensenrechten als fictie",
-      "summary": "Reactie op Harari's fragment en de vraag naar een fundering."
+      "start_seconds": 569,
+      "title": "Harari en de vraag naar fictie",
+      "summary": "Een fragment van Harari over mensenrechten als verhaal wordt besproken en weerlegd."
     },
     {
-      "start_seconds": 740,
-      "title": "Romeinen en Grieken: humanitas en dignitas",
-      "summary": "Cicero en Seneca over rede, rang en waardigheid, vooral voor vrije mannen."
+      "start_seconds": 720,
+      "title": "Romeinen, Seneca en Cicero",
+      "summary": "De oudheid kende al een idee van waardigheid, maar gebonden aan rang, sekse en status."
     },
     {
-      "start_seconds": 1230,
-      "title": "Vier grondslagen van waardigheid",
-      "summary": "Natuur, God, politieke orde en rede als bronnen van waardigheid."
-    },
-    {
-      "start_seconds": 1300,
-      "title": "Beeld van God en de vroege kerk",
-      "summary": "Genesis, kerkvaders, Thomas van Aquino en zorg voor armen en kinderen."
-    },
-    {
-      "start_seconds": 1600,
-      "title": "Universalisme en Galaten 3",
-      "summary": "Over het historische begrip universalisme en het revolutionaire potentieel van Paulus."
+      "start_seconds": 1260,
+      "title": "Het christelijk beeld van God",
+      "summary": "Genesis, Gregorius van Nyssa, Tertullianus en Thomas van Aquino leggen de basis voor universele waardigheid."
     },
     {
       "start_seconds": 2024,
-      "title": "Renaissance en Verlichting",
-      "summary": "Pico della Mirandola, de opkomst van gelijkheid en Kant."
+      "title": "Renaissance, Verlichting en mensenrechten",
+      "summary": "Pico, Kant en de Amerikaanse revolutie verschuiven de grondslag naar rede en autonomie. De Sade toont de keerzijde."
+    },
+    {
+      "start_seconds": 2820,
+      "title": "Na 1948: grondwetten en verdragen",
+      "summary": "De Universele Verklaring en de Duitse grondwet verankeren waardigheid, mede met christelijke inspiratie."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Kwetsbaarheid, praktijk en slot",
+      "summary": "Het gesprek eindigt met de vraag hoe waardigheid praktisch gegarandeerd kan worden, en met de Katechismus als slotakkoord."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 173,
+      "start_seconds": 222,
       "speaker": "Beatrice de Graaf",
-      "text": "Poetin zegt: jij bent niets als individu, je volk is alles.",
-      "note": "Koppelt het onderwerp direct aan de actualiteit."
+      "text": "Poetin spreekt zijn volk toe: jij bent niets als individu, je volk is alles.",
+      "note": "Laat zien hoe waardigheid collectief kan worden gedefinieerd en zo individuele mensen kan wegcijferen."
     },
     {
-      "start_seconds": 292,
+      "start_seconds": 1270,
       "speaker": "Stefan Paas",
-      "text": "Bij de doop van zijn kleinkind werd gezegd: je bent een beeld van God, voordat je iets gepresteerd hebt.",
-      "note": "Persoonlijk en krachtig beeld van onvoorwaardelijke waardigheid."
+      "text": "Bij de doop van zijn kleinkind hoorde hij: welkom, je bent een beeld van God, voordat je iets hebt gepresteerd.",
+      "note": "Een concreet voorbeeld van waardigheid die niet verdiend hoeft te worden."
     },
     {
-      "start_seconds": 666,
-      "speaker": "Beatrice de Graaf",
-      "text": "Dat is een ontzettend domme opmerking, want mensen hebben ook een aangeboren neiging om te kunnen tellen.",
-      "note": "Scherpe reactie op Harari."
-    },
-    {
-      "start_seconds": 1000,
-      "speaker": "Stefan Paas",
-      "text": "Cicero stelde dat vrouwen een orde van schoonheid hebben en mannen een orde van waardigheid.",
-      "note": "Laat zien hoe beperkt de oude waardigheid was."
-    },
-    {
-      "start_seconds": 1807,
+      "start_seconds": 3210,
       "speaker": "David Boogerd",
-      "text": "Er zijn geen Joden of Grieken meer, slaven of vrijen, mannen of vrouwen.",
-      "note": "Radicale tekst van Paulus als voorloper van mensenrechten."
+      "text": "Benjamin Franklin schrapte het woord 'sacred' uit de onafhankelijkheidsverklaring en koos voor 'self-evident'.",
+      "note": "Symbolisch voor de vraag of waardigheid echt vanzelfsprekend is of een geloof."
+    },
+    {
+      "start_seconds": 3520,
+      "speaker": "Beatrice de Graaf",
+      "text": "Waardigheid als functie van driften, eer of rede is niet stabiel; dan kan het elke vorm aannemen.",
+      "note": "Scherpe kritiek op het funderen van waarde in prestaties of eigenschappen."
+    },
+    {
+      "start_seconds": 4180,
+      "speaker": "Stefan Paas",
+      "text": "Als AI morele afwegingen beter kan dan mensen, waar hebben we mensen dan nog voor nodig?",
+      "note": "Confronterende vraag die de grondslag van waardigheid op de proef stelt."
     }
   ],
   "keywords": [
     "menselijke waardigheid",
     "mensenrechten",
     "beeld van God",
-    "Poetin",
-    "Harari",
-    "Cicero",
-    "Seneca",
-    "Kant",
     "universalisme",
-    "Galaten 3",
-    "Renaissance",
-    "rede"
+    "Romeinse republiek",
+    "Verlichting",
+    "autonomie",
+    "Kant",
+    "christelijke traditie",
+    "Universele Verklaring 1948",
+    "individualisme",
+    "Harari"
   ],
-  "quotes": [
-    "Onder dit soort hete hangijzers gaat vaak één vraag schuil: wat is de waarde van de mens?",
-    "Kan je vanuit een strikt atheïstisch wereldbeeld een wezenlijk verschil maken tussen een mens en een mier?"
-  ],
+  "quotes": [],
   "similar": [
     {
+      "n": 92,
+      "reason": "Behandelt de christelijke oorsprong van Europese waarden, net als de waardigheidsvraag in #184"
+    },
+    {
+      "n": 148,
+      "reason": "Gaat over het failliet van het humanisme, sluit aan bij de grondslag van menselijke waarde"
+    },
+    {
+      "n": 238,
+      "reason": "Thomas van Aquino, filosofie van het goede leven en God, ook besproken in #184"
+    },
+    {
       "n": 113,
-      "reason": "Beatrice de Graaf en Paas over vrijheid als waarde, geschiedenis en christelijke wortels"
+      "reason": "Historische herkomst van het idee van vrijheid, met bijbelse en culturele wortels"
     },
     {
       "n": 122,
-      "reason": "Nietzsche en 'de dood van God': fundament van menselijke waarde en moraal"
-    },
-    {
-      "n": 209,
-      "reason": "De Graaf en Paas over het grote verhaal en de waarden van onze tijd"
-    },
-    {
-      "n": 92,
-      "reason": "Herkomst van Europese waarden in christendom en geschiedenis, met De Graaf"
-    },
-    {
-      "n": 286,
-      "reason": "Poetin, machtspolitiek en religieuze duiding van geopolitiek met De Graaf en Paas"
+      "reason": "Nietzsche en de dood van God, filosofische vraag naar fundament van moraal"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,352 +1,394 @@
 {
   "episode": 305,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 135118,
+    "segments": 1489,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30644,
-    "output_tokens": 2710,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 68975,
+    "output_tokens": 3770,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Geschiedenis",
     "Economie & geld",
-    "Bijbel & Jezus"
+    "Zingeving & psyche"
   ],
   "guests": [
     "Maarten van Rossem"
   ],
   "people": [
     {
-      "name": "Billy Graham",
-      "note": "Amerikaanse evangelist die voorging in gebed bij de inauguratie van Bush",
-      "start_seconds": 211,
-      "wiki_checked": true,
-      "wiki_pageid": 385426,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Billy_Graham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Reverend_Billy_Graham_Delivering_The_Prayer_At_the_Inauguration_of_Bill_Clinton_%28cropped%29.jpg/250px-Reverend_Billy_Graham_Delivering_The_Prayer_At_the_Inauguration_of_Bill_Clinton_%28cropped%29.jpg"
+      "name": "Maarten van Rossem",
+      "note": "historicus en gast van deze aflevering",
+      "start_seconds": 5,
+      "mention_count": 3
     },
     {
-      "name": "George H.W. Bush",
-      "note": "Amerikaanse president, inauguratie in 1989",
-      "start_seconds": 211,
-      "wiki_checked": true,
-      "wiki_pageid": 11456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_H.W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/George_H._W._Bush_presidential_portrait_%28cropped%29.jpg/250px-George_H._W._Bush_presidential_portrait_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "NAVO-secretaris-generaal die waarschuwt voor een nieuwe oorlog",
-      "start_seconds": 355,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Jan Pieterszoon Coen",
-      "note": "VOC-bestuurder, omstreden standbeeld; verantwoordelijk voor de moord op de bevolking van de Banda-eilanden",
-      "start_seconds": 492,
-      "wiki_checked": true,
-      "wiki_pageid": 43906,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg/250px-Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
-    },
-    {
-      "name": "Deng Xiaoping",
-      "note": "Chinese leider die de economische hervormingen doorvoerde",
-      "start_seconds": 663,
-      "wiki_checked": true,
-      "wiki_pageid": 89503,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Deng_Xiaoping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Deng_Xiaoping.jpg/250px-Deng_Xiaoping.jpg"
-    },
-    {
-      "name": "Mao Zedong",
-      "note": "Chinese leider, overleden in 1976",
-      "start_seconds": 663,
-      "wiki_checked": true,
-      "wiki_pageid": 20882,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mao_Zedong",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mao_Tse_Tung.jpg/250px-Mao_Tse_Tung.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 250,
+      "mention_count": 3
     },
     {
       "name": "Xi Jinping",
-      "note": "President van China",
-      "start_seconds": 1024,
-      "wiki_checked": true,
-      "wiki_pageid": 2193479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Xi_Jinping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg/250px-Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg"
+      "note": "president van China, ontmoette Trump",
+      "start_seconds": 1020,
+      "mention_count": 6
     },
     {
       "name": "Donald Trump",
-      "note": "President van de Verenigde Staten",
-      "start_seconds": 1024,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president",
+      "start_seconds": 1020,
+      "mention_count": 5
     },
     {
-      "name": "Barack Obama",
-      "note": "Voormalig Amerikaans president, sprak met Xi over de Thucydides-val",
-      "start_seconds": 1328,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "name": "Billy Graham",
+      "note": "predikant die bij inauguratie van Bush sr. bad",
+      "start_seconds": 200,
+      "mention_count": 2
     },
     {
-      "name": "Graham Allison",
-      "note": "Auteur van Destined for War over de Thucydides-val",
-      "start_seconds": 1328,
-      "wiki_checked": true,
-      "wiki_pageid": 851823,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Graham_Allison",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Graham_T._Allison%2C_Jr.jpg/250px-Graham_T._Allison%2C_Jr.jpg"
+      "name": "Deng Xiaoping",
+      "note": "Chinese leider die hervormingen startte",
+      "start_seconds": 650,
+      "mention_count": 2
     },
     {
-      "name": "Thucydides",
-      "note": "Griekse geschiedschrijver van de Peloponnesische oorlog",
-      "start_seconds": 1309,
-      "wiki_checked": true,
-      "wiki_pageid": 26099,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thucydides_%28historicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Thucydides_pushkin02.jpg/250px-Thucydides_pushkin02.jpg"
+      "name": "Mao Zedong",
+      "note": "overleden Chinese leider",
+      "start_seconds": 660,
+      "mention_count": 1
     },
     {
-      "name": "Lee Kuan Yew",
-      "note": "Oprichter van het moderne Singapore, verlichte dictator",
-      "start_seconds": 1612,
-      "wiki_checked": true,
-      "wiki_pageid": 142897,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lee_Kuan_Yew",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg/250px-Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg"
-    },
-    {
-      "name": "Paul Krugman",
-      "note": "Econoom en Nobelprijswinnaar",
-      "start_seconds": 1889,
-      "wiki_checked": true,
-      "wiki_pageid": 1430206,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Krugman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/P20230814AS-0367_%28cropped%29.jpg/250px-P20230814AS-0367_%28cropped%29.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russisch president",
+      "start_seconds": 2820,
+      "mention_count": 3
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaarse premier die de EU kan saboteren",
-      "start_seconds": 1996,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Hongaars premier, EU-dwarsligger",
+      "start_seconds": 1990,
+      "mention_count": 1
     },
     {
-      "name": "Henry Kissinger",
-      "note": "Zou hebben gevraagd wie hij in Europa moest bellen",
-      "start_seconds": 2084,
-      "wiki_checked": true,
-      "wiki_pageid": 32602,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Kissinger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Henry_A_Kissinger_%28cropped%29.jpg/250px-Henry_A_Kissinger_%28cropped%29.jpg"
+      "name": "Paul Krugman",
+      "note": "econoom en Nobelprijswinnaar",
+      "start_seconds": 1890,
+      "mention_count": 3
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlands premier/NAVO-secretaris-generaal",
+      "start_seconds": 355,
+      "mention_count": 2
+    },
+    {
+      "name": "Nigel Farage",
+      "note": "Brits politicus, Brexit-aanjager",
+      "start_seconds": 3430,
+      "mention_count": 1
+    },
+    {
+      "name": "Bas Heijne",
+      "note": "filosofisch schrijver",
+      "start_seconds": 3010,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Pieterszoon Coen",
+      "note": "VOC-gouverneur-generaal, standbeeld",
+      "start_seconds": 480,
+      "mention_count": 2
+    },
+    {
+      "name": "Lee Kuan Yew",
+      "note": "oprichter/leider van Singapore",
+      "start_seconds": 1600,
+      "mention_count": 1
     },
     {
       "name": "Angela Merkel",
-      "note": "Voormalig Duits bondskanselier",
-      "start_seconds": 2085,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "note": "Duits bondskanselier",
+      "start_seconds": 2090,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther",
+      "note": "reformator, antisemitische uitlatingen",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan van Eyck",
+      "note": "schilder",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Thucydides",
+      "note": "historicus, Peloponnesische oorlog",
+      "start_seconds": 1310,
+      "mention_count": 2
+    },
+    {
+      "name": "Wim Aantjes",
+      "note": "voormalig CDA-politicus, verleden in WA-SS",
+      "start_seconds": 4390,
+      "mention_count": 2
+    },
+    {
+      "name": "Herman van Praag",
+      "note": "psychiater, oudste eerdere gast",
+      "start_seconds": 5130,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Duitse dictator",
+      "start_seconds": 4520,
+      "mention_count": 2
+    },
+    {
+      "name": "Winston Churchill",
+      "note": "Brits premier, genoemd bij cancelcultuur",
+      "start_seconds": 450,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Lincoln",
+      "note": "Amerikaans president, genoemd bij cancelcultuur",
+      "start_seconds": 450,
+      "mention_count": 1
+    },
+    {
+      "name": "Christopher Columbus",
+      "note": "ontdekkingsreiziger, genoemd bij cancelcultuur",
+      "start_seconds": 450,
+      "mention_count": 1
+    },
+    {
+      "name": "Mona Keizer",
+      "note": "politica (Nieuw Sociaal Contract/BBB-achtergrond)",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Mario Draghi",
+      "note": "Italiaans econoom, rapport over Europese concurrentie",
+      "start_seconds": 2730,
+      "mention_count": 1
+    },
+    {
+      "name": "Mario Wennink",
+      "note": "oud-ASML CFO, rapport over Nederlandse investeringen",
+      "start_seconds": 2740,
+      "mention_count": 1
+    },
+    {
+      "name": "Clemens van den Berg",
+      "note": "historicus, onderzoek naar EU-oprichting",
+      "start_seconds": 3060,
+      "mention_count": 1
+    },
+    {
+      "name": "Andries Knevel",
+      "note": "eerdere gespreksleider van aflevering 7 jaar geleden",
+      "start_seconds": 140,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Bijbelse figuur, sabbatsdiscussie",
+      "start_seconds": 2270,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "De 21e eeuw",
       "author": "Maarten van Rossem",
-      "note": "Boek over de afgelopen vijftig jaar als strijd tussen grootmachten, beginnend in 1979",
-      "start_seconds": 553,
-      "volume_id": "FRwOEAAAQBAJ",
+      "note": "boek waarin de afgelopen 50 jaar als machtsstrijd wordt beschreven, begin in 1979",
+      "start_seconds": 590,
+      "volume_id": "kHXY0QEACAAJ",
       "canonical_title": "De 21e eeuw, die in 1979 begon",
       "canonical_author": "Maarten van Rossem",
-      "isbn13": "9789046828403",
-      "isbn10": "9046828409",
-      "thumbnail": "http://books.google.com/books/content?id=FRwOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789046835630",
+      "isbn10": "9046835634",
+      "thumbnail": ""
     },
     {
       "title": "Destined for War",
       "author": "Graham Allison",
-      "note": "Over de Thucydides-val en machtswisselingen tussen grootmachten",
-      "start_seconds": 1328,
-      "volume_id": "AfYnDwAAQBAJ",
-      "canonical_title": "Destined for War: can America and China escape Thucydides' Trap?",
-      "canonical_author": "Graham Allison",
-      "isbn13": "9781925548372",
-      "isbn10": "1925548376",
-      "thumbnail": "http://books.google.com/books/content?id=AfYnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "over de Thucydides-val en 16 casussen van wereldmachtsovername",
+      "start_seconds": 1310,
+      "volume_id": "tcG7AQAACAAJ",
+      "canonical_title": "Destined for War: Can America and China Escape Thucydide's Trap?",
+      "canonical_author": "Graham T. Allison",
+      "isbn13": "9781925322378",
+      "isbn10": "1925322378",
+      "thumbnail": "http://books.google.com/books/content?id=tcG7AQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Marcus 2:27",
-      "note": "De sabbat is er voor de mens, niet de mens voor de sabbat; besproken in verband met zondagsheiliging",
-      "start_seconds": 2273
+      "ref": "Marcus 2:23-28",
+      "note": "Jezus en de sabbat: 'is de mens er voor de sabbat of de sabbat voor de mens'",
+      "start_seconds": 2270
     }
   ],
   "places": [
     "China",
-    "Verenigde Staten",
     "Shenzhen",
-    "Guangdong",
-    "Hongkong",
-    "Taiwan",
+    "Guangzhou",
     "Singapore",
-    "Oekraïne",
-    "Iran",
     "Venezuela",
-    "Europa",
-    "België",
-    "India",
-    "Indonesië",
-    "Banda-eilanden",
-    "Sparta",
-    "Athene"
+    "Iran",
+    "Oekraïne",
+    "Salisbury",
+    "Hilversum",
+    "Amersfoort",
+    "Haarlem",
+    "Deventer",
+    "Zutphen",
+    "Laon",
+    "Dresden",
+    "Zürich",
+    "Gouda",
+    "Giethoorn",
+    "München",
+    "Taiwan",
+    "Griekenland",
+    "Engeland"
   ],
-  "summary_tldr": "Historicus Maarten van Rossem bespreekt zijn boek De 21e eeuw en de opkomst van China sinds 1979. Hij relativeert het idee van wereldheerschappij en prijst de Europese Unie als decentraal wonder. Daarnaast komen cancelcultuur, zijn ervaringen met de EO en de bijbel aan bod.",
+  "summary_tldr": "Historicus Maarten van Rossem bespreekt zijn boek over de 21e eeuw, dat volgens hem in 1979 begon met Chinese economische hervormingen, en analyseert wereldmachten, China, Amerika en de EU. Hij noemt zichzelf een ernstige agnost die het leven geen objectieve zin toekent, maar beargumenteert dat mensen die zelf moeten geven. Stefan Paas stelt daartegenover dat samenlevingen zonder grote verhalen over menswaardigheid kwetsbaar zijn voor radicale alternatieven.",
   "summary_points": [
-    "Van Rossem laat de 21e eeuw beginnen in 1979 met de Chinese economische hervormingen.",
-    "De Chinese groei kwam voort uit decentrale experimenten, provinciale concurrentie en vrije economische zones.",
-    "Wereldheerschappij van Trump of Xi noemt hij onzin; ook grootmachten hebben lemen voeten.",
-    "De Thucydides-val van Graham Allison laat zien dat machtswisselingen vaak slecht aflopen.",
-    "De EU ziet hij als groot wonder omdat niemand de baas speelt, in tegenstelling tot imperiale staten als China en de VS.",
-    "Kleine landen als Singapore, België en de Scandinavische landen doen het volgens hem erg goed.",
-    "Hij beschouwt cancelcultuur als ahistorisch en vertelt over zijn eigen cancelmomenten, onder meer na 9/11.",
-    "Hij pleit ervoor dat christenen hun Bijbel beter lezen en haalt het sabbatsverhaal aan."
+    "Van Rossem ziet de 21e eeuw beginnen in 1979 met de Chinese economische hervormingen onder Deng Xiaoping.",
+    "China's economische opkomst verklaart hij uit decentrale provincies, concurrentie en vrije economische zones.",
+    "Hij relativeert het idee van wereldheerschap en wijst op de beperkingen van zowel China als de VS.",
+    "De EU ziet hij als een groot wonder omdat niemand er de baas speelt; hij noemt de euro en EGKS als gegroeid uit angst en nood.",
+    "Van Rossem wijst een groot samenbindend verhaal voor Europa af en pleit voor pragmatisme en fatsoen.",
+    "Paas betoogt dat zonder groot verhaal over menswaardigheid anderen het veld vullen met radicale verhalen.",
+    "Van Rossem noemt het leven zinloos op zichzelf, maar betekenis ontstaat door eigen keuzes en relaties.",
+    "Het gesprek gaat over cancelcultuur, het standbeeld van Coen en het hedendaagse historisch besef.",
+    "Van Rossem beschrijft een mystieke ervaring tijdens een BBC-repetitie in Salisbury en zijn voorkeur voor kerkinterieurs."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en terugblik op cancelen",
-      "summary": "David introduceert Van Rossem. Die vertelt over zijn conflict met de EO over Billy Graham en over zijn uitspraken na 9/11."
+      "title": "Introductie en cancelcultuur",
+      "summary": "Van Rossem blikt terug op eerdere omstreden uitspraken en de verschuivende grenzen van wat sagbaar is."
     },
     {
-      "start_seconds": 442,
-      "title": "Cancelcultuur en geschiedenis",
-      "summary": "Gesprek over standbeelden zoals dat van J.P. Coen en waarom cancelen ahistorisch is."
+      "start_seconds": 590,
+      "title": "Het boek en China's opkomst",
+      "summary": "Van Rossem legt uit waarom 1979 het startpunt van de 21e eeuw is en hoe China economisch opklom."
     },
     {
-      "start_seconds": 553,
-      "title": "De 21e eeuw begint in China",
-      "summary": "Van Rossem legt uit waarom de Chinese hervormingen van 1979 de belangrijkste ontwikkeling zijn en hoe ze verliepen."
+      "start_seconds": 1020,
+      "title": "Wereldmacht en de Thucydides-val",
+      "summary": "Discussie over de Xi-Trump-top, de Thucydides-val en de relativering van wereldheerschappij."
     },
     {
-      "start_seconds": 1024,
-      "title": "Xi, Trump en wereldheerschappij",
-      "summary": "De recente top tussen Xi en Trump, de beperkte macht van grootmachten en de Thucydides-val."
+      "start_seconds": 1890,
+      "title": "Europa als wonder",
+      "summary": "Van Rossem presenteert de EU als gegroeid uit angst en pragmatisme, met de euro als voorbeeld."
     },
     {
-      "start_seconds": 1612,
-      "title": "Kleine landen en de Europese Unie",
-      "summary": "Singapore en België als succesvolle kleine landen en de EU als wonder zonder dominante leider."
+      "start_seconds": 2880,
+      "title": "Groot verhaal versus pragmatisme",
+      "summary": "Discussie of samenlevingen een groot verhaal nodig hebben; Paas pleit voor menswaardigheid als fundament."
     },
     {
-      "start_seconds": 2190,
-      "title": "Bijbel en zondagsrust",
-      "summary": "Van Rossem over christenen die hun eigen godsdienst slecht kennen en over de sabbat."
+      "start_seconds": 3720,
+      "title": "Zin van het leven",
+      "summary": "Van Rossem noemt zichzelf agnost, Paas bevraagt of alle keuzes even betekenisvol zijn."
     },
     {
-      "start_seconds": 2325,
-      "title": "Decentralisatie als rode draad",
-      "summary": "Stefan Paas legt de rode lijn bloot: decentrale macht en concurrentie werken beter dan centrale controle."
+      "start_seconds": 4380,
+      "title": "Persoonlijke verhalen en kerken",
+      "summary": "Verhalen over Wim Aantjes, de moeder van Van Rossem en de mystieke ervaring in Salisbury."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 2330,
       "speaker": "Maarten van Rossem",
-      "text": "Het leven heeft geen enkele zin, 0,0.",
-      "note": "Stellige uitspraak over zingeving, die later in het gesprek wordt uitgedaagd."
+      "text": "Het leven heeft geen enkele zin, 0,0. Het heeft zin in zoverre we die zelf te gaan geven.",
+      "note": "Kernuitspraak over zijn agnostische levensvisie."
     },
     {
-      "start_seconds": 211,
-      "speaker": "Maarten van Rossem",
-      "text": "Ik vond het een blasfemisch gebed.",
-      "note": "Over zijn kritiek op Billy Graham die tot zijn eerste cancel leidde."
+      "start_seconds": 2430,
+      "speaker": "Stefan Paas",
+      "text": "Als we weigeren een groot verhaal te vertellen, dan gaan anderen het voor je doen.",
+      "note": "Scherpe stelling die het gesprek over groot verhaal samenvat."
     },
     {
-      "start_seconds": 1065,
+      "start_seconds": 3080,
       "speaker": "Maarten van Rossem",
-      "text": "Wereldheerschappij is grotendeels wezenloos gelul.",
-      "note": "Scherpe relativering van het idee van wereldleiders."
+      "text": "De Europese Unie is praktisch net zo'n groot wonder als de Chinese economische expansie.",
+      "note": "Verrassende waardering van de EU."
     },
     {
-      "start_seconds": 1546,
+      "start_seconds": 2990,
       "speaker": "Maarten van Rossem",
       "text": "Vrijwel alle reuzen blijken lemen voeten te hebben.",
-      "note": "Kernidee over de kwetsbaarheid van grootmachten."
+      "note": "Pittige metafoor over de beperkingen van grootmachten."
     },
     {
-      "start_seconds": 2190,
+      "start_seconds": 4600,
       "speaker": "Maarten van Rossem",
-      "text": "Christenen weten bar weinig van hun eigen godsdienst.",
-      "note": "Opvallende opmerking van een ongelovige in een christelijke podcast."
+      "text": "Ik ben een gelovig christen.",
+      "note": "Ironische of provocatieve uitspraak tegenover zijn agnostische positie."
     }
   ],
   "keywords": [
-    "Maarten van Rossem",
+    "grootmachten",
     "China",
-    "1979",
-    "Thucydides-val",
     "Europese Unie",
-    "Grootmacht",
-    "Cancelcultuur",
-    "Deng Xiaoping",
-    "Singapore",
-    "Decentralisatie",
-    "Zingeving"
+    "agnosticisme",
+    "zingeving",
+    "grote verhalen",
+    "Thucydides-val",
+    "cancelcultuur",
+    "Stefan Paas",
+    "sabbat",
+    "kerkarchitectuur",
+    "secularisatie"
   ],
   "quotes": [
-    "Het leven heeft geen enkele zin, 0,0."
+    "Het leven heeft geen enkele zin, 0,0.",
+    "Vrijwel alle reuzen blijken lemen voeten te hebben.",
+    "Ik zou nog een heel aardige essay kunnen schrijven over de zinvolheid van het verzamelen van postzegels."
   ],
   "similar": [
     {
+      "n": 329,
+      "reason": "Maarten van Rossem over kantelend Amerika, populisme en een radicale Jezus"
+    },
+    {
       "n": 315,
-      "reason": "Best-of over de nieuwe wereldorde, met Maarten van Rossem, Rob de Wijk en De Graaf."
-    },
-    {
-      "n": 3,
-      "reason": "Eerder gesprek tussen Maarten van Rossem en Andries Knevel over geschiedenis en bijbel."
-    },
-    {
-      "n": 230,
-      "reason": "Rob de Wijk over nieuwe wereldorde, grootmachten Trump, Poetin en Europa."
+      "reason": "Best Of-aflevering over nieuwe wereldorde, met Maarten van Rossem en geopolitiek"
     },
     {
       "n": 248,
-      "reason": "Wie bepaalt de nieuwe wereldorde; grootmachten, Trump en geopolitiek."
+      "reason": "Gesprek over wie de nieuwe wereldorde bepaalt, met Beatrice de Graaf"
     },
     {
-      "n": 284,
-      "reason": "Terugkeer van brute machtspolitiek met Trump en Poetin; geopolitieke duiding."
+      "n": 230,
+      "reason": "Nieuwe wereldorde na Trump en Poetin, geopolitiek met Rob de Wijk"
+    },
+    {
+      "n": 285,
+      "reason": "Crisis van het Westen, geschiedenis en economie, met Ad Verbrugge"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

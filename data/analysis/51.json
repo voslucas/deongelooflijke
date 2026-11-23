@@ -1,217 +1,337 @@
 {
   "episode": 51,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 121982,
+    "segments": 1244,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31451,
-    "output_tokens": 2511,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 63075,
+    "output_tokens": 3547,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
+    "Kerk & secularisatie",
     "Samenleving & migratie",
-    "Geschiedenis"
+    "Politiek"
   ],
   "guests": [
     "Bart Jan Spruyt"
   ],
   "people": [
     {
+      "name": "Bart Jan Spruyt",
+      "note": "gast; historicus, docent reformatorisch onderwijs, voormalig betrokkene bij oprichting PVV",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
       "name": "Geert Wilders",
-      "note": "PVV-leider; Spruyt was betrokken bij de oprichting van de PVV",
-      "start_seconds": 109,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "politicus; oprichter PVV waar Spruyt aan meewerkte",
+      "start_seconds": 2880,
+      "mention_count": 6
     },
     {
-      "name": "Jan Siebelink",
-      "note": "schrijver van een boek over zijn zware reformatorische opvoeding",
-      "start_seconds": 934,
-      "wiki_checked": true,
-      "wiki_pageid": 273692,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Siebelink",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jan_Siebelink_2018.jpg/250px-Jan_Siebelink_2018.jpg"
+      "name": "Pim Fortuyn",
+      "note": "politicus die in dezelfde periode de politiek inging",
+      "start_seconds": 3480,
+      "mention_count": 1
     },
     {
-      "name": "Henk van den Belt",
-      "note": "hoogleraar in Groningen, voorheen dominee in Woudenberg",
-      "start_seconds": 1304,
-      "wiki_checked": true,
-      "wiki_pageid": 5852296,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henk_van_den_Belt"
+      "name": "Thierry Baudet",
+      "note": "politicus van Forum voor Democratie, besproken als populist",
+      "start_seconds": 3700,
+      "mention_count": 2
+    },
+    {
+      "name": "Jacques van Dijk",
+      "note": "oude hervormde dominee die kerkgangers observeerde",
+      "start_seconds": 480,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk van der Belt",
+      "note": "professor in Groningen en dominee in Woudenberg; gesprekspartner van Spruyt over eigen instituties",
+      "start_seconds": 1300,
+      "mention_count": 1
     },
     {
       "name": "Kees van der Staaij",
-      "note": "SGP-politicus, in 1998 alsnog gekozen als Kamerlid",
-      "start_seconds": 1687,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "note": "SGP-politicus, gekozen als Kamerlid in 1998",
+      "start_seconds": 1680,
+      "mention_count": 1
     },
     {
-      "name": "Abraham Kuyper",
-      "note": "negentiende-eeuwse voorman van de gereformeerde zuil, wiens instituties offensief bedoeld waren",
-      "start_seconds": 1188,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
+      "name": "Vera Bergkamp",
+      "note": "Kamervoorzitter (D66) die in roze mantelpak verscheen",
+      "start_seconds": 3120,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Kaag",
+      "note": "D66-politica (Sigrid Kaag) die geen samenwerking met ChristenUnie wilde",
+      "start_seconds": 3165,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "GroenLinks-politica met wie Spruyt sprak over zijn PVV-periode",
+      "start_seconds": 3560,
+      "mention_count": 1
+    },
+    {
+      "name": "Ella Vogelaar",
+      "note": "voormalig minister die door Rutger Castricum ten val werd gebracht",
+      "start_seconds": 2050,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Castricum",
+      "note": "Hofbar-presentator; genoemd in verband met Vogelaar",
+      "start_seconds": 2030,
+      "mention_count": 1
+    },
+    {
+      "name": "Karl Marx",
+      "note": "filosoof; genoemd in verband met wantrouwen tegen macht",
+      "start_seconds": 2960,
+      "mention_count": 1
+    },
+    {
+      "name": "John Stuart Mill",
+      "note": "filosoof van het liberalisme",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Plasterk",
+      "note": "toenmalig minister van Onderwijs (PvdA)",
+      "start_seconds": 4100,
+      "mention_count": 1
+    },
+    {
+      "name": "Wybren van Haga",
+      "note": "politicus die op de Bijbelbelt veel stemmen trok",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Andreas Kinneging",
+      "note": "filosoof en gastspreker over conservatisme",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Stijn Vens",
+      "note": "journalist van Trouw die op Urk was",
+      "start_seconds": 2490,
+      "mention_count": 1
+    },
+    {
+      "name": "Dominee Kort",
+      "note": "predikant in Krimpen aan den IJssel wiens brief voor onrust zorgde",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Soros",
+      "note": "figuur die als complotobject werd genoemd",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Gates",
+      "note": "figuur die als complotobject werd genoemd",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Siebelink",
+      "note": "schrijver van boek over zware reformatorische opvoeding",
+      "start_seconds": 910,
+      "mention_count": 1
     },
     {
       "name": "Ewout van Bentum",
-      "note": "schaatser die in de jaren 80 twee keer de Elfstedentocht won",
-      "start_seconds": 1760,
-      "wiki_checked": true
+      "note": "schaatser die Elfstedentocht won",
+      "start_seconds": 1770,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Van der Hulst en Vreugdenhil kinderbijbels",
+      "author": "Van der Hulst en Vreugdenhil",
+      "note": "kinderbijbels die zijn moeder voorlas",
+      "start_seconds": 330
+    },
+    {
+      "title": "Het boek van Siebelink",
+      "author": "Jan Siebelink",
+      "note": "boek over zware reformatorische opvoeding",
+      "start_seconds": 910,
+      "volume_id": "ZqAaAQAAMAAJ",
+      "canonical_title": "Het gat in de heg",
+      "canonical_author": "Jan Siebelink",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=ZqAaAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
   "bible_refs": [
     {
       "ref": "Psalm 130",
-      "note": "genoemd als beeld van de diepte van ellende en de ervaring van Gods liefde",
-      "start_seconds": 548
+      "note": "geciteerd over diep ervaren van Gods liefde vanuit ellende",
+      "start_seconds": 540
+    },
+    {
+      "ref": "Romeinen 13",
+      "note": "overheid is door God ingesteld, gehoorzaamheid aan overheid",
+      "start_seconds": 3090
     }
   ],
   "places": [
     "Urk",
     "Krimpen aan den IJssel",
     "Rotterdam",
-    "Amsterdam",
-    "Barneveld",
-    "Jeruzalem",
+    "Amersfoort",
     "Gouda",
     "Woudenberg",
-    "Amersfoort",
+    "Staphorst",
+    "Opheusden",
+    "Jeruzalem",
+    "Barneveld",
+    "IJsselstein",
+    "Amsterdam",
     "Saoedi-Arabië",
     "Kralingen"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met historicus Bart Jan Spruyt over waarom de reformatorische zuil beter weerstand biedt aan secularisatie dan andere kerken. Ze bespreken de defensieve houding sinds de jaren 60, de risico's van het leven achter de dijk en de spanning tussen bevindelijke ernst en assertief gedrag naar buiten. Ook komen de invloed van smartphones, de discussies over homoseksualiteit en schriftgezag, en de krimpende gezinnen aan bod.",
+  "summary_tldr": "Bart Jan Spruyt, historicus en voormalig betrokkene bij de PVV, bespreekt met David Boogerd en Stefan Paas waarom reformatorische kerken de secularisatie langer weerstaan. Het gesprek behandelt de defensieve, institutionele 'zuil' van de refo's, de spanning met de seculiere meerderheid en de recente incidenten op Urk en in Krimpen. Ook komen populisme, complotdenken en de vraag naar weerbaarheid aan bod.",
   "summary_points": [
-    "De reformatorische zuil verzet zich tegen secularisatie en groeide tot voor kort, terwijl andere kerken krimpen.",
-    "De kern van de reformatorische vroomheid is de vreze Gods: eerbied, besef van zonde en genade, en relativering van aardse dingen.",
-    "De zuil is sinds eind jaren 60 defensief opgebouwd als reactie op de culturele revolutie, met eigen scholen, krant en partij.",
-    "Het leven achter de dijk biedt bescherming maar kan de interne weerbaarheid en het gesprek met andersdenkenden verzwakken.",
-    "Studenten die voor het eerst buiten de eigen zuil komen maken een culturele schok mee.",
-    "Smartphone en sociale media doorbreken de informatiedijk en brengen discussies over homoseksualiteit, schriftgezag en schepping in de kerken.",
-    "De reformatorische wereld is diverser dan van buitenaf lijkt: sommigen schuiven mee, anderen radicaliseren, een grote middengroep zoekt.",
-    "Kleinere gezinnen laten nu voor het eerst ledenverlies zien, dat eerder door hoge geboortecijfers werd gecamoufleerd.",
-    "Het secularisatieframe, dat ook de refowereld vanzelf zal ondergaan, noemt Spruyt een self-fulfilling prophecy."
+    "Reformatorische kerken verliezen minder leden dan de rest van christelijk Nederland, en sommige groeiden tot voor kort nog.",
+    "De refo-zuil is na 1968 defensief opgebouwd met eigen scholen, krant, partij en instellingen.",
+    "Spruyt en Paas waarschuwen dat een te dichte dijk de interne weerbaarheid en ontwikkeling van geloof kan ondermijnen.",
+    "Gezinnen worden kleiner, waardoor het ledenverlies zichtbaar wordt.",
+    "Incidenten op Urk en in Krimpen worden besproken, met de nuance dat deze niet representatief zijn.",
+    "Corona-maatregelen en gevoeligheid voor complotdenken speelden een rol in de spanningen.",
+    "Spruyt blikt terug op zijn betrokkenheid bij de PVV, die hij als grote fout ziet.",
+    "Discussie over homoseksualiteit op reformatorische scholen en het gezag van de Bijbel komt steeds sterker naar voren.",
+    "Paas benadrukt diversiteit en de morele verplichting van de meerderheid om minderheden te begrijpen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en aanleiding",
-      "summary": "Introductie van het thema en de recente incidenten op Urk en in Krimpen aan den IJssel."
+      "title": "Introductie en het onderwerp",
+      "summary": "Boogerd introduceert Spruyt en de vraag waarom refo's de secularisatie weerstaan."
     },
     {
-      "start_seconds": 183,
-      "title": "De nuttige idioot en een weg naar de refowereld",
-      "summary": "Spruyt vertelt over zijn positie, zijn niet-kerkelijke achtergrond en hoe hij de reformatorische wereld ontdekte."
-    },
-    {
-      "start_seconds": 385,
-      "title": "Vreze Gods, somberheid en humor",
-      "summary": "Over de kern van reformatorisch geloof, de relativering van het aardse en de combinatie van ernst en lach."
-    },
-    {
-      "start_seconds": 605,
-      "title": "Stefan Paas en de refocultuur",
-      "summary": "Paas schetst zijn achtergrond en hoe identiteitsmarkers als kleding pas in de jaren 60 en 70 werden aangescherpt."
+      "start_seconds": 300,
+      "title": "Spruyts achtergrond en de vreze Gods",
+      "summary": "Spruyt vertelt hoe hij in de reformatorische wereld terechtkwam en over het besef van Gods heiligheid."
     },
     {
       "start_seconds": 1000,
-      "title": "De zuil als bolwerk achter de dijk",
-      "summary": "Het ontstaan van de reformatorische instituties als defensieve reactie op de jaren 60 en de vraag naar weerbaarheid."
+      "title": "Refo-zuil en de dijk",
+      "summary": "Discussie over de verzuiling, de defensieve opbouw na 1968 en de spanning tussen bescherming en weerbaarheid."
     },
     {
-      "start_seconds": 1620,
-      "title": "Smartphone, media en nieuwe discussies",
-      "summary": "De dijk van informatie brokkelt af en onderwerpen als homoseksualiteit en schriftgezag dringen door."
+      "start_seconds": 1900,
+      "title": "Urk, Krimpen en de incidenten",
+      "summary": "Bespreking van de confrontaties met journalisten en het wantrouwen tegenover instituties."
     },
     {
-      "start_seconds": 2100,
-      "title": "Toekomst: secularisatie, krimp en aantallen",
-      "summary": "Of de refowereld de secularisatie zal volgen, de rol van kleinere gezinnen en het aantal mensen binnen de zuil."
+      "start_seconds": 2900,
+      "title": "Populisme en Spruyts PVV-periode",
+      "summary": "Spruyt reflecteert op zijn samenwerking met Wilders en de aantrekkingskracht van populisme."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Diversiteit en tolerantie",
+      "summary": "Paas en Spruyt bespreken liberalisme, tolerantie en de waarde van diversiteit."
+    },
+    {
+      "start_seconds": 4700,
+      "title": "Lessen uit de refo-wereld en afsluiting",
+      "summary": "Levensernst, soberheid en ecologie komen aan bod; afsluiting met promotie van Dit is de Bijbel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 3,
+      "start_seconds": 1330,
+      "speaker": "Bart Jan Spruyt",
+      "text": "Als je een dijk optrekt tussen jou en de rest van de samenleving... dat biedt zoveel bescherming dat je je kunt afvragen hoe het staat met de interne weerbaarheid.",
+      "note": "Kernbeeld van het gesprek over de refo-zuil als bescherming versus isolement."
+    },
+    {
+      "start_seconds": 2180,
       "speaker": "Bart Jan Spruyt",
       "text": "Als je een jaar lang niet naar de kerk gaat, lijdt je magerte aan je ziel.",
-      "note": "Beeldende opening over de coronatijd en kerkgang."
+      "note": "Een persoonlijk en beeldend moment over het belang van fysieke gemeenschap tijdens corona."
     },
     {
-      "start_seconds": 1488,
-      "speaker": "Stefan Paas",
-      "text": "Voor je het weet, wordt die dijk ondoordringbaar. Zitten er geen sluizen meer in, verfrist het niet.",
-      "note": "Scherp beeld van het risico van een gesloten zuil."
-    },
-    {
-      "start_seconds": 1120,
+      "start_seconds": 3560,
       "speaker": "Bart Jan Spruyt",
-      "text": "Ze konden bij wijze van spreken de wiet opsnuiven terwijl ze zaten te vergaderen.",
-      "note": "Grappige tegenstelling tussen Kralingen 1968 en de oprichting van de eerste reformatorische middelbare school."
+      "text": "Populist laat zich niet bijsturen.",
+      "note": "Scherpe kanttekening over populistische leiders en de PVV-ervaring."
     },
     {
-      "start_seconds": 1687,
-      "speaker": "Bart Jan Spruyt",
-      "text": "Zei heel veel mensen: nee hoor, want in het RD staat dat ze 2 zetels hebben.",
-      "note": "Anekdote over informatie binnen de zuil en de verkiezing van Kees van der Staaij."
-    },
-    {
-      "start_seconds": 2307,
+      "start_seconds": 4420,
       "speaker": "Stefan Paas",
-      "text": "Als je 8 kinderen hebt en 5 geloven er niet meer, dan heb je nog altijd 3 over.",
-      "note": "Verklaart waarom de ledenkrimp pas nu zichtbaar wordt."
+      "text": "Ik heb een ontzettende hekel aan uniformering.",
+      "note": "Pleidooi voor diversiteit en het zien van refo's als deel van een divers Nederland."
+    },
+    {
+      "start_seconds": 4130,
+      "speaker": "Stefan Paas",
+      "text": "Dan wordt het pure sociologie... het ontwikkelt niet meer.",
+      "note": "Waarschuwing dat instituties hun geloofsgrond kunnen verliezen."
     }
   ],
   "keywords": [
-    "reformatorische zuil",
     "secularisatie",
-    "vreze Gods",
-    "bevindelijkheid",
-    "SGP",
-    "Reformatorisch Dagblad",
-    "schriftgezag",
-    "weerbaarheid",
+    "reformatorisch",
     "verzuiling",
-    "Bart Jan Spruyt",
+    "vreze Gods",
+    "bevindelijk",
+    "PVV",
+    "populisme",
+    "complotdenken",
+    "weerbaarheid",
+    "diversiteit",
+    "tolerantie",
     "Urk"
   ],
   "quotes": [
-    "Een gesprek met Bart Jan Spruyt en Stefan Paas over de vreze Gods, je terugtrekken achter de dijken en waarom je met refo's de beste gesprekken hebt."
+    "Als je een jaar lang niet naar de kerk gaat, lijdt je magerte aan je ziel.",
+    "Ik heb geen enkele behoefte om die groep te verheerlijken.",
+    "Ik heb een ontzettende hekel aan uniformering."
   ],
   "similar": [
     {
-      "n": 311,
-      "reason": "Predikant uit de Gereformeerde Gemeenten over geloof, kerk en gereformeerde wereld."
+      "n": 56,
+      "reason": "Orthodoxe christenen en radicale populisten; sluit aan bij refo-politiek en populisme"
     },
     {
       "n": 222,
-      "reason": "Kees van der Staaij (SGP) over christelijke politiek en samenleving; gedeelde besproken persoon."
+      "reason": "Kees van der Staaij over populisme, polarisatie en de rechtsstaat; refo-politicus"
     },
     {
-      "n": 148,
-      "reason": "Gaat over SGP'ers en de reformatorische wereld, met Arnon Grunberg."
+      "n": 45,
+      "reason": "Secularisatie van de Nederlandse politiek; christelijke partijen en hun teruggang"
     },
     {
-      "n": 218,
-      "reason": "Kees van Ekris over secularisatie, kerk en de mythes daaromheen."
+      "n": 2,
+      "reason": "Baudet, populisme en de kerk; gedeelde figuur Baudet en kerk-politiek thema"
     },
     {
-      "n": 253,
-      "reason": "Gaat over de vraag of Nederland weer christelijker wordt en over kerkgroei."
+      "n": 170,
+      "reason": "Wilders en de verrechtsing van Nederland; gedeelde figuur Wilders en populisme"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

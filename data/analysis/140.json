@@ -1,147 +1,216 @@
 {
   "episode": 140,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 99808,
+    "segments": 1006,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31489,
-    "output_tokens": 2267,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 52012,
+    "output_tokens": 2898,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "God & geloof",
+    "Geopolitiek & oorlog",
+    "Zingeving & psyche",
     "Wetenschap & kosmos",
-    "Bijbel & Jezus",
-    "Kerk & secularisatie"
+    "God & geloof"
   ],
   "guests": [
     "Dick Kruijthoff"
   ],
   "people": [
     {
+      "name": "Dick Kruijthoff",
+      "note": "huisarts en promovendus; onderzoeker van gebedsgenezing",
+      "start_seconds": 2,
+      "mention_count": 1
+    },
+    {
       "name": "Janneke Vlot",
-      "note": "patiënt van Kruijthoff die na gebed genas van posttraumatische dystrofie",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "note": "patiënte met posttraumatische dystrofie die na gebed genas",
+      "start_seconds": 186,
+      "mention_count": 3
     },
     {
       "name": "Jan Zijlstra",
-      "note": "christelijke gebedsgenezer bij wiens dienst Janneke Vlot genas",
+      "note": "christelijke gebedsgenezer",
       "start_seconds": 216,
-      "wiki_checked": true,
-      "wiki_pageid": 874757,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Zijlstra"
-    },
-    {
-      "name": "Candy Gunther Brown",
-      "note": "onderzoekster, auteur van een Harvard-studie naar genezingsclaims",
-      "start_seconds": 636,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Paolo Zacchia",
-      "note": "hofarts van de paus die criteria opstelde voor wonderbaarlijke genezingen",
-      "start_seconds": 741,
-      "wiki_checked": true
+      "note": "hofarts van de paus die de criteria voor Lourdes opstelde",
+      "start_seconds": 740,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigrid Abma",
+      "note": "supervisor van het onderzoek; pleit voor horizontale epistemologie",
+      "start_seconds": 3030,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrea Evers",
+      "note": "hoogleraar en autoriteit op het gebied van placeboeffecten (Leiden)",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "noemde conversiestoornissen hysterische verlammingen",
+      "start_seconds": 2770,
+      "mention_count": 1
+    },
+    {
+      "name": "Gunther Brown",
+      "note": "auteur van studie naar genezingsclaims (Harvard University Press)",
+      "start_seconds": 660,
+      "mention_count": 1
+    },
+    {
+      "name": "Wouter van Noort",
+      "note": "wetenschapper en columnist bij NRC",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Bernardo Kastrup",
+      "note": "filosoof die eerder in de podcast te gast was over bewustzijn",
+      "start_seconds": 4000,
+      "mention_count": 1
+    },
+    {
+      "name": "Heino Falcke",
+      "note": "wetenschapper eerder in de podcast over oerknal en heelal",
+      "start_seconds": 4030,
+      "mention_count": 1
+    },
+    {
+      "name": "Hieke Huisstra",
+      "note": "schrijver van de Trouw-column over voorspelbaarheid en genezing",
+      "start_seconds": 3530,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Jonge",
+      "note": "voormalig minister van Volksgezondheid, aangekondigd als gast voor de preek van de leek",
+      "start_seconds": 4170,
+      "mention_count": 1
+    },
+    {
+      "name": "Van der Kooij",
+      "note": "sprak slotrede bij promotie van Kruijthoff",
+      "start_seconds": 3480,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Healing after Prayer, an interdisciplinary case study",
       "author": "Dick Kruijthoff",
-      "note": "promotieonderzoek naar vermeend wonderbaarlijke genezingen",
-      "start_seconds": 1200
+      "note": "promotieonderzoek naar genezingen na gebed",
+      "start_seconds": 2,
+      "start_seconds_override": null
+    },
+    {
+      "title": "Geneest God? Empirie en theologie bij gebedsgenezing",
+      "author": "Stefan Paas",
+      "note": "artikel over gebedsgenezing",
+      "start_seconds": 4330
     }
   ],
   "bible_refs": [],
   "places": [
-    "Amsterdam",
     "Lourdes",
     "Alblasserwaard",
-    "Rotterdam",
+    "Amsterdam",
     "Oostenrijk",
-    "Amerika"
+    "Erasmus MC"
   ],
-  "summary_tldr": "Huisarts Dick Kruijthoff onderzocht twaalf jaar lang vermeend wonderbaarlijke genezingen na gebed, te beginnen met de genezing van zijn patiënt Janneke Vlot. Van 83 aanmeldingen bleven 27 casussen over, waarvan 11 als 'medisch opmerkelijk' werden beoordeeld. Samen met Stefan Paas bespreken ze placebo, de rol van geloof en wat het onderzoek wel en niet kan bewijzen.",
+  "summary_tldr": "Huisarts Dick Kruijthoff onderzocht twaalf jaar lang vermeende wonderbaarlijke genezingen na gebed, geïnspireerd door een patiënte die plotseling genas. Van 83 aanmeldingen bleven 27 cases over, waarvan 11 als medisch opmerkelijk werden aangemerkt, met een opvallend patroon van plotselinge genezing en ervaringen van warmte. Stefan Paas en David Boogerd bespreken wat dit betekent voor wetenschap, placebo en geloof.",
   "summary_points": [
-    "In 2007 genas Kruijthoff's patiënt Janneke Vlot plotseling van ernstige posttraumatische dystrofie na een gebedsdienst.",
-    "Eerdere gerandomiseerde gebedsonderzoeken in Amerika vonden geen significant effect en zijn methodologisch problematisch.",
-    "Kruijthoff koos voor een casusbenadering naar het model van Lourdes, met een medisch comité van vijf specialisten.",
-    "Van 83 aanmeldingen bleven 27 casussen over, waarvan 11 het predicaat 'medisch opmerkelijk' kregen.",
-    "Opvallend zijn de plotselinge genezing, de tijdsrelatie met gebed en ervaringen van warmte, aanraking en sterke emoties.",
-    "Bij MS, Parkinson en doofheid bleven scans en audiogrammen afwijkend terwijl patiënten zich genezen voelden.",
-    "Het geloofsniveau of de verwachting van mensen bleek geen voorspeller van genezing; veel genezingen gebeurden onverwacht.",
-    "Placebo verklaart de plotselinge en onverwachte genezingen niet goed, maar wordt voor sommige gevallen niet uitgesloten.",
-    "Het onderzoek bewijst geen goddelijk ingrijpen; wel is het pastoraal van belang dat gebrek aan geloof geen oorzaak van uitblijvende genezing is."
+    "Kruijthoff raakte geïntrigeerd na de genezing van Janneke Vlot in 2007 na gebed bij Jan Zijlstra.",
+    "Randomized gebedsstudies in de VS toonden geen significant effect, maar kenden methodologische kritiek.",
+    "Kruijthoff koos een aanpak naar het model van Lourdes met een panel van vijf medische specialisten.",
+    "Van 83 aanmeldingen bleven 27 cases over na strenge medische selectie; 11 werden medisch opmerkelijk genoemd.",
+    "Opvallend is de plotselinge aard van de genezingen en het terugkerende patroon van warmte en aanraking.",
+    "Placebo wordt besproken, maar Kruijthoff stelt dat plotselinge, onverwachte genezing daar niet goed bij past.",
+    "Paas wijst op de streeptheologie en de vraag of wonderen in een geseculariseerde wereld terugkeren.",
+    "Het gesprek behandelt ook de grenzen van de wetenschappelijke blik en het belang van ervaringen van patiënten.",
+    "Paas vertelt over zijn eigen ervaring met een warme stroom tijdens gebed in de bergen.",
+    "Aflevering eindigt met aankondiging van een gesprek met Hugo de Jonge over de preek van de leek."
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Aanleiding: de genezing van Janneke Vlot",
-      "summary": "Kruijthoff vertelt hoe de genezing van zijn patiënt in 2007 hem aanzette tot onderzoek."
+      "start_seconds": 0,
+      "title": "Inleiding en de casus Janneke Vlot",
+      "summary": "Boogerd introduceert Kruijthoff en vertelt over de plotselinge genezing van Janneke Vlot na gebed."
     },
     {
-      "start_seconds": 516,
-      "title": "Scepsis en Lourdes",
-      "summary": "Paas en Kruijthoff delen hun scepsis en bespreken het onderzoek naar genezingsclaims in Lourdes."
+      "start_seconds": 780,
+      "title": "Literatuur en het Lourdes-model",
+      "summary": "Kruijthoff bespreekt randomized studies en de Lourdes-systematiek die als basis voor het onderzoek diende."
     },
     {
-      "start_seconds": 796,
-      "title": "Opzet van het onderzoek",
-      "summary": "Van literatuuronderzoek en gebedsstudies naar een comité van vijf artsen dat 83 aanmeldingen beoordeelt."
+      "start_seconds": 1100,
+      "title": "Opzet van het onderzoek en selectie",
+      "summary": "83 aanmeldingen, medisch panel, selectiecriteria en de 11 medisch opmerkelijke gevallen."
     },
     {
-      "start_seconds": 1224,
-      "title": "Medisch opmerkelijke gevallen",
-      "summary": "Elf casussen met onder meer MS, Parkinson, hepatitis, anorexia en doofheid vallen op door hun plotselinge verloop."
+      "start_seconds": 1560,
+      "title": "Patronen, placebo en ervaringen",
+      "summary": "Plotselinge genezing, warmte en aanraking, en de discussie over placebo en verwachting."
     },
     {
-      "start_seconds": 1860,
-      "title": "Ervaringen en de persoonlijke ervaring van Paas",
-      "summary": "Warmte, aanraking en emoties komen terug; Paas vertelt over zijn eigen knie-ervaring in de bergen."
+      "start_seconds": 2600,
+      "title": "Theologische reflectie en wereldbeeld",
+      "summary": "Paas en Kruijthoff bespreken streeptheologie, mysterie en de confrontatie met een modern wereldbeeld."
     },
     {
-      "start_seconds": 2100,
-      "title": "Geloof, setting en verwachting",
-      "summary": "De meeste genezingen vonden buiten gebedsdiensten plaats en geloof lijkt geen voorwaarde."
+      "start_seconds": 3500,
+      "title": "Reacties van artsen en wetenschappelijke openheid",
+      "summary": "Artsen weggeredeneerd, mogelijke omvang van ongemak, en parallellen met andere wetenschappers in de podcast."
     },
     {
-      "start_seconds": 2460,
-      "title": "Placebo en interpretatie",
-      "summary": "Kruijthoff legt uit waarom placebo de plotselinge, onverwachte genezingen maar beperkt verklaart."
+      "start_seconds": 4150,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Show notes en aankondiging van de aflevering met Hugo de Jonge."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1426,
+      "start_seconds": 2150,
       "speaker": "Dick Kruijthoff",
-      "text": "Een mevrouw met MS werd wakker en voelde zich genezen, terwijl de MRI-plekken er nog precies zo zaten.",
-      "note": "Discrepantie tussen scan en ervaring."
+      "text": "Wat je bij placebo niet verwacht, is dat iemand plots geneest.",
+      "note": "Kernargument van het onderzoek tegen een placebo-verklaring."
     },
     {
-      "start_seconds": 1771,
-      "speaker": "Dick Kruijthoff",
-      "text": "Een dove vrouw hoorde 's nachts in haar tent voor het eerst schoenen in het grind knisperen.",
-      "note": "Treffend beeld bij doofheidsgenezing met onveranderd audiogram."
-    },
-    {
-      "start_seconds": 2020,
+      "start_seconds": 3150,
       "speaker": "Stefan Paas",
-      "text": "Ik voelde een warme stroom door mijn knie gaan en kon de berg aflopen.",
-      "note": "Persoonlijke ervaring van de sceptische theoloog."
+      "text": "Zo'n geloof, zo'n theologie maakt mensen echt kapot.",
+      "note": "Persoonlijke, kritische reflectie op gebedsverwachtingen na een overlijden."
     },
     {
-      "start_seconds": 2347,
+      "start_seconds": 3300,
       "speaker": "Dick Kruijthoff",
-      "text": "De mate van geloof lijkt niet belangrijk te zijn voor genezing.",
-      "note": "Pastoraal relevante bevinding."
+      "text": "Een raadsel kun je oplossen, maar dat is dit niet. Het andere woord is geheimenis.",
+      "note": "Filosofische onderscheiding die het onderzoek in een breder kader plaatst."
     },
     {
-      "start_seconds": 2420,
+      "start_seconds": 2960,
+      "speaker": "Stefan Paas",
+      "text": "Maar dan is het wel een God, blijkbaar, die ook gewoon vluchtelingen in de Middellandse Zee laat verdrinken.",
+      "note": "Scherpe theologische vraag over het goddelijk handelen."
+    },
+    {
+      "start_seconds": 2500,
       "speaker": "Dick Kruijthoff",
-      "text": "Iedereen ziet God als de enige verklaring; het is overweldigend.",
-      "note": "Hoe genezen mensen hun ervaring duiden."
+      "text": "Ik heb 40 jaar als arts ongeveer 200.000 contacten gehad, en een paar van dit soort gevallen.",
+      "note": "Nuchter perspectief op de zeldzaamheid van de verschijnselen."
     }
   ],
   "keywords": [
@@ -149,36 +218,37 @@
     "wonder",
     "placebo",
     "Lourdes",
-    "posttraumatische dystrofie",
     "medisch opmerkelijk",
+    "horizontale epistemologie",
+    "streeptheologie",
+    "geheimenis",
     "Janneke Vlot",
     "Jan Zijlstra",
-    "casusonderzoek",
-    "verwachting",
-    "genezing",
-    "Vrije Universiteit"
+    "wetenschap en geloof"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 262,
-      "reason": "Wetenschap en bovennatuurlijke ervaring: bijna-doodervaring en de vraag wat er voorbij het meetbare is."
-    },
-    {
-      "n": 244,
-      "reason": "Godservaring bij ziekte die iemands kijk op geloof en wetenschap op z'n kop zet."
+      "n": 129,
+      "reason": "Wetenschap en geloof: nieuwe ontdekkingen laten zien dat er meer is; Wouter van Noort wordt genoemd."
     },
     {
       "n": 282,
-      "reason": "Hersenwetenschapper over religie als hersenspinsel, bijna-doodervaringen en wat wetenschap kan verklaren."
+      "reason": "Hersenwetenschap, religie en bijna-doodervaringen, met Stefan Paas; sterke overlap met wetenschap en geloof."
     },
     {
-      "n": 129,
-      "reason": "Nieuwe wetenschappelijke ontdekkingen die laten zien dat er méér is dan het materiële."
+      "n": 171,
+      "reason": "Zingeving en psyche gecombineerd met wetenschappelijk onderzoek naar gezondheid en welzijn."
     },
     {
-      "n": 280,
-      "reason": "Kritisch, detectiveachtig onderzoek naar betrouwbaarheid van bronnen over Jezus."
+      "n": 164,
+      "reason": "Wetenschappelijk mysterie van bewustzijn, met Stefan Paas; raakt aan de grenzen van wetenschap."
+    },
+    {
+      "n": 322,
+      "reason": "Kosmos, wetenschap en God; Heino Falcke wordt ook genoemd in deze aflevering."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

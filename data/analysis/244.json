@@ -1,11 +1,16 @@
 {
   "episode": 244,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 80848,
+    "segments": 909,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31818,
-    "output_tokens": 2709,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 42776,
+    "output_tokens": 6211,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -19,67 +24,47 @@
   ],
   "people": [
     {
-      "name": "Lieke Marsman",
-      "note": "schrijfster en voormalig Dichter des Vaderlands, ongeneeslijk ziek, auteur van 'Op een andere planeet kunnen ze me redden'",
-      "start_seconds": 49,
-      "wiki_checked": true,
-      "wiki_pageid": 4016174,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lieke_Marsman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lieke_Marsman_%2814670029546%29_%28cropped%29.jpg/250px-Lieke_Marsman_%2814670029546%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Christian Wiman",
-      "note": "Amerikaanse dichter met kanker die zijn weg terugvindt naar het christendom",
-      "start_seconds": 1484,
-      "wiki_checked": true
+      "name": "Christian Wyman",
+      "note": "Christelijke dichter met kanker; schreef het boek Mijn heldere afgrond, dat Marsman als keerpunt las",
+      "start_seconds": 1475,
+      "mention_count": 9
     },
     {
       "name": "Giacomo Leopardi",
-      "note": "Italiaanse dichter en denker, geciteerd uit de Zibaldone aan het eind van het boek",
-      "start_seconds": 1120,
-      "wiki_checked": true,
-      "wiki_pageid": 745109,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giacomo_Leopardi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Leopardi%2C_Giacomo_%281798-1837%29_-_ritr._A_Ferrazzi%2C_Recanati%2C_casa_Leopardi.jpg/250px-Leopardi%2C_Giacomo_%281798-1837%29_-_ritr._A_Ferrazzi%2C_Recanati%2C_casa_Leopardi.jpg"
+      "note": "Italiaans dichter/denker; Cibaldone wordt aangehaald over de confrontatie met de dood",
+      "start_seconds": 1121,
+      "mention_count": 1
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "genoemd als voorbeeld van oorlogsdreiging die we denken te ontlopen",
-      "start_seconds": 1219,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Bernardo Kastrup",
+      "note": "Filosoof die het analytisch idealisme verdedigt; bij Boogerd eerder te gast",
+      "start_seconds": 3001,
+      "mention_count": 2
+    },
+    {
+      "name": "William James",
+      "note": "Filosoof en psycholoog; The Will to Believe over geloof als relatie met een goddelijke werkelijkheid",
+      "start_seconds": 3445,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "genoemd als voorbeeld van wereldse dreiging",
-      "start_seconds": 1219,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president; genoemd als voorbeeld van dreiging die Nederlanders onderschatten",
+      "start_seconds": 1187,
+      "mention_count": 1
     },
     {
-      "name": "Paus Franciscus",
-      "note": "genoemd in verband met doorbehandelen bij een zware longontsteking",
-      "start_seconds": 1084,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russisch president; genoemd bij de raketten als voorbeeld van oorlog die ver weg lijkt",
+      "start_seconds": 1187,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Op een andere planeet kunnen ze me redden",
       "author": "Lieke Marsman",
-      "note": "het nieuwe boek over ziekte, dood, God-ervaring en ufo's",
+      "note": "Het nieuwe boek van Marsman over ziekte, God, bijna-doodervaringen en UFO's",
       "start_seconds": 49,
       "volume_id": "ZVRUzwEACAAJ",
       "canonical_title": "Op een andere planeet kunnen ze me redden",
@@ -90,166 +75,171 @@
     },
     {
       "title": "Mijn heldere afgrond",
-      "author": "Christian Wiman",
-      "note": "boek van een dichter met kanker dat Marsman diep raakte",
-      "start_seconds": 1525,
+      "author": "Christian Wyman",
+      "note": "Memoir over kanker en de terugkeer naar het christendom; Marsman las het op het juiste moment",
+      "start_seconds": 1516,
       "volume_id": "WVZdjwEACAAJ",
-      "canonical_title": "Mijn heldere afgrond: overpeinzingen van een moderne gelovige",
+      "canonical_title": "Mijn heldere afgrond",
       "canonical_author": "Christian Wiman",
       "isbn13": "9789460050350",
       "isbn10": "9460050352",
       "thumbnail": ""
     },
     {
-      "title": "Zibaldone",
+      "title": "Cibaldone",
       "author": "Giacomo Leopardi",
-      "note": "geciteerd aan het eind van haar boek over algemene regels die persoonlijk waar blijken",
-      "start_seconds": 1120,
-      "volume_id": "wSJhEAAAQBAJ",
-      "canonical_title": "Zibaldone: The Notebooks of Leopardi",
-      "canonical_author": "Giacomo Leopardi",
-      "isbn13": "9780141962009",
-      "isbn10": "0141962003",
-      "thumbnail": "http://books.google.com/books/content?id=wSJhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Aangehaald over hoe mensen verrast worden door hun eigen sterfelijkheid",
+      "start_seconds": 1121
     },
     {
-      "title": "Reden op aarde",
-      "author": "Stefan Paas",
-      "note": "Paas' boek, door Marsman gelezen, begint met zijn eigen Godservaring",
-      "start_seconds": 2388
+      "title": "The Will to Believe",
+      "author": "William James",
+      "note": "Besproken over geloof, nabijheid en het gunnen van geloof",
+      "start_seconds": 3445,
+      "volume_id": "RQ46vgAACAAJ",
+      "canonical_title": "The Will to Believe",
+      "canonical_author": "William James",
+      "isbn13": "9781537445984",
+      "isbn10": "1537445987",
+      "thumbnail": "http://books.google.com/books/content?id=RQ46vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Veluwe",
     "Nederland",
-    "Zuid-Europa",
-    "Amerika"
+    "Zuid-Europa"
   ],
-  "summary_tldr": "Lieke Marsman, ongeneeslijk ziek van kanker, vertelt hoe ze strijdbaar haar eigen weg koos in de medische behandeling. Tijdens een wandeling op de Veluwe kreeg ze een ervaring van God die haar atheïstische, wetenschappelijke wereldbeeld verruimde. Dat leidde ook tot openheid voor bijna-doodervaringen en ufo's.",
+  "summary_tldr": "Lieke Marsman, voormalig Dichter des Vaderlands, vertelt over haar ongeneeslijke kanker en hoe de confrontatie met de dood haar wereldbeeld heeft opengebroken. Ze beschrijft een godservaring tijdens een regenachtige wandeling op de Veluwe en haar verkenning van bijna-doodervaringen en UFO-verhalen. Stefan Paas en David Boogerd bevragen haar of dit escapisme is of een echte verandering.",
   "summary_points": [
-    "Marsman kreeg in 2018 de diagnose kanker en is later ongeneeslijk ziek verklaard.",
-    "Ze weigert zich neer te leggen bij 'kwaliteit van leven' en gaat tot het uiterste, bijvoorbeeld met een armamputatie en experimentele trials.",
-    "De uitspraak 'de dood hoort bij het leven' vindt ze een misvatting: bij het eigen leven komt de dood als verrassing.",
-    "Ze bekritiseert een maatschappelijk ideaal van de 'juiste manier van doodgaan'.",
-    "Na de diagnose voelde haar leven onttoverd en haar wereldbeeld ontoereikend, mede door Christian Wiman.",
-    "Op de Veluwe ervoer ze een goddelijke aanwezigheid die voor haar echt was en niet verzonnen.",
-    "Ze beseft dat religieuze teksten voortkomen uit doorleefd lijden.",
-    "Haar openheid strekt zich uit tot bijna-doodervaringen, bewustzijnsonderzoek en ufo's, zonder haar rationaliteit los te laten.",
-    "Ze voelt zich eenzaam, vooral ten opzichte van leeftijdsgenoten."
+    "Marsman zocht na de diagnose zelf naar behandelingen buiten de standaardprotocollen en koos onder meer voor amputatie van haar arm.",
+    "Ze ervoer artsen als wisselend: sommigen steunden haar strijd, anderen legden zich neer bij de prognose.",
+    "De uitspraak 'de dood hoort bij het leven' wees ze af; volgens haar is er geen juiste manier van sterven.",
+    "Een gevoel van onttovering en eenzaamheid na de diagnose maakte haar ontvankelijk voor iets spirituelers.",
+    "Tijdens een weekje Veluwe, midden in een persoonlijk dieptepunt, ervoer ze een goddelijke aanwezigheid die het zware gevoel beantwoordde.",
+    "Paas noemt dit een overtuigende, niet-hallucinatoire ervaring; Marsman beschrijft het als iets wat zich niet alleen in haar afspeelde.",
+    "Haar atheïstische, wetenschappelijke wereldbeeld bleek ontoereikend, al blijft ze wetenschap waarderen maar kritisch over de geldstromen erachter.",
+    "Ze verdiepte zich in bijna-doodervaringen en UFO-getuigenissen, en ziet dat als manier om de magie van de wereld terug te vinden.",
+    "Boogerd en Paas benadrukken dat ze haar rationele kant niet heeft weggegooid maar verruimd heeft.",
+    "Marsman erkent dat zingeving soms weer dof wordt; de geloofsbeleving is 'als dauw' die er 's ochtends is en 's avonds weer weg kan zijn.",
+    "Het gesprek eindigt met het idee van William James dat geloof zich gunnen is, net als liefde."
   ],
   "chapters": [
     {
-      "start_seconds": 49,
-      "title": "Inleiding en het boek",
-      "summary": "David introduceert Lieke Marsman en haar boek over ziekte, dood en een veranderd wereldbeeld."
+      "start_seconds": 0,
+      "title": "Inleiding en de diagnose",
+      "summary": "Boogerd introduceert het boek en Marsman's ziekte. Ze praten over haar aanvankelijke reactie en de wisselende houding van artsen."
     },
     {
-      "start_seconds": 120,
-      "title": "Strijdbaar tegenover artsen",
-      "summary": "Marsman vertelt over haar diagnose, het onbekende terrein na de standaardbehandeling en haar keuze voor de amputatie en experimentele behandelingen."
+      "start_seconds": 240,
+      "title": "Onbekend terrein in de behandeling",
+      "summary": "Marsman beschrijft hoe ze buiten de statistiek terechtkwam, hoe artsen verschillend reageerden en waarom ze zelf strijdbaar bleef."
     },
     {
-      "start_seconds": 875,
-      "title": "De dood hoort bij het leven?",
-      "summary": "Ze bekritiseert die uitspraak en het maatschappelijke ideaal van een 'goede' dood; Paas verwijst naar Leopardi."
+      "start_seconds": 585,
+      "title": "Amputatie en de dood als eigen keuze",
+      "summary": "De beslissing om haar arm te laten amputeren en het gesprek over zelf verantwoordelijkheid nemen. Ook de uitspraak 'de dood hoort bij het leven' wordt bekritiseerd."
     },
     {
-      "start_seconds": 1355,
-      "title": "Onttoverd en ontoereikend",
-      "summary": "Over eenzaamheid, het gevoel dat alles ontoereikend werd en de invloed van Christian Wiman."
+      "start_seconds": 1290,
+      "title": "Onttovering en eenzaamheid",
+      "summary": "Marsman legt uit wat onttovering betekent en hoe Christian Wyman haar troost en herkenning bood."
     },
     {
-      "start_seconds": 1785,
+      "start_seconds": 1742,
       "title": "De godservaring op de Veluwe",
-      "summary": "Ze beschrijft haar ervaring tijdens een regenachtige wandeling en hoe echt die voor haar was."
+      "summary": "Het centrale moment: een ervaring van iets goddelijks tijdens een regenachtige wandeling. Paas vraagt naar de aard en overtuigingskracht ervan."
     },
     {
-      "start_seconds": 2220,
-      "title": "Religie, lijden en de loopgraven",
-      "summary": "Het gesprek over 'geen atheïsten in loopgraven', de herkenning van religieuze teksten als doorvoeld en de vergelijking met gelovigen."
+      "start_seconds": 2452,
+      "title": "Bijna-doodervaringen en UFO's",
+      "summary": "Marsman vertelt hoe ze in bijna-doodervaringen en UFO-getuigenissen verdiepte en waarom dat haar wereld weer magisch maakte. Boogerd en Paas bespreken geloofwaardigheid en rationaliteit."
     },
     {
-      "start_seconds": 2440,
-      "title": "Bijna-doodervaringen en ufo's",
-      "summary": "Marsman legt uit waarom ze openstaat voor bijna-doodervaringen en ufo-getuigenissen, vanuit een wetenschappelijke nieuwsgierigheid."
+      "start_seconds": 3234,
+      "title": "Wetenschap, geld en idealisme",
+      "summary": "Marsman bekritiseert de financiering van wetenschap maar blijft er fan van. Ook het analytisch idealisme van Kastrup komt aan bod."
+    },
+    {
+      "start_seconds": 3420,
+      "title": "Angst, geruststelling en gunnen",
+      "summary": "Slotbeschouwing over de angst voor de dood, het effect van geloof dat er soms is en soms niet, en de gedachte van William James over geloof als gunnen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1239,
+      "start_seconds": 585,
       "speaker": "Lieke Marsman",
-      "text": "De dood hoort wel bij het leven, maar niet bij mijn leven.",
-      "note": "Vat de kern van haar kritiek op een gangbare troostspreuk samen."
+      "text": "Het moment dat het allerduidelijkst was, was dat ik moest beslissen of ik mijn arm wilde laten amputeren of niet.",
+      "note": "Een concreet keerpunt waarin de medische keuze ook een existentiële keuze werd."
     },
     {
-      "start_seconds": 1305,
-      "speaker": "David Boogerd",
-      "text": "Als je eigen dood aan de deur staat en ongeduldig je naam door de brievenbus roept, zie dan maar eens open te doen met een onbewogen: ach ja, jij hoort er nu eenmaal bij.",
-      "note": "Citaat uit het boek dat de kwestie treffend verbeeldt."
-    },
-    {
-      "start_seconds": 1845,
-      "speaker": "Lieke Marsman",
-      "text": "Ik had opeens het gevoel dat er iets goddelijks bij me was, een macht die dat zware gevoel beantwoordde.",
-      "note": "Het kernmoment: een godservaring bij een rationele atheïst."
-    },
-    {
-      "start_seconds": 2137,
+      "start_seconds": 2150,
+      "title": "",
       "speaker": "Lieke Marsman",
       "text": "Ik weet dat het echt was, en dat het dus niet iets is wat ik heb verzonnen.",
-      "note": "Ze houdt vast aan de realiteit van haar ervaring."
+      "note": "Het kernargument waarmee ze haar godservaring verdedigt tegen scepsis."
     },
     {
-      "start_seconds": 2250,
+      "start_seconds": 2230,
       "speaker": "Lieke Marsman",
-      "text": "Ik besefte dat alle religieuze teksten zijn ontstaan doordat iemand ontzettend aan het lijden was.",
-      "note": "Verrassende inzichtelijke omslag in haar kijk op religie."
+      "text": "Alle religieuze teksten zijn ontstaan doordat ergens iemand echt ontzettend aan het lijden was en zo'n soort ervaring had.",
+      "note": "Een verrassende verklaring van religie als voortkomend uit lijden, vanuit een voormalig atheïst."
     },
     {
-      "start_seconds": 755,
+      "start_seconds": 3084,
+      "speaker": "David Boogerd",
+      "text": "Soms denk ik dat ik gek word, maar op andere momenten denk ik dat ik juist gek was toen ik mezelf die blikverruiming nog niet toestond.",
+      "note": "Omkering van het beeld: niet de openheid, maar de bekrompenheid wordt als waanzin gezien."
+    },
+    {
+      "start_seconds": 3385,
       "speaker": "Lieke Marsman",
-      "text": "Ik schaamde me soms dat ik tot het gaatje wilde gaan, terwijl dat eigenlijk niet hoort.",
-      "note": "Raakt aan de maatschappelijke druk rond een 'juiste' omgang met ziekte."
+      "text": "Het is soms waar, ja. Op de ene dag werkt die geruststelling heel goed, op een andere dag trek ik het toch weer in twijfel.",
+      "note": "Eerlijke erkenning van de wisselvalligheid van geloof en angst."
     }
   ],
   "keywords": [
-    "Lieke Marsman",
-    "kanker",
-    "atheïsme",
+    "ongeneeslijke kanker",
     "godservaring",
-    "onttovering",
-    "Christian Wiman",
-    "euthanasie",
+    "atheïsme",
     "bijna-doodervaring",
-    "ufo",
+    "UFO's",
+    "onttovering",
     "eenzaamheid",
-    "wetenschap",
-    "sterfelijkheid"
+    "euthanasie",
+    "sterfelijkheid",
+    "analytisch idealisme",
+    "Christian Wyman",
+    "wetenschap"
   ],
   "quotes": [
-    "Nu ik zoveel over de dood heb nagedacht, durf ik te zeggen dat ik er niet bang meer voor ben."
+    "Nu ik zoveel over de dood heb nagedacht, durf ik te zeggen dat ik er niet bang meer voor ben.",
+    "Ze is (of was?) een rationele atheïst die niets moest hebben van God of geloof.",
+    "Is dit escapisme of een ingrijpende verandering?"
   ],
   "similar": [
     {
+      "n": 331,
+      "reason": "Ongeneeslijk zieke spreker zoekt troost in geloof en God die lijdt"
+    },
+    {
       "n": 262,
-      "reason": "Bijna-doodervaring en leven na de dood, met Reinier Sonneveld"
-    },
-    {
-      "n": 319,
-      "reason": "Atheïstische schrijver die God vindt, daarna twijfel en wonderen"
-    },
-    {
-      "n": 154,
-      "reason": "Schrijver die ongelovig wilde zijn maar dat niet lukte"
+      "reason": "Bijna-doodervaring en de vraag naar leven na de dood"
     },
     {
       "n": 320,
-      "reason": "Diepe persoonlijke confrontatie met dood, rouw en troost"
+      "reason": "Diepe rouw, zingeving en de confrontatie met verlies van een dierbare"
     },
     {
-      "n": 302,
-      "reason": "Schrijver over coming-out als gelovige, mantelzorg en ziel"
+      "n": 282,
+      "reason": "Bijna-doodervaringen en de vraag of bewustzijn meer is dan het brein"
+    },
+    {
+      "n": 74,
+      "reason": "Bernardo Kastrup over of kwantumfysica ruimte laat voor meer dan materie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

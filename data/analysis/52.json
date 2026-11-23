@@ -1,310 +1,342 @@
 {
   "episode": 52,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 96835,
+    "segments": 1065,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31601,
-    "output_tokens": 2651,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50411,
+    "output_tokens": 6616,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
     "Kerk & secularisatie",
     "Kunst & cultuur",
-    "Wetenschap & kosmos"
+    "God & geloof"
   ],
   "guests": [
     "Sanne Frequin"
   ],
   "people": [
     {
-      "name": "Gwijde van Avesnes",
-      "note": "bisschop van Utrecht rond 1300, broer van de graaf van Henegouwen-Holland; zijn graftombe staat in de Utrechtse Domkerk",
+      "name": "Geweide van Aven",
+      "note": "Bisschop van Utrecht in de late 13e/vroege 14e eeuw, wiens grafmonument in de Domkerk staat",
       "start_seconds": 237,
-      "wiki_checked": true,
-      "wiki_pageid": 528398,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gwijde_van_Avesnes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Guy_B6.JPG/250px-Guy_B6.JPG"
+      "mention_count": 6
+    },
+    {
+      "name": "John van Waren",
+      "note": "Persoon wiens grafmonument een gebedsverzoek met vagevuurverkorting bevat",
+      "start_seconds": 143,
+      "mention_count": 2
     },
     {
       "name": "Thea Beckman",
-      "note": "schrijfster van Kruistocht in spijkerbroek, jeugdfascinatie voor de middeleeuwen",
-      "start_seconds": 508,
-      "wiki_checked": true,
-      "wiki_pageid": 58676,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thea_Beckman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Thea_Beckman.jpg/250px-Thea_Beckman.jpg"
+      "note": "Schrijfster van jeugdboeken over de Middeleeuwen",
+      "start_seconds": 511,
+      "mention_count": 2
     },
     {
       "name": "Peter Hitchens",
-      "note": "Britse journalist, verachtte de middeleeuwen tot hij kerken bezocht",
+      "note": "Journalist die opgroeide met verachting voor de Middeleeuwen",
       "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 2338602,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Peterhitchens.jpg/250px-Peterhitchens.jpg"
+      "mention_count": 1
     },
     {
       "name": "Christopher Hitchens",
-      "note": "bekende atheïst, broer van Peter Hitchens",
+      "note": "Broer van Peter Hitchens, bekend atheïst",
       "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
-    },
-    {
-      "name": "Petrarca",
-      "note": "Italiaanse humanist die het begrip 'donkere' middeleeuwen mede vormde",
-      "start_seconds": 788,
-      "wiki_checked": true,
-      "wiki_pageid": 64674,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francesco_Petrarca",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Francesco_Petrarca..jpg/250px-Francesco_Petrarca..jpg"
+      "mention_count": 1
     },
     {
       "name": "Hildegard van Bingen",
-      "note": "12e-eeuwse abdis, schreef over geneeswijzen en componeerde",
-      "start_seconds": 908,
-      "wiki_checked": true,
-      "wiki_pageid": 150619,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hildegard_van_Bingen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hildegard_von_Bingen._Line_engraving_by_W._Marshall_%283x4_cropped%29.jpg/250px-Hildegard_von_Bingen._Line_engraving_by_W._Marshall_%283x4_cropped%29.jpg"
+      "note": "12e-eeuwse abdis, schreef over geneeswijzen en muziek",
+      "start_seconds": 906,
+      "mention_count": 1
+    },
+    {
+      "name": "Petrarca",
+      "note": "Gebruikte als eerste de term middeleeuwen; zag zichzelf als herontdekker van de klassieken",
+      "start_seconds": 785,
+      "mention_count": 2
     },
     {
       "name": "Karel de Grote",
-      "note": "stimuleerde kloosters en het overschrijven van klassieke teksten (Karolingische renaissance)",
+      "note": "Stimuleerde kloosters en het overschrijven van klassieke teksten",
       "start_seconds": 1245,
-      "wiki_checked": true,
-      "wiki_pageid": 5337,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/250px-Charlemagne_denier_Mayence_812_814.jpg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "middeleeuwse theoloog, hoogtepunt van de scholastiek",
-      "start_seconds": 1874,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "mention_count": 2
     },
     {
       "name": "Aristoteles",
-      "note": "filosoof wiens denken de scholastiek beïnvloedde",
+      "note": "Klassieke filosoof wiens werk door middeleeuwse kopieën bewaard bleef",
+      "start_seconds": 1263,
+      "mention_count": 2
+    },
+    {
+      "name": "Plato",
+      "note": "Klassieke filosoof, genoemd als tekst die in kloosters werd overgeschreven",
       "start_seconds": 1264,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Anders Breivik",
-      "note": "terrorist die zich een moderne tempelier noemde",
-      "start_seconds": 1755,
-      "wiki_checked": true,
-      "wiki_pageid": 2278493,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anders_Behring_Breivik",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Anders_Behring_Breivik_-_Self-Portrait_in_Masonic_Uniform.jpeg/250px-Anders_Behring_Breivik_-_Self-Portrait_in_Masonic_Uniform.jpeg"
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog en scholastiek denker",
+      "start_seconds": 1874,
+      "mention_count": 1
     },
     {
-      "name": "Alec Ryrie",
-      "note": "historicus, auteur van Unbelievers",
-      "start_seconds": 1951,
-      "wiki_checked": true
+      "name": "Maarten Luther",
+      "note": "Hervormer; studenten denken ten onrechte dat hij iets nieuws begon",
+      "start_seconds": 2973,
+      "mention_count": 1
     },
     {
-      "name": "Tom Holland",
-      "note": "Britse classicus/historicus die Dawkins 'protestants' noemde",
-      "start_seconds": 1984,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
+      "name": "Johannes Huss",
+      "note": "Eerdere hervormingsbeweging vóór de Reformatie",
+      "start_seconds": 2991,
+      "mention_count": 1
+    },
+    {
+      "name": "Bernardus van Clairvaux",
+      "note": "Middeleeuwse hervormer, voorbeeld van eerdere hervormingsbewegingen",
+      "start_seconds": 2988,
+      "mention_count": 1
     },
     {
       "name": "Richard Dawkins",
-      "note": "bekende atheïst",
+      "note": "Bekende atheïst; door Tom Holland als 'echte protestant' betiteld",
       "start_seconds": 1984,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse historicus en classicus",
+      "start_seconds": 1984,
+      "mention_count": 2
+    },
+    {
+      "name": "Alec Ryrie",
+      "note": "Historicus, auteur van 'Unbelievers'",
+      "start_seconds": 1952,
+      "mention_count": 1
+    },
+    {
+      "name": "Anders Breivik",
+      "note": "Noorse terrorist die zichzelf een moderne tempelier noemde",
+      "start_seconds": 1753,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicolaas van Myra",
+      "note": "Heilige wiens relieken naar Bari werden overgebracht; bekend als Sinterklaas",
+      "start_seconds": 2560,
+      "mention_count": 2
+    },
+    {
+      "name": "Johanna van Vlaanderen",
+      "note": "Gravin die het Donjon in Valenciennes schonk voor een Franciscanerkerk",
+      "start_seconds": 2730,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugh van Lincoln",
+      "note": "Middeleeuwse figuur die een relikwie van Maria Magdalena beet",
+      "start_seconds": 2843,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacques de Guise",
+      "note": "Franciscaner monnik en kroniekschrijver",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Schwartz",
+      "note": "Auteur van een boek over Spanje op basis van Inquisitiebronnen",
+      "start_seconds": 2220,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Unbelievers",
-      "author": "Alec Ryrie",
-      "note": "over hoe protestantse kritiek op het katholicisme doorleefde in atheïstische religiekritiek",
-      "start_seconds": 1951,
-      "volume_id": "2t7FDwAAQBAJ",
-      "canonical_title": "Unbelievers: An Emotional History of Doubt",
-      "canonical_author": "Alec Ryrie",
-      "isbn13": "9780674241824",
-      "isbn10": "0674241827",
-      "thumbnail": "http://books.google.com/books/content?id=2t7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Kruistocht in spijkerbroek",
+      "title": "Kruistochten in Spijkerbroek",
       "author": "Thea Beckman",
-      "note": "jeugdfascinatie voor de middeleeuwen",
-      "start_seconds": 508,
+      "note": "Jeugdboek dat de fascinatie voor de Middeleeuwen voedde",
+      "start_seconds": 511,
       "volume_id": "HUpa0AEACAAJ",
       "canonical_title": "Kruistocht in spijkerbroek",
       "canonical_author": "Thea Beckman",
       "isbn13": "9789047750543",
       "isbn10": "9047750543",
       "thumbnail": ""
+    },
+    {
+      "title": "Unbelievers",
+      "author": "Alec Ryrie",
+      "note": "Laat zien hoe protestantse kritiek op het katholicisme een algemene religiekritiek werd",
+      "start_seconds": 1952,
+      "volume_id": "2t7FDwAAQBAJ",
+      "canonical_title": "Unbelievers: An Emotional History of Doubt",
+      "canonical_author": "Alec Ryrie",
+      "isbn13": "9780674241824",
+      "isbn10": "0674241827",
+      "thumbnail": "http://books.google.com/books/content?id=2t7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Utrecht",
-    "Domkerk Utrecht",
-    "Parijs",
-    "Notre-Dame",
-    "Keulen",
-    "Engeland",
     "Valenciennes",
+    "Keulen",
+    "Parijs",
+    "Bari",
+    "Mira",
+    "Maastricht",
+    "Groningen",
+    "Den Haag",
+    "Engeland",
     "Afghanistan",
-    "Christchurch",
-    "Den Haag"
+    "Lincoln",
+    "Canterbury",
+    "Salisbury",
+    "Winchester",
+    "Santiago de Compostela",
+    "Aken",
+    "Florence"
   ],
-  "summary_tldr": "Mediëvist Sanne Frequin en Stefan Paas ontkrachten het beeld van de donkere, achterlijke middeleeuwen als negentiende-eeuwse mythe. Ze bespreken grafmonumenten, kathedralen, kloosters, manuscripten, scholastiek en de misbruikte middeleeuwen in extreemrechtse kringen.",
+  "summary_tldr": "David Boogerd, Sanne Frequin en Stefan Paas bespreken de Middeleeuwen en het negatieve imago van die periode, dat volgens hen grotendeels een 19e-eeuwse mythe is. Aan de hand van grafmonumenten, kloosters, relieken en pelgrimages schetsen ze een rijker beeld van een tijd met kennis, kunst en complexe kerk-staatverhoudingen. Ze pleiten ervoor de periode op zichzelf te bekijken in plaats van er moderne ideeën in te projecteren.",
   "summary_points": [
-    "Het beeld van 1000 jaar duisternis is eendimensionaal en komt van renaissance en verlichting",
-    "Grafmonumenten waren gebedsmachines en politieke propaganda",
-    "Kathedralen en glas-in-lood getuigen van geavanceerde techniek en logistiek",
-    "Kloosters bewaarden klassieke teksten en waren centra van kennis, ook wiskunde en sterrenkunde",
-    "Ook de Reformatie droeg bij aan het negatieve imago van de middeleeuwen",
-    "De 19e eeuw schiep zowel een achterlijk als een romantisch 'age of faith'-beeld, beide mythisch",
-    "Scholastiek en de investituurstrijd leverden diepe rationele en staatsrechtelijke theologie",
-    "Extreemrechts misbruikt een geromantiseerde middeleeuwen",
-    "Het verleden moet niet worden gezien als een minder ontwikkelde fase van het heden"
+    "Het beeld van de Middeleeuwen als donkere, achterlijke periode is een mythe, deels gevormd in de 19e eeuw.",
+    "Grafmonumenten waren gebedsmachines en tegelijk politieke propaganda voor familie-status.",
+    "Kloosters waren centra van kennis; monniken kopieerden klassieke teksten en moesten wiskunde en sterrenkunde beheersen.",
+    "Middeleeuwse kathedralen tonen een hoge technische en logistieke organisatie, zoals glas in lood en steunberen.",
+    "Het verhaal van een 'age of faith' is evenzeer mythisch; kerkbezoek en geloofspraktijk waren minder vanzelfsprekend dan gedacht.",
+    "Protestantse kritiek op de katholieke Middeleeuwen droeg bij aan het negatieve imago, dat later in atheïstische kritiek terugkeerde.",
+    "Inquisitie en vagevuur waren genuanceerder dan populaire beelden suggereren; pastorale praktijk week af van formele leer.",
+    "Relieken, pelgrimages en de verering van heiligen waren een mengeling van devotie, commercie en adellijke belangen.",
+    "Middeleeuwse kunst is onlosmakelijk verbonden met religieuze functie en ritueel; zonder theologie begrijp je de kunst niet.",
+    "De Middeleeuwen worden door zowel de verlichting als romantici en extreem rechts instrumenteel gebruikt, wat aandacht voor juist beeldvorming noodzakelijk maakt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Het slechte imago van de middeleeuwen",
-      "summary": "Inleiding en de vraag of de middeleeuwen echt donker waren."
+      "title": "Inleiding en het imago van de Middeleeuwen",
+      "summary": "De gasten bespreken het negatieve beeld van de Middeleeuwen als 'donkere tijd' tussen klassiek en renaissance."
     },
     {
-      "start_seconds": 97,
-      "title": "Grafmonumenten als gebedsmachines en propaganda",
-      "summary": "Sanne vertelt over haar onderzoek en de tombe van Gwijde van Avesnes in de Dom."
+      "start_seconds": 103,
+      "title": "Grafmonumenten als gebed en propaganda",
+      "summary": "Sanne Frequin legt uit hoe grafmonumenten dienden om gebed op te roepen en familiestatus te tonen, met het voorbeeld van Geweide van Aven."
     },
     {
-      "start_seconds": 452,
-      "title": "Fascinatie en periodisering",
-      "summary": "Hoe Sanne en Stefan bij de middeleeuwen uitkwamen en welke periode het betreft."
+      "start_seconds": 453,
+      "title": "Fascinatie voor de Middeleeuwen en middeleeuwse kunst",
+      "summary": "De gasten vertellen over hun jeugdfascinatie en hoe kunst in de Middeleeuwen een functie had in herinnering en gebed."
     },
     {
-      "start_seconds": 696,
-      "title": "Waarom de middeleeuwen 'donker' heten",
-      "summary": "Petrarca, renaissance, kathedralen, hygiëne en uitvindingen weerleggen het beeld."
-    },
-    {
-      "start_seconds": 953,
-      "title": "Age of faith en religie in de middeleeuwen",
-      "summary": "Beide mythes van de 19e eeuw en de werkelijke rol van religie en kerk."
+      "start_seconds": 732,
+      "title": "Mythe van de donkere Middeleeuwen",
+      "summary": "Het beeld van 1000 jaar duisternis wordt ontkracht met voorbeelden van kathedralen, geneeskunde en hygiëne."
     },
     {
       "start_seconds": 1245,
-      "title": "Kloosters, manuscripten en geleerdheid",
-      "summary": "Kloosters als kenniscentra, wiskunde, sterrenkunde en het maken van manuscripten."
+      "title": "Kloosters, kennis en wetenschap",
+      "summary": "Kloosters bewaarden en kopieerden klassieke teksten, en monniken beheersten sterrenkunde en wiskunde."
     },
     {
-      "start_seconds": 1715,
-      "title": "Misbruik van de middeleeuwen",
-      "summary": "Extreemrechts gebruik van middeleeuwse symboliek en de gevolgen van simplistische geschiedbeelden."
+      "start_seconds": 1879,
+      "title": "Theologie, scholastiek en protestantse mythevorming",
+      "summary": "Het gesprek gaat over scholastieke theologie, de investituurstrijd en hoe protestanten het katholieke verleden negatief afschilderden."
     },
     {
-      "start_seconds": 1835,
-      "title": "Theologie, protestantse kritiek en mensenrechten",
-      "summary": "Scholastiek, investituurstrijd, Reformatie en de voorzichtigheid bij het zoeken naar het heden in het verleden."
+      "start_seconds": 2520,
+      "title": "Gewone mensen, pelgrimage en relieken",
+      "summary": "Bronnen over gewone mensen, pelgrimstochten, relieken en de commerciële en politieke kant van religie komen aan bod."
+    },
+    {
+      "start_seconds": 3261,
+      "title": "Reistips en afsluiting",
+      "summary": "Sanne Frequin noemt Middeleeuwse plekken in Nederland zoals de Domkerk en het Katharijneconvent in Utrecht."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 157,
+      "start_seconds": 1727,
+      "speaker": "Stefan Paas",
+      "text": "Dat is zo evident dat dat een 19e-eeuwse mythe is.",
+      "note": "Stefan Paas stelt dat het beeld van de donkere Middeleeuwen een 19e-eeuwse uitvinding is en dus niet klopt."
+    },
+    {
+      "start_seconds": 2281,
+      "speaker": "Stefan Paas",
+      "text": "Middeleeuwen moeten we niet verheerlijken, er gebeuren echt hele beroerde dingen soms.",
+      "note": "Een genuanceerde kanttekening: het negatieve en romantische beeld zijn beide te eenzijdig."
+    },
+    {
+      "start_seconds": 2913,
       "speaker": "Sanne Frequin",
-      "text": "Op grafmonumenten werd dagen verkorting in het vagevuur aangeboden als je voor de overledene bad.",
-      "note": "Verrassend praktische kant van middeleeuwse vroomheid."
+      "text": "Geloof is een keuze. Ratio en geloof, dat hangt niet per se met elkaar samen.",
+      "note": "Verklaart waarom middeleeuwers ogenschijnlijk absurde relieken konden vereren zonder dat dit onverenigbaar was met rationaliteit."
     },
     {
-      "start_seconds": 615,
+      "start_seconds": 1005,
       "speaker": "Stefan Paas",
-      "text": "Peter Hitchens kon zijn verachting niet volhouden: mensen die dit konden maken, waren niet dom.",
-      "note": "Mooi voorbeeld van hoe kunst vooroordelen doorbreekt."
+      "text": "Probeer maar eens 10 Nederlanders op een rij te zetten; hoeveel weten 4 ministers te noemen?",
+      "note": "Een scherpe vergelijking die laat zien dat ook nu kennis van kerk en staat beperkt is."
     },
     {
-      "start_seconds": 986,
-      "speaker": "Stefan Paas",
-      "text": "Het vierde Lateraans Concilie eiste slechts één kerkbezoek per jaar, met Pasen.",
-      "note": "Nuanceert het idee dat de kerken vol zaten."
-    },
-    {
-      "start_seconds": 1505,
+      "start_seconds": 2640,
       "speaker": "Sanne Frequin",
-      "text": "Een non met lapis lazuli op haar tanden wijst op een illuminator die haar kwast aanpunte met de tong.",
-      "note": "Prachtig detail over vrouwen en manuscriptproductie."
-    },
-    {
-      "start_seconds": 1755,
-      "speaker": "Stefan Paas",
-      "text": "Breivik noemde zich moderne tempelier; de middeleeuwen zijn een voedingsbodem voor extreemrechts.",
-      "note": "Laat de actuele gevolgen van geschiedsmythes zien."
+      "text": "Gravin Johanna van Vlaanderen huilt bij zoveel armoede en schenkt de Franciscanen een prachtige kerk, maar die willen niet verhuizen.",
+      "note": "Laat zien hoe botsende belangen tussen adel, geestelijkheid en bedelorden de geschiedenis bepaalden."
     }
   ],
   "keywords": [
-    "middeleeuwen",
-    "kathedraal",
-    "klooster",
-    "manuscript",
-    "grafmonument",
+    "Middeleeuwen",
+    "grafmonumenten",
+    "vagevuur",
+    "relieken",
+    "kloosters",
+    "middeleeuwse kunst",
     "scholastiek",
+    "beeldenstorm",
     "Reformatie",
-    "renaissance",
-    "investituurstrijd",
-    "Thomas van Aquino",
-    "Karel de Grote",
-    "mythe"
+    "mythevorming",
+    "pelgrimage",
+    "Geweide van Aven"
   ],
-  "quotes": [],
+  "quotes": [
+    "'Middeleeuws' is volgens de Van Dale synoniem voor 'achterlijk' of 'ouderwets', maar is dat slechte imago wel terecht?",
+    "Was het inderdaad een primitieve en gewelddadige tijd waarin een machtige kerk alle vooruitgang tegenhield en waarin ketters zomaar op de brandstapel geslingerd werden?",
+    "In ieder geval hebben de middeleeuwen de beste verhalen."
+  ],
   "similar": [
     {
-      "n": 323,
-      "reason": "Middeleeuwse figuur Franciscus van Assisi; kerk, cultuur en geschiedenis met kloostertraditie"
+      "n": 22,
+      "reason": "Tom Holland over christendom en Westerse geschiedenis, gedeelde figuur en Middeleeuwse achtergrond"
     },
     {
       "n": 211,
-      "reason": "Bart Van Loo over Bourgondiërs: vergeten middeleeuwse geschiedenis, kunst en kerk"
+      "reason": "Geschiedenis van de Nederlanden en kerk, met kunst en religie in de late Middeleeuwen"
     },
     {
       "n": 238,
-      "reason": "Thomas van Aquino en scholastiek, ook besproken in deze aflevering"
+      "reason": "Thomas van Aquino, middeleeuwse denker, en de relatie tussen geloof en wetenschap"
     },
     {
-      "n": 71,
-      "reason": "Monnik Thomas Quartier: God zoeken in het klooster"
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden in het christendom, met aandacht voor kerk en geschiedenis"
     },
     {
-      "n": 167,
-      "reason": "Verhouding wetenschap en geloof in de geschiedenis; ontkrachting van mythes"
+      "n": 50,
+      "reason": "Christendom en de Europese traditie, met historische blik op de Westerse beschaving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

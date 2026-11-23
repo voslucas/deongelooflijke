@@ -1,299 +1,396 @@
 {
   "episode": 300,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 131475,
+    "segments": 1289,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30580,
-    "output_tokens": 2622,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 67471,
+    "output_tokens": 8441,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
     "Politiek",
+    "Geschiedenis",
     "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "Amerika & Trump"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Hendrikus Colijn",
-      "note": "Nederlands premier in de jaren 30 (ARP), nam maatregelen tegen extremisme",
-      "start_seconds": 336,
-      "wiki_checked": true,
-      "wiki_pageid": 61641,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hendrikus_Colijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Hendrik_Colijn_%281925%29.jpg/250px-Hendrik_Colijn_%281925%29.jpg"
+      "name": "Viktor Orbán",
+      "note": "Hongaars premier (2010–2026), verloor de verkiezingen van 2026; model voor autocratie",
+      "start_seconds": 38,
+      "mention_count": 45
     },
     {
-      "name": "Benito Mussolini",
-      "note": "Italiaanse fascistenleider die Colijn sprak in de jaren 20",
-      "start_seconds": 416,
-      "wiki_checked": true,
-      "wiki_pageid": 22363,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benito_Mussolini",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Mussolini_biografia.jpg/250px-Mussolini_biografia.jpg"
+      "name": "Hendrikus Colijn",
+      "note": "ARP-politicus en Nederlands minister-president in de jaren 30; hield de NSB in toom",
+      "start_seconds": 614,
+      "mention_count": 35
+    },
+    {
+      "name": "Péter Magyar",
+      "note": "Hongaarse premier na de verkiezingswinst van 2026; ex-Fidesz-man",
+      "start_seconds": 2619,
+      "mention_count": 14
     },
     {
       "name": "Adolf Hitler",
-      "note": "Duitse nazileider, kwam via legale weg aan de macht",
+      "note": "Duitse leider van de nazi-partij; machtsovername als referentiepunt",
       "start_seconds": 344,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "mention_count": 8
     },
     {
-      "name": "Johan Huizinga",
-      "note": "Nederlands historicus, waarschuwde in 1933 voor nationalisme",
-      "start_seconds": 373,
-      "wiki_checked": true,
-      "wiki_pageid": 29681,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Huizinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/250px-Johan-huizinga1.jpg"
+      "name": "Benito Mussolini",
+      "note": "Italiaanse fascistische leider; waarschuwde Colijn voor een omslag in Nederland",
+      "start_seconds": 409,
+      "mention_count": 5
     },
     {
-      "name": "Viktor Orbán",
-      "note": "Hongaars premier die de verkiezingen verloor",
-      "start_seconds": 158,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
-    },
-    {
-      "name": "Abraham Kuyper",
-      "note": "Oprichter van de Antirevolutionaire Partij",
-      "start_seconds": 698,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
-    },
-    {
-      "name": "Leo Jordaan",
-      "note": "Karikaturist van de spotprent over Colijn als schipper",
-      "start_seconds": 639,
-      "wiki_checked": true,
-      "wiki_pageid": 1080880,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leo_Jordaan_%28filmcriticus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Leo_Jordaan_%281945%29.jpg/250px-Leo_Jordaan_%281945%29.jpg"
-    },
-    {
-      "name": "Karl Barth",
-      "note": "Theoloog van de Bekennende Kirche",
-      "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 64348,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Barth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Karl_Barth_Bundesarchiv_Bild.png/250px-Karl_Barth_Bundesarchiv_Bild.png"
-    },
-    {
-      "name": "Dietrich Bonhoeffer",
-      "note": "Theoloog in het Duitse kerkelijk verzet",
-      "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
-    },
-    {
-      "name": "Martin Niemöller",
-      "note": "Theoloog van de Bekennende Kirche",
-      "start_seconds": 1735,
-      "wiki_checked": true,
-      "wiki_pageid": 182389,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Niem%C3%B6ller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Martin_Niem%C3%B6ller_%281952%29.jpg/250px-Martin_Niem%C3%B6ller_%281952%29.jpg"
-    },
-    {
-      "name": "Leonie de Jonge",
-      "note": "Onderzoeker naar extreemrechts",
-      "start_seconds": 2098,
-      "wiki_checked": true,
-      "wiki_pageid": 5966106,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/L%C3%A9onie_de_Jonge"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; genoemd als bewonderaar van Orbán",
+      "start_seconds": 38,
+      "mention_count": 8
     },
     {
       "name": "Geert Wilders",
-      "note": "Nederlands politicus (PVV)",
-      "start_seconds": 1244,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider; genoemd als bewonderaar van Orbán en als partner in het debat over samenwerking met radicaal-rechts",
+      "start_seconds": 38,
+      "mention_count": 7
     },
     {
-      "name": "Alexander Pechtold",
-      "note": "Voormalig D66-leider, genoemd bij het tegenover Wilders stellen",
-      "start_seconds": 1244,
-      "wiki_checked": true,
-      "wiki_pageid": 160637,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Pechtold",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alexander-pechtold_%28cropped%29.jpg/250px-Alexander-pechtold_%28cropped%29.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russische president; vergeleken met Orbán qua identiteitsdiscours",
+      "start_seconds": 3004,
+      "mention_count": 5
     },
     {
-      "name": "Jesse Klaver",
-      "note": "GroenLinks-leider",
-      "start_seconds": 1244,
-      "wiki_checked": true,
-      "wiki_pageid": 1725801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesse_Klaver",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jesse_Klaver_2020_%286%29_%28cropped%29.jpg/250px-Jesse_Klaver_2020_%286%29_%28cropped%29.jpg"
+      "name": "Johan Huizinga",
+      "note": "Nederlandse historicus die in 1933 waarschuwde voor nationalisme",
+      "start_seconds": 360,
+      "mention_count": 2
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "Oprichter van de Anti-Revolutionaire Partij",
+      "start_seconds": 698,
+      "mention_count": 2
+    },
+    {
+      "name": "Leo Jordaens",
+      "note": "Karikaturist wiens spotprent van Colijn als kapitein van het schip van staat wordt besproken",
+      "start_seconds": 648,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Barth",
+      "note": "Theoloog en verzetsfiguur in de Bekennende Kirche; Barmer Theologische Erklärung",
+      "start_seconds": 1735,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Niemöller",
+      "note": "Duitse protestantse predikant en verzetsman in de Bekennende Kirche",
+      "start_seconds": 1735,
+      "mention_count": 1
+    },
+    {
+      "name": "Judit Varga",
+      "note": "Voormalig Hongaars minister van Justitie; ex-vrouw van Péter Magyar",
+      "start_seconds": 3862,
+      "mention_count": 2
+    },
+    {
+      "name": "Novák",
+      "note": "Voormalig Hongaars president, aftredend na het gratiebesluit",
+      "start_seconds": 3791,
+      "mention_count": 4
+    },
+    {
+      "name": "Catharina de Vries",
+      "note": "Auteur van het boek Symfonie van Onvrede",
+      "start_seconds": 2435,
+      "mention_count": 3
+    },
+    {
+      "name": "Sander Rietveld",
+      "note": "Auteur van De Nieuwe Kruisvaders over conservatief-christelijke netwerken",
+      "start_seconds": 2725,
+      "mention_count": 1
+    },
+    {
+      "name": "Merijn Kruk",
+      "note": "Journalist die conservatieve christelijke netwerken in kaart bracht",
+      "start_seconds": 2734,
+      "mention_count": 2
+    },
+    {
+      "name": "Kevin Roberts",
+      "note": "Voorzitter van de Heritage Foundation; Project 2025 en Orbán als model",
+      "start_seconds": 2798,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident; campagne voor Orbán in Hongarije",
+      "start_seconds": 4345,
+      "mention_count": 2
+    },
+    {
+      "name": "Marine Le Pen",
+      "note": "Franse politica van het Rassemblement National",
+      "start_seconds": 4377,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Tusk",
+      "note": "Poolse premier; zei dat Hongaren informatie naar het Kremlin doorspeelden",
+      "start_seconds": 3993,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonie de Jonge",
+      "note": "Onderzoeker naar het effect van uitlaten van boosheid",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "George Harink",
+      "note": "Historicus die eerder in de podcast te gast was over verzet van predikanten",
+      "start_seconds": 1951,
+      "mention_count": 1
+    },
+    {
+      "name": "Rob Jetten",
+      "note": "Politicus die de Nederlandse vlag gebruikte in de verkiezingscampagne",
+      "start_seconds": 755,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Vermeld in de context van de VVD-strategie tegenover Wilders",
+      "start_seconds": 2585,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Peter Balkenende",
+      "note": "Voormalig CDA-premier; genoemd in de context van fatsoen",
+      "start_seconds": 2647,
+      "mention_count": 1
+    },
+    {
+      "name": "Janus Calvijn",
+      "note": "Reformator wiens leer de gereformeerde kerken in Hongarije inspireerde",
+      "start_seconds": 3180,
+      "mention_count": 1
     },
     {
       "name": "Leni Riefenstahl",
-      "note": "Filmmaker van nazipropaganda, esthetiek van het fascisme",
-      "start_seconds": 922,
-      "wiki_checked": true,
-      "wiki_pageid": 22151,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leni_Riefenstahl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Leni_Riefenstahl%2C_1935.jpg/250px-Leni_Riefenstahl%2C_1935.jpg"
+      "note": "Filmmaker van nazi-propaganda; voorbeeld van fascistische esthetiek",
+      "start_seconds": 917,
+      "mention_count": 1
+    },
+    {
+      "name": "Sherlock Holmes",
+      "note": "Fictieve detective; bron van de titel 'de hond die niet blafte'",
+      "start_seconds": 297,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "Paus die Hongarije bezocht in 2023",
+      "start_seconds": 3791,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesse Klaver",
+      "note": "GroenLinks-PvdA-leider; genoemd in het debat over wie Wilders groter maakt",
+      "start_seconds": 1244,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Pechtold",
+      "note": "Voormalig D66-leider; genoemd in het debat over Wilders",
+      "start_seconds": 1244,
+      "mention_count": 1
+    },
+    {
+      "name": "Dianne Yeşilgöz",
+      "note": "VVD-politica; genoemd in de context van de asielvoorstellen van Wilders",
+      "start_seconds": 2585,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Symfonie van Onvrede",
+      "author": "Catharina de Vries",
+      "note": "Sociologisch portret van boosheid en onvrede onder kiezers",
+      "start_seconds": 2435
+    },
+    {
+      "title": "De Nieuwe Kruisvaders",
+      "author": "Sander Rietveld",
+      "note": "Overzicht van conservatieve christelijke netwerken",
+      "start_seconds": 2725,
+      "volume_id": "m6cgzgEACAAJ",
+      "canonical_title": "Nieuwe kruisvaarders. De heilige alliantie tussen orthodoxe christenen en radicaal-rechtse populisten",
+      "canonical_author": "Sander Rietveld",
+      "isbn13": "9789044645163",
+      "isbn10": "9044645161",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Nederland",
-    "Duitsland",
     "Hongarije",
+    "Duitsland",
     "Italië",
-    "Nederlands-Indië",
-    "Rome",
-    "Barmen"
+    "Roemenië",
+    "Transsylvanië",
+    "Oekraïne",
+    "Slowakije",
+    "Boedapest",
+    "Utrecht",
+    "Amsterdam",
+    "Gouda",
+    "Putten",
+    "Nederlands-Indië"
   ],
-  "summary_tldr": "Historicus Beatrice de Graaf legt uit waarom Nederland in de jaren 30 geen fascistische staat werd: de maatregelen van premier Colijn (ambtenarenverbod, uniformverbod) en het morele gezag van de kerken hielden de NSB in toom. Daarna wordt de actuele parallel getrokken met de verklaring van de Raad van Kerken tegen extreemrechts en de vraag hoe een democratie extremisme normeert.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas onderzoeken waarom Nederland in de jaren 30 geen fascistische staat werd, met als kernfactoren de crisisleiding van Colijn, het ambtenarenverbod, het uniformverbod en het moreel gezag van kerken. Daarna bespreken zij de val van Viktor Orbán en de vraag wat een democratie beschermt tegen de verleiding van een politieke verlosser. Ze koppelen dit aan het actuele standpunt van de Raad van Kerken tegen radicaal-rechts.",
   "summary_points": [
-    "De NSB groeide in 1933 snel maar stopte abrupt; De Graaf zoekt naar verklaringen via het 'de hond die niet blafte'-principe.",
-    "Colijn voerde een ambtenarenverbod in, eerst tegen links en later ook tegen de NSB, met steun van de Tweede Kamer.",
-    "Het uniformverbod nam de esthetische aantrekkingskracht van het fascisme weg.",
-    "Colijn sprak het brede midden aan met orde, rust en fatsoen, niet met individuele mensenrechten.",
-    "Katholieke bisschoppen (1933) en gereformeerde kerken (1936) verklaarden het nationaalsocialisme onverenigbaar met het christendom.",
-    "De Raad van Kerken sprak deze week tegen extreemrechts; het gaat om menselijke waardigheid en Christus volgen, niet westerse cultuur aanbidden.",
-    "Samenwerken met radicaal-rechts temt het niet: partijen worden meegezogen en boze burgers worden er niet rustiger van.",
-    "Politieke normering van antidemocratisch gedrag is nodig, met oog voor het grijze gebied van burgerlijke ongehoorzaamheid."
+    "Nederland bleef in de jaren 30 democratisch, ondanks een snelle groei van de NSB en dreiging van links en rechts extremisme.",
+    "Colijn hield de NSB in toom met een ambtenarenverbod en een uniformverbod, wat binnen de parlementaire democratie werd gedragen.",
+    "Katholieke bisschoppen (1933) en gereformeerde kerken (1936) verklaarden het nationaalsocialisme onverenigbaar met het christendom, wat politieke partijen houvast gaf.",
+    "De Raad van Kerken pleit nu opnieuw voor afstand van radicaal-rechts, met het argument van de menselijke waardigheid en christelijke trouw.",
+    "Samenwerking met radicaal-rechtse partijen normaliseert hun agressieve discours en versterkt hen, zoals Nederlandse voorbeelden tonen.",
+    "Orbán gebruikte trauma's, het nationale verhaal van Trianon en een 'verlosser'-positie om macht te concentreren, maar loste de grieven niet op.",
+    "Corruptie en een misbruikschandaal ondermijnden Orbáns geloofwaardigheid, wat leidde tot zijn verlies in 2026.",
+    "Democratieverdediging vraagt om brede coalities van democraten en om politiek die echte grieven serieus neemt zonder verlossingsretoriek."
   ],
   "chapters": [
     {
       "start_seconds": 38,
-      "title": "Inleiding: democratie die overeind blijft",
-      "summary": "David Boogerd introduceert aflevering 300 en de vraag hoe een democratie overeind blijft, met Nederland in de jaren 30 en Hongarije als testcases."
+      "title": "Inleiding en de vraag achter de jaren 30",
+      "summary": "David Boogerd introduceert de aflevering en het essay van Beatrice de Graaf over waarom Nederland geen fascistische staat werd."
     },
     {
-      "start_seconds": 186,
-      "title": "Waarom de jaren 30?",
-      "summary": "De Graaf legt uit waarom het decennium een inktvlek is en waarom de NSB eerst snel groeide en toen stokte."
+      "start_seconds": 213,
+      "title": "De hond die niet blafte",
+      "summary": "De Graaf legt uit dat de vraag niet is waarom extreemrechts opkwam, maar waarom het in Nederland niet verder escaleerde."
     },
     {
-      "start_seconds": 330,
-      "title": "Zorgen van de inlichtingendienst en Colijn",
-      "summary": "Angst voor fascisme en communisme, en de rol van premier Hendrikus Colijn en zijn achtergrond."
+      "start_seconds": 614,
+      "title": "Colijn als crisisleider",
+      "summary": "De achtergrond van Colijn, zijn cartoon en zijn militaire verleden, en zijn houding tegenover extremisme van links en rechts."
     },
     {
-      "start_seconds": 791,
+      "start_seconds": 870,
       "title": "Ambtenarenverbod en uniformverbod",
-      "summary": "Twee slimme maatregelen die de NSB beperkten, gebaseerd op orde en fatsoen, democratisch gesteund."
+      "summary": "Colijns maatregelen om extremisten buiten de overheid te houden en fascistische esthetiek te weren, en de rol van de parlementaire democratie."
     },
     {
-      "start_seconds": 1295,
-      "title": "De rol van de kerken",
-      "summary": "Katholieke en gereformeerde kerken verboden lidmaatschap van de NSB; het nieuwe heidendom en de Bekennende Kirche."
+      "start_seconds": 1385,
+      "title": "Kerken en moreel gezag",
+      "summary": "Katholieke en gereformeerde kerken verboden lidmaatschap van extremistische partijen, en Stefan Paas duidt de theologische argumenten."
     },
     {
-      "start_seconds": 1560,
-      "title": "De verklaring van de Raad van Kerken",
-      "summary": "Parallellen met nu: menselijke waardigheid, Christus boven cultuur, en het normerende effect van de verklaring."
+      "start_seconds": 1603,
+      "title": "Mensenrechten, waardigheid en de Raad van Kerken",
+      "summary": "Een discussie over de taal van burgerrechten versus mensenrechten en een vergelijking met de Barmer Erklärung en het recente document van de Raad van Kerken."
     },
     {
-      "start_seconds": 2065,
-      "title": "Hoe ga je met extreemrechts om?",
-      "summary": "Samenwerken versus normeren, de ventielfunctie als mythe en de grenzen van burgerlijke ongehoorzaamheid."
+      "start_seconds": 2280,
+      "title": "Hoe om te gaan met boze burgers",
+      "summary": "De Graaf en Paas bespreken of partijen met radicaal-rechts moeten samenwerken, en hoe grieven serieus te nemen zonder die te verzilveren."
+    },
+    {
+      "start_seconds": 2679,
+      "title": "Orbán, Hongarije en het model van de autocraat",
+      "summary": "De opkomst van Orbán als voorbeeld voor Trump en anderen, de rol van trauma's en identiteit, en de val van Orbán en de opkomst van Magyar."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 925,
+      "start_seconds": 928,
       "speaker": "Beatrice de Graaf",
       "text": "Geef mannen een zwart strak uniform en een mooi rood armbindje en een fakkel en ze gaan wel.",
-      "note": "Verklaart waarom het uniformverbod effectief was."
+      "note": "Pakkende samenvatting van waarom fascistische esthetiek aantrekkingskracht heeft en waarom Colijn het uniformverbod invoerde."
     },
     {
-      "start_seconds": 1018,
-      "speaker": "Beatrice de Graaf",
-      "text": "Colijn schreef zelf dat hij 9 vrouwen en 3 kinderen op een hoop liet schieten in Nederlands-Indië.",
-      "note": "Schokkend portret van de man die de Nederlandse democratie beschermde."
-    },
-    {
-      "start_seconds": 1760,
+      "start_seconds": 1749,
       "speaker": "Stefan Paas",
       "text": "Christenen zijn niet aanbidders van de westerse cultuur of van een westerse beschaving.",
-      "note": "Kernpunt van de Raad van Kerken-verklaring."
+      "note": "Scherpe theologische stelling die het christelijk geloof losmaakt van culturele identiteitspolitiek."
     },
     {
-      "start_seconds": 2098,
+      "start_seconds": 2384,
       "speaker": "Beatrice de Graaf",
-      "text": "Onderzoek wijst uit dat samenwerken met radicaal-rechts ertoe leidt dat je erin wordt meegezogen.",
-      "note": "Weerlegt de ventielfunctie-theorie."
+      "text": "Politiek is geen therapie.",
+      "note": "Kernuitspraak die de spanning beschrijft tussen het luisteren naar boze burgers en het maken van beleid."
     },
     {
-      "start_seconds": 1244,
+      "start_seconds": 3441,
       "speaker": "Stefan Paas",
-      "text": "Ze worden er allebei groter van, maar het perkt niks in; dat moet van de andere kant komen.",
-      "note": "Scherpe analyse van polarisatie tussen links en radicaal-rechts."
+      "text": "Voor het eerst werd ik als mens gezien.",
+      "note": "Een Hongaarse predikant over Orbán, die laat zien waarom diens identiteitspolitiek bij minderheden zo aansloeg."
+    },
+    {
+      "start_seconds": 4545,
+      "speaker": "Beatrice de Graaf",
+      "text": "Verlossers vind je in de kerk, vind je in de Bijbel, maar niet in de politiek.",
+      "note": "Scherpe afsluiting die de verlossingsretoriek van populisten verbindt met religieuze taal."
     }
   ],
   "keywords": [
     "Colijn",
-    "NSB",
-    "fascisme",
-    "ambtenarenverbod",
-    "uniformverbod",
+    "Interbellum",
+    "Fascisme",
+    "Verlosser",
+    "Ambtenarenverbod",
+    "Uniformverbod",
+    "Verzuiling",
     "Raad van Kerken",
-    "Bekennende Kirche",
-    "extreemrechts",
-    "democratie",
-    "verzuiling",
-    "menselijke waardigheid",
-    "Orbán"
+    "Orbán",
+    "Weerbare democratie",
+    "Populisme",
+    "Mensenwaardigheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Hoe blijft een land - een democratie - juist wél overeind?",
+    "Wat beschermt een democratie tegen de verleiding van een politieke verlosser?",
+    "Misschien hebben wij Orbán en Hongarije wel te eenzijdig bekeken."
+  ],
   "similar": [
     {
-      "n": 321,
-      "reason": "Beatrice de Graaf over opkomst extreemrechts (AfD) in Duitsland, Luther en kerk"
-    },
-    {
       "n": 232,
-      "reason": "De Graaf en Paas over extreemrechts en democratie in crisis, historische parallellen"
+      "reason": "Extreemrechts en existentiële democratiecrisis, Beatrice de Graaf, politiek en kerk"
     },
     {
       "n": 169,
-      "reason": "De Graaf over Wilders-winst, Napoleon en verlangen naar leiders"
+      "reason": "Verlangen naar grote leiders en politieke verlosser, Beatrice de Graaf, Nederlandse politiek"
     },
     {
-      "n": 138,
-      "reason": "Rol van de kerk in Tweede Wereldoorlog, Nederland en de jaren 30-40"
+      "n": 321,
+      "reason": "Opkomst van extreemrechts in Duitsland, geschiedenis en kerk, Beatrice de Graaf"
     },
     {
       "n": 309,
-      "reason": "De Graaf en Paas over sterke mannen, autocratie en chaosstrategie"
+      "reason": "Sterke man-politiek van Trump en Poetin, Beatrice de Graaf, geopolitiek"
+    },
+    {
+      "n": 170,
+      "reason": "Verrechtsing van Nederland en Wilders, politiek en geschiedenis"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

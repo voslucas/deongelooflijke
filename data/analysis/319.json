@@ -1,18 +1,23 @@
 {
   "episode": 319,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104289,
+    "segments": 1054,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30873,
-    "output_tokens": 2580,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53515,
+    "output_tokens": 3393,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
     "Bijbel & Jezus",
-    "Kerk & secularisatie",
-    "Zingeving & psyche"
+    "Zingeving & psyche",
+    "Kunst & cultuur"
   ],
   "guests": [
     "Christophe Vekeman"
@@ -20,78 +25,106 @@
   "people": [
     {
       "name": "C.S. Lewis",
-      "note": "Britse christelijke denker en apologeet, hoogleraar in Oxford, auteur van Narnia",
-      "start_seconds": 60,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
-    },
-    {
-      "name": "Christine Emmerechts",
-      "note": "Vlaamse collega-schrijfster, eveneens met een bekeringsboek",
-      "start_seconds": 518,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thomas Halík",
-      "note": "Tsjechische theoloog; de gelovige leeft deels in het duister",
-      "start_seconds": 1124,
-      "wiki_checked": true
-    },
-    {
-      "name": "Iain McGilchrist",
-      "note": "Schotse psychiater en literatuurwetenschapper; het mooiste moet impliciet blijven",
-      "start_seconds": 1199,
-      "wiki_checked": true,
-      "wiki_pageid": 5816749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Iain_McGilchrist",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Iain_McGilchrist.png/250px-Iain_McGilchrist.png"
+      "note": "Britse christelijke denker en schrijver, hoogleraar in Oxford, held van Vekeman",
+      "start_seconds": 11,
+      "mention_count": 12
     },
     {
       "name": "Richard Dawkins",
-      "note": "Atheïst; noemde de verrijzenis te klein voor het universum",
-      "start_seconds": 1505,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "note": "bekende atheïst, geciteerd over de verrijzenis",
+      "start_seconds": 1525,
+      "mention_count": 2
     },
     {
       "name": "Christopher Hitchens",
-      "note": "Atheïst; 'en wat dan nog?' over de verrijzenis",
-      "start_seconds": 1505,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
+      "note": "atheïst, reageerde op de verrijzenis",
+      "start_seconds": 1551,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Halik",
+      "note": "katholieke priester en denker, geciteerd over geloof in het duister",
+      "start_seconds": 1130,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader; als je God begrijpt, is het God niet",
-      "start_seconds": 2276,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader, citaat over God begrijpen",
+      "start_seconds": 2290,
+      "mention_count": 2
     },
     {
-      "name": "Joe Schmid",
-      "note": "Voormalig atheïstisch filosoof (Princeton), katholiek geworden",
-      "start_seconds": 2155,
-      "wiki_checked": true
+      "name": "Ian McGilchrist",
+      "note": "Schotse psychiater en literatuurwetenschapper",
+      "start_seconds": 1194,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Smith",
+      "note": "voormalig atheïstische filosoof die katholiek werd na een wonder",
+      "start_seconds": 2130,
+      "mention_count": 2
+    },
+    {
+      "name": "Montaigne",
+      "note": "filosoof, citaat over Gods beschikkingen",
+      "start_seconds": 4200,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter de Rudder",
+      "note": "West-Vlaamse landarbeider wiens been in 1875 wonderbaarlijk genas in Oostakker",
+      "start_seconds": 3830,
+      "mention_count": 2
+    },
+    {
+      "name": "Padre Pio",
+      "note": "katholieke priester met stigmata, genoemd bij bekering van Joe Smith",
+      "start_seconds": 4345,
+      "mention_count": 1
+    },
+    {
+      "name": "Christine Emmerechts",
+      "note": "collega-schrijver met een bekeringsboek",
+      "start_seconds": 520,
+      "mention_count": 1
+    },
+    {
+      "name": "Agatha Christie",
+      "note": "schrijfster van detectiveromans, door Vekeman zelf gelezen",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Marek Sindelka",
+      "note": "Vlaams schrijver, genoemd als gelezen roman",
+      "start_seconds": 3450,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "schrijver, gast van Ongelooflijke Live in Nieuwegein",
+      "start_seconds": 4500,
+      "mention_count": 1
+    },
+    {
+      "name": "Bisschop Lode Aerts",
+      "note": "bisschop van Brugge, bevestigde het mirakel",
+      "start_seconds": 3920,
+      "mention_count": 1
+    },
+    {
+      "name": "Fidel Castro",
+      "note": "genoemd als beeldspraak voor Joe Smith",
+      "start_seconds": 4330,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Tot God",
       "author": "Christophe Vekeman",
-      "note": "Vorig boek over zijn bekering",
+      "note": "eerder boek over zijn bekering tot het katholicisme",
       "start_seconds": 60,
       "volume_id": "T5sDEQAAQBAJ",
       "canonical_title": "Tot God",
@@ -103,8 +136,8 @@
     {
       "title": "Het gebeurt, het gebeurt elke dag",
       "author": "Christophe Vekeman",
-      "note": "Nieuw boek over twijfel na de bekering",
-      "start_seconds": 60,
+      "note": "nieuw boek over twijfel en de voortdurende verrijzenis",
+      "start_seconds": 180,
       "volume_id": "ijAKEgAAQBAJ",
       "canonical_title": "Het gebeurt, het gebeurt elke dag",
       "canonical_author": "Christophe Vekeman",
@@ -113,163 +146,208 @@
       "thumbnail": "http://books.google.com/books/content?id=ijAKEgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
+      "title": "Christianity",
+      "author": "C.S. Lewis",
+      "note": "apologetisch boek van Lewis",
+      "start_seconds": 720,
+      "volume_id": "kObnEAAAQBAJ",
+      "canonical_title": "Mere Christianity",
+      "canonical_author": "C.S. Lewis",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=kObnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "God bewijzen",
       "author": "Stefan Paas",
-      "note": "Eerder boek van Paas over apologetiek",
-      "start_seconds": 2065,
+      "note": "eerder boek van Paas over apologetiek",
+      "start_seconds": 2040,
       "volume_id": "YIJgBgAAQBAJ",
-      "canonical_title": "God bewijzen: argumenten voor en tegen geloven",
+      "canonical_title": "God bewijzen",
       "canonical_author": "Rik Peels, Stefan Paas",
       "isbn13": "9789460037252",
       "isbn10": "9460037259",
       "thumbnail": "http://books.google.com/books/content?id=YIJgBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De Ongelooflijke Geschiedenis",
+      "author": "",
+      "note": "boek dat dezelfde dag verschijnt",
+      "start_seconds": 2940,
+      "volume_id": "faN80gEACAAJ",
+      "canonical_title": "De ongelooflijke geschiedenis",
+      "canonical_author": "Beatrice de Graaf, Stefan Paas, David Boogerd",
+      "isbn13": "9789044662511",
+      "isbn10": "9044662511",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 28:17",
-      "note": "Sommigen twijfelen bij de verschijning in Galilea",
-      "start_seconds": 1113
+      "ref": "Matteüs 28:17",
+      "note": "'sommigen twijfelen' bij de verschijning na de opstanding",
+      "start_seconds": 1140
     },
     {
       "ref": "Marcus 12:30",
-      "note": "Bemin God met hart, ziel en verstand",
-      "start_seconds": 728
+      "note": "liefde tot God met heel het verstand",
+      "start_seconds": 740
+    },
+    {
+      "ref": "Matteüs 5:28",
+      "note": "Bergrede: wie begeerte koestert heeft al overspel gepleegd",
+      "start_seconds": 3090
     },
     {
       "ref": "Psalm 10",
-      "note": "De atheïst zegt: er is geen God",
-      "start_seconds": 1113
+      "note": "atheïst die zegt dat er geen God is",
+      "start_seconds": 1080
     },
     {
       "ref": "1 Johannes 4:8",
-      "note": "God is liefde",
-      "start_seconds": 1761
+      "note": "'God is liefde'",
+      "start_seconds": 1800
+    },
+    {
+      "ref": "Genesis 3",
+      "note": "zondeval van Adam en Eva",
+      "start_seconds": 3560
     }
   ],
   "places": [
     "Oxford",
-    "Vlaanderen",
-    "België",
+    "Gent",
+    "Oostakker",
+    "Nieuwegein",
     "Galilea",
-    "Nederland",
-    "Princeton"
+    "Café de Zevende Hemel"
   ],
-  "summary_tldr": "Schrijver Christophe Vekeman vertelt over de nasleep van zijn bekering: bedreigende post, de rol van apologeet en de twijfel die binnensloop. Hij ontdekt dat de rationele weg op zijn grenzen botst en uitmondt in mysterie, en ziet de verrijzenis als iets dat nog elke dag gebeurt.",
+  "summary_tldr": "Christophe Vekeman, Vlaams schrijver en bekeerling tot het katholicisme, bespreekt met David Boogerd en Stefan Paas zijn nieuwe boek Het gebeurt, het gebeurt elke dag. Hij vertelt over bedreigingen na zijn bekering, de twijfel die tijdens zijn apologetische optredens opkwam en wonderen in zijn omgeving. Het gesprek gaat over de spanning tussen rationele verdediging en mystieke ervaring van geloof.",
   "summary_points": [
-    "Na Tot God kreeg Vekeman zowel fanmail als bedreigingen en vernielde kruisbeelden in de bus.",
-    "Hij heeft meer begrip voor woede dan voor onverschilligheid over de godsvraag.",
-    "Zijn rationele apologetiek werd een basis, maar botste op haar grenzen.",
-    "Mysterie is voor hem geen beginpunt maar wel een voorlopig eindpunt.",
-    "Dankzij Dawkins en Hitchens ziet hij de verrijzenis als iets groots dat nog steeds gebeurt.",
-    "Hij vergelijkt dit met liefde op het eerste gezicht die over twintig jaar uitgroeit tot mythe.",
-    "Net als C.S. Lewis ervoer hij dat argumenten 's avonds hol aanvoelden.",
-    "Hij beschreef een periode van religieuze onverschilligheid en lusteloosheid.",
-    "Bidden voorbij de taal, in stilte, ziet hij als hogere vorm."
+    "Vekeman kreeg na zijn bekering fanmail, maar ook bedreigende brieven en intimidatie.",
+    "Hij verdedigde het geloof rationeel en werd de 'Vlaamse C.S. Lewis' genoemd.",
+    "Tijdens die apologetische rol ontstond bij hem twijfel en een gevoel van leegte.",
+    "Vekeman ziet de verrijzenis als iets dat nog steeds gebeurt, niet alleen als historische gebeurtenis.",
+    "Liefde en de relatie met zijn vrouw beschrijft hij als het grootste wonder in zijn leven.",
+    "Paas en Vekeman bespreken het gevaar van pedanterie en hoogmoed in debatten.",
+    "Het wonder van Oostakker en de genezing van zijn vriend George blijven voor George zelf zonder gevolg voor zijn geloof.",
+    "Discussie over de grens tussen fictie en non-fictie, en over het gebruik van verbeelding in autobiografisch schrijven."
   ],
   "chapters": [
     {
-      "start_seconds": 146,
-      "title": "Bedreigingen en fanmail",
-      "summary": "Vekeman vertelt over de reacties op Tot God, van dankbaarheid tot dreigbrieven."
+      "start_seconds": 0,
+      "title": "Bedreigingen na de bekering",
+      "summary": "Vekeman vertelt over haatbrieven en intimidatie die hij na zijn bekering kreeg."
     },
     {
-      "start_seconds": 385,
-      "title": "Woede versus onverschilligheid",
-      "summary": "Waarom mensen boos reageren op een bekeerling en waarom hij onverschilligheid erger vindt."
-    },
-    {
-      "start_seconds": 640,
-      "title": "De Vlaamse C.S. Lewis en apologetiek",
-      "summary": "Over Lewis, rationele geloofsverdediging en de katholieke cultuur in Vlaanderen."
-    },
-    {
-      "start_seconds": 1030,
-      "title": "Twijfel en mysterie",
-      "summary": "De discrepantie tussen publieke verdediger en innerlijke twijfel; mysterie als eindpunt."
+      "start_seconds": 720,
+      "title": "Van atheïst naar apologeet",
+      "summary": "Het gesprek gaat over C.S. Lewis, rationele apologetiek en Vekeman's bedevaart naar Oxford."
     },
     {
       "start_seconds": 1440,
-      "title": "De verrijzenis die elke dag gebeurt",
-      "summary": "Dawkins, Hitchens en de uitleg van de titel, met het beeld van liefde op het eerste gezicht."
+      "title": "Twijfel en het mysterie",
+      "summary": "Vekeman en Paas bespreken de spanning tussen hoop, twijfel en het mysterie van God."
     },
     {
-      "start_seconds": 1907,
-      "title": "Pedanterie en de gevaren van apologetiek",
-      "summary": "Over verbeten debatten, hoogmoed en het voorbeeld van Joe Schmid."
+      "start_seconds": 2160,
+      "title": "Verrijzenis als voortdurend gebeuren",
+      "summary": "Vekeman legt uit hoe hij de verrijzenis anders ziet, met hulp van Dawkins en Hitchens."
     },
     {
-      "start_seconds": 2276,
-      "title": "Dark night of the soul",
-      "summary": "Vekeman leest een passage over zijn onverschilligheid voor en bespreekt Lewis' ervaring en bidden in stilte."
+      "start_seconds": 2880,
+      "title": "Pedanterie en de dark night",
+      "summary": "Paas en Vekeman spreken over hoogmoed in debatten en Lewis' vervreemding van zijn eigen argumenten."
+    },
+    {
+      "start_seconds": 3480,
+      "title": "Fictie, non-fictie en verbeelding",
+      "summary": "Discussie over of het schrijven van fictie en het beschrijven van geloof elkaar uitsluiten."
+    },
+    {
+      "start_seconds": 3780,
+      "title": "Wonderen van Oostakker",
+      "summary": "Vekeman vertelt over het mirakel van Pieter de Rudder en de genezing van zijn vriend George."
+    },
+    {
+      "start_seconds": 4620,
+      "title": "Liefde als grootste wonder",
+      "summary": "Het gesprek eindigt bij liefde als het wonder dat Vekeman het meest raakt, en bij aankondigingen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 244,
+      "start_seconds": 260,
       "speaker": "Christophe Vekeman",
       "text": "Ik hoop dat jouw kinderen ook misbruikt worden.",
-      "note": "Schokkende anonieme dreigbrief; hij had geen kinderen."
+      "note": "Citaat uit een anonieme brief die hij kreeg, illustreert de haat na zijn bekering."
     },
     {
-      "start_seconds": 1163,
-      "speaker": "Christophe Vekeman",
-      "text": "Sommigen twijfelen: zelfs bij de verschijning van Christus twijfelden de leerlingen.",
-      "note": "Twijfel als legitiem onderdeel van geloof."
-    },
-    {
-      "start_seconds": 1597,
-      "speaker": "Christophe Vekeman",
-      "text": "Misschien was niet de verrijzenis te klein, maar mijn kijk erop.",
-      "note": "Kern van het boek en de titel."
-    },
-    {
-      "start_seconds": 2282,
+      "start_seconds": 1870,
       "speaker": "Christophe Vekeman",
       "text": "Ik heb God niet gevonden, maar ik weet dat hij er is.",
-      "note": "Treffende samenvatting van zijn geloofshouding."
+      "note": "Samenvatting van zijn geloof, een paradox die twijfel en overtuiging verenigt."
     },
     {
-      "start_seconds": 2405,
+      "start_seconds": 1530,
       "speaker": "Christophe Vekeman",
-      "text": "Zo ver wist ik mij verwijderd van God, dat ik hem niet eens meer miste.",
-      "note": "Aangrijpende passage over onverschilligheid."
+      "text": "Als het niet groeit, verwelkt het.",
+      "note": "Over liefde en geloof die met je moeten meegroeien."
+    },
+    {
+      "start_seconds": 2370,
+      "speaker": "Christophe Vekeman",
+      "text": "Ik denk dat God eerder in de stilte dan in de taal te vinden valt.",
+      "note": "Een persoonlijke en paradoxale kijk op geloof als tegenhanger van woorden."
+    },
+    {
+      "start_seconds": 4140,
+      "speaker": "Christophe Vekeman",
+      "text": "Het meest wonderlijke van de affaire is dat dat geen enkele impact heeft gehad op de geloofsovertuiging van mijn vriend George.",
+      "note": "Laat zien hoe verschillend wonderen door mensen worden ervaren."
     }
   ],
   "keywords": [
     "bekering",
-    "twijfel",
     "apologetiek",
+    "twijfel",
     "C.S. Lewis",
     "verrijzenis",
-    "mysterie",
-    "Oxford",
-    "Tot God",
-    "dark night of the soul",
+    "mystiek",
+    "wonder",
     "liefde",
+    "fictie",
+    "bedevaart Oostakker",
+    "dark night of the soul",
     "katholicisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik heb God niet gevonden, maar ik weet dat hij er is.",
+    "Het gebeurt, het gebeurt elke dag.",
+    "Een eerlijk boek, misschien soms zelfs een beetje duister, maar ook altijd doordrenkt met humor."
+  ],
   "similar": [
     {
       "n": 190,
-      "reason": "Zelfde gast Vekeman: van fervent atheïst tot gelovige, zoektocht naar waarheid"
+      "reason": "Zelfde gast, Vekeman over zijn weg van fervent atheïsme naar geloof"
     },
     {
-      "n": 318,
-      "reason": "Iain McGilchrist over grenzen van rationaliteit en God, besproken persoon"
+      "n": 189,
+      "reason": "Filosoof Rutten over sterke argumenten voor Gods bestaan, vergelijkbaar met apologetiek"
     },
     {
       "n": 154,
-      "reason": "Schrijver die niet kon ontsnappen aan geloof; bekering en twijfel"
-    },
-    {
-      "n": 70,
-      "reason": "Schrijfster Kristien Hemmerechts' religieuze coming-out en kerkgang"
+      "reason": "Gesprek over onverwachte geloofsovertuiging en het niet kunnen blijven ongelovig"
     },
     {
       "n": 49,
-      "reason": "Atheïst die van zijn ongeloof viel; rationele weg en grenzen"
+      "reason": "Gast die van atheïsme viel, een bekering vergelijkbaar met Vekeman's verhaal"
+    },
+    {
+      "n": 6,
+      "reason": "Klassieke godsbewijzen en de vraag of God bestaat, centraal in het gesprek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

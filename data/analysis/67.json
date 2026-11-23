@@ -1,18 +1,23 @@
 {
   "episode": 67,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 92303,
+    "segments": 976,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30792,
-    "output_tokens": 2345,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46900,
+    "output_tokens": 5913,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
+    "God & geloof",
     "Economie & geld",
-    "Kerk & secularisatie",
-    "Bijbel & Jezus"
+    "Geschiedenis",
+    "Zingeving & psyche"
   ],
   "guests": [
     "James Kennedy"
@@ -20,218 +25,239 @@
   "people": [
     {
       "name": "James Kennedy",
-      "note": "historicus, hoogleraar Moderne Nederlandse Geschiedenis, auteur van het essay 'Aan het werk'",
-      "start_seconds": 41,
-      "wiki_checked": true,
-      "wiki_pageid": 754275,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/James-kennedy.jpg/250px-James-kennedy.jpg"
+      "note": "historicus en hoogleraar, gast en auteur van 'Aan het werk'",
+      "start_seconds": 118,
+      "mention_count": 40
     },
     {
-      "name": "Hugh McLeod",
-      "note": "Britse historicus die kerkverlating in de jaren 60 beschrijft als 'forgot to go'",
-      "start_seconds": 1119,
-      "wiki_checked": true
+      "name": "Constantijn",
+      "note": "Romeinse keizer die in 321 de vrije zondag invoerde",
+      "start_seconds": 1217,
+      "mention_count": 6
     },
     {
-      "name": "Constantijn de Grote",
-      "note": "Romeinse keizer die in 321 de zondag als rustdag invoerde",
-      "start_seconds": 1220,
-      "wiki_checked": true,
-      "wiki_pageid": 319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Constantijn_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/250px-Constantine_Chiaramonti_Inv1749.jpg"
+      "name": "Max Weber",
+      "note": "Duitse socioloog die het calvinisme en werkethos koppelde",
+      "start_seconds": 2347,
+      "mention_count": 6
     },
     {
-      "name": "Eusebius",
-      "note": "kerkhistoricus en geschiedschrijver over de bekering van Constantijn",
-      "start_seconds": 1268,
-      "wiki_checked": true,
-      "wiki_pageid": 241189,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Eusebius_van_Caesarea",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Eusebius_of_Caesarea.jpg/250px-Eusebius_of_Caesarea.jpg"
-    },
-    {
-      "name": "Jozef II",
-      "note": "keizer van Oostenrijk die kloosters afschafte als nutteloze instellingen",
-      "start_seconds": 1661,
-      "wiki_checked": true,
-      "wiki_pageid": 34910,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Keizer_Jozef_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Anton_von_Maron_006.png/250px-Anton_von_Maron_006.png"
+      "name": "Hugh MacLeod",
+      "note": "Britse historicus over kerkgang in de jaren 60",
+      "start_seconds": 1117,
+      "mention_count": 1
     },
     {
       "name": "Jonathan Sacks",
-      "note": "overleden rabbijn, sprak over de mens als partner van God en co-creatie",
-      "start_seconds": 1745,
-      "wiki_checked": true,
-      "wiki_pageid": 5387549,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Sacks",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sirjonathansacks.jpg/250px-Sirjonathansacks.jpg"
+      "note": "rabbijn die over co-creatie en het werk van de mens sprak",
+      "start_seconds": 1746,
+      "mention_count": 2
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "hervormer, naamgever van het calvinisme",
-      "start_seconds": 2086,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Ben Tichelaar",
+      "note": "gedragswetenschapper die sprak over burn-out en zingeving",
+      "start_seconds": 2724,
+      "mention_count": 4
+    },
+    {
+      "name": "Hans Boutelier",
+      "note": "eerder te gast in de podcast; zei dat ons leven een onderneming is geworden",
+      "start_seconds": 2649,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "ondernemer die pleit voor een 80 tot 100 uur werkweek",
+      "start_seconds": 3294,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "auteur die pleit voor een basisinkomen",
+      "start_seconds": 3296,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "premier die in campagnes sprak over de hardwerkende Nederlander",
+      "start_seconds": 2574,
+      "mention_count": 1
     },
     {
       "name": "Fjodor Dostojevski",
-      "note": "Russische schrijver, genoemd als beschrijver van verlichters die boeren wilden disciplineren",
+      "note": "Russische schrijver; verlichters in zijn romans willen de boeren industrialiseren",
       "start_seconds": 2026,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Jozef II",
+      "note": "Oostenrijkse keizer die kloosters afschafte als nutteloos",
+      "start_seconds": 1661,
+      "mention_count": 1
+    },
+    {
+      "name": "Eusebius",
+      "note": "geschiedschrijver die de bekering van Constantijn beschreef",
+      "start_seconds": 1268,
+      "mention_count": 1
+    },
+    {
+      "name": "Calvijn",
+      "note": "reformator; referentie naar de 16e eeuw en het begin van het calvinisme",
+      "start_seconds": 2071,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Aan het werk",
       "author": "James Kennedy",
-      "note": "essay voor de Maand van de Geschiedenis over de Nederlandse arbeidsethos",
+      "note": "essay over de Nederlandse arbeidsethos en de mythes daarover",
       "start_seconds": 41,
-      "volume_id": "oOxEEAAAQBAJ",
+      "volume_id": "CCNwzgEACAAJ",
       "canonical_title": "Aan het werk",
       "canonical_author": "James Kennedy",
-      "isbn13": "9789044648935",
-      "isbn10": "9044648934",
-      "thumbnail": "http://books.google.com/books/content?id=oOxEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044648928",
+      "isbn10": "9044648926",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
     "Nederland",
-    "Verenigde Staten",
-    "Iowa",
+    "Amerika",
     "Utrecht",
-    "Rusland",
+    "Iowa",
     "Oostenrijk",
-    "Europa"
+    "Rusland"
   ],
-  "summary_tldr": "Historicus James Kennedy doorprikt de mythe van de hardwerkende, calvinistische Nederlander: Nederlanders werken juist de minste uren van Europa. Samen met Stefan Paas bespreken ze hoe religie, de staat en economische motieven ons arbeidsethos vormden, en hoe de vrije zaterdag en zondag samenhangen met secularisatie.",
+  "summary_tldr": "James Kennedy en Stefan Paas bespreken het Nederlandse arbeidsethos en de mythe van de hardwerkende calvinist. Ze laten zien hoe religie, economie en de verzorgingsstaat de houding tot werk en de vrije zondag hebben gevormd. Het gesprek eindigt bij de vraag of werk zingeving mag bieden en hoe je prestatiedruk voorkomt.",
   "summary_points": [
-    "Nederlanders werken gemiddeld de minste uren van Europa, mede door deeltijdwerk van vrouwen.",
-    "Amerikanen werken ongeveer vijf weken per jaar meer, maar zijn niet productiever.",
-    "Na 1945 werd hard werken gezien als dienen van gezin en samenleving, niet als zelfontplooiing.",
-    "In de jaren 50 kwam de humanisering van het werk: mensen moesten intrinsiek gemotiveerd zijn.",
-    "Meer vrije tijd in de jaren 60 droeg bij aan kerkverlating: mensen 'forgot to go'.",
-    "De zondagsrust gaat terug op Constantijn in 321 en verschoof van collectieve rust naar individuele keuzevrijheid.",
-    "Protestantisme en moderne staten bevorderden arbeidsdiscipline en keken neer op contemplatieve roepingen.",
-    "Het label 'calvinistisch' voor arbeidsethos werd pas in de jaren 60 gangbaar, aanvankelijk als kritiek.",
-    "Het calvinistische imago maakt deel uit van het merk Nederland."
+    "Nederlanders werken volgens Kennedy juist weinig uren; het beeld van de hardwerkende calvinist is deels een zelfbeeld en merkwaardig.",
+    "Amerikanen werken gemiddeld meer en ontlenen hun zelfwaarde sterker aan werk dan Nederlanders.",
+    "Na de Tweede Wereldoorlog werd hard werken gezien als dienst aan de gemeenschap en wederopbouw.",
+    "De vrije zaterdag en zondag ontstonden via een langzaam proces; de vrije tijd veranderde kerkgang en levenspatronen.",
+    "Constantijn voerde in 321 de vrije zondag in, maar de Joodse sabbat ging hieraan vooraf.",
+    "Max Weber koppelde het calvinisme aan werkijver, maar Kennedy en Paas betwijfelen of dit historisch klopt.",
+    "Het arbeidsethos is geseculariseerd: roeping en plicht blijven bestaan zonder theologische onderbouwing.",
+    "Werk is intensiever geworden en leidt tot prestatiedruk, individualisme en burn-out.",
+    "Paas stelt dat werk zin mag geven, maar dat zingeving in werk ook risico's heeft.",
+    "Beide gasten pleiten voor balans en het uitstralen van een zekere luiheid tegenover ambitie en overwerk."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "De mythe van de hardwerkende Nederlander",
-      "summary": "Kennedy vertelt over zijn cultuurschok bij aankomst in Nederland en over cijfers waaruit blijkt dat Nederlanders de minste uren werken."
+      "start_seconds": 0,
+      "title": "Het calvinistische merk Nederland",
+      "summary": "Paas en Boogerd openen met de vraag of Nederlanders echt zo hard werken als het beeld doet vermoeden."
     },
     {
-      "start_seconds": 548,
-      "title": "Wederopbouw en dienen van de ander",
-      "summary": "Na de Tweede Wereldoorlog werd arbeid gezien als dienstbaarheid aan gezin en samenleving; later kwam de humanisering van werk."
+      "start_seconds": 118,
+      "title": "Cultuurschok en werkuren",
+      "summary": "Kennedy vertelt over zijn overgang van Amerika naar Nederland en over het lage aantal werkuren in Nederland."
     },
     {
-      "start_seconds": 935,
-      "title": "Vrije tijd en kerkverlating",
-      "summary": "De vrije zaterdag en nieuwe levensstijlen in de jaren 60 droegen bij aan de secularisatie."
+      "start_seconds": 588,
+      "title": "Wederopbouw en Jan Salie",
+      "summary": "Na 1945 werd hard werken een gedeelde opdracht, al bestond het arbeidsethos al eerder."
     },
     {
-      "start_seconds": 1214,
-      "title": "Geschiedenis van de zondagsrust",
-      "summary": "Van Constantijn in 321 tot de Nederlandse zondagswetten en de huidige keuzevrijheid versus collectieve rust."
+      "start_seconds": 956,
+      "title": "Vrije tijd, zaterdag en secularisatie",
+      "summary": "De invoering van vrije weekenden veranderde kerkgang en levenspatronen; de secularisatie werd mede hierdoor gevoed."
     },
     {
-      "start_seconds": 1492,
-      "title": "Christendom, staat en arbeidsethos",
-      "summary": "Een verstrengeling van religie, sterke staten en economie vormde het arbeidsethos; protestanten wezen het kloosterleven af."
+      "start_seconds": 1217,
+      "title": "Keizer Constantijn en de vrije zondag",
+      "summary": "Paas schetst de geschiedenis van de zondagsrust en het verschil tussen collectieve en individuele vrijheid."
     },
     {
       "start_seconds": 2063,
-      "title": "Calvinisme als label en merk",
-      "summary": "Pas sinds de jaren 60 wordt calvinisme gekoppeld aan werken, eerst als kritiek en later als onderdeel van het merk Nederland."
+      "title": "Calvinisme, Weber en de mythe",
+      "summary": "Het gesprek gaat over religie, economie en de vraag of het calvinisme echt verantwoordelijk is voor de werkethos."
+    },
+    {
+      "start_seconds": 2756,
+      "title": "Zingeving, burn-out en status",
+      "summary": "Werk als bron van zingeving brengt zowel zin als risico's met zich mee, zoals burn-out en statusdruk."
+    },
+    {
+      "start_seconds": 3155,
+      "title": "Falen, toekomst en luiheid uitstralen",
+      "summary": "Het gesprek sluit af met falen als onderdeel van leven, de kritiek op ambitie en het pleidooi voor balans."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 232,
-      "speaker": "James Kennedy",
-      "text": "Nederlanders werken de minste uren van alle Europeanen, maar zijn wel efficiënt en productief.",
-      "note": "Doorprikt een hardnekkige mythe."
-    },
-    {
-      "start_seconds": 334,
-      "speaker": "James Kennedy",
-      "text": "Als je 12 uur nodig hebt voor iets wat in 8 uur kan, is dat een vorm van argeloos omgaan met je tijd.",
-      "note": "Koppelt luiheid aan het niet maken van keuzes."
-    },
-    {
-      "start_seconds": 1160,
-      "speaker": "Stefan Paas",
-      "text": "Je stopt met naar de kerk gaan en daarna raak je je geloof kwijt, niet andersom.",
-      "note": "Draait de gebruikelijke volgorde van secularisatie om."
-    },
-    {
-      "start_seconds": 1380,
-      "speaker": "Stefan Paas",
-      "text": "Het afschaffen van de vrije zondag wordt gezien als een vrijheid.",
-      "note": "Laat zien hoe vrijheid individueel is gaan worden."
-    },
-    {
       "start_seconds": 2232,
       "speaker": "Stefan Paas",
-      "text": "We doen eigenlijk geen moer, maar al luierend hebben we het beeld geschapen dat we het heel goed doen; het calvinisme functioneert daarin.",
-      "note": "Prikkelende kijk op het merk Nederland."
+      "text": "Wij zijn Calvinisten. We doen eigenlijk geen moer, maar we hebben al luierend toch het beeld weten te scheppen dat we het best heel goed doen.",
+      "note": "Ironische samenvatting van het Nederlandse zelfbeeld als hardwerkend land, die de mythe blootlegt."
+    },
+    {
+      "start_seconds": 2790,
+      "speaker": "Stefan Paas",
+      "text": "Waar ga je dan je zingeving zoeken? Waarschijnlijk op de plek waar je de meeste tijd doorbrengt.",
+      "note": "Een scherpe verklaring waarom werk zingeving wordt, wanneer andere bronnen wegvallen."
+    },
+    {
+      "start_seconds": 3224,
+      "speaker": "James Kennedy",
+      "text": "Je moet als mens kunnen falen. Er zijn geen Einsteins van deze wereld die niet gekenmerkt zijn door eerst op meerdere fronten te hebben gefaald.",
+      "note": "Pleidooi voor weerbaarheid in een tijd van prestatiedruk en baanonzekerheid."
+    },
+    {
+      "start_seconds": 3298,
+      "speaker": "Stefan Paas",
+      "text": "Ik heb zo de pest aan dat soort talen. Ik vind dat een macho gedoe.",
+      "note": "Kritiek op grote ondernemers die hun extreme werkuren als deugd presenteren."
+    },
+    {
+      "start_seconds": 3485,
+      "speaker": "Stefan Paas",
+      "text": "Werk is mooi, is zinvol, we hebben het nodig, maar je leeft niet om te werken.",
+      "note": "Samenvattende stelling die het gesprek afrondt en de balans benadrukt."
     }
   ],
   "keywords": [
     "arbeidsethos",
     "calvinisme",
-    "Jan Salie",
     "zondagsrust",
     "secularisatie",
-    "Constantijn",
+    "zingeving",
+    "prestatiedruk",
+    "burn-out",
+    "Max Weber",
     "vrije tijd",
-    "verzorgingsstaat",
-    "protestantisme",
-    "humanisering van werk",
-    "merk Nederland"
+    "roeping",
+    "wederopbouw",
+    "co-creatie"
   ],
   "quotes": [
-    "Nederland wordt vaak een calvinistisch land genoemd, een land van harde werkers, maar is dat wel zo?",
+    "waarin hij rücksichtslos de ene na de andere mythe doorprikt",
     "waarom je soms luiheid moet uitstralen"
   ],
   "similar": [
     {
-      "n": 117,
-      "reason": "Religieuze betekenis van werk en arbeid in een seculiere tijd"
+      "n": 13,
+      "reason": "Werk, identiteit en prestatiemaatschappij, met Ben Tiggelaar; sluit direct aan bij arbeidsethos en prestatiedruk."
+    },
+    {
+      "n": 124,
+      "reason": "Efficiëntie als dominante religie en het werk-geloof-verband, vergelijkbaar met de calvinistische arbeidsmythe."
     },
     {
       "n": 51,
-      "reason": "Calvinistische/reformatorische traditie en secularisatie, Nederlandse geschiedenis"
+      "reason": "Refo-gemeenschappen, secularisatie en economie; raakt aan de calvinistische traditie uit de huidige aflevering."
     },
     {
-      "n": 41,
-      "reason": "Calvinistische erfenis in Nederland, Abraham Kuyper en kerk-politiek"
+      "n": 145,
+      "reason": "Economische tijden, geloof en zingeving, met dezelfde gast Paul Schenderling als thema's van geld en God."
     },
     {
-      "n": 2,
-      "reason": "Gast James Kennedy over Nederlandse kerk, cultuur en politiek"
-    },
-    {
-      "n": 89,
-      "reason": "Nederlandse identiteit, protestantisme en natie; Beatrice de Graaf"
+      "n": 62,
+      "reason": "Seculiere samenleving en het verlies van religieuze grondslagen, met Hans Boutellier die ook in deze aflevering figureert."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

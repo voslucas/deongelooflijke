@@ -1,16 +1,21 @@
 {
   "episode": 83,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 87312,
+    "segments": 1000,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31387,
-    "output_tokens": 2421,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 45679,
+    "output_tokens": 6077,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
+    "Kerk & secularisatie",
     "Kunst & cultuur",
     "Zingeving & psyche"
   ],
@@ -20,223 +25,240 @@
   "people": [
     {
       "name": "Willem Jan Otten",
-      "note": "dichter en schrijver, auteur van 'Zondagmorgen', P.C. Hooftprijs 2014",
+      "note": "Gast; dichter, schrijver en auteur van 'Zondagmorgen'",
       "start_seconds": 3,
-      "wiki_checked": true,
-      "wiki_pageid": 179839,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Jan_Otten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg/250px-Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Paus Franciscus",
-      "note": "droeg tijdens corona alleen een mis op in Sint Pieter",
-      "start_seconds": 682,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Jezus",
+      "note": "Centrale figuur in het christelijk geloof; verrijzenis en lijdensverhaal worden besproken",
+      "start_seconds": 2427,
+      "mention_count": 4
     },
     {
-      "name": "Andries Knevel",
-      "note": "oud-directeur van de EO, zond jarenlang kerkdiensten uit",
-      "start_seconds": 842,
-      "wiki_checked": true,
-      "wiki_pageid": 106874,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andries_Knevel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Andries_Knevel.png/250px-Andries_Knevel.png"
+      "name": "Ternike",
+      "note": "Dichteres die geciteerd wordt over knielen en zelfbeschouwing",
+      "start_seconds": 552,
+      "mention_count": 1
     },
     {
-      "name": "Johann Sebastian Bach",
-      "note": "componist van de Matthäus-Passion",
-      "start_seconds": 2460,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "name": "Andries Knevels",
+      "note": "Voormalig directeur van de EO, die kerkdiensten uitzond",
+      "start_seconds": 840,
+      "mention_count": 1
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "reformator, genoemd als kritische blik op sobere kerkbouw",
-      "start_seconds": 1400,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Rudy Kousbroek",
+      "note": "Schrijver wiens krantenstukken Otten becommentarieerde vanwege zijn kritiek op het geloof",
+      "start_seconds": 2616,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; geciteerd over het zoeken naar God",
+      "start_seconds": 3073,
+      "mention_count": 1
+    },
+    {
+      "name": "Petrus",
+      "note": "Apostel wiens twijfel in het evangelie als voorbeeld van geloven wordt genoemd",
+      "start_seconds": 3140,
+      "mention_count": 1
+    },
+    {
+      "name": "Les Murray",
+      "note": "Dichter die 'het hele denken' als poëtisch denken omschrijft",
+      "start_seconds": 3355,
+      "mention_count": 1
+    },
+    {
+      "name": "Calvin",
+      "note": "Reformator; genoemd bij de vraag of hij de kerk esthetisch zou waarderen",
+      "start_seconds": 1394,
+      "mention_count": 1
+    },
+    {
+      "name": "Bach",
+      "note": "Componist van de Matthäuspassion, waar Otten van houdt",
+      "start_seconds": 2480,
+      "mention_count": 1
+    },
+    {
+      "name": "Shakespeare",
+      "note": "Toneelschrijver; voorbeeld van theater via Koning Lear",
+      "start_seconds": 1556,
+      "mention_count": 1
     },
     {
       "name": "Joost",
-      "note": "katholieke vriend van Ottens moeder die hem het Onze Vader leerde",
-      "start_seconds": 1740,
-      "wiki_checked": true
+      "note": "Katholieke man van de moeder van Otten, die hem als kind het Onze Vader leerde en meenam naar de kerk",
+      "start_seconds": 1775,
+      "mention_count": 3
     },
     {
-      "name": "William Shakespeare",
-      "note": "toneelschrijver, vergeleken met kerk als theater",
-      "start_seconds": 1556,
-      "wiki_checked": true,
-      "wiki_pageid": 7192,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Shakespeare",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/250px-Shakespeare.jpg"
+      "name": "Michiel van de Kamp",
+      "note": "Redacteur en medemaker van de Ongelooflijke Podcast",
+      "start_seconds": 2683,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus",
+      "note": "Hoofd van de katholieke kerk; droeg in coronatijd een mis op zonder publiek",
+      "start_seconds": 666,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Zondagmorgen",
       "author": "Willem Jan Otten",
-      "note": "over twee jaar missen van de kerk tijdens corona",
-      "start_seconds": 126,
+      "note": "Nieuw boek over twee jaar missen van de kerk tijdens de coronacrisis",
+      "start_seconds": 146,
       "volume_id": "CLshzwEACAAJ",
-      "canonical_title": "Zondagmorgen: over het missen van god",
+      "canonical_title": "Zondagmorgen",
       "canonical_author": "Willem Jan Otten",
       "isbn13": "9789493220157",
       "isbn10": "949322015X",
       "thumbnail": ""
-    },
-    {
-      "title": "Denken z'n lust",
-      "author": "Willem Jan Otten",
-      "note": "boek over schaamte, porno en bekering",
-      "start_seconds": 2160
     }
   ],
   "bible_refs": [],
   "places": [
     "Amsterdam",
-    "Oekraïne",
-    "Keulen",
-    "Sint Pieter (Rome)",
     "Lunteren",
-    "Italië"
+    "Keulen",
+    "Oekraïne",
+    "Italië",
+    "Vaticaan"
   ],
-  "summary_tldr": "Schrijver Willem Jan Otten vertelt over zijn boek 'Zondagmorgen' en waarom hij het kerkelijk jaar het grootste kunstwerk van de westerse beschaving noemt. Hij spreekt over heilige verveling, de mis als gezamenlijk intiem gebed, en zijn eigen weg van geloofloos gezin naar de kerk.",
+  "summary_tldr": "Willem Jan Otten, dichter en auteur van 'Zondagmorgen', vertelt hoe hij als geloofloos opgegroeide man via een jarenlange zoektocht tot het geloof kwam en de katholieke mis is gaan waarderen. Het gesprek draait om de saaiheid, verveling en het ritueel van de mis, en om de vraag hoe de kerk als kunstwerk kan functioneren. Otten en Stefan Paas bespreken ook de verhouding tussen geloof, twijfel, kunst en poëzie.",
   "summary_points": [
-    "Otten noemt het kerkelijk jaar het grootste kunstwerk vanwege omvang, duur van 2000 jaar en de kunst die het bevat.",
-    "Tijdens corona miste hij vooral de collectieve stilte en de verveling van de mis.",
-    "Verveling en leegte zijn nodig om ontvankelijk te worden voor God en jezelf.",
-    "Een mis op televisie of stream vindt hij obsceen: je kijkt als voyeur naar iets intiems.",
-    "In de mis is het publiek God; de gemeenschap is eerder gezelschap dan toeschouwer, wat verschilt van theater.",
-    "Stefan Paas en David Boogerd contrasteren de gescripte katholieke saaiheid met de risicovollere protestantse dienst.",
-    "Otten groeide geloofloos op maar leerde als kind het Onze Vader via een katholieke vriend van zijn moeder.",
-    "Zijn eerste kerkbezoek was beladen met schroom, vergelijkbaar met een pornowinkel binnengaan; schaamte en zondebesef serieus nemen was voor hem een begin van geloof.",
-    "Pas na vijf jaar kerkganger zijn kwam hij tot doop, door los te laten dat hij alles moest begrijpen.",
-    "De opstanding vond hij eerst kitscherig en overbodig, maar ze bleek de kern van het geloof."
+    "Otten noemt het kerkelijk jaar het grootste kunstwerk van de westerse beschaving, vanwege omvang en duur.",
+    "Tijdens de coronaperiode miste Otten vooral de collectieve stilte en het gezamenlijke ritueel van de mis.",
+    "Een televisie- of streamuitzending van de mis voelt voor Otten als gluren naar iets intiems waar hij niet bij hoort.",
+    "Verveling wordt door Otten en Paas gezien als een ruimte die nodig is om ontvankelijk te worden voor God en transcendentie.",
+    "De katholieke mis is gescript en gechoreografeerd, terwijl protestantse samenkomsten risicovoller en wisselvalliger zijn.",
+    "De kerk verschilt van theater doordat de toeschouwer zelf meedoet en het publiek uiteindelijk God is.",
+    "Otten's jeugd was geloofloos, maar een korte kerkgang met een stiefvader-achtige figuur wekte al interesse op.",
+    "Otten's bekering verliep traag: vijf jaar lang wachtte hij op een geloofsbesef voordat hij ter communie ging.",
+    "Zijn angst dat geloof zijn kunstenaarschap zou ondermijnen bleek achteraf ongegrond; geloof en poëzie blijken elkaar te raken.",
+    "De opstanding van Jezus vond Otten lange tijd een onnodige, kitscherige wending aan het lijdensverhaal."
   ],
   "chapters": [
     {
-      "start_seconds": 33,
-      "title": "De mis na de inval in Oekraïne",
-      "summary": "Otten vertelt over de eerste volle mis na corona, samenvallend met de oorlog in Oekraïne, en over het doorgaan van het kerkelijk ritme in oorlogstijd."
+      "start_seconds": 0,
+      "title": "Inleiding over de mis als kunstwerk",
+      "summary": "David Boogerd introduceert Otten en zijn boek 'Zondagmorgen' en leest een passage voor over het saaie karakter van de mis."
     },
     {
-      "start_seconds": 422,
-      "title": "Het grootste kunstwerk en de collectieve stilte",
-      "summary": "Otten legt uit waarom het kerkelijk jaar een kunstwerk is en wat hij tijdens corona het meest miste."
+      "start_seconds": 146,
+      "title": "Het gemis van de mis tijdens corona",
+      "summary": "Otten en Paas bespreken hoe de coronatijd het missen van de kerk en vooral de collectieve stilte pijnlijk maakte."
     },
     {
-      "start_seconds": 625,
-      "title": "Stream en voyeurisme",
-      "summary": "Waarom een mis op televisie obsceen aanvoelt en de kerk geen kijksport is."
+      "start_seconds": 633,
+      "title": "Kerkdiensten op televisie en stream",
+      "summary": "Otten beschrijft zijn afkeer van het volgen van de mis via tv en stream, die hij als obscene voyeurisme ervaart."
     },
     {
       "start_seconds": 917,
-      "title": "Heilige saaiheid",
-      "summary": "Over verveling als leeglopen om ontvankelijk te worden, en het verschil tussen katholieke en protestantse eredienst."
+      "title": "Heilige saaiheid en verveling",
+      "summary": "Verveling wordt gezien als een ontvankelijke leegte die ruimte maakt voor God, met vergelijkingen met mystiek en protestantse diensten."
     },
     {
-      "start_seconds": 1239,
-      "title": "Kerk en theater",
-      "summary": "Otten vergelijkt de mis met toneel: de gemeenschap doet mee en het publiek is God."
+      "start_seconds": 1227,
+      "title": "De kerk als theater",
+      "summary": "Otten en Paas vergelijken de mis met theater en komen tot het inzicht dat de gelovige meespeelt en het publiek God is."
     },
     {
-      "start_seconds": 1681,
-      "title": "Opvoeding en eerste stappen naar de kerk",
-      "summary": "Otten vertelt over zijn geloofloze jeugd, Joost en de schroom bij het eerste kerkbezoek."
+      "start_seconds": 1775,
+      "title": "Jeugd en eerste kerkgang",
+      "summary": "Otten vertelt over zijn geloofloze jeugd, het korte contact met de katholieke kerk via zijn moeders vriend en zijn schroom bij de eerste kerkgang."
     },
     {
-      "start_seconds": 2100,
-      "title": "Schaamte, zonde en verveling",
-      "summary": "Het luisteren naar schaamte en schuld als weg naar geloof."
+      "start_seconds": 2427,
+      "title": "Bekering, twijfel en de opstanding",
+      "summary": "Otten beschrijft de jaren van wachten op geloof, zijn ervaring van bevrijding en zijn kritiek op de opstanding als kitscherig verhaalelement."
     },
     {
-      "start_seconds": 2245,
-      "title": "Vijf jaar twijfel en de opstanding",
-      "summary": "Otten beschrijft hoe hij tot geloof kwam en zijn worsteling met de verrijzenis."
+      "start_seconds": 3254,
+      "title": "Poëzie, geloof en het schrijverschap",
+      "summary": "Het gesprek eindigt bij de overlap tussen poëzie en geloof en de vraag waarom Otten in de je-vorm schrijft."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
-      "speaker": "Willem Jan Otten",
-      "text": "Je gelooft het allemaal. Ik weet niet precies wat ik geloof, maar er zijn dingen die ik pas kan begrijpen als ik de stap zet.",
-      "note": "Het moment van doorbraak na vijf jaar aarzelen."
+      "start_seconds": 33,
+      "speaker": "David Boogerd",
+      "text": "Een mis is dan ook, om te beginnen, saai.",
+      "note": "Boogerd citeert de kernstelling uit het boek, die hij verrassend vond gezien de hartstocht van Otten."
     },
     {
-      "start_seconds": 732,
+      "start_seconds": 1654,
       "speaker": "Willem Jan Otten",
-      "text": "Een stream van een mis is een beetje alsof je de slaapkamer van je ouders inkijkt.",
-      "note": "Scherp beeld voor het voyeuristische van gestreamde kerkdiensten."
+      "text": "Het publiek is God.",
+      "note": "Een scherpe omkering van het theaterbegrip: de gelovige kijkt niet naar een voorstelling maar naar God."
     },
     {
-      "start_seconds": 1955,
+      "start_seconds": 2213,
       "speaker": "Willem Jan Otten",
-      "text": "De schroom om een kerk binnen te gaan was moeilijker dan een pornowinkel binnengaan.",
-      "note": "Verrassende en eerlijke vergelijking."
+      "text": "Verveling is een geweldig woord.",
+      "note": "Otten draait het begrip saaiheid om tot iets vruchtbaars en waardeert verveling boven saaiheid."
     },
     {
-      "start_seconds": 337,
+      "start_seconds": 2169,
       "speaker": "Willem Jan Otten",
-      "text": "Beelden van mensen die een mis opdragen in de ruïne van de kathedraal van Keulen.",
-      "note": "Ontroerend beeld van de kerk die blijft functioneren in oorlog."
+      "text": "Zondebesef is niet een opgelegde, door het christendom opgelegde, onvrijmakende iets, maar een gevoel van ongerechtheid waar je niet zonder kunt.",
+      "note": "Otten herwaardeert zonde en schaamte als een menselijke ervaring die je niet moet wegredeneren."
     },
     {
-      "start_seconds": 997,
+      "start_seconds": 2537,
       "speaker": "Willem Jan Otten",
-      "text": "Mijn moeder zei: als je je verveelt, loop je leeg en dat heb je nodig om weer vol te stromen.",
-      "note": "Kern van zijn lof op verveling."
+      "text": "Het verhaal is mooi zo, met een lijdende Christus aan het kruis; de opstanding is eraan geplakt.",
+      "note": "Een verrassende openhartige kritiek van een gelovige over het verhaal waar het geloof om draait."
     }
   ],
   "keywords": [
-    "Zondagmorgen",
     "kerkelijk jaar",
     "mis",
     "verveling",
-    "liturgie",
+    "stilte",
+    "ritueel",
     "katholicisme",
-    "theater",
+    "bekering",
     "schaamte",
     "opstanding",
-    "bekering",
-    "stilte"
+    "poëzie",
+    "theater",
+    "geloof en twijfel"
   ],
   "quotes": [
-    "Het grootste kunstwerk van de Westerse beschaving"
+    "Het grootste kunstwerk van de Westerse beschaving",
+    "heilige saaiheid",
+    "de kitsch van de opstanding"
   ],
   "similar": [
     {
       "n": 181,
-      "reason": "Ook met Willem Jan Otten: geloof, kunst en cultuur, Bach en schoonheid."
+      "reason": "Zelfde gast Willem Jan Otten; geloof, kunst en de weg naar God."
     },
     {
       "n": 296,
-      "reason": "Govert Jan Bach: Matthäus-Passion, kunst en lijden, zingeving."
+      "reason": "Zingeving en kunst via muziek, lijden en de Matthäus-Passion, net als in deze aflevering."
     },
     {
-      "n": 225,
-      "reason": "Antoine Bodar over kunst, kerkelijk jaar en schoonheid van het katholieke geloof."
+      "n": 154,
+      "reason": "Geloofstwijfel en het niet kunnen ongelovig blijven, met aandacht voor kunst en literatuur."
     },
     {
-      "n": 116,
-      "reason": "Bodar over het mysterie van het geloof en de liturgie van de kerk."
+      "n": 109,
+      "reason": "Zingeving, zoektocht naar geloof en kerk als gespreksthema, met kunst als raakvlak."
     },
     {
-      "n": 70,
-      "reason": "Schrijver die later naar de kerk gaat, vanuit een ongelovige achtergrond."
+      "n": 107,
+      "reason": "Het goddelijke in klassieke muziek en kunst als weg naar het transcendente."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

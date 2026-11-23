@@ -1,18 +1,23 @@
 {
   "episode": 292,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 144194,
+    "segments": 1440,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31216,
-    "output_tokens": 2823,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 74449,
+    "output_tokens": 4256,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Filosofie & ethiek",
     "Geopolitiek & oorlog",
-    "Amerika & Trump"
+    "Amerika & Trump",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Haroon Sheikh"
@@ -20,341 +25,446 @@
   "people": [
     {
       "name": "Peter Thiel",
-      "note": "Oprichter van Palantir, filosoof-ondernemer met grote invloed op de regering-Trump",
-      "start_seconds": 128,
-      "wiki_checked": true,
-      "wiki_pageid": 4611632,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/250px-Peter_Thiel_%282014%29.jpg"
+      "note": "techondernemer en filosoof, invloedrijk bij Trump-regering, medeoprichter Palantir",
+      "start_seconds": 38,
+      "mention_count": 22
     },
     {
-      "name": "JD Vance",
-      "note": "Vicepresident van de VS, door Thiel gesteund",
-      "start_seconds": 128,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "name": "Haroon Sheikh",
+      "note": "gast, filosoof en bijzonder hoogleraar VU",
+      "start_seconds": 129,
+      "mention_count": 60
     },
     {
       "name": "Elon Musk",
-      "note": "Techmiljardair, betrokken bij DOGE en Grok",
-      "start_seconds": 249,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Sam Altman",
-      "note": "Hoofd van OpenAI (ChatGPT)",
-      "start_seconds": 249,
-      "wiki_checked": true,
-      "wiki_pageid": 5745336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Altman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29.jpg/250px-Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29.jpg"
+      "note": "techondernemer, Tesla, SpaceX, X, Neuralink",
+      "start_seconds": 229,
+      "mention_count": 14
     },
     {
       "name": "Alex Karp",
-      "note": "Medeoprichter van Palantir, gepromoveerd filosoof in Duitsland",
+      "note": "medeoprichter Palantir, studeerde filosofie in Frankfurt",
       "start_seconds": 264,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "Filosoof; Übermensch en 'wat valt, moet je nog een zetje geven'",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Oswald Spengler",
-      "note": "Duitse cultuurfilosoof",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 349924,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oswald_Spengler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Bundesarchiv_Bild_183-R06610%2C_Oswald_Spengler.jpg/250px-Bundesarchiv_Bild_183-R06610%2C_Oswald_Spengler.jpg"
+      "note": "filosoof, Übermensch-denken",
+      "start_seconds": 300,
+      "mention_count": 6
     },
     {
       "name": "Carl Schmitt",
-      "note": "Duitse staatsrechtsgeleerde",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 171250,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carl_Schmitt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Carl_Schmitt_1904_Schulklasse.jpg/250px-Carl_Schmitt_1904_Schulklasse.jpg"
-    },
-    {
-      "name": "Leo Strauss",
-      "note": "Politiek filosoof, geheime kennis van de filosofie",
-      "start_seconds": 304,
-      "wiki_checked": true,
-      "wiki_pageid": 221455,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leo_Strauss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Leo_Strauss_USA_1939.jpg/250px-Leo_Strauss_USA_1939.jpg"
-    },
-    {
-      "name": "Ernst Jünger",
-      "note": "Duitse schrijver en denker",
-      "start_seconds": 304,
-      "wiki_checked": true,
-      "wiki_pageid": 278353,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernst_J%C3%BCnger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ernst_J%C3%BCnger_WW1.jpg/250px-Ernst_J%C3%BCnger_WW1.jpg"
+      "note": "Duitse staatsrechtsgeleerde, vriend-vijanddenken",
+      "start_seconds": 300,
+      "mention_count": 3
     },
     {
       "name": "René Girard",
-      "note": "Frans-Amerikaanse denker over geweld",
-      "start_seconds": 309,
-      "wiki_checked": true,
-      "wiki_pageid": 171520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Girard_%28menswetenschapper%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ren%C3%A9_Girard.jpg/250px-Ren%C3%A9_Girard.jpg"
+      "note": "denker van mimetisch verlangen en zondebokmechanisme",
+      "start_seconds": 300,
+      "mention_count": 10
     },
     {
-      "name": "Martin Heidegger",
-      "note": "Duitse filosoof",
-      "start_seconds": 313,
-      "wiki_checked": true,
-      "wiki_pageid": 12620,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Heidegger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Heidegger_4_%281960%29_cropped.jpg/250px-Heidegger_4_%281960%29_cropped.jpg"
-    },
-    {
-      "name": "Ayn Rand",
-      "note": "Auteur van heroïsch individualisme",
-      "start_seconds": 525,
-      "wiki_checked": true,
-      "wiki_pageid": 131086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayn_Rand",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ayn_Rand_%281943_Talbot_portrait%29.jpg/250px-Ayn_Rand_%281943_Talbot_portrait%29.jpg"
-    },
-    {
-      "name": "Marc Andreessen",
-      "note": "Venture capitalist uit Silicon Valley",
-      "start_seconds": 762,
-      "wiki_checked": true,
-      "wiki_pageid": 6028775,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marc_Andreessen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Marc_Andreessen-9_%28cropped%29.jpg/250px-Marc_Andreessen-9_%28cropped%29.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "Riep op ChatGPT-abonnementen op te zeggen",
-      "start_seconds": 1115,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
-    },
-    {
-      "name": "Pierre Teilhard de Chardin",
-      "note": "Theoloog van het Omega Point",
-      "start_seconds": 1832,
-      "wiki_checked": true,
-      "wiki_pageid": 197940,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pierre_Teilhard_de_Chardin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/TeilhardP_1955.jpg/250px-TeilhardP_1955.jpg"
-    },
-    {
-      "name": "John Perry Barlow",
-      "note": "Schreef manifest voor onafhankelijkheid van cyberspace",
-      "start_seconds": 1993,
-      "wiki_checked": true
-    },
-    {
-      "name": "John Locke",
-      "note": "Filosoof; arbeid en eigendom van nieuwe wereld",
-      "start_seconds": 2126,
-      "wiki_checked": true,
-      "wiki_pageid": 5679,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Locke_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/250px-John_Locke.jpg"
-    },
-    {
-      "name": "David Sacks",
-      "note": "Crypto-tsaar van Trump, afkomstig uit Zuid-Afrika",
-      "start_seconds": 2046,
-      "wiki_checked": true
-    },
-    {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, belangen rond Iran",
-      "start_seconds": 1716,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "name": "JD Vance",
+      "note": "vicepresident van de VS",
+      "start_seconds": 720,
+      "mention_count": 5
     },
     {
       "name": "Donald Trump",
-      "note": "President van de VS",
-      "start_seconds": 640,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "president van de VS",
+      "start_seconds": 600,
+      "mention_count": 8
+    },
+    {
+      "name": "Barack Obama",
+      "note": "voormalig president van de VS, sociale-mediacampagne",
+      "start_seconds": 630,
+      "mention_count": 3
+    },
+    {
+      "name": "Joe Biden",
+      "note": "voormalig president van de VS",
+      "start_seconds": 674,
+      "mention_count": 3
+    },
+    {
+      "name": "Ayn Rand",
+      "note": "schrijver van individualistische filosofie",
+      "start_seconds": 530,
+      "mention_count": 2
+    },
+    {
+      "name": "Leo Strauss",
+      "note": "Duits-Amerikaans filosoof, esoterische kennis",
+      "start_seconds": 2220,
+      "mention_count": 3
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "note": "oprichter Meta/Facebook",
+      "start_seconds": 700,
+      "mention_count": 2
+    },
+    {
+      "name": "Sam Altman",
+      "note": "CEO OpenAI",
+      "start_seconds": 1960,
+      "mention_count": 2
+    },
+    {
+      "name": "Marc Andreessen",
+      "note": "techinvesteerder",
+      "start_seconds": 740,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeff Bezos",
+      "note": "oprichter Amazon",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Teilhard de Chardin",
+      "note": "theoloog, Omega Point",
+      "start_seconds": 1830,
+      "mention_count": 2
+    },
+    {
+      "name": "Jonathan Haidt",
+      "note": "psycholoog, The Anxious Generation",
+      "start_seconds": 3110,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Hobbes",
+      "note": "filosoof",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Ross Douthat",
+      "note": "columnist New York Times",
+      "start_seconds": 2440,
+      "mention_count": 2
+    },
+    {
+      "name": "Benjamin Labatut",
+      "note": "auteur van De Maniac",
+      "start_seconds": 3250,
+      "mention_count": 1
+    },
+    {
+      "name": "John von Neumann",
+      "note": "wiskundige, pionier computers",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "auteur The Abolition of Man",
+      "start_seconds": 3560,
+      "mention_count": 2
+    },
+    {
+      "name": "Werner von Braun",
+      "note": "Duitse raketbouwer, NASA",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Aubrey de Grey",
+      "note": "gerontoloog, anti-veroudering",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Oswald Spengler",
+      "note": "cultuurfilosoof",
+      "start_seconds": 300,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernst Jünger",
+      "note": "Duits schrijver",
+      "start_seconds": 300,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof",
+      "start_seconds": 320,
+      "mention_count": 1
+    },
+    {
+      "name": "John Locke",
+      "note": "filosoof, eigendom en arbeid",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "Athense filosoof",
+      "start_seconds": 2260,
+      "mention_count": 1
+    },
+    {
+      "name": "Plato",
+      "note": "filosoof",
+      "start_seconds": 2230,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "schrijver/historicus, oproep ChatGPT-boycot",
+      "start_seconds": 1100,
+      "mention_count": 1
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "klimaatactiviste",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon",
+      "note": "Franse keizer",
+      "start_seconds": 2330,
+      "mention_count": 1
+    },
+    {
+      "name": "Saddam Hoessein",
+      "note": "voormalig Iraakse leider",
+      "start_seconds": 1590,
+      "mention_count": 1
+    },
+    {
+      "name": "Jurjen Hamer",
+      "note": "filosoof, genoemd in afsluiting",
+      "start_seconds": 5280,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlisch premier",
+      "start_seconds": 1700,
+      "mention_count": 1
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider",
+      "start_seconds": 3660,
+      "mention_count": 1
+    },
+    {
+      "name": "Chesterton",
+      "note": "schrijver",
+      "start_seconds": 4140,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [
-    "Silicon Valley",
-    "Verenigde Staten",
-    "China",
-    "Iran",
-    "Venezuela",
-    "Groenland",
-    "Zuid-Afrika",
-    "Europa",
-    "Frankrijk",
-    "Washington"
+  "books": [
+    {
+      "title": "The Abolition of Man",
+      "author": "C.S. Lewis",
+      "note": "1943, kritiek op technocratische mensbeeld",
+      "start_seconds": 3560,
+      "volume_id": "pGl4zgEACAAJ",
+      "canonical_title": "The Abolition of Man",
+      "canonical_author": "C. S. Lewis",
+      "isbn13": "9798587278479",
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De Maniac",
+      "author": "Benjamin Labatut",
+      "note": "over John von Neumann en instrumentele logica",
+      "start_seconds": 3250
+    },
+    {
+      "title": "The Anxious Generation",
+      "author": "Jonathan Haidt",
+      "note": "over sociale media en mentale gezondheid",
+      "start_seconds": 3110,
+      "volume_id": "Iwxg0QEACAAJ",
+      "canonical_title": "The Anxious Generation",
+      "canonical_author": "Jonathan Haidt",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Atlas van de digitale wereld",
+      "author": "Haroon Sheikh",
+      "note": "zeven lagen van de digitale wereld",
+      "start_seconds": 4860,
+      "volume_id": "zK_a0AEACAAJ",
+      "canonical_title": "Atlas van de digitale wereld: richting Europese digitale soevereiniteit",
+      "canonical_author": "Haroon Sheikh",
+      "isbn13": "9789024468355",
+      "isbn10": "9024468353",
+      "thumbnail": ""
+    },
+    {
+      "title": "Plurality",
+      "author": "",
+      "note": "voorbeelden pro-democratische digitale technologie",
+      "start_seconds": 4610
+    }
   ],
-  "summary_tldr": "Filosoof Haroon Sheikh duidt de denkbeelden achter Big Tech: van Nietzsche en Carl Schmitt tot accelerationisme, Ayn Rand en Peter Thiel. Samen met Stefan Paas bespreken ze de verwevenheid van techbedrijven met de Amerikaanse regering, AI in oorlogvoering en de quasi-religieuze verlossings- en onsterfelijkheidsidealen.",
+  "bible_refs": [
+    {
+      "ref": "Genesis 3",
+      "note": "paradijsverhaal, boom van de kennis; Jezus en duivel bijbelteksten",
+      "start_seconds": 3750
+    },
+    {
+      "ref": "Mattheus 4",
+      "note": "verzoeking van Jezus door de duivel met bijbelteksten",
+      "start_seconds": 3780
+    }
+  ],
+  "places": [
+    "Iran",
+    "Silicon Valley",
+    "Oekraïne",
+    "Voorburg",
+    "Taiwan",
+    "Groenland",
+    "Israël",
+    "Venezuela",
+    "Irak",
+    "Londen",
+    "Athene",
+    "China",
+    "Nederland",
+    "Europa"
+  ],
+  "summary_tldr": "Filosoof Haroon Sheikh en theoloog Stefan Paas bespreken de denkbeelden achter Big Tech, zoals Peter Thiel, Elon Musk en Sam Altman, die vaak geïnspireerd zijn door Nietzsche, Girard en Strauss. Ze analyseren de religieuze trekken van techno-utopieën zoals verlossing, onsterfelijkheid en AI als God, en de gevaren voor democratie en mensbeeld. Het gesprek eindigt met de vraag hoe Europa een eigen digitaal en moreel verhaal kan ontwikkelen.",
   "summary_points": [
-    "Techgiganten als Thiel en Karp beroepen zich op Duits-Franse denkers als Nietzsche, Schmitt, Strauss en Girard.",
-    "Fascinatie voor geweld en de duistere kant van de mens kleurt hun mensbeeld.",
-    "Accelerationisme: snelheid en disruptie, oude orde (natiestaten, religie) moet worden afgebroken.",
-    "Elitair denken à la Ayn Rand: bijzondere individuen verdienen vrijheid, democratie wordt als hinderlijk gezien.",
-    "Big Tech is nu versmolten met de Amerikaanse regering, onder meer via Palantir, OpenAI en Musk.",
-    "AI maakt 'mass precision' in oorlog mogelijk en verlaagt mogelijk de drempel voor aanvallen.",
-    "AI-chatbots zijn vleiend (sycophancy) en kunnen mensen beïnvloeden en radicaliseren.",
-    "Singulariteit en Omega Point geven AI religieuze trekken.",
-    "Seasteading en freedom cities tonen de wens voor vrijplaatsen zonder overheid.",
-    "Frontier- en kolonisatiedenken uit Amerika en Zuid-Afrika werkt door in de tech-ideologie."
+    "Big Tech is onmisbare infrastructuur voor democratie, informatie en dagelijks leven geworden.",
+    "Techfiguren als Peter Thiel baseren hun wereldbeeld op filosofen als Nietzsche, Schmitt en Strauss.",
+    "Gemeenschappelijk motief is fascinatie voor geweld en de duistere kant van de mens.",
+    "Accelerationisme en 'move fast and break things' pleiten voor het afbreken van oude orde.",
+    "Big Tech heeft directe politieke invloed in de Amerikaanse regering, versterkt onder Trump.",
+    "AI wordt ingezet voor militaire surveillance en precisiewapens, met gevaren voor escalatie.",
+    "Techdenkers tonen religieuze trekken: verlossing, Omega Point, onsterfelijkheid en apocalyptiek.",
+    "Girards mimetische theorie verklaart de werking van likes en sociale media-verslaving.",
+    "Sheikh pleit voor Europese digitale soevereiniteit en technologie die democratie versterkt.",
+    "Paas waarschuwt dat de techno-utopie een technocratisch en aristocratisch mensbeeld is, vergelijkbaar met eerdere engineering-dromen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en Big Tech in het dagelijks leven",
-      "summary": "Introductie van Haroon Sheikh en zijn eigen omgang met technologie."
+      "title": "Introductie en de denkers achter Big Tech",
+      "summary": "Presentatie van Sheikh en de vraag welke filosofische ideeën achter techgiganten schuilgaan."
     },
     {
-      "start_seconds": 225,
-      "title": "De filosofen achter Big Tech",
-      "summary": "Thiel, Karp en hun fascinatie voor Nietzsche, Schmitt en Girard en de rol van geweld."
+      "start_seconds": 300,
+      "title": "Duistere filosofie en geweld",
+      "summary": "Bespreking van Nietzsche, Schmitt, Girard en de fascinatie voor geweld en accelerationisme."
     },
     {
-      "start_seconds": 370,
-      "title": "Accelerationisme en de Übermensch",
-      "summary": "Disruptie, afbraak van de oude orde en het idee van uitzonderlijke individuen."
+      "start_seconds": 600,
+      "title": "Macht van Big Tech en de Trump-connectie",
+      "summary": "Politieke invloed van techbedrijven, Palantir, Vance en de verwevenheid met de Amerikaanse overheid."
     },
     {
-      "start_seconds": 597,
-      "title": "Macht van Big Tech en de Amerikaanse politiek",
-      "summary": "Verwevenheid met de regering-Trump, Palantir, Vance en Biden-regulering."
+      "start_seconds": 1500,
+      "title": "AI, oorlog en Iran",
+      "summary": "AI in militaire operaties, precisiewapens en geopolitieke scenario's rond Iran."
     },
     {
-      "start_seconds": 1075,
-      "title": "AI, surveillance en oorlog",
-      "summary": "OpenAI, Anthropic, sycophancy en AI bij de aanval op Iran."
+      "start_seconds": 2400,
+      "title": "Sociale media, Girard en de like-knop",
+      "summary": "Hoe mimetisch verlangen en zondebokmechanisme worden benut in platforms en de rol van Thiel."
     },
     {
-      "start_seconds": 1440,
-      "title": "Iran en regime change",
-      "summary": "Sheikh over de kansen en risico's van regimeverandering in Iran."
+      "start_seconds": 3300,
+      "title": "Religieuze trekken, onsterfelijkheid en technocratie",
+      "summary": "Verlossingsdromen, Omega Point, Lewis en de gevaren van instrumentele rede."
     },
     {
-      "start_seconds": 1720,
-      "title": "Religieuze trekken: singulariteit en vrijheid",
-      "summary": "Singulariteit, Omega Point, seasteading en Thiels keuze voor vrijheid boven democratie."
-    },
-    {
-      "start_seconds": 2025,
-      "title": "Frontier, Zuid-Afrika en kolonialisme",
-      "summary": "De Amerikaanse en Zuid-Afrikaanse wortels van het elitaire, koloniale denken."
+      "start_seconds": 4500,
+      "title": "Europees alternatief en digitale soevereiniteit",
+      "summary": "Hoe Europa technologie kan inzetten voor democratie en welvaart voor meer mensen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
-      "speaker": "Haroon Sheikh",
-      "text": "De filosofie heeft een soort geheime kennis die het niet zomaar kan delen.",
-      "note": "Opent het thema van esoterische kennis."
+      "start_seconds": 3480,
+      "speaker": "Stefan Paas",
+      "text": "Dit is de droom van een relatief kleine groep mensen, die ze projecteren op iedereen en die moeten daar maar in mee.",
+      "note": "Scherpe kritiek op de techno-utopie als elitair project."
     },
     {
-      "start_seconds": 442,
+      "start_seconds": 2100,
       "speaker": "Haroon Sheikh",
-      "text": "Was fallen will, muss man auch noch stoßen.",
-      "note": "Nietzsche-citaat als motto van accelerationisten."
-    },
-    {
-      "start_seconds": 1200,
-      "speaker": "Haroon Sheikh",
-      "text": "AI-modellen praten je naar de mond en radicaliseren je daardoor.",
-      "note": "Scherp inzicht over sycophancy."
+      "text": "Ze omarmen alleen die ene kant ervan en zien niet dat het een waarschuwing is.",
+      "note": "Techdenkers selecteren uit filosofen wat hen uitkomt."
     },
     {
       "start_seconds": 1830,
-      "speaker": "Haroon Sheikh",
-      "text": "God komt niet aan het begin van de schepping, maar aan het eind: dat is wat AI gaat maken.",
-      "note": "Religieuze lading van AI."
+      "speaker": "Stefan Paas",
+      "text": "Het christendom is eigenlijk de eerste die dat bewust maakt: de zondebok is onschuldig.",
+      "note": "Girards visie op het kruis als ontmaskering van geweld."
     },
     {
-      "start_seconds": 1972,
+      "start_seconds": 3000,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt wel eeuwig leven, maar wat voor leven is dat überhaupt?",
+      "note": "Kernvraag over kwaliteit van leven versus verlengd leven."
+    },
+    {
+      "start_seconds": 1500,
       "speaker": "Haroon Sheikh",
-      "text": "Thiel kiest in zijn artikel voor vrijheid en niet voor democratie.",
-      "note": "Onthult anti-democratische kern."
+      "text": "Als het denken niet geleid wordt door wat goed menselijk leven is, maar gewoon wat er mogelijk is.",
+      "note": "Verklaart de gevaarlijke logica van Silicon Valley."
     }
   ],
   "keywords": [
     "Big Tech",
     "Peter Thiel",
-    "Palantir",
-    "Accelerationisme",
-    "Nietzsche",
+    "René Girard",
+    "mimetisch verlangen",
+    "zondebokmechanisme",
+    "accelerationisme",
     "Übermensch",
-    "Singulariteit",
-    "Omega Point",
-    "Seasteading",
-    "Sycophancy",
-    "Surveillance",
-    "Silicon Valley"
+    "transhumanisme",
+    "onsterfelijkheid",
+    "digitale soevereiniteit",
+    "AI-oorlogsvoering",
+    "Leo Strauss"
   ],
   "quotes": [
-    "Het wereldbeeld van Big Tech vertoont soms bijna religieuze trekken: met ideeën over verlossing, esoterische geheimen en zelfs onsterfelijkheid."
+    "Ik ben niet bezig met speculeren over wat ze achter de schermen doen, maar met het wereldbeeld dat deze mensen hebben.",
+    "Ze omarmen alleen die ene kant ervan.",
+    "Wat voor leven is dat überhaupt?"
   ],
   "similar": [
     {
       "n": 228,
-      "reason": "Wereldbeeld van Elon Musk en superrijke techgiganten, verwevenheid met Trump-regering"
+      "reason": "Wereldbeeld van Elon Musk en andere techgiganten; sluit direct aan op Big Tech-denkbeelden."
     },
     {
-      "n": 241,
-      "reason": "De denkers en ideologieën achter Trump, filosofische achtergronden"
+      "n": 247,
+      "reason": "Jonathan Haidt over smartphones, social media en AI; Haidt wordt ook in #292 besproken."
     },
     {
       "n": 306,
-      "reason": "AI, Elon Musk en de strijd om de mens, quasi-religieuze techbelofte"
+      "reason": "AI, Elon Musk en de paus; overlap in techno-utopie, mensbeeld en religieuze thema's."
     },
     {
       "n": 298,
-      "reason": "Gevaren van AI, Big Tech en geopolitiek met Trump"
+      "reason": "Gevaren van AI met geopolitieke en Amerikaanse Trump-context; overlappende thema's."
     },
     {
-      "n": 325,
-      "reason": "Technologie die mens herontwerpt, onsterfelijkheids- en verbeteringsidealen"
+      "n": 257,
+      "reason": "AI, techniek en de aanval op de ziel; filosofische kritiek op technologie."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

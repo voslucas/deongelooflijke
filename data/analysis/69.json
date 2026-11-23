@@ -1,17 +1,22 @@
 {
   "episode": 69,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 73819,
+    "segments": 661,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30630,
-    "output_tokens": 2383,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 37582,
+    "output_tokens": 6788,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
     "God & geloof",
-    "Zingeving & psyche",
+    "Bijbel & Jezus",
     "Klimaat & natuur"
   ],
   "guests": [
@@ -20,74 +25,66 @@
   ],
   "people": [
     {
-      "name": "Stephen Hawking",
-      "note": "natuurkundige, schreef over zwarte gaten en spaghettificatie",
-      "start_seconds": 418,
-      "wiki_checked": true,
-      "wiki_pageid": 26659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stephen_Hawking",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/250px-Stephen_Hawking.StarChild.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "lanceert duizenden satellieten die de sterrenhemel verstoren",
-      "start_seconds": 371,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
       "name": "Georges Lemaître",
-      "note": "katholiek priester en natuurkundige, bedenker van de oerknaltheorie",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 95534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georges_Lema%C3%AEtre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/GLemaitre30.jpg/250px-GLemaitre30.jpg"
+      "note": "Katholieke priester en natuurkundige die de oerknaltheorie uitwerkte",
+      "start_seconds": 1687,
+      "mention_count": 4
     },
     {
       "name": "Albert Einstein",
-      "note": "natuurkundige, geloofde in een eeuwig heelal",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "note": "Natuurkundige wiens relativiteitstheorie Lemaître als basis gebruikte",
+      "start_seconds": 1687,
+      "mention_count": 4
+    },
+    {
+      "name": "Stephen Hawking",
+      "note": "Natuurkundige; zijn boeken beschrijven het 'spaghettificeren' bij een zwart gat",
+      "start_seconds": 417,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer die satellietconstellaties in de ruimte brengt",
+      "start_seconds": 371,
+      "mention_count": 1
     },
     {
       "name": "Ursula K. Le Guin",
-      "note": "sciencefictionschrijfster, citaat over wetenschap en poëzie",
+      "note": "Sciencefictionschrijver die wetenschap en poëzie vergelijkt",
       "start_seconds": 2153,
-      "wiki_checked": true,
-      "wiki_pageid": 15464,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ursula_Le_Guin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ursula_K_Le_Guin.JPG/250px-Ursula_K_Le_Guin.JPG"
+      "mention_count": 1
+    },
+    {
+      "name": "Kees Dekker",
+      "note": "Collega-natuurkundige van Heino Falcke, spreekt over de kans op leven",
+      "start_seconds": 2710,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Voormalig Amerikaans president; context van de schrijfperiode van het boek",
+      "start_seconds": 2885,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Licht in de Duisternis",
       "author": "Heino Falcke",
-      "note": "over de eerste foto van een zwart gat",
-      "start_seconds": 150,
-      "volume_id": "1-YZEAAAQBAJ",
-      "canonical_title": "Licht in de duisternis",
-      "canonical_author": "Heino Falcke",
-      "isbn13": "9789044645248",
-      "isbn10": "9044645242",
-      "thumbnail": "http://books.google.com/books/content?id=1-YZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Boek over de foto van het zwarte gat, volgens New Scientist het beste wetenschappelijke boek van 2020",
+      "start_seconds": 135,
+      "volume_id": "2JMQzgEACAAJ",
+      "canonical_title": "Licht in de duisternis: zwarte gaten, het universum en wij",
+      "canonical_author": "Heino Falcke, Jörg Römer",
+      "isbn13": "9789044645231",
+      "isbn10": "9044645234",
+      "thumbnail": ""
     },
     {
-      "title": "In lichtjaren heeft niemand haast",
+      "title": "In Lichtjaren heeft niemand haast",
       "author": "Marjolijn van Heemstra",
-      "note": "over hoe de ruimte ons anders naar de aarde laat kijken",
-      "start_seconds": 150,
+      "note": "Verkent hoe de ruimte een betekenisvollere blik op de aarde geeft",
+      "start_seconds": 1085,
       "volume_id": "1iGDzgEACAAJ",
       "canonical_title": "In lichtjaren heeft niemand haast: een zoektocht naar meer ruimte in ons leven",
       "canonical_author": "Marjolijn van Heemstra",
@@ -99,146 +96,165 @@
   "bible_refs": [
     {
       "ref": "Genesis 1",
-      "note": "scheppingsverhaal: 'er zij licht' als profetisch-poëtische beschrijving die past bij de oerknal",
-      "start_seconds": 1905
+      "note": "Scheppingsverhaal; Falcke leest het als een beschrijving van een ontwikkeling en vergelijkt het met de oerknal",
+      "start_seconds": 1904
+    },
+    {
+      "ref": "Genesis 1:3",
+      "note": "'God zei: er zij licht'; Falcke ziet hierin een parallel met de oerknal",
+      "start_seconds": 1944
     },
     {
       "ref": "Genesis 2",
-      "note": "opdracht aan de mens om de tuin van Eden te bewerken en te bewaken",
+      "note": "De opdracht aan de mens om de tuin van Eden te bewerken en bewaken",
       "start_seconds": 2482
     }
   ],
   "places": [
     "Nijmegen",
-    "Andromedamelkweg",
     "Leuven",
+    "Princeton",
+    "Cambridge",
+    "Duitsland",
+    "Zandvoort",
     "Lauwersoog",
     "Terschelling",
-    "Duitsland",
-    "Princeton",
-    "Cambridge"
+    "Midden-Oosten"
   ],
-  "summary_tldr": "David Boogerd spreekt met sterrenkundige en lekenpredikant Heino Falcke en godsdienstwetenschapper Marjolijn van Heemstra over de religieuze betekenis van het heelal. Ze bespreken het overzichtseffect van astronauten, de foto van het zwarte gat, astrologie onder jongeren en de verhouding tussen oerknal, evolutie en het scheppingsverhaal.",
+  "summary_tldr": "Astrofysicus Heino Falcke en godsdienstwetenschapper Marjolijn van Heemstra onderzoeken hoe het heelal en de ruimtevaart religieuze betekenis kunnen hebben. Ze bespreken het overzichtseffect, de oerknaltheorie van priester Georges Lemaître en de verhouding tussen Genesis en wetenschap. Het gesprek eindigt met de vraag naar hoop, verbondenheid en de vraag of we alleen zijn in het universum.",
   "summary_points": [
-    "Fascinatie voor de ruimte is bij veel kinderen aangeboren en lijkt op fascinatie voor het onbegrijpelijke",
-    "Lichtvervuiling en satellieten maken de sterrenhemel steeds minder zichtbaar",
-    "Astronauten ervaren het overzichtseffect, dat lijkt op een mystieke ervaring van heelheid",
-    "Falcke noemt de eerste foto van een zwart gat een religieuze 'amazing grace'-ervaring",
-    "Het overzicht van boven laat het leed van dichtbij niet zien, daarom moeten kosmische blik en naastenliefde samengaan",
-    "Astrologie maakt een comeback onder jongeren door het instorten van grote verhalen",
-    "Lemaître, priester en bedenker van de oerknal, zag in de grens van de natuurkunde ruimte voor God",
-    "Falcke vindt oerknal en evolutie goed te rijmen met Genesis; Van Heemstra zoekt meer gelijkwaardigheid tussen mens en andere soorten",
-    "Wetenschap beschrijft van buiten, poëzie en religie van binnen"
+    "Het heelal is zo groot dat licht van sterrenstelsels miljoenen jaren onderweg is, en we kijken dus terug in de tijd.",
+    "Lichtvervuiling en satellieten maken de sterrenhemel steeds minder zichtbaar, ook voor toekomstige generaties.",
+    "Het overzichtseffect van astronauten kan een mystieke, religieuze ervaring van heelheid opleveren.",
+    "Falcke ervaart de foto van het zwarte gat als een bijna religieus 'Heureka'-moment.",
+    "De oerknaltheorie werd bedacht door de priester Lemaître, die er een bevrijdende geloofservaring in zag.",
+    "Falcke leest Genesis als een poëtische beschrijving die goed past bij moderne kennis van de kosmos.",
+    "Van Heemstra wijst op het gevaar van een puur kosmische religie die de blik op de naaste verliest.",
+    "De mens heeft een verantwoordelijkheid voor de aarde; de vraag is hoe we daarmee omgaan.",
+    "Kwantumtheorie en zwarte gaten laten zien dat de natuurkunde nog grenzen en onbekende theorieën kent.",
+    "Hoop, verbondenheid en de kracht van het geloof worden gezien als tegenwicht tegen klimaatzorg en vervreemding."
   ],
   "chapters": [
     {
-      "start_seconds": 33,
-      "title": "Verbazingwekkende feitjes over het heelal",
-      "summary": "Kennismaking en een reeks feiten over afstanden, lichtvervuiling, zwarte gaten en de uitdijende kosmos."
+      "start_seconds": 0,
+      "title": "Introductie van het heelal en de gasten",
+      "summary": "David Boogerd introduceert het thema en de gasten: Falcke, zwarte-gatenonderzoeker en lekenpredikant, en Van Heemstra, godsdienstwetenschapper en schrijver."
     },
     {
-      "start_seconds": 605,
-      "title": "Fascinatie voor de ruimte",
-      "summary": "Beide gasten vertellen waar hun liefde voor de ruimte vandaan komt, van de maanlanding tot astronautendromen."
-    },
-    {
-      "start_seconds": 925,
-      "title": "De foto van het zwarte gat",
-      "summary": "Over de wereldwijde impact van de foto en de keuze voor de rode kleur."
+      "start_seconds": 135,
+      "title": "Kosmische feitjes",
+      "summary": "De gasten delen verbazingwekkende feiten over de Andromedanevel, lichtvervuiling, zwarte gaten en de uitdijende kosmos."
     },
     {
       "start_seconds": 1067,
-      "title": "Overzichtseffect en religieuze ervaring",
-      "summary": "Astronauten ervaren heelheid; ruimtereizen op aarde als zoektocht naar zingeving en rituelen."
-    },
-    {
-      "start_seconds": 1417,
-      "title": "Astrologie en het risico van uitzoomen",
-      "summary": "Waarom jongeren naar sterrenbeelden grijpen en hoe kosmische blik en de naaste samen moeten gaan."
+      "title": "Fascinatie en het overzichtseffect",
+      "summary": "Waarom de ruimte fascineert, hoe astronauten het overzichtseffect ervaren en hoe dat als religieuze ervaring kan worden gezien."
     },
     {
       "start_seconds": 1671,
-      "title": "Oerknal, Lemaître en Genesis",
-      "summary": "Het verhaal van priester Lemaître en de vraag of oerknal en evolutie te rijmen zijn met het scheppingsverhaal."
+      "title": "Oerknal, Lemaître en het geloof",
+      "summary": "Het verhaal van priester Georges Lemaître die de oerknaltheorie formuleerde en de scepsis die hij van collega's kreeg."
     },
     {
-      "start_seconds": 2100,
-      "title": "Wetenschap, poëzie en religie",
-      "summary": "Verschillende benaderingen van de werkelijkheid en de plaats van de monotheïstische God in een uitgestrekt heelal."
+      "start_seconds": 1920,
+      "title": "Genesis, wetenschap en geloof",
+      "summary": "Falcke leest Genesis met moderne kennis en ziet geen tegenspraak met evolutie; Van Heemstra stelt de vraag naar verschillen tussen wetenschap en religie."
     },
     {
       "start_seconds": 2450,
-      "title": "De positie van de mens in de schepping",
-      "summary": "Discussie over de verhouding tot natuur en andere soorten en de opdracht om de aarde te bewaren."
+      "title": "Schepping, de mens en de naaste",
+      "summary": "Discussie over de rol van de mens in de schepping, de opdracht om de aarde te bewaren en het gevaar van een puur kosmische religie."
+    },
+    {
+      "start_seconds": 2580,
+      "title": "Kwantumtheorie en buitenaards leven",
+      "summary": "De gasten bespreken de bizarre kwantumwereld, de kans op leven elders in het heelal en de film Arrival."
+    },
+    {
+      "start_seconds": 2867,
+      "title": "Hoop, troost en verbinding",
+      "summary": "Van Heemstra en Falcke reflecteren op troost, hoop en verbondenheid, en op hun eigen manieren om met de wereldproblemen om te gaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1138,
+      "start_seconds": 1302,
+      "speaker": "Heino Falcke",
+      "text": "Dat is zo'n religieuze ervaring waar je plotseling iets mag zien dat tot dat moment alleen maar fantasie was.",
+      "note": "Falcke koppelt het moment van de eerste foto van een zwart gat direct aan een religieuze ervaring."
+    },
+    {
+      "start_seconds": 1171,
       "speaker": "Marjolijn van Heemstra",
-      "text": "Je ziet hoe absurd grenzen zijn, hoe idioot het is waar wij ons dagelijks mee bezighouden.",
-      "note": "Beschrijft het overzichtseffect als bijna religieuze ervaring van heelheid."
+      "text": "Je ziet hoe absurd grenzen zijn, hoe idioot het eigenlijk is waar wij ons dagelijks mee bezighouden.",
+      "note": "Het overzichtseffect als ervaring van relativering en heelheid, die volgens haar een religieuze dimensie heeft."
     },
     {
-      "start_seconds": 1301,
+      "start_seconds": 1525,
       "speaker": "Heino Falcke",
-      "text": "Dit was zo'n Heureka-moment, ik beschrijf het in het boek als amazing grace.",
-      "note": "Wetenschappelijke doorbraak ervaren als religieuze ervaring."
+      "text": "Vanaf boven zie je het leed niet meer; leed begrijp je alleen van dichtbij.",
+      "note": "Een scherpe kritiek op een puur kosmische blik die het menselijk lijden en de naaste uit het oog verliest."
     },
     {
-      "start_seconds": 1548,
+      "start_seconds": 1813,
       "speaker": "Heino Falcke",
-      "text": "Vanaf boven zie je het leed niet meer.",
-      "note": "Scherpe kanttekening bij een puur kosmische religie."
+      "text": "Voor wie in een God geloven, is het een bevrijdende ervaring dat het geheim van God niet door natuurkunde beschreven kan worden.",
+      "note": "Lemaître zag de grens van de natuurkunde niet als nederlaag maar als ruimte voor geloof."
     },
     {
-      "start_seconds": 1708,
+      "start_seconds": 2354,
       "speaker": "Heino Falcke",
-      "text": "Lemaître vond het bevrijdend dat het geheim van God overbleef, omdat de natuurkunde ophoudt bij t is 0.",
-      "note": "Verrassend dat de oerknal door een priester werd bedacht."
+      "text": "Achter al die goden moet één onderliggende oorzaak zitten, een God die niet afstandelijk maar benaderbaar is.",
+      "note": "Falcke ziet in de oude Joodse traditie een vroeg 'Einstein-achtig' inzicht."
     },
     {
-      "start_seconds": 2162,
+      "start_seconds": 2450,
       "speaker": "Marjolijn van Heemstra",
-      "text": "Science explicates, poetry implicates.",
-      "note": "Treffende vergelijking van wetenschap en poëzie/religie."
+      "text": "Ik vind het jammer dat in monotheïstische religies de mens zo boven de rest van de schepping staat.",
+      "note": "Een kritische noot die het gesprek over de verhouding tot de natuur scherper maakt."
     }
   ],
   "keywords": [
     "zwart gat",
     "oerknal",
+    "Lemaître",
     "overzichtseffect",
-    "Georges Lemaître",
-    "astrologie",
-    "lichtvervuiling",
     "Genesis",
-    "kosmos",
-    "mystieke ervaring",
-    "evolutie",
-    "astronaut",
-    "naaste"
+    "schepping",
+    "lichtvervuiling",
+    "kwantumtheorie",
+    "buitenaards leven",
+    "naastenliefde",
+    "rentmeesterschap",
+    "heelheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Is de kosmos steeds meer een bron van religieuze betekenis?",
+    "Wat God, geloof en het heelal met elkaar te maken hebben",
+    "Of wij als mensen nou alleen zijn in dit universum"
+  ],
   "similar": [
     {
       "n": 322,
-      "reason": "Opnieuw Heino Falcke over oerknal, kosmos en God"
-    },
-    {
-      "n": 316,
-      "reason": "Best-of met Heino Falcke over wetenschap en het bestaan van God"
-    },
-    {
-      "n": 258,
-      "reason": "Gaat over de ruimte en de nieuwe space race"
+      "reason": "Heino Falcke over God, kosmos en oerknal; dezelfde gast en thema's"
     },
     {
       "n": 157,
-      "reason": "Natuurkundige die in de kosmos schoonheid, mysterie en God ziet"
+      "reason": "Oxford-natuurkundige over mysteries van het universum en God; sterke wetenschap-geloofsoverlap"
+    },
+    {
+      "n": 316,
+      "reason": "Best Of met Heino Falcke over bestaan van God en wetenschap"
+    },
+    {
+      "n": 195,
+      "reason": "Christelijke wetenschapper Cees Dekker over ontstaan van leven en geloof"
     },
     {
       "n": 167,
-      "reason": "Verhouding wetenschap en geloof, met Einstein en Galileo"
+      "reason": "Wetenschap versus geloof: Darwin, Einstein en Galileo, sluit aan bij Genesis-thema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

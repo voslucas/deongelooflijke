@@ -1,300 +1,364 @@
 {
   "episode": 280,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 178923,
+    "segments": 2096,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31635,
-    "output_tokens": 2558,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 93109,
+    "output_tokens": 6540,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Bijbel & Jezus",
     "Geschiedenis",
-    "Geopolitiek & oorlog",
-    "Wetenschap & kosmos"
+    "Wetenschap & kosmos",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Geurt Henk van Kooten"
   ],
   "people": [
     {
-      "name": "Erasmus",
-      "note": "Eerdere houder van de leerstoel in Cambridge (1511-1514)",
-      "start_seconds": 134,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
+      "name": "Jezus",
+      "note": "Centrale figuur; het onderwerp van de historische bronnen",
+      "start_seconds": 12,
+      "mention_count": 60
     },
     {
-      "name": "David Friedrich Strauss",
-      "note": "19e-eeuwse theoloog die Johannes als laat en niet-joods zag",
-      "start_seconds": 789,
-      "wiki_checked": true,
-      "wiki_pageid": 1425735,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Friedrich_Strauss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/David_Friedrich_Strauss.gif/250px-David_Friedrich_Strauss.gif"
+      "name": "Marcus",
+      "note": "Evangelist; schreef vermoedelijk het oudste evangelie met Petrus als bron",
+      "start_seconds": 2450,
+      "mention_count": 18
     },
     {
-      "name": "Mark Matney",
-      "note": "NASA-wetenschapper die de ster van Bethlehem verklaart als komeet",
-      "start_seconds": 909,
-      "wiki_checked": true
+      "name": "Matthäus",
+      "note": "Evangelist en volgens de gesprekspartners ooggetuige en ex-belastingambtenaar",
+      "start_seconds": 2800,
+      "mention_count": 16
     },
     {
-      "name": "Alexander de Grote",
-      "note": "Veroverde Babylonië, verspreidde Griekse invloed",
-      "start_seconds": 951,
-      "wiki_checked": true,
-      "wiki_pageid": 11302,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Marble_portrait_of_Alexander_the_Great%2C_Hellenistic_Greek%2C_2nd-1st_century_BC%2C_said_to_be_from_Alexandria%2C_Egypt%2C_British_Museum_%2813738844563%29.jpg/250px-Marble_portrait_of_Alexander_the_Great%2C_Hellenistic_Greek%2C_2nd-1st_century_BC%2C_said_to_be_from_Alexandria%2C_Egypt%2C_British_Museum_%2813738844563%29.jpg"
+      "name": "Lucas",
+      "note": "Evangelist; volgens Van Kooten de jongste, mogelijk gebruik makend van Josephus",
+      "start_seconds": 2297,
+      "mention_count": 14
     },
     {
-      "name": "Augustus",
-      "note": "Romeinse keizer, sloot vrede met de Parthen in 20 v.Chr.",
-      "start_seconds": 1129,
-      "wiki_checked": true,
-      "wiki_pageid": 864376,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustus_%28keizer%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg/250px-Augustus_Bevilacqua_Glyptothek_Munich_317.jpg"
+      "name": "Johannes",
+      "note": "Evangelist; volgens Van Kooten Johannes de Oudere, vroegste datering",
+      "start_seconds": 2175,
+      "mention_count": 22
     },
     {
-      "name": "Flavius Josephus",
-      "note": "Joodse historicus uit de eerste eeuw",
+      "name": "Papias",
+      "note": "Kerkvader die de evangelieschrijvers noemt en Johannes de Oudere ontmoette",
+      "start_seconds": 2175,
+      "mention_count": 8
+    },
+    {
+      "name": "Josephus",
+      "note": "Joodse historicus uit de eerste eeuw, bij de Romeinen in Rome",
       "start_seconds": 1144,
-      "wiki_checked": true,
-      "wiki_pageid": 53064,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Flavius_Josephus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Josephusbust.jpg/250px-Josephusbust.jpg"
-    },
-    {
-      "name": "Herodes de Grote",
-      "note": "Vazalkoning van Rome als buffer tegen de Parthen",
-      "start_seconds": 1301,
-      "wiki_checked": true,
-      "wiki_pageid": 35716,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herodes_de_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/HerodtheGreat2.jpg/250px-HerodtheGreat2.jpg"
-    },
-    {
-      "name": "Heino Falcke",
-      "note": "Nederlandse topwetenschapper die de theorie onderschrijft",
-      "start_seconds": 1198,
-      "wiki_checked": true,
-      "wiki_pageid": 3906079,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heino_Falcke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Heino_Falcke_-_Buch_Wien_2025.JPG/250px-Heino_Falcke_-_Buch_Wien_2025.JPG"
-    },
-    {
-      "name": "T.S. Eliot",
-      "note": "Dichter van een gedicht over de terugkerende wijzen",
-      "start_seconds": 1371,
-      "wiki_checked": true,
-      "wiki_pageid": 94783,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/T.S._Eliot",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/250px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg"
+      "mention_count": 7
     },
     {
       "name": "Tacitus",
-      "note": "Romeins geschiedschrijver die Christus' executie onder Pilatus noemt",
+      "note": "Romeinse geschiedschrijver die Christus noemt",
       "start_seconds": 1572,
-      "wiki_checked": true,
-      "wiki_pageid": 4128,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Publius_Cornelius_Tacitus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tacitus_portrait.jpg/250px-Tacitus_portrait.jpg"
-    },
-    {
-      "name": "Pontius Pilatus",
-      "note": "Procurator onder wie Jezus werd gedood",
-      "start_seconds": 1572,
-      "wiki_checked": true,
-      "wiki_pageid": 1364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pontius_Pilatus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg/250px-Duccio_di_Buoninsegna_-_Pilate_Washing_his_Hands_%28detail%29_-_WGA06810.jpg"
+      "mention_count": 2
     },
     {
       "name": "Macrobius",
-      "note": "Heidense Romeinse schrijver uit de vierde eeuw over de kindermoord in Bethlehem",
-      "start_seconds": 1625,
-      "wiki_checked": true,
-      "wiki_pageid": 553838,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ambrosius_Theodosius_Macrobius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Macrobius_and_Eustachius.jpg/250px-Macrobius_and_Eustachius.jpg"
+      "note": "Romeinse schrijver uit de vierde eeuw over de kindermoord in Bethlehem",
+      "start_seconds": 1627,
+      "mention_count": 2
     },
     {
-      "name": "Simon Gathercole",
-      "note": "Cambridge-collega met artikel over de namen van de evangeliën",
-      "start_seconds": 2083,
-      "wiki_checked": true
+      "name": "Herodes de Grote",
+      "note": "Vazalkoning aangesteld door Rome; bouwde de tempel en theaters",
+      "start_seconds": 1290,
+      "mention_count": 8
+    },
+    {
+      "name": "Augustus",
+      "note": "Romeinse keizer; vrede met de Parthen en keizerlijke verjaardag als goed nieuws",
+      "start_seconds": 1140,
+      "mention_count": 5
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeinse procurator die Jezus veroordeelde",
+      "start_seconds": 5971,
+      "mention_count": 3
+    },
+    {
+      "name": "Erasmus",
+      "note": "Voorganger van Van Kooten als leerstoelhouder in Cambridge",
+      "start_seconds": 134,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Goodman",
+      "note": "Joodse historicus uit Oxford, leermeester van Van Kooten",
+      "start_seconds": 5560,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Jaspers",
+      "note": "Filosoof die stelt dat mislukte messiasfiguren vergeten werden",
+      "start_seconds": 5575,
+      "mention_count": 1
+    },
+    {
+      "name": "Heino Falcke",
+      "note": "Nederlandse topwetenschapper die de sterrentheorie onderschreef",
+      "start_seconds": 1190,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Matney",
+      "note": "NASA-onderzoeker die een komeet als verklaring voor de ster noemt",
+      "start_seconds": 915,
+      "mention_count": 1
+    },
+    {
+      "name": "Strauss",
+      "note": "19e-eeuwse theoloog wiens antisemitische visie op Johannes wordt besproken",
+      "start_seconds": 793,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon Cadigal",
+      "note": "Cambridge-collega die schreef over anonieme auteurs in de oudheid",
+      "start_seconds": 1720,
+      "mention_count": 1
+    },
+    {
+      "name": "Steve Mason",
+      "note": "Josephus-kenner die de Lucas-Josephus-verbinding aannemelijk maakte",
+      "start_seconds": 2410,
+      "mention_count": 1
+    },
+    {
+      "name": "Nick Denyer",
+      "note": "Cambridge-classicus die de cliffhanger bij Marcus analyseerde",
+      "start_seconds": 4330,
+      "mention_count": 1
+    },
+    {
+      "name": "Edward Shillito",
+      "note": "Dichter die Christus als zwakke, lijdende God beschreef (1919)",
+      "start_seconds": 6240,
+      "mention_count": 1
+    },
+    {
+      "name": "Helle Haase",
+      "note": "Schrijfster van historische romans",
+      "start_seconds": 5300,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Echo's van het Goede Nieuws",
+      "title": "Echo's van het Goede Nieuws, de evangelieën in context, toen en nu",
       "author": "Geurt Henk van Kooten",
-      "note": "Evangeliën in context, toen en nu",
-      "start_seconds": 203,
-      "volume_id": "DQWiEQAAQBAJ",
+      "note": "Het boek waarover het gesprek gaat",
+      "start_seconds": 213,
+      "volume_id": "AknK0QEACAAJ",
       "canonical_title": "Echo's van het goede nieuws: De evangeliën in context, toen en nu",
       "canonical_author": "Geurt Henk van Kooten",
-      "isbn13": "9789043543804",
-      "isbn10": "9043543802",
-      "thumbnail": "http://books.google.com/books/content?id=DQWiEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789043543798",
+      "isbn10": "9043543799",
+      "thumbnail": ""
+    },
+    {
+      "title": "Ilias en Odyssee",
+      "author": "Homeros",
+      "note": "Voorbeeld van orale cultuur in de oudheid",
+      "start_seconds": 4530,
+      "volume_id": "21SfDAAAQBAJ",
+      "canonical_title": "Odyssee: een zwerver komt thuis",
+      "canonical_author": "Homeros",
+      "isbn13": "9789025304157",
+      "isbn10": "902530415X",
+      "thumbnail": "http://books.google.com/books/content?id=21SfDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 2",
+      "ref": "Mattheus 2",
       "note": "De wijzen uit het oosten en de ster van Bethlehem",
-      "start_seconds": 867
+      "start_seconds": 863
     },
     {
-      "ref": "Marcus 1:1",
-      "note": "Het begin van het goede nieuws van Jezus Christus",
-      "start_seconds": 1761
+      "ref": "Lucas 1:1-4",
+      "note": "Lucas stelt dat hij geen ooggetuige is en gebruikt eerdere verslagen",
+      "start_seconds": 2297
+    },
+    {
+      "ref": "Johannes 21",
+      "note": "Beschrijving van de dood van Petrus, gebruikt om de datering te bepalen",
+      "start_seconds": 3612
+    },
+    {
+      "ref": "Marcus 9",
+      "note": "De metamorfose op de berg; Jezus gaat lijden",
+      "start_seconds": 4154
+    },
+    {
+      "ref": "Marcus 16",
+      "note": "Het open einde van het evangelie: de vrouwen vluchten uit angst",
+      "start_seconds": 4352
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "De Bergrede, met de zaligspreking van de vredestichters",
+      "start_seconds": 4802
+    },
+    {
+      "ref": "Johannes 14:6",
+      "note": "Ik ben de weg, de waarheid en het leven",
+      "start_seconds": 6038
     }
   ],
   "places": [
+    "Hilversum",
     "Cambridge",
+    "Groningen",
+    "Jeruzalem",
     "Bethlehem",
     "Galilea",
-    "Babylonië",
-    "Jeruzalem",
     "Rome",
-    "Groningen",
-    "Glasgow",
+    "Babylonië",
+    "Efeze",
     "Alexandrië",
-    "Judea"
+    "Caesarea",
+    "Naarden",
+    "Turkije",
+    "Irak",
+    "Cotswolds"
   ],
-  "summary_tldr": "Geurt Henk van Kooten bespreekt hoe betrouwbaar de evangeliën zijn als historische bronnen, door ze te plaatsen in de Grieks-Romeinse wereld. Hij verklaart de ster van Bethlehem met Griekse astronomie en komt uit op 17 april 6 v.Chr. als waarschijnlijke datum. Ook het begrip 'evangelie' blijkt politiek beladen.",
+  "summary_tldr": "Geurt Henk van Kooten, hoogleraar in Cambridge, onderzoekt de betrouwbaarheid van de evangeliën als historische bronnen en behandelt de evangelieschrijvers als detectiewerk. Hij betoogt dat Johannes en Marcus zeer vroeg zijn ontstaan en dat de bronnen in hun Grieks-Romeinse context gelezen moeten worden. Ook bespreekt hij de mogelijke geboortedatum van Jezus via een astronomische verklaring van de ster van Bethlehem en wat 'evangelie' als politiek beladen 'goed nieuws' betekende.",
   "summary_points": [
-    "De evangeliën zijn volledig in het Grieks geschreven en horen bij de Griekse literatuur.",
-    "Klassieke talen en Nieuwe Testament zijn als vakgebieden uit elkaar gegroeid.",
-    "De 19e-eeuwse beeldvorming van een primitieve Jezus en een late, niet-joodse Johannes is achterhaald.",
-    "De ster van Bethlehem is waarschijnlijk een planetenconjunctie op 17 april 6 v.Chr. in het sterrenbeeld Ram.",
-    "Parthische wijzen konden reizen door de vrede tussen Rome en de Parthen onder Augustus.",
-    "Matteüs laat zien dat Jezus een niet-politieke koning is.",
-    "Evangelie ('goed nieuws') was een politieke term uit de keizercultus.",
-    "Buitenbijbelse bronnen als Tacitus, Josephus en Macrobius bevestigen delen van het verhaal.",
-    "De vier evangeliën zijn de oudste, andere evangeliën zijn later en gnostisch getint."
+    "Van Kooten dateert het Johannes-evangelie zeer vroeg, kort na Jezus' dood, en stelt dat Lucas juist het laatste evangelie is.",
+    "De evangeliën moeten gelezen worden binnen de Grieks-Romeinse literatuur, omdat het Nieuwe Testament volledig in het Grieks is geschreven.",
+    "Papias is de belangrijkste vroege bron over de evangelisten en hun ooggetuigen of bronnen.",
+    "Marcus is volgens de traditie gebaseerd op verhalen van Petrus en bevat Latijnse leenwoorden die op een Romeinse schrijver wijzen.",
+    "Matthäus breidt Marcus uit met uitspraken en een geopolitieke context rond de wijzen uit het oosten.",
+    "De ster van Bethlehem wordt verklaard als een conjunctie van planeten in 6 v.Chr., gelezen door Parthische koningmakers.",
+    "Volgens de gesprekspartners zijn buitenbijbelse bronnen zoals Tacitus en Josephus beperkt maar wel relevant.",
+    "Het woord 'evangelie' was in de Romeinse tijd een politiek beladen term voor keizerlijk goed nieuws.",
+    "Het gesprek stelt dat Jezus' impact na zijn dood historisch verklaarbaar is, wat de coherentie van de vier evangeliën ondersteunt.",
+    "De vroege Jezusbeweging zag Jezus al als goddelijk, en dat beeld gaat terug tot de vroegste bronnen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Terugblik en de Cambridge-leerstoel",
-      "summary": "Introductie, de leerstoel van Erasmus en de impact van de vorige aflevering over Johannes."
+      "title": "Inleiding en de Cambridge-hoogleraar",
+      "summary": "Van Kooten wordt geïntroduceerd, en het gesprek gaat over zijn vorige scoop over het Johannes-evangelie."
     },
     {
-      "start_seconds": 438,
-      "title": "Evangeliën als Griekse literatuur",
-      "summary": "Waarom het Nieuwe Testament in de Grieks-Romeinse context gelezen moet worden."
+      "start_seconds": 453,
+      "title": "Evangeliën in de Grieks-Romeinse context",
+      "summary": "De evangeliën worden naast klassieke literatuur gelezen; de bijdrage van het Grieks en de vergelijking met Homerus en theater komen aan bod."
     },
     {
-      "start_seconds": 835,
-      "title": "De ster van Bethlehem",
-      "summary": "De astronomische verklaring en de geboortedatum 17 april 6 v.Chr."
+      "start_seconds": 863,
+      "title": "De ster van Bethlehem en de geboortedatum",
+      "summary": "Via astronomie en de Parthische politiek wordt een datum rond 6 v.Chr. voorgesteld, met kritiek op de komeetverklaring."
     },
     {
-      "start_seconds": 1290,
-      "title": "Geopolitiek rond de wijzen",
-      "summary": "Parten, Rome, Herodes en Matteüs' boodschap van een ander koninkrijk."
+      "start_seconds": 1541,
+      "title": "Buitenbijbelse bronnen en het evangelie als goed nieuws",
+      "summary": "Tacitus, Macrobius en Josephus komen aan bod, en de politieke lading van het woord 'evangelie' wordt uitgelegd."
     },
     {
-      "start_seconds": 1540,
-      "title": "Bronnen buiten de Bijbel",
-      "summary": "Tacitus, Macrobius en Josephus over Jezus en Bethlehem."
+      "start_seconds": 2138,
+      "title": "Papias, Lucas en Johannes als bronnen",
+      "summary": "De datering van de evangelieschrijvers wordt besproken, met Papias als voornaamste getuige en Johannes als insider in Jeruzalem."
     },
     {
-      "start_seconds": 1720,
-      "title": "Wat is evangelie?",
-      "summary": "De politieke lading van 'goed nieuws' en de groei van het christendom."
+      "start_seconds": 3639,
+      "title": "Marcus, Matthäus en de literaire opbouw",
+      "summary": "Marcus wordt beschreven als Petrus' ghostwriter, Matthäus als uitbreiding met uitspraken, en de vlieger-theorie wordt uitgelegd."
     },
     {
-      "start_seconds": 1980,
-      "title": "Vier evangeliën en hun auteurs",
-      "summary": "Waarom juist deze vier, en de kwestie van anonieme auteursnamen."
+      "start_seconds": 5655,
+      "title": "Het goede nieuws van Jezus",
+      "summary": "De innerlijke catharsis, het onderscheid tussen politiek en religie, en de relevantie voor vandaag komen aan bod."
+    },
+    {
+      "start_seconds": 6324,
+      "title": "Kerst en afsluiting",
+      "summary": "Persoonlijke kerstplannen en de vooruitblik op andere afleveringen sluiten het gesprek af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 386,
+      "start_seconds": 1226,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Grieks is gewoon het Engels van het Romeinse Rijk.",
-      "note": "Verklaart waarom het Nieuwe Testament Griekse literatuur is."
+      "text": "Het is te mooi om waar te zijn.",
+      "note": "Een korte, speelse reactie op het sprookjesachtige verhaal van de ster en de wijzen."
     },
     {
-      "start_seconds": 989,
-      "speaker": "Geurt Henk van Kooten",
-      "text": "Een planetenconjunctie die maar eens in de 3000 jaar voorkomt, in het sterrenbeeld van de Ram.",
-      "note": "Kern van de verklaring van de kerstster."
+      "start_seconds": 2546,
+      "speaker": "Stefan Paas",
+      "text": "Het is echt detectivewerk. Gewoon stukjes bij elkaar zoeken, sporen zoeken.",
+      "note": "Het gesprek kiest bewust voor een forensische benadering van de bronnen."
     },
     {
-      "start_seconds": 1259,
+      "start_seconds": 4352,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Twee getuigen is onvoldoende, je hebt juist ander bewijsmateriaal nodig.",
-      "note": "Scherp methodologisch punt via rechtbankvergelijking."
+      "text": "Zij waren bang, want... puntje, puntje, puntje.",
+      "note": "Het open einde van Marcus wordt gezien als een tragische cliffhanger uit de Griekse literatuur."
     },
     {
-      "start_seconds": 1778,
+      "start_seconds": 6260,
       "speaker": "Geurt Henk van Kooten",
-      "text": "Als Marcus begint met 'het begin van het goede nieuws', zit je als Romein op het puntje van je stoel.",
-      "note": "Toont de politieke lading van het woord evangelie."
-    },
-    {
-      "start_seconds": 2073,
-      "speaker": "Geurt Henk van Kooten",
-      "text": "Ze staan niet in de Bijbel omdat ze belangrijk zijn; ze zijn historisch van belang, daarom staan ze in de Bijbel.",
-      "note": "Keert de gangbare redenering om."
+      "text": "De andere goden waren sterk, maar gij, Christus, waart zwak.",
+      "note": "Een citaat van Shillito dat de lijdende God contrasteert met de Griekse goden, en daarmee de kern van het goede nieuws raakt."
     }
   ],
   "keywords": [
-    "Evangeliën",
-    "Historische Jezus",
-    "Ster van Bethlehem",
-    "Parten",
-    "Grieks-Romeinse wereld",
-    "Goed nieuws",
-    "Matteüs",
-    "Herodes de Grote",
-    "Tacitus",
-    "Cambridge",
-    "Astronomie",
-    "Geopolitiek"
+    "evangeliën",
+    "Jezus",
+    "historische betrouwbaarheid",
+    "Papias",
+    "Marcus",
+    "Johannes",
+    "Lucas",
+    "Matthäus",
+    "ster van Bethlehem",
+    "Grieks-Romeins",
+    "goed nieuws",
+    "metamorfose"
   ],
-  "quotes": [],
+  "quotes": [
+    "Misschien wel een van onze favoriete afleveringen van het jaar.",
+    "Zet je detectivehoed op, want in deze aflevering gaan we ruim anderhalf uur speuren door de bronnen over Jezus."
+  ],
   "similar": [
     {
       "n": 187,
-      "reason": "Zelfde gast Geurt Henk van Kooten, over Jezus' unieke historische ontdekking"
+      "reason": "Zelfde gast Geurt Henk van Kooten en onderwerp: Jezus en een wetenschappelijke ontdekking"
     },
     {
       "n": 18,
-      "reason": "Feiten en fabels over de historische Jezus, bronnen en papyrusfragmenten"
+      "reason": "Zelfde thema: historische betrouwbaarheid van bronnen over de historische Jezus"
     },
     {
       "n": 135,
-      "reason": "Het ontstaan van het christendom in de antieke wereld rond Pasen"
+      "reason": "Historische analyse van het ontstaan van het christendom, met Bijbel- en geschiedenisthema's"
     },
     {
-      "n": 77,
-      "reason": "Bijbels-historisch onderzoek naar Jezus en vroege christenen door Bijbelwetenschapper"
-    },
-    {
-      "n": 22,
-      "reason": "Historische blik op hoe het christendom de antieke en westerse wereld vormde"
+      "n": 127,
+      "reason": "Bijbel als bron met wetenschappelijke en geschiedkundige invalshoek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

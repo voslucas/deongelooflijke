@@ -1,18 +1,23 @@
 {
   "episode": 132,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112846,
+    "segments": 1450,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32034,
-    "output_tokens": 2529,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59276,
+    "output_tokens": 3317,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
-    "Kerk & secularisatie",
     "Bijbel & Jezus",
-    "Filosofie & ethiek"
+    "Geschiedenis",
+    "Politiek",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Ronald van Raak"
@@ -20,268 +25,299 @@
   "people": [
     {
       "name": "Desiderius Erasmus",
-      "note": "humanist, priester, theoloog en schrijver uit Rotterdam",
-      "start_seconds": 30,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
+      "note": "humanist, priester en theoloog; hoofdpersoon van de aflevering",
+      "start_seconds": 5,
+      "mention_count": 60
     },
     {
       "name": "Maarten Luther",
-      "note": "hervormer en tijdgenoot van Erasmus",
-      "start_seconds": 107,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "note": "reformator; Erasmus' tijdgenoot en tegenpool",
+      "start_seconds": 125,
+      "mention_count": 30
     },
     {
       "name": "Johan Huizinga",
-      "note": "Nederlands historicus, schreef in 1924 een biografie van Erasmus",
+      "note": "historicus; schreef in 1924 een biografie van Erasmus",
       "start_seconds": 424,
-      "wiki_checked": true,
-      "wiki_pageid": 29681,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Huizinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/250px-Johan-huizinga1.jpg"
-    },
-    {
-      "name": "Paus Leo X",
-      "note": "verleende Erasmus dispensatie, tegenstander van Luther",
-      "start_seconds": 584,
-      "wiki_checked": true,
-      "wiki_pageid": 57894,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_X",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Pope-leo10.jpg/250px-Pope-leo10.jpg"
-    },
-    {
-      "name": "Geert Grote",
-      "note": "grondlegger van de Moderne Devotie",
-      "start_seconds": 925,
-      "wiki_checked": true,
-      "wiki_pageid": 94418,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fantasieportret_Geert_Grote.jpg/250px-Fantasieportret_Geert_Grote.jpg"
-    },
-    {
-      "name": "Johannes Froben",
-      "note": "uitgever in Basel bij wie Erasmus zich vestigde",
-      "start_seconds": 1052,
-      "wiki_checked": true
-    },
-    {
-      "name": "Paulus",
-      "note": "apostel, schreef over spreken in dwaasheid, inspiratie voor Lof der Zotheid",
-      "start_seconds": 1366,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "Adrianus VI",
-      "note": "Nederlandse paus die de kerk wilde hervormen en Erasmus voor zich wilde winnen",
-      "start_seconds": 1796,
-      "wiki_checked": true,
-      "wiki_pageid": 34158,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Adrianus_VI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Portrait_of_Pope_Adrian_VI_%28after_Jan_van_Scorel%29.jpg/250px-Portrait_of_Pope_Adrian_VI_%28after_Jan_van_Scorel%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Thomas More",
-      "note": "goede vriend van Erasmus, onthoofd",
-      "start_seconds": 2011,
-      "wiki_checked": true,
-      "wiki_pageid": 36366,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_More",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Portrait_of_Thomas_More_by_Hans_Holbein_d._J._in_the_Frick_Collection.jpg/250px-Portrait_of_Thomas_More_by_Hans_Holbein_d._J._in_the_Frick_Collection.jpg"
+      "note": "goede vriend van Erasmus; geëxecuteerd",
+      "start_seconds": 1111,
+      "mention_count": 2
     },
     {
-      "name": "Sandra Langenrijs",
-      "note": "maakte een hertaling van Lof der Zotheid",
-      "start_seconds": 1599,
-      "wiki_checked": true
+      "name": "Paus Leo X",
+      "note": "paus die Erasmus dispensatie verleende en Luther bekampte",
+      "start_seconds": 536,
+      "mention_count": 2
+    },
+    {
+      "name": "Adrianus VI",
+      "note": "Nederlandse paus na Leo X, wilde de kerk hervormen",
+      "start_seconds": 1790,
+      "mention_count": 3
+    },
+    {
+      "name": "Johannes Frobenius",
+      "note": "drukker-uitgever in Bazel bij wie Erasmus werkte",
+      "start_seconds": 1152,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Grote",
+      "note": "stichter van de Moderne Devotie in Deventer",
+      "start_seconds": 908,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Marx",
+      "note": "genoemd in het Humanistisch Verbond-kanon",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Ferdinand Domela Nieuwenhuis",
+      "note": "socialistische voorman, oud-priester",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Franciscus",
+      "note": "huidige paus; sociale en klimaatuitspraken",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "Emiel Roemer",
+      "note": "oud-partijleider SP",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Peter Balkenende",
+      "note": "oud-premier, genoemd als voorbeeld van waardenterughoudendheid",
+      "start_seconds": 3600,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Derksen",
+      "note": "columnist/presentator",
+      "start_seconds": 1580,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutte",
+      "note": "oud-premier, genoemd in verband met politieke teksten",
+      "start_seconds": 1543,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; schreef in dwaasheid in 2 Korintiërs",
+      "start_seconds": 1365,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader",
+      "start_seconds": 1585,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "scholastisch theoloog; niet expliciet genoemd",
+      "start_seconds": 1680,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "Lof der Zotheid",
-      "author": "Erasmus",
-      "note": "satirische lofrede van Vrouwe Dwaasheid, tijdloze kritiek op bestuurders en theologen",
-      "start_seconds": 1000,
-      "volume_id": "bOJWAAAAcAAJ",
-      "canonical_title": "De lof der zotheid, Eerst speelens-gewijse beschreven door Desiderius Erasmus van Rotterdam; nu Digtkundig, met eenige veranderingen van mengel-stoffen",
+      "author": "Desiderius Erasmus",
+      "note": "satirisch meesterwerk, uit 1511, bestseller",
+      "start_seconds": 1280,
+      "volume_id": "nfV90QEACAAJ",
+      "canonical_title": "De lof der zotheid, speelensgewys beschreven door Desiderius Erasmus van Rotterdam",
       "canonical_author": "Desiderius Erasmus",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=bOJWAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781024379563",
+      "isbn10": "1024379566",
+      "thumbnail": "http://books.google.com/books/content?id=nfV90QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Novum Instrumentum",
-      "author": "Erasmus",
-      "note": "zijn vertaling van het Nieuwe Testament",
-      "start_seconds": 688,
-      "volume_id": "ej9PAAAAcAAJ",
-      "canonical_title": "Novum instrumentum omne, diligenter ab Erasmo Roterodamo recognitum & emendatum, ...",
-      "canonical_author": "Desiderius Erasmus",
+      "author": "Desiderius Erasmus",
+      "note": "Griekse uitgave en vertaling van het Nieuwe Testament",
+      "start_seconds": 660,
+      "volume_id": "50hNAQAAMAAJ",
+      "canonical_title": "Erasmus von Rotterdam Novum instrumentum. Basel 1516",
+      "canonical_author": "Desiderius Erasmus, Heinz Holeczek",
       "isbn13": null,
       "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=ej9PAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "thumbnail": "http://books.google.com/books/content?id=50hNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Over de vrije wil",
-      "author": "Erasmus",
-      "note": "reactie op Luther met open einde",
-      "start_seconds": 1952,
-      "volume_id": "qxIwAAAAIAAJ",
-      "canonical_title": "Over opvoeding en vrije wil",
-      "canonical_author": "Desiderius Erasmus",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=qxIwAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "title": "Vredesweeklacht",
+      "author": "Desiderius Erasmus",
+      "note": "latere satire over vrede",
+      "start_seconds": 1180
     }
   ],
   "bible_refs": [
     {
       "ref": "2 Korintiërs 11",
-      "note": "Paulus spreekt in dwaasheid over zichzelf"
+      "note": "Paulus spreekt in dwaasheid; inspiratie voor Lof der Zotheid",
+      "start_seconds": 1365
+    },
+    {
+      "ref": "1 Johannes 5:7",
+      "note": "Comma Johanneum, middeleeuwse toevoeging die Erasmus aantoonde",
+      "start_seconds": 2945
     }
   ],
   "places": [
     "Rotterdam",
+    "Gouda",
     "Deventer",
     "Parijs",
     "Basel",
-    "Gouda",
-    "Steyn",
-    "Brabant",
-    "Engeland",
-    "Italië",
     "Leuven",
-    "Oxford"
+    "Brabant",
+    "Antwerpen",
+    "Brussel",
+    "Oxford",
+    "Italië",
+    "Engeland",
+    "Utrecht"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en Ronald van Raak bespreken het leven en denken van Erasmus, de onwettige priesterzoon die uitgroeide tot Europees intellectueel. Ze behandelen Lof der Zotheid, zijn relatie tot Luther en de vraag of zijn middenpositie laf of revolutionair was. Erasmus' humor, zelfkritiek en antidogmatische houding blijken nog altijd actueel in gepolariseerde tijden.",
+  "summary_tldr": "Ronald van Raak en Stefan Paas bespreken het leven en werk van Erasmus: humanist, priester en kritische denker die zich onttrok aan partijkeuze. Zijn kritiek op de kerk, zijn Griekse Nieuwe Testament-uitgave en de Lof der Zotheid maken hem nog steeds relevant voor polarisatie en het publieke debat. Het gesprek vraagt ook of hij eerder laf of revolutionair was en of hij diepgelovig was.",
   "summary_points": [
-    "Erasmus werd door protestanten, katholieken en humanisten geclaimd en hielp zelf zijn imago te vormen.",
-    "Als onwettig kind van een priester stond hij op achterstand, maar kreeg uiteindelijk dispensatie van de paus.",
-    "De school in Deventer en de Moderne Devotie vormden hem, het kloosterleven en de scholastiek in Parijs vond hij vormelijk en leeg.",
-    "Hij benutte de boekdrukkunst en het ontstaande publieke debat als marketeer en schrijver van bestsellers.",
-    "Lof der Zotheid gebruikt satire en ironie om macht, theologen en bestuurders te bekritiseren en blijft herkenbaar.",
-    "Zijn Nieuwe Testament legde de heilige tekst in handen van gewone mensen.",
-    "Luther en de paus wilden Erasmus allebei in hun kamp, maar hij weigerde partij te kiezen.",
-    "In het verschil over de vrije wil verwierp Erasmus het beeld van God als pottenbakker en de mens als klei.",
-    "Wat voor protestanten laf leek, ziet Van Raak als revolutionair en relevant voor huidige polarisatie en nieuwe media."
+    "Erasmus was een zelfbewuste marketeer die zijn eigen imago vormgaf.",
+    "Zijn onwettige geboorte uit een priesterrelatie bepaalde zijn carrière, maar hij klom op tot Europees intellectueel.",
+    "Lof der Zotheid is een satirische bestseller die alle machthebbers en de kerk bekritiseert.",
+    "Erasmus' Griekse Nieuwe Testament maakte de Bijbel een tekst die door mensen werd onderzocht.",
+    "De botsing met Luther leidde tot een breuk; Erasmus koos niet partij en schreef over de vrije wil.",
+    "Volgens Van Raak is Erasmus' methode van ironie, zelfkritiek en perspectief relevant voor polarisatie.",
+    "Paas nuanceert de vraag of Erasmus laf of radicaal was en wijst op de gevaren van wetenschappelijke bijbelkritiek.",
+    "Discussie over of Erasmus gelovig, katholiek of atheïst was; de aflevering benadrukt zijn katholieke geloof.",
+    "Van Raak reflecteert op vrijheid, verantwoordelijkheid en gedeelde waarden in een gepolariseerde samenleving."
   ],
   "chapters": [
     {
-      "start_seconds": 30,
-      "title": "Erasmus als ongrijpbaar icoon",
-      "summary": "Introductie van Erasmus en Van Raak. Erasmus werd door velen geclaimd en bouwde zelf aan zijn imago."
+      "start_seconds": 0,
+      "title": "Inleiding en het ongrijpbare imago",
+      "summary": "Boogerd en Van Raak introduceren Erasmus als geclaimd door alle groepen en als bewust gecultiveerd imago."
     },
     {
-      "start_seconds": 512,
-      "title": "Onwettige geboorte en jeugd",
-      "summary": "Zijn afkomst als priesterzoon, de ouders die aan de pest stierven en zijn tijd in Deventer."
+      "start_seconds": 510,
+      "title": "Jeugd, geboorte en opvoeding",
+      "summary": "Erasmus' onwettige geboorte, opvoeding in Deventer en zijn intrede in het klooster."
     },
     {
-      "start_seconds": 925,
-      "title": "Klooster, Parijs en Europese reizen",
-      "summary": "Zijn afkeer van klooster en scholastiek, de reizen door Europa en zijn vestiging in Basel."
+      "start_seconds": 1000,
+      "title": "Humanisme en de boekdrukkunst",
+      "summary": "Erasmus als pionier van nieuwe media en het publieke debat; zijn bestsellers en Griekse Bijbeltekst."
     },
     {
-      "start_seconds": 1100,
-      "title": "Bestseller en nieuwe media",
-      "summary": "Erasmus als commercieel schrijver, briefschrijver en gebruiker van de boekdrukkunst."
-    },
-    {
-      "start_seconds": 1335,
+      "start_seconds": 1280,
       "title": "Lof der Zotheid",
-      "summary": "De satire, de inspiratie van Paulus, de kritiek op bestuurders en theologen en de actualiteit ervan."
+      "summary": "Bespreking van het satirische meesterwerk en de kritiek op bestuurders en theologen."
     },
     {
-      "start_seconds": 1740,
-      "title": "Luther, de paus en de vrije wil",
-      "summary": "Het conflict met Luther, het verschil over redding en vrije wil en de vraag of Erasmus laf was."
+      "start_seconds": 1900,
+      "title": "Erasmus versus Luther",
+      "summary": "De verhouding met Luther, de vrije wil en de vraag of Erasmus laf of revolutionair was."
+    },
+    {
+      "start_seconds": 2700,
+      "title": "Bijbelkritiek en secularisatie",
+      "summary": "Het belang van de Griekse tekst, het Comma Johanneum en de discussie over secularisatie en fundamentalisme."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "Erasmus als gelovige en socialisme",
+      "summary": "Van Raak over zijn katholicisme en de verbinding tussen socialisme en religie."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Erasmus voor vandaag",
+      "summary": "Relevantie voor polarisatie, cancelcultuur, vrijheid en gedeelde waarden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1499,
+      "start_seconds": 1520,
       "speaker": "Ronald van Raak",
-      "text": "Na 20 jaar politiek lees je Lof der Zotheid en wat hij over bestuurders schrijft vind ik verschrikkelijk.",
-      "note": "Persoonlijke herkenning van een oud-politicus in een tekst van meer dan 500 jaar oud."
+      "text": "Lof der Zotheid beschrijft bestuurders als mensen die de wetten niet kennen en alles afmeten aan eigen voordeel.",
+      "note": "Van Raak, 20 jaar politicus, vindt de tekst confronterend en herkenbaar."
     },
     {
-      "start_seconds": 1654,
+      "start_seconds": 1760,
+      "speaker": "Stefan Paas",
+      "text": "Intellectuelen zijn op papier radicaal, maar vallen stil als ze zelf moeten handelen.",
+      "note": "Een scherpe observatie over het verschil tussen denken en doen."
+    },
+    {
+      "start_seconds": 2100,
+      "speaker": "Ronald van Raak",
+      "text": "Erasmus is een tragische figuur die verward raakte in een plooi van de geschiedenis die hij zelf mede had vormgegeven.",
+      "note": "Het tragische einde van een man die zowel katholiek als protestants inspireerde."
+    },
+    {
+      "start_seconds": 2940,
       "speaker": "David Boogerd",
-      "text": "Ze praten over de hel alsof ze er jaren hebben gewoond.",
-      "note": "Scherpe passage over theologen, voorgelezen voor Stefan Paas."
+      "text": "Erasmus heeft de Bijbel uit de handen van de kerk gehaald en in die van mensen gelegd.",
+      "note": "Een kernmoment over de democratisering van de tekst."
     },
     {
-      "start_seconds": 1911,
+      "start_seconds": 3500,
       "speaker": "Ronald van Raak",
-      "text": "God is geen pottenbakker en wij zijn niet de klei.",
-      "note": "Vat het kernverschil tussen Erasmus en Luther samen."
-    },
-    {
-      "start_seconds": 1952,
-      "speaker": "Ronald van Raak",
-      "text": "Het revolutionaire van Erasmus is dat hij geen kant koos.",
-      "note": "Wat anderen laf noemen, ziet Van Raak als moed in gepolariseerde tijden."
-    },
-    {
-      "start_seconds": 185,
-      "speaker": "Ronald van Raak",
-      "text": "Erasmus was een filosoof, maar ook een marketingman bij uitstek.",
-      "note": "Verrassend beeld van Erasmus als bewuste imagobouwer."
+      "text": "Vrijheid is alleen mogelijk als je ook de ander vrijheid gunt.",
+      "note": "Een kernprincipe dat Van Raak uit Erasmus haalt voor vandaag."
     }
   ],
   "keywords": [
     "Erasmus",
+    "humanisme",
     "Lof der Zotheid",
     "Luther",
-    "humanisme",
-    "vrije wil",
-    "satire",
-    "polarisatie",
+    "Reformatie",
+    "Griekse Nieuwe Testament",
     "scholastiek",
-    "Moderne Devotie",
-    "boekdrukkunst",
-    "Rotterdam",
-    "Reformatie"
+    "secularisatie",
+    "bijbelkritiek",
+    "polarisatie",
+    "vrije wil",
+    "satire"
   ],
   "quotes": [
-    "Was hij revolutionair of juist laf?",
-    "Was hij vooral een criticus van religie of een diepgelovig man?"
+    "Hij was een filosoof, maar ook een marketingman bij uitstek.",
+    "Vrijheid is alleen mogelijk als je ook de ander vrijheid gunt.",
+    "Respect kun je niet opeisen, dat begint ermee dat je ander respect geeft."
   ],
   "similar": [
     {
       "n": 183,
-      "reason": "Ronald van Raak over Spinoza: grote Nederlandse denker, geschiedenis en filosofie."
+      "reason": "Zelfde gast Ronald van Raak; ook over een grote Europese denker en zijn relevantie."
     },
     {
-      "n": 102,
-      "reason": "Paus Adrianus VI, Erasmus' tijdgenoot, besproken met kerkhistorische invalshoek."
+      "n": 180,
+      "reason": "Politiek en Europa, met Balkenende, die ook in deze aflevering wordt genoemd."
+    },
+    {
+      "n": 41,
+      "reason": "Historische Nederlandse denker en kerk-politiek, vergelijkbaar met Erasmus' rol in het publieke debat."
     },
     {
       "n": 112,
-      "reason": "Historische figuur uit dezelfde eeuw (Willem van Oranje) en de religieuze strijd."
+      "reason": "Historische figuur uit de Nederlandse geschiedenis, met kerk en politiek als thema's."
     },
     {
-      "n": 211,
-      "reason": "Vergeten geschiedenis van de Nederlanden; late middeleeuwen en Europese cultuur."
-    },
-    {
-      "n": 208,
-      "reason": "Humor, paradox en conservatief christendom bij een denker (Chesterton)."
+      "n": 179,
+      "reason": "Politiek, geschiedenis en de verhouding tot de kerk in de Nederlandse samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

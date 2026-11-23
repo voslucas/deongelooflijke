@@ -1,18 +1,23 @@
 {
   "episode": 259,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 100530,
+    "segments": 715,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29640,
-    "output_tokens": 2632,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49670,
+    "output_tokens": 7726,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
+    "Technologie & AI",
     "Politiek",
-    "Samenleving & migratie",
-    "Technologie & AI"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Pieter-Jaap Aalbersberg",
@@ -20,220 +25,297 @@
   ],
   "people": [
     {
-      "name": "Beatrice de Graaf",
-      "note": "hoogleraar geschiedenis Universiteit Utrecht, 'huis-historicus' van de podcast, vervangt Stefan Paas",
-      "start_seconds": 29,
-      "wiki_checked": true,
-      "wiki_pageid": 2972686,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Beatrice_de_Graaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Beatrice_de_Graaf_%282018%29.jpg/250px-Beatrice_de_Graaf_%282018%29.jpg"
+      "name": "Timothy Snyder",
+      "note": "Historicus, auteur van het boek 'On Freedom' over positieve vrijheid",
+      "start_seconds": 2967,
+      "mention_count": 3
     },
     {
-      "name": "Pieter-Jaap Aalbersberg",
-      "note": "Nationaal Coördinator Terrorismebestrijding en Veiligheid (NCTV) sinds 2019, gaat 1 september met pensioen",
-      "start_seconds": 29,
-      "wiki_checked": true,
-      "wiki_pageid": 4884065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter-Jaap_Aalbersberg"
+      "name": "Anne Applebaum",
+      "note": "Journalist en historicus, auteur van 'Autocracy Inc.'",
+      "start_seconds": 3145,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; voorbeeld van populistische leider die ongelijkheid vergroot",
+      "start_seconds": 3145,
+      "mention_count": 1
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "Franse keizer, onderwerp van De Graafs historisch onderzoek",
-      "start_seconds": 490,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
-    },
-    {
-      "name": "Fouad L.",
-      "note": "dader van de schietpartij in het Erasmus MC in Rotterdam",
-      "start_seconds": 473,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johan Rudolph Thorbecke",
-      "note": "architect van het Nederlandse staatsbestel, genoemd bij de inrichting van de democratie",
-      "start_seconds": 1302,
-      "wiki_checked": true,
-      "wiki_pageid": 14355,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Rudolph_Thorbecke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Johan_Heinrich_Neuman_-_Johan_Rudolf_Thorbecke.jpg/250px-Johan_Heinrich_Neuman_-_Johan_Rudolf_Thorbecke.jpg"
-    },
-    {
-      "name": "Andrew Tate",
-      "note": "influencer met een miljoenenpubliek die antisemitische uitspraken doet",
-      "start_seconds": 1863,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "note": "Franse keizer uit de Napoleontische tijd; als voorbeeld van historische studie als afleiding",
+      "start_seconds": 510,
+      "mention_count": 3
     },
     {
       "name": "Bradley Cadenhead",
-      "note": "oprichter van de 764-beweging, occult terrorisme gericht op jongeren",
-      "start_seconds": 2120,
-      "wiki_checked": true
+      "note": "Oprichter van het occulte netwerk 'The Com' (764-beweging), dat jongeren chanteert en tot geweld aanzet",
+      "start_seconds": 2116,
+      "mention_count": 2
+    },
+    {
+      "name": "Fouad L.",
+      "note": "Dader van een aanslag-poging in het Erasmus MC in Rotterdam",
+      "start_seconds": 467,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Eigenaar van X; genoemd in verband met algoritmes en onderhandelingen met de EU",
+      "start_seconds": 2691,
+      "mention_count": 2
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "Voorzitter van de Europese Commissie; zet in op toezicht op techgiganten",
+      "start_seconds": 2701,
+      "mention_count": 1
+    },
+    {
+      "name": "Huib Modderkolk",
+      "note": "Journalist en auteur over de AIVD",
+      "start_seconds": 2654,
+      "mention_count": 1
+    },
+    {
+      "name": "Louisa Richardson",
+      "note": "Deskundige op het gebied van terrorisme en radicalisering",
+      "start_seconds": 2605,
+      "mention_count": 1
     },
     {
       "name": "Kanye West",
-      "note": "artiest met een nummer over Hitler, voorbeeld van popcultuur en extremisme",
+      "note": "Rapper die antisemitische uitspraken deed en een nummer uitbracht met 'Heil Hitler'",
       "start_seconds": 2469,
-      "wiki_checked": true,
-      "wiki_pageid": 214002,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kanye_West",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Kanye_West_at_the_Met_Gala_in_2019_2.png/250px-Kanye_West_at_the_Met_Gala_in_2019_2.png"
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "Online influencer met miljoenenpubliek die antisemitische uitspraken doet",
+      "start_seconds": 1812,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van Ekris",
+      "note": "Scriba van de Protestantse Kerk in Nederland",
+      "start_seconds": 3439,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Schoof",
+      "note": "Voorganger van Aalbersberg als NCTV; later premier",
+      "start_seconds": 4056,
+      "mention_count": 2
+    },
+    {
+      "name": "Thorbecke",
+      "note": "Negentiende-eeuwse staatsman die het Nederlandse parlementaire stelsel vormgaf",
+      "start_seconds": 1302,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Keller",
+      "note": "Amerikaans predikant en theoloog wiens werk Aalbersberg eerder las",
+      "start_seconds": 3932,
+      "mention_count": 1
+    },
+    {
+      "name": "Henri Nouwen",
+      "note": "Katholiek theoloog en schrijver; Aalbersberg las recent zijn werk over Rembrandt",
+      "start_seconds": 3962,
+      "mention_count": 1
+    },
+    {
+      "name": "Rowan Williams",
+      "note": "Anglicaans theoloog en voormalig aartsbisschop van Canterbury",
+      "start_seconds": 3950,
+      "mention_count": 1
+    },
+    {
+      "name": "Watchman Nee",
+      "note": "Chinese evangelist wiens boekjes Aalbersberg als jongeman las",
+      "start_seconds": 3984,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "On Freedom",
+      "author": "Timothy Snyder",
+      "note": "Pamflet over positieve vrijheid als tegenwicht tegen populisme en negatieve vrijheid",
+      "start_seconds": 2967,
+      "volume_id": "K2_8EAAAQBAJ",
+      "canonical_title": "On Freedom",
+      "canonical_author": "Timothy Snyder",
+      "isbn13": "9798217014286",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=K2_8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Radical Redemption",
+      "author": "Beatrice de Graaf",
+      "note": "Eigen boek van De Graaf over radicalisering en religieuze verlossingsverlangens",
+      "start_seconds": 2605,
+      "volume_id": "SrMyEQAAQBAJ",
+      "canonical_title": "The Radical Redemption Model: Terrorist Beliefs and Narratives",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9780197792469",
+      "isbn10": "0197792464",
+      "thumbnail": "http://books.google.com/books/content?id=SrMyEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Autocracy Inc.",
+      "author": "Anne Applebaum",
+      "note": "Besproken als analyse van hoe populisten en autocraten vrijheid claimen voor eigen bezit",
+      "start_seconds": 3145
+    }
+  ],
   "bible_refs": [],
   "places": [
-    "Nederland",
     "Utrecht",
-    "Rusland",
-    "Oekraïne",
-    "China",
-    "Spanje",
-    "Schiphol",
-    "Wageningen",
-    "Duitsland",
-    "Verenigde Staten",
     "Deventer",
-    "Parijs",
-    "Syrië",
-    "Italië",
+    "Leiden",
+    "Rotterdam",
+    "Wageningen",
+    "Schiphol",
+    "Oekraïne",
+    "Rusland",
+    "Gaza",
+    "Spanje",
+    "Duitsland",
+    "Texas",
+    "Pakistan",
+    "Islamabad",
+    "Peshawar",
     "Wales"
   ],
-  "summary_tldr": "Pieter-Jaap Aalbersberg, scheidend NCTV, legt uit waarom Nederland kwetsbaar is door een just-in-time economie, cyberdreiging en geopolitieke verschuivingen. Samen met Beatrice de Graaf bespreekt hij het verdedigen van de democratie, de anti-institutionele beweging en de online radicalisering van steeds jongere jongens.",
+  "summary_tldr": "Pieter-Jaap Aalbersberg, vertrekkend NCTV, en historica Beatrice de Graaf bespreken hoe de machtsbalans verschuift en Nederland kwetsbaar maakt voor geopolitieke, digitale en maatschappelijke dreigingen. Centraal staan de radicalisering van jonge mannen online, de opkomst van de anti-institutionele beweging en de vraag hoe democratie en weerbaarheid versterkt kunnen worden, ook door het zorgzame gemeenschapsleven en kerken. Het gesprek eindigt met de vraag wat vrijheid en zingeving betekenen in een tijd van wantrouwen.",
   "summary_points": [
-    "De NCTV omvat meer dan terrorisme: nationale veiligheid, cyber, statelijke dreiging, beveiliging en crisisbeheersing.",
-    "Nederland is kwetsbaar door een open, just-in-time economie zonder voorraden en met grote afhankelijkheid van stroom en data.",
-    "Statelijke actoren zitten mogelijk al in onze digitale systemen, dus voorbereiding op uitval is nodig.",
-    "Autocratie en oorlog lijken op dit moment een winnend concept; hybride oorlog en grey zone kunnen langdurig blijven.",
-    "Democratie verdedigen betekent ook versterken van binnenuit: vertrouwen tussen burgers en overheid.",
-    "De anti-institutionele beweging omvat meelopers, afhakers en een kleine groep die geweld toelaatbaar acht.",
-    "Jongens van 12 tot 16 radicaliseren online via geweldsfascinatie, gamecultuur en algoritmes, eerder dan via ideologie.",
-    "Nieuwe vormen als de occulte 764/COM-beweging overlappen met rechtsextremisme en sextortion.",
-    "Lokale aanpak en serieus nemen van mensen zijn belangrijk om radicalisering te voorkomen."
+    "Nederland is kwetsbaar door zijn open economie en just-in-time-systeem, waardoor voorraden en veerkracht ontbreken.",
+    "De nationale veiligheid is complexer geworden: online dreigingen, economische veiligheid en statelijke actoren vervagen de grenzen.",
+    "Oorlog lijkt in de huidige wereldorde een 'winnend concept', terwijl autocratie aan terrein wint ten opzichte van democratie.",
+    "Radicalisering van jongens van 12 tot 16 jaar verloopt vaak via online algoritmes en fascinatie voor geweld, niet primair via ideologie.",
+    "Het occulte netwerk 764/The Com laat zien hoe criminaliteit, sextortion en nihilistisch geweld samenkomen met radicalisering.",
+    "De anti-institutionele beweging en complotdenken lijken religieuze trekken te hebben: troost, gemeenschap en een 'waarheid' tegenover de overheid.",
+    "Vertrouwen tussen overheid en burgers en het verkleinen van ongelijkheid worden gezien als fundamenten van democratische weerbaarheid.",
+    "Weerbaarheid begint bij de naaste en in de buurt; kerken en religieuze instellingen kunnen hierin een rol spelen.",
+    "Europese regulering van techgiganten en algoritmes wordt gezien als noodzakelijk, maar lastig door spanning met de VS.",
+    "Aalbersberg stopt met pensioen en ziet zichzelf niet als politicus, maar blijft zich inzetten voor weerbaarheid in een andere rol."
   ],
   "chapters": [
     {
-      "start_seconds": 29,
-      "title": "Introductie en afscheid van de NCTV",
-      "summary": "David Boogerd introduceert Aalbersberg en Beatrice de Graaf, en Aalbersberg blikt terug op de aanslag in Utrecht en de coronacrisis."
+      "start_seconds": 0,
+      "title": "Inleiding en kwetsbaarheid van Nederland",
+      "summary": "David Boogerd introduceert het gesprek over de verschuivende machtsbalans en de dreigingen voor Nederland. Aalbersberg benadrukt dat het niet om het 'of' maar het 'wanneer' van ontwrichting gaat."
     },
     {
-      "start_seconds": 247,
-      "title": "Wat doet de NCTV?",
-      "summary": "Aalbersberg schetst de NCTV als huis met nationale veiligheidsstrategie en bespreekt altijd 'aan' staan en afschalen."
+      "start_seconds": 128,
+      "title": "Indrukwekkende momenten en de NCTV-taak",
+      "summary": "Aalbersberg noemt de tramaanslag in Utrecht en de coronacrisis als memorabele momenten. Hij schetst de brede opdracht van de NCTV als een huis met een nationale veiligheidsstrategie."
     },
     {
-      "start_seconds": 525,
-      "title": "Veranderende veiligheid sinds 2019",
-      "summary": "Van terrorisme naar economische veiligheid, kennisveiligheid, geopolitiek en online domein."
+      "start_seconds": 575,
+      "title": "Geopolitiek, economische en digitale kwetsbaarheid",
+      "summary": "Het gesprek gaat over de verschuiving van terrorismebestrijding naar conventionele oorlog en statelijke dreigingen. Just-in-time-economie en online afhankelijkheid maken Nederland kwetsbaar."
     },
     {
-      "start_seconds": 662,
-      "title": "Kwetsbaar Nederland: just in time en cyber",
-      "summary": "Uitleg over het citaat: afhankelijkheid, geen voorraden en statelijke hackers, met het OM als actueel voorbeeld."
-    },
-    {
-      "start_seconds": 1031,
+      "start_seconds": 1091,
       "title": "Democratie onder druk",
-      "summary": "Autocratie versus democratie, hybride oorlog, vertrouwen in leiders en burgers die het recht in eigen hand nemen."
+      "summary": "De Graaf vraagt wat de NCTV precies verdedigt en hoe de rechtsstaat omgaat met burgers die zelf grenscontroles uitvoeren. Democratie vraagt om interne versterking en vertrouwen."
     },
     {
-      "start_seconds": 1340,
-      "title": "Anti-institutionele beweging en complotten",
-      "summary": "Drie groepen binnen de beweging, Reichsbürger-vergelijking en omgaan met complotdenkers die Aalbersberg als vijand zien."
+      "start_seconds": 1976,
+      "title": "Online radicalisering en occult terrorisme",
+      "summary": "Jongeren radicaliseren online, vaak door fascinatie voor geweld, en het 764-netwerk laat zien hoe occulte en nihilistische dreigingen ontstaan. Algoritmes van techgiganten versnellen dit proces."
     },
     {
-      "start_seconds": 1860,
-      "title": "Online radicalisering van jongeren",
-      "summary": "Jonge jongens, algoritmes, jihadisme, rechtsextremisme en het occulte 764-netwerk, plus juridische beperkingen van de NCTV."
+      "start_seconds": 3212,
+      "title": "Weerbaarheid, gemeenschap en kerken",
+      "summary": "Weerbaarheid wordt gedefinieerd als zorg voor de naaste en de buurt, niet alleen als noodpakket. Kerken worden uitgedaagd om meer naar buiten te treden en zich uit te spreken over rechtvaardigheid."
     },
     {
-      "start_seconds": 2400,
-      "title": "Zingeving en lokale aanpak",
-      "summary": "Identiteit en betekenis als drijfveer, de rol van popcultuur en influencers en de kracht van lokale preventie."
+      "start_seconds": 3784,
+      "title": "Geloof, relativering en persoonlijke reflectie",
+      "summary": "Aalbersberg vertelt hoe zijn geloof hem helpt dingen te relativeren en verantwoordelijkheid te nemen. Hij noemt de theologen en schrijvers die hem inspireren."
+    },
+    {
+      "start_seconds": 4010,
+      "title": "Pensioen en afscheid",
+      "summary": "Aalbersberg blikt vooruit op zijn pensioen en sluit uit de politiek te gaan. Het gesprek eindigt met de oproep dat iedereen weerbaar moet zijn."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 357,
+      "start_seconds": 29,
       "speaker": "Pieter-Jaap Aalbersberg",
-      "text": "Ik loop nog makkelijker zonder kleren naar buiten dan zonder telefoon.",
-      "note": "Humoristische illustratie van 24/7 alert zijn."
+      "text": "Het is dan ook geen kwestie of we maatschappijontwrichtende situaties gaan ervaren, maar wanneer.",
+      "note": "Een urgente, bijna alarmerende stelling die de toon van het hele gesprek zet."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 977,
       "speaker": "Pieter-Jaap Aalbersberg",
-      "text": "We zijn in een wereld gekomen waar oorlog een winnend concept is.",
-      "note": "Scherpe duiding van de verschuivende wereldorde."
+      "text": "Het is dat wij opeens in een wereld zijn gekomen waar oorlog een winnend concept is.",
+      "note": "Een scherpe conclusie over de verschuiving van de wereldorde die de geopolitieke zorgen samenvat."
     },
     {
-      "start_seconds": 1680,
+      "start_seconds": 1707,
       "speaker": "Pieter-Jaap Aalbersberg",
-      "text": "Sommige mensen denken dat ik kinderbloed drink of een reptiel ben; het zijn geen wappies maar volwassen mensen.",
-      "note": "Persoonlijk en nuchter over complotdenkers."
+      "text": "Er zijn mensen die denken dat ik kinderbloed drink of een reptiel ben. Het zijn wel volwassen mensen.",
+      "note": "Laat zien hoe complotdenken ook persoonlijk wordt, en pleit voor begrip in plaats van verachting."
     },
     {
-      "start_seconds": 1951,
+      "start_seconds": 1952,
       "speaker": "Pieter-Jaap Aalbersberg",
-      "text": "Het is vaak niet de ideologie die je radicaliseert, maar de fascinatie voor geweld.",
-      "note": "Inzicht in hoe jongens radicaliseren."
+      "text": "Het is vaak niet de ideologie die je radicaliseert, het is vaak meer de fascinatie voor geweld.",
+      "note": "Een verrassende analyse die radicalisering eerder als gewelds- dan als ideologiekwestie duidt."
     },
     {
-      "start_seconds": 2012,
+      "start_seconds": 2605,
       "speaker": "Beatrice de Graaf",
-      "text": "Het occulte terrorisme van de 764-beweging lokt kinderen van 12 tot 16 en chanteert hen.",
-      "note": "Nieuw en verontrustend verschijnsel."
+      "text": "Ze willen van een zero een hero worden, maar soms ook echt op religieuze wijze.",
+      "note": "Koppelt radicalisering aan oud menselijk verlangen naar betekenis, avontuur en verlossing."
     }
   ],
   "keywords": [
-    "NCTV",
-    "terrorisme",
-    "radicalisering",
-    "weerbaarheid",
-    "cybersecurity",
-    "just in time",
-    "hybride oorlog",
-    "democratie",
-    "anti-institutionele beweging",
-    "764-beweging",
-    "jihadisme",
-    "rechtsextremisme"
+    "Nationale veiligheid",
+    "Radicalisering",
+    "Weerbaarheid",
+    "Democratie",
+    "Online radicalisering",
+    "Occult terrorisme",
+    "Just-in-time economie",
+    "Anti-institutionele beweging",
+    "Complotdenken",
+    "Zingeving",
+    "Gemeenschap"
   ],
   "quotes": [
-    "De machtsbalans in de wereld is aan het verschuiven, en dat maakt Nederland ontzettend kwetsbaar.",
-    "Het is geen kwestie óf we te maken krijgen met maatschappij-ontwrichtende situaties, maar wanneer."
+    "Het is dan ook geen kwestie of we maatschappij-ontwrichtende situaties gaan ervaren, maar wanneer.",
+    "Welk krachtig verhaal zet je tegenover het jihadistische, extreemrechtse en zelfs occulte radicale gedachtegoed?"
   ],
   "similar": [
     {
       "n": 326,
-      "reason": "Kwetsbaarheid van Nederland bij oorlog, drones en dreigingen; geopolitiek en veiligheid."
+      "reason": "Weerbaarheid van Nederland, drones, geopolitieke dreiging en een Westen zonder verhaal"
+    },
+    {
+      "n": 284,
+      "reason": "Brute machtspolitiek en verschuivende machtsbalans, met Beatrice de Graaf"
     },
     {
       "n": 275,
-      "reason": "Russische dreiging, hybride aanvallen en de voorbereiding van Nederland en Europa."
+      "reason": "Russische dreiging voor Europa en de vraag naar Nederlandse weerbaarheid"
     },
     {
-      "n": 178,
-      "reason": "Wake-up call over veiligheid en voorbereiding van Nederland en Europa op een onvoorspelbaar tijdperk."
+      "n": 298,
+      "reason": "Gevaren en kansen van AI, met geopolitieke en Trump-gerelateerde dimensies"
     },
     {
-      "n": 232,
-      "reason": "Democratie onder druk, extreemrechts en polarisatie met Beatrice de Graaf."
-    },
-    {
-      "n": 14,
-      "reason": "Veiligheid, dreiging en het kwaad met Beatrice de Graaf."
+      "n": 267,
+      "reason": "Politiek onbehagen, democratie en wantrouwen, met Beatrice de Graaf"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

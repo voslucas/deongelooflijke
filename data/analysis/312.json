@@ -1,16 +1,21 @@
 {
   "episode": 312,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 132244,
+    "segments": 1291,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31965,
-    "output_tokens": 2604,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69196,
+    "output_tokens": 4236,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Bijbel & Jezus",
+    "Politiek",
     "Amerika & Trump",
     "God & geloof"
   ],
@@ -19,123 +24,264 @@
   ],
   "people": [
     {
-      "name": "Henry Kissinger",
-      "note": "Amerikaans diplomaat en nationaal veiligheidsadviseur, auteur van Diplomacy",
-      "start_seconds": 594,
-      "wiki_checked": true,
-      "wiki_pageid": 32602,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Kissinger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Henry_A_Kissinger_%28cropped%29.jpg/250px-Henry_A_Kissinger_%28cropped%29.jpg"
+      "name": "Arend Jan Boekestijn",
+      "note": "historicus en gast, gesprekspartner in de aflevering",
+      "start_seconds": 5,
+      "mention_count": 1
     },
     {
       "name": "Harry Kuitert",
-      "note": "Theoloog (VU), kwam in Boekestijns jeugd bij het gezin over de vloer",
-      "start_seconds": 1325,
-      "wiki_checked": true,
-      "wiki_pageid": 140314,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harry_Kuitert",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Opdracht_Haagse_Post_Dr._H.M._Kuitert%2C_Bestanddeelnr_922-1299.jpg/250px-Opdracht_Haagse_Post_Dr._H.M._Kuitert%2C_Bestanddeelnr_922-1299.jpg"
-    },
-    {
-      "name": "Otto von Bismarck",
-      "note": "Pruisische staatsman die Duitsland eenmaakte in 1870",
-      "start_seconds": 518,
-      "wiki_checked": true,
-      "wiki_pageid": 43572,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Otto_von_Bismarck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Bismarckottovon.jpg/250px-Bismarckottovon.jpg"
-    },
-    {
-      "name": "Napoleon III",
-      "note": "Zwakke tegenspeler van Bismarck",
-      "start_seconds": 518,
-      "wiki_checked": true,
-      "wiki_pageid": 42323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_III",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Franz_Xaver_Winterhalter_Napoleon_III.jpg/250px-Franz_Xaver_Winterhalter_Napoleon_III.jpg"
-    },
-    {
-      "name": "Kardinaal Richelieu",
-      "note": "Franse staatsman die een verdeeld Duitsland wilde",
-      "start_seconds": 540,
-      "wiki_checked": true,
-      "wiki_pageid": 80479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kardinaal_de_Richelieu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cardinal_de_Richelieu.jpg/250px-Cardinal_de_Richelieu.jpg"
-    },
-    {
-      "name": "Jeroen Heldring",
-      "note": "NRC-commentator die Boekestijn noemde in zijn column Dezer dagen",
-      "start_seconds": 855,
-      "wiki_checked": true
-    },
-    {
-      "name": "Alan Steel Milward",
-      "note": "Doctervader van Boekestijn, econoom-historicus (LSE)",
-      "start_seconds": 928,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johan Huizinga",
-      "note": "Historicus, vergeleken vanwege talenkennis",
-      "start_seconds": 953,
-      "wiki_checked": true,
-      "wiki_pageid": 29681,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Huizinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Johan-huizinga1.jpg/250px-Johan-huizinga1.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "Burgerrechtenleider, 'the arc of the universe bends toward justice'",
-      "start_seconds": 1850,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
-      "name": "Abraham Kuyper",
-      "note": "Oprichter van de gereformeerde kerken en de VU",
-      "start_seconds": 1442,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
+      "note": "theoloog, bekend uit het gezin van Boekestijn in Amstelveen; Kuitert-tekst over God en menselijke taal",
+      "start_seconds": 1316,
+      "mention_count": 12
     },
     {
       "name": "Reinhold Niebuhr",
-      "note": "Amerikaanse theoloog, favoriet van Obama; aangekondigd onderwerp",
-      "start_seconds": 50,
-      "wiki_checked": true,
-      "wiki_pageid": 1618739,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Reinhold_Niebuhr"
+      "note": "Amerikaanse theoloog en denker van christelijk realisme; favoriete denker van Barack Obama",
+      "start_seconds": 1177,
+      "mention_count": 16
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; centraal kritiekpunt over macht, leugens en democratie",
+      "start_seconds": 5,
+      "mention_count": 24
+    },
+    {
+      "name": "Barack Obama",
+      "note": "voormalig Amerikaans president; beïnvloed door Niebuhr, rode lijn in Syrië-discussie",
+      "start_seconds": 3530,
+      "mention_count": 8
+    },
+    {
+      "name": "Henry Kissinger",
+      "note": "Amerikaans diplomaat en adviseur; Boekestijn gaf college over zijn werk",
+      "start_seconds": 588,
+      "mention_count": 3
+    },
+    {
+      "name": "Otto von Bismarck",
+      "note": "Duitse staatsman van de 19e eeuw; voorbeeld van machtsevenwicht",
+      "start_seconds": 515,
+      "mention_count": 3
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; oorlog in Oekraïne",
+      "start_seconds": 2120,
+      "mention_count": 6
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaans burgerrechtenleider; genoemd over naastenliefde en 'the arc of the universe'",
+      "start_seconds": 1850,
+      "mention_count": 3
+    },
+    {
+      "name": "Gottfried Wilhelm Leibniz",
+      "note": "niet genoemd; weggelaten",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Johann Sebastian Bach",
+      "note": "componist; Boekestijn zijn 'godsbewijs'",
+      "start_seconds": 4680,
+      "mention_count": 5
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader, rechtvaardige oorlog",
-      "start_seconds": 191,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader; preek en rechtvaardige oorlog",
+      "start_seconds": 190,
+      "mention_count": 2
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "filosoof; plichtethiek versus gevolgenethiek",
+      "start_seconds": 3120,
+      "mention_count": 2
+    },
+    {
+      "name": "Gotthold Ephraim Lessing",
+      "note": "denker die in de lijn van Kuitert naar geschiedenis keek",
+      "start_seconds": 4460,
+      "mention_count": 1
+    },
+    {
+      "name": "Stanley Hoffmann",
+      "note": "politicoloog; natiestaat is taaier dan gedacht",
+      "start_seconds": 2510,
+      "mention_count": 1
+    },
+    {
+      "name": "Thijs van den Brink",
+      "note": "theoloog; bevindelijkheid",
+      "start_seconds": 1650,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus, PVV",
+      "start_seconds": 3790,
+      "mention_count": 1
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "voorzitter Europese Commissie",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Franklin",
+      "note": "Amerikaans founding father; bezat slaven",
+      "start_seconds": 2300,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Jefferson",
+      "note": "Amerikaans founding father; bezat slaven",
+      "start_seconds": 2300,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeroen Heldring",
+      "note": "commentator NRC Handelsblad; leerde Niebuhr kennen",
+      "start_seconds": 840,
+      "mention_count": 3
+    },
+    {
+      "name": "Paul Witteman",
+      "note": "journalist; gesprek over muziek en wetenschap",
+      "start_seconds": 4750,
+      "mention_count": 1
+    },
+    {
+      "name": "Richelieu",
+      "note": "Franse kardinaal-staatsman",
+      "start_seconds": 540,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon Polinder",
+      "note": "Niebuhr-kenner",
+      "start_seconds": 1420,
+      "mention_count": 2
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident",
+      "start_seconds": 3630,
+      "mention_count": 1
+    },
+    {
+      "name": "James Comey",
+      "note": "voormalig FBI-chef",
+      "start_seconds": 4160,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "voormalig Amerikaans president",
+      "start_seconds": 3610,
+      "mention_count": 2
+    },
+    {
+      "name": "Kant",
+      "note": "zie Immanuel Kant",
+      "start_seconds": 3120,
+      "mention_count": 0
+    },
+    {
+      "name": "Thorbecke",
+      "note": "Nederlandse staatsman; HBS 1848",
+      "start_seconds": 1140,
+      "mention_count": 1
+    },
+    {
+      "name": "Alan Millward",
+      "note": "doctorvader van Boekestijn; LSE-historicus",
+      "start_seconds": 930,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Huizinga",
+      "note": "historicus; vergeleken met Millward",
+      "start_seconds": 960,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "oprichter gereformeerde kerken",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten van Rossum",
+      "note": "gast in eerdere aflevering over EU",
+      "start_seconds": 5000,
+      "mention_count": 1
+    },
+    {
+      "name": "Clemens van den Berg",
+      "note": "historicus; Substack-artikel over EU",
+      "start_seconds": 5000,
+      "mention_count": 1
+    },
+    {
+      "name": "Harman van der Duin",
+      "note": "schrijver van zin 'God en de duivel zijn op elkaar aangewezen'",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "heilige; genoemd bij gebed",
+      "start_seconds": 4860,
+      "mention_count": 1
+    },
+    {
+      "name": "Heino Falcke",
+      "note": "sterrenkundige; zwart gat",
+      "start_seconds": 4920,
+      "mention_count": 1
+    },
+    {
+      "name": "Bashar al-Assad",
+      "note": "Syrische president",
+      "start_seconds": 3750,
+      "mention_count": 2
+    },
+    {
+      "name": "Ford",
+      "note": "autofabrikant; Niebuhr zag arbeidsomstandigheden",
+      "start_seconds": 2940,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 5,
+      "mention_count": 30
     }
   ],
   "books": [
     {
+      "title": "Moral Man and Immoral Society",
+      "author": "Reinhold Niebuhr",
+      "note": "Heldring las dit boek; groepen handelen egoïstischer dan individuen",
+      "start_seconds": 2760,
+      "volume_id": "SKlyPwAACAAJ",
+      "canonical_title": "Moral Man and Immoral Society: A Study in Ethics and Politics",
+      "canonical_author": "Reinhold Niebuhr",
+      "isbn13": "9780844662213",
+      "isbn10": "0844662216",
+      "thumbnail": ""
+    },
+    {
       "title": "Diplomacy",
       "author": "Henry Kissinger",
-      "note": "Basis voor een college van Boekestijn",
-      "start_seconds": 588,
+      "note": "Boekestijn gaf een college op basis van dit boek",
+      "start_seconds": 590,
       "volume_id": "VPHQMG3Ue1wC",
       "canonical_title": "Diplomacy",
       "canonical_author": "Henry Kissinger",
@@ -146,147 +292,178 @@
     {
       "title": "Het algemeen betwijfeld christelijk geloof",
       "author": "Harry Kuitert",
-      "note": "Boek waarin een generatie gereformeerden zich herkende",
-      "start_seconds": 1533,
+      "note": "boek dat een generatie gereformeerden beïnvloedde",
+      "start_seconds": 1490,
       "volume_id": "1kc7tAEACAAJ",
       "canonical_title": "Het algemeen betwijfeld christelijk geloof: een herziening",
-      "canonical_author": "Harminus Martinus Kuitert",
+      "canonical_author": "H. M. Kuitert",
       "isbn13": "9789025946937",
       "isbn10": "9025946933",
       "thumbnail": ""
+    },
+    {
+      "title": "The Art of the Deal",
+      "author": "Donald Trump",
+      "note": "Trump's boek over onderhandelen; schaamteloosheid besproken",
+      "start_seconds": 4190,
+      "volume_id": "Tge8zgEACAAJ",
+      "canonical_title": "Trump: The Art of the Deal",
+      "canonical_author": "Donald J. Trump, Tony Schwartz",
+      "isbn13": "9780394555287",
+      "isbn10": "0394555287",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Johannes 3:16",
+      "note": "niet expliciet genoemd; weggelaten",
+      "start_seconds": 0
+    }
+  ],
   "places": [
     "Amstelveen",
-    "De Lier",
-    "Delft",
     "Utrecht",
     "Leiden",
-    "Frankrijk",
-    "Duitsland",
+    "Delft",
+    "Detroit",
+    "Vietnam",
+    "Irak",
+    "Syrië",
     "Oekraïne",
-    "Amerika",
-    "Zuid-Amerika"
+    "Californië",
+    "Iran",
+    "Frankrijk",
+    "Groenland",
+    "Panama",
+    "Canada",
+    "Ede"
   ],
-  "summary_tldr": "Historicus Arend Jan Boekestijn blikt na bijna veertig jaar terug op zijn loopbaan, zijn bewonderde vader en zijn jeugd met Harry Kuitert. Het gesprek gaat over twijfel, agnosticisme en de vraag of moraal van boven of van beneden komt. Verder komen Kissinger, Niebuhr en zorgen over Trump en de Amerikaanse democratie aan bod.",
+  "summary_tldr": "Historicus Arend Jan Boekestijn blikt in zijn laatste aflevering voor de vakantie terug op zijn gereformeerde jeugd in Amstelveen, de invloed van Harry Kuitert en zijn vader, en de denkers die hem vormden, met name Reinhold Niebuhr. Het gesprek gaat over macht, tegenmacht en bescheidenheid in de geopolitiek en over de zorgen rond Trump en de Amerikaanse democratie. Boekestijn eindigt met zijn godsverlangen en Bach als enig godsbewijs.",
   "summary_points": [
-    "Boekestijn geeft zijn laatste college na bijna 40 jaar maar blijft podcasten en gaat schrijven",
-    "Zijn podcast Boekestijn en De Wijk groeide door de oorlog in Oekraïne",
-    "Hij bewondert Kissinger om zijn analytische kracht, maar bekritiseert zijn steun aan autocraten",
-    "Zijn vader, een hoogleraar uit een tomatenkwekersgezin, beïnvloedde hem enorm en zorgde voor een puberteitsloze jeugd",
-    "Kuitert maakte indruk met zijn intellectuele eerlijkheid en de stelling dat alle spreken over God van beneden komt",
-    "Boekestijn noemt zichzelf agnost, maar waardeert vergeving en naastenliefde uit de Bijbel",
-    "Paas waarschuwt dat een puur menselijke moraal kan vervallen in machtsstrijd",
-    "Boekestijn heeft een realistisch mensbeeld: oorlog hoort bij de mens, een paradijs komt er niet",
-    "Hij vreest voor de Amerikaanse democratie en gelooft alleen in het godsbewijs Bach"
+    "Boekestijn's jeugd in een liberaal gereformeerd milieu en invloed van vader en Kuitert",
+    "Niebuhr's christelijk realisme als leidraad voor macht en moraal",
+    "Tegenmacht noodzakelijk om oorlog te voorkomen",
+    "Kritiek op Trump: leugens, corruptie en gevaar voor de democratie",
+    "Obama, Syrië en de moeilijkheid van morele buitenlandse politiek",
+    "Europese integratie versus natiestaten en populisme",
+    "Immigratiedebat en de tirannie van de meerderheid",
+    "Verlies van grote verhalen en betekenistekort",
+    "Godsverlangen en Bach als godsbewijs",
+    "Bescheidenheid en dankbaarheid als rode lijn"
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Podcasten en oorlogshelers",
-      "summary": "Boekestijn vertelt over het ontstaan van zijn podcast en hoe de oorlog in Oekraïne alles veranderde."
+      "start_seconds": 0,
+      "title": "Pensioen en podcastleven",
+      "summary": "Boekestijn vertelt over zijn laatste college en de podcast Boekestijn en De Wijk."
     },
     {
-      "start_seconds": 280,
-      "title": "Het laatste college",
-      "summary": "Over afscheid van het universitaire onderwijs, lezingen geven en plannen voor boeken over Trump en grote denkers."
+      "start_seconds": 515,
+      "title": "Geschiedenis en Kissinger",
+      "summary": "Boekestijn spreekt over zijn favoriete historische periodes en Kissinger."
     },
     {
-      "start_seconds": 475,
-      "title": "Favoriete geschiedenis en Kissinger",
-      "summary": "De val van de Muur, het Duitse vraagstuk en Kissinger als briljant maar omstreden denker."
+      "start_seconds": 960,
+      "title": "Jeugd en vader",
+      "summary": "Boekestijn beschrijft zijn vader en zijn gereformeerde jeugd in Amstelveen."
     },
     {
-      "start_seconds": 740,
-      "title": "Carrière en nederigheid",
-      "summary": "Zijn start in Utrecht, schrijven voor NRC en zijn dankbaarheid en realisme over eigen kunnen."
+      "start_seconds": 1316,
+      "title": "Kuitert en secularisatie",
+      "summary": "Gesprek over Harry Kuitert en de snelle secularisatie van de gereformeerde kerken."
     },
     {
-      "start_seconds": 1000,
-      "title": "Zijn vader en het gezin",
-      "summary": "Het verhaal van zijn vader uit De Lier, Bach en een open, intellectueel gezinsklimaat."
+      "start_seconds": 1900,
+      "title": "Moraal, God en menselijke natuur",
+      "summary": "Discussie over moraal die van boven of van beneden komt en de rol van naastenliefde."
     },
     {
-      "start_seconds": 1305,
-      "title": "Kuitert en de gereformeerde wereld",
-      "summary": "Kuiterts invloed, de snelle secularisatie van de gereformeerde kerken en Boekestijns agnosticisme."
+      "start_seconds": 2600,
+      "title": "Europa en populisme",
+      "summary": "Boekestijn en Paas bespreken de Europese integratie en de spanning met de verzorgingsstaat."
     },
     {
-      "start_seconds": 1760,
-      "title": "Moraal van boven of beneden",
-      "summary": "Discussie over de herkomst van moraal, relativisme, menselijke waardigheid en realistisch mensbeeld."
+      "start_seconds": 2760,
+      "title": "Niebuhr, macht en Trump",
+      "summary": "Niebuhr's realisme wordt gekoppeld aan Trump, Obama en Syrië."
+    },
+    {
+      "start_seconds": 4680,
+      "title": "Bach en afsluiting",
+      "summary": "Boekestijn eindigt bij godsverlangen, Bach en het gebed van Niebuhr."
     }
   ],
   "highlights": [
     {
       "start_seconds": 13,
       "speaker": "Arend Jan Boekestijn",
-      "text": "Ik ben zelfs bang dat de Amerikaanse democratie daar gewoon aan gaat.",
-      "note": "Scherpe zorg over de VS"
+      "text": "Ik geloof maar in 1 godsbeweis, en dat is Bach.",
+      "note": "Een persoonlijke en onverwachte manier om over God te spreken."
     },
     {
-      "start_seconds": 262,
+      "start_seconds": 2100,
       "speaker": "Arend Jan Boekestijn",
-      "text": "We zijn eigenlijk oorlogshelers. Wij verdienen aan de oorlog.",
-      "note": "Zelfkritische blik op commentatoren"
+      "text": "Ik ben bang dat de Amerikaanse democratie er gewoon aan gaat.",
+      "note": "Scherpe zorg over de toekomst van de VS."
     },
     {
-      "start_seconds": 1352,
+      "start_seconds": 3960,
       "speaker": "Arend Jan Boekestijn",
-      "text": "Papa, bestaat God nu echt? – Nou jongen, dat weet ik ook niet zo zeker eigenlijk.",
-      "note": "Persoonlijk moment over geloofstwijfel in zijn jeugd"
+      "text": "Ik ben bang dat de opvolger van Trump geleerd heeft dat liegen en bedriegen, dat dat dus werkt.",
+      "note": "Waarschuwing over normvervaging in politiek."
     },
     {
-      "start_seconds": 2000,
-      "speaker": "Stefan Paas",
-      "text": "Dan kom je in een Nietzscheaans universum waar de een zegt: heb je naaste lief, de ander: de sterkste wint.",
-      "note": "Kernbezwaar tegen een puur menselijke moraal"
-    },
-    {
-      "start_seconds": 2043,
+      "start_seconds": 5850,
       "speaker": "Arend Jan Boekestijn",
-      "text": "Als de wensen van de mensen vervuld worden, dan lachen de goden in hun vuistje.",
-      "note": "Antiek inzicht over het menselijk tekort"
+      "text": "De rode lijn is bescheidenheid.",
+      "note": "Samenvatting van het gesprek door Boekestijn en Paas."
+    },
+    {
+      "start_seconds": 2180,
+      "speaker": "Arend Jan Boekestijn",
+      "text": "Dit machtsevenwicht heeft een morele kwaliteit.",
+      "note": "Macht die tegenmacht oproept heeft morele waarde."
     }
   ],
   "keywords": [
-    "Arend Jan Boekestijn",
+    "Reinhold Niebuhr",
+    "christelijk realisme",
     "Harry Kuitert",
-    "Kissinger",
-    "Niebuhr",
-    "agnosticisme",
-    "gereformeerde jeugd",
     "secularisatie",
-    "menselijk tekort",
-    "Trump",
+    "Donald Trump",
+    "tegenmacht",
+    "Europese integratie",
+    "godsverlangen",
     "Bach",
-    "moraal",
-    "geschiedenis"
+    "gevolgenethiek"
   ],
   "quotes": [
-    "Ik ben bang dat de Amerikaanse democratie er gewoon aan gaat."
+    "Ik ben bang dat de Amerikaanse democratie er gewoon aan gaat.",
+    "Ik geloof maar in 1 godsbeweis, en dat is Bach."
   ],
   "similar": [
     {
-      "n": 305,
-      "reason": "Historicus Maarten van Rossem over grootmachten, geschiedenis en de zin van het leven."
-    },
-    {
       "n": 241,
-      "reason": "Denkers en ideologieën achter Trump, met Amerikaanse geschiedenis en geloof."
+      "reason": "Denkers en ideologieën achter Trump, sluit aan bij de vormende denkers van Boekestijn"
     },
     {
-      "n": 239,
-      "reason": "Joris Luyendijk over Trump, de VS en het gevaar voor onze vrijheid."
+      "n": 309,
+      "reason": "Macht en tirannie onder Trump en Poetin, sluit aan bij het geopolitieke machtsthema"
     },
     {
-      "n": 183,
-      "reason": "Historisch-politiek gesprek over een grote denker; God, politiek en filosofie."
+      "n": 203,
+      "reason": "Trump in relatie tot religie en een veranderd Amerika, zelfde kernthema's"
+    },
+    {
+      "n": 219,
+      "reason": "Culturele en religieuze duiding van Trumps herverkiezing, overlappend met Amerikaanse godsdienstpolitiek"
     },
     {
       "n": 200,
-      "reason": "Augustinus centraal, met geschiedenis en politiek."
+      "reason": "Augustinus centraal, een figuur die in het gesprek van Boekestijn ook voorkomt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

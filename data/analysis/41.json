@@ -1,18 +1,23 @@
 {
   "episode": 41,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93408,
+    "segments": 796,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30122,
-    "output_tokens": 3065,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46697,
+    "output_tokens": 6155,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
-    "Politiek",
     "Kerk & secularisatie",
-    "Bijbel & Jezus"
+    "Politiek",
+    "Geschiedenis",
+    "Wetenschap & kosmos"
   ],
   "guests": [
     "Johan Snel"
@@ -20,140 +25,82 @@
   "people": [
     {
       "name": "Abraham Kuyper",
-      "note": "theoloog, journalist, politicus en premier; grondlegger van de Vrije Universiteit en de Anti-Revolutionaire Partij",
+      "note": "Predikant, theoloog, journalist en premier; hoofdpersoon van het gesprek en de biografie",
       "start_seconds": 51,
-      "wiki_checked": true,
-      "wiki_pageid": 54317,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Kuyper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Abraham_Kuyper_1905_%281%29.jpg/250px-Abraham_Kuyper_1905_%281%29.jpg"
+      "mention_count": 70
     },
     {
-      "name": "Johan Rudolf Thorbecke",
-      "note": "liberaal staatsman, door Snel contrasterend genoemd met Kuyper als democraat",
+      "name": "Thorbecke",
+      "note": "Liberaal staatsman die vaak als eerste democraat wordt genoemd",
       "start_seconds": 243,
-      "wiki_checked": true,
-      "wiki_pageid": 14355,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Rudolph_Thorbecke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Johan_Heinrich_Neuman_-_Johan_Rudolf_Thorbecke.jpg/250px-Johan_Heinrich_Neuman_-_Johan_Rudolf_Thorbecke.jpg"
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "reformator; het calvinisme werd in Nederland vooral via Kuyper bekend",
-      "start_seconds": 274,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "mention_count": 3
     },
     {
       "name": "Karl Marx",
-      "note": "stichter van de Internationale in 1872; Kuyper vond dat socialisten burgerrechten hadden",
+      "note": "Socialistische denker; Kuyper kwam voor zijn recht om te spreken op",
       "start_seconds": 854,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Paulus",
-      "note": "door Kuyper de apostel van de democratie genoemd",
-      "start_seconds": 925,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "John Stuart Mill",
-      "note": "filosoof; Kuyper nam een nog radicalere positie in over vrijheid van meningsuiting",
-      "start_seconds": 1274,
-      "wiki_checked": true,
-      "wiki_pageid": 12471,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Stuart_Mill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Stuart_Mill_G_F_Watts.jpg/250px-Stuart_Mill_G_F_Watts.jpg"
-    },
-    {
-      "name": "Immanuel Kant",
-      "note": "voorbeeld van creativiteit gecombineerd met discipline",
-      "start_seconds": 1469,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
-    },
-    {
-      "name": "Alexander von Humboldt",
-      "note": "voorbeeld van een gedisciplineerde veelschrijver",
-      "start_seconds": 1472,
-      "wiki_checked": true,
-      "wiki_pageid": 202358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_von_Humboldt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Stieler%2C_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg/250px-Stieler%2C_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg"
+      "mention_count": 1
     },
     {
       "name": "Charles Darwin",
-      "note": "bedenker van de evolutietheorie; Kuyper zag er wetenschappelijk geen kwaad in",
-      "start_seconds": 1826,
-      "wiki_checked": true,
-      "wiki_pageid": 4097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Darwin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/250px-Charles_Darwin_portrait.jpg"
-    },
-    {
-      "name": "Ernst Haeckel",
-      "note": "populariseerder van Darwin, door Kuyper bekritiseerd",
+      "note": "Bioloog van de evolutietheorie waarover Kuyper in 1899 een rede hield",
       "start_seconds": 1848,
-      "wiki_checked": true,
-      "wiki_pageid": 277294,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernst_Haeckel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ernst_Haeckel_1860.jpg/250px-Ernst_Haeckel_1860.jpg"
+      "mention_count": 3
     },
     {
       "name": "Herbert Spencer",
-      "note": "Engelse denker, sociaal darwinisme",
+      "note": "Engelse populariserende Darwinist; door Kuyper bekritiseerd om sociaal darwinisme",
       "start_seconds": 1848,
-      "wiki_checked": true,
-      "wiki_pageid": 61439,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herbert_Spencer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Herbert_Spencer.jpg/250px-Herbert_Spencer.jpg"
+      "mention_count": 1
     },
     {
-      "name": "William Jennings Bryan",
-      "note": "activist in het Scopes-proces, bezorgd om sociaal darwinisme",
-      "start_seconds": 1912,
-      "wiki_checked": true,
-      "wiki_pageid": 1104523,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Jennings_Bryan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/WilliamJBryan1902.png/250px-WilliamJBryan1902.png"
+      "name": "Ernst Haeckel",
+      "note": "Duitse populariserende Darwinist; door Kuyper bekritiseerd",
+      "start_seconds": 1848,
+      "mention_count": 1
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Filosoof; voorbeeld van discipline bij grote denkers",
+      "start_seconds": 1469,
+      "mention_count": 1
+    },
+    {
+      "name": "Wilhelm von Humboldt",
+      "note": "Geleerde die als voorbeeld van discipline en productiviteit wordt genoemd",
+      "start_seconds": 1472,
+      "mention_count": 1
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof die Kuyper had gelezen",
-      "start_seconds": 2196,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "Filosoof die Kuyper gelezen zou hebben; verwijst naar de dood van God",
+      "start_seconds": 2195,
+      "mention_count": 1
+    },
+    {
+      "name": "Matthew Arnold",
+      "note": "Victoriaans dichter; zijn gedicht Dover Beach over het wegebben van het geloof",
+      "start_seconds": 2224,
+      "mention_count": 1
+    },
+    {
+      "name": "John Stuart Mill",
+      "note": "Liberaal denker over vrijheid van meningsuiting; Kuyper ging daarin nog verder",
+      "start_seconds": 1274,
+      "mention_count": 1
+    },
+    {
+      "name": "William Jennings Bryan",
+      "note": "Amerikaanse aanklager in de Scopes-zaak tegen evolutieonderwijs",
+      "start_seconds": 1912,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "De zeven levens van Abraham Kuyper",
       "author": "Johan Snel",
-      "note": "biografie die Kuyper door zeven rollen heen beschrijft",
+      "note": "Biografie waarin Snel Kuypers zeven rollen uitwerkt; basis van het gesprek",
       "start_seconds": 405,
       "volume_id": "e9eIzQEACAAJ",
       "canonical_title": "De zeven levens van Abraham Kuyper. Portret van een ongrijpbare staatsman",
@@ -165,138 +112,147 @@
   ],
   "bible_refs": [],
   "places": [
-    "Londen",
-    "Zwitserland",
-    "Alpen",
-    "Leiden",
     "Amsterdam",
     "Den Haag",
+    "Leiden",
     "Zutphen",
-    "Korea",
+    "Londen",
+    "Zwitserland",
+    "Atjeh",
+    "Indonesië",
     "Verenigde Staten"
   ],
-  "summary_tldr": "Historicus Johan Snel vertelt over Abraham Kuyper als radicale democraat, journalist, wetenschapper, alpinist en premier. Hij nuanceert het beeld van Kuyper als uitvinder van de verzuiling en laat zien dat hij pluralisme en vrijheid van geweten hoog had zitten. Ook kwamen zijn visie op evolutie en zijn voorspelling over secularisatie en de terugkeer van religie aan bod.",
+  "summary_tldr": "Historicus Johan Snel bespreekt zijn biografie van Abraham Kuyper, een predikant, journalist en premier die als radicale democraat en pionier van het pluralisme wordt gezien. Het gesprek gaat over zijn invloed op de Nederlandse politiek en verzuiling, zijn omstreden rol in de secularisatie en zijn ideeën over evolutie en kolonialisme. Stefan Paas en David Boogerd toetsen die beeldvorming aan de hedendaagse samenleving.",
   "summary_points": [
-    "Kuyper wordt weer relevanter door thema's als democratie, burgerrechten en pluralisme.",
-    "Kuyper was een radicale democraat die gewone mannen en vrouwen organiseerde, onder meer in de schoolstrijd en met een volkspetitionnement.",
-    "Hij was niet de bedenker van de verzuiling; hij geloofde in soevereiniteit in eigen kring en was tegen aparte zuilen buiten onderwijs en wetenschap.",
-    "Zijn pluralisme kwam voort uit zijn geloof in de vrijheid van het geweten, ook al dacht hij zelf rechtlijnig vanuit beginselen.",
-    "Als journalist schreef hij enorm veel en was hij beroemd om zijn driestarren.",
-    "Zijn ijzeren discipline bestond uit vaste schrijfuren, twee uur wandelen per dag en lange Alpenvakanties.",
-    "Hij was opgeleid als vrijzinnig theoloog, bekeerde zich en maakte van het neo-calvinisme een totale ideologie.",
-    "Hij had geen moeite met Darwin als wetenschap, maar waarschuwde tegen sociaal darwinisme en evolutie als wereldbeeld.",
-    "Al in 1907 voorzag hij secularisatie, maar ook een verdiepte terugkeer van religie."
+    "Kuyper was een radicale democraat die al in de 19e eeuw voor algemene rechten opkwam, ook voor arbeiders en vrouwen.",
+    "Hij wordt vaak als populist gezien, maar verdedigde juist pluralisme en de rechten van tegenstanders.",
+    "Entoch wordt hij geassocieerd met verzuiling, terwijl hij zelf tegen verzuiling op maatschappelijke terreinen was.",
+    "Zijn beginselvastheid en neo-calvinistische 'soevereiniteit in eigen kring' leidden tot versplintering van kerk en samenleving.",
+    "Hij zag in 1907 al secularisatie, maar geloofde niet in een definitief einde van religie.",
+    "Hij was een enorm productief journalist die dagelijks commentaren schreef en tegenstanders op de hak nam.",
+    "Zijn omgang met de evolutietheorie was genuanceerd: wetenschap accepteerde hij, sociaal darwinisme wees hij af.",
+    "Snel beschrijft Kuyper als een warm pluralist, maar ook als kind van zijn tijd met koloniale en Europese superioriteitsopvattingen.",
+    "Het gesprek legt een verband tussen Kuypers erfenis en de huidige polarisatie en het meerpartijenstelsel in Nederland."
   ],
   "chapters": [
     {
-      "start_seconds": 105,
-      "title": "Waarom Kuyper nog relevant is",
-      "summary": "Snel legt uit waarom Kuyper weer actueel is en hoe zijn invloed doorwerkt in het politieke stelsel en de VU."
+      "start_seconds": 0,
+      "title": "Inleiding en de voorspelling van secularisatie",
+      "summary": "Het gesprek opent met de vraag of religie een toekomst heeft, en Kuypers antwoord uit 1907 daarop."
     },
     {
       "start_seconds": 405,
-      "title": "De zeven levens en de beroemdheid",
-      "summary": "Over de zeven rollen in het boek, van alpinist tot staatsman, en Kuypers bekendheid in binnen- en buitenland."
+      "title": "De zeven levens van Kuyper",
+      "summary": "Snel introduceert zijn boek en de zeven rollen van Kuyper, waaronder alpinist, wetenschapper en staatsman."
     },
     {
-      "start_seconds": 680,
-      "title": "Splijtzwam en radicale democraat",
-      "summary": "Kuyper brak met de elite, kwam op voor gewone mensen en leidde de schoolstrijd; was hij een populist?"
+      "start_seconds": 720,
+      "title": "Radicale democraat en populist",
+      "summary": "Discussie over Kuypers radicale democratie, zijn breuk met de elite en de vraag of hij een populist was."
     },
     {
       "start_seconds": 1017,
-      "title": "Verzuiling en pluralisme",
-      "summary": "Kuyper was geen uitvinder van de verzuiling maar pleitte voor soevereiniteit in eigen kring en vrijheid van geweten."
-    },
-    {
-      "start_seconds": 1336,
-      "title": "Journalist en discipline",
-      "summary": "Over zijn enorme schrijfoutput, de driestarren, zijn wandelingen en Alpenvakanties."
-    },
-    {
-      "start_seconds": 1606,
-      "title": "Geloof en theologie",
-      "summary": "Van vrijzinnige opleiding tot neo-calvinistische ideologie, en zijn internationale invloed."
+      "title": "Verzuiling en soevereiniteit in eigen kring",
+      "summary": "Snel nuanceert het beeld van Kuyper als uitvinder van de verzuiling en beschrijft zijn beginselvastheid."
     },
     {
       "start_seconds": 1826,
-      "title": "Darwin en sociaal darwinisme",
-      "summary": "Kuyper stond open voor de wetenschap maar waarschuwde tegen evolutie als totaalverklaring."
+      "title": "Evolutie en sociaal darwinisme",
+      "summary": "Kuypers houding tegenover Darwin en zijn waarschuwing tegen sociaal darwinisme en worldview-denken."
     },
     {
-      "start_seconds": 2049,
-      "title": "Secularisatie en de toekomst van religie",
-      "summary": "Zijn voorspelling uit 1907 en zijn toespraak voor duizenden jongeren in Zutphen."
+      "start_seconds": 2371,
+      "title": "Secularisatie en de antithese",
+      "summary": "De vraag of Kuyper heeft bijgedragen aan secularisatie en polarisatie, via de antithese en partijpolitiek."
+    },
+    {
+      "start_seconds": 2752,
+      "title": "Warm pluralisme en kritiek",
+      "summary": "Kuyper als inspirerende pluralist, met kritische kanttekeningen over zijn tijd, ras en kolonialisme."
+    },
+    {
+      "start_seconds": 3316,
+      "title": "Afsluiting en vervolg",
+      "summary": "Snel vertelt over zijn lopende onderzoek naar Kuypers journalistiek en de betekenis van het gesprek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 14,
+      "start_seconds": 2050,
       "speaker": "Johan Snel",
-      "text": "Kuyper voorspelde in 1907 secularisatie, maar ook een terugkeer van religie, verrijpt en verdiept door de crisis heen.",
-      "note": "Alsof hij de 20e en 21e eeuw samenvat."
+      "text": "We zijn onmiskenbaar in een tijd van verduistering terechtgekomen, van secularisatie, maar er zal een terugkeer zijn, verrijpt en verdiept door die crisis heen.",
+      "note": "Kuypers antwoord uit 1907 lijkt de 20e en 21e eeuw vooruit te zien."
     },
     {
-      "start_seconds": 274,
+      "start_seconds": 2269,
       "speaker": "Johan Snel",
-      "text": "We zouden nooit van het calvinisme gehoord hebben zonder Kuyper.",
-      "note": "Verrassende claim over zijn invloed."
+      "text": "De ondergang van religie is minstens zo vaak voorspeld als de ondergang van de wereld.",
+      "note": "Een scherpe observatie die het vooruitgangsgeloof en de secularisatiedroom relativeert."
     },
     {
-      "start_seconds": 1017,
-      "speaker": "Johan Snel",
-      "text": "Kuyper was tegen verzuiling waar die geen functie had; de geitenfokvereniging als gereformeerde vereniging vond hij ondenkbaar.",
-      "note": "Corrigeert het gangbare schoolboekbeeld."
-    },
-    {
-      "start_seconds": 925,
+      "start_seconds": 926,
       "speaker": "Johan Snel",
       "text": "Paulus is ook gewoon de apostel van de democratie.",
-      "note": "Kuyper over Paulus in zijn lezing over het calvinisme van 1873."
+      "note": "Kuyper las Paulus als pleitbezorger van gelijke rechten voor slaven en vrouwen, een opvallende lezing."
     },
     {
-      "start_seconds": 1426,
+      "start_seconds": 2461,
+      "speaker": "Stefan Paas",
+      "text": "Dat zijn gesloten bouwwerken; het zijn schepen die elkaar in de nacht passeren.",
+      "note": "Een treffend beeld van het risico van beginselvastheid voor het gesprek in een samenleving."
+    },
+    {
+      "start_seconds": 2521,
       "speaker": "Johan Snel",
-      "text": "Een voorpagina vullend hoofdartikel schreef hij in een half uur terwijl de loopjongen wachtte.",
-      "note": "Illustreert zijn productiviteit."
+      "text": "Je vervreemdt letterlijk iedereen van je met dat eeuwige gehamer op beginselen.",
+      "note": "Snel benoemt de tragiek van Kuypers beginselvastheid, die uiteindelijk eenheid onmogelijk maakte."
+    },
+    {
+      "start_seconds": 2658,
+      "speaker": "Johan Snel",
+      "text": "CDA'ers zijn tegenwoordig vaak van koud pluralisme; Kuyper was warmer.",
+      "note": "Een kritische uitspraak over het hedendaagse CDA en de herwaardering van Kuyper als bron."
     }
   ],
   "keywords": [
     "Abraham Kuyper",
-    "neo-calvinisme",
-    "pluralisme",
-    "verzuiling",
-    "soevereiniteit in eigen kring",
-    "schoolstrijd",
-    "Vrije Universiteit",
-    "secularisatie",
-    "sociaal darwinisme",
-    "radicale democratie",
-    "vrijheid van geweten"
+    "Verzuiling",
+    "Neo-calvinisme",
+    "Radicale democratie",
+    "Pluralisme",
+    "Secularisatie",
+    "Soevereiniteit in eigen kring",
+    "Sociaal darwinisme",
+    "Antithese",
+    "Vrije Universiteit"
   ],
   "quotes": [
-    "Wil je de Nederlandse samenleving beter begrijpen? Dan moet je Abraham Kuyper beter begrijpen."
+    "Hij was een predikant maar ook een radicale democraat.",
+    "Door sommigen de eerste Nederlandse populist genoemd, maar hij was ook premier.",
+    "Ruim honderd jaar geleden dacht Kuyper al na over de secularisatie waar we nu in zitten."
   ],
   "similar": [
     {
-      "n": 51,
-      "reason": "Refo's en secularisatie; Kuyper-erfenis in gereformeerde zuil en politiek"
-    },
-    {
       "n": 45,
-      "reason": "Christelijke politiek in Nederland, geschiedenis van christelijke partijen en secularisatie"
+      "reason": "Nederlandse politiek en de rol van christelijke partijen en secularisatie, zoals bij Kuyper"
     },
     {
-      "n": 112,
-      "reason": "Historische figuur uit Nederlandse politiek en religie, in dezelfde rubriek 'mensen die je moet kennen'"
+      "n": 51,
+      "reason": "Reformatorische zuil en weerstand tegen secularisatie, direct verbonden met Kuyper's erfenis"
     },
     {
       "n": 167,
-      "reason": "Darwin en evolutie versus geloof: verwant aan Kuypers visie op evolutie"
+      "reason": "Spanning tussen wetenschap en geloof, met Darwin als gedeelde figuur"
     },
     {
-      "n": 132,
-      "reason": "Historische denker, politiek en religie; vergelijkbare biografische aanpak als Erasmus"
+      "n": 136,
+      "reason": "Nederlandse politieke verhoudingen, kerk en secularisatie in het politieke landschap"
+    },
+    {
+      "n": 179,
+      "reason": "Politiek, kerk en Nederlandse geschiedenis, met een D66-perspectief op geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

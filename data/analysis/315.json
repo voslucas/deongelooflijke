@@ -1,11 +1,16 @@
 {
   "episode": 315,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 102866,
+    "segments": 1021,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31920,
-    "output_tokens": 3270,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53392,
+    "output_tokens": 12000,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,362 +25,443 @@
     "Joris Luyendijk",
     "Maarten van Rossem",
     "Hubert Smeets",
-    "Katya Tolstaya"
+    "Katja Tolstaja",
+    "James Kennedy",
+    "Bart Groothuis",
+    "Paul Schenderling"
   ],
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, bedreigt Groenland, Panama en Canada",
-      "start_seconds": 134,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Garry Kasparov",
-      "note": "Russische schaker en Poetin-criticus, uitgeweken naar Amerika",
-      "start_seconds": 160,
-      "wiki_checked": true,
-      "wiki_pageid": 25787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Garri_Kasparov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Garri_kasparow_20070318.jpg/250px-Garri_kasparow_20070318.jpg"
-    },
-    {
-      "name": "John Bolton",
-      "note": "voormalig Amerikaans veiligheidsadviseur, beveiliging ingetrokken",
-      "start_seconds": 183,
-      "wiki_checked": true,
-      "wiki_pageid": 227208,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Bolton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/05.01_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E7%BE%8E%E5%9C%8B%E5%89%8D%E7%99%BD%E5%AE%AE%E5%9C%8B%E5%AE%89%E9%A1%A7%E5%95%8F%E5%8D%9A%E9%A8%B0%E5%A4%A7%E4%BD%BF%E3%80%8D_%2852860612496%29_%28cropped%29.jpg/250px-05.01_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E7%BE%8E%E5%9C%8B%E5%89%8D%E7%99%BD%E5%AE%AE%E5%9C%8B%E5%AE%89%E9%A1%A7%E5%95%8F%E5%8D%9A%E9%A8%B0%E5%A4%A7%E4%BD%BF%E3%80%8D_%2852860612496%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Anthony Fauci",
-      "note": "leidde het Amerikaanse vaccinatieprogramma tijdens COVID, beveiliging ingetrokken",
-      "start_seconds": 220,
-      "wiki_checked": true,
-      "wiki_pageid": 5340481,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anthony_Fauci",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Anthony_Fauci_in_2023_02_%28cropped%29.jpg/250px-Anthony_Fauci_in_2023_02_%28cropped%29.jpg"
-    },
-    {
-      "name": "Barack Obama",
-      "note": "voormalig Amerikaans president, zwijgt volgens De Wijk uit angst",
-      "start_seconds": 225,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "note": "Amerikaanse president; centrale figuur in de verschuiving van de wereldorde",
+      "start_seconds": 177,
+      "mention_count": 25
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, vergelijkt zich met tsaren en gelooft in een heilige Russische natie",
-      "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; radicalisering en gebruik van historische mythes",
+      "start_seconds": 365,
+      "mention_count": 30
     },
     {
-      "name": "Herfried Münkler",
-      "note": "Duitse politicoloog, ontwikkelde de biljarttafelmetafoor voor de wereldorde",
-      "start_seconds": 637,
-      "wiki_checked": true
+      "name": "John Bolton",
+      "note": "Voormalig adviseur van Trump, architect van de Irakoorlog",
+      "start_seconds": 177,
+      "mention_count": 3
     },
     {
-      "name": "Napoleon Bonaparte",
-      "note": "probeerde als enige superbiljartbal Europa te domineren",
-      "start_seconds": 769,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "name": "Anthony Fauci",
+      "note": "Epidemioloog die het COVID-vaccinatieprogramma overzag",
+      "start_seconds": 217,
+      "mention_count": 1
     },
     {
-      "name": "Francis Fukuyama",
-      "note": "schreef over het 'einde van de geschiedenis'",
-      "start_seconds": 1019,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaans president",
+      "start_seconds": 225,
+      "mention_count": 2
     },
     {
-      "name": "Vladimir de Grote",
-      "note": "vorst van Kiev die zich in 988 liet dopen",
-      "start_seconds": 1353,
-      "wiki_checked": true,
-      "wiki_pageid": 464861,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_van_Kiev",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Vladimir_Svyatoslavovich.jpg/250px-Vladimir_Svyatoslavovich.jpg"
-    },
-    {
-      "name": "Peter de Grote",
-      "note": "tsaar die Rusland een raam op Europa gaf; door Poetin geciteerd",
-      "start_seconds": 1857,
-      "wiki_checked": true,
-      "wiki_pageid": 50298,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Peter_de_Grote.jpg/250px-Peter_de_Grote.jpg"
-    },
-    {
-      "name": "Alexander I",
-      "note": "tsaar die Napoleon versloeg; lievelingstsaar van De Graaf",
-      "start_seconds": 1895,
-      "wiki_checked": true,
-      "wiki_pageid": 51198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg/250px-Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg"
-    },
-    {
-      "name": "Catharina de Grote",
-      "note": "absolutistische vorstin die Rusland uitbreidde; later door Poetin geciteerd",
-      "start_seconds": 1981,
-      "wiki_checked": true,
-      "wiki_pageid": 36561,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Catharina_II_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_%281763%2C_Tretyakov_gallery%29.jpg/250px-Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_%281763%2C_Tretyakov_gallery%29.jpg"
-    },
-    {
-      "name": "Niels Drost",
-      "note": "historicus die Poetins toespraken analyseerde",
-      "start_seconds": 1819,
-      "wiki_checked": true
-    },
-    {
-      "name": "Deng Xiaoping",
-      "note": "Chinese leider die de economische hervormingen doorvoerde",
-      "start_seconds": 2173,
-      "wiki_checked": true,
-      "wiki_pageid": 89503,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Deng_Xiaoping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Deng_Xiaoping.jpg/250px-Deng_Xiaoping.jpg"
+      "name": "Garry Kasparov",
+      "note": "Russische schaakkampioen en politiek activist in ballingschap",
+      "start_seconds": 158,
+      "mention_count": 1
     },
     {
       "name": "Xi Jinping",
-      "note": "Chinees president, verwees naar de Thucydides-val",
+      "note": "Chinese president; sprak over de Thucydides-val tijdens ontmoeting met Trump",
       "start_seconds": 2241,
-      "wiki_checked": true,
-      "wiki_pageid": 2193479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Xi_Jinping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg/250px-Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg"
-    },
-    {
-      "name": "Graham Allison",
-      "note": "schrijver van Destined for War over de Thucydides-val",
-      "start_seconds": 2267,
-      "wiki_checked": true,
-      "wiki_pageid": 851823,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Graham_Allison",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Graham_T._Allison%2C_Jr.jpg/250px-Graham_T._Allison%2C_Jr.jpg"
+      "mention_count": 3
     },
     {
       "name": "Thucydides",
-      "note": "Griekse historicus van de Peloponnesische oorlog",
-      "start_seconds": 2288,
-      "wiki_checked": true,
-      "wiki_pageid": 26099,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thucydides_%28historicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Thucydides_pushkin02.jpg/250px-Thucydides_pushkin02.jpg"
+      "note": "Antieke Griekse historicus; beschreef de Peloponnesische oorlog",
+      "start_seconds": 2256,
+      "mention_count": 3
     },
     {
-      "name": "George Orwell",
-      "note": "geciteerd over propaganda als leugen",
-      "start_seconds": 1727,
-      "wiki_checked": true,
-      "wiki_pageid": 7028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Orwell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg"
+      "name": "Graham Allison",
+      "note": "Auteur van Destined for War over de Thucydides-val",
+      "start_seconds": 2274,
+      "mention_count": 2
+    },
+    {
+      "name": "Deng Xiaoping",
+      "note": "Chinese leider die in 1979 de economische hervormingen startte",
+      "start_seconds": 2167,
+      "mention_count": 2
+    },
+    {
+      "name": "Mao Zedong",
+      "note": "Chinese leider die in 1976 overleed",
+      "start_seconds": 2167,
+      "mention_count": 1
+    },
+    {
+      "name": "Herfried Münkler",
+      "note": "Duitse politicoloog; ontwikkelde de biljarttafel-metafoor",
+      "start_seconds": 637,
+      "mention_count": 8
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Franse keizer die probeerde Europa te domineren",
+      "start_seconds": 769,
+      "mention_count": 5
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Auteur van het idee van het einde van de geschiedenis",
+      "start_seconds": 1018,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir de Grote",
+      "note": "Vorst van Kiev die zich volgens de overlevering in 988 liet dopen",
+      "start_seconds": 1353,
+      "mention_count": 4
+    },
+    {
+      "name": "Peter de Grote",
+      "note": "Russische tsaar; door Poetin geciteerd als voorbeeld van Europese oriëntatie",
+      "start_seconds": 1853,
+      "mention_count": 3
+    },
+    {
+      "name": "Alexander I",
+      "note": "Russische tsaar die Napoleon versloeg; door Poetin gebruikt als rolmodel",
+      "start_seconds": 1889,
+      "mention_count": 2
+    },
+    {
+      "name": "Catharina de Grote",
+      "note": "Russische keizerin die de Krim en de Kaukasus inlijfde",
+      "start_seconds": 1981,
+      "mention_count": 2
+    },
+    {
+      "name": "Dmitri Medvedev",
+      "note": "Voormalig Russisch president en premier",
+      "start_seconds": 1878,
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider; vergeleken met Poetins Russificatie",
+      "start_seconds": 2030,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Duitse dictator die probeerde een grote mogendheid te worden",
+      "start_seconds": 960,
+      "mention_count": 2
+    },
+    {
+      "name": "Niels Drost",
+      "note": "Student van Beatrice de Graaf die Poetins toespraken analyseerde",
+      "start_seconds": 1728,
+      "mention_count": 2
+    },
+    {
+      "name": "Brian Kaplan",
+      "note": "Econoom die het begrip rationele irrationaliteit introduceerde",
+      "start_seconds": 1769,
+      "mention_count": 1
+    },
+    {
+      "name": "Steven Levitsky",
+      "note": "Co-auteur van How Democracies Die",
+      "start_seconds": 2746,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Ziblatt",
+      "note": "Co-auteur van How Democracies Die",
+      "start_seconds": 2746,
+      "mention_count": 1
+    },
+    {
+      "name": "Merrick Garland",
+      "note": "Rechter die Obama voordroeg voor het Hooggerechtshof",
+      "start_seconds": 2845,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaans president; verkiezingswinst in 2020",
+      "start_seconds": 2864,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Jackson",
+      "note": "Historische Amerikaanse president; door Trump in zijn Oval Office gehangen",
+      "start_seconds": 2976,
+      "mention_count": 1
+    },
+    {
+      "name": "Huey Long",
+      "note": "Amerikaanse politicus die buiten de partijstructuur opkwam",
+      "start_seconds": 2967,
+      "mention_count": 2
+    },
+    {
+      "name": "George Wallace",
+      "note": "Amerikaanse politicus uit de jaren 50 en 60 met extreme standpunten",
+      "start_seconds": 2967,
+      "mention_count": 2
+    },
+    {
+      "name": "Sam Harris",
+      "note": "Auteur die stelde dat Trump geen morele aanspraak maakt",
+      "start_seconds": 3049,
+      "mention_count": 1
+    },
+    {
+      "name": "David Hume",
+      "note": "Schotse filosoof; wortels van de liberale democratie",
+      "start_seconds": 3655,
+      "mention_count": 1
+    },
+    {
+      "name": "Adam Smith",
+      "note": "Schotse econoom en filosoof",
+      "start_seconds": 3670,
+      "mention_count": 1
+    },
+    {
+      "name": "Eva Jinek",
+      "note": "Televisiepresentatrice bij wie Rob de Wijk te gast was",
+      "start_seconds": 3572,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Oud-Testamentische profeet; volgens De Wijk de eerste sociale visie voor de toekomst",
+      "start_seconds": 3800,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Britse schrijver; essay over leven in het atoomtijdperk (1948)",
+      "start_seconds": 3908,
+      "mention_count": 2
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; schreef de brief aan de Thessalonicenzen",
+      "start_seconds": 3908,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "Destined for War",
-      "author": "Graham Allison",
-      "note": "over de Thucydides-val en machtswisselingen tussen grootmachten",
-      "start_seconds": 2267,
-      "volume_id": "AfYnDwAAQBAJ",
-      "canonical_title": "Destined for War: can America and China escape Thucydides' Trap?",
-      "canonical_author": "Graham Allison",
-      "isbn13": "9781925548372",
-      "isbn10": "1925548376",
-      "thumbnail": "http://books.google.com/books/content?id=AfYnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "How Democracies Die",
+      "author": "Steven Levitsky en Daniel Ziblatt",
+      "note": "Boek uit 2018 over hoe democratieën van binnenuit worden uitgehold",
+      "start_seconds": 2746,
+      "volume_id": "se7iswEACAAJ",
+      "canonical_title": "How Democracies Die",
+      "canonical_author": "Steven Levitsky, Daniel Ziblatt",
+      "isbn13": "9780525574538",
+      "isbn10": "0525574530",
+      "thumbnail": "http://books.google.com/books/content?id=se7iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "De 21ste eeuw",
+      "title": "Destined for War",
+      "author": "Graham Allison",
+      "note": "Boek over de Thucydides-val en 16 casussen van machtsovername",
+      "start_seconds": 2274,
+      "volume_id": "tcG7AQAACAAJ",
+      "canonical_title": "Destined for War: Can America and China Escape Thucydides's Trap?",
+      "canonical_author": "Graham T. Allison",
+      "isbn13": "9781925322378",
+      "isbn10": "1925322378",
+      "thumbnail": "http://books.google.com/books/content?id=tcG7AQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "De 21ste Eeuw",
       "author": "Maarten van Rossem",
-      "note": "over de opkomst van China sinds 1979",
-      "start_seconds": 2085,
-      "volume_id": "FRwOEAAAQBAJ",
-      "canonical_title": "De 21e eeuw, die in 1979 begon",
+      "note": "Boek waarin van Rossem de opkomst van China beschrijft",
+      "start_seconds": 2088,
+      "volume_id": "wE8izgEACAAJ",
+      "canonical_title": "De 21e eeuw, die in de jaren zeventig begon",
       "canonical_author": "Maarten van Rossem",
-      "isbn13": "9789046828403",
-      "isbn10": "9046828409",
-      "thumbnail": "http://books.google.com/books/content?id=FRwOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789046828397",
+      "isbn10": "9046828395",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jesaja 2:4",
+      "note": "Profetisch visioen van een rechtvaardige koning die omziet naar de zwakken en armen (aangehaald als eerste sociale visie)",
+      "start_seconds": 3800
+    },
+    {
+      "ref": "1 Thessalonicenzen 5",
+      "note": "Paulus spoort aan om te blijven werken, liefhebben, hopen en geloven tot de laatste dag",
+      "start_seconds": 3908
+    }
+  ],
   "places": [
-    "Verenigde Staten",
-    "Rusland",
-    "China",
-    "Europa",
-    "Oekraïne",
     "Kiev",
     "Moskou",
     "Constantinopel",
+    "Berlijn",
+    "Hongkong",
+    "Shenzhen",
+    "Guangzhou",
+    "Singapore",
+    "Taiwan",
+    "Oekraïne",
+    "Litouwen",
     "Groenland",
     "Panama",
     "Canada",
-    "Taiwan",
-    "Berlijn",
-    "Shenzhen",
-    "Hongkong",
-    "Litouwen",
-    "Tsjetsjenië"
+    "Tsjetsjenië",
+    "Krim",
+    "Irak",
+    "Afghanistan",
+    "Amersfoort",
+    "Maastricht",
+    "Brugge",
+    "Amsterdam"
   ],
-  "summary_tldr": "In deze Best-of-aflevering komen de beste fragmenten over de veranderende wereldorde samen: Amerika trekt zich terug uit de rol van wereldpolitieagent, Rusland put kracht uit mythes en geschiedenis, en China groeit razendsnel. Europa moet volgens de sprekers kiezen tussen speler en speelbal worden.",
+  "summary_tldr": "In deze best-of-aflevering bespreken historici, journalisten en politici hoe de wereldorde verschuift, met de VS die afstand neemt van zijn rol als wereldpolitieagent, China die opkomt en Rusland dat zich radicaliseert. Het gesprek onderzoekt de metafoor van de biljarttafel en de vraag of Europa een eigen speler moet worden. Het eindigt met de vraag hoe mensen zich verhouden tot oorlog en angst.",
   "summary_points": [
-    "Het land dat sinds 1945 onze veiligheid garandeerde, Amerika, keert zich af van Europa; dat is volgens Joris Luyendijk een grotere omwenteling dan de val van de muur.",
-    "Rob de Wijk ziet een terugkeer van de negentiende eeuw: een 'Bokito-wereldorde' van autocraten met invloedssferen.",
-    "Beatrice de Graaf legt met Münklers biljarttafelmetafoor uit hoe regels plaatsmaken voor machtspolitiek met drie grote spelers.",
-    "Europa moet zelf een grote biljartbal worden om een stabielere vijfpolige orde mogelijk te maken.",
-    "Hubert Smeets en Maarten van Rossem waarschuwen voor misbruik van geschiedenis, zoals Poetins verhaal over de doop van Vladimir in 988.",
-    "Poetin radicaliseerde van pro-Europese tsaren (Peter de Grote) naar autocratische (Catharina de Grote) en gelooft in een heilige Russische natie.",
-    "Maarten van Rossem beschrijft het Chinese industriële wonder sinds 1979 en de Thucydides-val als risico bij machtswisselingen.",
-    "Een mythe wordt gevaarlijk wanneer machthebbers er zelf in gaan geloven; 'rationele irrationaliteit' volgens Brian Caplan."
+    "De VS lijkt als bondgenoot weg te vallen en de veiligheidsgarantie voor Europa te verliezen",
+    "Rob de Wijk ziet een 'Bokito-wereldorde' terugkeren, waarin autocraten strijden om macht en invloedssferen",
+    "Beatrice de Graaf gebruikt Münklers biljarttafel-metafoor: de wereld wordt bepaald door grote machten die elkaar botsen",
+    "Rusland kent een zwakke civil society en een sterke fixatie op geschiedenis; Poetin gebruikt de doop van Vladimir in 988 als mythe",
+    "Beatrice de Graaf en Niels Drost analyseerden Poetins toespraken en zagen een radicale ideologie van de heilige Russische natie",
+    "China groeide sinds 1979 uitzonderlijk snel, maar kampt met vergrijzing, vastgoedproblemen en jeugdwerkloosheid",
+    "Democratieën sterven volgens How Democracies Die vaak van binnenuit, door uitholling van normen en terughoudendheid",
+    "Europa wordt gezien als een potentiële zelfstandige speler, maar de politieke wil en de structuur blijven een knelpunt",
+    "De ziel van Europa wordt beschreven als vooruitkijken en het streven naar een betere samenleving",
+    "Stefan Paas zoekt troost in Paulus en C.S. Lewis: leef, werk en heb lief tot het einde, en bid voor de Oekraïners en Poetin"
   ],
   "chapters": [
     {
-      "start_seconds": 47,
-      "title": "Inleiding: de wereld is veranderd",
-      "summary": "David Boogerd introduceert de aflevering over de verschuivende wereldorde en de rol van Rusland, de VS, China en Europa."
+      "start_seconds": 0,
+      "title": "Inleiding: een wereld in beweging",
+      "summary": "David Boogerd introduceert de aflevering over een wereld die sinds zeven jaar fundamenteel is veranderd."
     },
     {
-      "start_seconds": 108,
-      "title": "Amerika als vallend baken",
-      "summary": "Joris Luyendijk en Rob de Wijk bespreken dat Amerika zich afkeert van Europa en dat dit groter is dan de val van de muur."
-    },
-    {
-      "start_seconds": 271,
-      "title": "De Bokito-wereldorde",
-      "summary": "Rob de Wijk schetst een wereld van autocraten met invloedssferen en de vraag waarom Europa moet investeren in defensie."
+      "start_seconds": 120,
+      "title": "Amerika als verlaten bondgenoot",
+      "summary": "Rob de Wijk stelt dat de VS niet langer onze bondgenoot zijn en beschrijft de Bokito-wereldorde van autocraten."
     },
     {
       "start_seconds": 494,
       "title": "De wereld als biljarttafel",
-      "summary": "Beatrice de Graaf legt Münklers theorie uit, van de pentarchie van 1815 tot de huidige tripolaire orde, en waarom Europa een grote speler moet worden."
+      "summary": "Beatrice de Graaf legt Münklers metafoor uit en laat zien hoe grote mogendheden in de geschiedenis het evenwicht bewaarden."
     },
     {
-      "start_seconds": 1290,
-      "title": "Rusland en de macht van geschiedenis",
-      "summary": "Hubert Smeets, Maarten van Rossem en Katya Tolstaja bespreken Poetins gebruik van het jaar 988 en misbruik van geschiedenis."
+      "start_seconds": 1267,
+      "title": "Rusland en het misbruik van geschiedenis",
+      "summary": "Hubert Smeets, Katja Tolstaja en Maarten van Rossem bespreken Poetins gebruik van de geschiedenis van Kiev en de doop van 988."
     },
     {
-      "start_seconds": 1737,
-      "title": "De radicalisering van Poetin",
-      "summary": "Beatrice de Graaf beschrijft op basis van analyse van toespraken hoe Poetin opschoof van Peter de Grote naar Catharina de Grote en een heilige Russische ideologie."
+      "start_seconds": 2088,
+      "title": "China en de wereldorde",
+      "summary": "Maarten van Rossem beschrijft China's economische wonder en de Thucydides-val, en Beatrice de Graaf en Stefan Paas bekijken China's visie op wereldorde."
     },
     {
-      "start_seconds": 2085,
-      "title": "China en de Thucydides-val",
-      "summary": "Maarten van Rossem bespreekt het Chinese economische wonder sinds 1979 en het risico op oorlog bij een machtswisseling."
+      "start_seconds": 2739,
+      "title": "Democratie en de Verenigde Staten",
+      "summary": "Stefan Paas bespreekt How Democracies Die; James Kennedy en Rob de Wijk analyseren de morele aantrekkingskracht van Trump."
+    },
+    {
+      "start_seconds": 3132,
+      "title": "Europa zoekt zijn eigen koers",
+      "summary": "Joris Luyendijk, Bart Groothuis en Rob de Wijk bespreken de noodzaak van Europese samenwerking en cultureel zelfvertrouwen."
+    },
+    {
+      "start_seconds": 3714,
+      "title": "De ziel van Europa en omgaan met angst",
+      "summary": "Paul Schenderling en Rob de Wijk beschrijven Europa als ideaal, en Stefan Paas sluit af met een reflectie op oorlog en hoop."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 136,
+      "start_seconds": 124,
       "speaker": "Rob de Wijk",
-      "text": "Het land dat ons beschermde valt weg; dat is groter dan de val van de muur.",
-      "note": "Scherpe duiding van het keerpunt in de transatlantische relatie."
+      "text": "Het land dat sinds 1945 onze veiligheid garandeert, doet dat niet meer en zal zich misschien ontwikkelen tot een vijand.",
+      "note": "Een radicale constatering over het einde van de Amerikaanse veiligheidsgarantie die de Europese veiligheidsarchitectuur op zijn kop zet."
     },
     {
-      "start_seconds": 491,
+      "start_seconds": 611,
+      "speaker": "Beatrice de Graaf",
+      "text": "Amerika zegt niet alleen: wij willen die politieagent niet meer zijn, maar nu willen we ook gewoon die hele politie niet meer.",
+      "note": "Een scherpe metafoor die de omslag van de Amerikaanse wereldorde treffend samenvat."
+    },
+    {
+      "start_seconds": 1757,
+      "text": "Rationele irrationaliteit: je doel is gebaseerd op een geloof, en alles wat je doet leidt daarnaar toe.",
+      "speaker": "Beatrice de Graaf",
+      "note": "Verklaart waarom Poetins handelen voor buitenstaanders irrationeel lijkt, maar intern consistent is."
+    },
+    {
+      "start_seconds": 2910,
+      "speaker": "Stefan Paas",
+      "text": "Een van de vangrails is dat je je tegenstanders niet demoniseert, dat je erkent dat ook zij van hun land houden.",
+      "note": "Laat zien hoe democratische normen het systeem beschermen en waarom die kwetsbaar zijn."
+    },
+    {
+      "start_seconds": 3714,
       "speaker": "Rob de Wijk",
-      "text": "Wil je speler of speelbal zijn? Dat is eigenlijk het korte antwoord.",
-      "note": "Kernachtig antwoord op de vraag waarom Europa moet investeren in defensie."
+      "text": "Een ziel is niet terugkijken, maar vooruitkijken.",
+      "note": "Een hoopvolle wending die Europa niet als nostalgisch paradijs, maar als toekomstgericht project neerzet."
     },
     {
-      "start_seconds": 637,
-      "speaker": "Beatrice de Graaf",
-      "text": "We moeten de regels niet weggooien, maar we moeten dit biljartspel ook mee gaan spelen.",
-      "note": "Samenvatting van Münklers pragmatische advies aan Europa."
-    },
-    {
-      "start_seconds": 1727,
-      "speaker": "Beatrice de Graaf",
-      "text": "Elke propaganda, al zijn er stukjes van waar, is altijd een leugen.",
-      "note": "Verwijzing naar Orwell bij Poetins mythevorming."
-    },
-    {
-      "start_seconds": 1005,
-      "speaker": "Beatrice de Graaf",
-      "text": "Te veel geschiedenis in een samenleving is ook niet goed.",
-      "note": "Verrassende uitspraak van een historicus over Ruslands fixatie op het verleden."
-    },
-    {
-      "start_seconds": 2196,
-      "speaker": "Maarten van Rossem",
-      "text": "In ruim 34 jaar breng je eigenlijk een soort industrieel wonder tot stand.",
-      "note": "Verbazing over de omvang van de Chinese economische sprong."
+      "start_seconds": 3999,
+      "speaker": "Stefan Paas",
+      "text": "Leef, werk, heb lief, heb hoop en geloof tot de laatste dag. Bid voor de Oekraïners en ook voor Poetin.",
+      "note": "Een persoonlijk en onverwacht antwoord op de angst van oorlog, geworteld in Paulus en C.S. Lewis."
     }
   ],
   "keywords": [
     "wereldorde",
-    "Bokito",
     "biljarttafel",
-    "Münkler",
-    "Poetin",
-    "Rusland",
-    "China",
+    "Bokito-wereld",
     "Thucydides-val",
+    "Poetin",
     "Trump",
-    "NAVO",
-    "Europa",
-    "autocratie"
+    "democratie-uitholling",
+    "Europese strategische autonomie",
+    "geschiedenismisbruik",
+    "rationele irrationaliteit",
+    "China",
+    "ziel van Europa"
   ],
   "quotes": [
-    "Amerika zegt niet alleen: wij willen die politieagent niet meer zijn, maar het gaat nu nog verder.",
-    "Het punt is, wil je speler of speelbal zijn?"
+    "Wat is er precies aan het verschuiven?",
+    "de wereld van zeven jaar geleden bestaat eigenlijk niet meer",
+    "hoe gevaarlijk het wordt als machthebbers in hun eigen misbruikte mythes gaan geloven"
   ],
   "similar": [
     {
       "n": 230,
-      "reason": "Rob de Wijk over nieuwe wereldorde, Trump en Poetin als spelers"
+      "reason": "Rob de Wijk over nieuwe wereldorde, Poetin en Trump; zelfde gast en thema"
     },
     {
       "n": 248,
-      "reason": "Beatrice de Graaf over wie de nieuwe wereldorde bepaalt"
+      "reason": "Beatrice de Graaf over wie de nieuwe wereldorde bepaalt; sterk geopolitiek overlap"
+    },
+    {
+      "n": 309,
+      "reason": "Beatrice de Graaf over Trump, Poetin en machtspolitiek; Amerika en geopolitiek centraal"
     },
     {
       "n": 284,
-      "reason": "Terugkeer brute machtspolitiek, Trump, Poetin, Europa; De Graaf"
+      "reason": "Beatrice de Graaf over terugkeer brute machtspolitiek, Groenland, Trump en Poetin"
     },
     {
-      "n": 239,
-      "reason": "Joris Luyendijk: VS verraad, Europa moet serieus worden"
-    },
-    {
-      "n": 79,
-      "reason": "Hubert Smeets en Katya Tolstaya over Poetin, Rusland en geschiedenis"
+      "n": 329,
+      "reason": "Maarten van Rossem over een kantelend Amerika en populisme; zelfde gast"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

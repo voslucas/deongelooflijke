@@ -1,18 +1,23 @@
 {
   "episode": 281,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 98760,
+    "segments": 1208,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31342,
-    "output_tokens": 2348,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51493,
+    "output_tokens": 7455,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Dood & rouw",
-    "Filosofie & ethiek",
+    "Bijbel & Jezus",
     "God & geloof",
-    "Zingeving & psyche"
+    "Wetenschap & kosmos"
   ],
   "guests": [
     "Frank van de Goot"
@@ -20,96 +25,112 @@
   "people": [
     {
       "name": "Frank van de Goot",
-      "note": "forensisch patholoog en auteur van Post Mortem",
+      "note": "Gast; forensisch patholoog en auteur van 'Post Mortem'",
       "start_seconds": 0,
-      "wiki_checked": true
-    },
-    {
-      "name": "Napoleon Bonaparte",
-      "note": "vergeleken qua weinig slaap",
-      "start_seconds": 185,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "mention_count": 1
     },
     {
       "name": "Theo van Gogh",
-      "note": "bekende zaak die rechtstreeks naar het NFI ging",
-      "start_seconds": 345,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
+      "note": "Vermoorde filmmaker; zaak die naar het NFI ging",
+      "start_seconds": 349,
+      "mention_count": 1
     },
     {
       "name": "Peter R. de Vries",
-      "note": "bekende zaak die rechtstreeks naar het NFI ging",
-      "start_seconds": 345,
-      "wiki_checked": true,
-      "wiki_pageid": 24372,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_R._de_Vries",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Peter_R_de_Vries_%282017%29.jpg/250px-Peter_R_de_Vries_%282017%29.jpg"
+      "note": "Vermoorde misdaadjournalist; zaak die naar het NFI ging",
+      "start_seconds": 349,
+      "mention_count": 1
+    },
+    {
+      "name": "Meester Korver",
+      "note": "Advocaat met wie Van de Goot werkt in artikel 12-procedures",
+      "start_seconds": 366,
+      "mention_count": 1
     },
     {
       "name": "Charlene",
-      "note": "8-jarig meisje uit Hoogeveen dat van een flat viel",
-      "start_seconds": 418,
-      "wiki_checked": true
+      "note": "Meisje uit Hoogeveen dat van een balkon viel; zaak waarin Van de Goot de wending gaf",
+      "start_seconds": 420,
+      "mention_count": 2
+    },
+    {
+      "name": "Victor",
+      "note": "Vader van Charlene, oud-politieagent die de zaak heropende",
+      "start_seconds": 442,
+      "mention_count": 1
     },
     {
       "name": "Ivana Smith",
-      "note": "model dat in Kuala Lumpur van een balkon viel",
-      "start_seconds": 590,
-      "wiki_checked": true
+      "note": "Fotomodel dat in Kuala Lumpur van een balkon viel; Van de Goot onderzocht haar dood",
+      "start_seconds": 582,
+      "mention_count": 3
     },
     {
       "name": "Bart Latte",
-      "note": "collega-patholoog die promoveerde op onbekende doodsoorzaken",
-      "start_seconds": 915,
-      "wiki_checked": true
+      "note": "Patholoog bij NOV die onderzoek deed naar onderzochte doodsoorzaken",
+      "start_seconds": 911,
+      "mention_count": 1
     },
     {
       "name": "René Karsten",
-      "note": "zanger, overleden aan een hartstilstand",
+      "note": "Drentse zanger die overleed aan een hartstilstand",
       "start_seconds": 1044,
-      "wiki_checked": true,
-      "wiki_pageid": 1064935,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Karst",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ren%C3%A9_Karst_-_C%27est_la_Vie_2014_01_%28cropped%29.jpg/250px-Ren%C3%A9_Karst_-_C%27est_la_Vie_2014_01_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Rebecca Tofani",
-      "note": "vriendin van Frank, brigadier bij Politie Amsterdam",
+      "note": "Partner van Van de Goot, brigadier bij Politie Amsterdam",
       "start_seconds": 1223,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Sanda Dia",
-      "note": "Belgische student die stierf bij een ontgroening",
-      "start_seconds": 2050,
-      "wiki_checked": true,
-      "wiki_pageid": 5419288,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dood_van_Sanda_Dia",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Muurschildering_Sanda_Dia_Leuven_2023.jpg/250px-Muurschildering_Sanda_Dia_Leuven_2023.jpg"
+      "note": "Belgische student overleden na ontgroeningsritueel bij studentenvereniging",
+      "start_seconds": 2044,
+      "mention_count": 2
     },
     {
       "name": "Micha",
-      "note": "profeet, bron van Franks lijfspreuk",
+      "note": "Profeet uit het Oude Testament; bron van Van de Goots lijfspreuk",
       "start_seconds": 2143,
-      "wiki_checked": true
+      "mention_count": 2
+    },
+    {
+      "name": "Uza",
+      "note": "Bijbelse figuur die stierf nadat hij de ark des verbonds aanraakte",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Ad Bieman",
+      "note": "Vroegere klassenleraar van Van de Goot op de LTS",
+      "start_seconds": 2509,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon",
+      "note": "Historische figuur, vergeleken met Van de Goots weinige slaap",
+      "start_seconds": 185,
+      "mention_count": 1
+    },
+    {
+      "name": "Joenis Ririmasse",
+      "note": "Overlevende van de tweede treinkaping; zijn broer Younes Ririmasse werd door Van de Goot opgegraven",
+      "start_seconds": 3364,
+      "mention_count": 1
+    },
+    {
+      "name": "Younes Ririmasse",
+      "note": "Lid van de derde generatie Molukkers; ligt begraven op Aruba-route, opgegraven door Van de Goot",
+      "start_seconds": 3414,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Post Mortem",
       "author": "Frank van de Goot",
-      "note": "boek met casussen uit zijn werk als patholoog",
+      "note": "Boek met casussen waarbij Van de Goot betrokken was",
       "start_seconds": 53,
       "volume_id": "fcSxEAAAQBAJ",
       "canonical_title": "Post mortem: Cases en verhalen uit de praktijk van de bekendste patholoog van Nederland",
@@ -122,136 +143,161 @@
   "bible_refs": [
     {
       "ref": "Micha 6:8",
-      "note": "Franks lijfspreuk: recht doen, trouw betrachten en nederig wandelen met God",
-      "start_seconds": 2136
+      "note": "Van de Goots lijfspreuk: recht doen, trouw betrachten en nederig wandelen met God",
+      "start_seconds": 2143
+    },
+    {
+      "ref": "2 Samuël 6:6-7",
+      "note": "Uza sterft nadat hij de ark des verbonds aanraakt; Van de Goot vraagt zich af waarom",
+      "start_seconds": 2820
+    },
+    {
+      "ref": "Jona 1",
+      "note": "Van de Goot noemt Jonas en de walvis als verhaal dat hij niet letterlijk kan geloven",
+      "start_seconds": 3704
     }
   ],
   "places": [
-    "Hilversum",
+    "Hoogeveen",
+    "Kuala Lumpur",
     "Curaçao",
     "Bonaire",
     "Sint Maarten",
-    "Hoogeveen",
-    "Kuala Lumpur",
-    "Frankfurt",
+    "Hilversum",
     "Lelystad",
-    "België",
-    "Oostenrijk"
+    "Boven Smilde",
+    "Haruku",
+    "Ambon",
+    "Frankfurt"
   ],
-  "summary_tldr": "Forensisch patholoog Frank van de Goot vertelt over zijn werk, zijn autisme en zijn lijfspreuk uit Micha 6:8. Hij luidt de noodklok dat in Nederland veel te weinig overledenen worden onderzocht, waardoor doodsoorzaken vaak niet kloppen.",
+  "summary_tldr": "Forensisch patholoog Frank van de Goot vertelt over zijn werk, zijn autisme en zijn zoektocht naar waarheid bij doodsoorzaken en onnatuurlijke sterfgevallen. Hij betoogt dat in Nederland veel te weinig doden onderzocht worden en dat er veel onjuiste aannames over doodsoorzaken bestaan. Het gesprek gaat ook over zijn gereformeerde achtergrond, zijn omgang met de dood en zijn persoonlijke overtuigingen.",
   "summary_points": [
-    "Frank werkt het liefst 's nachts: stilte en donker passen bij zijn autisme.",
-    "Hij werkte mee aan zaken als Charlene uit Hoogeveen en Ivana Smith in Kuala Lumpur en formuleert zeer voorzichtig.",
-    "Van circa 170.000 sterfgevallen per jaar worden er maar zo'n 250 gerechtelijk onderzocht.",
-    "Diagnoses als hartstilstand zijn volgens hem vaak een verzamelhokje, en de officiële doodsoorzaak is vaak onjuist.",
-    "Tijdens corona werden doden verkeerd geregistreerd, en hij vindt dat we er onvoldoende van leerden.",
-    "In de geneeskundeopleiding is er geen aandacht voor lijkschouw, en de dood ligt bij justitie in plaats van de geneeskunde.",
-    "Zijn autisme en gebrek aan gevoel voor overledenen maken hem beter in zijn werk.",
-    "Zijn lijfspreuk is Micha 6:8, en hij gelooft dat daders zich uiteindelijk voor God moeten verantwoorden."
+    "Van de Goot werkt liefst 's nachts en beschouwt zijn autisme als voordeel in zijn werk",
+    "Slechts een klein deel van de sterfgevallen in Nederland wordt gerechtelijk onderzocht",
+    "Artikel 12-procedures kunnen het verschil maken tussen een zelfdoding en een mogelijk misdrijf",
+    "Zaken als Charlene in Hoogeveen en Ivana Smith in Kuala Lumpur laten zien hoe voorzichtige formuleringen cruciaal zijn",
+    "Doodsoorzaken zoals hartstilstand worden volgens Van de Goot vaak als 'verzamelcategorie' gebruikt zonder echt onderzoek",
+    "De medische opleiding besteedt nauwelijks aandacht aan lijkschouw, mishandeling en letselinterpretatie",
+    "Het gesprek gaat over het verschil tussen gevoel, rechtvaardigheid en wraak bij Van de Goot",
+    "Van de Goot's lijfspreuk Micha 6:8 vormt het ethische kader voor zijn werk en leven",
+    "Persoonlijke ervaringen met de dood, zoals de engel van zijn vader en onrustige doden, komen aan bod",
+    "Het gesprek eindigt luchtig, met aandacht voor dankbaarheid en het leven als geschenk"
   ],
   "chapters": [
     {
-      "start_seconds": 53,
-      "title": "Een nachtmens en autist",
-      "summary": "Frank vertelt over zijn werkritme en waarom hij 's nachts het best werkt."
+      "start_seconds": 0,
+      "title": "Intro en nachtmens",
+      "summary": "Van de Goot wordt geïntroduceerd en vertelt waarom hij 's nachts werkt en hoe zijn werkdag eruitziet."
     },
     {
-      "start_seconds": 245,
-      "title": "De werkdag van een patholoog",
-      "summary": "Hij beschrijft zijn onvoorspelbare werk en de artikel 12-procedure."
+      "start_seconds": 248,
+      "title": "Het werk van een forensisch patholoog",
+      "summary": "Van de Goot beschrijft hoe onvoorspelbaar zijn werk is en hoe het verschilt van de media-beelden."
     },
     {
-      "start_seconds": 418,
-      "title": "Zaak Charlene en Ivana Smith",
-      "summary": "Twee bekende zaken waarin zijn voorzichtige conclusies tot een wending leidden."
+      "start_seconds": 413,
+      "title": "Zaken die een wending kregen",
+      "summary": "De zaken van Charlene in Hoogeveen en Ivana Smith in Kuala Lumpur tonen hoe zijn onderzoek de conclusies kan omgooien."
     },
     {
-      "start_seconds": 655,
+      "start_seconds": 705,
       "title": "Te weinig doden onderzocht",
-      "summary": "Hij bekritiseert de lijkschouw en onjuiste doodsoorzaken, en noemt corona als voorbeeld."
+      "summary": "Van de Goot betoogt dat slechts een fractie van de sterfgevallen wordt onderzocht en dat coronadoden verkeerd geregistreerd zijn."
     },
     {
-      "start_seconds": 1530,
-      "title": "Opleiding en neurodiversiteit",
-      "summary": "Er is geen opleiding in Nederland, en zijn autisme en gebrek aan gevoel helpen hem."
+      "start_seconds": 1366,
+      "title": "Onwetendheid over de dood in de geneeskunde",
+      "summary": "De opleiding besteedt nauwelijks aandacht aan lijkschouw en het onderwerp dood wordt vermeden, terwijl justitie vaak de regie heeft."
     },
     {
-      "start_seconds": 1980,
-      "title": "Rechtvaardigheid en Micha 6:8",
-      "summary": "Over vergelding, de zaak Sanda Dia en zijn lijfspreuk uit de Bijbel."
+      "start_seconds": 2143,
+      "title": "Gevoel, rechtvaardigheid en lijfspreuk",
+      "summary": "Van de Goot bespreekt zijn gebrek aan emotionele reactie, zijn wraakgevoel bij de zaak van Sanda Dia en zijn lijfspreuk uit Micha."
     },
     {
-      "start_seconds": 2300,
-      "title": "Een boefje op het randje",
-      "summary": "Frank vertelt over zijn jeugd en waarom hij zonder dit vak in de gevangenis of dood had kunnen eindigen."
+      "start_seconds": 3143,
+      "title": "Dood, familie en ervaringen",
+      "summary": "Van de Goot vertelt over de sterfbedden van zijn familie en over bovennatuurlijke ervaringen na het opgraven van Younes Ririmasse."
+    },
+    {
+      "start_seconds": 3364,
+      "title": "Geloof, leven na de dood en afsluiting",
+      "summary": "Het gesprek eindigt met vragen over het hiernamaals, zijn gereformeerde achtergrond en luchtige afsluiting."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 834,
+      "start_seconds": 853,
       "speaker": "Frank van de Goot",
       "text": "Moord is echt voor amateurs.",
-      "note": "Titel van de aflevering; stelt het beeld van moord uit series ter discussie."
+      "note": "Een scherpe uitspraak die de populaire beeldvorming over forensisch onderzoek ontmaskert."
     },
     {
-      "start_seconds": 1007,
+      "start_seconds": 1179,
       "speaker": "Frank van de Goot",
-      "text": "Het hele kerkhof ligt vol met mensen met een hartstilstand.",
-      "note": "Scherpe kritiek op vage doodsoorzaken."
+      "text": "We weten heel weinig en we beweren heel veel.",
+      "note": "Een samenvatting van zijn kritiek op de manier waarop doodsoorzaken worden vastgesteld."
     },
     {
-      "start_seconds": 1828,
+      "start_seconds": 3052,
       "speaker": "Frank van de Goot",
-      "text": "Ik zou het verschrikkelijk vinden als mijn hond onder een auto komt, maar bij lichamen voel ik niks.",
-      "note": "Confronterend over zijn gebrek aan emotie en waarom dat nuttig is."
+      "text": "Ik ben een moordenaar, maar ik ben geen leugenaar.",
+      "note": "Een treffende uitspraak van een verdachte die Van de Goot bewondert om zijn precisie en eerlijkheid."
     },
     {
-      "start_seconds": 2123,
+      "start_seconds": 3194,
       "speaker": "Frank van de Goot",
-      "text": "Uiteindelijk moet je je verantwoorden voor de grote baas.",
-      "note": "Laat zien hoe zijn geloof zijn rechtvaardigheidsgevoel kleurt."
+      "text": "Mijn vader heeft tot het einde van zijn leven gewacht om een engel te zien.",
+      "note": "Een persoonlijk en ontroerend moment dat zijn spirituele achtergrond en de dood raakt."
     },
     {
-      "start_seconds": 2318,
-      "speaker": "Frank van de Goot",
-      "text": "Zonder dit vak had ik in de gevangenis gezeten of was ik dood geweest.",
-      "note": "Verrassend persoonlijk over zijn jeugd als boefje."
+      "start_seconds": 3850,
+      "speaker": "Stefan Paas",
+      "text": "Het leven is geen recht. Elke dag is er één die je krijgt.",
+      "note": "Een bezinnende gedachte die het gesprek op een dankbare toon afsluit."
     }
   ],
   "keywords": [
-    "forensische pathologie",
-    "autisme",
-    "neurodiversiteit",
-    "lijkschouw",
+    "forensische patholoogie",
     "doodsoorzaak",
+    "autopsie",
+    "artikel 12-procedure",
+    "lijkschouw",
+    "neurodivers",
     "Micha 6:8",
     "Post Mortem",
-    "rechtvaardigheid",
-    "artikel 12-procedure",
-    "Nederlands Forensisch Instituut",
-    "corona"
+    "dood",
+    "waarheid",
+    "hiernamaals",
+    "gereformeerd"
   ],
-  "quotes": [],
+  "quotes": [
+    "Zijn leven staat in het teken van het zoeken naar waarheid: logisch denken, observeren en deduceren.",
+    "Hij luidt bovendien de noodklok over het feit dat in Nederland veel te weinig doden worden onderzocht.",
+    "Frank noemt zichzelf zonder omhaal een autist en zegt dat juist dát hem beter maakt in zijn werk."
+  ],
   "similar": [
     {
       "n": 274,
-      "reason": "Gesprek over de dood en het herwaarderen ervan, met Manu Keirse, in relatie tot geloof en zingeving."
+      "reason": "Dood en rouw centraal, met God-en-geloofsthema's en een gesprek over de omgang met de dood."
     },
     {
       "n": 201,
-      "reason": "Bevrijdend gesprek over de dood en angst ervoor, met thema's dood, geloof en zingeving."
+      "reason": "Gesprek over de angst voor de dood, met God-en-geloof en dood als kernthema's."
     },
     {
       "n": 262,
-      "reason": "Mysterie rondom de dood en wat erna komt, met Reinier Sonneveld."
+      "reason": "Combineert dood en wetenschap via een bijna-doodervaring en de vraag naar leven na de dood."
     },
     {
-      "n": 123,
-      "reason": "Advocaat die met moordenaars werkt; behandelt misdaad, mensbeeld en geloof."
+      "n": 280,
+      "reason": "Detectiveachtige zoektocht naar waarheid over bronnen, met Bijbel en dood als thema."
     },
     {
-      "n": 205,
-      "reason": "Misdaad als spiegel van de samenleving, met strafrechtervaring van Johan Bac."
+      "n": 282,
+      "reason": "Wetenschap en geloof samen, inclusief bijna-doodervaringen en de vraag naar het brein."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

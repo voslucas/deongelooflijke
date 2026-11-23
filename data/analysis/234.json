@@ -1,17 +1,22 @@
 {
   "episode": 234,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107965,
+    "segments": 1054,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30687,
-    "output_tokens": 2177,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55001,
+    "output_tokens": 6167,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Samenleving & migratie",
     "Zingeving & psyche",
+    "Gezin & relaties",
     "Filosofie & ethiek"
   ],
   "guests": [
@@ -19,68 +24,60 @@
   ],
   "people": [
     {
-      "name": "Israel van Dorsten",
-      "note": "zoon uit de Ruinerwold-familie, schrijver van 'Wij waren, ik ben', student sociologie",
-      "start_seconds": 41,
-      "wiki_checked": true,
-      "wiki_pageid": 5731698,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Israel_van_Dorsten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Israel_van_Dorsten_20230214_%281%29.jpg/250px-Israel_van_Dorsten_20230214_%281%29.jpg"
-    },
-    {
-      "name": "Josef Brunner",
-      "note": "Oostenrijkse volgeling van de vader (genoemd als 'Jozef'), ook ander Oostenrijkers die financieel steunden",
-      "start_seconds": 641,
-      "wiki_checked": true
+      "name": "Arie van Dorsten",
+      "note": "Vader van Israel van Dorsten; leider van de sekte in Ruinerwold die zichzelf als Messias zag",
+      "start_seconds": 25,
+      "mention_count": 45
     },
     {
       "name": "Sun Myung Moon",
-      "note": "oprichter van de Verenigingskerk (Moonies), bekend van massahuwelijken",
-      "start_seconds": 709,
-      "wiki_checked": true,
-      "wiki_pageid": 932841,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sun_Myung_Moon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Rev._Sun_Myung_Moon_speaks%2C_Las_Vegas%2C_NV%2C_USA_on_April_4%2C_2010.png/250px-Rev._Sun_Myung_Moon_speaks%2C_Las_Vegas%2C_NV%2C_USA_on_April_4%2C_2010.png"
+      "note": "Oprichter van de Verenigingskerk (Moonsekte), van wiens theologie de vader veel overnam",
+      "start_seconds": 697,
+      "mention_count": 6
+    },
+    {
+      "name": "Jozef",
+      "note": "Volgeling van Arie van Dorsten, geen familielid, die de sekte ondersteunde",
+      "start_seconds": 681,
+      "mention_count": 2
     },
     {
       "name": "Ernst Troeltsch",
-      "note": "Duitse theoloog die het onderscheid kerk-sekte maakte",
-      "start_seconds": 945,
-      "wiki_checked": true,
-      "wiki_pageid": 770165,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernst_Troeltsch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/ErnstTroeltsch.jpg/250px-ErnstTroeltsch.jpg"
+      "note": "Duitse theoloog die het onderscheid tussen kerk en secte introduceerde",
+      "start_seconds": 944,
+      "mention_count": 2
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "gebruikt de term sekte om afwijkende groepen weg te zetten",
-      "start_seconds": 1075,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Michelle van Tongeren",
+      "note": "Straatarts die wees op het probleem dat hulpverlening niet goed aansluit bij complexe situaties",
+      "start_seconds": 2793,
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader: 'Hoogmoed is de moeder van alle ketterijen'",
-      "start_seconds": 1891,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; citaat over hoogmoed als moeder van alle ketterijen",
+      "start_seconds": 2011,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Gebruikt de term sekte om alles buiten de mainstream weg te zetten",
+      "start_seconds": 1075,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "In de visie van de vader eerst bondgenoot, later aardsvijand die hij moest verslaan",
+      "start_seconds": 2417,
+      "mention_count": 4
     }
   ],
   "books": [
     {
       "title": "Wij waren, ik ben. Weg uit Ruinerwold",
       "author": "Israel van Dorsten",
-      "note": "autobiografisch boek over zijn jeugd en ontsnapping",
-      "start_seconds": 41,
+      "note": "Memoir over de jeugd in de sekte en de ontsnapping",
+      "start_seconds": 265,
       "volume_id": "OiBxzwEACAAJ",
       "canonical_title": "Wij waren, ik ben: weg uit Ruinerwold",
       "canonical_author": "Israel van Dorsten",
@@ -92,132 +89,144 @@
   "bible_refs": [],
   "places": [
     "Ruinerwold",
-    "Nederland",
-    "Amerika",
+    "Alexandrië",
+    "Rome",
     "Frankrijk",
-    "Duitsland",
     "Engeland",
     "Zuid-Korea",
     "India",
-    "Afrika",
-    "Alexandrië"
+    "Oostenrijk"
   ],
-  "summary_tldr": "Israel van Dorsten, vijf jaar na zijn ontsnapping uit de Ruinerwold-sekte, vertelt over zijn jeugd, de manipulatie door zijn vader en zijn leven nu. Met Stefan Paas bespreekt hij wat een sekte kenmerkt en waar de overheid wel en niet moet ingrijpen.",
+  "summary_tldr": "Israel van Dorsten, een van de zonen uit de Ruinerwold-sekte, vertelt hoe hij als kind en jongvolwassene in afzondering leefde onder een vader die zichzelf als Messias zag. Het gesprek gaat over hoe manipulatie binnen een gesloten groep werkt, waarom het zo moeilijk is om eruit te stappen en hoe hulpverlening hierop kan aansluiten. Ook wordt besproken of en hoe de overheid kan ingrijpen zonder vrijheid van religie te schaden.",
   "summary_points": [
-    "Israel leefde 25 jaar afgezonderd en stond niet ingeschreven; hij ontsnapte vijf jaar geleden.",
-    "Hij denkt niet dagelijks aan het verleden, maar kleine dingen zoals tomatenplanten kunnen triggeren.",
-    "Angst en conditionering zaten diep in zijn lijf, ook toen zijn vader niet meer kon spreken.",
-    "De vader nam theologie over van de Moonies en geloofde Messias te zijn met een coherent maar losgzzwevend wereldbeeld.",
-    "Stefan Paas legt het onderscheid kerk en sekte van Troeltsch uit en waarschuwt dat het woord ook polemisch wordt gebruikt.",
-    "Israel labelt groepen liever niet als sekte, maar kijkt naar risicovolle kenmerken; hij werkt hiervoor bij Vrijhartig.",
-    "Hij is tegen een verbod op sektes, maar voor wetgeving tegen psychische manipulatie en mishandeling.",
-    "Als kind moest hij als medium fungeren voor geesten, wat zijn identiteit uitholde.",
-    "Online teksten van de vader trekken nu nieuwe volgers."
+    "Israel van Dorsten groeide 25 jaar op in afzondering, zonder officiële registratie en zonder daglicht.",
+    "De sekte was gebaseerd op theologie van de Verenigingskerk (Moonsekte) en de vader ontwikkelde daar een eigen wereldbeeld uit.",
+    "Manipulatie werkte via angst, isolatie en de overtuiging dat alleen de vader de waarheid kende.",
+    "Het verschil met een criminele organisatie is dat de binding vooral geestelijk en niet financieel of fysiek is.",
+    "Het sektebegrip is lastig te definiëren; Troeltsch onderscheidde kerk en secte, maar het begrip wordt ook politiek misbruikt.",
+    "Wetgeving tegen psychische manipulatie is complex: het risico op denkpolitie en het moeilijk bewijzen ervan spelen mee.",
+    "Hulpverlening liep vast op versnippering, gebrek aan kennis van religie en het ontbreken van een protocol voor een gijzelingssituatie.",
+    "Israel studeert sociologie om groepsdynamiek te begrijpen en zo zijn ervaringen waardevol te maken.",
+    "Zijn eigen geloof is nu open en niet aan één religie gebonden; hij wijst atheïsme af.",
+    "De vrijheid om zelf vrienden en partners te kiezen is voor hem het mooiste aspect van het nieuwe leven."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Leven na de ontsnapping",
-      "summary": "Israel vertelt hoe hij nu terugkijkt op zijn verleden en hoe de wereld voor hem is veranderd."
+      "start_seconds": 0,
+      "title": "Introductie en extreme jeugd",
+      "summary": "Het gesprek opent met de mishandeling en afzondering in de sekte en de vraag of de maatschappij had moeten ingrijpen."
     },
     {
       "start_seconds": 344,
-      "title": "Waarom bleven ze vrijwillig?",
-      "summary": "Over manipulatie, angst en het ontbreken van contact met de buitenwereld."
+      "title": "Leven na de ontsnapping en manipulatie",
+      "summary": "Israel vertelt over de moeite met vrijheid, triggers uit het verleden en hoe vrijwillig blijven zich verhoudt tot manipulatie."
     },
     {
-      "start_seconds": 641,
-      "title": "De achtergrond van de sekte",
-      "summary": "De vader als Messias, de Moonies en het verborgen leven."
+      "start_seconds": 643,
+      "title": "Oorsprong van de sekte en sektebegrip",
+      "summary": "De theologische oorsprong in de Moonsekte wordt uitgelegd en Troeltsch' onderscheid tussen kerk en secte wordt besproken."
     },
     {
-      "start_seconds": 945,
-      "title": "Wat is een sekte?",
-      "summary": "Paas over Troeltsch en de lastige term; Israel over risicosignalen en Vrijhartig."
+      "start_seconds": 1720,
+      "title": "Wetgeving en grenzen aan ingrijpen",
+      "summary": "Discussie over psychische mishandeling, strafbaarheid en het risico van denkpolitie bij wetgeving."
     },
     {
-      "start_seconds": 1290,
-      "title": "Grenzen van overheidsingrijpen",
-      "summary": "Gewetensvrijheid versus bescherming, wetgeving tegen psychische manipulatie."
+      "start_seconds": 2570,
+      "title": "Hulpverlening en het vastlopen van systemen",
+      "summary": "Israel beschrijft hoe instanties hem doorverwezen en waarom het ontbrak aan begrip van religieuze dynamiek."
     },
     {
-      "start_seconds": 1620,
-      "title": "Geesten en identiteit",
-      "summary": "Israel moest als medium dienen en zijn identiteit werd uitgehold."
+      "start_seconds": 2935,
+      "title": "Studie en het zoeken naar begrip",
+      "summary": "Israel vertelt hoe hij ondanks zijn beperkte schoolcarrière sociologie ging studeren om sekten te begrijpen."
     },
     {
-      "start_seconds": 1960,
-      "title": "Het coherente wereldbeeld van de vader",
-      "summary": "Rationaliteit, complotdenken en nieuwe volgelingen online."
+      "start_seconds": 3544,
+      "title": "Geloof, twijfel en de vader",
+      "summary": "Het gesprek gaat over hoe de vader zijn eigen twijfels wegredeneerde en hoe Israel zijn eigen geloof nu ziet."
+    },
+    {
+      "start_seconds": 4129,
+      "title": "De waarde van vrijheid",
+      "summary": "Afsluiting over wat de vrijheid betekent en hoe het verleden toch iets waardevols heeft opgeleverd."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
+      "start_seconds": 163,
       "speaker": "Israel van Dorsten",
-      "text": "Als mijn vader dat allemaal niet gedaan had, maar hij had wel die extreme gedachtegoed gehad, had de maatschappij hem dan tegen moeten houden? Ik denk het niet.",
-      "note": "Opvallend genuanceerde positie over vrijheid van religie."
+      "text": "Ik ben bijna blij dat mijn situatie zo extreem was dat ik er gewoon uit kon stappen.",
+      "note": "Een onverwachte mengeling van dankbaarheid en afstand tot een zwaar verleden."
     },
     {
-      "start_seconds": 526,
+      "start_seconds": 216,
       "speaker": "Israel van Dorsten",
-      "text": "Het gaat echt in je lijf zitten.",
-      "note": "Beschrijft hoe conditionering doorwerkt na de ontsnapping."
+      "text": "Apart hoe dat dan aan zoiets gewoons als tomatenplantjes kan kleven.",
+      "note": "Het laat zien hoe alledaagse dingen onverwacht herinneringen en triggers kunnen oproepen."
     },
     {
-      "start_seconds": 1291,
+      "start_seconds": 1296,
       "speaker": "Israel van Dorsten",
-      "text": "Ik hoef zelf niet te labelen of iets een sekte is; ik focus op risicovolle signalen.",
-      "note": "Verrassende kijk van een ervaringsdeskundige."
+      "text": "Wie zijn wij om te bepalen dat iemand uit een sekte moet?",
+      "note": "Een scherpe vraag over de grens tussen bescherming en bevoogding van volwassenen."
     },
     {
-      "start_seconds": 2186,
+      "start_seconds": 1547,
       "speaker": "Israel van Dorsten",
-      "text": "Nieuwe groepen in Amerika en Afrika zien de uitgeprinte teksten van mijn vader als hun leer.",
-      "note": "Schokkend nawerk van de sekte online."
+      "text": "Als mijn vader geen strafbare middelen had gebruikt, had de maatschappij hem dan moeten tegenhouden? Ik denk het niet.",
+      "note": "Een controversiële positie die het spanningsveld tussen geloofsvrijheid en ingrijpen blootlegt."
     },
     {
-      "start_seconds": 2260,
-      "speaker": "Stefan Paas",
-      "text": "Jouw vader kan prima van A naar B redeneren, alleen A en B zitten nergens aan vast.",
-      "note": "Scherpe analyse van coherent maar losgezongen denken."
+      "start_seconds": 2369,
+      "speaker": "Israel van Dorsten",
+      "text": "Ik kon niet alles in één keer loslaten.",
+      "note": "Laat zien dat het loslaten van overtuigingen een langzaam en pijnlijk proces was."
+    },
+    {
+      "start_seconds": 4146,
+      "speaker": "David Boogerd",
+      "text": "Het allermooiste wat ik aan vrijheid heb nu, is dat ik zelf kan kiezen met wie ik bevriend wil zijn en met wie ik een relatie wil.",
+      "note": "Een persoonlijk en tegelijk ontroerend moment over autonomie die in de sekte ontbrak."
     }
   ],
   "keywords": [
-    "Ruinerwold",
     "sekte",
-    "Messias",
-    "Moonies",
-    "psychische manipulatie",
-    "Vrijhartig",
+    "manipulatie",
+    "Ruinerwold",
+    "Moonsekte",
+    "geloof",
     "isolatie",
-    "geestenwereld",
-    "Troeltsch",
-    "complotdenken"
+    "hulpverlening",
+    "psychische mishandeling",
+    "sociologie",
+    "vrijheid",
+    "exit",
+    "groepsdynamiek"
   ],
   "quotes": [
-    "Ik mocht eigenlijk niet bestaan."
+    "hij eigenlijk niet mocht bestaan",
+    "Wat een contrast.",
+    "Hoe ver moet je gaan om dit soort extreme uitwassen van geloof te voorkomen?"
   ],
   "similar": [
     {
-      "n": 123,
-      "reason": "Gesprek over zware misdaad en mensbeeld; vergelijkbaar thema van kwaad en samenleving."
+      "n": 278,
+      "reason": "Zingeving, geloof en gezin; de vraag naar hulpverlening en therapie als 'opium'."
     },
     {
-      "n": 78,
-      "reason": "Gesprek over een controversieel religieus fenomeen (exorcisme) en manipulatie, grenzen van geloof."
+      "n": 111,
+      "reason": "Psychiater over zingeving, God-ervaring en het individu zonder groep; sterke psychische thematiek."
+    },
+    {
+      "n": 128,
+      "reason": "Vaderschap, mannen en zingeving onder druk; overlap met gezinsthema's en geloof."
     },
     {
       "n": 109,
-      "reason": "Persoonlijk verhaal over zingeving, psyche en worsteling met geloof."
-    },
-    {
-      "n": 10,
-      "reason": "Gast met extreem verleden binnen radicale religieuze beweging, later denker over geloof."
-    },
-    {
-      "n": 133,
-      "reason": "Extreme opvattingen, fundamentalisme en grenzen van overheid en religie."
+      "reason": "Depressie, zinloosheid en de sprong naar geloof; zingeving en psyche centraal."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

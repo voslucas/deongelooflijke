@@ -1,18 +1,23 @@
 {
   "episode": 20,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 113482,
+    "segments": 1180,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29776,
-    "output_tokens": 2439,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56492,
+    "output_tokens": 2921,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
     "God & geloof",
     "Politiek",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Tijs van den Brink",
@@ -21,250 +26,252 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president, centraal onderwerp van het gesprek",
+      "note": "Amerikaans president; centraal onderwerp van het gesprek",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 60
     },
     {
       "name": "Hillary Clinton",
-      "note": "Democratische tegenkandidaat in 2016; 'Lock her up'-leuzen",
-      "start_seconds": 374,
-      "wiki_checked": true,
-      "wiki_pageid": 92599,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hillary_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Hillary_Clinton_by_Gage_Skidmore_4.jpg/250px-Hillary_Clinton_by_Gage_Skidmore_4.jpg"
-    },
-    {
-      "name": "Barack Obama",
-      "note": "Vorige president, door Trump-aanhangers negatief bejegend",
-      "start_seconds": 263,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
-    },
-    {
-      "name": "Kay",
-      "note": "Gastvrouw van Robin de Wever in Mississippi",
-      "start_seconds": 193,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mike Pence",
-      "note": "Vicepresident, kondigde Trump aan als 'most pro-life president ever'",
-      "start_seconds": 1080,
-      "wiki_checked": true,
-      "wiki_pageid": 4379006,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mike_Pence",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mike_Pence_official_Vice_Presidential_portrait.jpg/250px-Mike_Pence_official_Vice_Presidential_portrait.jpg"
-    },
-    {
-      "name": "Mike Van Buren",
-      "note": "Dominee in Michigan die wapens verzamelt en jaagt",
-      "start_seconds": 1586,
-      "wiki_checked": true
+      "note": "Democratische presidentskandidate in 2016; doelwit van 'Lock her up'",
+      "start_seconds": 365,
+      "mention_count": 6
     },
     {
       "name": "Bill Clinton",
-      "note": "Oud-president, affaire met stagiaire als vergelijking met Trump",
-      "start_seconds": 1402,
-      "wiki_checked": true,
-      "wiki_pageid": 10212,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/250px-Bill_Clinton.jpg"
+      "note": "Voormalig Amerikaans president; genoemd in verband met affaire",
+      "start_seconds": 1385,
+      "mention_count": 2
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaans president; door Trump-stemmers negatief besproken",
+      "start_seconds": 1140,
+      "mention_count": 5
+    },
+    {
+      "name": "Mike Pence",
+      "note": "Amerikaanse vicepresident die Trump aankondigde als pro-life president",
+      "start_seconds": 1100,
+      "mention_count": 1
+    },
+    {
+      "name": "Mike van Buren",
+      "note": "Dominee in Michigan met wapencollectie",
+      "start_seconds": 1800,
+      "mention_count": 3
     },
     {
       "name": "Jimmy Carter",
-      "note": "Wedergeboren christen maar volgens dominee matige president",
-      "start_seconds": 1603,
-      "wiki_checked": true,
-      "wiki_pageid": 3643,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jimmy_Carter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/250px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg"
+      "note": "Wedergeboren christen en voormalig president; als voorbeeld van geloof versus bestuur",
+      "start_seconds": 1580,
+      "mention_count": 1
+    },
+    {
+      "name": "James Kennedy",
+      "note": "Historicus van Amerikaanse komaf; eerder gast in aflevering 2",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Bernie Sanders",
+      "note": "Democratische presidentskandidaat die op kop lag",
+      "start_seconds": 2535,
+      "mention_count": 1
     },
     {
       "name": "Geert-Jan Lasje",
-      "note": "Regisseur die het voorstel voor de serie deed",
-      "start_seconds": 265,
-      "wiki_checked": true
+      "note": "Regisseur van de tv-serie God, Jesus, Trump!",
+      "start_seconds": 300,
+      "mention_count": 1
     },
     {
-      "name": "Kees van der Staaij",
-      "note": "SGP-leider, genoemd bij de Mars voor het Leven",
-      "start_seconds": 1435,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "name": "Kay",
+      "note": "Gastvrouw van Robin de Wever in Amerika die kritisch over Trump-tegenstanders sprak",
+      "start_seconds": 190,
+      "mention_count": 2
     },
     {
-      "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-leider, genoemd bij de Mars voor het Leven",
-      "start_seconds": 1435,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "name": "Al-Baghdadi",
+      "note": "IS-leider, uitgeschakeld onder Trump",
+      "start_seconds": 3500,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Art of the Deal",
       "author": "Donald Trump",
-      "note": "Trump noemt het zijn tweede favoriete boek na de Bijbel",
-      "start_seconds": 1242,
-      "volume_id": "ZLSPEAAAQBAJ",
+      "note": "Trumps bestseller die hij als tweede favoriete boek noemde",
+      "start_seconds": 1240,
+      "volume_id": "Tge8zgEACAAJ",
       "canonical_title": "Trump: The Art of the Deal",
       "canonical_author": "Donald J. Trump, Tony Schwartz",
-      "isbn13": "9781524734398",
-      "isbn10": "152473439X",
-      "thumbnail": "http://books.google.com/books/content?id=ZLSPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9780394555287",
+      "isbn10": "0394555287",
+      "thumbnail": ""
+    },
+    {
+      "title": "Just the Tweets",
+      "author": "",
+      "note": "Boek van een Trump-aanhangster met zijn tweets",
+      "start_seconds": 2490,
+      "volume_id": "4VPjvQEACAAJ",
+      "canonical_title": "Just the Tweets: President Donald J. Trump's Historical Collection of Tweets",
+      "canonical_author": "United States. President (2017- : Trump)",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Exodus 20:13",
-      "note": "'Gij zult niet doden', aangehaald door de man op death row in de discussie over de doodstraf",
-      "start_seconds": 1673
+      "ref": "Tien Geboden",
+      "note": "Aangehaald door Tijs van den Brink: 'Gij zult niet doden' als argument tegen doodstraf",
+      "start_seconds": 1640
     }
   ],
   "places": [
     "Mississippi",
-    "Jackson",
-    "Tennessee",
-    "Holland, Michigan",
     "Texas",
+    "Michigan",
     "North Carolina",
-    "Amerika",
-    "Nederland",
-    "Frankrijk"
+    "Tennessee",
+    "Jackson",
+    "Holland",
+    "Arizona",
+    "Tel Aviv",
+    "Jeruzalem",
+    "Parijs",
+    "Amersfoort"
   ],
-  "summary_tldr": "David Boogerd spreekt met Tijs van den Brink en Robin de Wever over hun reis door 'Trumpland' en de vraag waarom zoveel blanke evangelicals Donald Trump steunen. Het gaat over abortus, wapens, gebed in het Witte Huis, gevoelens van miskenning en de pragmatische keuze voor een president die 'levert'. Ze benadrukken dat de stemmers hun keuze met serieuze argumenten onderbouwen, zonder het gedrag van Trump goed te praten.",
+  "summary_tldr": "Tijs van den Brink en Robin de Wever bespreken hun reizen door Trump-Amerika en waarom veel christelijke stemmers Trump steunen. Zij verklaren dit uit angst, pro-life standpunten, wantrouwen tegen gevestigde media en een pragmatische keuze voor een president die 'levert'. Ook de toenemende polarisatie en ontkerkelijking komen aan bod.",
   "summary_points": [
-    "81% van de blanke evangelicals stemde in 2016 op Trump; zij vormen het hart van de Republikeinse partij.",
-    "Trump-aanhangers voelen zich net als hun president belaagd en miskend door media en Democraten.",
-    "Pro-life beleid is voor veel christelijke stemmers de belangrijkste reden.",
-    "Trump laat zich openlijk voor zich bidden, wat zijn achterban enorm waardeert.",
-    "Veel stemmers zien hem niet als geestelijk leider maar als zakenman-president die levert.",
-    "Het belang van moreel karakter bij een president is onder evangelicals sterk gedaald.",
-    "Wapenbezit hangt samen met angst, vrijheidsdenken en de grote afstanden in Amerika.",
-    "De makers raakten zelf makkelijk meegezogen in de Trump-bubbel, maar dat verdween snel terug in Nederland.",
-    "Een veroordeelde man op death row maakt onderscheid tussen believers en followers van Christus."
+    "Blanke evangelicals stemden massaal op Trump; zonder hen had hij de verkiezingen niet gewonnen",
+    "Trump-stemmers zien hem als iemand die constant wordt aangevallen en zichzelf verdedigt",
+    "Pro-life standpunt en benoeming van rechters zijn belangrijke motieven",
+    "Pragmatische steun: Trump 'levert', ondanks gedrag en morele twijfels",
+    "Wantrouwen tegen gevestigde media en het gevoel van belaagd te worden",
+    "Angst (voor links, islam, criminaliteit) en wapenbezit als cultureel element",
+    "Klimaatontkenning en alternatieve waarheden onder evangelicals",
+    "Sterke polarisatie tussen Republikeinen en Democraten, versterkt door Fox News",
+    "Ontkerkelijking en 'cultuurchristenen' die toch evangelical blijven noemen",
+    "Ondanks alles geeft Robin aan dat hij begrip heeft ontwikkeld, zonder de steun goed te keuren"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en Trump-moeheid",
-      "summary": "Introductie van de gasten en de tv-serie en podcast. Robin schetst een andere Trump: iemand die belaagd wordt."
+      "title": "Inleiding en vragen over Trump-moeheid",
+      "summary": "David Boogerd introduceert de gasten en hun reis naar Trump-Amerika."
     },
     {
-      "start_seconds": 250,
-      "title": "Hoe het begon",
-      "summary": "Beide makers vertellen hoe hun fascinatie ontstond, onder meer door een rally in Jackson, Mississippi. Het verschil tussen blanke, zwarte en Latino evangelicals komt aan bod."
+      "start_seconds": 180,
+      "title": "Het Trumpland van binnenuit",
+      "summary": "Robin en Tijs beschrijven hoe de Trump-bubbel hen beïnvloedde en hoe Trump-aanhangers zich belaagd voelen."
     },
     {
-      "start_seconds": 525,
-      "title": "In de Trump-koker",
-      "summary": "Hoe makkelijk je meegezogen wordt in het perspectief van Trumps achterban, met het fragment van de burgemeester en de impeachment die niemand bezighield."
+      "start_seconds": 720,
+      "title": "Wie zijn de evangelicals?",
+      "summary": "Onderscheid tussen blanke evangelicals en zwarte/Latino christenen, en hun rol binnen de Republikeinse partij."
     },
     {
-      "start_seconds": 1000,
-      "title": "Abortus en gebed",
-      "summary": "Pro-life als stemmenwinner en Trumps expliciete gebedsmomenten. Ook zijn omgang met de Bijbel komt aan de orde."
+      "start_seconds": 1100,
+      "title": "Pro-life, gebed en moraal",
+      "summary": "Gesprek over abortus, het gebed in het Witte Huis en de vraag of Trump echt christen is."
     },
     {
-      "start_seconds": 1340,
-      "title": "Hypocrisie of pragmatisme?",
-      "summary": "Waarom christenen een man met zo'n verleden steunen, en de verschuiving van 'character counts' naar pragmatisme."
+      "start_seconds": 1640,
+      "title": "Wapens, doodstraf en angst",
+      "summary": "Bespreking van wapenbezit, de doodstraf en de angst die de Amerikaanse cultuur kenmerkt."
     },
     {
-      "start_seconds": 1630,
-      "title": "Doodstraf en believers versus followers",
-      "summary": "Fragment met een man op death row over het verschil tussen gelovigen en volgelingen van Christus."
+      "start_seconds": 2300,
+      "title": "Polarisatie, media en klimaat",
+      "summary": "Wantrouwen tegen gevestigde media, klimaatontkenning en de verdere polarisatie van de VS."
     },
     {
-      "start_seconds": 1780,
-      "title": "Wapens en angst",
-      "summary": "Dominee Mike Van Buren en de Amerikaanse wapencultuur, met angst en vrijheid als achterliggende factoren."
+      "start_seconds": 3000,
+      "title": "Secularisatie en de rol van kerk en politiek",
+      "summary": "Vergelijking van secularisatie in Nederland en de VS en de vraag of politiek en geloof verweven zijn."
+    },
+    {
+      "start_seconds": 3500,
+      "title": "Reisherinneringen en vooruitblik",
+      "summary": "Persoonlijke hoogtepunten van de reis en speculaties over de verkiezingen van november 2020."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
+      "start_seconds": 1280,
       "speaker": "Tijs van den Brink",
-      "text": "Waarom waren we ook alweer tegen Trump?",
-      "note": "Laat zien hoe sterk de bubbel van Trump-stemmers meetrekt."
+      "text": "Het is ondenkbaar dat Donald Trump lijsttrekker zou worden van de ChristenUnie, SGP en CDA. In Nederland zou het niet kunnen, maar daar gebeurt het gewoon.",
+      "note": "Illustreert het verschil in politiek-religieuze cultuur tussen VS en Nederland."
     },
     {
-      "start_seconds": 1242,
-      "speaker": "Donald Trump",
-      "text": "The Art of the Deal is mijn tweede favoriete boek, na de Bijbel.",
-      "note": "Trump weigert een favoriet bijbelvers te noemen."
-    },
-    {
-      "start_seconds": 1010,
-      "speaker": "Tijs van den Brink",
-      "text": "Hij is niet onze dominee. We hebben geen dominee gekozen, we hebben een president gekozen.",
-      "note": "Vat de pragmatische houding van christelijke Trump-stemmers samen."
-    },
-    {
-      "start_seconds": 1625,
+      "start_seconds": 1660,
       "speaker": "Tijs van den Brink",
       "text": "God kan met een kromme stok een rechte slag slaan.",
-      "note": "Theologische rechtvaardiging voor steun aan een onvolmaakte president."
+      "note": "Een treffende manier om het paradox van een onorthodoxe president met christelijke steun te duiden."
     },
     {
-      "start_seconds": 1650,
+      "start_seconds": 2270,
       "speaker": "Tijs van den Brink",
-      "text": "We have a country full of believers, very few followers.",
-      "note": "Opmerkelijke uitspraak van een ter dood veroordeelde man."
+      "text": "Het gevaar van the lesser of two evils is dat je op een gegeven moment the lesser helemaal niet meer evil vindt.",
+      "note": "Scherpe gedachte over morele verschuiving door pragmatische stemkeuze."
+    },
+    {
+      "start_seconds": 1620,
+      "speaker": "Robin de Wever",
+      "text": "Trump is het gevolg van Fox News, die een klimaat hebben geschapen waarin een nieuwswerkelijkheid bestaat die niet echt bestaat.",
+      "note": "Verklaart de polarisatie via media-invloed."
+    },
+    {
+      "start_seconds": 2700,
+      "speaker": "Tijs van den Brink",
+      "text": "Als je in je eigen achterban gedragen wordt, dan heb je een bodem om vandaan te werken.",
+      "note": "Verklaart waarom Trump's populariteit zo krachtig is."
     }
   ],
   "keywords": [
     "Donald Trump",
     "evangelicals",
-    "Bible Belt",
     "pro-life",
-    "wapens",
     "Republikeinse partij",
-    "impeachment",
-    "Mississippi",
-    "gebed",
-    "pragmatisme",
-    "polarisatie"
+    "polarisatie",
+    "Fox News",
+    "wapenbezit",
+    "secularisatie",
+    "populisme",
+    "gevestigde media",
+    "klimaatontkenning",
+    "doodstraf"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het gevaar van the lesser of two evils is dat je op een gegeven moment, the lesser helemaal niet meer evil vindt.",
+    "God kan met een kromme stok een rechte slag slaan.",
+    "Hij is niet onze dominee. We hebben geen dominee gekozen."
+  ],
   "similar": [
     {
       "n": 219,
-      "reason": "Duiding van Trumps herverkiezing, religieuze en culturele kant, met Amerika-kenner James Kennedy"
-    },
-    {
-      "n": 36,
-      "reason": "Biden, Trump en de rol van religie in de Amerikaanse politiek"
+      "reason": "Culturele en religieuze duiding van Trumps overwinning, met James Kennedy over christelijke steun."
     },
     {
       "n": 203,
-      "reason": "Trump en een veranderd, minder religieus Amerika; evangelicals en christelijke stemmers"
+      "reason": "Trump als 'verlosser' en een minder religieus Amerika; sluit aan bij christelijke kiezers."
+    },
+    {
+      "n": 36,
+      "reason": "Rol van religie in de Amerikaanse politiek, Trump en Biden, met James Kennedy."
     },
     {
       "n": 56,
-      "reason": "Alliantie tussen orthodoxe christenen en radicale populisten, Trump-achtige politiek"
+      "reason": "Heilige alliantie tussen orthodoxe christenen en radicaal-rechtse populisten, inclusief Amerikaanse context."
     },
     {
       "n": 2,
-      "reason": "Populisme (Trump, Baudet) en de rol van de kerk"
+      "reason": "Populisme, Trump en de kerk; de relatie tussen christendom en populistische politiek."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

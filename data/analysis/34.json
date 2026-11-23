@@ -1,18 +1,23 @@
 {
   "episode": 34,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 79700,
+    "segments": 635,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30201,
-    "output_tokens": 2330,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 40252,
+    "output_tokens": 2698,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
-    "Zingeving & psyche",
-    "God & geloof"
+    "God & geloof",
+    "Geopolitiek & oorlog",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Lotte Jensen"
@@ -20,73 +25,63 @@
   "people": [
     {
       "name": "Lotte Jensen",
-      "note": "hoogleraar Nederlandse literatuur- en cultuurgeschiedenis, Radboud Universiteit",
+      "note": "historicus en hoogleraar Nederlandse literatuur- en cultuurgeschiedenis, gast",
+      "start_seconds": 3,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast, medegesprekspartner",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 4790329,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lotte_Jensen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/LotteJensen2016.jpg/250px-LotteJensen2016.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Cyprianus",
-      "note": "kerkvader, schreef in 250 over een pestepidemie in Carthago",
-      "start_seconds": 944,
-      "wiki_checked": true,
-      "wiki_pageid": 179362,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cyprianus_van_Carthago",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Heiliger_Cyprianus.jpg/250px-Heiliger_Cyprianus.jpg"
-    },
-    {
-      "name": "Joost van der Vondel",
-      "note": "dichter die over de dood van zijn kinderen schreef",
-      "start_seconds": 1010,
-      "wiki_checked": true,
-      "wiki_pageid": 15111,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joost_van_den_Vondel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/J_vondel.jpg/250px-J_vondel.jpg"
-    },
-    {
-      "name": "Constantijn Huygens",
-      "note": "dichter, teksten doortrokken van hiernamaalsgedachte",
-      "start_seconds": 1010,
-      "wiki_checked": true,
-      "wiki_pageid": 25547,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Constantijn_Huygens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Constantijn-Huygens-door-JanLievens-detail.jpg/250px-Constantijn-Huygens-door-JanLievens-detail.jpg"
+      "name": "Joost van den Vondel",
+      "note": "17e-eeuwse dichter, worstelt met verlies van kinderen",
+      "start_seconds": 1017,
+      "mention_count": 4
     },
     {
       "name": "Multatuli",
-      "note": "schrijver die rond 1860 oprechte naastenliefde eiste en christenen bekritiseerde",
-      "start_seconds": 1286,
-      "wiki_checked": true,
-      "wiki_pageid": 1081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Eduard_Douwes_Dekker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg/250px-Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg"
+      "note": "schrijver die christenen bekritiseert op oprechtheid van solidariteit",
+      "start_seconds": 1310,
+      "mention_count": 1
     },
     {
       "name": "Voltaire",
-      "note": "schreef Candide na de aardbeving van Lissabon",
-      "start_seconds": 1426,
-      "wiki_checked": true,
-      "wiki_pageid": 26074,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Voltaire",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/250px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
+      "note": "auteur van Candide, reactie op aardbeving Lissabon",
+      "start_seconds": 1425,
+      "mention_count": 2
+    },
+    {
+      "name": "Constantijn Huygens",
+      "note": "17e-eeuwse dichter, schreef Oogentroost",
+      "start_seconds": 1087,
+      "mention_count": 3
+    },
+    {
+      "name": "Cyprianus",
+      "note": "kerkvader die schreef over pestepidemie rond 250",
+      "start_seconds": 944,
+      "mention_count": 1
     },
     {
       "name": "Jaap van Dissel",
-      "note": "RIVM-directeur, symbool van het rationeel-wetenschappelijke coronaverhaal",
-      "start_seconds": 2229,
-      "wiki_checked": true,
-      "wiki_pageid": 5336010,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jaap_van_Dissel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/JaapvanDissel2020.jpg/250px-JaapvanDissel2020.jpg"
+      "note": "RIVM-topman, wetenschappelijke adviseur corona",
+      "start_seconds": 2220,
+      "mention_count": 1
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "tweelingzus van Lotte, eerder te gast in aflevering 18",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Bilderdijk",
+      "note": "dichter met orthodox gedachtegoed, besproken door Lotte",
+      "start_seconds": 1245,
+      "mention_count": 1
     }
   ],
   "books": [
@@ -94,147 +89,163 @@
       "title": "Candide",
       "author": "Voltaire",
       "note": "reactie op de aardbeving van Lissabon en de vraag naar Gods goedheid",
-      "start_seconds": 1426,
-      "volume_id": "zV5oAwAAQBAJ",
-      "canonical_title": "Candide",
-      "canonical_author": "Voltaire",
-      "isbn13": "9783736801783",
-      "isbn10": "3736801785",
-      "thumbnail": "http://books.google.com/books/content?id=zV5oAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "start_seconds": 1425,
+      "volume_id": "UqqimAEACAAJ",
+      "canonical_title": "Candide, Or, Optimism",
+      "canonical_author": "Voltaire, Burton Raffel",
+      "isbn13": "9780300106558",
+      "isbn10": "0300106556",
+      "thumbnail": "http://books.google.com/books/content?id=UqqimAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Oogentroost",
+      "author": "Constantijn Huygens",
+      "note": "religieus gedicht voor een blinde vriendin, eindigt met 'de vromen zullen God zien'",
+      "start_seconds": 2900,
+      "volume_id": "JCpKAAAAYAAJ",
+      "canonical_title": "Constantijn Huygens' Ooghen-troost",
+      "canonical_author": "Constantijn Huygens, Frederik Lodewijk Zwaan",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=JCpKAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Lucifer",
+      "author": "Joost van den Vondel",
+      "note": "treurspel over goed en kwaad en rechtvaardige opstand",
+      "start_seconds": 2830,
+      "volume_id": "43R9zwEACAAJ",
+      "canonical_title": "Lucifer, treurspel (1654)",
+      "canonical_author": "Joost van den Vondel, Cyriel Verschaeve, Gerard Brom",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Hilversum",
-    "Carthago",
-    "Lissabon",
     "Nijmegen",
+    "Hilversum",
+    "Lissabon",
+    "Carthago",
     "Italië",
-    "China",
-    "Nederland",
     "Verenigde Staten"
   ],
-  "summary_tldr": "Historicus Lotte Jensen vertelt hoe Nederland door de eeuwen heen met rampen omging, via liederen, preken en andere teksten. Samen met Stefan Paas bespreken ze solidariteit, zondebokken, religieuze conflicten en seculiere varianten van zondebesef, en vergelijken ze de coronacrisis met eerdere rampen.",
+  "summary_tldr": "Historicus Lotte Jensen en theoloog Stefan Paas bespreken hoe samenlevingen in het verleden met rampen omgingen, met name via rampliederen, religieuze teksten en rituelen. Ze vergelijken dit met de coronacrisis en de vraag of een ramp in een seculiere samenleving tot meer religiositeit leidt. Het gesprek eindigt met een reflectie op literatuur, geloof en de vraag naar gedragsverandering na de crisis.",
   "summary_points": [
-    "Jensen onderzoekt hoe rampen gemeenschaps- en identiteitsvorming beïnvloeden, via liederen, gedichten, preken en kranten.",
-    "Rampliederen combineerden nieuws, emotie, morele les en oproep tot doneren; het benefietlied bestaat nog steeds.",
-    "Het culturele repertoire na een ramp (koninklijk werkbezoek, bededag, liederen) werd in maart 2020 weer uitgerold.",
-    "Vroeger leefde men verticaal gericht op God en tegenspoed; nu is de cultuur toekomstgericht met plannen en doelen.",
-    "Rampen wekken solidariteit, maar ook zondebokken (Joden, heksen, China, jongeren) en religieuze twisten.",
-    "Lissabon 1755 en Voltaire's Candide brachten de vraag naar Gods goedheid scherp naar voren.",
-    "Seculiere samenleving kent eigen zondebesef, zoals 'de planeet neemt wraak' en klimaatbekering.",
-    "Epidemieën zijn lastiger te verwerken dan watersnood, omdat de vijand onzichtbaar is en een technisch antwoord ontbreekt.",
-    "Rampen versterken vooral bestaande overtuigingen en het verlangen naar zingeving, ze maken mensen niet plots religieus."
+    "Rampliederen vanaf de 17e eeuw verspreidden nieuws, riepen op tot gebed en vroegen om donaties",
+    "Rampen leidden vaak tot zondebokken, zoals joden, heksen of Chinezen in de coronacrisis",
+    "Religieuze conflicten laaiden vaak op na rampen, bijvoorbeeld na de overstroming van 1825",
+    "Vroeger werd een ramp vaak verticaal geduid als beproeving of communicatie met God",
+    "Moderne rampen worden technocratisch benaderd, zoals bij watersnoden en klimaatverandering",
+    "Een ramp leidt volgens Jensen niet tot plotselinge religiositeit, maar versterkt bestaande overtuigingen",
+    "Paas ziet in de coronacrisis een vorm van naastenliefde en solidariteit met kwetsbaren",
+    "Jensen ziet een seculiere variant van zondebesef in klimaatdiscussies",
+    "Literatuur van Vondel en Huygens raakt Jensen ondanks haar atheïsme",
+    "Beide gasten verwachten dat sociale onrust na de crisis nog lang doorwerkt"
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Corona en het onderzoek naar rampen",
-      "summary": "Inleiding over de coronatijd en Jensens onderzoeksgroep over rampenverwerking."
+      "start_seconds": 0,
+      "title": "Inleiding en coronasituatie",
+      "summary": "David Boogerd opent het gesprek online vanwege een coronatest en stelt de gasten voor."
     },
     {
-      "start_seconds": 377,
-      "title": "Rampliederen en cultuur als verwerking",
-      "summary": "Hoe liederen nieuws, troost en morele lessen combineerden en hoe het repertoire zich herhaalt."
+      "start_seconds": 270,
+      "title": "Onderzoek naar rampen en rampliederen",
+      "summary": "Jensen legt uit hoe haar onderzoeksgroep rampen bestudeert en beschrijft het genre van de rampliederen."
     },
     {
-      "start_seconds": 759,
-      "title": "Verticaal en toekomstgericht leven",
-      "summary": "Verschil tussen vroegere religieuze oriëntatie en moderne planningscultuur, met Cyprianus en Vondel."
+      "start_seconds": 900,
+      "title": "Rampen als karaktertest en de rol van religie",
+      "summary": "Paas en Jensen bespreken hoe oude teksten rampen duiden als beproeving en hoe Vondel en Cyprianus hiermee omgingen."
     },
     {
-      "start_seconds": 1245,
-      "title": "Solidariteit, conflict en Lissabon",
-      "summary": "Naastenliefde, Multatuli, religieuze twisten na rampen en de aardbeving van Lissabon."
+      "start_seconds": 1300,
+      "title": "Solidariteit, conflict en zondebokken",
+      "summary": "Het gesprek gaat over naastenliefde, religieuze conflicten na rampen en het zoeken naar zondebokken."
     },
     {
-      "start_seconds": 1465,
-      "title": "Nationalisme en zondebokken",
-      "summary": "Heropleving van het nationale en het zoeken naar schuldigen, van antisemitisme tot China en jongeren."
+      "start_seconds": 1900,
+      "title": "Seculiere samenleving en coronacrisis",
+      "summary": "De gasten vergelijken de moderne seculiere samenleving met vroeger en bespreken technocratisch denken en klimaat."
     },
     {
-      "start_seconds": 1668,
-      "title": "Seculiere samenleving en zondebesef",
-      "summary": "Bededag online, gescheiden circuits en seculiere varianten van zondebesef."
+      "start_seconds": 2600,
+      "title": "Persoonlijke religiositeit en literatuur",
+      "summary": "Jensen vertelt over haar atheïstische opvoeding en haar liefde voor religieuze literatuur; Paas reflecteert op zijn eigen leeservaring."
     },
     {
-      "start_seconds": 2085,
-      "title": "Technocratie, klimaat en communicatie",
-      "summary": "Verschil tussen watersnood en virus, RIVM-taal en lessen voor klimaatcommunicatie."
-    },
-    {
-      "start_seconds": 2486,
-      "title": "Wordt men religieuzer?",
-      "summary": "Rampen versterken bestaande overtuigingen en zingevingsvragen; discussie over gebed en secularisatie."
+      "start_seconds": 3300,
+      "title": "Vooruitblik en afsluiting",
+      "summary": "Jensen verwacht aanhoudende sociale onrust en is somber over gedragsverandering; Boogerd sluit af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 1000,
       "speaker": "Lotte Jensen",
-      "text": "Dagelijks omring ik mij met religieuze teksten, meer dan gelovigen, en tegelijkertijd heeft dat geen gevolgen voor mijn eigen geloof.",
-      "note": "Persoonlijke paradox van de gast."
+      "text": "Mensen die in de 17e eeuw leefden, zagen rampen als iets waarmee je moest leren leven; de verwachting was niet dat alles plannen en controle zou zijn.",
+      "note": "Maakt het contrast met de moderne planningscultuur zichtbaar."
     },
     {
-      "start_seconds": 644,
-      "speaker": "Lotte Jensen",
-      "text": "We zagen het hele culturele repertoire weer uitgerold en voorspelden zelfs het werkbezoek van de koning.",
-      "note": "Onderzoek werd tijdens corona live werkelijkheid."
-    },
-    {
-      "start_seconds": 1145,
+      "start_seconds": 944,
       "speaker": "Stefan Paas",
-      "text": "Wij leven toekomstgericht, zij waren veel meer verticaal gericht.",
-      "note": "Scherp contrast tussen vroeger en nu."
+      "text": "Dit is een karaktertest. We kunnen nu laten zien uit welk hout we gesneden zijn.",
+      "note": "Een oude reactie op pest die ook in de coronatijd herkenbaar is."
     },
     {
-      "start_seconds": 1951,
+      "start_seconds": 2050,
       "speaker": "Lotte Jensen",
-      "text": "Het planeet-neemt-wraak-verhaal is bijna een seculiere variant van het zondebesef.",
-      "note": "Verrassende parallel tussen religie en klimaatdenken."
+      "text": "Een ramp is het moment waarop na een fase van solidariteit scherp de eigen identitaire behoeften worden neergezet.",
+      "note": "Scherpe analyse van hoe rampen politiek en identitair worden toegeëigend."
     },
     {
-      "start_seconds": 2214,
+      "start_seconds": 2600,
       "speaker": "Lotte Jensen",
-      "text": "Het is niet een gevecht tegen een vijand zoals het water, maar tegen een onzichtbare vijand, het virus.",
-      "note": "Verklaart waarom corona moeilijker te verwerken is."
+      "text": "Het is wonderlijk hoeveel uren ik doorbreng met God in mijn dagelijkse werkende bestaan, zonder gevolgen.",
+      "note": "Paradox van een atheïst die dagelijks religieuze teksten leest."
+    },
+    {
+      "start_seconds": 1850,
+      "speaker": "Stefan Paas",
+      "text": "Het verschil zit misschien in de druk die er nu op de aarde is gekomen, een bijna goddelijke verantwoordelijkheid.",
+      "note": "Een zinvolle theologische blik op klimaat en verantwoordelijkheid."
     }
   ],
   "keywords": [
-    "ramp",
-    "corona",
-    "zondebok",
+    "rampen",
+    "rampliederen",
     "zondebesef",
-    "ramplied",
-    "Lissabon",
-    "Voltaire",
-    "Vondel",
+    "zondebok",
     "solidariteit",
     "secularisatie",
-    "zingeving",
-    "watersnood"
+    "beproeving",
+    "Voltaire",
+    "Oogentroost",
+    "Vondel",
+    "coronacrisis",
+    "zingeving"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 25,
-      "reason": "Corona en plagen uit de geschiedenis, met religieuze duiding van rampen en pandemieën"
-    },
-    {
-      "n": 75,
-      "reason": "Coronacrisis en eerdere crises in de geschiedenis, religieuze revolutie en zondebokken"
+      "reason": "Geschiedenis van pandemieën en plagen, en de religieuze reactie daarop; sterk overlappend thema"
     },
     {
       "n": 47,
-      "reason": "Coronacrisis en de invloed op kerk en secularisatie"
-    },
-    {
-      "n": 106,
-      "reason": "Geschiedenis en geloof achter de crises van deze tijd"
+      "reason": "Coronacrisis en de vraag of crises religieuze betrokkenheid en kerkbezoek beïnvloeden"
     },
     {
       "n": 27,
-      "reason": "Geloof, hoop en omgaan met de coronacrisis"
+      "reason": "Geloof, hoop en zingeving in crisistijd, met het 'nieuwe normaal' na corona"
+    },
+    {
+      "n": 24,
+      "reason": "Angst, zingeving en geloof in tijden van crisis en pandemie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

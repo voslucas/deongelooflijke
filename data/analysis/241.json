@@ -1,18 +1,23 @@
 {
   "episode": 241,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125063,
+    "segments": 957,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30186,
-    "output_tokens": 2929,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62108,
+    "output_tokens": 8481,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
-    "Geschiedenis",
     "Politiek",
-    "God & geloof"
+    "Technologie & AI",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,314 +25,364 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president, centraal onderwerp van het gesprek",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president; centrale figuur van het gesprek",
+      "start_seconds": 64,
+      "mention_count": 60
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president met een doordachtere ideologie dan Trump",
-      "start_seconds": 169,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "JD Vance",
-      "note": "vicepresident, katholiek, auteur van Hillbilly Blues, gezien als de toekomst van het Trumpisme",
-      "start_seconds": 1427,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Patrick Deneen",
-      "note": "katholiek politiek filosoof aan Notre Dame, schrijver van Why Liberalism Failed en Regime Change",
-      "start_seconds": 1766,
-      "wiki_checked": true
-    },
-    {
-      "name": "Peter Thiel",
-      "note": "techmiljardair, donateur van Trump en mentor van Vance",
-      "start_seconds": 1676,
-      "wiki_checked": true,
-      "wiki_pageid": 4611632,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/250px-Peter_Thiel_%282014%29.jpg"
+      "note": "Russische president; vergeleken met Trump qua denkbeelden over invloedssferen",
+      "start_seconds": 161,
+      "mention_count": 12
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "Franse keizer, vergeleken met Trump als ideologische referentie",
+      "note": "Franse keizer; referentiepunt voor de 19e eeuw en Trump-vergelijkingen",
       "start_seconds": 691,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "mention_count": 8
     },
     {
-      "name": "Russell Vought",
-      "note": "budgetchef van Trump en meeschrijver van Project 2025",
-      "start_seconds": 561,
-      "wiki_checked": true
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident; gezien als toekomst van het Trumpisme",
+      "start_seconds": 1425,
+      "mention_count": 14
     },
     {
-      "name": "Kevin Roberts",
-      "note": "hoofd van de Heritage Foundation",
-      "start_seconds": 525,
-      "wiki_checked": true
+      "name": "Curtis Yarvin",
+      "note": "Techdenker en bloggers; grondlegger van de 'donkere verlichting'",
+      "start_seconds": 3279,
+      "mention_count": 9
     },
     {
-      "name": "David Brooks",
-      "note": "conservatieve columnist die schreef over de wrok in Trumps entourage",
-      "start_seconds": 496,
-      "wiki_checked": true
+      "name": "Peter Thiel",
+      "note": "Techmiljardair en grote donateur van Trump",
+      "start_seconds": 1676,
+      "mention_count": 8
     },
     {
-      "name": "Alice Weidel",
-      "note": "Duitse politica (AfD) die verwijst naar de Napoleontische tijd en Pruisen",
-      "start_seconds": 995,
-      "wiki_checked": true,
-      "wiki_pageid": 4882349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alice_Weidel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg/250px-2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg"
+      "name": "Elon Musk",
+      "note": "Techondernemer; betrokken bij DOGE en big tech-ideeën",
+      "start_seconds": 3531,
+      "mention_count": 6
     },
     {
-      "name": "Augustinus",
-      "note": "kerkvader die Vance las en die hem tot het katholicisme bracht",
-      "start_seconds": 1631,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "name": "Douglas Wilson",
+      "note": "Predikant en oprichter van Canon Press; figuur binnen christelijk nationalisme",
+      "start_seconds": 2395,
+      "mention_count": 6
     },
     {
-      "name": "Menno ter Braak",
-      "note": "Nederlandse schrijver, bedenker van het begrip rancunepolitiek",
-      "start_seconds": 558,
-      "wiki_checked": true,
-      "wiki_pageid": 190668,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Menno_ter_Braak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Menno_ter_Braak.jpg/250px-Menno_ter_Braak.jpg"
+      "name": "Patrick Deneen",
+      "note": "Politiek filosoof (Notre Dame); kritiek op het liberalisme",
+      "start_seconds": 1768,
+      "mention_count": 7
     },
     {
       "name": "Ezra Klein",
-      "note": "progressieve journalist van de New York Times en podcastmaker",
-      "start_seconds": 220,
-      "wiki_checked": true
+      "note": "Progressief journalist en podcaster (New York Times)",
+      "start_seconds": 228,
+      "mention_count": 3
     },
     {
-      "name": "Rob de Wijk",
-      "note": "collega-hoogleraar internationale betrekkingen, wijst op geopolitieke machtsverhoudingen",
-      "start_seconds": 314,
-      "wiki_checked": true,
-      "wiki_pageid": 991157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_de_Wijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rob_de_Wijk.jpg/250px-Rob_de_Wijk.jpg"
+      "name": "David Brooks",
+      "note": "Conservatief columnist (New York Times)",
+      "start_seconds": 496,
+      "mention_count": 3
+    },
+    {
+      "name": "Russell Vought",
+      "note": "Budgetfunctionaris in Trumps regering; medeauteur Project 2025",
+      "start_seconds": 561,
+      "mention_count": 3
+    },
+    {
+      "name": "Kevin Roberts",
+      "note": "Hoofd van de Heritage Foundation",
+      "start_seconds": 531,
+      "mention_count": 1
+    },
+    {
+      "name": "Steve Bannon",
+      "note": "Populistische ideoloog achter Trump 1",
+      "start_seconds": 3992,
+      "mention_count": 3
+    },
+    {
+      "name": "Miguel Anton",
+      "note": "Auteur van het Flight 93-essay; hoge functie in Trumps regering",
+      "start_seconds": 3535,
+      "mention_count": 2
     },
     {
       "name": "Emmanuel Macron",
-      "note": "Franse president met autoritaire neigingen die de 19e eeuw oproept",
+      "note": "Franse president; genoemd als autoritaire neiging in de 19e-eeuwse retoriek",
       "start_seconds": 752,
-      "wiki_checked": true,
-      "wiki_pageid": 4565095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Emmanuel_Macron",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Emmanuel_Macron_-_June_2025_%283x4_cropped%29.jpg/250px-Emmanuel_Macron_-_June_2025_%283x4_cropped%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Esther van Veenema",
-      "note": "auteur die depressie als gevolg van het liberale geluksideaal beschrijft",
+      "name": "Joe Biden",
+      "note": "Voormalig Amerikaans president; probeerde de gewone man te steunen",
+      "start_seconds": 2282,
+      "mention_count": 2
+    },
+    {
+      "name": "Mike Pence",
+      "note": "Voormalig vicepresident onder Trump 1; klassiek evangelical",
+      "start_seconds": 3019,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; door Vance geciteerd en door Paas en De Graaf genoemd",
+      "start_seconds": 1621,
+      "mention_count": 4
+    },
+    {
+      "name": "Esther Veenendaal",
+      "note": "Nederlandse auteur over depressie en individualisme",
       "start_seconds": 2071,
-      "wiki_checked": true
+      "mention_count": 2
+    },
+    {
+      "name": "Tobias Kremer",
+      "note": "Auteur van The Godless Crusade",
+      "start_seconds": 3104,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten van Rossum",
+      "note": "Nederlandse columnist; genoemd als relativerende stem",
+      "start_seconds": 426,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlands politicus; citaat over visie bij opticien",
+      "start_seconds": 439,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Keller",
+      "note": "Bekende predikant uit New York",
+      "start_seconds": 2460,
+      "mention_count": 1
+    },
+    {
+      "name": "Pete Hegseth",
+      "note": "Minister van Defensie; christelijke entourage van Trump",
+      "start_seconds": 3019,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "Hillbilly Blues",
+      "title": "Hillbilly Elegy",
       "author": "JD Vance",
-      "note": "autobiografisch boek over zijn arme Kentucky-afkomst",
+      "note": "Nederlandse titel Hillbilly Blues; autobiografie over zijn afkomst",
       "start_seconds": 1459,
-      "volume_id": "B6clDwAAQBAJ",
-      "canonical_title": "Hillbilly Blues: een memoir over een familie en een cultuur in crisis",
-      "canonical_author": "J.D. Vance",
-      "isbn13": "9789038804026",
-      "isbn10": "9038804024",
-      "thumbnail": "http://books.google.com/books/content?id=B6clDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "volume_id": "YNkEzgEACAAJ",
+      "canonical_title": "Hillbilly Elegy [movie Tie-In]",
+      "canonical_author": "J. D. Vance",
+      "isbn13": "9780063045989",
+      "isbn10": "0063045982",
+      "thumbnail": "http://books.google.com/books/content?id=YNkEzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Why Liberalism Failed",
       "author": "Patrick Deneen",
-      "note": "kritiek op het liberalisme als vooruitgangsdenken",
+      "note": "Kritiek op liberalisme als elite-project",
       "start_seconds": 1783,
-      "volume_id": "AESHDwAAQBAJ",
+      "volume_id": "lTFDDwAAQBAJ",
       "canonical_title": "Why Liberalism Failed",
       "canonical_author": "Patrick J. Deneen",
-      "isbn13": "9780300240023",
-      "isbn10": "0300240023",
-      "thumbnail": "http://books.google.com/books/content?id=AESHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780300223446",
+      "isbn10": "0300223447",
+      "thumbnail": "http://books.google.com/books/content?id=lTFDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Regime Change",
-      "author": "Patrick Deneen",
-      "note": "",
-      "start_seconds": 1783,
-      "volume_id": "koCHEAAAQBAJ",
-      "canonical_title": "Regime Change: Toward a Postliberal Future",
-      "canonical_author": "Patrick J. Deneen",
-      "isbn13": "9780593086919",
-      "isbn10": "0593086910",
-      "thumbnail": "http://books.google.com/books/content?id=koCHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "The Godless Crusade",
+      "author": "Tobias Kremer",
+      "note": "Analyse van het gebruik van christelijke symbolen in Trumpbeweging",
+      "start_seconds": 3104,
+      "volume_id": "nomzEAAAQBAJ",
+      "canonical_title": "The Godless Crusade: Religion, Populism and Right-Wing Identity Politics in the West",
+      "canonical_author": "Tobias Cremer",
+      "isbn13": "9781009262156",
+      "isbn10": "1009262157",
+      "thumbnail": "http://books.google.com/books/content?id=nomzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Project 2025",
-      "author": "Heritage Foundation",
-      "note": "plan voor Trumps regering, geschreven door onder anderen Russell Vought",
-      "start_seconds": 525
+      "title": "De zonde van de empathie",
+      "author": "",
+      "note": "Boek uit de uitgeverij van Douglas Wilson; empathie als 'zonde'",
+      "start_seconds": 2774
+    },
+    {
+      "title": "Flight 93",
+      "author": "Michael Anton",
+      "note": "Essay (2016) over de Republikeinse strijd om het 'Trump-moment'",
+      "start_seconds": 1032,
+      "volume_id": "Tfh5DwAAQBAJ",
+      "canonical_title": "After the Flight 93 Election: The Vote that Saved America and What We Still Have to Lose",
+      "canonical_author": "Michael Anton",
+      "isbn13": "9781641770613",
+      "isbn10": "1641770619",
+      "thumbnail": "http://books.google.com/books/content?id=Tfh5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5:14",
+      "note": "Allusie op 'de stad op een berg' in het christelijk nationalisme",
+      "start_seconds": 2493
+    },
+    {
+      "ref": "Mattheus 7:16",
+      "note": "De boom herkent men aan zijn vruchten; als criterium voor de beweging",
+      "start_seconds": 4124
+    }
+  ],
   "places": [
     "Ede",
+    "Utrecht",
+    "Amsterdam",
     "Washington",
-    "Amerika",
-    "Rusland",
+    "Idaho",
+    "Kentucky",
     "Canada",
     "Groenland",
-    "Kentucky",
-    "Europa",
+    "Koeweit",
     "Irak",
     "Yale",
-    "Notre Dame"
+    "Berkeley"
   ],
-  "summary_tldr": "David Boogerd spreekt live in Ede met Beatrice de Graaf en Stefan Paas over de ideologieën en denkers achter Trump II. Ze bespreken de rancune van het paleoconservatisme, de zombificatie van de 19e eeuw, religieuze messiasbeelden rond Trump en katholieke denkers als JD Vance en Patrick Deneen.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas analyseren de ideeën achter Trumps tweede regering, van paleoconservatisme en christelijk nationalisme tot de 'donkere verlichting' van techdenkers als Curtis Yarvin en Peter Thiel. Zij zien een gefragmenteerde maar gevaarlijke mix van rancune, anti-elitisme en een verlangen naar autocratisch leiderschap die weinig opbouwt. Volgens hen is het serieus nemen van deze stromingen en het verdedigen van democratische en morele grondhoudingen de noodzakelijke reactie.",
   "summary_points": [
-    "Trump II is ideologischer en radicaler dan zijn eerste termijn; geo-ideologie wordt belangrijker dan alleen geopolitiek.",
-    "Poetin heeft een doordachtere ideologie dan Trump, die een gefragmenteerde boodschap heeft die wisselt met de mensen om zijn troon.",
-    "Het paleoconservatisme, doordrenkt van rancune en ressentiment, is doorgebroken naar het Witte Huis.",
-    "Het essay Flight 93 beschrijft Amerika als een gekaapt vliegtuig; isolationisme, anti-vrijhandel en anti-immigratie zijn nu regeringsbeleid.",
-    "De vergelijking met de 19e eeuw klopt niet: de invloedssferen en zero-sum-politiek van nu zijn een zombificatie van die tijd.",
-    "Religieuze taal wordt politiek ingezet: Trump wordt gezien als Messias en door God geroepen instrument.",
-    "JD Vance is een katholieke bekeerling, product van de hyperpolarisatie na 9/11 en beïnvloed door Peter Thiel.",
-    "Patrick Deneen levert een scherpe analyse van het falen van het liberalisme, maar zijn remedies zijn volgens De Graaf problematisch."
+    "Trumps entourage bestaat uit verschillende fracties met elk een eigen ideeënveld, zonder één samenhangende ideologie.",
+    "Het paleoconservatisme, met wrokkige en anti-linkse wortels, is naar het Witte Huis doorgebroken en ligt aan de basis van het beleid.",
+    "De Graaf stelt dat de 19e eeuw als 'zombie' wordt opgeroepen; de vergelijking met Napoleon en invloedssferen klopt historisch niet.",
+    "Het Flight 93-essay en isolationisme, anti-vrijhandel en anti-immigratie vormen een rode draad naar het huidige beleid.",
+    "JD Vance en de Hillbilly-achtergrond tonen een sterk tribale en polariserende visie, beïnvloed door katholieke denkers als Patrick Deneen.",
+    "Christelijk nationalisme, vertegenwoordigd door Douglas Wilson, wordt besproken als beweging met racistische ondertonen en een gevaarlijke glijdende schaal naar extremisme.",
+    "De 'donkere verlichting' van Curtis Yarvin en Peter Thiel pleit voor het afschaffen van de democratie en een CEO-achtig bewind, met big tech als motor.",
+    "Techdenkers streven naar transhumanisme en eeuwig leven, wat volgens het gesprek bijna religieus van karakter is.",
+    "De ideeën worden als minder succesvol in opbouw beschouwd: ze breken af maar bouwen weinig.",
+    "Als antwoord pleiten De Graaf en Paas voor het serieus nemen van deze ideeën, het aanspreken van morele deugden en een vredestichtend verhaal."
   ],
   "chapters": [
     {
-      "start_seconds": 43,
-      "title": "Introductie en de denkers achter Trump",
-      "summary": "Boogerd introduceert het thema en vraagt wat het met de gasten doet om zich in Trumps denkwereld te verdiepen."
+      "start_seconds": 64,
+      "title": "Inleiding: de denkers achter Trump",
+      "summary": "De presentator stelt de vraag naar de ideologie achter Trump II en introduceert de gasten."
     },
     {
-      "start_seconds": 314,
-      "title": "Geo-ideologie en rancunepolitiek",
-      "summary": "De Graaf legt uit waarom ideologie nu zwaarder weegt dan geopolitiek, en Paas beschrijft het paleoconservatisme en de wrok in Trumps entourage."
+      "start_seconds": 221,
+      "title": "Fracties rond Trump en rancune",
+      "summary": "Paas schetst de verschillende kampen en de rancuneuze toon van Trumps entourage."
     },
     {
-      "start_seconds": 640,
+      "start_seconds": 691,
       "title": "De zombificatie van de 19e eeuw",
-      "summary": "Is Trump terug naar de 19e eeuw? De Graaf stelt dat de invloedssferen-theorie niet klopt met de werkelijke 19e eeuw."
+      "summary": "De Graaf analyseert de verwijzingen naar de 19e eeuw en de vergelijking met Napoleon en Poetin."
     },
     {
-      "start_seconds": 1070,
-      "title": "Flight 93 en de Project 2025-lijn",
-      "summary": "Paas bespreekt het essay Flight 93 en hoe isolationisme, protectionisme en anti-immigratie van de flank naar het centrum zijn gegaan."
+      "start_seconds": 1032,
+      "title": "Flight 93, isolationisme en het paleoconservatisme",
+      "summary": "Het Flight 93-essay en de kernpunten van isolationisme, protectionisme en anti-immigratie worden besproken."
     },
     {
-      "start_seconds": 1215,
-      "title": "Trump als Messias",
-      "summary": "Een viraal fragment van een schilder met Trump en een kruis leidt tot gesprek over politieke inzet van religieuze taal."
+      "start_seconds": 1425,
+      "title": "JD Vance en het katholieke denken",
+      "summary": "Vance' biografie en intellectuele wortels, met Deneen en de kritiek op de liberale elite, komen aan bod."
     },
     {
-      "start_seconds": 1427,
-      "title": "JD Vance en zijn katholicisme",
-      "summary": "Vance's afkomst, bekering via Peter Thiel en Augustinus en zijn tribale loyaliteiten komen aan bod."
+      "start_seconds": 2395,
+      "title": "Christelijk nationalisme",
+      "summary": "Douglas Wilson en de witte christelijke nationalistische beweging worden geanalyseerd, inclusief de 'zonde van de empathie'."
     },
     {
-      "start_seconds": 1766,
-      "title": "Patrick Deneen en de kritiek op het liberalisme",
-      "summary": "Deneens analyse van elites, vrijheid en solidariteit wordt besproken, evenals de beperkingen van zijn remedies."
+      "start_seconds": 3279,
+      "title": "Donkere verlichting en big tech",
+      "summary": "Curtis Yarvin, Peter Thiel en Elon Musk pleiten voor het einde van de democratie en een techno-CEO-bewind."
+    },
+    {
+      "start_seconds": 4124,
+      "title": "Wat moeten we ermee?",
+      "summary": "De gasten formuleren vuistregels: serieus nemen, de grondhouding toetsen en een vredestichtend verhaal bieden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
-      "speaker": "Beatrice de Graaf",
-      "text": "Duistere elfen moeten de hobbits helpen de strijd te voeren.",
-      "note": "Treffend beeld uit Lord of the Rings voor de ideologie die jongens aanspreekt."
-    },
-    {
-      "start_seconds": 552,
+      "start_seconds": 575,
       "speaker": "Stefan Paas",
-      "text": "We want to put them in trauma.",
-      "note": "Schokkend citaat van Russell Vought over federale ambtenaren."
+      "text": "Russell Vought zegt dat hij wil dat ambtenaren niet meer durven naar hun werk te gaan en 'in trauma' moeten raken.",
+      "note": "Een schokkende uitspraak van een regeringsfunctionaris die de rancuneuze toon illustreert."
     },
     {
-      "start_seconds": 772,
+      "start_seconds": 775,
       "speaker": "Beatrice de Graaf",
-      "text": "Dat is niet echt de 19e eeuw, dat is de 19e eeuw als een zombie.",
-      "note": "Pakkende term: zombificatie van de 19e eeuw."
+      "text": "De manier waarop Trump en Poetin over de 19e eeuw praten is een zombificatie: een verwrongen herinnering die dood en levend tegelijk is.",
+      "note": "Een scherpe historische metafoor die de klassieke referenties ontmaskert."
     },
     {
-      "start_seconds": 549,
-      "speaker": "Beatrice de Graaf",
-      "text": "Rancune, ressentiment, een toontje van verongelijkheid.",
-      "note": "Kernduiding van de stijl en energie in Trumps entourage."
-    },
-    {
-      "start_seconds": 1400,
+      "start_seconds": 1676,
       "speaker": "Stefan Paas",
-      "text": "Trump wordt hier gewoon Messias, wordt hier verlosser.",
-      "note": "Over een andere vorm van secularisatie waarbij religieuze taal politiek wordt."
+      "text": "Peter Thiel zei: 'Je kunt slim zijn en christen. Je ontkracht het sjabloon dat domme mensen gelovig zijn.'",
+      "note": "Een persoonlijk moment dat laat zien hoe ideeën en bekeringen zich via netwerken verspreiden."
+    },
+    {
+      "start_seconds": 3340,
+      "speaker": "Beatrice de Graaf",
+      "text": "Curtis Yarvin gebruikt de metafoor van Lord of the Rings om jonge mannen aan te spreken: 'Wij hebben duistere elfen nodig.'",
+      "note": "Opvallend hoe een ideologie via popcultuur en manosfeer jonge doelgroepen bereikt."
+    },
+    {
+      "start_seconds": 4124,
+      "speaker": "Beatrice de Graaf",
+      "text": "Aan de vruchten herkent u de boom: deze beweging breekt af maar bouwt niets op.",
+      "note": "Een scherpe maatstaf die de kern van het oordeel van het gesprek samenvat."
     }
   ],
   "keywords": [
-    "Trump",
-    "JD Vance",
-    "Patrick Deneen",
-    "Project 2025",
+    "Trumpisme",
     "paleoconservatisme",
-    "rancune",
+    "christelijk nationalisme",
+    "donkere verlichting",
+    "big tech",
+    "invloedssfeer",
     "19e eeuw",
-    "Poetin",
-    "katholicisme",
-    "liberalisme",
-    "Peter Thiel",
-    "geo-ideologie"
+    "rancune",
+    "katholieke sociale leer",
+    "transhumanisme",
+    "populisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Alsof alles op de schop moet: vrije handel, de democratische wereldorde, ontwikkelingshulp en mensenrechten.",
+    "Westerse fundamenten lijken te worden afgebroken. Maar wat komt ervoor in de plaats?",
+    "Welk wereldbeeld – of geloof – zit hierachter?"
+  ],
   "similar": [
     {
       "n": 228,
-      "reason": "Wereldbeeld en denkers achter Musk en techgiganten rond Trump, met De Graaf en Paas."
-    },
-    {
-      "n": 236,
-      "reason": "Amerika onder Trump en Europa, met De Graaf en Paas."
+      "reason": "Beatrice de Graaf over Musk en techgiganten, gedeelde tech-denkers en Trump-context"
     },
     {
       "n": 309,
-      "reason": "Trump, Poetin en de strategie van sterke leiders, met De Graaf en Paas."
+      "reason": "De Graaf over Trumps chaosstrategie en autocratische leiders, sterk thematisch verwant"
     },
     {
-      "n": 230,
-      "reason": "Nieuwe wereldorde met Trump en Poetin, met Rob de Wijk."
+      "n": 236,
+      "reason": "De Graaf over Amerika's afglijden en de Amerikaanse politieke crisis"
     },
     {
       "n": 284,
-      "reason": "Machtspolitiek van Trump en Poetin, met De Graaf en Paas."
+      "reason": "De Graaf over brute machtspolitiek, Trump en Poetin in de wereldpolitiek"
+    },
+    {
+      "n": 298,
+      "reason": "Gesprek over AI-gevaren met Trump-context en technologische machtsvraagstukken"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 275,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93700,
+    "segments": 743,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30037,
-    "output_tokens": 2786,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46833,
+    "output_tokens": 11018,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Geschiedenis",
     "Politiek",
-    "Kerk & secularisatie"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,288 +25,417 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, achter beïnvloeding en oorlog",
-      "start_seconds": 369,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; centrale figuur in de Russische beïnvloedingsoperaties",
+      "start_seconds": 409,
+      "mention_count": 18
     },
     {
       "name": "Theo Francken",
-      "note": "Belgisch minister van Defensie, speelde de drones naar eigen zeggen eerst omlaag",
-      "start_seconds": 165,
-      "wiki_checked": true,
-      "wiki_pageid": 1933670,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_Francken",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Theo_Francken_N-VA.jpg/250px-Theo_Francken_N-VA.jpg"
+      "note": "Belgische minister van Defensie; downplaydde de drones boven België",
+      "start_seconds": 147,
+      "mention_count": 3
     },
     {
       "name": "Boris Pistorius",
-      "note": "Duitse minister van Defensie, noemde Rusland als dader",
-      "start_seconds": 246,
-      "wiki_checked": true,
-      "wiki_pageid": 5721704,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Pistorius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/250px-Boris_Pistorius_%282019%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bart Schuurman",
-      "note": "Onderzoeker Universiteit Leiden naar Russische inmenging",
-      "start_seconds": 516,
-      "wiki_checked": true
+      "note": "Duitse minister van Defensie; noemde Rusland als achterliggende partij",
+      "start_seconds": 247,
+      "mention_count": 2
     },
     {
       "name": "Larissa Beukman",
-      "note": "Onderzoeker die Russische beïnvloeding in kaart brengt",
-      "start_seconds": 516,
-      "wiki_checked": true
+      "note": "Onderzoeker naar Russische beïnvloeding (Universiteit van Amsterdam)",
+      "start_seconds": 489,
+      "mention_count": 3
     },
     {
-      "name": "Henry Ford",
-      "note": "Amerikaanse industrieel die de Protocollen van de Wijzen van Sion liet verspreiden",
-      "start_seconds": 876,
-      "wiki_checked": true,
-      "wiki_pageid": 24410,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Ford",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Henry_ford_1919.jpg/250px-Henry_ford_1919.jpg"
+      "name": "Bart Schuurman",
+      "note": "Onderzoeker naar Russische beïnvloeding en sabotage (Universiteit Leiden)",
+      "start_seconds": 489,
+      "mention_count": 3
     },
     {
-      "name": "Vladimir Lenin",
-      "note": "Sovjetleider die de Tsjeka inzette",
+      "name": "Sarah de Lange",
+      "note": "Onderzoeker naar Russische beïnvloeding",
+      "start_seconds": 489,
+      "mention_count": 1
+    },
+    {
+      "name": "Lenin",
+      "note": "Leider van de Russische revolutie; zou de Tsjeka hebben gesteund",
       "start_seconds": 899,
-      "wiki_checked": true,
-      "wiki_pageid": 13551,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Lenin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg/250px-Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider; genoemd als contrast met Lenin",
+      "start_seconds": 899,
+      "mention_count": 1
     },
     {
       "name": "Leon Trotski",
-      "note": "Door de Tsjeka vermoord in Mexico",
-      "start_seconds": 925,
-      "wiki_checked": true,
-      "wiki_pageid": 27850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lev_Trotski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leon_Trotsky_%283x4_cropped%29.jpg/250px-Leon_Trotsky_%283x4_cropped%29.jpg"
+      "note": "Communist; door de Tsjeka vermoord in Mexico",
+      "start_seconds": 924,
+      "mention_count": 2
     },
     {
-      "name": "Mient Jan Faber",
-      "note": "Leider van het IKV, steunde dissidenten achter het IJzeren Gordijn",
-      "start_seconds": 1149,
-      "wiki_checked": true,
-      "wiki_pageid": 104277,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mient_Jan_Faber",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mientjan-faber-1310423747.jpg/250px-Mientjan-faber-1310423747.jpg"
+      "name": "Henry Ford",
+      "note": "Amerikaans autofabrikant die de Protocollen van de Wijzen van Sion verspreidde",
+      "start_seconds": 804,
+      "mention_count": 2
     },
     {
-      "name": "Vaclav Havel",
-      "note": "Tsjechische dissident gesteund door Nederlandse vredesactivisten",
-      "start_seconds": 1225,
-      "wiki_checked": true,
-      "wiki_pageid": 30654,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/V%C3%A1clav_Havel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Vaclav_Havel_IMF.jpg/250px-Vaclav_Havel_IMF.jpg"
+      "name": "Elon Musk",
+      "note": "Ondernemer; vergeleken met Henry Ford; uitgesproken tegenstander van Von der Leyen",
+      "start_seconds": 804,
+      "mention_count": 2
+    },
+    {
+      "name": "Napoleon",
+      "note": "Franse keizer die Russische westerse invloeden voedde",
+      "start_seconds": 803,
+      "mention_count": 1
+    },
+    {
+      "name": "Konstantijn de Grote",
+      "note": "Eerste christelijke Romeinse keizer; context van vijfde-kolonnedenken",
+      "start_seconds": 2970,
+      "mention_count": 2
+    },
+    {
+      "name": "Shapur II",
+      "note": "Perzische koning die christenen vervolgde als vijfde kolonne",
+      "start_seconds": 2970,
+      "mention_count": 1
+    },
+    {
+      "name": "Emilio Mola",
+      "note": "Spaans generaal die de term vijfde kolonne zou hebben gebruikt",
+      "start_seconds": 3007,
+      "mention_count": 1
+    },
+    {
+      "name": "Francisco Franco",
+      "note": "Spaans dictator; kompaan van Mola",
+      "start_seconds": 3007,
+      "mention_count": 1
+    },
+    {
+      "name": "Lou de Jong",
+      "note": "Historicus die de vijfde kolonne in 1940 onderzocht",
+      "start_seconds": 3234,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus die sprak over een vijfde kolonne",
+      "start_seconds": 3126,
+      "mention_count": 1
+    },
+    {
+      "name": "Theo van Gogh",
+      "note": "Columnist die sprak over een vijfde kolonne",
+      "start_seconds": 3126,
+      "mention_count": 1
+    },
+    {
+      "name": "Václav Havel",
+      "note": "Tsjechische dissident die door Nederlandse vredesactivisten werd gesteund",
+      "start_seconds": 1197,
+      "mention_count": 1
+    },
+    {
+      "name": "Alex Jones",
+      "note": "Amerikaanse extreemrechtse influencer; host podcast op Russische server",
+      "start_seconds": 2667,
+      "mention_count": 1
     },
     {
       "name": "Konstantin Malofejev",
-      "note": "Russische oligarch die conservatief-religieuze netwerken financiert",
+      "note": "Russische rijke geldschieter die conservatieve organisaties financiert",
       "start_seconds": 1884,
-      "wiki_checked": true
+      "mention_count": 5
     },
     {
-      "name": "Heinz-Christian Strache",
-      "note": "Oostenrijkse FPÖ-politicus, Ibiza-affaire",
-      "start_seconds": 2087,
-      "wiki_checked": true,
-      "wiki_pageid": 3843116,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heinz-Christian_Strache",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/2013_Heinz-Christian_Strache_%2810008576264%29.jpg/250px-2013_Heinz-Christian_Strache_%2810008576264%29.jpg"
-    },
-    {
-      "name": "Ursula von der Leyen",
-      "note": "Voorzitster Europese Commissie, doelwit van Russische en andere haat",
-      "start_seconds": 2215,
-      "wiki_checked": true,
-      "wiki_pageid": 1926494,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ursula_von_der_Leyen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ursula_von_der_Leyen_2024.jpg/250px-Ursula_von_der_Leyen_2024.jpg"
-    },
-    {
-      "name": "Annalena Baerbock",
-      "note": "Duitse minister van Buitenlandse Zaken, doelwit van smeercampagnes",
-      "start_seconds": 2274,
-      "wiki_checked": true,
-      "wiki_pageid": 5411097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Annalena_Baerbock",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Au%C3%9Fenministerin_Meinl-Reisinger_beim_RAB_in_Br%C3%BCssel%2C_17.03.2025_-_07_%28cropped%29.jpg/250px-Au%C3%9Fenministerin_Meinl-Reisinger_beim_RAB_in_Br%C3%BCssel%2C_17.03.2025_-_07_%28cropped%29.jpg"
+      "name": "Vladimir Jakoenin",
+      "note": "Russische figuur genoemd in financieringsnetwerk",
+      "start_seconds": 1884,
+      "mention_count": 1
     },
     {
       "name": "Huib Modderkolk",
-      "note": "Journalist, maakte podcast Schaduwoorlog",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 5093559,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Huib_Modderkolk"
+      "note": "Onderzoeksjournalist die over Russische geldstromen schreef",
+      "start_seconds": 1884,
+      "mention_count": 2
     },
     {
-      "name": "Jan van Meijenfeldt",
-      "note": "Generaal van Generaals voor de Vrede, werd beïnvloed door de Stasi",
-      "start_seconds": 1292,
-      "wiki_checked": true
+      "name": "Geert Wilders",
+      "note": "PVV-leider; genoemd in e-mails over ontmoetingen met Russen",
+      "start_seconds": 1942,
+      "mention_count": 3
+    },
+    {
+      "name": "Generaal Van Meijenveld",
+      "note": "Gereformeerde generaal binnen het IKV; beïnvloed door de Stasi-netwerken",
+      "start_seconds": 1274,
+      "mention_count": 4
+    },
+    {
+      "name": "Mient-Jan Faber",
+      "note": "Leider van het IKV in de jaren tachtig",
+      "start_seconds": 1133,
+      "mention_count": 1
+    },
+    {
+      "name": "Anne van der Bijl",
+      "note": "Oprichter van Open Doors; Bijbelsmokkel",
+      "start_seconds": 677,
+      "mention_count": 1
+    },
+    {
+      "name": "Sergej Lavrov",
+      "note": "Russische minister van Buitenlandse Zaken; citeerde de Primakov-doctrine",
+      "start_seconds": 1708,
+      "mention_count": 1
+    },
+    {
+      "name": "Jevgeni Primakov",
+      "note": "Russische oud-premier; naamgever van de Primakov-doctrine",
+      "start_seconds": 1708,
+      "mention_count": 1
+    },
+    {
+      "name": "Boris Jeltsin",
+      "note": "Eerste Russische president; kleptocratie in de jaren negentig",
+      "start_seconds": 2713,
+      "mention_count": 1
+    },
+    {
+      "name": "Timothy Snyder",
+      "note": "Historicus die waarschuwde voor Russische kleptocratie",
+      "start_seconds": 2713,
+      "mention_count": 1
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "Voorzitter van de Europese Commissie; object van haat voor Musk en Poetin",
+      "start_seconds": 2215,
+      "mention_count": 1
+    },
+    {
+      "name": "Annalena Baerbock",
+      "note": "Duitse minister van Buitenlandse Zaken; doelwit van desinformatie over haar cv",
+      "start_seconds": 2274,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; zou volgens Beatrice Russische ID's aan Poetin hebben gegeven",
+      "start_seconds": 1515,
+      "mention_count": 2
+    },
+    {
+      "name": "Rob Jetten",
+      "note": "D66-leider; genoemd in het gesprek over partijkeuze",
+      "start_seconds": 2836,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig premier en NAVO-secretaris-generaal; sprak over oorlog met Rusland",
+      "start_seconds": 3281,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Protocollen van de Wijzen van Sion",
+      "author": "",
+      "note": "Vervalst antisemitisch pamflet opgesteld door de tsaristische geheime politie (Ochrana); later verspreid door Henry Ford",
+      "start_seconds": 735,
+      "volume_id": "g5MqzwEACAAJ",
+      "canonical_title": "De protocollen van de wijzen van Sion",
+      "canonical_author": "Paul Molenbroek",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Galaten 5:22",
+      "note": "Vruchten van de geest: zachtmoedigheid en lankmoedigheid, aangehaald als richtlijn voor christelijk handelen",
+      "start_seconds": 2360
+    },
+    {
+      "ref": "Mattheus 22:21",
+      "note": "Geef de keizer wat des keizers is; geparafraseerd als 'geef de koning wat des konings is'",
+      "start_seconds": 2798
+    }
+  ],
   "places": [
     "Rusland",
     "België",
     "Brussel",
     "Zaventem",
     "Luik",
-    "Polen",
     "Oekraïne",
-    "Oostenrijk",
-    "Mexico",
+    "Polen",
     "Oost-Duitsland",
+    "Duitsland",
+    "Oostenrijk",
     "Wenen",
-    "Ibiza"
+    "Spanje",
+    "Madrid",
+    "Toledo",
+    "Hongarije",
+    "Frankrijk",
+    "Moskou",
+    "Mexico",
+    "Georgië",
+    "Nederland",
+    "Amerika",
+    "Engeland",
+    "Rotterdam",
+    "Hilversum",
+    "Limburg",
+    "Gouda",
+    "Parijs",
+    "Rome"
   ],
-  "summary_tldr": "Historicus Beatrice de Graaf legt uit dat Russische inmenging, van drones boven België tot desinformatie en financiering van rechtse partijen, een lange geschiedenis heeft die teruggaat tot het tsarenrijk. Met Stefan Paas bespreekt ze de rol van 'nuttige idioten' toen en nu, en hoe polarisatie onze weerbaarheid ondermijnt. Ook de religieuze beïnvloeding door Moskou komt aan bod.",
+  "summary_tldr": "Historicus Beatrice de Graaf en theoloog Stefan Paas bespreken de recente drone-incidenten in België en de Russische beïnvloeding van Europa, die al anderhalve eeuw bestaat en nu militairer en gevaarlijker wordt. Ze laten zien hoe Rusland via desinformatie, financiering van rechts-nationalistische en christelijke groepen en historische mythes verdeeldheid zaait. Hun pleidooi is dat Europa zijn waarden en onderlinge eensgezindheid moet verdedigen, zonder in paniek of complotdenken te vervallen.",
   "summary_points": [
-    "Drones boven België zijn volgens De Graaf een Russische testoperatie en een daad van agressie.",
-    "Politici, vooral rechtsnationalistische, hebben moeite Rusland als dader te benoemen.",
-    "Russische inmenging gaat terug tot de Ochrana, de Tsjeka en de KGB, onder meer via de Protocollen van de Wijzen van Sion.",
-    "In de Koude Oorlog probeerde Moskou de vredesbeweging te manipuleren, maar IKV en Pax Christi boden grotendeels weerstand.",
-    "Het begrip 'nuttige idioten' beschrijft goedbedoelende mensen die zich laten misbruiken.",
-    "Nu loopt Russisch geld naar rechtse en conservatief-religieuze organisaties en partijen in Europa.",
-    "Doel is polarisatie en het verzwakken van vertrouwen en weerbaarheid.",
-    "Wie zich dissident voelt, moet oppassen voor kwetsbaarheid, maar standpunten zijn niet per se verdacht.",
-    "Rusland presenteert zich als 'derde Rome' en verdediger van het christendom tegen het decadente Westen."
+    "Mysterieuze drones boven België en andere Europese locaties tonen een brutale Russische provocatie die als proef voor militaire reacties dient.",
+    "Beatrice de Graaf stelt dat Europese politici Russische agressie vaak downplayen, mede door ideologische nabijheid van rechts-nationalistische partijen.",
+    "Russische inmenging bestaat al sinds het tsarenrijk; de Ochrana verspreidde de vervalste Protocollen van de Wijzen van Sion.",
+    "In de Koude Oorlog probeerde de Sovjet-Unie de Nederlandse vredesbeweging te manipuleren, maar het IKV en de kerken boden grotendeels weerstand.",
+    "De term 'nuttige idioten' is mogelijk niet van Lenin afkomstig, maar beschrijft wel het risico van naïeve medewerking aan Russische agendas.",
+    "Russische geldstromen lopen via stichtingen en mantelorganisaties naar conservatief-christelijke en rechts-nationalistische groepen in Europa.",
+    "Beide gasten waarschuwen dat kritiek op bijvoorbeeld abortus of gender legitiem is en niet automatisch Russisch gestuurd; het risico ligt in ressentiment en wantrouwen.",
+    "Het Russische narratief presenteert Rusland als verdediger van een 'echt' traditioneel christendom, terwijl Poetin het Westen als verwijfd en decadent neerzet.",
+    "Het idee van de vijfde kolonne kent een lange geschiedenis, maar past niet altijd; morele paniek moet worden vermeden.",
+    "De oplossing ligt in morele en mentale weerbaarheid: open media, democratische meerstemmigheid en onderlinge saamhorigheid, ook binnen de kerk."
   ],
   "chapters": [
     {
-      "start_seconds": 28,
+      "start_seconds": 0,
+      "title": "Intro en aanleiding",
+      "summary": "David Boogerd introduceert het onderwerp en de gasten, en verwijst naar Beatrice de Graaf's column 'De Russen zijn er al'."
+    },
+    {
+      "start_seconds": 147,
       "title": "De drones boven België",
-      "summary": "Aanleiding is Beatrices NRC-column over de drones en de aarzeling om Rusland te benoemen."
-    },
-    {
-      "start_seconds": 420,
-      "title": "Waarom het ertoe doet",
-      "summary": "Over de omvang van Russische operaties: moordaanslagen, sabotage en brandstichting."
-    },
-    {
-      "start_seconds": 605,
-      "title": "Persoonlijke achtergrond en bijbelsmokkel",
-      "summary": "Paas vertelt over zijn vader bij de inlichtingendienst en de bijbelsmokkel."
+      "summary": "Beatrice beschrijft de militaire drones boven België en de verschillende reacties van politici, van downplaying tot erkenning van Russische schuld."
     },
     {
       "start_seconds": 735,
-      "title": "150 jaar Russische inmenging",
-      "summary": "Van Ochrana en Protocollen tot Tsjeka en actieve maatregelen."
+      "title": "Russische inmenging door de eeuwen heen",
+      "summary": "Van het tsarenrijk en de Ochrana tot de Protocollen van de Wijzen van Sion en de Tsjeka: een historisch overzicht van Russische desinformatie."
     },
     {
-      "start_seconds": 1020,
-      "title": "Vredesbeweging en nuttige idioten",
-      "summary": "Hoe Moskou de vredesbeweging probeerde te beïnvloeden en waar de term vandaan komt."
-    },
-    {
-      "start_seconds": 1395,
-      "title": "Spionnen en hybride oorlog",
-      "summary": "Illegals, drones als testoperatie en de Primakov-doctrine."
+      "start_seconds": 1016,
+      "title": "Koude Oorlog en vredesbeweging",
+      "summary": "De Sovjet-Unie probeerde de Nederlandse vredesbeweging en kerken te beïnvloeden; Beatrice vertelt over de Stasi-frontorganisaties en het verzet dat er toch was."
     },
     {
       "start_seconds": 1825,
-      "title": "Cultureel en politiek beïnvloeden",
-      "summary": "Financiering van rechtse partijen en organisaties en het streven naar polarisatie."
+      "title": "Moderne beïnvloeding en financiering",
+      "summary": "Over Russische geldstromen naar rechts-nationalistische partijen, de Ibiza-affaire, de Primakov-doctrine en de rol van Trump en Musk."
     },
     {
       "start_seconds": 2413,
-      "title": "Rusland als derde Rome",
-      "summary": "Het christelijke narratief van Moskou tegenover het 'verwijfde' Westen."
+      "title": "Christelijk rechts en het Russische religieuze verhaal",
+      "summary": "Rusland positioneert zich als verdediger van het traditionele christendom; de gasten bespreken hoe Amerikaanse evangelicals en Europese christenen hierin meegaan."
+    },
+    {
+      "start_seconds": 2944,
+      "title": "Vijfde kolonne en morele paniek",
+      "summary": "De geschiedenis van de term vijfde kolonne wordt toegelicht, met de waarschuwing dat niet alles automatisch Russisch is."
+    },
+    {
+      "start_seconds": 3399,
+      "title": "Weerbaarheid en slot",
+      "summary": "De gasten pleiten voor morele en mentale weerbaarheid, vastberadenheid en saamhorigheid, met de christelijke traditie als inspiratiebron."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1112,
+      "start_seconds": 531,
       "speaker": "Beatrice de Graaf",
-      "text": "Die vredesactivisten werden door de Russen niet als nuttige idioten gezien, maar als vijanden.",
-      "note": "Doorbreekt het gangbare beeld over de vredesbeweging."
+      "text": "Het is een enorm risico dat de Russen nemen, dat alle mores en allerlei vormen van buitenlandse politiek en militaire politiek schendt.",
+      "note": "Laat zien hoe ver Rusland gaat, van drones tot moordaanslagen en explosieven in pakketvliegtuigen."
     },
     {
-      "start_seconds": 1392,
+      "start_seconds": 2229,
+      "speaker": "Beatrice de Graaf",
+      "text": "Wat de Russen heel goed doen, is het kapotmaken van de integriteit en de reputatie van mensen.",
+      "note": "Desinformatie richt zich minder op feiten dan op het ondermijnen van vertrouwen in personen en instituties."
+    },
+    {
+      "start_seconds": 2798,
+      "speaker": "Beatrice de Graaf",
+      "text": "Christenen die zich in een belegerd, eenzaam en bedreigd gevoel bevinden, moeten zich afvragen wat ze eigenlijk verdedigen en met wie ze strijdmakkers zijn.",
+      "note": "Een oproep om een siege mentality te doorbreken en verantwoordelijkheid te nemen voor de samenleving."
+    },
+    {
+      "start_seconds": 2872,
       "speaker": "Stefan Paas",
-      "text": "Wie zijn de nuttige idioten van nu?",
-      "note": "Slaat de brug van geschiedenis naar heden."
+      "text": "Het was eigenlijk nooit zo goed, hoor, ook in het verleden niet. Leren een minderheid te zijn is een kunst.",
+      "note": "Een tegenwicht tegen nostalgie en ressentiment, met een christelijke invalshoek."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 3194,
       "speaker": "Beatrice de Graaf",
-      "text": "De Protocollen van de Wijzen van Sion waren een uitvinding van de Russische politie.",
-      "note": "Toont hoe hardnekkig een desinformatiemythe kan zijn."
+      "text": "De twijfel op zichzelf is het doel van de Russen.",
+      "note": "Verklaart de werking van 'flooding the zone with falsehood': niet overtuigen, maar onzeker maken."
     },
     {
-      "start_seconds": 1415,
-      "speaker": "Stefan Paas",
-      "text": "Sleeper cells: kinderen die niet wisten dat hun ouders Russen waren werden door Poetin in het Spaans begroet.",
-      "note": "Opvallend beeld van Russische spionagepraktijken."
-    },
-    {
-      "start_seconds": 2380,
+      "start_seconds": 3542,
       "speaker": "Beatrice de Graaf",
-      "text": "Vruchten van de geest zijn zachtmoedigheid en lankmoedigheid: waar draag je aan bij?",
-      "note": "Christelijke toets voor omgang met onvrede en ressentiment."
+      "text": "Elke keer als het Westen harder terugduwt, durft Poetin niets terug te doen; het is als een pestkop die je terugduwt.",
+      "note": "Een opvallend standpunt over afschrikking en escalatie als strategie."
     }
   ],
   "keywords": [
     "Russische inmenging",
     "drones",
-    "hybride oorlog",
     "desinformatie",
-    "nuttige idioot",
-    "Protocollen van de Wijzen van Sion",
     "Koude Oorlog",
-    "polarisatie",
+    "vijfde kolonne",
+    "Protocollen van de Wijzen van Sion",
+    "bijbelsmokkel",
+    "hybride oorlog",
+    "rechts-nationalisme",
+    "christelijk rechts",
     "weerbaarheid",
-    "derde Rome",
-    "Primakov-doctrine",
-    "bijbelsmokkel"
+    "Poetin"
   ],
   "quotes": [
-    "De Russen zijn er al, maar waar zijn wíj?",
-    "Rusland voert niet alleen oorlog met wapens, maar ook met verhalen - cultureel, politiek en zelfs religieus."
+    "\"De Russen zijn er al,\" schrijft historicus Beatrice de Graaf in NRC. \"Maar waar zijn wíj?\"",
+    "Rusland voert niet alleen oorlog met wapens, maar ook met verhalen - cultureel, politiek en zelfs religieus.",
+    "Kunnen we Rusland wel aan? En hoe stevig staan wij zelf eigenlijk in onze schoenen?"
   ],
   "similar": [
     {
-      "n": 326,
-      "reason": "Russische dreiging, drones en weerbaarheid van Nederland en Europa in een mogelijke oorlog"
-    },
-    {
       "n": 317,
-      "reason": "Beatrice de Graaf over Poetin, religie als machtsmiddel en relieken in geopolitiek"
-    },
-    {
-      "n": 259,
-      "reason": "Kwetsbaarheid van Nederland door verschuivende machtsbalans, met Beatrice de Graaf en veiligheidsdreiging"
-    },
-    {
-      "n": 230,
-      "reason": "Poetin en Trump spelen Europa uit elkaar; Rusland en Westerse weerbaarheid"
+      "reason": "Beatrice de Graaf over geopolitiek, Poetin en de religieuze instrumentalisering van macht"
     },
     {
       "n": 284,
-      "reason": "Beatrice de Graaf en Stefan Paas over machtspolitiek, Poetin en Europa"
+      "reason": "Brute machtspolitiek, Poetin, Trump en de kwetsbare positie van Europa"
+    },
+    {
+      "n": 326,
+      "reason": "Nederlandse weerbaarheid tegen Rusland, hybride dreiging en een zwakke Westerse verhaallijn"
+    },
+    {
+      "n": 309,
+      "reason": "Poetin en andere sterke mannen als dreiging voor Europese waarden en orde"
+    },
+    {
+      "n": 153,
+      "reason": "Rusland, de oorlog in Oekraïne en de rol van religie en kerk in Rusland"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

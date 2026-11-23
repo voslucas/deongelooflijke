@@ -1,308 +1,358 @@
 {
   "episode": 60,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 123384,
+    "segments": 1275,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31058,
-    "output_tokens": 2947,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 63392,
+    "output_tokens": 4025,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "God & geloof",
-    "Islam & jodendom",
-    "Zingeving & psyche"
+    "Zingeving & psyche",
+    "Filosofie & ethiek",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Jason Walters",
-      "note": "voormalig lid van de Hofstadgroep en oud-student van Beatrice de Graaf",
-      "start_seconds": 768,
-      "wiki_checked": true,
-      "wiki_pageid": 509934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jason_Walters"
+      "name": "Beatrice de Graaf",
+      "note": "historicus en terrorismedeskundige, gast en auteur van Radicale Verlossing",
+      "start_seconds": 3,
+      "mention_count": 30
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 4,
+      "mention_count": 3
     },
     {
       "name": "Dan McAdams",
-      "note": "Amerikaanse sociaal psycholoog, onderzoeker van verlossingsverhalen (sequences of redemption)",
-      "start_seconds": 921,
-      "wiki_checked": true
+      "note": "Amerikaanse sociaal psycholoog die 'redemptive' levensverhalen onderzoekt",
+      "start_seconds": 939,
+      "mention_count": 3
     },
     {
-      "name": "Napoleon Bonaparte",
-      "note": "voorbeeld van een historische acteur die serieus genomen moet worden",
-      "start_seconds": 283,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "name": "Bobby Sands",
+      "note": "IRA-hongerstaker, als katholieke martelaar vereeuwigd",
+      "start_seconds": 1281,
+      "mention_count": 2
     },
     {
-      "name": "Theo van Gogh",
-      "note": "vermoord in 2004; aanleiding voor De Graafs terrorismeonderzoek",
-      "start_seconds": 178,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
+      "name": "Jason Walters",
+      "note": "voormalig Hofstadgroep-terrorist, oud-student van De Graaf",
+      "start_seconds": 772,
+      "mention_count": 4
+    },
+    {
+      "name": "Abdullah Azzam",
+      "note": "ideoloog van het vroege jihadisme, schreef over wonderverhalen",
+      "start_seconds": 2181,
+      "mention_count": 2
     },
     {
       "name": "Brenton Tarrant",
-      "note": "aanslagpleger in Christchurch, Nieuw-Zeeland",
+      "note": "aanslagpleger Christchurch, wilde punten halen in game-achtige aanslag",
       "start_seconds": 1905,
-      "wiki_checked": true
-    },
-    {
-      "name": "Ulrike Meinhof",
-      "note": "lid van de Rote Armee Fraktion, worstelde met schuld",
-      "start_seconds": 1839,
-      "wiki_checked": true,
-      "wiki_pageid": 95035,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ulrike_Meinhof",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ulrike_Meinhof_als_junge_Journalistin_%28retuschiert%29.jpg/250px-Ulrike_Meinhof_als_junge_Journalistin_%28retuschiert%29.jpg"
-    },
-    {
-      "name": "Andreas Baader",
-      "note": "RAF-lid, volgens De Graaf vooral een crimineel",
-      "start_seconds": 1835,
-      "wiki_checked": true,
-      "wiki_pageid": 647702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andreas_Baader",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Baader_Ensslin_Raspe_3.JPG/250px-Baader_Ensslin_Raspe_3.JPG"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "verlosser-figuur van het Duitse volk",
-      "start_seconds": 1784,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Timothy McVeigh",
-      "note": "Amerikaanse terrorist (Oklahoma City)",
-      "start_seconds": 1067,
-      "wiki_checked": true,
-      "wiki_pageid": 47432,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Timothy_McVeigh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Timothy_McVeigh_FBI_mugshot.jpg/250px-Timothy_McVeigh_FBI_mugshot.jpg"
-    },
-    {
-      "name": "Karl Marx",
-      "note": "genoemd in de tegenstelling tussen Marx en Hegel",
-      "start_seconds": 573,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "genoemd in de tegenstelling tussen ideeën en economische factoren",
-      "start_seconds": 573,
-      "wiki_checked": true,
-      "wiki_pageid": 16725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/250px-Hegel_portrait_by_Schlesinger_1831.jpg"
-    },
-    {
-      "name": "Kees van den Bos",
-      "note": "sociaal psycholoog en collega van Beatrice de Graaf",
-      "start_seconds": 1338,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Andreas Kouwenhoven",
-      "note": "NRC-journalist, maakte de reportage over de Paradijspoort-jongeren",
+      "note": "NOS-journalist, reportage over Paradijspoort-jongeren",
       "start_seconds": 1248,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Oprah Winfrey",
-      "note": "genoemd als voorbeeld van het verlossingsnarratief",
-      "start_seconds": 970,
-      "wiki_checked": true,
-      "wiki_pageid": 38975,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oprah_Winfrey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg/250px-Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg"
+      "name": "Ulrike Meinhof",
+      "note": "RAF-terrorist die worstelde met schuldgevoel",
+      "start_seconds": 1839,
+      "mention_count": 1
     },
     {
-      "name": "Abu Hamza al-Masri",
-      "note": "niet genoemd",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "name": "Napoleon",
+      "note": "historische figuur als voorbeeld van serieus nemen van historische actoren",
+      "start_seconds": 263,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van den Bosch",
+      "note": "sociaal psycholoog, collega van De Graaf",
+      "start_seconds": 1370,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicky Sterkenburg",
+      "note": "auteur van 'Maar dat mag je niet zeggen' over rechts-extremisme",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus, zegt dat de mens fundamenteel deugt",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Mohammed VI",
+      "note": "koning van Marokko die het kalifaat afwees",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrike Meinhof",
+      "note": "RAF-terrorist",
+      "start_seconds": 1839,
+      "mention_count": 1
+    },
+    {
+      "name": "Timothy McVeigh",
+      "note": "Amerikaanse terrorist, geciteerd in tijdschriften van extremisten",
+      "start_seconds": 1067,
+      "mention_count": 1
+    },
+    {
+      "name": "Naila",
+      "note": "vrouwelijke Syriëgangster die over teleurstelling in het kalifaat sprak",
+      "start_seconds": 2370,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Bavinck",
+      "note": "Nederlandse theoloog, besproken als biografie-tip",
+      "start_seconds": 3990,
+      "mention_count": 2
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "Nederlandse theoloog en premier, biografie besproken",
+      "start_seconds": 3975,
+      "mention_count": 2
+    },
+    {
+      "name": "Anders Breivik",
+      "note": "Noorse terrorist, manifest wordt nog gelezen",
+      "start_seconds": 3173,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader, terloops genoemd",
+      "start_seconds": 287,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Radicale Verlossing",
       "author": "Beatrice de Graaf",
-      "note": "nieuw boek over wat terroristen echt geloven, gebaseerd op gesprekken met 23 veroordeelde terroristen",
-      "start_seconds": 157,
-      "volume_id": "u9IwEAAAQBAJ",
-      "canonical_title": "Radicale verlossing",
+      "note": "nieuw boek van De Graaf over terroristen en verlossing",
+      "start_seconds": 37,
+      "volume_id": "aCfRzQEACAAJ",
+      "canonical_title": "Radicale verlossing. Wat terroristen geloven",
       "canonical_author": "Beatrice de Graaf",
-      "isbn13": "9789044646580",
-      "isbn10": "9044646583",
-      "thumbnail": "http://books.google.com/books/content?id=u9IwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044646573",
+      "isbn10": "9044646575",
+      "thumbnail": ""
     },
     {
-      "title": "Gevaarlijke Vrouwen",
-      "author": "Beatrice de Graaf",
-      "note": "eerder boek waarvoor zij terroristen sprak",
-      "start_seconds": 622,
-      "volume_id": "OgtbzgEACAAJ",
-      "canonical_title": "Gevaarlijke vrouwen: tien militante vrouwen in het vizier",
-      "canonical_author": "Beatrice de Graaf",
-      "isbn13": "9789461272645",
-      "isbn10": "9461272642",
-      "thumbnail": ""
+      "title": "Schoonheid is een vloek",
+      "author": "Eka Kurniawan",
+      "note": "Indonesische roman over Dewi Ayu, door De Graaf aanbevolen",
+      "start_seconds": 4080,
+      "volume_id": "YEvVCgAAQBAJ",
+      "canonical_title": "Schoonheid is een vloek",
+      "canonical_author": "Eka Kurniawan",
+      "isbn13": "9789048830336",
+      "isbn10": "9048830338",
+      "thumbnail": "http://books.google.com/books/content?id=YEvVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Bullies and Saints",
+      "author": "John Dixon",
+      "note": "tweeduizend jaar christelijke geschiedenis, inclusief zwarte bladzijden",
+      "start_seconds": 3540,
+      "volume_id": "b_YIEAAAQBAJ",
+      "canonical_title": "Bullies and Saints: An Honest Look at the Good and Evil of Christian History",
+      "canonical_author": "John Dickson",
+      "isbn13": "9780310118374",
+      "isbn10": "0310118379",
+      "thumbnail": "http://books.google.com/books/content?id=b_YIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Critical biography van Herman Bavinck",
+      "author": "James Eglinton",
+      "note": "dikke kritische biografie, door Stefan Paas meegenomen op vakantie",
+      "start_seconds": 3990,
+      "volume_id": "LenfDwAAQBAJ",
+      "canonical_title": "Bavinck: A Critical Biography",
+      "canonical_author": "James Eglinton",
+      "isbn13": "9781493420599",
+      "isbn10": "1493420593",
+      "thumbnail": "http://books.google.com/books/content?id=LenfDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "2 Corinthiërs 11:14",
+      "note": "Satan doet zich voor als engel van het licht, door Paas gebruikt bij dark conversions",
+      "start_seconds": 2640
+    },
+    {
+      "ref": "Jona 4",
+      "note": "Jona-syndroom: profeet die toejuicht dat Ninevé vernietigd wordt",
+      "start_seconds": 3300
+    },
+    {
+      "ref": "Mattheus 5:44",
+      "note": "'heb uw vijanden lief', besproken in relatie tot toewijding aan een grote zaak",
+      "start_seconds": 3740
+    }
+  ],
   "places": [
     "Baambrugge",
-    "Birmingham",
-    "Syrië",
-    "Irak",
     "Delft",
-    "Vught",
-    "Nieuw-Zeeland",
-    "Halle",
-    "Turkije",
-    "Duisburg"
+    "Birmingham",
+    "Utrecht",
+    "Atlanta",
+    "Indonesië",
+    "Syrië",
+    "Amsterdam",
+    "Duisburg",
+    "Edinburgh",
+    "Nieuw-Zeeland"
   ],
-  "summary_tldr": "Beatrice de Graaf bespreekt haar boek Radicale Verlossing, gebaseerd op gesprekken met 23 veroordeelde terroristen in zwaarbeveiligde gevangenissen. Ze laat zien dat gevoelens van schuld, tekort en verlossing in hun levensverhalen centraal staan, zowel bij jihadisten als bij rechts-extremisten en links-revolutionairen. Samen met Stefan Paas bespreekt ze wat religie wel en niet verklaart en waarom de academische wereld die laag lang negeerde.",
+  "summary_tldr": "Historicus Beatrice de Graaf vertelt over haar boek Radicale Verlossing, waarvoor zij gesprekken voerde met tientallen terroristen in Nederlandse gevangenissen. Haar bevinding is dat in vrijwel elk levensverhaal een gevoel van tekort, schuld en zonde voorafgaat aan een verlangen naar verlossing, al dan niet religieus gekleurd. Samen met theoloog Stefan Paas bespreekt zij de rol van religie, de risico's van idealisme en wat een seculiere samenleving tegenover jongeren op zoek naar zin kan stellen.",
   "summary_points": [
-    "De Graaf wilde terroristen serieus nemen als historische acteurs en vroeg niet wat ze deden, maar wat ze geloofden.",
-    "Veel academici beschouwen religie bij terroristen als legitimatie achteraf; De Graaf vindt dat religie een eigen laag is naast sociale en psychologische factoren.",
-    "Ze interviewde 23 veroordeelde terroristen op de speciale terroristenafdelingen, vaak tegen aanvankelijke weerstand.",
-    "Ze gebruikt Dan McAdams' concept van 'sequences of redemption': mensen vertellen hun leven als verlossing van schuld of tekort.",
-    "Bij jihadisten begint het verhaal vaak met een gevoel van tekort, schuld of onrecht, soms gekoppeld aan een crimineel verleden.",
-    "IS speelde in op dit verlangen met punten (hazanat), zodat een gameachtig systeem van goede daden ontstond.",
-    "In de islam bestaat geen erfzonde: je kunt en moet jezelf schoonwassen, wat tot geestelijke nood kan leiden.",
-    "Ook seculiere en rechts-extremistische terroristen, zoals de RAF en Brenton Tarrant, kennen schuld, zuivering en verlossing.",
-    "Online radicalisering van de nieuwe generatie verloopt veel sneller en minder theologisch dan bij de Hofstadgroep."
+    "De Graaf sprak met 23 terroristen, veelal in de zwaarbeveiligde terroristenafdeling, om te horen hoe zij zelf over hun geloof en drijfveren praten.",
+    "Het gevoel van tekort, schuld en zonde vormt in bijna elk verhaal het startpunt van radicalisering.",
+    "Het concept van 'sequences of redemption' van Dan McAdams wordt gebruikt om terroristische bekeringsverhalen te analyseren.",
+    "Religie werkt als sociaal kapitaal: gevestigde rituelen en heilige teksten maken een beweging aantrekkelijker, zoals bij jihadisme en de IRA.",
+    "Online radicalisering via games-achtige puntensystemen (hasanat) en filmpjes maakt bekering snel en instantaan.",
+    "Veel uitreizigers kwamen teleurgesteld terug; het verlossingsverhaal bleek niet waar te maken.",
+    "Paas spreekt over 'dark conversions': bekeringen die naar de hel leiden in plaats van de hemel, met parallellen naar QAnon en complottheorieën.",
+    "Radicalisering vraagt om validatie door een achterban; het wegvallen daarvan ontneemt de verlossingsbeleving.",
+    "Seculiere samenleving biedt jongeren weinig taal voor zonde en schuld; hulpverlening en geestelijke zorg worden als alternatief genoemd.",
+    "Idealisme kan omslaan in liefdeloosheid en vijandschap, wat volgens Paas het gebod om vijanden lief te hebben extra gewicht geeft."
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Opening en aanleiding van het boek",
-      "summary": "David introduceert het boek Radicale Verlossing en de vraag of terroristen religieus gedreven zijn of criminelen zijn."
+      "start_seconds": 0,
+      "title": "Introductie en het boek",
+      "summary": "David Boogerd introduceert het gesprek en het boek Radicale Verlossing over terroristen en hun drijfveren."
     },
     {
-      "start_seconds": 178,
-      "title": "De blinde vlek voor religie",
-      "summary": "De Graaf legt uit hoe haar onderzoek begon en waarom religie als drijfveer in de wetenschap vaak werd genegeerd."
+      "start_seconds": 263,
+      "title": "Historische benadering en gesprekken in de gevangenis",
+      "summary": "De Graaf legt uit waarom zij terroristen zelf wilde spreken en hoe de toegang tot gevangenissen verliep."
     },
     {
-      "start_seconds": 582,
-      "title": "Gesprekken in de gevangenis",
-      "summary": "Hoe ze toegang kreeg tot de terroristenafdelingen en hoe de gedetineerden reageerden."
+      "start_seconds": 939,
+      "title": "Verlossingsverhalen en het tekort",
+      "summary": "Aan de hand van Dan McAdams en de Paradijspoort-jongeren wordt het gevoel van tekort en schuld als startpunt besproken."
     },
     {
-      "start_seconds": 921,
-      "title": "McAdams en verhalen van verlossing",
-      "summary": "Het concept van sequences of redemption als sleutel om levensverhalen van terroristen te begrijpen."
+      "start_seconds": 1800,
+      "title": "Religie, gamification en online radicalisering",
+      "summary": "Het hasanat-puntensysteem, IS-propaganda en de rol van internet in snelle bekering komen aan bod."
     },
     {
-      "start_seconds": 1170,
-      "title": "Schuld, tekort en het puntensysteem",
-      "summary": "Over gevoelens van schuld bij jihadisten, de Paradijspoort-jongeren en de rol van hazanat en gamecultuur."
+      "start_seconds": 2640,
+      "title": "Dark conversions en de vraag naar echte religie",
+      "summary": "Paas en De Graaf discussiëren over bekeringsstructuren, de functie van religie en het demonische dat zich als licht voordoet."
     },
     {
-      "start_seconds": 1640,
-      "title": "Islam, erfzonde en seculiere varianten",
-      "summary": "Verschil tussen protestantse erfzonde en islamitische zelfreiniging, en vergelijkbare patronen bij de RAF en rechts-extremisten."
+      "start_seconds": 3300,
+      "title": "Achterban, seculiere samenleving en idealisme",
+      "summary": "De rol van de achterban, het verschil tussen religieus en seculier extremisme en het risico van idealisme worden besproken."
     },
     {
-      "start_seconds": 1992,
-      "title": "Persoonlijke verhalen van verlossing",
-      "summary": "Voorbeeld van een Syriëganger die zijn tekort wilde goedmaken en verhalen over dromen en engelen."
+      "start_seconds": 3780,
+      "title": "Hulpverlening als antwoord",
+      "summary": "De vraag wat de samenleving jongeren met zingevingsnood kan bieden, leidt naar geestelijke zorg en hulpverlening."
+    },
+    {
+      "start_seconds": 3930,
+      "title": "Boekentips voor de zomer",
+      "summary": "De gasten delen hun leeslijst voor vakantie, van biografieën tot detectives en historische overzichten."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1252,
+      "start_seconds": 2270,
       "speaker": "Beatrice de Graaf",
-      "text": "Nu konden we onze schuld aflossen, nu konden we punten verdienen.",
-      "note": "Toont hoe de Paradijspoort-jongeren hun criminele verleden omzetten in religieuze verlossing."
+      "text": "Van de 23 terroristen die ik sprak, zijn er eigenlijk nog maar twee die nog een beetje overtuigd zijn dat ze het goed hebben gedaan.",
+      "note": "Laat zien hoe ontgoocheld de meeste uitreizigers zijn na terugkeer en hoe het verlossingsverhaal ineenstort."
     },
     {
-      "start_seconds": 1426,
-      "speaker": "Beatrice de Graaf",
-      "text": "Je moet niet kijken naar de orthodoxie, maar naar de orthopraxis.",
-      "note": "Scherpe observatie over hoe geloof werkt in de praktijk, ook bij radicalisering."
+      "start_seconds": 2640,
+      "speaker": "Stefan Paas",
+      "text": "Satan doet zich voor als een engel van het licht; het mooiste en aantrekkelijkste kan ook evil zijn.",
+      "note": "Theologische verklaring voor het verschijnsel dark conversion."
     },
     {
-      "start_seconds": 1620,
+      "start_seconds": 3300,
       "speaker": "Beatrice de Graaf",
-      "text": "Ik wilde in die filmpjes, ik wilde daarbij horen.",
-      "note": "Illustreert de aantrekkingskracht van IS-propaganda op jongeren."
+      "text": "Verlossing moet gevalideerd worden door een achterban. Als die achterban uitblijft, is de daad van verlossing non-existent.",
+      "note": "Verklaart waarom sociale erkenning een sleutelrol speelt in radicalisering."
     },
     {
-      "start_seconds": 1890,
-      "speaker": "Beatrice de Graaf",
-      "text": "Halle-dader zei dat hij Tarrant wilde overtroeven en na afloop dat hij een loser was.",
-      "note": "Laat de gamelogica van rechts-extremistisch geweld zien."
+      "start_seconds": 3780,
+      "speaker": "Stefan Paas",
+      "text": "Een van de grote risico's van toewijding aan een grote goede zaak is dat het liefdeloos wordt.",
+      "note": "Scherpe waarschuwing voor idealisme, ook voor klimaatactivisme."
     },
     {
-      "start_seconds": 2095,
+      "start_seconds": 3640,
       "speaker": "Beatrice de Graaf",
-      "text": "Geloof je als ik zeg dat ik een engel heb gezien?",
-      "note": "Moment waarop gedetineerden De Graaf zelf testen op openheid voor hun geloof."
+      "text": "Ze wilden next level. Het leven is een computerspelletje; ze wilden hogerop, ook geestelijk.",
+      "note": "Verbindt gamecultuur met zoektocht naar zin en status."
     }
   ],
   "keywords": [
-    "terrorisme",
     "radicalisering",
     "verlossing",
-    "schuld",
+    "terrorisme",
+    "schuld en zonde",
+    "dark conversion",
+    "sequences of redemption",
+    "hasanat",
     "jihadisme",
-    "Islamitische Staat",
-    "hazanat",
-    "Hofstadgroep",
-    "Rote Armee Fraktion",
-    "orthopraxis",
-    "online radicalisering",
-    "Radicale Verlossing"
+    "achterban",
+    "seculiere samenleving",
+    "idealisme",
+    "hulpverlening"
   ],
-  "quotes": [],
+  "quotes": [
+    "Dat is dan de enige seculiere oplossing misschien: hulp bij geestelijke nood, hulpverlening, therapie.",
+    "Een van de grote risico's van toewijding aan een grote goede zaak is dat het liefdeloos wordt."
+  ],
   "similar": [
     {
       "n": 10,
-      "reason": "Jason Walters, ex-terrorist, over radicalisering, geloof en verlossing; ook besproken in deze aflevering"
+      "reason": "Gedeelde figuur Jason Walters: van terrorist tot filosoof, thema geopolitiek en religie."
     },
     {
       "n": 43,
-      "reason": "Beatrice de Graaf en Paas over christelijk extremisme en politiek geweld"
+      "reason": "Christelijk extremisme en radicalisering, met Beatrice de Graaf en Stefan Paas."
     },
     {
       "n": 133,
-      "reason": "Rik Peels over extreme opvattingen, fundamentalisme en religie"
+      "reason": "Extreme opvattingen en fundamentalisme, met een filosofische blik op religieuze radicalen."
     },
     {
-      "n": 4,
-      "reason": "Religieus fundamentalisme en islamitische radicalisering"
-    },
-    {
-      "n": 40,
-      "reason": "Imam over islam, radicalisering en extremisme"
+      "n": 37,
+      "reason": "Complottheorieën als nieuwe religie, met De Graaf en Paas over zingeving en radicalisme."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

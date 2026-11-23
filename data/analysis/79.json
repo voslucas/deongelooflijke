@@ -1,18 +1,23 @@
 {
   "episode": 79,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109400,
+    "segments": 1303,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31779,
-    "output_tokens": 2299,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57567,
+    "output_tokens": 3027,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
+    "God & geloof",
     "Kerk & secularisatie",
-    "Geschiedenis",
-    "God & geloof"
+    "Geschiedenis"
   ],
   "guests": [
     "Hubert Smeets",
@@ -20,267 +25,265 @@
   ],
   "people": [
     {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president, put zijn denken uit de religieuze geschiedenis van Rusland",
-      "start_seconds": 9,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Vladimir de Grote",
-      "note": "vorst van Kiev die Rus in 988 liet kerstenen",
+      "name": "Wladimir de Grote",
+      "note": "Kievse vorst die in 988 zich liet dopen; Poetin verwijst naar hem als beginpunt van Rusland",
       "start_seconds": 14,
-      "wiki_checked": true,
-      "wiki_pageid": 464861,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_van_Kiev",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Vladimir_Svyatoslavovich.jpg/250px-Vladimir_Svyatoslavovich.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Dmitri Peskov",
-      "note": "woordvoerder van Poetin, grapte over de rode knop",
-      "start_seconds": 252,
-      "wiki_checked": true,
-      "wiki_pageid": 5637755,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dmitri_Peskov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/A_large_Press_Conference_of_Vladimir_Putin_%282019-12-19%29_28.jpg/250px-A_large_Press_Conference_of_Vladimir_Putin_%282019-12-19%29_28.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russische president; centrale figuur in de analyse van het religieus-historische narratief",
+      "start_seconds": 14,
+      "mention_count": 30
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider die bijbelse retoriek gebruikte in communistische propaganda",
+      "start_seconds": 2490,
+      "mention_count": 3
     },
     {
       "name": "Fjodor Dostojevski",
-      "note": "Russisch schrijver, kampervaring leidde tot katharsis",
-      "start_seconds": 818,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
+      "note": "Russische 19e-eeuwse schrijver; kampervaring en moraal in zijn werk",
+      "start_seconds": 790,
+      "mention_count": 4
     },
     {
-      "name": "Warlam Sjalamov",
-      "note": "schrijver, 17 jaar in de Kolyma-kampen, ervaring van totale ontmenselijking",
-      "start_seconds": 1130,
-      "wiki_checked": true
+      "name": "Varlam Sjalamov",
+      "note": "Russische schrijver die 17 jaar in de Kolyma-kampen zat",
+      "start_seconds": 1180,
+      "mention_count": 1
     },
     {
-      "name": "Friedrich Nietzsche",
-      "note": "sprak over Russisch vitalisme",
-      "start_seconds": 822,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "name": "Patriarch Kiril",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk in Moskou",
+      "start_seconds": 2750,
+      "mention_count": 3
     },
     {
-      "name": "Karl Marx",
-      "note": "Sovjetideologie beriep zich op hem",
-      "start_seconds": 1203,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Michail Gorbatsjov",
-      "note": "laatste Sovjetleider, genoemd bij de jaren 90",
-      "start_seconds": 772,
-      "wiki_checked": true,
-      "wiki_pageid": 1038700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michail_Gorbatsjov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg/250px-Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg"
-    },
-    {
-      "name": "Boris Jeltsin",
-      "note": "Russisch president in de jaren 90",
-      "start_seconds": 772,
-      "wiki_checked": true,
-      "wiki_pageid": 46300,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Jeltsin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg/250px-%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg"
+      "name": "Bartholomeus",
+      "note": "Patriarch van Constantinopel die Oekraïense autocefalie goedkeurde",
+      "start_seconds": 2200,
+      "mention_count": 1
     },
     {
       "name": "Petro Porosjenko",
-      "note": "Oekraïens president die werkte aan de autocefale Oekraïense kerk",
-      "start_seconds": 2244,
-      "wiki_checked": true,
-      "wiki_pageid": 4004977,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Petro_Porosjenko",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/EPP_Congress_Rotterdam_-_Day_1_%2852113152023%29_%28cropped%29.jpeg/250px-EPP_Congress_Rotterdam_-_Day_1_%2852113152023%29_%28cropped%29.jpeg"
+      "note": "Oekraïense president die de kerkscheiding politiek steunde",
+      "start_seconds": 2180,
+      "mention_count": 1
     },
     {
-      "name": "Bartholomeus I",
-      "note": "patriarch van Constantinopel, keurde onafhankelijkheid Oekraïense kerk goed",
-      "start_seconds": 2212,
-      "wiki_checked": true,
-      "wiki_pageid": 691688,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bartholomeus_I_van_Constantinopel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Bartolomew_I.jpg/250px-Bartolomew_I.jpg"
+      "name": "Alexander Men",
+      "note": "Orthodoxe priester en ecumenisch voorman, vermoord",
+      "start_seconds": 3070,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof die het Russische vitalisme bewonderde",
+      "start_seconds": 820,
+      "mention_count": 1
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Amerikaanse president die de Sovjet-Unie 'evil empire' noemde",
+      "start_seconds": 3310,
+      "mention_count": 2
+    },
+    {
+      "name": "Dmitri Peskov",
+      "note": "Woordvoerder van Poetin; grappen over de rode knop",
+      "start_seconds": 270,
+      "mention_count": 1
     },
     {
       "name": "George Orwell",
-      "note": "aangehaald over propaganda",
-      "start_seconds": 1911,
-      "wiki_checked": true,
-      "wiki_pageid": 7028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Orwell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg"
+      "note": "Schrijver; propaganda is altijd een leugen",
+      "start_seconds": 1905,
+      "mention_count": 1
     },
     {
-      "name": "Napoleon Bonaparte",
-      "note": "viel Rusland binnen vanuit het westen",
-      "start_seconds": 915,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "name": "Karl Marx",
+      "note": "Denker wiens ideeën de Sovjet-ideologie vormden",
+      "start_seconds": 1200,
+      "mention_count": 1
     },
     {
-      "name": "Adolf Hitler",
-      "note": "viel Rusland binnen vanuit het westen",
-      "start_seconds": 915,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; vergelijking met evangelicals",
+      "start_seconds": 3365,
+      "mention_count": 1
+    },
+    {
+      "name": "Michail Gorbatsjov",
+      "note": "Sovjetleider die meer godsdienstvrijheid bracht",
+      "start_seconds": 2520,
+      "mention_count": 2
+    },
+    {
+      "name": "Pyotr de Grote",
+      "note": "Tsaar die de staat over de kerk liet domineren",
+      "start_seconds": 3400,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexei Navalny",
+      "note": "Russische oppositieleider, gevangen gezet",
+      "start_seconds": 3770,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [
-    "Rusland",
-    "Oekraïne",
-    "Kiev",
-    "Krim",
-    "Moskou",
-    "Constantinopel",
-    "Sint-Petersburg",
-    "Polen",
-    "West-Oekraïne",
-    "Indonesië",
-    "Dnjepr"
+  "books": [
+    {
+      "title": "De gebroeders Karamazov",
+      "author": "Fjodor Dostojevski",
+      "note": "Citaat over alles dat met elkaar samenhangt",
+      "start_seconds": 3945,
+      "volume_id": "oQarPAAACAAJ",
+      "canonical_title": "Verzamelde werken / 9 De broers Karamazov",
+      "canonical_author": "F.M. Dostojevski",
+      "isbn13": "9789028240407",
+      "isbn10": "9028240403",
+      "thumbnail": "http://books.google.com/books/content?id=oQarPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Kolyma-verhalen",
+      "author": "Varlam Sjalamov",
+      "note": "Kampverhalen als tegenbeeld van Dostojevski",
+      "start_seconds": 1180,
+      "volume_id": "iW1UPwAACAAJ",
+      "canonical_title": "Verhalen uit Kolyma",
+      "canonical_author": "Varlam Sjalamov, Marja Wiebes",
+      "isbn13": "9789057132315",
+      "isbn10": "9057132311",
+      "thumbnail": ""
+    }
   ],
-  "summary_tldr": "David Boogerd spreekt met Hubert Smeets en Katya Tolstaya over de historische en religieuze wortels van het conflict tussen Rusland en Oekraïne. Centraal staan de kerstening van Kiev in 988, het gebruik van geschiedenis en religie als ideologie door Poetin, en de verdeeldheid binnen de orthodoxe kerk.",
+  "bible_refs": [
+    {
+      "ref": "Marcus 3:25",
+      "note": "Stalins leus 'wie niet met ons is, is tegen ons' herkend als bijbelse tekst (Matteüs/Marcus/Lucas)",
+      "start_seconds": 2490
+    }
+  ],
+  "places": [
+    "Kiev",
+    "Sint-Petersburg",
+    "Moskou",
+    "Krim",
+    "Oekraïne",
+    "Wit-Rusland",
+    "Constantinopel",
+    "Amsterdam",
+    "Groningen",
+    "Polen",
+    "Gersonessos"
+  ],
+  "summary_tldr": "Hubert Smeets en Katya Tolstaya analyseren met David Boogerd en Stefan Paas hoe historische en religieuze narratieven het conflict tussen Rusland, Oekraïne en het Westen voeden. Poetin gebruikt de kerstening van Kiev in 988 als legitimatie voor één Russisch volk, terwijl de Russisch-Orthodoxe Kerk historisch sterk verweven is met de staat. Het gesprek eindigt met hoop op politiek burgerschap en genuanceerder denken.",
   "summary_points": [
-    "Poetin ziet Rusland als ontstaan met de doop van Vladimir in Kiev in 988",
-    "Geschiedenis en religie worden gebruikt en herschreven als ideologisch middel, aan beide kanten",
-    "Rusland voelt zich omringd door vijanden en dat voedt de propaganda",
-    "Het communistisch staatsatheïsme liet een moreel vacuüm achter dat nooit is opgevuld",
-    "Het Russische maatschappelijk middenveld ontbreekt grotendeels; de kerk vult dat deels",
-    "De orthodoxe kerk in Oekraïne is versplinterd en Moskou verloor macht door de autocefalie",
-    "Orthodox zijn is voor veel Russen vooral een culturele en identitaire kwestie",
-    "Het verwerken van collectief trauma kost decennia, zoals bij Duitsland"
+    "Poetin gebruikt de doop van Vladimir in 988 als mythe van het ontstaan van Rusland.",
+    "Religie en geschiedenis worden gebruikt als ideologisch middel om het narratief te sacraliseren.",
+    "Sovjetatheïsme liet na de val een moreel en cultureel vacuüm achter dat niet werd opgevuld.",
+    "De Russisch-Orthodoxe Kerk heeft een nauwe, historisch gegroeide band met de staat.",
+    "Oekraïne kent een versnipperd orthodox landschap; het Constantinopel-besluit verzwakte Moskou's macht.",
+    "Religie speelt een opvallende rol in het protest en de identiteit, mede onder jongeren.",
+    "Het gesprek waarschuwt tegen een simplistisch, ongenuanceerd beeld van Rusland als vijand.",
+    "Hoop wordt gezien in politiek staatsburgerschap en lokale geestelijke zorg."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en persoonlijke band met Rusland",
-      "summary": "Introductie van de gasten en hun herinneringen aan angst voor oorlog en hun band met Rusland."
+      "title": "Inleiding en persoonlijke spanning",
+      "summary": "Gasten delen hun ervaringen met de Koude Oorlog en de huidige spanning rond het conflict."
     },
     {
-      "start_seconds": 412,
-      "title": "Waarom Rusland fascinerend is",
-      "summary": "Smeets over de kloof tussen macht en burger en de Russische fixatie op geschiedenis."
+      "start_seconds": 630,
+      "title": "Rusland, Westen en de Russische identiteit",
+      "summary": "Gesprek over Russische identiteit, het ontbreken van civil society en de vijandschap tussen Westen en Rusland."
     },
     {
-      "start_seconds": 772,
-      "title": "Vijandschap tussen Oost en West",
-      "summary": "Over wederzijdse angst, het gevoel van omsingeling en het verschil tussen Sovjet-Unie en Russisch Rijk."
+      "start_seconds": 1440,
+      "title": "Religieuze geschiedenis van Kiev en Poetin",
+      "summary": "De kerstening van 988, het narratief van één volk en het misbruik van geschiedenis door Poetin en Oekraïne."
     },
     {
-      "start_seconds": 1100,
-      "title": "Communisme, moraal en propaganda",
-      "summary": "Hoe staatsatheïsme de ethiek aantastte en hoe propaganda en consumptie samengaan."
+      "start_seconds": 1800,
+      "title": "Communisme en de morele leegte",
+      "summary": "Atheïstische Sovjetideologie, de Russische literatuur als morele spiegel en de gevolgen na 1991."
     },
     {
-      "start_seconds": 1470,
-      "title": "988 en de kerstening van Kiev",
-      "summary": "Het verhaal van Vladimir, Kiev als bakermat en het misbruik van geschiedenis."
+      "start_seconds": 2400,
+      "title": "Kerk, staat en de Oekraïense kerkscheiding",
+      "summary": "Versnippering van de orthodoxie, het Constantinopel-besluit en de relatie tussen kerk en Kremlin."
     },
     {
-      "start_seconds": 2070,
-      "title": "Orthodoxe kerken en religie in Rusland",
-      "summary": "De versnippering van de orthodoxie in Oekraïne en de rol van religie als identiteit."
+      "start_seconds": 2950,
+      "title": "Religie in het huidige Rusland en de Pussy Riot-actie",
+      "summary": "Groei van religie, cultureel orthodoxe identiteit en de symboliek van het protest in de kathedraal."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Theologische rijkdom en hoop",
+      "summary": "Orthodoxe theologie als verrijking voor het Westen en hoop op staatsburgerschap en genuanceerd spreken."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 321,
+      "start_seconds": 2310,
       "speaker": "Katya Tolstaya",
-      "text": "In de jaren 70 kon ik niet inslapen omdat ik bang was voor oorlog, en het is nog nooit zo spannend geweest.",
-      "note": "Persoonlijk en emotioneel moment."
+      "text": "Religie is een uitstekend middel voor ideologie.",
+      "note": "Kernachtige samenvatting van hoe religie politiek wordt ingezet."
     },
     {
-      "start_seconds": 1099,
+      "start_seconds": 1464,
       "speaker": "Hubert Smeets",
       "text": "Het misbruik van de geschiedenis is een vloek onder ons historici.",
-      "note": "Scherpe kritiek op teruggeprojecteerd nationalisme."
+      "note": "Scherpe kritiek op het terugprojecteren van nationalisme op de middeleeuwen."
     },
     {
-      "start_seconds": 1891,
+      "start_seconds": 3600,
       "speaker": "Katya Tolstaya",
-      "text": "Elke propaganda is altijd een leugen, ook al zijn er stukjes van waar.",
-      "note": "Verwijzing naar Orwell."
+      "text": "Het is echt tijd om genuanceerd te kijken; anders stopt je denken.",
+      "note": "Oproep tegen ongenuanceerd discours over Rusland."
     },
     {
-      "start_seconds": 2256,
-      "speaker": "Katya Tolstaya",
-      "text": "Ze zien elkaar niet meer als broeders; het is politiek gedreven vermenging van ideologie en religie.",
-      "note": "Antwoord op de vraag of de kerken elkaar nog als geloofsgenoten zien."
-    },
-    {
-      "start_seconds": 1337,
+      "start_seconds": 3730,
       "speaker": "Hubert Smeets",
-      "text": "Er lag in 1991 een braakliggend landschap in morele, ethische en culturele zin.",
-      "note": "Diagnose van het vacuüm na de Sovjet-Unie."
+      "text": "Rusland is een hoogopgeleid volk; je moet niet neerbuigend zijn.",
+      "note": "Pleidooi om Russen serieus te nemen zonder paternalisme."
     }
   ],
   "keywords": [
+    "Russisch-Orthodoxe Kerk",
+    "Kievse Rus",
     "Poetin",
-    "Oekraïne",
-    "Kiev",
-    "Russisch-orthodoxe kerk",
-    "988",
-    "propaganda",
-    "Sovjet-Unie",
-    "staatsatheïsme",
+    "Doop van Vladimir",
+    "Sovjet-atheïsme",
+    "civil society",
+    "Oekraïense autocefalie",
+    "Russische wereld",
     "Dostojevski",
-    "autocefalie",
-    "Constantinopel",
-    "identiteit"
+    "sacralisatie van geschiedenis"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 82,
-      "reason": "Russisch-orthodoxe kerk, Poetin en de oorlog in Oekraïne"
-    },
-    {
       "n": 153,
-      "reason": "Realitycheck over Rusland, religie en de oorlog in Oekraïne"
+      "reason": "Realitycheck over Rusland en zijn religie, sterk overlappend met het thema van deze aflevering."
     },
     {
-      "n": 317,
-      "reason": "Poetin zet religie en relieken in als wapen in geopolitiek"
+      "n": 82,
+      "reason": "Russisch-Orthodoxe kerk die Poetin steunt; sluit direct aan op de kerk-staat-verhouding."
+    },
+    {
+      "n": 147,
+      "reason": "Oorlog in Oekraïne met aandacht voor kerk en geloof, en geopolitiek."
     },
     {
       "n": 86,
-      "reason": "Oorlog in Oekraïne met apocalyptische en religieuze dimensie"
-    },
-    {
-      "n": 80,
-      "reason": "Oorlog in Europa, Rusland en Oekraïne, geschiedenis en geloof"
+      "reason": "Oorlog in Oekraïne met historische en religieuze duiding van het conflict."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

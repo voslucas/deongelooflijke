@@ -1,126 +1,192 @@
 {
   "episode": 179,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125954,
+    "segments": 1399,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30561,
-    "output_tokens": 2636,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 64008,
+    "output_tokens": 6563,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "Politiek",
-    "Bijbel & Jezus",
-    "Kerk & secularisatie"
+    "God & geloof",
+    "Filosofie & ethiek",
+    "Economie & geld"
   ],
   "guests": [
     "Lousewies van der Laan"
   ],
   "people": [
     {
-      "name": "Lousewies van der Laan",
-      "note": "directeur Transparency International Nederland, oud-partijleider en Tweede Kamerlid D66",
-      "start_seconds": 0,
-      "wiki_checked": true
-    },
-    {
-      "name": "André Rouvoet",
-      "note": "oud-collega die haar 'een gevaarlijke tante' noemde",
-      "start_seconds": 127,
-      "wiki_checked": true
-    },
-    {
-      "name": "Eimert van Middelkoop",
-      "note": "oud-minister van Defensie, noemde haar een 'zombie'",
-      "start_seconds": 188,
-      "wiki_checked": true
-    },
-    {
       "name": "Chrysostomus",
-      "note": "kerkvader uit de vierde eeuw die corruptie beschreef als etterende wonden in de samenleving",
+      "note": "kerkvader uit de vierde eeuw; beschreef corruptie als etterende wonden in de samenleving",
       "start_seconds": 296,
-      "wiki_checked": true
+      "mention_count": 3
+    },
+    {
+      "name": "Rutte",
+      "note": "voormalig premier; zakenlieden zouden via de achterdeur bij hem zijn binnengeleid; declaratiegedrag",
+      "start_seconds": 494,
+      "mention_count": 2
     },
     {
       "name": "Peter R. de Vries",
-      "note": "vermoorde misdaadjournalist",
+      "note": "journalist die vermoord werd; voorbeeld van druk op de rechtsstaat",
       "start_seconds": 553,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Derk Wiersum",
-      "note": "vermoorde advocaat",
+      "note": "advocaat die vermoord werd; voorbeeld van georganiseerde misdaad",
       "start_seconds": 553,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Viktor Orbán",
-      "note": "Hongaarse premier, voorbeeld van aantasting rechtsstaat",
-      "start_seconds": 582,
-      "wiki_checked": true
+      "name": "Orbán",
+      "note": "Hongaars premier; voorbeeld van afbraak van de rechtsstaat",
+      "start_seconds": 580,
+      "mention_count": 2
     },
     {
-      "name": "Mark Rutte",
-      "note": "oud-premier, lobby en declaraties",
-      "start_seconds": 504,
-      "wiki_checked": true
+      "name": "Taghi",
+      "note": "leider van een criminele organisatie; een gemeentemedewerker maakte paspoorten voor zijn organisatie",
+      "start_seconds": 715,
+      "mention_count": 1
     },
     {
       "name": "Cora van Nieuwenhuizen",
-      "note": "oud-minister die lobbyist werd",
-      "start_seconds": 988,
-      "wiki_checked": true
+      "note": "oud-minister die lobbyist werd tijdens haar ministerschap",
+      "start_seconds": 977,
+      "mention_count": 1
     },
     {
       "name": "Joris Luijendijk",
-      "note": "schrijver over de bankierswereld in Londen",
-      "start_seconds": 1037,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gom van Strien",
-      "note": "PVV-senator, kortste informateur ooit",
-      "start_seconds": 1130,
-      "wiki_checked": true
+      "note": "journalist die schreef over de bankierscrisis in de City van Londen",
+      "start_seconds": 1035,
+      "mention_count": 2
     },
     {
       "name": "Pieter Omtzigt",
-      "note": "politicus, nadruk op goed bestuur en openbaarheid",
-      "start_seconds": 1213,
-      "wiki_checked": true
+      "note": "Kamerlid; sterk op openbaarheid van bestuur en lobbyregister",
+      "start_seconds": 1207,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse ex-president, voorbeeld van kiezers die corruptie tolereren",
-      "start_seconds": 1243,
-      "wiki_checked": true
+      "note": "Amerikaanse president; werd genoemd als voorbeeld van corruptie-tolerantie bij kiezers",
+      "start_seconds": 1252,
+      "mention_count": 1
+    },
+    {
+      "name": "Gom van Strien",
+      "note": "PVV-senator; korte informateur, opgevolgd na integriteitskwestie",
+      "start_seconds": 1126,
+      "mention_count": 2
+    },
+    {
+      "name": "Ayn Rand",
+      "note": "schrijfster van individualistische romans; kritisch besproken",
+      "start_seconds": 2435,
+      "mention_count": 2
+    },
+    {
+      "name": "Ellen DeGeneres",
+      "note": "comédienne; voorbeeld van cultuurverandering rond homoseksualiteit in de VS",
+      "start_seconds": 2912,
+      "mention_count": 1
+    },
+    {
+      "name": "Eimert van Middelkoop",
+      "note": "voormalig minister van Defensie; zei dat Van der Laan een zombie was",
+      "start_seconds": 188,
+      "mention_count": 1
+    },
+    {
+      "name": "André Rauwe",
+      "note": "oud-collega in de Tweede Kamer; noemde Van der Laan een gevaarlijke tante",
+      "start_seconds": 127,
+      "mention_count": 1
+    },
+    {
+      "name": "Boris van der Ham",
+      "note": "voormalig voorzitter Humanistisch Verbond; discussie over een humanistische kerk",
+      "start_seconds": 2829,
+      "mention_count": 1
+    },
+    {
+      "name": "Joost Reuzelaars",
+      "note": "predikant van de Remonstrantse kerk in Amsterdam; initiatiefnemer Met het geloof aan tafel",
+      "start_seconds": 3458,
+      "mention_count": 2
+    },
+    {
+      "name": "Sigrid Kaag",
+      "note": "D66-politica; christelijk en actief bij het initiatief Met het geloof aan tafel",
+      "start_seconds": 3482,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Peter Balkenende",
+      "note": "voormalig premier; oprichter van Transparency International Nederland; boek over waarden en normen",
+      "start_seconds": 3968,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Schenneling",
+      "note": "gesprekspartner in eerdere aflevering over neoliberalisme",
+      "start_seconds": 2437,
+      "mention_count": 2
+    },
+    {
+      "name": "Marcel van Roosmalen",
+      "note": "noemde Boogerd de Niek Schilder van Radio 1",
+      "start_seconds": 246,
+      "mention_count": 1
     },
     {
       "name": "Hammurabi",
-      "note": "Babylonische wetgever met anticorruptiewetten",
+      "note": "Babylonische koning; wetboek met strenge maatregelen tegen corruptie en bouwfouten",
       "start_seconds": 1438,
-      "wiki_checked": true
-    },
-    {
-      "name": "C.S. Lewis",
-      "note": "bron van het citaat over integriteit",
-      "start_seconds": 1851,
-      "wiki_checked": true
-    },
-    {
-      "name": "Saïd Taghi",
-      "note": "crimineel waarvoor paspoorten werden gemaakt",
-      "start_seconds": 723,
-      "wiki_checked": true
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "The Fountainhead",
+      "author": "Ayn Rand",
+      "note": "roman over een individualistische architect; besproken als ideologisch voorbeeld",
+      "start_seconds": 2437,
+      "volume_id": "mcyNEAAAQBAJ",
+      "canonical_title": "The Fountainhead (Centennial Edition HC)",
+      "canonical_author": "Ayn Rand",
+      "isbn13": "9780452286757",
+      "isbn10": "0452286751",
+      "thumbnail": "http://books.google.com/books/content?id=mcyNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "note": "roman over individualisme en anti-collectivisme; kritisch besproken",
+      "start_seconds": 2437,
+      "volume_id": "1_aNEAAAQBAJ",
+      "canonical_title": "Atlas Shrugged (Centennial Ed. HC)",
+      "canonical_author": "Ayn Rand",
+      "isbn13": "9780525948926",
+      "isbn10": "0525948929",
+      "thumbnail": "http://books.google.com/books/content?id=1_aNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
   "bible_refs": [
     {
       "ref": "Exodus 23",
-      "note": "rechten van de armen eerbiedigen; steekpenningen maken zienden blind",
-      "start_seconds": 1757
+      "note": "over rechtspraak: niet buigen voor steekpenningen en de armen recht doen",
+      "start_seconds": 1756
     },
     {
       "ref": "Deuteronomium 17",
@@ -129,137 +195,141 @@
     }
   ],
   "places": [
-    "Nederland",
     "Tunesië",
-    "Denemarken",
-    "Finland",
-    "Nieuw-Zeeland",
+    "Groningen",
     "Hongarije",
     "Polen",
-    "Groningen",
     "Den Haag",
-    "Afrika",
     "Saudi-Arabië",
-    "Syrië",
+    "Slovenië",
     "Rusland",
-    "Verenigde Staten",
-    "Goes"
+    "China",
+    "Amerika",
+    "Syrië",
+    "Somalië",
+    "Jemen",
+    "Brazilië",
+    "Italië",
+    "Goes",
+    "Amsterdam",
+    "Utrecht"
   ],
-  "summary_tldr": "Lousewies van der Laan, directeur van Transparency International Nederland, bespreekt waarom Nederland op de corruptie-index is gezakt naar een historisch dieptepunt. Met Stefan Paas verkent ze wat corruptie zegt over de samenleving, waarom vooral protestantse, egalitaire landen weinig corruptie kennen, en waar mensen hun morele kompas vandaan halen.",
+  "summary_tldr": "Lousewies van der Laan, directeur van Transparency International Nederland, bespreekt met David Boogerd en Stefan Paas waarom Nederland op de corruptie-index is gezakt en wat dat zegt over het morele kompas van de samenleving. Het gesprek gaat over de vraag hoe integriteit ontstaat en behouden blijft, ook als niemand kijkt. Ook komt haar eigen geloofsontwikkeling en de relatie tussen het individualisme, het materialisme en de gemeenschapszin aan bod.",
   "summary_points": [
-    "Nederland staat nog 8e maar zakte naar 79 punten, een historisch dieptepunt.",
-    "Corruptie is breder dan steekpenningen: netwerkcorruptie, lobby, sextortion en ondermijning door georganiseerde misdaad.",
-    "Zwakke klokkenluidersbescherming en verwevenheid van politiek en bedrijfsleven zijn belangrijke oorzaken.",
-    "Burgers pikken integriteitskwesties steeds minder, terwijl Den Haag achterloopt.",
-    "Corruptie is wereldwijd de regel: 80% van de wereldbevolking woont in landen onder de 43 punten.",
-    "Protestantisme, egalitarisme, onderwijs en sociale vangnetten correleren met minder corruptie.",
-    "Chrysostomus en de Bijbel zien corruptie als bederf van de samenleving en eisen onomkoopbaarheid.",
-    "Integriteit is het juiste doen als niemand kijkt; je hebt tegenspraak en een moreel kompas nodig."
+    "Corruptie wordt gezien als een thermometer van de samenleving; Chrysostomus beschreef het als etterende wonden",
+    "Nederland staat nog steeds in de top 10 van de corruptie-index, maar is gezakt naar een historisch dieptepunt",
+    "De index meet alleen publieke corruptie; corruptie in de private sector en illegale geldstromen blijven buiten beeld",
+    "Netwerkcorruptie, lobbyisme, en de verwevenheid van onder- en bovenwereld ondermijnen de rechtsstaat",
+    "Protestantse, egalitaire en hoogopgeleide landen scoren relatief goed; corruptie correleert met ongelijkheid en hiërarchie",
+    "Integriteit gaat verder dan niet corrupt zijn: het vraagt om goed handelen als niemand kijkt",
+    "Materialisme, sociale media en competitie werken een moreel kompas tegen",
+    "Gemeenschapszin, kerk en bezinning kunnen een bron van morele oriëntatie zijn",
+    "Van der Laan verwijst naar haar eigen weg van individuele politiek naar meer waarde aan geloof en bezinning"
   ],
   "chapters": [
     {
-      "start_seconds": 42,
-      "title": "Gevaarlijke tante en zombie",
-      "summary": "Kennismaking met Lousewies van der Laan en haar bijnamen uit de politiek."
+      "start_seconds": 0,
+      "title": "Intro en de gevaarlijke tante",
+      "summary": "Kennismaking met Van der Laan, haar rol als D66-politica en de grap over de 'gevaarlijke tante' en 'zombie'."
     },
     {
-      "start_seconds": 265,
-      "title": "Corruptie als ziekte van de samenleving",
-      "summary": "Stefan Paas over Chrysostomus; integriteit betekent heel zijn."
+      "start_seconds": 268,
+      "title": "Corruptie als bederf van de samenleving",
+      "summary": "Stefan Paas duidt corruptie via Chrysostomus als ziekte van de samenleving; Van der Laan wijst op integriteit als breder begrip."
     },
     {
       "start_seconds": 365,
-      "title": "Nederland op de corruptie-index",
-      "summary": "Waarom Nederland zakte: klokkenluiders, lobby, georganiseerde misdaad en rechtsstaat."
+      "title": "Wat meet de corruptie-index?",
+      "summary": "Nederland staat op plaats acht maar is gezakt naar 79 punten; de index meet publieke corruptie en mist de private sector."
     },
     {
-      "start_seconds": 625,
-      "title": "Wat is corruptie eigenlijk?",
-      "summary": "Netwerkcorruptie, kwetsbare ambtenaren en alledaagse verleidingen zoals zelfscankassa's."
+      "start_seconds": 1100,
+      "title": "Lobby, macht en netwerkcorruptie",
+      "summary": "Voorbeelden van lobbyisme, dividendbelasting, Groningen en de invloed van de georganiseerde misdaad op de rechtsstaat."
     },
     {
-      "start_seconds": 970,
-      "title": "Integriteit in Den Haag en bij de kiezer",
-      "summary": "Lobbyen na een ministerschap, Omtzigt, Trump en wat wij voor lief nemen."
+      "start_seconds": 1450,
+      "title": "Protestantse landen en de bijbelse traditie",
+      "summary": "Waarom scoren protestantse landen beter? Verband met egalitaire samenlevingen en de Bijbelse afkeer van steekpenningen."
     },
     {
-      "start_seconds": 1380,
-      "title": "Waarom sommige landen minder corrupt zijn",
-      "summary": "Protestantisme, hiërarchie, onderwijs, gelijkheid en atheïsme als luxe."
+      "start_seconds": 2049,
+      "title": "Materialisme, opvoeding en morele kompas",
+      "summary": "Het succesbeeld van nu, sociale media en competitie onder druk; het belang van waarden en fair play bij kinderen."
     },
     {
-      "start_seconds": 1735,
-      "title": "Bijbel en moreel kompas",
-      "summary": "Bijbelteksten tegen omkoping en het citaat 'wat doe je als niemand kijkt'."
+      "start_seconds": 3247,
+      "title": "Geloof, kerk en de D66-omslag",
+      "summary": "Van der Laan vertelt over haar persoonlijke omslag en waarom ze naar de kerk gaat; ook het initiatief Met het geloof aan tafel komt aan bod."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 16,
+      "start_seconds": 5,
       "speaker": "Lousewies van der Laan",
-      "text": "Jullie hebben de luxe om atheïstisch te zijn, omdat jullie niet corrupt zijn.",
-      "note": "Verrassende omkering over atheïsme als luxe van welvarende landen."
+      "text": "Een Tunesiër zei dat atheïsme een luxe is voor welvarende landen, omdat ze niet corrupt zijn.",
+      "note": "Verrassende observatie dat geloof en moraal in corrupte samenlevingen als 'toezicht' werken."
     },
     {
       "start_seconds": 296,
       "speaker": "Stefan Paas",
-      "text": "Corruptie beschrijft hij als etterende, stinkende wonden in het lichaam van de samenleving.",
-      "note": "Plastisch beeld van Chrysostomus."
-    },
-    {
-      "start_seconds": 602,
-      "speaker": "Lousewies van der Laan",
-      "text": "Een rechtsstaat is een hele mooie tuin; je kunt niet denken dat er nooit onkruid in komt.",
-      "note": "Sterke metafoor voor kwetsbaarheid van de rechtsstaat."
-    },
-    {
-      "start_seconds": 1380,
-      "speaker": "Stefan Paas",
-      "text": "De niet-corrupte landen zijn een beetje als het dorpje van Asterix, omgeven door een zee van corruptie.",
-      "note": "Beeld van hoe uitzonderlijk Nederland is."
+      "text": "Corruptie is een soort etterende, stinkende wond in het lichaam van de samenleving; het toont de ziekte van de samenleving.",
+      "note": "Sterk beeld van Chrysostomus dat de discussie over corruptie een morele dimensie geeft."
     },
     {
       "start_seconds": 1851,
       "speaker": "Lousewies van der Laan",
       "text": "Integriteit is het juiste doen, ook als niemand kijkt.",
-      "note": "Kernzin op het tegeltje voor de Tweede Kamer."
+      "note": "Kernzin die de hele aflevering samenvat; geciteerd naar C.S. Lewis, op een tegeltje van Transparency."
+    },
+    {
+      "start_seconds": 2198,
+      "speaker": "Lousewies van der Laan",
+      "text": "Ik vind het fascinerend dat mensen zichzelf zo probleemloos in de spiegel aankijken terwijl ze verkeerd bezig zijn.",
+      "note": "Laat zien hoe zelfbeeld en gebrek aan tegenspraak corruptie mogelijk maken."
     }
   ],
   "keywords": [
     "corruptie",
     "integriteit",
-    "Transparency International",
-    "moreel kompas",
-    "Chrysostomus",
+    "morele kompas",
     "rechtsstaat",
-    "klokkenluider",
-    "lobby",
+    "lobbyisme",
     "protestantisme",
-    "netwerkcorruptie",
-    "ondermijning",
-    "Pieter Omtzigt"
+    "Chrysostomus",
+    "materialisme",
+    "gemeenschapszin",
+    "Transparency International",
+    "neoliberalisme",
+    "zingeving"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ze werd door christelijke politici ooit 'een gevaarlijke tante genoemd'",
+    "Wat is er aan de hand? Zijn we moreel gezien aan het afglijden, en zo ja, waar komt dat door?",
+    "Hoe belangrijk vinden we het nog om integer, om goed te zijn?"
+  ],
   "similar": [
     {
-      "n": 303,
-      "reason": "Pieter Omtzigt over politiek zonder ziel, integriteit en morele crisis; gedeelde figuur Omtzigt."
+      "n": 149,
+      "reason": "Politiek en wereldbeeld achter Rutte, sterk verwant aan deze aflevering over politieke moraal."
     },
     {
-      "n": 301,
-      "reason": "Paul Frissen over staat, elite en politieke moraal, met Stefan Paas."
+      "n": 291,
+      "reason": "Filosofie en ethiek over liberalisme en vrijheid, raakt aan integriteit en gemeenschapszin."
     },
     {
-      "n": 222,
-      "reason": "Kees van der Staaij over politiek, rechtsstaat en christelijke waarden."
+      "n": 21,
+      "reason": "Liberale leegte, individualisme en samenleving, thema's die hier ook terugkomen."
     },
     {
-      "n": 267,
-      "reason": "Roxane van Iperen over democratie, politiek en onbehagen, met Stefan Paas."
+      "n": 174,
+      "reason": "Economische strijd en onvrede in de samenleving, met Paul Schenderling, die hier wordt genoemd."
     },
     {
-      "n": 156,
-      "reason": "Henri Bontenbal over christendemocratie en politiek, met Stefan Paas."
+      "n": 235,
+      "reason": "Eigenbelang versus naastenliefde en politieke moraal, verwant aan corruptie en integriteit."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

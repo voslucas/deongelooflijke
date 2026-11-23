@@ -1,227 +1,312 @@
 {
   "episode": 283,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 142951,
+    "segments": 1504,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30657,
-    "output_tokens": 2171,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 72893,
+    "output_tokens": 6513,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Gezin & relaties",
-    "Samenleving & migratie",
+    "Bijbel & Jezus",
     "Politiek",
-    "Kerk & secularisatie"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Renate van der Zee"
   ],
   "people": [
     {
+      "name": "Jezus",
+      "note": "Bijbelse figuur; volgens Van der Zee een feminist die vrouwen als gelijken behandelde",
+      "start_seconds": 3976,
+      "mention_count": 9
+    },
+    {
       "name": "Winnie Zorgdrager",
-      "note": "D66-minister van Justitie ten tijde van de opheffing van het bordeelverbod",
+      "note": "D66-minister van Justitie die de legalisering van prostitutie (2000) indiende",
       "start_seconds": 632,
-      "wiki_checked": true,
-      "wiki_pageid": 257190,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winnie_Sorgdrager",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/De_toen_nieuwe_minister_van_justitie%2C_W._Sorgdrager%2C_maakte_op_19_augustus_1994_in_Haarlem_kennis_met_%28nog_even%29_burgemeester_E._Schmitz%2C_die_staatssecretaris_van_justitie_werdt._NL-HlmNHA_54035248_%28cropped%29_1.JPG/250px-thumbnail.jpg"
-    },
-    {
-      "name": "Sander Dekker",
-      "note": "VVD-minister, genoemd bij de liberalisering van de gokmarkt",
-      "start_seconds": 926,
-      "wiki_checked": true,
-      "wiki_pageid": 1244626,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sander_Dekker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Open_Science_%2826206057816%29_%28cropped%29.jpg/250px-Open_Science_%2826206057816%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Saban Baran",
-      "note": "Turkse mensenhandelaar, grootste uitbuitingszaak in Nederland",
-      "start_seconds": 1201,
-      "wiki_checked": true,
-      "wiki_pageid": 1941800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/%C5%9Eaban_Baran"
+      "mention_count": 2
     },
     {
       "name": "Joop van Riezen",
-      "note": "voormalig commissaris van politie, pleitte voor sluiting van de Theemsweg",
-      "start_seconds": 1100,
-      "wiki_checked": true
+      "note": "voormalig politiecommissaris, pleitte voor sluiting van de Theemsweg",
+      "start_seconds": 1065,
+      "mention_count": 2
     },
     {
       "name": "Job Cohen",
-      "note": "voormalig burgemeester van Amsterdam",
-      "start_seconds": 1105,
-      "wiki_checked": true,
-      "wiki_pageid": 27242,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Job_Cohen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Job_Cohen%2C_2010.jpg/250px-Job_Cohen%2C_2010.jpg"
+      "note": "voormalig Amsterdams burgemeester",
+      "start_seconds": 1065,
+      "mention_count": 1
+    },
+    {
+      "name": "Saban Baran",
+      "note": "Turkse mensenhandelaar; zaak uit ca. 2008 over gedwongen prostitutie",
+      "start_seconds": 1201,
+      "mention_count": 3
     },
     {
       "name": "Augustinus",
       "note": "kerkvader die prostitutie als noodzakelijk kwaad zag",
-      "start_seconds": 1815,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "start_seconds": 1816,
+      "mention_count": 2
     },
     {
-      "name": "Harvey Weinstein",
-      "note": "voorbeeld van grensoverschrijdend gedrag en machtsverschil (Me Too)",
-      "start_seconds": 2200,
-      "wiki_checked": true,
-      "wiki_pageid": 4462591,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harvey_Weinstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Harvey_Weinstein_2010_Time_100_Shankbone.jpg/250px-Harvey_Weinstein_2010_Time_100_Shankbone.jpg"
+      "name": "Chrysostomus",
+      "note": "kerkvader die mannen aanspreekt op vernedering van vrouwen door prostitutie",
+      "start_seconds": 4114,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; zijn brief over seksualiteit en prostitutie wordt besproken",
+      "start_seconds": 2807,
+      "mention_count": 3
+    },
+    {
+      "name": "Mohammed",
+      "note": "profeet van de islam; besproken in verband met vrouwenrechten",
+      "start_seconds": 3976,
+      "mention_count": 2
+    },
+    {
+      "name": "Sander Dekker",
+      "note": "VVD-minister; zocht volgens NRC manieren om christelijke coalitiepartners te omzeilen bij gokmarkt",
+      "start_seconds": 926,
+      "mention_count": 2
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "politicus (ChristenUnie) in discussie over seks en prostitutie",
+      "start_seconds": 2714,
+      "mention_count": 1
     },
     {
       "name": "Myrthe Hilkens",
-      "note": "PvdA-politica die het probleem wel zag",
-      "start_seconds": 2617,
-      "wiki_checked": true,
-      "wiki_pageid": 1475208,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Myrthe_Hilkens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/15._Myrthe_Hilkens.jpg/250px-15._Myrthe_Hilkens.jpg"
+      "note": "PvdA-politica die kritisch was op prostitutiebeleid",
+      "start_seconds": 2607,
+      "mention_count": 1
+    },
+    {
+      "name": "Karina Schaapman",
+      "note": "PvdA-politica die het probleem inzag",
+      "start_seconds": 2619,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "burgemeester van Amsterdam; wil prostitutie uit de binnenstad verplaatsen",
+      "start_seconds": 4799,
+      "mention_count": 2
+    },
+    {
+      "name": "Kajsa Ollongren",
+      "note": "D66-minister die zei dat de wet prostitutie veiliger had gemaakt",
+      "start_seconds": 4939,
+      "mention_count": 2
+    },
+    {
+      "name": "Eva Jinek",
+      "note": "presentatrice van talkshow waar Zweedse actrice over prostitutie sprak",
+      "start_seconds": 4939,
+      "mention_count": 1
+    },
+    {
+      "name": "Rick van Lunsen",
+      "note": "seksuoloog die Van der Zee sprak",
+      "start_seconds": 2985,
+      "mention_count": 1
+    },
+    {
+      "name": "Louise Perry",
+      "note": "Britse journalist, auteur van 'Against the Sexual Revolution'",
+      "start_seconds": 5425,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Wolkers",
+      "note": "schrijver van 'Turks fruit', kritisch besproken op male gaze",
+      "start_seconds": 5149,
+      "mention_count": 2
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Turks fruit",
+      "author": "Jan Wolkers",
+      "note": "Van der Zee leest het nu als patriarchaal en kritisch; besproken als onderdeel van de seksuele revolutie",
+      "start_seconds": 5149,
+      "volume_id": "KyJDoAEACAAJ",
+      "canonical_title": "Turks fruit",
+      "canonical_author": "Jan Hendrik Wolkers",
+      "isbn13": "9789038898971",
+      "isbn10": "9038898975",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Johannes 8",
+      "note": "Jezus en de overspelige vrouw: wie zonder zonde is, werpe de eerste steen",
+      "start_seconds": 4053
+    },
+    {
+      "ref": "Lucas 10:38-42",
+      "note": "Maria en Martha: Jezus laat Maria leren, vrouwen in een leerlingrol",
+      "start_seconds": 4068
+    },
+    {
+      "ref": "1 Korintiërs 7:4",
+      "note": "Paulus over het lichaam van de vrouw en de man in het huwelijk, verbonden met een betoog tegen prostitutie",
+      "start_seconds": 2884
+    }
+  ],
   "places": [
-    "Nederland",
     "Amsterdam",
     "De Wallen",
     "Theemsweg",
-    "Oost-Europa",
-    "Hongarije",
-    "Roemenië",
-    "Bulgarije",
+    "Zweden",
+    "Spanje",
+    "Stockholm",
+    "Frankrijk",
     "Oeganda"
   ],
-  "summary_tldr": "Journalist en radicaal feminist Renate van der Zee vertelt waarom zij na jaren onderzoek vindt dat de legalisering van prostitutie in Nederland 25 jaar geleden naïef was. Samen met David Boogerd en Stefan Paas bespreekt ze uitbuiting, het 'grijze gebied' van onvrijwilligheid, de vraag of prostitutie seks of geweld is, en de blinde vlek van links.",
+  "summary_tldr": "Journalist Renate van der Zee betoogt dat de legalisering van prostitutie in Nederland naïef was en dat prostitutie geweld tegen vrouwen is, geen gewoon beroep. Samen met theoloog Stefan Paas bespreekt zij het Zweedse model, de seksuele revolutie, de rol van christenen in het debat en waarom Jezus volgens haar feministisch was.",
   "summary_points": [
-    "In 2000 werd het bordeelverbod opgeheven in de hoop prostitutie schoon en veilig te maken.",
-    "Van der Zee noemt dat naïef: georganiseerde criminaliteit verdwijnt niet door legalisering en er is te weinig opsporingscapaciteit.",
-    "Na open grenzen in Oost-Europa kwamen bendes met vrouwen naar de Wallen en de Theemsweg.",
-    "Tussen de 'happy hooker' en het slachtoffer van mensenhandel zit een groot grijs gebied van gedwongen of gemanipuleerde vrouwen.",
-    "Veel vrouwen hebben traumabehandeling nodig, ook als ze zeggen vrijwillig in de prostitutie te zitten.",
-    "Zij ziet prostitutie niet als seks maar als geweld tegen vrouwen en onderdeel van rape culture.",
-    "Paas bevraagt het verschil tussen pragmatische en principiële bezwaren en speelt advocaat van de duivel.",
-    "Ze vindt dat veel linkse mensen en jonge feministen de problemen niet willen benoemen uit empowerment-ideologie.",
-    "De legalisering vergelijkt Paas met deregulering van de gokmarkt en drugs."
+    "25 jaar legale prostitutie in Nederland: de regulering bleek niet te voorkomen dat uitbuiting en georganiseerde criminaliteit doorgingen",
+    "Van der Zee stelt dat grote groepen prostituees kwetsbaar zijn (armoede, misbruik, verslaving) en dat hun keuze daardoor vaak niet vrij is",
+    "De opening van de grenzen naar Oost-Europa en de Theemsweg tonen volgens haar het falen van het beleid",
+    "Van der Zee ziet prostitutie als onderdeel van rape culture en het idee dat mannen recht hebben op seks",
+    "Het Zweedse model (straffen van kopers, niet van prostituees) wordt besproken; de effecten zijn onduidelijk door gebrek aan onderzoek",
+    "Paas wijst op Spaans onderzoek waarin veel vrouwen geweld, verslaving en pogingen tot uitstap melden",
+    "Het linkse en feministische debat in Nederland wordt volgens Van der Zee gekenmerkt door een blinde vlek voor uitbuiting",
+    "Christenen zijn volgens het gesprek vaak aan Van der Zee's zijde, maar hun motieven zijn gemengd: moraal, seksualiteit in het huwelijk en betrokkenheid bij hulpverlening",
+    "De seksuele revolutie wordt door beide gesprekspartners kritisch bekeken: vrijheid voor mannen, minder ruimte voor vrouwen om nee te zeggen",
+    "Van der Zee ziet Jezus als feminist vanwege zijn houding tegenover vrouwen, zoals in Johannes 8 en het verhaal van Maria en Martha"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en woordkeuze",
-      "summary": "Boogerd introduceert het onderwerp; Van der Zee legt uit waarom ze 'sekswerk' een eufemisme vindt."
+      "title": "Woordkeuze en definitie van prostitutie",
+      "summary": "Van der Zee bekritiseert de term sekswerk en legt uit waarom prostitutie volgens haar geweld tegen vrouwen is."
     },
     {
-      "start_seconds": 240,
-      "title": "De grens van lichamelijke integriteit",
-      "summary": "Het verschil tussen prostitutie en ander zwaar werk, het grijze gebied en trauma."
+      "start_seconds": 621,
+      "title": "De legalisering van 2000",
+      "summary": "De achtergrond van het wetsvoorstel van Winnie Zorgdrager en de vraag waarom het beleid tekortschoot."
     },
     {
-      "start_seconds": 599,
-      "title": "2000: legalisering en naïviteit",
-      "summary": "Het idee achter het opheffen van het bordeelverbod en waarom het volgens Van der Zee misging."
+      "start_seconds": 960,
+      "title": "Naïviteit, de Theemsweg en de grenzen naar Oost-Europa",
+      "summary": "Van der Zee beschrijft hoe georganiseerde criminaliteit de sector overnam en hoe de Theemsweg uitgroeide tot een plek van uitbuiting."
     },
     {
-      "start_seconds": 1000,
-      "title": "Theemsweg, Oost-Europa en Saban Baran",
-      "summary": "Hoe bendes en uitbuiting floreerden binnen het legale systeem."
+      "start_seconds": 1807,
+      "title": "Kerkvaders, Paulus en Jezus als feminist",
+      "summary": "Discussie over Augustinus, het noodzakelijk kwaad en de vraag of het christendom vrouwen beter behandelde dan andere religies."
     },
     {
-      "start_seconds": 1240,
-      "title": "Van der Zee's weg als onderzoeker",
-      "summary": "Haar research bij een opvang voor slachtoffers en gesprekken met allerlei betrokkenen."
+      "start_seconds": 2597,
+      "title": "Waarom christenen aan haar zijde staan",
+      "summary": "Van der Zee vraagt waarom linkse en feministische partijen het probleem niet zien en waarom christenen wel."
     },
     {
-      "start_seconds": 1530,
-      "title": "Happy hookers en seks of geweld",
-      "summary": "Discussie over vrijwilligheid, high class escort en of prostitutie seks is."
+      "start_seconds": 4243,
+      "title": "Het Zweedse model en de praktijk",
+      "summary": "Het Zweedse model van kopersbestraffing wordt besproken, met aandacht voor uitstapprogramma's en het gebrek aan nulmeting."
     },
     {
-      "start_seconds": 2030,
-      "title": "Patriarchaat en de blinde vlek van links",
-      "summary": "Prostitutie als steunpilaar van het patriarchaat en weerstand bij links en jonge feministen."
+      "start_seconds": 5084,
+      "title": "De seksuele revolutie en de tegenbeweging",
+      "summary": "Paas en Van der Zee bespreken of de seksuele revolutie vrouwen heeft gediend en of jongeren conservatiever worden."
+    },
+    {
+      "start_seconds": 5583,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Van der Zee benadrukt dat kwetsbare vrouwen net zo worden beschadigd als anderen; Boogerd kondigt de volgende aflevering aan."
     }
   ],
   "highlights": [
     {
       "start_seconds": 1697,
       "speaker": "Renate van der Zee",
-      "text": "Hoeveel zou een broodje van mijn vlees eigenlijk kosten?",
-      "note": "Schrijnende gedachte van een high class escort."
+      "text": "Een stuk vlees dat wordt verkocht; of je nu achter het raam staat, in high class escort werkt of op straat staat.",
+      "note": "Een escortvrouw beschrijft zichzelf zo, wat de glamour van high class escort ontkracht."
     },
     {
-      "start_seconds": 1938,
+      "start_seconds": 1933,
       "speaker": "Renate van der Zee",
-      "text": "Ik zie prostitutie als geweld tegen vrouwen.",
-      "note": "Scherpe stellingname die ze zelf als confronterend aanmerkt."
+      "text": "Ik zie het als geweld tegen vrouwen.",
+      "note": "Een scherpe en bewust provocerende definitie die het hele debat verschuift."
     },
     {
-      "start_seconds": 1815,
+      "start_seconds": 3118,
       "speaker": "Renate van der Zee",
-      "text": "Vrouwen in de prostitutie zijn ook onze zussen en onze dochters.",
-      "note": "Kritiek op Augustinus' 'noodzakelijk kwaad'."
+      "text": "Het oudste beroep ter wereld is jager-verzamelaar.",
+      "note": "Ze ontmantelt het argument van het 'oudste beroep' met een droge, onverwachte tegenwerping."
     },
     {
-      "start_seconds": 2420,
+      "start_seconds": 5645,
       "speaker": "Renate van der Zee",
-      "text": "Legalisering van prostitutie is extreem ongeëmancipeerd.",
-      "note": "Keert het beeld van Nederland als geëmancipeerd land om."
+      "text": "Hij dacht niet in hiërarchie. Iedereen was voor hem gelijk.",
+      "note": "Haar beschrijving van Jezus als iemand die geen hiërarchie kende, is het kernargument voor haar 'feministische Jezus'."
     },
     {
-      "start_seconds": 2440,
-      "speaker": "Stefan Paas",
-      "text": "Het wordt legaal, dus het wordt schoon.",
-      "note": "Vat de naïviteit achter legalisering samen."
+      "start_seconds": 5084,
+      "speaker": "Renate van der Zee",
+      "text": "Voor vrouwen heeft het niks opgeleverd. De seksuele revolutie.",
+      "note": "Een kritische kijk op de seksuele revolutie die de gangbare progressieve lezing tegenspreekt."
     }
   ],
   "keywords": [
     "prostitutie",
     "legalisering",
-    "bordeelverbod",
-    "mensenhandel",
     "uitbuiting",
+    "mensenhandel",
+    "Zweeds model",
+    "seksuele revolutie",
     "feminisme",
-    "patriarchaat",
+    "Jezus",
+    "kerkvaders",
     "rape culture",
-    "Theemsweg",
-    "sekswerk",
-    "lichamelijke integriteit"
+    "kwetsbaarheid",
+    "femicide"
   ],
-  "quotes": [],
+  "quotes": [
+    "We zijn naïef geweest over prostitutie",
+    "Ze noemt zichzelf 'een radicaal feminist'",
+    "Het zogenoemde 'oudste beroep ter wereld' kun je maar beter goed reguleren"
+  ],
   "similar": [
     {
-      "n": 76,
-      "reason": "Seksuele revolutie, seks en ethiek; Beatrijs Smulders en Cocky Drost over seks en geloof"
+      "n": 39,
+      "reason": "Christendom en vrouwen, feministische kritiek op kerk; gedeelde thema's gezin, relaties en Kerk"
     },
     {
-      "n": 99,
-      "reason": "Seksualiteit, kerk en Bijbel; kijk op seksuele moraal en Jezus"
+      "n": 76,
+      "reason": "Seksuele revolutie en seksualiteit, direct aansluitend bij het prostitutiedebat en de seksuele revolutie"
     },
     {
       "n": 93,
-      "reason": "Beladen ethisch debat over vrouwenlichaam en autonomie, abortus; religie en feminisme"
+      "reason": "Morele ethiek rond lichaam en seksualiteit, met christelijke en politieke dimensies van het debat"
     },
     {
-      "n": 39,
-      "reason": "Is het christendom vrouwonvriendelijk? Feministische blik op Jezus en kerk"
+      "n": 99,
+      "reason": "Seksualiteit en geloof, relaties binnen de kerk, en de rol van Bijbelse teksten"
     },
     {
-      "n": 299,
-      "reason": "Cancelcultuur en genadeloosheid; ook Augustinus-thema's rond moraal"
+      "n": 113,
+      "reason": "Vrijheidsbegrip, Bijbelse invloed en politieke gevolgen van morele ideeën"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

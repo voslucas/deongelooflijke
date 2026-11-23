@@ -1,18 +1,23 @@
 {
   "episode": 176,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107541,
+    "segments": 1356,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31653,
-    "output_tokens": 2251,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56338,
+    "output_tokens": 3229,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
-    "Kunst & cultuur",
-    "Bijbel & Jezus"
+    "Kerk & secularisatie",
+    "Samenleving & migratie",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Franca Treur"
@@ -20,85 +25,143 @@
   "people": [
     {
       "name": "Franca Treur",
-      "note": "schrijver van 'Dorsvloer vol confetti', kerkverlater uit reformatorisch milieu",
+      "note": "schrijver en gast; ontkerkte zich, schrijft over de Bijbel",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 1784653,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franca_Treur",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Franca_Treur.jpg/250px-Franca_Treur.jpg"
+      "mention_count": 1
     },
     {
       "name": "Maarten 't Hart",
-      "note": "schrijver met gereformeerde achtergrond, speelt nog orgel",
-      "start_seconds": 202,
-      "wiki_checked": true,
-      "wiki_pageid": 35393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_%27t_Hart",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Maarten_t_Hart_01.jpg/250px-Maarten_t_Hart_01.jpg"
+      "note": "schrijver over de gereformeerde wereld, speelt orgel in de kerk",
+      "start_seconds": 195,
+      "mention_count": 3
     },
     {
       "name": "Jan Siebelink",
-      "note": "schrijver van 'Knielen op een bed violen'",
-      "start_seconds": 202,
-      "wiki_checked": true,
-      "wiki_pageid": 273692,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Siebelink",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jan_Siebelink_2018.jpg/250px-Jan_Siebelink_2018.jpg"
-    },
-    {
-      "name": "C.S.L. Janse",
-      "note": "socioloog en oud-hoofdredacteur Reformatorisch Dagblad, schreef over sociologisering van identiteit",
-      "start_seconds": 386,
-      "wiki_checked": true
+      "note": "schrijver van een boek over de reformatorische thuislezer-wereld",
+      "start_seconds": 195,
+      "mention_count": 3
     },
     {
       "name": "Jan Wolkers",
-      "note": "schrijver die 'keihard afrekende' met zijn gelovige achtergrond",
-      "start_seconds": 875,
-      "wiki_checked": true,
-      "wiki_pageid": 14051,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Wolkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jan_Wolkers.jpg/250px-Jan_Wolkers.jpg"
+      "note": "schrijver die hard afrekende met religieuze opvoeding",
+      "start_seconds": 874,
+      "mention_count": 1
     },
     {
-      "name": "Thijs van der Brink",
-      "note": "EO-collega die Treur interviewde in Adieu God",
-      "start_seconds": 1731,
-      "wiki_checked": true
+      "name": "Guus Kuijer",
+      "note": "schrijver die moderne mensen in Bijbelverhalen projecteert",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicolaas Matsier",
+      "note": "schrijver van Bijbelnavertellingen",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Thea Beckman",
+      "note": "jeugdschrijfster, genoemd als vergelijking met Guus Kuijer",
+      "start_seconds": 2840,
+      "mention_count": 1
+    },
+    {
+      "name": "Ronald Plasterk",
+      "note": "oud-minister, genoemd als mogelijke gast en toekomstige premier",
+      "start_seconds": 3700,
+      "mention_count": 3
+    },
+    {
+      "name": "Maruschka Veerzandvoort",
+      "note": "hoogleraar arbeid en zingeving",
+      "start_seconds": 2290,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S.L. Janse",
+      "note": "socioloog en voormalig hoofdredacteur Reformatorisch Dagblad",
+      "start_seconds": 386,
+      "mention_count": 1
+    },
+    {
+      "name": "David",
+      "note": "Bijbelse koning, verjaagd door Saul",
+      "start_seconds": 2580,
+      "mention_count": 1
+    },
+    {
+      "name": "Saul",
+      "note": "Bijbelse koning die David wegjaagde",
+      "start_seconds": 2578,
+      "mention_count": 1
+    },
+    {
+      "name": "Thijs van den Brink",
+      "note": "collega van David Boogerd, interviewde Franca Treur",
+      "start_seconds": 1730,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Dorsvloer vol confetti",
       "author": "Franca Treur",
-      "note": "debuutroman over de reformatorische wereld in Zeeland",
-      "start_seconds": 212,
+      "note": "debuutroman over de reformatorische wereld, 15 jaar eerder verschenen",
+      "start_seconds": 30,
       "volume_id": "yJZwHO5wb-gC",
       "canonical_title": "Dorsvloer vol confetti",
       "canonical_author": "Franca Treur",
       "isbn13": "9789044616262",
       "isbn10": "9044616269",
       "thumbnail": "http://books.google.com/books/content?id=yJZwHO5wb-gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Het gebed van de Heer",
+      "author": "",
+      "note": "",
+      "start_seconds": 0,
+      "volume_id": "L2RmAQAACAAJ",
+      "canonical_title": "Het Gebed van de Heer",
+      "canonical_author": "Daphne van Roosendaal, Bas Suijkerbuijk",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Efeziërs 6",
-      "note": "wapenrusting Gods, lied van studentenvereniging Panoplia",
-      "start_seconds": 1502
+      "ref": "Efeze 6",
+      "note": "wapenrusting Gods, aangehaald in het studentenverenigingslied",
+      "start_seconds": 1510
+    },
+    {
+      "ref": "Genesis 9",
+      "note": "verhaal van Noach en de zondvloed",
+      "start_seconds": 2770
+    },
+    {
+      "ref": "Genesis 2",
+      "note": "verhaal van Adam, dat Treur gebruikt in haar Bijbelboek",
+      "start_seconds": 2880
+    },
+    {
+      "ref": "1 Samuël 26",
+      "note": "David die door Saul verjaagd wordt en andere goden moet dienen",
+      "start_seconds": 2580
+    },
+    {
+      "ref": "1 Samuël 17",
+      "note": "David en Goliath, in de kinderbijbel",
+      "start_seconds": 2700
     },
     {
       "ref": "Openbaring 21",
-      "note": "Bijbel eindigt in de stad, het nieuwe Jeruzalem",
-      "start_seconds": 1367
+      "note": "het nieuwe Jeruzalem als eindvisioen, de stad",
+      "start_seconds": 1372
     },
     {
       "ref": "Genesis 11",
-      "note": "torenbouw van Babel als beeld van het stadsleven",
+      "note": "torenbouw van Babel",
       "start_seconds": 1380
     }
   ],
@@ -107,129 +170,137 @@
     "Leiden",
     "Leuven",
     "Amsterdam",
-    "België",
+    "Limburg",
+    "Utrecht",
     "Jeruzalem"
   ],
-  "summary_tldr": "Franca Treur vertelt over haar opvoeding in de reformatorische wereld in Zeeland en haar breuk met het geloof op 9/11. Ze reflecteert nu kritischer op haar ontkering: was die wel zo rationeel, of speelden sociale, psychologische en culturele factoren een grote rol? Met Stefan Paas bespreken ze ook waarom literatuur over de strenge protestantse wereld zo aanspreekt.",
+  "summary_tldr": "Franca Treur, schrijver van 'Dorsvloer vol confetti', vertelt over haar opgroeien in de streng reformatorische wereld in Zeeland en haar ontkering rond 9/11. Ze reflecteert nu kritischer op haar besluit, ziet meer sociale en psychologische factoren, en werkt aan een boek over de Bijbel voor haar zoon. Stefan Paas en David Boogerd bespreken daarbij gemeenschap, ritme en de vraag wat er overblijft na het verlaten van het geloof.",
   "summary_points": [
-    "De revo-zuil is relatief recent; strenge regels en uniformiteit ontstonden pas in de jaren 70-80.",
-    "Door gebrek aan tv en internet was tekst, en dus lezen, centraal in de reformatorische wereld.",
-    "Treur voelt geen trauma of bitterheid over de kerk, wel nostalgie, bijvoorbeeld bij het zingen.",
-    "Haar twijfel begon met de ontdekking dat de Bijbel een door mensen geschreven boek is.",
-    "Ze miste de mystieke ervaring en voelde zich buitengesloten en schijnheilig op bijbelkringen.",
-    "Ze maakte haar ontkering bekend op 9/11, in een moment van paniek en hellevrees.",
-    "Nu, tijdens het schrijven van een boek over de Bijbel, ziet ze ook veel pushfactoren: plattelandscultuur, beperkte rol voor vrouwen en haar liefde voor de stad.",
-    "Paas ziet in haar ontkering een reformatorisch patroon, zwart-wit en rationeel, alleen omgekeerd."
+    "Treur verloor haar geloof op 11 september 2001 en maakte dit bekend aan het bestuur van haar studentenvereniging.",
+    "Ze ziet haar ontkering nu niet meer als puur rationeel maar ook als gevolg van sociale en psychologische pushfactoren.",
+    "De reformatorische zuil met strikte kledingregels en antithese tegen de wereld was de context van haar jeugd.",
+    "Literatuur bood haar toegang tot de niet-christelijke wereld; romans en streekromans waren belangrijk.",
+    "Gemeenschap en rituelen, zoals het zingen, mist ze nu; ze overweegt dit voor haar zoon.",
+    "Paas wijst erop dat ontkerkers vaak een fase van atheïstische literatuur doorlopen om hun wereldbeeld opnieuw op te bouwen.",
+    "Het besef van nihilisme komt bij tijd en wijle op, maar haar werk geeft haar zingeving.",
+    "Ze schrijft een Bijbelboek als introductie voor haar zoon en wil de Bijbel onbevangen lezen.",
+    "Kerkgang vraagt discipline en ritme; verhuizen is volgens een Amerikaans onderzoek de belangrijkste reden van kerkverlating."
   ],
   "chapters": [
     {
-      "start_seconds": 30,
-      "title": "Terug in de kerk",
-      "summary": "Introductie en Treurs verhouding tot kerken, zingen en het label kerkverlater."
+      "start_seconds": 0,
+      "title": "Introductie en kerk als decor",
+      "summary": "Boogerd stelt Treur voor; het gesprek opent in de EO-kapel met vragen over kerkbezoek en zingen."
     },
     {
-      "start_seconds": 202,
-      "title": "Literatuur en de reformatorische wereld",
-      "summary": "Over Hart, Siebelink en waarom boeken over deze wereld aanspreken; de revo-zuil is recent."
+      "start_seconds": 195,
+      "title": "Reformatorische literatuur en de zuil",
+      "summary": "Vergelijking met Hart en Siebelink; de reformatorische zuil en de strikte regels worden besproken."
     },
     {
-      "start_seconds": 465,
-      "title": "Een wereld van tekst",
-      "summary": "Geen tv, weinig radio, wel boeken en lange preken; internet heeft de zuil opengebroken."
+      "start_seconds": 960,
+      "title": "Opgroeien, lezen en de buitenwereld",
+      "summary": "Treur vertelt over afgesloten opvoeding, beperkte media en haar jeugdlectuur."
     },
     {
-      "start_seconds": 875,
-      "title": "Mildheid en nostalgie",
-      "summary": "Geen afrekening in haar boek; jongere generaties kijken milder terug."
+      "start_seconds": 1290,
+      "title": "Het verlies van het geloof en 9/11",
+      "summary": "Treur beschrijft haar twijfels, het dubbele leven en de ontkering op 9/11."
     },
     {
-      "start_seconds": 990,
-      "title": "Twijfel en buitengesloten voelen",
-      "summary": "De Bijbel als mensenboek, bevinding, bijbelkringen en schijnheiligheid."
+      "start_seconds": 1800,
+      "title": "Nihilisme, zingeving en werk",
+      "summary": "Reflectie op wat er overblijft na het loslaten van het geloof, en hoe werk zingeving biedt."
     },
     {
-      "start_seconds": 1245,
-      "title": "Pushfactoren en de stad",
-      "summary": "Platteland, rolmodellen, vrouwenrol en Bijbelse beelden van tuin en stad."
+      "start_seconds": 2580,
+      "title": "Het Bijbelboek voor haar zoon",
+      "summary": "Treur bespreekt haar project over de Bijbel en hoe ze verhalen als Adam en Noach benadert."
     },
     {
-      "start_seconds": 1592,
-      "title": "9/11 en de ontkering",
-      "summary": "De coming-out op 9/11, hellevrees en de vraag hoe rationeel dit was."
+      "start_seconds": 3240,
+      "title": "Gemeenschap, ritme en kerkgang",
+      "summary": "Discussie over het gemis van gemeenschap, zondagsritme en waarom mensen de kerk verlaten."
     },
     {
-      "start_seconds": 1731,
-      "title": "Bevrijding en reflectie",
-      "summary": "Leuven, het zwart-witte reformatorische denken en de structuur van ontkeringsverhalen."
+      "start_seconds": 4200,
+      "title": "Afsluiting en aankondiging Live",
+      "summary": "Vooruitblik op De Ongelooflijke Live met een verrassingsgast, en afronding."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1253,
+      "start_seconds": 1290,
       "speaker": "Franca Treur",
-      "text": "Er waren ook gewoon heel veel pushfactoren.",
-      "note": "Treur nuanceert haar eigen rationele ontkeringsverhaal."
+      "text": "Ik heb altijd gezegd van het was gewoon een rationele beslissing, maar ik zie nu ook pushfactoren.",
+      "note": "Treur relativeert haar eigen verhaal van rationele ontkering."
     },
     {
-      "start_seconds": 1673,
-      "speaker": "Franca Treur",
-      "text": "Als dit heel slecht afloopt, dan weet ik nu wel zeker dat ik naar de hel ga.",
-      "note": "Paniek op 9/11 laat zien hoe diep het geloof nog zat."
-    },
-    {
-      "start_seconds": 1907,
+      "start_seconds": 1750,
       "speaker": "Stefan Paas",
-      "text": "Het is een heel reformatorisch verhaal, alleen maar omgekeerd.",
-      "note": "Scherpe observatie over de structuur van ontkeringsverhalen."
+      "text": "Je kunt de mens wel uit de reformatorische zuil halen, maar de reformatorische zuil niet uit de mens.",
+      "note": "Treffende samenvatting van hoe de opvoeding blijvend doorwerkt."
     },
     {
-      "start_seconds": 1985,
-      "speaker": "Stefan Paas",
-      "text": "De duivel op klompen kun je beter horen aankomen dan de duivel op kousenvoeten.",
-      "note": "Humoristische illustratie van wantrouwen jegens de EO."
-    },
-    {
-      "start_seconds": 1007,
+      "start_seconds": 2220,
       "speaker": "Franca Treur",
-      "text": "Ik voelde me verraden toen ik ontdekte dat de Bijbel een mensenboek was.",
-      "note": "Kern van haar geloofstwijfel."
+      "text": "Het moeilijkste was thuis vertellen.",
+      "note": "Persoonlijk moment over de impact op het gezin."
+    },
+    {
+      "start_seconds": 3000,
+      "speaker": "Stefan Paas",
+      "text": "Het geloof moet echt zijn, alles of niks; misschien breken mensen niet omdat ze te weinig aanleg hebben, maar juist te veel eisen.",
+      "note": "Onverwachte stelling over de standaard van het geloof."
+    },
+    {
+      "start_seconds": 2700,
+      "speaker": "Franca Treur",
+      "text": "Ik zit in een wereld met een persoonlijke God die willekeurig verkiest; daarom was het een bevrijding dat hij er niet was.",
+      "note": "Scherpe beschrijving van het godsbeeld dat ze afwees."
     }
   ],
   "keywords": [
-    "Franca Treur",
     "ontkering",
     "reformatorisch",
-    "Dorsvloer vol confetti",
-    "9/11",
+    "kerkverlating",
     "Bijbel",
-    "bevinding",
-    "secularisatie",
-    "revo-zuil",
-    "platteland",
-    "nostalgie",
-    "literatuur"
+    "zuil",
+    "gemeenschap",
+    "zingeving",
+    "literatuur",
+    "antithese",
+    "predestinatie",
+    "nihilisme",
+    "geloofsopvoeding"
   ],
-  "quotes": [],
+  "quotes": [
+    "Je kunt de mens wel uit de reformatorische zuil halen, maar de reformatorische zuil niet uit de mens.",
+    "Wat is er nog uit te halen voor een ongelovige, wat waardevol is?",
+    "Ik vond het een schrikbeeld, daarom was het zo'n bevrijding dat hij er niet was."
+  ],
   "similar": [
     {
-      "n": 154,
-      "reason": "Schrijver Esther Gerritsen over ongeloof dat niet lukte; literatuur en geloofsbreuk"
-    },
-    {
-      "n": 190,
-      "reason": "Schrijver Christophe Vekeman over weg van atheïsme naar geloof; literair perspectief"
-    },
-    {
-      "n": 51,
-      "reason": "Refo-wereld en secularisatie; hoe reformatorische gemeenschap standhoudt"
-    },
-    {
       "n": 49,
-      "reason": "Afvallige atheïst die twijfelt aan eigen ongeloof; rationaliteit van ontkering"
+      "reason": "Afvallige atheïst die van zijn ongeloof viel; vergelijkbare terugkeer naar geloof"
     },
     {
-      "n": 194,
-      "reason": "Religieverlater Lale Gül over (on)geloof en de macht van de pen"
+      "n": 229,
+      "reason": "Van seculier naar dominee; overeenkomende geloofsomslag en kerkthema's"
+    },
+    {
+      "n": 234,
+      "reason": "Ontsnapping uit streng religieuze gemeenschap; zelfde reformatorische milieu-achtergrond en gemeenschapsthema"
+    },
+    {
+      "n": 253,
+      "reason": "Jongeren die weer gaan geloven; herwaardering van kerk en geloof na verlaten"
+    },
+    {
+      "n": 319,
+      "reason": "Bekering, twijfel en geloofszoektocht; overlap in kerk- en zingevingsthema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

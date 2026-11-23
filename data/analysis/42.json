@@ -1,18 +1,23 @@
 {
   "episode": 42,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93751,
+    "segments": 666,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29500,
-    "output_tokens": 2680,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46227,
+    "output_tokens": 3274,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Samenleving & migratie",
     "Geopolitiek & oorlog",
-    "Politiek"
+    "Samenleving & migratie",
+    "God & geloof"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,135 +25,153 @@
   "people": [
     {
       "name": "Beatrice de Graaf",
-      "note": "historicus, gast en gesprekspartner",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "note": "historicus, gast",
+      "start_seconds": 3,
+      "mention_count": 1
     },
     {
-      "name": "Gert-Jan Segers",
-      "note": "politicus (ChristenUnie), pleitte voor niet terug naar het oude normaal",
-      "start_seconds": 314,
-      "wiki_checked": true
-    },
-    {
-      "name": "Damian de Nies",
-      "note": "psychiater en arts, eerder gast, verwachtte meer geloof door corona",
-      "start_seconds": 529,
-      "wiki_checked": true
-    },
-    {
-      "name": "Lotte Jensen",
-      "note": "historica, onderzoek naar verwerking van watersnoodrampen",
-      "start_seconds": 648,
-      "wiki_checked": true
-    },
-    {
-      "name": "Samuel Cohn",
-      "note": "historicus die schreef over de pest",
-      "start_seconds": 648,
-      "wiki_checked": true
-    },
-    {
-      "name": "Rina Knoeff",
-      "note": "hoogleraar in Groningen, medeonderzoeker",
-      "start_seconds": 648,
-      "wiki_checked": true
-    },
-    {
-      "name": "Katrien Santing",
-      "note": "historica, medeonderzoeker",
-      "start_seconds": 648,
-      "wiki_checked": true
-    },
-    {
-      "name": "Wilhelm Kolkman",
-      "note": "luisteraar die vroeg naar geschriften uit crisistijden",
-      "start_seconds": 1337,
-      "wiki_checked": true
-    },
-    {
-      "name": "Tom Holland",
-      "note": "historicus, auteur van Dominion",
-      "start_seconds": 1355,
-      "wiki_checked": true
-    },
-    {
-      "name": "Abelard",
-      "note": "12e-eeuwse denker, geliefde van Heloïse",
-      "start_seconds": 1379,
-      "wiki_checked": true
-    },
-    {
-      "name": "Heloïse",
-      "note": "12e-eeuwse non en briefschrijfster",
-      "start_seconds": 1379,
-      "wiki_checked": true
-    },
-    {
-      "name": "Emmanuel Macron",
-      "note": "Franse president, kondigde noodmaatregelen aan na aanslagen",
-      "start_seconds": 1952,
-      "wiki_checked": true
-    },
-    {
-      "name": "Samuel Paty",
-      "note": "Franse leraar, vermoord bij aanslag in Conflans",
-      "start_seconds": 1861,
-      "wiki_checked": true
-    },
-    {
-      "name": "Joe Biden",
-      "note": "won de Amerikaanse presidentsverkiezingen",
-      "start_seconds": 2134,
-      "wiki_checked": true
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 32,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "verloor de presidentsverkiezingen",
-      "start_seconds": 2134,
-      "wiki_checked": true
+      "note": "Amerikaanse president, verloor de verkiezingen van 2020",
+      "start_seconds": 1,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president-elect, won de verkiezingen van 2020",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "auteur van Dominion, christendom en westerse waarden",
+      "start_seconds": 1281,
+      "mention_count": 1
+    },
+    {
+      "name": "Heloïse",
+      "note": "12e-eeuwse studente en geliefde van Abelaard, schreef brieven vanuit het klooster",
+      "start_seconds": 1360,
+      "mention_count": 1
+    },
+    {
+      "name": "Abelaard",
+      "note": "12e-eeuwse scholastische denker, geliefde van Heloïse",
+      "start_seconds": 1290,
+      "mention_count": 1
     },
     {
       "name": "Thierry Baudet",
       "note": "leider Forum voor Democratie",
-      "start_seconds": 2229,
-      "wiki_checked": true
+      "start_seconds": 2220,
+      "mention_count": 1
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, doet het goed in de peilingen",
-      "start_seconds": 2260,
-      "wiki_checked": true
+      "note": "PVV-leider, genoemd in peilingen",
+      "start_seconds": 2240,
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "premier, hoog in de peilingen",
-      "start_seconds": 2227,
-      "wiki_checked": true
+      "note": "premier",
+      "start_seconds": 2300,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president, reactie op aanslagen",
+      "start_seconds": 1920,
+      "mention_count": 1
+    },
+    {
+      "name": "George Floyd",
+      "note": "slachtoffer van politiegeweld, aanleiding Black Lives Matter",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Damian de Nies",
+      "note": "psychiater en arts, eerder in podcast",
+      "start_seconds": 528,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "ChristenUnie-politicus",
+      "start_seconds": 360,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Cohn",
+      "note": "historicus die schreef over de pest",
+      "start_seconds": 680,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnon Grunberg",
+      "note": "schrijver, eerder gast",
+      "start_seconds": 3660,
+      "mention_count": 1
+    },
+    {
+      "name": "Leon de Winter",
+      "note": "schrijver, columnist",
+      "start_seconds": 3300,
+      "mention_count": 1
     },
     {
       "name": "Hannah Arendt",
-      "note": "filosofe van het totalitarisme",
-      "start_seconds": 2442,
-      "wiki_checked": true
+      "note": "filosofe, totalitarisme",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "Marquis de Sade",
+      "note": "18e-eeuwse schrijver, filosoof van het moraalloze",
+      "start_seconds": 2800,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Dominion",
       "author": "Tom Holland",
-      "note": "over de invloed van het christendom op het Westen, o.a. Abelard en Heloïse",
-      "start_seconds": 1355,
-      "volume_id": "0Tg0DwAAQBAJ",
-      "canonical_title": "Dominion: The Making of the Western Mind",
+      "note": "over de westerse invloed van het christendom",
+      "start_seconds": 1277,
+      "volume_id": "mPxWzAEACAAJ",
+      "canonical_title": "Dominion: How the Christian Revolution Remade the World",
       "canonical_author": "Tom Holland",
-      "isbn13": "9781408706978",
-      "isbn10": "1408706970",
-      "thumbnail": "http://books.google.com/books/content?id=0Tg0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781541617964",
+      "isbn10": "1541617967",
+      "thumbnail": "http://books.google.com/books/content?id=mPxWzAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Brieven van Abelaard en Heloïse",
+      "author": "Abelaard en Heloïse",
+      "note": "brieven uit de 12e eeuw, voorgelezen als lockdown-tekst",
+      "start_seconds": 1360
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Prediker 1:18",
+      "note": "Kennis vermeerdert smart, aangehaald door Stefan Paas",
+      "start_seconds": 1140
+    },
+    {
+      "ref": "Galaten 3:28",
+      "note": "gelijkwaardigheid, verwijzing naar gelijk voor God (Greek en Jood)",
+      "start_seconds": 2640
+    }
+  ],
   "places": [
+    "Nederland",
     "Utrecht",
     "Groningen",
     "Parijs",
@@ -156,132 +179,140 @@
     "Wenen",
     "Conflans",
     "Dresden",
-    "Engeland",
-    "Verenigde Staten",
     "Enschede",
-    "Kopenhagen"
+    "Verenigde Staten",
+    "Engeland",
+    "Engeland",
+    "Denemarken",
+    "Noorwegen",
+    "Staphorst",
+    "Urk",
+    "Schiphol",
+    "Oekraïne"
   ],
-  "summary_tldr": "David Boogerd, Beatrice de Graaf en Stefan Paas blikken terug op 2020: corona, politiek, radicalisering en de rol van geloof. Beatrice zet de pandemie in historisch perspectief en contrasteert de solidariteit van vroegere eeuwen met de huidige afhankelijkheid van de overheid. Ook bespreken ze jihadistische aanslagen, populisme en moralisering van de politiek.",
+  "summary_tldr": "In de laatste aflevering van 2020 blikken Beatrice de Graaf en Stefan Paas terug op een bijzonder jaar, waarin corona, verkiezingen in de VS, terroristische aanslagen en Black Lives Matter de agenda bepaalden. Het gesprek gaat over hoe samenlevingen historisch met crises omgaan, over de verschuiving van burgers naar consumenten en over de spanning tussen grondrechten en overheidsmaatregelen. Ook de rol van religie, moraal en secularisatie komt uitgebreid aan bod.",
   "summary_points": [
-    "2020 was niet het ergste jaar ooit, maar wel een jaar dat deze generatie zal bijblijven",
-    "Historisch leidden pandemieën tot solidariteit en zelforganisatie in de samenleving",
-    "Tegenwoordig kijkt de consumentensamenleving vooral naar overheid en vaccin",
-    "Het medische paradigma redt levens maar vernietigt het sociale weefsel",
-    "Nog geen duidelijk bewijs dat corona tot meer geloof leidt",
-    "De brieven van Heloïse tonen hoe isolement kan worden omgezet in creativiteit",
-    "Jihadistische aanslagen in Frankrijk en Wenen hadden mogelijk voorkomen kunnen worden",
-    "Politiek wordt steeds meer gemoraliseerd, wat tot sectarisme leidt",
-    "Populisme blijft structureel aanwezig ondanks Bidens overwinning"
+    "2020 wordt gezien als een uitzonderlijk, mogelijk zelfs historisch jaar, al is het volgens De Graaf niet het ergste ooit.",
+    "Historisch gezien organiseerde de samenleving zelf hulp bij pandemieën, tot de centrale natiestaat die taak overnam.",
+    "Samenleving als consumenten wordt gezien als oorzaak van afnemende solidariteit en sterkere afhankelijkheid van de overheid.",
+    "Lockdownmaatregelen worden technocratisch gerechtvaardigd, maar sociaal en cultureel als schadelijk ervaren.",
+    "Radicalisering en sectarisme nemen toe; ook 'corona-radicalisering' en samenzweringsdenken worden besproken.",
+    "De aanslagen in Frankrijk en Wenen laten zien dat inlichtingenwerk en vroegtijdig ingrijpen cruciaal zijn.",
+    "Tom Holland's stelling over de christelijke wortels van westerse moraal wordt besproken en kritisch bevraagd.",
+    "De rechtsstaat en grondrechten, zoals vrijheid van godsdienst en meningsuiting, staan onder druk maar blijven essentieel.",
+    "Historische voorbeelden, zoals Heloïse's brieven, tonen hoe crises ook kunst en reflectie kunnen voortbrengen."
   ],
   "chapters": [
     {
-      "start_seconds": 57,
+      "start_seconds": 0,
       "title": "Was 2020 het ergste jaar ooit?",
-      "summary": "Terugblik en historisch perspectief op de pandemie en de vraag hoe 2020 de geschiedenisboeken ingaat."
+      "summary": "De presentator en gasten bespreken of 2020 historisch uitzonderlijk was, vergeleken met eerdere pandemieën."
     },
     {
-      "start_seconds": 295,
-      "title": "Blijvende verandering of terug naar normaal?",
-      "summary": "Over de grote reset, vertrouwen in de overheid en de gevolgen voor democratie."
+      "start_seconds": 354,
+      "title": "Blijvende veranderingen na corona",
+      "summary": "Discussie over of de crisis structurele veranderingen brengt in consumentengedrag, overheidsvertrouwen en klimaatbeleid."
     },
     {
-      "start_seconds": 529,
-      "title": "Corona en geloof",
-      "summary": "Neemt religie toe in crisistijd? Historisch onderzoek naar pest en cholera en de dodendans."
+      "start_seconds": 528,
+      "title": "Geloof en religie in crisistijd",
+      "summary": "Vraag of corona meer mensen tot geloof brengt, met historische vergelijkingen met de pest en cholera."
     },
     {
-      "start_seconds": 890,
-      "title": "Solidariteit versus overheid",
-      "summary": "Burgers als zelforganiserende gemeenschap versus de moderne technocratische overheid."
-    },
-    {
-      "start_seconds": 1337,
-      "title": "Heloïse en de lockdown van de 12e eeuw",
-      "summary": "Beatrice leest uit de brieven van Heloïse en bespreekt kunst als verwerking van crisis."
+      "start_seconds": 1000,
+      "title": "Solidariteit in de geschiedenis",
+      "summary": "De Graaf beschrijft historische vormen van gemeenschappelijke zorg, zoals danse macabre en burgercommissies in Groningen."
     },
     {
       "start_seconds": 1800,
-      "title": "Radicalisering en terrorisme",
-      "summary": "De aanslagen in Parijs, Nice en Wenen en het toenemende extremisme tijdens corona."
+      "title": "Radicalisering en aanslagen",
+      "summary": "Bespreking van corona-radicalisering, jihadistische aanslagen in Frankrijk en Oostenrijk en de rol van inlichtingendiensten."
     },
     {
-      "start_seconds": 2130,
-      "title": "Populisme, Biden en moralisering",
-      "summary": "Trump, Baudet, Wilders en de moralisering van politiek die tot sectarisme leidt."
+      "start_seconds": 2300,
+      "title": "Verkiezingen, populisme en moraal",
+      "summary": "Analyse van Trump, populisme en het toenemende moraliserende en sectarische politieke debat."
     },
     {
-      "start_seconds": 2490,
-      "title": "Tom Holland en het totalitarisme",
-      "summary": "Overgang naar Tom Holland, Forum voor Democratie en terugkeer van totalitaire patronen."
+      "start_seconds": 2700,
+      "title": "Christelijke wortels en moraal",
+      "summary": "Tom Holland's stelling over het christendom als bron van westerse waarden en de discussie over secularisatie."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Grondrechten en de test van de crisis",
+      "summary": "Over vrijheid van meningsuiting, godsdienst en de rol van kerken tijdens lockdowns, en afsluiting met luisteraarsvragen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 1070,
       "speaker": "Beatrice de Graaf",
-      "text": "We staan in een samenleving die niet meer bestaat uit burgers, maar uit consumenten, die gelooft in de magic bullet van het vaccin.",
-      "note": "Scherpe diagnose van de moderne samenleving."
+      "text": "Een samenleving die niet meer bestaat uit burgers, maar uit consumenten.",
+      "note": "Kernkritiek op de hedendaagse samenleving die afhankelijk is van de overheid."
     },
     {
-      "start_seconds": 772,
+      "start_seconds": 1220,
       "speaker": "Beatrice de Graaf",
-      "text": "In tijden van pest worden mensen niet egoïstisch maar juist solidair.",
-      "note": "Weerlegt een gangbaar idee met historisch onderzoek."
+      "text": "In tijden van pest worden mensen niet egoïstisch, maar juist solidair.",
+      "note": "Tegenbeeld van het gangbare idee dat crisis egoïsme oproept."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 3060,
       "speaker": "Stefan Paas",
-      "text": "Kennis vermeerdert smart, zegt de Bijbel ook.",
-      "note": "Vat de catch-22 van medische maatregelen en sociaal weefsel samen."
+      "text": "Als we alleen nog gedrag en meningen toestaan die goed uitkomen in het huidige beleid, dan heb je een totalitaire staat.",
+      "note": "Scherpe waarschuwing over vrijheid en grondrechten in crisistijd."
     },
     {
-      "start_seconds": 1485,
+      "start_seconds": 2000,
       "speaker": "Beatrice de Graaf",
-      "text": "Heloïse zet haar liefde in om na te denken en de ketenen van het klooster met verbeelding te doorbreken.",
-      "note": "Ontroerend voorbeeld van een lockdown uit de 12e eeuw."
+      "text": "Dus zelfs het dragen van een mondkapje wordt een politiek statement.",
+      "note": "Laat zien hoe moraal en politiek verweven raken."
     },
     {
-      "start_seconds": 2294,
-      "speaker": "Beatrice de Graaf",
-      "text": "We zijn met z'n allen enorm moraliserend geworden, en dat leidt tot politiek sectarisme.",
-      "note": "Duiding van polarisatie aan de hand van een artikel in Science."
+      "start_seconds": 3480,
+      "speaker": "Stefan Paas",
+      "text": "Dat heet nou een bubbel, David.",
+      "note": "Ironische, speelse opmerking die de discussie over kerkdiensten scherp maakt."
     }
   ],
   "keywords": [
-    "Corona",
-    "Pandemie",
-    "Solidariteit",
-    "Overheid",
-    "Radicalisering",
-    "Populisme",
-    "Heloïse",
+    "corona",
+    "solidariteit",
+    "secularisatie",
+    "radicalisering",
+    "grondrechten",
     "Tom Holland",
-    "Dodendans",
-    "Moralisering",
-    "Totalitarisme",
-    "Trump"
+    "Heloïse en Abelaard",
+    "populisme",
+    "moraal",
+    "rechtsstaat",
+    "pandemie",
+    "burgerzin"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 72,
-      "reason": "Terugblik op 2021 met Beatrice de Graaf en Stefan Paas, luisteraarsvragen"
+      "reason": "Ook een terugblik op een bijzonder jaar, met Beatrice de Graaf en Stefan Paas"
+    },
+    {
+      "n": 106,
+      "reason": "Beatrice de Graaf over crises, geschiedenis en geloof, met geopolitieke thema's"
     },
     {
       "n": 25,
-      "reason": "Corona en plagen uit de geschiedenis met De Graaf en Paas"
-    },
-    {
-      "n": 75,
-      "reason": "Einde coronacrisis in historisch perspectief, De Graaf en Paas"
-    },
-    {
-      "n": 120,
-      "reason": "Jaarvooruitblik 2023 met Beatrice de Graaf en Stefan Paas"
+      "reason": "Corona in historisch perspectief met Beatrice de Graaf, zoals in de terugblik"
     },
     {
       "n": 34,
-      "reason": "Rampspoed en corona historisch bekeken, met Lotte Jensen"
+      "reason": "Corona-tijd, historische rampspoed en religie, met Stefan Paas"
+    },
+    {
+      "n": 47,
+      "reason": "Coronacrisis en de gevolgen voor kerk en secularisatie, met Stefan Paas"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

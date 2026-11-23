@@ -1,104 +1,122 @@
 {
   "episode": 126,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107674,
+    "segments": 1228,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31296,
-    "output_tokens": 2412,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56176,
+    "output_tokens": 7116,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Samenleving & migratie",
     "Politiek",
-    "God & geloof"
+    "Kerk & secularisatie",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Sander Schimmelpenninck"
   ],
   "people": [
     {
-      "name": "Thomas Piketty",
-      "note": "econoom, genoemd als voorbeeld van de traditie waarin Sanders pamflet staat",
-      "start_seconds": 895,
-      "wiki_checked": true,
-      "wiki_pageid": 3993723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Piketty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Piketty_in_Cambridge_3_crop.jpg/250px-Piketty_in_Cambridge_3_crop.jpg",
-      "mention_count": 1
-    },
-    {
       "name": "Donald Trump",
-      "note": "Amerikaans oud-president, voorbeeld van winnaarsverhaal en aanhang die tegen eigen belang stemt",
-      "start_seconds": 798,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-      "mention_count": 1
+      "note": "Amerikaanse president; door Sander als voorbeeld van populisme en 'winnaar'-retoriek genoemd",
+      "start_seconds": 787,
+      "mention_count": 4
     },
     {
       "name": "Sigrid Kaag",
-      "note": "politica, genoemd als doelwit van woede richting de politieke elite",
+      "note": "Politica (D66), door Sander genoemd als voorbeeld van de gepercipieerde politieke elite",
       "start_seconds": 732,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg",
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Piketty",
+      "note": "Econoom, auteur over kapitaal en ongelijkheid; referentie in het gesprek",
+      "start_seconds": 882,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Collier",
+      "note": "Britse econoom; genoemd als denker over gezinnen en gemeenschappen",
+      "start_seconds": 2646,
+      "mention_count": 2
+    },
+    {
+      "name": "John Locke",
+      "note": "Liberale filosoof; genoemd over moreel kompas en vertrouwen in burgers",
+      "start_seconds": 2679,
+      "mention_count": 1
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Politicoloog; genoemd als liberaal die vertrouwen in het individu stelt",
+      "start_seconds": 2806,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruben van Zwieten",
+      "note": "Predikant aan de Zuidas; co-auteur van 'Elite gezocht'",
+      "start_seconds": 2251,
+      "mention_count": 5
+    },
+    {
+      "name": "Koning Salomo",
+      "note": "Bijbelse koning, genoemd als voorbeeld van een afgewogen oordeel",
+      "start_seconds": 2304,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig premier; besproken om zijn politieke besluitvorming en slavernijexcuses",
+      "start_seconds": 3471,
+      "mention_count": 3
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "Klimaatactiviste; genoemd als voorbeeld van maatschappelijk veld dat politieke invloed uitoefent",
+      "start_seconds": 3523,
+      "mention_count": 1
+    },
+    {
+      "name": "Sylvana Simons",
+      "note": "Politica en activiste; genoemd als voorbeeld van maatschappelijk veld dat politieke invloed uitoefent",
+      "start_seconds": 3523,
       "mention_count": 1
     },
     {
       "name": "Josse de Voogt",
-      "note": "sociaal geograaf, genoemd over PVV- en SP-kiezers",
-      "start_seconds": 1343,
-      "wiki_checked": true,
+      "note": "Sociaal geograaf; Twitter-contact van David Boogerd over kiezersgedrag",
+      "start_seconds": 1339,
       "mention_count": 1
     },
     {
-      "name": "Gijs Groenteman",
-      "note": "schrijver, terloops genoemd naar aanleiding van de hoest van David",
-      "start_seconds": 1037,
-      "wiki_checked": true,
-      "wiki_pageid": 1083741,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gijs_Groenteman",
-      "mention_count": 1
-    },
-    {
-      "name": "Bas Heijne",
-      "note": "denker die eerder te gast was en een gebrek aan een groot verhaal signaleert",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 426466,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bas_Heijne",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bas_Heijne_%282011%29.jpg/250px-Bas_Heijne_%282011%29.jpg",
+      "name": "Bas Heinen",
+      "note": "Denker die in de podcast te gast was over een groter verhaal",
+      "start_seconds": 1144,
       "mention_count": 1
     },
     {
       "name": "Arnon Grunberg",
-      "note": "schrijver, eerder te gast in de podcast",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 92350,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnon_Grunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg/250px-Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg",
+      "note": "Schrijver en denker; in de podcast genoemd over een ontbrekend groot verhaal",
+      "start_seconds": 1144,
       "mention_count": 1
     },
     {
-      "name": "Roxane van Iperen",
-      "note": "schrijver, eerder te gast in de podcast",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 5294069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roxane_van_Iperen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Roxane_van_Iperen_2017.jpg/250px-Roxane_van_Iperen_2017.jpg",
+      "name": "Roxane van Yperen",
+      "note": "Denker die eerder in de podcast te gast was; genoemd over spiritualiteit en rechts",
+      "start_seconds": 1144,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul van Tongeren",
+      "note": "Denker des Vaderlands; stelt dat mensenrechten een geloof zijn",
+      "start_seconds": 2470,
       "mention_count": 1
     }
   ],
@@ -106,148 +124,175 @@
     {
       "title": "Sander en de Brug",
       "author": "Sander Schimmelpenninck",
-      "note": "pamflet voor De Correspondent met vijf voorstellen tegen ongelijkheid",
-      "start_seconds": 253,
+      "note": "Pamflet voor De Correspondent met vijf voorstellen tegen ongelijkheid",
+      "start_seconds": 247,
       "volume_id": "1yuAzwEACAAJ",
-      "canonical_title": "Sander en de brug: vijf voorstellen voor een eerlijker Nederland",
-      "canonical_author": "Sander Schimmelpenninck",
+      "canonical_title": "Sander en de brug : vijf voorstellen voor een eerlijker Nederland",
+      "canonical_author": "Sander Cornelis graaf Schimmelpenninck",
       "isbn13": "9789493254244",
       "isbn10": "9493254240",
+      "thumbnail": ""
+    },
+    {
+      "title": "Elite gezocht",
+      "author": "Sander Schimmelpenninck en Ruben van Zwieten",
+      "note": "Boek over het ontbreken van hogere idealen bij de elite",
+      "start_seconds": 2251,
+      "volume_id": "SkPdwQEACAAJ",
+      "canonical_title": "Elite gezocht",
+      "canonical_author": "Sander Schimmelpenninck",
+      "isbn13": "9789044640151",
+      "isbn10": "9044640151",
+      "thumbnail": ""
+    },
+    {
+      "title": "Future of Capitalism",
+      "author": "Paul Collier",
+      "note": "Genoemd als werk over de rol van gemeenschappen en gezinnen",
+      "start_seconds": 2646,
+      "volume_id": "bM5g0AEACAAJ",
+      "canonical_title": "Future of capitalism",
+      "canonical_author": "Paul Collier",
+      "isbn13": "9786060880509",
+      "isbn10": "6060880509",
       "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Mattheus 25:14-30",
-      "note": "gelijkenis van de talenten, door Stefan Paas aangehaald bij het idee van een basisvermogen",
+      "note": "Gelijkenis van de talenten; Stefan Paas gebruikt die als tegenhanger van gelijke kansen",
       "start_seconds": 1501
     }
   ],
   "places": [
-    "Nederland",
     "Rotterdam",
     "Zuidas",
-    "Slotervaart",
     "Zweden",
     "Almere",
     "Drenthe",
-    "Frankrijk"
+    "Slotervaart"
   ],
-  "summary_tldr": "Sander Schimmelpenninck legt uit waarom hij de groeiende kloof en ongelijkheid in Nederland als maatschappelijk gevaar ziet en bespreekt zijn vijf voorstellen, zoals een basisvermogen, een sociale dienstplicht en later selecteren in het onderwijs. Stefan Paas en David Boogerd bevragen hem op de rol van cultuur, een groot verhaal en artikel 23 (onderwijsvrijheid).",
+  "summary_tldr": "Sander Schimmelpenninck bespreekt met David Boogerd en Stefan Paas zijn pamflet 'Sander en de Brug' over ongelijkheid en de kloof tussen arm en rijk. Hij pleit voor liberale maatregelen zoals een sociale dienstplicht, een basisvermogen en het verminderen van selectie in het onderwijs. Het gesprek draait verder om de vraag of een groter moreel of religieus verhaal nodig is om solidariteit te behouden.",
   "summary_points": [
-    "Ongelijkheid is onvermijdelijk, maar wordt problematisch als ze voortkomt uit ongelijke startposities en geluk.",
-    "Vermogen, erfenis en waardestijging van woningen worden volgens Sander te licht belast ten opzichte van arbeid.",
-    "Gevoelens van kansloosheid en relatieve armoede voeden woede en instabiliteit in de samenleving.",
-    "Rijken onderschatten de rol van geluk en het collectief in hun succes, wat het sociaal contract ondermijnt.",
-    "Sander pleit voor een basisvermogen (een ton op je 25e) in plaats van een basisinkomen, wat Paas bijbels noemt (talenten).",
-    "Het economische verhaal verklaart niet alles: er is ook een culturele factor, waarop Sander geen goed antwoord heeft.",
-    "Sociale dienstplicht, een warme lunch en later selecteren (middenschool) zijn onderwijs- en maatschappijvoorstellen.",
-    "Sander wil artikel 23 afschaffen uit principe van vrijheid van indoctrinatie; Paas stelt dat bijzonder onderwijs segregatie slechts beperkt verklaart."
+    "Sander stelt dat ongelijkheid op zich geen probleem is, maar wel wanneer die voortkomt uit ongelijke startposities en kansen.",
+    "Vermogen wordt volgens hem vooral door erfenis en huizenwaardestijging verkregen, terwijl inkomen uit werk zwaarder wordt belast.",
+    "Hij ziet woede en instabiliteit groeien, vooral bij relatief arme mensen die zich kansloos voelen.",
+    "Zijn vijf voorstellen omvatten een sociale dienstplicht, een basisvermogen, het uitstellen van selectie op elf jaar en een gezonde lunch op school.",
+    "Stefan Paas bekritiseert het liberale vertrouwen in het individu en wijst op het belang van gezinnen, gemeenschappen en een moreel kompas.",
+    "Het gesprek gaat over bijzonder onderwijs en artikel 23 van de Grondwet, en over de vraag of segregatie daardoor ontstaat.",
+    "Sander is niet gelovig, ziet geloof als waardevol voor individu en samenleving, maar mist een nieuw verhaal dat de leegte opvult.",
+    "Het gesprek eindigt met de vraag of begrippen als solidariteit en mensenrechten een religieuze of joods-christelijke grondslag nodig hebben."
   ],
   "chapters": [
     {
-      "start_seconds": 23,
-      "title": "Twitter en de titel",
-      "summary": "Luchtig begin over Twitter, online boosheid en de adellijke titel van Sander."
+      "start_seconds": 0,
+      "title": "Opening en Twitter",
+      "summary": "De gasten en presentator kloppen het gesprek aan met luchtige opmerkingen over Twitter en de ruzies die daar ontstaan."
     },
     {
-      "start_seconds": 402,
-      "title": "Waar komt de kloof vandaan?",
-      "summary": "Sander legt uit hoe zijn werk bij Quote hem bewust maakte van ongelijkheid door geluk, erfenis en vermogen."
+      "start_seconds": 247,
+      "title": "Het boek en de adel",
+      "summary": "Sander wordt voorgesteld als auteur van 'Sander en de Brug' en vertelt over zijn adellijke titel en de betekenis die Nederlanders eraan hechten."
     },
     {
-      "start_seconds": 600,
-      "title": "Wanneer wordt ongelijkheid gevaarlijk?",
-      "summary": "Gesprek over kansloosheid, woede, hooivorken en het Capitool, met kritische vragen van Paas."
+      "start_seconds": 422,
+      "title": "De kloof en ongelijkheid",
+      "summary": "Sander legt uit hoe de kloof tussen arm en rijk zich ontwikkelde en waarom erfenis en vermogen zwaarder wegen dan werk."
     },
     {
-      "start_seconds": 1037,
-      "title": "Het collectief en het sociaal contract",
-      "summary": "Over dankbaarheid, belasting en de afhankelijkheid van private rijkdom van publieke voorzieningen."
+      "start_seconds": 720,
+      "title": "Woede, hooivorken en populisme",
+      "summary": "Het gesprek gaat over de maatschappelijke woede die groeit, over Trump en over de vraag of hieruit gevaar voortkomt."
     },
     {
-      "start_seconds": 1170,
-      "title": "Cultuur en het grote verhaal",
-      "summary": "Is het alleen economie? Over cultuuroorlog, stemmen tegen eigen belang en het gebrek aan een groot verhaal."
+      "start_seconds": 1144,
+      "title": "Collectief en het grote verhaal",
+      "summary": "De presentator vraagt of de economische analyse genoeg is of dat er een groter verhaal nodig is om solidariteit te dragen."
     },
     {
-      "start_seconds": 1440,
-      "title": "Basisvermogen en talenten",
-      "summary": "Het voorstel van een ton op je 25e, de link met de gelijkenis van de talenten en de sociale dienstplicht."
-    },
-    {
-      "start_seconds": 1665,
+      "start_seconds": 1680,
       "title": "Onderwijs en artikel 23",
-      "summary": "Warme lunch, later selecteren en de discussie over onderwijsvrijheid, segregatie en neutraliteit."
+      "summary": "Sander pleit voor afschaffing van artikel 23 en vroege selectie; Stefan Paas nuanceert met onderzoek naar segregatie en levensbeschouwelijke vrijheid."
+    },
+    {
+      "start_seconds": 2442,
+      "title": "Sociaal contract, dienstplicht en moreel kapitaal",
+      "summary": "Stefan Paas en Sander bespreken de sociale dienstplicht, het belang van gemeenschappen en de bron van moreel kapitaal."
+    },
+    {
+      "start_seconds": 3181,
+      "title": "Secularisatie, politiek en slot",
+      "summary": "Sander beoordeelt secularisatie neutraal, bespreekt de rol van politici als Rutte en eindigt met een persoonlijke reflectie op zijn carrière."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1268,
+      "start_seconds": 565,
       "speaker": "Sander Schimmelpenninck",
+      "text": "Ongelijkheid is in de basis geen probleem, maar het wordt wel problematisch als de ongelijkheid veroorzaakt wordt door een verschillend startpunt.",
+      "note": "Maakt het onderscheid tussen gerechtvaardigde en onrechtvaardige ongelijkheid helder."
+    },
+    {
+      "start_seconds": 1334,
       "text": "Ik heb wel een antwoord op het economische verhaal, maar ik heb geen goed antwoord op het culturele verhaal.",
-      "note": "Eerlijke erkenning van de grens van zijn analyse."
+      "note": "Erkent de grenzen van zijn eigen analyse en de rol van cultuur en identiteit."
     },
     {
-      "start_seconds": 887,
-      "speaker": "Stefan Paas",
-      "text": "Dus jij ziet de hooivorken komen?",
-      "note": "Scherpe vraag die Sanders eigenbelang-argument bevraagt."
+      "start_seconds": 1763,
+      "text": "Het gevoeligste punt is de onderwijsvrijheid of vrijheid van indoctrinatie.",
+      "note": "Het moment waarop het gesprek scherp wordt en Stefan Paas en Sander van mening verschillen."
     },
     {
-      "start_seconds": 1501,
-      "speaker": "Stefan Paas",
-      "text": "Het is ook een buitengewoon bijbels voorstel: in de Bijbel staat de gelijkenis van de talenten.",
-      "note": "Verrassende verbinding tussen een liberaal basisvermogen en een bijbelse gelijkenis."
+      "start_seconds": 3181,
+      "text": "Geloof heeft voor heel veel mensen een duidelijke positieve waarde, zowel individueel als voor de maatschappij.",
+      "note": "Een onverwacht warme erkenning van religie door een niet-gelovige."
     },
     {
-      "start_seconds": 1073,
-      "speaker": "Sander Schimmelpenninck",
-      "text": "Als je denkt dat je het allemaal zelf gedaan hebt, waarom zou je dan belasting betalen?",
-      "note": "Vat samen hoe het negeren van geluk het collectief ondermijnt."
-    },
-    {
-      "start_seconds": 1768,
-      "speaker": "Sander Schimmelpenninck",
-      "text": "Ik wil van artikel 23 af.",
-      "note": "Controversieel standpunt dat Paas direct uitdaagt."
+      "start_seconds": 3471,
+      "text": "Rutte leest eigenlijk als een beursanalist het volkssentiment; als hij een stijgende trend ziet, dan doet hij het.",
+      "note": "Een scherpe kritiek op politiek leiderschap als louter volgend in plaats van vormend."
     }
   ],
   "keywords": [
     "ongelijkheid",
-    "kloof",
-    "basisvermogen",
-    "sociaal contract",
-    "artikel 23",
-    "onderwijsvrijheid",
-    "sociale dienstplicht",
     "kansengelijkheid",
-    "Thomas Piketty",
-    "cultuuroorlog",
+    "sociale dienstplicht",
+    "basisvermogen",
+    "artikel 23",
+    "bijzonder onderwijs",
+    "secularisatie",
+    "sociaal contract",
+    "moreel kapitaal",
+    "solidariteit",
     "liberalisme",
-    "gelijkenis van de talenten"
+    "populisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Niet iedereen in Nederland krijgt dezelfde kansen, zegt hij, en de ongelijkheid groeit."
+  ],
   "similar": [
     {
       "n": 174,
-      "reason": "Paul Schenderling over economische en culturele strijd achter onvrede; kloof, politiek en samenleving"
+      "reason": "Economische en culturele onvrede in de samenleving, met Paul Schenderling; sterk verwant thematisch."
     },
     {
-      "n": 267,
-      "reason": "Roxane van Iperen over onbehagen, middenklasse en politiek; ook besproken persoon"
+      "n": 268,
+      "reason": "Economie, Europa en solidariteit, met Paul Schenderling; sluit aan bij de ongelijkheidsdebatten."
     },
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over crisis van het Westen, economie en politiek; kantelpunt en onvrede"
+      "n": 96,
+      "reason": "Verharding van de middenklasse en egoïsme, met Roxane van Iperen, die in #126 wordt genoemd."
     },
     {
-      "n": 216,
-      "reason": "Tim 's Jongers over armoede en ongelijkheid; economie en samenleving"
+      "n": 148,
+      "reason": "Asielcrisis en het failliet van het humanisme, met Arnon Grunberg, die ook in #126 voorkomt."
     },
     {
-      "n": 209,
-      "reason": "Beatrice de Graaf en Paas over het grote verhaal voor onze tijd"
+      "n": 51,
+      "reason": "Kerk, politiek en economie: het refo-bolwerk als tegenwicht tegen secularisatie en morele verhalen."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 228,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 136745,
+    "segments": 1445,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30967,
-    "output_tokens": 2321,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 70431,
+    "output_tokens": 4406,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Technologie & AI",
+    "Geopolitiek & oorlog",
     "Amerika & Trump",
-    "Economie & geld",
-    "Geschiedenis"
+    "Technologie & AI",
+    "Economie & geld"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,326 +25,423 @@
   "people": [
     {
       "name": "Elon Musk",
-      "note": "CEO van Tesla, SpaceX en X; invloedrijke techmiljardair rond Trump",
-      "start_seconds": 32,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "note": "baas van Meta; schrapte factcheckers",
-      "start_seconds": 32,
-      "wiki_checked": true,
-      "wiki_pageid": 1082992,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Zuckerberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Mark_Zuckerberg_%282025%29_%28cropped%29.jpg/250px-Mark_Zuckerberg_%282025%29_%28cropped%29.jpg"
+      "note": "Ondernemer (Tesla, SpaceX, X); centrale figuur in het gesprek over techmacht en invloed op politiek",
+      "start_seconds": 12,
+      "mention_count": 45
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president",
-      "start_seconds": 32,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president; wiens beleid en invloed van techgiganten besproken wordt",
+      "start_seconds": 132,
+      "mention_count": 40
     },
     {
-      "name": "Jeff Bezos",
-      "note": "eigenaar Amazon en The Washington Post",
-      "start_seconds": 695,
-      "wiki_checked": true,
-      "wiki_pageid": 3898797,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeff_Bezos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/250px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Ann Telnaes",
-      "note": "cartoonist die opstapte bij de Washington Post",
-      "start_seconds": 427,
-      "wiki_checked": true,
-      "wiki_pageid": 5921138,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ann_Telnaes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cartoonist_Ann_Telnaes_at_the_National_Press_Club%2C_Washington%2C_D.C._%2829648253448%29.jpg/250px-Cartoonist_Ann_Telnaes_at_the_National_Press_Club%2C_Washington%2C_D.C._%2829648253448%29.jpg"
+      "name": "Mark Zuckerberg",
+      "note": "Oprichter van Meta (Facebook, Instagram); besluit om fact checkers te schrappen",
+      "start_seconds": 125,
+      "mention_count": 16
     },
     {
       "name": "Henry Ford",
-      "note": "autofabrikant en antisemiet, uitgever van de Dearborn Independent",
-      "start_seconds": 965,
-      "wiki_checked": true,
-      "wiki_pageid": 24410,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Ford",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Henry_ford_1919.jpg/250px-Henry_ford_1919.jpg"
+      "note": "Autofabrikant met antisemitische uitlatingen en publicaties; historische parallel met Musk",
+      "start_seconds": 963,
+      "mention_count": 8
     },
     {
       "name": "Adolf Hitler",
-      "note": "bewonderde Ford",
-      "start_seconds": 976,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "note": "Nazi-leider; verwees in Mein Kampf naar Ford",
+      "start_seconds": 1000,
+      "mention_count": 4
     },
     {
-      "name": "Niall Ferguson",
-      "note": "historicus die de vibe shift citeerde",
-      "start_seconds": 268,
-      "wiki_checked": true,
-      "wiki_pageid": 2744165,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Niall_Ferguson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Niall_Ferguson_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2837840342015%29_%28cropped%29.jpg/250px-Niall_Ferguson_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2837840342015%29_%28cropped%29.jpg"
+      "name": "Jeff Bezos",
+      "note": "Eigenaar Amazon en van de Washington Post; invloed op redactionele keuzes",
+      "start_seconds": 690,
+      "mention_count": 3
     },
     {
-      "name": "Jordan Peterson",
-      "note": "populair onder aanhangers van sterke mannen",
-      "start_seconds": 927,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
-    },
-    {
-      "name": "Andrew Tate",
-      "note": "influencer met mannelijk imago",
-      "start_seconds": 927,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
-    },
-    {
-      "name": "Silvio Berlusconi",
-      "note": "Italiaanse premier, vergeleken met Trump",
-      "start_seconds": 1758,
-      "wiki_checked": true,
-      "wiki_pageid": 15543,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Silvio_Berlusconi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Silvio_Berlusconi_2018.jpg/250px-Silvio_Berlusconi_2018.jpg"
-    },
-    {
-      "name": "J.D. Vance",
-      "note": "vicepresident van Trump",
-      "start_seconds": 1602,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast (wordt in het transcript ook genoemd)",
+      "start_seconds": 0,
+      "mention_count": 2
     },
     {
       "name": "Jürgen Habermas",
-      "note": "Duitse filosoof van de publieke ruimte",
-      "start_seconds": 2039,
-      "wiki_checked": true,
-      "wiki_pageid": 53138,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/JuergenHabermas.jpg/250px-JuergenHabermas.jpg"
+      "note": "Duitse filosoof; theorie over de publieke ruimte",
+      "start_seconds": 2000,
+      "mention_count": 4
     },
     {
-      "name": "Rob de Wijk",
-      "note": "geopolitiek analist",
-      "start_seconds": 208,
-      "wiki_checked": true,
-      "wiki_pageid": 991157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_de_Wijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rob_de_Wijk.jpg/250px-Rob_de_Wijk.jpg"
+      "name": "Giorgia Meloni",
+      "note": "Italiaans premier; zou met Musk samenwerken aan satellietsysteem",
+      "start_seconds": 3060,
+      "mention_count": 2
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "Voorzitter Europese Commissie; haatobject van techbaronnen",
+      "start_seconds": 3320,
+      "mention_count": 1
+    },
+    {
+      "name": "Silvio Berlusconi",
+      "note": "Italiaans politicus met corruptieschandalen; vergelijking met Trump",
+      "start_seconds": 1740,
+      "mention_count": 2
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaars premier",
-      "start_seconds": 243,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Hongaars premier; voorbeeld van conservatieve populistische leider",
+      "start_seconds": 240,
+      "mention_count": 2
     },
     {
-      "name": "Javier Milei",
-      "note": "president van Argentinië",
-      "start_seconds": 243,
-      "wiki_checked": true,
-      "wiki_pageid": 5798701,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Javier_Milei",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_%283x4_cropped%29.jpg/250px-Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_%283x4_cropped%29.jpg"
+      "name": "Niall Ferguson",
+      "note": "Historicus die over de vibe shift schreef",
+      "start_seconds": 270,
+      "mention_count": 2
     },
     {
-      "name": "Warren Buffett",
-      "note": "miljardair die Clinton steunde",
-      "start_seconds": 1296,
-      "wiki_checked": true,
-      "wiki_pageid": 150392,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Warren_Buffett",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Warren_Buffett_KU_Visit.jpg/250px-Warren_Buffett_KU_Visit.jpg"
+      "name": "Saul",
+      "note": "Eerste koning van Israël; bijbels voorbeeld van machtsverlies",
+      "start_seconds": 4100,
+      "mention_count": 3
+    },
+    {
+      "name": "Koning David",
+      "note": "Koning van Israël in de Bijbel",
+      "start_seconds": 4200,
+      "mention_count": 2
+    },
+    {
+      "name": "Salomo",
+      "note": "Koning van Israël in de Bijbel; machtsdenken en afgoderij",
+      "start_seconds": 4260,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof; begrip van valse bewustzijn",
+      "start_seconds": 4300,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider; voorbeeld van religie gericht op publieke zaak",
+      "start_seconds": 4500,
+      "mention_count": 2
+    },
+    {
+      "name": "Reinhold Niebuhr",
+      "note": "Amerikaans theoloog; voorbeeld van publieke religie",
+      "start_seconds": 4490,
+      "mention_count": 1
+    },
+    {
+      "name": "Rowan Williams",
+      "note": "Engels theoloog",
+      "start_seconds": 4510,
+      "mention_count": 1
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "note": "Door Trump voorgedragen voor CIA-hoofd",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Vivek Ramaswamy",
+      "note": "Trump-medewerker met Indiase achtergrond",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Kash Patel",
+      "note": "Trump-medewerker",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Auteur en opiniemaker; voorbeeld van cultuurstrijd-religie",
+      "start_seconds": 1960,
+      "mention_count": 3
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "Controversiële influencer",
+      "start_seconds": 1960,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident",
+      "start_seconds": 1600,
+      "mention_count": 2
+    },
+    {
+      "name": "Rob de Wijk",
+      "note": "Nederlands politicoloog",
+      "start_seconds": 200,
+      "mention_count": 2
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Voormalig Amerikaanse president",
+      "start_seconds": 1200,
+      "mention_count": 3
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaanse president",
+      "start_seconds": 1290,
+      "mention_count": 2
     },
     {
       "name": "George Soros",
-      "note": "miljardair aan progressieve zijde",
-      "start_seconds": 1300,
-      "wiki_checked": true,
-      "wiki_pageid": 264298,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Soros",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/George_Soros_47th_Munich_Security_Conference_2011_crop.jpg/250px-George_Soros_47th_Munich_Security_Conference_2011_crop.jpg"
+      "note": "Financier; figuur aan progressieve zijde",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Warren Buffett",
+      "note": "Miljardair die Hillary Clinton steunde",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Hillary Clinton",
+      "note": "Voormalig Amerikaanse kandidate",
+      "start_seconds": 2350,
+      "mention_count": 2
+    },
+    {
+      "name": "Alice Weidel",
+      "note": "AfD-politica; Musk steunde de partij",
+      "start_seconds": 1240,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "Strukturwandel der Öffentlichkeit",
       "author": "Jürgen Habermas",
-      "note": "over de ontwikkeling van de publieke ruimte; in 2021 herschreven als Neuer Strukturwandel",
-      "start_seconds": 2039,
-      "volume_id": "Sa8aAAAAIAAJ",
-      "canonical_title": "Strukturwandel der Öffentlichkeit: Untersuchungen zu einer Kategorie der bürgerlichen Gesellschaft",
+      "note": "Boek over de ontwikkeling van de publieke ruimte, herzien in 2021 als Neue Strukturwandel",
+      "start_seconds": 2000,
+      "volume_id": "0F_-zgEACAAJ",
+      "canonical_title": "Ein neuer Strukturwandel der Öffentlichkeit und die deliberative Politik",
       "canonical_author": "Jürgen Habermas",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=Sa8aAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9783518587904",
+      "isbn10": "3518587900",
+      "thumbnail": ""
+    },
+    {
+      "title": "Das Kapital",
+      "author": "Karl Marx",
+      "note": "Marx' kritiek op kapitalisme; geciteerd over valse bewustzijn",
+      "start_seconds": 4290,
+      "volume_id": "6iJutwAACAAJ",
+      "canonical_title": "Das Kapital: A Critique of Political Economy",
+      "canonical_author": "Karl Marx",
+      "isbn13": "9781453886328",
+      "isbn10": "145388632X",
+      "thumbnail": "http://books.google.com/books/content?id=6iJutwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Jackpot",
+      "author": "Michael Mechanic",
+      "note": "Onderzoek naar het wereldbeeld van schatrijke mensen",
+      "start_seconds": 3700,
+      "volume_id": "8mRkEAAAQBAJ",
+      "canonical_title": "Jackpot: How the Super-Rich Really Live—and How Their Wealth Harms Us All",
+      "canonical_author": "Michael Mechanic",
+      "isbn13": "9781982127220",
+      "isbn10": "1982127228",
+      "thumbnail": "http://books.google.com/books/content?id=8mRkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "Mein Kampf",
       "author": "Adolf Hitler",
-      "note": "waarin Hitler Ford prijst",
-      "start_seconds": 1090,
-      "volume_id": "HhZCCwAAQBAJ",
+      "note": "Hitler noemt Ford hierin een grote man",
+      "start_seconds": 1020,
+      "volume_id": "iQV-0gEACAAJ",
       "canonical_title": "Mein Kampf",
       "canonical_author": "Adolf Hitler",
-      "isbn13": "9789380070193",
-      "isbn10": "9380070195",
-      "thumbnail": "http://books.google.com/books/content?id=HhZCCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9788167312532",
+      "isbn10": "8167312534",
+      "thumbnail": "http://books.google.com/books/content?id=iQV-0gEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "1 Samuël 15",
+      "note": "Saul verwerpt God en verliest koningschap aan David",
+      "start_seconds": 4100
+    },
+    {
+      "ref": "1 Samuël 28",
+      "note": "Saul bezweert de geest van Samuel bij de heks van Endor",
+      "start_seconds": 4140
+    },
+    {
+      "ref": "1 Koningen 11",
+      "note": "Salomo met vele vrouwen en afgodendienst; koninkrijk verscheurd",
+      "start_seconds": 4260
+    },
+    {
+      "ref": "Mattheus 7:12",
+      "note": "Jezus formuleert de gulden regel positief",
+      "start_seconds": 2940
+    },
+    {
+      "ref": "Mattheus 5:39",
+      "note": "Andere wang toekeren; geciteerd door Musk",
+      "start_seconds": 2880
+    }
+  ],
   "places": [
     "Groenland",
-    "Panama",
+    "Panamakanaal",
     "Canada",
-    "Amerika",
+    "Oekraïne",
     "Duitsland",
     "Italië",
     "Houston",
-    "Nederland",
-    "China"
+    "Amerika",
+    "Engeland",
+    "Finland",
+    "Europa",
+    "Silicon Valley",
+    "China",
+    "Rusland",
+    "Argentinië",
+    "Hongarije",
+    "Nederland"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe Elon Musk en andere superrijke techgiganten sinds Trumps overwinning politiek en cultuur beïnvloeden. Ze plaatsen dit in een historisch perspectief van industriëlen als Henry Ford en van plutocratie in Amerika. De Graaf stelt dat de kern de aantasting van de publieke ruimte is.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe Elon Musk en andere techmiljardairs via geld, algoritmes en politieke nabijheid tot Trump steeds meer macht uitoefenen over de publieke ruimte. Ze vergelijken dit met historische figuren als Henry Ford en zien een gevaarlijke combinatie van rijkdom, wantrouwen tegenover de staat en een quasi-religieus wereldbeeld. Hun oproep is om als burgers de publieke ruimte en de middenklasse te verdedigen.",
   "summary_points": [
-    "Trumps nationalistische buitenlandbeleid ondermijnt de naoorlogse wereldorde (Groenland, Panama, Canada).",
-    "De 'vibe shift' wordt door De Graaf vooral gezien als een kwestie van geld en macht.",
-    "Techmiljardairs als Zuckerberg en Bezos schikken zich naar Trump; vrijheid van meningsuiting geldt selectief.",
-    "Henry Ford is een historisch precedent van een industrieel met politieke en antisemitische invloed.",
-    "Amerika kent een plutocratie, met grote ongelijkheid en weinig invloed van gewone burgers.",
-    "De mythe van 'rags to riches' en wantrouwen tegen de staat verklaren steun voor miljardairs.",
-    "Musk is een individu dat de geschiedenis daadwerkelijk beïnvloedt.",
-    "Habermas' theorie van de publieke ruimte laat zien wat er nu onder druk staat."
+    "Musk en andere techgiganten krijgen sinds Trumps overwinning steeds meer politieke invloed.",
+    "De 'vibe shift' wordt door De Graaf gezien als een machtsstrijd om geld en macht, niet als cultuurverschuiving.",
+    "Zuckerberg schrapte fact checkers; De Graaf wijst op de inperking van kritische stemmen in de media.",
+    "Vergelijking met Henry Ford en Duitse industriëlen laat zien hoe rijke elites democratieën kunnen ondermijnen.",
+    "Plutocratie in de VS: de rijkste 1% bepaalt beleid en de kloof met de middenklasse groeit.",
+    "Big tech heeft volgens De Graaf de publieke ruimte opgeslokt en burgers tot data en consumenten gemaakt.",
+    "Musk bemoeit zich met Europese politiek en satellietsystemen, en botst met de EU-regelgeving.",
+    "Paas ziet een quasi-religieus element in techdromen over verlossing, singulariteit en eeuwig leven.",
+    "Bijbelse voorbeelden (Saul, David, Salomo) illustreren het gevaar van macht en rijkdom.",
+    "De oproep: blijf publiek gelovig en burgerlijk betrokken, en verdedig de gemeenschap boven eigen groep."
   ],
   "chapters": [
     {
-      "start_seconds": 32,
-      "title": "Een week vol nieuws",
-      "summary": "Inleiding over Musk, Zuckerberg en Trumps uitspraken over Groenland en Panama."
+      "start_seconds": 0,
+      "title": "Inleiding en actualiteit",
+      "summary": "David opent met Trump, Groenland en Panama en de geopolitieke onrust van die week."
     },
     {
-      "start_seconds": 208,
-      "title": "Vibe shift en geopolitiek",
-      "summary": "Verschil tussen culturele stemming en Trumps terugtrekkende buitenlandbeleid (Monroe-doctrine, NAVO)."
+      "start_seconds": 420,
+      "title": "Vibe shift en de cultuurstrijd",
+      "summary": "De gasten bespreken of woke de cultuurstrijd verliest en de terugkeer van mannelijkheid en nationalisme."
     },
     {
-      "start_seconds": 427,
-      "title": "Big tech knielt voor Trump",
-      "summary": "De geweigerde cartoon, Zuckerberg en Bezos, en selectieve vrijheid van meningsuiting."
+      "start_seconds": 1000,
+      "title": "Musk, Ford en de rol van individuen",
+      "summary": "De Graaf vergelijkt Musk met Henry Ford en bespreekt het debat over structuur versus individu."
     },
     {
-      "start_seconds": 773,
-      "title": "Musk als historische kracht",
-      "summary": "Structure versus agency, en de vergelijking met Henry Ford."
+      "start_seconds": 1800,
+      "title": "Geld, plutocratie en de Amerikaanse mythe",
+      "summary": "Het gesprek gaat over ongelijkheid, de macht van rijke donoren en de mythe van opklimmen."
     },
     {
-      "start_seconds": 1230,
-      "title": "Plutocratie in Amerika",
-      "summary": "Inkomensongelijkheid, geld in de politiek en de mythe van rags to riches."
+      "start_seconds": 2400,
+      "title": "De publieke ruimte en Habermas",
+      "summary": "De Graaf schetst de geschiedenis van de publieke ruimte en hoe big tech die aantast."
     },
     {
-      "start_seconds": 1900,
-      "title": "De publieke ruimte volgens Habermas",
-      "summary": "Historische ontwikkeling van de publieke ruimte en wat Musk daaraan verandert."
+      "start_seconds": 3000,
+      "title": "Musk, Europa en macht",
+      "summary": "Het gesprek gaat over Musks invloed in Europa, satellieten en het conflict met de EU-regelgeving."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Religie, wereldbeeld en de Bijbel",
+      "summary": "Paas en De Graaf analyseren de quasi-religieuze elementen in techkringen en bijbelse machtsverhalen."
+    },
+    {
+      "start_seconds": 4500,
+      "title": "Oproep tot publieke betrokkenheid",
+      "summary": "De gasten pleiten voor een religie die de publieke zaak dient en de middenklasse versterkt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 427,
+      "start_seconds": 12,
       "speaker": "Beatrice de Graaf",
-      "text": "De big tech mannen leveren zich uit aan hun koning, hun god Trump.",
-      "note": "Scherpe duiding van de geweigerde cartoon."
+      "text": "Musk wordt door sommigen gezien als de profeet van de technologie die ons allemaal gaat redden.",
+      "note": "Laat zien hoe Musk quasi-religieus wordt vereerd."
     },
     {
-      "start_seconds": 927,
+      "start_seconds": 1000,
       "speaker": "Beatrice de Graaf",
-      "text": "Een man zei dat Musk de profeet van de technologie is die ons gaat redden.",
-      "note": "Illustreert de religieuze aantrekkingskracht van Musk."
+      "text": "Ford is een soort Elon Musk: een ondernemer die zijn macht gebruikte voor antisemitische propaganda.",
+      "note": "Historische parallel die de ernst van de situatie onderstreept."
     },
     {
-      "start_seconds": 1500,
+      "start_seconds": 2700,
+      "speaker": "Beatrice de Graaf",
+      "text": "Wij zijn een bundeltje data; we zijn grondstoffen voor de algoritmemachine.",
+      "note": "Scherpe duiding van de positie van burgers op platforms."
+    },
+    {
+      "start_seconds": 3850,
       "speaker": "Stefan Paas",
-      "text": "De invloed van gewone burgers op beleid was vrijwel nul.",
-      "note": "Onderzoek naar 1800 beleidsbeslissingen."
+      "text": "Het stervende lichaam van het Europese christendom, waarop allerlei roverbarons en vooruitgangsdenkers zich vastzetten.",
+      "note": "Vergelijking met 19e-eeuwse religieuze bewegingen en de techwereld."
     },
     {
-      "start_seconds": 773,
-      "speaker": "Beatrice de Graaf",
-      "text": "Musk zet het wereldgebeuren wel degelijk naar zijn hand.",
-      "note": "Pleidooi dat een individu geschiedenis kan maken."
+      "start_seconds": 4680,
+      "speaker": "Stefan Paas",
+      "text": "Durf publiek gelovig te zijn en op te komen voor de publieke zaak, niet alleen voor je eigen clubje.",
+      "note": "Concrete oproep die religie koppelt aan democratie en burgerschap."
     }
   ],
   "keywords": [
     "Elon Musk",
-    "Vibe shift",
-    "Plutocratie",
-    "Big tech",
+    "big tech",
+    "vibe shift",
+    "publieke ruimte",
+    "plutocratie",
     "Henry Ford",
-    "Publieke ruimte",
-    "Jürgen Habermas",
-    "Vrijheid van meningsuiting",
-    "Trump",
-    "Ongelijkheid",
-    "Woke"
+    "Habermas",
+    "techreligie",
+    "ongelijkheid",
+    "middenklasse",
+    "algoritmes",
+    "Europese regelgeving"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 292,
-      "reason": "Duistere denkbeelden achter Big Tech en techmiljardairs, met Stefan Paas"
+      "reason": "Duistere denkbeelden achter Big Tech, sterk overlappend met techmiljardairs en hun wereldbeeld."
     },
     {
       "n": 306,
-      "reason": "Elon Musk, AI en machtsstrijd om de mens"
-    },
-    {
-      "n": 241,
-      "reason": "Denkers en ideologieën achter Trump, met De Graaf en Paas"
-    },
-    {
-      "n": 284,
-      "reason": "Brute machtspolitiek, Trump en Poetin, met De Graaf en Paas"
+      "reason": "AI, Elon Musk en de macht over de mens, direct vergelijkbaar qua thema en figuur."
     },
     {
       "n": 235,
-      "reason": "Trump en Musk, macht en eigenbelang, Amerikaanse politiek"
+      "reason": "Gaat over Trump en Musk, naastenliefde en eigenbelang, met dezelfde machtsanalyse."
+    },
+    {
+      "n": 298,
+      "reason": "Gevaren en kansen van AI, gekoppeld aan geopolitiek en Amerika onder Trump."
+    },
+    {
+      "n": 230,
+      "reason": "Nieuwe wereldorde onder Trump en Poetin, met Rob de Wijk die ook in deze aflevering genoemd wordt."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

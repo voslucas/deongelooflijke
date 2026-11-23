@@ -1,147 +1,178 @@
 {
   "episode": 138,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112355,
+    "segments": 1116,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30247,
-    "output_tokens": 3226,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56459,
+    "output_tokens": 3873,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "Geschiedenis",
-    "Islam & jodendom",
-    "Filosofie & ethiek"
+    "Kerk & secularisatie",
+    "Geopolitiek & oorlog",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "George Harinck"
   ],
   "people": [
     {
-      "name": "Bart van der Boom",
-      "note": "historicus die dagboeken uit de oorlog onderzocht",
-      "start_seconds": 570,
-      "wiki_checked": true,
-      "wiki_pageid": 5652825,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_van_der_Boom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/BartvanderBoom2014.jpg/250px-BartvanderBoom2014.jpg"
+      "name": "George Harinck",
+      "note": "historicus en rector magnificus Theologische Universiteit Utrecht, gast",
+      "start_seconds": 82,
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 160,
+      "mention_count": 3
     },
     {
       "name": "Jacques Presser",
-      "note": "historicus, auteur van 'Ondergang' (1965)",
-      "start_seconds": 660,
-      "wiki_checked": true,
-      "wiki_pageid": 79489,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacques_Presser",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Jacques_Presser.PNG/250px-Jacques_Presser.PNG"
+      "note": "auteur van het boek Ondergang (1965)",
+      "start_seconds": 650,
+      "mention_count": 1
+    },
+    {
+      "name": "Bart van der Boom",
+      "note": "onderzoeker die dagboeken over antisemitisme in Nederland analyseerde",
+      "start_seconds": 570,
+      "mention_count": 1
     },
     {
       "name": "Maarten Luther",
-      "note": "reformator met antisemitische geschriften",
+      "note": "reformator met antisemitische uitspraken",
       "start_seconds": 1140,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "reformator; formuleerde voorwaardelijk recht van verzet",
-      "start_seconds": 2056,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Calvijn",
+      "note": "reformator; formuleerde een recht van verzet tegen onwettige overheid",
+      "start_seconds": 2040,
+      "mention_count": 1
     },
     {
-      "name": "Sukarno",
-      "note": "Indonesisch leider, in de politionele acties gezien als te verslaan vijand",
-      "start_seconds": 777,
-      "wiki_checked": true,
-      "wiki_pageid": 77399,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Soekarno",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/250px-Presiden_Sukarno.jpg"
-    },
-    {
-      "name": "Kardinaal De Jong",
-      "note": "aartsbisschop van Utrecht, protesteerde openlijk tegen de Jodenvervolging",
-      "start_seconds": 1860,
-      "wiki_checked": true,
-      "wiki_pageid": 197689,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_de_Jong",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jan_de_Jong_%281953%29.jpg/250px-Jan_de_Jong_%281953%29.jpg"
-    },
-    {
-      "name": "Gravenmeijer",
-      "note": "synodevoorzitter van de Hervormde Kerk, in 1941 gearresteerd",
-      "start_seconds": 1800,
-      "wiki_checked": true
-    },
-    {
-      "name": "Koningin Wilhelmina",
-      "note": "koningin in ballingschap, voor wie in de kerk gebeden werd",
-      "start_seconds": 1696,
-      "wiki_checked": true,
-      "wiki_pageid": 13534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wilhelmina_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wilhelmina_der_NederlandenI71849.jpg/250px-Wilhelmina_der_NederlandenI71849.jpg"
-    },
-    {
-      "name": "Kees Boeke",
-      "note": "zie Buskes",
-      "start_seconds": 1723,
-      "wiki_checked": true,
-      "wiki_pageid": 48866,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_Boeke_%28pedagoog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kees_Boeke_%281939%29.jpg/250px-Kees_Boeke_%281939%29.jpg"
-    },
-    {
-      "name": "Johan Buskes",
-      "note": "verzetspredikant",
-      "start_seconds": 1723,
-      "wiki_checked": true
-    },
-    {
-      "name": "Kapenga",
-      "note": "politieagent in Kampen die weigerde Joden weg te voeren",
-      "start_seconds": 2175,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gerrit Hendrik Kersten",
-      "note": "grondlegger van de SGP, beschouwde de bezetting als Gods straf",
-      "start_seconds": 2334,
-      "wiki_checked": true,
-      "wiki_pageid": 54048,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerrit_Hendrik_Kersten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/GHKersten.jpg/250px-GHKersten.jpg"
+      "name": "Dietrich Bonhoeffer",
+      "note": "Duitse theoloog en verzetsstrijder, opgehangen in 1945",
+      "start_seconds": 4000,
+      "mention_count": 6
     },
     {
       "name": "Adolf Hitler",
-      "note": "nazileider",
-      "start_seconds": 2418,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "note": "Duitse leider van het nazisme",
+      "start_seconds": 3570,
+      "mention_count": 3
+    },
+    {
+      "name": "Kardinaal De Jong",
+      "note": "hoofd Rooms-Katholieke Kerk in Nederland tijdens de oorlog",
+      "start_seconds": 1880,
+      "mention_count": 2
+    },
+    {
+      "name": "Dominee Gravenmeijer",
+      "note": "synodevoorzitter Hervormde Kerk, gearresteerd na protest in 1941",
+      "start_seconds": 1770,
+      "mention_count": 1
+    },
+    {
+      "name": "Dominique Kersten",
+      "note": "grondlegger SGP die antisemitische uitspraken deed",
+      "start_seconds": 2340,
+      "mention_count": 2
+    },
+    {
+      "name": "Corrie ten Boom",
+      "note": "verzetsvrouw die Joden verborg",
+      "start_seconds": 2430,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Post",
+      "note": "verzetsheld, documentaire over zijn gezin",
+      "start_seconds": 3240,
+      "mention_count": 2
+    },
+    {
+      "name": "Klaas Schilder",
+      "note": "gereformeerd hoogleraar en criticus van het nazisme",
+      "start_seconds": 3780,
+      "mention_count": 2
+    },
+    {
+      "name": "Pius XII",
+      "note": "paus tijdens de Tweede Wereldoorlog, controversieel",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Sukarno",
+      "note": "Indonesisch leider tijdens de politionele acties",
+      "start_seconds": 780,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "politicus die Bonhoeffer noemde als voorbeeld",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Niemöller",
+      "note": "Duitse predikant en verzetsstrijder",
+      "start_seconds": 4220,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten Verrossen",
+      "note": "genoemd in verband met een pleidooi voor verzuiling",
+      "start_seconds": 3180,
+      "mention_count": 1
+    },
+    {
+      "name": "Kapenga",
+      "note": "politieagent in Kampen die weigerde Joden op te halen",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Buskes",
+      "note": "verzetspredikant die opriep voor de koningin te bidden",
+      "start_seconds": 1720,
+      "mention_count": 1
+    },
+    {
+      "name": "Marinus van der Lubbe",
+      "note": "Nederlandse communist aangewezen als dader Rijksdagbrand",
+      "start_seconds": 4320,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans en Sophie Scholl",
+      "note": "leden van verzetsgroep De Witte Roos",
+      "start_seconds": 4180,
+      "mention_count": 1
+    },
+    {
+      "name": "Gravenmeijer",
+      "note": "synodevoorzitter Hervormde Kerk",
+      "start_seconds": 1770,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Ondergang",
       "author": "Jacques Presser",
-      "note": "opende in 1965 de ogen voor de massamoord op de Nederlandse joden",
+      "note": "boek over de Joodse vervolging, verscheen in 1965",
       "start_seconds": 660,
       "volume_id": "kMZ5zQEACAAJ",
       "canonical_title": "Ondergang: de vervolging en verdelging van het Nederlandse jodendom 1940-1945",
@@ -149,153 +180,184 @@
       "isbn13": "9789461539540",
       "isbn10": "9461539541",
       "thumbnail": ""
+    },
+    {
+      "title": "Theologie na Auschwitz",
+      "author": "Jansen",
+      "note": "boek uit de jaren 70 dat theologische kanteling inluidde",
+      "start_seconds": 4440,
+      "volume_id": "LliKmQEACAAJ",
+      "canonical_title": "Christelijke theologie na Auschwitz",
+      "canonical_author": "Johannes Gerardus Bernardus Jansen",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "De Plaatsbekleder",
+      "author": "Rolf Hochhuth",
+      "note": "toneelstuk uit de jaren 60 over de rol van de paus",
+      "start_seconds": 2700,
+      "volume_id": "CoEdwwEACAAJ",
+      "canonical_title": "De plaatsbekleder: toneelspel",
+      "canonical_author": "Rolf Hochhuth",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 27:25",
-      "note": "'Zijn bloed kome over ons en onze kinderen', gebruikt in christelijk antisemitisme",
-      "start_seconds": 1039
+      "ref": "Matteüs 27:25",
+      "note": "Het volk roept: 'zijn bloed kome over ons en onze kinderen'",
+      "start_seconds": 1030
+    },
+    {
+      "ref": "Romeinen 11",
+      "note": "Paulus over het uitverkoren volk, context van vervangingsteologie",
+      "start_seconds": 1080
     }
   ],
   "places": [
-    "Nederland",
-    "België",
-    "Frankrijk",
-    "Duitsland",
-    "Noorwegen",
-    "Amsterdam",
     "Utrecht",
     "Kampen",
+    "Amsterdam",
+    "Duitsland",
+    "Oekraïne",
+    "Israël",
     "Indonesië",
-    "Mauthausen",
     "Münster",
+    "Haarlem",
+    "Ravensbrück",
+    "Den Haag",
+    "Mauthausen",
+    "België",
+    "Frankrijk",
+    "Noorwegen",
     "Londen"
   ],
-  "summary_tldr": "Historicus George Harinck en Stefan Paas bespreken waarom in Nederland zoveel joden werden gedeporteerd en welke rol de kerken speelden. Harinck stelt dat de kerken in de oorlog uniek openlijk opkwamen voor de joden, ondanks een lange christelijke traditie van antisemitisme. Hij is daarom kritisch op de recente schuldbelijdenis van de PKN.",
+  "summary_tldr": "George Harinck en Stefan Paas bespreken de rol van de kerken in de Tweede Wereldoorlog, waarbij Nederland een van de hoogste deportatiepercentages van West-Europa kende. Ze analyseren zowel het christelijke antisemitisme als het protestantse en katholieke verzet, en de moeizame naoorlogse herinnering. Het gesprek eindigt met een reflectie op morele keuzes en hoe de oorlog vandaag herdacht wordt.",
   "summary_points": [
-    "Het hoge aantal Nederlandse joden dat omkwam heeft meerdere oorzaken, zoals het uitstekende bevolkingsregister en het vertrouwen van joden in de overheid.",
-    "Na de oorlog werd lang gezwegen over de joodse slachtoffers; pas na Pressers 'Ondergang' (1965) veranderde dat.",
-    "Het christelijke antisemitisme had theologische wortels (Golgotha, Luther), maar het biologisch racisme van de nazi's werd in Nederlandse kerken afgewezen.",
-    "De kerken protesteerden vanaf 1940 openlijk en gezamenlijk tegen de Jodenvervolging, iets wat geen andere instelling deed.",
-    "Ongeveer 600 van de 3000 predikanten waren aantoonbaar actief in Jodenhulp, en circa 200 werden gearresteerd.",
-    "Protest bracht dilemma's met zich mee: de Duitsers dreigden met represailles, zoals de moord op 200 katholieken.",
-    "Het calvinistische recht van verzet en het idee van de joden als Gods oogappel speelden een rol in het verzet.",
-    "Er waren ook uitzonderingen: Kersten en zijn achterban zagen de bezetting als Gods straf en verzetten zich niet.",
-    "Harinck vindt de PKN-schuldbelijdenis over te weinig gedaan hebben moeilijk te rijmen met de historische feiten."
+    "Nederland had het hoogste percentage gedeporteerde Joden in West-Europa, mede door het goede bevolkingsregister en een zwakke Joodse gemeenschap.",
+    "Christelijke theologie droeg bij aan antisemitisme, maar in Nederland was rassenantisemitisme minder zichtbaar dan in Duitsland.",
+    "Kerken protesteerden vanaf 1940 gezamenlijk tegen anti-Joodse maatregelen, iets wat eerder ongekend was.",
+    "De februaristaking en de arrestatie van synodevoorzitter Gravenmeijer illustreren de dilemma's en risico's van verzet.",
+    "De katholieke kerk verbood in 1936 het NSB-lidmaatschap; de protestantse kerken volgden met meer aarzeling.",
+    "Na de oorlog werd de Joodse slachtofferschap lange tijd gemarginaliseerd; pas met Presser's Ondergang (1965) kwam dit breed aan de orde.",
+    "De PKN-schuldbelijdenis werd door Harinck bekritiseerd als historisch onjuist en moreel te eenzijdig.",
+    "Bonhoeffer was in Nederland nauwelijks bekend en zijn verzetsrol is geromantiseerd.",
+    "Verzuiling en gemeenschapsbanden speelden een rol in de mate van verzet, en individualisering maakt dat vandaag anders."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding: de oorlog als moreel ijkpunt",
-      "summary": "David stelt de gasten voor en Harinck en Paas vertellen waarom de Tweede Wereldoorlog hen bezighoudt."
+      "title": "Inleiding en vraagstelling",
+      "summary": "Boogerd introduceert het onderwerp: hoe fout was Nederland in de oorlog en welke rol speelde de kerk."
     },
     {
-      "start_seconds": 385,
-      "title": "Waarom zoveel joden in Nederland omkwamen",
-      "summary": "Harinck noemt het bevolkingsregister, de aanpassing van de joodse gemeenschap en latent antisemitisme als verklaringen."
+      "start_seconds": 120,
+      "title": "Persoonlijke motieven en herdenking",
+      "summary": "Harinck en Paas vertellen waarom de oorlog hen bezighoudt en hoe herdenking verandert."
     },
     {
-      "start_seconds": 630,
-      "title": "Herdenken en zwijgen na de oorlog",
-      "summary": "Pas laat werden joodse slachtoffers herdacht; Pressers boek uit 1965 was een keerpunt."
+      "start_seconds": 370,
+      "title": "Waarom zoveel Joodse slachtoffers in Nederland",
+      "summary": "Bespreking van het bevolkingsregister, de assimilatie van Joden en het lage antisemitisme vergeleken met Duitsland."
     },
     {
-      "start_seconds": 800,
-      "title": "De PKN-schuldbelijdenis",
-      "summary": "Harinck legt uit waarom hij bezwaar maakte tegen de verklaring van de Protestantse Kerk."
+      "start_seconds": 650,
+      "title": "Naoorlogse herinnering en het zwijgen",
+      "summary": "Pas na Presser's Ondergang (1965) kwam de Joodse slachtoffergeschiedenis op de agenda."
     },
     {
-      "start_seconds": 1000,
-      "title": "Christelijk antisemitisme",
-      "summary": "Over de theologische wortels van antisemitisme, Luther, Jodenzending en het verschil met rassenleer."
+      "start_seconds": 1020,
+      "title": "Christelijk antisemitisme en theologie",
+      "summary": "Analyse van de theologische wortels van antisemitisme, van de evangeliën tot Luther en Jodenzending."
     },
     {
-      "start_seconds": 1380,
-      "title": "De kerk als verzetshaard",
-      "summary": "Kerken protesteerden samen, predikanten hielpen joden en betaalden daarvoor een prijs."
+      "start_seconds": 1500,
+      "title": "Protest, verzet en kerkelijke dilemma's",
+      "summary": "Kerkelijke protesten, februaristaking, bisschop en kardinaal De Jong, en het gewetensdilemma van predikanten."
     },
     {
-      "start_seconds": 1980,
-      "title": "Calvinisme, verzet en grondwet",
-      "summary": "Over het recht van verzet, de rol van gereformeerden en communisten en het beroep op de grondwet."
+      "start_seconds": 2640,
+      "title": "Katholieke kerk, NSB en Kersten",
+      "summary": "Verbod op NSB-lidmaatschap, rol van paus Pius XII en de collaborerende SGP-oprichter Kersten."
     },
     {
-      "start_seconds": 2300,
-      "title": "Kersten en de collaboratie",
-      "summary": "Bespreking van de omstreden rol van Kersten en de visie op de bezetting als Gods straf."
+      "start_seconds": 3540,
+      "title": "Nazi-kerkpolitiek, Bonhoeffer en publieksvragen",
+      "summary": "Hitlers gelijkschakeling van de kerk, Schilder's kerkscheuring en Bonhoeffers verzet, gevolgd door luistervragen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1556,
+      "start_seconds": 1420,
       "speaker": "George Harinck",
-      "text": "Geen institutie deed dat, behalve de kerk.",
-      "note": "Harinck benadrukt het unieke van het kerkelijk protest bij de Duitse bezetter."
+      "text": "Nergens in West-Europa was de reactie van kerken zo uitgesproken als in Nederland; er wordt door 20 procent van de predikanten Jodenhulp verleend.",
+      "note": "Het percentage verzetspredikanten maakt het uitzonderlijke Nederlandse verzet concreet."
     },
     {
-      "start_seconds": 1599,
+      "start_seconds": 1880,
       "speaker": "George Harinck",
-      "text": "Bijna 20% van de predikanten was aantoonbaar actief in de Jodenhulp; geen andere beroepsgroep haalt dat percentage.",
-      "note": "Opvallend cijfer dat het beeld van een angstige kerk nuanceert."
+      "text": "Kardinaal De Jong zei: dat is jullie verantwoordelijkheid, ik heb de mijne. Het gevolg was dat 200 katholieken werden vermoord.",
+      "note": "Een dilemma waarin protest levens kostte, wat het morele oordelen zo lastig maakt."
     },
     {
-      "start_seconds": 1860,
+      "start_seconds": 2200,
       "speaker": "George Harinck",
-      "text": "Kardinaal De Jong zegt: dat is jullie verantwoordelijkheid, ik heb de mijne. Het gevolg is dat 200 katholieken zijn vermoord.",
-      "note": "Schrijnend moreel dilemma rond protest en represailles."
+      "text": "Moed is geen beslissing om moedig te zijn; het is vaak overwonnen angst.",
+      "note": "Een nuchtere kijk op verzet die helden ontmythologiseert."
     },
     {
-      "start_seconds": 1972,
-      "speaker": "George Harinck",
-      "text": "Het is wat makkelijk om achteraf te zeggen dat ze niet genoeg hebben gedaan. Hoe meet je dat?",
-      "note": "Kern van Harincks kritiek op de schuldbelijdenis."
-    },
-    {
-      "start_seconds": 2220,
+      "start_seconds": 2960,
       "speaker": "Stefan Paas",
-      "text": "In het verzet waren twee groepen oververtegenwoordigd: de communisten en de gereformeerden.",
-      "note": "Opmerkelijk 'onlogisch huwelijk' in het verzet."
+      "text": "Hoeveel theologie hebben mensen nodig om racist te zijn of antisemiet?",
+      "note": "Scherpe vraag die theologie niet als enige oorzaak van antisemitisme aanwijst."
+    },
+    {
+      "start_seconds": 1290,
+      "speaker": "George Harinck",
+      "text": "Het is niet zo dat de kerken in Nederland het slecht hebben gedaan; die opmerking in de schuldbelijdenis is historisch niet op zijn plaats.",
+      "note": "Een controversiële stelling die het kerkelijke schuldnarratief tegenspreekt."
     }
   ],
   "keywords": [
     "Tweede Wereldoorlog",
-    "Antisemitisme",
+    "antisemitisme",
+    "verzet",
     "Jodenvervolging",
-    "Kerkelijk verzet",
-    "PKN",
-    "Schuldbelijdenis",
-    "Jacques Presser",
-    "Maarten Luther",
-    "Kardinaal De Jong",
+    "Nederlandse kerken",
+    "Bonhoeffer",
+    "schuldbelijdenis",
+    "verzuiling",
     "Calvinisme",
-    "SGP",
-    "Herdenken"
+    "februaristaking",
+    "NSB",
+    "naoorlogse herinnering"
   ],
   "quotes": [
-    "Nergens in West-Europa werden zoveel Joden gedeporteerd als in Nederland.",
-    "Als er nu 1 periode in de eeuwenlange geschiedenis van de Nederlandse protestantse kerken is geweest waarin ze voor Joden hun nek hebben uitgestoken, dan is het wel de Tweede Wereldoorlog."
+    "Het is een moreel ijkpunt",
+    "Moed is vaak overwonnen angst"
   ],
   "similar": [
     {
-      "n": 300,
-      "reason": "Nederland, Tweede Wereldoorlog, fascisme en de rol van kerk en geschiedenis"
+      "n": 53,
+      "reason": "Oorlog, verzet en de morele keuzes van mensen tijdens de Tweede Wereldoorlog"
     },
     {
       "n": 245,
-      "reason": "Verzwegen Nederlandse oorlogsgeschiedenis (Indonesië) met religie en kerk, rond 4 mei"
+      "reason": "Verzwegen oorlogsgeschiedenis en religieuze dimensie van de Nederlandse oorlogsherinnering"
     },
     {
-      "n": 53,
-      "reason": "Verzet en genade in de Tweede Wereldoorlog, historische duiding"
+      "n": 118,
+      "reason": "Kerkelijke rol en morele verantwoordelijkheid bij historisch onrecht, met excuses en herinnering"
     },
     {
-      "n": 220,
-      "reason": "Antisemitisme en jodendom in Nederland, historische en actuele context"
-    },
-    {
-      "n": 256,
-      "reason": "Kritische kijk op Nederlandse geschiedenis, kerk en zelfbeeld"
+      "n": 185,
+      "reason": "Kerk en geschiedenis met Rutger Bregman over morele verantwoordelijkheid van christenen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

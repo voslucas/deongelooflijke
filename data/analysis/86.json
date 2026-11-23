@@ -1,18 +1,23 @@
 {
   "episode": 86,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101806,
+    "segments": 965,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30629,
-    "output_tokens": 2929,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51689,
+    "output_tokens": 8106,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "Bijbel & Jezus",
-    "Kerk & secularisatie",
-    "Geschiedenis"
+    "God & geloof",
+    "Geschiedenis",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,197 +25,286 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president, citeert de Bijbel en spreekt in apocalyptische taal",
-      "start_seconds": 44,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russisch president; citeert de Bijbel en gebruikt apocalyptische taal over de oorlog in Oekraïne",
+      "start_seconds": 29,
+      "mention_count": 30
     },
     {
-      "name": "Patriarch Kirill",
-      "note": "Leider van de Russische Orthodoxe Kerk, steunt Poetin",
-      "start_seconds": 335,
-      "wiki_checked": true,
-      "wiki_pageid": 1547139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kirill_van_Moskou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patriarch_Kirill_of_Moscow.jpg/250px-Patriarch_Kirill_of_Moscow.jpg"
+      "name": "Kirill",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk; steunt de oorlog in preken",
+      "start_seconds": 338,
+      "mention_count": 6
     },
     {
       "name": "Rob de Wijk",
-      "note": "Geopolitiek deskundige, bepleit een gouden brug voor Poetin",
+      "note": "Deskundige die waarschuwt niet te escaleren en Poetin een gouden brug adviseert",
       "start_seconds": 725,
-      "wiki_checked": true,
-      "wiki_pageid": 991157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_de_Wijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rob_de_Wijk.jpg/250px-Rob_de_Wijk.jpg"
-    },
-    {
-      "name": "Sun Tzu",
-      "note": "Militair strateeg, auteur van The Art of War",
-      "start_seconds": 741,
-      "wiki_checked": true,
-      "wiki_pageid": 203319,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sun_Tzu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Enchoen27n3200.jpg/250px-Enchoen27n3200.jpg"
+      "mention_count": 2
     },
     {
       "name": "Dick Berlijn",
-      "note": "Oud-commandant der strijdkrachten, wil geen vrede met Poetin",
-      "start_seconds": 1017,
-      "wiki_checked": true,
-      "wiki_pageid": 247961,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Berlijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/CDS_Dick_Berlijn.jpg/250px-CDS_Dick_Berlijn.jpg"
+      "note": "Oud-commandant van de strijdkrachten; vindt dat je na Butsja geen vrede meer met Poetin moet willen",
+      "start_seconds": 1020,
+      "mention_count": 2
+    },
+    {
+      "name": "Sun Tzu",
+      "note": "Chinese militaire denker uit de vijfde eeuw v.Chr., auteur van The Art of War",
+      "start_seconds": 742,
+      "mention_count": 1
     },
     {
       "name": "Peter Pomerantsev",
-      "note": "Britse auteur over Rusland en propaganda",
-      "start_seconds": 1088,
-      "wiki_checked": true
+      "note": "Britse journalist die in Moskou werkte en boeken schreef over het Russische systeem",
+      "start_seconds": 1095,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Dugin",
+      "note": "Russische filosoof en denker die de eindtijd en het Russische imperium beschreef",
+      "start_seconds": 1480,
+      "mention_count": 2
     },
     {
       "name": "Adolf Hitler",
-      "note": "Voorbeeld van een leider die serieus genomen had moeten worden",
-      "start_seconds": 1118,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "note": "Nazistisch dictator; voorbeeld van leiders wier woorden serieus genomen moeten worden",
+      "start_seconds": 1120,
+      "mention_count": 2
     },
     {
       "name": "Jozef Stalin",
-      "note": "Voorbeeld van een leider die serieus genomen had moeten worden",
-      "start_seconds": 1118,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
-    },
-    {
-      "name": "Aleksandr Dugin",
-      "note": "Russische filosoof, schreef over een eindtijdstrijd tussen Oost en West",
-      "start_seconds": 1623,
-      "wiki_checked": true,
-      "wiki_pageid": 4037958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aleksandr_Doegin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg/250px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg"
-    },
-    {
-      "name": "John Collins",
-      "note": "Auteur van het standaardwerk over apocalyptische literatuur",
-      "start_seconds": 1837,
-      "wiki_checked": true
-    },
-    {
-      "name": "Reinhart Koselleck",
-      "note": "Duitse historicus, begrip Sattelzeit",
-      "start_seconds": 2095,
-      "wiki_checked": true
+      "note": "Sovjetleider; eveneens voorbeeld van wat leiders zeiden en wat ze echt dachten",
+      "start_seconds": 1123,
+      "mention_count": 2
     },
     {
       "name": "Karl Marx",
-      "note": "Filosoof met een fasenmodel van de geschiedenis",
-      "start_seconds": 2122,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
-    },
-    {
-      "name": "Auguste Comte",
-      "note": "Denker met evolutionair geschiedbeeld",
-      "start_seconds": 2130,
-      "wiki_checked": true,
-      "wiki_pageid": 413592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Auguste_Comte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Auguste_Comte.jpg/250px-Auguste_Comte.jpg"
+      "note": "Denker van het communisme met een fasenmodel van de geschiedenis",
+      "start_seconds": 2050,
+      "mention_count": 2
     },
     {
       "name": "Friedrich Engels",
-      "note": "Schreef over de Duitse boerenopstanden",
-      "start_seconds": 2220,
-      "wiki_checked": true,
-      "wiki_pageid": 28351,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Engels",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Friedrich_Engels%2C_c._1860_%28cropped%29.jpg/250px-Friedrich_Engels%2C_c._1860_%28cropped%29.jpg"
+      "note": "Medeauteur van het Communistisch Manifest; schreef over de Duitse boerenopstanden",
+      "start_seconds": 2180,
+      "mention_count": 2
     },
     {
       "name": "Thomas Müntzer",
-      "note": "Apocalyptisch denker in de Duitse boerenopstand",
-      "start_seconds": 2225,
-      "wiki_checked": true,
-      "wiki_pageid": 109588,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_M%C3%BCntzer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/ThomasM%C3%BCntzerDDR5Mark.jpg/250px-ThomasM%C3%BCntzerDDR5Mark.jpg"
+      "note": "Apocalyptisch denker en leider van de Duitse boerenopstanden in de zestiende eeuw",
+      "start_seconds": 2220,
+      "mention_count": 4
     },
     {
-      "name": "Jan van Leyden",
-      "note": "Leider van de wederdopers in Münster",
-      "start_seconds": 2249,
-      "wiki_checked": true,
-      "wiki_pageid": 146204,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_van_Leiden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Jan_van_Leiden_by_Aldegrever.jpg/250px-Jan_van_Leiden_by_Aldegrever.jpg"
+      "name": "Maarten Luther",
+      "note": "Reformator; Müntzer kwam met hem in conflict over de boeren",
+      "start_seconds": 2230,
+      "mention_count": 3
+    },
+    {
+      "name": "Jan van Leiden",
+      "note": "Wederdopersleider in Münster die gewelddadig optrad",
+      "start_seconds": 2300,
+      "mention_count": 1
+    },
+    {
+      "name": "Joachim van Fiore",
+      "note": "Calabrese abt rond 1200 die de geschiedenis in fasen indeelde en Openbaring uitlegde",
+      "start_seconds": 2567,
+      "mention_count": 3
+    },
+    {
+      "name": "Auguste Comte",
+      "note": "Positivistische denker met een evolutionair geschiedenisbeeld",
+      "start_seconds": 2095,
+      "mention_count": 1
+    },
+    {
+      "name": "Pat Robertson",
+      "note": "Amerikaanse evangelist die Poetin ziet als instrument van God in de eindtijd",
+      "start_seconds": 2851,
+      "mention_count": 1
+    },
+    {
+      "name": "Mike Pompeo",
+      "note": "Voormalig Amerikaans minister die Poetin in apocalyptische termen plaatst",
+      "start_seconds": 2810,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Flynn",
+      "note": "Voormalig Amerikaans militair adviseur van Trump; apocalyptisch denken rond Poetin",
+      "start_seconds": 2810,
+      "mention_count": 1
+    },
+    {
+      "name": "Hal Lindsey",
+      "note": "Amerikaans eindtijdauteur die Gog en Magog met Rusland verbindt",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim LaHaye",
+      "note": "Auteur van de Left Behind-reeks over de rapture",
+      "start_seconds": 2875,
+      "mention_count": 1
     },
     {
       "name": "Bobby Sands",
-      "note": "Ierse hongerstaker, afgebeeld als Christus op murals",
-      "start_seconds": 1417,
-      "wiki_checked": true,
-      "wiki_pageid": 1135565,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bobby_Sands"
+      "note": "Ierse republikein en hongerstaker, afgebeeld als Christusfiguur in murals",
+      "start_seconds": 1380,
+      "mention_count": 2
+    },
+    {
+      "name": "Werner Tübke",
+      "note": "DDR-kunstenaar die het panorama van de Boerenoorlog maakte",
+      "start_seconds": 2380,
+      "mention_count": 2
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier met nationalistische en autoritaire trekken",
+      "start_seconds": 3055,
+      "mention_count": 1
+    },
+    {
+      "name": "Marine Le Pen",
+      "note": "Franse politica van nationalistische partij",
+      "start_seconds": 3058,
+      "mention_count": 1
+    },
+    {
+      "name": "Andries Zoutendijk",
+      "note": "Nederlandse dominee die preekte over het zwaard uit Hebreeën 4",
+      "start_seconds": 3137,
+      "mention_count": 1
+    },
+    {
+      "name": "Reinhart Koselleck",
+      "note": "Duitse historicus die de Sattelzeit beschreef",
+      "start_seconds": 2000,
+      "mention_count": 1
+    },
+    {
+      "name": "Dmitri Adamski",
+      "note": "Auteur van Russian Nuclear Orthodoxy",
+      "start_seconds": 3509,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnold Grunberg",
+      "note": "Schrijver die de saaie democratie verdedigde",
+      "start_seconds": 2990,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Apocalyptic Imagination",
       "author": "John Collins",
-      "note": "Standaardwerk over apocalyptische literatuur",
-      "start_seconds": 1837,
-      "volume_id": "8Ri3EQAAQBAJ",
-      "canonical_title": "The Apocalyptic Imagination: An Introduction to Jewish Apocalyptic Literature",
-      "canonical_author": "John J. Collins",
-      "isbn13": "9781467445177",
-      "isbn10": "1467445177",
-      "thumbnail": "http://books.google.com/books/content?id=8Ri3EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Standaardwerk over apocalyptische literatuur uit 1997",
+      "start_seconds": 1834,
+      "volume_id": "_iJNIAAACAAJ",
+      "canonical_title": "The Apocalyptic Imagination: An Introduction to the Jewish Matrix of Christianity",
+      "canonical_author": "John Joseph Collins",
+      "isbn13": "9780824508487",
+      "isbn10": "0824508483",
+      "thumbnail": ""
     },
     {
       "title": "De Apocalypse van Vladimir",
       "author": "",
-      "note": "Russische roman uit 2007 waarin Poetin tsaar en profeet is",
-      "start_seconds": 1149
+      "note": "Russische roman uit 2007 waarin Poetin als profeet en tsaar verschijnt",
+      "start_seconds": 1139
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "note": "Militair strategisch werk waaruit Rob de Wijk over de gouden brug citeert",
+      "start_seconds": 742,
+      "volume_id": "sIiAzQEACAAJ",
+      "canonical_title": "Sun Tzu The Art of War",
+      "canonical_author": "Sun Tzu",
+      "isbn13": "9798630674203",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=sIiAzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Russian Nuclear Orthodoxy: Religion, Politics and Strategy",
+      "author": "Dmitri Adamski",
+      "note": "Analyse van het nucleaire religieuze complex in Rusland",
+      "start_seconds": 3509
+    },
+    {
+      "title": "Left Behind",
+      "author": "Tim LaHaye",
+      "note": "Amerikaanse rapture-films en -boeken",
+      "start_seconds": 2879,
+      "volume_id": "qmhcxwvDCjcC",
+      "canonical_title": "Left Behind: A Novel of the Earth's Last Days",
+      "canonical_author": "Tim LaHaye, Jerry B. Jenkins",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=qmhcxwvDCjcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Liber Figurarum",
+      "author": "Joachim van Fiore",
+      "note": "Plaatjesboek met visuele voorstellingen van de geschiedenis",
+      "start_seconds": 2567,
+      "volume_id": "zv8EtwAACAAJ",
+      "canonical_title": "Liber figurarum",
+      "canonical_author": "Joachim (of Fiore), Salvatore Angelo Oliverio",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Johannes 15:13",
-      "note": "Poetin citeerde 'geen grotere liefde' ter ondersteuning van het leger",
+      "note": "Poetin citeert dit om de offerbereidheid van soldaten te steunen",
+      "start_seconds": 1186
+    },
+    {
+      "ref": "Johannes 15",
+      "note": "Bijbelcitaat over geen grotere liefde dan je leven geven voor je vrienden",
       "start_seconds": 1201
     },
     {
-      "ref": "Openbaring",
-      "note": "Hemelse troonzaal en eindtijdvisie als voorbeeld van apocalyptiek",
-      "start_seconds": 1807
+      "ref": "Genesis 9",
+      "note": "Verbond van God met Noach, door Müntzer-aanhangers gebruikt bij de regenboogvlag",
+      "start_seconds": 2333
     },
     {
       "ref": "Daniël",
-      "note": "Apocalyptisch bijbelboek uit Joodse kring",
-      "start_seconds": 1838
+      "note": "Apocalyptisch bijbelboek uit de tweede eeuw v.Chr.",
+      "start_seconds": 1851
+    },
+    {
+      "ref": "Openbaring",
+      "note": "Centraal apocalyptisch bijbelboek met visioenen over de eindtijd",
+      "start_seconds": 1816
+    },
+    {
+      "ref": "Openbaring 19",
+      "note": "Tweesnijdend zwaard uit de mond van Jezus als het zwaard dat het pleit beslecht",
+      "start_seconds": 3157
+    },
+    {
+      "ref": "Hebreeën 4",
+      "note": "Tweesnijdend zwaard van het woord dat ziel en geest doordringt",
+      "start_seconds": 3159
+    },
+    {
+      "ref": "Lucas 22:36",
+      "note": "Jezus over het kopen van een zwaard voor de discipelen",
+      "start_seconds": 3172
+    },
+    {
+      "ref": "Ezechiël",
+      "note": "Profetie over Gog en Magog, door Amerikaanse eindtijdauteurs met Rusland verbonden",
+      "start_seconds": 2894
     }
   ],
   "places": [
@@ -220,131 +314,157 @@
     "Kiev",
     "Moskou",
     "Den Haag",
-    "Constantinopel",
-    "Noord-Ierland",
-    "Athos",
     "Putten",
-    "Korea",
+    "Hawija",
+    "Constantinopel",
+    "Münster",
+    "Frankenhausen",
+    "Noord-Ierland",
+    "Atos",
+    "Calabrië",
+    "Dresden",
     "Vietnam",
+    "Korea",
     "Afghanistan",
-    "Münster"
+    "Irak",
+    "Indonesië",
+    "Turkije",
+    "Duitsland",
+    "Oxford"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Beatrice de Graaf en Stefan Paas hoe de oorlog in Oekraïne grimmiger wordt en steeds meer in apocalyptische taal wordt gehuld. Ze bekijken de Russische retoriek van Poetin en Kirill via de geschiedenis en theologie van de apocalyptiek. Conclusie: politiek-apocalyptische visioenen lopen historisch zelden goed af.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe de oorlog in Oekraïne steeds grimmiger wordt en hoe apocalyptische taal van Poetin en de Russische kerk de escalatie kan voeden. Ze zetten de Russische visie op de eindstrijd af tegen de Europese en Amerikaanse traditie en tonen aan dat politiek apocalyptisch denken historisch zelden goed afloopt. Tegelijk pleiten ze voor deëscalatie en nuchtere diplomatie.",
   "summary_points": [
-    "De oorlog radicaliseert: van denazificatie naar de-ukrainisering van het hele land",
-    "Oorlogsmisdaden in Butsja zijn volgens De Graaf onderdeel van het systeem, geen incident",
-    "Discussie over de vergelijking met andere oorlogen en het verschil in gesanctioneerd geweld",
-    "Morele vraag of je een gouden brug voor Poetin moet bouwen of nog moet onderhandelen",
-    "Poetin citeert Johannes 15 en Kirill spreekt over een heilige strijd, wat Paas blasfemisch noemt",
-    "Het idee van Moskou als derde Rome en Poetin als weerhouder (katechon)",
-    "Apocalyptiek als crisisliteratuur en sociaal-psychologisch copingmechanisme bij vernedering",
-    "Van joodse apocalyptiek naar seculiere varianten bij Marx, nationalisme en fascisme",
-    "Apocalyptische bewegingen in West-Europa, zoals Müntzer en de wederdopers, liepen slecht af"
+    "De oorlog in Oekraïne wordt steeds gruwelijker, met Butsja als keerpunt in de publieke perceptie",
+    "Het Russische discours verschuift van denazificatie naar de-ukrainisering, waarmee het hele land en zijn bevolking als vijand worden neergezet",
+    "Poetin citeert de Bijbel (Johannes 15) om opoffering van soldaten en burgers te rechtvaardigen",
+    "Patriarch Kirill en Russische denkers zoals Dugin plaatsen de oorlog in een heilige strijd van licht tegen duisternis",
+    "Apocalyptiek ontstond in de joodse traditie en kent een lineaire geschiedenis met een eindstrijd en een vredesrijk",
+    "Geschiedenis van Münster en de Duitse boerenoorlog laat zien hoe apocalyptische visioenen tot bloedbaden leiden",
+    "Politieke omzetting van apocalyptiek in het nationalisme, communisme en nazisme toont het gevaar van seculiere eindtijdvisies",
+    "Amerikaanse rapture-denkers zien Poetin als instrument van God, wat de escalatie kan versterken",
+    "Openbaring legt het geweld bij God en roept niet op tot geweld, wat een tegenwicht biedt",
+    "Deëscalatie, een gouden brug en nuchtere politiek worden genoemd als alternatief voor apocalyptisch fatalisme"
   ],
   "chapters": [
     {
-      "start_seconds": 44,
-      "title": "Een grimmiger oorlog",
-      "summary": "Na Butsja radicaliseert de Russische retoriek en praktijk, tot een de-ukrainisering van het hele land."
+      "start_seconds": 0,
+      "title": "Inleiding en de oorlog in maand twee",
+      "summary": "David Boogerd introduceert het gesprek over apocalyptiek en de grimmiger wordende oorlog in Oekraïne."
     },
     {
-      "start_seconds": 420,
-      "title": "Oorlogsmisdaden in perspectief",
-      "summary": "De Graaf en Paas debatteren over of dit geweld gebruikelijk is in oorlogen of systematisch."
+      "start_seconds": 157,
+      "title": "Escalatie en de-ukrainisering",
+      "summary": "De gesprekspartners bespreken hoe het Russische discours verschuift en hoe de oorlog radicaliseert."
     },
     {
-      "start_seconds": 725,
-      "title": "Gouden brug of niet",
-      "summary": "De morele en tactische vraag hoe een staakt-het-vuren te bereiken, met voorbeelden uit Korea en Vietnam."
+      "start_seconds": 583,
+      "title": "Oorlogsmisdaden en morele verschillen",
+      "summary": "Er wordt gedebatteerd over of geweld in oorlogen structureel is en over het verschil tussen incidenten en gesanctioneerd beleid."
     },
     {
-      "start_seconds": 1118,
-      "title": "Poetin serieus nemen",
-      "summary": "Historische parallellen met Hitler en Stalin en de roman De Apocalypse van Vladimir."
+      "start_seconds": 782,
+      "title": "Gouden brug en mogelijkheden tot staakt-het-vuren",
+      "summary": "Het gesprek gaat over of Poetin nog een uitweg kan krijgen en welke historische voorbeelden deëscalatie laten zien."
     },
     {
-      "start_seconds": 1180,
-      "title": "Religie in de Russische oorlogsretoriek",
-      "summary": "Poetins Bijbelcitaat, Kirills preek en de kathedraal van de strijdkrachten."
+      "start_seconds": 1186,
+      "title": "Bijbelcitaten en de Russische kerk",
+      "summary": "Poetin citeert Johannes 15 en Kirill preekt over een heilige strijd; de theologische lading wordt besproken."
     },
     {
-      "start_seconds": 1470,
-      "title": "Apocalyptiek en het derde Rome",
-      "summary": "De katechon, Dugin en de mythe van Moskou als laatste baken van licht."
+      "start_seconds": 1806,
+      "title": "Geschiedenis van apocalyptiek",
+      "summary": "Apocalyptiek wordt in zijn oorsprong verklaard, met aandacht voor Daniël, Openbaring en lineaire geschiedsvisie."
     },
     {
-      "start_seconds": 1800,
-      "title": "Geschiedenis van de apocalyptiek",
-      "summary": "Van joodse apocalyptische literatuur naar seculiere heilsverwachtingen en middeleeuwse en vroegmoderne bewegingen."
+      "start_seconds": 2170,
+      "title": "Münster, boerenopstand en seculiere apocalyptiek",
+      "summary": "Thomas Müntzer, de Duitse boerenoorlog en de DDR-herinterpretatie laten zien hoe apocalyptiek politiek wordt."
+    },
+    {
+      "start_seconds": 2760,
+      "title": "Amerikaanse rapture-cultuur en Trump",
+      "summary": "De Amerikaanse eindtijdbewegingen en hun rol in het politieke denken over Poetin en de oorlog worden besproken."
+    },
+    {
+      "start_seconds": 3120,
+      "title": "Openbaring, geweld en slot",
+      "summary": "De gesprekspartners onderzoeken hoe Openbaring geweld relativeert, en eindigen met een oproep tot deëscalatie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1,
+      "start_seconds": 984,
+      "speaker": "Beatrice de Graaf",
+      "text": "Wie zou nou een wereld willen zonder Rusland?",
+      "note": "Ze haalt Poetins eigen woorden aan en laat zien hoe narcistisch en apocalyptisch zijn retoriek is."
+    },
+    {
+      "start_seconds": 29,
       "speaker": "Stefan Paas",
-      "text": "Politiek apocalyptische visioenen lopen eigenlijk altijd slecht af, want men stopt pas als alles dood is.",
-      "note": "Sombere kernstelling van de aflevering."
+      "text": "Politiek apocalyptische visioenen lopen altijd slecht af; men stopt pas als alles dood is.",
+      "note": "Een scherpe, sombere conclusie die het hele gesprek samenvat."
     },
     {
-      "start_seconds": 384,
-      "speaker": "Beatrice de Graaf",
-      "text": "Er is een soort Endkampfstimmung, waarin alles geoorloofd is om elkaar te vernietigen.",
-      "note": "Typeert de sfeer van de oorlog."
-    },
-    {
-      "start_seconds": 1247,
+      "start_seconds": 1272,
       "speaker": "Stefan Paas",
-      "text": "Die tekst gaat over Jezus die zichzelf overgeeft voor zijn volk, niet andersom.",
-      "note": "Theologische kritiek op Poetins gebruik van Johannes 15."
+      "text": "Dat is puur blasfemisch.",
+      "note": "Scherp oordeel over Poetins gebruik van het Bijbelcitaat om soldaten op te offeren."
     },
     {
-      "start_seconds": 1149,
+      "start_seconds": 3239,
       "speaker": "Beatrice de Graaf",
-      "text": "In 2007 verscheen in Rusland een roman, De Apocalypse van Vladimir, waarin Poetin tsaar en profeet is.",
-      "note": "Laat zien dat het apocalyptische denken al lang voorbereid was."
+      "text": "Bij Openbaringen gaat het juist niet om the last man standing.",
+      "note": "Een theologische tegenstem die de eindstrijd anders leest dan de Russische en Amerikaanse traditie."
     },
     {
-      "start_seconds": 1708,
-      "speaker": "Beatrice de Graaf",
-      "text": "Het is een sociaal copingmechanisme: je plugt jezelf in een metafysisch verhaal waarin je ineens weer de held bent.",
-      "note": "Verklaart de psychologische aantrekkingskracht van apocalyptiek."
+      "start_seconds": 3402,
+      "speaker": "Stefan Paas",
+      "text": "Het loopt nooit goed af als religie en staat vermengd raken met politieke eindtijdvisioenen.",
+      "note": "Maakt duidelijk waarom de politisering van apocalyptiek volgens hem zo gevaarlijk is."
     }
   ],
   "keywords": [
     "apocalyptiek",
-    "Oekraïne",
-    "Poetin",
-    "Patriarch Kirill",
-    "katechon",
-    "derde Rome",
-    "oorlogsmisdaden",
-    "Butsja",
-    "Dugin",
-    "eindtijd",
+    "Oekraïne-oorlog",
+    "de-ukrainisering",
+    "eindstrijd",
+    "gouden brug",
+    "Openbaring",
+    "Katechon",
+    "Derde Rome",
+    "Thomas Müntzer",
+    "rapture",
     "politieke theologie",
-    "de-ukrainisering"
+    "religie en staat"
   ],
-  "quotes": [],
+  "quotes": [
+    "Maakt dit krachten los die straks niet meer te temmen zijn?",
+    "Kan dit nog goed aflopen?",
+    "Wat leert de geschiedenis en de theologie daarover?"
+  ],
   "similar": [
     {
-      "n": 254,
-      "reason": "Apocalyptische oorlog Israël-Iran-Gaza, met Beatrice de Graaf en Stefan Paas"
-    },
-    {
-      "n": 81,
-      "reason": "Eén week oorlog in Oekraïne, De Graaf en Paas, religieuze duiding"
-    },
-    {
       "n": 79,
-      "reason": "Poetin, de kerk en religieuze geschiedenis achter het conflict met Oekraïne"
+      "reason": "Poetin, de Russische kerk en religieuze geschiedenis van het Rusland-Oekraïne-conflict"
     },
     {
-      "n": 317,
-      "reason": "Terugkeer van de goden in de wereldpolitiek: Poetin, relieken, religie en oorlog"
+      "n": 275,
+      "reason": "Russische dreiging, geloof en geschiedenis met Beatrice de Graaf en Stefan Paas"
     },
     {
       "n": 82,
-      "reason": "Russisch-Orthodoxe kerk die Poetin steunt, oorlog in Oekraïne"
+      "reason": "Russisch-orthodoxe kerk die Poetin steunt en de oorlog rechtvaardigt"
+    },
+    {
+      "n": 80,
+      "reason": "Oorlog in Europa besproken door Beatrice de Graaf en Stefan Paas"
+    },
+    {
+      "n": 81,
+      "reason": "Hoe één week oorlog de wereld verandert, met geschiedenis en geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,64 +1,89 @@
 {
   "episode": 310,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 154281,
+    "segments": 1892,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32518,
-    "output_tokens": 2105,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 82277,
+    "output_tokens": 6367,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "God & geloof",
-    "Zingeving & psyche",
-    "Kerk & secularisatie"
+    "Islam & jodendom",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Mirjam Polak"
   ],
   "people": [
     {
+      "name": "Augustinus",
+      "note": "Kerkvader; onderwerp van een vak dat Mirjam volgde en van de reflectie over zonde",
+      "start_seconds": 3904,
+      "mention_count": 2
+    },
+    {
+      "name": "Yasser Arafat",
+      "note": "Leider van de PLO, besproken in verband met de Libanese burgeroorlog",
+      "start_seconds": 3055,
+      "mention_count": 2
+    },
+    {
       "name": "Andrew Root",
-      "note": "theoloog wiens boek Mirjam gebruikte voor haar masterthesis",
+      "note": "Auteur van het boek dat Mirjam gebruikte voor haar onderzoek naar studenten in Beiroet",
       "start_seconds": 841,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Frank Boeijen",
-      "note": "genoemd als schrijver van 'Dorstvloer vol confetti' (in transcript 'Betreur'/'Frank'), boek over reformatorisch Zeeland; eigenlijk waarschijnlijk Frank Westerman-achtige verwijzing, auteur onzeker",
-      "start_seconds": 1611,
-      "wiki_checked": true
+      "name": "Heino Valken",
+      "note": "Sterrenkundige die op 22 september live in Ede te gast is bij De Ongelooflijke",
+      "start_seconds": 6660,
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "in angstbeelden van Mirjams jeugd rond de wederkomst",
-      "start_seconds": 1565,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Miranda Klaver",
+      "note": "Schreef een reactie op het stuk over de New Apostolic Reformation",
+      "start_seconds": 6679,
+      "mention_count": 1
+    },
+    {
+      "name": "Catherine van den Berg",
+      "note": "Schreef een stuk over een pelgrimage, aanbevolen als leestip",
+      "start_seconds": 6687,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Christopraxis",
+      "title": "Crystal Praxis",
       "author": "Andrew Root",
-      "note": "basis voor Mirjams masterthesis-onderzoek onder studenten in Beiroet",
-      "start_seconds": 841,
-      "volume_id": "bUOYAgAAQBAJ",
-      "canonical_title": "Christopraxis: A Practical Theology of the Cross",
-      "canonical_author": "Andrew Root",
-      "isbn13": "9781451484281",
-      "isbn10": "1451484283",
-      "thumbnail": "http://books.google.com/books/content?id=bUOYAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Gebruikt als basis voor Mirjams onderzoek naar studenten in Beiroet; titel zoals in transcript genoemd",
+      "start_seconds": 841
+    },
+    {
+      "title": "De Weg van Vrede",
+      "author": "Stefan Paas",
+      "note": "Boek van Stefan Paas; Mirjam noemt een passage over de christelijke boodschap als 'goed nieuws'",
+      "start_seconds": 6449,
+      "volume_id": "4QdLEQAAQBAJ",
+      "canonical_title": "De weg van vrede: Een rondleiding door het christelijk geloof",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789043542487",
+      "isbn10": "9043542482",
+      "thumbnail": "http://books.google.com/books/content?id=4QdLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "Dorstvloer vol confetti",
       "author": "",
-      "note": "boek over opgroeien in reformatorisch Zeeland; Mirjam had een andere ervaring",
-      "start_seconds": 1611,
+      "note": "Boek over de reformatorische opvoeding; auteur niet betrouwbaar uit transcript",
+      "start_seconds": 1602,
       "volume_id": "R8Q6AwEACAAJ",
       "canonical_title": "Dorsvloer vol confetti",
       "canonical_author": "Franca Treur",
@@ -67,140 +92,164 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Handelingen 10:34",
+      "note": "Petrus: Jezus Christus is gekomen voor alle volkeren; Mirjam las dit de ochtend van het gesprek met een sjiitische studente",
+      "start_seconds": 4166
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "Zout en licht; de favoriete passage van de sjiitische studente uit Dahiye",
+      "start_seconds": 4327
+    },
+    {
+      "ref": "Mattheus 25",
+      "note": "Oordeel naar de mens: hongerigen gevoed, dorstigen gelaafd, vreemdelingen geherbergd, gevangenen bezocht",
+      "start_seconds": 5257
+    }
+  ],
   "places": [
     "Libanon",
     "Beiroet",
-    "Zeeland",
+    "Zuid-Libanon",
     "Israël",
-    "Syrië",
-    "Turkije",
-    "Venezuela",
+    "Gaza",
+    "Tel Aviv",
     "Byblos",
     "Tyrus",
     "Sidon",
-    "Kadisha-vallei",
-    "Leiden",
-    "Rotterdam",
-    "Den Haag",
+    "Nablus",
+    "Westbank",
     "Iran",
-    "Schiphol"
+    "Damour",
+    "Sabra en Shatila",
+    "Dahiye",
+    "Zeeland",
+    "Vlissingen",
+    "Leiden"
   ],
-  "summary_tldr": "Mirjam Polak, opgegroeid in een reformatorisch gezin in Zeeland en nu werkzaam in Libanon, vertelt over leven met bombardementen, wantrouwen, angst en geloof. Ze beschrijft haar cultuurshock bij terugkeer in Nederland en hoe ze in Libanon terechtkwam na een scheiding en een gevoel van roeping. Ook haar pro-Israëlische opvoeding en haar religieuze angsten komen aan bod.",
+  "summary_tldr": "Mirjam Polak, oprichter van Light of Dawn en counselor aan de Haigazian University in Beiroet, vertelt over haar leven in Libanon, waar oorlog, economische crisis en religieuze verdeeldheid dagelijks voelbaar zijn. Ze reflecteert op haar reformatorische opvoeding met sympathie voor Israël, haar veranderende blik op de staat Israël en Hezbollah, en het contact met moslims die kwetsbaar, maar open in gesprek gaan. Ze eindigt met de vraag waar God te vinden is in een seculier Nederland.",
   "summary_points": [
-    "Mirjam ervaart na terugkeer uit Libanon een cultuurshock: vliegtuigen, treinen en de ANWB-auto triggeren oorlogsassociaties.",
-    "Een kennis noemde haar klinkend als een veteraan; ze herkent PTSS-achtige reacties en ergert zich aan het Nederlandse materialisme.",
-    "Bombardementen worden vaak vooraf aangekondigd via WhatsApp-kanalen; een aardbeving vond ze enger vanwege het controleverlies.",
-    "Libanese jongeren noemen naast oorlog ook de haven-explosie, COVID, de bankencrisis en social media als crises.",
-    "Libanon is een low-trust society met corruptie, ook bij NGO's, waardoor Mirjam zelf streng controleert bij haar stichting.",
-    "Ze groeide op in de gereformeerde gemeente met angst voor hel en wederkomst en een sterk pro-Israël narratief.",
-    "Haar werk bij de IND en een scheiding bereidden de stap naar Libanon voor, die ze als antwoord van God beleefde.",
-    "In 2022 vertrok ze met haar labrador naar Libanon, aanvankelijk voor een jaar."
+    "Mirjam ervaart in Nederland een cultuurshock: verkeersgedrag, overvloed en het ontbreken van oorlogsgeluiden vallen haar op",
+    "Ze spreekt van oorlogstrauma en angst; een militair gesproken hulpverlener noemde haar 'een veteraan'",
+    "Libanon kent diepe verdeeldheid tussen christenen, druzen, soennieten en sjiieten, en een bloedige burgeroorlog van 1975 tot 1990",
+    "Mirjam groeide op in een gereformeerde gemeente met sterke Israël-sympathie en dreigende hel-prediking",
+    "Haar blik op Israël is genuanceerder geworden; ze noemt theologische blinde vlekken en 'Israël-centered' denken grenzend aan afgoderij",
+    "Hezbollah wordt in Libanon steeds kritischer beoordeeld, ook door sjiieten zelf",
+    "Een gesprek met een sjiitische studente over het Nieuwe Testament laat zien hoe Christus-gericht spreken verbinding kan brengen",
+    "Mirjam pleit voor schaamteloos en moedig christen zijn, zonder cultuurstrijd of christelijk nationalisme",
+    "Ze ziet in Libanon een levendiger, collectiever en God-doordrongen leven dan in Nederland"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Intro en cultuurshock",
-      "summary": "Introductie van Mirjam Polak en haar cultuurshock na terugkeer uit Libanon."
+      "title": "Cultuurshock en de sporen van oorlog",
+      "summary": "Mirjam vertelt over de cultuurshock in Nederland, het verkeer, en hoe angst en trauma haar in Libanon zijn blijven achtervolgen."
     },
     {
-      "start_seconds": 418,
-      "title": "Oorlogsreflexen en materialisme",
-      "summary": "Over veteraangevoelens, Nederlands overvloed en armoede en rijkdom in Libanon."
+      "start_seconds": 1582,
+      "title": "Reformatorische opvoeding en angsten",
+      "summary": "Mirjam beschrijft haar jeugd in de gereformeerde gemeente, haar angsten rond de wederkomst en de pro-Israël sfeer thuis."
     },
     {
-      "start_seconds": 656,
-      "title": "Bombardementen, crises en jongeren",
-      "summary": "Aardbeving, aangekondigde bombardementen, explosie in de haven, COVID en de problemen van studenten."
+      "start_seconds": 2084,
+      "title": "Van scheiding naar Beiroet",
+      "summary": "Mirjam vertelt hoe een persoonlijke crisis en een spontane reis naar Beiroet leidden tot haar werk in Libanon."
     },
     {
-      "start_seconds": 1105,
-      "title": "Wantrouwen en corruptie",
-      "summary": "Spionagegrapjes, low-trust cultuur en corruptie bij NGO's."
+      "start_seconds": 2868,
+      "title": "Libanon: geschiedenis en religieuze verdeling",
+      "summary": "Het gesprek behandelt de Franse mandaatperiode, het confessionele systeem en de bloedige burgeroorlog met de rol van de PLO en christelijke milities."
     },
     {
-      "start_seconds": 1492,
-      "title": "Angst en reformatorische opvoeding",
-      "summary": "Religieuze angsten, wederkomst, opgroeien in Zeeland en pro-Israël sympathie."
+      "start_seconds": 3196,
+      "title": "Hezbollah, Israël en het complexe conflict",
+      "summary": "Hezbollah en Iran komen aan bod, evenals de verschillende posities van christenen, sjiieten en soennieten en de morele dilemma's."
     },
     {
-      "start_seconds": 1977,
-      "title": "Van IND naar Beiroet",
-      "summary": "Haar werk bij de IND, scheiding en de eerste reis naar Beiroet."
+      "start_seconds": 4080,
+      "title": "Een sjiitische studente en het Evangelie",
+      "summary": "Mirjam vertelt over een gesprek met een sjiitische studente, het Nieuwe Testament en de vraag of zij evangeliseert."
     },
     {
-      "start_seconds": 2420,
-      "title": "Roeping en verhuizing",
-      "summary": "Hoe het idee groeide om in Libanon te werken en het vertrek in 2022."
+      "start_seconds": 5324,
+      "title": "God in oorlog en in Nederland",
+      "summary": "Mirjam reflecteert op waar God te vinden is: in de ellende van Libanon, en waarom Nederland haar een kale, geseculariseerde ervaring geeft."
+    },
+    {
+      "start_seconds": 6517,
+      "title": "Theologie als roeping en afsluiting",
+      "summary": "Mirjam vertelt over haar theologische studie en mogelijk predikantschap, en het gesprek sluit af met mededelingen over de podcast."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 4443,
       "speaker": "Mirjam Polak",
-      "text": "Wordt heel vaak aan mij gevraagd: Are you a spy? En dan zeg ik: Yes, I am.",
-      "note": "Humoristische omgang met wantrouwen."
+      "text": "We vinden van elkaar dat we kanker zijn of etter en dat het dood moet.",
+      "note": "Ze beschrijft de wederzijdse dehumanisering tussen christenen en sjiieten, en de tegenstelling met Christus die daartussendoor zichtbaar is."
     },
     {
-      "start_seconds": 483,
+      "start_seconds": 5363,
       "speaker": "Mirjam Polak",
-      "text": "Je klinkt als een veteraan.",
-      "note": "Illustreert de impact van oorlog op haar."
+      "text": "Waar bent u, God, in Nederland? Waar kan ik u vinden?",
+      "note": "Ze beschrijft een gebed dat in Nederland opkomt, na de ellende in Libanon en de aangeharkte tuinen van Nederland."
     },
     {
-      "start_seconds": 1685,
+      "start_seconds": 4985,
       "speaker": "Mirjam Polak",
-      "text": "Nachtmerrie: Jezus op een wolk zegt 'Nee' als ze vraagt of ze bij hem mag horen.",
-      "note": "Rauw beeld van religieuze angst."
+      "text": "Ik kies de kant van Christus.",
+      "note": "Een korte, scherpe keuze in een land waar alle partijen om loyaliteit vragen."
     },
     {
-      "start_seconds": 1138,
+      "start_seconds": 5865,
       "speaker": "Mirjam Polak",
-      "text": "Ik vertrouw in de basis niemand helemaal in Libanon.",
-      "note": "Contrast met Nederlands vertrouwen."
-    },
-    {
-      "start_seconds": 2640,
-      "speaker": "Mirjam Polak",
-      "text": "Dat is gewoon een antwoord van God. Oké, Yalla, ik ga.",
-      "note": "Moment van roeping."
+      "text": "Ik heb geen zin meer om mij te schamen dat ik christen ben.",
+      "note": "Een persoonlijke uitspraak die laat zien hoe Libanon haar geloof heeft gevormd, ook in verhouding tot Nederland."
     }
   ],
   "keywords": [
     "Libanon",
-    "Beiroet",
+    "Hezbollah",
     "Israël",
+    "burgeroorlog",
     "reformatorisch",
-    "angst",
-    "oorlogstrauma",
-    "wederkomst",
-    "corruptie",
-    "NGO",
-    "Midden-Oosten",
-    "cultuurshock",
-    "Light of Dawn"
+    "bekering",
+    "islam",
+    "secularisatie",
+    "trauma",
+    "Christus-centraal denken",
+    "humanitaire hulp",
+    "Beiroet"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat heeft dat haar geleerd over angst, geloof en vijandschap?",
+    "Christenen, druzen en moslims naast elkaar leven - maar soms ook lijnrecht tegenover elkaar staan.",
+    "Zet je schrap voor een indrukwekkend en rauw verhaal - gelukkig ook met veel humor."
+  ],
   "similar": [
     {
-      "n": 159,
-      "reason": "Sinan Can in het Midden-Oosten: persoonlijke ervaringen met oorlog, geloof en het Midden-Oosten"
+      "n": 215,
+      "reason": "Zelfde thema's: Israël, Palestijnen, Islam en jodendom in het Midden-Oosten"
     },
     {
-      "n": 215,
-      "reason": "Kefah Allush over Palestijnen: Midden-Oosten, Israël en geloof vanuit persoonlijk perspectief"
+      "n": 214,
+      "reason": "Geopolitiek van het Israël-Hamasconflict, met God en Islam als thema's"
     },
     {
       "n": 324,
-      "reason": "Midden-Oostendeskundige over de huidige crisis in de regio, Israël en geloof"
+      "reason": "Midden-Oosten-duiding met geloof en geopolitieke crisis als kernthema's"
     },
     {
-      "n": 311,
-      "reason": "Gereformeerde predikant over God en lijden; refo-achtergrond en geloof in moeilijke tijden"
+      "n": 161,
+      "reason": "Aanval op Israël, Islam en jodendom; gedeelde gast Bart Wallet"
     },
     {
-      "n": 176,
-      "reason": "Franca Treur: opgegroeid in refo-milieu, haar verhouding tot geloof en kerk"
+      "n": 193,
+      "reason": "Iran, religie en geopolitiek in het Midden-Oosten, met Islam-invalshoek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

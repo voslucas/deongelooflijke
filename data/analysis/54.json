@@ -1,18 +1,23 @@
 {
   "episode": 54,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 76545,
+    "segments": 673,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30699,
-    "output_tokens": 2520,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 39160,
+    "output_tokens": 3132,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Kerk & secularisatie",
     "Zingeving & psyche",
-    "Geschiedenis"
+    "Kerk & secularisatie",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Nikolaas Sintobin"
@@ -20,233 +25,243 @@
   "people": [
     {
       "name": "Ignatius van Loyola",
-      "note": "oprichter van de jezuïeten, 16e-eeuws militair en bekeerling",
-      "start_seconds": 291,
-      "wiki_checked": true,
-      "wiki_pageid": 28961,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ignatius_van_Loyola",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/St_Ignatius_of_Loyola_%281491-1556%29_Founder_of_the_Jesuits.jpg/250px-St_Ignatius_of_Loyola_%281491-1556%29_Founder_of_the_Jesuits.jpg"
+      "note": "16e-eeuwse oprichter van de Jezuïeten en grondlegger van de Ignatiaanse spiritualiteit",
+      "start_seconds": 834,
+      "mention_count": 22
     },
     {
       "name": "Paus Franciscus",
-      "note": "huidige paus en jezuïet",
-      "start_seconds": 43,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "paus, lid van de Jezuïeten",
+      "start_seconds": 997,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, genoemd als grote bekeerling en over Gods nabijheid",
-      "start_seconds": 872,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader, genoemd door Stefan Paas over Gods nabijheid",
+      "start_seconds": 1697,
+      "mention_count": 1
     },
     {
       "name": "Franciscus van Assisi",
-      "note": "grote bekeerling die eerst een wild leven leidde",
-      "start_seconds": 872,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
-    },
-    {
-      "name": "Martin Luther",
-      "note": "tijdgenoot van Ignatius",
-      "start_seconds": 824,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "tijdgenoot van Ignatius",
-      "start_seconds": 824,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Stine Jensen",
-      "note": "eerdere gast over oosterse spiritualiteit",
-      "start_seconds": 1808,
-      "wiki_checked": true,
-      "wiki_pageid": 1230684,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stine_Jensen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Brainwash_Festival_2015_-_Stine_Jensen_%282%29.jpg/250px-Brainwash_Festival_2015_-_Stine_Jensen_%282%29.jpg"
-    },
-    {
-      "name": "Anton Sintobin",
-      "note": "tweelingbroer van Nikolaas, jurist en gehuwd",
-      "start_seconds": 766,
-      "wiki_checked": true
+      "note": "bekeerling en heilige, vergeleken met Ignatius",
+      "start_seconds": 870,
+      "mention_count": 1
     },
     {
       "name": "Jeff",
-      "note": "medebroeder jezuïet en hoogleraar die stierf aan leverkanker",
-      "start_seconds": 2820,
-      "wiki_checked": true
+      "note": "medebroeder van Sintobin die stervende was aan leverkanker",
+      "start_seconds": 2890,
+      "mention_count": 2
+    },
+    {
+      "name": "Alexander Klupping",
+      "note": "seculiere gast van een mediapodcast, voorbeeld van dagelijks opschrijven van goed gevoel",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Ersham Fout",
+      "note": "medepresentator van de mediapodcast over seculiere spiritualiteit",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther",
+      "note": "reformator, tijdgenoot van Ignatius",
+      "start_seconds": 2070,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "reformator, tijdgenoot van Ignatius",
+      "start_seconds": 2070,
+      "mention_count": 1
+    },
+    {
+      "name": "Anton",
+      "note": "tweelingbroer van Nikolaas Sintobin, jurist en gehuwd",
+      "start_seconds": 780,
+      "mention_count": 2
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "eerdere gast/auteur over oosterse spiritualiteit",
+      "start_seconds": 1812,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De geestelijke oefeningen",
       "author": "Ignatius van Loyola",
-      "note": "belangrijkste boek van Ignatius, over een leven lang oefenen",
-      "start_seconds": 1164,
+      "note": "belangrijkste boekje van Ignatius",
+      "start_seconds": 1170,
       "volume_id": "y2ijOwAACAAJ",
       "canonical_title": "De geestelijke oefeningen",
-      "canonical_author": "Ignatius van Loyola",
+      "canonical_author": "Ignacio (de Loyola.)",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "Vertrouw op je gevoel: Leren keuzes maken met Ignatius van Loyola",
+      "author": "Nikolaas Sintobin",
+      "note": "nieuwste boek van Sintobin",
+      "start_seconds": 3780,
+      "volume_id": "EaswzgEACAAJ",
+      "canonical_title": "Vertrouw op je gevoel: leren keuzes maken met Ignatius van Loyola",
+      "canonical_author": "Nikolaas Sintobin",
+      "isbn13": "9789043536011",
+      "isbn10": "9043536016",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 14:28-29",
+      "note": "Petrus die over het water loopt, door Ignatius overdacht tijdens zijn herstel",
+      "start_seconds": 960
+    }
+  ],
   "places": [
     "Amsterdam",
     "Kalverstraat",
-    "Leuven",
-    "Abdij van Leffe",
+    "Leffe",
     "Chili",
+    "Spaans Baskenland",
     "Antwerpen",
-    "Baskenland",
-    "Noord-Friesland"
+    "Leuven",
+    "Vlaanderen",
+    "Friesland"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met jezuïet en internetpastor Nikolaas Sintobin over spiritualiteit in een seculiere tijd. Sintobin vertelt hoe hij van advocaat jezuïet werd door een ervaring van vreugde en legt de Ignatiaanse onderscheiding uit. Ook komt aan bod hoe je in een druk leven toch spiritueel kunt zijn.",
+  "summary_tldr": "Nikolaas Sintobin, jezuïet en internetpastor, vertelt hoe hij van een talentvolle advocaat een spiritueel leven koos uit vreugde, geïnspireerd door de Ignatiaanse spiritualiteit. Het gesprek gaat over het onderscheiden van gevoelens, de rol van ervaring in een seculiere tijd en de vraag of spiritualiteit ook toegankelijk is voor niet-gelovigen. Ignatius van Loyola staat centraal als bron van deze praktijk.",
   "summary_points": [
-    "Sintobin vond God niet alleen in de kerk maar overal, ook in de Kalverstraat.",
-    "Zijn keuze voor het jezuïetenleven was een keuze voor vreugde, na een crisis in zijn geloof als student.",
-    "Ignatius van Loyola was een wilde militair en levensgenieter die bekeerd werd tijdens zijn ziekbed.",
-    "Bij de Ignatiaanse onderscheiding luister je naar diepe, duurzame vreugde als teken van Gods uitnodiging.",
-    "Het hart moet getraind en gevormd zijn, anders kunnen gevoelens misleiden.",
-    "Mystiek, de directe ontmoeting met God, is bijzonder kenmerkend voor het christendom.",
-    "Het levensgebed van enkele minuten per dag helpt je kleine vreugdes en patronen op te merken.",
-    "Onderscheiden is niet exclusief voor christenen; ook niet-gelovigen nemen beslissingen op gevoel.",
-    "Spiritualiteit draait volgens Sintobin om gelukkiger worden, samen met anderen.",
-    "De kerk wordt vaak als saai en routineus ervaren, wat volgens Sintobin vragen oproept over het geloofsleven zelf."
+    "Spiritualiteit wordt beschreven als het ervaren van God in alle dingen, ook buiten de kerk, zoals in de Kalverstraat.",
+    "Sintobin ontdekte als jonge volwassene de Ignatiaanse spiritualiteit en koos na een ervaring van vreugde voor het jezuïetschap.",
+    "Ignatius van Loyola kwam via dagdromen na zijn kanonskogelverwonding tot zijn bekering en de methode van onderscheiding.",
+    "Onderscheiden betekent letten op duurzame vreugde versus tijdelijk goed gevoel, zoals het voorbeeld van pesten laat zien.",
+    "Gevoelens moeten getraind en uitgezuiverd worden; het gebedsleven is daarbij essentieel.",
+    "Secularisatie maakt de persoonlijke ervaring belangrijker als plek van Gods roeping.",
+    "Stefan Paas stelt dat God vaak verborgen is maar niet ver weg; het leven is te gehaast om zijn stille stem te horen.",
+    "Het christelijk geloof draait om een persoonlijke band met Jezus, niet om waarden en normen.",
+    "Het levensgebed van enkele minuten per dag wordt aangeraden als toegankelijke oefening voor iedereen.",
+    "Het gesprek eindigt met de oproep om elke dag 2 tot 5 minuten te danken, sorry te zeggen en alstublieft."
   ],
   "chapters": [
     {
-      "start_seconds": 43,
-      "title": "God vinden in de Kalverstraat",
-      "summary": "Introductie van de gast en gesprek over of je God in kerk of in de gewone wereld vindt. Stefan en David vertellen over hun eigen spiritualiteit."
+      "start_seconds": 0,
+      "title": "Introductie en persoonlijke openingen",
+      "summary": "David Boogerd vertelt dat spiritualiteit voor hem een blinde vlek is; Sintobin herkent zich in die hopeloze gevallen."
     },
     {
-      "start_seconds": 407,
+      "start_seconds": 300,
+      "title": "God vinden in de seculiere wereld",
+      "summary": "Sintobin beschrijft God vinden in de stad, en Paas reageert kritisch op het idee dat dat gemakkelijk is."
+    },
+    {
+      "start_seconds": 420,
       "title": "Van advocaat naar jezuïet",
-      "summary": "Sintobin vertelt over zijn geloofscrisis, de ontdekking van Ignatiaanse spiritualiteit en zijn keuze voor vreugde."
+      "summary": "Sintobin vertelt over zijn kantelpunt, een studentengroep, de Ignatiaanse oefeningen en de keuze voor vreugde."
     },
     {
-      "start_seconds": 797,
-      "title": "Het leven van Ignatius van Loyola",
-      "summary": "Over Ignatius als wilde militair, zijn bekering na de kanonskogel en de onderscheiding van vreugde."
+      "start_seconds": 834,
+      "title": "Ignatius van Loyola",
+      "summary": "Het leven van Ignatius: van wilde edelman tot ordenstichter na zijn kanonskogelverwonding en bekering."
     },
     {
-      "start_seconds": 1198,
-      "title": "Gevoel, onderscheiding en de handtekening van God",
-      "summary": "Hoe je betrouwbare vreugde onderscheidt van oppervlakkig plezier en waarom het hart geoefend moet zijn."
+      "start_seconds": 1170,
+      "title": "Gevoel en onderscheiding",
+      "summary": "Gesprek over het onderscheiden van gevoelens, het verschil tussen oppervlakkig en duurzaam goed gevoel, en het wantrouwen van gevoelens."
     },
     {
-      "start_seconds": 1479,
+      "start_seconds": 1900,
       "title": "Spiritualiteit onder druk",
-      "summary": "Over secularisatie, haast, oosterse spiritualiteit en de eigenheid van christelijke mystiek."
+      "summary": "Secularisatie, gehaaste tijden en de vraag waarom de kerk als saai wordt ervaren; Paas en Sintobin bespreken de kwaliteit van geloofsleven."
     },
     {
-      "start_seconds": 1962,
-      "title": "Een ervaring van overvloedige vreugde",
-      "summary": "Sintobin vertelt over zijn retraite in Chili en zijn ervaringen van vreugde."
+      "start_seconds": 2700,
+      "title": "Toegankelijkheid en het levensgebed",
+      "summary": "Praktische oefeningen zoals het levensgebed, en de vraag of niet-gelovigen er ook baat bij hebben."
     },
     {
-      "start_seconds": 2220,
-      "title": "Een saaie kerk en het levensgebed",
-      "summary": "Kritiek op de kerk als routineus en een praktische methode voor drukke mensen: het levensgebed."
-    },
-    {
-      "start_seconds": 2624,
-      "title": "Gevoel wantrouwen of vertrouwen en waarom spiritueel zijn",
-      "summary": "Over diepere gevoelslagen, het sterven van Jeff en het antwoord dat spiritualiteit gelukkiger maakt."
+      "start_seconds": 3500,
+      "title": "Afsluiting: danken, sorry, alstublieft",
+      "summary": "Concrete tips om klein te beginnen; Ignatius bad elk uur, en het gesprek eindigt met de oproep tot dankbaarheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2039,
+      "start_seconds": 2010,
       "speaker": "Nikolaas Sintobin",
-      "text": "In 30 jaar als jezuïet heb ik 3 of 4 van zulke ervaringen gehad, samen 20 minuten. Dat is voldoende.",
-      "note": "Een nuchtere en ontwapenende kijk op mystieke ervaring."
+      "text": "De taal die God vandaag spreekt, is de taal van de ervaring van de mens. Ik noem dat graag het vijfde evangelie.",
+      "note": "Een treffende manier om persoonlijke ervaring als plek van Gods stem te duiden in een seculiere tijd."
     },
     {
-      "start_seconds": 925,
+      "start_seconds": 2880,
       "speaker": "Nikolaas Sintobin",
-      "text": "Ignatius was bepaald geen vroom jongetje: een wilde jongen en professionele levensgenieter.",
-      "note": "Doorbreekt het beeld van heiligen als brave figuren."
+      "text": "De enige reden waarom ik jezuït ben geworden, is om meer gelukkig te worden.",
+      "note": "Een eerlijke, ongebruikelijk persoonlijke motivatie die spiritualiteit in het dagelijks leven verankert."
     },
     {
-      "start_seconds": 1558,
-      "speaker": "Nikolaas Sintobin",
-      "text": "De taal die God vandaag spreekt is de taal van de ervaring van de mens. Ik noem dat het vijfde evangelie.",
-      "note": "Kernidee van de Ignatiaanse spiritualiteit voor deze tijd."
+      "start_seconds": 2550,
+      "speaker": "Stefan Paas",
+      "text": "Gods verborgen zijn betekent niet per se dat God ver weg is.",
+      "note": "Een scherpe theologische correctie: verborgenheid en afstand zijn niet hetzelfde."
     },
     {
-      "start_seconds": 2820,
+      "start_seconds": 2950,
       "speaker": "Nikolaas Sintobin",
-      "text": "Zijn medebroeder Jeff zei vlak voor zijn dood: 'Mission accomplished.'",
-      "note": "Ontroerend voorbeeld van diepe vreugde bij sterven."
+      "text": "Mission accomplished.",
+      "note": "De laatste woorden van de stervende medebroeder Jeff, die de kracht van innerlijke verbondenheid illustreren."
     },
     {
-      "start_seconds": 2977,
+      "start_seconds": 3620,
       "speaker": "Nikolaas Sintobin",
-      "text": "De enige reden waarom ik jezuïet ben geworden, is om gelukkiger te worden.",
-      "note": "Verrassend direct antwoord op de vraag wat je aan spiritualiteit hebt."
+      "text": "Humaniora. Meer mens worden. Niet Christianora, Humaniora.",
+      "note": "Een pakkende samenvatting van het doel van de Jezuïeten: meer mens worden."
     }
   ],
   "keywords": [
-    "Spiritualiteit",
+    "Ignatiaanse spiritualiteit",
+    "onderscheiding",
+    "vreugde",
     "Ignatius van Loyola",
-    "Jezuïeten",
-    "Onderscheiding",
-    "Vreugde",
-    "Mystiek",
-    "Levensgebed",
-    "Secularisatie",
-    "Geestelijke oefeningen",
-    "Katholicisme",
-    "Geluk"
+    "jezuïeten",
+    "gebedsleven",
+    "levensgebed",
+    "secularisatie",
+    "persoonlijke ervaring",
+    "mystiek",
+    "gevoel",
+    "roeping"
   ],
-  "quotes": [],
+  "quotes": [
+    "De taal die God vandaag spreekt, is de taal van de ervaring van de mens. Ik noem dat graag het vijfde evangelie.",
+    "De enige reden waarom ik jezuït ben geworden, is om meer gelukkig te worden.",
+    "Gods verborgen zijn betekent niet per se dat God ver weg is."
+  ],
   "similar": [
     {
-      "n": 308,
-      "reason": "Zingeving en vreugde zoeken in een uitgeputte, betekenisloze seculiere wereld."
-    },
-    {
-      "n": 177,
-      "reason": "Zoektocht naar een eenvoudiger leven en spiritualiteit, monniken en klooster."
+      "n": 19,
+      "reason": "Spiritualiteit buiten kerk, seculiere context, en Stine Jensen wordt ook genoemd"
     },
     {
       "n": 71,
-      "reason": "Monnik en Theoloog des Vaderlands over God zoeken in het klooster."
+      "reason": "Spirituele praktijk en God zoeken, kloosterspiritualiteit als verwant thema"
     },
     {
-      "n": 323,
-      "reason": "Franciscus van Assisi en spirituele radicaliteit in deze tijd."
+      "n": 32,
+      "reason": "Geloof vinden in een ongelovige tijd, sterk verwant aan de seculiere vraagstelling"
     },
     {
-      "n": 117,
-      "reason": "Zingeving en religieuze betekenis zoeken in een druk, seculier leven."
+      "n": 177,
+      "reason": "Zoektocht naar eenvoud en spiritualiteit in de moderne, gehaaste mens"
+    },
+    {
+      "n": 33,
+      "reason": "Zingeving, geluk en het goede leven, met Dirk de Wachter over seculiere zingeving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

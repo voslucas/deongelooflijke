@@ -1,18 +1,23 @@
 {
   "episode": 206,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 121415,
+    "segments": 1191,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30767,
-    "output_tokens": 2202,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62187,
+    "output_tokens": 8871,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Filosofie & ethiek",
+    "God & geloof",
     "Samenleving & migratie",
-    "Economie & geld"
+    "Gezin & relaties"
   ],
   "guests": [
     "Frank Mulder"
@@ -20,240 +25,283 @@
   "people": [
     {
       "name": "Jacques Ellul",
-      "note": "Franse denker over 'la technique', grote inspiratiebron van Frank Mulder",
-      "start_seconds": 1190,
-      "wiki_checked": true,
-      "wiki_pageid": 82172,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jacques_Ellul",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jacques_Ellul_crop.jpg/250px-Jacques_Ellul_crop.jpg"
+      "note": "Franse denker (1912-1994) over techniek als systeem; belangrijkste inspiratiebron van de aflevering",
+      "start_seconds": 33,
+      "mention_count": 25
     },
     {
       "name": "Wendell Berry",
-      "note": "Amerikaanse dichter en boer, pleitbezorger van low-tech gereedschap",
-      "start_seconds": 543,
-      "wiki_checked": true
+      "note": "Amerikaanse dichter en denker die op een boerderij leeft en low-tech gereedschap verkiest",
+      "start_seconds": 535,
+      "mention_count": 4
     },
     {
       "name": "Aldous Huxley",
-      "note": "Schrijver van Brave New World",
-      "start_seconds": 1266,
-      "wiki_checked": true,
-      "wiki_pageid": 111500,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aldous_Huxley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Aldous_Huxley_1927.png/250px-Aldous_Huxley_1927.png"
+      "note": "Auteur van Brave New World, een dystopie over een gelukzuchtige maatschappij",
+      "start_seconds": 1267,
+      "mention_count": 2
     },
     {
       "name": "C.S. Lewis",
-      "note": "Schrijver van The Abolition of Man",
-      "start_seconds": 1403,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Auteur van The Abolition of Man, over de ondergang van de mens onder techniek",
+      "start_seconds": 1387,
+      "mention_count": 1
     },
     {
       "name": "Max Weber",
-      "note": "Socioloog, bedenker van de 'ijzeren kooi' van rationaliteit",
+      "note": "Socioloog die de ijzeren kooi van rationaliteit beschreef",
       "start_seconds": 1410,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Evgeny Morozov",
-      "note": "Internetcriticus, schreef over westerse tv en verzet in de DDR",
-      "start_seconds": 1503,
-      "wiki_checked": true,
-      "wiki_pageid": 4076706,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Evgeny_Morozov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Wer_kann_die_neue_Zukunft_machen%3F_%2817333061348%29.jpg/250px-Wer_kann_die_neue_Zukunft_machen%3F_%2817333061348%29.jpg"
+      "name": "Karl Marx",
+      "note": "Filosoof en econoom; Ellul staat in zijn traditie van kapitaalkritiek",
+      "start_seconds": 3318,
+      "mention_count": 3
+    },
+    {
+      "name": "Karl Barth",
+      "note": "Zwitserse theoloog die Ellul beïnvloedde en verzet tegen massa-ideologieën voedde",
+      "start_seconds": 3379,
+      "mention_count": 2
     },
     {
       "name": "Jonathan Haidt",
-      "note": "Sociaal psycholoog, auteur van The Anxious Generation",
+      "note": "Amerikaanse sociaal psycholoog, auteur van The Anxious Generation over smartphones en jongeren",
       "start_seconds": 1855,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
+      "mention_count": 2
     },
     {
       "name": "Esther van Veenema",
-      "note": "Psychiater, eerder gast over smartphones en jongeren",
+      "note": "Psychiater die eerder in de podcast te gast was over smartphones en jongeren",
       "start_seconds": 1849,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Evgeny Morozov",
+      "note": "Internetkriticus die schreef over de afleidende werking van media",
+      "start_seconds": 1503,
+      "mention_count": 1
+    },
+    {
+      "name": "Hannah Ritchie",
+      "note": "Onderzoeker die in een boek over klimaat stelt dat stedelijk wonen ecologisch efficiënter is",
+      "start_seconds": 2666,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Schendelen",
+      "note": "Politicoloog die eerder in de podcast te gast was over duurzaamheid en eenvoudig leven",
+      "start_seconds": 2760,
+      "mention_count": 2
+    },
+    {
+      "name": "Theodore Dalrymple",
+      "note": "Psychiater die schreef over de negatieve gevolgen van de seksuele revolutie voor de Engelse onderklasse",
+      "start_seconds": 2907,
+      "mention_count": 1
+    },
+    {
+      "name": "Bob Goudswaard",
+      "note": "Econoom en aanhanger van Ellul, overleden",
+      "start_seconds": 3159,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul van Buiten",
+      "note": "Klokkenluider die fraude in de Europese Commissie aan het licht bracht",
+      "start_seconds": 3878,
+      "mention_count": 6
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof die de mens als beheerser van de natuur zag",
+      "start_seconds": 4368,
+      "mention_count": 1
+    },
+    {
+      "name": "Francis Bacon",
+      "note": "Filosoof die kennis als middel tot beheersing van de natuur zag",
+      "start_seconds": 4368,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "note": "Dystopie over een dictatuur van het geluk met de pil soma",
-      "start_seconds": 1274,
-      "volume_id": "kKh5Dyqxx-QC",
-      "canonical_title": "Brave New World",
-      "canonical_author": "Aldous Huxley",
-      "isbn13": "9781407021010",
-      "isbn10": "140702101X",
-      "thumbnail": "http://books.google.com/books/content?id=kKh5Dyqxx-QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "The Abolition of Man",
-      "author": "C.S. Lewis",
-      "note": "Over het verdwijnen van de mens onder de techniek",
-      "start_seconds": 1403,
-      "volume_id": "ST87o-KSzp0C",
-      "canonical_title": "The Abolition of Man",
-      "canonical_author": "C. S. Lewis",
-      "isbn13": "9780061949135",
-      "isbn10": "0061949132",
-      "thumbnail": "http://books.google.com/books/content?id=ST87o-KSzp0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Staan in de wereld van nu",
+      "author": "Jacques Ellul",
+      "note": "Boek uit 1948 dat Frank Mulder vertaalde; Ellul ziet de technische maatschappij al opkomen",
+      "start_seconds": 3085,
+      "volume_id": "2z_-zwEACAAJ",
+      "canonical_title": "Staan in de wereld van nu",
+      "canonical_author": "Jacques Ellul",
+      "isbn13": "9789043539333",
+      "isbn10": "9043539333",
+      "thumbnail": ""
     },
     {
       "title": "The Anxious Generation",
       "author": "Jonathan Haidt",
-      "note": "Over de impact van smartphones op jongeren",
-      "start_seconds": 1860,
-      "volume_id": "uCvAEAAAQBAJ",
-      "canonical_title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+      "note": "Boek over de invloed van smartphones en social media op jongeren",
+      "start_seconds": 1859,
+      "volume_id": "Iwxg0QEACAAJ",
+      "canonical_title": "The Anxious Generation",
       "canonical_author": "Jonathan Haidt",
-      "isbn13": "9781802063288",
-      "isbn10": "1802063285",
-      "thumbnail": "http://books.google.com/books/content?id=uCvAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "note": "Dystopie over een maatschappij waarin geluk wordt opgelegd met soma",
+      "start_seconds": 1267,
+      "volume_id": "JcrvzgEACAAJ",
+      "canonical_title": "Brave New World",
+      "canonical_author": "Aldous Huxley",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
     "Overvecht",
     "Utrecht",
-    "Amsterdam",
+    "Bordeaux",
+    "Parijs",
+    "Frankrijk",
+    "Duitsland",
+    "Engeland",
     "Brazilië",
-    "Argentinië",
-    "Engeland"
+    "Argentinië"
   ],
-  "summary_tldr": "Journalist Frank Mulder vertelt over zijn leven in een woongemeenschap in Overvecht en over zijn kritiek op techniek, geïnspireerd door Jacques Ellul. Hij stelt dat techniek meer is dan technologie en dat we ervoor waken moeten dat wij op robots gaan lijken. Met Stefan Paas bespreekt hij smartphones, economische groei, democratie en de vraag naar dankbaarheid voor techniek.",
+  "summary_tldr": "Frank Mulder, onderzoeker en journalist, bespreekt met David Boogerd en Stefan Paas hoe techniek ons leven en onze cultuur vormt. Geïnspireerd door Jacques Ellul ziet hij techniek als een breed systeem dat mensen efficiënt maar ook kwetsbaar maakt. Het gesprek eindigt bij de vraag hoe je ondanks pessimisme toch hoop en vrijheid kunt vinden, bijvoorbeeld in een gemeenschap.",
   "summary_points": [
-    "Frank Mulder woont met zijn gezin in een woongemeenschap in Overvecht, gericht op vriendschap met buren en vluchtelingen.",
-    "De gemeenschap kocht als coöperatie het vastgoed en maakte van een stenig plein een groene oase.",
-    "Mulder heeft bewust geen smartphone en ziet het toestel als symbool van een groter technisch systeem.",
-    "Volgens Ellul is techniek het efficiënter maken van de wereld, inclusief economische groei en bureaucratie.",
-    "Mulder vreest verlies van betrokkenheid, democratie en schoonheid door schermen en betegelde tuinen.",
-    "Verwijzingen naar Brave New World en de DDR-tv illustreren hoe comfort ons lethargisch kan maken.",
-    "Economische groei dempt conflicten; bij krimp dreigt populisme.",
-    "Paas wijst op de voordelen van techniek voor gezondheid, arbeid en landbouw, en Mulder erkent dat dankbaarheid nodig is."
+    "Frank Mulder woont met zijn gezin in een leefgemeenschap in Overvecht, waar hij samen met anderen een plein vergroende en ongedocumenteerde vluchtelingen opvangt.",
+    "Hij ziet de smartphone niet als los object maar als onderdeel van een groter systeem van technologie en economische groei.",
+    "Volgens Jacques Ellul is techniek het streven naar efficiëntie, waarin middelen doelen worden en mensen worden meegesleept.",
+    "De impact van smartphones op jongeren en gezinnen, zoals isolement en verslaving, wordt als zorgwekkend gezien.",
+    "Economische groei wordt gezien als een systeem dat niet oneindig kan doorgaan, met ecologische en sociale gevolgen.",
+    "Stefan Paas bevraagt Mulders pessimisme en vraagt naar zijn optimisme en de opschaalbaarheid van kleine gemeenschappen.",
+    "Ellul combineerde sociologie en theologie en zag God als bevrijder van machten, terwijl mensen in de wereld moeten leven met één been erin en één been eruit.",
+    "Het gesprek eindigt bij de mogelijkheid van kleine vrije ruimtes, zoals kloostergemeenschappen en vriendschap over culturele grenzen heen."
   ],
   "chapters": [
     {
-      "start_seconds": 156,
-      "title": "Leven in Overvecht",
-      "summary": "Mulder vertelt over de wijk, de ongelijkheid en de reden voor een woongemeenschap."
+      "start_seconds": 0,
+      "title": "Introductie en kennismaking",
+      "summary": "David Boogerd stelt Frank Mulder voor en het gesprek opent met zijn bijzondere woonsituatie in Overvecht."
     },
     {
-      "start_seconds": 268,
-      "title": "Kloosterideaal en vastgoed",
-      "summary": "Over het kopen van het blok als coöperatie en de vergroening van het plein."
+      "start_seconds": 238,
+      "title": "Leven in een woongemeenschap",
+      "summary": "Mulder vertelt hoe de leefgemeenschap ontstond, hoe het plein groen werd en hoe ze samenleven met vluchtelingen."
     },
     {
-      "start_seconds": 543,
-      "title": "Low-tech en vriendschap",
-      "summary": "Wendell Berry, low-tech keuzes en vriendschap met mensen zonder papieren."
+      "start_seconds": 881,
+      "title": "Smartphones en techniek",
+      "summary": "Mulder legt uit waarom hij geen smartphone gebruikt en wijst op ecologische, sociale en psychologische kosten."
     },
     {
-      "start_seconds": 890,
-      "title": "Waarom geen smartphone",
-      "summary": "Ecologische, sociale en psychologische bezwaren en de strijd om offline te kunnen leven."
+      "start_seconds": 1188,
+      "title": "Jacques Ellul en het systeem van techniek",
+      "summary": "Ellul wordt geïntroduceerd als denker die techniek ziet als efficiëntie die mensen dwingt, met verwijzingen naar Huxley en Lewis."
     },
     {
-      "start_seconds": 1190,
-      "title": "Jacques Ellul en techniek",
-      "summary": "Techniek als systeem van efficiëntie, Brave New World en de ijzeren kooi."
+      "start_seconds": 2471,
+      "title": "De afgrond en het optimisme",
+      "summary": "Mulder spreekt over ecologische en economische grenzen; Paas vraagt naar zijn hoop en naar de opschaalbaarheid van kleine initiatieven."
     },
     {
-      "start_seconds": 1545,
-      "title": "Wat techniek met ons doet",
-      "summary": "Tegeltuinen, schermen, gamen en gevolgen voor democratie."
+      "start_seconds": 3055,
+      "title": "Ellul, theologie en verzet",
+      "summary": "Ellul wordt besproken als socioloog en theoloog die zich bleef verzetten tegen machten; de EU en het middel-doel-probleem komen aan bod."
     },
     {
-      "start_seconds": 2020,
-      "title": "Groei, landbouw en dankbaarheid",
-      "summary": "Economische groei als techniek, de luddieten en de voordelen van techniek."
+      "start_seconds": 3646,
+      "title": "Macht, verantwoordelijkheid en christelijk engagement",
+      "summary": "Het gesprek gaat over de vraag of christenen zich in politiek en systemen moeten begeven, met het voorbeeld van Paul van Buiten."
+    },
+    {
+      "start_seconds": 4147,
+      "title": "Hoop, vriendschap en kloosters",
+      "summary": "De afsluiting draait om hoop zonder oplossing, het belang van gemeenschap en het idee van eilandjes van vrijheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1118,
+      "start_seconds": 1098,
       "speaker": "Frank Mulder",
-      "text": "Achter die telefoon zit een monster. De telefoon is het beeldje van dat monster.",
-      "note": "Scherpe metafoor voor techniek als afgod."
+      "text": "Achter die telefoon zit een technisch systeem van investeerders die meer willen. Achter die telefoon zit een monster.",
+      "note": "Mulder maakt de smartphone tot symbool van een groter systeem dat mensen wil laten aanbidden."
     },
     {
-      "start_seconds": 1545,
-      "speaker": "Frank Mulder",
-      "text": "Ik zie dat alle tuintjes betegeld zijn en achter alle ramen staat een scherm aan.",
-      "note": "Concreet beeld van technische beheersing."
+      "start_seconds": 1902,
+      "speaker": "David Boogerd",
+      "text": "Het grootste gevaar is niet dat robots op ons gaan lijken, maar dat wij op robots gaan lijken.",
+      "note": "Deze omkering van de AI-discussie maakt de vraag naar menselijkheid scherp."
     },
     {
       "start_seconds": 2022,
       "speaker": "Frank Mulder",
       "text": "Iets wat elk jaar groter moet worden, is kanker.",
-      "note": "Stevige kritiek op economische groei."
+      "note": "Een scherpe metafoor die de economische groeigedachte radicaal ter discussie stelt."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 2484,
       "speaker": "Frank Mulder",
-      "text": "De docent zei: denk aan je toekomst, maar dit is een verslaving.",
-      "note": "Illustreert gameverslaving onder jongeren."
+      "text": "We langs afgronden scheren en tegen muren op lopen.",
+      "note": "Mulder beschrijft de afgrond als ecologische en economische crisis, zonder dat hij een oplossing presenteert."
     },
     {
-      "start_seconds": 2275,
+      "start_seconds": 2890,
       "speaker": "Frank Mulder",
-      "text": "Je kunt geen kaartjes meer kopen zonder smartphone.",
-      "note": "Laat zien hoe offline leven wordt weggedrukt."
+      "text": "De kinderen die betalen de prijs van de seksuele revolutie.",
+      "note": "Mulder koppelt individuele vrijheid aan de kwetsbaarheid van kinderen in gebroken gezinnen."
     }
   ],
   "keywords": [
-    "Jacques Ellul",
     "techniek",
+    "Jacques Ellul",
     "smartphone",
-    "Brave New World",
+    "technocratie",
     "woongemeenschap",
-    "Overvecht",
     "economische groei",
-    "democratie",
-    "vriendschap",
-    "low-tech"
+    "verzet",
+    "machten",
+    "gebroken gezinnen",
+    "hoop",
+    "Brave New World",
+    "vriendschap"
   ],
   "quotes": [
+    "Het probleem van de moderniteit is dat we rationele intelligentie op de troon hebben gezet.",
     "Het grootste gevaar is niet dat robots op ons gaan lijken, maar dat wij op robots gaan lijken.",
     "We moeten in de afgrond durven kijken."
   ],
   "similar": [
     {
-      "n": 247,
-      "reason": "Jonathan Haidt zelf te gast over smartphones, social media en AI die ons geestelijk schaden"
-    },
-    {
-      "n": 292,
-      "reason": "Denkbeelden achter Big Tech, filosofische kritiek op technologie en macht"
-    },
-    {
       "n": 257,
-      "reason": "Techniek, smartphone en AI als aanval op de ziel; sociaal experiment"
-    },
-    {
-      "n": 191,
-      "reason": "Geestelijke schade van smartphone en social media, verwijst naar Haidt"
+      "reason": "Techniek, AI en de aanval op de ziel; sluit direct aan bij Ellul-thema"
     },
     {
       "n": 16,
-      "reason": "Technologie als nieuwe religie, filosofische kijk op techniek"
+      "reason": "Technologie als nieuwe religie; overlap in God-, techniek- en cultuurthema's"
+    },
+    {
+      "n": 247,
+      "reason": "Impact van smartphones, social media en AI op mensen; Jonathan Haidt besproken"
+    },
+    {
+      "n": 191,
+      "reason": "Geestelijke schade van smartphones en social media; Esther van Fenema"
+    },
+    {
+      "n": 292,
+      "reason": "Duistere denkbeelden achter Big Tech; past bij kritiek op technologische macht"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

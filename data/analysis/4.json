@@ -1,11 +1,16 @@
 {
   "episode": 4,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 77538,
+    "segments": 541,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29769,
-    "output_tokens": 3210,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 38427,
+    "output_tokens": 8571,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,142 +25,124 @@
   "people": [
     {
       "name": "Ruud Koopmans",
-      "note": "socioloog, auteur van 'Het vervallen huis van de islam'",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 607798,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruud_Koopmans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Teueteberg_koopmans_20230614_potsdam.jpg/250px-Teueteberg_koopmans_20230614_potsdam.jpg"
-    },
-    {
-      "name": "Émile Durkheim",
-      "note": "socioloog; religie als bron van solidariteit en gemeenschapsgevoel",
-      "start_seconds": 269,
-      "wiki_checked": true,
-      "wiki_pageid": 83558,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/%C3%89mile_Durkheim",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Emile_Durkheim.jpg/250px-Emile_Durkheim.jpg"
-    },
-    {
-      "name": "Meijnert Venema",
-      "note": "recensent van het boek in de NRC",
-      "start_seconds": 373,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten Boudry",
-      "note": "filosoof die stelt dat westerse intellectuelen religie als motief onderschatten",
-      "start_seconds": 1339,
-      "wiki_checked": true,
-      "wiki_pageid": 2764322,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Boudry",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Maarten_Boudry.jpg/250px-Maarten_Boudry.jpg"
-    },
-    {
-      "name": "Geert Wilders",
-      "note": "PVV-leider; maakt onderscheid tussen moslims en islam",
-      "start_seconds": 824,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Alexander Pechtold",
-      "note": "D66-politicus die de Charlie Hebdo-aanslag verklaarde uit achterstelling",
-      "start_seconds": 1405,
-      "wiki_checked": true,
-      "wiki_pageid": 160637,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Pechtold",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alexander-pechtold_%28cropped%29.jpg/250px-Alexander-pechtold_%28cropped%29.jpg"
-    },
-    {
-      "name": "Femke Halsema",
-      "note": "burgemeester van Amsterdam; solidariteit na Christchurch en Sri Lanka",
-      "start_seconds": 2460,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
-    },
-    {
-      "name": "George W. Bush",
-      "note": "Amerikaanse president die na 9/11 het woord 'kruistocht' gebruikte",
-      "start_seconds": 2582,
-      "wiki_checked": true,
-      "wiki_pageid": 9659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush.jpeg/250px-George-W-Bush.jpeg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president; geprezen door de patriarch van Moskou voor zijn 'kruistocht' in Syrië",
-      "start_seconds": 2582,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Mohammed",
-      "note": "islamitische profeet en heerser; basis van Koran en Sunna",
-      "start_seconds": 1423,
-      "wiki_checked": true,
-      "wiki_pageid": 1077,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammed",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/250px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg"
-    },
-    {
-      "name": "Plato",
-      "note": "Griekse filosoof; filosoof-koning als bundeling van macht en waarheid",
-      "start_seconds": 2207,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Ahmed Al-Tayeb",
-      "note": "leider van het Al-Azhar-instituut",
-      "start_seconds": 2674,
-      "wiki_checked": true
-    },
-    {
-      "name": "Recep Tayyip Erdogan",
-      "note": "Turkse president",
-      "start_seconds": 2667,
-      "wiki_checked": true,
-      "wiki_pageid": 114344,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/250px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"
+      "note": "Gast; socioloog en auteur van 'Het vervallen huis van de islam'",
+      "start_seconds": 25,
+      "mention_count": 1
     },
     {
       "name": "Jezus",
-      "note": "boodschap van bescheidenheid en naastenliefde; 'geef de keizer wat des keizers is'",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
+      "note": "Centrale figuur in het christendom; onderwerp van de discussie over geweld en de scheiding van kerk en staat",
+      "start_seconds": 272,
+      "mention_count": 8
+    },
+    {
+      "name": "Mohammed",
+      "note": "Profeet van de islam; zijn handelen als heerser wordt besproken",
+      "start_seconds": 1427,
+      "mention_count": 8
+    },
+    {
+      "name": "Émile Durkheim",
+      "note": "Socioloog die de sociale functie van religie onderzocht",
+      "start_seconds": 257,
+      "mention_count": 3
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider; Koopmans' tegenpool in het debat over de islam",
+      "start_seconds": 824,
+      "mention_count": 4
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaans president; gebruikte na 9/11 de term 'kruistocht'",
+      "start_seconds": 2541,
+      "mention_count": 3
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; genoemd bij de vergelijking met uitspraken over de islam",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; patriarch van Moskou complimenteerde hem over de 'kruistocht' in Syrië",
+      "start_seconds": 2541,
+      "mention_count": 1
+    },
+    {
+      "name": "Ahmed Al-Tayeb",
+      "note": "Leider van het Al-Azhar instituut; verspreidt volgens Koopmans samenzweringstheorieën",
+      "start_seconds": 2676,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten Boudry",
+      "note": "Filosoof die stelt dat seculiere intellectuelen zich religieus geweld niet kunnen voorstellen",
+      "start_seconds": 1339,
+      "mention_count": 1
+    },
+    {
+      "name": "Pechtold",
+      "note": "D66-politicus die de aanslag op Charlie Hebdo verklaarde uit achterstelling in de banlieues",
+      "start_seconds": 1405,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Burgemeester van Amsterdam; reageerde op de aanslag in Christchurch",
+      "start_seconds": 2453,
+      "mention_count": 3
+    },
+    {
+      "name": "Jean-Marie Le Pen",
+      "note": "Frans rechts-populistisch politicus",
+      "start_seconds": 2753,
+      "mention_count": 1
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "note": "Turkse president; gebruikt volgens Koopmans religieuze retoriek om te mobiliseren",
+      "start_seconds": 2667,
+      "mention_count": 1
+    },
+    {
+      "name": "Plato",
+      "note": "Filosoof die de koning-filosoof als ideaal stelde; wordt genoemd als bron van de verbinding tussen macht en waarheid",
+      "start_seconds": 2267,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander de Grote",
+      "note": "Veroveraar; genoemd als erfgenaam van de Griekse traditie",
+      "start_seconds": 2281,
+      "mention_count": 1
+    },
+    {
+      "name": "Ambrosius",
+      "note": "Kerkvader; genoemd als invloedrijke theoloog over kerk en staat",
+      "start_seconds": 2302,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; genoemd als invloedrijke theoloog over kerk en staat",
+      "start_seconds": 2302,
+      "mention_count": 1
+    },
+    {
+      "name": "Meijnert Venema",
+      "note": "Journalist die het boek recenseerde in de NRC",
+      "start_seconds": 368,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het vervallen huis van de islam",
       "author": "Ruud Koopmans",
-      "note": "hoofdthema van de aflevering: crisis in de islamitische wereld door fundamentalisme",
+      "note": "Hoofdstelling: de islamitische wereld verkeert in crisis door opkomend islamitisch fundamentalisme sinds 1979",
       "start_seconds": 408,
       "volume_id": "ee-JDwAAQBAJ",
       "canonical_title": "Het vervallen huis van de islam: Over de crisis van de islamitische wereld",
@@ -163,18 +150,30 @@
       "isbn13": "9789044634105",
       "isbn10": "9044634100",
       "thumbnail": "http://books.google.com/books/content?id=ee-JDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Dabiq",
+      "author": "",
+      "note": "Tijdschrift van IS; een uitgave zou stellen dat het om het geloof gaat en niet om inmenging of kolonisatie",
+      "start_seconds": 1430,
+      "volume_id": "Kxot0AEACAAJ",
+      "canonical_title": "Islamic State's Web Jihadi Magazine Dabiq and Rumiyah: More Than Just Propaganda",
+      "canonical_author": "Eitan Azani",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Mattheus 22:21",
-      "note": "'Geef de keizer wat des keizers is': scheiding van kerk en staat; Stefan Paas waarschuwt voor anachronistische lezing",
-      "start_seconds": 2003
+      "note": "Jezus' uitspraak 'Geef de keizer wat van de keizer is' over de scheiding van religie en staat",
+      "start_seconds": 2330
     },
     {
-      "ref": "Openbaring",
-      "note": "kan volgens Paas gebruikt worden om geweld te rechtvaardigen",
-      "start_seconds": 1919
+      "ref": "Openbaringen",
+      "note": "Stefan Paas noemt dit bijbelboek als bron die gebruikt kan worden om geweld te rechtvaardigen",
+      "start_seconds": 1925
     }
   ],
   "places": [
@@ -182,139 +181,145 @@
     "Kampen",
     "Amsterdam",
     "Mekka",
-    "Iran",
     "Afghanistan",
+    "Iran",
     "Saudi-Arabië",
     "Brunei",
     "Sri Lanka",
     "Christchurch",
     "Nigeria",
-    "Latijns-Amerika",
     "Oeganda",
     "Brazilië",
     "Syrië",
-    "Solingen",
     "Turkije",
-    "Parijs"
+    "Solingen",
+    "Mölln",
+    "Duitsland",
+    "Rusland",
+    "Utrecht"
   ],
-  "summary_tldr": "David Boogerd spreekt met socioloog Ruud Koopmans en theoloog Stefan Paas over Koopmans' boek 'Het vervallen huis van de islam'. Koopmans stelt dat islamitisch fundamentalisme de oorzaak is van de crisis in de islamitische wereld, terwijl Paas het christelijke fundamentalisme en de rol van religie als brandstof nuanceert. Ze bespreken ook scheiding van kerk en staat, schriftuitleg en christenvervolging.",
+  "summary_tldr": "Socioloog Ruud Koopmans betoogt in zijn boek 'Het vervallen huis van de islam' dat de islamitische wereld sinds 1979 in een diepe crisis verkeert, veroorzaakt door de opkomst van islamitisch fundamentalisme en niet door westerse inmenging. Theoloog Stefan Paas bevraagt de stelling, wijst op het gewelddadige potentieel van alle religies, inclusief het christendom, en pleit voor nuance. Het gesprek eindigt met de vraag hoe religie een bron van verbinding kan zijn in plaats van enkel een probleem.",
   "summary_points": [
-    "Koopmans stelt dat de islamitische wereld sinds 1979 in een crisis verkeert door opkomend islamitisch fundamentalisme",
-    "Het probleem is breder dan terrorisme: ook wetten die homoseksuelen en afvalligen straffen worden breed gesteund",
-    "Koopmans verwerpt zowel het idee dat religie er niets mee te maken heeft als dat de islam inherent gewelddadig is",
-    "Moslims die niet fundamentalistisch zijn zouden zich volgens Koopmans meer moeten uitspreken tegen extremisme",
-    "Marxistisch denken leidt tot de neiging religieuze oorzaken van radicalisering te negeren",
-    "Religie is volgens Paas en Koopmans eerder brandstof dan kunstmest of buskruit: voor goed en kwaad inzetbaar",
-    "Verschillen in schriftopvatting en scheiding van kerk en staat maken liberalisering voor het christendom makkelijker",
-    "Paas wijst op christelijk geweld in de geschiedenis en op het kruistocht-frame dat slachtofferdenken voedt",
-    "Koopmans signaleert te weinig aandacht voor christenvervolging, bijvoorbeeld in Nigeria en Sri Lanka"
+    "Koopmans stelt dat de islamitische wereld sinds 1979 een negatieve ontwikkeling doormaakt op het gebied van democratie, mensenrechten, gewelddadige conflicten en economie.",
+    "Volgens Koopmans is het islamitisch fundamentalisme de kern van het probleem, en is het geweld breder dan alleen terrorisme, bijvoorbeeld via legale doodstraffen.",
+    "Koopmans wijst het debat af dat de islam ofwel onschuldig is of inherent gewelddadig; de religie is wat de aanhangers ervan maken.",
+    "Koopmans bekritiseert westerse intellectuelen die de oorzaken van terrorisme vooral zoeken in armoede en kolonialisme en religie onderschatten.",
+    "Paas stelt dat ook het christendom in de geschiedenis gewelddadig is geweest en dat religie vaak samengaat met andere factoren.",
+    "Het verschil tussen christendom en islam ligt volgens Koopmans in de schriftuitleg en de scheiding van kerk en staat, die in het christendom historisch makkelijker tot stand kwam.",
+    "Paas nuanceert dat ook de scheiding van kerk en staat een historisch proces is, en vooral het westerse christendom betreft.",
+    "Beiden bespreken de christenvervolging, die volgens Koopmans weinig media-aandacht krijgt, en de rol van kruistocht-retoriek daarin.",
+    "Koopmans vindt dat moslims zelf meer zelfkritiek moeten uiten en dat het islamofobie-frame deze zelfkritiek in de weg staat.",
+    "Het gesprek eindigt met de stelling dat religie zowel problematisch als waardevol is en dat religieuze mensen nodig zijn om problemen op te lossen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en religieuze achtergrond",
-      "summary": "Boogerd introduceert het boek en Koopmans vertelt over zijn werk in Berlijn en zijn Pinksteropvoeding."
+      "title": "Opening en een scherpe stelling",
+      "summary": "Een korte citaat uit het boek introduceert de toon van het gesprek over de crisis in de islamitische wereld."
     },
     {
-      "start_seconds": 408,
+      "start_seconds": 129,
+      "title": "Persoonlijke achtergrond van Koopmans",
+      "summary": "Koopmans vertelt over zijn Pinkstergemeente-achtergrond van zijn ouders en zijn relatie tot geloof en Jezus."
+    },
+    {
+      "start_seconds": 396,
       "title": "De hoofdstelling van het boek",
-      "summary": "Koopmans zet uiteen dat de islamitische wereld sinds 1979 in een crisis verkeert door fundamentalisme; Paas noemt het boek genuanceerd."
+      "summary": "Koopmans vat zijn analyse samen: de crisis begon rond 1979 en omvat democratie, mensenrechten, conflicten en economie."
     },
     {
-      "start_seconds": 737,
-      "title": "Tussen twee kampen en de rol van moslims",
-      "summary": "Koopmans zet zich af tegen zowel ontkenners als essentialisten en vraagt meer zelfkritiek van moslims, vergeleken met Duitse reacties op rechts-extremisme."
+      "start_seconds": 1251,
+      "title": "Oorzaken: religie of sociaal-economische factoren",
+      "summary": "Koopmans en Paas bespreken de kritiek op westerse intellectuelen die religie als oorzaak wegredeneren, en de rol van het marxisme."
     },
     {
-      "start_seconds": 1182,
-      "title": "Oorzaken: marxisme, religie en geweld",
-      "summary": "Bespreking van de neiging religie weg te verklaren via sociaal-economische factoren en de vergelijkingen met water, buskruit en diesel."
-    },
-    {
-      "start_seconds": 1608,
-      "title": "Waarom de islam en vergelijking met andere religies",
-      "summary": "Koopmans legt uit waarom hij de islam kiest; ook pinksterfundamentalisme in Latijns-Amerika en Afrika komt aan bod."
+      "start_seconds": 1592,
+      "title": "Religie als brandstof en de vergelijking met andere religies",
+      "summary": "Paas en Koopmans bespreken religie als buskruit of brandstof en waarom het boek zich op de islam richt."
     },
     {
       "start_seconds": 1802,
-      "title": "Christendom versus islam: schriftuitleg en kerk en staat",
-      "summary": "Paas en Koopmans vergelijken schriftopvatting, de scheiding van kerk en staat en de historische ontwikkeling van het Westerse christendom."
+      "title": "Schriftuitleg en de scheiding van kerk en staat",
+      "summary": "Paas wijst op de historische geweldsgeschiedenis van het christendom en de verschillen in schriftuitleg en staatsopvattingen."
     },
     {
-      "start_seconds": 2376,
-      "title": "Christenvervolging en het islamofobie-frame",
-      "summary": "Discussie over aandacht voor aanslagen op christenen, Sri Lanka versus Christchurch en het slachtofferframe."
+      "start_seconds": 2384,
+      "title": "Christenvervolging en kruistocht-retoriek",
+      "summary": "Het gesprek gaat over de vervolging van christenen, het gebrek aan media-aandacht en het schadelijke gebruik van het woord kruistocht."
+    },
+    {
+      "start_seconds": 3130,
+      "title": "Religie als probleem of als bron",
+      "summary": "De slotbeschouwing stelt dat religie niet alleen een probleem is maar ook gemeenschap en ervaring biedt."
     }
   ],
   "highlights": [
     {
       "start_seconds": 0,
       "speaker": "Ruud Koopmans",
-      "text": "Wie als christen uit angst om moslims te stigmatiseren de ogen sluit voor de vervolging van christenen heeft meer gemeen met de schijnheilige farizeeën.",
-      "note": "Stevige openingsstelling die de toon van het gesprek zet."
+      "text": "Wie als christen uit angst om moslims te stigmatiseren de ogen sluit voor de vervolging van christenen en andere religieuze minderheden, heeft meer gemeen met de schijnheilige farizeeën dan met de boodschap van het evangelie.",
+      "note": "Een scherp citaat dat de toon van het gesprek meteen zet en de christelijke luisteraar direct aanspreekt."
     },
     {
-      "start_seconds": 1356,
-      "speaker": "Stefan Paas",
-      "text": "Zelfs water kan gevaarlijk zijn in een watergelbom: religie speelt vaak een rol in combinatie met andere factoren.",
-      "note": "Beeldende vergelijking over de rol van religie bij geweld."
-    },
-    {
-      "start_seconds": 1520,
+      "start_seconds": 1503,
       "speaker": "Ruud Koopmans",
-      "text": "Religie is misschien meer zoiets als buskruit: het ontploft niet zolang je er geen lucifer bij houdt.",
-      "note": "Scherp tegenbeeld, waarna Paas diesel als metafoor voorstelt."
+      "text": "Religie is misschien meer zoiets als buskruit. Het ontploft niet per se zolang je er geen lucifer bij houdt, maar het leidt heel snel tot ontploffingen en conflicten.",
+      "note": "Koopmans neemt de beeldspraak van Paas over en verscherpt die, wat de discussie over religie en geweld concreet maakt."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 1802,
       "speaker": "Stefan Paas",
-      "text": "Christenen zijn tot alles in staat gebleken; het christendom heeft geen reden zich op de borst te kloppen.",
-      "note": "Zelfkritische reactie op de vraag of de islam wezenlijk anders is."
+      "text": "Christenen zijn tot alles in staat gebleken, ook tot het uitmoorden van indianen met theologische argumenten.",
+      "note": "Paas weerlegt het idee dat het christendom inherent vreedzamer is dan de islam, met een voorbeeld uit de koloniale geschiedenis."
     },
     {
-      "start_seconds": 1000,
-      "speaker": "Ruud Koopmans",
-      "text": "Ik zou al blij zijn als net zoveel moslims de straat op gingen na Sri Lanka als voor Palestina.",
-      "note": "Concreet voorbeeld van zijn oproep tot zelfkritiek in de moslimgemeenschap."
+      "start_seconds": 3260,
+      "speaker": "Stefan Paas",
+      "text": "Religie kan mensen verbinden over de banden van bloed en bodem heen en heeft duizenden jaren ervaring in het omgaan met het leven.",
+      "note": "Het slotakkoord van het gesprek, dat religie niet alleen als probleem maar ook als bron van verbinding plaatst."
     }
   ],
   "keywords": [
     "islamitisch fundamentalisme",
-    "Het vervallen huis van de islam",
+    "religie en staat",
+    "sharia",
+    "mensenrechten",
+    "christenvervolging",
     "scheiding van kerk en staat",
     "islamofobie",
-    "christenvervolging",
-    "Durkheim",
-    "terrorisme",
-    "marxisme",
+    "geweld en religie",
     "schriftuitleg",
-    "Sharia",
-    "Pinksterbeweging"
+    "kruistocht",
+    "Pinkstergemeente",
+    "secularisatie"
   ],
   "quotes": [
-    "Wie als christen uit angst om moslims te stigmatiseren de ogen sluit voor de vervolging van christenen en andere religieuze minderheden, heeft meer gemeen met de schijnheilige farizeeën dan met de boodschap van het evangelie om zonder aanzien des persoons op te komen voor de zwaksten.",
-    "De islamitische wereld bevindt zich in een steeds dieper wordende crisis."
+    "De islamitische wereld bevindt zich in een steeds dieper wordende crisis.",
+    "Theoloog des Vaderlands Stefan Paas noemt het boek zelfs visionair.",
+    "Een prikkelende stelling, en een prikkelend boek."
   ],
   "similar": [
     {
-      "n": 40,
-      "reason": "Gesprek over islam, radicalisering en Mohammed-cartoons, met imam Yassin Elforkani en Stefan Paas"
-    },
-    {
       "n": 60,
-      "reason": "Religie en terrorisme: wat geloven radicalen echt, over radicale verlossing"
+      "reason": "Religieus fundamentalisme en geweld: wat terroristen geloven, met Beatrice de Graaf"
     },
     {
-      "n": 194,
-      "reason": "Religieverlater Lale Gül over islam, ongeloof en Wilders"
+      "n": 43,
+      "reason": "Christelijk extremisme en gewelddadig religieus potentieel, vergelijkbaar met Paas' kritiek"
     },
     {
       "n": 10,
-      "reason": "Ex-terrorist Jason Walters over religieus extremisme, islam en filosofie"
+      "reason": "Islamitisch radicalisme en de weg van terrorist naar filosoof"
+    },
+    {
+      "n": 40,
+      "reason": "Islam, radicalisering en debat over religieuze grenzen en extremisme"
     },
     {
       "n": 110,
-      "reason": "Islamdebat na 9/11, radicalisering en samenleving met Lotfi El Hamidi"
+      "reason": "Islamdebat en de nasleep van 9/11, thematisch dicht bij Koopmans' analyse"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

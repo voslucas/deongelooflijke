@@ -1,18 +1,23 @@
 {
   "episode": 219,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 117508,
+    "segments": 1282,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30792,
-    "output_tokens": 2112,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60059,
+    "output_tokens": 3090,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
+    "God & geloof",
     "Politiek",
-    "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "James Kennedy"
@@ -20,89 +25,123 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "herkozen president van de Verenigde Staten",
+      "note": "Herkozen Amerikaans president; centrale figuur van het gesprek",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 60
     },
     {
       "name": "Joe Biden",
-      "note": "vertrekkend president, volgens de sprekers een 'tussenpauze'",
+      "note": "Voormalig Amerikaans president, voorganger van Trump in de jaren hiervoor",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "mention_count": 12
     },
     {
       "name": "Kamala Harris",
-      "note": "Democratische presidentskandidaat",
+      "note": "Democratische tegenkandidate bij de verkiezingen van 2024",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 3880143,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kamala_Harris",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/250px-Kamala_Harris_Vice_Presidential_Portrait.jpg"
+      "mention_count": 18
     },
     {
-      "name": "Susie Wiles",
-      "note": "campagnemanager van Trump, benoemd tot chief of staff",
+      "name": "Mike Pence",
+      "note": "Voormalig vicepresident onder Trump die afstand nam van hem",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 5907369,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Susie_Wiles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Susie_Wiles_%28crop%29_%28cropped%29.jpg/250px-Susie_Wiles_%28crop%29_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "JD Vance",
-      "note": "aanstaand vicepresident, mogelijke opvolger van Trump",
+      "note": "Waarschijnlijke vicepresident en mogelijke opvolger van Trump",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Mark Rutte",
-      "note": "NAVO-chef, kan Trump bij de NAVO betrekken",
+      "name": "Susie Wiles",
+      "note": "Chef staf van Trump, voormalig campagnemanager",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Geert Wilders",
-      "note": "genoemd in een vergelijking met het Nederlandse politieke stelsel",
+      "name": "Elon Musk",
+      "note": "Techondernemer met belangrijke rol in de nieuwe regering",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier, genoemd als voorbeeld van autoritair leiderschap",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president, door Trump geprezen en als autocraat besproken",
+      "start_seconds": 0,
+      "mention_count": 3
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese president, door Trump geprezen",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Timothy Snyder",
+      "note": "Historicus die analyse maakte over Rusland en plutocratie",
+      "start_seconds": 0,
+      "mention_count": 2
     },
     {
       "name": "Sam Harris",
-      "note": "denker, citeerde inzicht dat Trump geen morele aanspraak op je maakt",
+      "note": "Auteur die Trumps morele aanspraak analyseerde",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 1218911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Harris_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sam_Harris_01.jpg/250px-Sam_Harris_01.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlandse premier en NAVO-secretaris-generaal",
+      "start_seconds": 0,
+      "mention_count": 3
+    },
+    {
+      "name": "Karel Smouter",
+      "note": "Hoofdredacteur van Trouw die kritisch schreef over Trumps christenen",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Eric Metaxas",
+      "note": "Amerikaanse evangelische opinieleider die kerkleden opriep Trump te steunen",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Leider van de PVV",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Pia Dijkstra",
+      "note": "Partijleider van D66",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
       "name": "Tim Shongers",
-      "note": "eerdere gast over armoede",
+      "note": "Journalist van De Correspondent, eerder in de podcast over armoede",
       "start_seconds": 0,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Hillary Clinton",
+      "note": "Voormalig Democratisch presidentskandidaat, door Trump bekritiseerd",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Mitt Romney",
+      "note": "Republikeins politicus, kritisch op Trump",
+      "start_seconds": 0,
+      "mention_count": 1
     }
   ],
   "books": [],
@@ -113,124 +152,134 @@
     "Dearborn",
     "Michigan",
     "Hamtramck",
-    "Detroit",
-    "Alabama",
+    "Virginia",
+    "Duitsland",
+    "Hongarije",
+    "Venezuela",
     "Oekraïne",
-    "Midden-Oosten",
-    "Israël",
-    "Nederland"
+    "Irak",
+    "Afghanistan",
+    "Polen",
+    "Alabama"
   ],
-  "summary_tldr": "Na de herverkiezing van Trump duiden David Boogerd, James Kennedy en Stefan Paas de culturele en religieuze achtergronden. Trump heeft een breed gedragen coalitie, een groter mandaat en een beter team dan in 2016. De boosheid onder kiezers draait vooral om inflatie, immigratie en onzekerheid. Evangelicals stemden vooral op economie en migratie, niet op abortus.",
+  "summary_tldr": "In deze vervroegde aflevering bespreken historicus James Kennedy en theoloog Stefan Paas de herverkiezing van Trump en wat die zegt over culturele en religieuze ontwikkelingen in Amerika. Centraal staan de motivaties van kiezers, zoals economische onzekerheid, inflatie en gevoelens van boosheid, en de rol van witte evangelicals. Ook wordt de angst voor autoritaire ontwikkelingen en een uitholling van de democratie besproken.",
   "summary_points": [
-    "Trumps herverkiezing is historisch: een comeback van een veroordeelde ex-president met meer macht dan in 2016.",
-    "Als tweedetermijnspresident is Trump een 'lame duck', maar hij heeft beter voorbereid personeel en steun van de Republikeinse partij.",
-    "De Trump-kiezer bestaat niet: het is een brede coalitie van uiteenlopende motieven en groepen.",
-    "Trump trekt kiezers aan omdat hij geen morele aanspraken maakt en het systeem uitdaagt.",
-    "Onzekerheid in de Amerikaanse samenleving, inflatie en immigratie voeden bozigheid en angst.",
-    "De Democraten zijn volgens de sprekers de partij van het establishment geworden en verliezen de werkende klasse, ook Latino's en moslims.",
-    "Evangelical is steeds meer een politiek label dan een kerkelijk of religieus label.",
-    "Abortus speelt voor evangelicals een kleinere rol dan gedacht, maar werkt wel als demoniseringsretoriek tegen Democraten.",
-    "Trump verzachtte het abortusstandpunt van de partij en liet het over aan de staten."
+    "Trumps herverkiezing is historisch: een veroordeelde president die terugkeert na een verlies, en een mandaat dat sterker lijkt dan in 2016.",
+    "Kiezers zijn niet één blok; de 'Trump-kiezer' bestaat niet, met uiteenlopende motieven.",
+    "Economische onzekerheid, inflatie en een zwak sociaal vangnet voeden gevoelens van boosheid en onveiligheid.",
+    "De Democraten worden steeds minder gezien als partij van de gewone werkende man.",
+    "Witte evangelicals stemden grotendeels op Trump, maar abortus blijkt minder doorslaggevend dan vaak gedacht; economie en immigratie wogen zwaarder.",
+    "Kerkgang lijkt in de VS samen te gaan met meer steun voor Trump, anders dan in Europa.",
+    "Religieuze politisering wordt als afgoderij en schadelijk voor christelijk getuigenis gezien.",
+    "Er wordt gewaarschuwd voor een geleidelijke uitholling van de democratie en een toenemende macht van oligarchen.",
+    "Trumps buitenlandbeleid en het isolationisme raken Europa en de NAVO, met name Oekraïne.",
+    "Nederlandse reacties worden genuanceerd: zorgen om Oekraïne en de NAVO, maar geen hysterie."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een historische comeback",
-      "summary": "Het gesprek begint met de vraag hoe uniek Trumps herverkiezing is, zijn sterkere mandaat en de positie als lame duck."
+      "title": "Historische betekenis van de verkiezing",
+      "summary": "De gasten duiden de herverkiezing als uniek: een comeback, een veroordeelde kandidaat en een tijdperk na Obama."
     },
     {
-      "start_seconds": 0,
-      "title": "Persoonlijke reacties en het tweepartijenstelsel",
-      "summary": "De gasten delen hun eerste reactie en bespreken hoe het Amerikaanse stelsel kiezers beïnvloedt."
+      "start_seconds": 600,
+      "title": "Mandaat, macht en persoonlijke reacties",
+      "summary": "Het gesprek gaat over Trumps sterkere positie, zijn team en de reactie van Paas en Kennedy op de uitslag."
     },
     {
-      "start_seconds": 0,
-      "title": "Wie is de Trump-kiezer?",
-      "summary": "Diverse motieven en groepen vormen Trumps coalitie, van culture warriors tot gedesillusioneerde kiezers."
+      "start_seconds": 1500,
+      "title": "Wie stemde op Trump en waarom",
+      "summary": "Kiezers worden gezien als een brede coalitie met uiteenlopende motieven, van economische zorgen tot een gevoel van erkenning."
     },
     {
-      "start_seconds": 0,
-      "title": "Boosheid, onzekerheid en inflatie",
-      "summary": "Economische onzekerheid, een zwak vangnet en migratie voeden woede in de samenleving."
+      "start_seconds": 2400,
+      "title": "Boosheid, inflatie en de rol van de Democraten",
+      "summary": "Inflatie, gebrek aan sociaal vangnet en het gevoel van de Democraten als establishmentpartij worden besproken."
     },
     {
-      "start_seconds": 0,
-      "title": "De Democraten en verschuivende groepen",
-      "summary": "De Democraten verliezen de werkende klasse en Latino's, zwarte en moslimkiezers verschuiven richting Trump."
+      "start_seconds": 3300,
+      "title": "Religie, evangelicals en abortus",
+      "summary": "De rol van evangelicals, kerkgang en abortus wordt geanalyseerd, met de conclusie dat kiezers vooral als gewone Amerikanen stemmen."
     },
     {
-      "start_seconds": 0,
-      "title": "Evangelicals en abortus",
-      "summary": "Het label evangelical is vooral politiek geworden, en abortus is minder doorslaggevend dan vaak gedacht."
+      "start_seconds": 4500,
+      "title": "Kerk en politiek: afgoderij en radicalisering",
+      "summary": "Kerken die politiek zijn geworden, selectie-effecten en de kritiek op christelijke steun aan Trump komen aan bod."
+    },
+    {
+      "start_seconds": 5700,
+      "title": "Dictatuur, oligarchie en de toekomst",
+      "summary": "Het gesprek gaat over de vraag of Amerika richting autocratie gaat en de rol van rijke elites en Trumps gedrag."
+    },
+    {
+      "start_seconds": 7200,
+      "title": "Buitenland, NAVO en de Nederlandse blik",
+      "summary": "Isolationisme, Oekraïne, de NAVO en de Nederlandse reacties op de verkiezing sluiten het gesprek af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 1100,
       "speaker": "Stefan Paas",
-      "text": "Het is een doorlopend Halloween: steeds zeggen hoe eng die ander is.",
-      "note": "Scherpe typering van de negatieve campagnes."
+      "text": "De Trump-kiezer bestaat niet.",
+      "note": "Benadrukt dat de kiezers een brede, diverse groep vormen, niet één soort boze burger."
     },
     {
-      "start_seconds": 0,
-      "speaker": "James Kennedy",
-      "text": "Donald Trump maakt geen enkele morele aanspraak op je; je mag alles zeggen en vinden.",
-      "note": "Verklaring voor Trumps aantrekkingskracht, ontleend aan Sam Harris."
-    },
-    {
-      "start_seconds": 0,
+      "start_seconds": 2700,
       "speaker": "David Boogerd",
-      "text": "Beide kanten zeiden: als de ander wint, is het het einde van de democratie.",
-      "note": "Laat de polarisatie zien."
+      "text": "Donald Trump maakt geen enkele morele aanspraak op je.",
+      "note": "Een analyse van Sam Harris die verklaart waarom mensen Trump aantrekkelijk vinden."
     },
     {
-      "start_seconds": 0,
+      "start_seconds": 4200,
       "speaker": "Stefan Paas",
-      "text": "Evangelicals stemmen gewoon als Amerikanen.",
-      "note": "Nuanceert het beeld van de christelijke steun voor Trump."
+      "text": "Ik vind het pure afgoderij.",
+      "note": "Scherpe kritiek op het toejuichen van Trump door christenen als vorm van politisering van geloof."
     },
     {
-      "start_seconds": 0,
-      "speaker": "Stefan Paas",
-      "text": "Abortus fungeert als voorbeeld van hoe slecht de ander is.",
-      "note": "Abortus als retorische demonisering in plaats van stemmotief."
+      "start_seconds": 5000,
+      "speaker": "James Kennedy",
+      "text": "Partijdige rechters worden aangesteld, de rechtsstaat wordt uitgehold, media aan banden gelegd.",
+      "note": "Beschrijft het subtiele uithollen van democratie, anders dan een plotselinge dictatuur."
     }
   ],
   "keywords": [
     "Trump",
-    "Herverkiezing",
-    "Evangelicals",
-    "Bozigheid",
-    "Inflatie",
-    "Immigratie",
-    "Democraten",
-    "Abortus",
-    "Lame duck",
-    "Polarisatie",
-    "Latino's",
-    "Christelijk nationalisme"
+    "evangelicals",
+    "populisme",
+    "inflatie",
+    "democratie",
+    "autocratie",
+    "abortus",
+    "kerkgang",
+    "oligarchie",
+    "isolationisme",
+    "NAVO",
+    "secularisatie"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 203,
-      "reason": "James Kennedy over Trump, religie en een veranderd Amerika na de aanslag"
-    },
-    {
       "n": 36,
-      "reason": "James Kennedy over religie in Amerikaanse politiek, Trump en evangelicals"
+      "reason": "Zelfde gast James Kennedy over Trump, religie en de Amerikaanse politiek"
     },
     {
-      "n": 241,
-      "reason": "Duiding van Trumps ideologie en denkers, met Stefan Paas"
+      "n": 203,
+      "reason": "James Kennedy over Trump als symbool van een minder religieus Amerika"
     },
     {
       "n": 20,
-      "reason": "Waarom Amerikaanse christenen Trump steunen; evangelicals en politiek"
+      "reason": "Trump en zijn christelijke kiezers, over waarom evangelicals hem steunen"
     },
     {
-      "n": 2,
-      "reason": "James Kennedy over populisme, Trump en de rol van de kerk"
+      "n": 226,
+      "reason": "Vooruitblik op Trump, populisme en cultuurchristendom in het Westen"
+    },
+    {
+      "n": 56,
+      "reason": "Heilige alliantie tussen orthodoxe christenen en radicaal-rechtse populisten"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,16 +1,21 @@
 {
   "episode": 192,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 148061,
+    "segments": 1612,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31329,
-    "output_tokens": 2684,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 76094,
+    "output_tokens": 4153,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geschiedenis",
     "Kerk & secularisatie",
+    "Geschiedenis",
     "Geopolitiek & oorlog",
     "Samenleving & migratie"
   ],
@@ -19,104 +24,182 @@
   ],
   "people": [
     {
-      "name": "George Steiner",
-      "note": "literatuurcriticus die Europa omschreef als koffiehuizen en bewandelbaar",
+      "name": "Hendrie van Maanen",
+      "note": "gast; geograaf, theoloog en docent Europese cultuur en religie, auteur van 'Europa en de weg'",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 318729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Steiner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/George_Steiner_2013_%28cropped%29.jpg/250px-George_Steiner_2013_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Geoffrey Chaucer",
-      "note": "auteur van The Canterbury Tales, pelgrims die verhalen vertellen",
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 41886,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geoffrey_Chaucer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/250px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, beroept zich op de christelijke cultuur en het 'derde Rome'",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "mention_count": 1
     },
     {
       "name": "Robert Schuman",
       "note": "grondlegger van het Europese project",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 104281,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Schuman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bundesarchiv_Bild_183-19000-2453%2C_Robert_Schuman.jpg/250px-Bundesarchiv_Bild_183-19000-2453%2C_Robert_Schuman.jpg"
+      "mention_count": 1
     },
     {
       "name": "Konrad Adenauer",
       "note": "grondlegger van het Europese project",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 98463,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Konrad_Adenauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Konrad_Adenauer_-_14._CDU-Bundesparteitag-kasf0095.JPG/250px-Konrad_Adenauer_-_14._CDU-Bundesparteitag-kasf0095.JPG"
+      "mention_count": 1
     },
     {
-      "name": "Andrej Roebljov",
-      "note": "iconenschilder van de Drie-eenheidsicoon",
+      "name": "George Steiner",
+      "note": "denker over de ideeën van Europa; koffiehuizen en bewandelbaarheid",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 258725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrej_Roebljov_%28schilder%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%8E_%D0%A0%D1%83%D0%B1%D0%BB%D0%B5%D0%B2%D1%83_%28%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%29_002.jpg/250px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%8E_%D0%A0%D1%83%D0%B1%D0%BB%D0%B5%D0%B2%D1%83_%28%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%29_002.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Patriarch Kirill",
-      "note": "leider van de Russisch-orthodoxe kerk, voormalig KGB-contact",
+      "name": "Geoffrey Chaucer",
+      "note": "auteur van The Canterbury Tales",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 1547139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kirill_van_Moskou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patriarch_Kirill_of_Moscow.jpg/250px-Patriarch_Kirill_of_Moscow.jpg"
-    },
-    {
-      "name": "Joseph Stalin",
-      "note": "liet duizenden priesters vermoorden; kwam volgens de mop in een Weens koffiehuis",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
+      "mention_count": 1
     },
     {
       "name": "Sigmund Freud",
-      "note": "bezocht Weense koffiehuizen",
+      "note": "figuur uit het Weense koffiehuiscultuur",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "genoemd als bezoeker van Weense koffiehuizen",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Jozef Stalin",
+      "note": "genoemd als bezoeker van Weense koffiehuizen; ook verantwoordelijk voor vervolging van priesters",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Andrej Roebljov",
+      "note": "schilder van de Drievuldigheidsicoon",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; beroept zich op de orthodoxie en het 'Derde Rome'-idee",
+      "start_seconds": 0,
+      "mention_count": 3
+    },
+    {
+      "name": "Patriarch Kiril",
+      "note": "leider van de Russisch-orthodoxe kerk",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Jürgen Habermas",
+      "note": "agnostisch filosoof; stelt dat er geen alternatief is voor joods-christelijke ethiek",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Grace Davie",
+      "note": "socioloog van religie; 'believing without belonging' en 'vicarious religion'",
+      "start_seconds": 0,
+      "mention_count": 2
+    },
+    {
+      "name": "Geert Hofstede",
+      "note": "cultureel onderzoeker; ui-model",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Brown",
+      "note": "historicus van de laat-antieke tijd",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Oliver Roy",
+      "note": "onderzoeker die 'gedeterritorialiseerd christendom' beschrijft",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "David Martin",
+      "note": "socioloog van religie",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president; tweet bij brand Notre-Dame",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlands premier",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Forum voor Democratie-leider",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Marjolein Hofman",
+      "note": "genoemd in verband met Anne Frank-dagboek context (onzeker)",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnon Grunberg",
+      "note": "schrijver; over de asielcrisis als crisis van het humanisme",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "historicus; eerdere podcast-gast over morele duidelijkheid",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; grote denker van de christelijke traditie",
+      "start_seconds": 0,
+      "mention_count": 3
+    },
+    {
+      "name": "Marine Le Pen",
+      "note": "Franse politica (Front National/RN)",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Lucas Vos",
+      "note": "luisteraar die het aantal Augustinus-vermeldingen telde",
+      "start_seconds": 0,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Europa en de weg",
       "author": "Hendrie van Maanen",
-      "note": "boek van de gast over Europese identiteit en cultuur",
+      "note": "boek waarin de vraag 'wie zijn wij Europeanen' centraal staat",
       "start_seconds": 0,
       "volume_id": "_Qax0AEACAAJ",
-      "canonical_title": "Europa en de weg: Europees christendom in meer dan vijftig beelden en verhalen",
+      "canonical_title": "Europa en de weg",
       "canonical_author": "Hendrie van Maanen",
       "isbn13": "9789058042149",
       "isbn10": "9058042146",
@@ -125,23 +208,23 @@
     {
       "title": "The Canterbury Tales",
       "author": "Geoffrey Chaucer",
-      "note": "14e-eeuwse verhalen van pelgrims op weg",
+      "note": "verhalen van pelgrims die elkaar onderweg ontmoeten",
       "start_seconds": 0,
-      "volume_id": "FVvjEAAAQBAJ",
+      "volume_id": "qcImAQAAMAAJ",
       "canonical_title": "The Canterbury Tales",
       "canonical_author": "Geoffrey Chaucer",
-      "isbn13": "9782384613373",
-      "isbn10": "2384613375",
-      "thumbnail": "http://books.google.com/books/content?id=FVvjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=qcImAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Alledaagse Heiligen",
       "author": "",
-      "note": "Russisch boek over lokale orthodoxe cultuur, aanbevolen door Van Maanen",
+      "note": "Russisch boek over lokale orthodoxe cultuur",
       "start_seconds": 0,
       "volume_id": "FtwYvwEACAAJ",
       "canonical_title": "Alledaagse heiligen en andere verhalen",
-      "canonical_author": "Archimandriet Tichon (Sjevkoenov)",
+      "canonical_author": "Tichon (Archimandriet)",
       "isbn13": "9781784379186",
       "isbn10": "1784379182",
       "thumbnail": ""
@@ -150,152 +233,180 @@
   "bible_refs": [
     {
       "ref": "Genesis 18",
-      "note": "Abraham ontvangt drie bezoekers, de basis van de Drie-eenheidsicoon van Roebljov"
+      "note": "Abraham ontvangt drie bezoekers; basis voor de Drievuldigheidsicoon van Roebljov",
+      "start_seconds": 0
     },
     {
-      "ref": "Handelingen",
-      "note": "evangelische bewegingen willen terug naar de eerste gemeente"
+      "ref": "Lucas 10",
+      "note": "gelijkenis van de barmhartige Samaritaan",
+      "start_seconds": 0
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "Bergrede: vijanden liefhebben",
+      "start_seconds": 0
+    },
+    {
+      "ref": "Mattheus 22",
+      "note": "Jezus: geef aan de keizer wat van de keizer is",
+      "start_seconds": 0
+    },
+    {
+      "ref": "Mattheus 5",
+      "note": "zout der aarde / zuurdesem-beeld (Mattheus 13)",
+      "start_seconds": 0
     }
   ],
   "places": [
     "Europa",
     "Oekraïne",
-    "Rusland",
-    "Myanmar",
-    "Thailand",
     "Georgië",
     "Roemenië",
     "Timisoara",
-    "Cluj",
-    "Praag",
-    "Wenen",
-    "Boedapest",
+    "Boekarest",
     "Sarajevo",
-    "Constantinopel",
     "Istanbul",
+    "Constantinopel",
     "Moskou",
+    "Parijs",
+    "Wenen",
+    "Thailand",
+    "Myanmar",
+    "Nijkerk",
+    "Ede",
+    "Vorden",
     "Twente",
-    "Griekenland",
-    "Spanje"
+    "Limburg",
+    "Utrecht",
+    "Amsterdam",
+    "Israël",
+    "Gaza",
+    "Libië"
   ],
-  "summary_tldr": "Hendrie van Maanen, geograaf en theoloog, bespreekt zijn boek 'Europa en de weg' en wat Europa uniek maakt. Het gesprek gaat over de vergeten oostelijke helft van Europa, de orthodoxe traditie en de rol van de Russisch-orthodoxe kerk in de oorlog in Oekraïne. Ook komen gedeelde verhalen en identiteit aan bod.",
+  "summary_tldr": "Hendrie van Maanen en Stefan Paas bespreken de Europese identiteit aan de hand van Van Maanens boek 'Europa en de weg', voorafgaand aan de Europese verkiezingen. Ze verkennen de rol van de orthodoxe en westerse christelijke traditie, de erosie van een gedeelde verhalencultuur en de vraag wat Nederland na secularisatie nog bindt. Het gesprek eindigt bij de vraag of joods-christelijke waarden zonder hun religieuze voedingsbodem kunnen blijven bestaan.",
   "summary_points": [
-    "5 mei: 80 jaar vrijheid geldt alleen voor West-Europa; Midden- en Oost-Europa kenden minder vrijheid",
-    "Europese kernwaarden van Schuman en Adenauer: solidariteit en nooit meer oorlog",
-    "Populistische flanken bedreigen het politieke midden vlak voor de Europese verkiezingen",
-    "Europa is bewandelbaar, kleinschalig en divers: koffiehuizen, pelgrims, Athene en Jeruzalem",
-    "Oekraïne ligt geografisch in het midden van Europa; Nederland is eigenlijk de rand",
-    "Het Romeinse Rijk bleef in het oosten voortbestaan met Constantinopel als hoofdstad",
-    "De orthodoxe traditie draait om mysterie, beleving en theosis, anders dan de protestantse nadruk op de preek",
-    "Rusland claimt het 'derde Rome', maar de orthodoxe wereld is veel breder dan Moskou",
-    "De Russisch-orthodoxe kerk is getraumatiseerd door communisme en doordrenkt van KGB-invloed"
+    "Europa wordt gekenmerkt door bewandelbaarheid, koffiehuizen, landschapsdiversiteit en een gedeelde verhalentraditie.",
+    "De westerse en oosterse christelijke tradities zijn sinds 1054 uiteengegroeid, maar delen dezelfde Bijbel en geloofsbelijdenissen.",
+    "De Russisch-orthodoxe kerk is verweven met de Russische staat en Poetins retoriek van het 'Derde Rome'.",
+    "In Nederland identificeert minder dan 40% zich met een religie; Nederland wijkt daarin sterk af van de rest van Europa.",
+    "Van Maanen pleit voor cultuurchristendom als verbindend element; Paas waarschuwt dat cultuur zonder levende bron verstart.",
+    "Verhalen zoals de barmhartige Samaritaan worden minder gekend, waardoor een gedeeld verhalend kader wegvalt.",
+    "De kerk zou volgens Van Maanen meer moeten focussen op sociale gerechtigheid dan op smalle identiteitsthema's.",
+    "Joods-christelijke waarden zoals menselijke waardigheid liggen ten grondslag aan het Verdrag van Lissabon en mensenrechten.",
+    "Paas en Van Maanen zijn het niet eens over de rol van identitaire christenen en populisme.",
+    "Aan het einde is er een luchtig intermezzo over hoe vaak Augustinus in de podcast genoemd wordt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Bevrijdingsdag en vrijheid in Europa",
-      "summary": "Over 5 mei, de kwetsbaarheid van vrede en vrijheid sinds de inval in Oekraïne en het ervaren van vrijheid in Thailand."
+      "title": "Bevrijdingsdag en Europese identiteit",
+      "summary": "Persoonlijke reflecties op 4 en 5 mei en de kwetsbaarheid van vrede in Europa."
     },
     {
-      "start_seconds": 0,
-      "title": "Europese verkiezingen en gedeelde verhalen",
-      "summary": "De grondleggers van Europa, het populisme aan de flanken en het verlies van gedeelde bijbelse verhalen."
+      "start_seconds": 600,
+      "title": "Wat is Europa?",
+      "summary": "Koffiehuizen, bewandelbaarheid en de verscheidenheid van landschap en cultuur."
     },
     {
-      "start_seconds": 0,
-      "title": "Wat is typisch Europa?",
-      "summary": "Koffiehuizen, bewandelbaarheid, kleinschalig landschap en diversiteit in taal en religie."
+      "start_seconds": 1500,
+      "title": "Oost-Europa en de orthodoxie",
+      "summary": "Het schisma, Byzantium, de orthodoxe liturgie en de Drievuldigheidsicoon."
     },
     {
-      "start_seconds": 0,
-      "title": "Favoriete plekken en cultuurlandschap",
-      "summary": "Georgië, Roemenië, Toscane en de Nederlandse landschappen als voorbeelden van Europees cultuurlandschap."
+      "start_seconds": 2700,
+      "title": "Poetin en de Russisch-orthodoxe kerk",
+      "summary": "Het 'Derde Rome'-idee en de verwevenheid van kerk en Kremlin."
     },
     {
-      "start_seconds": 0,
-      "title": "Oost-Europa dichterbij dan we denken",
-      "summary": "Oekraïne als middelpunt van Europa en waarom Wenen en het zuiden vertrouwder voelen dan het oosten."
+      "start_seconds": 3300,
+      "title": "Secularisatie en believing without belonging",
+      "summary": "Nederland als uitzondering in Europa; de rol van de calvinistische achtergrond."
     },
     {
-      "start_seconds": 0,
-      "title": "De orthodoxe wereld",
-      "summary": "Constantinopel, het schisma van 1054, de beleving van de liturgie en de Drie-eenheidsicoon van Roebljov."
+      "start_seconds": 4200,
+      "title": "Cultuurchristendom en gedeelde verhalen",
+      "summary": "Waarom verhalen en rituelen belangrijk zijn en hoe cultuur religie vormt."
     },
     {
-      "start_seconds": 0,
-      "title": "Rusland, het derde Rome en de kerk",
-      "summary": "Poetins framing van christelijke cultuur, Russki mir en de beschadigde Russisch-orthodoxe kerk."
+      "start_seconds": 5400,
+      "title": "Joods-christelijke waarden en mensenrechten",
+      "summary": "Het belang van universele waarden en het gevaar van instrumentalisering door populisten."
+    },
+    {
+      "start_seconds": 6600,
+      "title": "Augustinus-telling en afsluiting",
+      "summary": "Luchtig slot over het aantal keren dat Augustinus genoemd wordt in de podcast."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 1800,
       "speaker": "Hendrie van Maanen",
-      "text": "Wij zijn eigenlijk de rand van Europa; het centrum ligt bij Boedapest, Lviv, Warschau en Krakow.",
-      "note": "Draait het West-Europese zelfbeeld om."
+      "text": "Europa is koffiehuizen, bewandelbaarheid en een continue uitwisseling van ideeën en verhalen.",
+      "note": "Samenvatting van George Steiners kijk op Europa, die de cultuur van ontmoeting centraal stelt."
     },
     {
-      "start_seconds": 0,
+      "start_seconds": 3600,
       "speaker": "Stefan Paas",
-      "text": "De christelijke cultuur bestaat niet; meestal bedoelen we de Latijnse, Rooms-katholiek beïnvloede cultuur.",
-      "note": "Scherpe nuancering van het begrip cultuurchristendom."
+      "text": "Er was ooit een tijd dat van Ierland tot Iran mensen dezelfde teksten lazen.",
+      "note": "Verwijzing naar Peter Brown; illustreert het verlies van een gedeeld verhalend kader."
     },
     {
-      "start_seconds": 0,
-      "speaker": "Hendrie van Maanen",
-      "text": "Bij de Roebljov-icoon word je uitgenodigd om mee aan tafel te gaan zitten en te dansen met de drie-eenheid.",
-      "note": "Mooi beeld van orthodoxe beleving tegenover de protestantse preek."
-    },
-    {
-      "start_seconds": 0,
+      "start_seconds": 5100,
       "speaker": "Stefan Paas",
-      "text": "Van de 130.000 priesters zijn er onder Stalin 100.000 tegen de muur gezet.",
-      "note": "Verklaart het trauma van de Russisch-orthodoxe kerk."
+      "text": "Het heilige boek van Nederland is het dagboek van Anne Frank.",
+      "note": "Opvallende duiding van 4 mei als civiele religie met eigen rituelen en moraal."
     },
     {
-      "start_seconds": 0,
-      "speaker": "Hendrie van Maanen",
-      "text": "Het Romeinse Rijk viel niet; in het oosten bleef het duizend jaar bestaan.",
-      "note": "Corrigeert een gangbaar geschiedenisbeeld."
+      "start_seconds": 4800,
+      "speaker": "Stefan Paas",
+      "text": "Zodra je gaat zeggen dat christelijke politiek mogelijk is, dan krijg je ook een politiek christendom.",
+      "note": "Kritische noot over de risico's van cultuurchristendom, geformuleerd via David Martin."
+    },
+    {
+      "start_seconds": 5700,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt geen cultuurchristendom bij wijze van spreken 'gaan doen'.",
+      "note": "Scherpe conclusie dat cultuur niet te programmeren is."
     }
   ],
   "keywords": [
-    "Europa",
-    "Oost-Europa",
-    "orthodoxie",
-    "Constantinopel",
-    "derde Rome",
-    "Poetin",
     "cultuurchristendom",
-    "Roebljov",
-    "theosis",
-    "Oekraïne",
-    "identiteit",
-    "Schuman"
+    "secularisatie",
+    "Europese identiteit",
+    "orthodoxie",
+    "Byzantium",
+    "believing without belonging",
+    "civiele religie",
+    "joods-christelijke waarden",
+    "populisme",
+    "gedeelde verhalen",
+    "Drievuldigheidsicoon",
+    "Derde Rome"
   ],
   "quotes": [
-    "Wie zijn wij Europeanen eigenlijk?"
+    "Europa is zo afwisselend.",
+    "Het is believing without belonging.",
+    "Geregelde kerkgang is het beste vaccinatieprogramma tegen populisme."
   ],
   "similar": [
     {
-      "n": 82,
-      "reason": "Russisch-orthodoxe kerk, Patriarch Kirill en steun aan Poetin in de oorlog in Oekraïne"
-    },
-    {
-      "n": 79,
-      "reason": "Religieuze geschiedenis achter het conflict tussen Rusland, Oekraïne en het Westen"
-    },
-    {
       "n": 92,
-      "reason": "Verrassende oorsprong van Europese waarden, christelijke wortels van Europa"
+      "reason": "Zelfde thema: oorsprong van Europese waarden in het christelijke erfgoed, met Beatrice de Graaf."
     },
     {
-      "n": 231,
-      "reason": "Groei van de orthodoxe kerk en de oosterse christelijke traditie"
+      "n": 196,
+      "reason": "Gaat over Europa, de Europese verkiezingen en de rol van geloof en geschiedenis."
     },
     {
-      "n": 317,
-      "reason": "Religie, relieken en Poetin in de wereldpolitiek"
+      "n": 7,
+      "reason": "Gaat direct over cultuurchristendom en de betekenis van christelijke cultuur voor Nederland."
+    },
+    {
+      "n": 263,
+      "reason": "Over culturele verdwaling, afbrokkelende verhalen en de gevolgen voor de samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

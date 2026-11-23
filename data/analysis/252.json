@@ -1,18 +1,23 @@
 {
   "episode": 252,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 144151,
+    "segments": 1483,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30626,
-    "output_tokens": 2469,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 72276,
+    "output_tokens": 6902,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Samenleving & migratie",
-    "Filosofie & ethiek",
-    "Geschiedenis"
+    "Kerk & secularisatie",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Tom van der Meer"
@@ -20,181 +25,191 @@
   "people": [
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider die het kabinet ten val bracht",
+      "note": "Leider van de PVV; zijn vertrek bracht het kabinet ten val",
       "start_seconds": 40,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 25
     },
     {
-      "name": "Dilan Yesilgöz",
-      "note": "VVD-partijleider",
+      "name": "Dilan Yeşilgöz",
+      "note": "Partijleider van de VVD",
       "start_seconds": 160,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
-    },
-    {
-      "name": "Pieter Omtzigt",
-      "note": "leider van NSC",
-      "start_seconds": 804,
-      "wiki_checked": true,
-      "wiki_pageid": 308004,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_Omtzigt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Omtzigt%2C_De_Balie%2C_2021.png/250px-Pieter_Omtzigt%2C_De_Balie%2C_2021.png"
+      "mention_count": 12
     },
     {
       "name": "Frans Timmermans",
-      "note": "leider GroenLinks-PvdA",
-      "start_seconds": 580,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "note": "Lijsttrekker van GroenLinks-PvdA",
+      "start_seconds": 600,
+      "mention_count": 14
     },
     {
       "name": "Mark Rutte",
-      "note": "voormalig premier, VVD",
-      "start_seconds": 653,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Voormalig premier en VVD-leider; VVD-leiderschapscampagne 2021",
+      "start_seconds": 660,
+      "mention_count": 12
     },
     {
-      "name": "Henri Bontenbal",
-      "note": "CDA-leider",
-      "start_seconds": 580,
-      "wiki_checked": true,
-      "wiki_pageid": 5530732,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henri_Bontenbal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Henri_Bontenbal.jpg/250px-Henri_Bontenbal.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "politicus, Lijst Pim Fortuyn",
-      "start_seconds": 1452,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
-      "name": "Frits Bolkestein",
-      "note": "VVD-leider die zich profileerde tegen eigen coalitie",
-      "start_seconds": 1799,
-      "wiki_checked": true,
-      "wiki_pageid": 486,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frits_Bolkestein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frits_Bolkestein_1988_%281%29.jpg/250px-Frits_Bolkestein_1988_%281%29.jpg"
-    },
-    {
-      "name": "Diederik Samsom",
-      "note": "PvdA-leider 2012-2017",
-      "start_seconds": 1893,
-      "wiki_checked": true,
-      "wiki_pageid": 259086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diederik_Samsom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/01._Diederik_Samsom.jpg/250px-01._Diederik_Samsom.jpg"
-    },
-    {
-      "name": "Gert Jan Segers",
-      "note": "ChristenUnie-leider, 'meloen inslikken'",
-      "start_seconds": 1865,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "name": "Pieter Omtzigt",
+      "note": "Oprichter van de NSC; campagne tegen Timmermans",
+      "start_seconds": 804,
+      "mention_count": 5
     },
     {
       "name": "Hugo de Jonge",
-      "note": "CDA-lijsttrekker 2021",
-      "start_seconds": 743,
-      "wiki_checked": true,
-      "wiki_pageid": 2288921,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_de_Jonge",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hugo_de_Jonge%2C_February_2023.jpg/250px-Hugo_de_Jonge%2C_February_2023.jpg"
+      "note": "CDA-politicus die zich als premierskandidaat lanceerde",
+      "start_seconds": 734,
+      "mention_count": 1
     },
     {
       "name": "Sigrid Kaag",
-      "note": "D66-lijsttrekker 2021",
-      "start_seconds": 744,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "note": "D66-politica die zich als premierskandidaat lanceerde",
+      "start_seconds": 740,
+      "mention_count": 2
     },
     {
       "name": "Hans Wiegel",
-      "note": "VVD-leider jaren 70",
+      "note": "VVD-leider in de jaren 70, sterk profiel tegenover de PvdA",
       "start_seconds": 646,
-      "wiki_checked": true,
-      "wiki_pageid": 42228,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_Wiegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Hans_Wiegel_1977_%282%29.jpg/250px-Hans_Wiegel_1977_%282%29.jpg"
-    },
-    {
-      "name": "Joop den Uyl",
-      "note": "PvdA-leider jaren 70",
-      "start_seconds": 646,
-      "wiki_checked": true,
-      "wiki_pageid": 831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Joop_den_Uyl_1975.jpg/250px-Joop_den_Uyl_1975.jpg"
+      "mention_count": 2
     },
     {
       "name": "Alexander Pechtold",
-      "note": "voormalig D66-leider",
+      "note": "Voormalig D66-leider",
       "start_seconds": 667,
-      "wiki_checked": true,
-      "wiki_pageid": 160637,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Pechtold",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alexander-pechtold_%28cropped%29.jpg/250px-Alexander-pechtold_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Ruud Lubbers",
-      "note": "voormalig CDA-premier",
-      "start_seconds": 1642,
-      "wiki_checked": true,
-      "wiki_pageid": 1020,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruud_Lubbers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ruud_Lubbers_1985.jpg/250px-Ruud_Lubbers_1985.jpg"
+      "name": "Frits Bolkestein",
+      "note": "VVD-politicus die zich profileerde tegen zijn eigen kabinet",
+      "start_seconds": 1794,
+      "mention_count": 2
     },
     {
-      "name": "Gidi Markuszower",
-      "note": "Faber, PVV-minister voor asiel",
-      "start_seconds": 1032,
-      "wiki_checked": true,
-      "wiki_pageid": 4344367,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gidi_Markuszower",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Gidi_Markuszower.jpg/250px-Gidi_Markuszower.jpg"
+      "name": "Hans Dijkstra",
+      "note": "CDA-politicus in het kabinet-Balkenende 2, minder profiel op migratie",
+      "start_seconds": 1810,
+      "mention_count": 2
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Oprichter van de LPF, bracht vergezichten in de politiek",
+      "start_seconds": 1444,
+      "mention_count": 3
+    },
+    {
+      "name": "Diederik Samsom",
+      "note": "PvdA-leider die het regeerakkoord omarmde",
+      "start_seconds": 1888,
+      "mention_count": 2
+    },
+    {
+      "name": "Emile Roemer",
+      "note": "SP-leider, sterke verkiezing in 2012",
+      "start_seconds": 2750,
+      "mention_count": 3
+    },
+    {
+      "name": "Lilian Marijnissen",
+      "note": "SP-leider",
+      "start_seconds": 2869,
+      "mention_count": 2
+    },
+    {
+      "name": "Jimmy Dijk",
+      "note": "SP-leider die economische thema's inzette",
+      "start_seconds": 3050,
+      "mention_count": 2
+    },
+    {
+      "name": "Rob Jetten",
+      "note": "D66-leider die het klimaatstandpunt omarmde",
+      "start_seconds": 3817,
+      "mention_count": 3
+    },
+    {
+      "name": "Henri Bontenbal",
+      "note": "CDA-partijleider die fatsoen en normen en waarden benadrukt",
+      "start_seconds": 3552,
+      "mention_count": 4
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "Voormalig CDA-leider met een VVD-light campagne",
+      "start_seconds": 3500,
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Voormalig Forum voor Democratie-leider",
+      "start_seconds": 3633,
+      "mention_count": 2
+    },
+    {
+      "name": "Caroline van der Plas",
+      "note": "BBB-leider die veel aandacht kreeg",
+      "start_seconds": 3637,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Derksen",
+      "note": "Tafelgast bij Vandaag Insight",
+      "start_seconds": 3684,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "ChristenUnie-leider die compromissen verdedigde",
+      "start_seconds": 1863,
+      "mention_count": 2
+    },
+    {
+      "name": "Sybrand Buma",
+      "note": "Voormalig CDA-leider, HJ Schoollezing over wantrouwende burger",
+      "start_seconds": 2642,
+      "mention_count": 1
+    },
+    {
+      "name": "Sharon Gesthuizen",
+      "note": "Voormalig SP-fractielid, afsplitsing na profielwijziging",
+      "start_seconds": 2809,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten van Rossem",
+      "note": "Historicus die de kiezer een verwend kind noemde",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Maurice de Hond",
+      "note": "Peiling-expert die maatschappelijk onbehagen als veenbrand omschreef",
+      "start_seconds": 2608,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "Socioloog die het begrip onttovering introduceerde",
+      "start_seconds": 2587,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman van Gunsteren",
+      "note": "Auteur die ook over onttovering schreef",
+      "start_seconds": 2596,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier, voorbeeld van democratische neergang",
+      "start_seconds": 4656,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Waardenloze politiek",
       "author": "Tom van der Meer",
-      "note": "Betoog dat partijen richting, waarden en visie missen",
-      "start_seconds": 376,
+      "note": "Boek over het tekort aan richting, visie en vergezichten in de Nederlandse politiek",
+      "start_seconds": 1604,
       "volume_id": "3hH8EAAAQBAJ",
       "canonical_title": "Waardenloze politiek: Hoe de Nederlandse politiek de kunst van het conflict verloor",
       "canonical_author": "Tom van der Meer",
@@ -205,134 +220,139 @@
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
-    "Oostenrijk",
-    "Zweden",
-    "België",
+    "Den Haag",
+    "Zwolle",
+    "Hongarije",
+    "Verenigde Staten",
     "Duitsland",
-    "Amsterdam",
-    "Utrecht"
+    "Zweden",
+    "Denemarken",
+    "Polen",
+    "Oostenrijk",
+    "België",
+    "India"
   ],
-  "summary_tldr": "Na de val van het kabinet-Schoof duidt politicoloog Tom van der Meer de diepere oorzaken. Hij betoogt dat partijen op elkaar zijn gaan lijken, waarden en vergezichten missen en te weinig inhoudelijk conflict aangaan, wat ruimte geeft aan de flanken en politieke chaos.",
+  "summary_tldr": "Politicoloog Tom van der Meer analyseert waarom het kabinet viel en stelt dat de Nederlandse politiek kampt met een tekort aan waarden, visie en vergezichten. Partijen ruilen ideologie in voor pragmatisme en peilingen, terwijl het conflict zich verplaatst van inhoud naar persoonlijke strijd en dominante thema's zoals migratie. Hij ziet tegelijk eerste tekenen van een terugkeer naar waardengedreven politiek.",
   "summary_points": [
-    "De VVD profileert zich meteen met bestuurlijke verantwoordelijkheid, veiligheid en economie.",
-    "In 2023 maakte de VVD een misrekening door migratie tot hoofdthema te maken, waardoor de PVV profiteerde.",
-    "Partijen kunnen thema's van een ander nauwelijks afpakken; thema-eigenaarschap is sterk.",
-    "Democratie heeft conflict over inhoud nodig, niet alleen over poppetjes.",
-    "Het kabinet kende vanaf het begin wantrouwen en verdeelde beleidsterreinen als vier koninkrijkjes.",
-    "Middenpartijen verzwakten hun profiel door brede coalities en technocratische 'moetjes'.",
-    "Het kabinet bood wel kansen: duidelijke oppositie en vertegenwoordiging van buitenspel gezette kiezers.",
-    "Een compromis krijgt pas waarde na inhoudelijke strijd en uitleg aan de achterban."
+    "De val van het kabinet liet zien hoe partijen met onderling wantrouwen aan een coalitie begonnen, met een regeerakkoord vol voetnoten en plan-B-clausules.",
+    "Partijen proberen thema's te bezetten, maar het lukt zelden om het thema van een ander af te pakken; de VVD gaf het migratiethema zo aan de PVV.",
+    "Democratie heeft conflict nodig: zonder alternatieven is er geen echte keuze, maar het conflict is vaak poppetjesstrijd in plaats van inhoudelijke strijd.",
+    "Brede middencoalities hebben partijen op elkaar doen lijken, waardoor kiezers naar de flanken trokken op zoek naar echte alternatieven.",
+    "Maatschappelijk onbehagen komt volgens Van der Meer voort uit een gebrek aan grip, en dat vraagt om vergezichten en principes.",
+    "Kiezers blijven trouw aan hun waarden, maar reageren op de thema's die politici en media agenderen; dat verklaart schommelingen tussen partijen.",
+    "Het CDA verloor kerkgaande kiezers door een VVD-light koers; onder Bontenbal lijkt een terugkeer naar fatsoen en normen zichtbaar.",
+    "Nederland kent een evenredig kiesstelsel dat als verdedigingslinie tegen autoritaire ontwikkelingen werkt, zoals in Hongarije.",
+    "De strijd om het dominante thema wordt volgens Van der Meer de belangrijkste factor in de komende verkiezingen; peilingen zeggen daarover weinig."
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Inleiding en optimistische politicoloog",
-      "summary": "David introduceert het thema en Tom van der Meer, en zijn boek Waardenloze politiek."
+      "start_seconds": 0,
+      "title": "Inleiding en de week van de val",
+      "summary": "Presentator David Boogerd introduceert het gesprek en de rol van Van der Meer; de VVD-reactie op de val wordt besproken."
     },
     {
-      "start_seconds": 160,
-      "title": "De snelle reactie van de VVD",
-      "summary": "De VVD sorteert direct voor op de campagne met thema's als veiligheid en economie."
+      "start_seconds": 300,
+      "title": "Strategie van de VVD en thema-eigenaarschap",
+      "summary": "Partijen als VVD proberen thema's te bezetten, maar het thema-eigenaarschap ligt meestal bij andere partijen; het conflict over migratie wordt besproken."
     },
     {
-      "start_seconds": 280,
-      "title": "Thema-eigenaarschap en de misrekening van 2023",
-      "summary": "Waarom de VVD met migratie als hoofdthema de PVV groter maakte."
+      "start_seconds": 960,
+      "title": "Conflict, poppetjes en inhoud",
+      "summary": "Democratie heeft conflict nodig; de verkiezingsstrijd draaide om leiderschap en persoonlijke strijd in plaats van inhoud."
     },
     {
-      "start_seconds": 540,
-      "title": "Conflict en leiderschapscampagnes",
-      "summary": "Het belang van inhoudelijk conflict versus poppetjespolitiek, van Wiegel/Den Uyl tot Rutte in 2021."
+      "start_seconds": 1500,
+      "title": "Het kabinet als weeffout",
+      "summary": "Het regeerakkoord met plan-B-clausules en wantrouwen tussen partijen leidde tot de val; de rol van de VVD wordt besproken."
     },
     {
-      "start_seconds": 920,
-      "title": "De weeffout in het kabinet",
-      "summary": "Wantrouwen, uitruil van beleidsterreinen en ontbrekende plan B's maakten het kabinet fragiel."
+      "start_seconds": 2100,
+      "title": "Verlies van ideologie en vergezichten",
+      "summary": "Middenpartijen zijn gaan lijken op elkaar; Van der Meer verklaart dat met brede coalities en technocratie, en Stefan Paas bevraagt de rol van doeners."
     },
     {
-      "start_seconds": 1340,
-      "title": "Positieve kanten en LPF-parallel",
-      "summary": "Het kabinet gaf buitenspel gezette kiezers een stem, vergelijkbaar met 2002."
+      "start_seconds": 3000,
+      "title": "Secularisatie, kiezers en het CDA",
+      "summary": "Kerkgaande kiezers stemmen minder CDA; de kiezer volgt de agenda van partijen. Bontenbal en het fatsoenthema komen aan bod."
     },
     {
-      "start_seconds": 1600,
-      "title": "Waardenloze politiek en middenpartijen",
-      "summary": "Brede coalities en technocratie lieten partijen op elkaar lijken en openden ruimte aan de flanken."
+      "start_seconds": 3800,
+      "title": "Terugkeer van waarden en de dreiging van de flanken",
+      "summary": "Er zijn tekenen van waardengedreven politiek, maar het dominante conflict blijft cruciaal; de PVV en het uitsluiten van partijen worden besproken."
     },
     {
-      "start_seconds": 1960,
-      "title": "Vergezichten en de waarde van compromis",
-      "summary": "Verschillende waarden geven verschillende uitleg aan hetzelfde besluit; compromis vraagt voorafgaande strijd."
+      "start_seconds": 4500,
+      "title": "Democratische weerbaarheid en slot",
+      "summary": "Nederlandse democratie hield stand dankzij het evenredige stelsel; Van der Meer kijkt uit naar de strijd om het dominante thema en de campagne."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
-      "speaker": "Tom van der Meer",
-      "text": "Je hebt vergezichten nodig.",
-      "note": "Kernboodschap, ook aan het begin van de aflevering."
-    },
-    {
-      "start_seconds": 1990,
+      "start_seconds": 2029,
       "speaker": "Tom van der Meer",
       "text": "Een compromis zonder eerst daaraan voorafgaande strijd is geen compromis. Dat is technocratie.",
-      "note": "Scherpe samenvatting van zijn these."
+      "note": "Scherpe kern van zijn betoog over het belang van conflict en principes in democratie."
     },
     {
-      "start_seconds": 1170,
-      "speaker": "Stefan Paas",
-      "text": "Zijn jullie niet een beetje in pak genaaid door de VVD?",
-      "note": "Prikkelende complotgedachte, door Van der Meer weerlegd."
-    },
-    {
-      "start_seconds": 1100,
-      "speaker": "David Boogerd",
-      "text": "Het waren gewoon vier koninkrijkjes die hun eigen belangen bewaakten.",
-      "note": "Treffende typering van het kabinet."
-    },
-    {
-      "start_seconds": 1450,
+      "start_seconds": 3320,
+      "start_seconds_note": "",
       "speaker": "Tom van der Meer",
-      "text": "Ook de LPF-kiezers waren in 2003 tevredener over de democratie, want ze zagen dat ze verschil konden maken.",
-      "note": "Verrassend inzicht over inclusieve democratie."
+      "text": "Maar de kiezer probeert trouw te zijn aan zijn eigen waarden, maar reageert op wat politici agenderen.",
+      "note": "Verklaart schommelingen in de peilingen zonder dat kiezers grillig zijn."
+    },
+    {
+      "start_seconds": 3873,
+      "speaker": "Tom van der Meer",
+      "text": "Schaam je niet voor je eigen principes.",
+      "note": "Pleidooi voor trots op eigen waarden, verwijzend naar Rob Jetten die klimaatstandpunt omarmde."
+    },
+    {
+      "start_seconds": 2675,
+      "speaker": "Stefan Paas",
+      "text": "Het is soms net een kerk.",
+      "note": "Ironische vergelijking tussen de SP en een kerkgemeenschap, die de rol van vergezichten in partijen belicht."
     }
   ],
   "keywords": [
     "Waardenloze politiek",
-    "Tom van der Meer",
-    "Kabinetsval",
-    "PVV",
-    "VVD",
-    "Conflict",
-    "Technocratie",
+    "Politiek conflict",
+    "Thema-eigenaarschap",
+    "Middencoalitie",
+    "Ideologie",
     "Vergezicht",
-    "Brede middencoalitie",
-    "Pim Fortuyn",
-    "Compromis",
-    "Thema-eigenaarschap"
+    "Secularisatie",
+    "Kiezersgedrag",
+    "Democratie",
+    "Migratie",
+    "Onttovering"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat geloven politieke partijen eigenlijk nog?",
+    "Heeft de Nederlandse politiek ten diepste zijn ziel verloren?",
+    "Tegelijkertijd zie je misschien ook wel voortekenen van een nieuwe positieve ontwikkeling in de politiek."
+  ],
   "similar": [
     {
-      "n": 273,
-      "reason": "Duiding van Nederlandse verkiezingen en politiek onbehagen met politieke analist, vergelijkbaar thema."
+      "n": 267,
+      "reason": "Behandelt hetzelfde thema: politiek die geen antwoord heeft op maatschappelijk onbehagen."
     },
     {
       "n": 170,
-      "reason": "Waarom Wilders won en Nederland verrechtst; politieke verschuivingen in Nederland."
+      "reason": "Analyseert Wilders' verkiezingswinst en de verrechtsing van de Nederlandse politiek."
     },
     {
-      "n": 267,
-      "reason": "Politiek heeft geen antwoord op onbehagen; democratie onder druk."
+      "n": 273,
+      "reason": "Nederlandse kabinetsvorming en politieke verhoudingen na de verkiezingen, met dezelfde duider."
     },
     {
-      "n": 136,
-      "reason": "Nederlandse politieke establishment overhoop door BBB, geanalyseerd door politiek duider."
+      "n": 156,
+      "reason": "Gaat over het CDA en Henri Bontenbal, die ook in deze aflevering besproken wordt."
     },
     {
-      "n": 149,
-      "reason": "Wereldbeeld achter tijdperk-Rutte en vertrek politieke hoofdrolspelers."
+      "n": 179,
+      "reason": "Politiek en kerk samen, met aandacht voor de Nederlandse politieke cultuur en Lousewies van der Laan."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

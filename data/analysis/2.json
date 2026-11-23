@@ -1,18 +1,23 @@
 {
   "episode": 2,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 67045,
+    "segments": 432,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29397,
-    "output_tokens": 3163,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 32888,
+    "output_tokens": 3041,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Kerk & secularisatie",
     "Amerika & Trump",
-    "Samenleving & migratie"
+    "God & geloof"
   ],
   "guests": [
     "James Kennedy"
@@ -20,226 +25,146 @@
   "people": [
     {
       "name": "Thierry Baudet",
-      "note": "Leider van Forum voor Democratie, pleit voor cultuurchristendom",
-      "start_seconds": 10,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Leider van Forum voor Democratie, centraal onderwerp van het gesprek",
+      "start_seconds": 59,
+      "mention_count": 30
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president, populist",
-      "start_seconds": 10,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Cas Mudde",
-      "note": "Expert op het gebied van populisme",
-      "start_seconds": 199,
-      "wiki_checked": true,
-      "wiki_pageid": 2172691,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cas_Mudde",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cas_Mudde_in_2018_05.jpg/250px-Cas_Mudde_in_2018_05.jpg"
+      "note": "Amerikaans president, vergeleken met populisten",
+      "start_seconds": 2,
+      "mention_count": 12
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, vergeleken met Baudet",
-      "start_seconds": 526,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "Leider van de PVV, vergeleken met Baudet",
+      "start_seconds": 525,
+      "mention_count": 6
     },
     {
-      "name": "Pim Fortuyn",
-      "note": "Eerdere populistische politicus",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "name": "Stefan Paas",
+      "note": "Theoloog des Vaderlands, vaste gast",
+      "start_seconds": 59,
+      "mention_count": 3
+    },
+    {
+      "name": "Cas Mudde",
+      "note": "Politicoloog die populisme definieert als politieke stijl",
+      "start_seconds": 299,
+      "mention_count": 1
     },
     {
       "name": "Jesse Klaver",
-      "note": "GroenLinks-leider, hield een groot verhaal over klimaat",
-      "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 1725801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesse_Klaver",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jesse_Klaver_2020_%286%29_%28cropped%29.jpg/250px-Jesse_Klaver_2020_%286%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Marine Le Pen",
-      "note": "Frans extreem-rechtse politica",
-      "start_seconds": 885,
-      "wiki_checked": true,
-      "wiki_pageid": 791772,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marine_Le_Pen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg"
-    },
-    {
-      "name": "Jean-Marie Le Pen",
-      "note": "Frans extreem-rechtse politicus, Holocaust-ontkenner, kreeg Baudets dissertatie",
-      "start_seconds": 885,
-      "wiki_checked": true,
-      "wiki_pageid": 187082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Marie_Le_Pen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Le_Pen_Jean-Marie_1999.jpg/250px-Le_Pen_Jean-Marie_1999.jpg"
-    },
-    {
-      "name": "Dominique Venner",
-      "note": "Franse racist die zelfmoord pleegde, schreef over 30.000 jaar beschaving",
-      "start_seconds": 862,
-      "wiki_checked": true,
-      "wiki_pageid": 812737,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dominique_Venner"
-    },
-    {
-      "name": "Walter Benjamin",
-      "note": "Filosoof, schreef over esthetisering van de politiek en fascisme",
-      "start_seconds": 1146,
-      "wiki_checked": true,
-      "wiki_pageid": 70501,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Walter_Benjamin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Walter_Benjamin_vers_1928.jpg/250px-Walter_Benjamin_vers_1928.jpg"
+      "note": "Leider van GroenLinks",
+      "start_seconds": 620,
+      "mention_count": 3
     },
     {
       "name": "Barack Obama",
-      "note": "Voorbeeld van sterke retorische traditie",
-      "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "note": "Amerikaans president, voorbeeld van retorische traditie",
+      "start_seconds": 615,
+      "mention_count": 2
     },
     {
       "name": "Martin Luther King",
-      "note": "Burgerrechtenleider, retorische traditie",
-      "start_seconds": 640,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "note": "Amerikaans burgerrechtenleider, retorische traditie",
+      "start_seconds": 620,
+      "mention_count": 2
     },
     {
-      "name": "Maurice de Hond",
-      "note": "Peiler die kerkgang en stemgedrag onderzocht",
-      "start_seconds": 1332,
-      "wiki_checked": true,
-      "wiki_pageid": 228374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maurice_de_Hond",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Maurice_de_Hond_%282018%29.jpg/250px-Maurice_de_Hond_%282018%29.jpg"
+      "name": "Dominique Venner",
+      "note": "Franse extreem-rechtse schrijver, geciteerd als bron van Baudet-achtige taal",
+      "start_seconds": 960,
+      "mention_count": 1
     },
     {
-      "name": "Kees van der Staaij",
-      "note": "SGP-leider, vroeg Wilders naar joods-christelijke waarden",
-      "start_seconds": 2098,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "name": "Jean-Marie Le Pen",
+      "note": "Frans extreem-rechts politicus",
+      "start_seconds": 967,
+      "mention_count": 2
     },
     {
-      "name": "Joël Voordewind",
-      "note": "ChristenUnie-Kamerlid, debatteerde met Baudet over bijbeluitleg",
-      "start_seconds": 2154,
-      "wiki_checked": true,
-      "wiki_pageid": 688875,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jo%C3%ABl_Voordewind",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Jo%C3%ABl_Voordewind_2018.jpg/250px-Jo%C3%ABl_Voordewind_2018.jpg"
-    },
-    {
-      "name": "Baruch Spinoza",
-      "note": "Filosoof, stelde eerder dat naaste de dichtstbijzijnde is",
-      "start_seconds": 2182,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
-    },
-    {
-      "name": "Peter Beinart",
-      "note": "Schrijver in The Atlantic over ontkerkelijking en politiek",
-      "start_seconds": 2240,
-      "wiki_checked": true
+      "name": "Walter Benjamin",
+      "note": "Filosoof die over esthetisering van de politiek schreef",
+      "start_seconds": 1200,
+      "mention_count": 1
     },
     {
       "name": "William Jennings Bryan",
-      "note": "Amerikaans populist, Cross of Gold-toespraak",
-      "start_seconds": 2330,
-      "wiki_checked": true,
-      "wiki_pageid": 1104523,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Jennings_Bryan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/WilliamJBryan1902.png/250px-WilliamJBryan1902.png"
+      "note": "Amerikaanse populistische politicus",
+      "start_seconds": 2355,
+      "mention_count": 2
     },
     {
       "name": "Ted Cruz",
-      "note": "Republikeinse rivaal van Trump",
-      "start_seconds": 2488,
-      "wiki_checked": true,
-      "wiki_pageid": 3196547,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ted_Cruz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ted_Cruz_senatorial_portrait.jpg/250px-Ted_Cruz_senatorial_portrait.jpg"
+      "note": "Republikeins rivaal van Trump",
+      "start_seconds": 2490,
+      "mention_count": 2
+    },
+    {
+      "name": "Spinoza",
+      "note": "Filosoof die naastenliefde politiek uitlegde",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Maurice de Hond",
+      "note": "Onderzoeker die kerkelijkheid en stemgedrag onderzocht",
+      "start_seconds": 1320,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van der Staaij",
+      "note": "SGP-leider die Wilders bevroeg over joods-christelijke waarden",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Joël Voordewind",
+      "note": "ChristenUnie-Kamerlid",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo Chávez",
+      "note": "Venezolaans president, voorbeeld van populisme",
+      "start_seconds": 2385,
+      "mention_count": 1
     },
     {
       "name": "Justin Trudeau",
-      "note": "Canadese premier, voorbeeld van gevallen moreel imago",
-      "start_seconds": 2587,
-      "wiki_checked": true,
-      "wiki_pageid": 4401664,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Justin_Trudeau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Justin_Trudeau_at_the_European_Commission_-_2025.jpg/250px-Justin_Trudeau_at_the_European_Commission_-_2025.jpg"
+      "note": "Canadees premier, voorbeeld van morele maatstaf in politiek",
+      "start_seconds": 2611,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Beinart",
+      "note": "Journalist die Black Lives Matter analyseerde",
+      "start_seconds": 2220,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "Amos 3:2",
-      "note": "Alleen jullie heb ik gekend, daarom straf ik jullie, tegenover 'eigen volk eerst'",
-      "start_seconds": 2116
+      "note": "Uitverkiezing van Israël als argument tegen 'eigen volk eerst'",
+      "start_seconds": 2135
     },
     {
       "ref": "1 Petrus 4:17",
-      "note": "Het oordeel begint bij het huis van God",
-      "start_seconds": 2129
+      "note": "Oordeel begint bij het huis van God",
+      "start_seconds": 2145
     },
     {
-      "ref": "Leviticus 19:18",
-      "note": "Heb uw naaste lief als uzelf",
-      "start_seconds": 2169
+      "ref": "Leviticus 19:33-34",
+      "note": "Heb je naaste lief en behandel de vreemdeling als broeder",
+      "start_seconds": 2230
     },
     {
-      "ref": "Leviticus 19:34",
-      "note": "Behandel de vreemdeling als uw broeder",
-      "start_seconds": 2182
-    },
-    {
-      "ref": "Lucas 10",
-      "note": "Gelijkenis van de barmhartige Samaritaan",
-      "start_seconds": 2155
+      "ref": "Lucas 10:25-37",
+      "note": "Gelijkenis van de barmhartige Samaritaan, besproken in Kamerdebat",
+      "start_seconds": 2130
     }
   ],
   "places": [
@@ -247,134 +172,128 @@
     "Verenigde Staten",
     "Engeland",
     "Duitsland",
-    "Frankrijk",
     "Irak",
-    "Den Haag",
+    "Frankrijk",
     "Canada",
-    "Armenië"
+    "Spanje"
   ],
-  "summary_tldr": "David Boogerd bespreekt met historicus James Kennedy en Stefan Paas het verband tussen populisme en ontkerkelijking. Ze analyseren Thierry Baudets appel op cultuurchristendom, de leegte in de samenleving en het feit dat vooral randkerkelijken populistisch stemmen. Ook komen links populisme, humor en de toekomst van het populisme aan bod.",
+  "summary_tldr": "Stefan Paas en James Kennedy bespreken met David Boogerd hoe ontkerkelijking samenhangt met de opkomst van populisten als Thierry Baudet en Donald Trump. Centraal staat de vraag of Baudets appel op het cultuurchristendom echt christelijk is of vooral identitair van aard. Ook wordt besproken of populisme zal toenemen en wat de kerk ervan kan leren.",
   "summary_points": [
-    "Secularisatie is een onderschat fenomeen en hangt samen met verlies van gemeenschap en toenemende individualisering.",
-    "Populisme is vooral een politieke stijl: het zuivere volk tegenover de corrupte elite, links of rechts.",
-    "Baudet onderscheidt zich van Wilders door zijn appel op cultuurchristendom en religieus getinte retoriek.",
-    "Paas heeft vraagtekens bij Baudets termen als 'boreaal' en 'blank' vanwege racistische connotaties.",
-    "Populistische stemmers zijn vaker randkerkelijk: dit geldt voor Nederland, Brexit en Trump-stemmers.",
-    "Veel kiezers voelen ressentiment tegenover een progressieve, seculiere elite.",
-    "Kerkelijke leiders zijn progressiever dan het gewone kerkvolk; kerkasiel illustreert dit.",
-    "Kennedy onderscheidt religie in de politiek als belijdenis, ethiek of identiteit; Baudet gebruikt vooral identiteit.",
-    "Populisme bestaat ook op links, zoals bij William Jennings Bryan, Chávez en Podemos.",
-    "Humor en ironie zijn onderdeel van Baudets en Trumps populistische stijl."
+    "Secularisatie is een onderschat fenomeen: kerklidmaatschap daalde van ongeveer 80% naar 35%.",
+    "Populisme wordt gezien als politieke stijl en de zoektocht naar nieuwe gemeenschap na het verdwijnen van religieuze verbanden.",
+    "Baudet gebruikt christelijke taal en cultuurchristendom, maar zonder kerkelijke of ethische inhoud.",
+    "Kritisch gekeken naar Baudets retoriek, met zorgen over racistische en 'bruine' termen zoals 'boreaal' en 'blank'.",
+    "Onderzoek laat zien dat minder kerkgaande christenen vaker populistisch stemmen, in Nederland, Engeland en de VS.",
+    "Cultuurchristendom wordt gezien als identiteit, niet als ethiek; dit kan het populisme voeden.",
+    "Baudets verhaal van zingeving en leegte spreekt mensen aan, maar politiek zou geen heilsbelofte moeten zijn.",
+    "De kerk kan leren van verbinding en eerlijkheid over spanningen, niet van polariserende retoriek.",
+    "Verwachting: populistisch rechts blijft een minderheid, maar gefragmenteerde middenpartijen maken regeren lastig."
   ],
   "chapters": [
     {
-      "start_seconds": 10,
-      "title": "Kennismaking en Amerika versus Nederland",
-      "summary": "David introduceert de gasten. Kennedy vertelt over zijn verhuizing en de polarisatie in Amerika vergeleken met Nederland."
+      "start_seconds": 0,
+      "title": "Inleiding en introductie gasten",
+      "summary": "Boogerd stelt de vraag naar het verband tussen populisme en kerk en introduceert Kennedy en Paas."
     },
     {
-      "start_seconds": 230,
+      "start_seconds": 179,
+      "title": "Polarisatie in Amerika en Nederland",
+      "summary": "Kennedy vergelijkt de polarisatie in de VS met Nederland en de rol van de Engelse politieke cultuur."
+    },
+    {
+      "start_seconds": 299,
       "title": "Secularisatie en populisme",
-      "summary": "Paas en Kennedy leggen het verband tussen verdwijnende gemeenschap, individualisering en de opkomst van populisme."
+      "summary": "Paas en Kennedy zien een link tussen verlies van gemeenschap door ontkerkelijking en populisme."
     },
     {
-      "start_seconds": 526,
-      "title": "Baudet, retoriek en cultuurchristendom",
-      "summary": "Bespreking van Baudets overwinningstoespraak, zijn religieuze toon en verschil met Wilders."
+      "start_seconds": 575,
+      "title": "Baudets toespraak en retoriek",
+      "summary": "De Elfen Minerva-toespraak wordt besproken, inclusief de religieuze taal en de fascistische echo's."
     },
     {
-      "start_seconds": 804,
-      "title": "Boreale wereld en verdachte taal",
-      "summary": "Paas wijst op racistische ondertonen en Franse extreemrechtse bronnen in Baudets woordkeuze."
-    },
-    {
-      "start_seconds": 976,
-      "title": "Spirituele leegte en zingeving",
-      "summary": "Is Baudets diagnose van een geestelijk vacuüm terecht, en kan de politiek zin geven?"
-    },
-    {
-      "start_seconds": 1260,
-      "title": "Kerkgang en stemgedrag",
-      "summary": "Randkerkelijken stemmen vaker populistisch, bij Brexit, in Nederland en in de VS."
+      "start_seconds": 1200,
+      "title": "Cultuurchristendom en identiteit",
+      "summary": "Discussie over of Baudets cultuurchristendom echt christelijk is, met voorbeelden uit Engeland en Nederland."
     },
     {
       "start_seconds": 1800,
-      "title": "Kerkasiel, identiteit en bijbeluitleg",
-      "summary": "Hoe verhouden kerken zich tot populistische partijen, en wat betekent 'eigen volk eerst' bijbels gezien?"
+      "title": "Kerkelijkheid en stemgedrag",
+      "summary": "Onderzoek toont dat minder kerkgaande mensen vaker populistisch stemmen, zowel in Nederland als VS."
     },
     {
-      "start_seconds": 2220,
-      "title": "Populisme links en rechts, humor en toekomst",
-      "summary": "Populisme kent ook linkse vormen. Het gesprek gaat ook over ironie en humor bij Baudet en Trump en over de toekomst."
+      "start_seconds": 2100,
+      "title": "Bijbel en politiek",
+      "summary": "Discussie over Bijbelgebruik in politiek, met voorbeelden van Wilders en Baudet."
+    },
+    {
+      "start_seconds": 2500,
+      "title": "Humor, ironie en toekomst",
+      "summary": "Bespreking van de ironische stijl van populisten en vooruitblik op politieke fragmentatie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 199,
+      "start_seconds": 1200,
       "speaker": "Stefan Paas",
-      "text": "Toen ik geboren werd in 69 was pakweg 80% van de Nederlanders lid van een kerk. Nu is het misschien 35%.",
-      "note": "Illustreert de schaal van secularisatie."
+      "text": "Het is geen ingrijpen van God, het is een soort regeneratie van het volk.",
+      "note": "Scherpe analyse van pseudoreligieuze retoriek in politiek."
     },
     {
-      "start_seconds": 1042,
+      "start_seconds": 2135,
+      "speaker": "Stefan Paas",
+      "text": "Het oordeel begint bij het huis van God.",
+      "note": "Tegenwicht tegen 'eigen volk eerst' met Bijbelse argumentatie."
+    },
+    {
+      "start_seconds": 2490,
+      "speaker": "Stefan Paas",
+      "text": "Politiek draait voor mij om esthetiek.",
+      "note": "Baudets uitspraak die Paas koppelt aan Walter Benjamin."
+    },
+    {
+      "start_seconds": 2355,
       "speaker": "James Kennedy",
-      "text": "Het is altijd uiterst gevaarlijk dat politici zeggen: wij gaan de zin van het leven invullen, dan krijg je heilstaten.",
-      "note": "Scherpe waarschuwing tegen politieke zingeving."
-    },
-    {
-      "start_seconds": 1260,
-      "speaker": "James Kennedy",
-      "text": "Het zijn juist de minder kerkgaande Anglikanen die het meest op Brexit hebben gestemd.",
-      "note": "Verrassend verband tussen kerkgang en populisme."
-    },
-    {
-      "start_seconds": 2115,
-      "speaker": "Stefan Paas",
-      "text": "Eigen volk eerst? Ik denk meteen aan Amos: ik heb alleen jullie uitgekozen, daarom oordeel ik jullie het eerst.",
-      "note": "Bijbelse tegenwerping tegen Wilders' 'joods-christelijke waarde'."
-    },
-    {
-      "start_seconds": 1146,
-      "speaker": "Stefan Paas",
-      "text": "Voor Baudet draait politiek om esthetiek, en dat roept associaties op met Walter Benjamins esthetisering van de politiek.",
-      "note": "Kritische duiding van Baudets stijl."
+      "text": "You shall not crucify a man upon a cross of gold.",
+      "note": "Historisch populistisch citaat van William Jennings Bryan."
     }
   ],
   "keywords": [
     "populisme",
     "secularisatie",
     "cultuurchristendom",
-    "Thierry Baudet",
-    "Donald Trump",
-    "ontkerkelijking",
-    "identiteit",
-    "individualisering",
+    "Baudet",
     "Forum voor Democratie",
-    "kerkasiel",
-    "ressentiment",
-    "zingeving"
+    "identiteit",
+    "zingeving",
+    "kerkelijkheid",
+    "Trump",
+    "evangelicalen",
+    "Brexit",
+    "nationalisme"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 219,
-      "reason": "Trump, populisme en religie met James Kennedy als gast; culturele en religieuze duiding"
+      "n": 36,
+      "reason": "James Kennedy over Trump en religie in de Amerikaanse politiek, zelfde thema's"
     },
     {
-      "n": 203,
-      "reason": "James Kennedy over Trump als symbool van veranderd, minder religieus Amerika"
+      "n": 219,
+      "reason": "Kennedy duidt Trumps overwinning cultureel en religieus, sterke overlap met deze aflevering"
     },
     {
       "n": 56,
-      "reason": "Alliantie tussen orthodoxe christenen en radicale populisten; politiek en kerk"
+      "reason": "Verbinding tussen orthodoxe christenen en radicale populisten, de kern van deze aflevering"
     },
     {
-      "n": 226,
-      "reason": "Cultuurchristendom, Wilders, Trump en populisme met René Cuperus"
+      "n": 203,
+      "reason": "Kennedy over Trump als symbool van een minder religieus Amerika"
     },
     {
-      "n": 170,
-      "reason": "Wilders' winst en verrechtsing van Nederland met Josse de Voogd"
+      "n": 222,
+      "reason": "Kees van der Staaij over populisme en polarisatie, figuur die ook hier besproken wordt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

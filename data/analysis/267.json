@@ -1,282 +1,296 @@
 {
   "episode": 267,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 133070,
+    "segments": 1527,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30878,
-    "output_tokens": 2138,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 68246,
+    "output_tokens": 7758,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
-    "Technologie & AI",
     "Amerika & Trump",
-    "Economie & geld"
+    "Technologie & AI",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Roxane van Iperen"
   ],
   "people": [
     {
-      "name": "Charlie Kirk",
-      "note": "Amerikaanse activist en Trump-aanhanger die werd vermoord",
-      "start_seconds": 392,
-      "wiki_checked": true,
-      "wiki_pageid": 5923083,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charlie_Kirk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Charlie_Kirk_%2854505912107%29_%28cropped%29.jpg/250px-Charlie_Kirk_%2854505912107%29_%28cropped%29.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; wordt besproken als leider van de rechtse beweging en de regering waarin big tech en accelerationisme invloed krijgen",
+      "start_seconds": 28,
+      "mention_count": 20
     },
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, wil comedians van de buis weren",
-      "start_seconds": 392,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "name": "Charlie Kirk",
+      "note": "Trump-aanhanger en activist die is vermoord; centraal in de discussie over politiek geweld",
+      "start_seconds": 28,
+      "mention_count": 7
     },
     {
       "name": "Jair Bolsonaro",
-      "note": "Voormalig Braziliaans president, veroordeeld voor een mislukte staatsgreep",
+      "note": "Voormalig Braziliaans president, veroordeeld wegens een mislukte staatsgreep",
       "start_seconds": 265,
-      "wiki_checked": true,
-      "wiki_pageid": 5102363,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jair_Bolsonaro",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2019_Declara%C3%A7%C3%A3o_%C3%A0_imprensa_com_Presidente_da_Rep%C3%BAblica_do_Paraguai_%28cropped%29.jpg/250px-2019_Declara%C3%A7%C3%A3o_%C3%A0_imprensa_com_Presidente_da_Rep%C3%BAblica_do_Paraguai_%28cropped%29.jpg"
-    },
-    {
-      "name": "Pieter Jaap Aalbersberg",
-      "note": "Eerder gesproken over extreemrechts geweld als dreiging",
-      "start_seconds": 593,
-      "wiki_checked": true,
-      "wiki_pageid": 4884065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter-Jaap_Aalbersberg"
+      "mention_count": 3
     },
     {
       "name": "Nick Fuentes",
-      "note": "Extreemrechtse influencer, rechts van Kirk",
-      "start_seconds": 604,
-      "wiki_checked": true,
-      "wiki_pageid": 5983045,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nick_Fuentes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Nick_Fuentes_screencap_from_July_2022_virtual_debate.png/250px-Nick_Fuentes_screencap_from_July_2022_virtual_debate.png"
+      "note": "Extreemrechtse Amerikaanse influencer uit de accelerationistische hoek",
+      "start_seconds": 602,
+      "mention_count": 1
     },
     {
       "name": "Stephen Miller",
-      "note": "Adviseur in de regering-Trump; reageerde op de moord op Kirk",
-      "start_seconds": 648,
-      "wiki_checked": true,
-      "wiki_pageid": 4892163,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stephen_Miller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stephen_Miller_July_2025.jpg/250px-Stephen_Miller_July_2025.jpg"
+      "note": "Belangrijk figuur in de Trumpse regering; reageerde op de moord op Charlie Kirk",
+      "start_seconds": 647,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Jaap Aalbersberg",
+      "note": "Door David Boogerd eerder gesproken over extremisme als geweldsdreiging",
+      "start_seconds": 593,
+      "mention_count": 1
     },
     {
       "name": "Peter Thiel",
-      "note": "Big tech-investeerder, oprichter van PayPal",
-      "start_seconds": 886,
-      "wiki_checked": true,
-      "wiki_pageid": 4611632,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/250px-Peter_Thiel_%282014%29.jpg"
+      "note": "Techondernemer (PayPal) die politiek en accelerationisme steunt",
+      "start_seconds": 946,
+      "mention_count": 6
     },
     {
       "name": "Elon Musk",
-      "note": "Techondernemer die zich aan de kant van nationalistische politici schaart",
+      "note": "Techondernemer die politici en nationalistische partijen steunt",
       "start_seconds": 990,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "mention_count": 3
     },
     {
       "name": "JD Vance",
-      "note": "Vicepresident van Trump, protegé van Thiel",
-      "start_seconds": 1008,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "note": "Amerikaanse vicepresident, volgens Van Iperen een protegé van Peter Thiel",
+      "start_seconds": 990,
+      "mention_count": 3
     },
     {
       "name": "Curtis Yarvin",
-      "note": "Huisfilosoof van de Dark Enlightenment",
-      "start_seconds": 1056,
-      "wiki_checked": true,
-      "wiki_pageid": 6029622,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Curtis_Yarvin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Curtis_Yarvin_portrait.jpg/250px-Curtis_Yarvin_portrait.jpg"
+      "note": "Huisfilosoof van big tech-kringen en verdediger van de Dark Enlightenment",
+      "start_seconds": 1043,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus; genoemd in verband met AI-beelden in de politieke communicatie",
+      "start_seconds": 2719,
+      "mention_count": 1
     },
     {
       "name": "Timothy Snyder",
-      "note": "Historicus die het woord globalisten gebruikt",
-      "start_seconds": 2124,
-      "wiki_checked": true,
-      "wiki_pageid": 2104366,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Timothy_Snyder",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Timothy_Snyder%2C_2016_%28cropped%29.jpg/250px-Timothy_Snyder%2C_2016_%28cropped%29.jpg"
+      "note": "Historicus die het begrip globalisten gebruikt in de context van de macht",
+      "start_seconds": 2116,
+      "mention_count": 1
     },
     {
       "name": "Steve Bannon",
-      "note": "Nationalistische MAGA-strateeg",
-      "start_seconds": 2234,
-      "wiki_checked": true,
-      "wiki_pageid": 4739148,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steve_Bannon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg/250px-Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg"
+      "note": "Vertegenwoordiger van het nationalistische kamp rond Trump",
+      "start_seconds": 2240,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Hofman",
+      "note": "Schrijver die in De Ongelooflijke zijn nihilistische wereldbeeld en de zoektocht naar betekenis beschreef",
+      "start_seconds": 3721,
+      "mention_count": 2
+    },
+    {
+      "name": "Ernst-Wolfgang Böckenförde",
+      "note": "Katholiek jurist; formuleerde de paradox dat de liberale staat leeft van voorwaarden die zij zelf niet kan garanderen",
+      "start_seconds": 4044,
+      "mention_count": 4
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Franse wiskundige, filosoof en theoloog die door Van Iperen wordt geciteerd",
+      "start_seconds": 4373,
+      "mention_count": 3
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "Engelse schrijver; citeerde het beeld van het hek in het weiland als voorbeeld van conservatisme",
+      "start_seconds": 3271,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Predikant en burgerrechtenleider; voorbeeld van christelijk engagement",
+      "start_seconds": 4645,
+      "mention_count": 1
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Aartsbisschop en anti-apartheidsstrijder; voorbeeld van christelijk engagement",
+      "start_seconds": 4645,
+      "mention_count": 1
+    },
+    {
+      "name": "Schaefer",
+      "note": "PvdA-wethouder in Amsterdam; genoemd bij de opmerking over praten zonder de grond te raken",
+      "start_seconds": 2438,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Eigen planeet eerst",
       "author": "Roxane van Iperen",
-      "note": "Essay over het falen van de democratie op het klimaat; splitsing tussen lokale en globale planeet",
+      "note": "Essay over het falen van de democratie bij grote vraagstukken als klimaatverandering; basis van het gesprek",
       "start_seconds": 169,
-      "volume_id": "Y2o-EQAAQBAJ",
+      "volume_id": "hqFY0QEACAAJ",
       "canonical_title": "Eigen planeet eerst",
       "canonical_author": "Roxane van Iperen",
-      "isbn13": "9789400411883",
-      "isbn10": "940041188X",
-      "thumbnail": "http://books.google.com/books/content?id=Y2o-EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Hillbilly Elegie",
-      "author": "J.D. Vance",
-      "note": "Kort besproken als boek dat Vance bekend maakte",
-      "start_seconds": 1020,
-      "volume_id": "bKmpCgAAQBAJ",
-      "canonical_title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
-      "canonical_author": "J. D. Vance",
-      "isbn13": "9780062300560",
-      "isbn10": "0062300563",
-      "thumbnail": "http://books.google.com/books/content?id=bKmpCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789400411777",
+      "isbn10": "9400411774",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
     "Amerika",
     "Brazilië",
+    "Nederland",
+    "Den Haag",
+    "Amsterdam",
     "Driebergen",
-    "Silicon Valley",
-    "Den Haag"
+    "Duitsland",
+    "Iran",
+    "Silicon Valley"
   ],
-  "summary_tldr": "Roxane van Iperen betoogt dat de democratie op een kantelpunt staat doordat een globale economische 'planeet' de lokale democratische planeet domineert. Samen met Stefan Paas bespreken ze accelerationisme, de alliantie tussen big tech en nationalistische politiek, en het onbehagen dat daaruit voortkomt.",
+  "summary_tldr": "Roxane van Iperen waarschuwt dat de democratie op een kantelpunt staat, omdat zij grote mondiale vraagstukken zoals klimaatverandering niet meer kan oplossen. Volgens haar ontstond er een splitsing tussen een lokale democratische planeet en een globale economische planeet van big tech en vrije markt. Het resulterende onbehagen uit zich in zingevingsproblemen, polarisatie en gevaarlijk accelerationisme, terwijl symboolpolitiek geen echt antwoord biedt.",
   "summary_points": [
-    "Democratie nadert een kantelpunt, zichtbaar in Amerika, Brazilië en Nederland",
-    "Vertrouwen in democratie daalt, vooral onder jongeren, en openheid voor autoritaire oplossingen groeit",
-    "Accelerationisme en de Dark Enlightenment willen het systeem laten instorten voor een witte etnostaat",
-    "Big tech en nationalistische politiek vormen een bondgenootschap rond grenzeloze economische vrijheid",
-    "Twee planeten: lokaal moreel burgerschap versus globale spreadsheetwaarden",
-    "Complexe crises maken mensen ontvankelijk voor zondebokretoriek",
-    "Wereldbeschouwingen worden via social media als totaalpakket verkocht",
-    "Anywheres versus somewheres: winnaars van globalisering en de rest"
+    "De democratie staat volgens Van Iperen op een kantelpunt, omdat zij het welzijn van burgers niet meer kan garanderen bij grote vraagstukken als klimaat.",
+    "Accelerationisme, mede gevoed door big tech, wil het systeem bewust laten instorten en roept op tot geweld; de moord op Charlie Kirk wordt als voorbeeld gezien.",
+    "Van Iperen beschrijft een splitsing tussen een lokale democratische planeet en een globale economische planeet die beleid en waarden beïnvloedt.",
+    "Politici en burgers worden volgens haar tegen elkaar uitgespeeld, terwijl de echte oorzaken van problemen als pandemieën en klimaat buiten beeld blijven.",
+    "Social media en algoritmes versterken volgens het gesprek polarisatie en leiden tot gefragmenteerde, gecommercialiseerde wereldbeelden.",
+    "Het onbehagen wordt verklaard als zingevingscrisis die voortkomt uit economische grenzeloosheid, individualisering en het verlies van gedeelde normen.",
+    "Vrouwen dragen een dubbele last van werk en zorg, en Van Iperen ziet de politiek daarin tekortschieten.",
+    "Aan de hand van Böckenförde wordt besproken dat de liberale democratie leeft van waarden die zij zelf niet kan garanderen.",
+    "Het gesprek eindigt met de gedachte dat democratie niet van één gedeelde religie afhangt, maar wel een gedeeld verhaal nodig heeft."
   ],
   "chapters": [
     {
-      "start_seconds": 148,
-      "title": "Kantelpunt van de democratie",
-      "summary": "Van Iperen legt uit waarom ze het kantelpunt-idee uit de klimaatwetenschap op de democratie toepast."
+      "start_seconds": 0,
+      "title": "Een democratie op het kantelpunt",
+      "summary": "Van Iperen legt uit waarom zij de democratie als kantelpunt ziet en hoe klimaatfalen dit illustreert."
     },
     {
-      "start_seconds": 335,
-      "title": "Geweld en vertrouwen in democratie",
-      "summary": "Dalend vertrouwen en toenemende acceptatie van politiek geweld, ook rond de moord op Charlie Kirk."
+      "start_seconds": 395,
+      "title": "Radicalisering en geweld in Amerika",
+      "summary": "Het gesprek gaat over de moord op Charlie Kirk, accelerationisme en de toename van openheid voor politiek geweld."
     },
     {
-      "start_seconds": 420,
-      "title": "Accelerationisme en Dark Enlightenment",
-      "summary": "Over de beweging die de ineenstorting van het systeem wil versnellen en de rol van big tech."
+      "start_seconds": 935,
+      "title": "Big tech en de twee planeten",
+      "summary": "Van Iperen beschrijft het bondgenootschap tussen big tech en rechtse politiek en de splitsing tussen lokale democratie en globale markt."
     },
     {
-      "start_seconds": 1140,
-      "title": "Gedeelde realiteit en meningenpakketten",
-      "summary": "Social media haalt de gedeelde realiteit weg en verkoopt wereldbeschouwingen als pakketten."
+      "start_seconds": 1373,
+      "title": "De voedingsbodem van het onbehagen",
+      "summary": "Het onbehagen wordt verklaard door globalisering, pandemieën en symptoombestrijding, met kritiek op de zondebokpolitiek."
     },
     {
-      "start_seconds": 1370,
-      "title": "Twee planeten",
-      "summary": "Het beeld van de lokale democratische en de globale economische planeet verklaart het onbehagen."
+      "start_seconds": 2617,
+      "title": "Zingeving en het existentiële vacuüm",
+      "summary": "De zingevingscrisis en het nihilisme komen aan bod, met de vraag of politiek dit kan oplossen."
     },
     {
-      "start_seconds": 1930,
-      "title": "Anywheres, somewheres en zondebokken",
-      "summary": "Over winnaars van globalisering, populisme en het monsterverbond tussen mondiale belangen en nationalisten."
+      "start_seconds": 2967,
+      "title": "Vrouwen, werk en zorg",
+      "summary": "Van Iperen bespreekt de dubbele belasting van vrouwen en het tekortschieten van de linkse politiek daarin."
+    },
+    {
+      "start_seconds": 4044,
+      "title": "Het Böckenförde-dilemma",
+      "summary": "De paradox van de liberale staat wordt uitgelegd en vertaald naar gesprekken aan de keukentafel, inclusief de dochter die om een sterke leider vraagt."
+    },
+    {
+      "start_seconds": 4445,
+      "title": "Religie, democratie en slot",
+      "summary": "Het gesprek sluit af met de rol van religie, de bescherming van minderheden door democratie en het belang van een gedeeld verhaal."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 570,
-      "speaker": "David Boogerd",
-      "text": "Dat heette vroeger toch gewoon fascisme?",
-      "note": "Scherpe duiding van het accelerationisme."
-    },
-    {
-      "start_seconds": 1634,
-      "speaker": "Stefan Paas",
-      "text": "De democratische planeet is een maantje dat om de Jupiter van de wereldeconomie draait.",
-      "note": "Beeldende samenvatting van Van Iperens model."
-    },
-    {
-      "start_seconds": 1658,
+      "start_seconds": 1214,
       "speaker": "Roxane van Iperen",
-      "text": "Grenseloosheid op mondiaal niveau, grenzen optrekken op lokaal niveau.",
-      "note": "Kern van haar kritiek op symptoombestrijding."
+      "text": "Voor het eerst kun je een volledige gedeelde realiteit onder ieders schoenen vandaan trekken.",
+      "note": "Dit verwoordt het centrale probleem van de informatiesamenleving: de gedeelde werkelijkheid verdwijnt."
     },
     {
-      "start_seconds": 1938,
+      "start_seconds": 3843,
       "speaker": "Roxane van Iperen",
-      "text": "Hoe complexer en abstracter een probleem, hoe groter de ontvankelijkheid voor simplistische antwoorden.",
-      "note": "Verklaart zondebokretoriek."
+      "text": "Nobody's thinking about you.",
+      "note": "Een nuchtere relativering van het ego die het zingevingsvraagstuk persoonlijk maakt."
+    },
+    {
+      "start_seconds": 4321,
+      "speaker": "Roxane van Iperen",
+      "text": "Laat er een sterke leider op staan die ons gewoon vertelt: zo zal het zijn.",
+      "note": "Via een gesprek met haar dochter verbindt zij het verlangen naar autoritaire leiders met de voedingsbodem van de huidige politiek."
+    },
+    {
+      "start_seconds": 4760,
+      "speaker": "Roxane van Iperen",
+      "text": "De democratie is de ultieme bescherming van iedere mogelijke minderheid.",
+      "note": "Een krachtige verdediging van democratie juist als bescherming tegen de tirannie van de meerderheid."
     }
   ],
   "keywords": [
     "democratie",
     "kantelpunt",
     "accelerationisme",
-    "Dark Enlightenment",
     "big tech",
-    "Charlie Kirk",
+    "Dark Enlightenment",
+    "zingevingscrisis",
     "globalisering",
-    "onbehagen",
-    "populisme",
-    "klimaatverandering",
-    "Peter Thiel",
-    "anywheres en somewheres"
+    "Böckenförde-dilemma",
+    "symboolpolitiek",
+    "polarisatie",
+    "nihilisme",
+    "klimaatverandering"
   ],
-  "quotes": [],
+  "quotes": [
+    "Misschien wel de democratie zelf.",
+    "Waarom onze democratie geen antwoord heeft op het grootste vraagstuk van deze tijd.",
+    "Je voelt het overal broeien."
+  ],
   "similar": [
     {
-      "n": 292,
-      "reason": "Big Tech-denkers achter machtsblok, Thiel en Musk, accelerationisme en ideologie."
-    },
-    {
       "n": 228,
-      "reason": "Wereldbeeld van Musk en techgiganten na Trumps overwinning, met Paas."
+      "reason": "Big Tech en superrijke techgiganten als globale economische macht, zoals in de huidige aflevering."
     },
     {
-      "n": 241,
-      "reason": "Denkers en ideologieën achter Trump, vergelijkbaar met Vance, Yarvin en Bannon."
+      "n": 247,
+      "reason": "Gaat over technologie, sociale media en politieke gevolgen voor de geestelijke gezondheid."
     },
     {
-      "n": 285,
-      "reason": "Crisis van het Westen, kantelpunt, politiek onbehagen en economie."
+      "n": 303,
+      "reason": "Politiek onbehagen, een land zonder ziel en zingevingsvragen, net als hier."
     },
     {
-      "n": 174,
-      "reason": "Economische en culturele strijd achter onvrede in de samenleving."
+      "n": 191,
+      "reason": "Zingevingsproblemen en geestelijke schade door technologie, met aansluiting op het onbehagen."
+    },
+    {
+      "n": 235,
+      "reason": "Trump, Musk en de politieke kritiek op eigenbelang en het verlies van naastenliefde."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 156,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115710,
+    "segments": 967,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30827,
-    "output_tokens": 3517,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58936,
+    "output_tokens": 3510,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Samenleving & migratie",
-    "Filosofie & ethiek"
+    "Zingeving & psyche"
   ],
   "guests": [
     "Henri Bontenbal"
@@ -20,291 +25,315 @@
   "people": [
     {
       "name": "Henri Bontenbal",
-      "note": "CDA-lijsttrekker, natuurkundige en saxofonist",
+      "note": "CDA-lijsttrekker en gast; natuurkundige",
       "start_seconds": 44,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Pieter Omtzigt",
-      "note": "oud-CDA-Kamerlid met een nieuwe partij",
+      "note": "Oprichter nieuwe partij, voormalig CDA-Kamerlid",
       "start_seconds": 5,
-      "wiki_checked": true
+      "mention_count": 6
     },
     {
       "name": "Caroline van der Plas",
-      "note": "leider van BBB",
+      "note": "Leider BBB",
       "start_seconds": 5,
-      "wiki_checked": true
-    },
-    {
-      "name": "Prins Maurits van Oranje",
-      "note": "doelwit van de samenzwering van 1623 waarin Bontenbals voorvader zat",
-      "start_seconds": 183,
-      "wiki_checked": true
-    },
-    {
-      "name": "Klaas Michielszoon Bontenbal",
-      "note": "voorvader van Henri Bontenbal, remonstrant, in 1623 onthoofd",
-      "start_seconds": 183,
-      "wiki_checked": true
-    },
-    {
-      "name": "Zihni Özdil",
-      "note": "voormalig GroenLinks-Kamerlid die opgroeide naast het gezin Bontenbal",
-      "start_seconds": 306,
-      "wiki_checked": true
-    },
-    {
-      "name": "Hannie van Leeuwen",
-      "note": "legendarische CDA-politica naar wie de lezing is vernoemd",
-      "start_seconds": 568,
-      "wiki_checked": true
-    },
-    {
-      "name": "Michel Houellebecq",
-      "note": "schrijver van Elementaire deeltjes",
-      "start_seconds": 643,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jonathan Sacks",
-      "note": "denker over morele infrastructuur en 'een gebroken wereld heel maken'; favoriete schrijver van Bontenbal",
-      "start_seconds": 701,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "oud-premier, symbool voor liberaal en technocratisch beleid",
-      "start_seconds": 756,
-      "wiki_checked": true
+      "note": "Voormalig premier, liberaal beleid tijdens 12 jaar regering",
+      "start_seconds": 480,
+      "mention_count": 6
     },
     {
-      "name": "Jan Peter Balkenende",
-      "note": "oud-CDA-premier",
-      "start_seconds": 829,
-      "wiki_checked": true
+      "name": "Wopke Hoekstra",
+      "note": "CDA-politicus, kandidaat eurocommissaris, voormalig minister",
+      "start_seconds": 3650,
+      "mention_count": 6
     },
     {
-      "name": "Ed Sioni",
-      "note": "gemeenschapsdenker",
-      "start_seconds": 837,
-      "wiki_checked": true
+      "name": "Jonathan Sacks",
+      "note": "Joodse rabbijn en denker over morele infrastructuur",
+      "start_seconds": 700,
+      "mention_count": 3
     },
     {
-      "name": "Pim Fortuyn",
-      "note": "schrijver van De verweesde samenleving",
-      "start_seconds": 1769,
-      "wiki_checked": true
+      "name": "Michel Houellebecq",
+      "note": "Schrijver van Elementaire deeltjes",
+      "start_seconds": 640,
+      "mention_count": 1
     },
     {
       "name": "Robert Putnam",
-      "note": "Harvard-onderzoeker, schrijver van Bowling Alone en The Upswing",
-      "start_seconds": 1952,
-      "wiki_checked": true
+      "note": "Amerikaanse onderzoeker naar saamhorigheid en eenzaamheid",
+      "start_seconds": 1920,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus, sprak over verweesde samenleving",
+      "start_seconds": 1770,
+      "mention_count": 2
     },
     {
       "name": "Ruud Lubbers",
-      "note": "oud-CDA-premier: 'mensen hebben boodschappen aan elkaar'",
-      "start_seconds": 2000,
-      "wiki_checked": true
+      "note": "Voormalig minister-president, CDA",
+      "start_seconds": 3140,
+      "mention_count": 3
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "Voormalig Eurocommissaris en PvdA-politicus",
+      "start_seconds": 3620,
+      "mention_count": 2
+    },
+    {
+      "name": "Dag Hammarskjöld",
+      "note": "Voormalig VN-secretaris-generaal, dagboekschrijver",
+      "start_seconds": 3100,
+      "mention_count": 1
+    },
+    {
+      "name": "Václav Havel",
+      "note": "Tsjechisch president en dissident",
+      "start_seconds": 3220,
+      "mention_count": 1
     },
     {
       "name": "Erik Borgman",
-      "note": "theoloog, denkt vanuit hoop in donkere situaties",
-      "start_seconds": 2079,
-      "wiki_checked": true
+      "note": "Theoloog, cultuurcriticus",
+      "start_seconds": 2380,
+      "mention_count": 2
     },
     {
-      "name": "Emmanuel Levinas",
-      "note": "filosoof van het gelaat van de ander",
-      "start_seconds": 2260,
-      "wiki_checked": true
+      "name": "Ed Jansen",
+      "note": "Gemeenschapsdenker uit CDA-kader (genoemd als Ed Sioni)",
+      "start_seconds": 840,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Peter Balkenende",
+      "note": "Voormalig CDA-premier",
+      "start_seconds": 840,
+      "mention_count": 2
     },
     {
       "name": "Abraham Kuyper",
-      "note": "grondlegger van de christendemocratische filosofie",
-      "start_seconds": 2330,
-      "wiki_checked": true
+      "note": "Protestants theoloog en politicus, grondlegger van de christelijke politiek",
+      "start_seconds": 2300,
+      "mention_count": 1
     },
     {
-      "name": "Pieter Heerma",
-      "note": "CDA-fractievoorzitter",
-      "start_seconds": 1259,
-      "wiki_checked": true
+      "name": "Charles Taylor",
+      "note": "Filosoof over seculariteit",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Grinwis",
+      "note": "ChristenUnie-Kamerlid, rekenaar",
+      "start_seconds": 4440,
+      "mention_count": 1
+    },
+    {
+      "name": "Kristoffer van der Staaij",
+      "note": "Nieuwe SGP-lijsttrekker",
+      "start_seconds": 3590,
+      "mention_count": 1
+    },
+    {
+      "name": "Derk Boswijk",
+      "note": "CDA-Kamerlid, landbouw en defensie",
+      "start_seconds": 3620,
+      "mention_count": 1
+    },
+    {
+      "name": "Marjan Minnesma",
+      "note": "Oprichter Urgenda",
+      "start_seconds": 4100,
+      "mention_count": 1
+    },
+    {
+      "name": "Zini Oostdiel",
+      "note": "Voormalig GroenLinks-Kamerlid, vertelde over jeugd",
+      "start_seconds": 314,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Elementaire deeltjes",
       "author": "Michel Houellebecq",
-      "note": "tekenend voor het individualisme van 1968 en de eenzaamheid",
-      "start_seconds": 643,
-      "volume_id": "0adzAAAAQBAJ",
+      "note": "Roman over doorgeschoten individualisme en eenzaamheid",
+      "start_seconds": 640,
+      "volume_id": "25iftwAACAAJ",
       "canonical_title": "Elementaire deeltjes",
       "canonical_author": "Michel Houellebecq",
-      "isbn13": "9789029568524",
-      "isbn10": "9029568526",
-      "thumbnail": "http://books.google.com/books/content?id=0adzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "De verweesde samenleving",
-      "author": "Pim Fortuyn",
-      "note": "analyse van onbehagen en verweesdheid",
-      "start_seconds": 1769,
-      "volume_id": "_w5Nn0ql7cQC",
-      "canonical_title": "De verweesde samenleving",
-      "canonical_author": "Pim Fortuyn",
-      "isbn13": "9789045203171",
-      "isbn10": "9045203170",
-      "thumbnail": "http://books.google.com/books/content?id=_w5Nn0ql7cQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789029583992",
+      "isbn10": "9029583991",
+      "thumbnail": ""
     },
     {
       "title": "The Upswing",
       "author": "Robert Putnam",
-      "note": "saamhorigheid nam af vóór de ongelijkheid toenam",
-      "start_seconds": 1952,
-      "volume_id": "Wt2eDwAAQBAJ",
-      "canonical_title": "The Upswing: How America Came Together a Century Ago and How We Can Do It Again",
-      "canonical_author": "Robert D. Putnam",
-      "isbn13": "9781982129163",
-      "isbn10": "1982129166",
-      "thumbnail": "http://books.google.com/books/content?id=Wt2eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Over herstel van saamhorigheid en de relatie met ongelijkheid",
+      "start_seconds": 1920,
+      "volume_id": "R2a_zQEACAAJ",
+      "canonical_title": "The Upswing",
+      "canonical_author": "Robert D Putnam, Shaylyn Romney Garrett",
+      "isbn13": "9781800750029",
+      "isbn10": "1800750021",
+      "thumbnail": "http://books.google.com/books/content?id=R2a_zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "De verweesde samenleving",
+      "author": "Pim Fortuyn",
+      "note": "Analyse van onbehagen en verweesdheid",
+      "start_seconds": 1770,
+      "volume_id": "BnHrAQAACAAJ",
+      "canonical_title": "De verweesde samenleving",
+      "canonical_author": "Pim Fortuyn",
+      "isbn13": "9789061129318",
+      "isbn10": "9061129311",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
     "Rotterdam",
-    "Rotterdam-Zuid",
     "Utrecht",
     "Heerlen",
-    "Limburg",
-    "Parkstad"
+    "Parkstad",
+    "Elspeet",
+    "Gabon",
+    "Oxford",
+    "China",
+    "Oekraïne"
   ],
-  "summary_tldr": "CDA-lijsttrekker Henri Bontenbal vertelt zijn verhaal voor Nederland, met als analyse een onbehagen en verweesdheid die voortkomen uit doorgeschoten individualisering sinds 1968 en 1989. Samen met Stefan Paas bespreekt hij of er een christendemocratische lente op komst is, wat er mis was met het vorige CDA en wat de C in het CDA betekent.",
+  "summary_tldr": "CDA-lijsttrekker Henri Bontenbal pleit voor een hoopvolle christendemocratie die de cultuurkritiek op 1968 en 1989 combineert met een nieuwe ideologische koers voor het CDA. Hij stelt dat de politiek te technocratisch is geworden en dat saamhorigheid en gemeenschapszin zijn verloren gegaan. Stefan Paas bevraagt hem kritisch over de rol van het CDA in de regeringen van Rutte en over de betekenis van de C in de partijnaam.",
   "summary_points": [
-    "Bontenbal groeide op in een orthodox-gereformeerd gezin met 8 kinderen in Rotterdam-Zuid, waar de deur altijd openstond.",
-    "Hij ziet de samenleving op een kruispunt: 1968 stond voor losmaken van tradities en 1989 voor de burger als consument.",
-    "Het onbehagen komt volgens hem uit doorgeschoten individualisering en verlies van gemeenschappelijke moraal; ongelijkheid is daar eerder een gevolg van.",
-    "Het CDA was de afgelopen jaren onvoldoende zichzelf: te vaak werd het coalitiecompromis als eigen verhaal verkocht.",
-    "De politiek is te technocratisch geworden en het ideologische debat is naar de flanken verschoven.",
-    "Bontenbal wil een doorstart van het klassieke CDA-verhaal, met als kern hoop en een cultuurkritiek.",
-    "Hij betwijfelt dat BBB of Omtzigt hetzelfde christendemocratische gedachtegoed vertegenwoordigen.",
-    "Verantwoordelijkheid ziet hij als de kern van de christelijke waarde, belangrijker dan vrijheid.",
-    "Het CDA heeft een filosofische laag tussen Bijbel en politiek (katholieke sociale leer, Kuyper), waardoor ook niet-christenen zich erin herkennen."
+    "Bontenbal ziet 1968 (individualisering) en 1989 (markt en consument) als keerpunten die tot verweesdheid hebben geleid",
+    "De coronacrisis en 12 jaar Rutte-kabinetten zouden de tweedeling en technocratie hebben versterkt",
+    "Het CDA moet volgens hem terug naar de christendemocratische kern, met waarden als verantwoordelijkheid en gemeenschapszin",
+    "Hij pleit voor ideologisch debat in het politieke midden en tegen een puur technocratische politiek",
+    "Het CDA heeft zich de afgelopen jaren volgens Bontenbal onvoldoende onderscheiden van de VVD",
+    "Over de C van het CDA: een laag tussen Bijbel en politiek, katholieke sociale leer en Kuyper als inspiratie",
+    "BBB en Omtzigt worden door Bontenbal niet als echte christendemocratische partijen gezien",
+    "Concrete voorstellen zijn onder meer kinderbijslag verhogen, een basisbaan en groene industriepolitiek",
+    "Bontenbal beschrijft zichzelf als protestant met een katholiek hart en geeft aan dat geloof hem drijft"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en de onthoofde voorvader",
-      "summary": "Kennismaking met Bontenbal, zijn bijnaam professor en zijn voorouder die in 1623 betrokken was bij een samenzwering tegen Prins Maurits."
+      "title": "Intro en persoonlijke achtergrond",
+      "summary": "Bontenbal vertelt over zijn voorouder Klaas Bontebal en zijn jeugd in Rotterdam-Zuid als zoon van een gereformeerd gezin."
     },
     {
-      "start_seconds": 306,
-      "title": "Opvoeding in Rotterdam-Zuid",
-      "summary": "Over het gereformeerde gezin met open deur, zelfopoffering en het idee dat de wereld groter is dan het eigen ik."
+      "start_seconds": 314,
+      "title": "Kruispunt en de jaartallen 1968 en 1989",
+      "summary": "Bontenbal analyseert onbehagen en individualisering aan de hand van 1968 en 1989, met een verwijzing naar Houellebecq."
     },
     {
-      "start_seconds": 568,
-      "title": "Een samenleving op een kruispunt",
-      "summary": "Bontenbals analyse van 1968, 1989, individualisering, corona en het tijdperk-Rutte."
+      "start_seconds": 840,
+      "title": "Het nieuwe CDA en de rol van de partij",
+      "summary": "Discussie over het verleden van het CDA, de coalitiejaren met Rutte en de keuze voor Bontenbal als lijsttrekker."
     },
     {
-      "start_seconds": 829,
-      "title": "Het CDA dat zichzelf niet was",
-      "summary": "Waarom het CDA te veel compromissen verdedigde en wat de keuze voor een nieuwe lijsttrekker en de ideologische vernieuwing inhoudt."
+      "start_seconds": 1320,
+      "title": "Christendemocratische lente en peilingen",
+      "summary": "Gesprek over de kansen van christendemocratie, BBB en Omtzigt, en de hoop als kernwaarde."
     },
     {
-      "start_seconds": 1297,
-      "title": "Christendemocratische lente?",
-      "summary": "Over de peilingen, Omtzigt en BBB en de vraag of het christendemocratische verhaal potentie heeft."
+      "start_seconds": 2300,
+      "title": "Verweesde samenleving en gemeenschap",
+      "summary": "Analyse van onbehagen, de rol van ongelijkheid en gemeenschap, en de vraag of politiek kan helpen."
     },
     {
-      "start_seconds": 1760,
-      "title": "Onbehagen en verweesdheid",
-      "summary": "Fortuyn, Putnam en Lubbers; ongelijkheid als gevolg van gemis aan gemeenschap, en kiemen van hoop in de samenleving."
+      "start_seconds": 2880,
+      "title": "Christelijke waarden, C van CDA en secularisatie",
+      "summary": "Bontenbal legt uit wat verantwoordelijkheid als christelijke waarde betekent en hoe het CDA zich tot de Bijbel verhoudt."
     },
     {
-      "start_seconds": 2260,
-      "title": "De C van het CDA",
-      "summary": "Publieksvraag over christelijke waarden: verantwoordelijkheid, de laag tussen Bijbel en politiek, en Paas' suggestie van 'conservatief'."
+      "start_seconds": 3580,
+      "title": "Publieksvragen",
+      "summary": "Vragen uit de zaal over de SGP, Hoekstra, klimaatbeleid, bedrijfskundige ervaring en de F-16 en basisbaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 523,
+      "start_seconds": 1900,
       "speaker": "Henri Bontenbal",
-      "text": "Als klein jochie trok hij de gordijnen dicht, zette een symfonie aan en dirigeerde met een potlood; dat mislukte, dus werd hij politicus.",
-      "note": "Persoonlijk en humoristisch moment."
+      "text": "Mensen hunkeren naar ideologie; we hebben de afgelopen 12 jaar alleen technocratie gehad.",
+      "note": "Scherpe diagnose van de huidige politieke cultuur."
     },
     {
-      "start_seconds": 1020,
+      "start_seconds": 2700,
       "speaker": "Henri Bontenbal",
-      "text": "Een slager moet vlees verkopen, een bakker moet brood verkopen; het CDA moet het verhaal van waarden, normen en solidariteit vertellen.",
-      "note": "Beeldende uitleg van het terug-naar-de-kern-verhaal."
+      "text": "Verantwoordelijkheid bevat het woord antwoord: je geeft antwoord op de werkelijkheid buiten jou.",
+      "note": "Persoonlijke en christelijke betekenis van een kernwaarde."
     },
     {
-      "start_seconds": 1034,
+      "start_seconds": 1440,
       "speaker": "Henri Bontenbal",
-      "text": "De cruciale fout was dat het CDA te vaak het compromis als eigen verhaal verkocht.",
-      "note": "Zelfkritiek op de eigen partij."
+      "text": "Ongelijkheid is een resultaat van onbehagen, niet de bron ervan.",
+      "note": "Tegenintuïtieve analyse die afwijkt van sociaal-economische verklaringen."
     },
     {
-      "start_seconds": 1277,
+      "start_seconds": 3060,
       "speaker": "Henri Bontenbal",
-      "text": "Politieke strategie bestaat nauwelijks: in de politiek is heel veel toeval.",
-      "note": "Verrassende uitspraak over het politieke bedrijf."
+      "text": "Ik ben gezellig protestants, maar het katholicisme belichaamt het knielen en overgave beter.",
+      "note": "Persoonlijke geloofsreflectie die het protestants-katholieke verschil typeert."
     },
     {
-      "start_seconds": 2242,
+      "start_seconds": 400,
       "speaker": "Henri Bontenbal",
-      "text": "Verantwoordelijkheid is voor hem de christelijke waarde, want daarin zit het woord antwoord, en het is belangrijker dan vrijheid.",
-      "note": "Kern van zijn christendemocratische visie."
-    },
-    {
-      "start_seconds": 2400,
-      "speaker": "Stefan Paas",
-      "text": "Waarom maak je er niet gewoon 'conservatief democratisch appel' van?",
-      "note": "Prikkelende suggestie over de C van het CDA."
+      "text": "Ik ben protestant met een katholiek hart? Het geloof is wat mij drijft.",
+      "note": "Openhartige zelfkarakterisering van zijn geloof."
     }
   ],
   "keywords": [
     "christendemocratie",
     "CDA",
-    "Henri Bontenbal",
-    "individualisering",
-    "onbehagen",
     "verweesde samenleving",
-    "gemeenschap",
-    "verantwoordelijkheid",
+    "individualisering",
+    "gemeenschapszin",
     "technocratie",
-    "Omtzigt",
-    "Jonathan Sacks",
-    "ideologie"
+    "verantwoordelijkheid",
+    "secularisatie",
+    "onbehagen",
+    "cultuurkritiek",
+    "Abraham Kuyper",
+    "katholieke sociale leer"
   ],
   "quotes": [
-    "Het CDA-denken is springlevend, kopte NRC vorige week.",
-    "We staan als samenleving op een kruispunt, zegt Bontenbal."
+    "Het CDA moet het verhaal van waarden en normen van gemeenschapszin, solidariteit vertellen.",
+    "We staan als samenleving op een kruispunt.",
+    "Er is een wereld die groter is dan jouw eigen dikke ik."
   ],
   "similar": [
     {
       "n": 303,
-      "reason": "Pieter Omtzigt over politiek, een land zonder ziel en onbehagen; zelfde politieke wereld."
-    },
-    {
-      "n": 180,
-      "reason": "Balkenende en Govert Buijs over christendemocratie, Europa en politieke idealen."
-    },
-    {
-      "n": 45,
-      "reason": "PG Kroeger over de steeds ongelovigere Nederlandse politiek en christelijke partijen."
+      "reason": "Pieter Omtzigt over politiek, een land zonder ziel en zingeving, een gedeelde figuur"
     },
     {
       "n": 267,
-      "reason": "Politiek heeft geen antwoord op ons onbehagen; verkiezingen en democratie."
+      "reason": "Politiek kan onbehagen niet oplossen; ook over christelijke waarden en democratie"
     },
     {
-      "n": 152,
-      "reason": "Dijkhoff en Segers over politiek, kerk en ideologische strijd."
+      "n": 301,
+      "reason": "Losgezongen elite versus het volk; gaat over gemeenschap en politieke legitimiteit"
+    },
+    {
+      "n": 252,
+      "reason": "Politiek die zijn ziel verloor; sluit aan bij de kritiek op technocratie"
+    },
+    {
+      "n": 170,
+      "reason": "Verschuiving van het politieke midden en de rol van God en geloof in de politiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

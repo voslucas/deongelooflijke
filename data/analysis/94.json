@@ -1,17 +1,22 @@
 {
   "episode": 94,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 129144,
+    "segments": 1568,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31788,
-    "output_tokens": 2207,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 67691,
+    "output_tokens": 3280,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
-    "Geschiedenis",
+    "Kerk & secularisatie",
+    "Zingeving & psyche",
     "Filosofie & ethiek"
   ],
   "guests": [
@@ -20,235 +25,291 @@
   "people": [
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof; zijn boek De Antichrist maakte indruk op de jonge Anton",
-      "start_seconds": 197,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "Duitse filosoof; De Antichrist las Anton als puber",
+      "start_seconds": 322,
+      "mention_count": 9
     },
     {
       "name": "Titus Brandsma",
-      "note": "Nederlandse karmeliet, journalist en hoogleraar; omgekomen in Dachau, in 2022 heilig verklaard",
-      "start_seconds": 94,
-      "wiki_checked": true,
-      "wiki_pageid": 85072,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Titus_Brandsma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/TitusBrandsma.jpg/250px-TitusBrandsma.jpg"
+      "note": "Nederlandse karmeliet, hoogleraar en journalist, verzetsstrijder; in 2022 heilig verklaard na wonder",
+      "start_seconds": 1556,
+      "mention_count": 26
     },
     {
-      "name": "Johannes Paulus II",
-      "note": "paus die Titus Brandsma in 1985 zalig verklaarde",
-      "start_seconds": 1938,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "name": "Paulus",
+      "note": "apostel; door Nietzsche bekritiseerd",
+      "start_seconds": 478,
+      "mention_count": 1
     },
     {
-      "name": "Johannes de Jong",
-      "note": "toenmalig aartsbisschop van Utrecht, kardinaal",
-      "start_seconds": 1792,
-      "wiki_checked": true,
-      "wiki_pageid": 197689,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_de_Jong",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Jan_de_Jong_%281953%29.jpg/250px-Jan_de_Jong_%281953%29.jpg"
+      "name": "Maarten Luther",
+      "note": "Duitse hervormer; door Nietzsche bekritiseerd als christendom van zijn tijd",
+      "start_seconds": 481,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; Anton las zijn Belijdenissen en Stad Gods",
+      "start_seconds": 3120,
+      "mention_count": 3
+    },
+    {
+      "name": "Jozef",
+      "note": "vader van Jezus; Anton zoekt voorspraak bij hem als vader",
+      "start_seconds": 3060,
+      "mention_count": 6
     },
     {
       "name": "Dietrich Bonhoeffer",
-      "note": "protestants theoloog, omgekomen in een concentratiekamp; vergeleken met Brandsma",
-      "start_seconds": 2044,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
+      "note": "Duitse protestantse theoloog, omgekomen in concentratiekamp",
+      "start_seconds": 2040,
+      "mention_count": 2
     },
     {
-      "name": "Charles de Foucauld",
-      "note": "ook tijdens dezelfde plechtigheid heilig verklaard",
-      "start_seconds": 1561,
-      "wiki_checked": true,
-      "wiki_pageid": 177981,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_de_Foucauld",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Charles_de_Foucauld.jpg/250px-Charles_de_Foucauld.jpg"
+      "name": "Chesterton",
+      "note": "schrijver; gat waar God is wordt gevuld met andere dingen",
+      "start_seconds": 3900,
+      "mention_count": 1
     },
     {
-      "name": "Teresa van Ávila",
-      "note": "mystica die Brandsma bestudeerde",
-      "start_seconds": 1768,
-      "wiki_checked": true,
-      "wiki_pageid": 76500,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theresia_van_%C3%81vila",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Peter_Paul_Rubens_138.jpg/250px-Peter_Paul_Rubens_138.jpg"
+      "name": "C.S. Lewis",
+      "note": "schrijver; stelde dat afschaffing van aanbidding leidt tot popsterren-idolatrie",
+      "start_seconds": 2820,
+      "mention_count": 1
     },
     {
-      "name": "Martin Luther King",
-      "note": "genoemd als mogelijke protestantse heilige",
-      "start_seconds": 2058,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "name": "Bert Keizer",
+      "note": "Trouw-columnist en medicus over wonderen en bijgeloof",
+      "start_seconds": 2420,
+      "mention_count": 1
     },
     {
-      "name": "Corrie ten Boom",
-      "note": "genoemd als mogelijke protestantse heilige",
-      "start_seconds": 2061,
-      "wiki_checked": true,
-      "wiki_pageid": 580685,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Corrie_ten_Boom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/CorrieTenBoom.jpg/250px-CorrieTenBoom.jpg"
+      "name": "Willem Jan Otten",
+      "note": "schrijver die de katholieke mis het grootste kunstwerk noemt",
+      "start_seconds": 3590,
+      "mention_count": 1
+    },
+    {
+      "name": "Ben Tichelaar",
+      "note": "genoemd over zingeving en complottheorieën",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "atheïstische filosoof; aangekondigd voor NPO Podcast Event",
+      "start_seconds": 4620,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "christelijke filosoof; aangekondigd voor NPO Podcast Event",
+      "start_seconds": 4620,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Paulus II",
+      "note": "paus; zaligverklaarde Titus Brandsma in 1985",
+      "start_seconds": 1930,
+      "mention_count": 1
+    },
+    {
+      "name": "Andries Knevel",
+      "note": "presentator; voerde eerder een gesprek met Anton",
+      "start_seconds": 1380,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "De Antichrist",
       "author": "Friedrich Nietzsche",
-      "note": "las Anton de Wit op 13-jarige leeftijd",
-      "start_seconds": 317,
+      "note": "boek dat Anton als 13-jarige las en dat zijn atheïsme voedde",
+      "start_seconds": 322,
       "volume_id": "KWVyAAAAQBAJ",
-      "canonical_title": "De antichrist: vloek over het christendom",
+      "canonical_title": "De antichrist",
       "canonical_author": "Friedrich Nietzsche",
       "isbn13": "9789029582391",
       "isbn10": "9029582391",
       "thumbnail": "http://books.google.com/books/content?id=KWVyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Belijdenissen",
+      "author": "Augustinus",
+      "note": "Anton las dit boek tijdens zijn terugkeer naar de kerk",
+      "start_seconds": 3120,
+      "volume_id": "AZBJGQAACAAJ",
+      "canonical_title": "Belijdenissen / druk 14",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026321023",
+      "isbn10": "9026321023",
+      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Stad Gods",
+      "author": "Augustinus",
+      "note": "Anton las dit werk over zijn terugkeer in het geloof",
+      "start_seconds": 3120,
+      "volume_id": "bDwqJwAACAAJ",
+      "canonical_title": "De stad Gods in haar begin en voortgang",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789064570070",
+      "isbn10": "9064570078",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Psalm 139",
+      "note": "Anton noemt de psalmen als robuuste taal over vijanden",
+      "start_seconds": 1290
+    },
+    {
+      "ref": "Johannes 1:14",
+      "note": "'Het woord is vlees geworden' als incarnatiegedachte",
+      "start_seconds": 3480
+    },
+    {
+      "ref": "Mattheus 2",
+      "note": "vlucht naar Egypte en rol van Jozef in het kindermoord-verhaal",
+      "start_seconds": 3330
+    }
+  ],
   "places": [
-    "Rome",
     "Nijmegen",
-    "West-Brabant",
-    "Bijlmer",
+    "Rome",
     "Dachau",
     "Scheveningen",
-    "Lourdes",
-    "Utrecht"
+    "West-Brabant",
+    "Florida",
+    "Chicago",
+    "Tivoli Utrecht",
+    "Bijlmer"
   ],
-  "summary_tldr": "Anton de Wit, hoofdredacteur van het Katholiek Nieuwsblad, vertelt hoe hij van militante atheïst met Nietzsche en death metal een katholiek werd. Daarna gaat het gesprek over de heiligverklaring van Titus Brandsma, het onderzoek naar wonderen en de grens tussen geloof en bijgeloof.",
+  "summary_tldr": "Anton de Wit, hoofdredacteur van het Katholiek Nieuwsblad, vertelt over zijn weg van jonge atheïst die Nietzsche las naar overtuigd katholiek. Het gesprek gaat over de heiligverklaring van Titus Brandsma, het bijgeloof rond relieken en wonderen, en de vraag of secularisatie leidt tot nieuwe goden.",
   "summary_points": [
-    "Anton las op zijn 13e Nietzsches De Antichrist en werd een militante atheïst.",
-    "Hij miste de passie bij saaie, rationalistische atheïsten.",
-    "Als stagiair bij een religietijdschrift ontdekte hij een veel rijker christendom dan zijn dorpskerk.",
-    "Schoonheid van liturgie, kloosterkerken en psalmen raakte hem en haalde hem over de streep.",
-    "Volgens hem loopt de grens tussen geloof en ongeloof dwars door ieder mens.",
-    "Anton was in Rome bij de heiligverklaring van Titus Brandsma.",
-    "Brandsma verzette zich tegen nazipropaganda in de katholieke pers en stierf in Dachau.",
-    "Voor heiligverklaring is een wonder nodig, dat streng medisch wordt onderzocht, ook door ongelovige artsen."
+    "Anton las als 13-jarige De Antichrist van Nietzsche en werd een militant atheïst",
+    "Zijn kentering kwam via journalistiek, kerkbezoeken en de schoonheid van de liturgie",
+    "Titus Brandsma werd heilig verklaard na een genezing die aan zijn voorspraak werd toegeschreven",
+    "Het wonderonderzoek is streng, maar het blijft een punt van discussie",
+    "Volksdevotie en bijgeloof zijn volgens Anton menselijke neigingen die de kerk kanaliseert",
+    "Secularisatie leidt volgens Anton niet tot minder geloof maar tot nieuwe afgoden",
+    "Katholieke en protestantse tradities leren elkaar waarderen",
+    "Heiligen als rolmodellen, zoals Jozef voor Anton als vader",
+    "De kerk moet de eigen vreemdheid en schoonheid omarmen in plaats van zich aan te passen",
+    "Het gesprek eindigt met humor en een uitnodiging voor het NPO Podcast Event"
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Introductie en kennismaking",
-      "summary": "David introduceert Anton de Wit en ze praten over eerdere ontmoetingen en de titel theoloog."
+      "start_seconds": 0,
+      "title": "Introductie en humor",
+      "summary": "David en Stefan verwelkomen Anton; er wordt gespeeld met zijn uiterlijk en zijn houding tegenover theologen."
     },
     {
-      "start_seconds": 297,
-      "title": "Nietzsche en militant atheïsme",
-      "summary": "Anton vertelt over zijn puberteit, De Antichrist, death metal en zijn katholieke opvoeding."
+      "start_seconds": 322,
+      "title": "Van Nietzsche naar het katholicisme",
+      "summary": "Anton vertelt hoe hij als puber De Antichrist las, atheïst werd en later via journalistiek en kerkbezoek terugkeerde naar het geloof."
     },
     {
-      "start_seconds": 740,
-      "title": "De kanteling naar het geloof",
-      "summary": "Via de religiejournalistiek ontdekte hij een rijkere traditie, de liturgie en de psalmen."
+      "start_seconds": 1290,
+      "title": "Psalmen en de kracht van de Bijbel",
+      "summary": "Anton beschrijft hoe de liturgie en de psalmen hem raakten en hoe de Bijbel als literair werk anders functioneert dan verwacht."
     },
     {
-      "start_seconds": 1380,
-      "title": "Twijfel en schaduwkanten",
-      "summary": "Over geloofsperiodes, misbruik in de kerk en de grens tussen geloof en ongeloof in ieder mens."
+      "start_seconds": 1500,
+      "title": "Titus Brandsma en zijn heiligverklaring",
+      "summary": "Het gesprek gaat over wie Titus Brandsma was, zijn verzet tegen nazi-propaganda en zijn dood in Dachau."
     },
     {
-      "start_seconds": 1536,
-      "title": "Heiligverklaring in Rome",
-      "summary": "Anton beschrijft de ceremonie en waarom heiligen in Nederland zeldzaam zijn."
+      "start_seconds": 2300,
+      "title": "Het wonder en het onderzoek",
+      "summary": "De genezing van de Amerikaanse karmeliet en het strenge medische onderzoek worden besproken, evenals het verschil tussen geloof en bijgeloof."
     },
     {
-      "start_seconds": 1710,
-      "title": "Het verhaal van Titus Brandsma",
-      "summary": "Brandsma's verzet tegen nazipropaganda, zijn dood in Dachau en de zaligverklaring."
+      "start_seconds": 3300,
+      "title": "Heiligen als vrienden en rolmodellen",
+      "summary": "Anton vertelt over zijn band met Jozef en Augustinus en over de betekenis van iconen en de incarnatie."
     },
     {
-      "start_seconds": 2070,
-      "title": "Wonderen en onderzoek",
-      "summary": "Over de eis van een wonder en het strenge medische onderzoek, ook bij Lourdes."
+      "start_seconds": 3900,
+      "title": "Afgoden, secularisatie en het heidendom",
+      "summary": "Het gesprek gaat over de vraag of mensen die niet geloven vanzelf andere goden aanbidden en wat dit betekent voor de cultuur."
+    },
+    {
+      "start_seconds": 4500,
+      "title": "Toekomst van de kerk en afsluiting",
+      "summary": "Over krimp van de kerk, het omarmen van de vreemdheid van het christendom, en afsluitende opmerkingen over het koningshuis en het NPO Podcast Event."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 420,
+      "start_seconds": 3900,
       "speaker": "Anton de Wit",
-      "text": "Nietzsche kun je veel van zeggen, maar die man was niet saai.",
-      "note": "Verklaart zijn aantrekkingskracht tot Nietzsche boven rationalistische atheïsten."
+      "text": "In principe, op het moment dat mensen denken dat ze in niks geloven, geloven ze in alles.",
+      "note": "Een scherpe stelling die het secularisatieverhaal omdraait en stelt dat afgoderij juist groeit."
     },
     {
-      "start_seconds": 1200,
+      "start_seconds": 2700,
       "speaker": "Anton de Wit",
-      "text": "De scheidslijn tussen geloof en ongeloof loopt niet tussen mensen, maar dwars door ieder mens.",
-      "note": "Kernidee over geloof en twijfel."
+      "text": "Ik geloof omdat het absurd is.",
+      "note": "Een bekende formulering die de aantrekkingskracht van het paradoxale in het christendom samenvat."
     },
     {
-      "start_seconds": 1884,
+      "start_seconds": 1500,
       "speaker": "Anton de Wit",
-      "text": "Brandsma gaf zijn rozenkrans aan de SS-verpleegster die hem doodde; zij werd later katholiek.",
-      "note": "Ontroerend moment in het verhaal van Brandsma."
+      "text": "Hij was een soort strijder tegen de fake news van zijn tijd.",
+      "note": "Brandsma wordt met een moderne metafoor getypeerd die de relevantie van zijn verzet benadrukt."
     },
     {
-      "start_seconds": 1648,
+      "start_seconds": 2640,
       "speaker": "Anton de Wit",
-      "text": "We hebben het over de katholieke kerk, David, natuurlijk kun je het kopen.",
-      "note": "Grappige zelfspot over de kosten van heiligverklaring."
+      "text": "Ik ben toch al iedereen aan het beledigen.",
+      "note": "Een luchtige maar typerende zelfreflectie die de sfeer van het gesprek weergeeft."
     },
     {
-      "start_seconds": 1320,
+      "start_seconds": 1930,
       "speaker": "Anton de Wit",
-      "text": "De Bijbel is een bibliotheek met poëzie, proza, geschiedschrijving, mythologie en sprookjes in de beste zin van het woord.",
-      "note": "Zijn kijk op de Bijbel na zijn bekering."
+      "text": "Hij ging tegen Paulus in en tegen het Duitse christendom van zijn tijd.",
+      "note": "Anton legt uit hoe Nietzsche zich afzette tegen het christendom, wat zijn eigen puberale atheïsme voedde."
     }
   ],
   "keywords": [
     "Titus Brandsma",
     "heiligverklaring",
-    "wonder",
-    "Nietzsche",
-    "bekering",
-    "katholicisme",
-    "atheïsme",
+    "relieken",
+    "wonderen",
     "bijgeloof",
-    "liturgie",
-    "Dachau",
-    "relikwie",
-    "Katholiek Nieuwsblad"
+    "volksdevotie",
+    "secularisatie",
+    "Nietzsche",
+    "katholicisme",
+    "afgoderij",
+    "incarnatie",
+    "iconen"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 323,
-      "reason": "Anton de Wit over Franciscus van Assisi: heiligen, radicaal geloof en kerkgeschiedenis"
-    },
-    {
-      "n": 190,
-      "reason": "Christophe Vekeman: van fervent atheïst tot geloof, bekeringsverhaal zoals Anton de Wit"
+      "n": 122,
+      "reason": "Nietzsche, 'God is dood' en filosofie van het geloof; sterke overlap met besproken figuren en thema's"
     },
     {
       "n": 208,
-      "reason": "Anton de Wit over G.K. Chesterton en paradoxaal christendom"
+      "reason": "Gast Anton de Wit over Chesterton, paradoxaal christendom en conservatisme"
     },
     {
-      "n": 176,
-      "reason": "Franca Treur en de kerk: persoonlijke geloofsreis in een seculiere tijd"
+      "n": 207,
+      "reason": "Debat over God, atheïsme en zingeving, met Stine Jensen die ook in #94 figureert"
     },
     {
-      "n": 49,
-      "reason": "Afvallige atheïst Dennis Vanden Auweele: van ongeloof naar geloof"
+      "n": 83,
+      "reason": "Willem Jan Otten over de kerk als kunstwerk; Otten wordt ook in #94 genoemd"
+    },
+    {
+      "n": 246,
+      "reason": "Anton de Wit over de nieuwe paus; kerk en katholieke context sluiten aan bij #94"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

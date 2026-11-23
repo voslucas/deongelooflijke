@@ -1,18 +1,23 @@
 {
   "episode": 311,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 142036,
+    "segments": 1314,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31877,
-    "output_tokens": 2676,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 74606,
+    "output_tokens": 3691,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Kerk & secularisatie",
     "Zingeving & psyche",
-    "Dood & rouw"
+    "Dood & rouw",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Wijnand Zondag"
@@ -20,245 +25,287 @@
   "people": [
     {
       "name": "Wijnand Zondag",
-      "note": "predikant Gereformeerde Gemeenten in Dordrecht en hoogleraar aan de TU Apeldoorn, voormalig hoogleraar arbeidsrecht",
+      "note": "gast, predikant in Dordrecht en hoogleraar aan de TUA",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 5790939,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wijnand_Zondag"
+      "mention_count": 3
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Rhodé Zondag",
+      "note": "dochter van Wijnand Zondag, overleden bij verkeersongeval",
+      "start_seconds": 2175,
+      "mention_count": 2
     },
     {
       "name": "Jan Siebelink",
       "note": "schrijver van 'Knielen op een bed violen'",
-      "start_seconds": 312,
-      "wiki_checked": true,
-      "wiki_pageid": 273692,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Siebelink",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jan_Siebelink_2018.jpg/250px-Jan_Siebelink_2018.jpg"
+      "start_seconds": 325,
+      "mention_count": 3
     },
     {
       "name": "Frank Atreur",
-      "note": "schrijfster van 'Dorstvloer vol confetti'",
-      "start_seconds": 312,
-      "wiki_checked": true
-    },
-    {
-      "name": "Bas van der Vlies",
-      "note": "voormalig SGP-lijsttrekker",
-      "start_seconds": 192,
-      "wiki_checked": true,
-      "wiki_pageid": 149,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bas_van_der_Vlies",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bas_van_der_Vlies_%281986%29.jpg/250px-Bas_van_der_Vlies_%281986%29.jpg"
-    },
-    {
-      "name": "Kees van der Staaij",
-      "note": "voormalig SGP-leider",
-      "start_seconds": 193,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
-    },
-    {
-      "name": "Chris Stoffer",
-      "note": "huidige SGP-leider",
-      "start_seconds": 195,
-      "wiki_checked": true,
-      "wiki_pageid": 5050087,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Chris_Stoffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Chris_Stoffer%2C_2023_%28cropped%29.jpg/250px-Chris_Stoffer%2C_2023_%28cropped%29.jpg"
+      "note": "auteur van 'Dorstvloer vol confetti'",
+      "start_seconds": 330,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader met wie Zondag zich in zijn worsteling herkende",
-      "start_seconds": 1697,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "kerkvader, herkenbaar in zijn worstelingen",
+      "start_seconds": 1698,
+      "mention_count": 2
     },
     {
-      "name": "Arnon Grunberg",
-      "note": "schrijver die de humor en de taart in SGP-kring opmerkte",
-      "start_seconds": 1341,
-      "wiki_checked": true,
-      "wiki_pageid": 92350,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnon_Grunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg/250px-Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg"
+      "name": "C.S. Lewis",
+      "note": "apologeet en schrijver van 'De Grote Scheiding'",
+      "start_seconds": 5655,
+      "mention_count": 2
     },
     {
-      "name": "Charles Spurgeon",
-      "note": "predikant die kandidaat-predikanten vroeg wat ze anders zouden willen worden",
-      "start_seconds": 2496,
-      "wiki_checked": true,
-      "wiki_pageid": 115185,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Spurgeon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Spurgeon.png/250px-Spurgeon.png"
+      "name": "Calvijn",
+      "note": "reformator, medicijn van het kruis",
+      "start_seconds": 4920,
+      "mention_count": 1
+    },
+    {
+      "name": "Manu Keersmaekers",
+      "note": "rouwdeskundige, geïnterviewd door Zondag",
+      "start_seconds": 5940,
+      "mention_count": 2
+    },
+    {
+      "name": "Dominee Moerkerke",
+      "note": "predikant wiens heldere preken Zondag als jongen inspireerden",
+      "start_seconds": 1060,
+      "mention_count": 2
+    },
+    {
+      "name": "Anat Vergunst",
+      "note": "predikant uit Nieuw-Zeeland die in China preekte",
+      "start_seconds": 2160,
+      "mention_count": 2
+    },
+    {
+      "name": "Spurgeon",
+      "note": "19e-eeuwse predikant, vroeg naar alternatieve roeping",
+      "start_seconds": 2490,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Rutherford",
+      "note": "Puritijnse predikant die troostbrief schreef",
+      "start_seconds": 5760,
+      "mention_count": 1
+    },
+    {
+      "name": "Van der Vlies",
+      "note": "politicus, SGP-lijsttrekker",
+      "start_seconds": 185,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "predikant uit de zwarte kerk in Amerika",
+      "start_seconds": 3600,
+      "mention_count": 1
+    },
+    {
+      "name": "Barack Obama",
+      "note": "politicus, groot geworden in de zwarte kerktraditie",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Blokhuis",
+      "note": "voormalig staatssecretaris wiens dochter overleed",
+      "start_seconds": 4000,
+      "mention_count": 1
+    },
+    {
+      "name": "Van de Beek",
+      "note": "professor, schreef 'Altijd dat kruis'",
+      "start_seconds": 4840,
+      "mention_count": 1
     },
     {
       "name": "Paulus",
-      "note": "apostel, genoemd over het oordeel en over 'de nood is mij opgelegd'",
-      "start_seconds": 628,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "apostel, geciteerd over oordeel en nood",
+      "start_seconds": 640,
+      "mention_count": 2
     },
     {
-      "name": "A.T. Vergunst",
-      "note": "predikant uit Nieuw-Zeeland die preekte in de Chinese huisgemeente",
-      "start_seconds": 2175,
-      "wiki_checked": true
-    },
-    {
-      "name": "Rhodé Zondag",
-      "note": "dochter van Wijnand Zondag, overleden bij verkeersongeval op 14-jarige leeftijd",
-      "start_seconds": 2318,
-      "wiki_checked": true
-    },
-    {
-      "name": "Moerkerke",
-      "note": "dominee wiens gelezen preken Zondag als kind aanspraken",
-      "start_seconds": 1051,
-      "wiki_checked": true
+      "name": "Visser",
+      "note": "dominee die Zondag tot rechter aanraadde",
+      "start_seconds": 3000,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Knielen op een bed violen",
       "author": "Jan Siebelink",
-      "note": "beeld van de reformatorische wereld; 'doorvloeien'",
-      "start_seconds": 312,
-      "volume_id": "kRFyAAAAQBAJ",
+      "note": "beeld van de Gereformeerde Gemeente besproken",
+      "start_seconds": 325,
+      "volume_id": "m8uxPwAACAAJ",
       "canonical_title": "Knielen op een bed violen",
-      "canonical_author": "Jan Siebelink",
-      "isbn13": "9789023456278",
-      "isbn10": "9023456270",
-      "thumbnail": "http://books.google.com/books/content?id=kRFyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Jan Geurt Siebelink",
+      "isbn13": "9789023456711",
+      "isbn10": "9023456718",
+      "thumbnail": "http://books.google.com/books/content?id=m8uxPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Dorstvloer vol confetti",
       "author": "Frank Atreur",
-      "note": "besproken als beeld van de reformatorische wereld",
-      "start_seconds": 312
+      "note": "besproken als beeld van reformatorische kring",
+      "start_seconds": 330
     },
     {
-      "title": "Belijdenissen",
-      "author": "Augustinus",
-      "note": "Zondag herkende zich in het onrustige hart",
-      "start_seconds": 1697,
-      "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
-      "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026321023",
-      "isbn10": "9026321023",
-      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "title": "De Grote Scheiding",
+      "author": "C.S. Lewis",
+      "note": "Rhodé las dit voor, beschrijving van de hemel",
+      "start_seconds": 5655,
+      "volume_id": "y1UnrgEACAAJ",
+      "canonical_title": "De grote scheiding",
+      "canonical_author": "C.S. Lewis",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Altijd dat kruis",
+      "author": "Van de Beek",
+      "note": "boekje waarin Zondag genoemd wordt",
+      "start_seconds": 4840,
+      "volume_id": "A45lDwAAQBAJ",
+      "canonical_title": "Altijd dat kruis",
+      "canonical_author": "A. van de Beek",
+      "isbn13": "9789021170633",
+      "isbn10": "9021170639",
+      "thumbnail": "http://books.google.com/books/content?id=A45lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Psalm 42",
-      "note": "verlangen naar God als naar water, herkenning van Zondag",
-      "start_seconds": 1712
+      "note": "verlangen naar God als water, dubbel gevoel",
+      "start_seconds": 1700
     },
     {
-      "ref": "Lucas 7",
-      "note": "de zondares bij Simon de farizeeër, preek in Peking",
-      "start_seconds": 2046
+      "ref": "Johannes 11",
+      "note": "Lazarus, Jezus weent; troost in verlies",
+      "start_seconds": 4620
+    },
+    {
+      "ref": "Job",
+      "note": "kinderen verloren, lijden",
+      "start_seconds": 4450
+    },
+    {
+      "ref": "Psalm 73",
+      "note": "Asaf, mokken over welvaart van anderen",
+      "start_seconds": 4980
+    },
+    {
+      "ref": "2 Samuël 12",
+      "note": "David en Nathan, berouw",
+      "start_seconds": 5490
+    },
+    {
+      "ref": "2 Korinthe 1",
+      "note": "troost elkaar met de troost die je zelf ontvangen hebt",
+      "start_seconds": 5820
+    },
+    {
+      "ref": "Jesaja 53",
+      "note": "arbeid van zijn ziel",
+      "start_seconds": 6000
+    },
+    {
+      "ref": "Richteren",
+      "note": "profeet die Gods opdracht niet uitvoert, Zondag leest dit tijdens roeping",
+      "start_seconds": 3050
+    },
+    {
+      "ref": "Genesis 15",
+      "note": "Abraham wacht op beloofd land, parallel met Zondag's wachten",
+      "start_seconds": 2950
     },
     {
       "ref": "Lucas 16",
-      "note": "de rijke man en de arme Lazarus",
-      "start_seconds": 767
-    },
-    {
-      "ref": "Lucas 22:32",
-      "note": "'Ik heb voor u gebeden dat uw geloof niet ophoude'",
-      "start_seconds": 2279
-    },
-    {
-      "ref": "Johannes 15:16",
-      "note": "'Ik heb u gesteld, opdat gij zoudt heengaan en vrucht dragen'",
-      "start_seconds": 2359
-    },
-    {
-      "ref": "2 Korinthe 5:10",
-      "note": "allen voor de rechterstoel van Christus",
-      "start_seconds": 629
-    },
-    {
-      "ref": "1 Korinthe 9:16",
-      "note": "de nood is mij opgelegd",
-      "start_seconds": 2517
+      "note": "gelijkenis van rijke man en arme Lazarus",
+      "start_seconds": 770
     }
   ],
   "places": [
     "Dordrecht",
-    "Apeldoorn",
     "Groningen",
-    "Peking",
-    "China",
-    "Nieuw-Zeeland",
+    "Apeldoorn",
     "Nunspeet",
-    "Rotterdam",
+    "Woerden",
+    "Peking",
+    "Nieuw-Zeeland",
+    "Carterton",
     "Den Haag",
-    "Lisse"
+    "Gouda",
+    "Zoetermeer",
+    "Rotterdam",
+    "Leuven",
+    "Amersfoort",
+    "Zuid-Afrika",
+    "Frankrijk"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met ds. Wijnand Zondag van de Gereformeerde Gemeenten over vooroordelen over zijn kerkverband, zijn depressie als jongere en zijn roeping van hoogleraar tot predikant. Ook de dood van zijn dochter Rhodé na een preek over het verliezen van een kind komt aan bod.",
+  "summary_tldr": "Ds. Wijnand Zondag, predikant in de Gereformeerde Gemeente en hoogleraar, vertelt over zijn weg van een veelbelovende universitaire carrière naar het predikambt, met depressies als jongere en de roeping die hij ervoer. Hij bespreekt het vooroordeel over zijn kerkgenootschap en vertelt openhartig over het verlies van zijn dochter Rhodé bij een verkeersongeval en hoe geloof hem daarbij draagt.",
   "summary_points": [
-    "Eerste uitgebreide interview op Radio 1 met een predikant uit de Gereformeerde Gemeenten",
-    "Vooroordelen over 'zwaar' en 'streng' worden besproken, met nuance over stad en dorp",
-    "Levensernst en de vraag naar heilszekerheid als kern van de prediking",
-    "Humor, jongeren en grote gezinnen als minder bekende kanten van de kerk",
-    "Zondag kampte als tiener met depressie en twijfel aan Gods bestaan",
-    "Bekering in een Chinese huisgemeente in Peking",
-    "Roeping tot predikant en beoordeling door kerkraad en curatorium",
-    "Het verlies van dochter Rhodé na de preek 'Het zal je dochter maar zijn'"
+    "De Gereformeerde Gemeente wordt vaak als zwaar bestempeld, maar Zondag ziet veel schakering en humor in de gemeente.",
+    "Zondag beschrijft het belang van bevinding en ervaring, maar benadrukt dat ervaring niet doorslaggevend is voor zaligheid.",
+    "Als jongere kampte Zondag met depressieve gevoelens en jaloezie op overledenen, en zocht hij naar het bestaan van God.",
+    "Een roeping in China en een preek in Nunspeet bevestigden voor hem dat hij predikant moest worden.",
+    "Na een carrière als hoogleraar en rechter koos Zondag na een bevestigend teken voor het predikambt, met financiële gevolgen.",
+    "Zijn dochter Rhodé overleed na een verkeersongeval, een dag na een preek over het verliezen van een kind.",
+    "Zondag beschrijft hoe hij God even kwijt was, maar via een Bijbelgedeelte weer antwoord kreeg.",
+    "Troost wordt gezien als opdracht: troost elkaar met de troost die men zelf ontvangen heeft.",
+    "Vergeving en verzoening in de rechtszaak, en het verschil tussen vergeven en berouw tonen, komen aan bod.",
+    "De eeuwige heerlijkheid biedt perspectief, maar de pijn en het verdriet blijven."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een primeur op Radio 1",
-      "summary": "Introductie van de gast en waarom hij nu wel meewerkt aan media."
+      "title": "Introductie en vooroordelen",
+      "summary": "Presentatie van de gast en bespreking van vooroordelen over de Gereformeerde Gemeente."
     },
     {
-      "start_seconds": 312,
-      "title": "Beeld van de reformatorische wereld",
-      "summary": "Siebelink, Atreur, doorvloeien en de vraag wat karikatuur is."
+      "start_seconds": 960,
+      "title": "Geloof, ervaring en zekerheid",
+      "summary": "Gesprek over de zwaarte van het geloof, de rol van het oordeel en de weg naar zekerheid."
     },
     {
-      "start_seconds": 604,
-      "title": "Levensernst en zekerheid",
-      "summary": "Over oordeel, vergeving en de vraag hoe je weet dat Christus ook voor jou is."
+      "start_seconds": 1560,
+      "title": "Jeugd, depressie en zoektocht naar God",
+      "summary": "Zondag vertelt over zijn depressieve jeugd en het verlangen naar God."
     },
     {
-      "start_seconds": 899,
-      "title": "Jongeren, humor en preken voor kinderen",
-      "summary": "Zondag vertelt hoe hij eenvoudig preekt en over de humor in de kerk."
+      "start_seconds": 2100,
+      "title": "Roeping en carrière",
+      "summary": "Verhaal van de roeping in China, de afwijzing en het besluit om predikant te worden."
     },
     {
-      "start_seconds": 1504,
-      "title": "Depressie en twijfel",
-      "summary": "Zondag vertelt over zijn depressie op zestienjarige leeftijd en de worsteling met God."
+      "start_seconds": 3840,
+      "title": "Het ongeluk van Rhodé",
+      "summary": "Zondag beschrijft de gebeurtenissen rond het overlijden van zijn dochter en het zoeken naar God."
     },
     {
-      "start_seconds": 1980,
-      "title": "Carrière en bekering in Peking",
-      "summary": "Van hoogleraar in Groningen tot de ervaring in een Chinese huisgemeente."
+      "start_seconds": 5400,
+      "title": "Rechtszaak, vergeving en verlies",
+      "summary": "Verzoening met de chauffeur, reflecties op berouw en vergeving en de rouwervaring."
     },
     {
-      "start_seconds": 2318,
-      "title": "Avondmaal en roeping",
-      "summary": "De ervaring van het avondmaal, Gods stem in een preek en het roepingstraject."
+      "start_seconds": 5940,
+      "title": "Troost en rouw",
+      "summary": "Troost als opdracht, rouwarbeid en slotbeschouwing over God in het verdriet."
     }
   ],
   "highlights": [
@@ -266,68 +313,68 @@
       "start_seconds": 5,
       "speaker": "Wijnand Zondag",
       "text": "Ik was God wel even kwijt. Ik zei: waar bent u? Hij was echt weg.",
-      "note": "Openhartig over geloofscrisis na het verlies."
+      "note": "Openhartig moment over zijn ervaring van God na het verlies van zijn dochter."
     },
     {
-      "start_seconds": 32,
+      "start_seconds": 2175,
       "speaker": "Wijnand Zondag",
-      "text": "Ik zei: je zal je dochter maar verliezen. En om 2 uur stonden de agenten voor mijn neus.",
-      "note": "Aangrijpend moment over de preek en het ongeluk."
+      "text": "Het laatste wat ze heeft gezegd, zeiden de vriendinnetjes, was: yes, we hebben meegewend, we zijn zo thuis. Nou, dat is wel gebeurd, maar het was wel een ander thuis.",
+      "note": "Ontroerende en tragische woorden over het ongeluk."
     },
     {
-      "start_seconds": 1504,
+      "start_seconds": 3150,
       "speaker": "Wijnand Zondag",
-      "text": "Ik was bij tijden zelfs jaloers op mensen die al gestorven waren.",
-      "note": "Eerlijk over zijn depressie als tiener."
+      "text": "Ik zei: ik ben Jona.",
+      "note": "Zelfreflectie op zijn weerstand tegen de roeping, vergelijkbaar met de bijbelse profeet."
     },
     {
-      "start_seconds": 2105,
+      "start_seconds": 4100,
       "speaker": "Wijnand Zondag",
-      "text": "En toen zei ik: ik. En toen was ik er, om het zo te zeggen.",
-      "note": "Kantelpunt in de Chinese huisgemeente."
+      "text": "Ik ga als een ander mens naar binnen. Er was zelfs iets even van blijdschap.",
+      "note": "Verandering na een onverwachte ontmoeting in het gerechtshof."
     },
     {
-      "start_seconds": 1382,
+      "start_seconds": 5655,
       "speaker": "Wijnand Zondag",
-      "text": "Jij dacht zonder jou kan God niet werken, zeker?",
-      "note": "Humor van Moerkerke die Zondag raakte."
+      "text": "Als je daar bent, wil je toch niet meer terug?",
+      "note": "Rhodé's vraag over de hemel, geïnspireerd door C.S. Lewis."
     }
   ],
   "keywords": [
-    "Gereformeerde Gemeenten",
+    "Gereformeerde Gemeente",
     "depressie",
     "roeping",
-    "heilszekerheid",
-    "Rhodé",
-    "Augustinus",
-    "huisgemeente China",
-    "leesdienst",
-    "avondmaal",
-    "reformatorisch"
+    "predikant",
+    "verlies van een kind",
+    "troost",
+    "God spreekt",
+    "geloofszekerheid",
+    "vergeving",
+    "rouwarbeid"
   ],
-  "quotes": [
-    "Het zal je dochter maar zijn"
-  ],
+  "quotes": [],
   "similar": [
     {
       "n": 320,
-      "reason": "Persoonlijk verhaal over verlies, diepe rouw en troost, met geloofsvragen."
+      "reason": "Verlies van een dierbare, diepe rouw en troost vanuit geloof, zoals bij Zondag."
     },
     {
-      "n": 244,
-      "reason": "Ongeneeslijk ziek, omgaan met de dood en een ervaring van God."
+      "n": 331,
+      "reason": "Predikant die met ernstige ziekte omgaat en troost vindt in God."
     },
     {
       "n": 109,
-      "reason": "Depressie en zinloosheid, en de weg naar geloof."
+      "reason": "Depressie en zinloosheid, met geloof als uitweg; sterke overlap met Zondags depressies."
     },
     {
-      "n": 51,
-      "reason": "Refo's, reformatorische wereld en vooroordelen over strenge kerkverbanden."
+      "n": 244,
+      "reason": "Geloof, sterfelijkheid en een godservaring midden in persoonlijk lijden."
     },
     {
-      "n": 288,
-      "reason": "Gesprek met Arnon Grunberg over geloof, offers en lijden."
+      "n": 229,
+      "reason": "Predikant met aandacht voor dood, rouw, zingeving en de kerk."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 81,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 102823,
+    "segments": 858,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30475,
-    "output_tokens": 2187,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51705,
+    "output_tokens": 9233,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "God & geloof",
     "Kerk & secularisatie",
-    "Geschiedenis"
+    "God & geloof",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,80 +25,178 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, aanvaller van Oekraïne",
-      "start_seconds": 7,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; centrale figuur in de oorlog tegen Oekraïne en in het religieuze verhaal over het 'derde Rome'",
+      "start_seconds": 3,
+      "mention_count": 40
     },
     {
-      "name": "Olaf Scholz",
-      "note": "Duitse bondskanselier (SPD), Zeitenwende",
-      "start_seconds": 218,
-      "wiki_checked": true,
-      "wiki_pageid": 4956432,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Olaf_Scholz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg/250px-Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg"
+      "name": "Kirill",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk, die de oorlog spiritueel ondersteunt",
+      "start_seconds": 1307,
+      "mention_count": 5
+    },
+    {
+      "name": "Sergej Lavrov",
+      "note": "Russische minister van Buitenlandse Zaken en vertrouweling van Poetin",
+      "start_seconds": 1309,
+      "mention_count": 6
+    },
+    {
+      "name": "Sergej Sjojgoe",
+      "note": "Russische minister van Defensie (Shoigu)",
+      "start_seconds": 2096,
+      "mention_count": 2
+    },
+    {
+      "name": "Medvedev",
+      "note": "Russisch politicus die waarschuwde dat economische oorlogen tot echte oorlogen leiden",
+      "start_seconds": 414,
+      "mention_count": 1
     },
     {
       "name": "Gerhard Schröder",
-      "note": "Voormalig Duitse bondskanselier, Poetin-vriend",
+      "note": "Voormalig Duits kanselier (SPD), als Poetin-vriendelijk gezien",
       "start_seconds": 240,
-      "wiki_checked": true,
-      "wiki_pageid": 37588,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2015-12_Gerhard_Schr%C3%B6der_SPD_Bundesparteitag_by_Olaf_Kosinsky-12.jpg/250px-2015-12_Gerhard_Schr%C3%B6der_SPD_Bundesparteitag_by_Olaf_Kosinsky-12.jpg"
+      "mention_count": 1
     },
     {
       "name": "George H.W. Bush",
-      "note": "Amerikaanse president in 1989, 'partnership in leadership'",
+      "note": "Amerikaanse president die na de val van de Berlijnse Muur partnership in leadership bepleitte",
       "start_seconds": 249,
-      "wiki_checked": true,
-      "wiki_pageid": 11456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_H.W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/George_H._W._Bush_presidential_portrait_%28cropped%29.jpg/250px-George_H._W._Bush_presidential_portrait_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Angela Merkel",
-      "note": "Voormalig Duitse bondskanselier",
+      "note": "Voormalig Duits bondskanselier; legde volgens De Graaf de weg naar de Europese waardegemeenschap",
       "start_seconds": 272,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Joe Biden",
-      "note": "Amerikaanse president",
-      "start_seconds": 272,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "name": "Olaf Scholz",
+      "note": "Huidig Duits bondskanselier (SPD) die Poetin belde",
+      "start_seconds": 439,
+      "mention_count": 2
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president die anderhalf uur met Poetin belde",
+      "start_seconds": 426,
+      "mention_count": 2
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "Voorzitter van de Europese Commissie",
+      "start_seconds": 358,
+      "mention_count": 4
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaarse premier, U-turn",
-      "start_seconds": null,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Hongaars premier wiens koerswijziging werd genoemd",
+      "start_seconds": 351,
+      "mention_count": 1
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïens president met emotionele toespraken",
+      "start_seconds": 791,
+      "mention_count": 2
+    },
+    {
+      "name": "Rob de Wijk",
+      "note": "Defensiedeskundige die adviseerde wapenlevering geheim te houden",
+      "start_seconds": 401,
+      "mention_count": 1
+    },
+    {
+      "name": "Caroline de Gruiter",
+      "note": "Journaliste die een column schreef in de NRC over de Duitse koerswending",
+      "start_seconds": 207,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; basis voor het idee van de strijd tegen het kwaad in het eigen hart",
+      "start_seconds": 3047,
+      "mention_count": 3
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator; formuleerde simul justus et peccator",
+      "start_seconds": 3205,
+      "mention_count": 2
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Filosoof die de eeuwige vrede beschreef",
+      "start_seconds": 3728,
+      "mention_count": 1
+    },
+    {
+      "name": "Miroslav Volf",
+      "note": "Kroatisch theoloog die schreef over uitsluiting en omhelzing na oorlog",
+      "start_seconds": 3478,
+      "mention_count": 2
+    },
+    {
+      "name": "Timothy Snyder",
+      "note": "Historicus die schreef over de weg naar onvrijheid in Rusland",
+      "start_seconds": 2244,
+      "mention_count": 1
+    },
+    {
+      "name": "Steve Bannon",
+      "note": "Amerikaans politiek strateeg die 'feeding the zone with shit' uitsprak",
+      "start_seconds": 2244,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Voormalig Amerikaans president; zijn kringen worden in verband gebracht met propaganda-strategie",
+      "start_seconds": 2244,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Engel",
+      "note": "Activist die volgens Stefan Paas Poetin verdedigt",
+      "start_seconds": 2843,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Nederlands politicus die volgens Stefan Paas Poetin verdedigt",
+      "start_seconds": 2845,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Eikenboom",
+      "note": "Nederlands journalist die waarschuwde dat het weren van Russische zenders 'niet beter is dan Poetin'",
+      "start_seconds": 2400,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk Sauer",
+      "note": "Nederlander die in Rusland woont en waarschuwde voor beperking van bronnen",
+      "start_seconds": 2474,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Poesjkin",
+      "note": "Russische dichter uit de vroege 19e eeuw wiens gedicht Stefan voorlas",
+      "start_seconds": 3905,
+      "mention_count": 2
+    },
+    {
+      "name": "Bartolomeus",
+      "note": "Aartsbisschop van Constantinopel en spiritueel leider van de orthodoxie",
+      "start_seconds": 1234,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Road to Unfreedom",
       "author": "Timothy Snyder",
-      "note": "Over het cynische wereldbeeld waarin waarheid en leugen vervagen",
+      "note": "Boek over de Russische strategie van uitholling van waarheid",
       "start_seconds": 2244,
       "volume_id": "ZrMyDwAAQBAJ",
       "canonical_title": "The Road to Unfreedom: Russia, Europe, America",
@@ -101,137 +204,208 @@
       "isbn13": "9781473556201",
       "isbn10": "1473556201",
       "thumbnail": "http://books.google.com/books/content?id=ZrMyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "The Exclusion and Embrace",
+      "author": "Miroslav Volf",
+      "note": "Boek over verzoening na de Balkanoorlog",
+      "start_seconds": 3478
+    },
+    {
+      "title": "Heilige strijd",
+      "author": "Beatrice de Graaf",
+      "note": "Boek over het spreken over het kwaad in westerse talen",
+      "start_seconds": 2615,
+      "volume_id": "ZGhItAEACAAJ",
+      "canonical_title": "Heilige strijd: het verlangen naar veiligheid en het einde van het kwaad",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9789023950592",
+      "isbn10": "9023950593",
+      "thumbnail": ""
+    },
+    {
+      "title": "The End of Evil",
+      "author": "Patroeske Schaafsma",
+      "note": "Boek over het einde van het kwaad als spanning en hoop in het christendom",
+      "start_seconds": 3621
+    },
+    {
+      "title": "Grijs Verleden",
+      "author": "",
+      "note": "Controversieel boek over de Tweede Wereldoorlog dat De Graaf bekritiseert",
+      "start_seconds": 3350,
+      "volume_id": "GS5rPgAACAAJ",
+      "canonical_title": "Grijs verleden: Nederland en de Tweede Wereldoorlog",
+      "canonical_author": "Chris van der Heijden",
+      "isbn13": "9789025431808",
+      "isbn10": "9025431801",
+      "thumbnail": "http://books.google.com/books/content?id=GS5rPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5:39",
+      "note": "Bergrede: de rechterwang toekeren, niet uit zwakte maar uit kracht",
+      "start_seconds": 3856
+    },
+    {
+      "ref": "Lucas 14:31",
+      "note": "Voorzichtigheid bij oorlog: eerst nagaan of je genoeg manschappen hebt",
+      "start_seconds": 3850
+    },
+    {
+      "ref": "Mattheus 7:3",
+      "note": "De balk in het eigen oog eerst uittrekken",
+      "start_seconds": 3087
+    }
+  ],
   "places": [
-    "Oekraïne",
     "Rusland",
-    "Duitsland",
-    "Moskou",
-    "Constantinopel",
+    "Oekraïne",
     "Kiev",
+    "Constantinopel",
+    "Byzantium",
+    "Moskou",
     "Meteora",
-    "Berg Athos",
+    "Athos",
     "Noord-Ierland",
     "Balkan",
+    "Duitsland",
+    "Polen",
     "Hongarije",
-    "Servië"
+    "Servië",
+    "Noord-Korea",
+    "Chartwell",
+    "Petersburg",
+    "Nijmegen"
   ],
-  "summary_tldr": "Een week na het begin van de oorlog in Oekraïne bespreken Beatrice de Graaf en Stefan Paas hoe snel de wereld verandert: Europese eensgezindheid, Duitse koerswending en het risico van escalatie. Ze gaan in op de religieuze dimensie van Poetins ideologie (Rusland als derde Rome) en op de vraag hoe we ons moeten verhouden tot het kwaad.",
+  "summary_tldr": "In de tweede week van de Russische invasie in Oekraïne bespreken Beatrice de Graaf en Stefan Paas de snelle geopolitieke verschuivingen in Europa en de religieuze achtergrond van Poetins oorlog. Zij betogen dat het Russische verhaal van het 'derde Rome' een geopolitieke, culturele en religieuze mythe is, en dat het Westen een realistische omgang met het kwaad nodig heeft, met oog voor recht, oordeel en vergeving.",
   "summary_points": [
-    "Binnen een week is Europa verrassend eensgezind en Duitsland keert zijn defensiebeleid om (Zeitenwende).",
-    "Risico's: te hard van stapel lopen, provocatie en overdreven reacties zoals boycots van gewone Russen.",
-    "Doel blijft een derde wereldoorlog vermijden via sancties én onderhandelen.",
-    "Poetin speelt op de lange termijn; de vraag is of het Westen het volhoudt.",
-    "Religie in Rusland is geen privézaak maar een culturele en politieke identiteit.",
-    "Poetin gebruikt het idee van Rusland als derde Rome en 'masculien christendom' ter legitimatie.",
-    "De Russisch-orthodoxe wereld is niet monolithisch; er is ook kerkelijk verzet tegen de oorlog.",
-    "Scheiding van kerk en staat blijkt ook goed voor de kerk zelf.",
-    "Stefan Paas pleit voor een nieuw normaal waarin we het kwaad serieus nemen en cynisme tegengaan."
+    "Europa reageerde eensgezind en snel op de invasie, met Duitsland als opvallende koerswijziging",
+    "Er zijn risico's van overhaaste maatregelen, zoals wapenleveringen en het weren van Russische media",
+    "Diplomatie en onderhandelen blijven nodig om een derde wereldoorlog te voorkomen",
+    "De Russische oorlog heeft een geopolitieke, territoriale en religieuze component, met het 'derde Rome'-idee",
+    "Religie in Rusland functioneert als culturele identiteit en is verweven met de macht van Poetin",
+    "De Russisch-Orthodoxe Kerk is verbonden met de Russische staat, maar de orthodoxie is wereldwijd divers",
+    "Westerse media en het cynisme over waarheid vormen een gevaar; Stefan pleit voor een realistische omgang met het kwaad",
+    "Beatrice benadrukt dat het kwaad benoemd moet worden en dat er een einde aan komt; vergeving vereist eerst erkenning van zonde en recht",
+    "Vrede wordt gezien als een op recht gebaseerd ideaal dat ook militaire verdediging kan vereisen"
   ],
   "chapters": [
     {
-      "start_seconds": 86,
-      "title": "Verbazing en Europese eensgezindheid",
-      "summary": "Wat de afgelopen week het meest opviel: de Duitse koerswending en de eensgezinde Europese reactie."
+      "start_seconds": 0,
+      "title": "Week twee van de oorlog",
+      "summary": "De hosts en gast delen hun verbazing over de snelle ontwikkelingen en de dreiging van de oorlog."
     },
     {
-      "start_seconds": 386,
-      "title": "Escalatiegevaar en oorlogsstemming",
-      "summary": "Over te hard van stapel lopen, boycots van Russen en de emotionele meesleurkracht van oorlog."
+      "start_seconds": 150,
+      "title": "Europese eensgezindheid en de Duitse koerswending",
+      "summary": "De gesprekspartners bespreken de verrassende eenheid van Europa, de Zeitenwende in Duitsland en de houding van Hongarije en Servië."
     },
     {
-      "start_seconds": 812,
-      "title": "Hoe lang houdt het Westen het vol?",
-      "summary": "Nieuwe Koude Oorlog, defensie-uitgaven en Poetins strategie van de lange adem."
+      "start_seconds": 420,
+      "title": "Risico's, diplomatie en oorlogsstemming",
+      "summary": "Het gesprek gaat over de risico's van wapenlevering, het belang van onderhandelen en de neiging tot doorslaan in oorlogsstemming."
     },
     {
-      "start_seconds": 872,
-      "title": "Is dit een religieuze oorlog?",
-      "summary": "Stefan legt uit dat religie in Rusland anders functioneert dan in het protestantse Westen."
+      "start_seconds": 913,
+      "title": "Wat is religie in Rusland?",
+      "summary": "Stefan legt uit dat religie in Rusland een culturele en politieke identiteit is, anders dan het Nederlandse protestantse begrip."
     },
     {
-      "start_seconds": 1130,
-      "title": "Het derde Rome en de Russische Orthodoxe Kerk",
-      "summary": "Beatrice schetst Poetins ideologie, het schisma en de rol van Kirill en Lavrov."
+      "start_seconds": 1300,
+      "title": "Het derde Rome en de rol van Kirill en Lavrov",
+      "summary": "Beatrice schetst de historische en religieuze mythe van Rusland als derde Rome en de ideologische rol van Kirill en Lavrov."
     },
     {
-      "start_seconds": 1740,
-      "title": "Identiteit, kerk en staat",
-      "summary": "Vergelijking met Noord-Ierland en de Balkan; Poetin als kern van het probleem."
+      "start_seconds": 2192,
+      "title": "Het nieuwe normaal en de omgang met het kwaad",
+      "summary": "Stefan introduceert het nieuwe normaal, propaganda als wapen en de vraag hoe het Westen met hypocrisie en kwaad moet omgaan."
     },
     {
-      "start_seconds": 2196,
-      "title": "Het nieuwe normaal en het kwaad",
-      "summary": "Stefan over het serieus nemen van het kwaad en het cynische wereldbeeld van desinformatie."
+      "start_seconds": 2987,
+      "title": "Afrekencultuur, vergeving en het einde van het kwaad",
+      "summary": "Het gesprek gaat over relativisme versus afrekencultuur, Augustinus, Luther en de vraag of vergeving mogelijk is zonder recht."
+    },
+    {
+      "start_seconds": 3722,
+      "title": "Vrede op recht en hoop",
+      "summary": "De gesprekspartners sluiten af met het ideaal van vrede op basis van recht, een gedicht van Poesjkin en persoonlijke hoop."
     }
   ],
   "highlights": [
     {
       "start_seconds": 0,
       "speaker": "Beatrice de Graaf",
-      "text": "Wie nu al zegt: lieve meneer Poetin, we vergeven u, begrijpt de christelijke begrippen zonde en vergeving niet.",
-      "note": "Scherpe openingsstelling over vergeving en kwaad."
+      "text": "Het idee dat je nu al tegen Poetin zegt: we vergeven u, past niet bij de christelijke begrippen van zonde en vergeving.",
+      "note": "Scherpe kritiek op een naïeve interpretatie van vergeving tijdens een lopende oorlog."
     },
     {
-      "start_seconds": 1463,
+      "start_seconds": 1415,
       "speaker": "Beatrice de Graaf",
-      "text": "Lavrov zegt dat de macht van een land ook afhangt van het vermogen van het volk om leed te dragen.",
-      "note": "Laat zien waarom sancties mogelijk weinig effect hebben."
+      "text": "Lavrov zei dat de macht van een land ook afhangt van de capaciteit om leed te dragen; ons volk is groots in het dragen van leed.",
+      "note": "Laat zien hoe leed en opoffering in de Russische ideologie een religieuze lading krijgen."
     },
     {
-      "start_seconds": 960,
+      "start_seconds": 2244,
       "speaker": "Stefan Paas",
-      "text": "Stel je voor dat de 4 mei-viering elke zondag plaatsvindt, met baarden, jurken en wierook.",
-      "note": "Treffend beeld van religie als nationale identiteit."
+      "text": "Steve Bannon noemde het strategie 'feeding the zone with shit': mensen overspoelen met tegenstrijdige informatie tot niemand meer weet wat waar is.",
+      "note": "Verklaart waarom cynisme en wantrouwen effectief zijn als politiek wapen."
     },
     {
-      "start_seconds": 787,
-      "speaker": "David Boogerd",
-      "text": "De echte oorlogshitsers zitten meestal thuis op de bank.",
-      "note": "Pakkende samenvatting over militairen versus twitterstrijders."
-    },
-    {
-      "start_seconds": 2294,
+      "start_seconds": 3173,
       "speaker": "Stefan Paas",
-      "text": "Bannon noemde het 'feeding the zone with shit': mensen zo overvoeren dat ze niet meer weten wat ze moeten geloven.",
-      "note": "Verklaart cynisme en desinformatie."
+      "text": "Dan weet je niet wat vergeving is.",
+      "note": "Felle reactie op het idee van vergeving zonder erkenning van zonde of recht."
+    },
+    {
+      "start_seconds": 3275,
+      "speaker": "Stefan Paas",
+      "text": "Je hebt mensen nodig die van zichzelf weten: ik deug niet en toch ben ik vergeven en ik mag er zijn.",
+      "note": "Een christelijke kijk op de combinatie van zondaar en gerechtvaardigde als basis voor nederigheid."
     }
   ],
   "keywords": [
-    "Oorlog in Oekraïne",
     "Poetin",
     "Derde Rome",
-    "Russisch-orthodoxe kerk",
+    "Russisch-Orthodoxe Kerk",
     "Kirill",
+    "Lavrov",
     "Zeitenwende",
-    "Kwaad",
-    "Scheiding van kerk en staat",
-    "Desinformatie",
-    "Nieuwe Koude Oorlog"
+    "Vergeving",
+    "Het kwaad",
+    "Propaganda",
+    "Vrede op recht",
+    "Simul justus et peccator",
+    "Secularisatie"
   ],
-  "quotes": [],
+  "quotes": [
+    "In één week oorlog kan net zoveel veranderen als in 50 jaar vredestijd.",
+    "Rusland heeft een krachtige maar vernietigende mythe waarmee ze de oorlog in gaan, wat kunnen wij daar in het Westen tegenover zetten?",
+    "Stefan pleit voor 'het nieuwe normaal' waarbij we ons opnieuw moeten leren verhouden tot het kwaad."
+  ],
   "similar": [
     {
-      "n": 86,
-      "reason": "Vervolg met De Graaf en Paas over de Oekraïne-oorlog, grimmiger en apocalyptisch"
-    },
-    {
-      "n": 80,
-      "reason": "Eerste reactie op de oorlog in Europa, zelfde duo, dezelfde week"
-    },
-    {
       "n": 79,
-      "reason": "Poetin, de kerk en de religieuze geschiedenis achter het conflict met Oekraïne"
+      "reason": "Zelfde conflict Rusland-Oekraïne met religieuze achtergrond en Poetin-kerkthematiek"
     },
     {
       "n": 82,
-      "reason": "Russisch-orthodoxe kerk en Poetins oorlog, religieuze dimensie van het conflict"
+      "reason": "Russisch-Orthodoxe kerk die Poetins oorlog steunt, sterke thematische overlap"
     },
     {
-      "n": 147,
-      "reason": "Oorlog in Oekraïne uitgelegd, met religie en zingeving"
+      "n": 80,
+      "reason": "Beatrice de Graaf en Stefan Paas over het begin van de oorlog in Europa"
+    },
+    {
+      "n": 86,
+      "reason": "Vervolg over de oorlog in Oekraïne met dezelfde gasten en religieuze duiding"
+    },
+    {
+      "n": 153,
+      "reason": "Rusland en zijn religie, met Derk Sauer, die ook in aflevering 81 wordt genoemd"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

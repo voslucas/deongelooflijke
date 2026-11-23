@@ -1,18 +1,23 @@
 {
   "episode": 210,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 107763,
+    "segments": 1069,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31405,
-    "output_tokens": 2168,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55795,
+    "output_tokens": 6966,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kunst & cultuur",
-    "Kerk & secularisatie",
     "God & geloof",
-    "Economie & geld"
+    "Economie & geld",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Willem Jan de Hek"
@@ -20,93 +25,107 @@
   "people": [
     {
       "name": "Winston Churchill",
-      "note": "Britse premier aan wie de uitspraak 'wij geven vorm aan onze gebouwen' wordt toegeschreven",
+      "note": "Britse politicus, aangehaald met de uitspraak over gebouwen die mensen vormen",
       "start_seconds": 49,
-      "wiki_checked": true,
-      "wiki_pageid": 13978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Winston_Churchill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sir_Winston_Churchill.jpg/250px-Sir_Winston_Churchill.jpg"
+      "mention_count": 3
     },
     {
       "name": "Georges-Eugène Haussmann",
-      "note": "Stedenbouwkundige die de boulevards van Parijs aanlegde",
-      "start_seconds": 225,
-      "wiki_checked": true,
-      "wiki_pageid": 139029,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Georges-Eug%C3%A8ne_Haussmann_-_BNF_Gallica.jpg/250px-Georges-Eug%C3%A8ne_Haussmann_-_BNF_Gallica.jpg"
+      "note": "Franse stedenbouwkundige die Parijs herordende met lange boulevards",
+      "start_seconds": 218,
+      "mention_count": 3
     },
     {
       "name": "Le Corbusier",
-      "note": "Modernistisch architect, maker van het Plan Voisin voor Parijs",
+      "note": "Modernistisch architect, vader van de moderne architectuur; Plan Voisin voor Parijs",
       "start_seconds": 396,
-      "wiki_checked": true,
-      "wiki_pageid": 92997,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Le_Corbusier",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Le_Corbusier_%281964%29.jpg/250px-Le_Corbusier_%281964%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Herman Paul",
-      "note": "Historicus die zei dat winkelcentra de nieuwe kerken zijn",
-      "start_seconds": 502,
-      "wiki_checked": true
+      "note": "Historicus die in een eerdere podcast stelde dat winkelcentra de nieuwe kerken zijn",
+      "start_seconds": 492,
+      "mention_count": 1
     },
     {
       "name": "James K.A. Smith",
-      "note": "Amerikaanse filosoof die het winkelcentrum met de kathedraal vergelijkt",
+      "note": "Amerikaanse filosoof die winkelcentrum en kathedraal vergelijkt",
       "start_seconds": 526,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Alain de Botton",
-      "note": "Britse filosoof, schreef The Architecture of Happiness",
-      "start_seconds": 1326,
-      "wiki_checked": true,
-      "wiki_pageid": 337751,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alain_de_Botton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Alain_de_Botton.jpg/250px-Alain_de_Botton.jpg"
+      "note": "Britse filosoof, auteur van The Architecture of Happiness",
+      "start_seconds": 1317,
+      "mention_count": 4
     },
     {
       "name": "Roger Scruton",
-      "note": "Britse filosoof, schreef over architectuur in The Face of God",
-      "start_seconds": 1831,
-      "wiki_checked": true,
-      "wiki_pageid": 647575,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roger_Scruton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Roger_Scruton_by_Pete_Helme.jpg/250px-Roger_Scruton_by_Pete_Helme.jpg"
+      "note": "Britse filosoof die schreef over architectuur en The Face of God",
+      "start_seconds": 1771,
+      "mention_count": 3
     },
     {
       "name": "Adriaan Geuze",
-      "note": "Stedenbouwkundige, te gast bij Zomergasten",
+      "note": "Nederlandse stedenbouwkundige, te gast bij Zomergasten",
       "start_seconds": 1837,
-      "wiki_checked": true,
-      "wiki_pageid": 731825,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adriaan_Geuze",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Schouwburgplein_13.jpg/250px-Schouwburgplein_13.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Herzog & de Meuron",
-      "note": "Architecten van het Vogelnest-stadion in Beijing",
-      "start_seconds": 2195,
-      "wiki_checked": true,
-      "wiki_pageid": 577332,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herzog_%26_de_Meuron",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/AllianzArenaSunset.jpg/250px-AllianzArenaSunset.jpg"
+      "name": "Floris Alkemade",
+      "note": "Rijksbouwmeester die een prijsvraag over iconische kerkgebouwen organiseerde",
+      "start_seconds": 2479,
+      "mention_count": 1
+    },
+    {
+      "name": "Fujimori",
+      "note": "Japans-Amerikaanse kunstenaar en theoloog over schoonheid en barmhartigheid",
+      "start_seconds": 2727,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutte",
+      "note": "Voormalig premier, genoemd in verband met de verbouwing van het Binnenhof",
+      "start_seconds": 2936,
+      "mention_count": 1
+    },
+    {
+      "name": "Judas",
+      "note": "Bijbelse figuur die vroeg waarom het parfum niet aan de armen was gegeven",
+      "start_seconds": 2795,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Bijbelse figuur die de vrouw met het parfum prijst",
+      "start_seconds": 3013,
+      "mention_count": 1
+    },
+    {
+      "name": "Oscar Wilde",
+      "note": "Schrijver, geciteerd over de prijs en waarde van dingen",
+      "start_seconds": 2981,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Sennett",
+      "note": "Socioloog, auteur van Building and Dwelling",
+      "start_seconds": 3288,
+      "mention_count": 2
     }
   ],
   "books": [
     {
+      "title": "Design",
+      "author": "James K.A. Smith",
+      "note": "Boek waarin het winkelcentrum met de kathedraal wordt vergeleken",
+      "start_seconds": 526
+    },
+    {
       "title": "The Architecture of Happiness",
       "author": "Alain de Botton",
-      "note": "Architectuur kan troosten en ons vormen",
-      "start_seconds": 1326,
+      "note": "Over de vraag hoe architectuur kan troosten en het gemoed beïnvloedt",
+      "start_seconds": 1317,
       "volume_id": "mcWDx4nDh5oC",
       "canonical_title": "The Architecture of Happiness",
       "canonical_author": "Alain de Botton",
@@ -117,144 +136,201 @@
     {
       "title": "The Face of God",
       "author": "Roger Scruton",
-      "note": "Over architectuur en landschap als uitnodiging tot relatie",
-      "start_seconds": 1831,
+      "note": "Over architectuur en de relatie die gebouwen met mensen aangaan",
+      "start_seconds": 1771,
       "volume_id": "NtA_L2ZQSUIC",
       "canonical_title": "The Face of God: The Gifford Lectures",
       "canonical_author": "Roger Scruton",
       "isbn13": "9780826432070",
       "isbn10": "0826432077",
       "thumbnail": "http://books.google.com/books/content?id=NtA_L2ZQSUIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Building and Dwelling",
+      "author": "Richard Sennett",
+      "note": "Over het belang van plekken waar vreemden elkaar ontmoeten",
+      "start_seconds": 3288,
+      "volume_id": "6dmRzQEACAAJ",
+      "canonical_title": "Building and Dwelling: Ethics for the City",
+      "canonical_author": "Richard Sennett",
+      "isbn13": "9788934999669",
+      "isbn10": "8934999667",
+      "thumbnail": "http://books.google.com/books/content?id=6dmRzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Places of Redemption",
+      "author": "",
+      "note": "Over christelijke gemeenschappen als plekken van bevrijding",
+      "start_seconds": 3572,
+      "volume_id": "e8kAwgEACAAJ",
+      "canonical_title": "Places of Redemption: Theology for a Worldly Church",
+      "canonical_author": "Mary McClintock Fulkerson",
+      "isbn13": "9780199785582",
+      "isbn10": "0199785589",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Johannes 12:1-8",
+      "note": "Verhaal van de vrouw die kostbaar parfum over Jezus' voeten giet; Judas vindt het verspilling",
+      "start_seconds": 2795
+    },
+    {
+      "ref": "Exodus",
+      "note": "Het verhaal van exodus en bevrijding als het grote verhaal van de kerk",
+      "start_seconds": 3565
+    }
+  ],
   "places": [
     "Hongkong",
     "Parijs",
+    "Boekarest",
     "Berlijn",
     "Bordeaux",
-    "Boekarest",
     "China",
+    "Utrecht",
     "Lumbini",
     "Nepal",
-    "Utrecht",
-    "Leidsche Rijn",
-    "Kanaleneiland",
-    "Deventer",
-    "Beijing",
     "Londen",
-    "Venetië",
-    "Barcelona",
     "Amsterdam",
-    "Rotterdam"
+    "Rotterdam",
+    "Leiderdorp",
+    "Beijing",
+    "Barcelona",
+    "Venetië",
+    "Deventer",
+    "Siberië",
+    "Lagos",
+    "Kanaleneiland"
   ],
-  "summary_tldr": "Architect en predikant Willem Jan de Hek vertelt hoe gebouwen en steden ons vormen en wat architectuur zegt over onze waarden. Aan de hand van winkelcentra, datacenters, kloosters en kathedralen bespreken ze gastvrijheid, hiërarchie, schoonheid en 'heimwee-architectuur'. Ook de vraag waarom we niet meer zoals vroeger bouwen komt aan bod.",
+  "summary_tldr": "Architect en predikant Willem Jan de Hek en theoloog Stefan Paas bespreken hoe gebouwen en de bebouwde omgeving ons vormen. Ze onderzoeken waarom kathedralen en andere gebouwen met een verheffende betekenis verdwenen zijn en vervangen werden door functionele en commerciële architectuur zoals winkelcentra en datacenters. Het gesprek eindigt met de vraag hoe schoonheid, barmhartigheid en gemeenschap in de publieke ruimte een plek kunnen krijgen.",
   "summary_points": [
-    "Gebouwen vormen ons gedrag en onze gevoelens, zoals Churchill al zei.",
-    "Hongkong en Parijs zijn mooi door zicht en lange lijnen.",
-    "Winkelcentra zijn moderne heilige plekken, ontworpen om mensen te laten kopen en verblijven.",
-    "Bouwen in China is verweven met politiek, kapitaal en migratie van platteland naar stad.",
-    "Architectuur en theologie gaan beide over het hele leven en over hermeneutiek van de omgeving.",
-    "Delftse architectuuropleiding was dogmatisch over waarachtigheid; 'heimwee-architectuur' gold als fout.",
-    "Gastvrijheid: kloosters en Huis van Vrede tegenover afstotende datacenters.",
-    "Moderne architectuur is vaak zelfexpressie, zonder hiërarchie of samenhang.",
-    "Stadions zoals het Vogelnest zijn de kathedralen van nu."
+    "Gebouwen vormen mensen; de bebouwde omgeving beïnvloedt gedrag en gevoel, bijvoorbeeld via kleuren en vormen.",
+    "Hongkong en Parijs tonen verschillende stedenbouwkundige logica: lange lijnen en ordening versus verticale functionaliteit.",
+    "Winkelcentra worden vergeleken met kathedralen, met rituelen en een ontwerp dat consumptie stuurt.",
+    "Het modernisme leidde tot functionele, zelfverwijzende gebouwen die weinig betekenis of hiërarchie uitdragen.",
+    "Vroeger wezen kerken de hiërarchie van een stad aan; die centrale betekenis ontbreekt in nieuwe wijken.",
+    "Schoonheid heeft een prijs en wordt economisch moeilijk te verantwoorden, terwijl ze wel verheft en troost.",
+    "Kerken en andere heilige plekken kunnen een contrastervaring bieden en bevrijding oproepen in een efficiënte samenleving.",
+    "Ontmoeting tussen verschillende mensen in de publieke ruimte is essentieel en neemt af door digitalisering en betaalde toegang.",
+    "Datacenters staan symbool voor een gebouw zonder betekenis of ethiek, in tegenstelling tot de analoge heilige ruimte."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Mooiste stad: Hongkong en Parijs",
-      "summary": "De Hek over Hongkong, Haussmann en Le Corbusier's plan voor Parijs."
+      "title": "Inleiding: gebouwen die ons vormen",
+      "summary": "David Boogerd introduceert de vraag hoe gebouwen mensen beïnvloeden, met het citaat van Churchill en de gast Willem Jan de Hek."
     },
     {
-      "start_seconds": 442,
+      "start_seconds": 148,
+      "title": "Hongkong, Parijs en de stad als ordening",
+      "summary": "De Hek vergelijkt Hongkong en Parijs en bespreekt stedenbouw als ordening, inclusief de Chinese shoppingmalls en het Plan Voisin."
+    },
+    {
+      "start_seconds": 492,
       "title": "Winkelcentra als nieuwe kerken",
-      "summary": "Zijn werk in China, het ontwerp van malls en de politieke en economische context."
+      "summary": "Het gesprek gaat over winkelcentra als moderne tempels, met James K.A. Smith en de rol van architecten in commerciële projecten."
     },
     {
-      "start_seconds": 990,
-      "title": "Architect en predikant",
-      "summary": "Waarom architectuur en theologie dicht bij elkaar liggen en het dogmatisme in de architectuur."
+      "start_seconds": 1122,
+      "title": "Waarachtigheid, heimwee en gastvrijheid",
+      "summary": "De Hek legt uit hoe architectuur waarachtigheid en troost kan uitdragen, met voorbeelden van gastvrije gebouwen en klooster Nieuw Sion."
     },
     {
-      "start_seconds": 1290,
-      "title": "Gebouwen die troosten en welkom heten",
-      "summary": "Gastvrijheid in kloosters en Huis van Vrede tegenover datacenters; architectuur vormt ons."
+      "start_seconds": 2107,
+      "title": "Kathedralen, iconen en de verandering van waarden",
+      "summary": "Het gesprek behandelt waarom er geen kathedralen meer worden gebouwd, het verlies van versiering en de rol van hiërarchie en macht."
     },
     {
-      "start_seconds": 1820,
-      "title": "Zelfexpressie en hiërarchie",
-      "summary": "Scruton, Geuze en het wegvallen van iconen zoals de kerk in de stad."
+      "start_seconds": 2727,
+      "title": "Schoonheid, verspilling en het Bijbelse parfumverhaal",
+      "summary": "Stefan Paas en De Hek bespreken of schoonheid verantwoord is naast armoede, met het verhaal van het parfum en de kintsugi-metafoor."
     },
     {
-      "start_seconds": 2130,
-      "title": "Bouwen we nog kathedralen?",
-      "summary": "Stadions als moderne kathedralen en de breuk in bouwen sinds de twintigste eeuw."
+      "start_seconds": 3453,
+      "title": "Datacenters, secularisatie en heilige plekken",
+      "summary": "De gasten bespreken datacenters als tegenpool van heilige ruimte, secularisatie, en de vraag welke plekken nu bevrijding bieden."
+    },
+    {
+      "start_seconds": 4027,
+      "title": "Het mooiste gebouw en afsluiting",
+      "summary": "De Hek noemt de Sagrada Família als mooiste gebouw omdat het nog niet af is; de aflevering eindigt met een vooruitblik."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2195,
+      "start_seconds": 1651,
       "speaker": "Willem Jan de Hek",
-      "text": "Het Vogelnest is de kathedraal der kathedralen voor even.",
-      "note": "Verrassende herinterpretatie van het begrip kathedraal."
+      "text": "Het decor waarin wij leven heeft veel invloed op wie wij zijn en hoe wij ons gedragen.",
+      "note": "Kernstelling van het gesprek: architectuur vormt ons actief, niet alleen passief."
     },
     {
-      "start_seconds": 990,
+      "start_seconds": 2984,
+      "speaker": "Stefan Paas",
+      "text": "Moderne mensen kennen van alles de prijs, maar van niks de waarde (Oscar Wilde).",
+      "note": "Scherpe samenvatting van het spanningsveld tussen economische efficiëntie en schoonheid."
+    },
+    {
+      "start_seconds": 3082,
       "speaker": "Willem Jan de Hek",
-      "text": "Theologie en architectuur gaan allebei over het hele leven.",
-      "note": "Verbindt zijn twee vakgebieden."
+      "text": "Schoonheid zit soms in gebrokenheid die weer geheeld is, zoals het met goud gelijmde theeservies.",
+      "note": "Een verrassende metafoor die schoonheid en barmhartigheid met elkaar verbindt."
     },
     {
-      "start_seconds": 1050,
+      "start_seconds": 3185,
       "speaker": "Stefan Paas",
-      "text": "Architectuur is meer in your face dan kunst en dus vormender.",
-      "note": "Verklaart waarom gebouwen zoveel invloed hebben."
+      "text": "Gebouwen waar je doorheen loopt en aan het eind denkt: ik wil een beter mens worden.",
+      "note": "Een persoonlijke wens die architectuur als pedagogische kracht formuleert."
     },
     {
-      "start_seconds": 2060,
+      "start_seconds": 3650,
       "speaker": "Stefan Paas",
-      "text": "Een klein kerkje tussen twee enorme bankgebouwen in Londen.",
-      "note": "Treffend symbool voor secularisatie."
+      "text": "Een datacenter onder je voeten, met illegale content en scamactiviteiten, is geen fijne gedachte voor een heilige ruimte.",
+      "note": "Een scherpe, provocatieve reflectie op de ethiek van digitale infrastructuur."
     }
   ],
   "keywords": [
     "architectuur",
-    "stedenbouw",
-    "kathedraal",
-    "winkelcentrum",
-    "datacenter",
-    "gastvrijheid",
-    "Le Corbusier",
-    "Alain de Botton",
-    "Roger Scruton",
-    "heimwee-architectuur",
     "schoonheid",
-    "hiërarchie"
+    "stedenbouw",
+    "heilige ruimte",
+    "winkelcentrum",
+    "kathedraal",
+    "modernisme",
+    "secularisatie",
+    "barmhartigheid",
+    "gastvrijheid",
+    "datacenter",
+    "bevrijding"
   ],
   "quotes": [
-    "“Wij geven vorm aan onze gebouwen, en daarna geven zij vorm aan ons.”"
+    "Wij geven vorm aan onze gebouwen, en daarna geven zij vorm aan ons, zei Winston Churchill ooit.",
+    "Een gesprek over schoonheid, verheffing en de tempels van nu.",
+    "Zou het kunnen dat de bebouwde omgeving veel meer invloed op ons heeft dan wij denken?"
   ],
   "similar": [
     {
       "n": 91,
-      "reason": "Ook architectuur en schoonheid: hoe steden en gebouwen laten zien wie wij zijn"
+      "reason": "Schoonheid, architectuur en hoe steden en gebouwen ons vormen, met Floris Alkemade"
     },
     {
       "n": 101,
-      "reason": "Herman Paul en het winkelcentrum als nieuwe kerk; ruimte en seculiere religie"
+      "reason": "Winkelcentrum als nieuwe kerk, met Herman Paul, over functionele ruimte en zingeving"
+    },
+    {
+      "n": 124,
+      "reason": "Zeecontainer en efficiëntie als nieuwe religie, economie en architectuur van de moderne stad"
     },
     {
       "n": 83,
-      "reason": "Kerk als groots kunstwerk, schoonheid en mysterie van kerkgebouwen"
+      "reason": "De kerk als grootste kunstwerk van de Westerse beschaving, met Willem Jan Otten"
     },
     {
-      "n": 52,
-      "reason": "Kathedralen, kloosters en de Middeleeuwen als culturele en religieuze erfenis"
-    },
-    {
-      "n": 177,
-      "reason": "Kloosters, monniken en zoektocht naar eenvoud in de moderne tijd"
+      "n": 260,
+      "reason": "Schoonheid van Nederland en de publieke ruimte aan de rafelranden"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

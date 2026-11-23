@@ -1,18 +1,23 @@
 {
   "episode": 314,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 111673,
+    "segments": 1157,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31217,
-    "output_tokens": 2412,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57450,
+    "output_tokens": 7491,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "God & geloof",
-    "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "Filosofie & ethiek",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Wouter van Noort",
@@ -29,249 +34,326 @@
   "people": [
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof van 'de dood van God'",
-      "start_seconds": 269,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Jean-Paul Sartre",
-      "note": "existentialist: je bent het product van je keuzes",
-      "start_seconds": 1230,
-      "wiki_checked": true,
-      "wiki_pageid": 871,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Paul_Sartre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Paul_Sartre_FP.JPG/250px-Jean-Paul_Sartre_FP.JPG"
+      "note": "Filosoof; 'de dood van God' en Zarathustra",
+      "start_seconds": 1500,
+      "mention_count": 9
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof: het ware, het goede en het schone",
-      "start_seconds": 1347,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Filosoof; ware, goede en schone als horizonten",
+      "start_seconds": 1310,
+      "mention_count": 3
     },
     {
       "name": "Aristoteles",
-      "note": "Grieks denker, overgenomen door christelijke denkers",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "note": "Filosoof; kosmos en orde, door christelijke denkers overgenomen",
+      "start_seconds": 1340,
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
-      "note": "christelijk denker die Grieks denken met christendom verbond",
-      "start_seconds": 1351,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; christelijk denken over orde en goed",
+      "start_seconds": 1350,
+      "mention_count": 2
     },
     {
       "name": "Thomas van Aquino",
-      "note": "christelijk denker",
-      "start_seconds": 1354,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "note": "Middeleeuws theoloog; fusie van christendom en Aristoteles",
+      "start_seconds": 1355,
+      "mention_count": 1
     },
     {
-      "name": "Zarathustra",
-      "note": "personage van Nietzsche dat de dood van God verkondigt",
-      "start_seconds": 1537,
-      "wiki_checked": true
+      "name": "Jean-Paul Sartre",
+      "note": "Filosoof; existentialisme, 'je bent het product van je keuzes'",
+      "start_seconds": 1218,
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "sprak aan het kruis Psalm 22 uit",
-      "start_seconds": 548,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Johan Huizinga",
+      "note": "Historicus; 'Geschonde wereld' over genade en verlossing",
+      "start_seconds": 3644,
+      "mention_count": 4
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psychoanalyticus; ontwikkelingspsychologische fasen",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Christian Smith",
+      "note": "Socioloog; 'Moral Believing Animals'",
+      "start_seconds": 3466,
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog; 'biografische oplossing voor systeemfouten'",
+      "start_seconds": 4232,
+      "mention_count": 1
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russisch president; voorbeeld van een dun verhaal van overheersing",
+      "start_seconds": 3577,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; voorbeeld van een dun verhaal",
+      "start_seconds": 3580,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Het verlaten individu",
       "author": "Esther van Fenema",
-      "note": "over individualisering en het verlies van gemeenschap",
-      "start_seconds": 518,
-      "volume_id": "yS-YEAAAQBAJ",
-      "canonical_title": "Het verlaten individu",
+      "note": "Betoogt dat de zingevingscrisis samenhangt met individualisering",
+      "start_seconds": 485,
+      "volume_id": "Zc1DzwEACAAJ",
+      "canonical_title": "Het verlaten individu. Waarom voelen we ons zo leeg?",
       "canonical_author": "Esther van Fenema",
-      "isbn13": "9789044651607",
-      "isbn10": "9044651609",
-      "thumbnail": "http://books.google.com/books/content?id=yS-YEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044651591",
+      "isbn10": "9044651595",
+      "thumbnail": ""
     },
     {
-      "title": "Zarathustra",
-      "author": "Friedrich Nietzsche",
-      "note": "scène waarin de dood van God op de markt wordt verkondigd",
-      "start_seconds": 1537,
-      "volume_id": "a9VxKgui0mEC",
-      "canonical_title": "Thus Spoke Zarathustra",
-      "canonical_author": "Friedrich Nietzsche",
-      "isbn13": "9780141904320",
-      "isbn10": "0141904321",
-      "thumbnail": "http://books.google.com/books/content?id=a9VxKgui0mEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Goede moed",
+      "author": "Tim Hofman",
+      "note": "Pleidooi voor een minder bang bestaan; openhartig over eigen angsten",
+      "start_seconds": 2800,
+      "volume_id": "Qpz8EAAAQBAJ",
+      "canonical_title": "Goede moed",
+      "canonical_author": "Tim Hofman",
+      "isbn13": "9789402323184",
+      "isbn10": "940232318X",
+      "thumbnail": "http://books.google.com/books/content?id=Qpz8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Geschonde wereld",
+      "author": "Johan Huizinga",
+      "note": "Postuum verschenen laatste boek uit 1944; pleit voor genade en verlossing",
+      "start_seconds": 3644
+    },
+    {
+      "title": "Moral Believing Animals",
+      "author": "Christian Smith",
+      "note": "Stelling dat mensen morele gelovige dieren zijn die op verhalen steunen",
+      "start_seconds": 3466,
+      "volume_id": "6mufwgEACAAJ",
+      "canonical_title": "Moral, Believing Animals",
+      "canonical_author": "Christian Smith",
+      "isbn13": "9780199849673",
+      "isbn10": "0199849676",
+      "thumbnail": ""
     },
     {
       "title": "De vrolijke wetenschap",
       "author": "Friedrich Nietzsche",
-      "note": "bron van de uitspraak 'God is dood'",
+      "note": "Bevat de scène over God is dood en de markt",
       "start_seconds": 1537,
-      "volume_id": "kbpzAAAAQBAJ",
+      "volume_id": "i2F1AAAACAAJ",
       "canonical_title": "De vrolijke wetenschap",
       "canonical_author": "Friedrich Nietzsche",
-      "isbn13": "9789029582506",
-      "isbn10": "9029582502",
-      "thumbnail": "http://books.google.com/books/content?id=kbpzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789029535342",
+      "isbn10": "9029535342",
+      "thumbnail": ""
+    },
+    {
+      "title": "Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "note": "Zarathustra verkondigt de dood van God op de markt",
+      "start_seconds": 1537,
+      "volume_id": "nSYKzgEACAAJ",
+      "canonical_title": "Thus Spoke Zarathustra",
+      "canonical_author": "Friedrich Nietzsche",
+      "isbn13": "9798556458345",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=nSYKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Nederland Therapieland",
+      "author": "Katie Vlaardingerbroek",
+      "note": "Geschreven tijdens haar eigen jaren in de GGZ",
+      "start_seconds": 4447,
+      "volume_id": "JV-SEQAAQBAJ",
+      "canonical_title": "Nederland Therapieland",
+      "canonical_author": "Katie Vlaardingerbroek",
+      "isbn13": "9789043543484",
+      "isbn10": "9043543489",
+      "thumbnail": "http://books.google.com/books/content?id=JV-SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Psalm 22",
-      "note": "'Mijn God, mijn God, waarom hebt Gij mij verlaten', geciteerd door Jezus aan het kruis",
+      "note": "Jezus citeert deze psalm aan het kruis: 'Mijn God, mijn God, waarom hebt gij mij verlaten?'; uitgangspunt van Esther van Fenema's boek",
       "start_seconds": 548
+    },
+    {
+      "ref": "Psalm 85",
+      "note": "Geciteerd door Stefan Paas bij Huizinga over vrede, barmhartigheid en gerechtigheid",
+      "start_seconds": 3622
     }
   ],
   "places": [
     "Utrecht",
     "Amsterdam",
-    "Vlaanderen",
+    "Groningen",
     "Congo",
-    "Nederland",
-    "Randstad"
+    "Vlaanderen",
+    "Randstad",
+    "Duitsland"
   ],
-  "summary_tldr": "Een best-of-aflevering over de zingevingscrisis: waarom voelt het moderne leven leeg terwijl we in een rijk en veilig land wonen? Psychiaters, filosofen en schrijvers wijzen op individualisering, het wegvallen van gemeenschappen en geloofskaders en de dood van God als oorzaken.",
+  "summary_tldr": "In deze best-of-aflevering verkennen presentator David Boogerd, theoloog Stefan Paas en een reeks psychiaters, filosofen en andere gasten waarom het moderne leven voor velen leeg aanvoelt. Zij zien een zingevingscrisis ontstaan door het wegvallen van gemeenschappen, religieuze kaders en gedeelde verhalen, versterkt door individualisering, keuzeplicht en een economie die inspeelt op leegte. De vraag die blijft hangen is welk nieuw, gelaagd groot verhaal dit gat kan vullen.",
   "summary_points": [
-    "Veel psychische klachten blijken onderliggend een zingevingsprobleem.",
-    "Dirk de Wachter vraagt of we met de afbraak van religie het kind met het badwater hebben weggegooid.",
-    "Esther van Fenema beschrijft het 'verlaten individu' dat zichzelf tot God heeft gemaakt en gevangen zit in consumeren en genieten.",
-    "Menno de Bree noemt 'volg je hart' emotionele verwaarlozing, omdat de wil eerst gevormd moet worden.",
-    "Meer keuzevrijheid, minder zekerheden en minder criteria maken ons tot architect van ons eigen leven.",
-    "Volgens Nietzsche leven we nog christelijk terwijl het anker van waarheid, goedheid en schoonheid is weggevallen.",
-    "Burn-out wordt een existentieel probleem: falen op werk voelt als falen als mens.",
-    "Doortje Smithuijsen ziet in zuurdesemrijen en meme-cultuur een zoektocht naar verbinding en ironie als schild tegen nihilisme.",
-    "Platforms verdienen geld aan ons gevoel van zinloosheid en bieden kortstondige bevestiging."
+    "Een kwart van de Nederlanders kampt met psychische klachten; zingeving wordt door psychiaters steeds vaker als kern van het lijden gezien",
+    "Dirk de Wachter ziet de leegte en zinloosheid die in zijn spreekkamer opduiken ook terug in de hele samenleving",
+    "Esther van Fenema beschrijft het 'verlaten individu' dat zichzelf tot middelpunt maakt en door het wegvallen van de gemeenschap kwetsbaar is",
+    "Menno de Bree en Tim Hofman zien de dood van God als oorzaak van druk om zelf de architect van je leven te zijn; 'volg je hart' is volgens hen geen goed advies",
+    "Keuzevrijheid zonder kompas leidt tot keuzeplicht; falen wordt een existentieel probleem en niet alleen een sociaal of economisch",
+    "Doortje Smithuijsen en Dirk de Wachter zien ironie en meme-cultuur als schild tegen nihilisme en als zoektocht naar verbinding",
+    "Kiza Magendane vergelijkt zijn rust als vluchtelingenjongen met de spirituele armoede van zijn huidige succes",
+    "Rogier Hoenders en Tim Hofman linken zingeving aan gezondheid: een gevoel van doel hangt samen met een langer leven",
+    "Stefan Paas pleit voor een moreel kader dat via consensus ontstaat, zonder dat macht of kapitalisme de waarde van de mens bepaalt",
+    "Beatrice de Graaf en Stefan Paas zoeken naar een groot verhaal gebaseerd op vrede, recht, verzoening en vreugde, met verwijzing naar Huizinga",
+    "Katie Vlaardingerbroek roept op om zichzelf niet als abnormaal te zien en om kleine verbindingen te zoeken"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding op de zingevingscrisis",
-      "summary": "David introduceert het thema en de gasten, met Wouter van Noort over een crisis van betekenisgeving."
+      "title": "Intro: het kind met het badwater",
+      "summary": "Boogerd opent met de vraag of we bij de secularisatie iets belangrijks zijn kwijtgeraakt, en Tim Hofman noemt het existentiële probleem."
     },
     {
-      "start_seconds": 208,
-      "title": "Dirk de Wachter: leegte in de spreekkamer",
-      "summary": "De Wachter ziet zinloosheid als rode draad en pleit ervoor na te denken over de plaats van het religieuze."
+      "start_seconds": 143,
+      "title": "De zingevingscrisis volgens Wouter van Noort",
+      "summary": "Stefan Paas en de NRC-journalist beschrijven het snelle wegvallen van betekenisstructuren zonder alternatief."
+    },
+    {
+      "start_seconds": 228,
+      "title": "Dirk de Wachter over leegte en religie",
+      "summary": "De psychiater ziet zingevingsproblemen achter bijna alle klachten en pleit voor herbezinning op het religieuze en het niet-weten."
     },
     {
       "start_seconds": 518,
-      "title": "Esther van Fenema: het verlaten individu",
-      "summary": "Over individualisering, de Holocaust als trauma, commercie en het wegvallen van gemeenschap."
+      "title": "Esther van Fenema en het verlaten individu",
+      "summary": "Individualisering, commercie en het verlies van de gemeenschap maken de mens kwetsbaar en leeg."
     },
     {
       "start_seconds": 930,
-      "title": "Menno de Bree: volg je hart en de dood van God",
-      "summary": "Keuzeplicht, existentialisme en Nietzsches dood van God als filosofische kern van de crisis."
+      "title": "Menno de Bree: de dood van God en 'volg je hart'",
+      "summary": "Het advies om je hart te volgen wordt gezien als emotionele verwaarlozing en als verdienmodel."
+    },
+    {
+      "start_seconds": 1290,
+      "title": "Tim Hofman: van Plato tot burn-out",
+      "summary": "Via de Griekse kosmos en Nietzsche legt Hofman uit waarom het wegvallen van horizonten leidt tot druk en existentiële schaamte."
     },
     {
       "start_seconds": 1763,
-      "title": "Burn-out als existentieel probleem",
-      "summary": "Zonder God wordt mislukken een persoonlijk, existentieel falen."
-    },
-    {
-      "start_seconds": 1770,
-      "title": "Doortje Smithuijsen: zuurdesem en nihilisme",
-      "summary": "Rituelen als Row Cycle en de zuurdesemrij, ironie als schild en platforms die op zinloosheid verdienen."
+      "title": "Zuurdesem, ironie en nihilisme",
+      "summary": "Doortje Smithuijsen en Dirk de Wachter zien in de rij bij de bakker een zoektocht naar verbinding en een ironisch schild."
     },
     {
       "start_seconds": 2540,
-      "title": "Kiza Magendane: spirituele armoede",
-      "summary": "De ervaring van een Congolese vluchteling die ondanks succes leegte voelt."
+      "title": "Kiza Magendane: rust en spirituele armoede",
+      "summary": "De vluchteling uit Congo herinnert zich zijn innerlijke rust en mist die nu, ondanks succes."
+    },
+    {
+      "start_seconds": 3324,
+      "title": "Groot verhaal: Huizinga, vrede en verzoening",
+      "summary": "Beatrice de Graaf en Stefan Paas zoeken een alternatief voor dunne verhalen van macht en overheersing."
+    },
+    {
+      "start_seconds": 3906,
+      "title": "Rogier Hoenders: zingeving als medische noodzaak",
+      "summary": "Dopamine versus betekenisvolle beloning, en het belang van zingeving voor gezondheid en levensduur."
+    },
+    {
+      "start_seconds": 4407,
+      "title": "Slot met Katie Vlaardingerbroek",
+      "summary": "Een troostrijke boodschap: psychisch lijden is een normale reactie op abnormale omstandigheden en niemand staat er alleen voor."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 249,
+      "start_seconds": 268,
       "speaker": "Dirk de Wachter",
-      "text": "Zou het kunnen dat we het kind met het badwater weggooien?",
-      "note": "Kernvraag van de aflevering, gesteld door een psychiater."
+      "text": "Ik kijk rond, ik sluit de deur van mijn consultatie en ik ga op straat en ik zie dat hier overal.",
+      "note": "Een psychiater die het individuele kenmerk van leegte als maatschappelijk kenmerk herkent."
     },
     {
-      "start_seconds": 1254,
-      "speaker": "Menno de Bree",
-      "text": "Je bent niet alleen de bouwer, maar ook de architect van je leven geworden.",
-      "note": "Treffend beeld met Lego voor de keuzeplicht."
+      "start_seconds": 745,
+      "speaker": "Esther van Fenema",
+      "text": "Het individu zoekt het om zelf God te zijn; dat doet ons geen goed.",
+      "note": "Scherpe diagnose van de moderne mens als moederziel alleen."
     },
     {
-      "start_seconds": 1739,
-      "speaker": "Menno de Bree",
-      "text": "Met een burn-out thuis zitten is niet alleen een sociaal probleem, maar ook een existentieel probleem.",
-      "note": "Verbindt mentale klachten met de dood van God."
+      "start_seconds": 1212,
+      "speaker": "Tim Hofman",
+      "text": "Je bent wat je kiest.",
+      "note": "Existentialistische kern: zowel succes als falen komt volledig op jouw conto."
     },
     {
-      "start_seconds": 2216,
-      "speaker": "Doortje Smithuijsen",
-      "text": "Bijna alles wat we doen is een poging om de totale zinloosheid van het leven te ontvluchten.",
-      "note": "Scherpe, filosofische uitspraak midden in een luchtig gesprek."
+      "start_seconds": 1727,
+      "speaker": "Tim Hofman",
+      "text": "Je hebt niet alleen een sociaal of economisch probleem, maar daarbovenop ook een existentieel probleem.",
+      "note": "Werkloosheid of burn-out wordt zo een kwestie van falen als mens."
     },
     {
-      "start_seconds": 2442,
-      "speaker": "Doortje Smithuijsen",
-      "text": "Hoe nihilistischer, hoe kwetsbaarder voor alles wat kortstondige bevestiging biedt.",
-      "note": "Koppelt nihilisme aan social media en consumptie."
+      "start_seconds": 2455,
+      "speaker": "Dirk de Wachter",
+      "text": "Ik geloof niet echt dat mijn bestaan heel veel zin heeft; mijn familie en vrienden geven mijn leven waarde.",
+      "note": "Eerlijke erkenning van nihilisme gecombineerd met relationele waarde."
+    },
+    {
+      "start_seconds": 4505,
+      "speaker": "Katie Vlaardingerbroek",
+      "text": "Je bent niet abnormaal, je hebt een normale reactie op abnormale omstandigheden.",
+      "note": "Een verhaal dat schuld van het individu wegneemt en het lijden in de context plaatst."
     }
   ],
   "keywords": [
     "zingevingscrisis",
-    "dood van God",
-    "Nietzsche",
-    "individualisering",
-    "nihilisme",
     "secularisatie",
-    "verbinding",
-    "burn-out",
-    "eenzaamheid",
-    "existentialisme",
-    "gemeenschap"
+    "individualisering",
+    "dood van God",
+    "nihilisme",
+    "keuzeplicht",
+    "groot verhaal",
+    "spirituele armoede",
+    "verzoening",
+    "burn-out"
   ],
-  "quotes": [],
+  "quotes": [
+    "Waarom leef ik eigenlijk? Waar doe ik het allemaal voor? En wanneer is mijn leven geslaagd?",
+    "‘Volg gewoon je hart’ kan volgens Menno de Bree een vorm van emotionele verwaarlozing zijn.",
+    "Het ‘verlaten individu’ dat zichzelf tot middelpunt van het universum heeft gemaakt."
+  ],
   "similar": [
     {
-      "n": 212,
-      "reason": "Menno de Bree over de dood van God en de impact op jongeren; zingevingscrisis."
-    },
-    {
-      "n": 287,
-      "reason": "Waarom jongeren vastlopen in individualistische tijd; zingeving, eenzaamheid en psyche."
-    },
-    {
-      "n": 278,
-      "reason": "Katie Vlaardingerbroek over therapieland en zingeving; welvarend maar toch ongelukkig."
+      "n": 111,
+      "reason": "Zelfde thema's: individualisering en leegte, met psychiater Esther van Fenema als gast"
     },
     {
       "n": 249,
-      "reason": "Rogier Hoenders over mentale epidemie in een rijk land."
+      "reason": "Psychiater Rogier Hoenders over een mentale epidemie en zingevingsproblematiek"
     },
     {
-      "n": 33,
-      "reason": "Dirk de Wachter over geluk, geloof en het goede leven in de moderne samenleving."
+      "n": 278,
+      "reason": "Therapiecultuur en leegte, met Katie Vlaardingerbroek, die ook in #314 te gast is"
+    },
+    {
+      "n": 287,
+      "reason": "Individualisme en eenzaamheid van jongeren, met zingeving en psyche als kernthema"
+    },
+    {
+      "n": 294,
+      "reason": "Nihilisme en teleurstelling van de seculiere generatie, met Doortje Smithuijsen als gast"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

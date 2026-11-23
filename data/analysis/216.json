@@ -1,71 +1,89 @@
 {
   "episode": 216,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116783,
+    "segments": 1028,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30768,
-    "output_tokens": 2316,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59455,
+    "output_tokens": 3009,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Economie & geld",
     "Samenleving & migratie",
-    "Politiek",
-    "Zingeving & psyche"
+    "Economie & geld",
+    "Gezin & relaties",
+    "Bijbel & Jezus"
   ],
   "guests": [
-    "Tim 's Jongers"
+    "Tim 'S Jongers"
   ],
   "people": [
     {
-      "name": "Tim 's Jongers",
-      "note": "schrijver, politicoloog en directeur van de Wiardi Beckman Stichting; groeide op in armoede",
-      "start_seconds": 49,
-      "wiki_checked": true,
-      "wiki_pageid": 5857930,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_%27S_Jongers"
+      "name": "Tim 'S Jongers",
+      "note": "Gast; schrijver en politicoloog, auteur van 'Armoede uitgelegd aan mensen met geld'",
+      "start_seconds": 5,
+      "mention_count": 30
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Vaste gast; theoloog",
+      "start_seconds": 233,
+      "mention_count": 25
+    },
+    {
+      "name": "Josse de Voogt",
+      "note": "Politicus/auteur, besproken over de SP en de analyse van afhakers",
+      "start_seconds": 2135,
+      "mention_count": 3
+    },
+    {
+      "name": "René Kuperus",
+      "note": "Medeauteur van 'Atlas van Afgehakt Nederland'",
+      "start_seconds": 2446,
+      "mention_count": 1
     },
     {
       "name": "Tessa Rozenboom",
-      "note": "hoogleraar gezondheid, schreef over de Hongerwinter en epigenetica",
-      "start_seconds": 1271,
-      "wiki_checked": true
+      "note": "Hoogleraar gezondheid, auteur van 'De Hongerwinter'",
+      "start_seconds": 1281,
+      "mention_count": 1
     },
     {
       "name": "Erik Steegers",
-      "note": "hoogleraar; stelt dat postcode belangrijker is dan DNA voor gezondheid",
+      "note": "Hoogleraar, over postcode en gezondheid",
       "start_seconds": 1335,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Albert-Jan Kruiter",
+      "note": "Verbonden aan het Instituut voor Publieke Waarden",
+      "start_seconds": 3550,
+      "mention_count": 1
     },
     {
       "name": "Theo van Gogh",
-      "note": "genoemd als voorbeeld van een bewust sjofele verschijning",
-      "start_seconds": 448,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
+      "note": "Genoemd als stijlvoorbeeld van kledingkeuze",
+      "start_seconds": 440,
+      "mention_count": 1
     },
     {
-      "name": "Pieter Omtzigt",
-      "note": "politicus die bestaanszekerheid op de agenda zette",
-      "start_seconds": 2216,
-      "wiki_checked": true,
-      "wiki_pageid": 308004,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_Omtzigt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Omtzigt%2C_De_Balie%2C_2021.png/250px-Pieter_Omtzigt%2C_De_Balie%2C_2021.png"
+      "name": "Geert Wilders",
+      "note": "Politicus (PVV); besproken als bron van frames",
+      "start_seconds": 2776,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Armoede uitgelegd aan mensen met geld",
-      "author": "Tim 's Jongers",
-      "note": "boek waarin mythes over armoede worden ontkracht",
-      "start_seconds": 49,
+      "author": "Tim 'S Jongers",
+      "note": "Centraal boek van de gast, uitgegeven via De Correspondent",
+      "start_seconds": 9,
       "volume_id": "J4aw0AEACAAJ",
       "canonical_title": "Armoede uitgelegd aan mensen met geld",
       "canonical_author": "Tim 'S. Jongers",
@@ -74,10 +92,22 @@
       "thumbnail": ""
     },
     {
+      "title": "Beledigende broccoli",
+      "author": "Tim 'S Jongers",
+      "note": "Vorig boek van de gast, terloops genoemd",
+      "start_seconds": 246,
+      "volume_id": "dXNHzwEACAAJ",
+      "canonical_title": "Beledigende broccoli: Over de ervaringskennis van kwetsbare mensen",
+      "canonical_author": "Tim 'S Jongers",
+      "isbn13": "9789461645623",
+      "isbn10": "9461645627",
+      "thumbnail": ""
+    },
+    {
       "title": "De Hongerwinter",
       "author": "Tessa Rozenboom",
-      "note": "over de erfelijke effecten van honger via epigenetica",
-      "start_seconds": 1271,
+      "note": "Besproken over epigenetische effecten van de hongerwinter",
+      "start_seconds": 1281,
       "volume_id": "vhfjQgAACAAJ",
       "canonical_title": "Baby's van de Hongerwinter: de onvermoede erfenis van ondervoeding",
       "canonical_author": "Tessa Jacoba Roseboom, Ronald van de Krol",
@@ -86,137 +116,168 @@
       "thumbnail": "http://books.google.com/books/content?id=vhfjQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Micha 6",
+      "note": "Profeet Micha; armoede en onrecht als centrale thema in profetische teksten",
+      "start_seconds": 4140
+    },
+    {
+      "ref": "Lukas 16",
+      "note": "Gelijkenis van de rijke man en Lazarus",
+      "start_seconds": 4260
+    },
+    {
+      "ref": "Marcus 10:25",
+      "note": "Kameel door het oog van een naald; rijkdom en Koninkrijk",
+      "start_seconds": 4380
+    },
+    {
+      "ref": "Jakobus 2",
+      "note": "Brief van Jacobus over geloof zonder daden tegenover armen",
+      "start_seconds": 4420
+    }
+  ],
   "places": [
     "Den Haag",
     "Antwerpen",
+    "Rijswijk",
+    "Groningen",
     "Rotterdam",
-    "Amsterdam",
-    "België",
-    "Nederland",
-    "Leiden",
     "Charlois",
-    "Groningen"
+    "Amsterdam",
+    "Leiden",
+    "Voorburg",
+    "Urk",
+    "Renswoude",
+    "Scherpenzeel",
+    "Veenendaal",
+    "Albanië",
+    "Engeland"
   ],
-  "summary_tldr": "Tim 's Jongers, zelf opgegroeid in armoede en nu directeur van de Wiardi Beckman Stichting, legt uit hoe armoede werkt en hoe mensen met geld er verkeerd over denken. Hij bespreekt mythes, de diepe gevolgen voor gezondheid en identiteit, het gebrek aan politieke vertegenwoordiging en de mensonwaardigheid in het beleid. Stefan Paas stelt vragen over cultuurverschillen en oplosbaarheid.",
+  "summary_tldr": "Tim 'S Jongers, zelf opgegroeid in armoede, legt uit hoe armoede diep ingrijpt op lichaam, geest, netwerk en kansen, en waarom mensen met geld een verkeerd beeld hebben van arme mensen. Het gesprek behandelt de gevolgen van beleid, het meritocratisch geloof en het gebrek aan vertegenwoordiging van de onderste groepen. Stefan Paas plaatst het thema in een religieuze traditie waarin zorg voor armen centraal staat.",
   "summary_points": [
-    "Mensen met geld begrijpen armoede vaak verkeerd en leggen hun eigen norm van het goede leven op.",
-    "Kantoorcarnaval: de cultuurschok en assimilatiedruk bij sociale stijging.",
-    "Armoede is een antropologisch verschil tussen werelden die vaak maar 10 minuten fietsen uit elkaar liggen.",
-    "Het verschil in gezonde levensjaren tussen de top en de onderkant is 25 jaar.",
-    "Armoede kan letterlijk lichamelijk doorwerken, via deprivation dwarfism en epigenetica.",
-    "Een frikandel is op korte termijn een rationele keuze bij weinig geld en veel stress.",
-    "Bezuinigingen zoals op mondzorg en de schuldenindustrie kosten de samenleving uiteindelijk meer.",
-    "Kinderarmoede bestaat niet zonder ouderarmoede; pak de oorzaak aan.",
-    "De onderste 15% wordt door niemand politiek vertegenwoordigd.",
-    "Stijgers moeten vaak hun familie achterlaten en worden gezien als indringer of verrader."
+    "Armoede is volgens Tim 'S Jongers een thema dat maatschappelijk opnieuw ontdekt wordt, maar de cijfers blijven stabiel hoog.",
+    "Mensen met geld begrijpen armoede slecht; de kern is de mate van ontspanning en risico's kunnen nemen.",
+    "Armoede heeft fysieke en generationele effecten, zoals een kleinere lengte en epigenetische sporen.",
+    "Beleid en bezuinigingen zoals de mondzorg leiden tot hogere maatschappelijke kosten.",
+    "Het meritocratisch geloof negeert de condities waaronder mensen opgroeien.",
+    "De onderste 15% van de samenleving is volgens de gast nauwelijks vertegenwoordigd.",
+    "Bubbels en ontzuiling zorgen ervoor dat rijk en arm elkaar nauwelijks ontmoeten.",
+    "Oplossingen zoals een gatekeeper of buddy-systeem kunnen mensen ademruimte geven.",
+    "Vanuit de Bijbel en andere geloofstradities is zorg voor armen een fundamentele plicht, aldus Stefan Paas."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kantoorcarnaval en klassenverschillen",
-      "summary": "Tim vertelt over zijn eerste kantoorbaan, kledingcodes en de verschillen in gedrag tussen hoog- en laagopgeleiden."
+      "title": "Inleiding en kantoorcarnaval",
+      "summary": "Tim 'S Jongers beschrijft zijn overgang van horeca naar kantoorwerk en de sociale codes die hij daar tegenkwam."
     },
     {
-      "start_seconds": 483,
-      "title": "Waarom armoede nu leeft",
-      "summary": "Over herontdekking van armoede, mensonwaardigheid in beleid, de stappenteller-gemeente, huisdieren en armoedeporno."
+      "start_seconds": 300,
+      "title": "Waarom armoede nu urgent is",
+      "summary": "Bespreking van de herontdekking van armoede in het publieke debat en de kritiek op armoedeporno en onderzoeken."
     },
     {
-      "start_seconds": 783,
-      "title": "Twee werelden",
-      "summary": "Het antropologische verschil tussen werelden, gezondheidsverschillen en het gebrek aan ontspannenheid en risico's nemen."
+      "start_seconds": 840,
+      "title": "Gezondheid, levensverwachting en gedrag",
+      "summary": "Verschillen in gezondheid, frikandellen als rationele keuze, en de norm van het goede leven die van bovenaf wordt opgelegd."
     },
     {
-      "start_seconds": 1000,
-      "title": "Frikandellen en rationele keuzes",
-      "summary": "Waarom gezondheidsinterventies falen en een frikandel op korte termijn rationeel is."
+      "start_seconds": 1560,
+      "title": "Diepe armoede en generationele sporen",
+      "summary": "Persoonlijke ervaringen van de gast, lichamelijke groei, epigenetica en de vroeggeboorte in Charlois."
     },
     {
-      "start_seconds": 1160,
-      "title": "Armoede in het lichaam",
-      "summary": "Deprivation dwarfism, epigenetica, de Hongerwinter en de postcode als gezondheidsfactor."
+      "start_seconds": 2100,
+      "title": "Vertegenwoordiging en politiek",
+      "summary": "Discussie over wie de onderste groepen vertegenwoordigt, afhaken, en het falen van marktwerking in de zorg."
     },
     {
-      "start_seconds": 1530,
-      "title": "Opgroeien in armoede en de prijs van stijgen",
-      "summary": "Persoonlijke ervaringen, schaamte, vervreemding van familie en de verhuizing naar Nederland."
+      "start_seconds": 3000,
+      "title": "Meritocratie, woordenschat en oplossingen",
+      "summary": "Kritiek op het meritocratisch geloof, de woordenschatkloof en voorstellen zoals een bijzondere overheid en buddy-systemen."
     },
     {
-      "start_seconds": 1655,
-      "title": "Kosten, kinderarmoede en politiek",
-      "summary": "De maatschappelijke kosten van bezuinigingen, ouderarmoede en het gebrek aan vertegenwoordiging van de onderste 15%."
+      "start_seconds": 3900,
+      "title": "Geloof, samenleving en Bijbelse perspectieven",
+      "summary": "Stefan Paas duidt de profetische en evangelische traditie van zorg voor armen en het belang van samenleven en ontmoeting."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 10,
-      "speaker": "Tim 's Jongers",
-      "text": "Wat wij eigenlijk zeggen is: zorg dat je hoogopgeleid bent, en zorg dan net als al die andere hoogopgeleiden belachelijk goed voor jezelf.",
-      "note": "Scherpe kritiek op hoe we over hard werken denken."
+      "start_seconds": 1000,
+      "speaker": "Tim 'S Jongers",
+      "text": "Die 2 werelden liggen vaak maar 10 minuten fietsen uit elkaar.",
+      "note": "Scherpe illustratie van de sociale kloof die binnen één stad bestaat."
     },
     {
-      "start_seconds": 408,
-      "speaker": "Tim 's Jongers",
-      "text": "Je krijgt een boos mailtje, niet over die armoede, maar over je t-shirt.",
-      "note": "Wrang voorbeeld van waar de aandacht naartoe gaat."
-    },
-    {
-      "start_seconds": 1345,
-      "speaker": "Tim 's Jongers",
+      "start_seconds": 1320,
+      "speaker": "Tim 'S Jongers",
       "text": "Voor je gezondheid is je postcode bijna belangrijker geworden dan je DNA.",
-      "note": "Verrassend inzicht over armoede en gezondheid."
+      "note": "Verrassende stelling over de impact van de omgeving op gezondheid."
     },
     {
-      "start_seconds": 2197,
-      "speaker": "Tim 's Jongers",
-      "text": "De schaamte viel gewoon weg.",
-      "note": "Emotioneel moment over zijn verhuizing naar Nederland."
+      "start_seconds": 2450,
+      "speaker": "Tim 'S Jongers",
+      "text": "Die hebben wel macht over de mensen, maar die hebben geen zicht op de mensen.",
+      "note": "Kritisch inzicht in de elite die beleid maakt zonder contact met de doelgroep."
     },
     {
-      "start_seconds": 1005,
-      "speaker": "Tim 's Jongers",
-      "text": "Als je nou een hond krijgt, wordt je minder eenzaam, rook je minder en val je 15 kilo af.",
-      "note": "Contra-intuïtief voorbeeld dat een hond veel problemen oplost."
+      "start_seconds": 3130,
+      "speaker": "Tim 'S Jongers",
+      "text": "Wij kijken niet langer naar de mens, wij kijken naar de problemen en het gedrag van de mensen.",
+      "note": "Pleidooi voor menswaardigheid boven probleemgerichtheid."
+    },
+    {
+      "start_seconds": 4090,
+      "speaker": "Stefan Paas",
+      "text": "Als er mensen op straat moeten leven, zonder bed, brood of dak boven hun hoofd, dan faalt de politieke gemeenschap.",
+      "note": "Theologisch-politieke maatstaf voor de kwaliteit van een samenleving."
     }
   ],
   "keywords": [
     "armoede",
     "bestaanszekerheid",
-    "Wiardi Beckman Stichting",
-    "kantoorcarnaval",
-    "epigenetica",
-    "Hongerwinter",
-    "schaamte",
-    "armoedeporno",
+    "meritocratie",
     "mensonwaardigheid",
-    "vertegenwoordiging",
-    "schulden",
-    "sociale stijging"
+    "klassenverschil",
+    "sociale context",
+    "epigenetica",
+    "ontzuiling",
+    "zorg voor armen",
+    "profetie",
+    "Micha",
+    "gatekeeper",
+    "vertegenwoordiging"
   ],
   "quotes": [
-    "Hoe mensen met geld over armoede denken, klopt van geen kant."
+    "Hoe mensen met geld over armoede denken, klopt van geen kant.",
+    "Wat je geen aandacht geeft, groeit niet.",
+    "Wij kijken niet langer naar de mens, wij kijken naar de problemen en het gedrag van de mensen."
   ],
   "similar": [
     {
-      "n": 126,
-      "reason": "Sander Schimmelpenninck over de kloof, moraal en samenleving; economie en ongelijkheid."
-    },
-    {
       "n": 174,
-      "reason": "Economische strijd achter onvrede in de samenleving, met focus op politiek en geld."
+      "reason": "Economische en culturele onvrede in de samenleving, met Paul Schenderling; sluit aan bij armoede en onvrede"
     },
     {
-      "n": 303,
-      "reason": "Pieter Omtzigt over politiek, land zonder ziel; gedeelde figuur en politieke vertegenwoordiging."
+      "n": 96,
+      "reason": "Middenklasse wordt egoïstischer; sociale kloof, economie en samenleving centraal"
     },
     {
-      "n": 267,
-      "reason": "Politiek heeft geen antwoord op onbehagen; middenklasse, democratie en vertegenwoordiging."
+      "n": 323,
+      "reason": "Franciscus van Assisi over geld, macht en zorg voor armen; religieuze traditie"
     },
     {
-      "n": 301,
-      "reason": "Elite losgezongen van het volk; politieke vertegenwoordiging en mensbeeld."
+      "n": 235,
+      "reason": "Naastenliefde versus eigenbelang, met Paul Schenderling; sociale solidariteit en politiek"
+    },
+    {
+      "n": 268,
+      "reason": "Economie, Europa en samenleving; Schenderling over economische keuzes en hun gevolgen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

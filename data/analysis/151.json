@@ -1,17 +1,22 @@
 {
   "episode": 151,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104862,
+    "segments": 1412,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32076,
-    "output_tokens": 2436,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55720,
+    "output_tokens": 6338,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geopolitiek & oorlog",
-    "Geschiedenis",
     "God & geloof",
+    "Geschiedenis",
+    "Politiek",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -20,244 +25,231 @@
   "people": [
     {
       "name": "Mahatma Gandhi",
-      "note": "Indiase onafhankelijkheidsstrijder, omstreden vanwege zijn houding ten opzichte van kasten; vermoord door een hindoe-nationalist",
-      "start_seconds": 764,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
+      "note": "Indiase onafhankelijkheidsstrijder; bekend om geweldloos verzet, omstreden om zijn kasten- en seksuele opvattingen",
+      "start_seconds": 762,
+      "mention_count": 14
+    },
+    {
+      "name": "Narendra Modi",
+      "note": "Huidige Indiase premier, leider van de hindoe-nationalistische BJP",
+      "start_seconds": 2448,
+      "mention_count": 4
     },
     {
       "name": "Boeddha",
-      "note": "Siddhartha Gautama, stichter van het boeddhisme, geboren in het Shaki-rijk",
+      "note": "Stichter van het boeddhisme, geboren in het Shakirijk tussen India en Nepal",
       "start_seconds": 920,
-      "wiki_checked": true,
-      "wiki_pageid": 110806,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gautama_Boeddha",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG/250px-Bouddha_Bh%C3%BBmisparsha-Mudra_2.JPG"
+      "mention_count": 3
     },
     {
-      "name": "Rishi Sunak",
-      "note": "Britse premier van Indiase afkomst",
-      "start_seconds": 717,
-      "wiki_checked": true,
-      "wiki_pageid": 5322433,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rishi_Sunak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg/250px-Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg"
+      "name": "Thomas",
+      "note": "Apostel van Jezus; volgens overlevering in 52 n.Chr. naar India gekomen en stichter van het christendom aldaar",
+      "start_seconds": 2052,
+      "mention_count": 5
     },
     {
-      "name": "Xi Jinping",
-      "note": "Chinese president, genoemd als mogelijke bemiddelaar",
-      "start_seconds": 526,
-      "wiki_checked": true,
-      "wiki_pageid": 2193479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Xi_Jinping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg/250px-Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg"
+      "name": "Jawaharlal Nehru",
+      "note": "Eerste premier van India; geïnspireerd door het socialisme",
+      "start_seconds": 2258,
+      "mention_count": 1
     },
     {
-      "name": "Recep Tayyip Erdoğan",
-      "note": "Turkse president, genoemd als mogelijke bemiddelaar",
-      "start_seconds": 526,
-      "wiki_checked": true,
-      "wiki_pageid": 114344,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/250px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "Burgerrechtenleider die Gandhi bewonderde",
-      "start_seconds": 812,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
-      "name": "Nelson Mandela",
-      "note": "Voorbeeld van vreedzaam verzet",
-      "start_seconds": 812,
-      "wiki_checked": true,
-      "wiki_pageid": 1179,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nelson_Mandela",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nelson_Mandela-2008_%28edit%29.jpg/250px-Nelson_Mandela-2008_%28edit%29.jpg"
+      "name": "Vinayak Damodar Savarkar",
+      "note": "Hindoe-nationalistische denker die in 1925 de definitie van 'Hindoe' formuleerde",
+      "start_seconds": 2290,
+      "mention_count": 2
     },
     {
       "name": "Ashoka",
-      "note": "Boeddhistische keizer, rond 325 v.Chr.",
-      "start_seconds": 1893,
-      "wiki_checked": true,
-      "wiki_pageid": 141070,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ashoka",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg/250px-Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg"
-    },
-    {
-      "name": "Thomas de Apostel",
-      "note": "Discipel van Jezus, volgens de overlevering rond 52 n.Chr. in India aangekomen",
-      "start_seconds": 2054,
-      "wiki_checked": true,
-      "wiki_pageid": 1264944,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tomas_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Caravaggio_incredulity.jpg/250px-Caravaggio_incredulity.jpg"
+      "note": "Boeddhistische keizer van het Maurya-rijk, eerste grote heerser van het subcontinent",
+      "start_seconds": 1896,
+      "mention_count": 1
     },
     {
       "name": "Christoffel Columbus",
-      "note": "Ontdekkingsreiziger, genoemd bij de Europese zeevaart",
-      "start_seconds": 1939,
-      "wiki_checked": true,
-      "wiki_pageid": 5600,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christoffel_Columbus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Christopher_Columbus.PNG/250px-Christopher_Columbus.PNG"
+      "note": "Ontdekkingsreiziger; zijn reis leidde indirect tot de zoektocht van Europeanen naar India",
+      "start_seconds": 1929,
+      "mention_count": 1
+    },
+    {
+      "name": "Rishi Sunak",
+      "note": "Britse premier van Indiase komaf",
+      "start_seconds": 717,
+      "mention_count": 1
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese president, genoemd als mogelijke bemiddelaar in de oorlog in Oekraïne",
+      "start_seconds": 518,
+      "mention_count": 1
+    },
+    {
+      "name": "Recep Tayyip Erdogan",
+      "note": "Turkse president, genoemd als mogelijke bemiddelaar in de oorlog in Oekraïne",
+      "start_seconds": 518,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaanse burgerrechtenleider die Gandhi als voorbeeld noemde",
+      "start_seconds": 809,
+      "mention_count": 1
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaanse vrijheidsstrijder, genoemd als vergelijkbare held",
+      "start_seconds": 809,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "De Handelingen van Thomas",
+      "author": "",
+      "note": "Apocrief boek dat de zendingsreis van apostel Thomas naar India beschrijft",
+      "start_seconds": 2168,
+      "volume_id": "soZDbwAACAAJ",
+      "canonical_title": "De handelingen van Thomas",
+      "canonical_author": "Rob van der Linden",
+      "isbn13": "9789021438887",
+      "isbn10": "9021438887",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "India",
-    "China",
     "Pakistan",
     "Punjab",
+    "Manipur",
+    "Ayodhya",
     "Bangladesh",
-    "Himalaya",
     "Nepal",
+    "Zuid-Afrika",
+    "China",
     "Rusland",
     "Oekraïne",
-    "Afrika",
-    "Canada",
-    "Australië",
-    "Plassey",
-    "Zuid-Afrika",
-    "Verenigd Koninkrijk"
+    "Engeland",
+    "Tibet"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en Indiakenner Anil Kumar bespreken India dat China heeft ingehaald als meest bevolkte land. Ze behandelen de geopolitieke positie, de economische groei, de koloniale geschiedenis en de religieuze diversiteit, van hindoeïsme en boeddhisme tot het oeroude christendom. Anil vertelt ook over zijn eigen Indiase en Twentse achtergrond.",
+  "summary_tldr": "In deze aflevering bespreken David Boogerd, Stefan Paas en Indiakenner Anil Kumar waarom India, met ruim 1,4 miljard inwoners en een snelgroeiende economie, dé supermacht van de toekomst kan worden. Het gesprek gaat ook over de religieuze diversiteit van het land, de koloniale geschiedenis, de opkomst van hindoe-nationalisme en de oeroude christelijke traditie die volgens de overlevering door apostel Thomas is gesticht. Daarnaast komen het kastenstelsel en de druk op minderheden aan bod.",
   "summary_points": [
-    "India heeft China ingehaald met ruim 1,4 miljard inwoners en een zeer jonge bevolking",
-    "Het land kampt met hitte, luchtvervuiling en een stijgende zeespiegel",
-    "India voert een voorzichtige geopolitiek tussen China, Rusland en Pakistan en richt zich vooral op economie en culturele invloed",
-    "De Indiase diaspora van 60 tot 70 miljoen mensen is een belangrijk instrument van invloed",
-    "Gandhi wordt in India veel genuanceerder gezien dan in het Westen, onder meer vanwege zijn houding tegenover kasten",
-    "India is een laboratorium van religies, waarin ervaring belangrijker is dan dogmatiek",
-    "Hindoeïsme is een brede boom met veel takken en deels een door de Britten gevormd begrip",
-    "Het boeddhisme verdween grotendeels uit India na de komst van de islam",
-    "Volgens de overlevering bracht de apostel Thomas het christendom rond 52 n.Chr. naar India"
+    "India heeft China ingehaald als land met de meeste inwoners, en de bevolking is zeer jong, wat het land een demografisch voordeel geeft.",
+    "India kiest geopolitiek een eigen, wat terughoudende koers, met een economisch gedreven aanpak en een ingewikkelde verhouding tot China, Rusland en Pakistan.",
+    "Hindoeïsme is geen eenduidige religie maar een enorme boom met lokale varianten, waarin ervaring, ritueel en praktijk centraal staan in plaats van een leer.",
+    "Het boeddhisme ontstond in India maar verdween grotendeels door de islamitische expansie vanaf de 11e en 12e eeuw.",
+    "De Britse kolonisatie bracht eenheid en een nationaal besef, en de hindoe-nationalistische beweging ontstond pas in de 20e eeuw.",
+    "Gandhi wordt in het Westen als held gezien, maar in India is hij omstreden vanwege zijn standpunten over kasten en seksualiteit.",
+    "Onder de regering van Modi nemen de spanningen met moslims en christenen toe, onder meer door anti-bekeringswetten en geweld in Manipur.",
+    "Het christendom in India heeft oude wortels via de overlevering van apostel Thomas, en de Syrisch-orthodoxe en katholieke kerken zijn daar nog steeds aanwezig.",
+    "Het kastenstelsel blijft een diepgeworteld systeem van discriminatie, ook doordat quota de samenleving structureren.",
+    "Bollywood en de filmindustrie vormen een culturele invloedssfeer, wat gezien kan worden als zachte macht."
   ],
   "chapters": [
     {
-      "start_seconds": 26,
-      "title": "India als grootste land ter wereld",
-      "summary": "Introductie van de gast en de betekenis van het inwonersaantal, de drukte en Anils band met zijn familie in Punjab."
+      "start_seconds": 0,
+      "title": "Intro: India als opkomende supermacht",
+      "summary": "De presentator introduceert India als land met het hoogste inwonertal en een groeiende economie. Anil Kumar vertelt over zijn familiebanden en de kenmerken van het land."
     },
     {
-      "start_seconds": 300,
-      "title": "Klimaat en uitdagingen",
-      "summary": "Luchtvervuiling, extreme hitte en de stijgende zeespiegel bedreigen delen van India."
+      "start_seconds": 360,
+      "title": "Klimaat, geopolitiek en economie",
+      "summary": "Het gesprek gaat over smog, hitte en klimaatproblemen, en over India's positie tussen China, Rusland en Pakistan. Ook de economische missie en het Non-Aligned-beleid komen aan bod."
     },
     {
-      "start_seconds": 400,
-      "title": "Geopolitiek en economische ambities",
-      "summary": "India laveert tussen China, Rusland en Pakistan en richt zich op economie, startups en cultuur."
+      "start_seconds": 978,
+      "title": "Persoonlijke achtergrond van Anil Kumar",
+      "summary": "Anil Kumar vertelt over zijn Hindoe vader die als vluchteling naar Nederland kwam en zijn christelijke moeder. Hij beschrijft hoe hij Hindi leerde en zijn familie in India leerde kennen."
     },
     {
-      "start_seconds": 764,
-      "title": "Gandhi en Boeddha",
-      "summary": "De omstreden nalatenschap van Gandhi in India en de Indiase oorsprong van het boeddhisme."
+      "start_seconds": 1264,
+      "title": "Religie, hindoeïsme en boeddhisme",
+      "summary": "De gesprekspartners bespreken de vele religies die in India ontstonden, de verhouding tussen ervaring en leer, en de vraag of hindoeïsme een westerse uitvinding is."
     },
     {
-      "start_seconds": 981,
-      "title": "Anils persoonlijke achtergrond",
-      "summary": "Anil vertelt over zijn hindoeïstische vader uit Punjab, zijn Twentse christelijke moeder en zijn zoektocht naar zijn Indiase wortels."
+      "start_seconds": 1725,
+      "title": "Koloniale geschiedenis en Britse invloed",
+      "summary": "Het gesprek behandelt de rol van de East India Company, de Britse kroon en de administratieve eenheid die daaruit ontstond. Ook de invloed van de Britten op het nationale besef komt aan bod."
     },
     {
-      "start_seconds": 1255,
-      "title": "Een laboratorium van religies",
-      "summary": "Waarom India zoveel religies voortbracht, het verdwijnen van het boeddhisme en de vraag wat hindoeïsme eigenlijk is."
+      "start_seconds": 2290,
+      "title": "Hindoe-nationalisme en de rol van Modi",
+      "summary": "De opkomst van hindoe-nationalisme wordt besproken, van Savarkar tot de Ayodhya-kwestie en Modi's politieke succes. De gesprekspartners bespreken de gevolgen voor minderheden."
     },
     {
-      "start_seconds": 1690,
-      "title": "Koloniale geschiedenis en nationaal besef",
-      "summary": "Van de East India Company en de Britse kroon tot de ontwikkeling van nationalisme en hindoe-identiteit."
+      "start_seconds": 2623,
+      "title": "Kastenstelsel en minderheden",
+      "summary": "Het kastenstelsel, de situatie van christenen en moslims, en het geweld in Manipur worden besproken. Ook quota en discriminatie komen aan bod."
     },
     {
-      "start_seconds": 2040,
-      "title": "Het oude christendom in India",
-      "summary": "De overlevering van de apostel Thomas en de ontmoeting met de Portugese katholieken."
+      "start_seconds": 3000,
+      "title": "Bollywood en afsluiting",
+      "summary": "Het gesprek eindigt met de rol van Bollywood als culturele invloed, een vergelijking met Hollywood en een luchtige afsluiting."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 120,
+      "start_seconds": 2696,
       "speaker": "Anil Kumar",
-      "text": "Ik heb hier mijn hele leven op gewacht.",
-      "note": "Persoonlijke reactie op het historische moment dat India China inhaalde."
+      "text": "Ik overdrijf niet als ik zeg dat daar een genocide plaatsvindt nu, een directe uitroeiing van een relatief kleine etniciteit en minderheid die allemaal christen zijn.",
+      "note": "Een zware beschuldiging over geweld in Manipur, die de spanning tussen religie en politiek in India onderstreept."
     },
     {
-      "start_seconds": 376,
+      "start_seconds": 1467,
+      "start_seconds_note": null,
       "speaker": "Anil Kumar",
-      "text": "Het is een soort stoelendans met nog 1 stoel; als je er allebei op gaat zitten, breekt die door.",
-      "note": "Treffend beeld van de spanning tussen India en Pakistan."
+      "text": "Hindoeïsme is een enorme boom met gigantisch veel takken, terwijl de wortels voor heel veel mensen onzichtbaar zijn geworden.",
+      "note": "Een beeldende samenvatting van hoe divers en lokaal het hindoeïsme is, wat het moeilijk maakt om het als één religie te definiëren."
     },
     {
-      "start_seconds": 846,
+      "start_seconds": 3274,
       "speaker": "Anil Kumar",
-      "text": "Gandhi sliep naakt met zijn nichtje om te bewijzen dat hij zijn seksualiteit in toom hield.",
-      "note": "Verrassende kanttekening bij het heldenbeeld van Gandhi."
+      "text": "Dus liever Bollywood dan een atoombom.",
+      "note": "Een scherpe, speelse observatie over zachte macht als alternatief voor militaire invloed."
     },
     {
-      "start_seconds": 1160,
-      "speaker": "Anil Kumar",
-      "text": "Mijn vader leerde ons de taal niet, want hij dacht dat we dan niet goed zouden integreren.",
-      "note": "Persoonlijk en ontroerend verhaal over identiteit en migratie."
-    },
-    {
-      "start_seconds": 1510,
-      "speaker": "Anil Kumar",
-      "text": "Jullie hebben 1 boek, wij hebben een hele boekenkast.",
-      "note": "Illustreert het verschil tussen hindoeïsme en Bijbel- of Koran-gerichte religies."
+      "start_seconds": 2936,
+      "speaker": "David Boogerd",
+      "text": "Wij noemen dat positieve discriminatie, hè?",
+      "note": "Een ironische opmerking die laat zien hoe het quotumsysteem in India anders wordt beoordeeld dan in het Westen."
     }
   ],
   "keywords": [
     "India",
     "Hindoeïsme",
     "Boeddhisme",
-    "Gandhi",
-    "Kastenstelsel",
-    "Diaspora",
-    "Britse kolonisatie",
-    "Apostel Thomas",
-    "Sikhisme",
     "Hindoe-nationalisme",
-    "Geopolitiek"
+    "Kastenstelsel",
+    "Christendom in India",
+    "Apostel Thomas",
+    "Britse kolonisatie",
+    "Bollywood",
+    "Demografie",
+    "Gandhi",
+    "Modi"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het is een keerpunt dat de wereld in eeuwen niet heeft gezien en waarschijnlijk in geen eeuwen meer zal meemaken.",
+    "India is misschien wel dé supermacht van de toekomst."
+  ],
   "similar": [
     {
+      "n": 213,
+      "reason": "Religie in de wereld en buitenlandervaring; diversiteit en blinde vlek voor religie"
+    },
+    {
       "n": 22,
-      "reason": "Tom Holland over hoe het christendom het Westen vormde; religie, geschiedenis en wereldbeeld."
+      "reason": "Historische rol van religie in de wereldgeschiedenis; christendom en Westen"
     },
     {
-      "n": 307,
-      "reason": "Nationalisme en natiestaat wereldwijd; geschiedenis, geopolitiek en religie."
+      "n": 110,
+      "reason": "Islam, samenleving en migratie; geschiedenis van religieuze spanningen"
     },
     {
-      "n": 248,
-      "reason": "Nieuwe wereldorde en machtsverschuivingen tussen grootmachten, met religieuze dimensie."
-    },
-    {
-      "n": 118,
-      "reason": "Koloniale geschiedenis en de rol van religie daarin."
-    },
-    {
-      "n": 315,
-      "reason": "Nieuwe wereldorde, grootmachten en geopolitiek; Best Of met meerdere experts."
+      "n": 159,
+      "reason": "Religieuze wortels en geschiedenis van het Midden-Oosten; religie in de wereldpolitiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

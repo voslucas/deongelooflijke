@@ -1,136 +1,149 @@
 {
   "episode": 256,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 126848,
+    "segments": 1248,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31088,
-    "output_tokens": 2861,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 64764,
+    "output_tokens": 3796,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Bijbel & Jezus",
     "Kerk & secularisatie",
-    "Samenleving & migratie"
+    "Samenleving & migratie",
+    "Geopolitiek & oorlog"
   ],
   "guests": [
     "Janneke Stegeman"
   ],
   "people": [
     {
-      "name": "Saskia Pieterse",
-      "note": "medeauteur van het boek Uitverkoren",
-      "start_seconds": 50,
-      "wiki_checked": true
+      "name": "Janneke Stegeman",
+      "note": "gast, theoloog en auteur van Uitverkoren",
+      "start_seconds": 5,
+      "mention_count": 60
     },
     {
-      "name": "Glenn Helberg",
-      "note": "psychiater, preker bij de Keti Koti-dienst in de Dominicuskerk",
-      "start_seconds": 295,
-      "wiki_checked": true,
-      "wiki_pageid": 4842779,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Glenn_Helberg"
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 245,
+      "mention_count": 50
+    },
+    {
+      "name": "Saskia Pieterse",
+      "note": "medeauteur van Uitverkoren",
+      "start_seconds": 142,
+      "mention_count": 4
+    },
+    {
+      "name": "Gregorius van Nyssa",
+      "note": "christelijke denker uit de vierde eeuw die slavernij als fout instituut bestempelde",
+      "start_seconds": 487,
+      "mention_count": 1
     },
     {
       "name": "Hugo de Groot",
-      "note": "humanist en grondlegger van het volkenrecht, schreef negatief over Joden",
-      "start_seconds": 943,
-      "wiki_checked": true,
-      "wiki_pageid": 6271,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_de_Groot_%28rechtsgeleerde%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Michiel_Jansz_van_Mierevelt_-_Hugo_Grotius.jpg/250px-Michiel_Jansz_van_Mierevelt_-_Hugo_Grotius.jpg"
-    },
-    {
-      "name": "Gisbertus Voetius",
-      "note": "calvinistisch theoloog, 'paus van Utrecht', antisemitisch",
-      "start_seconds": 996,
-      "wiki_checked": true,
-      "wiki_pageid": 98702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gisbertus_Voetius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Gisbertus_Voetius.jpg/250px-Gisbertus_Voetius.jpg"
-    },
-    {
-      "name": "Willem Usselincx",
-      "note": "drijvende kracht achter de oprichting van de WIC",
-      "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 547256,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Usselincx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Willem_Usselinx_%281567-na_1647%29._Koopman_en_stichter_van_de_West_Indische_Compagnie_Rijksmuseum_SK-A-1675.jpeg/250px-Willem_Usselinx_%281567-na_1647%29._Koopman_en_stichter_van_de_West_Indische_Compagnie_Rijksmuseum_SK-A-1675.jpeg"
+      "note": "humanist en grondlegger van het volkenrecht, ideoloog van protestants kolonialisme",
+      "start_seconds": 955,
+      "mention_count": 2
     },
     {
       "name": "Udemans",
-      "note": "dominee die in 1638 schreef dat de rechte Nederlander een witte calvinist is",
-      "start_seconds": 815,
-      "wiki_checked": true,
-      "wiki_pageid": 1009684,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Godefridus_Cornelisz_Udemans"
+      "note": "Calvinistische dominee die in 1638 schreef dat de rechte Nederlander een witte calvijnist is",
+      "start_seconds": 824,
+      "mention_count": 3
     },
     {
-      "name": "Noach",
-      "note": "bijbelse figuur, verhaal van zijn drie zonen gebruikt om volken in te delen",
-      "start_seconds": 1188,
-      "wiki_checked": true,
-      "wiki_pageid": 15277,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Noach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Noah_mosaic.JPG/250px-Noah_mosaic.JPG"
+      "name": "Abraham Kuyper",
+      "note": "grondlegger van de VU, wiens citaten in het boek schokkend zijn",
+      "start_seconds": 2600,
+      "mention_count": 2
+    },
+    {
+      "name": "Voltaire",
+      "note": "verlichtingsdenker, onderscheidde menselijke afkomst",
+      "start_seconds": 3450,
+      "mention_count": 2
+    },
+    {
+      "name": "Glenn Helberg",
+      "note": "psychiater die preekte in Katikotti-dienst",
+      "start_seconds": 295,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "burgerrechtenleider, genoemd als inspiratiebron",
+      "start_seconds": 4030,
+      "mention_count": 1
+    },
+    {
+      "name": "Gloria Wekker",
+      "note": "auteur van Witte Onschuld",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Martijn Stoutjesdijk",
+      "note": "onderzoeker slavernij en religie, eerdere aflevering",
+      "start_seconds": 1380,
+      "mention_count": 3
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; tekst 'in Christus is noch Jood noch Griek'",
+      "start_seconds": 1140,
+      "mention_count": 3
+    },
+    {
+      "name": "Usselincx",
+      "note": "drijvende kracht achter de WIC, wilde heidenen bekeren",
+      "start_seconds": 615,
+      "mention_count": 1
+    },
+    {
+      "name": "Columbus",
+      "note": "ontdekkingsreiziger; zocht goud voor bevrijding van Jeruzalem",
+      "start_seconds": 1620,
+      "mention_count": 1
     },
     {
       "name": "Alec Ryrie",
       "note": "auteur van Protestantism: a faith that changed the world",
-      "start_seconds": 1561,
-      "wiki_checked": true
+      "start_seconds": 1560,
+      "mention_count": 1
     },
     {
-      "name": "Christoffel Columbus",
-      "note": "zocht goud om de bevrijding van Jeruzalem te financieren",
-      "start_seconds": 1641,
-      "wiki_checked": true,
-      "wiki_pageid": 5600,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christoffel_Columbus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Christopher_Columbus.PNG/250px-Christopher_Columbus.PNG"
+      "name": "Pieter Samcoen",
+      "note": "Nederlands gouverneur-generaal, genoemd bij genocides in kolonialisme",
+      "start_seconds": 2270,
+      "mention_count": 1
     },
     {
-      "name": "Paulus",
-      "note": "apostel, brief over Onesimus en 'uit één bloed'",
-      "start_seconds": 1739,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Sinan Çankaya",
+      "note": "auteur van Galmende Geschiedenissen",
+      "start_seconds": 3840,
+      "mention_count": 1
     },
     {
-      "name": "Martijn Stoutjesdijk",
-      "note": "onderzoeker slavernij en religie, eerder te gast",
-      "start_seconds": 1418,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jan Pieterszoon Coen",
-      "note": "Nederlandse koloniale bestuurder, genoemd bij koloniaal geweld",
-      "start_seconds": 2273,
-      "wiki_checked": true,
-      "wiki_pageid": 43906,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg/250px-Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
+      "name": "Picard",
+      "note": "17e-eeuwse dominee die Europa Japhets patrimonium noemde",
+      "start_seconds": 1290,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Uitverkoren: hoe Nederland aan zijn zelfbeeld komt",
-      "author": "Janneke Stegeman en Saskia Pieterse",
-      "note": "centraal boek van de aflevering",
-      "start_seconds": 50,
+      "title": "Uitverkoren",
+      "author": "Janneke Stegeman & Saskia Pieterse",
+      "note": "het besproken boek over Nederlands zelfbeeld en protestants kolonialisme",
+      "start_seconds": 5,
       "volume_id": "yRBEEQAAQBAJ",
       "canonical_title": "Uitverkoren: Hoe Nederland aan zijn zelfbeeld komt",
       "canonical_author": "Saskia Pieterse, Janneke Stegeman",
@@ -139,174 +152,211 @@
       "thumbnail": "http://books.google.com/books/content?id=yRBEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
+      "title": "Witte Onschuld",
+      "author": "Gloria Wekker",
+      "note": "eerste Nederlandse boek over witheid",
+      "start_seconds": 2340,
+      "volume_id": "zyA_DwAAQBAJ",
+      "canonical_title": "Witte onschuld: paradoxen van kolonialisme en ras",
+      "canonical_author": "Gloria Wekker",
+      "isbn13": "9789048535576",
+      "isbn10": "9048535573",
+      "thumbnail": "http://books.google.com/books/content?id=zyA_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
       "title": "Protestantism: A Faith That Changed the World",
       "author": "Alec Ryrie",
-      "note": "over protestantisme en moderniteit",
-      "start_seconds": 1561,
-      "volume_id": "VwzsDAAAQBAJ",
-      "canonical_title": "Protestants: The Faith That Made the Modern World",
+      "note": "geciteerd over protestantisme en moderniteit",
+      "start_seconds": 1560,
+      "volume_id": "9aGKvgAACAAJ",
+      "canonical_title": "Protestants: the radicals who made the modern world",
       "canonical_author": "Alec Ryrie",
-      "isbn13": "9780735222816",
-      "isbn10": "0735222819",
-      "thumbnail": "http://books.google.com/books/content?id=VwzsDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780007465033",
+      "isbn10": "0007465033",
+      "thumbnail": "http://books.google.com/books/content?id=9aGKvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Galmende Geschiedenissen",
+      "author": "Sinan Çankaya",
+      "note": "besproken als voorbeeld van positieve Nederlanderschap-reflectie",
+      "start_seconds": 3840,
+      "volume_id": "fzVUEQAAQBAJ",
+      "canonical_title": "Galmende geschiedenissen",
+      "canonical_author": "Sinan Çankaya",
+      "isbn13": "9789403136783",
+      "isbn10": "9403136782",
+      "thumbnail": "http://books.google.com/books/content?id=fzVUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 9",
-      "note": "Noach en zijn zonen Sem, Cham en Jafet, gebruikt voor rassenindeling",
-      "start_seconds": 1181
+      "note": "Noach en zijn zonen Sem, Cham/Gam en Jafet; verhaal over racialisering",
+      "start_seconds": 1140
     },
     {
-      "ref": "Filemon 1",
-      "note": "Paulus over de slaaf Onesimus als broeder",
-      "start_seconds": 1740
+      "ref": "Genesis 9:25",
+      "note": "vloek over Kanaän, Gam's zoon, gebruikt in racistische uitleg",
+      "start_seconds": 1200
     },
     {
-      "ref": "Galaten 3:28",
-      "note": "in Christus geen Jood of Griek, slaaf of vrije",
-      "start_seconds": 1740
+      "ref": "Genesis 9:27",
+      "note": "Jafet wonen in de tenten van Sem",
+      "start_seconds": 1230
     },
     {
       "ref": "Handelingen 17:26",
-      "note": "alle volken uit één bloed gemaakt",
-      "start_seconds": 1145
+      "note": "uit één bloed gemaakt; ter sprake als universele mensheid",
+      "start_seconds": 570
     },
     {
-      "ref": "Genesis 17",
-      "note": "Abraham die ook de mensen in zijn huis besnijdt, aangehaald in het dopen-debat",
-      "start_seconds": 679
+      "ref": "Galaten 3:28",
+      "note": "in Christus is noch Jood noch Griek, noch slaaf noch vrije",
+      "start_seconds": 1740
+    },
+    {
+      "ref": "Filemon 1",
+      "note": "Paulus en de slaaf Onesimus",
+      "start_seconds": 1740
     }
   ],
   "places": [
     "Nederland",
-    "Dordrecht",
     "Utrecht",
+    "Dordrecht",
+    "Jeruzalem",
     "Palestina",
-    "Israël",
-    "Spanje",
-    "Amsterdam",
+    "Gaza",
     "Curaçao",
     "Suriname",
-    "Verenigde Staten",
-    "China",
-    "Jeruzalem"
+    "Amsterdam",
+    "Spanje",
+    "Israël"
   ],
-  "summary_tldr": "Janneke Stegeman bespreekt haar boek Uitverkoren over hoe het Nederlandse zelfbeeld van vrij, tolerant en verlicht verweven is met protestants kolonialisme, antisemitisme en racialisering. Stefan Paas stelt kritische tegenvragen over uniciteit, menselijke superioriteitsgevoelens en de vergelijking met andere culturen. Het gesprek gaat over geschiedenis, schuld en hoe we er nu mee omgaan.",
+  "summary_tldr": "Janneke Stegeman bespreekt haar boek Uitverkoren, dat laat zien hoe het Nederlandse zelfbeeld van vrijheid en tolerantie is gevormd door protestants kolonialisme, racialisering en antisemitisme. Stefan Paas bevraagt de scherpte van het betoog, de historische context en de vraag of het boek bijdraagt aan een inclusief Nederland. Het gesprek eindigt met de vraag welke positieve bronnen en inspiratie uit de geschiedenis te putten zijn.",
   "summary_points": [
-    "Het Nederlandse zelfbeeld heeft een schaduwkant die verbonden is met protestants kolonialisme.",
-    "De Synode van Dordrecht (1618-1619) ging over meer dan kerkelijke leer: ook over macht, staat en identiteit.",
-    "De doop van slaafgemaakten leidde tot het onderscheid tussen geestelijke en lichamelijke vrijheid.",
-    "Racialisering is verweven met religie, cultuur en beschaving, niet alleen met huidskleur.",
-    "Het verhaal van Noach en zijn zonen werd gebruikt om volken in te delen en Europese superioriteit te rechtvaardigen.",
-    "Stefan Paas wijst erop dat superioriteitsgevoelens universeel menselijk zijn en protestanten ook tot zelfkritiek in staat zijn.",
-    "Stegeman benadrukt dat Nederlands kolonialisme zeer wreed was en dat wegredeneren dit probleem ontwijkt.",
-    "Een Keti Koti-dienst laat zien dat herdenken en lichtheid samen kunnen gaan."
+    "De Synode van Dordrecht (1618-1619) was meer dan een kerkvergadering; het ging ook om macht, politiek en de Nederlandse identiteit.",
+    "Doopdebatten over slaafgemaakten lieten zien hoe theologische vragen samenvielen met koloniale belangen.",
+    "Protestantisme en kolonialisme raakten verweven, met het idee van de uitverkoren, rationele, witte Calvinist als identiteitsmarker.",
+    "Racialisering wordt gezien als proces waarin religie, cultuur en beschaving samenkomen, niet enkel huidskleur.",
+    "Paas plaatst kritische kanttekeningen bij presentisme en vraagt of Nederland specifiek slechter was dan andere imperiums.",
+    "Het Bijbelverhaal van Noach en zijn zonen werd misbruikt om racistische hiërarchieën te legitimeren.",
+    "De verlichting wordt niet als brede breuk gezien; racialiserend denken bleef doorwerken.",
+    "Antisemitisme en christelijk zionisme worden in verband gebracht met de Nederlandse identiteit en steun aan Israël.",
+    "Janneke Stegeman ziet het boek als bevrijdend en wil zelfkritiek combineren met hoop en inspiratie.",
+    "Het gesprek roert ook het risico van triomfalisme en verdeeldheid in de huidige politiek aan."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een boek als drijfvast vlot",
-      "summary": "Stegeman vertelt over het schrijven van het boek tijdens 7 oktober en haar ervaringen in Palestina."
+      "title": "Inleiding en motivatie",
+      "summary": "Stegeman vertelt over het ontstaan van het boek en de confrontatie met blinde vlekken."
     },
     {
-      "start_seconds": 280,
-      "title": "De Keti Koti-dienst",
-      "summary": "Over de dienst in de Dominicuskerk met Glenn Helberg en de lichtheid bij het onder ogen zien van geweld."
+      "start_seconds": 300,
+      "title": "Katikoti-dienst en het koloniale verleden",
+      "summary": "Een herdenkingsdienst in de Dominicuskerk laat zien hoe geweld samen gedragen kan worden."
     },
     {
-      "start_seconds": 427,
-      "title": "De Synode van Dordrecht",
-      "summary": "Strijd tussen remonstranten en contraremonstranten, de WIC en de doop van slaafgemaakten."
+      "start_seconds": 420,
+      "title": "De Synode van Dordrecht en de WIC",
+      "summary": "De synode wordt gezien als machtsstrijd met directe koloniale gevolgen."
     },
     {
-      "start_seconds": 855,
-      "title": "Schaduwzijde van tolerantie",
-      "summary": "Over antisemitisme bij Calvinisten, Hugo de Groot en Voetius, en over racialisering."
+      "start_seconds": 1100,
+      "title": "Racialisering, Noach en de Bijbel",
+      "summary": "Het verhaal van Noachs zonen en de interpretatie daarvan in racistisch denken."
     },
     {
-      "start_seconds": 1188,
-      "title": "Sem, Cham en Jafet",
-      "summary": "Hoe het Noach-verhaal werd gebruikt om volken in te delen en de discussie over de theologische houdbaarheid."
+      "start_seconds": 1800,
+      "title": "Protestantisme, moderniteit en superioriteit",
+      "summary": "Paas duidt protestantisme als nieuwste tak die zich steeds vergelijkt met anderen."
     },
     {
-      "start_seconds": 1543,
-      "title": "Protestantisme, ziel en lichaam",
-      "summary": "Over protestants superioriteitsgevoel, de nadruk op zielen redden en de Bijbelse spagaat rond slavernij."
+      "start_seconds": 2900,
+      "title": "Slavernij, afschaffing en christelijke motivatie",
+      "summary": "Discussie over of het christendom slavernij heeft bevorderd of gestopt."
     },
     {
-      "start_seconds": 1900,
-      "title": "Navelstaren of noodzakelijk?",
-      "summary": "Discussie over uniciteit, vergelijking met China, Rome en Spanje, en de vraag hoe wreed Nederlands kolonialisme was."
+      "start_seconds": 3600,
+      "title": "Verlichting, inclusie en politiek",
+      "summary": "Kritiek op verlichting als breuk en koppeling met hedendaagse politiek en migratie."
+    },
+    {
+      "start_seconds": 4500,
+      "title": "Israël, zionisme en persoonlijke positie",
+      "summary": "Stegeman duidt Israël-kritiek en het koloniale perspectief; Paas wijst op complexiteit."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 338,
+      "start_seconds": 2030,
       "speaker": "Janneke Stegeman",
-      "text": "Zodra je de dingen in de ogen durft te zien, de zwaarte, het geweld, dan is er ruimte voor lichtheid.",
-      "note": "Verklaart waarom een herdenkingsdienst ook dans kan bevatten."
+      "text": "De rechte Nederlander is een witte calvinist.",
+      "note": "Samenvatting van Udemans' beroemde uitspraak die het boek als kern gebruikt."
     },
     {
-      "start_seconds": 815,
-      "speaker": "Janneke Stegeman",
-      "text": "Dominee Udemans schreef in 1638: de rechte Nederlander is een witte calvinist.",
-      "note": "Laat zien hoe religie en nationale identiteit samenvielen."
-    },
-    {
-      "start_seconds": 1305,
-      "speaker": "Janneke Stegeman",
-      "text": "Ik hoor het tot op de dag van vandaag, ook van mensen van kleur die dat in hun kerk meemaken.",
-      "note": "Toont dat de Cham-interpretatie nog doorwerkt."
-    },
-    {
-      "start_seconds": 2250,
-      "speaker": "Janneke Stegeman",
-      "text": "Het viel niet mee. Nederlands kolonialisme was ontzettend wreed.",
-      "note": "Scherp antwoord op Paas' relativerende vergelijking."
-    },
-    {
-      "start_seconds": 1698,
+      "start_seconds": 2880,
       "speaker": "Stefan Paas",
-      "text": "Zielen kun je redden uit elk lichaam, dan maakt het eigenlijk niet uit wat met het lichaam gebeurt.",
-      "note": "Verklaart theologisch hoe slavernij werd gerechtvaardigd."
+      "text": "Het gaat ons er niet om te zeggen dat Nederlanders specifiek heel slecht zijn, maar om te begrijpen hoe ongelijkheid en racisme nog krachtig zijn.",
+      "note": "Verheldering van de bedoeling van het boek en het tegenwicht tegen eenzijdige schuldvraag."
+    },
+    {
+      "start_seconds": 3960,
+      "speaker": "Janneke Stegeman",
+      "text": "Het is een bevrijdend boek; we zijn niet zulke goede Nederlanders omdat we een fantastische geschiedenis hebben, maar we kunnen een land opbouwen dat inclusief is.",
+      "note": "Stegeman's kernboodschap over hoop en verantwoordelijkheid."
+    },
+    {
+      "start_seconds": 4380,
+      "speaker": "Stefan Paas",
+      "text": "Dat het eigenlijk onbedoeld triomfalisme voedt, dat kun je niet helemaal voorkomen.",
+      "note": "Paas wijst op het risico dat kritiek juist het gevoel van superioriteit bij anderen versterkt."
+    },
+    {
+      "start_seconds": 2120,
+      "speaker": "Janneke Stegeman",
+      "text": "Christenen hebben ook bijgedragen aan het afschaffen van de slavernij, maar de dragende ideologie is niet afgeschaft.",
+      "note": "Genuanceerd punt over ambivalentie van christelijke bijdrage aan emancipatie."
     }
   ],
   "keywords": [
-    "Uitverkoren",
-    "Dordtse synode",
-    "kolonialisme",
+    "protestants kolonialisme",
     "racialisering",
+    "Dordtse synode",
+    "Nederlands zelfbeeld",
+    "witte calvinist",
     "antisemitisme",
-    "calvinisme",
+    "joods-christelijke cultuur",
     "slavernij",
-    "Keti Koti",
-    "zelfbeeld",
-    "protestantisme",
-    "West-Indische Compagnie",
-    "Noach"
+    "Noach vloek",
+    "christelijk zionisme",
+    "verlichting",
+    "superioriteit"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 118,
-      "reason": "Martijn Stoutjesdijk over slavernijgeschiedenis en de rol van religie; direct overlappend onderwerp."
+      "reason": "Geschiedenis van slavernij en de rol van religie in Nederland"
+    },
+    {
+      "n": 113,
+      "reason": "Kritische blik op het Nederlandse vrijheidsideaal en zijn historische gevolgen"
     },
     {
       "n": 67,
-      "reason": "Mythe van de calvinistische Nederlander en Nederlandse zelfbeeld, met James Kennedy."
+      "reason": "Mythe van de calvinistische Nederlander en het Nederlandse zelfbeeld"
     },
     {
-      "n": 89,
-      "reason": "God, Nederland en Oranje: natie, religie en Nederlandse identiteit in historisch perspectief."
+      "n": 138,
+      "reason": "Rol van de kerk in WOII, antisemitisme en historische schuldvraag"
     },
     {
-      "n": 112,
-      "reason": "Willem van Oranje en Nederlandse geschiedenis, protestantisme en vaderlandse zelfbeeldvorming."
-    },
-    {
-      "n": 277,
-      "reason": "Jerry Afriyie over Zwarte Piet en racisme in Nederland; verwant koloniaal verleden."
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden en de religieuze wortels daarvan"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

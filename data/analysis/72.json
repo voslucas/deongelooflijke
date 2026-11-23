@@ -1,18 +1,23 @@
 {
   "episode": 72,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116097,
+    "segments": 1213,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31001,
-    "output_tokens": 2390,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59505,
+    "output_tokens": 10640,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
-    "Geschiedenis",
-    "Kerk & secularisatie",
-    "Filosofie & ethiek"
+    "God & geloof",
+    "Filosofie & ethiek",
+    "Amerika & Trump",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,258 +25,348 @@
   "people": [
     {
       "name": "Augustinus",
-      "note": "kerkvader; besproken over martelen, doodstraf, erfzonde en vrije wil",
-      "start_seconds": 1245,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Lotte Jensen",
-      "note": "historicus die het congres over veerkracht organiseerde",
-      "start_seconds": 292,
-      "wiki_checked": true,
-      "wiki_pageid": 4790329,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lotte_Jensen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/LotteJensen2016.jpg/250px-LotteJensen2016.jpg"
-    },
-    {
-      "name": "Greta Thunberg",
-      "note": "klimaatactivist, 'bla bla bla' over de klimaattop",
-      "start_seconds": 165,
-      "wiki_checked": true,
-      "wiki_pageid": 5142949,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Greta_Thunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg/250px-Greta_Thunberg_in_Stockholm_%28cropped5%29.jpg"
-    },
-    {
-      "name": "Joe Biden",
-      "note": "Amerikaanse president, beëdigd in 2021",
-      "start_seconds": 1139,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
-    },
-    {
-      "name": "Nancy Pelosi",
-      "note": "doelwit van Capitoolbestormers",
-      "start_seconds": 528,
-      "wiki_checked": true,
-      "wiki_pageid": 668112,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nancy_Pelosi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg/250px-Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "politicus die geweldsfantasieën uit",
-      "start_seconds": 710,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Gideon van Meijeren",
-      "note": "politicus; er komen tribunalen",
-      "start_seconds": 711,
-      "wiki_checked": true,
-      "wiki_pageid": 5503423,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gideon_van_Meijeren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/GideonvanMeijerenHeijmans.jpg/250px-GideonvanMeijerenHeijmans.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "premier, toeslagenaffaire",
-      "start_seconds": 1195,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Kerkvader; besproken om zijn uitspraken over martelen, doodstraf en erfzonde",
+      "start_seconds": 1233,
+      "mention_count": 40
     },
     {
       "name": "Pelagius",
-      "note": "monnik die volledige vrije wil verdedigde, tegenstander van Augustinus",
-      "start_seconds": 1760,
-      "wiki_checked": true,
-      "wiki_pageid": 77931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pelagius_%28monnik%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Pelagius.jpg/250px-Pelagius.jpg"
+      "note": "Monnik en tegenstander van Augustinus in de discussie over vrije wil",
+      "start_seconds": 1755,
+      "mention_count": 2
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president; sprak over democratie en werd dit jaar beëdigd",
+      "start_seconds": 1119,
+      "mention_count": 3
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Voormalig Duits bondskanselier; door Beatrice gewaardeerd",
+      "start_seconds": 2992,
+      "mention_count": 3
+    },
+    {
+      "name": "Olaf Scholz",
+      "note": "Nieuwe Duitse bondskanselier, geen kerkelijke binding",
+      "start_seconds": 3010,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier, genoemd als mogelijke christelijke leider",
+      "start_seconds": 3038,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president; volgens Beatrice zelf christelijk",
+      "start_seconds": 3041,
+      "mention_count": 1
+    },
+    {
+      "name": "Jair Bolsonaro",
+      "note": "Braziliaanse president, genoemd als christelijke leider",
+      "start_seconds": 3051,
+      "mention_count": 1
+    },
+    {
+      "name": "Mike Pence",
+      "note": "Voormalig Amerikaans vicepresident, genoemd als christelijke leider",
+      "start_seconds": 3052,
+      "mention_count": 1
+    },
+    {
+      "name": "Nancy Pelosi",
+      "note": "Voorzitter van het Amerikaanse Huis van Afgevaardigden; doelwit van Capitoolbestormers",
+      "start_seconds": 528,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Leider van Forum voor Democratie; wordt bekritiseerd om geweldsretoriek",
+      "start_seconds": 697,
+      "mention_count": 1
+    },
+    {
+      "name": "Van Houwelingen",
+      "note": "Kamerlid van Forum voor Democratie; sprak over tribunalen",
+      "start_seconds": 697,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlandse premier die volgens Stefan zou opstappen na de toeslagenaffaire",
+      "start_seconds": 1195,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Jonge",
+      "note": "Minister van VWS; sprak over een mogelijke vaccinatieplicht",
+      "start_seconds": 2653,
+      "mention_count": 2
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "Klimaatactiviste; genoemd bij de klimaattop in Glasgow",
+      "start_seconds": 165,
+      "mention_count": 1
     },
     {
       "name": "Jürgen Habermas",
-      "note": "Duitse filosoof, genoemd bij publiek debat",
-      "start_seconds": 921,
-      "wiki_checked": true,
-      "wiki_pageid": 53138,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J%C3%BCrgen_Habermas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/JuergenHabermas.jpg/250px-JuergenHabermas.jpg"
+      "note": "Filosoof over het publieke debat en rede",
+      "start_seconds": 908,
+      "mention_count": 1
     },
     {
-      "name": "Paulus",
-      "note": "apostel, geciteerd over het zwaard en het goede dat je niet doet",
-      "start_seconds": 855,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Aleid Schilder",
+      "note": "Theologe; auteur van 'Hulpeloos maar schuldig' over erfzonde en genade",
+      "start_seconds": 2234,
+      "mention_count": 1
+    },
+    {
+      "name": "Fleming Rutledge",
+      "note": "Amerikaanse theologe; schreef het boek 'Advent'",
+      "start_seconds": 3459,
+      "mention_count": 2
+    },
+    {
+      "name": "Arnon Grünberg",
+      "note": "Schrijver en denker; genoemd bij het grote verhaal en het gevaar ervan",
+      "start_seconds": 3424,
+      "mention_count": 2
+    },
+    {
+      "name": "Rosemarijn van het Einde",
+      "note": "Theologe en klimaatactiviste voor Extinction Rebellion",
+      "start_seconds": 3130,
+      "mention_count": 2
+    },
+    {
+      "name": "Lotte Jensen",
+      "note": "Historica; hield een positieve lezing over veerkracht",
+      "start_seconds": 281,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Nachtengaal",
+      "note": "Luisteraar die vragen stelde over polarisatie",
+      "start_seconds": 755,
+      "mention_count": 1
+    },
+    {
+      "name": "W.H. Auden",
+      "note": "Dichter; genoemd met het gedicht 'For the Time Being'",
+      "start_seconds": 3958,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Wilmink",
+      "note": "Dichter van het troostlied voor wie met kerst alleen is",
+      "start_seconds": 3780,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Hulpeloos maar schuldig",
+      "author": "Aleid Schilder",
+      "note": "Besproken over erfzonde en het gemis van genade",
+      "start_seconds": 2234,
+      "volume_id": "RswGoAEACAAJ",
+      "canonical_title": "Hulpeloos maar schuldig: het verband tussen een gereformeerde paradox en depressie",
+      "canonical_author": "Aleid Schilder",
+      "isbn13": "9789043523462",
+      "isbn10": "9043523461",
+      "thumbnail": ""
+    },
+    {
+      "title": "De Screwtape Brieven",
+      "author": "C.S. Lewis",
+      "note": "Beatrice haalt de brief van oom Duivel aan over afleiding door media",
+      "start_seconds": 2770,
+      "volume_id": "bm7dzgEACAAJ",
+      "canonical_title": "The Screwtape Letters: Novel by C. S. Lewis, Annotated Illustrated Edition",
+      "canonical_author": "C. S. Lewis",
+      "isbn13": "9798785672802",
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Advent",
+      "author": "Fleming Rutledge",
+      "note": "Beatrice bespreekt advent als tijd van verlangen naar een redder",
+      "start_seconds": 3477,
+      "volume_id": "J0m4EQAAQBAJ",
+      "canonical_title": "Advent: The Once and Future Coming of Jesus Christ",
+      "canonical_author": "Fleming Rutledge",
+      "isbn13": "9781467451475",
+      "isbn10": "1467451479",
+      "thumbnail": "http://books.google.com/books/content?id=J0m4EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "For the Time Being",
+      "author": "W.H. Auden",
+      "note": "Gedicht dat Beatrice aanraadt rond de kerstperiode",
+      "start_seconds": 3958,
+      "volume_id": "l_pRAQAACAAJ",
+      "canonical_title": "For the Time Being: A Christmas Oratorio",
+      "canonical_author": "W. H. Auden",
+      "isbn13": "9781400899012",
+      "isbn10": "140089901X",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
       "ref": "Romeinen 13:4",
-      "note": "de overheid draagt het zwaard niet tevergeefs",
-      "start_seconds": 1392
+      "note": "Augustinus citeert Paulus: de overheid draagt het zwaard niet tevergeefs; onderbouwt de doodstraf",
+      "start_seconds": 1395
     },
     {
-      "ref": "Romeinen 7:19",
-      "note": "het goede dat ik wil doe ik niet, het kwade dat ik niet wil doe ik",
-      "start_seconds": 1872
+      "ref": "Genesis 3",
+      "note": "Adam en Eva en de zondeval; de basis van het idee van erfzonde",
+      "start_seconds": 2120
+    },
+    {
+      "ref": "Lukas 2",
+      "note": "Kerstverhaal, genoemd in het troostlied van Wilmink",
+      "start_seconds": 3815
     }
   ],
   "places": [
-    "Washington",
-    "Glasgow",
     "Utrecht",
+    "Glasgow",
     "Rotterdam",
+    "Ede",
+    "Veenendaal",
     "Noord-Afrika",
-    "Nederland",
-    "Pruisen"
+    "Bethlehem",
+    "Golgotha"
   ],
-  "summary_tldr": "David Boogerd blikt met Beatrice de Graaf en Stefan Paas terug op 2021 aan de hand van luisteraarsvragen: de Capitoolbestorming, coronarellen, polarisatie en verzuiling 2.0. Daarnaast verdedigt Stefan Augustinus en het begrip erfzonde als inzicht in beperkte vrijheid.",
+  "summary_tldr": "In de eindejaarsaflevering blikken historicus Beatrice de Graaf en theoloog Stefan Paas terug op 2021, met aandacht voor de Capitoolbestorming, de avondklokrellen en polarisatie. De gesprekspartners zoeken naar een tegengif tegen polarisatie en wijzen op de rol van sociale media en sociaal-economische segregatie. Daarnaast gaat het gesprek over Augustinus, erfzonde en vrije wil, vaccinvertrouwen, de overheid en de vraag naar nieuwe leiders en een groot verhaal.",
   "summary_points": [
-    "Terugblik 2021: Capitoolbestorming, avondklokrellen en klimaattop in Glasgow als antiklimax",
-    "Historisch perspectief: cholera-epidemieën in de 19e eeuw relativeren de coronacrisis",
-    "Radicalisering van een Nederlandse partij en de ondergraving van de rechtsstaat",
-    "Polarisatie komt door social media en sociaal-economische segregatie, een verzuiling 2.0",
-    "Tegengif: mensen ontmoeten die niet op jou lijken, bijvoorbeeld in de kerk",
-    "De toeslagenaffaire als schokkend en te snel weggepraat onderwerp",
-    "Augustinus en martelen: standaard Romeinse rechtspraktijk, maar hij was kritisch over de doodstraf",
-    "Donatisten als radicale rand en Augustinus' worsteling met geweld",
-    "Erfzonde als uitdrukking van beperkte vrije wil, in discussie met Pelagius",
-    "Erfzonde dempt het oordeel en wijst op systemische schuld, zoals systemisch racisme"
+    "De Capitoolbestorming en de avondklokrellen zijn de gebeurtenissen die beide gesprekspartners het meest bijblijven, naast de teleurstellende klimaattop in Glasgow.",
+    "Historische veerkracht wordt geschetst aan de hand van de cholera-golven in Nederland, wat de moderne vaccinontwikkeling in perspectief zet.",
+    "Polarisatie wordt vooral toegeschreven aan sociale media en het verlies aan geduld en gesprek in de publieke ruimte.",
+    "Verzuiling 2.0 ontstaat door segregatie naar wijk, school, inkomen en opleiding, zelfs in de kerk.",
+    "Het beste tegengif tegen polarisatie is volgens Stefan Paas het ontmoeten van mensen die niet op jou lijken.",
+    "Augustinus wordt kritisch besproken om zijn verdediging van martelen en zijn houding tegenover radicale christenen en de Donatisten.",
+    "Erfzonde en vrije wil worden verbonden met de vraag hoe we over daders oordelen, en hoe dat zowel milder als zelfkritischer kan maken.",
+    "Vertrouwen in vaccins en in systemen wordt vergeleken met het vertrouwen in apotheek, verkeerslichten en andere instituties.",
+    "Beide gesprekspartners pleiten voor investeren in democratie, rechtsstaat en checks and balances tegen een doorslaande overheid.",
+    "Over toekomstige leiders wordt gesproken; het grote verhaal dat mensen binden wordt gezien als een persoonlijk verlangen, zoals in de advent."
   ],
   "chapters": [
     {
       "start_seconds": 30,
-      "title": "Terugblik op 2021",
-      "summary": "Wat bleef hangen: Capitoolrellen, klimaattop in Glasgow en privé-herinneringen."
+      "title": "Intro en persoonlijke terugblik op 2021",
+      "summary": "De presentator opent het laatste aflevering van het jaar en vraagt wat de gasten het meest bijblijft. Het antwoord: de Capitoolbestorming, de klimaattop en de avondklokrellen."
     },
     {
-      "start_seconds": 260,
-      "title": "Veerkracht en wetenschap",
-      "summary": "Beatrice vergelijkt met de cholera-golven en wijst op de snelle vaccins en online mogelijkheden."
+      "start_seconds": 241,
+      "title": "Veerkracht uit de geschiedenis",
+      "summary": "Beatrice vertelt over de cholera-golven in Nederland en over de snelle ontwikkeling van vaccins, en de gesprekspartners relativeren de huidige coronatijd."
     },
     {
-      "start_seconds": 495,
-      "title": "Capitool, avondklokrellen en radicalisering",
-      "summary": "Over de bestorming, de rellen in Nederland en een geradicaliseerde partij."
+      "start_seconds": 480,
+      "title": "Capitoolbestorming en avondklokrellen",
+      "summary": "De bestorming van het Capitool en de Nederlandse avondklokrellen worden vergeleken, met aandacht voor de rol van de zittende macht en de radicalisering van een partij in het parlement."
     },
     {
       "start_seconds": 755,
       "title": "Polarisatie en verzuiling 2.0",
-      "summary": "Social media, segregatie naar inkomen en opleiding, en de kerk als ontmoetingsplek."
+      "summary": "Luisteraarsvragen over polarisatie leiden tot een gesprek over sociale media, segregatie en het tegengif van ontmoeting met andere mensen."
     },
     {
-      "start_seconds": 1100,
-      "title": "Verkiezingen en de toeslagenaffaire",
-      "summary": "Stabiliteit na de verkiezingen, maar de toeslagenaffaire blijft schokkend."
+      "start_seconds": 1233,
+      "title": "Augustinus, martelen en erfzonde",
+      "summary": "Augustinus wordt bekritiseerd om zijn steun voor martelen en het geweld tegen radicalen, waarna de discussie overgaat naar vrije wil en erfzonde als verklaring voor menselijk handelen."
     },
     {
-      "start_seconds": 1245,
-      "title": "Augustinus, martelen en de Donatisten",
-      "summary": "Augustinus' preek over martelen, zijn standpunt over doodstraf en de omgang met radicale christenen."
+      "start_seconds": 2340,
+      "title": "Vaccinvertrouwen en de overheid",
+      "summary": "Een luisteraarsvraag over vertrouwen in farmacie leidt tot een gesprek over vertrouwen in systemen, de toeslagenaffaire en de rol van checks and balances bij een vaccinatieplicht."
     },
     {
-      "start_seconds": 1636,
-      "title": "Erfzonde en vrije wil",
-      "summary": "Stefan legt uit hoe erfzonde draait om determinisme en vrijheid, met Pelagius als tegenspeler."
+      "start_seconds": 2992,
+      "title": "Christelijke leiders en het grote verhaal",
+      "summary": "Gesprekspartners bespreken mogelijke leiders, van Merkel en Biden tot Rosemarijn van het Einde, en de vraag welk verhaal de samenleving in een postchristelijk tijdperk kan verbinden."
     },
     {
-      "start_seconds": 1946,
-      "title": "Erfzonde als systeem en matiging van oordeel",
-      "summary": "Beatrice en Stefan koppelen erfzonde aan systemisch denken en het temperen van moreel oordeel."
+      "start_seconds": 3801,
+      "title": "Advent en afsluiting",
+      "summary": "Beatrice verbindt het verlangen naar een groot verhaal aan de adventstijd, waarna het gesprek afsluit met kerstwensen en een gedicht van Willem Wilmink."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 437,
+      "start_seconds": 1276,
       "speaker": "Beatrice de Graaf",
-      "text": "Bij de cholera mocht je met scherp schieten als je de grens overging zonder cholera-pas.",
-      "note": "Historisch contrast met huidige QR-code discussies."
+      "text": "Augustinus zegt dat het niet erg is als een onschuldige gemarteld wordt, omdat martelen een hoger doel diende: de waarheidsvinding.",
+      "note": "Een schokkende uitspraak die het beeld van Augustinus als kerkvader scherp ter discussie stelt."
     },
     {
-      "start_seconds": 1275,
+      "start_seconds": 939,
+      "speaker": "Stefan Paas",
+      "text": "Dat heeft heel veel te maken met sociale media. Alle onderzoeken wijzen erop.",
+      "note": "Stefan koppelt polarisatie direct aan sociale media en feitenwerelden die niet bij elkaar komen."
+    },
+    {
+      "start_seconds": 1113,
+      "speaker": "Stefan Paas",
+      "text": "Volgens mij is er maar één remedie: mensen ontmoeten die niet op jou lijken.",
+      "note": "Een eenvoudig maar krachtig antwoord op de vraag naar een tegengif tegen polarisatie."
+    },
+    {
+      "start_seconds": 3499,
       "speaker": "Beatrice de Graaf",
-      "text": "Augustinus breekt een lans voor martelen omdat het de waarheidsvinding diende.",
-      "note": "Confronterende uitspraak, door Stefan in context geplaatst."
-    },
-    {
-      "start_seconds": 1355,
-      "speaker": "Stefan Paas",
-      "text": "Dat is simpelweg de standaard rechtspraktijk van het Romeinse Rijk.",
-      "note": "Contextualiseert de kritiek op Augustinus."
-    },
-    {
-      "start_seconds": 1112,
-      "speaker": "Stefan Paas",
-      "text": "Er is maar één remedie tegen polarisatie: mensen ontmoeten die niet op jou lijken.",
-      "note": "Kernantwoord op de luisteraarsvraag."
-    },
-    {
-      "start_seconds": 1620,
-      "speaker": "Stefan Paas",
-      "text": "Het gaat bij Augustinus niet om preutsheid over seks maar om de vraag in hoeverre we gedetermineerd zijn.",
-      "note": "Corrigeert een gangbaar beeld."
+      "text": "Advent is de mens die wacht op iets dat komt: op een redder, een doorbraak uit de duisternis.",
+      "note": "Een persoonlijke en poëtische verbinding tussen het verlangen naar een groot verhaal en de adventstijd."
     }
   ],
   "keywords": [
-    "Capitoolbestorming",
-    "polarisatie",
-    "verzuiling 2.0",
-    "social media",
+    "Polarisatie",
+    "Verzuiling 2.0",
     "Augustinus",
-    "erfzonde",
-    "vrije wil",
+    "Erfzonde",
+    "Vrije wil",
+    "Martelen",
+    "Capitoolbestorming",
+    "Vaccinvertrouwen",
+    "Checks and balances",
+    "Advent",
     "Donatisten",
-    "toeslagenaffaire",
-    "cholera",
-    "klimaattop Glasgow"
+    "Sociale media"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat is het beste antigif tegen polarisatie?",
+    "Volgens Beatrice is er een verzuiling 2.0 gaande, wat houdt dat in?",
+    "Het verleidt Stefan tot een gloedvol pleidooi voor het fenomeen erfzonde."
+  ],
   "similar": [
     {
       "n": 42,
-      "reason": "Terugblik op een jaar met Beatrice de Graaf en Stefan Paas, o.a. Trump en polarisatie"
-    },
-    {
-      "n": 120,
-      "reason": "Jaarwisselingsaflevering met De Graaf en Paas, nu een vooruitblik op 2023"
-    },
-    {
-      "n": 200,
-      "reason": "Augustinus centraal, met De Graaf en Paas"
+      "reason": "Ook een jaarterugblik met Beatrice de Graaf en Stefan Paas, over het voorgaande jaar"
     },
     {
       "n": 43,
-      "reason": "Capitoolbestorming besproken door De Graaf en Paas"
+      "reason": "Behandelt de bestorming van het Capitool, een thema dat ook in #72 terugkomt"
     },
     {
-      "n": 68,
-      "reason": "Coronarellen, complotdenken en polarisatie met De Graaf en Paas"
+      "n": 36,
+      "reason": "Religie en politiek in de VS, Trump en Biden, sluit aan bij Amerika-thema's"
+    },
+    {
+      "n": 46,
+      "reason": "Charismatische leiders en politieke verlossers, relevant voor de vraag naar nieuwe leiders"
+    },
+    {
+      "n": 26,
+      "reason": "Corona, moraal en geloof, aansluitend bij het pandemie- en vaccinthema van #72"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

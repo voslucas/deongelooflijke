@@ -1,136 +1,115 @@
 {
   "episode": 247,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93837,
+    "segments": 886,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 24602,
-    "output_tokens": 2794,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 37801,
+    "output_tokens": 7582,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
     "Zingeving & psyche",
-    "God & geloof",
-    "Politiek"
+    "Amerika & Trump",
+    "God & geloof"
   ],
   "guests": [
     "Jonathan Haidt"
   ],
   "people": [
     {
-      "name": "Jonathan Haidt",
-      "note": "sociaal-psycholoog en hoogleraar aan New York University, auteur van The Anxious Generation",
-      "start_seconds": 30,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
-    },
-    {
-      "name": "Greg Lukianoff",
-      "note": "medeauteur van The Coddling of the American Mind",
-      "start_seconds": 406,
-      "wiki_checked": true,
-      "wiki_pageid": 6342445,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Greg_Lukianoff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Greg_Lukianoff_at_TED_2025_by_Kaila_Colbin-2.jpg/250px-Greg_Lukianoff_at_TED_2025_by_Kaila_Colbin-2.jpg"
-    },
-    {
-      "name": "Simon Baron-Cohen",
-      "note": "Britse onderzoeker naar systematiseren en empathiseren in het brein",
-      "start_seconds": 1166,
-      "wiki_checked": true,
-      "wiki_pageid": 2107216,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_Baron-Cohen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Professor_Simon_Baron-Cohen.jpg/250px-Professor_Simon_Baron-Cohen.jpg"
-    },
-    {
-      "name": "Bill Clinton",
-      "note": "voormalig Amerikaans president, techno-optimistische uitspraken over het internet en dictaturen",
-      "start_seconds": 960,
-      "wiki_checked": true,
-      "wiki_pageid": 10212,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/250px-Bill_Clinton.jpg"
-    },
-    {
       "name": "Donald Trump",
-      "note": "Amerikaans president, verkozen mede dankzij Twitter volgens Haidt",
-      "start_seconds": 1312,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president; volgens Haidt een gevolg van social media en polarisatie",
+      "start_seconds": 1294,
+      "mention_count": 12
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïens president; besproken om het incident in het Witte Huis",
+      "start_seconds": 3279,
+      "mention_count": 2
+    },
+    {
+      "name": "Emile Durkheim",
+      "note": "Socioloog; Haidts favoriete denker, die religie ziet als moreel gemeenschapsvormend",
+      "start_seconds": 2127,
+      "mention_count": 4
     },
     {
       "name": "Jean Twenge",
-      "note": "sociaal-psycholoog die als eerste schreef over smartphones en de impact op een generatie",
+      "note": "Sociaal psycholoog in Californië; schreef het eerste artikel over smartphones en tienerdepressie",
       "start_seconds": 1395,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
-      "name": "Plato",
-      "note": "filosoof die waarschuwde voor de fragiliteit van democratie",
-      "start_seconds": 1355,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Émile Durkheim",
-      "note": "socioloog; religie als middel voor een morele gemeenschap, anomie",
-      "start_seconds": 2127,
-      "wiki_checked": true,
-      "wiki_pageid": 83558,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/%C3%89mile_Durkheim",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Emile_Durkheim.jpg/250px-Emile_Durkheim.jpg"
-    },
-    {
-      "name": "Charles Darwin",
-      "note": "evolutiebioloog, een van Haidts favoriete denkers",
-      "start_seconds": 2127,
-      "wiki_checked": true,
-      "wiki_pageid": 4097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Darwin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/250px-Charles_Darwin_portrait.jpg"
+      "name": "Greg Lukianoff",
+      "note": "Medeauteur van The Coddling of the American Mind",
+      "start_seconds": 413,
+      "mention_count": 2
     },
     {
       "name": "Zach Rausch",
-      "note": "onderzoeksmedewerker van Haidt",
-      "start_seconds": 2330,
-      "wiki_checked": true
+      "note": "Onderzoekspartner van Haidt die de datasets analyseerde",
+      "start_seconds": 2321,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon Baron Cohen",
+      "note": "Britse psycholoog; onderzoek naar systematiseren versus empathie",
+      "start_seconds": 1166,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "note": "Oprichter van Meta; genoemd bij Trumps inauguratie",
+      "start_seconds": 3540,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer; aanwezig bij Trumps inauguratie",
+      "start_seconds": 3540,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Voormalig Amerikaans president; zei dat China het internet nooit zou kunnen weren",
+      "start_seconds": 958,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident; betrokken bij het incident met Zelensky",
+      "start_seconds": 3279,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Anxious Generation",
       "author": "Jonathan Haidt",
-      "note": "over de impact van smartphones en social media op jongeren",
+      "note": "Hoofdonderwerp: de impact van smartphones en social media op de geestelijke gezondheid van Gen Z",
       "start_seconds": 44,
-      "volume_id": "uCvAEAAAQBAJ",
-      "canonical_title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+      "volume_id": "Iwxg0QEACAAJ",
+      "canonical_title": "The Anxious Generation",
       "canonical_author": "Jonathan Haidt",
-      "isbn13": "9781802063288",
-      "isbn10": "1802063285",
-      "thumbnail": "http://books.google.com/books/content?id=uCvAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "The Coddling of the American Mind",
-      "author": "Greg Lukianoff en Jonathan Haidt",
-      "note": "over overbescherming van kinderen",
-      "start_seconds": 406,
+      "author": "Jonathan Haidt en Greg Lukianoff",
+      "note": "Eerder boek over overbescherming van kinderen in de VS",
+      "start_seconds": 413,
       "volume_id": "9-o6DwAAQBAJ",
-      "canonical_title": "The Coddling of the American Mind: How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
+      "canonical_title": "The Coddling of the American Mind",
       "canonical_author": "Greg Lukianoff, Jonathan Haidt",
       "isbn13": "9780735224902",
       "isbn10": "0735224900",
@@ -139,164 +118,176 @@
     {
       "title": "The Happiness Hypothesis",
       "author": "Jonathan Haidt",
-      "note": "over overgeleverde wijsheid van de Oudheid",
+      "note": "Over oude wijsheid en de overdracht van cultuur",
       "start_seconds": 631,
-      "volume_id": "cg-ptAEACAAJ",
-      "canonical_title": "The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom",
+      "volume_id": "UBCmAAAACAAJ",
+      "canonical_title": "The Happiness Hypothesis",
       "canonical_author": "Jonathan Haidt",
-      "isbn13": "9780465028023",
-      "isbn10": "0465028020",
-      "thumbnail": "http://books.google.com/books/content?id=cg-ptAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9780434013364",
+      "isbn10": "0434013366",
+      "thumbnail": "http://books.google.com/books/content?id=UBCmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "The Righteous Mind",
       "author": "Jonathan Haidt",
-      "note": "over morele fundamenten, politiek en religie",
-      "start_seconds": 2074,
+      "note": "Over moreel psychologie, politiek en religie",
+      "start_seconds": 2068,
       "volume_id": "ItuzJhbcpMIC",
-      "canonical_title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+      "canonical_title": "The Righteous Mind",
       "canonical_author": "Jonathan Haidt",
       "isbn13": "9780307907035",
       "isbn10": "0307907031",
       "thumbnail": "http://books.google.com/books/content?id=ItuzJhbcpMIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Life After Babel",
+      "author": "Jonathan Haidt",
+      "note": "Aangekondigd volgende boek over leven in een wereld die we niet meer delen",
+      "start_seconds": 3335
     }
   ],
   "bible_refs": [
     {
-      "ref": "Genesis 11",
-      "note": "Toren van Babel: God verwart de talen zodat mensen elkaar niet meer verstaan, als metafoor voor social media",
-      "start_seconds": 1922
+      "ref": "Genesis 11:1-9",
+      "note": "Verhaal van de Toren van Babel; Haidt gebruikt het als metafoor voor gefragmenteerde social media-gemeenschappen",
+      "start_seconds": 1923
+    },
+    {
+      "ref": "Genesis 11:7",
+      "note": "Sleutelregel: 'Laten wij afdalen en hun taal verwarren, zodat ze elkaar niet meer verstaan'",
+      "start_seconds": 2040
     }
   ],
   "places": [
     "Amsterdam",
     "New York",
     "Brooklyn",
-    "Verenigde Staten",
     "Nederland",
     "Connecticut",
-    "Australië",
-    "Canada",
-    "Scandinavië",
-    "Groot-Brittannië",
-    "China"
+    "Groenland"
   ],
-  "summary_tldr": "Sociaal-psycholoog Jonathan Haidt legt uit waarom smartphones en social media de geestelijke gezondheid en aandacht van jongeren hebben aangetast, en waarom AI dit nog kan verergeren. Hij bespreekt het bewijs voor causaliteit, de rol van big tech en de metafoor van de Toren van Babel voor democratie. Ook gaat hij in op religie als beschermende factor tegen anomie.",
+  "summary_tldr": "Sociaal psycholoog Jonathan Haidt stelt dat smartphones en social media sinds circa 2012 de geestelijke gezondheid, aandacht en democratie van jongeren en samenlevingen ernstig hebben aangetast, en dat AI dit probleem zal verergeren. Hij verdedigt zijn bewijsvoering tegen correlatiekritiek, wijst op de sociale en morele functie van religie en pleit voor bottom-up actie van ouders. Over de Verenigde Staten is hij somber, vooral vanwege polarisatie en het beleid van Donald Trump.",
   "summary_points": [
-    "Volgens Haidt is dit het laatste jaar om in te grijpen, omdat AI zich exponentieel ontwikkelt en nog niet diep verweven is met het kinderleven.",
-    "De geestelijke gezondheid van tieners stort rond 2012 in, vooral bij meisjes, toen smartphones en Instagram gemeengoed werden.",
-    "Naast mentale problemen zijn er ook dalende onderwijsprestaties en afnemend concentratievermogen sinds 2012.",
-    "Cultuur werd eeuwenlang verticaal overgedragen, maar jongeren ontvangen die nu horizontaal via online ephemera.",
-    "Haidt onderscheidt het internet (nuttig) van social media (schadelijk) met like-knop en engagement-model.",
-    "Zijn bewijs voor causaliteit: wereldwijde gelijktijdigheid, ongeveer 25 experimenten en interne documenten van techbedrijven.",
-    "Big tech wordt vergeleken met de tabaksindustrie, maar is verslavender door sociale druk.",
-    "Social media fragmenteert de samenleving zoals God bij Babel de talen verwarde en is volgens Haidt onverenigbaar met liberale democratie.",
-    "Religieuze en conservatieve gezinnen zijn beter beschermd tegen anomie, omdat zij een gedeelde morele matrix en meer beperkingen kennen."
+    "AI komt snel op en versterkt het risico op desinformatie en het bereik van kwaadwillenden; Haidt noemt dit het laatste jaar om de problemen aan te pakken.",
+    "Vanaf circa 2012 nam de geestelijke gezondheid van tieners wereldwijd sterk af, vooral bij meisjes, samen met toenemende depressie en zelfbeschadiging.",
+    "Haidt ziet social media (met likes, retweets en newsfeeds) als een andere factor dan het internet zelf, en beschrijft het als een 'attention economy' die verslaving bevordert.",
+    "Hij verdedigt zijn causale claim met drie argumenten: het ontbreken van alternatieve verklaringen, experimenten met social media-reductie en interne documenten van techbedrijven.",
+    "Haidt vergelijkt de techbedrijven met de tabaksindustrie en ziet een parallel in hun strategieën om het publieke debat te beïnvloeden.",
+    "Verticale overdracht van cultuur (via verhalen, boeken en religie) wordt volgens Haidt vervangen door horizontale, fragmenterende informatiestromen, wat aandacht en leesvermogen ondermijnt.",
+    "Religie en conservatieve gezinnen beschermen volgens Haidt beter tegen de schadelijke effecten van social media, mede door sterkere morele kaders en meer toezicht.",
+    "De Amerikaanse democratie is volgens Haidt door polarisatie ernstig beschadigd, en de machtsbalans tussen Congres en president werkt niet meer.",
+    "Haidt is weinig optimistisch over Amerikaanse wetgeving tegen big tech, maar ziet hoop in actie van ouders, scholen en Europese landen.",
+    "Praktisch advies: geef kinderen verhalen en films in plaats van snel wisselende korte video's, en beperk het gebruik van fragmenterende apparaten."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Urgentie rond AI",
-      "summary": "Haidt legt uit waarom dit het laatste moment is om in te grijpen en waarom AI het verlies aan gedeelde feiten kan versterken."
+      "title": "Inleiding en urgentie van AI",
+      "summary": "Haidt legt uit waarom het volgens hem het laatste jaar is om social media aan te pakken, mede door de opkomst van AI."
     },
     {
-      "start_seconds": 393,
-      "title": "De twee grote problemen: mentale gezondheid en aandacht",
-      "summary": "Van overbescherming naar de wereldwijde mentale crisis bij tieners en de daling van onderwijsprestaties sinds 2012."
+      "start_seconds": 398,
+      "title": "Waarom smartphones en social media schaden",
+      "summary": "Haidt beschrijft zijn achtergrond, de overbescherming van kinderen en de plotselinge stijging van tienerdepressie rond 2012."
     },
     {
-      "start_seconds": 640,
-      "title": "Verticale versus horizontale cultuuroverdracht",
-      "summary": "Haidt betoogt dat cultuur niet meer van oudere generaties komt maar via online stromen, en bespreekt kritiek van Paas."
+      "start_seconds": 516,
+      "title": "Van verticale naar horizontale cultuuroverdracht",
+      "summary": "Volgens Haidt verdringt de constante stroom van informatie via smartphones het lezen en het leren van eerdere generaties; Stefan Paas nuanceert dit."
     },
     {
-      "start_seconds": 840,
-      "title": "Van techno-optimisme naar zorg",
-      "summary": "Een geschiedenis van internet, smartphone, like-knop en de verschillende effecten op jongens en meisjes."
+      "start_seconds": 1504,
+      "title": "Correlatie, causaliteit en de tabaksindustrie",
+      "summary": "Haidt verdedigt zijn bewijsvoering tegen critici en wijst op experimenten, interne documenten en getuigenissen van jongeren."
     },
     {
-      "start_seconds": 1470,
-      "title": "Correlatie en causaliteit",
-      "summary": "Haidt geeft drie argumenten tegen de kritiek: wereldwijde timing, experimenten en bekentenissen van techbedrijven."
+      "start_seconds": 2127,
+      "title": "Religie, gemeenschap en anomie",
+      "summary": "Met Durkheim als uitgangspunt bespreekt Haidt hoe religie en conservatieve gezinnen jongeren beschermen, en hoe de secularisatie van Nederland past in dat beeld."
     },
     {
-      "start_seconds": 1920,
-      "title": "Toren van Babel en democratie",
-      "summary": "Social media als moderne Babel die gedeelde betekenis versplintert."
+      "start_seconds": 3129,
+      "title": "Democratie, polarisatie en Trump",
+      "summary": "Haidt beschrijft het falen van de Amerikaanse checks and balances en de rol van polarisatie en Trump, en is somber over de toekomst."
     },
     {
-      "start_seconds": 2100,
-      "title": "Religie als bescherming tegen anomie",
-      "summary": "Durkheim, de morele matrix en waarom religieuze en conservatieve gezinnen minder last hebben van de crisis."
+      "start_seconds": 3695,
+      "title": "Praktische tips voor ouders",
+      "summary": "Haidt onderscheidt verhaaltijd, die goed is, van fragmenteertijd, en geeft advies over schermgebruik voor kinderen en volwassenen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 15,
+      "start_seconds": 2244,
       "speaker": "Jonathan Haidt",
-      "text": "Wanneer er geen gedeelde normen en geen morele matrix zijn, zijn mensen de weg kwijt; ze zijn niet vrij maar gedesoriënteerd.",
-      "note": "Verbindt de crisis onder jongeren met Durkheims anomie."
+      "text": "Ze zijn niet vrij. Het is alsof je zegt: ik kan doen wat ik wil. Ze zijn gedesoriënteerd en kunnen geen betekenis vinden.",
+      "note": "Haidt verbindt het gebrek aan gedeelde normen met verlies van zingeving bij jongeren."
     },
     {
-      "start_seconds": 225,
-      "speaker": "Jonathan Haidt",
-      "text": "Kinderen moeten moeilijke dingen doen; technologie die alles makkelijk maakt is voor hen een probleem.",
-      "note": "Scherpe stelling over AI en inspanning."
+      "start_seconds": 1840,
+      "speaker": "Stefan Paas",
+      "text": "Klinkt als de tabaksindustrie in de jaren zestig en zeventig.",
+      "note": "Paas trekt de parallel met tabak die Haidt zelf ook maakt, wat de ernst van de beschuldiging onderstreept."
     },
     {
-      "start_seconds": 2031,
+      "start_seconds": 3838,
       "speaker": "Jonathan Haidt",
-      "text": "Dit is big tobacco, maar dan verslavender: als 90% van de kinderen erop zit, ben je een outcast als je er niet bij zit.",
-      "note": "Treffende vergelijking met de tabaksindustrie."
+      "text": "Fragmenteertijd leert je een uitstekende rechter te zijn van de vraag: is dit het meest boeiende wat ik nu zou kunnen doen?",
+      "note": "Een scherpe beschrijving van hoe kinderen worden getraind in constante prikkelzoektocht."
     },
     {
-      "start_seconds": 2074,
+      "start_seconds": 3208,
       "speaker": "Jonathan Haidt",
-      "text": "God verwart bij Babel de talen; social media doet hetzelfde en versplintert ons in miljarden gemeenschappen van betekenis.",
-      "note": "Bijzondere bijbelse lezing als metafoor voor democratie."
+      "text": "Het is een manichaïstische, goed-tegen-kwaad mentaliteit, en dan is alles gerechtvaardigd om ze te verslaan.",
+      "note": "Haidt legt de polarisatie in de VS uit als een gevaarlijke moraalpsychologische dynamiek."
     },
     {
-      "start_seconds": 2245,
+      "start_seconds": 3333,
       "speaker": "Jonathan Haidt",
-      "text": "Het aandeel jongeren dat zegt dat hun leven nutteloos voelt verdubbelde van 9% naar circa 20% rond 2012-2019.",
-      "note": "Meest indrukwekkende grafiek uit het boek."
+      "text": "Ik zie geen weg terug naar minder polarisatie.",
+      "note": "Een pessimistische uitspraak die de titel van zijn volgende boek inleidt."
     }
   ],
   "keywords": [
-    "Jonathan Haidt",
-    "The Anxious Generation",
-    "smartphone",
-    "social media",
-    "AI",
+    "smartphones",
+    "sociale media",
+    "Gen Z",
     "anomie",
-    "Émile Durkheim",
-    "Toren van Babel",
-    "democratie",
+    "polarisatie",
     "religie",
     "aandacht",
-    "Gen Z"
+    "Toren van Babel",
+    "correlatie",
+    "tabaksindustrie",
+    "fragmenteertijd",
+    "democratie"
   ],
-  "quotes": [],
+  "quotes": [
+    "De situatie is urgent want volgens Haidt is dit ons laatste jaar om de problemen echt aan te pakken, zeker met AI (kunstmatige intelligentie) op komst.",
+    "Hij is bovendien iemand die breed nadenkt: over de staat van de democratie (hoe krijg je die weer gezond?) en ook over de rol van religie, waar hij als – atheïst – bijzonder interessante ideeën over heeft."
+  ],
   "similar": [
     {
       "n": 191,
-      "reason": "Esther van Fenema over geestelijke schade van smartphone en social media bij jongeren"
+      "reason": "Zelfde thema: geestelijke schade door smartphones en social media bij jongeren"
     },
     {
-      "n": 287,
-      "reason": "Waarom jongeren vastlopen: angst, eenzaamheid en overprikkeling in individualistische tijd"
+      "n": 318,
+      "reason": "Technologie, AI en psychische uit-balans-zijn van het moderne brein"
     },
     {
-      "n": 292,
-      "reason": "Denkbeelden en macht van Big Tech, met technologie en filosofie"
+      "n": 144,
+      "reason": "Gevaren van AI en de nu al merkbare invloed op mensen"
     },
     {
-      "n": 257,
-      "reason": "Techniek, AI en de aanval op de ziel; sociaal experiment"
+      "n": 298,
+      "reason": "AI-risico's, gekoppeld aan Trump en technologische macht"
     },
     {
       "n": 249,
-      "reason": "Mentale epidemie, psychische problemen onder jongeren en uitweg"
+      "reason": "Mentale gezondheidscrisis, vooral onder jongeren, met mogelijke uitweg"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

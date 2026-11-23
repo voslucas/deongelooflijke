@@ -1,190 +1,179 @@
 {
   "episode": 155,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95628,
+    "segments": 1000,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31195,
-    "output_tokens": 2731,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49183,
+    "output_tokens": 8045,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
     "God & geloof",
-    "Kerk & secularisatie",
-    "Geschiedenis"
+    "Geschiedenis",
+    "Politiek"
   ],
   "guests": [
     "Ger Groot"
   ],
   "people": [
     {
-      "name": "Jean-Paul Sartre",
-      "note": "Franse existentialist, schreef Huis clos (de hel zijn de anderen)",
-      "start_seconds": 366,
-      "wiki_checked": true,
-      "wiki_pageid": 871,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Paul_Sartre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Paul_Sartre_FP.JPG/250px-Jean-Paul_Sartre_FP.JPG"
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; 'de dood van God' en de übermensch",
+      "start_seconds": 35,
+      "mention_count": 14
     },
     {
       "name": "René Descartes",
-      "note": "Filosoof, begin van de moderne filosofie met 'cogito ergo sum'",
-      "start_seconds": 527,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "Blaise Pascal",
-      "note": "Wiskundige en denker uit de 17e eeuw",
-      "start_seconds": 531,
-      "wiki_checked": true,
-      "wiki_pageid": 200,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Blaise_Pascal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blaise_Pascal_Versailles.JPG/250px-Blaise_Pascal_Versailles.JPG"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "Filosoof van de 'dood van God', favoriet van Ger Groot",
-      "start_seconds": 640,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Charles Taylor",
-      "note": "Canadese katholieke filosoof, auteur van Bronnen van het zelf",
-      "start_seconds": 726,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg"
-    },
-    {
-      "name": "Peter Brown",
-      "note": "Historicus, favoriet van Ger Groot",
-      "start_seconds": 755,
-      "wiki_checked": true,
-      "wiki_pageid": 1624064,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Brown_%28historicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Peter_Brown_Balzan_Prize_Ceremony_2011.JPG/250px-Peter_Brown_Balzan_Prize_Ceremony_2011.JPG"
+      "note": "Filosoof; 'ik denk, dus ik ben' als startpunt van de moderniteit",
+      "start_seconds": 518,
+      "mention_count": 8
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader die voor Descartes al het twijfelargument gebruikte",
-      "start_seconds": 1442,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; al eerder de zekerheid van twijfel beschreven",
+      "start_seconds": 719,
+      "mention_count": 4
     },
     {
-      "name": "Martin Heidegger",
-      "note": "Existentialistisch denker, levensproject als wilsbeslissing",
-      "start_seconds": 1665,
-      "wiki_checked": true,
-      "wiki_pageid": 12620,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Heidegger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Heidegger_4_%281960%29_cropped.jpg/250px-Heidegger_4_%281960%29_cropped.jpg"
-    },
-    {
-      "name": "Lodewijk XVI",
-      "note": "Franse koning, onthoofd tijdens de Franse Revolutie",
-      "start_seconds": 1691,
-      "wiki_checked": true,
-      "wiki_pageid": 28372,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_XVI_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg/250px-Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg"
-    },
-    {
-      "name": "Jean-Jacques Rousseau",
-      "note": "Denker over de volkswil",
-      "start_seconds": 1889,
-      "wiki_checked": true,
-      "wiki_pageid": 36778,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Jacques_Rousseau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/250px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "Voorbeeld van democratisch aan de macht komen",
-      "start_seconds": 1993,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Sigmund Freud",
-      "note": "Psycholoog van het onderbewustzijn",
-      "start_seconds": 2087,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "name": "Charles Taylor",
+      "note": "Canadees katholiek filosoof; werk over secularisatie en het zelf",
+      "start_seconds": 726,
+      "mention_count": 4
     },
     {
       "name": "Arthur Schopenhauer",
-      "note": "Filosoof die de werkelijkheid als chaotische wil zag",
+      "note": "Filosoof; de wereld als blinde wil en chaos",
       "start_seconds": 2112,
-      "wiki_checked": true,
-      "wiki_pageid": 34358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_Schopenhauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg/250px-Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Richard Wagner",
-      "note": "Componist beïnvloed door Schopenhauer",
-      "start_seconds": 2132,
-      "wiki_checked": true,
-      "wiki_pageid": 8755,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Wagner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/250px-RichardWagner.jpg"
+      "name": "Michel Foucault",
+      "note": "Filosoof; 'de dood van de mens' in De woorden en de dingen",
+      "start_seconds": 2599,
+      "mention_count": 6
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "Filosoof; de mens ondergeschikt aan het zijn",
+      "start_seconds": 2712,
+      "mention_count": 2
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "note": "Filosoof; toneelstuk Huis clos en existentialisme",
+      "start_seconds": 359,
+      "mention_count": 2
+    },
+    {
+      "name": "Jacques Derrida",
+      "note": "Filosoof; waarheid als noodzakelijke wet van het denken",
+      "start_seconds": 3102,
+      "mention_count": 1
+    },
+    {
+      "name": "Jean-Jacques Rousseau",
+      "note": "Filosoof; volkswil als nieuwe bron van legitimiteit",
+      "start_seconds": 1887,
+      "mention_count": 1
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Wiskundige en filosoof, tijdgenoot van Descartes",
+      "start_seconds": 528,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psycholoog; onderbewustzijn sterker dan bewustzijn",
+      "start_seconds": 2087,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Darwin",
+      "note": "Bioloog; evolutietheorie, later misbruikt door roofkapitalisten",
+      "start_seconds": 2504,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "Door Paas genoemd als Nietzscheaans figuur",
+      "note": "Amerikaans politicus; als Nietzscheaans figuur geduid door Stefan Paas",
       "start_seconds": 2275,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; voorbeeld in de discussie over democratie",
+      "start_seconds": 2001,
+      "mention_count": 2
+    },
+    {
+      "name": "Lodewijk XVI",
+      "note": "Franse koning; onthoofd tijdens de Franse Revolutie",
+      "start_seconds": 1684,
+      "mention_count": 1
+    },
+    {
+      "name": "Karel III",
+      "note": "Brits koning; kroning als voorbeeld van goddelijk gezag",
+      "start_seconds": 1737,
+      "mention_count": 1
+    },
+    {
+      "name": "Pilatus",
+      "note": "Romeins landvoogd; vroeg Jezus naar de waarheid",
+      "start_seconds": 3074,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Figuur uit het Nieuwe Testament; door Pilatus ondervraagd over waarheid",
+      "start_seconds": 3074,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Brown",
+      "note": "Historicus; favoriete historicus van Ger Groot",
+      "start_seconds": 754,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul van Tongeren",
+      "note": "Filosoof; eerdere aflevering over de dood van God",
+      "start_seconds": 2568,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Wagner",
+      "note": "Componist; beïnvloed door Schopenhauer",
+      "start_seconds": 2112,
+      "mention_count": 1
     },
     {
       "name": "Plato",
-      "note": "Antieke denker van de harmonische werkelijkheid",
+      "note": "Oudgriekse filosoof; idee van een harmonische werkelijkheid",
       "start_seconds": 2172,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Boris Karloff",
+      "note": "Acteur; speelde het monster in Frankenstein-film uit de jaren 30",
+      "start_seconds": 1604,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De geest uit de fles",
       "author": "Ger Groot",
-      "note": "Moderne filosofie als worsteling met de erfenis van religie",
-      "start_seconds": 1149,
+      "note": "Boek waarin moderne filosofie wordt beschreven als worsteling met de erfenis van religie",
+      "start_seconds": 35,
       "volume_id": "xCMlMQAACAAJ",
       "canonical_title": "De geest uit de fles: een zintuiglijke geschiedenis van het moderne denken",
       "canonical_author": "Ger Groot",
@@ -193,34 +182,64 @@
       "thumbnail": ""
     },
     {
-      "title": "Bronnen van het zelf",
-      "author": "Charles Taylor",
-      "note": "Over de ontwikkeling van individualiteit",
-      "start_seconds": 732,
-      "volume_id": "YWF2PwAACAAJ",
-      "canonical_title": "Bronnen van het zelf: de onstaansgeschiedenis van de moderne identiteit",
-      "canonical_author": "Charles Taylor",
-      "isbn13": "9789047701583",
-      "isbn10": "9047701585",
-      "thumbnail": "http://books.google.com/books/content?id=YWF2PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
       "title": "De vrolijke wetenschap",
       "author": "Friedrich Nietzsche",
-      "note": "Bevat de dolle mens die de dood van God verkondigt",
+      "note": "Ger Groot las dit werk als jongere en was er diep door geraakt",
       "start_seconds": 680,
-      "volume_id": "kbpzAAAAQBAJ",
-      "canonical_title": "De vrolijke wetenschap",
+      "volume_id": "i2F1AAAACAAJ",
+      "canonical_title": "De vrolijke wetenschap (La gaya scienza)",
       "canonical_author": "Friedrich Nietzsche",
-      "isbn13": "9789029582506",
-      "isbn10": "9029582502",
-      "thumbnail": "http://books.google.com/books/content?id=kbpzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789029535342",
+      "isbn10": "9029535342",
+      "thumbnail": ""
     },
     {
-      "title": "Het Monster van Frankenstein",
+      "title": "Sources of the Self",
+      "author": "Charles Taylor",
+      "note": "Over de ontwikkeling van ons idee van individualiteit",
+      "start_seconds": 732,
+      "volume_id": "iwTXAAAAMAAJ",
+      "canonical_title": "Sources of the Self: The Making of the Modern Identity",
+      "canonical_author": "Charles Taylor",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=iwTXAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "De stad van God",
+      "author": "Augustinus",
+      "note": "Boek 11 bevat het wapen tegen de sceptici: twijfel bewijst het bestaan van het ik",
+      "start_seconds": 1449,
+      "volume_id": "kzknGQAACAAJ",
+      "canonical_title": "De stad van God",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026319952",
+      "isbn10": "9026319959",
+      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "De woorden en de dingen",
+      "author": "Michel Foucault",
+      "note": "Eindigt met het beeld van de mens als tekening in het zand die wordt uitgewist",
+      "start_seconds": 2599,
+      "volume_id": "trGnMwEACAAJ",
+      "canonical_title": "De woorden en de dingen: een archeologie van de menswetenschappen",
+      "canonical_author": "Michel Foucault, Walter van der Star",
+      "isbn13": "9789085060734",
+      "isbn10": "9085060737",
+      "thumbnail": ""
+    },
+    {
+      "title": "Stoff und Kraft",
       "author": "",
-      "note": "Film uit de jaren 30: 'Now I know what it is to be God'",
-      "start_seconds": 1580
+      "note": "Negentiende-eeuwse bestseller over natuurkrachten die Nietzsche beïnvloedde",
+      "start_seconds": 2442,
+      "volume_id": "MxdyuwEACAAJ",
+      "canonical_title": "Kraft und Stoff",
+      "canonical_author": "Ludwig Büchner",
+      "isbn13": "9780270142150",
+      "isbn10": "0270142150",
+      "thumbnail": "http://books.google.com/books/content?id=MxdyuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
@@ -228,128 +247,141 @@
     "Amsterdam",
     "Rotterdam",
     "Nijmegen",
-    "Utrecht",
-    "Frankrijk",
-    "Indonesië",
     "Oxford",
-    "Staphorst"
+    "Staphorst",
+    "Zandvoort",
+    "Duitsland",
+    "Frankrijk",
+    "Rusland",
+    "China"
   ],
-  "summary_tldr": "Ger Groot, katholiek atheïst en filosoof, legt uit hoe de moderne filosofie sinds Descartes worstelt met het wegvallen van God als absoluut ankerpunt. Van Descartes via de Franse Revolutie en Schopenhauer tot Nietzsche wordt de mens steeds meer de plaatsvervanger van God. Dat raakt nog steeds aan kwesties als waarheid, democratie en goed en kwaad.",
+  "summary_tldr": "Ger Groot betoogt dat de moderne filosofie sinds Descartes een lange worsteling is met de erfenis van religie, nadat het geloof in een absoluut ankerpunt wegviel. Via Nietzsche's 'dood van God' en Foucault's 'dood van de mens' schetst hij hoe waarheid, moraal en legitimiteit steeds minder vastliggen. Het gesprek eindigt met de vraag of gedeelde waarden en democratie die verschuiving kunnen overleven.",
   "summary_points": [
-    "Filosofie zit overal: in kunst, muziek, tuinen, keuken en zelfs pornografie.",
-    "Academische filosofie is te technisch en afstandelijk geworden.",
-    "Groot groeide katholiek op, verloor pijnloos zijn geloof, maar behield een katholiek levensgevoel.",
-    "Religie is volgens Groot vooral praktijk en ritueel, iets wat humanisten nu missen.",
-    "Moderne filosofie is een poging zonder God de werkelijkheid opnieuw te denken.",
-    "Descartes plaatst de zekerheid in het ik in plaats van in God.",
-    "De Franse Revolutie vervangt goddelijke legitimiteit door volkswil, met het probleem van meerderheid versus goed.",
-    "Schopenhauer en Nietzsche zien de werkelijkheid als chaos en de mens als eenzame held.",
-    "Nietzsche was subtieler dan zijn reputatie en voelde angst voor de gevolgen van Gods dood."
+    "Filosofie zit overal, van kunst en tuinen tot de keuken en taboes rond voedsel.",
+    "Descartes begint de moderniteit door de zekerheid van het ik te stellen in plaats van die van God.",
+    "De Franse Revolutie vervangt de koning door het volk, waarmee legitimiteit een probleem wordt.",
+    "Nietzsche's 'dood van God' laat geen absoluut criterium van goed en kwaad over.",
+    "Schopenhauer en Nietzsche zien de werkelijkheid als blinde krachten en wil in plaats van harmonie.",
+    "Foucault stelt dat na God ook de mens als centrum verdwijnt, wat leidt tot fluïde categorieën.",
+    "Gesprek over waarheid: relativering versus de blijvende kracht van het begrip waarheid, ook in complottheorieën.",
+    "Stefan Paas wijst op het belang van rituelen en traditie die religie biedt, wat het seculiere denken mist.",
+    "De discussie eindigt met zorgen over het verlies van democratische waarden en grondrechten."
   ],
   "chapters": [
     {
-      "start_seconds": 155,
+      "start_seconds": 0,
+      "title": "Intro en aankondigingen",
+      "summary": "Presentator David Boogerd introduceert Ger Groot en Stefan Paas, en kondigt de Ongelooflijke Live-avonden aan."
+    },
+    {
+      "start_seconds": 161,
       "title": "Filosofie is overal",
-      "summary": "Groot legt uit hoe filosofie zichtbaar is in kunst, tuinen, keuken en pornografie, en waarom de academische filosofie afstandelijk werd."
+      "summary": "Groot legt uit hoe filosofie terugkomt in kunst, pornografie, de keuken en tuinstijlen."
     },
     {
-      "start_seconds": 640,
-      "title": "Favoriete denkers",
-      "summary": "Groot vertelt over zijn diepe indruk van Nietzsche, Paas noemt Charles Taylor."
+      "start_seconds": 645,
+      "title": "Nietzsche en Taylor als inspiratie",
+      "summary": "Groot vertelt hoe Nietzsche hem overweldigde en noemt Charles Taylor als hedendaagse favoriet."
     },
     {
-      "start_seconds": 771,
-      "title": "Katholiek atheïst",
-      "summary": "Groot vertelt over zijn katholieke opvoeding, het pijnloos verdwijnen van geloof en zijn visie op religie als ritueel."
-    },
-    {
-      "start_seconds": 1149,
-      "title": "Filosofie na de dood van God",
-      "summary": "De moderne filosofie als zoektocht naar een nieuw ankerpunt nu God als absoluut punt wegvalt."
+      "start_seconds": 780,
+      "title": "Katholieke atheïst",
+      "summary": "Groot vertelt over zijn katholieke jeugd, het verdwijnen van zijn geloof en zijn blijvende band met de kerk en rituelen."
     },
     {
       "start_seconds": 1380,
-      "title": "Descartes en het zekere ik",
-      "summary": "Descartes' cogito en de verschuiving van God naar de mens, met verwijzing naar Augustinus."
-    },
-    {
-      "start_seconds": 1660,
-      "title": "Existentialisme en Franse Revolutie",
-      "summary": "Hoe goed en kwaad en politieke legitimiteit losraken van God en het volk de nieuwe bron van gezag wordt."
+      "title": "Descartes en de moderne mens",
+      "summary": "Descartes' 'ik denk, dus ik ben' wordt uitgelegd als keerpunt waarin de mens het ankerpunt wordt."
     },
     {
       "start_seconds": 2030,
-      "title": "Nietzsche, Schopenhauer en Freud",
-      "summary": "De werkelijkheid als chaos, het onderbewustzijn en Nietzsches eenzame held, de Übermensch."
+      "title": "Nietzsche, Schopenhauer en de dood van God",
+      "summary": "De gedachten over wil, chaos en de dood van God worden besproken, met hun gevolgen voor moraal en economie."
+    },
+    {
+      "start_seconds": 2568,
+      "title": "De dood van de mens",
+      "summary": "Foucault en Heidegger worden besproken, en de vraag hoe een mens zonder vast punt kan leven en handelen."
+    },
+    {
+      "start_seconds": 3215,
+      "title": "Waarheid, relativering en hoop",
+      "summary": "Discussie over waarheid, complottheorieën, democratie en de vraag of de worsteling ooit eindigt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 366,
+      "start_seconds": 2364,
       "speaker": "Ger Groot",
-      "text": "De hel zijn de anderen: parallel tussen een pornofilm uit de jaren 70 en Sartres Huis clos.",
-      "note": "Verrassende link tussen pornografie en filosofie."
+      "text": "En wij hebben hem vermoord.",
+      "note": "Verwijst naar de dolle mens van Nietzsche en laat zien hoe de dood van God in de cultuur doorwerkt."
     },
     {
-      "start_seconds": 1118,
-      "speaker": "Ger Groot",
-      "text": "Humanisten ervaren dat ze rituele elementen missen, wat naar religie riekt maar kennelijk een fundamentele behoefte is.",
-      "note": "Scherpe observatie over de behoefte aan ritueel."
-    },
-    {
-      "start_seconds": 1580,
-      "speaker": "Ger Groot",
-      "text": "Frankenstein roept: 'Now I know what it is to be God.'",
-      "note": "Illustreert de mens die zich God waant."
-    },
-    {
-      "start_seconds": 1993,
-      "speaker": "Ger Groot",
-      "text": "Er is geen logische reden om te veronderstellen dat wat de meeste mensen denken ook het goede is.",
-      "note": "Kritische blik op democratie zonder transcendent ankerpunt."
-    },
-    {
-      "start_seconds": 2275,
+      "start_seconds": 2956,
       "speaker": "Stefan Paas",
-      "text": "Is Trump niet een echt Nietzscheaans figuur?",
-      "note": "Actuele en omstreden toepassing van Nietzsche."
+      "text": "Er is geen wij meer.",
+      "note": "Scherpe samenvatting van het probleem: zonder God en zonder mens verdwijnt ook de basis voor gedeelde moraal."
+    },
+    {
+      "start_seconds": 3267,
+      "speaker": "Ger Groot",
+      "text": "Complottheorieën laten zich juist kennen door het feit dat ze zo stellig zijn dat ze het absoluut zeker weten.",
+      "note": "Onverwachte observatie dat het relativisme juist stellige waarheidsclaims oproept."
+    },
+    {
+      "start_seconds": 3548,
+      "speaker": "Ger Groot",
+      "text": "Ik ben een god, in het diepst van mijn gedachten zit.",
+      "note": "Samenvatting van de innerlijke moderniteit die vanaf de Reformatie en de 19e eeuw doorzet."
+    },
+    {
+      "start_seconds": 3740,
+      "speaker": "Stefan Paas",
+      "text": "Dat we wel in de eindfase zitten van democratische systemen en ideeën van grondrechten.",
+      "note": "Sombere slotgedachte die de filosofische analyse koppelt aan actuele politieke ontwikkelingen."
     }
   ],
   "keywords": [
+    "dood van God",
+    "dood van de mens",
     "Nietzsche",
     "Descartes",
-    "dood van God",
-    "Ger Groot",
-    "moderne filosofie",
-    "katholiek atheïsme",
-    "Franse Revolutie",
-    "Schopenhauer",
+    "moderniteit",
+    "secularisatie",
+    "waarheid",
+    "relativisme",
+    "Foucault",
     "existentialisme",
-    "ritueel",
-    "volkswil",
-    "Übermensch"
+    "romantiek",
+    "legitimiteit"
   ],
-  "quotes": [],
+  "quotes": [
+    "Filosofie is overal, in alle hoeken van de samenleving: muziek, kunst, pornografie en de keuken.",
+    "de geschiedenis van de moderne filosofie één lange worsteling is met de erfenis van religie.",
+    "Ger legt het allemaal kraakhelder uit."
+  ],
   "similar": [
     {
       "n": 122,
-      "reason": "Nietzsches 'God is dood' met Denker des Vaderlands Paul van Tongeren; filosofie en secularisatie."
-    },
-    {
-      "n": 212,
-      "reason": "De impact van 'de dood van God' op samenleving; zelfde kernthema."
+      "reason": "Gaat direct over Nietzsches 'God is dood' en de filosofische gevolgen daarvan"
     },
     {
       "n": 50,
-      "reason": "Einde van de Europese traditie en christendom, filosofisch en historisch ingestoken."
+      "reason": "Filosofie over het einde van de Europese traditie en het christendom"
     },
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over de crisis van het Westen, filosofie en geschiedenis."
+      "n": 209,
+      "reason": "Filosofische vraag naar het grote verhaal en zingeving voor onze tijd"
     },
     {
-      "n": 183,
-      "reason": "Filosofische denker uit de geschiedenis (Spinoza), God, politiek en moderniteit."
+      "n": 293,
+      "reason": "Filosofie en geschiedenis over wat er in deze historische tijd toe doet"
+    },
+    {
+      "n": 301,
+      "reason": "Filosofie over legitimiteit van de staat en de losgezongen seculiere elite"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

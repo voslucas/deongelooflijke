@@ -1,108 +1,125 @@
 {
   "episode": 129,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110015,
+    "segments": 1137,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30263,
-    "output_tokens": 2649,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55719,
+    "output_tokens": 3062,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Wetenschap & kosmos",
     "Zingeving & psyche",
-    "God & geloof",
-    "Kerk & secularisatie"
+    "Wetenschap & kosmos",
+    "Klimaat & natuur",
+    "God & geloof"
   ],
   "guests": [
     "Wouter van Noort"
   ],
   "people": [
     {
-      "name": "Jan Rotmans",
-      "note": "transitiehoogleraar, schreef 'Omarm de chaos'",
-      "start_seconds": 400,
-      "wiki_checked": true,
-      "wiki_pageid": 4092052,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Rotmans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Portret_Jan_Rotmans.jpg/250px-Portret_Jan_Rotmans.jpg"
-    },
-    {
       "name": "Richard Dawkins",
-      "note": "bioloog en atheïst, auteur van The God Delusion en The Selfish Gene",
-      "start_seconds": 686,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "note": "bioloog en atheïst; auteur van The God Delusion, gelezen thuis",
+      "start_seconds": 679,
+      "mention_count": 3
     },
     {
-      "name": "René Descartes",
-      "note": "17e-eeuwse filosoof, scheiding van geest en materie, dieren als machines",
-      "start_seconds": 1719,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "name": "Jan Rotmans",
+      "note": "transitiehoogleraar; schreef 'Omarm de chaos'",
+      "start_seconds": 402,
+      "mention_count": 1
     },
     {
       "name": "Lynn White",
-      "note": "historicus die in 1967 de christelijke wortels van de ecologische crisis aanwees",
+      "note": "historicus die in 1967 de Bijbelse wortels van de ecologische crisis aanwees",
       "start_seconds": 1777,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "17e-eeuwse filosoof; scheiding materie en geest, dieren als machines",
+      "start_seconds": 1705,
+      "mention_count": 3
     },
     {
       "name": "Francis Bacon",
-      "note": "17e-eeuwse denker die het paradijs wilde terugwinnen via de natuurbeheersing",
+      "note": "17e-eeuwse denker over het terugwinnen van het paradijs",
       "start_seconds": 1830,
-      "wiki_checked": true,
-      "wiki_pageid": 70918,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Bacon_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/250px-Somer_Francis_Bacon.jpg"
+      "mention_count": 1
     },
     {
       "name": "Carl Sagan",
-      "note": "astronoom, 'we are stardust'",
-      "start_seconds": 2002,
-      "wiki_checked": true,
-      "wiki_pageid": 68300,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carl_Sagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Carl_Sagan_Planetary_Society.JPG/250px-Carl_Sagan_Planetary_Society.JPG"
+      "note": "astronoom; 'we are stardust'",
+      "start_seconds": 1993,
+      "mention_count": 1
     },
     {
       "name": "Frank Wilczek",
-      "note": "Nobelprijswinnend natuurkundige, panentheïst",
-      "start_seconds": 2114,
-      "wiki_checked": true,
-      "wiki_pageid": 1421073,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frank_Wilczek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/FrankStockholm2004.jpg/250px-FrankStockholm2004.jpg"
+      "note": "Nobelprijswinnende natuurkundige; panentheïst",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Roger Penrose",
+      "note": "natuurkundige; betoogt dat bewustzijn niet computationeel is",
+      "start_seconds": 4190,
+      "mention_count": 2
+    },
+    {
+      "name": "Bernardo Kastrup",
+      "note": "filosoof die stelt dat alles bewustzijn is; eerder gast",
+      "start_seconds": 3996,
+      "mention_count": 2
+    },
+    {
+      "name": "Pim Martens",
+      "note": "hoogleraar Maastricht, onderzoek naar inheemse culturen",
+      "start_seconds": 3650,
+      "mention_count": 1
+    },
+    {
+      "name": "Fridtjof Capra",
+      "note": "natuurkundige; sprak over crisis van perceptie",
+      "start_seconds": 3290,
+      "mention_count": 1
+    },
+    {
+      "name": "Dick Swaab",
+      "note": "hersenwetenschapper; 'wij zijn ons brein'",
+      "start_seconds": 3945,
+      "mention_count": 1
+    },
+    {
+      "name": "Typhoon",
+      "note": "zanger/rapper die eerder te gast was",
+      "start_seconds": 2715,
+      "mention_count": 1
+    },
+    {
+      "name": "Rosemarijn van het Einde",
+      "note": "dominee en activist; gast volgende aflevering",
+      "start_seconds": 4335,
+      "mention_count": 1
+    },
+    {
+      "name": "Lion King",
+      "note": "verwijzing naar 'cycle of life'",
+      "start_seconds": 3705,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Omarm de chaos",
-      "author": "Jan Rotmans",
-      "note": "over omgaan met systeemverandering en turbulentie",
-      "start_seconds": 400,
-      "volume_id": "70fNzgEACAAJ",
-      "canonical_title": "Omarm de chaos",
-      "canonical_author": "Jan Rotmans, Mischa Verheijden",
-      "isbn13": "9789044546538",
-      "isbn10": "9044546538",
-      "thumbnail": ""
-    },
-    {
       "title": "The God Delusion",
       "author": "Richard Dawkins",
-      "note": "werd bij Wouter thuis gelezen",
-      "start_seconds": 686,
+      "note": "atheïstisch boek dat thuis werd gelezen",
+      "start_seconds": 679,
       "volume_id": "grccDzrTWLUC",
       "canonical_title": "The God Delusion",
       "canonical_author": "Richard Dawkins",
@@ -111,152 +128,169 @@
       "thumbnail": "http://books.google.com/books/content?id=grccDzrTWLUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "The Historical Roots of our Ecological Crisis",
-      "author": "Lynn White",
-      "note": "artikel uit 1967 van 5 pagina's",
-      "start_seconds": 2005,
-      "volume_id": "H5CutgAACAAJ",
-      "canonical_title": "The Historical Roots of Our Ecological Crisis",
-      "canonical_author": "Lynn White",
-      "isbn13": null,
-      "isbn10": null,
+      "title": "Omarm de chaos",
+      "author": "Jan Rotmans",
+      "note": "over turbulentie en systeemverandering",
+      "start_seconds": 402,
+      "volume_id": "70fNzgEACAAJ",
+      "canonical_title": "Omarm de chaos",
+      "canonical_author": "Jan Rotmans, Mischa Verheijden",
+      "isbn13": "9789044546538",
+      "isbn10": "9044546538",
       "thumbnail": ""
+    },
+    {
+      "title": "How Consciousness Became the Universe",
+      "author": "",
+      "note": "door Nobelprijswinnende natuurkundigen",
+      "start_seconds": 876,
+      "volume_id": "byOzjgEACAAJ",
+      "canonical_title": "How Consciousness Became the Universe",
+      "canonical_author": "Deepak Chopra, Roger Penrose, Brandon Carter",
+      "isbn13": "9781938024429",
+      "isbn10": "1938024427",
+      "thumbnail": "http://books.google.com/books/content?id=byOzjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Genesis 1",
-      "note": "heersen over de dieren en de mens aan de top van de schepping",
-      "start_seconds": 1747
+      "ref": "Genesis 1:28",
+      "note": "mens krijgt opdracht de aarde te bewerken en te heersen",
+      "start_seconds": 1755
     },
     {
-      "ref": "Genesis 3",
-      "note": "'Na de stof van de aarde ben je genomen'",
-      "start_seconds": 1995
+      "ref": "Genesis 2:19",
+      "note": "Adam die de dieren namen geeft",
+      "start_seconds": 3120
+    },
+    {
+      "ref": "Genesis 2:7",
+      "note": "na de stof van de aarde ben je genomen",
+      "start_seconds": 1990
     }
   ],
   "places": [
     "Utrecht",
+    "Rotterdam",
     "Kampen",
-    "Amsterdam",
-    "Verenigd Koninkrijk"
+    "Maastricht",
+    "Zwitserse Alpen",
+    "Noord-Italië",
+    "Zuidwest-Frankrijk",
+    "Amazone"
   ],
-  "summary_tldr": "NRC-journalist Wouter van Noort vertelt hoe zijn atheïstische, wetenschappelijke opvoeding via bewustzijnsonderzoek en quantumfysica plaatsmaakte voor agnosticisme en interesse in spiritualiteit. Samen met Stefan Paas bespreekt hij de zingevingscrisis, de beperkingen van de wetenschap en de bijbelse en verlichte wortels van onze omgang met de natuur. Ook gaat het over nieuwe vormen van gemeenschap en over het taoïsme.",
+  "summary_tldr": "Wouter van Noort, journalist bij NRC, vertelt hoe het volgen van nieuwe wetenschap hem van atheïsme naar een open, agnostische zoektocht naar zingeving bracht. Stefan Paas en David Boogerd bevragen die beweging, met name over het verband tussen natuur, bewustzijn en de Bijbelse rol van de mens. Het gesprek eindigt met de vraag wat er gebeurt als de verbondenheid met gemeenschap en natuur verloren gaat.",
   "summary_points": [
-    "Wouter kijkt naar de onderstroom van nieuwe ontwikkelingen en verwacht eerst turbulentie voordat het beter wordt.",
-    "Hij ziet een zingevingscrisis: veel antidepressiva, burn-outs en verdwaalde mensen na het afbreken van zingevende structuren.",
-    "Hij joeg secularisatie vroeger toe, maar vraagt zich nu af of het kind met het badwater is weggegooid.",
-    "Uit een Harvard-studie blijkt dat relaties en een hoger doel mensen gelukkig maken.",
-    "Op de rand van de wetenschap (bewustzijn, quantumfysica, fractals) wordt het mysterie groter in plaats van kleiner.",
-    "Stefan Paas waarschuwt dat wetenschap en religie niet elkaars bewijs moeten zijn, maar wel elk een bron kunnen zijn.",
-    "Lynn White's these over de christelijke wortels van de ecologische crisis wordt genuanceerd: de versnelling kwam in de 17e eeuw.",
-    "Wouter noemt zichzelf agnost en voelt zich aangetrokken tot het taoïsme.",
-    "Nieuwe vormen van gezamenlijkheid, ook fysiek, zijn nodig als tegenwicht voor sociale media."
+    "Wouter van Noort ziet de toekomst als open en richt zich op de onderstroom van nieuwe manieren van leven.",
+    "Hij ziet een zingevingscrisis door het wegvallen van gedeelde verhalen en religieuze structuren.",
+    "Nieuwe wetenschap (fractals, quantumfysica, bewustzijnsonderzoek) toont volgens hem dat het mysterie groeit.",
+    "Wouter groeide op in een atheïstisch gezin en was vroeger een voorstander van secularisatie.",
+    "Stefan Paas pleit voor verbondenheid met een concrete gemeenschap en ziet wetenschap en geloof niet als tegenpolen.",
+    "Het bewustzijnsvraagstuk blijft onopgelost; sommige natuurkundigen zien bewustzijn als fundamenteel.",
+    "Het gesprek gaat over de Bijbelse rol van de mens ten opzichte van de natuur en de historische wortels van de ecologische crisis.",
+    "Wouter is agnostisch en houdt bewust een niet-weten-positie, waar Stefan kritisch op reageert.",
+    "Een luisteraar vraagt naar het spanningsveld tussen journalistiek en persoonlijke zingeving bij NRC.",
+    "AI en de vraag of machines bewustzijn kunnen krijgen worden als laatste onderwerp besproken."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een uitstapje naar de toekomst",
-      "summary": "Kennismaking met Wouter van Noort en zijn nieuwsbrieven Future Affairs en Transcend. Hij verwacht turbulentie maar ook een optimistische onderstroom."
+      "title": "Welkom en de toekomst",
+      "summary": "Presentatie van de gasten en een verkenning van wat de toekomst brengt, van quantumcomputers tot klimaatzorgen."
     },
     {
-      "start_seconds": 465,
+      "start_seconds": 480,
       "title": "Zingevingscrisis en secularisatie",
-      "summary": "Wouter vertelt over de zingevingscrisis en vraagt zich af of met de religie ook iets waardevols is verdwenen. Hij verwijst naar onderzoek over geluk en relaties."
+      "summary": "Wouter spreekt over het wegvallen van zingevende structuren en zijn eigen verandering van atheïst naar zoeker."
     },
     {
-      "start_seconds": 660,
-      "title": "Van Dawkins naar het mysterie",
-      "summary": "Over zijn atheïstische opvoeding en hoe bewustzijnsonderzoek, quantumfysica en fractals hem aan het twijfelen brachten."
+      "start_seconds": 1050,
+      "title": "Wetenschap en het mysterie",
+      "summary": "Bewustzijn, fractals en het waarnemerseffect laten zien dat wetenschap nieuwe mysteries oproept."
     },
     {
-      "start_seconds": 1000,
-      "title": "Wetenschap en geloof: geen concurrenten",
-      "summary": "Stefan Paas waarschuwt tegen het tegenover elkaar zetten of aan elkaar koppelen van wetenschap en religie. Wouter beschrijft zijn verwondering en voorbehoud bij het woord spiritualiteit."
+      "start_seconds": 1800,
+      "title": "Bijbelse wortels van de ecologische crisis",
+      "summary": "Stefan en Wouter bespreken of het Bijbelse mensbeeld heeft bijgedragen aan de natuurcrisis, met Lynn White en Descartes als referentie."
     },
     {
-      "start_seconds": 1720,
-      "title": "Bijbel, Descartes en de natuur",
-      "summary": "Discussie over de wortels van de ecologische crisis: Lynn White, de 17e eeuw, Descartes en animisme versus onttovering."
+      "start_seconds": 3000,
+      "title": "Natuur, verbondenheid en perceptie",
+      "summary": "Gesprek over symbiose, bosbranden, de gibbon en het idee dat andere levende wezens een eigen wereld hebben."
     },
     {
-      "start_seconds": 2114,
-      "title": "Panentheïsme en vragen uit het publiek",
-      "summary": "Wilczek, het verschil tussen panteïsme en panentheïsme, en een vraag over wat nodig is tegen verdwaaldheid: nieuwe structuren voor gezamenlijkheid."
-    },
-    {
-      "start_seconds": 2290,
-      "title": "Taoïsme en agnosticisme",
-      "summary": "Wouter over het taoïsme, het niet-kunnen-weten en zijn agnostische grondhouding, met kritische vragen van Stefan Paas."
+      "start_seconds": 3900,
+      "title": "Publieksvragen en bewustzijn",
+      "summary": "Vragen uit het publiek over zingeving, NRC-journalistiek, bewustzijn en de kans dat AI bewustzijn krijgt."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 524,
+      "start_seconds": 1305,
       "speaker": "Wouter van Noort",
-      "text": "Is er niet met dat kind van de georganiseerde religie ook heel veel kind met het badwater weggegooid?",
-      "note": "Kernvraag van het gesprek over secularisatie."
+      "text": "Het mysterie wordt alleen maar groter naarmate we dieper kijken.",
+      "note": "Een kernuitspraak die de spanning tussen wetenschap en zingeving samenvat."
     },
     {
-      "start_seconds": 686,
+      "start_seconds": 2580,
       "speaker": "Wouter van Noort",
-      "text": "We lazen thuis letterlijk Richard Dawkins, The God Delusion.",
-      "note": "Humoristisch en onthullend over zijn atheïstische opvoeding."
+      "text": "Het is een Harvard-studie: het gaat niet om geld of werk, het gaat om relaties.",
+      "note": "Koppelt wetenschappelijk onderzoek aan oude wijsheid over verbondenheid."
     },
     {
-      "start_seconds": 968,
-      "speaker": "Wouter van Noort",
-      "text": "Het mysterie wordt eigenlijk alleen maar groter naarmate we dieper kijken.",
-      "note": "Centrale stelling over wetenschap en mysterie."
+      "start_seconds": 2185,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt wetenschap doen zonder religie en religieus zijn zonder wetenschap, maar de werkelijkheid is uiteindelijk één.",
+      "note": "Een verzoenende gedachte die het gesprek ordent."
     },
     {
-      "start_seconds": 1527,
+      "start_seconds": 3480,
       "speaker": "Wouter van Noort",
-      "text": "Er is misschien wel veel meer wat we niet weten dan we wel weten. Wauw, dat wist ik niet.",
-      "note": "Persoonlijke verwondering die hem energie geeft."
+      "text": "Het idee van een totaal geïsoleerd individu blijft helemaal niet overeind in die wetenschap.",
+      "note": "Scherpe kritiek op het individualisme vanuit de biologie."
     },
     {
-      "start_seconds": 2330,
-      "speaker": "Wouter van Noort",
-      "text": "Ik was atheïst. Ik ben nu, denk ik, agnost. Ik weet het meer niet dan ik een tijdje geleden dacht te weten.",
-      "note": "Eerlijke zelfpositionering."
+      "start_seconds": 4390,
+      "speaker": "Stefan Paas",
+      "text": "Je bent er gevoelig voor of niet; het is ongeveer even moeilijk uit te leggen als wat iemand mist die niets met geloven heeft.",
+      "note": "Laat zien hoe moeilijk het is om zingeving te communiceren."
     }
   ],
   "keywords": [
-    "zingevingscrisis",
-    "secularisatie",
+    "zingeving",
     "bewustzijn",
-    "quantumfysica",
-    "spiritualiteit",
-    "agnosticisme",
-    "taoïsme",
-    "onttovering",
+    "secularisatie",
     "panentheïsme",
-    "Lynn White",
-    "Descartes",
-    "Richard Dawkins"
+    "ecologische crisis",
+    "Bijbelse schepping",
+    "quantumfysica",
+    "agnosticisme",
+    "onttovering",
+    "symbiose"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 164,
-      "reason": "Wetenschappelijk mysterie van bewustzijn, grenzen van de wetenschap en geloof"
-    },
-    {
       "n": 74,
-      "reason": "Kwantumfysica en bewustzijn als aanwijzing dat er meer is tussen hemel en aarde"
+      "reason": "Bernardo Kastrup, besproken in deze aflevering, over kwantumfysica en een bredere werkelijkheid"
     },
     {
-      "n": 282,
-      "reason": "Hersenwetenschap, bewustzijn en de vraag of religie een hersenspinsel is"
+      "n": 164,
+      "reason": "Zoektocht naar bewustzijn en de wetenschappelijke grens met geloof en zingeving"
     },
     {
-      "n": 150,
-      "reason": "Wetenschapper over het einde van 'wetenschap heeft God dood verklaard'"
+      "n": 38,
+      "reason": "Typhoon wordt besproken; zoeken naar God met thema's wetenschap en zingeving"
+    },
+    {
+      "n": 171,
+      "reason": "Zingeving en wetenschap met onderzoek naar betekenis en welzijn"
     },
     {
       "n": 227,
-      "reason": "Jan Rotmans over grote verandering, wetenschap en maatschappij met Stefan Paas"
+      "reason": "Jan Rotmans, besproken in deze aflevering; wetenschap, klimaat en God-thema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

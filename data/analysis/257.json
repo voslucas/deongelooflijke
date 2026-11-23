@@ -1,17 +1,22 @@
 {
   "episode": 257,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 164600,
+    "segments": 2065,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32670,
-    "output_tokens": 2483,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 89082,
+    "output_tokens": 11473,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Filosofie & ethiek",
     "Geschiedenis",
+    "Filosofie & ethiek",
     "Zingeving & psyche"
   ],
   "guests": [
@@ -20,327 +25,506 @@
   "people": [
     {
       "name": "Jonathan Haidt",
-      "note": "socioloog die schreef over smartphones en kinderen; eerder te gast",
-      "start_seconds": 424,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
-    },
-    {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, voorbeeld van een politicus die past bij sociale media",
-      "start_seconds": 645,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "note": "eigenaar van X en de AI Grok",
-      "start_seconds": 727,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "note": "Oekraïense president, genoemd bij de persconferentie in het Witte Huis",
-      "start_seconds": 663,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "politicus die sociale media goed bespeelt",
-      "start_seconds": 820,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Rutger Bregman",
-      "note": "auteur, over progressieve zuiverheid",
-      "start_seconds": 844,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "Socioloog/auteur over smartphones en jeugd; eerder te gast in de podcast",
+      "start_seconds": 413,
+      "mention_count": 6
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof, kritiek op het schrift in de Phaedrus",
-      "start_seconds": 1157,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof die zich zorgen maakt over het schrift",
+      "start_seconds": 1137,
+      "mention_count": 10
     },
     {
-      "name": "Prometheus",
-      "note": "Griekse mythe over het stelen van het vuur en techniek",
-      "start_seconds": 1339,
-      "wiki_checked": true,
-      "wiki_pageid": 5293,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Prometheus_%28mythologie%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Prometheus_Adam_Louvre_MR1745_edit_atoma.jpg/250px-Prometheus_Adam_Louvre_MR1745_edit_atoma.jpg"
-    },
-    {
-      "name": "Francis Bacon",
-      "note": "eerste filosoof met een optimistische visie op techniek",
-      "start_seconds": 1468,
-      "wiki_checked": true,
-      "wiki_pageid": 70918,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Bacon_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/250px-Somer_Francis_Bacon.jpg"
-    },
-    {
-      "name": "René Descartes",
-      "note": "zag lichaam en dieren als machines",
-      "start_seconds": 1563,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "Baruch Spinoza",
-      "note": "schreef Ethica more geometrico",
-      "start_seconds": 1594,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "kritiek op de krantencultuur van de 19e eeuw",
-      "start_seconds": 1741,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Henry David Thoreau",
-      "note": "kritiek op telegraaf en nieuws, trok zich terug in een hut",
-      "start_seconds": 1793,
-      "wiki_checked": true,
-      "wiki_pageid": 104515,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_David_Thoreau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Henry_David_Thoreau.jpg/250px-Henry_David_Thoreau.jpg"
+      "name": "Martin Heidegger",
+      "note": "Filosoof die de techniekvraag stelt en wezensvragen als verloren ziet",
+      "start_seconds": 1134,
+      "mention_count": 5
     },
     {
       "name": "Upton Sinclair",
-      "note": "schrijver van The Jungle",
+      "note": "Schrijver van de roman The Jungle (De Wildernis)",
       "start_seconds": 224,
-      "wiki_checked": true,
-      "wiki_pageid": 708617,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Upton_Sinclair",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Upton_Beall_Sinclair_Jr.jpg/250px-Upton_Beall_Sinclair_Jr.jpg"
+      "mention_count": 2
     },
     {
       "name": "Nescio",
-      "note": "Nederlandse schrijver, anekdote over de boekenredactie",
-      "start_seconds": 201,
-      "wiki_checked": true,
-      "wiki_pageid": 27878,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nescio",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Nescio4.jpg/250px-Nescio4.jpg"
+      "note": "Schrijver van De uitvreter",
+      "start_seconds": 194,
+      "mention_count": 1
+    },
+    {
+      "name": "Henry David Thoreau",
+      "note": "Amerikaanse denker die zich terugtrekt en kritiek heeft op telegraaf en industrie",
+      "start_seconds": 1781,
+      "mention_count": 6
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; kritiek op de moderne krant en de übermensch",
+      "start_seconds": 1741,
+      "mention_count": 8
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof die de mens en dieren als machine beschouwt",
+      "start_seconds": 1563,
+      "mention_count": 3
+    },
+    {
+      "name": "Francis Bacon",
+      "note": "Vroegmoderne denker die techniek verbindt met vooruitgang",
+      "start_seconds": 1468,
+      "mention_count": 4
+    },
+    {
+      "name": "Voltaire",
+      "note": "Verlichtingsdenker die waarschuwt dat machines de mens niet mogen vervangen",
+      "start_seconds": 2338,
+      "mention_count": 5
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; voorbeeld van aandachtseconomie en polarisatie",
+      "start_seconds": 645,
+      "mention_count": 8
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president, genoemd als voorbeeld van wisselende hype",
+      "start_seconds": 663,
+      "mention_count": 1
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Eigenaar van X; AI Grok die antisemitische uitspraken deed",
+      "start_seconds": 729,
+      "mention_count": 3
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus die sociale media strategisch inzet",
+      "start_seconds": 820,
+      "mention_count": 1
+    },
+    {
+      "name": "Filippo Tommaso Marinetti",
+      "note": "Italiaanse futuristische dichter die oorlog en machinegeweld verheerlijkt",
+      "start_seconds": 2936,
+      "mention_count": 6
+    },
+    {
+      "name": "Leni Riefenstahl",
+      "note": "Filmregisseur en nazipropagandiste, innovator in filmtechniek",
+      "start_seconds": 3195,
+      "mention_count": 3
+    },
+    {
+      "name": "Fjodor Dostojevski",
+      "note": "Russische schrijver die zich keert tegen zielloze, materialistische steden",
+      "start_seconds": 3084,
+      "mention_count": 4
+    },
+    {
+      "name": "Leo Tolstoj",
+      "note": "Schrijver die kritiek uit op de krant en techniek",
+      "start_seconds": 1987,
+      "mention_count": 4
+    },
+    {
+      "name": "Vladimir Lenin",
+      "note": "Sovjetleider die machinaal denken en arbeid wilde organiseren",
+      "start_seconds": 3487,
+      "mention_count": 3
+    },
+    {
+      "name": "Alexei Gastev",
+      "note": "Sovjetfunctionaris die arbeiders als machine-eenheden wilde inrichten",
+      "start_seconds": 3500,
+      "mention_count": 2
+    },
+    {
+      "name": "Jevgeni Samjatin",
+      "note": "Auteur van de dystopie Wij (1922)",
+      "start_seconds": 3538,
+      "mention_count": 2
+    },
+    {
+      "name": "George Orwell",
+      "note": "Auteur van 1984",
+      "start_seconds": 3553,
+      "mention_count": 1
+    },
+    {
+      "name": "Aldous Huxley",
+      "note": "Auteur van Brave New World",
+      "start_seconds": 3553,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psychoanalyticus die de psyche als machine beschrijft",
+      "start_seconds": 3803,
+      "mention_count": 3
+    },
+    {
+      "name": "Michelangelo",
+      "note": "Renaissancekunstenaar; de David als voorbeeld van authenticiteit van kunst",
+      "start_seconds": 2556,
+      "mention_count": 3
+    },
+    {
+      "name": "Walter Benjamin",
+      "note": "Filosoof die over de aura van reproduceerbare kunst schrijft",
+      "start_seconds": 2560,
+      "mention_count": 2
+    },
+    {
+      "name": "Piet Mondriaan",
+      "note": "Kunstenaar die zich liet inspireren door Marinetti",
+      "start_seconds": 3319,
+      "mention_count": 2
+    },
+    {
+      "name": "Sam Altman",
+      "note": "Topman van OpenAI, genoemd in discussie over technologische vooruitgang",
+      "start_seconds": 3729,
+      "mention_count": 2
+    },
+    {
+      "name": "Isaiah Berlin",
+      "note": "Politiek filosoof; onderscheid tussen positieve en negatieve vrijheid",
+      "start_seconds": 4311,
+      "mention_count": 2
+    },
+    {
+      "name": "Joep Dohmen",
+      "note": "Nederlandse filosoof die spiritueel kapitaal benoemt",
+      "start_seconds": 4045,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Sandel",
+      "note": "Amerikaanse publieksfilosoof over technologie en slimheid",
+      "start_seconds": 3697,
+      "mention_count": 2
+    },
+    {
+      "name": "Philipp Blom",
+      "note": "Duitse historicus die ludieten ongelijk geeft",
+      "start_seconds": 2018,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Skidelsky",
+      "note": "Econoom die technologische werkgelegenheid bespreekt",
+      "start_seconds": 2036,
+      "mention_count": 1
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaans president; sluiting van kolenmijnen",
+      "start_seconds": 2060,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident; auteur van Hillbilly Elegy",
+      "start_seconds": 2156,
+      "mention_count": 3
+    },
+    {
+      "name": "Thomas Mann",
+      "note": "Duitse schrijver die de decadentie van de cultuur signaleert",
+      "start_seconds": 2894,
+      "mention_count": 3
+    },
+    {
+      "name": "Carlos Alcaraz",
+      "note": "Tennisser, als voorbeeld van menselijk talent",
+      "start_seconds": 2812,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Historicus die over progressieve coalities spreekt",
+      "start_seconds": 844,
+      "mention_count": 2
+    },
+    {
+      "name": "Piketty",
+      "note": "Econoom van het boek over kapitaal en ongelijkheid",
+      "start_seconds": 288,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerdi Verbeet",
+      "note": "Politica; foto van PvdA-GroenLinks-congres",
+      "start_seconds": 883,
+      "mention_count": 1
+    },
+    {
+      "name": "Rob Oudkerk",
+      "note": "Politicus die Verbeet troost op foto",
+      "start_seconds": 883,
+      "mention_count": 1
+    },
+    {
+      "name": "Gene Twenge",
+      "note": "Psychologe die smartphones en generatie onderzoekt",
+      "start_seconds": 4701,
+      "mention_count": 1
+    },
+    {
+      "name": "Prometheus",
+      "note": "Mythische figuur die vuur naar de mensen brengt",
+      "start_seconds": 1339,
+      "mention_count": 4
+    },
+    {
+      "name": "David Brooks",
+      "note": "Columnist en auteur van The Road to Character",
+      "start_seconds": 5073,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "Mens en machine",
       "author": "Roderick Nieuwenhuis",
-      "note": "boek van de gast over techniek en mensbeeld",
+      "note": "Het boek waarover het gesprek gaat",
       "start_seconds": 33,
-      "volume_id": "6jwvEQAAQBAJ",
-      "canonical_title": "Mens en machine: Hoe stoom, stroom en smartphone ons ondermijnen",
+      "volume_id": "zQ5l0QEACAAJ",
+      "canonical_title": "Mens en Machine",
       "canonical_author": "Roderick Nieuwenhuis",
-      "isbn13": "9789026365270",
-      "isbn10": "9026365276",
-      "thumbnail": "http://books.google.com/books/content?id=6jwvEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789026365263",
+      "isbn10": "9026365268",
+      "thumbnail": ""
     },
     {
       "title": "The Jungle (De Wildernis)",
       "author": "Upton Sinclair",
-      "note": "roman over een vleesfabriek in Chicago met veel maatschappelijke impact",
+      "note": "Roman over vleesfabriek in Chicago met politieke impact",
       "start_seconds": 224,
-      "volume_id": "qSzTCgAAQBAJ",
-      "canonical_title": "The Jungle: A Novel",
+      "volume_id": "YQUNzgEACAAJ",
+      "canonical_title": "The Jungle",
       "canonical_author": "Upton Sinclair",
-      "isbn13": "9781497672109",
-      "isbn10": "1497672104",
-      "thumbnail": "http://books.google.com/books/content?id=qSzTCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9798565917468",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=YQUNzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Phaedrus",
+      "title": "Phaedrus (Fedros)",
       "author": "Plato",
-      "note": "kritiek op het schrift en het geheugen",
-      "start_seconds": 1157,
-      "volume_id": "LimEpjrIYdgC",
+      "note": "Dialoog over het schrift en het geheugen",
+      "start_seconds": 1163,
+      "volume_id": "m56EqYgBh-wC",
       "canonical_title": "Phaedrus",
       "canonical_author": "Plato",
-      "isbn13": "9780141925523",
-      "isbn10": "0141925523",
-      "thumbnail": "http://books.google.com/books/content?id=LimEpjrIYdgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780801485329",
+      "isbn10": "0801485320",
+      "thumbnail": "http://books.google.com/books/content?id=m56EqYgBh-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Hillbilly Elegy",
+      "author": "JD Vance",
+      "note": "Boek over deindustrialisatie in Amerika",
+      "start_seconds": 2169,
+      "volume_id": "YNkEzgEACAAJ",
+      "canonical_title": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+      "canonical_author": "J. D. Vance",
+      "isbn13": "9780063045989",
+      "isbn10": "0063045982",
+      "thumbnail": "http://books.google.com/books/content?id=YNkEzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Wij",
+      "author": "Jevgeni Samjatin",
+      "note": "Dystopische roman met cijfers als namen",
+      "start_seconds": 3538,
+      "volume_id": "cS4yAgAAQBAJ",
+      "canonical_title": "Wij",
+      "canonical_author": "Jevgeni Zamjatin",
+      "isbn13": "9789045019611",
+      "isbn10": "9045019612",
+      "thumbnail": "http://books.google.com/books/content?id=cS4yAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "The Road to Character",
+      "author": "David Brooks",
+      "note": "Over eulogy-virtues versus resume-virtues",
+      "start_seconds": 5073,
+      "volume_id": "mz63BQAAQBAJ",
+      "canonical_title": "The Road to Character",
+      "canonical_author": "David Brooks",
+      "isbn13": "9780241186732",
+      "isbn10": "0241186730",
+      "thumbnail": "http://books.google.com/books/content?id=mz63BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Two Concepts of Liberty",
+      "author": "Isaiah Berlin",
+      "note": "Essay over positieve en negatieve vrijheid",
+      "start_seconds": 4311,
+      "volume_id": "bewLAQAAIAAJ",
+      "canonical_title": "Two Concepts of Liberty: An Inaugural Lecture Delivered Before the University of Oxford on 31 October 1958",
+      "canonical_author": "Isaiah Berlin",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=bewLAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 4",
-      "note": "Jabal, Jubal en Tubal-Kaïn als uitvinders van landbouw, muziek en smeedkunst",
-      "start_seconds": 1255
+      "note": "Verhaal van Kaïn en Abel en de uitvinders Jabal, Jubal en Tubal-Kaïn",
+      "start_seconds": 1254
     }
   ],
   "places": [
-    "Amsterdam",
-    "Zwolle",
     "Athene",
     "Chicago",
-    "Texas",
+    "Sparta",
+    "Wenen",
+    "Parijs",
+    "Berlijn",
     "Californië",
-    "Engeland"
+    "Texas",
+    "San Francisco",
+    "Rotterdam",
+    "Zwolle",
+    "München",
+    "Wales",
+    "Dover"
   ],
-  "summary_tldr": "Roderick Nieuwenhuis, auteur van 'Mens en machine', bespreekt met David Boogerd en Stefan Paas hoe techniek ons mensbeeld en gedrag verandert. Van Plato en Bacon tot Thoreau en de smartphone: kritiek op techniek is oud, maar de aandachtseconomie maakt het nu urgent. De centrale vraag is wat techniek met onze ziel doet.",
+  "summary_tldr": "Roderick Nieuwenhuis bespreekt met David Boogerd en Stefan Paas hoe techniek, van het schrift tot smartphones en AI, ons denken, onze samenleving en ons mensbeeld heeft beïnvloed. Hij laat zien dat kritiek op techniek al eeuwen bestaat, van Plato tot Marinetti en de Sovjet-Unie. Het gesprek eindigt bij de vraag hoe we met techniek omgaan zonder de ziel en het menselijke verbindende te verliezen.",
   "summary_points": [
-    "Smartphones en social media voelen als een sociaal experiment waar niemand om vroeg",
-    "Aandachtseconomie maakt media en politiek theatraal en polariserend, Trump als voorbeeld",
-    "Progressieve ouders hebben volgens Haidt minder moreel vocabulaire om schermgebruik te begrenzen",
-    "Ook journalisten worden steeds meer marketeers door klikcijfers",
-    "Techniekkritiek is oud: Plato maakte zich al zorgen over het schrift",
-    "De Bijbel is dubbelzinnig over techniek, anders dan de Prometheus-mythe",
-    "Sinds Bacon en Descartes wordt de wereld, en de mens, als machine gezien",
-    "Nieuws zonder handelingsmogelijkheid zorgt voor machteloosheid en verdeeldheid"
+    "Smartphones en social media zijn ontworpen om aandacht vast te houden, wat ook gezinnen en opvoeding raakt.",
+    "Media en politiek bespelen de aandachtseconomie met polarisatie, hype en korte spanningsbogen.",
+    "Kritiek op techniek is oud: Plato vreesde het schrift, Thoreau en Nietzsche bekritiseerden de krant en telegraaf.",
+    "Vroegmoderne denkers als Bacon en Descartes zagen de mens en de wereld steeds meer als machine.",
+    "Techniek kan ook fascisme en geweld voeden, zoals bij Marinetti en Riefenstahl.",
+    "In de Sovjet-Unie werden mensen als eenheden gedisciplineerd; dystopieën als Wij en 1984 waarschuwen daarvoor.",
+    "Het mechanische mensbeeld (Freud, psychologie) lost problemen op maar tekent de ziel en betekenis weg.",
+    "AI en gereproduceerde kunst missen de aura, frictie en verbinding met een maker.",
+    "Voltaire waarschuwt dat machines de menselijke imperfectie moeten benadrukken, niet vervangen.",
+    "Praktische handvatten: smartphone uitzetten, schermloze zondagen, dingen doen waarvoor je anderen nodig hebt, en je afvragen wat in je eulogy zou staan."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een sociaal experiment",
-      "summary": "Introductie en Roderick over zijn achtergrond en liefde voor literatuur."
+      "title": "Inleiding en kennismaking",
+      "summary": "David Boogerd introduceert Roderick Nieuwenhuis en zijn boek Mens en machine. Het gesprek opent met het gevoel in een sociaal experiment te leven."
     },
     {
       "start_seconds": 396,
-      "title": "Smartphone, kinderen en moraal",
-      "summary": "Over verslavende technologie, opvoeding en het verschil tussen progressieve en conservatieve ouders."
+      "title": "Smartphones, aandacht en opvoeding",
+      "summary": "Roderick beschrijft hoe zijn kinderen opgroeiden met smartphones en social media. Stefan Paas en Roderick bespreken verschillen tussen progressieve en christelijke ouders."
     },
     {
-      "start_seconds": 625,
-      "title": "Aandachtseconomie en politiek",
-      "summary": "Trump, Musk en Grok als voorbeelden van theater en polarisatie."
+      "start_seconds": 721,
+      "title": "Aandachtseconomie, media en politiek",
+      "summary": "Het gesprek gaat over Trump, Musk en Grok, clickbait en de commerciële druk op journalistiek. Ook de polarisatie en het verlies van nuance komen aan bod."
     },
     {
-      "start_seconds": 880,
-      "title": "Media onder druk",
-      "summary": "Klikcijfers, marketing in de journalistiek en het dilemma van de podcast."
+      "start_seconds": 1134,
+      "title": "Oude techniekkritiek: van Plato tot Bacon",
+      "summary": "Plato's kritiek op het schrift, Genesis 4 en de mythe van Prometheus worden besproken. Daarna volgt de vroegmoderne opkomst van het mechanische wereldbeeld via Bacon en Descartes."
     },
     {
-      "start_seconds": 1140,
-      "title": "Plato, Genesis en Prometheus",
-      "summary": "De oude wortels van techniekkritiek en bijbelse en Griekse perspectieven."
+      "start_seconds": 2400,
+      "title": "Ambacht, AI en de waarde van kunst",
+      "summary": "Roderick vergelijkt schrijven met het maken van een stoel en vraagt zich af wat AI-teksten betekenen. Benjamin, Michelangelo en tennis illustreren wat menselijk talent en aura betekenen."
     },
     {
-      "start_seconds": 1468,
-      "title": "Bacon, Descartes en het mechanische mensbeeld",
-      "summary": "Hoe de wetenschappelijke revolutie wereld, dier en mens als machine ging zien."
+      "start_seconds": 3360,
+      "title": "Fascisme, machinale esthetiek en de Sovjet-Unie",
+      "summary": "Marinetti, Nietzsche en de Eerste Wereldoorlog laten zien hoe de verheerlijking van de machine kon ontsporen. De Sovjet-Unie en Riefenstahl tonen het gevaar van collectieve disciplinering."
     },
     {
-      "start_seconds": 1741,
-      "title": "Nieuws, Nietzsche en Thoreau",
-      "summary": "19e-eeuwse kritiek op krant en telegraaf en de kloof tussen weten en kunnen."
+      "start_seconds": 4020,
+      "title": "De ziel en de vraag naar betekenis",
+      "summary": "Freud, de psychologisering van de ziel en Heidegger komen aan bod. Het gesprek gaat over positieve en negatieve vrijheid en het verlangen naar een verhaal."
+    },
+    {
+      "start_seconds": 4800,
+      "title": "Praktische handvatten voor omgang met techniek",
+      "summary": "Stefan en Roderick bespreken concrete keuzes zoals schermvrije tijd, afmelden van social media en bewust vertragen. David Brooks' vraag wat er op je begrafenis wordt gezegd sluit het gesprek af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 21,
+      "start_seconds": 437,
       "speaker": "Stefan Paas",
-      "text": "Je hebt nooit op een partij gestemd die gezegd heeft: wij gaan een sociaal experiment doen met uw kinderen.",
-      "note": "Zet de toon van de aflevering."
+      "text": "Het is ervoor gemaakt om constant je aandacht vast te houden.",
+      "note": "Samenvatting van het verslavende ontwerp van social media die de aandachtseconomie voeden."
     },
     {
-      "start_seconds": 727,
-      "speaker": "David Boogerd",
-      "text": "Musks AI Grok ontkende de Holocaust en Musk reageerde met: there's never a dull moment.",
-      "note": "Illustreert de aandachtseconomie."
-    },
-    {
-      "start_seconds": 783,
-      "speaker": "Stefan Paas",
-      "text": "Trump zei na de persconferentie met Zelensky: this makes for great television.",
-      "note": "Politiek als entertainment."
-    },
-    {
-      "start_seconds": 1155,
+      "start_seconds": 1158,
       "speaker": "Roderick Nieuwenhuis",
-      "text": "Plato maakte zich zorgen dat het schrift ons geheugen zou aantasten.",
-      "note": "Techniekkritiek is eeuwenoud en ironisch."
+      "text": "Wat ironisch is, hè, want hij heeft zijn beroemdheid te danken aan het schrift.",
+      "note": "Plato's kritiek op het schrift wordt ironisch doordat zijn eigen werk juist via schrift bewaard bleef."
     },
     {
-      "start_seconds": 1879,
+      "start_seconds": 2350,
+      "speaker": "Roderick Nieuwenhuis",
+      "text": "Voltaire zegt juist: de machine moet juist benadrukken wat ons menselijk maakt.",
+      "note": "Een verlichte denker die machines niet als ideaal ziet, maar als spiegel van onze imperfectie."
+    },
+    {
+      "start_seconds": 3593,
+      "speaker": "Roderick Nieuwenhuis",
+      "text": "Ik kwam terecht bij een lang vergeten woord, nou, de ziel.",
+      "note": "Citaat uit Samjatins Wij: het moment waarop de dystopische hoofdpersoon de ziel herontdekt."
+    },
+    {
+      "start_seconds": 4182,
       "speaker": "Stefan Paas",
-      "text": "Je span of attention is veel groter dan je span of control.",
-      "note": "Scherpe duiding van digitale machteloosheid."
+      "text": "Wij zijn geen uh slecht gelukte machines. Wij zijn mensen.",
+      "note": "Korte, scherpe samenvatting van het menselijke tegenover de machinale blik."
     }
   ],
   "keywords": [
-    "techniek",
-    "smartphone",
-    "aandachtseconomie",
-    "kunstmatige intelligentie",
-    "mensbeeld",
+    "Techniek",
+    "Smartphone",
+    "Aandachtseconomie",
+    "Mechanisch mensbeeld",
+    "Ziel",
+    "Kunstmatige intelligentie",
     "Plato",
-    "Francis Bacon",
     "Descartes",
-    "Thoreau",
-    "Prometheus",
-    "social media",
-    "ziel"
+    "Positieve en negatieve vrijheid",
+    "Machinale esthetiek",
+    "Fascisme",
+    "Zingeving"
   ],
   "quotes": [
     "De machines rukken op!",
-    "Wat doet techniek met onze ziel?"
+    "Ons hele leven – en zelfs ons mensbeeld – is beïnvloed door de machine.",
+    "Wat doet techniek met onze ziel? En hoe gaan we daar goed mee om?"
   ],
   "similar": [
     {
       "n": 206,
-      "reason": "Frank Mulder over Jacques Ellul en de impact van technologie op ons leven en mensbeeld."
+      "reason": "Kritiek op technologie en de moderniteit, met Jacques Ellul; sterk aansluitend bij de techniekkritiek."
     },
     {
       "n": 247,
-      "reason": "Jonathan Haidt over smartphones, social media en AI die ons geestelijk schaden."
+      "reason": "Smartphones, social media en AI en hun geestelijke impact; deelt Jonathan Haidt als figuur."
+    },
+    {
+      "n": 16,
+      "reason": "Technologie als nieuwe religie en de rol van techniek in ons mensbeeld."
+    },
+    {
+      "n": 306,
+      "reason": "AI en het menselijke mensbeeld, met een ethische en zingevingsdimensie."
     },
     {
       "n": 292,
-      "reason": "Denkbeelden achter Big Tech; technologie, filosofie en mensbeeld."
-    },
-    {
-      "n": 191,
-      "reason": "Geestelijke schade van smartphone en social media, aandachtseconomie en jongeren."
-    },
-    {
-      "n": 177,
-      "reason": "Zelfde gast Roderick Nieuwenhuis over de zoektocht naar een eenvoudiger leven."
+      "reason": "De filosofische denkbeelden achter Big Tech en de macht van technologie."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

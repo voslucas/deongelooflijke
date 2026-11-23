@@ -1,188 +1,205 @@
 {
   "episode": 107,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 113686,
+    "segments": 1589,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32216,
-    "output_tokens": 2438,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59683,
+    "output_tokens": 3732,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Bijbel & Jezus",
     "Kunst & cultuur",
     "God & geloof",
-    "Geschiedenis",
-    "Kerk & secularisatie"
+    "Geschiedenis"
   ],
   "guests": [
     "Francis van Broekhuizen"
   ],
   "people": [
     {
+      "name": "Francis van Broekhuizen",
+      "note": "operazangeres en gast, spreekt over klassieke muziek en geloof",
+      "start_seconds": 23,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog en vaste gast",
+      "start_seconds": 1080,
+      "mention_count": 1
+    },
+    {
       "name": "Richard Strauss",
-      "note": "laatromantisch componist van o.a. het lied Befreit",
+      "note": "Duitse componist van het lied 'Befreit'",
       "start_seconds": 755,
-      "wiki_checked": true,
-      "wiki_pageid": 72768,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Strauss",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Max_Liebermann_Bildnis_Richard_Strauss.jpg/250px-Max_Liebermann_Bildnis_Richard_Strauss.jpg"
+      "mention_count": 2
     },
     {
       "name": "Johann Sebastian Bach",
-      "note": "barokcomponist, maker van de Matthäus-Passion",
-      "start_seconds": 112,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "note": "barokcomponist; Matthäus-Passion en Orkestsuite",
+      "start_seconds": 1000,
+      "mention_count": 12
     },
     {
       "name": "Wolfgang Amadeus Mozart",
-      "note": "klassiek componist, geniaal en hoorde muziek in zijn hoofd",
-      "start_seconds": 142,
-      "wiki_checked": true,
-      "wiki_pageid": 1929,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/250px-Wolfgang-amadeus-mozart_1.jpg"
-    },
-    {
-      "name": "Ludwig van Beethoven",
-      "note": "componist die doof werd maar bleef componeren",
-      "start_seconds": 112,
-      "wiki_checked": true,
-      "wiki_pageid": 9660,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_van_Beethoven",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/250px-Beethoven.jpg"
-    },
-    {
-      "name": "Arvo Pärt",
-      "note": "hedendaags componist",
-      "start_seconds": 119,
-      "wiki_checked": true,
-      "wiki_pageid": 91283,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arvo_P%C3%A4rt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Arvo_P%C3%A4rt.jpg/250px-Arvo_P%C3%A4rt.jpg"
-    },
-    {
-      "name": "Guillaume Dufay",
-      "note": "vroege Vlaamse componist van Ave Regina",
-      "start_seconds": 1341,
-      "wiki_checked": true,
-      "wiki_pageid": 192391,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Guillaume_Dufay",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/DufayBinchois.jpg/250px-DufayBinchois.jpg"
+      "note": "classicistisch componist; Requiem",
+      "start_seconds": 1340,
+      "mention_count": 6
     },
     {
       "name": "Giuseppe Verdi",
-      "note": "Italiaans operacomponist, Messa da Requiem",
-      "start_seconds": 1744,
-      "wiki_checked": true,
-      "wiki_pageid": 10226,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giuseppe_Verdi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/GiuseppeVerdi.jpg/250px-GiuseppeVerdi.jpg"
+      "note": "Italiaanse operacomponist; Messa da Requiem",
+      "start_seconds": 2700,
+      "mention_count": 5
     },
     {
-      "name": "Soile Isokoski",
-      "note": "Scandinavische sopraan die Befreit zingt",
-      "start_seconds": 791,
-      "wiki_checked": true
+      "name": "Arvo Pärt",
+      "note": "hedendaagse componist; Fratres",
+      "start_seconds": 120,
+      "mention_count": 5
     },
     {
-      "name": "Maria Callas",
-      "note": "operazangeres, inspiratie voor Francis",
-      "start_seconds": 645,
-      "wiki_checked": true,
-      "wiki_pageid": 33764,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_Callas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Een_portret_van_de_zangeres%2C_Bestanddeelnr_926-8776.jpg/250px-Een_portret_van_de_zangeres%2C_Bestanddeelnr_926-8776.jpg"
+      "name": "Guillaume Dufay",
+      "note": "vroeg-renaissancecomponist; Ave Regina",
+      "start_seconds": 1320,
+      "mention_count": 2
     },
     {
-      "name": "Augustinus",
-      "note": "kerkvader die in Milaan geraakt werd door kerkzang",
-      "start_seconds": 1660,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Ambrosius",
-      "note": "bisschop van Milaan, introduceerde antifonische zang",
-      "start_seconds": 1673,
-      "wiki_checked": true,
-      "wiki_pageid": 108734,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ambrosius_van_Milaan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/AmbroseOfMilan.jpg/250px-AmbroseOfMilan.jpg"
+      "name": "Ludwig van Beethoven",
+      "note": "componist die doof werd en toch bleef componeren",
+      "start_seconds": 1080,
+      "mention_count": 3
     },
     {
       "name": "Olivier Messiaen",
-      "note": "katholiek componist die kleuren zag bij klanken",
-      "start_seconds": 1111,
-      "wiki_checked": true,
-      "wiki_pageid": 74797,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Olivier_Messiaen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa%2C_Bestanddeelnr_933-8262.jpg/250px-Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa%2C_Bestanddeelnr_933-8262.jpg"
-    },
-    {
-      "name": "Franz Schubert",
-      "note": "grondlegger van de liedkunst",
-      "start_seconds": 776,
-      "wiki_checked": true,
-      "wiki_pageid": 10196,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franz_Schubert",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg/250px-Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
-    },
-    {
-      "name": "Gregorius I",
-      "note": "paus naar wie de Gregoriaanse muziek is vernoemd",
-      "start_seconds": 1290,
-      "wiki_checked": true,
-      "wiki_pageid": 39155,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Gregorius_I",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Gregorythegreat.jpg/250px-Gregorythegreat.jpg"
-    },
-    {
-      "name": "Herman Finkers",
-      "note": "cabaretier, citaat over wonderen",
-      "start_seconds": 1579,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
+      "note": "katholieke componist, geïnspireerd door natuur en Franciscus",
+      "start_seconds": 1110,
+      "mention_count": 2
     },
     {
       "name": "Franciscus van Assisi",
-      "note": "onderwerp van Messiaens opera",
-      "start_seconds": 1121,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "note": "heilige, onderwerp van Messiaens opera",
+      "start_seconds": 1120,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader die in Milaan door Ambrosius' zang werd geraakt",
+      "start_seconds": 1660,
+      "mention_count": 2
+    },
+    {
+      "name": "Ambrosius",
+      "note": "bisschop van Milaan, bekende spreker en zangpromotor",
+      "start_seconds": 1680,
+      "mention_count": 2
+    },
+    {
+      "name": "Felix Mendelssohn",
+      "note": "19e-eeuwse componist die de Matthäus-Passion herontdekte",
+      "start_seconds": 1770,
+      "mention_count": 2
+    },
+    {
+      "name": "Maria Callas",
+      "note": "operazangeres, rolmodel van Francis",
+      "start_seconds": 650,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem Mengelberg",
+      "note": "dirigent van het Concertgebouworkest",
+      "start_seconds": 2150,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman Vinkers",
+      "note": "schrijver van het citaat over wonderen",
+      "start_seconds": 1590,
+      "mention_count": 1
+    },
+    {
+      "name": "Antonio Salieri",
+      "note": "componist-rivaal van Mozart in de film Amadeus",
+      "start_seconds": 2580,
+      "mention_count": 1
+    },
+    {
+      "name": "Gregorius I",
+      "note": "paus naar wie het Gregoriaans is vernoemd",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "noemde orgasme de 'kleine dood'",
+      "start_seconds": 2870,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans Zimmer",
+      "note": "filmcomponist",
+      "start_seconds": 2030,
+      "mention_count": 1
+    },
+    {
+      "name": "John Williams",
+      "note": "filmcomponist",
+      "start_seconds": 2025,
+      "mention_count": 1
+    },
+    {
+      "name": "Angela Gheorghiu",
+      "note": "sopraan op de Verdi-opname",
+      "start_seconds": 2800,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "wiskundige, genoemd als voorbeeld van schoonheid in wiskunde",
+      "start_seconds": 1200,
+      "mention_count": 1
+    },
+    {
+      "name": "Erik Scherder",
+      "note": "neuropsycholoog, boek Singing in the Brain",
+      "start_seconds": 1240,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Brokken",
+      "note": "schrijver over de Baltische staten",
+      "start_seconds": 3270,
+      "mention_count": 1
+    },
+    {
+      "name": "Michiel van der Kamp",
+      "note": "medemaker van de podcast",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Christijn Kleemans",
+      "note": "medemaker van de podcast",
+      "start_seconds": 3700,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Gödel, Escher, Bach",
       "author": "Douglas Hofstadter",
-      "note": "over wiskundige verbanden tussen muziek, kunst en logica",
-      "start_seconds": 1181,
+      "note": "besproken als boek over wiskunde, kunst en muziek",
+      "start_seconds": 1170,
       "volume_id": "kR0YAgAACAAJ",
-      "canonical_title": "Gödel, Escher, Bach: een eeuwige gouden band",
+      "canonical_title": "Gödel, Escher, Bach",
       "canonical_author": "Douglas R. Hofstadter",
       "isbn13": "9789025499822",
       "isbn10": "9025499821",
@@ -191,157 +208,164 @@
     {
       "title": "Singing in the Brain",
       "author": "Erik Scherder",
-      "note": "over het ontstaan van muziek en geluid",
-      "start_seconds": 1242,
+      "note": "over zingen en de hersenen, als bron over oorsprong van muziek",
+      "start_seconds": 1240,
       "volume_id": "2VK1DgAAQBAJ",
-      "canonical_title": "Singing in the brain: over de unieke samenwerking tussen muziek en de hersenen",
+      "canonical_title": "Singing in the brain",
       "canonical_author": "Erik Scherder",
       "isbn13": "9789025307042",
       "isbn10": "9025307043",
       "thumbnail": "http://books.google.com/books/content?id=2VK1DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Belijdenissen",
-      "author": "Augustinus",
-      "note": "beschrijving van de ontroering door kerkzang in Milaan",
-      "start_seconds": 1660,
-      "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
-      "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026321023",
-      "isbn10": "9026321023",
-      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
-  "places": [
-    "Lourdes",
-    "Milaan",
-    "Taizé",
-    "Italië",
-    "Scandinavië"
+  "bible_refs": [
+    {
+      "ref": "Mattheus 27",
+      "note": "lijdensverhaal dat in de Matthäus-Passion wordt verklankt",
+      "start_seconds": 1380
+    },
+    {
+      "ref": "Mattheus 27:51",
+      "note": "scheuren van het voorhangsel bij de dood van Christus, verklankt door Bach",
+      "start_seconds": 2430
+    }
   ],
-  "summary_tldr": "Operazangeres Francis van Broekhuizen neemt David Boogerd en Stefan Paas mee door de geschiedenis van de klassieke muziek, van Gregoriaans tot Strauss en Bach. Ze zoeken naar het goddelijke in muziek: de vonk van genialiteit en het scheppende mysterie. Ook komen haar geloof, Maria-verering en Lourdes aan bod.",
+  "places": [
+    "Milaan",
+    "Lourdes",
+    "Leipzig",
+    "Rome",
+    "Tallinn",
+    "Zwitserland",
+    "Veendaal",
+    "Middelburg"
+  ],
+  "summary_tldr": "Operazangeres Francis van Broekhuizen en theoloog Stefan Paas verkennen met David Boogerd hoe klassieke muziek verbonden is met religie, geschiedenis en het goddelijke. Aan de hand van vijf gekozen stukken, van Gregoriaans en Dufay tot Bach, Mozart, Verdi en Pärt, komen zij tot de gedachte dat goede muziek iets scheppends en mysterieus heeft. Het gesprek eindigt met de rol van schoonheid, twijfel en spiritualiteit buiten het instituut.",
   "summary_points": [
-    "Klassieke muziek is een containerbegrip voor meerdere stijlperiodes",
-    "Westerse genoteerde muziek komt oorspronkelijk uit de kerk",
-    "Katholieke en protestantse zangtradities verschillen maar delen veel melodieën",
-    "Goede muziek heeft voor Francis een goddelijke vonk en iets scheppends",
-    "Genieën als Mozart en Beethoven hoorden muziek in hun hoofd",
-    "Muziek is wiskundig en toch ontroerend mooi",
-    "Francis is Mariavereerder en vrijwilliger in Lourdes",
-    "Augustinus werd in Milaan geraakt door de schoonheid van kerkzang",
-    "De Matthäus-Passion is een soort christelijke opera"
+    "Klassieke muziek is grotendeels ontstaan uit religieuze praktijk, vooral via kloosters en de kerk.",
+    "Gregoriaans en vroege meerstemmigheid vormen de oorsprong van het westerse notenschrift.",
+    "De Reformatie en het Tweede Vaticaans Concilie maakten de volkstaal en gemeentezang belangrijk.",
+    "Bach's Matthäus-Passion wordt als christelijke opera gezien en was in Nederland enorm populair.",
+    "Mozart en Beethoven worden gezien als geniale componisten die hun klankwereld in het hoofd hoorden.",
+    "Verdi's Requiem en Pärts Fratres roepen een gevoel van verlossing, meditatie en verzet op.",
+    "Francis ziet religie steeds minder aan een instituut gebonden en meer aan mysterie en troost.",
+    "Schoonheid wordt gezien als tegenwicht tegen oorlog en ruzie."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Wat is klassieke muziek?",
-      "summary": "Introductie en uitleg over stijlperiodes en het begrip klassiek."
+      "title": "Introductie en klassieke muziek als containerbegrip",
+      "summary": "Francis en David bespreken wat klassieke muziek precies is en waarom het met geschiedenis samenhangt."
     },
     {
-      "start_seconds": 203,
-      "title": "Muziek, kerk en Reformatie",
-      "summary": "Over de band tussen muziek en religie en het verschil tussen katholieke en protestantse zang."
+      "start_seconds": 420,
+      "title": "Muziek, kerk en de Reformatie",
+      "summary": "Het gesprek gaat over kerkmuziek, gemeentezang en de rol van het Latijn en de landstaal."
     },
     {
-      "start_seconds": 510,
-      "title": "Persoonlijke muziekachtergrond",
-      "summary": "Stefan en David over hun opvoeding met en zonder klassieke muziek; Francis over haar opera-opleiding."
+      "start_seconds": 720,
+      "title": "Persoonlijke achtergronden en eerste keuze: Strauss",
+      "summary": "Francis en Stefan vertellen over hun muzikale jeugd; de eerste stukken worden beluisterd."
     },
     {
-      "start_seconds": 755,
-      "title": "Strauss: Befreit",
-      "summary": "Luisterfragment en gesprek over de goddelijke vonk en het scheppende in muziek."
-    },
-    {
-      "start_seconds": 1050,
-      "title": "Genialiteit en wiskunde",
-      "summary": "Mozart, Beethoven, Messiaen en de wiskundigheid van muziek."
-    },
-    {
-      "start_seconds": 1245,
-      "title": "Gregoriaans en Dufay",
-      "summary": "Oorsprong van opgeschreven muziek en vroege meerstemmigheid met Ave Regina."
-    },
-    {
-      "start_seconds": 1480,
-      "title": "Lourdes en wonderen",
-      "summary": "Francis over haar vrijwilligerswerk in Lourdes en haar kijk op wonderen."
+      "start_seconds": 1290,
+      "title": "Van Gregoriaans naar Dufay en Ave Regina",
+      "summary": "Vroege muziek, Maria-verering en de ontwikkeling van meerstemmigheid komen aan bod."
     },
     {
       "start_seconds": 1660,
-      "title": "Augustinus, barok en Matthäus-Passion",
-      "summary": "Kerkzang in Milaan en de passie van Bach als christelijk drama."
+      "title": "Augustinus, Ambrosius en de Matthäus-Passion",
+      "summary": "Augustinus' ontroering in Milaan en Bach's passie met de betekenis van Goede Vrijdag."
+    },
+    {
+      "start_seconds": 2340,
+      "title": "Mozart, Verdi en de dood in muziek",
+      "summary": "Requiems van Mozart en Verdi, het Dies irae en de betekenis van verlossing."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "Arvo Pärt en verzet in Tallinn",
+      "summary": "Fratres als meditatief stuk; Pärts Credo onder Sovjetcensuur."
+    },
+    {
+      "start_seconds": 3480,
+      "title": "Spiritualiteit, schoonheid en slot",
+      "summary": "Reflectie op geloof buiten het instituut, wetenschap en inspiratie, en afsluiting met Bach's Orkestsuite."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 965,
+      "start_seconds": 1080,
       "speaker": "Francis van Broekhuizen",
-      "text": "Als het goede muziek is, dan heeft het voor mij altijd een goddelijke vonk.",
-      "note": "Kern van haar visie op muziek."
+      "text": "Als het goede muziek is, dan heeft het voor mij altijd een goddelijke vonk, omdat het ineens vanuit het niets verzint iemand dat.",
+      "note": "Verbindt muzikale creativiteit direct met het scheppende en het goddelijke."
     },
     {
-      "start_seconds": 1571,
+      "start_seconds": 2880,
+      "speaker": "Francis van Broekhuizen",
+      "text": "Het is bijna seks, ja.",
+      "note": "Een verrassende en openhartige vergelijking tussen de ervaring van zingen van Verdi's Libera me en seksuele extase."
+    },
+    {
+      "start_seconds": 1380,
+      "speaker": "Stefan Paas",
+      "text": "De vrouwen zijn de eerste getuige.",
+      "note": "Een theologisch accent op de rol van vrouwen bij de opstanding, dat in het gesprek opvalt."
+    },
+    {
+      "start_seconds": 3480,
       "speaker": "Francis van Broekhuizen",
       "text": "Wie niet in wonderen gelooft, is geen realist.",
-      "note": "Opvallende uitspraak over wonderen."
+      "note": "Een stellige uitspraak over wonderen, die het gesprek naar de dagelijkse wonderen van geboorte en kleine lichtpunten brengt."
     },
     {
-      "start_seconds": 1660,
-      "speaker": "Stefan Paas",
-      "text": "Augustinus werd in Milaan als eerste getroffen door de schoonheid van de zang.",
-      "note": "Historische link tussen schoonheid en geloof."
-    },
-    {
-      "start_seconds": 1050,
+      "start_seconds": 3560,
       "speaker": "Francis van Broekhuizen",
-      "text": "Mozart hoorde de hele klankwereld in zijn hoofd, want die was geniaal.",
-      "note": "Illustreert genialiteit."
-    },
-    {
-      "start_seconds": 1608,
-      "speaker": "Francis van Broekhuizen",
-      "text": "De geboorte van een kind is ook een wonder, dat gebeurt elke minuut.",
-      "note": "Alledaags wonder."
+      "text": "Ik hou me maar vast aan dat tweede dan: het merendeel van de mensen probeert lief te zijn en goed te doen.",
+      "note": "Een hoopvolle, bijna mensbeeld-achtige conclusie die de schoonheid als verzet tegen het kwaad plaatst."
     }
   ],
   "keywords": [
     "klassieke muziek",
-    "goddelijke vonk",
-    "Bach",
     "Matthäus-Passion",
+    "Requiem",
     "Gregoriaans",
-    "Mozart",
-    "Verdi",
-    "Lourdes",
-    "Maria",
-    "Augustinus",
-    "opera",
-    "schepping"
+    "Reformatie",
+    "spiritualiteit",
+    "schepping",
+    "inspiratie",
+    "Arvo Pärt",
+    "Maria-verering",
+    "Goede Vrijdag",
+    "schoonheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Bij twijfel hard zingen.",
+    "Wie niet in wonderen gelooft, is geen realist.",
+    "Door schoonheid en aardig te zijn."
+  ],
   "similar": [
     {
-      "n": 296,
-      "reason": "Govert Jan Bach over Matthäus-Passion; muziek, lijden en het goddelijke"
+      "n": 172,
+      "reason": "Geschiedenis van kerstmuziek met Stefan Paas, net als klassieke muziek en religie."
     },
     {
-      "n": 172,
-      "reason": "Hanna Rijken over geschiedenis en hemelse klanken van kerstmuziek"
+      "n": 296,
+      "reason": "Govert Jan Bach over de Matthäus-Passion van Bach en luisteren naar lijden."
+    },
+    {
+      "n": 242,
+      "reason": "Seculiere Matthäus-Passion en de religieuze verdieping van muziek met Stefan Paas."
+    },
+    {
+      "n": 29,
+      "reason": "Muziekgeschiedenis en de religieuze inspiratie achter bekende muziek."
     },
     {
       "n": 186,
-      "reason": "Benali over Bach en zijn actualiteit; muziek en geloof"
-    },
-    {
-      "n": 225,
-      "reason": "Antoine Bodar over schoonheid van kunst, kerk en geloof"
-    },
-    {
-      "n": 83,
-      "reason": "Willem Jan Otten over de kerk als groot kunstwerk en schoonheid"
+      "reason": "Abdelkader Benali over Bach en de actualiteit van zijn muziek."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

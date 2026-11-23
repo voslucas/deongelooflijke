@@ -1,284 +1,276 @@
 {
   "episode": 249,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104217,
+    "segments": 1139,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31152,
-    "output_tokens": 2430,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53550,
+    "output_tokens": 6126,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Technologie & AI",
-    "Wetenschap & kosmos"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Rogier Hoenders"
   ],
   "people": [
     {
-      "name": "Rogier Hoenders",
-      "note": "psychiater, hoogleraar zingeving, leefstijl en geestelijke gezondheidszorg (RUG)",
-      "start_seconds": 32,
-      "wiki_checked": true
+      "name": "Sigmund Freud",
+      "note": "Onderwerp van een schoolspreekbeurt van Rogier Hoenders op zijn vijftiende",
+      "start_seconds": 387,
+      "mention_count": 1
     },
     {
       "name": "Trudy Dehue",
-      "note": "hoogleraar uit Groningen, auteur van De Depressie Epidemie",
-      "start_seconds": 206,
-      "wiki_checked": true,
-      "wiki_pageid": 4387292,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Trudy_Dehue",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Out_of_Office_-21_%27Kennisland_en_Babel_maken_kennis_%E2%80%93_over_alternatieven_voor_de_meetcultuur%27_%2841509375000%29_%28cropped%29.jpg/250px-Out_of_Office_-21_%27Kennisland_en_Babel_maken_kennis_%E2%80%93_over_alternatieven_voor_de_meetcultuur%27_%2841509375000%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Dick Swaab",
-      "note": "genoemd als bekende psychiater die volle zalen trekt (in transcript als Dick de Wachter)",
-      "start_seconds": 375,
-      "wiki_checked": true
-    },
-    {
-      "name": "Damiaan Denys",
-      "note": "bekende psychiater die volle zalen trekt",
-      "start_seconds": 375,
-      "wiki_checked": true,
-      "wiki_pageid": 2728028,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Damiaan_Denys",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DamiaanDenys2013.jpg/250px-DamiaanDenys2013.jpg"
-    },
-    {
-      "name": "Esther van Fenema",
-      "note": "bekende psychiater",
-      "start_seconds": 375,
-      "wiki_checked": true,
-      "wiki_pageid": 5422580,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Esther_van_Fenema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Esther_van_Fenema.jpeg/250px-Esther_van_Fenema.jpeg"
-    },
-    {
-      "name": "Sigmund Freud",
-      "note": "onderwerp van Hoenders' spreekbeurt op zijn 15e",
-      "start_seconds": 387,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
-    },
-    {
-      "name": "Aldous Huxley",
-      "note": "auteur van Brave New World, dystopie van prikkels en pillen",
-      "start_seconds": 704,
-      "wiki_checked": true,
-      "wiki_pageid": 111500,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aldous_Huxley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Aldous_Huxley_1927.png/250px-Aldous_Huxley_1927.png"
-    },
-    {
-      "name": "Michel Houellebecq",
-      "note": "schrijver van Elementaire deeltjes",
-      "start_seconds": 704,
-      "wiki_checked": true,
-      "wiki_pageid": 34101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Houellebecq",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg/250px-Michel_Houellebecq_no_Fronteiras_do_Pensamento_Porto_Alegre_2016_%2830895029365%29.jpg"
+      "note": "Hoogleraar in Groningen, auteur van De Depressie Epidemie",
+      "start_seconds": 199,
+      "mention_count": 1
     },
     {
       "name": "Abraham Maslow",
-      "note": "psycholoog van de behoeftepiramide",
+      "note": "Bedenker van de behoeftenpiramide",
       "start_seconds": 1649,
-      "wiki_checked": true,
-      "wiki_pageid": 16287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Maslow",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Piramide_van_Maslow.svg/250px-Piramide_van_Maslow.svg.png"
+      "mention_count": 1
+    },
+    {
+      "name": "Aldous Huxley",
+      "note": "Auteur van Brave New World, dystopie over prikkels en consumptie",
+      "start_seconds": 704,
+      "mention_count": 3
+    },
+    {
+      "name": "Michel Houellebecq",
+      "note": "Auteur van Elementaire deeltjes, dystopisch beeld van prikkelcultuur",
+      "start_seconds": 704,
+      "mention_count": 2
+    },
+    {
+      "name": "Miroslav Wolf",
+      "note": "Eerdere gast van de podcast, initiatiefnemer van gesprekssessies over levenswijsheid aan de Universiteit van Yale",
+      "start_seconds": 2257,
+      "mention_count": 1
     },
     {
       "name": "Jim van Os",
-      "note": "psychiater, co-auteur van een Parool-stuk over een publieke GGZ",
-      "start_seconds": 1990,
-      "wiki_checked": true,
-      "wiki_pageid": 1694644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jim_van_Os",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Jim-van-Os-2024-09-03-Utrecht-Science-Park-2-crop.jpg/250px-Jim-van-Os-2024-09-03-Utrecht-Science-Park-2-crop.jpg"
+      "note": "Psychiater, met Hoenders auteur van een stuk in de Parool over publieke GGZ",
+      "start_seconds": 1984,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Verhalen over zijn leven spraken Hoenders aan als kind",
+      "start_seconds": 3750,
+      "mention_count": 2
+    },
+    {
+      "name": "Dick de Wachter",
+      "note": "Psychiater en bekende verschijning in de media",
+      "start_seconds": 362,
+      "mention_count": 1
+    },
+    {
+      "name": "Damian de Nies",
+      "note": "Psychiater en bekende verschijning in de media",
+      "start_seconds": 362,
+      "mention_count": 1
+    },
+    {
+      "name": "Esther van Veenema",
+      "note": "Psychiater en bekende verschijning in de media",
+      "start_seconds": 362,
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Socioloog; Stefan Paas noemt zijn term biografische oplossing voor systeemfouten",
+      "start_seconds": 3345,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De Depressie Epidemie",
       "author": "Trudy Dehue",
-      "note": "over uitdijing van diagnostiek",
-      "start_seconds": 206,
-      "volume_id": "1YQvAgAAQBAJ",
-      "canonical_title": "De depressie-epidemie: over de plicht het lot in eigen hand te nemen",
-      "canonical_author": "Trudy Dehue",
-      "isbn13": "9789045703282",
-      "isbn10": "9045703289",
-      "thumbnail": "http://books.google.com/books/content?id=1YQvAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Kritisch boek over de uitdijing van psychiatrische diagnoses",
+      "start_seconds": 199,
+      "volume_id": "MfRRGQAACAAJ",
+      "canonical_title": "De depressie-epidemie",
+      "canonical_author": "Trudy Dehue, Gertrude Constance Georgette Dehue",
+      "isbn13": "9789045700953",
+      "isbn10": "9045700956",
+      "thumbnail": ""
     },
     {
       "title": "Brave New World",
       "author": "Aldous Huxley",
-      "note": "dystopie van prikkels en pillen",
+      "note": "Dystopie waarin mensen bezig zijn met prikkels en pilletjes",
       "start_seconds": 704,
-      "volume_id": "kKh5Dyqxx-QC",
-      "canonical_title": "Brave New World",
+      "volume_id": "JcrvzgEACAAJ",
+      "canonical_title": "Brave new world",
       "canonical_author": "Aldous Huxley",
-      "isbn13": "9781407021010",
-      "isbn10": "140702101X",
-      "thumbnail": "http://books.google.com/books/content?id=kKh5Dyqxx-QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "Elementaire deeltjes",
       "author": "Michel Houellebecq",
-      "note": "dystopische schets van een prikkelgedreven samenleving",
-      "start_seconds": 705,
-      "volume_id": "0adzAAAAQBAJ",
+      "note": "Dystopisch beeld van een samenleving die leeft van prikkels",
+      "start_seconds": 704,
+      "volume_id": "25iftwAACAAJ",
       "canonical_title": "Elementaire deeltjes",
       "canonical_author": "Michel Houellebecq",
-      "isbn13": "9789029568524",
-      "isbn10": "9029568526",
-      "thumbnail": "http://books.google.com/books/content?id=0adzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789029583992",
+      "isbn10": "9029583991",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
     "Groningen",
-    "Amerika",
-    "Zweden"
+    "Amsterdam",
+    "Utrecht",
+    "Mount Kailash",
+    "Noord-Italië",
+    "Yale",
+    "Zweden",
+    "Amerika"
   ],
-  "summary_tldr": "Psychiater Rogier Hoenders legt uit waarom psychische klachten in Nederland toenemen: een westerse leefstijl vol vluchtige dopamineprikkels, eenzaamheid en een zingevingsvacuüm na de ontkerkelijking. Hij pleit voor leefstijlgeneeskunde, aandacht voor zingeving en een publieke GGZ buiten de curatieve zorg. Stefan Paas wijst op de normativiteit en het risico van betutteling.",
+  "summary_tldr": "Psychiater en hoogleraar Rogier Hoenders stelt dat de sterke stijging van psychische klachten samenhangt met een westerse leefstijl die gericht is op snelle, oppervlakkige prikkels en met het verdwijnen van religieuze en sociale structuren die zingeving boden. Hij pleit voor een publieke GGZ die mensen informeert over leefstijl en zingeving en voor betere mentale vaardigheden, zonder daarbij te betuttelen. Stefan Paas en David Boogerd zetten daarbij kritische kanttekeningen over normativiteit, kwakzalverij en de rol van de overheid.",
   "summary_points": [
-    "Meer dan 1 op 4 Nederlanders voldoet aan de criteria van een psychische stoornis; Nemesis laat een stijging van 17 naar 26% zien.",
-    "Deels is er diagnostische uitdijing, maar er is ook echt iets aan de hand, vooral bij jongeren.",
-    "Lagere-orde beloning (dopamine via social media, suiker, junkfood) verdringt hogere-orde bevrediging en geeft leegte en zinloosheid.",
-    "Corona knakte de mentale gezondheid van 12- tot 18-jarigen en die herstelde daarna niet.",
-    "Eenzaamheid is zo ongezond als 10 tot 12 sigaretten per dag.",
-    "De westerse leefstijl is een groot evolutionair experiment zonder trials: voeding, beweging, slaap, sociale relaties, genotmiddelen en zingeving.",
-    "Een duidelijk levensdoel hangt samen met 4 tot 6 jaar langere levensduur.",
-    "Door ontkerkelijking belanden zingevingsvragen bij de GGZ, wat tot medicalisering en 100.000 wachtenden leidt.",
-    "Voorstel: een publieke GGZ en emotie-onderwijs op school, met aandacht voor betutteling en normativiteit."
+    "Volgens Hoenders heeft 26 procent van de Nederlanders een psychische stoornis, en de cijfers stijgen al voor corona",
+    "Hoenders ziet een mogelijke oorzaak in de overprikkeling door dopamine-gedreven, lagere-orde beloningen zoals social media en ultrabewerkt voedsel",
+    "Door ontkerkelijking zijn sociale en zingevingsstructuren weggevallen, waardoor zingevingsvragen bij de GGZ terechtkomen",
+    "Hoenders noemt de westerse levensstijl een grootschalig experiment, met gevolgen voor chronische ziekte en levensverwachting in gezonde jaren",
+    "Eenzaamheid en slaap, beweging, voeding en zingeving zijn volgens hem belangrijke pijlers van een gezonde leefstijl",
+    "Hoenders pleit voor een publieke GGZ die informeert, indiceert, motiveert en delegeert, buiten de curatieve zorg",
+    "Paas en Boogerd waarschuwen voor betutteling, monopolievorming door influencers en het risico van kwakzalverij",
+    "Er is volgens Hoenders een positieve samenhang tussen zingeving en gezondheid, met driekwart van 4000 studies die dat ondersteunen",
+    "Hoenders combineert christelijke opvoeding met Tibetaans boeddhisme en noemt zichzelf spiritueel"
   ],
   "chapters": [
     {
-      "start_seconds": 32,
-      "title": "Schokkende cijfers",
-      "summary": "Introductie van de gast en de toename van psychische aandoeningen, werkdruk in de GGZ en burn-out."
+      "start_seconds": 0,
+      "title": "Schokkende cijfers over psychische gezondheid",
+      "summary": "De presentator introduceert de aflevering en het thema van psychische klachten in Nederland. Hoenders bespreekt de stijging van 17 naar 26 procent en de wachtlijsten."
     },
     {
-      "start_seconds": 387,
-      "title": "Lagere en hogere beloning",
-      "summary": "Dopamine-prikkels versus betekenisvolle bevrediging, en de kip-of-eivraag met secularisering."
+      "start_seconds": 138,
+      "title": "Angst, depressie en de druk in de GGZ",
+      "summary": "Hoenders bespreekt de vormen van psychische klachten en burn-out bij zorgverleners. Ook wordt gesproken over de rol van psychiaters als publieke figuren."
     },
     {
-      "start_seconds": 778,
-      "title": "Jongeren, corona en eenzaamheid",
-      "summary": "Waarom jongeren niet terugveren en hoe toxisch eenzaamheid is."
+      "start_seconds": 488,
+      "title": "Dopamine, prikkels en de mentale epidemie",
+      "summary": "Hoenders legt het verschil uit tussen lagere en hogere orde beloning. Stefan Paas en David Boogerd leggen dit naast Huxley en Houellebecq en vragen naar de kip-of-eivraag."
     },
     {
-      "start_seconds": 1064,
-      "title": "Chronische ziekte en een groot experiment",
-      "summary": "Dalende gezonde levensjaren en de westerse leefstijl als experiment."
+      "start_seconds": 1061,
+      "title": "Leefstijl als experiment",
+      "summary": "De westerse leefstijl wordt gezien als grootschalig experiment, met suiker, zitten, slaap en chronische ziekte als voorbeelden. Stefan Paas wijst op de paradox van gezondheidswinst."
     },
     {
-      "start_seconds": 1440,
-      "title": "Wat is een gezonde leefstijl?",
-      "summary": "Voeding, beweging, slaap, relaties, genotmiddelen en zingeving."
+      "start_seconds": 1574,
+      "title": "Zingeving als gezondheidsfactor",
+      "summary": "Hoenders presenteert zingeving als gezondheidsfactor en noemt de vijf behoeften van de mens. Paas vraagt of psychisch lijden ook zingevingslijden is."
     },
     {
-      "start_seconds": 1649,
-      "title": "Zingeving als basisbehoefte",
-      "summary": "Maslow, spirituele behoeften en verbinding in vele vormen."
+      "start_seconds": 1783,
+      "title": "Ontkerkelijking en een publieke GGZ",
+      "summary": "Hoenders stelt dat ontkerkelijking heeft geleid tot medicalisering van levensvragen. Hij pleit voor een publieke GGZ, maar de presentator waarschuwt voor opnieuw medicaliseren."
     },
     {
-      "start_seconds": 1740,
-      "title": "Ontkerkelijking en GGZ",
-      "summary": "Zingevingsvragen komen bij de GGZ terecht; idee van een publieke GGZ."
+      "start_seconds": 2715,
+      "title": "Keurmerk, kwakzalverij en openheid",
+      "summary": "Discussie over regulering van alternatieve zorg en levensbeschouwing. Hoenders pleit voor openheid, informatie en een keurmerk in plaats van taboe."
     },
     {
-      "start_seconds": 2100,
-      "title": "Betutteling of verwaarlozing",
-      "summary": "Discussie over normativiteit en betutteling bij leefstijladvies."
+      "start_seconds": 3398,
+      "title": "Zingeving, de twee wolven en persoonlijke tips",
+      "summary": "Hoenders zet zingeving breder neer en vertelt over zijn eigen spirituele weg. Het gesprek eindigt met het advies om te volgen wat bliss geeft, niet de kick."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1099,
+      "start_seconds": 681,
+      "speaker": "Rogier Hoenders",
+      "text": "We bevinden ons in een mentale epidemie.",
+      "note": "Kernstelling van de aflevering, die de schaal van het probleem samenvat."
+    },
+    {
+      "start_seconds": 1158,
       "speaker": "Rogier Hoenders",
       "text": "Eigenlijk leven we in een experiment.",
-      "note": "Kernmetafoor van de aflevering."
+      "note": "Hoenders vergelijkt de westerse levensstijl met een ongecontroleerd experiment zonder randomized trial."
     },
     {
       "start_seconds": 966,
       "speaker": "Rogier Hoenders",
-      "text": "Eenzaamheid is even ongezond als 10, 12 sigaretten per dag roken.",
-      "note": "Verrassend en schokkend cijfer."
+      "text": "Eenzaamheid is even ongezond als 10 tot 12 sigaretten per dag roken.",
+      "note": "Een scherpe vergelijking die laat zien hoe zwaar eenzaamheid volgens hem weegt."
     },
     {
-      "start_seconds": 1815,
+      "start_seconds": 1875,
       "speaker": "Rogier Hoenders",
-      "text": "Door de ontkerkelijking hebben we het kind met het badwater weggegooid.",
-      "note": "Verbindt GGZ-wachtlijsten aan zingevingsvacuüm."
+      "text": "In de loopgraven zijn geen atheïsten en in tijden van oorlog stromen de kerken vol.",
+      "note": "Een treffende illustratie van de behoefte aan houvast en de rol van religieuze structuren."
     },
     {
-      "start_seconds": 2186,
+      "start_seconds": 3828,
       "speaker": "Rogier Hoenders",
-      "text": "Wat heb je liever, betutteling of verwaarlozing?",
-      "note": "Scherpe reactie op kritiek."
-    },
-    {
-      "start_seconds": 2125,
-      "speaker": "Stefan Paas",
-      "text": "Hoe leer je goed omgaan met woede? Is het wel goed om woedend te zijn?",
-      "note": "Wijst op verborgen normativiteit."
+      "text": "Follow your bliss, not your kick.",
+      "note": "De praktische slotboodschap die het verschil tussen hogere en lagere beloning samenvat."
     }
   ],
   "keywords": [
-    "mentale epidemie",
+    "mentale gezondheid",
     "zingeving",
-    "leefstijlgeneeskunde",
     "dopamine",
+    "leefstijl",
     "eenzaamheid",
     "ontkerkelijking",
-    "GGZ",
-    "medicalisering",
-    "burn-out",
-    "jongeren",
     "publieke GGZ",
-    "betutteling"
+    "GGZ-wachtlijsten",
+    "bliss",
+    "Tibetaans boeddhisme",
+    "chronische ziekte",
+    "overprikkeling"
   ],
   "quotes": [
-    "We leven in een groot experiment."
+    "We leven in een groot experiment,",
+    "We bevinden ons in een mentale epidemie"
   ],
   "similar": [
     {
+      "n": 247,
+      "reason": "Smartphones, social media en mentale gezondheid, met een sterke technologie-psyche-link"
+    },
+    {
       "n": 191,
-      "reason": "Esther van Fenema over geestelijke schade van smartphone en social media; zelfde Zingeving & psyche en Technologie"
+      "reason": "Geestelijke schade van smartphones en social media voor jongeren, met Esther van Fenema"
     },
     {
       "n": 278,
-      "reason": "Katie Vlaardingerbroek over Nederland Therapieland, psychische klachten en zingeving in welvarend Nederland"
+      "reason": "Therapiecultuur en welzijn in Nederland, met zingeving en psyche als kernthema's"
     },
     {
-      "n": 287,
-      "reason": "Pauline Calmez over angstige, eenzame jongeren en de mythe van zelfredzaamheid"
+      "n": 314,
+      "reason": "Zingevingscrisis en leegte van het moderne leven, met Dirk de Wachter"
     },
     {
-      "n": 247,
-      "reason": "Jonathan Haidt over smartphones en social media die ons geestelijk kapot maken"
-    },
-    {
-      "n": 24,
-      "reason": "Damiaan Denys over angst en psychische gezondheid, ook besproken in de huidige aflevering"
+      "n": 111,
+      "reason": "Psychiater Esther van Fenema over het individu, zingeving en het verlies van de groep"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

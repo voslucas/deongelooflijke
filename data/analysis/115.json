@@ -1,18 +1,23 @@
 {
   "episode": 115,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118530,
+    "segments": 1450,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31393,
-    "output_tokens": 2259,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61422,
+    "output_tokens": 7920,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
-    "Filosofie & ethiek",
     "God & geloof",
-    "Geopolitiek & oorlog"
+    "Zingeving & psyche",
+    "Economie & geld",
+    "Politiek"
   ],
   "guests": [
     "René ten Bos",
@@ -21,250 +26,320 @@
   "people": [
     {
       "name": "Albert Camus",
-      "note": "existentialistisch filosoof en voormalig keeper, leerde van voetbal over onrechtvaardigheid",
+      "note": "Existentialistische filosoof die volgens René ten Bos veel van voetbal leerde",
       "start_seconds": 160,
-      "wiki_checked": true,
-      "wiki_pageid": 3570,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Camus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/250px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Filosoof; Stefan Paas past zijn categorische imperatief toe op de boycotkeuze",
+      "start_seconds": 149,
+      "mention_count": 2
     },
     {
       "name": "Edwin van der Sar",
-      "note": "oud-keeper met wie Stefan Paas vaak wordt verward",
+      "note": "Oud-doelman van Ajax en Manchester United; vaak verward met Stefan Paas",
       "start_seconds": 285,
-      "wiki_checked": true,
-      "wiki_pageid": 73047,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edwin_van_der_Sar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Edwin_van_der_Sar_2015.jpg/250px-Edwin_van_der_Sar_2015.jpg"
+      "mention_count": 6
     },
     {
-      "name": "Louis van Gaal",
-      "note": "bondscoach van het Nederlands elftal",
-      "start_seconds": 545,
-      "wiki_checked": true,
-      "wiki_pageid": 124525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Louis_van_Gaal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Louis_van_Gaal_2014.jpg/250px-Louis_van_Gaal_2014.jpg"
+      "name": "Johan Cruijff",
+      "note": "Voetballegende; Sander de Kramer sprak hem over geloof en een spirituele ervaring met zijn vader",
+      "start_seconds": 2110,
+      "mention_count": 4
     },
     {
-      "name": "Charles Boycott",
-      "note": "Engelse belastingpachter in Ierland naar wie de boycot is vernoemd",
-      "start_seconds": 1304,
-      "wiki_checked": true,
-      "wiki_pageid": 2029278,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Boycott",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Charles_Cunningham_Boycott_%28Vanity_Fair%29_crop.jpg/250px-Charles_Cunningham_Boycott_%28Vanity_Fair%29_crop.jpg"
+      "name": "Paus Johannes Paulus II",
+      "note": "Zei dat voetbal de belangrijkste bijzaak van de wereld is",
+      "start_seconds": 2142,
+      "mention_count": 3
     },
     {
       "name": "Hans Blumenberg",
       "note": "Duitse filosoof; religie houdt de harde werkelijkheid op afstand",
       "start_seconds": 1739,
-      "wiki_checked": true
+      "mention_count": 2
+    },
+    {
+      "name": "Erik Voegelin",
+      "note": "Denker die over politieke religie schreef",
+      "start_seconds": 1693,
+      "mention_count": 1
     },
     {
       "name": "Ludwig Wittgenstein",
-      "note": "filosoof van de familiegelijkenissen, gebruikt tegen strakke definities",
-      "start_seconds": 1671,
-      "wiki_checked": true,
-      "wiki_pageid": 14582,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Wittgenstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Ludwig_Wittgenstein.jpg/250px-Ludwig_Wittgenstein.jpg"
+      "note": "Filosoof van de familiegelijkenissen, gebruikt bij het definiëren van religie",
+      "start_seconds": 1666,
+      "mention_count": 1
     },
     {
-      "name": "Eric Voegelin",
-      "note": "sprak over politieke religie",
-      "start_seconds": 1695,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Paulus II",
-      "note": "paus die voetbal 'de belangrijkste bijzaak' noemde",
-      "start_seconds": 2151,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "name": "Charles Boycott",
+      "note": "Engelse belastingpachter in West-Ierland; naamgever van het woord boycot",
+      "start_seconds": 1304,
+      "mention_count": 2
     },
     {
       "name": "Eduardo Galeano",
-      "note": "Uruguayaanse schrijver die over de voetbaloorlog schreef",
+      "note": "Uruguayaanse schrijver die de voetbaloorlog tussen Honduras en El Salvador beschreef",
       "start_seconds": 2211,
-      "wiki_checked": true,
-      "wiki_pageid": 305910,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Eduardo_Galeano",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Eduardo_Galeano_ltk_%28cropped%29.jpg/250px-Eduardo_Galeano_ltk_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Johan Cruijff",
-      "note": "voetballer, wereldwijd bekender dan Rembrandt",
-      "start_seconds": 2105,
-      "wiki_checked": true,
-      "wiki_pageid": 27702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Cruijff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Johan_Cruyff_in_trainingspak_Nederlands_Elftal_%2C_kop.jpg/250px-Johan_Cruyff_in_trainingspak_Nederlands_Elftal_%2C_kop.jpg"
+      "name": "Louis van Gaal",
+      "note": "Bondscoach van het Nederlands elftal bij het WK 2022",
+      "start_seconds": 542,
+      "mention_count": 2
     },
     {
-      "name": "Immanuel Kant",
-      "note": "categorische imperatief als ethische afweging over het WK",
-      "start_seconds": 508,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "name": "Robin van Persie",
+      "note": "Oud-voetballer en vriend van Sander de Kramer",
+      "start_seconds": 3149,
+      "mention_count": 2
+    },
+    {
+      "name": "Steven Pienaar",
+      "note": "Zuid-Afrikaanse voetbalheld; groeide op in Westbury en leeft volgens de Bijbel",
+      "start_seconds": 4117,
+      "mention_count": 3
+    },
+    {
+      "name": "Georginio Wijnaldum",
+      "note": "Nederlands international met geloofsuitingen; Sander de Kramer nam hem mee naar de kerk",
+      "start_seconds": 29,
+      "mention_count": 2
+    },
+    {
+      "name": "Cody Gakpo",
+      "note": "Nederlands international die een kerkdienst in het PSV-stadion organiseerde",
+      "start_seconds": 29,
+      "mention_count": 2
+    },
+    {
+      "name": "Samuel Eto'o",
+      "note": "Voormalig voetballer; genoemd bij spelers die geloof bespreekbaar maakten",
+      "start_seconds": 3948,
+      "mention_count": 1
+    },
+    {
+      "name": "Giovanni van Bronckhorst",
+      "note": "Oud-international die over zijn geloof sprak",
+      "start_seconds": 3966,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk Kuyt",
+      "note": "Oud-international die openlijk over zijn geloof sprak zonder ermee te koop te lopen",
+      "start_seconds": 3969,
+      "mention_count": 1
+    },
+    {
+      "name": "Kaká",
+      "note": "Braziliaans wereldvoetballer die met zijn geld een kerk liet bouwen",
+      "start_seconds": 3382,
+      "mention_count": 1
+    },
+    {
+      "name": "Neymar",
+      "note": "Braziliaans voetballer; transfer van 220 miljoen euro als voorbeeld van geldmacht",
+      "start_seconds": 3710,
+      "mention_count": 1
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "note": "Voetbalster die als voorbeeld van verafgoding wordt genoemd",
+      "start_seconds": 3753,
+      "mention_count": 2
+    },
+    {
+      "name": "Lionel Messi",
+      "note": "Voetbalster die als voorbeeld van verafgoding wordt genoemd",
+      "start_seconds": 3775,
+      "mention_count": 1
+    },
+    {
+      "name": "Edson Braafheid",
+      "note": "Oud-speler die voor de WK-finale 2010 bad voor de tegenstander",
+      "start_seconds": 3616,
+      "mention_count": 2
+    },
+    {
+      "name": "Hakim Ziyech",
+      "note": "Marokkaans-Nederlands voetballer die ramadan combineert met topsport",
+      "start_seconds": 4223,
+      "mention_count": 1
+    },
+    {
+      "name": "Karim Benzema",
+      "note": "Franse voetballer die ramadan combineert met topsport",
+      "start_seconds": 4223,
+      "mention_count": 1
+    },
+    {
+      "name": "Jorge Rafael Videla",
+      "note": "Argentijnse dictator tijdens het WK 1978 (in transcript als 'Fidei')",
+      "start_seconds": 2649,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Hooghouden: denken over voetbal",
+      "title": "Hooghouden: Denken over voetbal",
       "author": "René ten Bos",
-      "note": "filosofisch boek over voetbal en religie",
-      "start_seconds": 58,
+      "note": "Boek waarin voetbal als religie en anticultuur wordt verkend",
+      "start_seconds": 1973,
       "volume_id": "vFc20AEACAAJ",
       "canonical_title": "Hooghouden: denken over voetbal",
-      "canonical_author": "René ten Bos, Peter Henk Steenhuis",
+      "canonical_author": "René Bos, Peter Henk Steenhuis",
       "isbn13": "9789024450176",
       "isbn10": "9024450179",
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Job 1:1",
+      "note": "Het Job-verhaal wordt door René ten Bos gezien als kritische blik op God",
+      "start_seconds": 2875
+    }
+  ],
   "places": [
     "Qatar",
-    "Ierland",
-    "Athene",
+    "Tenerife",
+    "Argentinië",
     "Honduras",
     "El Salvador",
+    "Barcelona",
+    "Valencia",
+    "Ierland",
+    "Athene",
     "Kenia",
-    "Polynesië",
-    "Argentinië",
     "Rusland",
-    "Bijlmer"
+    "Sochi",
+    "Eindhoven",
+    "Westbury",
+    "Bijlmer",
+    "Brazilië",
+    "Cameroen"
   ],
-  "summary_tldr": "Filosoof René ten Bos, Stefan Paas en David Boogerd bespreken of voetbal een religie is, met de nodige vergelijkingen en grenzen. Ook komen de morele bezwaren tegen het WK in Qatar, de FIFA en de zin van boycots aan bod. Daarna volgt een gesprek met Sander de Kramer over geloof onder voetballers.",
+  "summary_tldr": "In deze aflevering van De Ongelooflijke Podcast bespreken filosoof René ten Bos en theoloog Stefan Paas of voetbal een religie is, met het WK in Qatar als aanleiding. Het gesprek gaat over de morele afweging van boycotten, de commercialisering van voetbal en de vraag hoe religie en sport elkaar raken. In een tweede gesprek vertelt journalist Sander de Kramer over geloof en bijgeloof bij topvoetballers.",
   "summary_points": [
-    "Voetbal vertoont religieuze trekken zoals rituelen, liederen, symbolen en gemeenschap.",
-    "Ten Bos wantrouwt definities en spreekt liever van familiegelijkenissen tussen voetbal en religie.",
-    "Paas vindt religie dieper en serieuzer door ethische systemen en leerstellingen.",
-    "Volgens Blumenberg houden religie, kunst en sport de harde werkelijkheid op afstand.",
-    "Het WK in Qatar roept morele vragen op over de FIFA, corruptie en arbeidsomstandigheden.",
-    "Ten Bos bekritiseert morele gelijkhebberigheid en late boycotoproepen; Paas maakt een persoonlijke afweging.",
-    "Een boycot is een vorm van ostracisme, met de oorsprong van het woord in Ierland rond 1880.",
-    "Voetbal als universele taal die culturen overstijgt, 'alle religie is voetbal' als knipoog.",
-    "Sander de Kramer vertelt dat spelers van kleur geloof weer bespreekbaar maken."
+    "Voetbal wordt vergeleken met religie vanwege massale rituelen, gemeenschapszin en onvoorwaardelijke loyaliteit",
+    "René ten Bos en Stefan Paas verschillen van mening over of voetbal echt religie is, afhankelijk van de definitie van religie",
+    "Stefan Paas bekijkt het WK in Qatar niet vanwege de corrupte FIFA en het mensenrechtenbeleid",
+    "René ten Bos ziet morele gelijkhebberigheid en boycotten als vaak te laat en te simplistisch",
+    "Het woord boycot gaat terug op Charles Boycott, een Engelse pachter in Ierland rond 1880",
+    "De commercialisering van voetbal wordt gezien als een vorm van secularisering van de sport",
+    "Voetbal biedt escapisme en zingeving, vergelijkbaar met de functie die religie volgens Blumenberg vervult",
+    "Sander de Kramer vertelt dat geloof voor veel topvoetballers steun biedt tegen de enorme druk",
+    "Spelers zoals Steven Pienaar en Johan Cruijff illustreren hoe geloof en bijgeloof samengaan in het voetbal",
+    "Volgens de gesprekspartners wordt geloof in Nederland vaker als privézaak gezien dan in andere landen"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en kennismaking",
-      "summary": "Introductie van het thema voetbal als religie en de gasten."
+      "title": "Introductie en voetbal als religie",
+      "summary": "De presentator stelt de aflevering voor en benadrukt dat voetbal een wereldwijd fenomeen is dat de moeite van het overdenken waard is."
     },
     {
       "start_seconds": 129,
-      "title": "Filosofen over voetbal",
-      "summary": "Camus als keeper en onrechtvaardigheid als kenmerk van voetbal; Ten Bos als clubliefhebber."
+      "title": "Filosofie en voetbal",
+      "summary": "René ten Bos bespreekt filosofen die over voetbal schreven, waaronder Camus, en de onrechtvaardigheid die in de sport heerst."
     },
     {
-      "start_seconds": 420,
-      "title": "Kijken of niet kijken naar het WK",
-      "summary": "Persoonlijke afwegingen over het toernooi in Qatar en de rol van de FIFA."
+      "start_seconds": 444,
+      "title": "Het WK in Qatar en persoonlijke keuzes",
+      "summary": "De gasten vertellen of zij het WK gaan kijken en hoe zij hun afwegingen maken over corruptie en mensenrechten."
     },
     {
-      "start_seconds": 1240,
-      "title": "Boycots en ostracisme",
-      "summary": "Over de oorsprong van de boycot en het spanningsveld tussen moraal en recht."
+      "start_seconds": 797,
+      "title": "Moraal, boycot en FIFA",
+      "summary": "Het gesprek gaat over de zin en onzin van boycotten, de historische oorsprong van het woord boycot en de rol van de FIFA."
     },
     {
-      "start_seconds": 1450,
+      "start_seconds": 1446,
       "title": "Is voetbal een religie?",
-      "summary": "Definities van religie, Durkheim, Wittgenstein en Blumenberg vergeleken met voetbal."
+      "summary": "Theologie en filosofie worden ingezet om te bepalen of voetbal de kenmerken van religie vertoont, met verschillende definities als uitgangspunt."
     },
     {
-      "start_seconds": 1980,
-      "title": "Alle religie is voetbal",
-      "summary": "Rondheid, syncretisme en het universele karakter van voetbal; de paus en de voetbaloorlog."
+      "start_seconds": 2573,
+      "title": "Dictatortest, commercialisering en secularisering",
+      "summary": "Stefan Paas introduceert de dictatortest voor grondrechten, en het gesprek gaat over het grote geld in voetbal als vorm van secularisering."
     },
     {
-      "start_seconds": 2300,
-      "title": "Gesprek met Sander de Kramer",
-      "summary": "Geloof onder Nederlandse topvoetballers."
+      "start_seconds": 3079,
+      "title": "Geloof van voetballers",
+      "summary": "Sander de Kramer vertelt over Nederlandse en buitenlandse topvoetballers die geloof, bidden en bijgeloof gebruiken om met druk om te gaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 180,
-      "speaker": "René ten Bos",
-      "text": "Voetbal is bij uitstek een onrechtvaardige sport.",
-      "note": "Verbindt Camus' existentialisme met de ervaring van de supporter."
-    },
-    {
-      "start_seconds": 508,
+      "start_seconds": 2425,
       "speaker": "Stefan Paas",
-      "text": "Hij maakt een Kantiaanse afweging om niet naar het WK te kijken.",
-      "note": "Persoonlijke ethiek die als gevoel van besmeurdheid wordt beschreven."
+      "text": "Welke mensenhater heeft het ooit bedacht? Dat je een bal in met je voeten en nou ja, met je hoofd dan.",
+      "note": "Een luchtige maar scherpe reactie op het idee dat voetbal met verboden handen gespeeld wordt en zo een anticultuur vormt."
     },
     {
-      "start_seconds": 868,
-      "speaker": "René ten Bos",
-      "text": "Het is heel makkelijk om de high moral ground in te nemen, want het is lekker ver weg.",
-      "note": "Scherpe kritiek op morele gelijkhebberigheid."
+      "start_seconds": 1474,
+      "speaker": "Stefan Paas",
+      "text": "Feyenoord is mijn kerk.",
+      "note": "Een treffende grap die laat zien hoe fans hun club als levensbeschouwelijke gemeenschap ervaren."
     },
     {
-      "start_seconds": 1259,
-      "speaker": "René ten Bos",
-      "text": "Een boycot is een vorm van schervengericht, ostracisme.",
-      "note": "Verrassende etymologie en filosofische duiding."
+      "start_seconds": 2935,
+      "speaker": "Stefan Paas",
+      "text": "Ik heb liever dat ze wereldkampioen worden dan fatsoenlijk land.",
+      "note": "Het moreel dilemma van wie de prestatie van de ploeg wil waarderen maar het toernooi niet wil steunen, wordt hier scherp verwoord."
     },
     {
-      "start_seconds": 2200,
+      "start_seconds": 1114,
       "speaker": "René ten Bos",
-      "text": "Er zijn oorlogen uitgebroken naar aanleiding van voetbalwedstrijden.",
-      "note": "Verwijst naar de voetbaloorlog tussen Honduras en El Salvador."
+      "text": "Moraliteit is niet zoiets van: nee, kijk, ik heb een soeverein eigen gelijk en daar ga ik de rest op afmeten.",
+      "note": "Een kritische kanttekening bij morele superioriteit in het publieke debat over sportboycotten."
+    },
+    {
+      "start_seconds": 4182,
+      "speaker": "Sander de Kramer",
+      "text": "Steven Pienaar slaapt tot op de dag van vandaag met de Bijbel onder zijn kussen.",
+      "note": "Een persoonlijk verhaal over hoe geloof een jongen uit een gewelddadige township redde en hem door de topsport heen droeg."
     }
   ],
   "keywords": [
-    "voetbal",
-    "religie",
-    "René ten Bos",
-    "Hooghouden",
+    "voetbal als religie",
     "WK Qatar",
-    "FIFA",
     "boycot",
-    "ostracisme",
-    "Blumenberg",
-    "Camus",
-    "syncretisme",
-    "zingeving"
+    "FIFA",
+    "secularisering",
+    "zingeving",
+    "escapisme",
+    "bijgeloof",
+    "geloof van voetballers",
+    "moraal",
+    "dictatortest",
+    "commercialisering"
   ],
-  "quotes": [],
+  "quotes": [
+    "Is voetbal niet bijna een religie op zichzelf?",
+    "Ook als je helemaal niks met voetbal hebt, is dit thema het overdenken waard.",
+    "Blijkt maar weer eens wat de belangrijkste bijzaak in de wereld is."
+  ],
   "similar": [
     {
       "n": 124,
-      "reason": "Efficiëntie als nieuwe dominante religie; seculiere verschijnselen als religie bekeken"
+      "reason": "Religieuze functie van efficiëntie en commercie, vergelijkbaar met voetbal als seculiere religie"
     },
     {
-      "n": 101,
-      "reason": "Het winkelcentrum is de nieuwe kerk: alledaagse cultuur als religie"
+      "n": 85,
+      "reason": "Religie en economie: comeback van religie in economisch denken en handelen"
     },
     {
-      "n": 122,
-      "reason": "Filosofische aflevering over God en Nietzsche, met Nederlandse denker"
+      "n": 145,
+      "reason": "Zingeving en God zoeken in economisch onzekere tijden, met economische en politieke thema's"
     },
     {
-      "n": 125,
-      "reason": "Ongelooflijke Café over betovering van taal en geloof, lichte toon"
-    },
-    {
-      "n": 155,
-      "reason": "Filosofie over de dood van God, met filosoof Ger Groot"
+      "n": 278,
+      "reason": "Therapie als moderne 'opium van het volk', vergelijkbaar met sport als seculier geloof"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

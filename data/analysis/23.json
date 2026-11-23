@@ -1,18 +1,23 @@
 {
   "episode": 23,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 99268,
+    "segments": 710,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30004,
-    "output_tokens": 2538,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49385,
+    "output_tokens": 8668,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
     "Politiek",
-    "Kerk & secularisatie",
-    "Geschiedenis"
+    "Samenleving & migratie",
+    "God & geloof",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Wouter Beekers"
@@ -20,165 +25,143 @@
   "people": [
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, nationalistisch politicus",
+      "note": "PVV-leider; zijn antwoord 'Eigen volk eerst' wordt als seculiere nationale religie geduid",
       "start_seconds": 33,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 6
     },
     {
       "name": "Thierry Baudet",
-      "note": "leider van Forum voor Democratie",
+      "note": "Leider van Forum voor Democratie; centraal in het debat over het nieuwe nationalisme",
       "start_seconds": 33,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "mention_count": 25
     },
     {
       "name": "Karl Marx",
-      "note": "denker van het socialisme, 'religie is opium van het volk'",
-      "start_seconds": 222,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Grondlegger van het marxisme; klassieke bron van de 'opium van het volk'-gedachte",
+      "start_seconds": 270,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Marijnissen",
+      "note": "Voormalig SP-leider, vergeleken met Beekers' vader",
+      "start_seconds": 532,
+      "mention_count": 1
     },
     {
       "name": "Thomas Halík",
-      "note": "Tsjechische theoloog en priester, twijfel als brug tussen geloof en ongeloof",
+      "note": "Tsjechische priester en theoloog; schrijft dat twijfel een brug kan vormen tussen geloof en ongeloof",
       "start_seconds": 459,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Karl Popper",
-      "note": "wetenschapsfilosoof die Beekers inspireerde",
+      "note": "Wetenschapsfilosoof die Beekers bescheidenheid over wetenschap leerde",
       "start_seconds": 402,
-      "wiki_checked": true,
-      "wiki_pageid": 6625,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Popper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/250px-Karl_Popper.jpg"
-    },
-    {
-      "name": "Kemal Rijken",
-      "note": "journalist, auteur van Eigen volk",
-      "start_seconds": 817,
-      "wiki_checked": true,
-      "wiki_pageid": 5442136,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kemal_Rijken"
+      "mention_count": 1
     },
     {
       "name": "Paul Collier",
-      "note": "Oxford-econoom, sociaaldemocraat, over afnemende cohesie",
-      "start_seconds": 885,
-      "wiki_checked": true,
-      "wiki_pageid": 1668279,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Collier",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Paul_Collier_World_Economic_Forum_2013.jpg/250px-Paul_Collier_World_Economic_Forum_2013.jpg"
+      "note": "Oxford-econoom die een gebrek aan cohesie en solidariteit signaleert",
+      "start_seconds": 945,
+      "mention_count": 2
     },
     {
       "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-leider, kritisch op Schengen",
-      "start_seconds": 1019,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "note": "ChristenUnie-leider; kreeg kritiek na een interview over Schengen",
+      "start_seconds": 1016,
+      "mention_count": 2
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader, schrijver van De Stad van God",
-      "start_seconds": 1225,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; schreef De Stad van God over de val van het Romeinse rijk",
+      "start_seconds": 1210,
+      "mention_count": 4
     },
     {
       "name": "Ernest Gellner",
-      "note": "denker over naties en nationalisme",
+      "note": "Joods-Britse denker over natie en nationalisme; vluchtte voor het nazisme",
       "start_seconds": 1589,
-      "wiki_checked": true,
-      "wiki_pageid": 1603715,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernest_Gellner",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ernest_Gellner_2.jpg/250px-Ernest_Gellner_2.jpg"
+      "mention_count": 4
     },
     {
       "name": "Immanuel Kant",
-      "note": "filosoof, door Gellner te universalistisch gevonden",
-      "start_seconds": 1695,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "note": "Filosoof wiens universalisme Gellner te ver vond gaan",
+      "start_seconds": 1684,
+      "mention_count": 1
+    },
+    {
+      "name": "Anton Mussert",
+      "note": "Leider van de NSB; door Paas als voorbeeld van een gevaarlijke leider genoemd",
+      "start_seconds": 2769,
+      "mention_count": 2
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Rotterdamse politicus; Beekers vindt zijn analyses van verweesde samenleving het lezen waard",
+      "start_seconds": 2840,
+      "mention_count": 4
     },
     {
       "name": "Isaiah Berlin",
-      "note": "filosoof: nationalisme ontspoort als gekrenkte trots",
+      "note": "Filosoof die stelt dat nationalisme vaak ontspoort als gekrenkte trots",
       "start_seconds": 2303,
-      "wiki_checked": true,
-      "wiki_pageid": 587244,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isaiah_Berlin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/IsaiahBerlin1983.jpg/250px-IsaiahBerlin1983.jpg"
+      "mention_count": 1
     },
     {
       "name": "Sybrand Buma",
-      "note": "voormalig CDA-leider, volkslied in de klas",
-      "start_seconds": 2333,
-      "wiki_checked": true,
-      "wiki_pageid": 260031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sybrand_van_Haersma_Buma",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/EPP_Helsinki_Congress_in_Finland%2C_7-8_November_2018_%2845715864652%29_%28cropped%29.jpg/250px-EPP_Helsinki_Congress_in_Finland%2C_7-8_November_2018_%2845715864652%29_%28cropped%29.jpg"
+      "note": "Voormalig CDA-leider; pleitte voor het zingen van het volkslied op school",
+      "start_seconds": 2326,
+      "mention_count": 1
     },
     {
       "name": "Rutger Bregman",
-      "note": "historicus, over de Deltawerken",
-      "start_seconds": 2372,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "note": "Historicus en columnist; noemde de Deltawerken als Nederlands symbool",
+      "start_seconds": 2367,
+      "mention_count": 1
     },
     {
-      "name": "James Kennedy",
-      "note": "promotor van Beekers",
-      "start_seconds": 401,
-      "wiki_checked": true,
-      "wiki_pageid": 754275,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/James-kennedy.jpg/250px-James-kennedy.jpg"
+      "name": "Mark Rutte",
+      "note": "Minister-president; sprak over de 'dikke ik-mentaliteit'",
+      "start_seconds": 3009,
+      "mention_count": 2
     },
     {
-      "name": "George Harinck",
-      "note": "promotor van Beekers",
-      "start_seconds": 401,
-      "wiki_checked": true,
-      "wiki_pageid": 324836,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Harinck"
+      "name": "Jesse Klaver",
+      "note": "GroenLinks-leider; de 'held van links' bij de verkiezingen",
+      "start_seconds": 3065,
+      "mention_count": 1
+    },
+    {
+      "name": "Carola Schouten",
+      "note": "ChristenUnie-politica; Beekers ervaart bij haar een rust die uit geloof voortkomt",
+      "start_seconds": 3533,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "note": "Franse denker; wees op botsing tussen vrijheid, gelijkheid en broederschap",
+      "start_seconds": 3236,
+      "mention_count": 1
+    },
+    {
+      "name": "Michel Houellebecq",
+      "note": "Franse schrijver over morele leegte; Baudet schreef er een essay over",
+      "start_seconds": 3343,
+      "mention_count": 2
+    },
+    {
+      "name": "Kemal Rijken",
+      "note": "Journalist, auteur van Eigen volk over rechtsnationalisme in Europa",
+      "start_seconds": 807,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Eigen volk: Hoe rechtsnationalisme Europa veroverde",
       "author": "Kemal Rijken",
-      "note": "aanleiding voor het essay van Beekers",
-      "start_seconds": 817,
+      "note": "Boek dat Beekers opnieuw deed nadenken over nationalisme",
+      "start_seconds": 807,
       "volume_id": "g8eVDwAAQBAJ",
       "canonical_title": "Eigen volk: Hoe het rechts-nationalisme Europa veroverde",
       "canonical_author": "Kemal Rijken",
@@ -187,9 +170,21 @@
       "thumbnail": "http://books.google.com/books/content?id=g8eVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
+      "title": "Naties en nationalisme",
+      "author": "Ernest Gellner",
+      "note": "Analyse van nationalisme als product van moderne industrie en democratie",
+      "start_seconds": 1589,
+      "volume_id": "LWZ1uAAACAAJ",
+      "canonical_title": "Naties en nationalisme",
+      "canonical_author": "Ernest Gellner",
+      "isbn13": "9789028416239",
+      "isbn10": "9028416234",
+      "thumbnail": ""
+    },
+    {
       "title": "De Stad van God",
       "author": "Augustinus",
-      "note": "over samenleven in een wankelende wereld",
+      "note": "Werk geschreven tijdens de val van Rome; bron van Beekers' universele blik en waarschuwing voor hoogmoed",
       "start_seconds": 1230,
       "volume_id": "kzknGQAACAAJ",
       "canonical_title": "De stad van God",
@@ -199,151 +194,172 @@
       "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Naties en Nationalisme",
-      "author": "Ernest Gellner",
-      "note": "nationalisme als noodzakelijk voor moderne democratie",
-      "start_seconds": 1589,
-      "volume_id": "LWZ1uAAACAAJ",
-      "canonical_title": "Naties en nationalisme",
-      "canonical_author": "Ernest Gellner",
-      "isbn13": "9789028416239",
-      "isbn10": "9028416234",
+      "title": "Oikofobie",
+      "author": "Thierry Baudet",
+      "note": "Boek waarin Baudet de natiestaat verdedigt tegen de 'vreemde' van binnen",
+      "start_seconds": 3147,
+      "volume_id": "gfygAAAAQBAJ",
+      "canonical_title": "Oikofobie",
+      "canonical_author": "Thierry Baudet",
+      "isbn13": "9789035140349",
+      "isbn10": "9035140346",
+      "thumbnail": "http://books.google.com/books/content?id=gfygAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Aanval op de natiestaat",
+      "author": "Thierry Baudet",
+      "note": "Proefschrift van Baudet waarin de natiestaat wordt bekritiseerd",
+      "start_seconds": 3147,
+      "volume_id": "fpnhAQAACAAJ",
+      "canonical_title": "De aanval op de natiestaat",
+      "canonical_author": "Thierry Baudet",
+      "isbn13": "9789035145177",
+      "isbn10": "9035145178",
       "thumbnail": ""
     }
   ],
-  "bible_refs": [
-    {
-      "ref": "Genesis 11",
-      "note": "toren van Babel als beeld van menselijke hoogmoed",
-      "start_seconds": 1256
-    }
-  ],
+  "bible_refs": [],
   "places": [
     "Rotterdam",
-    "Amersfoort",
     "Den Haag",
-    "Rome",
+    "Amersfoort",
     "Oxford",
-    "Nederland",
-    "Frankrijk",
-    "Groot-Brittannië"
+    "Parijs",
+    "Palestina"
   ],
-  "summary_tldr": "Wouter Beekers (ChristenUnie) licht zijn essay 'Nieuw nationalisme verdient een nieuw antwoord' toe, waarin hij de noodkreet achter het nationalisme serieus neemt. Stefan Paas deelt die zorg over cohesie, maar waarschuwt voor het meepraten met Wilders en Baudet. Samen bespreken ze gezond nationalisme, secularisatie en nationalisme als vervanging van religie.",
+  "summary_tldr": "ChristenUnie-ideoloog Wouter Beekers pleit in zijn essay Nieuw nationalisme verdient een nieuw antwoord voor serieuze omgang met het nationalisme van PVV en Forum voor Democratie, en voor gesprek met hun kiezers. Theoloog Stefan Paas is zeer kritisch over die aanpak, vooral omdat hij de retoriek en het gedachtegoed van Baudet en Wilders als gevaarlijk ziet. Het gesprek draait om de vraag hoe gezond nationalisme eruitziet, wat de noodkreet achter het nationalisme is en welke rol het afnemende geloof speelt.",
   "summary_points": [
-    "Beekers is opgevoed in een atheïstisch SP-milieu en kwam als volwassene tot geloof.",
-    "Zijn essay ontstond uit ervaringen in een dynamische Rotterdamse wijk.",
-    "Achter nationalisme schuilt een noodkreet over bestaanszekerheid, snelle verandering en verlies van gemeenschap.",
-    "Paas benadrukt dat rechten voor individuen gelijk moeten zijn en dat Baudets retoriek ranzig is.",
-    "Augustinus en Gellner helpen om universalisme en gemeenschapsbesef te combineren.",
-    "Secularisatie laat een vacuüm waarin nationalisme als religie-vervanging kan opkomen.",
-    "Christelijke omgang met geschiedenis vraagt om schuldbelijdenis, niet om verheerlijking.",
-    "Een gezond nationaal besef is open, gebaseerd op waarden en landschap, niet op etniciteit.",
-    "Paas wantrouwt de term 'broederschap' voor de staat, Beekers ziet wel behoefte aan gemeenschap."
+    "Beekers ziet in het nieuwe nationalisme een noodkreet van mensen die onzekerheid, snelle verandering en verlies van cohesie ervaren.",
+    "Volgens Beekers heeft de politiek een kramp opgelopen en moet zij naar de zorgen van kiezers toe, ook van rechtspopulistische partijen.",
+    "Paas erkent de zorgen, maar wijst populistische retoriek over migratie en groepen af en benadrukt dat rechten gelden voor de persoon, niet voor de groep.",
+    "Beide gasten vinden dat nationale solidariteit nodig is, maar Paas wantrouwt het begrip broederschap omdat het in seculiere projecten al tot uitsluiting leidde.",
+    "Beekers verwijst naar Gellner, die nationalisme als gevaarlijk vacuüm ziet na secularisatie, waarin een nationale 'religie' de plaats van het geloof inneemt.",
+    "Paas ziet in het Wilders-motto Eigen volk eerst een seculiere invulling van geloof, die weinig met het christelijk geloof te maken heeft.",
+    "Beide gasten zoeken een gezonde vorm van trots, zoals Paas' waardering voor het Nederlandse landschap en de open, gelijkwaardige Nederlandse identiteit.",
+    "Het gesprek gaat over of je met Baudet en Wilders in gesprek moet, en Paas stelt dat het laatste woord ligt bij de machthebbers, niet bij de stemmers.",
+    "Het slot benadrukt dat respectvol en verbonden debat mogelijk is, ook als de gasten het niet eens zijn."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en coronagesprek",
-      "summary": "Opening van de aflevering en een korte praat over het coronavirus."
+      "title": "Opening en coronavirus",
+      "summary": "De gasten openen met luchtige opmerkingen over het coronavirus en de Nederlandse solidariteit."
     },
     {
-      "start_seconds": 142,
-      "title": "Beekers' weg naar geloof",
-      "summary": "Beekers vertelt over zijn socialistische, seculiere opvoeding en zijn bekering."
+      "start_seconds": 160,
+      "title": "Beekers' achtergrond en geloofsweg",
+      "summary": "Beekers vertelt over zijn ongelovige, socialistische jeugd en zijn geleidelijke weg naar het geloof."
     },
     {
-      "start_seconds": 604,
-      "title": "Aanleiding en ophef rond het essay",
-      "summary": "Zijn ervaringen in Rotterdam en de felle reacties op het essay."
+      "start_seconds": 630,
+      "title": "Aanleiding van het essay",
+      "summary": "Beekers beschrijft de onveiligheid en onvrede in zijn Rotterdamse wijk en de reacties die het essay opriep."
     },
     {
-      "start_seconds": 885,
-      "title": "De noodkreet achter nationalisme",
-      "summary": "Cohesie, migratie, identiteit en de vervuiling van het debat door rechtspopulisten."
+      "start_seconds": 945,
+      "title": "Cohesie, noodkreet en Augustinus",
+      "summary": "Paas citeert Collier over verlies van cohesie; de gasten zoeken de wortels van de noodkreet, mede via Augustinus."
     },
     {
-      "start_seconds": 1225,
-      "title": "Augustinus en Gellner",
-      "summary": "Samenleven als kunst en nationalisme als noodzakelijk maar gevaarlijk."
+      "start_seconds": 1589,
+      "title": "Nationalisme, secularisatie en Gellner",
+      "summary": "Gellner en de rol van secularisatie: nationalisme vult het gat van het geloof, en Wilders' motto wordt als voorbeeld genoemd."
     },
     {
-      "start_seconds": 1740,
-      "title": "Secularisatie en nationalisme als religie",
-      "summary": "Nationalisme vult het gat van religie; omgang met geschiedenis en schuld."
+      "start_seconds": 2280,
+      "title": "Gezonde trots en nationale identiteit",
+      "summary": "Beide gasten zoeken naar een gezonde vorm van nationale trots en debatteren over broederschap, vlaggen en de rol van de elite."
     },
     {
-      "start_seconds": 1930,
-      "title": "Gezond nationaal besef",
-      "summary": "Waarden, landschap, klimaat, broederschap en gezonde trots."
+      "start_seconds": 2580,
+      "title": "Dialoog met populisten",
+      "summary": "Het debat gaat over de vraag of en hoe je met Baudet, Wilders en hun kiezers in gesprek moet, met verwijzingen naar Mussert en Fortuyn."
+    },
+    {
+      "start_seconds": 3780,
+      "title": "Migratie, christenen en afsluiting",
+      "summary": "Beekers bespreekt migrantenchristenen en de rol van christelijke politiek; de gasten sluiten af met de wens om verbonden te blijven."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1774,
+      "start_seconds": 2580,
       "speaker": "Stefan Paas",
-      "text": "Eigen volk eerst: dat is de ene zin die secularisatie samenvat.",
-      "note": "Scherpe duiding van Wilders' antwoord op christelijke cultuur."
+      "text": "Dat Baudet racist is, vind ik wel, maar mensen die op hem stemmen, daar ga ik niet van zeggen dat het racisten zijn.",
+      "note": "Een scherp onderscheid tussen machthebbers en kiezers, waarmee Paas het centrale dilemma van het gesprek blootlegt."
     },
     {
-      "start_seconds": 459,
+      "start_seconds": 1589,
       "speaker": "Wouter Beekers",
-      "text": "Twijfel kan een brug vormen tussen geloof en ongeloof.",
-      "note": "Persoonlijke geloofsopvatting."
+      "text": "Nationalisme hebben we nodig gehad, en nodig tot op de dag van vandaag, als moderne democratieën.",
+      "note": "Beekers verdedigt een gedomesticeerde vorm van nationalisme, wat tegen het gangbare beeld ingaat."
     },
     {
-      "start_seconds": 1030,
-      "speaker": "Stefan Paas",
-      "text": "Veerdiensten uit Afrika: dat is ranzig.",
-      "note": "Duidelijke afwijzing van Baudets retoriek."
-    },
-    {
-      "start_seconds": 2303,
+      "start_seconds": 1739,
       "speaker": "Wouter Beekers",
-      "text": "Nationalisme ontspoort vaak als gekrenkte trots.",
-      "note": "Citaat van Isaiah Berlin."
+      "text": "Mensen hebben een soort hoopvol perspectief nodig, zijn dat steeds meer kwijt, en nationalistische populisten duiken in dat gat.",
+      "note": "Een treffende analyse die secularisatie koppelt aan het ontstaan van giftig nationalisme."
     },
     {
-      "start_seconds": 2160,
+      "start_seconds": 1769,
       "speaker": "Stefan Paas",
-      "text": "Broederschap is te warm en te intiem om politiek in te zetten.",
-      "note": "Verschil van inzicht tussen de twee gasten."
+      "text": "Eigen volk eerst: dat is de secularisatie samengevat. Het heeft geen moer te maken met wat het christelijk geloof ooit gezegd heeft.",
+      "note": "Paas laat zien hoe een politieke slogan als seculiere religie fungeert."
+    },
+    {
+      "start_seconds": 2840,
+      "speaker": "Wouter Beekers",
+      "text": "Laten we zijn boeken lezen, de verweeste samenleving lezen.",
+      "note": "Beekers pleit om Fortuyn serieus te nemen, wat in de context van de kritiek op het essay opvalt."
+    },
+    {
+      "start_seconds": 2745,
+      "speaker": "Wouter Beekers",
+      "text": "Durven we ook die mensen die politiek actief zijn voor die clubs te benaderen als beelddragers van God?",
+      "note": "Het christelijke fundament van Beekers' pleidooi voor gesprek, hoewel Paas hier sceptisch tegenover staat."
     }
   ],
   "keywords": [
     "nationalisme",
-    "Wouter Beekers",
     "ChristenUnie",
-    "Geert Wilders",
-    "Thierry Baudet",
+    "populisme",
     "secularisatie",
+    "gezonde trots",
     "Augustinus",
     "Ernest Gellner",
-    "cohesie",
-    "identiteit",
-    "populisme",
-    "schuldbelijdenis"
+    "broederschap",
+    "migratie",
+    "Forum voor Democratie",
+    "noodkreet",
+    "natiestaat"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat is gezond nationalisme, en hoe verhoudt zich dat tot religie?",
+    "de noodkreet die volgens Beekers achter het nationalisme schuilgaat",
+    "partijen als de PVV en Forum voor Democratie serieuzer genomen moeten worden"
+  ],
   "similar": [
     {
       "n": 307,
-      "reason": "Eric Storm over nationalisme en de natiestaat, met Stefan Paas; directe thematische overlap."
-    },
-    {
-      "n": 222,
-      "reason": "Kees van der Staaij over populisme, polarisatie en christelijke politiek, net als Beekers (ChristenUnie)."
+      "reason": "Gaat expliciet over nationalisme, de natiestaat en de religieuze wortels ervan"
     },
     {
       "n": 2,
-      "reason": "Baudet, populisme en de kerk; Baudet en James Kennedy komen ook in aflevering 23 voor."
+      "reason": "Bespreekt Baudet, populisme en de rol van de kerk, net als deze aflevering"
     },
     {
-      "n": 279,
-      "reason": "Opkomen voor onze (christelijke) cultuur, met migratie en identiteit als thema."
+      "n": 170,
+      "reason": "Analyseert Wilders' electorale succes en de verrechtsing van Nederland, met Josse de Voogd"
     },
     {
-      "n": 15,
-      "reason": "Gert-Jan Segers (ChristenUnie) over de verweesde samenleving, politiek en geloof."
+      "n": 222,
+      "reason": "Gaat over populisme, polarisatie en de joods-christelijke rechtsstaat, en migratie"
+    },
+    {
+      "n": 192,
+      "reason": "Pleit voor cultuurchristendom in Europa, met politiek, migratie en geopolitiek als thema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 103,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 123240,
+    "segments": 1496,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32929,
-    "output_tokens": 2563,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 66720,
+    "output_tokens": 8926,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Politiek",
     "God & geloof",
-    "Kerk & secularisatie",
-    "Gezin & relaties"
+    "Politiek",
+    "Samenleving & migratie",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Nicki Pouw-Verweij"
@@ -20,199 +25,253 @@
   "people": [
     {
       "name": "Thierry Baudet",
-      "note": "oprichter en leider van Forum voor Democratie; Pouw-Verweij nam afstand van zijn antisemitisme en complotdenken",
-      "start_seconds": 84,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Oprichter en leider van Forum voor Democratie; Pouw-Verweij stapte om zijn antisemitisme en complotdenken uit de partij",
+      "start_seconds": 24,
+      "mention_count": 25
     },
     {
       "name": "Theo Hiddema",
-      "note": "voormalig Forum voor Democratie-Kamerlid, naast Baudet in de top van de partij",
-      "start_seconds": 84,
-      "wiki_checked": true,
-      "wiki_pageid": 735375,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_Hiddema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/HiddemaHeijmans.jpg/250px-HiddemaHeijmans.jpg"
-    },
-    {
-      "name": "Gert-Jan Segers",
-      "note": "eerder Tweede Kamerlid (ChristenUnie) en gast in de podcast",
-      "start_seconds": 95,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
-    },
-    {
-      "name": "Jim Schilder",
-      "note": "voormalig journalist en later pastoor; zijn interview sprak haar aan",
-      "start_seconds": 884,
-      "wiki_checked": true
+      "note": "Partijgenoot bij Forum voor Democratie, genoemd als nummer 2 op de lijst",
+      "start_seconds": 24,
+      "mention_count": 1
     },
     {
       "name": "Fleur Agema",
-      "note": "PVV-Kamerlid, bekend om zorgbeleid; Pouw-Verweij stemde eerder op haar",
-      "start_seconds": 1494,
-      "wiki_checked": true,
-      "wiki_pageid": 597419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fleur_Agema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Fleur_Agema%2C_February_2025.jpg/250px-Fleur_Agema%2C_February_2025.jpg"
+      "note": "PVV-politica, bekend om zorgbeleid; Pouw-Verweij stemde eerder op haar",
+      "start_seconds": 1486,
+      "mention_count": 3
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Leider van de PVV; zijn uitspraken over de islam en moslims worden als reden voor afstand genoemd",
+      "start_seconds": 2047,
+      "mention_count": 4
     },
     {
       "name": "Kees van der Staaij",
-      "note": "SGP-partijleider",
+      "note": "Partijleider van de SGP",
       "start_seconds": 1579,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "CDA-Kamerlid die samen met Pouw-Verweij Kamervragen stelde over de transgenderzorg",
+      "start_seconds": 3086,
+      "mention_count": 2
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "Klimaatactiviste, door Pouw-Verweij bekritiseerd als alarmistisch",
+      "start_seconds": 3044,
+      "mention_count": 2
+    },
+    {
+      "name": "J.K. Rowling",
+      "note": "Schrijfster van Harry Potter; haar uitspraken over menstruerende mensen als voorbeeld van woke-discussie",
+      "start_seconds": 3345,
+      "mention_count": 2
+    },
+    {
+      "name": "Robert Jensen",
+      "note": "Auteur en activist, door Baudet als visionair gepresenteerd; Pouw-Verweij zag hierin een kantelpunt",
+      "start_seconds": 2491,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Cliteur",
+      "note": "Hoogleraar rechtsfilosofie, promotor van Robert Jensen",
+      "start_seconds": 2522,
+      "mention_count": 1
+    },
+    {
+      "name": "Joël Voordewind",
+      "note": "ChristenUnie-Kamerlid die Baudet op de Bijbelse naastenliefde aansprak",
+      "start_seconds": 3924,
+      "mention_count": 2
+    },
+    {
+      "name": "Jim Schilder",
+      "note": "Voormalig journalist, later pastoor; interview over zijn geloofsbekering hielp Pouw-Verweij naar de katholieke kerk",
+      "start_seconds": 868,
+      "mention_count": 2
     },
     {
       "name": "Paul Verhoeven",
-      "note": "regisseur met een vergelijkbare ervaring in een evangelische dienst",
+      "note": "Filmregisseur die een ervaring met een kerkdienst als jongen beschreef",
       "start_seconds": 562,
-      "wiki_checked": true,
-      "wiki_pageid": 1339,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Verhoeven_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Paul_Verhoeven_Cannes_2016.jpg/250px-Paul_Verhoeven_Cannes_2016.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "Eerdere gast en voormalig Kamerlid van de ChristenUnie",
+      "start_seconds": 95,
+      "mention_count": 1
+    },
+    {
+      "name": "Edmund Burke",
+      "note": "Britse conservatieve denker; idee van het contract tussen generaties",
+      "start_seconds": 2830,
+      "mention_count": 2
+    },
+    {
+      "name": "Jeroen de Vries",
+      "note": "Politiek commentator die Baudet zag als iemand die wespennesten opzoekt",
+      "start_seconds": 2514,
+      "mention_count": 1
+    },
+    {
+      "name": "Maxime Hartman",
+      "note": "Politiek commentator, als voorbeeld van soundbite-journalistiek",
+      "start_seconds": 248,
+      "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Lucas 10:25-37",
+      "note": "Gelijkenis van de barmhartige Samaritaan, aangehaald in discussie over naastenliefde",
+      "start_seconds": 3959
+    },
+    {
+      "ref": "Prediker 7:16",
+      "note": "Niet te rechtvaardig zijn als oproep tot matiging, door David Boogerd als Bijbelcitaat herkend",
+      "start_seconds": 3604
+    },
+    {
+      "ref": "Mattheus 5-7",
+      "note": "De Bergrede, besproken als radicaal en niet conservatief",
+      "start_seconds": 3722
+    }
+  ],
   "places": [
     "Amsterdam",
-    "Frankrijk",
-    "Nederland"
+    "Ter Apel",
+    "Duitsland",
+    "Verenigd Koninkrijk",
+    "Frankrijk"
   ],
-  "summary_tldr": "Tweede Kamerlid Nicki Pouw-Verweij (JA21) vertelt hoe ze als 14-jarige tot geloof kwam en uiteindelijk katholiek werd, samen met haar hele familie. Daarna gaat het over haar politieke weg via Forum voor Democratie naar JA21, haar opvatting van conservatisme en haar standpunten over abortus en euthanasie. Stefan Paas en David Boogerd vragen kritisch door.",
+  "summary_tldr": "Tweede Kamerlid Nicki Pouw-Verweij (JA21) vertelt hoe zij op latere leeftijd met haar familie tot het katholieke geloof kwam en hoe haar politieke loopbaan via Forum voor Democratie naar JA21 liep. Ze uit zorgen over de woke-ideologie, die volgens haar religieuze trekken vertoont, en verdedigt een conservatief standpunt over gezin, abortus, klimaat en migratie. Met theoloog Stefan Paas bespreekt ze de spanning tussen christelijk geloof, conservatisme en de radicaliteit van Jezus.",
   "summary_points": [
-    "Pouw-Verweij werd niet kerkelijk opgevoed, maar kwam op 14-jarige leeftijd via een conciërge in een volle-evangeliegemeente terecht.",
-    "Haar broer kwam via de ratio (geschiedenis) tot het katholieke geloof, waarna haar vader, moeder en zij zelf volgden.",
-    "Ze liet zich in 2017 dopen in de Rooms-Katholieke Kerk, na anderhalf jaar voorbereiding.",
-    "De houding van de evangelische gemeente tegenover homoseksualiteit stootte haar af; ze maakt onderscheid tussen zonde en zondaar.",
-    "Haar werk in de thuiszorg en de bezuinigingen op de ouderenzorg dreven haar de politiek in.",
-    "Ze kwam bij Forum voor Democratie terecht omdat ze zich als zorgdeskundige kon aanmelden; ze stapte in 2020 op vanwege Baudets antisemitisme en complotdenken.",
-    "Ze koos een seculiere rechtse partij omdat de christelijke partijen minder aansloten, terwijl ze soms gekscherend 'het eerste vrouwelijke SGP-Kamerlid' wordt genoemd.",
-    "Op abortus wil ze een medisch gefundeerd debat over de termijn, geen principieel verbod.",
-    "Conservatisme ziet ze als het behouden van opgedane kennis en waarden, met het gezin als hoeksteen, maar zonder vrouwen thuis te willen houden."
+    "Pouw-Verweij kwam via een evangelische gemeente en later via een interview van Jim Schilder tot het katholieke geloof, mede gestimuleerd door haar broer en moeder.",
+    "Haar politieke carrière begon bij Forum voor Democratie, waar zij in 2020 vertrok na Baudets antisemitisme en complotdenken; daarna sloot zij zich aan bij JA21.",
+    "Zij ziet zichzelf als rechts op immigratie, klimaat en soevereiniteit, en vindt links-rechts een achterhaald begrip; conservatisme ziet zij als behoud van waarden, niet als terugverlangen.",
+    "Over abortus en euthanasie is zij minder streng dan de SGP, maar pleit zij voor een debat over de 24-weken-grens op basis van medische feiten.",
+    "Zij maakt zich zorgen over woke-ideologie, die zij als een religie-achtige zingevingsvorm met individualisering en maakbaarheidsdenken beschrijft.",
+    "Kritisch staat zij tegenover de voorgestelde wijziging van de transgenderwet en de zelfidentificatie, vooral vanwege mogelijke gevolgen voor kinderen en vrouwen.",
+    "Stefan Paas wijst erop dat conservatisme ook redelijkheid en zorg voor toekomstige generaties betekent, en stelt vragen bij de klimaatpositie van JA21.",
+    "Het gesprek eindigt met de vraag of christenen zich strijdbaar moeten opstellen, waarbij Pouw-Verweij pleit voor strijden vóór christelijke waarden in plaats van tegen anderen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en politicus versus arts",
-      "summary": "David introduceert Nicki Pouw-Verweij. Ze vertelt dat ze zich vooral arts voelt en half toevallig de politiek in rolde."
+      "title": "Introductie en beroepsachtergrond",
+      "summary": "Pouw-Verweij is arts en Tweede Kamerlid; zij ziet politiek als een 'noodzakelijke' keuze uit irritatie over het beleid."
     },
     {
       "start_seconds": 300,
-      "title": "Opvoeding en weg naar het geloof",
-      "summary": "Over haar ouders, de mystieke moeder en de katholieke achtergrond van haar vader. Op haar 14e komt ze via een conciërge in een evangelische gemeente."
-    },
-    {
-      "start_seconds": 660,
-      "title": "Katholiek worden met het hele gezin",
-      "summary": "Haar broer komt via geschiedenis tot het katholicisme en de rest van het gezin volgt. Zij laat zich na een lange voorbereiding dopen."
-    },
-    {
-      "start_seconds": 970,
-      "title": "Homoseksualiteit en pastorale omgang",
-      "summary": "Stefan Paas bevraagt de kerkelijke leer over homoseksualiteit. Pouw-Verweij benadrukt het verschil tussen zonde en zondaar en de pastorale praktijk."
-    },
-    {
-      "start_seconds": 1080,
-      "title": "Van thuiszorg naar politiek",
-      "summary": "Haar ervaringen in de thuiszorg en de bezuinigingen op de ouderenzorg leidden tot haar politieke betrokkenheid."
+      "title": "Geloofsweg van een niet-kerkelijk gezin",
+      "summary": "Via een evangelische gemeente en haar broer komt zij tot geloof en uiteindelijk tot het katholicisme, samen met haar gezin."
     },
     {
       "start_seconds": 1330,
-      "title": "Forum voor Democratie en JA21",
-      "summary": "Hoe ze bij FVD terechtkwam en waarom ze koos voor een seculiere rechtse partij in plaats van de SGP."
+      "title": "Van Forum voor Democratie naar JA21",
+      "summary": "Pouw-Verweij legt uit hoe zij bij FvD terechtkwam, waarom zij rechts is en waarom zij niet bij een christelijke partij uitkwam."
     },
     {
-      "start_seconds": 1560,
-      "title": "Abortus en euthanasie",
-      "summary": "Ze legt uit dat ze persoonlijk anders kiest dan ze anderen wil opleggen en pleit voor een medisch debat over de abortustermijn."
+      "start_seconds": 2163,
+      "title": "Breuk met Forum en de coronatijd",
+      "summary": "Zij blikt terug op de scheiding met Baudet en de rol van corona, complotdenken en het 'kantelpunt'."
     },
     {
-      "start_seconds": 1768,
-      "title": "Wat is conservatisme?",
-      "summary": "Over conservatisme als waardering voor opgebouwde kennis en het gezin, de rol van vrouwen en het zoeken naar nuance in een gepolariseerd klimaat."
+      "start_seconds": 2684,
+      "title": "Klimaat, energie en conservatieve verantwoordelijkheid",
+      "summary": "Pouw-Verweij en Paas debatteren over klimaatbeleid, kernenergie en het conservatieve idee van rentmeesterschap."
+    },
+    {
+      "start_seconds": 3083,
+      "title": "Woke-ideologie, transgenderwet en religie",
+      "summary": "Pouw-Verweij betoogt dat woke-denken een nieuwe religie is; Paas vraagt kritisch door naar wat zij precies bedoelt."
+    },
+    {
+      "start_seconds": 3616,
+      "title": "Christendom, Jezus en politiek",
+      "summary": "Het gesprek gaat over conservatieve christenen, de radicaliteit van Jezus en de vraag of christenen strijdbaar moeten zijn, met een kort uitstapje over asiel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 483,
-      "speaker": "Nicki Pouw-Verweij",
-      "text": "Ik werd uitgestuurd bij NASK, ging bij de conciërge zitten en die zei in feite: jij hebt God nodig in je leven.",
-      "note": "Een onverwachte aanleiding voor een geloofsweg."
+      "start_seconds": 1041,
+      "speaker": "Stefan Paas",
+      "text": "Een leeuw op de preekstoel, een lam in de biechtstoel.",
+      "note": "Treffend beeld van het verschil tussen kerkleer en pastorale praktijk, dat het gesprek over homoseksualiteit en de kerk illustreert."
     },
     {
-      "start_seconds": 832,
+      "start_seconds": 2562,
       "speaker": "Nicki Pouw-Verweij",
-      "text": "De priester zei tegen mij: 3 down, 1 to go.",
-      "note": "Humoristisch moment over het hele gezin dat tot geloof komt."
+      "text": "Ik zal nooit eraan bijdragen dat deze man premier wordt.",
+      "note": "Het moment waarop zij besloot met Baudet te breken, beschreven als 'shell shock' na een etentje."
     },
     {
-      "start_seconds": 1051,
+      "start_seconds": 3236,
       "speaker": "Nicki Pouw-Verweij",
-      "text": "Ik ben niet tegen euthanasie principieel; wat ik zelf kies is iets anders dan wat ik anderen wil opleggen.",
-      "note": "Nuanceert haar conservatisme tegenover de SGP."
+      "text": "Ik ben geen man, ook niet als ik nu zeg dat ik een man ben.",
+      "note": "Een scherpe en controversiële uitspraak over zelfidentificatie die het centrale punt van het woke-debat in het gesprek illustreert."
     },
     {
-      "start_seconds": 1167,
+      "start_seconds": 4003,
       "speaker": "Nicki Pouw-Verweij",
-      "text": "Dit kan alleen bedacht zijn door ambtenaren met een spreadsheet.",
-      "note": "Scherp oordeel over de bezuinigingen op de ouderenzorg."
+      "text": "Christenen moeten niet strijden tegen, maar zeker wel strijden voor.",
+      "note": "Een opvallend conclusie die het politieke en religieuze engagement van de aflevering samenvat."
     },
     {
-      "start_seconds": 1930,
+      "start_seconds": 4126,
       "speaker": "Nicki Pouw-Verweij",
-      "text": "Als vrouwen thuisblijven en 8 kinderen krijgen: you go girl. En als je premier wilt worden: ook you go girl.",
-      "note": "Haar gebalanceerde kijk op vrouwenkeuzes binnen conservatisme."
+      "text": "Jezus claimen als politicus vind ik een flinke zwakte, hoor.",
+      "note": "Een kritische kanttekening bij het instrumentaliseren van Jezus voor politieke doelen, waar ook Paas het mee eens is."
     }
   ],
   "keywords": [
-    "Nicki Pouw-Verweij",
+    "woke-ideologie",
+    "conservatisme",
     "JA21",
     "Forum voor Democratie",
-    "conservatisme",
     "katholicisme",
     "bekering",
-    "thuiszorg",
-    "abortus",
-    "euthanasie",
-    "Thierry Baudet",
-    "SGP",
-    "woke"
+    "transgenderwet",
+    "zelfidentificatie",
+    "cultuurchristendom",
+    "Jezus en politiek",
+    "rentmeesterschap",
+    "secularisatie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ze is niet kerkelijk opgevoed, maar kwam op latere leeftijd - met haar hele familie - tot geloof.",
+    "Nicki Pouw-Verweij maakt zich zorgen over wat ze 'woke-gedachtegoed' noemt, een progressieve ideologie die volgens haar haast religieuze trekken vertoont.",
+    "Een openhartig gesprek, met ook de nodige discussie."
+  ],
   "similar": [
     {
-      "n": 156,
-      "reason": "Politicus (Bontenbal, CDA) over geloof en politiek, kritisch bevraagd door Stefan Paas"
-    },
-    {
       "n": 222,
-      "reason": "Politicus Kees van der Staaij, genoemd in huidige aflevering, over geloof en politiek"
+      "reason": "Kees van der Staaij over populisme, polarisatie en de joods-christelijke rechtsstaat"
     },
     {
-      "n": 93,
-      "reason": "Gesprek over abortus: religie, ethiek en politiek"
+      "n": 56,
+      "reason": "Orthodoxe christenen en radicale populisten: overlap met conservatief christelijk politiek denken"
     },
     {
-      "n": 45,
-      "reason": "Geloof en christelijke partijen in de Nederlandse politiek"
+      "n": 2,
+      "reason": "Baudet, populisme en de kerk: zelfde figuren en thema's van religie en politiek"
     },
     {
-      "n": 70,
-      "reason": "Bekende persoon vertelt over religieuze coming-out en keuze voor de kerk"
+      "n": 15,
+      "reason": "Verweesde samenleving met Gert-Jan Segers: migratie, geloof en politieke identiteit"
+    },
+    {
+      "n": 148,
+      "reason": "SGP'ers en de asielcrisis: christelijke politiek en migratiedebat"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

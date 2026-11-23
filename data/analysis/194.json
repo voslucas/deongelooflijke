@@ -1,166 +1,191 @@
 {
   "episode": 194,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 127365,
+    "segments": 1642,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32093,
-    "output_tokens": 2475,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 67630,
+    "output_tokens": 6165,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Islam & jodendom",
-    "Kunst & cultuur",
-    "Zingeving & psyche",
-    "Samenleving & migratie"
+    "Politiek",
+    "Kunst & cultuur"
   ],
   "guests": [
     "Lale Gül"
   ],
   "people": [
     {
-      "name": "Lale Gül",
-      "note": "schrijver, auteur van 'Ik ga leven' en 'Ik ben vrij', religieverlater",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 5501650,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lale_G%C3%BCl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Lale_G%C3%BCl_in_2021_%28cropped%29.png/250px-Lale_G%C3%BCl_in_2021_%28cropped%29.png"
-    },
-    {
       "name": "Geert Wilders",
-      "note": "PVV-leider, met wie Gül om haar islamkritiek wordt vergeleken",
-      "start_seconds": 48,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Femke Halsema",
-      "note": "burgemeester van Amsterdam, regelde een safehouse voor Gül",
-      "start_seconds": 1056,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
+      "note": "PVV-leider, besproken in verband met islamkritiek en het nieuwe kabinet",
+      "start_seconds": 1659,
+      "mention_count": 14
     },
     {
       "name": "Ayaan Hirsi Ali",
-      "note": "religiekritisch schrijver en politica, verbleef eerder in hetzelfde safehouse",
-      "start_seconds": 1079,
-      "wiki_checked": true,
-      "wiki_pageid": 7672,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayaan_Hirsi_Ali",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg/250px-Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg"
+      "note": "Islamcritica die afstand nam van de islam en christen werd",
+      "start_seconds": 1070,
+      "mention_count": 8
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Burgemeester van Amsterdam die Gül belde tijdens de nacht van haar vlucht",
+      "start_seconds": 1055,
+      "mention_count": 3
     },
     {
       "name": "Femke Essink",
-      "note": "recensent van Trouw met een vernietigende recensie over Güls boek",
+      "note": "Recensent in Trouw die Gül in het Wilders-kamp plaatste",
       "start_seconds": 1986,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maarten van Rossem",
-      "note": "historicus, zijn stem werkt als slaapmiddel voor Gül",
-      "start_seconds": 156,
-      "wiki_checked": true,
-      "wiki_pageid": 48665,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_van_Rossem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg/250px-Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Pieter van der Wielen",
-      "note": "podcastmaker, Güls favoriete stem om naar te luisteren",
-      "start_seconds": 156,
-      "wiki_checked": true,
-      "wiki_pageid": 2113783,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_van_der_Wielen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pietervanderwielen.jpg/250px-Pietervanderwielen.jpg"
+      "mention_count": 3
     },
     {
       "name": "Jeroen Pauw",
-      "note": "tv-presentator bij wie Gül te gast was",
+      "note": "Tv-presentator waar Gül over haar boek sprak",
       "start_seconds": 506,
-      "wiki_checked": true,
-      "wiki_pageid": 257091,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeroen_Pauw",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jeroen_Pauw_%282010%29.jpg/250px-Jeroen_Pauw_%282010%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Frank Westerman",
-      "note": "zie Franca Treur",
-      "start_seconds": 1541,
-      "wiki_checked": true,
-      "wiki_pageid": 301472,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frank_Westerman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Frank_Westerman_%282012%29.jpg/250px-Frank_Westerman_%282012%29.jpg"
+      "name": "Maarten van Rossum",
+      "note": "Cabaretier wiens stem Gül als slaapmiddel noemt en wiens uitspraak over zingeving werd aangehaald",
+      "start_seconds": 162,
+      "mention_count": 3
     },
     {
-      "name": "Franca Treur",
-      "note": "schrijver die afscheid nam van haar christelijke achtergrond",
-      "start_seconds": 1541,
-      "wiki_checked": true,
-      "wiki_pageid": 1784653,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franca_Treur",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Franca_Treur.jpg/250px-Franca_Treur.jpg"
+      "name": "Pieter van der Wielen",
+      "note": "Politicus wiens stem Gül aangenaam vindt",
+      "start_seconds": 156,
+      "mention_count": 1
     },
     {
-      "name": "Jan Siebelink",
-      "note": "schrijver met een christelijke achtergrond, milder dan Gül",
-      "start_seconds": 1541,
-      "wiki_checked": true,
-      "wiki_pageid": 273692,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Siebelink",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jan_Siebelink_2018.jpg/250px-Jan_Siebelink_2018.jpg"
+      "name": "Conny Palmen",
+      "note": "Schrijfster die bij de uitgeverij over de vloer komt",
+      "start_seconds": 2523,
+      "mention_count": 1
+    },
+    {
+      "name": "Franka Treur",
+      "note": "Schrijfster die het christelijk geloof verliet en vergelijkbaar werk schreef",
+      "start_seconds": 1977,
+      "mention_count": 3
+    },
+    {
+      "name": "Maarten 't Hart",
+      "note": "Schrijver die afrekende met zijn christelijke achtergrond",
+      "start_seconds": 1977,
+      "mention_count": 1
     },
     {
       "name": "Jan Wolkers",
-      "note": "schrijver, door Gül bewonderd om zijn openhartigheid",
+      "note": "Schrijver die openhartig schreef over zijn achtergrond",
+      "start_seconds": 1507,
+      "mention_count": 2
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "Schrijver en voorbeeld voor openheid over seksualiteit en geloof",
+      "start_seconds": 1507,
+      "mention_count": 3
+    },
+    {
+      "name": "Jan Siebelink",
+      "note": "Schrijver die milder over zijn gereformeerde achtergrond schreef",
+      "start_seconds": 1542,
+      "mention_count": 2
+    },
+    {
+      "name": "Joep van 't Hek",
+      "note": "Cabaretier die religie met humor bekritiseerde",
       "start_seconds": 1515,
-      "wiki_checked": true,
-      "wiki_pageid": 14051,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Wolkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jan_Wolkers.jpg/250px-Jan_Wolkers.jpg"
+      "mention_count": 2
     },
     {
       "name": "Hans Teeuwen",
-      "note": "cabaretier, door Gül bewonderd",
+      "note": "Cabaretier die religie met humor bekritiseerde",
       "start_seconds": 1515,
-      "wiki_checked": true,
-      "wiki_pageid": 20112,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_Teeuwen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Hans_Teeuwen.jpg/250px-Hans_Teeuwen.jpg"
+      "mention_count": 2
     },
     {
       "name": "Deborah Feldman",
-      "note": "auteur van 'Unorthodox'",
-      "start_seconds": 2005,
-      "wiki_checked": true,
-      "wiki_pageid": 5386543,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Deborah_Feldman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/DeborahFeldmanP1060065.jpg/250px-DeborahFeldmanP1060065.jpg"
+      "note": "Auteur van Unorthodox, genoemd als voorbeeld van kritiek op religie",
+      "start_seconds": 2001,
+      "mention_count": 1
+    },
+    {
+      "name": "Eva Vlaardingenbroek",
+      "note": "Publiciste die katholiek werd en extreemrechtse standpunten uitdraagt",
+      "start_seconds": 3425,
+      "mention_count": 4
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier met autoritaire politiek",
+      "start_seconds": 3447,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Politicus die Gül persoonlijk kent via dezelfde uitgeverij",
+      "start_seconds": 3458,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Atheïst die zich cultuurchristen noemt",
+      "start_seconds": 3538,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Historicus die mensenrechten vergelijkt met geloof in de opstanding",
+      "start_seconds": 3724,
+      "mention_count": 1
+    },
+    {
+      "name": "Dilan Yeşilgöz",
+      "note": "Politica die Gül door een bedreiger zag in haar boek",
+      "start_seconds": 1126,
+      "mention_count": 1
+    },
+    {
+      "name": "Theo van Gogh",
+      "note": "Filmmaker die werd vermoord na kritiek op de islam",
+      "start_seconds": 4165,
+      "mention_count": 2
+    },
+    {
+      "name": "Mohammed B.",
+      "note": "Moordenaar van Theo van Gogh",
+      "start_seconds": 4165,
+      "mention_count": 1
+    },
+    {
+      "name": "Salman Rushdie",
+      "note": "Schrijver die werd aangevallen vanwege zijn werk",
+      "start_seconds": 4437,
+      "mention_count": 1
+    },
+    {
+      "name": "Dominique Gremdaat",
+      "note": "Gesprekspartner van Gül die Reve noemde als rolmodel bij zijn coming-out",
+      "start_seconds": 4093,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Ik ga leven",
       "author": "Lale Gül",
-      "note": "debuutroman over haar islamitische jeugd",
-      "start_seconds": 288,
+      "note": "Debuut van Gül waarin zij afrekent met haar islamitische jeugd en familie",
+      "start_seconds": 48,
       "volume_id": "3o4cEAAAQBAJ",
       "canonical_title": "Ik ga leven",
       "canonical_author": "Lale Gül",
@@ -171,8 +196,8 @@
     {
       "title": "Ik ben vrij",
       "author": "Lale Gül",
-      "note": "nieuw boek over de jaren na haar doorbraak",
-      "start_seconds": 288,
+      "note": "Tweede boek over de jaren sinds haar doorbraak",
+      "start_seconds": 0,
       "volume_id": "2osHEQAAQBAJ",
       "canonical_title": "Ik ben vrij",
       "canonical_author": "Lale Gül",
@@ -183,8 +208,8 @@
     {
       "title": "Unorthodox",
       "author": "Deborah Feldman",
-      "note": "genoemd als vergelijking met andere religieverlaters",
-      "start_seconds": 2005,
+      "note": "Memoir over het verlaten van een orthodox-joodse gemeenschap",
+      "start_seconds": 2001,
       "volume_id": "VD9Y4DZ5b08C",
       "canonical_title": "Unorthodox: The Scandalous Rejection of My Hasidic Roots",
       "canonical_author": "Deborah Feldman",
@@ -198,123 +223,132 @@
     "Amsterdam",
     "Hilversum",
     "Turkije",
-    "Spanje"
+    "Marokko",
+    "Spanje",
+    "Hongarije",
+    "Iran",
+    "Saudi-Arabië",
+    "Ibiza",
+    "Amerika"
   ],
-  "summary_tldr": "Lale Gül spreekt over de gevolgen van haar debuut 'Ik ga leven' en haar nieuwe boek 'Ik ben vrij'. Ze vertelt over geweld thuis, bedreigingen, het safehouse en de schuldgevoelens over wat het boek haar familie heeft aangedaan. Ook gaat het over haar eerlijkheid als schrijver, haar ergernis over domheid en de vergelijking met Wilders.",
+  "summary_tldr": "Lale Gül bespreekt met David Boogerd en Stefan Paas de nasleep van haar boek Ik ga leven, haar nieuwe boek Ik ben vrij en haar positie als religieverlater. Ze worstelt met schuldgevoelens over haar familie, zegt agnost te zijn en beschouwt vrijheid als haar hoogste goed. Het gesprek gaat ook over secularisatie, de rol van schrijvers en de vraag of zij ten onrechte met Geert Wilders wordt geassocieerd.",
   "summary_points": [
-    "Güls nieuwe boek 'Ik ben vrij' is expliciet autobiografisch, anders dan de als roman gepresenteerde debuutroman.",
-    "Na haar optreden bij Op 1 kwam ze thuis in een tribunaal met geweld van haar moeder en een oom.",
-    "Ze vluchtte 's nachts en belde Femke Halsema, die een safehouse regelde.",
-    "Ze kreeg serieuze bedreigingen; twee mensen werden veroordeeld.",
-    "Haar familie werd paria in de eigen gemeenschap, haar jonge zusje werd gepest.",
-    "Gül worstelt met schuldgevoel en spijt, maar kiest als schrijver voor onverbloemde eerlijkheid.",
-    "Ze ziet zichzelf als een van de eerste 'cold turkey' islamitische afvalligen in de kunsten.",
-    "Ze ergert zich aan domheid en wordt door critici in het kamp van Wilders geplaatst."
+    "Gül beschrijft de schokkende reacties van haar familie na het verschijnen van haar boek, inclusief geweld en verstoting.",
+    "Ze voelt schuldgevoelens tegenover haar moeder en zusje en weet niet goed hoe ze daarmee moet omgaan.",
+    "Na een bedreiging en een nachtelijke vlucht kreeg ze hulp via burgemeester Femke Halsema en een veilig onderkomen.",
+    "Gül noemt zichzelf agnost en vindt dat gelovigen niet per definitie dom zijn.",
+    "Vrijheid en het zoeken naar zin en schoonheid zijn voor haar centraal, al verlangt ze ook naar verbondenheid.",
+    "Het gesprek gaat over secularisatie en over het vervangen van religie door spirituele trends zoals kristallen en astrologie.",
+    "Gül en Stefan Paas bespreken de macht van schrijvers en de verantwoordelijkheid bij religiekritiek.",
+    "Gül wijst de associatie met Wilders af en noemt zijn islamitische en immigratiebeleid te simplistisch."
   ],
   "chapters": [
     {
-      "start_seconds": 48,
-      "title": "Introductie van Lale Gül",
-      "summary": "David introduceert Gül en haar nieuwe boek, en de vraag naar spijt en de vergelijking met Wilders."
+      "start_seconds": 0,
+      "title": "Introductie en het schrijversleven",
+      "summary": "Gül en Boogerd praten over podcastgewoontes, het inspreken van audioboeken en de vreemde verwachtingen van schrijvers in haar omgeving."
     },
     {
-      "start_seconds": 156,
-      "title": "Podcasts en audioboeken",
-      "summary": "Luchtig begin over slapen met podcasts en het inspreken van haar eigen audioboek."
+      "start_seconds": 289,
+      "title": "Het boek en de familie-reacties",
+      "summary": "Gül vertelt over de totstandkoming van Ik ga leven en de gevolgen daarvan voor haar ouders en familie."
     },
     {
-      "start_seconds": 274,
-      "title": "Van roman naar autobiografie",
-      "summary": "Over het verschil tussen beide boeken, de cover en de mentale tol van de bekendheid."
+      "start_seconds": 740,
+      "title": "Geweld, vlucht en bedreigingen",
+      "summary": "De nacht waarin Gül haar familie ontvluchtte, het safehouse en de bedreigingen die volgden worden besproken."
     },
     {
-      "start_seconds": 670,
-      "title": "Het tribunaal thuis",
-      "summary": "Na Op 1 volgt geweld thuis, gevolgd door de vlucht en het telefoontje naar Femke Halsema."
+      "start_seconds": 1260,
+      "title": "Spijt, schuld en het zusje",
+      "summary": "Gül reflecteert op de keuze om openhartig te schrijven en op de pijn die haar zusje en moeder ervaren."
     },
     {
-      "start_seconds": 1130,
-      "title": "Bedreigingen en gevolgen voor de familie",
-      "summary": "Over bedreigers, de rol van haar moeder en het pesten van haar zusje."
+      "start_seconds": 2241,
+      "title": "Geloof, domheid en agnosticisme",
+      "summary": "Gül legt uit waarom ze gelovigen niet meer als dom ziet en hoe ze haar eigen positie als agnost omschrijft."
     },
     {
-      "start_seconds": 1470,
-      "title": "Schuld, vergeving en schrijverschap",
-      "summary": "Over de eerlijkheid van de schrijver, 'cold turkey' afscheid van geloof en de vraag om vergeving."
+      "start_seconds": 2840,
+      "title": "Secularisatie en spiritualiteit",
+      "summary": "Het gesprek gaat over het verlies van religieuze gemeenschap en de vraag wat ervoor in de plaats komt."
     },
     {
-      "start_seconds": 1960,
-      "title": "Domheid en de vergelijking met Wilders",
-      "summary": "Over de recensie in Trouw, haar ergernis over domheid en haar plek tussen andere religieverlaters."
+      "start_seconds": 3357,
+      "title": "Wilders, politiek en de macht van de pen",
+      "summary": "Gül bekritiseert Wilders' standpunten en bespreekt de verantwoordelijkheid van schrijvers met grote invloed."
+    },
+    {
+      "start_seconds": 4500,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Gül zegt de thematiek van islam en familie achter zich te willen laten en het gesprek sluit af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 300,
+      "start_seconds": 4390,
       "speaker": "Lale Gül",
-      "text": "Ik kan niet nog een keer mijn familie verliezen.",
-      "note": "Verklaart haar kalmte over het nieuwe boek."
+      "text": "Een lezeres schreef dat ze door het boek haar kinderen anders is gaan opvoeden.",
+      "note": "Een voorbeeld van de impact die haar boek op lezers kan hebben, tegenover de pijn in haar familie."
     },
     {
-      "start_seconds": 734,
+      "start_seconds": 2287,
       "speaker": "Lale Gül",
-      "text": "Ik dacht: we gaan het meemaken als ik er maar levend uitkom.",
-      "note": "Laat zien hoe angstig ze was na het verschijnen van het boek."
+      "text": "Ik zeg agnost, want ik sluit niks uit. Ik geloof nergens in.",
+      "note": "Een heldere en eerlijke positiebepaling na een lange zoektocht."
     },
     {
-      "start_seconds": 1050,
-      "speaker": "Lale Gül",
-      "text": "Ze belde Femke Halsema midden in de nacht met nog 3 procent batterij.",
-      "note": "Dramatisch moment van de vlucht."
+      "start_seconds": 3980,
+      "speaker": "Stefan Paas",
+      "text": "De pen is het scherpste wapen, met macht komt verantwoordelijkheid.",
+      "note": "Paas koppelt de invloed van schrijvers direct aan morele verantwoordelijkheid."
     },
     {
-      "start_seconds": 1630,
+      "start_seconds": 4272,
       "speaker": "Lale Gül",
-      "text": "Er zijn geen cold turkey islamitische kunstenaars; misschien moet het daarom zo bij mij.",
-      "note": "Scherp inzicht in haar rol en stijl."
-    },
-    {
-      "start_seconds": 1740,
-      "speaker": "Lale Gül",
-      "text": "Mijn zusje vroeg om vergeving en chanteerde me bijna.",
-      "note": "Toont het emotionele dilemma met haar familie."
+      "text": "Ik ben juist voor vrijheid, en daarom ben ik principieel tegen het verbieden van de islam.",
+      "note": "Gül wijst de simpele oplossingen van Wilders af vanuit haar eigen waarde van vrijheid."
     }
   ],
   "keywords": [
-    "Lale Gül",
-    "Ik ga leven",
-    "Ik ben vrij",
-    "islam",
-    "religieverlater",
-    "schuldgevoel",
+    "religieverlating",
+    "agnosticisme",
+    "islamkritiek",
+    "familiegeweld",
     "eerwraak",
-    "safehouse",
-    "Geert Wilders",
-    "domheid",
+    "secularisatie",
     "vrijheid",
-    "familie"
+    "Wilders",
+    "macht van de pen",
+    "schuldgevoel"
   ],
-  "quotes": [],
+  "quotes": [
+    "Vrijheid is haar hoogste doel, maar tegen welke prijs?",
+    "Heeft ze spijt?",
+    "Ze won de NS Publieksprijs maar moest ook onderduiken in een safehouse."
+  ],
   "similar": [
     {
-      "n": 176,
-      "reason": "Franca Treur: schrijver die haar religieuze opvoeding verliet, over geloof en literatuur"
-    },
-    {
-      "n": 234,
-      "reason": "Israel van Dorsten ontsnapte aan een gesloten gemeenschap en spreekt over de nasleep"
-    },
-    {
-      "n": 148,
-      "reason": "Arnon Grunberg over islam, asielcrisis en kunst; gaat ook over Wilders en cultuur"
-    },
-    {
       "n": 137,
-      "reason": "Dilara Bilgic: jonge islamitische denker met geloofstwijfels binnen de islam"
+      "reason": "Geloofstwijfels binnen de islam en een jonge denker die zich van religie distantieert"
+    },
+    {
+      "n": 327,
+      "reason": "Schrijver met islamitische achtergrond die over zijn religieuze weg en geloof spreekt"
+    },
+    {
+      "n": 110,
+      "reason": "Islamdebat, Islam en Nederlandse samenleving, en de nasleep van de periode na 9/11"
     },
     {
       "n": 319,
-      "reason": "Christophe Vekeman: schrijver over bekering, bedreigingen en de gevolgen van zijn openheid"
+      "reason": "Schrijver die over geloof, twijfel en zijn bekering en bedreigingen vertelt"
+    },
+    {
+      "n": 148,
+      "reason": "Schrijver over religie, humanisme, asielcrisis en de positie van de islam"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

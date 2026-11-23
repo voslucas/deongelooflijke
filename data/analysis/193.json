@@ -1,18 +1,23 @@
 {
   "episode": 193,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120623,
+    "segments": 974,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30378,
-    "output_tokens": 2233,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60613,
+    "output_tokens": 6861,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geopolitiek & oorlog",
     "Islam & jodendom",
-    "Samenleving & migratie",
-    "Politiek"
+    "Geopolitiek & oorlog",
+    "Politiek",
+    "Geschiedenis"
   ],
   "guests": [
     "Ulysse Ellian",
@@ -20,218 +25,275 @@
   ],
   "people": [
     {
-      "name": "Afshin Ellian",
-      "note": "vader van Ulysse, hoogleraar rechtsfilosofie in Leiden, Iraanse dissident",
-      "start_seconds": 156,
-      "wiki_checked": true,
-      "wiki_pageid": 104751,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Afshin_Ellian",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Afshin_Ellian_-_Persian_Dutch_Scholar_-_Leiden_University_2015.jpg/250px-Afshin_Ellian_-_Persian_Dutch_Scholar_-_Leiden_University_2015.jpg"
-    },
-    {
-      "name": "Arnon Grunberg",
-      "note": "schrijver die over demonstraties en antisemitisme sprak",
-      "start_seconds": 567,
-      "wiki_checked": true,
-      "wiki_pageid": 92350,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnon_Grunberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg/250px-Arnon_Grunberg_Frankfurter_Buchmesse_2016.jpg"
-    },
-    {
-      "name": "Peter-Paul van Beek",
-      "note": "rector van de UvA",
-      "start_seconds": 1115,
-      "wiki_checked": true
-    },
-    {
-      "name": "Femke Halsema",
-      "note": "burgemeester van Amsterdam, steunde het ingrijpen van de politie",
-      "start_seconds": 1333,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
-    },
-    {
-      "name": "Robbert Dijkgraaf",
-      "note": "minister van Onderwijs en Wetenschap",
-      "start_seconds": 1550,
-      "wiki_checked": true,
-      "wiki_pageid": 176287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robbert_Dijkgraaf",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/220107Robbert_Dijkgraaf32.jpg/250px-220107Robbert_Dijkgraaf32.jpg"
-    },
-    {
-      "name": "Petra Schelm",
-      "note": "19-jarig vermeend RAF-sympathisant, doodgeschoten door de politie",
-      "start_seconds": 1236,
-      "wiki_checked": true
+      "name": "Ruhollah Khomeini",
+      "note": "Iraanse geestelijke en leider van de Iraanse Revolutie van 1979",
+      "start_seconds": 2720,
+      "mention_count": 5
     },
     {
       "name": "Imad Mughniyeh",
-      "note": "Hezbollah-commandant en grondlegger van militaire operaties, rekruut van het Iraanse regime",
-      "start_seconds": 1930,
-      "wiki_checked": true,
-      "wiki_pageid": 416517,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Imad_Mughniyeh"
+      "note": "Belangrijke recruit van het Iraanse regime en grondlegger van militaire operaties van Hezbollah",
+      "start_seconds": 1896,
+      "mention_count": 2
     },
     {
-      "name": "Richard Nixon",
-      "note": "Amerikaanse president die de studentenbeweging als door Moskou gestuurd zag",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 44458,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Nixon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Nixon_presidential_portrait.jpg/250px-Richard_Nixon_presidential_portrait.jpg"
+      "name": "Afshin Ellian",
+      "note": "Hoogleraar rechtsfilosofie aan de Universiteit Leiden, vader van Ulysse Ellian",
+      "start_seconds": 2337,
+      "mention_count": 4
     },
     {
-      "name": "Toomaj Salehi",
-      "note": "Iraanse rapper, ter dood veroordeeld",
-      "start_seconds": 411,
-      "wiki_checked": true,
-      "wiki_pageid": 5882524,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Toomaj_Salehi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toomaj_Salehi.jpg/250px-Toomaj_Salehi.jpg"
+      "name": "Cyrus de Grote",
+      "note": "Perzische koning die volgens de Bijbel de Joden liet terugkeren naar Israël",
+      "start_seconds": 3317,
+      "mention_count": 2
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "Duitse filosoof en historicus die de Perzen het eerste historische volk noemde",
+      "start_seconds": 3282,
+      "mention_count": 1
+    },
+    {
+      "name": "Petra Schelm",
+      "note": "Vreedzame jonge vrouw die in 1971 door de Duitse politie werd doodgeschoten, omdat zij voor een RAF-lid werd aangezien",
+      "start_seconds": 1242,
+      "mention_count": 1
+    },
+    {
+      "name": "Reza Kolahi",
+      "note": "Betrokken bij een mislukte aanslag op Khomeini in het begin van de jaren 80; later in Almere vermoord",
+      "start_seconds": 2723,
+      "mention_count": 1
+    },
+    {
+      "name": "Ali Motamed",
+      "note": "Naam van de man die in 2015 in Almere werd doodgeschoten; bleek een valse identiteit van Reza Kolahi",
+      "start_seconds": 2723,
+      "mention_count": 2
+    },
+    {
+      "name": "Peter Paul van Beek",
+      "note": "Rector van de Universiteit van Amsterdam",
+      "start_seconds": 1114,
+      "mention_count": 1
+    },
+    {
+      "name": "Femke Halsema",
+      "note": "Burgemeester van Amsterdam, verdedigde het recht op demonstreren en het ingrijpen van de politie",
+      "start_seconds": 1333,
+      "mention_count": 2
+    },
+    {
+      "name": "Robbert Dijkgraaf",
+      "note": "Minister van Onderwijs, Cultuur en Wetenschap",
+      "start_seconds": 1550,
+      "mention_count": 1
+    },
+    {
+      "name": "Arnon Grunberg",
+      "note": "Schrijver die stelt dat het debat nu gaat over de definitie van antisemitisme",
+      "start_seconds": 592,
+      "mention_count": 2
+    },
+    {
+      "name": "Tomaj Salehi",
+      "note": "Iraanse rapper die ter dood werd veroordeeld vanwege een lied",
+      "start_seconds": 400,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig minister-president die in een interview zijn geloof besprak",
+      "start_seconds": 4841,
+      "mention_count": 1
+    },
+    {
+      "name": "Reza Pahlavi",
+      "note": "Laatste sjah van Iran, afgezet in 1979",
+      "start_seconds": 3590,
+      "mention_count": 3
+    },
+    {
+      "name": "Bart Vallet",
+      "note": "Genoemd als iemand die de solidariteit van demonstranten met Israël benadrukte",
+      "start_seconds": 785,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Vugt",
+      "note": "Journalist die in 2018 schreef over het politiedossier van de moord in Almere",
+      "start_seconds": 2812,
+      "mention_count": 1
+    },
+    {
+      "name": "Bente Bekker",
+      "note": "Vicefractievoorzitter van de VVD, door Ulysse Ellian gebeld na de dreiging",
+      "start_seconds": 2571,
+      "mention_count": 1
+    },
+    {
+      "name": "Naufal Fasi",
+      "note": "Handlanger van Ridouan Taghi, veroordeeld als organisator van de moord in Almere",
+      "start_seconds": 2855,
+      "mention_count": 1
+    },
+    {
+      "name": "Ridouan Taghi",
+      "note": "Leider van de Mocro Maffia, genoemd in verband met de moord in Almere",
+      "start_seconds": 2855,
+      "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jesaja",
+      "note": "Cyrus de Grote wordt hier als gezalfde van God beschreven, die het Joodse volk bevrijdt",
+      "start_seconds": 3350
+    }
+  ],
   "places": [
     "Iran",
     "Afghanistan",
     "Kabul",
-    "Israël",
-    "Gaza",
     "Amsterdam",
     "Utrecht",
-    "Teheran",
+    "Almere",
+    "Israël",
+    "Gaza",
     "Libanon",
+    "Oekraïne",
+    "Rusland",
     "Duitsland",
+    "Italië",
     "Oostenrijk",
-    "Californië",
-    "Vietnam",
-    "Nederland"
+    "Teheran",
+    "Den Bosch",
+    "Perzië"
   ],
-  "summary_tldr": "Ulysse Ellian en Beatrice de Graaf bespreken de pro-Palestijnse studentenprotesten in Nederland en de mogelijke radicalisering, en de rol van Iran als destabiliserende kracht via proxies en de 'lange arm' in het Westen. Ulysse vertelt over zijn Iraanse en Afghaanse familieachtergrond en het leven onder dreiging van het regime.",
+  "summary_tldr": "In deze aflevering bespreken Ulysse Ellian en Beatrice de Graaf de pro-Palestijnse studentendemonstraties in Nederland en de vraag of die ontsporen in radicalisering en antisemitisme. Het gesprek gaat daarna over de invloed van Iran, van de lange arm van het regime tot de bedreiging van Ulysse en zijn vader, en over de rijke Perzische geschiedenis. Afgesloten wordt met het belang van vrijheid en de persoonlijke geloofszoektocht van Ulysse.",
   "summary_points": [
-    "De pro-Palestijnse studentenprotesten in Amsterdam en Utrecht lopen volgens Ellian uit de hand en vertonen islamistische en antisemitische trekken.",
-    "Ellian wijst op de dubbele standaard: weinig protest tegen Iraanse executies zoals de doodstraf voor rapper Toomaj.",
-    "De Graaf vergelijkt met de jaren 70, toen vreedzame studentenprotesten escaleerden door harde overheidsreacties en leidden tot RAF en Brigate Rosse.",
-    "Overheden moeten het kaf van het koren scheiden en geen martelaren maken om radicalisering te voorkomen.",
-    "Joodse studenten voelen zich onveilig en blijven weg van de universiteit.",
-    "Iran destabiliseert via proxies als Hezbollah en Hamas en via netwerken in Europa.",
-    "Het Iraanse regime zet diaspora onder druk via familie in het thuisland.",
-    "Ulysse groeide op met geheimzinnigheid over de familiegeschiedenis en kan nooit naar Iran."
+    "Pro-Palestijnse studentendemonstraties worden gezien als mogelijk radicaliserend, met kritiek op antisemitisme en intimidatie van Joodse studenten.",
+    "Beatrice de Graaf vergelijkt de huidige protesten met de studentenbewegingen van de jaren 70, waar escalatie ontstond door hard optreden van overheden.",
+    "Radicalisering van gematigde demonstranten kan worden voorkomen door de radicalen te isoleren en niet te overreageren.",
+    "Ulysse Ellian wijst op de invloed van Iran via proxies zoals Hamas en Hezbollah en via inlichtingenactiviteiten in Europa.",
+    "Ulysse en zijn vader zijn doelwit geweest van Iraanse intimidatie, waaronder een dreigende brief van de ambassade.",
+    "De moord in Almere in 2015 laat zien hoe lang de arm van het Iraanse regime reikt.",
+    "De Perzische geschiedenis wordt beschreven als vooruitstrevend, met een sterke bureaucratie en een rijk van grote omvang.",
+    "De Iraanse Revolutie van 1979 toont hoe snel een dictatuur kan ontstaan na een revolutie.",
+    "Vrijheid wordt gezien als kostbaar goed dat bescherming vraagt, zowel tegen overheden als tegen andere groepen.",
+    "Ulysse vertelt over zijn persoonlijke zoektocht naar geloof, met een bijzondere waardering voor Maria."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Inleiding en aanleiding",
-      "summary": "David introduceert de aflevering, Iran en de gasten."
+      "start_seconds": 0,
+      "title": "Inleiding en studentendemonstraties",
+      "summary": "De presentator introduceert het onderwerp Iran en de pro-Palestijnse studentendemonstraties in Amsterdam en Utrecht."
     },
     {
       "start_seconds": 173,
-      "title": "De studentendemonstraties",
-      "summary": "Ellian ziet islamisme en Jodenhaat in de protesten; De Graaf beschrijft de situatie in Utrecht."
+      "title": "Antisemitisme en het debat over de demonstraties",
+      "summary": "Ulysse Ellian ziet antisemitisme en intimidatie van Joodse studenten, terwijl Beatrice de Graaf de focus op Israël en Joden kritisch bekijkt."
     },
     {
-      "start_seconds": 623,
-      "title": "Radicalisering: lessen uit de jaren 70",
-      "summary": "De Graaf legt uit hoe vreedzaam protest kan escaleren en hoe overheden dit kunnen voorkomen."
+      "start_seconds": 721,
+      "title": "Radicalisering en lessen uit de jaren 70",
+      "summary": "Beatrice de Graaf vergelijkt de protesten met studentenbewegingen van de jaren 70 en pleit voor een genuanceerde aanpak van radicalisering."
     },
     {
-      "start_seconds": 1333,
-      "title": "Ingrijpen, intimidatie en Joodse studenten",
-      "summary": "Over burgemeester Halsema, minister Dijkgraaf, terrorismedefinities en angst onder Joodse studenten."
+      "start_seconds": 1896,
+      "title": "De lange arm van Iran",
+      "summary": "Het gesprek gaat over Iraanse proxies, inlichtingenactiviteiten in Europa en de invloed van het regime op de diaspora."
     },
     {
-      "start_seconds": 1754,
-      "title": "Iran en de lange arm",
-      "summary": "Over proxies, netwerken in Europa, Samidoun en Iraanse dreiging."
+      "start_seconds": 2279,
+      "title": "Persoonlijke achtergrond en dreiging",
+      "summary": "Ulysse vertelt over zijn vluchtelingenachtergrond, de dreigbrief van de Iraanse ambassade en de moord in Almere."
     },
     {
-      "start_seconds": 2277,
-      "title": "Persoonlijke achtergrond",
-      "summary": "Ulysse vertelt over de vlucht van zijn ouders en opgroeien met een leegte over zijn familiegeschiedenis."
+      "start_seconds": 3282,
+      "title": "De Perzische geschiedenis en de Iraanse Revolutie",
+      "summary": "Beatrice schetst de Perzische geschiedenis, van Cyrus tot de revolutie van 1979 en de opkomst van Khomeini."
+    },
+    {
+      "start_seconds": 4322,
+      "title": "Geloof, staat en vrijheid",
+      "summary": "Het gesprek gaat over de scheiding van kerk en staat, religieuze invloed op de politiek en vrijheid als verantwoordelijkheid."
+    },
+    {
+      "start_seconds": 4864,
+      "title": "Afsluiting en hoop",
+      "summary": "Ulysse eindigt met de betekenis van Maria en de liefde van een moeder als bron van hoop."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 288,
+      "start_seconds": 3116,
       "speaker": "Ulysse Ellian",
-      "text": "7 oktober had 1 doel: zoveel mogelijk Joden op de meest verschrikkelijke wijze vermoorden.",
-      "note": "Scherpe stellingname over Hamas."
+      "text": "Ik ben oké, ik praat met wie ik wil praten, maar ik kan niet beslissen om vanmiddag met de kinderen naar een speeltuin te gaan.",
+      "note": "Een persoonlijk en emotioneel moment dat laat zien wat de dreiging in het dagelijks leven betekent."
     },
     {
-      "start_seconds": 449,
-      "speaker": "Ulysse Ellian",
-      "text": "Het is een dubbele standaard: over de ter dood veroordeelde Iraanse rapper hoor je niets van de demonstranten.",
-      "note": "Wijst op hypocrisie."
-    },
-    {
-      "start_seconds": 1208,
+      "start_seconds": 3145,
+      "text": "Vrijheid is geen gratis goed. Het is iets wat je pas merkt als je het wordt afgenomen.",
       "speaker": "Beatrice de Graaf",
-      "text": "Als je de beweging stileert tot een grote islamitische terroristische organisatie, snijd je jezelf in de vingers.",
-      "note": "Historische waarschuwing voor self-fulfilling prophecy."
+      "note": "Een scherpe gedachte die de spanning tussen vrijheid en de verantwoordelijkheid in een open samenleving samenvat."
     },
     {
-      "start_seconds": 1586,
+      "start_seconds": 1343,
       "speaker": "Beatrice de Graaf",
-      "text": "Ga daar maar met een keppeltje tussenin staan en kijk wat er gebeurt.",
-      "note": "Maakt de bedreiging van Joodse studenten tastbaar."
+      "text": "De radicalen, die bekeer je niet. Maar de mensen daaromheen, die kun je wel de wind uit de zeilen nemen.",
+      "note": "Een praktische kijk op hoe autoriteiten radicalisering kunnen voorkomen, zonder de gematigde demonstranten te vervreemden."
     },
     {
-      "start_seconds": 2461,
+      "start_seconds": 2496,
       "speaker": "Ulysse Ellian",
-      "text": "Brieven van familie uit Iran kwamen altijd opengemaakt aan.",
-      "note": "Persoonlijke ervaring met de controle door het regime."
+      "text": "Iedereen met een Iraanse vader wordt door het regime als Iraniër gezien, waarop de Iraanse wet van toepassing is.",
+      "note": "Laat zien hoe het Iraanse regime invloed probeert uit te oefenen op mensen die in het buitenland wonen."
     }
   ],
   "keywords": [
     "Iran",
-    "studentenprotest",
-    "radicalisering",
-    "islamisme",
+    "studentendemonstraties",
     "antisemitisme",
-    "Hamas",
-    "Hezbollah",
+    "radicalisering",
+    "Perzisch Rijk",
+    "Iraanse Revolutie",
+    "lange arm van Iran",
     "proxies",
-    "Samidoun",
-    "RAF",
-    "terrorisme",
-    "diaspora"
+    "Hezbollah",
+    "vrijheid",
+    "scheiding kerk en staat",
+    "dissidenten"
   ],
   "quotes": [
-    "'Als het regent in het Midden-Oosten, druppelt het in Nederland'",
+    "Als het regent in het Midden-Oosten, druppelt het in Nederland.",
+    "Een terreurstaat die wapens levert aan Rusland en onlangs de wereld naar adem liet happen toen het honderden drones en raketten afvuurde op Israël.",
     "Een land dat het Midden-Oosten - en daarmee de wereld - in een houdgreep houdt."
   ],
   "similar": [
     {
       "n": 290,
-      "reason": "Aanval op Iran en Midden-Oosten, met Shermin Amiri over het Iraanse regime"
+      "reason": "Aanval op Iran en de nieuwe geopolitieke situatie in het Midden-Oosten"
     },
     {
       "n": 254,
       "reason": "Oorlog tussen Israël, Iran en Gaza, met Beatrice de Graaf"
     },
     {
-      "n": 324,
-      "reason": "Midden-Oosten op kantelpunt, Iran en geopolitieke machtsverschuivingen"
-    },
-    {
-      "n": 166,
-      "reason": "Polarisatie rond Israël-Hamas, met Beatrice de Graaf"
-    },
-    {
       "n": 220,
-      "reason": "Antisemitisch geweld en polarisatie in Nederland, radicalisering"
+      "reason": "Antisemitisch geweld in Amsterdam en de polarisatie die daaruit volgt"
+    },
+    {
+      "n": 310,
+      "reason": "Islamkritiek, Israël en het Midden-Oosten vanuit een persoonlijk perspectief"
+    },
+    {
+      "n": 324,
+      "reason": "Het Midden-Oosten op een kantelpunt, met regionale machtsverhoudingen en Iran"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

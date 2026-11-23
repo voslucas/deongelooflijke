@@ -1,18 +1,23 @@
 {
   "episode": 121,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 91771,
+    "segments": 868,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30200,
-    "output_tokens": 2647,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46262,
+    "output_tokens": 2925,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
-    "God & geloof",
     "Geschiedenis",
-    "Bijbel & Jezus"
+    "Politiek",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Paul van Geest"
@@ -20,299 +25,249 @@
   "people": [
     {
       "name": "Benedictus XVI",
-      "note": "emeritus paus, Jozef Ratzinger, theoloog en intellectueel",
-      "start_seconds": 41,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
+      "note": "Emeritus paus, voorheen Jozef Ratzinger; theoloog en kerkleider",
+      "start_seconds": 3,
+      "mention_count": 60
     },
     {
       "name": "Johannes Paulus II",
-      "note": "voorganger van Benedictus, voormalig toneelspeler en groot communicator",
-      "start_seconds": 184,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader, onderwerp van Ratzingers proefschrift",
-      "start_seconds": 173,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Voorganger van Benedictus als paus, oud-toneelspeler",
+      "start_seconds": 413,
+      "mention_count": 12
     },
     {
       "name": "Franciscus",
-      "note": "huidige paus en opvolger van Benedictus",
-      "start_seconds": 2222,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "Opvolger van Benedictus als paus (eerder kardinaal Bergoglio)",
+      "start_seconds": 1100,
+      "mention_count": 14
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader, onderwerp van Ratzingers proefschrift",
+      "start_seconds": 153,
+      "mention_count": 5
     },
     {
       "name": "Johannes XXIII",
-      "note": "paus die het Tweede Vaticaans Concilie startte",
-      "start_seconds": 1033,
-      "wiki_checked": true,
-      "wiki_pageid": 1474,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_XXIII",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pope_John_XXIII%2C_1958%E2%80%931963.jpg/250px-Pope_John_XXIII%2C_1958%E2%80%931963.jpg"
+      "note": "Paus die het Tweede Vaticaans Concilie aankondigde",
+      "start_seconds": 1010,
+      "mention_count": 2
     },
     {
-      "name": "Hans Küng",
-      "note": "Duitse theoloog, tijdgenoot van Ratzinger",
-      "start_seconds": 958,
-      "wiki_checked": true,
-      "wiki_pageid": 275649,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_K%C3%BCng",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Hans_K%C3%BCng_en_la_UNED_02_%28cropped%29.jpg/250px-Hans_K%C3%BCng_en_la_UNED_02_%28cropped%29.jpg"
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast",
+      "start_seconds": 178,
+      "mention_count": 10
     },
     {
-      "name": "Rutger Bregman",
-      "note": "historicus, eerder gast in de podcast",
-      "start_seconds": 839,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "name": "Rutte",
+      "note": "Mark Rutte, premier; door Paas gebruikt als contrast",
+      "start_seconds": 1960,
+      "mention_count": 3
     },
     {
-      "name": "Adolf Hitler",
-      "note": "nazi-leider, Hitlerjugend",
-      "start_seconds": 612,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "name": "Elon Musk",
+      "note": "Vergeleken met Benedictus als anti-voorbeeld van ego",
+      "start_seconds": 3290,
+      "mention_count": 1
     },
     {
-      "name": "Václav Havel",
-      "note": "Tsjechische intellectueel en politicus",
+      "name": "Vaclav Havel",
+      "note": "Tsjechische president en intellectueel",
       "start_seconds": 2160,
-      "wiki_checked": true,
-      "wiki_pageid": 30654,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/V%C3%A1clav_Havel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Vaclav_Havel_IMF.jpg/250px-Vaclav_Havel_IMF.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Adrianus Simonis",
-      "note": "Nederlandse kardinaal, hoorde pas laat van het aftreden",
-      "start_seconds": 2465,
-      "wiki_checked": true,
-      "wiki_pageid": 57067,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adrianus_Simonis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Bisschoppenconferentie_in_Maarsen._Bisschop_Simonis%2C_Bestanddeelnr_932-0909.jpg/250px-Bisschoppenconferentie_in_Maarsen._Bisschop_Simonis%2C_Bestanddeelnr_932-0909.jpg"
-    },
-    {
-      "name": "Joseph Frings",
-      "note": "kardinaal van Keulen die Ratzinger meenam naar het Concilie",
-      "start_seconds": 986,
-      "wiki_checked": true,
-      "wiki_pageid": 1682374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joseph_Frings",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Stadtarchiv_Kerpen_-_BA_05801_-_Kardinal_Joseph_Frings_auf_der_K%C3%B6lner_Stra%C3%9Fe_1959-%28Ausschnitt%29.jpg/250px-Stadtarchiv_Kerpen_-_BA_05801_-_Kardinal_Joseph_Frings_auf_der_K%C3%B6lner_Stra%C3%9Fe_1959-%28Ausschnitt%29.jpg"
-    },
-    {
-      "name": "Maria Ratzinger",
-      "note": "zus van Ratzinger, hielp in de huishouding",
-      "start_seconds": 1692,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "premier, door Paas als 'anti-Ratzinger' vergeleken",
-      "start_seconds": 1952,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "name": "Erasmus",
+      "note": "Humanist; zijn laatste woorden genoemd",
+      "start_seconds": 3317,
+      "mention_count": 1
     },
     {
       "name": "Stephen Hawking",
-      "note": "lid van de Pauselijke Academie van Wetenschap",
-      "start_seconds": 1440,
-      "wiki_checked": true,
-      "wiki_pageid": 26659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stephen_Hawking",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/250px-Stephen_Hawking.StarChild.jpg"
+      "note": "Lid van de Pauselijke Academie voor Wetenschap",
+      "start_seconds": 1437,
+      "mention_count": 1
     },
     {
-      "name": "Manuel II Palaiologos",
-      "note": "middeleeuwse keizer geciteerd in Regensburg",
-      "start_seconds": 2071,
-      "wiki_checked": true,
-      "wiki_pageid": 76388,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Manuel_II_Palaiologos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Manuele_II_di_Bisanzio_monete.jpg/250px-Manuele_II_di_Bisanzio_monete.jpg"
+      "name": "Kardinaal Simonis",
+      "note": "Nederlandse kardinaal, door Van Geest gebeld over aftreden",
+      "start_seconds": 2465,
+      "mention_count": 1
+    },
+    {
+      "name": "Kardinaal Sarah",
+      "note": "Schreef boek over priestercelibaat met aantekeningen van Benedictus",
+      "start_seconds": 3180,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Cerularius",
+      "note": "Patriarch van Constantinopel; in Regensburg-rede geciteerd",
+      "start_seconds": 2100,
+      "mention_count": 1
+    },
+    {
+      "name": "Bisschop Muskens",
+      "note": "Nederlandse bisschop, aanwezig bij audiëntie",
+      "start_seconds": 427,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Inleiding in het christendom",
-      "author": "Joseph Ratzinger",
-      "note": "met het sprookje van Hans in geluk als inleiding",
-      "start_seconds": 1120
+      "title": "Jezus van Nazareth",
+      "author": "Benedictus XVI",
+      "note": "Jezus-trilogie geschreven als paus",
+      "start_seconds": 70,
+      "volume_id": "WSIDAAAAQBAJ",
+      "canonical_title": "Jezus van Nazareth Proloog: De kinderjaren",
+      "canonical_author": "Joseph Ratzinger/Benedictus XVI",
+      "isbn13": "9789401407427",
+      "isbn10": "9401407428",
+      "thumbnail": "http://books.google.com/books/content?id=WSIDAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Jezus van Nazareth",
+      "title": "Introduction to Christianity",
       "author": "Joseph Ratzinger",
-      "note": "Jezus-trilogie geschreven als paus",
-      "start_seconds": 158,
-      "volume_id": "RU_3AQAAQBAJ",
-      "canonical_title": "Jezus van Nazareth Deel 1 Van de doop in de Jordaan tot de gedaanteverandering",
+      "note": "Inleiding op het christendom voor studenten; sprookje van Hans en de geit",
+      "start_seconds": 1150,
+      "volume_id": "LJlkwvExekkC",
+      "canonical_title": "Introduction to Christianity",
       "canonical_author": "Joseph Ratzinger",
-      "isbn13": "9789401412582",
-      "isbn10": "9401412588",
-      "thumbnail": "http://books.google.com/books/content?id=RU_3AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781586170295",
+      "isbn10": "1586170295",
+      "thumbnail": "http://books.google.com/books/content?id=LJlkwvExekkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
-    "Vaticaan",
     "Rome",
-    "Duitsland",
-    "Beieren",
     "Regensburg",
-    "München",
-    "Hippo",
-    "Keulen",
-    "Lugano",
-    "Midden-Oosten"
+    "Vaticaan",
+    "Duitsland",
+    "Aquila",
+    "Hippo"
   ],
-  "summary_tldr": "Na het overlijden van emeritus paus Benedictus XVI blikken Paul van Geest en Stefan Paas terug op zijn leven, van zijn jeugd in nazi-Duitsland tot zijn aftreden. Ze bespreken hem als briljant theoloog maar minder bedreven kerkleider, en waarderen zijn aftreden als blijk van zelfinzicht.",
+  "summary_tldr": "In deze extra aflevering blikken theoloog Stefan Paas en kerkhistoricus Paul van Geest terug op het leven en werk van paus emeritus Benedictus XVI, na zijn overlijden op oudjaarsdag. Ze bespreken zijn indrukwekkende academische carrière, zijn conservatieve theologie en zijn worstelingen als paus, waaronder het misbruikschandaal. Zijn historische aftreden en leiderschap in het besef van eigen beperkingen staan centraal.",
   "summary_points": [
-    "Ratzinger promoveerde al op 27-jarige leeftijd op Augustinus en werd jong hoogleraar.",
-    "Zijn katholieke familie stond kritisch tegenover de nazi's; hij werd gedwongen lid van de Hitlerjugend en deserteerde.",
-    "Op het Tweede Vaticaans Concilie was hij adviseur, maar hij vreesde dat dialoog met de wereld de kern van het geloof uitholde.",
-    "Als prefect van de geloofscongregatie kreeg hij de bijnamen godsrotweiler en kardinaal van het nee, wat volgens Van Geest een karikatuur is.",
-    "Als paus pakte hij misbruik aan en strafte honderden priesters.",
-    "De Regensburg-rede over de islam leidde tot ophef en geweld door gebrek aan communicatief inzicht.",
-    "Hij was een denker en geen mensenmens of mediaverschijning, in tegenstelling tot Johannes Paulus II en Franciscus.",
-    "Zijn aftreden zag niemand aankomen en wordt gezien als teken van zelfkennis en een blijvende verandering van het pausschap."
+    "Ratzinger was een briljant systematisch theoloog die al op jonge leeftijd hoogleraar werd",
+    "Hij was een vroege adviseur van de Duitse bisschoppen tijdens het Tweede Vaticaans Concilie",
+    "Zijn jeugd in nazi-Duitsland: weigering lid te worden van de Hitlerjugend en familie die zich verzette",
+    "Als kardinaal stond hij bekend als 'Gods Rottweiler' vanwege zijn strenge leeropvattingen",
+    "Hij pakte het misbruikschandaal aan door priesters te straffen en te laïseren",
+    "Zijn Regensburg-toespraak over de islam veroorzaakte internationale ophef",
+    "Zijn aftreden in 2013 was historisch; in 600 jaar was er geen paus afgetreden",
+    "Vergelijking en verschil met opvolger Franciscus: complementair, niet tegengesteld",
+    "Paas ziet in Benedictus een voorbeeld van leiderschap door zelfreflectie en het zwijgen na aftreden",
+    "Of zijn theologie de eeuwen zal overleven blijft onzeker"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een briljante theoloog",
-      "summary": "Inleiding en Van Geests persoonlijke ontmoetingen met Ratzinger; zijn vroege proefschrift en carrière."
+      "title": "Introductie en persoonlijke ontmoetingen",
+      "summary": "Van Geest deelt herinneringen aan audiënties en een gesprek met Ratzinger als student."
     },
     {
-      "start_seconds": 552,
-      "title": "Jeugd in nazi-Duitsland",
-      "summary": "Hitlerjugend, het verzet van het gezin en de dood van een neef met het syndroom van Down."
+      "start_seconds": 480,
+      "title": "Jeugd en oorlogsjaren",
+      "summary": "Bespreking van Ratzingers weigering lid te worden van de Hitlerjugend en zijn katholieke familieachtergrond."
     },
     {
-      "start_seconds": 926,
-      "title": "Het Tweede Vaticaans Concilie",
-      "summary": "Ratzinger als adviseur, zijn koers naar terughoudendheid en zijn nadruk op Christus als ijkpunt."
+      "start_seconds": 900,
+      "title": "Theoloog en Tweede Vaticaans Concilie",
+      "summary": "Ratzingers opkomst als theoloog, zijn rol tijdens het concilie en zijn kritiek op de dialoog met de wereld."
     },
     {
-      "start_seconds": 1413,
-      "title": "Godsrotweiler of karikatuur?",
-      "summary": "De bijnamen, de congregatie van de geloofsleer en de Pauselijke Academies."
+      "start_seconds": 1800,
+      "title": "Kardinaal en prefect van de geloofsleer",
+      "summary": "Zijn reputatie als strenge hoeder van de leer en het misbruikdossier."
     },
     {
-      "start_seconds": 1551,
-      "title": "De verkiezing tot paus en het misbruik",
-      "summary": "Zijn verkiezing in 2005 op hoge leeftijd en zijn aanpak van misbruikschandalen."
+      "start_seconds": 2300,
+      "title": "Pontificaat en Regensburg",
+      "summary": "Zijn verkiezing in 2005, de Regensburg-toespraak en de communicatieve tekortkomingen als paus."
     },
     {
-      "start_seconds": 1945,
-      "title": "Communicatie en de Regensburg-rede",
-      "summary": "Intellectueel versus bestuurder, de ophef over de islamrede en zijn onveilige positie in het Vaticaan."
+      "start_seconds": 2700,
+      "title": "Aftreden en verhouding tot Franciscus",
+      "summary": "Het historische aftreden, de relatie met Franciscus en de Vaticaanse lekkages."
     },
     {
-      "start_seconds": 2443,
-      "title": "Het aftreden",
-      "summary": "De verrassende aankondiging in het Latijn en de reactie van kardinalen."
+      "start_seconds": 3300,
+      "title": "Erfenis en leiderschap",
+      "summary": "Reflectie op zijn leiderschap, zijn sterfbed en wat zijn nalatenschap zal zijn."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 437,
-      "speaker": "Paul van Geest",
-      "text": "Hij zwaaide heel verstrooid, alsof hij in zijn hoofd nog bezig was een paragraaf over zijn Jezusboek uit te denken.",
-      "note": "Beeldend moment dat Ratzinger als hoogleraar en niet als performer typeert."
-    },
-    {
-      "start_seconds": 1952,
+      "start_seconds": 2900,
       "speaker": "Stefan Paas",
-      "text": "Ratzinger was eigenlijk een soort anti-Rutte.",
-      "note": "Originele vergelijking tussen denker en communicator."
+      "text": "Ratzinger was een soort anti-Rutte: alle intellectualiteit, maar weinig communicatie en flexibiliteit.",
+      "note": "Scherpe vergelijking die laat zien hoe de intellectuele stijl van Ratzinger botste met politieke en pastorale vaardigheden."
     },
     {
-      "start_seconds": 1131,
+      "start_seconds": 2420,
       "speaker": "Paul van Geest",
-      "text": "Hans ruilt zijn koe tot hij niets meer heeft: zo zag Ratzinger dialoog waarbij theologen te veel prijsgeven.",
-      "note": "Het sprookje verduidelijkt zijn angst voor verkwanseling van het geloof."
+      "text": "Hij was zich van zijn eigen onvolmaaktheid bewust; leiderschap uit zich in het zien van je eigen onvolmaaktheid.",
+      "note": "Pleit voor zelfrelativering als kenmerk van goed leiderschap, juist bij een paus die vaak als star gold."
     },
     {
-      "start_seconds": 2465,
-      "speaker": "Paul van Geest",
-      "text": "Kardinaal Simonis zei: 10 minuten geleden ben ik geweld door de nunsjes.",
-      "note": "Laat zien hoe verrassend het aftreden was."
+      "start_seconds": 3350,
+      "speaker": "Stefan Paas",
+      "text": "Hij heeft nooit over zijn graf heen willen regeren.",
+      "note": "Het zwijgen na zijn aftreden wordt gezien als een vorm van leiderschap die voor de toekomst waarde heeft."
     },
     {
-      "start_seconds": 1865,
+      "start_seconds": 2040,
       "speaker": "Paul van Geest",
-      "text": "Dat maakt hem niet tot een teleurstellende paus, maar tot een man met goed zelfinzicht.",
-      "note": "Pleidooi tegen het beeld van de teleurstellende paus."
+      "text": "Hij was de eerste die de ernst van de misbruikschandalen onder ogen zag.",
+      "note": "Een scherpe erkenning van zijn rol in het misbruikdossier, ondanks kritiek dat hij te weinig deed."
+    },
+    {
+      "start_seconds": 1560,
+      "speaker": "Paul van Geest",
+      "text": "Christus kwam ook niet van het kruis, zei kardinaal Sarah over het aftreden van de paus.",
+      "note": "Het citaat illustreert de heftige reacties die het aftreden opriep binnen de kerk."
     }
   ],
   "keywords": [
     "Benedictus XVI",
-    "Joseph Ratzinger",
-    "paus",
+    "Jozef Ratzinger",
+    "pausschap",
     "aftreden",
     "Tweede Vaticaans Concilie",
-    "misbruikschandalen",
     "Hitlerjugend",
-    "Augustinus",
-    "Regensburg-rede",
-    "systematische theologie",
-    "Vaticaan",
-    "Johannes Paulus II"
+    "misbruikschandaal",
+    "Regensburg-toespraak",
+    "Franciscus",
+    "geloofsleer",
+    "emeritus paus",
+    "kerkgeschiedenis"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 243,
-      "reason": "Overlijden van paus Franciscus: leven, invloed en opvolging, met Stefan Paas"
-    },
-    {
       "n": 246,
-      "reason": "Nieuwe paus Leo XIV, met Paul van Geest; pausschap en kerkleiding"
+      "reason": "Over de nieuwe paus Leo XIV, met Paul van Geest en Kerk-thematiek"
     },
     {
-      "n": 200,
-      "reason": "Augustinus-show met Paul van Geest; Augustinus werd ook besproken in #121"
-    },
-    {
-      "n": 116,
-      "reason": "Antoine Bodar over kerk, mysterie van het geloof en secularisatie"
+      "n": 243,
+      "reason": "Over het overlijden en de erfenis van paus Franciscus, Kerk en Vaticaan"
     },
     {
       "n": 58,
-      "reason": "Het Vaticaan, de paus en de wereldkerk, met Stefan Paas"
+      "reason": "Over het Vaticaan, de paus en de katholieke wereldkerk"
+    },
+    {
+      "n": 102,
+      "reason": "Over paus Adrianus VI, pausen en kerkgeschiedenis met Anton de Wit"
+    },
+    {
+      "n": 116,
+      "reason": "Over de kerk, mysterie van het geloof en katholieke traditie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

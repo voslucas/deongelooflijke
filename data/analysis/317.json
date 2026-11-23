@@ -1,18 +1,23 @@
 {
   "episode": 317,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 122144,
+    "segments": 1240,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31207,
-    "output_tokens": 3124,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62369,
+    "output_tokens": 14643,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "God & geloof",
     "Kerk & secularisatie",
-    "Geschiedenis"
+    "Amerika & Trump"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,338 +25,448 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, steunt de oorlog met religieuze symboliek",
-      "start_seconds": 43,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; gebruikt religieuze legitimatie voor de oorlog in Oekraïne",
+      "start_seconds": 6,
+      "mention_count": 30
     },
     {
-      "name": "Patriarch Kirill",
-      "note": "leider van de Russisch-Orthodoxe Kerk, ideoloog van de 'heilige oorlog'",
-      "start_seconds": 372,
-      "wiki_checked": true,
-      "wiki_pageid": 1547139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kirill_van_Moskou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patriarch_Kirill_of_Moscow.jpg/250px-Patriarch_Kirill_of_Moscow.jpg"
+      "name": "Kirill",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk; ideoloog van de oorlog, op EU-sanctielijst geplaatst",
+      "start_seconds": 6,
+      "mention_count": 25
     },
     {
-      "name": "Dmitri Donskoj",
-      "note": "middeleeuwse grootvorst wiens relieken naar het front worden gestuurd",
-      "start_seconds": 1382,
-      "wiki_checked": true,
-      "wiki_pageid": 2095995,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dmitri_Donskoj",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Dmitri_Donskoy.jpg/250px-Dmitri_Donskoy.jpg"
-    },
-    {
-      "name": "Konrad Adenauer",
-      "note": "eerste Duitse bondskanselier na de oorlog, archief in Sankt Augustin",
-      "start_seconds": 420,
-      "wiki_checked": true,
-      "wiki_pageid": 98463,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Konrad_Adenauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Konrad_Adenauer_-_14._CDU-Bundesparteitag-kasf0095.JPG/250px-Konrad_Adenauer_-_14._CDU-Bundesparteitag-kasf0095.JPG"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president; zijn MAGA-beweging en verhouding tot evangelicals",
+      "start_seconds": 8,
+      "mention_count": 15
     },
     {
       "name": "Ruhollah Khomeini",
-      "note": "ayatollah, leider van de Iraanse revolutie van 1979",
+      "note": "Ayatollah die in 1979 de macht greep in Iran",
       "start_seconds": 575,
-      "wiki_checked": true,
-      "wiki_pageid": 81638,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruhollah_Khomeini",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ruhollah_Khomeini_by_Jamaran_1.jpg/250px-Ruhollah_Khomeini_by_Jamaran_1.jpg"
+      "mention_count": 2
     },
     {
       "name": "Michel Foucault",
-      "note": "Franse filosoof die de Iraanse revolutie als emancipatoir zag",
-      "start_seconds": 586,
-      "wiki_checked": true,
-      "wiki_pageid": 28088,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Foucault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michel_Foucault_1974_Brasil.jpg/250px-Michel_Foucault_1974_Brasil.jpg"
-    },
-    {
-      "name": "Hans-Dietrich Genscher",
-      "note": "Duitse minister van Buitenlandse Zaken, pleitte voor zaken doen met Iran",
-      "start_seconds": 640,
-      "wiki_checked": true,
-      "wiki_pageid": 210406,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans-Dietrich_Genscher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hans-Dietrich_Genscher_%281989%29.jpg/250px-Hans-Dietrich_Genscher_%281989%29.jpg"
-    },
-    {
-      "name": "Johannes Paulus II",
-      "note": "paus, invloed op de Poolse vakbeweging",
-      "start_seconds": 797,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "note": "Franse filosoof die de Iraanse revolutie positief beoordeelde",
+      "start_seconds": 576,
+      "mention_count": 3
     },
     {
       "name": "Ronald Reagan",
-      "note": "Amerikaans president, 'Evil Empire'-speech in metafysische termen",
+      "note": "Amerikaanse president; sprak over het 'Evil Empire'",
       "start_seconds": 811,
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Jerry Falwell",
+      "note": "Amerikaans evangelisch leider; onderdeel van de Christian Right",
+      "start_seconds": 815,
+      "mention_count": 1
+    },
+    {
+      "name": "Billy Graham",
+      "note": "Amerikaans evangelist; onderdeel van de religieuze beweging rond de Koude Oorlog",
+      "start_seconds": 815,
+      "mention_count": 1
+    },
+    {
+      "name": "Hans-Dietrich Genscher",
+      "note": "Duitse minister van Buitenlandse Zaken tijdens de Iraanse gijzeling",
+      "start_seconds": 659,
+      "mention_count": 2
+    },
+    {
+      "name": "Konrad Adenauer",
+      "note": "Eerste Duitse bondskanselier; wiens archief Beatrice de Graaf bezocht",
+      "start_seconds": 420,
+      "mention_count": 4
+    },
+    {
+      "name": "Aleksandr Dugin",
+      "note": "Russische denker die de spirituele rassenleer en Evola omarmde",
+      "start_seconds": 1306,
+      "mention_count": 3
     },
     {
       "name": "Julius Evola",
-      "note": "fascistische denker, schreef over de metafysica van de oorlog",
-      "start_seconds": 1296,
-      "wiki_checked": true,
-      "wiki_pageid": 4030484,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julius_Evola",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Evola.jpg/250px-Evola.jpg"
+      "note": "Italiaans fascistisch denker; invloed op Russisch denken over oorlog",
+      "start_seconds": 1291,
+      "mention_count": 3
     },
     {
-      "name": "Aleksandr Doegin",
-      "note": "Russisch filosoof die Evola citeert",
-      "start_seconds": 1306,
-      "wiki_checked": true,
-      "wiki_pageid": 4037958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aleksandr_Doegin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg/250px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg"
+      "name": "Dmitri Donskoy",
+      "note": "Middeleeuwse Russische grootvorst, verslaat de Gouden Horde in 1380; relieken",
+      "start_seconds": 1382,
+      "mention_count": 2
     },
     {
-      "name": "Roemen Radev",
-      "note": "Bulgaarse premier die Kirill van de sanctielijst hield",
+      "name": "Rumen Radev",
+      "note": "Premier van Bulgarije; blokkeerde sanctie tegen Kirill",
       "start_seconds": 1663,
-      "wiki_checked": true,
-      "wiki_pageid": 4757005,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roemen_Radev",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Official_portrait_of_Rumen_Radev_%282026%29_%28cropped%29.jpg/250px-Official_portrait_of_Rumen_Radev_%282026%29_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Elizabeth I",
-      "note": "Engelse koningin, vervolging van jezuïeten als verraders",
-      "start_seconds": 1749,
-      "wiki_checked": true,
-      "wiki_pageid": 30739,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elizabeth_I_van_Engeland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/250px-Darnley_stage_3.jpg"
-    },
-    {
-      "name": "Jack Eller",
-      "note": "secularisatieonderzoeker: religie en het seculiere lopen in elkaar over",
-      "start_seconds": 1840,
-      "wiki_checked": true
+      "name": "Sergej Lavrov",
+      "note": "Russische minister van Buitenlandse Zaken",
+      "start_seconds": 1920,
+      "mention_count": 3
     },
     {
       "name": "Volodymyr Zelensky",
-      "note": "Oekraïense president, waarmee Poetin niet wil praten",
-      "start_seconds": 1951,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "note": "Oekraïense president; Poetin wil niet met hem praten",
+      "start_seconds": 2000,
+      "mention_count": 2
     },
     {
-      "name": "Niels Drost",
-      "note": "co-auteur van het boek over Poetins sadistische droom",
-      "start_seconds": 2011,
-      "wiki_checked": true
+      "name": "Recep Tayyip Erdoğan",
+      "note": "Turkse president; zet religie in als politiek instrument",
+      "start_seconds": 1999,
+      "mention_count": 2
     },
     {
-      "name": "Thorsten Rydin",
-      "note": "auteur van artikelen over omgekeerd kolonialisme in het denken over Rusland",
-      "start_seconds": 2143,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "Kerkvader die de leer van de rechtvaardige oorlog uitwerkte",
+      "start_seconds": 1139,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog die de rechtvaardige oorlog verder uitwerkte",
+      "start_seconds": 3932,
+      "mention_count": 1
+    },
+    {
+      "name": "Karel de Grote",
+      "note": "Middeleeuwse keizer; voorbeeld van religie en macht",
+      "start_seconds": 3038,
+      "mention_count": 1
+    },
+    {
+      "name": "Niccolò Machiavelli",
+      "note": "Renaissancefilosoof die het christendom als te zacht zag voor staatsmacht",
+      "start_seconds": 3038,
+      "mention_count": 2
+    },
+    {
+      "name": "Alfred Rosenberg",
+      "note": "Nazi-ideoloog die een 'positief christendom' bepleitte",
+      "start_seconds": 3086,
+      "mention_count": 2
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; sklavenmoraal, geciteerd bij het christendom als passief",
+      "start_seconds": 3100,
+      "mention_count": 1
+    },
+    {
+      "name": "Anders Behring Breivik",
+      "note": "Noorse terrorist die zichzelf als kruisridder afbeeldde",
+      "start_seconds": 3145,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "Socioloog; begrip Entzauberung der wereld",
+      "start_seconds": 3487,
+      "mention_count": 2
+    },
+    {
+      "name": "Wilmer",
+      "note": "Duitse katholieke bisschop die stelt dat de zauber is teruggekeerd",
+      "start_seconds": 3487,
+      "mention_count": 2
+    },
+    {
+      "name": "Tobias Kremer",
+      "note": "Onderzoeker naar rechtspopulistische bewegingen en christelijk nationalisme",
+      "start_seconds": 2554,
+      "mention_count": 5
+    },
+    {
+      "name": "Nigel Farage",
+      "note": "Leider van de Britse rechtspopulistische partij Reform",
+      "start_seconds": 2386,
+      "mention_count": 2
+    },
+    {
+      "name": "Danny Kruger",
+      "note": "Britse Reform-politicus die zich als overtuigd christen presenteert",
+      "start_seconds": 2386,
+      "mention_count": 1
+    },
+    {
+      "name": "James Orr",
+      "note": "Britse theoloog uit Cambridge, persoonlijke vriend van JD Vance",
+      "start_seconds": 2416,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident; bekeerling tot het katholicisme",
+      "start_seconds": 2416,
+      "mention_count": 8
+    },
+    {
+      "name": "Rowan Williams",
+      "note": "Voormalig aartsbisschop van Canterbury; sprak zich uit tegen Reform en Orr",
+      "start_seconds": 2592,
+      "mention_count": 3
+    },
+    {
+      "name": "Tommy Robinson",
+      "note": "Brits rechts-activist die christelijke cultuur verdedigt",
+      "start_seconds": 2516,
+      "mention_count": 2
+    },
+    {
+      "name": "Pete Hegseth",
+      "note": "Amerikaanse minister van Defensie; uitgesproken gelovig",
+      "start_seconds": 3281,
+      "mention_count": 2
+    },
+    {
+      "name": "Mike Pence",
+      "note": "Voormalig Amerikaanse vicepresident; typische evangelical",
+      "start_seconds": 3289,
+      "mention_count": 1
+    },
+    {
+      "name": "Jimmy Carter",
+      "note": "Amerikaanse president; vroom democraat en zondagschoolleraar",
+      "start_seconds": 3267,
+      "mention_count": 2
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaanse president; verbonden met evangelicalisme",
+      "start_seconds": 3267,
+      "mention_count": 1
+    },
+    {
+      "name": "Leo XIV",
+      "note": "De huidige, Amerikaanse paus; encycliek over rechtvaardige vrede",
+      "start_seconds": 2998,
+      "mention_count": 8
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Zuid-Afrikaanse aartsbisschop; voorbeeld van religieuze bevrijdingsstrijd",
+      "start_seconds": 4314,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider; voorbeeld van positieve religieuze politiek",
+      "start_seconds": 4314,
+      "mention_count": 1
+    },
+    {
+      "name": "Ian McGilchrist",
+      "note": "Psychiater en denker; bonusaflevering",
+      "start_seconds": 4364,
+      "mention_count": 2
+    },
+    {
+      "name": "Elizabeth I",
+      "note": "Engelse koningin; vervolging van katholieke jezuïeten",
+      "start_seconds": 1742,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Radicale Verlossing",
       "author": "Beatrice de Graaf",
-      "note": "onderzoek naar religieuze motieven van jihadisten",
+      "note": "Onderzoek naar religieuze motieven van jihadisten",
       "start_seconds": 1086,
-      "volume_id": "u9IwEAAAQBAJ",
-      "canonical_title": "Radicale verlossing",
+      "volume_id": "aCfRzQEACAAJ",
+      "canonical_title": "Radicale verlossing. Wat terroristen geloven",
       "canonical_author": "Beatrice de Graaf",
-      "isbn13": "9789044646580",
-      "isbn10": "9044646583",
-      "thumbnail": "http://books.google.com/books/content?id=u9IwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "De metafysica van de oorlog",
-      "author": "Julius Evola",
-      "note": "verwezen naar in Kirills boek",
-      "start_seconds": 1296,
-      "volume_id": "0laH5kSoe5MC",
-      "canonical_title": "Metaphysics of War: Battle, Victory & Death in the World of Tradition",
-      "canonical_author": "Julius Evola",
-      "isbn13": "9781907166365",
-      "isbn10": "190716636X",
-      "thumbnail": "http://books.google.com/books/content?id=0laH5kSoe5MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044646573",
+      "isbn10": "9044646575",
+      "thumbnail": ""
     },
     {
       "title": "Poetins sadistische droom",
       "author": "Beatrice de Graaf en Niels Drost",
-      "note": "over de ideologie achter Poetins oorlog",
+      "note": "Boek over Poetins imperialistische ambities",
       "start_seconds": 2011
+    },
+    {
+      "title": "Oorlog en de dieperliggende oorzaken",
+      "author": "Kirill",
+      "note": "Boek van patriarch Kirill over de oorlog; metafysische framing",
+      "start_seconds": 1224
+    },
+    {
+      "title": "Magnifica Humanitas",
+      "author": "Leo XIV",
+      "note": "Nieuwe encycliek waarin de rechtvaardige oorlog als outdated concept wordt gezien",
+      "start_seconds": 3997,
+      "volume_id": "h5AX0gEACAAJ",
+      "canonical_title": "Magnifica Humanitas",
+      "canonical_author": "Leo XIV",
+      "isbn13": "9798256035884",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=h5AX0gEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "1 Samuel 4-5",
+      "note": "De Filistijnen nemen de ark van het verbond mee naar het front; vergelijking met relieken in de oorlog",
+      "start_seconds": 1444
+    }
+  ],
   "places": [
+    "Moskou",
+    "Kremlin",
     "Sankt Augustin",
     "Bonn",
-    "Kremlin",
-    "Rusland",
-    "Oekraïne",
+    "Berlijn",
+    "Wenen",
     "Iran",
-    "Bulgarije",
+    "Oekraïne",
     "Engeland",
-    "Hereford",
-    "Worcester",
+    "Herefordshire",
+    "Frankrijk",
     "Aubagne",
-    "Provence",
-    "Moskou",
-    "Vaticaan",
-    "Polen"
+    "Bulgarije",
+    "Sachsen-Anhalt",
+    "Mecklenburg-Vorpommern",
+    "Amerika",
+    "Hormuz"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken 'de terugkeer van de goden' in de wereldpolitiek: religie speelt al decennia een rol, maar het Westen onderschatte dat. Aan de hand van Rusland (Kirills heilige oorlog en de relieken), Iran in 1979 en Bulgarije laten ze zien hoe religie een drijvende kracht is. Dat heeft gevolgen voor onderhandelen met Poetin.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de terugkeer van religie in de wereldpolitiek, met als voorbeelden de Russische oorlog in Oekraïne, het Iraanse islamitische regime van 1979 en het christelijk nationalisme in Europa en de VS. Zij betogen dat religie nooit echt is verdwenen en dat westerse politici haar lange tijd onderschatten. Ook het Vaticaan, dat afscheid neemt van de rechtvaardige oorlog, komt aan bod.",
   "summary_points": [
-    "De goden zijn nooit weggeweest; het Westen nam religie in de politiek te weinig serieus.",
-    "Bij de Iraanse revolutie van 1979 werd religie in het Westen genegeerd, geromantiseerd of als tijdelijk gezien.",
-    "Westerse beleidstaal (FORB, mensenrechten) mist religie als drijvende kracht.",
-    "Kirill presenteert de oorlog als heilige strijd van licht tegen duisternis, met verwijzing naar Evola.",
-    "Poetin en Kirill sturen relieken van Dmitri Donskoj naar het front als 'geheim wapen'.",
-    "Bulgarije blokkeerde sancties tegen Kirill met een kruistochtargument.",
-    "Scheiding tussen religie en politiek is conceptueel moeilijk en bestaat in Rusland en Iran niet.",
-    "Onderhandelen met Poetin kan alleen vanuit een positie van kracht, omdat een deeloplossing voor hem een verlies is.",
-    "Westerse 'omgekeerd kolonialisme'-verklaringen maken het Westen te belangrijk en nemen Russen hun eigen keuzes af."
+    "De Russische Orthodoxe Kerk, met patriarch Kirill, legitimeert de oorlog in Oekraïne als heilige strijd tussen licht en duisternis.",
+    "Relieken van prins Dmitri Donskoy worden naar het front gestuurd als 'geheim wapen', wat een religieuze ritualisering van de oorlog laat zien.",
+    "Westerse diplomaten onderschatten in 1979 de religieuze dimensie van de Iraanse revolutie en zagen die als tijdelijk of emancipatoir.",
+    "Religie is niet verdwenen maar 'gedomesticeerd' in de seculiere democratie en keert nu terug als identitair en militant instrument.",
+    "In Europa wordt het christendom vooral als cultureel identiteitsmerk gebruikt door sterk geseculariseerde groepen, zoals de AfD en Reform.",
+    "Het onderscheid tussen religie en politiek blijkt conceptueel moeilijk vol te houden; beide domeinen lopen voortdurend in elkaar over.",
+    "Onderhandelen met Rusland vraagt om inzicht in de religieuze logica van Poetin en Kirill, en om een positie van kracht.",
+    "Het Vaticaan verlaat het concept van de rechtvaardige oorlog ten gunste van rechtvaardige vrede, mede door de aard van moderne wapens.",
+    "Religie kan zowel macht heiligen als macht begrenzen; instituties en een universalistische traditie zijn daarbij tegenwicht."
   ],
   "chapters": [
     {
-      "start_seconds": 43,
-      "title": "Introductie en zomerpraat",
-      "summary": "David introduceert het thema en de gasten praten over vakantie, het gezamenlijke boek en Engeland."
+      "start_seconds": 0,
+      "title": "Introductie en aankondiging",
+      "summary": "David Boogerd introduceert het seizoen en het thema van de terugkeer van de goden in de wereldpolitiek."
     },
     {
-      "start_seconds": 330,
-      "title": "Het archief en Iran 1979",
-      "summary": "Beatrice vertelt over haar archiefonderzoek naar religie in de geopolitiek en hoe het Westen de Iraanse revolutie onderschatte."
+      "start_seconds": 144,
+      "title": "Vakantie, boek en archiefonderzoek",
+      "summary": "Beatrice de Graaf vertelt over haar archiefonderzoek in Duitsland en het boek dat ze schrijft over religie in de geopolitiek."
     },
     {
-      "start_seconds": 797,
-      "title": "Reagan, Polen en gedomesticeerde religie",
-      "summary": "Voorbeelden uit de jaren 80 en de gedachte dat religie in het Westen was gedomesticeerd en seculier werd uitgelegd."
-    },
-    {
-      "start_seconds": 1086,
-      "title": "Religieuze motieven serieus nemen",
-      "summary": "Over terrorisme en het belang om religie als autonoom motief te zien."
+      "start_seconds": 442,
+      "title": "De Iraanse revolutie en het Westen",
+      "summary": "Hoe westerse diplomaten in 1979 de religieuze revolutie in Iran onderschatten en hoe Duitsland zakendoet met het nieuwe regime."
     },
     {
       "start_seconds": 1207,
-      "title": "Kirill, Evola en de relieken",
-      "summary": "Kirills heilige oorlog, de relieken van Dmitri Donskoj en de offers die van het Russische volk worden gevraagd."
+      "title": "Rusland, Kirill en de relieken",
+      "summary": "De Russische patriarch Kirill en Poetin zetten de oorlog neer als heilige strijd; de relieken als geheim wapen."
     },
     {
-      "start_seconds": 1584,
-      "title": "Sanctielijst en scheiding van kerk en staat",
-      "summary": "Bulgarije blokkeert sancties tegen Kirill en de gesprekspartners bespreken hoe religie en politiek in elkaar overlopen."
+      "start_seconds": 1951,
+      "title": "Onderhandelen met een metafysische vijand",
+      "summary": "Hoe onderhandelen mogelijk is wanneer de tegenpartij de strijd als eschatologisch ziet, en waarom mirror imaging gevaarlijk is."
     },
     {
-      "start_seconds": 1900,
-      "title": "Onderhandelen met Poetin",
-      "summary": "Waarom onderhandelen alleen kan vanuit kracht en waarom westerse projectie en omgekeerd kolonialisme misleidend zijn."
+      "start_seconds": 2371,
+      "title": "Christelijk nationalisme in Engeland en de VS",
+      "summary": "Reform, James Orr en Tommy Robinson gebruiken christelijke symboliek, terwijl de meeste christenen zich ervan distantiëren."
+    },
+    {
+      "start_seconds": 2844,
+      "title": "De AfD en de Duitse kerken",
+      "summary": "Het verkiezingsprogramma van de AfD prijst het cultuurchristendom maar wil de kerken hun rol ontnemen."
+    },
+    {
+      "start_seconds": 3889,
+      "title": "Vaticaan en de rechtvaardige oorlog",
+      "summary": "De paus neemt afstand van de rechtvaardige oorlog; het gesprek gaat over theologie, moderne oorlogsvoering en de botsing met Trump en Vance."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1462,
-      "speaker": "Beatrice de Graaf",
-      "text": "Kirill stuurt relieken naar het front als geheim wapen in handen van de soldaten.",
-      "note": "Opvallend contrast met westerse discussies over Patriots en wapens."
-    },
-    {
-      "start_seconds": 1663,
-      "speaker": "Beatrice de Graaf",
-      "text": "Bulgarije zegt: we gaan geen kruistochten voeren tegen een geloof en een kerk.",
-      "note": "Een middeleeuws klinkend argument in een moderne EU-discussie."
-    },
-    {
-      "start_seconds": 2077,
+      "start_seconds": 2011,
       "speaker": "Beatrice de Graaf",
       "text": "Je stapt eigenlijk door de spiegel, je stapt in een andere wereld.",
-      "note": "Waarschuwing tegen mirror imaging bij onderhandelen met Poetin."
-    },
-    {
-      "start_seconds": 2077,
-      "speaker": "Beatrice de Graaf",
-      "text": "Alles wat niet het heilige Rusland heel maakt, is verlies.",
-      "note": "Verklaart waarom compromissen moeilijk zijn."
+      "note": "Haar metafoor voor het feit dat onderhandelen met Poetin een andere logica vereist."
     },
     {
       "start_seconds": 1120,
       "speaker": "Stefan Paas",
       "text": "Water is een heel onschuldige vloeistof tot je het in een waterstofbom stopt.",
-      "note": "Treffend beeld voor religie als ingrediënt van geweld."
+      "note": "Een beeld dat laat zien hoe religie onschuldig lijkt maar in bepaalde contexten destructief wordt."
     },
     {
-      "start_seconds": 740,
-      "speaker": "Beatrice de Graaf",
-      "text": "De ambassadeursvrouwen moesten een hoofddoek dragen, pas toen werd Iran serieus genomen.",
-      "note": "Anekdote over hoe het Westen religie pas laat serieus nam."
+      "start_seconds": 2708,
+      "speaker": "David Boogerd",
+      "text": "Ze kunnen een kruis omhoog steken, maar net zo goed Zwarte Piet.",
+      "note": "Scherpe observatie over het gebruik van christelijke symbolen door geseculariseerde groepen."
+    },
+    {
+      "start_seconds": 1841,
+      "speaker": "Stefan Paas",
+      "text": "Religion slips into the secular and the secular slips into religion all the time.",
+      "note": "Laat zien dat het onderscheid tussen seculier en religieus conceptueel wankel is."
+    },
+    {
+      "start_seconds": 3726,
+      "speaker": "Stefan Paas",
+      "text": "Zodra religie politieke idealen gaat nastreven, politiseert het geloof.",
+      "note": "Een waarschuwing dat religie en macht elkaar kunnen ontsporen."
     }
   ],
   "keywords": [
-    "terugkeer van de goden",
+    "Terugkeer van de goden",
+    "Religie en geopolitiek",
+    "Heilige oorlog",
+    "Relieken",
     "Patriarch Kirill",
-    "Poetin",
-    "relieken",
-    "heilige oorlog",
+    "Christelijk nationalisme",
+    "Secularisatie",
+    "Rechtvaardige oorlog",
+    "Rechtvaardige vrede",
+    "Identitair christendom",
     "Iraanse revolutie",
-    "secularisatie",
-    "Julius Evola",
-    "scheiding van kerk en staat",
-    "Radicale Verlossing",
-    "metafysica",
-    "onderhandelen"
+    "Gedomesticeerde religie"
   ],
   "quotes": [
-    "Wat gebeurt er als de goden terugkeren in de politiek?",
-    "Waarom noemen de Russen dit 'een geheim wapen'?"
+    "Poetin stuurt versterking naar de frontlinie. Maar het zijn geen tanks of drones. Het zijn relieken.",
+    "Wereldpolitiek draait niet alleen om macht, geld en strategische belangen. Religie, heilige verhalen en ideeën over goed en kwaad doen er óók toe.",
+    "Wat gebeurt er als de goden terugkeren in de politiek?"
   ],
   "similar": [
     {
-      "n": 79,
-      "reason": "Poetin, de Russische kerk en de religieuze geschiedenis achter het conflict met het Westen"
-    },
-    {
       "n": 82,
-      "reason": "Priester in de Russisch-Orthodoxe kerk die Poetin steunt; Kirill-context"
-    },
-    {
-      "n": 86,
-      "reason": "De oorlog in Oekraïne wordt apocalyptisch en religieus; De Graaf en Paas"
-    },
-    {
-      "n": 254,
-      "reason": "Apocalyptische oorlog Israël-Iran; religie in geopolitiek met De Graaf en Paas"
+      "reason": "Russisch-orthodoxe kerk en steun aan Poetin, direct verwant aan de religieuze rol in de oorlog"
     },
     {
       "n": 153,
-      "reason": "Rusland en zijn religie, oorlog in Oekraïne"
+      "reason": "Russische religie en Rusland-analyse, sterk overlappend met het thema religie in de Russische oorlog"
+    },
+    {
+      "n": 241,
+      "reason": "Ideeën en religieuze denkers achter Trump, inclusief christelijk nationalisme in de VS"
+    },
+    {
+      "n": 309,
+      "reason": "Trump, Poetin en andere tirannen, met geopolitiek en God-thema's"
+    },
+    {
+      "n": 284,
+      "reason": "Terugkeer van brute machtspolitiek door Trump en Poetin, geopolitiek en religieuze achtergrond"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 149,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 114826,
+    "segments": 1063,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30527,
-    "output_tokens": 2118,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58252,
+    "output_tokens": 3518,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Samenleving & migratie",
-    "Filosofie & ethiek",
-    "Economie & geld"
+    "Zingeving & psyche",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Bas Heijne",
@@ -21,159 +26,157 @@
   "people": [
     {
       "name": "Mark Rutte",
-      "note": "demissionair premier, na 22 jaar uit de politiek",
-      "start_seconds": 113,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Sigrid Kaag",
-      "note": "vertrekkend D66-leider, bedreigd",
-      "start_seconds": 113,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "note": "Scheidend minister-president; centrale figuur van het gesprek over het tijdperk Rutte",
+      "start_seconds": 82,
+      "mention_count": 30
     },
     {
       "name": "Caroline van der Plas",
-      "note": "BBB-leider",
-      "start_seconds": 175,
-      "wiki_checked": true,
-      "wiki_pageid": 5503682,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Caroline_van_der_Plas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caroline_van_der_Plas.jpg/250px-Caroline_van_der_Plas.jpg"
+      "note": "Leider van BBB, besproken als opkomend populistisch politicus",
+      "start_seconds": 179,
+      "mention_count": 9
     },
     {
-      "name": "Pim Fortuyn",
-      "note": "populistisch politicus, 'verweesde samenleving'",
-      "start_seconds": 1396,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "name": "Sigrid Kaag",
+      "note": "Vertrokken D66-politicus; besproken na haar terugtreden en de haat die zij ontving",
+      "start_seconds": 122,
+      "mention_count": 6
     },
     {
       "name": "Raymond Aron",
-      "note": "Franse denker, pleitte voor ideologische gematigdheid",
-      "start_seconds": 2033,
-      "wiki_checked": true,
-      "wiki_pageid": 366061,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Raymond_Aron",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Raymond_Aron_%281966%29_by_Erling_Mandelmann.jpg/250px-Raymond_Aron_%281966%29_by_Erling_Mandelmann.jpg"
+      "note": "Franse denker die moderatie als antwoord op chaos verdedigde",
+      "start_seconds": 2034,
+      "mention_count": 3
     },
     {
       "name": "Paul Ricoeur",
-      "note": "filosoof over pre-politieke waarden",
-      "start_seconds": 2298,
-      "wiki_checked": true,
-      "wiki_pageid": 188766,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Ric%C5%93ur",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Paul_Ricoeur_Balzan.png/250px-Paul_Ricoeur_Balzan.png"
+      "note": "Filosoof; stelde dat een democratie zichzelf niet uit het moeras van betekenisloosheid kan trekken",
+      "start_seconds": 2318,
+      "mention_count": 2
     },
     {
-      "name": "Wouter Bos",
-      "note": "PvdA-leider, derde weg",
-      "start_seconds": 2175,
-      "wiki_checked": true,
-      "wiki_pageid": 14905,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wouter_Bos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Bos_Dutch_politician_kabinet_Balkenende_IV.jpg/250px-Bos_Dutch_politician_kabinet_Balkenende_IV.jpg"
+      "name": "Augustinus",
+      "note": "Kerkvader; over heerszucht (libido dominandi) en kenosis",
+      "start_seconds": 3900,
+      "mention_count": 2
     },
     {
       "name": "Hesiodus",
-      "note": "Griekse denker over chaos",
-      "start_seconds": 753,
-      "wiki_checked": true,
-      "wiki_pageid": 57659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hesiodos",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Pseudo-Seneca_BM_GR1962.8-24.1.jpg/250px-Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
+      "note": "Griekse denker die chaos als begin van de wereld beschreef",
+      "start_seconds": 750,
+      "mention_count": 1
     },
     {
       "name": "Peter Sloterdijk",
-      "note": "filosoof, woedebanken",
-      "start_seconds": 1333,
-      "wiki_checked": true,
-      "wiki_pageid": 153773,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Sloterdijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Peter_Sloterdijk%2C_Karlsruhe_07-2009%2C_IMGP3019.jpg/250px-Peter_Sloterdijk%2C_Karlsruhe_07-2009%2C_IMGP3019.jpg"
+      "note": "Filosoof; sprak over woedebanken",
+      "start_seconds": 1320,
+      "mention_count": 2
     },
     {
-      "name": "George Lakoff",
-      "note": "auteur Moral Politics",
-      "start_seconds": 1830,
-      "wiki_checked": true
+      "name": "Wouter Bos",
+      "note": "PvdA-leider; symbool van de derde-wegpolitiek die als verraad werd ervaren",
+      "start_seconds": 2190,
+      "mention_count": 3
     },
     {
       "name": "Alexander Dugin",
-      "note": "Russische filosoof en propagandist",
-      "start_seconds": 1039,
-      "wiki_checked": true,
-      "wiki_pageid": 4037958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aleksandr_Doegin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg/250px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "FvD-leider",
-      "start_seconds": 1039,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Russische filosoof en propagandist van Poetin, door Baudet aangehaald",
+      "start_seconds": 1040,
+      "mention_count": 1
     },
     {
       "name": "Vladimir Poetin",
-      "note": "Russische president",
-      "start_seconds": 711,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; noemde versplintering als iets waar hij bang voor is",
+      "start_seconds": 700,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "voorbeeld van woedeondernemer",
-      "start_seconds": 1453,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Voorbeeld van een politicus die woede als entrepreneur uitbuit",
+      "start_seconds": 1440,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Remkes",
+      "note": "Oud-minister die met boeren een akkoord sloot en pijn benoemde",
+      "start_seconds": 3700,
+      "mention_count": 3
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Leider van FvD; genoemd in verband met Dugin en defensief nationalisme",
+      "start_seconds": 1020,
+      "mention_count": 2
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Populistische politicus; genoemd bij de ventielfunctie van woede",
+      "start_seconds": 1380,
+      "mention_count": 2
+    },
+    {
+      "name": "Dilan Yeşilgöz",
+      "note": "VVD-lijsttrekker; genoemd in de coalitiecrisis",
+      "start_seconds": 400,
+      "mention_count": 3
     },
     {
       "name": "Hugo de Jonge",
-      "note": "CDA-politicus",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 2288921,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_de_Jonge",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Hugo_de_Jonge%2C_February_2023.jpg/250px-Hugo_de_Jonge%2C_February_2023.jpg"
+      "note": "CDA-politicus; verweten het kabinet niet te hebben gered",
+      "start_seconds": 520,
+      "mention_count": 2
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "Genoemd als mogelijke premier met eigen agenda",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president; doelwit van haat",
+      "start_seconds": 3550,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Bekritiseerd door Aron in Opium der intellectuelen",
+      "start_seconds": 2000,
+      "mention_count": 1
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Voormalig Amerikaans president; genoemd als voorbeeld van persoonlijke vriendelijkheid",
+      "start_seconds": 2760,
+      "mention_count": 2
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "ChristenUnie-leider; sprak over Rutte in zijn podcast",
+      "start_seconds": 2700,
+      "mention_count": 2
+    },
+    {
+      "name": "Mirjam Bikker",
+      "note": "ChristenUnie-fractievoorzitter",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Joseph Lakoff",
+      "note": "Auteur van Moral Politics over moralisering van politiek",
+      "start_seconds": 1830,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Opium der intellectuelen",
       "author": "Raymond Aron",
-      "note": "gericht tegen het marxisme",
-      "start_seconds": 2033,
-      "volume_id": "wadMnwEACAAJ",
-      "canonical_title": "L'opium des intellectuels",
+      "note": "Kritiek op totalitaire ideologieën, gericht op Marx",
+      "start_seconds": 2034,
+      "volume_id": "PjF5QwAACAAJ",
+      "canonical_title": "L'Opium des intellectuels",
       "canonical_author": "Raymond Aron",
       "isbn13": null,
       "isbn10": null,
@@ -182,148 +185,165 @@
     {
       "title": "Moral Politics",
       "author": "George Lakoff",
-      "note": "over Amerikaanse politiek en moraliteit",
+      "note": "Over de moralisering van politiek in de VS",
       "start_seconds": 1830,
-      "volume_id": "3N_FDAAAQBAJ",
-      "canonical_title": "Moral Politics: How Liberals and Conservatives Think",
+      "volume_id": "5mrqHAAACAAJ",
+      "canonical_title": "Moral Politics: What Conservatives Know that Liberals Don't",
       "canonical_author": "George Lakoff",
-      "isbn13": "9780226411323",
-      "isbn10": "022641132X",
-      "thumbnail": "http://books.google.com/books/content?id=3N_FDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780226468051",
+      "isbn10": "0226468054",
+      "thumbnail": "http://books.google.com/books/content?id=5mrqHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Mens/Onmens",
+      "title": "Mens om mens",
       "author": "Bas Heijne",
-      "note": "essay over liberalisme en individualisme",
-      "start_seconds": 1019,
-      "volume_id": "C3DNDwAAQBAJ",
+      "note": "Essay over liberalisme en de eigen waarheid",
+      "start_seconds": 1070,
+      "volume_id": "BdUAwwEACAAJ",
       "canonical_title": "Mens/onmens",
       "canonical_author": "Bas Heijne",
-      "isbn13": "9789044641493",
-      "isbn10": "9044641492",
-      "thumbnail": "http://books.google.com/books/content?id=C3DNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044641479",
+      "isbn10": "9044641476",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 1:2",
-      "note": "de aarde was woest en ledig, chaos als begin",
-      "start_seconds": 754
+      "note": "De aarde was woest en ledig; chaos in het christendom",
+      "start_seconds": 780
     }
   ],
   "places": [
-    "Parijs",
     "Nederland",
+    "Parijs",
+    "Frankrijk",
+    "Duitsland",
     "Rusland",
+    "Oekraïne",
+    "Flevoland",
     "Groningen",
-    "Kinderdijk",
-    "Randstad"
+    "Volendam"
   ],
-  "summary_tldr": "Na de val van het kabinet en het vertrek van Rutte bespreken Bas Heijne en Beatrice de Graaf het wereldbeeld van het tijdperk Rutte. Ze analyseren individualisering, het neoliberale verhaal, populisme, tribalisme en woede. Beatrice pleit voor moderatie als antwoord.",
+  "summary_tldr": "Bas Heijne en Beatrice de Graaf analyseren het einde van het tijdperk Rutte en de politieke chaos die volgde. Zij zien een wereldbeeld van neoliberale individualisering dat de samenleving heeft ontwricht en woede en tribalisme heeft gevoed. Als tegenwicht pleiten zij voor moderatie, deliberatieve politiek en pre-politieke waarden als solidariteit.",
   "summary_points": [
-    "Het kabinet viel nodeloos op de asielkwestie; de VVD overspeelde zijn hand.",
-    "Het tijdperk Rutte stond voor pragmatisme zonder diepere visie.",
-    "Chaos als versplintering, bedreigingen van politici verdubbeld.",
-    "Het neoliberale idee van een teruggetreden staat is een mythe; de technocratische staat groeide.",
-    "Individualisering en wegvallen van zuilen laten mensen 'naakt' in de samenleving staan.",
-    "Populisme is tribalistisch en gevoed door gegenereerde woede, geen echte ideologie.",
-    "Politiek is gemoraliseerd en geëmotionaliseerd.",
-    "Raymond Aron biedt gematigdheid als ideologisch alternatief.",
-    "Democratie heeft pre-politieke waarden nodig zoals vertrouwen en solidariteit."
+    "Het aftreden van Rutte wordt gezien als historisch einde van een lange politieke periode",
+    "Versplintering, bedreigingen en populisme nemen toe; chaos wordt als negatief begrip geanalyseerd",
+    "Het neoliberale wereldbeeld van Rutte werd gekenmerkt door individualisering en terugtrekkende overheid",
+    "De Graaf stelt dat de staat juist is uitgebreid; het neoliberalisme is een 'grote leugen'",
+    "Woede wordt gezien als gegenereerde en gekanaliseerde emotie die populisme voedt",
+    "Gemeenschapsidealen verdwenen met het zuilenstelsel; de burger staat er 'naakt' bij",
+    "Moderatie, zoals Aron die voorstond, wordt als remedie gezien",
+    "Politieke leiders zouden pijnlijke waarheden moeten uitspreken en visie tonen",
+    "Kritiek op Rutte: hartelijk persoonlijk contact maskeerde weinig visie en gebrek aan dossiers",
+    "Discussie over vrouwelijk leiderschap en misogynie in de politiek"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en week van de val",
-      "summary": "David introduceert de gasten en de politieke omwenteling."
+      "title": "Inleiding en politieke week",
+      "summary": "Gasten reflecteren op het vertrek van Rutte, de rol van Van der Plas en de coalitiecrisis."
     },
     {
-      "start_seconds": 120,
-      "title": "Waarom viel het kabinet?",
-      "summary": "Metaalmoeheid, BBB-druk en de overspeelde hand van de VVD."
+      "start_seconds": 700,
+      "title": "Is Nederland een land in chaos?",
+      "summary": "De Graaf definieert chaos, versplintering en bedreigingen, en duidt de etymologie via Hesiodus en Genesis."
     },
     {
-      "start_seconds": 590,
-      "title": "Land in chaos?",
-      "summary": "Beatrice over chaos, versplintering en bedreigingen."
-    },
-    {
-      "start_seconds": 880,
-      "title": "Vrijheid, individu en neoliberalisme",
-      "summary": "De generatie Rutte, gemeenschapspartijen en de mythe van de teruggetreden staat."
-    },
-    {
-      "start_seconds": 1290,
-      "title": "Waar komt de woede vandaan?",
-      "summary": "Tribalisme, woede als gegenereerd en de verweesde samenleving."
+      "start_seconds": 1500,
+      "title": "Individualisering en het neoliberale wereldbeeld",
+      "summary": "Het vrijheidsideaal en de terugtrekkende staat worden bekritiseerd; de staat bleek juist uitgebreid."
     },
     {
       "start_seconds": 2000,
-      "title": "Moderatie als weg vooruit",
-      "summary": "Aron, de derde weg en pre-politieke waarden van Ricoeur."
+      "title": "Woede, populisme en de naaktslak",
+      "summary": "Herkomst van woede: verlies van stutten, algoritmes en emotionalisering van politiek."
+    },
+    {
+      "start_seconds": 2900,
+      "title": "Moderatie versus ideeloze politiek",
+      "summary": "Aron, Ricoeur en de derde weg; de vraag wie moderatie nog leert aan jongeren."
+    },
+    {
+      "start_seconds": 3400,
+      "title": "Rutte, persoonlijk contact en politieke stijl",
+      "summary": "Discussie over Ruttes vriendelijkheid als front, zijn talent voor het bij elkaar houden van partijen en het gebrek aan visie."
+    },
+    {
+      "start_seconds": 4300,
+      "title": "Leiderschap, zelfkritiek en vrouwen in de politiek",
+      "summary": "Pleidooi voor leiders met prepolitieke waarden, zelfkritiek en de toenemende rol van vrouwen in de politiek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1186,
+      "start_seconds": 3,
       "speaker": "Beatrice de Graaf",
-      "text": "Het is de grote leugen van het neoliberalisme: de staat heeft zich helemaal niet teruggetrokken.",
-      "note": "Scherpe stelling tegen het gangbare verhaal."
+      "text": "Een democratie kan zichzelf niet aan zijn haren uit het moeras van betekenisloosheid trekken.",
+      "note": "Kernstelling van Ricoeur die het hele gesprek bepaalt."
     },
     {
-      "start_seconds": 1453,
+      "start_seconds": 1100,
       "speaker": "Beatrice de Graaf",
-      "text": "Woede wordt gegenereerd: als politici woede uiten, worden hun aanhangers bozer.",
-      "note": "Weerlegt de ventielfunctie-theorie."
+      "text": "Het is eigenlijk een gekanaliseerde woede-uitbarsting.",
+      "note": "Scherpe typering van populisme als woede in plaats van ideologie."
     },
     {
-      "start_seconds": 1616,
+      "start_seconds": 1900,
+      "speaker": "Beatrice de Graaf",
+      "text": "De grote leugen van het neoliberalisme: de staat heeft zich helemaal niet teruggetrokken.",
+      "note": "Tegenspraak die het beeld van het tijdperk Rutte fundamenteel omdraait."
+    },
+    {
+      "start_seconds": 2600,
       "speaker": "Bas Heijne",
-      "text": "Het individu staat als een naaktslak in de samenleving.",
-      "note": "Sterk beeld voor kwetsbaarheid."
+      "text": "Als je een naaktslak bent, waarom zou je dan een wetenschappelijk instituut geloven?",
+      "note": "Treffende metafoor voor het gevoel van kwetsbaarheid van het individu."
     },
     {
-      "start_seconds": 2064,
+      "start_seconds": 3900,
       "speaker": "Beatrice de Graaf",
-      "text": "Aron was geen Rutte: hij zocht de hitte op.",
-      "note": "Onderscheid tussen moderatie en schipperen."
+      "text": "Kenosis: je moet weer mens worden en je aspiraties afleggen.",
+      "note": "Theologische tegenhanger van de heerszucht van de mens, via Augustinus."
     }
   ],
   "keywords": [
-    "Mark Rutte",
     "neoliberalisme",
-    "individualisering",
     "populisme",
-    "tribalisme",
     "woede",
-    "chaos",
+    "individualisering",
     "moderatie",
+    "deliberatieve democratie",
+    "chaos",
+    "tribalisme",
     "Raymond Aron",
-    "zuilen",
-    "BBB",
-    "Paul Ricoeur"
+    "kenosis",
+    "Ricoeur",
+    "derde weg"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 221,
-      "reason": "Bas Heijne over politiek, liberale leegte en filosofie; terugkeer van de politiek"
-    },
-    {
       "n": 21,
-      "reason": "Bas Heijne over de liberale leegte, polarisatie en het neoliberale tijdperk"
+      "reason": "Zelfde gast Bas Heijne over liberalisme, leegte en polarisatie in de samenleving"
     },
     {
-      "n": 209,
-      "reason": "Beatrice de Graaf over het grote verhaal van onze tijd en samenleving"
+      "n": 301,
+      "reason": "Analyseert hoe de seculiere elite losraakt van het volk, net als het tijdperk-Rutte"
+    },
+    {
+      "n": 267,
+      "reason": "Gaat over het onbehagen en het tekortschieten van de politiek, met Beatrice de Graaf"
+    },
+    {
+      "n": 221,
+      "reason": "Bas Heijne over de terugkeer van de politiek en het belang van Camus"
     },
     {
       "n": 170,
-      "reason": "Politieke analyse van Nederland na verkiezingen, verrechtsing en populisme"
-    },
-    {
-      "n": 252,
-      "reason": "Val van het kabinet en diepere verklaring voor politieke ontwikkelingen"
+      "reason": "Duidt de Nederlandse politieke verschuiving en het verrechtsen van het land"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

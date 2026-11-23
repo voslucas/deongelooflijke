@@ -1,92 +1,103 @@
 {
   "episode": 130,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 132312,
+    "segments": 1562,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31829,
-    "output_tokens": 2627,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69535,
+    "output_tokens": 3118,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Klimaat & natuur",
+    "Klimaatactivisme & Geweld",
     "God & geloof",
-    "Politiek",
-    "Filosofie & ethiek"
+    "Samenleving & migratie",
+    "Politiek"
   ],
   "guests": [
     "Rozemarijn van 't Einde"
   ],
   "people": [
     {
+      "name": "Rozemarijn van 't Einde",
+      "note": "predikant, criminoloog en klimaatactivist (Extinction Rebellion, Christian Climate Action); gast",
+      "start_seconds": 0,
+      "mention_count": 3
+    },
+    {
       "name": "Rob Jetten",
-      "note": "minister voor Klimaat en Energie, ontmoette Rozemarijn",
-      "start_seconds": 85,
-      "wiki_checked": true,
-      "wiki_pageid": 4797135,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Jetten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Rob_Jetten%2C_March_2026_-_01.jpg/250px-Rob_Jetten%2C_March_2026_-_01.jpg"
+      "note": "minister van Klimaat en Energie",
+      "start_seconds": 1420,
+      "mention_count": 3
     },
     {
       "name": "Marnix van Rij",
-      "note": "staatssecretaris van Financiën, bij het gesprek aanwezig",
-      "start_seconds": 1412,
-      "wiki_checked": true,
-      "wiki_pageid": 412559,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marnix_van_Rij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Marnix_van_Rij%2C_March_2022.jpg/250px-Marnix_van_Rij%2C_March_2022.jpg"
+      "note": "staatssecretaris van Financiën",
+      "start_seconds": 1410,
+      "mention_count": 2
     },
     {
       "name": "René Paas",
-      "note": "commissaris van de Koning in Groningen, verre familie van Stefan Paas",
-      "start_seconds": 875,
-      "wiki_checked": true,
-      "wiki_pageid": 176458,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Paas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Rene_paas-1573367441_%28cropped%29.jpg/250px-Rene_paas-1573367441_%28cropped%29.jpg"
+      "note": "commissaris van de Koning in Groningen",
+      "start_seconds": 874,
+      "mention_count": 1
     },
     {
-      "name": "Henri Bontenbal",
-      "note": "CDA-Kamerlid, specialist in energietransitie",
-      "start_seconds": 1200,
-      "wiki_checked": true,
-      "wiki_pageid": 5530732,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henri_Bontenbal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Henri_Bontenbal.jpg/250px-Henri_Bontenbal.jpg"
+      "name": "Henry Bontenbal",
+      "note": "CDA-politicus, specialist groene transitie",
+      "start_seconds": 1212,
+      "mention_count": 1
     },
     {
-      "name": "Andreas Malm",
-      "note": "auteur van 'How to Blow Up a Pipeline'",
-      "start_seconds": 1729,
-      "wiki_checked": true,
-      "wiki_pageid": 5547720,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andreas_Malm",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Andreas_Malm_at_Code_Rood_2018_%28cropped%29.jpg/250px-Andreas_Malm_at_Code_Rood_2018_%28cropped%29.jpg"
+      "name": "Benedict de Viek",
+      "note": "advocaat, bij Extinction Rebellion betrokken, GroenLinks-Kamerlid; trok zich terug na debatavond",
+      "start_seconds": 2270,
+      "mention_count": 2
     },
     {
-      "name": "Dick Trom",
-      "note": "jeugdliteratuurfiguur met een hondenkar, gebruikt als beeld voor doelen stellen",
-      "start_seconds": 1302,
-      "wiki_checked": true,
-      "wiki_pageid": 90998,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dik_Trom_%28personage%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dik_Trom_en_the_blind_girl_next_door_by_Johan_Braakensiek_end_of_19th_century.png/250px-Dik_Trom_en_the_blind_girl_next_door_by_Johan_Braakensiek_end_of_19th_century.png"
+      "name": "Jonas Palm",
+      "note": "auteur van 'How to Blow Up a Pipeline' (2021)",
+      "start_seconds": 1728,
+      "mention_count": 1
+    },
+    {
+      "name": "Wouter van Noort",
+      "note": "journalist NRC, besproken over theologie en kolonialisme",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Mozes",
+      "note": "bijbelse figuur, gered door vroedvrouwen",
+      "start_seconds": 3645,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel, schreef Romeinen 13, zat regelmatig gevangen",
+      "start_seconds": 3650,
+      "mention_count": 2
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 30
     }
   ],
   "books": [
     {
       "title": "Rebelleren voor het leven",
       "author": "Rozemarijn van 't Einde",
-      "note": "boek over haar klimaatactivisme en geloof",
-      "start_seconds": 537,
+      "note": "boek van de gast over haar activisme en geloof",
+      "start_seconds": 152,
       "volume_id": "QC61zwEACAAJ",
-      "canonical_title": "Rebelleren voor het leven: een dominee in actie voor klimaatrechtvaardigheid",
+      "canonical_title": "Rebelleren voor het leven",
       "canonical_author": "Rozemarijn van 't Einde",
       "isbn13": "9789043539449",
       "isbn10": "9043539449",
@@ -95,143 +106,167 @@
     {
       "title": "How to Blow Up a Pipeline",
       "author": "Andreas Malm",
-      "note": "pleidooi voor sabotage in klimaatactivisme",
-      "start_seconds": 1729,
-      "volume_id": "wwoIEAAAQBAJ",
-      "canonical_title": "How to Blow Up a Pipeline: Learning to Fight in a World on Fire",
+      "note": "besproken over sabotage als actievorm",
+      "start_seconds": 1728,
+      "volume_id": "uWN-zQEACAAJ",
+      "canonical_title": "Wie man eine Pipeline in die Luft jagt",
       "canonical_author": "Andreas Malm",
-      "isbn13": "9781839760273",
-      "isbn10": "1839760273",
-      "thumbnail": "http://books.google.com/books/content?id=wwoIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9783751803052",
+      "isbn10": "375180305X",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jona 3",
+      "note": "Ninevé bekeert zich; koning gaat op zijn knieën, als voorbeeld van collectieve schuld",
+      "start_seconds": 2745
+    },
+    {
+      "ref": "Romeinen 13",
+      "note": "gezag van de overheid; besproken als spanning met burgerlijke ongehoorzaamheid",
+      "start_seconds": 3540
+    },
+    {
+      "ref": "Exodus 1",
+      "note": "vroedvrouwen die het bevel van de farao negeerden, Mozes gered",
+      "start_seconds": 3645
+    }
+  ],
   "places": [
-    "A12",
-    "Den Haag",
+    "Amsterdam",
     "Groningen",
     "Rotterdam",
-    "Verenigde Staten"
+    "Kampen",
+    "Utrecht",
+    "Den Haag"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met predikant, criminoloog en klimaatactivist Rozemarijn van 't Einde, die twintig keer is gearresteerd bij blokkades van Extinction Rebellion. Ze vertelt over haar motivatie, haar ziekte, haar gesprekken met minister Jetten en de grenzen van geweldloosheid. Stefan Paas stelt kritische vragen over effectiviteit, complexiteit, groei en democratie.",
+  "summary_tldr": "Predikant en klimaatactivist Rozemarijn van 't Einde bespreekt met David Boogerd en Stefan Paas haar burgerlijke ongehoorzaamheid, zoals blokkades van de A12 en bezettingen, en hoe die zich verhoudt tot haar christelijk geloof. Het gesprek gaat over de urgentie van het klimaat, de grenzen van geweldloosheid, en de spanning tussen activisme, democratie en verantwoordelijkheid.",
   "summary_points": [
-    "Rozemarijn is predikant, criminoloog en klimaatactivist en is ongeveer 20 keer gearresteerd.",
-    "Arrestatie is soms een middel om media-aandacht en druk op overheid en bedrijven te krijgen.",
-    "De A12 is een symbolische locatie tussen het ministerie en de Tweede Kamer.",
-    "Ze heeft een chronische ziekte (orthostatische intolerantie) en overwoog zelfs een hongerstaking.",
-    "Klimaatrechtvaardigheid: rijke landen en kwetsbare groepen dragen ongelijk de gevolgen, bijvoorbeeld Groningen en Tata Steel.",
-    "Paas wijst op complexiteit en het ontbreken van zuiverheid; zij vindt complexiteit vaak een excuus om niets te doen.",
-    "Discussie over groene groei versus krimp en de haalbaarheid van klimaatneutraal in 2025.",
-    "Gesprekken met Rob Jetten en Marnix van Rij: zij brengt vooral verdriet over.",
-    "Sabotage vindt ze moreel verdedigbaar, maar de beweging kiest voor geweldloosheid; geweld tegen personen is een grens.",
-    "Paas maakt zich zorgen over wat klimaatrampen met de democratie doen."
+    "Rozemarijn van 't Einde is al ruim 20 keer gearresteerd bij klimaatacties van Extinction Rebellion.",
+    "Zij ziet burgerlijke ongehoorzaamheid als vreedzaam, zorgvuldig voorbereid en moreel verantwoord.",
+    "Sabotage keurt zij moreel goed, maar als beweging kiest zij er bewust voor niet te doen; geweld tegen personen wijst zij af.",
+    "Haar geloof (de eerste twee geboden, naastenliefde) vormt de basis van haar activisme.",
+    "Paas wijst op de complexiteit van samenlevingen en de risico's van radicalisering en het uitblijven van politieke meerderheden.",
+    "Discussie over klimaatdoelen: Van 't Einde pleit voor radicale omslag, Paas waarschuwt voor onhaalbare doelen die demotiveren.",
+    "Kerken worden bekritiseerd omdat ze het klimaat te weinig politiek bespreken; Van 't Einde ziet een theologische plicht.",
+    "Het gesprek raakt aan schuld, erfzonde en collectieve verantwoordelijkheid, en aan klimaatdepressie en rouw.",
+    "Een uitnodiging bij minister Rob Jetten leverde gesprekken op maar weinig concrete verandering volgens de gast.",
+    "Boogerd en Paas bevragen de gast kritisch over effectiviteit, legitimiteit en de grens van geweld."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Arrestaties en de politiecel",
-      "summary": "Introductie en gesprek over de naderende A12-blokkade, haar arrestaties en het verblijf in de cel."
+      "title": "Introductie en arrestaties",
+      "summary": "De gast wordt voorgesteld; het gesprek opent over haar 20 arrestaties en de komende A12-blokkade."
     },
     {
-      "start_seconds": 247,
-      "title": "Toga, symboliek en doel van acties",
-      "summary": "De bekende foto in toga, het pensioenfonds ABP en waarom arrestatie en mediaaandacht ertoe doen."
+      "start_seconds": 420,
+      "title": "Motivatie en symboliek van actievoeren",
+      "summary": "Van 't Einde legt uit waarom acties als de A12-blokkade en pensioenfondsbezetting nodig zijn om media-aandacht te krijgen."
     },
     {
-      "start_seconds": 457,
-      "title": "Leider van de toekomst en haar ziekte",
-      "summary": "Paas noemde haar eerder een interessante figuur; zij vertelt over haar aandoening en hoe ver ze bereid is te gaan."
+      "start_seconds": 620,
+      "title": "Ziekte en persoonlijke grenzen",
+      "summary": "Zij vertelt over haar lichamelijke ziekte (POTS) en hoe activisme haar lichaam belast."
     },
     {
-      "start_seconds": 757,
-      "title": "Waarom de klimaatcrisis zo urgent is",
-      "summary": "Kantelpunten, klimaatrechtvaardigheid, Groningen en de tegenwerping van banen bij Tata Steel."
+      "start_seconds": 960,
+      "title": "Klimaatrechtvaardigheid en complexiteit",
+      "summary": "Gesprek over klimaatgevolgen, rechtvaardigheid, economische groei en het dilemma van banen als Tata Steel."
     },
     {
-      "start_seconds": 976,
-      "title": "Complexiteit, groei en radicaliteit",
-      "summary": "Discussie over zuiverheid, groene groei, krimp en de haalbaarheid van klimaatneutraal in 2025."
+      "start_seconds": 2100,
+      "title": "Democratie, politiek en geweld",
+      "summary": "Bespreking van de rol van politiek, het debat over geweld en de grenzen van geweldloosheid."
     },
     {
-      "start_seconds": 1417,
-      "title": "Politiek, Jetten en democratie",
-      "summary": "Gesprekken met Jetten en Van Rij, de rol van de overheid en de vraag naar democratie."
+      "start_seconds": 2700,
+      "title": "Schuld, verantwoordelijkheid en geloof",
+      "summary": "Theologische reflectie over zonde, erfzonde, de rol van kerken en het Bijbelse verhaal van Jona."
     },
     {
-      "start_seconds": 1688,
-      "title": "Geweld, sabotage en de toekomst van de democratie",
-      "summary": "Waar ligt de grens, het boek over pijplijnen opblazen en Paas' zorgen over radicalisering."
+      "start_seconds": 3350,
+      "title": "Burgerlijke ongehoorzaamheid en Romeinen 13",
+      "summary": "Discussie over gezag, wetten en de vraag of burgerlijke ongehoorzaamheid te rechtvaardigen is vanuit het geloof."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Hoop, rouw en slot",
+      "summary": "Afsluitende vragen over klimaatdepressie, toekomst als activist, en een uitnodiging tot de actie van 11 maart."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 247,
+      "start_seconds": 1,
       "speaker": "Rozemarijn van 't Einde",
-      "text": "Het is soms eigenlijk balen als je niet wordt gearresteerd, omdat dat nu eenmaal de media haalt.",
-      "note": "Laat zien hoe arrestatie strategisch onderdeel van haar actievoeren is."
+      "text": "Op geen andere plek voel ik me zo dicht bij God als na een arrestatie.",
+      "note": "Kernuitspraak die het gesprek openent en de spanning tussen geloof en activisme blootlegt."
     },
     {
-      "start_seconds": 682,
+      "start_seconds": 2120,
       "speaker": "Rozemarijn van 't Einde",
-      "text": "Ik heb serieus overwogen om een hongerstaking te doen.",
-      "note": "Toont hoe diep haar betrokkenheid gaat."
+      "text": "Oh, dan moord ik ook wel iemand, maakt me niet uit.",
+      "note": "Scherpe uitspraak die Paas direct als radicaliseringsproces benoemt; roept vragen op over grenzen."
     },
     {
-      "start_seconds": 1030,
+      "start_seconds": 2880,
+      "speaker": "Rozemarijn van 't Einde",
+      "text": "Stel, je zit in een kerk en op het kerkplein vindt een massamoord plaats.",
+      "note": "Confronterende vergelijking die laat zien hoe zij kerkelijke stilte over klimaat ervaart."
+    },
+    {
+      "start_seconds": 3780,
       "speaker": "Stefan Paas",
-      "text": "Alles wat wij doen heeft negatieve gevolgen; er is geen zuiverheid, terwijl activisme soms lijkt te denken van wel.",
-      "note": "Kritische reflectie via The Good Place."
+      "text": "Ik ben een oude man. Ik bedoel, ik moet dat niet meer doen.",
+      "note": "Persoonlijk moment waarin Paas zijn eigen grenzen en rol als niet-activist benoemt."
     },
     {
-      "start_seconds": 1529,
-      "speaker": "Rozemarijn van 't Einde",
-      "text": "Het beste wat we overbrachten aan Rob Jetten was ons verdriet.",
-      "note": "Persoonlijk en emotioneel perspectief op lobbygesprekken."
-    },
-    {
-      "start_seconds": 1732,
-      "speaker": "Rozemarijn van 't Einde",
-      "text": "Ik vind sabotage moreel te verantwoorden, maar als beweging kiezen we daar niet voor.",
-      "note": "Scherp moreel standpunt dat het gesprek op scherp zet."
+      "start_seconds": 2640,
+      "speaker": "Stefan Paas",
+      "text": "Dat is het moeilijkste aan mij onder ogen te zien dat we veel slechter zijn dan we denken.",
+      "note": "Zelfreflectie die kritiek op Nederland als 'goede kant van de geschiedenis' ondermijnt."
     }
   ],
   "keywords": [
-    "Extinction Rebellion",
     "burgerlijke ongehoorzaamheid",
-    "klimaatrechtvaardigheid",
-    "A12-blokkade",
-    "Christian Climate Action",
-    "Rebelleren voor het leven",
-    "Rob Jetten",
-    "sabotage",
-    "groene groei",
+    "klimaatactivisme",
+    "Extinction Rebellion",
+    "schuld en erfzonde",
+    "rechtvaardigheid",
+    "geweldloosheid",
+    "Romeinen 13",
+    "klimaatdepressie",
     "democratie",
-    "Groningen"
+    "christelijke ethiek"
   ],
   "quotes": [
-    "Op geen andere plek voel ik me zo dicht bij God als na een arrestatie",
-    "Ik demonstreer mezelf kapot"
+    "Op geen andere plek voel ik me zo dicht bij God als na een arrestatie.",
+    "Ik demonstreer mezelf kapot.",
+    "Blokkeerchristen wordt ze dan ook genoemd."
   ],
   "similar": [
     {
-      "n": 276,
-      "reason": "Klimaat en politiek met Diederik Samsom; gesprek over de race om het klimaat te redden"
-    },
-    {
       "n": 162,
-      "reason": "Burgerlijke ongehoorzaamheid, blokkades en demonstraties: de grenzen van activisme"
+      "reason": "Burgerlijke ongehoorzaamheid, demonstraties en blokkades, met religieuze en politieke dimensie"
     },
     {
       "n": 55,
-      "reason": "Klimaatverandering, religie en natuur met Marianne Thieme, politica en activist"
+      "reason": "Klimaatactivisme gekoppeld aan geloof en natuurliefde, met Marianne Thieme"
+    },
+    {
+      "n": 142,
+      "reason": "Politiek activisme en theologie, met Marianne Thieme als gast"
+    },
+    {
+      "n": 276,
+      "reason": "Klimaatstrijd en politieke strategie, met oud-politicus Diederik Samsom"
     },
     {
       "n": 227,
-      "reason": "Grote transitie en klimaat met Jan Rotmans; Paas stelt vragen over verandering"
-    },
-    {
-      "n": 48,
-      "reason": "Politiek, klimaat en maakbaarheid met Carola Schouten; ook ChristenUnie-achtergrond"
+      "reason": "Klimaatverandering en maatschappelijke transitie, met God en geloof als thema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

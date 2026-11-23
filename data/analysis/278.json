@@ -1,179 +1,281 @@
 {
   "episode": 278,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 167537,
+    "segments": 1665,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31678,
-    "output_tokens": 1941,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 86512,
+    "output_tokens": 7357,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "God & geloof",
-    "Samenleving & migratie",
-    "Economie & geld"
+    "Economie & geld",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Katie Vlaardingerbroek"
   ],
   "people": [
     {
+      "name": "Katie Vlaardingerbroek",
+      "note": "Religiewetenschapper, auteur van Nederland Therapieland, gast",
+      "start_seconds": 146,
+      "mention_count": 1
+    },
+    {
       "name": "Charles Taylor",
-      "note": "Canadese filosoof die zelfexpressie en het 'innerlijk landschap' omschreef",
+      "note": "Canadese filosoof, beschreef zelfexpressie",
       "start_seconds": 767,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg",
       "mention_count": 4
     },
     {
       "name": "Søren Kierkegaard",
-      "note": "Filosoof die creatief was ondanks zijn zwaarmoedigheid",
+      "note": "Filosoof die schreef vanuit diep ongeluk",
       "start_seconds": 289,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg",
       "mention_count": 1
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof; 'religie is het opium van het volk'",
+      "start_seconds": 4129,
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Duitse socioloog; 'biografische oplossingen voor systeemfouten'",
+      "start_seconds": 3491,
+      "mention_count": 1
+    },
+    {
+      "name": "Trudy Dehue",
+      "note": "Auteur over de maakbaarheid van het individu en de DSM-geschiedenis",
+      "start_seconds": 2328,
+      "mention_count": 3
+    },
+    {
+      "name": "Pim Kuipers",
+      "note": "Emeritus hoogleraar klinische psychologie; cijfers over effectiviteit therapie",
+      "start_seconds": 3023,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul van der Heijden",
+      "note": "Hoogleraar die onderzoek doet naar toegang tot de GGZ",
+      "start_seconds": 2516,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Hofstede",
+      "note": "Onderzoeker naar culturele dimensies, gebruikt in suïcide-onderzoek",
+      "start_seconds": 3340,
+      "mention_count": 1
+    },
+    {
+      "name": "Marcel van den Heuvel",
+      "note": "Auteur van AEX van de ziel over zelfhulpboeken",
+      "start_seconds": 3561,
+      "mention_count": 1
+    },
+    {
+      "name": "Jim van Os",
+      "note": "Hoogleraar psychiatrie die zich tegen de medische benadering keert",
+      "start_seconds": 4487,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider die uit de kerk kwam",
+      "start_seconds": 4278,
+      "mention_count": 1
+    },
+    {
+      "name": "Rogier Hoenders",
+      "note": "Psychiater die pleit voor zingeving in de GGZ",
+      "start_seconds": 4610,
+      "mention_count": 1
+    },
+    {
+      "name": "Sanne Boekels",
+      "note": "Illustrator die de GGZ als ganzenbordspel tekende",
+      "start_seconds": 2705,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutger",
+      "note": "Vader van Nomi, gesproken voor het boek",
+      "start_seconds": 2339,
+      "mention_count": 1
+    },
+    {
+      "name": "Emilia",
+      "note": "Bulgaarse vrouw die financieel hulp nodig heeft; Katie start een inzamelactie",
+      "start_seconds": 5506,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Nederland Therapieland",
       "author": "Katie Vlaardingerbroek",
-      "note": "Boek over de Nederlandse therapiecultuur als een vorm van religie",
-      "start_seconds": 53,
+      "note": "Hoe beter worden ons zieker maakt; centraal onderwerp van de aflevering",
+      "start_seconds": 146,
       "volume_id": "JV-SEQAAQBAJ",
       "canonical_title": "Nederland Therapieland: Hoe beter worden ons zieker maakt",
       "canonical_author": "Katie Vlaardingerbroek",
       "isbn13": "9789043543484",
       "isbn10": "9043543489",
       "thumbnail": "http://books.google.com/books/content?id=JV-SEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "AEX van de ziel",
+      "author": "Marcel van den Heuvel",
+      "note": "Analyse van zelfhulpboeken en tijdsgeest in Nederland sinds de jaren 50",
+      "start_seconds": 3561
     }
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
-    "Amsterdam",
-    "Utrecht"
+    "Den Bosch",
+    "Bulgarije",
+    "Engeland",
+    "Zuid-Amerika",
+    "Nederland"
   ],
-  "summary_tldr": "Religiewetenschapper Katie Vlaardingerbroek beschrijft in haar boek Nederland Therapieland hoe therapie is uitgegroeid tot een complete cultuur die op een religie lijkt. Ze combineert onderzoek met haar eigen ervaringen in de GGZ en bespreekt hoe institutionele zorg, de welzijnsmarkt en moderne spiritualiteit steeds meer in elkaar overlopen.",
+  "summary_tldr": "Katie Vlaardingerbroek betoogt in haar boek Nederland Therapieland dat therapie in Nederland is uitgegroeid tot een cultuur met religieuze trekken, een soort seculiere staatsreligie. Ondanks de welvaart en de enorme GGZ-uitgaven nemen de mentale klachten toe, mede doordat sociale en economische problemen worden gemedicaliseerd en individualiseert. Zij pleit voor kritischer kijken naar therapie, meer collectieve oplossingen en het verbreden van zingeving.",
   "summary_points": [
-    "Nederland behoort tot de gelukkigste landen, maar toch neemt psychisch leed toe.",
-    "Ongeveer een kwart van de Nederlanders (4,7 miljoen) heeft psychische klachten volgens het Nemesis-onderzoek.",
-    "Katie onderscheidt drie krachtenvelden: institutionele hulpverlening, de welzijnsmarkt en moderne spiritualiteit.",
-    "Zelfexpressie volgens Charles Taylor staat centraal: consumeren wordt zelfzorg en identiteit.",
-    "De DSM-5 geeft classificaties van symptomen, geen diagnoses van onderliggende oorzaken.",
-    "Er is een verschuiving van cognitieve gedragstherapie naar lichaamsgericht werken, ook in religiestudies.",
-    "Het werkzame bestanddeel van therapie kan gewone aandacht, een goed gesprek en gehoord worden zijn.",
-    "Katie vertelt over haar eigen route door de GGZ: wachtlijsten, wisselende diagnoses, PTSS en trauma.",
-    "Ze vindt zingeving nu vooral in het alledaagse en in haar 'chosen family'."
+    "Nederland is welvarend en gelukkig volgens onderzoek, maar kampt met toenemende mentale malaise en een enorme therapiecultuur.",
+    "Therapie is volgens Vlaardingerbroek een breed begrip, verdeeld over drie krachtenvelden: institutionele GGZ, de welzijnsmarkt en moderne spiritualiteit.",
+    "De welzijnsmarkt maakt consumeren tot zelfzorg en zelfexpressie tot identiteitskwestie, mede onder invloed van het kapitalisme.",
+    "Cognitieve gedragstherapie werkt van boven naar beneden, terwijl lichaamsgericht werk stelt dat het lichaam en emoties eerst reageren.",
+    "Toegang tot de GGZ is scheef: middenklasse en hoogopgeleide vrouwen krijgen eerder hulp, terwijl armere mensen en mannen vaker in andere trajecten belanden.",
+    "Meta-analyses tonen dat therapievormen ongeveer even effectief zijn; ongeveer 25 procent knapt op door therapie, maar veel mensen veranderen weinig.",
+    "Vlaardingerbroek ziet therapie als seculiere religie: het geeft antwoord op existentiële vragen, kent een bovenmenselijke figuur en een zelfverklarend systeem.",
+    "Stefan Paas wijst op het gevaar dat therapie systeemfouten individualiseert en mensen aanpast in plaats van onrecht aan te pakken.",
+    "Individualisering en het wegvallen van gemeenschap en hiërarchie worden gezien als drijfveren van psychisch leed en secularisatie.",
+    "Vlaardingerbroek pleit voor gemeenschap, lotgenotengroepen en collectieve actie als tegenwicht tegen berusting en individualisering."
   ],
   "chapters": [
     {
-      "start_seconds": 0,
-      "title": "Inleiding en de koelkast als identiteit",
-      "summary": "Introductie van het boek en het idee dat consumeren een vorm van zelfexpressie is."
+      "start_seconds": 53,
+      "title": "Introductie en het boek",
+      "summary": "David Boogerd stelt het paradox van welvarend maar angstig Nederland voor en introduceert Katie Vlaardingerbroek als onderzoeker en ervaringsdeskundige."
     },
     {
-      "start_seconds": 144,
-      "title": "Schrijven vanuit ervaring",
-      "summary": "Katie schreef het boek terwijl ze zelf traumatherapie volgde en bespreekt de spanning tussen analyse en ervaring."
+      "start_seconds": 480,
+      "title": "Wat is therapie en wat is DSM",
+      "summary": "Het gesprek gaat over de DSM als classificatiesysteem en over de vraag wat therapie precies is."
     },
     {
-      "start_seconds": 410,
-      "title": "De paradox van welvaart en psychisch leed",
-      "summary": "Cijfers over psychische klachten, de DSM-5 en de vraag wat therapie eigenlijk is."
+      "start_seconds": 656,
+      "title": "Drie krachtenvelden van therapie",
+      "summary": "Vlaardingerbroek onderscheidt institutionele hulpverlening, de welzijnsmarkt en moderne spiritualiteit, die steeds meer samenvloeien."
     },
     {
-      "start_seconds": 660,
-      "title": "Drie krachtenvelden",
-      "summary": "Institutionele hulpverlening, welzijnsmarkt en moderne spiritualiteit overlappen steeds meer."
+      "start_seconds": 1243,
+      "title": "Cognitief versus lichaamsgericht werken",
+      "summary": "Het verschil tussen cognitieve gedragstherapie en lichaamsgerichte benaderingen wordt uitgelegd met een persoonlijk voorbeeld."
     },
     {
-      "start_seconds": 1250,
-      "title": "Van cognitief naar lichaamsgericht",
-      "summary": "Uitleg over cognitieve gedragstherapie versus lichaamsgericht werken en de parallel met religiestudies."
+      "start_seconds": 1608,
+      "title": "Katie's persoonlijke therapiegeschiedenis",
+      "summary": "Vlaardingerbroek vertelt over haar lange en moeizame weg door de GGZ, diagnoses en ervaringen met het zorgsysteem."
     },
     {
-      "start_seconds": 1606,
-      "title": "Katies eigen weg door de GGZ",
-      "summary": "Persoonlijk verhaal over diagnoses, PTSS, wachtlijsten en doorverwijzingen."
+      "start_seconds": 2437,
+      "title": "Ongelijkheid in de toegang tot zorg",
+      "summary": "Het gesprek gaat over hoe klasse, gender en afkomst bepalen wie hulp krijgt en hoe diagnoses verschillend worden ingezet."
+    },
+    {
+      "start_seconds": 2884,
+      "title": "Waarom groeit de malaise en therapie als religie",
+      "summary": "De verklaring van de groeiende malaise wordt gezocht in medicalisering, zelfexpressie en de vraag of therapie als seculiere religie functioneert."
+    },
+    {
+      "start_seconds": 5769,
+      "title": "Hoop, oproep en slotvraag",
+      "summary": "Vlaardingerbroek geeft tips aan mensen met mentale klachten en roept op tot collectieve actie, met het verhaal van Emilia."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 15,
-      "speaker": "Katie Vlaardingerbroek",
-      "text": "Dat past bij wie ik graag wil zijn; consumeren is geen hedonisme maar zelfzorg.",
-      "note": "Treffend beeld van de koelkast als identiteitskwestie."
-    },
-    {
-      "start_seconds": 1148,
-      "speaker": "Katie Vlaardingerbroek",
-      "text": "Je gevoel heeft altijd gelijk tegenwoordig.",
-      "note": "Sarcastische observatie over moderne spiritualiteit."
-    },
-    {
-      "start_seconds": 1328,
-      "speaker": "Katie Vlaardingerbroek",
-      "text": "Wij zijn geen machines; het begint met het lijf, pas later bedenkt het brein een rechtvaardiging.",
-      "note": "Kritiek op cognitieve therapie en de mens als machine."
-    },
-    {
-      "start_seconds": 1170,
+      "start_seconds": 3691,
       "speaker": "Stefan Paas",
-      "text": "Wat is het werkzame bestanddeel? Misschien gewoon aandacht en iemand die naar je luistert.",
-      "note": "Scherpe vraag naar de kern van therapie."
+      "text": "Het is een beetje als asfalt aanleggen om files op te lossen, maar er komen alleen meer files.",
+      "note": "Een treffende metafoor voor hoe meer therapie het probleem van mentale malaise niet oplost."
     },
     {
-      "start_seconds": 1809,
+      "start_seconds": 3015,
       "speaker": "Katie Vlaardingerbroek",
-      "text": "Ik heb 30 keer mijn verhaal verteld.",
-      "note": "Laat de zwaarte van het zorgsysteem zien."
+      "text": "We hebben honderden vormen van therapie en ze werken allemaal ongeveer even goed.",
+      "note": "Een confronterende claim die het vertrouwen in de specifieke methodes onderuit haalt."
+    },
+    {
+      "start_seconds": 3184,
+      "speaker": "Katie Vlaardingerbroek",
+      "text": "Daarmee draait de therapeutische fabriek op volle toeren.",
+      "note": "De metafoor van de fabriek benadrukt hoe therapie een productiesysteem is geworden."
+    },
+    {
+      "start_seconds": 5050,
+      "speaker": "Katie Vlaardingerbroek",
+      "text": "Therapie is een vorm geworden die ons onschuldigt; ik ben liever ziek dan zondig.",
+      "note": "Een scherpe observatie over hoe diagnoses verantwoordelijkheid wegnemen en schuld verschuiven."
+    },
+    {
+      "start_seconds": 5851,
+      "speaker": "Katie Vlaardingerbroek",
+      "text": "Je bent niet ziek, je hebt een hele normale reactie op abnormale omstandigheden.",
+      "note": "Een troostende herformulering die de focus verlegt van individuele pathologie naar de context."
     }
   ],
   "keywords": [
-    "Therapiecultuur",
+    "therapiecultuur",
     "GGZ",
-    "Zelfexpressie",
-    "Charles Taylor",
-    "Welzijnsmarkt",
-    "Moderne spiritualiteit",
-    "Lichaamsgericht werken",
-    "PTSS",
-    "DSM-5",
-    "Zelfzorg",
-    "Cognitieve gedragstherapie"
+    "zelfexpressie",
+    "welzijnsmarkt",
+    "secularisatie",
+    "medicalisering",
+    "DSM",
+    "zingeving",
+    "meritocratie",
+    "seculiere religie",
+    "individualisering",
+    "traumatherapie"
   ],
   "quotes": [
-    "Nederland is een therapiecultuur geworden.",
-    "Een cultuur die lijkt op religie. Een staatsreligie zelfs."
+    "Nederland is een therapiecultuur geworden",
+    "Een cultuur die lijkt op religie. Een staatsreligie zelfs.",
+    "We behoren tot de welvarendste en gelukkigste landen ter wereld, en toch worden we steeds angstiger en somberder."
   ],
   "similar": [
     {
       "n": 249,
-      "reason": "Psychiater over mentale epidemie en psychische zorg; zelfde GGZ-thematiek"
+      "reason": "Mentale epidemie en psychische klachten, met psychiater Rogier Hoenders, die ook in deze aflevering wordt besproken"
     },
     {
       "n": 287,
-      "reason": "Jongeren, individualisme en psychische problemen; kritiek op zelfredzaamheidscultuur"
+      "reason": "Individualisme, zelfredzaamheid en psychische klachten bij jongeren, thematisch sterk verwant"
     },
     {
       "n": 111,
-      "reason": "Psychiater over het individu dat zelf God is geworden in seculiere tijd"
+      "reason": "Seculiere zingeving, het individu als 'God' en psychiatrische blik op de samenleving"
     },
     {
-      "n": 294,
-      "reason": "Seculiere millennials, nihilisme en leegte; zoeken naar zingeving buiten kerk"
+      "n": 314,
+      "reason": "Zingevingscrisis en leegte van het moderne leven, met psychologische invalshoek"
     },
     {
-      "n": 171,
-      "reason": "Zingeving en gezondheid; spanning tussen wetenschap, psyche en betekenis"
+      "n": 191,
+      "reason": "Geestelijke gezondheid van jongeren en de maatschappelijke oorzaken van hun klachten"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

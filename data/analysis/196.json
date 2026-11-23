@@ -1,370 +1,388 @@
 {
   "episode": 196,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 90863,
+    "segments": 1077,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31441,
-    "output_tokens": 2919,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 47451,
+    "output_tokens": 3687,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Politiek",
-    "Geschiedenis",
-    "Samenleving & migratie"
+    "Samenleving & migratie",
+    "God & geloof"
   ],
   "guests": [
     "Geert Mak"
   ],
   "people": [
     {
+      "name": "Geert Mak",
+      "note": "journalist en schrijver, gast in de aflevering",
+      "start_seconds": 5,
+      "mention_count": 30
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast en medepresentator van het gesprek",
+      "start_seconds": 208,
+      "mention_count": 25
+    },
+    {
       "name": "Timothy Garton Ash",
-      "note": "Britse historicus en Europakenner die zegt dat we in een pre-oorlogsfase leven",
+      "note": "Britse Europakenner, historicus, zei dat we in een preoorlogse fase leven",
       "start_seconds": 207,
-      "wiki_checked": true,
-      "wiki_pageid": 2091828,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Timothy_Garton_Ash",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2019-05-30_Timothy_Garton_Ash-6011.jpg/250px-2019-05-30_Timothy_Garton_Ash-6011.jpg"
+      "mention_count": 3
     },
     {
       "name": "Franklin D. Roosevelt",
-      "note": "Amerikaans president in de jaren 30 en 40; 'arsenaal van de democratie' en New Deal",
-      "start_seconds": 244,
-      "wiki_checked": true,
-      "wiki_pageid": 36850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/FDR_1944_Color_Portrait_%28cropped%29.jpg/250px-FDR_1944_Color_Portrait_%28cropped%29.jpg"
+      "note": "Amerikaans president, New Deal en 'arsenaal van de democratie'",
+      "start_seconds": 224,
+      "mention_count": 3
     },
     {
       "name": "Joe Biden",
-      "note": "Amerikaans president, gebruikt dezelfde retoriek als Roosevelt",
+      "note": "Amerikaans president, zou hetzelfde zeggen als Roosevelt",
       "start_seconds": 247,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
-    },
-    {
-      "name": "Mona Keizer",
-      "note": "Nederlandse presentatrice, genoemd als beeld van knusse gezelligheid",
-      "start_seconds": 5,
-      "wiki_checked": true
-    },
-    {
-      "name": "Giorgia Meloni",
-      "note": "Italiaanse premier van de Fratelli d'Italia",
-      "start_seconds": 537,
-      "wiki_checked": true,
-      "wiki_pageid": 5414878,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giorgia_Meloni",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg/250px-Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, grootste partij in het nieuwe kabinet",
+      "note": "PVV-leider, eenmanspartij, radicaal rechts",
       "start_seconds": 558,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 10
     },
     {
-      "name": "Angela Merkel",
-      "note": "Voormalig Duits bondskanselier met goede contacten met Poetin",
-      "start_seconds": 609,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Gerhard Schröder",
-      "note": "Voormalig Duits bondskanselier, pro-Russisch",
-      "start_seconds": 615,
-      "wiki_checked": true,
-      "wiki_pageid": 37588,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerhard_Schr%C3%B6der",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2015-12_Gerhard_Schr%C3%B6der_SPD_Bundesparteitag_by_Olaf_Kosinsky-12.jpg/250px-2015-12_Gerhard_Schr%C3%B6der_SPD_Bundesparteitag_by_Olaf_Kosinsky-12.jpg"
+      "name": "Mark Rutte",
+      "note": "voormalig premier, cordon sanitaire tegen radicaal rechts",
+      "start_seconds": 1385,
+      "mention_count": 2
     },
     {
       "name": "Viktor Orbán",
-      "note": "Premier van Hongarije",
-      "start_seconds": 618,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Hongaarse premier, populistische leider",
+      "start_seconds": 1030,
+      "mention_count": 3
     },
     {
-      "name": "Jozef Stalin",
-      "note": "Vijand die Europa deed verenigen, volgens Mak",
-      "start_seconds": 656,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russische president, Kremlin, Oekraïne-oorlog",
+      "start_seconds": 640,
+      "mention_count": 2
     },
     {
-      "name": "Henk Hofland",
-      "note": "Journalist uit de vorige eeuw, seismograaf-metafoor",
-      "start_seconds": 986,
-      "wiki_checked": true,
-      "wiki_pageid": 80581,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henk_Hofland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Henk-hofland.jpg/250px-Henk-hofland.jpg"
+      "name": "Gerhard Schröder",
+      "note": "oud-Duits bondskanselier met pro-Russische contacten",
+      "start_seconds": 606,
+      "mention_count": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "oud-Duits bondskanselier met goede contacten met Poetin",
+      "start_seconds": 543,
+      "mention_count": 2
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president, tegenstellingen met Duitsland",
+      "start_seconds": 590,
+      "mention_count": 1
+    },
+    {
+      "name": "Olaf Scholz",
+      "note": "Duits bondskanselier",
+      "start_seconds": 590,
+      "mention_count": 1
+    },
+    {
+      "name": "Giorgia Meloni",
+      "note": "Italiaans premier, Fratelli d'Italia, radicaal rechts",
+      "start_seconds": 533,
+      "mention_count": 2
     },
     {
       "name": "Volodymyr Zelensky",
       "note": "Oekraïense president",
-      "start_seconds": 1356,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "start_seconds": 1316,
+      "mention_count": 1
     },
     {
-      "name": "Mark Rutte",
-      "note": "Voormalig premier, cordon sanitaire",
-      "start_seconds": 1403,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "name": "Joseph Stalin",
+      "note": "Sovjetleider, Mak noemt beeld van hem bij EU-gebouw",
+      "start_seconds": 650,
+      "mention_count": 1
     },
     {
-      "name": "Ursula von der Leyen",
-      "note": "Voorzitter Europese Commissie, opent deur naar rechts",
-      "start_seconds": 1450,
-      "wiki_checked": true,
-      "wiki_pageid": 1926494,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ursula_von_der_Leyen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ursula_von_der_Leyen_2024.jpg/250px-Ursula_von_der_Leyen_2024.jpg"
+      "name": "Jeremy Rifkin",
+      "note": "Amerikaans schrijver en econoom, voorspelde Europa als continent van de toekomst",
+      "start_seconds": 2940,
+      "mention_count": 1
     },
     {
-      "name": "Dilan Yeşilgöz",
-      "note": "VVD-leider die de deur naar Wilders opende",
-      "start_seconds": 1573,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
+      "name": "Henk Hofland",
+      "note": "journalist, 'seismograafje' na 9/11",
+      "start_seconds": 980,
+      "mention_count": 1
     },
     {
       "name": "Stef Blok",
-      "note": "VVD-minister die Volkshuisvesting afschafte",
-      "start_seconds": 1931,
-      "wiki_checked": true,
-      "wiki_pageid": 259083,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stef_Blok",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Portretfoto%27s_Stef_Blok_-_40983747542.jpg/250px-Portretfoto%27s_Stef_Blok_-_40983747542.jpg"
+      "note": "VVD-minister, afschaffing ministerie Volkshuisvesting",
+      "start_seconds": 1940,
+      "mention_count": 2
+    },
+    {
+      "name": "Mona Keizer",
+      "note": "politica en voormalig VVD-minister, in beeldspraak",
+      "start_seconds": 5,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Wolkers",
+      "note": "schrijver, herkende gereformeerde achtergrond",
+      "start_seconds": 3100,
+      "mention_count": 1
     },
     {
       "name": "Thierry Baudet",
-      "note": "Leider van Forum voor Democratie, bouwt gemeenschap op",
-      "start_seconds": 2262,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Forum voor Democratie, ledenpartij",
+      "start_seconds": 2250,
+      "mention_count": 1
     },
     {
-      "name": "Dick Schoof",
-      "note": "Beoogd minister-president",
-      "start_seconds": 1520,
-      "wiki_checked": true,
-      "wiki_pageid": 4440635,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Schoof",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dick_Schoof_in_2025.jpg/250px-Dick_Schoof_in_2025.jpg"
+      "name": "Jan Terlouw",
+      "note": "niet genoemd, weggelaten",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "niet genoemd, weggelaten",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Yeltsin",
+      "note": "Russische president, neoliberalisme in de jaren 90",
+      "start_seconds": 1250,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Nieuw Sociaal Contract, voormalig CDA-politicus",
+      "start_seconds": 3570,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Grote verwachtingen",
-      "author": "Geert Mak",
-      "note": "Over de eerste twintig jaar van deze eeuw",
-      "start_seconds": 488,
-      "volume_id": "6mhHEAAAQBAJ",
-      "canonical_title": "Grote verwachtingen: In Europa - 1999-2021",
-      "canonical_author": "Geert Mak",
-      "isbn13": "9789045046143",
-      "isbn10": "9045046148",
-      "thumbnail": "http://books.google.com/books/content?id=6mhHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "In Europa",
       "author": "Geert Mak",
-      "note": "Eerder monumentaal werk van Mak",
-      "start_seconds": 857,
+      "note": "bestseller over Europa, genoemd als werk van Mak",
+      "start_seconds": 34,
       "volume_id": "5EIwAgAAQBAJ",
-      "canonical_title": "In Europa: reizen door de Twintigste Eeuw",
+      "canonical_title": "In Europa",
       "canonical_author": "Geert Mak",
       "isbn13": "9789045016405",
       "isbn10": "9045016400",
       "thumbnail": "http://books.google.com/books/content?id=5EIwAgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
-      "title": "Grip",
-      "author": "WRR",
-      "note": "Rapport over het gevoel van controleverlies",
-      "start_seconds": 2170
+      "title": "De Eeuw van mijn Vader",
+      "author": "Geert Mak",
+      "note": "bestseller van Mak",
+      "start_seconds": 34,
+      "volume_id": "Y--cAAAACAAJ",
+      "canonical_title": "De eeuw van mijn vader",
+      "canonical_author": "Geert Mak",
+      "isbn13": "9789025428006",
+      "isbn10": "9025428002",
+      "thumbnail": ""
+    },
+    {
+      "title": "Grote verwachtingen",
+      "author": "Geert Mak",
+      "note": "boek over de eerste 20 jaar van de 21e eeuw, besproken als opvolger",
+      "start_seconds": 840,
+      "volume_id": "KmTjzQEACAAJ",
+      "canonical_title": "Grote verwachtingen. In Europa 1999-2020",
+      "canonical_author": "Geert Mak",
+      "isbn13": "9789045042978",
+      "isbn10": "9045042975",
+      "thumbnail": ""
+    },
+    {
+      "title": "Reizen zonder John",
+      "author": "Geert Mak",
+      "note": "reisboek door Amerika uit 2010, Trump-voorspelling",
+      "start_seconds": 2490,
+      "volume_id": "mkqwoAEACAAJ",
+      "canonical_title": "Reizen zonder John",
+      "canonical_author": "Geert Mak",
+      "isbn13": "9789045027555",
+      "isbn10": "9045027550",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Lucas 10:25-37",
+      "note": "verhaal van de barmhartige Samaritaan, door David genoemd als verhaal dat mensen kennen",
+      "start_seconds": 3300
+    }
+  ],
   "places": [
     "Europa",
     "Oekraïne",
     "Rusland",
+    "Oekraïne",
+    "Nederland",
     "Hilversum",
     "Jorwerd",
+    "Friesland",
+    "Amsterdam",
+    "Brussel",
     "Hongarije",
     "Polen",
-    "Duitsland",
-    "Frankrijk",
-    "Amerika",
-    "Brussel",
     "Engeland",
+    "Frankrijk",
     "Italië",
+    "Duitsland",
     "Spanje",
-    "Ter Apel"
+    "Bosnië",
+    "Moskou",
+    "Amerika",
+    "Ter Apel",
+    "Noord-Ierland",
+    "Zuid-Italië"
   ],
-  "summary_tldr": "Geert Mak en Stefan Paas bespreken de Europese verkiezingen, de oorlog in Oekraïne en het nieuwe Nederlandse kabinet. Mak ziet een pre-oorlogssfeer als in de jaren 30 en een nieuw wereldbeeld. Ze bespreken ook het gevoel van ontheemding, verlies van grip en de behoefte aan gemeenschap.",
+  "summary_tldr": "Geert Mak en Stefan Paas bespreken de Europese verkiezingen, de oorlog in Oekraïne en het nieuwe Nederlandse kabinet. Mak ziet een nieuwe, preoorlogse fase en een verschuiving naar radicaal rechts, waarbij hij pleit voor nieuwe plannen en collectieve waarden. Het gesprek eindigt met de vraag of Europa nog toekomst heeft, waar Mak optimistisch op antwoordt.",
   "summary_points": [
-    "Mak: we leven in een pre-oorlogsfase, vergelijkbaar met de jaren 30",
-    "De oorlog in Oekraïne verenigde Europa tijdelijk, maar de steun brokkelt af",
-    "Het Europese vetorecht belemmert Europa als wereldmacht",
-    "Een Oekraïense nederlaag zou een kantelpunt zijn voor het Westen",
-    "Oost-Europese landen werden te snel en onvoldoende voorbereid toegelaten tot de EU",
-    "Het cordon sanitaire rond radicaal rechts verdwijnt; Mak noemt het nieuwe kabinet zorgwekkend",
-    "De PVV als eenmanspartij leidt tot gebrek aan kader en competentie",
-    "Migratiedebat is te eenzijdig gericht op asielzoekers, terwijl het woningprobleem beleidsmatig is",
-    "Mensen voelen zich ontheemd en missen grip; linkse partijen moeten concrete plannen maken zoals een New Deal",
-    "Terug naar collectieve waarden en gemeenschap na decennia van individuele vrijheid"
+    "Mak ziet een preoorlogse fase voor Europa, geïnspireerd door het verleden van de jaren 30.",
+    "De oorlog in Oekraïne verenigt Europa, maar de EU is traag door het vetorecht.",
+    "Radicaal rechts groeit en het cordon sanitaire brokkelt af, mede door het gedrag van centrumpartijen.",
+    "Het nieuwe kabinet wordt als weinig competent en zonder algemene visie bekritiseerd.",
+    "Ontheemding en verlies van grip op de toekomst voeden populisme en het verlangen naar gemeenschap.",
+    "Mak en Paas bespreken de spanning tussen individuele vrijheid en collectieve waarden.",
+    "Het religieuze gevoel is volgens Mak verdrongen, vergelijkbaar met seksualiteit in de 19e eeuw.",
+    "Europa blijft volgens Mak een uniek vredesproject met toekomst, mits het geduld en inzet krijgt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een pre-oorlogssfeer",
-      "summary": "Mak waarschuwt dat Nederland te weinig oog heeft voor de Europese dreiging en trekt parallellen met de jaren 30."
+      "title": "Europa in pre-oorlogse sfeer",
+      "summary": "Mak stelt dat Europa in een pre-oorlogse fase verkeert, met parallellen naar de jaren 30."
     },
     {
-      "start_seconds": 259,
-      "title": "Oekraïne als kantelpunt",
-      "summary": "Over het uiteenvallen van de eenheid, Oekraïne als proeftuin en de gevolgen van een mogelijk verlies voor het Westen."
+      "start_seconds": 480,
+      "title": "Oekraïne en de Europese eenheid",
+      "summary": "Het gesprek gaat over de Oekraïne-oorlog, de verdeeldheid in Europa en het vetorecht."
     },
     {
-      "start_seconds": 392,
-      "title": "Europa als supertanker",
-      "summary": "Het gebrek aan daadkracht van de EU, het vetorecht en de rol van Duitsland en Orbán."
+      "start_seconds": 1000,
+      "title": "Oost-Europa en de jaren 90",
+      "summary": "Mak en Boogerd bespreken de transitie in Oost-Europa en het ontstaan van nationalistische onvrede."
     },
     {
-      "start_seconds": 1100,
-      "title": "Oost-Europa en de uitbreiding",
-      "summary": "Waarom de EU-uitbreiding van 2004 een gok was en hoe onvrede na 1989 nationalisme voedde."
+      "start_seconds": 1400,
+      "title": "Radicaal rechts en het nieuwe kabinet",
+      "summary": "Het cordon sanitaire, de PVV als eenmanspartij en de kritiek op het formatieakkoord komen aan bod."
     },
     {
-      "start_seconds": 1380,
-      "title": "Het nieuwe kabinet en radicaal rechts",
-      "summary": "Het einde van het cordon sanitaire, de eenmanspartij van Wilders en zorgen over competentie."
+      "start_seconds": 2300,
+      "title": "Gemeenschap, grip en ontheemding",
+      "summary": "Ze praten over het verlangen naar gemeenschap, de rol van partijen en het gevoel van ontheemd zijn."
     },
     {
-      "start_seconds": 1840,
-      "title": "Migratie en woningnood",
-      "summary": "Discussie over de werkelijke oorzaken van de woningnood en het misleidende asieldebat."
+      "start_seconds": 3100,
+      "title": "Religie, spiritualiteit en secularisatie",
+      "summary": "Mak vertelt over zijn religieuze achtergrond en de verdrongen spiritualiteit in de samenleving."
     },
     {
-      "start_seconds": 2090,
-      "title": "Grip, gemeenschap en ontheemding",
-      "summary": "Hoe links een nieuwe New Deal en gemeenschapsgevoel kan bieden tegen het gevoel van controleverlies."
+      "start_seconds": 3720,
+      "title": "Heeft Europa toekomst?",
+      "summary": "Mak sluit af met een optimistische visie op het Europese project en oproep om te stemmen."
     }
   ],
   "highlights": [
     {
       "start_seconds": 5,
       "speaker": "Geert Mak",
-      "text": "We leven niet in een naoorlogse fase, we leven in een preoorlogse fase.",
-      "note": "Alarmerend openingsstatement dat de toon van het gesprek zet."
+      "text": "We zijn in oorlog... We leven niet in een naoorlogse fase, we leven in een preoorlogse fase.",
+      "note": "Een scherpe uitspraak die de ernst van de situatie onderstreept."
     },
     {
-      "start_seconds": 157,
+      "start_seconds": 1620,
       "speaker": "Geert Mak",
-      "text": "Een gezellige club struisvogels met de kop onder de grond en de kont omhoog.",
-      "note": "Scherp beeld van de Nederlandse kabinetsformatie."
+      "text": "Wilders' partij is een eenmanspartij... die partij van Wilders zo dood als een pier.",
+      "note": "Mak wijst op het gebrek aan kaderontwikkeling en de gevolgen daarvan."
     },
     {
-      "start_seconds": 656,
+      "start_seconds": 3540,
       "speaker": "Geert Mak",
-      "text": "Je zou eigenlijk een standbeeld van Jozef Stalin voor het Berlaymont moeten zetten.",
-      "note": "Prikkelende grap over rampen als bindmiddel van Europa."
+      "text": "Het religieuze gevoel bij mensen wordt op het ogenblik behandeld als seksualiteit in de 19e eeuw.",
+      "note": "Een verrassende vergelijking die het taboe op religie blootlegt."
     },
     {
-      "start_seconds": 1688,
+      "start_seconds": 3700,
       "speaker": "Geert Mak",
-      "text": "Nederland kan wel eens een bananenrepubliek in wording worden.",
-      "note": "Felle uitspraak over de kwaliteit en het belangendenken van het nieuwe kabinet."
+      "text": "Het woord barmhartigheid komt er niet in voor. Het is een ongenadig regeerakkoord.",
+      "note": "Scherpe kritiek op het gebrek aan christelijke waarden in het akkoord."
     },
     {
-      "start_seconds": 986,
+      "start_seconds": 3780,
       "speaker": "Geert Mak",
-      "text": "Het seismograafje danst nu van het nachtkastje af.",
-      "note": "Beeldende uitdrukking van zijn bezorgdheid."
+      "text": "We zijn zo in slaap gedommeld dat we binnen een 1, 2, 3 weken opgerold zouden zijn.",
+      "note": "Een alarmerende inschatting van de Europese kwetsbaarheid."
     }
   ],
   "keywords": [
     "Europese Unie",
-    "Oekraïne",
-    "pre-oorlogsfase",
-    "jaren 30",
+    "Oekraïne-oorlog",
     "radicaal rechts",
     "cordon sanitaire",
-    "Geert Wilders",
-    "New Deal",
     "ontheemding",
-    "grip",
     "gemeenschap",
-    "migratie"
+    "secularisatie",
+    "spiritualiteit",
+    "vetorecht",
+    "New Deal",
+    "populisme",
+    "Europees project"
   ],
   "quotes": [
-    "Volgens Mak bevinden we ons in een 'nieuwe fase van de geschiedenis', waarin zelfs een nieuw wereldbeeld aan het ontstaan is.",
-    "Veel mensen zijn ontheemd - ziet hij - en hij heeft concrete ideeën over wat je daaraan kan doen."
+    "We leven niet in een naoorlogse fase, we leven in een preoorlogse fase.",
+    "Wilders is de grote waarschuwing eigenlijk voor Europa.",
+    "Stem."
   ],
   "similar": [
     {
-      "n": 178,
-      "reason": "Han ten Broeke over wake-up call voor Europa, pre-oorlogssfeer en nieuw onvoorspelbaar tijdperk"
-    },
-    {
       "n": 35,
-      "reason": "Geert Mak zelf over Europa, geschiedenis en een zwarte horizon"
+      "reason": "Geert Mak over Europa, religie en een zwarte horizon; zelfde gast en Europese thematiek"
     },
     {
-      "n": 285,
-      "reason": "Ad Verbrugge over kantelpunt, crisis van het Westen en nieuwe wereld"
+      "n": 300,
+      "reason": "Afglijden naar extreemrechts en Orbán in Europa; sluit aan bij politieke verschuiving"
     },
     {
       "n": 192,
-      "reason": "Europa, geopolitiek en Nederland, met Stefan Paas en politieke duiding"
+      "reason": "Europa, cultuurchristendom, migratie en geopolitieke uitdagingen; overlappende thema's"
     },
     {
-      "n": 170,
-      "reason": "Nederlandse politiek na verkiezingen, Wilders en verrechtsing, met Stefan Paas"
+      "n": 178,
+      "reason": "Wake-up call voor Europa en het Westen; geopolitiek, politiek en migratie"
+    },
+    {
+      "n": 232,
+      "reason": "Existentiële democratische crisis en opkomst van extreemrechts in Duitsland"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

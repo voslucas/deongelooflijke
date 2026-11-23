@@ -1,17 +1,22 @@
 {
   "episode": 66,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 93849,
+    "segments": 786,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29842,
-    "output_tokens": 2377,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46558,
+    "output_tokens": 9258,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
     "Geopolitiek & oorlog",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -20,255 +25,343 @@
   "people": [
     {
       "name": "Joe Biden",
-      "note": "Amerikaanse president die sprak over het einde van een tijdperk na Afghanistan",
-      "start_seconds": 167,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "note": "Amerikaans president; sprak over het 'einde van een tijdperk' na de val van Afghanistan",
+      "start_seconds": 137,
+      "mention_count": 4
     },
     {
       "name": "David Livingstone",
-      "note": "zendeling en ontdekkingsreiziger die handel zag als middel tegen slavernij",
+      "note": "Schotse zendeling en ontdekkingsreiziger die handel en christendom als middel tegen slavernij zag",
       "start_seconds": 405,
-      "wiki_checked": true,
-      "wiki_pageid": 39438,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Livingstone",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/David_Livingstone_by_Thomas_Annan.jpg/250px-David_Livingstone_by_Thomas_Annan.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Francis Fukuyama",
-      "note": "politiek denker van 'het einde van de geschiedenis'",
-      "start_seconds": 1380,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
+      "name": "John Locke",
+      "note": "Verlichtingsfilosoof die vrijhandel als ideaal naar voren bracht",
+      "start_seconds": 355,
+      "mention_count": 1
     },
     {
-      "name": "Michail Gorbatsjov",
-      "note": "Sovjetleider die stopte met het exporteren van het Sovjetmodel",
-      "start_seconds": 1424,
-      "wiki_checked": true,
-      "wiki_pageid": 1038700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michail_Gorbatsjov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg/250px-Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg"
+      "name": "Adam Smith",
+      "note": "Economisch denker van de vrijhandel",
+      "start_seconds": 355,
+      "mention_count": 1
     },
     {
       "name": "Multatuli",
-      "note": "schrijver van Max Havelaar, criticus van het koloniale project",
-      "start_seconds": 1253,
-      "wiki_checked": true,
-      "wiki_pageid": 1081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Eduard_Douwes_Dekker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg/250px-Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg"
-    },
-    {
-      "name": "Tom Holland",
-      "note": "historicus die 'nie wieder Auschwitz' als vluchtpunt noemt",
-      "start_seconds": 2127,
-      "wiki_checked": true,
-      "wiki_pageid": 1528168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Holland_%28auteur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Writer_Tom_Holland%2C_February_2020.jpg/250px-Writer_Tom_Holland%2C_February_2020.jpg"
-    },
-    {
-      "name": "Max Weber",
-      "note": "socioloog, bureaucratie als gestolde ziel",
-      "start_seconds": 1667,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
+      "note": "Schrijver van Max Havelaar; criticus van het koloniale bestuur",
+      "start_seconds": 1255,
+      "mention_count": 2
     },
     {
       "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "filosoof van de wereldgeest en de geschiedenis",
-      "start_seconds": 787,
-      "wiki_checked": true,
-      "wiki_pageid": 16725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/250px-Hegel_portrait_by_Schlesinger_1831.jpg"
+      "note": "Filosoof die de geschiedenis als vak en wereldgeest vormgaf",
+      "start_seconds": 748,
+      "mention_count": 2
     },
     {
-      "name": "Alexander I van Rusland",
-      "note": "tsaar, oprichter Heilige Alliantie 1815",
-      "start_seconds": 1017,
-      "wiki_checked": true,
-      "wiki_pageid": 51198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg/250px-Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg"
+      "name": "Francis Fukuyama",
+      "note": "Politicoloog die het 'einde van de geschiedenis' en de overwinning van het liberale Westen verkondigde",
+      "start_seconds": 1378,
+      "mention_count": 6
+    },
+    {
+      "name": "Michail Gorbatsjov",
+      "note": "Sovjetleider die stopte met het exporteren van het communistische model",
+      "start_seconds": 1423,
+      "mention_count": 4
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier; opende de grenzen in 2015 en werd daarna terughoudender",
+      "start_seconds": 2466,
+      "mention_count": 10
+    },
+    {
+      "name": "Helmut Kohl",
+      "note": "Voormalig Duits bondskanselier en leider van Merkels partij",
+      "start_seconds": 2475,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse historicus die het christelijk erfgoed van het Westen analyseerde",
+      "start_seconds": 2122,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; schreef De Stad van God na de plundering van Rome",
+      "start_seconds": 3418,
+      "mention_count": 3
+    },
+    {
+      "name": "Max Weber",
+      "note": "Socioloog die bureaucratie analyseerde",
+      "start_seconds": 1663,
+      "mention_count": 1
+    },
+    {
+      "name": "Norbert Elias",
+      "note": "Socioloog over het beschavingsproces",
+      "start_seconds": 2800,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Moyn",
+      "note": "Historicus over mensenrechten en hun christelijke wortels",
+      "start_seconds": 2812,
+      "mention_count": 1
+    },
+    {
+      "name": "Barbara Adam",
+      "note": "Filosoof over de manier waarop mensen de tijd beleven",
+      "start_seconds": 2961,
+      "mention_count": 1
+    },
+    {
+      "name": "Alaric",
+      "note": "West-Gotische leider die Rome plunderde",
+      "start_seconds": 3458,
+      "mention_count": 1
+    },
+    {
+      "name": "Greta Thunberg",
+      "note": "Klimaatactiviste; voorbeeld van wereldwijde jongerenbeweging",
+      "start_seconds": 3223,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans van der Lugt",
+      "note": "Jezuïet die in Homs (Syrië) bleef en werd vermoord",
+      "start_seconds": 1350,
+      "mention_count": 2
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; schreef dat de mens uit één bloed is geschapen",
+      "start_seconds": 2716,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Stichter van het christendom; genoemd bij de geboorte en jaartelling",
+      "start_seconds": 179,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Max Havelaar",
       "author": "Multatuli",
-      "note": "kritiek op koloniale uitbuiting, verschenen 1860",
-      "start_seconds": 1253,
-      "volume_id": "XGgNAwAAQBAJ",
-      "canonical_title": "Max Havelaar",
+      "note": "Uit 1860; kritiek op het koloniale bestuur in Nederlands-Indië",
+      "start_seconds": 1255,
+      "volume_id": "Jd_akQEACAAJ",
+      "canonical_title": "Verzamelde Werken Van Multatuli - Deel I - Max Havelaar of de Koffieveilingen Der Nederlandsche Handelmaatschappy",
       "canonical_author": "Multatuli",
-      "isbn13": "9785877249714",
-      "isbn10": "5877249711",
-      "thumbnail": "http://books.google.com/books/content?id=XGgNAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781616406721",
+      "isbn10": "1616406720",
+      "thumbnail": "http://books.google.com/books/content?id=Jd_akQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "The End of History and the Last Man",
       "author": "Francis Fukuyama",
-      "note": "stelling dat het liberale Westen had gewonnen",
-      "start_seconds": 1392,
-      "volume_id": "2Afi-lKXbZMC",
+      "note": "Verschenen in 1992; stelt dat het liberale Westen het winnende model is",
+      "start_seconds": 1407,
+      "volume_id": "NdFpQwKfX2IC",
       "canonical_title": "The End of History and the Last Man",
       "canonical_author": "Francis Fukuyama",
-      "isbn13": "9780141927763",
-      "isbn10": "0141927763",
-      "thumbnail": "http://books.google.com/books/content?id=2Afi-lKXbZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780743284554",
+      "isbn10": "0743284550",
+      "thumbnail": "http://books.google.com/books/content?id=NdFpQwKfX2IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "The Children of Light and the Children of Darkness",
+      "author": "Reinhold Niebuhr",
+      "note": "Geschreven in 1945 op basis van lezingen; over wereldpolitiek en hoop",
+      "start_seconds": 3319,
+      "volume_id": "1zc1zwEACAAJ",
+      "canonical_title": "The Children of Light and the Children of Darkness",
+      "canonical_author": "Reinhold Niebuhr",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Vreemdelingen en priesters",
+      "author": "Stefan Paas",
+      "note": "Boek van Paas over zending en tribalisering",
+      "start_seconds": 2396,
+      "volume_id": "7K-lCgAAQBAJ",
+      "canonical_title": "Vreemdelingen en priesters",
+      "canonical_author": "Stefan Paas",
+      "isbn13": "9789023979340",
+      "isbn10": "9023979346",
+      "thumbnail": "http://books.google.com/books/content?id=7K-lCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De Stad van God",
+      "author": "Augustinus",
+      "note": "Geschreven na de plundering van Rome; introduceert het idee van wereldtijdperken",
+      "start_seconds": 3434,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God vertaald en toegankelijk gemaakt door Chris Dijkhuis",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Prediker 3:11",
+      "note": "Beatrice citeert de passage over de eeuwigheid in het hart van de mens (zij noemt 'Spreuken')",
+      "start_seconds": 3384
+    },
+    {
+      "ref": "Handelingen 17:26",
+      "note": "Paulus: de mens is uit één bloed geschapen; gebruikt door zendelingen tegen racisme",
+      "start_seconds": 2716
+    }
+  ],
   "places": [
     "Utrecht",
     "Afghanistan",
-    "Berlijn",
-    "Afrika",
-    "Angola",
-    "Mozambique",
+    "Syrië",
+    "Irak",
+    "Libië",
     "China",
     "Nigeria",
     "Zuid-Korea",
-    "Syrië",
-    "Irak",
-    "Japan",
-    "West-Duitsland",
-    "Wenen",
-    "Libië",
-    "Engeland"
+    "Angola",
+    "Mozambique",
+    "Polen",
+    "Duitsland",
+    "Engeland",
+    "Rome"
   ],
-  "summary_tldr": "Live opgenomen gesprek over de vraag of we aan het einde van een tijdperk van westerse, christelijk getinte dominantie zijn beland. Beatrice de Graaf en Stefan Paas bespreken verlichting, zending, kolonialisme, Fukuyama en de mislukking in Afghanistan. Ze vragen zich af wat het Westen nog aan bezieling en grote verhalen heeft om te exporteren.",
+  "summary_tldr": "David Boogerd, historicus Beatrice de Graaf en theoloog Stefan Paas bespreken of het Westen aan het einde van een tijdperk staat, waarin het christelijke en liberale Westen zijn beschaving exporteerde via handel, zending en militair ingrijpen. Ze laten zien hoe deze ideeën voortkomen uit de Verlichting, het koloniale denken en hiërarchische opvattingen, en hoe de ziel van die beschaving verloren kan gaan. Het gesprek eindigt met de vraag hoe verbinding en hoop mogelijk blijven in een gefragmenteerde wereld.",
   "summary_points": [
-    "Mensen aan het einde van een tijdperk beseffen dat zelden; het wordt vaak achteraf of politiek uitgeroepen.",
-    "Biden en Afghanistan markeren het einde van het regime-change-paradigma.",
-    "Het idee van het exporteren van beschaving ('liberal empire') gaat terug tot de verlichting.",
-    "Zending combineerde beschaving, christendom en handel; zendelingen zagen mensen als gelijkwaardig en verbeterbaar.",
-    "Tijdsdenken veranderde van cyclisch naar lineair en vooruitgangsgericht; hiërarchieën werden eerst religieus, later raciaal.",
-    "Fukuyama's koppeling van consumentisme en democratie bleek onjuist, zoals China laat zien.",
-    "Regime change lukte alleen in Japan en West-Duitsland; bureaucratie en cultuur ('ziel') zijn bepalend.",
-    "Zending komt nu uit Nigeria en Zuid-Korea, en gaat ook naar het Westen.",
-    "Het enige westerse vluchtpunt, 'nie wieder Auschwitz', verbleekt en het Westen mist een groot verhaal."
+    "Het idee van een 'einde van een tijdperk' is vaker uitgeroepen; mensen in de geschiedenis weten zelf zelden dat ze aan een kantelpunt leven",
+    "Het Westen exporteerde vrijhandel, beschaving en christendom, vaak samen met militaire en economische belangen",
+    "Zending en kolonialisme waren verweven, maar sommige zendelingen pleitten voor de gelijkwaardigheid van mensen",
+    "De Verlichting bracht een lineair tijdsbesef en hiërarchisch denken, dat later rassenideeën voedde",
+    "Fukuyama's 'einde van de geschiedenis' bleek te optimistisch; China en illiberale landen volgden een ander pad",
+    "De mislukte interventie in Afghanistan toont het belang van de 'ziel' en een functionerende bureaucratie",
+    "Angela Merkel laat zien hoe kleine stapjes en compromissen nodig zijn tussen idealisme en het draagvlak van het volk",
+    "Sociale media versterken radicalisering en bubbels, en verstoren het bruggen bouwen",
+    "Het wereldchristendom is diverser geworden; zending komt nu vooral uit Afrika, Azië en Latijns-Amerika",
+    "Klimaatbeweging en gedeelde crises kunnen mensen toch weer verbinden"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening live in Tivoli",
-      "summary": "Eerste live-aflevering en introductie van het thema 'einde van een tijdperk' naar aanleiding van Afghanistan."
+      "title": "Inleiding: het einde van een tijdperk?",
+      "summary": "Boogerd introduceert het thema van het Westen aan het einde van een tijdperk na Afghanistan. De gasten vragen wie dat bepaalt."
     },
     {
-      "start_seconds": 172,
-      "title": "Wie bepaalt het einde van een tijdperk?",
-      "summary": "Het einde van tijdperken wordt vaak geroepen, ook bij Rome en 1989; Biden en de war on terror."
+      "start_seconds": 413,
+      "title": "Zending, beschaving en handel",
+      "summary": "Het Westen exporteerde vrijhandel, christelijke beschaving en macht; Livingstone en het koloniale denken komen aan bod."
     },
     {
-      "start_seconds": 325,
-      "title": "Verlichting, handel en zending",
-      "summary": "Liberal empire, beschaving, christendom en commercie, en de rol van Livingstone."
+      "start_seconds": 789,
+      "title": "Verlichting, lineaire tijd en hiërarchie",
+      "summary": "De Verlichting veranderde het tijdsbesef en leidde tot hiërarchieën tussen volkeren, later verbonden met ras."
     },
     {
-      "start_seconds": 748,
-      "title": "Tijd, hiërarchie en ras",
-      "summary": "Van cyclische naar lineaire tijd, Heilige Alliantie en de opkomst van raciaal denken."
+      "start_seconds": 1378,
+      "title": "Fukuyama, de ziel en Afghanistan",
+      "summary": "Fukuyama's einde van de geschiedenis wordt besproken, evenals de vraag of bureaucratie of ziel bepalend is voor een samenleving."
     },
     {
-      "start_seconds": 1230,
-      "title": "Koloniaal project en zendelingen",
-      "summary": "Multatuli, spanningen tussen handelaren, bestuurders en zendelingen."
+      "start_seconds": 2449,
+      "title": "Merkel en de kunst van het kleine",
+      "summary": "Het boek over Merkel laat zien hoe grote idealen en het draagvlak van kiezers moeizaam samenkomen."
     },
     {
-      "start_seconds": 1370,
-      "title": "Fukuyama en de koude kermis van Afghanistan",
-      "summary": "Einde van de geschiedenis, Gorbatsjov, bureaucratie versus ziel, Afghanistan Papers."
+      "start_seconds": 2904,
+      "title": "Internet, radicalisering en wereldchristendom",
+      "summary": "Sociale media worden gezien als oorzaak van polarisatie; het christendom blijft wereldwijd divers en verbindend."
     },
     {
-      "start_seconds": 1900,
-      "title": "Zending van onderop en het Westen zonder verhaal",
-      "summary": "Nigeriaanse en Koreaanse zendelingen, Tom Holland, nie wieder Auschwitz en de katagon."
+      "start_seconds": 3223,
+      "title": "Klimaat, hoop en Augustinus",
+      "summary": "Klimaatbeweging wordt gezien als nieuwe bron van verbinding; het slot draait om hoop en Augustinus' idee van tijdperken."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 178,
+      "start_seconds": 172,
       "speaker": "Stefan Paas",
-      "text": "Mensen die aan het eind van een tijdperk leven weten dat zelf nooit.",
-      "note": "Relativeert het thema meteen."
+      "text": "Mensen die aan het eind van een tijdperk leven, weten zelf nooit dat ze dat doen.",
+      "note": "Een relativerende gedachte die de hele discussie over het 'einde van een tijdperk' op scherp zet."
     },
     {
-      "start_seconds": 1666,
+      "start_seconds": 1490,
       "speaker": "Beatrice de Graaf",
-      "text": "Bureaucratie is misschien wel vergestolde ziel.",
-      "note": "Verbindt Max Weber met de vraag naar de 'ziel' van een samenleving."
+      "text": "Fukuyama koppelde consumentisme en vrijhandel aan democratie; zijn grootste denkfout.",
+      "note": "Laat zien hoe het optimisme van de jaren negentig nu wordt ondermijnd, bijvoorbeeld door China."
     },
     {
       "start_seconds": 1890,
       "speaker": "Stefan Paas",
-      "text": "Theologie loopt altijd voor op de politiek.",
-      "note": "Zendingsterugtrekking ging de politieke terugtrekking vooraf."
+      "text": "Theologie loopt altijd voor de politiek.",
+      "note": "Paas plaatst politieke wendingen in een langere religieuze ontwikkeling."
     },
     {
-      "start_seconds": 2070,
+      "start_seconds": 2378,
       "speaker": "Stefan Paas",
-      "text": "Wat hier gelukzoekers wordt genoemd, zien zichzelf als gelukbrengers.",
-      "note": "Omkering van het zendingsperspectief."
+      "text": "Zending is vitaler dan ooit, alleen het gebeurt niet meer vanuit het Westen.",
+      "note": "Een tegenintuïtieve observatie over de verschuiving van het christendom naar het Zuiden."
     },
     {
-      "start_seconds": 2220,
+      "start_seconds": 2946,
       "speaker": "Beatrice de Graaf",
-      "text": "De AIVD is onze katagon: zij die de orde proberen te bewaren.",
-      "note": "Originele vergelijking tussen eindtijddenken en veiligheidsdiensten."
+      "text": "Het eind van een tijdperk is misschien niet 9/11 of de val van de muur, maar de opkomst van Facebook rond 2005-2006.",
+      "note": "Een scherpe stelling die sociale media als breekpunt in de geschiedenis plaatst."
     }
   ],
   "keywords": [
-    "Einde van een tijdperk",
-    "Afghanistan",
+    "einde van een tijdperk",
+    "christelijk Westen",
+    "zending",
     "Verlichting",
-    "Zending",
-    "Kolonialisme",
+    "secularisatie",
     "Fukuyama",
-    "Secularisatie",
-    "Westerse beschaving",
-    "Regime change",
-    "Bureaucratie",
-    "Mensenrechten"
+    "bureaucratie",
+    "beschaving",
+    "Angela Merkel",
+    "sociale media",
+    "wereldchristendom",
+    "Augustinus"
   ],
-  "quotes": [],
+  "quotes": [
+    "Sinds de val van Afghanistan en de mislukte 'war on terror' wordt het weer vaker gezegd: we bevinden ons aan het einde van een tijdperk.",
+    "Bevinden we ons aan het einde van een tijdperk, of op zijn minst: een kantelpunt in de geschiedenis?"
+  ],
   "similar": [
     {
+      "n": 22,
+      "reason": "Tom Holland over christendom als vormer van het Westen; gedeelde figuur en thema"
+    },
+    {
+      "n": 92,
+      "reason": "Oorsprong van Europese waarden, met historische en religieuze achtergrond en geopolitiek"
+    },
+    {
       "n": 209,
-      "reason": "Beatrice de Graaf en Paas over het ontbrekende grote verhaal van het Westen"
+      "reason": "Zoektocht naar het grote verhaal van onze tijd, dus een einde van tijdperk"
     },
     {
-      "n": 248,
-      "reason": "De Graaf en Paas over nieuwe wereldorde en het einde van de westerse dominantie"
+      "n": 236,
+      "reason": "Afglijdend Amerika en Europa, geschiedenis en christelijke identiteit van het Westen"
     },
     {
-      "n": 285,
-      "reason": "Verbrugge over crisis van het Westen en een kantelpunt in de geschiedenis"
-    },
-    {
-      "n": 326,
-      "reason": "Westen zonder verhaal en geopolitieke verschuivingen, met Kitzen"
-    },
-    {
-      "n": 307,
-      "reason": "Eric Storm en Paas over geschiedenis, natiestaat en westerse dominantie"
+      "n": 106,
+      "reason": "Geschiedenis en geloof achter de crises van deze tijd, met geopolitieke context"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 202,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120864,
+    "segments": 1143,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30918,
-    "output_tokens": 2670,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61376,
+    "output_tokens": 8912,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
     "Economie & geld",
-    "Technologie & AI",
-    "Samenleving & migratie"
+    "God & geloof",
+    "Technologie & AI"
   ],
   "guests": [
     "Tim Fransen"
@@ -20,300 +25,353 @@
   "people": [
     {
       "name": "Immanuel Kant",
-      "note": "Verlichtingsfilosoof; samenleving inrichten zodat moraal overbodig wordt",
+      "note": "Filosoof; formuleerde een vooruitgang die mogelijk is 'met een gemeenschap van duivels'",
       "start_seconds": 953,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "mention_count": 3
     },
     {
       "name": "Adam Smith",
-      "note": "Econoom, onzichtbare hand van de markt",
+      "note": "Econoom uit de Verlichting; 'onzichtbare hand' van de markt",
       "start_seconds": 1021,
-      "wiki_checked": true,
-      "wiki_pageid": 24034,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adam_Smith",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/250px-Adam_Smith_The_Muir_portrait.jpg"
+      "mention_count": 5
+    },
+    {
+      "name": "Bernard Mandeville",
+      "note": "Rotterdamse filosoof; parabel van de bijen over eigenbelang",
+      "start_seconds": 2821,
+      "mention_count": 2
     },
     {
       "name": "Friedrich Hayek",
-      "note": "Neoliberale denker; bewonderd door Mark Rutte",
+      "note": "Neoliberaal denker; grondlegger van marktlogica",
       "start_seconds": 1418,
-      "wiki_checked": true,
-      "wiki_pageid": 810024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Hayek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Friedrich_Hayek_portrait.jpg/250px-Friedrich_Hayek_portrait.jpg"
-    },
-    {
-      "name": "Steven Pinker",
-      "note": "Techno-optimist en vooruitgangsdenker",
-      "start_seconds": 936,
-      "wiki_checked": true,
-      "wiki_pageid": 120989,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steven_Pinker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Steven_Pinker_in_2023.jpg/250px-Steven_Pinker_in_2023.jpg"
-    },
-    {
-      "name": "Maarten Boudry",
-      "note": "Techno-optimist en atheïst",
-      "start_seconds": 936,
-      "wiki_checked": true,
-      "wiki_pageid": 2764322,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Boudry",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Maarten_Boudry.jpg/250px-Maarten_Boudry.jpg"
-    },
-    {
-      "name": "Stanislav Petrov",
-      "note": "Sovjetofficier die een nucleaire aanval voorkwam",
-      "start_seconds": 716,
-      "wiki_checked": true,
-      "wiki_pageid": 92119,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stanislav_Petrov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Stanislaw-jewgrafowitsch-petrow-2016.jpg/250px-Stanislaw-jewgrafowitsch-petrow-2016.jpg"
-    },
-    {
-      "name": "Boris Jeltsin",
-      "note": "Dronken Russische president met kernwapens",
-      "start_seconds": 804,
-      "wiki_checked": true,
-      "wiki_pageid": 46300,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Jeltsin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg/250px-%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, houdt het Westen in nucleaire gijzeling",
-      "start_seconds": 491,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Rob Wijnberg",
-      "note": "Oprichter De Correspondent, vooruitgangsoptimist",
-      "start_seconds": 1964,
-      "wiki_checked": true,
-      "wiki_pageid": 1546133,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Wijnberg",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rob_Wijnberg_-_2021.jpg/250px-Rob_Wijnberg_-_2021.jpg"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "God is dood",
-      "start_seconds": 1875,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "mention_count": 2
     },
     {
       "name": "Mark Rutte",
-      "note": "Voormalig premier, Hayek-bewonderaar",
+      "note": "Voormalig premier; bewonderaar van Hayek",
       "start_seconds": 1418,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Steven Pinker",
+      "note": "Vooruitgangsdenker en auteur, bekritiseerd door Stefan Paas en Tim Fransen",
+      "start_seconds": 936,
+      "mention_count": 4
+    },
+    {
+      "name": "Maarten Boudry",
+      "note": "Techno-optimist en atheïst; voorbeeld van vooruitgangsdenker",
+      "start_seconds": 926,
+      "mention_count": 4
+    },
+    {
+      "name": "Stanislav Petrov",
+      "note": "Sovjetofficier die in 1983 een vals alarm negeerde en een nucleaire oorlog voorkwam",
+      "start_seconds": 716,
+      "mention_count": 3
     },
     {
       "name": "Ronald Reagan",
-      "note": "Amerikaanse president tijdens spanning in de Koude Oorlog",
+      "note": "Amerikaans president tijdens de Koude Oorlog",
       "start_seconds": 731,
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Thomas Hobbes",
-      "note": "Politiek denker, kort genoemd",
-      "start_seconds": 1740,
-      "wiki_checked": true,
-      "wiki_pageid": 14520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Hobbes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Thomas_Hobbes_%28portrait%29.jpg/250px-Thomas_Hobbes_%28portrait%29.jpg"
+      "name": "Boris Jeltsin",
+      "note": "Voormalig Russisch president; in het Westen om zijn dronkenschap belachelijk gemaakt",
+      "start_seconds": 784,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president; invasie in Oekraïne en energiechantage",
+      "start_seconds": 491,
+      "mention_count": 6
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "Canadese filosoof; begrip 'seculier' als geloof tussen vele opties",
+      "start_seconds": 36,
+      "mention_count": 4
+    },
+    {
+      "name": "Augustinus",
+      "note": "Christelijke denker; onderscheid tussen goede en slechte politieke gemeenschappen",
+      "start_seconds": 3200,
+      "mention_count": 4
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Griekse filosoof; mens als politiek dier",
+      "start_seconds": 3190,
+      "mention_count": 3
+    },
+    {
+      "name": "Cicero",
+      "note": "Romeinse denker; sociale natuur van de mens",
+      "start_seconds": 4287,
+      "mention_count": 2
+    },
+    {
+      "name": "Rob Wijnberg",
+      "note": "Oprichter De Correspondent; verdediger van het vooruitgangsgeloof",
+      "start_seconds": 1964,
+      "mention_count": 3
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; 'God is dood'",
+      "start_seconds": 1844,
+      "mention_count": 1
+    },
+    {
+      "name": "John Stuart Mill",
+      "note": "Liberaal denker; schadebeginsel",
+      "start_seconds": 2585,
+      "mention_count": 3
+    },
+    {
+      "name": "John Rawls",
+      "note": "Liberale filosoof; invloedrijk op sociale vangnetten",
+      "start_seconds": 4117,
+      "mention_count": 2
+    },
+    {
+      "name": "Jonathan Haidt",
+      "note": "Amerikaanse psycholoog; conservatieve en progressieve opvattingen van rechtvaardigheid",
+      "start_seconds": 3996,
+      "mention_count": 1
+    },
+    {
+      "name": "Alasdair MacIntyre",
+      "note": "Filosoof; 'Wie wiens rechtvaardigheid'",
+      "start_seconds": 3996,
+      "mention_count": 1
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Politiek denker; individuele vrijheid versus het gezin",
+      "start_seconds": 4234,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van der Staaij",
+      "note": "Politicus; metafoor van bloemen in een vaasje over christelijke cultuur",
+      "start_seconds": 4787,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus; beriep zich op christelijke cultuur",
+      "start_seconds": 4787,
+      "mention_count": 1
+    },
+    {
+      "name": "Leo Vroman",
+      "note": "Dichter; 'O systeem, wij roepen u aan'",
+      "start_seconds": 1899,
+      "mention_count": 1
+    },
+    {
+      "name": "Anne Frank",
+      "note": "Symbool van verzet tijdens de Tweede Wereldoorlog",
+      "start_seconds": 2888,
+      "mention_count": 1
+    },
+    {
+      "name": "John F. Kennedy",
+      "note": "Amerikaans president; 'vraag niet wat je land voor jou kan doen'",
+      "start_seconds": 4692,
+      "mention_count": 1
+    },
+    {
+      "name": "Mathieu Segers",
+      "note": "Historicus; boek over de christelijke invloed op democratie",
+      "start_seconds": 4752,
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; voorbeeld van de Tweede Wereldoorlog in de discussie over zuinigheid",
+      "start_seconds": 2397,
+      "mention_count": 1
     },
     {
       "name": "Daron Acemoglu",
-      "note": "Co-auteur van Power and Progress",
+      "note": "Econoom; co-auteur van 'Power and Progress'",
       "start_seconds": 1213,
-      "wiki_checked": true,
-      "wiki_pageid": 6018953,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daron_Acemo%C4%9Flu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Acemoglu_2016_%283x4_cropped%29.png/250px-Acemoglu_2016_%283x4_cropped%29.png"
+      "mention_count": 2
     },
     {
       "name": "Simon Johnson",
-      "note": "Co-auteur van Power and Progress",
+      "note": "Econoom; co-auteur van 'Power and Progress'",
       "start_seconds": 1213,
-      "wiki_checked": true,
-      "wiki_pageid": 6018442,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simon_Johnson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Simon_Johnson%2C_2024_Nobel_Prize_Laureate_in_Economics_4_%28cropped%29.jpg/250px-Simon_Johnson%2C_2024_Nobel_Prize_Laureate_in_Economics_4_%28cropped%29.jpg"
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Power and Progress",
       "author": "Daron Acemoglu en Simon Johnson",
-      "note": "Over de industriële revolutie en wie van technologie profiteert",
+      "note": "Betoog dat technologische vooruitgang niet automatisch welvaart brengt; maatschappelijke organisatie is nodig",
       "start_seconds": 1213,
-      "volume_id": "SYqHEAAAQBAJ",
-      "canonical_title": "Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity",
+      "volume_id": "Hk450AEACAAJ",
+      "canonical_title": "Power and Progress",
       "canonical_author": "Daron Acemoglu, Simon Johnson",
-      "isbn13": "9781541702554",
-      "isbn10": "1541702557",
-      "thumbnail": "http://books.google.com/books/content?id=SYqHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Wie wiens rechtvaardigheid?",
+      "author": "Alasdair MacIntyre",
+      "note": "Genoemd over de vraag hoe rechtvaardigheid door belangen wordt bepaald",
+      "start_seconds": 3996
+    },
+    {
+      "title": "Boek over burgerberaden",
+      "author": "Van Rijbroek",
+      "note": "Genoemd als lectuur over burgerberaden als democratische vernieuwing",
+      "start_seconds": 3688
     }
   ],
   "bible_refs": [
     {
       "ref": "Mattheüs 26:41",
-      "note": "Stefan citeert: de geest is gewillig maar het vlees is zwak",
-      "start_seconds": 2118
+      "note": "Citaat 'De geest is gewillig, maar het vlees is zwak' in de discussie over moreel handelen; David Boogerd noemt Paulus als bron",
+      "start_seconds": 2119
     }
   ],
   "places": [
-    "Nederland",
     "Duitsland",
     "Berlijn",
-    "Rusland",
-    "Oekraïne",
+    "Haarlem",
     "Engeland",
-    "Amerika"
+    "Japan",
+    "Oekraïne",
+    "Rusland",
+    "Nederland"
   ],
-  "summary_tldr": "Filosoof en cabaretier Tim Fransen legt uit dat ons vooruitgangsgeloof, het idee dat eigenbelang en technologie vanzelf tot een betere wereld leiden, ons kwetsbaar maakt in het 'calamiteitperk'. Hij bepleit een terugkeer van moraal en verantwoordelijk burgerschap en bekritiseert de Nederlandse vrijheidsfetisj. Stefan Paas wijst op de religieuze trekken van het vooruitgangsdenken.",
+  "summary_tldr": "Tim Fransen betoogt in zijn boek dat de huidige 'calamiteitentijd' wordt verergerd door het vooruitgangsgeloof en het neoliberale idee dat iedereen zijn eigenbelang kan volgen zonder morele inzet. Stefan Paas bekritiseert zijn oplossingen omdat ze de bron van moraliteit laten liggen en het christendom als morele tradi­tie buiten beeld laten. Het gesprek eindigt in een discussie over rechtvaardigheid, seculiere moraal en de vraag waar burgers hun moraal vandaan halen.",
   "summary_points": [
-    "Het calamiteitperk: welvaart en crises zijn zon- en schaduwzijde van dezelfde ontwikkeling.",
-    "Vooruitgangsgeloof gaat ervan uit dat eigenbelang in een goed systeem vanzelf collectieve vooruitgang oplevert.",
-    "Technologie leidt niet automatisch tot vooruitgang: voorbeelden zijn de cotton gin, het machinegeweer en de industriële revolutie.",
-    "Echte verbeteringen kwamen door politieke organisatie, zoals vakbonden en wetgeving.",
-    "Het neoliberalisme (Hayek) maakt moraal overbodig en maakt 'deugen' tot scheldwoord.",
-    "Vooruitgangsgeloof heeft een religieus karakter, met de onzichtbare hand als vervanging van God.",
-    "Nederlandse vrijheidsfetisj leidt tot maatschappelijke onverschilligheid, zoals het verhaal over de Duitse trein laat zien.",
-    "Fransen pleit voor een morele oproep aan burgers in plaats van alleen een beroep op de portemonnee."
+    "De wereld voelt wankel door een paradox: materiële welvaart en levensverwachting zijn hoog, maar crises als klimaat, kernwapens en AI nemen toe.",
+    "Het vooruitgangsgeloof gaat ervan uit dat de wereld vanzelf beter wordt, maar historische voorbeelden (cotton gin, industriële revolutie) tonen dat vooruitgang niet automatisch is.",
+    "Technologische vooruitgang leidde pas tot welvaart voor de gewone mens dankzij maatschappelijke organisatie en politieke hervormingen.",
+    "Het neoliberalisme, geworteld in Kant, Smith en Mandeville, maakt moraal overbodig door te vertrouwen op eigenbelang en de vrije markt.",
+    "Paas stelt dat het vooruitgangsgeloof een geloofsartikel bevat, zoals de onzichtbare hand als vervanging van God.",
+    "Fransen pleit voor een terugkeer van moralisme, rechtvaardigheid en solidariteit, en ziet burgerberaden als oplossing.",
+    "Paas vraagt waar die moraal vandaan moet komen en wijst erop dat Fransen het christendom en de traditie van Augustinus en Aristoteles buiten beschouwing laat.",
+    "Fransen ziet het christendom als één van de mogelijke bronnen, maar ziet seculiere moraal als haalbaar; Paas twijfelt of moraal zonder religieuze wortels houdbaar is.",
+    "Het gesprek eindigt met de erkenning dat over rechtvaardigheid blijvend van mening wordt verschild en dat de geschiedenis moet uitwijzen of het seculiere experiment werkt."
   ],
   "chapters": [
     {
-      "start_seconds": 59,
-      "title": "Introductie en cabaret versus filosofie",
-      "summary": "David introduceert Tim Fransen en zijn boek. Tim vertelt hoe cabaret en filosofie bij hem samenkomen."
+      "start_seconds": 0,
+      "title": "Introductie en Tim Fransens achtergrond",
+      "summary": "Presentator David Boogerd introduceert het boek van Tim Fransen en de vraag of filosofie en cabaret verschillen. Het gesprek over de verhouding tussen beide opent."
     },
     {
       "start_seconds": 405,
       "title": "Het calamiteitperk",
-      "summary": "Tim legt uit dat technologie, klimaat en globalisering zowel welvaart als kwetsbaarheid brengen."
+      "summary": "Fransen beschrijft de paradox van welvaart en crisis, met technologische risico's, klimaatverandering en verbondenheid als schaduwzijde."
     },
     {
-      "start_seconds": 560,
-      "title": "Technologie is niet vanzelf vooruitgang",
-      "summary": "Voorbeelden als de cotton gin, het machinegeweer en kernwapens laten zien hoe vooruitgang kan omslaan in ellende."
+      "start_seconds": 953,
+      "title": "Het vooruitgangsgeloof en zijn geschiedenis",
+      "summary": "Kant, Smith en de cotton gin illustreren hoe het vooruitgangsgeloof ontstond. Paas bekritiseert de selectieve statistiek die vooruitgang toont."
     },
     {
-      "start_seconds": 831,
-      "title": "Wat is vooruitgangsgeloof?",
-      "summary": "Over eigenbelang, Kant, Adam Smith en de kritiek op Pinker en Boudry, met statistieken en de industriële revolutie."
-    },
-    {
-      "start_seconds": 1380,
+      "start_seconds": 1406,
       "title": "Neoliberalisme en het verdwijnen van moraal",
-      "summary": "Hayeks logica en hoe moraal ondergeschikt is gemaakt aan systemen en markt."
+      "summary": "Fransen legt uit hoe Hayek en het neoliberalisme moraal overbodig maken door eigenbelang te belonen. Paas vraagt wat de onzichtbare hand in feite is: een vervanging van God."
     },
     {
-      "start_seconds": 1785,
-      "title": "Vooruitgangsgeloof als vervanging van religie",
-      "summary": "Discussie over de onzichtbare hand als God-vervanger en de atheïstische vooruitgangsdenkers."
+      "start_seconds": 2153,
+      "title": "Vrijheid, verantwoordelijkheid en burgerschap",
+      "summary": "Een verhaal over de Duitse trein illustreert verschil in collectief gedrag. Het gesprek gaat over de vrijheidsfetisj, de klant als burger en de noodzaak van offerbereidheid."
     },
     {
-      "start_seconds": 2160,
-      "title": "Vrijheidsfetisj en burgerschap",
-      "summary": "Het Duitse treinverhaal en voorbeelden zoals 'douchen met Poetin' illustreren Nederlandse individuele vrijheid versus moreel appel."
+      "start_seconds": 2858,
+      "title": "Bronnen van moraal en het christendom",
+      "summary": "Paas vraagt waar moraal vandaan moet komen en wijst op de afwezigheid van het christendom in Fransens betoog. Fransen antwoordt dat moraal uit verschillende bronnen kan komen."
+    },
+    {
+      "start_seconds": 3732,
+      "title": "Burgerberaden en rechtvaardigheid",
+      "summary": "Fransen pleit voor burgerberaden als oplossing en voor een gezamenlijk gesprek over rechtvaardigheid. Paas en Boogerd wijzen op de moeilijkheid om het eens te worden over wat rechtvaardig is."
+    },
+    {
+      "start_seconds": 4858,
+      "title": "Afsluiting: seculiere moraal als experiment",
+      "summary": "Het gesprek eindigt met de vraag of seculiere moraal het christelijke erfgoed kan vervangen. Paas en Fransen blijven van mening verschillen en de geschiedenis moet dit uitwijzen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 953,
+      "start_seconds": 1545,
       "speaker": "Tim Fransen",
-      "text": "Met de juiste inrichting is vooruitgang zelfs mogelijk met een gemeenschap van duivels.",
-      "note": "Vat Kants logica achter het vooruitgangsdenken samen."
+      "text": "Bij ons is deugmens een scheldwoord.",
+      "note": "Een treffende schets van hoe moraliteit in de hedendaagse cultuur verdacht is gemaakt."
     },
     {
-      "start_seconds": 716,
-      "speaker": "Tim Fransen",
-      "text": "Stanislav Petrov volgde het protocol niet en heeft in feite de wereld gered.",
-      "note": "Illustreert de kwetsbaarheid van het afschrikkingsdenken."
-    },
-    {
-      "start_seconds": 1769,
+      "start_seconds": 1776,
       "speaker": "Stefan Paas",
-      "text": "Wat is dat systeem anders dan God?",
-      "note": "Scherpe observatie over religieuze trekken van vooruitgangsgeloof."
+      "text": "Wat is dat systeem anders dan God? Een soort vervanging van God.",
+      "note": "Paas stelt de onzichtbare hand van de markt gelijk aan een religieuze functie, een scherpe kritiek op het vooruitgangsgeloof."
     },
     {
-      "start_seconds": 2191,
-      "speaker": "Tim Fransen",
-      "text": "In onze samenleving is de nadruk op individuele vrijheid goeddeels omgeslagen in maatschappelijke onverschilligheid.",
-      "note": "Kern van zijn kritiek op de vrijheidsfetisj."
-    },
-    {
-      "start_seconds": 2420,
+      "start_seconds": 2303,
       "speaker": "David Boogerd",
-      "text": "Waarom zeggen we niet: als je langer warm doucht, douche je met Poetin?",
-      "note": "Illustreert het gemis aan moreel appel in overheidscommunicatie."
+      "text": "We zitten niet in hetzelfde schuitje, maar in ons eigen bootje.",
+      "note": "Een treffend beeld van het gebrek aan solidariteit en de individualisering van de samenleving, uit het boek van Fransen."
+    },
+    {
+      "start_seconds": 3846,
+      "speaker": "Tim Fransen",
+      "text": "Wij zijn eigenlijk de afwijking: wij hebben de arrogantie gehad om te denken dat we zonder moraal kunnen.",
+      "note": "Fransen keert het perspectief om: moraliteit is de norm in de menselijke geschiedenis, moderniteit de uitzondering."
     }
   ],
   "keywords": [
     "vooruitgangsgeloof",
     "calamiteitperk",
     "neoliberalisme",
-    "moraal",
-    "vrijheidsfetisj",
-    "Immanuel Kant",
-    "Adam Smith",
-    "Friedrich Hayek",
+    "moraliteit",
+    "eigenbelang",
     "onzichtbare hand",
-    "techno-optimisme",
-    "Steven Pinker",
-    "burgerschap"
+    "rechtvaardigheid",
+    "seculier humanisme",
+    "burgerberaad",
+    "vrijheidsfetisj"
   ],
-  "quotes": [],
+  "quotes": [
+    "Onze wereld is wankel geworden.",
+    "Het levert een mooie discussie op tussen Tim en Stefan.",
+    "Is er in zijn betoog niet sprake van een olifant in de kamer, namelijk: het christendom?"
+  ],
   "similar": [
     {
+      "n": 126,
+      "reason": "Gedeelde thema's economie, moraal en filosofie; gaat over grote verhalen en morele samenleving."
+    },
+    {
       "n": 160,
-      "reason": "Rob Wijnberg over vooruitgangsgeloof en waarheid; Wijnberg wordt ook in #202 besproken"
+      "reason": "Behandelt vooruitgangsgeloof en de waarheid, een kernthema van dit gesprek met Rob Wijnberg."
     },
     {
       "n": 285,
-      "reason": "Ad Verbrugge over de crisis van het Westen en economische filosofie"
+      "reason": "Filosofische crisis van het Westen, economie en politiek, sluit aan bij het failliet van het vooruitgangsgeloof."
     },
     {
-      "n": 291,
-      "reason": "Filosoof pleit voor strenger liberalisme: vrijheid is niet vrijblijvend, net als Fransens moraal"
+      "n": 247,
+      "reason": "Bespreekt Jonathan Haidt, die ook in deze aflevering wordt genoemd, en technologie en moraal."
     },
     {
-      "n": 292,
-      "reason": "Denkbeelden achter Big Tech, technologie en filosofie met Stefan Paas"
-    },
-    {
-      "n": 268,
-      "reason": "Economie, Europese waarden en kritiek op marktdenken met Stefan Paas"
+      "n": 21,
+      "reason": "Gaat over liberalisme, morele leegte en de seculiere vraag hoe mens te zijn zonder kader."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

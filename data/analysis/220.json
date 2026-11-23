@@ -1,18 +1,23 @@
 {
   "episode": 220,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110535,
+    "segments": 1189,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31370,
-    "output_tokens": 2400,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56920,
+    "output_tokens": 7502,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Islam & jodendom",
     "Geopolitiek & oorlog",
-    "Samenleving & migratie",
-    "Politiek"
+    "Politiek",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Natascha van Weezel"
@@ -20,253 +25,304 @@
   "people": [
     {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, reageerde snel op de rellen",
+      "note": "Israëlische premier, reageerde snel op de rellen en kondigde evacuatie van supporters aan",
       "start_seconds": 383,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
-    },
-    {
-      "name": "Bezalel Smotrich",
-      "note": "extreem-rechtse Israëlische minister",
-      "start_seconds": 618,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
-    },
-    {
-      "name": "Itamar Ben-Gvir",
-      "note": "extreem-rechtse Israëlische minister",
-      "start_seconds": 618,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
-    },
-    {
-      "name": "Bart Valet",
-      "note": "co-presentator van de podcast Valet en Van Weezel",
-      "start_seconds": 665,
-      "wiki_checked": true
-    },
-    {
-      "name": "Femke Halsema",
-      "note": "burgemeester van Amsterdam",
-      "start_seconds": 1128,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
+      "mention_count": 7
     },
     {
       "name": "Geert Wilders",
-      "note": "uiterst-rechtse politicus, noemt het een Marokkanenprobleem",
+      "note": "PVV-leider, reageerde op de rellen met uitspraken over integratie en Marokkanen",
       "start_seconds": 1246,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "mention_count": 10
     },
     {
-      "name": "Max van Weezel",
-      "note": "vader van Natascha, politiek journalist, tweede generatie Holocaust",
-      "start_seconds": 1440,
-      "wiki_checked": true,
-      "wiki_pageid": 1896197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_van_Weezel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Max_van_Weezel_en_Anet_Bleich%2C_opdracht_Volkrant_-_Nationaal_Archief_-_930-0745.jpg/250px-Max_van_Weezel_en_Anet_Bleich%2C_opdracht_Volkrant_-_Nationaal_Archief_-_930-0745.jpg"
+      "name": "Femke Halsema",
+      "note": "Burgemeester van Amsterdam, die volgens Van Weezel een verbinder is en onder druk stond",
+      "start_seconds": 1128,
+      "mention_count": 6
     },
     {
-      "name": "Maxje",
-      "note": "zoontje van Natascha, vernoemd naar haar vader",
-      "start_seconds": 1288,
-      "wiki_checked": true
+      "name": "Dick Schoof",
+      "note": "Premier, eerste reactie werd later gecorrigeerd",
+      "start_seconds": 2438,
+      "mention_count": 3
+    },
+    {
+      "name": "Dilan Yeşilgöz",
+      "note": "VVD-politicus, genoemd als een van de politici die reageerden",
+      "start_seconds": 2438,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan van Baarle",
+      "note": "DENK-politicus, reageerde op de rellen",
+      "start_seconds": 2816,
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider, context van de Holocaust en de Kristallnacht",
+      "start_seconds": 718,
+      "mention_count": 5
+    },
+    {
+      "name": "Max van Wezel",
+      "note": "Vader van Natascha van Weezel, politiek journalist, tweede generatie Holocaust",
+      "start_seconds": 1431,
+      "mention_count": 8
+    },
+    {
+      "name": "Bart Valet",
+      "note": "Co-presentator van de podcast Valet en Van Wezel",
+      "start_seconds": 665,
+      "mention_count": 2
+    },
+    {
+      "name": "Itamar Ben-Gvir",
+      "note": "Israëlische minister, genoemd als lid van de extreemrechtse regering",
+      "start_seconds": 608,
+      "mention_count": 1
+    },
+    {
+      "name": "Bezalel Smotrich",
+      "note": "Israëlische minister, genoemd als lid van de extreemrechtse regering",
+      "start_seconds": 608,
+      "mention_count": 1
     },
     {
       "name": "Lenny Kuhr",
-      "note": "zangeres wier concert werd verstoord",
-      "start_seconds": 877,
-      "wiki_checked": true,
-      "wiki_pageid": 114555,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lenny_Kuhr",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Lenny_Kuhr_op_Het_Grote_Songfestivalfeest_2019.jpg/250px-Lenny_Kuhr_op_Het_Grote_Songfestivalfeest_2019.jpg"
-    },
-    {
-      "name": "Alex",
-      "note": "overgrootvader van Natascha, socialist die moest onderduiken",
-      "start_seconds": 1736,
-      "wiki_checked": true
-    },
-    {
-      "name": "Yitzhak Rabin",
-      "note": "Israëlische premier ten tijde van het Oslo-akkoord",
-      "start_seconds": 2083,
-      "wiki_checked": true,
-      "wiki_pageid": 53608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Rabin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg/250px-Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg"
+      "note": "Zangeres wier concert werd verstoord en die als terrorist werd bestempeld",
+      "start_seconds": 873,
+      "mention_count": 1
     },
     {
       "name": "Yasser Arafat",
-      "note": "Palestijns leider ten tijde van het Oslo-akkoord",
+      "note": "Palestijns leider, betrokken bij de Oslo-akkoorden",
       "start_seconds": 2083,
-      "wiki_checked": true,
-      "wiki_pageid": 1955,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yasser_Arafat",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Arafat_by_Yaakov_Saar.jpg/250px-Arafat_by_Yaakov_Saar.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "note": "Israëlische premier, betrokken bij de Oslo-akkoorden, vermoord door een extremist",
+      "start_seconds": 2083,
+      "mention_count": 4
+    },
+    {
+      "name": "Mahmoud Abbas",
+      "note": "Palestijns president, genoemd als mogelijke onderhandelaar",
+      "start_seconds": 4313,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president, genoemd als politieke leider met harde krachten",
+      "start_seconds": 3368,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider, geciteerd over onrecht en licht versus duisternis",
+      "start_seconds": 3676,
+      "mention_count": 3
+    },
+    {
+      "name": "Job Cohen",
+      "note": "Oud-burgemeester van Amsterdam, symbool van het thee drinken",
+      "start_seconds": 2881,
+      "mention_count": 1
+    },
+    {
+      "name": "Kif Alush",
+      "note": "Gast in een eerdere aflevering van de podcast, van Palestijnse komaf",
+      "start_seconds": 4235,
+      "mention_count": 1
+    },
+    {
+      "name": "Sinan Can",
+      "note": "Co-maker van de documentaire Brug over de breuklijn",
+      "start_seconds": 3919,
+      "mention_count": 1
+    },
+    {
+      "name": "Miles Ynon",
+      "note": "Ondernemer en dialoogtrainer wiens ouders op 7 oktober zijn vermoord",
+      "start_seconds": 3929,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Bijbelse profeet met visioen van het vrederijk",
+      "start_seconds": 3468,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Hoe houd je je hart zacht?",
       "author": "Natascha van Weezel",
-      "note": "over antisemitisme, familietrauma en het radicale midden",
-      "start_seconds": 1278,
+      "note": "Boek over antisemitisme, het radicale midden en dialoog",
+      "start_seconds": 1274,
       "volume_id": "aOohEQAAQBAJ",
-      "canonical_title": "Hoe houd je je hart zacht? Een pleidooi voor het radicale midden in tijden van oorlog",
+      "canonical_title": "Hoe houd je je hart zacht?",
       "canonical_author": "Natascha van Weezel",
       "isbn13": "9789045051208",
       "isbn10": "9045051206",
       "thumbnail": "http://books.google.com/books/content?id=aOohEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jesaja",
+      "note": "Genoemd als profeet met visioen van het vrederijk",
+      "start_seconds": 3468
+    }
+  ],
   "places": [
     "Amsterdam",
+    "Gouda",
+    "Den Haag",
     "Israël",
     "Gaza",
     "Westbank",
-    "Gouda",
-    "Den Haag",
+    "Nablus",
+    "Ramallah",
+    "Jericho",
+    "Jeruzalem",
+    "Tel Aviv",
+    "Nazareth",
+    "Kibboets Beeri",
     "Libanon",
-    "Turkije"
+    "Boedapest",
+    "Warschau"
   ],
-  "summary_tldr": "Een week na het antisemitisch geweld rond Ajax - Maccabi Tel Aviv spreken David Boogerd, Stefan Paas en Natascha van Weezel over de gebeurtenissen, het Joodse familietrauma en de angst die daaruit voortkomt. Natascha pleit voor het radicale midden en pro-vrede zijn, en tegen het bagatelliseren van antisemitisme.",
+  "summary_tldr": "Natascha van Weezel bespreekt de antisemitische rellen in Amsterdam rond de wedstrijd Ajax - Maccabi Tel Aviv en de bijbehorende maatschappelijke polarisatie. Vanuit haar familiegeschiedenis en persoonlijke ervaringen pleit zij voor het radicale midden, dialoog en ontmoeting, zonder afbreuk te doen aan harde maatregelen tegen onrecht. Samen met Stefan Paas reflecteert zij op de rol van politici en de vraag of de zachte krachten aan het verliezen zijn.",
   "summary_points": [
-    "Natascha beleefde de nacht van het geweld dichtbij en kreeg bezorgde telefoontjes van haar familie uit Israël.",
-    "Het geweld begon al de avond ervoor en was een mix van antisemitisme, hooliganisme en woede over de oorlog; ook Maccabi-supporters misdroegen zich.",
-    "De vergelijking met Kristallnacht 2.0 vindt ze overdreven en bagatelliseert het echte pogrom van 1938.",
-    "Sinds 7 oktober neemt antisemitisme toe, met online haat en bedreigingen, ook richting haar zoontje.",
-    "Haar vader en grootouders leefden met existentiële angst en overaanpassing als tweede generatie na de Holocaust.",
-    "Israël als verzekeringspolis voelt niet meer vanzelfsprekend; ze is kritisch op de regering Netanyahu.",
-    "Ze is pro-Israël en pro-Palestina, en bekeek bewust de beelden van beide kanten.",
-    "Veel mensen zoeken excuses voor antisemitisme of kunnen niet geloven dat echt kwaad bestaat."
+    "De rellen in Amsterdam begonnen al de avond voor de wedstrijd en culmineerden in jacht op Israëlische en Joodse mannen.",
+    "Van Weezel stelt dat antisemitisme niet alleen van radicaal rechts komt, maar ook van progressieve en linkse hoek.",
+    "Het Joodse trauma, geërfd via familieverhalen van de Holocaust, verklaart de existentiële angst en waakzaamheid.",
+    "Politieke reacties en het zoeken naar politiek gewin worden bekritiseerd, vooral het pleidooi voor de-escalatie.",
+    "Stefan Paas spreekt van een polarisatie-tango waarin flanken elkaar versterken.",
+    "Van Weezel pleit voor het radicale midden: een stille meerderheid die verbinding zoekt zonder kant te kiezen.",
+    "Dialoog wordt niet als slap gezien maar als hard werk, school voor school en zaal voor zaal.",
+    "Van Weezel verloor veel dialoogpartners door de oorlog, wat haar eenzaam maakt.",
+    "Hoop en het blijven dromen van vrede, met het voorbeeld van Oslo, vormen het slot."
   ],
   "chapters": [
     {
-      "start_seconds": 33,
-      "title": "Inleiding en rust vinden",
-      "summary": "David introduceert Natascha en vraagt hoe ze haar hoofd koel houdt; zij en Stefan praten over hun (klein)kinderen."
+      "start_seconds": 0,
+      "title": "Inleiding en welkom",
+      "summary": "David Boogerd introduceert Natascha van Weezel en Stefan Paas, en het gesprek over het radicale midden."
     },
     {
-      "start_seconds": 257,
-      "title": "Een nacht vol sirenes",
-      "summary": "Natascha vertelt hoe ze de avond en nacht van het geweld beleefde en hoe de Israëlische reactie verliep."
+      "start_seconds": 277,
+      "title": "Persoonlijke impact van de rellen",
+      "summary": "Van Weezel vertelt hoe ze de nacht van het geweld beleefde en hoe familie in Israël haar belde."
     },
     {
-      "start_seconds": 534,
-      "title": "Trauma en de Israëlische regering",
-      "summary": "Gesprek over Israël als land gebouwd op trauma, de regering Netanyahu en de Kristallnacht-vergelijking."
+      "start_seconds": 1041,
+      "title": "Feiten en oorzaken van het geweld",
+      "summary": "De gebeurtenissen van de dagen rond de wedstrijd worden gereconstrueerd, inclusief de taxichauffeur-kwestie en de jacht op Israëliërs."
     },
     {
-      "start_seconds": 1020,
-      "title": "Toenemend antisemitisme en bagatellisering",
-      "summary": "Natascha beschrijft de angst in de Joodse gemeenschap en hoe incidenten worden weggewuifd; David zet de feiten van de avond op een rij."
+      "start_seconds": 1465,
+      "title": "Familiegeschiedenis en existentiële angst",
+      "summary": "Van Weezel beschrijft het Joodse trauma en de angst binnen haar familie, met name haar vader en oma."
     },
     {
-      "start_seconds": 1278,
-      "title": "Bedreigingen en familietrauma",
-      "summary": "Over de bedreiging aan haar zoontje en de angst van haar vader en grootouders als tweede generatie."
+      "start_seconds": 2391,
+      "title": "Politieke reacties en polarisatie",
+      "summary": "Reacties van Halsema, Wilders en anderen worden besproken, met de kritiek op de politiek van snelle verharding."
     },
     {
-      "start_seconds": 1940,
-      "title": "Verzekeringspolis Israël",
-      "summary": "Wat Israël voor haar familie betekende en waarom die band is veranderd."
+      "start_seconds": 2877,
+      "title": "Het radicale midden en de dialoog",
+      "summary": "Van Weezel legt uit wat het radicale midden inhoudt en hoe ontmoeting helpt tegen vervreemding."
     },
     {
-      "start_seconds": 2175,
-      "title": "Beelden van 7 oktober",
-      "summary": "Waarom Natascha bewust de gruwelijke beelden van 7 oktober en Gaza bekeek en pro-vrede kiest."
+      "start_seconds": 3436,
+      "title": "Hoop, verzoening en recht",
+      "summary": "Het gesprek gaat over de vraag of verzoening de wereld kan veranderen en hoe recht en dialoog samengaan."
+    },
+    {
+      "start_seconds": 4246,
+      "title": "Dromen van vrede",
+      "summary": "Van Weezel en Boogerd bespreken Oslo, het uitblijven van vrede en waarom hoop noodzakelijk blijft."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1337,
-      "speaker": "Natascha van Weezel",
-      "text": "Je wilt toch niet dat er iets gebeurt met dat schattige zionistische zoontje van je.",
-      "note": "Aangrijpende bedreiging; ze besluit niet te zwijgen."
-    },
-    {
-      "start_seconds": 922,
-      "speaker": "Natascha van Weezel",
-      "text": "Wat moet er dan gebeuren voordat het duidelijk is dat antisemitisme wel een probleem is?",
-      "note": "Scherpe vraag over bagatellisering."
-    },
-    {
-      "start_seconds": 1627,
-      "speaker": "Natascha van Weezel",
-      "text": "Vandaag schijnt de zon, maar morgen kan het weer gaan regenen.",
-      "note": "Zegswijze van haar oma die de existentiële angst typeert."
-    },
-    {
-      "start_seconds": 2259,
-      "speaker": "Natascha van Weezel",
-      "text": "Ik zeg altijd, ik ben zelf pro-Israël en pro-Palestina.",
-      "note": "Kern van haar radicale midden."
-    },
-    {
-      "start_seconds": 1766,
+      "start_seconds": 2415,
       "speaker": "Stefan Paas",
-      "text": "Mensen kunnen niet geloven dat er echt kwaad in de wereld bestaat.",
-      "note": "Verklaring voor het zoeken van excuses voor antisemitisme."
+      "text": "Het was onversneden antisemitisme, onversneden antisemitisch geweld.",
+      "note": "Een scherpe, ondubbelzinnige duiding van de gebeurtenissen, tegenover de voorzichtiger politieke reacties."
+    },
+    {
+      "start_seconds": 2730,
+      "speaker": "Stefan Paas",
+      "text": "Polarisatie tango.",
+      "note": "Een treffende metafoor voor hoe extreme flanken elkaar nodig hebben en versterken."
+    },
+    {
+      "start_seconds": 3242,
+      "speaker": "Natascha van Weezel",
+      "text": "Ik heb voor klassen gestaan waar leerlingen enorme vooroordelen hadden tegenover Joden, maar nog nooit een Jood hadden gezien.",
+      "note": "Laat zien waarom ontmoeting het verschil maakt tegen vervreemding."
+    },
+    {
+      "start_seconds": 3528,
+      "start_seconds_note": "",
+      "speaker": "Natascha van Weezel",
+      "text": "Wat moeten we zonder hoop? Dan word je toch depressief?",
+      "note": "Een persoonlijk pleidooi tegen cynisme, midden in een verharde tijd."
+    },
+    {
+      "start_seconds": 4047,
+      "speaker": "Natascha van Weezel",
+      "text": "Wat is jouw grootste angst en wat is jouw grootste droom?",
+      "note": "Haar vaste vragen die empathie en menselijkheid oproepen, als tegenwicht tegen haat."
     }
   ],
   "keywords": [
     "antisemitisme",
-    "Ajax - Maccabi",
-    "Jodenjacht",
-    "radicale midden",
     "polarisatie",
-    "Holocaust",
-    "trauma",
-    "7 oktober",
-    "Israël",
+    "radicaal midden",
+    "dialoog",
+    "Holocaust-trauma",
     "Kristallnacht",
-    "Netanyahu",
-    "Hoe houd je je hart zacht?"
+    "Israël",
+    "Palestina",
+    "integratie",
+    "verzoening",
+    "Oslo-akkoorden",
+    "Amsterdam"
   ],
-  "quotes": [],
+  "quotes": [
+    "Een week waarin polarisatie en onbegrip alleen maar lijken toe te nemen, met harde woorden ook van onze belangrijke politici.",
+    "Ze kiest voor het radicale midden en dat doet ze met overtuiging.",
+    "Is de tijd van dialoog en theedrinken niet gewoon voorbij?"
+  ],
   "similar": [
     {
-      "n": 214,
-      "reason": "Een jaar na 7 oktober: Israël, jodendom, antisemitisme en polarisatie in Nederland"
-    },
-    {
-      "n": 215,
-      "reason": "Israël-Palestina-conflict en onrecht; tegenpool in het debat, zelfde thema's"
-    },
-    {
       "n": 182,
-      "reason": "Antisemitisme in Nederland en polarisatie rond Israël-Gaza"
+      "reason": "Gaat over antisemitisme en de houding van jongeren, met overlap in thema Islam & jodendom."
     },
     {
       "n": 166,
-      "reason": "Waarom de oorlog tussen Israël en Hamas Nederland polariseert"
+      "reason": "Behandelt hoe de Israël-Hamas-oorlog in Nederland polariseert, net als in #220."
     },
     {
-      "n": 310,
-      "reason": "Persoonlijk verhaal over Israël, Libanon en islamkritiek in oorlogstijd"
+      "n": 214,
+      "reason": "Duiding van de Israël-Hamas-oorlog met Islam & jodendom en geopolitiek als kernthema's."
+    },
+    {
+      "n": 215,
+      "reason": "Gaat over het conflict met de Palestijnen, gedeelde gast-achtige thematiek en Kefah Allush."
+    },
+    {
+      "n": 168,
+      "reason": "Joris Luyendijk over Israël-Hamas en de politieke verhoudingen in Nederland."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

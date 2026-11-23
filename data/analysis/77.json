@@ -1,18 +1,23 @@
 {
   "episode": 77,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110422,
+    "segments": 1260,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31919,
-    "output_tokens": 2847,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58381,
+    "output_tokens": 11085,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Bijbel & Jezus",
-    "Islam & jodendom",
+    "God & geloof",
     "Geschiedenis",
-    "Kerk & secularisatie"
+    "Islam & jodendom",
+    "Politiek"
   ],
   "guests": [
     "Bert Jan Lietaert Peerbolte"
@@ -20,119 +25,179 @@
   "people": [
     {
       "name": "Socrates",
-      "note": "Griekse filosoof die de gifbeker dronk; prototype van de martelaar",
-      "start_seconds": 638,
-      "wiki_checked": true
-    },
-    {
-      "name": "Peter R. de Vries",
-      "note": "misdaadjournalist, vermoord; wordt martelaar genoemd",
-      "start_seconds": 293,
-      "wiki_checked": true
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "politicus, vermoord; neergezet als Messias-figuur en martelaar",
-      "start_seconds": 304,
-      "wiki_checked": true
-    },
-    {
-      "name": "Henk Bakker",
-      "note": "VU-collega en mederedacteur van het boek Dan liever dood",
-      "start_seconds": 197,
-      "wiki_checked": true
+      "note": "Griekse filosoof die in 399 v.Chr. ter dood werd veroordeeld; rolmodel van het martelaarschap in de oudheid",
+      "start_seconds": 637,
+      "mention_count": 12
     },
     {
       "name": "Plato",
-      "note": "leerling van Socrates; beschreef zijn proces en dood",
+      "note": "Griekse filosoof die het verhaal van Socrates overlevert via zijn dialogen",
       "start_seconds": 664,
-      "wiki_checked": true
-    },
-    {
-      "name": "Antiochus IV Epiphanes",
-      "note": "Syrische koning die de Joodse cultus verbood",
-      "start_seconds": 875,
-      "wiki_checked": true
-    },
-    {
-      "name": "Eleazar",
-      "note": "90-jarige Joodse martelaar die weigerde varkensvlees te eten",
-      "start_seconds": 875,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Jezus",
-      "note": "zijn dood werd uitgelegd naar het model van de martelaar",
-      "start_seconds": 1093,
-      "wiki_checked": true
+      "note": "Centrale figuur in het christendom wiens dood als model voor martelaarschap geldt",
+      "start_seconds": 755,
+      "mention_count": 10
     },
     {
-      "name": "Stephanus",
-      "note": "eerste christelijke martelaar in de Bijbel",
-      "start_seconds": 1152,
-      "wiki_checked": true
+      "name": "Stefanus",
+      "note": "Eerste christelijke martelaar die in de Handelingen wordt genoemd",
+      "start_seconds": 1132,
+      "mention_count": 2
     },
     {
-      "name": "Ignatius van Antiochië",
-      "note": "vroegchristelijke bisschop die uitkeek naar zijn martelaarschap",
-      "start_seconds": 1152,
-      "wiki_checked": true
+      "name": "Antiochus IV Epifanes",
+      "note": "Seleucidische koning die in Jeruzalem de Joodse cultus verbood",
+      "start_seconds": 880,
+      "mention_count": 8
     },
     {
-      "name": "Plinius de Jongere",
-      "note": "stadhouder van Bithynië, correspondeerde met Trajanus over christenen",
+      "name": "Eleazar",
+      "note": "90-jarige Jood die weigert varkensvlees te eten en gemarteld wordt",
+      "start_seconds": 859,
+      "mention_count": 3
+    },
+    {
+      "name": "Plinius",
+      "note": "Romeinse stadhouder van Bithynië die christenen executeert en aan keizer Traianus rapporteert",
       "start_seconds": 1362,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
-      "name": "Trajanus",
-      "note": "Romeins keizer",
+      "name": "Traianus",
+      "note": "Romeinse keizer aan wie Plinius schrijft over de christenen",
       "start_seconds": 1362,
-      "wiki_checked": true
-    },
-    {
-      "name": "Polycarpus",
-      "note": "martelaar uit de 2e eeuw met legendarisch martelaarsverslag",
-      "start_seconds": 1470,
-      "wiki_checked": true
-    },
-    {
-      "name": "Perpetua en Felicitas",
-      "note": "christelijke martelaressen",
-      "start_seconds": 1490,
-      "wiki_checked": true
-    },
-    {
-      "name": "Origenes",
-      "note": "kerkvader die overleed aan de gevolgen van martelingen",
-      "start_seconds": 1845,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Constantijn",
-      "note": "eerste christelijke keizer, edict van Milaan",
-      "start_seconds": 1467,
-      "wiki_checked": true
+      "note": "Romeinse keizer die het christendom toestond (Edict van Milaan 313) en het concilie van Nicea bijeenriep",
+      "start_seconds": 1461,
+      "mention_count": 3
     },
     {
-      "name": "Theodosius",
-      "note": "maakte het christendom staatsgodsdienst",
-      "start_seconds": 1691,
-      "wiki_checked": true
+      "name": "Origenes",
+      "note": "Grootste geleerde van de vroege kerk, overleden aan gevolgen van martelingen",
+      "start_seconds": 1845,
+      "mention_count": 2
+    },
+    {
+      "name": "Ignatius van Antiochië",
+      "note": "Kerkvader die in de jaren 110 schreef dat hij naar de leeuwen in Rome verlangde",
+      "start_seconds": 1867,
+      "mention_count": 3
+    },
+    {
+      "name": "Tacitus",
+      "note": "Romeinse historicus die schreef dat christenen na de brand van Nero de schuld kregen",
+      "start_seconds": 1796,
+      "mention_count": 1
+    },
+    {
+      "name": "Decius",
+      "note": "Romeinse keizer wiens vervolging in 250-251 veel christelijke slachtoffers eiste",
+      "start_seconds": 1400,
+      "mention_count": 2
+    },
+    {
+      "name": "Diocletianus",
+      "note": "Romeinse keizer die in 307 een hevige christenvervolging begon",
+      "start_seconds": 1420,
+      "mention_count": 2
+    },
+    {
+      "name": "Peter R. de Vries",
+      "note": "Nederlandse misdaadjournalist die na zijn moord als martelaar werd genoemd",
+      "start_seconds": 293,
+      "mention_count": 8
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Nederlandse politicus die werd vermoord en door media als messiasfiguur werd neergezet",
+      "start_seconds": 304,
+      "mention_count": 6
+    },
+    {
+      "name": "Theo van Gogh",
+      "note": "Filmmaker die werd vermoord; genoemd in discussie over martelaarschap",
+      "start_seconds": 2903,
+      "mention_count": 3
     },
     {
       "name": "Jason Walters",
-      "note": "voormalig Hofstadgroeplid die wilde sterven als martelaar",
-      "start_seconds": 2063,
-      "wiki_checked": true
+      "note": "Voormalig lid van de Hofstadgroep die vertelde over zijn wens martelaar te worden",
+      "start_seconds": 2043,
+      "mention_count": 5
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "note": "Indiase politicus en geweldloos verzetsstrijder die door een hindoe-extremist werd doodgeschoten",
+      "start_seconds": 2511,
+      "mention_count": 5
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaanse dominee en burgerrechtenactivist, vergeleken met Gandhi",
+      "start_seconds": 2608,
+      "mention_count": 2
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaanse vrijheidsstrijder, vergeleken met Gandhi",
+      "start_seconds": 2582,
+      "mention_count": 2
+    },
+    {
+      "name": "Lenin",
+      "note": "Russische communistische leider, genoemd als voorbeeld van seculiere heilige teksten",
+      "start_seconds": 3032,
+      "mention_count": 1
+    },
+    {
+      "name": "Mao Zedong",
+      "note": "Chinese communistische leider wiens mausoleum als religieus fenomeen wordt gezien",
+      "start_seconds": 3038,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Koppens",
+      "note": "Auteur van het hoofdstuk over de islam in het boek Dan liever dood",
+      "start_seconds": 2382,
+      "mention_count": 2
+    },
+    {
+      "name": "Victor van Bijlert",
+      "note": "Auteur van het hoofdstuk over het hindoeïsme in Dan liever dood",
+      "start_seconds": 2531,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk Blezer",
+      "note": "Auteur van het hoofdstuk over het boeddhisme in Dan liever dood",
+      "start_seconds": 2711,
+      "mention_count": 2
+    },
+    {
+      "name": "Lucien van Lieren",
+      "note": "Auteur van het hoofdstuk over seculier martelaarschap in Dan liever dood",
+      "start_seconds": 2882,
+      "mention_count": 2
+    },
+    {
+      "name": "Henk Bakker",
+      "note": "Collega van Lietaert Peerbolte en medesamensteller van Dan liever dood",
+      "start_seconds": 155,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Dan liever dood",
-      "author": "Bert Jan Lietaert Peerbolte en Henk Bakker (red.)",
-      "note": "over martelaren en hun religieuze drijfveren",
-      "start_seconds": 153,
+      "author": "Bert Jan Lietaert Peerbolte en Henk Bakker",
+      "note": "Boek over martelaren en hun religieuze drijfveren, het onderwerp van deze aflevering",
+      "start_seconds": 0,
       "volume_id": "KgKvEAAAQBAJ",
       "canonical_title": "Dan liever dood! Over martelaren en hun religieuze drijfveren",
       "canonical_author": "Henk Bakker, Bert Jan Lietaert Peerbolte",
@@ -143,147 +208,195 @@
     {
       "title": "Acts of the Christian Martyrs",
       "author": "Herbert Musurillo",
-      "note": "standaarduitgave van martelaarsakten uit de 2e en 3e eeuw",
-      "start_seconds": 1444,
+      "note": "Standaarduitgave met 28 martelaarsakten uit de 2e en 3e eeuw",
+      "start_seconds": 1445,
       "volume_id": "N87NzAEACAAJ",
       "canonical_title": "The Acts of the Christian Martyrs",
       "canonical_author": "Herbert Musurillo",
       "isbn13": "9780198843351",
       "isbn10": "0198843356",
       "thumbnail": "http://books.google.com/books/content?id=N87NzAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Phaedon",
+      "author": "Plato",
+      "note": "Dialoog over de dood en het sterfbed van Socrates",
+      "start_seconds": 664,
+      "volume_id": "j9Tl0AEACAAJ",
+      "canonical_title": "Platons Phaedon",
+      "canonical_author": "Plato",
+      "isbn13": "9783386975995",
+      "isbn10": "3386975992",
+      "thumbnail": ""
+    },
+    {
+      "title": "Criton",
+      "author": "Plato",
+      "note": "Dialoog waarin Socrates weigert te ontsnappen uit de gevangenis",
+      "start_seconds": 664,
+      "volume_id": "NpaAAAAACAAJ",
+      "canonical_title": "Criton",
+      "canonical_author": "Plato",
+      "isbn13": "9788425901720",
+      "isbn10": "8425901723",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
       "ref": "2 Makkabeeën 7",
-      "note": "verhaal van de moeder en haar zeven zonen die onder Antiochus IV sterven",
+      "note": "Verhaal van Eleazar en de moeder met zeven zonen die de marteldood sterven weigerend varkensvlees te eten",
       "start_seconds": 847
     }
   ],
   "places": [
-    "Amsterdam",
     "Athene",
     "Jeruzalem",
     "Rome",
-    "Bithynië",
+    "Judea",
+    "Galilea",
+    "Bitinië",
     "Nicea",
-    "Antiochië"
+    "Coomba",
+    "Cameroen",
+    "Myanmar",
+    "Ethiopië",
+    "Nigeria",
+    "Bosnië",
+    "Afghanistan",
+    "Irak"
   ],
-  "summary_tldr": "David Boogerd spreekt met Bert Jan Lietaert Peerbolte en Stefan Paas over martelaarschap, aanleiding is het boek 'Dan liever dood'. Het concept loopt van Socrates via de Makkabeeën naar Jezus en de vroege christenen, en is dus geen islamitische uitvinding. Ook komen seculiere martelaren, slachtofferschap en terrorisme aan bod.",
+  "summary_tldr": "Bert Jan Lietaert Peerbolte bespreekt met David Boogerd en Stefan Paas het boek Dan liever dood over martelaren. Hij laat zien dat het martelaarschap oorspronkelijk Grieks-Joodse en vervolgens christelijke wortels heeft, en dat religieus taalgebruik ook in seculiere en politieke bewegingen opduikt. Het gesprek eindigt met de vraag of moderne westerlingen bereid zouden zijn te sterven voor hun overtuiging.",
   "summary_points": [
-    "Het boek Dan liever dood komt voort uit een interreligieuze onderzoeksgroep aan de VU.",
-    "Nederland is religieus ongeletterd, wat het begrip van fenomenen als terrorisme bemoeilijkt.",
-    "Ook seculiere figuren als Peter R. de Vries en Pim Fortuyn worden martelaar genoemd.",
-    "Het woord martelaar komt van het Griekse martus, getuige.",
-    "De lijn loopt van Socrates via de Makkabeeën naar Jezus; het christendom eigende het concept zich toe.",
-    "Martelaarsakten uit de 2e en 3e eeuw verheerlijken martelaren, soms met legendarische elementen.",
-    "Het vroege christendom draagt mogelijk een collectief trauma van vervolging met zich mee.",
-    "Sterven voor je geloof is iets anders dan doden voor je geloof; terrorisme kaapt religieus discours voor politieke doelen."
+    "Nederland is volgens Lietaert Peerbolte religieus ongeletterd, wat gevaarlijk kan zijn omdat motieven van terroristen zo worden weggezet als irrationeel.",
+    "Het martelaarschap heeft wortels bij Socrates, via de Makkabeeënopstand (2 Makkabeeën 7) naar het vroege christendom.",
+    "In de vroege kerk werden martelaren verheerlijkt in martelaarsakten; het christendom moest zichzelf na de vierde eeuw opnieuw uitvinden.",
+    "Het begrip martelaar werd door christenen 'toegeëigend'; het jodendom kent er geen eigen woord voor.",
+    "Moderne voorbeelden van martelaarschap lopen van zelfmoordterrorisme (Jason Walters) tot zelfverbranding van Tibetaanse monniken.",
+    "Religieus discours wordt ook gebruikt door seculiere figuren en bewegingen, zoals Pim Fortuyn en Peter R. de Vries, en door politieke bewegingen.",
+    "Slachtofferschap kan worden gebruikt om gelijk te claimen en tegenstanders te demoniseren, wat zelfkritiek belemmert.",
+    "Stefan Paas wijst erop dat de dagelijkse realiteit van vervolgde christenen wereldwijd niet vergelijkbaar is met de westerse discussie over coronamaatregelen.",
+    "Het gesprek eindigt met de vraag hoe bereid westerlingen zijn om voor iets groters te sterven, met als voorbeeld de Slag om de Schelde."
   ],
   "chapters": [
     {
-      "start_seconds": 30,
-      "title": "Introductie en aanleiding van het boek",
-      "summary": "David introduceert het onderwerp en de gast; Bert Jan vertelt over de interreligieuze onderzoeksgroep."
+      "start_seconds": 0,
+      "title": "Introductie en aanleiding",
+      "summary": "David Boogerd stelt de gast voor en de vraag of men bereid is te sterven voor het geloof. Lietaert Peerbolte legt uit waarom het boek is geschreven."
     },
     {
-      "start_seconds": 245,
-      "title": "Religieuze ongeletterdheid en slachtofferschap",
-      "summary": "Over blinde vlekken rond religie in Nederland en de link met slachtoffercultuur en martelaarschap."
+      "start_seconds": 637,
+      "title": "Socrates als eerste rolmodel",
+      "summary": "Het verhaal van Socrates' dood en zijn rol als ideaalbeeld van de martelaar in de oudheid komt aan bod."
     },
     {
-      "start_seconds": 525,
-      "title": "Wat is een martelaar? Peter R. de Vries en Socrates",
-      "summary": "Betekenis van het woord martelaar en het voorbeeld van Socrates."
+      "start_seconds": 847,
+      "title": "De Makkabeeën en de zeven zonen",
+      "summary": "Het bijbelverhaal over de moeder met zeven zonen en de tiran Antiochus wordt uitgebreid besproken als ontstaansmoment van het martelaarsmodel."
     },
     {
-      "start_seconds": 830,
-      "title": "De Makkabeeën en de wortels van het concept",
-      "summary": "Het verhaal van Eleazar en de moeder met zeven zonen en de lijn naar Jezus."
+      "start_seconds": 1320,
+      "title": "Vroege christenen en martelaarsakten",
+      "summary": "De vervolging van christenen door Romeinse autoriteiten en de verheerlijking van martelaren in de martelaarsakten komen aan bod."
     },
     {
-      "start_seconds": 1340,
-      "title": "Vroege christenen, vervolging en martelaarsakten",
-      "summary": "Plinius en Trajanus, de martelaarsakten en de rol van vervolging."
+      "start_seconds": 1680,
+      "title": "Trauma en het christendom in de vierde eeuw",
+      "summary": "Stefan Paas vraagt naar een mogelijk cultureel trauma in het christendom na de vervolgingen, en de historische nuance daarbij."
     },
     {
-      "start_seconds": 1600,
-      "title": "Trauma en heruitvinding van het christendom",
-      "summary": "Het christendom na Constantijn en het getraumatiseerde erfgoed van vervolging."
+      "start_seconds": 2040,
+      "title": "Moderne martelaren en islamitisch terrorisme",
+      "summary": "Het verhaal van Jason Walters en de theologische legitimatie van zelfmoordterrorisme wordt besproken, evenals de islamitische traditie van geweldloos martelaarschap."
     },
     {
-      "start_seconds": 1900,
-      "title": "Martelaarschap en terrorisme",
-      "summary": "Het verschil tussen sterven en doden voor je geloof, en het fragment met Jason Walters."
+      "start_seconds": 2659,
+      "title": "Boeddhisme, hindoeïsme en seculier martelaarschap",
+      "summary": "Gandhi, zelfverbranding in het boeddhisme en seculiere martelaren als Pim Fortuyn en Peter R. de Vries worden behandeld."
+    },
+    {
+      "start_seconds": 3427,
+      "title": "Ben jij bereid te sterven?",
+      "summary": "De gasten reflecteren over slachtofferschap, de keerzijde van het martelaarscomplex en de vraag naar bereidheid om te sterven voor principes."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 21,
+      "start_seconds": 250,
       "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Ignatius schrijft: weerhoud mij niet, ik ben op weg naar de eeuwige glorie, want ik ga voor de leeuwen geworpen worden.",
-      "note": "Verbazingwekkend dat iemand uitkijkt naar zijn eigen marteldood."
+      "text": "Nederland is in toenemende mate religieus ongeletterd; het heeft een collectieve blinde vlek voor alles wat met religie te maken heeft.",
+      "note": "Verklaart de motivatie achter het boek en wijst op een breder maatschappelijk probleem."
     },
     {
-      "start_seconds": 1470,
+      "start_seconds": 927,
       "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Rond Polycarpus op de brandstapel hing een geur van vers gebakken brood vermengd met parfum.",
-      "note": "Legendarisch detail dat laat zien hoe martelaren werden verheerlijkt."
+      "text": "Eleazar zegt: ik ga liever dood, om daarmee een voorbeeld te geven aan de jeugd, dan dat ik toegeef.",
+      "note": "De kern van het martelaarsmodel: 'dan liever dood' wordt letterlijk het uitgangspunt van het verhaal."
     },
     {
-      "start_seconds": 960,
+      "start_seconds": 1867,
       "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Zeven keer zegt een zoon: dan liever dood, en de tiran wordt belachelijk gemaakt.",
-      "note": "Toont de kracht van martelaarschap tegenover macht."
+      "text": "Ignatius schrijft: weerhoud mij niet, ik ben op weg naar de eeuwige glorie, want ik ga voor de leeuwen geworpen worden in Rome.",
+      "note": "Een opvallend verlangen naar de dood, dat moeilijk te begrijpen is vanuit een seculier perspectief."
     },
     {
-      "start_seconds": 1005,
-      "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Het christendom heeft het concept zich toegeëigend, het is de uitvinding was joods met Griekse wortels.",
-      "note": "Corrigeert het beeld dat martelaarschap islamitisch is."
+      "start_seconds": 2112,
+      "speaker": "Stefan Paas",
+      "text": "Wij hadden het gevoel dat God ons wel heel goedgezind was en ons wilde belonen met een martelaarschap.",
+      "note": "Een persoonlijk inkijkje in de religieuze motieven van een voormalig terrorist, die het verhaal persoonlijk maakt."
     },
     {
-      "start_seconds": 2000,
-      "speaker": "Bert Jan Lietaert Peerbolte",
-      "text": "Dit is politiek terrorisme, gelegitimeerd met religieuze motieven.",
-      "note": "Scherpe duiding van religieus gemotiveerd terrorisme."
+      "start_seconds": 3018,
+      "speaker": "Stefan Paas",
+      "text": "Die taal van de religie is blijkbaar ongelooflijk potent.",
+      "note": "Samenvatting van de centrale stelling dat religieuze taal ook in seculiere bewegingen werkzaam is."
+    },
+    {
+      "start_seconds": 3376,
+      "speaker": "Stefan Paas",
+      "text": "Schaal de retoriek wat af, alsjeblieft. Het is zo respectloos naar mensen die echt lijden voor hun overtuigingen.",
+      "note": "Een scherpe kritiek op het gebruik van martelaarsbeelden in het debat over coronamaatregelen."
     }
   ],
   "keywords": [
-    "martelaar",
     "martelaarschap",
+    "Dan liever dood",
     "Socrates",
     "Makkabeeën",
-    "Jezus",
-    "vervolging",
-    "christendom",
-    "islam",
-    "terrorisme",
-    "slachtofferschap",
+    "martelaarsakten",
     "religieuze ongeletterdheid",
-    "Peter R. de Vries"
+    "slachtofferschap",
+    "zelfmoordterrorisme",
+    "seculier martelaarschap",
+    "geweldloosheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ben jij bereid te sterven voor je geloof of principes?",
+    "Van Socrates tot Jezus, Gandhi en Peter R. de Vries: martelaren heb je in alle soorten en maten.",
+    "Hij is een meesterverteller, zoals je ook al in aflevering 18 van de Ongelooflijke Podcast hebt kunnen horen."
+  ],
   "similar": [
     {
-      "n": 18,
-      "reason": "Zelfde gast Lietaert Peerbolte; historische bronnen over Jezus en het vroege christendom"
-    },
-    {
       "n": 10,
-      "reason": "Jason Walters komt in beide voor; religieus geweld, terrorisme en overtuiging"
-    },
-    {
-      "n": 135,
-      "reason": "Ontstaan van het vroege christendom en de impact daarvan"
+      "reason": "Gedeelde figuur Jason Walters en thema radicalisme versus religieus geweld en offer"
     },
     {
       "n": 60,
-      "reason": "Terrorisme, radicalisering en religieuze overtuiging; verlossing door geweld"
+      "reason": "Radicale verlossing en wat terroristen geloven, sterk verwant aan martelaarschap"
     },
     {
-      "n": 118,
-      "reason": "Geschiedenis van religie en kerk, met vroegchristelijke en historische context"
+      "n": 22,
+      "reason": "Christelijke wortels van het Westen, inclusief de oorsprong van martelaarschap"
+    },
+    {
+      "n": 37,
+      "reason": "Religieus taalgebruik en geloof in seculiere bewegingen zoals complottheorieën"
+    },
+    {
+      "n": 4,
+      "reason": "Religieus fundamentalisme en radicalisering binnen de islam en het Midden-Oosten"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

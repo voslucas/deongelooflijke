@@ -1,17 +1,22 @@
 {
   "episode": 222,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112982,
+    "segments": 866,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30114,
-    "output_tokens": 2114,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55979,
+    "output_tokens": 8216,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
+    "God & geloof",
     "Kerk & secularisatie",
-    "Islam & jodendom",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -19,210 +24,247 @@
   ],
   "people": [
     {
-      "name": "Kees van der Staaij",
-      "note": "oud-partijleider SGP, nu staatsraad bij de Raad van State",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
-    },
-    {
       "name": "Pim Fortuyn",
-      "note": "politicus, oprichter LPF, doodgeschoten in 2002",
-      "start_seconds": 54,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "note": "Politicus en oprichter van de LPF, vermoord in 2002; symbool van de populistische opkomst",
+      "start_seconds": 995,
+      "mention_count": 5
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, vertegenwoordiger van het populisme",
-      "start_seconds": 54,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Alexander Pechtold",
-      "note": "voormalig D66-leider, collega-Kamerlid",
-      "start_seconds": 837,
-      "wiki_checked": true,
-      "wiki_pageid": 160637,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Pechtold",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alexander-pechtold_%28cropped%29.jpg/250px-Alexander-pechtold_%28cropped%29.jpg"
-    },
-    {
-      "name": "Job Cohen",
-      "note": "voormalig staatssecretaris, sprak over het asielsysteem",
-      "start_seconds": 1179,
-      "wiki_checked": true,
-      "wiki_pageid": 27242,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Job_Cohen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Job_Cohen%2C_2010.jpg/250px-Job_Cohen%2C_2010.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "voormalig premier, sprak over de 'dikke ik-mentaliteit'",
-      "start_seconds": 1840,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Leider van de PVV; genoemd als belangrijkste figuur van het populisme na Fortuyn",
+      "start_seconds": 901,
+      "mention_count": 3
     },
     {
       "name": "Donald Trump",
-      "note": "genoemd in verband met 'deep state'",
+      "note": "Amerikaanse president; genoemd in verband met de 'deep state'",
       "start_seconds": 305,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig premier; genoemd in verband met de 'dikke ik-mentaliteit'",
+      "start_seconds": 1836,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Pechtold",
+      "note": "Voormalig D66-leider; door Van der Staaij benaderd voor een speechtoets",
+      "start_seconds": 837,
+      "mention_count": 1
+    },
+    {
+      "name": "Job Cohen",
+      "note": "Voormalig staatssecretaris; uitspraken over het asielsysteem in Ermelo",
+      "start_seconds": 1187,
+      "mention_count": 1
+    },
+    {
+      "name": "Jane Willink",
+      "note": "Staatsrechtgeleerde; citaat over de rechtsstaat en de kwaliteit van uitvoerende diensten",
+      "start_seconds": 3374,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; zijn 'De stad Gods' wordt besproken als bron van rechtsstatelijke noties",
+      "start_seconds": 3566,
+      "mention_count": 4
+    },
+    {
+      "name": "Savornin Lohman",
+      "note": "Staatsrechtgeleerde; schreef 'Onze constitutie' en waarschuwde voor overmatige plannen",
+      "start_seconds": 4057,
+      "mention_count": 1
+    },
+    {
+      "name": "Tunahan Kuzu",
+      "note": "Kamerlid; genoemd in een debat over de verhouding tussen mannen en vrouwen",
+      "start_seconds": 860,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "De stad Gods",
+      "author": "Augustinus",
+      "note": "Bron van de gedachte dat staten zonder recht roversbenden zijn en over inperking van macht",
+      "start_seconds": 3566,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
+    },
+    {
+      "title": "Onze constitutie",
+      "author": "Savornin Lohman",
+      "note": "Waarin gewaarschuwd wordt voor steeds verder gaande plannen en programma's",
+      "start_seconds": 4057,
+      "volume_id": "kJvcvQEACAAJ",
+      "canonical_title": "Onze constitutie",
+      "canonical_author": "A. F. de Savornin Lohman",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "Lukas 15:11-32",
-      "note": "gelijkenis van de verloren zoon, door Van der Staaij gebruikt in een speech",
-      "start_seconds": 652
+      "ref": "Lukas 15",
+      "note": "Verhaal van de verloren zoon; raakt mensen door de tweede kans en de wachtende vader",
+      "start_seconds": 665
     },
     {
       "ref": "Lukas 10:30",
-      "note": "de barmhartige Samaritaan, aangehaald in een Kamerdebat",
-      "start_seconds": 870
+      "note": "Geschiedenis van de barmhartige Samaritaan, aangehaald in een debat",
+      "start_seconds": 860
+    },
+    {
+      "ref": "Exodus 7",
+      "note": "Plagen van Egypte, genoemd in een (gespeelde) debatquote",
+      "start_seconds": 860
     }
   ],
   "places": [
     "Den Haag",
-    "Utrecht",
     "Urk",
     "Staphorst",
-    "Taiwan",
-    "Engeland",
+    "Ermelo",
+    "Utrecht",
     "Hoorn",
     "Enkhuizen",
-    "Ermelo"
+    "Taiwan"
   ],
-  "summary_tldr": "Kees van der Staaij kijkt terug op 25 jaar Tweede Kamer en bespreekt hoe populisme en polarisatie zijn toegenomen doordat partijen hun vaste achterban kwijtraakten. Hij vertelt hoe hij bijbelverhalen inzette in de politiek en hoe hij nu bij de Raad van State naar democratie en rechtsstaat kijkt. Stefan Paas bevraagt de SGP kritisch op rechtsstatelijkheid, bijvoorbeeld het islammanifest.",
+  "summary_tldr": "Kees van der Staaij blikt terug op 25 jaar Tweede Kamer, waaronder 13 jaar als SGP-leider, en analyseert hoe verzwakte partijbanden, mediatisering en economische spanningen populisme en polarisatie hebben aangewakkerd. Hij betoogt dat de rechtsstaat een gedeeld verhaal nodig heeft en dat de wortels ervan deels in de joods-christelijke traditie liggen, met Augustinus als voorbeeld. Samen met Stefan Paas bespreekt hij ook de kritische vragen rond de SGP en het verschil tussen zijn rol als partijpoliticus en als staatsraad.",
   "summary_points": [
-    "Van der Staaij mist het debatteren niet, wel de collega's en de Prinsjesdag-sfeer.",
-    "Bij de Raad van State is er ruimte voor diepgang in plaats van de waan van de dag.",
-    "Bijbelverhalen zoals de verloren zoon raakten ook seculiere collega's.",
-    "1998 was een gemoedelijker, technocratischer en elitairder politiek tijdperk, daarna kwamen Fortuyn en 9/11.",
-    "Middenpartijen verloren hun vaste achterban, wat leidt tot constante campagnestand en harder roepen.",
-    "Een stabiele achterban maakt kleine partijen als de SGP rustiger en constructiever.",
-    "Burgerschap vraagt dat kiezers het algemeen belang meewegen en niet alleen eigenbelang.",
-    "Het SGP-islammanifest (gebedsoproep verbieden) roept vragen op over rechtsstatelijkheid en de theocratische traditie."
+    "Van der Staaij blikt terug op 1998 als een gemoedelijker tijdperk, met de LPF-opkomst en 9/11 als kantelpunt.",
+    "Partijen hebben hun vaste achterban verloren, waardoor politici constant moeten 'campagne voeren' en het vertrouwen dagelijks moeten verdienen.",
+    "Populisme en polarisatie worden gevoed door concurrentie en de druk om zichtbaar te zijn, waarbij technocratie en populisme als tegenpolen worden gezien.",
+    "Verhalen en gedeelde waarden zijn essentieel om de rechtsstaat te dragen; een rechtsstaat die alleen technocratisch is, verliest draagvlak.",
+    "Kritiek op de SGP: het voorstel om gebedsoproepen te verbieden en de vraag of dat rechtsstatelijk te verdedigen is.",
+    "Als staatsraad onderscheidt Van der Staaij de politieke ruimte van de essentiële grenzen van democratie en rechtsstaat.",
+    "De rechtsstaat wordt bedreigd door crisisretoriek, noodwetten en het verlies van gemeenschappelijkheid, en door een burger die de overheid niet voldoende ervaart.",
+    "De joods-christelijke wortels van de rechtsstaat (gewetensvrijheid, menselijke onvolkomenheid, machtsinperking) worden besproken aan de hand van Augustinus.",
+    "Secularisatie en de toenemende angst in de samenleving worden gezien als druk op grondrechten, met de vraag hoeveel de overheid van burgers mag weten.",
+    "Ontkerkelijking vergroot de zichtbaarheid van de SGP, waardoor ook niet-gelovigen zich soms bij de partij thuis voelen."
   ],
   "chapters": [
     {
-      "start_seconds": 146,
-      "title": "Een jaar na de Kamer",
-      "summary": "Van der Staaij vertelt wat hij wel en niet mist, en over zijn werk bij de Raad van State."
+      "start_seconds": 0,
+      "title": "Intro en een jaar na de Kamer",
+      "summary": "Boogerd introduceert Van der Staaij en Paas; de gast reflecteert op wat hij mist aan de politiek en vindt zijn werk bij de Raad van State rustiger en diepgaander."
     },
     {
-      "start_seconds": 516,
-      "title": "Bijbelverhalen in de politiek",
-      "summary": "Hij vertelt over de positieve reacties op bijbelverhalen in speeches en het belang van verhalen voor de rechtsstaat."
+      "start_seconds": 931,
+      "title": "Terugblik op 1998 en de LPF-tijd",
+      "summary": "Van der Staaij beschrijft zijn start in 1998 en hoe de politiek na 2002 platter, directer en meer crisisgericht werd."
     },
     {
-      "start_seconds": 855,
-      "title": "Terug naar 1998",
-      "summary": "Fragmenten uit zijn Kamertijd en reflectie op de gemoedelijke politiek van voor Fortuyn."
+      "start_seconds": 1377,
+      "title": "Populisme, polarisatie en verlies van achterban",
+      "summary": "Het gesprek gaat over partijen zonder vaste achterban, concurrentiedruk en de vraag of populisme ook de SGP verleidt."
     },
     {
-      "start_seconds": 1346,
-      "title": "Populisme en verdwenen achterban",
-      "summary": "Partijen verliezen hun vaste achterban, wat de concurrentieslag en polarisatie aanjaagt."
-    },
-    {
-      "start_seconds": 1665,
-      "title": "Burgerschap en eigenbelang",
-      "summary": "Gesprek over egoïstischer stemgedrag, diplomademocratie en bezuiniging op ontwikkelingssamenwerking."
+      "start_seconds": 1710,
+      "title": "Eigenbelang en globalisering",
+      "summary": "Discussie over egoïsme bij kiezers, ontwikkelingssamenwerking en de gevoelens van de gewone man rond globalisering."
     },
     {
       "start_seconds": 1949,
-      "title": "Populisme binnen de SGP",
-      "summary": "Kritische vragen over het islammanifest, de gebedsoproep en de theocratische traditie van de SGP."
+      "title": "SGP, islammanifest en rechtsstatelijke grenzen",
+      "summary": "Paas bevraagt het islammanifest en de gebedsoproep-kwestie; Van der Staaij onderscheidt zijn partijrol van zijn onafhankelijke rol als staatsraad."
+    },
+    {
+      "start_seconds": 2698,
+      "title": "Waarom de rechtsstaat nu belangrijk is",
+      "summary": "Gesprek over grondrechten, crisispolitiek, de toeslagenaffaire en het gevaar van juridisch 'geneuzel' en gebrek aan vertrouwen."
+    },
+    {
+      "start_seconds": 3494,
+      "title": "Joods-christelijke wortels en Augustinus",
+      "summary": "Van der Staaij betoogt dat de rechtsstaat deels op christelijke noties rust, zoals menselijke onvolkomenheid en machtsinperking, met Augustinus als centrale bron."
+    },
+    {
+      "start_seconds": 4418,
+      "title": "Secularisatie, angst en de SGP-kloof",
+      "summary": "Paas en Boogerd bespreken angst in een risicosamenleving en waarom de kloof tussen SGP en seculiere kiezers kleiner lijkt te zijn geworden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 296,
+      "start_seconds": 2831,
       "speaker": "Kees van der Staaij",
-      "text": "Uit de fractie-app gaan voelde alsof ik zelf de gifbeker ter hand nam.",
-      "note": "Persoonlijk moment over het afscheid van de politiek."
+      "text": "Het grootste gevaar voor de rechtsstaat is als het niet meer iets van ons allemaal is.",
+      "note": "Een scherpe samenvatting van de kern van zijn betoog over gemeenschappelijkheid."
     },
     {
-      "start_seconds": 1498,
+      "start_seconds": 3331,
       "speaker": "Kees van der Staaij",
-      "text": "Het is nu de worsteling tussen technocratie aan de ene kant en populisme aan de andere kant.",
-      "note": "Kernanalyse van de huidige politiek."
+      "text": "Democratie en rechtsstaat is ons gemeenschappelijke verhaal; de polder is onze dijk.",
+      "note": "Een beeldende metafoor die de verbinding tussen politiek en gedeeld belang samenvat."
     },
     {
-      "start_seconds": 1566,
+      "start_seconds": 3642,
+      "speaker": "Kees van der Staaij",
+      "text": "Gewetensvrijheid is een kwestie van bloed, zweet en tranen; Europa had daar godsdienstoorlogen voor nodig.",
+      "note": "Een confronterende historische herinnering aan de prijs van de rechtsstaat."
+    },
+    {
+      "start_seconds": 3808,
       "speaker": "Stefan Paas",
-      "text": "Het is een cultureel probleem dat generaties duurt; dat krijg je niet zomaar in de fles terug.",
-      "note": "Scherpe duiding van polarisatie."
+      "text": "Ieder mens is inherent waardig, niet door wat hij doet, ook als iemand heel irritant is.",
+      "note": "Een persoonlijk en ethisch moment dat de discussie over polarisatie verdiept."
     },
     {
-      "start_seconds": 2127,
+      "start_seconds": 3912,
       "speaker": "Stefan Paas",
-      "text": "Dan sta je blijkbaar voor iets wat in de grond niet rechtsstatelijk is.",
-      "note": "Confrontatie over het islammanifest van de SGP."
-    },
-    {
-      "start_seconds": 1925,
-      "speaker": "Kees van der Staaij",
-      "text": "Hoofdstuk 1 is: waar staan we voor? Hoofdstuk 2: hoe brengen we het aansprekend?",
-      "note": "Zijn principe tegenover zetelwinst."
+      "text": "Als het besef van zonde en genade afneemt, wordt de samenleving harder, niet anarchistischer.",
+      "note": "Een verrassende Augustinus-lezing die secularisatie koppelt aan strengheid."
     }
   ],
   "keywords": [
     "populisme",
     "polarisatie",
     "rechtsstaat",
+    "grondrechten",
+    "joods-christelijke traditie",
+    "Augustinus",
     "SGP",
-    "Raad van State",
-    "Pim Fortuyn",
-    "Geert Wilders",
+    "secularisatie",
     "technocratie",
     "burgerschap",
-    "islammanifest",
-    "verloren zoon",
-    "Tweede Kamer"
+    "gewetensvrijheid",
+    "crisispolitiek"
   ],
-  "quotes": [],
+  "quotes": [
+    "Hij heeft de opmars van het populisme en de toename van polarisatie van nabij meegemaakt.",
+    "Welke diepere oorzaken liggen hieraan ten grondslag? En was populisme voor hemzelf ook een verleiding?",
+    "Het onderwerp 'rechtsstaat' klinkt vaak abstract en saai, maar waarom is het juist nu ontzettend belangrijk?"
+  ],
   "similar": [
     {
-      "n": 156,
-      "reason": "Christelijke politicus (Bontenbal, CDA) over christendemocratie, politiek en geloof met Stefan Paas"
+      "n": 267,
+      "reason": "Politiek onbehagen, democratie en kerk, met dezelfde gespreksthema's over populisme en vertrouwen"
     },
     {
-      "n": 152,
-      "reason": "Twee prominente politici, Dijkhoff en Segers, over politiek, kerk en ideologische strijd"
-    },
-    {
-      "n": 45,
-      "reason": "Nederlandse politiek en secularisatie, christelijke partijen met PG Kroeger"
+      "n": 232,
+      "reason": "Democratie in crisis, extreemrechts en de fundamenten van de samenleving, met christelijke invalshoek"
     },
     {
       "n": 170,
-      "reason": "Opkomst van Wilders en verrechtsing van Nederland met politiek analist Josse de Voogd"
+      "reason": "Verrechtsing van Nederland na de verkiezingen, Wilders en de politieke polarisatie"
     },
     {
-      "n": 136,
-      "reason": "Josse de Voogd over BBB, politieke verschuivingen en Nederlandse politiek"
+      "n": 301,
+      "reason": "Losgezongen elite versus het volk, legitimiteit van de staat en populistische onvrede"
+    },
+    {
+      "n": 200,
+      "reason": "Augustinus centraal, een figuur die ook in deze aflevering als voorbeeld dient"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

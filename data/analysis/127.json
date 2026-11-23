@@ -1,18 +1,23 @@
 {
   "episode": 127,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104549,
+    "segments": 1370,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31893,
-    "output_tokens": 2528,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55492,
+    "output_tokens": 7241,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Bijbel & Jezus",
     "Geschiedenis",
     "Kerk & secularisatie",
-    "Kunst & cultuur"
+    "Politiek"
   ],
   "guests": [
     "Renske Hoff"
@@ -20,246 +25,266 @@
   "people": [
     {
       "name": "Maarten Luther",
-      "note": "Reformator; vaak genoemd in de mythe dat hij de Bijbel in de volkstaal bracht",
-      "start_seconds": 767,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Nicoline van der Sijs",
-      "note": "Taalkundige die onderzocht hoe groot de invloed van de Statenvertaling op het Nederlands was",
-      "start_seconds": 1138,
-      "wiki_checked": true,
-      "wiki_pageid": 273139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicoline_van_der_Sijs",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Nicoline_van_der_Sijs.jpg/250px-Nicoline_van_der_Sijs.jpg"
+      "note": "Reformator; gezien als de man die de Bijbel in de volkstaal bracht",
+      "start_seconds": 749,
+      "mention_count": 4
     },
     {
       "name": "Martin Luther King",
-      "note": "Burgerrechtenleider wiens toespraken doordrenkt zijn van Bijbelse citaten",
+      "note": "Burgerrechtenleider die Bijbelse teksten gebruikte in zijn strijd tegen onrecht",
       "start_seconds": 2051,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "mention_count": 6
+    },
+    {
+      "name": "Homerus",
+      "note": "Oud-Griekse dichter; vergeleken met de Bijbel als literair werk",
+      "start_seconds": 191,
+      "mention_count": 4
     },
     {
       "name": "Mozes",
-      "note": "Bijbelse figuur die het beloofde land vanaf een berg mocht zien",
-      "start_seconds": 2082,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "note": "Bijbelse leider die de uittocht uit Egypte leidt en de tien geboden ontvangt",
+      "start_seconds": 581,
+      "mention_count": 4
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het Nieuwe Testament; wordt genoemd in de quiz en in Bijbelse context",
+      "start_seconds": 559,
+      "mention_count": 6
     },
     {
       "name": "Maria Magdalena",
-      "note": "Bijbelse figuur, in de Da Vinci Code als vrouw van Jezus voorgesteld",
+      "note": "Bijbelse vrouw; in de quiz en via de Da Vinci-code als 'vrouw van Jezus' besproken",
       "start_seconds": 555,
-      "wiki_checked": true,
-      "wiki_pageid": 37396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_Magdalena",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Philippe_de_Champaigne_-_The_Repentant_Magdalen_-_Google_Art_Project.jpg/250px-Philippe_de_Champaigne_-_The_Repentant_Magdalen_-_Google_Art_Project.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Judas",
-      "note": "Bijbelse verrader, bron van het woord Judaskus",
-      "start_seconds": 1227,
-      "wiki_checked": true,
-      "wiki_pageid": 13806,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Judas_Iskariot",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg/250px-Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg"
-    }
-  ],
-  "books": [
-    {
-      "title": "De Tweede Sekse",
-      "author": "Simone de Beauvoir",
-      "note": "Genoemd als voorbeeld van een invloedrijk boek, ook bij mensen die het niet lazen",
-      "start_seconds": 220,
-      "volume_id": "nO8TswEACAAJ",
-      "canonical_title": "De tweede sekse: feiten, mythen en geleefde werkelijkheid",
-      "canonical_author": "Simone de Beauvoir",
-      "isbn13": "9789061319276",
-      "isbn10": "9061319277",
-      "thumbnail": ""
+      "name": "Søren Kierkegaard",
+      "note": "Filosoof die schreef over Abraham en het offer van Isaak",
+      "start_seconds": 2758,
+      "mention_count": 1
     },
     {
-      "title": "Max Havelaar",
-      "author": "Multatuli",
-      "note": "Genoemd als voorbeeld van een invloedrijk boek",
-      "start_seconds": 220,
-      "volume_id": "oHMxAQAACAAJ",
-      "canonical_title": "Max Havelaar: of, De koffieveilingen der Nederlandse Handelsmaatschappij",
-      "canonical_author": "Multatuli",
-      "isbn13": "9789025419516",
-      "isbn10": "9025419518",
-      "thumbnail": ""
+      "name": "Sander Schimmels",
+      "note": "Genoemd als recente gesprekspartner over het sociaal contract",
+      "start_seconds": 2360,
+      "mention_count": 1
+    },
+    {
+      "name": "Nicoline van der Sijs",
+      "note": "Taalkundige; oratie over de invloed van bijbelvertalingen op het Nederlands",
+      "start_seconds": 1132,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Presentator; genoemd als antwoord in de quiz over de plagen van Egypte",
+      "start_seconds": 539,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrix",
+      "note": "Voormalig koningin; zat in dezelfde studentenvereniging als de grootmoeder van Renske Hoff",
+      "start_seconds": 3105,
+      "mention_count": 1
+    },
+    {
+      "name": "Toetanchamon",
+      "note": "Egyptische farao; genoemd bij archeologische vondsten",
+      "start_seconds": 438,
+      "mention_count": 1
+    },
+    {
+      "name": "David",
+      "note": "Bijbelse koning; besproken om zijn wraakzucht en het verhaal van David en Goliath",
+      "start_seconds": 2701,
+      "mention_count": 4
+    },
+    {
+      "name": "Abraham",
+      "note": "Bijbelse aartsvader; centraal in het verhaal van het offer van Isaak",
+      "start_seconds": 2700,
+      "mention_count": 4
     }
   ],
   "bible_refs": [
     {
-      "ref": "Exodus 7-12",
-      "note": "De tien plagen van Egypte, uit Het Slimste Mens",
+      "ref": "Exodus 10",
+      "note": "De tien plagen van Egypte; onderdeel van de quizvraag",
       "start_seconds": 523
     },
     {
       "ref": "Exodus",
-      "note": "De uittocht uit Egypte als bron van bevrijdingstradities",
-      "start_seconds": 1913
+      "note": "Uittocht uit Egypte; invloed op bevrijdings- en opstandstradities",
+      "start_seconds": 1925
     },
     {
-      "ref": "Deuteronomium 17",
-      "note": "De koning is aan de wet onderworpen en mag niet te veel paarden en geld hebben",
+      "ref": "Deuteronomium",
+      "note": "Wetstraditie: de koning moet onderworpen zijn aan wetten",
       "start_seconds": 1952
     },
     {
-      "ref": "Jesaja 55",
-      "note": "Het woord keert niet leeg terug",
-      "start_seconds": 2036
+      "ref": "Jesaja 55:11",
+      "note": "Het Woord keert niet leeg terug; aangehaald door Stefan Paas",
+      "start_seconds": 2049
     },
     {
-      "ref": "Psalmen",
-      "note": "De dichter spreekt tot zijn eigen ziel, voorbeeld van een binnenwereld",
-      "start_seconds": 331
+      "ref": "1 Samuël 17",
+      "note": "Verhaal van David en Goliath; eindigt met wraak op zijn sterfbed",
+      "start_seconds": 2701
+    },
+    {
+      "ref": "Genesis 22",
+      "note": "Abraham die Isaak moet offeren; Stefan noemt het zijn favoriete verhaal (aangeduid als Genesis 24)",
+      "start_seconds": 3543
+    },
+    {
+      "ref": "Lucas 1",
+      "note": "Maria bezoekt Elisabeth; Renske noemt het haar favoriete Bijbelscène",
+      "start_seconds": 3368
+    },
+    {
+      "ref": "Rut",
+      "note": "Verhaal van Rut en Noomi; voorbeeld van vrouwen die met elkaar praten",
+      "start_seconds": 3475
+    },
+    {
+      "ref": "Ester",
+      "note": "Vrouwelijke held die de koning weet te overtuigen",
+      "start_seconds": 3493
     }
   ],
   "places": [
-    "Nederland",
+    "Egypte",
+    "Kaapstad",
+    "Tafelberg",
     "Utrecht",
     "Amsterdam",
+    "Leiden",
     "Leuven",
-    "Egypte",
     "Pompeï",
-    "Kaapstad",
-    "Verenigde Staten",
-    "Troje",
-    "Delft"
+    "Engeland",
+    "Duitsland",
+    "Nederland"
   ],
-  "summary_tldr": "Renske Hoff en Stefan Paas bespreken in de Maand van de Bijbel hoe de Bijbel Nederland heeft gevormd, van taal en recht tot individualiteit. Hoff ontkracht daarbij hardnekkige mythes over bijbelvertalingen, geletterdheid, boekdrukkunst en lezende vrouwen. Ook komen persoonlijke aantekeningen in oude bijbels en de Bijbel als bevrijdingsboek en wetstraditie aan bod.",
+  "summary_tldr": "In deze aflevering van De Ongelooflijke Podcast, in de Maand van de Bijbel, bespreken David Boogerd, Renske Hoff en Stefan Paas hoe de Bijbel de Nederlandse taal, cultuur en politiek heeft beïnvloed. Ze ontkrachten diverse mythes over middeleeuwse bijbels, geletterdheid en de rol van vrouwen. Ook komen de rechtsstatelijke en profetische tradities uit de Bijbel en de vertelkunst van Bijbelverhalen aan bod.",
   "summary_points": [
-    "De Bijbel beïnvloedt taal, politiek en ons zelfbeeld, zonder dat mensen het merken",
-    "Kennis van de Bijbel is volgens Hoff verrijkend maar niet noodzakelijk",
-    "Er waren al Nederlandse bijbels in de middeleeuwen, zoals de Herentse en de Delftse Bijbel",
-    "De katholieke kerk verbood bijbellezen in de volkstaal niet, dat is een protestantse retoriek",
-    "De geletterdheid in de middeleeuwen was hoger dan gedacht, ook onder vrouwen",
-    "De invloed van de Statenvertaling op het Nederlands is genuanceerd, veel bestond al",
-    "Mensen schreven persoonlijke aantekeningen, rampen en boodschappenlijstjes in hun bijbels",
-    "De Bijbel inspireerde bevrijdingsbewegingen en het idee dat macht onder de wet staat",
-    "De Bijbel kon zowel onderdrukken als bevrijden"
+    "De Bijbel heeft diepe invloed gehad op taal, uitdrukkingen, denken over het individu en politieke ideeën",
+    "Nederlandstalige bijbelvertalingen bestonden al vóór de Reformatie, zoals de Herentse en de Delftse Bijbel",
+    "Het idee dat de katholieke kerk de Bijbel verbood in de volkstaal blijkt een mythe",
+    "Geletterdheid in de late middeleeuwen was relatief hoog, ook onder vrouwen",
+    "Oude bijbels bevatten kantlijnaantekeningen die persoonlijke geschiedenis en alledaagse zorgen onthullen",
+    "De Statenvertaling heeft het Nederlands beïnvloed, maar bouwde ook op eerdere vertalingen",
+    "De Bijbel bevat een wetstraditie, een profetische traditie en het idee van verbond, die de rechtsstaat hebben gevormd",
+    "Bijbelse bevrijdingsverhalen zoals de uittocht inspireerden onder meer Martin Luther King",
+    "De vertelkunst van de Bijbel, met morele ambiguïteit en weggelaten emoties, heeft de moderne literatuur beïnvloed",
+    "Het gesprek belandt bij de vraag of de Bijbelse waarden kunnen blijven bestaan wanneer de kennis van de tekst verdwijnt"
   ],
   "chapters": [
     {
-      "start_seconds": 35,
-      "title": "Waarom de Bijbel?",
-      "summary": "Introductie en de vraag waarom Hoff en Paas zich met de Bijbel bezighouden en waarom die zo relevant is."
+      "start_seconds": 0,
+      "title": "Introductie en relevantie van de Bijbel",
+      "summary": "Presentatie van gasten en de vraag waarom een Bijbelonderzoeker het onderwerp zo relevant vindt."
     },
     {
-      "start_seconds": 523,
-      "title": "Bijbelkennis in Nederland",
-      "summary": "Een fragment uit Het Slimste Mens laat zien hoe weinig mensen weten. Is bijbelkennis nog belangrijk?"
+      "start_seconds": 263,
+      "title": "Invloed van de Bijbel op taal en denken",
+      "summary": "Renske en Stefan bespreken hoe de Bijbel het zelfbeeld en de taal heeft gevormd, met voorbeelden van uitdrukkingen."
     },
     {
-      "start_seconds": 767,
-      "title": "Mythes over Bijbelvertalingen",
-      "summary": "Er waren al Nederlandse bijbels voor de Reformatie en lezen in de volkstaal was niet verboden."
+      "start_seconds": 510,
+      "title": "Kennis van de Bijbel: de quiz",
+      "summary": "Fragment uit Het Slimste Mens met vragen over de plagen van Egypte en Maria Magdalena, en de vraag naar het belang van Bijbelkennis."
     },
     {
-      "start_seconds": 915,
-      "title": "Geletterdheid en boekdrukkunst",
-      "summary": "Hoge geletterdheid in de middeleeuwen en een genuanceerd beeld van de boekdrukkunst."
+      "start_seconds": 749,
+      "title": "Middeleeuwse bijbels en mythes over Luther",
+      "summary": "De mythe dat Luther de Bijbel ontdekte en dat de katholieke kerk hem verbood, wordt ontkracht; ook geletterdheid en boekdrukkunst komen aan bod."
     },
     {
-      "start_seconds": 1138,
-      "title": "Invloed op de taal en vrouwelijke lezers",
-      "summary": "De invloed van de Statenvertaling, bijbelse uitdrukkingen en vrouwen als lezers."
-    },
-    {
-      "start_seconds": 1598,
-      "title": "Aantekeningen in oude bijbels",
-      "summary": "Persoonlijke, tragische en alledaagse notities in de marges van bijbels uit de zestiende eeuw."
+      "start_seconds": 1084,
+      "title": "Taal, Statenvertaling en vrouwen als lezers",
+      "summary": "Bespreking van de Statenvertaling, de taalinvloed en het idee dat ook vrouwen en religieuze vrouwen de Bijbel lazen."
     },
     {
       "start_seconds": 1889,
-      "title": "Bijbel, recht en bevrijding",
-      "summary": "Exodus en Deuteronomium als wortels van rechtsstaat en bevrijdingstradities, met Martin Luther King."
+      "title": "Rechtsstaat, verbond en profetische traditie",
+      "summary": "Stefan en Renske bespreken hoe de Bijbel wetstraditie, verbond en het uitdagen van macht heeft beïnvloed, met Martin Luther King als voorbeeld."
+    },
+    {
+      "start_seconds": 2591,
+      "title": "Vertelkunst en morele ambiguïteit",
+      "summary": "De Bijbelse verhalen worden gezien als literatuur, met het offer van Isaak als voorbeeld van 'show, don't tell'."
+    },
+    {
+      "start_seconds": 3368,
+      "title": "Favoriete verhalen en de Bechdel-test",
+      "summary": "De gasten delen hun favoriete Bijbelverhalen en bespreken de Bechdel-test in de Bijbel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1700,
+      "start_seconds": 330,
       "speaker": "Renske Hoff",
-      "text": "Mensen schreven in hun bijbel dat hun dochter was overleden, en twee dagen later hun vrouw.",
-      "note": "Ontroerend inkijkje in een traumatische gebeurtenis, bewaard in de Bijbel."
+      "text": "Ik zei tegen mijn eigen ziel, wees stil.",
+      "note": "Dit citaat uit de psalmen illustreert hoe de Bijbel een innerlijk zelfbeeld introduceerde, anders dan bij Homerus."
     },
     {
-      "start_seconds": 734,
-      "speaker": "Renske Hoff",
-      "text": "De Bijbel was niet aan een ketting verborgen; Nederlandse bijbels bestonden al in de middeleeuwen.",
-      "note": "Ontkracht een hardnekkige protestantse mythe."
-    },
-    {
-      "start_seconds": 1742,
-      "speaker": "Renske Hoff",
-      "text": "In een bijbel stond boodschappenlijstje met hoeveelheden hout.",
-      "note": "Laat zien dat de Bijbel een gebruiksvoorwerp was."
-    },
-    {
-      "start_seconds": 2018,
+      "start_seconds": 2049,
       "speaker": "Stefan Paas",
-      "text": "Witte predikanten preekten over de exodus en tot slaaf gemaakten namen het letterlijk.",
-      "note": "Toont hoe de Bijbel anders uitpakt dan bedoeld."
+      "text": "Die Bijbel keert nooit leeg terug, hè. Die doet ook eigen dingen met mensen.",
+      "note": "Stefan laat zien dat de Bijbel ook door onderdrukten anders kan worden gelezen dan de machthebbers bedoelden."
     },
     {
-      "start_seconds": 280,
+      "start_seconds": 2528,
+      "speaker": "Renske Hoff",
+      "text": "Ik heb wel vrij veel vertrouwen in nieuwe generaties.",
+      "note": "Een optimistisch slot in een gesprek over het verlies van Bijbelkennis en de overdracht van waarden."
+    },
+    {
+      "start_seconds": 3566,
       "speaker": "Stefan Paas",
-      "text": "Het is bijna de vraag: waarom is zuurstof relevant? Je ademt het elke dag in.",
-      "note": "Treffend beeld voor onbewuste invloed van de Bijbel."
+      "text": "Ik vind het een van een hartverscheurende schoonheid.",
+      "note": "Stefan noemt het verhaal van Abraham en Isaak zijn favoriet, juist omdat het door de meeste mensen niet als zodanig wordt gezien."
     }
   ],
   "keywords": [
     "Bijbel",
     "Statenvertaling",
     "Reformatie",
-    "Middeleeuwen",
-    "Geletterdheid",
-    "Boekdrukkunst",
-    "Exodus",
-    "Rechtsstaat",
-    "Martin Luther King",
-    "Mythes",
-    "Marginalia",
-    "Bijbelvertaling"
+    "middeleeuwse handschriften",
+    "geletterdheid",
+    "Bijbelse vertelkunst",
+    "rechtsstaat",
+    "verbond",
+    "profetische traditie",
+    "mythes",
+    "volkstaal",
+    "Martin Luther King"
   ],
-  "quotes": [],
+  "quotes": [
+    "Nog nooit sneuvelden er zoveel mythes in één aflevering als in deze",
+    "de invloed van de Bijbel op onze taal, cultuur, politiek en hoe wij onszelf zien is immens"
+  ],
   "similar": [
     {
-      "n": 118,
-      "reason": "Geschiedenis van religie en Bijbel in Nederland, met kerk en bijbelgebruik bij slavernij."
-    },
-    {
-      "n": 266,
-      "reason": "Begrip van cultuur via kunst, geschiedenis en geloof; Bijbel en vormende verhalen."
-    },
-    {
-      "n": 256,
-      "reason": "Hoe Nederland aan zijn zelfbeeld komt: kerk, geschiedenis en secularisatie."
+      "n": 18,
+      "reason": "Historische Jezus en Bijbelse bronnen; overlap in Bijbel, geschiedenis en tekstkritiek"
     },
     {
       "n": 280,
-      "reason": "Betrouwbaarheid van bijbelse bronnen, Jezus en historisch onderzoek van evangeliën."
+      "reason": "Betrouwbaarheid van bronnen over Jezus; Bijbel en geschiedenis centraal"
     },
     {
-      "n": 67,
-      "reason": "Mythes over Nederland en religieuze geschiedenis, met calvinisme als vormende kracht."
+      "n": 113,
+      "reason": "Bijbelse invloed op vrijheidsidee en cultuur; geschiedenis en Bijbel gedeeld"
+    },
+    {
+      "n": 118,
+      "reason": "Rol van religie en kerk in de geschiedenis; Bijbelse thema's gedeeld"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

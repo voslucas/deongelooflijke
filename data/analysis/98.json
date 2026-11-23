@@ -1,18 +1,23 @@
 {
   "episode": 98,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 96397,
+    "segments": 803,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30538,
-    "output_tokens": 2209,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 48787,
+    "output_tokens": 6767,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Filosofie & ethiek",
     "Wetenschap & kosmos",
-    "Zingeving & psyche"
+    "Filosofie & ethiek",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Emanuel Rutten",
@@ -20,256 +25,233 @@
   ],
   "people": [
     {
+      "name": "Augustinus",
+      "note": "Kerkvader; bekeringsverhaal dat Emanuel Rutten aansprak",
+      "start_seconds": 462,
+      "mention_count": 3
+    },
+    {
       "name": "Christopher Hitchens",
-      "note": "atheïstisch schrijver, een van The Four Horsemen",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 1226951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christopher_Hitchens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Christopher_Hitchens_crop.jpg/250px-Christopher_Hitchens_crop.jpg"
+      "note": "Atheïstische denker uit de 'Four Horsemen'; Stine Jensens inspiratiebron",
+      "start_seconds": 278,
+      "mention_count": 2
     },
     {
       "name": "Richard Dawkins",
-      "note": "atheïstisch denker, een van The Four Horsemen",
+      "note": "Atheïstische bioloog uit de 'Four Horsemen'; sprak over fine-tuning",
       "start_seconds": 294,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 2
     },
     {
       "name": "Sam Harris",
-      "note": "atheïstisch denker, een van The Four Horsemen",
+      "note": "Atheïstische denker uit de 'Four Horsemen'",
       "start_seconds": 295,
-      "wiki_checked": true,
-      "wiki_pageid": 1218911,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Harris_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sam_Harris_01.jpg/250px-Sam_Harris_01.jpg"
+      "mention_count": 1
     },
     {
       "name": "Daniel Dennett",
-      "note": "filosoof, een van The Four Horsemen",
+      "note": "Filosoof uit de 'Four Horsemen'",
       "start_seconds": 296,
-      "wiki_checked": true,
-      "wiki_pageid": 140634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daniel_Dennett",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Daniel_Dennett_in_Venice_2006.png/250px-Daniel_Dennett_in_Venice_2006.png"
-    },
-    {
-      "name": "Augustinus",
-      "note": "kerkvader, gelezen aan de VU; voorbeeld van een bekering",
-      "start_seconds": 462,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Jezus van Nazareth",
-      "note": "zijn verhaal greep Rutten",
-      "start_seconds": 478,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Thomas van Aquino",
-      "note": "middeleeuws filosoof, genoemd bij algemeen godsbegrip",
-      "start_seconds": 884,
-      "wiki_checked": true,
-      "wiki_pageid": 9693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_van_Aquino",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/250px-St-thomas-aquinas.jpg"
+      "mention_count": 1
     },
     {
       "name": "Aristoteles",
-      "note": "filosoof, genoemd bij algemeen godsbegrip",
-      "start_seconds": 884,
-      "wiki_checked": true,
-      "wiki_pageid": 24,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aristoteles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/250px-Aristotle_Altemps_Inv8575.jpg"
+      "note": "Oudgriekse filosoof; genoemd als voorbeeld van godsopvattingen",
+      "start_seconds": 870,
+      "mention_count": 1
     },
     {
-      "name": "Avicenna",
-      "note": "islamitisch filosoof",
-      "start_seconds": 884,
-      "wiki_checked": true,
-      "wiki_pageid": 13122,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Avicenna",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Avicenna.jpg/250px-Avicenna.jpg"
-    },
-    {
-      "name": "Hans van Stralen",
-      "note": "literatuurwetenschapper die onderzoek deed naar bekeringen",
-      "start_seconds": 1602,
-      "wiki_checked": true
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog-filosoof; argumenten voor Gods bestaan",
+      "start_seconds": 870,
+      "mention_count": 2
     },
     {
       "name": "Bertrand Russell",
-      "note": "filosoof van de theepot-vergelijking",
-      "start_seconds": 1820,
-      "wiki_checked": true,
-      "wiki_pageid": 17936,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bertrand_Russell",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bertrand_Russell_photo.jpg/250px-Bertrand_Russell_photo.jpg"
+      "note": "Filosoof; bedacht de theekopje-analogie tegen het bewijsbaar ontkennen van God",
+      "start_seconds": 1802,
+      "mention_count": 2
     },
     {
       "name": "Alvin Plantinga",
-      "note": "filosoof van de Free Will Defense",
-      "start_seconds": 2522,
-      "wiki_checked": true,
-      "wiki_pageid": 175924,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alvin_Plantinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/AlvinPlantinga.JPG/250px-AlvinPlantinga.JPG"
+      "note": "Filosoof; Free Will Defense als antwoord op het lijden",
+      "start_seconds": 2525,
+      "mention_count": 2
+    },
+    {
+      "name": "Hans van Stralen",
+      "note": "Literatuurwetenschapper; boek over geloof als verhaal en bekering",
+      "start_seconds": 1621,
+      "mention_count": 2
     },
     {
       "name": "Ludwig Wittgenstein",
-      "note": "taalfilosoof, genoemd door Jensen",
-      "start_seconds": 2340,
-      "wiki_checked": true,
-      "wiki_pageid": 14582,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Wittgenstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Ludwig_Wittgenstein.jpg/250px-Ludwig_Wittgenstein.jpg"
+      "note": "Filosoof van de taal; achtergrond van Stines taalspel-argument",
+      "start_seconds": 2338,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Swinburne",
+      "note": "Filosoof; schreef over de opstanding als argument",
+      "start_seconds": 3839,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "Schrijver en denker; gast in een volgende aflevering over homoseksualiteit en religie",
+      "start_seconds": 4140,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "The Argument of Resurrection",
+      "author": "Richard Swinburne",
+      "note": "Werk over de opstanding van Jezus als filosofisch argument; kort genoemd als leestip",
+      "start_seconds": 3839,
+      "volume_id": "AWb6vQEACAAJ",
+      "canonical_title": "The Resurrection of God Incarnate",
+      "canonical_author": "Richard Swinburne",
+      "isbn13": "9780191598616",
+      "isbn10": "0191598615",
+      "thumbnail": ""
+    },
+    {
+      "title": "",
+      "author": "Hans van Stralen",
+      "note": "Boek over hoe mensen gelovig worden; Stine Jensen noemt het als één van de mooiste boeken over bekering",
+      "start_seconds": 1621
+    }
+  ],
   "bible_refs": [],
   "places": [
-    "Tivoli Vredenburg",
+    "Utrecht",
     "Amsterdam",
     "Rotterdam",
-    "Delft"
+    "Delft",
+    "Nederland"
   ],
-  "summary_tldr": "Op het NPO Podcast Event debatteren christen Emanuel Rutten en atheïst Stine Jensen over de vraag of God bestaat. Rutten voert rationele aanwijzingen aan zoals het begin van het universum en fine tuning, Jensen wijst op de verborgenheid van God, het lijden en de rol van verhaal en taal in geloof.",
+  "summary_tldr": "Filosofen Emanuel Rutten (christen) en Stine Jensen (atheïst) debatteren live op het NPO Podcast Event over de vraag of God bestaat. Rutten pleit voor een algemeen godsbegrip op basis van het begin van het universum, fine-tuning en de rationaliteit van de kosmos, terwijl Jensen wijst op de verborgenheid van God, het lijden in de wereld en het feit dat geloof vooral een verhaal en een taalspel is. Het publiek blijft na afloop verdeeld, en beide sprekers zien het debat als een kwestie van zowel ratio als beleving.",
   "summary_points": [
-    "Beide filosofen waren ooit overtuigd atheïst of areligieus.",
-    "Rutten studeerde wiskunde en ging filosofie doen vanwege zingevingsvragen.",
-    "Jensen vindt de godsvraag relevant omdat niet-gelovigen wereldwijd kwetsbaar zijn.",
-    "Rutten: begin van het universum, fine tuning, bewustzijn, vrije wil en moraal wijzen op een bewuste wereldgrond.",
-    "Rutten is evolutionair theïst: God en evolutie sluiten elkaar niet uit.",
-    "Jensen geeft de voorkeur aan toeval en evolutie boven fine tuning als verklaring.",
-    "Jensen: geloof ontstaat via verhaal, ritueel en taal, niet via argumenten.",
-    "Het argument van de verborgen God en Russells theepot worden besproken.",
-    "Het lijden in de wereld wordt door Rutten beantwoord met Plantinga's Free Will Defense."
+    "Rutten pleit voor een algemeen godsbegrip: een bewust, persoonlijk en onstoffelijk wezen als grond van de werkelijkheid.",
+    "Het absolute begin van ruimte, tijd en materie wijst volgens Rutten op een buitentijdelijke, onstoffelijke oorzaak.",
+    "Fine-tuning van natuurconstanten is voor Rutten een aanwijzing voor opzet; Jensen ziet het als toeval en evolutie.",
+    "Jensen stelt dat een verborgen God onwaarschijnlijk is, en verwijst naar Bertrand Russells theekopje-analogie.",
+    "Het lijden in de wereld is volgens beiden het sterkste argument tegen een goede God, maar Rutten noemt de vrije wil als verklaring.",
+    "Jensen stelt dat geloof vooral een verhaal is dat via gemeenschap en taal wordt overgedragen, en niet via argumenten.",
+    "Rutten ziet ratio, ervaring en beleving als samenhangend; Jensen benadrukt de irrationele kant van geloof.",
+    "Het publiek stemt 60% gelovig, 23% misschien en 17% niet-gelovig; de meerderheid denkt dat argumenten het bestaan van God niet bewijzen of weerleggen.",
+    "Jensen ziet de toekomst als seculierder, Rutten verwacht een theïstische toekomst door ontwikkelingen in wetenschap."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Introductie en voorstelling",
-      "summary": "David Boogerd introduceert Stine Jensen en Emanuel Rutten en grapt over Wie is de Mol."
+      "title": "Introductie en opzet van het debat",
+      "summary": "David Boogerd stelt de sprekers voor en de centrale vraag: bestaat God? Ook de achtergrond van het debat en de zaal-peiling komen aan bod."
     },
     {
-      "start_seconds": 260,
-      "title": "Van atheïst tot ...",
-      "summary": "Beiden vertellen over hun atheïstische verleden en hun persoonlijke weg naar zingeving en spiritualiteit of geloof."
+      "start_seconds": 274,
+      "title": "Van atheïst tot gelovige",
+      "summary": "Beide sprekers vertellen hoe hun standpunt is veranderd: Rutten via Augustinus en de evangeliën, Jensen via yoga en spiritualiteit."
     },
     {
-      "start_seconds": 580,
-      "title": "Peiling in de zaal en belang van de vraag",
-      "summary": "De zaal wordt gepeild en beide gasten leggen uit waarom de godsvraag hen fascineert."
+      "start_seconds": 862,
+      "title": "Argumenten voor Gods bestaan",
+      "summary": "Rutten zet uiteen waarom een bewust wezen als oorsprong redelijk is: het begin van het universum, fine-tuning en de rationele kosmos."
     },
     {
-      "start_seconds": 880,
-      "title": "Ruttens argumenten voor God",
-      "summary": "Rutten bepleit een bewuste wereldgrond op basis van het begin van het universum, fine tuning en bewustzijn."
+      "start_seconds": 1785,
+      "title": "Tegenargumenten: de verborgen God",
+      "summary": "Jensen stelt dat het onwaarschijnlijk is dat God zich nooit toont, en gebruikt Russells theekopje om het debat te nuanceren."
     },
     {
-      "start_seconds": 1200,
-      "title": "Evolutie, toeval en geloof als verhaal",
-      "summary": "Over evolutietheorie, toeval versus opzet en Jensens visie dat geloof een verhaal is."
+      "start_seconds": 2187,
+      "title": "Het lijden in de wereld",
+      "summary": "Het lijden wordt besproken als het sterkste argument tegen God; Rutten verwijst naar Plantinga en de vrije wil."
     },
     {
-      "start_seconds": 1790,
-      "title": "Verborgen God en Russells theepot",
-      "summary": "Jensen brengt de verborgenheid van God en de theepot-vergelijking in; Rutten reageert."
+      "start_seconds": 2647,
+      "title": "Geloof als verhaal of als argument",
+      "summary": "Jensen stelt dat geloof via gemeenschap en taal ontstaat, niet via redenering; Rutten ziet ruimte voor beide."
     },
     {
-      "start_seconds": 2200,
-      "title": "Lijden en vrije wil",
-      "summary": "Het kwaad in de wereld en Plantinga's Free Will Defense komen aan bod."
+      "start_seconds": 3071,
+      "title": "Zaalvragen en peiling",
+      "summary": "Het publiek stelt vragen over polarisatie, de stap naar de christelijke God en de oorsprong van het universum, en de uitslag van de peiling wordt besproken."
+    },
+    {
+      "start_seconds": 3366,
+      "title": "Slotronde: beste argumenten en toekomst",
+      "summary": "Beide sprekers geven hun sterkste argumenten voor en tegen God, en schetsen hun verwachting voor de toekomst van geloof en secularisatie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 308,
-      "speaker": "Stine Jensen",
-      "text": "Ik kreeg fysiek nekklachten en hoofdpijn als ik een kerk binnenkwam.",
-      "note": "Persoonlijk beeld van haar vroegere atheïsme."
-    },
-    {
-      "start_seconds": 825,
-      "speaker": "Stine Jensen",
-      "text": "De vraag of God bestaat is een vraag van leven en dood.",
-      "note": "Maakt de abstracte vraag concreet."
-    },
-    {
-      "start_seconds": 1440,
+      "start_seconds": 940,
       "speaker": "Emanuel Rutten",
-      "text": "Het stadion-voorbeeld: als miljoenen mensen hetzelfde getal omhoog houden, is opzet redelijker dan toeval.",
-      "note": "Beeldende illustratie van het fine tuning argument."
+      "text": "Wij leven op de rand van een scheermes: als de natuurconstanten een iets andere waarde hadden gehad, zou er geen leven zijn ontstaan.",
+      "note": "Het fine-tuning-argument is het centrale punt van Ruttens redenering en legt de basis voor zijn conclusie."
     },
     {
-      "start_seconds": 1680,
-      "speaker": "Stine Jensen",
-      "text": "God is een verhaal, niet een rijtje argumenten.",
-      "note": "Kern van haar tegenstem."
+      "start_seconds": 1452,
+      "speaker": "Emanuel Rutten",
+      "text": "Stel dat een stadion vol mensen tegelijk hetzelfde willekeurige getal omhooghoudt: dan is opzet redelijker dan toeval.",
+      "note": "Een treffende analogie waarmee Rutten fine-tuning als aanwijzing voor opzet verdedigt."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 1682,
       "speaker": "Stine Jensen",
-      "text": "Je kunt ook niet bewijzen dat een theekop in het heelal niet bestaat.",
-      "note": "Russells theepot als argument voor atheïsme."
+      "text": "God is een verhaal, een concept, maar niet een rijtje argumenten.",
+      "note": "Jensens kernstelling: geloof ontstaat via taal en gemeenschap, niet via logica, en dat maakt het volgens haar onbereikbaar voor redelijke overtuiging."
+    },
+    {
+      "start_seconds": 2225,
+      "speaker": "David Boogerd",
+      "text": "Misschien wel het belangrijkste argument tegen God: al die ellende in de wereld.",
+      "note": "Boogerd benoemt het lijden als de meest geliefde tegenwerping, wat het debat richting de theodicee stuurt."
     }
   ],
   "keywords": [
     "God",
-    "atheïsme",
-    "fine tuning",
-    "Alvin Plantinga",
-    "Bertrand Russell",
-    "evolutie",
-    "lijden",
-    "vrije wil",
-    "bewustzijn",
-    "toeval",
-    "Augustinus",
-    "spiritualiteit"
+    "Fine-tuning",
+    "Atheïsme",
+    "Theïsme",
+    "Oerknal",
+    "Lijden",
+    "Verborgenheid van God",
+    "Geloof",
+    "Redelijkheid",
+    "Oorsprong van de werkelijkheid",
+    "Bekering",
+    "Secularisatie"
   ],
-  "quotes": [],
+  "quotes": [
+    "De vraag naar het bestaan van God is geen abstracte filosofische vraag",
+    "Stine gelooft niet in God want waarom houdt hij of zij zich dan zo verborgen?",
+    "het kan volgens haar zelfs een kwestie zijn van leven en dood"
+  ],
   "similar": [
     {
-      "n": 6,
-      "reason": "Emanuel Rutten over godsbewijzen en de vraag of God bestaat"
-    },
-    {
       "n": 189,
-      "reason": "Rutten: argumenten voor het bestaan van God zijn beter dan ooit"
+      "reason": "Emanuel Rutten over de sterke argumenten voor het bestaan van God."
     },
     {
-      "n": 207,
-      "reason": "Stine Jensen (atheïst) en Rik Peels in gesprek over God en atheïsme"
-    },
-    {
-      "n": 238,
-      "reason": "Thomas van Aquino, bestaat God en de oorsprong van het universum"
+      "n": 6,
+      "reason": "Emanuel Rutten over godsbewijzen en de vraag of God bestaat."
     },
     {
       "n": 316,
-      "reason": "Topwetenschappers incl. Rutten over het bestaan van God"
+      "reason": "Best Of-aflevering over het bestaan van God met Emanuel Rutten en wetenschappers."
+    },
+    {
+      "n": 238,
+      "reason": "Thomas van Aquino over het bestaan van God en het geluk."
+    },
+    {
+      "n": 207,
+      "reason": "Stine Jensen en Rik Peels over het veranderende debat rond God en atheïsme."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

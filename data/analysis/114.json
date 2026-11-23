@@ -1,17 +1,22 @@
 {
   "episode": 114,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118623,
+    "segments": 1334,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30914,
-    "output_tokens": 2232,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 60901,
+    "output_tokens": 7357,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
     "Politiek",
     "Klimaat & natuur",
+    "Samenleving & migratie",
     "Kerk & secularisatie"
   ],
   "guests": [
@@ -19,83 +24,113 @@
   ],
   "people": [
     {
-      "name": "Karel Smouter",
-      "note": "NRC-journalist en auteur van Blauw Wit Rood",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 2861787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karel_Smouter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Karel_Smouter_2015_%2817743432948%29.jpg/250px-Karel_Smouter_2015_%2817743432948%29.jpg"
-    },
-    {
-      "name": "Caroline van der Plas",
-      "note": "oprichter en leider van de BoerBurgerBeweging",
-      "start_seconds": 1105,
-      "wiki_checked": true,
-      "wiki_pageid": 5503682,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Caroline_van_der_Plas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caroline_van_der_Plas.jpg/250px-Caroline_van_der_Plas.jpg"
+      "name": "Abraham Kuyper",
+      "note": "Christelijk leider wiens verjaardag en overlijden Friese boeren in Den Haag vierden; symbool van de zuil",
+      "start_seconds": 2248,
+      "mention_count": 3
     },
     {
       "name": "Johan Remkes",
-      "note": "adviseur in het stikstofdossier, bracht rapport uit",
+      "note": "Stikstofcommissaris wiens rapport boeren ontroerde en als staatsmanschap werd gezien",
       "start_seconds": 1562,
-      "wiki_checked": true,
-      "wiki_pageid": 3815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_Remkes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/JRemkes.jpg/250px-JRemkes.jpg"
+      "mention_count": 7
+    },
+    {
+      "name": "Caroline van der Plas",
+      "note": "Oprichter van de BoerBurgerBeweging, eerder journalist en communicatiedeskundige",
+      "start_seconds": 1097,
+      "mention_count": 4
     },
     {
       "name": "Carola Schouten",
-      "note": "voormalig landbouwminister",
-      "start_seconds": 1546,
-      "wiki_checked": true,
-      "wiki_pageid": 2169517,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carola_Schouten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vicepremier_Carola_Schouten_%28cropped%29.jpg/250px-Vicepremier_Carola_Schouten_%28cropped%29.jpg"
+      "note": "Landbouwminister die probeerde een positief verhaal uit te dragen",
+      "start_seconds": 1542,
+      "mention_count": 1
     },
     {
       "name": "Geert de Groot",
-      "note": "D66-politicus die in 2019 pleitte voor halvering van de veestapel",
-      "start_seconds": 1355,
-      "wiki_checked": true
-    },
-    {
-      "name": "Yvonne Jaspers",
-      "note": "tv-maker met programma's over boeren",
-      "start_seconds": 576,
-      "wiki_checked": true
+      "note": "D66-politicus wiens interview over halvering van de veestapel de lont in het kruitvat was",
+      "start_seconds": 1348,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "sprak steun uit voor de Nederlandse boeren",
-      "start_seconds": 2057,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president die zich achter de Nederlandse boeren zou hebben geschaard; ook als voorbeeld van populisme en klimaatakkoord-opzegging",
+      "start_seconds": 1079,
+      "mention_count": 3
+    },
+    {
+      "name": "Margaret Thatcher",
+      "note": "Britse premier die vroege waarschuwingen over milieu uitsprak en icoon van vrije markt was",
+      "start_seconds": 3011,
+      "mention_count": 3
+    },
+    {
+      "name": "Roger Scruton",
+      "note": "Britse conservatieve filosoof, inspirator van Baudet, schreef over natuurbehoud",
+      "start_seconds": 3029,
+      "mention_count": 2
+    },
+    {
+      "name": "Edmund Burke",
+      "note": "Aartsvader van het conservatisme; beeld van de staat als tuinman en verticaal verbond van generaties",
+      "start_seconds": 3040,
+      "mention_count": 2
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "Symbool van de schepping als broeder en zuster",
+      "start_seconds": 2574,
+      "mention_count": 3
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof van de mens als meester en bezitter van de natuur",
+      "start_seconds": 2574,
+      "mention_count": 2
+    },
+    {
+      "name": "Jean-Jacques Rousseau",
+      "note": "Vertegenwoordiger van het romantische beeld van wildernis; rewilding-beweging",
+      "start_seconds": 2600,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus wiens moord leidde tot onrust in oude stadswijken; vergelijking met boerenopstand",
+      "start_seconds": 2307,
+      "mention_count": 1
     },
     {
       "name": "Sigmund Freud",
-      "note": "psychoanalyticus, 'narcisme van het geringe verschil'",
+      "note": "Verwijzing naar het narcisme van het geringe verschil",
       "start_seconds": 972,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Marianne Timmer",
+      "note": "Politica die in talkshows het dierenbelang vertegenwoordigde",
+      "start_seconds": 3477,
+      "mention_count": 1
+    },
+    {
+      "name": "Yvonne Jaspers",
+      "note": "Televisiemaakster met portretten van boeren",
+      "start_seconds": 576,
+      "mention_count": 1
+    },
+    {
+      "name": "Homerus",
+      "note": "Dichter die vruchtbare grond als mooi land beschrijft",
+      "start_seconds": 2806,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Blauw Wit Rood: de boerenopstand als spiegel voor Nederland",
+      "title": "Blauw, wit, rood: De boerenopstand als spiegel voor Nederland",
       "author": "Karel Smouter",
-      "note": "boek over de boerenopstand als culturele spiegel",
+      "note": "Centraal boek van de aflevering over de boerenprotesten en oplossingen",
       "start_seconds": 24,
       "volume_id": "QZSSEAAAQBAJ",
       "canonical_title": "Blauw wit rood: De boerenopstand als spiegel voor Nederland",
@@ -107,147 +142,142 @@
   ],
   "bible_refs": [
     {
-      "ref": "Romeinen 12",
-      "note": "trouwtekst van Karel Smouter en zijn vrouw, over leven in vrede met elkaar",
+      "ref": "Romeinen 12:18",
+      "note": "Trouwtekst die Stefan Paas gebruikte; 'leef in vrede met de wereld'",
       "start_seconds": 119
     }
   ],
   "places": [
-    "Nederland",
-    "Randstad",
-    "Den Haag",
-    "Malieveld",
     "Staphorst",
+    "Kootwijkerbroek",
+    "Stroe",
     "Boxtel",
     "Almen",
     "Deventer",
-    "Breukelen",
-    "Groningen",
-    "Drenthe",
     "Hoogeveen",
-    "Oostvaardersplassen",
-    "Brabant",
-    "Wageningen"
+    "Veluwe",
+    "Breukelen",
+    "Den Haag",
+    "Groningen",
+    "Friesland",
+    "Barneveld",
+    "Ede"
   ],
-  "summary_tldr": "Journalist Karel Smouter bespreekt zijn boek over de boerenopstand als spiegel voor Nederland, met Stefan Paas en David Boogerd. De boeren ervaren een existentiële angst om afgeschaft te worden, en daaronder ligt een culturele kloof tussen Randstad en periferie. Betere communicatie en een positief toekomstverhaal had volgens Smouter polarisatie kunnen voorkomen.",
+  "summary_tldr": "Karel Smouter bespreekt zijn boek over de boerenopstand als spiegel voor Nederland, waarin stikstof slechts een onderdeel is van een bredere kloof tussen stad en platteland. Het gesprek gaat over identiteit, verzuiling, het verdwenen verbond tussen God, het CDA en de boerderij, en de rol van communicatie en polarisatie. Smouter pleit voor constructieve journalistiek met oplossingen die verder gaan dan het aanwijzen van brandhaarden.",
   "summary_points": [
-    "De omgekeerde vlag symboliseert nood en een existentiële angst onder boeren.",
-    "Al in 2019 zag Smouter de spanning tussen Randstad en periferie, nog voor stikstof speelde.",
-    "Een D66-interview over halvering van de veestapel was de lont in het kruitvat.",
-    "Boeren zijn tegenwoordig geprofessionaliseerd en economisch sterk; grote bedrijven financieren acties mee.",
-    "De BoerBurgerBeweging groeit door solidariteit met boeren als 'oer-Nederlanders'.",
-    "Remkes stelt dat stikstof deels een communicatieprobleem van de overheid is.",
-    "Banken en politiek hebben boeren richting schaalvergroting gedwongen; empathie is nodig.",
-    "Veel boeren willen verder verduurzamen; Stefan Paas pleit voor landbouw in harmonie met natuur.",
-    "Randstad is minder dominant dan gedacht: 2/3 van het bruto nationaal product komt van buiten de vier grote steden.",
-    "Populisme en alt-right media exploiteren bestaande onvrede."
+    "De boerenopstand gaat over meer dan stikstof en raakt aan identiteit, cultuur en religie.",
+    "Boeren voelen existentiële angst om afgeschaft te worden, versterkt door een communicatieprobleem van de overheid.",
+    "De kloof tussen Randstad en periferie wordt versterkt door media en het gevoel van machteloosheid.",
+    "Verzuiling en secularisatie hebben het vanzelfsprekende verbond tussen geloof, CDA en boerderij doen verdwijnen.",
+    "Het Nederlandse landschap is historisch een cultuurlandschap; de natuur wordt door het bedrijfsmodel als concurrent gezien.",
+    "Populisme en economische belangen, zoals communicatiebureaus en grote bedrijven, versterken de polarisatie.",
+    "Conservatisme en groene thema's zouden samen kunnen gaan; Thatcher en Burke worden als voorbeelden genoemd.",
+    "Smouter pleit voor bluswater: tolerantie, langetermijnbeleid, inspraak en burgerraden als oplossing."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en persoonlijke band",
-      "summary": "Smouter en Paas kennen elkaar van het huwelijk; de gasten introduceren hun band met het boerenleven."
+      "title": "Inleiding en persoonlijke binding",
+      "summary": "David Boogerd en Stefan Paas verwelkomen Karel Smouter, met wat persoonlijke anekdotes over het huwelijk en de trouwtekst."
     },
     {
-      "start_seconds": 180,
-      "title": "Hoe het begon: de omgekeerde vlag",
-      "summary": "Smouter vertelt over zijn eerste ontmoeting met de existentiële angst van boeren in 2019."
+      "start_seconds": 253,
+      "title": "Hoe de protesten begonnen",
+      "summary": "Smouter vertelt over de boer die in 2019 de politie belde na een stalbezetting en over de existentiële angst die hij ontdekte."
     },
     {
-      "start_seconds": 636,
-      "title": "Randstad versus periferie",
-      "summary": "De emancipatie van de periferie en de betekenis van de omgekeerde vlag."
+      "start_seconds": 453,
+      "title": "Boerenafkomst en band met natuur",
+      "summary": "Stefan Paas deelt zijn boerenachtergrond en zijn liefde voor de natuur, en stelt het verdwijnen van het cultuurlandschap aan de orde."
     },
     {
-      "start_seconds": 900,
-      "title": "Professionalisering en de BoerBurgerBeweging",
-      "summary": "Over de moderne boer, financiering door bedrijven en de opkomst van Caroline van der Plas."
+      "start_seconds": 794,
+      "title": "Symboliek van de vlag en de kloof",
+      "summary": "De omgekeerde vlag en de stad-platteland spanning worden besproken, evenals de opkomst van de periferie en de rol van de media."
     },
     {
-      "start_seconds": 1290,
-      "title": "Stikstof en communicatie",
-      "summary": "Het D66-interview, de polarisatie en de rol van Remkes en een positief toekomstperspectief."
+      "start_seconds": 1418,
+      "title": "Stikstof, D66 en het Remkes-rapport",
+      "summary": "De stikstofcrisis en communicatiefouten van de overheid worden besproken, met het Remkes-rapport als staatsmanschap."
     },
     {
-      "start_seconds": 1680,
-      "title": "Landbouw en natuur",
-      "summary": "Paas en Smouter over cultuurlandschap, banken en empathie voor boeren."
+      "start_seconds": 2400,
+      "title": "Natuur, schepping en religieuze visies",
+      "summary": "Discussie over Franciscus versus Descartes, het instrumentele natuurbeeld en de cultuur van beheersing van het landschap."
     },
     {
-      "start_seconds": 1860,
-      "title": "Identiteit en populisme",
-      "summary": "De Randstad-mythe en hoe populisten onvrede exploiteren."
+      "start_seconds": 3130,
+      "title": "Conservatisme, polarisatie en oplossingen",
+      "summary": "Opiniepakketten, groen conservatisme en het bluswater van Smouter: tolerantie, inspraak en langetermijnbeleid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1393,
+      "start_seconds": 2924,
       "speaker": "Karel Smouter",
-      "text": "In de oren van een boer klinkt het alsof zij gehalveerd moeten worden.",
-      "note": "Vat de emotionele impact van de veestapelhalvering samen."
+      "text": "Dat is een van de dingen die ik wonderlijk vind: conservatieve mensen doen ineens ontzettend niet-conservatieve dingen.",
+      "note": "Ironische vaststelling dat in het traditionele Bijbelgordel-gebied vlaggen op z'n kop gingen."
     },
     {
-      "start_seconds": 1042,
+      "start_seconds": 1418,
+      "start_seconds_note": null,
       "speaker": "Karel Smouter",
-      "text": "Hengelo praat tegenwoordig terug tegen Hilversum.",
-      "note": "Treffend beeld van de nieuwe mondigheid van de periferie."
+      "text": "Jullie waren de kampioenen van de landbouw in de 20e eeuw; de afgelopen decennia zijn de afslagen verkeerd geweest.",
+      "note": "Scherpe maar constructieve kritiek op schaalvergroting en het beleid van kabinetten en banken."
     },
     {
-      "start_seconds": 1170,
+      "start_seconds": 2169,
       "speaker": "Karel Smouter",
-      "text": "Die boeren zijn een soort oer-Nederlanders die onze strijd voeren.",
-      "note": "Verklaart de brede steun voor de boerenbeweging."
+      "text": "Het Calimero-gevoel was er altijd al, maar Calimero begint nu van zich af te bijten.",
+      "note": "Pakkende metafoor voor het gevoel van de periferie dat zich nu actief doet gelden."
     },
     {
-      "start_seconds": 1757,
+      "start_seconds": 2400,
       "speaker": "Stefan Paas",
-      "text": "Verzuurd, vermest, verdroogd, groen industrieterrein.",
-      "note": "Scherpe typering van het huidige landschap."
-    },
-    {
-      "start_seconds": 1790,
-      "speaker": "Karel Smouter",
-      "text": "De verontwaardiging richting boeren mag ook gevoeld worden richting banken en politici.",
-      "note": "Verlegt de schuldvraag."
+      "text": "Men is vervreemd geraakt van eeuwenoude geloofstradities en van de schepping, door schaalvergroting.",
+      "note": "Theologische duiding van de vervreemding die ook breder in Nederland speelt."
     }
   ],
   "keywords": [
     "boerenopstand",
     "stikstof",
-    "BoerBurgerBeweging",
-    "Randstad",
-    "periferie",
+    "verzuiling",
+    "secularisatie",
     "identiteit",
     "polarisatie",
-    "populisme",
-    "verduurzaming",
     "cultuurlandschap",
-    "Johan Remkes",
-    "existentiële angst"
+    "rentmeesterschap",
+    "populisme",
+    "stad-platteland kloof",
+    "conservatisme",
+    "schepping"
   ],
   "quotes": [
-    "Het vanzelfsprekende verbond tussen God, het CDA en de boerderij is opgegeven."
+    "Het vanzelfsprekende verbond tussen God, het CDA en de boerderij is opgegeven.",
+    "Smouter beschrijft niet alleen de brandhaarden, hij komt ook met bluswater, oplossingen dus."
   ],
   "similar": [
     {
       "n": 136,
-      "reason": "BBB, boerenprotest en de culturele kloof; Politiek en Kerk, met Josse de Voogd en Stefan Paas"
-    },
-    {
-      "n": 48,
-      "reason": "Carola Schouten en stikstof; maakbare samenleving en politiek"
+      "reason": "BBB, bloemkoolwijken en het platteland tegenover de stad, sterk aansluitend bij het boerenthema"
     },
     {
       "n": 133,
-      "reason": "Winst van BBB en extreme opvattingen; politiek en polarisatie"
+      "reason": "Politieke onvrede, BBB-succes en religie als verklaring voor polarisatie"
     },
     {
-      "n": 126,
-      "reason": "De kloof tussen groepen in Nederland; moraal en grote verhalen"
+      "n": 48,
+      "reason": "Carola Schouten over maakbaarheid, klimaat en samenleving; deelt gast-achtige politieke context"
     },
     {
-      "n": 252,
-      "reason": "Politiek verliest zijn ziel; onvrede en Caroline van der Plas' invloed"
+      "n": 156,
+      "reason": "CDA-denken, christendemocratie en het verband tussen geloof en politiek"
+    },
+    {
+      "n": 15,
+      "reason": "Verweesde samenleving en identiteit, verwant aan verzuiling en het verlies van verbondenheid"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

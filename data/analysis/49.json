@@ -1,18 +1,23 @@
 {
   "episode": 49,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 75641,
+    "segments": 545,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30000,
-    "output_tokens": 2954,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 37661,
+    "output_tokens": 3049,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Kerk & secularisatie",
+    "Zingeving & psyche",
     "Filosofie & ethiek",
-    "Zingeving & psyche"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Dennis Vanden Auweele"
@@ -20,167 +25,113 @@
   "people": [
     {
       "name": "Friedrich Nietzsche",
-      "note": "filosoof; 'als God er is, zou ik een god willen zijn'",
-      "start_seconds": 570,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "James Joyce",
-      "note": "schrijver van Ulysses, 'a shout in the street'",
-      "start_seconds": 1355,
-      "wiki_checked": true,
-      "wiki_pageid": 6125,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Joyce",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Revolutionary_Joyce_Better_Contrast.jpg/250px-Revolutionary_Joyce_Better_Contrast.jpg"
-    },
-    {
-      "name": "Emmanuel Rutte",
-      "note": "filosoof, eerdere gast in de podcast over godsbewijzen",
-      "start_seconds": 1434,
-      "wiki_checked": true
-    },
-    {
-      "name": "Paulus",
-      "note": "apostel, 'in Hem leven en bewegen wij'",
-      "start_seconds": 1452,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "Jean-Luc Marion",
-      "note": "Franse filosoof; over God spreken versus tot God spreken",
-      "start_seconds": 1465,
-      "wiki_checked": true,
-      "wiki_pageid": 2151356,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Luc_Marion",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Jean-Luc_Marion.png/250px-Jean-Luc_Marion.png"
-    },
-    {
-      "name": "Plato",
-      "note": "filosoof; dialoog Euthydemus met het beeld van de leeuwerikjes",
-      "start_seconds": 1499,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
-    },
-    {
-      "name": "Socrates",
-      "note": "vergelijkt filosofie met kinderen die leeuwerikjes vangen",
-      "start_seconds": 1499,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
-    },
-    {
-      "name": "Martin Heidegger",
-      "note": "filosoof; God van de filosofen waarvoor je niet kunt dansen en bidden",
-      "start_seconds": 1549,
-      "wiki_checked": true,
-      "wiki_pageid": 12620,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Heidegger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Heidegger_4_%281960%29_cropped.jpg/250px-Heidegger_4_%281960%29_cropped.jpg"
+      "note": "filosoof; aangehaald over God en de wil tot autonomie",
+      "start_seconds": 543,
+      "mention_count": 3
     },
     {
       "name": "Søren Kierkegaard",
-      "note": "filosoof; geloof van de middelmatige persoon",
+      "note": "filosoof; het geloof van de middelmatige persoon",
       "start_seconds": 1616,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
-    },
-    {
-      "name": "Friedrich Schelling",
-      "note": "Duitse filosoof; ervaring gaat vooraf aan taal en geloof",
-      "start_seconds": 1999,
-      "wiki_checked": true,
-      "wiki_pageid": 342599,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_von_Schelling",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Friedrich_Wilhelm_Joseph_Schelling%2C_1848_daguerreotype_-_cropped.jpg/250px-Friedrich_Wilhelm_Joseph_Schelling%2C_1848_daguerreotype_-_cropped.jpg"
+      "mention_count": 1
     },
     {
       "name": "Richard Dawkins",
-      "note": "atheïstisch auteur, genoemd als voorbeeld van militant atheïsme",
+      "note": "atheïstische auteur; genoemd als voorbeeld van atheïstische boeken",
       "start_seconds": 1085,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Plato",
+      "note": "filosoof; dialoog Euthydemus over filosofie als vogeltjes vangen",
+      "start_seconds": 1500,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "figuur in Plato's Euthydemus",
+      "start_seconds": 1500,
+      "mention_count": 1
     },
     {
       "name": "Martin Luther King",
-      "note": "christelijke held met passie",
-      "start_seconds": 814,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "note": "voorbeeld van christelijke held met passie",
+      "start_seconds": 820,
+      "mention_count": 1
     },
     {
-      "name": "Óscar Romero",
-      "note": "christelijke held met passie",
-      "start_seconds": 814,
-      "wiki_checked": true,
-      "wiki_pageid": 105555,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/%C3%93scar_Romero",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/O.Romero_1979_autographed_photo.jpg/250px-O.Romero_1979_autographed_photo.jpg"
+      "name": "Romero",
+      "note": "Oscar Romero, christelijke held uit het recentere verleden",
+      "start_seconds": 820,
+      "mention_count": 1
     },
     {
       "name": "Mozes",
-      "note": "gepassioneerde religieuze figuur",
+      "note": "bijbelse figuur die gepassioneerd was",
       "start_seconds": 745,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
-    },
-    {
-      "name": "Jezus",
-      "note": "gepassioneerde religieuze figuur",
-      "start_seconds": 745,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "mention_count": 1
     },
     {
       "name": "Abraham",
-      "note": "individu dat zich liet aanspreken",
-      "start_seconds": 806,
-      "wiki_checked": true,
-      "wiki_pageid": 20447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Abram_%28Biblical%29.jpg/250px-Abram_%28Biblical%29.jpg"
+      "note": "bijbelse figuur die individueel handelde",
+      "start_seconds": 800,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "bijbelse figuur; besproken als raadgever en niet inhoudelijk gethematiseerd",
+      "start_seconds": 745,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Heidegger",
+      "note": "filosoof; genoemd in verband met God van de filosofen",
+      "start_seconds": 1560,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Schelling",
+      "note": "Duitse filosoof; argument over religie als nakomeling van ervaring",
+      "start_seconds": 2000,
+      "mention_count": 1
+    },
+    {
+      "name": "Dante Alighieri",
+      "note": "auteur van de Divina Commedia; zelfmoordenaars in de hel",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "James Joyce",
+      "note": "auteur van Ulysses; citaat 'What is God? A shout in the street'",
+      "start_seconds": 1370,
+      "mention_count": 1
+    },
+    {
+      "name": "Jean Chrétien",
+      "note": "Franse filosoof; over spreken tot en over God",
+      "start_seconds": 1480,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "gast uit eerdere podcast over bewijzen voor God",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; 'in hem leven, bewegen en zijn'",
+      "start_seconds": 1440,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Bekentenissen van een afvallige atheïst",
       "author": "Dennis Vanden Auweele",
-      "note": "winnaar Vlaamse Publieksprijs 2019 voor beste religieuze boek",
-      "start_seconds": 2,
+      "note": "boek over religie en zijn eigen weg; won de Vlaamse Publieksprijs 2019",
+      "start_seconds": 600,
       "volume_id": "_bHOwQEACAAJ",
       "canonical_title": "Bekentenissen van een afvallige atheïst",
       "canonical_author": "Dennis Vanden Auweele",
@@ -191,168 +142,150 @@
     {
       "title": "Ulysses",
       "author": "James Joyce",
-      "note": "bron van de zin 'What is God? A shout in the street'",
-      "start_seconds": 1355,
-      "volume_id": "WVofz29Hx9UC",
+      "note": "geciteerd over God als schreeuw in de straat",
+      "start_seconds": 1370,
+      "volume_id": "AANAQwAACAAJ",
       "canonical_title": "Ulysses",
       "canonical_author": "James Joyce",
-      "isbn13": "9780192834645",
-      "isbn10": "0192834649",
-      "thumbnail": "http://books.google.com/books/content?id=WVofz29Hx9UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Euthydemus",
-      "author": "Plato",
-      "note": "beeld van filosofie als leeuwerikjes vangen",
-      "start_seconds": 1499,
-      "volume_id": "C9oXvQEACAAJ",
-      "canonical_title": "Euthydemus",
-      "canonical_author": "Plato",
-      "isbn13": "9781728719351",
-      "isbn10": "1728719356",
-      "thumbnail": "http://books.google.com/books/content?id=C9oXvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9781449560256",
+      "isbn10": "1449560253",
+      "thumbnail": "http://books.google.com/books/content?id=AANAQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1:27",
+      "note": "niet expliciet aangehaald; weggelaten",
+      "start_seconds": null
+    }
+  ],
   "places": [
     "Leuven",
     "Groningen",
-    "België",
     "Nederland",
-    "Noord-Ierland",
-    "Ierland",
+    "België",
     "Vietnam",
+    "Ierland",
     "China",
     "Westelijke Jordaanoever",
-    "Amerika",
-    "Zweden"
+    "Noord-Ierland"
   ],
-  "summary_tldr": "Godsdienstfilosoof Dennis Vanden Auweele vertelt hoe hij van gepassioneerd atheïst een 'afvallige atheïst' werd, zonder de vraag naar Gods bestaan centraal te stellen. Hij pleit voor een herwaardering van religie als ervaring van 'het meer', gemeenschap en menselijke waardigheid los van prestaties. Met Stefan Paas bespreekt hij verschillen tussen katholieke en protestantse secularisatie en de snelle opmars van het atheïsme.",
+  "summary_tldr": "Dennis Vanden Auweele, godsdienstfilosoof en voormalig gepassioneerd atheïst, vertelt hoe hij van zijn ongeloof viel en pleit voor een herwaardering van religie als beleving van een 'meer' en als gemeenschap. Hij vindt de vraag of God bestaat weinig interessant en ziet atheïsme als snelst gegroeide ideologie. Het gesprek gaat over secularisatie, eenzaamheid, waardigheid los van prestatie en de grenzen van taal over God.",
   "summary_points": [
-    "In België wordt weinig over religie gepraat, in Nederland draait het vaak om de vraag of God bestaat.",
-    "Vanden Auweele voelde zich pas katholiek toen hij in het calvinistische Nederland werkte.",
-    "Hij onderscheidt religie (ervaring van een 'meer') van geloof (leerstellingen).",
-    "Zijn atheïsme was een punk-achtige passie, maar uiteindelijk een 'lege maaltijd'.",
-    "Gepassioneerde atheïsten en apologeten twijfelen mogelijk meer dan de gemiddelde gelovige.",
-    "God definiëren knijpt het leven eruit, zoals een leeuwerikje dat je dichtknijpt.",
-    "Religie bevestigt menselijke waardigheid los van prestaties, bijvoorbeeld via doop en begrafenis.",
-    "Atheïsme groeide in 200 jaar tot circa 16% van de wereldbevolking, vaak samenhangend met een sterke verzorgingsstaat.",
-    "Stefan Paas twijfelt of de religieuze ervaring universeel is of cultureel bemiddeld.",
-    "Geloofsgemeenschappen verdwijnen; mensen zoeken gemeenschap bijvoorbeeld bij voetbalclubs."
+    "Vanden Auweele was een gepassioneerd atheïst, gedreven door een punkachtige passie voor individualiteit en verzet tegen conformisme.",
+    "Hij vindt de vraag of God bestaat de minst interessante vraag; belangrijker is de religieuze ervaring van 'het meer'.",
+    "Religie wordt door hem gedefinieerd als gemeenschap en verbondenheid (religare), niet als leerstellige waarheidsaanspraak.",
+    "Hij onderscheidt Nederlands calvinistisch-lutherse nadruk op geloofsinhoud van katholieke nadruk op rituelen en ervaring.",
+    "Hij ziet eenzaamheid als oorzaak van zelfmoord en koppelt die aan de prestatiemaatschappij en het ontbreken van waardigheid los van verdienste.",
+    "Het gesprek over secularisatie wijst op existentiële zekerheid als verklaring voor lagere religiositeit in welvarende landen.",
+    "Taal over God schiet volgens de gesprekspartners tekort; gebed en aanbidding passen beter dan debat en beschrijving.",
+    "Atheïsme groeide snel sinds de 19e eeuw, maar Vanden Auweele verwacht dat dit zich kan terugtrekken als gemeenschapsbehoefte wordt vervuld.",
+    "Vanden Auweele en Paas bespreken of de ervaring van waardigheid universeel is of cultureel bepaald."
   ],
   "chapters": [
     {
-      "start_seconds": 34,
-      "title": "België versus Nederland",
-      "summary": "Verschillen in het praten over religie en Dennis' katholieke gevoel in Groningen."
+      "start_seconds": 0,
+      "title": "Inleiding en Belgisch-Nederlandse verschillen",
+      "summary": "Boogerd introduceert Vanden Auweele en het verschil tussen religieuze gesprekken in België en Nederland."
     },
     {
-      "start_seconds": 386,
-      "title": "Religie versus geloof",
-      "summary": "Dennis legt uit wat hij onder religie verstaat: het beleven van 'het meer'."
+      "start_seconds": 300,
+      "title": "Katholiek versus protestants",
+      "summary": "Paas en Vanden Auweele vergelijken katholieke en protestantse secularisatie en religieuze taal."
     },
     {
       "start_seconds": 600,
-      "title": "De afvallige atheïst",
-      "summary": "Zijn gepassioneerde, punk-achtige atheïsme en waarom dat uiteindelijk leeg bleek."
+      "title": "Het afvallige atheïsme",
+      "summary": "Vanden Auweele vertelt over zijn passie voor atheïsme, zijn punkverleden en zijn terugkeer naar het geloof."
     },
     {
-      "start_seconds": 1157,
-      "title": "Twijfel bij atheïsten en apologeten",
-      "summary": "Vergelijking met eetstoornissen en het idee van tent versus stenen huis."
+      "start_seconds": 1100,
+      "title": "God, taal en ervaring",
+      "summary": "Discussie over of God benoemd kan worden en over de grenzen van filosofische taal."
     },
     {
-      "start_seconds": 1200,
-      "title": "God benoemen en de leeuwerikjes",
-      "summary": "Over de moeite met het woord God, taal over God en Kierkegaard over bewijs."
+      "start_seconds": 1800,
+      "title": "Waardigheid en gemeenschap",
+      "summary": "Vanden Auweele pleit voor waardigheid los van prestatie en religie als gemeenschapsvorming."
     },
     {
-      "start_seconds": 1660,
-      "title": "Menselijke waardigheid en universaliteit",
-      "summary": "Religie als herverbinding en waardigheid los van prestatie; kritiek van Paas op universaliteit."
+      "start_seconds": 2300,
+      "title": "Secularisatie en zelfmoord",
+      "summary": "Bespreking van secularisatietheorieën en de link tussen religie, gemeenschap en zelfmoordcijfers."
     },
     {
-      "start_seconds": 2105,
-      "title": "Opkomst van het atheïsme",
-      "summary": "Atheïsme als snelst gegroeide ideologie en de rol van de verzorgingsstaat."
-    },
-    {
-      "start_seconds": 2400,
-      "title": "Herwaardering van religie en gemeenschap",
-      "summary": "Waarom geloofsgemeenschappen belangrijker zijn dan kerkgebouwen, met voetbalclubs als voorbeeld."
+      "start_seconds": 2900,
+      "title": "Toekomst van atheïsme en afsluiting",
+      "summary": "Speculatie over de toekomst van atheïsme en het ontbreken van Jezus in het boek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2,
-      "speaker": "Dennis Vanden Auweele",
-      "text": "Ik heb een heel boek over religie geschreven waarin ik God ongeveer 7,5 keer noem.",
-      "note": "Illustreert zijn afkeer van de vraag of God bestaat."
-    },
-    {
-      "start_seconds": 981,
-      "speaker": "Dennis Vanden Auweele",
-      "text": "Atheïsme was bijna een religieuze passie, een lege maaltijd.",
-      "note": "Persoonlijke terugblik op zijn punk- en atheïstische jaren."
-    },
-    {
-      "start_seconds": 982,
-      "speaker": "Dennis Vanden Auweele",
-      "text": "Atheïsten zijn als anorexiapatiënten: ze zijn ongewoon met eten bezig.",
-      "note": "Scherpe analogie voor obsessief atheïsme."
-    },
-    {
       "start_seconds": 1370,
       "speaker": "Dennis Vanden Auweele",
-      "text": "God is een schreeuw in de straat.",
-      "note": "Poëtisch beeld voor religieuze ervaring."
+      "text": "What is God? A shout in the street.",
+      "note": "Een poëtische omschrijving van God die de spanning tussen aanwezigheid en afwezigheid verwoordt."
     },
     {
-      "start_seconds": 1778,
+      "start_seconds": 2050,
       "speaker": "Dennis Vanden Auweele",
-      "text": "Begraaf uw doden: ook wie niets meer kan, telt nog mee.",
-      "note": "Ontroerend voorbeeld van waardigheid los van prestatie."
+      "text": "Religie is dus het beleven van die gemeenschap.",
+      "note": "Religie wordt herdefinieerd als gemeenschapsbeleving in plaats van leerstelling."
+    },
+    {
+      "start_seconds": 2430,
+      "speaker": "Dennis Vanden Auweele",
+      "text": "Dat men probeert iets te zijn door niets te zijn.",
+      "note": "Een scherpe analyse van zelfmoord als poging om erkenning te krijgen."
+    },
+    {
+      "start_seconds": 2850,
+      "speaker": "Dennis Vanden Auweele",
+      "text": "Geloven of een geloof hebben is een beetje zoals een piemel. Je mag het hebben, maar hou het in je broek.",
+      "note": "Een humoristische maar scherpe verwoording van de privatisering van geloof in Nederland."
     }
   ],
   "keywords": [
     "atheïsme",
-    "religie",
-    "afvallige atheïst",
-    "menselijke waardigheid",
     "secularisatie",
-    "katholicisme",
-    "calvinisme",
     "religieuze ervaring",
-    "geloofsgemeenschap",
-    "Kierkegaard",
+    "gemeenschap",
+    "waardigheid",
+    "religare",
+    "zingeving",
+    "eenzaamheid",
     "Nietzsche",
-    "punk"
+    "protestants versus katholiek",
+    "zelfmoord",
+    "geloof"
   ],
   "quotes": [
-    "Godsdienstfilosoof Dennis Vanden Auweele was een gepassioneerd atheïst, tot hij van zijn ongeloof viel.",
-    "Hoewel Dennis pleit voor een herwaardering van religie, vindt hij de vraag of God bestaat maar oninteressant.",
-    "Hij noemt het atheïsme de snelst gegroeide ideologie ooit."
+    "Als God er is, dan zou ik een god willen zijn.",
+    "Ik ben een dertiger en dertigers, wij worden afgerekend op onze laatste prestatie.",
+    "Ik denk niet dat per se de ontkerkelijking het grote probleem is."
   ],
   "similar": [
     {
-      "n": 190,
-      "reason": "Fervent atheïst die tot geloof komt; filosofische zoektocht naar waarheid en God"
+      "n": 207,
+      "reason": "Debat over God en atheïsme, met filosofen Stine Jensen en Rik Peels, zoals in deze aflevering."
     },
     {
       "n": 146,
-      "reason": "Rik Peels over atheïsme: herwaardering en kritische blik op ongeloof"
+      "reason": "Gaat over atheïsme als snelst groeiende levensbeschouwing, een kernthema van deze aflevering."
     },
     {
-      "n": 122,
-      "reason": "Nietzsche en de 'dood van God'; filosofie en secularisatie"
+      "n": 212,
+      "reason": "Gaat over de impact van 'de dood van God' op jongeren en de samenleving."
     },
     {
-      "n": 155,
-      "reason": "Ger Groot over vier eeuwen filosofische worsteling met de dood van God"
+      "n": 19,
+      "reason": "Combineert atheïsme met spiritualiteit en de zoektocht naar een 'meer' buiten geloof."
     },
     {
-      "n": 189,
-      "reason": "Emanuel Rutten over godsargumenten; filosofie van religie en God"
+      "n": 109,
+      "reason": "Gaat over zingeving, nihilisme en de sprong naar geloof, vergelijkbaar met de geloofsvraag hier."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

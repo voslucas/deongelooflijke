@@ -1,212 +1,290 @@
 {
   "episode": 39,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 99721,
+    "segments": 990,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31043,
-    "output_tokens": 2183,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51015,
+    "output_tokens": 7635,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Bijbel & Jezus",
     "Kerk & secularisatie",
+    "Bijbel & Jezus",
     "Gezin & relaties",
-    "Samenleving & migratie"
+    "Geschiedenis"
   ],
   "guests": [
     "Almatine Leene"
   ],
   "people": [
     {
-      "name": "Almatine Leene",
-      "note": "Theoloog des Vaderlands, eerste vrouwelijke predikant in de Vrijgemaakte kerk",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 5393689,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Almatine_Leene"
-    },
-    {
-      "name": "Esther",
-      "note": "Bijbelse koningin die een heel volk redde",
-      "start_seconds": 14,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jezus",
-      "note": "volgens Leene enorm vrouwvriendelijk",
-      "start_seconds": 2237,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
       "name": "Guus Valk",
-      "note": "NRC-columnist die schreef over 'de vrouw die in stilte het patriarchaat sloopt'",
-      "start_seconds": 1701,
-      "wiki_checked": true,
-      "wiki_pageid": 5850593,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Guus_Valk"
+      "note": "NRC-columnist die Leene de 'vrouw die in stilte het patriarchaat sloopt' noemde",
+      "start_seconds": 1691,
+      "mention_count": 3
+    },
+    {
+      "name": "Jerry Bourdain",
+      "note": "partijvoorzitter die volgens Leene vrouwonvriendelijke uitspraken deed in zijn boek",
+      "start_seconds": 2187,
+      "mention_count": 2
+    },
+    {
+      "name": "Sigrid Kaag",
+      "note": "politica, lijsttrekker van D66",
+      "start_seconds": 2198,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "politicus van FvD, genoemd in verband met vrouwen die zich tegen feminisme uitspreken",
+      "start_seconds": 3236,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "filosoof wiens opvattingen over vrouwen invloedrijk waren",
+      "start_seconds": 2449,
+      "mention_count": 2
+    },
+    {
+      "name": "Plato",
+      "note": "filosoof wiens invloed op het beeld van vrouwen werd genoemd",
+      "start_seconds": 2434,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "note": "conservatieve Franse filosoof die de democratische geest in Amerika als 'geest van Christus' zag",
+      "start_seconds": 3067,
+      "mention_count": 2
+    },
+    {
+      "name": "Michel Foucault",
+      "note": "Franse filosoof die schreef over seksualiteit en vrijheid",
+      "start_seconds": 2829,
+      "mention_count": 1
+    },
+    {
+      "name": "Ad Verbrugge",
+      "note": "filosoof die reflecteerde op populariteit van seksualiteit en vrijheid",
+      "start_seconds": 2829,
+      "mention_count": 1
+    },
+    {
+      "name": "Rachel Held Evans",
+      "note": "Amerikaanse theoloog, overleden vorig jaar; formuleerde feminisme als 'een vrouw is ook mens'",
+      "start_seconds": 3416,
+      "mention_count": 1
+    },
+    {
+      "name": "Celsus",
+      "note": "felle criticus van het vroege christendom die het zag als vrouwengodsdienst",
+      "start_seconds": 2616,
+      "mention_count": 1
+    },
+    {
+      "name": "Ester",
+      "note": "koningin uit het Oude Testament die een volk zou hebben gered",
+      "start_seconds": 14,
+      "mention_count": 1
     },
     {
       "name": "Arie Slob",
       "note": "minister met vrijgemaakte achtergrond",
-      "start_seconds": 1929,
-      "wiki_checked": true,
-      "wiki_pageid": 248820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arie_Slob",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Minister_Arie_Slob.jpg/250px-Minister_Arie_Slob.jpg"
+      "start_seconds": 1928,
+      "mention_count": 1
     },
     {
       "name": "Carola Schouten",
       "note": "minister met vrijgemaakte achtergrond",
-      "start_seconds": 1931,
-      "wiki_checked": true,
-      "wiki_pageid": 2169517,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carola_Schouten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vicepremier_Carola_Schouten_%28cropped%29.jpg/250px-Vicepremier_Carola_Schouten_%28cropped%29.jpg"
+      "start_seconds": 1929,
+      "mention_count": 1
     },
     {
-      "name": "Sigrid Kaag",
-      "note": "lijsttrekker D66",
-      "start_seconds": 2204,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "name": "Constantijn",
+      "note": "Romeinse keizer; de kerk kreeg meer macht na zijn tijd",
+      "start_seconds": 2622,
+      "mention_count": 1
     },
     {
-      "name": "Gerry van der Staay",
-      "note": "genoemd als partijvoorzitter met vrouwonvriendelijke uitlatingen (in het transcript 'Jerry Bourdain')",
-      "start_seconds": 2188,
-      "wiki_checked": true
+      "name": "Theodosius",
+      "note": "keizer die het christendom tot staatsgodsdienst maakte (381)",
+      "start_seconds": 2622,
+      "mention_count": 1
+    },
+    {
+      "name": "Sunny Bergman",
+      "note": "documentairemaakster, genoemd in verband met jonge meisjes en lichaamsbeeld",
+      "start_seconds": 2869,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; zijn brieven werden besproken in verband met vrouwen in de gemeente",
+      "start_seconds": 3015,
+      "mention_count": 2
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Vijftig tinten grijs",
+      "author": "",
+      "note": "genoemd als voorbeeld in reflectie over seksualiteit en vrijheid",
+      "start_seconds": 2829,
+      "volume_id": "EaB3mQEACAAJ",
+      "canonical_title": "Vijftig tinten grijs",
+      "canonical_author": "E.L. James",
+      "isbn13": "9789044624342",
+      "isbn10": "9044624342",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Genesis 1:27",
+      "note": "man en vrouw zijn beiden naar Gods beeld geschapen; Leene noemt dit het gelijkheidsperspectief van de Bijbel",
+      "start_seconds": 2426
+    },
+    {
+      "ref": "1 Korintiërs",
+      "note": "Paulus' brief waarin vrouwen en mannen worden aangesproken; Paas noemt het unieke teksten",
+      "start_seconds": 3015
+    }
+  ],
   "places": [
     "Zuid-Afrika",
     "Nederland",
-    "Malawi",
     "Zwolle",
-    "Amerika"
+    "Malawi",
+    "Amerika",
+    "Hattem"
   ],
-  "summary_tldr": "David Boogerd spreekt met de nieuwe Theoloog des Vaderlands Almatine Leene, die als eerste vrouw predikant werd in de Vrijgemaakte kerk, en met Stefan Paas. Ze vertelt over haar roeping, haar 16 jaar in Zuid-Afrika en hoe ze het patriarchaat in haar kerk van binnenuit bevroeg. Ook gaat het over de vraag of het christendom vrouwonvriendelijk is, of dat dit een breder maatschappelijk probleem is.",
+  "summary_tldr": "Almatine Leene, de nieuwe Theoloog des Vaderlands, vertelt hoe zij als vrouw uit een kerkgenootschap waar vrouwen geen predikant mochten zijn, na studie en promotie tot andere inzichten kwam. Zij beschrijft haar jaren in Zuid-Afrika en hoe de kerk daar en in Nederland met gelijkheid, apartheid en secularisatie omgaat. Samen met Stefan Paas betoogt zij dat het christelijk geloof en de Bijbel een emancipatoire lijn bevatten, al is die ambivalent.",
   "summary_points": [
-    "Leene werd Theoloog des Vaderlands vlak na haar terugkeer uit Zuid-Afrika",
-    "Ze vindt de rol van ambassadeur van de theologie belangrijk, vergelijkbaar met een paus",
-    "Ze hoorde een roeping om theologie te studeren, hoewel ze dacht dat vrouwen geen predikant mochten worden",
-    "Haar promotieonderzoek veranderde haar inzicht en dat van haar kerk",
-    "In Zuid-Afrika zag ze een cultuur die meer op relaties is gericht dan de Nederlandse",
-    "Religie is in Zuid-Afrika verweven met samenleving en politiek, en de erfenis van de apartheid is nog voelbaar",
-    "Ze pakte het onderwerp rustig, inhoudelijk en niet polariserend aan",
-    "Vrouwonvriendelijkheid is volgens haar een breder maatschappelijk probleem dat religie kan verstevigen",
-    "De Bijbel bevat zowel vrouwonvriendelijke als radicaal gelijkwaardige elementen"
+    "Leene werd kort na haar terugkeer uit Zuid-Afrika aangewezen als Theoloog des Vaderlands en is de eerste vrouwelijke predikant van haar kerk.",
+    "Zij ervoer als jong meisje een sterke roeping om theologie te studeren, ondanks de overtuiging dat vrouwen geen predikant mochten worden.",
+    "Het verblijf in Zuid-Afrika bood haar meer erkenning en een andere cultuur, met een sterkere nadruk op relaties dan in Nederland.",
+    "Zuid-Afrika kent een radicale grondwet, maar de praktijk van ongelijkheid, geweld en de nasleep van apartheid is ingewikkeld en blijft voelbaar in de kerk.",
+    "Leene stelt dat patriarchaat geen exclusief kenmerk van het christendom is, maar een breder maatschappelijk probleem dat ook buiten religie voorkomt.",
+    "Volgens Leene en Paas bevat de Bijbel zowel vrouwonvriendelijke als vrouwvriendelijke teksten, en de geschiedenis is door mannen geschreven.",
+    "Paas wijst op de invloed van de Grieks-Romeinse cultuur en stelt dat de vroege christelijke gemeenschappen juist emancipatoir waren.",
+    "De discussie gaat over of verbeterde gelijkheid vooral door secularisatie komt of door het geloof zelf; beiden zien het als een beweging van binnenuit.",
+    "Leene pleit ervoor dat christenen meer onrecht op basis van geslacht en seksuele oriëntatie aankaarten, in lijn met de profeten en Jezus."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Theoloog des Vaderlands",
-      "summary": "Introductie van Almatine Leene en haar reactie op de benoeming. Ze en Paas bespreken de ambassadeursrol van de theoloog."
+      "start_seconds": 0,
+      "title": "Benoeming tot Theoloog des Vaderlands",
+      "summary": "Leene vertelt hoe zij midden in een verhuizing hoorde dat zij was aangewezen, en wat de rol van de Theoloog des Vaderlands inhoudt."
     },
     {
       "start_seconds": 396,
       "title": "Roeping en studiekeuze",
-      "summary": "Leene vertelt over haar stem en roeping om theologie te studeren, hoewel ze dacht dat vrouwen geen dominee mochten worden."
+      "summary": "Leene beschrijft hoe zij ondanks de verwachting van economie te studeren een sterke innerlijke roeping voelde om theologie te gaan studeren."
     },
     {
-      "start_seconds": 750,
-      "title": "Zestien jaar Zuid-Afrika",
-      "summary": "Haar stage werd een verblijf van 16 jaar in een kerk waar vrouwen wel mochten voorgaan. Ze vergelijkt de Zuid-Afrikaanse en Nederlandse cultuur."
+      "start_seconds": 914,
+      "title": "Jaren in Zuid-Afrika en cultuurverschillen",
+      "summary": "Zij vertelt waarom zij naar Zuid-Afrika vertrok en hoe relatiegerichte cultuur verschilt van die in Nederland."
     },
     {
-      "start_seconds": 1235,
-      "title": "Religie, secularisatie en apartheid",
-      "summary": "Gesprek over religie in de Zuid-Afrikaanse samenleving, de grondwet, de nasleep van de apartheid en racisme in Nederland."
+      "start_seconds": 1264,
+      "title": "Religie, politiek en apartheid",
+      "summary": "Gesprek over de rol van religie in Zuid-Afrikaanse samenleving, de verwevenheid met politiek en de nasleep van apartheid in de kerk."
     },
     {
-      "start_seconds": 1701,
-      "title": "Het patriarchaat van binnenuit",
-      "summary": "Hoe Leene de Vrijgemaakte kerk via inhoudelijk, rustig onderzoek liet veranderen."
+      "start_seconds": 1691,
+      "title": "Vrouwen in het ambt en het patriarchaat",
+      "summary": "Leene reflecteert op de krantenkop 'in stilte het patriarchaat sloopt' en beschrijft hoe zij de discussie in haar kerk inhoudelijk voerde."
     },
     {
-      "start_seconds": 2064,
-      "title": "Is het christendom vrouwonvriendelijk?",
-      "summary": "Leene stelt dat de hele wereld vrouwonvriendelijk is en dat de Bijbel zowel discriminerende als vrouwvriendelijke elementen bevat."
+      "start_seconds": 2105,
+      "title": "Bijbel, cultuur en gelijkheid",
+      "summary": "Leene en Paas bespreken de ambivalentie van de Bijbel en de Grieks-Romeinse context, en hoe vrouwen in de kerkgeschiedenis werden onderdrukt of juist ruimte kregen."
+    },
+    {
+      "start_seconds": 2604,
+      "title": "Secularisatie als emancipatie?",
+      "summary": "Discussie over of de verbeterde positie van vrouwen en homo's te danken is aan secularisatie of aan de geest van Christus."
+    },
+    {
+      "start_seconds": 3552,
+      "title": "Missie als theoloog en slot",
+      "summary": "Leene noemt haar missie: het belang van theologie in het publieke debat laten zien, en vertelt over haar heimwee naar Zuid-Afrika."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 448,
+      "start_seconds": 468,
       "speaker": "Almatine Leene",
-      "text": "Ik kreeg 2 avonden achter elkaar een diepe overtuiging: ga theologie studeren.",
-      "note": "Persoonlijk verhaal over roeping tegen haar eigen overtuiging in."
-    },
-    {
-      "start_seconds": 655,
-      "speaker": "Almatine Leene",
-      "text": "Ik was ervan overtuigd dat ik geen dominee mocht worden.",
-      "note": "Laat zien hoe sterk de norm in haar eigen kerk was."
+      "text": "Ze kwam twee avonden achter elkaar in bed de stem tegen: ga theologie studeren, een overtuiging die van buitenaf kwam.",
+      "note": "Een persoonlijk en ongewoon verhaal over roeping die haar studiekeuze radicaal veranderde."
     },
     {
       "start_seconds": 1980,
       "speaker": "Almatine Leene",
-      "text": "Juist dat er niet over gesproken mocht worden, triggerde mij.",
-      "note": "Verklaart haar motivatie om het onderwerp te onderzoeken."
+      "text": "Als iedereen zo goed weet waarom dit niet mag, dan moet je daar de argumenten voor hebben.",
+      "note": "Scherpe kritiek op een kerk waar over het onderwerp niet gesproken mocht worden."
     },
     {
-      "start_seconds": 2107,
+      "start_seconds": 2105,
+      "text": "Ik denk door vrouwonvriendelijk zijn doe je mannen ook geen goed.",
       "speaker": "Almatine Leene",
-      "text": "Een wereld die vrouwonvriendelijk is, is ook manonvriendelijk.",
-      "note": "Scherpe omkering van het argument."
+      "note": "Een onverwachte stelling: patriarchaat schaadt ook mannen, omdat rolverwachtingen hen beperken."
     },
     {
-      "start_seconds": 2237,
-      "speaker": "Almatine Leene",
-      "text": "Jezus was enorm vrouwvriendelijk; hij nam het voor vrouwen op.",
-      "note": "Kern van haar antwoord op de titelvraag."
+      "start_seconds": 3067,
+      "speaker": "Stefan Paas",
+      "text": "Zou dat niet een overwinning zijn van de geest van Christus?",
+      "note": "Paas herkent in de moderne gelijkheid een vrucht van het christelijk erfgoed, wat ingaat tegen de verwachting van seculiere kritiek."
     }
   ],
   "keywords": [
-    "Almatine Leene",
-    "Theoloog des Vaderlands",
+    "vrouwen in het ambt",
     "patriarchaat",
-    "Vrijgemaakte kerk",
-    "vrouwelijk predikantschap",
-    "Zuid-Afrika",
+    "theoloog des Vaderlands",
+    "secularisatie",
+    "Bijbelse gelijkheid",
     "apartheid",
     "roeping",
-    "secularisatie",
-    "emancipatie"
+    "gelijkheid man en vrouw",
+    "emancipatie",
+    "Grieks-Romeinse cultuur"
   ],
-  "quotes": [],
+  "quotes": [
+    "de vrouw die volgens de NRC 'in stilte het patriarchaat sloopt'",
+    "is de verbeterde positie van de vrouw in de kerk niet vooral te danken aan secularisatie in plaats van het geloof of de Bijbel zelf?",
+    "Vrouwen mogen wél dominee worden, en Almatine is de eerste."
+  ],
   "similar": [
     {
       "n": 283,
-      "reason": "Feministische blik op Jezus en positie van vrouwen, seksualiteit en gezin"
-    },
-    {
-      "n": 99,
-      "reason": "Kerk, Bijbel en gender/seksualiteit: wie hoort erbij in de kerk"
-    },
-    {
-      "n": 47,
-      "reason": "Gast Almatine Leene over kerk en secularisatie"
+      "reason": "Feministische lezing van Jezus en Bijbel, plus gender- en gezinsthema's"
     },
     {
       "n": 70,
-      "reason": "Feministe die tot de kerk komt; vrouwenperspectief op geloof"
+      "reason": "Feministe die terugkeert naar de kerk; kerk, gezin en vrouwenvraagstuk"
     },
     {
-      "n": 229,
-      "reason": "Vrouwelijke predikant over haar roeping en weg naar het ambt"
+      "n": 47,
+      "reason": "Zelfde gast Almatine Leene; kerk, secularisatie en geschiedenis"
+    },
+    {
+      "n": 99,
+      "reason": "Kerk en Bijbel over seksualiteit en gezinsrelaties, met inclusiviteitsvraag"
+    },
+    {
+      "n": 135,
+      "reason": "Ontstaan van het christendom en Bijbelse wortels van gezin en kerk"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

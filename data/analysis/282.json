@@ -1,18 +1,23 @@
 {
   "episode": 282,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 127401,
+    "segments": 1043,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30124,
-    "output_tokens": 2431,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 63094,
+    "output_tokens": 6816,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
-    "Filosofie & ethiek",
     "God & geloof",
-    "Dood & rouw"
+    "Filosofie & ethiek",
+    "Zingeving & psyche"
   ],
   "guests": [
     "André Aleman"
@@ -20,197 +25,259 @@
   "people": [
     {
       "name": "Dick Swaab",
-      "note": "neurobioloog, auteur van 'Wij zijn ons brein'",
+      "note": "Neurobioloog, auteur van 'Wij zijn ons brein'; het standpunt 'wij zijn ons brein' wordt besproken",
       "start_seconds": 755,
-      "wiki_checked": true,
-      "wiki_pageid": 249290,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Swaab",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dick_Swaab.jpg/250px-Dick_Swaab.jpg"
+      "mention_count": 5
     },
     {
       "name": "Herman van Praag",
-      "note": "grondlegger van de biologische psychiatrie, eerder gast in de podcast",
-      "start_seconds": 621,
-      "wiki_checked": true,
-      "wiki_pageid": 5611444,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_van_Praag"
+      "note": "Grondlegger van de biologische psychiatrie",
+      "start_seconds": 619,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Hardcore atheïst die niet reageerde op de Godhelm-proef",
+      "start_seconds": 2727,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "Duitse socioloog die zichzelf 'religieus unmusicalis' noemde",
+      "start_seconds": 3730,
+      "mention_count": 1
+    },
+    {
+      "name": "Jim van Os",
+      "note": "Hoogleraar psychiatrie die spiritualiteit in de psychologie bespreekt",
+      "start_seconds": 4486,
+      "mention_count": 1
+    },
+    {
+      "name": "Rogier Hoenders",
+      "note": "Psychiater en hoogleraar GGZ, leefstijl en zingeving",
+      "start_seconds": 4482,
+      "mention_count": 1
     },
     {
       "name": "Reinier Sonneveld",
-      "note": "theoloog en schrijver die zelf een bijna-doodervaring had en daarover schreef",
-      "start_seconds": 2259,
-      "wiki_checked": true,
-      "wiki_pageid": 2130126,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Reinier_Sonneveld",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Reinier_Sonneveld_%28uitgesneden%29.jpg/250px-Reinier_Sonneveld_%28uitgesneden%29.jpg"
+      "note": "Theoloog en schrijver met een bijna-doodervaring",
+      "start_seconds": 2251,
+      "mention_count": 1
     },
     {
-      "name": "Herman Dooyeweerd",
-      "note": "Nederlandse filosoof die verschillende niveaus (wetskringen) onderscheidde",
-      "start_seconds": 996,
-      "wiki_checked": true,
-      "wiki_pageid": 760256,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Dooyeweerd",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Dooyeweerd.jpg/250px-Dooyeweerd.jpg"
+      "name": "Michiel van Elk",
+      "note": "Hersenwetenschapper die het Godhelm-experiment uitvoerde",
+      "start_seconds": 2679,
+      "mention_count": 1
     },
     {
-      "name": "Gerrit Rietveld",
-      "note": "ontwerper van de Rietveldstoel, voorbeeld van kunst met een spirituele dimensie",
-      "start_seconds": 1952,
-      "wiki_checked": true,
-      "wiki_pageid": 614,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerrit_Rietveld",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Gerrit_Rietveld_1.jpg/250px-Gerrit_Rietveld_1.jpg"
+      "name": "Howard Weinstein",
+      "note": "Joods religieus filosoof die ontzag als kern van religieuze ervaring beschrijft",
+      "start_seconds": 3595,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Kahneman",
+      "note": "Psycholoog die intuïtief versus analytisch denken beschreef",
+      "start_seconds": 3991,
+      "mention_count": 1
+    },
+    {
+      "name": "Aldous Huxley",
+      "note": "Auteur van Brave New World",
+      "start_seconds": 2940,
+      "mention_count": 1
+    },
+    {
+      "name": "Julian of Norwich",
+      "note": "Christelijke mystica die oefening met een hazelnoot beschrijft",
+      "start_seconds": 4591,
+      "mention_count": 1
+    },
+    {
+      "name": "Max Weber",
+      "note": "Duitse socioloog die zichzelf 'religieus unmusicalis' noemde",
+      "start_seconds": 3730,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De ziel van het brein",
       "author": "André Aleman",
-      "note": "nieuw boek over hersenwetenschap, religie en spiritualiteit",
-      "start_seconds": 2065
+      "note": "Nieuw boek van André Aleman over het brein en de spirituele kant van de mens",
+      "start_seconds": 2047
     },
     {
       "title": "Wij zijn ons brein",
       "author": "Dick Swaab",
-      "note": "uitgangspunt van het debat over reductionisme en vrije wil",
+      "note": "Boek dat het reductionistische standpunt 'wij zijn ons brein' verdedigt",
       "start_seconds": 755,
-      "volume_id": "NyEwAgAAQBAJ",
+      "volume_id": "7xb_zgEACAAJ",
       "canonical_title": "Wij zijn ons brein: van baarmoeder tot Alzheimer",
-      "canonical_author": "Dick Swaab",
-      "isbn13": "9789025436308",
-      "isbn10": "9025436307",
-      "thumbnail": "http://books.google.com/books/content?id=NyEwAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "canonical_author": "Dick Frans Swaab",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "note": "Dystopie over een samenleving die via een pilletje gelukkig wordt gehouden",
+      "start_seconds": 2946,
+      "volume_id": "JcrvzgEACAAJ",
+      "canonical_title": "Brave New World",
+      "canonical_author": "Aldous Huxley",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Lukas 22:42",
+      "note": "'Niet mijn wil, maar uw wil geschieden', genoemd bij het gebed als gesprek met God",
+      "start_seconds": 3327
+    },
+    {
+      "ref": "Mattheus 19:26",
+      "note": "'Wat voor de mensen onmogelijk is, is voor God mogelijk', genoemd in de discussie over voortbestaan na de dood",
+      "start_seconds": 4846
+    }
+  ],
   "places": [
     "Maastricht",
+    "Ermelo",
+    "Londen",
+    "Zwitserland",
+    "Canada",
+    "China",
     "Amsterdam",
-    "Utrecht",
-    "Ermelo"
+    "Utrecht"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en hersenwetenschapper André Aleman bespreken of wij niets meer zijn dan ons brein. Ze behandelen vrije wil, verantwoordelijkheid en rechtspraak, het begrip ziel en de wetenschappelijke verklaringen van bijna-doodervaringen. Aleman pleit voor een eenheid van lichaam en geest, zonder reductionisme.",
+  "summary_tldr": "André Aleman, hoogleraar neurocognitie, bespreekt met David Boogerd en Stefan Paas of wij 'ons brein' zijn en wat hersenonderzoek kan zeggen over religie, vrije wil en bijna-doodervaringen. Aleman ziet lichaam en geest als eenheid, verwerpt een reductionistisch beeld en vindt dat wetenschap de betekenis van religieuze ervaringen niet kan vastleggen. De vraag naar de ziel en het leven na de dood blijft volgens hem een kwestie van geloof.",
   "summary_points": [
-    "Hersenscanners (MRI) maten sinds de jaren 90 hersenactiviteit via zuurstof en bloedtoevoer, en gaven het vakgebied een enorme impuls.",
-    "Onderzoek naar religie en hersenen staat nog in de kinderschoenen.",
-    "Bij tongentaal vallen de frontale controlegebieden minder actief, wat past bij het gevoel van controleverlies.",
-    "Aleman vindt 'wij zijn ons brein' acceptabel, maar 'niets meer dan ons brein' reductionistisch; er zijn meerdere verklaringsniveaus.",
-    "Een volledig deterministisch mensbeeld ondergraaft verantwoordelijkheid, rechtspraak en zelfs de waarde van wetenschappelijk onderzoek.",
-    "Aleman ziet keuzevrijheid en bewegingsruimte, maar geen absolute vrije wil, omdat context en cultuur ons gedrag sturen.",
-    "Stefan Paas wijst op het filosofische probleem van eerste- en derdepersoonsperspectief die niet tot elkaar te reduceren zijn.",
-    "De ziel ziet Aleman als de spirituele kant van de psyche en het diepste ik; wetenschap kan haar bestaan niet bewijzen of weerleggen.",
-    "Bijna-doodervaringen zijn voor hem geen bewijs voor een ziel buiten het lichaam; er zijn alternatieve verklaringen zoals tunnelzicht en endorfines."
+    "Hersenscanners sinds de jaren 90 maakten hersenactiviteit zichtbaar, maar interpretatie blijft omstreden.",
+    "Aleman ziet lichaam en geest als eenheid en vindt 'wij zijn ons brein' een reductionistisch standpunt.",
+    "Verschillende niveaus (biologisch, psychologisch, spiritueel) zijn elk zinvol, vergelijkbaar met de waarde van een briefje van 50 euro.",
+    "Het idee dat we geen vrije wil hebben heeft grote gevolgen voor rechtspraak en verantwoordelijkheid; Aleman vindt keuzevrijheid wel aanwijsbaar.",
+    "Hersenonderzoek naar gebed laat zien dat ook sociale cognitie actief is, wat past bij gebed als gesprek met een ander.",
+    "Religieuze ervaringen zoals ontzag kunnen het ego verkleinen; mindfulness en religieuze oefening trainen dit.",
+    "De Godhelm-proef en hersenstimulatie laten zien dat ervaringen op te wekken zijn, maar dat betekent niet dat ze onecht zijn.",
+    "Bijna-doodervaringen hebben mogelijke biologische verklaringen (zuurstoftekort, endorfines, tunnelzicht), maar bewijs voor een ziel buiten het lichaam ontbreekt.",
+    "Onderzoek laat een positief verband zien tussen religieuze participatie en welzijn, al speelt sociale verbondenheid ook een rol.",
+    "Voortbestaan na de dood blijft volgens Aleman een kwestie van geloof, buiten het bereik van de wetenschap."
   ],
   "chapters": [
     {
-      "start_seconds": 57,
-      "title": "Introductie en fascinatie voor het brein",
-      "summary": "David introduceert het thema en André Aleman verklaart waarom hersenwetenschap zo aanspreekt. Hij legt uit hoe hersenscanners het vakgebied veranderden."
+      "start_seconds": 0,
+      "title": "Inleiding: waarom het brein zo fascineert",
+      "summary": "Boogerd introduceert de vragen over brein, bewustzijn en religie, en Aleman legt uit hoe hersenscanners het onderzoek hebben veranderd."
     },
     {
-      "start_seconds": 311,
-      "title": "De regisseur in het brein",
-      "summary": "Wat bepaalt welke hersengebieden actief worden? Over executieve controle en tongentaal."
+      "start_seconds": 152,
+      "title": "Hersenscanners en de regievraag",
+      "summary": "Het gesprek gaat over wat MRI en EEG meten en wie in het brein de 'regisseur' is, met de uitleg over executieve controlefuncties."
     },
     {
-      "start_seconds": 467,
-      "title": "Van psychiatrie naar religie",
-      "summary": "Alemans loopbaan, de opkomst van biologische psychiatrie, medicijnen en dopamine, en hoe hij bij religieonderzoek uitkwam."
+      "start_seconds": 1130,
+      "title": "Zijn wij ons brein? Vrije wil en verantwoordelijkheid",
+      "summary": "Het reductionistische standpunt wordt besproken, met de gevolgen voor vrije wil, rechtspraak en het eerste- versus derdepersoonsperspectief."
     },
     {
-      "start_seconds": 925,
-      "title": "Zijn wij ons brein?",
-      "summary": "Discussie over Swaabs stelling, reductionisme en verklaringsniveaus, met de vergelijking van het bankbiljet en de wijnkenner."
-    },
-    {
-      "start_seconds": 1170,
-      "title": "Vrije wil, verantwoordelijkheid en rechtspraak",
-      "summary": "De gevolgen van determinisme voor schuld, straf en wetenschap, en Alemans onderzoek naar zelfcontrole."
-    },
-    {
-      "start_seconds": 2053,
+      "start_seconds": 2047,
       "title": "De ziel van het brein",
-      "summary": "Wat Aleman bedoelt met ziel en spiritualiteit, en of de ziel kan voortbestaan na de dood."
+      "summary": "Aleman verklaart de titel van zijn boek en bespreekt de ziel als diepste identiteit en spirituele kant van de mens."
     },
     {
       "start_seconds": 2239,
-      "title": "Bijna-doodervaringen",
-      "summary": "Hersenwetenschappelijke verklaringen voor tunnelervaringen, licht en gelukzalige gevoelens."
+      "title": "Bijna-doodervaringen en hersenen",
+      "summary": "Biologische verklaringen voor bijna-doodervaringen worden besproken, met de tunnel, endorfines en uittredingservaringen."
+    },
+    {
+      "start_seconds": 2664,
+      "title": "De Godhelm en religieuze ervaring",
+      "summary": "Het Godhelm-experiment en hersenstimulatie tonen het belang van verwachting en context, en de betekenis van ervaring die in een gemeenschap is geworteld."
+    },
+    {
+      "start_seconds": 3801,
+      "title": "Ontzag, het ego en de religieuze mens",
+      "summary": "Ontzag laat het zelfnetwerk in het brein kleiner worden, en het gesprek gaat over of de mens van nature religieus is."
+    },
+    {
+      "start_seconds": 4069,
+      "title": "Religie, welzijn en geloof",
+      "summary": "Onderzoek naar religie en geluk wordt besproken, met kritiek op negatieve kerkervaringen en de vraag naar het voortbestaan na de dood."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 1106,
       "speaker": "André Aleman",
-      "text": "Wie jarenlang boeddhisme beoefent, heeft een ander brein dan iemand die jarenlang christelijk gelooft.",
-      "note": "Religieuze praktijk verandert het brein en bevraagt het idee van een gedeelde kern van religies."
+      "text": "Als je tegen een wijnkenner zegt dat zijn ervaring chemisch verklaard is, zal hij zeggen dat dat zijn ervaring niet verklaart.",
+      "note": "Een heldere metafoor voor waarom een reductionistische verklaring de betekenis van ervaring mist."
     },
     {
-      "start_seconds": 1213,
-      "speaker": "David Boogerd",
-      "text": "Een hoogleraar hersenen zei dat hij in het openbaar niet spreekt over 'wij zijn ons brein', omdat het maatschappijontwrichtend is.",
-      "note": "Laat zien welke maatschappelijke consequenties determinisme heeft."
-    },
-    {
-      "start_seconds": 1016,
-      "speaker": "André Aleman",
-      "text": "Een briefje van 50 euro is een stukje papier, maar de waarde begrijp je alleen op economisch niveau.",
-      "note": "Treffende analogie voor meerdere verklaringsniveaus."
-    },
-    {
-      "start_seconds": 1625,
+      "start_seconds": 2009,
       "speaker": "Stefan Paas",
-      "text": "Het is een nuttige illusie... een hele vlakke en kille manier van kijken naar de werkelijkheid; de wetenschap dwingt ons daar op geen enkele manier toe.",
-      "note": "Scherpe kritiek op het reductionisme."
+      "text": "Ik vind dat een hele vlakke en kille manier van kijken naar de werkelijkheid.",
+      "note": "Paas bekritiseert de reductionistische kijk op de mens als onbevredigend."
     },
     {
-      "start_seconds": 2308,
+      "start_seconds": 2605,
       "speaker": "André Aleman",
-      "text": "De hersenen zijn als een stad waar elektriciteitscentrales uitvallen en lampen uitgaan, maar er blijven er nog een paar branden.",
-      "note": "Beeldende verklaring van bijna-doodervaringen."
+      "text": "De nonnen in de scanner vonden het prachtig: zij zagen het als bevestiging dat er echt iets gebeurd is in hun hersenen.",
+      "note": "Laat zien hoe verschillend wetenschappelijke en religieuze interpretaties van dezelfde data kunnen uitpakken."
+    },
+    {
+      "start_seconds": 3567,
+      "speaker": "André Aleman",
+      "text": "Het zelfnetwerk wordt kleiner bij ervaringen van verwondering en ontzag; het ego krijgt zo wat minder ruimte.",
+      "note": "Een verbinding tussen neurowetenschap en de klassieke religieuze idee van nietigheid voor het goddelijke."
     }
   ],
   "keywords": [
-    "brein",
+    "hersenonderzoek",
     "vrije wil",
-    "determinisme",
-    "reductionisme",
-    "ziel",
-    "spiritualiteit",
-    "Dick Swaab",
+    "bewustzijn",
     "bijna-doodervaring",
-    "tongentaal",
-    "hersenscanner",
-    "verantwoordelijkheid",
-    "neurowetenschap"
+    "religieuze ervaring",
+    "ziel",
+    "reductionisme",
+    "Godhelm",
+    "ontzag",
+    "zingeving",
+    "welzijn",
+    "neurocognitie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Zijn wij ons brein?",
+    "Of zijn wij méér dan dat?",
+    "Hebben we een vrije wil? En misschien zelfs een ziel - of iets dat daarop lijkt?"
+  ],
   "similar": [
     {
-      "n": 262,
-      "reason": "Bijna-doodervaring van Reinier Sonneveld, ook besproken persoon; leven na de dood en wetenschap."
-    },
-    {
       "n": 164,
-      "reason": "Wat is bewustzijn? Hersenwetenschap, brein en geloof met Jacob Jolij."
-    },
-    {
-      "n": 90,
-      "reason": "Herman van Praag over het wonder van de hersenen; gedeelde figuur."
+      "reason": "Bewustzijn en hersenen als wetenschappelijk mysterie, met het gesprek over geloof en wetenschap"
     },
     {
       "n": 318,
-      "reason": "Brein, geest en wereldbeeld met Iain McGilchrist; tegen reductionisme."
+      "reason": "Hersenonderzoek, zingeving en de vraag wat wetenschap niet kan verklaren"
     },
     {
-      "n": 74,
-      "reason": "Bewustzijn, geest en materie: filosofische kijk op wetenschap en God."
+      "n": 262,
+      "reason": "Bijna-doodervaring, leven na de dood en de vraag wat wetenschap kan zeggen"
+    },
+    {
+      "n": 90,
+      "reason": "Hersenwetenschap en religieuze figuur, met Herman van Praag als gast"
+    },
+    {
+      "n": 171,
+      "reason": "Zingeving en wetenschap, over of zingeving met wetenschap te verklaren valt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

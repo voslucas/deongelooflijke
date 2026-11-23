@@ -1,18 +1,23 @@
 {
   "episode": 217,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116308,
+    "segments": 1490,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31714,
-    "output_tokens": 2256,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61194,
+    "output_tokens": 3082,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
     "Zingeving & psyche",
-    "Klimaat & natuur",
-    "Kunst & cultuur"
+    "Samenleving & migratie",
+    "Klimaat & natuur"
   ],
   "guests": [
     "Marjan Slob"
@@ -20,192 +25,249 @@
   "people": [
     {
       "name": "Marjan Slob",
-      "note": "filosoof, schrijver en Denker des Vaderlands",
-      "start_seconds": 42,
-      "wiki_checked": true,
-      "wiki_pageid": 5741326,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marjan_Slob"
+      "note": "Denker des Vaderlands, filosoof en schrijver; gast",
+      "start_seconds": 148,
+      "mention_count": 60
     },
     {
-      "name": "René Descartes",
-      "note": "filosoof, voorbeeld van een denker die door vakfilosofen nauwkeuriger wordt bestudeerd",
-      "start_seconds": 271,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "Dion Graus",
-      "note": "PVV-Kamerlid, sprak over het roodkapjessyndroom",
-      "start_seconds": 13,
-      "wiki_checked": true,
-      "wiki_pageid": 666056,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dion_Graus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dion_Graus.jpg/250px-Dion_Graus.jpg"
-    },
-    {
-      "name": "Charles Perrault",
-      "note": "schrijver die in 1697 het volksverhaal van Roodkapje optekende, met gruwelijk einde",
-      "start_seconds": 1534,
-      "wiki_checked": true,
-      "wiki_pageid": 16903,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Perrault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Charles_Perrault_-_Versailles_MV_2924.jpg/250px-Charles_Perrault_-_Versailles_MV_2924.jpg"
-    },
-    {
-      "name": "Gebroeders Grimm",
-      "note": "maakten een gekuiste versie van Roodkapje met een jager",
-      "start_seconds": 1546,
-      "wiki_checked": true,
-      "wiki_pageid": 34943,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gebroeders_Grimm",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Jacob_und_Wilhelm_Grimm.png/250px-Jacob_und_Wilhelm_Grimm.png"
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast (VU en Theologische Universiteit Utrecht)",
+      "start_seconds": 1,
+      "mention_count": 40
     },
     {
       "name": "David Boogerd",
-      "note": "presentator",
-      "start_seconds": 42,
-      "wiki_checked": true,
-      "wiki_pageid": 5946537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Boogerd",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/David_Boogerd_Zwolle_2025.png/250px-David_Boogerd_Zwolle_2025.png"
+      "note": "Presentator",
+      "start_seconds": 2,
+      "mention_count": 30
+    },
+    {
+      "name": "Dion Graus",
+      "note": "PVV-Kamerlid die over het roodkapjesyndroom sprak",
+      "start_seconds": 13,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Perrault",
+      "note": "Opteller van de volksversie van Roodkapje, waarin het verhaal cru eindigt",
+      "start_seconds": 1514,
+      "mention_count": 1
+    },
+    {
+      "name": "Gebroeders Grimm",
+      "note": "Pasten het sprookje aan tot een gekuiste versie met een jager",
+      "start_seconds": 1586,
+      "mention_count": 1
+    },
+    {
+      "name": "David Hume",
+      "note": "18e-eeuwse Schotse filosoof, door Slob genoemd als groot denker",
+      "start_seconds": 2440,
+      "mention_count": 3
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Denker die naar de sterren keek en existentiële eenzaamheid ervoer",
+      "start_seconds": 3478,
+      "mention_count": 2
+    },
+    {
+      "name": "Descartes",
+      "note": "Filosoof, genoemd in verband met lichaam-geestdualisme",
+      "start_seconds": 276,
+      "mention_count": 2
+    },
+    {
+      "name": "Carl Gustav Jung",
+      "note": "Psycholoog, door Slob als held genoemd",
+      "start_seconds": 2556,
+      "mention_count": 1
+    },
+    {
+      "name": "Coetzee",
+      "note": "Auteur van Disgrace (In ongenade)",
+      "start_seconds": 3840,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Genoemd als mogelijke grootste denker",
+      "start_seconds": 2420,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees van Ekris",
+      "note": "Theoloog des Vaderlands, gast volgende week",
+      "start_seconds": 2170,
+      "mention_count": 2
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [
-    "Oerol",
-    "Terschelling",
-    "Amsterdam-Zuid",
-    "Nederland",
-    "Ibiza",
-    "Verenigde Staten",
-    "Randstad"
+  "books": [
+    {
+      "title": "De lege hemel",
+      "author": "Marjan Slob",
+      "note": "Boek over existentiële eenzaamheid",
+      "start_seconds": 3393,
+      "volume_id": "FDLPzQEACAAJ",
+      "canonical_title": "De lege hemel. Een kleine filosofie van eenzaamheid",
+      "canonical_author": "Marjan Slob",
+      "isbn13": "9789026345425",
+      "isbn10": "9026345429",
+      "thumbnail": ""
+    },
+    {
+      "title": "Disgrace (In ongenade)",
+      "author": "J.M. Coetzee",
+      "note": "Roman over een hoogleraar in post-apartheid Zuid-Afrika",
+      "start_seconds": 3840,
+      "volume_id": "rIZPEAAAQBAJ",
+      "canonical_title": "Disgrace",
+      "canonical_author": "J. M. Coetzee",
+      "isbn13": "9780140296402",
+      "isbn10": "0140296409",
+      "thumbnail": "http://books.google.com/books/content?id=rIZPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
   ],
-  "summary_tldr": "Denker des Vaderlands Marjan Slob vertelt over haar werk als publieksfilosoof, over bedachtzaamheid en existentiële vragen die we ten onrechte als psychologische problemen zien. Daarna bespreken ze de wolf als hype: de angst voor het dier zegt volgens haar veel over onze verbeelding, kwetsbaarheid en de illusie van controle over de natuur.",
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5",
+      "note": "Verwijzing naar 'onder de korenmaat' (Mattheus 5:15), gebruikt door Boogerd",
+      "start_seconds": 3166
+    }
+  ],
+  "places": [
+    "Terschelling",
+    "Amsterdam",
+    "Giesenburg",
+    "Appelscha"
+  ],
+  "summary_tldr": "Denker des Vaderlands Marjan Slob praat met David Boogerd en Stefan Paas over de wolf als cultureel symbool van kwetsbaarheid, over existentiële eenzaamheid en over de zoektocht naar een goed leven. Zij pleit voor bedachtzaamheid, ruim denken en het verdragen van meerdere stemmen, en zegt dat geluk midden in lijden alleen gedeeld kan worden. Het gesprek eindigt met zeven vaste vragen, waarvan er vier naar de volgende week zijn doorgeschoven.",
   "summary_points": [
-    "Slob staat als huisfilosoof op festivals als Oerol en improviseert op de input van kunstenaars.",
-    "Ze twijfelt soms of ze recht doet aan vakfilosofen, maar wil de schoonheid van filosofie bij een breed publiek brengen.",
-    "Nederland kan prima denken, maar mist bedachtzaamheid door een cultuur van presteren, to-dolijsten en je eigen merk zijn.",
-    "Veel problemen die als psychologisch gelden zijn volgens haar existentieel: de vraag naar zin en het goede leven.",
-    "Filosofie begint en eindigt voor haar met de vraag hoe je als mens een goed leven leidt, zonder dogma's en met ruimte voor autonomie.",
-    "Denken heeft grenzen: als iemand iets niet wil inzien, kun je hem niet met argumenten overtuigen.",
-    "De wolfhype is groter dan de feiten rechtvaardigen en raakt aan sluimerende angsten voor kwetsbaarheid en aan het Roodkapje-verhaal.",
-    "Roodkapje gaat ook over seksualiteit en de wolf als gevaarlijke man; de versies van Perrault en de Grimms verschillen sterk.",
-    "De wolf is een reality check: de mens is geen heerser maar onderdeel van de natuur, net als bij klimaatverandering.",
-    "Ze pleit voor samenleven met de wolf zonder de serieuze zorgen van boeren en bewoners weg te wuiven."
+    "Slob ziet een gebrek aan bedachtzaamheid in Nederland, veroorzaakt door een cultuur van presteren.",
+    "De wolf roept oude angsten en fantasieën op over kwetsbaarheid en de controle over de natuur.",
+    "Het sprookje van Roodkapje krijgt een seksuele en morele lading; Perrault en de Grimms maakten verschillende versies.",
+    "Slob ziet existentiële eenzaamheid als een probleem dat al sinds de moderniteit speelt, met Pascal als voorbeeld.",
+    "Zij pleit voor ruim denken en pluralisme, zonder dogma's die mensen opgelegd worden.",
+    "Geluk en waarheid worden besproken; Slob kiest voor geluk, met waarheid als dienstbaar daaraan.",
+    "De realiteit liefhebben, ook met al het leed, is volgens Slob een van de grootste spirituele opgaven.",
+    "Paas bekritiseert de neiging om het leed van anderen niet te willen zien en wijst op de overvloed aan informatie.",
+    "Het woord dogma wordt besproken als taalkundig fundament versus negatieve connotatie."
   ],
   "chapters": [
     {
-      "start_seconds": 42,
-      "title": "Kennismaking met de Denker des Vaderlands",
-      "summary": "Introductie van Marjan Slob en haar rol als huisfilosoof op festivals als Oerol."
+      "start_seconds": 0,
+      "title": "Inleiding en de Denker des Vaderlands",
+      "summary": "Presentatie van Slob en haar werk als huisfilosoof op festivals en de vraag hoe het denken in Nederland ervoor staat."
     },
     {
-      "start_seconds": 233,
-      "title": "Filosofie voor het brede publiek",
-      "summary": "Slob over respect voor vakfilosofen en haar wens om filosofie te verbinden met een breder publiek."
+      "start_seconds": 400,
+      "title": "Bedachtzaamheid en het goede leven",
+      "summary": "Gesprek over tijdgebrek, coaching en de vraag wat een goed leven is, en of dat moreel normatief mag zijn."
     },
     {
-      "start_seconds": 353,
-      "title": "Bedachtzaamheid en prestatiecultuur",
-      "summary": "Waarom Nederlanders weinig tijd nemen om na te denken en hoe coaches en therapeuten daarop inspelen."
+      "start_seconds": 1100,
+      "title": "De wolf en het roodkapjessyndroom",
+      "summary": "Analyse van de wolf als symbool van onbeheersbare natuur, kwetsbaarheid en angst, inclusief de Roodkapje-verhalen."
     },
     {
-      "start_seconds": 606,
-      "title": "Existentiële vragen en het goede leven",
-      "summary": "Psychologie versus filosofie, zingeving, autonomie en de grenzen van normeren en denken."
+      "start_seconds": 1900,
+      "title": "Polarisatie en het wolvendebat",
+      "summary": "Bespreking van het gepolariseerde debat, de belangen van boeren en blinde mensen, en de verhouding tot de natuur."
     },
     {
-      "start_seconds": 992,
-      "title": "De wolf als hype",
-      "summary": "Waarom de wolf zoveel emoties losmaakt, en de rol van kwetsbaarheid en verdrongen angst."
+      "start_seconds": 2170,
+      "title": "Zeven vragen: geluk, waarheid en liefde voor de realiteit",
+      "summary": "Slob beantwoordt de eerste vragen: geluk boven waarheid, David Hume als grootste denker, en de realiteit liefhebben."
     },
     {
-      "start_seconds": 1380,
-      "title": "Roodkapje, seksualiteit en sprookjes",
-      "summary": "De geschiedenis van Roodkapje van Perrault tot de Grimms en wat het sprookje zegt over cultuur."
+      "start_seconds": 2950,
+      "title": "Ruim denken, wortelen en existentiële eenzaamheid",
+      "summary": "Gesprek over ruimte versus worteling, de prijs van individualisme en Pascal als voorbeeld van existentiële eenzaamheid."
     },
     {
-      "start_seconds": 1739,
-      "title": "Polarisatie en samenleven met de wolf",
-      "summary": "Het gepolariseerde wolvendebat, de zorgen van boeren en bewoners, en de wolf als reality check over controle over de natuur."
+      "start_seconds": 3400,
+      "title": "Dogma's, Coetzee en hoop",
+      "summary": "Discussie over het woord dogma, het boek Disgrace en de hoop die Slob ontleent aan vriendelijkheid op straat."
+    },
+    {
+      "start_seconds": 4100,
+      "title": "De zin van het leven en vooruitblik",
+      "summary": "Slob definieert de zin van het leven als zoeken naar geluk midden in lijden; vooruitblik op Kees van Ekris."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 13,
+      "start_seconds": 1984,
       "speaker": "Marjan Slob",
-      "text": "Misschien lijden we inderdaad aan een roodkapjesyndroom: een grote boze macht die jou wil verzwelgen.",
-      "note": "Verrassende instemming met een PVV-Kamerlid, en een scherpe diagnose van de wolfpaniek."
+      "text": "Ik zou willen dat we met de wolf konden samenleven, maar laten we de wolf niet hinderen met onze fantasie en onze verbeelding.",
+      "note": "Scherpe oproep om het debat rationeel te voeren en niet door angst te laten leiden."
     },
     {
-      "start_seconds": 737,
+      "start_seconds": 2580,
       "speaker": "Marjan Slob",
-      "text": "Een heleboel vragen die mensen als psychologische problemen duiden, zijn eigenlijk existentiële problemen.",
-      "note": "Kernidee van haar filosofie over zingeving."
+      "text": "Ik denk dat die existentiële eenzaamheid op zijn minst al in de moderniteit is begonnen, dus in de 16e, 17e eeuw.",
+      "note": "Historische lijn die de eenzaamheid verklaart als iets ouder dan de jaren zestig."
     },
     {
-      "start_seconds": 1066,
-      "speaker": "Marjan Slob",
-      "text": "De wolf is onze natuurlijke vijand; de hype is groter dan de feiten verklaren.",
-      "note": "Verklaart de media-aandacht vanuit verbeelding en sluimerende angsten."
+      "start_seconds": 2880,
+      "speaker": "Stefan Paas",
+      "text": "Je kunt het leed van anderen ook niet willen zien; dat is ook een manier om geluk na te streven.",
+      "note": "Scherpe tegenwerping die de ethiek van geluk onder druk zet."
     },
     {
-      "start_seconds": 1992,
+      "start_seconds": 2445,
       "speaker": "Marjan Slob",
-      "text": "We worden in die zin van onze troon gestoten.",
-      "note": "De wolf en klimaatverandering als correctie op het idee dat we de natuur beheersen."
+      "text": "Ik denk dat het een van de grootste spirituele opgaven voor mij is om te zien hoe deze realiteit toch een mooie realiteit is.",
+      "note": "Persoonlijke en filosofische kern van haar levenshouding."
     },
     {
-      "start_seconds": 969,
+      "start_seconds": 4090,
       "speaker": "Marjan Slob",
-      "text": "Is het mooi? Ik krijg eigenlijk een esthetische reactie: het is weerzinwekkend. Maar uiteindelijk heeft denken maar beperkt nut.",
-      "note": "Eerlijk over de grenzen van filosofisch argumenteren."
+      "text": "Ik vind het juist een soort schoonheid dat er iets is wat ons ontglipt.",
+      "note": "Waarheid als iets dat altijd ontsnapt, gezien als rijkdom in plaats van gemis."
     }
   ],
   "keywords": [
-    "Denker des Vaderlands",
-    "Marjan Slob",
     "wolf",
     "Roodkapje",
     "existentiële eenzaamheid",
-    "goede leven",
+    "geluk",
+    "goed leven",
     "bedachtzaamheid",
-    "autonomie",
+    "dogma",
+    "pluralisme",
     "natuur",
-    "controle",
-    "filosofie",
-    "zingeving"
+    "Pascal",
+    "Hume",
+    "worteling"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik zou willen dat we met de wolf konden samenleven.",
+    "Ik denk dat een hoop van de problemen die we als mensen hebben eigenlijk existentiële problemen zijn.",
+    "Het is een soort thermometer in een cultuur, in het onbewuste van een cultuur."
+  ],
   "similar": [
     {
-      "n": 122,
-      "reason": "Denker des Vaderlands (Van Tongeren) over filosofie, zingeving en existentiële vragen"
-    },
-    {
-      "n": 198,
-      "reason": "Angst, idealisme en nihilisme: existentiële vragen en psyche, filosofisch benaderd"
-    },
-    {
-      "n": 33,
-      "reason": "Geluk en het goede leven, psychiatrie en existentiële eenzaamheid met Stefan Paas"
-    },
-    {
-      "n": 278,
-      "reason": "Psychologische problemen versus existentiële vragen; kritiek op therapiecultuur"
-    },
-    {
       "n": 265,
-      "reason": "Moderne levensstijl, psyche en natuur; wie wij werkelijk zijn"
+      "reason": "Zoektocht naar echte menselijke bestemming, natuur en zingeving in moderne levensstijl"
+    },
+    {
+      "n": 171,
+      "reason": "Zingeving en geluk als levensvragen, met filosofische en wetenschappelijke onderbouwing"
+    },
+    {
+      "n": 221,
+      "reason": "Existentiële filosofie, Camus en de zoektocht naar betekenis in tijden van onbehagen"
+    },
+    {
+      "n": 287,
+      "reason": "Eenzaamheid, kwetsbaarheid en zingeving bij jongeren in individualistische tijd"
+    },
+    {
+      "n": 249,
+      "reason": "Mentale kwetsbaarheid, zingeving en psychisch welzijn in een ontregelde samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,120 +1,151 @@
 {
   "episode": 260,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 111501,
+    "segments": 1201,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32235,
-    "output_tokens": 2338,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59049,
+    "output_tokens": 3342,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
+    "Zingeving & psyche",
     "Klimaat & natuur",
-    "Kerk & secularisatie",
-    "Geschiedenis"
+    "God & geloof"
   ],
   "guests": [
     "Hilbrand Rozema"
   ],
   "people": [
     {
+      "name": "Hilbrand Rozema",
+      "note": "gast, journalist Nederlands Dagblad en auteur van 'Tijd is een leeuwerik'",
+      "start_seconds": 6,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog en hoogleraar aan VU en Theologische Universiteit Utrecht",
+      "start_seconds": 12,
+      "mention_count": 1
+    },
+    {
       "name": "Herman Finkers",
-      "note": "cabaretier die de Vaalserberg beklom in een voorstelling",
-      "start_seconds": 143,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
+      "note": "cabaretier die in een voorstelling de Vaalserberg beklimt",
+      "start_seconds": 23,
+      "mention_count": 1
     },
     {
       "name": "Koos van Zomeren",
-      "note": "natuurschrijver die de lucht de laatste wildernis noemt",
+      "note": "natuurschrijver die de lucht als laatste wildernis noemde",
       "start_seconds": 290,
-      "wiki_checked": true,
-      "wiki_pageid": 90881,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Koos_van_Zomeren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Gedicht_%27Een_jaar_in_scherven%27_van_Koos_van_Zomeren%2C_Sint_Anthoniusplaats%2C_Nijmegen.jpg/250px-Gedicht_%27Een_jaar_in_scherven%27_van_Koos_van_Zomeren%2C_Sint_Anthoniusplaats%2C_Nijmegen.jpg"
+      "mention_count": 2
     },
     {
       "name": "John Jansen van Galen",
-      "note": "auteur van een boek over verdwalen in Nederland",
+      "note": "auteur van het boek over verdwalen in Nederland",
       "start_seconds": 455,
-      "wiki_checked": true,
-      "wiki_pageid": 763162,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Jansen_van_Galen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/John_Jansen_van_Galen_presenteert_zijn_boek_Ons_laatste_oorlogje.jpg/250px-John_Jansen_van_Galen_presenteert_zijn_boek_Ons_laatste_oorlogje.jpg"
+      "mention_count": 1
     },
     {
       "name": "Wim Eikelboom",
-      "note": "journalist en IJssel-kenner, komt voor in het boek",
+      "note": "journalist en kenner van de IJssel die rondleidingen geeft",
       "start_seconds": 595,
-      "wiki_checked": true
-    },
-    {
-      "name": "Geert Wilders",
-      "note": "PVV-leider, voerde actie tegen asielzoekerscentra",
-      "start_seconds": 1280,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "toenmalig premier, veroordeelde de rellen rond Harskamp",
-      "start_seconds": 1605,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Mehmet",
-      "note": "restauranthouder in Harskamp",
-      "start_seconds": 1555,
-      "wiki_checked": true
+      "note": "restauranthouder in Harskamp die racistische jongeren terechtwijst",
+      "start_seconds": 1000,
+      "mention_count": 2
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider, probeerde in Zwolle en Coevorden AZC's tegen te houden",
+      "start_seconds": 1278,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "premier die de situatie in Harskamp/Ter Apel veroordeelde",
+      "start_seconds": 1636,
+      "mention_count": 1
+    },
+    {
+      "name": "Vincent van Gogh",
+      "note": "schilder, citeert over vaderland in brief aan Theo",
+      "start_seconds": 2490,
+      "mention_count": 2
+    },
+    {
+      "name": "Jacob Israël de Haan",
+      "note": "Joods-Nederlandse dichter die over zijn vaderland schreef",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "Les Murray",
+      "note": "Australische dichter met gedicht over een 'nulplek'",
+      "start_seconds": 2750,
+      "mention_count": 2
+    },
+    {
+      "name": "Willem-Jan de Heck",
+      "note": "architect en dominee, gesprek over verdozing van het landschap",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Valerie Nieuwenhuis",
+      "note": "gesprekspartner uit eerdere aflevering over machines",
+      "start_seconds": 3720,
+      "mention_count": 1
+    },
+    {
+      "name": "Leo Vroeman",
+      "note": "wetenschapper en dichter van psalmen",
+      "start_seconds": 3765,
+      "mention_count": 1
     },
     {
       "name": "Yasmina Allas",
-      "note": "Somalisch-Nederlandse schrijfster die vroeg wie de Nederlanders zijn",
-      "start_seconds": 1973,
-      "wiki_checked": true
+      "note": "Somalisch-Nederlandse schrijfster die vroeg wie Nederlanders zijn",
+      "start_seconds": 1975,
+      "mention_count": 1
     },
     {
-      "name": "Ahmed Marcouch",
-      "note": "burgemeester van Arnhem, organiseert inburgeringsceremonies",
-      "start_seconds": 2033,
-      "wiki_checked": true,
-      "wiki_pageid": 718339,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ahmed_Marcouch",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/14._Ahmed_Marcouch.jpg/250px-14._Ahmed_Marcouch.jpg"
+      "name": "Marcouch",
+      "note": "burgemeester van Arnhem, geprezen om inburgeringscursussen",
+      "start_seconds": 2035,
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "gedoopt in de Jordaan, gevierd met Theophanie",
-      "start_seconds": 1760,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Freud",
+      "note": "genoemd als voorbeeld van reductionistische modefase",
+      "start_seconds": 3290,
+      "mention_count": 1
+    },
+    {
+      "name": "Bert en Riek",
+      "note": "ouder echtpaar uit Diever dat door schoolkinderen gezwaaid wordt",
+      "start_seconds": 1490,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Tijd is een leeuwerik",
       "author": "Hilbrand Rozema",
-      "note": "reisverhalen langs de rafelranden van Nederland",
-      "start_seconds": 37,
+      "note": "het boek waarover het gesprek gaat",
+      "start_seconds": 0,
       "volume_id": "ZNtz0QEACAAJ",
-      "canonical_title": "Tijd is een leeuwerik: Reizen langs de rafelranden van Nederland",
+      "canonical_title": "Tijd is een leeuwerik",
       "canonical_author": "Hilbrand Rozema",
       "isbn13": "9789464713602",
       "isbn10": "9464713607",
@@ -123,149 +154,178 @@
     {
       "title": "Waar een wil is, is geen weg",
       "author": "John Jansen van Galen",
-      "note": "verhalen over verdwalen in Nederland",
-      "start_seconds": 463,
+      "note": "boek over verdwalen in Nederland",
+      "start_seconds": 455,
       "volume_id": "tidQAwAAQBAJ",
-      "canonical_title": "Waar een wil is, is geen weg: verdwalen in Nederland",
+      "canonical_title": "Waar een wil is, is geen weg",
       "canonical_author": "John Jansen van Galen",
       "isbn13": "9789045026312",
       "isbn10": "9045026317",
       "thumbnail": "http://books.google.com/books/content?id=tidQAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheüs 3:13",
+      "note": "doop van Jezus in de Jordaan, aanleiding van de zegening van het water door Grieks-orthodoxe christenen",
+      "start_seconds": 1740
+    }
+  ],
   "places": [
+    "Nederland",
+    "Groningen",
+    "Overijssel",
+    "Ommen",
     "Delfzijl",
     "Noordpolderzijl",
-    "Flevoland",
-    "Oostvaardersplassen",
     "Rottumeroog",
     "Griend",
-    "Groningen",
-    "Salland",
-    "Ommen",
     "Harskamp",
+    "Ede",
     "Coevorden",
     "Zwolle",
-    "Nijmegen",
     "Arnhem",
-    "Lievelde",
-    "Utrecht Centraal",
-    "Emmen",
+    "Nijmegen",
     "Den Helder",
-    "Rotterdam",
+    "Maastricht",
+    "Lievelde",
+    "Wageningen",
+    "Flevoland",
+    "Almere",
+    "Zuid-Beveland",
     "Diever",
-    "Amersfoort"
+    "Ginkelse Hei",
+    "Oostvaardersplassen",
+    "Iona"
   ],
-  "summary_tldr": "Journalist Hilbrand Rozema vertelt over zijn reizen door Nederland, van natuur tot rafelranden en AZC-demonstraties. Hij pleit voor houden van Nederland als verbondenheid en 'Heimat', waarin ook nieuwkomers een plek krijgen. Samen met Stefan Paas bespreekt hij wortels, Nederlanderschap en religieuze rituelen van migrantengemeenschappen.",
+  "summary_tldr": "Hilbrand Rozema vertelt over zijn reizen langs de randen van Nederland en over zijn zoektocht naar wortels, Heimat en Nederlandse identiteit. Samen met Stefan Paas bespreekt hij landschap, verbondenheid en 'dunne plaatsen' waar hemel en aarde elkaar raken. Het gesprek eindigt met de oproep om de wereld te 'herraadselen' in plaats van te ontraadselen.",
   "summary_points": [
-    "Nederland is gevarieerder en wilder dan vaak gedacht, met veel water en landschapstypen.",
-    "Rozema reist voor zijn columns naar plekken waar weinig journalisten komen.",
-    "Houden van Nederland betekent mensen zien en verbondenheid, niet nationalisme.",
-    "Heimat omvat plek, familiewortels en een veilige sociale omgeving.",
-    "Bij AZC-protesten zoekt hij nuance: saamhorige dorpen kunnen narrig reageren op snelle verandering.",
-    "Grieks-orthodoxe en Koptische christenen tonen hoe geworteld zijn kan, ook in een nieuw land.",
-    "Nederlanders relativeren hun identiteit, maar nieuwkomers hebben houvast en verhaal nodig.",
-    "Nederland is eerder een mozaïek dan een smeltkroes; arbeiderswijken verdienen aandacht."
+    "Nederland is landschappelijk veel gevarieerder dan het op het eerste gezicht lijkt",
+    "Rozema reist vooral naar de rafelranden om gewone Nederlanders te spreken",
+    "Heimat en wortelen zijn centraal: thuis zijn en weten waar je vandaan komt",
+    "Nederlandse identiteit wordt besproken als verbondenheid in plaats van nationalisme",
+    "Kritische kanttekeningen bij AZC-protesten en de rol van PVV en Wilders",
+    "Verhalen over Koptische en Grieks-orthodoxe christenen tonen hoe geloof wortelt",
+    "Het begrip 'dunne plaatsen' uit de Keltische spiritualiteit komt aan bod",
+    "Paas en Rozema bespreken of natuurervaringen religieus zijn",
+    "Het idee van 'herraadselen' tegenover reductionisme en wetenschap",
+    "Eenzaamheid en de betekenis van gesprekken met vreemden komen aan bod"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Vooroordelen over de Nederlandse natuur",
-      "summary": "Vlak, aangeharkt en pannenkoekenrestaurants: Rozema weerlegt vooroordelen en vertelt over verdwalen in Nederland."
+      "title": "Vooroordelen over het Nederlandse landschap",
+      "summary": "Het gesprek opent met de vraag of Nederland plat en saai is, en wordt het landschap van variatie en vogels besproken."
     },
     {
-      "start_seconds": 643,
-      "title": "Waarom reizen langs de rafelranden",
-      "summary": "Rozema legt uit waarom hij naar plekken als Delfzijl en Emmen gaat en gewone Nederlanders spreekt."
+      "start_seconds": 663,
+      "title": "Verdwalen en riviergevaren",
+      "summary": "De gesprekspartners praten over gevaarlijke rivieren, verdwalen in Nederland en een boek daarover."
     },
     {
-      "start_seconds": 885,
-      "title": "Thuiskomen en landschap",
-      "summary": "Over zijn Groningse en Overijsselse wortels en het karakter van landschappen."
+      "start_seconds": 660,
+      "title": "Waarom reizen en gewone Nederlanders",
+      "summary": "Rozema legt uit waarom hij naar rafelranden reist en AZC-discussies en migratie komen aan bod."
     },
     {
-      "start_seconds": 1130,
-      "title": "Houden van Nederland en Heimat",
-      "summary": "Over nationaal besef, achtergestelde gebieden, AZC's en protest in Coevorden, Zwolle en Harskamp."
+      "start_seconds": 1080,
+      "title": "Wortels, Heimat en Groningen",
+      "summary": "Rozema vertelt over zijn jeugd in Groningen en Overijssel en de betekenis van geworteld zijn."
     },
     {
-      "start_seconds": 1735,
-      "title": "Geworteld zijn: orthodoxe en Koptische christenen",
-      "summary": "Zegening van de Waal en een Koptische doop als voorbeelden van geworteld zijn."
+      "start_seconds": 1800,
+      "title": "Nederlanderschap en identiteit",
+      "summary": "Discussie over wat het betekent Nederlander te zijn, met verwijzingen naar Van Gogh en Jacob Israël de Haan."
     },
     {
-      "start_seconds": 1930,
-      "title": "Wat is een Nederlander?",
-      "summary": "Over identiteit, het mozaïek van Arnhem, arbeiderswijken en relativerend Nederlanderschap."
+      "start_seconds": 2640,
+      "title": "Dunne plaatsen en religieuze ervaring",
+      "summary": "Het begrip 'thin places' wordt uitgelegd en Paas en Rozema delen persoonlijke plekken van geloof en verwondering."
+    },
+    {
+      "start_seconds": 3480,
+      "title": "Herraadselen en reductionisme",
+      "summary": "Het verschil tussen ontraadselen en herraadselen wordt besproken, met wetenschap als tegenpool."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Eenzaamheid, stamboom en slot",
+      "summary": "Het gesprek eindigt bij gesprekken met vreemden, eenzaamheid na corona en het belang van familiegeschiedenis."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 290,
+      "start_seconds": 2490,
       "speaker": "Hilbrand Rozema",
-      "text": "De laatste echte wildernis van Nederland is misschien de lucht.",
-      "note": "Citaat van Koos van Zomeren, verrassend beeld van wildernis."
+      "text": "Het is alles wat je omringt, alles wat je heeft grootgebracht en gevoed, alles wat je hebt liefgehad... dat is je vaderland.",
+      "note": "Vincent van Gogh-citaat dat de definitie van vaderland verbindt met landschap en mensen."
     },
     {
-      "start_seconds": 1760,
-      "speaker": "Hilbrand Rozema",
-      "text": "Grieks-orthodoxe christenen zegenen op straat de Waal en al het water van de wereld.",
-      "note": "Bijzonder, bijna heilig moment in de openbare ruimte."
-    },
-    {
-      "start_seconds": 1973,
-      "speaker": "Hilbrand Rozema",
-      "text": "Yasmina Allas stuitte op een Barbapapa-achtige vormloosheid bij Nederlanders.",
-      "note": "Scherp beeld van onze identiteitsvraag."
-    },
-    {
-      "start_seconds": 2050,
-      "speaker": "Hilbrand Rozema",
-      "text": "We zijn als land geen smeltkroes, we zijn een mozaïek, maar we moeten het wel samen doen.",
-      "note": "Kernidee over identiteit en samenleven."
-    },
-    {
-      "start_seconds": 1000,
+      "start_seconds": 3085,
       "speaker": "Stefan Paas",
-      "text": "Nederland is een idee; je bent altijd gehecht aan een stukje ervan.",
-      "note": "Nuchtere duiding van vaderlandsliefde."
+      "text": "Voor mij is het absoluut een godservaring.",
+      "note": "Paas noemt zijn ervaring met zijn hond in een veld openlijk religieus."
+    },
+    {
+      "start_seconds": 3560,
+      "speaker": "Hilbrand Rozema",
+      "text": "We moeten de wereld niet ontraadselen, maar herraadselen.",
+      "note": "Poëtische kernzin die het hele gesprek samenvat."
+    },
+    {
+      "start_seconds": 2300,
+      "speaker": "Stefan Paas",
+      "text": "Nederland is een idee.",
+      "note": "Paas stelt dat niemand van heel Nederland als landschap kan houden, alleen van een stukje."
+    },
+    {
+      "start_seconds": 3960,
+      "speaker": "Hilbrand Rozema",
+      "text": "Dat was echt geweldig.",
+      "note": "Rozema vertelt over eenzaamheid na corona en het belang van één gesprekje per dag."
     }
   ],
   "keywords": [
-    "Nederlandse identiteit",
     "Heimat",
-    "wortels",
-    "rafelrand",
-    "AZC",
-    "landschap",
-    "Koptische christenen",
-    "Theophanie",
+    "Nederlandse identiteit",
+    "dunne plaatsen",
     "herraadselen",
-    "Nederlands Dagblad",
-    "mozaïek"
+    "landschap",
+    "verbondenheid",
+    "wortels",
+    "Koptische christenen",
+    "Keltische spiritualiteit",
+    "reductionisme",
+    "eenzaamheid",
+    "Van Gogh"
   ],
-  "quotes": [],
+  "quotes": [
+    "We moeten de wereld niet ontraadselen, maar herraadselen.",
+    "Voor mij is het absoluut een godservaring.",
+    "Nederland is een idee."
+  ],
   "similar": [
     {
-      "n": 304,
-      "reason": "AZC-protesten, Nederlandse ziel en verbondenheid; theologische duiding met Stefan Paas"
+      "n": 142,
+      "reason": "Zingeving en verlangen naar een prachtige wereld, met God en natuur"
     },
     {
-      "n": 263,
-      "reason": "Cultureel verdwaald; verhalen, rituelen en samenleving met migratie en secularisatie"
+      "n": 114,
+      "reason": "Nederlandse identiteit, vlag en cultuur, als spiegel van het land"
     },
     {
-      "n": 279,
-      "reason": "Opkomen voor Nederlandse cultuur, migratie en identiteit"
+      "n": 265,
+      "reason": "Verbondenheid met de natuur en zingeving in de moderne levensstijl"
     },
     {
-      "n": 256,
-      "reason": "Nederlands zelfbeeld en geschiedenis in relatie tot kerk en secularisatie"
+      "n": 55,
+      "reason": "Klimaat, religie en liefde voor de natuur, met Marianne Thieme"
     },
     {
-      "n": 105,
-      "reason": "Asielcrisis, migratie en kerk in Nederland"
+      "n": 227,
+      "reason": "Maatschappelijke verandering, klimaat en God, met Jan Rotmans"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

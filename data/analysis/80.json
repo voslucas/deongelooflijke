@@ -1,18 +1,23 @@
 {
   "episode": 80,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 116878,
+    "segments": 1425,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31800,
-    "output_tokens": 2903,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61262,
+    "output_tokens": 11619,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
-    "God & geloof",
+    "Filosofie & ethiek",
     "Bijbel & Jezus",
-    "Geschiedenis"
+    "God & geloof"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,211 +25,358 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, aanleiding voor de inval in Oekraïne",
+      "note": "Russische president; centraal onderwerp van de analyse van zijn toespraken en ideologie",
       "start_seconds": 28,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Olaf Scholz",
-      "note": "Duitse bondskanselier die sprak over de grootste oorlog in Europa in 75 jaar",
-      "start_seconds": 333,
-      "wiki_checked": true,
-      "wiki_pageid": 4956432,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Olaf_Scholz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg/250px-Olaf_Scholz_and_Gustavo_Petro_in_New_York_2024_%28cropped%29.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "Waarschuwde in 2014 voor Poetins geloof in een heilige Russische natie",
-      "start_seconds": 519,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "mention_count": 60
     },
     {
       "name": "Donald Trump",
-      "note": "Vergeleken met Poetin als het gaat om consistentie",
-      "start_seconds": 635,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Voormalig Amerikaans president; vergeleken met Poetin qua onvoorspelbaarheid",
+      "start_seconds": 632,
+      "mention_count": 5
     },
     {
-      "name": "Mark Rutte",
-      "note": "Noemde Poetin paranoïde",
-      "start_seconds": 585,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "name": "Peter de Grote",
+      "note": "Russische tsaar; geciteerd door Poetin als voorbeeld van verlichting en openheid",
+      "start_seconds": 778,
+      "mention_count": 2
+    },
+    {
+      "name": "Alexander I",
+      "note": "Russische tsaar die Napoleon versloeg; favoriete tsaar van De Graaf",
+      "start_seconds": 816,
+      "mention_count": 2
+    },
+    {
+      "name": "Alexander II",
+      "note": "Russische tsaar die het Russische rijk na de Krimoorlog heropbouwde en Oekraïne in 1873 inlijfde",
+      "start_seconds": 1131,
+      "mention_count": 4
+    },
+    {
+      "name": "Catharina de Grote",
+      "note": "Absolutistische Russische vorstin die de Krim en Kaukasus inlijfde",
+      "start_seconds": 903,
+      "mention_count": 2
+    },
+    {
+      "name": "Dmitri Medvedev",
+      "note": "Voormalig Russisch president en premier die over democratie in Rusland sprak",
+      "start_seconds": 799,
+      "mention_count": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier die in 2014 voor Poetins gedrag waarschuwde",
+      "start_seconds": 511,
+      "mention_count": 1
+    },
+    {
+      "name": "Olaf Scholz",
+      "note": "Duitse bondskanselier die sprak over het begin van een oorlog zoals die sinds 75 jaar niet in Europa was",
+      "start_seconds": 353,
+      "mention_count": 2
+    },
+    {
+      "name": "Karl Barth",
+      "note": "Zwitserse theoloog die in 1938 schreef dat de strijd tegen het kwaad nodig was",
+      "start_seconds": 1644,
+      "mention_count": 5
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "Duitse theoloog die verzet tegen Hitler bepleitte",
+      "start_seconds": 1722,
+      "mention_count": 2
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Nazi-leider; parallel met Poetin wat betreft Sudetenland en expansie",
+      "start_seconds": 1658,
+      "mention_count": 8
+    },
+    {
+      "name": "Neville Chamberlain",
+      "note": "Britse premier die in 1938 met Hitler onderhandelde ('peace in our time')",
+      "start_seconds": 1790,
+      "mention_count": 3
+    },
+    {
+      "name": "Garri Kasparov",
+      "note": "Voormalig schaakwereldkampioen en fel tegenstander van Poetin",
+      "start_seconds": 1840,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Britse schrijver die in 1948 schreef over leven in een atoomtijdperk",
+      "start_seconds": 1323,
+      "mention_count": 6
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; schreef aan de Thessalonicenzen dat men moet blijven liefhebben en hopen",
+      "start_seconds": 1323,
+      "mention_count": 4
+    },
+    {
+      "name": "Koen Wessels",
+      "note": "Predikant in Hoofddorp die de brief van Barth onder de aandacht bracht",
+      "start_seconds": 1665,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Quartier",
+      "note": "Theoloog des vaderlands die sancties en geweldloosheid bepleitte",
+      "start_seconds": 1917,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader die de leer van de rechtvaardige oorlog ontwikkelde",
+      "start_seconds": 2236,
+      "mention_count": 5
+    },
+    {
+      "name": "Ambrosius",
+      "note": "Kerkvader die Mozes als voorbeeld gebruikte voor verdediging van zwakken",
+      "start_seconds": 2253,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse denker die de rechtvaardige oorlog verder uitwerkte",
+      "start_seconds": 2493,
+      "mention_count": 3
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Filosoof die al criteria voor rechtvaardige oorlog formuleerde",
+      "start_seconds": 2385,
+      "mention_count": 4
+    },
+    {
+      "name": "Julius Caesar",
+      "note": "Romeins veldheer die oorlog voerde om slaven te maken in Gallië",
+      "start_seconds": 2469,
+      "mention_count": 1
+    },
+    {
+      "name": "Cicero",
+      "note": "Romeins denker over oorlog en rechtvaardigheid",
+      "start_seconds": 2474,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Groot",
+      "note": "Jurist die het recht na de oorlog (jus post bellum) bespreekt",
+      "start_seconds": 2554,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Walzer",
+      "note": "Auteur van Just and Unjust Wars",
+      "start_seconds": 2756,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaans president; erkende fouten bij de terugtrekking uit Afghanistan",
+      "start_seconds": 2687,
+      "mention_count": 3
+    },
+    {
+      "name": "Winston Churchill",
+      "note": "Britse premier in de Tweede Wereldoorlog; 'we verdedigen onze waarden'",
+      "start_seconds": 2858,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator die stelde dat oorlog alleen gevoerd mag worden als die haalbaar is",
+      "start_seconds": 2669,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Hobbes",
+      "note": "Filosoof die de Leviathan schreef; 'nasty, brutish and short'",
+      "start_seconds": 2912,
+      "mention_count": 1
+    },
+    {
+      "name": "Plato",
+      "note": "Filosoof die de koning-filosoof als ideaal zag",
+      "start_seconds": 3014,
+      "mention_count": 1
+    },
+    {
+      "name": "Mozes",
+      "note": "Bijbelse leider die een Egyptenaar doodsloeg",
+      "start_seconds": 2283,
+      "mention_count": 3
+    },
+    {
+      "name": "Koning David",
+      "note": "Bijbelse koning die moest vechten en daardoor de tempel niet mocht bouwen",
+      "start_seconds": 2030,
+      "mention_count": 5
+    },
+    {
+      "name": "Absalom",
+      "note": "Zoon van David die tegen hem in opstand kwam",
+      "start_seconds": 2043,
+      "mention_count": 2
+    },
+    {
+      "name": "Joab",
+      "note": "Bevelhebber van David die Absalom doodde",
+      "start_seconds": 2043,
+      "mention_count": 2
+    },
+    {
+      "name": "Salomo",
+      "note": "Zoon van David; vredevorst in de Bijbel",
+      "start_seconds": 2092,
+      "mention_count": 1
+    },
+    {
+      "name": "Uria",
+      "note": "Soldaat die David naar het front stuurde",
+      "start_seconds": 2080,
+      "mention_count": 1
+    },
+    {
+      "name": "Batseba",
+      "note": "Vrouw van Uria met wie David een relatie had",
+      "start_seconds": 2072,
+      "mention_count": 1
+    },
+    {
+      "name": "Josef Stalin",
+      "note": "Sovjetleider; verantwoordelijk voor de Holodomor in Oekraïne",
+      "start_seconds": 915,
+      "mention_count": 2
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president die met Poetin sprak",
+      "start_seconds": 1131,
+      "mention_count": 1
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president",
+      "start_seconds": 1131,
+      "mention_count": 1
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Franse keizer die door Alexander I werd verslagen",
+      "start_seconds": 816,
+      "mention_count": 1
+    },
+    {
+      "name": "Florence Nightingale",
+      "note": "Verpleegster in de Krimoorlog die indirect tot de Conferentie van Parijs leidde",
+      "start_seconds": 3672,
+      "mention_count": 2
     },
     {
       "name": "Niels Drost",
       "note": "Student van De Graaf die Poetins toespraken analyseerde",
-      "start_seconds": 740,
-      "wiki_checked": true
+      "start_seconds": 732,
+      "mention_count": 1
     },
     {
-      "name": "Peter de Grote",
-      "note": "Tsaar, door Poetin geciteerd als Europa-georiënteerd voorbeeld",
-      "start_seconds": 778,
-      "wiki_checked": true,
-      "wiki_pageid": 50298,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Peter_de_Grote.jpg/250px-Peter_de_Grote.jpg"
+      "name": "Maarten van Rossum",
+      "note": "Commentator die Poetin irrationeel noemde",
+      "start_seconds": 672,
+      "mention_count": 1
     },
     {
-      "name": "Alexander I",
-      "note": "Tsaar die Napoleon versloeg",
-      "start_seconds": 816,
-      "wiki_checked": true,
-      "wiki_pageid": 51198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg/250px-Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg"
+      "name": "Brian Kaplan",
+      "note": "Econoom die het begrip rationele irrationaliteit introduceerde",
+      "start_seconds": 688,
+      "mention_count": 1
     },
     {
-      "name": "Catharina de Grote",
-      "note": "Absolutistische tsarina die Rusland uitbreidde",
-      "start_seconds": 903,
-      "wiki_checked": true,
-      "wiki_pageid": 36561,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Catharina_II_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_%281763%2C_Tretyakov_gallery%29.jpg/250px-Profile_portrait_of_Catherine_II_by_Fedor_Rokotov_%281763%2C_Tretyakov_gallery%29.jpg"
+      "name": "Mark Rutte",
+      "note": "Nederlands premier; noemde Poetin paranoïde",
+      "start_seconds": 584,
+      "mention_count": 5
     },
     {
-      "name": "Alexander II",
-      "note": "Tsaar na de Krimoorlog, Russificatie van Oekraïne",
-      "start_seconds": 1121,
-      "wiki_checked": true,
-      "wiki_pageid": 51202,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_II_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_II_%D1%81%D1%82%D0%BE%D0%B8%D1%82_%D0%B2_%D0%BC%D1%83%D0%BD%D0%B4%D0%B8%D1%80%D0%B5._1878~1879%D0%B3_%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%28%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B928%29_%282%29_X_e1.jpg/250px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_II_%D1%81%D1%82%D0%BE%D0%B8%D1%82_%D0%B2_%D0%BC%D1%83%D0%BD%D0%B4%D0%B8%D1%80%D0%B5._1878~1879%D0%B3_%D0%9B%D0%B5%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%28%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B928%29_%282%29_X_e1.jpg"
+      "name": "Sigrid Kaag",
+      "note": "Nederlands minister die sprak over de kosten van sancties",
+      "start_seconds": 3086,
+      "mention_count": 1
     },
     {
-      "name": "C.S. Lewis",
-      "note": "Britse schrijver, essay 'On Living in an Atomic Age'",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "name": "Ton Middendorp",
+      "note": "Commandant van de strijdkrachten die sprak over vechten voor het vaderland",
+      "start_seconds": 3243,
+      "mention_count": 1
     },
     {
-      "name": "Karl Barth",
-      "note": "Zwitserse theoloog die in 1938 vechten tegen Hitler bepleitte",
-      "start_seconds": 1644,
-      "wiki_checked": true,
-      "wiki_pageid": 64348,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Barth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Karl_Barth_Bundesarchiv_Bild.png/250px-Karl_Barth_Bundesarchiv_Bild.png"
+      "name": "Bas Eickhout",
+      "note": "GroenLinks-Europarlementariër die zijn bezuinigingen op defensie als naïef erkende",
+      "start_seconds": 3598,
+      "mention_count": 1
     },
     {
-      "name": "Dietrich Bonhoeffer",
-      "note": "Theoloog in verzet tegen het naziregime",
-      "start_seconds": 1727,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
-    },
-    {
-      "name": "Neville Chamberlain",
-      "note": "Britse premier, 'peace in our time'",
-      "start_seconds": 1790,
-      "wiki_checked": true,
-      "wiki_pageid": 809285,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Neville_Chamberlain",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Right_Honourable_Neville_Chamberlain._Wellcome_M0003096.jpg/250px-Right_Honourable_Neville_Chamberlain._Wellcome_M0003096.jpg"
-    },
-    {
-      "name": "Garri Kasparov",
-      "note": "Schaker en Poetin-criticus",
-      "start_seconds": 1836,
-      "wiki_checked": true,
-      "wiki_pageid": 25787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Garri_Kasparov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Garri_kasparow_20070318.jpg/250px-Garri_kasparow_20070318.jpg"
-    },
-    {
-      "name": "Thomas Quartier",
-      "note": "Theoloog des Vaderlands met pacifistisch standpunt",
-      "start_seconds": 1922,
-      "wiki_checked": true,
-      "wiki_pageid": 5587524,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Quartier"
-    },
-    {
-      "name": "Koning David",
-      "note": "Bijbelse koning die moest vechten, ook tegen zijn zoon Absalom",
-      "start_seconds": 2030,
-      "wiki_checked": true,
-      "wiki_pageid": 10524,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Koning_David",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Gottlieb_Welt%C3%A9_-_King_David.jpg/250px-Gottlieb_Welt%C3%A9_-_King_David.jpg"
+      "name": "Alfons Mais",
+      "note": "Duitse generaal die klaagde over het gebrek aan materieel",
+      "start_seconds": 3536,
+      "mention_count": 1
     },
     {
       "name": "Gandhi",
-      "note": "Voorbeeld van pacifistische traditie",
-      "start_seconds": 1736,
-      "wiki_checked": true,
-      "wiki_pageid": 13465,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahatma_Gandhi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/250px-Portrait_Gandhi.jpg"
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "Voorbeeld van pacifistische traditie",
-      "start_seconds": 1736,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
+      "note": "Voorbeeld van geweldloos verzet tegen Britse overheersing",
+      "start_seconds": 1728,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "On Living in an Atomic Age",
+      "author": "C.S. Lewis",
+      "note": "Essay uit 1948 over leven onder de atoomdreiging",
+      "start_seconds": 1323,
+      "volume_id": "p7n9CwAAQBAJ",
+      "canonical_title": "Present Concerns: Journalistic Essays",
+      "canonical_author": "C. S. Lewis",
+      "isbn13": "9780062565594",
+      "isbn10": "0062565591",
+      "thumbnail": "http://books.google.com/books/content?id=p7n9CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Just and Unjust Wars",
+      "author": "Michael Walzer",
+      "note": "Standaardwerk over de rechtvaardige oorlog",
+      "start_seconds": 2756,
+      "volume_id": "1n6D0AEACAAJ",
+      "canonical_title": "Just and unjust wars",
+      "canonical_author": "Michael Walzer",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "1 Thessalonicenzen 5",
-      "note": "Paulus spoort aan door te leven, werken en liefhebben tot het einde",
-      "start_seconds": 1324
+      "ref": "1 Tessalonicenzen 5",
+      "note": "Paulus spoort aan om te blijven werken, liefhebben, hopen en geloven tot de laatste dag",
+      "start_seconds": 1323
     },
     {
-      "ref": "Mattheüs 5",
-      "note": "Bergrede: andere wang toekeren, zalig de vredestichters",
-      "start_seconds": 1881
+      "ref": "Psalm 27",
+      "note": "Beatrice de Graaf leest voor als troost in oorlogstijd",
+      "start_seconds": 3865
     },
     {
-      "ref": "Mattheüs 26:52",
-      "note": "Wie het zwaard opneemt, zal erdoor vergaan",
-      "start_seconds": 1900
-    },
-    {
-      "ref": "2 Samuël 18",
-      "note": "David en Absalom, David vraagt Joab de jongeling te sparen",
-      "start_seconds": 1986
+      "ref": "Exodus 2:11-12",
+      "note": "Mozes die een Egyptenaar doodslaat, als voorbeeld in discussie over geweld",
+      "start_seconds": 2283
     }
   ],
   "places": [
@@ -234,134 +386,160 @@
     "Donbas",
     "Kiev",
     "Charkov",
-    "Moskou",
-    "Constantinopel",
+    "Utrecht",
     "Sudetenland",
-    "Tsjechoslowakije",
+    "Tsjechië",
+    "Tsjetsjenië",
+    "Nagorno-Karabach",
+    "Balkan",
+    "Atos",
+    "Constantinopel",
+    "Moskou",
+    "Polen",
     "Finland",
     "Zweden",
-    "Polen",
-    "Tsjetsjenië",
-    "Georgië",
-    "Baltische staten",
-    "Utrecht"
+    "Estland",
+    "Letland",
+    "Litouwen",
+    "Afghanistan",
+    "Gallië",
+    "Japan",
+    "Thessaloniki",
+    "Hoofddorp",
+    "Oxford",
+    "Egypte"
   ],
-  "summary_tldr": "Vlak na de Russische inval in Oekraïne spreken David Boogerd, Beatrice de Graaf en Stefan Paas over de schok van oorlog in Europa. De Graaf duidt Poetins consistente ideologie van het heilige Russische rijk, en Paas vertelt hoe hij hierover gaat preken. Ze bespreken ook pacifisme versus rechtvaardige oorlog, met Karl Barth als inspiratie.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de Russische inval in Oekraïne vanuit historisch, radicaliseringskundig en theologisch perspectief. De Graaf ziet in Poetins toespraken een consistente ideologie van het heilige Russische rijk, terwijl Paas de christelijke traditie van geweldloosheid en de rechtvaardige oorlog tegen elkaar afweegt. Het gesprek eindigt met de vraag wat Nederland bereid is op te offeren en met gebed als betekenisvolle reactie.",
   "summary_points": [
-    "Oorlog in Europa roept bij kinderen en volwassenen angst op, ook herinneringen aan de Koude Oorlog",
-    "Poetin is volgens De Graaf consistent, niet irrationeel: zijn handelen volgt uit geloof in een heilige Russische natie",
-    "Poetins gebruik van tsaren verschoof van Peter de Grote naar autocraten als Catharina de Grote",
-    "Kerk en staat zijn voor hem één lichaam: cesaropapisme, dubbele adelaar, Moskou als derde Rome",
-    "Het Westen heeft mogelijk bijgedragen aan Poetins radicalisering",
-    "Stefan preekt over 1 Thessalonicenzen 5 en C.S. Lewis: blijf liefhebben, werken en bidden",
-    "Barth bepleitte in 1938 verzet tegen Hitler: vrees voor onrecht gaat boven vrees voor geweld",
-    "Pacifisme legt men niet anderen op; sancties passen binnen de geweldloze traditie",
-    "Het verhaal van David laat zien hoe vechten tragisch kan zijn"
+    "Beatrice de Graaf analyseert Poetins toespraken en ziet een consistente lijn van het heilige Russische rijk en de Russificatie.",
+    "Poetin wordt vergeleken met Trump: waar Trump grillig is, is Poetin volgens De Graaf consistent en daardoor voorspelbaar.",
+    "De Graaf wijst op historische parallellen met de Krimoorlog, Sudetenland en de Balkanoorlogen.",
+    "Stefan Paas bereidt zijn preek over het einde der tijden en citeert Paulus en C.S. Lewis over leven in angst.",
+    "Karl Barth en Bonhoeffer zagen in 1938 dat geweld tegen Hitler nodig was; passivisme werd door hen afgewezen.",
+    "De christelijke traditie van de bergrede botst met de Oudtestamentische oorlogen; de leer van de rechtvaardige oorlog ontstond als antwoord hierop.",
+    "De criteria van de rechtvaardige oorlog (ultimum remedium, proportionaliteit, legitieme autoriteit, kans op succes) worden toegepast en blijken bij Poetin niet vervuld.",
+    "Het gesprek bespreekt de bereidheid van Nederlanders om offers te brengen, zoals hogere energieprijzen en meer vluchtelingenopvang.",
+    "Defensiebudgetten en de kritiek daarop komen aan bod, met de constatering dat Europa de militaire capaciteit mist.",
+    "Het gesprek eindigt met gebed en Psalm 27 als uitdrukking van angst en vertrouwen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
+      "title": "Intro",
+      "summary": "Presentator David Boogerd introduceert de aflevering over de oorlog in Europa en de gasten."
+    },
+    {
+      "start_seconds": 107,
       "title": "Eerste reacties op de oorlog",
-      "summary": "Beatrice en Stefan vertellen hoe zij het nieuws hoorden en hoe ze met kinderen en angst omgaan."
+      "summary": "De gasten vertellen hoe ze het nieuws vernamen en hoe ze hun kinderen en zichzelf geruststelden."
     },
     {
-      "start_seconds": 323,
-      "title": "Hoe groot is dit moment?",
-      "summary": "Over Scholz' uitspraak, eerdere oorlogen, het nucleaire gevaar en het risico op escalatie."
+      "start_seconds": 488,
+      "title": "Poetin analyseren als radicaliseringsexpert",
+      "summary": "De Graaf legt uit hoe ze Poetins toespraken met de methode van terrorismeonderzoek analyseert."
     },
     {
-      "start_seconds": 480,
-      "title": "In het hoofd van Poetin",
-      "summary": "Is Poetin gek of consistent? De Graaf legt uit hoe zijn toespraken een lijn tonen."
+      "start_seconds": 915,
+      "title": "Het heilige Russische rijk",
+      "summary": "Het gesprek gaat over Poetins ideologie, de dubbele adelaar, de orthodoxe kerk en de historische tsaren."
     },
     {
-      "start_seconds": 740,
-      "title": "Tsaren en het heilige Russische rijk",
-      "summary": "Poetins verschuivende gebruik van tsaren, Russificatie, orthodoxie en de eschatologische visie."
+      "start_seconds": 1250,
+      "title": "Preken in een oorlogsweek",
+      "summary": "Stefan Paas vertelt hoe hij zijn preek herschreef en citeert C.S. Lewis en Paulus over leven in dreiging."
     },
     {
-      "start_seconds": 1255,
-      "title": "Preken in oorlogstijd",
-      "summary": "Stefan over zijn preek, 1 Thessalonicenzen 5, C.S. Lewis en het belang van bidden."
-    },
-    {
-      "start_seconds": 1644,
-      "title": "Karl Barth en 1938",
-      "summary": "Barths brief over Sudetenland, Chamberlains verzoening en de les van tijdig ingrijpen."
-    },
-    {
-      "start_seconds": 1873,
+      "start_seconds": 1867,
       "title": "Pacifisme of rechtvaardige oorlog",
-      "summary": "De Bergrede, Quartiers pleidooi, sancties en het verhaal van David."
+      "summary": "Barth, Bonhoeffer en de discussie over geweldloosheid versus verdediging van het onrecht."
+    },
+    {
+      "start_seconds": 2222,
+      "title": "De traditie van de rechtvaardige oorlog",
+      "summary": "Van Aristoteles en Augustinus tot de NAVO-doctrine: criteria voor oorlog en de praktische moeilijkheden."
+    },
+    {
+      "start_seconds": 3060,
+      "title": "De prijs van solidariteit",
+      "summary": "Discussie over de offers die Nederland bereid is te brengen, vluchtelingenopvang en defensie-uitgaven."
+    },
+    {
+      "start_seconds": 3782,
+      "title": "Angst, gebed en slot",
+      "summary": "De gasten delen hun angst en gebed; de aflevering eindigt met het Kyrie Eleison."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 183,
+      "start_seconds": 474,
       "speaker": "Beatrice de Graaf",
-      "text": "Hoe erg is het als er een atoombom valt op Utrecht?",
-      "note": "Vraag van haar zoontje toont hoe de oorlog kinderen raakt."
+      "text": "Dan is escalatie voorgeprogrammeerd.",
+      "note": "Scherpe conclusie over Poetins eis dat Zweden en Finland niet bij de NAVO mogen."
     },
     {
-      "start_seconds": 668,
+      "start_seconds": 669,
       "speaker": "Beatrice de Graaf",
       "text": "Poetin is consistent.",
-      "note": "Scherp contrast met Trump en kern van haar analyse."
+      "note": "Kernanalyse die Poetin bewust scherp contrasteert met de grilligheid van Trump."
     },
     {
-      "start_seconds": 1360,
-      "speaker": "Stefan Paas",
-      "text": "Laten we zinvolle en menselijke dingen doen: bidden, werken, tennissen, darten.",
-      "note": "Citaat van C.S. Lewis dat troost biedt in dreigende tijden."
-    },
-    {
-      "start_seconds": 1728,
-      "speaker": "Stefan Paas",
-      "text": "Barth: de vrees voor onrecht en liefde voor vrijheid gaan voorop, boven vrees voor geweld.",
-      "note": "Theologische rechtvaardiging van verzet tegen een moorddadig regime."
-    },
-    {
-      "start_seconds": 1993,
+      "start_seconds": 915,
       "speaker": "Beatrice de Graaf",
-      "text": "De andere wang toekeren mag je jezelf zeggen, maar nooit een ander opleggen.",
-      "note": "Nuancering van pacifisme."
+      "text": "De radicale ideologie van de heilige Russische natie.",
+      "note": "Verklaart Poetins handelen vanuit een religieus-ideologisch wereldbeeld."
+    },
+    {
+      "start_seconds": 2283,
+      "speaker": "Stefan Paas",
+      "text": "Je hebt de macht om dat kwaad te verhinderen. Ben je dan niet verantwoordelijk als het toch gebeurt?",
+      "note": "Scherpe ethische vraag die de pacifistische positie onder druk zet."
+    },
+    {
+      "start_seconds": 3207,
+      "speaker": "David Boogerd",
+      "text": "Welke prijs ben je bereid te betalen?",
+      "note": "Confronterende vraag over de bereidheid tot offers van Nederlanders."
     }
   ],
   "keywords": [
     "Poetin",
     "Oekraïne",
-    "heilige Russische rijk",
-    "cesaropapisme",
-    "pacifisme",
     "rechtvaardige oorlog",
+    "pacifisme",
+    "heilige Russische rijk",
+    "radicalisering",
     "Karl Barth",
     "C.S. Lewis",
     "Bergrede",
-    "radicalisering",
-    "gebed",
-    "Koude Oorlog"
+    "gebed"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het is oorlog. Oorlog in Europa.",
+    "Op zoek naar eerste, wijze gedachtes bij dit alles.",
+    "Is pacifisme het antwoord, of een zogenoemde rechtvaardige oorlog waarbij je geweld niet schuwt?"
+  ],
   "similar": [
     {
       "n": 81,
-      "reason": "Direct vervolg: een week oorlog in Oekraïne met De Graaf en Paas"
+      "reason": "Zelfde oorlog in Oekraïne, Beatrice de Graaf en Stefan Paas over geschiedenis en geloof"
     },
     {
       "n": 86,
-      "reason": "Oorlog in Oekraïne wordt apocalyptisch, zelfde duo en religieuze duiding"
+      "reason": "Vervolg over de oorlog in Oekraïne, grimmiger en apocalyptischer, met dezelfde gespreksduo"
     },
     {
       "n": 79,
-      "reason": "Poetin, de kerk en religieuze geschiedenis achter het conflict met Oekraïne"
+      "reason": "Poetin, de Russische kerk en religieuze achtergrond van het conflict met Oekraïne"
+    },
+    {
+      "n": 153,
+      "reason": "Rusland, zijn religie en de oorlog in Oekraïne, met een indringende realitycheck"
     },
     {
       "n": 82,
-      "reason": "Russisch-orthodoxe kerk steunt Poetin; religieuze kant van de oorlog"
-    },
-    {
-      "n": 184,
-      "reason": "Poetin, Bijbel en waarde van de mens met De Graaf en Paas"
+      "reason": "Russisch-orthodoxe kerk die Poetin steunt en de oorlog rechtvaardigt"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 53,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109653,
+    "segments": 1039,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30604,
-    "output_tokens": 2515,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 55791,
+    "output_tokens": 7609,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
+    "Geopolitiek & oorlog",
     "Filosofie & ethiek",
-    "God & geloof",
-    "Samenleving & migratie"
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Rutger Bregman",
@@ -21,73 +26,112 @@
   "people": [
     {
       "name": "Arnold Douwes",
-      "note": "verzetsman, domineeszoon met communistische sympathieën, organiseerde onderduik in Nieuwlande",
-      "start_seconds": 812,
-      "wiki_checked": true,
-      "wiki_pageid": 5521776,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnold_Douwes"
+      "note": "Verzetsstrijder in Nieuwlande die onderduikers hielp; hoofdpersoon van het boek 'Wat maakt een verzetsheld'",
+      "start_seconds": 817,
+      "mention_count": 20
     },
     {
       "name": "Johannes Post",
-      "note": "bekende Drentse verzetsstrijder",
+      "note": "Verzetsstrijder die in Drenthe de onderduikersroute organiseerde en daarna moest vertrekken",
       "start_seconds": 917,
-      "wiki_checked": true,
-      "wiki_pageid": 31396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Post",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Verzetsheld_J._Post.jpg/250px-Verzetsheld_J._Post.jpg"
+      "mention_count": 3
     },
     {
       "name": "Bart van der Boom",
-      "note": "historicus, schreef standaardwerk over wat mensen wisten van de Jodenvervolging",
+      "note": "Historicus die het standaardwerk over de Jodenvervolging en onderduik schreef (2012)",
       "start_seconds": 1161,
-      "wiki_checked": true,
-      "wiki_pageid": 5652825,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_van_der_Boom",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/BartvanderBoom2014.jpg/250px-BartvanderBoom2014.jpg"
-    },
-    {
-      "name": "Samuel Oliner",
-      "note": "onderzoeker Altruistic Personality Project",
-      "start_seconds": 1716,
-      "wiki_checked": true
-    },
-    {
-      "name": "Pearl Oliner",
-      "note": "onderzoeker Altruistic Personality Project",
-      "start_seconds": 1716,
-      "wiki_checked": true
-    },
-    {
-      "name": "Eva Fogelman",
-      "note": "historica die verzetshelden interviewde",
-      "start_seconds": 1745,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Madelon de Keizer",
-      "note": "NIOD-historica, ontkrachtte het beeld van Putten als dorp van makke schapen",
-      "start_seconds": 1380,
-      "wiki_checked": true,
-      "wiki_pageid": 4923170,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Madelon_de_Keizer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Madelon_de_Keizer_2018.jpg/250px-Madelon_de_Keizer_2018.jpg"
+      "note": "Historica (NIOD) die het verzetsverleden van Putten onderzocht",
+      "start_seconds": 1392,
+      "mention_count": 1
     },
     {
-      "name": "Isabelle Duyvesteyn",
-      "note": "co-auteur van de bundel Terroristen en hun bestrijders",
-      "start_seconds": 324,
-      "wiki_checked": true
+      "name": "Samuel Oliner",
+      "note": "Socioloog die met Paul Oliner het Altruistic Personality Project leidde",
+      "start_seconds": 1716,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Oliner",
+      "note": "Socioloog, medeonderzoeker van het Altruistic Personality Project",
+      "start_seconds": 1716,
+      "mention_count": 1
+    },
+    {
+      "name": "Eva Vogelman",
+      "note": "Historica die veel verzetshelden interviewde",
+      "start_seconds": 1745,
+      "mention_count": 2
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Filosoof die een uitgebreide deugdencatalogus opstelde",
+      "start_seconds": 2315,
+      "mention_count": 2
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in de Bijbel; besproken als mogelijke verzetsstrijder en voorbeeld van genade",
+      "start_seconds": 2932,
+      "mention_count": 6
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Orthodox christelijk schrijver",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "Orthodox christelijk schrijver",
+      "start_seconds": 2550,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexej Navalny",
+      "note": "Russische oppositieleider en verzetsstrijder tegen Poetin",
+      "start_seconds": 2716,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Amerikaanse burgerrechtenleider die een hoge prijs betaalde voor zijn strijd",
+      "start_seconds": 2714,
+      "mention_count": 1
+    },
+    {
+      "name": "Gandhi",
+      "note": "Indiase vrijheidsstrijder die geweldloos verzet voerde",
+      "start_seconds": 2714,
+      "mention_count": 1
+    },
+    {
+      "name": "Nelson Mandela",
+      "note": "Zuid-Afrikaanse vrijheidsstrijder en president",
+      "start_seconds": 2714,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "De meeste mensen deugen",
+      "author": "Rutger Bregman",
+      "note": "Vorig boek van Bregman; het uitgangspunt van het gesprek over menselijke goedheid en 'aflaat'",
+      "start_seconds": 104,
+      "volume_id": "UbbpxgEACAAJ",
+      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
+      "canonical_author": "Rutger Bregman",
+      "isbn13": "9789082942187",
+      "isbn10": "9082942186",
+      "thumbnail": ""
+    },
+    {
       "title": "Wat maakt een verzetsheld",
       "author": "Rutger Bregman",
-      "note": "nieuw boek over verzet en Arnold Douwes",
+      "note": "Nieuw boek van Bregman over verzet en de overtuigingen van verzetshelden",
       "start_seconds": 402,
       "volume_id": "l8FtzgEACAAJ",
       "canonical_title": "Wat maakt een verzetsheld?",
@@ -97,140 +141,155 @@
       "thumbnail": ""
     },
     {
-      "title": "De meeste mensen deugen",
-      "author": "Rutger Bregman",
-      "note": "voorganger, kan als moderne aflaat werken",
-      "start_seconds": 409,
-      "volume_id": "UbbpxgEACAAJ",
-      "canonical_title": "De meeste mensen deugen. Een nieuwe geschiedenis van de mens",
-      "canonical_author": "Rutger Bregman",
-      "isbn13": "9789082942187",
-      "isbn10": "9082942186",
-      "thumbnail": ""
-    },
-    {
       "title": "Terroristen en hun bestrijders",
       "author": "Beatrice de Graaf en Isabelle Duyvesteyn",
-      "note": "bundel waarmee Bregman college kreeg",
+      "note": "Bundel die Bregman als student las en die hem beïnvloedde",
       "start_seconds": 324,
       "volume_id": "NUsrvgAACAAJ",
       "canonical_title": "Terroristen en hun bestrijders: vroeger en nu",
-      "canonical_author": "Isabelle Duyvesteyn",
+      "canonical_author": "Beatrice de Graaf en Isabelle Duyvesteyn",
       "isbn13": "9789085064251",
       "isbn10": "9085064252",
       "thumbnail": ""
     },
     {
-      "title": "Het dagboek van Arnold Douwes",
-      "author": "Arnold Douwes",
-      "note": "unieke bron over Jodenredders",
-      "start_seconds": 961,
-      "volume_id": "Aj6YtQEACAAJ",
-      "canonical_title": "Het geheime dagboek van Arnold Douwes, Jodenredder",
-      "canonical_author": "Johannes Houwink ten Cate",
-      "isbn13": "9789024415670",
-      "isbn10": "9024415675",
+      "title": "De aanslag",
+      "author": "Harry Mulisch",
+      "note": "Genoemd als vergelijking met de verzetsaanslag in Putten",
+      "start_seconds": 1437,
+      "volume_id": "7SK0nQEACAAJ",
+      "canonical_title": "De aanslag",
+      "canonical_author": "Harry Mulisch",
+      "isbn13": "9789001826055",
+      "isbn10": "9001826059",
       "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
+      "ref": "Mattheus 19:16-22",
+      "note": "De rijke jongeman die vraagt wat hij moet doen om het eeuwig leven te erven; Bregman en De Graaf bespreken de radicale eis 'verkoop alles'",
+      "start_seconds": 2932
+    },
+    {
+      "ref": "Mattheus 21",
+      "note": "Jezus' intocht in Jeruzalem op een ezel, vergeleken met een verzetsheld die door het volk wordt toegejuicht",
+      "start_seconds": 2999
+    },
+    {
       "ref": "Romeinen 13",
-      "note": "onderwerping aan het gezag; sommige gereformeerden gebruikten dit om de bezetter te gehoorzamen",
-      "start_seconds": 2051
+      "note": "Paulus' tekst over onderwerping aan de overheid, die door sommige gereformeerden in de oorlog werd aangehaald",
+      "start_seconds": 2050
+    },
+    {
+      "ref": "Lucas 15",
+      "note": "De verloren zoon; Bregman vindt de oudste zoon het sympathiekst en stelt de genade ter discussie",
+      "start_seconds": 3193
+    },
+    {
+      "ref": "Mattheus 5-7",
+      "note": "De Bergrede; Bregman noemt de helende kracht van vergeving in zijn boek",
+      "start_seconds": 3247
+    },
+    {
+      "ref": "Mattheus 20:1-16",
+      "note": "De gelijkenis van de arbeiders in de wijngaard, die als oneerlijk wordt ervaren",
+      "start_seconds": 3299
     }
   ],
   "places": [
-    "Utrecht",
-    "Jacobikerk",
     "Nieuwlande",
     "Drenthe",
     "Putten",
-    "Veluwe",
-    "Westerbork",
+    "Utrecht",
     "Boskoop",
+    "Amsterdam",
+    "Westerbork",
     "Le Chambon",
-    "Neuengamme",
-    "Amsterdam"
+    "Vlieland",
+    "Nunspeet",
+    "Jeruzalem"
   ],
-  "summary_tldr": "David Boogerd spreekt met Rutger Bregman en Beatrice de Graaf over Bregmans boek Wat maakt een verzetsheld en over Arnold Douwes en het verzet in Nieuwlande. Ze bespreken waarom mensen met sterke overtuigingen, zoals communisten en gereformeerden, in het verzet oververtegenwoordigd waren. Ook komt De meeste mensen deugen als moderne aflaat aan bod.",
+  "summary_tldr": "Historicus Rutger Bregman en Beatrice de Graaf praten over zijn nieuwe boek 'Wat maakt een verzetsheld', waarin hij met het dorp Nieuwlande en het verzet van Arnold Douwes laat zien wat verzetshelden drijft. Het gesprek gaat over de rol van overtuiging, opvoeding en gelegenheid, en over de vraag of de stelling 'de meeste mensen deugen' een comfortabele aflaat kan zijn. Ze bespreken ook genade en de vraag of wij als samenleving te gezapig zijn geworden.",
   "summary_points": [
-    "Bregman vreest dat De meeste mensen deugen als aflaat werkt en schreef het boek als tegengif",
-    "Nieuwlande: een derde van de inwoners was een ondergedoken Jood",
-    "Arnold Douwes was een onaangepaste, tegendraadse leider die mensen in het verzet drong, soms met leugens",
-    "Putten is geen dorp van makke schapen maar had veel verzet; een mislukte aanslag leidde tot de razzia",
-    "Onderzoek vindt weinig gemeenschappelijke persoonlijkheid bij verzetshelden",
-    "Communisten en gereformeerden waren oververtegenwoordigd, maar de meesten deden niet mee",
-    "De Graaf wijst erop dat overtuiging niet voorspellend is; opvoeding en deugdencatalogus doen ertoe",
-    "Wie bepaalt wie verzetsheld of terrorist is, is deels politiek"
+    "Bregman's nieuwe boek onderzoekt wat verzetshelden onderscheidt van de meerderheid die niet in verzet kwam.",
+    "Nieuwlande in Drenthe was een uniek verzetsdorp; bijna een derde van de inwoners verborg een Jood.",
+    "Arnold Douwes was een tegendraadse, onorthodoxe verzetsstrijder die mensen overhaalde te helpen.",
+    "Communisten en gereformeerden waren in het verzet oververtegenwoordigd, wat een sterke overtuiging suggereert.",
+    "Het verzetsbeeld van Putten werd na de oorlog bijgesteld; de aanslag liep mis met zware gevolgen.",
+    "De Graaf stelt dat overtuiging alleen niet voorspellend is; opvoeding, deugdencatalogus en gelegenheid spelen ook een rol.",
+    "Bregman's boek 'De meeste mensen deugen' kan als aflaat werken; het gesprek zoekt naar uitdagingen en zelfdiscipline.",
+    "Over genade: Bregman vindt het onrechtvaardig dat een zondaar op het laatst gered wordt, De Graaf ziet dit als het moeilijkste.",
+    "Effectief altruïsme en klimaatactivisme worden besproken als moderne vormen van verzet en zingeving.",
+    "Bregman beschrijft zijn eigen overstap naar een plantaardig dieet als een moment van morele voldoening."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Genade en het monster van de bestseller",
-      "summary": "Inleiding en Bregmans ervaringen met het succes van De meeste mensen deugen."
-    },
-    {
-      "start_seconds": 207,
-      "title": "Utrecht, Jacobikerk en de rol van geschiedenis",
-      "summary": "Over de locatie en De Graaf als vroegere docent van Bregman, en de publieke plicht van historici."
+      "title": "Welkom en de Jacobikerk",
+      "summary": "Presentator David Boogerd introduceert Bregman en De Graaf in de Jacobikerk in Utrecht en het onderwerp van het nieuwe boek."
     },
     {
       "start_seconds": 402,
-      "title": "Waarom een boek over verzet",
-      "summary": "Het boek als tegengif tegen de aflaat-werking van De meeste mensen deugen en de paradox van vriendelijkheid."
+      "title": "Waarom dit boek?",
+      "summary": "Bregman legt uit dat het boek voortkomt uit zijn eerdere werk en de vraag of 'de meeste mensen deugen' een aflaat kan zijn."
     },
     {
-      "start_seconds": 812,
-      "title": "Arnold Douwes en Nieuwlande",
-      "summary": "Het Drentse dorp en de onorthodoxe methoden van Douwes."
+      "start_seconds": 817,
+      "title": "Nieuwlande en Arnold Douwes",
+      "summary": "Het verhaal van het Drentse dorp Nieuwlande en de tegendraadse verzetsstrijder Arnold Douwes en zijn dagboek."
     },
     {
-      "start_seconds": 1337,
-      "title": "Putten en verzetsdaden",
-      "summary": "De Graaf vertelt over de aanslag en razzia in Putten en het taboe daarna."
+      "start_seconds": 1349,
+      "title": "Putten en het verzetsbeeld",
+      "summary": "De Graaf vertelt over de aanslag in Putten, de verzetsmythe en hoe het beeld na de oorlog werd bijgesteld."
     },
     {
-      "start_seconds": 1695,
-      "title": "Wat maakt een verzetsheld",
-      "summary": "Onderzoek naar persoonlijkheid, opvoeding en overtuiging van verzetshelden."
+      "start_seconds": 1763,
+      "title": "Overtuiging, opvoeding en deugden",
+      "summary": "Het gesprek gaat over de drijfveren van verzetshelden, de rol van opvoeding en de deugdencatalogus."
     },
     {
-      "start_seconds": 1900,
-      "title": "Overtuiging en deugdencatalogus",
-      "summary": "Communisten, gereformeerden, Romeinen 13 en het belang van opvoeding."
+      "start_seconds": 3015,
+      "title": "Genade en oneerlijkheid",
+      "summary": "Bregman en De Graaf debatteren over genade, de zondaar aan het kruis en de gelijkenis van de verloren zoon."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Klimaat, dieet en morele voldoening",
+      "summary": "Bregman vertelt over zijn vegetarisme en veganisme, en De Graaf bespreekt de depressie van klimaatactivisten en de hoop die nodig is."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 3015,
       "speaker": "Rutger Bregman",
       "text": "Het irriteert me eigenlijk mateloos dat er altijd een get out of jail free card is in de christelijke theologie.",
-      "note": "Opening over genade, aanleiding tot discussie"
+      "note": "Een scherpe kritiek op genade die het hele gesprek over verzet en verantwoordelijkheid op scherp zet."
     },
     {
-      "start_seconds": 445,
+      "start_seconds": 1025,
       "speaker": "Rutger Bregman",
-      "text": "Ik kreeg visioenen van mensen op Vlieland met een wit wijntje die mijn boek op Instagram postten.",
-      "note": "Humoristische illustratie van de aflaat-angst"
+      "text": "Een domineeszoon met communistische sympathieën; dan heb je meteen mijn hart gestolen.",
+      "note": "Typeert Arnold Douwes en verbindt zijn eigen identiteit met het paradox van overtuiging in het verzet."
     },
     {
-      "start_seconds": 1118,
-      "speaker": "Rutger Bregman",
-      "text": "Arnold Douwes loog dat er een gespreid bedje klaar stond voor de onderduikers.",
-      "note": "Toont de ongemakkelijke methoden van een verzetsheld"
-    },
-    {
-      "start_seconds": 1840,
-      "speaker": "Rutger Bregman",
-      "text": "Gereformeerden kochten nooit bij de linkse kruidenier, maar in de oorlog vonden ze een gemeenschappelijk fundament.",
-      "note": "Verrassend verbond tussen tegenpolen"
-    },
-    {
-      "start_seconds": 2065,
+      "start_seconds": 1392,
       "speaker": "Beatrice de Graaf",
-      "text": "Met de Bijbel of het rode boekje in de hand kun je zowel autoritair als verzetsachtig zijn.",
-      "note": "Scherpe nuancering van overtuiging"
+      "text": "Putten was ook een verzetsdorp; de Puttenaren zaten massief in het verzet.",
+      "note": "Corrigeert het naoorlogse beeld van makke schapen en laat zien hoe de geschiedenis wordt bijgesteld."
+    },
+    {
+      "start_seconds": 1943,
+      "speaker": "Beatrice de Graaf",
+      "text": "Terroristen zeggen zelf: ik ben een verzetsstrijder. Wie bepaalt dan wat een held is?",
+      "note": "Een scherpe vraag over het politieke karakter van het etiket verzetsheld versus terrorist."
+    },
+    {
+      "start_seconds": 3600,
+      "speaker": "Rutger Bregman",
+      "text": "Het voelt alsof er iets recht is getrokken in mijn geweten.",
+      "note": "Een persoonlijk moment waarin de theorie over moreel handelen concreet wordt in zijn eigen leven."
     }
   ],
   "keywords": [
@@ -238,39 +297,38 @@
     "Arnold Douwes",
     "Nieuwlande",
     "Putten",
-    "De meeste mensen deugen",
-    "aflaat",
+    "overtuiging",
+    "deugdenethiek",
     "genade",
-    "gereformeerden",
-    "communisten",
+    "onderduikers",
+    "effectief altruïsme",
     "Tweede Wereldoorlog",
-    "Romeinen 13",
-    "deugdencatalogus"
+    "verzetsmythe",
+    "Altruistic Personality Project"
   ],
   "quotes": [
     "Wat maakt een verzetsheld?",
-    "Hebben wij nog wel zulke sterke overtuigingen, of zijn wij te gezapig geworden, teveel gericht op een comfortabel leventje?"
+    "De meeste mensen deugen als moderne aflaat",
+    "De oneerlijkheid van genade"
   ],
   "similar": [
     {
       "n": 11,
-      "reason": "Rutger Bregman over de deugende mens en religie, sluit aan bij zijn boek"
+      "reason": "Rutger Bregman over de deugende mens, religie en geschiedenis; sluit aan bij de stelling 'de meeste mensen deugen'."
     },
     {
       "n": 185,
-      "reason": "Rutger Bregman opnieuw te gast, over moraal, geschiedenis en geloof"
-    },
-    {
-      "n": 245,
-      "reason": "Beatrice de Graaf over oorlog, geschiedenis en religie, verzwegen Nederlands oorlogsverleden"
+      "reason": "Rutger Bregman over kerk, geschiedenis en 'Dwars door de Hel'; overlap in gast en thema's."
     },
     {
       "n": 138,
-      "reason": "Kerk en jodenvervolging in de Tweede Wereldoorlog, de rol van gereformeerden"
+      "reason": "Tweede Wereldoorlog, de rol van de kerk en vervolging van joden; sluit aan bij het verzetsthema."
     },
     {
-      "n": 300,
-      "reason": "De Graaf over 4 en 5 mei: hoe landen wel of niet in fascisme afglijden"
+      "n": 245,
+      "reason": "Oorlogsgeschiedenis, verzwegen conflict en 4 mei; overlap in geschiedenis en geopolitiek."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

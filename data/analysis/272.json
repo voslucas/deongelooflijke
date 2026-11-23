@@ -1,18 +1,23 @@
 {
   "episode": 272,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 113614,
+    "segments": 1205,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31739,
-    "output_tokens": 2206,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 59181,
+    "output_tokens": 2363,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Kerk & secularisatie",
     "Zingeving & psyche",
-    "Economie & geld"
+    "Geld & economie",
+    "Politiek"
   ],
   "guests": [
     "Isabella Wijnberg"
@@ -20,51 +25,53 @@
   "people": [
     {
       "name": "Franciscus van Assisi",
-      "note": "middeleeuwse heilige die koos voor armoede en een leven met de natuur; inspireerde Isabella",
-      "start_seconds": 855,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "note": "Italiaanse heilige; inspiratie voor de broeders die Isabella in Italië ontmoette",
+      "start_seconds": 857,
+      "mention_count": 6
     },
     {
       "name": "Carlo Acutis",
-      "note": "15-jarige jongen die heilig is verklaard; zei dat we als originelen worden geboren maar als kopieën sterven",
-      "start_seconds": 1047,
-      "wiki_checked": true,
-      "wiki_pageid": 5433903,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carlo_Acutis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Covent_Garden%2C_Corpus_Christi_Catholic_Church%2C_Carlo_Acutis_memorial.jpg/250px-Covent_Garden%2C_Corpus_Christi_Catholic_Church%2C_Carlo_Acutis_memorial.jpg"
+      "note": "15-jarige jongen die heilig is verklaard; citaat over originelen en kopieën",
+      "start_seconds": 1035,
+      "mention_count": 1
     },
     {
-      "name": "Maria",
-      "note": "blauw in de kleding van de toegewijde zusters verwijst naar haar",
-      "start_seconds": 152,
-      "wiki_checked": true,
-      "wiki_pageid": 37948,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_%28moeder_van_Jezus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg/250px-L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg"
+      "name": "Moeder Teresa",
+      "note": "katholieke ordestichter; anekdote over gebedstijd",
+      "start_seconds": 3740,
+      "mention_count": 1
     },
     {
-      "name": "Jezus Christus",
-      "note": "wit in de kleding verwijst naar Christus; toewijding aan hem",
-      "start_seconds": 152,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Simon van Teutem",
+      "note": "journalist die de 'Bermuda-driehoek van talent' op de Zuidas beschrijft",
+      "start_seconds": 3240,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "historicus die oproept tot morele ambitie van talent",
+      "start_seconds": 3240,
+      "mention_count": 2
+    },
+    {
+      "name": "Josse de Voogt",
+      "note": "electoraal geograaf; gast in volgende aflevering",
+      "start_seconds": 4490,
+      "mention_count": 1
+    },
+    {
+      "name": "Zelensky",
+      "note": "Oekraïense president; genoemd in verband met het Witte Huis",
+      "start_seconds": 4020,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Katechismus van de Katholieke Kerk",
       "author": "",
-      "note": "Isabella las het als scholier, beginnend bij de sectie over gebed, en nam vragen mee naar haar begeleider",
-      "start_seconds": 1297,
+      "note": "Isabella kreeg dit boek als voorbereiding op het katholiek worden",
+      "start_seconds": 1290,
       "volume_id": "aX_dPQAACAAJ",
       "canonical_title": "Katechismus van de Katholieke Kerk",
       "canonical_author": "Ecclesia Catholica",
@@ -78,129 +85,138 @@
     "Zuidas",
     "Amsterdam",
     "Parijs",
-    "Italië",
-    "Assisi",
-    "Fonte Colombo",
     "Nijmegen",
-    "Duitsland",
-    "Frankrijk",
-    "Hilversum"
+    "Assisi",
+    "Italië",
+    "Hilversum",
+    "Den Haag",
+    "Duitsland"
   ],
-  "summary_tldr": "Isabella Wijnberg is advocaat op de Zuidas en tegelijk toegewijd zuster in de katholieke Gemeenschap Emmanuel. Ze vertelt hoe ze zonder geloof opgroeide en via een rationele zoektocht en een bijzondere biechtervaring gelovig werd. Ook gaat het over de cultuur van de Zuidas, celibaat als positieve keuze en de vraag wat biecht te bieden heeft.",
+  "summary_tldr": "Isabella Wijnberg, advocaat op de Zuidas en toegewijd zuster van de gemeenschap Emmanuel, vertelt over haar weg van een ongelovige jeugd naar het katholieke geloof via een rationele zoektocht en een ontmoeting met Franciscaanse broeders. Het gesprek gaat over hoe zij werk, gebed en rust combineert, en over de morele vraag of werken voor grote bedrijven zinvol is. Ook komen biecht, roeping en de rol van conflictbemiddeling aan bod.",
   "summary_points": [
-    "Isabella is 'non op de Zuidas': toegewijd zuster in Gemeenschap Emmanuel en advocaat, met een gewoon huis en baan",
-    "De Gemeenschap Emmanuel is een jonge beweging uit Frankrijk (jaren 70), grotendeels gehuwden, ook priesters en singles",
-    "De Zuidas kent hard werken en teamgevoel; het cliché van Sodom en Gomorra herkent ze niet",
-    "Ze groeide ongedoopt op, werd geraakt door een oudere gereformeerde buurvrouw en bijbels",
-    "Op haar 16e in Italië maakte de uitstraling van Franciscaanse broeders diepe indruk",
-    "Haar weg naar het geloof was rationeel (catechismus, kritische vragen), maar de echte klik kwam bij een biecht",
-    "Biecht biedt vergeving, een blanco start en verlost van het alleen dragen van schuld; zonde is saai, heiligheid creatief",
-    "Celibaat ervaart ze als een positieve keuze uit gegrepenheid, niet als gemis",
-    "Je moet heiligen niet kopiëren: iedereen heeft een eigen roeping"
+    "Isabella combineert een fulltime advocatenbaan op de Zuidas met een toewijding als zuster binnen de gemeenschap Emmanuel.",
+    "Haar geloofsweg begon als kind via een buurvrouw en kreeg vorm in Italië bij Franciscaanse broeders.",
+    "Een rationele zoektocht in Nijmegen leidde tot een biecht die haar een gevoel van barmhartigheid gaf.",
+    "Het gesprek gaat over de vraag of 'de non op de Zuidas' past bij het Franciscaanse ideaal van armoede.",
+    "Isabella verdedigt werk op de Zuidas als zinvol via de katholieke sociale leer: mens, object en collectief.",
+    "Dagelijkse ritme met gebed, werkdruk en het inplannen van stilte en offline retraites.",
+    "Stefan Paas en David Boogerd bevragen de spanning tussen ambitie, geld en geloof.",
+    "Conflictbemiddeling en de verschuiving naar kortetermijndenken in conflicten komen aan bod.",
+    "Het gesprek sluit af met een verwijzing naar de Tweede Kamerverkiezingen en het essay van Stefan Paas over democratisme."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "De non op de Zuidas",
-      "summary": "Kennismaking met Isabella, haar vaste kleding en de betekenis ervan, en reacties op haar kruisje op kantoor."
+      "title": "Introductie en kleding",
+      "summary": "Presentatie van Isabella en de betekenis van haar witte, blauwe en houten symbolen."
     },
     {
-      "start_seconds": 237,
-      "title": "Een achtste non: leven in de Gemeenschap Emmanuel",
-      "summary": "Uitleg over de toewijding, het celibaat en hoe de gemeenschap verschilt van een klassiek klooster."
+      "start_seconds": 480,
+      "title": "De Zuidas en het dagelijks leven",
+      "summary": "Beeld van de Zuidas, werkdagen en de verhouding tot een klooster."
     },
     {
-      "start_seconds": 418,
-      "title": "Het leven op de Zuidas",
-      "summary": "Over vooroordelen, werkdruk, lange dagen, teamgevoel en de combinatie met gebed en mis."
+      "start_seconds": 900,
+      "title": "Van ongelovig kind tot katholiek",
+      "summary": "Jeugd, buurvrouw, Italië en de ontmoeting met Franciscaanse broeders."
     },
     {
-      "start_seconds": 737,
-      "title": "Opgroeien zonder geloof en Franciscus in Italië",
-      "summary": "Haar kinderlijke verwondering, de buurvrouw en de ontmoeting met de Franciscaanse broeders op haar 16e."
+      "start_seconds": 1500,
+      "title": "Biecht en rationele zoektocht",
+      "summary": "De rol van de biecht en de weg naar doop en gemeenschap."
     },
     {
-      "start_seconds": 1217,
-      "title": "Rationele zoektocht en de biecht",
-      "summary": "Vragen stellen in Nijmegen, de catechismus en het keerpunt bij haar eerste biecht."
+      "start_seconds": 2300,
+      "title": "Roeping en celibaat",
+      "summary": "Keuze voor een godgewijd leven en waarom Isabella niet fulltime non werd."
     },
     {
-      "start_seconds": 1470,
-      "title": "Biecht, zonde en heiligheid",
-      "summary": "Gesprek over barmhartigheid, biechtgeheim, het seculiere equivalent en waarom heiligheid creatief is."
+      "start_seconds": 2900,
+      "title": "Advocaat op de Zuidas",
+      "summary": "Wat Isabella precies doet en de morele vraag over verdedigen van bedrijven."
     },
     {
-      "start_seconds": 1975,
-      "title": "Studie in Parijs en roeping tot celibaat",
-      "summary": "Haar doop, tussenjaar, studie en het onderscheidingsproces; celibaat als positieve keuze."
+      "start_seconds": 3900,
+      "title": "Gebed, rust en stilte",
+      "summary": "Hoe Isabella werk en geloof combineert en stilte inplant."
+    },
+    {
+      "start_seconds": 4450,
+      "title": "Verkiezingen en mediatie",
+      "summary": "Vergelijking tussen conflictbemiddeling en politiek, en de verkiezingen van die week."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 205,
-      "speaker": "Isabella Wijnberg",
-      "text": "Nou, dat is het zichtbare teken dat ik ben toegewijd aan Christus. Zijn er nog verder vragen over?",
-      "note": "Slagvaardig antwoord toen een collega haar voor 15 mensen aansprak op haar kruis."
-    },
-    {
-      "start_seconds": 920,
-      "speaker": "Isabella Wijnberg",
-      "text": "Ben ik gek of zijn zij? Ze straalden wel.",
-      "note": "Het contrast tussen lelijke sandalen en uitstraling vormde haar eerste aanraking met geloof."
-    },
-    {
-      "start_seconds": 1058,
+      "start_seconds": 2085,
       "speaker": "Isabella Wijnberg",
       "text": "We worden allemaal geboren als originelen, maar de meeste van ons sterven als kopieën.",
-      "note": "Uitspraak van Carlo Acutis over de eigen roeping."
+      "note": "Citaat van Carlo Acutis dat het belang van een eigen roeping onderstreept."
     },
     {
-      "start_seconds": 1717,
+      "start_seconds": 1800,
       "speaker": "Isabella Wijnberg",
-      "text": "Zonde is nooit origineel; heiligheid is altijd creatief.",
-      "note": "Verrassende omkering, ontleend aan een biechtvader die biecht horen saai vindt."
+      "text": "Zonde is nooit origineel.",
+      "note": "Een luchtige maar scherpe observatie over biecht en menselijke feilbaarheid."
     },
     {
-      "start_seconds": 1370,
+      "start_seconds": 2640,
       "speaker": "Isabella Wijnberg",
-      "text": "Ik had een donderpreek verwacht, maar het tegenovergestelde was het geval: barmhartigheid en vreugde.",
-      "note": "Het emotionele keerpunt in haar weg naar het geloof."
+      "text": "Het ergste eigenlijk wat je kunt doen, is andere mensen letterlijk kopiëren.",
+      "note": "Kritiek op het naäpen van heiligen, wat tot de kern van haar roeping gaat."
+    },
+    {
+      "start_seconds": 3900,
+      "speaker": "Isabella Wijnberg",
+      "text": "Dan worden we veel productiever als we het inplannen.",
+      "note": "Paradox dat stilte en gebed juist de productiviteit verhogen."
+    },
+    {
+      "start_seconds": 4050,
+      "speaker": "Isabella Wijnberg",
+      "text": "Vergeven is niet laf maar juist krachtig.",
+      "note": "Herdefiniëring van vergeving als kracht in conflicten."
     }
   ],
   "keywords": [
-    "Isabella Wijnberg",
-    "non op de Zuidas",
-    "Gemeenschap Emmanuel",
-    "biecht",
-    "celibaat",
-    "Franciscus van Assisi",
-    "roeping",
-    "heiligheid",
-    "katholieke kerk",
     "Zuidas",
-    "bekering"
+    "Gemeenschap Emmanuel",
+    "Franciscus van Assisi",
+    "biecht",
+    "roeping",
+    "katholieke sociale leer",
+    "celibaat",
+    "conflictbemiddeling",
+    "stilte",
+    "zingeving"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik ben een toegewijd zuster op mijn werk, punt.",
+    "Democratisme, een woord wat jij zelf bedacht hebt.",
+    "Ik ben niet 1 van die zwevende kiezers."
+  ],
   "similar": [
     {
-      "n": 319,
-      "reason": "Schrijver komt via rationele zoektocht tot geloof en katholieke bekering, met twijfel erna"
-    },
-    {
-      "n": 229,
-      "reason": "Seculier opgegroeid, vond geloof en werd dominee; persoonlijk bekeringsverhaal"
+      "n": 117,
+      "reason": "Zingeving en religieuze betekenis van werk, sluit aan bij werk en geloof"
     },
     {
       "n": 323,
-      "reason": "Franciscus van Assisi: geld, macht en radicale toewijding"
+      "reason": "Franciscus van Assisi over geld, macht en radicaal geloof"
     },
     {
-      "n": 70,
-      "reason": "Bekende vrouw die katholiek geloof ontdekt en naar de kerk gaat"
+      "n": 145,
+      "reason": "Vreugde en God vinden in economisch extreme tijden"
     },
     {
-      "n": 190,
-      "reason": "Fervent atheïst die via zoektocht naar waarheid tot God komt"
+      "n": 108,
+      "reason": "Simon van Teutem over twijfel aan ongeloof, ook genoemd in deze aflevering"
+    },
+    {
+      "n": 273,
+      "reason": "Politiek en God, met Josse de Voogd die ook in deze aflevering figureert"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

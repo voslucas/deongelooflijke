@@ -1,18 +1,23 @@
 {
   "episode": 296,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120382,
+    "segments": 1734,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32981,
-    "output_tokens": 2325,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65493,
+    "output_tokens": 2948,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kunst & cultuur",
-    "God & geloof",
+    "Klassieke muziek & cultuur",
     "Zingeving & psyche",
-    "Bijbel & Jezus"
+    "Dood & rouw",
+    "God & geloof"
   ],
   "guests": [
     "Govert Jan Bach"
@@ -20,238 +25,233 @@
   "people": [
     {
       "name": "Johann Sebastian Bach",
-      "note": "componist van de Matthäus Passion",
-      "start_seconds": 40,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "note": "componist van de Matthäus-Passion; kantor van de Thomaskirche in Leipzig",
+      "start_seconds": 1020,
+      "mention_count": 30
+    },
+    {
+      "name": "Simone Weil",
+      "note": "Franse filosoof en mystica; inspireerde Bach tot aandachtige hulp aan lijdenden",
+      "start_seconds": 2013,
+      "mention_count": 4
     },
     {
       "name": "Martin Luther",
-      "note": "reformator, wiens theologie Bach sterk beïnvloedde",
-      "start_seconds": 219,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Jezus",
-      "note": "centrale figuur in het lijdensverhaal",
-      "start_seconds": 1313,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Petrus",
-      "note": "leerling die Jezus verloochende; Erbarme dich",
-      "start_seconds": 1892,
-      "wiki_checked": true,
-      "wiki_pageid": 10525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Petrus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pope-peter_pprubens.jpg/250px-Pope-peter_pprubens.jpg"
+      "note": "hervormer; theologische achtergrond van de Passion",
+      "start_seconds": 1280,
+      "mention_count": 3
     },
     {
       "name": "Niklaus Harnoncourt",
-      "note": "dirigent die de dansritmes in de Matthäus Passion benoemde",
-      "start_seconds": 516,
-      "wiki_checked": true
+      "note": "dirigent die werd aangevallen om het benoemen van dansritmes",
+      "start_seconds": 500,
+      "mention_count": 2
     },
     {
       "name": "Raphaël Pichon",
-      "note": "dirigent met ensemble Pygmalion; jonge, felle uitvoering",
-      "start_seconds": 2203,
-      "wiki_checked": true,
-      "wiki_pageid": 5891964,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rapha%C3%ABl_Pichon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rapha%C3%ABl_Pichon.jpg/250px-Rapha%C3%ABl_Pichon.jpg"
+      "note": "dirigent van de uitvoering met Pygmalion, populair bij jongeren",
+      "start_seconds": 2170,
+      "mention_count": 2
     },
     {
       "name": "Felix Mendelssohn",
-      "note": "herontdekte de Matthäus Passion in 1829",
-      "start_seconds": 2291,
-      "wiki_checked": true,
-      "wiki_pageid": 9674,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Felix_Mendelssohn_Bartholdy_-_Wilhelm_Hensel_1847.jpg/250px-Felix_Mendelssohn_Bartholdy_-_Wilhelm_Hensel_1847.jpg"
-    },
-    {
-      "name": "Willem Mengelberg",
-      "note": "dirigent die de Matthäus Passion jaarlijks uitvoerde",
-      "start_seconds": 2307,
-      "wiki_checked": true,
-      "wiki_pageid": 62702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Mengelberg_%28dirigent%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/W._Mengelberg.jpg/250px-W._Mengelberg.jpg"
+      "note": "herontdekte de Matthäus-Passion in 1829",
+      "start_seconds": 2270,
+      "mention_count": 2
     },
     {
       "name": "Paul Witteman",
-      "note": "presentator die de Matthäus Passion ook voor atheïsten acceptabel maakte",
-      "start_seconds": 781,
-      "wiki_checked": true,
-      "wiki_pageid": 153075,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Witteman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Paul_Witteman_1992.png/250px-Paul_Witteman_1992.png"
+      "note": "presentator die de Matthäus-Passion bij atheïsten populair maakte",
+      "start_seconds": 780,
+      "mention_count": 1
     },
     {
       "name": "Ronald Plasterk",
-      "note": "atheïst die de Matthäus Passion waardeert",
-      "start_seconds": 783,
-      "wiki_checked": true,
-      "wiki_pageid": 204284,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Plasterk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ronald_Plasterk_2015_%281%29.jpg/250px-Ronald_Plasterk_2015_%281%29.jpg"
+      "note": "oud-minister die Bach-liefde uitdroeg",
+      "start_seconds": 780,
+      "mention_count": 1
     },
     {
-      "name": "Jozef",
-      "note": "bijbelverhaal over Jozef en zijn broers; schuld en vergeving",
-      "start_seconds": 1016,
-      "wiki_checked": true,
-      "wiki_pageid": 35952,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_%28zoon_van_Jakob%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Bourgeois_Joseph_recognized_by_his_brothers.jpg/250px-Bourgeois_Joseph_recognized_by_his_brothers.jpg"
+      "name": "Gustav Leonhardt",
+      "note": "klavecinist; vergeleek Händel met een highway en Bach met bergweggetjes",
+      "start_seconds": 1120,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles de Montaigne",
+      "note": "op wiens aandringen Bach dagelijks aan zijn dood denkt",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Pythagoras",
+      "note": "harmonie van de sferen, invloed op Bachs muziekdenken",
+      "start_seconds": 3200,
+      "mention_count": 1
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaanse vicepresident; inspiratie voor Stefan Paas' stuk over naastenliefde",
+      "start_seconds": 4680,
+      "mention_count": 1
+    },
+    {
+      "name": "Beatrice de Graaf",
+      "note": "auteur van Substack-stuk over Bach en crisis",
+      "start_seconds": 120,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 240,
+      "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 37",
+      "note": "verhaal van Jozef en zijn broers, dat Bach-gast Govert Jan als kind boeide",
+      "start_seconds": 1010
+    },
+    {
+      "ref": "Matthäus 26",
+      "note": "verloochening van Petrus, bezongen in de aria 'Ach, mein Sinn'",
+      "start_seconds": 1920
+    }
+  ],
   "places": [
     "Leipzig",
-    "Den Haag",
-    "Naarden",
-    "Lochem",
     "Haarlem",
     "Wassenaar",
-    "Jeruzalem"
+    "Lochem",
+    "Den Haag",
+    "Naarden",
+    "Poot",
+    "Wegmaar"
   ],
-  "summary_tldr": "Govert Jan Bach, psycholoog en theoloog met jarenlange ervaring in gevangenis en psychiatrie, vertelt hoe de Matthäus Passion zijn leven veranderde. Het gesprek gaat over hoe Bach lijden, schuld en verraad draaglijk maakt en waarom dit stuk ook in seculier Nederland zo raakt.",
+  "summary_tldr": "Govert Jan Bach, oud-psycholoog, theoloog en Bach-liefhebber, vertelt hoe de Matthäus-Passion zijn leven vormde en hoe Bach lijden draaglijk maakt via muziek. Het gesprek verbindt Bachs troostende muziek met zijn werk in gevangenis, psychiatrie en suïcidepreventie, met luisteren als kernhouding. Rond Pasen wordt besproken hoe de pijn in de Passion al opgaat in de paasboodschap.",
   "summary_points": [
-    "Het openingskoor van de Matthäus Passion maakte als zevenjarige een diepe indruk op Govert Jan Bach, in een atheïstisch gezin.",
-    "Bach maakt het zware lijdensverhaal draaglijk via wiegende, dansende ritmes zoals de siciliano.",
-    "Via de zondagsschool kwam Govert Jan in aanraking met bijbelverhalen en ethiek; zijn moeder liet zich later dopen.",
-    "Bach verloor vroeg zijn ouders en veel kinderen; componeren was zijn eigen therapie.",
-    "Voor de lutheraan Bach was Goede Vrijdag de belangrijkste feestdag, met de 'vrolijke wissel' van Luther.",
-    "Het doel van de passie was tranen en berouw; vandaag werkt het eerder als compassiestuk en volkstherapie.",
-    "Erbarme dich toont de gebroken Petrus in lichte muziek; luisteraars worden uitgenodigd zich te identificeren.",
-    "De Matthäus Passion is een ritueel in Nederland: stilte, offer en seizoen (voor Pasen).",
-    "Mendelssohn herontdekte het werk; nieuwe uitvoeringen zoals die van Pichon trekken jongeren."
+    "Bach maakt het lijdensverhaal draaglijk door wiegende, dansante ritmiek en lichtheid in de begeleiding.",
+    "Govert Jan Bach werd als zevenjarige door de openingskoor van de Matthäus-Passion geraakt, een 'openbaring' die zijn roeping bepaalde.",
+    "Via Simone Weil kreeg hij de roeping om lijdende mensen te helpen door stil te zijn en te luisteren.",
+    "Hij werkte in de gevangenis, psychiatrie en suïcidepreventie, met als kern dat mensen vooral beluisterd willen worden in hun wanhoop.",
+    "De Matthäus-Passion was in Bachs tijd bedoeld als boetevaardig ritueel, gericht op tranen en berouw in een lutherse context.",
+    "Bach verbindt tegenstellingen, zoals de aria 'Aus Liebe' met het haatkoor, en de dissonant die verdwijnt aan het eind verwijst naar Pasen.",
+    "Het stuk wordt ook buiten de kerk gewaardeerd omdat het gevoelens een plek geeft die moeilijk te delen zijn.",
+    "Govert Jan Bach spreekt over zijn eigen sterfelijkheid, na drie herseninfarcten, en vindt rust in genoeg hebben en het moment van loslaten.",
+    "Stefan Paas verbindt het gesprek met naastenliefde en de vraag hoe ver die reikt, geïnspireerd door JD Vance."
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Introductie en de naam Bach",
-      "summary": "David introduceert Govert Jan Bach en zijn achtergrond; de familieband met Johann Sebastian Bach wordt besproken."
+      "start_seconds": 0,
+      "title": "Inleiding en familie Bach",
+      "summary": "David Boogerd introduceert Govert Jan Bach en diens verre verwantschap met Johann Sebastian Bach."
     },
     {
-      "start_seconds": 260,
-      "title": "Hemelse schoonheid en rauw lijden",
-      "summary": "Het openingskoor en hoe Bach lijden draaglijk maakt met wiegend ritme; vergelijking met The Passion."
+      "start_seconds": 400,
+      "title": "Het openingskoor en de troost van Bach",
+      "summary": "Het openingskoor wordt geluisterd en de wiegende siciliano-ritmiek wordt als troostend geduid."
     },
     {
-      "start_seconds": 620,
-      "title": "Een openbaring in de auto",
-      "summary": "Govert Jan hoort als zevenjarige de Matthäus Passion, groeit op in een atheïstisch gezin en ontdekt de zondagsschool."
+      "start_seconds": 1000,
+      "title": "Jeugdervaring en religieuze vorming",
+      "summary": "Bach vertelt hoe hij als zevenjarige door de Matthäus-Passion werd geraakt en stiekem naar de zondagsschool ging."
     },
     {
-      "start_seconds": 1120,
-      "title": "Bach als mens en componist",
-      "summary": "Bachs levensverlies, zijn lutherse theologie en zijn opdracht als kantor in Leipzig."
+      "start_seconds": 1200,
+      "title": "Bachs leven, lijden en de Passion",
+      "summary": "Het verlies in Bachs leven, de lutherse context van Goede Vrijdag en de functie van de Passion als boete en tranen."
     },
     {
-      "start_seconds": 1560,
-      "title": "Tranen, berouw en piëtisme",
-      "summary": "Het doel van de passie was boetvaardigheid; de piëtistische invloed en de moderne ervaring als compassie."
+      "start_seconds": 2000,
+      "title": "Roeping: luisteren in gevangenis en psychiatrie",
+      "summary": "Via Simone Weil kwam Bach tot aandachtig luisteren naar gevangenen en psychiatrische patiënten."
     },
     {
-      "start_seconds": 1800,
-      "title": "Erbarme dich en verraad",
-      "summary": "Analyse van Petrus' verraad en de lichte muziek bij zware tekst; identificatie door de luisteraar."
+      "start_seconds": 2900,
+      "title": "Muziek als troost en het wonder van luisteren",
+      "summary": "Stefan Paas en Bach bespreken hoe muziek lijdende mensen helpt woorden te vinden, ook bij dementie."
     },
     {
-      "start_seconds": 2060,
-      "title": "Ritueel, volkstherapie en herontdekking",
-      "summary": "Waarom de Matthäus Passion seculiere mensen raakt, het ritueel eromheen, Pichon en Mendelssohn."
+      "start_seconds": 3600,
+      "title": "Sterfelijkheid, hemel en naastenliefde",
+      "summary": "Bach denkt na over zijn dood, zijn herseninfarcten en het verlangen naar eeuwige rust."
+    },
+    {
+      "start_seconds": 4500,
+      "title": "Paasmorgen en de dissonant",
+      "summary": "Het gesprek eindigt bij het slotkoor en de verdwenen dissonant als teken van Pasen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 5,
+      "start_seconds": 2100,
       "speaker": "Govert Jan Bach",
-      "text": "Er kwam een muziek uit. Ik dacht, wat is dit? En het was als ware een openbaring.",
-      "note": "Het kernmoment dat zijn leven bepaalde."
+      "text": "Mijn vak is luisteren, meer is het niet.",
+      "note": "Samenvatting van zijn therapeutische houding die het werk in de gevangenis en psychiatrie kenmerkte."
     },
     {
-      "start_seconds": 1168,
+      "start_seconds": 3800,
       "speaker": "Govert Jan Bach",
-      "text": "Zijn muziek was zijn eigen therapie.",
-      "note": "Verbindt Bachs persoonlijke verlies aan zijn troostende muziek."
+      "text": "Ik ben heel veel met de dood bezig.",
+      "note": "Openhartig gesprek over sterfelijkheid en loslaten op latere leeftijd."
     },
     {
-      "start_seconds": 1006,
+      "start_seconds": 4500,
       "speaker": "Govert Jan Bach",
-      "text": "Mijn moeder is door mij gelovig geworden; mijn vader voelde verraad en dacht aan scheiding.",
-      "note": "Onverwacht persoonlijk familieverhaal."
+      "text": "Dat is ook Pasen, dat is Pasen.",
+      "note": "De dissonant die verdwijnt wordt gezien als symbool voor de paasboodschap."
     },
     {
-      "start_seconds": 2094,
-      "speaker": "Stefan Paas",
-      "text": "Een grote volkstherapie.",
-      "note": "Kernidee over waarom de Matthäus zo aanspreekt."
-    },
-    {
-      "start_seconds": 1960,
+      "start_seconds": 1300,
       "speaker": "Govert Jan Bach",
-      "text": "Had jij mensen verraden? Heb jij mensen in de steek gelaten?",
-      "note": "Bach nodigt de luisteraar uit zich in Petrus te herkennen."
+      "text": "Het moet een richting hebben.",
+      "note": "Verklaart waarom Bach en het verhaal hem aantrokken boven andere muziek en verhalen."
     }
   ],
   "keywords": [
-    "Matthäus Passion",
+    "Matthäus-Passion",
     "Johann Sebastian Bach",
-    "Goede Vrijdag",
-    "Martin Luther",
     "lijden",
-    "berouw",
-    "Erbarme dich",
-    "piëtisme",
-    "ritueel",
-    "Mendelssohn",
     "troost",
-    "volkstherapie"
+    "luisteren",
+    "Simone Weil",
+    "Luther",
+    "boete",
+    "dissonant",
+    "sterfelijkheid",
+    "naastenliefde",
+    "psychiatrie"
   ],
-  "quotes": [],
+  "quotes": [
+    "Mijn vak is luisteren, meer is het niet.",
+    "Genoeg is genoeg.",
+    "Het moet een richting hebben."
+  ],
   "similar": [
     {
       "n": 242,
-      "reason": "Pasen, seculiere Matthäus-Passion en de zoektocht naar verdieping in cultuur"
+      "reason": "Gaat over Pasen en een seculiere Matthäus-Passion, dezelfde kern als deze aflevering."
     },
     {
       "n": 107,
-      "reason": "Het goddelijke van klassieke muziek, met een musicus als gast"
-    },
-    {
-      "n": 225,
-      "reason": "Schoonheid van kunst en religie, met Antoine Bodar"
+      "reason": "Klassieke muziek als weg naar het goddelijke, met Stefan Paas als gespreksleider."
     },
     {
       "n": 181,
-      "reason": "Kunst, muziek en geloof met Willem Jan Otten; Bach-achtige ontroering"
+      "reason": "Over een ontstellend moment uit de muziekgeschiedenis en de geloofsvragen die kunst oproept."
     },
     {
-      "n": 186,
-      "reason": "Bach actueler dan ooit, over lijden, kunst en dood"
+      "n": 172,
+      "reason": "Religieuze muziek en de geschiedenis van kerstmuziek, met een sterke muzikale en geloofsinslag."
+    },
+    {
+      "n": 320,
+      "reason": "Verwerking van verlies en rouw, met geloof en kunst als troost."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

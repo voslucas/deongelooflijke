@@ -1,18 +1,23 @@
 {
   "episode": 59,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 81687,
+    "segments": 922,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31501,
-    "output_tokens": 2554,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 42674,
+    "output_tokens": 2906,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Geloof & religie",
     "Kerk & secularisatie",
-    "God & geloof",
     "Kunst & cultuur",
-    "Geschiedenis"
+    "Zingeving & psyche"
   ],
   "guests": [
     "Freek de Jonge"
@@ -20,242 +25,267 @@
   "people": [
     {
       "name": "Freek de Jonge",
-      "note": "cabaretier en domineeszoon, schrijft een boek over de religieuze roots van zijn familie",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 48168,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Freek_de_Jonge_%28cabaretier%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Freek_de_Jonge_in_2018_door_Dirk_Annemans.jpg/250px-Freek_de_Jonge_in_2018_door_Dirk_Annemans.jpg"
+      "note": "cabaretier en gast in deze aflevering",
+      "start_seconds": 3,
+      "mention_count": 1
+    },
+    {
+      "name": "Van der Leeuw",
+      "note": "theoloog en religiewetenschapper, auteur van de fenomenologie van de godsdienst; hoogleraar van de vader van Freek",
+      "start_seconds": 238,
+      "mention_count": 6
     },
     {
       "name": "Gerardus van der Leeuw",
-      "note": "theoloog en godsdienstfenomenoloog, docent van Freeks vader in Groningen",
-      "start_seconds": 298,
-      "wiki_checked": true,
-      "wiki_pageid": 274914,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerardus_van_der_Leeuw",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/GvdLeeuw.jpg/250px-GvdLeeuw.jpg"
-    },
-    {
-      "name": "Johan Noordmans",
-      "note": "eerste studentencabaretier, zoon van theoloog Oepke Noordmans",
-      "start_seconds": 1739,
-      "wiki_checked": true
-    },
-    {
-      "name": "Søren Kierkegaard",
-      "note": "filosoof die religiositeit omschreef als het accepteren van de paradox",
-      "start_seconds": 1447,
-      "wiki_checked": true,
-      "wiki_pageid": 16723,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kierkegaard.jpg/250px-Kierkegaard.jpg"
-    },
-    {
-      "name": "Voltaire",
-      "note": "verlichtingsdenker, symbool van het rationalisme",
-      "start_seconds": 752,
-      "wiki_checked": true,
-      "wiki_pageid": 26074,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Voltaire",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/250px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
-    },
-    {
-      "name": "Jeff Koons",
-      "note": "moderne kunstenaar die zijn werk voor miljoenen verkoopt",
-      "start_seconds": 1008,
-      "wiki_checked": true,
-      "wiki_pageid": 61086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeff_Koons",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Jeff_Koons_at_the_2009_Tribeca_Film_Festival.jpg/250px-Jeff_Koons_at_the_2009_Tribeca_Film_Festival.jpg"
-    },
-    {
-      "name": "Robert Long",
-      "note": "zanger die kritisch was over geloof ('Jezus redt')",
-      "start_seconds": 1617,
-      "wiki_checked": true,
-      "wiki_pageid": 59475,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Robert_Long",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Robert_Long_%281988%29.jpg/250px-Robert_Long_%281988%29.jpg"
-    },
-    {
-      "name": "Ad van Nieuwpoort",
-      "note": "dominee, gefascineerd door het woord",
-      "start_seconds": 2076,
-      "wiki_checked": true,
-      "wiki_pageid": 3956071,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ad_van_Nieuwpoort",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ad_van_Nieuwpoort.jpg/250px-Ad_van_Nieuwpoort.jpg"
+      "note": "zelfde als Van der Leeuw, volledige naam",
+      "start_seconds": 238,
+      "mention_count": 0
     },
     {
       "name": "Karl Barth",
-      "note": "theoloog wiens dogmatiek in de dagelijkse praktijk van de predikant weinig houvast bood",
-      "start_seconds": 392,
-      "wiki_checked": true,
-      "wiki_pageid": 64348,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Barth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Karl_Barth_Bundesarchiv_Bild.png/250px-Karl_Barth_Bundesarchiv_Bild.png"
+      "note": "theoloog, genoemd als 'Bart' in de dogmatiek",
+      "start_seconds": 427,
+      "mention_count": 1
+    },
+    {
+      "name": "Johan Noordmans",
+      "note": "eerste studentencabaretier, zoon van Oebele Noordmans",
+      "start_seconds": 1749,
+      "mention_count": 1
+    },
+    {
+      "name": "Oebele Noordmans",
+      "note": "theoloog, vader van Johan Noordmans",
+      "start_seconds": 1739,
+      "mention_count": 1
+    },
+    {
+      "name": "Søren Kierkegaard",
+      "note": "filosoof; over de paradox van religiositeit",
+      "start_seconds": 444,
+      "mention_count": 1
+    },
+    {
+      "name": "Voltaire",
+      "note": "verlichtingsdenker met rationalisme",
+      "start_seconds": 755,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeff Koons",
+      "note": "moderne kunstenaar die werk voor miljoenen verkoopt",
+      "start_seconds": 1020,
+      "mention_count": 1
+    },
+    {
+      "name": "Robert Long",
+      "note": "cabaretier, genoemd als voorbeeld van streng gelovig satirisch werk",
+      "start_seconds": 1624,
+      "mention_count": 1
+    },
+    {
+      "name": "Ad van Nieuwpoort",
+      "note": "dominee die gefascineerd is door het woord",
+      "start_seconds": 2074,
+      "mention_count": 1
+    },
+    {
+      "name": "Berthe Meyer",
+      "note": "onderzoeker van pinkstergemeenten in Afrika, collega in Utrecht",
+      "start_seconds": 2818,
+      "mention_count": 1
+    },
+    {
+      "name": "Euwe",
+      "note": "schaakwereldkampioen",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "Alexander Alekhine",
+      "note": "schaakwereldkampioen, tegenstander van Euwe",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Christian Eriksen",
+      "note": "voetballer die op het veld in elkaar zakte",
+      "start_seconds": 3120,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Fenomenologie van de godsdienst",
-      "author": "Gerardus van der Leeuw",
-      "note": "standaardwerk over de mens als religieus wezen en de oorsprong van religie in dans en ritueel",
-      "start_seconds": 666
+      "title": "Kom verder",
+      "author": "",
+      "note": "nieuw boek van Freek de Jonge over zijn grootvader en vader; deel 1 van een autobiografische serie, verschijnt in oktober",
+      "start_seconds": 73,
+      "volume_id": "0YVcDwAAQBAJ",
+      "canonical_title": "Kom verder! Mémoires 1",
+      "canonical_author": "Freek de Jonge",
+      "isbn13": "9789025452902",
+      "isbn10": "9025452906",
+      "thumbnail": "http://books.google.com/books/content?id=0YVcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "Sandam",
       "author": "Freek de Jonge",
-      "note": "deel 2 van de autobiografische serie, over opgroeien in de pastorie",
-      "start_seconds": 442
+      "note": "deel 2 van de autobiografische serie over de domineespraktijk",
+      "start_seconds": 442,
+      "volume_id": "QPgoDwAAQBAJ",
+      "canonical_title": "Reikhalzend verlangen. Memoires 2",
+      "canonical_author": "Freek de Jonge",
+      "isbn13": "9789025451479",
+      "isbn10": "9025451470",
+      "thumbnail": "http://books.google.com/books/content?id=QPgoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Matteüs 7",
+      "note": "verwijzing naar de brede en smalle weg",
+      "start_seconds": 1230
+    },
+    {
+      "ref": "Psalm 150",
+      "note": "Stefan Paas noemt Psalm 150 als tip voor de kerk",
+      "start_seconds": 1770
+    }
+  ],
   "places": [
     "Duiveland",
-    "Doetinchem",
-    "Groningen",
     "Workum",
+    "Groningen",
+    "Doetinchem",
     "Utrecht",
     "Lourdes",
     "Marokko"
   ],
-  "summary_tldr": "Cabaretier Freek de Jonge vertelt over zijn nieuwe boek over zijn grootvader en vader, die predikant werden, en over zijn jeugd als domineeszoon. Hij betreurt de secularisatie en het verlies van mysterie, taboes en diepgang, maar pleit niet voor terugkeer. Kunst kan volgens hem religie niet vervangen omdat die vrijblijvend is.",
+  "summary_tldr": "Freek de Jonge vertelt over zijn domineesachtergrond en het nieuwe boek over zijn grootvader en vader, die via een roeping en de theologie van Van der Leeuw de religieuze traditie van het protestantisme vormgaven. Hij analyseert de secularisatie als verlies van een gemeenschappelijk bezield kader, waarin kunst en humor religie niet volledig kunnen vervangen. Stefan Paas en David Boogerd bevragen hem over taboes, hypocrisie, genade en de toekomst van de samenleving.",
   "summary_points": [
-    "Freeks boek begint in 1900 met de roeping van zijn grootvader op Duiveland en loopt tot 1951.",
-    "Zijn vader kwam via Van der Leeuw tot een vrolijker, cultureel getinte theologie, maar bleef orthodox.",
-    "Freek vond het domineeszoon-zijn heerlijk en ziet een rechte lijn van zijn grootvader naar zichzelf.",
-    "De mens is volgens hem van oorsprong religieus; de Reformatie en Verlichting zetten secularisatie in gang.",
-    "Door secularisatie is er een bezielend kader voor gewone mensen verdwenen, wat leidt tot leegte en pillengebruik.",
-    "Kunst kan religie niet vervangen: er is geen commitment, geen geweten, geen leven en dood mee gemoeid.",
-    "Taboes zijn religieuze fenomenen; hun verdwijning en de gevoeligheid rond kwetsen maken humor lastiger.",
-    "Freek gelooft niet in een leven na de dood en vindt de dogmatiek niet nodig, maar wordt geraakt door mysterie, Lourdes en het kruisverhaal.",
-    "Hij ziet zijn creativiteit als genade en zichzelf als analyticus, niet als iemand met een programma."
+    "Freek de Jonge schrijft een autobiografische serie over zijn grootvader en vader, een domineesfamilie uit Zeeland en Groningen.",
+    "De roeping van zijn grootvader in een weiland op Duiveland staat aan het begin van het verhaal.",
+    "Van der Leeuw's fenomenologie van de godsdienst beschouwt de mens als van nature religieus.",
+    "Freek ziet secularisatie als verlies van een gedeeld mysterie en een bezield kader.",
+    "Kunst kan religie volgens hem niet vervangen, omdat het vrijblijvend is en geen commitment vraagt.",
+    "Taboes verdwijnen en humor verandert, waardoor cabaret moeilijker wordt.",
+    "Hypocrisie wordt gezien als keerzijde van hoge idealen.",
+    "Freek ziet creativiteit en inspiratie als genade die hem toevalt.",
+    "Het gesprek eindigt met drie vragen over vertrouwen, discipline en concentratie als weg naar roeping."
   ],
   "chapters": [
     {
-      "start_seconds": 80,
-      "title": "Het boek over grootvader en vader",
-      "summary": "Freek vertelt over de roeping van zijn grootvader in een weiland en de weg van zijn vader naar de kerk in Workum."
+      "start_seconds": 0,
+      "title": "Inleiding en het nieuwe boek",
+      "summary": "Boogerd introduceert Freek de Jonge en diens autobiografische boek over de domineesfamilie."
     },
     {
-      "start_seconds": 478,
-      "title": "Opgroeien als domineeszoon",
-      "summary": "Freek vond het domineeszoon-zijn heerlijk en liep als vijfjarige rond in de gerestaureerde kerk."
+      "start_seconds": 120,
+      "title": "Roeping en familiegeschiedenis",
+      "summary": "Het verhaal van de grootvader die in een weiland een roeping kreeg en de vader die in Groningen bij Van der Leeuw studeerde."
     },
     {
-      "start_seconds": 666,
-      "title": "De mens als religieus wezen",
-      "summary": "Gesprek over Van der Leeuw, de Reformatie, de Verlichting en secularisatie als ontwikkeling."
+      "start_seconds": 720,
+      "title": "Secularisatie en het mysterie",
+      "summary": "Discussie over de religieuze mens, Voltaire en het verlies van een gedeeld kader."
     },
     {
-      "start_seconds": 975,
-      "title": "Kunst als vervanging van religie?",
-      "summary": "Freek vindt dat kunst vrijblijvend is en religie niet kan vervangen; hij ziet een verlies aan diepgang."
+      "start_seconds": 1200,
+      "title": "Kunst als vervanging en taboes",
+      "summary": "Of kunst religie kan vervangen; over hypocrisie, taboes en de veranderde humor."
     },
     {
-      "start_seconds": 1340,
-      "title": "Schoppen tegen de kerk en hypocrisie",
-      "summary": "Over Freeks rol in de secularisatie, schijnheiligheid, fundamentalisme en zijn verbod op de kerk in Workum."
+      "start_seconds": 2000,
+      "title": "Ontkerkelijking en het Onze Vader",
+      "summary": "Freek over zijn eigen ontkerkelijking en zijn seculiere versie van het Onze Vader."
     },
     {
-      "start_seconds": 1693,
-      "title": "Taboes en humor",
-      "summary": "Het verdwijnen van taboes en de gevoeligheid rond kwetsen veranderen het cabaret."
+      "start_seconds": 2800,
+      "title": "Evangelische beweging en pluraliteit",
+      "summary": "Discussie over bezielde verhalen en de toekomst van een plurale samenleving."
     },
     {
-      "start_seconds": 1864,
-      "title": "Geloof, dood en mysterie",
-      "summary": "Freek over zijn verhouding tot dogma's, het leven na de dood, Lourdes en zijn seculiere Onze Vader."
+      "start_seconds": 3100,
+      "title": "Roeping, talent en concentratie",
+      "summary": "Freek geeft drie vragen als weg naar zingeving; reflectie op dood en de voetballer Eriksen."
     },
     {
-      "start_seconds": 2354,
-      "title": "Genade en het evangelie van de ander",
-      "summary": "Freek ziet zijn inspiratie als genade en spreekt over naastenliefde en het afbreken van het ik."
+      "start_seconds": 3300,
+      "title": "Het verhaal van Euwe en Van der Leeuw",
+      "summary": "Anekdote over de vader die Van der Leeuw bezoekt, wat het boek zijn titel geeft."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 19,
+      "start_seconds": 2350,
       "speaker": "Freek de Jonge",
-      "text": "Nu word ik in een Judasrol getroerd.",
-      "note": "Reactie op de vraag of hij zelf aan secularisatie heeft bijgedragen."
+      "text": "Wat wij nu zien is een enorme mutatie van een religieuze mens naar een mens die van God los is.",
+      "note": "Samenvattende visie op secularisatie als historische ontwikkeling."
     },
     {
-      "start_seconds": 2000,
+      "start_seconds": 2600,
       "speaker": "Freek de Jonge",
-      "text": "Ik zit met een stekker in de inspiratie.",
-      "note": "Zijn verklaring voor zijn creativiteit en drift."
+      "text": "Het is niet voor niks dat die zaak naar de Gallemiese gaat.",
+      "note": "Opvallende verbinding tussen verlies van religie en verlies van de band met de aarde."
     },
     {
-      "start_seconds": 1665,
-      "speaker": "Freek de Jonge",
-      "text": "Ik stond bekend als de antichrist en mocht de kerk van mijn vader niet in.",
-      "note": "Humor en zelfrelativering over zijn conflict met de kerkenraad."
-    },
-    {
-      "start_seconds": 1989,
-      "speaker": "Freek de Jonge",
-      "text": "Die fantastische willekeur, dat is waar we mee moeten leren leven.",
-      "note": "Kern van zijn kijk op lot en leven na de dood."
-    },
-    {
-      "start_seconds": 1017,
-      "speaker": "Freek de Jonge",
-      "text": "Kunst kan religie niet vervangen: er is geen commitment en het is vrijblijvend.",
-      "note": "Heldere stelling op de hoofdvraag van de aflevering."
-    },
-    {
-      "start_seconds": 2354,
+      "start_seconds": 1900,
       "speaker": "Freek de Jonge",
       "text": "Ik zie het als echt als genade.",
-      "note": "Persoonlijk moment over zijn creatieve gave."
+      "note": "Persoonlijk moment waarin hij zijn creativiteit als geschenk duidt."
+    },
+    {
+      "start_seconds": 2050,
+      "speaker": "Stefan Paas",
+      "text": "Hypocrisie is de keerzijde van hoge idealen.",
+      "note": "Scherpe gedachte over de spanning tussen norm en falen."
+    },
+    {
+      "start_seconds": 3080,
+      "speaker": "Freek de Jonge",
+      "text": "Het enige antwoord is: laten we de reclame er maar in gooien.",
+      "note": "Ironische observatie over hoe de samenleving omgaat met collectieve momenten van verdriet."
     }
   ],
   "keywords": [
-    "Freek de Jonge",
     "secularisatie",
     "roeping",
-    "domineeszoon",
-    "Gerardus van der Leeuw",
-    "mysterie",
-    "taboe",
-    "cabaret",
+    "Van der Leeuw",
+    "domineesfamilie",
+    "taboes",
+    "humor",
+    "kunst als religie",
+    "zingeving",
     "genade",
-    "fundamentalisme",
-    "Reformatie",
-    "Lourdes"
+    "fenomenologie van de godsdienst"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ik zie het als echt als genade.",
+    "Het enige antwoord is: laten we de reclame er maar in gooien.",
+    "Kom verder."
+  ],
   "similar": [
     {
-      "n": 5,
-      "reason": "Cabaretier Herman Finkers over kerk, geloof en secularisatie; vergelijkbaar profiel als Freek de Jonge"
+      "n": 83,
+      "reason": "Kerk als kunstwerk en het verlies van religieuze verbeelding, zoals bij Freek de Jonge."
+    },
+    {
+      "n": 181,
+      "reason": "Kunst en geloofsverlies, met schrijver Willem Jan Otten over religieuze betekenis."
+    },
+    {
+      "n": 225,
+      "reason": "Kunst, schoonheid en kerk met priester Antoine Bodar, vergelijkbaar met Freeks religieuze kunstervaring."
     },
     {
       "n": 116,
-      "reason": "Antoine Bodar over verlies van het mysterie van het geloof"
+      "reason": "Verlies van het geloofsmysterie en de kerk, een thema dat ook Freek de Jonge bespreekt."
     },
     {
-      "n": 9,
-      "reason": "Rik Torfs over de schitterende nutteloosheid van de kerk, kunst en geloof"
-    },
-    {
-      "n": 83,
-      "reason": "Willem Jan Otten over kerk als kunstwerk; kunst, religie en secularisatie"
-    },
-    {
-      "n": 176,
-      "reason": "Franca Treur over opgroeien in de kerk en haar verhouding daartoe"
+      "n": 29,
+      "reason": "Religie in de popcultuur en kunst, sluit aan bij Freeks analyse van kunst en religie."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

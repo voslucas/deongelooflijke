@@ -1,18 +1,23 @@
 {
   "episode": 227,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109658,
+    "segments": 1209,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31981,
-    "output_tokens": 2681,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58141,
+    "output_tokens": 3299,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Klimaat & natuur",
+    "Geopolitiek & oorlog",
+    "Politiek",
     "Zingeving & psyche",
-    "Economie & geld",
-    "Wetenschap & kosmos"
+    "God & geloof"
   ],
   "guests": [
     "Jan Rotmans"
@@ -20,125 +25,169 @@
   "people": [
     {
       "name": "Jan Rotmans",
-      "note": "hoogleraar transitiekunde, klimaatpionier en oprichter van Urgenda",
+      "note": "hoogleraar transitiekunde, klimaatwetenschapper, gast",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 4092052,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Rotmans",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Portret_Jan_Rotmans.jpg/250px-Portret_Jan_Rotmans.jpg"
+      "mention_count": 40
     },
     {
-      "name": "David Attenborough",
-      "note": "natuurdocumentairemaker, genoemd als voorbeeld van natuurfilms",
-      "start_seconds": 197,
-      "wiki_checked": true,
-      "wiki_pageid": 250925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Attenborough",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/David_Attenborough_in_2025.jpg/250px-David_Attenborough_in_2025.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 4,
+      "mention_count": 30
     },
     {
-      "name": "Maarten Loonen",
-      "note": "onderzoeker op de Noordpool die bij Buitenhof tot tranen toe geroerd was",
-      "start_seconds": 366,
-      "wiki_checked": true
+      "name": "Maarten Looner",
+      "note": "onderzoeker die al tientallen jaren Noordpool-onderzoek doet",
+      "start_seconds": 360,
+      "mention_count": 1
     },
     {
-      "name": "Wouter van Noort",
-      "note": "NRC-journalist die over het Triodos-onderzoek schreef",
-      "start_seconds": 701,
-      "wiki_checked": true
+      "name": "René Cuperus",
+      "note": "onderzoeker bij Instituut Clingendael, schrijver van Atlas van Afgehaakt Nederland",
+      "start_seconds": 1728,
+      "mention_count": 3
     },
     {
-      "name": "Kees Klomp",
-      "note": "auteur die de collapse-gedachte aanhangt",
-      "start_seconds": 1292,
-      "wiki_checked": true
+      "name": "Donald Trump",
+      "note": "Amerikaans president, genoemd als klimaatscepticus",
+      "start_seconds": 528,
+      "mention_count": 1
     },
     {
-      "name": "Steve Schneider",
-      "note": "Amerikaanse klimaatwetenschapper en kompaan van Rotmans",
-      "start_seconds": 2124,
-      "wiki_checked": true
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus, genoemd bij klimaatbeleid",
+      "start_seconds": 528,
+      "mention_count": 1
     },
     {
-      "name": "Paul Crutzen",
-      "note": "Nobelprijswinnend atmosfeerchemicus en kompaan van Rotmans",
-      "start_seconds": 2124,
-      "wiki_checked": true,
-      "wiki_pageid": 103334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Crutzen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Paul_Crutzen.jpg/250px-Paul_Crutzen.jpg"
-    },
-    {
-      "name": "Kees Soeteman",
-      "note": "RIVM-collega die als enige in Rotmans' klimaatmodel geloofde",
-      "start_seconds": 2040,
-      "wiki_checked": true
-    },
-    {
-      "name": "Louis van Gaal",
-      "note": "voetbaltrainer, vergelijking voor iemand die zijn gelijk wil halen",
-      "start_seconds": 1973,
-      "wiki_checked": true,
-      "wiki_pageid": 124525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Louis_van_Gaal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Louis_van_Gaal_2014.jpg/250px-Louis_van_Gaal_2014.jpg"
-    },
-    {
-      "name": "Roger Cox",
-      "note": "advocaat die klimaatrechtszaken tegen Shell en ING aanspant",
-      "start_seconds": 2292,
-      "wiki_checked": true
+      "name": "Kees Klom",
+      "note": "auteur over collapsologie",
+      "start_seconds": 1290,
+      "mention_count": 1
     },
     {
       "name": "Marjan van Loon",
       "note": "voormalig president-directeur Shell Nederland",
-      "start_seconds": 2293,
-      "wiki_checked": true,
-      "wiki_pageid": 4926950,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marjan_van_Loon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Marjan_van_Loon_%282017%29.jpg/250px-Marjan_van_Loon_%282017%29.jpg"
+      "start_seconds": 1100,
+      "mention_count": 1
     },
     {
       "name": "Ben van Beurden",
-      "note": "voormalig topman van Shell",
-      "start_seconds": 2305,
-      "wiki_checked": true,
-      "wiki_pageid": 3881274,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ben_van_Beurden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ben_van_Beurden.jpg/250px-Ben_van_Beurden.jpg"
+      "note": "voormalig topman Shell internationaal",
+      "start_seconds": 1120,
+      "mention_count": 1
     },
     {
-      "name": "Frans Everts",
+      "name": "Roger Cox",
+      "note": "advocaat die klimaatrechtszaken aanspant",
+      "start_seconds": 1088,
+      "mention_count": 2
+    },
+    {
+      "name": "Frans Evers",
       "note": "president-directeur Shell Nederland",
-      "start_seconds": 2323,
-      "wiki_checked": true
+      "start_seconds": 1420,
+      "mention_count": 1
     },
     {
-      "name": "Katharine Hayhoe",
-      "note": "klimaatwetenschapper die bij oliebedrijven langsgaat",
-      "start_seconds": 2257,
-      "wiki_checked": true,
-      "wiki_pageid": 4945252,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Katharine_Hayhoe",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Katharine_Hayhoe_2018_%28DIG14287-042%29.jpg/250px-Katharine_Hayhoe_2018_%28DIG14287-042%29.jpg"
+      "name": "Steve Schneider",
+      "note": "klimaatwetenschapper",
+      "start_seconds": 2130,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Crutzen",
+      "note": "Nobelprijswinnend atmosfeerchemicus",
+      "start_seconds": 2130,
+      "mention_count": 1
+    },
+    {
+      "name": "Eckhart Tolle",
+      "note": "spiritueel docent",
+      "start_seconds": 3660,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Pilarczyk",
+      "note": "spiritueel docent",
+      "start_seconds": 3700,
+      "mention_count": 1
+    },
+    {
+      "name": "Catherine Hayhoe",
+      "note": "klimaatwetenschapper",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Klaas van Egmond",
+      "note": "directeur RIVM uit Rotmans' verleden",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Mario Draghi",
+      "note": "auteur van Europees energierapport",
+      "start_seconds": 3000,
+      "mention_count": 1
+    },
+    {
+      "name": "Louis van Gaal",
+      "note": "voetbaltrainer, vergelijking",
+      "start_seconds": 1960,
+      "mention_count": 2
+    },
+    {
+      "name": "Rick Samson",
+      "note": "Europees ambtenaar en klimaatonderhandelaar",
+      "start_seconds": 3450,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "Europees politicus, samenwerking met Samson",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Sofie Hermans",
+      "note": "VVD-politica",
+      "start_seconds": 3300,
+      "mention_count": 1
+    },
+    {
+      "name": "Sjaak van der Tak",
+      "note": "voorzitter landbouwakkoord",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Havel",
+      "note": "Tsjechisch president, definitie van hoop",
+      "start_seconds": 4560,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel, geloof-hoop-liefde",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Attenborough",
+      "note": "natuurfilmmaker",
+      "start_seconds": 195,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Perfect Storm",
       "author": "Jan Rotmans",
-      "note": "over systeemverandering, afvalberg van zonnepanelen en de rol van Shell",
-      "start_seconds": 1017,
+      "note": "boek over systeemverandering en klimaat",
+      "start_seconds": 1740,
       "volume_id": "Zcgo0QEACAAJ",
-      "canonical_title": "De perfecte storm: Op zoek naar een nieuwe balans",
+      "canonical_title": "De perfecte storm. Op zoek naar een nieuwe balans",
       "canonical_author": "Jan Rotmans",
       "isbn13": "9789044550948",
       "isbn10": "9044550942",
@@ -147,8 +196,8 @@
     {
       "title": "Omarm de chaos",
       "author": "Jan Rotmans",
-      "note": "beschrijft zijn werk met Shell en het veranderen van bedrijfsidentiteit",
-      "start_seconds": 2410,
+      "note": "eerder boek over transitie en Shell",
+      "start_seconds": 2400,
       "volume_id": "70fNzgEACAAJ",
       "canonical_title": "Omarm de chaos",
       "canonical_author": "Jan Rotmans, Mischa Verheijden",
@@ -157,140 +206,144 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "1 Korintiërs 13:13",
+      "note": "Paulus: geloof, hoop en liefde",
+      "start_seconds": 3840
+    }
+  ],
   "places": [
+    "Noordpool",
     "Spitsbergen",
     "Groenland",
-    "Noordpool",
     "Rotterdam",
     "Veluwe",
     "Oisterwijk",
+    "Pernis",
     "Azerbeidzjan",
+    "Eindhoven",
     "Kyoto",
     "Parijs",
-    "Eindhoven",
-    "Pyreneeën",
     "Afrika",
-    "Amazone"
+    "Qatar",
+    "Franse Pyreneeën"
   ],
-  "summary_tldr": "Jan Rotmans stelt dat we in de grootste maatschappelijke transitie ooit zitten, groter dan de industriële revolutie. Na een bijna-spirituele ervaring op de Noordpool pleit hij voor het raken van het hart in plaats van het presenteren van cijfers. Hij blijft hoopvol: systeemverandering, gedragsverandering en samenwerking van binnenuit, ook met Shell en ING, kunnen de kentering brengen.",
+  "summary_tldr": "Jan Rotmans beschrijft de huidige verandering als een grotere transitie dan de industriële revolutie, die alle systemen raakt en ook een zingevingscrisis omvat. Hij pleit voor een smal en diep draagvlak, gedragsverandering en hoop als drijfveer. Stefan Paas bevraagt de haalbaarheid en de rol van religie, en benadrukt het verschil tussen optimisme en hoop.",
   "summary_points": [
-    "Rotmans' ervaring op de Noordpool raakte hem emotioneel en spiritueel en veranderde zijn aanpak.",
-    "Cijfers en feiten leiden tot lethargie; hoop en verlangen zetten aan tot verandering.",
-    "Dagelijks nieuws is ruis; structurele veranderingen in de onderstroom geven reden tot hoop.",
-    "Een kwart van de bevolking is nodig voor een kantelpunt, en dat wordt nu bereikt.",
-    "Een echte transitie vraagt systeemverandering, niet alleen vervanging van technologie, bijvoorbeeld circulaire economie en lokale energie-uitwisseling.",
-    "Gedragsverandering kan volgens het VN-klimaatpanel tot 70% minder uitstoot leiden.",
-    "Rotmans werd decennia lang uitgelachen om zijn klimaatmodel, dat nu breed wordt gebruikt.",
-    "Hij werkt van binnenuit met Shell en ING en steunt tegelijk rechtszaken.",
-    "Collapsologie is een mogelijkheid, maar de kans op slagen is volgens hem even groot."
+    "Rotmans ziet de huidige transitie als groter dan de industriële revolutie, met systemen die hun houdbaarheidsdatum bereiken.",
+    "Persoonlijke ervaringen op Spitsbergen en Groenland brachten hem tot een meer spirituele en emotionele benadering van klimaatverandering.",
+    "Verandering verloopt volgens hem via kleine stappen en onderstroom; ongeveer een kwart van de mensen is nodig voor een doorbraak.",
+    "Gedragsverandering kan volgens het VN-panel 70% minder broeikasgassen opleveren met bestaande technologie.",
+    "Systeemverandering vraagt om het tegelijk aanpakken van financiën, technologie, gedrag en wetgeving.",
+    "Paas waarschuwt voor de risico's van snelle transities, zoals populistische reacties en ontwrichting.",
+    "Rotmans pleit voor een coalitie van partijen die willen en kunnen, in plaats van polderen.",
+    "Zingeving en identiteit worden gezien als onderdeel van de transitie; kerken kunnen hierin een rol spelen.",
+    "Hoop wordt onderscheiden van optimisme als toewijding aan het goede, ook zonder zekere uitkomst."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Spirituele ervaring op de Noordpool",
-      "summary": "Rotmans vertelt hoe de stilte en kwetsbaarheid van het poolgebied hem raakten en hem naar spiritualiteit brachten."
+      "title": "Intro en de Noordpool-ervaring",
+      "summary": "Rotmans vertelt over zijn spirituele ervaring op Spitsbergen en Groenland die hem persoonlijk raakte."
     },
     {
-      "start_seconds": 521,
-      "title": "Ruis versus onderstroom",
-      "summary": "Over structurele veranderingen zoals zonnepanelen, minder vlees en roken, en het kantelpunt van 25%."
+      "start_seconds": 480,
+      "title": "Structurele ontwikkelingen en hoop",
+      "summary": "Rotmans wijst op de onderstroom van verandering en de rol van kleine stappen en de kwart-grens."
     },
     {
-      "start_seconds": 790,
-      "title": "Te laat of nog hoopvol?",
-      "summary": "Discussie over kantelpunten, klimaattoppen, corona-vaccins en nieuwe technologie zoals witte waterstof."
-    },
-    {
-      "start_seconds": 1037,
-      "title": "De grootste transitie ooit",
-      "summary": "Vergelijking met de 19e eeuw en waarom hoop effectiever is dan doemdenken en collapsologie."
-    },
-    {
-      "start_seconds": 1505,
+      "start_seconds": 1020,
       "title": "Systeemverandering en afvalberg",
-      "summary": "Waarom vervangen van technologie niet volstaat en wat de afvalberg van zonnepanelen betekent."
+      "summary": "Gesprek over systeemverandering versus technologische vervanging en de uitdaging van circulariteit."
     },
     {
-      "start_seconds": 1840,
-      "title": "Uitgelachen pionier",
-      "summary": "Rotmans over zijn klimaatmodel, weerstand bij KNMI en RIVM en eenzaamheid."
+      "start_seconds": 1500,
+      "title": "Weerstand, eenzaamheid en Shell",
+      "summary": "Rotmans' carrière, weerstand tegen zijn klimaatmodel en zijn samenwerking met Shell en ING."
     },
     {
-      "start_seconds": 2220,
-      "title": "Activisme en samenwerking met Shell en ING",
-      "summary": "Na zijn fietsongeluk werd hij activist, richtte Urgenda op en werkt van binnenuit met grote bedrijven."
+      "start_seconds": 2700,
+      "title": "Polderen, populisme en draagvlak",
+      "summary": "Discussie over het poldermodel, een smal en diep draagvlak en de relatie met populisme."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Persoonlijke transitie en zingeving",
+      "summary": "Rotmans bespreekt de persoonlijke transitie en de rol van zingeving en kerk in de verandering."
+    },
+    {
+      "start_seconds": 4400,
+      "title": "Hoop voor 2025",
+      "summary": "Afsluiting met reflecties op hoop, onderstroom en het onderscheid tussen optimisme en hoop."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 176,
+      "start_seconds": 125,
       "speaker": "Jan Rotmans",
-      "text": "Als je mensen in het hart raakt, dan komen ze pas in actie.",
-      "note": "Kern van zijn gewijzigde aanpak."
+      "text": "Ik was de eerste in de wereld, zonder dat ik het wist, die zo'n klimaatmodel had ontwikkeld.",
+      "note": "Laat zien hoe eenzaam en gehoond Rotmans zich als pionier voelde."
     },
     {
-      "start_seconds": 1876,
+      "start_seconds": 2160,
       "speaker": "Jan Rotmans",
-      "text": "Ik heb me wel heel vaak eenzaam gevoeld... Ik werd letterlijk uitgelachen.",
-      "note": "Persoonlijk moment over weerstand."
+      "text": "Ik ben er uitgelachen en nu prediken ze het zelf.",
+      "note": "Een scherpe reflectie op hoe zijn eerdere voorspellingen nu algemeen worden gedeeld."
     },
     {
-      "start_seconds": 1296,
+      "start_seconds": 3080,
       "speaker": "Jan Rotmans",
-      "text": "Je kan kiezen voor doom and gloom, maar die kans is niet groter dan dat het wel gaat lukken.",
-      "note": "Scherpe stellingname tegen collapsologie."
+      "text": "Ik zie een transitie als een evolutionaire revolutie.",
+      "note": "Een tegenhanger van radicale verandering, met nadruk op geleidelijkheid."
     },
     {
-      "start_seconds": 2260,
-      "speaker": "Jan Rotmans",
-      "text": "Mijn leven is gered door een helm; toen werd ik activist.",
-      "note": "Verrassende aanleiding voor zijn activisme."
-    },
-    {
-      "start_seconds": 2440,
-      "speaker": "Jan Rotmans",
-      "text": "Bij Shell vroeg ik: vroeger waren we trots op Shell, en nu?",
-      "note": "Confronterende aanpak van bedrijfsidentiteit."
+      "start_seconds": 4560,
+      "speaker": "Stefan Paas",
+      "text": "Hoop is het vertrouwen dat je met de goede dingen bezig bent, ook zonder zekere uitkomst.",
+      "note": "Een filosofische onderscheiding tussen hoop en optimisme."
     }
   ],
   "keywords": [
-    "transitie",
-    "klimaat",
-    "systeemverandering",
-    "Jan Rotmans",
-    "spiritualiteit",
-    "Noordpool",
-    "collapsologie",
-    "Urgenda",
-    "Shell",
-    "circulaire economie",
-    "gedragsverandering",
-    "hoop"
+    "Systeemverandering",
+    "Transitie",
+    "Klimaatverandering",
+    "Zingeving",
+    "Hoop",
+    "Bekering",
+    "Draagvlak",
+    "Populisme",
+    "Circulaire economie",
+    "Persoonlijke transitie",
+    "Kerk"
   ],
   "quotes": [
-    "Dit is nog groter dan de industriële revolutie."
+    "Dit is nog groter dan de industriële revolutie.",
+    "Rotmans is een pionier in de klimaatwetenschap, maar zijn blik reikt verder.",
+    "Is de kentering nabij?"
   ],
   "similar": [
     {
-      "n": 276,
-      "reason": "Diederik Samsom over de klimaatrace, hoop en technologische transitie; sterk overlappend klimaatthema."
+      "n": 226,
+      "reason": "Vooruitblik op wat ons te wachten staat, met Trump, Wilders en René Cuperus, die ook in #227 terugkomt."
     },
     {
       "n": 285,
-      "reason": "Ad Verbrugge over kantelpunt, crisis van het Westen en systeemverandering."
+      "reason": "Gaat over het kantelpunt en de crisis van het Westen, sluit aan bij de grote verandering."
     },
     {
-      "n": 265,
-      "reason": "Gabriël van den Brink over moderne levensstijl, natuur en wie wij werkelijk zijn."
+      "n": 314,
+      "reason": "Zingevingscrisis in het moderne leven, een kernthema van #227 over zingeving en hoop."
     },
     {
-      "n": 233,
-      "reason": "Wetenschap, klimaat en een grote toekomstige verandering; Wouter van Noort-achtige technologische doorbraak."
+      "n": 318,
+      "reason": "Diepere crisis van het Westen en de onbalans van de moderne mens, verwant aan transitie en zingeving."
     },
     {
-      "n": 129,
-      "reason": "Met Wouter van Noort, die ook in deze aflevering wordt besproken; wetenschap en zingeving."
+      "n": 317,
+      "reason": "Geopolitieke wending en de terugkeer van religie in de politiek, raakt aan verandering en geloof."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

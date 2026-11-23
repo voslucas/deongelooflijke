@@ -1,259 +1,271 @@
 {
   "episode": 56,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 86967,
+    "segments": 793,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30438,
-    "output_tokens": 2566,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 43732,
+    "output_tokens": 3316,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
-    "Politiek",
+    "Geopolitiek & oorlog",
     "Amerika & Trump",
-    "Islam & jodendom"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Sander Rietveld"
   ],
   "people": [
     {
+      "name": "Sander Rietveld",
+      "note": "gast, journalist en auteur van 'Nieuwe Kruisvaarders'",
+      "start_seconds": 102,
+      "mention_count": 3
+    },
+    {
       "name": "Geert Wilders",
-      "note": "PVV-leider; kreeg in 2011 onverwacht de handen opgelegd door evangelische voorgangers",
-      "start_seconds": 14,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider, bezocht door evangelische voorgangers op het Binnenhof",
+      "start_seconds": 102,
+      "mention_count": 9
     },
     {
       "name": "Thierry Baudet",
-      "note": "FvD-leider; lonkt naar orthodoxe christenen, weigerde afstand te nemen van antisemitisme in zijn partij",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "FvD-leider, besproken om zijn relatie tot orthodox christendom en antisemitisme",
+      "start_seconds": 220,
+      "mention_count": 12
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president met sterke steun van witte evangelicals",
-      "start_seconds": 170,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Richard Wurmbrand",
-      "note": "Roemeense predikant die vervolgd en gemarteld werd; organisatie waarvoor Paas' ouders actief waren",
-      "start_seconds": 613,
-      "wiki_checked": true,
-      "wiki_pageid": 530393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Wurmbrand",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Richard_Wurmbrand_prison.jpg/250px-Richard_Wurmbrand_prison.jpg"
+      "note": "voormalig Amerikaans president, bezocht door evangelicals en gesteund door witte evangelicals",
+      "start_seconds": 161,
+      "mention_count": 7
     },
     {
       "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-leider; sprak over geestelijke strijd tegen de islam",
-      "start_seconds": 1734,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "note": "ChristenUnie-leider, geciteerd over de islam",
+      "start_seconds": 1749,
+      "mention_count": 2
     },
     {
       "name": "Kees van der Staaij",
-      "note": "SGP-leider, rolmodel in orthodox-christelijke kring",
-      "start_seconds": 1782,
-      "wiki_checked": true,
-      "wiki_pageid": 118993,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kees_van_der_Staaij",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KeesvanderStaaijDirkHol2016.jpg/250px-KeesvanderStaaijDirkHol2016.jpg"
+      "note": "SGP-leider, genoemd als voorbeeld van orthodoxe politici",
+      "start_seconds": 1749,
+      "mention_count": 1
     },
     {
       "name": "Bernard Reitsma",
-      "note": "Hoogleraar aan de VU, islam en christendom; door Rietveld geïnterviewd",
+      "note": "hoogleraar aan de VU, geïnterviewd voor het boek over islam en christendom",
       "start_seconds": 1960,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Wurmbrand",
+      "note": "Roemeense predikant die gevangen zat en gemarteld werd, ondersteund door ouders van Stefan Paas",
+      "start_seconds": 612,
+      "mention_count": 1
     },
     {
       "name": "Mohammed",
-      "note": "Profeet van de islam; genoemd in discussie over religiekritiek",
-      "start_seconds": 1872,
-      "wiki_checked": true,
-      "wiki_pageid": 1077,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammed",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/250px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg"
+      "note": "profeet van de islam, besproken in verband met kritiek op de islam",
+      "start_seconds": 1871,
+      "mention_count": 1
     },
     {
       "name": "Franco",
-      "note": "Spaanse dictator; katholicisme en fascisme gingen samen",
+      "note": "Spaans dictator, besproken in verband met katholicisme en fascisme",
       "start_seconds": 1361,
-      "wiki_checked": true,
-      "wiki_pageid": 6214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francisco_Franco",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/RETRATO_DEL_GRAL._FRANCISCO_FRANCO_BAHAMONDE.jpg/250px-RETRATO_DEL_GRAL._FRANCISCO_FRANCO_BAHAMONDE.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel, geciteerd over huwelijk en ongehuwd zijn",
+      "start_seconds": 3010,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Nieuwe Kruisvaarders",
       "author": "Sander Rietveld",
-      "note": "Onderzoek naar de alliantie tussen orthodoxe christenen en radicaal-rechtse populisten",
+      "note": "boek over de alliantie tussen orthodoxe christenen en radicaal rechts",
       "start_seconds": 26,
-      "volume_id": "0SohEAAAQBAJ",
-      "canonical_title": "Nieuwe kruisvaarders: De heilige alliantie tussen orthodoxe christenen en radicaalrechtse populisten",
+      "volume_id": "m6cgzgEACAAJ",
+      "canonical_title": "Nieuwe kruisvaarders. De heilige alliantie tussen orthodoxe christenen en radicaal-rechtse populisten",
       "canonical_author": "Sander Rietveld",
-      "isbn13": "9789044645170",
-      "isbn10": "904464517X",
-      "thumbnail": "http://books.google.com/books/content?id=0SohEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044645163",
+      "isbn10": "9044645161",
+      "thumbnail": ""
+    },
+    {
+      "title": "Het offerlam",
+      "author": "",
+      "note": "",
+      "start_seconds": 2803
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Openbaring",
+      "note": "besproken als apocalyptisch boek over eindtijd en vijanden van God",
+      "start_seconds": 2640
+    },
+    {
+      "ref": "Mattheus 5:39",
+      "note": "'Keer de andere wang toe', christelijke ethiek van geweldloosheid",
+      "start_seconds": 1000
+    },
+    {
+      "ref": "Mattheus 5:44",
+      "note": "'Heb je vijanden lief', genoemd door Stefan Paas",
+      "start_seconds": 2600
+    }
+  ],
   "places": [
     "Den Haag",
-    "Binnenhof",
-    "Verenigde Staten",
     "Polen",
-    "Hongarije",
-    "Spanje",
-    "Sovjet-Unie",
     "Oost-Duitsland",
-    "Oekraïne",
     "Urk",
     "Krimpen",
+    "Hongarije",
+    "Spanje",
+    "Zuid-Afrika",
+    "Oeganda",
     "Noord-Korea",
-    "China",
-    "Frankrijk",
+    "Rusland",
     "Duitsland",
-    "Capitool"
+    "Zweden"
   ],
-  "summary_tldr": "Journalist Sander Rietveld legt uit hoe orthodoxe christenen en radicaal-rechtse populisten elkaar vinden in een gedeeld gevoel van slachtofferschap, vijandbeelden en verlangen naar een christelijk rijk. Met Stefan Paas en David Boogerd wordt besproken hoe groot dit probleem in Nederland werkelijk is, welke rol de islam, internationale geldstromen en kerkgang spelen. De mainstream kerk blijkt eerder een buffer dan een voedingsbodem voor populisme.",
+  "summary_tldr": "In deze aflevering onderzoekt journalist Sander Rietveld de vermeende alliantie tussen orthodoxe christenen en radicaal-rechtse populisten, zoals beschreven in zijn boek 'Nieuwe Kruisvaarders'. Het gesprek gaat over slachtofferschap, het verlangen naar een christelijk rijk, kritiek op de islam en de vraag of conservatief christendom populisme voedt of juist remt. Stefan Paas en David Boogerd bevragen de rol van secularisatie, Amerikaanse invloeden en het verschil tussen cultuurchristendom en de christelijke ethiek.",
   "summary_points": [
-    "Wilders kreeg in 2011 onverwacht de handen opgelegd door evangelische voorgangers.",
-    "Rietveld groeide zelf op in een orthodox, fundamentalistisch milieu en smokkelde als kind bijbels naar het Oostblok.",
-    "Gedeeld slachtofferschap en het idee van een vijandige seculiere elite verbinden orthodoxe christenen en radicaal rechts.",
-    "Het verlangen naar een christelijk rijk of christelijk Europa wordt door Paas gezien als een vorm van secularisering.",
-    "Het radicaal-rechtse electoraat in Nederland is ongeveer 25 tot 30 procent en blijft ook als partijen als FvD zakken.",
-    "In Amerika, Polen, Hongarije en Spanje is de verstrengeling van religie en radicaal rechts veel sterker dan in Nederland.",
-    "Internationale netwerken, mede gefinancierd vanuit Amerika, bevatten ook SGP en ChristenUnie.",
-    "Rietveld bekritiseert de nadruk van SGP en ChristenUnie op geestelijke strijd en donkere kanten van de islam.",
-    "Kerkgangers stemmen minder vaak populistisch; vooral cultuurchristenen zijn gevoelig voor populisten."
+    "Rietveld beschrijft een bezoek van evangelische voorgangers aan Geert Wilders in 2011 als voorbeeld van de groeiende band tussen christendom en populisme.",
+    "Rietveld noemt een gedeeld gevoel van slachtofferschap onder radicaal-rechtse kiezers en orthodoxe gelovigen, versterkt door het idee van een seculiere elite.",
+    "Het verlangen naar een christelijk rijk of theocratie wordt besproken als ideologische drijfveer.",
+    "Paas en Rietveld bespreken het verschil tussen Nederland en de VS, waarbij Nederland als sterk geseculariseerd land minder polarisatie kent.",
+    "Kerkgangers stemmen gemiddeld minder op populistische partijen, maar Rietveld wijst op lokale uitzonderingen zoals Urk.",
+    "De SGP en ChristenUnie worden bekritiseerd vanwege hun houding tegenover de islam en hun Europese netwerken met financiering uit de VS.",
+    "Open Doors-ranglijsten worden besproken als voorbeeld van selectieve verontwaardiging over christenvervolging.",
+    "Paas benadrukt dat het Nieuwe Testament een ethiek van geweldloosheid en vijandenliefde bevat, die vaak wordt vergeten.",
+    "Rietveld geeft aan dat hij zelf nog gelovig is, maar allergisch is voor stellige waarheidsclaims over Gods wil.",
+    "Paas pleit voor bruggen slaan en het voorkomen van verzuring, ook binnen de eigen kerkelijke gemeenschap."
   ],
   "chapters": [
     {
       "start_seconds": 26,
-      "title": "Introductie en de handoplegging bij Wilders",
-      "summary": "Opening en het verhaal over evangelische voorgangers die Geert Wilders in 2011 zegenden."
+      "title": "Introductie en de PVV-fractiekamer",
+      "summary": "Boogerd en Paas introduceren Rietveld en zijn boek. Rietveld beschrijft het bezoek van voorgangers aan Geert Wilders."
     },
     {
-      "start_seconds": 257,
-      "title": "Rietvelds orthodoxe achtergrond",
-      "summary": "Rietveld vertelt over zijn opvoeding, fundamentalisme en het smokkelen van bijbels naar Oost-Europa."
+      "start_seconds": 300,
+      "title": "Persoonlijke achtergrond en smokkel van bijbels",
+      "summary": "Rietveld en Paas delen hun orthodoxe opvoeding en herinneringen aan het smokkelen van bijbels naar het Oostblok."
     },
     {
-      "start_seconds": 770,
-      "title": "Urgentie van het probleem in Nederland",
-      "summary": "Hoe groot is het radicaal-rechtse potentieel en wat betekent de val van Baudet en het antisemitisme voor christenen."
+      "start_seconds": 750,
+      "title": "Anticommunisme en polarisatie",
+      "summary": "Het gesprek gaat over de Koude Oorlog, de polarisatie van vroeger en de vergelijking met de huidige tijd."
     },
     {
-      "start_seconds": 996,
-      "title": "Slachtofferschap en het christelijk rijk",
-      "summary": "Het gedeelde gevoel van slachtofferschap, de vijand van de seculiere elite en het streven naar een christelijk Europa."
+      "start_seconds": 795,
+      "title": "Urgentie, slachtofferschap en het christelijk rijk",
+      "summary": "Rietveld bespreekt de vaste kiezersbasis van radicaal rechts en het gevoel van slachtofferschap bij orthodoxe gelovigen."
     },
     {
-      "start_seconds": 1260,
-      "title": "Amerika, Europa en secularisatie",
-      "summary": "Vergelijking van Nederland met de VS, Polen, Hongarije en Spanje, en de vraag wat religieus of seculier is."
+      "start_seconds": 1200,
+      "title": "Amerika, Europa en de rol van geld",
+      "summary": "De VS als voorbeeld van extreme polarisatie wordt vergeleken met Nederland, Polen en Hongarije. Internationale financiering wordt besproken."
     },
     {
-      "start_seconds": 1560,
-      "title": "Geldstromen en islamkritiek bij SGP en ChristenUnie",
-      "summary": "Internationale netwerken en de kritiek op geestelijke strijd tegen de islam en het gebruik van Open Doors-rapporten."
+      "start_seconds": 1700,
+      "title": "Kerk, secularisatie en kiesgedrag",
+      "summary": "Onderzoek naar kerkgangers en populisme wordt besproken, met nuance over secularisatie en de rol van gemeenschap."
     },
     {
-      "start_seconds": 2100,
-      "title": "Kerk als buffer tegen populisme",
-      "summary": "Kerkgangers stemmen minder populistisch; cultuurchristenen zijn kwetsbaarder."
+      "start_seconds": 2300,
+      "title": "Bijbelse ethiek versus cultuurchristendom",
+      "summary": "Paas en Rietveld bespreken Openbaring, vijandenliefde, traditionele gezinswaarden en het verschil tussen cultuur en ethiek."
+    },
+    {
+      "start_seconds": 3100,
+      "title": "Bruggen slaan en persoonlijk geloof",
+      "summary": "Paas pleit voor verzoening, Rietveld reflecteert op zijn eigen geloof, en het gesprek sluit af met morele inconsistentie op links en rechts."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 157,
-      "speaker": "Sander Rietveld",
-      "text": "Geert Wilders was flabbergasted toen de voorgangers hem de handen oplegden.",
-      "note": "Verrassend beeld van een agnostische politicus die wordt gezegend als instrument van God."
-    },
-    {
-      "start_seconds": 516,
-      "speaker": "Sander Rietveld",
-      "text": "Als kind werd hij ingewijd in het smokkelen van bijbels met caravan en dubbele bodem.",
-      "note": "Persoonlijk en spannend verhaal."
-    },
-    {
-      "start_seconds": 996,
-      "speaker": "Sander Rietveld",
-      "text": "Een gedeeld gevoel van slachtofferschap speelt een grote rol in de verbondenheid.",
-      "note": "Kernthese van het boek."
-    },
-    {
-      "start_seconds": 1456,
+      "start_seconds": 1000,
       "speaker": "Stefan Paas",
-      "text": "Als Jezus wordt uitgedost als krijger die voor Trump opkomt, wat heeft dat dan nog met Jezus te maken?",
-      "note": "Scherpe theologische kritiek."
+      "text": "Moreel kwaad is moreel kwaad, of het nou links of rechts zit.",
+      "note": "Een scherpe oproep tot consistente morele beoordeling die beide zijden van het politieke spectrum raakt."
     },
     {
-      "start_seconds": 1758,
+      "start_seconds": 1100,
       "speaker": "Sander Rietveld",
-      "text": "Het gaat nooit over de donkere kanten van het christendom.",
-      "note": "Kritiek op eenzijdige islamkritiek."
+      "text": "Ik ben nog zeker gelovig, ja, alleen niet meer zo orthodox, denk ik.",
+      "note": "Persoonlijke openheid van de journalist over zijn eigen geloofsontwikkeling en afstand tot fundamentalisme."
+    },
+    {
+      "start_seconds": 2100,
+      "speaker": "Stefan Paas",
+      "text": "Ik schrik me soms ook rot als ik het zie en ik kan er soms echt boos om worden ook.",
+      "note": "Eerlijke zelfreflectie van de theoloog over zijn eigen arrogantie en de verleiding tot afstand."
+    },
+    {
+      "start_seconds": 2550,
+      "speaker": "Sander Rietveld",
+      "text": "Het idee van een christelijk rijk... is ook een secularisering.",
+      "note": "Een verrassende stelling: het streven naar een wereldlijk christelijk rijk als vorm van secularisatie."
+    },
+    {
+      "start_seconds": 2000,
+      "speaker": "Stefan Paas",
+      "text": "Het is een zeer impotent soort christendom... het is een beetje een slappe hap.",
+      "note": "Citaat van Thierry Baudet over de SGP, dat laat zien hoe ver populisme afstand neemt van de christelijke ethiek."
     }
   ],
   "keywords": [
     "Nieuwe Kruisvaarders",
     "populisme",
-    "orthodoxe christenen",
+    "orthodox christendom",
+    "secularisatie",
     "slachtofferschap",
     "christelijk rijk",
-    "evangelicals",
-    "Geert Wilders",
-    "Thierry Baudet",
-    "SGP",
-    "ChristenUnie",
     "islamkritiek",
-    "secularisatie"
+    "cultuurchristendom",
+    "vijandenliefde",
+    "Open Doors",
+    "Trump",
+    "evangelicals"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 2,
-      "reason": "Populisme (Baudet, Trump) en de rol van de kerk, met dezelfde thematische combinatie"
-    },
-    {
       "n": 20,
-      "reason": "Christelijke stemmers van Trump en religie in populistische politiek"
+      "reason": "Christelijke Trump-stemmers; religie, populisme en Amerikaanse politiek sluiten nauw aan"
     },
     {
-      "n": 45,
-      "reason": "Verhouding tussen kerk, geloof en Nederlandse politiek, inclusief christelijke partijen"
+      "n": 2,
+      "reason": "Populisme en de rol van de kerk; Baudet en Trump als gedeelde thema's"
     },
     {
-      "n": 222,
-      "reason": "Kees van der Staaij over populisme, polarisatie en de joods-christelijke rechtsstaat"
+      "n": 103,
+      "reason": "Nicki Pouw-Verweij (JA21) over religie, kerk en samenleving; rechts-populistische invalshoek"
     },
     {
-      "n": 219,
-      "reason": "Religieuze duiding van Trump en de relatie tussen geloof en politiek"
+      "n": 36,
+      "reason": "Religie in de Amerikaanse politiek, Trump en het christelijk kiezersveld"
+    },
+    {
+      "n": 192,
+      "reason": "Cultuurchristendom in Europa, migratie en geopolitieke spanningen; overlappende thema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

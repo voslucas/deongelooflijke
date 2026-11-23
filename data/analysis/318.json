@@ -1,127 +1,88 @@
 {
   "episode": 318,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 73414,
+    "segments": 606,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 25228,
-    "output_tokens": 2631,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 30396,
+    "output_tokens": 6995,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Wetenschap & kosmos",
-    "Filosofie & ethiek",
     "Zingeving & psyche",
-    "God & geloof"
+    "God & geloof",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Iain McGilchrist"
   ],
   "people": [
     {
-      "name": "Iain McGilchrist",
-      "note": "neurowetenschapper, psychiater, literatuurwetenschapper en filosoof; gast",
-      "start_seconds": 70,
-      "wiki_checked": true,
-      "wiki_pageid": 5816749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Iain_McGilchrist",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Iain_McGilchrist.png/250px-Iain_McGilchrist.png"
+      "name": "Ted Hughes",
+      "note": "Engels dichter die McGilchrist noemt in verband met zijn droom over de vos en het essay",
+      "start_seconds": 946,
+      "mention_count": 2
     },
     {
       "name": "Oliver Sacks",
-      "note": "neuroloog en schrijver van Awakenings; inspireerde McGilchrist",
-      "start_seconds": 976,
-      "wiki_checked": true,
-      "wiki_pageid": 59989,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oliver_Sacks",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Oliversacks.jpg/250px-Oliversacks.jpg"
-    },
-    {
-      "name": "Ted Hughes",
-      "note": "Engelse dichter die droomde van een vos die zijn essay bloedde",
-      "start_seconds": 885,
-      "wiki_checked": true,
-      "wiki_pageid": 184978,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ted_Hughes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Poet_Ted_HughesDCP_2068.JPG/250px-Poet_Ted_HughesDCP_2068.JPG"
+      "note": "Neuroloog en schrijver; inspireerde McGilchrist om neurowetenschap te gaan bedrijven",
+      "start_seconds": 968,
+      "mention_count": 2
     },
     {
       "name": "C.S. Lewis",
-      "note": "schrijver; noemde zichzelf de meest onwillige christen",
-      "start_seconds": 1265,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "note": "Auteur die volgens McGilchrist zichzelf 'de meest terughoudende christen' noemde",
+      "start_seconds": 1268,
+      "mention_count": 3
     },
     {
       "name": "Johann Wolfgang von Goethe",
-      "note": "Duitse denker; over het verenigen en onderscheiden als werk van de natuur",
+      "note": "Duitse denker; citaat over verdelen en verenigen als werk van de natuur",
       "start_seconds": 2856,
-      "wiki_checked": true,
-      "wiki_pageid": 32511,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/250px-Goethe_%28Stieler_1828%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "David Bohm",
-      "note": "natuurkundige die de beweging van de kosmos beschreef als ontvouwen en weer insluiten",
+      "note": "Natuurkundige die de ritmische beweging van het kosmos beschreef",
       "start_seconds": 2856,
-      "wiki_checked": true,
-      "wiki_pageid": 1920164,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Bohm",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/David_Bohm.jpg/250px-David_Bohm.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Prometheus",
-      "note": "mythologische figuur als beeld van hubris",
-      "start_seconds": 1717,
-      "wiki_checked": true,
-      "wiki_pageid": 5293,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Prometheus_%28mythologie%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Prometheus_Adam_Louvre_MR1745_edit_atoma.jpg/250px-Prometheus_Adam_Louvre_MR1745_edit_atoma.jpg"
+      "name": "John Adams",
+      "note": "Een van de founding fathers van de Verenigde Staten; stelde dat een samenleving alleen gedijt als die moreel en religieus is",
+      "start_seconds": 3333,
+      "mention_count": 2
     },
     {
-      "name": "Icarus",
-      "note": "mythologische figuur als beeld van hubris",
-      "start_seconds": 1712,
-      "wiki_checked": true,
-      "wiki_pageid": 57577,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Icarus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Luc%C3%ADlio_de_Albuquerque_-_Despertar_de_%C3%8Dcaro.jpg/250px-Luc%C3%ADlio_de_Albuquerque_-_Despertar_de_%C3%8Dcaro.jpg"
+      "name": "Richard Dawkins",
+      "note": "Reductief materialistisch denker die McGilchrist als simplistisch bekritiseert",
+      "start_seconds": 3776,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Dennett",
+      "note": "Filosoof van de geest die samen met Dawkins wordt genoemd als reductief materialist",
+      "start_seconds": 3776,
+      "mention_count": 1
+    },
+    {
+      "name": "Michiel Bouwman",
+      "note": "Theoloog die volgens David Boogerd heeft meegedacht over de voorbereiding van het gesprek",
+      "start_seconds": 3892,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De meester en zijn afgezant (The Master and His Emissary)",
-      "author": "Iain McGilchrist",
-      "note": "over de twee hersenhelften en de westerse cultuur",
-      "start_seconds": 300
-    },
-    {
-      "title": "The Matter With Things",
-      "author": "Iain McGilchrist",
-      "note": "meest recente boek met circa 6000 referenties",
-      "start_seconds": 1889,
-      "volume_id": "9O-pzgEACAAJ",
-      "canonical_title": "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World",
-      "canonical_author": "Iain McGilchrist",
-      "isbn13": "9781914568060",
-      "isbn10": "1914568060",
-      "thumbnail": "http://books.google.com/books/content?id=9O-pzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
       "title": "Against Criticism",
       "author": "Iain McGilchrist",
-      "note": "vroeg boek over literaire kritiek",
+      "note": "Eerste boek over zijn ongenoegen met de academische benadering van literatuur",
       "start_seconds": 765,
       "volume_id": "IlBjQgAACAAJ",
       "canonical_title": "Against Criticism",
@@ -131,139 +92,158 @@
       "thumbnail": ""
     },
     {
-      "title": "Awakenings",
-      "author": "Oliver Sacks",
-      "note": "inspireerde McGilchrists interesse in hersenen en geest",
-      "start_seconds": 976,
-      "volume_id": "iGvdKOjgq0UC",
-      "canonical_title": "Awakenings",
-      "canonical_author": "Oliver Sacks",
-      "isbn13": "9780330537179",
-      "isbn10": "0330537172",
-      "thumbnail": "http://books.google.com/books/content?id=iGvdKOjgq0UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "The Master and His Emissary",
+      "author": "Iain McGilchrist",
+      "note": "Nederlandse titel: De meester en zijn afgezant; kernwerk over de twee hersenhelften en de geschiedenis van het Westen",
+      "start_seconds": 491,
+      "volume_id": "cTiIDwAAQBAJ",
+      "canonical_title": "The Master and His Emissary: The Divided Brain and the Making of the Western World",
+      "canonical_author": "Iain McGilchrist",
+      "isbn13": "9780300245929",
+      "isbn10": "0300245920",
+      "thumbnail": "http://books.google.com/books/content?id=cTiIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "The Matter With Things",
+      "author": "Iain McGilchrist",
+      "note": "Recent boek met ongeveer 6.000 referenties; onderbouwt de hemisfeertheorie en de drie voorwaarden voor zingeving",
+      "start_seconds": 1874,
+      "volume_id": "9O-pzgEACAAJ",
+      "canonical_title": "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World",
+      "canonical_author": "Iain McGilchrist",
+      "isbn13": "9781914568060",
+      "isbn10": "1914568060",
+      "thumbnail": "http://books.google.com/books/content?id=9O-pzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Schotland",
     "Isle of Skye",
-    "Buitenste Hebriden",
     "Oxford",
+    "Outer Hebrides",
     "Nederland",
-    "Cambridge",
-    "Amerika"
+    "Verenigde Staten"
   ],
-  "summary_tldr": "Iain McGilchrist legt uit hoe de twee hersenhelften verschillende manieren van aandacht vertegenwoordigen en dat de westerse cultuur door de dominantie van de linkerhelft uit balans is geraakt. Dit verklaart volgens hem veel crises: zingevingsverlies, psychisch leed, vervreemding van de natuur en secularisatie. Ook vertelt hij over zijn complexe verhouding tot het christendom, dat hij het grootste mythos vindt.",
+  "summary_tldr": "Iain McGilchrist legt uit dat de westerse cultuur uit balans is doordat de analytische, instrumentele linker hersenhelft de rechter, die betekenis, verbanden en de werkelijkheid als geheel ziet, steeds meer overheerst. Dit verklaart volgens hem de toename van mentale problemen, het verlies van zingeving, de vervreemding van de natuur en secularisatie. Hij pleit ervoor dat een samenleving een gedeeld verhaal nodig heeft en dat het christelijke verhaal daarin een centrale rol kan spelen, met voorzichtige hoop.",
   "summary_points": [
-    "McGilchrist begon in de literatuurwetenschap en stapte over naar geneeskunde en psychiatrie uit onvrede met abstracte kritiek.",
-    "Elk wezen met een brein heeft twee hersenhelften voor twee soorten aandacht: gefocust grijpen en breed overzien.",
-    "De rechterhelft begrijpt het impliciete, unieke en gelichaamde; de linkerhelft ziet alles expliciet, los van context en letterlijk.",
-    "Veelvoorkomende ideeën over rationele links en creatieve rechts noemt hij onjuist; de rechterhelft is juist dichter bij de werkelijkheid.",
-    "In de moderne tijd is de linkerhelft gaan domineren, met hubris, bureaucratie en AI als gevolg.",
-    "Ondanks welvaart zijn mensen niet gelukkiger; psychische problemen onder jongeren zijn sterk toegenomen.",
-    "Drie bronnen van zin: gemeenschap, nabijheid van de natuur en een gevoel van thuishoren in een heilige kosmos.",
-    "Hij ontkent dat het brein alles veroorzaakt; hij is geen materialist en ziet de hersenhelften als keuzes in hoe we aandacht geven.",
-    "Hij noemt zich steeds openlijker christen, maar gaat niet naar de kerk en waardeert ook boeddhisme en taoïsme."
+    "De twee hersenhelften vervullen volgens McGilchrist elk een andere manier van aandacht: de linker is gericht op details en controle, de rechter op geheel, context en betekenis.",
+    "Het brein is volgens hem uit balans geraakt; de linker hersenhelft domineert de westerse cultuur sinds de Verlichting en de Reformatie.",
+    "Hij stelt dat de rechter hersenhelft de werkelijkheid beter kan vatten; schade aan rechts leidt tot grotere desoriëntatie dan schade aan links.",
+    "Volgens McGilchrist maken de moderne crises (psychisch leed, natuurvervreemding, secularisatie, postkoloniale spanningen) deel uit van dezelfde dodende, verkillende blik.",
+    "Hij wijst op toenemende psychische klachten onder jongeren als bewijs dat welvaart niet gelijkstaat aan geluk.",
+    "Zingeving vereist volgens hem gemeenschap, verbondenheid met de natuur en een gevoel van een heilig kosmos.",
+    "David Boogerd en Stefan Paas bevragen of de hersenenstheorie niet slechts een metafoor is; McGilchrist benadrukt dat ze empirisch onderbouwd is.",
+    "McGilchrist noemt zichzelf een christen die niet wil bekeren, maar meent dat de westerse beschaving zonder terugkeer naar christelijke kernwaarden niet overleeft.",
+    "Stefan Paas wijst op de risico's van religie in verbinding met macht en politiek; McGilchrist erkent de donkere kanten maar houdt vast aan de waarde van de traditie.",
+    "McGilchrist sluit af met 'hopeful pessimism': de crisis erkennen is de eerste stap naar verbetering."
   ],
   "chapters": [
     {
-      "start_seconds": 65,
-      "title": "Introductie van McGilchrist en zijn theorie",
-      "summary": "David en Stefan introduceren McGilchrist en leggen de twee hersenhelften en de titel van The Master and His Emissary uit."
+      "start_seconds": 0,
+      "title": "Introductie van de gast",
+      "summary": "Stefan Paas en David Boogerd stellen Iain McGilchrist voor als brede denker en leggen de centrale stelling uit: het moderne brein is uit balans."
     },
     {
-      "start_seconds": 613,
-      "title": "Leven op Skye en de weg van literatuur naar psychiatrie",
-      "summary": "McGilchrist vertelt over de invloed van de natuur en waarom hij overstapte van literatuurkritiek naar geneeskunde."
+      "start_seconds": 607,
+      "title": "Kennismaking en het landschap van Schotland",
+      "summary": "McGilchrist vertelt over zijn leefomgeving op het Isle of Skye en de rol van natuur en stilte in zijn denken."
     },
     {
-      "start_seconds": 1093,
-      "title": "Waarom twee hersenhelften",
-      "summary": "Uitleg over de gespleten hersenen, de twee soorten aandacht en wat hersenschade ons leert."
+      "start_seconds": 1085,
+      "title": "Waarom twee hersenhelften?",
+      "summary": "McGilchrist legt uit dat de tweedeling van het brein ontstond om het overleven te waarborgen: focus op prooi tegenover een brede blik op de omgeving."
     },
     {
-      "start_seconds": 1608,
-      "title": "Wat verliezen we? Hubris en de Verlichting",
-      "summary": "Over de dominantie van de linkerhelft, hubris, bureaucratie en AI, en Paas' vraag of de theorie meer is dan een metafoor."
+      "start_seconds": 1596,
+      "title": "Wat verliezen we in de moderne cultuur?",
+      "summary": "De Verlichting bracht veel, maar ook hybris en het verlies van intuïtie, schoonheid en waarheid als waarden."
     },
     {
-      "start_seconds": 2196,
-      "title": "Geluk, zingevingscrisis en drie bronnen van betekenis",
-      "summary": "McGilchrist wijst op toenemend psychisch leed en noemt gemeenschap, natuur en een heilige kosmos als wat ons gezond en gelukkig maakt."
+      "start_seconds": 2166,
+      "title": "Welvaart versus geluk",
+      "summary": "Tegenover het argument van welvaart stelt McGilchrist dat mentale gezondheid achteruitgaat; Stefan Paas speelt de advocaat van de duivel."
     },
     {
-      "start_seconds": 2928,
-      "title": "Zijn weg naar het christendom",
-      "summary": "McGilchrist vertelt over zijn complexe verhouding tot het christendom, zijn roeping en zijn terughoudendheid met religieuze labels."
+      "start_seconds": 2520,
+      "title": "Zingeving, natuur en het heilige",
+      "summary": "Drie voorwaarden voor zingeving: gemeenschap, verbondenheid met natuur en een gevoel van een heilig kosmos. Verbanden tussen crises worden benadrukt."
+    },
+    {
+      "start_seconds": 2938,
+      "title": "Persoonlijke weg naar het christendom",
+      "summary": "McGilchrist beschrijft zijn complexe relatie tot het christendom en waarom hij zich steeds openlijker christen noemt."
+    },
+    {
+      "start_seconds": 3599,
+      "title": "Bronnen van hoop",
+      "summary": "McGilchrist ziet redenen tot hoop in een terugkeer naar zingeving bij jongeren, en benadrukt dat hoop niet naïef mag zijn."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1488,
+      "start_seconds": 3499,
       "speaker": "Iain McGilchrist",
-      "text": "De rechterhelft is veel intelligenter dan de linker, ook qua IQ, en de meeste waanstoornissen komen door schade aan de rechterhelft.",
-      "note": "Gaat in tegen het gangbare beeld van links als rationeel en rechts als fantasierijk."
+      "text": "Ik denk niet dat deze beschaving zal overleven zonder een terugkeer naar het belichamen van christelijke principes en overtuigingen.",
+      "note": "Een scherpe en provocerende stelling die laat zien hoe ver McGilchrist gaat in zijn pleidooi voor het christendom als kern van de cultuur."
     },
     {
-      "start_seconds": 1717,
+      "start_seconds": 2201,
       "speaker": "Iain McGilchrist",
-      "text": "De linkerhelft is letterlijk arrogant; ze lijdt aan hubris.",
-      "note": "Koppelt neurowetenschap aan de Griekse tragedie."
+      "text": "In mijn leven heb ik gezien hoe waarheid werd geschonden, goedheid werd vervangen door het afvinken van vakjes, en kunstenaars schoonheid afwezen.",
+      "note": "Een emotioneel en persoonlijk moment waarin de diagnose van de moderne cultuur concreet wordt gemaakt."
     },
     {
-      "start_seconds": 2263,
+      "start_seconds": 2270,
       "speaker": "Iain McGilchrist",
-      "text": "Ik heb waarheid zien verdraaien, goedheid vervangen zien worden door afvinklijstjes en kunstenaars schoonheid zien afwijzen.",
-      "note": "Scherpe cultuurkritiek als antwoord op de vraag wat we verliezen."
+      "text": "In Amerika is over meerdere decennia dezelfde vragenlijst afgenomen bij tieners; de huidige generatie vertoont 5 tot 8 keer zoveel diagnosticeerbare psychische stoornissen dan in de jaren dertig.",
+      "note": "Een opvallend empirisch argument dat de welvaartsnarratief onderuit haalt."
     },
     {
-      "start_seconds": 2505,
+      "start_seconds": 3854,
       "speaker": "Iain McGilchrist",
-      "text": "Wat is het nut van een lang leven zonder betekenis? Ik leef liever kort met veel zin.",
-      "note": "Krachtige stellingname over zingeving."
-    },
-    {
-      "start_seconds": 3010,
-      "speaker": "Iain McGilchrist",
-      "text": "Het christelijke verhaal is het grootste mythos ooit verteld: een God die de wereld zo liefhad dat hij erin meeleed en stierf.",
-      "note": "Persoonlijke geloofsbelijdenis van een terughoudende denker."
+      "text": "De eerste stap om dingen te verbeteren is zien hoe slecht ze werkelijk zijn.",
+      "note": "Een treffende afsluiting die het verschil tussen hoopvol pessimisme en naïef optimisme samenvat."
     }
   ],
   "keywords": [
-    "hersenhelften",
-    "Iain McGilchrist",
-    "De meester en zijn afgezant",
-    "linkerhelft",
-    "rechterhelft",
-    "hubris",
-    "zingevingscrisis",
-    "Verlichting",
+    "twee hersenhelften",
+    "linker en rechter hersenhelft",
+    "zingeving",
+    "secularisatie",
     "christendom",
+    "Iain McGilchrist",
+    "Verlichting",
+    "mentale gezondheid",
     "natuur",
-    "aandacht",
-    "bureaucratie"
+    "het heilige"
   ],
-  "quotes": [],
+  "quotes": [
+    "Ons brein is uit balans geraakt.",
+    "Lange tijd was hij terughoudend om zichzelf religieus te noemen, maar de laatste jaren noemt hij zichzelf steeds openlijker christen."
+  ],
   "similar": [
     {
       "n": 282,
-      "reason": "Hersenwetenschap, vrije wil en religie: wie zijn wij als brein, met God-vraag"
+      "reason": "Hersenwetenschap, vrije wil en religie als hersenspinsel, sterk verwant aan McGilchrists brein-thema"
+    },
+    {
+      "n": 314,
+      "reason": "Zingeving-crisis en leegte van het moderne leven, kernthema's van de huidige aflevering"
     },
     {
       "n": 164,
-      "reason": "Bewustzijn en hersenen als wetenschappelijk mysterie, gekoppeld aan geloof"
+      "reason": "Bewustzijn als wetenschappelijk mysterie, raakt aan brein, geest en God"
     },
     {
-      "n": 292,
-      "reason": "Diepere denkbeelden en filosofie achter de westerse cultuurcrisis en technologie"
+      "n": 171,
+      "reason": "Zingeving, psyche en wetenschap: waarom betekenis gezonder en gelukkiger maakt"
     },
     {
-      "n": 265,
-      "reason": "Moderne levensstijl botst met ons wezen; psyche, natuur en vervreemding"
-    },
-    {
-      "n": 285,
-      "reason": "Crisis van het Westen en een kantelpunt, filosofisch geduid"
+      "n": 191,
+      "reason": "Mentale gevolgen van moderne technologie en verlies van zingeving bij jongeren"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

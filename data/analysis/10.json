@@ -1,18 +1,23 @@
 {
   "episode": 10,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 105193,
+    "segments": 586,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 28777,
-    "output_tokens": 2560,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50075,
+    "output_tokens": 3153,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Islam & jodendom",
     "Geopolitiek & oorlog",
-    "God & geloof",
-    "Filosofie & ethiek"
+    "Zingeving & psyche",
+    "Samenleving & migratie",
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Jason Walters"
@@ -20,245 +25,274 @@
   "people": [
     {
       "name": "Jason Walters",
-      "note": "gast; ex-jihadist, lid van de Hofstadgroep, nu analist en filosoof",
-      "start_seconds": 50,
-      "wiki_checked": true,
-      "wiki_pageid": 509934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jason_Walters"
+      "note": "Gast; ex-Hofstadgroep-lid, later analist bij Blue Water Intelligence",
+      "start_seconds": 2,
+      "mention_count": 1
     },
     {
-      "name": "Mohammed",
-      "note": "profeet van de islam, bestuurder van Medina",
-      "start_seconds": 417,
-      "wiki_checked": true,
-      "wiki_pageid": 1077,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammed",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/250px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg"
+      "name": "Samir A.",
+      "note": "Lid van de Hofstadgroep, medegevangene van Walters in Vught",
+      "start_seconds": 299,
+      "mention_count": 4
     },
     {
-      "name": "Jezus",
-      "note": "in het gesprek genoemd als contrast met de islamitische bronteksten ('geef aan Caesar')",
-      "start_seconds": 1072,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Samir Azzouz",
-      "note": "medelid van de Hofstadgroep, intellectuele gesprekspartner in Vught",
-      "start_seconds": 1259,
-      "wiki_checked": true,
-      "wiki_pageid": 101774,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Samir_Azzouz"
-    },
-    {
-      "name": "Mohammed Bouyeri",
-      "note": "moordenaar van Theo van Gogh, lid van de Hofstadgroep",
-      "start_seconds": 1259,
-      "wiki_checked": true,
-      "wiki_pageid": 100157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammed_Bouyeri"
+      "name": "Mohammed B.",
+      "note": "Moordenaar van Theo van Gogh, zat in de Hofstadgroep",
+      "start_seconds": 299,
+      "mention_count": 1
     },
     {
       "name": "Theo van Gogh",
-      "note": "filmmaker, vermoord door Mohammed B.",
-      "start_seconds": 1259,
-      "wiki_checked": true,
-      "wiki_pageid": 83789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theo_van_Gogh_%28regisseur%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/TheoVanGogh.jpg/250px-TheoVanGogh.jpg"
+      "note": "Filmmaker, vermoord door Mohammed B.",
+      "start_seconds": 1260,
+      "mention_count": 1
+    },
+    {
+      "name": "Mohammed",
+      "note": "Profeet van de islam, stichter van Medina-stadstaat",
+      "start_seconds": 1000,
+      "mention_count": 3
     },
     {
       "name": "Plato",
-      "note": "filosoof wiens werk Walters aanzette tot zelfstandig denken in de gevangenis",
-      "start_seconds": 2228,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Filosoof die Walters' denken in gevangenschap prikkelde",
+      "start_seconds": 2270,
+      "mention_count": 2
     },
     {
-      "name": "Dennis Honing",
-      "note": "voormalig radicaal, nu liberaal moslim",
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse theoloog die filosofie 'dienstmaag van de theologie' noemde",
+      "start_seconds": 4260,
+      "mention_count": 2
+    },
+    {
+      "name": "Spinoza",
+      "note": "Verlichtingsfilosoof; volgens Walters bedenker van de mythe dat alle religies gelijk zijn",
+      "start_seconds": 2760,
+      "mention_count": 1
+    },
+    {
+      "name": "Dennis Honink",
+      "note": "Voormalig radicaal die nu liberaal moslim is",
       "start_seconds": 2420,
-      "wiki_checked": true,
-      "wiki_pageid": 4564214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dennis_Abdelkarim_Honing"
+      "mention_count": 1
     },
     {
-      "name": "Hafez al-Assad",
-      "note": "vader van de huidige Syrische president, liet Hama bombarderen",
-      "start_seconds": 1297,
-      "wiki_checked": true,
-      "wiki_pageid": 58303,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hafiz_al-Assad",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Hafez_al-Assad_official_portrait.jpg/250px-Hafez_al-Assad_official_portrait.jpg"
+      "name": "Gerard Visser",
+      "note": "Christelijke filosofiedocent aan de universiteit die Walters hielp met verzoening met religie",
+      "start_seconds": 3540,
+      "mention_count": 1
     },
     {
-      "name": "Josef Stalin",
-      "note": "genoemd in verband met de Grote Zuivering en gebrekkig zicht op gebeurtenissen buiten het Westen",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 6986,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozef_Stalin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/250px-CroppedStalin1943.jpg"
+      "name": "Rob Jetten",
+      "note": "D66-politicus, als voorbeeld gebruikt",
+      "start_seconds": 3060,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider, als voorbeeld gebruikt",
+      "start_seconds": 3060,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "Eerder gast; David Boogerd noemt dat hij het niet eens is met Walters over God",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Assad",
+      "note": "Syrische president; aanval op burgers in Syrië als motief",
+      "start_seconds": 1860,
+      "mention_count": 1
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider; zuivering in de jaren 30",
+      "start_seconds": 1320,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [
+  "books": [
     {
-      "ref": "Mattheüs 22:21",
-      "note": "'Geef aan Caesar wat van Caesar is', als contrast met de islamitische politieke traditie",
-      "start_seconds": 1073
+      "title": "Het Nieuwe Testament",
+      "author": "",
+      "note": "Gebruikt in grafrede voor zijn vader; passieverhaal van Jezus",
+      "start_seconds": 3840,
+      "volume_id": "gmTECwAAQBAJ",
+      "canonical_title": "Het Nieuwe Testament",
+      "canonical_author": "Apostel Arne",
+      "isbn13": "9781326140939",
+      "isbn10": "1326140930",
+      "thumbnail": "http://books.google.com/books/content?id=gmTECwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "ref": "Mattheüs 28:19",
-      "note": "zendingsbevel: maak alle volken tot mijn discipelen",
-      "start_seconds": 1122
+      "title": "De Koran",
+      "author": "",
+      "note": "Besproken als bron van de islam en als polemiek met de lezer",
+      "start_seconds": 1560,
+      "volume_id": "YK3zZwEACAAJ",
+      "canonical_title": "De Koran",
+      "canonical_author": "Johannes Hendrik Kramers, Asʻad Ǧābir, Johannes J.G. Jansen",
+      "isbn13": "9789051571318",
+      "isbn10": "9051571313",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Matteüs 28:19",
+      "note": "Zendingsbevel van Jezus: maak alle volken tot discipelen",
+      "start_seconds": 1120
+    },
+    {
+      "ref": "Marcus 12:17",
+      "note": "Geef aan Caesar wat van Caesar is en aan God wat van God is",
+      "start_seconds": 1080
+    },
+    {
+      "ref": "Handelingen",
+      "note": "Beschrijving van de vroege kerk",
+      "start_seconds": 1200
     }
   ],
   "places": [
     "Amersfoort",
     "Veenendaal",
     "Ede",
-    "Vught",
     "Medina",
-    "Hama",
+    "Vught",
+    "Leiden",
     "Syrië",
-    "Nice"
+    "Hama",
+    "Nice",
+    "Marokko"
   ],
-  "summary_tldr": "Jason Walters vertelt hoe hij als twaalfjarige moslim werd, radicaliseerde en lid werd van de Hofstadgroep. Hij legt uit hoe religieuze overtuiging, en niet alleen sociaal-economische factoren, jihadisme en martelaarschap kan verklaren. In de gevangenis leidden Plato en wetenschap tot zijn deradicalisering en twijfel aan zijn geloof.",
+  "summary_tldr": "Jason Walters, ex-lid van de Hofstadgroep en veroordeeld terrorist, vertelt hoe hij van een christelijke jeugd via de islam radicaliseerde tot een gewelddadige jihadist. In de gevangenis raakte hij gederadicaliseerd door filosofie, en nu werkt hij als analist en deelt hij zijn inzichten over religie, radicalisering en secularisatie.",
   "summary_points": [
-    "Walters groeide op met een christelijke basisschool en zocht al jong duidelijkheid over wat God van hem wilde.",
-    "De islam sprak hem aan door duidelijke kaders en een levendige gemeenschap, in contrast met lege kerken.",
-    "11 september 2001 was de aanleiding om zich te verdiepen in de islamitische bronteksten.",
-    "Hij vond dat extremisten een consistentere lezing van de bronteksten hadden dan gematigden.",
-    "Martelaarschap gold voor hem als hoogste vorm van aanbidding; bij zijn arrestatie in 2004 verwachtte hij als martelaar te sterven.",
-    "Terrorisme moet volgens hem eerst vanuit religieuze bezieling worden begrepen in plaats van louter sociaal-economisch.",
-    "Secularisering en maakbaarheidsdenken zorgen ervoor dat religie in analyses van radicalisering vaak onderbelicht blijft.",
-    "In Vught zette een intellectuele wapenwedloop met medegedetineerden hem aan tot lezen van Plato, filosofie en wetenschap.",
-    "Deradicalisering betekende voor hem ook een vorm van de-islamisering, al kan een moslim wel deradicaliseren."
+    "Walters groeide cultureel christelijk op en zocht als kind existentieel houvast, vooral in het Oude Testament.",
+    "Via vrienden in een migrantenwijk en de duidelijkheid van de islam bekeerde hij zich op twaalfjarige leeftijd.",
+    "De aanslagen van 9/11 vormden een breukmoment waardoor hij zich verdiepte in de bronteksten en het extremisme.",
+    "Hij beschrijft de Hofstadgroep als intellectueel, maar religie als het fundament dat alles bepaalde.",
+    "Hij legt uit waarom martelaarschap voor hem logisch was binnen zijn islamitische theologie.",
+    "In de gevangenis van Vught raakte hij gederadicaliseerd door Plato en filosofische debatten.",
+    "Walters is sceptisch over deradicaliseringsprogramma's; volgens hem moet de verandering uit de persoon zelf komen.",
+    "Hij bespreekt de verschillen tussen christendom en islam als religies met een eigen karakter en geschiedenis.",
+    "Hij stelt dat secularisatie de kracht van religie heeft onderschat en dat westerse waarden christelijk zijn gevormd.",
+    "Hij reflecteert op het verlies van religieuze zingeving en de behoefte aan spiritualiteit, mede na het overlijden van zijn vader."
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Introductie en arrestatie",
-      "summary": "Opening met de arrestatie in 2004 en de voorstelling van Jason Walters en zijn veiligheidsbeleid."
+      "start_seconds": 0,
+      "title": "Inleiding en jeugd",
+      "summary": "Walters beschrijft zijn christelijke jeugd, de nachtmerrie over de hel en de zoektocht naar duidelijkheid."
     },
     {
-      "start_seconds": 167,
-      "title": "Jeugd en godsbeeld",
-      "summary": "Walters vertelt over zijn christelijke basisschool, zijn voorkeur voor de strenge Oudtestamentische God en zijn nachtmerrie over de hel."
-    },
-    {
-      "start_seconds": 489,
+      "start_seconds": 270,
       "title": "Bekering tot de islam",
-      "summary": "Via vrienden in Veenendaal vond hij in de islam duidelijkheid, identiteit en een levendige moskeegemeenschap."
+      "summary": "Via migrantenvrienden en de moskee raakt Walters overtuigd van de islam en de duidelijke kaders ervan."
     },
     {
-      "start_seconds": 671,
-      "title": "11 september en radicalisering",
-      "summary": "De aanslagen zetten hem aan tot verdieping in de bronteksten en de conclusie dat extremisten consistenter lezen."
+      "start_seconds": 840,
+      "title": "9/11 en radicalisering",
+      "summary": "De aanslagen en het internet voeden zijn zoektocht; hij verdiept zich in bronteksten en oorlogstheologie."
     },
     {
-      "start_seconds": 1259,
-      "title": "Hofstadgroep en internet",
-      "summary": "Over de rol van het internet, de hoogopgeleide leden van de groep en religie als fundament van alles."
+      "start_seconds": 1500,
+      "title": "Hofstadgroep en martelaarschap",
+      "summary": "Walters vertelt over zijn plaats in de Hofstadgroep, de theologische logica van zelfopoffering en de arrestatie in 2004."
     },
     {
-      "start_seconds": 1525,
-      "title": "Martelaarschap en religieuze logica",
-      "summary": "Walters legt de theologische redenering achter martelaarschap uit en waarom terroristen echt geloven in het paradijs."
-    },
-    {
-      "start_seconds": 2025,
-      "title": "Religie in analyses van terrorisme",
-      "summary": "Waarom religie vaak wordt onderschat en sociaal-economische verklaringen de voorkeur krijgen."
-    },
-    {
-      "start_seconds": 2211,
+      "start_seconds": 2220,
       "title": "Deradicalisering in Vught",
-      "summary": "In de gevangenis leidden Plato, filosofie en debatten over wetenschap tot zijn deradicalisering en twijfel aan zijn geloof."
+      "summary": "In de gevangenis verruimt filosofie, vooral Plato, zijn denken en begint het proces van loslaten."
+    },
+    {
+      "start_seconds": 2900,
+      "title": "Religie, secularisatie en waarheid",
+      "summary": "Discussie over het verschil tussen islam en christendom, de rol van de Verlichting en de dieptestructuren van religie."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Zingeving, verlies en verzoening",
+      "summary": "Walters reflecteert op de leegte na geloof, de begrafenis van zijn vader en wat religie nog kan bieden."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Maatschappij en christelijke erfenis",
+      "summary": "Afsluitend over verantwoordelijkheid, toekomstplannen en het christelijke fundament van de westerse samenleving."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 34,
+      "start_seconds": 1700,
       "speaker": "Jason Walters",
-      "text": "We zaten de politie uit te dagen om op ons te schieten: schiet dan, want dan zitten we toch gelijk in het paradijs.",
-      "note": "Toont hoe oprecht het geloof in het martelaarschap was."
+      "text": "Als je bekeert, voelt het niet als een radicale breuk, maar als een verbeterde versie van wat je al kende.",
+      "note": "Verklaart waarom de overstap van christendom naar islam voor hem zo logisch voelde."
     },
     {
-      "start_seconds": 369,
+      "start_seconds": 2000,
       "speaker": "Jason Walters",
-      "text": "De Koran zou je kunnen zien als een soort slechte samenvatting van het Oude Testament.",
-      "note": "Prikkelende stelling over de verwantschap tussen islam en Oude Testament."
+      "text": "Je moet mensen eerst zien door hun eigen ogen als je ze wilt begrijpen.",
+      "note": "Een scherpe kijk op hoe radicalisering van binnenuit werkt, tegen rationaliserende verklaringen in."
     },
     {
-      "start_seconds": 1525,
+      "start_seconds": 3000,
       "speaker": "Jason Walters",
-      "text": "De hoogste vorm van aanbidding is zelfopoffering op het pad van God.",
-      "note": "Verklaart de logica achter martelaarschap vanuit de theologie."
+      "text": "Deradicalisering is een wilsdaad; je moet het zelf willen, het is geen wasstraat.",
+      "note": "Een kritische noot bij overheidsprogramma's, vanuit eigen ervaring."
     },
     {
-      "start_seconds": 1769,
+      "start_seconds": 3900,
       "speaker": "Jason Walters",
-      "text": "Wij denken dat ideologie een t-shirt is dat je aan en uit kunt trekken, maar het raakt aan je bestaanskern.",
-      "note": "Scherp inzicht over waarom religieuze motieven serieus genomen moeten worden."
+      "text": "Ik was bijzonder antireligieus, ik moest het eerst even helemaal kapot maken.",
+      "note": "Eerlijk beeld van de emotionele fase na het loslaten van geloof."
     },
     {
-      "start_seconds": 2228,
+      "start_seconds": 4050,
       "speaker": "Jason Walters",
-      "text": "Plato wekte de behoefte om zelf na te denken en de angst voor ketterij van me af te werpen.",
-      "note": "Kantelpunt in zijn deradicalisering."
+      "text": "Mijn vader is overleden; de enige taal die recht deed aan het leven in de dood was die van het Nieuwe Testament.",
+      "note": "Een ontroerend moment waarin hij erkent dat filosofie soms tekortschiet en religie troost biedt."
     }
   ],
   "keywords": [
-    "Hofstadgroep",
     "radicalisering",
-    "jihad",
-    "martelaarschap",
-    "islam",
-    "Oude Testament",
-    "11 september",
-    "Plato",
+    "Hofstadgroep",
     "deradicalisering",
-    "secularisering",
-    "terrorisme",
-    "religieuze waarheidsaanspraak"
+    "islam",
+    "martelaarschap",
+    "secularisatie",
+    "filosofie",
+    "Plato",
+    "jihad",
+    "christendom",
+    "zingeving",
+    "Verlichting"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 60,
-      "reason": "Wat terroristen echt geloven: religieuze motieven achter radicalisering en jihadisme"
+      "n": 4,
+      "reason": "Religieus fundamentalisme en islamitische radicalisering, sterk aansluitend bij de radicaliseringsthematiek."
     },
     {
       "n": 40,
-      "reason": "Imam over islam, radicalisering en de Mohammed-cartoons"
-    },
-    {
-      "n": 4,
-      "reason": "Religieus fundamentalisme en de crisis in de islamitische wereld"
-    },
-    {
-      "n": 194,
-      "reason": "Religieverlater die twijfelt aan de islam en geloof en ongeloof bespreekt"
+      "reason": "Gesprek over islam en radicalisering met een imam, gedeelde islamthematiek."
     },
     {
       "n": 110,
-      "reason": "Islamdebat en de impact van 9/11 vanuit persoonlijk perspectief"
+      "reason": "Islamdebat en 9/11 als kantelpunt, overlap met terrorisme en samenleving en migratie."
+    },
+    {
+      "n": 77,
+      "reason": "Bereidheid tot sterven voor geloof, verwant aan jihadistische motivatie en martelaarschap."
+    },
+    {
+      "n": 137,
+      "reason": "Geloofstwijfels binnen de islam en filosofie als denkkader, vergelijkbare deradicaliserende route."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

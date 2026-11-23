@@ -1,18 +1,23 @@
 {
   "episode": 88,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120555,
+    "segments": 1169,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31290,
-    "output_tokens": 2263,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62016,
+    "output_tokens": 8886,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
     "Kerk & secularisatie",
-    "Filosofie & ethiek",
-    "Economie & geld"
+    "Economie & geld",
+    "Politiek"
   ],
   "guests": [
     "Joris Luyendijk"
@@ -20,107 +25,185 @@
   "people": [
     {
       "name": "Joris Luyendijk",
-      "note": "journalist, schrijver en religieus antropoloog; auteur van De Zeven Vinkjes",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 443247,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joris_Luyendijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Joris_Luyendijk_2019.jpg/250px-Joris_Luyendijk_2019.jpg"
-    },
-    {
-      "name": "Paul Scheffer",
-      "note": "publicist, schreef 'Het multiculturele drama'",
-      "start_seconds": 685,
-      "wiki_checked": true,
-      "wiki_pageid": 134416,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Scheffer_%28publicist%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Paul_Scheffer%2C_Amsterdam%2C_September_26%2C_2015.jpg/250px-Paul_Scheffer%2C_Amsterdam%2C_September_26%2C_2015.jpg"
-    },
-    {
-      "name": "Arjen Lubach",
-      "note": "televisiemaker; 'het Arjen Lubach-effect'",
-      "start_seconds": 703,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
-    },
-    {
-      "name": "Sahil Amar Issa",
-      "note": "citeert het 'Arjen Lubach-effect'",
-      "start_seconds": 703,
-      "wiki_checked": true
+      "note": "Gast; auteur van De Zeven Vinkjes",
+      "start_seconds": 29,
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "premier, genoemd bij gezondheid en opvoeding",
-      "start_seconds": 817,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Premier; kerkelijk christen, besproken om geloof en macht",
+      "start_seconds": 1749,
+      "mention_count": 6
     },
     {
       "name": "Wopke Hoekstra",
-      "note": "politicus, voorbeeld van privilege bij tegenslag",
+      "note": "Minister; voorbeeld van privilege bij ziekte van zijn kind",
       "start_seconds": 1590,
-      "wiki_checked": true,
-      "wiki_pageid": 2197447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wopke_Hoekstra",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/EU2024BE_240617_ENVI_Council_European_Convention_Center_JNZT_0101_%2853798343369%29.jpg/250px-EU2024BE_240617_ENVI_Council_European_Convention_Center_JNZT_0101_%2853798343369%29.jpg"
+      "mention_count": 4
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "Comedian/presentator; 'Arjen Lubach-effect' bij het bespreekbaar maken van onderwerpen",
+      "start_seconds": 703,
+      "mention_count": 4
+    },
+    {
+      "name": "Paul Scheffer",
+      "note": "Auteur van het essay Het multiculturele drama",
+      "start_seconds": 685,
+      "mention_count": 1
+    },
+    {
+      "name": "Sahel Amar Issa",
+      "note": "Bedenker van de term 'Arjen Lubach-effect'",
+      "start_seconds": 703,
+      "mention_count": 1
     },
     {
       "name": "Sigrid Kaag",
-      "note": "politica, witte vrouw met bevoorrechte positie",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "note": "Politica; voorbeeld van witte vrouw die via havo opklom",
+      "start_seconds": 1725,
+      "mention_count": 2
     },
     {
       "name": "Femke Halsema",
-      "note": "politica, genoemd als voorbeeld",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
+      "note": "Politica; voorbeeld van hoogopgeleide vrouw via havo",
+      "start_seconds": 1725,
+      "mention_count": 1
+    },
+    {
+      "name": "Carola Schouten",
+      "note": "Politica; genoemd als kerkelijk christen in de top",
+      "start_seconds": 2336,
+      "mention_count": 1
+    },
+    {
+      "name": "Rob Koestra",
+      "note": "Politicus; genoemd als kerkelijk christen in de top",
+      "start_seconds": 2336,
+      "mention_count": 1
     },
     {
       "name": "Eva Jinek",
-      "note": "presentatrice, voorbeeld van sterke voorbereiding",
+      "note": "Televisiepresentatrice; voorbeeld van goed voorbereide presentator",
       "start_seconds": 1977,
-      "wiki_checked": true,
-      "wiki_pageid": 1451851,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Eva_Jinek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Eva_Jinek_%282018%29.jpg/250px-Eva_Jinek_%282018%29.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Sonja Barend",
+      "note": "Televisiepresentatrice; besproken over overspanning",
+      "start_seconds": 1977,
+      "mention_count": 1
+    },
+    {
+      "name": "Humberto Tan",
+      "note": "Televisiepresentator; besproken over overspanning",
+      "start_seconds": 1977,
+      "mention_count": 1
     },
     {
       "name": "Jeroen Pauw",
-      "note": "presentator, genoemd naast Jort Kelder",
+      "note": "Televisiepresentator; voorbeeld van voorbereiding",
       "start_seconds": 1993,
-      "wiki_checked": true,
-      "wiki_pageid": 257091,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeroen_Pauw",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jeroen_Pauw_%282010%29.jpg/250px-Jeroen_Pauw_%282010%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Bo van Erven Dorsten",
+      "note": "Televisiepresentator; voorbeeld van voorbereiding",
+      "start_seconds": 1993,
+      "mention_count": 1
+    },
+    {
+      "name": "Jort Kelder",
+      "note": "Televisiepresentator; voorbeeld van voorbereiding",
+      "start_seconds": 1993,
+      "mention_count": 1
+    },
+    {
+      "name": "Lee Towers",
+      "note": "Televisiepersoonlijkheid; voorbeeld van 'minachtingsporno'",
+      "start_seconds": 1267,
+      "mention_count": 1
+    },
+    {
+      "name": "Stef Blok",
+      "note": "Politicus; voorbeeld van man die niet vrijwillig plaatsmaakt",
+      "start_seconds": 4047,
+      "mention_count": 1
+    },
+    {
+      "name": "Janine Vos",
+      "note": "Topvrouw van het jaar; concept van sleutelfiguren",
+      "start_seconds": 4099,
+      "mention_count": 1
+    },
+    {
+      "name": "Abigail Norville",
+      "note": "Hoogste ambtenaar van kleur bij het Rijk; vraagt naar tegenwind in cv",
+      "start_seconds": 4238,
+      "mention_count": 1
+    },
+    {
+      "name": "Leonard Cohen",
+      "note": "Dichter; bron van de quote 'there's a crack in everything'",
+      "start_seconds": 4191,
+      "mention_count": 1
+    },
+    {
+      "name": "Michel van der Plas",
+      "note": "Politicus; gesprekspartner van Boomans over het Roomse leven",
+      "start_seconds": 3379,
+      "mention_count": 1
+    },
+    {
+      "name": "Godfried Boomans",
+      "note": "Theoloog/publicist; stelt dat religieuze beleving door hoogopgeleiden is gemonopoliseerd",
+      "start_seconds": 3379,
+      "mention_count": 2
+    },
+    {
+      "name": "Maxime Verhagen",
+      "note": "Politicus met christelijke achtergrond",
+      "start_seconds": 2708,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Politicus; voorbeeld van reactie op vrouwelijke rechters",
+      "start_seconds": 2924,
+      "mention_count": 1
+    },
+    {
+      "name": "Wim Kok",
+      "note": "Voormalig premier; timmermanszoon",
+      "start_seconds": 3083,
+      "mention_count": 1
+    },
+    {
+      "name": "Marcel van Dam",
+      "note": "Politicus; politiemanszoon als adjudant",
+      "start_seconds": 3083,
+      "mention_count": 1
+    },
+    {
+      "name": "Joep de Hart",
+      "note": "Onderzoeker; schrijft over civic skills in SCP-rapporten",
+      "start_seconds": 2401,
+      "mention_count": 1
+    },
+    {
+      "name": "El Farkani",
+      "note": "Voormalig imam van de Blaaukerk",
+      "start_seconds": 2555,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "De Zeven Vinkjes",
+      "title": "De Zeven Vinkjes, hoe mannen zoals ik de baas spelen",
       "author": "Joris Luyendijk",
-      "note": "over bevoorrechte mannen die de baas spelen",
-      "start_seconds": 269,
+      "note": "Nieuw boek over bevoorrechte mannen en de zeven vinkjes; centraal onderwerp",
+      "start_seconds": 29,
       "volume_id": "kKDXzwEACAAJ",
       "canonical_title": "De zeven vinkjes: hoe mannen zoals ik de baas spelen",
       "canonical_author": "Joris Luyendijk",
@@ -131,135 +214,142 @@
     {
       "title": "Het multiculturele drama",
       "author": "Paul Scheffer",
-      "note": "invloedrijk essay van 20 jaar geleden",
-      "start_seconds": 685,
-      "volume_id": "jGnVzgEACAAJ",
-      "canonical_title": "Het multiculturele drama",
-      "canonical_author": "Paul Scheffer",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": ""
+      "note": "Invloedrijk essay dat het debat over integratie veilig maakte",
+      "start_seconds": 685
     }
   ],
   "bible_refs": [],
   "places": [
     "Amsterdam",
-    "Nederland",
-    "België",
     "Egypte",
     "Israël",
-    "Engeland",
-    "Hilversum"
+    "Libanon",
+    "Palestina",
+    "Londen",
+    "Zweden",
+    "België",
+    "Texel"
   ],
-  "summary_tldr": "Joris Luyendijk legt uit wat zijn 'zeven vinkjes' zijn: de kenmerken waarmee een kleine groep mannen nooit kwetsbaarheid ervaart en toch de topposities bezet. Met David Boogerd en Stefan Paas bespreekt hij privilege, onderwijs en onrecht, en hoe ook seculier zijn een onzichtbare norm en vinkje is.",
+  "summary_tldr": "Joris Luyendijk legt in gesprek met David Boogerd en Stefan Paas uit hoe bevoorrechte witte, hetero mannen met een goed nest en hoge opleiding de touwtjes in handen hebben, zonder zelf onrecht te ervaren. Hij betoogt dat diversiteit moet gaan over onrechtvaardigheid en dat seculiere samenlevingen minder weerbaar worden zonder een moreel en betekenisvol kader. Het gesprek gaat ook over de rol van religie als voorsprong of drempel in de Nederlandse elite.",
   "summary_points": [
-    "De zeven vinkjes: man, wit, hetero, Nederlandse cultuur, goed nest, hoogopgeleide ouders, VWO en universiteit.",
-    "Een kleine groep mannen zonder ervaring met onrecht bezet veel topposities.",
-    "De 'wet van behoud van onrecht': wie onrecht niet ervaart, pakt het zelden aan.",
-    "Het prestatieverhaal ('ik heb alles zelf verdiend') is een kille en foutieve interpretatie.",
-    "Hoogopgeleiden kijken openlijk neer op laagopgeleiden, onder meer via tv en minachting.",
-    "Klassenmigranten ervaren een groeiende kloof met hun ouders.",
-    "Ook bij tegenslag speelt privilege mee, zoals kennis van het zorgsysteem.",
-    "Seculier zijn is de norm; gelovigen die geloof publiek laten meespelen vallen daarbuiten.",
-    "Het zevenvinkjesmodel is een instrument, geen gesloten kanon."
+    "De zeven vinkjes beschrijven een bevoorrechte groep die altijd aan de gunstige kant van verschil staat en weinig ervaring heeft met onrecht.",
+    "Privilege zit ook in kleine dingen: een eigen kamer, oogcontact, tips over studentenverenigingen en een vangnet van ouders.",
+    "Hoogopgeleiden kijken vaak neer op laagopgeleiden, en laaggeletterdheid blijft onderbelicht in de top van de samenleving.",
+    "Het onderwijssysteem en CITO-adviezen reproduceren ongelijkheid; gelijke scores leiden tot ongelijke schooladviezen.",
+    "Religie is in Nederland een gedeeltelijke voorsprong voor elites, maar wie openlijk gelovig is, wordt vaak gewantrouwd.",
+    "Religieuze en morele kaders, zoals geloof in goed en kwaad, geven volgens Luyendijk weerbaarheid die een seculier Nederland mist.",
+    "Stefan Paas wijst erop dat ook niet-privilegiële achtergronden kwetsbaarheid en culturele ervaring kunnen opleveren.",
+    "De macht van elites reproduceert zichzelf, maar de sociale rechtvaardigheidsbeweging kan dit doorbreken door maximale diversiteit toe te laten.",
+    "Oplossingen zoit Luyendijk in sleutelfiguren die jongere talenten inwerken, en in politieke keuzes die discriminatiebestrijding serieus nemen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking en EO-herinneringen",
-      "summary": "Luyendijk komt terug in het EO-gebouw en vertelt over stickers halen als kind en het belang van eigen gebouwen."
+      "title": "Welkom in de EO-studio",
+      "summary": "David Boogerd introduceert Joris Luyendijk en zijn boek De Zeven Vinkjes, met persoonlijke jeugdherinneringen aan de EO-stickers."
     },
     {
-      "start_seconds": 220,
-      "title": "Het schrijfproces en de keuze van taal",
-      "summary": "Over drie jaar schrijven, de keuze het jargon als 'intersectioneel' te vermijden en het risico van erasure."
+      "start_seconds": 223,
+      "title": "Het schrijfproces en de zeven vinkjes",
+      "summary": "Luyendijk vertelt over zijn schrijfwerk, de keuze voor de term 'zeven vinkjes' en de afweging rond intersectionaliteit."
     },
     {
-      "start_seconds": 480,
+      "start_seconds": 485,
       "title": "Wat zijn de zeven vinkjes?",
-      "summary": "Luyendijk legt het concept uit en waarom bevoorrechte mannen weinig ervaring met onrecht hebben."
+      "summary": "De zeven kenmerken van bevoorrechte mannen worden uitgelegd en vergeleken met andere groepen die altijd aan de gunstige kant staan."
     },
     {
-      "start_seconds": 930,
-      "title": "Vinkjes tellen en voorbehouden",
-      "summary": "David en Stefan lopen de vinkjes langs; discussie over gezondheid, vergelijken en hard werken."
+      "start_seconds": 1053,
+      "title": "Eigen succes en onzichtbaar privilege",
+      "summary": "Gesprek over het idee dat succes volledig eigen werk is, en over subtiele voordelen zoals ouders, cultuurcodes en vangnetten."
     },
     {
-      "start_seconds": 1500,
-      "title": "Macht, onrecht en onderwijs",
-      "summary": "Over topposities, de CITO-toets, laaggeletterdheid en homogene kringen."
+      "start_seconds": 1769,
+      "title": "Onderwijs, ongelijkheid en laaggeletterdheid",
+      "summary": "Voorbeelden van CITO-ongelijkheid, laaggeletterdheid en de kloof tussen hoog- en laagopgeleiden komen aan bod."
     },
     {
-      "start_seconds": 2060,
-      "title": "Religie als achtste vinkje",
-      "summary": "Seculier zijn als norm en de nadelen voor gelovigen die hun geloof publiek leven."
+      "start_seconds": 2053,
+      "title": "Religie als vinkje en voorsprong",
+      "summary": "Het seculiere karakter van Nederland, de positie van gelovigen in elites en de vraag of religie een voordeel of nadeel is."
+    },
+    {
+      "start_seconds": 3581,
+      "title": "Morele kern en seculier Nederland",
+      "summary": "Luyendijk reflecteert op zijn Egyptische ervaringen en pleit ervoor dat een morele en gemeenschappelijke bezieling in Nederland nodig is."
+    },
+    {
+      "start_seconds": 4035,
+      "title": "Hoe maak je plaats?",
+      "summary": "Het gesprek eindigt met de vraag hoe bevoorrechte mannen plaats kunnen maken, via sleutelfiguren en de kwetsbaarheid als bron van karakter."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 685,
+      "start_seconds": 3719,
       "speaker": "Joris Luyendijk",
-      "text": "Maximale kans dat een man zoals ik de baas wordt, minimale kans dat hij daarna iets gaat doen aan het onrecht: de wet van behoud van onrecht.",
-      "note": "Kern van het betoog."
+      "text": "Ik kan over het algemeen mijn gelovige medemens zeer waarderen, omdat mijn gelovige medemens een morele kern heeft.",
+      "note": "Een niet-gelovige die de morele kern van gelovigen benadrukt, en dat als tegenwicht tegen de seculiere wet ziet."
     },
     {
-      "start_seconds": 1090,
+      "start_seconds": 747,
       "speaker": "Joris Luyendijk",
-      "text": "Er is een ideologie die zegt: iedereen zit er omdat hij zo hard heeft gewerkt. Had jij ook maar harder moeten werken.",
-      "note": "Scherpe kritiek op het prestatiedenken."
+      "text": "De wet van behoud van onrecht: mensen met minimale ervaring met onrecht zullen er daarna weinig aan doen.",
+      "note": "Een scherpe kernformule die het mechanisme van privilege in één zin samenvat."
     },
     {
-      "start_seconds": 1760,
+      "start_seconds": 1267,
       "speaker": "Joris Luyendijk",
-      "text": "Gerrit en Joris scoren hetzelfde op de CITO-toets, maar Joris gaat naar het gymnasium en Gerrit niet.",
-      "note": "Concreet voorbeeld van onrechtvaardigheid."
+      "text": "Minachtingsporno op televisie, waarbij hoogopgeleiden laaggeletterden voor de camera uitlachen.",
+      "note": "Een scherpe en confronterende typering van hoe hoogopgeleiden naar laagopgeleiden kijken."
     },
     {
-      "start_seconds": 1930,
-      "speaker": "David Boogerd",
-      "text": "Ik had VWO-advies, maar heb het zelf verpest.",
-      "note": "Persoonlijke eerlijkheid en nuance."
-    },
-    {
-      "start_seconds": 2090,
-      "speaker": "Joris Luyendijk",
-      "text": "Iemand die zegt dat zijn geloof ook een rol speelt in zijn openlijk handelen, plaatst zich buiten de norm.",
-      "note": "Verbindt privilege met religie."
+      "start_seconds": 2876,
+      "speaker": "Stefan Paas",
+      "text": "De macht reproduceert zichzelf.",
+      "note": "Een korte, treffende samenvatting van de zelfbestendigheid van elites, die het gesprek over meritocratie verdiept."
     }
   ],
   "keywords": [
-    "privilege",
     "zeven vinkjes",
-    "Joris Luyendijk",
-    "secularisme",
+    "privilege",
+    "seculier",
+    "elite",
     "onrecht",
-    "diversiteit",
-    "klassenmigrant",
+    "meritocratie",
     "laaggeletterdheid",
+    "klassenmigrant",
+    "kerk",
+    "weerbaarheid",
     "intersectionaliteit",
-    "discriminatie"
+    "sleutelfiguren"
   ],
-  "quotes": [],
+  "quotes": [
+    "Maar wat veel mensen niet weten is dat Joris Luyendijk eigenlijk religie ook als vinkje zag, of beter gezegd: het niet hebben van een religie.",
+    "hoe een kleine percentage bevoorrechte mannen, die nooit gediscrimineerd of achtergesteld worden, de dienst uitmaken in ons land."
+  ],
   "similar": [
     {
-      "n": 168,
-      "reason": "Opnieuw Joris Luyendijk, over Nederland, politiek en de elite; zelfde gast en Stefan Paas"
+      "n": 271,
+      "reason": "Zelfde gast Joris Luyendijk over populisme, politiek en de belangrijkste verkiezingen"
     },
     {
-      "n": 301,
-      "reason": "Seculiere elite losgezongen van het volk; raakt aan privilege en seculiere norm"
+      "n": 239,
+      "reason": "Joris Luyendijk over de VS, verraad en de politieke koers van Europa"
     },
     {
-      "n": 126,
-      "reason": "Kloof, moraal en grote verhalen met Sander Schimmelpenninck; ongelijkheid en elite"
+      "n": 174,
+      "reason": "Economische en culturele strijd achter maatschappelijke onvrede en onbehagen"
     },
     {
-      "n": 216,
-      "reason": "Armoede en onrecht, economie en geloof; thematisch verwant aan privilege en kwetsbaarheid"
+      "n": 268,
+      "reason": "Economie, Europa en de ziel van de samenleving, met Paul Schenderling"
     },
     {
-      "n": 294,
-      "reason": "Seculiere millennial en onzichtbare seculiere normen; kerk, secularisatie en economie"
+      "n": 299,
+      "reason": "Vergeving, onrecht en cancelcultuur in een genadeloze, seculiere samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

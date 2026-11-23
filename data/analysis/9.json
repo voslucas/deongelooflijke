@@ -1,188 +1,179 @@
 {
   "episode": 9,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 80653,
+    "segments": 553,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30309,
-    "output_tokens": 2769,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 40277,
+    "output_tokens": 7774,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "God & geloof",
-    "Samenleving & migratie",
-    "Politiek"
+    "Kerk & secularisatie",
+    "Politiek",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Rik Torfs"
   ],
   "people": [
     {
+      "name": "Augustinus",
+      "note": "Kerkvader; zijn uitspraken over God en taal worden aangehaald",
+      "start_seconds": 1601,
+      "mention_count": 2
+    },
+    {
+      "name": "Nietzsche",
+      "note": "Filosoof; over het christendom als 'zaag' waarmee de eigen tak wordt doorgezaagd",
+      "start_seconds": 3444,
+      "mention_count": 1
+    },
+    {
+      "name": "Kierkegaard",
+      "note": "Filosoof; denker van de herhaling",
+      "start_seconds": 3379,
+      "mention_count": 1
+    },
+    {
       "name": "Luc Ferry",
-      "note": "Franse filosoof; zijn idee dat de mens hunkert naar het bestaan van God",
+      "note": "Filosoof die stelt dat de mens God graag wil laten bestaan",
       "start_seconds": 539,
-      "wiki_checked": true,
-      "wiki_pageid": 3863285,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Luc_Ferry",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Paris_-_Salon_du_livre_de_Paris_2017_-_Luc_Ferry_-_005.jpg/250px-Paris_-_Salon_du_livre_de_Paris_2017_-_Luc_Ferry_-_005.jpg"
+      "mention_count": 1
     },
     {
       "name": "Herman Finkers",
-      "note": "cabaretier, eerder te gast in aflevering 5",
+      "note": "Cabaretier en gast in aflevering 5; overwoog uitschrijving uit de kerk",
       "start_seconds": 694,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Klaas Dijkhoff",
       "note": "VVD-politicus die zich liet uitschrijven bij de kerk",
       "start_seconds": 727,
-      "wiki_checked": true,
-      "wiki_pageid": 1954456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Klaas_Dijkhoff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Klaas_Dijkhoff_2015_%282%29.jpg/250px-Klaas_Dijkhoff_2015_%282%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Albert Verlinde",
       "note": "BN'er die zich liet uitschrijven bij de kerk",
       "start_seconds": 727,
-      "wiki_checked": true,
-      "wiki_pageid": 237231,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Verlinde",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Albert_Verlinde_in_2013.jpg/250px-Albert_Verlinde_in_2013.jpg"
+      "mention_count": 1
     },
     {
       "name": "Peter van der Vorst",
       "note": "BN'er die zich liet uitschrijven bij de kerk",
       "start_seconds": 727,
-      "wiki_checked": true,
-      "wiki_pageid": 281348,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_van_der_Vorst",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Peter_van_der_Vorst.jpg/250px-Peter_van_der_Vorst.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Augustinus",
-      "note": "kerkvader over het spreken over God",
-      "start_seconds": 1634,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Rembrandt",
-      "note": "schilder, voorbeeld van kunst die geen nut hoeft te hebben",
-      "start_seconds": 1490,
-      "wiki_checked": true,
-      "wiki_pageid": 1564,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rembrandt_van_Rijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rembrandt_Self-portrait_%28Kenwood%29.jpg/250px-Rembrandt_Self-portrait_%28Kenwood%29.jpg"
-    },
-    {
-      "name": "Johann Sebastian Bach",
-      "note": "componist, voorbeeld van nutteloze schoonheid",
-      "start_seconds": 1490,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "name": "Kardinaal Parolin",
+      "note": "Tweede man van de katholieke kerk na de paus, ontmoet in Rome",
+      "start_seconds": 2660,
+      "mention_count": 1
     },
     {
       "name": "Yvonne Zonderop",
-      "note": "journalist die wees op nationalisme in post-katholieke gebieden",
-      "start_seconds": 2094,
-      "wiki_checked": true,
-      "wiki_pageid": 4752120,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yvonne_Zonderop",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nederlandse_Unesco-dag_%2852134796295%29_%28cropped%29.jpg/250px-Nederlandse_Unesco-dag_%2852134796295%29_%28cropped%29.jpg"
+      "note": "Schrijver die de opkomst van nationalistische partijen in post-katholieke gebieden beschreef",
+      "start_seconds": 2091,
+      "mention_count": 1
+    },
+    {
+      "name": "Heinz Bude",
+      "note": "Duits socioloog die Rik Torfs in Berlijn sprak",
+      "start_seconds": 3219,
+      "mention_count": 2
+    },
+    {
+      "name": "Tade Smedes",
+      "note": "Auteur van een Trouw-stuk over de onstuitbare religiositeit van mensen",
+      "start_seconds": 2736,
+      "mention_count": 1
+    },
+    {
+      "name": "Jasper van de Bovenkamp",
+      "note": "Co-auteur van het Trouw-stuk over religiositeit",
+      "start_seconds": 2736,
+      "mention_count": 1
+    },
+    {
+      "name": "Maarten van der Weijden",
+      "note": "Zwemmer die als messias-figuur werd gezien",
+      "start_seconds": 2829,
+      "mention_count": 1
+    },
+    {
+      "name": "Rens Bot",
+      "note": "Wetenschapshistoricus en auteur van 'Een wereld vol patronen'",
+      "start_seconds": 2585,
+      "mention_count": 2
     },
     {
       "name": "Zbigniew Herbert",
-      "note": "Poolse dichter, aangeraden door Torfs",
+      "note": "Pools dichter aan wie Rik Torfs een poëziebundel toeschrijft",
       "start_seconds": 2527,
-      "wiki_checked": true,
-      "wiki_pageid": 2022253,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Zbigniew_Herbert",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Popiersie_Zbigniew_Herbert_ssj_20060914.jpg/250px-Popiersie_Zbigniew_Herbert_ssj_20060914.jpg"
+      "mention_count": 1
     },
     {
       "name": "Marcel Proust",
-      "note": "Franse schrijver, ruzie met Cocteau",
-      "start_seconds": 2539,
-      "wiki_checked": true,
-      "wiki_pageid": 146452,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marcel_Proust",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Otto_Wegener_Proust_vers_1895_bis.jpg/250px-Otto_Wegener_Proust_vers_1895_bis.jpg"
+      "note": "Franse schrijver; onderwerp van Torfs' boekentip over zijn ruzie met Cocteau",
+      "start_seconds": 2527,
+      "mention_count": 1
     },
     {
       "name": "Jean Cocteau",
-      "note": "Franse schrijver, ruzie met Proust",
-      "start_seconds": 2539,
-      "wiki_checked": true,
-      "wiki_pageid": 237056,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean_Cocteau",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Cocteau_Harcourt_1937.jpg/250px-Cocteau_Harcourt_1937.jpg"
+      "note": "Franse schrijver; ruzie met Proust",
+      "start_seconds": 2527,
+      "mention_count": 1
     },
     {
-      "name": "Rens Bod",
-      "note": "hoogleraar, schrijver over de geschiedenis van de wetenschap",
-      "start_seconds": 2586,
-      "wiki_checked": true,
-      "wiki_pageid": 5495119,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rens_Bod",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/RensBodlachendefoto.jpg/250px-RensBodlachendefoto.jpg"
+      "name": "Rembrandt",
+      "note": "Schilder; voorbeeld van kunst die niet 'nuttig' hoeft te zijn",
+      "start_seconds": 1489,
+      "mention_count": 1
     },
     {
-      "name": "Pietro Parolin",
-      "note": "kardinaal-staatssecretaris van het Vaticaan",
-      "start_seconds": 2660,
-      "wiki_checked": true,
-      "wiki_pageid": 3781497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pietro_Parolin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Cardinal_Parolin_%2848831176406%29_%28cropped%29.jpg/250px-Cardinal_Parolin_%2848831176406%29_%28cropped%29.jpg"
+      "name": "Bach",
+      "note": "Componist; voorbeeld van kunst die niet 'nuttig' hoeft te zijn",
+      "start_seconds": 1489,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het christelijk geloof; over zijn woede, lijden en 'bemin uw vijanden'",
+      "start_seconds": 2248,
+      "mention_count": 8
     }
   ],
   "books": [
     {
-      "title": "Proust contre Cocteau",
-      "author": "",
-      "note": "Frans boek over de ruzie tussen twee schrijvers; boekentip van Torfs",
-      "start_seconds": 2539,
-      "volume_id": "gesqAAAAQBAJ",
-      "canonical_title": "Proust contre Cocteau",
-      "canonical_author": "Claude Arnaud",
-      "isbn13": "9782246805113",
-      "isbn10": "2246805112",
-      "thumbnail": "http://books.google.com/books/content?id=gesqAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "Een wereld vol patronen",
-      "author": "Rens Bod",
-      "note": "geschiedenis van de wetenschap; boekentip van Paas",
-      "start_seconds": 2586,
+      "author": "Rens Bot",
+      "note": "Boek over de geschiedenis van de wetenschap, door Stefan Paas aanbevolen als vakantietip",
+      "start_seconds": 2628,
       "volume_id": "K7WODwAAQBAJ",
       "canonical_title": "Een wereld vol patronen: De geschiedenis van kennis",
       "canonical_author": "Rens Bod",
       "isbn13": "9789035145252",
       "isbn10": "9035145259",
       "thumbnail": "http://books.google.com/books/content?id=K7WODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Proust contre Cocteau",
+      "author": "",
+      "note": "Boek over de ruzie tussen Proust en Cocteau in het begin van de 20e eeuw; door Rik Torfs als vakantietip genoemd",
+      "start_seconds": 2539,
+      "volume_id": "ykvKwQEACAAJ",
+      "canonical_title": "Proust contre Cocteau",
+      "canonical_author": "Claude Arnaud",
+      "isbn13": "9782363081766",
+      "isbn10": "2363081765",
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
@@ -190,144 +181,147 @@
     "Vlaanderen",
     "Nederland",
     "België",
-    "Leuven",
+    "Drenthe",
     "Rome",
+    "Berlijn",
+    "Leuven",
     "Italië",
-    "Beieren",
-    "Hongarije",
-    "Boedapest",
-    "Noord-Brabant",
-    "Limburg",
     "Engeland",
-    "Auschwitz",
+    "Liechtenstein",
+    "Boedapest",
+    "Hongarije",
     "Frankrijk",
-    "Drenthe"
+    "Limburg",
+    "Noord-Brabant",
+    "Auschwitz"
   ],
-  "summary_tldr": "Rik Torfs en Stefan Paas bespreken waarom ze nog bij de kerk horen, met als kernidee de kerk als instituut van 'schitterende nutteloosheid'. Ook gaat het over God als kunstenaar in plaats van kruidenier, de verschillen tussen Vlaams en Nederlands geloof, secularisatie en de opkomst van nationalisme.",
+  "summary_tldr": "Rik Torfs en Stefan Paas bespreken de betekenis van de kerk als instituut, dat ondanks zijn onvolmaaktheid waarde heeft door zijn 'schitterende nutteloosheid'. Ze verkennen waarom mensen de kerk verlaten, hoe secularisatie in Nederland en Vlaanderen verschilt en of mensen ondanks secularisatie toch religieus zijn. Het gesprek eindigt bij lijden, woede en de noodzaak van vijanden om te kunnen verbinden.",
   "summary_points": [
-    "De kerk is een onvolmaakt instituut, maar dat geldt voor alle instituten.",
-    "Torfs: de kerk is een plek van nutteloosheid die de wereld groter, ruimer en verdraagzamer maakt.",
-    "Paas: God is een kunstenaar, geen kruidenier of econoom; de doxologie prijst God als 'nergens goed voor, maar gewoon goed'.",
-    "Atheïsten kennen God vaak heel goed als antropomorfe supermens; over God spreken laat de taal breken.",
-    "Paas gaat naar de kerk om lief te hebben, discipline te leren en de keten van generaties niet te onderbreken.",
-    "Verschillen tussen Noord en Zuid: vertrouwen in de overheid, wet en protestantse versus katholieke cultuur.",
-    "Secularisatie is in Vlaanderen en Nederland vergelijkbaar; nationalistische partijen komen op in post-katholieke gebieden.",
-    "Sommigen noemen zich katholiek alleen om geen moslim te hoeven zijn, wat Torfs een lege huls noemt.",
-    "Luchtig moment: vakanties, vliegschaamte, het abdijleven als klimaatoplossing en boekentips."
+    "De kerk is een instituut van 'schitterende nutteloosheid' dat ruimte biedt buiten het utilitaire denken.",
+    "Kerkverlating is persoonlijk: mensen oordelen op basis van hun eigen levensloop, niet altijd objectief.",
+    "Torfs en Paas bespreken de vraag waarom ze nog bij de kerk horen, vanuit geloof, verbondenheid en generatieketens.",
+    "God wordt beschreven als kunstenaar en niet als efficiënte kruidenier; de schepping is uitbundig, niet optimaal.",
+    "Nederland en Vlaanderen zijn beide sterk geseculariseerd; het protestantse en katholieke erfgoed verschilt in cultuur en vertrouwen in de overheid.",
+    "Nationalisme in post-katholieke gebieden wordt verklaard door verlies van zingeving en een gevoel van minder erkenning.",
+    "Gesprekken over 'religiositeit' buiten de kerk worden kritisch bekeken; sportheldendom wordt als oppervlakkig gezien.",
+    "Lijden en woede hebben een plek in het christelijk geloof; de zachtmoedige Jezus-beeldvorming wordt bekritiseerd.",
+    "Het gesprek eindigt met de stelling dat je vijanden nodig hebt om hen te kunnen beminnen."
   ],
   "chapters": [
     {
-      "start_seconds": 52,
-      "title": "Aanspreekvormen en Twitter",
-      "summary": "Kennismaking, u of je tegen God en Torfs' Twitterstijl, inclusief gematigde slechtheid en het ongemak met 'verbinden'."
+      "start_seconds": 0,
+      "title": "Intro en het 'vlakke' Vlaams-Nederlandse gesprek",
+      "summary": "De presentatie introduceert de gasten en de kerk als instituut van schitterende nutteloosheid. Taal en beleefdheid van u en gij komen aan bod."
     },
     {
-      "start_seconds": 372,
+      "start_seconds": 380,
       "title": "Katholiek zijn in een seculiere tijd",
-      "summary": "Over het aandurven van geloof of ongeloof, hunkering naar God en waarom je je niet kunt uitschrijven."
-    },
-    {
-      "start_seconds": 808,
-      "title": "Waarom nog bij de kerk horen?",
-      "summary": "Torfs en Paas leggen uit waarom ze verbonden blijven met een onvolmaakt instituut en wat de kerk hen brengt."
+      "summary": "Torfs bespreekt de moed om zich openlijk katholiek te noemen, en het verschil tussen ongeloof als massaverschijnsel en als heroïsche positie."
     },
     {
       "start_seconds": 1236,
-      "title": "Schitterende nutteloosheid en God als kunstenaar",
-      "summary": "De kerk als vrijplaats van nutteloosheid, God als kunstenaar en de grenzen van taal over God."
+      "title": "De kerk als instituut van nutteloosheid",
+      "summary": "Waarom mensen de kerk verlaten en blijven, en waarom instituten onvolmaakt zijn. Stefan Paas wijst op de generatieketen en het positieve effect van de kerk in zijn familie."
     },
     {
-      "start_seconds": 1673,
-      "title": "Vlaanderen, Nederland en Europa",
-      "summary": "Verschillen in geloofsbeleving, vertrouwen in de overheid, secularisatie en nationalisme na het katholicisme."
+      "start_seconds": 1403,
+      "title": "God is een kunstenaar, geen kruidenier",
+      "summary": "Paas en Torfs bespreken design-argumenten, het kwaad in de wereld en de vraag hoe Gods almacht en goedheid te begrijpen zijn."
+    },
+    {
+      "start_seconds": 1915,
+      "title": "Nederland, België en de secularisatie",
+      "summary": "Verschillen in protestantse en katholieke tradities, vertrouwen in de overheid en de opkomst van nationalistische partijen worden vergeleken."
     },
     {
       "start_seconds": 2260,
-      "title": "Luchtig moment: vakantie en boekentips",
-      "summary": "Vakantieplannen, vliegschaamte, het abdijleven als klimaatoplossing en boekentips."
+      "title": "Luchtig moment: vakantie en boektips",
+      "summary": "Torfs en Paas delen hun vakantieplannen en boekentips; Torfs pleit voor een klooster als klimaatoplossing."
     },
     {
-      "start_seconds": 2660,
-      "title": "Spiritualiteit in deze tijd",
-      "summary": "Torfs over zijn gesprekken over spiritualiteit en de vraag of er echte spiritualiteit of leegte heerst."
+      "start_seconds": 2653,
+      "title": "Spiritualiteit en de vraag naar religie",
+      "summary": "Gesprek over of Nederlanders ondanks secularisatie nog religieus zijn, en over het verschil tussen religie en religieuze taal in andere domeinen."
+    },
+    {
+      "start_seconds": 3302,
+      "title": "Lijden, woede en vijanden",
+      "summary": "Het christelijk erkennen van lijden en woede, de kritiek op een te zachte Jezus, en de slotgedachte dat je vijanden nodig hebt om lief te hebben."
     }
   ],
   "highlights": [
     {
       "start_seconds": 0,
       "speaker": "Rik Torfs",
-      "text": "De kerk is ook het instituut of een instituut van schitterende nutteloosheid.",
-      "note": "Titelcitaat dat de kern van de aflevering vangt."
+      "text": "De kerk is een instituut van schitterende nutteloosheid.",
+      "note": "De kernstelling van de aflevering: het nutteloze wordt als kracht gezien."
     },
     {
-      "start_seconds": 1490,
+      "start_seconds": 1403,
       "speaker": "Stefan Paas",
-      "text": "God is een kunstenaar, geen kruidenier, geen econoom.",
-      "note": "Beeldende omkering van de designargumenten voor Gods bestaan."
+      "text": "God is een kunstenaar, geen kruidenier.",
+      "note": "Een beeldende manier om Gods schepping niet als efficiënt maar als uitbundig te zien."
     },
     {
-      "start_seconds": 324,
+      "start_seconds": 2700,
       "speaker": "Rik Torfs",
-      "text": "Een gematigde vorm van slechtheid is absoluut verzoenbaar met een christelijke levensstijl.",
-      "note": "Grappige, provocerende uitspraak over christenen op Twitter."
+      "text": "Er zijn veel plekken waar een grote spirituele leegte heerst, wat mensen onverdraagzamer maakt.",
+      "note": "Torfs koppelt spirituele leegte aan gebrek aan generositeit en tolerantie."
     },
     {
-      "start_seconds": 1586,
-      "speaker": "Rik Torfs",
-      "text": "Je moet God heel goed kennen om op een professionele en krachtdadige manier atheïst te kunnen zijn.",
-      "note": "Scherpe omkering van het atheïsme-argument."
-    },
-    {
-      "start_seconds": 1160,
+      "start_seconds": 3302,
       "speaker": "Stefan Paas",
-      "text": "Ik wil niet degene zijn met wie die keten van generaties afbreekt.",
-      "note": "Persoonlijk en ontroerend motief om naar de kerk te gaan."
+      "text": "Het lijden serieus nemen: niet met gesloten ogen in lotushouding mediteren, maar met open ogen huilend bij een graf staan.",
+      "note": "Een scherp contrast met een vaag spiritualiteitsbeeld; het christendom erkent woede en verdriet."
     },
     {
-      "start_seconds": 2248,
+      "start_seconds": 3609,
       "speaker": "Rik Torfs",
-      "text": "Sommige mensen noemen zich katholiek omdat ze absoluut geen moslim willen zijn.",
-      "note": "Kritische observatie over identiteit en geloof."
+      "text": "Je kunt enkel christelijk leven als je vijanden hebt, want anders kun je die niet beminnen.",
+      "note": "Een ironische maar scherpe lezing van de opdracht 'bemin uw vijanden'."
     }
   ],
   "keywords": [
-    "kerk",
+    "kerk als instituut",
     "nutteloosheid",
     "secularisatie",
     "katholicisme",
-    "protestantisme",
     "God als kunstenaar",
-    "Vlaanderen",
-    "nationalisme",
+    "theodicee",
     "spiritualiteit",
-    "instituut",
-    "doxologie",
-    "Augustinus"
+    "verbinding en vijanden",
+    "protestantisme",
+    "religieuze taal",
+    "lijden",
+    "generatieketen"
   ],
   "quotes": [
     "De kerk is een instituut van schitterende nutteloosheid",
-    "God is een kunstenaar, geen kruidenier"
+    "God is een kunstenaar, geen kruidenier",
+    "Een gematigde vorm van slechtheid hoort bij een christelijke levensstijl"
   ],
   "similar": [
     {
       "n": 131,
-      "reason": "Opnieuw Rik Torfs: tijdgeest, kerk en geloof met Stefan Paas"
+      "reason": "Zelfde gast Rik Torfs; gesprek over tijdgeest, geloof en kerk"
     },
     {
       "n": 31,
-      "reason": "Rik Torfs en Stefan Paas over kerk, secularisatie en samenleving"
+      "reason": "Zelfde gast Rik Torfs; kritische blik op kerk en samenleving"
     },
     {
-      "n": 116,
-      "reason": "Antoine Bodar over het mysterie en de schoonheid van de kerk"
+      "n": 152,
+      "reason": "Kerk en politiek; noemt Klaas Dijkhoff, die ook in deze aflevering voorkomt"
     },
     {
-      "n": 83,
-      "reason": "Willem Jan Otten: de kerk als groot kunstwerk, schoonheid boven nut"
+      "n": 7,
+      "reason": "Cultuurchristendom; noemt Yvonne Zonderop, die ook in deze aflevering voorkomt"
     },
     {
-      "n": 5,
-      "reason": "Herman Finkers over de kerk blijven houden ondanks alles"
+      "n": 218,
+      "reason": "Kritiek op secularisatiedenken en kerk als instituut, vergelijkbare thema's"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

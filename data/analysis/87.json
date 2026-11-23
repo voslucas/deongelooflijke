@@ -1,18 +1,23 @@
 {
   "episode": 87,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110464,
+    "segments": 1166,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31138,
-    "output_tokens": 2185,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56799,
+    "output_tokens": 2899,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Zingeving & psyche",
     "Dood & rouw",
-    "Kerk & secularisatie",
-    "God & geloof",
-    "Zingeving & psyche"
+    "Bijbel & Jezus",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Thomas Quartier"
@@ -20,108 +25,151 @@
   "people": [
     {
       "name": "Thomas Quartier",
-      "note": "Theoloog des Vaderlands, Benedictijnse monnik en hoogleraar rituele studies in Nijmegen",
+      "note": "Theoloog des Vaderlands, hoogleraar rituele studies, Benedictijnse monnik; gast",
       "start_seconds": 37,
-      "wiki_checked": true,
-      "wiki_pageid": 5587524,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Quartier"
+      "mention_count": 3
     },
     {
-      "name": "Jezus",
-      "note": "Zijn dood en opstanding worden in de Stille Week herdacht",
-      "start_seconds": 122,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog en missioloog",
+      "start_seconds": 270,
+      "mention_count": 12
     },
     {
-      "name": "Kees Waaijman",
-      "note": "Nijmeegse spiritualiteitswetenschapper; 'er gaan werelden open'",
+      "name": "Wim-Willem-Jan Otten",
+      "note": "Schrijver die sprak over verveling en lege dagen",
+      "start_seconds": 528,
+      "mention_count": 1
+    },
+    {
+      "name": "Kees Wajman",
+      "note": "Nijmeegse spiritualiteitswetenschapper; bedacht de uitdrukking 'gaan werelden open'",
       "start_seconds": 398,
-      "wiki_checked": true
-    },
-    {
-      "name": "Willem Jan Otten",
-      "note": "Eerdere gast die sprak over verveling en lege dagen",
-      "start_seconds": 527,
-      "wiki_checked": true,
-      "wiki_pageid": 179839,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Jan_Otten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg/250px-Reina_Prinsen_Geerligsprijs_uitgereikt_aan_dichter_Willem_Jan_Otten%2C_Bestanddeelnr_926-0500.jpg"
+      "mention_count": 1
     },
     {
       "name": "Martin Stringer",
-      "note": "Engelse liturgist die de term 'situationeel geloof' gebruikte",
-      "start_seconds": 1871,
-      "wiki_checked": true
+      "note": "Engelse liturgist; introduceerde het begrip 'situationeel geloof'",
+      "start_seconds": 1151,
+      "mention_count": 1
     },
     {
       "name": "Ronald Grimes",
-      "note": "Voorganger in Nijmegen op het gebied van rituele studies; kijk naar praktijken in plaats van geloofsovertuigingen",
-      "start_seconds": 2263,
-      "wiki_checked": true
+      "note": "Rituologe, voorganger van Quartier in Nijmegen",
+      "start_seconds": 1990,
+      "mention_count": 1
+    },
+    {
+      "name": "Daan Rovers",
+      "note": "Denker des Vaderlands; eerdere gast over seculier humanisme",
+      "start_seconds": 2820,
+      "mention_count": 1
+    },
+    {
+      "name": "Edvard Schillebeeckx",
+      "note": "Nijmeegse theoloog; begrip contrastervaring",
+      "start_seconds": 2867,
+      "mention_count": 1
+    },
+    {
+      "name": "Joris Luijendijk",
+      "note": "Journalist en antropoloog; volgende gast, 'zeven vinkers'",
+      "start_seconds": 3050,
+      "mention_count": 2
+    },
+    {
+      "name": "Wiroslav Wolf",
+      "note": "Kroatische theoloog; 'a minority for the common good'",
+      "start_seconds": 3190,
+      "mention_count": 1
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "Theoloog; kritiek dat geloof naar de randen van het leven verschuift",
+      "start_seconds": 2650,
+      "mention_count": 1
+    },
+    {
+      "name": "Hunte von Hagen",
+      "note": "Maker van de Körperwelten-tentoonstelling",
+      "start_seconds": 4150,
+      "mention_count": 1
     }
   ],
   "books": [],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Prediker 3",
+      "note": "'Voor alles is er een tijd ... een tijd om geboren te worden en een tijd om te sterven'",
+      "start_seconds": 4281
+    },
+    {
+      "ref": "Psalm 23",
+      "note": "'De Heer is mijn herder, mij zal niets ontbreken', voorgelezen aan een kind",
+      "start_seconds": 2740
+    }
+  ],
   "places": [
     "Nijmegen",
     "Amsterdam",
     "Kampen",
-    "Duitsland",
-    "Afrika"
+    "Rome",
+    "Genève",
+    "Duitsland"
   ],
-  "summary_tldr": "David Boogerd spreekt in de Stille Week met Thomas Quartier en Stefan Paas over de dood, rituelen en secularisatie. Quartier vertelt over zijn onderzoek naar uitvaarten, de kracht van ritueel en symbolen, en het gemis aan taal rond de dood. Ook komt aan bod hoe monniken en kerken omgaan met stilte, leegte en hiernamaals.",
+  "summary_tldr": "In deze Stille Week-aflevering spreekt David Boogerd met Thomas Quartier en Stefan Paas over de dood, rituelen en opstanding. Quartier, die als Benedictijnse monnik dagelijks met de dood leeft, ziet de omgang met de dood seculariseren, maar merkt ook dat mensen aan het graf vaak een open hoop hebben zonder er woorden voor te hebben. Het gesprek gaat over het belang van rituelen, taal en het doorbreken van taboes rond sterven.",
   "summary_points": [
-    "De Stille Zaterdag als tussentijd: een lege dag waarin je de leegte en het gemis toelaat.",
-    "Verveling en leegte zijn niet negatief; rituelen helpen ze vol te houden.",
-    "Binnen de thanatologie verschuift de aandacht van loslaten naar blijvende verbondenheid (continuing bonds).",
-    "Bij uitvaarten liggen lachen en huilen dicht bij elkaar en horen beide bij rouw.",
-    "Personalisering van uitvaarten werkt het best als het persoonlijke symbool (zoals het modelschip of de pet) wordt verbonden met een groter betekeniskader.",
-    "Hiernamaalsvoorstellingen verdwijnen, ook binnen kerken; mensen geloven vaak eerder in de hemel dan in God.",
-    "Situationeel geloof: in de context van een uitvaart kunnen mensen wel iets geloven wat ze in een enquête niet aankruisen.",
-    "Rituelen hebben een breuk met het alledaagse nodig; trivialisering en te hoge heiligheid zijn beide valkuilen.",
-    "Kerken beschikken over een schat aan taal die dreigt te verdampen als die niet wordt gearticuleerd."
+    "Stille Zaterdag als dag van stilte en leegte die ruimte laat voor wat komt",
+    "Omgang met de dood verschuift van loslaten naar blijvende verbondenheid (continuing bonds)",
+    "Persoonlijke uitvaarten en symbolen, zoals het modelschip of de pet, helpen nabestaanden",
+    "Rouw en lachen gaan vaak samen; emoties kunnen door rituelen gekanaliseerd worden",
+    "Veel mensen zijn niet atheïstisch aan het graf, maar hebben situationeel geloof",
+    "Religieuze taal en Bijbelteksten raken een kleine groep, wat om waardevrije bemiddeling vraagt",
+    "Secularisatie maakt het ritueel gereedschap leeg, zoals na de MH17-ramp bleek",
+    "Trivialisering versus hieratisme: kerken moeten een breuk met het alledaagse behouden en tegelijk nabij zijn",
+    "Kerk als vitale minderheid die dient voor het algemeen belang",
+    "Taboes rond sterven doorbreken: praat erover, niet eroverheen (Sire-campagne)"
   ],
   "chapters": [
     {
-      "start_seconds": 37,
-      "title": "Inleiding en de Stille Week",
-      "summary": "David introduceert het thema en Thomas beschrijft de intense week voor Pasen in het klooster."
+      "start_seconds": 0,
+      "title": "Stille Week en liturgie",
+      "summary": "Quartier en Paas beschrijven de betekenis van de Goede Week en de Stille Zaterdag als tussentijd."
     },
     {
-      "start_seconds": 282,
-      "title": "Tussentijd en leegte",
-      "summary": "Over de kracht van de Stille Zaterdag, het afscheid van Thomas' vader en verveling als ruimte."
+      "start_seconds": 734,
+      "title": "Persoonlijke ervaring met sterven",
+      "summary": "Quartier vertelt over het zien van zijn overleden vader en de ongeplande, waardevolle stilte daarna."
     },
     {
-      "start_seconds": 650,
-      "title": "Pasen in het dorp en thanatologie",
-      "summary": "Stefan vertelt over de vespers in zijn dorp; Thomas legt uit wat zijn onderzoek naar de dood inhoudt."
+      "start_seconds": 1000,
+      "title": "Onderzoek naar rituelen en rouw",
+      "summary": "Quartier licht zijn onderzoek naar thanatologie toe, van loslaten naar continuing bonds, en 150 uitvaarten."
     },
     {
-      "start_seconds": 900,
-      "title": "Onderzoek naar uitvaarten",
-      "summary": "Hoe Thomas toevallig bij het onderwerp kwam, zijn 150 uitvaartbezoeken en het samengaan van lachen en huilen."
+      "start_seconds": 1800,
+      "title": "Uitvaarten, humor en symboliek",
+      "summary": "Lachen en huilen bij uitvaarten, het modelschip, de pet op de kist en het belang van een betekeniskader."
     },
     {
-      "start_seconds": 1380,
-      "title": "Personalisering en symbolen",
-      "summary": "Voorbeelden van het modelschip en de pet laten zien hoe symbolen betekenis kunnen openen binnen een groter kader."
+      "start_seconds": 2600,
+      "title": "Secularisatie en de leegte van de gereedschapskist",
+      "summary": "Het gesprek gaat over afnemend hiernamaals-geloof, situationeel geloof en de leegte na de MH17-ramp."
     },
     {
-      "start_seconds": 1750,
-      "title": "Secularisatie en hiernamaals",
-      "summary": "Over verdwijnende voorstellingen van ziel en verrijzenis, situationeel geloof en 'Mail to Heaven'."
+      "start_seconds": 3300,
+      "title": "Missionair zijn en het algemeen belang",
+      "summary": "Discussie over wie kerkelijke pogingen bereiken en de kerk als vitale minderheid voor het algemeen belang."
     },
     {
-      "start_seconds": 2200,
-      "title": "Praktijken, taal en ritueel",
-      "summary": "Geloof als praktijk, het risico van verdampende betekenis, en trivialisering versus hieratisme."
+      "start_seconds": 3700,
+      "title": "Taboe op sterven en het eigen sterven",
+      "summary": "Quartier deelt het sterven van zijn vader en het belang van praten over de dood; Paas reflecteert op zijn eigen sterfelijkheid."
+    },
+    {
+      "start_seconds": 4100,
+      "title": "Memento mori en slot",
+      "summary": "Over het klooster, memento mori, de kapucijnencrypte in Rome en een kaarsje ter herinnering, afgesloten met Prediker."
     }
   ],
   "highlights": [
@@ -129,71 +177,74 @@
       "start_seconds": 3,
       "speaker": "Thomas Quartier",
       "text": "Aan de rand van het graf zijn er maar weinig atheïsten.",
-      "note": "Zijn beroemd geworden slogan die hij nog steeds volhoudt."
+      "note": "Kernstelling van de aflevering die hij twintig jaar lang moest verdedigen."
     },
     {
-      "start_seconds": 417,
+      "start_seconds": 2100,
       "speaker": "Thomas Quartier",
-      "text": "Mijn moeder zei bij de kist: 'Hij heeft lang haar... dat staat hem goed.'",
-      "note": "Persoonlijk en ontroerend moment dat de kracht van de tussentijd laat zien."
+      "text": "Een pet die tot symbool is geworden: na een uitvaart onthielden mensen vooral de pet van de overledene.",
+      "note": "Laat zien hoe een klein persoonlijk object een betekenisdrager wordt."
     },
     {
-      "start_seconds": 1125,
+      "start_seconds": 3850,
       "speaker": "Thomas Quartier",
-      "text": "Lachen kan net zo goed een uitdrukking van het rouwproces zijn als huilen.",
-      "note": "Nuancering van hoe rouw eruitziet."
+      "text": "Mijn vader kwam het ziekenhuis in en wist dat hij zou sterven; we hebben er nooit over gesproken.",
+      "note": "Persoonlijk en pijnlijk voorbeeld van het taboe rond sterven."
     },
     {
-      "start_seconds": 1485,
-      "speaker": "Thomas Quartier",
-      "text": "De pastoor vond in elk leven wel een 'schip' om de uitvaart aan op te hangen.",
-      "note": "Illustreert hoe een persoonlijk symbool tot een groter verhaal kan leiden."
-    },
-    {
-      "start_seconds": 1900,
+      "start_seconds": 4000,
       "speaker": "Stefan Paas",
-      "text": "Geloof resoneert net als snaren op een klankkast; losse snaren doen niks.",
-      "note": "Treffend beeld voor de rol van context bij geloof."
+      "text": "Ik ben protestant misschien, omdat ik er niet elke morgen mee opsta dat ik sterfelijk ben.",
+      "note": "Luchtige maar eerlijke zelfreflectie op de regel van Benedictus."
+    },
+    {
+      "start_seconds": 4180,
+      "speaker": "Thomas Quartier",
+      "text": "Het verlies van mijn moeder vind ik beangstigender dan mijn eigen dood.",
+      "note": "Verschuift de angst van het eigen sterven naar de relatie met geliefden."
     }
   ],
   "keywords": [
     "dood",
     "rouw",
-    "ritueel",
-    "uitvaart",
-    "Stille Week",
-    "Pasen",
-    "secularisatie",
-    "hiernamaals",
-    "thanatologie",
+    "rituelen",
+    "Stille Zaterdag",
     "continuing bonds",
-    "symbool",
-    "situationeel geloof"
+    "situationeel geloof",
+    "uitvaart",
+    "opstanding",
+    "secularisatie",
+    "memento mori",
+    "thanatologie",
+    "trivialisering"
   ],
   "quotes": [
-    "Mensen houden hoop dat er iets is, al kunnen ze dat niet verwoorden",
-    "De dood. Praat erover, niet eroverheen"
+    "Praat erover, niet eroverheen.",
+    "Mensen houden hoop dat er iets is, al kunnen ze dat niet verwoorden.",
+    "De dood is voor Quartier zelf in ieder geval geen ver-van-je-bed-show."
   ],
   "similar": [
     {
       "n": 71,
-      "reason": "Zelfde gast Thomas Quartier, monnik; over klooster, geloof en dood"
+      "reason": "Zelfde gast Thomas Quartier; gesprek over kloosterleven, God, kerk en dood"
     },
     {
       "n": 274,
-      "reason": "Waarom we de dood moeten herwaarderen; omgang met dood en taal erover"
+      "reason": "Gesprek over de dood, zingeving en geloof met Manu Keirse"
     },
     {
       "n": 201,
-      "reason": "Gesprek over de dood, angst en bevrijding, met Stefan Paas"
+      "reason": "Bevrijdend gesprek over de dood, angst en zingeving"
     },
     {
-      "n": 158,
-      "reason": "Dood, euthanasie als 'seculier sacrament'; ritueel en secularisatie"
+      "n": 320,
+      "reason": "Diepe rouw, troost en geloof na verlies, thema's Dood & rouw en God & geloof"
     },
     {
-      "n": 181,
-      "reason": "Willem Jan Otten over geloof, dood en kunst; gedeelde figuur"
+      "n": 244,
+      "reason": "Geloof en dood, een godservaring midden in een ongeneeslijke ziekte"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

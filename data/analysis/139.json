@@ -1,17 +1,22 @@
 {
   "episode": 139,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 91078,
+    "segments": 919,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30883,
-    "output_tokens": 2899,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46651,
+    "output_tokens": 8729,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
     "Bijbel & Jezus",
+    "Kerk & secularisatie",
     "Politiek"
   ],
   "guests": [
@@ -20,287 +25,346 @@
   "people": [
     {
       "name": "Charles III",
-      "note": "Britse koning die gekroond werd",
+      "note": "Brits koning, gekroond tijdens de ceremonie in Westminster Abbey",
       "start_seconds": 5,
-      "wiki_checked": true
+      "mention_count": 40
     },
     {
       "name": "Arjen Lubach",
-      "note": "Presentator die op Twitter de kroning een idioot sprookje noemde",
+      "note": "Cabaretier die de kroning op Twitter als 'idioot sprookje' omschreef",
       "start_seconds": 5,
-      "wiki_checked": true
+      "mention_count": 3
+    },
+    {
+      "name": "Elizabeth II",
+      "note": "Vorige Britse koningin, overleden op 8 september",
+      "start_seconds": 684,
+      "mention_count": 8
     },
     {
       "name": "Georg Friedrich Händel",
-      "note": "Componist van Zadok the Priest (1727)",
-      "start_seconds": 381,
-      "wiki_checked": true
-    },
-    {
-      "name": "Oliver Cromwell",
-      "note": "Lord Protector die de regalia liet vernietigen",
-      "start_seconds": 581,
-      "wiki_checked": true
-    },
-    {
-      "name": "Karel II",
-      "note": "Herstelde de monarchie in 1661 en liet de regalia opnieuw maken",
-      "start_seconds": 597,
-      "wiki_checked": true
-    },
-    {
-      "name": "Koning Bamba",
-      "note": "Westgotische koning, 7e eeuw, een van de eerste gezalfde koningen",
-      "start_seconds": 955,
-      "wiki_checked": true
-    },
-    {
-      "name": "Karel de Grote",
-      "note": "Frankische koning, gezalfd",
-      "start_seconds": 980,
-      "wiki_checked": true
-    },
-    {
-      "name": "Pepijn de Korte",
-      "note": "Vader van Karel de Grote, gezalfd; in het transcript 'Pepijn de Derde'",
-      "start_seconds": 980,
-      "wiki_checked": true
-    },
-    {
-      "name": "Dunstan",
-      "note": "Bisschop die de kroning van Edgar in 973 ontwierp",
-      "start_seconds": 991,
-      "wiki_checked": true
-    },
-    {
-      "name": "Edgar de Vreedzame",
-      "note": "Eerste koning van alle Engelsen, gekroond in 973",
-      "start_seconds": 1607,
-      "wiki_checked": true
-    },
-    {
-      "name": "Salomo",
-      "note": "Bijbelse modelkoning, gezalfd door Zadok",
-      "start_seconds": 1067,
-      "wiki_checked": true
-    },
-    {
-      "name": "Zadok",
-      "note": "Priester die Salomo zalfde",
-      "start_seconds": 1062,
-      "wiki_checked": true
-    },
-    {
-      "name": "Nathan",
-      "note": "Profeet bij de zalving van Salomo",
-      "start_seconds": 1067,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thomas Becket",
-      "note": "Bisschop aan wie volgens de legende Maria de heilige olie gaf",
-      "start_seconds": 1155,
-      "wiki_checked": true
+      "note": "Componist van het kroningslied Zadok the Priest",
+      "start_seconds": 379,
+      "mention_count": 4
     },
     {
       "name": "Justin Welby",
-      "note": "Aartsbisschop van Canterbury, hield de preek",
+      "note": "Aartsbisschop van Canterbury, hield de preek tijdens de kroning",
       "start_seconds": 1401,
-      "wiki_checked": true
+      "mention_count": 6
+    },
+    {
+      "name": "Edgar",
+      "note": "Angelsaksische koning (973), eerste koning van alle Engelsen gekroond door bisschoppen",
+      "start_seconds": 1567,
+      "mention_count": 3
+    },
+    {
+      "name": "Salomo",
+      "note": "Bijbelse koning, ideaal van de wijze koning in middeleeuws Europa",
+      "start_seconds": 1063,
+      "mention_count": 5
+    },
+    {
+      "name": "Zadok",
+      "note": "Bijbelse priester die Salomo zalfde",
+      "start_seconds": 1054,
+      "mention_count": 3
+    },
+    {
+      "name": "Karel de Grote",
+      "note": "Frankische keizer, in de traditie van gezalfde koningen",
+      "start_seconds": 973,
+      "mention_count": 1
+    },
+    {
+      "name": "Pepijn de Derde",
+      "note": "Vader van Karel de Grote, Frankische koning",
+      "start_seconds": 973,
+      "mention_count": 1
     },
     {
       "name": "Willem III",
-      "note": "Stadhouder en koning van Engeland, vond de rituelen te 'paaps'",
-      "start_seconds": 1415,
-      "wiki_checked": true
+      "note": "Stadhouder en koning van Engeland, samen met Mary; liet de ceremonie protestants maken",
+      "start_seconds": 1401,
+      "mention_count": 2
+    },
+    {
+      "name": "Hendrik VIII",
+      "note": "Engelse koning die zichzelf tot hoofd van de Kerk maakte",
+      "start_seconds": 2363,
+      "mention_count": 2
+    },
+    {
+      "name": "Oliver Cromwell",
+      "note": "Lord Protector, liet katholieke regalia vernietigen",
+      "start_seconds": 582,
+      "mention_count": 3
+    },
+    {
+      "name": "Thomas Becket",
+      "note": "Bisschop van Canterbury, legende over heilige olie van Maria",
+      "start_seconds": 1161,
+      "mention_count": 1
     },
     {
       "name": "Penny Mordaunt",
-      "note": "Droeg het Sword of State",
+      "note": "Lid van het Lagerhuis die het Sword of State droeg",
       "start_seconds": 2133,
-      "wiki_checked": true
-    },
-    {
-      "name": "Boris Johnson",
-      "note": "Oud-premier, aanwezig bij de kroning",
-      "start_seconds": 2085,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Liz Truss",
-      "note": "Oud-premier, aanwezig bij de kroning",
+      "note": "Voormalig Britse premier, kort aan de macht",
       "start_seconds": 2091,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Boris Johnson",
+      "note": "Voormalig Britse premier, aanwezig bij de kroning",
+      "start_seconds": 2091,
+      "mention_count": 1
+    },
+    {
+      "name": "Rishi Sunak",
+      "note": "Britse premier, hindoe, las een bijbelgedeelte voor",
+      "start_seconds": 2598,
+      "mention_count": 1
+    },
+    {
+      "name": "Alice van Griekenland",
+      "note": "Oma van Charles, begraven in het klooster van Maria Magdalena",
+      "start_seconds": 1340,
+      "mention_count": 1
+    },
+    {
+      "name": "Eduard de Belijder",
+      "note": "Heilige Engelse koning wiens scepter werd gebruikt bij de kroning",
+      "start_seconds": 518,
+      "mention_count": 2
+    },
+    {
+      "name": "Bamba",
+      "note": "Westgotische koning in Spanje, een van de eerste gezalfde christelijke koningen",
+      "start_seconds": 960,
+      "mention_count": 2
+    },
+    {
+      "name": "Gelasius",
+      "note": "Paus die de twee zwaarden (hemelse en aardse gerechtigheid) bespreekt",
+      "start_seconds": 2329,
+      "mention_count": 1
     },
     {
       "name": "Alfred de Grote",
-      "note": "Overgrootvader van Edgar",
+      "note": "Angelsaksische koning, overgrootvader van Edgar",
       "start_seconds": 1567,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Paus Gelasius",
-      "note": "Paus uit de 5e eeuw over de verhouding tussen kerk en staat",
-      "start_seconds": 2335,
-      "wiki_checked": true
+      "name": "Dunstan",
+      "note": "Bisschop die de Engelse kroningsceremonie vormgaf",
+      "start_seconds": 981,
+      "mention_count": 2
+    },
+    {
+      "name": "Jezus",
+      "note": "Citeerd door Charles: de koning is gekomen om te dienen",
+      "start_seconds": 1506,
+      "mention_count": 4
+    },
+    {
+      "name": "Samuel",
+      "note": "Bijbelse profeet die het koningschap in Israël instelde",
+      "start_seconds": 2777,
+      "mention_count": 1
+    },
+    {
+      "name": "Andrew Jamieson",
+      "note": "Heraldisch kunstenaar die de uitnodiging ontwierp",
+      "start_seconds": 3241,
+      "mention_count": 1
+    },
+    {
+      "name": "René de Reuver",
+      "note": "Scriba van de Protestantse Kerk Nederland, genoemd als mogelijke zalver van Amalia",
+      "start_seconds": 3434,
+      "mention_count": 1
+    },
+    {
+      "name": "Amalia",
+      "note": "Prinses van Oranje, mogelijk toekomstig koningin van Nederland",
+      "start_seconds": 3417,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem-Alexander",
+      "note": "Koning der Nederlanden, ingehuldigd in plaats van gekroond",
+      "start_seconds": 867,
+      "mention_count": 1
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "note": "Schrijver, Tom Bombadil als Green Man-figuur",
+      "start_seconds": 3300,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "1 Koningen 1",
-      "note": "Zalving van Salomo door Zadok en Nathan",
-      "start_seconds": 1101
+      "note": "Beschrijving van de zalving van Salomo door Zadok, voorgelezen door Stefan Paas",
+      "start_seconds": 1095
     },
     {
       "ref": "Psalm 2",
-      "note": "Mogelijke verwijzing in de scepter, ijzeren stok",
+      "note": "Stefan Paas vermoedt dat de scepter naar Psalm 2 verwijst",
       "start_seconds": 529
     },
     {
-      "ref": "Kolossenzen 1:16",
-      "note": "Thema van Welby's preek: tronen en machten doen er niet toe",
-      "start_seconds": 1442
-    },
-    {
-      "ref": "Marcus 10:45",
-      "note": "Ik ben gekomen niet om gediend te worden maar om te dienen",
-      "start_seconds": 1491
+      "ref": "Colossenzen 1:16",
+      "note": "Justin Welby's preek over tronen en heerschappijen die gebruikt moeten worden om te dienen",
+      "start_seconds": 1441
     },
     {
       "ref": "Romeinen 13",
-      "note": "De overheid draagt het zwaard om het kwaad te straffen",
-      "start_seconds": 2260
+      "note": "Overheid draagt het zwaard om misdaad te bestraffen",
+      "start_seconds": 2259
     }
   ],
   "places": [
     "Westminster Abbey",
     "Engeland",
-    "Canterbury",
+    "Schotland",
+    "Edinburgh",
+    "Spanje",
     "Jeruzalem",
     "Olijfberg",
-    "Spanje",
-    "Schotland",
-    "Kent",
-    "Gihon"
+    "Canada",
+    "Jamaica",
+    "Barbados",
+    "Iran",
+    "Nederland"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Beatrice de Graaf en Stefan Paas de kroning van Charles III. Ze duiden de eeuwenoude symboliek, zoals de zalving, de zwaarden en de eed, als een poging om macht te temmen en te laten dienen. Ook vragen ze wat die religieuze symboliek betekent in een seculiere samenleving.",
+  "summary_tldr": "David Boogerd bespreekt met historicus Beatrice de Graaf en theoloog Stefan Paas de kroning van Charles III als historische en religieuze ceremonie. Ze duiden de symboliek, de oude wortels van de zalving en de betekenis van macht die gebonden moet worden aan dienstbaarheid. Ook komen de verhouding tussen kerk en staat, de Britse Commonwealth en het kritische gebruik van de preek van Justin Welby aan bod.",
   "summary_points": [
-    "De kroning is een eeuwenoud ritueel dat teruggaat tot 973 en verder naar bijbelse en oud-oosterse zalvingen.",
-    "De zalving achter het scherm is het hart van de ceremonie en een moment van vernedering en kracht.",
-    "Zadok the Priest van Händel gebruikt een bijbeltekst en bouwt spanning op naar de zalving.",
-    "Veel regalia en rituelen hebben vergeten betekenissen, zoals de scepter en de handschoen.",
-    "De olie is vegan en gemaakt door monniken op de Olijfberg, met een oecumenisch accent.",
-    "Welby's korte preek over Kolossenzen benadrukt dienen in plaats van macht en privileges.",
-    "De eed van de koning werd een instrument om macht te binden, zoals bij de Magna Carta.",
-    "Het woord 'terror' is uit de zwaardtekst geschrapt, wat het veranderde machtsbegrip laat zien.",
-    "De ceremonie roept iedereen met macht op om te dienen, ook in een moderne samenleving."
+    "De kroning wordt gezien als zowel een historisch spektakel als een vernedering, omdat de koning eerst wordt uitgekleed en gezalfd.",
+    "De zalving is het mysterieuze hart van de ceremonie en gaat terug tot het Oude Oosten, de Bijbel (Salomo) en de vroege christelijke doop.",
+    "Veel symbolen, zoals de scepter en de handschoen, hebben hun oorspronkelijke betekenis verloren en zijn in de loop der eeuwen opnieuw ingevuld.",
+    "Het koningschap is van oudsher een christelijk ideaal: de koning moet de macht temmen, recht doen en voor zwakken zorgen, vastgelegd in een eed.",
+    "Justin Welby's korte preek benadrukte dienstbaarheid en kritiseerde macht en privilege, met een verwijzing naar Colossenzen 1:16.",
+    "De scheiding van kerk en staat werkt in Engeland anders: de koning is hoofd van de Kerk sinds Hendrik VIII.",
+    "Stefan Paas stelt dat macht altijd schaduwkanten heeft en dat een ritueel als dit een ethische herinnering aan de macht kan zijn.",
+    "Het gebed van Charles benadrukt vrede en geloof en niet-geloof, wat laat zien dat de ceremonie zich ook tot niet-gelovigen richt.",
+    "De discussie over koloniaal verleden, de Koh-i-noor en het afscheid van Commonwealth-landen als Barbados en Jamaica komt aan bod.",
+    "Beatrice de Graaf noemt het verdwijnen van het woord terror uit de liturgie een taalkundige ontwikkeling sinds de Franse Revolutie."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Indrukken van de kroning",
-      "summary": "De gasten delen hun hoogtepunten, waaronder de zalving en Händels Zadok the Priest."
+      "title": "Inleiding en eerste indrukken",
+      "summary": "De gasten vertellen over hun ervaring van de kroning en de sfeer die ze ervaarden."
     },
     {
-      "start_seconds": 505,
-      "title": "Vreemde rituelen en regalia",
-      "summary": "Over de scepter, de handschoen, de Royal Claims Office en de lengte van eerdere kroningen."
+      "start_seconds": 250,
+      "title": "Het hart van de ceremonie: de zalving",
+      "summary": "Stefan Paas en Beatrice de Graaf beschrijven de zalving als het mysterieuze en veelzeggende hoogtepunt, met de muziek van Händel."
     },
     {
-      "start_seconds": 777,
-      "title": "Een eeuwenoude traditie",
-      "summary": "De Britse kroning is uniek in Europa en gaat terug tot 973, met de Stone of Scone en de kroningsstoel."
-    },
-    {
-      "start_seconds": 944,
-      "title": "De geschiedenis van de zalving",
-      "summary": "Van Egyptenaren en de Bijbel tot Frankische en Engelse koningen, inclusief de Salomo-tekst en de heilige olie."
+      "start_seconds": 946,
+      "title": "Oude wortels van het koningsritueel",
+      "summary": "Het ritueel gaat terug naar het Oude Oosten, de Bijbel en Karel de Grote, en de koning werd gezien als een gewijd persoon."
     },
     {
       "start_seconds": 1401,
-      "title": "Dienen in plaats van heersen",
-      "summary": "Welby's preek en Charles' woorden 'ik kom om te dienen', met Jezus als voorbeeld."
+      "title": "De preek van Justin Welby",
+      "summary": "De aartsbisschop benadrukte dienstbaarheid en kritiseerde macht, mede op basis van Colossenzen 1:16."
     },
     {
-      "start_seconds": 1560,
-      "title": "Het temmen van macht",
-      "summary": "Van krijgsheren met helmen naar eden, de Magna Carta en de christelijke poging macht te ordenen."
+      "start_seconds": 1567,
+      "title": "Het temmen van de macht via de eed",
+      "summary": "De ceremonie ontwikkelde zich van krijgersritueel naar een eed die de koning bindt aan recht en de Magna Carta."
     },
     {
-      "start_seconds": 2133,
-      "title": "De zwaarden en de terror",
-      "summary": "De vier zwaarden en de geschrapte tekst over 'terror', met verwijzing naar Romeinen 13."
+      "start_seconds": 2416,
+      "title": "Kerk, staat en religieuze diversiteit",
+      "summary": "De Britse koning is hoofd van de Kerk, en de ceremonie combineerde Anglicaans, seculier en multireligieus."
+    },
+    {
+      "start_seconds": 3139,
+      "title": "Gebed, symboliek en slotbeschouwing",
+      "summary": "Het gebed van Charles, de Green Man op de uitnodiging en de vraag of het ritueel een idioot sprookje is sluiten de aflevering af."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1949,
+      "start_seconds": 250,
       "speaker": "Stefan Paas",
-      "text": "Eerst vernederd en toen gekroond.",
-      "note": "Vat de dubbelheid van de ceremonie kernachtig samen."
+      "text": "Dat was het dieptepunt van de ceremonie eigenlijk, de zalving.",
+      "note": "Het moment dat de koning wordt uitgekleed en gezalfd maakt de ceremonie tegelijk verheffend en vernederend."
+    },
+    {
+      "start_seconds": 1441,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het gaat erom in hoeverre je die macht gebruikt om te dienen.",
+      "note": "Ze vat de scherpe boodschap van Welby samen die macht en privilege relativeert."
     },
     {
       "start_seconds": 2033,
       "speaker": "Stefan Paas",
-      "text": "Je hoeft geen monarchist te zijn om te zien dat het hier wel ergens over gaat: de macht is er om te dienen.",
-      "note": "Koppelt het ritueel aan macht in de moderne samenleving."
+      "text": "Je hoeft geen monarchist te zijn om te zien dat het hier wel ergens over gaat.",
+      "note": "Hij ziet het ritueel als een universele herinnering aan ethische verantwoordelijkheid van macht."
     },
     {
-      "start_seconds": 545,
+      "start_seconds": 2232,
       "speaker": "Beatrice de Graaf",
-      "text": "Niemand weet wat de scepter betekent.",
-      "note": "Een grappig en verrassend gegeven over de regalia."
+      "text": "Terror was tot de Franse Revolutie iets goeds.",
+      "note": "Een opvallende taalkundige ontwikkeling: een woord dat nu angstaanjagend klinkt, was ooit een legitiem koninklijk begrip."
     },
     {
-      "start_seconds": 2227,
-      "speaker": "Beatrice de Graaf",
-      "text": "Het woord 'terror' is uit de liturgie geschrapt; terror was tot de Franse Revolutie iets goeds.",
-      "note": "Een scherpe taalhistorische observatie van een terrorisme-expert."
-    },
-    {
-      "start_seconds": 1072,
+      "start_seconds": 2680,
       "speaker": "Stefan Paas",
-      "text": "Een oude Egyptenaar zou begrijpen wat er achter dat scherm gebeurde.",
-      "note": "Laat zien hoe oud het zalfritueel is."
+      "text": "Wat je ziet is kerstening van de macht, maar het blijft al macht.",
+      "note": "Een scherpe kanttekening: christelijke symboliek verandert macht niet, maar kan haar wel begrenzen."
     }
   ],
   "keywords": [
     "kroning",
     "zalving",
-    "Charles III",
-    "Zadok the Priest",
-    "macht temmen",
-    "dienen",
+    "koningschap",
+    "dienstbaarheid",
+    "macht",
+    "Salomo",
+    "Kerk van Engeland",
     "Justin Welby",
+    "eed",
     "Magna Carta",
-    "monarchie",
-    "Westminster Abbey",
-    "symboliek"
+    "symboliek",
+    "Commonwealth"
   ],
   "quotes": [
-    "Het was een prachtige dag voor iedereen die houdt van idiote sprookjes."
+    "Het was een prachtige dag voor iedereen die houdt van idiote sprookjes",
+    "En waren we eigenlijk wel getuige van een kroning of eerder een vernedering?"
   ],
   "similar": [
     {
       "n": 104,
-      "reason": "Religieuze betekenis van Queen Elizabeth II, Britse monarchie, met Beatrice de Graaf en Stefan Paas"
+      "reason": "Zelfde gast en thema: de religieuze betekenis van een Britse vorst, Elizabeth II."
     },
     {
       "n": 112,
-      "reason": "Willem van Oranje: macht, monarchie en religie in de geschiedenis"
+      "reason": "Vorstelijke legitimiteit, kerk en politiek in de Nederlandse geschiedenis, met Willem van Oranje."
     },
     {
-      "n": 89,
-      "reason": "God, Nederland en Oranje: koningshuis, natie en religie met De Graaf"
+      "n": 113,
+      "reason": "Beatrice de Graaf over vrijheid en macht in de geschiedenis, met Bijbel-thema's."
     },
     {
-      "n": 46,
-      "reason": "Charismatische leiders, koningen en religieuze symboliek van macht met De Graaf"
-    },
-    {
-      "n": 92,
-      "reason": "Religieuze en historische wortels van Europese waarden en macht met De Graaf"
+      "n": 52,
+      "reason": "Middeleeuwse kerk- en machtsgeschiedenis, gekoppeld aan de rol van religie in de samenleving."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

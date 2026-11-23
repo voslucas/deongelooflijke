@@ -1,18 +1,23 @@
 {
   "episode": 224,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 122131,
+    "segments": 1277,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30881,
-    "output_tokens": 2145,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62893,
+    "output_tokens": 6856,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "Samenleving & migratie",
+    "Economie & geld",
     "Kerk & secularisatie",
-    "Economie & geld"
+    "Politiek"
   ],
   "guests": [
     "Michelle van Tongerloo"
@@ -20,45 +25,56 @@
   "people": [
     {
       "name": "Hans Visser",
-      "note": "oprichter/dominee van de Pauluskerk in Rotterdam",
-      "start_seconds": 1577,
-      "wiki_checked": true,
-      "wiki_pageid": 141955,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_Visser_%28predikant%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Pauluskerk.jpg/250px-Pauluskerk.jpg",
-      "mention_count": 3
+      "note": "Dominee en oprichter van de Pauluskerk in Rotterdam",
+      "start_seconds": 1575,
+      "mention_count": 2
+    },
+    {
+      "name": "Tim Sjongers",
+      "note": "Commentator die stelt dat het systeem voor 80% werkt en dat de overige 20% aparte hulp nodig heeft",
+      "start_seconds": 987,
+      "mention_count": 2
     },
     {
       "name": "Abraham Maslow",
-      "note": "psycholoog, piramide van Maslow over basisbehoeften",
+      "note": "Psycholoog van de behoeftenpiramide; basis voor het hulpmodel van Van Tongerloo",
       "start_seconds": 855,
-      "wiki_checked": true,
-      "wiki_pageid": 16287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Maslow",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Piramide_van_Maslow.svg/250px-Piramide_van_Maslow.svg.png",
+      "mention_count": 3
+    },
+    {
+      "name": "Johan Cruijff",
+      "note": "Voetballegende; geciteerd over voordeel en nadeel",
+      "start_seconds": 2704,
       "mention_count": 1
     },
     {
-      "name": "Tim 's Jongers",
-      "note": "eerdere gast over armoede, noemde het 80/20-verdeling",
-      "start_seconds": 993,
-      "wiki_checked": true,
-      "wiki_pageid": 5857930,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_%27S_Jongers",
+      "name": "Bente Becker",
+      "note": "VVD-Kamerlid; indiener van een motie over integratie van migranten",
+      "start_seconds": 3463,
       "mention_count": 1
     },
     {
-      "name": "Bashar al-Assad",
-      "note": "gevallen Syrische leider, aanleiding voor Allahu Akbar-voorbeeld",
-      "start_seconds": 1880,
-      "wiki_checked": true,
-      "wiki_pageid": 40568,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bashar_al-Assad",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg/250px-Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg",
+      "name": "Yesilgöz",
+      "note": "VVD-politica; toespraak over het controleren van bepaalde groepen",
+      "start_seconds": 3468,
+      "mention_count": 1
+    },
+    {
+      "name": "Maritsja",
+      "note": "Patiënt van Van Tongerloo met armoede- en gezondheidsproblemen",
+      "start_seconds": 1040,
+      "mention_count": 3
+    },
+    {
+      "name": "Rilana",
+      "note": "Patiënt en slachtoffer van het toeslagenschandaal",
+      "start_seconds": 3747,
+      "mention_count": 2
+    },
+    {
+      "name": "Alice",
+      "note": "Patiënt met een zoon die toegang tot passend onderwijs nodig heeft",
+      "start_seconds": 694,
       "mention_count": 1
     }
   ],
@@ -66,10 +82,10 @@
     {
       "title": "Komt een land bij de dokter",
       "author": "Michelle van Tongerloo",
-      "note": "boek over Nederland gezien door de ogen van een straatarts",
+      "note": "Boek over het werk als straatarts en de staat van Nederland",
       "start_seconds": 464,
       "volume_id": "6BYF0QEACAAJ",
-      "canonical_title": "Komt een land bij de dokter: Nederland door de ogen van een straatarts",
+      "canonical_title": "Komt een land bij de dokter",
       "canonical_author": "Michelle van Tongerloo",
       "isbn13": "9789493254527",
       "isbn10": "9493254526",
@@ -80,129 +96,137 @@
   "places": [
     "Rotterdam",
     "Sint Eustatius",
-    "Nederland",
-    "Marokko",
-    "Syrië",
-    "Amsterdam",
-    "Utrecht"
+    "Zeist",
+    "Austerlitz",
+    "Marokko"
   ],
-  "summary_tldr": "Straatarts Michelle van Tongerloo vertelt hoe haar werk bij de Pauluskerk in Rotterdam haar een scherp beeld gaf van een Nederland waarin steeds meer mensen door het vangnet vallen. Als niet-gelovige werkt ze vanuit christelijke waarden als genade en naastenliefde, en ze signaleert morele leegte, polarisatie en een doorgeslagen meritocratisch denken. Ze pleit voor het zelf in de gaten springen waar het systeem faalt.",
+  "summary_tldr": "Straatarts Michelle van Tongerloo vertelt hoe haar werk bij de Pauluskerk in Rotterdam haar leerde dat steeds meer mensen door het vangnet vallen, van ongedocumenteerden en EU-arbeidsmigranten tot economisch dakloze gezinnen. Ze analyseert dit als gevolg van jarenlang beleid, marktwerking in de zorg en een meritocratisch denken, en pleit voor meer nabijheid, gemeenschap en een overheid die de basis op orde brengt. Stefan Paas duidt het verhaal theologisch als een pleidooi voor genade en een holistische kijk op de mens.",
   "summary_points": [
-    "Het boek Komt een land bij de dokter ziet Nederland als patiënt: haar spreekuur is een spiegel van de samenleving.",
-    "Het eerste jaar als straatarts kon ze slecht slapen door onmacht over uitsluiting van zorg en onderdak.",
-    "De dominee van de Pauluskerk liet haar zelf een oplossing vinden en leerde haar vanuit christelijke waarden te kijken.",
-    "Steeds meer gewone Nederlanders raken dakloos, bijvoorbeeld door scheiding, baanverlies en een tekort aan betaalbare huizen.",
-    "Het systeem van loketten, protocollen en privatisering is duur en lost kernproblemen als bestaanszekerheid niet op.",
-    "Stefan Paas vraagt of ze door haar spreekuur een vertekend beeld krijgt; zij wijst op toename en op Sint Eustatius met veel minder psychische klachten.",
-    "Op Sint Eustatius leerde ze dat religie en zorg voor de ziel bij geneeskunde horen.",
-    "Het meritocratische denken leidt volgens haar tot morele leegte, onveiligheid en polarisatie.",
-    "Ze werd ontslagen na een boos Facebookbericht over onvoldoende voorzieningen voor dakloze patiënten."
+    "Van Tongerloo kreeg slapeloze nachten door de schrijnende situaties die ze als straatarts zag en de machteloosheid om oplossingen te vinden",
+    "Door gesprekken met een dominee en anderen veranderde haar blik: ze ging denken vanuit christelijke waarden, ook zonder zelf gelovig te zijn",
+    "Het zorg- en vangnetsysteem is volgens haar verkaveld en geprotocolliseerd, waardoor mensen met complexe problemen van loket naar loket worden gestuurd",
+    "Steeds meer diverse groepen raken dakloos, waaronder economisch dakloze Nederlanders door scheiding of baanverlies, door een tekort aan betaalbare woningen",
+    "Ongedocumenteerden en EU-arbeidsmigranten worden uitgebuit en verliezen werk en onderdak tegelijk, wat volgens haar mensenrechten schendt",
+    "Het gesprek stelt de verzorgingsstaat ter discussie: zorg en bijstand zijn vermarkt en werken het minst voor wie er het meest van afhankelijk is",
+    "Van Tongerloo pleit voor professionele nabijheid en informele steun, zoals een vangnet van vrijwilligers en buurtcollectieven, naast een beperkte maar stevige rol van de overheid",
+    "Stefan Paas duidt de ideeën als genade en een holistische kijk op de mens, en waarschuwt voor de nadelen van hechte gemeenschappen en de angst voor sociale controle",
+    "Het verhaal eindigt met de boodschap dat het helpen van mensen niet moeilijk is en dat burgers er zelf meer verantwoordelijkheid voor kunnen nemen"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Slapeloze nachten van een straatarts",
-      "summary": "Michelle vertelt over haar eerste jaar bij de Pauluskerk en het gevoel van onmacht."
+      "title": "Slapeloze nachten als straatarts",
+      "summary": "Van Tongerloo vertelt hoe de confrontatie met schrijnende zorgverhalen haar lange tijd niet liet slapen."
     },
     {
-      "start_seconds": 244,
-      "title": "De les van de dominee en Sint Eustatius",
-      "summary": "De dominee dwingt haar zelf oplossingen te zoeken; ze kijkt vanuit christelijke waarden en gaat naar Sint Eustatius."
+      "start_seconds": 478,
+      "title": "Nederland als patiënt",
+      "summary": "Van Tongerloo beschrijft hoe steeds meer verschillende groepen op haar spreekuur komen en waarom ze het land als ziek ziet."
     },
     {
-      "start_seconds": 464,
-      "title": "Een land bij de dokter",
-      "summary": "Haar spreekuur als spiegel van Nederland en de analyse van sociale zekerheid, huizenmarkt en zorgstelsel."
+      "start_seconds": 920,
+      "title": "Zorgmarkt en privatisering",
+      "summary": "Het gesprek gaat over het gemeentelijke dossier van Alice en de absurde kosten die zorgorganisaties vragen."
     },
     {
-      "start_seconds": 753,
-      "title": "Protocollen, loketten en winst",
-      "summary": "Het versnipperde hulpsysteem kost veel geld en lost kernproblemen niet op; Paas vraagt naar een vertekend beeld."
+      "start_seconds": 1203,
+      "title": "De Pauluskerk en het ontslag",
+      "summary": "Van Tongerloo vertelt over haar eerdere ontslag na een Facebookbericht en hoe ze later bij de Pauluskerk terechtkwam."
     },
     {
-      "start_seconds": 1050,
-      "title": "Verborgen dakloosheid",
-      "summary": "Voorbeelden van mensen die in hun auto wonen en de omvang van dakloosheid."
+      "start_seconds": 1708,
+      "title": "Religieus perspectief en genade",
+      "summary": "Van Tongerloo deelt hoe ze vanuit christelijke waarden is gaan werken zonder zelf gelovig te zijn, en Paas koppelt dit aan genade."
     },
     {
-      "start_seconds": 1214,
-      "title": "Ontslag en de Pauluskerk",
-      "summary": "Haar ontslag na een Facebookbericht, de overstap naar de Pauluskerk en de geschiedenis van de kerk."
+      "start_seconds": 2160,
+      "title": "Ongedocumenteerden en arbeidsmigranten",
+      "summary": "De uitbuiting van ongedocumenteerden en EU-migranten komt aan bod, evenals de rol van de verzorgingsstaat."
     },
     {
-      "start_seconds": 1668,
-      "title": "Religie, genade en morele leegte",
-      "summary": "Hoe religie haar blik veranderde en waarom het meritocratische denken de samenleving ziek maakt."
+      "start_seconds": 2828,
+      "title": "Gemeenschap en de rol van de overheid",
+      "summary": "Het gesprek verkent de balans tussen overheid, gemeenschap en individu, en de historische armenzorg van de kerk."
+    },
+    {
+      "start_seconds": 3747,
+      "title": "Wat het werk leert over mensen",
+      "summary": "Van Tongerloo sluit af met de lessen die patiënten als Rilana haar leerden, en de boodschap dat helpen niet zo moeilijk is."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 363,
+      "start_seconds": 481,
       "speaker": "Michelle van Tongerloo",
-      "text": "Wat zit je nou te zeuren over een paspoort als God iedereen zijn identiteit al heeft gegeven?",
-      "note": "De uitspraak van de dominee die haar blik veranderde."
+      "text": "Ja, Nederland is ziek.",
+      "note": "Een korte, scherpe diagnose die de titel van het boek en het hele gesprek samenvat."
     },
     {
-      "start_seconds": 1112,
+      "start_seconds": 380,
       "speaker": "Michelle van Tongerloo",
-      "text": "Als dakloze mensen doen ze hun best om te laten zien dat ze niet dakloos zijn.",
-      "note": "Maakt zichtbaar hoe verborgen dakloosheid is."
+      "text": "Een dominee vroeg haar waarom zij over een paspoort zeurde, als God iedereen zijn identiteit al had gegeven.",
+      "note": "Het moment waarop haar kijk op hulpverlening verschoof naar een religieus en onvoorwaardelijk perspectief."
     },
     {
-      "start_seconds": 1337,
+      "start_seconds": 2217,
       "speaker": "Michelle van Tongerloo",
-      "text": "Ik kon alleen maar huilen.",
-      "note": "Emotioneel moment bij haar ontslag."
+      "text": "Bijna al mijn ongedocumenteerde patiënten worden op deze manier uitgebuit.",
+      "note": "Maakt de concrete uitbuiting zichtbaar, zoals een kankerpatiënte die 7 dagen per week werkt voor 30 euro."
     },
     {
-      "start_seconds": 1990,
+      "start_seconds": 3684,
       "speaker": "Michelle van Tongerloo",
-      "text": "Dat meritocratische principe maakt onze samenleving echt ziek.",
-      "note": "Kern van haar maatschappijkritiek."
+      "text": "Eigenlijk hebben we onze ziel verkocht.",
+      "note": "Vat de centrale stelling van de aflevering samen, mede door de titel en de discussie over geld boven zorg."
     },
     {
-      "start_seconds": 1800,
-      "speaker": "Stefan Paas",
-      "text": "We hebben het allemaal keurig opgesplitst, maar niemand kijkt nog naar de hele mens.",
-      "note": "Scherpe duiding van de versnippering van zorg."
+      "start_seconds": 4096,
+      "speaker": "Michelle van Tongerloo",
+      "text": "Doordat je mensen effectiever kunt helpen, doen ze veel minder vaak een beroep op je.",
+      "note": "Een hoopvolle en praktische boodschap die laat zien dat nabijheid de zorgvraag kan verminderen."
+    },
+    {
+      "start_seconds": 3994,
+      "speaker": "Michelle van Tongerloo",
+      "text": "De oplossingen voor onze problemen zijn super eenvoudig. We hebben het zelf gewoon heel moeilijk gemaakt.",
+      "note": "Een optimistische slotgedachte die de urgentie van het verhaal combineert met een oproep tot persoonlijke verantwoordelijkheid."
     }
   ],
   "keywords": [
-    "Pauluskerk",
     "straatarts",
+    "Pauluskerk",
     "dakloosheid",
-    "bestaanszekerheid",
+    "ongedocumenteerden",
+    "verzorgingsstaat",
     "meritocratie",
-    "morele leegte",
-    "Sint Eustatius",
-    "naastenliefde",
     "genade",
-    "polarisatie",
-    "zorgstelsel"
+    "naastenliefde",
+    "gemeenschap",
+    "zorgmarkt",
+    "toeslagenschandaal"
   ],
   "quotes": [
-    "Nederland heeft haar ziel verloren"
+    "Nederland heeft haar ziel verloren",
+    "Komt een land bij de dokter"
   ],
   "similar": [
     {
       "n": 216,
-      "reason": "Tim 's Jongers over armoede; zelfde besproken persoon en thema's geld en samenleving"
+      "reason": "Gesprek over armoede en het sociale vangnet, met Tim Sjongers, een besproken persoon"
+    },
+    {
+      "n": 174,
+      "reason": "Economische onvrede, politiek en samenleving, zoals het verhaal over het falende vangnet"
     },
     {
       "n": 268,
-      "reason": "'Europa heeft zijn ziel verkocht': economie, cultuur en maatschappelijk onbehagen"
-    },
-    {
-      "n": 123,
-      "reason": "Advocaat over mensbeeld en geloof bij kwetsbare mensen aan de rand van de samenleving"
+      "reason": "Economie, Europa en 'ziel verkocht', sluit aan bij economische kritiek en kerkelijke thema's"
     },
     {
       "n": 299,
-      "reason": "Genade, vergeving en genadeloze samenleving; christelijke waarden bij niet-gelovige invalshoek"
-    },
-    {
-      "n": 105,
-      "reason": "Rikko Voorberg over maatschappelijke onverschilligheid voor kwetsbaren en de kerk"
+      "reason": "Genade en vergeving als theologisch thema, plus samenleving en economie, net als in deze aflevering"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

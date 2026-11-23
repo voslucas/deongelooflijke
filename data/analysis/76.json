@@ -1,18 +1,23 @@
 {
   "episode": 76,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 142184,
+    "segments": 1614,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32013,
-    "output_tokens": 2033,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 74772,
+    "output_tokens": 7729,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Gezin & relaties",
+    "God & geloof",
     "Kerk & secularisatie",
-    "Samenleving & migratie",
-    "Filosofie & ethiek"
+    "Geschiedenis"
   ],
   "guests": [
     "Beatrijs Smulders",
@@ -20,68 +25,129 @@
   ],
   "people": [
     {
+      "name": "Katja Schuurman",
+      "note": "actrice die zei dat ze altijd dacht dat grensoverschrijdend gedrag er bij hoorde",
+      "start_seconds": 1147,
+      "mention_count": 1
+    },
+    {
       "name": "Tim Hofman",
-      "note": "presentator van BOOS, maakte uitzending over misstanden bij The Voice",
-      "start_seconds": 914,
-      "wiki_checked": true,
-      "wiki_pageid": 3025374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Hofman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tim_Hofman_%282018%29.jpg/250px-Tim_Hofman_%282018%29.jpg",
+      "note": "betrokken bij de uitzending over seksueel grensoverschrijdend gedrag bij The Voice",
+      "start_seconds": 898,
       "mention_count": 1
     },
     {
       "name": "John de Mol",
-      "note": "televisiemaker, gaf interview naar aanleiding van The Voice-ophef",
+      "note": "televisiemaker; defensieve reactie op de misstanden bij The Voice",
       "start_seconds": 1281,
-      "wiki_checked": true,
-      "wiki_pageid": 120305,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_de_Mol_jr.",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/John_de_Mol_jr.jpg/250px-John_de_Mol_jr.jpg",
-      "mention_count": 1
+      "mention_count": 2
     },
     {
       "name": "Goedele Liekens",
-      "note": "Vlaamse seksuologe, aanwezig bij podcast Seks met sokken",
+      "note": "Vlaamse seksuoloog",
       "start_seconds": 763,
-      "wiki_checked": true,
-      "wiki_pageid": 12931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Goedele_Liekens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Goedele_liekens_675.jpg/250px-Goedele_liekens_675.jpg",
       "mention_count": 1
     },
     {
-      "name": "Katja Schuurman",
-      "note": "presentatrice/actrice, vond grensoverschrijdend gedrag vroeger erbij horen",
-      "start_seconds": 1148,
-      "wiki_checked": true,
-      "wiki_pageid": 39223,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Katja_Schuurman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/TEDxAMS2012_Katja_Schuurman_%284%29_%28cropped%29.JPG/250px-TEDxAMS2012_Katja_Schuurman_%284%29_%28cropped%29.JPG",
+      "name": "Lize Corpushoek",
+      "note": "maakte documentaire over 'mijn seks is stuk'",
+      "start_seconds": 2090,
       "mention_count": 1
     },
     {
       "name": "Ellen Laan",
-      "note": "seksuologe, onlangs overleden",
+      "note": "seksuologe, overleden vlak voor de opname",
       "start_seconds": 1980,
-      "wiki_checked": true,
-      "wiki_pageid": 4931957,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ellen_Laan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Profdr_etm_ellen_laan-1515774299.jpg/250px-Profdr_etm_ellen_laan-1515774299.jpg",
       "mention_count": 1
     },
     {
-      "name": "Lize Korpershoek",
-      "note": "maakte documentaire 'Mijn seks is stuk'",
-      "start_seconds": 2085,
-      "wiki_checked": true,
-      "wiki_pageid": 5299221,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lize_Korpershoek",
+      "name": "Sigmund Freud",
+      "note": "beschreef libido als een honger naar seks",
+      "start_seconds": 2728,
+      "mention_count": 1
+    },
+    {
+      "name": "Jacob Kat",
+      "note": "dichter die ondeugende verzen over seks schreef",
+      "start_seconds": 2658,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader met een moralistische visie op seks",
+      "start_seconds": 2497,
+      "mention_count": 1
+    },
+    {
+      "name": "Rowan Williams",
+      "note": "theoloog; term 'genade van het lichaam'",
+      "start_seconds": 2922,
+      "mention_count": 1
+    },
+    {
+      "name": "Constantijn",
+      "note": "Romeinse keizer die christen werd en wetten voor de bevolking maakte",
+      "start_seconds": 3075,
+      "mention_count": 1
+    },
+    {
+      "name": "Hieronymus",
+      "note": "kerkvader die bezwaar maakte tegen overspelwetten die alleen vrouwen troffen",
+      "start_seconds": 3135,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Chrysostomus",
+      "note": "vierde-eeuwse kerkvader die mannen aansprak op hun dubbele moraal",
+      "start_seconds": 3153,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel; vermaning om vrouwen in ere te houden",
+      "start_seconds": 3037,
+      "mention_count": 1
+    },
+    {
+      "name": "Adam",
+      "note": "bijbelse figuur; 'bekende zijn vrouw'",
+      "start_seconds": 4865,
+      "mention_count": 1
+    },
+    {
+      "name": "Almatine Leenen",
+      "note": "theoloog die sprak over seks in de Bijbel (podcast Dit is de Bijbel)",
+      "start_seconds": 3890,
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "voorbeeld van een onbeschaafde, populistische man",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "voorbeeld van een onbeschaafde leider",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Recep Erdogan",
+      "note": "voorbeeld van een onbeschaafde leider",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Jozef Stalin",
+      "note": "genoemd als populistische dictator",
+      "start_seconds": 4344,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "genoemd als populistische dictator",
+      "start_seconds": 4344,
       "mention_count": 1
     }
   ],
@@ -89,121 +155,161 @@
     {
       "title": "Bloed",
       "author": "Beatrijs Smulders",
-      "note": "boek van Smulders over seksualiteit en bevalling",
-      "start_seconds": 225,
-      "volume_id": "30UqEAAAQBAJ",
-      "canonical_title": "Bloed",
+      "note": "boek van Beatrijs Smulders over seksualiteit en omgang met seks",
+      "start_seconds": 135,
+      "volume_id": "ck8lzgEACAAJ",
+      "canonical_title": "Bloed. Een vrouwengeschiedenis. Deel 1",
       "canonical_author": "Beatrijs Smulders",
-      "isbn13": "9789038810157",
-      "isbn10": "9038810156",
-      "thumbnail": "http://books.google.com/books/content?id=30UqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789038808512",
+      "isbn10": "9038808518",
+      "thumbnail": ""
+    },
+    {
+      "title": "Schaamte en Schande",
+      "author": "",
+      "note": "genoemd als bron waardoor Smulders de waarde van vrouwelijke seksualiteit ontdekte (titel in transcript onduidelijk)",
+      "start_seconds": 2285
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Genesis 4:1",
+      "note": "Adam 'bekende' zijn vrouw: Stefan Paas duidt het Hebreeuwse woord voor kennen als ook seks hebben",
+      "start_seconds": 4865
+    }
+  ],
   "places": [
     "Amsterdam",
-    "Brabant",
-    "Amerika",
     "Berlijn",
+    "Brabant",
+    "Rusland",
     "India",
     "Somalië",
     "Vlaanderen"
   ],
-  "summary_tldr": "David Boogerd spreekt met verloskundige Beatrijs Smulders, relatietherapeut Cocky Drost en Stefan Paas over seksueel grensoverschrijdend gedrag na de ophef rond The Voice. Ze bespreken de seksuele revolutie van de jaren zestig, porno, de rol van religie en de vraag of een nieuwe seksuele beschaving nodig is.",
+  "summary_tldr": "David Boogerd bespreekt met verloskundige Beatrijs Smulders, sexfluencer en relatietherapeut Cocky Drost en theoloog Stefan Paas of er een nieuwe seksuele revolutie nodig is. De gesprekspartners zien de #MeToo-golf en het misbruikschandaal rond The Voice als uiting van een machtsvraagstuk, een patriarchale erfenis en een verstoorde seksuele cultuur die vooral door porno en commercie wordt beïnvloed. Ze pleiten voor 'seksuele beschaving', waarin seks wordt gezien als iets heiligs dat verbonden is met emotionele veiligheid, autonomie en zelfkennis.",
   "summary_points": [
-    "De ophef rond The Voice en MeToo zet de seksuele moraal weer ter discussie",
-    "Smulders ziet bevalling en seksualiteit als nauw verbonden, en trauma werkt door in beide",
-    "Volgens de cijfers heeft ongeveer 40% van de vrouwen seksueel overschrijdend gedrag meegemaakt",
-    "De seksuele revolutie was vooral een bevrijding voor mannen; vrouwen bleven met de gevolgen zitten",
-    "Wegvallen van religieuze bescherming vraagt dat vrouwen zichzelf leren beschermen",
-    "Porno en commercialisering van seks verstoren de seksualiteit van jongeren",
-    "Drost groeide op met schaamte en schuld rond seks en pleit voor ontdekking van eigen grenzen",
-    "Smulders pleit voor 'penisbeschaving': respect en bewondering tussen man en vrouw",
-    "Discussie over verantwoordelijkheid: kleding en gezond verstand versus schuld van de dader"
+    "Seksueel grensoverschrijdend gedrag is volgens Smulders van alle tijden, maar wordt nu openlijker zichtbaar en besproken.",
+    "Smulders schat dat ongeveer 40% van de vrouwen seksueel overschrijdend gedrag heeft meegemaakt, een kwart tot een derde ernstig.",
+    "De seksuele revolutie van de jaren 60 en 70 bracht bevrijding, maar voor veel vrouwen ook verwarring, abortussen en kwetsbaarheid; de pil ontkoppelde seks van voortplanting.",
+    "Porno en commercialisering van seks worden gezien als factoren die de seksuele cultuur en het gedrag van jongens en meisjes vervormen.",
+    "Stefan Paas schetst de christelijke seksuele moraal in de vierde en vijfde eeuw: een poging om seks te beteugelen en slavenhandel en gedwongen prostitutie tegen te gaan.",
+    "De gesprekspartners erkennen dat ook het christendom een gemengde erfenis heeft, met zowel patriarchale als bevrijdende elementen.",
+    "Cocky Drost benadrukt dat seks verbonden is met autonomie, emotionele veiligheid en eigen grenzen, en dat schaamte uit religieuze opvoeding schadelijk is.",
+    "Er wordt gepleit voor seksuele voorlichting vanaf jonge leeftijd, waarin de moeder en vader een voorbeeldrol spelen in liefde en respect voor vrouwen.",
+    "De gesprekspartners zien een derde seksuele revolutie aankomen, gericht op 'seksuele beschaving' en gelijkwaardige verbinding."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en opzet",
-      "summary": "Introductie van het thema en de gasten na de ophef rond The Voice."
+      "title": "Opening en voorstelling van de gasten",
+      "summary": "De presentator introduceert het thema seks en de gasten: verloskundige Beatrijs Smulders, Cocky Drost en vaste gast Stefan Paas."
     },
     {
-      "start_seconds": 165,
-      "title": "Bevalling en seksualiteit",
-      "summary": "Smulders legt het verband tussen liefdesdaad, bevalling, hormonen en trauma."
+      "start_seconds": 240,
+      "title": "Seksualiteit en verloskunde",
+      "summary": "Smulders legt uit hoe seksualiteit, bevalling en trauma met elkaar samenhangen en hoe hormonen een rol spelen."
     },
     {
-      "start_seconds": 525,
-      "title": "Mannen, agressie en tederheid",
-      "summary": "Gesprek over testosteron, agressie en de paradox van tederheid bij mannen."
-    },
-    {
-      "start_seconds": 660,
-      "title": "Seks, geloof en relaties",
-      "summary": "Drost vertelt over haar werk als relatietherapeut en haar christelijke opvoeding vol schaamte."
-    },
-    {
-      "start_seconds": 895,
-      "title": "The Voice, MeToo en normalisering",
-      "summary": "Reflectie op de omvang van grensoverschrijdend gedrag en hoe vrouwen het normaal zijn gaan vinden."
+      "start_seconds": 898,
+      "title": "Het misbruikschandaal rond The Voice en #MeToo",
+      "summary": "Het gesprek gaat over de vraag of het huidige aantal meldingen van grensoverschrijdend gedrag een toename of een groeiend bewustzijn betekent."
     },
     {
       "start_seconds": 1610,
-      "title": "De seksuele revolutie terugblikkend",
-      "summary": "Smulders vertelt over de jaren zeventig in Amsterdam en de gevolgen voor vrouwen."
+      "title": "De seksuele revolutie van de jaren 60 en 70",
+      "summary": "Smulders en Drost beschrijven de bevrijding én de schade van de seksuele revolutie, en de rol van de pil en het verdwijnen van religieuze bescherming."
     },
     {
-      "start_seconds": 1830,
-      "title": "Verantwoordelijkheid, libido en porno",
-      "summary": "Debat over kleding, mannelijk libido, prikkels, porno en de orgasmekloof."
+      "start_seconds": 2400,
+      "title": "Christelijke seksuele moraal in de oudheid",
+      "summary": "Stefan Paas schetst de seksuele moraal van de vroege kerk, de dubbele moraal en de bescherming van slaven tegen gedwongen seks."
+    },
+    {
+      "start_seconds": 3060,
+      "title": "Macht, misbruik en de rol van religie",
+      "summary": "De gesprekspartners bespreken of een losse of strenge seksuele moraal misbruik verklaart en waarom misbruik in zowel kerk als showbizz voorkomt."
+    },
+    {
+      "start_seconds": 3960,
+      "title": "Seksuele beschaving en opvoeding",
+      "summary": "Smulders pleit voor seksuele beschaving, waarin mannen vrouwen bewonderen en ouders een liefdevol voorbeeld geven aan kinderen."
+    },
+    {
+      "start_seconds": 4680,
+      "title": "Synchrone seks en de nieuwe seksuele revolutie",
+      "summary": "Drost beschrijft verschillende soorten seks en pleit voor gelijkwaardige verbinding; het gesprek eindigt met de vraag of de mensheid zichzelf nog kan beschermen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 24,
+      "start_seconds": 2224,
       "speaker": "Beatrijs Smulders",
-      "text": "Nu is eindelijk de vrouw aan zet.",
-      "note": "Optimistische kernstelling over een historische cesuur."
+      "text": "Hoe ouder ik word, hoe meer ik denk dat het een hele heilige zaak is, die seksualiteit, want je kan er liefde maar ook leven mee maken.",
+      "note": "Een bijna spiritueel uitgangspunt dat het gesprek over seks als alledaags thema verdiept."
     },
     {
-      "start_seconds": 1296,
+      "start_seconds": 2760,
       "speaker": "Cocky Drost",
-      "text": "Ik realiseerde me: ik heb hier zelf ook aan meegedaan, ik heb dit in stand gehouden.",
-      "note": "Eerlijke zelfreflectie na het interview van John de Mol."
+      "text": "Ik zeg altijd: seks raakt aan je ziel.",
+      "note": "Koppelt seks aan identiteit en emotionele overgave, een centraal argument van de aflevering."
     },
     {
-      "start_seconds": 1676,
+      "start_seconds": 2257,
       "speaker": "Beatrijs Smulders",
-      "text": "Na 5 jaar was het onder mijn vriendinnen een slagveld van abortussen en scheidingen.",
-      "note": "Persoonlijk tegenverhaal over de seksuele revolutie."
+      "text": "Je hebt als man ineens geen verantwoordelijkheid meer, want je kunt gewoon van de ene naar de andere vrouw gaan.",
+      "note": "Scherpe kritiek op de pil als ongelijke verdeling van verantwoordelijkheid."
     },
     {
-      "start_seconds": 1560,
+      "start_seconds": 3995,
       "speaker": "Beatrijs Smulders",
-      "text": "We hebben de seksuele revolutie gehad en nu gaan we naar de seksuele beschaving: penisbeschaving.",
-      "note": "Eigen term voor haar visie op de toekomst."
+      "text": "Dit is nog nooit vertoond, wat vrouwen op dit moment aan het doen zijn.",
+      "note": "Ze ziet de huidige vrouwenbeweging als een historische cesuur."
     },
     {
-      "start_seconds": 1850,
-      "speaker": "Cocky Drost",
-      "text": "Het is niet jouw schuld.",
-      "note": "Een tweet die haar ontroerde en haar eigen zelfbeschuldiging blootlegde."
+      "start_seconds": 3240,
+      "speaker": "Stefan Paas",
+      "text": "Christenen zeiden: je hebt die vrije wil, en wie gedwongen wordt om te zondigen, is niet verantwoordelijk.",
+      "note": "Laat zien hoe christelijke ethiek ook bevrijdend werkte voor slaven en gedwongen prostituees."
     }
   ],
   "keywords": [
     "seksuele revolutie",
+    "seksuele moraal",
     "MeToo",
     "The Voice",
-    "seksueel overschrijdend gedrag",
-    "porno",
-    "libido",
-    "emancipatie",
-    "seksuele moraal",
-    "secularisatie",
+    "seksueel grensoverschrijdend gedrag",
+    "patriarchaat",
+    "seksuele beschaving",
+    "christelijke ethiek",
     "oxytocine",
-    "trauma",
-    "penisbeschaving"
+    "emotionele veiligheid",
+    "voorlichting",
+    "dubbele moraal"
   ],
-  "quotes": [],
-  "similar": []
+  "quotes": [
+    "Is het tijd voor een nieuwe seksuele revolutie?",
+    "Seks ook wordt gezien als een zaak van de ziel.",
+    "Een seksuele revolutie die minder bekend is maar enorm invloedrijk: die van het christendom, zo'n 2000 jaar terug."
+  ],
+  "similar": [
+    {
+      "n": 283,
+      "reason": "Gesprek over prostitutie, seksuele revolutie en een 'feministische' Jezus, sterk verwant"
+    },
+    {
+      "n": 294,
+      "reason": "Millennials, open relaties, seksuele moraal en de verhouding tot de kerk"
+    },
+    {
+      "n": 39,
+      "reason": "Christendom en vrouwonvriendelijkheid, met gezin, relaties en kerk; Almatine Leene wordt genoemd"
+    },
+    {
+      "n": 70,
+      "reason": "Kerk, geloof en relaties, met een feministische schrijver over religieuze keuzes"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

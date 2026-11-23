@@ -1,18 +1,23 @@
 {
   "episode": 183,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 97083,
+    "segments": 1178,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31420,
-    "output_tokens": 2975,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50386,
+    "output_tokens": 3483,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
-    "God & geloof",
-    "Geschiedenis",
-    "Politiek"
+    "Politiek",
+    "Samenleving & migratie",
+    "God & geloof"
   ],
   "guests": [
     "Ronald van Raak"
@@ -20,176 +25,167 @@
   "people": [
     {
       "name": "Baruch Spinoza",
-      "note": "Joods-Nederlandse filosoof uit de 17e eeuw, auteur van de Ethica",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 16730,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/250px-Spinoza.jpg"
-    },
-    {
-      "name": "Albert Einstein",
-      "note": "Natuurkundige die zei in de God van Spinoza te geloven",
-      "start_seconds": 39,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "note": "17e-eeuwse joods-Nederlandse filosoof, centraal onderwerp van de aflevering",
+      "start_seconds": 5,
+      "mention_count": 60
     },
     {
       "name": "Erasmus",
-      "note": "Humanist, eerder besproken in de podcast, vergeleken met Spinoza",
+      "note": "Humanistische denker uit de 16e eeuw, vergelijkingspunt",
       "start_seconds": 109,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
+      "mention_count": 22
     },
     {
-      "name": "Ludwig Feuerbach",
-      "note": "Noemde Spinoza 'onze Mozes'",
-      "start_seconds": 505,
-      "wiki_checked": true,
-      "wiki_pageid": 29110,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Feuerbach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ludwig_feuerbach.jpg/250px-Ludwig_feuerbach.jpg"
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog",
+      "start_seconds": 39,
+      "mention_count": 3
     },
     {
-      "name": "Ferdinand Domela Nieuwenhuis",
-      "note": "Eerste socialistenleider en voormalig dominee, fan van Spinoza",
-      "start_seconds": 507,
-      "wiki_checked": true,
-      "wiki_pageid": 77206,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ferdinand_Domela_Nieuwenhuis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Domela_nieuwenhuis.jpg/250px-Domela_nieuwenhuis.jpg"
+      "name": "Einstein",
+      "note": "Zei in de God van Spinoza te geloven",
+      "start_seconds": 372,
+      "mention_count": 3
     },
     {
       "name": "Johan de Witt",
-      "note": "Regent van de Republiek, in 1672 gelyncht",
-      "start_seconds": 937,
-      "wiki_checked": true,
-      "wiki_pageid": 46636,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johan_de_Witt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Hanneman%2C_Adriaen_-_Johan_de_Witt.jpg/250px-Hanneman%2C_Adriaen_-_Johan_de_Witt.jpg"
+      "note": "Raadpensionaris van de Republiek, omgebracht in het rampjaar 1672",
+      "start_seconds": 605,
+      "mention_count": 5
     },
     {
       "name": "Cornelis de Witt",
-      "note": "Broer van Johan, in 1672 gelyncht",
-      "start_seconds": 937,
-      "wiki_checked": true,
-      "wiki_pageid": 99934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cornelis_de_Witt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cornelis_de_Witt%2C_door_Jan_de_Baen.jpg/250px-Cornelis_de_Witt%2C_door_Jan_de_Baen.jpg"
-    },
-    {
-      "name": "Adriaan Koerbagh",
-      "note": "Vriend van Spinoza, overleed in de gevangenis",
-      "start_seconds": 889,
-      "wiki_checked": true,
-      "wiki_pageid": 921583,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adriaen_Koerbagh"
-    },
-    {
-      "name": "René Descartes",
-      "note": "Filosoof die in de Republiek verbleef, invloed op Spinoza's kring",
-      "start_seconds": 654,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "Jonathan Israel",
-      "note": "Historicus, schreef een biografie over Spinoza",
-      "start_seconds": 1016,
-      "wiki_checked": true,
-      "wiki_pageid": 108349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Israel"
-    },
-    {
-      "name": "Christiaan Huygens",
-      "note": "Verbeterde de telescoop, gebruikte Spinoza's lenzen",
-      "start_seconds": 1289,
-      "wiki_checked": true,
-      "wiki_pageid": 266,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Christiaan_Huygens",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Caspar_Netscher_-_Christiaan_Huygens%2C_the_astronomer%2C_1671.jpg/250px-Caspar_Netscher_-_Christiaan_Huygens%2C_the_astronomer%2C_1671.jpg"
-    },
-    {
-      "name": "Antoni van Leeuwenhoek",
-      "note": "Verbeterde de microscoop",
-      "start_seconds": 1289,
-      "wiki_checked": true,
-      "wiki_pageid": 71,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Antoni_van_Leeuwenhoek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Portret_van_Antonie_van_Leeuwenhoek%2C_RP-P-1903-A-23563.jpg/250px-Portret_van_Antonie_van_Leeuwenhoek%2C_RP-P-1903-A-23563.jpg"
+      "note": "Broer van Johan de Witt, gelyncht in Den Haag",
+      "start_seconds": 938,
+      "mention_count": 2
     },
     {
       "name": "Carolus Tuinman",
-      "note": "Dominee die in 1719 een vijandig grafschrift voor Spinoza schreef",
-      "start_seconds": 2140,
-      "wiki_checked": true,
-      "wiki_pageid": 5156202,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carolus_Tuinman"
+      "note": "Dominee die in 1719 een vijandig grafschrift schreef",
+      "start_seconds": 2148,
+      "mention_count": 2
+    },
+    {
+      "name": "Jacob Moleschott",
+      "note": "Filosoof en fysioloog die de Ethica als troost las",
+      "start_seconds": 2300,
+      "mention_count": 2
+    },
+    {
+      "name": "Multatuli",
+      "note": "Schrijver en pleitbezorger van Spinoza in de 19e eeuw",
+      "start_seconds": 2375,
+      "mention_count": 2
+    },
+    {
+      "name": "Domela Nieuwenhuis",
+      "note": "Eerste Nederlandse socialistenleider, bewonderaar van Spinoza",
+      "start_seconds": 510,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader, vaker genoemd door Stefan Paas",
+      "start_seconds": 456,
+      "mention_count": 2
+    },
+    {
+      "name": "Feuerbach",
+      "note": "Filosoof die Spinoza 'onze Mozes' noemde",
+      "start_seconds": 500,
+      "mention_count": 1
+    },
+    {
+      "name": "Descartes",
+      "note": "Filosoof wiens denken in de geest van de collegianten leefde",
+      "start_seconds": 660,
+      "mention_count": 2
+    },
+    {
+      "name": "Christoffel Koerbagh",
+      "note": "Vriend van Spinoza, overleed in de gevangenis na publicatie",
+      "start_seconds": 890,
+      "mention_count": 2
     },
     {
       "name": "Hans Holbein",
-      "note": "Schilder die Erasmus portretteerde",
-      "start_seconds": 779,
-      "wiki_checked": true,
-      "wiki_pageid": 22614,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_Holbein_de_Jonge",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Hans_Holbein_the_Younger%2C_self-portrait.jpg/250px-Hans_Holbein_the_Younger%2C_self-portrait.jpg"
+      "note": "Schilder van het beroemde portret van Erasmus",
+      "start_seconds": 780,
+      "mention_count": 1
     },
     {
-      "name": "Jezus",
-      "note": "Door Spinoza 'Christus' genoemd en gezien als moreel voorbeeld",
-      "start_seconds": 1971,
-      "wiki_checked": true,
-      "wiki_pageid": 847,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28historisch%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg/250px-Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg"
+      "name": "Jonathan Israel",
+      "note": "Historicus, schreef een biografie",
+      "start_seconds": 1000,
+      "mention_count": 1
+    },
+    {
+      "name": "Van Leeuwenhoek",
+      "note": "Microscopiebouwer, bekend met Spinoza's lenzen",
+      "start_seconds": 1240,
+      "mention_count": 1
+    },
+    {
+      "name": "Huygens",
+      "note": "Wetenschapper die Spinoza's lenzen waardeerde",
+      "start_seconds": 1260,
+      "mention_count": 1
+    },
+    {
+      "name": "Loesewies van der Laan",
+      "note": "Eerder te gast, sprak over waarden",
+      "start_seconds": 3010,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan-Peter Balkenende",
+      "note": "Oud-premier, genoemd in verband met normen en waarden",
+      "start_seconds": 3050,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Grote",
+      "note": "Stichter van de Moderne Devotie",
+      "start_seconds": 3260,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas à Kempis",
+      "note": "Auteur van De navolging van Christus, Moderne Devotie",
+      "start_seconds": 3270,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Ethica",
       "author": "Baruch Spinoza",
-      "note": "Meesterwerk, postuum gepubliceerd, begint en eindigt met God",
-      "start_seconds": 274
+      "note": "Meesterwerk van Spinoza, pas na zijn dood gepubliceerd",
+      "start_seconds": 270,
+      "volume_id": "t7PaSAAACAAJ",
+      "canonical_title": "Benedicti de Spinoza Ethica ordine geometrico demonstrata",
+      "canonical_author": "Baruch Spinoza",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
-      "title": "Theologisch-politiek tractaat",
+      "title": "Theologisch-politiek traktaat",
       "author": "Baruch Spinoza",
-      "note": "Enige tijdens zijn leven gepubliceerde werk, verboden",
-      "start_seconds": 836,
+      "note": "Gepubliceerd, maar verboden",
+      "start_seconds": 830,
       "volume_id": "VWc5NgAACAAJ",
-      "canonical_title": "Theologisch-politiek traktaat",
+      "canonical_title": "Theologisch-politiek traktaat / druk 5",
       "canonical_author": "Benedictus de Spinoza",
       "isbn13": "9789028417731",
       "isbn10": "9028417737",
       "thumbnail": ""
     },
     {
-      "title": "Spelen met waarden, betalen met gedachten",
+      "title": "Spelen met waarde, betalen met gedachten",
       "author": "Ronald van Raak",
       "note": "Boek over Spinoza, Erasmus en wat ons bindt",
-      "start_seconds": 82,
+      "start_seconds": 2490,
       "volume_id": "ezGP0AEACAAJ",
       "canonical_title": "Spelen met waarden, betalen met gedachten. Erasmus, Spinoza en dat wat ons bindt",
       "canonical_author": "Ronald van Raak",
@@ -200,8 +196,8 @@
     {
       "title": "Lof der Zotheid",
       "author": "Erasmus",
-      "note": "Luchtiger werk van Erasmus, genoemd ter vergelijking",
-      "start_seconds": 446,
+      "note": "Satirisch werk van Erasmus",
+      "start_seconds": 445,
       "volume_id": "NrDLmAEACAAJ",
       "canonical_title": "De lof der zotheid, door Erasmus van Rotterdam",
       "canonical_author": "Desiderius Erasmus",
@@ -212,138 +208,131 @@
   ],
   "bible_refs": [
     {
-      "ref": "Johannes 1",
-      "note": "Het licht dat alle mensen verlicht, door Spinoza vaak geciteerd; de logos",
-      "start_seconds": 1718
+      "ref": "Johannes 1:9",
+      "note": "Het licht dat alle mensen verlicht, door Spinoza vaak geciteerd",
+      "start_seconds": 1740
     }
   ],
   "places": [
     "Amsterdam",
-    "Portugal",
-    "Spanje",
     "Den Haag",
     "Rijnsburg",
     "Voorburg",
+    "Portugal",
+    "Rotterdam",
     "Utrecht",
-    "Rotterdam"
+    "Den Bosch"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en Ronald van Raak bespreken het leven en denken van Baruch Spinoza, van zijn banvloek en het rampjaar 1672 tot zijn Ethica. Centraal staan zijn godsbegrip waarin God samenvalt met de natuur, zijn visie op vrijheid en deugd, en de vraag of hij atheïst was.",
+  "summary_tldr": "Ronald van Raak en Stefan Paas bespreken de 17e-eeuwse filosoof Baruch Spinoza als mogelijk grootste Nederlandse denker. Ze belichten zijn leven, zijn banvloek door de Joodse gemeenschap, zijn godsbeeld waarin God samenvalt met de natuur, en zijn opvattingen over vrijheid, tolerantie en democratie. Ook de wisselende politieke en religieuze toe-eigening van zijn werk door de eeuwen heen komt aan bod.",
   "summary_points": [
-    "Spinoza werd lang gehaat en verketterd, maar is sinds de 19e eeuw enorm populair en wordt door uiteenlopende stromingen omarmd.",
-    "Hij groeide op in een Portugees-Joods vluchtelingengezin in Amsterdam en werd in 1656 met een extreem harde banvloek uit de Joodse gemeenschap gestoten.",
-    "Hij verdiende zijn brood met het slijpen van lenzen, wat waarschijnlijk bijdroeg aan zijn vroege dood op 44-jarige leeftijd.",
-    "Hij durfde zijn Ethica niet te publiceren omdat medestanders vervolgd werden, bijvoorbeeld Adriaan Koerbagh.",
-    "Het rampjaar 1672 en de lynchpartij op de gebroeders De Wit maakten diepe indruk op hem.",
-    "In de Ethica valt God samen met de natuur; gebed en georganiseerde religie zijn daarmee overbodig.",
-    "Vrijheid betekent voor Spinoza inzicht in wat noodzakelijk is, wat leidt tot zielenrust en geluk.",
-    "Spinoza zag Christus als hoogste morele gids, maar geloofde niet in de opstanding.",
-    "Spinoza pleitte voor democratie en vrijheid van meningsuiting om in harmonie met elkaar te leven."
+    "Spinoza wordt door de eeuwen heen zowel gehaat als geliefd en door verschillende stromingen geclaimd.",
+    "Zijn Ethica, opgebouwd als meetkundig systeem, begint en eindigt met God.",
+    "God valt volgens Spinoza samen met de natuur; georganiseerde religie is in zijn visie overbodig.",
+    "Spinoza's vrijheidsbegrip is wederkerig en gebonden aan kennis en plichten, niet aan keuzevrijheid.",
+    "Tolerantie betekent voor hem de plicht je in anderen te verdiepen, niet het recht om te beledigen.",
+    "Hij was een pleitbezorger van democratie en vrijheid van meningsuiting als middelen tot harmonie.",
+    "Zijn banvloek in 1656 was een van de zwaarste uit de Joodse geschiedenis.",
+    "De gebroeders De Witt werden in 1672 gelyncht; Spinoza wilde zich aanvankelijk in het gevaar begeven.",
+    "Na zijn dood werd hij verketterd, later in de 19e eeuw door socialisten en vrijdenkers omarmd.",
+    "Spinoza wordt tegenwoordig door politieke partijen van D66 tot PVV geciteerd.",
+    "Het gesprek legt een verband tussen Spinoza's denken en de huidige discussie over waarden en gedeelde normen."
   ],
   "chapters": [
     {
-      "start_seconds": 39,
-      "title": "Inleiding: Spinoza en polarisatie",
-      "summary": "Ronald van Raak keert terug en koppelt Spinoza's tijd aan de huidige polarisatie. Spinoza pleitte voor democratie en debat."
+      "start_seconds": 0,
+      "title": "Inleiding en Spinoza als grootste denker",
+      "summary": "Het gesprek opent met de vraag of Spinoza de grootste Nederlandse filosoof is, en de verbinding met polarisatie."
     },
     {
-      "start_seconds": 254,
-      "title": "De grootste Nederlandse filosoof?",
-      "summary": "Over de Ethica, de verdenking van atheïsme en Spinoza's herontdekking en uiteenlopende interpretaties."
+      "start_seconds": 270,
+      "title": "De Ethica en het godsbeeld",
+      "summary": "De Ethica wordt besproken als systeem; Spinoza's God valt samen met de natuur en de rol van de kerk wordt ter discussie gesteld."
     },
     {
-      "start_seconds": 625,
-      "title": "Leven en achtergrond",
-      "summary": "Spinoza's Portugees-Joodse afkomst, handelshuis, collegianten en zijn voorzichtigheid bij publiceren."
+      "start_seconds": 720,
+      "title": "Leven en levensloop",
+      "summary": "Spinoza's jeugd als zoon van Portugese joodse vluchtelingen, zijn handelshuis, en de collegianten."
     },
     {
-      "start_seconds": 925,
-      "title": "Het rampjaar en de gebroeders De Wit",
-      "summary": "De lynchpartij van 1672 en Spinoza's bijna-protest met een bord."
+      "start_seconds": 1100,
+      "title": "Het rampjaar en de banvloek",
+      "summary": "De lynching van de gebroeders De Witt, Spinoza's dreigende actie en de tekst van de banvloek."
     },
     {
-      "start_seconds": 1175,
-      "title": "Lenzen slijpen en de banvloek",
-      "summary": "Zijn leven in Rijnsburg, het lenzenslijpen en de voorlezing van de banvloek uit 1656."
+      "start_seconds": 1800,
+      "title": "Ontvangst, haat en herwaardering",
+      "summary": "Het grafschrift van Tuinman, de 19e-eeuwse herwaardering door socialisten en Multatuli, en Spinoza's rol in de canon."
     },
     {
-      "start_seconds": 1470,
-      "title": "Spinoza's godsbeeld en ethiek",
-      "summary": "God als natuur, vrijheid als inzicht, het mystieke element en religie als ethiek."
+      "start_seconds": 2700,
+      "title": "Vrijheid, tolerantie en gedeelde waarden",
+      "summary": "Het verschil tussen Spinozistische en moderne vrijheid, en de plicht tot wederkerigheid in de samenleving."
     },
     {
-      "start_seconds": 1950,
-      "title": "Spinoza en Christus",
-      "summary": "Spinoza's bewondering voor Christus als morele gids zonder opstanding, en de felle reacties van orthodoxe protestanten."
+      "start_seconds": 3200,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Vooruitblik op Van Raak's onderzoek naar de moderne devotie en de slotzinnen van Spinoza."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 9,
+      "start_seconds": 2050,
       "speaker": "Ronald van Raak",
-      "text": "Spinoza wordt in de Tweede Kamer het meest geciteerd door D66 en de PVV, op totaal andere gronden.",
-      "note": "Illustreert hoe breed Spinoza wordt geïnterpreteerd."
+      "text": "Spinoza's zonde was dat hij een alternatief bood voor de kerk, niet dat hij er kritiek op had.",
+      "note": "Verklaart waarom de haat zo diep ging: zijn filosofie werd als concurrent gezien."
     },
     {
-      "start_seconds": 985,
+      "start_seconds": 1560,
       "speaker": "Ronald van Raak",
-      "text": "Spinoza wilde met een bord 'Ultimi barbarorum' naar buiten om het volk aan te klagen, maar zijn huisbaas hield hem tegen.",
-      "note": "Zeldzaam moment van heroïek bij een voorzichtige denker."
+      "text": "Vrijheid is voor Spinoza doen wat noodzakelijk is; het is een steen die in de lucht wordt gegooid en denkt zelf te bepalen waar hij neerkomt.",
+      "note": "Een scherp contrast met het moderne, op keuzevrijheid gebaseerde vrijheidsbegrip."
     },
     {
-      "start_seconds": 1339,
-      "speaker": "Ronald van Raak",
-      "text": "Hij zij vervloekt bij dag en hij zij vervloekt bij nacht...",
-      "note": "De bizar felle banvloek van 1656."
+      "start_seconds": 3320,
+      "speaker": "David Boogerd",
+      "text": "Alles wat voortreffelijk is, is even moeilijk als zeldzaam.",
+      "note": "De slotzin van de Ethica, als uitnodiging tot geduld en diepgang."
     },
     {
-      "start_seconds": 1604,
-      "speaker": "Ronald van Raak",
-      "text": "Wij zien vrijheid als jezelf zijn; voor Spinoza is vrijheid dat je doet wat noodzakelijk is.",
-      "note": "Scherpe uitleg die ons vrijheidsbegrip op zijn kop zet."
-    },
-    {
-      "start_seconds": 1911,
-      "speaker": "Ronald van Raak",
-      "text": "Einstein bezocht het Spinoza Museum in Rijnsburg en tekende hetzelfde gastenboek.",
-      "note": "Leuk weetje over Einsteins band met Spinoza."
+      "start_seconds": 3360,
+      "speaker": "Stefan Paas",
+      "text": "Daar moet je geduld voor hebben en tijd voor hebben en mekaar ook heel laten en blijven luisteren.",
+      "note": "Een pleidooi voor beschaafd en zorgvuldig gesprek als voorwaarde voor gedeelde waarden."
     }
   ],
   "keywords": [
     "Spinoza",
     "Ethica",
+    "banvloek",
+    "vrijheid",
+    "tolerantie",
     "God en natuur",
-    "Banvloek",
-    "Vrijheid",
-    "Democratie",
-    "Rampjaar",
+    "democratie",
     "Erasmus",
-    "Collegianten",
-    "Einstein",
-    "Mystiek",
-    "Deugd"
+    "Rampjaar",
+    "Republiek",
+    "gedeelde waarden",
+    "Verlichting"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 132,
-      "reason": "Zelfde gast Ronald van Raak; over Erasmus, een andere grote denker uit de vroegmoderne tijd."
+      "reason": "Zelfde gast Ronald van Raak; gesprek over de Europese denker Erasmus en filosofie"
+    },
+    {
+      "n": 291,
+      "reason": "Filosofie van vrijheid en liberalisme, sluit aan bij Spinoza's opvattingen over vrijheid"
+    },
+    {
+      "n": 301,
+      "reason": "Filosofische vragen over staat, democratie en de kloof met het volk"
     },
     {
       "n": 122,
-      "reason": "Filosofische duik in God en Nietzsche met Stefan Paas; vergelijkbaar godsvraagstuk."
-    },
-    {
-      "n": 189,
-      "reden": "",
-      "reason": "Filosofische argumenten voor het bestaan van God, vergelijkbaar met Spinoza's godsbegrip."
-    },
-    {
-      "n": 155,
-      "reason": "Filosofie die worstelt met de 'dood van God', inclusief Feuerbach-achtige religiekritiek."
-    },
-    {
-      "n": 112,
-      "reason": "Nederlandse historische figuur uit de Gouden Eeuw en de Opstand, met Paas."
+      "reason": "Filosofische kijk op God, geloof en de erfenis van een grote denker"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

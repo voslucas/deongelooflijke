@@ -1,292 +1,324 @@
 {
   "episode": 110,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 125673,
+    "segments": 1753,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 33357,
-    "output_tokens": 2543,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 68923,
+    "output_tokens": 7625,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
     "Islam & jodendom",
+    "Samenleving & migratie",
     "Politiek",
-    "Geopolitiek & oorlog"
+    "God & geloof"
   ],
   "guests": [
     "Lotfi El Hamidi"
   ],
   "people": [
     {
-      "name": "Lotfi El Hamidi",
-      "note": "historicus, NRC-journalist en schrijver van Generatie 9/11",
-      "start_seconds": 29,
-      "wiki_checked": true
-    },
-    {
       "name": "Pim Fortuyn",
-      "note": "Rotterdamse politicus die de islam een 'achterlijke cultuur' noemde",
-      "start_seconds": 1793,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "note": "Politicus die de islam bekritiseerde; woonde in Rotterdam-West en werd door Lotfi als tiener gehoord",
+      "start_seconds": 785,
+      "mention_count": 12
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, volgens Lotfi meer jongeren de moskee in krijgend dan imams",
+      "note": "PVV-leider; volgens Lotfi heeft hij meer moslims de moskee in gekregen dan imams",
       "start_seconds": 13,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
-    },
-    {
-      "name": "Osama bin Laden",
-      "note": "leider van al-Qaida, kende het religieuze referentiekader",
-      "start_seconds": 757,
-      "wiki_checked": true,
-      "wiki_pageid": 7787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Osama_bin_Laden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osama_bin_Laden_portrait.jpg/250px-Osama_bin_Laden_portrait.jpg"
+      "mention_count": 2
     },
     {
       "name": "George W. Bush",
-      "note": "Amerikaanse president die zei dat je een kant moest kiezen",
-      "start_seconds": 630,
-      "wiki_checked": true,
-      "wiki_pageid": 9659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush.jpeg/250px-George-W-Bush.jpeg"
+      "note": "Amerikaans president na 9/11; eiste dat landen een kant kozen",
+      "start_seconds": 625,
+      "mention_count": 2
     },
     {
-      "name": "Maarten van Rossum",
-      "note": "commentator die 9/11 relativeerde bij de NOS",
-      "start_seconds": 833,
-      "wiki_checked": true,
-      "wiki_pageid": 48665,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_van_Rossem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg/250px-Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg"
+      "name": "Osama bin Laden",
+      "note": "Leider van al-Qaida, achter de aanslagen van 9/11",
+      "start_seconds": 757,
+      "mention_count": 1
     },
     {
       "name": "Salman Rushdie",
-      "note": "schrijver van De Duivelsverzen, later neergestoken",
-      "start_seconds": 1468,
-      "wiki_checked": true,
-      "wiki_pageid": 79014,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Salman_Rushdie",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Salman_Rushdie_2011_Shankbone.JPG/250px-Salman_Rushdie_2011_Shankbone.JPG"
+      "note": "Britse schrijver van De Duivelsverse; aanleiding voor protesten in 1989",
+      "start_seconds": 1469,
+      "mention_count": 4
     },
     {
-      "name": "Ayatollah Khomeini",
-      "note": "Iraanse leider, fatwa en Iraanse revolutie van 1979",
-      "start_seconds": 1605,
-      "wiki_checked": true,
-      "wiki_pageid": 81638,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruhollah_Khomeini",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ruhollah_Khomeini_by_Jamaran_1.jpg/250px-Ruhollah_Khomeini_by_Jamaran_1.jpg"
-    },
-    {
-      "name": "Ronald Sørensen",
-      "note": "geschiedenisdocent van Lotfi en Fortuyn-aanhanger, oprichter Nieuw Rotterdam",
-      "start_seconds": 1876,
-      "wiki_checked": true,
-      "wiki_pageid": 409771,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_S%C3%B8rensen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/RonaldS%C3%B8rensen.jpg/250px-RonaldS%C3%B8rensen.jpg"
+      "name": "Ayaan Hirsi Ali",
+      "note": "Politica en schrijfster die aanslagen theologisch zou kunnen verklaren volgens haar lezing van de Koran",
+      "start_seconds": 2927,
+      "mention_count": 1
     },
     {
       "name": "Jan Wolkers",
-      "note": "schrijver van Turks fruit",
-      "start_seconds": 214,
-      "wiki_checked": true,
-      "wiki_pageid": 14051,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Wolkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Jan_Wolkers.jpg/250px-Jan_Wolkers.jpg"
+      "note": "Schrijver van Turks fruit, het boek dat op de leeslijst stond",
+      "start_seconds": 211,
+      "mention_count": 2
+    },
+    {
+      "name": "Maarten van Rossem",
+      "note": "Historicus die na 9/11 relativeerde op de NOS",
+      "start_seconds": 831,
+      "mention_count": 1
+    },
+    {
+      "name": "Ronald Sørensen",
+      "note": "Geschiedenisdocent van Lotfi die Neuba Rotterdam oprichtte en Fortuyn nauw volgde",
+      "start_seconds": 1875,
+      "mention_count": 3
+    },
+    {
+      "name": "Paul Scheffer",
+      "note": "Auteur van het essay Het multiculturele drama uit 2000",
+      "start_seconds": 2033,
+      "mention_count": 1
+    },
+    {
+      "name": "Bolkestein",
+      "note": "VVD-politicus die in de jaren 90 al problemen rond integratie aankaartte",
+      "start_seconds": 2020,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "ChristenUnie-politicus die onderscheid probeerde te maken tussen salafistische weekendscholen en de islam",
+      "start_seconds": 3711,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Balkenende",
+      "note": "Voormalig CDA-premier die sprak over een nieuwe zuil en etnische lijnen onderschatte",
+      "start_seconds": 3896,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator die Erasmus na het debat bekritiseerde",
+      "start_seconds": 3997,
+      "mention_count": 2
+    },
+    {
+      "name": "Erasmus",
+      "note": "Humanist uit Rotterdam die volgens Lotfi een voorbeeld is van kritisch loyaal blijven",
+      "start_seconds": 3994,
+      "mention_count": 5
+    },
+    {
+      "name": "Jason Walters",
+      "note": "Voormalig radicale moslim die in aflevering 10 van de podcast te gast was",
+      "start_seconds": 2701,
+      "mention_count": 2
+    },
+    {
+      "name": "Mohammed",
+      "note": "Profeet van de islam, over wie de hadith-overleveringen gaan",
+      "start_seconds": 2710,
+      "mention_count": 1
+    },
+    {
+      "name": "Khomeini",
+      "note": "Iraanse ayatollah en leider van de Iraanse revolutie van 1979",
+      "start_seconds": 1602,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "Gesprekspartner in een eerdere aflevering waarnaar Lotfi in zijn NRC-column verwees",
+      "start_seconds": 114,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Generatie 9/11",
       "author": "Lotfi El Hamidi",
-      "note": "boek over opgroeien als Marokkaans-Nederlandse moslim na 9/11",
-      "start_seconds": 29,
+      "note": "Boek van de gast over zijn generatie en de impact van 9/11",
+      "start_seconds": 142,
       "volume_id": "aqqXzwEACAAJ",
-      "canonical_title": "Generatie 9/11: migratie, diaspora en identiteit",
+      "canonical_title": "Generatie 9/11",
       "canonical_author": "Lotfi El Hamidi",
       "isbn13": "9789493256750",
       "isbn10": "9493256758",
       "thumbnail": ""
     },
     {
-      "title": "De Duivelsverzen",
-      "author": "Salman Rushdie",
-      "note": "protesten in 1989, ook in Rotterdam, waar Lotfi's vader meeliep",
-      "start_seconds": 1468,
-      "volume_id": "IDh-RAAACAAJ",
-      "canonical_title": "De duivelsverzen",
-      "canonical_author": "Salman Rushdie",
-      "isbn13": "9789025434717",
-      "isbn10": "9025434711",
-      "thumbnail": "http://books.google.com/books/content?id=IDh-RAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-    },
-    {
       "title": "Turks fruit",
       "author": "Jan Wolkers",
-      "note": "leeslijstboek waarvan migrantenkinderen hoopten dat het over Turken ging",
-      "start_seconds": 191,
+      "note": "Boek op de leeslijst dat Lotfi opdraagt aan migrantenkinderen",
+      "start_seconds": 183,
       "volume_id": "KyJDoAEACAAJ",
       "canonical_title": "Turks fruit",
       "canonical_author": "Jan Wolkers",
       "isbn13": "9789038898971",
       "isbn10": "9038898975",
       "thumbnail": ""
+    },
+    {
+      "title": "De Duivelsverse",
+      "author": "Salman Rushdie",
+      "note": "Boek dat in 1989 wereldwijde protesten en een fatwa veroorzaakte",
+      "start_seconds": 1471,
+      "volume_id": "IDh-RAAACAAJ",
+      "canonical_title": "De duivelsverzen",
+      "canonical_author": "Salman Rushdie",
+      "isbn13": "9789025434717",
+      "isbn10": "9025434711",
+      "thumbnail": "http://books.google.com/books/content?id=IDh-RAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
-    "New York",
     "Rotterdam",
     "Delfshaven",
-    "Rotterdam-West",
-    "Marokko",
     "Ede",
     "Bradford",
-    "Iran",
-    "India",
-    "Midden-Oosten",
-    "Syrië",
-    "Oekraïne"
+    "New York",
+    "Marokko",
+    "Iran"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met NRC-journalist Lotfi El Hamidi over opgroeien als Nederlands-Marokkaanse moslim in Rotterdam rond 9/11. Hij beschrijft hoe het publieke debat over de islam veranderde, van het tolerante Nederland van de jaren negentig naar de polarisatie na Fortuyn. Ook komen religie in de migrantenwijk, de Rushdie-affaire en fundamentalisme aan bod.",
+  "summary_tldr": "Lotfi El Hamidi, historicus en NRC-journalist, vertelt hoe hij als Nederlands-Marokkaanse jongen in Rotterdam-Delfshaven 9/11 en het daaropvolgende islamdebat ervoer. Hij beschrijft hoe het debat, mede door Pim Fortuyn, moslimjongeren dwong te kiezen en juist sommigen naar religie of radicalisering dreef. Samen met Stefan Paas bespreekt hij secularisatie, de verhouding tussen islam en de liberale samenleving en de rol van politiek.",
   "summary_points": [
-    "9/11 als scharniermoment voor het debat over islam en multiculturele samenleving",
-    "Lotfi's herinnering aan 9/11: Al Jazeera op tv en ouders die zeiden 'hou je gedeisd'",
-    "Verwarring als moslimtiener: partij kiezen voor het Westen voelde als tegen jezelf zijn",
-    "Het tolerante, gemoedelijke Nederland van de jaren negentig versus het latere debat",
-    "Opgroeien in Delfshaven: migrantenwijk met verloedering, heroïne en zichtbare religie",
-    "Koranles van zijn opa en de betovering van het Arabisch",
-    "De Rushdie-protesten van 1989 en de opkomst van fundamentalisme als moderne, assertieve religie",
-    "Pim Fortuyn als eerste politicus die misstanden in de islamitische gemeenschap benoemde",
-    "Eerste generatie migranten wilde onzichtbaar blijven als gast"
+    "9/11 wordt gezien als breukpunt waarna het publieke debat over islam en multiculturele samenleving verhardde.",
+    "Lotfi groeide op in een gemengde migrantenwijk in Rotterdam-Delfshaven, waar religie vanzelfsprekend was.",
+    "Zijn opa leerde hem de Koran uit het hoofd; hij ervoer zijn religieuze opvoeding positief.",
+    "De Rushdie-protesten van 1989 in Rotterdam laten zien dat religieuze spanningen al eerder bestonden.",
+    "Pim Fortuyn wordt gezien als een politicus die het taboe op kritiek op de islam doorbrak, al was zijn analyse volgens Lotfi niet altijd juist.",
+    "Na 9/11 moesten jongeren kiezen tussen hun islamitische identiteit en Nederland, wat volgens beide gasten een onmogelijke en schadelijke keuze was.",
+    "Het islamdebat leidde bij sommige jongeren tot meer zelfreflectie en religieuze interesse, bij anderen tot radicalisering via internet.",
+    "Secularisatie wordt niet alleen als vanzelfsprekend gezien; moslims zijn juist een van de weinige groeiende geloofsgemeenschappen.",
+    "De liberale samenleving biedt ruimte voor religie, maar de gasten zien ook de spanning met een orthodoxe interpretatie.",
+    "Lotfi noemt zichzelf een erasmiaanse moslim: orthodox en tegelijk zelfkritisch."
   ],
   "chapters": [
     {
-      "start_seconds": 29,
-      "title": "Introductie en Generatie 9/11",
-      "summary": "Kennismaking met Lotfi El Hamidi en zijn boek, inclusief de opdracht aan migrantenkinderen en Turks fruit."
+      "start_seconds": 0,
+      "title": "Herinneringen aan 9/11",
+      "summary": "De gasten vertellen waar ze waren op 9/11 en hoe Lotfi als tiener de aanslagen via Al Jazeera ervoer."
     },
     {
-      "start_seconds": 304,
-      "title": "Waar was je op 9/11?",
-      "summary": "Persoonlijke herinneringen van de gesprekspartners aan de aanslagen en de collectieve tv-ervaring."
-    },
-    {
-      "start_seconds": 508,
-      "title": "Hou je gedeisd",
-      "summary": "De angst van Lotfi's ouders, het Ede-gerucht en de verwarring over partij kiezen."
-    },
-    {
-      "start_seconds": 898,
+      "start_seconds": 901,
       "title": "Opgroeien in Delfshaven",
-      "summary": "Beschrijving van de migrantenwijk, verloedering, religie en het tolerante Nederland van de jaren negentig."
+      "summary": "Lotfi beschrijft zijn migrantenwijk in Rotterdam-West, met verloedering, heroïne en een sterke religieuze gemeenschap."
     },
     {
-      "start_seconds": 1220,
-      "title": "Koranles en spiritualiteit",
-      "summary": "Lotfi vertelt over zijn opa, het memoriseren van de Koran en de betekenis van het Arabisch."
+      "start_seconds": 1233,
+      "title": "Religie en de Koran thuis",
+      "summary": "Zijn opa leerde hem de Koran memoriseren; Lotfi vertelt over zijn spirituele inborst en zijn broer die er minder mee had."
     },
     {
-      "start_seconds": 1468,
-      "title": "Rushdie en fundamentalisme",
-      "summary": "De Duivelsverzen-protesten van 1989 en fundamentalisme als moderne, activistische religie."
+      "start_seconds": 1465,
+      "title": "De Rushdie-protesten",
+      "summary": "Lotfi en David bespreken de protesten in 1989 rond De Duivelsverse en hoe die de eerste generatie zichtbaar maakten."
     },
     {
       "start_seconds": 1793,
-      "title": "Fortuyn en de verandering van het debat",
-      "summary": "Fortuyns uitspraken over de islam en Lotfi's ervaringen met geschiedenisdocent Sørensen."
+      "title": "Fortuyn en het debat na 9/11",
+      "summary": "Lotfi vertelt over Fortuyn, zijn geschiedenisleraar Ronald Sørensen en hoe het debat na 9/11 verhardde."
+    },
+    {
+      "start_seconds": 2446,
+      "title": "Dilemma's, radicalisering en secularisatie",
+      "summary": "De gasten bespreken de generatiekloof, het keuzedilemma voor jongeren, internetradicalisering en het effect van kritiek op religieuze interesse."
+    },
+    {
+      "start_seconds": 3192,
+      "title": "Europese islam en de praktijk",
+      "summary": "Discussie over of de islam bij Europa past, met praktijkvoorbeelden zoals een hoofddoek achter een loket."
+    },
+    {
+      "start_seconds": 3496,
+      "title": "Liberale samenleving en politiek",
+      "summary": "Lotfi pleit voor een liberale samenleving die religie ruimte geeft; hij bekritiseert de conventionele partijen om hun houding tegenover moslims."
+    },
+    {
+      "start_seconds": 3974,
+      "title": "Erasmiaanse moslim en slot",
+      "summary": "Lotfi noemt zichzelf een erasmiaanse moslim; Stefan Paas stelt dat vroomheid en kritisch zijn samengaan."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 13,
+      "start_seconds": 183,
+      "speaker": "Lotfi El Hamidi",
+      "text": "Ik heb het boek opgedragen aan migrantenkinderen die voor hun leeslijst Turks fruit kozen en erachter kwamen dat het niet over Turken ging.",
+      "note": "Een luchtige opening die meteen het thema erkenning en identiteit raakt."
+    },
+    {
+      "start_seconds": 2446,
       "speaker": "Lotfi El Hamidi",
       "text": "Geert Wilders heeft meer moslims de moskee in gekregen dan welke imam dan ook.",
-      "note": "Prikkelende stelling over secularisatie en polarisatie."
+      "note": "Een ironische stelling die laat zien hoe het islamdebat juist religieuze betrokkenheid aanwreef."
     },
     {
-      "start_seconds": 525,
-      "speaker": "Lotfi El Hamidi",
-      "text": "Mijn ouders zeiden: wat je ook doet morgen, hou je gedeisd.",
-      "note": "Toont de angst van migranten na 9/11."
-    },
-    {
-      "start_seconds": 773,
-      "speaker": "Lotfi El Hamidi",
-      "text": "Als ik partij kies voor het Westen, ben ik dan tegen mezelf?",
-      "note": "Pakt het identiteitsdilemma van een moslimtiener."
-    },
-    {
-      "start_seconds": 1667,
+      "start_seconds": 2521,
       "speaker": "Stefan Paas",
-      "text": "Fundamentalisme is een assertieve, moderne vorm van religie.",
-      "note": "Corrigeert het beeld van fundamentalisme als traditionalisme."
+      "text": "Slechte reclame is ook reclame.",
+      "note": "Scherpe observatie dat negatieve aandacht voor de islam mensen juist nieuwsgierig maakte."
     },
     {
-      "start_seconds": 1778,
+      "start_seconds": 3974,
       "speaker": "Lotfi El Hamidi",
-      "text": "Ik zei tegen mijn docent: het is helemaal geen cultuur, het is een religie.",
-      "note": "Humoristische en scherpe reactie op Fortuyns uitspraak."
+      "text": "Ik beschouw mezelf als een erasmiaanse moslim: weliswaar orthodox, maar tegelijk zelfkritisch.",
+      "note": "Een persoonlijke positiebepaling die orthodoxie en kritische reflectie verbindt."
+    },
+    {
+      "start_seconds": 4073,
+      "speaker": "Stefan Paas",
+      "text": "Vroomheid kan heel goed samengaan met kritisch zijn.",
+      "note": "Een tegengeluid op de aanname dat gelovigen niet kritisch kunnen zijn."
     }
   ],
   "keywords": [
     "9/11",
-    "islam",
-    "Pim Fortuyn",
-    "Generatie 9/11",
-    "multiculturele samenleving",
-    "fundamentalisme",
-    "Salman Rushdie",
-    "Rotterdam",
+    "islamdebat",
     "secularisatie",
-    "migratie",
+    "Pim Fortuyn",
+    "Salman Rushdie",
+    "De Duivelsverse",
+    "radicalisering",
+    "multiculturele samenleving",
+    "generatie 9/11",
     "Koran",
-    "Geert Wilders"
+    "erasmiaanse moslim",
+    "liberale samenleving"
   ],
   "quotes": [
-    "Waarom Geert Wilders meer jongeren de moskee in krijgt dan de meeste imams.",
-    "Over hoe het voelt om opeens 'de ander' te zijn."
+    "Over hoe het voelt om opeens 'de ander' te zijn.",
+    "Over wat Pim Fortuyn scherp zag en over de alsmaar bediscussieerde vraag of de islam wel samen kan gaan met een Westerse samenleving.",
+    "Waarom Geert Wilders meer jongeren de moskee in krijgt dan de meeste imams."
   ],
   "similar": [
     {
-      "n": 220,
-      "reason": "Islam, jodendom en polarisatie in Nederland; debat na antisemitisch geweld in Amsterdam"
+      "n": 222,
+      "reason": "Politiek, polarisatie en islam in de joods-christelijke rechtsstaat, sterk overlappend thema"
     },
     {
       "n": 40,
-      "reason": "Gesprek met imam over islam, radicalisering en Mohammed-cartoons; zelfde debat"
+      "reason": "Islam, radicalisering en Mohammed-cartoons; dezelfde islamdebatten en moslimgemeenschap"
     },
     {
       "n": 194,
-      "reason": "Religieverlater Lale Gül over islam, Wilders en de macht van de pen"
+      "reason": "Religieverlating, Wilders en islam; persoonlijk perspectief op hetzelfde debat"
     },
     {
       "n": 4,
-      "reason": "Religieus fundamentalisme en crisis in de islamitische wereld"
+      "reason": "Religieus fundamentalisme en islamitische wereld; aansluiting bij radicalisering in de aflevering"
     },
     {
-      "n": 186,
-      "reason": "Abdelkader Benali over Wilders, islam en Gaza; Nederlands-Marokkaanse achtergrond"
+      "n": 197,
+      "reason": "Migratie en politiek als maatschappelijk debat; raakvlak met islamdebat en samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

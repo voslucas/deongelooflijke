@@ -1,150 +1,161 @@
 {
   "episode": 327,
-  "analyzed": "2026-11-20",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95732,
+    "segments": 1052,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31717,
-    "output_tokens": 2541,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 2684
+    "input_tokens": 50689,
+    "output_tokens": 9956,
+    "cache_read_input_tokens": 2942,
+    "cache_creation_input_tokens": 0
   },
   "themes": [
+    "God & geloof",
     "Bijbel & Jezus",
     "Islam & jodendom",
-    "Kunst & cultuur",
-    "God & geloof"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Kader Abdolah"
   ],
   "people": [
     {
-      "name": "Paus Benedictus XVI",
-      "note": "paus die Abdolah uitnodigde en hem inspireerde tot zijn Jezusboek",
-      "start_seconds": 175,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
+      "name": "Jezus",
+      "note": "Centrale figuur van het boek 'Jezus'; volgens Abdolah de mooiste mens die God voortbracht",
+      "start_seconds": 19,
+      "mention_count": 60
     },
     {
-      "name": "Jezus",
-      "note": "hoofdonderwerp van Abdolahs nieuwe boek, 'de mooiste mens'",
-      "start_seconds": 314,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/240px-CompositeJesus.JPG"
+      "name": "Paus Benedictus XVI",
+      "note": "Paus die Abdolah ontving en diens werk las; schreef zelf over Jezus",
+      "start_seconds": 95,
+      "mention_count": 20
     },
     {
       "name": "Mohammed",
-      "note": "profeet van de islam, voorvader van Abdolah, eerder beschreven in zijn werk",
-      "start_seconds": 594,
-      "wiki_checked": true,
-      "wiki_pageid": 1077,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammed",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg/240px-Dark_vignette_Al-Masjid_AL-Nabawi_Door800x600x300.jpg"
-    },
-    {
-      "name": "Rumi",
-      "note": "Perzische dichter, waarover Abdolah schreef",
-      "start_seconds": 737,
-      "wiki_checked": true,
-      "wiki_pageid": 10930,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jalal_ad-Din_Rumi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Mevlana_Statue%2C_Buca.jpg/240px-Mevlana_Statue%2C_Buca.jpg"
-    },
-    {
-      "name": "Zarathustra",
-      "note": "Perzische profeet over wie Abdolah schreef",
-      "start_seconds": 748,
-      "wiki_checked": true,
-      "wiki_pageid": 105575,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Zarathustra",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Sanzio_01_Zoroaster_Ptolmey.jpg/240px-Sanzio_01_Zoroaster_Ptolmey.jpg"
-    },
-    {
-      "name": "Fidel Castro",
-      "note": "held uit Abdolahs communistische jeugd",
-      "start_seconds": 1683,
-      "wiki_checked": true,
-      "wiki_pageid": 11345,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fidel_Castro",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Fidel_Castro_1950s.jpg/240px-Fidel_Castro_1950s.jpg"
-    },
-    {
-      "name": "Che Guevara",
-      "note": "held uit Abdolahs communistische jeugd",
-      "start_seconds": 1683,
-      "wiki_checked": true,
-      "wiki_pageid": 30089,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Che_Guevara",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/240px-CheHigh.jpg"
+      "note": "Profeet van de islam; Abdolah schreef eerder een boek over hem",
+      "start_seconds": 9,
+      "mention_count": 10
     },
     {
       "name": "Mozes",
-      "note": "profeet die volgens Abdolah geweld gebruikte",
-      "start_seconds": 2420,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/240px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "note": "Bijbelse figuur; genoemd als leider die geweld gebruikte",
+      "start_seconds": 28,
+      "mention_count": 2
     },
     {
       "name": "Abraham",
-      "note": "profeet die volgens Abdolah geweld gebruikte",
-      "start_seconds": 2420,
-      "wiki_checked": true,
-      "wiki_pageid": 20447,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Abram_%28Biblical%29.jpg/240px-Abram_%28Biblical%29.jpg"
+      "note": "Bijbelse aartsvader; genoemd in de discussie over geweld",
+      "start_seconds": 28,
+      "mention_count": 2
     },
     {
-      "name": "Johannes Calvijn",
-      "note": "reformator, bron van protestantse cultuur in Nederland",
-      "start_seconds": 2898,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/240px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "name": "Rumi",
+      "note": "Perzische dichter; boek waarmee Abdolah zich thuis voelde",
+      "start_seconds": 95,
+      "mention_count": 5
+    },
+    {
+      "name": "Zarathustra",
+      "note": "Perzische religieuze figuur en klassieke bron waar Abdolah zich thuis bij voelde",
+      "start_seconds": 95,
+      "mention_count": 3
+    },
+    {
+      "name": "Fidel Castro",
+      "note": "Cubaanse revolutionair en held van Abdolah in zijn marxistische jaren",
+      "start_seconds": 1683,
+      "mention_count": 2
+    },
+    {
+      "name": "Che Guevara",
+      "note": "Revolutionair en held van Abdolah in zijn marxistische jaren",
+      "start_seconds": 1683,
+      "mention_count": 2
+    },
+    {
+      "name": "Mohammad Reza Pahlavi",
+      "note": "De Shah van Iran; regime waartegen Abdolah verzette",
+      "start_seconds": 1393,
+      "mention_count": 3
+    },
+    {
+      "name": "Ruhollah Khomeini",
+      "note": "Leider van het Iraanse islamitische regime; verzet van Abdolah",
+      "start_seconds": 1510,
+      "mention_count": 2
     },
     {
       "name": "Rutger Kopland",
-      "note": "Nederlandse dichter, gedicht over jonge sla",
-      "start_seconds": 3090,
-      "wiki_checked": true,
-      "wiki_pageid": 53177,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Kopland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/RutgerKopland1997.jpg/240px-RutgerKopland1997.jpg"
+      "note": "Nederlands dichter; schreef het gedicht over de jonge sla uit 'Alles op de fiets'",
+      "start_seconds": 3080,
+      "mention_count": 2
     },
     {
       "name": "Maria",
-      "note": "moeder van Jezus, genoemd in Koran en Bijbel",
-      "start_seconds": 797,
-      "wiki_checked": true,
-      "wiki_pageid": 37948,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_%28moeder_van_Jezus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg/240px-L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg"
+      "note": "Moeder van Jezus; bijbelse en Koran-figuur",
+      "start_seconds": 890,
+      "mention_count": 4
+    },
+    {
+      "name": "Marcus",
+      "note": "Evangelist; genoemd als schrijver van het evangelie",
+      "start_seconds": 928,
+      "mention_count": 4
+    },
+    {
+      "name": "Lucas",
+      "note": "Evangelist; genoemd als schrijver van het evangelie",
+      "start_seconds": 928,
+      "mention_count": 4
+    },
+    {
+      "name": "Johannes",
+      "note": "Evangelist; genoemd als schrijver van het evangelie",
+      "start_seconds": 4180,
+      "mention_count": 2
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; schrijver van brieven in het Nieuwe Testament",
+      "start_seconds": 932,
+      "mention_count": 4
+    },
+    {
+      "name": "Petrus",
+      "note": "Apostel; schreef een brief aan christenen in Klein-Azië",
+      "start_seconds": 3378,
+      "mention_count": 2
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Protestantse hervormer; genoemd als bron van de Nederlandse protestantse cultuur",
+      "start_seconds": 2888,
+      "mention_count": 2
+    },
+    {
+      "name": "Albert Schweitzer",
+      "note": "Theoloog die over de historische Jezus schreef",
+      "start_seconds": 3344,
+      "mention_count": 1
+    },
+    {
+      "name": "Madonna",
+      "note": "Popster; genoemd als voorbeeld van Amerikaanse popcultuur",
+      "start_seconds": 3166,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Jezus",
       "author": "Kader Abdolah",
-      "note": "nieuwste boek, zoektocht naar Jezus",
-      "start_seconds": 100,
+      "note": "Nieuwste boek van Abdolah over Jezus, het centrale onderwerp van het gesprek",
+      "start_seconds": 95,
       "volume_id": "t7gkEgAAQBAJ",
       "canonical_title": "Jezus",
       "canonical_author": "Kader Abdolah",
@@ -153,9 +164,9 @@
       "thumbnail": "http://books.google.com/books/content?id=t7gkEgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "Het huis van de moskee",
+      "title": "Het Huis van de Moskee",
       "author": "Kader Abdolah",
-      "note": "boek gelezen door paus Benedictus",
+      "note": "Bekende roman van Abdolah; de paus had dit boek gelezen",
       "start_seconds": 207,
       "volume_id": "pf04DwAAQBAJ",
       "canonical_title": "Het huis van de moskee",
@@ -167,8 +178,8 @@
     {
       "title": "Alles op de fiets",
       "author": "Rutger Kopland",
-      "note": "gedichtenbundel, verjaardagscadeau van zijn buurvrouw",
-      "start_seconds": 3070,
+      "note": "Gedichtenbundel die Abdolah als jonge immigrant cadeau kreeg; het gedicht over de jonge sla",
+      "start_seconds": 3071,
       "volume_id": "9zFKAAAAYAAJ",
       "canonical_title": "Alles op de fiets",
       "canonical_author": "Rutger Kopland",
@@ -179,138 +190,158 @@
   ],
   "bible_refs": [
     {
-      "ref": "Mattheüs 7:7",
-      "note": "Zoek en gij zult vinden; roep, klop en er wordt geopend",
+      "ref": "Mattheus 7:7",
+      "note": "Jezus: zoek en gij vindt, roep en wordt geantwoord, klop en wordt geopend",
       "start_seconds": 2209
+    },
+    {
+      "ref": "Johannes 2:19",
+      "note": "Jezus over zijn lichaam als tempel waarin God woont",
+      "start_seconds": 2546
+    },
+    {
+      "ref": "Mattheus 2:1",
+      "note": "De wijzen uit het oosten die knielen voor het kind in de kribbe",
+      "start_seconds": 4442
+    },
+    {
+      "ref": "1 Petrus 2:11",
+      "note": "Petrus noemt christenen vreemdelingen en bijwoners",
+      "start_seconds": 3626
     }
   ],
   "places": [
     "Iran",
-    "Nederland",
     "Vaticaan",
     "Sixtijnse Kapel",
+    "Nederland",
     "Mekka",
-    "Sovjet-Unie"
+    "Babel",
+    "Schilderswijk",
+    "Klein-Azië"
   ],
-  "summary_tldr": "Schrijver Kader Abdolah vertelt over zijn opvoeding in een islamitische familie in Iran, zijn marxistische verzet en vlucht naar Nederland. Een ontmoeting met paus Benedictus bracht hem tot zijn boek over Jezus, die hij 'de mooiste mens' noemt vanwege zijn boodschap van geweldloosheid en vergeving. Hij ziet het boek ook als boetedoening richting christenen.",
+  "summary_tldr": "Kader Abdolah vertelt over zijn zoektocht naar Jezus, die hij beschrijft in zijn nieuwe boek, geïnspireerd door een ontmoeting met paus Benedictus XVI. Hij vertelt hoe hij als jongen uit een islamitische familie in Iran via het marxisme en verzet bij het boek van de Bijbel en de evangeliën uitkwam. Hij beschouwt Jezus als de mooiste mens en geweldloze leider, en benadrukt de invloed van het christendom op de Nederlandse cultuur.",
   "summary_points": [
-    "Ontmoeting met paus Benedictus in de Sixtijnse Kapel inspireerde het Jezusboek",
-    "Abdolah wilde niet sterven zonder Jezus echt te kennen",
-    "De Bijbel was in zijn ouderlijk huis een verboden, onaangeraakt boek",
-    "Het Nieuwe Testament ontbrak in de Perzische en islamitische traditie; Jezus als Zoon van God is voor moslims verboden",
-    "Zijn boek is een boetedoening voor de behandeling van christenen in zijn stad",
-    "Als marxist en revolutionair koos hij de pen boven het geweer; zijn pseudoniem eert geëxecuteerde kameraden",
-    "Schrijven in het Nederlands gaf hem vrijheid van zelfcensuur",
-    "Jezus' geweldloosheid en vergeving hielpen hem zijn woede op een vriend los te laten",
-    "Hij ziet het protestantisme als diep ingebed in de Nederlandse cultuur"
+    "Abdolah ontmoette paus Benedictus XVI, die hem op het spoor zette van zijn boek over Jezus",
+    "Opgegroeid in een streng islamitische familie in Iran, waar de Bijbel als verboden boek gold",
+    "Als jongeman marxist en revolutionair, met Castro en Che Guevara als helden; verzet tegen de Shah en later Khomeini",
+    "Na vlucht naar Nederland schreef hij in het Nederlands, begonnen met een woordenschat van enkele honderden woorden",
+    "Jezus wordt door Abdolah gezien als de mooiste mens en de eerste leider die geweld als middel verwierp",
+    "Het idee van vergeving en God in zichzelf hielp Abdolah zijn eigen woede en zelfhaat te overwinnen",
+    "De ballingschap van Joden en zijn eigen migratie vormen voor Abdolah een sleutel tot het verhaal van Jezus",
+    "Abdolah benadert Jezus als schrijver en zoeker, mede vanuit fictie als fundament van de realiteit",
+    "Stefan Paas bevraagt de historische betrouwbaarheid en de rol van de romanschrijver in het boek",
+    "Abdolah stelt dat de protestantse cultuur en het Nieuwe Testament diep in de Nederlandse mentaliteit zitten"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Ontmoeting met de paus",
-      "summary": "Abdolah vertelt over de Sixtijnse Kapel en hoe paus Benedictus zijn zoektocht naar Jezus aanzwengelde."
+      "title": "Geweld en de mooiste mens",
+      "summary": "Abdolah stelt dat Jezus de eerste leider was die geweld afwees, en dat hij daarom voor hem knielt."
     },
     {
-      "start_seconds": 560,
-      "title": "De mooiste mens",
-      "summary": "Over de leeftijd van terugblikken en waarom Jezus voor hem de mooiste mens is."
+      "start_seconds": 95,
+      "title": "Introductie en de ontmoeting met de paus",
+      "summary": "Presentatie van Abdolah en het ontstaan van zijn boek na de ontmoeting met paus Benedictus XVI in de Sixtijnse Kapel."
     },
     {
-      "start_seconds": 696,
+      "start_seconds": 760,
       "title": "Het verboden boek",
-      "summary": "De onaangeraakte Bijbel thuis, het ontbreken van het Nieuwe Testament in de islamitische traditie en de boetedoening aan christenen."
+      "summary": "Abdolah beschrijft hoe hij via Rumi en Zarathustra thuiskwam bij de Perzische literatuur en pas later de Bijbel ontdekte."
     },
     {
-      "start_seconds": 1330,
-      "title": "Jeugd, familie en marxisme",
-      "summary": "Opgroeien in een streng, literair islamitisch milieu zonder muziek en de weg naar het linkse verzet."
-    },
-    {
-      "start_seconds": 1800,
-      "title": "Pen, naam en vlucht naar Nederland",
-      "summary": "De keuze voor de pen, de pseudoniem Kader Abdolah en de vrijheid van het Nederlands."
-    },
-    {
-      "start_seconds": 2380,
-      "title": "Geweldloosheid en vergeving",
-      "summary": "Waarom Jezus anders is dan andere leiders en hoe vergeving Abdolah persoonlijk hielp."
+      "start_seconds": 1509,
+      "title": "Familie, verzet en marxisme",
+      "summary": "De doven vader, de rol van de oudste zoon en Abdolahs politieke radicalisering tegen de Shah en Khomeini."
     },
     {
       "start_seconds": 2820,
-      "title": "Protestantisme in de Nederlandse cultuur",
-      "summary": "Abdolah ziet de protestantse geest terug in Nederlandse poëzie en samenleving."
+      "title": "Protestantse cultuur en poëzie",
+      "summary": "Abdolah en Stefan Paas bespreken de Nederlandse protestantse cultuur, de Statenvertaling en de Nederlandse poëzie."
+    },
+    {
+      "start_seconds": 3428,
+      "title": "Ballingschap en de historische Jezus",
+      "summary": "Abdolah verbindt zijn eigen ballingschap met het verhaal van Jezus en bespreekt de rol van fictie in zijn boek."
+    },
+    {
+      "start_seconds": 4268,
+      "title": "Vertalingen en de eigen stem",
+      "summary": "Keuze voor de Statenvertaling en nieuwe vertalingen, en de vraag of het boek Jezus echt heeft leren kennen."
+    },
+    {
+      "start_seconds": 4442,
+      "title": "Kerst en de knielende wijzen",
+      "summary": "Afsluiting met de kerstscène, de wijzen uit Perzië en de vraag wat Abdolah de baby Jezus zou geven."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 619,
+      "start_seconds": 2463,
       "speaker": "Kader Abdolah",
-      "text": "Jezus is de mooiste mens die de geschiedenis of God heeft voortgebracht.",
-      "note": "Kernstelling van het boek en de aflevering."
+      "text": "Voor het eerst in de geschiedenis komt een leider en zegt: geweld heeft niet gewerkt.",
+      "note": "Centrale stelling van Abdolah: Jezus als de eerste die geweld afwees, in tegenstelling tot Mozes, Abraham en Mohammed."
     },
     {
-      "start_seconds": 1088,
+      "start_seconds": 332,
       "speaker": "Kader Abdolah",
-      "text": "Het was een soort verboden boek.",
-      "note": "Beeld van de stoffige Bijbel in de familiebibliotheek."
+      "text": "Hij zei: 'Ik ga Jezus bestuderen.' Ik dacht: goh, hij heeft zijn hele leven in Jezus gestopt. Wat zoekt hij nog meer?",
+      "note": "De paus-anekdote die de hele zoektocht van Abdolah in gang zette."
     },
     {
-      "start_seconds": 2441,
+      "start_seconds": 3488,
       "speaker": "Kader Abdolah",
-      "text": "Voor het eerst in de geschiedenis komt een leider die zegt: geweld heeft niet gewerkt.",
-      "note": "Vergelijking van Jezus met andere leiders en profeten."
+      "text": "Opeens heb ik iets bijzonders ontdekt: dat was ballingschap. Dat was immigratie.",
+      "note": "Abdolah ziet in het verhaal van Jezus zijn eigen ervaring van ballingschap weerspiegeld."
     },
     {
-      "start_seconds": 2738,
+      "start_seconds": 3725,
       "speaker": "Kader Abdolah",
-      "text": "Van Jezus heb ik geleerd om zelfs mezelf te vergeven.",
-      "note": "Persoonlijk moment over woede op een vriend."
-    },
-    {
-      "start_seconds": 1938,
-      "speaker": "Kader Abdolah",
-      "text": "Kader was een kameraad die geëxecuteerd was, Abdullah ook; ik zette hun namen naast elkaar.",
-      "note": "Ontroerende oorsprong van zijn pseudoniem."
+      "text": "Fictie is het fundament van de realiteit.",
+      "note": "Een scherpe uitspraak die de spanning tussen historische bronnen en literaire verbeelding blootlegt."
     }
   ],
   "keywords": [
     "Jezus",
     "Kader Abdolah",
-    "Paus Benedictus",
-    "Islam",
+    "Paus Benedictus XVI",
+    "Koran",
+    "Bijbel",
     "Marxisme",
-    "Vergeving",
+    "Ballingschap",
     "Geweldloosheid",
-    "Nieuwe Testament",
-    "Iran",
     "Protestantisme",
-    "Perzische poëzie",
-    "Boetedoening"
+    "Statenvertaling",
+    "Vergeving",
+    "Historische Jezus"
   ],
   "quotes": [
-    "Hij wilde niet sterven zonder Jezus écht te hebben leren kennen.",
-    "Het was een soort verboden boek."
+    "Castro en Che Guevara waren mijn helden.",
+    "Het was een soort verboden boek.",
+    "Ik wilde niet sterven zonder Jezus écht te hebben leren kennen."
   ],
   "similar": [
     {
-      "n": 137,
-      "reason": "Dilara Bilgic: islamitische achtergrond, geloofstwijfel, Jezus en filosofie"
+      "n": 57,
+      "reason": "Linkse atheïst met passie voor Jezus, migratieachtergrond en politieke invalshoek"
     },
     {
-      "n": 57,
-      "reason": "Zihni Özdil: linkse atheïst met passie voor Jezus, politieke achtergrond"
+      "n": 137,
+      "reason": "Geloofstwijfels binnen de islam, Bijbel en Jezus, filosofische benadering"
+    },
+    {
+      "n": 187,
+      "reason": "Historische Jezus-onderzoek en Bijbelse bronnen, vergelijkbaar met Abdolah's zoektocht"
     },
     {
       "n": 194,
-      "reason": "Lale Gül: schrijver met islamitische achtergrond, (on)geloof en macht van de pen"
+      "reason": "Religieverlating vanuit de islam, migratie en de macht van de pen"
     },
     {
-      "n": 190,
-      "reason": "Christophe Vekeman: schrijver op zoek naar God, Jezus en bekering"
-    },
-    {
-      "n": 40,
-      "reason": "Imam Yassin Elforkani: islam, Mohammed en dialoog met christendom"
+      "n": 215,
+      "reason": "Islam, Bijbel en Jezus, en geschiedenis van een migrantengemeenschap"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

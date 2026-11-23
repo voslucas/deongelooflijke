@@ -1,212 +1,306 @@
 {
   "episode": 286,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 134225,
+    "segments": 999,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29979,
-    "output_tokens": 2205,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65941,
+    "output_tokens": 8590,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Geopolitiek & oorlog",
-    "Economie & geld",
     "Amerika & Trump",
-    "Politiek"
+    "Economie & geld",
+    "Geopolitiek & oorlog",
+    "Klimaat & natuur"
   ],
   "guests": [
     "Paul Schenderling"
   ],
   "people": [
     {
-      "name": "Martin Luther King",
-      "note": "Amerikaanse burgerrechtenleider; zijn speech over 'de grote kwaden van onze tijd' dient als moreel baken",
-      "start_seconds": 10,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
       "name": "Donald Trump",
-      "note": "Amerikaans president; zet staatsmacht en tarieven in tegen tegenstanders en andere landen",
-      "start_seconds": 545,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president; centrale figuur in de analyse van competitief autoritarisme in de VS",
+      "start_seconds": 599,
+      "mention_count": 30
     },
     {
-      "name": "Daniel Ziblatt",
-      "note": "Politiek wetenschapper, co-auteur van het Foreign Affairs-artikel en van 'How Democracies Die'",
-      "start_seconds": 730,
-      "wiki_checked": true,
-      "wiki_pageid": 5907775,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Daniel_Ziblatt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Daniel_Ziblatt_2023_2.jpg/250px-Daniel_Ziblatt_2023_2.jpg"
+      "name": "Martin Luther King",
+      "note": "Amerikaans burgerrechtenactivist; zijn speech 'The Three Evils of Society' staat centraal",
+      "start_seconds": 3618,
+      "mention_count": 25
     },
     {
       "name": "Steven Levitsky",
-      "note": "Politiek wetenschapper, co-auteur van het Foreign Affairs-artikel en van 'How Democracies Die'",
-      "start_seconds": 730,
-      "wiki_checked": true
+      "note": "Politicoloog, auteur van 'How Democracies Die' (genoemd als Ziblatt en Lewinsky)",
+      "start_seconds": 713,
+      "mention_count": 3
+    },
+    {
+      "name": "Daniel Ziblatt",
+      "note": "Politicoloog, co-auteur van 'How Democracies Die'",
+      "start_seconds": 713,
+      "mention_count": 3
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaars premier, voorbeeld van competitief autoritarisme",
-      "start_seconds": 734,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "note": "Hongaarse premier; voorbeeld van competitief autoritarisme",
+      "start_seconds": 730,
+      "mention_count": 1
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russische president; voorbeeld van ondermijning van waarheid",
+      "start_seconds": 4324,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Pomerantsev",
+      "note": "Schrijver over Russische desinformatie en propaganda",
+      "start_seconds": 4324,
+      "mention_count": 1
+    },
+    {
+      "name": "Steve Bannon",
+      "note": "Amerikaans politiek strateeg; bekend om de uitspraak 'flooding the zone with shit'",
+      "start_seconds": 4339,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Nederlands politicus; uitspraak over honger in Afrika tijdens verkiezingsdebat",
+      "start_seconds": 2929,
+      "mention_count": 2
+    },
+    {
+      "name": "Alexei Navalny",
+      "note": "Russische oppositieleider; 'eerst sneuvelt de waarheid en daarna alle waarden'",
+      "start_seconds": 3469,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Oudtestamentische profeet; bron van de drie sociale kwaden in Paul's essay",
+      "start_seconds": 3946,
+      "mention_count": 5
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het christelijk geloof; besproken als voorbeeld van houding",
+      "start_seconds": 5217,
+      "mention_count": 4
+    },
+    {
+      "name": "Mozes",
+      "note": "Bijbelse leider; aangehaald door King in zijn laatste toespraak",
+      "start_seconds": 5103,
+      "mention_count": 1
+    },
+    {
+      "name": "Zacharia",
+      "note": "Profeet; 'spreek de waarheid onder elkaar'",
+      "start_seconds": 4425,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; term 'wil tot macht' genoemd",
+      "start_seconds": 4513,
+      "mention_count": 1
+    },
+    {
+      "name": "Miskotte",
+      "note": "Nederlands theoloog; geciteerd over macht boven alles en nihilisme",
+      "start_seconds": 4513,
+      "mention_count": 1
+    },
+    {
+      "name": "Ad Verbruggen",
+      "note": "Filosoof; gesprek van vorige week, besproken in de afsluiting",
+      "start_seconds": 5465,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "How Democracies Die",
       "author": "Steven Levitsky en Daniel Ziblatt",
-      "note": "Over hoe democratieën geleidelijk worden uitgehold; Stefan Paas noemt het per ongeluk 'How the Marxists Die'",
-      "start_seconds": 730,
-      "volume_id": "GmkwDwAAQBAJ",
+      "note": "In het transcript onjuist als 'How the Marxists Die' genoemd; besproken over archeologie van autocratie en competitief autoritarisme",
+      "start_seconds": 713,
+      "volume_id": "se7iswEACAAJ",
       "canonical_title": "How Democracies Die",
       "canonical_author": "Steven Levitsky, Daniel Ziblatt",
-      "isbn13": "9780241317990",
-      "isbn10": "0241317991",
-      "thumbnail": "http://books.google.com/books/content?id=GmkwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780525574538",
+      "isbn10": "0525574530",
+      "thumbnail": "http://books.google.com/books/content?id=se7iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Kontinent van de kwaliteit",
+      "author": "Paul Schenderling",
+      "note": "Nieuw boek van de gast; pakt de afhankelijkheid op vier terreinen aan",
+      "start_seconds": 2661
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jesaja 5",
+      "note": "Profetie over wie het kwade goed en het goede kwaad noemt; de drie sociale kwaden (roof, onderdrukking, legitimerende ideologie) worden eraan gekoppeld",
+      "start_seconds": 3959
+    },
+    {
+      "ref": "Zacharia 8:16",
+      "note": "'Spreek de waarheid onder elkaar' als basis van waarachtigheid en recht doen",
+      "start_seconds": 4425
+    }
+  ],
   "places": [
     "Den Haag",
     "Verenigde Staten",
-    "Europa",
-    "Groenland",
-    "China",
-    "Litouwen",
     "Minneapolis",
+    "Chicago",
     "Hongarije",
+    "Litouwen",
+    "China",
     "Oekraïne",
-    "India",
-    "Latijns-Amerika",
-    "Midden-Oosten",
-    "Rusland",
-    "Polen"
+    "Denemarken",
+    "Oostenrijk",
+    "Groenland",
+    "Amersfoort"
   ],
-  "summary_tldr": "Econoom Paul Schenderling schetst hoe de VS onder Trump verschuift naar competitief autoritarisme en waarom Europa economisch zelfstandiger moet worden. Hij bepleit een balans tussen efficiëntie en veerkracht op het gebied van defensie, energie, grondstoffen en handelsrelaties. Het laatste deel gaat over inspiratie uit een speech van Martin Luther King.",
+  "summary_tldr": "Econoom Paul Schenderling en theoloog Stefan Paas bespreken hoe Europa economisch en digitaal zelfstandiger kan worden nu de VS als betrouwbare partner wegvalt, en waarom dat ook ethisch en spiritueel een opgave is. Ze zien een Amerika dat richting competitief autoritarisme gaat en een Europa dat te afhankelijk is van China en Amerikaanse tech. Via de speech van Martin Luther King over de drie sociale kwaden pleit Schenderling voor een combinatie van morele helderheid en mildheid.",
   "summary_points": [
-    "Vier pijlers van de samenleving (politiek-sociaal, economisch, ecologisch, spiritueel) schudden tegelijk.",
-    "Een Foreign Affairs-artikel stelt dat de VS al een competitief autoritair regime is.",
-    "Staatsmacht wordt ingezet om tegenstanders te intimideren, zowel binnen- als buitenlands.",
-    "Hoop op de midterms is volgens Schenderling mogelijk te optimistisch; moedig zijn is nu nog zinvol.",
-    "Europa is afhankelijk van de VS en China op het gebied van defensie, digitalisering, energie en grondstoffen.",
-    "Die afhankelijkheid komt voort uit het streven naar efficiëntie boven veerkracht.",
-    "Groene energie en circulaire economie vergroten de strategische autonomie.",
-    "Handelsverdragen met Mercosur en India verschillen sterk in arbeids- en milieuafspraken.",
-    "Een zwaardere defensie roept gemengde gevoelens op vanwege het gevaar van militarisme."
+    "Het nieuwe coalitieakkoord (D66, CDA, VVD) wordt gezien als kansrijk, maar de bestuurlijke uitdagingen zijn groot.",
+    "Vier pijlers van de samenleving (politiek-sociaal, economisch, ecologisch, spiritueel) schudden tegelijk, wat om ander beleid vraagt.",
+    "Schenderling beschrijft de VS als competitief autoritair regime, waarin staatsmacht wordt gebruikt tegen politieke tegenstanders.",
+    "Europa is economisch kwetsbaar op defensie, digitalisering, energie en grondstoffen, mede door een efficiëntiedenken dat veerkracht heeft weggedrukt.",
+    "China bezit de raffinagecapaciteit voor kritieke metalen; een beperking van export raakt Europese industrie direct.",
+    "Strategische autonomie vraagt om een balans tussen efficiëntie en veerkracht, bijvoorbeeld via diversificatie van handelspartners.",
+    "Handelsverdragen als Mercosur en EU-India verschillen in harde afspraken over arbeid en milieu; het India-verdrag biedt meer ruimte voor een 'race naar de top'.",
+    "Digitale zelfstandigheid is het moeilijkst: overheidsdiensten draaien grotendeels op Amerikaanse clouds, en Amerikaanse wetgeving kan Europese regels overrulen.",
+    "Martin Luther King's speech over de drie sociale kwaden (roof, onderdrukking, legitimerende ideologie) wordt gekoppeld aan Jesaja 5.",
+    "De grootste gevaar is volgens de gesprekspartners het verheffen van materiële vooruitgang en macht tot doel, waardoor waarden ondergesneeuwd raken.",
+    "Het gesprek eindigt met de noodzaak van moed, mildheid en het respectvol benoemen van onwil."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
-      "title": "Het nieuwe kabinet en een uitzonderlijke tijd",
-      "summary": "Korte reactie op het coalitieakkoord en Schenderlings vier schuddende pijlers van de samenleving."
+      "start_seconds": 0,
+      "title": "Intro en kabinetsakkoord",
+      "summary": "David Boogerd introduceert de aflevering en het nieuwe kabinet, en Schenderling en Paas reageren op de nieuwe regering."
     },
     {
-      "start_seconds": 409,
+      "start_seconds": 239,
+      "title": "De vier pijlers van de samenleving",
+      "summary": "Schenderling stelt dat politiek-sociale, economische, ecologische en spirituele pijlers tegelijk schudden."
+    },
+    {
+      "start_seconds": 435,
       "title": "Amerika als competitief autoritair regime",
-      "summary": "Bespreking van het Foreign Affairs-artikel, de intimidatie door het Witte Huis en de kansen bij de midterms."
+      "summary": "Bespreking van het artikel in Foreign Affairs, de intimidatie van tegenstanders, en de rol van de midterms."
     },
     {
-      "start_seconds": 1122,
-      "title": "Europa en economische zelfstandigheid",
-      "summary": "Europa is afhankelijk van de VS en China; chantage via tarieven, internet en kritieke metalen."
+      "start_seconds": 1112,
+      "title": "Europa en de afhankelijkheid van Amerika",
+      "summary": "Europa moet economisch zelfstandiger worden; er wordt gekeken naar defensie, energie, grondstoffen en China."
     },
     {
-      "start_seconds": 1465,
-      "title": "Efficiëntie versus veerkracht",
-      "summary": "Met voorbeelden van oplaadbare batterijen en een roofvis legt Schenderling uit waarom veerkracht nodig is; Paas wijst op naïviteit en hoogmoed."
+      "start_seconds": 1345,
+      "title": "Efficiëntie tegenover veerkracht",
+      "summary": "Met voorbeelden als oplaadbare batterijen en roofvissen wordt uitgelegd waarom efficiëntie kwetsbaar maakt."
     },
     {
-      "start_seconds": 1740,
-      "title": "Defensie en energie",
-      "summary": "Gemengde gevoelens over wapenuitgaven en de kans dat groene energie ook strategisch autonoom maakt."
+      "start_seconds": 2580,
+      "title": "Digitale soevereiniteit en handelsverdragen",
+      "summary": "Overstap van overheidsclouds naar Europese alternatieven en de vergelijking van Mercosur en het EU-India-verdrag."
     },
     {
-      "start_seconds": 2125,
-      "title": "Grondstoffen, circulariteit en handelsverdragen",
-      "summary": "De circulaire transitie blijft achter; Mercosur en het EU-India-akkoord worden vergeleken op arbeid en milieu."
+      "start_seconds": 3618,
+      "title": "Martin Luther King en de drie sociale kwaden",
+      "summary": "Schenderling presenteert de verloren gewaande speech van King en koppelt die aan Jesaja 5; de gesprekspartners bespreken de rol van leugen en ideologie."
+    },
+    {
+      "start_seconds": 5411,
+      "title": "Hoop, mildheid en afsluiting",
+      "summary": "Gesprek over de weg van mildheid en moed, persoonlijke spirituele groei, en mededelingen van David Boogerd."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 409,
+      "start_seconds": 3615,
       "speaker": "Paul Schenderling",
-      "text": "Amerika is nu al een autoritair regime.",
-      "note": "De duiding van de politicologen schokte hem en veranderde zijn blik op de VS."
+      "text": "Op een gegeven moment veroorzaakt het geen schok meer. We raken er langzaam aan gewend.",
+      "note": "Een kernobservatie over normalisering van grensoverschrijdend gedrag, die de hele analyse van het gesprek verklaart."
     },
     {
-      "start_seconds": 1037,
+      "start_seconds": 1345,
       "speaker": "Paul Schenderling",
-      "text": "Nu is moedig zijn nog zinvol.",
-      "note": "Oproep van de auteurs: hoe langer men wacht, hoe meer angst zich verspreidt."
+      "text": "Het is eigenlijk een streven geweest naar efficiëntie boven alles.",
+      "note": "Verklaart waarom Europa zo afhankelijk is geworden: een economisch systeem dat op één doel is ingericht."
     },
     {
-      "start_seconds": 1634,
-      "speaker": "Paul Schenderling",
-      "text": "Het batterijenvoorbeeld van zijn zoontje illustreert strategische autonomie: zelf kunnen opladen en flexibel inzetbaar zijn.",
-      "note": "Een alledaags voorbeeld dat een abstract begrip helder maakt."
+      "start_seconds": 3903,
+      "speaker": "David Boogerd",
+      "text": "Als waarden en waarheden maar lang genoeg verdraaid worden en geweld worden aangedaan, dan wordt licht donker en donker licht.",
+      "note": "Het citaat uit het essay laat zien hoe onderdrukten de ideologie van de onderdrukker internaliseren; het raakt de kern van het gesprek."
     },
     {
-      "start_seconds": 1668,
-      "speaker": "Stefan Paas",
-      "text": "Het idee dat je de wereld rationeel zo kunt inrichten dat het altijd goed blijft gaan, is naïef of hoogmoedig.",
-      "note": "Theologische kijk op het efficiëntiedenken: de mens is ook zwak en zondig."
+      "start_seconds": 4513,
+      "speaker": "Paul Schenderling",
+      "text": "We stellen middelen boven doelen. Materiële en technologische vooruitgang zijn geen doel in zichzelf.",
+      "note": "Een scherpe wending: het vooruitgangsgeloof wordt gezien als de geraffineerdste leugen van deze tijd."
     },
     {
-      "start_seconds": 1970,
+      "start_seconds": 4671,
       "speaker": "Paul Schenderling",
-      "text": "Een zonnepaneel is eigenlijk een soort oplaadbare batterij.",
-      "note": "Een plot twist: de klimaattransitie dient nu ook de strategische autonomie."
+      "text": "De grootste dreiging is misschien wel die spirituele dreiging, dat we machtsdenken gaan internaliseren.",
+      "note": "Schenderling plaatst het gevaar niet bij militaire of economische dreigingen, maar bij een verschuiving van waarden."
     }
   ],
   "keywords": [
+    "competitief autoritarisme",
     "strategische autonomie",
     "veerkracht",
     "efficiëntie",
-    "competitief autoritarisme",
-    "Donald Trump",
     "Martin Luther King",
-    "kritieke metalen",
-    "energietransitie",
-    "circulaire economie",
-    "handelsverdrag",
-    "midterms",
-    "China"
+    "sociale kwaden",
+    "kritieke grondstoffen",
+    "digitale soevereiniteit",
+    "waarachtigheid",
+    "vooruitgangsgeloof",
+    "Jesaja",
+    "handelsverdragen"
   ],
-  "quotes": [],
+  "quotes": [
+    "de grote kwaden van onze tijd",
+    "Alarmerend. Unheimisch. Kunnen we eigenlijk nog wel veranderen?",
+    "loskomen van Amerika"
+  ],
   "similar": [
     {
-      "n": 235,
-      "reason": "Paul Schenderling over Trump, Musk en politiek-economische gevolgen voor Europa."
-    },
-    {
       "n": 268,
-      "reason": "Paul Schenderling over Europa, economie en geld in geopolitieke context."
-    },
-    {
-      "n": 239,
-      "reason": "VS heeft Europa verraden; Europa moet zelfstandiger worden, met Trump-focus."
-    },
-    {
-      "n": 230,
-      "reason": "Nieuwe wereldorde onder Trump en Poetin; Europa moet reageren."
+      "reason": "Zelfde gast over Europese economie en ziel, plus Europese zelfstandigheid"
     },
     {
       "n": 174,
-      "reason": "Paul Schenderling over economische strijd achter onvrede en politiek."
+      "reason": "Zelfde gast over economische onvrede en Amerika & Trump"
+    },
+    {
+      "n": 236,
+      "reason": "Amerikaanse afglijding en Europa's positie, met dezelfde presentatoren"
+    },
+    {
+      "n": 235,
+      "reason": "Zelfde gast over Trump, Musk, naastenliefde en eigenbelang"
+    },
+    {
+      "n": 284,
+      "reason": "Geopolitieke machtspolitiek rond Trump, Europa en Groenland"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 102,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 131971,
+    "segments": 1694,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31947,
-    "output_tokens": 2590,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 69467,
+    "output_tokens": 3076,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "Geschiedenis",
-    "Bijbel & Jezus",
-    "Filosofie & ethiek"
+    "Kerk & secularisatie",
+    "Politiek",
+    "God & geloof"
   ],
   "guests": [
     "Anton de Wit"
@@ -20,275 +25,284 @@
   "people": [
     {
       "name": "Adrianus VI",
-      "note": "enige Nederlandse paus, geboren in Utrecht, gekroond in 1522",
-      "start_seconds": 49,
-      "wiki_checked": true,
-      "wiki_pageid": 34158,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Adrianus_VI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Portrait_of_Pope_Adrian_VI_%28after_Jan_van_Scorel%29.jpg/250px-Portrait_of_Pope_Adrian_VI_%28after_Jan_van_Scorel%29.jpg"
+      "note": "Nederlandse paus (1522-1523), eerder theoloog, diplomaat en gouverneur van Spanje",
+      "start_seconds": 5,
+      "mention_count": 60
     },
     {
-      "name": "Erasmus",
-      "note": "humanist, vriend van Adrianus, volgde colleges bij hem in Leuven",
-      "start_seconds": 557,
-      "wiki_checked": true,
-      "wiki_pageid": 20336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desiderius_Erasmus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/250px-Holbein-erasmus.jpg"
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "hervormer, tijdgenoot en vijand van Adrianus",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
-    },
-    {
-      "name": "Paus Franciscus",
-      "note": "overwoog de naam Adrianus te kiezen als curiehervormer",
-      "start_seconds": 506,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Stefan Paas",
+      "note": "theoloog en vaste gast",
+      "start_seconds": 0,
+      "mention_count": 0
     },
     {
       "name": "Karel V",
-      "note": "Habsburgse keizer, als jongen onderwezen door Adrianus",
-      "start_seconds": 1098,
-      "wiki_checked": true,
-      "wiki_pageid": 5197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Keizer_Karel_V",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg/250px-Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg"
+      "note": "Habsburgse keizer, leerling van Adrianus",
+      "start_seconds": 874,
+      "mention_count": 12
+    },
+    {
+      "name": "Erasmus",
+      "note": "humanist, vriend van Adrianus",
+      "start_seconds": 553,
+      "mention_count": 10
+    },
+    {
+      "name": "Maarten Luther",
+      "note": "hervormer, tegenstander van Adrianus",
+      "start_seconds": 486,
+      "mention_count": 12
     },
     {
       "name": "Leo X",
-      "note": "voorganger van Adrianus, renaissancepaus uit het huis Medici, liet lege schatkist achter",
-      "start_seconds": 411,
-      "wiki_checked": true,
-      "wiki_pageid": 57894,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_X",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Pope-leo10.jpg/250px-Pope-leo10.jpg"
+      "note": "voorganger van Adrianus als paus, verkwistend",
+      "start_seconds": 389,
+      "mention_count": 8
     },
     {
-      "name": "Maximiliaan I",
-      "note": "keizer die Adrianus aanstelde als leraar van zijn kleinzoon Karel",
-      "start_seconds": 915,
-      "wiki_checked": true,
-      "wiki_pageid": 5199,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Keizer_Maximiliaan_I",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg/250px-Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg"
+      "name": "Franciscus",
+      "note": "huidige paus, overwoog naam Adrianus",
+      "start_seconds": 479,
+      "mention_count": 10
     },
     {
       "name": "Benedictus XVI",
-      "note": "Duitse paus, vergeleken met Adrianus als theoloog-bestuurder",
-      "start_seconds": 448,
-      "wiki_checked": true,
-      "wiki_pageid": 156546,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Benedictus_XVI",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Benedykt_XVI_%282010-10-17%29_2.jpg/250px-Benedykt_XVI_%282010-10-17%29_2.jpg"
+      "note": "voormalige paus, trad af",
+      "start_seconds": 2001,
+      "mention_count": 3
     },
     {
-      "name": "Thomas a Kempis",
-      "note": "vertegenwoordiger van de Moderne Devotie",
-      "start_seconds": 1654,
-      "wiki_checked": true,
-      "wiki_pageid": 64786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_a_Kempis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg/250px-Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg"
+      "name": "Johannes Paulus II",
+      "note": "paus die in 1985 Nederland bezocht",
+      "start_seconds": 887,
+      "mention_count": 3
     },
     {
-      "name": "Geert Grote",
-      "note": "grondlegger van de Moderne Devotie",
-      "start_seconds": 1654,
-      "wiki_checked": true,
-      "wiki_pageid": 94418,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Grote",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fantasieportret_Geert_Grote.jpg/250px-Fantasieportret_Geert_Grote.jpg"
-    },
-    {
-      "name": "Hugo de Groot",
-      "note": "verspreidde overdreven cijfers over de inquisitie",
-      "start_seconds": 1476,
-      "wiki_checked": true,
-      "wiki_pageid": 6271,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hugo_de_Groot_%28rechtsgeleerde%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Michiel_Jansz_van_Mierevelt_-_Hugo_Grotius.jpg/250px-Michiel_Jansz_van_Mierevelt_-_Hugo_Grotius.jpg"
-    },
-    {
-      "name": "Philips II",
-      "note": "Spaanse koning, genoemd in verband met de Tachtigjarige Oorlog",
-      "start_seconds": 1099,
-      "wiki_checked": true,
-      "wiki_pageid": 29393,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Filips_II_van_Spanje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg/250px-Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+      "name": "Johannes Paulus I",
+      "note": "paus die na korte tijd overleed, geruchten van vergiftiging",
+      "start_seconds": 1400,
+      "mention_count": 2
     },
     {
       "name": "Jaap van Dissel",
-      "note": "RIVM-directeur, raadpleegde over de vergiftigingskwestie",
-      "start_seconds": 3,
-      "wiki_checked": true,
-      "wiki_pageid": 5336010,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jaap_van_Dissel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/JaapvanDissel2020.jpg/250px-JaapvanDissel2020.jpg"
+      "note": "RIVM-directeur, geraadpleegd over vergiftigingsvraag",
+      "start_seconds": 3103,
+      "mention_count": 2
+    },
+    {
+      "name": "Twan Geurts",
+      "note": "auteur van biografie over Adrianus",
+      "start_seconds": 3069,
+      "mention_count": 3
+    },
+    {
+      "name": "Erik Eik",
+      "note": "aartsbisschop van Utrecht, mogelijke pauskandidaat",
+      "start_seconds": 3900,
+      "mention_count": 2
+    },
+    {
+      "name": "Abraham Kuyper",
+      "note": "eerder besproken in de rubriek",
+      "start_seconds": 227,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Groot",
+      "note": "schreef overdreven cijfers over inquisitie",
+      "start_seconds": 1479,
+      "mention_count": 1
+    },
+    {
+      "name": "Columbus",
+      "note": "ontdekkingsreiziger",
+      "start_seconds": 1073,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas à Kempis",
+      "note": "auteur uit moderne devotie",
+      "start_seconds": 1652,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Grote",
+      "note": "stichter moderne devotie",
+      "start_seconds": 1654,
+      "mention_count": 1
+    },
+    {
+      "name": "Jeroen Dijsselbloem",
+      "note": "politicus, vergeleken met Adrianus",
+      "start_seconds": 1490,
+      "mention_count": 2
+    },
+    {
+      "name": "Harry Nouwen",
+      "note": "eerder besproken in de rubriek",
+      "start_seconds": 230,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Roofstaat",
       "author": "",
-      "note": "boek over Nederlandse schurken in het buitenland, waarin Adrianus als schurk wordt genoemd",
-      "start_seconds": 1507,
+      "note": "boek over Nederlandse schurken in het buitenland, noemt Adrianus",
+      "start_seconds": 1500,
       "volume_id": "ObvysgEACAAJ",
-      "canonical_title": "Roofstaat: wat iedere Nederlander moet weten",
+      "canonical_title": "Roofstaat / druk 1: wat iedere Nederlander moet weten",
       "canonical_author": "Ewald Vanvugt",
       "isbn13": "9789038801278",
       "isbn10": "9038801270",
       "thumbnail": ""
+    },
+    {
+      "title": "Adrianus VI, de Nederlandse paus",
+      "author": "Twan Geurts",
+      "note": "biografie aanbevolen door Anton de Wit",
+      "start_seconds": 3069,
+      "volume_id": "XnvmDQAAQBAJ",
+      "canonical_title": "De Nederlandse paus: Adrianus van Utrecht 1459-1523",
+      "canonical_author": "Twan Geurts",
+      "isbn13": "9789460031595",
+      "isbn10": "9460031595",
+      "thumbnail": "http://books.google.com/books/content?id=XnvmDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [],
   "places": [
     "Utrecht",
     "Leuven",
+    "Zwolle",
     "Spanje",
     "Rome",
-    "Zwolle",
-    "Sixtijnse Kapel",
-    "Vaticaan",
-    "Nederlanden"
+    "Rhodos",
+    "Barcelona",
+    "Basel",
+    "Avignon",
+    "Zeeland",
+    "'s-Hertogenbosch"
   ],
-  "summary_tldr": "Anton de Wit vertelt over Adrianus VI, de enige Nederlandse paus, 500 jaar na zijn kroning. Het gesprek volgt zijn weg van timmermanszoon uit Utrecht via hoogleraar in Leuven en leraar van Karel V naar gouverneur van Spanje, groot inquisiteur en uiteindelijk paus. Zijn strenge rechtvaardigheidsgevoel en hervormingsdrang staan centraal.",
+  "summary_tldr": "In aflevering 102 bespreken David Boogerd, Stefan Paas en Anton de Wit paus Adrianus VI, de enige Nederlandse paus, die 500 jaar geleden werd gekozen. Adrianus was theoloog, diplomaat en gouverneur van Spanje, maar zijn korte pontificaat werd overschaduwd door politieke chaos, de Ottomaanse dreiging en gerucht van vergiftiging. Zijn hervormingsdrang maakt hem een interessant voorloper van latere kerkhervormingen.",
   "summary_points": [
-    "Adrianus VI werd geboren in Utrecht als zoon van een welvarende scheepstimmerman en studeerde in Leuven.",
-    "Hij stond met één been in de middeleeuwse scholastiek en met het andere in humanisme en Moderne Devotie.",
-    "Als leraar van de jonge Karel V en diplomaat bezorgde hij het Habsburgse rijk Spanje.",
-    "In Spanje zat hij als gouverneur in een lastige positie, midden in een burgeroorlog, en snakte hij naar pensioen.",
-    "Als groot inquisiteur was hij rechtlijnig en soms genadeloos, maar de inquisitie was minder bloeddorstig dan de mythe.",
-    "Zijn pausverkiezing in 1522 volgde op een bizar en lang conclaaf na de dood van Leo X.",
-    "In Rome werd hij als botte Nederlandse barbaar gezien en moest hij bezuinigen op de lege schatkist.",
-    "Hij is grotendeels vergeten, al overwoog Franciscus zijn naam te dragen als curiehervormer."
+    "Adrianus VI groeide op in Utrecht als zoon van een timmerman en maakte carrière aan de universiteit van Leuven.",
+    "Hij werd leermeester van de latere keizer Karel V en speelde een sleutelrol bij diens verwerving van Spanje.",
+    "Als gouverneur van Spanje moest hij een burgeroorlog en wantrouwen van lokale edelen het hoofd bieden.",
+    "Als grootinquisiteur was hij streng en dogmatisch, maar ook rechtvaardig en hervormer van gevangenissen.",
+    "Zijn verkiezing tot paus in 1522 was een compromis tussen Frans en Duits gezinde kardinalen.",
+    "Hij wilde de Curie hervormen, bezuinigen en Europa verenigen tegen de Ottomanen.",
+    "Zijn sobere, rechtlijnige stijl maakte hem impopulair in Rome.",
+    "Hij stierf na ruim een jaar als paus; geruchten over vergiftiging worden door wetenschappers onwaarschijnlijk geacht.",
+    "Adrianus probeerde Erasmus te bewegen tegen Luther op te treden, wat Erasmus weigerde.",
+    "Zijn pleidooi voor kerkhervorming en schuldbekentenis werd later deels opgepakt door het Concilie van Trente.",
+    "De gesprekspartners verbinden zijn verhaal met hedendaagse pauskwesties, zoals Franciscus en mogelijke Nederlandse opvolgers."
   ],
   "chapters": [
     {
-      "start_seconds": 130,
-      "title": "Mensen die je moet kennen: waarom Adrianus",
-      "summary": "Introductie van de nieuwe rubriek en het jubileum van 500 jaar. Adrianus is de machtigste vergeten Nederlander."
+      "start_seconds": 0,
+      "title": "Inleiding en jubileum",
+      "summary": "De presentatoren introduceren Adrianus VI en de rubriek 'Mensen die je moet kennen'."
     },
     {
-      "start_seconds": 340,
-      "title": "Context: renaissancepausen en Franciscus",
-      "summary": "De pracht van Leo X en de Medici, de lege schatkist en Franciscus' overweging om Adrianus als naam te kiezen."
+      "start_seconds": 300,
+      "title": "Jeugd en opleiding",
+      "summary": "Over Adrianus' afkomst in Utrecht, studie in Leuven en academische carrière."
     },
     {
-      "start_seconds": 571,
-      "title": "Jeugd en studie in Utrecht, Zwolle en Leuven",
-      "summary": "Geboren aan de Oude Gracht, opgeleid in de Moderne Devotie en snelle academische carrière tot rector."
+      "start_seconds": 720,
+      "title": "Hof van Karel V en Spanje",
+      "summary": "Adrianus wordt leermeester van Karel V en krijgt een bestuurlijke rol in Spanje."
     },
     {
-      "start_seconds": 858,
-      "title": "Leraar van Karel V en diplomaat",
-      "summary": "Adrianus wordt aan het hof gehaald en regelt de Spaanse erfopvolging voor Karel."
+      "start_seconds": 1380,
+      "title": "Inquisitie en strengheid",
+      "summary": "Bespreking van Adrianus' rol als grootinquisiteur en zijn rechtlijnige karakter."
     },
     {
-      "start_seconds": 1090,
-      "title": "Gouverneur van Spanje en burgeroorlog",
-      "summary": "Als onderkoning zonder mandaat of geld zit hij midden in een opstand en verlangt hij naar pensioen."
+      "start_seconds": 1800,
+      "title": "Pauskeuze en reis naar Rome",
+      "summary": "Het bizarre conclaaf, de verrassende verkiezing en de late aankomst in Rome."
     },
     {
-      "start_seconds": 1334,
-      "title": "Groot inquisiteur",
-      "summary": "Bespreking van de Spaanse inquisitie, mythes en Adrianus' strenge rechtvaardigheid, zoals de weduwe van tachtig."
+      "start_seconds": 2400,
+      "title": "Pontificaat en hervormingsplannen",
+      "summary": "Zijn bezuinigingen, Curie-hervorming en confrontaties met Europese machten."
     },
     {
-      "start_seconds": 1820,
-      "title": "Streng en vroom in Rome, en het conclaaf",
-      "summary": "Zijn ernst en de botsing met de Romeinse cultuur, daarna het lange conclaaf na de dood van Leo X."
+      "start_seconds": 3100,
+      "title": "Vergiftiging en complottheorieën",
+      "summary": "Geruchten over zijn vroege dood en de rol van wetenschap en complotdenken."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Nalatenschap en Franciscus",
+      "summary": "Adrianus' invloed op de Reformatie en het Concilie van Trente, en vergelijkingen met Franciscus."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 36,
-      "speaker": "David Boogerd",
-      "text": "Katholieken komen zelden met complottheorieën, want die hebben eigenlijk één groot geïnstitutionaliseerd complot.",
-      "note": "Grappige openingsstelling over complottheorieën."
-    },
-    {
-      "start_seconds": 273,
+      "start_seconds": 2820,
       "speaker": "Anton de Wit",
-      "text": "Misschien wel de machtigste Nederlander die we ooit vergeten zijn.",
-      "note": "Vat de paradox van Adrianus' vergetelheid samen."
+      "text": "Adrianus kwam te vroeg voor Rome, maar te laat voor Luther.",
+      "note": "Een scherpe samenvatting van zijn hervormingspoging, aangeleverd via biograaf Twan Geurts."
     },
     {
-      "start_seconds": 1574,
+      "start_seconds": 1300,
       "speaker": "Anton de Wit",
-      "text": "Hij veroordeelde een weduwe van 80 tot levenslang voor iets wat ze als kind had gedaan.",
-      "note": "Illustreert zijn genadeloze rechtvaardigheidsgevoel."
+      "text": "Hij veroordeelde een weduwe van 80 jaar tot levenslange gevangenisstraf voor iets wat ze als kind had gedaan.",
+      "note": "Illustreert zijn genadeloze rechtlijnigheid als inquisiteur."
     },
     {
-      "start_seconds": 1782,
-      "speaker": "Anton de Wit",
-      "text": "In Rome werd hij gezien als een Dijsselbloem of Feyenoord-supporter die de cultuurschatten kwam slopen.",
-      "note": "Humoristisch beeld van de culturele botsing."
-    },
-    {
-      "start_seconds": 1296,
+      "start_seconds": 2250,
       "speaker": "Stefan Paas",
-      "text": "Je zet eigenlijk geen professor in de theologie neer op een plek waar oorlog gevoerd wordt.",
-      "note": "Scherpe observatie over Adrianus' onhandige positie in Spanje."
+      "text": "Katholieken komen zelden met complottheorieën, want die hebben één groot geïnstitutionaliseerd complot: in Rome.",
+      "note": "Een ironische en leuke observatie over katholiek versus protestants complotdenken."
+    },
+    {
+      "start_seconds": 2990,
+      "speaker": "Anton de Wit",
+      "text": "Ze dachten: er wordt een barbaar naar Italië gehaald.",
+      "note": "Laat zien hoe vreemd en ongewenst Adrianus' keuze in Rome werd gevonden."
     }
   ],
   "keywords": [
     "Adrianus VI",
     "paus",
-    "Utrecht",
-    "Moderne Devotie",
-    "Erasmus",
-    "Maarten Luther",
+    "Reformatie",
     "Karel V",
     "inquisitie",
+    "Curie-hervorming",
     "conclaaf",
-    "curiehervorming",
-    "Spanje",
-    "humanisme"
+    "Erasmus",
+    "Luther",
+    "vergiftiging",
+    "Concilie van Trente",
+    "Nederlandse paus"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 132,
-      "reason": "Erasmus als hoofdfiguur; Ronald van Raak over deze Europese denker en kerkhervorming."
+      "n": 243,
+      "reason": "Anton de Wit over paus Franciscus; pauselijke geschiedenis en opvolging, sterk verwant."
     },
     {
-      "n": 323,
-      "reason": "Anton de Wit over Franciscus van Assisi, een historische kerkhervormer en radicale figuur."
+      "n": 246,
+      "reason": "Anton de Wit over nieuwe paus Leo XIV; pauselijke thematiek en kerkpolitiek."
     },
     {
       "n": 121,
-      "reason": "Paus Benedictus XVI, erfenis en kerkgeschiedenis; ook Benedictus XVI besproken."
+      "reason": "Erfenis van paus Benedictus XVI; kerkhervorming en pauselijke geschiedenis."
     },
     {
-      "n": 243,
-      "reason": "Paus Franciscus, zijn leven en opvolging, met Anton de Wit."
+      "n": 200,
+      "reason": "Augustinus-aflevering; historische kerkfiguur met politieke en theologische dimensies."
     },
     {
       "n": 112,
-      "reason": "Willem van Oranje: Nederlandse historische figuur uit dezelfde tijd, met kerk en politiek."
+      "reason": "Willem van Oranje als invloedrijke historische figuur; geschiedenis, kerk en politiek."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

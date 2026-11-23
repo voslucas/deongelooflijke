@@ -1,185 +1,230 @@
 {
   "episode": 113,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109936,
+    "segments": 1131,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31126,
-    "output_tokens": 2666,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56433,
+    "output_tokens": 4413,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Filosofie & ethiek",
     "Geschiedenis",
-    "Bijbel & Jezus",
-    "Samenleving & migratie"
+    "Politiek",
+    "God & geloof"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog; hier ook als gesprekspartner",
+      "start_seconds": 251,
+      "mention_count": 1
+    },
+    {
       "name": "Annelien de Dijn",
-      "note": "historica, auteur van het boek Vrijheid",
-      "start_seconds": 173,
-      "wiki_checked": true,
-      "wiki_pageid": 5763165,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Annelien_De_Dijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Annelien_de_dijn-1697203644.jpeg/250px-Annelien_de_dijn-1697203644.jpeg"
+      "note": "historica, auteur van 'Vrijheid'",
+      "start_seconds": 164,
+      "mention_count": 4
     },
     {
       "name": "Andrea Wulf",
-      "note": "auteur van Fabelhafte Rebellen",
+      "note": "auteur van 'Fabelhafte Rebellen'",
       "start_seconds": 194,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Fjodor Dostojevski",
-      "note": "schrijver van de Grote Inquisiteur",
-      "start_seconds": 291,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
-    },
-    {
-      "name": "Paulus",
-      "note": "apostel, over vrijheid en dienstbaarheid aan de ander",
-      "start_seconds": 1158,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "name": "Wael Quesa",
+      "note": "auteur van boek over vrijheid in de Arabische wereld",
+      "start_seconds": 489,
+      "mention_count": 1
     },
     {
       "name": "Mark Tuitert",
-      "note": "voormalig schaatser, schreef over het stoïcisme",
+      "note": "voormalig schaatser, schreef over stoïcisme",
       "start_seconds": 1012,
-      "wiki_checked": true,
-      "wiki_pageid": 26891,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Tuitert",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Mark_Tuitert_Beslist_nl_%28cropped%29.png/250px-Mark_Tuitert_Beslist_nl_%28cropped%29.png"
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Price",
+      "note": "Welsh dominee, schreef in 1776 over burgerlijke vrijheid",
+      "start_seconds": 1688,
+      "mention_count": 1
+    },
+    {
+      "name": "Edmund Burke",
+      "note": "conservatief denker, reactie op de Franse Revolutie",
+      "start_seconds": 1790,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Constant",
+      "note": "liberaal denker, reactie op de Franse Revolutie",
+      "start_seconds": 1790,
+      "mention_count": 1
+    },
+    {
+      "name": "Isaiah Berlin",
+      "note": "filosoof, positieve en negatieve vrijheid",
+      "start_seconds": 2270,
+      "mention_count": 3
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "note": "existentialistisch filosoof",
+      "start_seconds": 2940,
+      "mention_count": 3
+    },
+    {
+      "name": "Simone de Beauvoir",
+      "note": "filosofe, Sartres tijdgenote",
+      "start_seconds": 2950,
+      "mention_count": 1
+    },
+    {
+      "name": "Caroline Schlegel",
+      "note": "romantica, muze van de vroege romantici",
+      "start_seconds": 2600,
+      "mention_count": 3
+    },
+    {
+      "name": "Fichte",
+      "note": "Duits filosoof, vrijheid als vrijheid van anderen",
+      "start_seconds": 2570,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel, over vrijheid in Christus en dienstbaarheid",
+      "start_seconds": 1140,
+      "mention_count": 6
+    },
+    {
+      "name": "Dostojevski",
+      "note": "schrijver, Grootinquisiteur over vrijheid",
+      "start_seconds": 270,
+      "mention_count": 1
+    },
+    {
+      "name": "Pico della Mirandola",
+      "note": "renaissancefilosoof over waardigheid van de mens",
+      "start_seconds": 2000,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Taylor",
+      "note": "Canadese filosoof, 'De malaise van de moderniteit'",
+      "start_seconds": 3090,
+      "mention_count": 1
+    },
+    {
+      "name": "Hendrikus Berkhof",
+      "note": "theoloog, mens als antwoordelijk wezen",
+      "start_seconds": 3420,
+      "mention_count": 1
+    },
+    {
+      "name": "Willem van Oranje",
+      "note": "vorst, gewetensvrijheid",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Filips II",
+      "note": "koning, tegenstander van Willem van Oranje",
+      "start_seconds": 3500,
+      "mention_count": 1
+    },
+    {
+      "name": "Hitler",
+      "note": "Duitse dictator, via verkiezingen aan de macht",
+      "start_seconds": 1880,
+      "mention_count": 1
+    },
+    {
+      "name": "John Mark Comer",
+      "note": "Amerikaanse theoloog en pastor",
+      "start_seconds": 2740,
+      "mention_count": 1
     },
     {
       "name": "Epictetus",
-      "note": "stoïcijnse filosoof",
-      "start_seconds": 1112,
-      "wiki_checked": true,
-      "wiki_pageid": 61396,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Epictetus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Epictetus_from_L._Annaei_Senecae_philosophi_Opera%2C_1605%2C_title_page_detail.png/250px-Epictetus_from_L._Annaei_Senecae_philosophi_Opera%2C_1605%2C_title_page_detail.png"
+      "note": "stoïcijns filosoof",
+      "start_seconds": 1100,
+      "mention_count": 1
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof, beeld van de staat als lichaam",
-      "start_seconds": 1247,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "filosoof, Republiek",
+      "start_seconds": 2000,
+      "mention_count": 2
+    },
+    {
+      "name": "Cicero",
+      "note": "Romeins denker over politieke gemeenschap",
+      "start_seconds": 840,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader",
+      "start_seconds": 840,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Griekse filosoof",
+      "start_seconds": 840,
+      "mention_count": 1
+    },
+    {
+      "name": "Mozes",
+      "note": "leider van het Joodse volk uit Egypte",
+      "start_seconds": 870,
+      "mention_count": 1
+    },
+    {
+      "name": "Lodewijk XVI",
+      "note": "Franse koning, onthoofd tijdens de Revolutie",
+      "start_seconds": 1720,
+      "mention_count": 1
     },
     {
       "name": "Tom Wright",
       "note": "theoloog, schreef biografie van Paulus",
-      "start_seconds": 1338,
-      "wiki_checked": true,
-      "wiki_pageid": 861401,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Wright_%28theoloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/NTWright071220.jpg/250px-NTWright071220.jpg"
+      "start_seconds": 1340,
+      "mention_count": 1
     },
     {
-      "name": "Richard Price",
-      "note": "Welshe dominee, schreef in 1776 over burgerlijke vrijheid",
-      "start_seconds": 1705,
-      "wiki_checked": true,
-      "wiki_pageid": 225285,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Price_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Richard_Price.jpg/250px-Richard_Price.jpg"
-    },
-    {
-      "name": "Edmund Burke",
-      "note": "conservatief denker, reageerde op de Franse Revolutie",
-      "start_seconds": 1769,
-      "wiki_checked": true,
-      "wiki_pageid": 100027,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edmund_Burke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/EdmundBurke1771.jpg/250px-EdmundBurke1771.jpg"
-    },
-    {
-      "name": "Benjamin Constant",
-      "note": "liberaal denker, reageerde op de Franse Revolutie",
-      "start_seconds": 1769,
-      "wiki_checked": true,
-      "wiki_pageid": 120366,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Constant_%28schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Henri-Benjamin_Constant_de_Rebecque.png/250px-Henri-Benjamin_Constant_de_Rebecque.png"
-    },
-    {
-      "name": "John Stuart Mill",
-      "note": "liberaal filosoof, over de dictatuur van de meerderheid",
-      "start_seconds": 1868,
-      "wiki_checked": true,
-      "wiki_pageid": 12471,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Stuart_Mill",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Stuart_Mill_G_F_Watts.jpg/250px-Stuart_Mill_G_F_Watts.jpg"
-    },
-    {
-      "name": "Pico della Mirandola",
-      "note": "Renaissancefilosoof over de waardigheid van de mens",
-      "start_seconds": 2019,
-      "wiki_checked": true,
-      "wiki_pageid": 245398,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pico1.jpg/250px-Pico1.jpg"
-    },
-    {
-      "name": "Lodewijk XVI",
-      "note": "Franse koning, onthoofd",
-      "start_seconds": 1763,
-      "wiki_checked": true,
-      "wiki_pageid": 28372,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_XVI_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg/250px-Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "kwam via legale verkiezingen aan de macht",
-      "start_seconds": 1883,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "name": "Goethe",
+      "note": "dichter, romantiek",
+      "start_seconds": 3560,
+      "mention_count": 2
     }
   ],
   "books": [
     {
-      "title": "Vrijheid: een woelige geschiedenis",
+      "title": "Vrijheid, een woelige geschiedenis",
       "author": "Annelien de Dijn",
-      "note": "geschiedenis van het vrijheidsbegrip vanaf de oudheid",
-      "start_seconds": 173,
+      "note": "over de geschiedenis van het vrijheidsbegrip",
+      "start_seconds": 164,
       "volume_id": "7PRxzgEACAAJ",
-      "canonical_title": "Vrijheid: een woelige geschiedenis",
+      "canonical_title": "Vrijheid, een woelige geschiedenis",
       "canonical_author": "Annelien De Dijn",
       "isbn13": "9789021340098",
       "isbn10": "9021340097",
       "thumbnail": ""
     },
     {
-      "title": "Fabelhafte Rebellen",
+      "title": "Fabelhafte Rebellen, Die frühen Romantiker und die Erfindung des Ich",
       "author": "Andrea Wulf",
       "note": "over de vroege romantici en de uitvinding van het ik",
       "start_seconds": 194,
@@ -189,150 +234,199 @@
       "isbn13": "9783641252526",
       "isbn10": "3641252520",
       "thumbnail": "http://books.google.com/books/content?id=pkRnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "De malaise van de moderniteit",
+      "author": "Charles Taylor",
+      "note": "over individuele keuze binnen morele kaders",
+      "start_seconds": 3090,
+      "volume_id": "ubyxGAAACAAJ",
+      "canonical_title": "De malaise van de moderniteit",
+      "canonical_author": "Charles Taylor, Maarten van der Marel",
+      "isbn13": "9789039106006",
+      "isbn10": "9039106002",
+      "thumbnail": ""
+    },
+    {
+      "title": "Four Essays on Liberty",
+      "author": "Isaiah Berlin",
+      "note": "positieve en negatieve vrijheid",
+      "start_seconds": 2270,
+      "volume_id": "0EYvAAAAYAAJ",
+      "canonical_title": "Four Essays on Liberty",
+      "canonical_author": "Isaiah Berlin",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=0EYvAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Galaten 3:28",
-      "note": "in Christus geen man of vrouw, Griek of jood, slaaf of vrije",
-      "start_seconds": 1423
+      "ref": "Exodus 20",
+      "note": "bevrijding uit Egypte en wetgeving op de Sinaï",
+      "start_seconds": 870
     },
     {
-      "ref": "Exodus",
-      "note": "bevrijding uit Egypte en het ontvangen van de wetten op de Sinaï",
-      "start_seconds": 25
+      "ref": "Galaten 3:28",
+      "note": "in Christus is er geen man of vrouw, Griek of jood, slaaf of vrije",
+      "start_seconds": 1380
+    },
+    {
+      "ref": "Psalm 139:14",
+      "note": "Doorgrond mij, ken mijn hart; Beatrice bidt hier mee",
+      "start_seconds": 3660
     },
     {
       "ref": "1 Korintiërs",
-      "note": "Paulus over vrijheid en rekening houden met de ander",
-      "start_seconds": 1185
+      "note": "Paulus over vrijheid en dienstbaarheid aan de ander",
+      "start_seconds": 1180
     }
   ],
   "places": [
     "Athene",
+    "Sparta",
     "Perzië",
     "Egypte",
     "Sinaï",
-    "Frankrijk",
+    "Parijs",
     "Amerika",
     "China",
-    "Rusland"
+    "Rusland",
+    "India"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas laten zien dat ons moderne, individualistische vrijheidsbegrip historisch niet klopt. Vrijheid betekende van oudsher: geen slaaf zijn en samen met anderen je gemeenschap vormgeven, gekoppeld aan verantwoordelijkheid en zelfbeheersing. De Franse Revolutie en de Koude Oorlog vernauwden het begrip tot de uitleving van het ik.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas betogen dat het moderne, individualistische vrijheidsbegrip historisch niet klopt: vrijheid was oorspronkelijk gemeenschappelijk, verbonden met verantwoordelijkheid en moraal. Via de Franse Revolutie, de romantiek en het existentialisme is vrijheid steeds meer een zaak van het individuele ik geworden. Dit heeft gevolgen voor de samenleving, van politiek tot klimaat.",
   "summary_points": [
-    "Vrijheid is een van de hoogst gewaardeerde waarden, maar veel mensen kunnen leven met beperkte vrijheid.",
-    "In de oudheid betekende vrijheid niet het eigendom van een ander zijn.",
-    "Vrijheid was collectief: samen met andere vrijen je gemeenschap vormgeven.",
-    "De Exodus laat zien dat vrijheid pas betekenis krijgt in een gemeenschap met wetten.",
-    "Stoïcijnen en Paulus koppelen vrijheid aan het temmen van driften en dienstbaarheid aan de ander.",
-    "Paulus ziet zowel losbandigheid als rigide ascese als vleselijk, want beide doen geen recht aan de schepping.",
-    "De Franse Revolutie en de reactie van Burke en Constant maakten vrijheid individualistischer, als bescherming tegen de staat.",
-    "Renaissance en Reformatie (gewetensvrijheid) zijn wortels van de individuele vrijheid."
+    "Vrijheid in de klassieke oudheid betekende niet slaaf zijn en samen met anderen vorm geven aan de gemeenschap",
+    "In de Bijbel verbonden met bevrijding uit Egypte en het ontvangen van wetten en een gemeenschap",
+    "Paulus ziet vrijheid als dienstbaarheid aan de ander, niet als zelfbeschikking",
+    "Stoïcijnen: echte vrijheid vraagt beheersing van emoties en begeerten",
+    "De Franse Revolutie en de reactie daarop veranderden vrijheid in een individueel recht tegen de overheid",
+    "Romantiek en existentialisme versterkten het idee van een authentiek, innerlijk ik",
+    "Isaiah Berlin onderscheidde negatieve en positieve vrijheid; kritiek: vrijheid hangt af van privilege",
+    "Het moderne 'ik bepaal wat goed en fout is' ontbeert verantwoordelijkheid en gemeenschapsbesef",
+    "Gewetensvrijheid heeft theologische wortels bij de Reformatie en Berkhof",
+    "Uitdagingen als klimaat stellen de vraag hoe vrij we elkaar kunnen laten"
   ],
   "chapters": [
     {
-      "start_seconds": 25,
+      "start_seconds": 0,
       "title": "Inleiding: waarom vrijheid?",
-      "summary": "David introduceert het thema en Beatrice vertelt waarom ze erover schreef, naar aanleiding van coronaprotesten en de schorsing van een Kamerlid."
+      "summary": "Beatrice en David leggen uit waarom het onderwerp actueel is, onder meer door corona-protesten en de Kamerlid-schorsing."
     },
     {
       "start_seconds": 251,
-      "title": "Vrijheid als overschat goed",
-      "summary": "Stefan verwijst naar de Grote Inquisiteur en vergelijkt vrijheid met geld: mensen weten er niet altijd raad mee."
+      "title": "Vrijheid als illusie en geld",
+      "summary": "Stefan Paas stelt dat mensen zich ook in onvrijheid kunnen schikken, en vergelijkt vrijheid met geld."
     },
     {
-      "start_seconds": 464,
-      "title": "Vrijheid in de oudheid en de Bijbel",
-      "summary": "Vrijheid betekende niet slaaf zijn en was verbonden met een gemeenschap, ook in de Exodus."
+      "start_seconds": 420,
+      "title": "Oudheid en de Exodus",
+      "summary": "Vrijheid in Athene en de Bijbel als status niet-slaaf zijn en deel uitmaken van een politieke gemeenschap."
     },
     {
-      "start_seconds": 1012,
-      "title": "Stoïcijnen en zelfbeheersing",
-      "summary": "Vrijheid vraagt om het temmen van passies en begeerten."
+      "start_seconds": 960,
+      "title": "Stoïcijnen en Paulus",
+      "summary": "Zelfbeheersing als vrijheid volgens de stoïcijnen; Paulus over vrijheid als dienstbaarheid en het lichaam."
     },
     {
-      "start_seconds": 1158,
-      "title": "Paulus: vrij om te dienen",
-      "summary": "Paulus verbindt vrijheid aan het lichaam van Christus en wijst losbandigheid en ascese af."
+      "start_seconds": 1680,
+      "title": "Franse Revolutie en het kantelpunt",
+      "summary": "Hoe de revolutie leidde tot een individueel, liberaal vrijheidsbegrip en een conservatieve tegenreactie."
     },
     {
-      "start_seconds": 1598,
-      "title": "Franse Revolutie en individualisering",
-      "summary": "Reacties van Burke en Constant leiden tot een individualistisch vrijheidsbegrip."
+      "start_seconds": 2270,
+      "title": "Berlin, romantiek en het ik",
+      "summary": "Negatieve en positieve vrijheid, kritiek op Berlin, en Caroline Schlegel en de romantiek."
     },
     {
-      "start_seconds": 2019,
-      "title": "Renaissance en Reformatie",
-      "summary": "Pico della Mirandola en de gewetensvrijheid als wortels van de moderne individuele vrijheid."
+      "start_seconds": 2940,
+      "title": "Frozen, existentialisme en authenticiteit",
+      "summary": "Het moderne credo 'goed en fout bepaal ik zelf' en de rol van Sartre en Charles Taylor."
+    },
+    {
+      "start_seconds": 3420,
+      "title": "Gewetensvrijheid en de theologische wortels",
+      "summary": "Berkhof over de antwoordelijke mens, Willem van Oranje en de theologische basis van de rechtsstaat."
+    },
+    {
+      "start_seconds": 3900,
+      "title": "Klimaat en afsluiting",
+      "summary": "Vragen over vrijheid bij klimaatcrisis en de hoop die de christelijke bronnen bieden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 291,
+      "start_seconds": 251,
       "speaker": "Stefan Paas",
-      "text": "De Grote Inquisiteur vond vrijheid een zwaar overschat goed.",
-      "note": "Contrair beeld: mensen willen vooral veiligheid en voedsel."
+      "text": "Vrijheid lijkt heel leuk, maar het is een beetje als geld: veel mensen dromen ervan, maar weten niet goed wat ze ermee moeten doen.",
+      "note": "Een treffende vergelijking die de paradox van moderne vrijheid blootlegt."
     },
     {
-      "start_seconds": 372,
-      "speaker": "Stefan Paas",
-      "text": "Vrijheid is als geld: mensen dromen ervan, maar weten niet wat ze ermee moeten doen.",
-      "note": "Treffende vergelijking uit zijn boek uit 2007."
+      "start_seconds": 2700,
+      "speaker": "David Boogerd",
+      "text": "Ik ga op zoek naar wie ik ben, verleg de grenzen die ik ken. Geen goed of fout geldt hier voor mij, ik ben vrij.",
+      "note": "Het liedje uit Frozen vat volgens Boogerd het moderne vrijheidsbegrip samen."
     },
     {
-      "start_seconds": 524,
+      "start_seconds": 3560,
       "speaker": "Beatrice de Graaf",
-      "text": "Vrijheid was in het oude Griekenland de status dat je niet van iemand was.",
-      "note": "Verrassende kale oerdefinitie."
+      "text": "Vrijheid is iets wat je aangereikt krijgt; een naakt wezentje maakt geen vrije keuze, maar wordt in de klauwen gegrepen door Amazon of Facebook.",
+      "note": "Een scherpe kritiek op het idee van een puur autonoom individu."
     },
     {
-      "start_seconds": 1246,
+      "start_seconds": 3480,
       "speaker": "Stefan Paas",
-      "text": "Je bent een hand of voet van dat lichaam; je bent er voor elkaar.",
-      "note": "Paulus' beeld van vrijheid als dienstbaarheid."
+      "text": "De mens is een antwoordelijk wezen; dat antwoord kan niemand voor hem geven.",
+      "note": "Berkhof-citaat dat vrijheid verbindt met verantwoordelijkheid tegenover God."
     },
     {
-      "start_seconds": 1565,
+      "start_seconds": 3900,
       "speaker": "Stefan Paas",
-      "text": "Zowel ascese als losbandigheid komt uit dezelfde wortel: onderwaardering van het lichaam.",
-      "note": "Scherpe analyse van Paulus."
+      "text": "Wat we gedaan hebben is een DNA-profiel maken van de liberale democratische rechtsstaat.",
+      "note": "Een hoopvolle slotgedachte over de diepe theologische bronnen van vrijheid."
     }
   ],
   "keywords": [
     "vrijheid",
-    "slavernij",
     "gemeenschap",
-    "stoïcisme",
     "Paulus",
+    "stoïcijnen",
     "Franse Revolutie",
+    "romantiek",
+    "authenticiteit",
     "gewetensvrijheid",
-    "individualisme",
-    "Exodus",
-    "Verlichting",
-    "Reformatie",
-    "zelfbeheersing"
+    "Isaiah Berlin",
+    "existentialisme",
+    "verantwoordelijkheid",
+    "rechtsstaat"
   ],
-  "quotes": [],
+  "quotes": [
+    "Vrijheid is als geld. Mensen verlangen ernaar, hebben er nooit genoeg van, dromen van het geluk dat het moet opleveren en zijn niet zelden bereid ervoor te sterven, maar wanneer zij het eenmaal hebben verworven, weten ze lang niet altijd wat ze ermee moeten doen.",
+    "Ik ga op zoek naar wie ik ben, verleg de grenzen die ik ken. Geen goed of fout geldt hier voor mij, ik ben vrij.",
+    "Mensen doen nu niet anders dan het ideaal van de vrijheid in de wereld brengen."
+  ],
   "similar": [
     {
       "n": 291,
-      "reason": "Filosoof pleit voor een strenger liberalisme: vrijheid is niet vrijblijvend, zoals het vrijheidsbegrip hier."
-    },
-    {
-      "n": 209,
-      "reason": "De Graaf en Paas over het grote verhaal van onze tijd; filosofie en samenleving."
-    },
-    {
-      "n": 265,
-      "reason": "Moderne individualistische levensstijl botst met wie we zijn; historische blik op de mens."
+      "reason": "Gaat expliciet over vrijheid, liberalisme en de betekenis van vrijheid als verantwoordelijkheid."
     },
     {
       "n": 287,
-      "reason": "Mythe van zelfredzaamheid en individualisme, met Paas; kritiek op ons moderne vrijheidsdenken."
+      "reason": "Kritiek op individualisme en zelfredzaamheid, met Beatrice de Graaf en Stefan Paas."
     },
     {
-      "n": 184,
-      "reason": "De Graaf en Paas over waarde van de mens, met Bijbel, Romeinen en geschiedenis."
+      "n": 301,
+      "reason": "Filosofische vraag naar vrijheid, staat en de kloof tussen elite en volk."
+    },
+    {
+      "n": 221,
+      "reason": "Filosofie over politiek en existentialisme, via Camus, met Stefan Paas."
+    },
+    {
+      "n": 209,
+      "reason": "Zoekt het grote verhaal voor deze tijd, met Beatrice de Graaf en Stefan Paas."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,18 +1,23 @@
 {
   "episode": 24,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 83693,
+    "segments": 762,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30159,
-    "output_tokens": 1974,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 42216,
+    "output_tokens": 6132,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
-    "Samenleving & migratie",
     "God & geloof",
-    "Wetenschap & kosmos"
+    "Dood & rouw",
+    "Economie & geld"
   ],
   "guests": [
     "Damiaan Denys"
@@ -20,198 +25,210 @@
   "people": [
     {
       "name": "Mark Rutte",
-      "note": "premier, sprak het land toe over de coronacrisis",
-      "start_seconds": 80,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Martin Luther",
-      "note": "schreef in 1527 een brief over de pestepidemie",
-      "start_seconds": 1676,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "note": "Nederlands premier die in een toespraak de coronamaatregelen aankondigde",
+      "start_seconds": 94,
+      "mention_count": 3
     },
     {
       "name": "Emmanuel Macron",
-      "note": "Franse president die de crisis een oorlog noemde",
-      "start_seconds": 1882,
-      "wiki_checked": true,
-      "wiki_pageid": 4565095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Emmanuel_Macron",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Emmanuel_Macron_-_June_2025_%283x4_cropped%29.jpg/250px-Emmanuel_Macron_-_June_2025_%283x4_cropped%29.jpg"
+      "note": "Franse president die de coronacrisis als oorlog omschreef",
+      "start_seconds": 1879,
+      "mention_count": 1
     },
     {
-      "name": "Ayaan Lubach",
-      "note": "cabaretier die vroeg waarom God dit doet",
+      "name": "Ayaan Hirsi Ali",
+      "note": "Ayaan Lubach is in het transcript genoemd als cabaretier die een vraag over God stelde; zie Ayaan Lubach",
       "start_seconds": 2182,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Thijs van den Brink",
-      "note": "ondervraagd over de vraag waarom God dit doet",
-      "start_seconds": 2196,
-      "wiki_checked": true
+      "name": "Thijs van de Brink",
+      "note": "Politicus aan wie Ayaan Lubach de vraag waarom God dit doet stelde",
+      "start_seconds": 2182,
+      "mention_count": 1
     },
     {
       "name": "Gert-Jan Segers",
-      "note": "ondervraagd over de vraag waarom God dit doet",
-      "start_seconds": 2196,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
-    }
-  ],
-  "books": [],
-  "bible_refs": [
-    {
-      "ref": "Deuteronomium 14:18",
-      "note": "reinheidswet: eet geen vleermuizen, aangehaald in een tweet van Paas",
-      "start_seconds": 2199
+      "note": "Politicus aan wie Ayaan Lubach dezelfde vraag stelde",
+      "start_seconds": 2182,
+      "mention_count": 1
     },
     {
-      "ref": "Spreuken 30",
-      "note": "geef me geen armoede en geen rijkdom, een juiste balans",
-      "start_seconds": 1885
+      "name": "Martin Luther",
+      "note": "Reformator wiens brief uit 1527 over de pestepidemie wordt besproken",
+      "start_seconds": 1675,
+      "mention_count": 1
+    },
+    {
+      "name": "David Brooks",
+      "note": "Amerikaanse columnist en auteur van The Second Mountain",
+      "start_seconds": 2814,
+      "mention_count": 4
+    }
+  ],
+  "books": [
+    {
+      "title": "The Second Mountain",
+      "author": "David Brooks",
+      "note": "Boek over een collectieve zoektocht naar wat het leven echt betekent; Stefan Paas raadt het aan",
+      "start_seconds": 2814,
+      "volume_id": "llwR0AEACAAJ",
+      "canonical_title": "The Second Mountain: The Quest for a Moral Life",
+      "canonical_author": "David Brooks",
+      "isbn13": "9789864799145",
+      "isbn10": "9864799142",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Spreuken 30:8",
+      "note": "Gebed om noch armoede noch rijkdom, maar een juiste balans",
+      "start_seconds": 1884
+    },
+    {
+      "ref": "Deuteronomium 14:18",
+      "note": "Verbod op het eten van vleermuizen; Paas gebruikt dit om de corona-uitbraak in de context van dierenconsumptie te plaatsen",
+      "start_seconds": 2199
     }
   ],
   "places": [
     "Nederland",
-    "Amsterdam",
-    "Wuhan",
     "Italië",
-    "China",
+    "Wuhan",
     "Amerika",
-    "Nigeria",
-    "Canada",
-    "Liberia",
+    "Jeruzalem",
     "Brazilië",
-    "Afrika",
-    "Frankrijk"
+    "Liberia",
+    "Nigeria",
+    "Amsterdam"
   ],
-  "summary_tldr": "David Boogerd praat met psychiater en filosoof Damiaan Denys en theoloog Stefan Paas over angst tijdens de coronacrisis. Denys stelt dat onze veilige, controlegerichte samenleving juist kwetsbaarder en angstiger is geworden. Ze bespreken hoe je met angst kunt omgaan, onder meer door controle los te laten en te vertrouwen.",
+  "summary_tldr": "In deze aflevering spreken psychiater en filosoof Damiaan Denys en theoloog Stefan Paas over angst in de coronacrisis. Ze betogen dat onze moderne veiligheid juist kwetsbaarheid en angst vergroot, doordat we gewend zijn aan controle en risico's overschatten. Vanuit geloof en traditie bieden ze tegenwicht: loslaten van controle en geborgenheid als alternatief voor angst.",
   "summary_points": [
-    "De coronacrisis doorbreekt routines en roept onbehagen op, ook in kerken die online gaan.",
-    "Denys vindt de maatregelen deels disproportioneel en vreest de maatschappelijke en economische gevolgen op lange termijn.",
-    "Paas wijst op de onzekerheid van kennis en vindt voorzichtigheid verdedigbaar.",
-    "Onze samenleving is veilig maar angstiger geworden: een illusie van controle en maakbaarheid.",
-    "Angst is een betekenisgever geworden in media, consumptie en politiek (culture of fear).",
-    "Paas nuanceert: ook vroeger waren mensen bang, maar traditionele culturen hadden een kosmische orde als houvast.",
-    "De crisis kan een wake-upcall zijn over onderlinge verbondenheid en omgang met natuur, zoals diersmokkel.",
-    "Advies tegen angst: afstand nemen van controle, aanvaarden, vertrouwen, ademhaling en gezelschap."
+    "De coronacrisis doorbreekt routines en roept onbehagen en angst op, ook in de kerk, die voor het eerst op grote schaal dicht ging",
+    "Denys vindt de maatregelen soms disproportioneel en wijst op indirecte gevolgen zoals armoede en economische schade",
+    "Paas benadrukt dat we op basis van beperkte kennis beleid moeten maken en dat ons gedrag gevolgen heeft voor kwetsbare mensen",
+    "Beide gasten zien de mens als kwetsbaar en wijzen op de illusie van controle die moderne technologie ons heeft gegeven",
+    "Angst is volgens Denys een betekenisgever geworden in de samenleving, in de media, de consumptie en de politiek (fear culture)",
+    "Veiligheid maakt mensen juist kwetsbaarder, omdat ze minder geconfronteerd worden met gevaar en weerbaarheid verliezen",
+    "Religie kan angst zowel verminderen, door overgave aan iets wat je niet begrijpt, als vergroten",
+    "Praktische tips: ademhalingsoefeningen, beperkt nieuws volgen en het jeugdjournaal als informatiebron",
+    "Paas ziet in de crisis ook een kans voor loutering en bewustwording van onze onderlinge verbondenheid"
   ],
   "chapters": [
     {
-      "start_seconds": 29,
-      "title": "Een rare tijd",
-      "summary": "Eerste reacties op de coronacrisis, doorbroken routines en de WhatsApp-kerkdienst."
+      "start_seconds": 0,
+      "title": "Rare tijden in een coronaschaduw",
+      "summary": "Gasten en presentator beschrijven de vreemde, onwerkelijke sfeer van de lockdown en hoe ze die zelf ervaren."
     },
     {
-      "start_seconds": 276,
-      "title": "Het AMC en de psychiatrie",
-      "summary": "Denys vertelt hoe zijn afdeling is aangepast en wat het virus doet met patiënten."
+      "start_seconds": 209,
+      "title": "Kerk en routines onder druk",
+      "summary": "Paas vertelt over de eerste WhatsApp-kerkdienst en de doorbroken routines in het dagelijks leven."
     },
     {
-      "start_seconds": 415,
-      "title": "Zijn de maatregelen proportioneel?",
-      "summary": "Discussie over griep, suïcide en de economische gevolgen van de maatregelen."
+      "start_seconds": 525,
+      "title": "Proportionaliteit van de maatregelen",
+      "summary": "Denys en Paas wegen de dodelijkheid van het virus af tegen andere doden en de economische gevolgen van de maatregelen."
     },
     {
-      "start_seconds": 955,
-      "title": "Kwetsbaarheid en controle",
-      "summary": "Over besmetting als lot, de illusie van maakbaarheid en hamsteren."
+      "start_seconds": 1028,
+      "title": "Kwetsbaarheid en de illusie van controle",
+      "summary": "Denys ziet de huidige paniek als een nieuwe ervaring van kwetsbaarheid in een samenleving die gewend is aan controle."
     },
     {
       "start_seconds": 1458,
-      "title": "Culture of fear",
-      "summary": "Angst als betekenisgever en de paradox dat veiligheid angstiger maakt."
+      "title": "Fear culture en de angstcultuur",
+      "summary": "Denys en Paas bespreken hoe angst een betekenisgever is geworden en waarom angst toeneemt terwijl de samenleving veiliger wordt."
     },
     {
-      "start_seconds": 1900,
-      "title": "Loutering en wake-upcall",
-      "summary": "Wat de crisis ons kan leren over verbondenheid, natuur en verantwoordelijkheid."
+      "start_seconds": 2144,
+      "title": "Loutering en verantwoordelijkheid",
+      "summary": "Paas noemt dierensmokkel als oorzaak van epidemieën en ziet de crisis als wake-up call voor onze levensstijl."
     },
     {
       "start_seconds": 2303,
-      "title": "Omgaan met angst",
-      "summary": "Denys geeft advies: controle loslaten, aanvaarden, ademhaling en gezelschap."
+      "title": "Omgaan met angst: loslaten en geloof",
+      "summary": "Denys adviseert afstand nemen van controlebehoefte, praktische ademhalingstechnieken en beperkt nieuwsgebruik; Paas spreekt over geborgenheid."
+    },
+    {
+      "start_seconds": 2794,
+      "title": "Geborgenheid, solidariteit en boektips",
+      "summary": "Paas vertelt over geloof als bron van geborgenheid, de Bijbelse vrees-niet-boodschap en de tip van David Brooks."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1840,
+      "start_seconds": 1827,
       "speaker": "Damiaan Denys",
-      "text": "Misschien hebben we gewoon een keer een oorlog nodig. Of een virus.",
-      "note": "Provocerende stelling over gezondheid van de samenleving."
+      "text": "De mens tendeert er voortdurend naar om in een veilige samenleving te leven. Dat is ons gelukt, maar de prijs is dat mensen gewoon kwetsbaar worden.",
+      "note": "Het paradoxale gevolg van veiligheid wordt in één zin samengevat."
     },
     {
-      "start_seconds": 1167,
+      "start_seconds": 1163,
       "speaker": "Damiaan Denys",
-      "text": "Wij hebben ons in de laatste seconde van de beschaving een enorme illusie van controle aangeleerd.",
-      "note": "Kern van zijn analyse van onze angst."
+      "text": "Onze reactie is een soort backlash van onze enorme behoefte en gewenning aan controle.",
+      "note": "Denys herinterpreteert de crisis als spiegel van onze controledrang in plaats van pure angst voor het virus."
     },
     {
-      "start_seconds": 1625,
-      "speaker": "Damiaan Denys",
-      "text": "Een veilige samenleving maakt mensen kwetsbaarder.",
-      "note": "De wrede paradox van veiligheid."
-    },
-    {
-      "start_seconds": 2182,
+      "start_seconds": 1675,
       "speaker": "Stefan Paas",
-      "text": "Iemand heeft vleermuizen zitten eten, dus ik schreef Deuteronomium 14:18 erbij.",
-      "note": "Prikkelend antwoord op de vraag waarom God dit doet."
+      "text": "Een veilige samenleving ontneemt je de mogelijkheid om geconfronteerd te worden met datgene waar je bang voor bent en de mogelijkheid om weerbaar te worden.",
+      "note": "Een scherpe tegenintuïtieve gedachte over veiligheid en weerbaarheid."
     },
     {
-      "start_seconds": 2323,
+      "start_seconds": 2042,
+      "speaker": "Stefan Paas",
+      "text": "Een klein beetje gevaar wordt in de samenleving gespoten, waardoor we leren ermee om te gaan.",
+      "note": "Paas gebruikt een medische metafoor om de crisis als lichte inenting te zien."
+    },
+    {
+      "start_seconds": 2303,
       "speaker": "Damiaan Denys",
-      "text": "Afstand nemen van je behoefte aan controle is misschien een soort geloofsact.",
-      "note": "Verbindt angst en religie."
+      "text": "Angst is per definitie controleverlies; afstand nemen van de behoefte aan controle is het belangrijkste wat je kunt doen.",
+      "note": "Een praktisch en psychologisch kernadvies voor omgaan met angst."
     }
   ],
   "keywords": [
     "angst",
-    "corona",
-    "controle",
+    "coronacrisis",
     "kwetsbaarheid",
-    "culture of fear",
+    "controle",
+    "fear culture",
     "veiligheid",
+    "geloof",
+    "geborgenheid",
     "loutering",
-    "vertrouwen",
-    "maakbaarheid",
-    "psychiatrie",
-    "transcendentie"
+    "risico",
+    "solidariteit",
+    "Vrees niet"
   ],
-  "quotes": [],
+  "quotes": [
+    "De coronacrisis maakt veel mensen angstig.",
+    "Hoe kan je het beste omgaan met die angst, als je weet dat ook jij waarschijnlijk ziek zal worden?"
+  ],
   "similar": [
     {
-      "n": 14,
-      "reason": "Veiligheid en angst: waarom we ons onveiliger voelen in een steeds veiliger samenleving."
+      "n": 25,
+      "reason": "Corona als crisis, plagen uit de geschiedenis, geloof en dood en rouw"
+    },
+    {
+      "n": 26,
+      "reason": "Coronacrisis met economische dimensie, moraal en geloof als thema"
+    },
+    {
+      "n": 198,
+      "reason": "Angst als centraal thema, met zingeving en geloof als tegenwicht"
     },
     {
       "n": 27,
-      "reason": "Corona, het 'nieuwe normaal', hoop en zingeving in onzekere tijden."
+      "reason": "Corona-tijd, geloof en hoop, zingeving en psychisch welzijn"
     },
     {
-      "n": 249,
-      "reason": "Psychiater Rogier Hoenders over mentale epidemie; psychiatrie en zingeving."
-    },
-    {
-      "n": 33,
-      "reason": "Psychiater Dirk de Wachter over geluk, kwetsbaarheid en het goede leven."
-    },
-    {
-      "n": 25,
-      "reason": "Corona en pandemieën door de geschiedenis, met geloof en angst als achtergrond."
+      "n": 109,
+      "reason": "Psychische nood, zinloosheid en de sprong naar geloof als uitweg"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,101 +1,116 @@
 {
   "episode": 82,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 90573,
+    "segments": 892,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30809,
-    "output_tokens": 2327,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46157,
+    "output_tokens": 6267,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "Geopolitiek & oorlog",
+    "Kerk & secularisatie",
     "God & geloof",
-    "Geschiedenis"
+    "Politiek"
   ],
   "guests": [
     "Theodoor van der Voort"
   ],
   "people": [
     {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president, steunt de oorlog in Oekraïne",
-      "start_seconds": 59,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
       "name": "Patriarch Kirill",
-      "note": "leider van de Russisch-Orthodoxe kerk, steunt Poetin",
+      "note": "Patriarch van Moskou en leider van de Russisch-Orthodoxe Kerk; steunt Poetin en de oorlog in Oekraïne",
       "start_seconds": 59,
-      "wiki_checked": true,
-      "wiki_pageid": 1547139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kirill_van_Moskou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patriarch_Kirill_of_Moscow.jpg/250px-Patriarch_Kirill_of_Moscow.jpg"
+      "mention_count": 35
     },
     {
-      "name": "Fjodor Dostojevski",
-      "note": "schrijver; De idioot maakte indruk op Van der Voort",
-      "start_seconds": 693,
-      "wiki_checked": true,
-      "wiki_pageid": 30364,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fjodor_Dostojevski",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dostoevskij_1872.jpg/250px-Dostoevskij_1872.jpg"
-    },
-    {
-      "name": "Metropoliet Anthony van Sorozj",
-      "note": "gaf Van der Voort advies over het priesterschap",
-      "start_seconds": 905,
-      "wiki_checked": true
+      "name": "Vladimir Poetin",
+      "note": "Russische president; door Kirill gesteund",
+      "start_seconds": 59,
+      "mention_count": 25
     },
     {
       "name": "Leonid Brezjnev",
-      "note": "Sovjetleider tijdens de studietijd van Van der Voort",
-      "start_seconds": 1022,
-      "wiki_checked": true,
-      "wiki_pageid": 22258,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Leonid_Brezjnev",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg/250px-Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg"
+      "note": "Sovjetleider tijdens Van der Voorts studie in de Sovjet-Unie",
+      "start_seconds": 1023,
+      "mention_count": 3
+    },
+    {
+      "name": "Nikolaj Podgorny",
+      "note": "Sovjetleider; portret in de aula van de geestelijke academie",
+      "start_seconds": 1090,
+      "mention_count": 1
+    },
+    {
+      "name": "Fjodor Dostojevski",
+      "note": "Russische schrijver; auteur van De idioot",
+      "start_seconds": 684,
+      "mention_count": 2
+    },
+    {
+      "name": "Metropoliet Antonius van Londen",
+      "note": "Metropoliet die Van der Voort adviseerde tijdens zijn roeping tot priester",
+      "start_seconds": 905,
+      "mention_count": 2
     },
     {
       "name": "Metropoliet Sergi",
-      "note": "riep tijdens de Tweede Wereldoorlog op tot verzet tegen de Duitsers",
-      "start_seconds": 1625,
-      "wiki_checked": true
+      "note": "Metropoliet die tijdens de Tweede Wereldoorlog opriep tegen de Duitse indringers",
+      "start_seconds": 1607,
+      "mention_count": 1
     },
     {
-      "name": "Metropoliet Onufri van Kiev",
-      "note": "leider van de orthodoxe kerk in Oekraïne onder Moskou",
+      "name": "Johannes Chrysostomos",
+      "note": "Kerkvader die verbannen werd omdat hij optrad tegen keizer Eudoxia",
+      "start_seconds": 2966,
+      "mention_count": 1
+    },
+    {
+      "name": "Ambrosius van Milaan",
+      "note": "Kerkvader die zich verzette tegen de keizerlijke macht",
+      "start_seconds": 2977,
+      "mention_count": 1
+    },
+    {
+      "name": "Metropoliet Onufri",
+      "note": "Metropoliet van Kiev; Kirill liet hem en andere Oekraïense bisschoppen vallen",
       "start_seconds": 2007,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
-      "name": "Paus Franciscus",
-      "note": "ontmoette Kirill in Havana",
-      "start_seconds": 2111,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Alexius II",
+      "note": "Voorganger van Kirill als patriarch van Moskou",
+      "start_seconds": 2131,
+      "mention_count": 1
+    },
+    {
+      "name": "Boris Jeltsin",
+      "note": "Russische president in de jaren negentig; context van Kirills opkomst",
+      "start_seconds": 2199,
+      "mention_count": 1
+    },
+    {
+      "name": "Kotorov",
+      "note": "Orthodoxe priester die Kirill de glimlach op het gezicht van het systeem noemde",
+      "start_seconds": 2892,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De idioot",
       "author": "Fjodor Dostojevski",
-      "note": "roman die Van der Voort diep raakte en hem Russisch deed leren",
-      "start_seconds": 693,
+      "note": "Roman die Van der Voort als jongeman diep raakte en hem naar de Russische taal en cultuur bracht",
+      "start_seconds": 684,
       "volume_id": "YqbdxgEACAAJ",
       "canonical_title": "De idioot",
-      "canonical_author": "Fjodor Dostojevski",
+      "canonical_author": "Fedor Michajlovič Dostoevskij",
       "isbn13": "9789028282384",
       "isbn10": "9028282386",
       "thumbnail": ""
@@ -103,134 +118,147 @@
   ],
   "bible_refs": [
     {
-      "ref": "Psalm 1",
-      "note": "in de vespers gezongen; 'zalig de mens die niet wandelt in de raad der goddelozen', met Sovjet-woordspeling",
+      "ref": "Psalmen 1",
+      "note": "Wordt gezongen in de Vespers; in de Sovjettijd werd de tekst als impliciete kritiek op het goddeloze regime gehoord",
       "start_seconds": 1524
     }
   ],
   "places": [
-    "Oekraïne",
-    "Rusland",
     "Deventer",
-    "Moskou",
-    "Sint-Petersburg",
     "Curaçao",
     "Groningen",
-    "Mariupol",
-    "Siberië",
-    "Genève",
+    "Moskou",
+    "Sint-Petersburg",
     "Smolensk",
-    "Amsterdam"
+    "Oekraïne",
+    "Mariupol",
+    "Amsterdam",
+    "Parijs",
+    "Lissabon",
+    "Genève",
+    "Den Haag",
+    "Vlissingen",
+    "Londen",
+    "Rusland",
+    "Siberië",
+    "Roemenië",
+    "Havana"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met aartspriester Theodoor van der Voort over de Russisch-Orthodoxe kerk en Kirills steun aan Poetin. Van der Voort vertelt hoe hij als Groningse student orthodox en priester werd en in de Sovjet-Unie studeerde en door de KGB werd benaderd. Hij kan de publieke Kirill niet rijmen met de warme persoon die hij kent.",
+  "summary_tldr": "Aartspriester Theodoor van der Voort van de Russisch-Orthodoxe kerk in Deventer spreekt over de oorlog in Oekraïne, de verdeeldheid in zijn parochie en zijn afkeuring van patriarch Kirill, die Poetin steunt. Hij schetst hoe hij als Rooms-Katholieke jongen via de orthodoxie priester werd, en zijn studie en arrestatie in de Sovjet-Unie. Hij benadrukt de zintuiglijke en liturgische kracht van de orthodoxie en de complexe verhouding tussen kerk en staat.",
   "summary_points": [
-    "Van der Voort noemt de oorlog in Oekraïne vreselijk en zegt dat zijn internationale parochie eensgezind is.",
-    "Hij groeide op als katholiek op Curaçao en vond in Groningen in de orthodoxe liturgie wat hij miste.",
-    "Tijdens een zeiltocht over de oceaan kwam de roeping tot priester bij hem op.",
-    "Hij studeerde in Leningrad onder Brezjnev en werd door de KGB verhoord en geprobeerd te rekruteren.",
-    "De orthodoxe eredienst spreekt alle zintuigen aan en de kerk groeit in Nederland.",
-    "De kerk overleefde door in de Tweede Wereldoorlog achter de staat te gaan staan, wat diep in haar geschiedenis zit.",
-    "Van der Voort kent Kirill als warm en inspirerend en is verbijsterd over zijn steun aan Poetin.",
-    "Paas wijst op Kirills KGB-verleden, zijn rijkdom en eerdere uitspraken die Poetins geluid volgden."
+    "De oorlog in Oekraïne raakt de Russisch-Orthodoxe parochie in Deventer diep, omdat Russen en Oekraïners er samen zijn.",
+    "Van der Voort is verbijsterd over de preek van Kirill en de steun aan Poetin; hij noemt de oorlog onverdedigbaar.",
+    "De parochie heeft Kirills naam uit de voorbede gehaald als protest, en de metropoliet in Parijs keurde de preek af.",
+    "De orthodoxie spreekt alle zintuigen aan: beeld, geluid, geur, lichaam en kruisteken, met korte preken.",
+    "Van der Voort kwam via een studiegenoot, een Nederlandse jachtreis en een gesprek met een metropoliet tot priesterschap.",
+    "In de Sovjet-Unie studeerde hij theologie, werd hij door de KGB onder druk gezet en uiteindelijk het land uitgezet.",
+    "Kirill kende Van der Voort persoonlijk en wordt door hem als warm en bekwaam beschreven, maar ook als iemand die in het systeem is meegegaan.",
+    "Het gesprek bespreekt de historische verhouding van de kerk tot de staat (sinfonia) en de rol van de kerk tijdens vervolging en oorlog."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Vreselijke dagen en een gemengde parochie",
-      "summary": "Van der Voort beschrijft de impact van de oorlog op zijn Russisch-Oekraïense parochie en op families."
+      "title": "Inleiding en de oorlog in de parochie",
+      "summary": "Van der Voort beschrijft de angst en verdriet onder parochianen en de spanning tussen Russische en Oekraïense families."
     },
     {
-      "start_seconds": 420,
-      "title": "Fascinatie voor de orthodoxe kerk",
-      "summary": "Paas en Van der Voort bespreken het zintuiglijke karakter van de orthodoxe eredienst."
+      "start_seconds": 162,
+      "title": "Wat is de orthodoxe eredienst?",
+      "summary": "Stefan Paas en Van der Voort bespreken de zintuiglijke en lichamelijke aard van de orthodoxe liturgie en het verschil met protestanten."
     },
     {
       "start_seconds": 566,
-      "title": "Van Curaçao naar de orthodoxe kerk",
-      "summary": "Zijn weg van katholiek gezin via Groningen en Dostojevski naar de orthodoxie en een roeping op zee."
+      "title": "Hoe Van der Voort orthodox werd",
+      "summary": "Een studentenervaring in Groningen, een Dostojevski-roman, een jachtreis en een roeping tot het priesterschap leiden hem naar de kerk."
     },
     {
-      "start_seconds": 970,
-      "title": "Studeren in de Sovjet-Unie en de KGB",
-      "summary": "Zijn studie in Leningrad, het toezicht van de staat en de poging van de KGB hem te rekruteren."
+      "start_seconds": 968,
+      "title": "Studie en arrestatie in de Sovjet-Unie",
+      "summary": "Van der Voort studeert theologie in Leningrad onder toezicht van de staat en wordt door de KGB onder druk gezet."
     },
     {
-      "start_seconds": 1395,
-      "title": "Liturgie, hemel op aarde en kerk onder het regime",
-      "summary": "Over de aantrekkingskracht van de liturgie, de vervolging in de jaren twintig en dertig en de wending in de Tweede Wereldoorlog."
+      "start_seconds": 1159,
+      "title": "Liturgie en verzet tegen de staat",
+      "summary": "Hij vertelt over het Sovjet-tijdperk, de vervolging van priesters en hoe de liturgie subtiel politieke kritiek bevatte."
     },
     {
-      "start_seconds": 1782,
-      "title": "Kirill: warme persoon, politieke rol",
-      "summary": "Van der Voort schetst zijn persoonlijke ervaringen met Kirill, terwijl Paas wijst op KGB-banden, rijkdom en eerdere uitspraken."
+      "start_seconds": 1799,
+      "title": "Patriarch Kirill en zijn steun aan Poetin",
+      "summary": "Van der Voort beschrijft zijn persoonlijke ontmoetingen met Kirill en zijn verbijstering over diens preek en steun aan de oorlog."
+    },
+    {
+      "start_seconds": 2424,
+      "title": "Gebedenlijst en druk op de patriarch",
+      "summary": "De parochie schrapte Kirill uit de voorbede; het gesprek gaat over de betekenis van dit besluit en de druk van andere kerken."
+    },
+    {
+      "start_seconds": 2947,
+      "title": "Kerk, staat en de toekomst",
+      "summary": "Het gesprek gaat over de sinfonia tussen kerk en staat, de rol van de kerk bij onrecht, en de vraag of Kirill van koers kan veranderen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1240,
+      "start_seconds": 1272,
       "speaker": "Theodoor van der Voort",
-      "text": "Ach, zeiden ze, niets is veranderlijker dan de mens.",
-      "note": "Het cynisme van de KGB bij de poging hem te rekruteren."
+      "text": "Niets is veranderlijker dan de mens.",
+      "note": "Een cynische uitspraak van de KGB-medewerkers tijdens zijn verhoor, die laat zien hoe het systeem mensen probeerde te breken."
     },
     {
-      "start_seconds": 885,
-      "speaker": "Theodoor van der Voort",
-      "text": "Als je het een tijd met een klein jachtje op de oceaan hebt volgehouden, red je het ook wel een paar decennia met een parochie.",
-      "note": "Het advies van Metropoliet Anthony na zijn roeping."
-    },
-    {
-      "start_seconds": 1470,
-      "speaker": "Theodoor van der Voort",
-      "text": "Wat je gelooft, dat zing je, en wat je zingt, dat geloof je.",
-      "note": "Vat de band tussen liturgie en theologie samen."
-    },
-    {
-      "start_seconds": 1956,
+      "start_seconds": 1998,
       "speaker": "Theodoor van der Voort",
       "text": "Vader Theodor, we moeten de kerk nog een tijdje dienen, samen.",
-      "note": "Persoonlijke anekdote over Kirills zorgzaamheid."
+      "note": "Kirills woorden na de liturgie in het Kremlin tonen een warme, persoonlijke kant die het contrast met zijn publieke optreden extra pijnlijk maakt."
     },
     {
-      "start_seconds": 1830,
+      "start_seconds": 2768,
       "speaker": "Theodoor van der Voort",
-      "text": "Dit is niet mijn patriarch Kirill die ik hier zie en hoor.",
-      "note": "Zijn verbijstering over Kirills preek."
+      "text": "Je kunt deze oorlog niet rechtvaardigen. Dat gaat echt niet.",
+      "note": "Een scherpe, ondubbelzinnige afwijzing van de oorlog door een geestelijke van de kerk waar Kirill aan staat."
+    },
+    {
+      "start_seconds": 2892,
+      "speaker": "Stefan Paas",
+      "text": "Hij is een beetje de glimlach op het gezicht van het systeem.",
+      "note": "Een treffende typering van Kirill, afkomstig van de orthodoxe priester Kotorov, over de schuring tussen warmte en steun aan het regime."
     }
   ],
   "keywords": [
-    "Russisch-Orthodoxe kerk",
+    "Russisch-Orthodoxe Kerk",
     "Patriarch Kirill",
     "Poetin",
-    "Oekraïne",
-    "KGB",
+    "Oekraïne-oorlog",
+    "Orthodoxe liturgie",
+    "Sinfonia",
     "Sovjet-Unie",
-    "Liturgie",
-    "Orthodoxie",
-    "Dostojevski",
-    "Propaganda",
-    "Kerk en staat"
+    "KGB",
+    "Kerk en staat",
+    "Gebedenlijst",
+    "Vervolging"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wat doe je als de leider van jouw kerk Poetin verdedigt en zegt dat de oorlog in Oekraïne 'de schuld is van het decadente Westen met hun Gay Prides'?",
+    "Poetin en Kirill, ze lijken twee handen op één buik.",
+    "Kunnen ze een vuist maken tegen Poetin?"
+  ],
   "similar": [
     {
       "n": 79,
-      "reason": "Poetin, de kerk en de religieuze geschiedenis achter het conflict met Oekraïne en het Westen"
+      "reason": "Poetin, Russisch-orthodoxe kerk en religieuze geschiedenis van het conflict met Oekraïne"
     },
     {
       "n": 153,
-      "reason": "Rusland en zijn religie, oorlog in Oekraïne, met Derk Sauer"
+      "reason": "Realitycheck over Rusland en zijn religie, direct verwant aan de orthodoxe kerk"
     },
     {
       "n": 231,
-      "reason": "Groei van de orthodoxe kerk en haar aantrekkingskracht, ook op influencers"
+      "reason": "Orthodoxe kerk en de populariteit ervan, inclusief kerk-gerelateerde thema's"
     },
     {
-      "n": 317,
-      "reason": "Poetin zet religie in, met relieken naar het front; goden in de wereldpolitiek"
-    },
-    {
-      "n": 86,
-      "reason": "Oorlog in Oekraïne wordt apocalyptisch; religieuze dimensie van het conflict"
+      "n": 275,
+      "reason": "Rusland, geopolitieke dreiging en Europese veiligheid, met religieuze invalshoek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

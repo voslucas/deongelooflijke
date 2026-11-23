@@ -1,18 +1,23 @@
 {
   "episode": 170,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 122912,
+    "segments": 1191,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30651,
-    "output_tokens": 2737,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62151,
+    "output_tokens": 3160,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Samenleving & migratie",
-    "Zingeving & psyche",
-    "Kerk & secularisatie"
+    "Kerk & secularisatie",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Josse de Voogd"
@@ -20,271 +25,261 @@
   "people": [
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, winnaar van de Tweede Kamerverkiezingen van 2023",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider die de verkiezingen won",
+      "start_seconds": 5,
+      "mention_count": 30
+    },
+    {
+      "name": "Josse de Voogd",
+      "note": "electoraal geograaf en gast",
+      "start_seconds": 101,
+      "mention_count": 40
     },
     {
       "name": "Frans Timmermans",
-      "note": "lijsttrekker GroenLinks-PvdA, kreeg in het SBS6-debat een vraag over het eigen risico",
-      "start_seconds": 484,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
-    },
-    {
-      "name": "Maurice de Hond",
-      "note": "peiler, peiling met 42 zetels voor de PVV",
-      "start_seconds": 176,
-      "wiki_checked": true,
-      "wiki_pageid": 228374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maurice_de_Hond",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Maurice_de_Hond_%282018%29.jpg/250px-Maurice_de_Hond_%282018%29.jpg"
-    },
-    {
-      "name": "René Cuperus",
-      "note": "co-auteur met Josse de Voogd van een atlas van afgehaakt Nederland",
-      "start_seconds": 679,
-      "wiki_checked": true,
-      "wiki_pageid": 1287445,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Cuperus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rene-cuperus-1349537887.jpg/250px-Rene-cuperus-1349537887.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "leider van Forum voor Democratie, trekt meer moslims aan en veranderde van toon over de islam",
-      "start_seconds": 917,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Marine Le Pen",
-      "note": "Franse radicaal-rechtse politica, komt steeds dichter bij de macht",
-      "start_seconds": 1021,
-      "wiki_checked": true,
-      "wiki_pageid": 791772,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marine_Le_Pen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg"
-    },
-    {
-      "name": "Pieter Omtzigt",
-      "note": "leider van Nieuw Sociaal Contract, peilde in het voorjaar boven de 40 zetels",
-      "start_seconds": 1062,
-      "wiki_checked": true,
-      "wiki_pageid": 308004,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pieter_Omtzigt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pieter_Omtzigt%2C_De_Balie%2C_2021.png/250px-Pieter_Omtzigt%2C_De_Balie%2C_2021.png"
-    },
-    {
-      "name": "Fleur Agema",
-      "note": "PVV-politica, noemde de PVV 'issue owner' op migratie",
-      "start_seconds": 1309,
-      "wiki_checked": true,
-      "wiki_pageid": 597419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fleur_Agema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Fleur_Agema%2C_February_2025.jpg/250px-Fleur_Agema%2C_February_2025.jpg"
-    },
-    {
-      "name": "Yeşilgöz",
-      "note": "VVD-lijsttrekker met migratieachtergrond; mogelijk een rol bij overloop naar de PVV",
-      "start_seconds": 1970,
-      "wiki_checked": true,
-      "wiki_pageid": 4797844,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dilan_Ye%C5%9Filg%C3%B6z",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg/250px-Dilan_Ye%C5%9Filg%C3%B6z-Zegerius%2C_October_2022.jpg"
+      "note": "PvdA/GroenLinks-lijsttrekker, besproken bij het SBS6-debat over het eigen risico",
+      "start_seconds": 475,
+      "mention_count": 6
     },
     {
       "name": "Paul Collier",
-      "note": "Britse econoom met een theorie over bronnen van zingeving en eigenwaarde",
+      "note": "Britse econoom, auteur over de toekomst van het kapitalisme",
       "start_seconds": 2087,
-      "wiki_checked": true,
-      "wiki_pageid": 1668279,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Collier",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Paul_Collier_World_Economic_Forum_2013.jpg/250px-Paul_Collier_World_Economic_Forum_2013.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "leider van Forum voor Democratie",
+      "start_seconds": 915,
+      "mention_count": 3
+    },
+    {
+      "name": "Pieter Gerrit Kroeger",
+      "note": "CDA-historicus",
+      "start_seconds": 3089,
+      "mention_count": 1
+    },
+    {
+      "name": "Maurice de Hond",
+      "note": "peilingonderzoeker",
+      "start_seconds": 3060,
+      "mention_count": 3
+    },
+    {
+      "name": "Marie-Louise Omtzigt",
+      "note": "Pieter Omtzigt, oud-CDA-politicus, nu NSC; ook genoemd als Omtzigt",
+      "start_seconds": 1890,
+      "mention_count": 8
     },
     {
       "name": "Maruska van Zandvoort",
-      "note": "hoogleraar arbeid en zingeving, eerder te gast",
-      "start_seconds": 2175,
-      "wiki_checked": true
+      "note": "hoogleraar arbeid en zingeving",
+      "start_seconds": 2170,
+      "mention_count": 1
+    },
+    {
+      "name": "Marine Le Pen",
+      "note": "Franse rechts-populistische leider",
+      "start_seconds": 1020,
+      "mention_count": 1
     },
     {
       "name": "Vladimir Poetin",
-      "note": "genoemd in verband met contacten van Wilders en transparantie",
-      "start_seconds": 1775,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president, genoemd in verband met lobby's",
+      "start_seconds": 1790,
+      "mention_count": 1
+    },
+    {
+      "name": "René Cuperus",
+      "note": "co-auteur Atlas van Afgehaakt Nederland",
+      "start_seconds": 700,
+      "mention_count": 1
+    },
+    {
+      "name": "Edith Bikker",
+      "note": "ChristenUnie-leider, verzette zich tegen maatregelen gezinshereniging",
+      "start_seconds": 3200,
+      "mention_count": 1
+    },
+    {
+      "name": "Rob Trip",
+      "note": "presentator/columnist, genoemd terloops",
+      "start_seconds": 3470,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Bakfietsen en rolluiken",
       "author": "Josse de Voogd",
-      "note": "over de relatie tussen woonomgeving en PVV-stemgedrag",
-      "start_seconds": 721,
+      "note": "boek over rolluiken en PVV-stemgedrag",
+      "start_seconds": 720,
       "volume_id": "w9eoswEACAAJ",
       "canonical_title": "Bakfietsen en rolluiken: de electorale geografie van Nederland",
       "canonical_author": "Josse de Voogd",
       "isbn13": "9789072288660",
       "isbn10": "9072288661",
       "thumbnail": ""
+    },
+    {
+      "title": "Atlas van Afgehaakt Nederland",
+      "author": "Josse de Voogd, René Cuperus",
+      "note": "atlas over buitenstaanderspartijen en afgehaakt Nederland",
+      "start_seconds": 700,
+      "volume_id": "P9v1zgEACAAJ",
+      "canonical_title": "Atlas van afgehaakt Nederland: over buitenstaanders en gevestigden",
+      "canonical_author": "Josse de Voogd, René Cuperus",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [],
   "places": [
     "Utrecht",
-    "Pekela",
     "Amsterdam",
-    "Westland",
+    "Rotterdam",
     "Haarlem",
     "Leiden",
-    "Nieuwegein",
+    "Westland",
+    "Pekela",
     "Enschede",
-    "Rotterdam",
     "Volendam",
     "Lombok",
-    "Utrechtse Heuvelrug",
+    "Westkapelle",
+    "Zeeland",
+    "Friesland",
     "West-Brabant",
-    "Noordoosten van Nederland",
-    "België",
-    "Frankrijk",
-    "Etten-Leur"
+    "Hoogeveen",
+    "Etten-Leur",
+    "Schagen",
+    "Oost-Brabant",
+    "Limburg"
   ],
-  "summary_tldr": "Electoraal geograaf Josse de Voogd analyseert met David Boogerd en Stefan Paas waarom de PVV zo groot won en Nederland verrechtst. Het gesprek gaat voorbij de politiek naar cultuur, migratie, wantrouwen, ontkerkelijking en zingeving. Het volatiele electoraat en het partijaanbod dat niet aansluit bij veel kiezers staan centraal.",
+  "summary_tldr": "In deze live-aflevering in Utrecht analyseren Josse de Voogd en Stefan Paas de overwinning van Geert Wilders en de verrechtsing van Nederland, en kijken daarbij voorbij de politiek naar geografie, zingeving en religie. Migratie blijkt het belangrijkste thema, maar het is een vergaarbak van onvrede over bestaanszekerheid, wantrouwen in instituties en een gevoel van niet gehoord worden. Religie speelt een indirecte rol, met name via ontkerkelijking en de sociale bedding van protestantse gebieden.",
   "summary_points": [
-    "De PVV-winst was niet onvoorspelbaar: peilingen en sentimenten wezen al langer op deze potentie.",
-    "Kiezers zijn heel wispelturig; 108 zetels verschoven, terwijl hun opvattingen stabieler zijn.",
-    "Migratie was de hoofdreden, maar achter de stem zit een brede vergaarbak van wantrouwen en een 'middelvinger' naar gevestigde partijen.",
-    "De tegenstelling is verschoven van religie naar sociaal-economisch naar cultureel (opleiding, migratie, Europa).",
-    "De PVV-aanhang is breder geworden, met overloop van VVD-kiezers, nieuwe stemmers en jongeren.",
-    "Wie kan verhuizen beleeft een multiculturele buurt anders dan wie de verandering ondergaat.",
-    "Een partij met één lid roept vragen op over transparantie, lobby en banden met Rusland.",
-    "Volgens Paul Collier verliezen lager opgeleiden hun eigenwaarde door de nadruk op opleiding en baan, en zoeken ze die in natie en gemeenschap.",
-    "Voormalig katholieke gebieden stemmen meer op de PVV door ontkerkelijking en een zingevingsgat; protestanten en kerkgangers veel minder."
+    "De PVV-overwinning kwam voor velen onverwacht, maar peilingen toonden al lang een potentieel aan voor rechts-populisme.",
+    "Kiezers zijn sociaal-economisch vaak links van het midden maar sociaal-cultureel rechts; partijen sluiten daar niet op aan.",
+    "Migratie is het hoofdthema, maar is een vergaarbak van wantrouwen, onvrede over voorzieningen en een gevoel dat de samenleving niet wordt gehoord.",
+    "Geografie speelt mee: de middenmassa in tussenlagen, niet alleen de grote steden, bepaalt de uitslag, en veranderingen gaan snel.",
+    "Zingeving en betekenisgeving via werk en opleiding versus natie en gemeenschap verklaren deels verschillen tussen opleidingsniveaus.",
+    "Ontkerkelijking en het protestantse 'burgerschapsgebied' met sterk sociaal kapitaal lijken een demper op onbehagen, terwijl katholieke gebieden sterker naar PVV neigen.",
+    "Kerkgang correleert met minder populistisch stemmen, al is het causale verband onzeker.",
+    "Het kiezerslandschap is zeer instabiel: meer dan tweederde van de zetels schoof, wat coalitievorming en langetermijnbeleid bemoeilijkt.",
+    "Complexe vraagstukken krijgen weinig ruimte in verkiezingsdebatten, waarbij simpele beloften zoals het afschaffen van het eigen risico aantrekkelijk zijn.",
+    "De vraag of Wilders als premier kan functioneren en of de EU- en Oekraïnesteun onder druk staan, blijft open."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Een aardverschuiving die niemand zag",
-      "summary": "Inleiding en De Voogds reactie op de verkiezingsuitslag en de nieuwe peilingen. De VVD dreigt het pad van PvdA en CDA te volgen."
+      "title": "Introductie en verkiezingsschok",
+      "summary": "David Boogerd introduceert de gasten en Josse de Voogd reageert op de verkiezingsuitslag en de peilingen."
     },
     {
-      "start_seconds": 300,
-      "title": "Van religie naar cultuur: de verschuivende breuklijnen",
-      "summary": "De Voogd schetst de fasen van politieke tegenstellingen en de geografie van PVV-stemmers. Ook de rol van het late SBS6-debat komt aan bod."
+      "start_seconds": 330,
+      "title": "Verdeeldheid van partijen en kiezers",
+      "summary": "Het verval van de grote volkspartijen en de toenemende diversiteit van de samenleving worden besproken."
     },
     {
-      "start_seconds": 560,
-      "title": "Het echte Nederland en de PVV-kiezer",
-      "summary": "Waar de meeste mensen wonen en hoe de PVV-kiezer is veranderd. Ook de vraag hoe moslims en migranten stemden."
+      "start_seconds": 1000,
+      "title": "Geografie van de PVV-kiezer",
+      "summary": "De middenmassa, de bus versus trein, en het beeld van de PVV-kiezer met tegeltuinen en rolluiken komen aan bod."
     },
     {
-      "start_seconds": 960,
-      "title": "De bovengrens van het populisme",
-      "summary": "Is de 20%-grens verdwenen? Vergelijking met België en andere Europese landen en de wispelturige kiezer."
+      "start_seconds": 1600,
+      "title": "Migratie, wantrouwen en democratie",
+      "summary": "Migratie als hoofdthema, bubbels van progressieven en het democratisch tekort worden geanalyseerd."
     },
     {
-      "start_seconds": 1230,
-      "title": "Waarom migratie en wantrouwen",
-      "summary": "Migratie als hoofdthema, de verhouding tussen stad en platteland en de beleving van verandering in je buurt."
+      "start_seconds": 2050,
+      "title": "Zingeving en betekenisgeving",
+      "summary": "Het idee van Paul Collier over identiteit via werk versus natie wordt verkend met het oog op ontkerkelijking."
     },
     {
-      "start_seconds": 1620,
-      "title": "Democratie, transparantie en Wilders' standpunten over de islam",
-      "summary": "Discussie over democratisch besef, lobby's en de partij met één lid. Ook de vraag of Wilders' gematigdere toon kiezers trok."
+      "start_seconds": 2700,
+      "title": "Religie, protestanten en katholieken",
+      "summary": "Verschillen tussen protestantse en katholieke gebieden en de rol van kerkgang in stemgedrag worden besproken."
     },
     {
-      "start_seconds": 2080,
-      "title": "Zingeving en ontkerkelijking",
-      "summary": "Paas brengt Colliers theorie over zingeving in. De Voogd koppelt dit aan katholieke gebieden en West-Brabant."
+      "start_seconds": 3300,
+      "title": "Christelijke partijen en ontzuiling",
+      "summary": "De kaalslag van christelijke partijen en de betekenis van de christendemocratie worden geanalyseerd."
+    },
+    {
+      "start_seconds": 3850,
+      "title": "Vragen uit het publiek",
+      "summary": "Vragen over coalitievorming, internationale implicaties, groene conservatieven, complexiteit in debatten en de toekomst van de christendemocratie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 120,
-      "speaker": "Josse de Voogd",
-      "text": "Het is niet dat er niet is gewaarschuwd.",
-      "note": "Zijn tweet op verkiezingsavond vat zijn visie samen."
+      "start_seconds": 2470,
+      "speaker": "Stefan Paas",
+      "text": "Sommige dingen zijn gelukkig gewoon nog hetzelfde.",
+      "note": "Ironische opmerking over clichés rond huisdieren en stemgedrag, typerend voor de luchtige toon."
     },
     {
-      "start_seconds": 585,
-      "speaker": "Josse de Voogd",
-      "text": "Pas als je de streekbus neemt zie je waarom rechts altijd de verkiezingen wint.",
-      "note": "Beeldend voorbeeld van de progressieve bubbel."
+      "start_seconds": 2820,
+      "speaker": "Stefan Paas",
+      "text": "Hobbits, zeg maar.",
+      "note": "Typering van ChristenUnie-kiezers als lief, vrolijk volkje met een tuintje en een huisje."
     },
     {
-      "start_seconds": 1560,
+      "start_seconds": 2090,
       "speaker": "Josse de Voogd",
-      "text": "Het maakt heel erg veel uit of je een ticket in je broekzak hebt en weg kunt als het niet meer bevalt.",
-      "note": "Verklaart waarom dezelfde buurt heel anders wordt beleefd."
+      "text": "Het is ook het gevoel van: de rest werkt daar niet echt aan mee aan wat de samenleving vraagt.",
+      "note": "Kernverklaring waarom migratie zo sterk leeft, als symbool voor breder wantrouwen."
     },
     {
-      "start_seconds": 1965,
+      "start_seconds": 1440,
       "speaker": "Josse de Voogd",
-      "text": "Xenofobie is een soort latent iets wat klein kan blijven en heel groot kan groeien.",
-      "note": "Nuanceert de scheiding tussen PVV-stemmers en de rest."
+      "text": "Als je zo'n bus neemt die bij al die haltes stopt, verandert er iets in die verhouding: dit is echt de meerderheid.",
+      "note": "Treffende observatie over hoe reizen de blik op de Nederlandse meerderheid verandert."
     },
     {
-      "start_seconds": 2260,
-      "speaker": "Josse de Voogd",
-      "text": "In oudsher katholieke gebieden is een zingevingsgat gevallen.",
-      "note": "Koppelt ontkerkelijking aan PVV-stemgedrag."
+      "start_seconds": 3200,
+      "speaker": "Stefan Paas",
+      "text": "Het is niet alleen maar secularisatie, het is ook dat mensen meer aan het zweven zijn geraakt.",
+      "note": "Nuanceert het secularisatieverhaal met het verlies van zuilen en voorspelbaarheid."
     }
   ],
   "keywords": [
     "PVV",
-    "Geert Wilders",
     "verrechtsing",
     "migratie",
-    "populisme",
+    "geografie",
     "zingeving",
     "ontkerkelijking",
-    "electorale geografie",
-    "wantrouwen",
-    "Paul Collier",
-    "bubbel",
-    "bestaanszekerheid"
+    "protestantisme",
+    "katholicisme",
+    "verzuiling",
+    "kiezersgedrag",
+    "populisme",
+    "christendemocratie"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 169,
-      "reason": "Direct vervolg: verkiezingsuitslag PVV-winst en Nederlandse politiek, met Beatrice de Graaf en Paas."
-    },
-    {
       "n": 273,
-      "reason": "Verkiezingsanalyse met Josse de Voogd: PVV, D66, CDA en onbehagen."
+      "reason": "Zelfde gast Josse de Voogd over de Tweede Kamerverkiezingen en de nieuwe politieke verhoudingen"
     },
     {
       "n": 136,
-      "reason": "Josse de Voogd over Nederlandse kiezers, BBB en politiek establishment."
+      "reason": "Josse de Voogd over BBB, geografie en het politieke establishment; sterke thematische overlap"
+    },
+    {
+      "n": 169,
+      "reason": "Analyse van een politieke aardverschuiving en de PVV-verkiezingsuitslag, met zelfde presentatoren"
     },
     {
       "n": 267,
-      "reason": "Politiek heeft geen antwoord op onbehagen, verkiezingen, ontkerkelijking."
+      "reason": "Politiek onvermogen om het onbehagen te beantwoorden, een kernthema van deze aflevering"
     },
     {
-      "n": 252,
-      "reason": "Val van het kabinet door Wilders, Tom van der Meer over politiek en ziel."
+      "n": 197,
+      "reason": "Migratie als belangrijkste politiek en cultureel thema, centraal in de analyse van Wilders' winst"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

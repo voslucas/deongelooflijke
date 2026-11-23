@@ -1,330 +1,445 @@
 {
   "episode": 37,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 98542,
+    "segments": 822,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29863,
-    "output_tokens": 2737,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49358,
+    "output_tokens": 6409,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
-    "Technologie & AI",
     "God & geloof",
-    "Geschiedenis"
+    "Geschiedenis",
+    "Politiek",
+    "Technologie & AI"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
+      "name": "Beatrice de Graaf",
+      "note": "gast; hoogleraar geschiedenis van de internationale betrekkingen, Universiteit Utrecht",
+      "start_seconds": 120,
+      "mention_count": 1
+    },
+    {
       "name": "Catilina",
-      "note": "Romeinse samenzweerder tegen Caesar, vroeg voorbeeld van een complot",
-      "start_seconds": 322,
-      "wiki_checked": true,
-      "wiki_pageid": 33658,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lucius_Sergius_Catilina",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_detail_of_Catilina.jpg/250px-Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari_-_detail_of_Catilina.jpg"
-    },
-    {
-      "name": "Karl Popper",
-      "note": "wetenschapsfilosoof; falsificatie en zwarte zwanen",
-      "start_seconds": 588,
-      "wiki_checked": true,
-      "wiki_pageid": 6625,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Popper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/250px-Karl_Popper.jpg"
-    },
-    {
-      "name": "Richard Nixon",
-      "note": "Amerikaanse president, Watergate; citaat over paranoia",
-      "start_seconds": 664,
-      "wiki_checked": true,
-      "wiki_pageid": 44458,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Nixon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Nixon_presidential_portrait.jpg/250px-Richard_Nixon_presidential_portrait.jpg"
+      "note": "Romeinse samenzweerder tegen Caesar",
+      "start_seconds": 313,
+      "mention_count": 2
     },
     {
       "name": "Richard Hofstadter",
-      "note": "schrijver van 'The Paranoid Style in American Politics'",
-      "start_seconds": 748,
-      "wiki_checked": true
+      "note": "historicus; The Paranoid Style in American Politics",
+      "start_seconds": 755,
+      "mention_count": 2
     },
     {
-      "name": "Jan-Willem van Prooijen",
-      "note": "Nederlandse complotpsycholoog",
-      "start_seconds": 1330,
-      "wiki_checked": true
+      "name": "Karl Popper",
+      "note": "wetenschapsfilosoof; zwanenmetafoor en falsificatie",
+      "start_seconds": 606,
+      "mention_count": 2
+    },
+    {
+      "name": "Richard Nixon",
+      "note": "Amerikaans president; citaat over paranoia en Watergate",
+      "start_seconds": 664,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, door QAnon gezien als redder",
-      "start_seconds": 1499,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "Forum voor Democratie, retweette een filmpje van Lange Frans",
-      "start_seconds": 1294,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "note": "Amerikaans president; QAnon-verhaal en Republikeinse politiek",
+      "start_seconds": 1500,
+      "mention_count": 4
     },
     {
       "name": "Willem Engel",
-      "note": "coronasceptische activist, aangeprezen door Jerry Bode",
-      "start_seconds": 1294,
-      "wiki_checked": true,
-      "wiki_pageid": 5427117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Engel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/WillemEngelSept2020.jpg/250px-WillemEngelSept2020.jpg"
+      "note": "coronacriticus; gezien als nieuwe voorganger van complotaanhangers",
+      "start_seconds": 3100,
+      "mention_count": 4
     },
     {
-      "name": "Lange Frans",
-      "note": "artiest die complottheorieën deelt",
-      "start_seconds": 1172,
-      "wiki_checked": true,
-      "wiki_pageid": 525633,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lange_Frans_%28rapper%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Lange_Frans.jpg/250px-Lange_Frans.jpg"
+      "name": "Jan-Willem van Prooijen",
+      "note": "psycholoog; onderzoek naar complotdenken",
+      "start_seconds": 1290,
+      "mention_count": 1
     },
     {
-      "name": "Wybren van Haga",
-      "note": "Tweede Kamerlid van Forum voor Democratie",
-      "start_seconds": 1294,
-      "wiki_checked": true,
-      "wiki_pageid": 4904424,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wybren_van_Haga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/WybrenvanHaga2019.jpg/250px-WybrenvanHaga2019.jpg"
+      "name": "Adam Possamai",
+      "note": "socioloog; Hyper Real Religion (2005)",
+      "start_seconds": 3050,
+      "mention_count": 1
     },
     {
       "name": "Ed Stetzer",
-      "note": "Amerikaans evangelicaal die christenen waarschuwt tegen coronacomplotten",
-      "start_seconds": 2248,
-      "wiki_checked": true,
-      "wiki_pageid": 30862645,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Ed_Stetzer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ed_Stetzer_cropped.jpg/250px-Ed_Stetzer_cropped.jpg"
+      "note": "evangelicaal auteur; artikel over christenen en corona-complotten",
+      "start_seconds": 2265,
+      "mention_count": 2
     },
     {
-      "name": "Maarten Luther",
-      "note": "hervormer, genoemd als echte 'Galilei'",
-      "start_seconds": 2422,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "name": "Augustinus",
+      "note": "kerkvader; omgang met de Donatisten",
+      "start_seconds": 2571,
+      "mention_count": 3
+    },
+    {
+      "name": "Diederik Gommers",
+      "note": "intensivist; gesprek met Famke over complotdenken",
+      "start_seconds": 2635,
+      "mention_count": 3
+    },
+    {
+      "name": "Anders Behring Breivik",
+      "note": "terrorist; aanslag in Noorwegen 2011, aanhanger van Eurabia-idee",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "G.K. Chesterton",
+      "note": "schrijver; Orthodoxie en The Man Who Was Thursday",
+      "start_seconds": 3480,
+      "mention_count": 3
+    },
+    {
+      "name": "Martin Luther",
+      "note": "reformator; vergeleken met Galilei",
+      "start_seconds": 2430,
+      "mention_count": 2
     },
     {
       "name": "Galileo Galilei",
-      "note": "wetenschapper, symbool van de eenling die gelijk had",
-      "start_seconds": 2385,
-      "wiki_checked": true,
-      "wiki_pageid": 6464,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Galileo_Galilei",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Galileo_by_leoni.jpg/250px-Galileo_by_leoni.jpg"
+      "note": "wetenschapper; voorbeeld van de eenling die gelijk had",
+      "start_seconds": 2400,
+      "mention_count": 2
     },
     {
-      "name": "Bill Gates",
-      "note": "in QAnon-verhaal onderdeel van de vermeende elite",
-      "start_seconds": 1469,
-      "wiki_checked": true,
-      "wiki_pageid": 23889,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Gates",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg/250px-Bill_Gates_at_the_MSC_summit_-_2023_%2852695822752%29_%28cropped%29.jpg"
+      "name": "Marion Koopmans",
+      "note": "viroloog; ontving bedreigingen",
+      "start_seconds": 2760,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "CDA-Kamerlid; belaagd op straat",
+      "start_seconds": 2790,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider; omarmde Eurabia-idee",
+      "start_seconds": 3320,
+      "mention_count": 1
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "politica; omarmde Eurabia-idee",
+      "start_seconds": 3320,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Forum voor Democratie; retweette complotvideo",
+      "start_seconds": 1310,
+      "mention_count": 1
+    },
+    {
+      "name": "Wybren van Haga",
+      "note": "Tweede Kamerlid, Forum voor Democratie",
+      "start_seconds": 1320,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "premier; genoemd in QAnon-complot",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Jonge",
+      "note": "minister van VWS; genoemd in QAnon-complot",
+      "start_seconds": 1440,
+      "mention_count": 1
     },
     {
       "name": "George Soros",
-      "note": "in QAnon-verhaal onderdeel van de vermeende elite",
-      "start_seconds": 1469,
-      "wiki_checked": true,
-      "wiki_pageid": 264298,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Soros",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/George_Soros_47th_Munich_Security_Conference_2011_crop.jpg/250px-George_Soros_47th_Munich_Security_Conference_2011_crop.jpg"
+      "note": "financier; genoemd in complottheorieën",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Bill Gates",
+      "note": "ondernemer; genoemd in complottheorieën",
+      "start_seconds": 1440,
+      "mention_count": 1
+    },
+    {
+      "name": "Robert Dijkgraaf",
+      "note": "wetenschapper; schreef over wetenschap en vertrouwen",
+      "start_seconds": 2470,
+      "mention_count": 1
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "note": "gouverneur van Michigan; doelwit van ontvoeringsplan",
+      "start_seconds": 3675,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Paty",
+      "note": "docent; slachtoffer van aanslag in Frankrijk",
+      "start_seconds": 3335,
+      "mention_count": 1
+    },
+    {
+      "name": "Bat Ye'or",
+      "note": "schrijfster; boek Eurabia (2005)",
+      "start_seconds": 3290,
+      "mention_count": 1
+    },
+    {
+      "name": "Lubach",
+      "note": "satiricus; besteedde aandacht aan complotdenkers",
+      "start_seconds": 2630,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Security and Conspiracy in History",
+      "title": "Heilige strijd",
       "author": "Beatrice de Graaf",
-      "note": "open access boek uit 2013 over complotdenken",
-      "start_seconds": 215
+      "note": "boek over Augustinus en de Donatisten als terroristen",
+      "start_seconds": 2585,
+      "volume_id": "ZGhItAEACAAJ",
+      "canonical_title": "Heilige strijd: het verlangen naar veiligheid en het einde van het kwaad",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9789023950592",
+      "isbn10": "9023950593",
+      "thumbnail": ""
     },
     {
       "title": "The Paranoid Style in American Politics",
       "author": "Richard Hofstadter",
-      "note": "werk dat complottheorie als paranoïde geestesgesteldheid beschrijft",
-      "start_seconds": 748,
-      "volume_id": "ItDhDAAAQBAJ",
-      "canonical_title": "The Paranoid Style in American Politics: An Essay",
+      "note": "introduceerde complotdenken als wetenschappelijk onderwerp",
+      "start_seconds": 755,
+      "volume_id": "9idyQgAACAAJ",
+      "canonical_title": "The Paranoid Style in American Politics, and Other Essays",
       "canonical_author": "Richard Hofstadter",
-      "isbn13": "9780525433811",
-      "isbn10": "0525433813",
-      "thumbnail": "http://books.google.com/books/content?id=ItDhDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780226348179",
+      "isbn10": "0226348172",
+      "thumbnail": ""
     },
     {
-      "title": "De Protocollen van de Wijzen van Sion",
-      "author": "",
-      "note": "antisemitisch valselijk document uit 1905 van de Russische geheime politie",
-      "start_seconds": 1561
+      "title": "Hyper Real Religion",
+      "author": "Adam Possamai",
+      "note": "religie als individuele consumentenkeuze",
+      "start_seconds": 3050,
+      "volume_id": "XbUfMQ4GI8YC",
+      "canonical_title": "Religion and Popular Culture: A Hyper-real Testament",
+      "canonical_author": "Adam Possamai",
+      "isbn13": "9789052012728",
+      "isbn10": "9052012725",
+      "thumbnail": "http://books.google.com/books/content?id=XbUfMQ4GI8YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Orthodoxie",
+      "author": "G.K. Chesterton",
+      "note": "de samenzweringsdenker als rationeel maar in een klein wereldje",
+      "start_seconds": 3480,
+      "volume_id": "KrZFmwEACAAJ",
+      "canonical_title": "Orthodoxie",
+      "canonical_author": "G.K. Chesterton, P. Kerstens",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "The Man Who Was Thursday",
+      "author": "G.K. Chesterton",
+      "note": "allegorie op terrorismebestrijding",
+      "start_seconds": 3725,
+      "volume_id": "04B5zgEACAAJ",
+      "canonical_title": "The Man Who Was Thursday: A Nightmare",
+      "canonical_author": "G K Chesterton",
+      "isbn13": "9798515562489",
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=04B5zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Eurabia",
+      "author": "Bat Ye'or",
+      "note": "complot over islamisering van Europa",
+      "start_seconds": 3290,
+      "volume_id": "7TXTtAEACAAJ",
+      "canonical_title": "Eurabia: The Euro-Arab Axis",
+      "canonical_author": "Bat Ye'or",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Efeziërs 5",
-      "note": "wees wijs, maar niet onwijs",
-      "start_seconds": 2152
+      "ref": "Efeziërs 4:15",
+      "note": "waarheid in liefde; toets voor kritisch denken en 'vruchten van de geest'",
+      "start_seconds": 2546
+    },
+    {
+      "ref": "Koningen",
+      "note": "Stefan Paas: de koningen doen niet wat God wil, dus geen goed complot",
+      "start_seconds": 2018
     }
   ],
   "places": [
     "Rome",
     "Utrecht",
-    "Amsterdam",
-    "Kampen",
-    "Wittenberg",
-    "Genève",
-    "Davos",
     "Nice",
     "Binnenhof",
-    "Irak",
+    "Den Haag",
+    "Michigan",
+    "Hongarije",
+    "Wittenberg",
+    "Genève",
     "Engeland",
-    "Groot-Brittannië",
-    "Amerika",
-    "Nederland"
+    "Noorwegen",
+    "Amerika"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken waarom complottheorieën nu zo in opmars zijn, met aandacht voor hun lange geschiedenis, QAnon en de rol van social media en corona. Ze onderzoeken ook de vergelijking met religie en de rol van geloof, hoogmoed en ketterij.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe complottheorieën al eeuwenlang bestaan, maar nu door sociale media, crisis en corona sneller en breder verspreid worden. Ze onderzoeken waarom complotdenken gevaarlijk kan worden en in hoeverre het een soort nieuwe religie is. Het gesprek eindigt met de vraag hoe kritisch denken en pastorale aandacht radicalisering kunnen tegengaan.",
   "summary_points": [
-    "Complotdenken is al ruim 2000 jaar oud, van Catilina tot de Reformatie en de Franse Revolutie.",
-    "Crisis, onzekerheid en nieuwe communicatiemiddelen zoals internet en de drukpers voeden complotten.",
-    "Complotaanhangers toetsen hun hypothesen niet en wijzen tegenbewijs af als deel van het complot (Popper).",
-    "QAnon bundelt oude complotten rond het thema kinderen en kent een apocalyptische 'storm'.",
-    "Er is een tussenlaag van influencers, politici en organisaties die verdienen aan angst en alarmisme.",
-    "Jongeren zijn mediawijzer dan gedacht en het vertrouwen in de overheid is tijdens corona juist gestegen.",
-    "Complotdenken en religie delen betekenisgeving, maar traditionele religies snoeien juist wilde verbeelding weg.",
-    "Extreme religieuze standpunten en anti-intellectualisme hangen samen met complotgeloof.",
-    "Ed Stetzer wijst op hoogmoed en vruchten van de geest als toetssteen voor christenen."
+    "Complottheorieën bestaan al sinds de Oudheid (Catilina, Caesar), maar bloeien op in tijden van crisis en onzekerheid.",
+    "Nieuwe media zoals boekdrukkunst en nu internet en sociale media versnellen de verspreiding van complotten.",
+    "Complottheorieën kunnen radicaliserend werken omdat ze mensen het gevoel geven dat ze de ware werkelijkheid zien en moeten handelen.",
+    "Kritisch denken (hypothesen toetsen) verschilt van wantrouwen (bevestiging zoeken); complotdenkers toetsen hun theorieën zelden.",
+    "Complotdenken en religie overlappen in betekenisgeving, maar traditionele religies hebben geschiedenis van kritiek op extreme ideeën.",
+    "Algoritmes en een aandachtsmarkt belonen dramatische en alarmerende content, wat complotten versterkt.",
+    "Politici en influencers kunnen complotten gebruiken voor aanhang, zoals in de VS (QAnon) en in Nederland.",
+    "Secularisering zit ook in het verlies van religieuze autoriteit, wat nieuwe 'voorgangers' en gemeenschappen rond complotten doet ontstaan.",
+    "Complottheorieën reduceren complexiteit tot simpele zwart-wit verhalen, wat frustratie en radicalisering kan voeden.",
+    "Het gesprek pleit voor een combinatie van kritisch denken, liefdevolle aanspraak en het serieus nemen van angst en onzekerheid."
   ],
   "chapters": [
     {
       "start_seconds": 49,
-      "title": "Opmars van complotdenken",
-      "summary": "Inleiding en de vraag waarom complotdenken nu zo zichtbaar is, mede door het NCTV-dreigingsbeeld."
+      "title": "Introductie en de opmars van complotdenken",
+      "summary": "David Boogerd introduceert de gasten en het onderwerp, en vraagt of complotdenken echt toeneemt."
+    },
+    {
+      "start_seconds": 215,
+      "title": "Historische wortels van complotten",
+      "summary": "De Graaf schetst complotten van Caesar tot de Reformatie en het Pamflet van de Protocollen."
     },
     {
       "start_seconds": 313,
       "title": "Wat is een complottheorie?",
-      "summary": "Van Catilina tot de Reformatie en Popper: oorsprong, kenmerken en radicaliseringsgevaar."
+      "summary": "Definitie van complottheorie, het verschil met echte complotten en het onderscheid tussen kritisch zijn en wantrouwig zijn."
     },
     {
-      "start_seconds": 923,
-      "title": "Oorzaken: techniek, crisis en makelaars in angst",
-      "summary": "Internet, aandachtsmarkt, corona en groepen die complotten financieren en politiek gebruiken."
+      "start_seconds": 1386,
+      "title": "Hedendaagse complotten en QAnon",
+      "summary": "Uitleg van QAnon, de rol van globalisering, algoritmes en de aandachtsmarkt, en politieke versterking."
     },
     {
-      "start_seconds": 1380,
-      "title": "QAnon en oude beschuldigingen",
-      "summary": "Uitleg van QAnon en de historische lijn naar bloedbeschuldigingen en de Protocollen van Sion."
-    },
-    {
-      "start_seconds": 1676,
-      "title": "Jongeren, ouderen en vertrouwen",
-      "summary": "Zijn jongeren kwetsbaarder? Onderzoek toont juist mediawijsheid en meer vertrouwen in de overheid."
-    },
-    {
-      "start_seconds": 1900,
-      "title": "Complotdenken als nieuwe religie?",
-      "summary": "Vergelijking met religie, apocalyptiek in Amerika en de waarschuwing van Ed Stetzer."
+      "start_seconds": 1902,
+      "title": "Complotdenken en religie",
+      "summary": "Stefan Paas vergelijkt complotdenken met religie, secularisatie als verlies van autoriteit en de kanarie in de kolenmijn."
     },
     {
       "start_seconds": 2353,
-      "title": "Hoogmoed, ketters en Galilei",
-      "summary": "Over ketterij, hubris en de zeldzame eenling die werkelijk gelijk heeft."
+      "title": "Ketters, hoogmoed en omgang met complotdenkers",
+      "summary": "Vergelijking met ketters en Galilei, Augustinus en de Donatisten, en het voorbeeld van Gommers en Famke."
+    },
+    {
+      "start_seconds": 3268,
+      "title": "Eurabia, Breivik en de Nederlandse debatcultuur",
+      "summary": "Het Kalergi- en Eurabia-complot, de gevolgen voor het politieke debat en complexiteitsreductie."
+    },
+    {
+      "start_seconds": 3480,
+      "title": "Chesterton, frustratie en afsluiting",
+      "summary": "Chesterton over de complotdenker, verveling en radicalisering; afsluitende tips over boeken."
     }
   ],
   "highlights": [
     {
       "start_seconds": 664,
       "speaker": "Beatrice de Graaf",
-      "text": "Just because I'm paranoid doesn't mean that they're not out to get me (Nixon).",
-      "note": "Herinnert eraan dat sommige complotten echt bestaan."
+      "text": "Just because I'm paranoid doesn't mean that they're not there getting at me.",
+      "note": "Een citaat van Nixon dat de paradox van complotdenken blootlegt."
     },
     {
-      "start_seconds": 1019,
+      "start_seconds": 713,
       "speaker": "Stefan Paas",
-      "text": "Is het niet een soort verslaving, zoals wiet: het moet steeds zwaardere bestanddelen hebben.",
-      "note": "Treffende vergelijking voor radicalisering in complotdenken."
+      "text": "Kritisch zijn is toetsen van je hypothese; wantrouwig zijn is zoeken naar wat je wantrouwen bevestigt.",
+      "note": "Helder onderscheid dat de kern van het gesprek vormt."
     },
     {
-      "start_seconds": 2257,
+      "start_seconds": 2265,
       "speaker": "Beatrice de Graaf",
-      "text": "Goedgelovigheid is niet een spirituele gave (Ed Stetzer).",
-      "note": "Scherpe christelijke kritiek op complotdenken."
+      "text": "Goedgelovigheid is niet een spirituele gave.",
+      "note": "Citaat van Ed Stetzer, scherp geformuleerd en confronterend voor christenen."
     },
     {
-      "start_seconds": 1900,
+      "start_seconds": 2882,
       "speaker": "Stefan Paas",
-      "text": "Als God achter de schermen aan de touwtjes trekt, lees dan de boeken van de koningen: dan is het een buitengewoon beroerd complot.",
-      "note": "Humoristische bijbelse weerlegging van het complotbeeld."
+      "text": "Religie is de kanarie in de kolenmijn.",
+      "note": "Verrassende stelling: religie laat trends zien die later in politiek en cultuur doorwerken."
     },
     {
-      "start_seconds": 2385,
+      "start_seconds": 3555,
       "speaker": "Stefan Paas",
-      "text": "We leven in een tijd dat iedereen denkt dat hij Galilei is.",
-      "note": "Scherpe observatie over hoogmoed en eigenzinnigheid."
+      "text": "Chesterton: de iemand die in samenzweringen gelooft is niet gek, maar zijn wereldje is heel klein.",
+      "note": "Een nuancerende gedachte: complotdenkers zijn vaak rationeel, maar gevangen in een beperkte wereld."
     }
   ],
   "keywords": [
     "complottheorie",
     "QAnon",
     "radicalisering",
-    "Karl Popper",
-    "Reformatie",
-    "social media",
-    "hoogmoed",
-    "ketterij",
-    "corona",
-    "aandachtsmarkt",
-    "Ed Stetzer"
+    "secularisatie",
+    "religieuze autoriteit",
+    "kritisch denken",
+    "wantrouwen",
+    "sociale media",
+    "algoritme",
+    "ketters",
+    "Augustinus",
+    "Eurabia",
+    "Chesterton",
+    "corona"
   ],
-  "quotes": [],
+  "quotes": [
+    "Complottheorieën zijn al zo oud als de weg naar Rome, en toch lijken de problemen nu groter dan ooit.",
+    "Is complotdenken een soort nieuwe religie, zoals het steeds vaker wordt genoemd?",
+    "Complotten, coronaradicalisering, ketters en religie."
+  ],
   "similar": [
     {
-      "n": 289,
-      "reason": "De Graaf en Paas over complotdenken en het wereldbeeld achter de Epstein-files"
-    },
-    {
       "n": 68,
-      "reason": "Complotdenken, Great Reset en antivaxers met De Graaf en Paas"
+      "reason": "Zelfde gasten; gaat over complotdenken, eindtijd en antivaxers als geloofsverschijnsel"
     },
     {
       "n": 255,
-      "reason": "Strijd om waarheid: fake news en complotten, met Paas"
+      "reason": "Behandelt complotten, fake news en waarheid met Rik Peels en Stefan Paas"
     },
     {
       "n": 133,
-      "reason": "Extreme opvattingen, complotten en religie met Rik Peels en Paas"
+      "reason": "Verbindt complotten, religie en extreme opvattingen, met Rik Peels en Stefan Paas"
     },
     {
-      "n": 228,
-      "reason": "Wereldbeeld van Musk en techgiganten, met De Graaf en Paas"
+      "n": 160,
+      "reason": "Gaat over waarheid onder druk en vooruitgangsgeloof als kwestie van geloof"
+    },
+    {
+      "n": 12,
+      "reason": "Behandelt waarheid, nepnieuws en informatieoverload met een theologisch perspectief"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

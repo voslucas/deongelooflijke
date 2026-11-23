@@ -1,18 +1,23 @@
 {
   "episode": 161,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 76250,
+    "segments": 563,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31065,
-    "output_tokens": 2470,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 39176,
+    "output_tokens": 5915,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Islam & jodendom",
-    "Geschiedenis",
-    "Politiek"
+    "God & geloof",
+    "Geschiedenis"
   ],
   "guests": [
     "Mart de Kruif",
@@ -21,99 +26,75 @@
   "people": [
     {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, kondigde oorlog en wraak aan",
+      "note": "Israëlische premier die na de aanval 'oorlog' en 'wraak' aankondigde",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
-    },
-    {
-      "name": "Barak Ravid",
-      "note": "Israëlische journalist, vergeleek de aanval met Butsja",
-      "start_seconds": 640,
-      "wiki_checked": true
+      "mention_count": 5
     },
     {
       "name": "Yasser Arafat",
-      "note": "PLO-leider bij de Oslo-akkoorden",
+      "note": "Palestijns leider die namens de PLO het Oslo-akkoord ondertekende",
       "start_seconds": 709,
-      "wiki_checked": true,
-      "wiki_pageid": 1955,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yasser_Arafat",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Arafat_by_Yaakov_Saar.jpg/250px-Arafat_by_Yaakov_Saar.jpg"
+      "mention_count": 2
     },
     {
       "name": "Yitzhak Rabin",
-      "note": "Israëlische premier, tekende Oslo-akkoorden, werd vermoord door een landgenoot",
-      "start_seconds": 709,
-      "wiki_checked": true,
-      "wiki_pageid": 53608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Rabin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg/250px-Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg"
+      "note": "Israëlische premier die in 1995 door een Israëlische extremist werd vermoord; Oslo-akkoord",
+      "start_seconds": 711,
+      "mention_count": 2
     },
     {
       "name": "Bill Clinton",
-      "note": "Amerikaanse president bij de Oslo-akkoorden",
+      "note": "Amerikaanse president die bij het Oslo-akkoord betrokken was",
       "start_seconds": 713,
-      "wiki_checked": true,
-      "wiki_pageid": 10212,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bill_Clinton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/250px-Bill_Clinton.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, onderschatte Oekraïne",
-      "start_seconds": 861,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Mahmoud Abbas",
-      "note": "Palestijnse president op de Westelijke Jordaanoever, rivaal van Hamas",
-      "start_seconds": 1096,
-      "wiki_checked": true,
-      "wiki_pageid": 22642,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahmoud_Abbas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mahmoud_Abbas_%282022%29.jpg/250px-Mahmoud_Abbas_%282022%29.jpg"
-    },
-    {
-      "name": "Gilad Shalit",
-      "note": "Israëlische militair die tegen gevangenen werd geruild",
-      "start_seconds": 1313,
-      "wiki_checked": true,
-      "wiki_pageid": 554324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gilad_Shalit",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Flickr_-_Israel_Defense_Forces_-_After_5_Years_of_Captivity.jpg/250px-Flickr_-_Israel_Defense_Forces_-_After_5_Years_of_Captivity.jpg"
+      "name": "Wladimir Poetin",
+      "note": "Russische president; onderschatte de Oekraïense wil om te vechten",
+      "start_seconds": 862,
+      "mention_count": 3
     },
     {
       "name": "Joe Biden",
-      "note": "Amerikaanse president, betrokken bij vredesakkoord met Saoedi-Arabië",
+      "note": "Amerikaanse president die zijn politieke kapitaal in een vredesakkoord met Saoedi-Arabië stak",
       "start_seconds": 2106,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Mahmoud Abbas",
+      "note": "Palestijns president op de Westelijke Jordaanoever; concurrent van Hamas",
+      "start_seconds": 1096,
+      "mention_count": 4
     },
     {
       "name": "Carl von Clausewitz",
-      "note": "Militair denker: oorlog is het breken van de wil van de tegenstander",
-      "start_seconds": 1640,
-      "wiki_checked": true,
-      "wiki_pageid": 174362,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carl_von_Clausewitz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Clausewitz.jpg/250px-Clausewitz.jpg"
+      "note": "Militaire denker; oorlog als het breken van de wil van de tegenstander",
+      "start_seconds": 1632,
+      "mention_count": 1
+    },
+    {
+      "name": "Barak Ravid",
+      "note": "Israëlische journalist die de taferelen vergeleek met Boetsja",
+      "start_seconds": 640,
+      "mention_count": 1
+    },
+    {
+      "name": "Gilad Shalit",
+      "note": "Israëlische militair die door Hamas gegijzeld werd; ruil met gevangenen",
+      "start_seconds": 1311,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Timmermans",
+      "note": "Nederlands politicus; noemde het Midden-Oosten het 'meest binnenlandse buitenland'",
+      "start_seconds": 3185,
+      "mention_count": 1
+    },
+    {
+      "name": "Randwijk",
+      "note": "Verzetsstrijder/dichter wiens woorden over waakzaamheid worden aangehaald",
+      "start_seconds": 2840,
+      "mention_count": 1
     }
   ],
   "books": [],
@@ -122,134 +103,145 @@
     "Israël",
     "Gazastrook",
     "Westelijke Jordaanoever",
-    "Tel Aviv",
     "Jeruzalem",
-    "Tempelberg",
-    "Libanon",
-    "Iran",
-    "Saoedi-Arabië",
+    "Tel Aviv",
+    "Sderot",
     "Oekraïne",
+    "Libanon",
+    "Syrië",
+    "Jemen",
+    "Saoedi-Arabië",
+    "Irak",
     "Fallujah",
-    "Siderot",
-    "Verenigde Arabische Emiraten",
-    "Egypte"
+    "Iran"
   ],
-  "summary_tldr": "David Boogerd bespreekt met generaal b.d. Mart de Kruif en hoogleraar Bart Wallet de grootschalige Hamas-aanval op Israël van 7 oktober 2023. Ze behandelen de inlichtingenfout, de dilemma's van een Israëlische reactie, de doelen van Hamas en de rol van Iran. Ook de religieuze dimensie, die het conflict onverzettelijk en onvoorspelbaar maakt, komt uitgebreid aan bod.",
+  "summary_tldr": "David Boogerd bespreekt met Mart de Kruif en Bart Wallet de grootschalige Hamas-aanval op Israël op 7 oktober 2023, die zij als militair en historisch onverwacht maar niet toevallig zien. Het gesprek gaat over hoe Israël kon worden verrast, wat Hamas beoogt, en welke dilemma's (gijzelaars, Gaza, Hezbollah, Iran) er nu liggen. De religieuze dimensie van het conflict maakt de situatie volgens de gasten onverzettelijk en onvoorspelbaar.",
   "summary_points": [
-    "De aanval op 7 oktober was een totale verrassing, 50 jaar na de Jom Kippoeroorlog, op Shabbat en Simchat Torah.",
-    "Het gaat om een asymmetrische oorlog waarbij vooral burgers het slachtoffer zijn, vergeleken met Butsja.",
-    "Israëlische inlichtingendiensten faalden; interne verdeeldheid en weigerende reservisten speelden mogelijk een rol.",
-    "Hamas wil de Israëlische psyche raken, zich profileren als leider van de Palestijnen en een vredesakkoord met Saoedi-Arabië verstoren.",
-    "Gijzelaars en het dilemma van een grondoffensief in dichtbevolkt Gaza bemoeilijken Israëls reactie.",
-    "Een luchtcampagne heeft beperkingen; winnen betekent hier vooral veiligheid herstellen en gijzelaars terugkrijgen.",
-    "Iran en Hezbollah worden genoemd als mogelijke helpers; escalatie in de regio is een risico, maar een frontale oorlog nog geen zekerheid.",
-    "Religie (Al-Aqsa, religieus zionisme, jihadisme) maakt het conflict onverzettelijker.",
-    "De Israëlische samenleving sluit in crisis de gelederen, met eenheidsregering en terugkerende reservisten."
+    "De aanval van Hamas op 7 oktober, op Shabbat en Simchat Torah, was bloederig, onverwacht en leidde tot veel burgerslachtoffers en gijzelingen.",
+    "Israël werd verrast, mogelijk door intelligentiefalen en verzwakt door binnenlandse politieke verdeeldheid en reservistenweigering.",
+    "De aanval is asymmetrisch: een georganiseerde terreurbeweging tegen een sterk leger, waarbij humanitair oorlogsrecht nauwelijks gold.",
+    "Hamas wil zich als echte Palestijnse leider profileren, het Saoedi-Arabische vredesproces dwarsbomen en gevangenen of gijzelaars uitruilen.",
+    "Israël staat voor een dilemma: gijzelaars terughalen en mogelijk de dichtbevolkte Gazastrook in trekken, met grote menselijke en militaire risico's.",
+    "Het luchtwapen is snel en precies, maar kan de wil van een tegenstander niet breken en is beperkt bij het bevrijden van gijzelaars.",
+    "De religieuze dimensie (Al-Aqsa, religieus zionisme, Dar al-Islam-retoriek) maakt het conflict onverzettelijker en gevaarlijker.",
+    "Het conflict kan escaleren naar Iran, Hezbollah en de Westelijke Jordaanoever, en de aandacht voor Oekraïne dreigt af te nemen.",
+    "In Nederland vreest men spanningen in de samenleving; Joodse gemeenschappen hebben extra beveiliging nodig."
   ],
   "chapters": [
     {
       "start_seconds": 0,
       "title": "Een gitzwarte dag voor Israël",
-      "summary": "Eerste duiding van de aanval, de schok in Israël en de symbolische betekenis van de dag."
+      "summary": "Introductie en eerste reacties op de aanval die als 9/11 voor Israël wordt gezien."
     },
     {
-      "start_seconds": 456,
-      "title": "Verrassing en asymmetrische oorlog",
-      "summary": "Waarom de aanval zo uniek is, vergeleken met Jom Kippoer, Butsja en de Oslo-akkoorden."
+      "start_seconds": 300,
+      "title": "Hoe kon dit gebeuren?",
+      "summary": "De gasten bespreken de verrassing, de gecoördineerde aanval en mogelijke buitenlandse steun aan Hamas."
     },
     {
-      "start_seconds": 885,
-      "title": "Inlichtingenfalen en interne verdeeldheid",
-      "summary": "Hoe Israël verrast kon worden en de rol van politieke spanningen en reservisten."
+      "start_seconds": 486,
+      "title": "Asymmetrische oorlog en Oslo",
+      "summary": "De aard van de oorlog, de wreedheden en de historische achtergrond van de Oslo-akkoorden en Hamas' terreur."
     },
     {
-      "start_seconds": 1026,
-      "title": "Doelen van Hamas en gijzelaars",
-      "summary": "Psychologische oorlogvoering, Palestijns leiderschap, Saoedi-Arabië en mogelijke gevangenenruil."
+      "start_seconds": 1028,
+      "title": "Wat wil Hamas bereiken?",
+      "summary": "Hamas gebruikt gijzelaars en de strijd om het Palestijnse leiderschap; het Saoedi-Arabische vredesakkoord wordt gedwarsboomd."
     },
     {
-      "start_seconds": 1470,
-      "title": "Israëls antwoord en het dilemma van Gaza",
-      "summary": "Luchtwapen, grondoffensief, stadsoorlog en wat winnen betekent."
+      "start_seconds": 1302,
+      "title": "Het Israëlische dilemma in Gaza",
+      "summary": "De gasten wegen gevangenenruil en grondoffensief af, en bespreken wat 'winnen' hier betekent."
     },
     {
-      "start_seconds": 1830,
-      "title": "Regionale escalatie en kwetsbaarheid",
-      "summary": "Rol van Iran, Hezbollah en Arabische landen, en Israëls kwetsbaarheid en veerkracht."
+      "start_seconds": 2187,
+      "title": "Religie als motor van het conflict",
+      "summary": "De religieuze dimensie aan beide kanten, orthodoxie en jihadisme, en de rol van de Al-Aqsa-moskee."
     },
     {
-      "start_seconds": 2196,
-      "title": "De religieuze dimensie",
-      "summary": "Al-Aqsa, Dar al-Islam, religieus zionisme en orthodoxie als factoren die het conflict verharden."
+      "start_seconds": 2789,
+      "title": "Oekraïne, Rusland en het Westen",
+      "summary": "Gevolgen voor de westerse aandacht voor Oekraïne en de rol van Rusland en Iran."
+    },
+    {
+      "start_seconds": 3065,
+      "title": "Vooruitblik: Westbank en Nederland",
+      "summary": "Mogelijke ontwikkelingen op de Westbank, de positie van Palestijnen en spanningen in Nederland."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 640,
+      "start_seconds": 133,
       "speaker": "Bart Wallet",
-      "text": "Barak Ravid zei: dit is Butsja, maar nu in Israël.",
-      "note": "Schokkende vergelijking die de aard van de aanval onderstreept."
+      "text": "Dit is echt een dieptepunt; voor het eerst lijkt Israël de regie helemaal kwijt te zijn.",
+      "note": "Benoemt de unieke aard van de aanval en de achterstand van Israël."
     },
     {
-      "start_seconds": 2490,
+      "start_seconds": 604,
       "speaker": "Mart de Kruif",
       "text": "Het ging niet om strijd of land veroveren, maar om bloed.",
-      "note": "Scherpe duiding van het karakter van de aanval."
+      "note": "Scherpe kernstelling over het doel van de aanval en het ontbreken van humanitaire grenzen."
     },
     {
-      "start_seconds": 1640,
+      "start_seconds": 1632,
       "speaker": "Mart de Kruif",
-      "text": "Oorlog gaat over het breken van de wil van de tegenstander; wat je ook doet, dat gaat je niet lukken.",
-      "note": "Maakt de vraag wat 'winnen' betekent zeer pregnant."
+      "text": "Oorlog gaat over het breken van de wil van je tegenstander, en dat lukt met luchtwapens niet.",
+      "note": "Verwijst naar Clausewitz en verklaart waarom 'winnen' hier onduidelijk is."
     },
     {
-      "start_seconds": 1388,
+      "start_seconds": 2712,
       "speaker": "Bart Wallet",
-      "text": "Israël heeft als motto: we laten niemand achter.",
-      "note": "Verklaart waarom een gevangenenruil waarschijnlijk is."
+      "text": "Religie kan het slechtste in mensen naar boven halen, maar ook vrede stichten; het gaat vaak fout waar religie aan macht wordt gekoppeld.",
+      "note": "Genuanceerde en hoopvolle kijk op de rol van religie in het conflict."
     },
     {
-      "start_seconds": 2407,
+      "start_seconds": 3130,
       "speaker": "Bart Wallet",
-      "text": "De religieuze dimensie geeft een onverzettelijkheid, maar ook een onvoorspelbaarheid die het heel lastig maakt.",
-      "note": "Kernpunt van het gesprek over religie."
+      "text": "Als je burger bent in Gaza, zou ik weggaan, want er komt een storm over jou heen.",
+      "note": "Een somber en concreet beeld van de dreigende humanitaire gevolgen voor Palestijnse burgers."
     }
   ],
   "keywords": [
     "Hamas",
     "Israël",
     "Gazastrook",
-    "Jom Kippoeroorlog",
-    "Iran",
-    "Hezbollah",
-    "Oslo-akkoorden",
     "gijzelaars",
+    "asymmetrische oorlog",
+    "Oslo-akkoorden",
     "Al-Aqsa",
     "religieus zionisme",
-    "asymmetrische oorlog",
-    "escalatie"
+    "Jom Kippoer",
+    "Saoedi-Arabië",
+    "geopolitiek",
+    "Westelijke Jordaanoever"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het was een gitzwarte dag in de geschiedenis van Israël.",
+    "Volgens Wallet maakt de religieuze dimensie het conflict onverzettelijk en onvoorspelbaar en is de aanval de opmaat naar ergere escalatie.",
+    "Vrijwel alles in dit conflict hangt aan elkaar van geopolitieke, historische én religieuze aspecten."
+  ],
   "similar": [
     {
-      "n": 163,
-      "reason": "Direct vervolg: tegenaanval van Israël en ideologie van Hamas, een week na 7 oktober."
+      "n": 214,
+      "reason": "Zelfde gast Bart Wallet, over de aanval op Israël en de gevolgen."
     },
     {
-      "n": 214,
-      "reason": "Een jaar na 7 oktober, met Bart Wallet over Israël en Hamas."
+      "n": 163,
+      "reason": "Direct vervolg: Israëls tegenaanval en de ideologie van Hamas, geopolitiek en religieus."
     },
     {
       "n": 166,
-      "reason": "Oorlog Israël-Hamas en religieuze en historische duiding, polarisatie in Nederland."
+      "reason": "Zelfde oorlog Israël-Hamas, met focus op polarisatie en religieuze dimensie."
     },
     {
-      "n": 147,
-      "reason": "Oud-generaal Mart de Kruif duidt een oorlog militair en strategisch."
+      "n": 215,
+      "reason": "Gaat over het Palestijnse perspectief op hetzelfde conflict, met Islam & jodendom."
     },
     {
-      "n": 290,
-      "reason": "Aanval op Iran, met Bart Wallet; rol van Iran en Midden-Oosten."
+      "n": 143,
+      "reason": "Achtergrond bij 75 jaar Israël en het conflict met de Palestijnen, historisch en religieus."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

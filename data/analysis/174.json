@@ -1,18 +1,23 @@
 {
   "episode": 174,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115220,
+    "segments": 1005,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29929,
-    "output_tokens": 2664,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57055,
+    "output_tokens": 3520,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Economie & geld",
-    "Filosofie & ethiek",
-    "Samenleving & migratie",
-    "Geschiedenis"
+    "Politiek",
+    "Zingeving & psyche",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Paul Schenderling"
@@ -20,155 +25,149 @@
   "people": [
     {
       "name": "Margaret Thatcher",
-      "note": "Britse premier in de jaren 80, voorstander van neoliberaal beleid",
+      "note": "Britse premier jaren 80; citaat 'Economie is de methode, het doel is het veranderen van de ziel'",
       "start_seconds": 10,
-      "wiki_checked": true,
-      "wiki_pageid": 14914,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Margaret_Thatcher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg/250px-Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Ayn Rand",
-      "note": "Russisch-Amerikaanse schrijfster en libertarische filosoof",
-      "start_seconds": 44,
-      "wiki_checked": true,
-      "wiki_pageid": 131086,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayn_Rand",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ayn_Rand_%281943_Talbot_portrait%29.jpg/250px-Ayn_Rand_%281943_Talbot_portrait%29.jpg"
-    },
-    {
-      "name": "Allard Amelink",
-      "note": "Co-host van de podcast Leven na de Groei",
-      "start_seconds": 216,
-      "wiki_checked": true
+      "mention_count": 6
     },
     {
       "name": "John Maynard Keynes",
-      "note": "Econoom, grondlegger van de Keynesiaanse economie",
-      "start_seconds": 469,
-      "wiki_checked": true,
-      "wiki_pageid": 43772,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Maynard_Keynes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/John_Maynard_Keynes_%281929%29.jpg/250px-John_Maynard_Keynes_%281929%29.jpg"
+      "note": "econoom; grondlegger van de Keynesiaanse economie na de Grote Depressie",
+      "start_seconds": 487,
+      "mention_count": 12
     },
     {
-      "name": "Franklin D. Roosevelt",
-      "note": "Amerikaanse president, voerde de New Deal in",
-      "start_seconds": 513,
-      "wiki_checked": true,
-      "wiki_pageid": 36850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/FDR_1944_Color_Portrait_%28cropped%29.jpg/250px-FDR_1944_Color_Portrait_%28cropped%29.jpg"
-    },
-    {
-      "name": "Adolf Hitler",
-      "note": "Nazi-leider, kwam op door armoede en werkloosheid",
-      "start_seconds": 548,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
-    },
-    {
-      "name": "Willem Drees",
-      "note": "Nederlandse premier die de AOW invoerde",
-      "start_seconds": 980,
-      "wiki_checked": true,
-      "wiki_pageid": 10747,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Drees",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Willem_Drees_1958.jpg/250px-Willem_Drees_1958.jpg"
+      "name": "Ayn Rand",
+      "note": "Russisch-Amerikaanse schrijfster en libertarische filosoof; Atlas Shrugged, The Fountainhead",
+      "start_seconds": 1044,
+      "mention_count": 9
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "Filosoof die het christelijke mensbeeld verwierp",
-      "start_seconds": 1512,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "filosoof; invloed op Ayn Rand en het neoliberale mensbeeld",
+      "start_seconds": 1500,
+      "mention_count": 3
     },
     {
-      "name": "Paulus",
-      "note": "Apostel, schreef over aanstoot voor Jood en Griek",
-      "start_seconds": 1556,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
-    },
-    {
-      "name": "Jezus",
-      "note": "Voorbeeld van de weg van de graankorrel",
-      "start_seconds": 1556,
-      "wiki_checked": true,
-      "wiki_pageid": 45101,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Christus_Ravenna_Mosaic.jpg/250px-Christus_Ravenna_Mosaic.jpg"
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "Politicus die de christelijke ethiek van de andere wang afwijst",
-      "start_seconds": 1618,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Charlie Chaplin",
-      "note": "Sociaaldemocratische filmmaker, uit Hollywood verjaagd",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 19718,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charlie_Chaplin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Charlie_Chaplin_as_The_Tramp_%2834972061886%29.png/250px-Charlie_Chaplin_as_The_Tramp_%2834972061886%29.png"
+      "name": "Friedrich Hayek",
+      "note": "Oostenrijkse econoom; neoliberaal beleidsdenker",
+      "start_seconds": 2300,
+      "mention_count": 4
     },
     {
       "name": "Ronald Reagan",
-      "note": "Amerikaanse president en voormalig acteur, bracht neoliberalisme in de VS",
-      "start_seconds": 1796,
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "note": "Amerikaans president jaren 80; voormalig acteur",
+      "start_seconds": 1790,
+      "mention_count": 2
     },
     {
-      "name": "Mirjam Oudenampsen",
-      "note": "Nederlandse politicologe met een definitie van neoliberalisme",
-      "start_seconds": 1647,
-      "wiki_checked": true
+      "name": "Franklin Delano Roosevelt",
+      "note": "Amerikaans president; New Deal",
+      "start_seconds": 500,
+      "mention_count": 2
+    },
+    {
+      "name": "Willem Drees",
+      "note": "premier; invoerder van de AOW",
+      "start_seconds": 980,
+      "mention_count": 1
+    },
+    {
+      "name": "Charlie Chaplin",
+      "note": "filmmaker met sociaaldemocratische films in Hollywood",
+      "start_seconds": 1700,
+      "mention_count": 1
+    },
+    {
+      "name": "Mirijn Oudenampsen",
+      "note": "Nederlandse politicoloog; definitie van neoliberalisme",
+      "start_seconds": 1900,
+      "mention_count": 1
+    },
+    {
+      "name": "Abraham Heschel",
+      "note": "rabbijn; inspiratiebron van Schenderling",
+      "start_seconds": 3650,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "predikant en burgerrechtenactivist; inspiratiebron",
+      "start_seconds": 3640,
+      "mention_count": 1
+    },
+    {
+      "name": "Klaas Dijkhoff",
+      "note": "voormalig VVD-fractievoorzitter en staatssecretaris",
+      "start_seconds": 3900,
+      "mention_count": 2
+    },
+    {
+      "name": "Bas Heinen",
+      "note": "journalist/politicus; citaat over rechts en links dereguleren",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "Tony Blair",
+      "note": "Britse premier Labour; derde weg",
+      "start_seconds": 2440,
+      "mention_count": 1
+    },
+    {
+      "name": "Wim Kok",
+      "note": "PvdA-premier; paarse kabinetten",
+      "start_seconds": 2450,
+      "mention_count": 2
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider",
+      "start_seconds": 223,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans politicus",
+      "start_seconds": 240,
+      "mention_count": 2
+    },
+    {
+      "name": "Jerry Baudet",
+      "note": "Forum voor Democratie-leider; kritiek op altruïsme",
+      "start_seconds": 1620,
+      "mention_count": 1
+    },
+    {
+      "name": "Bolkestein",
+      "note": "VVD-politicus jaren 90",
+      "start_seconds": 3960,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "centrale figuur christelijke ethiek; weg van de graankorrel",
+      "start_seconds": 1520,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Atlas Shrugged",
       "author": "Ayn Rand",
-      "note": "Roman met het ideaal van het competitieve individu",
-      "start_seconds": 1491,
-      "volume_id": "bVyCd7da8OcC",
+      "note": "roman over de competitieve, succesvolle individu",
+      "start_seconds": 1050,
+      "volume_id": "1_aNEAAAQBAJ",
       "canonical_title": "Atlas Shrugged",
       "canonical_author": "Ayn Rand",
-      "isbn13": "9781101137192",
-      "isbn10": "1101137193",
-      "thumbnail": "http://books.google.com/books/content?id=bVyCd7da8OcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780525948926",
+      "isbn10": "0525948929",
+      "thumbnail": "http://books.google.com/books/content?id=1_aNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "The Fountainhead",
       "author": "Ayn Rand",
-      "note": "Roman over de architect die de wolkenkrabber bouwt",
-      "start_seconds": 1491,
+      "note": "roman met architect als held",
+      "start_seconds": 1055,
       "volume_id": "mcyNEAAAQBAJ",
       "canonical_title": "The Fountainhead",
       "canonical_author": "Ayn Rand",
@@ -179,147 +178,161 @@
   ],
   "bible_refs": [
     {
-      "ref": "1 Korintiërs 1",
-      "note": "Het kruis als aanstoot voor Jood en dwaasheid voor Griek",
-      "start_seconds": 1575
+      "ref": "1 Korintiërs 1:23",
+      "note": "Paulus: het kruis is dwaasheid en aanstoot voor Jood en Griek",
+      "start_seconds": 1600
     },
     {
-      "ref": "Johannes 12:24",
-      "note": "Metafoor van de graankorrel die sterft en vrucht draagt",
-      "start_seconds": 1542
+      "ref": "Genesis 4:9",
+      "note": "Kaïn: 'Ben ik mijn broeders hoeder?'",
+      "start_seconds": 3090
     },
     {
-      "ref": "Mattheus 13:31-32",
-      "note": "Het mosterdzaadje dat een boom wordt",
-      "start_seconds": 1557
+      "ref": "Genesis 3:9",
+      "note": "'Mens, waar ben je?'",
+      "start_seconds": 3090
+    },
+    {
+      "ref": "Lucas 10:25-37",
+      "note": "Gelijkenis van de barmhartige Samaritaan",
+      "start_seconds": 3100
     }
   ],
   "places": [
-    "Nederland",
-    "Verenigde Staten",
-    "Verenigd Koninkrijk",
-    "Hollywood",
-    "China",
-    "Frankrijk",
     "Woerden",
+    "Utrecht",
     "Rotterdam",
-    "Europese Unie"
+    "Verenigd Koninkrijk",
+    "Verenigde Staten",
+    "Hollywood",
+    "Frankrijk",
+    "Oost-Europa",
+    "China",
+    "Engeland"
   ],
-  "summary_tldr": "Econoom Paul Schenderling schetst hoe de onvrede in de samenleving voortkomt uit hyperglobalisering en het neoliberale beleid sinds de jaren 80. Achter dit economische project zat een cultureel project: het herscheppen van de mens naar het beeld van het competitieve individu (Ayn Rand, Nietzsche). Dit staat haaks op het christelijke mensbeeld van zelfgave.",
+  "summary_tldr": "Paul Schenderling analyseert de huidige onvrede als gevolg van een economisch en cultureel project dat na de Keynesiaanse periode via neoliberalisme het mensbeeld wilde herscheppen naar de competitieve individu. Hyperglobalisering heeft winnaars en verliezers gecreëerd en gemeenschappen uitgehold, wat populisme voedt. Stefan Paas en Schenderling zien hoop in het herstellen van gemeenschap en een christelijk of humanistisch mensbeeld.",
   "summary_points": [
-    "De Grote Depressie en de Tweede Wereldoorlog leidden tot Keynesiaans beleid en bestaanszekerheid.",
-    "Keynes wilde globalisering temmen met grenzen aan kapitaalmobiliteit en progressieve belastingen.",
-    "De dertig jaar na de oorlog kenden hoge, inclusieve groei.",
-    "Neoliberalisme is meer dan economie: Thatcher zei dat het doel het veranderen van de ziel is.",
-    "Ayn Rand en Nietzsche bestreden het christelijke mensbeeld van zelfopoffering.",
-    "Hollywood verspreidde het script van het heroïsche individu.",
-    "De oliecrises en stagflatie van de jaren 70 maakten neoliberale hervormingen mogelijk.",
-    "Hyperglobalisering en vrij kapitaal zorgen voor onzekerheid, woede en lage belasting voor vermogenden."
+    "De Grote Depressie en de Tweede Wereldoorlog leidden tot de Keynesiaanse economie en bestaanszekerheid.",
+    "Keynes temde globalisering door kapitaalverkeer te beperken en sociale standaarden te beschermen.",
+    "Oliecrises van de jaren 70 gaven het neoliberalisme kans om Keynes te vervangen.",
+    "Neoliberalisme is volgens Schenderling meer dan economie: het is een cultureel project om de mens te herscheppen naar het beeld van de competitieve individu.",
+    "Ayn Rand en Nietzsche vormen de filosofische achtergrond van dit mensbeeld.",
+    "Hyperglobalisering en vrij verkeer van arbeid hebben winnaars (rijkste 1%) en verliezers (lagere inkomens) opgeleverd.",
+    "Onzekerheid, beroepseer-verlies en gevoel niet meer nodig te zijn voeden woede en populisme.",
+    "Links en rechts delen volgens Paas een individualistisch mensbeeld, verschillend alleen in economie en ethiek.",
+    "Schenderling pleit voor een politiek van het midden gebaseerd op waardigheid en gemeenschap.",
+    "Beide gasten zijn pessimistisch maar hoopvol over nieuwe, open gemeenschappen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en terugblik",
-      "summary": "David introduceert Paul en zijn analyse van onvrede en populisme."
+      "title": "Inleiding en Thatcher-citaat",
+      "summary": "Introductie van de gast en het idee dat economie een cultureel project is, met het citaat van Thatcher."
     },
     {
-      "start_seconds": 354,
+      "start_seconds": 300,
       "title": "Grote Depressie en Keynes",
-      "summary": "De economische crisis van de jaren 30, de New Deal en de opkomst van bestaanszekerheid en AOW."
+      "summary": "Historische schets van de jaren 30, de opkomst van bestaanszekerheid en het Keynesiaanse denken."
     },
     {
-      "start_seconds": 755,
-      "title": "Keynes tegen hyperglobalisering",
-      "summary": "Hoe Keynes globalisering inkaderde met kapitaalbeperkingen en progressieve belasting, en waarom dat groei bracht."
+      "start_seconds": 1000,
+      "title": "Hyperglobalisering en kapitaalmobiliteit",
+      "summary": "Bespreking van wereldhandel, kapitaalverplaatsing en de gevolgen voor sociale standaarden."
     },
     {
-      "start_seconds": 1110,
-      "title": "De opkomst van het neoliberalisme",
-      "summary": "Terugkeer van het vrijemarktdenken en het idee dat het doel de verandering van de ziel is."
+      "start_seconds": 1400,
+      "title": "Neoliberalisme en het mensbeeld",
+      "summary": "Ayn Rand, Nietzsche, het christelijke mensbeeld en de culturele strijd vanuit Hollywood."
     },
     {
-      "start_seconds": 1470,
-      "title": "Rand, Nietzsche en het mensbeeld",
-      "summary": "Het christelijke mensbeeld versus het competitieve individu van Rand en Nietzsche, en de rol van Hollywood."
+      "start_seconds": 2300,
+      "title": "Van Hayek tot links-liberalisme",
+      "summary": "Hayek, de rol van linkse partijen en de overeenkomst tussen links- en rechtsliberaal mensbeeld."
     },
     {
-      "start_seconds": 1960,
-      "title": "Allen tegen allen: beleid en gevolgen",
-      "summary": "Vrije wereldhandel en kapitaalverkeer maken sociale standaarden kwetsbaar en vermogenden belasten minder."
+      "start_seconds": 3000,
+      "title": "Migratie, woede en de christelijke kijk",
+      "summary": "Arbeidsmigratie, de woningmarkt, asielzoekers als zondebok en het verlies van morele reservoirs."
     },
     {
-      "start_seconds": 2200,
-      "title": "Oliecrises en doorbraak",
-      "summary": "De stagflatie van de jaren 70 gaf neoliberalen de kans hun project door te voeren."
+      "start_seconds": 3900,
+      "title": "Hoop, gemeenschap en afsluiting",
+      "summary": "Discussie over een nieuwe politiek van het midden en de hoop op gemeenschap."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 10,
+      "start_seconds": 1290,
       "speaker": "Paul Schenderling",
-      "text": "Economie is de methode, het doel is het veranderen van de ziel.",
-      "note": "Thatcher-citaat dat de culturele agenda achter het neoliberalisme blootlegt."
+      "text": "Het doel is het veranderen van de ziel.",
+      "note": "Thatcher's citaat vat de kern van het betoog samen: economie als middel tot culturele verandering."
     },
     {
-      "start_seconds": 548,
-      "speaker": "Paul Schenderling",
-      "text": "Een Duitse tiener antwoordde zijn oma: Hitler geeft ons brood.",
-      "note": "Persoonlijke anekdote die armoede als voedingsbodem voor extremisme illustreert."
-    },
-    {
-      "start_seconds": 1642,
-      "speaker": "Paul Schenderling",
-      "text": "Ayn Rand: een beschaving moet de moraliteit van altruïsme en zelfopoffering afschaffen.",
-      "note": "Toont het expliciete anti-christelijke karakter van het project."
-    },
-    {
-      "start_seconds": 1757,
+      "start_seconds": 2520,
       "speaker": "Stefan Paas",
-      "text": "In Hollywood blijken de systemen corrupt en moet de held zelf wapens hebben.",
-      "note": "Scherpe duiding van het Hollywood-script."
+      "text": "Links en rechts hebben eigenlijk hetzelfde mensbeeld: het individu moet je vrij laten.",
+      "note": "Scherpe analyse dat de politieke tegenstelling een schijntegenstelling zou zijn."
     },
     {
-      "start_seconds": 2130,
+      "start_seconds": 3360,
       "speaker": "Paul Schenderling",
-      "text": "De rijkste 1% betaalt effectief iets meer dan 20% belasting, de armste helft ongeveer 40%.",
-      "note": "Schokkend cijfer over belastingdruk."
+      "text": "Dit systeem van hyperglobalisering creëert winnaars, namelijk de rijkste 1%, en verliezers.",
+      "note": "Concrete cijfers over ongelijke inkomensgroei sinds 1980 maken het abstracte betoog tastbaar."
+    },
+    {
+      "start_seconds": 3980,
+      "speaker": "Paul Schenderling",
+      "text": "The deepest human need is to be needed.",
+      "note": "Abraham Heschel als centrale zingevingsgedachte voor de politiek van de toekomst."
+    },
+    {
+      "start_seconds": 4420,
+      "speaker": "Stefan Paas",
+      "text": "Optimisme is dat je het ziet gebeuren. Hoop is dat je gelooft dat het gaat gebeuren.",
+      "note": "Onderscheid tussen hoop en optimisme vat de ambivalente toon van het gesprek samen."
     }
   ],
   "keywords": [
     "neoliberalisme",
-    "Keynes",
+    "Keynesianisme",
     "hyperglobalisering",
-    "Ayn Rand",
-    "Nietzsche",
-    "Thatcher",
     "mensbeeld",
-    "populisme",
+    "Ayn Rand",
+    "gemeenschap",
     "bestaanszekerheid",
-    "concurrentie",
-    "kapitaalmobiliteit",
-    "Grote Depressie"
+    "populisme",
+    "culturele strijd",
+    "christelijk mensbeeld",
+    "vrije markt",
+    "eenzaamheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Economie is de methode, het doel is het veranderen van de ziel.",
+    "The deepest human need is to be needed.",
+    "Hoop is dat je gelooft, heel diep gelooft van binnen, dat dat gaat gebeuren."
+  ],
   "similar": [
     {
       "n": 268,
-      "reason": "Paul Schenderling over economie, cultuur en Europa die zijn ziel verkocht; direct verwant."
-    },
-    {
-      "n": 145,
-      "reason": "Paul Schenderling over extreme economische tijden en geloof."
-    },
-    {
-      "n": 285,
-      "reason": "Ad Verbrugge over de crisis van het Westen, economie en onbehagen."
+      "reason": "Zelfde gast Paul Schenderling over economie, Europa en de gevolgen voor de samenleving."
     },
     {
       "n": 267,
-      "reason": "Politiek heeft geen antwoord op ons onbehagen; zelfde thema van onvrede."
+      "reason": "Behandelt het politieke onbehagen en de vraag waarom de politiek geen antwoord heeft."
     },
     {
-      "n": 126,
-      "reason": "Sander Schimmelpenninck over kloof, moraal en economie in de samenleving."
+      "n": 285,
+      "reason": "Gaat over de crisis van het Westen, politiek en economische ontwrichting."
+    },
+    {
+      "n": 145,
+      "reason": "Zelfde gast Schenderling over extreme economische tijden en betekenis in crisis."
+    },
+    {
+      "n": 286,
+      "reason": "Schenderling over economie en politieke verschuivingen in een onzekere wereldorde."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

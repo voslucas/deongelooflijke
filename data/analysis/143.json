@@ -1,11 +1,16 @@
 {
   "episode": 143,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118281,
+    "segments": 1503,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31564,
-    "output_tokens": 2659,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61649,
+    "output_tokens": 7802,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -20,261 +25,349 @@
   "people": [
     {
       "name": "David Ben-Gurion",
-      "note": "eerste premier van Israël, las de onafhankelijkheidsverklaring voor",
+      "note": "Israëlische premier die de onafhankelijkheidsverklaring van 1948 afkondigde",
       "start_seconds": 231,
-      "wiki_checked": true,
-      "wiki_pageid": 56353,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Ben-Gurion",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/David_Ben_Gurion.jpg/250px-David_Ben_Gurion.jpg"
+      "mention_count": 3
     },
     {
       "name": "Theodor Herzl",
-      "note": "zionistisch voorman, schreef 'Der Judenstaat'",
-      "start_seconds": 869,
-      "wiki_checked": true,
-      "wiki_pageid": 44702,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theodor_Herzl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Theodor_Herzl.jpg/250px-Theodor_Herzl.jpg"
-    },
-    {
-      "name": "Ari Shavit",
-      "note": "Israëlische schrijver van 'Mijn Beloofde Land'",
-      "start_seconds": 935,
-      "wiki_checked": true
-    },
-    {
-      "name": "Arthur Balfour",
-      "note": "Britse minister van Buitenlandse Zaken, Balfour Declaration (1917)",
-      "start_seconds": 961,
-      "wiki_checked": true,
-      "wiki_pageid": 1391693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_James_Balfour",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Arthur_James_Balfour%2C_1st_Earl_of_Balfour_by_Sir_Lawrence_Alma-Tadema.jpg/250px-Arthur_James_Balfour%2C_1st_Earl_of_Balfour_by_Sir_Lawrence_Alma-Tadema.jpg"
-    },
-    {
-      "name": "Edmund Allenby",
-      "note": "Britse generaal die Jeruzalem innam in 1917",
-      "start_seconds": 994,
-      "wiki_checked": true,
-      "wiki_pageid": 2131944,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edmund_Allenby",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Edmund_Allenby.jpg/250px-Edmund_Allenby.jpg"
-    },
-    {
-      "name": "Gamal Abdel Nasser",
-      "note": "Egyptische president voor de Zesdaagse Oorlog",
-      "start_seconds": 1667,
-      "wiki_checked": true,
-      "wiki_pageid": 37890,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gamal_Abdel_Nasser",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nasser_1961.jpg/250px-Nasser_1961.jpg"
-    },
-    {
-      "name": "Koning Hussein",
-      "note": "koning van Jordanië in 1967",
-      "start_seconds": 1680,
-      "wiki_checked": true
-    },
-    {
-      "name": "Yitzhak Rabin",
-      "note": "legerleider in 1967, later premier",
-      "start_seconds": 1740,
-      "wiki_checked": true,
-      "wiki_pageid": 53608,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yitzhak_Rabin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg/250px-Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin%2C_7th_IDF_Chief_of_Staff_in_photos_%2811%29.jpg"
-    },
-    {
-      "name": "Joop den Uyl",
-      "note": "Nederlands premier ten tijde van de Jom Kippoer-oorlog",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Joop_den_Uyl_1975.jpg/250px-Joop_den_Uyl_1975.jpg"
-    },
-    {
-      "name": "Yoav Gallant",
-      "note": "huidig Israëlisch minister van Defensie, moeder was Holocaust-overlevende op de Exodus",
-      "start_seconds": 2166,
-      "wiki_checked": true,
-      "wiki_pageid": 5800019,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yoav_Gallant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Yoav_Galant_1.jpg/250px-Yoav_Galant_1.jpg"
-    },
-    {
-      "name": "Mahmoud Abbas",
-      "note": "leider van de Palestijnse Autoriteit",
-      "start_seconds": 2226,
-      "wiki_checked": true,
-      "wiki_pageid": 22642,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahmoud_Abbas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mahmoud_Abbas_%282022%29.jpg/250px-Mahmoud_Abbas_%282022%29.jpg"
+      "note": "Zionistische grondlegger, auteur van De Jodenstaat",
+      "start_seconds": 862,
+      "mention_count": 1
     },
     {
       "name": "Eitan Margalit",
-      "note": "voormalig Israëlisch ambassadeur in Nederland",
-      "start_seconds": 797,
-      "wiki_checked": true
+      "note": "voormalig Israëlische ambassadeur in Nederland",
+      "start_seconds": 791,
+      "mention_count": 1
+    },
+    {
+      "name": "Ari Shavit",
+      "note": "Israëlische schrijver van Mijn Beloofde Land",
+      "start_seconds": 933,
+      "mention_count": 1
+    },
+    {
+      "name": "Gamal Abdel Nasser",
+      "note": "Egyptische president die vóór de Zesdaagse Oorlog dreigde Israël aan te vallen",
+      "start_seconds": 1669,
+      "mention_count": 1
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "note": "Israëlische bevelhebber in 1967 en later premier; ondertekende met Arafat de Oslo-akkoorden-sfeer",
+      "start_seconds": 1732,
+      "mention_count": 3
+    },
+    {
+      "name": "Joop den Uyl",
+      "note": "Nederlandse premier ten tijde van de Jom Kipoeroorlog",
+      "start_seconds": 1876,
+      "mention_count": 1
+    },
+    {
+      "name": "Henk Vredeling",
+      "note": "Nederlandse minister van Defensie die militair materieel naar Israël stuurde in 1973",
+      "start_seconds": 1876,
+      "mention_count": 1
+    },
+    {
+      "name": "Bram Stemerdink",
+      "note": "Nederlandse staatssecretaris van Defensie die dit later vertelde",
+      "start_seconds": 1912,
+      "mention_count": 1
+    },
+    {
+      "name": "Yasser Arafat",
+      "note": "leider van de PLO en de Palestijnen; ondertekende de Oslo-akkoorden niet",
+      "start_seconds": 2391,
+      "mention_count": 3
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Amerikaanse president die aanwezig was bij de Oslo-akkoorden",
+      "start_seconds": 2389,
+      "mention_count": 2
+    },
+    {
+      "name": "Shimon Peres",
+      "note": "Israëlische politicus die namens Israël de Oslo-akkoorden ondertekende",
+      "start_seconds": 2419,
+      "mention_count": 1
+    },
+    {
+      "name": "Mahmoud Abbas",
+      "note": "huidig leider van de Palestijnse Autoriteit; ondertekende Oslo namens de PLO",
+      "start_seconds": 2415,
+      "mention_count": 4
+    },
+    {
+      "name": "Saeb Erekat",
+      "note": "hoofdonderhandelaar van de Palestijnen",
+      "start_seconds": 2439,
+      "mention_count": 1
+    },
+    {
+      "name": "Udi Dekel",
+      "note": "Israëlische leider van de onderhandelingen in de tijd van Obama",
+      "start_seconds": 2472,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "huidig Israëlische premier",
+      "start_seconds": 2577,
+      "mention_count": 6
+    },
+    {
+      "name": "Salam Fayyad",
+      "note": "voormalig Palestijnse premier, populair en goed gewaardeerd",
+      "start_seconds": 2600,
+      "mention_count": 1
+    },
+    {
+      "name": "Yoav Gallant",
+      "note": "huidig Israëlische minister van Defensie; zoon van een Exodus-passagier",
+      "start_seconds": 2167,
+      "mention_count": 1
+    },
+    {
+      "name": "Ariel Sharon",
+      "note": "voormalig Israëlische premier die de scheidingsmuur aanlegde",
+      "start_seconds": 3211,
+      "mention_count": 3
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaanse president; de muur-metafoor van de slang",
+      "start_seconds": 3211,
+      "mention_count": 2
+    },
+    {
+      "name": "Joël Voordewind",
+      "note": "ChristenUnie-politicus die bijbelse argumenten gebruikte voor Jeruzalem als hoofdstad",
+      "start_seconds": 761,
+      "mention_count": 1
+    },
+    {
+      "name": "Danny Rothschild",
+      "note": "voormalig Israëlische generaal",
+      "start_seconds": 3853,
+      "mention_count": 1
+    },
+    {
+      "name": "Salim Munayer",
+      "note": "Palestijns verzoeningsactivist (Musalaha)",
+      "start_seconds": 3256,
+      "mention_count": 1
+    },
+    {
+      "name": "Ross Singer",
+      "note": "Joodse rabbijn die schreef in The Times of Israel: behoort de grond ons toe of wij het land?",
+      "start_seconds": 4044,
+      "mention_count": 1
+    },
+    {
+      "name": "Munayer",
+      "note": "Palestijns-christelijke theoloog die stelt dat het land van God is",
+      "start_seconds": 4094,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "De Jodenstaat (Der Judenstaat)",
+      "author": "Theodor Herzl",
+      "note": "Brochure die het politiek zionisme verwoordde",
+      "start_seconds": 862,
+      "volume_id": "qFIeAQAACAAJ",
+      "canonical_title": "De jodenstaat",
+      "canonical_author": "Theodor Herzl",
+      "isbn13": "9789053304112",
+      "isbn10": "9053304118",
+      "thumbnail": ""
+    },
+    {
       "title": "Mijn Beloofde Land",
       "author": "Ari Shavit",
-      "note": "beschrijft de emigratie van zijn grootvader naar Palestina",
-      "start_seconds": 935,
+      "note": "Beschrijft de emigratie van de familie van de auteur naar Palestina",
+      "start_seconds": 933,
       "volume_id": "jUA8AQAAQBAJ",
-      "canonical_title": "Mijn beloofde land: De triomf en tragedie van Israël",
+      "canonical_title": "Mijn beloofde land",
       "canonical_author": "Ari Shavit",
       "isbn13": "9789000326105",
       "isbn10": "9000326109",
       "thumbnail": "http://books.google.com/books/content?id=jUA8AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Psalm 15",
+      "note": "Wie mag wonen op uw heilige berg; spreker noemde het Psalm 5, de tekst betreft Psalm 15",
+      "start_seconds": 3728
+    },
+    {
+      "ref": "Jesaja 2:3",
+      "note": "Het recht zal uitgaan van Sion, als tegenargument voor Israëlische bijbelse aanspraken",
+      "start_seconds": 3759
+    },
+    {
+      "ref": "Leviticus 25",
+      "note": "Sabbatsjaar: het land is van God en moet braak liggen",
+      "start_seconds": 4086
+    }
+  ],
   "places": [
     "Israël",
-    "Palestina",
-    "Westbank",
-    "Gazastrook",
     "Jeruzalem",
     "Tel Aviv",
+    "Westelijke Jordaanoever",
+    "Gazastrook",
+    "Ramallah",
     "Bethlehem",
-    "Golanhoogvlakte",
-    "Sinaï",
+    "Hebron",
     "Haifa",
     "Jaffa",
     "Basel",
     "Argentinië",
     "Oeganda",
-    "Hamburg"
+    "Egypte",
+    "Syrië",
+    "Jordanië",
+    "Libanon",
+    "Irak",
+    "Golanhoogvlakte",
+    "Sinaï",
+    "Rafah",
+    "Turkije"
   ],
-  "summary_tldr": "Ter gelegenheid van 75 jaar Israël bespreken Jan van Benthem, Stefan Paas en David Boogerd de geschiedenis van het conflict met de Palestijnen, van het zionisme en het Britse mandaat tot de oorlogen van 1948, 1967 en 1973. Centraal staan de twee tegenover elkaar staande werkelijkheden, het dilemma van een Joodse én democratische staat, en de rol van religie.",
+  "summary_tldr": "David Boogerd en Stefan Paas spreken met historicus en journalist Jan van Benthem over het conflict tussen Israëliërs en Palestijnen, zeventig vijf jaar na de oprichting van de staat Israël. Het gesprek schetst de geschiedenis van het mandaat, de oorlogen van 1948, 1967 en 1973, en de huidige impasse rond nederzettingen, Hamas en de tweestatenoplossing. Religieuze motieven spelen een rol, maar volgens Van Benthem is het conflict in de kern vooral politiek en geopolitiek.",
   "summary_points": [
-    "De staat Israël begon als seculiere, socialistische staat; de onafhankelijkheidsverklaring kwam er chaotisch aan te pas.",
-    "Sinds de muur (rond 2003) leven Israëliërs en Palestijnen in gescheiden werelden en radicaliseren de beelden over elkaar.",
-    "Het zionisme ontstond door pogroms in Oost-Europa; Argentinië en Oeganda werden overwogen naast Palestina.",
-    "De Balfour Declaration en het Britse mandaat legden de basis voor een Joods nationaal tehuis, zonder inspraak van de Palestijnen.",
-    "De Nakba en de verdrijving van Joden uit Arabische landen laten zien dat elk onderdeel twee lenzen kent.",
-    "De Zesdaagse Oorlog van 1967 leverde de Westbank, Oost-Jeruzalem en Sinaï op en maakte het Westbank-vraagstuk blijvend.",
-    "Het dilemma: gelijke rechten voor Palestijnen betekent geen Joodse staat meer, geen gelijke rechten betekent geen democratie.",
-    "Stefan Paas waarschuwt voor vermenging van bijbelse scenario's en politiek.",
-    "Leiders aan beide kanten zijn volgens Van Benthem vastgelopen: een rechtse Israëlische regering en een autocratische Palestijnse Autoriteit."
+    "De staat Israël werd in mei 1948 uitgeroepen, na een haastige aanloop en een VN-resolutie uit november 1947.",
+    "Het zionisme ontstond in Oost-Europa als reactie op pogroms; Palestina werd pas in 1893 in Basel gekozen als doel.",
+    "De Balfourverklaring (1917) en het Britse mandaat legden de basis voor een Joods nationaal tehuis, zonder de Palestijnse bevolking te raadplegen.",
+    "De Nakba: naar schatting 700.000 Palestijnen vluchtten of werden verdreven in de oorlog van 1948.",
+    "In 1967 veroverde Israël de Westelijke Jordaanoever, Oost-Jeruzalem en de Sinaï; de Golan viel in 1973 bijna in Syrische handen.",
+    "De scheidingsmuur sinds ongeveer 2003 scheidt gemeenschappen en veroorzaakt wederzijdse frustratie en radicalisering.",
+    "Demografie en de vraag naar gelijke rechten maken een Joodse, democratische staat lastig; dit verklaart waarom veel Israëli's de tweestatenoplossing steunen.",
+    "De Oslo-akkoorden (1993) boden hoop, maar onderhandelingen liepen vast door wantrouwen, corruptie en radicale partijen aan beide kanten.",
+    "Hamas (onverzoenlijk in zijn statuut) en de Israëlische nederzettingenpolitiek blijven de grootste obstakels voor vrede.",
+    "Religie verergert het conflict volgens Paas, vooral via christelijke zionistische opvattingen; Van Benthem wijst op de geopolitieke oorsprong."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en de onafhankelijkheidsverklaring",
-      "summary": "Introductie van de gast en anekdotes over het chaotische begin van de staat Israël in 1948."
+      "title": "Introductie en de oprichting van Israël",
+      "summary": "Boogerd introduceert Van Benthem en het onderwerp. De onafhankelijkheidsverklaring van 1948 wordt haastig en dramatisch geschetst."
     },
     {
-      "start_seconds": 288,
-      "title": "Gescheiden werelden en Van Benthems ongeluk",
-      "summary": "Van Benthem over zijn contacten aan beide kanten, de muur en zijn geheugenverlies na een auto-ongeluk."
+      "start_seconds": 480,
+      "title": "Ontstaan van het zionisme en het Britse mandaat",
+      "summary": "Herzl, de Balfourverklaring en de volkenbond vormen de politieke wortels van de Joodse staat."
     },
     {
-      "start_seconds": 677,
-      "title": "Religie en het conflict",
-      "summary": "Paas en Van Benthem over de rol van de Bijbel en het vermengen van religieuze en politieke scenario's."
+      "start_seconds": 1000,
+      "title": "De Nakba en de oorlog van 1948",
+      "summary": "De verdrijving van Palestijnen en de dubbele werkelijkheid van beide groepen komen aan bod."
     },
     {
-      "start_seconds": 825,
-      "title": "Van zionisme tot Britse mandaat",
-      "summary": "Pogroms, Herzl, de Balfour Declaration, het einde van het Ottomaanse Rijk en het mandaat Palestina."
+      "start_seconds": 1600,
+      "title": "De oorlogen van 1967 en 1973",
+      "summary": "De Zesdaagse Oorlog, de bezetting van gebieden en de Jom Kipoeroorlog met Nederlandse militaire steun."
     },
     {
-      "start_seconds": 1220,
-      "title": "VN-verdelingsplan, Exodus en Nakba",
-      "summary": "Het VN-plan van 1947, het schip Exodus, de oorlog van 1948 en de vluchtelingenstromen aan beide kanten."
+      "start_seconds": 2300,
+      "title": "Oslo, de tweestatenoplossing en de impasse",
+      "summary": "De Oslo-akkoorden, de rol van leiders als Netanyahu en Abbas en de demografische argumenten."
     },
     {
-      "start_seconds": 1660,
-      "title": "Zesdaagse en Jom Kippoer-oorlog",
-      "summary": "De oorlogen van 1967 en 1973 en de gevolgen voor de bezette gebieden."
+      "start_seconds": 2950,
+      "title": "Gaza, nederzettingen en de muur",
+      "summary": "Hamas, raketten, disproportionele reacties en de nederzettingenpolitiek worden besproken."
     },
     {
-      "start_seconds": 2000,
-      "title": "Joods en democratisch: het dilemma",
-      "summary": "Demografie, de Westbank en waarom Israëlische leiders een Joodse staat willen behouden."
+      "start_seconds": 3300,
+      "title": "De religieuze dimensie",
+      "summary": "Paas en Van Benthem bespreken hoe religie het conflict beïnvloedt, van christelijk zionisme tot bijbelse aanspraken."
+    },
+    {
+      "start_seconds": 3780,
+      "title": "Afsluiting en vooruitblik",
+      "summary": "Een wrange hoera op 75 jaar Israël, reflecties op Palestijnse christenen en een blik op het volgende onderwerp: AI."
     }
   ],
   "highlights": [
     {
       "start_seconds": 231,
       "speaker": "Jan van Benthem",
-      "text": "David Ben-Gurion wist de reddende formule te vinden: 'vertrouwen op de Rots van Israël', die iedereen kon invullen zoals hij wilde.",
-      "note": "Laat zien hoe seculier en religieus in de onafhankelijkheidsverklaring werden verzoend."
+      "text": "Om 4 uur gaf David Ben-Gurion een klap op de tafel en begon de bijeenkomst waarin de onafhankelijkheid van de staat Israël om middernacht die dag werd afgekondigd.",
+      "note": "Een dramatisch en bijna filmisch moment dat laat zien hoe improviserend de stichting van Israël verliep."
     },
     {
-      "start_seconds": 600,
+      "start_seconds": 791,
       "speaker": "Jan van Benthem",
-      "text": "Ik werd voorzitter van een jeugdbond genoemd waar ik niets meer van wist.",
-      "note": "Persoonlijke anekdote over zijn geheugenverlies."
+      "text": "Ook al geloof je dat, het is aan God om zijn agenda in te vullen. Niet aan ons.",
+      "note": "Een scherpe uitspraak van de Israëlische ambassadeur die religieuze motieven van politiek scheidt."
     },
     {
-      "start_seconds": 1588,
+      "start_seconds": 1607,
       "speaker": "Jan van Benthem",
-      "text": "Er zijn twee werkelijkheden, en voor wie ze meemaakte is het de reële werkelijkheid.",
-      "note": "Vat de kern van de complexiteit samen."
+      "text": "Er zijn 2 werkelijkheden.",
+      "note": "Kernachtige samenvatting van waarom beide partijen het conflict zo verschillend ervaren."
     },
     {
-      "start_seconds": 1916,
-      "speaker": "Jan van Benthem",
-      "text": "Nederlandse Centurion-onderdelen werden in het diepe geheim naar Israël gevlogen, zonder dat Den Uyl het wist.",
-      "note": "Verrassend historisch detail."
-    },
-    {
-      "start_seconds": 2128,
+      "start_seconds": 3812,
       "speaker": "Stefan Paas",
-      "text": "Je hoeft toch niet joods te zijn om democratisch te zijn? Waar is men bang voor?",
-      "note": "Scherpe vraag die het kerndilemma blootlegt."
+      "text": "Het is wel een hoera met een soort wrange nasmaak als we al deze conflicten kijken.",
+      "note": "Een eerlijke balans tussen feestvreugde en verdriet, die de ambivalentie van het gesprek samenvat."
+    },
+    {
+      "start_seconds": 3843,
+      "speaker": "Jan van Benthem",
+      "text": "Jij moet de beste zijn om te overleven.",
+      "note": "Verklaart volgens Van Benthem de hoge innovatie en wetenschappelijke prestaties van Israël."
     }
   ],
   "keywords": [
     "Israël",
     "Palestijnen",
-    "Zionisme",
-    "Balfour Declaration",
     "Nakba",
+    "zionisme",
+    "tweestatenoplossing",
+    "Oslo-akkoorden",
+    "nederzettingen",
+    "Hamas",
+    "Balfourverklaring",
     "Zesdaagse Oorlog",
-    "Westbank",
-    "Gazastrook",
-    "Exodus",
-    "Joodse democratische staat",
-    "Britse mandaat",
-    "Jeruzalem"
+    "Bijbelse aanspraken"
   ],
-  "quotes": [],
+  "quotes": [
+    "Van Benthem is een rasverteller en weet haast meer van Israël dan van zichzelf.",
+    "Waar gaat het mis en waar ligt mogelijk de oplossing?",
+    "Want was het allemaal niet allang opgelost als er niet zoiets als religie en de Bijbel bestond?"
+  ],
   "similar": [
     {
-      "n": 163,
-      "reason": "Ook met Jan van Benthem: Israël, Hamas en de achtergrond van het conflict"
+      "n": 261,
+      "reason": "Zelfde gast Jan van Benthem over Israël, Hamas en Gaza-conflict"
     },
     {
-      "n": 261,
-      "reason": "Jan van Benthem over Israël, Gaza en de geschiedenis van het conflict"
+      "n": 163,
+      "reason": "Jan van Benthem over Israëlische tegenaanval en Hamas-ideologie"
     },
     {
       "n": 215,
-      "reason": "Palestijns perspectief op het onrecht in het conflict, met geschiedenis en Bijbel"
+      "reason": "Onrecht tegen Palestijnen, zelfde conflictthema vanuit Palestijns perspectief"
     },
     {
       "n": 214,
-      "reason": "Bart Wallet over Israël, jodendom en geschiedenis van het conflict"
+      "reason": "Een jaar na de aanval op Israël, geopolitiek en Islam-jodendom thema's"
     },
     {
       "n": 161,
-      "reason": "Aanval op Israël, Jom Kippoeroorlog en historische context met Bart Wallet"
+      "reason": "Aanval op Israël en geschiedenis van de Jom Kippoeroorlog"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

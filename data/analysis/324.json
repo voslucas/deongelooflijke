@@ -1,269 +1,290 @@
 {
   "episode": 324,
-  "analyzed": "2026-11-17",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 117706,
+    "segments": 1054,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31053,
-    "output_tokens": 2756,
-    "cache_read_input_tokens": 0,
-    "cache_creation_input_tokens": 2496
+    "input_tokens": 60610,
+    "output_tokens": 5782,
+    "cache_read_input_tokens": 2942,
+    "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Islam & jodendom",
     "Geschiedenis",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Abdou Bouzerda"
   ],
   "people": [
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president; besproken in relatie tot de Iran-oorlog, olieprijzen en speculatie",
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Ahmed al-Sharaa",
-      "note": "huidige president van Syrië, voorheen rebellenleider die Assad ten val bracht",
-      "wiki_checked": true,
-      "wiki_pageid": 5914374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ahmed_Hussein_al-Sharaa",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Ahmed_al-Sharaa%2C_President_of_Syria%2C_in_March_2026.jpg/250px-Ahmed_al-Sharaa%2C_President_of_Syria%2C_in_March_2026.jpg"
+      "name": "Abdou Bouzerda",
+      "note": "Journalist en Midden-Oostenkenner, gast van deze aflevering",
+      "start_seconds": 14,
+      "mention_count": 1
     },
     {
       "name": "Bashar al-Assad",
-      "note": "voormalige Syrische dictator, ten val gebracht",
-      "wiki_checked": true,
-      "wiki_pageid": 40568,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bashar_al-Assad",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg/250px-Bashar_al-Assad_%282018-05-17%29_02_%28cropped%29.jpg"
+      "note": "Syrisch dictator, verdreven na de val van zijn regime",
+      "start_seconds": 206,
+      "mention_count": 2
     },
     {
-      "name": "Mohammed bin Salman",
-      "note": "kroonprins van Saoedi-Arabië die het land sociaal liberaliseert en de macht van geestelijken inperkt",
-      "wiki_checked": true,
-      "wiki_pageid": 4320492,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mohammad_bin_Salman_al-Saoed",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/2025_Crown_Prince_and_Prime_Minister_Mohammed_bin_Salman_Al_Saud_of_Saudi_Arabia_on_November_18_%28cropped%29.jpg/250px-2025_Crown_Prince_and_Prime_Minister_Mohammed_bin_Salman_Al_Saud_of_Saudi_Arabia_on_November_18_%28cropped%29.jpg"
+      "name": "Ahmed al-Sharaa",
+      "note": "Huidige Syrische president, vroeger rebellenleider",
+      "start_seconds": 247,
+      "mention_count": 1
     },
     {
-      "name": "Ruhollah Khomeini",
-      "note": "leider van de Iraanse revolutie van 1979, grondlegger van de islamitische theocratie",
-      "wiki_checked": true,
-      "wiki_pageid": 81638,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruhollah_Khomeini",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ruhollah_Khomeini_by_Jamaran_1.jpg/250px-Ruhollah_Khomeini_by_Jamaran_1.jpg"
-    },
-    {
-      "name": "Osama bin Laden",
-      "note": "Arabische vrijwilliger in Afghanistan, later leider van Al-Qaida",
-      "wiki_checked": true,
-      "wiki_pageid": 7787,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Osama_bin_Laden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osama_bin_Laden_portrait.jpg/250px-Osama_bin_Laden_portrait.jpg"
-    },
-    {
-      "name": "Abdullah Azzam",
-      "note": "Palestijnse ideoloog van het globale jihadisme in de jaren 80",
-      "wiki_checked": true,
-      "wiki_pageid": 222441,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abdullah_Yusuf_Azzam"
-    },
-    {
-      "name": "Hassan al-Turabi",
-      "note": "Soedanese islamistische leider en architect achter Bashir",
-      "wiki_checked": true,
-      "wiki_pageid": 4541780,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hassan_Abdallah_al-Turabi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/HassanAlTurabi_Feb2015_RomanDeckert.jpg/250px-HassanAlTurabi_Feb2015_RomanDeckert.jpg"
-    },
-    {
-      "name": "Omar al-Bashir",
-      "note": "Soedanese ex-president, door het Strafhof vervolgd",
-      "wiki_checked": true,
-      "wiki_pageid": 61865,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Omar_al-Bashir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Omar_al-Bashir%2C_12th_AU_Summit%2C_090202-N-0506A-137.jpg/250px-Omar_al-Bashir%2C_12th_AU_Summit%2C_090202-N-0506A-137.jpg"
-    },
-    {
-      "name": "Rached Ghannouchi",
-      "note": "Tunesische leider van een beweging verbonden aan de Moslimbroederschap",
-      "wiki_checked": true,
-      "wiki_pageid": 3948183,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rashid_Al-Ghannushi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ghannouchi.png/250px-Ghannouchi.png"
+      "name": "Donald Trump",
+      "note": "Amerikaans president; besproken om oorlog, olieprijzen en midterms",
+      "start_seconds": 522,
+      "mention_count": 5
     },
     {
       "name": "Ho Chi Minh",
-      "note": "Vietnamese leider, genoemd als voorbeeld van asymmetrische oorlogvoering",
-      "wiki_checked": true,
-      "wiki_pageid": 67920,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ho_Chi_Minh_-_1946_Portrait.jpg/250px-Ho_Chi_Minh_-_1946_Portrait.jpg"
+      "note": "Leider van de Vietnamese onafhankelijkheidsstrijd tegen de Fransen",
+      "start_seconds": 356,
+      "mention_count": 1
     },
     {
-      "name": "Ronald Reagan",
-      "note": "Amerikaanse president onder wie de strijd in Afghanistan werd gefinancierd",
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "name": "Ruhollah Khomeini",
+      "note": "Leider van de Iraanse islamitische revolutie van 1979",
+      "start_seconds": 1986,
+      "mention_count": 3
     },
     {
-      "name": "David Guetta",
-      "note": "dj die optreedt op festivals in Saoedi-Arabië",
-      "wiki_checked": true,
-      "wiki_pageid": 150966,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/David_Guetta",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/David_Guetta_live_%40_MTV_EMA_2018.png/250px-David_Guetta_live_%40_MTV_EMA_2018.png"
+      "name": "Mohammad Reza Pahlavi",
+      "note": "De Sjah van Iran, verdreven in 1979",
+      "start_seconds": 2029,
+      "mention_count": 2
     },
     {
-      "name": "Heino Falcke",
-      "note": "sterrenkundige, gast in eerdere aflevering",
-      "wiki_checked": true,
-      "wiki_pageid": 3906079,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heino_Falcke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Heino_Falcke_-_Buch_Wien_2025.JPG/250px-Heino_Falcke_-_Buch_Wien_2025.JPG"
+      "name": "Osama bin Laden",
+      "note": "Al-Qaida-leider, actief in Afghanistan in de jaren 80",
+      "start_seconds": 2235,
+      "mention_count": 1
+    },
+    {
+      "name": "Abdullah Azzam",
+      "note": "Palestijnse ideoloog van het wereldwijde jihadisme",
+      "start_seconds": 2446,
+      "mention_count": 2
+    },
+    {
+      "name": "Hassan al-Turabi",
+      "note": "Soedanese islamitische ideoloog, architect van het Soedanese regime",
+      "start_seconds": 2333,
+      "mention_count": 1
+    },
+    {
+      "name": "Mohammed bin Salman",
+      "note": "Kroonprins en de facto heerser van Saoedi-Arabië",
+      "start_seconds": 1683,
+      "mention_count": 3
+    },
+    {
+      "name": "Mohammed Deif",
+      "note": "Hamas-leider, gedood door Israël",
+      "start_seconds": 3743,
+      "mention_count": 1
+    },
+    {
+      "name": "Ismail Haniyeh",
+      "note": "Hamas-leider, gedood door Israël in Iran",
+      "start_seconds": 3836,
+      "mention_count": 1
+    },
+    {
+      "name": "Mustafa Kemal Atatürk",
+      "note": "Stichter van de seculiere Turkse republiek",
+      "start_seconds": 4736,
+      "mention_count": 1
+    },
+    {
+      "name": "Steenbrink",
+      "note": "Islamkenner en theoloog, schreef over de Aceh-moorden",
+      "start_seconds": 2952,
+      "mention_count": 1
+    },
+    {
+      "name": "William Dalrymple",
+      "note": "Schrijver van reisverslag over het oosters christendom",
+      "start_seconds": 4276,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "From the Holy Mountain",
+      "author": "William Dalrymple",
+      "note": "Reisverslag over het verdwijnende oosterse christendom",
+      "start_seconds": 4276,
+      "volume_id": "aFWNYgEACAAJ",
+      "canonical_title": "From the Holy Mountain: A Journey Among the Christians of the Middle East",
+      "canonical_author": "William Dalrymple",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
-    "Midden-Oosten",
     "Iran",
-    "Straat van Hormuz",
+    "Saoedi-Arabië",
     "Gaza",
     "Syrië",
+    "Irak",
     "Libanon",
-    "Saoedi-Arabië",
-    "Mekka",
-    "Afghanistan",
-    "Vietnam",
     "Jemen",
+    "Afghanistan",
     "Koeweit",
     "Basra",
-    "Zuid-Irak",
     "Marokko",
+    "Egypte",
+    "Teheran",
+    "Mekka",
     "Soedan",
     "Tunesië",
-    "Aken",
-    "Doha",
-    "Cyprus"
+    "Oekraïne",
+    "Palestina",
+    "Nederlands-Indië",
+    "Aceh"
   ],
-  "summary_tldr": "Midden-Oostenkenner Abdou Bouzerda legt uit waarom de regio zich in een existentiële periode bevindt: de oorlog na 7 oktober, het afbrokkelen van de oude orde, klimaatverandering en moderniteit. Hij ontkracht clichés over sjiieten en soennieten, laat zien dat Iran en Saoedi-Arabië steeds meer op nationalisme en entertainment leunen dan op religie, en duidt 1979 als 'big bang' van de politieke islam.",
+  "summary_tldr": "Abdou Bouzerda betoogt dat het Midden-Oosten een existentieel kantelpunt beleeft, waarin een oude regionale orde afbrokkelt door de oorlog na 7 oktober, klimaatverandering en moderniteit. Het gesprek gaat voorbij clichés over religieus fanatisme en laat zien hoe religie vaak een masker of mobilisator is voor politieke krachten. Tegelijk verschuift de nadruk in landen als Iran en Saoedi-Arabië naar nationalisme en entertainment, terwijl het verdwijnen van christelijke gemeenschappen een groot verlies voelt.",
   "summary_points": [
-    "7 oktober veroorzaakte een kettingreactie, onder meer de val van Assad in Syrië.",
-    "Iran is verzwakt maar niet verslagen; in een asymmetrische oorlog hoeft de zwakste partij alleen niet te verliezen.",
-    "De Straat van Hormuz en olieprijzen: Amerika verdient mee, maar Amerikanen betalen via inflatie.",
-    "Clichés als sjiiet-soenniet en 'kruitvat' schieten tekort; geloof is vaak masker, katalysator of mobilisator.",
-    "Iran presenteert de oorlog eerder in nationalistische dan in jihadistische termen.",
-    "Arabische media zijn pluriform door een strijd om de publieke opinie, waardoor frustratie onder dictaturen groeit.",
-    "Klimaatverandering, waterschaarste en moderniteit (o.a. stijgende echtscheidingen) zetten samenlevingen onder druk.",
-    "Saoedi-Arabië onder Mohammed bin Salman ruilt religieuze controle in voor nationalisme, entertainment en hyperkapitalisme.",
-    "1979 (Iraanse revolutie, bezetting van Mekka, Sovjet-inval in Afghanistan) was de big bang van islamisering en jihadisme."
+    "De oorlog na 7 oktober heeft de regionale orde in korte tijd doen uiteenvallen, met de val van Assad als indirect gevolg.",
+    "Iran is verzwakt, maar een asymmetrische oorlog betekent niet dat de zwakkere partij verliest; volharding telt zwaar.",
+    "Het beeld van een oppositie tussen soennieten en sjiieten is te simplistisch; alliantiepatronen volgen vaak machtspolitiek.",
+    "Religie fungeert vaak als masker, katalysator of mobilisator voor wereldlijke belangen.",
+    "Saoedi-Arabië heeft de macht van de geestelijkheid ingeperkt en zet in op nationalisme en entertainment.",
+    "Het jaar 1979 wordt gezien als een big bang: de Iraanse revolutie, de belegering van Mekka en de Sovjetinval in Afghanistan.",
+    "Zelfmoordaanslagen zijn volgens Bouzerda een theologische innovatie die later als islamitisch werd gelegitimeerd.",
+    "Onder jongeren in het Midden-Oosten groeit steun voor scheiding van religie en politiek, al blijft geloof aanwezig.",
+    "Klimaatverandering, waterschaarste en een sterke media-strijd om de publieke opinie vergroten de existentiële druk.",
+    "De exodus van christenen uit het Midden-Oosten wordt gezien als een groot verlies voor de samenleving als mozaïek."
   ],
   "chapters": [
     {
-      "start_seconds": 174,
-      "title": "Waarom het Midden-Oosten existentieel is",
-      "summary": "Bouzerda schetst hoe 7 oktober de regionale orde deed afbrokkelen, met de val van Assad als indirect gevolg."
+      "start_seconds": 0,
+      "title": "Existentieel moment in het Midden-Oosten",
+      "summary": "Bouzerda schetst de simultane crises: oorlog, verzwakt Iran en Syrië na 7 oktober."
     },
     {
-      "start_seconds": 292,
-      "title": "Iran, asymmetrische oorlog en Trump",
-      "summary": "Over de kracht van een verzwakte tegenstander, de prijs voor het Iraanse volk en de rol van olieprijzen en speculatie."
+      "start_seconds": 312,
+      "title": "Iran, asymmetrische oorlog en Amerika",
+      "summary": "Een gesprek over de verzwakking van Iran, asymmetrische oorlogvoering en de economische druk van Trump."
     },
     {
-      "start_seconds": 702,
+      "start_seconds": 722,
       "title": "Voorbij de clichés",
-      "summary": "Sjiieten en soennieten, het 'kruitvat'-cliché en Iraans nationalisme in plaats van jihad."
+      "summary": "Bouzerda nuanceert het beeld van soennieten en sjiieten en de neiging tot generalisatie in media."
     },
     {
-      "start_seconds": 1010,
-      "title": "Taal, media en de strijd om de Arabische ziel",
-      "summary": "Dialecten, Bouzerda's achtergrond en de pluriforme, door mogendheden beïnvloede Arabische media."
-    },
-    {
-      "start_seconds": 1428,
-      "title": "Klimaat, moderniteit en maatschappelijke druk",
-      "summary": "Waterschaarste, hitte en sociale liberalisering met stijgende scheidingen in de regio."
+      "start_seconds": 1240,
+      "title": "Media, moderniteit en de Arabische ziel",
+      "summary": "De strijd om de publieke opinie via zenders uit China, Turkije en Rusland en de frustratie onder dictatuur."
     },
     {
       "start_seconds": 1680,
-      "title": "Saoedi-Arabië: van religie naar entertainment",
-      "summary": "Mohammed bin Salman beperkt de macht van geestelijken en bouwt op nationalisme en vermaak."
+      "title": "Saoedi-Arabië en de big bang van 1979",
+      "summary": "Hervormingen onder Mohammed bin Salman, de afbouw van religieuze macht en het jaar 1979 als keerpunt."
     },
     {
-      "start_seconds": 1965,
-      "title": "1979: de big bang",
-      "summary": "Khomeini, de bezetting van Mekka en de Afghaanse oorlog leidden tot islamisering en globaal jihadisme."
+      "start_seconds": 2597,
+      "title": "Jihadisme, zelfmoordaanslagen en islam",
+      "summary": "De ontwikkeling van jihadisme, de theologische discussie over martelaarschap en de vergelijking met christelijke rechtvaardige oorlog."
+    },
+    {
+      "start_seconds": 3583,
+      "title": "Gaza, normalisatie en christelijk verlies",
+      "summary": "Gaza als kantelpunt voor de Abraham-akkoorden en de vlucht van christenen uit het Midden-Oosten."
+    },
+    {
+      "start_seconds": 4339,
+      "title": "Hoop en afsluiting",
+      "summary": "Bouzerda put hoop uit creatieve krachten en benadrukt zijn journalistieke taak, gevolgd door een vooruitblik."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1130,
-      "speaker": "Abdou Bouzerda",
-      "text": "Er is letterlijk een strijd om de publieke opinie bezig in de Arabische wereld.",
-      "note": "Verrassend beeld van een regio waarin mogendheden via media strijden om de publieke opinie."
-    },
-    {
-      "start_seconds": 955,
-      "speaker": "Abdou Bouzerda",
-      "text": "Iran presenteert deze oorlog niet als jihad maar als heilig verzet, in nationalistische taal.",
-      "note": "Doorbreekt het cliché van religieus fanatisme."
-    },
-    {
-      "start_seconds": 1895,
-      "speaker": "Abdou Bouzerda",
-      "text": "Brood en spelen: Saoedi-Arabië houdt de samenleving bijeen met nationalisme en entertainment.",
-      "note": "Verklaart de koerswijziging van het land met een Romeinse parallel."
-    },
-    {
-      "start_seconds": 522,
-      "speaker": "Stefan Paas",
-      "text": "Verdient Trump er zelf aan door te speculeren op de olieprijzen?",
-      "note": "Het complottheorietje blijkt volgens Bouzerda goed gedocumenteerd."
-    },
-    {
       "start_seconds": 1667,
       "speaker": "Abdou Bouzerda",
-      "text": "Mensen voelen: ons bestaan in de toekomst staat op het spel.",
-      "note": "Vat samen wat 'existentieel' betekent."
+      "text": "Mensen voelen wel van: ons bestaan in de toekomst staat op het spel.",
+      "note": "Samenvatting van waarom de situatie existentieel is voor de bevolking."
+    },
+    {
+      "start_seconds": 2597,
+      "speaker": "Abdou Bouzerda",
+      "text": "Je kunt ook zeggen religie is in de greep van een fanatieke regio.",
+      "note": "Draait het gangbare cliché om: niet religie bepaalt de politiek, maar omgekeerd."
+    },
+    {
+      "start_seconds": 3729,
+      "speaker": "Abdou Bouzerda",
+      "text": "Het is een kantelpunt.",
+      "note": "Over de morele breuk met het Westen na Gaza, ook bij voorstanders van normalisatie."
+    },
+    {
+      "start_seconds": 4456,
+      "speaker": "Abdou Bouzerda",
+      "text": "Ik zie de mozaïek daar in het Midden-Oosten. Ik zie echt heel veel moois, ik zie heel veel kracht.",
+      "note": "Een hoopvolle slotgedachte na een gesprek vol somberheid."
+    },
+    {
+      "start_seconds": 4758,
+      "speaker": "Abdou Bouzerda",
+      "text": "Secularisme is zo'n besmet woord geraakt, omdat het vaak van buitenaf werd opgelegd.",
+      "note": "Laat zien hoe seculiere modellen in de regio door geschiedenis en machtspolitiek zijn besmet."
     }
   ],
   "keywords": [
     "Midden-Oosten",
-    "Iran",
+    "asymmetrische oorlog",
     "Saoedi-Arabië",
-    "Mohammed bin Salman",
     "1979",
-    "Asymmetrische oorlog",
-    "Nationalisme",
-    "Jihadisme",
+    "jihadisme",
+    "zelfmoordaanslag",
+    "nationalisme",
+    "secularisme",
+    "Iran",
+    "christenen in het Midden-Oosten",
     "Gaza",
-    "Klimaatverandering",
-    "Wahhabisme",
-    "Straat van Hormuz"
+    "klimaatverandering"
   ],
   "quotes": [
-    "‘Wat er nu in het Midden-Oosten gebeurt, is existentieel’, zegt Midden-Oostendeskundige Abdou Bouzerda. ‘Een oude orde brokkelt af.’"
-  ]
+    "Wat er nu in het Midden-Oosten gebeurt, is existentieel",
+    "Een oude orde brokkelt af.",
+    "Wat gebeurt er nu écht in het Midden-Oosten?"
+  ],
+  "similar": [
+    {
+      "n": 290,
+      "reason": "Geopolitieke kantelpunt rond Iran en het Midden-Oosten, met Bart Wallet als gast"
+    },
+    {
+      "n": 214,
+      "reason": "Een jaar na 7 oktober: oorlog, Islam en geschiedenis, zoals in deze aflevering"
+    },
+    {
+      "n": 163,
+      "reason": "Israëlische tegenaanval en de ideologie van Hamas, religie als mobilisator"
+    },
+    {
+      "n": 215,
+      "reason": "Onrecht tegen Palestijnen: Islam, geopolitiek en geschiedenis van het conflict"
+    },
+    {
+      "n": 254,
+      "reason": "Oorlog tussen Israël, Iran en Gaza met religieuze en apocalyptische duiding"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

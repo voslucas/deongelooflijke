@@ -1,18 +1,23 @@
 {
   "episode": 172,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 89257,
+    "segments": 1093,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31788,
-    "output_tokens": 2464,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 47158,
+    "output_tokens": 2832,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Kerk & secularisatie",
     "Kunst & cultuur",
-    "Geschiedenis",
     "Bijbel & Jezus",
-    "Kerk & secularisatie"
+    "Geschiedenis"
   ],
   "guests": [
     "Hanna Rijken"
@@ -20,264 +25,242 @@
   "people": [
     {
       "name": "Ambrosius",
-      "note": "kerkvader en bisschop van Milaan, aan wie het oudste kerstlied wordt toegeschreven",
-      "start_seconds": 743,
-      "wiki_checked": true,
-      "wiki_pageid": 108734,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ambrosius_van_Milaan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/AmbroseOfMilan.jpg/250px-AmbroseOfMilan.jpg"
+      "note": "Kerkvader en bisschop van Milaan, schreef de hymne Veni Redemptor Gentium",
+      "start_seconds": 725,
+      "mention_count": 6
     },
     {
       "name": "Augustinus",
-      "note": "leerling van Ambrosius, beschreef de sit-in in zijn Belijdenissen",
-      "start_seconds": 779,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Maarten Luther",
-      "note": "Reformator die Veni redemptor gentium vertaalde en gemeentezang bevorderde",
-      "start_seconds": 919,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "note": "Kerkvader die Ambrosius in Milaan leerde kennen",
+      "start_seconds": 780,
+      "mention_count": 2
     },
     {
       "name": "Franciscus van Assisi",
-      "note": "bedenker van de eerste kerststal (1223)",
-      "start_seconds": 1387,
-      "wiki_checked": true,
-      "wiki_pageid": 1275595,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franciscus_van_Assisi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/StFrancis_part.jpg/250px-StFrancis_part.jpg"
+      "note": "Bedacht de kerststal in 1223",
+      "start_seconds": 1380,
+      "mention_count": 5
     },
     {
-      "name": "Maria",
-      "note": "moeder van Jezus, bezongen in het Magnificat",
-      "start_seconds": 1705,
-      "wiki_checked": true,
-      "wiki_pageid": 37948,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maria_%28moeder_van_Jezus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg/250px-L%27_Annonciation_de_1644%2C_Philippe_de_Champaigne..jpg"
-    },
-    {
-      "name": "Hannah",
-      "note": "Oudtestamentische vrouw met een lofzang die lijkt op het Magnificat",
-      "start_seconds": 1808,
-      "wiki_checked": true
-    },
-    {
-      "name": "Isaac Watts",
-      "note": "van oorsprong puriteins dichter van Joy to the World",
-      "start_seconds": 2228,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "Reformator die instrumenten en koren uit de kerk schrapte",
-      "start_seconds": 2344,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
-    },
-    {
-      "name": "Huldrych Zwingli",
-      "note": "Reformator die alle muziek schrapte",
-      "start_seconds": 2417,
-      "wiki_checked": true,
-      "wiki_pageid": 9939,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Huldrych_Zwingli",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ulrich_Zwingli.png/250px-Ulrich_Zwingli.png"
+      "name": "Maarten Luther",
+      "note": "Reformator, schreef kerstliederen en gemeentezang, Vom Himmel hoch",
+      "start_seconds": 2480,
+      "mention_count": 5
     },
     {
       "name": "Johann Sebastian Bach",
-      "note": "componist in de Lutherse koortraditie",
-      "start_seconds": 2396,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "note": "Componist van het Weihnachtsoratorium",
+      "start_seconds": 2640,
+      "mention_count": 3
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator die instrumenten en muziek schrapte",
+      "start_seconds": 2380,
+      "mention_count": 3
+    },
+    {
+      "name": "Isaac Watts",
+      "note": "Puritijns geïnspireerde dichter, schreef Joy to the World",
+      "start_seconds": 2220,
+      "mention_count": 2
+    },
+    {
+      "name": "Charles Wesley",
+      "note": "Theoloog en liedschrijver, co-auteur van Hark the Herald Angels Sing",
+      "start_seconds": 3360,
+      "mention_count": 2
+    },
+    {
+      "name": "George Whitefield",
+      "note": "Theoloog en evangelist, co-auteur van Hark the Herald Angels Sing",
+      "start_seconds": 3360,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "kerststallen met kooi als kritiek op zijn grensmuur",
-      "start_seconds": 1673,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaans president die grensmuur-politiek voerde; kerststallen met kind in kooi",
+      "start_seconds": 1670,
+      "mention_count": 1
+    },
+    {
+      "name": "Maria",
+      "note": "Moeder van Jezus; lofzang Magnificat",
+      "start_seconds": 1690,
+      "mention_count": 3
+    },
+    {
+      "name": "Hannah",
+      "note": "Bijbelse vrouw wier lofzang lijkt op het Magnificat",
+      "start_seconds": 1820,
+      "mention_count": 1
+    },
+    {
+      "name": "Mariah Carey",
+      "note": "Zangeres van All I Want for Christmas Is You",
+      "start_seconds": 3660,
+      "mention_count": 2
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Weihnachtsoratorium",
+      "author": "Johann Sebastian Bach",
+      "note": "Kerstoratorium van Bach",
+      "start_seconds": 2640,
+      "volume_id": "1X_CvgEACAAJ",
+      "canonical_title": "J. S. Bach: Weihnachtsoratorium, Teile I-VI",
+      "canonical_author": "Johann Sebastian Bach",
+      "isbn13": "9790007079871",
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "Lukas 1",
-      "note": "Magnificat, de lofzang van Maria",
-      "start_seconds": 1705
-    },
-    {
       "ref": "Genesis 3",
-      "note": "zondeval, thema in de carol Adam lay ybounden",
-      "start_seconds": 1878
+      "note": "Zondeval; basis voor de carol Adam lay ybounden",
+      "start_seconds": 1900
     },
     {
-      "ref": "Psalm 98",
-      "note": "basis van Joy to the World",
-      "start_seconds": 2229
+      "ref": "Lukas 1",
+      "note": "Magnificat, lofzang van Maria",
+      "start_seconds": 1690
     },
     {
       "ref": "Jesaja 1",
-      "note": "os en ezel die hun heer kennen",
-      "start_seconds": 1505
+      "note": "Os en ezel die hun heer kennen",
+      "start_seconds": 1520
+    },
+    {
+      "ref": "Psalm 98",
+      "note": "Basis voor Joy to the World van Isaac Watts",
+      "start_seconds": 2230
     }
   ],
   "places": [
-    "Milaan",
     "Cambridge",
-    "Engeland",
-    "Aken",
+    "Milaan",
     "Bethlehem",
-    "Italië",
-    "Nederland",
-    "Verenigde Staten",
-    "Genève"
+    "Aken",
+    "Oxford",
+    "Genève",
+    "Amsterdam",
+    "Rotterdam"
   ],
-  "summary_tldr": "Theoloog en musicus Hanna Rijken neemt David Boogerd en Stefan Paas mee door de geschiedenis van de kerstmuziek, van Ambrosius' vierde-eeuwse hymne tot de Engelse carols. Kerstliederen blijken vaak volks, maatschappijkritisch en geestig, en werden soms verboden, zoals door de Puriteinen en calvinisten.",
+  "summary_tldr": "In deze aflevering van De Ongelooflijke Podcast duiken David Boogerd, theoloog Stefan Paas en musicologe-theologe Hanna Rijken in de geschiedenis van kerstmuziek. Van het vierde-eeuwse Veni Redemptor Gentium van Ambrosius tot carols, Luthers liederen en de puriteinse verboden, blijkt kerstmuziek vaak maatschappijkritisch, volksgericht en theologisch geladen. Het gesprek eindigt met een reflectie op de sacrale ervaring die muziek kan geven.",
   "summary_points": [
-    "Het oudste kerstlied, Veni redemptor gentium van Ambrosius, ontstond in de strijd tegen de Arianen.",
-    "Ambrosius geldt als vader van de gemeentezang; Luther greep op hem terug.",
-    "Nu zijt wellekome is een middeleeuws volkstalig lied met Gregoriaanse wortels (lijs).",
-    "Carols ontstonden in het middeleeuwse Engeland als dans- en feestliederen van het volk.",
-    "Franciscus van Assisi bedacht in 1223 de kerststal om het volk te bereiken.",
-    "Het Magnificat is een revolutionair lied, tegenover het brave beeld van Maria.",
-    "Carols bevatten humor en satire, zoals Adam lay ybounden en Personent hodie.",
-    "De Puriteinen verboden kerst en carols in 1644; Isaac Watts vond een omweg via de psalmen.",
-    "Door Calvijn en Zwingli heeft Nederland geen sterke eigen koortraditie."
+    "Het oudste bekende kerstlied, Veni Redemptor Gentium, werd toegeschreven aan Ambrosius in de vierde eeuw en was een theologisch wapen tegen de Arianen.",
+    "Ambrosius zette gemeentezang in als middel tegen angst tijdens een sit-in in Milaan; daarom wordt hij de vader van de gemeentezang genoemd.",
+    "Kerstliederen zijn van oorsprong volkstaal en vaak maatschappijkritisch, zoals de Magnificat en de Adam lay ybounden-carol.",
+    "Franciscus van Assisi bedacht de kerststal in 1223, met nadruk op armoede en het volk.",
+    "Luther maakte volkstaalliederen en gaf muziek een hoge waarde na de theologie.",
+    "De Calvinistische traditie schrapte muziek en orgels, wat in Nederland leidde tot een zwakke koortraditie.",
+    "De Puriteinen verboden kerst in Engeland in 1644; carols bleven toch bestaan via onder meer Isaac Watts.",
+    "Muziek en sacraliteit roepen transcendente ervaringen op, ook bij niet-kerkelijke mensen, zo blijkt uit Rijkens onderzoek.",
+    "Hanna Rijken beschreef een persoonlijke godservaring tijdens een koorzang in Oxford.",
+    "Spirituals en bevrijdingsthema's sluiten aan bij de kerstboodschap."
   ],
   "chapters": [
     {
-      "start_seconds": 39,
-      "title": "Introductie en muzikale achtergrond",
-      "summary": "David stelt Hanna Rijken voor en ze bespreken dirigeren, corona en het zingen weer samen."
+      "start_seconds": 0,
+      "title": "Inleiding en keuze van kerstliederen",
+      "summary": "Gasten stellen zich voor en Rijken kiest Once in Royal David's City als favoriet."
     },
     {
-      "start_seconds": 378,
-      "title": "Once in Royal David's City",
-      "summary": "De meest geliefde carol in Nederland en de traditie van King's College."
+      "start_seconds": 720,
+      "title": "Het oudste kerstlied en Ambrosius",
+      "summary": "Veni Redemptor Gentium uit de vierde eeuw wordt besproken als theologisch en volksgericht lied."
     },
     {
-      "start_seconds": 618,
-      "title": "Ambrosius en het oudste kerstlied",
-      "summary": "Veni redemptor gentium, de strijd tegen de Arianen en Luthers bewerking."
+      "start_seconds": 1380,
+      "title": "Volkstaal, Franciscus en maatschappijkritiek",
+      "summary": "Middeleeuwse volkstaalliederen, de kerststal van Franciscus en kritische teksten als de Magnificat."
     },
     {
-      "start_seconds": 1040,
-      "title": "Middeleeuwse volkstaalliederen",
-      "summary": "Van meerstemmigheid naar volkstaal en het lied Nu zijt wellekome met de lijs."
+      "start_seconds": 2000,
+      "title": "Carols, humor en Puriteinse verboden",
+      "summary": "Engelse carols, satire over de zondeval en het verbod op kerst door de Puriteinen."
     },
     {
-      "start_seconds": 1316,
-      "title": "Carols en de kerststal van Franciscus",
-      "summary": "Het ontstaan van de carols en de kerststal met os en ezel."
+      "start_seconds": 2380,
+      "title": "Reformatie en Nederlandse muziektraditie",
+      "summary": "Calvijn, Luther en Bach; de zwakke Nederlandse koortraditie wordt besproken."
     },
     {
-      "start_seconds": 1665,
-      "title": "Maatschappijkritiek en humor",
-      "summary": "Magnificat, Maria als krachtige vrouw en grappige carols."
+      "start_seconds": 2880,
+      "title": "Sacrale ervaring en spirituals",
+      "summary": "Onderzoek naar transcendentie in muziek, persoonlijke ervaringen en de spirituals."
     },
     {
-      "start_seconds": 2100,
-      "title": "Verbod door de Puriteinen",
-      "summary": "Kerst en carols worden verboden, en Isaac Watts schrijft Joy to the World."
-    },
-    {
-      "start_seconds": 2300,
-      "title": "Calvinisme en de Nederlandse koortraditie",
-      "summary": "Waarom Nederland geen eigen koortraditie heeft en hoe dat nu verandert."
+      "start_seconds": 3300,
+      "title": "Afsluiting en favoriete kerstliederen",
+      "summary": "Hark the Herald Angels Sing, Handel's Messiah en een afsluitende keuze van Mariah Carey."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2100,
+      "start_seconds": 2300,
       "speaker": "Hanna Rijken",
-      "text": "Het hele kerstfeest wordt afgeschaft en in plaats van een feestdag wordt het een vastendag.",
-      "note": "Verrassend verbod door de Puriteinen."
+      "text": "Calvijn schrapte alles, ook het orgel.",
+      "note": "Verklaart waarom Nederland geen sterke eigen koortraditie kent."
     },
     {
-      "start_seconds": 1897,
+      "start_seconds": 1900,
       "speaker": "Hanna Rijken",
-      "text": "Adam lay ybounden zegt: het is maar goed dat Adam die appel nam, anders was het nooit kerst geweest.",
-      "note": "Humor in een middeleeuws kerstlied."
+      "text": "All was for an apple: het was maar goed dat Adam die appel nam, anders was het nooit kerst geweest.",
+      "note": "Humoristische carol die de zondeval positief omduidt."
     },
     {
-      "start_seconds": 2056,
+      "start_seconds": 2960,
       "speaker": "Hanna Rijken",
-      "text": "Vir vir vir virgine: een grapje dat eerst 'man' suggereert en dan 'maagd'.",
-      "note": "Middeleeuwse woordgrap."
+      "text": "Muziek werkt als een musical bridge tussen kerkelijk en niet-kerkelijk.",
+      "note": "Verbindende kracht van muziek voorbij kerkelijke grenzen."
     },
     {
-      "start_seconds": 1705,
+      "start_seconds": 3380,
       "speaker": "Hanna Rijken",
-      "text": "Niet verlegen kijkt Maria, maar verwonderd heft ze haar hoofd.",
-      "note": "Maria als krachtige vrouw in de vertaling."
-    },
-    {
-      "start_seconds": 834,
-      "speaker": "Stefan Paas",
-      "text": "Ambrosius liet de mensen zingen zodat ze niet in slaap zouden vallen tijdens de sit-in.",
-      "note": "Zingen als protestmiddel in de vierde eeuw."
+      "text": "Zingen verbindt en zingen doet iets met je ziel.",
+      "note": "Persoonlijke oproep die de sacrale dimensie van zingen benadrukt."
     }
   ],
   "keywords": [
     "kerstmuziek",
-    "carol",
+    "carols",
     "Ambrosius",
-    "Gregoriaans",
-    "Reformatie",
+    "Veni Redemptor Gentium",
+    "Luther",
+    "Calvijn",
     "Puriteinen",
-    "Magnificat",
-    "Franciscus van Assisi",
     "gemeentezang",
-    "kerststal",
-    "Isaac Watts"
+    "Magnificat",
+    "spirituals",
+    "transcendentie",
+    "Bach"
   ],
-  "quotes": [
-    "Het is bij uitstek muziek waarbij de hemel soms even de aarde raakt.",
-    "Kerstliederen zijn maatschappijkritisch, satirisch, en bij vlagen hilarisch."
-  ],
+  "quotes": [],
   "similar": [
     {
-      "n": 119,
-      "reason": "Kerstaflevering met Anton de Wit over mythes, sprookjes en cultuur rond Kerst"
+      "n": 107,
+      "reason": "Gaat over het goddelijke in klassieke muziek, met Kunst & cultuur en Geschiedenis."
     },
     {
-      "n": 225,
-      "reason": "Kunst en Kerst met Antoine Bodar over schoonheid en kerkelijke cultuur"
+      "n": 29,
+      "reason": "Religie en popmuziek, met Kunst & cultuur, Bijbel & Jezus en Kerk & secularisatie."
+    },
+    {
+      "n": 188,
+      "reason": "Jubileumaflevering met Hanna Rijken, die ook te gast is in deze aflevering, over muziek en kerk."
     },
     {
       "n": 296,
-      "reason": "Govert Jan Bach over muziek, lijden en de Matthäus-Passion, Bach centraal"
+      "reason": "Gaat over de Matthäus-Passion en luisteren naar lijden, dus over muziek met religieuze lading."
     },
     {
-      "n": 323,
-      "reason": "Franciscus van Assisi en kerkgeschiedenis, ook Anton de Wit met Stefan Paas"
-    },
-    {
-      "n": 107,
-      "reason": "Klassieke muziek en het goddelijke met operazangeres Francis van Broekhuizen"
+      "n": 52,
+      "reason": "Kathedralen en monniken in de Middeleeuwen: Geschiedenis, Kerk en Kunst & cultuur."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

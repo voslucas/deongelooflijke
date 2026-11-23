@@ -1,239 +1,310 @@
 {
   "episode": 237,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 150006,
+    "segments": 1983,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31980,
-    "output_tokens": 2312,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 79301,
+    "output_tokens": 3240,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
     "Politiek",
-    "Kerk & secularisatie",
-    "Zingeving & psyche"
+    "God & geloof",
+    "Wetenschap & kosmos"
   ],
   "guests": [
     "Quita Muis"
   ],
   "people": [
     {
-      "name": "Jordan Peterson",
-      "note": "Canadees psycholoog en invloedrijke conservatieve online stem",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
+      "name": "Quita Muis",
+      "note": "socioloog en onderzoeker bij Tilburg University, gast van de aflevering",
+      "start_seconds": 16,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast, hoogleraar VU en Theologische Universiteit Utrecht",
+      "start_seconds": 10,
+      "mention_count": 50
     },
     {
       "name": "Andrew Tate",
-      "note": "Influencer met masculiene boodschap, vervolgd voor mensenhandel",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 5675238,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Tate",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/250px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png"
+      "note": "controversiële online influencer met misogyne, conservatieve boodschap",
+      "start_seconds": 331,
+      "mention_count": 12
     },
     {
-      "name": "J.D. Vance",
-      "note": "Amerikaanse politicus, genoemd als voorbeeld van conservatieve vibe",
-      "start_seconds": 10,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "name": "Jordan Peterson",
+      "note": "psycholoog en conservatief auteur, genoemd als voorbeeld van invloedrijke online figuur",
+      "start_seconds": 300,
+      "mention_count": 2
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident en politicus",
+      "start_seconds": 610,
+      "mention_count": 3
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, liet Tate vrij volgens Paas",
-      "start_seconds": 981,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Theodore Dalrymple",
-      "note": "Britse psychiater die schreef over beschaving en de onderklasse",
-      "start_seconds": 1380,
-      "wiki_checked": true,
-      "wiki_pageid": 405705,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Theodore_Dalrymple",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Theodoredalrymple.jpg/250px-Theodoredalrymple.jpg"
-    },
-    {
-      "name": "Francis Fukuyama",
-      "note": "Politicoloog, schreef over identity politics",
-      "start_seconds": 1456,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
+      "note": "Amerikaanse president, genoemd in verband met politieke ontwikkelingen in de VS",
+      "start_seconds": 960,
+      "mention_count": 3
     },
     {
       "name": "Jonathan Haidt",
-      "note": "Amerikaanse psycholoog van de morele grondslagen",
+      "note": "sociaal psycholoog, theorie over morele grondslagen",
       "start_seconds": 1548,
-      "wiki_checked": true,
-      "wiki_pageid": 5693749,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/250px-Jonathan_Haidt_2012_03.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "politicoloog, schrijver over identiteit en politiek",
+      "start_seconds": 1264,
+      "mention_count": 2
+    },
+    {
+      "name": "Dalrymple",
+      "note": "Britse psychiater en auteur over beschaving en onderklasse",
+      "start_seconds": 1380,
+      "mention_count": 2
     },
     {
       "name": "Thierry Baudet",
-      "note": "Politicus, genoemd in grap over samenwerking met Thieme",
+      "note": "politicus, oprichter van Forum voor Democratie",
       "start_seconds": 1620,
-      "wiki_checked": true,
-      "wiki_pageid": 2729343,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thierry_Baudet",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg/250px-Thierry_Baudet_%282025%29_%287%29_%28cropped%29.jpg"
+      "mention_count": 2
     },
     {
       "name": "Marianne Thieme",
-      "note": "Politica van de Partij voor de Dieren",
+      "note": "politica, oprichter van de Partij voor de Dieren",
       "start_seconds": 1620,
-      "wiki_checked": true,
-      "wiki_pageid": 24815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marianne_Thieme",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Marianne_Thieme_Partij_voor_de_Dieren_PvdD.jpg/250px-Marianne_Thieme_Partij_voor_de_Dieren_PvdD.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Bovens",
+      "note": "politicoloog die over nieuwe scheidslijnen en opleidingsniveau sprak",
+      "start_seconds": 4320,
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider, als vergelijking genoemd",
+      "start_seconds": 1125,
+      "mention_count": 1
+    },
+    {
+      "name": "Marcel Lubbers",
+      "note": "collega-onderzoeker die naar stemgedrag kijkt",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Niels Spierings",
+      "note": "collega-onderzoeker die naar stemgedrag kijkt",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Ilko van Hartingsveld",
+      "note": "onderzoeker UvA over affectieve polarisatie",
+      "start_seconds": 3705,
+      "mention_count": 1
+    },
+    {
+      "name": "Sander Schimmelpenninck",
+      "note": "schrijver die reageerde op hoogopgeleiden en homogeniteit",
+      "start_seconds": 4140,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Sjongers",
+      "note": "auteur van boek over armoede",
+      "start_seconds": 4560,
+      "mention_count": 1
+    },
+    {
+      "name": "Michelle van Tongeloo",
+      "note": "straatarts, genoemd als voorbeeld van wat hulpverlening betekent",
+      "start_seconds": 4600,
+      "mention_count": 1
+    },
+    {
+      "name": "Rietkerk",
+      "note": "auteur van boek over geloof, door de domineeoverbracht",
+      "start_seconds": 2530,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Ik wou dat ik kon geloven",
+      "author": "Rietkerk",
+      "note": "psychologisch boek over geloof dat Muis van haar dominee kreeg",
+      "start_seconds": 2550,
+      "volume_id": "r7IHywEACAAJ",
+      "canonical_title": "Ik wou dat ik kón geloven",
+      "canonical_author": "Willem Guillaume Rietkerk",
+      "isbn13": "9789043533034",
+      "isbn10": "9043533033",
+      "thumbnail": ""
+    },
+    {
+      "title": "Dieperliggende waarden (The Righteous Mind)",
+      "author": "Jonathan Haidt",
+      "note": "boek over morele grondslagen en vijf bronnen van moraal",
+      "start_seconds": 1548,
+      "volume_id": "cu7YzwEACAAJ",
+      "canonical_title": "The Righteous Mind",
+      "canonical_author": "Jonathan Haidt",
+      "isbn13": "9786024814915",
+      "isbn10": "6024814917",
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Tilburg",
     "Amsterdam",
     "Utrecht",
-    "Europa",
-    "Nederland",
+    "Zwolle",
+    "Frankrijk",
+    "België",
     "Roemenië",
+    "Duitsland",
+    "Engeland",
+    "Amerika",
+    "Nederland",
     "Polen",
     "Italië",
-    "Zweden",
-    "Frankrijk"
+    "Zweden"
   ],
-  "summary_tldr": "Socioloog Quita Muis bespreekt haar onderzoek op basis van de European Values Study: jongeren worden conservatiever, staan opener voor autoritair leiderschap, en de polarisatie valt mee. Samen met Stefan Paas zoekt ze verklaringen in economische en culturele onzekerheid, individualisering en een zoektocht naar gemeenschap en identiteit. Ook de samenhang met religie komt aan bod.",
+  "summary_tldr": "Socioloog Quita Muis bespreekt onderzoek naar hoe Europeanen veranderen in waarden, waaronder de vraag of jongeren conservatiever en religieuzer worden. Ze stelt dat polarisatie in opvattingen meevalt, maar dat affectieve afstand en elitevorming wel toenemen. Stefan Paas en David Boogerd bevragen haar verklaringen, zoals onzekerheid, economie en socialisatie.",
   "summary_points": [
-    "De European Values Study loopt sinds 1980 en wordt elke negen jaar herhaald.",
-    "Sinds de babyboomers neemt progressiviteit af; de jongste generaties lijken op de vooroorlogse generatie.",
-    "Het verschil zit vooral in seksueel-ethische thema's zoals abortus, euthanasie en homoseksualiteit, maar het blijft genuanceerd.",
-    "Verklaringen: economische onzekerheid (huizenmarkt, flexcontracten) en culturele onzekerheid (verdwenen zuilen en klassen).",
-    "Paas wijst op een mogelijke maatschappelijke correctie op doorgeslagen individualisering en verlies van gemeenschap.",
-    "Waarden vormen zich tussen 15 en 25 jaar en veranderen traag, dus Andrew Tate verschuift ze niet zomaar.",
-    "Polarisatie valt mee; mensen zoeken in gefragmenteerde groepjes naar gemeenschap.",
-    "Paas ziet in religieonderzoek een trendbreuk: jongeren in de kerk zijn geloviger en conservatiever dan hun ouders.",
-    "Conservatieve waarden zijn los van religie aan het groeien, uit dezelfde processen als meer religiositeit."
+    "Jongeren lijken in sommige waarden conservatiever te worden, een trendbreuk na de babyboomgeneratie",
+    "Conservatisme is in het onderzoek gemeten op thema's als abortus, homoseksualiteit en euthanasie",
+    "Democratiewaardering daalt bij jongeren, maar blijft hoog (rond 70-75 op een schaal van 0 tot 100)",
+    "Verklaringen: economische en culturele onzekerheid, individualisering en verlies van gemeenschap",
+    "Polarisatie in opvattingen valt mee, maar affectieve polarisatie en negatieve gevoelens tegen andere groepen nemen toe",
+    "Hoogopgeleiden zijn onderling homogener geworden en zien zichzelf als een aparte groep, een nieuwe 'zuil'",
+    "Vrouwen zijn progressiever geworden en stemmen linkser dan mannen; de gender gap neemt toe",
+    "Religie blijkt minder de bron van waarden te zijn; onzekerheid en reflectie lijken parallelle drijfveren",
+    "Paas wijst op een mogelijke trendbreuk onder jongeren in de kerk, maar ziet dit als mogelijk tijdbeeld",
+    "Social media en algoritmes worden genoemd als factor die polarisatie en zwart-wit beelden versterkt"
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Introductie en het vak van socioloog",
-      "summary": "David introduceert Quita Muis en haar onderzoeken. Ze vertelt waarom ze veel media-aandacht krijgt en hoe een socioloog naar de wereld kijkt."
+      "start_seconds": 0,
+      "title": "Introductie en het onderzoek",
+      "summary": "Boogerd introduceert Muis en het onderzoek naar waardeverandering in Europa, met de European Values Study als bron."
     },
     {
-      "start_seconds": 379,
-      "title": "De European Values Study",
-      "summary": "Muis legt uit hoe de langlopende waardenonderzoeken werken, met een panel van ongeveer 2000 Nederlanders."
+      "start_seconds": 1020,
+      "title": "Jongeren worden conservatiever?",
+      "summary": "Muis bespreekt de trend van toenemend conservatisme onder jongeren op seksuele-ethische thema's en de discussie over meetmethoden."
     },
     {
-      "start_seconds": 505,
-      "title": "Jongeren worden conservatiever",
-      "summary": "De trendbreuk in progressiviteit sinds de babyboomers en de thema's waarop die zichtbaar wordt. Paas vraagt of het conservatisme of juist meer nuance is."
+      "start_seconds": 1800,
+      "title": "Verklaringen: onzekerheid en individualisering",
+      "summary": "Muis en Paas bespreken economische en culturele onzekerheid, individualisering en de verlangen naar gemeenschap als verklaringen."
     },
     {
-      "start_seconds": 960,
-      "title": "Andrew Tate en sociale media",
-      "summary": "David vermoedt dat het nu veel erger is, met Tate, Peterson en Vance. Muis relativeert: waarden veranderen traag en Tate vult een identiteitsgat."
+      "start_seconds": 2520,
+      "title": "Religie en jongeren",
+      "summary": "Paas en Muis bespreken de mogelijke religieuze heropleving, katholieke bekeerlingen en Muis' eigen agnostische positie."
     },
     {
-      "start_seconds": 1216,
-      "title": "Verklaringen: onzekerheid, individualisering en gemeenschap",
-      "summary": "Economische en culturele onzekerheid en kritiek op individualisering. Fukuyama, Dalrymple en Haidt komen langs."
+      "start_seconds": 3180,
+      "title": "Democratie en autoritarisme",
+      "summary": "Muis analyseert hoe jongeren democratie waarderen en waarom sommigen sterke leiders steunen; Paas koppelt dit aan Amerika."
     },
     {
-      "start_seconds": 1860,
-      "title": "Religie en conservatisme",
-      "summary": "Paas schetst de trendbreuk onder kerkelijke jongeren. Muis ziet conservatieve waarden steeds losser van religie komen."
+      "start_seconds": 3600,
+      "title": "Polarisatie en gender gap",
+      "summary": "Muis legt uit dat polarisatie meevalt maar affectief toeneemt; vrouwen worden linkser en de gender gap groeit."
+    },
+    {
+      "start_seconds": 4320,
+      "title": "Hoogopgeleiden, elite en bubbels",
+      "summary": "Het gesprek gaat over hoogopgeleiden als nieuwe zuil, de kloof met lager opgeleiden en de verantwoordelijkheid van de elite."
+    },
+    {
+      "start_seconds": 5160,
+      "title": "Slotbeschouwingen en social media",
+      "summary": "Muis en Paas bespreken algoritmes en social media, en de paradoxen die uit het onderzoek naar voren komen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 16,
+      "start_seconds": 2400,
       "speaker": "Quita Muis",
-      "text": "Mensen denken dat altijd: we leven helemaal in een nieuwe tijd, alles is anders.",
-      "note": "Relativeert de paniek over de jeugd van nu."
+      "text": "De babyboomers zijn ongeveer de piek van progressiviteit geweest en vanaf dan neemt het af.",
+      "note": "Breekt met het idee van vooruitgangsdenken dat elke generatie progressiever is."
     },
     {
-      "start_seconds": 1018,
-      "speaker": "Quita Muis",
-      "text": "Andrew Tate vult een soort gat in de zoektocht naar identiteit onder jongeren.",
-      "note": "Verklaring voor zijn populariteit zonder dat waarden daardoor verschuiven."
-    },
-    {
-      "start_seconds": 1680,
+      "start_seconds": 3540,
       "speaker": "Stefan Paas",
-      "text": "Het zou mooi zijn als we weer ouderwetse gemeenschappen kunnen terugkrijgen zonder dat homo's weer de kast in moeten.",
-      "note": "Vat het spanningsveld tussen gemeenschap en vrijheid scherp samen."
+      "text": "Het is saaier dan we denken.",
+      "note": "Ironische samenvatting van de bevinding dat polarisatie in opvattingen meevalt."
     },
     {
-      "start_seconds": 1050,
-      "speaker": "Stefan Paas",
-      "text": "Het is misschien net zoiets als Stalin progressief noemen omdat hij communist was.",
-      "note": "Wijst op de glibberigheid van de labels conservatief en progressief."
-    },
-    {
-      "start_seconds": 2062,
+      "start_seconds": 3780,
       "speaker": "Quita Muis",
-      "text": "Eerst kwam religie en toen de waarden; nu zijn het uitvloeisels van dezelfde processen.",
-      "note": "Opvallende stelling over de losstaande relatie tussen religie en conservatisme."
+      "text": "We zijn het meer eens geworden, en als er dan iemand is die het oneens is, vinden we het opeens allemaal super erg.",
+      "note": "Verklaart waarom polarisatie zo sterk wordt waargenomen terwijl de meningen homogener worden."
+    },
+    {
+      "start_seconds": 4500,
+      "speaker": "Stefan Paas",
+      "text": "Dat is hypocriet.",
+      "note": "Paas bekritiseert hoe de elite doet alsof ze niet bestaat terwijl ze wel invloed heeft."
     }
   ],
   "keywords": [
-    "conservatisme",
-    "jongeren",
     "polarisatie",
-    "European Values Study",
-    "individualisering",
-    "identiteit",
-    "gemeenschap",
-    "autoritair leiderschap",
-    "Andrew Tate",
+    "conservatisme",
     "secularisatie",
-    "onzekerheid",
-    "waarden"
+    "individualisering",
+    "democratie",
+    "hoogopgeleiden",
+    "gender gap",
+    "Andrew Tate",
+    "European Values Study",
+    "affectieve polarisatie",
+    "identiteit",
+    "gemeenschap"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 287,
-      "reason": "Jongeren, individualisme en zoektocht naar gemeenschap en zin, met Stefan Paas"
-    },
-    {
-      "n": 267,
-      "reason": "Politiek onbehagen, democratie onder druk en kerk, met Stefan Paas"
-    },
-    {
-      "n": 294,
-      "reason": "Seculiere jonge generatie, nihilisme en teleurstelling, zoektocht naar zingeving en kerk"
-    },
-    {
       "n": 253,
-      "reason": "Jongeren worden weer religieuzer; terugkeer van geloof en secularisatie"
+      "reason": "Gaat over jongeren die weer gaan geloven en de vraag of Nederland christelijker wordt."
     },
     {
       "n": 247,
-      "reason": "Jonathan Haidt over jongeren, geestelijke gezondheid en cultuur"
+      "reason": "Jonathan Haidt, die ook in 237 besproken wordt, over polarisatie en de geestelijke impact van media."
+    },
+    {
+      "n": 2,
+      "reason": "Populisme, Baudet en de rol van de kerk, sluit aan bij conservatisme en politieke religie."
+    },
+    {
+      "n": 222,
+      "reason": "Kees van der Staaij over populisme, polarisatie en de joods-christelijke rechtsstaat."
+    },
+    {
+      "n": 20,
+      "reason": "Christelijke kiezers en Trump, over religie en conservatieve politieke verschuivingen in de VS."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,244 +1,274 @@
 {
   "episode": 17,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101952,
+    "segments": 1096,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31529,
-    "output_tokens": 2575,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53268,
+    "output_tokens": 9019,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Samenleving & migratie",
-    "God & geloof",
     "Islam & jodendom",
-    "Politiek"
+    "God & geloof",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Samuel Lee"
   ],
   "people": [
     {
-      "name": "Samuel Lee",
-      "note": "nieuwe Theoloog des Vaderlands, voorganger in Amsterdam Zuidoost, afkomstig uit het Midden-Oosten",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 5389379,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Samuel_Lee_%28theoloog%29"
+      "name": "Herman van Veen",
+      "note": "Nederlandse zanger wiens taalgebruik Samuel Lee hielp het Nederlands te waarderen",
+      "start_seconds": 2467,
+      "mention_count": 2
     },
     {
-      "name": "Stefan Paas",
-      "note": "vorige Theoloog des Vaderlands, hoogleraar aan de VU en de TU Kampen",
-      "start_seconds": 284,
-      "wiki_checked": true,
-      "wiki_pageid": 1686536,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stefan_Paas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Stefan_Paas_Zwolle_2025.png/250px-Stefan_Paas_Zwolle_2025.png"
+      "name": "Jezus",
+      "note": "Figuur van wie Samuel Lee een bovennatuurlijke ervaring beschrijft die zijn bekering inleidde",
+      "start_seconds": 794,
+      "mention_count": 3
     },
     {
       "name": "Karl Marx",
-      "note": "gelezen door Samuel Lee in zijn atheïstische en linkse periode",
-      "start_seconds": 582,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Filosoof wiens werk Samuel Lee in zijn jeugd las",
+      "start_seconds": 574,
+      "mention_count": 1
     },
     {
-      "name": "Lenin",
-      "note": "gelezen door Samuel Lee in zijn atheïstische en linkse periode",
-      "start_seconds": 582,
-      "wiki_checked": true,
-      "wiki_pageid": 13551,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Lenin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg/250px-Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg"
+      "name": "Vladimir Lenin",
+      "note": "Communistisch leider wiens werk Samuel Lee in zijn jeugd las",
+      "start_seconds": 574,
+      "mention_count": 1
     },
     {
-      "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-politicus, sprak in een eerdere aflevering over een verweesde samenleving en culturele identiteit",
-      "start_seconds": 2125,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "name": "Abraham de Moivre",
+      "note": "Wiskundige, grondlegger van de kansberekening, die als vluchteling in Nederland kwam",
+      "start_seconds": 3135,
+      "mention_count": 1
     },
     {
-      "name": "Alexander Dugin",
-      "note": "Russische denker die een strijd tussen westerse en oosterse beschaving propageert",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 4037958,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Aleksandr_Doegin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg/250px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D1%83%D0%B3%D0%B8%D0%BD_%D0%BD%D0%B0_%D0%9F%D0%9C%D0%AD%D0%A4_2023_-_03_%28cropped%29.jpg"
+      "name": "Baruch Spinoza",
+      "note": "Filosoof die als voorbeeld van migrantenbijdrage aan Nederland wordt genoemd",
+      "start_seconds": 3145,
+      "mention_count": 1
     },
     {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier, genoemd bij de pentecostale visie op Israël",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "name": "Pierre Bayle",
+      "note": "Filosoof die als voorbeeld van migrantenbijdrage aan Nederland wordt genoemd",
+      "start_seconds": 3145,
+      "mention_count": 1
     },
     {
-      "name": "Jair Bolsonaro",
-      "note": "Braziliaanse president met pentecostale achterban",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 5102363,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jair_Bolsonaro",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2019_Declara%C3%A7%C3%A3o_%C3%A0_imprensa_com_Presidente_da_Rep%C3%BAblica_do_Paraguai_%28cropped%29.jpg/250px-2019_Declara%C3%A7%C3%A3o_%C3%A0_imprensa_com_Presidente_da_Rep%C3%BAblica_do_Paraguai_%28cropped%29.jpg"
+      "name": "Gertjan Segers",
+      "note": "Voorzitter van de ChristenUnie, eerder te gast in de podcast",
+      "start_seconds": 2121,
+      "mention_count": 2
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "Paus die sprak over armoede en vluchtelingen en tegelijk conservatieve standpunten innam",
+      "start_seconds": 2065,
+      "mention_count": 2
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president met evangelicale en pentecostale entourage",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president, genoemd in verband met christelijk-nationalistische bewegingen",
+      "start_seconds": 1928,
+      "mention_count": 1
+    },
+    {
+      "name": "Jair Bolsonaro",
+      "note": "Braziliaanse president, genoemd in verband met de strijd tussen beschavingen",
+      "start_seconds": 1928,
+      "mention_count": 1
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlische premier, genoemd in verband met de rol van Israël in het strijdnarratief",
+      "start_seconds": 1928,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Dugin",
+      "note": "Russische ideoloog die de strijd tussen westerse en oosterse beschaving propageert",
+      "start_seconds": 1928,
+      "mention_count": 1
     },
     {
       "name": "Willem van Oranje",
-      "note": "historische figuur verbonden met het Wilhelmus en de Tachtigjarige Oorlog",
-      "start_seconds": 2274,
-      "wiki_checked": true,
-      "wiki_pageid": 96424,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_van_Oranje",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/WilliamOfOrange1580.jpg/250px-WilliamOfOrange1580.jpg"
+      "note": "Nationale held uit de Tachtigjarige Oorlog, verbonden met het Wilhelmus",
+      "start_seconds": 2263,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
+  "books": [
+    {
+      "title": "Good News Bible",
+      "author": "",
+      "note": "Bijbelvertaling die Samuels vrouw hem gaf en die bij zijn bekering een rol speelde",
+      "start_seconds": 680,
+      "volume_id": "YXM7jwEACAAJ",
+      "canonical_title": "Good News Bible: Today's English Version",
+      "canonical_author": "American Bible Society",
+      "isbn13": "9780798218146",
+      "isbn10": "0798218142",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Exodus 12",
+      "note": "Israël trekt uit Egypte samen met vreemdelingen; basis voor het idee van gastvrijheid",
+      "start_seconds": 3665
+    },
+    {
+      "ref": "Deuteronomium 10",
+      "note": "God neemt vreemdelingen in bescherming; herinnering dat Israël zelf vreemdeling was in Egypte",
+      "start_seconds": 3665
+    }
+  ],
   "places": [
     "Amsterdam Zuidoost",
     "Amsterdam",
-    "Midden-Oosten",
-    "Nederland",
-    "Zuid-Korea",
     "Costa Blanca",
-    "Cyprus",
+    "Barcelona",
+    "Groningen",
+    "Den Haag",
     "Nigeria",
+    "Japan",
+    "Cyprus",
     "Saudi-Arabië",
-    "Rusland",
-    "Leiden",
-    "Kampen"
+    "Rusland"
   ],
-  "summary_tldr": "David Boogerd spreekt met de nieuwe Theoloog des Vaderlands Samuel Lee en zijn voorganger Stefan Paas. Lee vertelt over zijn weg van vluchteling en atheïst naar voorganger, en samen bespreken ze migratie, islamangst, vrijheid, vaderlandsliefde en het gevaar van strijdtaal tussen beschavingen.",
+  "summary_tldr": "In aflevering 17 spreken David Boogerd, de nieuwe Theoloog des Vaderlands Samuel Lee en oud-Theoloog Stefan Paas over migratie, grenzen en vaderlandsliefde. Samuel vertelt over zijn weg van atheïsme via een bovennatuurlijke ervaring naar het christelijk geloof en over zijn werk met migranten in Amsterdam Zuidoost. Het gesprek draait om de vraag wie recht heeft op een land en hoe een rechtsstaat met vreemdelingen en vaderlandsliefde moet omgaan.",
   "summary_points": [
-    "Samuel Lee is de eerste Theoloog des Vaderlands met een migrantenachtergrond en spreekt acht talen.",
-    "Lee werd atheïst na geweld in zijn geboorteland en kwam door zijn Koreaanse vrouw en een bovennatuurlijke ervaring tot geloof.",
-    "Paas herkent zulke religieuze ervaringen en vindt dat het Westen er ongemakkelijk mee omgaat.",
-    "Het migratiedebat is volgens Lee vooral angst voor de islam, versterkt sinds 11 september.",
-    "Mensen worden snel in groepen ingedeeld en Nederlanders overschatten het aantal moslims sterk.",
-    "Lee en Paas pleiten ervoor vrijheid ook aan anderen te gunnen, ook aan moslims.",
-    "Pentecostale en seculiere strijdtaal over beschavingen is gevaarlijk omdat zij geweld legitimeert.",
-    "Links en rechts schieten tekort als indeling, ook voor christenen en de paus.",
-    "Vlag en volkslied zijn niet verkeerd zolang ze niet worden gebruikt om mensen uit te sluiten; de taal beheersen is wel belangrijk."
+    "Samuel Lee is de eerste Theoloog des Vaderlands met een migrantenachtergrond, afkomstig uit het Midden-Oosten.",
+    "Zijn geloofsweg loopt van jeugdig atheïsme en links-nationalistische politieke vorming naar bekering via een ervaring in Spanje.",
+    "Stefan Paas en Samuel Lee herkennen bovennatuurlijke ervaringen en pleiten ervoor die serieus te nemen in plaats van te psychologiseren.",
+    "Angst voor de islam en de periode na 9/11 bepalen volgens Samuel veel van de houding tegenover migranten.",
+    "De vraag wat vaderlandsliefde betekent: symbolen als vlag en volkslied kunnen verbinden maar ook uitsluiten.",
+    "Taal wordt gezien als sleutel tot integratie en toegang tot rechten, en tot het begrijpen van de cultuur.",
+    "Migranten die als asielzoeker worden gezien verliezen volgens Samuel hun menselijke waardigheid, ook als zij vroeger artsen of docenten waren.",
+    "Stefan Paas wijst op de bevoorrechte positie van Nederlanders met een veilig paspoort en benadrukt de gedeelde menselijkheid.",
+    "Bijbelse teksten over vreemdelingen (Exodus 12, Deuteronomium 10) worden gebruikt als basis voor gastvrijheid en rechtvaardigheid.",
+    "Migrantenkerken in de Bijlmer worden gezien als bron van hoop, maar kennen eigen traditionele opvattingen die afwijken van de Nederlandse kerk."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Kennismaking met de nieuwe Theoloog des Vaderlands",
-      "summary": "Introductie van Samuel Lee, zijn naam, achtergrond en de voetwassing tegen trots."
+      "title": "Introductie van de gasten",
+      "summary": "David Boogerd stelt Samuel Lee en Stefan Paas voor en noemt het thema migratie en grenzen. Samuel vertelt over zijn Midden-Oosterse achtergrond en zijn talenkennis."
     },
     {
-      "start_seconds": 284,
-      "title": "Twee levens: geworteld en op drift",
-      "summary": "Paas en Lee vergelijken hun achtergrond en talen, en waarom wortels en vluchtelingschap met religie te maken hebben."
-    },
-    {
-      "start_seconds": 467,
+      "start_seconds": 484,
       "title": "Van atheïsme naar geloof",
-      "summary": "Lee vertelt over zijn jeugd, zijn atheïsme, zijn vrouw en zijn ervaring in Spanje."
+      "summary": "Samuel beschrijft hoe hij als jongen politiek bewust werd, God verloor en via zijn vrouw en de Koreaanse gemeenschap weer in het geloof kwam."
     },
     {
-      "start_seconds": 885,
-      "title": "Bijzondere religieuze ervaringen in het Westen",
-      "summary": "Paas en Boogerd bespreken hoe ongemakkelijk het Westen met zulke ervaringen omgaat."
+      "start_seconds": 777,
+      "title": "Bovennatuurlijke ervaringen",
+      "summary": "Samuel vertelt over zijn ervaring met de stem van Jezus in Spanje. Stefan Paas en David Boogerd bespreken hoe het Westen met religieuze ervaringen omgaat."
     },
     {
-      "start_seconds": 1044,
-      "title": "Migratie, islamangst en discriminatie",
-      "summary": "Waarom het thema leeft, Lee's ervaringen na 11 september en het overschatten van het aantal moslims."
+      "start_seconds": 1200,
+      "title": "Migratie, islam en de post-9/11 wereld",
+      "summary": "Het gesprek gaat over angst voor de islam, hoe Samuel door zijn uiterlijk als moslim werd gezien, en over het verschil tussen groepen en individuen."
     },
     {
-      "start_seconds": 1560,
-      "title": "Vrijheid, rechtsstaat en strijdtaal",
-      "summary": "Over vrijheid voor iedereen, islamkritische christenen, de pentecostale beweging en het gevaar van beschavingsstrijd."
+      "start_seconds": 2143,
+      "title": "Vaderlandsliefde, vlag en volkslied",
+      "summary": "De gasten bespreken of de vlag en het Wilhelmus belangrijk zijn voor een samenleving en hoe symbolen politiek geladen kunnen raken."
     },
     {
-      "start_seconds": 2040,
-      "title": "Links, rechts en volgelingen van Jezus",
-      "summary": "Waarom politieke hokjes niet passen bij christenen, de paus en klimaatbeleid."
+      "start_seconds": 2872,
+      "title": "Ongedocumenteerden en menselijke waardigheid",
+      "summary": "Samuel vertelt over ongedocumenteerde migranten die hun waardigheid verliezen, en Stefan reflecteert op machteloosheid en afhankelijkheid van instanties."
     },
     {
-      "start_seconds": 2125,
-      "title": "Vlag, volkslied en nationale identiteit",
-      "summary": "Gesprek over symbolen, vaderlandsliefde en het belang van de taal."
+      "start_seconds": 3171,
+      "title": "Migrantenkerken en de Bijlmer",
+      "summary": "David en Samuel bespreken de Afro-Aziatische gemeente van Samuel, de kerkelijke verschillen met Nederlandse kerken en de rol van migrantenkerken als bron van hoop."
+    },
+    {
+      "start_seconds": 3665,
+      "title": "Bijbel, vreemdelingschap en bruggenbouwen",
+      "summary": "Stefan leest Exodus en Deuteronomium voor over vreemdelingen. Samuel beschrijft zijn thema als theoloog, verbinding en bruggenbouwen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 805,
       "speaker": "Samuel Lee",
-      "text": "Ik ga die kerk in brand steken, dan kan ze weer met me daten. Jaren later ben ik zelf de dominee van die kerk geworden.",
-      "note": "Grappige en ironische opening over zijn weg naar het geloof."
+      "text": "Ik heb gewoon het echte stem van Jezus gehoord.",
+      "note": "Een persoonlijke en onverklaarbare ervaring die volgens Samuel zijn leven heeft veranderd."
     },
     {
-      "start_seconds": 808,
+      "start_seconds": 1693,
       "speaker": "Samuel Lee",
-      "text": "Ik heb gewoon de echte stem van Jezus gehoord, een audible stem.",
-      "note": "Persoonlijk keerpunt tijdens zijn huwelijksreis."
+      "text": "Wanneer je vrijheid wil voor jezelf, moet je ook vrijheid gunnen aan een ander.",
+      "note": "Een korte, scherpe samenvatting van zijn visie op vrijheid en wederkerigheid."
     },
     {
-      "start_seconds": 1218,
+      "start_seconds": 2889,
       "speaker": "Samuel Lee",
-      "text": "Ik zei: nee, ik ben een Italiaan. What's the problem?",
-      "note": "Illustreert vooroordelen na 11 september."
+      "text": "We worden wakker en we heten asielzoeker. We zijn asielzoekers. We gaan naar bed.",
+      "note": "Ontroerende weergave van hoe ongedocumenteerden hun identiteit en waardigheid verliezen."
     },
     {
-      "start_seconds": 1680,
-      "speaker": "Samuel Lee",
-      "text": "Stel dat jullie aan de macht komen, wat gaan jullie dan met de moslims doen?",
-      "note": "Scherpe vraag aan islamkritische christenen die geen antwoord hadden."
-    },
-    {
-      "start_seconds": 1952,
+      "start_seconds": 3784,
       "speaker": "Stefan Paas",
-      "text": "Dat strijdjargon is een levensgevaarlijk discours, omdat het werkelijkheden oproept.",
-      "note": "Waarschuwing tegen beschavingsstrijd-retoriek."
-    },
-    {
-      "start_seconds": 2033,
-      "speaker": "Samuel Lee",
-      "text": "Ik ben een volger van Jezus.",
-      "note": "Antwoord op de vraag of hij links of rechts is."
+      "text": "Herinner jezelf dat je ooit vreemdeling was in Egypte. Je hebt iets gemeen met die ander.",
+      "note": "De kern van Stefans bijbelse pleidooi voor gedeelde menselijkheid en empathie."
     }
   ],
   "keywords": [
-    "Theoloog des Vaderlands",
     "migratie",
-    "islam",
-    "vrijheid",
-    "rechtsstaat",
-    "pinksterbeweging",
-    "11 september",
     "vaderlandsliefde",
+    "Theoloog des Vaderlands",
+    "islam",
+    "bekering",
     "religieuze ervaring",
-    "identiteit",
-    "discriminatie"
+    "integratie",
+    "taal",
+    "ongedocumenteerden",
+    "vreemdeling",
+    "Exodus",
+    "migrantenkerk"
   ],
-  "quotes": [],
-  "similar": []
+  "quotes": [
+    "Van wie is nou eigenlijk die wereld en die grond waarop wij leven?",
+    "Samuel Lee is de nieuwe en ook de eerste theoloog des vaderlands met een migrantenachtergrond.",
+    "Hij is afkomstig uit het Midden-Oosten en heeft een, nou, hoe zal ik het zeggen, tumultueus geloofsleven gehad."
+  ],
+  "similar": [
+    {
+      "n": 15,
+      "reason": "Gert-Jan Segers over verweesde samenleving; ook genoemd in deze aflevering, thema's migratie en God"
+    },
+    {
+      "n": 192,
+      "reason": "Cultuurchristendom in Europa, migratievraagstuk en identiteit; sterke thematische overlap"
+    },
+    {
+      "n": 197,
+      "reason": "Migratie als centraal politiek en cultureel thema, met mythes over grenzen"
+    },
+    {
+      "n": 105,
+      "reason": "Asielcrisis en theologie in de praktijk, vergelijkbaar met de migrantenthema's hier"
+    },
+    {
+      "n": 222,
+      "reason": "Politiek, populisme en de joods-christelijke rechtsstaat; overlap met Islam, jodendom en migratie"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

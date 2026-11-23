@@ -1,18 +1,23 @@
 {
   "episode": 261,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 109780,
+    "segments": 1198,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30957,
-    "output_tokens": 2961,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 56513,
+    "output_tokens": 8601,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Geschiedenis",
-    "Islam & jodendom",
-    "Filosofie & ethiek"
+    "Bijbel & Jezus",
+    "Politiek"
   ],
   "guests": [
     "Jan van Benthem"
@@ -20,151 +25,145 @@
   "people": [
     {
       "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
+      "note": "Israëlische premier, leider van de huidige regering en centrale figuur in de kritiek op het Gaza-beleid",
+      "start_seconds": 8,
+      "mention_count": 14
     },
     {
-      "name": "Harry S. Truman",
-      "note": "Amerikaanse president die de derde atoombom stopte",
-      "start_seconds": 195,
-      "wiki_checked": true,
-      "wiki_pageid": 55518,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Harry_S._Truman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/TRUMAN_58-766-06_%28cropped%29.jpg/250px-TRUMAN_58-766-06_%28cropped%29.jpg"
+      "name": "Harry Truman",
+      "note": "Amerikaanse president die het besluit over de atoombommen op Hiroshima en Nagasaki voortzette en later terugkrabbelde",
+      "start_seconds": 147,
+      "mention_count": 7
     },
     {
       "name": "Richard Russell",
-      "note": "Democratische senator die Truman schreef",
-      "start_seconds": 195,
-      "wiki_checked": true
+      "note": "Democratische senator die Truman in 1945 schreef om te stoppen met het oproepen tot vrede",
+      "start_seconds": 147,
+      "mention_count": 3
     },
     {
-      "name": "Franklin D. Roosevelt",
-      "note": "voorganger van Truman, startte het atoombomproject",
+      "name": "Franklin Roosevelt",
+      "note": "Voorganger van Truman; het atoombomproject werd onder zijn leiding gestart",
       "start_seconds": 280,
-      "wiki_checked": true,
-      "wiki_pageid": 36850,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/FDR_1944_Color_Portrait_%28cropped%29.jpg/250px-FDR_1944_Color_Portrait_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Yoav Gallant",
-      "note": "toenmalig Israëlisch minister van Defensie",
+      "note": "Voormalig Israëlisch minister van Defensie die Hamas als beesten omschreef",
       "start_seconds": 388,
-      "wiki_checked": true,
-      "wiki_pageid": 5800019,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yoav_Gallant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Yoav_Galant_1.jpg/250px-Yoav_Galant_1.jpg"
+      "mention_count": 3
     },
     {
       "name": "Bezalel Smotrich",
-      "note": "ultrarechtse Israëlische minister van Financiën",
-      "start_seconds": 399,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
+      "note": "Ultrarechtse Israëlische minister van Financiën met extreme uitspraken over Gaza",
+      "start_seconds": 419,
+      "mention_count": 3
     },
     {
       "name": "Itamar Ben-Gvir",
-      "note": "Israëlisch minister van Nationale Veiligheid",
-      "start_seconds": 399,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
+      "note": "Israëlische minister van Nationale Veiligheid, ultrarechts; kreeg een Nederlands inreisverbod",
+      "start_seconds": 419,
+      "mention_count": 3
     },
     {
-      "name": "Amos Yadlin",
-      "note": "voormalig hoofd militaire inlichtingendienst, criticus van Netanyahu",
+      "name": "Amos Jadlin",
+      "note": "Voormalig hoofd van de Israëlische militaire inlichtingendienst die de ontbrekende planning bekritiseert",
       "start_seconds": 687,
-      "wiki_checked": true
+      "mention_count": 2
     },
     {
       "name": "Elias Chacour",
-      "note": "Melkitische aartsbisschop, auteur van Kinderen van Abraham",
-      "start_seconds": 767,
-      "wiki_checked": true,
-      "wiki_pageid": 170996,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elias_Chacour",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Elias_Chacour_in_2015.jpg/250px-Elias_Chacour_in_2015.jpg"
-    },
-    {
-      "name": "Benny Gantz",
-      "note": "oppositieleider, voormalig minister van Defensie",
-      "start_seconds": 1562,
-      "wiki_checked": true,
-      "wiki_pageid": 5190152,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benny_Gantz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Israeli_Minister_Benny_Gantz_at_the_Department_of_State_in_Washington%2C_D.C._on_March_5%2C_2024_%28cropped%29.jpg/250px-Israeli_Minister_Benny_Gantz_at_the_Department_of_State_in_Washington%2C_D.C._on_March_5%2C_2024_%28cropped%29.jpg"
+      "note": "Palestijns-christelijke aartsbisschop van de Melkitische kerk, auteur van een indrukwekkend levensverhaal",
+      "start_seconds": 757,
+      "mention_count": 3
     },
     {
       "name": "Mahmoud Abbas",
-      "note": "voorzitter van de Palestijnse Autoriteit",
-      "start_seconds": 1595,
-      "wiki_checked": true,
-      "wiki_pageid": 22642,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahmoud_Abbas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mahmoud_Abbas_%282022%29.jpg/250px-Mahmoud_Abbas_%282022%29.jpg"
+      "note": "Voorzitter van de Palestijnse autoriteit",
+      "start_seconds": 1589,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; zijn beleid en retoriek over rechters en Israël komen ter sprake",
+      "start_seconds": 1418,
+      "mention_count": 5
     },
     {
       "name": "Nicholas Wolterstorff",
-      "note": "christelijke Amerikaanse filosoof",
+      "note": "Christelijke Amerikaanse filosoof, auteur van Until Justice and Peace Embrace",
       "start_seconds": 2279,
-      "wiki_checked": true,
-      "wiki_pageid": 4047598,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicholas_Wolterstorff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nicholas_Wolterstorff.jpg/250px-Nicholas_Wolterstorff.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "note": "Israëlische premier die Oslo-akkoorden doorzette en werd vermoord",
+      "start_seconds": 2643,
+      "mention_count": 2
+    },
+    {
+      "name": "Shimon Peres",
+      "note": "Israëlische politicus die het Oslo-proces voortzette na de moord op Rabin",
+      "start_seconds": 2651,
+      "mention_count": 1
+    },
+    {
+      "name": "Ehud Olmert",
+      "note": "Israëlische premier die in 2008 een vergaand vredesvoorstel deed aan Abbas",
+      "start_seconds": 2662,
+      "mention_count": 1
+    },
+    {
+      "name": "Reuven Rivlin",
+      "note": "Voormalig Israëlisch president die pleitte voor een enkele staat met gelijke rechten",
+      "start_seconds": 2786,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Voormalig Amerikaans president; volgens Van Benthem mogelijk de laatste pro-Israëlische democratische president",
+      "start_seconds": 3250,
+      "mention_count": 2
+    },
+    {
+      "name": "Tucker Carlson",
+      "note": "Amerikaans influencer met anti-Israëlische uitspraken binnen de Republikeinse beweging",
+      "start_seconds": 3324,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president die aankondigde de Palestijnse staat te erkennen",
+      "start_seconds": 3530,
+      "mention_count": 1
     },
     {
       "name": "Mozes",
-      "note": "bijbelse figuur, gaf de geboden voor het binnentrekken van Kanaän",
-      "start_seconds": 2166,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "note": "Bijbelse leider die volgens Van Benthem de instructies gaf voor Ebal en Gerizim",
+      "start_seconds": 2130,
+      "mention_count": 2
     },
     {
       "name": "Jozua",
-      "note": "bijbelse leider die het land binnentrok",
-      "start_seconds": 2167,
-      "wiki_checked": true,
-      "wiki_pageid": 40073,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jozua_%28persoon%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Karolingischer_Buchmaler_um_840_001.jpg/250px-Karolingischer_Buchmaler_um_840_001.jpg"
+      "note": "Bijbelse leider die bij de intocht in Kanaän een verbond sloot met de Gibeoniërs",
+      "start_seconds": 2130,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "Kinderen van Abraham",
       "author": "Elias Chacour",
-      "note": "levensverhaal van een Palestijnse aartsbisschop, humane toon ondanks onderdrukking",
-      "start_seconds": 767
+      "note": "Levensverhaal van de Palestijns-christelijke aartsbisschop; Paas beveelt het aan als indrukwekkend en humaan",
+      "start_seconds": 757
     },
     {
       "title": "Until Justice and Peace Embrace",
       "author": "Nicholas Wolterstorff",
-      "note": "bevat hoofdstuk over Israël en de Palestijnen met citaten van rabbijnen",
+      "note": "Boek over rechtvaardigheid met een hoofdstuk over Israël en Palestina, citerend uit Joodse rabbijnen",
       "start_seconds": 2279,
       "volume_id": "cgjW0QEACAAJ",
-      "canonical_title": "Until Justice and Peace Embrace: The Kuyper Lectures for 1981 Delivered at the Free University of Amsterdam",
+      "canonical_title": "Until Justice and Peace Embrace",
       "canonical_author": "Nicholas Wolterstorff",
       "isbn13": "9780802819802",
       "isbn10": "080281980X",
@@ -173,24 +172,29 @@
   ],
   "bible_refs": [
     {
-      "ref": "Jesaja",
-      "note": "Netanyahu citeert Jesaja bij de VN",
-      "start_seconds": 2070
-    },
-    {
-      "ref": "Psalm 15",
-      "note": "je aan je beloftes houden, ook als het nadelig is",
-      "start_seconds": 2087
-    },
-    {
       "ref": "Deuteronomium 27",
-      "note": "zegen en vloek op de bergen Ebal en Gerizim; vloek over wie grenspalen verlegt en vreemdelingen, weduwen en wezen onrecht doet",
+      "note": "Zegen en vloek op de bergen Ebal en Gerizim bij de intocht in Kanaän; de vloek betreft het respecteren van grenzen en vreemdelingen",
       "start_seconds": 2130
     },
     {
+      "ref": "Jesaja",
+      "note": "Netanyahu citeerde Jesaja in de Algemene Vergadering van de VN; Van Benthem noemt dit selectief lezen",
+      "start_seconds": 2075
+    },
+    {
+      "ref": "Psalm 15",
+      "note": "Aangehaald over het houden van beloftes, ook als dat nadelig uitpakt",
+      "start_seconds": 2085
+    },
+    {
       "ref": "Psalm 85",
-      "note": "citaat in de titel van Wolterstorffs boek",
+      "note": "Citaat dat Wolterstorff gebruikt als titel van zijn boek over rechtvaardigheid en vrede",
       "start_seconds": 2293
+    },
+    {
+      "ref": "Jozua 9",
+      "note": "Jozua sloot een verbond met de Gibeoniërs dat gehouden moest worden; geen opdracht tot etnische zuivering",
+      "start_seconds": 2844
     }
   ],
   "places": [
@@ -199,136 +203,136 @@
     "Hiroshima",
     "Nagasaki",
     "Okinawa",
-    "Saipan",
-    "Westelijke Jordaanoever",
     "Ramallah",
+    "Westelijke Jordaanoever",
     "Nablus",
-    "Biram",
-    "Galilea",
-    "Jemen",
-    "Libanon"
+    "Jordanië",
+    "Qatar",
+    "Egypte",
+    "Libanon",
+    "Oekraïne"
   ],
-  "summary_tldr": "Jan van Benthem schetst de situatie in Gaza en Israëls groeiende internationale isolement. Hij trekt een parallel met Truman en de atoombommen over ontmenselijking en bespreekt het ontbreken van een Israëlisch plan, de hongersnood en de erkenning van een Palestijnse staat door Frankrijk, het VK en Canada.",
+  "summary_tldr": "Jan van Benthem en Stefan Paas bespreken de oorlog in Gaza aan de hand van een historische parallel met de atoombommen op Hiroshima en Nagasaki, en het gevaar van ontmenselijking aan beide kanten. Ze analyseren het ontbreken van een realistisch Israëlisch plan, de humanitaire crisis, de interne verzwakking van Israëls rechtsstaat en de verschuiving in westerse landen naar erkenning van een Palestijnse staat. Het gesprek eindigt met de conclusie dat het conflict nog lang niet voorbij is en dat contact met beide volkeren essentieel is.",
   "summary_points": [
-    "Truman weigerde na Hiroshima en Nagasaki een derde bom: ontmenselijking van de vijand is geen reden om zelf mensen te doden",
-    "Aan beide kanten, bij Hamas en in de Israëlische regering, wordt ontmenselijkende taal gebruikt",
-    "Israël heeft Hamas militair verzwakt maar mist een strategisch plan; experts als Yadlin spreken van een strategische nederlaag",
-    "Hamas werft nieuwe rekruten en had geld achtergelegd voor een lange strijd",
-    "Netanyahu heeft afscheid genomen van de tweestatenoplossing, terwijl eerdere regeringen wel met de Palestijnse Autoriteit praatten",
-    "De hongersnood in Gaza komt deels door beperkte en onveilige hulpverlening; voedseldroppings zijn vooral een gebaar van machteloosheid",
-    "Israël kampt intern met uitputting, trauma's onder soldaten en de aanval op de rechtsstaat",
-    "De bijbelse traditie van rechtvaardigheid wordt selectief gelezen; er zijn Joodse stemmen voor vrede die steun verdienen",
-    "Erkenning van een Palestijnse staat door Frankrijk, het VK, Canada en het CDA is een grote verschuiving, maar met voorwaarden"
+    "De Hiroshima-parallel: de taal van ontmenselijking (beesten) die Truman in 1945 gebruikte, keert terug in de retoriek van Israëlische ministers over Hamas",
+    "Ontmenselijking geldt aan beide kanten; Paas wijst op extreme uitspraken van Ben-Gvir, Smotrich en Gallant",
+    "Het Israëlische militaire doel om Hamas uit te schakelen is volgens experts niet haalbaar; terreurbewegingen laten zich moeilijk met conventionele legers verslaan",
+    "De humanitaire crisis in Gaza wordt verergerd door beperkte hulptoevoer en gevaarlijke noodhulp; Van Benthem noemt 600 vrachtwagens per dag als nodig",
+    "Israël wordt intern verzwakt door pogingen om de rechtsstaat af te bouwen, wat ook het moreel gezag in het buitenland schaadt",
+    "Westerse landen als Frankrijk, het VK, Canada en Nederlands CDA verschuiven naar erkenning van de Palestijnse staat, vaak met voorwaarden",
+    "De Oslo-akkoorden werden gesaboteerd door extremisten aan beide zijden, waaronder de moord op Rabin en aanslagen van Hamas",
+    "De Bijbel wordt volgens Van Benthem selectief gelezen; het land Israël was verbonden aan rechtvaardigheid en respect voor vreemdelingen",
+    "Gesprek met Palestijnen en Israëlische vredesgroepen blijft mogelijk en noodzakelijk, ondanks journalistieke afsluiting van Gaza"
   ],
   "chapters": [
     {
-      "start_seconds": 48,
-      "title": "Inleiding en gast",
-      "summary": "David introduceert de aflevering over Israël, Gaza en de internationale verschuiving."
+      "start_seconds": 0,
+      "title": "Hiroshima als historische parallel",
+      "summary": "Van Benthem trekt een lijn tussen de taal van ontmenselijking bij de atoombommen in 1945 en de huidige retoriek over Hamas."
     },
     {
-      "start_seconds": 147,
-      "title": "Truman en de atoombom als parallel",
-      "summary": "Van Benthem vertelt over Trumans weigering van een derde bom en vergelijkt de taal over 'beesten' met die van Israëlische ministers."
+      "start_seconds": 480,
+      "title": "Ontmenselijking aan beide kanten",
+      "summary": "Paas en Van Benthem bespreken hoe Hamas en Israëlische ministers de ander als beest afschilderen, en de rol van Chacours boek."
     },
     {
-      "start_seconds": 525,
-      "title": "Ontmenselijking en Chacour",
-      "summary": "Over ontmenselijking aan beide kanten en Stefan Paas' lezing van Elias Chacour."
+      "start_seconds": 889,
+      "title": "Het ontbreken van een plan",
+      "summary": "Er is geen duidelijk Israëlisch doel of strategie, en de humanitaire situatie in Gaza verslechtert."
     },
     {
-      "start_seconds": 834,
-      "title": "Wat heeft Israël bereikt?",
-      "summary": "Militaire resultaten tegenover het ontbreken van een strategie en het hardnekkige Hamas."
+      "start_seconds": 1500,
+      "title": "Oslo, tweestaatoplossing en het falen van de onderhandelingen",
+      "summary": "De geschiedenis van het vredesproces en de sabotage door extremisten wordt besproken, evenals Netanyahu's afwijzing van een Palestijnse staat."
     },
     {
-      "start_seconds": 1380,
-      "title": "Interne verdeeldheid en politiek van Netanyahu",
-      "summary": "Over de aanval op de rechtsstaat, de steun voor de regering en het afwijzen van de tweestatenoplossing."
+      "start_seconds": 2580,
+      "title": "Erkenning van de Palestijnse staat en de Bijbel",
+      "summary": "Westerse landen erkennen de Palestijnse staat, en de Bijbelse traditie van rechtvaardigheid en de mogelijke etnische zuivering komen aan bod."
     },
     {
-      "start_seconds": 1660,
-      "title": "Hongersnood en noodhulp",
-      "summary": "Waarom de hulp tekortschiet en welke psychologische schok van 7 oktober meespeelt."
+      "start_seconds": 3197,
+      "title": "Isolatie van Israël en de rol van de VS",
+      "summary": "Israël verliest bondgenoten, Trump en de Amerikaanse democratische partij veranderen, en Israël zoekt steun bij autocratische landen."
     },
     {
-      "start_seconds": 2040,
-      "title": "Bijbel, rechtvaardigheid en vredesstemmen",
-      "summary": "Over selectief bijbellezen en Joodse organisaties en leiders die om vrede en rechtvaardigheid vragen."
+      "start_seconds": 4053,
+      "title": "Propaganda, journalistiek en de Arabische wereld",
+      "summary": "Het gesprek gaat over het gebrek aan onafhankelijke verslaggeving uit Gaza en de rol van Arabische landen."
     },
     {
-      "start_seconds": 2400,
-      "title": "Internationale erkenning van Palestina",
-      "summary": "De betekenis van de erkenning door Frankrijk, het VK, Canada en het CDA, en de bijbehorende voorwaarden."
+      "start_seconds": 4367,
+      "title": "Slotoproep: contact zoeken en het conflict niet importeren",
+      "summary": "Van Benthem roept op tot contact met Palestijnen en Israëli's die vrede zoeken; Paas benadrukt dat het geweld zo snel mogelijk moet stoppen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 304,
+      "start_seconds": 334,
       "speaker": "Jan van Benthem",
-      "text": "Truman schreef dat hij geen hele bevolkingen wilde doden en de derde bom niet meer inzette.",
-      "note": "Verrassende historische parallel met het huidige conflict."
+      "text": "Truman zei: ik wil me niet tot dat niveau verlagen, en ik wil ook niet hele bevolkingen doden.",
+      "note": "Het citaat van de Amerikaanse president toont een zeldzaam moment van afwijzing van collectieve vernietiging, een spiegel voor de huidige discussie."
     },
     {
-      "start_seconds": 687,
-      "speaker": "Jan van Benthem",
-      "text": "Yadlin: er is geen horizon, dit is hoe een strategische nederlaag eruitziet.",
-      "note": "Scherpe kritiek van binnen Israël zelf."
-    },
-    {
-      "start_seconds": 1050,
+      "start_seconds": 2055,
       "speaker": "Stefan Paas",
-      "text": "Je kunt terreur niet uitschakelen met een conventioneel leger, zie Vietnam, Afghanistan en Irak.",
-      "note": "Historisch argument tegen Israëls doelstelling."
+      "text": "Maar dat los je toch niet op door geen eten te sturen naar Gaza?",
+      "note": "Paas stelt de scherpe vraag of veiligheidszorgen de honger in Gaza kunnen rechtvaardigen."
     },
     {
-      "start_seconds": 2166,
+      "start_seconds": 3078,
       "speaker": "Jan van Benthem",
-      "text": "Het land is Israël toegezegd, maar onder de voorwaarde dat je het recht van de vreemdeling en de grenspalen respecteert.",
-      "note": "Bijbelse lezing die de selectieve omgang met de traditie bekritiseert."
+      "text": "Het is een oorlogsmisdaad om burgers aan te vallen, om dorpen aan te vallen, om kinderen te doden.",
+      "note": "Van Benthem benadrukt dat beide partijen misdaden begaan, en weigert het ene te relativeren tegenover het andere."
     },
     {
-      "start_seconds": 2330,
+      "start_seconds": 4290,
       "speaker": "Jan van Benthem",
-      "text": "500 oud-generaals en veiligheidstoppers schreven Trump om Netanyahu tot een andere koers te dwingen.",
-      "note": "Toont verzet binnen de Israëlische veiligheidselite."
+      "text": "Je vernietigt alleen ons aanzien in de hele wereld en daarmee beschadig je Israël fundamenteel, langdurig, diepgaand.",
+      "note": "Een scherpe waarschuwing van de kritiek van Israëlische experts over het ontbreken van een realistisch beleid."
     }
   ],
   "keywords": [
-    "Gaza",
-    "Israël",
     "Hamas",
-    "Netanyahu",
+    "Gaza",
     "ontmenselijking",
-    "hongersnood",
-    "Palestijnse staat",
-    "tweestatenoplossing",
-    "Truman",
-    "Elias Chacour",
-    "rechtvaardigheid",
-    "7 oktober"
+    "tweestaatoplossing",
+    "Oslo-akkoorden",
+    "humanitaire crisis",
+    "Netanyahu",
+    "rechtsstaat",
+    "erkenning Palestina",
+    "Bijbelse rechtvaardigheid",
+    "atoombom",
+    "antisemitisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Misschien ben jij ook volledig het overzicht kwijt als het gaat om Israël, Hamas en de verschrikkingen in Gaza.",
+    "De propaganda vliegt je om de oren – wat kun je nog geloven?",
+    "Hij volgt dit conflict al jaren, heeft contacten aan beide zijden en sprak zelfs eens onvrijwillig met Hamas, vertelde hij vorige keer."
+  ],
   "similar": [
     {
-      "n": 163,
-      "reason": "Jan van Benthem over Israël, Hamas en de Gaza-oorlog; zelfde gast en onderwerp"
+      "n": 143,
+      "reason": "Zelfde gast Jan van Benthem over 75 jaar Israël en het conflict met de Palestijnen"
     },
     {
-      "n": 143,
-      "reason": "Jan van Benthem over Israël en het conflict met de Palestijnen"
+      "n": 163,
+      "reason": "Jan van Benthem over de tegenaanval van Israël en de ideologie van Hamas"
     },
     {
       "n": 215,
-      "reason": "Onrecht tegen de Palestijnen; Palestijns perspectief op Gaza en Israël"
+      "reason": "Gesprek over het onrecht tegen de Palestijnen en het Israëlisch-Palestijnse conflict"
     },
     {
       "n": 214,
-      "reason": "Israël na 7 oktober, Gaza en verschuivingen in het Midden-Oosten"
+      "reason": "Een jaar na de aanval op Israël, over kantelend conflict en Gaza-oorlog"
     },
     {
       "n": 166,
-      "reason": "Oorlog tussen Israël en Hamas en de polarisatie daarover"
+      "reason": "Waarom de oorlog tussen Israël en Hamas zo polariseert, historische en religieuze duiding"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,111 +1,143 @@
 {
   "episode": 44,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 85827,
+    "segments": 683,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30203,
-    "output_tokens": 2600,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 42985,
+    "output_tokens": 7562,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
-    "Samenleving & migratie",
     "Zingeving & psyche",
-    "Kerk & secularisatie"
+    "Samenleving & migratie",
+    "Klimaat & natuur"
   ],
   "guests": [
     "Mounir Samuel"
   ],
   "people": [
     {
-      "name": "Meral Polat",
-      "note": "vriendin die Mounir op het idee voor de gesprekken bracht",
-      "start_seconds": 179,
-      "wiki_checked": true,
-      "wiki_pageid": 4271257,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Meral_Polat",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Meral_Polat%2C_November_2017.jpg/250px-Meral_Polat%2C_November_2017.jpg"
+      "name": "Mounir Samuel",
+      "note": "gast; politicoloog, publicist en auteur van 'Noodzakelijke Gesprekken'",
+      "start_seconds": 3,
+      "mention_count": 1
     },
     {
       "name": "Martijn Kamphorst",
-      "note": "chef-redactie Wink Magazine, gesprekspartner in het boek",
+      "note": "chefredacteur van Wink Magazine",
       "start_seconds": 126,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Meral Polat",
+      "note": "vriendin die Mounir op het idee bracht om gesprekken te delen",
+      "start_seconds": 162,
+      "mention_count": 1
     },
     {
       "name": "Femke Halsema",
       "note": "burgemeester van Amsterdam",
-      "start_seconds": 446,
-      "wiki_checked": true,
-      "wiki_pageid": 20556,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Femke_Halsema",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burgemeester_halsema5_231118_%28cropped%29.jpg/250px-Burgemeester_halsema5_231118_%28cropped%29.jpg"
-    },
-    {
-      "name": "Joost Röselaers",
-      "note": "vrijzinnige predikant, hield een preek op basis van het boek",
-      "start_seconds": 867,
-      "wiki_checked": true,
-      "wiki_pageid": 4915693,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joost_R%C3%B6selaers"
-    },
-    {
-      "name": "Jezus",
-      "note": "volgens Mounir de Messias die terugkomt; ging 40 dagen de woestijn in",
-      "start_seconds": 280,
-      "wiki_checked": true,
-      "wiki_pageid": 847,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28historisch%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg/250px-Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mozes",
-      "note": "zwierf 40 jaar door de woestijn",
-      "start_seconds": 1460,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "start_seconds": 450,
+      "mention_count": 1
     },
     {
       "name": "Paulus",
-      "note": "'een Romein onder de Romeinen', voorbeeld voor aanpassing aan de ander",
-      "start_seconds": 1758,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "apostel; 'Romein onder de Romeinen' als voorbeeld van aanpassing",
+      "start_seconds": 1770,
+      "mention_count": 2
+    },
+    {
+      "name": "Joost Russelaars",
+      "note": "predikant van een vrijzinnige gemeente; hield een preek op basis van het boek",
+      "start_seconds": 859,
+      "mention_count": 3
     },
     {
       "name": "Oprah Winfrey",
-      "note": "Super Soul Sunday podcast, voorbeeld van moderne spiritualiteit",
+      "note": "presentator van de Super Soul Sunday podcast",
       "start_seconds": 1578,
-      "wiki_checked": true,
-      "wiki_pageid": 38975,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oprah_Winfrey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg/250px-Pre_Inaugural_Reception_%2852639556983%29_%28cropped%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Rumi",
+      "note": "Perzische mysticus en dichter, genoemd als spirituele bron",
+      "start_seconds": 1578,
+      "mention_count": 1
     },
     {
       "name": "Sahar Shearzat",
-      "note": "gesprekspartner in het boek",
+      "note": "auteur, genoemd in het boek over zoeken zonder God",
       "start_seconds": 1593,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "John Gray",
+      "note": "Afro-Amerikaanse pastor wiens preek 'It's Not Over' Mounir in Marokko raakte",
+      "start_seconds": 2820,
+      "mention_count": 2
+    },
+    {
+      "name": "Martijn",
+      "note": "beste vriend van Mounir; zijn moeder pleegde zelfmoord",
+      "start_seconds": 3020,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Witteman",
+      "note": "presentator die uitzendingen wijdde aan de lijdensvraag",
+      "start_seconds": 2590,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "politicus, genoemd als figuur in de media-rondes",
+      "start_seconds": 3193,
+      "mention_count": 0
+    },
+    {
+      "name": "Eddie Murphy",
+      "note": "komiek, vergeleken met de stijl van John Gray",
+      "start_seconds": 2825,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "burgerrechtenleider, vergeleken met de stijl van John Gray",
+      "start_seconds": 2825,
+      "mention_count": 1
+    },
+    {
+      "name": "Michael Jackson",
+      "note": "zanger, genoemd in de preek van John Gray",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Jona",
+      "note": "Bijbelse profeet; vergeleken met Mounirs verblijf in 'de walvis'",
+      "start_seconds": 3279,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "centrale figuur in het christelijk geloof van Mounir",
+      "start_seconds": 357,
+      "mention_count": 8
     }
   ],
   "books": [
     {
       "title": "Noodzakelijke Gesprekken",
       "author": "Mounir Samuel",
-      "note": "interviews met 15 mensen over de grote vragen van deze tijd, geschreven tijdens de coronacrisis",
-      "start_seconds": 103,
+      "note": "boek met gesprekken met 15 mensen over de grote vragen van de coronatijd",
+      "start_seconds": 122,
       "volume_id": "YmwkzgEACAAJ",
       "canonical_title": "Noodzakelijke gesprekken: reflecties op een nieuwe wereld",
       "canonical_author": "Mounir Samuel",
@@ -116,39 +148,49 @@
   ],
   "bible_refs": [
     {
-      "ref": "Handelingen 17:28",
-      "note": "'in hem beweeg ik, ben ik en heb ik mijn zijn'",
-      "start_seconds": 818
-    },
-    {
-      "ref": "Psalmen 46:11",
-      "note": "'Be still and know that I'm God'",
-      "start_seconds": 1480
+      "ref": "Openbaring 21:4",
+      "note": "'Het oude is geweest en het nieuwe mag snel komen' als urgentie voor een nieuwe wereld",
+      "start_seconds": 357
     },
     {
       "ref": "Genesis 2:7",
-      "note": "God blaast Adam de levensadem in",
-      "start_seconds": 1203
+      "note": "de adem die God in Adam blaast; Mounirs theatervoorstelling 'En toen schiep God Monier'",
+      "start_seconds": 1220
     },
     {
-      "ref": "Mattheus 2",
-      "note": "de magiërs volgen de ster naar Jezus",
-      "start_seconds": 1746
+      "ref": "Psalm 46:11",
+      "note": "'Be still and know that I'm God' als tekst over stilte en woestijnperiodes",
+      "start_seconds": 1500
     },
     {
-      "ref": "1 Korintiërs 9:20",
-      "note": "Paulus als Romein onder de Romeinen",
-      "start_seconds": 1759
-    },
-    {
-      "ref": "Mattheus 4",
-      "note": "Jezus 40 dagen in de woestijn",
+      "ref": "Mattheus 4:1-2",
+      "note": "Jezus trok 40 dagen de woestijn in voor zijn bediening",
       "start_seconds": 1460
     },
     {
+      "ref": "Mattheus 2:2",
+      "note": "de ster van de magiërs als vergelijking met astrologie",
+      "start_seconds": 1745
+    },
+    {
+      "ref": "1 Korinthe 9:20-22",
+      "note": "Paulus als 'Romein onder de Romeinen' om mensen te bereiken",
+      "start_seconds": 1770
+    },
+    {
       "ref": "Galaten 6:7",
-      "note": "'wat je zaait, oogst je'",
-      "start_seconds": 2229
+      "note": "'Wat je zaait, oogst je' als reactie op de gesprekken die hij voert",
+      "start_seconds": 2228
+    },
+    {
+      "ref": "Johannes 11",
+      "note": "Lazarus die opstaat uit de dood, het thema van de preek van John Gray",
+      "start_seconds": 2844
+    },
+    {
+      "ref": "Jona 1",
+      "note": "Jona in de walvis als beeld voor Mounirs weerstand tegen God",
+      "start_seconds": 3279
     }
   ],
   "places": [
@@ -156,133 +198,146 @@
     "Nederland",
     "Amsterdam",
     "Amsterdam-Noord",
+    "Marokko",
     "Madrid",
-    "Moria",
     "Beiroet",
-    "Sinaï",
+    "Moria",
+    "Alexandrië",
+    "Rome",
     "Noord-Korea",
     "Iran",
-    "Oeganda"
+    "Oeganda",
+    "Tarsus",
+    "Ninevé",
+    "Sinaïwoestijn"
   ],
-  "summary_tldr": "Mounir Samuel vertelt over zijn boek 'Noodzakelijke Gesprekken' en waarom hij zichzelf 'het failliet van het identiteitsdenken' noemt. Hij legt uit hoe God, geloof en één identiteit als kind van God al zijn andere identiteiten overstijgen. Ook gaat het over geestelijke armoede, lijden, klimaat en de rol van de kerk.",
+  "summary_tldr": "Mounir Samuel vertelt over zijn geloof in God als kern van zijn identiteit, die alle andere identiteiten overstijgt. Hij betoogt dat de coronacrisis een kans is voor noodzakelijke gesprekken en dat geestelijke armoede en klimaatcrisis de grote problemen zijn. Hij deelt persoonlijke ervaringen met lijden, twijfel, wonderen en gebed, en verdedigt een geloof dat ongemakkelijk en vrijmoedig is.",
   "summary_points": [
-    "Mounir voerde tijdens de coronacrisis gesprekken over God en zingeving en bundelde die in een boek.",
-    "Hij ziet klimaatverandering en kwetsbare democratie als dé grote vraagstukken van deze tijd.",
-    "Identiteitspolitiek leidt volgens hem af van de grote problemen en maakt gesprek moeilijk.",
-    "Zijn diepste identiteit is kind van God, die alle andere identiteiten overstijgt.",
-    "Hij beschrijft een eenzaam proces van transitie met depressie, waarin God overbleef.",
-    "Geestelijke armoede is volgens hem de grootste pandemie; millennials zoeken spiritualiteit.",
-    "Hij heeft geen bekeringsdrang maar wil Gods licht reflecteren en bidt voor mensen.",
-    "Het blijmoedige christendom van Egypte zet hij af tegen het vertwijfelde Nederlandse calvinisme.",
-    "Stefan Paas vraagt hoe hij de profeet en de priester in balans houdt."
+    "Mounir noemt zichzelf 'het failliet van het identiteitsdenken' en ziet meerdere identiteiten als zowel zegen als uitsluiting.",
+    "De coronacrisis maakte gesprekken met mensen uit verschillende kringen urgenter, mede als reactie op polarisatie en bubbels.",
+    "Klimaatverandering, big tech en afnemende democratie vormen volgens Mounir de echte grote vraagstukken.",
+    "Hij vindt Nederland geestelijk arm en ziet bij millennials en generatie Z een zoektocht naar spiritualiteit buiten de kerk.",
+    "Zijn geloof in God als 'drieenige' en liefdevolle schepper staat centraal; hij noemt zichzelf christen zonder bekeringsagenda.",
+    "Persoonlijk lijden, depressie en een zelfmoordpoging in Marokko vormen het kantelpunt waarin hij God niet langer lijden laat toestaan.",
+    "Gebed voor zijn ouders en vrienden leidde volgens hem tot wonderen, zoals genezing van kanker, zonder dat hij alle vragen beantwoord ziet.",
+    "De lijdensvraag vindt hij typisch Nederlands en weinig relevant in landen waar christenen werkelijk vervolgd worden.",
+    "Het gesprek eindigt met de wens om echte ontmoeting en ongemakkelijke gesprekken na de lockdown weer mogelijk te maken."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Gesprekken tijdens de lockdown",
-      "summary": "Mounir vertelt hoe het boek ontstond uit de eerste coronagolf en waarom gesprekken nodig zijn."
+      "title": "Introductie van Mounir Samuel",
+      "summary": "David Boogerd stelt Mounir voor en beschrijft zijn veelzijdige identiteit en het boek 'Noodzakelijke Gesprekken'."
     },
     {
-      "start_seconds": 238,
-      "title": "Het einde der tijden en klimaat",
-      "summary": "Over klimaat, kwetsbare democratie, big tech en de kansen van de crisis."
+      "start_seconds": 122,
+      "title": "Gesprekken in de lockdown",
+      "summary": "Mounir vertelt hoe de eerste lockdown hem aanzette tot gesprekken en hoe urgentie rond klimaat en democratie zichtbaar werd."
     },
     {
-      "start_seconds": 758,
-      "title": "God in elk gesprek",
-      "summary": "Waarom Mounir altijd over God praat en zijn rol als 'priester en profeet'."
+      "start_seconds": 754,
+      "title": "Identiteit en het failliet van identiteitsdenken",
+      "summary": "Mounir betoogt dat identiteitspolitiek verdeelt en dat het overstijgen van identiteiten in God centraal staat."
     },
     {
-      "start_seconds": 1037,
-      "title": "Het failliet van het identiteitsdenken",
-      "summary": "Mounir over zijn vele identiteiten en de identiteit als kind van God die alles overstijgt."
+      "start_seconds": 1020,
+      "title": "Priester, profeet en pelgrim",
+      "summary": "Stefan Paas duidt Mounir als pelgrim; Mounir reflecteert op zijn rol als pastor en profeet en op zijn zoektocht als reiziger."
     },
     {
-      "start_seconds": 1380,
-      "title": "Transitie, woestijn en geestelijke armoede",
-      "summary": "Zijn eenzame weg, woestijnperiodes en de spirituele honger van millennials."
+      "start_seconds": 1500,
+      "title": "Geestelijke armoede en spiritualiteit",
+      "summary": "Mounir stelt dat Nederland geestelijk arm is en ziet jongere generaties die zoeken naar spiritualiteit, van astrologie tot mindfulness."
     },
     {
-      "start_seconds": 2100,
-      "title": "Liefde, gebed en idealisme",
-      "summary": "Paas vraagt hoe idealisme en liefde samengaan; Mounir wijst op gebed."
+      "start_seconds": 2400,
+      "title": "Lijden, zuivering en de lijdensvraag",
+      "summary": "Het gesprek gaat over Mounirs ervaringen met vervolging en lijden, en over de vraag waarom God lijden toestaat."
     },
     {
-      "start_seconds": 2340,
-      "title": "Lijden en blijmoedig christendom",
-      "summary": "Zijn ervaringen als correspondent in Egypte en kritiek op het Nederlandse calvinisme."
+      "start_seconds": 2760,
+      "title": "Marokko, gebed en wonder",
+      "summary": "Mounir vertelt over zijn crisis in Marokko, de preek van John Gray en de wonderen die hij ervoer door gebed."
+    },
+    {
+      "start_seconds": 3240,
+      "title": "Verzet, gehoorzaamheid en slotbeschouwing",
+      "summary": "Mounir beschrijft zijn lange strijd tegen God en zijn besluit om te gehoorzamen; het gesprek eindigt met de wens voor echte ontmoeting."
     }
   ],
   "highlights": [
     {
       "start_seconds": 3,
       "speaker": "Mounir Samuel",
-      "text": "Ik wilde een ongelovige zijn, maar het ging gewoon niet.",
-      "note": "Opende de aflevering met een eerlijke schets van zijn geloofsworsteling."
+      "text": "Ik wilde een ongelovige zijn, maar het ging gewoon niet. Ik had te veel van God gezien om ongelovig te kunnen zijn.",
+      "note": "Een persoonlijk en paradoxaal openingsmoment dat de toon van het gesprek zet."
     },
     {
-      "start_seconds": 1415,
+      "start_seconds": 940,
       "speaker": "Mounir Samuel",
-      "text": "Ik weet dat God mij zo gemaakt heeft en ik volg die no matter what.",
-      "note": "Persoonlijk en emotioneel moment over transitie en eenzaamheid."
+      "text": "In een land waar geestelijke armoede de allergrootste pandemie is, ben ik bereid om elk label te dragen.",
+      "note": "Scherpe kritiek op de Nederlandse samenleving, die hij als geestelijk verarmd ziet."
     },
     {
-      "start_seconds": 1530,
+      "start_seconds": 2080,
       "speaker": "Mounir Samuel",
-      "text": "Dit land is geestelijk arm.",
-      "note": "Scherpe diagnose van Nederland."
+      "text": "Ik kan alleen God in mij laten zien.",
+      "note": "Een bescheiden weigering om mensen te bekeren, tegenover een ferme geloofsovertuiging."
     },
     {
-      "start_seconds": 2160,
+      "start_seconds": 2703,
       "speaker": "Mounir Samuel",
-      "text": "Ik bad voor mijn ouders en zij maakten een radicale draai in hun denken.",
-      "note": "Illustreert zijn geloof in de kracht van gebed."
+      "text": "Ik moet niet vragen waarom God dit lijden toestaat, maar God staat dit lijden niet langer toe.",
+      "note": "Een radicale omkering van de lijdensvraag die het gesprek als keerpunt markeert."
     },
     {
-      "start_seconds": 2550,
+      "start_seconds": 2844,
       "speaker": "Mounir Samuel",
-      "text": "Het hardnekkige, verstikkende calvinisme is een vreugdeloos geloof.",
-      "note": "Prikkelende uitspraak over Nederlands geloof."
+      "text": "God is groter dan mijn omstandigheden, dan mijn pijn, dan deze duisternis.",
+      "note": "Het moment in Marokko dat hij beschrijft als wendepunt; het verbindt gebed, wonder en het verhaal van John Gray."
     }
   ],
   "keywords": [
-    "Mounir Samuel",
     "identiteitsdenken",
     "geestelijke armoede",
-    "Noodzakelijke Gesprekken",
-    "transgender",
-    "Koptische kerk",
+    "spiritualiteit",
     "gebed",
-    "woestijn",
-    "klimaat",
+    "lijdensvraag",
+    "wonder",
+    "coronacrisis",
+    "seculier",
+    "geloofstwijfel",
+    "polarisatie",
     "millennials",
-    "calvinisme",
-    "astrologie"
+    "Noodzakelijke Gesprekken"
   ],
   "quotes": [
-    "Hij omschrijft zichzelf als een 'Egyptisch-Nederlandse, christelijke maar in de islam gespecialiseerde, visueel beperkte, seksueel fluïde, transgender man van kleur'.",
-    "De begrippen buitelen over elkaar heen als je Mounir goed wil omschrijven, mede daarom noemt hij zichzelf 'het failliet van het identiteitsdenken'."
+    "Egyptisch-Nederlandse, christelijke maar in de islam gespecialiseerde, visueel beperkte, seksueel fluïde, transgender man van kleur",
+    "het failliet van het identiteitsdenken",
+    "geloof, twijfels, geestelijke armoede en één identiteit die alles overstijgt"
   ],
   "similar": [
     {
-      "n": 30,
-      "reason": "Racisme en religie: identiteit, discriminatie en geloof in de samenleving, met Talitha Muusse en Don Ceder."
-    },
-    {
-      "n": 277,
-      "reason": "Activist Jerry Afriyie over identiteit, racisme en geloof in Nederland."
-    },
-    {
-      "n": 263,
-      "reason": "Cultureel verdwaald: oude verhalen brokkelen af, identiteit en zingeving in de samenleving."
-    },
-    {
       "n": 251,
-      "reason": "Gender, geloof en ideologie: directe overlap met het genderthema en geloof."
+      "reason": "Gesprek over gender, geloof en ideologie, sluit aan bij identiteitsdenken."
     },
     {
-      "n": 105,
-      "reason": "Rikko Voorberg: theoloog en activist over maatschappelijke thema's, kerk en samenleving."
+      "n": 103,
+      "reason": "Woke als religie en identiteitspolitiek, met God en samenleving als thema's."
+    },
+    {
+      "n": 30,
+      "reason": "Racismedebat en religie, over identiteit en samenleving vanuit geloof."
+    },
+    {
+      "n": 27,
+      "reason": "Geloof en hoop in coronatijd, zoals Mounir Samuel over corona en zingeving."
+    },
+    {
+      "n": 55,
+      "reason": "Klimaatverandering en religie, een thema dat Samuel ook aansnijdt."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

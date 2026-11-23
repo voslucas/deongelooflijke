@@ -1,189 +1,231 @@
 {
   "episode": 205,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 123067,
+    "segments": 1243,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30979,
-    "output_tokens": 2092,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62872,
+    "output_tokens": 7001,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Samenleving & migratie",
+    "God & geloof",
+    "Politiek",
     "Filosofie & ethiek",
-    "Zingeving & psyche",
-    "Kerk & secularisatie"
+    "Samenleving & migratie"
   ],
   "guests": [
     "Johan Bac"
   ],
   "people": [
     {
-      "name": "Johan Bac",
-      "note": "directeur Reclassering Nederland, voormalig officier van justitie",
-      "start_seconds": 29,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "Kerkvader en bisschop die pleitte voor milde toepassing van straffen en genade",
+      "start_seconds": 3767,
+      "mention_count": 4
     },
     {
-      "name": "Els Borst",
-      "note": "voormalig politica, vermoord; zaak waar Bac bij betrokken was",
-      "start_seconds": 291,
-      "wiki_checked": true,
-      "wiki_pageid": 100700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Els_Borst",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Els_Borst_februari_2002.jpg/250px-Els_Borst_februari_2002.jpg"
+      "name": "Natasja Harleken",
+      "note": "Strafrechtadvocaat die in een eerder gesprek over de rechtszaal en wantrouwen sprak",
+      "start_seconds": 2601,
+      "mention_count": 3
     },
     {
-      "name": "Ruben en Julian",
-      "note": "twee broertjes vermoord door hun vader; Bac was betrokken bij de zoektocht",
-      "start_seconds": 275,
-      "wiki_checked": true
+      "name": "Els Porst",
+      "note": "Gerespecteerde politica die is vermoord door een dader met religieuze motieven",
+      "start_seconds": 294,
+      "mention_count": 2
     },
     {
-      "name": "Leo Tolstoj",
-      "note": "schrijver, geciteerd over gelukkige gezinnen",
+      "name": "Lev Tolstoj",
+      "note": "Schrijver; zijn zin over gelukkige gezinnen wordt als vergelijking gebruikt",
       "start_seconds": 178,
-      "wiki_checked": true,
-      "wiki_pageid": 37862,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lev_Tolstoj",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/250px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Hans Muskens",
-      "note": "Miskens Muskens: de arme die brood mag stelen (rechter Meijers/Muskens-zaak)",
+      "name": "Toon Muskens",
+      "note": "Bisschop; zijn uitspraak 'Een arme mag wel een brood stelen' wordt aangehaald",
       "start_seconds": 698,
-      "wiki_checked": true
+      "mention_count": 1
+    },
+    {
+      "name": "Michiel",
+      "note": "Gesprekspartner in een voorgesprek over mensen die zich buiten de samenleving plaatsen",
+      "start_seconds": 1727,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruben",
+      "note": "Een van de twee broertjes die door hun vader zijn vermoord; zoektocht waarbij Bac betrokken was",
+      "start_seconds": 275,
+      "mention_count": 1
+    },
+    {
+      "name": "Julian",
+      "note": "Een van de twee broertjes die door hun vader zijn vermoord; zoektocht waarbij Bac betrokken was",
+      "start_seconds": 275,
+      "mention_count": 1
     }
   ],
-  "books": [],
-  "bible_refs": [],
-  "places": [
-    "Nederland",
-    "Utrecht",
-    "Amsterdam",
-    "Zuid-Amerika",
-    "Indonesië",
-    "Europa"
+  "books": [
+    {
+      "title": "De troost van een gebrekkig strafrecht",
+      "author": "",
+      "note": "Recent boekje van de voorzitter van het Openbaar Ministerie, door Bac aangehaald",
+      "start_seconds": 4519,
+      "volume_id": "NJ2y0AEACAAJ",
+      "canonical_title": "De troost van gebrekkig strafrecht",
+      "canonical_author": "Rinus Otte",
+      "isbn13": "9789044653250",
+      "isbn10": "9044653253",
+      "thumbnail": ""
+    }
   ],
-  "summary_tldr": "Johan Bac, directeur van Reclassering Nederland en voormalig officier van justitie, vertelt over zijn werk met daders en slachtoffers en over strafrecht als seismograaf van de samenleving. Hij laat zien dat het strafrecht verwarde mensen, erosie van gezag en wantrouwen in de rechtsstaat blootlegt, en dat Nederland strenger straft dan men denkt.",
+  "bible_refs": [
+    {
+      "ref": "Exodus 21:24",
+      "note": "'Oog om oog, tand om tand' als principe van proportionaliteit in vergelding",
+      "start_seconds": 2470
+    }
+  ],
+  "places": [
+    "Utrecht",
+    "Southport",
+    "Engeland",
+    "Canada",
+    "Hoog Catharijne"
+  ],
+  "summary_tldr": "Johan Bac, directeur van Reclassering Nederland en voormalig officier van justitie, vertelt over zware zaken, de gedwongen begeleiding van daders en zijn overtuiging dat je ook van daders moet houden. Het gesprek gaat over de vraag wat het strafrecht zegt over de samenleving, van toenemende verwarring en wantrouwen tot een dalende criminaliteit en een verharding van straffen. Stefan Paas legt daarbij het verband met Augustinus, vergeving en secularisatie.",
   "summary_points": [
-    "Je moet in het strafrecht van mensen houden, zowel slachtoffers als daders, maar ook gevoel voor onrecht behouden.",
-    "Bac doet zelf werkstraffen, droeg een enkelband en liet zich taseren om te begrijpen wat de reclassering mensen oplegt.",
-    "Reclassering begeleidt en begrenst: gedwongen hulpverlening onder toezicht van 75.000 mensen.",
-    "Werkstraffen leiden tot veel minder recidive dan korte gevangenisstraffen, die vaak nevenschade veroorzaken.",
-    "Steeds meer psychisch verwarde mensen belanden in het strafrecht door tekortschietende zorg en afnemende tolerantie.",
-    "Sinds corona verwerpen sommigen de rechtsstaat en het strafrechtelijk systeem als geheel.",
-    "Strafrecht legt maatschappelijke problemen bloot maar kan ze niet oplossen; politici overschatten het.",
-    "Nederlandse rechters straffen inmiddels bij de strengste van Europa; het aantal levenslang gestraften is meer dan verdubbeld."
+    "Bac heeft als officier en later als reclasseringsdirecteur veel ernstige zaken meegemaakt en wil zich inleven in daders zonder het onrecht te relativeren.",
+    "Reclassering werkt met gedwongen kaders: taakstraffen, toezicht, enkelbanden en proeftijden van gemiddeld 18 tot 24 maanden.",
+    "Het strafrecht fungeert als seismograaf: het zichtbaar maken van psychische problematiek en het wegvallen van sociale netwerken.",
+    "Na corona neemt het wantrouwen tegen de rechtsstaat toe, en sommige daders wijzen het systeem af.",
+    "Nederland straft in Europees verband zwaarder dan voorheen, met meer levenslange straffen, al accepteert Bac levenslang als legitiem.",
+    "Volgens Bac is de criminaliteit in Nederland de afgelopen jaren sterk gedaald, terwijl het onveiligheidsgevoel niet meeloopt (veiligheidsparadox).",
+    "Paas en Bac bespreken of secularisatie een rol speelt in de toegenomen strengheid, met Augustinus als vertrekpunt over genade en het onderscheid tussen goede en slechte mensen.",
+    "Herstelrecht, COSA-cirkels en vrijwilligers laten zien dat mensen die uit de gevangenis komen een sociale omgeving nodig hebben om recidive te verlagen.",
+    "Bac benadrukt dat strafrecht niet alles kan oplossen en dat politici maatschappelijke problemen op een andere manier moeten aanpakken."
   ],
   "chapters": [
     {
-      "start_seconds": 150,
-      "title": "Zaken die bijblijven",
-      "summary": "Bac vertelt over bijzondere en ernstige zaken, zoals de moord op Els Borst en de ontvoering door een academicus."
+      "start_seconds": 0,
+      "title": "Introductie en het werk van Johan Bac",
+      "summary": "De presentator stelt Bac voor en vraagt naar zijn ervaringen met zware en tragische strafzaken. Bac beschrijft hoe hij daarmee omgaat."
     },
     {
-      "start_seconds": 381,
-      "title": "Houden van daders",
-      "summary": "Over nieuwsgierigheid, afstand en het behouden van gevoel voor onrecht, en begrip voor daders."
+      "start_seconds": 732,
+      "title": "Wat reclassering doet",
+      "summary": "Bac legt uit hoe taakstraffen, toezicht en enkelbanden werken en waarom gedwongen hulp zwaar kan zijn. Hij vertelt ook over zijn eigen ervaringen als taakgestrafte en getaserde."
     },
     {
-      "start_seconds": 752,
-      "title": "Enkelband, taser en werkstraf",
-      "summary": "Waarom Bac zelf ervaart wat de reclassering oplegt en wat het werk van de reclassering inhoudt."
-    },
-    {
-      "start_seconds": 1200,
-      "title": "Geschiedenis en werkstraffen",
-      "summary": "De reclassering bestaat sinds 1823; werkstraffen verlagen recidive en korte gevangenisstraffen richten schade aan."
-    },
-    {
-      "start_seconds": 1487,
+      "start_seconds": 1514,
       "title": "Strafrecht als seismograaf",
-      "summary": "Verwarde mensen in het strafrecht en afnemende tolerantie en zorg."
+      "summary": "Bac wijst op de toename van verwarde mensen in het strafrecht en stelt de vraag of de psychische zorg nog toereikend is."
     },
     {
       "start_seconds": 1740,
-      "title": "Wantrouwen in de rechtsstaat",
-      "summary": "Na corona zeggen mensen zich buiten het systeem te plaatsen; gezag en schuld-boete-vergeving eroderen."
+      "title": "Corona, wantrouwen en de rechtsstaat",
+      "summary": "Het gesprek gaat over daders en burgers die de rechtsstaat na corona niet meer accepteren. Paas stelt dat gezag steeds meer dwang vereist."
     },
     {
-      "start_seconds": 2049,
+      "start_seconds": 2048,
       "title": "Strengere straffen en levenslang",
-      "summary": "Nederland straft strenger dan gedacht, en het Europese Hof corrigeert de letterlijke levenslange straf."
+      "summary": "Bac beschrijft de verharding in de straffen en de discussie over levenslang en Europese toetsing. Hij verdedigt levenslang als uitzonderlijke maar legitieme straf."
+    },
+    {
+      "start_seconds": 2765,
+      "title": "Veiligheidsparadox en criminaliteitscijfers",
+      "summary": "Bac laat zien dat de criminaliteit sterk gedaald is, maar het onveiligheidsgevoel toeneemt. Ook worden de rol van preventie, online criminaliteit en media besproken."
+    },
+    {
+      "start_seconds": 3767,
+      "title": "Augustinus, secularisatie en genade",
+      "summary": "Paas haalt Augustinus aan over straf, genade en gezag, en stelt dat de secularisatie mogelijk een rol speelt in de verharding. De doodstraf en de SGP komen ook aan bod."
+    },
+    {
+      "start_seconds": 4342,
+      "title": "Tegengif, troost en afsluiting",
+      "summary": "Bac vertelt hoe hij cynisme voorkomt, en beschrijft het recht doen als bron van troost. De aflevering eindigt met de vraag wat het betekent om van daders te houden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 400,
+      "start_seconds": 392,
       "speaker": "Johan Bac",
-      "text": "Je moet van mensen houden, van slachtoffers, maar ook van daders.",
-      "note": "Kernuitspraak van de aflevering."
+      "text": "Je moet van mensen houden, ook van daders.",
+      "note": "Deze kernuitspraak vat zijn benadering samen: empathie voor de dader zonder het slachtoffer te vergeten."
     },
     {
-      "start_seconds": 885,
+      "start_seconds": 486,
       "speaker": "Johan Bac",
-      "text": "Ik ben wel eens getaserd en viel flauw; de politie dacht dat ze de reclassering om zeep hadden geholpen.",
-      "note": "Humoristische anekdote over zijn inlevingsdrang."
+      "text": "Ik denk niet dat ik er een cynischer mens van ben geworden.",
+      "note": "Hij spreekt over zijn werk met het leed van anderen, en over de vraag of dat hem verhardt."
     },
     {
-      "start_seconds": 1800,
+      "start_seconds": 2232,
       "speaker": "Johan Bac",
-      "text": "Iemand stuurde een brief met vingerafdruk en bloed dat ze de straf niet zou doen: jullie rechtsstaat is niet de mijne.",
-      "note": "Illustreert het wegvallende vertrouwen in de rechtsstaat."
+      "text": "Anders is het een soort van doodvonnis op termijn.",
+      "note": "Een scherp standpunt over levenslang zonder uitzicht op terugkeer, dat hij met de correctie van het Europese Hof verdedigt."
     },
     {
-      "start_seconds": 1942,
-      "speaker": "Stefan Paas",
-      "text": "Naarmate individuele vrijheid toeneemt, wordt gezag als inbreuk gezien en kan het alleen nog met dwang optreden.",
-      "note": "Scherpe analyse van de paradox van gezag."
+      "start_seconds": 3651,
+      "speaker": "Johan Bac",
+      "text": "Een exotische opvatting, dat de SGP alleen is.",
+      "note": "Bac reageert nuchter op de steun voor de doodstraf en de rol van pragmatiek en onherroepelijkheid."
     },
     {
-      "start_seconds": 2070,
+      "start_seconds": 4539,
       "speaker": "Johan Bac",
-      "text": "Nederlandse rechters zijn opgeschoven van de minst naar de strengst straffende in Europa.",
-      "note": "Doorbreekt de mythe dat Nederland soft straft."
+      "text": "Er zit iets van gebrek in, maar er zit ook troost in dat je binnen die beperkte mogelijkheden toch recht kunt doen.",
+      "note": "Zijn slot laat zien hoe hij betekenis vindt in een onvolmaakt systeem."
     }
   ],
   "keywords": [
-    "strafrecht",
     "reclassering",
-    "seismograaf",
-    "werkstraf",
-    "recidive",
+    "strafrecht",
+    "taakstraf",
     "levenslang",
-    "rechtsstaat",
-    "gezag",
+    "veiligheidsparadox",
+    "recidive",
+    "herstelrecht",
+    "Augustinus",
     "vergeving",
-    "psychische zorg",
-    "Johan Bac"
+    "secularisatie",
+    "rechtsstaat",
+    "doodstraf"
   ],
   "quotes": [
-    "Je moet naast de slachtoffers ook van daders houden",
-    "het strafrecht [is] een seismograaf die als eerste ziet wat er knelt in onze samenleving"
+    "Je moet naast de slachtoffers ook van daders houden.",
+    "Strafrecht als een seismograaf die als eerste ziet wat er knelt in onze samenleving."
   ],
   "similar": [
     {
       "n": 123,
-      "reason": "Strafrechtadvocaat over omgang met daders, moordenaars en mensbeeld; direct verwant aan werk met daders."
-    },
-    {
-      "n": 134,
-      "reason": "Misdaadverhalen en true crime als spiegel van de samenleving."
+      "reason": "Strafrecht, zware criminelen en wat het mensbeeld en geloof daarmee doet"
     },
     {
       "n": 299,
-      "reason": "Vergeving, onrecht en genadeloosheid in de samenleving; raakt aan daders en slachtoffers."
+      "reason": "Vergeving en genadeloze mens, sluit aan bij Paas' verband met vergeving"
+    },
+    {
+      "n": 200,
+      "reason": "Augustinus centraal, de figuur die in deze aflevering ook terugkomt"
+    },
+    {
+      "n": 134,
+      "reason": "Misdaadverhalen en true crime vanuit geschiedenis en geloof"
     },
     {
       "n": 281,
-      "reason": "Forensisch patholoog over moord, dood en ethiek; aanverwante misdaadwereld."
-    },
-    {
-      "n": 301,
-      "reason": "Vertrouwen in staat en rechtsstaat, kloof tussen elite en volk."
+      "reason": "Forensisch patholoog over de dood, ethiek en de Bijbel"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

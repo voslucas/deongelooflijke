@@ -1,18 +1,23 @@
 {
   "episode": 284,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118394,
+    "segments": 1237,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30911,
-    "output_tokens": 2489,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61051,
+    "output_tokens": 9364,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Amerika & Trump",
     "Geschiedenis",
-    "Politiek"
+    "Bijbel & Jezus"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,163 +25,184 @@
   "people": [
     {
       "name": "Vladimir Poetin",
-      "note": "Russisch president, spreekt over een heilige strijd in Oekraïne",
-      "start_seconds": 94,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; zijn 'heilige strijd'-retoriek en machtspolitiek staan centraal",
+      "start_seconds": 5,
+      "mention_count": 45
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaans president, drijft op machtspolitiek en eist Groenland",
-      "start_seconds": 405,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Stephen Miller",
-      "note": "Adviseur van Trump en plaatsvervangend stafchef in het Witte Huis",
-      "start_seconds": 778,
-      "wiki_checked": true,
-      "wiki_pageid": 4892163,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stephen_Miller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stephen_Miller_July_2025.jpg/250px-Stephen_Miller_July_2025.jpg"
-    },
-    {
-      "name": "Carl Schmitt",
-      "note": "Duitse jurist en filosoof van de soevereine noodtoestand",
-      "start_seconds": 530,
-      "wiki_checked": true,
-      "wiki_pageid": 171250,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carl_Schmitt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Carl_Schmitt_1904_Schulklasse.jpg/250px-Carl_Schmitt_1904_Schulklasse.jpg"
-    },
-    {
-      "name": "Herfried Münkler",
-      "note": "Duitse politicoloog met de biljarttafel-metafoor",
-      "start_seconds": 1482,
-      "wiki_checked": true
-    },
-    {
-      "name": "Napoleon Bonaparte",
-      "note": "Wilde in zijn eentje superbiljartbal worden",
-      "start_seconds": 549,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
-    },
-    {
-      "name": "Tucker Carlson",
-      "note": "Interviewde Poetin 2,5 uur over geschiedenis",
-      "start_seconds": 437,
-      "wiki_checked": true,
-      "wiki_pageid": 5129125,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tucker_Carlson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg/250px-Tucker_Carlson_%2852586718370%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Charlie Kirk",
-      "note": "Activist, bij zijn begrafenis hield Miller een toespraak",
-      "start_seconds": 975,
-      "wiki_checked": true,
-      "wiki_pageid": 5923083,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charlie_Kirk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Charlie_Kirk_%2854505912107%29_%28cropped%29.jpg/250px-Charlie_Kirk_%2854505912107%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Nicolás Maduro",
-      "note": "Venezolaans leider, ontvoerd door de VS",
-      "start_seconds": 1054,
-      "wiki_checked": true,
-      "wiki_pageid": 3144977,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicol%C3%A1s_Maduro",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Nicol%C3%A1s_Maduro_in_2023_%28cropped%29.jpg/250px-Nicol%C3%A1s_Maduro_in_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Katie Miller",
-      "note": "Vrouw van Stephen Miller, plaatste Groenland met Amerikaanse vlag",
-      "start_seconds": 1050,
-      "wiki_checked": true
-    },
-    {
-      "name": "Marco Rubio",
-      "note": "Amerikaans minister van Buitenlandse Zaken",
-      "start_seconds": 2081,
-      "wiki_checked": true,
-      "wiki_pageid": 2854274,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marco_Rubio",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg/250px-Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg"
-    },
-    {
-      "name": "J.D. Vance",
-      "note": "Amerikaans vicepresident, opportunist volgens Paas",
-      "start_seconds": 855,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Francis Fukuyama",
-      "note": "Schreef over het einde van de geschiedenis",
-      "start_seconds": 1860,
-      "wiki_checked": true,
-      "wiki_pageid": 64081,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/250px-Francis_Fukuyama_2015_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "NAVO-chef die Trump vleit",
-      "start_seconds": 607,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Amerikaanse president; zijn machtspolitiek, Groenland-plannen en National Security Strategy",
+      "start_seconds": 5,
+      "mention_count": 50
     },
     {
       "name": "Xi Jinping",
-      "note": "Chinees leider, grote biljartbal",
-      "start_seconds": 2194,
-      "wiki_checked": true,
-      "wiki_pageid": 2193479,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Xi_Jinping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg/250px-Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg"
+      "note": "Chinese leider, genoemd als biljartbal in het speelscenario",
+      "start_seconds": 5,
+      "mention_count": 3
     },
     {
-      "name": "Jake Tapper",
-      "note": "CNN-presentator die Miller interviewde",
-      "start_seconds": 1336,
-      "wiki_checked": true,
-      "wiki_pageid": 5075876,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jake_Tapper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Jake_Tapper_in_2025_%28cropped%29.jpg/250px-Jake_Tapper_in_2025_%28cropped%29.jpg"
+      "name": "Stephen Miller",
+      "note": "Adviseur en deputy chief of staff van Trump; ideoloog achter het grensbeleid",
+      "start_seconds": 764,
+      "mention_count": 15
+    },
+    {
+      "name": "Vance",
+      "note": "Amerikaanse vicepresident, genoemd als opportunistische concurrent om de troon",
+      "start_seconds": 798,
+      "mention_count": 8
+    },
+    {
+      "name": "Marco Rubio",
+      "note": "Amerikaanse minister van Buitenlandse Zaken",
+      "start_seconds": 798,
+      "mention_count": 3
+    },
+    {
+      "name": "Susie Wiles",
+      "note": "Chef-staf van het Witte Huis",
+      "start_seconds": 798,
+      "mention_count": 1
+    },
+    {
+      "name": "John Bolton",
+      "note": "Voormalig adviseur van Trump die onder vuur ligt",
+      "start_seconds": 646,
+      "mention_count": 2
+    },
+    {
+      "name": "James Mattis",
+      "note": "Voormalig minister van Defensie onder Trump, oud-generaal",
+      "start_seconds": 665,
+      "mention_count": 1
+    },
+    {
+      "name": "Carl Schmitt",
+      "note": "Duitse staatsrechtsdenker die uitvoerende macht en noodtoestand verdedigde",
+      "start_seconds": 530,
+      "mention_count": 2
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "note": "Franse keizer die probeerde Europa te domineren; na zijn nederlaag ontstond het Concert van Europa",
+      "start_seconds": 547,
+      "mention_count": 8
+    },
+    {
+      "name": "Lodewijk XIV",
+      "note": "Franse koning, citaat 'L'État c'est moi'",
+      "start_seconds": 553,
+      "mention_count": 1
+    },
+    {
+      "name": "Adolf Hitler",
+      "note": "Duitse dictator die probeerde een grote biljartbal te worden",
+      "start_seconds": 1779,
+      "mention_count": 3
+    },
+    {
+      "name": "Joseph Goebbels",
+      "note": "Nazi-propagandaminister, vergeleken met Stephen Millers toespraak",
+      "start_seconds": 975,
+      "mention_count": 4
+    },
+    {
+      "name": "Herfried Münkler",
+      "note": "Duitse politicoloog; bron van de biljarttafelmetafoor",
+      "start_seconds": 1482,
+      "mention_count": 15
+    },
+    {
+      "name": "Francis Fukuyama",
+      "note": "Auteur van het 'einde van de geschiedenis'-idee",
+      "start_seconds": 1860,
+      "mention_count": 1
+    },
+    {
+      "name": "Catherine Belton",
+      "note": "Journalist die een boek over Poetin en de Russische staat schreef",
+      "start_seconds": 702,
+      "mention_count": 1
+    },
+    {
+      "name": "Tucker Carlson",
+      "note": "Amerikaanse presentator die een lang interview met Poetin hield",
+      "start_seconds": 434,
+      "mention_count": 1
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Voormalig Duitse bondskanselier; probeerde Poetin via gasleidingen in te kaderen",
+      "start_seconds": 2621,
+      "mention_count": 2
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president; wil de Franse nucleaire afschrikking Europees maken",
+      "start_seconds": 3607,
+      "mention_count": 2
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "note": "Voorzitter van de Europese Commissie",
+      "start_seconds": 2692,
+      "mention_count": 2
+    },
+    {
+      "name": "Jerome Powell",
+      "note": "Voorzitter van de Amerikaanse centrale bank (Fed)",
+      "start_seconds": 2761,
+      "mention_count": 3
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Techondernemer die volgens Beatrice Europa als concurrent ziet",
+      "start_seconds": 2405,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Secretaris-generaal van de NAVO",
+      "start_seconds": 603,
+      "mention_count": 3
+    },
+    {
+      "name": "George H.W. Bush",
+      "note": "Voormalig Amerikaans president; greep in bij de Golfoorlog",
+      "start_seconds": 917,
+      "mention_count": 2
+    },
+    {
+      "name": "Bill Clinton",
+      "note": "Voormalig Amerikaans president; pleitte voor vrijhandel",
+      "start_seconds": 1868,
+      "mention_count": 1
+    },
+    {
+      "name": "Tsaar Alexander I",
+      "note": "Russische tsaar die een orde op de Societas Christiana wilde baseren",
+      "start_seconds": 3169,
+      "mention_count": 2
+    },
+    {
+      "name": "Charlie Kirk",
+      "note": "Amerikaanse activist; begrafenis waar Stephen Miller een toespraak hield",
+      "start_seconds": 975,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "Johannes 15:13",
-      "note": "Niemand heeft meer liefde dan wie zijn leven geeft voor zijn vrienden; door Poetin gebruikt voor soldaten",
-      "start_seconds": 219
+      "note": "Poetin citeert 'niemand heeft meer liefde dan die zijn leven geeft voor zijn vrienden' om soldaten te verheerlijken",
+      "start_seconds": 220
+    },
+    {
+      "ref": "Psalm 2",
+      "note": "Beatrice de Graaf leest Psalm 2 voor als beeld van ijdele wereldmachten die God laat lachen",
+      "start_seconds": 4253
     }
   ],
   "places": [
@@ -184,123 +210,145 @@
     "Oekraïne",
     "Venezuela",
     "Iran",
-    "Rusland",
     "Moskou",
-    "Berlijn",
-    "Amerika",
-    "Europa",
-    "China",
     "Taiwan",
+    "Afghanistan",
+    "Irak",
+    "Koeweit",
+    "Mali",
+    "Berlijn",
     "India",
+    "Afrika",
     "Canada",
-    "Spitsbergen",
     "IJsland",
-    "Midden-Oosten"
+    "Spitsbergen",
+    "Baltische staten",
+    "Midden-Oosten",
+    "Australië",
+    "Nieuw-Zeeland"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken waarom brute machtspolitiek terug is, van Poetins heilige oorlogsretoriek tot Trumps claims op Groenland en Venezuela. Aan de hand van Münklers biljarttafel-theorie schetsen ze de wereldorde van grote mogendheden en de vraag of Europa een speelbal of een grote speler wordt.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas analyseren waarom brute machtspolitiek terugkeert, met Poetin en Trump als voorbeelden die het recht van de sterkste omarmen. Met een beroep op politicoloog Herfried Münkler stellen ze dat de wereld weer lijkt op een biljarttafel met een beperkt aantal grote mogendheden. Europa moet volgens hen economische kracht combineren met militaire macht en een eigen waardenverhaal om een biljartbal te worden in plaats van een speelbal.",
   "summary_points": [
-    "Poetin maakt de oorlog in Oekraïne metafysisch en religieus, waardoor onderhandelen bijna onmogelijk wordt.",
-    "Trump en Poetin delen een Schmittiaanse visie waarin de sterkste het recht bepaalt en invloedssferen worden verdeeld.",
-    "Poetin heeft een diep ideologisch verhaal, Trump omringt zich met steeds radicalere adviseurs.",
-    "Stephen Miller is een ideologische kern rond Trump en spreekt van 'iron laws' van kracht en macht.",
-    "De VS keren zich af van de op regels gebaseerde wereldorde en stapten uit 66 internationale organisaties.",
-    "Münkler: de wereld is een biljarttafel waarop grote mogendheden botsen en kleinere landen op tafel dreigen te liggen.",
-    "Historisch: Concert van Europa (5 spelers), bipolaire Koude Oorlog, unipolair moment na 1990, nu een onstabiele tripolaire orde.",
-    "Drie grote ballen (VS, China, Rusland) is instabiel; Europa moet kiezen tussen speelbal worden of zelf grote speler."
+    "Poetin gebruikt religieuze en metafysische taal, zoals de 'heilige strijd' tegen 'satanisten', waardoor onderhandelen bijna onmogelijk wordt.",
+    "Trump is minder ideologisch dan Poetin, maar omringt zich met radicale adviseurs zoals Stephen Miller, die sterk de lijn bepalen.",
+    "Beide leiders delen het idee dat het recht de macht niet mag beperken en dat grote mogendheden invloedssferen mogen dicteren.",
+    "De Verenigde Staten hebben de op regels gebaseerde wereldorde verlaten, wat blijkt uit de National Security Strategy en het terugtrekken uit internationale verdragen.",
+    "Münkler's biljarttafelmetafoor laat zien dat stabiliteit historisch afhangt van een evenwicht tussen vijf grote spelers, zoals in de 19e eeuw.",
+    "De wereld is nu weer multipolair, met de VS, China en Rusland als dominante spelers en India, Iran en Europa als omstreden gebieden.",
+    "Europa is economisch al een biljartbal, maar moet ook militair en politiek meer gewicht krijgen om niet op tafel te eindigen.",
+    "Vertrouwen en gedeelde waarden vormen de basis van duurzame samenwerking, zoals bij het Europese project na de Tweede Wereldoorlog.",
+    "Europa moet zelfkritisch maar zelfbewust opereren, met een rol als normatieve en handelsmacht.",
+    "Er zijn lichtpunten, zoals creatief nadenken over Europa en kritiek binnen de Republikeinse achterban op Trumps Groenland-plannen."
   ],
   "chapters": [
     {
-      "start_seconds": 60,
-      "title": "Poetins heilige strijd",
-      "summary": "Poetins toespraak tijdens Russische kerst waarin soldaten de verlossers van het volk zijn; oorlog als metafysische strijd."
+      "start_seconds": 0,
+      "title": "Poetin en de heilige oorlog",
+      "summary": "De gesprekspartners bespreken Poetins kerstpreek en zijn religieuze framing van de oorlog in Oekraïne."
     },
     {
-      "start_seconds": 405,
+      "start_seconds": 434,
       "title": "Trump en Poetin vergeleken",
-      "summary": "Overeenkomsten in machtspolitiek en invloedssferen, verschil in ideologisch verhaal en Schmitt als referentie."
+      "summary": "Er wordt gevraagd of Trump en Poetin hetzelfde zijn, en de nadruk komt te liggen op machtspolitiek versus ideologie."
     },
     {
-      "start_seconds": 778,
-      "title": "Stephen Miller",
-      "summary": "Achtergrond en rol van Miller als ideoloog en vertaler van Trumps wensen."
+      "start_seconds": 764,
+      "title": "Stephen Miller en de entourage",
+      "summary": "Stephen Miller wordt geportretteerd als ideoloog en spin in het web rond Trump, met een omstreden achtergrond."
     },
     {
-      "start_seconds": 1180,
-      "title": "Het einde van de regelgebaseerde wereldorde",
-      "summary": "De VS laten de rol van wereldpolitieagent los en verwerpen de orde zelf; uitstappen uit internationale organisaties."
+      "start_seconds": 1183,
+      "title": "Het simpele antwoord: het recht van de sterkste",
+      "summary": "De Amerikaanse terugtrekking uit de op regels gebaseerde wereldorde en de uitspraken van Miller worden besproken."
     },
     {
       "start_seconds": 1482,
-      "title": "Münklers biljarttafel",
-      "summary": "Geschiedenis van Concert van Europa tot bipolaire en unipolaire orde en de huidige tripolaire situatie."
+      "title": "Het complexe antwoord: de biljarttafel",
+      "summary": "Münkler's metafoor van de biljarttafel en de geschiedenis van machtsbalansen van de 19e eeuw tot nu worden uitgelegd."
     },
     {
-      "start_seconds": 2100,
-      "title": "Wat betekent dit voor Europa?",
-      "summary": "Iran, India, Venezuela en Groenland in het krachtenveld; Europa moet zelf biljartbal worden of op tafel belanden."
+      "start_seconds": 2367,
+      "title": "Europa als biljartbal",
+      "summary": "De vraag wordt besproken hoe Europa economisch, militair en politiek een grote speler kan worden zonder dezelfde machtsstijl te kopiëren."
+    },
+    {
+      "start_seconds": 4127,
+      "title": "Vertrouwen, waarden en lichtpunten",
+      "summary": "Vertrouwen en gedeelde waarden worden benadrukt als basis, samen met enkele hoopvolle ontwikkelingen in Europa en de VS."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 130,
+      "start_seconds": 124,
       "speaker": "Beatrice de Graaf",
-      "text": "Poetin zegt: zoals God eens zijn zoon zond, zo zullen de Russische krijgers ons volk verlossen.",
-      "note": "Poetin zegt het nu zelf expliciet."
+      "text": "Poetin zei dat Russische krijgers een heilige missie uitvoeren, zoals God eens zijn zoon zond om te verlossen.",
+      "note": "Het laat zien hoe religieuze taal wordt ingezet om een oorlog te legitimeren."
     },
     {
-      "start_seconds": 1350,
+      "start_seconds": 464,
+      "speaker": "Beatrice de Graaf",
+      "text": "Trump is de meest primitieve uitvoering van machtspolitiek die je kunt bedenken.",
+      "note": "Een scherpe typering die Trump en Poetin samenbrengt als machtspolitici zonder gedeelde morele grenzen."
+    },
+    {
+      "start_seconds": 1337,
       "speaker": "Stephen Miller",
-      "text": "We live in a world governed by strength, by force, by power. These are the iron laws of the world.",
-      "note": "Openlijke omarming van het recht van de sterkste."
+      "text": "We live in a world that is governed by strength, force and power. These are the iron laws of the world.",
+      "note": "Een expliciete afwijzing van regels en het recht als basis van de internationale orde."
     },
     {
-      "start_seconds": 372,
-      "speaker": "Beatrice de Graaf",
-      "text": "Trump zegt het in één regeltje, Poetin bouwt er een kunstwerk van sprookjes omheen.",
-      "note": "Scherp onderscheid tussen beide leiders."
+      "start_seconds": 2570,
+      "speaker": "Stefan Paas",
+      "text": "Europa krijgt een missionaire rol, waarbij het evangelie van de internationale rechtsorde gepredikt wordt.",
+      "note": "Een bijzondere metafoor die religieuze taal koppelt aan Europees beleid."
     },
     {
-      "start_seconds": 2194,
-      "speaker": "Beatrice de Graaf",
-      "text": "Als je niet aan tafel zit, dan lig je op de tafel.",
-      "note": "Kernbeeld van de biljartmetafoor voor Europa."
+      "start_seconds": 2937,
+      "speaker": "Stefan Paas",
+      "text": "Je hebt vriendschap nodig, en vriendschap vraagt om vertrouwen en het uit handen geven van controle.",
+      "note": "Een tegenbeeld van de transactionele en controlerende houding van Trump en Poetin."
     }
   ],
   "keywords": [
     "machtspolitiek",
-    "Poetin",
-    "Trump",
-    "Groenland",
-    "Stephen Miller",
-    "Herfried Münkler",
+    "heilige strijd",
+    "rule-based order",
     "biljarttafel",
     "invloedssfeer",
-    "Carl Schmitt",
-    "wereldorde",
-    "Europa",
-    "heilige strijd"
+    "Münkler",
+    "Stephen Miller",
+    "Europese soevereiniteit",
+    "vertrouwen",
+    "Concert van Europa",
+    "multipolaire wereld",
+    "Psalm 2"
   ],
-  "quotes": [],
+  "quotes": [
+    "Worden we een speelbal of een wereldmacht?",
+    "waarom dat uiteindelijk niet werkt"
+  ],
   "similar": [
     {
       "n": 309,
-      "reason": "Beatrice de Graaf en Paas over Trump, Poetin en machtspolitiek van sterke leiders"
+      "reason": "Trump, Poetin en tirannen; machtspolitiek met dezelfde gespreksvoerders"
     },
     {
       "n": 230,
-      "reason": "Nieuwe wereldorde met Poetin en Trump die Europa uit elkaar spelen"
+      "reason": "Nieuwe wereldorde tussen Poetin en Trump, met Europa als speler"
     },
     {
       "n": 248,
-      "reason": "De Graaf en Paas over wie de nieuwe wereldorde bepaalt"
+      "reason": "Wie bepaalt de nieuwe wereldorde; geopolitieke machtsverschuivingen"
+    },
+    {
+      "n": 236,
+      "reason": "Amerika glijdt af en Europa moet staan; Europese positionering en Trump"
     },
     {
       "n": 317,
-      "reason": "De Graaf over religieuze retoriek van Poetin in de wereldpolitiek"
-    },
-    {
-      "n": 239,
-      "reason": "Verraad door de VS en Europa dat serieus moet worden"
+      "reason": "Poetin en de inzet van religie en relieken in wereldpolitiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

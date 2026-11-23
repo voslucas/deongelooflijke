@@ -1,18 +1,23 @@
 {
   "episode": 146,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110491,
+    "segments": 1295,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31513,
-    "output_tokens": 2554,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57691,
+    "output_tokens": 7228,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "God & geloof",
     "Filosofie & ethiek",
-    "Geschiedenis",
-    "Zingeving & psyche"
+    "Zingeving & psyche",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Rik Peels"
@@ -20,146 +25,181 @@
   "people": [
     {
       "name": "Herman Philipse",
-      "note": "Nederlandse filosoof en 'opperatheïst', promotor van Rik Peels",
+      "note": "Opperatheïst en promotor van Rik Peels",
       "start_seconds": 1291,
-      "wiki_checked": true,
-      "wiki_pageid": 145409,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Philipse",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Herman_Philipse-crop.jpg/250px-Herman_Philipse-crop.jpg"
-    },
-    {
-      "name": "Ludwig Feuerbach",
-      "note": "19e-eeuwse projectiedenker over religie",
-      "start_seconds": 644,
-      "wiki_checked": true,
-      "wiki_pageid": 29110,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Feuerbach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ludwig_feuerbach.jpg/250px-Ludwig_feuerbach.jpg"
-    },
-    {
-      "name": "Sigmund Freud",
-      "note": "Psychoanalyticus, schreef Die Zukunft einer Illusion",
-      "start_seconds": 837,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
-    },
-    {
-      "name": "René Descartes",
-      "note": "Scheidde materiële en geestelijke werkelijkheid; begin van de moderniteit",
-      "start_seconds": 624,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
-    },
-    {
-      "name": "Friedrich Nietzsche",
-      "note": "Atheïstisch denker met harde kritiek op religie",
-      "start_seconds": 644,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
-    },
-    {
-      "name": "Socrates",
-      "note": "Werd van atheïsme beschuldigd",
-      "start_seconds": 604,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
-    },
-    {
-      "name": "Xenofanes",
-      "note": "Presocratische denker die kritiek had op menselijke godsbeelden",
-      "start_seconds": 610,
-      "wiki_checked": true
-    },
-    {
-      "name": "Johannes Calvijn",
-      "note": "Reformator die schreef over opkomend atheïsme",
-      "start_seconds": 584,
-      "wiki_checked": true,
-      "wiki_pageid": 9931,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johannes_Calvijn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg/250px-Portrait_of_John_Calvin_%281509%E2%80%931564%29%2C_by_anonymous_-_Museum_Catharijneconvent.jpg"
+      "mention_count": 3
     },
     {
       "name": "Richard Rorty",
-      "note": "Amerikaanse pragmatist",
-      "start_seconds": 1207,
-      "wiki_checked": true,
-      "wiki_pageid": 352805,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Rorty",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Richard_Rorty_in_1959.png/250px-Richard_Rorty_in_1959.png"
+      "note": "Amerikaanse pragmatistische filosoof die adviseert het gesprek over zin te vermijden",
+      "start_seconds": 1210,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Nagel",
+      "note": "Amerikaanse filosoof die openhartig zegt dat hij hoopt dat er geen God is",
+      "start_seconds": 2133,
+      "mention_count": 3
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "17e-eeuwse filosoof en theoloog, bekend om de wedding van Pascal",
+      "start_seconds": 3488,
+      "mention_count": 4
     },
     {
       "name": "William Lane Craig",
-      "note": "Christelijk filosoof in debat met Wolpert",
-      "start_seconds": 1617,
-      "wiki_checked": true,
-      "wiki_pageid": 4549904,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Lane_Craig",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/William_Lane_Craig.jpg/250px-William_Lane_Craig.jpg"
+      "note": "Filosoof die in het debat met Wolpert pleitte voor God",
+      "start_seconds": 1608,
+      "mention_count": 2
     },
     {
       "name": "Lewis Wolpert",
-      "note": "Atheïstische bioloog in debat met Craig",
+      "note": "Britse bioloog en atheïst in het debat met Craig",
       "start_seconds": 1617,
-      "wiki_checked": true
+      "mention_count": 4
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "note": "19e-eeuwse denker die geloof als projectie zag",
+      "start_seconds": 781,
+      "mention_count": 3
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "Psychoanalyticus die religie als projectie van vaderbeeld duidde",
+      "start_seconds": 837,
+      "mention_count": 2
     },
     {
       "name": "Karl Marx",
-      "note": "Verklaarde religie vanuit sociale ongelijkheid",
-      "start_seconds": 1479,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Denker die religie verklaarde uit sociale ongelijkheid",
+      "start_seconds": 1499,
+      "mention_count": 1
     },
     {
-      "name": "Thomas Quartier",
-      "note": "Theoloog die onderzoek deed naar zingeving rond de dood",
-      "start_seconds": 1270,
-      "wiki_checked": true,
-      "wiki_pageid": 5587524,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_Quartier"
+      "name": "Johannes Calvijn",
+      "note": "Reformator die al in de 16e/17e eeuw over atheïsme schreef",
+      "start_seconds": 570,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "Filosoof die van atheïsme werd beschuldigd",
+      "start_seconds": 604,
+      "mention_count": 1
+    },
+    {
+      "name": "Xenofanes",
+      "note": "Presocratische denker die kritiek uitte op menselijke voorstellingen van goden",
+      "start_seconds": 614,
+      "mention_count": 1
+    },
+    {
+      "name": "René Descartes",
+      "note": "Filosoof die materie en geest scheidde",
+      "start_seconds": 624,
+      "mention_count": 1
+    },
+    {
+      "name": "Immanuel Kant",
+      "note": "Filosoof die vaak ten onrechte wordt genoemd als maker van een einde aan godsbewijzen",
+      "start_seconds": 2643,
+      "mention_count": 2
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "Christelijk filosoof die eerder in De Ongelooflijke te gast was",
+      "start_seconds": 910,
+      "mention_count": 3
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "Atheïstische filosoof die eerder in De Ongelooflijke te gast was",
+      "start_seconds": 910,
+      "mention_count": 1
+    },
+    {
+      "name": "Ayaan Hirsi Ali",
+      "note": "Schrijfster die over haar ervaringen met religie schreef",
+      "start_seconds": 1700,
+      "mention_count": 1
+    },
+    {
+      "name": "Moeder Teresa",
+      "note": "Heilige wiens dagboek twijfel aan Gods nabijheid laat zien",
+      "start_seconds": 2801,
+      "mention_count": 1
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "Theoloog die op 39-jarige leeftijd overleed",
+      "start_seconds": 3498,
+      "mention_count": 1
+    },
+    {
+      "name": "Søren Kierkegaard",
+      "note": "Filosoof en theoloog, genoemd bij vroeg overleden denkers",
+      "start_seconds": 3501,
+      "mention_count": 1
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "note": "Componist die als voorbeeld van waarom we dingen diep voelen werd genoemd",
+      "start_seconds": 1437,
+      "mention_count": 1
+    },
+    {
+      "name": "Arvo Pärt",
+      "note": "Componist wiens muziek Rik Peels het gevoel van nabijheid tot God geeft",
+      "start_seconds": 3201,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Profeet die God een verborgen God noemt",
+      "start_seconds": 2823,
+      "mention_count": 1
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Prominent atheïst uit de nieuwe atheïsme-beweging",
+      "start_seconds": 2391,
+      "mention_count": 1
+    },
+    {
+      "name": "Christopher Hitchens",
+      "note": "Prominent atheïst uit de nieuwe atheïsme-beweging",
+      "start_seconds": 2391,
+      "mention_count": 1
+    },
+    {
+      "name": "Marten de Kruif",
+      "note": "Oud-commandant der strijdkrachten, gast bij de live-aflevering",
+      "start_seconds": 45,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Life Without God",
       "author": "Rik Peels",
-      "note": "Nieuwe kijk op atheïsme, gericht op motivaties en niet alleen argumenten",
-      "start_seconds": 3,
-      "volume_id": "hYy4EAAAQBAJ",
+      "note": "Boek waarin Peels pleit voor een nieuwe blik op atheïsme via motivaties en biografieën",
+      "start_seconds": 1371,
+      "volume_id": "M-e-EAAAQBAJ",
       "canonical_title": "Life without God: An Outsider's Look at Atheism",
       "canonical_author": "Rik Peels",
-      "isbn13": "9781009297820",
-      "isbn10": "1009297821",
-      "thumbnail": "http://books.google.com/books/content?id=hYy4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9781009297783",
+      "isbn10": "1009297783",
+      "thumbnail": "http://books.google.com/books/content?id=M-e-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "God in the Age of Science",
       "author": "Herman Philipse",
-      "note": "Manuscript waarop Peels kritiek gaf",
-      "start_seconds": 1314,
+      "note": "Manuscript waaraan Peels meewerkte tijdens zijn promotie",
+      "start_seconds": 1305,
       "volume_id": "zRPmcHRzkc0C",
-      "canonical_title": "God in the Age of Science?: A Critique of Religious Reason",
+      "canonical_title": "God in the Age of Science? A Critique of Religious Reason",
       "canonical_author": "Herman Philipse",
       "isbn13": "9780191505058",
       "isbn10": "0191505056",
@@ -168,143 +208,216 @@
     {
       "title": "Die Zukunft einer Illusion",
       "author": "Sigmund Freud",
-      "note": "Religie als projectie van verlangen naar een vaderfiguur",
+      "note": "Boek waarin religie wordt gezien als projectie van verlangens",
       "start_seconds": 842,
-      "volume_id": "fjl4DwAAQBAJ",
+      "volume_id": "hMZ4zgEACAAJ",
       "canonical_title": "Die Zukunft einer Illusion",
       "canonical_author": "Sigmund Freud",
-      "isbn13": "9783961187263",
-      "isbn10": "3961187266",
-      "thumbnail": "http://books.google.com/books/content?id=fjl4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9783754105764",
+      "isbn10": "3754105760",
+      "thumbnail": ""
+    },
+    {
+      "title": "Pensées",
+      "author": "Blaise Pascal",
+      "note": "Bevat de wedding van Pascal over leven alsof God bestaat",
+      "start_seconds": 3545,
+      "volume_id": "ZkUJkAEACAAJ",
+      "canonical_title": "Oeuvres de Blaise Pascal: Pensées",
+      "canonical_author": "Blaise Pascal",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Stilte",
+      "author": "Shusaku Endo",
+      "note": "Roman waarvan de verfilming een acteur gelovig maakte door spirituele oefeningen",
+      "start_seconds": 3639,
+      "volume_id": "huW_DQAAQBAJ",
+      "canonical_title": "Stilte",
+      "canonical_author": "Shusaku Endo",
+      "isbn13": "9789029726559",
+      "isbn10": "9029726555",
+      "thumbnail": "http://books.google.com/books/content?id=huW_DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "God bewijzen",
+      "author": "Rik Peels en Stefan Paas",
+      "note": "Boek uit 2013 waarin beide heren argumenten voor en tegen God bespreken",
+      "start_seconds": 2336,
+      "volume_id": "YIJgBgAAQBAJ",
+      "canonical_title": "God bewijzen: argumenten voor en tegen geloven",
+      "canonical_author": "Rik Peels, Stefan Paas",
+      "isbn13": "9789460037252",
+      "isbn10": "9460037259",
+      "thumbnail": "http://books.google.com/books/content?id=YIJgBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 22",
-      "note": "Isaak die geofferd moet worden, als voorbeeld van morele weerzin",
+      "note": "Isaac die geofferd moet worden, genoemd als voorbeeld van kwalijke religieuze verhalen",
       "start_seconds": 1868
+    },
+    {
+      "ref": "Jesaja 45:15",
+      "note": "Paas citeert 'U bent een verborgen God' als echo van verborgenheid in de profetische traditie",
+      "start_seconds": 2823
+    },
+    {
+      "ref": "Job",
+      "note": "Boek over lijden en klacht, genoemd als plek waar gelovigen de vragen van atheïsten verkennen",
+      "start_seconds": 3030
     }
   ],
   "places": [
-    "Amsterdam",
     "Utrecht",
-    "China",
-    "Amerika",
+    "Amsterdam",
     "Londen",
+    "Verenigde Staten",
+    "China",
     "Saudi-Arabië",
-    "Zuidas"
+    "Japan"
   ],
-  "summary_tldr": "Filosoof Rik Peels pleit voor een andere blik op atheïsme: niet alleen kijken naar argumenten, maar ook naar de diepere motivaties van atheïsten, zoals dat ook bij gelovigen gebeurt. Hij bespreekt de geschiedenis van het atheïsme, de definitie ervan en zijn onderzoek naar atheïstische biografieën. Het doel is een eerlijker en gelijkwaardiger gesprek tussen gelovigen en atheïsten.",
+  "summary_tldr": "David Boogerd praat met filosoof Rik Peels en theoloog Stefan Paas over atheïsme als snelst groeiende levensbeschouwing van de 20e eeuw. Peels pleit voor een nieuwe manier van gesprek waarin niet alleen argumenten, maar ook persoonlijke motivaties en verlangens centraal staan. Het gesprek eindigt met de vraag of atheïsme de toekomst heeft, en met de conclusie dat de mens van nature religieus lijkt.",
   "summary_points": [
-    "Atheïsme is op lange termijn de snelst groeiende levensbeschouwing, maar blijft een minderheid (ca. 5-10%), veel groter in academische kringen.",
-    "De term atheïsme is glibberig en werd historisch vaak pejoratief gebruikt, zelfs voor de vroege christenen.",
-    "Moderne atheïsme ontstaat met Descartes, de Verlichting, Feuerbach, Nietzsche en Freud.",
-    "Atheïsme is een positie met consequenties, vaak verbonden met naturalisme.",
-    "Veel mensen leven als praktisch atheïst of zijn apatheïstisch of ietsistisch.",
-    "Zowel gelovigen als atheïsten worden vooral gedreven door ervaringen, verlangens en gemeenschap en niet primair door argumenten.",
-    "In het debat tussen Craig en Wolpert viel Peels op dat Wolpert vooral empathisch en retorisch overtuigde.",
-    "Atheïstische motivaties zijn onder meer autonoom denken, heroïek en morele weerzin tegen religieuze praktijken.",
-    "Gezonde scepsis kan doorschieten in obsessie met complottheorieën en pseudowetenschap.",
-    "Het doel is een gelijkwaardiger gesprek waarin men van elkaar leert."
+    "Atheïsme groeit vooral in het Westen, met name onder academici, maar blijft een minderheid in de wereldbevolking.",
+    "De term atheïsme is glibberig: het wordt vaak pejoratief gebruikt en is historisch verweven met religieuze polemiek.",
+    "Atheïsme is geen puur neutrale positie maar een bewering met consequenties voor moraal, kennis en bewustzijn.",
+    "Peels stelt dat argumenten zelden de echte drijfveer zijn, bij gelovigen en atheïsten, maar eerder ervaringen en verlangens.",
+    "Rik Peels analyseerde atheïstische biografieën en noemt motivaties als autonoom denken en morele weerzin tegen religie.",
+    "Het debat tussen Craig en Wolpert illustreert hoe retoriek en sympathie vaak zwaarder wegen dan logische argumenten.",
+    "Atheïstische argumenten, zoals het probleem van het kwaad en goddelijke verborgenheid, fungeren als stresstest voor religieuze voorstellingen.",
+    "Agnosticisme wordt door Peels als onbevredigend gezien omdat het de waarheid niet kiest; Pascal's wedding biedt een alternatief.",
+    "Paas beschrijft zijn eigen ervaring van geloof in kwetsbare momenten als het diepst, met de voortdurende twijfel die daarbij hoort.",
+    "Peels verwacht dat atheïsme een belangrijke, maar geen meerderheidspositie zal blijven, omdat de mens van nature religieus lijkt."
   ],
   "chapters": [
     {
-      "start_seconds": 165,
-      "title": "Hoe groot is het atheïsme?",
-      "summary": "Cijfers, definities en verschillen tussen universiteit en samenleving."
+      "start_seconds": 0,
+      "title": "Introductie en welkom",
+      "summary": "David Boogerd introduceert het onderwerp atheïsme, de gasten en de komende live-aflevering in Utrecht."
     },
     {
-      "start_seconds": 534,
-      "title": "Een glibberige term en de geschiedenis",
-      "summary": "Van Socrates en Calvijn tot Descartes, Feuerbach, Nietzsche en Freud."
+      "start_seconds": 180,
+      "title": "Wat is atheïsme?",
+      "summary": "Peels en Paas discussiëren over de definitie van atheïsme, de omvang van de beweging en het verschil met ietsisme en agnosticisme."
     },
     {
-      "start_seconds": 885,
-      "title": "Waarom een gelovige filosoof atheïsme bestudeert",
-      "summary": "Peels over zijn fascinatie, het belang van de Godsvraag en zijn promotie bij Philipse."
+      "start_seconds": 570,
+      "title": "Geschiedenis van de term",
+      "summary": "Van de Romeinen en Socrates tot Descartes en de Verlichting: hoe de term atheïsme door de eeuwen heen veranderde."
     },
     {
-      "start_seconds": 1381,
-      "title": "Een nieuwe blik: motivaties in plaats van argumenten",
-      "summary": "Mensen geloven en niet-geloven om diepere redenen dan argumenten."
+      "start_seconds": 900,
+      "title": "Waarom atheïsme groeit",
+      "summary": "Gesprek over secularisatie, de rol van de Reformatie en de Verlichting, en de druk van het moderne leven op zingevingsvragen."
     },
     {
-      "start_seconds": 1617,
-      "title": "Het debat Craig versus Wolpert",
-      "summary": "Fragment van Wolpert en wat het zegt over retoriek en empathie."
+      "start_seconds": 1380,
+      "title": "Motivaties en het Wolpert-debat",
+      "summary": "Peels legt uit dat atheïsten niet alleen door argumenten worden gedreven en analyseert het debat tussen Craig en Wolpert."
     },
     {
-      "start_seconds": 1800,
-      "title": "Motivaties van atheïsten",
-      "summary": "Autonomie, heroïek, morele weerzin en scepsis die kan doorslaan in complotdenken."
+      "start_seconds": 2100,
+      "title": "Hoop, eerlijkheid en het debat",
+      "summary": "De uitspraak van Nagel over hopen dat er geen God is wordt besproken, en de vraag hoe debatten vaak schijndebatten worden."
+    },
+    {
+      "start_seconds": 2640,
+      "title": "Argumenten, het kwaad en verborgenheid",
+      "summary": "Peels en Paas bespreken het probleem van het kwaad en goddelijke verborgenheid als sterkste argumenten en hun zuiverende werking op geloof."
+    },
+    {
+      "start_seconds": 3480,
+      "title": "Agnosticisme, Pascal en persoonlijk geloof",
+      "summary": "Paas deelt een persoonlijke ervaring van geloof in kwetsbaarheid; Pascal's wedding en het advies om te leven alsof God bestaat komen aan bod."
+    },
+    {
+      "start_seconds": 3780,
+      "title": "Toekomst van atheïsme",
+      "summary": "Peels stelt dat de mens van nature religieus is en dat atheïsme waarschijnlijk geen meerderheidspositie zal worden."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 967,
+      "start_seconds": 1617,
       "speaker": "Rik Peels",
-      "text": "Het gesprek gaat niet over atheïsme onderuit halen, maar over het bevorderen van een gesprek.",
-      "note": "Geeft de toon en intentie van het boek weer."
+      "text": "I regret to tell you, there is zero evidence for the existence of God. (Wolpert, geciteerd door Peels)",
+      "note": "Het vaderlijke en sympathieke toon van Wolpert laat zien hoe retoriek het publiek kan overtuigen zonder sterke argumenten."
     },
     {
-      "start_seconds": 1464,
+      "start_seconds": 2133,
+      "speaker": "David Boogerd",
+      "text": "Thomas Nagel: ik wil dat het atheïsme waar is, ik hoop dat er geen God is.",
+      "note": "Een opmerkelijk eerlijke bekentenis die laat zien dat ook atheïsten door verlangens worden gedreven."
+    },
+    {
+      "start_seconds": 2839,
       "speaker": "Stefan Paas",
-      "text": "Atheïsten worden als een killer rekenmachine behandeld, terwijl gelovigen met hun hele mens-zijn worden verklaard.",
-      "note": "Benoemt de ongelijkheid in het debat."
+      "text": "Moderne atheïsten zijn een soort voortzetting van de profetische tradities, met scherpe ondervraging van zelfgenoegzame religie.",
+      "note": "Een verrassende herwaardering van atheïsme als een variant van profetische kritiek."
     },
     {
-      "start_seconds": 1637,
-      "speaker": "Lewis Wolpert",
-      "text": "I regret to tell you there is zero evidence for the existence of God.",
-      "note": "Aanleiding voor Peels' inzicht over retoriek en motivatie."
+      "start_seconds": 3173,
+      "speaker": "Stefan Paas",
+      "text": "Ik ervaar mij het meest gelovig wanneer ik op mijn meest afhankelijke en kwetsbare momenten ben, maar dat zijn ook de momenten waarop ik het meest aangevochten word door twijfel.",
+      "note": "Een persoonlijke en kwetsbare bekentenis die geloof en twijfel dicht bij elkaar brengt."
     },
     {
-      "start_seconds": 1943,
+      "start_seconds": 3545,
       "speaker": "Rik Peels",
-      "text": "Het koord over een ravijn: de heroiek van een leven zonder God.",
-      "note": "Treffend beeld uit atheïstische biografieën."
+      "text": "Pascal erkent expliciet dat je er niet zomaar voor kunt kiezen: geloof kun je proberen, zoals leven alsof God bestaat.",
+      "note": "Een praktische benadering van geloof die rationaliteit en ervaring combineert."
     },
     {
-      "start_seconds": 2066,
+      "start_seconds": 3788,
       "speaker": "Rik Peels",
-      "text": "De deugd zit vaak in het midden: niet te goedgelovig, maar ook niet eindeloos wantrouwend.",
-      "note": "Nuance over scepsis en complotdenken."
+      "text": "De mens is van nature een religieus wezen; het kan onderdrukt worden, maar blijft een natuurlijke neiging.",
+      "note": "Een scherpe en provocerende stelling over de toekomst van atheïsme."
     }
   ],
   "keywords": [
     "atheïsme",
-    "naturalisme",
-    "Rik Peels",
-    "Life Without God",
-    "Herman Philipse",
-    "Feuerbach",
+    "agnosticisme",
+    "ietsisme",
+    "secularisatie",
     "projectie",
-    "autonoom denken",
-    "apatheïsme",
-    "Verlichting",
-    "scepsis"
+    "probleem van het kwaad",
+    "goddelijke verborgenheid",
+    "Pascal's wedding",
+    "naturalisme",
+    "motivatie",
+    "Herman Philipse",
+    "Life Without God"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het is de snelst groeiende levensbeschouwing van de 20ste eeuw: atheïsme.",
+    "Hoewel Rik Peels zelf christelijk is, is hij door dit onderzoek enthousiaster geworden over atheïstische argumenten."
+  ],
   "similar": [
     {
-      "n": 122,
-      "reason": "Nietzsche's 'God is dood' met Stefan Paas; filosofie van het atheïsme en God"
-    },
-    {
       "n": 207,
-      "reason": "Rik Peels in gesprek met atheïst Stine Jensen over God en atheïsme"
+      "reason": "Atheïsme-debat met Stine Jensen en Rik Peels over God en zingeving"
     },
     {
-      "n": 49,
-      "reason": "De afvallige atheïst: godsdienstfilosoof over zijn ongeloof en het atheïsme"
+      "n": 98,
+      "reason": "Live debat over het bestaan van God, met Stine Jensen en Emanuel Rutten"
+    },
+    {
+      "n": 19,
+      "reason": "Stine Jensen over ontkerkelijking, atheïsme en oosterse spiritualiteit"
+    },
+    {
+      "n": 133,
+      "reason": "Rik Peels over fundamentalisme, complotten en religie in de politiek"
     },
     {
       "n": 189,
-      "reason": "Filosofische argumenten voor God, met Rik Peels' collega Emanuel Rutten"
-    },
-    {
-      "n": 155,
-      "reason": "Filosofie en de 'dood van God' sinds Descartes, Nietzsche en Feuerbach"
+      "reason": "Filosoof Emanuel Rutten over de sterke argumenten voor het bestaan van God"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

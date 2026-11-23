@@ -1,286 +1,322 @@
 {
   "episode": 128,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 112021,
+    "segments": 1320,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31601,
-    "output_tokens": 2564,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58519,
+    "output_tokens": 6612,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Gezin & relaties",
-    "Kerk & secularisatie",
+    "God & geloof",
     "Zingeving & psyche",
-    "Samenleving & migratie"
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Frank Koerselman"
   ],
   "people": [
     {
-      "name": "Jordan Peterson",
-      "note": "Canadees psycholoog en controversiële influencer; vergelijking met Koerselman",
-      "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 4934892,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jordan_Peterson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/250px-Jordan_Peterson_by_Gage_Skidmore.jpg"
-    },
-    {
-      "name": "Dirk de Wachter",
-      "note": "Psychiater die volle zalen trekt met levensvragen",
-      "start_seconds": 126,
-      "wiki_checked": true,
-      "wiki_pageid": 3777024,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dirk_De_Wachter"
-    },
-    {
-      "name": "Fidel Castro",
-      "note": "Voorbeeld van een linkse macho",
-      "start_seconds": 460,
-      "wiki_checked": true,
-      "wiki_pageid": 11345,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fidel_Castro",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Fidel_Castro_1950s.jpg/250px-Fidel_Castro_1950s.jpg"
-    },
-    {
-      "name": "Alexander Mitscherlich",
-      "note": "Psychoanalyticus en filosoof die in de jaren 60 over het verdwijnende vadergezag schreef",
-      "start_seconds": 611,
-      "wiki_checked": true
+      "name": "Frank Koerselman",
+      "note": "Emeritus hoogleraar psychiatrie, voormalig psychiater en gast; auteur van 'Ontvadering'",
+      "start_seconds": 0,
+      "mention_count": 1
     },
     {
       "name": "Sigmund Freud",
-      "note": "Grondlegger psychoanalyse; castratieangst en vader-zoonconflict",
-      "start_seconds": 813,
-      "wiki_checked": true,
-      "wiki_pageid": 1677,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigmund_Freud",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Sigmund_freud_um_1905.jpg/250px-Sigmund_freud_um_1905.jpg"
+      "note": "Psychoanalyticus; concepten als castratieangst en penisnijd, en 'De toekomst van een illusie' besproken",
+      "start_seconds": 780,
+      "mention_count": 14
     },
     {
-      "name": "Pim Fortuyn",
-      "note": "Sprak over de verweesde samenleving",
-      "start_seconds": 1288,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
+      "name": "Alexander Mitscherlich",
+      "note": "Psychoanalyticus en filosoof die in de jaren 60 het verminderd vaderlijk gezag koppelde aan het overbodig worden van mannelijke kracht",
+      "start_seconds": 599,
+      "mention_count": 4
     },
     {
-      "name": "Gert-Jan Segers",
-      "note": "Politicus die schreef over de verweesde samenleving",
-      "start_seconds": 1290,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
+      "name": "Jordan Peterson",
+      "note": "Canadese psycholoog die als vergelijkingspunt voor Koerselman wordt genoemd",
+      "start_seconds": 329,
+      "mention_count": 4
+    },
+    {
+      "name": "Dirk de Wachter",
+      "note": "Psychiater die bekend is met publieke lezingen over het goede leven",
+      "start_seconds": 126,
+      "mention_count": 2
+    },
+    {
+      "name": "Fidel Castro",
+      "note": "Cubaans leider, door Koerselman als voorbeeld van een macho genoemd",
+      "start_seconds": 460,
+      "mention_count": 2
     },
     {
       "name": "Louis van Gaal",
-      "note": "Voorbeeld van een streng maar rechtvaardige vaderfiguur",
-      "start_seconds": 1408,
-      "wiki_checked": true,
-      "wiki_pageid": 124525,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Louis_van_Gaal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Louis_van_Gaal_2014.jpg/250px-Louis_van_Gaal_2014.jpg"
+      "note": "Voormalig bondscoach van het Nederlands elftal, als voorbeeld van een streng maar rechtvaardig vaderfiguur",
+      "start_seconds": 1407,
+      "mention_count": 3
     },
     {
-      "name": "Joop den Uyl",
-      "note": "Voorbeeld van een krachtige politieke vaderfiguur",
-      "start_seconds": 1450,
-      "wiki_checked": true,
-      "wiki_pageid": 831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Joop_den_Uyl_1975.jpg/250px-Joop_den_Uyl_1975.jpg"
+      "name": "Den Uyl",
+      "note": "Voormalig PvdA-premier, genoemd als krachtig politiek voorbeeld",
+      "start_seconds": 1443,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus die de 'verweesde samenleving' benoemde",
+      "start_seconds": 1290,
+      "mention_count": 1
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "Politicus die het thema van de verweesde samenleving beschreef",
+      "start_seconds": 1291,
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "Langstzittende premier, volgens Koerselman 'van wie we niets weten'",
-      "start_seconds": 1501,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Huidige premier, genoemd in verband met een mogelijk NAVO-vertrek",
+      "start_seconds": 2218,
+      "mention_count": 1
     },
     {
       "name": "Sander Schimmelpennink",
-      "note": "Eerdere gast met een pamflet",
-      "start_seconds": 526,
-      "wiki_checked": true
+      "note": "Schrijver van een essay dat eerder in de podcast besproken werd",
+      "start_seconds": 523,
+      "mention_count": 1
     },
     {
-      "name": "Hans Wiegel",
-      "note": "Niet genoemd",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 42228,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hans_Wiegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Hans_Wiegel_1977_%282%29.jpg/250px-Hans_Wiegel_1977_%282%29.jpg"
+      "name": "Thomas Kwartier",
+      "note": "Onderzoeker naar lijden en geloof, eerder gast in De Ongelooflijke",
+      "start_seconds": 3750,
+      "mention_count": 1
     },
     {
-      "name": "Hermine Schippers",
-      "note": "Door Koerselman voorspeld als volgende premier (Schippers, VVD)",
-      "start_seconds": 2211,
-      "wiki_checked": true
+      "name": "Paul Vitz",
+      "note": "Amerikaanse psycholoog die onderzoek deed naar vaderrelaties van bekende atheïsten",
+      "start_seconds": 4024,
+      "mention_count": 2
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof genoemd als bekende atheïst",
+      "start_seconds": 4004,
+      "mention_count": 1
+    },
+    {
+      "name": "Bertrand Russell",
+      "note": "Filosoof genoemd als bekende atheïst",
+      "start_seconds": 4004,
+      "mention_count": 1
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "note": "Filosoof genoemd als bekende atheïst",
+      "start_seconds": 4004,
+      "mention_count": 1
+    },
+    {
+      "name": "Jozef Stalin",
+      "note": "Sovjetleider, door Stefan Paas als bekende atheïst genoemd",
+      "start_seconds": 4011,
+      "mention_count": 1
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Denker genoemd als bekende gelovige met een gezonde vaderrelatie",
+      "start_seconds": 4045,
+      "mention_count": 1
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "note": "Filosoof die projectie van godsbeeld beschreef",
+      "start_seconds": 4168,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "Figuur uit het christendom; zijn gebed in Getsemane wordt als voorbeeld aangehaald",
+      "start_seconds": 3583,
+      "mention_count": 2
     }
   ],
   "books": [
     {
       "title": "Ontvadering",
       "author": "Frank Koerselman",
-      "note": "Pamflet over de vaderloze samenleving",
-      "start_seconds": 343,
-      "volume_id": "NZnSDwAAQBAJ",
-      "canonical_title": "Ontvadering",
+      "note": "Pamflet/essay over een vaderloze samenleving en de gevolgen voor religie",
+      "start_seconds": 337,
+      "volume_id": "q-lKzQEACAAJ",
+      "canonical_title": "Ontvadering. Het einde van de vaderlijke autoriteit",
       "canonical_author": "Frank Koerselman",
-      "isbn13": "9789044642025",
-      "isbn10": "9044642022",
-      "thumbnail": "http://books.google.com/books/content?id=NZnSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044642018",
+      "isbn10": "9044642014",
+      "thumbnail": ""
+    },
+    {
+      "title": "De toekomst van een illusie",
+      "author": "Sigmund Freud",
+      "note": "Werk van Freud over religie als illusie",
+      "start_seconds": 3064,
+      "volume_id": "laJULwEACAAJ",
+      "canonical_title": "De toekomst van een illusie / druk 1",
+      "canonical_author": "Sigmund Schlomo Freud",
+      "isbn13": "9789461059505",
+      "isbn10": "9461059507",
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 26:39",
+      "note": "Jezus' gebed in Getsemane: 'niet mijn wil geschieden, maar uw wil', als voorbeeld van overgave in lijden",
+      "start_seconds": 3583
+    }
+  ],
   "places": [
-    "Amsterdam",
     "Utrecht",
+    "Amsterdam",
     "Wenen",
     "Oekraïne",
-    "Cuba"
+    "Getsemane"
   ],
-  "summary_tldr": "Psychiater Frank Koerselman betoogt dat de klassieke vaderrol en vaderlijke waarden verdwijnen nu mannelijke kracht overbodig is geworden en vrouwen zijn geëmancipeerd. Hij legt verbanden met Freud, Mitscherlich en de opstand van de jaren 60. Het gesprek bespreekt ook opvoeding, gezag en de positie van mannen vandaag.",
+  "summary_tldr": "Frank Koerselman betoogt in zijn pamflet 'Ontvadering' dat de traditionele vader en het gezag verdwijnen, met als gevolg verlies van mannelijke rolmodellen en uiteindelijk ook van het godsbeeld. Het gesprek gaat over oorzaken zoals techniek, de pil en de jaren 60, en over de gevolgen voor mannen, gezinnen en religie. Stefan Paas en David Boogerd bevragen deze stellingen kritisch en nuanceren ze.",
   "summary_points": [
-    "Koerselman wordt vergeleken met Jordan Peterson en kreeg felle kritiek op zijn pamflet Ontvadering",
-    "De klassieke vaderrol verdwijnt doordat techniek mannelijke kracht overbodig maakt",
-    "De pil en emancipatie veranderden de verhouding tussen man en vrouw",
-    "Mitscherlich en Freud voorspelden het verminderde vadergezag",
-    "De jaren 60 waren een opstand van zonen tegen vaders, waarin de zonen wonnen",
-    "Vaderlijke waarden: verantwoordelijkheid, opoffering, bescherming, zelfbeheersing",
-    "Vader staat voor kwaliteitseisen, moeder voor onvoorwaardelijke acceptatie",
-    "Mannen reageren door te vluchten, agressief te worden of zich te onderwerpen",
-    "Drukke ouders vinden het moeilijk grenzen te stellen",
-    "Koerselman relativeert: het zijn luxeproblemen"
+    "Koerselman stelt dat de klassieke vaderrol verdwijnt omdat mannelijke fysieke kracht door techniek overbodig is geworden.",
+    "De pil en emancipatie veranderden de verhouding tussen man en vrouw; moederschap werd een keuze.",
+    "De jaren 60 werden door Koerselman getypeerd als een opstand van zonen tegen autoritaire vaders.",
+    "Mannen vluchten volgens Koerselman uit publieke beroepen en het onderwijs, wat leidt tot doelloosheid en problemen.",
+    "Vaderlijke waarden als verantwoordelijkheid, zelfbeheersing en opoffering staan volgens hem onder druk.",
+    "Paas en Boogerd nuanceren: geslachtsrollen als sociaal geconstrueerd, en de samenleving is niet louter negatief.",
+    "Koerselman verbindt ontvadering met secularisatie: zonder gezaghebbende vader is er geen gezaghebbende God meer.",
+    "Een streng godsbeeld zou depressierisico verhogen, een mild godsbeeld beschermen, volgens VU-onderzoek dat hij aanhaalt.",
+    "Het gesprek eindigt met de stelling dat veel klachten luxeproblemen zijn in een welvarende tijd."
   ],
   "chapters": [
     {
-      "start_seconds": 32,
-      "title": "Psychiaters en de samenleving",
-      "summary": "Waarom psychiaters volle zalen trekken en wat psychiatrie en psychotherapie kunnen zeggen over de samenleving."
+      "start_seconds": 0,
+      "title": "Psychiatrie en de rol van de psychiater",
+      "summary": "Boogerd vraagt waarom psychiaters zo populair zijn en of zij een geestelijke rol vervullen. Koerselman onderscheidt medische psychiatrie en psychotherapie."
     },
     {
-      "start_seconds": 329,
-      "title": "De Nederlandse Jordan Peterson",
-      "summary": "Koerselman over de vergelijking met Peterson en de agressieve reacties op zijn boek."
+      "start_seconds": 300,
+      "title": "Jordan Peterson en de kritiek",
+      "summary": "De vergelijking met Jordan Peterson wordt besproken, evenals de agressieve reacties op Koerselmans boek en het begrip toxische mannelijkheid."
     },
     {
-      "start_seconds": 541,
+      "start_seconds": 540,
       "title": "Wat is ontvadering?",
-      "summary": "Het verdwijnen van de klassieke vaderrol door techniek, de pil en emancipatie."
+      "summary": "Koerselman legt uit dat de klassieke vaderrol verdwijnt, met het paard als metafoor, en verwijst naar Mitscherlich en Freud."
     },
     {
-      "start_seconds": 813,
-      "title": "Freud en de reacties van mannen",
-      "summary": "Castratieangst en de drie strategieën van mannen: vluchten, domineren of zich onderwerpen."
+      "start_seconds": 660,
+      "title": "Oorzaken: techniek, pil en emancipatie",
+      "summary": "Industrialisering, de pil en emancipatie worden genoemd als oorzaken van de veranderde verhouding tussen man en vrouw."
     },
     {
       "start_seconds": 1000,
-      "title": "De jaren 60 als opstand tegen vaders",
-      "summary": "Autoriteit versus autoritair en Koerselmans eigen autoritaire vader."
+      "title": "De jaren 60 en de opstand van zonen",
+      "summary": "Koerselman beschrijft de jaren 60 als generatiekwestie en vertelt over zijn eigen autoritaire vader."
     },
     {
-      "start_seconds": 1346,
-      "title": "Vaderlijke waarden en moederlijke waarden",
-      "summary": "Wat vaderlijke waarden zijn, hun verband met gezag en kwaliteit, en of rollen aan sekse gebonden zijn."
+      "start_seconds": 1410,
+      "title": "Vaderlijke waarden en gezag",
+      "summary": "Waarden als verantwoordelijkheid en zelfbeheersing worden besproken; Louis van Gaal en Den Uyl dienen als voorbeelden. Paas nuanceert met de vergankelijkheid van politiek gezag."
     },
     {
-      "start_seconds": 1800,
-      "title": "Opvoeden in een druk bestaan",
-      "summary": "Grenzen stellen kost energie; de samenleving dwingt ouders tot dubbel werken."
+      "start_seconds": 1900,
+      "title": "Gezin, werk en de moderne samenleving",
+      "summary": "Het gesprek gaat over eenverdieners, belastingen, schermgebruik en de vraag of mannen en vrouwen beide rollen kunnen vervullen."
     },
     {
-      "start_seconds": 2000,
-      "title": "Luxeproblemen en mannen in de top",
-      "summary": "Relativering van de problemen en discussie over vrouwen in topfuncties."
+      "start_seconds": 2180,
+      "title": "Mannen, concurrentie en religie",
+      "summary": "Mannen die vluchten voor concurrentie met vrouwen, en de koppeling tussen godsbeeld, lijden en vaderrol. Freud, Nietzsche en andere atheïsten komen aan bod."
+    },
+    {
+      "start_seconds": 3788,
+      "title": "Eenzaamheid, lijden en afsluiting",
+      "summary": "Koerselman verbindt eenzaamheid bij ouderen met het verlies van godservaring. Het gesprek eindigt met relativering en een vooruitblik naar de volgende aflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 0,
+      "start_seconds": 22,
       "speaker": "Frank Koerselman",
-      "text": "Als wij geen ervaring meer hebben met een gezaghebbende vader, dan kan je dus ook geen ervaring meer hebben met een gezaghebbende God.",
-      "note": "Kernstelling die vader en religie koppelt."
+      "text": "Als je de vader eruit gooit, dan heb je geen God meer.",
+      "note": "Kernstelling van het gesprek die ontvadering aan secularisatie koppelt."
     },
     {
-      "start_seconds": 541,
+      "start_seconds": 2499,
       "speaker": "Frank Koerselman",
-      "text": "Het paard domineerde het straatbeeld, nu zie je ze alleen nog in maneges, want hun kracht is niet meer nodig.",
-      "note": "Beeldende vergelijking tussen paard en man."
+      "text": "Mannen lopen weg.",
+      "note": "Koerselman schetst mannen die uit studie en beroepen vertrekken als reactie op competitie met vrouwen."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 3490,
       "speaker": "Frank Koerselman",
-      "text": "Ik liep met een Vietcong-spelletje om, gewoon om mijn vader te pesten.",
-      "note": "Persoonlijke anekdote over opstand tegen zijn vader."
+      "text": "Het Sinterklaasfeest wordt tegenwoordig liefdevoller ingekleed; de roe is uit beeld.",
+      "note": "Koppeling tussen veranderend vaderbeeld en veranderend godsbeeld, zoals Boogerd samenvat."
     },
     {
-      "start_seconds": 1546,
+      "start_seconds": 4114,
       "speaker": "Frank Koerselman",
-      "text": "Op de kleuterschool leren kinderen: jij doet er ook toe. Het maakt niet uit wat de kwaliteit is; dat verlaagt kwaliteit.",
-      "note": "Scherpe kritiek op het wegvallen van kwaliteitseisen."
+      "text": "Een streng en hard godsbeeld geeft het meeste risico op een depressie; een mild godsbeeld beschermt.",
+      "note": "Koerselman verwijst naar VU-onderzoek en maakt de link tussen godsbeeld en psyche expliciet."
     },
     {
-      "start_seconds": 2263,
+      "start_seconds": 4290,
       "speaker": "Frank Koerselman",
-      "text": "Zodra het 50-50 wordt, zijn de mannen weg.",
-      "note": "Stellige voorspelling over genderverhoudingen."
+      "text": "Laten we ons nou eens niet aanstellen.",
+      "note": "Een vaderlijk slotwoord dat de luxeproblemen van de moderne tijd relativeert; Paas noemt het een vaderlijke afsluiting."
     }
   ],
   "keywords": [
-    "Ontvadering",
-    "vaderschap",
-    "mannelijkheid",
-    "Jordan Peterson",
-    "Sigmund Freud",
-    "Alexander Mitscherlich",
-    "gezag",
-    "jaren 60",
+    "ontvadering",
+    "vaderrol",
+    "verticaal gezag",
+    "secularisatie",
+    "godsbeeld",
+    "toxische mannelijkheid",
+    "Freud",
+    "Mitscherlich",
     "emancipatie",
-    "castratieangst"
+    "eenzaamheid",
+    "depressie",
+    "mannelijkheid"
   ],
   "quotes": [
-    "Als je de vader eruit gooit, dan heb je geen God meer.",
-    "Als wij geen ervaring meer hebben met een gezaghebbende vader, dan kan je dus ook geen ervaring meer hebben met een gezaghebbende God."
+    "Mannen en vaders hebben een probleem.",
+    "In zijn boek 'Ontvadering' beschrijft Koerselman hoe we op weg zijn naar een vaderloze samenleving met alle - ook religieuze - gevolgen van dien."
   ],
   "similar": [
     {
       "n": 15,
-      "reason": "Gert-Jan Segers over de verweesde samenleving die snakt naar een vader; ook in beeld bij #128"
-    },
-    {
-      "n": 249,
-      "reason": "Psychiater Rogier Hoenders over mentale epidemie en psychische druk in de samenleving"
-    },
-    {
-      "n": 287,
-      "reason": "Waarom jongeren vastlopen in een individualistische tijd; opvoeding, zingeving en psyche"
+      "reason": "Verweesde samenleving die naar een vader snakt, sluit direct aan bij ontvadering"
     },
     {
       "n": 33,
-      "reason": "Psychiater Dirk de Wachter over geluk en het goede leven; Dirk de Wachter wordt ook in #128 besproken"
+      "reason": "Dirk de Wachter over zingeving, geluk en seculiere dominee; ook besproken in deze aflevering"
+    },
+    {
+      "n": 126,
+      "reason": "Sander Schimmelpenninck over moraal en grote verhalen; hier ook genoemd als gast"
     },
     {
       "n": 111,
-      "reason": "Psychiater Esther van Fenema over het individu dat zelf God is geworden; psychiatrie, gezag en kerk"
+      "reason": "Verlies van de groep en het individu als God; overlap met gezagsverlies"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

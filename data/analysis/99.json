@@ -1,16 +1,21 @@
 {
   "episode": 99,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110952,
+    "segments": 1125,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31173,
-    "output_tokens": 2492,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57176,
+    "output_tokens": 7707,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Kerk & secularisatie",
     "Bijbel & Jezus",
+    "Kerk & secularisatie",
     "Geschiedenis",
     "Gezin & relaties"
   ],
@@ -20,101 +25,130 @@
   "people": [
     {
       "name": "Michel Foucault",
-      "note": "Franse filosoof over seksualiteit; schreef over celibaat en vroege christenen",
-      "start_seconds": 691,
-      "wiki_checked": true,
-      "wiki_pageid": 28088,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Foucault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michel_Foucault_1974_Brasil.jpg/250px-Michel_Foucault_1974_Brasil.jpg"
-    },
-    {
-      "name": "Richard von Krafft-Ebing",
-      "note": "Duitse zenuwarts die de homoseksuele categorie mee uitvond",
-      "start_seconds": 300,
-      "wiki_checked": true,
-      "wiki_pageid": 779212,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_von_Krafft-Ebing",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Krafft-Ebing_Richard.jpg/250px-Krafft-Ebing_Richard.jpg"
-    },
-    {
-      "name": "Guy Hocquenghem",
-      "note": "Franse filosoof, schreef over Le désir homosexuel",
-      "start_seconds": 846,
-      "wiki_checked": true
-    },
-    {
-      "name": "Gilles Deleuze",
-      "note": "Franse filosoof, auteur van Anti-Oedipus",
-      "start_seconds": 868,
-      "wiki_checked": true,
-      "wiki_pageid": 294703,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gilles_Deleuze",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/AVT_Gilles-Deleuze_6342.webp/250px-AVT_Gilles-Deleuze_6342.webp"
-    },
-    {
-      "name": "Félix Guattari",
-      "note": "Medeauteur van Anti-Oedipus",
-      "start_seconds": 868,
-      "wiki_checked": true,
-      "wiki_pageid": 846988,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/F%C3%A9lix_Guattari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E3%83%95%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AC%E3%82%BF%E3%83%AA.jpg/250px-%E3%83%95%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AC%E3%82%BF%E3%83%AA.jpg"
-    },
-    {
-      "name": "René Girard",
-      "note": "Denker die Sanders noemt als religieus georiënteerde Franse denker",
-      "start_seconds": 1120,
-      "wiki_checked": true,
-      "wiki_pageid": 171520,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Girard_%28menswetenschapper%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ren%C3%A9_Girard.jpg/250px-Ren%C3%A9_Girard.jpg"
-    },
-    {
-      "name": "Michel de Certeau",
-      "note": "Franse denker met religieuze belangstelling",
-      "start_seconds": 1120,
-      "wiki_checked": true,
-      "wiki_pageid": 1174876,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_de_Certeau"
-    },
-    {
-      "name": "Paus Franciscus",
-      "note": "Zegt nooit iemand de communie te hebben geweigerd",
-      "start_seconds": 988,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "Franse filosoof; Sanders verdedigde zijn denkbeelden in een VPRO-uitzending en Foucault's laatste boek over celibaat komt aan bod",
+      "start_seconds": 693,
+      "mention_count": 6
     },
     {
       "name": "Paulus",
-      "note": "Apostel: beter te trouwen dan te branden van begeerte",
-      "start_seconds": 1539,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "apostel; citaat over trouwen versus branden van begeerte en de tekst uit Romeinen 1",
+      "start_seconds": 1532,
+      "mention_count": 10
+    },
+    {
+      "name": "Richard von Krafft-Ebing",
+      "note": "19e-eeuwse Duitse zenuwarts (katholiek) die homoseksualiteit als identiteit beschreef",
+      "start_seconds": 301,
+      "mention_count": 5
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "paus; zou nog nooit iemand de communie hebben geweigerd",
+      "start_seconds": 987,
+      "mention_count": 2
+    },
+    {
+      "name": "Gilles Deleuze",
+      "note": "Franse filosoof; medeauteur van Anti-Oedipus",
+      "start_seconds": 868,
+      "mention_count": 1
+    },
+    {
+      "name": "Félix Guattari",
+      "note": "Franse filosoof; medeauteur van Anti-Oedipus",
+      "start_seconds": 868,
+      "mention_count": 1
+    },
+    {
+      "name": "Guy Hocquenghem",
+      "note": "Franse filosoof over het homoseksuele verlangen",
+      "start_seconds": 846,
+      "mention_count": 1
+    },
+    {
+      "name": "René Girard",
+      "note": "denker die Sanders noemt als christelijke denker na een religieuze wending",
+      "start_seconds": 1119,
+      "mention_count": 1
+    },
+    {
+      "name": "Michel de Certeau",
+      "note": "jezuïet en denker die Sanders noemt als christelijke denker",
+      "start_seconds": 1119,
+      "mention_count": 1
+    },
+    {
+      "name": "Kwame Anthony Appiah",
+      "note": "Amerikaans filosoof; schreef over eercodes",
+      "start_seconds": 2580,
+      "mention_count": 1
+    },
+    {
+      "name": "Stanley Hauerwas",
+      "note": "Amerikaans theoloog over de minderheidsbeweging van christenen en homo's",
+      "start_seconds": 3183,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Kellendonk",
+      "note": "schrijver over wie Sanders een lezing hield in Nijmegen",
+      "start_seconds": 3227,
+      "mention_count": 1
+    },
+    {
+      "name": "Graham Ward",
+      "note": "Engelse theoloog over de instabiliteit van het lichaam van Christus",
+      "start_seconds": 3620,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "schrijver die in de jaren 60 in de Vondelkerk een homohuwelijk-achtige viering hield",
+      "start_seconds": 3823,
+      "mention_count": 1
+    },
+    {
+      "name": "Pater van Kilsdonk",
+      "note": "katholieke psychiater en pionier van acceptatie van homoseksualiteit",
+      "start_seconds": 3755,
+      "mention_count": 1
+    },
+    {
+      "name": "Dominee Klamer",
+      "note": "progressief hervormd predikant en pionier van homo-emancipatie",
+      "start_seconds": 3755,
+      "mention_count": 1
+    },
+    {
+      "name": "David Bos",
+      "note": "onderzoeker die de geschiedenis van kerkelijke zegening van paren van gelijk geslacht beschreef",
+      "start_seconds": 3077,
+      "mention_count": 2
+    },
+    {
+      "name": "Bart Luyrink",
+      "note": "columnist in De Waarheid die het CDA-voorstel voor homohuwelijk bekritiseerde",
+      "start_seconds": 3127,
+      "mention_count": 1
     },
     {
       "name": "Lot",
-      "note": "Rechtvaardige uit het Sodom-verhaal",
+      "note": "bijbelse figuur uit Sodom en Gomorra (Genesis 19)",
       "start_seconds": 2159,
-      "wiki_checked": true
+      "mention_count": 3
+    },
+    {
+      "name": "Jezus Christus",
+      "note": "in het evangelie de vrouw die op overspel is betrapt",
+      "start_seconds": 3666,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "Anti-Oedipus",
       "author": "Gilles Deleuze en Félix Guattari",
-      "note": "Bijbel van atheïsten en agnosten in de jaren 70",
+      "note": "Franse boek uit de jaren 70 dat populair was bij atheïsten en agnosten",
       "start_seconds": 868,
       "volume_id": "hH8zEAAAQBAJ",
       "canonical_title": "Anti-Oedipus: Kapitalisme en schizofrenie",
@@ -122,152 +156,190 @@
       "isbn13": "9789025909864",
       "isbn10": "9025909868",
       "thumbnail": "http://books.google.com/books/content?id=hH8zEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Le désir homosexuel",
+      "author": "Guy Hocquenghem",
+      "note": "boek over het homoseksuele verlangen",
+      "start_seconds": 846,
+      "volume_id": "cy5pYgEACAAJ",
+      "canonical_title": "Le désir homosexuel",
+      "canonical_author": "Guy Hocquenghem",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "The Honor Code",
+      "author": "Kwame Anthony Appiah",
+      "note": "boek over hoe eergevoelens door de tijd veranderen",
+      "start_seconds": 2580,
+      "volume_id": "-dBqwJO8ZZsC",
+      "canonical_title": "The Honor Code: How Moral Revolutions Happen",
+      "canonical_author": "Kwame Anthony Appiah",
+      "isbn13": "9780393080711",
+      "isbn10": "0393080714",
+      "thumbnail": "http://books.google.com/books/content?id=-dBqwJO8ZZsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Genesis 19",
-      "note": "Sodom en Gomorra: schending van gastrecht, niet per se homoseksualiteit",
-      "start_seconds": 2088
+      "note": "verhaal van Lot en Sodom; de mannen van Sodom willen de bezoekers verkrachten, besproken als schending van het gastrecht",
+      "start_seconds": 2159
     },
     {
       "ref": "Leviticus 18:22",
-      "note": "Verbod op 'bij een man liggen zoals bij een vrouw'; context van eer en andere voorschriften",
-      "start_seconds": 2206
+      "note": "voorschrift dat een man niet bij een man mag liggen zoals bij een vrouw",
+      "start_seconds": 2254
     },
     {
-      "ref": "1 Korintiërs 7:9",
-      "note": "Beter te trouwen dan te branden van begeerte",
-      "start_seconds": 1533
+      "ref": "Romeinen 1",
+      "note": "Paulus' lijst van zondige gedragingen, besproken met aandacht voor retoriek",
+      "start_seconds": 2672
+    },
+    {
+      "ref": "Romeinen 2:1",
+      "note": "Paulus richt zich tot de vrome lezer die anderen veroordeelt",
+      "start_seconds": 2751
+    },
+    {
+      "ref": "Hooglied",
+      "note": "liefdespoëzie die de bruidsmystiek in het christelijk geloof voedt",
+      "start_seconds": 3544
+    },
+    {
+      "ref": "Johannes 8:7",
+      "note": "Jezus en de vrouw die op overspel is betrapt: wie zonder zonde is, werpe de eerste steen",
+      "start_seconds": 3680
     }
   ],
   "places": [
     "Amsterdam",
     "Twente",
     "Parijs",
-    "Afrika",
-    "Zuid-Frankrijk",
+    "Nijmegen",
+    "Rome",
     "Sodom"
   ],
-  "summary_tldr": "Stephan Sanders vertelt over zijn leven als homoseksuele katholiek en over hoe homoseksualiteit en geloof samenhangen. Met Stefan Paas bespreken ze de geschiedenis van homoseksuele identiteit en de christelijke seksuele moraal sinds de Oudheid. Ook wijzen ze op de lastige interpretatie van bijbelteksten.",
+  "summary_tldr": "David Boogerd en Stefan Paas spreken met Stephan Sanders over de moeizame verhouding tussen homoseksualiteit en geloof. Sanders, homoseksueel en katholiek, legt uit dat de homoseksuele identiteit pas in de 19e eeuw ontstond en dat de Bijbel en de kerkgeschiedenis veel complexer zijn dan vaak wordt aangenomen. Het gesprek eindigt met de vraag hoe gelovige homo's zich verhouden tot een kerk die homoseksualiteit officieel afkeurt.",
   "summary_points": [
-    "Homoseksuele identiteit is een negentiende-eeuwse uitvinding; eerder ging het om gedrag.",
-    "Sanders zag zijn homoseksualiteit lang als beloning en uitverkiezing, maar ziet dat nu als gevaarlijk.",
-    "Zijn geloofsbekering rond zijn vijftigste was moeilijker dan zijn homoseksuele coming-out.",
-    "In de katholieke praktijk worden homoseksuelen niet geweigerd bij de communie, ondanks de leer.",
-    "Sanders ervaart zijn bijzondere buitenstaanderspositie als vruchtbaar en strijdbaar makend.",
-    "Jongeren met zowel een reformatorische als homoseksuele identiteit zitten klem tussen twee minderheidsculturen.",
-    "In de Griekse en Romeinse wereld draaide seks om macht en eer; het christendom bracht een revolutie in seksuele moraal.",
-    "Bijbelteksten als Sodom en Leviticus zijn moeilijk te duiden; de vraag is wat precies wordt afgekeurd."
+    "De homoseksuele identiteit als categorie is een 19e-eeuws concept; in de oudheid ging het om ontspoorde lust in plaats van een vaste aard.",
+    "Sanders beschrijft zijn eigen ontdekking van homoseksualiteit op jonge leeftijd en zijn latere terugkeer naar het katholieke geloof op zijn 50e.",
+    "In de praktijk verschilt het katholieke leerstellige verbod op praktiserende homoseksualiteit sterk van de dagelijkse kerkpraktijk.",
+    "Bijbelteksten zoals Sodom en Gomorra en Romeinen 1 vragen om zorgvuldige contextlezing; wat er precies wordt afgekeurd blijft de kernvraag.",
+    "De christelijke seksuele moraal, vanaf de 5e-6e eeuw, plaatste ongeordende seksualiteit in één categorie met overspel en prostitutie.",
+    "Homo-emancipatie in Nederland had ook christelijke wortels, zoals progressieve katholieke psychiaters en de zegening van paren door enkele kerken.",
+    "Sanders stelt dat homoseksuelen een soort 'voorsprong' hebben in de kerk door hun ervaringsweten van een onontkoombare roeping, vergelijkbaar met bevindelijke openbaringservaringen.",
+    "Het celibaat is een latere ontwikkeling en de vraag naar celibatair leven als keuze wordt als persoonlijke vrijheid gezien, niet als kerkelijke verplichting.",
+    "Paas en Sanders bespreken het dilemma van pastorale zorg: wat zeg je als theoloog of predikant tegen gelovigen die anders leven dan de leer voorschrijft?"
   ],
   "chapters": [
     {
-      "start_seconds": 88,
-      "title": "Terug bij Stephan Sanders",
-      "summary": "Introductie en terugblik op aflevering 32 en Sanders' bekering."
+      "start_seconds": 0,
+      "title": "Introductie en welkom",
+      "summary": "Boogerd introduceert het onderwerp en Sanders' eerdere aflevering over zijn bekering tot het katholicisme."
     },
     {
-      "start_seconds": 235,
-      "title": "Homostudies en de uitvinding van de homoseksuele identiteit",
-      "summary": "Sanders legt uit dat homoseksuele identiteit een negentiende-eeuwse categorie is."
+      "start_seconds": 296,
+      "title": "Homostudies en de uitvinding van de identiteit",
+      "summary": "Sanders legt uit dat de homoseksuele identiteit een 19e-eeuws concept is, met Krafft-Ebbing als belangrijke figuur."
     },
     {
       "start_seconds": 408,
-      "title": "Jeugd en trots op het homo-zijn",
-      "summary": "Over zijn puberteit, het clubje BIP, Foucault en het gevoel van uitverkiezing."
+      "title": "Persoonlijke ontdekking en de jaren 80",
+      "summary": "Sanders vertelt over zijn puberteit, zijn gevoel van uitverkoren zijn en zijn Foucault-geïnspireerde theorieën."
     },
     {
-      "start_seconds": 930,
-      "title": "Homo en katholiek",
-      "summary": "Over de katholieke leer versus praktijk, communie en de tweede coming-out als gelovige."
+      "start_seconds": 1020,
+      "title": "Katholieke leer versus praktijk",
+      "summary": "Het gesprek gaat over de officiële leer, de communie en de vraag of homo's ooit geweigerd worden."
     },
     {
-      "start_seconds": 1290,
-      "title": "Buitenstaander in de kerk en celibaat",
-      "summary": "Sanders over zijn apartgezette positie en over het celibaat als deugd en institutie."
+      "start_seconds": 1063,
+      "title": "Christelijke seksuele moraal en het celibaat",
+      "summary": "Paas schetst de historische verschuiving van de Griekse en Romeinse wereld naar de christelijke seksuele moraal."
     },
     {
-      "start_seconds": 1608,
-      "title": "Dubbele minderheden en leed",
-      "summary": "Paas en Boogerd bespreken de pijn bij gelovige homoseksuele jongeren."
+      "start_seconds": 1755,
+      "title": "Bijbelteksten in context",
+      "summary": "Sodom, Leviticus en Romeinen 1 worden besproken, met aandacht voor retoriek en de vraag wat precies wordt afgekeurd."
     },
     {
-      "start_seconds": 1738,
-      "title": "Geschiedenis van de christelijke seksuele moraal",
-      "summary": "Paas schetst de Grieks-Romeinse wereld en de christelijke revolutie in seksuele moraal."
-    },
-    {
-      "start_seconds": 2042,
-      "title": "De Bijbel en homoseksualiteit",
-      "summary": "Bespreking van Sodom, Leviticus en de vraag wat precies wordt afgekeurd."
+      "start_seconds": 3720,
+      "title": "Emancipatie, secularisatie en pastorale dilemma's",
+      "summary": "Het gesprek eindigt met de rol van kerken in emancipatie, celibaat als keuze en de vraag hoe predikanten moeten spreken over seks."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 793,
+      "start_seconds": 4150,
       "speaker": "Stephan Sanders",
-      "text": "Het is natuurlijk een heel gevaarlijk iets om je uitverkoren te voelen.",
-      "note": "Zelfkritische terugblik op zijn trots als jonge homo."
+      "text": "Ik ben ook wel iets meer dan alleen maar homo. Ik ben ook gelovig.",
+      "note": "Sanders wijst de reductie van zijn identiteit tot seksualiteit af en maakt het geloof centraal."
     },
     {
-      "start_seconds": 988,
+      "start_seconds": 3268,
       "speaker": "Stephan Sanders",
-      "text": "Paus Franciscus zegt: ik heb nog nooit iemand de communie geweigerd.",
-      "note": "Laat het verschil tussen leer en praktijk zien."
+      "text": "Ik wil het niet, maar ik moet het wel aannemen.",
+      "note": "Sanders vergelijkt zijn homoseksuele ontdekking met een religieuze openbaring die zich opdringt."
     },
     {
-      "start_seconds": 1456,
-      "speaker": "Stephan Sanders",
-      "text": "De homoseksuele katholiek is gehouden aan het celibaat, waardoor je ze eigenlijk tot priesters maakt.",
-      "note": "Scherpe observatie over uitverkiezing en celibaat."
-    },
-    {
-      "start_seconds": 1983,
-      "speaker": "Stephan Sanders",
-      "text": "Het crimen nefandum: de misdaad die geen naam mag hebben; je was het alleen als je op heterdaad werd betrapt.",
-      "note": "Verheldert het verschil tussen gedrag en identiteit."
-    },
-    {
-      "start_seconds": 2204,
+      "start_seconds": 3711,
       "speaker": "Stefan Paas",
-      "text": "In Sodom gaat het niet over homoseksualiteit maar over een gruwelijke schending van het gastrecht.",
-      "note": "Nuanceert een veelgebruikte bijbeltekst."
+      "text": "Ik denk dat er weinig boeken zijn waar mannen voortdurend bruid genoemd worden.",
+      "note": "Een onverwachte kanttekening tegen het beeld van de Bijbel als louter patriarchaal boek."
+    },
+    {
+      "start_seconds": 4110,
+      "speaker": "Stephan Sanders",
+      "text": "Vanaf de kansel of de preekstoel moet je nooit beginnen over seks in de kerk.",
+      "note": "Een scherp pastoraal advies aan predikanten en pastoors."
+    },
+    {
+      "start_seconds": 1532,
+      "speaker": "Stefan Paas",
+      "text": "Beter te trouwen dan te branden van begeerte.",
+      "note": "Paulus' bekende uitspraak wordt gebruikt om celibaat als individuele deugd te duiden."
     }
   ],
   "keywords": [
     "homoseksualiteit",
     "katholicisme",
-    "Stephan Sanders",
     "celibaat",
+    "Sodom",
+    "Romeinen 1",
+    "seksuele identiteit",
+    "secularisatie",
+    "bevindelijkheid",
+    "openbaring",
     "Michel Foucault",
-    "seksuele moraal",
-    "Sodom en Gomorra",
-    "Leviticus",
-    "identiteit",
-    "coming-out",
-    "buitenstaander"
+    "homohuwelijk",
+    "Bijbelhermeneutiek"
   ],
-  "quotes": [],
+  "quotes": [
+    "Als je denkt te weten hoe het zit met homoseksualiteit, geloof en de kerk ga je nog verrast worden deze aflevering.",
+    "Een combinatie die vaak moeizaam lijkt, maar diepere gronden kent dan je misschien verwacht.",
+    "Schrijver en journalist Stephan Sanders over zijn bekering tot het christelijke geloof op latere leeftijd."
+  ],
   "similar": [
     {
-      "n": 32,
-      "reason": "Zelfde gast Stephan Sanders, over geloof, katholicisme en tot geloof komen"
-    },
-    {
-      "n": 283,
-      "reason": "Seksuele moraal, geschiedenis van seksualiteit en een nieuwe lezing van Jezus"
-    },
-    {
       "n": 76,
-      "reason": "Seksuele revolutie, seksuele ethiek en geloof, met Stefan Paas"
-    },
-    {
-      "n": 70,
-      "reason": "Katholieke kerk, geloof en identiteit in relatie tot seksualiteit en gender"
+      "reason": "Seksuele revolutie en geloof, met thema's Gezin & relaties en God & geloof"
     },
     {
       "n": 39,
-      "reason": "Christendom, gender en bijbelinterpretatie rond vrouwen en seksuele moraal"
+      "reason": "Christendom en gender in de kerk, met Gezin & relaties en Kerk & secularisatie"
+    },
+    {
+      "n": 283,
+      "reason": "Seksualiteit en Jezus-beeld, met Gezin & relaties en Bijbel & Jezus"
+    },
+    {
+      "n": 70,
+      "reason": "Kerkgang en progressief denken over kerk en seksualiteit, met Gezin & relaties"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

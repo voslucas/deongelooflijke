@@ -1,134 +1,169 @@
 {
   "episode": 266,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 97482,
+    "segments": 952,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30543,
-    "output_tokens": 2786,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49019,
+    "output_tokens": 3732,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Bijbel & Jezus",
     "Kunst & cultuur",
-    "God & geloof",
-    "Technologie & AI",
-    "Filosofie & ethiek"
+    "Geschiedenis",
+    "Technologie & AI"
   ],
   "guests": [
     "Catharinus van den Berg"
   ],
   "people": [
     {
-      "name": "Wilhelm von Humboldt",
-      "note": "Duitse diplomaat en wetenschapper die rond 1800 de term Bildung muntte",
-      "start_seconds": 493,
-      "wiki_checked": true,
-      "wiki_pageid": 502939,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wilhelm_von_Humboldt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/W.v.Humboldt.jpg/250px-W.v.Humboldt.jpg"
+      "name": "Catharinus van den Berg",
+      "note": "gast; schrijver, dichter, theoloog en geestelijk verzorger bij het Leger des Heils",
+      "start_seconds": 5,
+      "mention_count": 30
     },
     {
-      "name": "Plato",
-      "note": "Filosoof van het Ware, het Schone en het Goede",
-      "start_seconds": 40,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "name": "Stefan Paas",
+      "note": "vaste gast; theoloog en hoogleraar aan de VU en Theologische Universiteit Utrecht",
+      "start_seconds": 19,
+      "mention_count": 40
+    },
+    {
+      "name": "Wilhelm von Humboldt",
+      "note": "Duitse diplomaat en wetenschapper die de term Bildung muntte rond 1800",
+      "start_seconds": 485,
+      "mention_count": 6
     },
     {
       "name": "Friedrich Nietzsche",
-      "note": "Filosoof van de Übermensch, verdeelt mensen in hogere en lagere soorten",
+      "note": "filosoof die het Übermensch-concept populariseerde",
       "start_seconds": 650,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "mention_count": 1
     },
     {
       "name": "Adolf Hitler",
-      "note": "Nazi-leider met rassenideologie",
-      "start_seconds": 663,
-      "wiki_checked": true,
-      "wiki_pageid": 83,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Adolf_Hitler",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/250px-Hitler_portrait_crop.jpg"
+      "note": "noemt door Van den Berg als voorbeeld van misbruik van het elitaire ideaal van Bildung",
+      "start_seconds": 650,
+      "mention_count": 1
     },
     {
       "name": "Gerrit Kouwenaar",
-      "note": "Dichter van het gedicht 'Herzien wij' (1953)",
-      "start_seconds": 867,
-      "wiki_checked": true,
-      "wiki_pageid": 232706,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerrit_Kouwenaar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Gerrit_Kouwenaar.jpg/250px-Gerrit_Kouwenaar.jpg"
-    },
-    {
-      "name": "Jan van Eyck",
-      "note": "Vlaamse schilder van de Madonna bij de fontein",
-      "start_seconds": 1926,
-      "wiki_checked": true,
-      "wiki_pageid": 859,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_van_Eyck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg/250px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg"
-    },
-    {
-      "name": "Guido Gezelle",
-      "note": "Vlaamse dichter en priester, 'Mij spreekt de blomme een tale'",
-      "start_seconds": 2384,
-      "wiki_checked": true,
-      "wiki_pageid": 29586,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Guido_Gezelle",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Guido_Gezelle.jpg/250px-Guido_Gezelle.jpg"
-    },
-    {
-      "name": "Gabriel van den Brink",
-      "note": "Socioloog, eerdere gast: niemand staat op zichzelf",
-      "start_seconds": 1228,
-      "wiki_checked": true
-    },
-    {
-      "name": "Augustinus",
-      "note": "Kerkvader, Belijdenissen",
-      "start_seconds": 1170,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Vincent van Gogh",
-      "note": "Schilder, schilderij waarover David schreef",
-      "start_seconds": 1090,
-      "wiki_checked": true,
-      "wiki_pageid": 2043858,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vincent_van_Gogh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/250px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+      "note": "Nederlands dichter; schreef het gedicht 'Herzien wij' (1953)",
+      "start_seconds": 874,
+      "mention_count": 3
     },
     {
       "name": "Meneer Kisteman",
-      "note": "Docent Nederlands van Catharinus die gedichten liet leren",
-      "start_seconds": 823,
-      "wiki_checked": true
+      "note": "Van den Berg's middelbare-schooldocent Nederlands die gedichten onderwees",
+      "start_seconds": 793,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan van Eyck",
+      "note": "schilder van 'Madonna bij de fontein'",
+      "start_seconds": 1920,
+      "mention_count": 3
+    },
+    {
+      "name": "Guido Gezelle",
+      "note": "Vlaamse dichter die over natuurervaring en geloof schreef",
+      "start_seconds": 2380,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader; beschreef in de Belijdenissen het bekeringsverhaal van twee mannen in Trier",
+      "start_seconds": 3660,
+      "mention_count": 3
+    },
+    {
+      "name": "Ambrosius van Milaan",
+      "note": "bisschop en leermeester van Augustinus",
+      "start_seconds": 3720,
+      "mention_count": 1
+    },
+    {
+      "name": "Constantijn de Grote",
+      "note": "Romeinse keizer; liet de troonzaal in Trier bouwen",
+      "start_seconds": 3480,
+      "mention_count": 2
+    },
+    {
+      "name": "Plato",
+      "note": "filosoof; bron van het ware, het schone en het goede",
+      "start_seconds": 1020,
+      "mention_count": 2
+    },
+    {
+      "name": "Roger Scruton",
+      "note": "filosoof wiens ideeën Thierry Baudet navolgde",
+      "start_seconds": 3980,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Nederlands politicus; genoemd in verband met klassieke cultuur",
+      "start_seconds": 3990,
+      "mention_count": 1
+    },
+    {
+      "name": "Meneer Van Dam",
+      "note": "Van den Berg's middelbare-schooldocent die programmeren onderwees",
+      "start_seconds": 230,
+      "mention_count": 1
+    },
+    {
+      "name": "Gabriel van der Brink",
+      "note": "gast van een eerdere uitzending over verbondenheid",
+      "start_seconds": 1240,
+      "mention_count": 1
+    },
+    {
+      "name": "Van Gogh",
+      "note": "schilder; schilderij dat David Boogerd inspireerde",
+      "start_seconds": 1900,
+      "mention_count": 1
+    },
+    {
+      "name": "Willibrord",
+      "note": "eerste bisschop van Utrecht rond 700",
+      "start_seconds": 3780,
+      "mention_count": 1
+    },
+    {
+      "name": "Valerius",
+      "note": "eerste bisschop van Trier rond 250",
+      "start_seconds": 3780,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Herzien wij",
+      "author": "Gerrit Kouwenaar",
+      "note": "gedicht uit 1953 over taal na de oorlog",
+      "start_seconds": 870,
+      "volume_id": "-yr1wwEACAAJ",
+      "canonical_title": "Vijf 5 tigers : een bloemlezing uit het werk van Remco Campert, Jan Elburg, Gerrit Kouwenaar, Lucebert, Bert Schierbeek",
+      "canonical_author": "Gerrit Kouwenaar",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
       "title": "Belijdenissen",
       "author": "Augustinus",
-      "note": "Een luisteraar kocht het na de podcast",
-      "start_seconds": 1170,
+      "note": "bespreking van het armoede-ideaal en bekering van twee jonge mannen in Trier",
+      "start_seconds": 3660,
       "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
+      "canonical_title": "Belijdenissen / druk 14",
       "canonical_author": "Aurelius Augustinus",
       "isbn13": "9789026321023",
       "isbn10": "9026321023",
@@ -137,169 +172,187 @@
     {
       "title": "Losbandige jeugd",
       "author": "",
-      "note": "Historische studie over jongerenproblematiek in het Amsterdam van de 16e eeuw",
-      "start_seconds": 1764,
+      "note": "historische studie over jongerenproblematiek",
+      "start_seconds": 1790,
       "volume_id": "lKzLCQpeyoYC",
-      "canonical_title": "Losbandige jeugd: jongeren en moraal in de Nederlanden tijdens de late Middeleeuwen en de Vroegmoderne Tijd",
+      "canonical_title": "Losbandige jeugd",
       "canonical_author": "Leendert Groenendijk, Benjamin Roberts",
       "isbn13": "9789065507938",
       "isbn10": "9065507930",
       "thumbnail": "http://books.google.com/books/content?id=lKzLCQpeyoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Aslander-trilogie",
+      "author": "Catharinus van den Berg",
+      "note": "detectivereeks van Van den Berg",
+      "start_seconds": 4080
     }
   ],
   "bible_refs": [
     {
-      "ref": "Prediker 3:16",
-      "note": "Ik zag de plaats van het recht en daar heerste onrecht",
-      "start_seconds": 1824
+      "ref": "Prediker 3",
+      "note": "verwijzing naar 'er is niets beter dan dat de mens zich verheugt in zijn werken'",
+      "start_seconds": 1830
     },
     {
-      "ref": "Prediker 3:21",
-      "note": "Wie weet of de adem van de mens opstijgt en die van het dier neerdaalt",
-      "start_seconds": 1824
+      "ref": "Psalm 88",
+      "note": "depressieve psalm die God ter verantwoording roept",
+      "start_seconds": 3540
     },
     {
-      "ref": "Prediker 3:22",
-      "note": "Niets beters dan dat de mens vreugde vindt in zijn werk",
-      "start_seconds": 1840
+      "ref": "Matteüs 28",
+      "note": "doopopdracht van Jezus; besproken door Paas en Van den Berg",
+      "start_seconds": 3000
+    },
+    {
+      "ref": "Handelingen 1",
+      "note": "Matthias als vervanger van Judas als apostel",
+      "start_seconds": 3780
     }
   ],
   "places": [
+    "Trier",
+    "Lemelerberg",
+    "Ommen",
     "Gent",
     "Brugge",
-    "Amsterdam",
-    "Berlijn",
-    "Gaza",
     "Duitsland",
-    "Dura-Europos",
-    "Afghanistan"
+    "Amsterdam",
+    "Utrecht",
+    "Dwingeloo",
+    "Gaza",
+    "Berlijn",
+    "Afghanistan",
+    "Pakistan"
   ],
-  "summary_tldr": "David Boogerd kondigt het nieuwe online platform van De Ongelooflijke aan en spreekt met Catharinus van den Berg en Stefan Paas over Bildung: het vormen van jezelf door kennis, schoonheid en moreel oordeelsvermogen. Ze bespreken AI, kunst, poëzie en Van Eycks Madonna bij de fontein, en Catharinus vertelt over zijn atheïsme en de bevroren waterval die hem terugbracht bij een vermoeden van God.",
+  "summary_tldr": "Catharinus van den Berg en Stefan Paas bespreken met David Boogerd het ideaal van Bildung: vorming via kennis, kritische zin, schoonheid en morele oriëntatie. Ze verbinden dit met de uitdagingen van AI, het belang van leermeesters en traditie, en Van den Berg's persoonlijke weg van atheïsme terug naar geloof. Het gesprek introduceert ook het nieuwe platform van De Ongelooflijke rond het ware, het schone en het goede.",
   "summary_points": [
-    "De Ongelooflijke start een Substack-platform met twee artikelen per week over geschiedenis, kunst en geloof.",
-    "Bildung is meer dan kennis of vaardigheden: het gaat om het Ware, het Goede en het Schone.",
-    "In het AI-tijdperk blijft kennis nodig om de juiste vragen te stellen en antwoorden te toetsen.",
-    "Het ideaal van Bildung had van meet af aan een elitaire kant, van Humboldt tot Nietzsche en Hitler.",
-    "Cultuur en schoonheid garanderen geen moreel kompas, zoals de scène uit Schindler's List laat zien.",
-    "Als geestelijk verzorger helpt Catharinus' vorming hem om te gaan met complexe levensverhalen; Prediker biedt troost zonder quick fix.",
-    "Kennis verdiept schoonheid: Van Eycks Madonna bij de fontein heeft een rijke Bijbelse en kunsthistorische achtergrond.",
-    "Catharinus' bevroren waterval was het keerpunt van fanatiek atheïsme naar erkenning van een vermoeden van God."
+    "Bildung, een term van Wilhelm von Humboldt, staat centraal als vorming van kennis, oordeelsvermogen en morele zin.",
+    "Kennis blijft nodig ondanks AI; je moet weten welke vragen je stelt en AI-antwoorden kritisch kunnen toetsen.",
+    "Het ideaal van Bildung werd door Nietzsche en later het nazisme misbruikt om mensen in hogere en lagere soorten te verdelen.",
+    "Kunst en schoonheid, zoals Van Eyck's Madonna bij de fontein, openen de wereld en versterken het begrip ervan.",
+    "Van den Berg beschrijft zijn ervaring als geestelijk verzorger bij het Leger des Heils en het belang van vorming in moeilijke levens.",
+    "Gedichten van Kouwenaar en de Prediker bieden taal voor existentiële vragen over zin en God.",
+    "Van den Berg vertelt over zijn atheïstische fase en hoe een bevroren waterval hem opnieuw met het vermoeden van God confronteerde.",
+    "Het gesprek onderscheidt persoonlijke overtuiging van bekeringsdrang en benadrukt respect voor andermans geloofsroute.",
+    "Traditie wordt onderscheiden van museaal verleden; een levende traditie vraagt om kritische betrokkenheid.",
+    "De aflevering kondigt het nieuwe platform van De Ongelooflijke aan, met wekelijkse verdiepende artikelen over kunst, geschiedenis en geloof."
   ],
   "chapters": [
     {
-      "start_seconds": 40,
-      "title": "Introductie nieuw platform",
-      "summary": "David presenteert het nieuwe online platform en introduceert Catharinus van den Berg."
+      "start_seconds": 0,
+      "title": "Introductie en Bildung",
+      "summary": "Presentatie van gasten en het platform; begin van het gesprek over Bildung en het belang van kennis in het AI-tijdperk."
     },
     {
-      "start_seconds": 142,
-      "title": "Bildung in tijden van AI",
-      "summary": "Over kennis versus vaardigheden, AI die fabuleert en de noodzaak van kennis om goede vragen te stellen."
+      "start_seconds": 480,
+      "title": "Humboldt, Nietzsche en de elitaire valkuil",
+      "summary": "Bespreking van de oorsprong van Bildung en hoe het ideaal werd misbruikt."
     },
     {
-      "start_seconds": 493,
-      "title": "Von Humboldt en het elitaire van Bildung",
-      "summary": "De oorsprong van Bildung, het onderscheid tussen hoger en lager onderwijs en de donkere kant via Nietzsche en Hitler."
+      "start_seconds": 870,
+      "title": "Gedichten als vorming",
+      "summary": "Van den Berg vertelt over zijn lerares en het gedicht 'Herzien wij' van Kouwenaar."
     },
     {
-      "start_seconds": 823,
-      "title": "Poëzie als vorming",
-      "summary": "Catharinus vertelt over zijn docent Kisteman en het gedicht 'Herzien wij' van Gerrit Kouwenaar."
+      "start_seconds": 1380,
+      "title": "Platform en leermeesters",
+      "summary": "Het nieuwe platform van De Ongelooflijke en de rol van leermeesters en morele vorming."
     },
     {
-      "start_seconds": 1090,
-      "title": "Het platform en volksverheffing",
-      "summary": "David legt uit wat het platform inhoudt en bespreekt de verantwoordelijkheid van een gevormde elite."
+      "start_seconds": 1920,
+      "title": "Van Eyck en de Madonna bij de fontein",
+      "summary": "Van den Berg en Boogerd bespreken het schilderij en de symboliek van de fontein."
     },
     {
-      "start_seconds": 1470,
-      "title": "Moreel kompas en het Leger des Heils",
-      "summary": "Over de grenzen van Bildung, Gaza en hoe geschiedenis en Prediker helpen bij onoplosbaar leed."
+      "start_seconds": 2340,
+      "title": "Van atheïsme naar geloof",
+      "summary": "Van den Berg vertelt over zijn atheïstische periode, de bevroren waterval en het weer opdukken van zijn geloof."
     },
     {
-      "start_seconds": 1919,
-      "title": "Van Eycks Madonna bij de fontein",
-      "summary": "Catharinus en David bespreken detaillering, symboliek en Bijbelse achtergrond van het schilderij."
+      "start_seconds": 3420,
+      "title": "Heilige plekken: Lemelerberg en Trier",
+      "summary": "Beschrijving van de Dikke Steen, de basiliek van Trier en het verhaal van Augustinus."
     },
     {
-      "start_seconds": 2217,
-      "title": "De bevroren waterval",
-      "summary": "Catharinus vertelt over zijn atheïstische periode en de ervaring die hem terugbracht tot een vermoeden van God."
+      "start_seconds": 4020,
+      "title": "Traditie, veranderen en afsluiting",
+      "summary": "Discussie over levende traditie versus museaal verleden, en de aankondiging van vervolgafleveringen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 323,
-      "speaker": "Stefan Paas",
-      "text": "AI is een beetje als een patiënt in de eerste fase van Alzheimer: het gaat fabuleren als het niet meer helemaal weet.",
-      "note": "Scherpe vergelijking over AI-hallucinaties."
-    },
-    {
-      "start_seconds": 1518,
-      "speaker": "Stefan Paas",
-      "text": "Heel veel geleerd hebben en verstand hebben van schoonheid is blijkbaar niet voldoende om moreel een zuiver kompas te hebben.",
-      "note": "Kritische kanttekening bij het Bildung-ideaal."
-    },
-    {
-      "start_seconds": 1884,
+      "start_seconds": 2025,
       "speaker": "Catharinus van den Berg",
-      "text": "Er is geen quick fix.",
-      "note": "Wat Prediker hem leert over leed."
+      "text": "Ik heb mezelf dicht laten vriezen.",
+      "note": "Treffende metafoor voor zijn atheïsme, verbonden aan de bevroren waterval."
     },
     {
-      "start_seconds": 2066,
-      "speaker": "Catharinus van den Berg",
-      "text": "Van Eyck heeft zo achterlijk goed gekeken naar wat hij zag dat hij het opspringende water kon vastleggen.",
-      "note": "Bewondering voor detail in het schilderij."
-    },
-    {
-      "start_seconds": 2281,
-      "speaker": "Catharinus van den Berg",
-      "text": "Die waterval ben ik. Ik heb mezelf dicht laten vriezen.",
-      "note": "Emotioneel keerpunt in zijn geloofsleven."
-    },
-    {
-      "start_seconds": 2273,
+      "start_seconds": 1010,
       "speaker": "Stefan Paas",
       "text": "Je verliest wel je geloof, maar niet je zekerheden.",
-      "note": "Humoristische opmerking over een gereformeerde atheïst."
+      "note": "Scherpe observatie over hoe atheïsme dezelfde stelligheid kan dragen als geloof."
+    },
+    {
+      "start_seconds": 3430,
+      "speaker": "Catharinus van den Berg",
+      "text": "De plek van die machthebber is in de kerk de plek van God geworden.",
+      "note": "Kritische gedachte over hoe architectuur het godsbeeld vervormde."
+    },
+    {
+      "start_seconds": 3360,
+      "speaker": "Stefan Paas",
+      "text": "Heel veel geleerd hebben en verstand hebben van schoonheid is blijkbaar niet voldoende om moreel een zuiver kompas te hebben.",
+      "note": "Confronterende stelling over de grenzen van cultuurvorming."
+    },
+    {
+      "start_seconds": 1400,
+      "speaker": "Catharinus van den Berg",
+      "text": "Wij mogen de ladder waaraan je bent opgestegen soms ook weg durven gooien.",
+      "note": "Oproep tot kritische herwaardering van traditie."
     }
   ],
   "keywords": [
     "Bildung",
     "Wilhelm von Humboldt",
+    "kritische zin",
+    "morele vorming",
+    "schoonheid",
     "AI",
-    "Het Ware, het Schone en het Goede",
-    "Jan van Eyck",
-    "Gerrit Kouwenaar",
-    "Prediker",
+    "Van Eyck",
     "atheïsme",
-    "Leger des Heils",
-    "volksverheffing",
-    "Plato",
-    "Guido Gezelle"
+    "Augustinus",
+    "Trier",
+    "levende traditie",
+    "Het ware, het goede en het schone"
   ],
-  "quotes": [],
+  "quotes": [
+    "Je verliest wel je geloof, maar niet je zekerheden.",
+    "Het ware, het schone en het goede.",
+    "Ik vind het mooi dat we dit doen."
+  ],
   "similar": [
     {
-      "n": 177,
-      "reason": "Zoektocht naar eenvoud en verdieping, kunst en filosofie, met Roderick Nieuwenhuis en Stefan Paas"
-    },
-    {
-      "n": 265,
-      "reason": "Gabriël van den Brink over zelfvorming en tot je recht komen als mens"
-    },
-    {
       "n": 257,
-      "reason": "AI, techniek en de aanval op de ziel; kunst en cultuur"
+      "reason": "Over AI, techniek en de aanval op de ziel; sterke overlap in cultuur, technologie en vorming."
     },
     {
-      "n": 296,
-      "reason": "Schoonheid en kunst als weg naar zingeving en het begrijpen van lijden"
+      "n": 263,
+      "reason": "Over culturele verdwaling en verhalen die afbrokkelen; sluit aan bij het ideaal van Bildung."
     },
     {
-      "n": 190,
-      "reason": "Atheïst die via zoektocht naar waarheid, kunst en filosofie bij God uitkomt"
+      "n": 318,
+      "reason": "Over de diepere crisis van het Westen en de verhouding tot kennis en zingeving."
+    },
+    {
+      "n": 285,
+      "reason": "Over de crisis van het Westen en de Nieuwe Wereld; raakt aan traditie en cultuurverlies."
+    },
+    {
+      "n": 306,
+      "reason": "Over AI, technologie en de strijd om de mens, met Stefan Paas als gespreksleider."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

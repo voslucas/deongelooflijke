@@ -1,363 +1,319 @@
 {
   "episode": 178,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 130165,
+    "segments": 1177,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31161,
-    "output_tokens": 3150,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 66251,
+    "output_tokens": 3426,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Politiek",
-    "Geschiedenis",
-    "Islam & jodendom"
+    "Zingeving & psyche",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Han ten Broeke"
   ],
   "people": [
     {
+      "name": "Han ten Broeke",
+      "note": "VVD-oud-Kamerlid en directeur bij het Haags Centrum voor Strategische Studies; gast",
+      "start_seconds": 113,
+      "mention_count": 60
+    },
+    {
       "name": "Rob Bauer",
-      "note": "NAVO-admiraal die waarschuwt voor een nieuw onvoorspelbaar tijdperk",
+      "note": "NAVO-topman (commandant NAVO-militaire comité), waarschuwde voor oorlogstransformatie",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 4784717,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Bauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Rob_Bauer_in_Brussels%2C_Belgium_on_10_October_2023_%28cropped%29.jpg/250px-Rob_Bauer_in_Brussels%2C_Belgium_on_10_October_2023_%28cropped%29.jpg"
+      "mention_count": 8
     },
     {
       "name": "Ayaan Hirsi Ali",
-      "note": "auteur die stelt dat religie nodig is om sterk te staan; onlangs christen geworden",
+      "note": "Schrijfster die zich christen noemde; essay in Elsevier over religie als antwoord op het Westelijke vacuüm",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 7672,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayaan_Hirsi_Ali",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg/250px-Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg"
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "demissionair premier en voormalig VVD-leider",
-      "start_seconds": 171,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Rita Verdonk",
-      "note": "voormalig politica; tegenstander van Rutte bij de VVD-lijsttrekkersverkiezing",
-      "start_seconds": 204,
-      "wiki_checked": true,
-      "wiki_pageid": 13060,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rita_Verdonk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Rita_Verdonk.jpg/250px-Rita_Verdonk.jpg"
+      "mention_count": 12
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider; mogelijke premier",
-      "start_seconds": 288,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider; in het gesprek over samenwerking met VVD en zijn uitspraken over islam",
+      "start_seconds": 300,
+      "mention_count": 9
     },
     {
-      "name": "Frits Bolkestein",
-      "note": "voormalig VVD-leider voor wie Wilders speeches schreef",
-      "start_seconds": 556,
-      "wiki_checked": true,
-      "wiki_pageid": 486,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frits_Bolkestein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frits_Bolkestein_1988_%281%29.jpg/250px-Frits_Bolkestein_1988_%281%29.jpg"
+      "name": "Mark Rutte",
+      "note": "VVD-leider/premier; leider van de VVD",
+      "start_seconds": 165,
+      "mention_count": 5
     },
     {
-      "name": "Giorgia Meloni",
-      "note": "Italiaanse premier, vergeleken met Wilders",
-      "start_seconds": 675,
-      "wiki_checked": true,
-      "wiki_pageid": 5414878,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Giorgia_Meloni",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg/250px-Sanae_Takaichi_meets_Giorgia_Meloni_01_%28cropped_1%29.jpg"
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlische premier",
+      "start_seconds": 1755,
+      "mention_count": 5
     },
     {
-      "name": "Viktor Orbán",
-      "note": "Hongaarse premier",
-      "start_seconds": 675,
-      "wiki_checked": true,
-      "wiki_pageid": 790383,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Viktor_Orb%C3%A1n",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg/250px-President_Donald_Trump_hosts_a_bilateral_lunch_meeting_with_Hungarian_Prime_Minister_Viktor_Orban.2_%28cropped%29.jpg"
+      "name": "Mahmoud Abbas",
+      "note": "President van de Palestijnse Autoriteit",
+      "start_seconds": 2100,
+      "mention_count": 2
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russisch president",
+      "start_seconds": 1245,
+      "mention_count": 3
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese president; autocraat die de wereldorde wil veranderen",
+      "start_seconds": 2420,
+      "mention_count": 2
     },
     {
       "name": "Recep Tayyip Erdogan",
       "note": "Turkse president",
-      "start_seconds": 619,
-      "wiki_checked": true,
-      "wiki_pageid": 114344,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/250px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"
-    },
-    {
-      "name": "Volodymyr Zelensky",
-      "note": "Oekraïense president",
-      "start_seconds": 1392,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "start_seconds": 1220,
+      "mention_count": 3
     },
     {
       "name": "Donald Trump",
-      "note": "mogelijk herkozen als Amerikaanse president",
-      "start_seconds": 1519,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Benjamin Netanyahu",
-      "note": "Israëlische premier die volgens Han ten Broeke met de veiligheid van Israël heeft gegokt",
-      "start_seconds": 1778,
-      "wiki_checked": true,
-      "wiki_pageid": 55419,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Benjamin_Netanyahu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/250px-Benjamin_Netanyahu%2C_February_2023.jpg"
-    },
-    {
-      "name": "Golda Meir",
-      "note": "Israëlische premier die aftrad na de Yom Kippur-oorlog",
-      "start_seconds": 1900,
-      "wiki_checked": true,
-      "wiki_pageid": 55735,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Golda_Me%C3%AFr",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Golda_Meir_%281964%29_%28cropped%29.jpg/250px-Golda_Meir_%281964%29_%28cropped%29.jpg"
-    },
-    {
-      "name": "Mahmoud Abbas",
-      "note": "president van de Palestijnse Autoriteit",
-      "start_seconds": 2102,
-      "wiki_checked": true,
-      "wiki_pageid": 22642,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mahmoud_Abbas",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mahmoud_Abbas_%282022%29.jpg/250px-Mahmoud_Abbas_%282022%29.jpg"
-    },
-    {
-      "name": "John Kerry",
-      "note": "Amerikaanse minister van Buitenlandse Zaken ten tijde van de vredesbesprekingen van 2014",
-      "start_seconds": 2115,
-      "wiki_checked": true,
-      "wiki_pageid": 37538,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Kerry",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/John_Kerry_portrait_of_Climate_Envoy_%28cropped%29_1.jpg/250px-John_Kerry_portrait_of_Climate_Envoy_%28cropped%29_1.jpg"
+      "note": "Amerikaanse ex-president en kandidaat voor herverkiezing",
+      "start_seconds": 3350,
+      "mention_count": 5
     },
     {
       "name": "Sigrid Kaag",
-      "note": "Nederlandse politica met veel invloed in het Midden-Oosten",
-      "start_seconds": 2038,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "note": "Oud-minister van Buitenlandse Zaken; bemiddelaar in Libanon/Israël",
+      "start_seconds": 2040,
+      "mention_count": 2
     },
     {
-      "name": "Rob de Wijk",
-      "note": "geopolitiek duider, pessimistischer dan Han ten Broeke",
-      "start_seconds": 1716,
-      "wiki_checked": true,
-      "wiki_pageid": 991157,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_de_Wijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rob_de_Wijk.jpg/250px-Rob_de_Wijk.jpg"
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier",
+      "start_seconds": 3000,
+      "mention_count": 3
     },
     {
-      "name": "Bezalel Smotrich",
-      "note": "minister in het kabinet-Netanyahu",
-      "start_seconds": 2271,
-      "wiki_checked": true,
-      "wiki_pageid": 5797121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bezalel_Smotrich",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bezalel_Smotrich.jpg/250px-Bezalel_Smotrich.jpg"
-    },
-    {
-      "name": "Itamar Ben-Gvir",
-      "note": "minister in het kabinet-Netanyahu",
-      "start_seconds": 2271,
-      "wiki_checked": true,
-      "wiki_pageid": 5698031,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Itamar_Ben-Gvir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Itamar_Ben_Gvir_3_%28cropped%29.jpg/250px-Itamar_Ben_Gvir_3_%28cropped%29.jpg"
+      "name": "Giorgia Meloni",
+      "note": "Italiaanse premier",
+      "start_seconds": 660,
+      "mention_count": 1
     },
     {
       "name": "John F. Kennedy",
-      "note": "vroeg in 1962 al om een Europese pijler binnen de NAVO",
-      "start_seconds": 1651,
-      "wiki_checked": true,
-      "wiki_pageid": 3817,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_F._Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/250px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+      "note": "Amerikaanse president; sprak over Europese pijler",
+      "start_seconds": 1650,
+      "mention_count": 2
+    },
+    {
+      "name": "Hugo de Groot",
+      "note": "Grondlegger van het internationaal recht",
+      "start_seconds": 2950,
+      "mention_count": 1
+    },
+    {
+      "name": "Golda Meir",
+      "note": "Israëlische premier tijdens Jom Kipoeroorlog",
+      "start_seconds": 1900,
+      "mention_count": 1
+    },
+    {
+      "name": "Josse de Voogd",
+      "note": "Opiniepeiler; auteur van 'Afgehaakt Nederland'",
+      "start_seconds": 5150,
+      "mention_count": 2
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Britse historicus; auteur van Dominion",
+      "start_seconds": 4650,
+      "mention_count": 2
+    },
+    {
+      "name": "Frits Bolkestein",
+      "note": "Oud-VVD-leider",
+      "start_seconds": 560,
+      "mention_count": 2
+    },
+    {
+      "name": "Rita Verdonk",
+      "note": "Politica; rivaal van Rutte bij VVD-leiderschap",
+      "start_seconds": 200,
+      "mention_count": 1
+    },
+    {
+      "name": "George W. Bush",
+      "note": "Amerikaanse president",
+      "start_seconds": 2840,
+      "mention_count": 2
+    },
+    {
+      "name": "Hillary Clinton",
+      "note": "Amerikaanse minister van Buitenlandse Zaken",
+      "start_seconds": 2880,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Dominion",
+      "author": "Tom Holland",
+      "note": "Boek over de christelijke wortels van westerse waarden",
+      "start_seconds": 4650,
+      "volume_id": "9nkEzwEACAAJ",
+      "canonical_title": "Dominion: The Making of the Western Mind",
+      "canonical_author": "Tom Holland",
+      "isbn13": "9780349145273",
+      "isbn10": "034914527X",
+      "thumbnail": "http://books.google.com/books/content?id=9nkEzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
   "bible_refs": [],
   "places": [
-    "Utrecht",
     "Oekraïne",
     "Gaza",
-    "Israël",
-    "Rusland",
-    "Polen",
-    "Krim",
-    "Jemen",
+    "Utrecht",
     "Den Haag",
-    "Twente",
+    "Kiev",
+    "Krim",
+    "Oost-Duitsland",
+    "Jemen",
+    "Taiwan",
+    "Sinjar",
     "Westbank",
-    "Jeruzalem",
-    "Libië",
-    "Duitsland",
-    "Turkije",
-    "Beirut"
+    "Afghanistan",
+    "Twente",
+    "Libië"
   ],
-  "summary_tldr": "Han ten Broeke en Stefan Paas bespreken de wake-up calls van de NAVO over een naderend oorlogstijdperk en de weerbaarheid van Nederland en Europa. Ze behandelen de oorlog in Oekraïne, de dreiging van een Trump-herverkiezing, de Europese verkiezingen en het conflict in Gaza. Ten Broeke is voorzichtig optimistisch dat Europa zijn eigen veiligheid kan organiseren.",
+  "summary_tldr": "Geopolitiek expert Han ten Broeke en theoloog Stefan Paas bespreken live in Utrecht de dreigende veiligheidssituatie voor Europa en het Westen, met de oorlogen in Oekraïne en Gaza als hoofdthema's. Ten Broeke pleit voor Europese strategische autonomie en realisme in de buitenlandpolitiek, terwijl hij het liberale beschavingsbesef wil versterken zonder religie als voorwaarde. Ook de kwestie van religie in het publieke debat en Ayaan Hirsi Ali's bekering komen aan bod.",
   "summary_points": [
-    "Rob Bauer roept op tot een oorlogstransformatie van de samenleving, inclusief een noodpakket thuis.",
-    "Nederland is volgens Ten Broeke naïef gebleven over buitenlandse dreigingen, zoals bleek na MH17 en de groeiende gasafhankelijkheid van Rusland.",
-    "Ontwrichting van logistieke ketens en cyberaanvallen zijn een reëlere dreiging dan Russische tanks.",
-    "Oekraïne is cruciaal voor de Europese veiligheidsorde; een Russische overwinning geeft autocraten vrij spel.",
-    "Europa heeft ongeveer een jaar om zijn zaken op orde te krijgen voordat Trump mogelijk terugkeert, onder meer met een Europese veiligheidsraad.",
-    "Europa heeft decennia geprofiteerd van de Amerikaanse veiligheidsparaplu en zijn sociale zekerheid daarmee opgebouwd.",
-    "Over samenwerking met Wilders: Ten Broeke verwacht dat een premier Wilders meer Meloni dan Orbán zou worden, maar ziet botsingen met de buitenlandpolitiek.",
-    "In Gaza ziet Ten Broeke een mogelijke weg naar een tweestatenoplossing, met een grote rol voor de VS en de Golfstaten.",
-    "Europa moet volgens hem minder moraliseren richting Israël en Palestijnen en meer inzetten op diplomatieke leverage."
+    "Rob Bauer roept op tot een oorlogstransformatie van de hele samenleving, inclusief noodpakketten.",
+    "Ten Broeke ziet Oekraïne als directe Europese veiligheidskwestie; verlies betekent het einde van grensrespect.",
+    "Europa moet een eigen buitenlandpolitieke 'cockpit' en Europese pijler binnen de NAVO ontwikkelen vóór mogelijke herkiezing van Trump.",
+    "De Gaza-oorlog wordt gezien als uitzichtloos, maar Ten Broeke ziet kans op een tweestatenoplossing met hulp van de Golfstaten en VS.",
+    "Buitenlandpolitiek draait volgens Ten Broeke om belangen; een 'idealist zonder illusies' is realistischer dan een puur moreel of koopmansbeleid.",
+    "Het 'vuile handen'-dilemma komt terug bij economische keuzes, zoals grondstoffen en handel met autocratische landen.",
+    "Ayaan Hirsi Ali's bekering wordt besproken; Paas is kritisch over religie als instrument in een cultuurstrijd.",
+    "Het gesprek verbindt het ontkerkelijkte Westen, de afgehaakte kiezer en de opkomst van populistische partijen in Europa."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en het VVD-congres",
-      "summary": "Kennismaking met Han ten Broeke en terugblik op het VVD-congres en zijn partijverleden."
+      "title": "Intro en VVD-congres",
+      "summary": "Gasten worden voorgesteld en het VVD-congres en de mogelijke samenwerking met Wilders komen aan bod."
     },
     {
-      "start_seconds": 288,
-      "title": "Wilders, de PVV en Europa",
-      "summary": "Over samenwerken met de PVV, de gedoogperiode en wat een premier Wilders zou betekenen voor het buitenlandbeleid."
+      "start_seconds": 420,
+      "title": "Europa en liberale vrijheid",
+      "summary": "Ten Broeke verdedigt een kritische maar constructieve houding tegenover Europa en het belang van het Europese project."
     },
     {
-      "start_seconds": 702,
-      "title": "Noodpakket en wake-up calls",
-      "summary": "Rob Bauers oproep, de naïviteit van Nederland sinds MH17 en de kwetsbaarheid van logistieke ketens."
+      "start_seconds": 960,
+      "title": "Noodpakket en NAVO-waarschuwing",
+      "summary": "De oproep van Rob Bauer tot paraatheid wordt besproken, evenals Nederlandse naïviteit en de risico's van disruptie."
     },
     {
-      "start_seconds": 1240,
-      "title": "Oekraïne en de Europese veiligheid",
-      "summary": "Waarom Oekraïne cruciaal is, de Amerikaanse strategiewijziging en de rol van Europa."
+      "start_seconds": 1380,
+      "title": "Oekraïne en Europese veiligheid",
+      "summary": "Oekraïne wordt gezien als direct Europees belang; de rol van de VS en Nederland en optimisme over een Europese cockpit komen aan bod."
     },
     {
-      "start_seconds": 1519,
-      "title": "Europese cockpit en Trump",
-      "summary": "Ten Broeke schetst een Europese veiligheidsraad en legt uit waarom hij optimistisch is."
-    },
-    {
-      "start_seconds": 1776,
+      "start_seconds": 1800,
       "title": "Gaza en het Midden-Oosten",
-      "summary": "Analyse van Netanyahu, Hamas, de tweestatenoplossing en de rol van Amerika, de Golfstaten en Europa."
+      "summary": "Ten Broeke analyseert het Israëlisch-Palestijnse conflict, de rol van Netanyahu en de noodzaak van internationale bemiddeling."
     },
     {
-      "start_seconds": 2102,
-      "title": "Vredesonderhandelingen en Abraham-akkoorden",
-      "summary": "Ten Broeke vertelt over zijn ervaring met de Kerry-onderhandelingen en de betekenis van de Abraham-akkoorden."
+      "start_seconds": 2640,
+      "title": "Wereldorde, religie en Ayaan Hirsi Ali",
+      "summary": "Discussie over het verval van de liberale wereldorde, Hirsi Ali's bekering en de rol van religie in het Westen."
+    },
+    {
+      "start_seconds": 3560,
+      "title": "Vuile handen en realisme",
+      "summary": "Dilemma's in buitenlandpolitiek: mensenrechten versus belangen, en de vraag naar economische keuzes."
+    },
+    {
+      "start_seconds": 4300,
+      "title": "Publieksvragen",
+      "summary": "Vragen over godsdienstvrijheid, Afghanistan, bekeringen, het ICJ-vonnis en afgehaakte kiezers."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 704,
+      "start_seconds": 2200,
       "speaker": "Han ten Broeke",
-      "text": "Nu de Russen eraan komen, heb ik veel plezier van die zaklamp. Maar de Russen komen niet meer door de kraan, die komen door de internettab.",
-      "note": "Humoristische maar scherpe opmerking over hybride dreiging."
+      "text": "Uiteindelijk kiest zij er dan voor om weer christen te worden.",
+      "note": "Verwijst naar Hirsi Ali's bekering als reactie op het verlies van zingeving in het seculiere Westen."
     },
     {
-      "start_seconds": 840,
+      "start_seconds": 850,
       "speaker": "Han ten Broeke",
-      "text": "MH17 staat in zekere zin voor onze blik op het buitenland: als vakantieplek of plek om geld te verdienen, niet als plek waar je je leven kunt verliezen.",
-      "note": "Persoonlijke reflectie op Nederlandse naïviteit."
+      "text": "De eerste 48 uur komen we u niet redden.",
+      "note": "Illustreert hoe kwetsbaar de moderne just-in-time samenleving is bij disrupties."
     },
     {
-      "start_seconds": 1000,
+      "start_seconds": 2990,
       "speaker": "Han ten Broeke",
-      "text": "Als de Oekraïners dit verliezen, dan verliezen we allemaal.",
-      "note": "Kernstelling over het belang van Oekraïne."
+      "text": "Ik ben een idealist zonder illusies.",
+      "note": "Citaat van Kennedy dat Ten Broeke omarmt als realistische buitenlandpolitieke houding."
     },
     {
-      "start_seconds": 1656,
+      "start_seconds": 3960,
       "speaker": "Han ten Broeke",
-      "text": "Wij hebben heel graag onder de Amerikaanse veiligheidsparaplu gezeten en ondertussen onze eigen sociale zekerheid opgebouwd.",
-      "note": "Scherp beeld van Europese afhankelijkheid."
+      "text": "Soms moet je kwaad doen om het grootste goed te dienen.",
+      "note": "Verwijst naar het vuile-handen-dilemma in de internationale politiek, met het voorbeeld van de Yezidi's."
     },
     {
-      "start_seconds": 1960,
-      "speaker": "Han ten Broeke",
-      "text": "Netanyahu heeft gegokt met de veiligheid van Israël en die gok pakt verkeerd uit.",
-      "note": "Duidelijke kritiek op de Israëlische premier."
+      "start_seconds": 3230,
+      "speaker": "Stefan Paas",
+      "text": "Jezus is geen cultuurstrijder of iemand die de politieke oorlog voor je gaat winnen.",
+      "note": "Paas waarschuwt tegen het instrumenteel inzetten van religie in politieke strijd."
     }
   ],
   "keywords": [
     "NAVO",
-    "Rob Bauer",
     "Oekraïne",
     "Gaza",
     "Europese veiligheid",
-    "Trump",
-    "VVD",
-    "Geert Wilders",
-    "Tweestatenoplossing",
-    "Abraham-akkoorden",
-    "Weerbaarheid",
-    "MH17"
+    "Realisme",
+    "Vuile handen",
+    "Ayaan Hirsi Ali",
+    "Christelijke bekering",
+    "Liberale democratie",
+    "Wereldorde",
+    "Afgehaakt Nederland"
   ],
-  "quotes": [
-    "\"We moeten ons voorbereiden op een nieuw onvoorspelbaar tijdperk\", zei NAVO-topman Rob Bauer onlangs.",
-    "Volgens de onlangs christen geworden Ayaan Hirsi Ali hebben we religie nodig om sterk te staan."
-  ],
+  "quotes": [],
   "similar": [
     {
+      "n": 284,
+      "reason": "Europa, Trump en Poetin; machtspolitiek en de kwetsbare Europese positie"
+    },
+    {
       "n": 326,
-      "reason": "Weerbaarheid van Nederland en Europa, oorlog met Rusland, Trump en de NAVO."
+      "reason": "Veiligheid van Nederland en Europa, geopolitieke dreiging en een Westen zonder verhaal"
+    },
+    {
+      "n": 309,
+      "reason": "Trump, Poetin en tirannen; geopolitieke strategie en het Westen onder druk"
     },
     {
       "n": 230,
-      "reason": "Europa, Trump en Poetin in een nieuwe wereldorde; zelfstandige Europese veiligheid."
+      "reason": "Nieuwe wereldorde tussen Poetin en Trump; Europese positionering en geopolitiek"
     },
     {
-      "n": 239,
-      "reason": "VS heeft Europa verraden; Europa moet serieus worden over eigen veiligheid."
-    },
-    {
-      "n": 214,
-      "reason": "Israël-Gaza-conflict en geopolitieke kentering, met Bart Wallet."
-    },
-    {
-      "n": 284,
-      "reason": "Terugkeer van brute machtspolitiek: Trump, Poetin, Europa en Oekraïne."
+      "n": 192,
+      "reason": "Europa, geopolitiek, oorlog in Europa en de rol van cultuurchristendom"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

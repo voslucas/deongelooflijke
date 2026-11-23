@@ -1,292 +1,277 @@
 {
   "episode": 271,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 173685,
+    "segments": 1368,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30032,
-    "output_tokens": 2498,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 87096,
+    "output_tokens": 3061,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Politiek",
     "Samenleving & migratie",
-    "Technologie & AI"
+    "Gezin & relaties"
   ],
   "guests": [
     "Joris Luyendijk"
   ],
   "people": [
     {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president, centraal in zorgen over afhankelijkheid van Amerika",
-      "start_seconds": 265,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "name": "Joris Luyendijk",
+      "note": "schrijver en antropoloog, gast",
+      "start_seconds": 0,
+      "mention_count": 60
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, niet vatbaar voor redelijkheid",
-      "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, centraal in analyse van Amerikaanse politiek en Europese afhankelijkheid",
+      "start_seconds": 203,
+      "mention_count": 12
+    },
+    {
+      "name": "Wladimir Poetin",
+      "note": "Russische president, besproken als dictator en oorlogsleider in Oekraïne",
+      "start_seconds": 4,
+      "mention_count": 10
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider zonder partijdemocratie, ontbrak bij het RTL-debat",
-      "start_seconds": 995,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider, besproken als partijleider zonder partijstructuur",
+      "start_seconds": 2100,
+      "mention_count": 12
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "note": "Israëlische premier, besproken in kader van Gaza en Westelijke Jordaanoever",
+      "start_seconds": 4510,
+      "mention_count": 7
     },
     {
       "name": "Mark Rutte",
-      "note": "voormalig premier, ontliep inhoudelijke interviews",
-      "start_seconds": 1128,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
-    },
-    {
-      "name": "Rob Jetten",
-      "note": "D66-leider die de Nederlandse vlag terugclaimt",
-      "start_seconds": 1362,
-      "wiki_checked": true,
-      "wiki_pageid": 4797135,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Jetten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Rob_Jetten%2C_March_2026_-_01.jpg/250px-Rob_Jetten%2C_March_2026_-_01.jpg"
+      "note": "voormalig premier, besproken om zijn communicatie met de Kamer",
+      "start_seconds": 1130,
+      "mention_count": 2
     },
     {
       "name": "Sigrid Kaag",
-      "note": "voormalig D66-leider, doelwit van seksisme en afkeer van internationale verdragen",
-      "start_seconds": 1585,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
-    },
-    {
-      "name": "Florence Gaub",
-      "note": "hoofd forecasting bij de NAVO, gast in Duitse podcast van Die Zeit",
-      "start_seconds": 1694,
-      "wiki_checked": true,
-      "wiki_pageid": 5991782,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Florence_Gaub",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Florence_Gaub%2C_Frankfurter_Buchmesse_2023.jpg/250px-Florence_Gaub%2C_Frankfurter_Buchmesse_2023.jpg"
-    },
-    {
-      "name": "Yuval Noah Harari",
-      "note": "Israëlische denker en schrijver, over links als behoudend",
-      "start_seconds": 2310,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "note": "voormalig politica, slachtoffer van seksistische agressie",
+      "start_seconds": 1510,
+      "mention_count": 2
     },
     {
       "name": "Ursula von der Leyen",
-      "note": "voorzitter Europese Commissie, voorbeeld van Europese macht zonder mandaat",
-      "start_seconds": 1296,
-      "wiki_checked": true,
-      "wiki_pageid": 1926494,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ursula_von_der_Leyen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ursula_von_der_Leyen_2024.jpg/250px-Ursula_von_der_Leyen_2024.jpg"
+      "note": "voorzitter Europese Commissie, genoemd in COVID-context",
+      "start_seconds": 1290,
+      "mention_count": 1
     },
     {
-      "name": "Marine Le Pen",
-      "note": "Franse extreemrechtse politica",
-      "start_seconds": 987,
-      "wiki_checked": true,
-      "wiki_pageid": 791772,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marine_Le_Pen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg"
+      "name": "Yuval Harari",
+      "note": "Israëlische denker en auteur van Homo Sapiens",
+      "start_seconds": 2380,
+      "mention_count": 2
     },
     {
-      "name": "Nigel Farage",
-      "note": "Britse rechtse politicus",
-      "start_seconds": 987,
-      "wiki_checked": true,
-      "wiki_pageid": 1852141,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nigel_Farage",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Official_portrait_of_Nigel_Farage_MP_crop_2.jpg/250px-Official_portrait_of_Nigel_Farage_MP_crop_2.jpg"
+      "name": "Florence Gaub",
+      "note": "forecasting-hoofd bij de NAVO, geciteerd over strategische cultuur",
+      "start_seconds": 1690,
+      "mention_count": 3
     },
     {
-      "name": "Boris Johnson",
-      "note": "voormalig Brits premier, voorbeeld van polarisatie",
-      "start_seconds": 1176,
-      "wiki_checked": true,
-      "wiki_pageid": 1089858,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Johnson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Remembrance_Sunday_in_Whitehall_2024-11-10-11-26-D_%28cropped%29.jpg/250px-Remembrance_Sunday_in_Whitehall_2024-11-10-11-26-D_%28cropped%29.jpg"
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president, bekend om weigering van Amerikaanse evacuatie",
+      "start_seconds": 2880,
+      "mention_count": 2
     },
     {
-      "name": "Jeremy Corbyn",
-      "note": "voormalig Labour-leider",
-      "start_seconds": 1176,
-      "wiki_checked": true,
-      "wiki_pageid": 4374463,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jeremy_Corbyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Official_portrait_of_Jeremy_Corbyn_MP_crop_2%2C_2024.jpg/250px-Official_portrait_of_Jeremy_Corbyn_MP_crop_2%2C_2024.jpg"
+      "name": "Andrew Tate",
+      "note": "influencer, besproken als voorbeeld van giftige mannelijkheid",
+      "start_seconds": 3000,
+      "mention_count": 4
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "psycholoog en auteur, besproken over mannelijkheid",
+      "start_seconds": 4170,
+      "mention_count": 2
+    },
+    {
+      "name": "Gabor Maté",
+      "note": "arts en auteur, genoemd in kader van mannelijkheid en trauma",
+      "start_seconds": 4150,
+      "mention_count": 1
+    },
+    {
+      "name": "Micha Wertheim",
+      "note": "cabaretier, besproken over joodse identiteit en wit zijn",
+      "start_seconds": 5460,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "theoloog, vaste gast",
+      "start_seconds": 240,
+      "mention_count": 50
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Homo Sapiens",
+      "author": "Yuval Harari",
+      "note": "Harari's werk aangehaald over links en behoud",
+      "start_seconds": 2380,
+      "volume_id": "8IOTEAAAQBAJ",
+      "canonical_title": "Sapiens/Homo Deus Boxed Set",
+      "canonical_author": "Yuval Noah Harari",
+      "isbn13": "9780735253407",
+      "isbn10": "0735253404",
+      "thumbnail": "http://books.google.com/books/content?id=8IOTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    }
+  ],
   "bible_refs": [],
   "places": [
     "Oekraïne",
+    "Gaza",
+    "Israël",
+    "Westelijke Jordaanoever",
+    "Nederland",
     "Rusland",
     "Amerika",
-    "Nederland",
     "Duitsland",
-    "Frankrijk",
     "Engeland",
-    "Israël",
-    "Gaza",
-    "Brussel",
-    "Finland"
+    "Frankrijk",
+    "Qatar",
+    "Ramallah",
+    "Kiev",
+    "Londen",
+    "Roemenië"
   ],
-  "summary_tldr": "Joris Luyendijk legt uit waarom hij de komende Tweede Kamerverkiezingen de belangrijkste sinds WOII noemt: Nederland is te afhankelijk van een onbetrouwbaar Amerika en Rusland is een echte vijand. Het gesprek gaat over Europese weerbaarheid, de opkomst van extreem rechts, nationaal belang en democratie. Later volgen zijn reis naar Oekraïne en het akkoord tussen Israël en Hamas.",
+  "summary_tldr": "Joris Luyendijk waarschuwt dat de komende Tweede Kamerverkiezingen de belangrijkste sinds WOII zijn, omdat Europa te afhankelijk is van een Amerika dat hij als onbetrouwbaar en steeds meer autoritair ziet. Hij beschrijft zijn reis naar Oekraïne en het trauma van de oorlog, en bespreekt het Israël-Gaza-akkoord als onvoldoende oplossing. Het gesprek verbindt ook politiek, mannelijkheid en discriminatie in Nederland.",
   "summary_points": [
-    "Luyendijk maakt zich zorgen over de afhankelijkheid van Amerika en Amerikaanse big tech zoals Microsoft.",
-    "Nederland leeft nog in vredestijd-denken terwijl er hybride dreiging van Rusland is.",
-    "Afschrikking werkt slecht bij hybride en asymmetrische aanvallen.",
-    "Extreem rechts staat in Europa dicht bij de macht; goede, deskundige politici zijn nodig.",
-    "Wilders' partij kent geen interne democratie en Rutte ontliep inhoudelijke interviews.",
-    "Nationaal belang is iets anders dan nationalisme; links mist een eigen verhaal.",
-    "Na 1990 heerste het idee dat je met iedereen kunt praten; dat wereldbeeld klapte in 2022 in.",
-    "Christenen en gelovigen denken makkelijker in wereldbeelden en ethiek.",
-    "Rechts heeft bezieling, links is behoudend en verdeeld."
+    "Luyendijk ziet de verkiezingen als cruciaal omdat Europa structureel afhankelijk is van de VS, die volgens hem geen betrouwbare partner meer is.",
+    "Hij pleit voor serieus beleid en deskundige politici, en bekritiseert het gebrek aan inhoudelijke politieke debatten in Nederland.",
+    "Europese afschrikking tegen hybride en asymmetrische aanvallen van Rusland wordt als ondermijnd beschouwd.",
+    "Nationaal belang en Europese samenwerking worden tegenover elkaar gezet; Luyendijk ziet een democratisch tekort op Europees niveau.",
+    "Zijn reis naar Oekraïne laat zien hoe oorlog, trauma en PTSS families en kinderen raken.",
+    "Het Israël-Gaza-akkoord wordt door Luyendijk als gaslighting gezien; hij ziet de Westelijke Jordaanoever en Netanyahu als kernobstakels voor vrede.",
+    "Het gesprek gaat over giftige mannelijkheid, emotionele kwetsbaarheid en het belang van dochters en rolmodellen.",
+    "Discriminatie van Nederlandse moslims en antisemitisme worden als verweven problemen besproken."
   ],
   "chapters": [
     {
-      "start_seconds": 148,
-      "title": "Urgentie en afhankelijkheid van Amerika",
-      "summary": "Luyendijk legt uit waarom het vorige gesprek zoveel losmaakte en waarom hij bezorgd blijft over Trump en Microsoft."
+      "start_seconds": 0,
+      "title": "Inleiding en verkiezingsurgentie",
+      "summary": "Luyendijk verklaart waarom hij de verkiezingen zo belangrijk vindt en bespreekt Europese afhankelijkheid van de VS."
     },
     {
-      "start_seconds": 420,
-      "title": "Vredestijd versus oorlogstijd",
-      "summary": "Over hybride oorlog, Russische sabotage en hoe je urgentie communiceert zonder mensen te verlammen."
+      "start_seconds": 1000,
+      "title": "Hybride dreiging en politieke cultuur",
+      "summary": "Het gesprek gaat over Russische sabotage, afschrikking en de Nederlandse politieke systematiek."
     },
     {
-      "start_seconds": 885,
-      "title": "Het Nederlandse politieke systeem",
-      "summary": "Rol van ministers en ambtenaren, opkomst van extreem rechts en het gebrek aan inhoud bij Wilders en Rutte."
+      "start_seconds": 1900,
+      "title": "Populisme, nationalisme en Europa",
+      "summary": "Discussie over Wilders, nationaal belang versus nationalisme en de democratische legitimiteit van de EU."
     },
     {
-      "start_seconds": 1230,
-      "title": "Democratie, natie en nationaal belang",
-      "summary": "Over democratie op Europees niveau, het nationaal verhaal en internationale rechtsorde."
+      "start_seconds": 2700,
+      "title": "Oekraïne-reis en trauma",
+      "summary": "Luyendijk vertelt over zijn reis naar Oekraïne, de oorlog en de impact op families."
     },
     {
-      "start_seconds": 1694,
-      "title": "Strategische cultuur en Duitsland",
-      "summary": "Florence Gaub over strategisch denken en het ingeklapte wereldbeeld na 2022."
+      "start_seconds": 3900,
+      "title": "Mannelijkheid en emoties",
+      "summary": "Gesprek over traditionele mannelijkheid, emotionele onderdrukking en het verschil met vrouwen."
     },
     {
-      "start_seconds": 1912,
-      "title": "Wereldbeelden en christenen",
-      "summary": "Waarom gesprekken hier de diepte ingaan en talkshows niet."
+      "start_seconds": 4450,
+      "title": "Israël-Gaza-akkoord",
+      "summary": "Luyendijk analyseert het wapenstilstandsakkoord en de rol van Netanyahu, Trump en Hamas."
     },
     {
-      "start_seconds": 2095,
-      "title": "Woede, bezieling en populisme",
-      "summary": "Waarom mensen op de PVV stemmen en waarom rechts meer energie heeft dan links."
-    },
-    {
-      "start_seconds": 2380,
-      "title": "Reis naar Oekraïne",
-      "summary": "Luyendijk vertelt hoe hij in Oekraïne belandde."
+      "start_seconds": 5300,
+      "title": "Antisemitisme, discriminatie en afsluiting",
+      "summary": "Discussie over antisemitisme, discriminatie van moslims en de politieke verantwoordelijkheid van Nederland."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 180,
+      "start_seconds": 2940,
       "speaker": "Joris Luyendijk",
-      "text": "In de publieke opinie is het nog steeds een stel hobbydieren in kinderboerderij de Lage Landen.",
-      "note": "Treffend beeld voor Nederlandse naïviteit."
+      "text": "Het enige wat ze ons van ons vragen, is dat we ze niet vergeten.",
+      "note": "Een eenvoudige maar krachtige oproep vanuit Oekraïne aan Europa."
     },
     {
-      "start_seconds": 1840,
+      "start_seconds": 4600,
+      "text": "Het is een voortzetting van de vernietiging van de Palestijnen met andere middelen.",
       "speaker": "Joris Luyendijk",
-      "text": "Als je erkent dat er leiders zijn met wie niet valt te praten, donderen de hekken van de kinderboerderij weg.",
-      "note": "Vat de ingeklapte wereldbeeld samen."
+      "note": "Scherpe kritiek op het akkoord als voortzetting van het conflict."
     },
     {
-      "start_seconds": 1180,
+      "start_seconds": 2270,
       "speaker": "Joris Luyendijk",
-      "text": "We zijn eigenlijk al een kwart eeuw breindood als land.",
-      "note": "Scherpe kritiek op politiek zonder visie."
+      "text": "Extreem rechts is nog nooit zo dicht bij een machtsovername geweest in Europa als nu.",
+      "note": "Een urgente waarschuwing die de toon van het gesprek bepaalt."
     },
     {
-      "start_seconds": 2290,
+      "start_seconds": 1800,
       "speaker": "Joris Luyendijk",
-      "text": "De Democraten in Amerika zijn gewoon een sterfhuis.",
-      "note": "Felle uitspraak over links."
+      "text": "Het obstakel is de regering Netanyahu zelf.",
+      "note": "Een zeldzaam scherp standpunt over de Israëlische regering."
     },
     {
-      "start_seconds": 2095,
+      "start_seconds": 3270,
       "speaker": "Joris Luyendijk",
-      "text": "2,3 miljoen PVV-stemmers zijn 46 voetbalstadions vol; waarop baseer ik dat zij boos zijn?",
-      "note": "Daagt de woede-verklaring uit."
+      "text": "Wat zeg je tegen een Palestijn die zegt: oké, ik zit in een openluchtgevangenis, ik heb levenslang?",
+      "note": "Een emotioneel en confronterend beeld van hopeloosheid."
     }
   ],
   "keywords": [
-    "Joris Luyendijk",
     "Tweede Kamerverkiezingen",
-    "Trump",
-    "Oekraïne",
+    "Europese afhankelijkheid",
     "hybride oorlog",
-    "extreem rechts",
-    "Wilders",
+    "populisme",
+    "Oekraïne",
+    "Gaza",
+    "antisemitisme",
+    "mannelijkheid",
+    "emotionele kwetsbaarheid",
     "nationaal belang",
-    "internationale rechtsorde",
-    "Microsoft",
-    "wereldbeeld",
-    "Israël-Hamas"
+    "PTSS"
   ],
   "quotes": [
-    "De komende Tweede Kamerverkiezingen zijn de belangrijkste sinds de Tweede Wereldoorlog."
+    "Het enige wat ze ons van ons vragen, is dat we ze niet vergeten.",
+    "Extreem rechts is nog nooit zo dicht bij een machtsovername geweest in Europa als nu.",
+    "Het is een voortzetting van de vernietiging van de Palestijnen met andere middelen."
   ],
   "similar": [
     {
       "n": 295,
-      "reason": "Opnieuw Joris Luyendijk: existentiële strijd, mobilisering, Trump, geopolitiek en politiek"
+      "reason": "Joris Luyendijk over existentiële strijd, Amerika en Trump, geopolitiek en mobilisering"
     },
     {
       "n": 239,
-      "reason": "Luyendijk over verraad door de VS en een Europa dat serieus moet worden"
+      "reason": "Joris Luyendijk over VS-verraad, Trump en Europese afhankelijkheid van Amerika"
     },
     {
       "n": 168,
-      "reason": "Luyendijk over Israël-Hamas en Nederlandse verkiezingen"
+      "reason": "Joris Luyendijk over Israël-Hamas en Nederlandse verkiezingen, deels overlappend"
     },
     {
-      "n": 273,
-      "reason": "Duiding van Tweede Kamerverkiezingen, PVV, D66 en politiek onbehagen"
+      "n": 284,
+      "reason": "Brute machtspolitiek rond Trump, Poetin, Groenland en Europa, vergelijkbare geopolitieke thema's"
     },
     {
-      "n": 270,
-      "reason": "Vrede in het Midden-Oosten, Israël-Hamas-akkoord en Trump"
+      "n": 309,
+      "reason": "Chaosstrategie van Trump en Poetin, sterke leiders en geopolitieke onzekerheid"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

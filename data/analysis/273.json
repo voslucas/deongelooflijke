@@ -1,111 +1,166 @@
 {
   "episode": 273,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 134549,
+    "segments": 1238,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30390,
-    "output_tokens": 2423,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 68190,
+    "output_tokens": 8574,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Samenleving & migratie",
-    "Economie & geld",
-    "Geschiedenis"
+    "Kerk & secularisatie",
+    "Economie & geld"
   ],
   "guests": [
     "Josse de Voogd"
   ],
   "people": [
     {
-      "name": "Rob Jetten",
-      "note": "D66-leider, winnaar van de verkiezingen",
-      "start_seconds": 194,
-      "wiki_checked": true,
-      "wiki_pageid": 4797135,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rob_Jetten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Rob_Jetten%2C_March_2026_-_01.jpg/250px-Rob_Jetten%2C_March_2026_-_01.jpg"
+      "name": "Geert Wilders",
+      "note": "Leider van de PVV; centrale figuur in het gesprek over het rechtse populisme",
+      "start_seconds": 324,
+      "mention_count": 14
     },
     {
-      "name": "Geert Wilders",
-      "note": "PVV-leider; trok de uitslag in twijfel",
-      "start_seconds": 378,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "name": "Rob Jetten",
+      "note": "Lijsttrekker van D66, winnaar van de verkiezingen",
+      "start_seconds": 190,
+      "mention_count": 9
     },
     {
       "name": "Frans Timmermans",
-      "note": "lijsttrekker GroenLinks-PvdA",
-      "start_seconds": 378,
-      "wiki_checked": true,
-      "wiki_pageid": 362821,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Timmermans_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Frans_Timmermans_portret.jpg/250px-Frans_Timmermans_portret.jpg"
+      "note": "Lijsttrekker van GroenLinks-PvdA",
+      "start_seconds": 324,
+      "mention_count": 10
     },
     {
       "name": "Henri Bontenbal",
-      "note": "CDA-leider, schreef een boek over onder meer sociale huur en statushouders",
-      "start_seconds": 1586,
-      "wiki_checked": true,
-      "wiki_pageid": 5530732,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henri_Bontenbal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Henri_Bontenbal.jpg/250px-Henri_Bontenbal.jpg"
+      "note": "Lijsttrekker van het CDA; kwam onder vuur met uitspraken over artikel 23",
+      "start_seconds": 38,
+      "mention_count": 20
     },
     {
       "name": "Donald Trump",
-      "note": "vergelijking met zijn politieke stijl",
-      "start_seconds": 378,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Tim Sjongers",
-      "note": "eerdere gast die uit armoede kwam",
-      "start_seconds": 1154,
-      "wiki_checked": true
-    },
-    {
-      "name": "René Cuperus",
-      "note": "co-auteur van De Atlas van Afgehaakt Nederland",
-      "start_seconds": 2105,
-      "wiki_checked": true,
-      "wiki_pageid": 1287445,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Cuperus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rene-cuperus-1349537887.jpg/250px-Rene-cuperus-1349537887.jpg"
+      "note": "Amerikaanse president; vergeleken met Wilders' 'playbook'",
+      "start_seconds": 358,
+      "mention_count": 6
     },
     {
       "name": "Sigrid Kaag",
-      "note": "voormalig D66-leider, lag eerder onder vuur",
-      "start_seconds": 2300,
-      "wiki_checked": true,
-      "wiki_pageid": 3993095,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sigrid_Kaag",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg/250px-Portretfoto_Sigrid_Kaag_2018_01_%28crop%29.jpg"
+      "note": "Voormalig D66-leider; eerder doelwit van aanvallen",
+      "start_seconds": 2272,
+      "mention_count": 3
     },
     {
-      "name": "Yaşar Yeşilgöz",
-      "note": "politica die kritiek kreeg vanwege haar achtergrond",
-      "start_seconds": 2352,
-      "wiki_checked": true
+      "name": "Dilan Yeşilgöz",
+      "note": "Voormalig VVD-lijsttrekker; genoemd in de context van kritiek op haar uitspraken",
+      "start_seconds": 2347,
+      "mention_count": 2
+    },
+    {
+      "name": "Lodewijk Asscher",
+      "note": "Voormalig PvdA-lijsttrekker; probeerde 'progressief patriotisme'",
+      "start_seconds": 2654,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Voormalig VVD-leider; de 'Rutteiaanse' feel-good stijl wordt vergeleken met Jetten",
+      "start_seconds": 2548,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesse Klaver",
+      "note": "Nieuwe leider van GroenLinks-PvdA na de verkiezingen",
+      "start_seconds": 5267,
+      "mention_count": 1
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaars premier; voorbeeld van populistische machtsopbouw via onderwijs en intellectuelen",
+      "start_seconds": 4986,
+      "mention_count": 2
+    },
+    {
+      "name": "Anna Keizer",
+      "note": "BBB-politica; vergeleken met andere BBB-vertegenwoordigers",
+      "start_seconds": 4500,
+      "mention_count": 1
+    },
+    {
+      "name": "Lemya Ararowai",
+      "note": "Columniste die de kritiek op Bontenbal verwoordde",
+      "start_seconds": 3576,
+      "mention_count": 2
+    },
+    {
+      "name": "Lyle Gul",
+      "note": "Columniste; schreef dat Bontenbal zich als conservatieve christen toonde",
+      "start_seconds": 3342,
+      "mention_count": 3
+    },
+    {
+      "name": "Johan Derksen",
+      "note": "Commentator die reageerde op de uitspraken over artikel 23",
+      "start_seconds": 3342,
+      "mention_count": 2
+    },
+    {
+      "name": "Mark Baanders",
+      "note": "Verslaggever die reageerde op de uitspraken over artikel 23",
+      "start_seconds": 3342,
+      "mention_count": 1
+    },
+    {
+      "name": "Tim Sjongers",
+      "note": "Eerder gast; schetst hoe armoede en onzekerheid ervaren worden",
+      "start_seconds": 1154,
+      "mention_count": 1
+    },
+    {
+      "name": "René Cuperus",
+      "note": "Co-auteur van De Atlas van Afgehaakt Nederland",
+      "start_seconds": 2105,
+      "mention_count": 1
+    },
+    {
+      "name": "Peter Kannen",
+      "note": "Auteur van Gedoogdemocratie; beschrijft kloof tussen kiezers en partijtop",
+      "start_seconds": 3084,
+      "mention_count": 1
+    },
+    {
+      "name": "Joop Wijn",
+      "note": "Eerste openlijk homoseksuele CDA-minister, genoemd door Stefan Paas",
+      "start_seconds": 3365,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Verburg",
+      "note": "Eerste openlijk homoseksuele CDA-minister, genoemd door Stefan Paas",
+      "start_seconds": 3365,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Kees de Jager",
+      "note": "CDA-minister, genoemd door Stefan Paas",
+      "start_seconds": 3365,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De Atlas van Afgehaakt Nederland",
-      "author": "Josse de Voogd en René Cuperus",
-      "note": "onderzoek naar afgehaakte groepen",
+      "author": "René Cuperus en Josse de Voogd",
+      "note": "Atlas over Nederlanders die zich afgehaakt voelen van politiek en instituties",
       "start_seconds": 2105,
       "volume_id": "P9v1zgEACAAJ",
       "canonical_title": "Atlas van afgehaakt Nederland: over buitenstaanders en gevestigden",
@@ -113,137 +168,185 @@
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "Bakfietsen en Rolluiken",
+      "author": "Josse de Voogd",
+      "note": "Boekje over doelgroepen en zichtbaarheid van politieke tegenstellingen in de ruimte",
+      "start_seconds": 3128,
+      "volume_id": "w9eoswEACAAJ",
+      "canonical_title": "Bakfietsen en rolluiken: de electorale geografie van Nederland",
+      "canonical_author": "Josse de Voogd",
+      "isbn13": "9789072288660",
+      "isbn10": "9072288661",
+      "thumbnail": ""
+    },
+    {
+      "title": "Gedoogdemocratie",
+      "author": "Peter Kannen",
+      "note": "Analyse van de kloof tussen partijtop en kiezers, waarbij kiezers economisch linkser en cultureel rechtser staan",
+      "start_seconds": 3084
     }
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
-    "Ierland",
+    "Teylingen",
+    "Kaag en Braasem",
+    "Capelle aan de IJssel",
     "Texel",
     "Terschelling",
     "Vlieland",
-    "Ameland",
     "Schiermonnikoog",
+    "Ameland",
+    "Harkema",
     "Almere",
+    "Harlingen",
+    "Hoogezand",
+    "Purmerend",
+    "Lochem",
+    "Amsterdam-Noord",
+    "Nijmegen-West",
+    "Drenthe",
     "Friesland",
     "Groningen",
-    "Drenthe",
     "Twente",
     "Salland",
     "Veluwe",
-    "Harkema",
-    "Utrechtse Heuvelrug"
+    "Utrechtse Heuvelrug",
+    "Malieveld",
+    "Ierland",
+    "Hongarije",
+    "Duitsland",
+    "Bijbelbelt"
   ],
-  "summary_tldr": "Electoraal geograaf Josse de Voogd duidt de Tweede Kamerverkiezingen aan de hand van geografische en culturele lagen. Hij legt uit waarom de PVV groot blijft ondanks het rommelige kabinet: financiële en sociale kwetsbaarheid en gevoelens van uitsluiting. Ook komen de winst van D66, de rol van Timmermans en het gebruik van de Nederlandse vlag aan bod.",
+  "summary_tldr": "Josse de Voogd, electoraal geograaf, analyseert met David Boogerd en Stefan Paas de uitslag van de Tweede Kamerverkiezingen en de politieke blokken in Nederland. Het gesprek gaat over de winst van D66, de aanhoudende kracht van de PVV via sociale kwetsbaarheid en onbehagen, en de kwestie rond artikel 23 die het CDA veel stemmen kostte. Ook de formatie-opties en de toekomst van GroenLinks-PvdA komen aan bod.",
   "summary_points": [
-    "De Voogd voorspelde de uitslag grotendeels goed door trends en kleine signalen te volgen.",
-    "Het Nederlandse meerpartijenstelsel houdt een Trump-achtige tweedeling op afstand, maar in formaties winnen vaak kansrijke hogeropgeleiden en lobby's.",
-    "De uitslagenkaart toont biotopen: D66 in welvarende, hoogopgeleide steden, VVD eromheen, PVV in oude industrie-, logistiek- en veengebieden, CDA en SGP in gebieden met sterke sociale samenhang.",
-    "PVV-stemmers zijn oververtegenwoordigd onder werkende armen en lagere middenklasse; kwetsbaarheid is meer dan inkomen, ook gebrek aan geborgenheid en vangnet.",
-    "Het gevoel niet gewaardeerd of uitgesloten te zijn is de voedingsbodem voor populistische stemmen.",
-    "Sociale huur en statushouders is een symbooldossier; De Voogd vindt dat links de cijfers te snel wegwuift en rechts het vooral antimigratie motiveert.",
-    "De drie hoofdblokken zijn vrij stabiel; of Nederland linkser of rechtser is geworden hangt af van waar je D66 en CDA indeelt.",
-    "D66 won deels door een positieve toon, bespreekbaar maken van migratie en het omarmen van de Nederlandse vlag, terwijl de PVV 7% verloor aan D66."
+    "De verkiezingsuitslag werd door Josse de Voogd grotendeels goed voorspeld, met name door de trends en lokale signalen te lezen.",
+    "Nederlandse uitslagkaarten laten regionale verschillen zien die samenhangen met grondsoort, geschiedenis en sociale samenhang.",
+    "De PVV blijft groot door sociale en financiële kwetsbaarheid, een gevoel van niet-gewaardeerd worden en oververtegenwoordiging in dorpen en industriegebieden.",
+    "Het gesprek gaat over sociale huur en statushouders: volgens De Voogd is het aandeel in de nieuwe instroom veel groter dan de officiële percentages suggereren.",
+    "D66 won mede door het bespreekbaar maken van migratie en het claimen van de Nederlandse vlag, wat de polarisatie enigszins temperde.",
+    "GroenLinks-PvdA bleef zwak; de fusie leverde geen groei op en botste met de culturele kiezersvoorkeuren.",
+    "Het CDA verloor veel stemmen na uitspraken van Bontenbal over artikel 23 (vrijheid van onderwijs) en homoacceptatie op scholen.",
+    "Stefan Paas wijst op de ironie dat het CDA eerder openlijk homoseksuele ministers had en dat Bontenbal staatsrechtelijk correct sprak.",
+    "De twee gesprekspartners zien in het Nederlandse meerpartijenstelsel een rem op extreme politiek, maar ook een nadeel in onduidelijkheid en lobbymacht.",
+    "Het gesprek eindigt met de opmerking dat verkiezingsuitslagen een momentopname zijn en dat de formatie een spannende periode wordt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Voorspelling en verkiezingsnacht",
-      "summary": "De Voogd vertelt hoe hij de uitslag voorspelde en Stefan deelt zijn blik vanuit Ierland. Wilders' twijfel aan de uitslag wordt vergeleken met Trump."
+      "title": "Intro en voorspelling van de uitslag",
+      "summary": "Josse de Voogd licht toe hoe hij de uitslag grotendeels voorspelde op basis van trends en lokale signalen."
     },
     {
-      "start_seconds": 420,
-      "title": "Meerpartijenstelsel en formatie",
-      "summary": "Voor- en nadelen van het Nederlandse stelsel en de dominantie van kansrijke hogeropgeleiden en lobby's bij formaties."
+      "start_seconds": 611,
+      "title": "Politieke blokken en uitslagenkaart",
+      "summary": "De Voogd verklaart de kaart met D66, VVD, PVV, CDA en SGP en de rol van grondsoort en geschiedenis."
     },
     {
-      "start_seconds": 616,
-      "title": "De uitslagenkaart en geologie",
-      "summary": "Hoe grondsoorten en regio's samenhangen met stemgedrag, van veenkoloniën tot de Waddeneilanden."
+      "start_seconds": 912,
+      "title": "Sociale kwetsbaarheid en de PVV",
+      "summary": "Het gesprek gaat over financiële en sociale kwetsbaarheid, het gevoel van uitsluiting en de groepen die PVV kiezen."
     },
     {
-      "start_seconds": 920,
-      "title": "Kwetsbaarheid en onbehagen",
-      "summary": "Waarom de PVV groot blijft: financiële en sociale kwetsbaarheid, uitsluiting en gebrek aan geborgenheid."
-    },
-    {
-      "start_seconds": 1530,
+      "start_seconds": 1260,
       "title": "Sociale huur en statushouders",
-      "summary": "Discussie over de cijfers over statushouders in de sociale huur en hoe links en rechts daarmee omgaan."
+      "summary": "De Voogd bespreekt de verdeling van sociale huurwoningen en het verschil tussen officiële cijfers en de lokale impact."
     },
     {
-      "start_seconds": 2100,
-      "title": "De winst van D66",
-      "summary": "D66 als winnaar, de rol van Jetten en Timmermans, de haat tegen politici en de Nederlandse vlaggen op de uitslagenavond."
+      "start_seconds": 2125,
+      "title": "D66, de vlag en het links blok",
+      "summary": "Over de winst van D66, het gebruik van de Nederlandse vlag en de positie van GroenLinks-PvdA."
+    },
+    {
+      "start_seconds": 3257,
+      "title": "CDA en artikel 23",
+      "summary": "De kwestie rond Bontenbal en artikel 23, de reacties en de ironie van de partijgeschiedenis."
+    },
+    {
+      "start_seconds": 4011,
+      "title": "Coalities, zuilen en christelijke partijen",
+      "summary": "Mogelijke coalities, de verhouding tussen D66, CDA en ChristenUnie, en de vergelijking met de oude zuilen."
+    },
+    {
+      "start_seconds": 5283,
+      "title": "Afsluiting en formatie",
+      "summary": "Vooruitblik op de formatie en de nieuwe leider van GroenLinks-PvdA; het gesprek wordt afgerond."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 378,
-      "speaker": "David Boogerd",
-      "text": "Jammer, gaan we toch dat playbook van Trump nalopen.",
-      "note": "Teleurstelling over Wilders' twijfel aan de uitslag."
-    },
-    {
-      "start_seconds": 1006,
-      "speaker": "Josse de Voogd",
-      "text": "Kwetsbaarheid gaat om meer dan inkomen: sociale samenhang en een vangnet tellen mee.",
-      "note": "Kern van zijn verklaring voor PVV-stemmen."
-    },
-    {
-      "start_seconds": 1080,
+      "start_seconds": 1514,
       "speaker": "Stefan Paas",
-      "text": "Je mist geborgenheid waarop je kunt terugvallen.",
-      "note": "Theologische duiding van het onbehagen."
+      "text": "Wij worden niet gewaardeerd... zelfs al geef je zelf geen enkele aanleiding toe, merk je toch dat bijna alles wat je zegt zo wordt uitgelegd.",
+      "note": "Een treffende samenvatting van het gevoel van miskenning dat volgens Paas onder PVV-kiezers leeft."
     },
     {
-      "start_seconds": 1290,
+      "start_seconds": 1260,
       "speaker": "Josse de Voogd",
-      "text": "Ik ben niks veranderd over migranten, maar door in die positie te komen ben ik er kritischer op geworden.",
-      "note": "Persoonlijke ervaring als chronisch zieke sociale huurder."
+      "text": "Dat is min of meer wat er gebeurd is: als rechts de sociale woningbouw sloopt en het aantal statushouders gelijk blijft, is het aantal statushouders vroeg of laat 100%.",
+      "note": "Een scherpe en onverwachte framing die links en rechts allebei kritisch bekijkt."
     },
     {
-      "start_seconds": 2437,
-      "speaker": "David Boogerd",
-      "text": "Nu staat D66 zelf met Nederlandse vlaggetjes de winst te vieren.",
-      "note": "Opvallend symbool na de aanval op het partijkantoor."
+      "start_seconds": 2519,
+      "speaker": "Josse de Voogd",
+      "text": "Als je trots bent op Nederland en dat monopolie aan de populisten laat, geef je ze een heel groot cadeau.",
+      "note": "Opvallende pleidooi om nationale trots terug te claimen van de populisten."
+    },
+    {
+      "start_seconds": 3420,
+      "speaker": "Stefan Paas",
+      "text": "Bontenbal zei formeel juridisch niks verkeerd, maar hij verzuimde empathisch te zijn en daar werd hij op afgerekend.",
+      "note": "Laat zien hoe juridische correctheid en politieke gevoeligheid uit elkaar kunnen lopen."
+    },
+    {
+      "start_seconds": 4699,
+      "speaker": "Stefan Paas",
+      "text": "Wat de PVV juist doet, is het omgekeerde: cultiveert miskenning.",
+      "note": "Een scherpe vergelijking tussen de oude zuilen, die erkenning cultiveerden, en de huidige populistische partij."
     }
   ],
   "keywords": [
-    "verkiezingen",
-    "D66",
+    "verkiezingsuitslag",
     "PVV",
-    "onbehagen",
-    "afgehaakt Nederland",
+    "D66",
+    "sociale kwetsbaarheid",
     "sociale huur",
-    "statushouders",
+    "artikel 23",
+    "vrijheid van onderwijs",
+    "zuil",
     "populisme",
     "electorale geografie",
-    "kwetsbaarheid",
-    "Rob Jetten",
-    "Nederlandse vlag"
+    "coalitievorming",
+    "nationale trots"
   ],
-  "quotes": [],
+  "quotes": [
+    "Het waren de spannendste Tweede Kamerverkiezingen ooit – zo wordt gezegd.",
+    "Josse kent Nederland door en door. Hij is in elke gemeente geweest en wordt vrolijk van verkiezingskaarten.",
+    "Waarom vindt Stefan het ironisch dat het CDA wordt afgerekend op Henri Bontenbals uitspraak over artikel 23?"
+  ],
   "similar": [
     {
       "n": 170,
-      "reason": "Zelfde gast Josse de Voogd, duiding van verkiezingsuitslag en rechtse winst van Wilders"
-    },
-    {
-      "n": 136,
-      "reason": "Josse de Voogd over Nederlandse politieke geografie, BBB en cultuurverschillen"
-    },
-    {
-      "n": 271,
-      "reason": "Verkiezingen, populisme en Wilders, analyse van Nederlandse politiek"
-    },
-    {
-      "n": 267,
-      "reason": "Politiek onbehagen en verkiezingen in Nederland, democratie onder druk"
+      "reason": "Analyse waarom Wilders won en Nederland verrechtst, met Josse de Voogd"
     },
     {
       "n": 169,
-      "reason": "Verkiezingsuitslag en Wilders, politieke aardverschuiving in Nederland"
+      "reason": "Verkiezingsuitslag en politieke aardverschuiving, met Wilders als centraal thema"
+    },
+    {
+      "n": 156,
+      "reason": "CDA-lijsttrekker Bontenbal over christendemocratie na de verkiezingen"
+    },
+    {
+      "n": 267,
+      "reason": "Politiek en onbehagen voor de verkiezingen, sluit aan bij PVV-kiezers"
+    },
+    {
+      "n": 174,
+      "reason": "Economische en culturele onvrede in de samenleving, thema economie en migratie"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,11 +1,16 @@
 {
   "episode": 316,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 92148,
+    "segments": 716,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31178,
-    "output_tokens": 2789,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46940,
+    "output_tokens": 7148,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -18,173 +23,105 @@
     "Emanuel Rutten",
     "Rosanne Hertzberger",
     "Ard Louis",
-    "Heino Falcke",
-    "Cees Dekker",
-    "Carlo Beenakker"
+    "Heino Falcke"
   ],
   "people": [
     {
-      "name": "Emanuel Rutten",
-      "note": "filosoof (VU Amsterdam), verdediger van godsargumenten, o.a. fine-tuning",
-      "start_seconds": 1,
-      "wiki_checked": true,
-      "wiki_pageid": 4109284,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Emanuel_Rutten",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Emanuel_Rutten_2014.png/250px-Emanuel_Rutten_2014.png"
-    },
-    {
-      "name": "Rosanne Hertzberger",
-      "note": "microbioloog, over de misplaatste zekerheid van de wetenschap",
-      "start_seconds": 6,
-      "wiki_checked": true,
-      "wiki_pageid": 4803591,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rosanne_Hertzberger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Rosanne_Hertzberger.jpg/250px-Rosanne_Hertzberger.jpg"
-    },
-    {
-      "name": "Heino Falcke",
-      "note": "sterrenkundige (Radboud Universiteit), maker van de eerste foto van een zwart gat",
-      "start_seconds": 32,
-      "wiki_checked": true,
-      "wiki_pageid": 3906079,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Heino_Falcke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Heino_Falcke_-_Buch_Wien_2025.JPG/250px-Heino_Falcke_-_Buch_Wien_2025.JPG"
-    },
-    {
-      "name": "Ard Louis",
-      "note": "hoogleraar theoretische natuurkunde in Oxford",
-      "start_seconds": 1426,
-      "wiki_checked": true
-    },
-    {
-      "name": "Cees Dekker",
-      "note": "natuurkundige aan de TU Delft",
-      "start_seconds": 1192,
-      "wiki_checked": true,
-      "wiki_pageid": 281114,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Cees_Dekker_%28natuurkundige%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Cees_dekker-1452443040.jpg/250px-Cees_dekker-1452443040.jpg"
-    },
-    {
-      "name": "Carlo Beenakker",
-      "note": "natuurkundige aan de Universiteit Leiden",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 1652063,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carlo_Beenakker",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Carlo_Beenakker.jpg/250px-Carlo_Beenakker.jpg"
-    },
-    {
-      "name": "Arjen Lubach",
-      "note": "presentator, eerdere gast met wie Rutten debatteerde",
-      "start_seconds": 653,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
-    },
-    {
-      "name": "Roger Penrose",
-      "note": "natuurkundige, schrijver van The Road to Reality, kritiek op het multiversum",
-      "start_seconds": 559,
-      "wiki_checked": true
-    },
-    {
-      "name": "Alvin Plantinga",
-      "note": "analytisch filosoof in de revival van godsargumenten",
-      "start_seconds": 873,
-      "wiki_checked": true,
-      "wiki_pageid": 175924,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alvin_Plantinga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/AlvinPlantinga.JPG/250px-AlvinPlantinga.JPG"
-    },
-    {
-      "name": "Alexander Pruss",
-      "note": "filosoof, godsargumenten",
-      "start_seconds": 873,
-      "wiki_checked": true
-    },
-    {
-      "name": "Joshua Rasmussen",
-      "note": "filosoof, godsargumenten",
-      "start_seconds": 873,
-      "wiki_checked": true
-    },
-    {
-      "name": "Robert Koons",
-      "note": "filosoof, godsargumenten",
-      "start_seconds": 873,
-      "wiki_checked": true
-    },
-    {
-      "name": "Dietrich Bonhoeffer",
-      "note": "theoloog, muntte 'God van de gaten'",
-      "start_seconds": 1252,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
+      "name": "Albert Einstein",
+      "note": "natuurkundige; geloofde in een eeuwig universum en noemde begrijpelijkheid van de wereld een mysterie",
+      "start_seconds": 1854,
+      "mention_count": 5
     },
     {
       "name": "Georges Lemaître",
-      "note": "katholiek priester en natuurkundige, bedenker van de oerknaltheorie",
-      "start_seconds": 2207,
-      "wiki_checked": true,
-      "wiki_pageid": 95534,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georges_Lema%C3%AEtre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/GLemaitre30.jpg/250px-GLemaitre30.jpg"
+      "note": "katholieke priester en natuurkundige die het oerknalmodel formuleerde",
+      "start_seconds": 2200,
+      "mention_count": 5
     },
     {
-      "name": "Albert Einstein",
-      "note": "natuurkundige, over de begrijpelijkheid van de wereld als mysterie",
-      "start_seconds": 1854,
-      "wiki_checked": true,
-      "wiki_pageid": 53,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Albert_Einstein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Einstein1921_by_F_Schmutzer_2.jpg/250px-Einstein1921_by_F_Schmutzer_2.jpg"
+      "name": "Richard Dawkins",
+      "note": "evolutiebioloog en atheïstische auteur van The Blind Watchmaker en The God Delusion",
+      "start_seconds": 2861,
+      "mention_count": 2
+    },
+    {
+      "name": "Roger Penrose",
+      "note": "natuurkundige die het multiversum-argument met kwantummechanica weerlegt",
+      "start_seconds": 559,
+      "mention_count": 2
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "theoloog die de term 'god van de gaten' munt",
+      "start_seconds": 1252,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader uit de vierde eeuw; Bekentenissen en de stelling dat mensen liefhebbende wezens zijn",
+      "start_seconds": 3229,
+      "mention_count": 3
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "filosoof die zijn verzet tegen het christendom als kwestie van smaak zag",
+      "start_seconds": 3258,
+      "mention_count": 2
     },
     {
       "name": "Paul Dirac",
-      "note": "natuurkundige, formule die antimaterie voorspelt",
-      "start_seconds": 1464,
-      "wiki_checked": true,
-      "wiki_pageid": 114346,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paul_Dirac",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Paul_Dirac%2C_1933%2C_head_and_shoulders_portrait%2C_bw.jpg/250px-Paul_Dirac%2C_1933%2C_head_and_shoulders_portrait%2C_bw.jpg"
+      "note": "natuurkundige wiens vergelijking het bestaan van antimaterie voorspelde",
+      "start_seconds": 1453,
+      "mention_count": 1
     },
     {
-      "name": "Wouter van Noort",
-      "note": "christelijk natuurkundige",
-      "start_seconds": 1179,
-      "wiki_checked": true
+      "name": "Alvin Plantinga",
+      "note": "analytisch filosoof en voorvechter van godsargumenten",
+      "start_seconds": 873,
+      "mention_count": 1
+    },
+    {
+      "name": "Alain Badiou",
+      "note": "Franse filosoof die het begrip waarheidsevenement introduceerde",
+      "start_seconds": 3839,
+      "mention_count": 1
+    },
+    {
+      "name": "Cees Dekker",
+      "note": "biofysicus aan de TU Delft die leven probeert te bouwen uit levenloze onderdelen",
+      "start_seconds": 2626,
+      "mention_count": 4
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "atheïstische filosoof die debatteerde met Emanuel Rutten",
+      "start_seconds": 4066,
+      "mention_count": 1
+    },
+    {
+      "name": "Marjolein van Heemstra",
+      "note": "godsdienstwetenschapper die het gesprek met Heino Falcke mede voerde",
+      "start_seconds": 2157,
+      "mention_count": 2
+    },
+    {
+      "name": "Arjen Lubach",
+      "note": "presentator die eerder in de podcast sprak over fine-tuning",
+      "start_seconds": 668,
+      "mention_count": 1
     },
     {
       "name": "Elaine Howard Ecklund",
-      "note": "socioloog (Rice), onderzoek naar geloofsbeleving van wetenschappers",
-      "start_seconds": 1724,
-      "wiki_checked": true,
-      "wiki_pageid": 27081843,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Elaine_Howard_Ecklund",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Elaine_Howard_Ecklund_2019.jpg/250px-Elaine_Howard_Ecklund_2019.jpg"
+      "note": "sociologe die onderzoek deed naar het geloof van wetenschappers",
+      "start_seconds": 1733,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Road to Reality",
       "author": "Roger Penrose",
-      "note": "over het multiversum en kwantummechanica",
+      "note": "gebruikt om het multiversum-argument door kansrekening te weerleggen",
       "start_seconds": 559,
       "volume_id": "pniMEAAAQBAJ",
       "canonical_title": "The Road to Reality",
@@ -192,132 +129,180 @@
       "isbn13": "9780099440680",
       "isbn10": "0099440687",
       "thumbnail": "http://books.google.com/books/content?id=pniMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "The Blind Watchmaker",
+      "author": "Richard Dawkins",
+      "note": "evolutieboek dat Heino Falcke indruk maakte",
+      "start_seconds": 2861,
+      "volume_id": "vZw8PgAACAAJ",
+      "canonical_title": "The Blind Watchmaker",
+      "canonical_author": "Richard Dawkins",
+      "isbn13": "9780393993417",
+      "isbn10": "0393993418",
+      "thumbnail": "http://books.google.com/books/content?id=vZw8PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "The God Delusion",
+      "author": "Richard Dawkins",
+      "note": "atheïstisch boek dat Heino Falcke aan het twijfelen bracht",
+      "start_seconds": 2861,
+      "volume_id": "grccDzrTWLUC",
+      "canonical_title": "The God Delusion",
+      "canonical_author": "Richard Dawkins",
+      "isbn13": "9781409091585",
+      "isbn10": "1409091589",
+      "thumbnail": "http://books.google.com/books/content?id=grccDzrTWLUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Bekentenissen",
+      "author": "Augustinus",
+      "note": "tekst die Emanuel Rutten op de VU las en die hem diep raakte",
+      "start_seconds": 3795,
+      "volume_id": "W4QItwAACAAJ",
+      "canonical_title": "Bekentenissen van Augustinus",
+      "canonical_author": "Aurelius Augustinus; Walraven Francken (Az.)",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
   "bible_refs": [
     {
-      "ref": "Genesis 1",
-      "note": "scheppingsverhaal, 'er zij licht' gezien als profetisch en passend bij oerknal en ontwikkeling",
-      "start_seconds": 2418
+      "ref": "Genesis 1:1-3",
+      "note": "Heino Falcke noemt de eerste zin van Genesis geniaal; eerst licht, God spreekt",
+      "start_seconds": 2450
     }
   ],
   "places": [
     "Oxford",
-    "Delft",
     "Utrecht",
+    "Delft",
     "Leuven",
-    "Princeton",
-    "Cambridge",
     "Ede",
     "Amsterdam",
     "Nijmegen",
     "Leiden"
   ],
-  "summary_tldr": "In deze laatste Best Of-aflevering staat de vraag centraal of God bestaat, aan de hand van fragmenten met topwetenschappers en filosofen die geloof en wetenschap niet als tegenstellingen zien. Rutten bepleit het fine-tuning-argument, Hertzberger en Louis wijzen op mysterie en schoonheid, en Falcke op de oerknal en Genesis. Stefan Paas waarschuwt voor een 'God van de gaten' en stelt dat godsargumenten hooguit een dunne God opleveren.",
+  "summary_tldr": "In deze Best Of-aflevering onderzoeken wetenschappers en filosofen of het bestaan van God rationeel te onderbouwen valt en of geloof en wetenschap elkaar tegenspreken. Meerdere gasten stellen dat het oude conflict achterhaald is en dat fine-tuning van natuurwetten om een bewuste oorsprong vraagt. Theoloog Stefan Paas waarschuwt dat zulke argumenten slechts een 'dunne God' opleveren en dat geloof vooral wordt gedreven door verlangen, liefde en ervaring.",
   "summary_points": [
-    "Het verhaal dat de wetenschap God heeft doodverklaard wordt door deze gasten als achterhaald gezien.",
-    "Rutten: het fine-tuning-argument wijst op een bewuste wil achter de natuurconstanten; toeval, multiversum en noodzakelijkheid vallen volgens hem af.",
-    "Hertzberger noemt het zelfvertrouwen van atheïstische wetenschappers misplaatst, gezien de grote gaten in onze kennis.",
-    "Paas waarschuwt voor de 'God van de gaten': God hoort niet in een reageerbuisje.",
-    "Louis: de schoonheid van wiskundige formules en de vraag waarom er natuurwetten zijn; iedereen moet een 'rare sprong' maken.",
-    "Falcke: de oerknal werd bedacht door priester Lemaître en past bij Genesis; natuurkunde houdt op bij t=0.",
-    "Einstein: het grootste mysterie is dat de wereld begrijpelijk is.",
-    "Betekent een schepper ook een persoonlijke God die ons kent? Dat is de open vraag die Beenakker en Paas aansnijden."
+    "Emanuel Rutten noemt het fine-tuning-argument het sterkste godsargument, omdat natuurconstanten precies leven mogelijk maken.",
+    "Rutten verwerpt toeval, noodzakelijkheid en het multiversum als verklaring en pleit voor intentionaliteit.",
+    "Rosanne Hertzberger ziet het wetenschappelijk zelfvertrouwen dat God doodverklaarde als misplaatst en wijst op grote kennisgaten.",
+    "Ard Louis beschrijft de schoonheid van wiskundige formules en stelt dat iedereen een 'rare sprong' moet maken om natuurwetten te verklaren.",
+    "Heino Falcke laat zien dat Georges Lemaître, een priester, de oerknaltheorie formuleerde en ziet in Genesis een verrassend modern beeld van ontwikkeling.",
+    "Cees Dekker en Stefan Paas bespreken het gevaar van de 'god van de gaten' en de vraag of het leven zelf buiten Gods bereik moet blijven.",
+    "Carlo Beenakker vindt het idee van een schepper minder moeilijk dan dat God een persoonlijk kennende God is.",
+    "Stefan Paas stelt dat argumenten zelden het hele verhaal vertellen en dat geloof vaak begint bij verlangen en ervaring.",
+    "Emanuel Rutten beschrijft zijn weg van areligieuze wiskundige via de filosofie naar christen, aangetrokken door Jezus."
   ],
   "chapters": [
     {
-      "start_seconds": 54,
+      "start_seconds": 0,
       "title": "Inleiding: bestaat God?",
-      "summary": "David introduceert de reeks en het thema dat geloof en wetenschap volgens deze gasten geen vijanden zijn."
+      "summary": "David Boogerd introduceert de vraag en het idee dat wetenschap en geloof niet botsen."
     },
     {
       "start_seconds": 131,
-      "title": "Emanuel Rutten en het fine-tuning-argument",
-      "summary": "Rutten legt uit waarom afgestemde natuurconstanten volgens hem wijzen op een bewuste schepper en weerlegt toeval, multiversum en noodzakelijkheid."
+      "title": "Fine-tuning en het beste godsargument",
+      "summary": "Emanuel Rutten legt uit waarom natuurconstanten om een verklaring vragen en verwerpt alternatieven zoals het multiversum."
     },
     {
-      "start_seconds": 1010,
-      "title": "Rosanne Hertzberger over dogmatische wetenschap",
-      "summary": "Hertzberger vertelt over de misplaatste zekerheid van de wetenschap, terwijl Paas waarschuwt voor een God van de gaten."
+      "start_seconds": 1038,
+      "title": "Wetenschap, zelfvertrouwen en de God van de gaten",
+      "summary": "Rosanne Hertzberger en Stefan Paas bespreken overmoed in de wetenschap en het gevaar van God als vulling van kennisgaten."
     },
     {
-      "start_seconds": 1426,
-      "title": "Ard Louis: schoonheid en natuurwetten",
-      "summary": "Louis vertelt over de schoonheid van formules en de vraag waar natuurwetten vandaan komen; elke optie vraagt een rare sprong."
+      "start_seconds": 1409,
+      "title": "Schoonheid van natuurwetten",
+      "summary": "Ard Louis vertelt over de overweldigende schoonheid van formules en over de vraag waarom natuurwetten bestaan."
     },
     {
-      "start_seconds": 2158,
-      "title": "Heino Falcke: oerknal en Genesis",
-      "summary": "Falcke bespreekt priester Lemaître, de oerknal en hoe hij de eerste zin van Genesis leest."
+      "start_seconds": 2200,
+      "title": "Oerknal en Genesis",
+      "summary": "Heino Falcke vertelt over Lemaître en de oerknal en ziet in Genesis een verrassend modern beeld van ontwikkeling."
+    },
+    {
+      "start_seconds": 2626,
+      "title": "Leven bouwen en het gevaar van de god van de gaten",
+      "summary": "Stefan Paas en Heino Falcke debatteren over Cees Dekkers onderzoek en over de rol van God bij het ontstaan van leven."
+    },
+    {
+      "start_seconds": 3194,
+      "title": "Dunne God en verlangen",
+      "summary": "Stefan Paas stelt dat argumenten slechts een dunne God opleveren en dat geloof wordt gedreven door liefde en verlangen."
+    },
+    {
+      "start_seconds": 3579,
+      "title": "Persoonlijke weg van Emanuel Rutten",
+      "summary": "Rutten vertelt hoe hij via filosofie en Augustinus bij Jezus en het christendom uitkwam."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 160,
+      "start_seconds": 388,
       "speaker": "Emanuel Rutten",
-      "text": "Waarom zijn deze argumenten zo goed verborgen gehouden?",
-      "note": "Zijn irritatie bij het ontdekken van godsargumenten toont zijn persoonlijke weg."
+      "text": "We are living on a razor's edge: verander één constante minuscuul en er zou geen leven ontstaan.",
+      "note": "Kernformulering van het fine-tuning-argument, die de discussie over het bestaan van God aanwakkert."
     },
     {
-      "start_seconds": 1121,
-      "speaker": "Rosanne Hertzberger",
-      "text": "Dat zelfvertrouwen is echt, echt, echt misplaatst.",
-      "note": "Scherpe kritiek op atheïstisch wetenschappelijk machismo."
-    },
-    {
-      "start_seconds": 2100,
+      "start_seconds": 2104,
       "speaker": "Ard Louis",
-      "text": "Iedereen moet een rare sprong maken.",
-      "note": "Gelovigen en atheïsten staan voor dezelfde metafysische vraag."
+      "text": "Iedereen moet een rare sprong maken; de vraag is welke sprong het meeste bewijs oplevert.",
+      "note": "Verrassend nuchtere stelling dat ook atheïsten voorbij het bewijs moeten gaan."
     },
     {
-      "start_seconds": 1252,
+      "start_seconds": 3116,
+      "speaker": "Ard Louis",
+      "text": "Dat God mij kent, dat is het moeilijkste om te geloven, niet dat God bestaat.",
+      "note": "Scherpe gedachte die het gesprek verschuift van bewijs naar persoonlijke relatie."
+    },
+    {
+      "start_seconds": 3229,
       "speaker": "Stefan Paas",
-      "text": "God kun je niet in een reageerbuisje vinden.",
-      "note": "Paas relativeert wetenschappelijke godsbewijzen."
-    },
-    {
-      "start_seconds": 2503,
-      "speaker": "Heino Falcke",
-      "text": "Het eerste wat je leest in de Bijbel is een ontwikkelingstheorie, een evolutietheorie.",
-      "note": "Verrassende lezing van Genesis."
+      "text": "We zijn niet zozeer rationele wezens, maar liefhebbende wezens.",
+      "note": "Een emotioneel geladen kijk die argumenten relativeert en het geloof dichter bij verlangen brengt."
     }
   ],
   "keywords": [
-    "God",
     "fine-tuning",
-    "oerknal",
+    "natuurconstanten",
     "multiversum",
-    "natuurwetten",
+    "oerknal",
     "God van de gaten",
-    "Genesis",
+    "natuurwetten",
     "schoonheid",
-    "Georges Lemaître",
-    "geloof en wetenschap"
+    "Genesis",
+    "geloof en wetenschap",
+    "dunne God"
   ],
   "quotes": [
-    "Want geloven dat er een God achter het heelal zit is één ding; geloven dat die God weet dat jij bestaat, is volgens hem een veel grotere sprong."
+    "Ze noemen het vermeende conflict tussen geloof en wetenschap achterhaald.",
+    "Wat bewijzen zulke argumenten eigenlijk? Wijzen ze werkelijk naar God, of vullen we God in op de plekken waar de wetenschap nog geen antwoord heeft?",
+    "Geloven dat er een God achter het heelal zit is één ding; geloven dat die God weet dat jij bestaat, is volgens hem een veel grotere sprong."
   ],
   "similar": [
     {
       "n": 189,
-      "reason": "Emanuel Rutten over de argumenten voor het bestaan van God, filosofie en wetenschap"
-    },
-    {
-      "n": 150,
-      "reason": "Rosanne Hertzberger: wetenschap heeft God niet dood verklaard"
+      "reason": "Emanuel Rutten over sterkere argumenten voor Gods bestaan, met wetenschap en filosofie."
     },
     {
       "n": 157,
-      "reason": "Ard Louis, Oxford-natuurkundige, stuit op mysterie, schoonheid en God"
+      "reason": "Ard Louis over wetenschappelijke mysteries, schoonheid en mogelijk God; zelfde gast."
     },
     {
       "n": 322,
-      "reason": "Heino Falcke over oerknal, kosmos en God"
+      "reason": "Heino Falcke over God, de mens en de kosmos; zelfde gast en thema's."
     },
     {
-      "n": 233,
-      "reason": "Carlo Beenakker over kwantum, geloof en wetenschap"
+      "n": 150,
+      "reason": "Rosanne Hertzberger: wetenschap heeft God niet dood verklaard; zelfde gast en kernthema."
+    },
+    {
+      "n": 98,
+      "reason": "Debat over het bestaan van God met Emanuel Rutten, filosofische en wetenschappelijke argumenten."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

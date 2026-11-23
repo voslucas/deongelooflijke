@@ -1,329 +1,434 @@
 {
   "episode": 223,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 127161,
+    "segments": 1252,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31838,
-    "output_tokens": 2614,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 67443,
+    "output_tokens": 4388,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "God & geloof",
+    "Zingeving & psyche",
     "Technologie & AI",
-    "Filosofie & ethiek"
+    "Economie & geld"
   ],
   "guests": [
     "Ernst-Jan Pfauth"
   ],
   "people": [
     {
+      "name": "Ernst-Jan Pfauth",
+      "note": "Gast, auteur van 'Intentioneel leven', internetpionier en presentator van POM",
+      "start_seconds": 5,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Vaste gast, theoloog",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
       "name": "Tim Harford",
-      "note": "Britse auteur van 'Messy' over de waarde van rommel",
-      "start_seconds": 289,
-      "wiki_checked": true,
-      "wiki_pageid": 5603360,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Harford",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Tim_Harford_in_2012.jpg/250px-Tim_Harford_in_2012.jpg"
+      "note": "Brits auteur van 'Messy', over rommel en creativiteit",
+      "start_seconds": 283,
+      "mention_count": 1
     },
     {
       "name": "Ernest Hemingway",
-      "note": "schrijver; citaat 'the first draft of anything is shit'",
-      "start_seconds": 343,
-      "wiki_checked": true,
-      "wiki_pageid": 413,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ernest_Hemingway",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/250px-ErnestHemingway.jpg"
-    },
-    {
-      "name": "Somerset Maugham",
-      "note": "schrijver; citaat over wachten op inspiratie om 9 uur",
-      "start_seconds": 372,
-      "wiki_checked": true,
-      "wiki_pageid": 87694,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/William_Somerset_Maugham",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Somerset_Maugham_%281934%29.jpg/250px-Somerset_Maugham_%281934%29.jpg"
+      "note": "Schrijver; citaat over het eerste concept",
+      "start_seconds": 329,
+      "mention_count": 1
     },
     {
       "name": "Oliver Sacks",
-      "note": "neuroloog en schrijver; hing een groot 'no' in zijn kantoor",
-      "start_seconds": 388,
-      "wiki_checked": true,
-      "wiki_pageid": 59989,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Oliver_Sacks",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Oliversacks.jpg/250px-Oliversacks.jpg"
+      "note": "Neuroloog en schrijver; briefje 'No' op bureau, zijn laatste boek 'Gratitude'",
+      "start_seconds": 363,
+      "mention_count": 3
+    },
+    {
+      "name": "Somerset Maugham",
+      "note": "Schrijver; citaat over inspiratie om 9 uur",
+      "start_seconds": 372,
+      "mention_count": 1
     },
     {
       "name": "Angela Merkel",
-      "note": "oud-bondskanselier; plexiglazen kubus met spreuk op haar bureau",
-      "start_seconds": 454,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
+      "note": "Voormalig Duits bondskanselier; plexiglas kubus met spreuk",
+      "start_seconds": 427,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president, genoemd als gesprekspartner van Merkel",
+      "start_seconds": 443,
+      "mention_count": 1
     },
     {
       "name": "Brené Brown",
-      "note": "onderzoeker en auteur van 'De moed van imperfectie'",
+      "note": "Onderzoeker; boek 'De moed van imperfectie'",
       "start_seconds": 1104,
-      "wiki_checked": true,
-      "wiki_pageid": 3195934,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bren%C3%A9_Brown",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Bren%C3%A9_Brown_Wikipedia.jpg/250px-Bren%C3%A9_Brown_Wikipedia.jpg"
+      "mention_count": 1
     },
     {
       "name": "Arnold Schwarzenegger",
-      "note": "bodybuilder, acteur en politicus; spijt over verwaarloosd gezin",
-      "start_seconds": 1121,
-      "wiki_checked": true,
-      "wiki_pageid": 24425,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arnold_Schwarzenegger",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80_%2852505219423%29.jpg/250px-%D0%90%D1%80%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4_%D0%A8%D0%B2%D0%B0%D1%80%D1%86%D0%B5%D0%BD%D0%B5%D0%B3%D0%B3%D0%B5%D1%80_%2852505219423%29.jpg"
+      "note": "Acteur/politicus; Netflix-documentaire over zijn leven",
+      "start_seconds": 1128,
+      "mention_count": 1
+    },
+    {
+      "name": "Stephen Covey",
+      "note": "Auteur van 'The 7 Habits of Highly Effective People'",
+      "start_seconds": 1490,
+      "mention_count": 2
+    },
+    {
+      "name": "Oliver Burkeman",
+      "note": "Auteur van '4000 weken'; interview met Ernst-Jan",
+      "start_seconds": 1494,
+      "mention_count": 1
+    },
+    {
+      "name": "Josef Pieper",
+      "note": "Duits katholiek filosoof; essay 'Rust en cultus' (1947)",
+      "start_seconds": 1737,
+      "mention_count": 3
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Grieks filosoof; zei dat we werken om te rusten",
+      "start_seconds": 1770,
+      "mention_count": 1
     },
     {
       "name": "Stefan Zweig",
-      "note": "schrijver; beschrijft Rodin in 'De wereld van gisteren'",
-      "start_seconds": 1508,
-      "wiki_checked": true,
-      "wiki_pageid": 315497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Stefan_Zweig",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Stefan_Zweig2.png/250px-Stefan_Zweig2.png"
+      "note": "Schrijver; 'De wereld van gisteren' over beeldhouwer Rodin",
+      "start_seconds": 1505,
+      "mention_count": 2
     },
     {
       "name": "Auguste Rodin",
-      "note": "beeldhouwer die volledig opgaat in zijn werk",
-      "start_seconds": 1508,
-      "wiki_checked": true,
-      "wiki_pageid": 20082,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Auguste_Rodin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Alvin_Langdon_Coburn-Rodin.jpg/250px-Alvin_Langdon_Coburn-Rodin.jpg"
+      "note": "Beeldhouwer; voorbeeld van flow",
+      "start_seconds": 1515,
+      "mention_count": 2
     },
     {
       "name": "Mihaly Csikszentmihalyi",
-      "note": "psycholoog die het begrip 'flow' introduceerde",
-      "start_seconds": 1617,
-      "wiki_checked": true,
-      "wiki_pageid": 426879,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Mihaly_Csikszentmihalyi.jpg/250px-Mihaly_Csikszentmihalyi.jpg"
-    },
-    {
-      "name": "Yevgeny Morozov",
-      "note": "onderzoeker van technologieplatforms; telefoon in tijdkluis",
-      "start_seconds": 1871,
-      "wiki_checked": true
+      "note": "Psycholoog; bedenker van het concept flow",
+      "start_seconds": 1626,
+      "mention_count": 2
     },
     {
       "name": "Abraham Maslow",
-      "note": "psycholoog van de behoeftehiërarchie",
-      "start_seconds": 2246,
-      "wiki_checked": true,
-      "wiki_pageid": 16287,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Abraham_Maslow",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Piramide_van_Maslow.svg/250px-Piramide_van_Maslow.svg.png"
+      "note": "Psycholoog; behoeftenpiramide en zelftranscendentie",
+      "start_seconds": 2271,
+      "mention_count": 4
+    },
+    {
+      "name": "Yevgeny Morozov",
+      "note": "Onderzoeker technologieplatforms; kluis voor telefoon",
+      "start_seconds": 1800,
+      "mention_count": 1
+    },
+    {
+      "name": "Marjolein Moorman",
+      "note": "PvdA-wethouder Amsterdam; citeerde Augustinus",
+      "start_seconds": 2760,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; hoop, woede en moed",
+      "start_seconds": 2760,
+      "mention_count": 3
+    },
+    {
+      "name": "Dirk de Wachter",
+      "note": "Psychiater; spreekt over zingevingscrisis",
+      "start_seconds": 4275,
+      "mention_count": 1
+    },
+    {
+      "name": "Calvijn",
+      "note": "Theoloog; motto 'laat me verteerd worden als ik maar nuttig ben'",
+      "start_seconds": 4602,
+      "mention_count": 2
     },
     {
       "name": "Alexander Klöpping",
-      "note": "medemaker van Podcast over Media",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 2068854,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Kl%C3%B6pping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Alexander_Kl%C3%B6pping_%282018%29.jpg/250px-Alexander_Kl%C3%B6pping_%282018%29.jpg"
+      "note": "Medepresentator POM",
+      "start_seconds": 70,
+      "mention_count": 2
+    },
+    {
+      "name": "Rutger Bregman",
+      "note": "Historicus; genoemd als christelijk opgevoed",
+      "start_seconds": 4170,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexei Navalny",
+      "note": "Russische oppositieleider; voorbeeld van offer voor recht",
+      "start_seconds": 4736,
+      "mention_count": 1
+    },
+    {
+      "name": "Maxima",
+      "note": "Koningin; Ernst-Jan zat naast haar bij diner",
+      "start_seconds": 820,
+      "mention_count": 1
+    },
+    {
+      "name": "Franciscus van Assisi",
+      "note": "Heilige; toegeschreven gebed 'Maak mijn hart onrustig'",
+      "start_seconds": 3740,
+      "mention_count": 2
+    },
+    {
+      "name": "Ronnie Ware",
+      "note": "Palliatief verpleegkundige; onderzoek naar spijt op sterfbed",
+      "start_seconds": 3998,
+      "mention_count": 1
+    },
+    {
+      "name": "Gijs Groenteman",
+      "note": "Journalist; noemde christelijke jeugd van Ernst-Jan",
+      "start_seconds": 1440,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Messy",
-      "author": "Tim Harford",
-      "note": "over de waarde van een rommelig bureau",
-      "start_seconds": 289,
-      "volume_id": "QPMeCgAAQBAJ",
-      "canonical_title": "Messy: How to Be Creative and Resilient in a Tidy-Minded World",
-      "canonical_author": "Tim Harford",
-      "isbn13": "9781408706770",
-      "isbn10": "1408706776",
-      "thumbnail": "http://books.google.com/books/content?id=QPMeCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "De moed van imperfectie",
+      "author": "Brené Brown",
+      "note": "Interviews met mensen na trauma; over dierbaren en eenvoudige momenten",
+      "start_seconds": 1104,
+      "volume_id": "beI0nwEACAAJ",
+      "canonical_title": "De moed van imperfectie",
+      "canonical_author": "Brené C. Brown",
+      "isbn13": "9789400503496",
+      "isbn10": "9400503490",
+      "thumbnail": ""
     },
     {
       "title": "De wereld van gisteren",
       "author": "Stefan Zweig",
-      "note": "verhaal over Rodin en het begrip flow",
-      "start_seconds": 1515,
-      "volume_id": "nMvjEQAAQBAJ",
+      "note": "Beschrijft Rodin en het Europa van voor de oorlogen",
+      "start_seconds": 1505,
+      "volume_id": "PAUMPAAACAAJ",
       "canonical_title": "De wereld van gisteren",
       "canonical_author": "Stefan Zweig",
-      "isbn13": "9783689314057",
-      "isbn10": "3689314054",
-      "thumbnail": "http://books.google.com/books/content?id=nMvjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "De moed van imperfectie",
-      "author": "Brené Brown",
-      "note": "over wat er echt toe doet in het leven",
-      "start_seconds": 1104,
-      "volume_id": "KSc8AQAAQBAJ",
-      "canonical_title": "De moed van imperfectie: laat gaan wie je denkt te moeten zijn",
-      "canonical_author": "Brené Brown",
-      "isbn13": "9789044970715",
-      "isbn10": "9044970712",
-      "thumbnail": "http://books.google.com/books/content?id=KSc8AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
-      "title": "Intentioneel leven",
-      "author": "Ernst-Jan Pfauth",
-      "note": "nieuw boek van de gast",
-      "start_seconds": 605,
-      "volume_id": "YS4E0QEACAAJ",
-      "canonical_title": "Intentioneel leven: 7 simpele gewoontes voor meer focus en geluk",
-      "canonical_author": "Ernst-Jan Pfauth",
-      "isbn13": "9789493213869",
-      "isbn10": "9493213862",
+      "isbn13": null,
+      "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen Covey",
+      "note": "Zelfhulpklassieker; metafoor van zand en stenen in de vaas",
+      "start_seconds": 1490,
+      "volume_id": "4K7eDwAAQBAJ",
+      "canonical_title": "The 7 Habits of Highly Effective People",
+      "canonical_author": "Stephen R. Covey",
+      "isbn13": "9781982137274",
+      "isbn10": "1982137274",
+      "thumbnail": "http://books.google.com/books/content?id=4K7eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "4000 weken",
+      "author": "Oliver Burkeman",
+      "note": "Over tijdmanagement voor stervelingen; denkfout van zelfhulp",
+      "start_seconds": 1494,
+      "volume_id": "MqzCzgEACAAJ",
+      "canonical_title": "4000 weken",
+      "canonical_author": "Oliver Burkeman",
+      "isbn13": "9789493213241",
+      "isbn10": "9493213242",
+      "thumbnail": ""
+    },
+    {
+      "name": "",
+      "title": "Messy",
+      "author": "Tim Harford",
+      "note": "Over waarde van rommel en visuele aanzetten",
+      "start_seconds": 283,
+      "volume_id": "WSdBjgEACAAJ",
+      "canonical_title": "Messy",
+      "canonical_author": "Tim Harford",
+      "isbn13": "9781408706756",
+      "isbn10": "140870675X",
+      "thumbnail": ""
+    },
+    {
+      "title": "Rust en cultus",
+      "author": "Josef Pieper",
+      "note": "Essay uit 1947 over rust als waardevol op zichzelf",
+      "start_seconds": 1737
+    },
+    {
+      "title": "Gratitude",
+      "author": "Oliver Sacks",
+      "note": "Laatste boek over dankbaarheid, geschreven tot zijn dood",
+      "start_seconds": 3900,
+      "volume_id": "Cz_KCgAAQBAJ",
+      "canonical_title": "Gratitude",
+      "canonical_author": "Oliver Sacks",
+      "isbn13": "9781509822799",
+      "isbn10": "1509822798",
+      "thumbnail": "http://books.google.com/books/content?id=Cz_KCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Marcus 12:31",
+      "note": "Gerefereerd via 'Als 1 lid lijdt, lijden alle leden mee' (1 Korintiërs 12:26), niet exact geciteerd",
+      "start_seconds": 2565
+    },
+    {
+      "ref": "1 Korintiërs 12:26",
+      "note": "Stefan Paas: als 1 lid lijdt, lijden alle leden mee",
+      "start_seconds": 2574
+    }
+  ],
   "places": [
     "Amsterdam",
-    "Utrecht",
-    "Kroatië",
+    "Brooklyn",
     "Chicago",
-    "Oostenrijk"
+    "Oekraïne",
+    "Oostenrijk",
+    "Kroatië",
+    "Rusland"
   ],
-  "summary_tldr": "Ernst-Jan Pfauth vertelt over negen jaar onderzoek naar een gelukkiger en meer gefocust leven, 'intentioneel leven'. Hij legt uit hoe afleiding en statusjacht ('gelukskrakers') ons weghouden van wat ons echt gelukkig maakt ('geluksmakers'), met flow en uitstelgedrag als kernthema's. Er is ook aandacht voor zijn christelijke achtergrond en de vraag wat religie hieraan toevoegt.",
+  "summary_tldr": "Ernst-Jan Pfauth bespreekt zijn nieuwe boek 'Intentioneel leven', dat voortkomt uit negen jaar onderzoek naar geluk, focus en betekenis. Hij beschrijft hoe zijn carrière in de journalistiek hem leeg liet en hoe kleine, bewuste keuzes en flow hem een beter leven brachten. Stefan Paas stelt dat verbondenheid met anderen het fundament is, niet slechts een middel naar geluk.",
   "summary_points": [
-    "Pfauth had succes in de journalistiek maar voelde zich leeg en ongelukkig.",
-    "Een wake-up call kwam vlak voor de geboorte van zijn kind.",
-    "Geluk is deels genetisch; ongeveer 40% is te beïnvloeden door intentionele activiteiten.",
-    "Gelukskrakers (status, populariteit, consumptie) versus geluksmakers (dierbaren, flow).",
-    "Flow ontstaat bij een passende uitdaging en vol aandacht, niet bij afleiding.",
-    "Uitstelgedrag is een bescherming tegen teleurstelling; een beginnetje maken helpt.",
-    "Technologiebedrijven kapitaliseren onze aandacht; individuen zijn daar weinig tegen bestand.",
-    "Stefan Paas stelt dat niet iedereen dezelfde speelruimte heeft om keuzes te maken.",
-    "Veel adviezen komen overeen met christelijke tradities, zoals dankbaarheid en rust."
+    "Ernst-Jan Pfauth ervoer ondanks succes een leeg gevoel en besloot zijn leven bewuster in te richten.",
+    "Geluk wordt volgens onderzoek voor ongeveer 40% beïnvloed door eigen intentionele activiteiten.",
+    "Gelukskrakers (status, likes, consumptie) leiden af van geluksmakers (dierbaren, flow).",
+    "Flow ontstaat bij gerichte aandacht en net haalbare uitdaging; uitstelgedrag is vaak bescherming tegen teleurstelling.",
+    "Smartphones en technologieplatforms zijn ontworpen om aandacht te kapitaliseren, en persoonlijke tegenmaatregelen zijn lastig.",
+    "Kies wat je laat verslonzen: niet alles kan, en FOMO kan worden omgebogen tot JOMO.",
+    "Rust is volgens Josef Pieper waardevol op zichzelf, niet alleen als middel tot productiviteit.",
+    "Zelfverwezenlijking draait volgens Maslow uiteindelijk om zelftranscendentie en verbondenheid met anderen.",
+    "Stefan Paas stelt dat geluk niet los staat van verplichtingen en de morele ruimte waarin mensen leven.",
+    "Het gesprek eindigt bij de vraag of nuttig zijn voor anderen belangrijker is dan gelukkig zijn."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Opening en terugblik",
-      "summary": "Uitleg over de technische storing en terugblik op het eerste gesprek met Pfauth."
+      "title": "Inleiding en het bureau",
+      "summary": "Pfauth en Boogerd bespreken de briefjes op het bureau van Pfauth en de inspiratie die ze geven."
     },
     {
-      "start_seconds": 244,
-      "title": "Het bureau vol boodschappen",
-      "summary": "Pfauths rommelige prikbord met citaten van Hemingway, Sacks en Merkel."
+      "start_seconds": 600,
+      "title": "Gelukskrakers en geluksmakers",
+      "summary": "Pfauth legt uit wat intentioneel leven is en hoe zijn carrière hem ongelukkig maakte."
     },
     {
-      "start_seconds": 605,
-      "title": "Wat is intentioneel leven?",
-      "summary": "Geluksmakers versus gelukskrakers en het aandeel dat je zelf kunt beïnvloeden."
+      "start_seconds": 1480,
+      "title": "Flow en de hobbel van beginnen",
+      "summary": "Flow wordt uitgelegd via Zweig, Rodin en Csikszentmihalyi, gevolgd door uitstelgedrag en afleiding door technologie."
     },
     {
-      "start_seconds": 706,
-      "title": "Wake-up call en succes",
-      "summary": "Pfauths persoonlijke verhaal over status, Twitter en de avond in de kroeg."
+      "start_seconds": 2260,
+      "title": "Zelfverwezenlijking en verbondenheid",
+      "summary": "Maslow en zelftranscendentie worden besproken; Paas wijst op verbondenheid en claims van anderen."
     },
     {
-      "start_seconds": 1380,
-      "title": "Speelruimte en maatschappelijke scripts",
-      "summary": "Discussie over wie vrijheid heeft om keuzes te maken en over religie zonder religie."
+      "start_seconds": 3000,
+      "title": "Kies wat je laat verslonzen",
+      "summary": "Pfauth bespreekt Covey, Burkeman en Pieper over rust, productiviteit en het verslonzen van dingen."
     },
     {
-      "start_seconds": 1500,
-      "title": "Flow en afleiding",
-      "summary": "Zweig, Rodin en Csikszentmihalyi; technologie als aandachtsindustrie."
+      "start_seconds": 3700,
+      "title": "Onrust, dood en geloof",
+      "summary": "Het gebed van Franciscus, doodsangst en de rol van christelijke traditie en zingeving."
     },
     {
-      "start_seconds": 1884,
-      "title": "Het hobbeltje en uitstelgedrag",
-      "summary": "Waarom beginnen moeilijk is en hoe een klein begin helpt."
-    },
-    {
-      "start_seconds": 2206,
-      "title": "Zelfverwezenlijking en leegte",
-      "summary": "Maslow, de doodlopende weg van zelfverwezenlijking en jaloezie op christenen."
+      "start_seconds": 4400,
+      "title": "Nihilisme en slotvragen",
+      "summary": "Het gesprek gaat over nihilisme, Augustinus, en de vraag of nuttig zijn belangrijker is dan geluk."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 772,
+      "start_seconds": 1200,
       "speaker": "Ernst-Jan Pfauth",
-      "text": "Ik zag de klok en het was 1 uur 's nachts, terwijl mijn vrouw was uitgerekend.",
-      "note": "Eerlijk en kwetsbaar moment dat de aanleiding vormde voor zijn onderzoek."
+      "text": "De beste remedie tegen uitstelgedrag is gewoon een beginnetje maken.",
+      "note": "Eenvoudige, praktische tip die het hobbeltje van beginnen verkleint."
     },
     {
-      "start_seconds": 1000,
-      "speaker": "Ernst-Jan Pfauth",
-      "text": "Gelukskrakers hebben gemeen dat je er nooit genoeg van hebt.",
-      "note": "Kernidee van het boek."
-    },
-    {
-      "start_seconds": 1871,
-      "speaker": "Ernst-Jan Pfauth",
-      "text": "Zelfs Morozov heeft een kluis met tijdslot voor zijn telefoon.",
-      "note": "Laat zien hoe sterk de verslavende technologie is."
-    },
-    {
-      "start_seconds": 2189,
+      "start_seconds": 2565,
       "speaker": "Stefan Paas",
-      "text": "Uitstelgedrag kan een signaal zijn dat er iets belangrijks aankomt.",
-      "note": "Mooie herinterpretatie van uitstelgedrag."
+      "text": "Als je zelf het geluk nastreeft, kun je niet gelukkig zijn als anderen niet gelukkig zijn.",
+      "note": "Stelt de hele zelfhulpbenadering op scherp."
     },
     {
-      "start_seconds": 1461,
+      "start_seconds": 1780,
       "speaker": "Ernst-Jan Pfauth",
-      "text": "Jij probeert gewoon religie te creëren zonder religie.",
-      "note": "Raakt aan de religievraag in het boek."
+      "text": "Technologieplatforms kun je zien als oliebedrijven die steeds extremere technieken gebruiken om onze aandacht te kapitaliseren.",
+      "note": "Scherpe vergelijking die de macht van big tech blootlegt."
+    },
+    {
+      "start_seconds": 4610,
+      "speaker": "Ernst-Jan Pfauth",
+      "text": "Ik denk niet dat je gelukkig kunt zijn zonder dat je van betekenis bent voor anderen.",
+      "note": "Kernovertuiging die het hele boek samenvat."
+    },
+    {
+      "start_seconds": 3850,
+      "speaker": "Stefan Paas",
+      "text": "Dan kun je dus je eigen kwetsbaarheid onder ogen zien en daardoor de kwetsbaarheid van anderen toelaten.",
+      "note": "Koppelt doodsbesef aan solidariteit en verbondenheid."
     }
   ],
   "keywords": [
     "intentioneel leven",
     "flow",
-    "gelukskrakers",
-    "geluksmakers",
+    "geluksmakers en gelukskrakers",
     "uitstelgedrag",
-    "afleiding",
+    "zelfhulp",
     "zelfverwezenlijking",
-    "dankbaarheid",
-    "Csikszentmihalyi",
-    "Maslow",
-    "aandachtseconomie",
+    "zelftranscendentie",
+    "rust",
+    "verbondenheid",
+    "technologieplatforms",
+    "doodsbesef",
     "zingeving"
   ],
-  "quotes": [],
+  "quotes": [
+    "Chaos is in the eye of the beholder.",
+    "De beste remedie tegen uitstelgedrag is gewoon een beginnetje maken.",
+    "Kies wat je laat verslonzen in het leven."
+  ],
   "similar": [
     {
       "n": 84,
-      "reason": "Zelfde gast Ernst-Jan Pfauth: het goede leven, geloof en verhalen om in te wonen"
+      "reason": "Zelfde gast Ernst-Jan Pfauth over het goede leven, geloof en zingeving"
     },
     {
-      "n": 191,
-      "reason": "Afleiding, smartphones en focus; geestelijke schade van technologie en social media"
+      "n": 33,
+      "reason": "Dirk de Wachter over geluk, geloof en het goede leven; zelfde thematiek"
     },
     {
-      "n": 247,
-      "reason": "Jonathan Haidt over smartphones en afleiding die ons geestelijk schaden"
-    },
-    {
-      "n": 206,
-      "reason": "Impact van technologie op ons leven, Jacques Ellul en filosofie"
+      "n": 171,
+      "reason": "Zingeving en welzijn: gelukkiger leven, met Stefan Paas over betekenis"
     },
     {
       "n": 217,
-      "reason": "Zoektocht naar geluk en filosofie met Denker des Vaderlands Marjan Slob"
+      "reason": "Existentiële eenzaamheid en de zoektocht naar geluk, met Stefan Paas"
+    },
+    {
+      "n": 191,
+      "reason": "Geestelijke impact van smartphones en social media op zingeving en psyche"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

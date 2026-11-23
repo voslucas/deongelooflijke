@@ -1,17 +1,22 @@
 {
   "episode": 21,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 115323,
+    "segments": 1073,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30635,
-    "output_tokens": 2627,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58699,
+    "output_tokens": 3384,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
-    "Politiek",
+    "Zingeving & psyche",
     "Samenleving & migratie",
+    "Filosofie & ethiek",
     "Bijbel & Jezus"
   ],
   "guests": [
@@ -20,119 +25,215 @@
   "people": [
     {
       "name": "Bas Heijne",
-      "note": "schrijver en columnist, auteur van het essay 'Mens/onmens'",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "note": "gast, schrijver van het essay Mens/onmens",
+      "start_seconds": 82,
+      "mention_count": 60
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "vaste gast, theoloog",
+      "start_seconds": 115,
+      "mention_count": 30
     },
     {
       "name": "Francis Fukuyama",
-      "note": "politiek denker van 'het einde van de geschiedenis'; liberalisme leeft van waarden die het zelf niet produceert",
+      "note": "auteur van het einde van de geschiedenis-tezen",
       "start_seconds": 289,
-      "wiki_checked": true
+      "mention_count": 3
     },
     {
       "name": "Donald Trump",
-      "note": "verkiezing in 2016 als teken van verschuiving",
-      "start_seconds": 187,
-      "wiki_checked": true
-    },
-    {
-      "name": "David Hume",
-      "note": "Britse verlichtingsfilosoof: 'Reason is a slave to the passions'",
-      "start_seconds": 883,
-      "wiki_checked": true
-    },
-    {
-      "name": "Wim Kok",
-      "note": "oud-premier, symbool van het afschudden van ideologische veren",
-      "start_seconds": 400,
-      "wiki_checked": true
-    },
-    {
-      "name": "Thierry Baudet",
-      "note": "Forum voor Democratie; wil 'terug achter de verlichting'",
-      "start_seconds": 1295,
-      "wiki_checked": true
+      "note": "Amerikaans president, verkiezing als voorbeeld van verschuiving",
+      "start_seconds": 183,
+      "mention_count": 2
     },
     {
       "name": "Viktor Orbán",
-      "note": "Hongaars premier, illiberale democratie",
-      "start_seconds": 1297,
-      "wiki_checked": true
+      "note": "Hongaarse premier, nationaal-populistisch",
+      "start_seconds": 1295,
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "leider Forum voor Democratie",
+      "start_seconds": 1239,
+      "mention_count": 3
     },
     {
       "name": "Mark Rutte",
-      "note": "premier die in 2013 zei geen visie te hebben",
-      "start_seconds": 1304,
-      "wiki_checked": true
+      "note": "premier, 'geen visie'-uitspraak",
+      "start_seconds": 1338,
+      "mention_count": 2
     },
     {
       "name": "Wouter Bos",
-      "note": "oud-PvdA-leider, over de 'stip aan de horizon'",
-      "start_seconds": 1334,
-      "wiki_checked": true
+      "note": "PvdA-politicus",
+      "start_seconds": 1374,
+      "mention_count": 1
+    },
+    {
+      "name": "Wim Kok",
+      "note": "premier, derde weg",
+      "start_seconds": 400,
+      "mention_count": 2
+    },
+    {
+      "name": "David Hume",
+      "note": "Britse verlichtingsfilosoof, 'reason is a slave to the passions'",
+      "start_seconds": 877,
+      "mention_count": 1
     },
     {
       "name": "Angela Merkel",
-      "note": "'Wir schaffen das' als mogelijk christelijke opdracht",
-      "start_seconds": 1486,
-      "wiki_checked": true
-    },
-    {
-      "name": "Paul Collier",
-      "note": "econoom uit Oxford, schreef over de toekomst van het kapitalisme",
-      "start_seconds": 1688,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jezus",
-      "note": "spreker van de Bergrede",
-      "start_seconds": 2020,
-      "wiki_checked": true
+      "note": "Duitse bondskanselier, 'wir schaffen das'",
+      "start_seconds": 1480,
+      "mention_count": 1
     },
     {
       "name": "Martin Luther King",
-      "note": "denker die conformisme aan de kaak stelde",
-      "start_seconds": 2163,
-      "wiki_checked": true
+      "note": "denker, veilig conformisme",
+      "start_seconds": 2160,
+      "mention_count": 1
     },
     {
-      "name": "Emmanuel Levinas",
-      "note": "filosoof over de ander die jou vormt",
-      "start_seconds": 2185,
-      "wiki_checked": true
+      "name": "Richard Dawkins",
+      "note": "bioloog en atheïst",
+      "start_seconds": 2790,
+      "mention_count": 2
+    },
+    {
+      "name": "Jonathan Haidt",
+      "note": "auteur The Righteous Mind",
+      "start_seconds": 2930,
+      "mention_count": 1
+    },
+    {
+      "name": "Paul Collier",
+      "note": "econoom, boek over kapitalisme",
+      "start_seconds": 1690,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president",
+      "start_seconds": 740,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader, liefde als basis van waarden",
+      "start_seconds": 3010,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus, 'verweesd'",
+      "start_seconds": 3070,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "bergrede, onbekende god",
+      "start_seconds": 2000,
+      "mention_count": 4
+    },
+    {
+      "name": "Paulus",
+      "note": "apostel, Areopagus-rede",
+      "start_seconds": 4230,
+      "mention_count": 2
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "over het oceanische gevoel",
+      "start_seconds": 3360,
+      "mention_count": 2
+    },
+    {
+      "name": "Romain Rolland",
+      "note": "schreef over oceanisch gevoel",
+      "start_seconds": 3360,
+      "mention_count": 1
+    },
+    {
+      "name": "Cardinaal Simonis",
+      "note": "zei dat Nederlanders calvinisten zijn",
+      "start_seconds": 3470,
+      "mention_count": 1
+    },
+    {
+      "name": "Gauguin",
+      "note": "katholieke kunstenaar in vergelijking",
+      "start_seconds": 3560,
+      "mention_count": 1
+    },
+    {
+      "name": "Van Gogh",
+      "note": "protestantse kunstenaar in vergelijking",
+      "start_seconds": 3560,
+      "mention_count": 1
     },
     {
       "name": "Victor Hugo",
-      "note": "schrijver van Notre-Dame de Paris",
-      "start_seconds": 529,
-      "wiki_checked": true
+      "note": "auteur van Notre-Dame de Paris",
+      "start_seconds": 510,
+      "mention_count": 1
     },
     {
-      "name": "Hans Bruins",
-      "note": "minister die over medicijnprijzen ging",
-      "start_seconds": 1060,
-      "wiki_checked": true
+      "name": "Monty Python",
+      "note": "The Life of Brian bergrede-scène",
+      "start_seconds": 2050,
+      "mention_count": 1
+    },
+    {
+      "name": "Camus",
+      "note": "geciteerd over geloof en systemen",
+      "start_seconds": 3170,
+      "mention_count": 1
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "over mythe en verhaal",
+      "start_seconds": 4050,
+      "mention_count": 1
+    },
+    {
+      "name": "Calvin",
+      "note": "reformator",
+      "start_seconds": 3430,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Mens/onmens",
       "author": "Bas Heijne",
-      "note": "essay over identiteit en waarheid",
+      "note": "het besproken essay",
       "start_seconds": 82,
-      "volume_id": "C3DNDwAAQBAJ",
+      "volume_id": "BdUAwwEACAAJ",
       "canonical_title": "Mens/onmens",
       "canonical_author": "Bas Heijne",
-      "isbn13": "9789044641493",
-      "isbn10": "9044641492",
-      "thumbnail": "http://books.google.com/books/content?id=C3DNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044641479",
+      "isbn10": "9044641476",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Righteous Mind",
+      "author": "Jonathan Haidt",
+      "note": "biologisch frame van moraal en rationaliteit",
+      "start_seconds": 2930,
+      "volume_id": "ItuzJhbcpMIC",
+      "canonical_title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+      "canonical_author": "Jonathan Haidt",
+      "isbn13": "9780307907035",
+      "isbn10": "0307907031",
+      "thumbnail": "http://books.google.com/books/content?id=ItuzJhbcpMIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "Onbehagen",
       "author": "Bas Heijne",
-      "note": "voorgaand essay",
-      "start_seconds": 210,
+      "note": "vorig essay",
+      "start_seconds": 170,
       "volume_id": "leIcDQAAQBAJ",
       "canonical_title": "Onbehagen: nieuw licht op de beschaafde mens",
       "canonical_author": "Bas Heijne",
@@ -141,150 +242,164 @@
       "thumbnail": "http://books.google.com/books/content?id=leIcDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
-      "title": "The Future of Capitalism",
-      "author": "Paul Collier",
-      "note": "pragmatische morele visie op solidariteit",
-      "start_seconds": 1696,
-      "volume_id": "3IJbDwAAQBAJ",
-      "canonical_title": "The Future of Capitalism: Facing the New Anxieties",
-      "canonical_author": "Paul Collier",
-      "isbn13": "9780241333891",
-      "isbn10": "024133389X",
-      "thumbnail": "http://books.google.com/books/content?id=3IJbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Dominion",
+      "author": "Tom Holland",
+      "note": "aangekondigd voor volgende aflevering",
+      "start_seconds": 4470,
+      "volume_id": "mPxWzAEACAAJ",
+      "canonical_title": "Dominion: How the Christian Revolution Remade the World",
+      "canonical_author": "Tom Holland",
+      "isbn13": "9781541617964",
+      "isbn10": "1541617967",
+      "thumbnail": "http://books.google.com/books/content?id=mPxWzAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Mattheus 5",
-      "note": "de Bergrede, besproken als radicale tekst",
-      "start_seconds": 1510
+      "ref": "Matteüs 5",
+      "note": "de Bergrede, centraal in het slot van het essay",
+      "start_seconds": 2000
+    },
+    {
+      "ref": "Handelingen 17:23",
+      "note": "Paulus en de altaar voor de onbekende god op de Areopagus",
+      "start_seconds": 4230
     }
   ],
   "places": [
     "Parijs",
     "Notre-Dame",
-    "Frankrijk",
     "Amersfoort",
-    "Hongarije",
-    "Roemenië",
-    "Vendée"
+    "Frankrijk",
+    "Vendée",
+    "Amsterdam",
+    "Londen",
+    "Ruinen"
   ],
-  "summary_tldr": "David Boogerd praat met Bas Heijne en Stefan Paas over Heijnes essay 'Mens/onmens' en de obsessies met identiteit en waarheid. Ze bespreken de brand van Notre-Dame, de uitholling van het liberalisme en het gemis aan gemeenschap en broederschap. Heijne ziet in de Bergrede een oproep om het jezelf moeilijk te maken.",
+  "summary_tldr": "Bas Heijne bespreekt zijn essay Mens/onmens over identiteit en waarheid in een verharde, gepolariseerde samenleving. Hij betoogt dat het liberalisme zijn idealen heeft verwaarloosd en dat mensen behoefte hebben aan gemeenschap en betekenis. Stefan Paas reageert vanuit het christelijk geloof met de nadruk op verbondenheid en de Bergrede.",
   "summary_points": [
-    "De brand van Notre-Dame werd een brandpunt van obsessies over identiteit en complotdenken.",
-    "Emoties zijn nodig, maar moeten een rationele bedding krijgen.",
-    "Het liberalisme is achterover gaan leunen nadat conservatisme en socialisme wegvielen.",
-    "Het liberale establishment heeft idealen als gelijkheid en vooruitgang verwaarloosd.",
-    "Broederschap is het zwakke punt van vrijheid, gelijkheid, broederschap.",
-    "Paas pleit voor 'personen' in plaats van individuen: eigenheid ligt in relaties.",
-    "Een homogene samenleving is door globalisering en individualisering niet terug te krijgen.",
-    "De Bergrede wordt gelezen als radicale oproep om kwetsbaar te zijn en jezelf te bevragen.",
-    "Paas vraagt hoe je dit in praktisch gemeenschapsleven ontmoet: familie, kerk, verenigingen."
+    "Brand van Notre-Dame als symbool voor de obsessies van deze tijd",
+    "Verschuiving van waarheid naar emotie en identiteit, met nepnieuws als kernprobleem",
+    "Liberalisme gaat uit van het individu en verwaarloost gemeenschap en broederschap",
+    "Politieke middenpartijen hebben hun idealen en visie verloren",
+    "Populistische flanken profiteren van frustratie over het establishment",
+    "Paas stelt dat mensen altijd verbonden zijn en dat liberalisme dit niet kan produceren",
+    "Heijne pleit voor radicaal liberale waarden die weer handen en voeten krijgen",
+    "De Bergrede als oproep om het zichzelf niet makkelijk te maken",
+    "Verbeelding versus inbeelding als verschil tussen betekenisvol geloof en fundamentalisme",
+    "Gesprek over twijfel en engagement, en het onbekende god-verhaal"
   ],
   "chapters": [
     {
-      "start_seconds": 22,
-      "title": "Het succes van Mens/onmens",
-      "summary": "Heijne vertelt over de ontvangst van het essay en waarom het nu zo aanslaat."
+      "start_seconds": 0,
+      "title": "Inleiding en het essay Mens/onmens",
+      "summary": "Heijne introduceert zijn essay en de bestsellerstatus ervan."
     },
     {
-      "start_seconds": 260,
-      "title": "Een veranderende wereldorde",
-      "summary": "Van Fukuyama's einde van de geschiedenis naar illiberale democratieën, technologie en identiteitsvragen."
+      "start_seconds": 330,
+      "title": "Notre-Dame en identiteit",
+      "summary": "De brand van Notre-Dame wordt besproken als symbool van de tijdgeest."
     },
     {
-      "start_seconds": 441,
-      "title": "Notre-Dame in brand",
-      "summary": "Heijne beschrijft de brand, de spontane saamhorigheid en de complottheorieën die volgden."
+      "start_seconds": 960,
+      "title": "Liberalisme onder vuur",
+      "summary": "Heijne analyseert de verwaarlozing van liberale idealen en het falen van het midden."
     },
     {
-      "start_seconds": 930,
-      "title": "Liberalisme en tribalisme",
-      "summary": "Over het individu, het conservatisme, neoliberalisme en de verwaarloosde idealen van het establishment."
+      "start_seconds": 1560,
+      "title": "Gemeenschap en broederschap",
+      "summary": "Discussie over individualisme, gemeenschap en de rol van relaties."
     },
     {
-      "start_seconds": 1545,
-      "title": "Broederschap en gemeenschap",
-      "summary": "Waarom liberalisme gemeenschap niet zelf kan produceren en wat Collier en Fukuyama daarover zeggen."
+      "start_seconds": 2000,
+      "title": "De Bergrede en kwetsbaarheid",
+      "summary": "Heijne en Paas bespreken de Bergrede en wat die betekent voor gemeenschapsleven."
     },
     {
-      "start_seconds": 1980,
-      "title": "De Bergrede",
-      "summary": "Heijne leest de Bergrede als radicale oproep tot zelfonderzoek; Paas benadrukt de sociale visie."
+      "start_seconds": 2790,
+      "title": "Verbeelding, inbeelding en wetenschap",
+      "summary": "Het verschil tussen verbeelding en inbeelding en de spanning tussen religie en wetenschap."
     },
     {
-      "start_seconds": 2300,
-      "title": "Gemeenschap in de praktijk",
-      "summary": "Hoe ontmoet je mensen die anders zijn: familie, kerken, verenigingen en vrijwilligerswerk."
+      "start_seconds": 3300,
+      "title": "Geloof, twijfel en het oceanische gevoel",
+      "summary": "Heijne beschrijft zijn houding tegenover geloof, twijfel en transcendentie."
+    },
+    {
+      "start_seconds": 4200,
+      "title": "Onbekende god en vooruitblik",
+      "summary": "De Areopagus-passage, een volgend essay en afsluiting."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 10,
+      "start_seconds": 2000,
+      "speaker": "Bas Heijne",
+      "text": "Je moet uitgaan van waar je faalt en waar je zwak in bent.",
+      "note": "Een scherpe kijk op solidariteit die begint bij zelfkritiek."
+    },
+    {
+      "start_seconds": 3020,
+      "speaker": "Stefan Paas",
+      "text": "Liberalisme leeft van bepaalde waarden die het zelf niet kan produceren.",
+      "note": "Kernkritiek vanuit het christelijk perspectief op het liberalisme."
+    },
+    {
+      "start_seconds": 4290,
+      "speaker": "Bas Heijne",
+      "text": "Dat is de diepste Griekse wijsheid, dat je iets openlaat van wat je niet weet.",
+      "note": "Pleidooi voor ruimte voor het onbekende in een wereldbeeld."
+    },
+    {
+      "start_seconds": 3400,
       "speaker": "Bas Heijne",
       "text": "Ik heb me al lang bekeerd, alleen ik bekeer me tot de eindeloze variëteit van de mensheid.",
-      "note": "Pakkende opening over zijn eigen geloofsloosheid."
+      "note": "Een speelse maar treffende zelfkarakterisering."
     },
     {
-      "start_seconds": 883,
+      "start_seconds": 2650,
       "speaker": "Bas Heijne",
-      "text": "Reason is a slave to the passions: je moet eerst iets voelen voordat je in actie komt.",
-      "note": "Kern van zijn betoog over emotie en rede."
-    },
-    {
-      "start_seconds": 1380,
-      "speaker": "Bas Heijne",
-      "text": "Het grootste verwijt aan de bestuurlijke elite is dat ze mooie idealen bezoedelt door ze als instrument voor politiek gewin te gebruiken.",
-      "note": "Scherpe kritiek op het liberale establishment."
-    },
-    {
-      "start_seconds": 1620,
-      "speaker": "Stefan Paas",
-      "text": "Ik spreek liever van personen dan van individuen; mijn eigenheid vind ik in relaties.",
-      "note": "Theologisch tegenwicht tegen liberaal mensbeeld."
-    },
-    {
-      "start_seconds": 2100,
-      "speaker": "Bas Heijne",
-      "text": "Er zit waarde in extreme ervaringen die je jezelf aandoet; het maakt je meer mens.",
-      "note": "Eigenzinnige lezing van de Bergrede."
+      "text": "Fundamentalisme is inbeelding.",
+      "note": "Scherp onderscheid tussen verbeelding en inbeelding."
     }
   ],
   "keywords": [
-    "liberalisme",
     "identiteit",
     "waarheid",
-    "Notre-Dame",
-    "Verlichting",
-    "broederschap",
-    "tribalisme",
-    "Bergrede",
+    "liberalisme",
     "gemeenschap",
-    "nepnieuws",
-    "Fukuyama",
-    "populisme"
+    "broederschap",
+    "Bergrede",
+    "verbeelding",
+    "inbeelding",
+    "polarisatie",
+    "twijfel",
+    "Notre-Dame",
+    "verlichting"
   ],
   "quotes": [],
   "similar": [
     {
       "n": 221,
-      "reason": "Opnieuw Bas Heijne met Stefan Paas: terugkeer van de politiek, Camus, liberale crisis"
+      "reason": "Bas Heijne en Stefan Paas over politiek, Camus en het liberale denken."
+    },
+    {
+      "n": 314,
+      "reason": "Zingevingscrisis en leegte van het moderne leven, met Stefan Paas."
     },
     {
       "n": 149,
-      "reason": "Bas Heijne en Beatrice de Graaf over het wereldbeeld achter het tijdperk-Rutte"
-    },
-    {
-      "n": 285,
-      "reason": "Ad Verbrugge over crisis van het Westen, liberalisme en filosofie"
-    },
-    {
-      "n": 291,
-      "reason": "Jurriën Hamer over vrijheid en liberalisme, filosofie en politiek"
+      "reason": "Wereldbeeld achter het liberale tijdperk-Rutte, met Bas Heijne."
     },
     {
       "n": 301,
-      "reason": "Paul Frissen over seculiere elite, liberale staat en kloof met het volk"
+      "reason": "Losgezongen seculiere elite en de vraag naar gemeenschap en volk."
+    },
+    {
+      "n": 247,
+      "reason": "Jonathan Haidt over gepolariseerde samenleving en geestelijke gevolgen, ook besproken in #21."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

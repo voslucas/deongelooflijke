@@ -1,11 +1,16 @@
 {
   "episode": 45,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95529,
+    "segments": 961,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31015,
-    "output_tokens": 2334,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49059,
+    "output_tokens": 7987,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -15,158 +20,220 @@
     "Samenleving & migratie"
   ],
   "guests": [
-    "PG Kroeger"
+    "Pieter Gerrit Kroeger"
   ],
   "people": [
     {
-      "name": "PG Kroeger",
-      "note": "politiek historicus, schrijver van 'Tand des Tijds', maker van Betrouwbare Bronnen",
-      "start_seconds": 36,
-      "wiki_checked": true
-    },
-    {
-      "name": "Jaap Jansen",
-      "note": "medemaker van de podcast Betrouwbare Bronnen",
-      "start_seconds": 146,
-      "wiki_checked": true
+      "name": "Dries van Agt",
+      "note": "voormalig CDA-premier, 90 jaar",
+      "start_seconds": 189,
+      "mention_count": 3
     },
     {
       "name": "Max van Weezel",
-      "note": "overleden politiek journalist, vriend van Kroeger",
-      "start_seconds": 155,
-      "wiki_checked": true,
-      "wiki_pageid": 1896197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_van_Weezel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Max_van_Weezel_en_Anet_Bleich%2C_opdracht_Volkrant_-_Nationaal_Archief_-_930-0745.jpg/250px-Max_van_Weezel_en_Anet_Bleich%2C_opdracht_Volkrant_-_Nationaal_Archief_-_930-0745.jpg"
+      "note": "politiek journalist, overleden",
+      "start_seconds": 150,
+      "mention_count": 1
     },
     {
       "name": "Wim Kok",
-      "note": "oud-premier, ter sprake bij hommage-aflevering",
-      "start_seconds": 189,
-      "wiki_checked": true,
-      "wiki_pageid": 1894,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wim_Kok",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wim_Kok_1994.jpg/250px-Wim_Kok_1994.jpg"
+      "note": "voormalig PvdA-premier",
+      "start_seconds": 150,
+      "mention_count": 1
     },
     {
-      "name": "Dries van Agt",
-      "note": "oud-premier van het CDA, wordt 90",
-      "start_seconds": 189,
-      "wiki_checked": true,
-      "wiki_pageid": 10739,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dries_van_Agt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Dries_van_Agt_%281980%29.jpg/250px-Dries_van_Agt_%281980%29.jpg"
+      "name": "Mark Rutte",
+      "note": "VVD-leider en premier, gelovig",
+      "start_seconds": 150,
+      "mention_count": 4
     },
     {
       "name": "Frits Bolkestein",
-      "note": "VVD-politicus die pleit voor afstand tussen politiek en kiezer",
+      "note": "VVD-politicus die stelt dat de kloof tussen politiek en kiezer te klein is",
       "start_seconds": 354,
-      "wiki_checked": true,
-      "wiki_pageid": 486,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frits_Bolkestein",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Frits_Bolkestein_1988_%281%29.jpg/250px-Frits_Bolkestein_1988_%281%29.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "politicus, opkomst na 11 september",
-      "start_seconds": 468,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
-      "name": "Ruud Lubbers",
-      "note": "CDA-premier met 54 zetels",
-      "start_seconds": 2284,
-      "wiki_checked": true,
-      "wiki_pageid": 1020,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ruud_Lubbers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ruud_Lubbers_1985.jpg/250px-Ruud_Lubbers_1985.jpg"
-    },
-    {
-      "name": "Jan Peter Balkenende",
-      "note": "CDA-premier, tijdelijke opleving van het CDA",
-      "start_seconds": 2146,
-      "wiki_checked": true,
-      "wiki_pageid": 159,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jan_Peter_Balkenende",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Jan_Peter_Balkenende_2006.jpg/250px-Jan_Peter_Balkenende_2006.jpg"
+      "mention_count": 2
     },
     {
       "name": "Joost van Iersel",
-      "note": "CDA-kamerlid van de uitspraak 'we run this country'",
+      "note": "CDA-Kamerlid, zei 'we run this country'",
       "start_seconds": 1025,
-      "wiki_checked": true,
-      "wiki_pageid": 2023571,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joost_van_Iersel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Joost_Van_Iersel_-_Part_2-2-_Citizens%E2%80%99_Corner_debate_on_EU_regional_policy_%28in_English%29_%2814726492924%29.jpg/250px-Joost_Van_Iersel_-_Part_2-2-_Citizens%E2%80%99_Corner_debate_on_EU_regional_policy_%28in_English%29_%2814726492924%29.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Maxima Zorreguieta",
+      "note": "echtgenote van koning Willem-Alexander, katholieke achtergrond",
+      "start_seconds": 1153,
+      "mention_count": 1
     },
     {
       "name": "Joop den Uyl",
-      "note": "PvdA-leider met 53 zetels",
+      "note": "PvdA-premier, Den Uyl-periode",
       "start_seconds": 1397,
-      "wiki_checked": true,
-      "wiki_pageid": 831,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Joop_den_Uyl_1975.jpg/250px-Joop_den_Uyl_1975.jpg"
+      "mention_count": 1
     },
     {
       "name": "Lodewijk Asscher",
-      "note": "PvdA-leider bij de grote nederlaag van 2017",
-      "start_seconds": 1397,
-      "wiki_checked": true,
-      "wiki_pageid": 397997,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_Asscher",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg/250px-Asscher_in_Friesland_%2838414200081%29_%28cropped%29.jpg"
+      "note": "PvdA-leider die de partij verder terugbracht",
+      "start_seconds": 1401,
+      "mention_count": 1
+    },
+    {
+      "name": "Ruud Lubbers",
+      "note": "CDA-premier, behaalde 54 zetels",
+      "start_seconds": 2146,
+      "mention_count": 2
+    },
+    {
+      "name": "Lilianne Ploumen",
+      "note": "PvdA-politica",
+      "start_seconds": 1536,
+      "mention_count": 1
     },
     {
       "name": "Jesse Klaver",
       "note": "GroenLinks-leider",
-      "start_seconds": 1586,
-      "wiki_checked": true,
-      "wiki_pageid": 1725801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jesse_Klaver",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jesse_Klaver_2020_%286%29_%28cropped%29.jpg/250px-Jesse_Klaver_2020_%286%29_%28cropped%29.jpg"
+      "start_seconds": 1644,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus die de politiek veranderde",
+      "start_seconds": 1646,
+      "mention_count": 2
+    },
+    {
+      "name": "Jan Marijnissen",
+      "note": "SP-leider",
+      "start_seconds": 1649,
+      "mention_count": 1
     },
     {
       "name": "Rita Verdonk",
-      "note": "politica, snel verdwenen opvallende figuur",
+      "note": "politica, kortstondige opkomst",
       "start_seconds": 1650,
-      "wiki_checked": true,
-      "wiki_pageid": 13060,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rita_Verdonk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Rita_Verdonk.jpg/250px-Rita_Verdonk.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "PVV-leider",
+      "start_seconds": 2718,
+      "mention_count": 2
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "FvD-leider die veel over christendom sprak",
+      "start_seconds": 2718,
+      "mention_count": 1
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier en CDU-politica",
+      "start_seconds": 2857,
+      "mention_count": 3
+    },
+    {
+      "name": "Jan Peter Balkenende",
+      "note": "CDA-premier, herstel van CDA",
+      "start_seconds": 2867,
+      "mention_count": 3
+    },
+    {
+      "name": "Jaap de Hoop Scheffer",
+      "note": "CDA-leider voor de verkiezingen van 2003",
+      "start_seconds": 2877,
+      "mention_count": 1
+    },
+    {
+      "name": "Sigrid Kaag",
+      "note": "D66-lijsttrekker, katholiek",
+      "start_seconds": 3286,
+      "mention_count": 3
+    },
+    {
+      "name": "Wopke Hoekstra",
+      "note": "CDA-lijsttrekker, gelovig",
+      "start_seconds": 3377,
+      "mention_count": 2
+    },
+    {
+      "name": "Gert-Jan Segers",
+      "note": "ChristenUnie-leider",
+      "start_seconds": 3377,
+      "mention_count": 2
+    },
+    {
+      "name": "Henk Bleeker",
+      "note": "CDA-politicus, voormalig partijlid",
+      "start_seconds": 2984,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Heerma",
+      "note": "CDA-politicus, schreef over naamswijziging",
+      "start_seconds": 3042,
+      "mention_count": 1
     },
     {
       "name": "Boris Jeltsin",
-      "note": "Russische president na het einde van de Sovjet-Unie",
+      "note": "Russische president bij einde Sovjet-Unie",
       "start_seconds": 1463,
-      "wiki_checked": true,
-      "wiki_pageid": 46300,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Boris_Jeltsin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg/250px-%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaanse president",
+      "start_seconds": 3158,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russische president",
+      "start_seconds": 3158,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "schrijver, communistische jeugd",
+      "start_seconds": 2172,
+      "mention_count": 1
+    },
+    {
+      "name": "Karel van het Reve",
+      "note": "broer van Gerard Reve, schrijver",
+      "start_seconds": 2179,
+      "mention_count": 1
+    },
+    {
+      "name": "Zygmunt Bauman",
+      "note": "socioloog die over gemeenschap en keuzevrijheid schreef",
+      "start_seconds": 3654,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Tand des Tijds",
-      "author": "PG Kroeger",
-      "note": "over het CDA in de nieuwe eeuw",
-      "start_seconds": 36
+      "title": "Tand des Tijds: Het CDA in de nieuwe eeuw",
+      "author": "Pieter Gerrit Kroeger",
+      "note": "recent boek over het CDA",
+      "start_seconds": 36,
+      "volume_id": "cskYzgEACAAJ",
+      "canonical_title": "Tand des tijds. Het CDA in de nieuwe eeuw",
+      "canonical_author": "Pieter Gerrit Kroeger",
+      "isbn13": "9789044633665",
+      "isbn10": "904463366X",
+      "thumbnail": ""
+    },
+    {
+      "title": "Community",
+      "author": "Zygmunt Bauman",
+      "note": "over keuzevrijheid en het gebrek aan gedeeld verhaal in politieke gemeenschappen",
+      "start_seconds": 3654,
+      "volume_id": "FtwAtAEACAAJ",
+      "canonical_title": "Community: Seeking Safety in an Insecure World",
+      "canonical_author": "Zygmunt Bauman",
+      "isbn13": "9780745626345",
+      "isbn10": "0745626343",
+      "thumbnail": "http://books.google.com/books/content?id=FtwAtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [],
@@ -174,130 +241,146 @@
     "Nederland",
     "Limburg",
     "Brabant",
+    "Twente",
+    "Westland",
     "Friesland",
-    "Vlaanderen",
-    "Ierland",
-    "Polen",
+    "Amsterdam",
+    "Oost-Groningen",
     "Duitsland",
-    "Amerika",
-    "Sovjet-Unie",
-    "Amsterdam"
+    "Rusland"
   ],
-  "summary_tldr": "PG Kroeger, Stefan Paas en David Boogerd bespreken waarom christelijke partijen zijn gekrompen van een half tot 27 zetels. Volgens Kroeger gaat het om versplintering, vergrijzing en meerdere secularisatieprocessen, niet om één rechte lijn. Paas ziet de kerk als voorloper van wat nu in de politiek gebeurt.",
+  "summary_tldr": "In deze aflevering bespreekt David Boogerd met PG Kroeger en Stefan Paas hoe de rol van christelijke partijen in de Nederlandse politiek is veranderd, van de verzuiling tot nu, met nog maar 27 zetels. Het gesprek laat zien dat secularisatie geen eenduidig proces is en dat het verlies van christelijke partijen samenhangt met vergrijzing, kiezersbeweging en individualisering. Tegelijk blijken regeringsleiders nog vaak christelijk, en wordt een monochromer, minder divers Nederland geschetst.",
   "summary_points": [
-    "Christelijke partijen hadden tot de jaren 60 ongeveer de helft van de zetels, maar domineerden nooit.",
-    "Nederland is van oudsher een land van minderheden die moeten samenwerken.",
-    "Er is niet één secularisatie, maar tientallen processen, ook bij PvdA, vakbonden en communisten.",
-    "De PvdA is veel dramatischer gekrompen dan het CDA.",
-    "Kiezers zijn gaan zweven, een ontwikkeling die de kerk al 100 jaar kent.",
-    "Paas verwacht charismatisering en populisme in de politiek, naar Amerikaans voorbeeld.",
-    "Kroeger noemt de impact van het kerkelijk misbruik op katholieke kiezers onderschat.",
-    "CDA verliest kiezers door overlijden, vergrijzing en verschuiving naar de VVD.",
-    "Individualisering is de onderstroom achter secularisatie en liberalisering."
+    "Christelijke partijen hadden decennialang rond de helft van de Kamerzetels, maar regeerden nooit als dominante groep.",
+    "De verzuiling zorgde voor diversiteit en het moeten samenwerken van minderheden, een kenmerk van de Nederlandse politiek.",
+    "Secularisatie is volgens Kroeger en Paas niet één proces maar meerdere, verschillend per regio en sector.",
+    "De kerk fungeert als 'kanarie in de kolenmijn' voor maatschappelijke ontwikkelingen zoals individualisering.",
+    "Vergrijzing, niet-kiezers en kiezersbeweging naar de VVD verklaren het verlies van het CDA meer dan de PVV-winst.",
+    "De Donderdagdoktrine, dat CDA-kiezers terugkeren als je naar rechts schuift, wordt door Kroeger als analytische denkfout gezien.",
+    "Het misbruikschandaal in de katholieke kerk had in Nederland minder effect op de geloofwaardigheid dan elders.",
+    "Individualisering heeft Nederland volgens Kroeger monochromer gemaakt, al ervaren velen dit juist als meer diversiteit.",
+    "De christendemocratische Europese filosofie blijft relevant volgens Kroeger, maar het CDA slaagt er moeilijk in jongeren te bereiken."
   ],
   "chapters": [
     {
-      "start_seconds": 36,
+      "start_seconds": 0,
       "title": "Inleiding en verkiezingen",
-      "summary": "Kennismaking met PG Kroeger en vooruitblik op de Tweede Kamerverkiezingen."
+      "summary": "David Boogerd stelt de vraag naar de christelijke politiek voor de verkiezingen van 17 maart. Kroeger en Paas schetsen de bijzondere verkiezingen van 1946 en de houding tegenover politieke afstand."
     },
     {
-      "start_seconds": 420,
-      "title": "Domineerden christelijke partijen?",
-      "summary": "Kroeger weerlegt het beeld van christelijke dominantie: Nederland is altijd een land van minderheden."
+      "start_seconds": 441,
+      "title": "Christelijke dominantie en verzuiling",
+      "summary": "Kroeger betoogt dat Nederland nooit door één groep gedomineerd werd en dat de verzuiling een patroon van samenwerking tussen minderheden creëerde."
     },
     {
-      "start_seconds": 930,
-      "title": "Heimwee en afname van zetels",
-      "summary": "Paas en Kroeger over weemoed, 'we run this country' en de krimp van christelijke partijen."
-    },
-    {
-      "start_seconds": 1290,
-      "title": "Versplintering en de PvdA",
-      "summary": "Ontkerkelijking van de sociaaldemocratie, het einde van het communisme en zwevende kiezers."
+      "start_seconds": 1294,
+      "title": "Oorzaken van de afname",
+      "summary": "De gesprekspartners bespreken secularisatie als meerdere processen en de val van de Partij van de Arbeid en het communisme."
     },
     {
       "start_seconds": 1676,
-      "title": "De kerk als kanarie in de kolenmijn",
-      "summary": "Paas over de kerk als voorloper en de opkomst van charismatische stromingen."
+      "title": "De kerk als kanarie",
+      "summary": "Paas stelt dat ontwikkelingen in de kerk eerder zichtbaar worden, zoals het zwevende kerklid en de charismatische beweging."
     },
     {
-      "start_seconds": 1854,
-      "title": "Schandalen en individualisering",
-      "summary": "Effect van het misbruik in de katholieke kerk en de rol van individualisering."
+      "start_seconds": 2284,
+      "title": "Waar zijn de kiezers gebleven?",
+      "summary": "Kroeger en Paas analyseren kiezersverschuivingen, vergrijzing, de groei van niet-kiezers en de opkomst van de PVV."
     },
     {
-      "start_seconds": 2254,
-      "title": "Waar zijn de CDA-kiezers gebleven?",
-      "summary": "Kroeger geeft cijfers: overleden kiezers, niet-kiezers en verschuiving naar de VVD."
+      "start_seconds": 2800,
+      "title": "De Donderdagdoktrine en de C in CDA",
+      "summary": "Discussie over of het CDA de C moet laten vallen, en Kroeger's kritiek op de Donderdagdoktrine."
+    },
+    {
+      "start_seconds": 3189,
+      "title": "Christendemocratie en christelijke leiders",
+      "summary": "Kroeger pleit voor een Europese christendemocratie, en de gesprekspartners bespreken waarom vier coalitieleiders christelijk zijn."
+    },
+    {
+      "start_seconds": 3608,
+      "title": "Individualisering en de grijze gehaktbal",
+      "summary": "Kroeger stelt dat individualisering Nederland monochromer maakte, terwijl Paas verwijst naar Bauman over de paradox van keuzevrijheid."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 4,
+      "start_seconds": 3608,
       "speaker": "PG Kroeger",
-      "text": "Nederland is een grotere grijze gehaktbal geworden.",
-      "note": "Prikkelende stelling over individualisering en uniformiteit."
+      "text": "Nederland is dus minder kleurig, minder divers, minder dynamisch geworden dankzij de individualisering.",
+      "note": "Een tegenintuïtieve stelling die het gangbare beeld van toenemende diversiteit omdraait."
     },
     {
-      "start_seconds": 355,
+      "start_seconds": 415,
       "speaker": "PG Kroeger",
-      "text": "De kloof kan bijna niet groot genoeg zijn.",
-      "note": "Contrair standpunt over afstand tussen politiek en kiezer."
+      "text": "Referenda zijn een uitvinding van dictators en tirannen, die zijn er dol op.",
+      "note": "Een scherpe, humoristische uitspraak over volksraadplegingen."
     },
     {
       "start_seconds": 1676,
       "speaker": "Stefan Paas",
       "text": "De kerk is een soort kanarie in de kolenmijn.",
-      "note": "Beeld van de kerk als voorloper van maatschappelijke ontwikkelingen."
+      "note": "Paas laat zien dat maatschappelijke trends in de kerk eerder zichtbaar worden dan in de politiek."
     },
     {
-      "start_seconds": 2223,
+      "start_seconds": 2323,
       "speaker": "PG Kroeger",
       "text": "De grootste groep is het kerkhof.",
-      "note": "Rake, grimmige verklaring voor het verlies van CDA-kiezers."
+      "note": "Een pakkende manier om de grote groep niet-kiezers te omschrijven, waarin vergrijzing een grote rol speelt."
     },
     {
-      "start_seconds": 1818,
+      "start_seconds": 2509,
       "speaker": "PG Kroeger",
-      "text": "Een soort Berlusconi's van het geloof.",
-      "note": "Scherpe typering van charismatische eenpitters."
+      "text": "Dat klopt niets van: de Donderdagdoktrine.",
+      "note": "Kroeger ontkracht een hardnekkig CDA-idee met cijfers, wat het debat scherp maakt."
+    },
+    {
+      "start_seconds": 3399,
+      "speaker": "Stefan Paas",
+      "text": "De ironie wil misschien dat van die 4 partijen het CDA nu de minst uitgesproken christelijke lijsttrekker heeft.",
+      "note": "Laat zien dat geloof in de regering nog steeds aanwezig is, ondanks secularisatie."
     }
   ],
   "keywords": [
     "secularisatie",
     "verzuiling",
-    "CDA",
     "christendemocratie",
-    "versplintering",
-    "ontkerkelijking",
+    "CDA",
+    "kiezersgedrag",
+    "niet-kiezers",
     "individualisering",
-    "PvdA",
     "charismatisering",
-    "vergrijzing",
-    "Tand des Tijds"
+    "Donderdagdoktrine",
+    "confessionele partijen",
+    "Europese christendemocratie",
+    "vergrijzing"
   ],
-  "quotes": [],
+  "quotes": [
+    "Wordt de Nederlandse politiek steeds ongeloviger of is er iets anders aan de hand?",
+    "Een gesprek over de secularisatie van de politiek, CDA-stemmers op het kerkhof, een grote grijze gehaktbal en een kerk die voorop loopt."
+  ],
   "similar": [
     {
-      "n": 273,
-      "reason": "Analyse van Nederlandse politiek na verkiezingen met Stefan Paas en geloof/onbehagen"
-    },
-    {
-      "n": 170,
-      "reason": "Waarom Nederland verrechtst; politieke verschuivingen duiden met Josse de Voogd en Paas"
+      "n": 156,
+      "reason": "Christendemocratische koers en CDA-politiek, sterk verwant aan het christelijke partijverhaal"
     },
     {
       "n": 152,
-      "reason": "Politiek, kerk en ideologische strijd met Dijkhoff en Segers, ervaren politici"
+      "reason": "Politiek en kerk, met Gert-Jan Segers, die ook in deze aflevering voorkomt"
+    },
+    {
+      "n": 179,
+      "reason": "Politiek, kerk en secularisatie, met een christelijk-politiek perspectief"
     },
     {
       "n": 180,
-      "reason": "Oud-premier Balkenende over christendemocratie en politiek; deelt figuren met huidige aflevering"
+      "reason": "Jan Peter Balkenende, die ook in deze aflevering besproken wordt, en politiek-religieuze thema's"
     },
     {
-      "n": 156,
-      "reason": "Christendemocratische toekomst met CDA-lijsttrekker Bontenbal en Paas"
+      "n": 136,
+      "reason": "Politiek en kerk in Nederland, met de duider Josse de Voogd"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

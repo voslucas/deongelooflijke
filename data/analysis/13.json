@@ -1,18 +1,23 @@
 {
   "episode": 13,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 97354,
+    "segments": 822,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30958,
-    "output_tokens": 2150,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 49880,
+    "output_tokens": 7047,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "God & geloof",
-    "Economie & geld",
-    "Bijbel & Jezus"
+    "Kerk & secularisatie",
+    "Technologie & AI"
   ],
   "guests": [
     "Ben Tiggelaar"
@@ -20,247 +25,249 @@
   "people": [
     {
       "name": "Barack Obama",
-      "note": "voormalig Amerikaans president, door Tiggelaar geïnterviewd",
+      "note": "Voormalig Amerikaans president; Tiggelaar interviewde hem vorig jaar op een podium",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
-    },
-    {
-      "name": "Tim Keller",
-      "note": "Amerikaans predikant van de Redeemer Kerk in New York, schreef boekje over self-forgetfulness",
-      "start_seconds": 787,
-      "wiki_checked": true,
-      "wiki_pageid": 1671214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Keller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Timothy_Keller.jpg/250px-Timothy_Keller.jpg"
+      "mention_count": 8
     },
     {
       "name": "Diederik Stapel",
-      "note": "wetenschapper die onderzoeksdata verzon",
-      "start_seconds": 905,
-      "wiki_checked": true,
-      "wiki_pageid": 2304951,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Diederik_Stapel"
+      "note": "Wetenschapper die wegens wetenschappelijke fraude werd ontmaskerd; voorbeeld van werkdruk en status",
+      "start_seconds": 911,
+      "mention_count": 7
     },
     {
       "name": "Henry Keizer",
-      "note": "VVD-politicus die betrapt werd met zijn hand in de geldpot",
-      "start_seconds": 915,
-      "wiki_checked": true,
-      "wiki_pageid": 3979065,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Henry_Keizer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Henry_Keizer_%28cropped%29.jpg/250px-Henry_Keizer_%28cropped%29.jpg"
+      "note": "Voormalig VVD-politicus die na een geldaffaire zijn carrière verloor",
+      "start_seconds": 914,
+      "mention_count": 4
     },
     {
-      "name": "René Diekstra",
-      "note": "psycholoog die na plagiaatbeschuldiging zelfmoordgedachten kreeg",
+      "name": "René Dijkstra",
+      "note": "Psycholoog en columnist die na een plagiaatbeschuldiging in een diepe crisis raakte",
       "start_seconds": 1073,
-      "wiki_checked": true,
-      "wiki_pageid": 294301,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Diekstra"
+      "mention_count": 3
     },
     {
       "name": "Alain de Botton",
-      "note": "filosoof en oprichter van The School of Life",
+      "note": "Britse-Zwitserse filosoof, oprichter van The School of Life; slogan 'good enough'",
       "start_seconds": 1586,
-      "wiki_checked": true,
-      "wiki_pageid": 337751,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alain_de_Botton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Alain_de_Botton.jpg/250px-Alain_de_Botton.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Mozes",
-      "note": "leider van Israël in de woestijn, verhaal over de Amalekieten",
-      "start_seconds": 589,
-      "wiki_checked": true,
-      "wiki_pageid": 8121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mozes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg/250px-Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg"
+      "name": "Tim Keller",
+      "note": "Predikant van de Redeemer Kerk in New York, auteur van een boekje over zelfvergetelheid",
+      "start_seconds": 786,
+      "mention_count": 2
+    },
+    {
+      "name": "René ten Bosch",
+      "note": "Voormalig denker des vaderlands; ziet een rol voor geografie in culturele vorming",
+      "start_seconds": 2661,
+      "mention_count": 2
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator; besproken in relatie tot calvinisme en werkethiek",
+      "start_seconds": 2637,
+      "mention_count": 6
+    },
+    {
+      "name": "Max Weber",
+      "note": "Duitse socioloog die de term protestantse werkethiek introduceerde",
+      "start_seconds": 2640,
+      "mention_count": 2
     },
     {
       "name": "Paulus",
-      "note": "apostel, auteur van de brief aan de Korintiërs",
-      "start_seconds": 2173,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "note": "Apostel; schrijver van 1 Korintiërs 4",
+      "start_seconds": 2171,
+      "mention_count": 1
     },
     {
-      "name": "Armin van Buuren",
-      "note": "dj, voorbeeld van optreden onder hoge druk",
-      "start_seconds": 2098,
-      "wiki_checked": true,
-      "wiki_pageid": 142789,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Armin_van_Buuren",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Armin_van_Buuren_2017.jpg/250px-Armin_van_Buuren_2017.jpg"
+      "name": "Justin Welby",
+      "note": "Aartsbisschop van Canterbury die openlijk over zijn depressie sprak",
+      "start_seconds": 3239,
+      "mention_count": 2
     },
     {
       "name": "Ronald Reagan",
-      "note": "president aan wie een uitspraak over hard werken wordt toegeschreven",
+      "note": "Voormalig Amerikaans president; aangehaald met het gezegde over hard werken",
       "start_seconds": 675,
-      "wiki_checked": true,
-      "wiki_pageid": 3644,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/250px-Official_Portrait_of_President_Reagan_1981.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Armin van Buuren",
+      "note": "DJ; genoemd als voorbeeld van druk door een overvol optreedschema",
+      "start_seconds": 2097,
+      "mention_count": 1
+    },
+    {
+      "name": "Mozes",
+      "note": "Bijbelse leider van Israël tijdens de woestijntocht",
+      "start_seconds": 589,
+      "mention_count": 1
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "1 Korintiërs 4:3-4",
-      "note": "Paulus: het is de Heer die over mij oordeelt, niet menselijk oordeel of eigen oordeel",
-      "start_seconds": 2155
+      "note": "Paulus: het oordeel van anderen en het eigen oordeel zijn niet beslissend; de Heer oordeelt",
+      "start_seconds": 2171
     },
     {
       "ref": "Exodus 17",
-      "note": "Amalekieten vallen het vermoeide volk Israël aan in de achterhoede",
-      "start_seconds": 566
+      "note": "Mozes en de Amalekieten; moeheid maakt het volk kwetsbaar voor aanval",
+      "start_seconds": 589
     },
     {
-      "ref": "Genesis 1",
-      "note": "God ziet naar zijn werk en ziet dat het goed was",
-      "start_seconds": 2020
+      "ref": "Prediker 9:7-9",
+      "note": "Eet je brood met vreugde en geniet van het leven dat God geeft",
+      "start_seconds": 2972
+    },
+    {
+      "ref": "Mattheus 11:28-29",
+      "note": "Kom tot mij allen die vermoeid en belast zijn; zachtmoedig en nederig van hart",
+      "start_seconds": 3010
+    },
+    {
+      "ref": "Jesaja 40:29-31",
+      "note": "Wie de Heer verwacht krijgt nieuwe kracht; tekst die Tiggelaars contact aanspreekt",
+      "start_seconds": 3428
     }
   ],
   "places": [
-    "Londen",
-    "New York"
+    "Genève",
+    "New York",
+    "Londen"
   ],
-  "summary_tldr": "David Boogerd praat met Ben Tiggelaar en Stefan Paas over burn-outs en de prestatiemaatschappij. Werk is voor velen de nieuwe kerk geworden, een bron van identiteit en zingeving. Beide gasten vinden houvast in hun christelijke identiteit, gezin en kerkgang.",
+  "summary_tldr": "David Boogerd, Ben Tiggelaar en Stefan Paas bespreken hoe werk steeds meer de identiteit van mensen bepaalt en welke rol dat speelt bij het toenemende aantal burn-outs, ook onder jongeren. Zij zien een verband met secularisatie: als religieuze bronnen van zingeving wegvallen, zoeken mensen zin in hun werk. Als tegenwicht noemen zij geloof, gemeenschap en routines zoals kerkgang en gezin.",
   "summary_points": [
-    "Burn-outs nemen toe, ook onder jongeren",
-    "Burn-out hangt samen met chronische stress en identiteitsvragen",
-    "Moeheid in de Bijbel is verbonden met kwetsbaarheid en relaties",
-    "Werk is de nieuwe kerk: werk is geworden wie je bent",
-    "Zingeving zoek je waar je de meeste tijd doorbrengt",
-    "Voorbeelden van val na succes: Stapel, Keizer, Diekstra",
-    "Identiteit in Christus, gezin en kerk als tegenwicht voor werkidentiteit",
-    "Alain de Botton biedt seculiere troost met 'good enough'",
-    "Professionele ontevredenheid is gezond zolang je ook successen viert"
+    "Burn-outs nemen toe, vooral onder jongeren, en worden gezien als beroepsziekte nummer één.",
+    "Werk is in de samenleving veranderd van wat je doet in wat je bent, met het risico dat werk de plaats van religie inneemt.",
+    "Burn-out gaat vaak samen met chronische stress, achterdocht en slaapproblemen; deze signalen zijn alarmbellen.",
+    "Bijbelse moeheid gaat niet alleen om fysieke vermoeidheid maar om verlies van vitaliteit en relaties.",
+    "Voorbeelden als Stapel, Keizer en Dijkstra laten zien hoe status en werkdruk mensen kunnen ontwrichten als werk wegvalt.",
+    "Tiggelaar zoekt zijn identiteit in Christus en onderscheidt werkidentiteit van gezins- en geloofsidentiteit.",
+    "Religie bestaat volgens Paas uit zingeving, gemeenschap en routines, die helpen om kwetsbaarheid te erkennen.",
+    "Het calvinisme wordt ten onrechte gezien als pleitbezorger van hard werken; de kern is dankbaarheid.",
+    "Bij ernstige klachten is het advies om tijdig hulp te zoeken en niet alles zelf op te lossen."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Guru en Obama",
-      "summary": "Introductie van Ben Tiggelaar en zijn interview met Obama."
+      "title": "Introductie en Obama-anekdote",
+      "summary": "David Boogerd stelt het thema voor en introduceert gast Ben Tiggelaar, die naar eigen zeggen Obama interviewde."
     },
     {
       "start_seconds": 163,
-      "title": "Burn-out en eigen ervaringen",
-      "summary": "Persoonlijke dipjes na creatieve pieken en herkenbare burn-outsignalen."
+      "title": "Burn-out en persoonlijke ervaring",
+      "summary": "De gasten delen herkenning van dips na creatief werk en bespreken het verschil tussen gewone terugval en burn-out."
     },
     {
       "start_seconds": 508,
-      "title": "Moeheid in de Bijbel",
-      "summary": "Stefan Paas over moeheid, vitaliteit en relaties in de Bijbel; stress en identiteit."
+      "title": "Bijbel, vermoeidheid en kwetsbaarheid",
+      "summary": "Stefan Paas duidt moeheid in de Bijbel als gebrek aan vitaliteit en relaties, met verwijzing naar Mozes en de Amalekieten."
     },
     {
-      "start_seconds": 762,
-      "title": "Identiteit in Christus",
-      "summary": "Tiggelaar over self-forgetfulness en de relatie tussen identiteit en werk."
+      "start_seconds": 911,
+      "title": "Werk, status en falen",
+      "summary": "Het gesprek gaat over Diederik Stapel, Henry Keizer en René Dijkstra en de druk om te presteren en gezien te worden."
     },
     {
-      "start_seconds": 905,
-      "title": "Status en val",
-      "summary": "Stapel, Keizer en Diekstra als voorbeelden van wat er gebeurt als werk en status alles zijn."
+      "start_seconds": 1404,
+      "title": "Werk is de nieuwe kerk",
+      "summary": "Werk is volgens de gasten een bron van zingeving geworden, mede doordat andere bronnen zoals kerk en filosofie wegvallen."
     },
     {
-      "start_seconds": 1403,
-      "title": "Werk als de nieuwe kerk",
-      "summary": "Zingeving zoeken waar het licht is, en de rol van De Botton en therapie."
+      "start_seconds": 2593,
+      "title": "Calvinisme en werkethiek",
+      "summary": "De gasten bespreken of het calvinisme verantwoordelijk is voor hard werken en komen uit bij dankbaarheid als kern."
     },
     {
-      "start_seconds": 1712,
-      "title": "Obama en omgaan met falen",
-      "summary": "Nederigheid van Obama, tweede kansen en professionele ontevredenheid."
+      "start_seconds": 2972,
+      "title": "Genieten, rust en hulp zoeken",
+      "summary": "Prediker en Mattheus worden aangehaald over genieten en rust, en over het belang van hulp en gemeenschap bij overbelasting."
     },
     {
-      "start_seconds": 2150,
-      "title": "Wat Jezus te bieden heeft",
-      "summary": "Uitleg van identiteit in Christus aan de hand van 1 Korintiërs 4."
+      "start_seconds": 3428,
+      "title": "Slotwoorden en Jesaja 40",
+      "summary": "Afsluiting met advies voor wie midden in een burn-out zit en met Jesaja 40 als bemoediging."
     }
   ],
   "highlights": [
     {
+      "start_seconds": 1404,
+      "speaker": "Stefan Paas",
+      "text": "Wij zijn in een samenleving terechtgekomen waar werk in grote mate iets is geworden, niet meer wat je doet, maar wat je bent.",
+      "note": "Kernuitspraak die de link tussen werk, identiteit en religie samenvat."
+    },
+    {
       "start_seconds": 1415,
       "speaker": "Ben Tiggelaar",
       "text": "Werk is de nieuwe kerk.",
-      "note": "Kernstelling van de aflevering."
+      "note": "Pakkende formulering die de titel van de aflevering vormt en de spanning met religie blootlegt."
     },
     {
-      "start_seconds": 1088,
+      "start_seconds": 1200,
       "speaker": "Ben Tiggelaar",
-      "text": "Diekstra kon als psycholoog exact doorgronden wat er gebeurde, maar kon er niet uitkomen.",
-      "note": "Laat zien hoe diep het verlies van werk kan gaan."
+      "text": "Het eerste boek schrijf je om voor jezelf, en het tweede boek dat je publiceert, doe je voor je lezers.",
+      "note": "Scherpe observatie over hoe erkenning het creatieve proces kan vervormen."
     },
     {
-      "start_seconds": 1470,
+      "start_seconds": 2196,
       "speaker": "Ben Tiggelaar",
-      "text": "Verhaal van de dronken man die zijn sleutels zoekt waar het licht is.",
-      "note": "Treffend beeld van zingeving zoeken in werk."
+      "text": "Dan moet je een soort batterij zijn die zijn eigen stroom opwekt, een psychologisch perpetuum mobile.",
+      "note": "Laat zien waarom zelfvertrouwen als enige bron van waarde faalt op slechte dagen."
     },
     {
-      "start_seconds": 1900,
-      "speaker": "Ben Tiggelaar",
-      "text": "Obama wil achter de schermen alleen een kop thee.",
-      "note": "Grappige anekdote over bescheidenheid."
-    },
-    {
-      "start_seconds": 1245,
+      "start_seconds": 3428,
       "speaker": "Stefan Paas",
-      "text": "Kerkgang houdt mij gezond: je mag er zijn, ongeacht wat je presteert.",
-      "note": "Persoonlijke en kwetsbare uitspraak."
+      "text": "Wat hij zei: verwachting, uitzicht, zingeving. Dit was een tekst die hem in die tijd buitengewoon aansprak.",
+      "note": "Persoonlijk moment waarin Jesaja 40 wordt gedeeld als bron van hoop bij burn-out."
     }
   ],
   "keywords": [
     "burn-out",
-    "prestatiemaatschappij",
     "identiteit",
-    "werk",
+    "prestatiemaatschappij",
     "zingeving",
-    "stress",
-    "Tim Keller",
-    "Alain de Botton",
-    "Obama",
-    "kerkgang",
-    "Diederik Stapel"
+    "secularisatie",
+    "calvinisme",
+    "werkethiek",
+    "vermoeidheid",
+    "routine",
+    "genade",
+    "zelfvergetelheid",
+    "gemeenschap"
   ],
   "quotes": [
-    "Is ‘werk de nieuwe kerk’?"
+    "Is 'werk de nieuwe kerk'?",
+    "Wat zegt het over onze samenleving dat burn-out klachten, ook onder jongeren, zo toenemen?",
+    "Zorgt deze prestatiemaatschappij ervoor dat werk steeds meer onze identiteit bepaalt in plaats van religie?"
   ],
   "similar": [
     {
       "n": 117,
-      "reason": "Zingeving en religieuze betekenis van werk, identiteit via werk; Stefan Paas."
-    },
-    {
-      "n": 27,
-      "reason": "Ook Ben Tiggelaar met Stefan Paas, over geloof, hoop en omgaan met crisis."
+      "reason": "Zingeving en religieuze betekenis van werk, direct verwant aan werk als identiteit"
     },
     {
       "n": 249,
-      "reason": "Psychiater over mentale epidemie en burn-out-achtige problematiek in de prestatiemaatschappij."
+      "reason": "Mentale epidemie en psychische klachten, inclusief jongeren, thematisch verwant aan burn-outs"
     },
     {
-      "n": 223,
-      "reason": "Focus, geluk en een goed leven; zingeving, psyche en geloof."
+      "n": 111,
+      "reason": "Seculiere donderpreek over het individu zonder groep, met Esther van Fenema over psyche"
     },
     {
-      "n": 287,
-      "reason": "Prestatiedruk en vastlopen van jongeren in individualistische tijd; zelfredzaamheid-mythe."
+      "n": 128,
+      "reason": "Mannen onder druk, verlies van traditionele rol en zingeving, overlappend met werkidentiteit"
+    },
+    {
+      "n": 171,
+      "reason": "Zingeving als bescherming voor gezondheid en welzijn, sluit aan bij tegenwicht van zin"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

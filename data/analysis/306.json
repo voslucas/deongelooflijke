@@ -1,18 +1,23 @@
 {
   "episode": 306,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101990,
+    "segments": 995,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31469,
-    "output_tokens": 2921,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53233,
+    "output_tokens": 5934,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Technologie & AI",
-    "Filosofie & ethiek",
     "Kerk & secularisatie",
-    "Wetenschap & kosmos"
+    "Filosofie & ethiek",
+    "God & geloof"
   ],
   "guests": [
     "Maaike Harmsen"
@@ -20,278 +25,270 @@
   "people": [
     {
       "name": "Elon Musk",
-      "note": "oprichter van Neuralink, Tesla, SpaceX en xAI; zegt 'team human' te zijn",
+      "note": "Oprichter van Neuralink, Tesla, SpaceX en xAI; wil de mens verbeteren met hersenchips",
       "start_seconds": 5,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "mention_count": 14
     },
     {
       "name": "Noland Arbaugh",
-      "note": "eerste patiënt met een Neuralink-implantaat, verlamd na een zwemongeluk en gelovig christen",
-      "start_seconds": 590,
-      "wiki_checked": true,
-      "wiki_pageid": 76427608,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Noland_Arbaugh",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Noland_Arbaugh_on_ROP.jpg/250px-Noland_Arbaugh_on_ROP.jpg"
+      "note": "Verlamde patiënt die als eerste een Neuralink-chip kreeg",
+      "start_seconds": 566,
+      "mention_count": 8
     },
     {
       "name": "Paus Leo XIV",
-      "note": "schreef de encycliek Magnifica Humanitas over AI en menselijke waardigheid",
-      "start_seconds": 1097,
-      "wiki_checked": true,
-      "wiki_pageid": 5726260,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_XIV",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Leo_XIV_%2813_October_2025%29.jpg/250px-Leo_XIV_%2813_October_2025%29.jpg"
-    },
-    {
-      "name": "Paus Leo XIII",
-      "note": "schreef in 1891 Rerum novarum, de basis van de katholieke sociale leer",
-      "start_seconds": 1131,
-      "wiki_checked": true,
-      "wiki_pageid": 150833,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Leo_XIII",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Papa_Leone_XIII.jpeg/250px-Papa_Leone_XIII.jpeg"
+      "note": "Schreef de encycliek Magnifica Humanitas over AI en menselijke waardigheid",
+      "start_seconds": 357,
+      "mention_count": 9
     },
     {
       "name": "Richard Dawkins",
-      "note": "atheïstisch bioloog die met de chatbot Claude praatte en overwoog dat er bewustzijn ontstaat",
+      "note": "Bekende atheïstische bioloog die meende dat een chatbot bewustzijn heeft",
       "start_seconds": 419,
-      "wiki_checked": true,
-      "wiki_pageid": 282815,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/250px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+      "mention_count": 6
     },
     {
       "name": "Larry Page",
-      "note": "medeoprichter van Google; noemde Musk een 'speciesist'",
-      "start_seconds": 993,
-      "wiki_checked": true,
-      "wiki_pageid": 251436,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Larry_Page",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Larry_Page_in_the_European_Parliament%2C_17.06.2009.jpg/250px-Larry_Page_in_the_European_Parliament%2C_17.06.2009.jpg"
-    },
-    {
-      "name": "Peter Thiel",
-      "note": "techmiljardair en transhumanist, volgens Harmsen niet overtuigd van democratie",
-      "start_seconds": 1709,
-      "wiki_checked": true,
-      "wiki_pageid": 4611632,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/250px-Peter_Thiel_%282014%29.jpg"
+      "note": "Medeoprichter van Google; verweet Musk speciësisme",
+      "start_seconds": 990,
+      "mention_count": 2
     },
     {
       "name": "Sam Altman",
-      "note": "leider van OpenAI, ziet de mens als 'stochastic parrot'",
-      "start_seconds": 1732,
-      "wiki_checked": true,
-      "wiki_pageid": 5745336,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sam_Altman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29.jpg/250px-Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_%28cropped%29.jpg"
+      "note": "Topman van OpenAI, het bedrijf achter ChatGPT",
+      "start_seconds": 1067,
+      "mention_count": 4
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Techondernemer met transhumanistische en libertaire opvattingen; dicht bij Trump",
+      "start_seconds": 1067,
+      "mention_count": 4
     },
     {
       "name": "Yuval Noah Harari",
-      "note": "historicus en auteur, ziet technologie als verlengstuk van de evolutie",
+      "note": "Historicus en auteur van Nexus over de geschiedenis van informatienetwerken en AI",
       "start_seconds": 1644,
-      "wiki_checked": true,
-      "wiki_pageid": 4913323,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Yuval_Noah_Harari",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg/250px-MKr364751_Yuval_Noah_Harari_%28Frankfurter_Buchmesse_2024%29.jpg"
+      "mention_count": 3
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe; over de interne dialoog van de mens",
+      "start_seconds": 2523,
+      "mention_count": 1
     },
     {
       "name": "JD Vance",
-      "note": "vicepresident van de VS, dicht bij Thiel",
-      "start_seconds": 1783,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "note": "Amerikaanse vicepresident",
+      "start_seconds": 1770,
+      "mention_count": 1
     },
     {
-      "name": "Alexander Klöpping",
-      "note": "techjournalist wiens podcast aandacht aan de encycliek besteedde",
-      "start_seconds": 1281,
-      "wiki_checked": true,
-      "wiki_pageid": 2068854,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_Kl%C3%B6pping",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Alexander_Kl%C3%B6pping_%282018%29.jpg/250px-Alexander_Kl%C3%B6pping_%282018%29.jpg"
+      "name": "Donald Trump",
+      "note": "Amerikaanse president, politiek dicht bij Peter Thiel",
+      "start_seconds": 1770,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesaja",
+      "note": "Bijbelse profeet die spot met afgodsbeelden van hout",
+      "start_seconds": 2453,
+      "mention_count": 1
+    },
+    {
+      "name": "Nehemia",
+      "note": "Bijbelse figuur die bouwde aan een stad voor iedereen",
+      "start_seconds": 3358,
+      "mention_count": 1
+    },
+    {
+      "name": "Socrates",
+      "note": "Filosoof die klaagde dat geschreven tekst het geheugen schaadt",
+      "start_seconds": 3721,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom Hanks",
+      "note": "Acteur uit de film Cast Away, die een volleybal als gesprekspartner had",
+      "start_seconds": 2295,
+      "mention_count": 1
+    },
+    {
+      "name": "Alexander Klapping",
+      "note": "Presentator van een AI- en techpodcast die onder de indruk was van de encycliek",
+      "start_seconds": 1310,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Magnifica Humanitas",
-      "author": "Paus Leo XIV",
-      "note": "encycliek over AI, menselijke waardigheid en technologie",
-      "start_seconds": 1127
-    },
-    {
-      "title": "Rerum novarum",
-      "author": "Paus Leo XIII",
-      "note": "encycliek uit 1891 over industrialisatie en sociaal onrecht",
-      "start_seconds": 1191,
-      "volume_id": "-4Tundo_Nz4C",
-      "canonical_title": "Rerum Novarum: encycliek van Z.H. Paus Leo XIII over den toestand der werklieden",
-      "canonical_author": "Leo XIII (Paus)",
-      "isbn13": null,
-      "isbn10": null,
-      "thumbnail": "http://books.google.com/books/content?id=-4Tundo_Nz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    },
-    {
       "title": "Nexus",
       "author": "Yuval Noah Harari",
-      "note": "pleit voor meer regulering van AI",
-      "start_seconds": 1664,
+      "note": "Over de geschiedenis van informatienetwerken en de risico's van AI",
+      "start_seconds": 1690,
       "volume_id": "ylvsEAAAQBAJ",
-      "canonical_title": "Nexus: The Sunday Times bestselling history about humans, technology and AI from the author of Sapiens",
+      "canonical_title": "Nexus",
       "canonical_author": "Yuval Noah Harari",
       "isbn13": "9781529923506",
       "isbn10": "1529923506",
       "thumbnail": "http://books.google.com/books/content?id=ylvsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Jesaja 44",
+      "note": "Een man die uit een stuk hout een afgod maakt; voorbeeld van afgoderij",
+      "start_seconds": 2459
+    },
+    {
+      "ref": "Genesis 9",
+      "note": "De mens is geschapen naar het beeld van God en is daarom beschermwaardig",
+      "start_seconds": 2761
+    },
+    {
+      "ref": "Genesis 11",
+      "note": "Toren van Babel als beeld van monocultuur en machtsbouw",
+      "start_seconds": 3343
+    },
+    {
+      "ref": "Nehemia",
+      "note": "Stad bouwen waar iedereen mee mag helpen, tegenover de toren van Babel",
+      "start_seconds": 3358
+    }
+  ],
   "places": [
     "Papoea-Nieuw-Guinea",
     "China",
     "Noord-Korea",
-    "Vaticaan",
-    "Amsterdam",
-    "Utrecht"
+    "Silicon Valley",
+    "Vaticaan"
   ],
-  "summary_tldr": "Maaike Harmsen en Stefan Paas bespreken de strijd om het mensbeeld in het AI-tijdperk, van Neuralink tot de encycliek Magnifica Humanitas van paus Leo XIV. Ze onderscheiden drie mensbeelden: het libertaire/transhumanistische van big tech, het katholieke dat uitgaat van menselijke waardigheid en liefde, en een ecologisch beeld waarin de mens niet uniek is.",
+  "summary_tldr": "In deze aflevering bespreken David Boogerd, Maaike Harmsen en Stefan Paas de strijd om het mensbeeld rond AI en technologie, met Elon Musks hersenchip, de encycliek van paus Leo XIV en de reacties van tech-denkers en ethici. Ze zetten verschillende visies naast elkaar, van libertair transhumanisme tot een christelijk-humanistische en ecologische visie. Het gesprek eindigt met de vraag hoe je verstandig met AI omgaat in het dagelijks leven en in het onderwijs.",
   "summary_points": [
-    "Neuralink helpt verlamde patiënten zoals Noland; een tweede doel is symbiose tussen mens en AI.",
-    "Musk zegt 'team human' te zijn, maar Paas vindt zijn benadering kwantificerend en vooral gericht op controle.",
-    "Anthropic noemt het gedrag van AI mysterieus, terwijl de paus AI een machine noemt die menselijk gedrag nabootst.",
-    "Paas vergelijkt een chatbot met een wonderkind dat liefdesgedichten kent maar nooit liefde heeft ervaren.",
-    "De encycliek plaatst AI in de katholieke sociale leer: waardigheid, rechtvaardigheid en goed werk.",
-    "De paus wijst een transhumanistische visie af waarin de mens een probleem is dat gefixt moet worden; transformatie betekent groeien in liefde.",
-    "Het libertaire kamp (Thiel, Altman) ziet geschiedenis als wil tot macht en wil weinig toezicht.",
-    "Het ecologische kamp ziet de mens als onderdeel van de natuur en vraagt zich af of we met robots dezelfde fout maken als met dieren en andere mensen.",
-    "Paas is kritisch op het idee dat robots moreel vergelijkbaar zijn met dieren, omdat mensen ze zelf maken."
+    "Elon Musks Neuralink-chip geeft verlamde patiënten, zoals Noland Arbaugh, weer controle over computers met hun gedachten.",
+    "Musk spreekt over 'team human' en een mogelijke symbiose met AI, maar Stefan Paas ziet vooral een kwantificerend mensbeeld.",
+    "Richard Dawkins meende dat een chatbot bewustzijn heeft; Paas en Harmsen wijzen op het verschil tussen nadoen en werkelijk ervaren.",
+    "Paus Leo XIV's encycliek Magnifica Humanitas plaatst AI in de traditie van de katholieke sociale leer, vergelijkbaar met de industriële revolutie.",
+    "Drie mensbeelden botsen: het libertaire big tech-beeld, een ecologisch beeld van de mens als onderdeel van de natuur, en het christelijke beeld van de mens als beeld van God.",
+    "Big tech-leiders als Thiel en Altman zien de mens als middel voor macht en vooruitgang; de paus benadrukt menselijke waardigheid en het welzijn van de zwaksten.",
+    "Bijbelse verhalen over afgoderij en de toren van Babel worden gebruikt om machtsfantasieën rond technologie te duiden.",
+    "Regulering groeit, met onder meer de Europese AI Act en nieuwe Amerikaanse initiatieven, maar de politiek moet zich blijvend mengen.",
+    "Praktisch advies: gebruik AI als 'vorkheftruck' voor routinewerk, maar train je eigen denkvermogen en controleer de output."
   ],
   "chapters": [
     {
-      "start_seconds": 48,
-      "title": "Inleiding: de strijd om de mens",
-      "summary": "David introduceert Neuralink, de quote van Anthropic en de encycliek van de paus."
+      "start_seconds": 0,
+      "title": "Intro: de strijd om de mens",
+      "summary": "Presentator Boogerd schetst de chip van Musk, de encycliek van de paus en de botsende mensbeelden rond AI."
     },
     {
-      "start_seconds": 167,
-      "title": "Waarom AI nu urgent is",
-      "summary": "Veranderend werk, AI in ziekenhuizen en de vraag naar mysterieus AI-gedrag, met Dawkins en Claude."
+      "start_seconds": 300,
+      "title": "AI en bewustzijn",
+      "summary": "Harmsen en Paas bespreken de uitspraken van Anthropic en Dawkins over chatbots die bewustzijn zouden hebben."
     },
     {
-      "start_seconds": 570,
-      "title": "Noland en Neuralink",
-      "summary": "Het verhaal van de eerste Neuralink-patiënt en Musks plannen voor symbiose met AI."
+      "start_seconds": 590,
+      "title": "Neuralink en Noland",
+      "summary": "Harmsen vertelt over het gesprek met Noland Arbaugh, de eerste Neuralink-patiënt, en hoe de chip zijn leven verandert."
     },
     {
-      "start_seconds": 955,
-      "title": "Musk, Page en OpenAI",
-      "summary": "Hoe het gesprek met Larry Page leidde tot de oprichting van OpenAI en hoe Musk de mens ziet."
+      "start_seconds": 882,
+      "title": "Musk, symbiose en het mensbeeld",
+      "summary": "Musks plannen voor Neuralink 2.0 en symbiose met AI worden besproken, samen met zijn kwantificerende mensbeeld."
     },
     {
       "start_seconds": 1097,
-      "title": "De encycliek Magnifica Humanitas",
-      "summary": "Paus Leo XIV plaatst AI in de katholieke sociale leer, met aandacht voor arbeid, liefde en menselijke waardigheid."
+      "title": "De encycliek van de paus",
+      "summary": "De paus plaatst AI in de katholieke sociale leer; Paas en Boogerd vatten de inhoud en de reacties samen."
     },
     {
-      "start_seconds": 1584,
-      "title": "Het libertaire mensbeeld",
-      "summary": "Big tech, Harari, Thiel en Altman en hun visie van macht en transhumanisme."
+      "start_seconds": 1636,
+      "title": "Drie mensbeelden",
+      "summary": "Libertair big tech, het ecologische kamp en het christelijke mensbeeld worden tegen elkaar afgezet."
     },
     {
-      "start_seconds": 1962,
-      "title": "Het ecologische mensbeeld",
-      "summary": "De mens als onderdeel van de natuur en de vraag hoe we met robots moeten omgaan."
+      "start_seconds": 2950,
+      "title": "Regulering en macht",
+      "summary": "Het gesprek gaat over wetgeving, de invloed van tech-bedrijven en de vraag wie de strijd beslecht."
     },
     {
-      "start_seconds": 2230,
-      "title": "Bewustzijn, Wilson en afscheid van AI-modellen",
-      "summary": "Discussie over het toekennen van bewustzijn aan chatbots, met Cast Away en The Creator als voorbeelden, en Anthropic die modellen afscheid geeft."
+      "start_seconds": 3510,
+      "title": "Omgang met AI in het dagelijks leven",
+      "summary": "Harmsen en Paas geven praktische tips over gebruik van chatbots, kennisverwerving en het voorkomen van AI-fraude in onderwijs."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 518,
+      "start_seconds": 976,
       "speaker": "Stefan Paas",
-      "text": "Het wonderkind heeft prachtige gedichten gelezen, maar het is nog nooit gekust en weet niet wat liefde is.",
-      "note": "Scherpe analogie voor het verschil tussen nabootsen en ervaren."
+      "text": "Het kwalitatieve van het mens zijn lijkt hij niet zo in beeld te hebben.",
+      "note": "Een scherpe kritiek op Musk, die volgens Paas vooral denkt in aantallen en niet in kwaliteit van menszijn."
     },
     {
       "start_seconds": 1464,
       "speaker": "Maaike Harmsen",
-      "text": "Noland kijkt het meest uit naar een hart vol liefde voor God en naasten; lopen komt op de tweede plaats.",
-      "note": "Ontroerend: een verlamde man zet liefde boven zijn eigen herstel."
+      "text": "Hij zegt dat hij het liefst getransformeerd wil worden met een hart vol liefde, en lopen komt pas op de tweede plek.",
+      "note": "Noland Arbaugh geeft een verrassend christelijk antwoord op de vraag waar hij naar uitkijkt."
     },
     {
-      "start_seconds": 1245,
+      "start_seconds": 1100,
+      "speaker": "David Boogerd",
+      "text": "Het gaat om menselijke waardigheid, niet om de mens zo snel, krachtig en slim mogelijk te maken.",
+      "note": "Samenvatting van de kern van de encycliek, die technologie toetst aan menselijke waardigheid."
+    },
+    {
+      "start_seconds": 3265,
       "speaker": "Stefan Paas",
-      "text": "Musk zegt 'team human', maar met controle bedoelt hij vooral dat hijzelf in controle blijft.",
-      "note": "Kritische blik op Musks motieven."
+      "text": "Als we constant wakker liggen van wat AI allemaal gaat kunnen, maken we het misschien ook groter en machtiger.",
+      "note": "Paas stelt dat angst voor AI de macht van AI kan vergroten, een onverwachte wending."
     },
     {
-      "start_seconds": 1856,
+      "start_seconds": 3590,
       "speaker": "Maaike Harmsen",
-      "text": "Musk wil gewoon dood en heeft rust in zijn hoofd nodig.",
-      "note": "Verrassend verschil met de eeuwig-leven-ambities van andere techgiganten."
-    },
-    {
-      "start_seconds": 2300,
-      "speaker": "Stefan Paas",
-      "text": "Als je gedrag is dat je persoonlijkheid toekent aan een volleybal, dan blijkbaar telt dat.",
-      "note": "Humoristische toets aan het idee dat gedrag bepaalt wat iets is."
+      "text": "Gebruik AI als een vorkheftruck: gebruik het spaarzaam voor grote dingen, anders worden je denkspieren niet getraind.",
+      "note": "Een heldere metafoor die het gesprek concreet en toepasbaar maakt."
     }
   ],
   "keywords": [
-    "Neuralink",
     "transhumanisme",
-    "Magnifica Humanitas",
+    "Neuralink",
+    "encycliek",
     "menselijke waardigheid",
     "mensbeeld",
-    "kunstmatige intelligentie",
-    "Anthropic",
     "bewustzijn",
+    "big tech",
+    "afgoderij",
+    "Babel",
     "katholieke sociale leer",
-    "Elon Musk"
+    "deskilling"
   ],
   "quotes": [
     "Dit zijn niet de koude, berekenende robots die ons beloofd waren. Ik zal eerlijk zijn: we blijven dingen tegenkomen die mysterieus, of zelfs verontrustend zijn.",
+    "Er woedt op dit moment een strijd om wat een mens eigenlijk is.",
     "Misschien heb je het nog niet door, maar er woedt op dit moment een strijd om wat een mens eigenlijk is."
   ],
   "similar": [
     {
       "n": 144,
-      "reason": "Zelfde gast Maaike Harmsen over gevaren van AI en ons mensbeeld"
-    },
-    {
-      "n": 292,
-      "reason": "Denkbeelden achter Big Tech (Thiel, Musk-achtige techvisie), met Stefan Paas"
+      "reason": "Zelfde gast Maaike Harmsen over de gevaren van AI en menselijkheid"
     },
     {
       "n": 228,
       "reason": "Wereldbeeld van Elon Musk en andere superrijke techgiganten"
     },
     {
-      "n": 298,
-      "reason": "Hoe gevaarlijk of geweldig is AI, met Stefan Paas"
+      "n": 292,
+      "reason": "Duistere denkbeelden achter Big Tech en de machtige techwereld"
     },
     {
-      "n": 246,
-      "reason": "Paus Leo XIV en de rol van de kerk"
+      "n": 257,
+      "reason": "AI, techniek en de aanval op de menselijke ziel als sociaal experiment"
+    },
+    {
+      "n": 16,
+      "reason": "Technologie als nieuwe religie en de rol van technologie in ons leven"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

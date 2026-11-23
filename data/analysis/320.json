@@ -1,249 +1,329 @@
 {
   "episode": 320,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 104760,
+    "segments": 1140,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31505,
-    "output_tokens": 2728,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 54718,
+    "output_tokens": 7457,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Dood & rouw",
     "Zingeving & psyche",
-    "Geschiedenis",
-    "Gezin & relaties"
+    "God & geloof",
+    "Geschiedenis"
   ],
   "guests": [
     "Frederieke Hegger"
   ],
   "people": [
     {
-      "name": "Michael Hegger",
-      "note": "overleden echtgenoot van Frederieke, werkte op een ministerie",
-      "start_seconds": 266,
-      "wiki_checked": true
+      "name": "Frederieke Hegger",
+      "note": "gast; journalist en RTL Z-presentator, weduwe na het overlijden van haar man",
+      "start_seconds": 62,
+      "mention_count": 3
     },
     {
-      "name": "Cicero",
-      "note": "Romeins redenaar en politicus die zijn dochter verloor en erover schreef",
-      "start_seconds": 2031,
-      "wiki_checked": true,
-      "wiki_pageid": 40452,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marcus_Tullius_Cicero",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/CiceroBust.jpg/250px-CiceroBust.jpg"
+      "name": "Michael",
+      "note": "overleden man van Frederieke Hegger; werkte op een ministerie; overleed aan een hersentumor op 36-jarige leeftijd",
+      "start_seconds": 62,
+      "mention_count": 60
     },
     {
-      "name": "Atticus",
-      "note": "beste vriend van Cicero aan wie hij zijn rouwbrieven schreef",
-      "start_seconds": 2274,
-      "wiki_checked": true,
-      "wiki_pageid": 260196,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Titus_Pomponius_Atticus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Richard_Wilson_-_Cicero_with_his_friend_Atticus_and_brother_Quintus%2C_at_his_villa_at_Arpinum_-_Google_Art_Project.jpg/250px-Richard_Wilson_-_Cicero_with_his_friend_Atticus_and_brother_Quintus%2C_at_his_villa_at_Arpinum_-_Google_Art_Project.jpg"
+      "name": "Rosemarijn",
+      "note": "dochter van Frederieke Hegger en Michael, bij het overlijden bijna 3 jaar",
+      "start_seconds": 834,
+      "mention_count": 8
     },
     {
-      "name": "Servius Sulpicius",
-      "note": "vriend van Cicero die hardvochtig reageerde op zijn rouw",
+      "name": "Marcus Tullius Cicero",
+      "note": "Romeinse redenaar en politicus (1e eeuw v.Chr.) die na het overlijden van zijn dochter rouwbrieven schreef",
+      "start_seconds": 62,
+      "mention_count": 25
+    },
+    {
+      "name": "Servius Sulpicius Rufus",
+      "note": "jurist en vriend van Cicero die hem na het verlies van zijn dochter aansprak",
       "start_seconds": 2717,
-      "wiki_checked": true,
-      "wiki_pageid": 339406,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Servius_Sulpicius_Rufus"
+      "mention_count": 4
     },
     {
-      "name": "C.S. Lewis",
-      "note": "schrijver, over hoe een overleden vriend anderen rijker maakt",
-      "start_seconds": 1451,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
-    },
-    {
-      "name": "Pompeius",
-      "note": "Romeins politicus in de intriges rond Cicero",
-      "start_seconds": 2153,
-      "wiki_checked": true,
-      "wiki_pageid": 186649,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pompeius",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Pompey_the_Great.jpg/250px-Pompey_the_Great.jpg"
+      "name": "Titus Pomponius Atticus",
+      "note": "beste vriend van Cicero, aan wie hij zijn rouw beschreef",
+      "start_seconds": 2270,
+      "mention_count": 3
     },
     {
       "name": "Julius Caesar",
-      "note": "Romeins leider, werd dictator",
-      "start_seconds": 2153,
-      "wiki_checked": true,
-      "wiki_pageid": 6606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julius_Caesar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg/250px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg"
+      "note": "politieke figuur die volgens Hegger de Republiek ondermijnde tijdens Cicero's leven",
+      "start_seconds": 2143,
+      "mention_count": 2
+    },
+    {
+      "name": "Pompeius",
+      "note": "politieke rivaal in de intriges van Cicero's tijd",
+      "start_seconds": 2143,
+      "mention_count": 1
+    },
+    {
+      "name": "Seneca",
+      "note": "Romeins denker over wijsheid en verdriet, door Hegger genoemd als voorbeeld van lezen",
+      "start_seconds": 4055,
+      "mention_count": 1
+    },
+    {
+      "name": "Boëthius",
+      "note": "auteur van De troost van de filosofie, een klassiek werk over troost",
+      "start_seconds": 2942,
+      "mention_count": 2
+    },
+    {
+      "name": "Augustinus",
+      "note": "kerkvader die over het verlies van zijn moeder en zoon schreef in zijn Belijdenissen",
+      "start_seconds": 2959,
+      "mention_count": 5
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "auteur die schreef over liefde, kwetsbaarheid en verdriet na het verlies van zijn vrouw",
+      "start_seconds": 1451,
+      "mention_count": 4
+    },
+    {
+      "name": "Lieke Marsman",
+      "note": "dichter die in haar laatste bundel schrijft over afdalen naar een economische, transactionele wereld",
+      "start_seconds": 3691,
+      "mention_count": 2
+    },
+    {
+      "name": "Alain Verhey",
+      "note": "theoloog, genoemd in een andere podcast over de drie B's van religie",
+      "start_seconds": 4134,
+      "mention_count": 1
     },
     {
       "name": "Koen Verbraak",
-      "note": "interviewer van wie rouwinterviews worden genoemd",
-      "start_seconds": 2051,
-      "wiki_checked": true
+      "note": "maker van ontroerende series en interviews over rouw",
+      "start_seconds": 2043,
+      "mention_count": 1
+    },
+    {
+      "name": "Mariska",
+      "note": "redacteur van De Ongelooflijke met wie Hegger vooraf sprak",
+      "start_seconds": 3668,
+      "mention_count": 1
+    },
+    {
+      "name": "Maurits",
+      "note": "collega die niet begreep waarom Hegger zo lang niet kon werken (genoemd in het essay)",
+      "start_seconds": 3397,
+      "mention_count": 1
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, zorg voor Frederieke na de herinstallatie",
-      "start_seconds": 2507,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president bij wiens installatie Hegger zich zorgen maakte",
+      "start_seconds": 2488,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "genoemd om het kortste vers uit de Bijbel, waarin hij huilt bij het graf van Lazarus",
+      "start_seconds": 4563,
+      "mention_count": 3
     }
   ],
   "books": [
     {
-      "title": "Brieven van Cicero",
-      "author": "Cicero",
-      "note": "Nederlandse vertaling van zijn brieven, waaronder rouwbrieven",
-      "start_seconds": 2094,
-      "volume_id": "p0AuAAAACAAJ",
-      "canonical_title": "Brieven van Cicero: een bloemlezing",
-      "canonical_author": "Marcus Tullius Cicero, Daniël den Hengst",
-      "isbn13": "9789062836352",
-      "isbn10": "9062836356",
+      "title": "Consolatio (Troostbrief)",
+      "author": "Marcus Tullius Cicero",
+      "note": "verloren gegane rouwverwerkingstekst van Cicero, vaak gezien als een vroeg zelfhulpboek",
+      "start_seconds": 2923,
+      "volume_id": "Nk5hzQEACAAJ",
+      "canonical_title": "M. Tullii Ciceronis Consolatio",
+      "canonical_author": "Marcus Tullius Cicero",
+      "isbn13": null,
+      "isbn10": null,
       "thumbnail": ""
+    },
+    {
+      "title": "De troost van de filosofie",
+      "author": "Boëthius",
+      "note": "klassiek werk over troost dat Stefan Paas noemt als voorbeeld van het genre",
+      "start_seconds": 2942,
+      "volume_id": "dIiCtwAACAAJ",
+      "canonical_title": "De consolatione philosophiae",
+      "canonical_author": "Anitius Manlius Torquatus Severinus Boëthius",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Belijdenissen",
+      "author": "Augustinus",
+      "note": "over het verlies van zijn moeder en de rol van tranen",
+      "start_seconds": 3000,
+      "volume_id": "AZBJGQAACAAJ",
+      "canonical_title": "Belijdenissen / druk 14",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026321023",
+      "isbn10": "9026321023",
+      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+      "title": "Verdriet, dood en geloof",
+      "author": "C.S. Lewis",
+      "note": "boek over het verlies van zijn vrouw; Hegger citeert de vergelijking met een beenamputatie",
+      "start_seconds": 3290,
+      "volume_id": "YMXiEAAAQBAJ",
+      "canonical_title": "A Grief Observed",
+      "canonical_author": "C. S. Lewis",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=YMXiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Johannes 11:35",
+      "note": "Jezus weent bij het graf van Lazarus; het kortste vers van de Bijbel, besproken als voorbeeld van openlijk verdriet",
+      "start_seconds": 4563
+    }
+  ],
   "places": [
     "Rome",
-    "Leiden"
+    "Oekraïne",
+    "Leiden",
+    "Amsterdam",
+    "Utrecht"
   ],
-  "summary_tldr": "Frederieke Hegger vertelt hoe haar man Michael op 36-jarige leeftijd na drie maanden overleed aan een hersentumor, en hoe ze met haar dochtertje van bijna drie door de rouw ging. Ze zocht herkenning in poëzie, series en vooral in de rouwbrieven van Cicero. Samen met Stefan Paas bespreken ze verlies, troost en hoe je jezelf kwijtraakt en weer terugvindt.",
+  "summary_tldr": "Frederieke Hegger vertelt over het verlies van haar man Michael aan een agressieve hersentumor en hoe zij en haar jonge dochter Rosemarijn daarmee omgingen. Het gesprek gaat over rouw als een aardverschuiving die het leven en de blik op de wereld verandert, en over hoe oude teksten van Cicero, Augustinus en Lewis troost en herkenning bieden. Hegger reflecteert ook op geloof, de rol van gemeenschap en de vraag of je na zo'n verlies ooit dezelfde kunt worden.",
   "summary_points": [
-    "Michael kreeg na maandenlange vage klachten de diagnose hersentumor en overleed na drie maanden.",
-    "Het paar plande nog een bruiloft, reizen en brieven voor hun dochter, waardoor de laatste weken ook mooie momenten bevatten.",
-    "Frederieke voelde zich een stewardess in een neerstortend vliegtuig; het echte verdriet kwam pas na de uitvaart.",
-    "Het kleine dochtertje werd met kinderboekjes en eerlijkheid meegenomen in het naderende afscheid.",
-    "Frederieke schrijft herinneringen aan Michael op, inclusief zijn eigenaardigheden, als cadeau voor haar dochter.",
-    "Praktische hulp, blijvende aandacht en de vraag 'hoe is het vandaag?' helpen rouwenden het meest.",
-    "Cicero's rouwbrieven na de dood van zijn dochter boden haar herkenning over twee millennia heen.",
-    "Rouw deed haar de passie voor werk en zichzelf even kwijtraken; ze gaf zichzelf de tijd en nam geen radicale beslissingen.",
-    "Stefan Paas duidt de harde reacties op Cicero's verdriet als rationalisering in de Romeinse elitecultuur."
+    "Michael kreeg in korte tijd een hersentumor; binnen drie maanden overleed hij, op 36-jarige leeftijd.",
+    "Hegger beschrijft de rouw als een aardverschuiving: een periode van functioneren als 'stewardess' en pas later het echte verdriet.",
+    "Kinderen betrekken bij ziekte en verlies: boekjes lezen en eerlijk uitleggen wat doodgaan betekent.",
+    "Herinneringen vastleggen voor de dochter helpt om de vader te leren kennen en nieuwe herinneringen te krijgen.",
+    "Mensen weten vaak niet hoe ze met rouw moeten omgaan; blijvende aandacht en de vraag 'hoe is het vandaag?' helpen.",
+    "Cicero schreef rouwbrieven na het verlies van zijn dochter en vond troost in het schrijven.",
+    "Augustinus en Lewis beschrijven verdriet als een wond en als kwetsbaarheid die onlosmakelijk bij liefde hoort.",
+    "Rouw verandert ook de blik op werk, nieuws en de wereld; sommige prioriteiten vervagen en nieuwe waarden ontstaan.",
+    "Het gesprek gaat over mannen en emoties: Cicero en Augustinus vonden het lastig te huilen, terwijl de moderne tijd meer ruimte geeft.",
+    "Gemeenschap met andere weduwen en lotgenoten werkt helend, en rouw heeft getuigen nodig."
   ],
   "chapters": [
     {
-      "start_seconds": 62,
-      "title": "Kennismaking en nieuwsjunk",
-      "summary": "Introductie van Frederieke Hegger, haar werk bij RTL Z en haar maatschappelijke bevlogenheid, gedeeld met Michael."
+      "start_seconds": 0,
+      "title": "Welkom en introductie",
+      "summary": "David Boogerd stelt Frederieke Hegger en Stefan Paas voor en schetst het verhaal van Michaels overlijden en Hegger's essay over Cicero."
     },
     {
       "start_seconds": 381,
       "title": "Ziekte en diagnose",
-      "summary": "Van vage klachten naar een agressieve hersentumor en de snelle achteruitgang van Michael."
+      "summary": "Hegger vertelt hoe Michael eerst maagklachten had en later een hersentumor bleek, en hoe snel de diagnose van hoop naar ongeneeslijk ging."
     },
     {
-      "start_seconds": 779,
-      "title": "Samen de laatste maanden",
-      "summary": "Trouwplannen, brieven voor hun dochter en hoe Michael met aanvaarding en optimisme omging met zijn einde."
+      "start_seconds": 1055,
+      "title": "Kinderen en het verlies uitleggen",
+      "summary": "Hoe Hegger en Michael hun dochter van bijna drie voorbereidden op het overlijden van haar vader, met boekjes en eerlijke gesprekken."
     },
     {
-      "start_seconds": 1065,
-      "title": "Rouwen met een peuter",
-      "summary": "Hoe Frederieke hun dochter uitlegde wat doodgaan is en hoe zij herinneringen aan Michael vastlegt."
+      "start_seconds": 2013,
+      "title": "Cicero als rouwgids",
+      "summary": "Hegger legt uit waarom zij bij Cicero uitkwam: zijn rouwbrieven na het verlies van zijn dochter herkende zij als lotgenootschap."
     },
     {
-      "start_seconds": 1673,
-      "title": "Afscheid en omgang met anderen",
-      "summary": "De laatste weken, het ongemak van omstanders en wat helpt: blijven komen en praktische hulp."
+      "start_seconds": 2704,
+      "title": "Politiek, emotie en troost",
+      "summary": "Cicero's vrienden vonden zijn verdriet ondergeschikt aan de staat van de republiek; het gesprek gaat over mannelijke beheersing van emoties."
     },
     {
-      "start_seconds": 1986,
-      "title": "Cicero als troost",
-      "summary": "Frederieke vond taal voor haar rouw in de brieven van Cicero over de dood van zijn dochter."
+      "start_seconds": 3142,
+      "title": "Lewis, liefde en opnieuw leren lopen",
+      "summary": "Citaten van Lewis over kwetsbaarheid en de beenamputatie-metafoor leiden tot de vraag hoe je na verlies weer je leven oppakt, ook op het werk."
     },
     {
-      "start_seconds": 2400,
-      "title": "Jezelf kwijt en terugkeren",
-      "summary": "Verlies van levenslust en werkpassie, en het langzame terugkeren van genieten, besproken met Stefan Paas."
+      "start_seconds": 3668,
+      "title": "Blik op de wereld en bezielingsdrang",
+      "summary": "Hegger beschrijft hoe rouw haar blik op nieuws, samenleving en kunst veranderde en hoe zij zoekt naar wijsheid en verdieping."
     },
     {
-      "start_seconds": 2700,
-      "title": "Rationalisering en harde reacties",
-      "summary": "De botte reacties van Cicero's vrienden en het Romeinse ideaal van emotiebeheersing."
+      "start_seconds": 4078,
+      "title": "Geloof, gemeenschap en slot",
+      "summary": "Hegger deelt haar zoektocht naar geloof, de waarde van lotgenoten en de rol van luisteren; de aflevering sluit af met een aankondiging van een rouwsessie."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1251,
+      "start_seconds": 998,
       "speaker": "Frederieke Hegger",
-      "text": "Papa, word jij straks zo koud als melk uit de koelkast? Ja.",
-      "note": "Ontroerend: de nuchtere vraag van een bijna driejarige en Michaels eerlijke antwoord."
+      "text": "Ik heb in die periode me wel een soort stewardess gevoeld, in een vliegtuig waarvan ik wist dat die zou neerstorten.",
+      "note": "Een beeldende manier om het functioneren te beschrijven terwijl je van binnen in rouw bent."
     },
     {
-      "start_seconds": 996,
+      "start_seconds": 2342,
       "speaker": "Frederieke Hegger",
-      "text": "Ik heb me een soort stewardess gevoeld in een vliegtuig waarvan ik wist dat het zou neerstorten.",
-      "note": "Treffend beeld van sterk zijn voor anderen terwijl het verdriet moest wachten."
+      "text": "Cicero schrijft dat het verdriet sterker is dan elke troost.",
+      "note": "Een 2000 jaar oude zin die Hegger zo herkent dat zij denkt: dit had ik ook."
     },
     {
-      "start_seconds": 1493,
+      "start_seconds": 2575,
       "speaker": "Frederieke Hegger",
-      "text": "Kom dan gewoon terug uit de hemel en fix het zelf.",
-      "note": "Humor en liefde in rouw: ze hoort Michael nog mopperen over de vriezer."
+      "text": "Ik ben mijn man kwijt. Mijn gezin, daar is een derde van weg, en de passie voor mijn werk is weg.",
+      "note": "Het verlies strekt zich uit over meerdere domeinen van het leven en identiteit."
     },
     {
-      "start_seconds": 1860,
-      "speaker": "Frederieke Hegger",
-      "text": "Hoe is het vandaag? Dan kan ik zeggen: ik heb een zware dag, maar ik ben blij dat de zon schijnt.",
-      "note": "Praktisch advies voor het gesprek met iemand in rouw."
-    },
-    {
-      "start_seconds": 2328,
-      "speaker": "Frederieke Hegger",
-      "text": "Dit is 2000 jaar geleden en dit had ik ook.",
-      "note": "Herkenning in Cicero's rouwbrieven over twee millennia."
-    },
-    {
-      "start_seconds": 2431,
-      "speaker": "Frederieke Hegger",
-      "text": "Het heeft driekwart jaar geduurd voordat ik dacht: wat gezellig dat ze er zijn.",
-      "note": "Laat zien hoe langzaam vreugde terugkeert."
+      "start_seconds": 4564,
+      "speaker": "Stefan Paas",
+      "text": "Jezus huilde. Het kortste vers uit de Bijbel.",
+      "note": "Een verwijzing die het publiekelijk tonen van verdriet als iets menselijks en bijbels plaatst."
     }
   ],
   "keywords": [
     "rouw",
-    "troost",
-    "Cicero",
-    "hersentumor",
-    "weduwe",
     "verlies",
-    "kinderen en dood",
-    "herinnering",
-    "stoïcisme",
-    "aanvaarding"
+    "hersentumor",
+    "Cicero",
+    "rouwbrieven",
+    "troost",
+    "Augustinus",
+    "C.S. Lewis",
+    "bezielingsdrang",
+    "weduwschap",
+    "zingeving",
+    "gemeenschap"
   ],
-  "quotes": [],
+  "quotes": [
+    "Hoe leer je opnieuw lopen na zo'n aardverschuiving?",
+    "Wat doet groot verlies met een mens?",
+    "En kun je daarna ooit nog dezelfde worden?"
+  ],
   "similar": [
     {
       "n": 274,
-      "reason": "Manu Keirse over de dood herwaarderen, rouw en troost, met Stefan Paas"
+      "reason": "Gesprek over dood en rouw, met herwaardering van de dood als thema"
     },
     {
       "n": 244,
-      "reason": "Lieke Marsman over ziekte, de dood en een persoonlijke ervaring van troost"
+      "reason": "Ongeneeslijk ziek, godservaring en omgang met de dood; Lieke Marsman wordt genoemd"
     },
     {
       "n": 201,
-      "reason": "Bevrijdend gesprek over de dood en angst voor sterven, met Stefan Paas"
+      "reason": "Bevrijdend gesprek over de dood, angst en zingeving"
     },
     {
       "n": 302,
-      "reason": "Josha Zwaan over mantelzorg, de ziel en geloof bij ziekte en verlies"
+      "reason": "Geloof, mantelzorg en kwetsbaarheid rond verlies en de ziel"
     },
     {
-      "n": 281,
-      "reason": "Frank van de Goot over het mysterie van de dood en rouw"
+      "n": 229,
+      "reason": "Religieus denken over dood, rouw en zingeving van een predikante"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

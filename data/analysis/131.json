@@ -1,18 +1,23 @@
 {
   "episode": 131,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 96214,
+    "segments": 1168,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 32462,
-    "output_tokens": 2731,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51446,
+    "output_tokens": 8357,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
+    "Zingeving & psyche",
     "Kerk & secularisatie",
-    "Filosofie & ethiek",
-    "Samenleving & migratie",
-    "God & geloof"
+    "Geschiedenis",
+    "Samenleving & migratie"
   ],
   "guests": [
     "Rik Torfs"
@@ -20,177 +25,203 @@
   "people": [
     {
       "name": "Rik Torfs",
-      "note": "Vlaams hoogleraar kerkelijk recht, auteur van 'Tijdgeest'",
+      "note": "gast; hier niet opgenomen",
       "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 202332,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rik_Torfs",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Rik_Torfs05052010.jpg/250px-Rik_Torfs05052010.jpg"
+      "mention_count": 0
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "voorbeeld van een historische figuur over wiens wetgeving makkelijker te oordelen valt",
-      "start_seconds": 242,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "note": "Franse keizer, genoemd als voorbeeld van historische wetgeving",
+      "start_seconds": 235,
+      "mention_count": 1
+    },
+    {
+      "name": "Prince Harry",
+      "note": "Britse prins, genoemd bij bestsellerlijsten",
+      "start_seconds": 255,
+      "mention_count": 1
     },
     {
       "name": "Immanuel Kant",
-      "note": "genoemd als denker over optimisme als morele plicht",
+      "note": "filosoof, genoemd bij optimisme",
       "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 10852,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Immanuel_Kant",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Immanuel_Kant_portrait_c1790.jpg/250px-Immanuel_Kant_portrait_c1790.jpg"
+      "mention_count": 1
     },
     {
       "name": "Karl Popper",
-      "note": "genoemd in het rijtje van optimistische denkers",
+      "note": "filosoof, genoemd bij optimisme",
       "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 6625,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Popper",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/250px-Karl_Popper.jpg"
+      "mention_count": 1
     },
     {
       "name": "Guy Verhofstadt",
-      "note": "Belgisch oud-premier, genoemd in het rijtje over optimisme",
+      "note": "Belgisch oud-premier en denker over optimisme",
       "start_seconds": 329,
-      "wiki_checked": true,
-      "wiki_pageid": 27801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Guy_Verhofstadt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Guy_Verhofstadt_%282021%29_%28cropped%29.jpg/250px-Guy_Verhofstadt_%282021%29_%28cropped%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Julius Caesar",
-      "note": "overwinning op de Eburonen als voorbeeld van een emotioneel afgesloten verleden",
-      "start_seconds": 520,
-      "wiki_checked": true,
-      "wiki_pageid": 6606,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Julius_Caesar",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg/250px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29.jpg"
+      "note": "Romeins veldheer die de Eburonen versloeg",
+      "start_seconds": 518,
+      "mention_count": 1
     },
     {
       "name": "Rutger Bregman",
-      "note": "schreef over verzetshelden die vaak onhebbelijke mensen waren",
+      "note": "historicus die boek schreef over verzetshelden",
       "start_seconds": 776,
-      "wiki_checked": true,
-      "wiki_pageid": 4320123,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Rutger_Bregman",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Rutger_Bregman_%282024%29-32_%282%29.jpg/250px-Rutger_Bregman_%282024%29-32_%282%29.jpg"
+      "mention_count": 1
     },
     {
       "name": "Pius X",
-      "note": "paus die in 1907 het modernisme veroordeelde",
-      "start_seconds": 1151,
-      "wiki_checked": true,
-      "wiki_pageid": 19947,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Pius_X",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Pius_X%2C_by_Ernest_Walter_Histed_%28retouched%29.jpg/250px-Pius_X%2C_by_Ernest_Walter_Histed_%28retouched%29.jpg"
+      "note": "paus die het modernisme veroordeelde in 1907",
+      "start_seconds": 1139,
+      "mention_count": 1
     },
     {
       "name": "François Mauriac",
-      "note": "Franse schrijver die stelde dat Pius X het modernisme feitelijk creëerde",
-      "start_seconds": 1160,
-      "wiki_checked": true,
-      "wiki_pageid": 367369,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fran%C3%A7ois_Mauriac",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mauriac_Harcourt_1945_2.jpg/250px-Mauriac_Harcourt_1945_2.jpg"
+      "note": "Franse schrijver over het modernisme",
+      "start_seconds": 1158,
+      "mention_count": 1
+    },
+    {
+      "name": "Alfred Loisy",
+      "note": "modernistisch theoloog",
+      "start_seconds": 1189,
+      "mention_count": 1
     },
     {
       "name": "Rémy Brague",
-      "note": "Franse filosoof die zegt dat je gewoon voor geloof moet kiezen",
+      "note": "Franse filosoof over het kiezen voor geloof",
       "start_seconds": 1348,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Johannes XXIII",
-      "note": "paus vanaf 1958, het begin van de dalende lijn volgens sommigen",
-      "start_seconds": 1520,
-      "wiki_checked": true,
-      "wiki_pageid": 1474,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_XXIII",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pope_John_XXIII%2C_1958%E2%80%931963.jpg/250px-Pope_John_XXIII%2C_1958%E2%80%931963.jpg"
-    },
-    {
-      "name": "Herman von der Dunk",
-      "note": "Nederlands historicus: elke tijd is reactionair",
+      "name": "Herman van der Donk",
+      "note": "Nederlands historicus; stelling dat elke tijd reactionair is",
       "start_seconds": 1626,
-      "wiki_checked": true,
-      "wiki_pageid": 697277,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Hermann_von_der_Dunk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Hermann_von_der_Dunk.jpg/250px-Hermann_von_der_Dunk.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Bart De Wever",
-      "note": "Vlaams politicus en burgemeester van Antwerpen, schreef boek over woke",
-      "start_seconds": 1732,
-      "wiki_checked": true,
-      "wiki_pageid": 61038,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Bart_De_Wever",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Bart_De_Wever%2C_2025.06.26_%2802%29.jpg/250px-Bart_De_Wever%2C_2025.06.26_%2802%29.jpg"
+      "name": "Bart de Wever",
+      "note": "Vlaams politicus, schreef boek over woke",
+      "start_seconds": 1726,
+      "mention_count": 4
+    },
+    {
+      "name": "Tom Holland",
+      "note": "historicus, genoemd over slachtofferschap en christendom",
+      "start_seconds": 3063,
+      "mention_count": 1
+    },
+    {
+      "name": "Jezus",
+      "note": "centrale figuur in het christendom; geen wereldlijke leider",
+      "start_seconds": 3084,
+      "mention_count": 3
+    },
+    {
+      "name": "Barack Obama",
+      "note": "voorbeeld van succesvolle wereldlijke leider",
+      "start_seconds": 3097,
+      "mention_count": 1
+    },
+    {
+      "name": "Mao Zedong",
+      "note": "voorbeeld van wereldlijke leider",
+      "start_seconds": 3098,
+      "mention_count": 1
+    },
+    {
+      "name": "Dante Alighieri",
+      "note": "dichter van de Divina Commedia",
+      "start_seconds": 3480,
+      "mention_count": 2
     },
     {
       "name": "Jean-Paul Sartre",
-      "note": "ondertekende in 1977 petitie over decriminalisering van seks met minderjarigen",
-      "start_seconds": 2436,
-      "wiki_checked": true,
-      "wiki_pageid": 871,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Paul_Sartre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Paul_Sartre_FP.JPG/250px-Jean-Paul_Sartre_FP.JPG"
+      "note": "Franse filosoof; ondertekende petitie uit 1977",
+      "start_seconds": 2426,
+      "mention_count": 1
     },
     {
       "name": "Simone de Beauvoir",
-      "note": "ondertekende dezelfde petitie",
-      "start_seconds": 2436,
-      "wiki_checked": true,
-      "wiki_pageid": 28711,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Simone_de_Beauvoir",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Simone_de_Beauvoir2.png/250px-Simone_de_Beauvoir2.png"
+      "note": "Franse schrijver; ondertekende petitie uit 1977",
+      "start_seconds": 2426,
+      "mention_count": 1
     },
     {
       "name": "Michel Foucault",
-      "note": "ondertekende dezelfde petitie",
-      "start_seconds": 2440,
-      "wiki_checked": true,
-      "wiki_pageid": 28088,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michel_Foucault",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michel_Foucault_1974_Brasil.jpg/250px-Michel_Foucault_1974_Brasil.jpg"
+      "note": "Franse filosoof; ondertekende petitie uit 1977",
+      "start_seconds": 2438,
+      "mention_count": 1
     },
     {
       "name": "Jack Lang",
       "note": "Franse minister van Cultuur onder Mitterrand",
       "start_seconds": 2459,
-      "wiki_checked": true,
-      "wiki_pageid": 3862183,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jack_Lang_%28Frans_politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Jack_Lang_IEP_Toulouse_0109_2007-03-28_cropped_infobox.jpg/250px-Jack_Lang_IEP_Toulouse_0109_2007-03-28_cropped_infobox.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "François Mitterrand",
+      "note": "Franse president",
+      "start_seconds": 2459,
+      "mention_count": 1
+    },
+    {
+      "name": "Brongersma",
+      "note": "PvdA-senator die openlijk pedoseksualiteit verdedigde",
+      "start_seconds": 2503,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "politicus die eerder een column schreef over pedoseksualiteit",
+      "start_seconds": 2511,
+      "mention_count": 3
+    },
+    {
+      "name": "Robespierre",
+      "note": "Franse Revolutie-leider",
+      "start_seconds": 2566,
+      "mention_count": 1
+    },
+    {
+      "name": "McCarthy",
+      "note": "Amerikaanse senator tijdens het McCarthyisme",
+      "start_seconds": 2581,
+      "mention_count": 1
+    },
+    {
+      "name": "Dominique Strauss-Kahn",
+      "note": "voormalig IMF-directeur; beschuldigd van aanranding in New York",
+      "start_seconds": 2718,
+      "mention_count": 3
+    },
+    {
+      "name": "Anton de Wit",
+      "note": "theoloog; uitspraak over theologie in de beste families",
+      "start_seconds": 2675,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Sanders",
+      "note": "Nederlandse gelovige publicist",
+      "start_seconds": 2645,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "paus sinds 2013, besproken als controversieel en toegewijd",
+      "start_seconds": 3776,
+      "mention_count": 5
     }
   ],
   "books": [
     {
       "title": "Tijdgeest",
       "author": "Rik Torfs",
-      "note": "nieuw boek over de grote thema's van deze tijd",
-      "start_seconds": 162,
+      "note": "nieuw boek over de grote thema's van deze tijd, waaronder geloof",
+      "start_seconds": 191,
       "volume_id": "CEawzwEACAAJ",
       "canonical_title": "Tijdgeest. Een perspectief op mens en tijd",
       "canonical_author": "Rik Torfs",
@@ -199,134 +230,158 @@
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 19:21",
+      "note": "Jezus' gebod om alles te verkopen en aan de armen te geven, aangehaald door Stefan Paas",
+      "start_seconds": 2001
+    }
+  ],
   "places": [
+    "Leuven",
+    "Antwerpen",
     "Vlaanderen",
     "Nederland",
-    "Antwerpen",
-    "Leuven",
+    "België",
     "Frankrijk",
-    "Duitsland",
-    "Limburg",
-    "Victoriaans Engeland"
+    "Rome",
+    "New York",
+    "Kampen",
+    "Amsterdam"
   ],
-  "summary_tldr": "Rik Torfs bespreekt zijn boek 'Tijdgeest' en betoogt dat elke tijd uniek en reactionair is, en dat de onvolmaakte mens niet wezenlijk verandert. Samen met Stefan Paas verkennen ze secularisatie, ondiep geloof en ongeloof, taboes en de polarisatie van het publieke debat.",
+  "summary_tldr": "Rik Torfs bespreekt zijn boek 'Tijdgeest' en probeert de huidige tijd te analyseren via taboes, reactionaire bewegingen en de spanning tussen optimisme en pessimisme. Het gesprek gaat over de afbrokkeling van het geloof, het ondiepe ongeloof en de plaats van humor en ironie. Ook komen slachtofferschap, recht en moraal aan bod.",
   "summary_points": [
-    "De tijdgeest is lastig te doorgronden als je er zelf in leeft",
-    "Torfs is een optimist uit vertrouwen in de onvolmaakte mens, niet uit plicht",
-    "De Tweede Wereldoorlog is emotioneel minder voorbij dan vroeger",
-    "Chronocentrisme: iedere tijd denkt op een scharniermoment te leven",
-    "Vroeger ondiep geloof is nu ondiep ongeloof; de kerk zette het diepere denken stil",
-    "Samenlevingen met weinig dynamiek en verbeeldingskracht hebben moeite met geloof",
-    "Elke tijd is reactionair; een strengere moraal keert terug in nieuwe vorm",
-    "Taboes verraden de tijdgeest, zoals het snelle verschuiven van opvattingen over pedoseksualiteit",
-    "Openheid en gesprek met iedereen zijn het beste wapen tegen totalitair denken"
+    "Torfs' boek 'Tijdgeest' analyseert de grote thema's van deze tijd, zoals polarisatie, somberheid en het verlies van houvast.",
+    "Torfs pleit voor een gematigd, plausibel optimisme gebaseerd op vertrouwen in de onvolmaakte mens, en wijst doemdenken af.",
+    "De oorlog lijkt emotioneel minder voorbij dan vroeger, maar gruwelijkheden raken ook gebanaliseerd door constante beschikbaarheid.",
+    "Volgens Torfs begon de ontkerkelijking al met de modernismeveroordeling in 1907 en het stilzetten van het theologisch denken.",
+    "Geloof vraagt plausibiliteit en dynamiek; Torfs en Paas bespreken of levendige samenlevingen eerder religieus zijn.",
+    "Taboes en reactionaire momenten maken de tijdgeest zichtbaar, zoals de verschuivende opvattingen over pedoseksualiteit in Frankrijk en Nederland.",
+    "Slachtofferschap kan volgens Torfs gemanipuleerd worden als machtsinstrument, en het vermoeden van onschuld moet ook voor de 'slechte mens' gelden.",
+    "Humor en ironie zien beide gasten als geestesverruimende middelen en als kanarie in de kolenmijn voor de samenleving.",
+    "De tijdgeest verschuift en moet met mildheid en menselijkheid bekeken worden, zonder de ernst van onrecht te verliezen."
   ],
   "chapters": [
     {
-      "start_seconds": 41,
-      "title": "Introductie en het boek Tijdgeest",
-      "summary": "David introduceert Torfs en zijn nieuwe boek over de tijdgeest, na drie jaar van pandemie, oorlog en polarisatie."
+      "start_seconds": 0,
+      "title": "Welkom en opening",
+      "summary": "David Boogerd verwelkomt Rik Torfs terug en introduceert zijn boek Tijdgeest. Het gesprek begint met de vraag hoe de recente jaren van pandemie, oorlog en polarisatie doorwerken."
     },
     {
-      "start_seconds": 242,
-      "title": "Optimisme en de oorlog die minder voorbij is",
-      "summary": "Torfs legt uit waarom hij optimist is en waarom de Tweede Wereldoorlog emotioneel dichterbij is gekomen."
+      "start_seconds": 180,
+      "title": "Tijdgeest, optimisme en het boek",
+      "summary": "Torfs legt uit waarom hij het boek schreef en waarom het lastig is de eigen tijd te analyseren. Hij pleit voor een optimisme gebaseerd op vertrouwen in de onvolmaakte mens."
     },
     {
-      "start_seconds": 580,
-      "title": "Openheid, eigenwijsheid en verzetshelden",
-      "summary": "Gesprek over omgaan met onzin en complotdenkers en over de vaak onaangename aard van helden."
+      "start_seconds": 420,
+      "title": "Oorlog en herinnering",
+      "summary": "Het gesprek gaat over hoe de Tweede Wereldoorlog en de Holocaust in het collectieve geheugen zijn veranderd en waarom de oorlog emotioneel nog niet voorbij is."
     },
     {
-      "start_seconds": 935,
-      "title": "Unieke tijden en secularisatie",
-      "summary": "Is onze tijd uniek? Torfs ziet ondiep ongeloof als opvolger van ondiep geloof en wijst op Pius X en het stilgezette denken in de kerk."
+      "start_seconds": 960,
+      "title": "Ontkerkelijking en het ondiepe ongeloof",
+      "summary": "Torfs en Paas bespreken de secularisatie, het modernisme en de vraag waarom sommige mensen wel willen geloven maar het niet kunnen."
     },
     {
-      "start_seconds": 1380,
-      "title": "Dynamiek, verbeeldingskracht en geloof",
-      "summary": "Torfs' hypothese dat hoopvolle en dynamische samenlevingen eerder religieus zijn dan sombere."
+      "start_seconds": 1620,
+      "title": "Reactionaire tijd en veranderende moraal",
+      "summary": "De gasten bespreken hoe elke tijd reageert op de vorige en hoe de moraal van de jaren zestig weer verschuift naar meer regels en veiligheid."
     },
     {
-      "start_seconds": 1626,
-      "title": "Reactionaire momenten en de onvolmaakte mens",
-      "summary": "Elke tijd reageert op de vorige; de moraal wordt weer strenger. Torfs verdedigt de onvolmaakte mens tegenover vooruitgangsoptimisme."
+      "start_seconds": 2160,
+      "title": "Taboes en de Franse petitie",
+      "summary": "Taboes worden gebruikt om de tijdgeest te herkennen. Het gesprek behandelt de Franse petitie uit 1977 over pedoseksualiteit en hoe opvattingen kunnen omslaan."
     },
     {
-      "start_seconds": 2190,
-      "title": "Taboes en de tijdgeest",
-      "summary": "Taboes als graadmeter van de tijd, met voorbeelden over mentaal welzijn en de Franse petitie uit 1977."
+      "start_seconds": 2700,
+      "title": "Slachtofferschap, recht en moraal",
+      "summary": "Torfs waarschuwt voor het instrumentaliseren van slachtofferschap en pleit voor het vermoeden van onschuld. Hij onderscheidt recht van moraal."
+    },
+    {
+      "start_seconds": 3300,
+      "title": "Geest, humor en mildheid",
+      "summary": "Het slot gaat over het verlies van de geest in de moderne tijd, het belang van humor en ironie en de rol van mildheid, ook richting paus Franciscus."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 396,
-      "speaker": "Rik Torfs",
+      "start_seconds": 395,
+      "speaker": "Stefan Paas",
       "text": "De oorlog is vandaag minder voorbij dan vroeger.",
-      "note": "Opvallende zin uit het boek over de Holocaust als open wond."
+      "note": "Een treffende zin uit Torfs' boek die het gesprek over herinnering en emotie opent."
     },
     {
-      "start_seconds": 1257,
+      "start_seconds": 298,
       "speaker": "Rik Torfs",
-      "text": "Waarom verdwijnt het geloof? Omdat degenen die het moeten verkondigen er zelf niet meer echt in geloven.",
-      "note": "Scherpe stelling over de kerk."
+      "text": "Ik ben eigenlijk een optimist van natuur.",
+      "note": "Torfs beschrijft zichzelf als optimist, maar bekritiseert optimisme als morele plicht."
     },
     {
-      "start_seconds": 1090,
+      "start_seconds": 2068,
       "speaker": "Rik Torfs",
-      "text": "Vroeger was het ondiep geloof, nu is het ondiep ongeloof.",
-      "note": "Relativeert de grote omwenteling in religiositeit."
+      "text": "Het is geen 5 voor 12, maar 5 na 12.",
+      "note": "Een scherpe metafoor die de balans tussen doemdenken en urgentie samenvat."
     },
     {
-      "start_seconds": 2064,
+      "start_seconds": 2827,
+      "speaker": "Stefan Paas",
+      "text": "Slachtofferschap wordt macht.",
+      "note": "Een korte, pakkende samenvatting van Torfs' kritiek op het instrumentaliseren van slachtofferschap."
+    },
+    {
+      "start_seconds": 3225,
       "speaker": "Rik Torfs",
-      "text": "Je kunt je schuldig voelen, maar je kunt het ook vertalen in dankbaarheid.",
-      "note": "Mild antwoord op Paas' schuldgevoel."
+      "text": "Je hebt een arts voor je hart, een psycholoog voor je ziel, een binnenhuisarchitect om je kamer in orde te brengen.",
+      "note": "Een beeldende kritiek op een leven dat wetenschappelijk opgedeeld is en het bezielde verband mist."
     },
     {
-      "start_seconds": 2436,
-      "speaker": "David Boogerd",
-      "text": "In 1977 ondertekenden prominente intellectuelen een petitie om seks met minderjarigen te decriminaliseren.",
-      "note": "Schokkend voorbeeld van verschuivende taboes."
+      "start_seconds": 3530,
+      "speaker": "Stefan Paas",
+      "text": "Ironie is een kanarie in de kolenmijn.",
+      "note": "Paas ziet afwezigheid van ironie als signaal van diepere maatschappelijke problemen."
     }
   ],
   "keywords": [
     "tijdgeest",
     "secularisatie",
-    "taboe",
+    "ongeloof",
+    "taboes",
+    "slachtofferschap",
+    "ironie",
     "optimisme",
-    "chronocentrisme",
     "modernisme",
-    "Pius X",
-    "polarisatie",
-    "woke",
-    "ondiep ongeloof",
-    "onvolmaakte mens"
+    "verzet",
+    "moraal",
+    "recht",
+    "humor"
   ],
   "quotes": [
-    "Wie erin slaagt de tijdgeest te zien en hem tegelijk even weg te denken, komt dichter bij de essentie van ons bestaan."
+    "Wie erin slaagt de tijdgeest te zien en hem tegelijk even weg te denken, komt dichter bij de essentie van ons bestaan.",
+    "Hoe kan je onze tijd beter begrijpen? Door de tijdgeest te doorgronden.",
+    "Rik Torfs, een van de beste, grappigste en meest scherpzinnige sprekers die we ooit in de Ongelooflijke hebben mogen verwelkomen."
   ],
   "similar": [
     {
-      "n": 9,
-      "reason": "Eerdere aflevering met Rik Torfs over kerk, cultuur en mooie uitspraken"
-    },
-    {
       "n": 31,
-      "reason": "Rik Torfs met Stefan Paas over kerk, beeldenstorm en tijdgeest"
+      "reason": "Zelfde gast Rik Torfs over de huidige cultuur en de kerk"
     },
     {
-      "n": 132,
-      "reason": "Erasmus-aflevering over denkers, kerk en filosofie, direct na deze aflevering"
+      "n": 9,
+      "reason": "Rik Torfs over de kerk, geloof en cultuur in het Westen"
     },
     {
-      "n": 218,
-      "reason": "Stefan Paas over mythes van secularisatie en de tijdgeest"
+      "n": 263,
+      "reason": "Over culturele verdwaasdheid en afbrokkelende verhalen, vergelijkbaar met de tijdgeestanalyse"
     },
     {
-      "n": 62,
-      "reason": "Het seculiere experiment van het Westen: secularisatie en samenleving"
+      "n": 111,
+      "reason": "Seculiere donderpreek over het individu en de zingevingscrisis van de tijd"
+    },
+    {
+      "n": 13,
+      "reason": "Samenleving, prestatiemaatschappij en zingeving, met Kerk & secularisatie als thema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

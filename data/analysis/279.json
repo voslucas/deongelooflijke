@@ -1,306 +1,378 @@
 {
   "episode": 279,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 119900,
+    "segments": 757,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29479,
-    "output_tokens": 2639,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 58748,
+    "output_tokens": 3881,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
-    "Samenleving & migratie",
     "Geschiedenis",
+    "Samenleving & migratie",
     "Politiek"
   ],
   "guests": [
-    "Beatrice de Graaf"
+    "Beatrice de Graaf",
+    "Stefan Paas"
   ],
   "people": [
     {
-      "name": "Wierd Duk",
-      "note": "Telegraaf-columnist die zich cultuurchristen noemt en pleit voor een assertiever christendom",
-      "start_seconds": 1346,
-      "wiki_checked": true,
-      "wiki_pageid": 4442167,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Wierd_Duk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WierdDuk2026.jpg/250px-WierdDuk2026.jpg"
+      "name": "Wierd Duck",
+      "note": "Telegraaf-columnist en cultuurchristen die pleit voor meer strijdbaarheid van het christendom",
+      "start_seconds": 2,
+      "mention_count": 10
     },
     {
       "name": "Gert-Jan Segers",
-      "note": "ChristenUnie-politicus, vaste gast bij Dit is de Week, kritisch op islamitische gebedsoproep",
-      "start_seconds": 1455,
-      "wiki_checked": true,
-      "wiki_pageid": 1687412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gert-Jan_Segers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gert-Jan_Segers_2018.jpg/250px-Gert-Jan_Segers_2018.jpg"
-    },
-    {
-      "name": "Angela Merkel",
-      "note": "Duitse oud-bondskanselier; reageerde in 2015 op protest tegen vluchtelingen met verwijzing naar Hemelvaart",
-      "start_seconds": 631,
-      "wiki_checked": true,
-      "wiki_pageid": 106173,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Angela_Merkel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Angela_Merkel_2023_%28cropped%29.jpg/250px-Angela_Merkel_2023_%28cropped%29.jpg"
-    },
-    {
-      "name": "Andreas Reckwitz",
-      "note": "Duitse socioloog, auteur van boek over verlies en de 'verliesparadox'",
-      "start_seconds": 678,
-      "wiki_checked": true,
-      "wiki_pageid": 63365148,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Andreas_Reckwitz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Reckwitz_Andreas.jpg/250px-Reckwitz_Andreas.jpg"
-    },
-    {
-      "name": "Augustinus",
-      "note": "Kerkvader; beschrijft de vrees om te verliezen en verlangen naar God als hoogste goed",
-      "start_seconds": 1127,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
-    },
-    {
-      "name": "Reinhart Koselleck",
-      "note": "Duitse historicus; Erfahrungshintergrund en Erwartungshorizont",
-      "start_seconds": 1265,
-      "wiki_checked": true
-    },
-    {
-      "name": "Donald Trump",
-      "note": "Amerikaanse president; zijn uitspraak over haat tegen tegenstanders",
-      "start_seconds": 106,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Pete Hegseth",
-      "note": "Amerikaanse minister van oorlog die het Onze Vader bidt bij militaire beelden",
-      "start_seconds": 1393,
-      "wiki_checked": true,
-      "wiki_pageid": 5908720,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pete_Hegseth",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/29th_United_States_Secretary_of_Defense_Pete_Hegseth_Official_Portrait_2025.jpg/250px-29th_United_States_Secretary_of_Defense_Pete_Hegseth_Official_Portrait_2025.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president; beroept zich op christelijke waarden, juichte om Amerikaanse strategie",
-      "start_seconds": 474,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Steve Bannon",
-      "note": "Voormalig adviseur van Trump; noemde Rusland belangrijkste bondgenoot vanwege christelijke waarden",
-      "start_seconds": 2005,
-      "wiki_checked": true,
-      "wiki_pageid": 4739148,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Steve_Bannon",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg/250px-Steve_Bannon_at_2017_CPAC_by_Michael_Vadon.jpg"
-    },
-    {
-      "name": "Nigel Farage",
-      "note": "Britse populistische leider",
-      "start_seconds": 400,
-      "wiki_checked": true,
-      "wiki_pageid": 1852141,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nigel_Farage",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Official_portrait_of_Nigel_Farage_MP_crop_2.jpg/250px-Official_portrait_of_Nigel_Farage_MP_crop_2.jpg"
+      "note": "ChristenUnie-politicus, vaste gast bij EO-programma Dit is de Week, bekritiseerde de islamitische gebedsoproep",
+      "start_seconds": 1470,
+      "mention_count": 2
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider",
-      "start_seconds": 91,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "PVV-leider, in fragment genoemd",
+      "start_seconds": 142,
+      "mention_count": 1
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president, besproken om zijn retoriek en veiligheidsstrategie",
+      "start_seconds": 142,
+      "mention_count": 4
+    },
+    {
+      "name": "Pete Hegseth",
+      "note": "Amerikaanse oorlogsminister, in fragment met Bijbelcitaat over militaire beelden",
+      "start_seconds": 142,
+      "mention_count": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "note": "Duitse bondskanselier, reactie op protesten rond vluchtelingen in 2015",
+      "start_seconds": 620,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas Rickwitz",
+      "note": "Duitse socioloog, auteur van boek over verliesparadox",
+      "start_seconds": 720,
+      "mention_count": 6
+    },
+    {
+      "name": "Augustinus",
+      "note": "Christelijke kerkvader, over verlangen en vrees voor verlies",
+      "start_seconds": 1100,
+      "mention_count": 4
+    },
+    {
+      "name": "Reinhart Koselleck",
+      "note": "Duitse historicus, begrippen Erfahrungsraum en Erwartungshorizont",
+      "start_seconds": 1260,
+      "mention_count": 1
+    },
+    {
+      "name": "Steve Bannon",
+      "note": "Voormalig adviseur van Trump, uitspraak over Rusland als bondgenoot",
+      "start_seconds": 1990,
+      "mention_count": 1
+    },
+    {
+      "name": "Vladimir Poetin",
+      "note": "Russisch president, gebruikt christelijke retoriek",
+      "start_seconds": 478,
+      "mention_count": 6
+    },
+    {
+      "name": "Nigel Farage",
+      "note": "Brits populistisch politicus",
+      "start_seconds": 400,
+      "mention_count": 1
+    },
+    {
+      "name": "Karl Barth",
+      "note": "Theoloog, leider Bekennende Kirche",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Niemöller",
+      "note": "Duitse predikant, Bekennende Kirche",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Dietrich Bonhoeffer",
+      "note": "Duitse theoloog, verzet tegen nazi-gelijkschakeling van de kerk",
+      "start_seconds": 3840,
+      "mention_count": 1
+    },
+    {
+      "name": "Ludwig Müller",
+      "note": "Leider van de Duitse christenen, door nazi's gelanceerd als bisschop",
+      "start_seconds": 3720,
+      "mention_count": 1
+    },
+    {
+      "name": "Konstantijn de Grote",
+      "note": "Romeinse keizer die het Concilie van Nicea bijeenriep",
+      "start_seconds": 2820,
+      "mention_count": 3
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof, zag religie als onderdrukkend",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof, zag christendom als zwak",
+      "start_seconds": 2640,
+      "mention_count": 2
+    },
+    {
+      "name": "Jonathan Edwards",
+      "note": "Amerikaans theoloog, concept universal benevolence",
+      "start_seconds": 4420,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator, definitie van geloof",
+      "start_seconds": 4460,
+      "mention_count": 1
+    },
+    {
+      "name": "Mirjam Bikker",
+      "note": "ChristenUnie-politica",
+      "start_seconds": 3250,
+      "mention_count": 1
+    },
+    {
+      "name": "Taras Djatlik",
+      "note": "Oekraïense predikant",
+      "start_seconds": 3290,
+      "mention_count": 2
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president",
+      "start_seconds": 3300,
+      "mention_count": 1
     },
     {
       "name": "Annabel Nanninga",
-      "note": "Voormalig GeenStijl-columnist die nu opkomt voor cultuurchristendom",
-      "start_seconds": 1938,
-      "wiki_checked": true,
-      "wiki_pageid": 4904522,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Annabel_Nanninga",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Annabel_Nanninga_2021_%28cropped%29.png/250px-Annabel_Nanninga_2021_%28cropped%29.png"
+      "note": "Columniste, voormalig anti-christelijk schrijver",
+      "start_seconds": 1930,
+      "mention_count": 1
+    },
+    {
+      "name": "Simone Weil",
+      "note": "Filosofe, genoemd als vrouwelijke denker",
+      "start_seconds": 2700,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Filosoof, bron van de vier kardinale deugden",
+      "start_seconds": 3340,
+      "mention_count": 1
+    },
+    {
+      "name": "Reinier Ploeg",
+      "note": "Auteur/ collega van De Graaf over deugden (Rick Pils genoemd)",
+      "start_seconds": 3380,
+      "mention_count": 2
+    },
+    {
+      "name": "Rembrandt van Rijn",
+      "note": "Schilder van De Nachtwacht",
+      "start_seconds": 3150,
+      "mention_count": 1
+    },
+    {
+      "name": "Freud",
+      "note": "Psycholoog, schreef over verlies",
+      "start_seconds": 910,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Verlust (boek over verlies in de late moderne tijd)",
+      "title": "Verlustparadox",
       "author": "Andreas Reckwitz",
-      "note": "Verliesparadox; gebrek aan rituelen om met verlies om te gaan",
-      "start_seconds": 678,
-      "volume_id": "ug660QEACAAJ",
-      "canonical_title": "Verlies: Een kernprobleem van de moderniteit",
-      "canonical_author": "Andreas Reckwitz",
-      "isbn13": "9789024467167",
-      "isbn10": "9024467160",
-      "thumbnail": ""
+      "note": "Boek over verlies als kenmerk van de moderne tijd",
+      "start_seconds": 720
     },
     {
-      "title": "Belijdenissen",
+      "title": "Confessiones",
       "author": "Augustinus",
-      "note": "Verdriet na dood van zijn moeder en zoon; vrees om te verliezen",
-      "start_seconds": 1145,
-      "volume_id": "AZBJGQAACAAJ",
-      "canonical_title": "Belijdenissen",
-      "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026321023",
-      "isbn10": "9026321023",
-      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "note": "Over verlangen en vrees voor verlies",
+      "start_seconds": 1100,
+      "volume_id": "7CZ_0QEACAAJ",
+      "canonical_title": "Confessiones",
+      "canonical_author": "Aurelius Augustinus; Arcangelo (Della Presentazione)",
+      "isbn13": "9781024689181",
+      "isbn10": "1024689182",
+      "thumbnail": "http://books.google.com/books/content?id=7CZ_0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
-      "ref": "Jeremia 7:11",
-      "note": "Jezus noemt de tempel een rovershol bij het schoonvegen van de tempel",
-      "start_seconds": 1601
+      "ref": "Jesaja 9",
+      "note": "Afsluitende tekst over vrede en een kind dat geboren is; laarzen en mantels van bloed",
+      "start_seconds": 4990
+    },
+    {
+      "ref": "Jeremia 7",
+      "note": "Jezus citeert Jeremia bij het uitdrijven van handelaren uit de tempel",
+      "start_seconds": 1580
     },
     {
       "ref": "Mattheus 5",
-      "note": "Bergrede: vijanden liefhebben en andere wang toekeren",
-      "start_seconds": 1535
+      "note": "Bergrede, andere wang toekeren en vijanden liefhebben",
+      "start_seconds": 1510
     }
   ],
   "places": [
     "Gouda",
-    "Europa",
-    "Amerika",
+    "Nicea",
+    "Utrecht",
+    "Iznik",
+    "Putten",
+    "Oekraïne",
     "Rusland",
-    "Indonesië",
-    "Putten"
+    "Gaza"
   ],
-  "summary_tldr": "In een live-opname in Gouda bespreken Beatrice de Graaf en Stefan Paas of de christelijke cultuur bedreigd wordt en of christenen daarom feller moeten optreden. Ze duiden het gevoel van bedreiging als verlieservaring en bekritiseren het cultuurchristendom als politiek symbool, met verwijzing naar Jezus en Augustinus.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken of het christelijke cultuur moet verdedigen en hoe dat wijs en christelijk kan. Zij zien vooral een gevoel van verlies als drijfveer en pleiten voor deugdzaamheid, lokale gemeenschapszin en een geloof dat niet gepolitiseerd wordt. Ze wijzen op historische voorbeelden als Nicea en de Barmer Verklaring om te laten zien hoe strijdbaarheid kan ontsporen.",
   "summary_points": [
-    "Het gevoel van bedreiging komt voort uit een breed gevoel van verlies, aldus Reckwitz.",
-    "Mensen reageren sterker op dreigend verlies dan op mogelijke winst (loss aversion), wat politiek wordt gebruikt.",
-    "Moderne samenlevingen missen rituelen om met verlies om te gaan; woede en ressentiment vullen de leegte.",
-    "Augustinus: de vrees om te verliezen hoort bij de mens, geborgenheid vindt men alleen in God.",
-    "Het christendom verliest vooral door secularisatie terrein, niet door de islam.",
-    "Het nieuwe cultuurchristendom blijkt vaak anti-migratie en anti-islam, en spant het geloof voor een karretje.",
-    "Jezus' tempelreiniging gaat over commercialisering, niet over strijd tegen vreemdelingen; de Bergrede hoort erbij.",
-    "Christelijke retoriek is vaak abstract en gaat zelden over menselijke waardigheid.",
-    "Zowel links (zelfhaat, terugtrekking) als rechts verabsoluteert; cynisme voedt Poetin."
+    "Gevoel van verlies en angst voor het verliezen als drijvende kracht achter oproepen tot meer christelijke weerbaarheid",
+    "Cultuurchristendom wordt door sommigen gebruikt als anti-islam- of anti-migratiestandpunt zonder oog voor mensen",
+    "Kritiek op de Jezus met de zweep versus de Jezus van de bergrede en de andere wang",
+    "Historische lessen uit Nicea (318 bisschoppen, geloofsbelijdenis zonder politiek) en de Barmer Verklaring",
+    "Het 'nazi-christendom' als waarschuwing voor politisering en ontjoodsing van het geloof",
+    "Weerbaarheid vroeger: lokaal, deugdzaam, met de brandemmer en gildes; nu vooral individueel en materieel",
+    "Advies: wees niet dramatisch, zoek positieve daden en wees eigenzinnig ten opzichte van politieke kampen"
   ],
   "chapters": [
     {
-      "start_seconds": 46,
-      "title": "Opening en de dreigende cultuur",
-      "summary": "Inleiding met fragmenten en de vraag of onze christelijke cultuur bedreigd wordt."
+      "start_seconds": 0,
+      "title": "Inleiding en het gevoel van bedreiging",
+      "summary": "Boogerd introduceert het thema en de vraag of de christelijke cultuur bedreigd wordt, met reacties van beide gasten."
     },
     {
-      "start_seconds": 278,
-      "title": "Waar komt het gevoel van bedreiging vandaan?",
-      "summary": "Verschillende zorgen links en rechts, en de nieuwe Amerikaanse veiligheidsstrategie over Europa."
+      "start_seconds": 720,
+      "title": "Verliesparadox en Reckwitz",
+      "summary": "De Graaf bespreekt het boek van Reckwitz over verlies en de rol van rituelen en emoties."
     },
     {
-      "start_seconds": 678,
-      "title": "Verlies, loss aversion en Augustinus",
-      "summary": "Reckwitz' verliesparadox, een experiment met loss aversion en Augustinus over de vrees om te verliezen."
+      "start_seconds": 1510,
+      "title": "Augustinus en verlangen",
+      "summary": "Paas duidt de vrees om te verliezen via Augustinus en de christelijke visie op liefde zonder angst."
     },
     {
-      "start_seconds": 1346,
-      "title": "Wierd Duk en het cultuurchristendom",
-      "summary": "Discussie over Duks uitspraken, Jezus met de zweep, en de kerkklokken versus gebedsoproep."
+      "start_seconds": 1690,
+      "title": "Wierd Duck en de vraag naar Jezus",
+      "summary": "Discussie over cultuurchristendom, de tempelreiniging en wat 'strijdbaar' christendom betekent."
     },
     {
-      "start_seconds": 1830,
-      "title": "Oprechtheid en abstracte waarden",
-      "summary": "De Graaf over belachelijk gemaakt worden als christen en het gebrek aan aandacht voor menselijke waardigheid."
+      "start_seconds": 2640,
+      "title": "Links, rechts en zelfhaat",
+      "summary": "Analyse van de spanning tussen links en rechts en de rol van politiek in het geloof."
     },
     {
-      "start_seconds": 2200,
-      "title": "Links, rechts en het christendom",
-      "summary": "Over het linkse christendom, emancipatie, zelfhaat en cynisme als gevaar."
+      "start_seconds": 2820,
+      "title": "Nicea en de Barmer Verklaring",
+      "summary": "Historische lessen over geloofsbelijdenis, politieke macht en verzet tegen het nazi-christendom."
+    },
+    {
+      "start_seconds": 3150,
+      "title": "Weerbaarheid in de vroegmoderne tijd",
+      "summary": "De Graaf beschrijft gildes, deugden en de lederen brandemmer als praktische weerbaarheid."
+    },
+    {
+      "start_seconds": 4300,
+      "title": "Lessen en slotbeeld uit Jesaja",
+      "summary": "De gasten trekken lessen voor vandaag en eindigen met Jesaja 9 over vrede en het echte christendom."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 631,
+      "start_seconds": 2520,
       "speaker": "Beatrice de Graaf",
-      "text": "Merkel: als u echt meent dat onze cultuur bedreigd wordt, ga dan zondag naar de kerk.",
-      "note": "Scherpe tegenreactie op cultuurchristendom."
+      "text": "Er is maar 1 drama in de Bijbel en dat is het drama van Christus aan het kruis.",
+      "note": "Scherpe relativering van het angstdrama rond christelijke cultuur."
     },
     {
-      "start_seconds": 1127,
+      "start_seconds": 1440,
       "speaker": "Stefan Paas",
-      "text": "We zijn verlangende wezens; zodra we iets hebben bereikt, overvalt ons de vrees voor verlies.",
-      "note": "Augustinus als verklaring voor verliesangst."
+      "text": "Ik heb iets met die Jezus die voor het geloof opkomt, maar dan opkomen tegen een soort commercialisering van dat geloof.",
+      "note": "Herinterpretatie van de tempelreiniging als anti-commercialisering."
     },
     {
-      "start_seconds": 1630,
-      "speaker": "Stefan Paas",
-      "text": "Dat is niet de schuld van de moslims, toch?",
-      "note": "Nuchtere nuance bij secularisatie."
-    },
-    {
-      "start_seconds": 1695,
-      "speaker": "Stefan Paas",
-      "text": "Blijf alsjeblieft van het christelijk geloof af en span dat niet voor deze doeleinden.",
-      "note": "Kritiek op instrumentalisering van het geloof."
-    },
-    {
-      "start_seconds": 2216,
+      "start_seconds": 3150,
       "speaker": "Beatrice de Graaf",
-      "text": "Als je zegt dat jouw volk of ras beter is, dan zal dat verzengen in het vuur.",
-      "note": "Felle theologische tegenreactie."
+      "text": "Weerbaarheid in de vroegmoderne tijd was iets materieels, maar ook iets immaterieels.",
+      "note": "Historisch perspectief dat weerbaarheid anders definieert dan nu."
+    },
+    {
+      "start_seconds": 3900,
+      "speaker": "Stefan Paas",
+      "text": "Het christendom werd gebruikt om Jodendom en communisten te bestrijden, zonder het Oude Testament en de bergrede; een christendom met tanden en blond haar.",
+      "note": "Waarschuwing voor het gepolitiseerde 'positieve christendom'."
+    },
+    {
+      "start_seconds": 4990,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het echte christendom zijn niet de laarzen.",
+      "note": "Slotbeeld dat macht en oorlog tegenover het kindje in de kribbe zet."
     }
   ],
   "keywords": [
     "cultuurchristendom",
-    "verlies",
-    "Reckwitz",
-    "Augustinus",
-    "Wierd Duk",
-    "secularisatie",
-    "Bergrede",
-    "loss aversion",
-    "ressentiment",
     "weerbaarheid",
-    "identiteit"
+    "verliesparadox",
+    "secularisatie",
+    "Augustinus",
+    "Nicea",
+    "Barmer Verklaring",
+    "deugden",
+    "positief christendom",
+    "angst",
+    "Bergrede",
+    "Jesaja 9"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 192,
-      "reason": "Cultuurchristendom en Europa; Nederland als gek land, met politiek en migratie"
+      "n": 269,
+      "reason": "Kerk en 'eigen volk eerst', politieke mythes en de rol van de kerk"
     },
     {
-      "n": 7,
-      "reason": "Cultuurchristendom: waarom populaire term en wat is het precies"
+      "n": 321,
+      "reason": "Politieke verschuiving, extreemrechts en de kerk in het land van Luther"
     },
     {
-      "n": 218,
-      "reason": "Kees van Ekris over secularisatiemythes, kerk en politiek"
+      "n": 300,
+      "reason": "Historische lessen over afglijden naar fascisme en kerkelijke weerstand"
     },
     {
-      "n": 226,
-      "reason": "Cultuurchristendom, Trump en Wilders; vooruitblik met politieke duiding"
+      "n": 232,
+      "reason": "Extreemrechts en existentiële crisis van de democratie, met kerk en geschiedenis"
     },
     {
-      "n": 200,
-      "reason": "Augustinus-show met Beatrice de Graaf en Stefan Paas"
+      "n": 138,
+      "reason": "Rol van de kerk in de Tweede Wereldoorlog en historische verzetsvragen"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

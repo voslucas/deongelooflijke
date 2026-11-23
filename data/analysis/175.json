@@ -1,18 +1,23 @@
 {
   "episode": 175,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120461,
+    "segments": 1461,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31451,
-    "output_tokens": 2840,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 62540,
+    "output_tokens": 7769,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Kerk & secularisatie",
     "Politiek",
     "Amerika & Trump",
-    "Filosofie & ethiek"
+    "God & geloof"
   ],
   "guests": [
     "Anton de Wit"
@@ -20,143 +25,145 @@
   "people": [
     {
       "name": "Paus Franciscus",
-      "note": "huidige paus, startte het wereldwijde synodale proces",
-      "start_seconds": 183,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "note": "Paus; leidt het synodale proces in de Rooms-Katholieke Kerk",
+      "start_seconds": 170,
+      "mention_count": 4
     },
     {
       "name": "Donald Trump",
-      "note": "mogelijk opnieuw presidentskandidaat in 2024",
-      "start_seconds": 777,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, oorlog in Oekraïne",
-      "start_seconds": 790,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Joe Biden",
-      "note": "Amerikaanse president en katholiek, kandidaat voor herverkiezing",
-      "start_seconds": 657,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
-    },
-    {
-      "name": "John F. Kennedy",
-      "note": "eerdere katholieke Amerikaanse president",
-      "start_seconds": 843,
-      "wiki_checked": true,
-      "wiki_pageid": 3817,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_F._Kennedy",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/250px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+      "note": "Amerikaanse president; kandidaat voor de verkiezingen van 2024",
+      "start_seconds": 789,
+      "mention_count": 8
     },
     {
       "name": "Geert Wilders",
-      "note": "PVV-leider, winnaar van de Nederlandse verkiezingen van november",
-      "start_seconds": 988,
-      "wiki_checked": true,
-      "wiki_pageid": 84197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Wilders",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg/250px-Cumbre_de_Madrid_8_de_Febrero_-_54314677909.jpg"
+      "note": "Leider van de PVV; grote winnaar van de Nederlandse verkiezingen",
+      "start_seconds": 987,
+      "mention_count": 8
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president die Trump in 2020 versloeg",
+      "start_seconds": 657,
+      "mention_count": 2
+    },
+    {
+      "name": "John F. Kennedy",
+      "note": "Eerste katholieke Amerikaanse president",
+      "start_seconds": 837,
+      "mention_count": 1
     },
     {
       "name": "Ayaan Hirsi Ali",
-      "note": "bekeerde zich tot het christendom",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 7672,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ayaan_Hirsi_Ali",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg/250px-Ayaan_Hirsi_Ali_by_Gage_Skidmore.jpg"
+      "note": "Voormalig atheïst die zich tot het christendom bekeerde",
+      "start_seconds": 3528,
+      "mention_count": 1
     },
     {
-      "name": "C.S. Lewis",
-      "note": "schrijver, besproken in een eerdere aflevering over sprookjes",
-      "start_seconds": 139,
-      "wiki_checked": true,
-      "wiki_pageid": 99453,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/C.S._Lewis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CS_Lewis_photo_on_dust_jacket.jpg/250px-CS_Lewis_photo_on_dust_jacket.jpg"
+      "name": "Frans Timmermans",
+      "note": "Politicus van de PvdA; sprak na de verkiezingen over elkaar vasthouden",
+      "start_seconds": 3395,
+      "mention_count": 2
     },
     {
-      "name": "J.R.R. Tolkien",
-      "note": "schrijver, besproken in een eerdere aflevering over sprookjes",
-      "start_seconds": 139,
-      "wiki_checked": true,
-      "wiki_pageid": 12634,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.R.R._Tolkien",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/250px-J._R._R._Tolkien%2C_ca._1925.jpg"
+      "name": "Pim Fortuyn",
+      "note": "Populistische politicus; opkomst rond 2002 werd door journalistiek gemist",
+      "start_seconds": 2244,
+      "mention_count": 1
     },
     {
-      "name": "Johann Sebastian Bach",
-      "note": "componist, door Anton de Wit overschat gevonden",
-      "start_seconds": 1640,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
-    },
-    {
-      "name": "Frans Bauer",
-      "note": "zanger, door Stefan Paas als voorbeeld van eigen smaak genoemd",
-      "start_seconds": 1648,
-      "wiki_checked": true,
-      "wiki_pageid": 51080,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_Bauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Frans_Bauer_-_Gouden_Pijl_2014.jpg/250px-Frans_Bauer_-_Gouden_Pijl_2014.jpg"
+      "name": "Maurice de Hond",
+      "note": "Peiler die beweert ontwikkelingen eerder te hebben gezien",
+      "start_seconds": 2199,
+      "mention_count": 2
     },
     {
       "name": "George Soros",
-      "note": "genoemd in complotdenken over 'gekochte media'",
-      "start_seconds": 2055,
-      "wiki_checked": true,
-      "wiki_pageid": 264298,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Soros",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/George_Soros_47th_Munich_Security_Conference_2011_crop.jpg/250px-George_Soros_47th_Munich_Security_Conference_2011_crop.jpg"
+      "note": "Financier, in discussie over mainstream media als genoemd geldschieter",
+      "start_seconds": 2052,
+      "mention_count": 1
     },
     {
       "name": "Klaus Schwab",
-      "note": "genoemd in complotdenken over 'gekochte media'",
-      "start_seconds": 2057,
-      "wiki_checked": true,
-      "wiki_pageid": 5498268,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Klaus_Schwab",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Klaus_Schwab_-_World_Economic_Forum_Annual_Meeting_2011.jpg/250px-Klaus_Schwab_-_World_Economic_Forum_Annual_Meeting_2011.jpg"
+      "note": "Oprichter van het World Economic Forum, genoemd in complotdiscussie",
+      "start_seconds": 2052,
+      "mention_count": 1
+    },
+    {
+      "name": "Benedictus XVI",
+      "note": "Voormalige paus, kritisch over islam in interreligieuze dialoog",
+      "start_seconds": 3625,
+      "mention_count": 2
+    },
+    {
+      "name": "Ruud Lubbers",
+      "note": "Voormalig CDA-premier",
+      "start_seconds": 3450,
+      "mention_count": 1
+    },
+    {
+      "name": "Erasmus",
+      "note": "Humanist en katholiek hervormer uit de renaissance",
+      "start_seconds": 2981,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther",
+      "note": "Reformator van de 16e eeuw",
+      "start_seconds": 2961,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Calvijn",
+      "note": "Reformator van de 16e eeuw",
+      "start_seconds": 2961,
+      "mention_count": 1
+    },
+    {
+      "name": "Niccolò Machiavelli",
+      "note": "Denker over macht en politiek",
+      "start_seconds": 2855,
+      "mention_count": 1
+    },
+    {
+      "name": "Frans Bauer",
+      "note": "Zanger; voorbeeld in discussie over smaak en autoriteit",
+      "start_seconds": 1645,
+      "mention_count": 3
+    },
+    {
+      "name": "Johann Sebastian Bach",
+      "note": "Componist; voorbeeld in discussie over culturele smaak",
+      "start_seconds": 1647,
+      "mention_count": 4
+    },
+    {
+      "name": "C.S. Lewis",
+      "note": "Auteur; eerder besproken over de 'grote waarheid' in kerstuitzending 2022",
+      "start_seconds": 134,
+      "mention_count": 1
+    },
+    {
+      "name": "J.R.R. Tolkien",
+      "note": "Auteur; eerder besproken over de 'grote waarheid' in kerstuitzending 2022",
+      "start_seconds": 134,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; advies over werk en liefde, door Stefan Paas aangehaald",
+      "start_seconds": 4021,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Geloof jij het?",
       "author": "Anton de Wit",
-      "note": "over de autoriteitscrisis in kerk en media",
-      "start_seconds": 976,
+      "note": "Nieuw boek over de autoriteitscrisis, waarheid en media",
+      "start_seconds": 1059,
       "volume_id": "kJfMEAAAQBAJ",
-      "canonical_title": "Geloof jij het? Waarachtige journalistiek in tijden van nepnieuws",
+      "canonical_title": "Geloof jij het?",
       "canonical_author": "Anton de Wit",
       "isbn13": "9789043540339",
       "isbn10": "9043540331",
@@ -165,132 +172,135 @@
   ],
   "bible_refs": [],
   "places": [
-    "Vaticaan",
+    "Rome",
+    "Hilversum",
+    "Nijmegen",
+    "Almere",
+    "Deventer",
     "Duitsland",
     "Afrika",
-    "Verenigde Staten",
-    "Nederland",
-    "India",
     "Oekraïne",
-    "Frankrijk",
-    "Italië",
-    "Verenigd Koninkrijk"
+    "Gaza"
   ],
-  "summary_tldr": "David Boogerd, Stefan Paas en Anton de Wit blikken vooruit op 2024, het jaar van de waarheid. Ze bespreken de dreigende kerkscheuring in de Rooms-Katholieke Kerk, de verkiezingen in Nederland, Europa en Amerika, en de autoriteitscrisis uit het boek 'Geloof jij het?'. Anton pleit ervoor om media en kerk als bemiddelaars van waarheid weer meer te vertrouwen.",
+  "summary_tldr": "In de eerste aflevering van 2024 bespreken David Boogerd, Anton de Wit en Stefan Paas wat het jaar gaat brengen, met de synode en mogelijke kerkscheuring in de Katholieke Kerk, de Amerikaanse en Nederlandse verkiezingen, en de rol van de media. Anton de Wit betoogt in zijn boek 'Geloof jij het?' dat er een autoriteitscrisis speelt die samenhangt met een verlies van geloof en het protestantse individualisme.",
   "summary_points": [
-    "2024 is voor de Rooms-Katholieke Kerk een beslissend jaar door het synodale proces, met de slotsessie in oktober.",
-    "De verklaring over het zegenen van relaties van mensen van hetzelfde geslacht is wereldwijd revolutionair, maar in Afrika sterk omstreden.",
-    "Anton vreest een kerkscheuring, zowel progressief (Duitsland) als traditionalistisch (VS, Frankrijk, Italië).",
-    "De kerk is een uniek sociaal en geopolitiek experiment: een waardengemeenschap van zeer verschillende culturen.",
-    "2024 is een groot democratiejaar: Amerikaanse en Europese verkiezingen, en een nieuw Nederlands kabinet met onder meer de PVV.",
-    "Trump kan terugkeren, met zorgen over de oorlog in Oekraïne en de democratie in Amerika.",
-    "Kerk en media delen een laag vertrouwen, terwijl ze over de meest wezenlijke zaken gaan: waarheid en zingeving.",
-    "Anton ziet een autoriteitscrisis, versterkt door internet en populisme, die samenhangt met expressief individualisme.",
-    "Het pleidooi voor 'censuur' betekent dat media feiten selecteren en duiden; kritisch zijn is iets anders dan wantrouwig zijn."
+    "2024 wordt door Anton de Wit gezien als een jaar van de waarheid voor de Katholieke Kerk, met een wereldwijde synode en spanning tussen progressieve en conservatieve stromingen.",
+    "De Vaticaanse verklaring over zegening van homoseksuele relaties laat het verschil zien tussen Europa en Afrika, waar de kerk groeit.",
+    "Het verkiezingsjaar 2024 is het grootste ooit voor de democratie, met Trump, de Europese verkiezingen en de Nederlandse kabinetsformatie.",
+    "Anton de Wit ziet een autoriteitscrisis: mensen vertrouwen instituten als kerk en media steeds minder, terwijl ze wel afhankelijk blijven van deskundigen.",
+    "Stefan Paas stelt dat expressief individualisme leidt tot het idee dat iedereen zelf zijn smaak en waarheid bepaalt.",
+    "Media zijn bemiddelaars die feiten moeten duiden; kritisch zijn is iets anders dan wantrouwig zijn.",
+    "Protestantisme en Verlichting hebben de nadruk gelegd op het individu die direct tot de waarheid komt, wat instituten verzwakt heeft.",
+    "Bubbels zijn vluchtiger dan oude zuilen, en identiteitspolitiek maakt het lastiger om met elkaar uit te komen.",
+    "Het gesprek eindigt met de vraag hoe je in een tumultueus jaar in balans blijft, met een pleidooi voor het doorbreken van polarisatie."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Inleiding en het jaar van de waarheid",
-      "summary": "Introductie van de gast en het thema van 2024 als jaar van de waarheid."
+      "title": "Intro en het jaar van de waarheid",
+      "summary": "Het gesprek opent met de titel 2024 als jaar van de waarheid en de vraag of dat ook voor Anton de Wit geldt."
     },
     {
-      "start_seconds": 165,
-      "title": "De synode en dreigende kerkscheuring",
-      "summary": "Het synodale proces van paus Franciscus, de zegening van homoseksuele relaties en het gevaar van een schisma."
+      "start_seconds": 170,
+      "title": "Synode en de Katholieke Kerk",
+      "summary": "De wereldwijde synode, de Vaticaanse verklaring over zegeningen en de dreiging van een kerkscheuring worden besproken."
     },
     {
-      "start_seconds": 481,
-      "title": "De kerk als wereldkerk en geopolitiek",
-      "summary": "Groei van de kerk in Afrika en Azië en het conflict tussen westerse en andere waarden."
+      "start_seconds": 780,
+      "title": "Verkiezingen en geopolitiek",
+      "summary": "Het gesprek gaat over het nieuwe Nederlandse kabinet, de Amerikaanse verkiezingen met Trump en het belang van democratie wereldwijd."
     },
     {
-      "start_seconds": 725,
-      "title": "Verkiezingen, Trump en democratie",
-      "summary": "Een nieuw Nederlands kabinet, de Amerikaanse verkiezingen en 2024 als groot democratiejaar."
+      "start_seconds": 1001,
+      "title": "Media, vertrouwen en journalistiek",
+      "summary": "Anton de Wit bespreekt de rol van media als bemiddelaar, de vertrouwenscrisis en wat goede journalistiek kenmerkt."
     },
     {
-      "start_seconds": 996,
-      "title": "Media, kerk en vertrouwen",
-      "summary": "Anton legt de verwantschap tussen kerk en media uit als bemiddelaars van waarheid met weinig vertrouwen."
+      "start_seconds": 1422,
+      "title": "Autoriteitscrisis en autonomie",
+      "summary": "De autoriteitscrisis wordt verder uitgediept, met aandacht voor populisme, expressief individualisme en de illusie van autonomie."
     },
     {
-      "start_seconds": 1424,
-      "title": "Autoriteitscrisis en expressief individualisme",
-      "summary": "Over populisme, anti-establishmentpolitiek, de illusie van autonomie en smaak als voorbeeld."
+      "start_seconds": 2808,
+      "title": "Protestantisme, bemiddeling en Reformatie",
+      "summary": "Het gesprek gaat over de Reformatie, het verlangen naar directe toegang tot God en de parallel met media als bemiddelaar."
     },
     {
-      "start_seconds": 1830,
-      "title": "Pleidooi voor censuur en goede journalistiek",
-      "summary": "Het verschil tussen kritisch en wantrouwig zijn en hoe je goede journalistiek herkent."
+      "start_seconds": 3395,
+      "title": "Cultuurkatholicisme en bekeringen",
+      "summary": "De kiezersstromen van katholieken, cultuurkatholicisme en bekeerlingen als Ayaan Hirsi Ali worden besproken, evenals bubbels versus zuilen."
+    },
+    {
+      "start_seconds": 3884,
+      "title": "Balans in een tumultueus jaar",
+      "summary": "De gasten delen hoe ze in balans blijven, met een pleidooi voor polarisatie doorbreken en anderen liefhebben."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 405,
+      "start_seconds": 1494,
       "speaker": "Anton de Wit",
-      "text": "Als een Afrikaanse paus komt, moeten veel progressieven flink slikken.",
-      "note": "Ironisch punt over progressieve verwachtingen en een conservatief-sociaal profiel van de kerk."
+      "text": "De mondige mens zien we met de jaarwisseling ook de cobra-granaten naar onze hulpverleners smijten.",
+      "note": "Laat zien dat mondigheid ook een schaduwkant heeft in de autoriteitscrisis."
     },
     {
-      "start_seconds": 1531,
+      "start_seconds": 2752,
       "speaker": "Anton de Wit",
-      "text": "De politici die het hardst roepen dat de politiek failliet is, maken carrière in diezelfde politiek.",
-      "note": "Scherpe paradox van populisme en het establishment."
+      "text": "Je kunt jezelf niet redden, en dat is het wezenlijke inzicht van het christendom.",
+      "note": "Een scherpe theologische kern die de autoriteitscrisis verklaart."
     },
     {
-      "start_seconds": 1648,
+      "start_seconds": 3079,
       "speaker": "Stefan Paas",
-      "text": "Ik vind Frans Bauer eigenlijk veel beter dan Bach. Wie is jij om mij te vertellen van niet?",
-      "note": "Speels voorbeeld van expressief individualisme en autoriteitscrisis."
+      "text": "Protestanten hebben ingezet op het vormen van de ideale burger, en katholieken op het vormen van het ideale instituut.",
+      "note": "Een tegenstelling die helpt verklaren waarom beide tradities anders omgaan met vertrouwen in autoriteit."
     },
     {
-      "start_seconds": 1830,
-      "speaker": "David Boogerd",
-      "text": "Hoofdstuk 7 heet 'een pleidooi voor censuur'.",
-      "note": "Prikkelende titel die Anton uitlegt als het scheiden van kaf en koren."
-    },
-    {
-      "start_seconds": 1469,
+      "start_seconds": 3604,
       "speaker": "Anton de Wit",
-      "text": "De mondige mens gooit met de jaarwisseling cobra's naar hulpverleners.",
-      "note": "Laat de dubbelheid van autoriteitscrisis en mondigheid zien."
+      "text": "Bekeerlingen radicaliseren de kerk vaak binnen een paar maanden weer uit, omdat ze merken dat de kerk niet bezig is met hun cultuuroorlog.",
+      "note": "Een scherpe observatie over de motieven van cultuurchristelijke bekeerlingen."
     }
   ],
   "keywords": [
     "autoriteitscrisis",
     "waarheid",
+    "secularisatie",
     "synode",
-    "kerkscheuring",
-    "Paus Franciscus",
-    "Rooms-Katholieke Kerk",
+    "protestantisme",
+    "Verlichting",
+    "bemiddeling",
     "media",
     "populisme",
-    "Donald Trump",
-    "expressief individualisme",
-    "Geloof jij het?"
+    "cultuurkatholicisme"
   ],
-  "quotes": [],
+  "quotes": [
+    "Anton noemt 2024 een jaar van de waarheid als het gaat om de Rooms-Katholieke Kerk, hij vreest zelfs voor een kerkscheuring.",
+    "Anton ziet dat we worstelen met een autoriteitscrisis - zo schrijft hij in zijn nieuwe boek 'Geloof jij het?'.",
+    "We hebben de waarheid min of meer geïndividualiseerd, mede dankzij het protestantisme en de Verlichting."
+  ],
   "similar": [
     {
-      "n": 255,
-      "reason": "Strijd om de waarheid, fake news en complotten; filosofische kijk op vertrouwen in autoriteit."
+      "n": 226,
+      "reason": "Vooruitblik op een nieuw jaar met Trump, Wilders en kerkthema's, zoals dit jaaroverzicht."
     },
     {
       "n": 246,
-      "reason": "Anton de Wit over de katholieke kerk, paus en Amerikaanse invloed."
+      "reason": "Anton de Wit over de Katholieke Kerk, een nieuwe paus en de Amerikaanse link."
+    },
+    {
+      "n": 170,
+      "reason": "Analyse van Wilders' verkiezingsoverwinning en de verrechtsing van Nederland."
     },
     {
       "n": 243,
-      "reason": "Anton de Wit en Stefan Paas over paus Franciscus en de kerk."
+      "reason": "Anton de Wit over paus Franciscus, de Katholieke Kerk en de opvolging."
     },
     {
-      "n": 241,
-      "reason": "Denkers achter Trump en Amerikaanse politiek, met Stefan Paas."
-    },
-    {
-      "n": 208,
-      "reason": "Anton de Wit over G.K. Chesterton, conservatisme en kerk, verwant aan Lewis en Tolkien."
+      "n": 235,
+      "reason": "Politiek en Amerika onder Trump, met kerkthema's en naastenliefde als uitgangspunt."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

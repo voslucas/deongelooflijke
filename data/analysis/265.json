@@ -1,133 +1,146 @@
 {
   "episode": 265,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 131917,
+    "segments": 1188,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30360,
-    "output_tokens": 2437,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 65925,
+    "output_tokens": 7443,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
-    "Samenleving & migratie",
-    "Wetenschap & kosmos",
-    "Gezin & relaties"
+    "God & geloof",
+    "Zingeving & psyche",
+    "Gezin & relaties",
+    "Politiek"
   ],
   "guests": [
     "Gabriël van den Brink"
   ],
   "people": [
     {
-      "name": "Gabriël van den Brink",
-      "note": "filosofie en emeritus hoogleraar, auteur van De actualiteit van het archaïsche",
-      "start_seconds": 0,
-      "wiki_checked": true
+      "name": "Frans de Waal",
+      "note": "primatoloog wiens inzichten over zoogdieren en groepsgedrag worden aangehaald",
+      "start_seconds": 853,
+      "mention_count": 3
     },
     {
       "name": "Georg Wilhelm Friedrich Hegel",
-      "note": "19e-eeuwse filosoof die kennis van zijn tijd probeerde te synthetiseren; erkenning komt van de ander",
+      "note": "filosoof; Van den Brink stelt dat geestelijke krachten de geschiedenis sterker bepalen dan economie",
       "start_seconds": 406,
-      "wiki_checked": true,
-      "wiki_pageid": 16725,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/250px-Hegel_portrait_by_Schlesinger_1831.jpg"
+      "mention_count": 4
     },
     {
       "name": "Charles Darwin",
-      "note": "evolutiebiologie; 'Hegel plus Darwin' als ambitieniveau van het boek",
+      "note": "evolutiebioloog; referentiekader voor de menselijke natuur en de evolutionaire benadering",
       "start_seconds": 425,
-      "wiki_checked": true,
-      "wiki_pageid": 4097,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Darwin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/250px-Charles_Darwin_portrait.jpg"
+      "mention_count": 3
     },
     {
-      "name": "Frans de Waal",
-      "note": "primatoloog, overleden vorig jaar; over competitie en coöperatie in groepen",
-      "start_seconds": 853,
-      "wiki_checked": true,
-      "wiki_pageid": 267944,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_de_Waal",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Frans_de_Waal.jpg/250px-Frans_de_Waal.jpg"
+      "name": "Karl Marx",
+      "note": "filosoof en econoom; Van den Brink was tien jaar overtuigd marxist",
+      "start_seconds": 3357,
+      "mention_count": 5
+    },
+    {
+      "name": "Sigmund Freud",
+      "note": "psycholoog; begrip van het 'archaïsche' en de erfenis van het verleden",
+      "start_seconds": 2911,
+      "mention_count": 7
     },
     {
       "name": "Paulus",
-      "note": "apostel, aangehaald over dezelfde normen voor mannen en vrouwen",
+      "note": "apostel; aangehaald over gelijke normen voor mannen en vrouwen",
       "start_seconds": 1026,
-      "wiki_checked": true,
-      "wiki_pageid": 10521,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paulus_%28apostel%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rembrandt_Harmensz._van_Rijn_163.jpg/250px-Rembrandt_Harmensz._van_Rijn_163.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; voorbeeld van een autoritaire, mannelijke reactie",
+      "start_seconds": 2322,
+      "mention_count": 5
+    },
+    {
+      "name": "Andrew Tate",
+      "note": "influencer; voorbeeld van een patriarchale backlash tegen moderne vrijheid",
+      "start_seconds": 2322,
+      "mention_count": 4
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident; politicus die de nadelen van de jaren zestig-modernisering aankaart",
+      "start_seconds": 2646,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Scheffer",
+      "note": "publicist en vriend van Van den Brink; schreef essay over de grens",
+      "start_seconds": 3097,
+      "mention_count": 2
     },
     {
       "name": "Charles Taylor",
-      "note": "filosoof, auteur van De bronnen van het zelf; zingeving vraagt een horizon van betekenis",
-      "start_seconds": 1708,
-      "wiki_checked": true,
-      "wiki_pageid": 85976,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Taylor_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Charles_Taylor_%282019%29.jpg/250px-Charles_Taylor_%282019%29.jpg"
+      "note": "filosoof; auteur van De bronnen van het zelf",
+      "start_seconds": 1705,
+      "mention_count": 1
+    },
+    {
+      "name": "Samuel Huntington",
+      "note": "politicoloog; theorie van de botsende beschavingen",
+      "start_seconds": 4775,
+      "mention_count": 1
+    },
+    {
+      "name": "Pierre Teilhard de Chardin",
+      "note": "jezuïet en denker die wetenschap en geloof wilde verenigen; jeugdheld van Van den Brink",
+      "start_seconds": 5072,
+      "mention_count": 2
     },
     {
       "name": "Max Weber",
-      "note": "socioloog, klassieke opvatting van bureaucratie",
-      "start_seconds": 2196,
-      "wiki_checked": true,
-      "wiki_pageid": 37359,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Max_Weber_%28socioloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/250px-Max_Weber_1894.jpg"
+      "note": "socioloog; klassieke opvatting van bureaucratie als bevelslijnen",
+      "start_seconds": 2200,
+      "mention_count": 1
     },
     {
       "name": "Kokkie Drost",
-      "note": "eerdere gast over de seksuele revolutie",
+      "note": "gast in eerdere aflevering over de seksuele revolutie",
       "start_seconds": 962,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
       "name": "Beatrice Smulders",
-      "note": "eerdere gast over de seksuele revolutie",
+      "note": "gast in eerdere aflevering over de seksuele revolutie",
       "start_seconds": 962,
-      "wiki_checked": true
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "genoemd in verband met onzekere tijden en oorlog",
-      "start_seconds": 2305,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "De actualiteit van het archaïsche, tegen de moedeloosheid van de moderne tijd",
+      "title": "De actualiteit van het archaïsche",
       "author": "Gabriël van den Brink",
-      "note": "monumentaal boek over de menselijke natuur en de mismatch met de moderniteit",
+      "note": "het besproken boek; onderzoekt de menselijke geschiedenis en de mismatch met de moderniteit",
       "start_seconds": 50,
-      "volume_id": "x4BEEQAAQBAJ",
-      "canonical_title": "De actualiteit van het archaïsche: Tegen de moedeloosheid van de moderne tijd",
+      "volume_id": "6KYv0QEACAAJ",
+      "canonical_title": "De actualiteit van het archaïsche: tegen de moedeloosheid van de moderne tijd",
       "canonical_author": "Gabriël van den Brink",
-      "isbn13": "9789044654431",
-      "isbn10": "9044654438",
-      "thumbnail": "http://books.google.com/books/content?id=x4BEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789044640427",
+      "isbn10": "9044640429",
+      "thumbnail": ""
     },
     {
       "title": "De bronnen van het zelf",
       "author": "Charles Taylor",
-      "note": "zingeving is een halve waarheid als je haar zelf maakt",
-      "start_seconds": 1708,
+      "note": "Van den Brink citeert Taylor over zingeving en betekenisvolle keuzes",
+      "start_seconds": 1705,
       "volume_id": "YWF2PwAACAAJ",
-      "canonical_title": "Bronnen van het zelf: de ontstaansgeschiedenis van de moderne identiteit",
-      "canonical_author": "Charles Taylor",
+      "canonical_title": "Bronnen van het zelf: de onstaansgeschiedenis van de moderne identiteit",
+      "canonical_author": "Charles Margrave Taylor",
       "isbn13": "9789047701583",
       "isbn10": "9047701585",
       "thumbnail": "http://books.google.com/books/content?id=YWF2PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
@@ -136,131 +149,152 @@
   "bible_refs": [
     {
       "ref": "1 Korintiërs 8",
-      "note": "door Stefan Paas aangehaald als Paulus over dezelfde normen voor mannen en vrouwen (verwijzing mogelijk onnauwkeurig)",
+      "note": "Paulus: mannen moeten dezelfde normen hanteren als vrouwen",
       "start_seconds": 1026
+    },
+    {
+      "ref": "Hooglied 8:6",
+      "note": "Paas citeert 'sterk als de dood is de liefde'",
+      "start_seconds": 5141
     }
   ],
   "places": [
+    "Woensel",
+    "Heerlen-Noord",
+    "Noord-Limburg",
+    "Enschede",
     "Afghanistan",
-    "Nederland",
-    "Congo",
-    "Bangladesh"
+    "Bangladesh",
+    "Congo"
   ],
-  "summary_tldr": "Gabriël van den Brink bespreekt zijn levenswerk over de menselijke evolutie en stelt dat onze moderne, individualistische levensstijl botst met onze oeroude menselijke natuur. Aan de hand van seksualiteit, individuele vrijheid, erkenning, gezag en macht onderzoeken hij, David Boogerd en Stefan Paas waar die mismatch zichtbaar wordt. Hij pleit voor meer gemeenschapszin en zingeving die het individu overstijgt.",
+  "summary_tldr": "Gabriël van den Brink presenteert zijn boek De actualiteit van het archaïsche, waarin hij stelt dat de moderne samenleving met haar nadruk op vrijheid, gelijkheid en individualisme botst met een oude menselijke natuur die behoefte heeft aan grenzen, gezag, gemeenschap en betekenis. Het gesprek met Stefan Paas gaat over seksualiteit, gezin, macht, migratie en de rol van geloof als verbindende kracht. Van den Brink pleit voor een herwaardering van traditie en de verbinding tussen wetenschap en het 'goddelijke'.",
   "summary_points": [
-    "Van den Brink las meer dan 180.000 pagina's en schreef een 'Hegel plus Darwin' van de mens.",
-    "Hij verdedigt het bestaan van een menselijke natuur tegen cultuurrelativisme en sociaal constructivisme.",
-    "Man en vrouw verschillen van nature in houding tot seks en voortplanting; de pil veranderde de spelregels.",
-    "Beschaving vraagt discipline en zelfbeheersing van mannen, zoals eerder in boerensamenlevingen.",
-    "De moderne cultus van individuele vrijheid ondermijnt gemeenschapszin, terwijl we afhankelijk zijn van anderen.",
-    "Mensen hebben erkenning nodig, wat blijkt uit televisie en social media.",
-    "Zin wordt aangereikt vanuit iets groters dan jezelf, religieus of maatschappelijk.",
-    "Onderscheid tussen gezag en macht; de mens schommelt tussen democratische en autocratische tendensen.",
-    "In onzekere tijden neigt men naar autocratie, wat de democratie onder druk zet."
+    "De moderniteit leidt tot een mismatch tussen de menselijke natuur en de samenleving die we hebben ingericht.",
+    "Van den Brink betoogt dat er wel degelijk een biologisch verankerde menselijke natuur bestaat, tegen het sociaal-constructivisme in.",
+    "Voortplanting en seksualiteit illustreren de spanning: de pil heeft de link met voortplanting doorgesneden, terwijl biologische verschillen blijven bestaan.",
+    "Mensen zijn afhankelijk van gemeenschap en erkenning, terwijl het moderne individualisme die afhankelijkheid ontkent.",
+    "Macht en gezag worden onderscheiden; de democratische neiging wordt in onzekere tijden overvleugeld door een verlangen naar autoritaire leiders.",
+    "Het moderne gezin en onderwijs stellen hogere eisen en lijden onder het verlies van discipline en grenzen.",
+    "Grenzen, zowel geografisch als moreel, zijn volgens Van den Brink noodzakelijk maar ambivalent; het Europese liberalisme heeft dit te lang verwaarloosd.",
+    "Van den Brink's eigen weg van marxist naar historicus laat zien dat zijn ideeën zich ontwikkelden door empirisch onderzoek.",
+    "Geloof wordt door Van den Brink gezien als een verplichtende kracht die het besef van een groter geheel biedt, los van specifieke religies.",
+    "Het gesprek eindigt met de vraag of Van den Brink zichzelf als gelovig ziet: hij noemt zichzelf niet gelovig in traditionele zin, maar wel verbonden met het goddelijke."
   ],
   "chapters": [
     {
-      "start_seconds": 50,
-      "title": "Een levenswerk van 180.000 pagina's",
-      "summary": "Introductie van het boek en Van den Brinks leesmethode en ambitie."
+      "start_seconds": 0,
+      "title": "Inleiding en het boek",
+      "summary": "David Boogerd introduceert het monumentale boek van Van den Brink en de vraag hoe de mens tot zijn recht komt."
     },
     {
-      "start_seconds": 454,
-      "title": "De mismatch tussen moderniteit en menselijke natuur",
-      "summary": "De centrale these en het debat over nature versus nurture."
+      "start_seconds": 360,
+      "title": "Hegel plus Darwin: de ambitie van het boek",
+      "summary": "Van den Brink en Paas bespreken de encyclopedische ambitie en de werkwijze van het onderzoek."
     },
     {
-      "start_seconds": 560,
-      "title": "Voortplanting, seks en beschaving",
-      "summary": "Verschillen tussen man en vrouw, de pil en de opgave van seksuele beschaving."
+      "start_seconds": 491,
+      "title": "Menselijke natuur en de mismatch met de moderniteit",
+      "summary": "De kernstelling dat er een menselijke natuur bestaat die botst met de maatschappelijke constructie van het leven."
     },
     {
-      "start_seconds": 1198,
-      "title": "Liberalisme en gemeenschap",
-      "summary": "Individuele vrijheid versus afhankelijkheid van anderen en gemeenschapszin."
-    },
-    {
-      "start_seconds": 1470,
-      "title": "Erkenning en zingeving",
-      "summary": "De behoefte om gezien te worden en zin die van buiten het individu komt."
+      "start_seconds": 1214,
+      "title": "Individu, gemeenschap en erkenning",
+      "summary": "De spanning tussen individuele vrijheid en afhankelijkheid van anderen, en het belang van erkenning en zingeving."
     },
     {
       "start_seconds": 1887,
-      "title": "Gezag, macht en autocratie",
-      "summary": "Hiërarchie, jagers-verzamelaars en de spanning tussen democratie en autocratie."
+      "title": "Gezag, macht en democratie",
+      "summary": "Onderscheid tussen gezag en macht, en de strijd tussen democratie en autocratie in onzekere tijden."
+    },
+    {
+      "start_seconds": 2460,
+      "title": "Gezin, opvoeding en de backlash",
+      "summary": "Het moderne gezin als hogedrukketel, de rol van Trump, Tate en Vance en de vraag of de modernisering te snel ging."
+    },
+    {
+      "start_seconds": 3002,
+      "title": "Grenzen, politiek en de ervaring van Heerlen",
+      "summary": "Het belang van grenzen, het politieke opportunisme en Van den Brink's veldwerk in probleemwijken en de mijnstreek."
+    },
+    {
+      "start_seconds": 4348,
+      "title": "Geloof, het goddelijke en verbondenheid",
+      "summary": "Geloof als verplichtende kracht, het idee van compassie als gedeelde kern, en de afsluitende vraag naar persoonlijk geloof."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 425,
+      "start_seconds": 417,
       "speaker": "Gabriël van den Brink",
-      "text": "Voor dit boek is Hegel plus Darwin.",
-      "note": "Vat de ambitie van het boek treffend samen."
+      "text": "Hegel plus Darwin.",
+      "note": "Een korte, pakkende samenvatting van de ambitie van het boek."
     },
     {
-      "start_seconds": 1010,
+      "start_seconds": 1545,
       "speaker": "Gabriël van den Brink",
-      "text": "Het is een opgave voor mannen, vaders en zonen om seks te beschaven.",
-      "note": "Concrete maatschappelijke consequentie van zijn these."
+      "text": "Erkenning krijg je van de ander; zonder erkenning voel je je heel slecht.",
+      "note": "Kern van de kritiek op het moderne individualisme."
     },
     {
-      "start_seconds": 1520,
+      "start_seconds": 2515,
       "speaker": "Gabriël van den Brink",
-      "text": "Zingeving komt niet alleen uit het individu, het wordt jou gegeven.",
-      "note": "Scherpe kritiek op moderne zelf-zingeving."
+      "text": "Het moderne gezin is echt een hogedrukketel.",
+      "note": "Een scherpe typering van de druk op moderne gezinnen."
     },
     {
-      "start_seconds": 1940,
+      "start_seconds": 3674,
       "speaker": "Gabriël van den Brink",
-      "text": "Gezag is iets anders dan macht: ik gehoorzaam graag als iemand iets heilzaams doet.",
-      "note": "Helder begripsonderscheid."
+      "text": "Dan snap je iets meer van het leven dan wanneer je in de bibliotheek gaat zitten.",
+      "note": "Verwijst naar het veldwerk in Heerlen-Noord en legt de nadruk op ervaring boven abstractie."
     },
     {
-      "start_seconds": 2124,
+      "start_seconds": 4348,
       "speaker": "Gabriël van den Brink",
-      "text": "In rustige tijden kiezen we democratie, bij onzekerheid een autokraat.",
-      "note": "Deprimerende maar actuele constatering."
+      "text": "Ik geloof niet in God in de traditionele zin, maar wel in het goddelijke.",
+      "note": "Een persoonlijke en genuanceerde positiebepaling die het gesprek afrondt."
     }
   ],
   "keywords": [
     "menselijke natuur",
     "moderniteit",
-    "evolutie",
     "individualisme",
     "erkenning",
-    "zingeving",
     "gezag",
-    "macht",
     "autocratie",
-    "Hegel",
-    "Frans de Waal",
-    "gemeenschap"
+    "grenzen",
+    "gezin",
+    "geloof",
+    "compassie",
+    "secularisatie",
+    "evolutie"
   ],
   "quotes": [
-    "Hoe kom je als mens nou écht tot je recht?",
-    "We zijn onszelf onderweg kwijtgeraakt.",
-    "De moderne tijd sluit steeds minder aan bij wie wij als mensen ten diepste – en van nature – zijn."
+    "we zijn onszelf onderweg kwijtgeraakt",
+    "Wie zijn wij eigenlijk, ten diepste?",
+    "Tegen de moedeloosheid van de moderne tijd"
   ],
   "similar": [
     {
+      "n": 15,
+      "reason": "Verweesde samenleving die snakt naar gezag en vaderschap, sluit aan bij traditie en gemeenschap"
+    },
+    {
+      "n": 128,
+      "reason": "Traditionele vaderrol verdwijnt; zingeving, geloof en gezin komen samen aan bod"
+    },
+    {
       "n": 76,
-      "reason": "Seksualiteit en seksuele revolutie, met gasten Beatrijs Smulders en Cocky Drost (Kokkie Drost)."
+      "reason": "Gedeelde gasten Beatrijs Smulders en Cocky Drost; seksualiteit, gezin en geloof"
+    },
+    {
+      "n": 314,
+      "reason": "Zingevingscrisis van het moderne leven, met geloof en psyche als kernthema's"
     },
     {
       "n": 287,
-      "reason": "Individualisme en de mythe van zelfredzaamheid; behoefte aan gemeenschap en zingeving."
-    },
-    {
-      "n": 62,
-      "reason": "Seculier experiment van het Westen; samenleving, moraal en gemeenschapszin."
-    },
-    {
-      "n": 282,
-      "reason": "Evolutie, hersenen en menselijke natuur in relatie tot vrije wil en zingeving."
-    },
-    {
-      "n": 111,
-      "reason": "Individu zonder groep, moderne mens en zingeving; seculiere donderpreek."
+      "reason": "Kritiek op individualisme en zelfredzaamheid, met zingeving, geloof en samenleving"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

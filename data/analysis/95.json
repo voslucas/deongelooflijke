@@ -1,138 +1,95 @@
 {
   "episode": 95,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 77662,
+    "segments": 818,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 25983,
-    "output_tokens": 2649,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 33433,
+    "output_tokens": 7368,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "God & geloof",
-    "Filosofie & ethiek",
-    "Kerk & secularisatie"
+    "Bijbel & Jezus",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Miroslav Volf"
   ],
   "people": [
     {
-      "name": "Miroslav Volf",
-      "note": "theoloog aan Yale, opgegroeid in Joegoslavië, gast",
-      "start_seconds": 114,
-      "wiki_checked": true
-    },
-    {
       "name": "Vladimir Poetin",
-      "note": "Russische president, agressor in de oorlog in Oekraïne",
-      "start_seconds": 251,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "note": "Russische president; wordt besproken als agressor in Oekraïne en als iemand die een Bijbelvers aanhaalt",
+      "start_seconds": 54,
+      "mention_count": 6
     },
     {
-      "name": "Patriarch Kirill",
-      "note": "Russisch-orthodox patriarch, verbindt religieuze en politieke identiteit",
+      "name": "Kirill",
+      "note": "Patriarch van de Russisch-Orthodoxe Kerk; prijst Poetin in een preek",
       "start_seconds": 530,
-      "wiki_checked": true,
-      "wiki_pageid": 1547139,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Kirill_van_Moskou",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Patriarch_Kirill_of_Moscow.jpg/250px-Patriarch_Kirill_of_Moscow.jpg"
-    },
-    {
-      "name": "Jürgen Moltmann",
-      "note": "theoloog, promotor van Volf, vond geloof als krijgsgevangene",
-      "start_seconds": 1240,
-      "wiki_checked": true,
-      "wiki_pageid": 444459,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J%C3%BCrgen_Moltmann",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/J%C3%BCrgen_Moltmann_im_Hospitalhof_Stuttgart._M%C3%A4rz_2016_%28cropped%29.jpg/250px-J%C3%BCrgen_Moltmann_im_Hospitalhof_Stuttgart._M%C3%A4rz_2016_%28cropped%29.jpg"
-    },
-    {
-      "name": "Elie Wiesel",
-      "note": "Holocaustoverlevende die opriep tot 'nooit vergeten'",
-      "start_seconds": 1695,
-      "wiki_checked": true,
-      "wiki_pageid": 101471,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elie_Wiesel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Elie_Wiesel_2012_Shankbone.JPG/250px-Elie_Wiesel_2012_Shankbone.JPG"
-    },
-    {
-      "name": "Nicholas Wolterstorff",
-      "note": "filosoof aan Yale, was het oneens met Volf over vergeving zonder berouw",
-      "start_seconds": 2130,
-      "wiki_checked": true,
-      "wiki_pageid": 4047598,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Nicholas_Wolterstorff",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nicholas_Wolterstorff.jpg/250px-Nicholas_Wolterstorff.jpg"
-    },
-    {
-      "name": "Desmond Tutu",
-      "note": "aartsbisschop, bekend van het fietsvoorbeeld over verzoening en herstel",
-      "start_seconds": 2247,
-      "wiki_checked": true,
-      "wiki_pageid": 46451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Desmond_Tutu",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Desmond_Tutu_2013-10-23_001.jpg/250px-Desmond_Tutu_2013-10-23_001.jpg"
+      "mention_count": 2
     },
     {
       "name": "Dietrich Bonhoeffer",
-      "note": "theoloog betrokken bij een aanslag op Hitler",
+      "note": "Duitse theoloog die betrokken was bij een aanslagpoging op Hitler",
       "start_seconds": 2760,
-      "wiki_checked": true,
-      "wiki_pageid": 267820,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dietrich_Bonhoeffer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg/250px-Bundesarchiv_Bild_146-1987-074-16%2C_Dietrich_Bonhoeffer.jpg"
+      "mention_count": 4
     },
     {
-      "name": "Tom Wright",
-      "note": "theoloog, genoemd als vergelijking",
-      "start_seconds": 333,
-      "wiki_checked": true,
-      "wiki_pageid": 861401,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tom_Wright_%28theoloog%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/NTWright071220.jpg/250px-NTWright071220.jpg"
+      "name": "Elie Wiesel",
+      "note": "Holocaustoverlevende en schrijver; bekend om 'never forget, always remember'",
+      "start_seconds": 1689,
+      "mention_count": 1
     },
     {
-      "name": "Tim Keller",
-      "note": "theoloog, genoemd als vergelijking",
-      "start_seconds": 333,
-      "wiki_checked": true,
-      "wiki_pageid": 1671214,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Tim_Keller",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Timothy_Keller.jpg/250px-Timothy_Keller.jpg"
+      "name": "Nicholas Wolterstorff",
+      "note": "Nederlands-Amerikaanse filosoof; Volf was het oneens met hem over vergeving aan Yale",
+      "start_seconds": 2106,
+      "mention_count": 2
+    },
+    {
+      "name": "Desmond Tutu",
+      "note": "Zuid-Afrikaanse aartsbisschop; bekende uitspraak over de gestolen fiets",
+      "start_seconds": 2247,
+      "mention_count": 1
+    },
+    {
+      "name": "Jürgen Moltmann",
+      "note": "Duitse theoloog; vond geloof als krijgsgevangene na het lezen van de Psalmen",
+      "start_seconds": 1237,
+      "mention_count": 1
+    },
+    {
+      "name": "Case van der Staaij",
+      "note": "Nederlands politicus; gebruikte de metafoor van bloemen in een vaas voor nationaal christendom",
+      "start_seconds": 3570,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Exclusion and Embrace",
       "author": "Miroslav Volf",
-      "note": "over geweld, wraak en verzoening na de Balkanoorlog",
-      "start_seconds": 200,
-      "volume_id": "qR1rEuksa64C",
-      "canonical_title": "Exclusion & Embrace: A Theological Exploration of Identity, Otherness, and Reconciliation",
+      "note": "Boek uit eind jaren negentig over geweld, verzoening en de Balkanoorlog",
+      "start_seconds": 193,
+      "volume_id": "NKtrzgEACAAJ",
+      "canonical_title": "Exclusion and embrace : a theological exploration of identity, otherness, and reconciliation",
       "canonical_author": "Miroslav Volf",
-      "isbn13": "9781426712333",
-      "isbn10": "1426712332",
-      "thumbnail": "http://books.google.com/books/content?id=qR1rEuksa64C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     },
     {
       "title": "The End of Memory",
       "author": "Miroslav Volf",
-      "note": "over het goed herinneren van onrecht en trauma",
-      "start_seconds": 1662,
+      "note": "Boek over herinnering en ervaring van de dienstplicht en interrogatie",
+      "start_seconds": 1659,
       "volume_id": "tAfW0QEACAAJ",
       "canonical_title": "The End of Memory: Remembering Rightly in a Violent World",
       "canonical_author": "Miroslav Volf",
@@ -143,148 +100,169 @@
   ],
   "bible_refs": [
     {
-      "ref": "Psalmen 137",
-      "note": "By de rivieren van Babel; gewelddadige wraakpsalm die Volf aanhaalt bij vluchtelingen",
-      "start_seconds": 2430
+      "ref": "Psalm 22:1",
+      "note": "'Mijn God, mijn God, waarom hebt u mij verlaten?' – sprak de krijgsgevangene Moltmann aan",
+      "start_seconds": 1264
     },
     {
-      "ref": "Psalmen 22",
-      "note": "'Mijn God, waarom hebt Gij mij verlaten', die Moltmann in gevangenschap raakte",
-      "start_seconds": 1265
+      "ref": "Psalm 137",
+      "note": "Rivieren van Babylon; het vers over het verpletteren van kinderen wordt als zeer moeilijk besproken",
+      "start_seconds": 2429
+    },
+    {
+      "ref": "Mattheus 5:44",
+      "note": "Opdracht om je vijanden lief te hebben",
+      "start_seconds": 2558
+    },
+    {
+      "ref": "Johannes 15:13",
+      "note": "'Niemand heeft grotere liefde dan dat hij zijn leven geeft voor zijn vrienden'; door Poetin gebruikt",
+      "start_seconds": 3237
     }
   ],
   "places": [
     "Joegoslavië",
     "Kroatië",
     "Servië",
+    "Bosnië",
+    "Kosovo",
+    "Kyiv",
     "Osijek",
+    "Srebrenica",
     "Oekraïne",
     "Rusland",
-    "Srebrenica",
-    "Amsterdam",
-    "Yale",
-    "Duitsland",
-    "Denemarken",
-    "Polen"
+    "Myanmar",
+    "Sri Lanka",
+    "Amsterdam"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met theoloog Miroslav Volf over oorlog, religie en vergeving, tegen de achtergrond van de oorlog in Oekraïne en Volfs eigen jeugd in communistisch Joegoslavië. Volf pleit ervoor om mensen niet te reduceren tot hun daden, om recht te herinneren en om te blijven worstelen met de liefde voor je vijand.",
+  "summary_tldr": "Theoloog Miroslav Volf, opgegroeid in het communistische Joegoslavië en getekend door de burgeroorlog, bespreekt met David Boogerd en Stefan Paas hoe religie en politiek in oorlogen met elkaar verweven raken. Hij betoogt dat vergeving een proces is dat losstaat van berouw en dat het mogelijk is om de dader te onderscheiden van de daad. Ook de vraag hoe je je vijand kunt blijven liefhebben, ook in een oorlog als in Oekraïne, komt aan bod.",
   "summary_points": [
-    "Volf groeide op als zoon van een Pinksterpredikant in communistisch Joegoslavië en was een uitzondering op school.",
-    "Zijn vader vond geloof tijdens een dodenmars en in een werkkamp, ondanks zijn woede op God.",
-    "Volf keerde door Zweedse jongeren terug naar het geloof, meer door cultuur dan door intellectuele twijfel.",
-    "Tijdens zijn legerdienst werd hij als pacifist bespioneerd en verhoord.",
-    "Monotheïstische religies worden gevaarlijk wanneer ze zich verbinden met een politieke of etnische identiteit.",
-    "Goed herinneren betekent waarheidsgetrouw en zo dat verzoening mogelijk blijft; je bent niet de som van wat je is aangedaan.",
-    "Vergeving is een proces en een gave, die volledig wordt wanneer de ander ontvangt via berouw en herstel; vergeving sluit straf niet uit.",
-    "Volf is pacifist met een 'Bonhoeffer-achterdeur' en wil Oekraïners niet veroordelen.",
-    "Haat voorkom je door de dader niet te reduceren tot zijn daden en door het kwaad als macht te zien."
+    "Volf's jeugd in Joegoslavië: als predikantszoon in een Pinksterkerk was hij een minderheid in een communistische omgeving.",
+    "Zijn vader vond God tijdens een dodenmars na de Tweede Wereldoorlog, na intense woede over onrecht.",
+    "Religie wordt gevaarlijk wanneer geloof zich vereenzelvigt met een identiteit of politiek project en universeel wordt ingezet voor het particuliere.",
+    "Volf stelt dat religieus geweld niet met minder religie wordt opgelost, maar met een diepere, inhoudelijke religie.",
+    "Volgens Volf moet je herinneren 'op de juiste manier': herinneringen mogen je identiteit niet bepalen en versperren de weg naar verzoening niet.",
+    "Vergeving is een proces en een geschenk dat pas voltooid is wanneer de ander het ontvangt via berouw en herstel.",
+    "Vergeving sluit rechtsgang en straf niet uit; Volf en Paas zijn het hierover eens.",
+    "Vijandsliefde is moeilijk, maar belangrijk om te voorkomen dat je het kwaad van de vijand overneemt.",
+    "Volf is zelf geweldloos, met een 'Bonhoeffer-loophole', maar erkent dat hij de complexiteit van oorlog niet volledig kan overzien.",
+    "Het gesprek eindigt met de stelling dat theologie over het goede leven gaat, en dat ook in crisistijd."
   ],
   "chapters": [
     {
-      "start_seconds": 0,
+      "start_seconds": 54,
       "title": "Introductie van Miroslav Volf",
-      "summary": "Boogerd en Paas schetsen Volfs achtergrond en het belang van zijn werk over trauma en verzoening."
+      "summary": "David Boogerd en Stefan Paas stellen Volf voor als een van de grootste denkers van deze tijd, en noemen zijn werk over trauma en verzoening."
     },
     {
-      "start_seconds": 344,
-      "title": "Oorlog in Oekraïne en religie",
-      "summary": "Volf ziet parallellen met Joegoslavië en waarschuwt voor de verstrengeling van geloof en politiek."
+      "start_seconds": 480,
+      "title": "Religie, politiek en oorlog",
+      "summary": "Volf stelt dat monotheïstische religie gevaarlijk wordt wanneer ze zich aan een politiek project koppelt, met het Russische voorbeeld van Kirill en Poetin."
     },
     {
-      "start_seconds": 654,
-      "title": "Opgroeien in communistisch Joegoslavië",
-      "summary": "Volf vertelt over zijn jeugd als predikantszoon en het verhaal van zijn vader."
+      "start_seconds": 636,
+      "title": "Jeugd in Joegoslavië en het verhaal van zijn vader",
+      "summary": "Volf beschrijft zijn jeugd als enige openlijke christen op school en het verhaal van zijn vader die God vond na de dodenmars."
     },
     {
-      "start_seconds": 1315,
-      "title": "Terug naar het geloof en het leger",
-      "summary": "Over zijn terugkeer tot het geloof, zijn dienstplicht en de verhoren."
+      "start_seconds": 1456,
+      "title": "Dienstplicht, interrogatie en herinnering",
+      "summary": "Volf vertelt over zijn dienstplicht als pacifist, de bespieding en interrogatie, en het onderscheid tussen het juist herinneren en het bevrijdend vergeten."
     },
     {
-      "start_seconds": 1662,
-      "title": "Goed herinneren en vergeven",
-      "summary": "Over toxische herinnering, vergeving als proces, berouw en gerechtigheid."
+      "start_seconds": 2106,
+      "title": "Vergeving zonder berouw",
+      "summary": "Volf en Paas bespreken of je moet vergeven zonder dat de dader berouw toont, met het voorbeeld van de moeder van Paas en het gesprek met Wolterstorff."
     },
     {
-      "start_seconds": 2340,
-      "title": "De Balkanoorlog en liefde voor de vijand",
-      "summary": "Over Psalm 137, het bewaren van een schone ziel en pacifisme in tijden van oorlog."
+      "start_seconds": 2359,
+      "title": "Oorlog in Joegoslavië, psalmen en vijandsliefde",
+      "summary": "Volf beschrijft de impact van de Joegoslavische oorlog, de worsteling met imprecatiepsalmen en hoe je je vijand kunt blijven liefhebben."
     },
     {
-      "start_seconds": 2880,
-      "title": "Haat voorkomen",
-      "summary": "Hoe je een vijand als Poetin niet gaat haten door dader en daad te scheiden."
+      "start_seconds": 3087,
+      "title": "Religie en geweld in Oekraïne en elders",
+      "summary": "Het gesprek gaat over het misbruik van Bijbelverzen door Poetin en Kirill en over de vraag of religie oorlog erger maakt."
+    },
+    {
+      "start_seconds": 3660,
+      "title": "Afsluiting: het goede leven",
+      "summary": "Volf kondigt een lezing over het goede leven aan en benadrukt dat theologie over de menselijke waardigheid gaat."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1062,
+      "start_seconds": 1139,
       "speaker": "Miroslav Volf",
-      "text": "Zijn vader zei dat nadat hij accepteerde dat God liefde is, niets veranderde en alles veranderde.",
-      "note": "Treffend beeld van een radicale omslag in een werkkamp."
+      "text": "Hij zei: zodra hij dat accepteerde, veranderde alles. Niets veranderde, en alles veranderde.",
+      "note": "Een verrassende beschrijving van hoe de woede van zijn vader in een plotselinge geloofsomkeer omsloeg."
     },
     {
-      "start_seconds": 530,
+      "start_seconds": 1797,
       "speaker": "Miroslav Volf",
-      "text": "Monotheïsme dat zich aan een politiek project verbindt, wordt gemakkelijk imperiaal.",
-      "note": "Scherpe stelling over religie en oorlog."
+      "text": "Ik ben niet de som van mijn daden. Om te vergeven moet je de dader van de daad scheiden.",
+      "note": "Een scherp theologisch uitgangspunt dat vergeving mogelijk maakt, ook voor de ergste daden."
     },
     {
-      "start_seconds": 1780,
-      "speaker": "Miroslav Volf",
-      "text": "Het probleem was niet dat men niet herinnerde, maar dat men herinnerde: giftige herinneringen.",
-      "note": "Kern van zijn denken over herinnering."
-    },
-    {
-      "start_seconds": 1950,
+      "start_seconds": 1863,
       "speaker": "Stefan Paas",
-      "text": "Het vierjarige zoontje vroeg zijn oma waarom ze niet kon vergeven.",
-      "note": "Persoonlijk, ontroerend verhaal over de impact van oorlogstrauma."
+      "text": "Het vierjarige kleinzoontje vroeg zijn oma waarom ze niet kon vergeven, en jaren later vertelde ze dat die vraag haar veranderde.",
+      "note": "Een persoonlijk en ontroerend voorbeeld van hoe een kinderlijke vraag helende verandering kan brengen."
     },
     {
       "start_seconds": 2247,
       "speaker": "Miroslav Volf",
-      "text": "Desmond Tutu: hoe kun je om vergeving vragen voor het stelen van mijn fiets en nog op mijn fiets blijven rijden?",
-      "note": "Concreet beeld van vergeving met herstel."
+      "text": "Hoe kun je om excuses vragen voor het stelen van mijn fiets en er vervolgens nog steeds op rijden? Breng de fiets terug.",
+      "note": "Desmond Tutu's beeld maakt helder dat vergeving zonder concrete herstelhandelingen niet compleet is."
+    },
+    {
+      "start_seconds": 3472,
+      "speaker": "Miroslav Volf",
+      "text": "De remedie tegen religieus geweld is niet minder religie, maar meer religie.",
+      "note": "Een tegenintuïtieve stelling die laat zien dat verzwakt, geïnstrumentaliseerd geloof juist gevaarlijk is."
     }
   ],
   "keywords": [
-    "Miroslav Volf",
     "vergeving",
     "verzoening",
-    "oorlog in Oekraïne",
+    "oorlog",
     "Joegoslavië",
-    "trauma",
     "herinnering",
+    "trauma",
     "vijandsliefde",
-    "pacifisme",
-    "monotheïsme",
-    "Dietrich Bonhoeffer",
-    "Exclusion and Embrace"
+    "religie en geweld",
+    "geweldloosheid",
+    "nationaal christendom",
+    "imprecatiepsalmen",
+    "Oekraïne"
   ],
   "quotes": [
-    "Maakt religie oorlogen erger? Hoe zorg je ervoor dat je de vijand niet gaat haten? En moet je iemand als Poetin willen vergeven?"
+    "Maakt religie oorlogen erger?",
+    "Hoe zorg je ervoor dat je de vijand niet gaat haten?",
+    "En moet je iemand als Poetin willen vergeven?"
   ],
   "similar": [
     {
       "n": 82,
-      "reason": "Russisch-orthodoxe kerk, Poetin en Kirill: religie en de oorlog in Oekraïne."
+      "reason": "Russisch-orthodoxe kerk die de oorlog steunt; sluit aan bij Poetin en Kirill."
     },
     {
-      "n": 86,
-      "reason": "Oorlog in Oekraïne wordt grimmiger en apocalyptisch; religieuze dimensie van het conflict."
+      "n": 153,
+      "reason": "Religie en Rusland in de oorlog in Oekraïne; overlappend thema en Kirill-achtige figuren."
+    },
+    {
+      "n": 317,
+      "reason": "Religie in wereldpolitiek en Poetin; oorlog en geloof verweven."
     },
     {
       "n": 299,
-      "reason": "Vergeving en genadeloosheid, vanuit christelijk perspectief."
+      "reason": "Gaat over vergeving en de genadeloze mens, een kernthema van deze aflevering."
     },
     {
-      "n": 79,
-      "reason": "Poetin, de kerk en de religieuze geschiedenis achter het conflict met Oekraïne."
-    },
-    {
-      "n": 53,
-      "reason": "Oorlog, verzet en genade; ethische vragen rond vijanden en het kwaad."
+      "n": 310,
+      "reason": "Persoonlijk verhaal over God en oorlog in Libanon en Israël; sterk verwant thematisch."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

@@ -1,218 +1,269 @@
 {
   "episode": 236,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 120569,
+    "segments": 1189,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31312,
-    "output_tokens": 2917,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 61951,
+    "output_tokens": 8205,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Amerika & Trump",
     "Geopolitiek & oorlog",
-    "Kerk & secularisatie",
-    "Politiek"
+    "Politiek",
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Marco Rubio",
-      "note": "Amerikaanse minister van Buitenlandse Zaken, katholiek, draaide in zijn houding ten opzichte van Poetin",
-      "start_seconds": 163,
-      "wiki_checked": true,
-      "wiki_pageid": 2854274,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marco_Rubio",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg/250px-Official_portrait_of_the_United_States_Secretary_of_State_Marco_Rubio%2C_January_2025_%28cropped%29.jpg"
-    },
-    {
       "name": "Donald Trump",
-      "note": "Amerikaans president, vergeleken met een maffiabaas",
-      "start_seconds": 212,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president; centrale figuur in het gesprek over autocratische tendensen en transactionele buitenlandse politiek",
+      "start_seconds": 211,
+      "mention_count": 30
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "Russisch president, wiens talking points Rubio volgens Paas overnam",
-      "start_seconds": 199,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Marco Rubio",
+      "note": "Amerikaanse minister van Buitenlandse Zaken, katholiek, met askruis",
+      "start_seconds": 163,
+      "mention_count": 6
     },
     {
       "name": "Volodymyr Zelensky",
-      "note": "Oekraïens president, ruzie met Trump in het Witte Huis",
+      "note": "Oekraïense president; ruzie met Trump in het Witte Huis",
       "start_seconds": 720,
-      "wiki_checked": true,
-      "wiki_pageid": 5198800,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Volodymyr_Zelensky",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/250px-Volodymyr_Zelenskyy_in_2022.jpg"
+      "mention_count": 8
     },
     {
-      "name": "James Comey",
-      "note": "Ex-FBI-chef, auteur van Higher Loyalty, ontslagen door Trump",
-      "start_seconds": 819,
-      "wiki_checked": true,
-      "wiki_pageid": 4606567,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/James_Comey",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/James_Comey_official_portrait.jpg/250px-James_Comey_official_portrait.jpg"
+      "name": "Vladimir Poetin",
+      "note": "Russische president; sluit akkoorden en houdt zich er niet aan volgens De Graaf",
+      "start_seconds": 182,
+      "mention_count": 10
     },
     {
       "name": "JD Vance",
-      "note": "Amerikaans vicepresident, sprak in München",
-      "start_seconds": 958,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
-    },
-    {
-      "name": "Friedrich Merz",
-      "note": "Duitse CDU-leider en komend bondskanselier, katholiek en conservatief",
-      "start_seconds": 1559,
-      "wiki_checked": true,
-      "wiki_pageid": 5475018,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Merz",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg/250px-2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93025.jpg"
-    },
-    {
-      "name": "Alice Weidel",
-      "note": "Leider van de AfD",
-      "start_seconds": 1597,
-      "wiki_checked": true,
-      "wiki_pageid": 4882349,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alice_Weidel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg/250px-2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg"
+      "note": "Amerikaanse vicepresident; toespraak in München",
+      "start_seconds": 948,
+      "mention_count": 6
     },
     {
       "name": "Elon Musk",
-      "note": "Achter de mail waarin ambtenaren hun bestaan moeten rechtvaardigen",
-      "start_seconds": 558,
-      "wiki_checked": true,
-      "wiki_pageid": 2807870,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elon_Musk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
+      "note": "Tech-ondernemer die zich met Amerikaans en Europees beleid bemoeit",
+      "start_seconds": 1140,
+      "mention_count": 5
     },
     {
-      "name": "Andrew Jackson",
-      "note": "Eerdere president, door Trump in het Oval Office gehangen, racistisch en populistisch",
-      "start_seconds": 1385,
-      "wiki_checked": true,
-      "wiki_pageid": 102167,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andrew_Jackson",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Andrew_jackson_head_%28cropped%29.jpg/250px-Andrew_jackson_head_%28cropped%29.jpg"
-    },
-    {
-      "name": "Huey Long",
-      "note": "Eerdere Amerikaanse populist die door partijbonzen werd geweerd",
-      "start_seconds": 1376,
-      "wiki_checked": true,
-      "wiki_pageid": 579092,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Huey_Long_%28politicus%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/HueyPLongGesture.jpg/250px-HueyPLongGesture.jpg"
-    },
-    {
-      "name": "George Wallace",
-      "note": "Eerdere Amerikaanse populist die door partijbonzen werd geweerd",
-      "start_seconds": 1376,
-      "wiki_checked": true,
-      "wiki_pageid": 101412,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Wallace",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/George_Wallace_%28D-AL%29_%283x4%29.jpg/250px-George_Wallace_%28D-AL%29_%283x4%29.jpg"
-    },
-    {
-      "name": "Jimmy Carter",
-      "note": "Evangelicale democratische president, zondagschoolleraar",
-      "start_seconds": 1739,
-      "wiki_checked": true,
-      "wiki_pageid": 3643,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jimmy_Carter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/250px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg"
-    },
-    {
-      "name": "George W. Bush",
-      "note": "Evangelicale president, riep artikel 5 in na 9/11, waarschuwde tegen islamhaat",
-      "start_seconds": 1019,
-      "wiki_checked": true,
-      "wiki_pageid": 9659,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush.jpeg/250px-George-W-Bush.jpeg"
+      "name": "James Comey",
+      "note": "Voormalige FBI-chef, ontslagen door Trump; auteur van Higher Loyalty",
+      "start_seconds": 809,
+      "mention_count": 3
     },
     {
       "name": "Barack Obama",
-      "note": "Eerste zwarte president, wekte verzet onder witte evangelicals",
-      "start_seconds": 1890,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "note": "Voormalige Amerikaanse president; verkiezing als zwarte president beladen",
+      "start_seconds": 1889,
+      "mention_count": 3
     },
     {
-      "name": "Geert Mak",
-      "note": "Historicus die Amsterdamse kooplieden beschrijft",
-      "start_seconds": 921,
-      "wiki_checked": true,
-      "wiki_pageid": 53925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Geert_Mak",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Geert_Mak.JPG/250px-Geert_Mak.JPG"
+      "name": "George W. Bush",
+      "note": "Voormalige Amerikaanse president; reactie op 9/11 en artikel 5 NAVO",
+      "start_seconds": 1450,
+      "mention_count": 3
+    },
+    {
+      "name": "Jimmy Carter",
+      "note": "Democratische evangelical president",
+      "start_seconds": 1700,
+      "mention_count": 2
+    },
+    {
+      "name": "Friedrich Merz",
+      "note": "Duitse CDU-politicus en kanselierskandidaat",
+      "start_seconds": 1560,
+      "mention_count": 4
+    },
+    {
+      "name": "Alice Weidel",
+      "note": "Leidster van de AfD",
+      "start_seconds": 1570,
+      "mention_count": 2
+    },
+    {
+      "name": "Viktor Orbán",
+      "note": "Hongaarse premier die niet meedoet aan Europees defensieplan",
+      "start_seconds": 2580,
+      "mention_count": 3
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president; bood nucleaire capaciteit aan Europa aan",
+      "start_seconds": 2600,
+      "mention_count": 2
+    },
+    {
+      "name": "Keir Starmer",
+      "note": "Britse premier",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Secretaris-generaal van de NAVO",
+      "start_seconds": 2680,
+      "mention_count": 2
+    },
+    {
+      "name": "Pete Hegseth",
+      "note": "Amerikaanse minister van Defensie",
+      "start_seconds": 2180,
+      "mention_count": 2
+    },
+    {
+      "name": "Andrew Jackson",
+      "note": "Amerikaanse president die Trump in zijn Oval Office liet ophangen",
+      "start_seconds": 1390,
+      "mention_count": 2
+    },
+    {
+      "name": "Winston Churchill",
+      "note": "Britse premier; sprak over Hitler in de Tweede Wereldoorlog",
+      "start_seconds": 420,
+      "mention_count": 1
+    },
+    {
+      "name": "Nigel Farage",
+      "note": "Britse populistisch-rechtse politicus die afstand neemt van Trump",
+      "start_seconds": 3900,
+      "mention_count": 1
+    },
+    {
+      "name": "Stefan Paas",
+      "note": "Theoloog, vaste gast; mogelijk genoemd als vaste gast",
+      "start_seconds": 0,
+      "mention_count": 1
+    },
+    {
+      "name": "Larry Bartels",
+      "note": "Politicoloog; auteur van Democracy Erodes from the Top",
+      "start_seconds": 1449,
+      "mention_count": 2
+    },
+    {
+      "name": "Steven Levitsky",
+      "note": "Politicoloog; medeauteur van How Democracies Die",
+      "start_seconds": 1155,
+      "mention_count": 1
+    },
+    {
+      "name": "Daniel Ziblatt",
+      "note": "Politicoloog; medeauteur van How Democracies Die",
+      "start_seconds": 1155,
+      "mention_count": 1
+    },
+    {
+      "name": "Alasdair MacIntyre",
+      "note": "Filosoof; auteur van After Virtue",
+      "start_seconds": 3334,
+      "mention_count": 2
+    },
+    {
+      "name": "Socrates",
+      "note": "Griekse filosoof; citaat over oneer en schaamte",
+      "start_seconds": 3240,
+      "mention_count": 1
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Griekse filosoof; kerndeugden",
+      "start_seconds": 3260,
+      "mention_count": 1
+    },
+    {
+      "name": "Karl Marx",
+      "note": "Filosoof; genoemd als invloed op individualisering",
+      "start_seconds": 3340,
+      "mention_count": 1
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; genoemd als invloed op moraal",
+      "start_seconds": 3345,
+      "mention_count": 1
     },
     {
       "name": "Carl Schmitt",
-      "note": "Denker van politiek als strijd tussen vriend en vijand",
-      "start_seconds": 2105,
-      "wiki_checked": true,
-      "wiki_pageid": 171250,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Carl_Schmitt",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Carl_Schmitt_1904_Schulklasse.jpg/250px-Carl_Schmitt_1904_Schulklasse.jpg"
+      "note": "Staatsrechtsgeleerde; politiek als vriend-vijanddenken",
+      "start_seconds": 2104,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "Schrijver; beschrijft Amsterdamse kooplieden",
+      "start_seconds": 903,
+      "mention_count": 1
+    },
+    {
+      "name": "Patrick Deneen",
+      "note": "Conservatieve Amerikaanse filosoof; noemt Trump een gemankeerde narcist",
+      "start_seconds": 3480,
+      "mention_count": 1
+    },
+    {
+      "name": "Tobias Kremer",
+      "note": "Auteur van The Godless Crusade",
+      "start_seconds": 1842,
+      "mention_count": 1
+    },
+    {
+      "name": "Tom-Jan Meeuws",
+      "note": "Journalist die schreef over het Amerikaanse juridische systeem",
+      "start_seconds": 500,
+      "mention_count": 1
     },
     {
       "name": "Eric Metaxas",
-      "note": "Amerikaanse conservatief die oproept kerken te verlaten bij te progressieve preken",
-      "start_seconds": 657,
-      "wiki_checked": true
+      "note": "Christelijke Amerikaanse auteur en activist",
+      "start_seconds": 660,
+      "mention_count": 1
+    },
+    {
+      "name": "Huey Long",
+      "note": "Historische Amerikaanse politicus met populistische trekken",
+      "start_seconds": 1370,
+      "mention_count": 1
+    },
+    {
+      "name": "Kim Jong-un",
+      "note": "Noord-Koreaanse leider; Trump ontmoette hem",
+      "start_seconds": 3945,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "How Democracies Die",
       "author": "Steven Levitsky en Daniel Ziblatt",
-      "note": "Over hoe democratieën van binnenuit verworden tot autocratieën",
+      "note": "Boek over hoe democratieën autocratisch worden; door Stefan Paas gelezen",
       "start_seconds": 1155,
-      "volume_id": "GmkwDwAAQBAJ",
+      "volume_id": "se7iswEACAAJ",
       "canonical_title": "How Democracies Die",
       "canonical_author": "Steven Levitsky, Daniel Ziblatt",
-      "isbn13": "9780241317990",
-      "isbn10": "0241317991",
-      "thumbnail": "http://books.google.com/books/content?id=GmkwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9780525574538",
+      "isbn10": "0525574530",
+      "thumbnail": "http://books.google.com/books/content?id=se7iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "Democracy Erodes from the Top",
       "author": "Larry M. Bartels",
-      "note": "Leiders, niet het volk, drijven populisme",
-      "start_seconds": 1465,
+      "note": "Analyse van populistische leiders en hun rol in democratische erosie",
+      "start_seconds": 1449,
       "volume_id": "PqiTEAAAQBAJ",
       "canonical_title": "Democracy Erodes from the Top: Leaders, Citizens, and the Challenge of Populism in Europe",
       "canonical_author": "Larry M. Bartels",
@@ -223,163 +274,191 @@
     {
       "title": "Higher Loyalty",
       "author": "James Comey",
-      "note": "Trump vergeleken met een maffiabaas",
-      "start_seconds": 820,
-      "volume_id": "4CovDwAAQBAJ",
-      "canonical_title": "A Higher Loyalty: Truth, Lies, and Leadership",
-      "canonical_author": "James Comey",
-      "isbn13": "9781250192462",
-      "isbn10": "1250192463",
-      "thumbnail": "http://books.google.com/books/content?id=4CovDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Memoires van de ontslagen FBI-chef over zijn botsing met Trump",
+      "start_seconds": 809,
+      "volume_id": "HxFaDwAAQBAJ",
+      "canonical_title": "Loyaliteit: Waarheid, leugens en leiderschap",
+      "canonical_author": "James Comey, Marianne Palm",
+      "isbn13": "9789044541151",
+      "isbn10": "9044541153",
+      "thumbnail": "http://books.google.com/books/content?id=HxFaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
     },
     {
       "title": "The Godless Crusade",
-      "author": "Tobias Cremer",
-      "note": "Evangelical als label voor white nationalism",
-      "start_seconds": 1840,
+      "author": "Tobias Kremer",
+      "note": "Analyse van evangelical als etiket voor white nationalism",
+      "start_seconds": 1842,
       "volume_id": "nomzEAAAQBAJ",
       "canonical_title": "The Godless Crusade: Religion, Populism and Right-Wing Identity Politics in the West",
       "canonical_author": "Tobias Cremer",
       "isbn13": "9781009262156",
       "isbn10": "1009262157",
       "thumbnail": "http://books.google.com/books/content?id=nomzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-    }
-  ],
-  "bible_refs": [
+    },
     {
-      "ref": "Mattheus 5",
-      "note": "Bergrede, waarover een Amerikaanse dominee werd aangeklaagd wegens te links preken",
-      "start_seconds": 643
+      "title": "After Virtue",
+      "author": "Alasdair MacIntyre",
+      "note": "Kritiek op het verlies van morele deugden in de moderne samenleving",
+      "start_seconds": 3334,
+      "volume_id": "H_oxngEACAAJ",
+      "canonical_title": "After Virtue: A Study in Moral Theory",
+      "canonical_author": "Alasdair MacIntyre",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
+  "bible_refs": [],
   "places": [
-    "Verenigde Staten",
     "Alabama",
     "Auburn",
     "Atlanta",
-    "Europa",
-    "Oekraïne",
-    "Rusland",
-    "Duitsland",
-    "Frankrijk",
+    "Baton Rouge",
+    "New Orleans",
+    "Charleston",
+    "Utrecht",
+    "Amsterdam",
     "München",
-    "Nederland",
+    "Polen",
+    "Oekraïne",
+    "Canada",
+    "Idaho",
     "Japan",
     "Afghanistan",
     "Irak",
-    "Canada",
-    "Amsterdam"
+    "Kabul",
+    "Hongarije",
+    "Duitsland",
+    "Engeland",
+    "Frankrijk",
+    "Rusland",
+    "Verenigde Staten",
+    "New York",
+    "Venezuela",
+    "Peru"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken hoe Amerika onder Trump afglijdt naar autocratie, met een angstklimaat tot in universiteiten en kerken, terwijl Europa zich lijkt te organiseren. Aan de hand van How Democracies Die en Democracy Erodes from the Top verklaren ze hoe democratische normen eroderen. Ook komt de rol van witte evangelicals en wit christelijk nationalisme aan bod.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de politieke en culturele verschuivingen in de Verenigde Staten onder Trump, waaronder het angstklimaat, de transactionele buitenlandpolitiek en de rol van evangelicals. Daarna richten ze zich op Europa, dat zich met de defensieplannen van 800 miljard eensgezind lijkt op te stellen, en op de vraag welke waarden hieronder schuilgaan. De rode draad is dat democratie en morele deugden kwetsbaar zijn en verdediging behoeven.",
   "summary_points": [
-    "Marco Rubio draait met een askruis op zijn hoofd naar Poetins verhaal: angst voor Trump boven Christus",
-    "In Alabama merkt De Graaf een chilling effect: academici durven niet kritisch te zijn, vergelijkbaar met de DDR-sfeer",
-    "Trump hanteert de taal van kaarten en macht, geen moraal; Paas ziet een maffiabaas of afperser",
-    "Trump mist historisch besef, bijvoorbeeld over NAVO artikel 5 en Japan",
-    "How Democracies Die: democratieën verdwijnen van binnenuit door normerosie en gebrek aan terughoudendheid",
-    "Bartels: populisme wordt gevoed door leiders en media, niet door het volk; Duitse verkiezingen laten dat zien",
-    "Evangelicals zijn gepolariseerd en naar de Republikeinen verschoven door secularisatie, rassenverhoudingen en Trumps rechterbenoemingen",
-    "Evangelical is een politiek label geworden, een hondenfluitje voor racisme en white nationalism"
+    "In de VS heerst volgens De Graaf een angstklimaat waarin academici en ambtenaren zich uit vrees voor ontslag of klachten inhouden.",
+    "Trump wordt getypeerd als transactioneel en machtsgericht, met een buitenlandbeleid dat langetermijnrelaties ondermijnt.",
+    "Paas en De Graaf zien parallellen met autocratische overgangen zoals beschreven in How Democracies Die.",
+    "Het politieke midden en normen zoals het respecteren van instituties zijn volgens hen cruciaal voor democratie.",
+    "Evangelicals stemden massaal op Trump, maar het label evangelical is volgens hen deels een politiek en witte nationalistische identiteit geworden.",
+    "Europa zet militair in op eigen benen, wat De Graaf ziet als noodzakelijk maar verschrikkelijk.",
+    "Rechtse Europese partijen als AfD en Le Pen houden zich nu meer met vrede en veiligheid bezig dan met migratie.",
+    "De Graaf pleit voor het terugvoeren van politieke keuzes op morele deugden zoals moed, recht en wijsheid.",
+    "Musk en Vance komen internationaal amateuristisch over en vervreemden bondgenoten."
   ],
   "chapters": [
     {
-      "start_seconds": 6,
-      "title": "Rubio's askruis en doublespeak",
-      "summary": "Paas en De Graaf bespreken Rubio's draai en het angstklimaat dat De Graaf in Alabama aantrof."
+      "start_seconds": 0,
+      "title": "Inleiding en eerste indrukken",
+      "summary": "David Boogerd introduceert het gesprek en de gasten, en vraagt naar de meest opvallende momenten van de afgelopen weken."
     },
     {
-      "start_seconds": 435,
-      "title": "Chilling effect in de VS",
-      "summary": "Ontslagen, dreigbrieven en klachten tegen dominees zorgen ervoor dat mensen zichzelf censureren."
-    },
-    {
-      "start_seconds": 720,
-      "title": "Trump als maffiabaas",
-      "summary": "De taal van kaarten en deals, de ruzie met Zelensky en het gebrek aan historisch besef."
+      "start_seconds": 146,
+      "title": "Askruis en het angstklimaat in de VS",
+      "summary": "Paas beschrijft Rubio's askruis als teken van opportunisme, en De Graaf vertelt over angst bij collega's in Alabama."
     },
     {
       "start_seconds": 1155,
-      "title": "How Democracies Die",
-      "summary": "Hoe democratieën van binnenuit uitgehold worden en welke vangrails nodig zijn."
+      "title": "Hoe democratieën doodgaan",
+      "summary": "Paas en De Graaf bespreken How Democracies Die, normenerosie en de rol van Trump in de Amerikaanse geschiedenis van populisten."
     },
     {
-      "start_seconds": 1465,
-      "title": "Populisme komt van boven",
-      "summary": "Bartels' these over leiders en media, met het voorbeeld van Duitsland en Merz."
+      "start_seconds": 1638,
+      "title": "Evangelicals en witte nationalisme",
+      "summary": "Het gesprek gaat over de politieke herschikking van evangelicals, het Stockholm-syndroom en de christelijke legitimatie van Trump."
     },
     {
-      "start_seconds": 1636,
-      "title": "Evangelicals en Trump",
-      "summary": "Waarom witte evangelicals Trump steunen en hoe het label is veranderd in white nationalism."
+      "start_seconds": 2422,
+      "title": "Europa staat op",
+      "summary": "Europese defensieplannen, de atoombomdiscussie en de vraag of herbewapening vrede dichterbij brengt, komen aan bod."
+    },
+    {
+      "start_seconds": 3055,
+      "title": "Waarden, deugden en het politieke midden",
+      "summary": "De Graaf en Paas betogen dat keuzes teruggevoerd moeten worden op deugden, en pleiten voor een breed democratisch midden."
+    },
+    {
+      "start_seconds": 3596,
+      "title": "Trump als narcist en afsluiting",
+      "summary": "Trump wordt geschetst als instinctief en wreed, waarna de aflevering eindigt met een luchtige noot over Augustinus en askruisen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 244,
+      "start_seconds": 236,
       "speaker": "Stefan Paas",
       "text": "Wat je daar ziet is iemand die Trump meer vreest dan Christus.",
-      "note": "Scherpe theologische typering van Rubio's draai."
+      "note": "Scherpe kritiek op Rubio's publieke gedrag met askruis, dat de religieuze symboliek ondermijnt."
     },
     {
-      "start_seconds": 275,
+      "start_seconds": 338,
       "speaker": "Beatrice de Graaf",
-      "text": "Collega's durven plenair niets anti-Trump te zeggen en komen achter de schermen sorry zeggen voor hun president.",
-      "note": "Getuigenis van het angstklimaat in de Amerikaanse academie."
+      "text": "Plenair durfden mijn collega's niets anti-Trump te zeggen, maar achter de schermen zeiden ze: sorry Beatrice, voor onze president.",
+      "note": "Illustreert het angstklimaat en de kloof tussen publiek zwijgen en privé kritiek."
     },
     {
-      "start_seconds": 740,
-      "speaker": "David Boogerd",
-      "text": "Zelensky: I'm not playing cards. Trump's taal gaat niet over moraal of recht, maar over kaarten en macht.",
-      "note": "Illustreert de kaalslag van geopolitieke taal."
+      "start_seconds": 2767,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het positieve gevoel is dat Europa dit kan, maar het is verschrikkelijk dat het moet.",
+      "note": "Ambivalente houding tegenover Europese herbewapening, zonder triomfalisme."
     },
     {
-      "start_seconds": 845,
+      "start_seconds": 3278,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het idee dat je beter moet worden en aan een waarde moet voldoen, is weg.",
+      "note": "Verwijst naar MacIntyre en de erosie van morele deugden in het publieke debat."
+    },
+    {
+      "start_seconds": 3474,
       "speaker": "Stefan Paas",
-      "text": "Trump lijkt het meest op een kapo die respect en loyaliteit eist en iedereen screwt in elke deal.",
-      "note": "Maffiabaas-analyse op basis van Comey."
-    },
-    {
-      "start_seconds": 1861,
-      "speaker": "Beatrice de Graaf",
-      "text": "Evangelicalism is een hondenfluitje geworden voor racisme.",
-      "note": "Duidt de verschuiving van het label evangelical."
+      "text": "Het is een vrij instinctieve en wrede man.",
+      "note": "Karakterisering van Trump die de aflevering inhoudelijk afsluit en de morele dimensie benadrukt."
     }
   ],
   "keywords": [
+    "angstklimaat",
+    "autocratie",
     "Trump",
     "evangelicals",
-    "wit christelijk nationalisme",
-    "chilling effect",
+    "witte nationalisme",
+    "Europese defensie",
+    "atoombom",
+    "deugdenethiek",
+    "politiek midden",
     "How Democracies Die",
-    "autocratie",
     "populisme",
-    "NAVO",
-    "Europa",
-    "Rubio",
-    "polarisatie",
-    "democratische normen"
+    "NAVO"
   ],
-  "quotes": [],
+  "quotes": [
+    "Zo wil Europa 800 miljard uitgeven aan wapens, maar is dat echt nodig?",
+    "Brengt dat vrede echt dichterbij?",
+    "Welke waarden gaan er schuil achter de botsende wereldvisies?"
+  ],
   "similar": [
     {
-      "n": 284,
-      "reason": "Beatrice de Graaf en Paas over machtspolitiek, Trump, Poetin en de rol van Europa."
+      "n": 309,
+      "reason": "Zelfde gasten; gaat over Trump, Poetin en autoritaire leiders en geopolitiek."
     },
     {
-      "n": 241,
-      "reason": "De Graaf en Paas over denkers en ideologieën achter Trump, inclusief religieuze dimensie."
+      "n": 284,
+      "reason": "Brute machtspolitiek, Trump, Poetin en Europa; zelfde gast en thematiek."
     },
     {
       "n": 239,
-      "reason": "Luyendijk over Amerikaans verraad en Europa dat serieus moet worden; Trump en vrijheid."
+      "reason": "Over de VS onder Trump, Europa en vrijheid, met Joris Luyendijk."
     },
     {
-      "n": 230,
-      "reason": "Nieuwe wereldorde met Trump en Poetin, Europa onder druk."
+      "n": 248,
+      "reason": "Vraagt wie de nieuwe wereldorde bepaalt, met Beatrice de Graaf."
     },
     {
-      "n": 309,
-      "reason": "De Graaf en Paas over Trump, Poetin en autoritaire machtsstrategieën."
+      "n": 241,
+      "reason": "Analyseert de ideeën en denkers achter Trump, met Beatrice de Graaf."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

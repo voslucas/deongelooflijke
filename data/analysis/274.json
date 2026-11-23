@@ -1,17 +1,22 @@
 {
   "episode": 274,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 98744,
+    "segments": 966,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30892,
-    "output_tokens": 2416,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 50712,
+    "output_tokens": 6604,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Dood & rouw",
     "Zingeving & psyche",
-    "Gezin & relaties",
+    "God & geloof",
     "Kerk & secularisatie"
   ],
   "guests": [
@@ -20,54 +25,77 @@
   "people": [
     {
       "name": "Manu Keirse",
-      "note": "psycholoog en rouwdeskundige, gast van de aflevering",
-      "start_seconds": 33,
-      "wiki_checked": true,
-      "wiki_pageid": 998974,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Manu_Keirse",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Bestaat_er_een_medicijn_tegen_verdriet.webm/250px--Bestaat_er_een_medicijn_tegen_verdriet.webm.jpg"
-    },
-    {
-      "name": "Kifa Awad",
-      "note": "Palestijnse gast uit eerdere aflevering 211 over de oorlog in Gaza",
-      "start_seconds": 191,
-      "wiki_checked": true
-    },
-    {
-      "name": "Els van Wijngaarden",
-      "note": "onderzoeker naar voltooid leven, eerder te gast; schreef een boek over het onderwerp",
-      "start_seconds": 725,
-      "wiki_checked": true
+      "note": "Psycholoog, rouwdeskundige en gast; vertelt over eigen ervaringen met sterven en rouw",
+      "start_seconds": 5,
+      "mention_count": 1
     },
     {
       "name": "Elisabeth Kübler-Ross",
-      "note": "psychiater, schreef in 1969 On Death and Dying en beschreef de vijf fasen van rouw",
+      "note": "Auteur van 'On Death and Dying' (1969) over de fasen van rouw",
       "start_seconds": 2487,
-      "wiki_checked": true,
-      "wiki_pageid": 918148,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Elisabeth_K%C3%BCbler-Ross"
+      "mention_count": 3
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider wiens boodschap voortleeft na zijn dood",
+      "start_seconds": 3615,
+      "mention_count": 4
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Voormalig Amerikaans president, genoemd als gevolg van Martin Luther King",
+      "start_seconds": 3615,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Levinas",
+      "note": "Filosoof wiens idee van het bewogen worden door de tranen van de ander Manu inspireert",
+      "start_seconds": 3549,
+      "mention_count": 2
+    },
+    {
+      "name": "Thomas van Aquino",
+      "note": "Middeleeuwse kerkvader; zijn laatste woorden: 'Curiosus sum'",
+      "start_seconds": 3817,
+      "mention_count": 1
+    },
+    {
+      "name": "Jozef De Kesel",
+      "note": "Belgische kardinaal die twijfelt aan een hemel zoals kinderen die geleerd wordt",
+      "start_seconds": 3826,
+      "mention_count": 1
+    },
+    {
+      "name": "Cornelis Verhoeven",
+      "note": "Filosoof; schreef dat elk levensjaar een fundament is om vooruit te kijken",
+      "start_seconds": 3176,
+      "mention_count": 1
+    },
+    {
+      "name": "Hilda de Vos",
+      "note": "Vrouw uit het dorp van Manu die overleed aan kinderverlamming; zijn eerste slecht-nieuwsgesprek",
+      "start_seconds": 1892,
+      "mention_count": 3
     }
   ],
   "books": [
     {
       "title": "Anders leven, anders omgaan met ziekte en met sterven",
       "author": "Manu Keirse",
-      "note": "Keirse bezocht voor dit boek het dorp van zijn jeugd",
+      "note": "Boek waaraan Manu werkte; aanleiding voor zijn terugkeer naar zijn dorp",
       "start_seconds": 746,
-      "volume_id": "BM8xEAAAQBAJ",
-      "canonical_title": "Anders leven: Pleidooi voor een humanere en meer verbonden samenleving",
+      "volume_id": "9OeczgEACAAJ",
+      "canonical_title": "Anders leven: pleidooi voor een humanere en meer verbonden samenleving",
       "canonical_author": "Manu Keirse",
-      "isbn13": "9789401478892",
-      "isbn10": "9401478899",
-      "thumbnail": "http://books.google.com/books/content?id=BM8xEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789401478137",
+      "isbn10": "9401478139",
+      "thumbnail": ""
     },
     {
       "title": "On Death and Dying",
       "author": "Elisabeth Kübler-Ross",
-      "note": "verscheen in 1969, de vijf fasen van rouw",
-      "start_seconds": 2490,
+      "note": "Verscheen in 1969; beschrijft de vijf fasen van rouw",
+      "start_seconds": 2493,
       "volume_id": "HlkWBAAAQBAJ",
       "canonical_title": "On Death and Dying: What the Dying Have to Teach Doctors, Nurses, Clergy and Their Own Families",
       "canonical_author": "Elisabeth Kübler-Ross, Ira Byock",
@@ -78,98 +106,93 @@
   ],
   "bible_refs": [],
   "places": [
-    "Nederland",
-    "België",
     "Vlaanderen",
-    "Amsterdam",
-    "Utrecht",
-    "Gaza",
-    "Oekraïne",
-    "Soedan",
-    "Leuven",
-    "Den Haag",
+    "België",
+    "Nederland",
     "Lourdes",
-    "Amerika"
+    "Leuven",
+    "Amsterdam",
+    "Gaza"
   ],
-  "summary_tldr": "Manu Keirse, psycholoog en rouwdeskundige, pleit ervoor de dood te herwaarderen als onderdeel van het leven. Aan de hand van persoonlijke herinneringen uit zijn jeugd en zijn werk met stervenden bespreekt hij hoe belangrijk openheid, eerlijkheid en verbondenheid zijn, zeker richting kinderen. Ook komen euthanasie, palliatieve zorg en de medische neiging om de dood te ontkennen aan bod.",
+  "summary_tldr": "Manu Keirse, psycholoog en rouwdeskundige, pleit ervoor de dood weer te zien als onderdeel van het leven in plaats van die weg te stoppen. Hij deelt persoonlijke ervaringen uit zijn jeugd in Vlaanderen, de rol van kinderen bij sterven en rouw, en kritiek op een medische cultuur die sterven steeds meer medicaliseert. Het gesprek eindigt bij de vraag wat er na de dood blijft: de herinnering en de liefde die je achterlaat.",
   "summary_points": [
-    "De dood is volgens Keirse de bekroning van een leven en moet als onderdeel van het leven worden herwaardeerd.",
-    "Door de verdubbelde levensverwachting en kleinere gezinnen komen mensen minder in aanraking met sterven, waardoor de angst groter wordt.",
-    "Kinderen moeten eerlijk en direct worden geïnformeerd over ziekte en dood; verbergen versterkt hun gevoel er niet bij te horen.",
-    "Keirse's jeugd als misdienaar in een Vlaams dorp leerde hem dat verdriet en liefde met elkaar verbonden zijn.",
-    "Een slecht-nieuwsgesprek begin je direct en eerlijk, en betrouwbaarheid is het belangrijkste wat je kunt bieden.",
-    "Euthanasie en palliatieve zorg zijn complementair, niet tegengesteld.",
-    "In de jaren zestig werd de dood in ziekenhuizen verzwegen; de moderne geneeskunde richtte zich op genezen en niet op sterven.",
-    "Het medische systeem kent moeite om te stoppen met behandelen, waardoor zinloos lijden kan ontstaan.",
-    "David Boogerd deelt zijn eigen ervaring met het verlies van zijn moeder op achtjarige leeftijd."
+    "Dood is volgens Manu de bekroning van een leven en maakt waarden zichtbaarder",
+    "Moderne samenleving heeft de dood uit het dagelijks leven verbannen, terwijl mensen er nog steeds mee geconfronteerd worden via media",
+    "Manu's jeugd in een Vlaams dorp, met een huisarts en pastoor die kinderen meenamen naar sterfbedden, vormde zijn kijk op sterven",
+    "Euthanasie en palliatieve zorg zijn volgens Manu complementair en geen tegenpolen",
+    "Kinderen moeten eerlijk geïnformeerd worden over ernstige ziekte en sterven, zonder dingen te verbergen",
+    "Medische technologie creëert een mistgordijn waardoor sterven onzichtbaar wordt; artsen moeten vaker vragen of behandelingen nog zinvol zijn",
+    "Manu is zelf niet bang voor de dood, maar wel voor het achterlaten van zijn vrouw, en wil thuis sterven",
+    "Manu's katholieke achtergrond en zijn werk voor slachtoffers van misbruik in de Belgische kerk komen aan bod",
+    "Geloof betekent voor Manu het voortleven van liefde en betekenis in de herinneringen van anderen, niet een letterlijk hiernamaals",
+    "Stefan Paas en David Boogerd bevragen het idee van een eeuwig leven en bekijken de christelijke traditie van opstanding"
   ],
   "chapters": [
     {
-      "start_seconds": 33,
-      "title": "De dood als bekroning van het leven",
-      "summary": "Introductie van Manu Keirse en zijn stelling dat de dood herwaardeerd moet worden. Korte uitweiding over de podcastaward en aflevering met Kifa."
+      "start_seconds": 0,
+      "title": "Inleiding en welkom",
+      "summary": "David introduceert Manu Keirse en het thema de dood, en het gesprek start met een korte terugblik op eerder werk."
     },
     {
-      "start_seconds": 284,
-      "title": "Waarom we de dood wegstoppen",
-      "summary": "Over levensverwachting, verdwenen drie-generatiegezinnen en het verschil tussen persoonlijk sterven en onpersoonlijk nieuws over oorlog."
+      "start_seconds": 300,
+      "title": "De dood verdwijnt uit het dagelijks leven",
+      "summary": "Manu schetst hoe sterven vroeger deel uitmaakte van het gezinsleven en hoe kindersterfte en levensverwachting zijn veranderd."
     },
     {
-      "start_seconds": 516,
+      "start_seconds": 540,
       "title": "Euthanasie en palliatieve zorg",
-      "summary": "Keirse legt uit dat euthanasie en palliatieve zorg complementair zijn en vertelt over zijn rol in de Belgische wetgeving."
+      "summary": "Manu bespreekt euthanasie, palliatieve zorg en zijn werk als beleidsmaker en penhouder van wetgeving in België."
     },
     {
-      "start_seconds": 746,
-      "title": "Jeugdherinneringen aan sterven",
-      "summary": "Verhalen over de dood van zijn grootmoeder, het overreden jongetje, de wijze huisarts en het gezin met elf kinderen."
+      "start_seconds": 1187,
+      "title": "Kinderen en de dood",
+      "summary": "Manu pleit ervoor kinderen eerlijk te informeren over ziekte en sterven en deelt ervaringen van gezinnen en kinderen die een ouder verliezen."
     },
     {
-      "start_seconds": 1007,
-      "title": "Kinderen eerlijk informeren",
-      "summary": "Over praten met kinderen over ziekte en dood, de gevolgen van zwijgen en Boogerds eigen ervaring."
+      "start_seconds": 1637,
+      "title": "Misdienaar en het overbrengen van slecht nieuws",
+      "summary": "Manu vertelt over zijn jeugd als misdienaar bij stervenden en hoe hij als kind leerde slecht nieuws te brengen; ook zijn ervaringen met artsen en noodsituaties komen aan bod."
     },
     {
-      "start_seconds": 1645,
-      "title": "Misdienaar bij stervenden en het slecht-nieuwsgesprek",
-      "summary": "Keirse als misdienaar bij het laatste sacrament, zijn eerste slecht-nieuwsgesprek op tienjarige leeftijd en de les van betrouwbaarheid."
+      "start_seconds": 2690,
+      "title": "Medicalisering en het wegstoppen van de dood",
+      "summary": "Manu bekritiseert een technocratische geneeskunde die doorgaat met zinloze behandelingen en pleit voor het zien van sterven als onderdeel van het leven."
     },
     {
-      "start_seconds": 2316,
-      "title": "Ziekenhuizen, taboe en het technocratische model",
-      "summary": "Zijn vrijwilligerswerk op een kankerafdeling, het zwijgen over de dood en de medische illusie dat sterven kan worden overwonnen."
+      "start_seconds": 3172,
+      "title": "Persoonlijk: leeftijd, werk en geloof",
+      "summary": "Manu spreekt over zijn leeftijd, zijn vrouw, zijn werkethos en zijn betrokkenheid bij slachtoffers van misbruik in de kerk."
+    },
+    {
+      "start_seconds": 3600,
+      "title": "Hiernamaals, herinnering en slot",
+      "summary": "Het gesprek gaat over geloof in een hiernamaals versus voortleven in herinneringen, en eindigt met Manu's advies over wat mensen op het eind zouden moeten zeggen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 182,
+      "start_seconds": 180,
       "speaker": "Manu Keirse",
       "text": "De dood is de beëindiging, de bekroning van een leven.",
-      "note": "Kernstelling van de aflevering."
+      "note": "Deze uitspraak brengt het kernidee van het gesprek in één zin: sterven is niet alleen verlies maar ook betekenis."
     },
     {
-      "start_seconds": 15,
+      "start_seconds": 2045,
       "speaker": "Manu Keirse",
-      "text": "Sorry. Ik vergeef je. Ik dank je. Ik hou van je.",
-      "note": "De vier dingen die je aan het einde van je leven volgens Keirse moet zeggen."
+      "text": "In de eerste zin moet je zeggen: ik kom met slecht nieuws. Dit is gebeurd.",
+      "note": "Een concreet en praktisch inzicht uit zijn werk met artsen en hulpdiensten, dat laat zien hoe eerlijkheid en snelheid zorgvuldigheid vormgeven."
     },
     {
-      "start_seconds": 2064,
+      "start_seconds": 2719,
       "speaker": "Manu Keirse",
-      "text": "Hij gaf een jongetje van tien een slecht-nieuwsgesprek om te voeren: voorzichtig, op kousenvoeten naar binnen.",
-      "note": "Ontroerend en tegelijk invoelbaar verhaal over zijn eerste slecht-nieuwsgesprek."
+      "text": "Alles wat leeft gaat dood. Doodgaan is eigen aan leven.",
+      "note": "Een eenvoudige maar krachtige oproep om de dood opnieuw te integreren in het dagelijks leven, ook op scholen."
     },
     {
-      "start_seconds": 1224,
-      "speaker": "David Boogerd",
-      "text": "Een agent zei: 'Je moeder is dood.' Gewoon de eerste zin.",
-      "note": "Persoonlijk moment van Boogerd over het verlies van zijn moeder."
-    },
-    {
-      "start_seconds": 2395,
+      "start_seconds": 3942,
       "speaker": "Manu Keirse",
-      "text": "De dood had men nog niet uitgevonden. Over dood werd nooit gesproken.",
-      "note": "Scherpe typering van het ziekenhuistaboe in de jaren zestig."
+      "text": "Één keer dat je dood bent, stopt je lijden, stopt je beleving.",
+      "note": "Een nuchtere visie op de dood als eindpunt van ervaring, die tegelijk een oproep is om nu betekenisvol te leven."
     }
   ],
   "keywords": [
@@ -177,36 +200,41 @@
     "rouw",
     "palliatieve zorg",
     "euthanasie",
-    "kinderen",
-    "slecht-nieuwsgesprek",
-    "Manu Keirse",
-    "verbondenheid",
-    "sterfelijkheid",
-    "Kübler-Ross"
+    "kinderen en sterven",
+    "slecht nieuws",
+    "medicalisering",
+    "hiernamaals",
+    "herinnering",
+    "misbruik in de kerk",
+    "evangelische waarden"
   ],
   "quotes": [
-    "We moeten de dood herwaarderen, als onderdeel van het leven."
+    "We moeten de dood herwaarderen, als onderdeel van het leven.",
+    "Wij zijn als samenleving geneigd de dood weg te stoppen.",
+    "Hij trekt volle zalen in Nederland en België door te praten over de dood."
   ],
   "similar": [
     {
-      "n": 158,
-      "reason": "Euthanasie en de dood met Els van Wijngaarden, ook besproken in de huidige aflevering."
-    },
-    {
       "n": 201,
-      "reason": "Bevrijdend gesprek over de dood en angst voor sterven."
+      "reason": "Gesprek over de dood als bevrijdend thema, met vergelijkbare vragen over angst voor sterven"
     },
     {
-      "n": 87,
-      "reason": "Gesprek over de dood, praat erover in plaats van eroverheen."
-    },
-    {
-      "n": 281,
-      "reason": "Patholoog over de snijtafel en het mysterie rondom de dood."
+      "n": 158,
+      "reason": "Dood en euthanasie, met kritische kijk op hoe sterven wordt benaderd"
     },
     {
       "n": 320,
-      "reason": "Diepe rouw, verlies en troost na het overlijden van een partner."
+      "reason": "Diepe rouw en troost na verlies, sterk verwant aan rouwthema's van deze aflevering"
+    },
+    {
+      "n": 244,
+      "reason": "Ongeneeslijk ziek zijn en de dood opnieuw bekijken, met geloofservaring"
+    },
+    {
+      "n": 262,
+      "reason": "Bijna-doodervaring en vragen over leven na de dood"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

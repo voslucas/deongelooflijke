@@ -1,16 +1,21 @@
 {
   "episode": 97,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 86057,
+    "segments": 1034,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31520,
-    "output_tokens": 2189,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 45009,
+    "output_tokens": 7042,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Zingeving & psyche",
     "God & geloof",
+    "Zingeving & psyche",
     "Kerk & secularisatie",
     "Samenleving & migratie"
   ],
@@ -19,70 +24,78 @@
   ],
   "people": [
     {
-      "name": "Roxane van Iperen",
-      "note": "schrijfster, genoemd in verband met wellnessmoeders en complotdenken tijdens corona",
-      "start_seconds": 923,
-      "wiki_checked": true,
-      "wiki_pageid": 5294069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roxane_van_Iperen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Roxane_van_Iperen_2017.jpg/250px-Roxane_van_Iperen_2017.jpg"
-    },
-    {
-      "name": "John Mbiti",
-      "note": "Keniaanse filosoof/theoloog, schreef over African philosophy ('incurably religious')",
-      "start_seconds": 1667,
-      "wiki_checked": true
-    },
-    {
       "name": "Willem-Alexander",
-      "note": "koning; Kiza was uitgenodigd om mee te denken, vraag naar zijn geloof",
+      "note": "Koning der Nederlanden; wordt genoemd in verband met de vraag hoe seculier het koningshuis is en zijn interesse in bijbelstudie",
       "start_seconds": 1874,
-      "wiki_checked": true,
-      "wiki_pageid": 6408,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem-Alexander_der_Nederlanden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/King_Willem-Alexander_2025.jpg/250px-King_Willem-Alexander_2025.jpg"
-    },
-    {
-      "name": "Karel ter Linden",
-      "note": "predikant die veel optrok met de Oranjes",
-      "start_seconds": 1916,
-      "wiki_checked": true
-    },
-    {
-      "name": "Bert Kleij",
-      "note": "auteur van een boekje over de hervormde koningin",
-      "start_seconds": 1913,
-      "wiki_checked": true
+      "mention_count": 4
     },
     {
       "name": "Mark Rutte",
-      "note": "premier, geciteerd over zich 'invechten'",
-      "start_seconds": 1376,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Nederlands premier; Stefan Paas citeert hem over Kiza's beheersing van het Nederlands",
+      "start_seconds": 1372,
+      "mention_count": 1
+    },
+    {
+      "name": "Roxana van Yperen",
+      "note": "Journalist/schrijver die de term 'wellnessmoeder' gebruikte voor mensen die gevoelig zijn voor complotdenken",
+      "start_seconds": 915,
+      "mention_count": 1
+    },
+    {
+      "name": "Jordan Peterson",
+      "note": "Canadese psycholoog, populair in rechtse kringen, vooral onder jongens; gesprekspunt over zingeving en controle",
+      "start_seconds": 2443,
+      "mention_count": 2
+    },
+    {
+      "name": "Clemens van den Berg",
+      "note": "Historicus die de Europese geschiedenis en de rol van de kerk laat zien",
+      "start_seconds": 1321,
+      "mention_count": 1
+    },
+    {
+      "name": "Karel Terlinde",
+      "note": "Predikant die veel optrok met de Oranjes; vertelde dat Willem-Alexander graag aan bijbelstudie doet",
+      "start_seconds": 1916,
+      "mention_count": 1
+    },
+    {
+      "name": "Bert Kleij",
+      "note": "Auteur van een boekje over het protestantse karakter van het koningshuis",
+      "start_seconds": 1913,
+      "mention_count": 1
+    },
+    {
+      "name": "John Mbiti",
+      "note": "Schrijver over African philosophy die stelde dat de Afrikaan 'ongeneeslijk religieus' is",
+      "start_seconds": 1664,
+      "mention_count": 1
     },
     {
       "name": "Jezus",
-      "note": "geciteerd: de mens leeft niet van brood alleen",
-      "start_seconds": 2331,
-      "wiki_checked": true,
-      "wiki_pageid": 35945,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28traditioneel-christelijk%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/CompositeJesus.JPG/250px-CompositeJesus.JPG"
+      "note": "Bron van de uitspraken over bidden in de binnenkamer en over geven in het verborgene",
+      "start_seconds": 3214,
+      "mention_count": 2
+    },
+    {
+      "name": "Stine Jensen",
+      "note": "Filosoof en atheïst; aangekondigd als gesprekspartner op het NPO Podcast Event",
+      "start_seconds": 3357,
+      "mention_count": 1
+    },
+    {
+      "name": "Emmanuel Rutte",
+      "note": "Christen; aangekondigd als gesprekspartner op het NPO Podcast Event",
+      "start_seconds": 3357,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "Nederland in therapie",
+      "title": "Met Nederland in therapie",
       "author": "Kiza Magendane",
-      "note": "boek waarin hij zijn vluchtverhaal en leven in Nederland beschrijft",
-      "start_seconds": 700,
+      "note": "Boek van Kiza over wortelzucht, het verlangen naar vaste grond in een snel veranderende wereld, en de binnenkamer als plek van vorming",
+      "start_seconds": 2429,
       "volume_id": "6-lIEAAAQBAJ",
       "canonical_title": "Met Nederland in therapie",
       "canonical_author": "Kiza Magendane",
@@ -94,143 +107,163 @@
   "bible_refs": [
     {
       "ref": "Mattheus 4:4",
-      "note": "de mens leeft niet van brood alleen, geciteerd in Kiza's NRC-column",
-      "start_seconds": 2310
+      "note": "Kiza citeert 'Leef niet bij brood alleen' om te verwijzen naar het belang van het woord van God",
+      "start_seconds": 2331
+    },
+    {
+      "ref": "Mattheus 6:6",
+      "note": "Stefan Paas verwijst naar Jezus: bid in de binnenkamer, niet op de hoek van de straat",
+      "start_seconds": 3214
+    },
+    {
+      "ref": "Mattheus 6:3",
+      "note": "Stefan Paas: geef aalmoezen zo dat de rechterhand niet weet wat de linker doet",
+      "start_seconds": 3214
+    },
+    {
+      "ref": "Openbaring 7:9",
+      "note": "Stefan Paas verbindt de veelkleurige gemeenschap met het bijbelse visioen van volken, natiën, stammen en talen",
+      "start_seconds": 2819
     }
   ],
   "places": [
     "Congo",
-    "Nederland",
     "Amersfoort",
     "Amsterdam",
     "Bijlmer",
-    "Rome",
-    "België",
+    "Almere",
+    "Staphorst",
+    "Ede",
     "Lagos",
     "Nigeria",
-    "Afrika",
-    "Europa",
-    "Staphorst",
-    "Almere"
+    "Kenia",
+    "Rome",
+    "België",
+    "Utrecht",
+    "Soestdijk",
+    "Thailand"
   ],
-  "summary_tldr": "Kiza Magendane vertelt waarom hij ondanks succes als schrijver en columnist een geestelijke leegte voelt, terwijl hij als 15-jarige vluchteling uit Congo rust en geloof kende. Samen met Stefan Paas bespreekt hij secularisatie, migrantenkerken, spiritualiteit versus wellness en de rol van politiek. Ook komen verlies van zijn oma en omgaan met pijn aan bod.",
+  "summary_tldr": "Kiza Magendane, schrijver en NRC-columnist en oud-vluchteling uit Congo, bespreekt met David Boogerd en Stefan Paas waarom hij ondanks al zijn succes een leeg gevoel ervaart, in contrast met de rust en het geloof van zijn 15-jarige ik. Het gesprek gaat over geestelijke armoede in een welvarende, seculiere samenleving, over gemeenschap, overgave en de rol van kerken en politiek. Stefan Paas en Kiza verschillen van mening over individualisme, progressiviteit en de vraag of instrumentalisering van geloof te vermijden is.",
   "summary_points": [
-    "Kiza voelt zich leeg ondanks succes; prestaties blijken geen bron van bezieling",
-    "Als 15-jarige had hij rust door de overtuiging dat God aan het stuur zit",
-    "Hij spreekt van 'spirituele armoede' in Nederland",
-    "Spiritualiteit wordt gereduceerd tot wellness en 'Instagrammable' geluk",
-    "Hij nam de ellende in Congo mensen kwalijk, niet God",
-    "Op de universiteit werd neergekeken op geloof",
-    "Zijn beeld van Europa als ongelovig kwam voort uit kolonialisme",
-    "Afrikaanse christenen brengen mogelijk geloof terug naar Europa, maar megakerken hebben ook schaduwkanten",
-    "Verlies van zijn oma maakt pijn en liefde onlosmakelijk verbonden",
-    "Hij pleit ervoor dat politiek spiritualiteit agendeert als onderdeel van welzijn"
+    "Kiza ervaart ondanks succes een leegte, die hij koppelt aan de nadruk op prestaties en het ontbreken van een diepe relatie met God",
+    "Zijn 15-jarige ik had rust door het vertrouwen dat God aan het stuur zit; zijn huidige ik wil zelf de regie houden",
+    "Kiza stelt dat spiritualiteit in Nederland gereduceerd wordt tot wellness, mindfulness en een esthetisch product",
+    "Kiza ziet de welvarende, seculiere Nederlandse samenleving als een plek van spirituele armoede, waarin het leed buiten beeld wordt gehouden",
+    "Het gesprek gaat over de diversiteit van het Nederlandse kerklandschap en de groei van migrantenkerken, met kritiek op machtsmisbruik en instrumentalisering",
+    "Kiza beschouwt overgave aan een groter geheel en gemeenschap als essentie van het bestaan, en de status quo bevragen als kern van progressiviteit",
+    "Stefan Paas benadrukt dat je ook in een gemeenschap ambitie en geloof kunt combineren en dat intellectuele inzet en overgave samen kunnen gaan",
+    "De discussie over politiek en spiritualiteit: moet de overheid welzijn in brede zin, inclusief spiritualiteit, agenderen?",
+    "Kiza en Stefan bespreken het belang van verankering in een gemeenschap als voorwaarde voor leiderschap en zingeving",
+    "Het gesprek eindigt met de vraag of zoektochten naar geloof publiek gemaakt moeten worden of juist in de binnenkamer thuishoren"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Huilen en omgaan met pijn",
-      "summary": "Kiza over ontroering, verdriet en het verlies van zijn oma."
+      "title": "Introductie en een ontroerend begin",
+      "summary": "Kiza vertelt over zijn beeld van Nederland als ongelovig en over de tranentrekkende podcasts die hem ontroeren. Hij koppelt huilen aan het accepteren van pijn."
     },
     {
-      "start_seconds": 344,
-      "title": "De column over succes en leegte",
-      "summary": "Waarom hij kwetsbaar schreef over zijn lege gevoel ondanks bereikte dromen."
+      "start_seconds": 240,
+      "title": "Verlies, pijn en liefde",
+      "summary": "Kiza vertelt dat hij de afgelopen maanden veel verdriet heeft gehad, onder meer om het overlijden van zijn oma, die zijn boekpresentatie niet meemaakte."
     },
     {
-      "start_seconds": 570,
-      "title": "De 15-jarige vluchteling",
-      "summary": "De rust en verbondenheid met God die hij als jongen na de oorlog in Congo had."
+      "start_seconds": 376,
+      "title": "Succes en leegte",
+      "summary": "Kiza legt uit waarom hij zijn kwetsbare column schreef: hij bevraagt het idee dat alleen succes getoond mag worden en ervaart een leegte ondanks zijn prestaties."
     },
     {
-      "start_seconds": 760,
-      "title": "Spirituele armoede en wellness",
-      "summary": "Over psychologie, wellness en het gebrek aan taal voor spiritualiteit."
+      "start_seconds": 564,
+      "title": "De 15-jarige vluchteling en zijn rust",
+      "summary": "Kiza beschrijft zijn jongere ik als vrij en onbevangen, met een diepe connectie met God. Het gesprek gaat over het verlies van vertrouwen dat God het stuur heeft."
     },
     {
-      "start_seconds": 1290,
-      "title": "Kerken, kolonialisme en studeren",
-      "summary": "Zijn beeld van Europa, de Statenvertaling en neerkijken op geloof aan de universiteit."
+      "start_seconds": 991,
+      "title": "Geestelijke armoede en wellness",
+      "summary": "Kiza stelt dat spiritualiteit in Nederland een consumptieproduct is geworden, en dat geloof gaat over overgave in moeilijke tijden. Stefan Paas vraagt naar het verschil met Congo."
     },
     {
-      "start_seconds": 1660,
-      "title": "Afrika, omgekeerde zending en migrantenkerken",
-      "summary": "Over religie in Afrika, megakerken en kansen voor kerken in Nederland."
+      "start_seconds": 1526,
+      "title": "Beeld van Europa en Afrika",
+      "summary": "Kiza vertelt hoe hij als kind dacht dat Europeanen ongelovig waren vanwege kolonialisme. Het gesprek gaat over het Afrikaanse beeld van religiositeit en secularisatie."
     },
     {
-      "start_seconds": 2220,
-      "title": "Spiritualiteit en politiek",
-      "summary": "Het coalitieakkoord zonder God en de vraag naar de rol van de overheid."
+      "start_seconds": 2228,
+      "title": "Politiek, spiritualiteit en leiderschap",
+      "summary": "Kiza pleit voor aandacht voor spiritualiteit in het politieke debat. Stefan Paas waarschuwt voor de vermenging van staat en religie."
+    },
+    {
+      "start_seconds": 2838,
+      "title": "Overgave, gemeenschap en rust",
+      "summary": "Kiza ziet overgave als de essentie van het bestaan, waarin hij rust vindt. Stefan Paas en David Boogerd bespreken of rust en actief leven samen kunnen gaan, en het gesprek eindigt met een discussie over het publiek delen van zoektochten."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 436,
+      "start_seconds": 288,
       "speaker": "Kiza Magendane",
-      "text": "Ik heb mezelf wijsgemaakt dat het leven draait om prestaties, en ik ben gaan inzien dat het een leugen is.",
-      "note": "Kernmoment van zijn zelfreflectie."
+      "text": "De pijn die ik ervaar, komt voort uit liefde. Dat is de paradox.",
+      "note": "Een treffende samenvatting van de kern van zijn rouw en de verbinding tussen verdriet en verbondenheid."
     },
     {
-      "start_seconds": 630,
+      "start_seconds": 870,
       "speaker": "Kiza Magendane",
-      "text": "Ik ben jaloers op de onbevangenheid en rust van mijn 15-jarige ik.",
-      "note": "Verrassend: rust in oorlog, leegte in succes."
+      "text": "Spiritualiteit wordt gereduceerd tot een esthetisch verschijnsel in onze samenleving: het moet mooi zijn, goed voelen en functioneel.",
+      "note": "Een scherpe kritiek op hoe geloof in een welvarende samenleving wordt geconsumeerd."
     },
     {
-      "start_seconds": 292,
+      "start_seconds": 1453,
       "speaker": "Kiza Magendane",
-      "text": "De pijn die ik ervaar komt voort uit liefde.",
-      "note": "Persoonlijk over het verlies van zijn oma."
+      "text": "Het is achterlijk om neer te kijken op geloof.",
+      "note": "Een uitspraak die laat zien hoe Kiza het academische klimaat ervoer als een bubbel die geloof wegzet."
     },
     {
-      "start_seconds": 880,
+      "start_seconds": 2868,
       "speaker": "Kiza Magendane",
-      "text": "Spiritualiteit wordt gereduceerd tot een esthetisch verschijnsel: het moet mooi uitzien en goed voelen.",
-      "note": "Scherpe kritiek op wellnesscultuur."
-    },
-    {
-      "start_seconds": 1505,
-      "speaker": "Kiza Magendane",
-      "text": "Ik dacht dat mensen die anderen tot slaaf hadden gemaakt ongelovig moesten zijn.",
-      "note": "Onverwacht beeld van Nederland als nieuwkomer."
+      "text": "Wij zijn nooit individuen. Voor mij is de relatie met God overgave, en daarin rust ervaren.",
+      "note": "Het tegenwicht tegen het individualisme vormt de kern van zijn zoektocht naar zingeving."
     }
   ],
   "keywords": [
-    "spirituele armoede",
+    "geestelijke armoede",
+    "overgave",
+    "zingeving",
     "secularisatie",
-    "Congo",
     "vluchteling",
-    "wellness",
-    "migrantenkerk",
-    "omgekeerde zending",
-    "succes",
-    "verlies",
+    "gemeenschap",
+    "wellness-spiritualiteit",
+    "migrantenkerken",
+    "progressief",
+    "leegte",
     "Statenvertaling",
-    "spiritualiteit en politiek"
+    "binnenkamer"
   ],
   "quotes": [
-    "Hoe kan het dat ik alles bereikte wat ik altijd wilde, en mij diep van binnen toch leeg voel?"
+    "Hoe kan het dat ik alles bereikte wat ik altijd wilde, en mij diep van binnen toch leeg voel?",
+    "een land dat God min of meer dood had verklaard"
   ],
   "similar": [
     {
-      "n": 263,
-      "reason": "Cultureel verdwaald, secularisatie en migratie; zelfde thema's en zoektocht naar nieuwe verhalen."
-    },
-    {
-      "n": 62,
-      "reason": "Het seculiere experiment van het Westen: God, secularisatie en samenleving."
-    },
-    {
-      "n": 96,
-      "reason": "Roxane van Iperen komt terug; kritiek op de Nederlandse samenleving en geloof."
-    },
-    {
-      "n": 287,
-      "reason": "Jongeren en eenzaamheid in een individualistische tijd; zingeving en samenleving."
+      "n": 314,
+      "reason": "Zingevingscrisis in het moderne leven, geloof en samenleving, sterk overlappende thema's"
     },
     {
       "n": 105,
-      "reason": "Migratie en kerk in Nederland, met theologische blik op vluchtelingen."
+      "reason": "Asielcrisis en migratie, met een theoloog over kerk en samenleving"
+    },
+    {
+      "n": 111,
+      "reason": "Seculiere donderpreek over zingeving, God en het individu in een seculiere tijd"
+    },
+    {
+      "n": 33,
+      "reason": "Zingeving, geluk en geloof in een seculiere, ontkerkelijkte samenleving"
+    },
+    {
+      "n": 15,
+      "reason": "Verweesde samenleving die snakt naar houvast, met migratie en geloof als thema"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

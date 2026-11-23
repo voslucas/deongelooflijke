@@ -1,18 +1,23 @@
 {
   "episode": 120,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 110298,
+    "segments": 1263,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31309,
-    "output_tokens": 2838,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 57321,
+    "output_tokens": 3887,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Bijbel & Jezus",
     "Geopolitiek & oorlog",
-    "Samenleving & migratie"
+    "God & geloof",
+    "Zingeving & psyche"
   ],
   "guests": [
     "Beatrice de Graaf"
@@ -20,266 +25,369 @@
   "people": [
     {
       "name": "Julius Caesar",
-      "note": "Romeins leider die de Juliaanse kalender invoerde en 1 januari als nieuwjaar vaststelde",
-      "start_seconds": 281,
-      "wiki_checked": true
+      "note": "Romeinse staatsman die de Juliaanse kalender invoerde",
+      "start_seconds": 288,
+      "mention_count": 3
     },
     {
-      "name": "Janus",
-      "note": "Romeinse god met twee gezichten, naamgever van januari",
-      "start_seconds": 322,
-      "wiki_checked": true
+      "name": "Stefan Paas",
+      "note": "Theoloog en vaste gast",
+      "start_seconds": 0,
+      "mention_count": 0
     },
     {
-      "name": "Boris van der Ham",
-      "note": "oud-Kamerlid die op Twitter beweerde dat kerst 'gejat' is van heidense feesten",
-      "start_seconds": 397,
-      "wiki_checked": true
+      "name": "Vladimir Poetin",
+      "note": "Russische president, leider in de oorlog tegen Oekraïne",
+      "start_seconds": 2481,
+      "mention_count": 12
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Minister-president die excuses aanbood voor het slavernijverleden",
+      "start_seconds": 1800,
+      "mention_count": 8
+    },
+    {
+      "name": "Paus Gregorius XIII",
+      "note": "Voerde in 1582/1598 de Gregoriaanse kalender in",
+      "start_seconds": 912,
+      "mention_count": 1
     },
     {
       "name": "Hippolytus van Rome",
-      "note": "bisschop die rond 235 de datum van kerst berekende",
-      "start_seconds": 443,
-      "wiki_checked": true
+      "note": "Bisschop die als eerste de kerstdatum berekende",
+      "start_seconds": 450,
+      "mention_count": 1
     },
     {
-      "name": "Constantijn de Grote",
-      "note": "christelijke keizer onder wie in 336 de eerste officiële kerstviering plaatsvond",
-      "start_seconds": 440,
-      "wiki_checked": true
+      "name": "Constantijn",
+      "note": "Christelijke Romeinse keizer; eerste officiële kerstviering in 336",
+      "start_seconds": 480,
+      "mention_count": 2
     },
     {
-      "name": "Paus Silvester I",
-      "note": "doopte Constantijn; 31 december heet in Duitsland Silvester",
-      "start_seconds": 667,
-      "wiki_checked": true
+      "name": "Tsaar Alexander I",
+      "note": "Russische tsaar die in 1813-1814 Napoleon versloeg",
+      "start_seconds": 1080,
+      "mention_count": 5
     },
     {
-      "name": "Gregorius XIII",
-      "note": "paus die de Gregoriaanse kalender invoerde",
-      "start_seconds": 907,
-      "wiki_checked": true
+      "name": "Blücher",
+      "note": "Pruisische generaal bij de Rijnoversteek",
+      "start_seconds": 1100,
+      "mention_count": 2
     },
     {
       "name": "Napoleon Bonaparte",
       "note": "Franse keizer, verslagen in 1813-1814",
-      "start_seconds": 988,
-      "wiki_checked": true
+      "start_seconds": 990,
+      "mention_count": 3
     },
     {
-      "name": "Gebhard Leberecht von Blücher",
-      "note": "Pruisische generaal die in de nieuwjaarsnacht 1813/1814 de Rijn overstak",
-      "start_seconds": 1057,
-      "wiki_checked": true
+      "name": "Augustinus",
+      "note": "Kerkvader en bisschop van Hippo",
+      "start_seconds": 3420,
+      "mention_count": 2
     },
     {
-      "name": "Alexander I van Rusland",
-      "note": "tsaar die Frankrijk genade schonk en zijn rol religieus duidde",
-      "start_seconds": 1057,
-      "wiki_checked": true
+      "name": "Olena Zelenska",
+      "note": "Vrouw van de Oekraïense president, schreef sketches voor Zelensky",
+      "start_seconds": 2440,
+      "mention_count": 1
     },
     {
-      "name": "Carl von Clausewitz",
-      "note": "militair denker die schreef over de nieuwe totale oorlog",
-      "start_seconds": 1034,
-      "wiki_checked": true
+      "name": "Volodymyr Zelensky",
+      "note": "Oekraïense president, voormalig komiek",
+      "start_seconds": 2340,
+      "mention_count": 4
     },
     {
-      "name": "W.G. van de Hulst",
-      "note": "schreef het kinderboek over de Franse tijd",
-      "start_seconds": 1250,
-      "wiki_checked": true
+      "name": "Kirill van Moskou",
+      "note": "Patriarch van de Russisch-orthodoxe kerk",
+      "start_seconds": 2700,
+      "mention_count": 4
     },
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, contrast met tsaar Alexander",
-      "start_seconds": 1300,
-      "wiki_checked": true
+      "name": "Dan McAdams",
+      "note": "Amerikaanse sociaal psycholoog over verhalen van bekering",
+      "start_seconds": 3060,
+      "mention_count": 1
     },
     {
-      "name": "Dirk De Wachter",
-      "note": "psychiater die sprak over vertroosting in kleine dingen",
-      "start_seconds": 1403,
-      "wiki_checked": true
+      "name": "Ernst Bloch",
+      "note": "Filosoof, auteur van Das Prinzip Hoffnung",
+      "start_seconds": 3590,
+      "mention_count": 1
     },
     {
       "name": "Plato",
-      "note": "filosoof die het had over omkeer van het denken (epistrofè)",
-      "start_seconds": 1667,
-      "wiki_checked": true
-    },
-    {
-      "name": "Mark Rutte",
-      "note": "premier die excuses aanbood voor het slavernijverleden",
-      "start_seconds": 1807,
-      "wiki_checked": true
+      "note": "Filosoof die over epistrofe en omkeer schreef",
+      "start_seconds": 1680,
+      "mention_count": 1
     },
     {
       "name": "Johannes de Doper",
-      "note": "sprak over metanoia",
+      "note": "Predikte metanoia (bekering)",
       "start_seconds": 1890,
-      "wiki_checked": true
+      "mention_count": 1
     },
     {
-      "name": "Andrij Sjevtsjenko",
-      "note": "Oekraïense voetballer die een aangrijpend plaatje plaatste",
-      "start_seconds": 866,
-      "wiki_checked": true
+      "name": "Boris van der Ham",
+      "note": "Oud-Kamerlid die over kerst twitterde",
+      "start_seconds": 400,
+      "mention_count": 1
+    },
+    {
+      "name": "Dirk de Wachter",
+      "note": "Psychiater, sprak over vertroosting",
+      "start_seconds": 1400,
+      "mention_count": 1
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe die Augustinus positief waardeerde",
+      "start_seconds": 3450,
+      "mention_count": 1
+    },
+    {
+      "name": "Clausewitz",
+      "note": "Militair theoreticus, schreef over totale oorlog",
+      "start_seconds": 1020,
+      "mention_count": 1
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaanse president",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Johannes Paulus II",
+      "note": "Paus, Pools, politiek actief tegen communisme",
+      "start_seconds": 2580,
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "Huidige paus die vrede en onderhandelen bepleitte",
+      "start_seconds": 2550,
+      "mention_count": 2
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in bekeringsthema",
+      "start_seconds": 2040,
+      "mention_count": 2
+    },
+    {
+      "name": "Olaf Scholz",
+      "note": "Duitse kanselier die Zeitenwende aankondigde",
+      "start_seconds": 2050,
+      "mention_count": 2
+    },
+    {
+      "name": "W.G. van de Hulst",
+      "note": "Protestants kinderboekenschrijver over Franse tijd",
+      "start_seconds": 1230,
+      "mention_count": 1
+    },
+    {
+      "name": "Benedictus XVI",
+      "note": "Overleden paus, aanleiding extra aflevering",
+      "start_seconds": 105,
+      "mention_count": 1
     }
   ],
   "books": [
     {
+      "title": "Radicale Verlossing",
+      "author": "Beatrice de Graaf",
+      "note": "Eigen boek waarin zij het werk van Dan McAdams gebruikt",
+      "start_seconds": 3080,
+      "volume_id": "aCfRzQEACAAJ",
+      "canonical_title": "Radicale verlossing. Wat terroristen geloven",
+      "canonical_author": "Beatrice de Graaf",
+      "isbn13": "9789044646573",
+      "isbn10": "9044646575",
+      "thumbnail": ""
+    },
+    {
+      "title": "Das Prinzip Hoffnung",
+      "author": "Ernst Bloch",
+      "note": "Geschreven tussen 1938 en 1945 over hoop",
+      "start_seconds": 3570,
+      "volume_id": "w0maXwAACAAJ",
+      "canonical_title": "Das Prinzip Hoffnung. Gesamtausgabe / Ernst Bloch. Kapitel 1 - 37",
+      "canonical_author": "Ernst Bloch",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
       "title": "Hollandse jongens in Franse tijd",
-      "author": "W.G. van de Hulst",
-      "note": "kinderboek dat de jaarwisseling 1813-1814 beschrijft",
-      "start_seconds": 1250,
-      "volume_id": "YaRtswEACAAJ",
-      "canonical_title": "Van Hollandsche jongens in den Franschen tijd",
-      "canonical_author": "W. G. van de Hulst",
+      "author": "W.G. van der Hulst",
+      "note": "Kinderboek over de jaarwisseling 1813-1814",
+      "start_seconds": 1235,
+      "volume_id": "FY24mgEACAAJ",
+      "canonical_title": "Van Hollandse jongens in de Franse tijd",
+      "canonical_author": "Willem Gerrit Hulst (jr.)",
       "isbn13": null,
       "isbn10": null,
       "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Mattheus 5",
+      "note": "Niet expliciet aangehaald; weggelaten",
+      "start_seconds": null
+    },
+    {
+      "ref": "Handelingen 9",
+      "note": "Bekering van Saulus van Tarsus, genoemd als voorbeeld van plotselinge bekering",
+      "start_seconds": 1780
+    }
+  ],
   "places": [
     "Rome",
-    "Oekraïne",
-    "Kiev",
     "Utrecht",
-    "Leipzig",
+    "Kiev",
     "Parijs",
-    "Rijn",
     "Moskou",
-    "Duitsland",
+    "Leipzig",
     "Koblenz",
     "Basel",
-    "Frankrijk",
+    "Tagaste",
+    "Hippo",
+    "Carthago",
+    "Oekraïne",
+    "Rusland",
+    "Duitsland",
     "Nederland"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas blikken vooruit op 2023, dat zij 'het jaar van de omkeer' noemen. Ze beginnen met de oorsprong van nieuwjaar en kerst en met de jaarwisseling van 1813-1814, en bespreken daarna omkeer en bekering aan de hand van klimaat, oorlog, polarisatie en de slavernijexcuses van Rutte.",
+  "summary_tldr": "David Boogerd, Beatrice de Graaf en Stefan Paas blikken vooruit op 2023, dat zij het 'jaar van de omkeer' noemen. Het gesprek behandelt de herkomst van nieuwjaar en kerst, en de thema's bekering, oorlog in Oekraïne, klimaat en politieke excuses. Ze pleiten voor hoop als middenweg tussen naïef optimisme en wanhoop.",
   "summary_points": [
-    "1 januari als nieuwjaar gaat terug op Julius Caesar en de god Janus",
-    "Kerst is niet van de Germanen gejat; de datum van 25 december is al in de derde eeuw berekend",
-    "De Saturnalia was een apart heidens feest met omkering van waarden",
-    "Tsaar Alexander koos in 1814 voor vrede en genade, een groot contrast met Poetin nu",
-    "Oekraïense kerken schuiven kerst op naar 25 december, los van Rusland",
-    "Omkeer heeft een persoonlijke, politieke, ecologische en religieuze betekenis",
-    "Bekering vraagt gedragsverandering én een andere gezindheid, en het is deels een wonder",
-    "De slavernijexcuses van Rutte zijn een voorbeeld van omkeer die iets mag kosten",
-    "Bekering is een vertrouwensvoorschot dat polarisatie kan doorbreken"
+    "Het nieuwjaar op 1 januari gaat terug op Julius Caesar's kalenderhervorming, niet op christelijke of Germaanse oorsprong.",
+    "Kerst op 25 december werd door Hippolytus van Rome berekend en in 336 voor het eerst officieel gevierd onder Constantijn.",
+    "De Saturnalia en Sol Invictus hebben weinig met kerst te maken; de 'gekaapte' kerst-mythe is historisch onjuist.",
+    "Oekraïense vluchtelingen die met kerst te gast waren laten zien hoe oorlog en feest door elkaar lopen.",
+    "Het begrip omkeer (metanoia, bekering) heeft een religieuze, filosofische en politieke betekenis.",
+    "Mark Rutte's excuses voor het slavernijverleden worden gezien als een voorbeeld van politieke bekering.",
+    "Affectieve polarisatie neemt toe; mensen zien tegenstanders als kwaadaardig in plaats van als dwalend.",
+    "Dan McAdams' onderzoek suggereert dat gedeelde bekeringsverhalen gemeenschappen heilzaam kunnen maken.",
+    "Augustinus en Ernst Bloch tonen hoop als tussenpositie tussen naïef optimisme en wanhoop.",
+    "Stefan Paas werkt aan een dik boek over de rol van het christendom in de westerse cultuur."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Champagne en nieuwjaarswensen",
-      "summary": "David opent het jaar met een knallende fles champagne en blikt terug op de vorige jaarwisseling."
+      "title": "Opening en champagne",
+      "summary": "Nieuwjaarswensen, het openen van champagne en de introductie van het gesprek."
     },
     {
-      "start_seconds": 245,
-      "title": "Waar komt nieuwjaar vandaan?",
-      "summary": "Van Julius Caesar en Janus naar de Juliaanse en Gregoriaanse kalender."
+      "start_seconds": 270,
+      "title": "Herkomst van nieuwjaar en kerst",
+      "summary": "Julius Caesar, de Juliaanse kalender en de vroege geschiedenis van kerst en Saturnalia."
     },
     {
-      "start_seconds": 420,
-      "title": "De mythe van de gekaapte kerst",
-      "summary": "Stefan ontkracht het idee dat kerst van de Germanen komt en bespreekt Saturnalia en Sol Invictus."
+      "start_seconds": 1000,
+      "title": "Napoleon en de Rijnoversteek",
+      "summary": "Beatrice de Graaf vertelt over de jaarwisseling 1813-1814 en tsaar Alexander als messias."
     },
     {
-      "start_seconds": 760,
-      "title": "Kerst met Oekraïense vluchtelingen",
-      "summary": "Beatrice vertelt over de kerstviering met Oekraïners en de verschuiving van de orthodoxe kerstdatum."
+      "start_seconds": 1500,
+      "title": "Omkeer en bekering",
+      "summary": "Begrippen omkeer, metanoia en bekering; Rutte's slavernijexcuses als voorbeeld."
     },
     {
-      "start_seconds": 995,
-      "title": "Nieuwjaar 1814: tsaar Alexander",
-      "summary": "De oversteek van de Rijn en de religieus gemotiveerde keuze voor vrede, in contrast met Poetin."
+      "start_seconds": 2300,
+      "title": "Oorlog in Oekraïne en de kerk",
+      "summary": "Zeitenwende, Zelensky, Kirill en de rol van kerken in de oorlog."
     },
     {
-      "start_seconds": 1335,
-      "title": "Goede voornemens",
-      "summary": "Stefan wil een boek schrijven, Beatrice kiest voor kleine dingen en David voor minder telefoon."
+      "start_seconds": 3000,
+      "title": "Hoop, polarisatie en Augustinus",
+      "summary": "McAdams, generativiteit, affectieve polarisatie en hoop tussen optimisme en wanhoop."
     },
     {
-      "start_seconds": 1540,
-      "title": "2023: het jaar van de omkeer",
-      "summary": "Omkeer en bekering in klimaat, politiek en persoonlijk leven, met Plato, metanoia en de slavernijexcuses."
-    },
-    {
-      "start_seconds": 1990,
-      "title": "Polarisatie en vertrouwen",
-      "summary": "Bekering als vertrouwensvoorschot aan de ander en middel tegen groeiende polarisatie."
+      "start_seconds": 3600,
+      "title": "Klimaat en afsluiting",
+      "summary": "Klimaatoptimisme versus klimaatdepressie en vooruitblik op aankomende afleveringen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 193,
-      "speaker": "David Boogerd",
-      "text": "Het spoot eruit, gelukkig alleen op de vloerbedekking.",
-      "note": "Luchtig begin met de knallende champagnekurk."
-    },
-    {
-      "start_seconds": 1141,
+      "start_seconds": 3,
       "speaker": "Beatrice de Graaf",
-      "text": "Tsaar Alexander wil geen wraak en rancune Frankrijk binnendragen, maar een hand uitgestrekt in vrede.",
-      "note": "Historisch contrast met het Rusland van nu."
+      "text": "Mensen die van hoop getuigen zijn vaak mensen in oorlogsgebieden, want wat hebben zij nog te verliezen?",
+      "note": "Een scherpe tegenstelling tussen hoop in oorlog en cynisme in het rijke Westen."
     },
     {
-      "start_seconds": 831,
-      "speaker": "Beatrice de Graaf",
-      "text": "Oekraïense gasten kijken tijdens het kerstdiner naar appjes over familie in de schuilkelder.",
-      "note": "Persoonlijk en aangrijpend moment."
-    },
-    {
-      "start_seconds": 1062,
+      "start_seconds": 2196,
       "speaker": "Stefan Paas",
-      "text": "Bekering in religieuze zin is ook een wonder: dat kun je niet zelf doen.",
-      "note": "Verklaart de kern van het begrip omkeer."
+      "text": "Bekering zie je niet aankomen. Het komt vaak onverwacht.",
+      "note": "Bekering wordt gezien als iets dat niet te voorspellen of beheersen is."
     },
     {
-      "start_seconds": 2059,
+      "start_seconds": 3030,
       "speaker": "Beatrice de Graaf",
-      "text": "Bekering is bij uitstek een vertrouwensvoorschot: ik geloof in jou.",
-      "note": "Scherpe duiding van bekering tegen polarisatie."
+      "text": "Bekering is een aanbod, een vertrouwensvoorschot dat je aan iemand geeft.",
+      "note": "Herdefinieert bekering als vertrouwen in plaats van aanmatiging."
+    },
+    {
+      "start_seconds": 3420,
+      "speaker": "Stefan Paas",
+      "text": "Hoop staat altijd tussen twee vijanden in: naïef optimisme en wanhoop.",
+      "note": "Een nuancering van het optimisme-pessimisme dilemma via Augustinus."
+    },
+    {
+      "start_seconds": 3550,
+      "speaker": "Beatrice de Graaf",
+      "text": "Mensen zijn mensen die elkaar moeten leren te hopen, want anders heeft de hele beschaving geen zin meer.",
+      "note": "Samenvatting van Ernst Blochs filosofie, gebracht als slotgedachte."
     }
   ],
   "keywords": [
     "omkeer",
     "bekering",
-    "metanoia",
+    "hoop",
+    "kalender",
     "Julius Caesar",
-    "Juliaanse kalender",
     "kerst",
-    "Saturnalia",
-    "tsaar Alexander",
     "Napoleon",
-    "slavernijexcuses",
+    "Oekraïne",
+    "Augustinus",
     "polarisatie",
-    "Oekraïne"
+    "metanoia",
+    "klimaat"
   ],
   "quotes": [
-    "Zij omschrijven 2023 als 'het jaar van de omkeer'. Omkeer, of misschien wel: bekering."
+    "Mensen die van hoop getuigen zijn vaak de mensen in oorlogsgebieden.",
+    "Je hebt het niet verkeerd, je bent verkeerd.",
+    "Hoop staat altijd tussen twee vijanden in."
   ],
   "similar": [
     {
-      "n": 175,
-      "reason": "Vooruitblik op het nieuwe jaar met een vaste gast en theoloog Paas"
+      "n": 106,
+      "reason": "Beatrice de Graaf over crises, geschiedenis en geloof; zelfde thema's"
     },
     {
-      "n": 72,
-      "reason": "Terugblik op het jaar met De Graaf en Paas, met aandacht voor geschiedenis"
+      "n": 86,
+      "reason": "Beatrice de Graaf over de oorlog in Oekraïne, geschiedenis en geloof"
     },
     {
-      "n": 42,
-      "reason": "Jaarwisseling-aflevering met De Graaf en Paas over politiek en geschiedenis"
+      "n": 81,
+      "reason": "Beatrice de Graaf over oorlog in Europa, geschiedenis en religieuze dimensie"
     },
     {
-      "n": 226,
-      "reason": "Vooruitblik op 2025 met Paas over politiek en geloof"
+      "n": 284,
+      "reason": "Beatrice de Graaf over machtspolitiek, Poetin, Oekraïne en Europa"
     },
     {
-      "n": 118,
-      "reason": "Slavernijverleden en excuses van het kabinet, met religie en geschiedenis"
+      "n": 275,
+      "reason": "Beatrice de Graaf over Rusland, geopolitiek, geschiedenis en God"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

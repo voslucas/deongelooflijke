@@ -1,101 +1,103 @@
 {
   "episode": 136,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 103784,
+    "segments": 1180,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31872,
-    "output_tokens": 2542,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 53940,
+    "output_tokens": 6170,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Politiek",
     "Samenleving & migratie",
     "Geschiedenis",
-    "Kerk & secularisatie"
+    "Economie & geld"
   ],
   "guests": [
     "Josse de Voogd"
   ],
   "people": [
     {
-      "name": "Josse de Voogd",
-      "note": "onderzoeker, publicist en verkiezingsduider bij de NOS; maker van 'Aangehaakt'",
-      "start_seconds": 27,
-      "wiki_checked": true,
-      "wiki_pageid": 5875717,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Josse_de_Voogd",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Josse_de_Voogd_-_2023.jpg/250px-Josse_de_Voogd_-_2023.jpg"
-    },
-    {
-      "name": "Pim Fortuyn",
-      "note": "politicus; de BBB-overwinning wordt een nieuw Fortuyn-moment genoemd",
-      "start_seconds": 27,
-      "wiki_checked": true,
-      "wiki_pageid": 1380,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Fortuyn",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pim_Fortuyn_-_May_4.jpg/250px-Pim_Fortuyn_-_May_4.jpg"
-    },
-    {
       "name": "Maurice de Hond",
-      "note": "opiniepeiler die vroeg naar huisdieren en stemgedrag",
-      "start_seconds": 729,
-      "wiki_checked": true,
-      "wiki_pageid": 228374,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maurice_de_Hond",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Maurice_de_Hond_%282018%29.jpg/250px-Maurice_de_Hond_%282018%29.jpg"
+      "note": "Peiloog die naar huisdieren van kiezers vroeg",
+      "start_seconds": 726,
+      "mention_count": 1
     },
     {
       "name": "Anton Barske",
-      "note": "burgemeester in noord en zuid, over stoeptegelpolitiek",
-      "start_seconds": 1190,
-      "wiki_checked": true,
-      "wiki_pageid": 1162279,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anton_Barske"
+      "note": "Burgemeester die linkse en rechtse stoeptegels beschreef",
+      "start_seconds": 1192,
+      "mention_count": 1
     },
     {
       "name": "René Cuperus",
-      "note": "medeauteur van de Atlas van Afgehaakt Nederland",
-      "start_seconds": 1749,
-      "wiki_checked": true,
-      "wiki_pageid": 1287445,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Cuperus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rene-cuperus-1349537887.jpg/250px-Rene-cuperus-1349537887.jpg"
+      "note": "Medeauteur van de atlas 'Afgehaakt Nederland'",
+      "start_seconds": 1747,
+      "mention_count": 1
+    },
+    {
+      "name": "Pieter Omtzigt",
+      "note": "Politicus wiens overheidskritiek populair zou zijn",
+      "start_seconds": 3014,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Wilders",
+      "note": "Leider van de PVV, krijgt veel media-aandacht",
+      "start_seconds": 2899,
+      "mention_count": 2
+    },
+    {
+      "name": "Caroline van der Plas",
+      "note": "Lijsttrekker van BBB, gezien als constructievere protestpartij",
+      "start_seconds": 2346,
+      "mention_count": 2
     },
     {
       "name": "Lilian Marijnissen",
-      "note": "SP-leider die flirtte met samenwerking met Rutte",
-      "start_seconds": 1859,
-      "wiki_checked": true,
-      "wiki_pageid": 409995,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lilian_Marijnissen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lilian_Marijnissen_%282018%29.jpg/250px-Lilian_Marijnissen_%282018%29.jpg"
+      "note": "Voormalig SP-leider die openstond voor samenwerking met het kabinet",
+      "start_seconds": 1896,
+      "mention_count": 1
     },
     {
       "name": "Mark Rutte",
-      "note": "premier, mogelijke coalitiepartner van de SP",
-      "start_seconds": 1859,
-      "wiki_checked": true,
-      "wiki_pageid": 12962,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mark_Rutte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg/250px-Mark_Rutte_NATO_Secretary_General_2026_%28cropped%29.jpg"
+      "note": "Voormalig premier (VVD)",
+      "start_seconds": 1896,
+      "mention_count": 1
+    },
+    {
+      "name": "Pim Fortuyn",
+      "note": "Politicus wiens moment vergeleken wordt met de BBB-overwinning",
+      "start_seconds": 2160,
+      "mention_count": 1
+    },
+    {
+      "name": "PG Kroeger",
+      "note": "Predikant die stelt dat kerken verliezen aan het kerkhof",
+      "start_seconds": 3685,
+      "mention_count": 1
+    },
+    {
+      "name": "Arjen van Velen",
+      "note": "Schrijver van 'Ode aan inefficiëntie', debatpartner op 19 april",
+      "start_seconds": 3755,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "Atlas van Afgehaakt Nederland",
-      "author": "Josse de Voogd en René Cuperus",
-      "note": "over buitenstaanders en gevestigden",
-      "start_seconds": 1749,
+      "author": "Josse de Voogd & René Cuperus",
+      "note": "Gepresenteerd met Buitenstaanders en Gevestigden als ondertitel; uitgebracht met subsidie van Binnenlandse Zaken",
+      "start_seconds": 1739,
       "volume_id": "P9v1zgEACAAJ",
-      "canonical_title": "Atlas van afgehaakt Nederland",
+      "canonical_title": "Atlas van afgehaakt Nederland: over buitenstaanders en gevestigden",
       "canonical_author": "Josse de Voogd, René Cuperus",
       "isbn13": null,
       "isbn10": null,
@@ -104,19 +106,19 @@
     {
       "title": "Langs de nullijn",
       "author": "",
-      "note": "over twee typen Nederland: zeegericht en landgericht",
+      "note": "Boek over Nederland als twee typen landschap, één op de zee gericht",
       "start_seconds": 1330,
-      "volume_id": "GszcBQAAQBAJ",
-      "canonical_title": "Langs de nullijn",
+      "volume_id": "zaUkngEACAAJ",
+      "canonical_title": "Langs de nullijn: de twee kanten van Nederland",
       "canonical_author": "Sietse van der Hoek",
-      "isbn13": "9789029593397",
-      "isbn10": "9029593393",
-      "thumbnail": "http://books.google.com/books/content?id=GszcBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789029588997",
+      "isbn10": "9029588993",
+      "thumbnail": ""
     },
     {
       "title": "Gelaagd Land",
       "author": "Josse de Voogd",
-      "note": "titel van een volgend boek",
+      "note": "Titel van een toekomstig boek over lagen in het stemgedrag",
       "start_seconds": 954
     }
   ],
@@ -124,135 +126,155 @@
   "places": [
     "Hilversum",
     "Zeeland",
-    "rivierengebied",
-    "Zoetermeer",
-    "Haarlemmermeer",
     "Drenthe",
     "Emmen",
-    "Helmond",
-    "Velsen",
-    "Oegstgeest",
+    "Coevorden",
+    "Assen",
+    "Zoetermeer",
+    "Haarlemmermeer",
+    "Almere",
+    "Zaanstad",
     "Kerkrade",
-    "Brabant",
+    "Velsen",
+    "Utrecht",
+    "Helmond",
+    "Purmerend",
+    "Veendam",
     "Limburg",
-    "Noordoost-Nederland",
-    "IJburg"
+    "Brabant",
+    "Oestgeest",
+    "Venlo",
+    "Waalwijk",
+    "Amsterdam",
+    "Rivierengebied"
   ],
-  "summary_tldr": "Verkiezingsduider Josse de Voogd bespreekt hoe woonwijken, vensterbanken en geografie samenhangen met stemgedrag. Hij legt uit hoe de oude protestants-katholieke grens van de Tachtigjarige Oorlog nog doorwerkt. Ook bespreekt hij de kloof tussen gevestigden en buitenstaanders, en de nieuwe verzuiling van hoog- en niet-hoogopgeleiden.",
+  "summary_tldr": "Josse de Voogd, die alle Nederlandse gemeenten bezocht heeft, analyseert het stemgedrag in Nederland aan de hand van verkiezingsuitslagen, cultuur en landschap. Hij ziet de oude protestants-katholieke grens als een blijvende 'fantoomgrens' en de overwinning van BBB als een kantelpunt dat het establishment uitdaagt. Het gesprek eindigt bij de kwetsbaarheid van de lagere middenklasse en de tanende verzorgingsstaat.",
   "summary_points": [
-    "Josse de Voogd bezocht alle 342 Nederlandse gemeenten en leest de samenleving via verkiezingsuitslagen.",
-    "Bloemkoolwijken uit de jaren 70 en 80 zijn het gemiddelde Nederland, maar de goedkopere wijken worden kwetsbaar voor proteststemmen.",
-    "Vensterbanken, huisdieren en woonstijl wijzen op patronen in stemgedrag, vooral op wijkniveau en niet op individueel niveau.",
-    "De grens van de Tachtigjarige Oorlog tussen protestants en katholiek werkt nog door in stemgedrag en bouwstijl.",
-    "Het zuiden kent personalistische politiek en wispelturig stemgedrag na een late, snelle ontkerkelijking.",
-    "De buitenbocht van Nederland is sociaal conservatief, terwijl het westen liberaal-progressief is.",
-    "Kwetsbare wijken moeten vaak de lasten dragen van asielzoekerscentra en windmolens, terwijl mondige wijken juridische middelen hebben.",
-    "Er is een nieuwe verzuiling waarin de hoogopgeleide zuil de boel runt en de andere groep zich buitengesloten voelt."
+    "Josse de Voogd bezocht alle Nederlandse gemeenten en leest de samenleving af aan verkiezingsuitslagen.",
+    "Bloemkoolwijken uit de jaren 70 en 80 vormen het 'gemiddelde Nederland' in stemgedrag.",
+    "De Tachtigjarige Oorlog-grens tussen katholieken en protestanten blijft zichtbaar in stemgedrag en bebouwing.",
+    "Nederland kent een 'gevestigd' en een 'afgehaakt' blok, die elkaar buiten de orde houden.",
+    "Nieuwe verzuiling: hoogopgeleiden runnen de boel en het contact met praktisch opgeleiden verdwijnt.",
+    "BBB wordt gezien als een brugpartij die het plattelandsgevoel van miskenning kan kanaliseren.",
+    "Economische en culturele thema's leveren een 'uitruil' op waarin de meest kwetsbaren het afleggen.",
+    "De verzorgingsstaat is minder betrouwbaar geworden, waardoor de lagere middenklasse kwetsbaarder is.",
+    "Dubbele moraal: wie klaagt, wordt door progressieven moreel terechtgewezen.",
+    "Vooruitblik: vergrijzing en stedelijk-plattelandsverschillen maken de polarisatie scherper."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Alle 342 gemeenten bezocht",
-      "summary": "Introductie van Josse de Voogd en zijn fascinatie voor verkiezingsuitslagen en Nederlandse gemeenten."
+      "title": "Introductie en gemeenten",
+      "summary": "Boogerd stelt Josse de Voogd voor, die alle gemeenten bezocht heeft. Ze bespreken favoriete en minst favoriete plekken."
     },
     {
-      "start_seconds": 150,
-      "title": "Bloemkoolwijken en lelijke gemeenten",
-      "summary": "Over de bijkeuken van de Randstad en de structuur en het stemgedrag van bloemkoolwijken."
+      "start_seconds": 276,
+      "title": "Bloemkoolwijken en stemgedrag",
+      "summary": "De bloemkoolwijken uit de jaren 70 en 80 blijken het gemiddelde Nederland te representeren. Ook de rol van huisdieren in stemgedrag komt aan bod."
     },
     {
-      "start_seconds": 540,
-      "title": "Vensterbanken, honden en katten",
-      "summary": "Speels over symmetrische vensterbanken en huisdieren als indicatie voor stemgedrag, met de kanttekening dat het om woonsituatie gaat."
+      "start_seconds": 543,
+      "title": "Vensterbanken en leefstijl",
+      "summary": "Vensterbanken en interieur worden gebruikt als lens op leefstijl en stemgedrag. Het verschil tussen individualisme en kuddegedrag komt terug."
     },
     {
-      "start_seconds": 990,
-      "title": "Gelaagd land en de Tachtigjarige Oorlog",
-      "summary": "De fantoomgrens tussen protestants en katholiek, verschillen in bouwstijl en het wispelturige stemgedrag in het zuiden."
+      "start_seconds": 991,
+      "title": "De fantoomgrens van de Tachtigjarige Oorlog",
+      "summary": "De oude grens tussen katholieken en protestanten blijft invloed hebben op stemgedrag, bebouwing en identiteit."
     },
     {
-      "start_seconds": 1330,
-      "title": "Buitenbocht versus centrum",
-      "summary": "Collectief versus individualistisch Nederland en sociaal conservatisme in de buitengebieden."
+      "start_seconds": 1500,
+      "title": "Asielopvang en eerlijke verdeling",
+      "summary": "Asielopvang en windmolens komen vooral in het noordoosten terecht. Mondige buurten weten zich juridisch beter te verweren."
     },
     {
-      "start_seconds": 1470,
-      "title": "Asielzoekerscentra en ongelijke middelen",
-      "summary": "Over wie de lasten draagt van verandering en het verschil tussen juridisch protest en eieren gooien."
+      "start_seconds": 1739,
+      "title": "Gevestigden tegenover afgehaakten",
+      "summary": "De atlas van Afgehaakt Nederland onderscheidt twee blokken. De nieuwe verzuiling loopt tussen hoogopgeleiden en praktisch opgeleiden."
     },
     {
-      "start_seconds": 1740,
-      "title": "Gevestigden en buitenstaanders",
-      "summary": "De Atlas van Afgehaakt Nederland, de uitsluiting van PVV en SP en de nieuwe verzuiling tussen hoog- en niet-hoogopgeleiden."
+      "start_seconds": 2160,
+      "title": "BBB als kantelpunt",
+      "summary": "BBB wordt gezien als een brugpartij met een gematigde toon, die het establishment mogelijk meer bedreigt dan eerdere protestpartijen. Ook de uitruil tussen links en rechts komt aan bod."
+    },
+    {
+      "start_seconds": 2779,
+      "title": "Kwetsbaarheid en de verzorgingsstaat",
+      "summary": "Mensen willen niet horen dat ze kwetsbaar zijn. Josse deelt zijn eigen ervaring met ziekte en de bijstand."
+    },
+    {
+      "start_seconds": 3536,
+      "title": "Vooruitblik en Jacobi-debat",
+      "summary": "Vergrijzing en jongeren op het platteland verscherpen het verschil. Het gesprek over religie wordt uitgesteld naar deel 2, en het Jacobi-debat wordt aangekondigd."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 2012,
-      "speaker": "Josse de Voogd",
-      "text": "We hebben een nieuw soort verzuiling zonder goede vertegenwoordiging.",
-      "note": "Kernanalyse van de kloof tussen hoog- en niet-hoogopgeleiden."
+      "start_seconds": 1495,
+      "speaker": "Stefan Paas",
+      "text": "Binnen één generatie kun je een gemeenschap helemaal kapotmaken.",
+      "note": "Stefan benadrukt hoe kwetsbaar het opbouwen van gemeenschap is."
     },
     {
-      "start_seconds": 2050,
-      "speaker": "Josse de Voogd",
-      "text": "De hoogopgeleide groep is zo groot geworden dat ze de andere groep niet meer hoeft te ontmoeten.",
-      "note": "Scherp inzicht over het succes en de keerzijde van onderwijsexpansie."
+      "start_seconds": 1639,
+      "speaker": "David Boogerd",
+      "text": "Het is steeds de kwetsbare helft van Nederland die moet incasseren bij alles wat verandert.",
+      "note": "Een samenvatting van de centrale ongelijkheid in het gesprek."
     },
     {
-      "start_seconds": 1006,
+      "start_seconds": 2042,
       "speaker": "Josse de Voogd",
-      "text": "Een fantoomgrens: formeel doet hij er niet meer toe, maar hij heeft nog steeds invloed.",
-      "note": "Verklaart hoe de Tachtigjarige Oorlog doorwerkt."
+      "text": "Het succes van Nederland is dat zoveel mensen konden studeren, maar die groep is zo groot geworden dat ze de andere groep niet meer hoeven te ontmoeten.",
+      "note": "Een scherpe analyse van de nieuwe verzuiling op basis van opleiding."
     },
     {
-      "start_seconds": 1604,
+      "start_seconds": 3083,
       "speaker": "Josse de Voogd",
-      "text": "Het is elke keer de kwetsbare helft van Nederland die moet incasseren bij alles wat verandert.",
-      "note": "Benadrukt ongelijke verdeling van lasten."
-    },
-    {
-      "start_seconds": 727,
-      "speaker": "Josse de Voogd",
-      "text": "De hondenbezitter stemt gemiddeld een stuk rechtser dan de kattenbezitter.",
-      "note": "Luchtig voorbeeld dat later wordt genuanceerd."
+      "text": "Mensen willen niet van zichzelf weten dat ze dat nodig gaan hebben. Iedereen wil bij de winnaars horen.",
+      "note": "Verklaring waarom sociale voorzieningen weinig politieke steun krijgen."
     }
   ],
   "keywords": [
-    "Josse de Voogd",
     "verkiezingsuitslagen",
-    "bloemkoolwijk",
     "BBB",
-    "protestpartij",
+    "protestpartijen",
     "Tachtigjarige Oorlog",
-    "protestant en katholiek",
+    "fantoomgrens",
     "verzuiling",
-    "Afgehaakt Nederland",
-    "gevestigden en buitenstaanders",
-    "populisme",
-    "Pim Fortuyn"
+    "gevestigden en afgehaakten",
+    "verzorgingsstaat",
+    "asielopvang",
+    "stadplatteland",
+    "gemeenschap",
+    "kwetsbaarheid"
   ],
-  "quotes": [],
+  "quotes": [
+    "Niemand kent Nederland zo goed als onze gast van vandaag: Josse de Voogd.",
+    "Waarom noemt Josse de overwinning van BBB een nieuw Pim Fortuyn-moment?",
+    "Zo is de eeuwenoude protestants-katholieke grens nog altijd een cruciale factor."
+  ],
   "similar": [
     {
-      "n": 273,
-      "reason": "Josse de Voogd analyseert opnieuw verkiezingen, met D66, PVV en onbehagen."
-    },
-    {
       "n": 170,
-      "reason": "Josse de Voogd over Wilders' winst en het verrechtsen van Nederland."
+      "reason": "Zelfde gast Josse de Voogd over verkiezingsuitslag en verrechtsing van Nederland"
     },
     {
-      "n": 133,
-      "reason": "Bespreekt de winst van BBB en extreme opvattingen, kort na de Statenverkiezingen."
+      "n": 273,
+      "reason": "Josse de Voogd analyseert de Tweede Kamerverkiezingen en het Nederlandse onbehagen"
     },
     {
       "n": 114,
-      "reason": "Boerenopstand en BBB als culturele spiegel van Nederland."
+      "reason": "Boerenopstand en BBB-achtige protestbeweging als culturele spiegel van Nederland"
     },
     {
-      "n": 226,
-      "reason": "René Cuperus over Trump, Wilders en de kloof tussen establishment en burger."
+      "n": 267,
+      "reason": "Politiek die geen antwoord heeft op het Nederlandse onbehagen"
+    },
+    {
+      "n": 252,
+      "reason": "Verklaring van de val van het kabinet en de verloren ziel van de politiek"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

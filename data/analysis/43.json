@@ -1,17 +1,22 @@
 {
   "episode": 43,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 64530,
+    "segments": 185,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 28273,
-    "output_tokens": 3013,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 30440,
+    "output_tokens": 3343,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Amerika & Trump",
     "Geopolitiek & oorlog",
-    "Kerk & secularisatie",
+    "Amerika & Trump",
+    "God & geloof",
     "Samenleving & migratie"
   ],
   "guests": [
@@ -20,326 +25,285 @@
   "people": [
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, verliezer van de verkiezingen van 2020",
-      "start_seconds": 293,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Zittend Amerikaans president; zijn oproepen en verkiezingsclaims worden besproken als aanleiding van de bestorming",
+      "start_seconds": 183,
+      "mention_count": 14
     },
     {
       "name": "Mike Pence",
-      "note": "vicepresident, doelwit van de menigte ('Hang Mike Pence')",
+      "note": "Amerikaans vicepresident; het doelwit van scandeerde dreigingen tijdens de bestorming",
       "start_seconds": 382,
-      "wiki_checked": true,
-      "wiki_pageid": 4379006,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Mike_Pence",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mike_Pence_official_Vice_Presidential_portrait.jpg/250px-Mike_Pence_official_Vice_Presidential_portrait.jpg"
+      "mention_count": 3
     },
     {
       "name": "Joe Biden",
-      "note": "gekozen president, inauguratie op 20 januari",
-      "start_seconds": 2118,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "note": "Gekozen Amerikaans president; inauguratie op 20 januari 2021 wordt genoemd",
+      "start_seconds": 2127,
+      "mention_count": 2
     },
     {
       "name": "Dick Cheney",
-      "note": "oud-minister van Defensie, riep op trouw te blijven aan de grondwet",
-      "start_seconds": 402,
-      "wiki_checked": true,
-      "wiki_pageid": 46450,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Dick_Cheney",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Richard_Cheney_2003_official_portrait.jpg/250px-Richard_Cheney_2003_official_portrait.jpg"
-    },
-    {
-      "name": "William Pierce",
-      "note": "atheïstische auteur van The Turner Diaries",
-      "start_seconds": 1463,
-      "wiki_checked": true
-    },
-    {
-      "name": "Anders Breivik",
-      "note": "Noorse terrorist die kruisvaardersmythologie gebruikte",
-      "start_seconds": 1463,
-      "wiki_checked": true,
-      "wiki_pageid": 2278493,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Anders_Behring_Breivik",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Anders_Behring_Breivik_-_Self-Portrait_in_Masonic_Uniform.jpeg/250px-Anders_Behring_Breivik_-_Self-Portrait_in_Masonic_Uniform.jpeg"
-    },
-    {
-      "name": "Herman Paul",
-      "note": "historicus, auteur van De Slag om het hart",
-      "start_seconds": 1934,
-      "wiki_checked": true
-    },
-    {
-      "name": "Roger Scruton",
-      "note": "conservatief denker, verdedigt gematigd conservatisme",
-      "start_seconds": 1870,
-      "wiki_checked": true,
-      "wiki_pageid": 647575,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Roger_Scruton",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Roger_Scruton_by_Pete_Helme.jpg/250px-Roger_Scruton_by_Pete_Helme.jpg"
-    },
-    {
-      "name": "Corey Robin",
-      "note": "criticus van het conservatisme",
-      "start_seconds": 1870,
-      "wiki_checked": true
-    },
-    {
-      "name": "Paula White",
-      "note": "huisdominee van Trump",
-      "start_seconds": 2224,
-      "wiki_checked": true
-    },
-    {
-      "name": "Arie Kruglanski",
-      "note": "sociaal psycholoog, quest for significance",
-      "start_seconds": 2580,
-      "wiki_checked": true,
-      "wiki_pageid": 39376589,
-      "wiki_lang": "en",
-      "wiki_url": "https://en.wikipedia.org/wiki/Arie_W._Kruglanski"
-    },
-    {
-      "name": "Ernest Becker",
-      "note": "schrijver van The Denial of Death",
-      "start_seconds": 2580,
-      "wiki_checked": true
-    },
-    {
-      "name": "Martin Luther King",
-      "note": "leider van de burgerrechtenbeweging, religieuze taal in politiek",
-      "start_seconds": 2539,
-      "wiki_checked": true,
-      "wiki_pageid": 17597,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Martin_Luther_King",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg/250px-The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_%28high_quality%29.jpg"
-    },
-    {
-      "name": "Johannes Paulus II",
-      "note": "paus, rol bij de bevrijding van Polen uit het communisme",
-      "start_seconds": 2562,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "note": "Oud-minister van Defensie; riep met oud-ministers op trouw te blijven aan de grondwet",
+      "start_seconds": 480,
+      "mention_count": 1
     },
     {
       "name": "Augustinus",
-      "note": "kerkvader: hoogmoed is de moeder van alle ketterijen",
-      "start_seconds": 2784,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; citaat over hoogmoed als moeder van alle ketterijen",
+      "start_seconds": 2790,
+      "mention_count": 2
+    },
+    {
+      "name": "Herman Paul",
+      "note": "Historicus; auteur van 'De Slag om het hart' over secularisatie van verlangen",
+      "start_seconds": 1990,
+      "mention_count": 1
+    },
+    {
+      "name": "Erich Kruglanski",
+      "note": "Sociaal psycholoog; onderzoek naar de quest for significance",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Ernest Becker",
+      "note": "Cultuurfilosoof; schreef The Denial of Death",
+      "start_seconds": 2650,
+      "mention_count": 1
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Burgerrechtenleider; voorbeeld van religieus geïnspireerde beweging",
+      "start_seconds": 2540,
+      "mention_count": 1
+    },
+    {
+      "name": "Johannes Paulus II",
+      "note": "Paus; rol in de Poolse bevrijdingsbeweging",
+      "start_seconds": 2560,
+      "mention_count": 1
+    },
+    {
+      "name": "William Pierce",
+      "note": "Atheïstische auteur van The Turner Diaries",
+      "start_seconds": 1490,
+      "mention_count": 1
+    },
+    {
+      "name": "Anders Breivik",
+      "note": "Noorse terrorist die kruisvaarderssymboliek gebruikte",
+      "start_seconds": 1530,
+      "mention_count": 1
+    },
+    {
+      "name": "Roger Scruton",
+      "note": "Conservatieve filosoof",
+      "start_seconds": 1850,
+      "mention_count": 1
+    },
+    {
+      "name": "Paula White",
+      "note": "Televisiedominee en huisdominee van Trump",
+      "start_seconds": 2230,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "Nederlands politicus; mogelijke verkiezingsclaims besproken",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Mark Rutte",
+      "note": "Nederlands premier; retoriek vergeleken met Amerika",
+      "start_seconds": 2500,
+      "mention_count": 1
+    },
+    {
+      "name": "Jesse Klaver",
+      "note": "Nederlands politicus (GroenLinks); retoriek vergeleken met Amerika",
+      "start_seconds": 2500,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "The Turner Diaries",
       "author": "William Pierce",
-      "note": "rechtsextremistisch boek uit 1978 over een rassenstrijd",
-      "start_seconds": 1463,
-      "volume_id": "HjhG0QEACAAJ",
+      "note": "Boek uit 1978 dat rechtsextremistische gewelddadigheid inspireerde",
+      "start_seconds": 1490,
+      "volume_id": "ttnKvAEACAAJ",
       "canonical_title": "The Turner Diaries",
-      "canonical_author": "William Pierce",
-      "isbn13": "9781737116929",
-      "isbn10": "1737116928",
-      "thumbnail": "http://books.google.com/books/content?id=HjhG0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "canonical_author": "William Luther Pierce",
+      "isbn13": "9781911417262",
+      "isbn10": "1911417266",
+      "thumbnail": "http://books.google.com/books/content?id=ttnKvAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     },
     {
       "title": "De Slag om het hart",
       "author": "Herman Paul",
-      "note": "over secularisatie van verlangen",
-      "start_seconds": 1934,
-      "volume_id": "MioxDwAAQBAJ",
-      "canonical_title": "De slag om het hart: over secularisatie van verlangen",
+      "note": "Boek over secularisatie van verlangen",
+      "start_seconds": 1990,
+      "volume_id": "LUKhtAEACAAJ",
+      "canonical_title": "De slag om het hart",
       "canonical_author": "Herman Paul",
-      "isbn13": "9789023950196",
-      "isbn10": "9023950194",
-      "thumbnail": "http://books.google.com/books/content?id=MioxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": "9789023950189",
+      "isbn10": "9023950186",
+      "thumbnail": ""
     },
     {
       "title": "The Denial of Death",
       "author": "Ernest Becker",
-      "note": "over de mens en zijn sterfelijkheid",
-      "start_seconds": 2580,
-      "volume_id": "jyqGDwAAQBAJ",
+      "note": "Over de menselijke angst voor de dood en zingeving",
+      "start_seconds": 2650,
+      "volume_id": "S7y4AAAAIAAJ",
       "canonical_title": "The Denial of Death",
       "canonical_author": "Ernest Becker",
-      "isbn13": "9780285640078",
-      "isbn10": "0285640070",
-      "thumbnail": "http://books.google.com/books/content?id=jyqGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=S7y4AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Micha 6:8",
-      "note": "recht doen, trouw zijn en nederig wandelen met God, als tegenhanger van de hoogmoed",
-      "start_seconds": 2751
-    },
-    {
-      "ref": "Matteüs 5:39",
-      "note": "de andere wang toekeren, gezien als te zwak in stoer christendom",
-      "start_seconds": 1689
+      "note": "Oproep tot recht doen, trouw zijn en nederig de weg van God gaan",
+      "start_seconds": 2760
     },
     {
       "ref": "2 Korintiërs 12:9",
-      "note": "Gods kracht wordt in zwakheid volbracht",
-      "start_seconds": 1995
-    },
-    {
-      "ref": "Matteüs 6:9-13",
-      "note": "het Onze Vader aan het einde van het Parler-filmpje",
-      "start_seconds": 2180
+      "note": "'Mijn kracht wordt in zwakheid volbracht', tegenover het zelf willen helpen van Gods genade",
+      "start_seconds": 2000
     }
   ],
   "places": [
     "Washington",
     "Capitool",
-    "Amerika",
     "Verenigde Staten",
     "Jeruzalem",
-    "Texas",
     "Polen",
-    "Nederland",
-    "Europa"
+    "Duitsland",
+    "Zimbabwe",
+    "Oekraïne",
+    "Texas",
+    "Limburg",
+    "Brabant",
+    "Utrecht",
+    "Amsterdam",
+    "Kampen"
   ],
-  "summary_tldr": "David Boogerd bespreekt met Beatrice de Graaf en Stefan Paas de bestorming van het Capitool op 6 januari 2021 en de christelijke symboliek daarbij. Ze onderzoeken christelijk nationalisme, massaradicalisering en de vermenging van politiek en religie, en of dit secularisatie of juist het tegendeel is.",
+  "summary_tldr": "In de eerste aflevering van 2021 bespreken Beatrice de Graaf en Stefan Paas de bestorming van het Capitool, waar christelijke symboliek en extreemrechtse groepen samenkwamen. Ze analyseren of dit christelijk terrorisme is, hoe religieuze taal politiek mobiliseert, en wat dit betekent voor secularisatie en de democratie, ook voor Nederland.",
   "summary_points": [
-    "De bestorming van het Capitool was historisch uniek door omvang, zichtbaarheid en het idee dat het in opdracht van de president gebeurde.",
-    "Massaradicalisering: extremistische denkbeelden overlappen nu met een grote mainstreamgroep, wat de terrorismebestrijding bemoeilijkt.",
-    "Terrorisme is een politiek en juridisch betwist begrip; rechtsextremisme wordt minder snel als terrorisme vervolgd dan jihadisme.",
-    "Christelijk nationalisme overlapt deels met witte evangelicals en white supremacy, maar valt niet samen met orthodox christendom.",
-    "In Amerika lopen politieke en religieuze taal sterk door elkaar, mede door apocalyptiek, vrije-marktdenken en commercie.",
-    "Het ideaal van 'stoer christendom' en de angst om privileges te verliezen voeden de grieven.",
-    "Stefan Paas ziet secularisatie als verwereldlijking: Gods Koninkrijk vereenzelvigd met politieke helden en macht.",
-    "Religie en politiek mobiliseren beide voor iets hogers; dat kan goed uitpakken (Martin Luther King) of kwaad.",
-    "Zoektocht naar betekenis en grieven, niet armoede, drijven radicalisering; follow the money bij gelikte propaganda."
+    "De bestorming van het Capitool was een ongekend zichtbare aanval op de democratie, gevoed door de claim dat de verkiezingen gestolen waren.",
+    "Terrorisme is een gecontesteerd begrip; of dit terrorisme was, moet nog onderzocht worden, met name op planning en dodelijk geweld.",
+    "Christelijk nationalisme, vooral in het evangelicalisme, overlapt met extreemrechtse bewegingen en vormt een nieuwe samensmelting van groepen.",
+    "Het Amerikaanse rechtsextremisme is gefragmenteerd, maar groeit door social media en complottheorieën zoals QAnon.",
+    "Religieuze taal en politiek lopen historisch door elkaar; ze mobiliseren mensen door zingeving en het verlangen naar betekenis.",
+    "Secularisatie is meerdimensionaal: verwereldlijking kan ook binnen de kerk optreden wanneer het Koninkrijk van God met aardse macht wordt vereenzelvigd.",
+    "Economische en commerciële belangen, zoals clickbait en marktaandelen, versterken radicale religieuze boodschappen.",
+    "Grieven over identiteit en status, niet alleen armoede, vormen de voedingsbodem voor radicalisering.",
+    "Nederland wordt minder waarschijnlijk geacht als doelwit van een vergelijkbare bestorming, maar desinformatie blijft een zorg."
   ],
   "chapters": [
     {
-      "start_seconds": 58,
-      "title": "Inleiding en de historische betekenis",
-      "summary": "Introductie van de aflevering en de vraag hoe uniek de bestorming van het Capitool was, ook als quasi-staatsgreep."
+      "start_seconds": 0,
+      "title": "Inleiding en historische context",
+      "summary": "Boogerd introduceert de bestorming en de vraag of het christelijk terrorisme was. De Graaf plaatst het incident in een historische reeks van aanslagen op het Capitool."
     },
     {
-      "start_seconds": 399,
-      "title": "Georganiseerd of knullig?",
-      "summary": "Wat bekend is over planning, betrokken groepen en onderzoek van de FBI, plus de symboliek van de Confederate flag."
+      "start_seconds": 240,
+      "title": "Een staatsgreep of terrorisme?",
+      "summary": "De gesprekspartners bespreken of het gebeurde als coup geldt en welke rol Trump en de georganiseerde groepen speelden."
     },
     {
-      "start_seconds": 699,
-      "title": "Massaradicalisering en terrorisme",
-      "summary": "Wat massaradicalisering betekent en waarom rechtsextremisme juridisch lastig als terrorisme te benoemen is."
+      "start_seconds": 960,
+      "title": "Massaradicalisering en rechtsextremisme",
+      "summary": "De Graaf legt uit dat rechtsextremisme een grotere, mainstream overlap vertoont en dat bestaande anti-terreurlessen daardoor lastig toepasbaar zijn."
     },
     {
-      "start_seconds": 1184,
-      "title": "Christelijke symbolen en Amerikaanse religie",
-      "summary": "Stefan Paas legt uit hoe religie en politiek in Amerika vermengd zijn; Beatrice de Graaf schetst christelijk nationalisme en rechtsextremisme."
+      "start_seconds": 1290,
+      "title": "Christelijk nationalisme en evangelicalen",
+      "summary": "De christelijke symboliek wordt geanalyseerd als christelijk nationalisme, met aandacht voor evangelicalen, muscular Christianity en de Amerikaanse religieuze markt."
     },
     {
-      "start_seconds": 1560,
-      "title": "Stoer christendom en conservatisme",
-      "summary": "Gesprek over muscular Christianity, machtsverlies van witte mannen en de vraag of dit conservatisme of een perversie is."
+      "start_seconds": 2130,
+      "title": "Religie, politiek en het Parler-filmpje",
+      "summary": "Het filmpje voor de inauguratie wordt besproken als voorbeeld van religieus gelaadde propaganda en de vergelijking met IS-video's."
     },
     {
-      "start_seconds": 1934,
-      "title": "Secularisatie als verwereldlijking",
-      "summary": "Verwereldlijking van religieuze idealen en het Parler-filmpje met het Onze Vader."
+      "start_seconds": 2640,
+      "title": "Zingeving, grieven en de rol van religie in politiek",
+      "summary": "Het gesprek gaat over quest for significance, de scheiding tussen politiek en religie en de manier waarop retoriek mensen beweegt."
     },
     {
-      "start_seconds": 2308,
-      "title": "Zingeving, geld en retoriek",
-      "summary": "Quest for significance, follow the money en de rol van religieuze taal in zowel goede als kwade bewegingen."
-    },
-    {
-      "start_seconds": 2751,
-      "title": "Nederlandse verkiezingen en afsluiting",
-      "summary": "Micha 6:8, Augustinus en de vraag of zoiets ook in Nederland kan gebeuren."
+      "start_seconds": 3000,
+      "title": "Vooruitblik naar Nederland",
+      "summary": "Boogerd vraagt of zoiets in Nederland kan gebeuren; de gasten zien versnipperd rechtsextremisme maar zorgen om samenzweringen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 293,
+      "start_seconds": 2050,
+      "speaker": "Beatrice de Graaf",
+      "text": "Het gaat niet om armoede, maar om het gevoel dat je betekenis en identiteit wordt afgenomen.",
+      "note": "Verschuift het beeld van economische oorzaken naar zingeving en status als drijfveer van radicalisering."
+    },
+    {
+      "start_seconds": 2190,
       "speaker": "Stefan Paas",
-      "text": "Als dit in Zimbabwe of Oekraïne was gebeurd, had je het gewoon een staatsgreep genoemd.",
-      "note": "Scherpe vergelijking die de ernst van het gebeuren onderstreept."
+      "text": "Mensen moet je niet overtuigen met argumenten, maar raken in hun diepste gemoed.",
+      "note": "Scherpe analyse van hoe politiek en reclame met religieuze verlangens werken."
     },
     {
-      "start_seconds": 720,
+      "start_seconds": 2790,
       "speaker": "Beatrice de Graaf",
-      "text": "Wat nou als 45% van de Republikeinen zegt dat de bestorming eigenlijk wel goed is?",
-      "note": "Laat zien waarom extremisme in de mainstream bestrijding bemoeilijkt."
+      "text": "Hoogmoed is de moeder van alle ketterijen.",
+      "note": "Verbindt het QAnon-denken met een oud theologisch principe van hoogmoed."
     },
     {
-      "start_seconds": 1934,
+      "start_seconds": 1080,
       "speaker": "Beatrice de Graaf",
-      "text": "Christenen willen niet afwachten tot Gods Koninkrijk komt, maar nemen er zelf een voorschot op.",
-      "note": "Zij ziet dit als diep tragisch en als vorm van secularisatie binnen de kerk."
-    },
-    {
-      "start_seconds": 2308,
-      "speaker": "Stefan Paas",
-      "text": "Het is geen wiskunde, maar een poging om te bezielen.",
-      "note": "Over politieke en religieuze retoriek die nooit puur rationeel is."
-    },
-    {
-      "start_seconds": 2784,
-      "speaker": "Beatrice de Graaf",
-      "text": "Augustinus zei al: de hoogmoed is de moeder van alle ketterijen.",
-      "note": "Verbindt QAnon-denken met klassieke theologie."
+      "text": "Wat nou als 45% van de Republikeinen zegt dat de bestorming goed was?",
+      "note": "Maakt duidelijk dat rechtsextremisme niet langer in de marge zit maar bij een grote groep leeft."
     }
   ],
   "keywords": [
-    "Capitool",
+    "Capitool-bestorming",
     "christelijk nationalisme",
-    "massaradicalisering",
-    "evangelicals",
-    "Trump",
-    "QAnon",
-    "Proud Boys",
-    "secularisatie",
+    "evangelicalen",
     "rechtsextremisme",
-    "terrorisme",
+    "religieuze retoriek",
+    "secularisatie",
     "quest for significance",
-    "Parler"
+    "QAnon",
+    "Trump",
+    "terrorisme",
+    "zingeving",
+    "desinformatie"
   ],
   "quotes": [],
   "similar": [
     {
-      "n": 219,
-      "reason": "Trumps overwinning, religieuze duiding van Amerikaanse politiek met Stefan Paas"
+      "n": 241,
+      "reason": "Denkers achter Trump, BdG, religie en ideologie in Amerikaanse politiek"
     },
     {
       "n": 203,
-      "reason": "Trump als 'verlosser' en veranderd religieus Amerika, met De Graaf"
+      "reason": "Trump als religieus symbool, Amerikaanse religie, BdG; sterke thematische overlap"
     },
     {
-      "n": 241,
-      "reason": "Ideologische denkers achter Trump, met De Graaf en Paas"
+      "n": 219,
+      "reason": "Culturele en religieuze duiding van Trumps overwinning, Amerika en God"
     },
     {
-      "n": 56,
-      "reason": "Heilige alliantie tussen orthodoxe christenen en radicaal-rechtse populisten"
+      "n": 36,
+      "reason": "Religie in Amerikaanse politiek, Trump en Biden, zoals in #43"
     },
     {
-      "n": 60,
-      "reason": "Radicale verlossing: religie en terrorisme, met De Graaf en Paas"
+      "n": 232,
+      "reason": "Extreemrechts, democratische crisis en religieuze politieke retoriek, BdG"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

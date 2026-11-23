@@ -1,18 +1,23 @@
 {
   "episode": 117,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 82376,
+    "segments": 813,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30378,
-    "output_tokens": 2432,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 41914,
+    "output_tokens": 2762,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Zingeving & psyche",
     "Economie & geld",
     "God & geloof",
-    "Kerk & secularisatie"
+    "Filosofie & ethiek"
   ],
   "guests": [
     "Maroesjka Versantvoort"
@@ -20,238 +25,249 @@
   "people": [
     {
       "name": "Maroesjka Versantvoort",
-      "note": "bijzonder hoogleraar arbeid en zingeving (SCP / PThU), econoom",
-      "start_seconds": 28,
-      "wiki_checked": true
-    },
-    {
-      "name": "Matthijs van Nieuwkerk",
-      "note": "presentator, in het nieuws om grensoverschrijdend gedrag richting collega's",
-      "start_seconds": 424,
-      "wiki_checked": true,
-      "wiki_pageid": 301781,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Matthijs_van_Nieuwkerk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Matthijs_van_Nieuwkerk_%282018%29.jpg/250px-Matthijs_van_Nieuwkerk_%282018%29.jpg"
-    },
-    {
-      "name": "Johannes Paulus II",
-      "note": "paus, schreef in 1982 de encycliek Laborem exercens over werk",
-      "start_seconds": 728,
-      "wiki_checked": true,
-      "wiki_pageid": 6729,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Johannes_Paulus_II",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg/250px-ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_%28cropped%29.jpg"
+      "note": "Gast; bijzonder hoogleraar arbeid en zingeving, onderzoeker SCP en PThU",
+      "start_seconds": 13,
+      "mention_count": 3
     },
     {
       "name": "Karl Marx",
-      "note": "denker over vervreemding in arbeid en religie als opium van het volk",
-      "start_seconds": 948,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Filosoof; analyseerde vervreemding door arbeid en religie als opium van het volk",
+      "start_seconds": 785,
+      "mention_count": 5
     },
     {
-      "name": "Slavoj Žižek",
-      "note": "filosoof, citaat over de ondergang van de wereld en van het productiesysteem",
-      "start_seconds": 1018,
-      "wiki_checked": true,
-      "wiki_pageid": 293589,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Slavoj_%C5%BDi%C5%BEek_2015_%28cropped%29.jpg/250px-Slavoj_%C5%BDi%C5%BEek_2015_%28cropped%29.jpg"
+      "name": "Johannes Paulus II",
+      "note": "Paus; schreef in encycliek Laborem exercens over werk",
+      "start_seconds": 735,
+      "mention_count": 1
     },
     {
-      "name": "Ulrich Beck",
-      "note": "Duitse socioloog: moderne spiritualiteit als biografische oplossing voor systeemfouten",
-      "start_seconds": 1807,
-      "wiki_checked": true,
-      "wiki_pageid": 657335,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ulrich_Beck",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ulrich_Beck%2C_2012.png/250px-Ulrich_Beck%2C_2012.png"
+      "name": "Matthijs van Nieuwkerk",
+      "note": "Presentator; in het nieuws na beschuldigingen van grensoverschrijdend leiderschap",
+      "start_seconds": 414,
+      "mention_count": 3
     },
     {
       "name": "Ben Tichelaar",
-      "note": "eerdere gast (aflevering 13) over het risico van zingeving zoeken in werk",
-      "start_seconds": 2095,
-      "wiki_checked": true
+      "note": "Eerdere gast (aflevering 13) die risico's van werk als zingeving benoemde",
+      "start_seconds": 2100,
+      "mention_count": 2
+    },
+    {
+      "name": "Henry Nouwen",
+      "note": "Schrijver; citaat 'je bent niet wat je doet'",
+      "start_seconds": 2740,
+      "mention_count": 1
+    },
+    {
+      "name": "Ulrich Beck",
+      "note": "Duitse socioloog; biografische oplossingen voor systeemfouten",
+      "start_seconds": 1810,
+      "mention_count": 1
+    },
+    {
+      "name": "Slavoj Žižek",
+      "note": "Filosoof; ondergang van de wereld vs. productiesysteem",
+      "start_seconds": 1640,
+      "mention_count": 1
+    },
+    {
+      "name": "Koning Willem-Alexander",
+      "note": "Staatshoofd; kersttoespraak over werk als meer dan geldverdienen",
+      "start_seconds": 700,
+      "mention_count": 1
     },
     {
       "name": "Frank Boeijen",
-      "note": "zanger, lied over een gastarbeider en het ritme van de fabriek",
-      "start_seconds": 2297,
-      "wiki_checked": true,
-      "wiki_pageid": 1212128,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frank_Boeijen_%28zanger%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Frankb675.jpg/250px-Frankb675.jpg"
-    },
-    {
-      "name": "Maria en Marta",
-      "note": "bijbelse zussen, voorbeeld van werk en aandacht",
-      "start_seconds": 1969,
-      "wiki_checked": true,
-      "wiki_pageid": 451370,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vrouwen_van_Bethani%C3%AB"
+      "note": "Musicus; lied over fabrieksarbeid",
+      "start_seconds": 2270,
+      "mention_count": 1
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "title": "Prediker",
+      "author": "",
+      "note": "Bijbelboek; vluchtigheid van vluchtigheden als startpunt van de oratie",
+      "start_seconds": 630,
+      "volume_id": "E8-4qoY6KdEC",
+      "canonical_title": "De Prediker: eene practische Bijbelstudie",
+      "canonical_author": "Hermanus Cornelis Voorhoeve",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": "http://books.google.com/books/content?id=E8-4qoY6KdEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Laborem exercens",
+      "author": "Johannes Paulus II",
+      "note": "Encycliek over menselijke arbeid (1982)",
+      "start_seconds": 735,
+      "volume_id": "zaU7nQEACAAJ",
+      "canonical_title": "De menselijke arbeid: encycliek \"Laborem Exercens\" aan de bisschoppen, de priesters de religieuze gemeenschappen, de gelovigen in Christus en alle mensen van goede wil, op de negentigste verjaardag van de encycliek \"Rerum Novarum\"",
+      "canonical_author": "Johannes Paulus II",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    }
+  ],
   "bible_refs": [
     {
-      "ref": "Prediker 1:2-3",
-      "note": "vluchtigheid en zwoegen onder de zon; opening van de oratie",
-      "start_seconds": 633
+      "ref": "Prediker 1:3",
+      "note": "Welk voordeel heeft de mens van al zijn zwoegen? Startpunt oratie",
+      "start_seconds": 630
     },
     {
       "ref": "Genesis 3",
-      "note": "werk in het zweet des aanschijns, doornen en distels",
-      "start_seconds": 821
+      "note": "Zondeval; werk als straf, 'in het zweet des aanschijns'",
+      "start_seconds": 820
     },
     {
       "ref": "Genesis 1",
-      "note": "God die werkt en rust",
-      "start_seconds": 1931
+      "note": "God die werkt en rust; werk als iets goeds",
+      "start_seconds": 1920
     },
     {
       "ref": "Lucas 10:38-42",
-      "note": "Marta en Maria, werk versus aandacht voor de gast",
-      "start_seconds": 1962
+      "note": "Martha en Maria; aandacht versus bedrijvigheid",
+      "start_seconds": 1960
     },
     {
       "ref": "Amos 5:21",
-      "note": "God haat de religieuze feesten; profetische kritiek op religie",
-      "start_seconds": 2319
+      "note": "Ik haat en veracht jullie godsdienstige feesten",
+      "start_seconds": 2370
     }
   ],
   "places": [
-    "Nederland"
+    "Amsterdam"
   ],
-  "summary_tldr": "Nu religie als zingevingssysteem afneemt, zoeken mensen steeds meer zin in werk. Maroesjka Versantvoort bespreekt paradoxen rond welvaart, vrijheid en burn-out, en Stefan Paas vergelijkt werk met religie, met dezelfde zegeningen en gevaren.",
+  "summary_tldr": "Maroesjka Versantvoort en Stefan Paas bespreken of werk religie als zingevingsbron kan vervangen. Zij wijzen op paradoxen als welvaart versus mentale klachten, vrijheid versus prestatiedruk en de risico's van werk als enige bron van zingeving. Ze pleiten voor zingeving uit meerdere bronnen en bespreekbaarheid op de werkvloer.",
   "summary_points": [
-    "Werk neemt voor veel mensen de plek van religie als bron van zingeving in.",
-    "Een kwart van de werkenden twijfelt of de eigen baan niet een onzinbaan is.",
-    "Leidinggevenden hebben vooral invloed op zinondermijning, zoals bij Matthijs van Nieuwkerk.",
-    "Specialisatie maakt het moeilijker het grotere geheel en het hogere doel van je werk te zien.",
-    "Welvaartsparadox: Nederlanders zijn gelukkig, maar mentale klachten en burn-outs nemen toe, vooral onder jongeren.",
-    "Vrijheidsparadox: alle mogelijkheden brengen prestatiedruk en eigen verantwoordelijkheid met zich mee.",
-    "De Bijbel is genuanceerd over werk: het is waardevol, maar kent grenzen (Prediker, Genesis 3, Marta en Maria).",
-    "Zingeving alleen in werk zoeken is risicovol; je wordt speelbal van lof en kritiek.",
-    "Werk kan net als religie heilzaam of beschadigend zijn, afhankelijk van of het transparant blijft naar wat echt telt."
+    "Werk neemt in een geseculariseerde samenleving de plek in van religie als zingevingssysteem",
+    "Zinondermijning op het werk wordt vooral veroorzaakt door leidinggevenden",
+    "Bijna een kwart van de werkenden twijfelt of hun baan onzinnig is",
+    "Welvaart en geluk gaan samen met stijgende mentale klachten en burn-outs",
+    "Vrijheid van keuze leidt tot prestatiedruk en zoektochten naar het 'diepste zelf'",
+    "Bijbelse visies op werk lopen uiteen: Genesis 1, Genesis 3 en Prediker",
+    "Marx zag vervreemding door arbeid; religie als escapisme",
+    "Werk kan net zo heilzaam maar ook zo gevaarlijk zijn als religie",
+    "Zingeving moet uit meerdere bronnen komen, niet alleen uit werk",
+    "Zingeving bespreekbaar maken met werkgever is een praktische stap"
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Eerste bijbaantjes",
-      "summary": "Persoonlijke ervaringen met bijbaantjes en de vraag of zingeving in werk een luxe is."
+      "title": "Inleiding en bijbaantjes",
+      "summary": "Presentator en gasten delen herinneringen aan eerste werkervaringen."
     },
     {
-      "start_seconds": 295,
-      "title": "Cruciaal werk en identiteit",
-      "summary": "Corona liet zien welk werk cruciaal is; werk is ook een belangrijk deel van onze identiteit."
+      "start_seconds": 240,
+      "title": "Zin en waardering van werk",
+      "summary": "Discussie over of zingeving in werk een luxe is en het belang van cruciaal werk tijdens corona."
     },
     {
-      "start_seconds": 424,
-      "title": "Leiderschap en zinondermijning",
-      "summary": "Over Matthijs van Nieuwkerk en hoe leidinggevenden zingeving vooral kunnen ondermijnen."
+      "start_seconds": 400,
+      "title": "Leidinggevenden en zinondermijning",
+      "summary": "Het Matthijs van Nieuwkerk-voorval als voorbeeld van destructief leiderschap."
     },
     {
-      "start_seconds": 632,
-      "title": "Prediker en werk als religie",
-      "summary": "Hoe werk in de moderne tijd religie is gaan vervangen als bron van zin, ook in de Bijbel en de oudheid."
+      "start_seconds": 630,
+      "title": "Prediker en historische visies op werk",
+      "summary": "Oratie begint met Prediker; historische omslag naar werk als zingeving en secularisatie."
     },
     {
-      "start_seconds": 1050,
-      "title": "Onzinbanen en burn-out",
-      "summary": "Specialisatie, bullshit jobs en de welvaarts- en vrijheidsparadox."
+      "start_seconds": 1080,
+      "title": "Paradoxen: welvaart, vrijheid en burn-out",
+      "summary": "Bespreking van welvaartsparadox, vrijheidsparadox en stijgende mentale klachten."
     },
     {
-      "start_seconds": 1740,
-      "title": "Marx, spiritualiteit en hoop",
-      "summary": "Marx over vervreemding, moderne spiritualiteit als individuele oplossing en werk als roeping."
+      "start_seconds": 1640,
+      "title": "Marx, systeemkritiek en spiritualiteit",
+      "summary": "Over utopisme, religie als opium en biografische oplossingen voor systeemfouten."
     },
     {
-      "start_seconds": 1930,
-      "title": "Bijbelse blik en grenzen aan werk",
-      "summary": "Genesis, Prediker en Marta en Maria laten zien dat werk waarde heeft maar begrensd is."
+      "start_seconds": 1920,
+      "title": "Bijbelse beelden en risico's van werk als religie",
+      "summary": "Genesis, Martha en Maria, en de vraag of werk een te grote rol mag krijgen."
     },
     {
-      "start_seconds": 2095,
-      "title": "Risico's van zingeving in werk",
-      "summary": "Werk als instabiele enige bron van zin en de vergelijking tussen werk en religie."
+      "start_seconds": 2640,
+      "title": "Praktijk, persoonlijke zingeving en slot",
+      "summary": "Advies om zingeving bespreekbaar te maken en persoonlijke reflecties over werk en pensioen."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 866,
+      "start_seconds": 1030,
       "speaker": "Stefan Paas",
       "text": "Werk is voor ons wel een soort religie geworden.",
-      "note": "Kernstelling van de aflevering."
+      "note": "Kernstelling die de parallel tussen werk en religie samenvat."
     },
     {
-      "start_seconds": 497,
-      "speaker": "Stefan Paas",
-      "text": "Je kan niet zoveel toevoegen aan de zin van mensen, je kan het wel kapot maken.",
-      "note": "Ontnuchterende les voor managers."
-    },
-    {
-      "start_seconds": 1067,
+      "start_seconds": 1290,
       "speaker": "Maroesjka Versantvoort",
-      "text": "1 op de 4 twijfelt of de eigen baan niet eigenlijk een onzinbaan is.",
-      "note": "Verrassend hoog cijfer."
+      "text": "Ongeveer een miljoen werkenden heeft regelmatig last van burn-outachtige klachten.",
+      "note": "Confronterende cijfers die de risico's van werk als zingeving onderstrepen."
     },
     {
-      "start_seconds": 1807,
+      "start_seconds": 1960,
+      "speaker": "Stefan Paas",
+      "text": "Je kan niet veel toevoegen aan de zin van mensen, je kan het wel kapot maken.",
+      "note": "Ontnuchterende kijk op de rol van managers."
+    },
+    {
+      "start_seconds": 2220,
       "speaker": "Stefan Paas",
       "text": "Bijna alle moderne spiritualiteit komt neer op biografische oplossingen voor systeemfouten.",
-      "note": "Scherpe kritiek op de spiritualiteitsmarkt, naar Ulrich Beck."
+      "note": "Scherpe kritiek van Ulrich Beck op individuele zelfontwikkeling."
     },
     {
-      "start_seconds": 1018,
-      "speaker": "Stefan Paas",
-      "text": "We kunnen ons de ondergang van de wereld beter voorstellen dan de ondergang van ons productiesysteem.",
-      "note": "Citaat van Žižek over de vastgeroeste economie."
+      "start_seconds": 2980,
+      "speaker": "Maroesjka Versantvoort",
+      "text": "Maak zingeving gewoon onderwerp van gesprek.",
+      "note": "Concreet advies dat de werkplek toegankelijker maakt."
     }
   ],
   "keywords": [
     "zingeving",
-    "arbeid",
-    "burn-out",
+    "werk",
     "secularisatie",
-    "onzinbaan",
-    "Karl Marx",
-    "Prediker",
-    "vervreemding",
-    "roeping",
-    "welvaartsparadox",
+    "burn-out",
     "vrijheidsparadox",
+    "welvaartsparadox",
+    "vervreemding",
+    "Prediker",
+    "Marx",
+    "roeping",
+    "arbeidsmarkt",
     "spiritualiteit"
   ],
-  "quotes": [],
+  "quotes": [
+    "Werk is voor ons wel een soort religie geworden.",
+    "Mensen zijn zinzoekende wezens.",
+    "Maak zingeving gewoon onderwerp van gesprek."
+  ],
   "similar": [
     {
       "n": 13,
-      "reason": "Burn-outs, werk en identiteit in de prestatiemaatschappij; zelfde thema met Ben Tiggelaar."
+      "reason": "Gaat over burn-outs, werk en identiteit, met dezelfde gast Ben Tiggelaar als in deze aflevering."
     },
     {
-      "n": 294,
-      "reason": "Seculiere millennials, nihilisme, werk en geld; zingeving zonder religie."
+      "n": 145,
+      "reason": "Combineert economie, God en zingeving in een tijd van economische onzekerheid."
     },
     {
-      "n": 124,
-      "reason": "Efficiëntie als nieuwe dominante religie; economie en religie vergeleken."
+      "n": 308,
+      "reason": "Zingeving en vreugde in een uitgeputte, betekenisloze wereld, met God als thema."
     },
     {
-      "n": 314,
-      "reason": "Zingevingscrisis van het moderne leven, leegte in een seculiere tijd."
+      "n": 126,
+      "reason": "Behandelt economie, moraal, geloof en grote verhalen die de kloof in de samenleving verklaren."
     },
     {
-      "n": 249,
-      "reason": "Mentale epidemie, burn-out en psychische problemen in onze samenleving."
+      "n": 171,
+      "reason": "Gaat over de betekenis van zingeving voor welzijn, met wetenschappelijke onderbouwing."
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

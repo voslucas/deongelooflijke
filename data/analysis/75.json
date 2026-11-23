@@ -1,203 +1,224 @@
 {
   "episode": 75,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 95733,
+    "segments": 599,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29510,
-    "output_tokens": 2882,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 46712,
+    "output_tokens": 9137,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geschiedenis",
-    "Kerk & secularisatie",
     "Politiek",
-    "Bijbel & Jezus"
+    "Bijbel & Jezus",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Samuel Cohn",
-      "note": "historicus over opstanden na pandemieën",
-      "start_seconds": 253,
-      "wiki_checked": true
-    },
-    {
-      "name": "Sheila Sitalsing",
-      "note": "columnist Volkskrant, vroeg waarom jongeren geen revolutie uitroepen",
-      "start_seconds": 398,
-      "wiki_checked": true,
-      "wiki_pageid": 2310006,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Sheila_Sitalsing",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Festival_De_Ondernemende_Journalist_2019_013.jpg/250px-Festival_De_Ondernemende_Journalist_2019_013.jpg"
-    },
-    {
-      "name": "Vladimir Poetin",
-      "note": "reageert op protest met hardere repressie",
-      "start_seconds": 161,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
-    },
-    {
-      "name": "Marsilius van Padua",
-      "note": "middeleeuws denker over volkssoevereiniteit",
-      "start_seconds": 884,
-      "wiki_checked": true,
-      "wiki_pageid": 725561,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Marsilius_van_Padua",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Marsile_de_Padoue_1319.jpg/250px-Marsile_de_Padoue_1319.jpg"
-    },
-    {
-      "name": "Junius Brutus",
-      "note": "vermoedelijke auteur van de Vindiciae contra tyrannos (1579)",
-      "start_seconds": 884,
-      "wiki_checked": true
-    },
-    {
-      "name": "Lodewijk XVI",
-      "note": "Franse koning, onder de guillotine gebracht",
-      "start_seconds": 1285,
-      "wiki_checked": true,
-      "wiki_pageid": 28372,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Lodewijk_XVI_van_Frankrijk",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg/250px-Ludvig_XVI_av_Frankrike_portr%C3%A4tterad_av_AF_Callet.jpg"
-    },
-    {
-      "name": "Georges Lefebvre",
-      "note": "Franse historicus, schreef over de Grande Peur",
-      "start_seconds": 1197,
-      "wiki_checked": true
-    },
-    {
-      "name": "Maximilien de Robespierre",
-      "note": "leider van de Franse Revolutie, cultus van het Opperwezen",
-      "start_seconds": 1515,
-      "wiki_checked": true,
-      "wiki_pageid": 196213,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maximilien_de_Robespierre",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Robespierre.jpg/250px-Robespierre.jpg"
-    },
-    {
-      "name": "Edmund Burke",
-      "note": "vroege critici van de Franse Revolutie",
+      "name": "Robespierre",
+      "note": "Advocaat en staatsman tijdens de Franse Revolutie; leidde de terreur en probeerde een staatsgodsdienst in te voeren",
       "start_seconds": 1483,
-      "wiki_checked": true,
-      "wiki_pageid": 100027,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Edmund_Burke",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/EdmundBurke1771.jpg/250px-EdmundBurke1771.jpg"
-    },
-    {
-      "name": "Groen van Prinsterer",
-      "note": "Nederlands christelijk-conservatief denker",
-      "start_seconds": 1477,
-      "wiki_checked": true,
-      "wiki_pageid": 34950,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Guillaume_Groen_van_Prinsterer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/C.H._Hodges_-_Guillaume_Groen_van_Prinsterer_%281801-1876%29_-_C1204_-_Cultural_Heritage_Agency_of_the_Netherlands_Art_Collection.jpg/250px-C.H._Hodges_-_Guillaume_Groen_van_Prinsterer_%281801-1876%29_-_C1204_-_Cultural_Heritage_Agency_of_the_Netherlands_Art_Collection.jpg"
-    },
-    {
-      "name": "Isaac da Costa",
-      "note": "tot het christendom bekeerde Joodse denker",
-      "start_seconds": 1477,
-      "wiki_checked": true,
-      "wiki_pageid": 100967,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Isa%C3%A4c_da_Costa",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Portret_van_Isaac_da_Costa%2C_RP-P-1906-1225.jpg/250px-Portret_van_Isaac_da_Costa%2C_RP-P-1906-1225.jpg"
+      "mention_count": 6
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "onteigende kerkelijke bezittingen, vestigde invloed wereldwijd",
-      "start_seconds": 1779,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
+      "note": "Keizer van Frankrijk; onteigende kerkelijke bezittingen en hervormde het onderwijs",
+      "start_seconds": 1746,
+      "mention_count": 3
     },
     {
-      "name": "George Whitefield",
-      "note": "prediker van de Great Awakening",
-      "start_seconds": 2031,
-      "wiki_checked": true,
-      "wiki_pageid": 924486,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_Whitefield",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/George_Whitefield_by_John_Russell.jpg/250px-George_Whitefield_by_John_Russell.jpg"
+      "name": "Edmund Burke",
+      "note": "Britse denker die de Franse Revolutie vroeg bekritiseerde",
+      "start_seconds": 1477,
+      "mention_count": 2
     },
     {
-      "name": "John Wesley",
-      "note": "prediker van de Great Awakening",
-      "start_seconds": 2031,
-      "wiki_checked": true,
-      "wiki_pageid": 98701,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Wesley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/John_Wesley_by_William_Hamilton.jpg/250px-John_Wesley_by_William_Hamilton.jpg"
+      "name": "Groen van Prinsterer",
+      "note": "Nederlandse christelijke conservatieve denker; schreef 'Ongeloof en Revolutie'",
+      "start_seconds": 2316,
+      "mention_count": 4
     },
     {
-      "name": "Charles Wesley",
-      "note": "prediker van de Great Awakening",
-      "start_seconds": 2031,
-      "wiki_checked": true,
-      "wiki_pageid": 5117296,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_Wesley",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Charles_Wesley.jpg/250px-Charles_Wesley.jpg"
+      "name": "Isaac da Costa",
+      "note": "Nederlandse christelijke denker met joodse achtergrond; criticus van de volkssoevereiniteit",
+      "start_seconds": 2316,
+      "mention_count": 4
+    },
+    {
+      "name": "Samuel Cohn",
+      "note": "Auteur die pandemieën en opstanden in de 17e eeuw onderzocht",
+      "start_seconds": 253,
+      "mention_count": 1
+    },
+    {
+      "name": "Sheila Sitalsing",
+      "note": "Columniste die in de Volkskrant de passiviteit van jongeren bekritiseerde",
+      "start_seconds": 398,
+      "mention_count": 1
+    },
+    {
+      "name": "Marsilius van Padua",
+      "note": "Middeleeuwse denker die experimenteerde met volkssoevereiniteit",
+      "start_seconds": 865,
+      "mention_count": 1
+    },
+    {
+      "name": "Junius Brutus",
+      "note": "Toegeschreven auteur van het calvinistische geschrift Vindiciae contra tyrannos",
+      "start_seconds": 865,
+      "mention_count": 1
+    },
+    {
+      "name": "Lodewijk XVI",
+      "note": "Franse koning die tijdens de revolutie werd geëxecuteerd",
+      "start_seconds": 1272,
+      "mention_count": 3
+    },
+    {
+      "name": "Lefebvre",
+      "note": "Franse historicus die de revolutie verklaarde vanuit angst ('Le Grand Peur')",
+      "start_seconds": 1197,
+      "mention_count": 2
     },
     {
       "name": "Karl Marx",
-      "note": "bedoelde de Russische revolutie niet zo",
-      "start_seconds": 1503,
-      "wiki_checked": true,
-      "wiki_pageid": 925,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Marx",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+      "note": "Denker wiens structurele klassenanalyse vergeleken wordt met de verklaring van de revolutie",
+      "start_seconds": 1021,
+      "mention_count": 2
     },
     {
-      "name": "Vladimir Lenin",
-      "note": "Russische revolutionair",
+      "name": "Lenin",
+      "note": "Leider van de Russische revolutie",
       "start_seconds": 1503,
-      "wiki_checked": true,
-      "wiki_pageid": 13551,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Lenin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg/250px-Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Lev Tolstoj",
+      "note": "Russische schrijver die bezit en eigendom relativeerde",
+      "start_seconds": 2837,
+      "mention_count": 1
+    },
+    {
+      "name": "George Whitefield",
+      "note": "Britse predikant die in de Great Awakening enorme menigten trok",
+      "start_seconds": 2031,
+      "mention_count": 2
+    },
+    {
+      "name": "John Wesley",
+      "note": "Predikant en leider van de Great Awakening/methodistische beweging",
+      "start_seconds": 2031,
+      "mention_count": 1
+    },
+    {
+      "name": "Charles Wesley",
+      "note": "Predikant en liedschrijver in de Great Awakening",
+      "start_seconds": 2031,
+      "mention_count": 1
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader die over de verhouding tussen aardse orde en kerk nadacht",
+      "start_seconds": 3676,
+      "mention_count": 2
+    },
+    {
+      "name": "Martin Luther King",
+      "note": "Leider van de Amerikaanse burgerrechtenbeweging",
+      "start_seconds": 2759,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas Vincent",
+      "note": "Denker die bezwaar maakte tegen het breken met het verleden",
+      "start_seconds": 2506,
+      "mention_count": 1
+    },
+    {
+      "name": "Cas Mudde",
+      "note": "Politicoloog die populisme als leeg en nihilistisch beschrijft",
+      "start_seconds": 3611,
+      "mention_count": 1
+    },
+    {
+      "name": "Hugo de Jonge",
+      "note": "Nederlands minister van Volksgezondheid tijdens de coronacrisis",
+      "start_seconds": 3650,
+      "mention_count": 1
+    },
+    {
+      "name": "Poetin",
+      "note": "President van Rusland; voorbeeld van een leider die niet toegeeft aan protest",
+      "start_seconds": 38,
+      "mention_count": 3
+    },
+    {
+      "name": "Jezus",
+      "note": "Centrale figuur in het christendom; door sommigen als revolutionair beschouwd",
+      "start_seconds": 2915,
+      "mention_count": 6
+    },
+    {
+      "name": "Salomo",
+      "note": "Bijbelse koning wiens harde beleid leidde tot opstand",
+      "start_seconds": 3116,
+      "mention_count": 3
+    },
+    {
+      "name": "Jerobeam",
+      "note": "Opzichter en volksleider die de opstand tegen Salomo en Rehabeam leidde",
+      "start_seconds": 3116,
+      "mention_count": 3
+    },
+    {
+      "name": "Rehabeam",
+      "note": "Zoon van Salomo; weigerde het volk te verlichten en veroorzaakte de scheuring",
+      "start_seconds": 3120,
+      "mention_count": 3
+    },
+    {
+      "name": "Tom Holland",
+      "note": "Historicus en auteur, genoemd als suggestie voor een volgende leeslijst",
+      "start_seconds": 3922,
+      "mention_count": 1
     }
   ],
   "books": [
     {
-      "title": "La Grande Peur de 1789",
+      "title": "Ongeloof en Revolutie",
+      "author": "Groen van Prinsterer",
+      "note": "Boek over de relatie tussen ongeloof en revolutie",
+      "start_seconds": 2344,
+      "volume_id": "zQ9EwwEACAAJ",
+      "canonical_title": "Ongeloof en revolutie: eene reeks van historische voorlezingen",
+      "canonical_author": "Guillaume Groen van Prinsterer",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
+    },
+    {
+      "title": "Le Grand Peur",
       "author": "Georges Lefebvre",
-      "note": "revolutie als beweging gedreven door angst",
-      "start_seconds": 1197,
-      "volume_id": "PQ_0DwAAQBAJ",
-      "canonical_title": "La grande peur de 1789 - Suivi de Les Foules révolutionnaires",
-      "canonical_author": "Georges Lefebvre",
-      "isbn13": "9782200629649",
-      "isbn10": "2200629648",
-      "thumbnail": "http://books.google.com/books/content?id=PQ_0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "note": "Analyse van de Franse Revolutie als beweging gedreven door angst",
+      "start_seconds": 1197
     },
     {
       "title": "The German Awakening: Protestant Renewal After the Enlightenment",
       "author": "Andrew Close",
-      "note": "over religieuze opwekking in Duitsland",
-      "start_seconds": 2098,
+      "note": "Studie naar het protestantse herstel na de Verlichting",
+      "start_seconds": 2208,
       "volume_id": "tCSQDwAAQBAJ",
-      "canonical_title": "The German Awakening: Protestant Renewal After the Enlightenment, 1815-1848",
-      "canonical_author": "Andrew Kloes",
+      "canonical_title": "The German Awakening: Protestant Renewal after the Enlightenment, 1815-1848",
+      "canonical_author": "Andrew Close",
       "isbn13": "9780190936860",
       "isbn10": "019093686X",
       "thumbnail": "http://books.google.com/books/content?id=tCSQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -205,158 +226,178 @@
     {
       "title": "Revolutionary World: Global Upheaval in the Modern Age",
       "author": "David Motadel",
-      "note": "wereldwijde schokgolf van de revoluties",
-      "start_seconds": 2298
+      "note": "Over de wereldwijde weerklank van revoluties",
+      "start_seconds": 2288
     },
     {
-      "title": "Ongeloof en Revolutie",
-      "author": "Groen van Prinsterer",
-      "note": "conservatieve kritiek op de revolutie",
-      "start_seconds": 2370,
-      "volume_id": "6SQVEQAAQBAJ",
-      "canonical_title": "Ongeloof en Revolutie: Eene reeks van historische voorlezingen",
-      "canonical_author": "Guillaume Groen van Prinsterer",
-      "isbn13": "9789004587823",
-      "isbn10": "9004587829",
-      "thumbnail": "http://books.google.com/books/content?id=6SQVEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "title": "Burgerhart",
+      "author": "Aagje Deken",
+      "note": "Een van de eerste Nederlandse romans; uiting van het burgerlijk zelfbewustzijn",
+      "start_seconds": 2164,
+      "volume_id": "0SNgzQEACAAJ",
+      "canonical_title": "De historie van mejuffrouw Sara Burgerhart",
+      "canonical_author": "Elisabeth Wolff en Aagje Deken",
+      "isbn13": null,
+      "isbn10": null,
+      "thumbnail": ""
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "1 Koningen 12",
+      "note": "Verhaal van de opstand tegen Rehabeam na het harde beleid van Salomo",
+      "start_seconds": 3116
+    },
+    {
+      "ref": "Marcus 1:15",
+      "note": "Eerste woorden van Jezus: 'Keert u om, bekeert u', door Stefan Paas als revolutionair gezien",
+      "start_seconds": 3000
+    }
+  ],
   "places": [
     "Frankrijk",
     "Parijs",
     "Versailles",
-    "Notre-Dame",
-    "Bastille",
-    "Amerika",
-    "Groot-Brittannië",
-    "Duitsland",
-    "België",
-    "Rusland",
+    "Verenigde Staten",
+    "Groningen",
     "Egypte",
-    "Turkije"
+    "België",
+    "Engeland",
+    "Pruisen",
+    "Duitsland",
+    "Rusland",
+    "Turkije",
+    "Zuid-Afrika",
+    "Oxford"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken of na de coronacrisis een revolutie dreigt, en duiken in de Franse Revolutie met haar idealen, terreur en religieuze omwenteling. Daarna kijken ze naar religieuze revoluties zoals de Great Awakening en naar conservatieve christelijke kritiek op de revolutie.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken of crises zoals de coronapandemie revoluties kunnen uitlokken, aan de hand van de Franse Revolutie en eerdere opstanden. Ze analyseren hoe ongelijkheid, angst en charismatische leiders revoluties aanwakkeren, en hoe de Franse Revolutie verschillend werd beoordeeld door conservatieve christelijke denkers. Ten slotte onderzoeken ze de verhouding tussen christendom en revolutie, met Jezus en de Bijbel als centrale referentiepunten.",
   "summary_points": [
-    "Na crises volgen in de geschiedenis vaak opstanden, vooral bij grote sociaal-economische ongelijkheid.",
-    "Er is nu weinig revolutionaire dreiging, mede door vergrijzing en het ontbreken van een jeugdoverschot.",
-    "Het begrip revolutie veranderde van cyclische omloop naar menselijk gemaakte, lineaire verandering.",
-    "De Franse Revolutie wordt verklaard door structurele oorzaken, charismatische leiders en angst (Grande Peur).",
-    "Hervormingen van zwakke machthebbers kunnen een revolutie juist versnellen, zoals in de DDR in 1989.",
-    "De terreur wordt verschillend geduid: onvermijdelijk of gevolg van noodtoestand en oorlog.",
-    "De revolutie bestreed de kerk en introduceerde een cultus van de rede en van het Opperwezen.",
-    "De Great Awakening was een religieuze revolutie van innerlijkheid, nieuwe organisatievormen en zelfbewustzijn.",
-    "Groen van Prinsterer en Da Costa zochten een transcendent ijkpunt tegen tirannie van de meerderheid."
+    "Historicus Samuel Cohn stelt dat pandemieën en crises vaak voorafgaan aan opstanden, zeker bij bestaande sociaal-economische ongelijkheid.",
+    "De Franse Revolutie betekende een breuk met het idee van een door God gegeven vorst en introduceerde het idee van volkssoevereiniteit.",
+    "Revoluties worden verklaard via structurele oorzaken (armoede, staatsschuld) of via charismatische leiders en angst (de 'Grande Peur').",
+    "De Franse Revolutie eindigde in terreur; historici debatteren of geweld inherent is aan revoluties.",
+    "Tijdens de revolutie werd de katholieke kerk onderdrukt en werd een alternatieve 'cultus van de rede' ingevoerd.",
+    "De Great Awakening in de 18e eeuw was een religieuze opwekking met nieuwe organisatievormen en zelfbewustzijn, en raakte aan maatschappelijke verandering.",
+    "Christelijke denkers als Groen van Prinsterer en Da Costa waren kritisch op volkssoevereiniteit en pleitten voor een transcendent ijkpunt van moraal.",
+    "Het christendom heeft een ambivalente relatie met revolutie: het kan zowel conservatief als revolutionair gebruikt worden.",
+    "De Bijbel bevat voorbeelden van volksopstand (1 Koningen 12) en een kritische houding tegenover macht en dwang.",
+    "Het gesprek eindigt met de gedachte dat blijvende verandering begint met een 'revolutie van het hart' in plaats van alleen van de macht."
   ],
   "chapters": [
     {
-      "start_seconds": 51,
-      "title": "Einde van corona en revolutie",
-      "summary": "Introductie en de vraag of na crises revoluties volgen, en waarom jongeren nu niet in opstand komen."
+      "start_seconds": 0,
+      "title": "Inleiding en corona als voedingsbodem",
+      "summary": "Boogerd en de gasten bespreken het einde van de coronacrisis en of crises historisch tot revoluties leiden."
     },
     {
-      "start_seconds": 467,
-      "title": "Revoluties in democratische staten",
-      "summary": "Voorbeelden van revoluties van 1776 tot 1989 en de vraag of democratieën ook omver kunnen worden geworpen."
+      "start_seconds": 253,
+      "title": "Crises, pandemieën en opstanden",
+      "summary": "Beatrice de Graaf verbindt de theorie van Samuel Cohn met 17e-eeuwse opstanden en vraagt zich af waarom jongeren vandaag niet in opstand komen."
     },
     {
-      "start_seconds": 643,
+      "start_seconds": 677,
       "title": "Wat is een revolutie?",
-      "summary": "Het begrip verschuift van cyclische omloop naar menselijke geschiedenisvorming, met volkssoevereiniteit als kern."
-    },
-    {
-      "start_seconds": 996,
-      "title": "Oorzaken van de Franse Revolutie",
-      "summary": "Structurele, ideeën- en angstverklaringen, en de rol van de zwakke koning."
-    },
-    {
-      "start_seconds": 1367,
-      "title": "Terreur en idealen",
-      "summary": "Het contrast tussen mensenrechten en guillotine, en hoe historici de terreur duiden."
+      "summary": "Het begrip revolutie verandert van cyclisch naar lineair en door mensen gestuurd; de Franse en Amerikaanse Revolutie worden vergeleken."
     },
     {
       "start_seconds": 1717,
-      "title": "Religie in de Franse Revolutie",
-      "summary": "De aanval op de kerk, de cultus van de rede en Robespierres Opperwezen."
+      "title": "De Franse Revolutie en religie",
+      "summary": "Het christendom en de geestelijkheid werden onderdrukt, kerkgoederen onteigend en een 'cultus van de rede' ingevoerd."
     },
     {
       "start_seconds": 1934,
-      "title": "Religieuze revoluties en awakenings",
-      "summary": "De Great Awakening en wereldwijde opwekkingsbewegingen als revolutie van innerlijkheid."
+      "title": "Religieuze revivals en de Great Awakening",
+      "summary": "Stefan Paas beschrijft religieuze opwekkingen in de 18e eeuw, met nieuwe organisaties en charismatische predikers."
     },
     {
-      "start_seconds": 2330,
-      "title": "Conservatieve christelijke kritiek",
-      "summary": "Groen van Prinsterer, Da Costa en Burke over volkssoevereiniteit, transcendentie en minderheden."
+      "start_seconds": 2344,
+      "title": "Conservatieve denkers en de alternatieve weg",
+      "summary": "Groen van Prinsterer en Da Costa worden besproken als critici van volkssoevereiniteit die toch sociaal activisme toonden."
+    },
+    {
+      "start_seconds": 2880,
+      "title": "Christendom: conservatief of revolutionair?",
+      "summary": "Het gesprek gaat over Christelijk socialisme, bevrijdingstheologie en de vraag of Jezus een revolutionair was."
+    },
+    {
+      "start_seconds": 3116,
+      "title": "Bijbelse voorbeelden en slot",
+      "summary": "Het verhaal van Salomo en Rehabeam wordt besproken; het gesprek eindigt met de noodzaak van een 'revolutie van het hart'."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1,
+      "start_seconds": 1347,
       "speaker": "Beatrice de Graaf",
-      "text": "Op het moment dat de samenleving bloed ruikt, breekt de revolutie pas echt los.",
-      "note": "Scherpe analyse van het dilemma van machthebbers die toegeven."
+      "text": "Het is een analyse, het is een analyse, maar geen advies.",
+      "note": "Ze distantieert zich van Stefans suggestie dat machthebbers de druk moeten opvoeren, wat het dilemma van repressie tegenover toegeven blootlegt."
     },
     {
-      "start_seconds": 1337,
-      "speaker": "Beatrice de Graaf",
-      "text": "Poetin geeft niet toe bij protest, maar zet er nog een schepje bovenop.",
-      "note": "Actuele koppeling van historische analyse aan Rusland."
+      "start_seconds": 1367,
+      "speaker": "David Boogerd",
+      "text": "In 9 maanden werden tijdens de Franse Revolutie drie keer zoveel mensen vermoord als door de Inquisitie in drie eeuwen.",
+      "note": "Het contrast tussen hoogdravende idealen en massale geweldsdaden maakt de revolutie zo ambivalent."
     },
     {
-      "start_seconds": 1197,
+      "start_seconds": 2497,
       "speaker": "Beatrice de Graaf",
-      "text": "De revolutie was een beweging voortgedreven uit angst, met geruchten en fake news.",
-      "note": "Verrassende verklaring met parallel naar nu."
+      "text": "Zonder transcendent ijkpunt, een God of een koning, wie bewaakt dan recht en waarheid als de meerderheid alles bepaalt?",
+      "note": "Ze brengt het conservatieve argument over de tirannie van de meerderheid naar voren, dat nog steeds actueel is."
     },
     {
-      "start_seconds": 1796,
+      "start_seconds": 3002,
       "speaker": "Beatrice de Graaf",
-      "text": "Robespierre trad op als hogepriester, maar mensen vonden dat maf en ergerden zich aan hem.",
-      "note": "Anekdote over de mislukte revolutionaire staatsreligie."
+      "text": "De Bijbel heeft een buitengewoon kritische houding ten opzichte van de revolutionaire methodes van macht en dwang.",
+      "note": "Ze stelt dat het christelijk revolutionaire vuur verloren gaat zodra het met macht en geweld wordt verbonden."
     },
     {
-      "start_seconds": 2605,
+      "start_seconds": 3856,
       "speaker": "Beatrice de Graaf",
-      "text": "Zonder transcendent ijkpunt dreigt tirannie van de meerderheid: waar ligt het morele ijkpunt?",
-      "note": "Kernvraag uit de conservatieve kritiek die nog steeds actueel is."
+      "text": "Een revolutie van het hart, in plaats van een revolutie van de macht.",
+      "note": "Deze samenvatting maakt de verschuiving zichtbaar van structurele verandering naar persoonlijke bekering."
     }
   ],
   "keywords": [
-    "revolutie",
     "Franse Revolutie",
+    "volkssoevereiniteit",
+    "Great Awakening",
     "terreur",
     "Robespierre",
-    "Great Awakening",
-    "volkssoevereiniteit",
+    "conservatisme",
+    "bevrijdingstheologie",
+    "christendom",
     "Groen van Prinsterer",
-    "Isaac da Costa",
-    "Edmund Burke",
-    "cultus van de rede",
-    "opwekking",
-    "Verlichting"
+    "revolutie van het hart",
+    "Jezus",
+    "Salomo"
   ],
-  "quotes": [],
+  "quotes": [
+    "Zijn religies - en het christendom in het bijzonder - niet inherent conservatief?",
+    "En was Jezus eigenlijk een revolutionair?",
+    "Het einde van de coronacrisis is in zicht zeggen experts."
+  ],
   "similar": [
     {
       "n": 106,
-      "reason": "Beatrice de Graaf en Paas over crises vanuit geschiedenis en geloof, met coronacrisis."
+      "reason": "Crises en de religieuze geschiedenis erachter, met Beatrice de Graaf en Stefan Paas"
+    },
+    {
+      "n": 25,
+      "reason": "Corona en historische plagen, sluit aan bij de crisisvraag uit #75"
     },
     {
       "n": 46,
-      "reason": "De Graaf en Paas over politieke verlossers, charismatische leiders en religie in de geschiedenis."
+      "reason": "Charismatische leiders en politieke verlossers, een kernthema van #75"
     },
     {
-      "n": 68,
-      "reason": "De Graaf en Paas over eindtijd, complotdenken en corona; religieuze duiding van crisistijd."
+      "n": 113,
+      "reason": "Vrijheid, revolutie-achtige omwentelingen en de rol van de Bijbel"
     },
     {
-      "n": 66,
-      "reason": "De Graaf en Paas over het einde van een tijdperk; geschiedenis en religie."
-    },
-    {
-      "n": 41,
-      "reason": "Abraham Kuyper: conservatief-christelijke politiek, in lijn met Groen van Prinsterer en de reactie op de revolutie."
+      "n": 89,
+      "reason": "Verbinding van religie, natie en politiek in de Nederlandse geschiedenis"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

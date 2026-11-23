@@ -1,18 +1,23 @@
 {
   "episode": 122,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 101117,
+    "segments": 1038,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 30449,
-    "output_tokens": 2657,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 51216,
+    "output_tokens": 6656,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
-    "Filosofie & ethiek",
     "God & geloof",
-    "Kerk & secularisatie",
-    "Bijbel & Jezus"
+    "Filosofie & ethiek",
+    "Zingeving & psyche",
+    "Kerk & secularisatie"
   ],
   "guests": [
     "Paul van Tongeren"
@@ -20,236 +25,259 @@
   "people": [
     {
       "name": "Friedrich Nietzsche",
-      "note": "Duitse filosoof van de 'dood van God'",
-      "start_seconds": 45,
-      "wiki_checked": true,
-      "wiki_pageid": 15590,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/250px-Nietzsche1882.jpg"
+      "note": "Duitse filosoof; centrale figuur in het gesprek, bekend om de uitspraak 'God is dood'",
+      "start_seconds": 1582,
+      "mention_count": 45
     },
     {
       "name": "Plato",
-      "note": "Griekse filosoof; het christendom als 'platonisme voor het volk'",
-      "start_seconds": 3,
-      "wiki_checked": true,
-      "wiki_pageid": 1324,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Plato",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/250px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      "note": "Griekse filosoof; het 'platonisme' vormt volgens Nietzsche het begin van de metafysische traditie",
+      "start_seconds": 183,
+      "mention_count": 12
     },
     {
       "name": "Jezus",
-      "note": "Door Nietzsche bewonderd als enige christen",
-      "start_seconds": 180,
-      "wiki_checked": true,
-      "wiki_pageid": 847,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Jezus_%28historisch%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg/250px-Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232_%28cropped%29.jpg"
+      "note": "Stichter van het christendom; volgens Nietzsche de enige echte 'christen'",
+      "start_seconds": 1844,
+      "mention_count": 8
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader en filosoof; door Nietzsche fel bekritiseerd maar ook bewonderd",
+      "start_seconds": 4085,
+      "mention_count": 6
     },
     {
       "name": "René Descartes",
-      "note": "Filosoof van het twijfelexperiment",
+      "note": "Filosoof met het twijfelexperiment; volgens Nietzsche oppervlakkig",
       "start_seconds": 2069,
-      "wiki_checked": true,
-      "wiki_pageid": 1537,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/250px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "mention_count": 2
     },
     {
-      "name": "Michiel de Ruyter",
-      "note": "Held uit de kinderboeken van Van Tongeren",
-      "start_seconds": 210,
-      "wiki_checked": true,
-      "wiki_pageid": 17801,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michiel_de_Ruyter",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bol%2C_Michiel_de_Ruyter.jpg/250px-Bol%2C_Michiel_de_Ruyter.jpg"
+      "name": "Wladimir Poetin",
+      "note": "Russisch president; als voorbeeld van instrumenteel omgaan met waarheid",
+      "start_seconds": 2594,
+      "mention_count": 2
     },
     {
-      "name": "Socrates",
-      "note": "Filosoof waar Van Tongeren ook kenner van is",
+      "name": "Sokrates",
+      "note": "Griekse filosoof; genoemd als een van Van Tongerens specialisaties",
       "start_seconds": 1682,
-      "wiki_checked": true,
-      "wiki_pageid": 1592,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Socrates_%28filosoof%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/250px-Socrates_Louvre.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Baron von Münchhausen",
-      "note": "Beeld voor jezelf optrekken aan je eigen haren",
+      "name": "Boeddha",
+      "note": "Stichter van het boeddhisme; Nietzsche beschrijft zijn nagloed in een grot",
+      "start_seconds": 2756,
+      "mention_count": 1
+    },
+    {
+      "name": "Voltaire",
+      "note": "Franse Verlichtingsdenker; variatie op zijn uitspraak over God en het zilverbestek",
+      "start_seconds": 3270,
+      "mention_count": 1
+    },
+    {
+      "name": "Munchausen",
+      "note": "Baron van Munchausen; beeld van iemand die zichzelf uit het moeras probeert te trekken",
       "start_seconds": 2437,
-      "wiki_checked": true,
-      "wiki_pageid": 22197,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Karl_Friedrich_Hieronymus_von_M%C3%BCnchhausen",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bruckner_-_M%C3%BCnchhausen.jpg/250px-Bruckner_-_M%C3%BCnchhausen.jpg"
+      "mention_count": 2
+    },
+    {
+      "name": "E.A. Bavinck",
+      "note": "Gereformeerd theoloog; gebruikte het beeld van de nagloed van de ondergaande zon",
+      "start_seconds": 2772,
+      "mention_count": 1
+    },
+    {
+      "name": "Michiel de Ruiter",
+      "note": "Nederlandse marineofficier uit de kinderboeken van Van Tongeren",
+      "start_seconds": 205,
+      "mention_count": 1
     }
   ],
   "books": [
     {
       "title": "De Antichrist",
       "author": "Friedrich Nietzsche",
-      "note": "Bevat de 'psychologie van de verlosser' en de gedachte dat er maar één christen was",
+      "note": "Nietzsches 'vervloeking van het christendom', met de passage over de 'psychologie van de verlosser'",
       "start_seconds": 1855,
       "volume_id": "KWVyAAAAQBAJ",
-      "canonical_title": "De antichrist: vloek over het christendom",
+      "canonical_title": "De antichrist",
       "canonical_author": "Friedrich Nietzsche",
       "isbn13": "9789029582391",
       "isbn10": "9029582391",
       "thumbnail": "http://books.google.com/books/content?id=KWVyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Belijdenissen",
+      "author": "Augustinus",
+      "note": "Augustinus' autobiografische werk dat Nietzsche volgens Van Tongeren herlas",
+      "start_seconds": 4147,
+      "volume_id": "AZBJGQAACAAJ",
+      "canonical_title": "Belijdenissen / druk 14",
+      "canonical_author": "Aurelius Augustinus",
+      "isbn13": "9789026321023",
+      "isbn10": "9026321023",
+      "thumbnail": "http://books.google.com/books/content?id=AZBJGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
   "bible_refs": [
     {
       "ref": "Lucas 23:43",
-      "note": "'Heden zult gij met mij zijn in het paradijs': Nietzsches uitleg als affirmatie van het hier en nu",
-      "start_seconds": 1883
+      "note": "Jezus tegen de medegekruisigde: 'Heden zult gij met mij in het paradijs zijn'; Nietzsche leest dit als affirmatie",
+      "start_seconds": 1891
     },
     {
-      "ref": "Mattheus 18:22",
-      "note": "Zeventig maal zeven keer vergeven als voorbeeld van de eindeloze morele eis",
+      "ref": "Mattheüs 18:22",
+      "note": "Vergeven '70 maal 7 keer' als voorbeeld van de eindeloze morele eis van het christendom",
       "start_seconds": 1269
     },
     {
-      "ref": "Genesis 1:31",
-      "note": "God zag dat het goed was: wereldbevestiging in het christendom",
-      "start_seconds": 1305
+      "ref": "Mattheüs 5:44",
+      "note": "'Heb je vijanden lief' als voorbeeld van een onmogelijke morele eis",
+      "start_seconds": 1276
     },
     {
-      "ref": "Mattheus 6:28",
-      "note": "De leliën des velds als beeld van de goedheid van de schepping",
-      "start_seconds": 1306
+      "ref": "Genesis 1:31",
+      "note": "'God zag dat het goed was': het christendom als wereldbevestigende religie",
+      "start_seconds": 1304
+    },
+    {
+      "ref": "Mattheüs 6:26",
+      "note": "De vogels in de lucht en de leliën in het veld als beeld van de goedheid van de schepping",
+      "start_seconds": 1305
     }
   ],
   "places": [
-    "Afrika",
-    "Cuba",
-    "Oost-Duitsland",
+    "Utrecht",
+    "Moskou",
     "Rusland",
-    "Nederland"
+    "Afrika"
   ],
-  "summary_tldr": "David Boogerd en Stefan Paas spreken met Denker des Vaderlands Paul van Tongeren over zijn katholieke jeugd, de staat van het denken in Nederland en de ware betekenis van Nietzsches 'God is dood'. Volgens Van Tongeren is dat geen blijmoedige vaststelling maar een waarschuwing dat de waarheidsvraag zichzelf ondermijnt en daarmee de hele westerse cultuur laat rafelen.",
+  "summary_tldr": "David Boogerd en Stefan Paas spreken met denker des vaderlands Paul van Tongeren over Nietzsches uitspraak 'God is dood' en wat die uitspraak werkelijk betekent. Van Tongeren stelt dat Nietzsche waarschuwt voor een cultuur die het fundament van de waarheid verliest zonder de consequenties te begrijpen. Het gesprek eindigt bij de vraag hoe betekenis ontvangen en niet alleen gemaakt wordt, en hoe Van Tongeren als katholiek denker die religieuze aard van de mens onderscheidt van de toevallige cultuur waarin die wordt beleefd.",
   "summary_points": [
-    "Van Tongeren wilde als kind priester en martelaar worden, onder invloed van de Koude Oorlog en de lijdensmystiek.",
-    "Hij ziet een 'volledige emancipatie van de massa' zonder bijpassende vorming en een spanning tussen vrijheid en gelijkheid.",
-    "Filosofie kan mensen laten houden van wijsheid; de belangstelling ervoor groeit, ook in het onderwijs.",
-    "Hij noemt zich katholiek omdat de mens religieus is en dat een cultuur van onderhoud nodig heeft, met rituelen als het schietgebedje.",
-    "Het christendom combineert een eindeloze morele eis met een bevestiging dat de wereld goed is.",
-    "Nietzsche verklaarde God niet dood maar liet een krankzinnige dat doen: de gelovigen en ongelovigen begrijpen niet wat er gebeurd is.",
-    "God is de sluitsteen van het platoons-christelijke waarheidsdenken; als de waarheidsvraag zichzelf bevraagt, stort het gebouw langzaam in.",
-    "Nietzsche bewonderde Jezus maar verweet het christendom verraad aan diens affirmatie van het leven.",
-    "Mensenrechten en menselijke waardigheid blijken een geloof dat we zelf hebben bedacht en toch nodig hebben."
+    "Van Tongeren ziet een rol voor filosofie in het ontwikkelen van smaak en vorming, maar waarschuwt voor een 'volledige emancipatie van de massa' zonder gelijke vorming.",
+    "Nietzsche's 'God is dood' betekent volgens Van Tongeren niet dat God irrelevant is, maar dat de cultuur de crisis van de waarheid niet begrijpt.",
+    "Het platonisme, en later het christendom als 'platonisme voor het volk', legt een ware werkelijkheid achter de ervaring; die waarheidsvraag ondermijnt zichzelf.",
+    "Het christendom combineert een extreme morele eis met een diepe bevestiging van de wereld: het is goed, en het is nooit goed genoeg.",
+    "Nietzsche's 'overwinning van het nihilisme' bestaat volgens Van Tongeren niet; we blijven worstelen met de gevolgen van het verlies van vaste grond.",
+    "Stefan Paas vreest dat het besef dat waarden constructies zijn tot cynisme leidt, en dat mensenrechten alleen standhouden als mensen er echt in geloven.",
+    "Van Tongeren stelt dat betekenis begint bij ontvankelijkheid en niet bij activiteit; betekenis wordt waargenomen, niet gemaakt.",
+    "Depressie beschrijft hij als het verlies van waargenomen betekenis, waarbij er alleen nog feitelijkheid overblijft.",
+    "De particulariteit van de eigen traditie vraagt om bescheidenheid, maar filosofie pretendeert universaliteit; het gesprek daarover verloopt moeilijker dan dat tussen religieuze tradities.",
+    "Het gesprek sluit af met een vervolgaflevering over Nietzsche en Augustinus als mogelijk vervolg."
   ],
   "chapters": [
     {
-      "start_seconds": 98,
-      "title": "Priester en martelaar: een katholieke jeugd",
-      "summary": "Van Tongeren vertelt over zijn kinderdroom om martelaar te worden, de Koude Oorlog en de heroïek. Stefan Paas deelt zijn eigen herinneringen aan vervolgde christenen."
+      "start_seconds": 0,
+      "title": "Intro en jeugd van Van Tongeren",
+      "summary": "Van Tongeren vertelt over zijn jeugdwens martelaar of priester te worden, gevoed door de Koude Oorlog en de lijdensmistiek. Stefan Paas deelt een vergelijkbare herinnering."
     },
     {
-      "start_seconds": 402,
-      "title": "Wordt er genoeg nagedacht in Nederland?",
-      "summary": "Over de taak van Denker des Vaderlands, de emancipatie van de massa, vorming, meritocratie en de verhouding tussen vrijheid en gelijkheid."
+      "start_seconds": 390,
+      "title": "Denker des Vaderlands en de massa",
+      "summary": "Van Tongeren reflecteert op zijn rol als denker des vaderlands en op de kloof tussen nadenkende mensen en de massa. Gelijkheid en vorming blijken onder spanning te staan."
     },
     {
-      "start_seconds": 1043,
-      "title": "Waarom nog katholiek?",
-      "summary": "Van Tongeren legt uit waarom religie bij de mens hoort en wat hij waardeert in de christelijke traditie: morele eis en wereldbevestiging."
+      "start_seconds": 1030,
+      "title": "Katholiek zijn en de religieuze mens",
+      "summary": "Van Tongeren legt uit waarom hij naar de kerk blijft gaan: de mens is religieus en heeft een cultuur nodig om dat te onderhouden. Hij beschrijft de paradox van het christendom als moreel appel en wereldbevestiging."
     },
     {
-      "start_seconds": 1440,
-      "title": "Particulariteit van religie en filosofie",
-      "summary": "Gesprek over de toevalligheid van tradities en de vraag of filosofie universeler is, met ervaringen uit Afrika over het 'Europese nihilisme'."
+      "start_seconds": 1580,
+      "title": "Filosofie, Europa en niet-Europees denken",
+      "summary": "Van Tongeren bespreekt de particulariteit van het Europese denken, aan de hand van gesprekken met Afrikaanse collega's. Paas wijst op het universele karakter van religies."
     },
     {
-      "start_seconds": 1682,
-      "title": "Nietzsche, Jezus en het christendom",
-      "summary": "Het christendom als platonisme voor het volk en Nietzsches bewondering voor Jezus als enige christen."
+      "start_seconds": 1700,
+      "title": "Nietzsches God is dood",
+      "summary": "Van Tongeren legt uit dat 'God is dood' een waarschuwing is over de waarheidsvraag die zichzelf ondermijnt. Plato, het christendom en de sluitsteen van de cultuur komen aan bod."
     },
     {
-      "start_seconds": 1993,
-      "title": "Wat bedoelt 'God is dood' echt?",
-      "summary": "De waarheidsvraag ondermijnt zichzelf, de sluitsteen valt uit het gewelf en de cultuur gaat langzaam rafelen."
+      "start_seconds": 2760,
+      "title": "Nihilisme, mensenrechten en cynisme",
+      "summary": "Het gesprek gaat over het blijvende nihilisme, de surrogaten voor God en het gevaar van cynisme. Paas verdedigt de intrinsieke waarde van de mens tegen het idee van een nuttige fictie."
     },
     {
-      "start_seconds": 2456,
-      "title": "Gevolgen: waarden, waardigheid en mensenrechten",
-      "summary": "Over het zelf scheppen van waarden en de menselijke waardigheid als geloof dat we zelf bedacht hebben."
+      "start_seconds": 3660,
+      "title": "Betekenis als ontvangst",
+      "summary": "Van Tongeren stelt dat betekenis begint bij ontvankelijkheid en niet bij activiteit. Het gesprek eindigt met de vraag hoe betekenis gedeeld kan worden en met een vooruitblik op een vervolgaflevering."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1708,
+      "start_seconds": 2106,
       "speaker": "Paul van Tongeren",
-      "text": "Hij heeft God niet dood verklaard, maar een krankzinnige opgevoerd die rondbazuint dat God dood is.",
-      "note": "Corrigeert het gangbare misverstand over Nietzsche."
+      "text": "God is de waarheid; God is het ijkpunt van alles.",
+      "note": "Samenvatting van het platonische-christelijke denkmodel dat Nietzsche in de 'dood van God' ondermijnt."
     },
     {
-      "start_seconds": 2204,
+      "start_seconds": 2194,
       "speaker": "Paul van Tongeren",
-      "text": "De waarheid is de sluitsteen in het gewelf; die is eruit gevallen en het gebouw gaat langzaam inzakken.",
-      "note": "Sterk beeld voor de erosie van de westerse cultuur."
+      "text": "God is als het ware de sluitsteen in het gewelf. Die is eruitgevallen; het gebouw kan nog lang blijven staan, maar de erosie is begonnen.",
+      "note": "Een beeldende manier om het verlies van de waarheidsvraag als langdurig proces te beschrijven."
     },
     {
-      "start_seconds": 1281,
+      "start_seconds": 1897,
       "speaker": "Paul van Tongeren",
-      "text": "Het christendom combineert een extreme morele eis met het vertrouwen dat het goed is.",
-      "note": "Stefan Paas vat het samen als: het is goed en nooit goed genoeg."
+      "text": "Nietzsche zegt: dit is het paradijs, ook in deze ellendige toestand.",
+      "note": "Volgens Van Tongeren de maximale uiting van affirmatie: het volledig omarmen van de werkelijkheid, ook in lijden."
     },
     {
-      "start_seconds": 1881,
-      "speaker": "Paul van Tongeren",
-      "text": "Nietzsche zegt dat er maar één christen was en die is gestorven aan het kruis.",
-      "note": "Verrassende waardering voor Jezus bij de felle christendomscriticus."
+      "start_seconds": 3125,
+      "speaker": "Stefan Paas",
+      "text": "Als heel veel mensen gaan zien dat het een fictie is, dan ontstaat een cultuur van cynisme die werkelijk eroderend werkt.",
+      "note": "Paas stelt de vraag of een besef van constructie ook geen gevaar voor de samenleving met zich meebrengt."
     },
     {
-      "start_seconds": 2562,
+      "start_seconds": 3677,
       "speaker": "Paul van Tongeren",
-      "text": "We klampen ons vast aan iets waarvan we weten dat we het zelf bedacht hebben.",
-      "note": "Over mensenrechten en menselijke waardigheid als geloof."
+      "text": "Betekenis begint bij een passiviteit, bij een ontvankelijkheid.",
+      "note": "Hij keert de gangbare taal van 'betekenisgeving' om, en pleit voor ontvangen in plaats van maken."
     }
   ],
   "keywords": [
     "Nietzsche",
-    "dood van God",
-    "waarheid",
-    "platonisme",
+    "God is dood",
     "nihilisme",
+    "platonisme",
+    "waarheid",
+    "betekenis",
+    "ontvankelijkheid",
     "katholicisme",
-    "Jezus",
-    "filosofie",
-    "vorming",
-    "menselijke waardigheid",
-    "affirmatie",
-    "Koude Oorlog"
+    "wereldbevestiging",
+    "emancipatie",
+    "mensenrechten",
+    "cynisme"
   ],
   "quotes": [
-    "'God is dood, en wij hebben hem vermoord', schreef Friedrich Nietzsche zo'n 140 jaar geleden. Woorden die insloegen als een bom."
+    "'God is dood, en wij hebben hem vermoord', schreef Friedrich Nietzsche zo'n 140 jaar geleden.",
+    "Woorden die insloegen als een bom en woorden die nog altijd veel te zeggen hebben voor onze tijd.",
+    "David Boogerd spreekt Paul van Tongeren - en vaste gast theoloog Stefan Paas - over geloof, Nietzsche's dood van God en het wonder van betekenis."
   ],
   "similar": [
     {
-      "n": 155,
-      "reason": "Filosofie en de 'dood van God' over vier eeuwen, met Ger Groot"
+      "n": 212,
+      "reason": "Direct over de 'dood van God' en de gevolgen voor samenleving en jongeren"
     },
     {
-      "n": 212,
-      "reason": "Impact van 'de dood van God' op samenleving en jongeren"
+      "n": 155,
+      "reason": "Filosofie worstelt met de 'dood van God'; sterke thematische overlap met Nietzsche"
+    },
+    {
+      "n": 207,
+      "reason": "Filosofisch debat over God, atheïsme en zingeving, met vergelijkbare thema's"
+    },
+    {
+      "n": 109,
+      "reason": "Nihilisme, zinloosheid en de sprong naar geloof, grenzend aan Nietzsches thema"
     },
     {
       "n": 217,
-      "reason": "Denker des Vaderlands Marjan Slob over filosofie en existentiële vragen"
-    },
-    {
-      "n": 221,
-      "reason": "Filosofische duiding van de tijdgeest, met Bas Heijne en Camus"
-    },
-    {
-      "n": 160,
-      "reason": "De waarheid staat onder druk: waarheidsvraag en vooruitgangsgeloof"
+      "reason": "Existentiële eenzaamheid en zoektocht naar zin, filosofisch en zingevingsgericht"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

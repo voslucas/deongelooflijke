@@ -1,11 +1,16 @@
 {
   "episode": 5,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-22",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 71689,
+    "segments": 497,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 29641,
-    "output_tokens": 2939,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 35227,
+    "output_tokens": 7280,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
@@ -19,308 +24,302 @@
   ],
   "people": [
     {
-      "name": "Herman Finkers",
-      "note": "cabaretier en katholiek, gast van de aflevering",
-      "start_seconds": 0,
-      "wiki_checked": true,
-      "wiki_pageid": 11069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Herman_Finkers",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Herman_Finkers_%282018%29.jpg/250px-Herman_Finkers_%282018%29.jpg"
-    },
-    {
       "name": "Arjen Lubach",
-      "note": "presentator en cabaretier, in aflevering 1 te gast; hekelt het absurde van religie",
-      "start_seconds": 698,
-      "wiki_checked": true,
-      "wiki_pageid": 593334,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arjen_Lubach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg/250px-Arjen_Lubach_11sept2016_foto_Rene_van_Elst_P9110305.jpg"
+      "note": "cabaretier; in aflevering 1 besproken als criticus van religie",
+      "start_seconds": 711,
+      "mention_count": 4
     },
     {
-      "name": "Maarten van Rossem",
-      "note": "historicus, eerdere gast van de podcast; sprak over geloofsmomenten",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 48665,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_van_Rossem",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg/250px-Maarten_van_Rossem_-_2025_%28001%29_%28cropped%29.jpg"
+      "name": "Maarten van Rossum",
+      "note": "presentator van een andere podcast; sprak over geloofsmomenten",
+      "start_seconds": 377,
+      "mention_count": 3
     },
     {
       "name": "Andries Knevel",
-      "note": "presentator, eerdere gast van de podcast; legde een geloofsmoment uit",
-      "start_seconds": 386,
-      "wiki_checked": true,
-      "wiki_pageid": 106874,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Andries_Knevel",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Andries_Knevel.png/250px-Andries_Knevel.png"
+      "note": "gast in de podcast van Maarten van Rossum; beschreef geloofsmomenten",
+      "start_seconds": 377,
+      "mention_count": 3
     },
     {
       "name": "Arthur Schopenhauer",
-      "note": "filosoof; over de grenzen van wetenschappelijke kennis",
+      "note": "filosoof; over het ontoereikende van kennis over het heelal",
       "start_seconds": 309,
-      "wiki_checked": true,
-      "wiki_pageid": 34358,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Arthur_Schopenhauer",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg/250px-Schopenhauer_by_Jules_Luntesch%C3%BCtz.jpg"
+      "mention_count": 1
     },
     {
-      "name": "Gerard Reve",
-      "note": "schrijver; sprak over 'gruwelijke majesteit'",
-      "start_seconds": 463,
-      "wiki_checked": true,
-      "wiki_pageid": 5121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Gerard_Reve",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gerard_Reve_1969-crop.jpg/250px-Gerard_Reve_1969-crop.jpg"
+      "name": "Friedrich Nietzsche",
+      "note": "filosoof die volgens Finkers tot ontgoocheling in het geloof kan leiden",
+      "start_seconds": 753,
+      "mention_count": 1
     },
     {
-      "name": "Jan Vinkers",
-      "note": "achteroom van Finkers, missionaris onder de indianen in Zuid-Venezuela",
-      "start_seconds": 1306,
-      "wiki_checked": true
-    },
-    {
-      "name": "Frans van der Lugt",
-      "note": "jezuïet die in Homs bleef tijdens de oorlog",
-      "start_seconds": 1406,
-      "wiki_checked": true,
-      "wiki_pageid": 3980779,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Frans_van_der_Lugt"
-    },
-    {
-      "name": "Paus Gregorius",
-      "note": "paus rond 600, naamgever van de Gregoriaanse zang",
-      "start_seconds": 1717,
-      "wiki_checked": true,
-      "wiki_pageid": 39155,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Gregorius_I",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Gregorythegreat.jpg/250px-Gregorythegreat.jpg"
-    },
-    {
-      "name": "Thomas a Kempis",
-      "note": "auteur van de moderne devotie, pleitte voor eenvoud",
-      "start_seconds": 2074,
-      "wiki_checked": true,
-      "wiki_pageid": 64786,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Thomas_a_Kempis",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg/250px-Portret_van_Thomas_%C3%A0_Kempis%2C_RP-P-OB-26.661.jpg"
-    },
-    {
-      "name": "Fons Jansen",
-      "note": "cabaretier, bedenker van de grap over de gelofte van armoede",
-      "start_seconds": 2080,
-      "wiki_checked": true,
-      "wiki_pageid": 99950,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Fons_Jansen_%28cabaretier_en_schrijver%29",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Fons_Jansen.jpg/250px-Fons_Jansen.jpg"
-    },
-    {
-      "name": "Johann Sebastian Bach",
-      "note": "componist met veel versiering in zijn muziek",
-      "start_seconds": 1861,
-      "wiki_checked": true,
-      "wiki_pageid": 853,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Johann_Sebastian_Bach",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Bach_unedited.jpg/250px-Bach_unedited.jpg"
+      "name": "Immanuel Kant",
+      "note": "filosoof, genoemd naast Nietzsche",
+      "start_seconds": 753,
+      "mention_count": 1
     },
     {
       "name": "Martin Luther",
-      "note": "gebruikte Gregoriaanse melodieën",
+      "note": "hervormer; gebruikte Gregoriaanse melodieën in zijn composities",
       "start_seconds": 1717,
-      "wiki_checked": true,
-      "wiki_pageid": 1069,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Maarten_Luther",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg/250px-Lucas_Cranach_d.%C3%84._%28Werkst.%29_-_Portr%C3%A4t_des_Martin_Luther_%28Lutherhaus_Wittenberg%29.jpg"
+      "mention_count": 1
+    },
+    {
+      "name": "Paus Gregorius",
+      "note": "paus rond 600, naar wie het Gregoriaans is vernoemd",
+      "start_seconds": 1717,
+      "mention_count": 1
+    },
+    {
+      "name": "Thomas à Kempis",
+      "note": "vertegenwoordiger van de moderne devotie",
+      "start_seconds": 1834,
+      "mention_count": 1
+    },
+    {
+      "name": "Johann Sebastian Bach",
+      "note": "componist uit de protestantse traditie, bekend om zijn franje",
+      "start_seconds": 1861,
+      "mention_count": 1
+    },
+    {
+      "name": "Gerard Reve",
+      "note": "schrijver; sprak over de 'gruwelijke majesteit' van God",
+      "start_seconds": 433,
+      "mention_count": 1
+    },
+    {
+      "name": "Maharishi Mahesh Yogi",
+      "note": "gids van de transcendente meditatie, waarmee Finkers als scholier experimenteerde",
+      "start_seconds": 126,
+      "mention_count": 1
+    },
+    {
+      "name": "Jan Vinkers",
+      "note": "Finkers' achteroom; missionaris onder de Yanomami in Zuid-Venezuela",
+      "start_seconds": 1246,
+      "mention_count": 3
+    },
+    {
+      "name": "Frans van der Lugt",
+      "note": "jezuïet die in Homs (Syrië) bleef en werd vermoord",
+      "start_seconds": 1404,
+      "mention_count": 1
     },
     {
       "name": "Pim Jacobs",
-      "note": "pianist, genoemd in een grap over Jozef van Arimathea",
+      "note": "acteur die in Finkers' voorstelling de rol van Jozef van Arimathea speelde",
       "start_seconds": 2481,
-      "wiki_checked": true,
-      "wiki_pageid": 104692,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Pim_Jacobs",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pim_Jacobs.png/250px-Pim_Jacobs.png"
+      "mention_count": 3
     },
     {
-      "name": "Paus Franciscus",
-      "note": "huidige paus, conservatief op zedelijk gebied",
-      "start_seconds": 1514,
-      "wiki_checked": true,
-      "wiki_pageid": 166121,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Paus_Franciscus",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/250px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      "name": "Toon Hermans",
+      "note": "cabaretier; voorbeeld van iemand die mensen 'omhoog tilde'",
+      "start_seconds": 2880,
+      "mention_count": 1
+    },
+    {
+      "name": "Herman van Veen",
+      "note": "zanger; genoemd als iemand met een duidelijke levensroeping",
+      "start_seconds": 2822,
+      "mention_count": 1
+    },
+    {
+      "name": "Thierry Baudet",
+      "note": "politicus; door Finkers bekritiseerd over universiteiten",
+      "start_seconds": 3273,
+      "mention_count": 2
+    },
+    {
+      "name": "Paul Abspoel",
+      "note": "stelde via Twitter de vraag over cabaretiers en secularisatie",
+      "start_seconds": 824,
+      "mention_count": 1
+    },
+    {
+      "name": "Rimme Mastenbroek",
+      "note": "stelde via Twitter de vraag naar spijt van grappen",
+      "start_seconds": 2677,
+      "mention_count": 1
+    },
+    {
+      "name": "Timo Den Hartog",
+      "note": "stelde via Twitter de vraag of ziekte Finkers serieuzer had gemaakt",
+      "start_seconds": 2988,
+      "mention_count": 1
+    },
+    {
+      "name": "Fons Jansen",
+      "note": "auteur van de grap over juffrouw van Dam",
+      "start_seconds": 2055,
+      "mention_count": 1
+    },
+    {
+      "name": "Geert Mak",
+      "note": "placeholder verwijderd",
+      "start_seconds": 0,
+      "mention_count": 0
     }
   ],
   "books": [],
   "bible_refs": [
     {
       "ref": "Hooglied",
-      "note": "erotische tekst die Finkers liet zingen in Twentse vertaling",
-      "start_seconds": 0
+      "note": "Bijbelboek dat Finkers als Twentse lezing laat zingen; de tekst wordt als te erotisch ervaren",
+      "start_seconds": 1898
     },
     {
       "ref": "1 Koningen 19",
-      "note": "Elia ervaart God in een zacht briesje",
-      "start_seconds": 2200
+      "note": "Elia ervaart God in een zacht briesje, niet in storm en bliksem",
+      "start_seconds": 2199
     }
   ],
   "places": [
     "Almelo",
     "Chartres",
-    "Parijs",
-    "Rome",
     "Leeuwarden",
-    "Zuid-Venezuela",
+    "Rome",
     "Homs",
-    "Turijn",
     "Twente",
+    "Katwijk",
     "Groningen",
-    "Katwijk"
+    "Zuid-Venezuela",
+    "Schonebeek",
+    "Friesland",
+    "Syrië",
+    "Den Bosch",
+    "Oldenzaal",
+    "Elst",
+    "Amsterdam"
   ],
-  "summary_tldr": "Cabaretier Herman Finkers vertelt waarom hij ondanks de misstanden lid blijft van de katholieke kerk: voor hem is katholicisme een geaardheid, geen keuze. Hij praat over geloofsmomenten, de verwantschap tussen kunst, religie en humor, en zijn liefde voor Gregoriaanse zang en traditionele liturgie.",
+  "summary_tldr": "Herman Finkers vertelt in dit gesprek waarom hij zich niet laat uitschrijven bij de katholieke kerk, ondanks het misbruik en de hypocrisie die hij binnen de kerk ziet. Hij beschrijft het katholicisme als een geaardheid en niet als een keuze, en praat over zijn geloofsmomenten, zijn voorliefde voor Gregoriaanse zang en de verbinding tussen humor en het heilige. Ook spreekt hij openhartig over zijn leukemie en de zoektocht naar zijn levensdoel.",
   "summary_points": [
-    "Finkers ervaart katholicisme als geaardheid en niet als bewuste keuze.",
-    "Geloofsmomenten komen via gevoel binnen en zijn niet het resultaat van redeneren.",
-    "Kunst, religie en humor zijn voor hem omgangsvormen met het ongerijmde (zijn 'Westmalle triple').",
-    "Of Christus historisch is opgestaan, maakt voor zijn geloof niet uit; hij vindt het protestantisme te veel een boekgeloof.",
-    "De goede mensen moeten de kerk niet verlaten, maar de hypocrieten en misbruikers; hij wijst op het werk van geestelijken in sloppenwijken en oorlogsgebieden.",
-    "Hij pleit voor een progressief mensbeeld gecombineerd met een traditionele liturgie.",
-    "Gregoriaanse zang en Latijnse mis scheppen een breekbare sfeer en afstand, waarin het heilige zich kan laten vallen.",
-    "Hij maakt grappen over het heilige en noemt Life of Brian een meesterwerk, maar vindt vertoning op Goede Vrijdag ongepast.",
-    "Hij zoekt naar zijn missie in het leven."
+    "Finkers blijft katholiek omdat het geloof voor hem een geaardheid is en geen keuze.",
+    "Hij vindt dat de goede gelovigen de kerk niet moeten verlaten; alleen misbruikers en hypocrieten horen er niet thuis.",
+    "Geloofsmomenten ervaart hij als een overvallend besef van het grote en het ongrijpbare, niet als redenerend aannemen.",
+    "Humor, kunst en religie zijn voor hem drie manieren om met het ongerijmde om te gaan.",
+    "Hij is kritisch op het protestantse schriftgeloof en vindt dat God niet tot de Bijbel beperkt mag worden.",
+    "Gregoriaanse zang en de traditionele liturgie raken hem omdat ze via het gevoel werken en afstand en stilte scheppen.",
+    "Hij vindt het grappig maar ook gepast om over het heilige te lachen, zolang het niet kwetsend of gemeen is.",
+    "Zijn leukemie heeft zijn geloof niet veranderd, maar wel zijn zoektocht naar wat hij nog kan betekenen.",
+    "Hij zoekt naar een nieuwe vorm als cabaretier, omdat zijn lichaam hem beperkt."
   ],
   "chapters": [
     {
       "start_seconds": 0,
-      "title": "Geaardheid en ongeloof",
-      "summary": "Finkers over zijn puberale zoektocht via yoga en meditatie en zijn terugkeer naar het katholicisme."
+      "title": "Introductie en ziekte",
+      "summary": "David Boogerd introduceert Herman Finkers en zijn leukemie, en de katholieke identiteit die hij niet wil opgeven."
     },
     {
-      "start_seconds": 386,
-      "title": "Geloofsmomenten, kunst en humor",
-      "summary": "Over het overvallen worden door het grote en over kunst, religie en humor als omgangsvorm met het ongerijmde."
+      "start_seconds": 97,
+      "title": "Van ongeloof naar katholiciteit",
+      "summary": "Finkers vertelt over zijn puberale ongeloof, zijn experimenten met yoga en meditatie en zijn katholieke jeugd met de Tridentijnse mis."
     },
     {
-      "start_seconds": 885,
-      "title": "Relikwieën en Sola Scriptura",
-      "summary": "Het verhaal van Chartres en de relikwieën, en de discussie over historiciteit van de opstanding en het boekgeloof van protestanten."
+      "start_seconds": 291,
+      "title": "Wetenschap, geloof en geloofsmomenten",
+      "summary": "Finkers bespreekt de grenzen van wetenschap, Schopenhauer en het overvallende besef van het grote, dat voor hem geloof betekent."
+    },
+    {
+      "start_seconds": 920,
+      "title": "Relikwieën, wonderen en protestantisme",
+      "summary": "Het gesprek gaat over relikwieën van Chartres en Turijn en over de kritiek van Finkers op het protestantse schriftgeloof."
     },
     {
       "start_seconds": 1218,
-      "title": "De kerk als zooitje",
-      "summary": "Waarom Finkers lid blijft ondanks misbruik en hypocrisie, met oom Jan Vinkers en Frans van der Lugt als voorbeelden."
+      "title": "Kerk, misbruik en de Missa Mysterium",
+      "summary": "Finkers spreekt over de misstanden in de kerk, zijn oom Jan Vinkers en zijn initiatief om een Gregoriaanse mis te organiseren."
     },
     {
-      "start_seconds": 1616,
-      "title": "Liturgie en Gregoriaanse zang",
-      "summary": "Over de Missa Mysterium, de geschiedenis van het Gregoriaans en het Hooglied in het Twents."
+      "start_seconds": 1701,
+      "title": "Gregoriaans en de zoektocht naar het heilige",
+      "summary": "Het gesprek gaat over de oorsprong en betekenis van Gregoriaanse zang, het Hooglied en de vraag hoe het heilige ervaren wordt."
     },
     {
-      "start_seconds": 2124,
-      "title": "Afstand, sfeer en laagdrempeligheid",
-      "summary": "Over het heilige scheppen via stilte en afstand, en kritiek op laagdrempelige diensten als The Passion."
-    },
-    {
-      "start_seconds": 2434,
-      "title": "Humor over het heilige",
-      "summary": "Anekdotes over weglopend publiek, Life of Brian en de grenzen van de grap."
+      "start_seconds": 2550,
+      "title": "Humor, Life of Brian en het heilige",
+      "summary": "Finkers reflecteert op de grens van humor rond het heilige en op de film Life of Brian."
     },
     {
       "start_seconds": 2783,
-      "title": "Missie en levensvraag",
-      "summary": "Finkers over zijn zoektocht naar zijn bestemming, zijn studie en het niet hebben van kinderen."
+      "title": "Levensdoel, ziekte en de hemel",
+      "summary": "Finkers vertelt over zijn zoektocht naar betekenis, zijn leukemie en zijn beeld van de hemel."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 1264,
+      "start_seconds": 1246,
       "speaker": "Herman Finkers",
-      "text": "De kerk is niet van hen, die is van ons, van allemaal.",
-      "note": "Strijdbaar pleidooi om de kerk niet te verlaten ondanks misbruik."
+      "text": "De goede mensen moeten de kerk niet verlaten, maar de hypocrieten en de misbruikers. De kerk is niet van hen.",
+      "note": "Een scherpe stellingname die loyaliteit aan de kerk verbindt met kritiek op het misbruik."
     },
     {
-      "start_seconds": 1464,
+      "start_seconds": 1444,
       "speaker": "Herman Finkers",
-      "text": "Het is een geaardheid, en dan zou ik eigenlijk huichelen om dat te ontkennen.",
-      "note": "Kern van zijn katholieke identiteit, vergeleken met homoseksualiteit."
+      "text": "Katholicisme is geen keuze, het is een geaardheid.",
+      "note": "Een treffende metafoor waarmee hij verklaart waarom hij zich niet laat uitschrijven."
     },
     {
-      "start_seconds": 523,
+      "start_seconds": 326,
       "speaker": "Herman Finkers",
-      "text": "Kunst, humor en religie, dat noem ik mijn Westmalle triple.",
-      "note": "Typerend, geestig beeld voor zijn levensvisie."
+      "text": "Al zouden wij de allerlaatste millimeter van het heelal in kaart hebben gebracht, dan weten wij nog niks.",
+      "note": "Een filosofische gedachte, ontleend aan Schopenhauer, over de grenzen van wetenschappelijke kennis."
     },
     {
-      "start_seconds": 1423,
+      "start_seconds": 66,
       "speaker": "Herman Finkers",
-      "text": "Jan Vinkers hing een Mariabeeld in de boom: wie betoverd is, gaat naar Maria.",
-      "note": "Ontroerend voorbeeld van missionair werk dat aansluit bij de leefwereld."
+      "text": "De kans dat je over 10 jaar leeft is 50%, de kans dat je over 15 jaar leeft is 0%.",
+      "note": "Een confronterende en persoonlijke opening over zijn leukemie."
     },
     {
-      "start_seconds": 2434,
+      "start_seconds": 3340,
       "speaker": "Herman Finkers",
-      "text": "Mensen liepen de zaal uit toen hij de Kalvarieberg noemde.",
-      "note": "Komische anekdote over botsing tussen humor en heilig."
-    },
-    {
-      "start_seconds": 2120,
-      "speaker": "Herman Finkers",
-      "text": "Je hoort in de stilte hoe breekbaar de sfeer is, net als Elia's zachte briesje.",
-      "note": "Mooie beschrijving van het heilige als kwetsbaar."
+      "text": "Je bent uit de tijd, zeggen ze in Twente; wij kunnen alleen maar denken binnen het tijdskader en de ruimte.",
+      "note": "Een bescheiden en poëtische reflectie op het hiernamaals en de grenzen van ons denken."
     }
   ],
   "keywords": [
     "katholicisme",
-    "Gregoriaanse zang",
+    "geaardheid",
+    "Gregoriaans",
     "Missa Mysterium",
     "humor",
     "geloofsmoment",
-    "Sola Scriptura",
-    "kerkelijk misbruik",
-    "Latijnse liturgie",
     "Life of Brian",
-    "Maria",
-    "relikwie",
-    "Hooglied"
+    "misbruik in de kerk",
+    "Schopenhauer",
+    "leukemie",
+    "protestantisme",
+    "liturgie"
   ],
   "quotes": [
-    "In deze tijd is het moeilijk om lid te blijven van de kerk, want de katholieke kerk is een zooitje",
+    "In deze tijd is het moeilijk om lid te blijven van de kerk, want de katholieke kerk is een zooitje.",
     "Mijn katholicisme is geen keuze, het is een geaardheid.",
     "De goede mensen moeten de kerk niet verlaten, maar de hypocrieten en de misbruikers. De kerk is niet van hen."
   ],
   "similar": [
     {
-      "n": 313,
-      "reason": "Best-of over geloven in God met Herman Finkers, Arjen Lubach en andere kunstenaars."
-    },
-    {
-      "n": 9,
-      "reason": "Rik Torfs over de schoonheid en nutteloosheid van de kerk; katholiek, kunst en cultuur."
-    },
-    {
       "n": 116,
-      "reason": "Antoine Bodar over het mysterie van het geloof, liturgie en katholieke traditie."
+      "reason": "Katholieke geloofsbeleving en kerkkritiek, met priester Antoine Bodar als gast"
     },
     {
-      "n": 225,
-      "reason": "Antoine Bodar over kunst, Kerst en katholicisme."
+      "n": 107,
+      "reason": "Klassieke muziek als weg naar het goddelijke, vergelijkbaar met Bach en Gregoriaans"
     },
     {
-      "n": 176,
-      "reason": "Franca Treur over de kerk verlaten en er anders op terugkijken; kunst en geloof."
+      "n": 172,
+      "reason": "Kerkmuziek en de geschiedenis van kerstmuziek, verbonden met kunst en geloof"
+    },
+    {
+      "n": 83,
+      "reason": "De kerk als kunstwerk, met Willem Jan Otten over kerk en cultuur"
+    },
+    {
+      "n": 29,
+      "reason": "Religieuze invloeden in popmuziek, raakvlak met kunst, Bijbel en kerk"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }

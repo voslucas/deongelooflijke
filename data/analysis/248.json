@@ -1,333 +1,462 @@
 {
   "episode": 248,
-  "analyzed": "2026-11-19",
-  "model": "claude-sonnet-5-5",
+  "analyzed": "2026-11-23",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 149678,
+    "segments": 1740,
+    "truncated": false
+  },
   "usage": {
-    "input_tokens": 31787,
-    "output_tokens": 2919,
-    "cache_read_input_tokens": 2684,
+    "input_tokens": 78430,
+    "output_tokens": 4367,
+    "cache_read_input_tokens": 2942,
     "cache_creation_input_tokens": 0
   },
   "themes": [
     "Geopolitiek & oorlog",
     "Geschiedenis",
-    "Amerika & Trump",
-    "Kerk & secularisatie"
+    "Bijbel & Jezus",
+    "Politiek"
   ],
   "guests": [
     "Beatrice de Graaf"
   ],
   "people": [
     {
-      "name": "Vladimir Poetin",
-      "note": "Russische president, bouwt troepen op langs de NAVO-grens en gebruikt psychologische afschrikking",
-      "start_seconds": 34,
-      "wiki_checked": true,
-      "wiki_pageid": 26270,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Vladimir_Poetin",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg/250px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%282025-05-22%29_cropped.jpg"
+      "name": "Wladimir Poetin",
+      "note": "Russische president; troepenopbouw langs NAVO-oostgrens, psychologische afschrikking",
+      "start_seconds": 114,
+      "mention_count": 12
     },
     {
       "name": "Donald Trump",
-      "note": "Amerikaanse president, reisde naar het Midden-Oosten en wil de Nobelprijs voor de Vrede",
-      "start_seconds": 34,
-      "wiki_checked": true,
-      "wiki_pageid": 52648,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+      "note": "Amerikaanse president; wereldorde, NAVO-top, Abraham-akkoorden, handelsoorlog",
+      "start_seconds": 218,
+      "mention_count": 25
     },
     {
       "name": "Augustinus",
-      "note": "Kerkvader, schreef De Stad van God over vrede en autocratie",
-      "start_seconds": 922,
-      "wiki_checked": true,
-      "wiki_pageid": 32451,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/250px-Augustine_Lateran.jpg"
+      "note": "Kerkvader; De Stad van God, over vrede en menselijkheid",
+      "start_seconds": 915,
+      "mention_count": 12
     },
     {
       "name": "Barack Obama",
-      "note": "Amerikaanse president die nog pleitte voor een multipolaire wereldorde",
-      "start_seconds": 467,
-      "wiki_checked": true,
-      "wiki_pageid": 99117,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/250px-President_Barack_Obama.jpg"
+      "note": "Amerikaanse president; pleitte voor internationale orde en Afghanistan-inzet",
+      "start_seconds": 477,
+      "mention_count": 1
     },
     {
       "name": "Joe Biden",
-      "note": "Amerikaanse oud-president, minder overtuigend over de wereldorde",
-      "start_seconds": 506,
-      "wiki_checked": true,
-      "wiki_pageid": 458497,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg"
+      "note": "Amerikaanse president",
+      "start_seconds": 503,
+      "mention_count": 1
     },
     {
-      "name": "Tsaar Alexander I",
-      "note": "Russische tsaar, initiatiefnemer van de Heilige Alliantie in 1815",
-      "start_seconds": 1465,
-      "wiki_checked": true,
-      "wiki_pageid": 51198,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Alexander_I_van_Rusland",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg/250px-Grand_Duke_Alexander_Pavlovich_by_V.Borovikovsky_%281800%2C_Russian_museum%29.jpg"
+      "name": "Alexander I",
+      "note": "Russische tsaar; Heilige Alliantie na Napoleon",
+      "start_seconds": 1440,
+      "mention_count": 5
     },
     {
       "name": "Napoleon Bonaparte",
-      "note": "Franse keizer, verklaard tot buiten de Europese orde",
-      "start_seconds": 1444,
-      "wiki_checked": true,
-      "wiki_pageid": 1191,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Napoleon_Bonaparte",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG/250px-Fran%C3%A7ois_G%C3%A9rard_-_Napoleon_I_001.JPG"
-    },
-    {
-      "name": "Voltaire",
-      "note": "Verlichtingsdenker die terugverwees naar het Verdrag van Westfalen",
-      "start_seconds": 1421,
-      "wiki_checked": true,
-      "wiki_pageid": 26074,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Voltaire",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/250px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
+      "note": "Franse keizer; buiten de Europese orde verklaard",
+      "start_seconds": 1440,
+      "mention_count": 4
     },
     {
       "name": "Michail Gorbatsjov",
-      "note": "Sovjetleider, bedenker van het idee van een nieuwe wereldorde",
-      "start_seconds": 2046,
-      "wiki_checked": true,
-      "wiki_pageid": 1038700,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Michail_Gorbatsjov",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg/250px-Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg"
+      "note": "Sovjetleider; samen met Rajiv Gandhi idee nieuwe wereldorde",
+      "start_seconds": 2040,
+      "mention_count": 2
     },
     {
       "name": "George H.W. Bush",
-      "note": "Amerikaanse president die de New World Order omarmde",
-      "start_seconds": 2091,
-      "wiki_checked": true,
-      "wiki_pageid": 11456,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/George_H.W._Bush",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/George_H._W._Bush_presidential_portrait_%28cropped%29.jpg/250px-George_H._W._Bush_presidential_portrait_%28cropped%29.jpg"
+      "note": "Amerikaanse president; omarmde 'New World Order'",
+      "start_seconds": 2094,
+      "mention_count": 2
+    },
+    {
+      "name": "Johan Huizinga",
+      "note": "Nederlandse historicus; schreef over vrede en Augustinus",
+      "start_seconds": 4500,
+      "mention_count": 2
+    },
+    {
+      "name": "Friedrich Merz",
+      "note": "Duitse bondskanselier; wil sterkste leger van Europa",
+      "start_seconds": 3360,
+      "mention_count": 3
+    },
+    {
+      "name": "Emmanuel Macron",
+      "note": "Franse president; Frans-Duitse as met Merz",
+      "start_seconds": 3420,
+      "mention_count": 4
+    },
+    {
+      "name": "Olaf Scholz",
+      "note": "Voormalig Duitse bondskanselier",
+      "start_seconds": 3300,
+      "mention_count": 2
+    },
+    {
+      "name": "Paus Franciscus",
+      "note": "Vorige paus; ambigue houding tegenover Rusland",
+      "start_seconds": 4000,
+      "mention_count": 2
+    },
+    {
+      "name": "Nieuwe paus",
+      "note": "Nieuwe paus; eerste woorden 'Vrede zij met u', bezoek Oekraïne",
+      "start_seconds": 4000,
+      "mention_count": 3
+    },
+    {
+      "name": "Xi Jinping",
+      "note": "Chinese president; China als 'volwassene in de kamer'",
+      "start_seconds": 3060,
+      "mention_count": 2
+    },
+    {
+      "name": "Stalin",
+      "note": "Sovjetleider; vraag naar divisies van de paus",
+      "start_seconds": 4000,
+      "mention_count": 2
+    },
+    {
+      "name": "Johannes Paulus II",
+      "note": "Paus; invloed op val van de Muur via Polen",
+      "start_seconds": 4080,
+      "mention_count": 2
+    },
+    {
+      "name": "JD Vance",
+      "note": "Amerikaans vicepresident",
+      "start_seconds": 2800,
+      "mention_count": 2
+    },
+    {
+      "name": "Elon Musk",
+      "note": "Ondernemer; antibureaucratische politiek",
+      "start_seconds": 2580,
+      "mention_count": 1
     },
     {
       "name": "Dmitry Adamsky",
-      "note": "Auteur over Russische strategic deterrence",
-      "start_seconds": 305,
-      "wiki_checked": true
+      "note": "Onderzoeker strategische afschrikking Russische",
+      "start_seconds": 300,
+      "mention_count": 1
     },
     {
-      "name": "J.D. Vance",
-      "note": "Amerikaanse vicepresident, zelf in Irak geweest",
-      "start_seconds": 567,
-      "wiki_checked": true,
-      "wiki_pageid": 5882307,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/J.D._Vance",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg/250px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_%28cropped%29.jpg"
+      "name": "Karl Marx",
+      "note": "Niet genoemd",
+      "start_seconds": 0,
+      "mention_count": 0
+    },
+    {
+      "name": "Aristoteles",
+      "note": "Definitie van recht: ieder het zijne",
+      "start_seconds": 1000,
+      "mention_count": 1
+    },
+    {
+      "name": "Paulus",
+      "note": "Apostel; reisde Romeinse Rijk, God uit één bloed",
+      "start_seconds": 3960,
+      "mention_count": 2
+    },
+    {
+      "name": "Voltaire",
+      "note": "Verlichtingsdenker; terug naar Verdrag van Westfalen",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "Pat Robertson",
+      "note": "Evangelische televisiepredikant; boek over New World Order",
+      "start_seconds": 2080,
+      "mention_count": 1
+    },
+    {
+      "name": "Carl Schmitt",
+      "note": "Duits staatsrechtgeleerde; prediker van strijd",
+      "start_seconds": 4560,
+      "mention_count": 1
+    },
+    {
+      "name": "Oswald Spengler",
+      "note": "Duitse filosoof; ondergang van het Westen",
+      "start_seconds": 4560,
+      "mention_count": 1
+    },
+    {
+      "name": "Clemens van den Berg",
+      "note": "Architect van naoorlogse orde, christelijke achtergrond",
+      "start_seconds": 1740,
+      "mention_count": 1
+    },
+    {
+      "name": "Simon Polinder",
+      "note": "Architect naoorlogse orde",
+      "start_seconds": 1740,
+      "mention_count": 1
     },
     {
       "name": "John Foster Dulles",
-      "note": "Gelovige architect van de naoorlogse orde",
-      "start_seconds": 1757,
-      "wiki_checked": true,
-      "wiki_pageid": 518974,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/John_Foster_Dulles",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/John_Foster_Dulles_Nov_49.jpg/250px-John_Foster_Dulles_Nov_49.jpg"
+      "note": "Amerikaans minister van Buitenlandse Zaken, gelovig",
+      "start_seconds": 1760,
+      "mention_count": 2
     },
     {
-      "name": "Willem Visser 't Hooft",
-      "note": "Betrokken bij de Wereldraad van Kerken en de VN-onderhandelingen",
-      "start_seconds": 1759,
-      "wiki_checked": true,
-      "wiki_pageid": 388116,
-      "wiki_lang": "nl",
-      "wiki_url": "https://nl.wikipedia.org/wiki/Willem_Visser_%27t_Hooft",
-      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bundesarchiv_B_145_Bild-F023138-0019%2C_Frankfurt%2C_Friedenspreis_des_Deutschen_Buchhandels.jpg/250px-Bundesarchiv_B_145_Bild-F023138-0019%2C_Frankfurt%2C_Friedenspreis_des_Deutschen_Buchhandels.jpg"
+      "name": "Visser 't Hooft",
+      "note": "Wereldraad van Kerken; VN-onderhandelingen",
+      "start_seconds": 1770,
+      "mention_count": 1
     },
     {
-      "name": "Julia von Krüdener",
-      "note": "Piëtistische barones, geestelijk adviseur van tsaar Alexander",
-      "start_seconds": 1568,
-      "wiki_checked": true
+      "name": "Karel de Grote",
+      "note": "Middeleeuwse keizer",
+      "start_seconds": 870,
+      "mention_count": 1
+    },
+    {
+      "name": "Julius Caesar",
+      "note": "Romeins leider",
+      "start_seconds": 900,
+      "mention_count": 1
+    },
+    {
+      "name": "Marduk",
+      "note": "Babylonische stadsgod; schepping als strijd",
+      "start_seconds": 1380,
+      "mention_count": 1
+    },
+    {
+      "name": "Agnès Callamard",
+      "note": "Baas Amnesty International; kritiek op westerse orde",
+      "start_seconds": 2340,
+      "mention_count": 1
+    },
+    {
+      "name": "Rajiv Gandhi",
+      "note": "Indiase premier; idee nieuwe wereldorde 1988",
+      "start_seconds": 2040,
+      "mention_count": 2
+    },
+    {
+      "name": "Witkoff",
+      "note": "Trump-onderhandelaar",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Rutte",
+      "note": "NAVO-secretaris-generaal; plan voor NAVO-top",
+      "start_seconds": 2640,
+      "mention_count": 1
+    },
+    {
+      "name": "Zelensky",
+      "note": "Oekraïense president",
+      "start_seconds": 2880,
+      "mention_count": 3
+    },
+    {
+      "name": "Vance",
+      "note": "Zie JD Vance",
+      "start_seconds": 2800,
+      "mention_count": 0
     }
   ],
   "books": [
     {
       "title": "De Stad van God",
       "author": "Augustinus",
-      "note": "Vooral boek 19 over vrede en autocratie",
-      "start_seconds": 924,
-      "volume_id": "kzknGQAACAAJ",
-      "canonical_title": "De stad van God",
+      "note": "Boek 19 over vrede en menselijke gemeenschap",
+      "start_seconds": 915,
+      "volume_id": "k33RzQEACAAJ",
+      "canonical_title": "De civitate Dei. De stad van God vertaald en toegankelijk gemaakt door Chris Dijkhuis",
       "canonical_author": "Aurelius Augustinus",
-      "isbn13": "9789026319952",
-      "isbn10": "9026319959",
-      "thumbnail": "http://books.google.com/books/content?id=kzknGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      "isbn13": "9789089723987",
+      "isbn10": "9089723986",
+      "thumbnail": ""
     },
     {
       "title": "The Vanquished",
       "author": "Robert Gerwarth",
-      "note": "Over de verslagen landen na de Eerste Wereldoorlog en radicalisering",
-      "start_seconds": 1683,
+      "note": "Over verslagen landen na de Eerste Wereldoorlog",
+      "start_seconds": 1700,
       "volume_id": "5O2pCwAAQBAJ",
       "canonical_title": "The Vanquished: Why the First World War Failed to End, 1917-1923",
       "canonical_author": "Robert Gerwarth",
       "isbn13": "9780141976365",
       "isbn10": "0141976365",
       "thumbnail": "http://books.google.com/books/content?id=5O2pCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Strategic Deterrence",
+      "author": "Dmitry Adamsky",
+      "note": "Studie over Russische strategische afschrikking",
+      "start_seconds": 300,
+      "volume_id": "OryqzwEACAAJ",
+      "canonical_title": "The Russian Way of Deterrence: Strategic Culture, Coercion, and War",
+      "canonical_author": "Dmitry (Dima) Adamsky",
+      "isbn13": "9781503637825",
+      "isbn10": "1503637824",
+      "thumbnail": "http://books.google.com/books/content?id=OryqzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
     }
   ],
-  "bible_refs": [],
+  "bible_refs": [
+    {
+      "ref": "Openbaring 13",
+      "note": "Het beest als Romeins imperium",
+      "start_seconds": 4980
+    }
+  ],
   "places": [
     "Oekraïne",
-    "Rusland",
     "Gaza",
+    "Westfalen",
+    "Münster",
+    "Utrecht",
+    "Oudenaarde",
+    "Parijs",
     "Saoedi-Arabië",
     "Afghanistan",
     "Irak",
-    "Münster",
-    "Estland",
-    "Finland",
-    "India",
-    "Pakistan",
-    "Utrecht",
-    "Oudenaarde",
-    "Parijs"
+    "Taiwan",
+    "Brazilië",
+    "Rusland",
+    "China",
+    "Israël",
+    "Den Haag"
   ],
-  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken wat een wereldorde is en wie die nu bepaalt, tegen de achtergrond van Oekraïne, Gaza en Trump. Via Augustinus, Westfalen, het Congres van Wenen en 1945 laten ze zien dat wereldorden meestal na oorlogen ontstaan en steunen op gedeelde waarden, vaak christelijke.",
+  "summary_tldr": "Beatrice de Graaf en Stefan Paas bespreken de geschiedenis en huidige staat van de wereldorde, van het Verdrag van Westfalen tot Trump, Poetin en China. Zij betogen dat een orde gebaseerd moet zijn op waarden zoals recht, verzoening en gemeenschap, en dat kritiek op orde zonder alternatief schadelijk is.",
   "summary_points": [
-    "Wereldorde is een beschrijving van de stabiele manier waarop landen en rijken met elkaar omgaan.",
-    "Poetin zet in op psychologische afschrikking en zoekt de zwakke plek in de tegenstander.",
-    "Trump stelt dat Amerika niet langer bepaalt hoe andere volkeren leven, mede na mislukte interventies.",
-    "Augustinus zag het verlangen naar vrede als universeel, maar waarschuwde dat opschaling tot autocratie leidt.",
-    "De Westfaalse Vrede van 1648 maakte vrede de uitgangspositie in het internationale recht.",
-    "Tsaar Alexander I stichtte in 1815 de Heilige Alliantie op basis van vergeving en broederschap.",
-    "Na 1918 mislukte de orde door afrekening, de orde van 1945 stoelt op individuele mensenrechten.",
-    "Nieuwe wereldorden ontstaan bijna wetmatig na oorlogen en vragen gedeelde waarden.",
-    "Christelijke kerken waren zowel oorzaak van oorlogen als bron van vredesbouw."
+    "De wereldorde is een beschrijving van hoe staten en rijken met elkaar omgaan, niet per se moreel goed",
+    "Het Verdrag van Westfalen (1648) is het begin van de moderne internationale orde met vrede als uitgangspunt",
+    "Augustinus' De Stad van God beschrijft het vredesverlangen en de neiging tot onderdrukking bij grote rijken",
+    "Naoorlogse ordes (Volkenbond, VN, NAVO) ontstonden na oorlogen en waren mede door christelijke waarden gevormd",
+    "Trump ondermijnt volgens de gesprekspartners de bestaande orde door transactioneel en onvoorspelbaar optreden",
+    "Poetin gebruikt psychologische afschrikking en test de NAVO-grenzen",
+    "China en Brazilië pleiten voor een 'rechtvaardiger' orde zonder interventie van buitenaf, maar met autocratische binnenlandse praktijk",
+    "Europa (Merz en Macron) lijkt een nieuwe leidende rol te zoeken, mede vanuit de Frans-Duitse as",
+    "Vrede vraagt om recht, verzoening en vreugde; alleen het één of andere volstaat niet",
+    "Kritiek op de orde moet constructief zijn: wie in het klein geen orde kan bouwen, is niet geloofwaardig in het groot"
   ],
   "chapters": [
     {
-      "start_seconds": 34,
-      "title": "Een wereld in onrust",
-      "summary": "Inleiding over Poetin, Gaza en India-Pakistan, en de uitnodiging van Paas en De Graaf voor de NAVO-top."
+      "start_seconds": 0,
+      "title": "Inleiding en actuele conflicten",
+      "summary": "Het gesprek opent met Poetin, Gaza en de NAVO-top, en de vraag of er nog een wereldorde bestaat."
     },
     {
-      "start_seconds": 125,
-      "title": "Poetins psychologische afschrikking",
-      "summary": "De Graaf legt uit hoe Rusland troepen opbouwt en met strategic deterrence de NAVO test."
-    },
-    {
-      "start_seconds": 467,
-      "title": "Trump en het einde van Amerikaanse dominantie",
-      "summary": "Over Obama, Biden en Trumps uitspraken in Saoedi-Arabië en de mislukte interventies in Afghanistan en Irak."
-    },
-    {
-      "start_seconds": 788,
+      "start_seconds": 620,
       "title": "Wat is een wereldorde?",
-      "summary": "De Graaf definieert wereldorde en schetst de lijn van Pax Romana naar Westfalen."
+      "summary": "De Graaf definieert wereldorde en schetst de oorsprong in het Verdrag van Westfalen."
     },
     {
-      "start_seconds": 922,
-      "title": "Augustinus over vrede en autocratie",
-      "summary": "Paas bespreekt Augustinus over vredesverlangen, vriendschap en onderdrukking, met De Graaf over Securitas."
+      "start_seconds": 900,
+      "title": "Augustinus en het vredesverlangen",
+      "summary": "Paas duidt Augustinus' visie op vrede, rijken en de dreiging van onderdrukking."
     },
     {
-      "start_seconds": 1288,
-      "title": "Van Westfalen tot 1945",
-      "summary": "Westfalen, Napoleon, de Heilige Alliantie, Versailles en de orde van 1945 met christelijke architecten."
+      "start_seconds": 1440,
+      "title": "Van Napoleon tot de VN",
+      "summary": "De geschiedenis van het Congres van Wenen, de Heilige Alliantie en naoorlogse ordes."
     },
     {
-      "start_seconds": 1769,
-      "title": "Oorlog als bron van nieuwe orde",
-      "summary": "Wereldorden ontstaan na oorlogen, de rol van de kerken en de Oekraïense oorlog als bepalend moment."
-    },
-    {
-      "start_seconds": 1980,
+      "start_seconds": 2040,
       "title": "Pax Americana en New World Order",
-      "summary": "Over de bipolaire orde, Gorbatsjovs idee van een nieuwe wereldorde en Bush' overname daarvan."
+      "summary": "Het Amerikaanse dominantie-verhaal, Gorbatsjov's idee en de rol van Trump."
+    },
+    {
+      "start_seconds": 3060,
+      "title": "Kandidaten: China en Europa",
+      "summary": "China als alternatieve macht, en de Europese as van Merz en Macron."
+    },
+    {
+      "start_seconds": 4000,
+      "title": "De paus en de rol van religie",
+      "summary": "Invloed van de katholieke kerk en het belang van verhalen en waarden voor vrede."
+    },
+    {
+      "start_seconds": 4800,
+      "title": "Vrede als recht, verzoening en vreugde",
+      "summary": "De gesprekspartners zoeken een gelaagd vredesbegrip en conclusies over orde en kritiek."
     }
   ],
   "highlights": [
     {
-      "start_seconds": 183,
+      "start_seconds": 2640,
       "speaker": "Beatrice de Graaf",
-      "text": "De vraag is: kan hij ons niet eerder uitputten?",
-      "note": "Keert de gangbare redenering om dat Poetin uitgeput raakt."
+      "text": "Trump wil gezien worden als iemand die succes boekt, maar het gaat hem om zichzelf.",
+      "note": "Scherpe kritiek op de motieven achter Trumps buitenlandbeleid."
     },
     {
-      "start_seconds": 467,
-      "speaker": "Beatrice de Graaf",
-      "text": "Trump zei: de dagen dat Amerika bepaalt hoe andere volkeren moeten leven, zijn voorbij.",
-      "note": "Markeert een breuk met de Amerikaanse wereldorde."
+      "start_seconds": 1000,
+      "speaker": "Stefan Paas",
+      "text": "Het vredesverlangen wordt lastig als we gaan opschalen, en dat leidt vaak tot onderdrukking.",
+      "note": "Koppeling van Augustinus aan hedendaagse wereldpolitiek."
     },
     {
-      "start_seconds": 1140,
+      "start_seconds": 2880,
       "speaker": "Beatrice de Graaf",
-      "text": "Securitas is een godin met tanden.",
-      "note": "Beeldend over bewapende vrede in het laat-Romeinse Rijk."
+      "text": "Ik vind dat wij de spanning moeten opzoeken; wie in het klein geen orde kan bouwen, wie is die dan om in het groot te bekritiseren?",
+      "note": "Pleidooi voor constructieve kritiek en gemeenschap."
     },
     {
-      "start_seconds": 1930,
+      "start_seconds": 4560,
       "speaker": "Beatrice de Graaf",
-      "text": "Oorlog en nieuwe orde: het is bijna een wetmatigheid dat na oorlogen een nieuwe orde wordt gezocht.",
-      "note": "Geeft een scherp historisch inzicht in de huidige situatie."
+      "text": "Carl Schmitt en Oswald Spengler predikten strijd en ondergang, en dat ondermijnt elk idee van vrede.",
+      "note": "Vergelijking van filosofische bronnen van conflict."
     },
     {
-      "start_seconds": 1960,
-      "speaker": "Beatrice de Graaf",
-      "text": "Een pastoor in Oudenaarde vroeg zich af hoe God elke keer een andere overwinnaar kan aanwijzen.",
-      "note": "Treffende anekdote over religie en macht."
+      "start_seconds": 4680,
+      "speaker": "Stefan Paas",
+      "text": "Vrede heeft ook altijd iets met feestelijkheid en vreugde te maken.",
+      "note": "Verrassende toevoeging aan het vredesbegrip."
     }
   ],
   "keywords": [
     "wereldorde",
-    "Pax Romana",
-    "Augustinus",
     "Westfalen",
-    "Heilige Alliantie",
-    "NAVO",
-    "Poetin",
-    "Trump",
-    "strategic deterrence",
-    "New World Order",
     "vrede",
-    "mensenrechten"
+    "Augustinus",
+    "NAVO",
+    "Pax Americana",
+    "New World Order",
+    "afschrikking",
+    "Europa",
+    "religie en politiek",
+    "Trump",
+    "verzoening"
   ],
-  "quotes": [
-    "De wereld snakt naar vrede – maar wie kan die vrede eigenlijk brengen?",
-    "Wat ís een wereldorde eigenlijk – en wordt die bepaald in het Witte Huis, het Kremlin… of in een kathedraal?"
-  ],
+  "quotes": [],
   "similar": [
     {
-      "n": 315,
-      "reason": "Best-of over de nieuwe wereldorde met onder meer Beatrice de Graaf en Rob de Wijk."
-    },
-    {
-      "n": 230,
-      "reason": "Nieuwe wereldorde na Trumps inauguratie, met Poetin en Trump als spelers."
+      "n": 309,
+      "reason": "Chaosstrategie van Trump, Poetin en tirannen, met Beatrice de Graaf over wereldorde"
     },
     {
       "n": 284,
-      "reason": "De Graaf en Paas over brute machtspolitiek, Trump, Poetin en Europa."
+      "reason": "Brute machtspolitiek, Trump en Poetin, Europa, met Beatrice de Graaf"
+    },
+    {
+      "n": 230,
+      "reason": "Nieuwe wereldorde tussen Poetin en Trump, met geopolitieke duiding"
     },
     {
       "n": 317,
-      "reason": "De Graaf en Paas over religie in de wereldpolitiek, met Poetin."
+      "reason": "Religie en relikwieën in de wereldpolitiek, met geschiedenis van machtsverhoudingen"
     },
     {
-      "n": 92,
-      "reason": "Europese waarden en hun religieuze oorsprong, met Beatrice de Graaf, in oorlogstijd."
+      "n": 236,
+      "reason": "Amerikaanse afglijding en Europa's positie, met Beatrice de Graaf en Bijbel"
     }
-  ]
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
 }
