@@ -109,6 +109,7 @@ def test_clean_ci_build_publishes_transcripts_word_index_and_person_details(tmp_
     monkeypatch.setattr(sys, 'argv', ['5b_build_site.py', '--offline', '--output-dir', str(out)])
     site.main()
     assert not stale_page.exists()
+    assert not stale_page.parent.exists()
     assert not (out / 'data/transcripts/328.json').exists()
     assert '/aflevering/328/' not in (out / 'sitemap.xml').read_text(encoding='utf-8')
 

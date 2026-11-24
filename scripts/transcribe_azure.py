@@ -134,7 +134,7 @@ def _speaker_map(phrases, ep):
 # Convert Azure response → transcript-schema.md
 # ---------------------------------------------------------------------------
 
-def _azure_to_transcript(response_json, mapping, ep):
+def _azure_to_transcript(response_json, mapping, ep, *, include_events=True):
     phrases = response_json.get('phrases', [])
 
     # Build speakers list
@@ -160,7 +160,7 @@ def _azure_to_transcript(response_json, mapping, ep):
         end_s = start_s + ph.get('durationMilliseconds', 0) / 1000
 
         # Overlap event when speaker switches with tiny gap
-        if prev_speaker and prev_speaker != sid and prev_end_ms is not None:
+        if include_events and prev_speaker and prev_speaker != sid and prev_end_ms is not None:
             gap_ms = ph.get('offsetMilliseconds', 0) - prev_end_ms
             if gap_ms < 300:
                 events.append({

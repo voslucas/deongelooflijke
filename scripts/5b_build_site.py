@@ -2406,6 +2406,12 @@ def main():
     for stale in (out / 'aflevering').glob('*/index.html'):
         if stale.parent.name not in data.ep_by_key:
             stale.unlink()
+            if not any(stale.parent.iterdir()):
+                stale.parent.rmdir()
+    # Also clear empty route directories left by a previous incremental build.
+    for directory in (out / 'aflevering').glob('*'):
+        if directory.is_dir() and directory.name not in data.ep_by_key and not any(directory.iterdir()):
+            directory.rmdir()
 
     # Build all pages
     print(f'Building {len(data.all_eps)} episode pages...')

@@ -46,8 +46,8 @@ def _load_profiles() -> dict[str, np.ndarray]:
     return _load_profiles_base(PROFILES_DIR)
 
 
-def identify_episode(ep_key: str, threshold: float, apply: bool) -> None:
-    transcript_path = TRANSCRIPTS_DIR / f'{ep_key}.json'
+def identify_episode(ep_key: str, threshold: float, apply: bool, *, transcript_path=None) -> None:
+    transcript_path = pathlib.Path(transcript_path) if transcript_path else TRANSCRIPTS_DIR / f'{ep_key}.json'
     if not transcript_path.exists():
         sys.exit(f'Transcript not found: {transcript_path}')
 
