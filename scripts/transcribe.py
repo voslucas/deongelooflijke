@@ -14,6 +14,7 @@ import math
 import os
 import pathlib
 import sys
+import tempfile
 import time
 import wave
 
@@ -25,6 +26,7 @@ from utils import ep_key
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
 OUT_DIR = ROOT / 'data' / 'transcripts'
+MP3_DIR = mai.MP3_DIR
 ENDPOINT = 'https://api.elevenlabs.io'
 MODEL = 'scribe_v3'
 
@@ -47,18 +49,14 @@ def _expected_speakers(ep):
     return count
 
 
-def _request(client, key, endpoint, count, *, source_url=None, audio=None):
-    # Multipart even for URL requests, as required by ElevenLabs.
+def _request(client, key, endpoint, count, *, audio, filename='audio.wav', content_type='audio/wav'):
     fields = {
         'model_id': MODEL, 'language_code': 'nl', 'diarize': 'true',
         'num_speakers': str(count), 'timestamps_granularity': 'word',
         'tag_audio_events': 'false', 'no_verbatim': 'false',
     }
     files = {name: (None, value) for name, value in fields.items()}
-    if source_url is not None:
-        files['source_url'] = (None, source_url)
-    else:
-        files['file'] = ('audio.wav', audio, 'audio/wav')
+    files['file'] = (filename, audio, content_type)
     response = client.post(endpoint.rstrip('/') + '/v1/speech-to-text',
                            headers={'xi-api-key': key}, files=files)
     if response.status_code == 429:
@@ -123,6 +121,27 @@ def _words_to_transcript(data, ep):
     return mai._apply_corrections(transcript, ep_key(ep))
 
 
+def _download_mp3(client, url, path):
+    """Stream into a temporary file so failed downloads never become cache hits."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    print(f'  Downloading MP3 to {path}', flush=True)
+    try:
+        with client.stream('GET', url, follow_redirects=True,
+                           timeout=httpx.Timeout(30, read=600)) as response:
+            response.raise_for_status()
+            with tempfile.NamedTemporaryFile(dir=path.parent, suffix='.part', delete=False) as output:
+                temporary = pathlib.Path(output.name)
+                for chunk in response.iter_bytes(65536):
+                    output.write(chunk)
+            if not temporary.stat().st_size:
+                raise mai.TranscriptionError('Downloaded MP3 is empty')
+            temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
 def transcribe_episode(ep, key, endpoint=ENDPOINT, client=None):
     if not ep.get('mp3'):
         raise mai.TranscriptionError('No mp3 URL for this episode')
@@ -131,7 +150,15 @@ def transcribe_episode(ep, key, endpoint=ENDPOINT, client=None):
             return transcribe_episode(ep, key, endpoint, http)
     count = _expected_speakers(ep)
     print(f'  Scribe v3 | nl | verbatim | word timestamps | expected speakers: {count}', flush=True)
-    data = _request(client, key, endpoint, count, source_url=ep['mp3'])
+    mp3_path = MP3_DIR / f'{ep_key(ep)}.mp3'
+    if mp3_path.exists() and mp3_path.stat().st_size:
+        print(f'  Using cached MP3: {mp3_path}', flush=True)
+    else:
+        _download_mp3(client, ep['mp3'], mp3_path)
+    print(f'  Uploading {mp3_path.stat().st_size / 1_000_000:.1f} MB to Scribe v3', flush=True)
+    with mp3_path.open('rb') as audio:
+        data = _request(client, key, endpoint, count, audio=audio,
+                        filename=mp3_path.name, content_type='audio/mpeg')
     return _words_to_transcript(data, ep)
 
 

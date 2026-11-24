@@ -34,9 +34,11 @@ Unassigned or unexpected clusters retain separate generic labels and their speec
 Existing manual `data/corrections/{key}.json` overrides apply to the canonical
 speaker IDs, as supported by the MAI helper.
 
-The audio URL is sent to ElevenLabs for fetching, so transcription alone needs
-no local MP3. Voice identification downloads audio if necessary. `--delete-mp3`
-removes the cached MP3 only after successful transcription and identification.
+Like MAI, the script downloads audio to `data/mp3/{key}.mp3`, reuses an existing
+nonempty cached MP3, and uploads the local file to ElevenLabs. Downloads follow
+redirects and stream to a temporary file; interrupted or empty downloads never
+become cache hits. The MP3 stays available for voice identification and retries.
+`--delete-mp3` removes it only after successful transcription and identification.
 
 Existing output files are always skipped; exclusive file creation also prevents
 overwriting if another process creates the file during transcription. To compare

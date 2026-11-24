@@ -22,8 +22,15 @@ def word(text, start, speaker='speaker_0', **extra):
             'speaker_id': speaker, **extra}
 
 
-def test_request_sends_cast_count_and_production_settings():
+def test_request_sends_cast_count_and_production_settings(tmp_path, monkeypatch):
+    monkeypatch.setattr(scribe, 'MP3_DIR', tmp_path)
+    methods = []
     def handle(request):
+        methods.append(request.method)
+        if request.method == 'GET':
+            assert str(request.url) == EP['mp3']
+            assert 'xi-api-key' not in request.headers
+            return httpx.Response(200, content=b'test-mp3-bytes')
         assert request.url == 'https://api.elevenlabs.io/v1/speech-to-text'
         assert request.headers['xi-api-key'] == 'test-key'
         assert request.headers['content-type'].startswith('multipart/form-data')
@@ -31,11 +38,18 @@ def test_request_sends_cast_count_and_production_settings():
         for name, value in {'num_speakers': '3', 'model_id': 'scribe_v3',
                             'language_code': 'nl', 'diarize': 'true',
                             'tag_audio_events': 'false', 'no_verbatim': 'false',
-                            'timestamps_granularity': 'word', 'source_url': EP['mp3']}.items():
+                            'timestamps_granularity': 'word'}.items():
             assert f'name="{name}"\r\n\r\n{value}\r\n' in body
+        assert 'name="file"; filename="1.mp3"' in body
+        assert 'Content-Type: audio/mpeg' in body
+        assert 'test-mp3-bytes' in body
+        assert 'source_url' not in body
         return httpx.Response(200, json={'words': [word('Hallo.', 0)]})
     with httpx.Client(transport=httpx.MockTransport(handle)) as client:
         transcript = scribe.transcribe_episode(EP, 'test-key', client=client)
+        assert (tmp_path / '1.mp3').read_bytes() == b'test-mp3-bytes'
+        scribe.transcribe_episode(EP, 'test-key', client=client)
+    assert methods == ['GET', 'POST', 'POST']
     assert transcript['source']['model'] == 'elevenlabs/scribe_v3'
 
 
@@ -100,7 +114,21 @@ def test_existing_output_is_never_overwritten_or_sent_to_api(tmp_path, monkeypat
 def test_api_failures(status, body, error):
     with httpx.Client(transport=httpx.MockTransport(lambda _: httpx.Response(status, json=body))) as client:
         with pytest.raises(error):
-            scribe._request(client, 'test-key', scribe.ENDPOINT, 2, source_url=EP['mp3'])
+            scribe._request(client, 'test-key', scribe.ENDPOINT, 2, audio=b'test-wav')
+
+
+def test_interrupted_download_cannot_poison_cache(tmp_path):
+    class BrokenAudio(httpx.SyncByteStream):
+        def __iter__(self):
+            yield b'partial MP3'
+            raise httpx.ReadError('connection interrupted')
+    path = tmp_path / 'episode.mp3'
+    with httpx.Client(transport=httpx.MockTransport(
+            lambda _: httpx.Response(200, stream=BrokenAudio()))) as client:
+        with pytest.raises(httpx.ReadError):
+            scribe._download_mp3(client, EP['mp3'], path)
+    assert not path.exists()
+    assert list(tmp_path.iterdir()) == []
 
 
 def test_identification_targets_custom_output(tmp_path, monkeypatch):
