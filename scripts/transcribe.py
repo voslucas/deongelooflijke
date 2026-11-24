@@ -214,7 +214,12 @@ def main(argv=None):
         episodes = json.loads(EPISODES_JSON.read_text(encoding='utf-8'))['eps']
         by_key = {ep_key(ep): ep for ep in episodes}
         if args.episode and args.episode not in by_key:
-            parser.error(f'Episode {args.episode} not found')
+            parser.error(
+                f'Episode {args.episode} not found in data/episodes.json. '
+                'After 1_parse_feed.py, run these metadata steps before transcription:\n'
+                '  python scripts/2_extract_guests.py\n'
+                '  python scripts/3_build_episode_data.py\n'
+                'They supply the episode and expected speaker count used by Scribe.')
         keys = [args.episode] if args.episode else list(by_key)
         for episode_key in keys:
             path = args.output or args.output_dir / f'{episode_key}.json'

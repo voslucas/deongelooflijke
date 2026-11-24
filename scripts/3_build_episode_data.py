@@ -1,6 +1,6 @@
 import json, re, collections, datetime
 import pathlib; ROOT=pathlib.Path(__file__).resolve().parent.parent; D=ROOT/'data'/'intermediate'; OUTF=ROOT/'data'/'episodes.json'
-eps=json.load(open(D/'eps1.json'))
+eps=json.loads((D/'eps1.json').read_text(encoding='utf-8'))
 # DROP: strings that regex guest-extraction mis-identifies as people (fallback for un-analyzed episodes)
 DROP={'de Nederlandse','Leo XIV','Charles III','Benedictus XVI','Adrianus VI'}
 # Regex theme fallback — overridden by LLM themes for analyzed episodes (see 4_split_data.py)
@@ -57,14 +57,14 @@ for e in out:
             if m and len(m.group(1))>6 and not re.search(r'\b(daarover|we|wij|david|gesprek|hij|zij|ze|ook|nu|die|dat|het|een|aflevering)\b',m.group(1)): bios[name]=(m.group(1).strip().capitalize()+'.')
 bios['Stefan Paas']='Theoloog, hoogleraar aan de Vrije Universiteit Amsterdam en de Theologische Universiteit Utrecht, en vaste gast van De Ongelooflijke.'
 bios['David Boogerd']='Journalist en presentator van De Ongelooflijke Podcast sinds de eerste aflevering in april 2019.'
-json.dump(dict(eps=out,bios=bios,built=datetime.date.today().isoformat()),open(OUTF,'w'),ensure_ascii=False,separators=(',',':'))
+OUTF.write_text(json.dumps(dict(eps=out,bios=bios,built=datetime.date.today().isoformat()),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 import os; print(os.path.getsize(OUTF), len(bios), collections.Counter(e['f'] for e in out), collections.Counter(t for e in out for t in e['th']).most_common(), sum(len(e['q']) for e in out), sum(e['p'] for e in out))
 for k in list(bios)[:12]: print(k,'::',bios[k][:160])
-D=json.load(open(OUTF))
+D=json.loads(OUTF.read_text(encoding='utf-8'))
 D['bios'].update({
  'Beatrice de Graaf':'Historicus en hoogleraar aan de Universiteit Utrecht; “vriendin van de show” en met Stefan Paas het duo achter spin-off De Ongelooflijke Geschiedenis.',
  'Joris Luyendijk':'Schrijver en antropoloog.',
  'Arjen Lubach':'Presentator, cabaretier, dj, schrijver én overtuigd atheïst — gast van de allereerste aflevering.',
  'Typhoon':'Rapper Typhoon (Glenn de Randamie).',
  'Anonieme exorcist':'Een priester die door het Vaticaan is opgeleid als exorcist; hij doet zijn verhaal anoniem.'})
-json.dump(D,open(OUTF,'w'),ensure_ascii=False,separators=(',',':'))
+OUTF.write_text(json.dumps(D,ensure_ascii=False,separators=(',',':')),encoding='utf-8')

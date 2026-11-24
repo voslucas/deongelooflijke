@@ -5,6 +5,18 @@ It uses the same JSON contract as `transcribe_azure.py`, including speaker IDs,
 Dutch roles, timestamped segments in seconds, empty analysis containers and
 `events: []`. Provenance is `elevenlabs/scribe_v3`.
 
+For new episodes, refresh the episode metadata before transcribing. Parsing the
+feed alone writes `data/feed/` and `data/intermediate/raw.json`; the next two
+steps populate `data/episodes.json`, including guests and Stefan Paas presence
+used to calculate the expected speaker count:
+
+```powershell
+python scripts/1_parse_feed.py
+python scripts/2_extract_guests.py
+python scripts/3_build_episode_data.py
+python scripts/transcribe.py --episode 328
+```
+
 ```powershell
 .\.venv\Scripts\python.exe scripts/transcribe.py --episode 331
 .\.venv\Scripts\python.exe scripts/transcribe.py --all-missing --identify --delete-mp3

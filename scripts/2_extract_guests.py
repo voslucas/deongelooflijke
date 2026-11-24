@@ -1,6 +1,6 @@
 import re, json, collections
 import pathlib; D=pathlib.Path(__file__).resolve().parent.parent/'data'/'intermediate'
-eps=json.load(open(D/'raw.json'))
+eps=json.loads((D/'raw.json').read_text(encoding='utf-8'))
 P=r"(?:van|de|der|den|ter|ten|te|het|'t|’t|von|al|el|du|le|la|da|di|op)"
 W=r"[A-ZÀ-ÖØ-ÞĲ][\w'’]+(?:-[A-Za-zÀ-ÖØ-Þ][\w]+)*"
 NAME=re.compile(rf"(?<![\w-])({W}(?:\s+(?:{P}\s+)*{W}){{1,3}})")
@@ -39,4 +39,4 @@ for e in eps:
 zero=[e for e in eps if not e['g']]
 print('zero',len(zero))
 for e in zero: print(e['n'],e['t'][:110],'|',names_in(e['desc'])[:6])
-json.dump(eps,open(D/'eps1.json','w'),ensure_ascii=False)
+(D/'eps1.json').write_text(json.dumps(eps,ensure_ascii=False),encoding='utf-8')

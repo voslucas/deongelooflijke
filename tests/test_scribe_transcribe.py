@@ -108,6 +108,21 @@ def test_existing_output_is_never_overwritten_or_sent_to_api(tmp_path, monkeypat
     assert path.read_text() == 'original transcript'
 
 
+def test_unknown_episode_explains_metadata_steps(tmp_path, monkeypatch, capsys):
+    episodes = tmp_path / 'episodes.json'
+    episodes.write_text(json.dumps({'eps': [EP]}))
+    monkeypatch.setattr(scribe, 'EPISODES_JSON', episodes)
+    monkeypatch.setattr(scribe, '_load_api_key', lambda _: 'fake-key')
+    with pytest.raises(SystemExit) as exc:
+        scribe.main(['--episode', '328'])
+    assert exc.value.code == 2
+    error = capsys.readouterr().err
+    assert 'data/episodes.json' in error
+    assert 'python scripts/2_extract_guests.py' in error
+    assert 'python scripts/3_build_episode_data.py' in error
+    assert 'speaker count' in error
+
+
 @pytest.mark.parametrize('status,body,error', [(401, {'detail': 'invalid key'}, mai.TranscriptionError),
                                               (429, {}, mai.RateLimitError),
                                               (200, {'text': 'missing timestamps'}, mai.TranscriptionError)])
