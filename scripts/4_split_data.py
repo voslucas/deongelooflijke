@@ -10,6 +10,7 @@ Outputs:
 """
 import json, math, pathlib, re, unicodedata
 from utils import ep_key, truncate_xs
+from theme_taxonomy import validate_themes
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EPISODES_JSON = ROOT / 'data' / 'episodes.json'
@@ -327,10 +328,6 @@ def main():
     # Compute TF-IDF keywords for all episodes
     compute_tfidf(eps)
 
-    # Output directories
-    ep_dir = OUT_DIR / 'episodes'
-    ep_dir.mkdir(parents=True, exist_ok=True)
-
     # Build lookup for aggregates
     eps_by_key = {ep_key(e): e for e in eps}
 
@@ -345,6 +342,16 @@ def main():
                 an_by_key[f.stem] = an
             except Exception as exc:
                 print(f'  Warning: could not read analysis/{f.name}: {exc}')
+
+    # Validate all inputs before writing any output. An LLM cannot add categories.
+    for e in eps:
+        validate_themes(e.get('th', []), context=f'Master episode {ep_key(e)}')
+    for key, an in an_by_key.items():
+        if 'themes' in an:
+            validate_themes(an['themes'], context=f'Analysis #{key}')
+
+    ep_dir = OUT_DIR / 'episodes'
+    ep_dir.mkdir(parents=True, exist_ok=True)
 
     # Write per-episode files (all fields + kw + optional analysis)
     keys = []

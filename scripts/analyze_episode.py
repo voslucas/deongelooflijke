@@ -21,6 +21,7 @@ Requires:
 """
 import argparse, json, os, re, sys, time, datetime, urllib.request, urllib.parse, urllib.error
 import pathlib
+from theme_taxonomy import validate_themes
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIR_FEED      = ROOT / 'data' / 'feed'
@@ -69,7 +70,9 @@ def _transcript_text(tr: dict) -> str:
 
 
 def _build_system_prompt(themes: list[dict]) -> str:
-    theme_labels = '\n'.join(f'  - {t["label"]} ({t["hint"]})' for t in themes)
+    theme_labels = '\n'.join(
+        f'  - label: {json.dumps(t["label"], ensure_ascii=False)}; trefwoorden (alleen uitleg): {t["hint"]}'
+        for t in themes)
     return f"""Je analyseert afleveringen van de Nederlandse podcast 'De Ongelooflijke Podcast'. \
 Presentator is altijd David Boogerd. Vaste gast is theoloog Stefan Paas (aanwezig in de meeste afleveringen). \
 Gasten zijn andere sprekers. Het transcript heeft tijdstempels in [MM:SS]-formaat voor elk segment.
@@ -98,6 +101,7 @@ Extraheer de volgende velden en geef je antwoord als ALLEEN valide JSON — geen
 REGELS:
 - themes: kies maximaal 4 uit deze vaste lijst (kopieer het label exact):
 {theme_labels}
+  Gebruik uitsluitend de tekst van het label. Voeg geen trefwoorden of uitleg toe en bedenk geen nieuwe labels.
 - guests: directe gesprekspartners, NIET David Boogerd en NIET Stefan Paas.
 - people: personen die besproken worden (ook historische figuren, politici, filosofen). \
   Normaliseer namen consistent (bijv. 'Karl Marx', niet 'Marx' of 'Karel Marx'). \
@@ -531,6 +535,7 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
     except json.JSONDecodeError:
         print(f'    JSON parse failed — retrying with repair call …')
         extracted = _repair_json(client, model, raw_text)
+    validate_themes(extracted.get('themes'), context=f'Analysis #{key}')
     usage = response.usage
 
     # Enrich books with Google Books metadata + LLM verification
@@ -580,6 +585,7 @@ def analyse_episode(key: str, client, model: str, system_prompt: str,
 
 
 def save_analysis(key: str, data: dict) -> None:
+    validate_themes(data.get('themes'), context=f'Analysis #{key}')
     DIR_OUT.mkdir(parents=True, exist_ok=True)
     path = DIR_OUT / f'{key}.json'
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')

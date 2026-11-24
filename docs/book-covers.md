@@ -21,7 +21,8 @@ For each selected edition, the downloader tries:
 
 Google candidates are deduplicated and tried in a stable order. No new book
 searches or model calls are made. Provider requests occur on the build machine.
-Invalid images and tiny placeholders are rejected. Successful images are resized
+Invalid images, tiny placeholders, and Google's recognized "image not available"
+image are rejected. Successful images are resized
 to fit 640 by 960 pixels, converted to JPEG, and saved without source metadata.
 If all sources fail, the site shows its gold book icon without a remote fallback.
 
@@ -74,3 +75,68 @@ Pillow is included in `requirements.txt`. Cover tests verify Open Library to
 Google fallback, edition identity, newly analyzed books without detail records,
 cache reuse, retry behavior, corrupt-image replacement, and all production
 cover rendering locations.
+
+## One-time Open Library repair
+
+`scripts/repair_books_openlibrary.py` repairs missing detail records, incomplete
+metadata, and unavailable covers without Google Books or model calls. It includes
+books with no ISBN or Google volume ID. Existing route keys remain unchanged;
+the static detail loader also registers those original keys when an ISBN is found.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/repair_books_openlibrary.py --apply
+# Use direct HTTPS when local environment proxies are unavailable:
+.\.venv\Scripts\python.exe scripts/repair_books_openlibrary.py --apply --direct
+# Retry searches that could not be matched confidently:
+.\.venv\Scripts\python.exe scripts/repair_books_openlibrary.py --apply --direct --retry-unresolved
+```
+
+ISBN matches identify an edition. Title searches require a close title and a
+matching author, including author aliases supplied by Open Library. Subtitle-free
+searches help locate works whose catalogue titles differ. Dutch and classical
+recommended titles prefer Dutch editions; explicit English titles retain English
+editions. Existing ISBNs are retained unless a preferred Dutch edition is selected.
+Edition metadata is copied together rather than borrowing page counts or publishers
+from another edition. Work descriptions may fill gaps across editions.
+
+The script downloads selected covers into the existing versioned cache and updates
+analysis cover URLs without changing their ISBNs or Google IDs. It recognizes the
+Google placeholder image identified during this repair. `data/book_repair_report.json`
+records outcomes, changed fields, matched works/editions, and remaining gaps. API
+responses are cached in the system temporary directory so interrupted runs can
+resume. Requests share a one-per-second limiter. This is a manual repair tool;
+the daily pipeline is unchanged. After applying repairs, run stage 4 and the
+static builder with `--offline` to publish the repaired local data.
+
+For Dutch records that Open Library cannot complete, run the separate one-time
+catalogue fallback:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/repair_books_bibliotheek.py --apply
+```
+
+It searches Bibliotheek.nl's public print catalogue by ISBN first, then by title
+and the primary author's surname when the original edition is unavailable. Title
+and author are checked before selecting an alternative Dutch edition. Single-edition
+and multiple-edition catalogue layouts are supported. Selected print covers are
+downloaded immediately from the catalogue's signed image URLs; visitors continue
+to use local JPEGs. The selected ISBN, publisher, year, page count, catalogue URL
+and PPN are stored together. Original archive keys remain valid. Results and
+remaining gaps are recorded in `data/book_repair_bibliotheek_report.json`.
+
+Run these two repair scripts sequentially when applying changes, since both update
+the shared book records and cover manifest. A read-only run can warm catalogue
+responses while another script is applying metadata. Neither script is added to
+the daily pipeline.
+
+After both providers finish, unidentified duplicates can reuse a verified local
+edition without more HTTP requests:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/repair_books_bibliotheek.py --apply --reuse-only
+```
+
+This requires a matching author and primary title, allowing small spelling
+differences with the same word count. Series titles are not assigned to individual
+volumes. Original route keys remain valid. The local joins are listed separately
+in `data/book_repair_alias_report.json`.

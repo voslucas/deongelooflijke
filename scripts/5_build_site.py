@@ -11,6 +11,8 @@ referenced Bible passages so the popup can show NBV21 text without runtime fetch
 import argparse, base64, json, pathlib, re, shutil
 from utils import truncate_xs
 from book_covers import prepare_covers
+from person_images import prepare_person_images
+from site_icons import icon_head, publish_icons
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 EP_DIR = ROOT / 'site' / 'dist' / 'data' / 'episodes'
@@ -187,7 +189,7 @@ def load_persons_data(root: pathlib.Path) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--offline', action='store_true', help='Use cached book covers only')
+    parser.add_argument('--offline', action='store_true', help='Use cached book covers and person images only')
     args = parser.parse_args()
     dist = ROOT / 'site' / 'dist'
     # Read full episodes.json for bios and built date
@@ -203,6 +205,7 @@ def main():
         'built': full_data['built'],
         'persons': load_persons_data(ROOT),
         'covers': prepare_covers(ROOT, dist, offline=args.offline),
+        'person_images': prepare_person_images(ROOT, dist, offline=args.offline),
     }
 
     # Read template and replace placeholders
@@ -215,6 +218,7 @@ def main():
 
     out = (
         template
+        .replace('__ICON_HEAD__', icon_head(prefix=''))
         .replace('__DATA__', json.dumps(inline_data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'))
         .replace('__BVDATA__', bv_json)
         .replace('__LOGO__', b64('design-system/assets/logos/logo360.jpg', 'image/jpeg'))
@@ -223,6 +227,9 @@ def main():
 
     dist = ROOT / 'site' / 'dist'
     dist.mkdir(parents=True, exist_ok=True)
+    publish_icons(ROOT, dist)
+    shutil.copytree(ROOT / 'design-system' / 'assets' / 'fonts',
+                    dist / 'assets' / 'fonts', dirs_exist_ok=True)
     (dist / 'index.html').write_text(out, encoding='utf-8')
     print(f'site/dist/index.html {len(out)} bytes  ({len(index_eps)} episodes in index)')
 

@@ -197,6 +197,15 @@ python scripts/3_build_episode_data.py  # → data/episodes.json
 
 ### 2. Transcribe episodes (requires Azure)
 
+The .NET 10 version uses Microsoft's Azure transcription SDK with the same MAI
+settings and transcript format. See [its usage and implementation notes](scripts/TranscribeAzure/README.md).
+
+```powershell
+dotnet run --project scripts/TranscribeAzure -- --probe
+dotnet run --project scripts/TranscribeAzure -- --episode 42 --delete-mp3
+dotnet run --project scripts/TranscribeAzure -- --all-missing --delete-mp3
+```
+
 Requires `AZURE_SPEECH_KEY` and `AZURE_SPEECH_ENDPOINT` in `.env` (or environment):
 
 ```bash
@@ -304,3 +313,5 @@ The visual language is documented in `design-system/README.md` and encoded as CS
 - NPO Radio 1: https://www.nporadio1.nl/podcasts/de-ongelooflijke-podcast
 
 The artwork and EO wordmark belong to EO / De Ongelooflijke. This is an unofficial fan archive.
+
+Person portraits are also prefetched and served locally by both builders, including new episodes. See [Local person portraits](docs/person-images.md) for cache, retry, and pipeline details.

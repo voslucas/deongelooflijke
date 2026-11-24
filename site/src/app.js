@@ -190,28 +190,60 @@
   function initPersonsFilter() {
     var qEl = document.getElementById('pm-q');
     var listEl = document.getElementById('pmlist');
-    if (!listEl) return;
-    var allItems = Array.from(listEl.querySelectorAll('[data-name]'));
-
-    if (qEl) {
-      qEl.addEventListener('input', function () {
-        var q = qEl.value.trim().toLowerCase();
-        allItems.forEach(function (el) {
-          el.classList.toggle('hidden', q.length > 0 && !(el.dataset.name || '').includes(q));
-        });
+    var topEl = document.getElementById('pmtop');
+    var yearsEl = document.getElementById('pmyears');
+    if (!listEl || !topEl) return;
+    function applySearch() {
+      var q = (qEl ? qEl.value.trim() : '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      listEl.querySelectorAll('[data-name]').forEach(function (el) {
+        el.classList.toggle('hidden', q.length > 0 && !(el.dataset.name || '').includes(q));
       });
     }
+    if (qEl) qEl.addEventListener('input', applySearch);
+    if (yearsEl) yearsEl.querySelectorAll('[data-yr]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var template = Array.from(document.querySelectorAll('template[data-person-year]')).find(function (el) {
+          return el.dataset.personYear === button.dataset.yr;
+        });
+        if (!template) return;
+        topEl.replaceChildren(template.content.children[0].cloneNode(true));
+        listEl.replaceChildren(template.content.children[1].cloneNode(true));
+        yearsEl.querySelectorAll('[data-yr]').forEach(function (chip) {
+          chip.classList.toggle('on', chip === button);
+          chip.setAttribute('aria-pressed', chip === button ? 'true' : 'false');
+        });
+        applySearch();
+      });
+    });
   }
 
-  // ── Books list: filter ──────────────────────────────────────────────────────
+  // ── Books list: filter + year chips ─────────────────────────────────────────
   function initBooksFilter() {
     var qEl = document.getElementById('bk-q');
-    if (!qEl) return;
-    var items = Array.from(document.querySelectorAll('[data-title]'));
-    qEl.addEventListener('input', function () {
-      var q = qEl.value.trim().toLowerCase();
-      items.forEach(function (el) {
+    var listEl = document.getElementById('bklist');
+    var topEl = document.getElementById('bktop');
+    var yearsEl = document.getElementById('bkyears');
+    if (!listEl || !topEl) return;
+    function applySearch() {
+      var q = (qEl ? qEl.value.trim() : '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      listEl.querySelectorAll('[data-title]').forEach(function (el) {
         el.classList.toggle('hidden', q.length > 0 && !(el.dataset.title || '').includes(q));
+      });
+    }
+    if (qEl) qEl.addEventListener('input', applySearch);
+    if (yearsEl) yearsEl.querySelectorAll('[data-yr]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var template = Array.from(document.querySelectorAll('template[data-book-year]')).find(function (el) {
+          return el.dataset.bookYear === button.dataset.yr;
+        });
+        if (!template) return;
+        topEl.replaceChildren(template.content.children[0].cloneNode(true));
+        listEl.replaceChildren(template.content.children[1].cloneNode(true));
+        yearsEl.querySelectorAll('[data-yr]').forEach(function (chip) {
+          chip.classList.toggle('on', chip === button);
+          chip.setAttribute('aria-pressed', chip === button ? 'true' : 'false');
+        });
+        applySearch();
       });
     });
   }

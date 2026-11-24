@@ -59,6 +59,9 @@ jobs:
       - name: Download missing book covers
         run: python scripts/book_covers.py
 
+      - name: Download missing person images
+        run: python scripts/person_images.py
+
       - name: Validate data and static build
         run: |
           python scripts/4_split_data.py

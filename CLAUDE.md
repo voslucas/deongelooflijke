@@ -44,7 +44,7 @@ Rules:
 - Episode numbers (`#327`), durations, timestamps and all columns of digits: UI sans with `font-variant-numeric: tabular-nums`.
 - Eyebrow labels (`.label`, `.epno`): UI sans 600, 12–15px, uppercase, `letter-spacing: .08em`.
 - Headings get `text-wrap: balance`. Body copy stays under ~66ch.
-- Fonts load from Google Fonts with Georgia/system fallbacks; do not add other families.
+- Fonts are self-hosted from `design-system/assets/fonts/` with Georgia/system fallbacks; do not add other families.
 
 ## 4. Layout and components
 

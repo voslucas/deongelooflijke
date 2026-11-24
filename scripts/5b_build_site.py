@@ -14,12 +14,17 @@ from collections import defaultdict
 from datetime import date as _date
 from html import escape as _esc
 from markdown_it import MarkdownIt
+from PIL import Image, ImageOps
 from book_covers import aliases as cover_aliases, prepare_covers
+from person_images import image_key, prepare_person_images
+from site_icons import icon_head, publish_icons
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIST_DATA = ROOT / 'site' / 'dist' / 'data'
 DEFAULT_OUT = ROOT / 'site' / 'static'
 TEMPLATE = ROOT / 'site' / 'src' / 'index.template.html'
+# Local guest/host portraits: 44px in episode cards, 72px on guest details.
+PROFILE_IMAGE_SIZE = 72
 
 MONTHS_NL = ['januari','februari','maart','april','mei','juni',
               'juli','augustus','september','oktober','november','december']
@@ -82,6 +87,7 @@ SOCIAL_ICONS = {'linkedin':(IC_LINKEDIN,'LinkedIn'),'twitter':(IC_TWITTER,'Twitt
 _BUILT_DATE = ''
 _BASE_URL = 'https://www.deongelooflijkearchief.nl'
 _COVER_URLS = {}
+_PERSON_IMAGE_URLS = {}
 _BVDATA: dict = {}  # Bible verse data: "CODE.ch.v" → [verse_text, ...]
 
 # ============================================================
@@ -287,6 +293,7 @@ def load_data(dist_data: pathlib.Path) -> 'SiteData':
                 bk = json.loads(f.read_text(encoding='utf-8'))
                 key = bk.get('isbn13','').strip() or bk.get('key','') or f.stem
                 d.books_detail[key] = bk
+                d.books_detail[bk.get('key') or f.stem] = bk
                 if bk.get('volume_id'):
                     d.books_detail[f'vol-{bk["volume_id"]}'] = bk
             except Exception:
@@ -578,15 +585,13 @@ def bk_thumb_url(vol_id, stored_thumb):
 
 
 def wiki_thumb(url):
-    """Normalize Wikimedia thumbnail URLs to 250px (sub-250px sizes often fail to serve)."""
-    import re as _re
-    if not url:
-        return url
-    return _re.sub(r'/(\d+)px-', lambda m: f'/{max(250, int(m.group(1)))}px-', url)
+    """Resolve a selected Wikipedia portrait to its prefetched local file."""
+    return _PERSON_IMAGE_URLS.get(image_key(url), '')
 
 
 def people_panel_html(people, people_dict=None):
     if not people: return ''
+    people = sorted(people, key=lambda p: (p.get('start_seconds') is None, p.get('start_seconds') or 0))
     rows = []
     for i,p in enumerate(people):
         sep = ('border-bottom:1px solid var(--rule);margin-bottom:8px;padding-bottom:8px'
@@ -624,6 +629,7 @@ def people_panel_html(people, people_dict=None):
 
 def book_panel_html(books):
     if not books: return ''
+    books = sorted(books, key=lambda b: (b.get('start_seconds') is None, b.get('start_seconds') or 0))
     rows = []
     for i,b in enumerate(books):
         sep = ('border-bottom:1px solid var(--rule);margin-bottom:10px;padding-bottom:10px'
@@ -781,10 +787,8 @@ def page_shell(title, content, nav_active='', page_type='', og_meta=None, canoni
             f'<meta charset="utf-8">\n'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">\n'
             f'<title>{esc(title)} · De Ongelooflijke Podcast</title>\n'
-            f'<link rel="preconnect" href="https://fonts.googleapis.com">\n'
-            f'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
-            f'family=Lora:ital,wght@0,500;0,600;0,700;1,500'
-            f'&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">\n'
+            f'{icon_head()}'
+            f'<link rel="stylesheet" href="/assets/fonts/fonts.css">\n'
             f'<link rel="stylesheet" href="/assets/style.css">\n'
             f'<script>function bkCover(el){{var fb=el.dataset.fb||\'\';el.dataset.fb=\'\';if(fb){{el.onerror=function(){{bkCover(el)}};el.onload=null;el.src=fb;}}else{{el.style.display=\'none\';var ic=el.nextElementSibling;if(ic)ic.style.display=\'flex\';}}}}</script>\n'
             f'{og_html}{can_html}'
@@ -1097,8 +1101,8 @@ def build_persons_list(data, out):
         # img field on the agg item is a URL (wiki_image)
         img = p.get('img') or ''
         ini_el = f'<span class="ini" style="width:{size}px;height:{size}px;font-size:{fs}px;flex-shrink:0">{ini}</span>'
-        if img and img is not True:
-            img = wiki_thumb(img)
+        img = wiki_thumb(img)
+        if img:
             return (f'<img src="{esc(img)}" alt="" loading="lazy" '
                     f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'" '
                     f'style="width:{size}px;height:{size}px;border-radius:999px;object-fit:cover;flex-shrink:0">'
@@ -1134,12 +1138,25 @@ def build_persons_list(data, out):
     top_html = f'<div class="pm-cards">{"".join(pm_card(p) for p in top10)}</div>' if top10 else ''
     rest_html = f'<div>{"".join(pm_row(p) for p in rest)}</div>' if rest else ''
 
-    all_yrs = sorted(set(
-        yr for p in persons for yr in (p.get('yr') or {}).keys()
-    ))
+    all_yrs = sorted({ep['d'][:4] for p in persons for ep in p.get('eps', [])
+                      if ep.get('d')})
     yr_chips = (''.join(
-        f'<button type="button" class="chip" data-yr="{y}">{y}</button>'
+        f'<button type="button" class="chip" data-yr="{esc(y)}" aria-pressed="false">{esc(y)}</button>'
         for y in all_yrs))
+    rankings = [('', persons)]
+    for year in all_yrs:
+        year_persons = []
+        for p in persons:
+            eps = [ep for ep in p.get('eps', []) if (ep.get('d') or '')[:4] == year]
+            if eps:
+                year_persons.append(dict(p, eps=eps, x=len(eps),
+                                         mx=sum(ep.get('x', 1) for ep in eps)))
+        rankings.append((year, sorted(year_persons, key=lambda p: -p['x'])))
+    year_templates = ''.join(
+        f'<template data-person-year="{esc(year)}">'
+        f'<div class="pm-cards">{"".join(pm_card(p) for p in ranked[:10])}</div>'
+        f'<div>{"".join(pm_row(p) for p in ranked[10:])}</div></template>'
+        for year, ranked in rankings)
 
     content = (
         f'<h1>Personen</h1>'
@@ -1147,14 +1164,14 @@ def build_persons_list(data, out):
         f'Figuren die in de afleveringen worden genoemd.</p>'
         + (f'<div class="ctrl" style="margin-bottom:4px">'
            f'<div class="chips" style="margin:0" id="pmyears">'
-           f'<button type="button" class="chip on" data-yr="">Alle jaren</button>'
+           f'<button type="button" class="chip on" data-yr="" aria-pressed="true">Alle jaren</button>'
            f'{yr_chips}</div></div>' if all_yrs else '')
         + f'<h2 style="margin:20px 0 12px">Meest genoemd</h2>'
         f'<div id="pmtop">{top_html}</div>'
         f'<div class="ctrl" style="margin:28px 0 10px">'
         f'<input id="pm-q" type="search" placeholder="Zoek een persoon…" '
         f'aria-label="Zoek een persoon" style="flex:1 1 220px"></div>'
-        f'<div id="pmlist">{rest_html}</div>')
+        f'<div id="pmlist">{rest_html}</div>{year_templates}')
     write_page(out / 'personen' / 'index.html', 'Personen', content,
                nav_active='personen', page_type='persons',
                canonical=f'{_BASE_URL}/personen/')
@@ -1272,7 +1289,7 @@ def build_person_detail(data, p_slug, out):
             jac = shared / union if union else 0
             candidates.append((jac, other.get('x', 0), other))
         candidates.sort(key=lambda x: (-x[0], -x[1]))
-        top_more = [c[2] for c in candidates[:10]]
+        top_more = sorted((c[2] for c in candidates[:10]), key=lambda p: norm(p.get('n', '')))
         if top_more:
             rows = []
             for i, other in enumerate(top_more):
@@ -1351,7 +1368,7 @@ def build_books_list(data, out):
                             bk_thumb_url(vol_key, b.get('bk_thumb') or b.get('thumbnail') or ''),
                             40, 56, '3px', vol_id=vol_key)
         return (f'<a class="mention-row" href="/boek/{esc(bkey)}/" '
-                f'data-title="{esc(norm(b.get("n", "") or ""))}" '
+                f'data-title="{esc(norm((b.get("n", "") or "") + " " + b.get("author", "")))}" '
                 f'style="align-items:center">'
                 f'{cover}'
                 f'<span class="mention-name" style="flex:1 1 0;min-width:0">'
@@ -1387,16 +1404,37 @@ def build_books_list(data, out):
     top_html = f'<div class="pm-cards">{"".join(bk_card(b) for b in top10)}</div>' if top10 else ''
     rows_html = ''.join(bk_row(b) for b in rest)
 
+    all_yrs = sorted({yr for b in books for yr in (b.get('yr') or {})})
+    yr_chips = ''.join(
+        f'<button type="button" class="chip" data-yr="{esc(y)}" aria-pressed="false">{esc(y)}</button>'
+        for y in all_yrs)
+    # Render each ranking with the same cards, covers and links as the default view.
+    rankings = [('', books)]
+    for year in all_yrs:
+        year_books = [dict(b, x=b['yr'][year], eps=[
+            ep for ep in b.get('eps', []) if (ep.get('d') or '')[:4] == year
+        ]) for b in books if (b.get('yr') or {}).get(year, 0) > 0]
+        rankings.append((year, sorted(year_books, key=lambda b: -b['x'])))
+    year_templates = ''.join(
+        f'<template data-book-year="{esc(year)}">'
+        f'<div class="pm-cards">{"".join(bk_card(b) for b in ranked[:10])}</div>'
+        f'<div>{"".join(bk_row(b) for b in ranked[10:])}</div></template>'
+        for year, ranked in rankings)
+
     content = (
         f'<h1>Boeken</h1>'
         f'<p class="lede prose muted" style="margin:8px 0 20px">'
         f'Boeken die in afleveringen worden besproken of aanbevolen.</p>'
-        f'<h2 style="margin:20px 0 12px">Meest besproken</h2>'
-        f'{top_html}'
+        + (f'<div class="ctrl" style="margin-bottom:4px">'
+           f'<div class="chips" style="margin:0" id="bkyears">'
+           f'<button type="button" class="chip on" data-yr="" aria-pressed="true">Alle jaren</button>'
+           f'{yr_chips}</div></div>' if all_yrs else '')
+        + f'<h2 style="margin:20px 0 12px">Meest besproken</h2>'
+        f'<div id="bktop">{top_html}</div>'
         f'<div class="ctrl" style="margin:28px 0 10px">'
         f'<input id="bk-q" type="search" placeholder="Zoek een boek of auteur…" '
         f'aria-label="Zoek een boek" style="flex:1 1 220px"></div>'
-        f'<div>{rows_html}</div>')
+        f'<div id="bklist">{rows_html}</div>{year_templates}')
     write_page(out / 'boeken' / 'index.html', 'Boeken', content,
                nav_active='boeken', page_type='books',
                canonical=f'{_BASE_URL}/boeken/')
@@ -1491,7 +1529,7 @@ def build_book_detail(data, book_agg, out):
         jac = shared / union if union else 0
         more_books.append((jac, other.get('x', 0), other, other_key))
     more_books.sort(key=lambda x: (-x[0], -x[1]))
-    more_books = more_books[:10]
+    more_books = sorted(more_books[:10], key=lambda b: norm(b[2].get('n', '')))
 
     right = ''
     if kv_rows:
@@ -2098,6 +2136,9 @@ def write_assets(out: pathlib.Path, logo_src: pathlib.Path,
     """Write /assets/style.css and copy logo/wordmark."""
     assets = out / 'assets'
     assets.mkdir(parents=True, exist_ok=True)
+    publish_icons(ROOT, out)
+    shutil.copytree(ROOT / 'design-system' / 'assets' / 'fonts',
+                    assets / 'fonts', dirs_exist_ok=True)
     css = extract_css(template_path)
     # Append static-site specific rules
     css += '\n'
@@ -2183,7 +2224,8 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
         shutil.copy2(wi, out_data / 'word_index.json')
         print(f'  word_index.json ({wi.stat().st_size // 1024} KB) -> {out_data}')
 
-    # Person images
+    # Guest/host portraits. Match the centered object-fit:cover crop used by
+    # the pages, without enlarging small sources or modifying the originals.
     img_src = root / 'data' / 'persons' / 'images'
     img_dst = out_data / 'persons' / 'images'
     if img_src.exists():
@@ -2191,8 +2233,17 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
         n = 0
         for f in img_src.iterdir():
             if f.suffix.lower() in ('.jpg', '.jpeg', '.jfif', '.png', '.webp'):
-                dst_name = f.stem + '.jpg' if f.suffix.lower() == '.jfif' else f.name
-                shutil.copy2(f, img_dst / dst_name)
+                with Image.open(f) as source:
+                    image = ImageOps.exif_transpose(source)
+                    size = min(PROFILE_IMAGE_SIZE, *image.size)
+                    image = ImageOps.fit(image, (size, size), method=Image.Resampling.LANCZOS)
+                    # JPEG has no alpha channel; composite transparent inputs
+                    # onto white rather than turning transparent pixels black.
+                    rgba = image.convert('RGBA')
+                    portrait = Image.new('RGB', image.size, 'white')
+                    portrait.paste(rgba, mask=rgba.getchannel('A'))
+                    portrait.save(img_dst / (f.stem + '.jpg'), 'JPEG',
+                                  quality=85, optimize=True)
                 n += 1
         print(f'  person images: {n} -> {img_dst}')
 
@@ -2278,7 +2329,7 @@ def write_robots(out: pathlib.Path, base_url: str):
 # ============================================================
 
 def main():
-    global _BUILT_DATE, _BASE_URL, _COVER_URLS
+    global _BUILT_DATE, _BASE_URL, _COVER_URLS, _PERSON_IMAGE_URLS
 
     import argparse
     parser = argparse.ArgumentParser(description='Build static multi-page site')
@@ -2289,9 +2340,11 @@ def main():
     parser.add_argument('--clean', action='store_true',
                         help='Delete output directory before building')
     parser.add_argument('--offline', action='store_true',
-                        help='Use cached book covers without downloading missing images')
+                        help='Use cached book covers and person images without downloading')
     parser.add_argument('--retry-missing-covers', action='store_true',
                         help='Retry unavailable covers immediately instead of waiting 24 hours')
+    parser.add_argument('--retry-missing-person-images', action='store_true',
+                        help='Retry unavailable portraits immediately')
     args = parser.parse_args()
 
     out = pathlib.Path(args.output_dir)
@@ -2305,6 +2358,9 @@ def main():
     print("Building static site -> " + str(out))
     _COVER_URLS = prepare_covers(ROOT, out, offline=args.offline,
                                 retry_missing=args.retry_missing_covers)
+
+    _PERSON_IMAGE_URLS = prepare_person_images(
+        ROOT, out, offline=args.offline, retry_missing=args.retry_missing_person_images)
 
     # Locate source assets
     logo_src = ROOT / 'design-system' / 'assets' / 'logos' / 'logo360.jpg'

@@ -19,6 +19,10 @@ when downloading fails; daily processing fails visibly instead of using stale da
    `claude-haiku-5-5`. There is no character cutoff. The saved `transcript_input`
    records character/segment counts and `truncated: false`. Output reaching its
    token limit is rejected instead of saving an incomplete extraction.
+   Theme labels must exactly match `data/themes.json` (at most four distinct
+   labels). Unknown labels, including labels with keyword hints appended, fail
+   before enrichment or saving. Stage 4 also validates master and analysis themes
+   before writing output, so stale or manually edited data cannot add categories.
 5. Verify book matches and recommend related episodes (part of the analysis script).
 6. Enrich mentioned people with Wikipedia, fetch missing book details for the
    episode, and generate missing biographies for its cast. Existing biographies

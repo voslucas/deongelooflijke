@@ -137,7 +137,9 @@ def test_every_static_cover_location_uses_local_images(library):
         assert 'covers.openlibrary.org' not in html
         assert 'data-fb=' not in html
     assert pages[0].count('/data/book_covers/') == 1
-    assert pages[1].count('/data/book_covers/') == 12
+    # Year rankings repeat these covers in inert templates. Count the visible
+    # overview; the provider-URL checks above cover the templates as well.
+    assert pages[1].split('<template', 1)[0].count('/data/book_covers/') == 12
     assert pages[2].count('/data/book_covers/') == 11  # Hero plus ten recommendations.
     assert '<img' not in pages[3]
 

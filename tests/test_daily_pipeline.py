@@ -171,7 +171,7 @@ def test_main_extraction_is_preserved_when_related_episode_lookup_fails(monkeypa
     monkeypatch.setattr(analysis, '_recommend_similar', Mock(side_effect=RuntimeError('API unavailable')))
     client = Mock()
     client.messages.create.return_value = SimpleNamespace(
-        stop_reason='end_turn', content=[SimpleNamespace(type='text', text='{"summary_tldr": "Saved summary"}')],
+        stop_reason='end_turn', content=[SimpleNamespace(type='text', text='{"themes": [], "summary_tldr": "Saved summary"}')],
         usage=SimpleNamespace(input_tokens=200, output_tokens=100),
     )
     result = analysis.analyse_episode('327', client, 'test-model', 'system',
@@ -192,7 +192,7 @@ def test_similar_only_preserves_existing_extraction_and_enrichment(tmp_path, mon
     monkeypatch.setattr(analysis, '_verify_books', Mock(side_effect=AssertionError('Must not rematch books')))
     related = [{'n': 1, 'reason': 'Gedeeld onderwerp'}]
     monkeypatch.setattr(analysis, '_recommend_similar', Mock(return_value=related))
-    original = {'episode': 327, 'summary_tldr': 'Preserve this', 'model': 'original-model',
+    original = {'episode': 327, 'themes': [], 'summary_tldr': 'Preserve this', 'model': 'original-model',
                 'usage': {'input_tokens': 50689}, 'books': [{'isbn13': '123'}],
                 'people': [{'name': 'Jezus', 'wiki_checked': True}],
                 'similar': [], 'similar_status': 'failed', 'similar_error': 'old error'}

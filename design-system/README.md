@@ -25,6 +25,9 @@ Built from the brand's public sources (7 Nov 2026): the Substack theme's CSS var
 
 ## Typography
 
+Web fonts are self-hosted from `assets/fonts/`, including their OFL licenses.
+Both site builders copy these files into their output; no font requests go to Google.
+
 - **Lora** (Google Fonts) — display and headings, 600–700. The Substack's heading preset (“fancy serif”).
 - **Spectral** (Google Fonts) — body and quotes, 400. The Substack's body preset (“classic serif”).
 - **System UI sans** — numbers, labels, filters, tables. Episode numbers and durations always set here with tabular numerals.
@@ -37,6 +40,17 @@ Built from the brand's public sources (7 Nov 2026): the Substack theme's CSS var
 - No stock photography; guest portraits are not part of the system.
 
 ## Usage
+
+### Website icons
+
+`assets/icons/` contains the browser ICO and PNG favicons, Apple touch icons,
+192px/512px home-screen icons (including padded Android maskable variants),
+Windows tiles, `site.webmanifest` and `browserconfig.xml`. Both site builders
+publish these at the site root and add shared metadata from `scripts/site_icons.py`.
+The original artwork and halo are preserved. Regenerate after changing the logo
+or brand colors with `python scripts/generate_site_icons.py` (requires Pillow).
+The manifest supplies shortcut/install identity; offline functionality requires
+separate implementation.
 
 ```css
 body { background: var(--parchment); color: var(--ink); font: 18px/1.6 "Spectral", Georgia, serif; }

@@ -22,6 +22,9 @@ from PIL import Image, ImageOps
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MAX_BYTES = 8 * 1024 * 1024
 RETRY_SECONDS = 24 * 3600
+# Average-hash fingerprint of Google's 128x170 "image not available" response.
+# It is a valid, sufficiently large image, so dimension checks alone miss it.
+_GOOGLE_PLACEHOLDER_HASH = 0xffffffffffffffffc003c001ea7ffc1ff81ffdfff007f007ffffffffffffffff
 
 
 def clean_url(url):
@@ -104,6 +107,11 @@ def normalize_image(payload):
     with Image.open(io.BytesIO(payload)) as original:
         if original.width < 40 or original.height < 60:
             raise ValueError('cover is a tiny placeholder')
+        pixels = original.convert('L').resize((16, 16)).tobytes()
+        mean = sum(pixels) / len(pixels)
+        signature = sum(1 << i for i, value in enumerate(pixels) if value > mean)
+        if (signature ^ _GOOGLE_PLACEHOLDER_HASH).bit_count() <= 3:
+            raise ValueError('Google Books image-not-available placeholder')
         image = ImageOps.exif_transpose(original).convert('RGB')
         image.thumbnail((640, 960))
         output = io.BytesIO()
