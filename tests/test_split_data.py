@@ -167,6 +167,10 @@ class TestFullRun(unittest.TestCase):
         sd.TRANSCRIPTS_DIR = self.root / 'data' / 'transcripts'
         sd.ANALYSIS_DIR = self.root / 'data' / 'analysis'
         sd.BOOKS_DIR = self.root / 'data' / 'books'
+        sd.ANALYSIS_DIR.mkdir()
+        for key in ('327', '1', 'xspec1'):
+            (sd.ANALYSIS_DIR / f'{key}.json').write_text(
+                json.dumps({'summary_tldr': 'Analysed episode.'}), encoding='utf-8')
 
     def tearDown(self):
         sd.ROOT = self.orig_root

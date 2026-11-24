@@ -2,7 +2,7 @@
 
 Outputs:
   site/dist/data/episodes/{key}.json   — all fields + pre-computed kw
-  site/dist/data/index.json            — episode keys list (for --all-missing flag)
+  site/dist/data/index.json            — published episode keys (analysed episodes only)
   site/dist/data/speakers.json         — aggregated speaker stats ([] if no transcripts)
   site/dist/data/books.json            — book mention aggregates ([] if no transcripts)
   site/dist/data/places.json           — place mention aggregates ([] if no transcripts)
@@ -325,12 +325,6 @@ def main():
     data = json.loads(EPISODES_JSON.read_text(encoding='utf-8'))
     eps = data['eps']
 
-    # Compute TF-IDF keywords for all episodes
-    compute_tfidf(eps)
-
-    # Build lookup for aggregates
-    eps_by_key = {ep_key(e): e for e in eps}
-
     # Load analysis files (keyed by episode number string)
     an_by_key = {}
     if ANALYSIS_DIR.exists():
@@ -350,8 +344,23 @@ def main():
         if 'themes' in an:
             validate_themes(an['themes'], context=f'Analysis #{key}')
 
+    # Gate publication before keyword scoring or any statistics. Keep the master
+    # catalogue intact so the processing pipeline can still discover new shows.
+    eligible = {key for key, an in an_by_key.items() if any(an.values())}
+    skipped = [ep_key(e) for e in eps if ep_key(e) not in eligible]
+    if skipped:
+        print(f'  Withholding episodes without analysis: {", ".join(skipped)}')
+    eps = [e for e in eps if ep_key(e) in eligible]
+    eps_by_key = {ep_key(e): e for e in eps}
+    an_by_key = {key: an for key, an in an_by_key.items() if key in eps_by_key}
+    compute_tfidf(eps)
+
     ep_dir = OUT_DIR / 'episodes'
     ep_dir.mkdir(parents=True, exist_ok=True)
+    # Repeated builds must not retain files for episodes no longer eligible.
+    for stale in ep_dir.glob('*.json'):
+        if stale.stem not in eps_by_key:
+            stale.unlink()
 
     # Write per-episode files (all fields + kw + optional analysis)
     keys = []
@@ -374,7 +383,7 @@ def main():
         path.write_text(json.dumps(entry, ensure_ascii=False, separators=(',', ':')),
                         encoding='utf-8')
 
-    # Write index.json (episode keys list for --all-missing transcription)
+    # Write the authoritative publication index (processing uses the master).
     (OUT_DIR / 'index.json').write_text(
         json.dumps(keys, ensure_ascii=False, separators=(',', ':')),
         encoding='utf-8'
@@ -384,6 +393,8 @@ def main():
     transcripts = []
     if TRANSCRIPTS_DIR.exists():
         for f in sorted(TRANSCRIPTS_DIR.glob('*.json')):
+            if f.stem not in eps_by_key:
+                continue
             try:
                 tr = json.loads(f.read_text(encoding='utf-8'))
                 transcripts.append(tr)

@@ -60,12 +60,14 @@ def test_clean_ci_build_publishes_transcripts_word_index_and_person_details(tmp_
         path.write_text(json.dumps(data), encoding='utf-8')
 
     episode = json.loads((ROOT / 'tests/fixtures/sample_episode.json').read_text(encoding='utf-8'))
-    write('data/episodes.json', {'eps': [episode], 'bios': {}, 'built': '2026-11-22'})
+    write('data/episodes.json', {'eps': [episode, dict(episode, n=328)], 'bios': {}, 'built': '2026-11-22'})
     transcript = {'episode': 327, 'speakers': [{'id': 'S1', 'name': 'David Boogerd'}],
                   'segments': [{'speaker': 'S1', 'start': 0, 'end': 3, 'text': 'Test transcript.'}]}
     write('data/transcripts/327.json', transcript)
     words = {'327': {'geloof': 3}}
     write('data/word_index.json', words)
+    write('data/transcripts/328.json', dict(transcript, episode=328))
+    write('data/word_index.json', {**words, '328': {'unpublished': 99}})
     write('data/analysis/327.json', {'people': [{'name': 'Karl Marx'}]})
     write('data/persons_mentioned/karl-marx.json', {
         'name': 'Karl Marx', 'notes': ['Distinctive source detail'],
@@ -100,8 +102,15 @@ def test_clean_ci_build_publishes_transcripts_word_index_and_person_details(tmp_
                     tmp_path / 'design-system/assets/icons')
     monkeypatch.setattr(site, 'ROOT', tmp_path)
     out = tmp_path / 'site/static'
+    write('site/static/data/transcripts/328.json', {'stale': True})
+    stale_page = out / 'aflevering/328/index.html'
+    stale_page.parent.mkdir(parents=True, exist_ok=True)
+    stale_page.write_text('Stale episode', encoding='utf-8')
     monkeypatch.setattr(sys, 'argv', ['5b_build_site.py', '--offline', '--output-dir', str(out)])
     site.main()
+    assert not stale_page.exists()
+    assert not (out / 'data/transcripts/328.json').exists()
+    assert '/aflevering/328/' not in (out / 'sitemap.xml').read_text(encoding='utf-8')
 
     home = (out / 'index.html').read_text(encoding='utf-8')
     assert 'href="/assets/fonts/fonts.css"' in home

@@ -79,7 +79,12 @@ Install dependencies from `requirements.txt`, plus pytest, and install spaCy's
 The agreed rollout is #328 locally, then #329 and #330 in Actions. Episode #331 is
 held in `data/pipeline-settings.json`; both automatic and explicit processing
 refuse held keys. Remove that key when ready to release the hold. Its feed record
-can still appear on the site, without a transcript or analysis.
+remains in the master catalogue for processing, but is withheld from publication
+until a readable analysis with nonempty extracted content exists. Stage 4 applies
+this gate before keyword scoring and all episode, speaker and mention aggregates.
+Missing, malformed, empty and metadata-only analyses do not publish an episode.
+Static pages, transcripts and the served word index use the same published keys;
+incremental builds also remove stale episode pages and split records.
 
 Older episodes are **not** automatically reanalysed. A future archive reanalysis
 requires a separate decision and an explicit forced run. A normal pending run

@@ -172,6 +172,8 @@ def load_data(dist_data: pathlib.Path) -> 'SiteData':
     ep_dir = dist_data / 'episodes'
     if ep_dir.exists():
         for f in ep_dir.glob('*.json'):
+            if idx_path.exists() and f.stem not in d.index:
+                continue
             try:
                 ep = json.loads(f.read_text(encoding='utf-8'))
                 d.episodes[ep_key(ep)] = ep
@@ -229,7 +231,7 @@ def load_data(dist_data: pathlib.Path) -> 'SiteData':
                 pass
 
     # Build ordered episode list
-    ordered_keys = d.index if d.index else sorted(
+    ordered_keys = d.index if idx_path.exists() else sorted(
         d.episodes.keys(), key=lambda k: -(d.episodes[k].get('n') or 0))
     d.all_eps  = [d.episodes[k] for k in ordered_keys if k in d.episodes]
     d.reg_eps  = [e for e in d.all_eps if e.get('f') not in ('Trailer','Spin-off')]
@@ -2212,16 +2214,26 @@ def copy_data_files(dist_data: pathlib.Path, out: pathlib.Path,
     # builder that used to populate these ignored intermediate directories.
     tx_src = root / 'data' / 'transcripts'
     tx_dst = out_data / 'transcripts'
+    index_path = dist_data / 'index.json'
+    published = set(json.loads(index_path.read_text(encoding='utf-8'))) if index_path.exists() else None
+    if published is not None and tx_dst.exists():
+        for stale in tx_dst.glob('*.json'):
+            if stale.stem not in published:
+                stale.unlink()
     if tx_src.exists():
         tx_dst.mkdir(parents=True, exist_ok=True)
         n = sum(1 for f in tx_src.glob('*.json')
+                if published is None or f.stem in published
                 if shutil.copy2(f, tx_dst / f.name) is None or True)
         print(f'  transcripts: {n} files -> {tx_dst}')
 
     # Word index
     wi = root / 'data' / 'word_index.json'
     if wi.exists():
-        shutil.copy2(wi, out_data / 'word_index.json')
+        words = json.loads(wi.read_text(encoding='utf-8'))
+        if published is not None:
+            words = {key: value for key, value in words.items() if key in published}
+        (out_data / 'word_index.json').write_text(json.dumps(words, ensure_ascii=False), encoding='utf-8')
         print(f'  word_index.json ({wi.stat().st_size // 1024} KB) -> {out_data}')
 
     # Guest/host portraits. Match the centered object-fit:cover crop used by
@@ -2389,6 +2401,11 @@ def main():
     print('Loading site data...')
     data = load_data(dist_data)
     _BUILT_DATE = data.built or _BUILT_DATE
+
+    # Remove generated pages for withheld episodes on incremental local builds.
+    for stale in (out / 'aflevering').glob('*/index.html'):
+        if stale.parent.name not in data.ep_by_key:
+            stale.unlink()
 
     # Build all pages
     print(f'Building {len(data.all_eps)} episode pages...')
