@@ -102,6 +102,17 @@ python scripts/4_split_data.py && python scripts/5_build_site.py
 
 ### Voice-based speaker identification (optional)
 
+For interactive line-by-line corrections, run the Python GUI:
+
+```powershell
+.venv\Scripts\python.exe gui-tools/diarization_editor.py
+```
+
+Listen to a line, select its speaker and mark trusted examples. **FIX** builds
+temporary Resemblyzer profiles and proposes assignments; **SAVE** writes the
+displayed corrections with a backup. See [Diarization correction GUI](docs/diarization-editor.md)
+for setup, repeated correction rounds and audio/cache details.
+
 After installing the venv, you can build voice profiles for David and Stefan so future transcriptions are identified automatically:
 
 ```bash
