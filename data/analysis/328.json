@@ -1,0 +1,583 @@
+{
+  "episode": 328,
+  "analyzed": "2026-11-24",
+  "model": "claude-haiku-5-5",
+  "transcript_input": {
+    "characters": 118840,
+    "segments": 1264,
+    "truncated": false
+  },
+  "usage": {
+    "input_tokens": 60145,
+    "output_tokens": 11842,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3321
+  },
+  "themes": [
+    "Politiek",
+    "God & geloof",
+    "Amerika & Trump",
+    "Zingeving & psyche"
+  ],
+  "guests": [
+    "Tinneke Beeckman"
+  ],
+  "people": [
+    {
+      "name": "Francis Fukuyama",
+      "note": "Amerikaans politicoloog; auteur van 'Het einde van de geschiedenis' en de 'laatste mens'",
+      "start_seconds": 488,
+      "mention_count": 10,
+      "wiki_checked": true,
+      "wiki_pageid": 64081,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Francis_Fukuyama",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Francis_Fukuyama_2015_%28cropped%29.jpg/240px-Francis_Fukuyama_2015_%28cropped%29.jpg"
+    },
+    {
+      "name": "Donald Trump",
+      "note": "Amerikaans president; bij Fukuyama als uitvergroting van het liberale denken",
+      "start_seconds": 114,
+      "mention_count": 14,
+      "wiki_checked": true,
+      "wiki_pageid": 52648,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Donald_Trump",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/240px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+    },
+    {
+      "name": "François Mitterrand",
+      "note": "Franse president; zei dat hij de laatste grote president was",
+      "start_seconds": 855,
+      "mention_count": 6,
+      "wiki_checked": true,
+      "wiki_pageid": 5807,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/President_Fran%C3%A7ois_Mitterrand_in_1983.jpg/250px-President_Fran%C3%A7ois_Mitterrand_in_1983.jpg"
+    },
+    {
+      "name": "Michail Gorbatsjov",
+      "note": "Sovjetleider; perestrojka en glasnost tijdens de reis van de familie",
+      "start_seconds": 169,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 1038700,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Michail_Gorbatsjov",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg/240px-Mikhail_Gorbachev%2C_Reykjav%C3%ADk_summit%2C_1986.jpg"
+    },
+    {
+      "name": "Ronald Reagan",
+      "note": "Amerikaans president in de jaren tachtig; betrokken bij de dreiging van kernwapens",
+      "start_seconds": 438,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 3644,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Ronald_Reagan",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/240px-Official_Portrait_of_President_Reagan_1981.jpg"
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "note": "Duitse filosoof; erkenning als menselijk verlangen",
+      "start_seconds": 699,
+      "mention_count": 2,
+      "wiki_checked": true,
+      "wiki_pageid": 16725,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hegel_portrait_by_Schlesinger_1831.jpg/240px-Hegel_portrait_by_Schlesinger_1831.jpg"
+    },
+    {
+      "name": "John Locke",
+      "note": "Engelse liberale denker; zelfbehoud als onvervreemdbaar recht",
+      "start_seconds": 631,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 5679,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/John_Locke_%28filosoof%29",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/240px-John_Locke.jpg"
+    },
+    {
+      "name": "Augustinus",
+      "note": "Kerkvader; genoemd in Neem de tijd",
+      "start_seconds": 4005,
+      "mention_count": 3,
+      "wiki_checked": true,
+      "wiki_pageid": 32451,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Augustinus_van_Hippo",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/240px-Augustine_Lateran.jpg"
+    },
+    {
+      "name": "Jesaja",
+      "note": "Profeet uit de Bijbel",
+      "start_seconds": 4016,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 453779,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Jesaja_%28profeet%29",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Isaiah-Michelangelo.jpg/240px-Isaiah-Michelangelo.jpg"
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "note": "Franse staatsman en denker; waarschuwde voor eenzaamheid in de democratie",
+      "start_seconds": 3585,
+      "mention_count": 3,
+      "wiki_checked": true,
+      "wiki_pageid": 810131,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Alexis_de_Tocqueville",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Alexis_de_tocqueville.jpg/240px-Alexis_de_tocqueville.jpg"
+    },
+    {
+      "name": "John Stuart Mill",
+      "note": "Negentiende-eeuwse vooruitgangsdenker; koppelde individuele en maatschappelijke vooruitgang",
+      "start_seconds": 3332,
+      "mention_count": 2,
+      "wiki_checked": true,
+      "wiki_pageid": 12471,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/John_Stuart_Mill",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Stuart_Mill_G_F_Watts.jpg/240px-Stuart_Mill_G_F_Watts.jpg"
+    },
+    {
+      "name": "Ayn Rand",
+      "note": "Schrijver die zelfzucht als morele deugd beschreef",
+      "start_seconds": 3380,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 131086,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Ayn_Rand",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ayn_Rand_%281943_Talbot_portrait%29.jpg/240px-Ayn_Rand_%281943_Talbot_portrait%29.jpg"
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "note": "Duitse filosoof; 'Het wezen des christendoms'",
+      "start_seconds": 3849,
+      "mention_count": 4,
+      "wiki_checked": true,
+      "wiki_pageid": 29110,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Ludwig_Feuerbach",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ludwig_feuerbach.jpg/240px-Ludwig_feuerbach.jpg"
+    },
+    {
+      "name": "Baruch Spinoza",
+      "note": "Filosoof; denkt over God en naastenliefde",
+      "start_seconds": 3844,
+      "mention_count": 4,
+      "wiki_checked": true,
+      "wiki_pageid": 16730,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Benedictus_de_Spinoza",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/240px-Spinoza.jpg"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "note": "Filosoof; genoemd naast Feuerbach als studieobject van de gast",
+      "start_seconds": 3849,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 15590,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nietzsche1882.jpg/240px-Nietzsche1882.jpg"
+    },
+    {
+      "name": "Blaise Pascal",
+      "note": "Franse filosoof en schrijver; zou een visioen van Christus hebben gehad",
+      "start_seconds": 4046,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 200,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Blaise_Pascal",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blaise_Pascal_Versailles.JPG/240px-Blaise_Pascal_Versailles.JPG"
+    },
+    {
+      "name": "Hannah Arendt",
+      "note": "Filosofe; begrip nataliteit als nieuw begin",
+      "start_seconds": 4734,
+      "mention_count": 2,
+      "wiki_checked": true,
+      "wiki_pageid": 77407,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Hannah_Arendt",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg/240px-Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg"
+    },
+    {
+      "name": "Jonathan Haidt",
+      "note": "Psycholoog; boek 'The Righteous Mind' over moraal",
+      "start_seconds": 1368,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 5693749,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Jonathan_Haidt",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jonathan_Haidt_2012_03.jpg/240px-Jonathan_Haidt_2012_03.jpg"
+    },
+    {
+      "name": "Chantal Mouffe",
+      "note": "Politiek filosoof; wees op schijnrationaliteit in het politieke denken",
+      "start_seconds": 1250,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 268361,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Chantal_Mouffe",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chantal_Mouffe_2013.jpg/250px-Chantal_Mouffe_2013.jpg"
+    },
+    {
+      "name": "Richard Dawkins",
+      "note": "Bioloog en atheïst; voorbeeld van het atheïsme rond 2005-2006",
+      "start_seconds": 1349,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 282815,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Richard_Dawkins",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Richard_Dawkins_Cooper_Union_Shankbone.jpg/240px-Richard_Dawkins_Cooper_Union_Shankbone.jpg"
+    },
+    {
+      "name": "Josse De Vooght",
+      "note": "Sociaal geograaf die stemgedrag in Nederland onderzoekt",
+      "start_seconds": 964,
+      "mention_count": 1,
+      "wiki_checked": true
+    },
+    {
+      "name": "Jean-Luc Dehaene",
+      "note": "Belgische christendemocratische premier; besparingen voor Maastricht",
+      "start_seconds": 2153,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 38396,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Jean-Luc_Dehaene",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jean-Luc_Dehaene_675_%28cropped%29.jpg/250px-Jean-Luc_Dehaene_675_%28cropped%29.jpg"
+    },
+    {
+      "name": "Barack Obama",
+      "note": "Amerikaans president; geen bankiers veroordeeld na de kredietcrisis",
+      "start_seconds": 2784,
+      "mention_count": 2,
+      "wiki_checked": true,
+      "wiki_pageid": 99117,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Barack_Obama",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/240px-President_Barack_Obama.jpg"
+    },
+    {
+      "name": "Joe Biden",
+      "note": "Amerikaans president; won van Trump",
+      "start_seconds": 300,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 458497,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Joe_Biden",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/240px-Joe_Biden_presidential_portrait.jpg"
+    },
+    {
+      "name": "Peter Thiel",
+      "note": "Techondernemer; wil een monopolie in plaats van vrije markt",
+      "start_seconds": 3091,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 4611632,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Peter_Thiel",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Thiel_%282014%29.jpg/240px-Peter_Thiel_%282014%29.jpg"
+    },
+    {
+      "name": "Marine Le Pen",
+      "note": "Franse politica; pleitte voor een lagere pensioenleeftijd",
+      "start_seconds": 2037,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 791772,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Marine_Le_Pen",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/240px-Marine_Le_Pen_2025_%28cropped%29.jpg"
+    },
+    {
+      "name": "Annick De Ridder",
+      "note": "Vlaamse minister van Mobiliteit; zei dat jongeren naar bedrijven moeten kijken voor klimaatoplossingen",
+      "start_seconds": 3053,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 1173815,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Annick_De_Ridder",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Minister_De_Ridder_aan_de_Scheldekaaien.jpg/250px-Minister_De_Ridder_aan_de_Scheldekaaien.jpg"
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "note": "Franse president; noemde zichzelf een 'superpresident'",
+      "start_seconds": 1908,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 333785,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Nicolas_Sarkozy",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Nicolas_Sarkozy_in_2010_%28cropped_3%29.jpg/250px-Nicolas_Sarkozy_in_2010_%28cropped_3%29.jpg"
+    },
+    {
+      "name": "François Hollande",
+      "note": "Franse president; de 'normale' president",
+      "start_seconds": 1921,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 550332,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Fran%C3%A7ois_Hollande",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Fran%C3%A7ois_Hollande_-_2017_%2827869823159%29_%28cropped_2%29.jpg/250px-Fran%C3%A7ois_Hollande_-_2017_%2827869823159%29_%28cropped_2%29.jpg"
+    },
+    {
+      "name": "Jacques Chirac",
+      "note": "Franse president; beschreven als gezapig",
+      "start_seconds": 1903,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 35804,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Jacques_Chirac",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jacques_Chirac%2C_Nice_Summit%2C_december_2000.jpg/250px-Jacques_Chirac%2C_Nice_Summit%2C_december_2000.jpg"
+    },
+    {
+      "name": "Charles de Gaulle",
+      "note": "Franse staatsman; 'mijn maîtresse is Frankrijk'",
+      "start_seconds": 849,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 28167,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Charles_de_Gaulle",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/De_Gaulle_1961_%28cropped%29.jpg/250px-De_Gaulle_1961_%28cropped%29.jpg"
+    },
+    {
+      "name": "Kader Abdolah",
+      "note": "Schrijver; eerdere gast waarover een reactie kwam over geloof",
+      "start_seconds": 1422,
+      "mention_count": 1,
+      "wiki_checked": true,
+      "wiki_pageid": 117991,
+      "wiki_lang": "nl",
+      "wiki_url": "https://nl.wikipedia.org/wiki/Kader_Abdolah",
+      "wiki_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kader_abdolah_oct08_by_sander_bakkes_%28cropped%29.jpg/240px-Kader_abdolah_oct08_by_sander_bakkes_%28cropped%29.jpg"
+    }
+  ],
+  "books": [
+    {
+      "title": "Neem de tijd",
+      "author": "Tinneke Beeckman",
+      "note": "Nieuw boek over de politieke verbeelding van de toekomst",
+      "start_seconds": 104
+    },
+    {
+      "title": "Het einde van de geschiedenis",
+      "author": "Francis Fukuyama",
+      "note": "Idee dat liberale democratie het eindpunt van de geschiedenis is",
+      "start_seconds": 488,
+      "volume_id": "zilrPwAACAAJ",
+      "canonical_title": "Het einde van de geschiedenis en de laatste mens",
+      "canonical_author": "Francis Fukuyama, Anna Kapteijns-Bacuna",
+      "isbn13": "9789025401283",
+      "isbn10": "9025401287",
+      "thumbnail": ""
+    },
+    {
+      "title": "Macht en onmacht",
+      "author": "Tinneke Beeckman",
+      "note": "Tweede boek over machteloosheid, ook over complotdenken",
+      "start_seconds": 1667,
+      "volume_id": "e2iZoAEACAAJ",
+      "canonical_title": "Macht en onmacht",
+      "canonical_author": "Tinneke Beeckman",
+      "isbn13": "9789085426097",
+      "isbn10": "908542609X",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Righteous Mind",
+      "author": "Jonathan Haidt",
+      "note": "Boek over moraal dat de gast over pluraliteit deed heroverwegen",
+      "start_seconds": 1368,
+      "volume_id": "ItuzJhbcpMIC",
+      "canonical_title": "The Righteous Mind",
+      "canonical_author": "Jonathan Haidt",
+      "isbn13": "9780307907035",
+      "isbn10": "0307907031",
+      "thumbnail": "http://books.google.com/books/content?id=ItuzJhbcpMIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "title": "Ken jezelf",
+      "author": "Tinneke Beeckman",
+      "note": "Vorig boek over de filosofische zoektocht naar het zelf",
+      "start_seconds": 3635,
+      "volume_id": "_U1U0AEACAAJ",
+      "canonical_title": "Ken jezelf",
+      "canonical_author": "Tinneke Beeckman",
+      "isbn13": "9789024439591",
+      "isbn10": "9024439590",
+      "thumbnail": ""
+    },
+    {
+      "title": "Het wezen des christendoms",
+      "author": "Ludwig Feuerbach",
+      "note": "Werk waarin het christendom als vorm van menselijke liefde wordt gelezen",
+      "start_seconds": 3861,
+      "volume_id": "d1Gd0QEACAAJ",
+      "canonical_title": "Het wezen van het christendom",
+      "canonical_author": "Ludwig A. Feuerbach",
+      "isbn13": "9789463404259",
+      "isbn10": "9463404252",
+      "thumbnail": ""
+    }
+  ],
+  "bible_refs": [
+    {
+      "ref": "Jesaja 9:5",
+      "note": "Kerstvers 'Want een kind is ons geboren', door de gast betrokken bij het idee van nataliteit",
+      "start_seconds": 4725
+    }
+  ],
+  "places": [
+    "Moskou",
+    "Sint-Petersburg",
+    "Frankrijk",
+    "Vlaanderen",
+    "België",
+    "Nederland",
+    "Amerika",
+    "Texas",
+    "Zwolle"
+  ],
+  "summary_tldr": "Tinneke Beeckman betoogt dat het liberale vooruitgangsgeloof na het einde van de Koude Oorlog heeft geleid tot een 'laatste mens' die veilig en comfortabel wil leven, maar weinig idealen en offers kent. Haar analyse richt zich op technocratie, de kiezer als consument, crisispolitiek en de privatisering van de toekomst, waardoor politiek vastloopt en verlies geen taal krijgt. Het gesprek eindigt bij verbeelding, geduld en vertrouwen als manieren om toekomst weer voor te stellen, mede vanuit een christelijke en filosofische achtergrond.",
+  "summary_points": [
+    "Het optimisme van de jaren negentig, na de val van het communisme, ging uit van het Westen als model en een lineaire vooruitgang.",
+    "Fukuyama's 'laatste mens' beschrijft een comfortabel, veilig bestaan zonder heroïek of hoger ideaal, wat volgens Beeckman een gevolg is van het liberalisme.",
+    "Erkenningsverlangen kan ontsporen in megalothymia (superioriteit) of isothymia (gelijkmaking), wat verklaart waarom populisme aanslaat.",
+    "Politiek is technocratisch geworden: experts en modellen nemen de plaats in van het algemeen belang en het middenveld is verdwenen.",
+    "De kiezer is een consument geworden die beloftes beoordeelt, waardoor politici geen offers meer durven te vragen.",
+    "Crisis volgt op crisis, waardoor de politiek op de korte termijn reageert en lange termijnvragen zoals klimaat laten liggen.",
+    "De toekomst is geprivatiseerd: het individu moet zichzelf ontwikkelen, wat leidt tot machteloosheid, schuldgevoelens en leegte.",
+    "Beeckman wijst op een generatiekloof: jongeren hebben na 9/11, corona en crises een ander toekomstbeeld dan oudere bestuurders.",
+    "Ondanks haar opvoeding zonder doop merkt Beeckman dat het christelijke erfgoed (naastenliefde, gelijkheid) in de cultuur blijft voortleven.",
+    "Verbeelding, geduld en vertrouwen worden genoemd als deugden om weer verantwoord naar de toekomst te kijken."
+  ],
+  "chapters": [
+    {
+      "start_seconds": 0,
+      "title": "Inleiding: de laatste mens en Trump",
+      "summary": "Beeckman introduceert het idee van de laatste mens en de Amerikaanse verkiezingen worden besproken als mogelijk einde van een tijdperk."
+    },
+    {
+      "start_seconds": 148,
+      "title": "Sovjet-Unie en het optimisme van de jaren negentig",
+      "summary": "Beeckman vertelt over haar reis naar de Sovjet-Unie en het optimisme na de val van het communisme, met Fukuyama's visie van het Westen als eindpunt."
+    },
+    {
+      "start_seconds": 660,
+      "title": "Erkenning, liberalisme en de laatste mens",
+      "summary": "Fukuyama's verlangen naar erkenning, megalothymia en isothymia worden uitgelegd, en het gemis van een publiek ideaal als res publica."
+    },
+    {
+      "start_seconds": 1040,
+      "title": "Technocratie, blinde vlekken en moraliseren",
+      "summary": "Modellen en experts blijken blinde vlekken te hebben, en andersdenkenden worden als irrationeel weggezet, terwijl het gemoraliseer en de vooruitgangsladder worden bekritiseerd."
+    },
+    {
+      "start_seconds": 1740,
+      "title": "Consumentenkiezers en vastgelopen politiek",
+      "summary": "Mitterrand, de Franse presidentiële traditie en het verlies van het middenveld leiden tot een politiek waarin beloftes en crisisbeheer de boventoon voeren."
+    },
+    {
+      "start_seconds": 2940,
+      "title": "Generatiekloof en de privatisering van de toekomst",
+      "summary": "Jongeren hebben een ander toekomstbeeld dan oudere generaties, en de toekomst is geprivatiseerd tot een individuele opgave met machteloosheid als gevolg."
+    },
+    {
+      "start_seconds": 3825,
+      "title": "Religie, Feuerbach en cultuurchristendom",
+      "summary": "Beeckman vertelt over haar ongedoopte opvoeding, haar lezing van Feuerbach en Spinoza en hoe christelijke ideeën in de cultuur blijven doorwerken."
+    },
+    {
+      "start_seconds": 4421,
+      "title": "Pluraliteit, geloof en verbeelding als slot",
+      "summary": "Het gesprek gaat over respect voor andere overtuigingen en eindigt bij geduld, vertrouwen en verbeelding, met Arendts nataliteit en Jesaja 9:5."
+    }
+  ],
+  "highlights": [
+    {
+      "start_seconds": 661,
+      "speaker": "Tinneke Beeckman",
+      "text": "Kijk, dat liberalisme creëert ook de laatste mens: een mens die thuis wil zitten, veilig wil zijn, maar door niks meer wordt uitgedaagd.",
+      "note": "Samenvatting van Fukuyama's waarschuwing, die de kern van het gesprek vormt."
+    },
+    {
+      "start_seconds": 2036,
+      "speaker": "Tinneke Beeckman",
+      "text": "Niemand kan een offer vragen. Zelfs Marine Le Pen kan niet in naam van patriottisme zeggen dat het zwaar wordt.",
+      "note": "Scherpe diagnose dat politici geen offers meer durven te vragen aan de kiezer."
+    },
+    {
+      "start_seconds": 2497,
+      "speaker": "Tinneke Beeckman",
+      "text": "Juist voor het verlies is er geen taal.",
+      "note": "Verlies heeft geen plaats in de publieke ruimte, wat volgens haar bijdraagt aan populisme."
+    },
+    {
+      "start_seconds": 4716,
+      "speaker": "David Boogerd",
+      "text": "Misschien is dat uiteindelijk de betekenis van politiek: niet de kunst om de toekomst te voorspellen, maar de verbeelding opbrengen om iets te beginnen wat nog niet bestaat.",
+      "note": "Samenvatting van het slot van Beeckmans boek en de kern van haar hoop."
+    }
+  ],
+  "keywords": [
+    "laatste mens",
+    "Fukuyama",
+    "einde van de geschiedenis",
+    "liberalisme",
+    "technocratie",
+    "erkenning",
+    "crisispolitiek",
+    "verbeelding",
+    "privatisering van de toekomst",
+    "nataliteit",
+    "cultuurchristendom",
+    "individualisme"
+  ],
+  "quotes": [
+    "Ik kan het christendom wel verlaten, maar het verlaat mij niet."
+  ],
+  "similar": [
+    {
+      "n": 285,
+      "reason": "Crisis van het Westen en politieke onvrede, net als het vastlopen van politiek"
+    },
+    {
+      "n": 291,
+      "reason": "Liberalisme en vrijheid als politiek-filosofisch thema, vergelijkbaar met het vooruitgangsgeloof"
+    },
+    {
+      "n": 247,
+      "reason": "Jonathan Haidt wordt in beide afleveringen besproken; gaat over geestelijke crisis door technologie"
+    },
+    {
+      "n": 303,
+      "reason": "Politiek vastgelopen, een land zonder ziel en zingevingsvraagstukken"
+    },
+    {
+      "n": 318,
+      "reason": "Diepere crisis van het Westen en de onbalans in het moderne denken"
+    }
+  ],
+  "similar_status": "complete",
+  "similar_model": "claude-haiku-5-5"
+}
