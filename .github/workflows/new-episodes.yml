@@ -50,8 +50,7 @@ jobs:
       - name: Process pending episodes and all enrichment stages
         if: steps.detect.outputs.has_pending == 'true'
         env:
-          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
-          AZURE_SPEECH_ENDPOINT: ${{ secrets.AZURE_SPEECH_ENDPOINT }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
         run: python scripts/process_new_episodes.py --all-pending

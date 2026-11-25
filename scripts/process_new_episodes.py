@@ -72,7 +72,7 @@ def process_episode(key):
 
     def transcribe():
         if not transcript.exists():
-            run('transcribe_azure.py', '--episode', key)
+            run('transcribe.py', '--episode', key)
         if not transcript.exists():
             raise RuntimeError(f'Transcription did not produce episode {key}')
 

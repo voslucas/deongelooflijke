@@ -63,8 +63,8 @@ providers, specify a separate file or directory:
 
 `--all-missing` checks the chosen output directory (default `data/transcripts`).
 Unnumbered episodes use `x` plus their feed ID. HTTP 429 is retried once after
-`Retry-After`; failed runs return a nonzero exit status. The existing scheduled
-pipeline continues to select MAI; use this entry point to run Scribe explicitly.
+`Retry-After`; failed runs return a nonzero exit status. The scheduled pipeline
+uses this entry point and receives the `ELEVENLABS_API_KEY` Actions secret.
 
 ## Live verification (24 November 2026)
 

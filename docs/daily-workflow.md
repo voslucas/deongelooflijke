@@ -14,7 +14,8 @@ when downloading fails; daily processing fails visibly instead of using stale da
 1. Download the feed and run stages 1–3 to refresh feed snapshots and master records.
 2. Find missing transcripts/analyses and unfinished processing records. Unnumbered
    episodes use their canonical `x{id}` keys. Existing archive analyses are preserved.
-3. Transcribe each pending episode with Azure, then attempt voice identification.
+3. Transcribe each pending episode with ElevenLabs Scribe v3 (`transcribe.py
+   --episode {key}`), then attempt voice identification with `--apply`.
 4. Analyse the **complete timestamped transcript, including speaker names**, using
    `claude-haiku-5-5`. There is no character cutoff. The saved `transcript_input`
    records character/segment counts and `truncated: false`. Output reaching its
@@ -43,12 +44,9 @@ records a warning if it fails. No catalogue match for a book is a valid outcome;
 missing reference material is not invented. Audio is deleted after successful
 episode processing. Failed jobs can retain local audio until the runner is removed.
 
-Azure upload progress is reported separately from transcription: percentage,
-bytes, average MB/s and elapsed time count the multipart request as it is sent.
-After the final chunk, the script prints `Upload finished ...; waiting for Azure
-to finish transcription ...`. This remains one HTTP request; the waiting phase
-has no server-side completion percentage. Both httpx and the requests fallback
-stream the file rather than buffering the entire multipart body in memory.
+Scribe downloads and caches the episode MP3, then uploads it to the batch
+transcription endpoint with `model_id=scribe_v3` and the expected speaker count.
+The standalone `transcribe_azure.py` remains available for manual MAI runs.
 
 ## Local verification and rollout
 
@@ -71,7 +69,7 @@ $env:PYTHONUNBUFFERED='1'
 ```
 
 Stop if any command fails. Credentials are loaded from local `.env` files, or
-provided by Actions secrets: `AZURE_SPEECH_KEY`, `AZURE_SPEECH_ENDPOINT`,
+provided by Actions secrets: `ELEVENLABS_API_KEY`,
 `CLAUDE_API_KEY` (passed as `ANTHROPIC_API_KEY`) and optional `GOOGLE_BOOKS_API_KEY`.
 Install dependencies from `requirements.txt`, plus pytest, and install spaCy's
 `nl_core_news_sm` model. Actions installs that Dutch model explicitly.

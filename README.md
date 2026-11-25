@@ -52,6 +52,7 @@ scripts/
   fix_speaker_counts.py      Remove excess Azure diarization speakers (dry-run or --apply)
   build_voice_profiles.py    Build Resemblyzer voice profiles from a known episode
   identify_speakers.py       Apply voice profiles to re-identify speakers in a transcript
+  reidentify_segments.py     Recheck each transcript line against the known speakers
   bootstrap_profiles.py      Iteratively bootstrap voice profiles across all transcribed episodes
   scrape_nbv21.py            Scrape NBV21 Bible verse text → data/bible/ (requires Playwright)
 docs/
@@ -113,6 +114,34 @@ python scripts/identify_speakers.py --episode 327 --dry-run
 # Apply to any episode
 python scripts/identify_speakers.py --episode 42 --apply
 ```
+
+Once the top-level speaker names are correct and every participant has a stored
+voice profile, recheck the audio of each individual transcript line:
+
+```bash
+# Preview changes and export all line scores for review
+python scripts/reidentify_segments.py --episode 42 --report data/speaker-reviews/42.json
+
+# Save accepted line corrections (creates a timestamped transcript backup)
+python scripts/reidentify_segments.py --episode 42 --apply
+```
+
+This compares each segment independently against only the profiles named in
+`speakers[]`, changing `segments[].speaker` to the best match. Names, text and
+timestamps are preserved. All episode speakers must have profiles; missing ones
+cause an error rather than excluding a candidate. Build missing profiles from
+verified, correctly labelled audio using `build_voice_profiles.py`.
+
+Defaults are `--threshold 0.85`, `--margin 0` and `--min-seconds 0` (no duration
+cutoff). Every line with usable speech, including short lines, is compared with
+all episode profiles. The highest score wins if it is at least 0.85. Ties, scores
+below the threshold, empty speech and invalid audio retain the original speaker.
+An optional positive `--margin` requires a lead over the second-best match;
+`--min-seconds` can explicitly enable a duration cutoff. Similarity
+scores are cosine similarities, not probabilities; review proposed changes before
+applying. These defaults are starting points, not calibrated accuracy guarantees.
+Each line receives one label; the script cannot split a line containing multiple
+voices or resolve overlapping speech. It does not update voice profiles.
 
 To scale up, `bootstrap_profiles.py` iterates through all transcribed episodes and identifies speakers by elimination (when exactly one speaker per episode lacks a profile), writing corrections and new profiles each round:
 

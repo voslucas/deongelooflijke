@@ -77,6 +77,43 @@ def test_pending_includes_unfinished_and_unnumbered_but_preserves_legacy(tmp_pat
     assert pipeline.pending_episodes(tmp_path) == ['329', '330', 'xnew']
 
 
+@pytest.mark.parametrize('existing_transcript', [False, True])
+def test_pipeline_uses_scribe_then_identifies_before_analysis(tmp_path, monkeypatch, existing_transcript):
+    monkeypatch.setattr(pipeline, 'ROOT', tmp_path)
+    monkeypatch.setattr(pipeline, 'STATUS_DIR', tmp_path / 'data/processing')
+    transcript = tmp_path / 'data/transcripts/328.json'
+    if existing_transcript:
+        write_json(transcript, {'source': {'model': 'azure/mai-transcribe-2'}})
+    calls = []
+
+    def run(script, *args):
+        calls.append((script, args))
+        if script == 'transcribe.py':
+            write_json(transcript, {'source': {'model': 'elevenlabs/scribe_v3'}})
+            audio = tmp_path / 'data/mp3/328.mp3'
+            audio.parent.mkdir(parents=True, exist_ok=True)
+            audio.write_bytes(b'audio')
+        if script == 'analyze_episode.py':
+            write_json(tmp_path / 'data/analysis/328.json', {'summary_tldr': 'Summary'})
+        if script == '9_build_word_index.py':
+            write_json(tmp_path / 'data/word_index.json', {'328': {}})
+
+    monkeypatch.setattr(pipeline, 'run', run)
+    pipeline.process_episode('328')
+    expected = [] if existing_transcript else [('transcribe.py', ('--episode', '328'))]
+    expected += [('identify_speakers.py', ('--episode', '328', '--apply')),
+                 ('analyze_episode.py', ('--episode', '328')),
+                 ('8_enrich_people_wiki.py', ('--episode', '328')),
+                 ('9_enrich_books_detail.py', ('--episode', '328')),
+                 ('enrich_guest_bios.py', ('--episode', '328')),
+                 ('9_build_word_index.py', ('--episode', '328')),
+                 ('10_collect_persons.py', ())]
+    assert calls == expected
+    model = json.loads(transcript.read_text(encoding='utf-8'))['source']['model']
+    assert model == ('azure/mai-transcribe-2' if existing_transcript else 'elevenlabs/scribe_v3')
+    assert not (tmp_path / 'data/mp3/328.mp3').exists()
+
+
 def test_failed_stage_resumes_without_repeating_completed_work(tmp_path, monkeypatch):
     monkeypatch.setattr(pipeline, 'ROOT', tmp_path)
     monkeypatch.setattr(pipeline, 'STATUS_DIR', tmp_path / 'data/processing')
